@@ -7,9 +7,9 @@ description: Quando ricevi una notifica su un aggiornamento in [!DNL Adobe] [!DN
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b39c53b5-02b6-4c13-9f25-83cb3e3096d8
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -52,9 +52,9 @@ Prima di poter creare un&#39;attività [!DNL Workfront] in [!DNL Google Workspac
 
 ## Rispondi a una notifica di aggiornamento da [!DNL Google Workspace]
 
-1. Se il pannello [!UICONTROL Workfront for Google Workspace] non è visualizzato, fare clic sull&#39;icona [!DNL Workfront] ![](assets/wf-lion-icon.png) nella barra laterale dei componenti aggiuntivi [!DNL Google Workspace] all&#39;estrema destra della pagina.
+1. Se il pannello [!UICONTROL Workfront for Google Workspace] non è visualizzato, fare clic sull&#39;icona [!DNL Workfront] ![icona Workfront](assets/wf-lion-icon.png) nella barra laterale dei componenti aggiuntivi [!DNL Google Workspace] all&#39;estrema destra della pagina.
 1. Aprire la notifica e-mail [!DNL Workfront] contenente l&#39;aggiornamento.
-1. Nella parte inferiore del pannello [!UICONTROL Workfront per Google Workspace], fai clic su **[!UICONTROL Post a comment]**, quindi digita la tua risposta.
+1. Nella parte inferiore del pannello [!UICONTROL Workfront per Google Workspace], fai clic su **[!UICONTROL Pubblica un commento]**, quindi digita la tua risposta.
 1. (Facoltativo) Per informare determinati utenti della tua risposta, fai clic su **[!DNL Notify people and teams]**, inizia a digitare un nome, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
    È possibile ripetere questo passaggio per qualsiasi altro nome che si desidera aggiungere.

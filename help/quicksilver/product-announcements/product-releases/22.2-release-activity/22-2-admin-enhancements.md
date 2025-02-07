@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 55fb0b85-937d-4903-8a64-6f627dd4291f
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ In precedenza, i moduli personalizzati erano completamente basati su testo.
 
 ## Nuove configurazioni del livello di accesso predefinito
 
-Per soddisfare al meglio le esigenze della maggior parte degli amministratori che creano nuovi livelli di accesso, abbiamo modificato la configurazione predefinita per le opzioni &quot;Ottimizza impostazioni&quot; elencate di seguito. Questi vengono visualizzati quando si fa clic sull&#39;icona a forma di ingranaggio ![](assets/gear-icon-in-access-levels.png) su un pulsante Modifica.
+Per soddisfare al meglio le esigenze della maggior parte degli amministratori che creano nuovi livelli di accesso, abbiamo modificato la configurazione predefinita per le opzioni &quot;Ottimizza impostazioni&quot; elencate di seguito. Questi vengono visualizzati quando si fa clic sull&#39;icona a forma di ingranaggio ![Icona a livelli di accesso](assets/gear-icon-in-access-levels.png) su un pulsante Modifica.
 
 Tutte queste modifiche disabilitano un&#39;opzione precedentemente abilitata per impostazione predefinita. Se non soddisfa le esigenze della tua organizzazione, puoi abilitarle quando imposti un nuovo livello di accesso o in qualsiasi momento successivo.
 
@@ -100,7 +100,7 @@ Quando installi una blueprint, un messaggio ora visualizza gli oggetti specifici
 
 Per ulteriori informazioni, vedere [Installare una blueprint](../../../administration-and-setup/blueprints/blueprints-install.md).
 
-![](assets/blueprints-installation-history-350x95.png)
+![Cronologia installazione blueprint](assets/blueprints-installation-history-350x95.png)
 
 ## Ora viene visualizzato un avviso durante l’installazione di una blueprint di sola anteprima in Produzione
 

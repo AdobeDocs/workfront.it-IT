@@ -7,9 +7,9 @@ description: È possibile aggiornare un progetto, un’attività o un problema e
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -52,8 +52,8 @@ Prima di poter aggiornare un elemento [!DNL Workfront] utilizzando il contenuto 
 
 ## Aggiorna un elemento [!DNL Workfront] utilizzando il contenuto dell&#39;e-mail da [!DNL Google Workspace]
 
-1. Se il pannello [!UICONTROL Workfront for Google Workspace] non è visualizzato, fare clic sull&#39;icona di Workfront ![](assets/wf-lion-icon.png) nella barra laterale dei componenti aggiuntivi di [!DNL Google Workspace] all&#39;estrema destra della pagina.
-1. Con il messaggio di posta elettronica aperto in [!DNL Google Workspace], fai clic su **[!UICONTROL Post come nuovo aggiornamento]** nel pannello [!DNL Google Workspace].
+1. Se il pannello [!UICONTROL Workfront for Google Workspace] non è visualizzato, fare clic sull&#39;icona di Workfront ![icona Workfront](assets/wf-lion-icon.png) nella barra laterale dei componenti aggiuntivi [!DNL Google Workspace] all&#39;estrema destra della pagina.
+1. Con il messaggio di posta elettronica aperto in [!DNL Google Workspace], fai clic su **[!UICONTROL Pubblica come nuovo aggiornamento]** nel pannello [!DNL Google Workspace].
 1. In **[!UICONTROL Tipo]** fare clic sulla freccia dell&#39;elenco a discesa, quindi sul tipo di oggetto in cui si desidera aggiungere l&#39;aggiornamento.
 1. Fai clic sull&#39;opzione **[!UICONTROL Cerca]**, inizia a digitare il nome dell&#39;oggetto in cui desideri aggiungere l&#39;aggiornamento, quindi seleziona l&#39;elemento quando viene visualizzato nell&#39;elenco seguente.
 

@@ -6,9 +6,9 @@ description: È possibile visualizzare informazioni su progetti, attività, prob
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: a53a716f-4faf-4ea7-a4fc-ad8d87634267
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Fai clic sull&#39;icona **[!UICONTROL Menu]** in alto a destra, quindi seleziona **[!UICONTROL Elenco lavori]**. È inoltre possibile utilizzare il menu per passare agli oggetti padre.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Torna all&#39;elenco di lavoro](assets/go-back-to-work-list-350x314.png)
 
 1. Selezionare l&#39;elemento di lavoro da visualizzare.
 
@@ -74,7 +74,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
    >Utilizza l&#39;icona **[!UICONTROL Menu]** per passare agli oggetti principali dell&#39;elemento di lavoro.
 
-1. Fai clic sull&#39;icona **[!UICONTROL Dettagli]** ![](assets/details.png) nella barra di navigazione per visualizzare:
+1. Fai clic sull&#39;icona **[!UICONTROL Dettagli]** ![Dettagli](assets/details.png) nella barra di navigazione per visualizzare:
 
    * [!UICONTROL Descrizione]
    * [!UICONTROL Data di completamento Pianificata]
@@ -87,7 +87,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Fai clic sull&#39;icona **[!UICONTROL Menu]** in alto a destra, quindi seleziona **[!UICONTROL Elenco lavori]**. È inoltre possibile utilizzare il menu per passare agli oggetti padre.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Torna all&#39;elenco di lavoro](assets/go-back-to-work-list-350x314.png)
 
 1. Selezionare l&#39;elemento di lavoro da visualizzare.
 
@@ -95,7 +95,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
    >Utilizza l&#39;icona **[!UICONTROL Menu]** per passare agli oggetti principali dell&#39;elemento di lavoro.
 
-1. Fai clic sull&#39;icona **[!UICONTROL Documento]** ![](assets/documents.png) nella barra di navigazione, quindi fai doppio clic su un documento per visualizzare:
+1. Fai clic sull&#39;icona **[!UICONTROL Documento]** ![Icona documento](assets/documents.png) nella barra di navigazione, quindi fai doppio clic su un documento per visualizzarlo:
 
    * [!UICONTROL Descrizione]
    * [!UICONTROL Tipo file]
@@ -108,7 +108,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Fai clic sull&#39;icona **[!UICONTROL Menu]** in alto a destra, quindi seleziona **[!UICONTROL Elenco lavori]**. È inoltre possibile utilizzare il menu per passare agli oggetti padre.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Torna all&#39;elenco di lavoro](assets/go-back-to-work-list-350x314.png)
 
 1. Selezionare l&#39;elemento di lavoro da visualizzare.
 
@@ -116,7 +116,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
    >Utilizza l&#39;icona **[!UICONTROL Menu]** per passare agli oggetti principali dell&#39;elemento di lavoro.
 
-1. Fai clic sull&#39;icona **[!UICONTROL Documento]** ![](assets/documents.png) nella barra di navigazione, quindi fai doppio clic su una bozza.
+1. Fai clic sull&#39;icona **[!UICONTROL Documento]** ![Icona documento](assets/documents.png) nella barra di navigazione, quindi fai doppio clic su una bozza.
 
 1. Fare clic sull&#39;icona freccia nell&#39;angolo superiore destro della miniatura per aprire i dettagli della bozza in [!DNL Workfront].
 
@@ -126,7 +126,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Fai clic sull&#39;icona **[!UICONTROL Menu]** in alto a destra, quindi seleziona **[!UICONTROL Elenco lavori]**. È inoltre possibile utilizzare il menu per passare agli oggetti padre.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Torna all&#39;elenco di lavoro](assets/go-back-to-work-list-350x314.png)
 
 1. Selezionare l&#39;elemento di lavoro da visualizzare.
 
@@ -134,17 +134,17 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
    >Utilizza l&#39;icona **[!UICONTROL Menu]** per passare agli oggetti principali dell&#39;elemento di lavoro.
 
-1. Fai clic sull&#39;icona **[!UICONTROL Documento]** ![](assets/documents.png) nella barra di navigazione, quindi fai doppio clic su una bozza.
+1. Fai clic sull&#39;icona **[!UICONTROL Documento]** ![Icona documento](assets/documents.png) nella barra di navigazione, quindi fai doppio clic su una bozza.
 
 1. Scorri verso il basso per visualizzare lo stato corrente della bozza. Per ulteriori informazioni sui dettagli Inviato, Aperto, Commento, Decisione (SOCD), vedere [Panoramica dei dettagli del documento](/help/quicksilver/documents/managing-documents/document-details-overview.md).
 
-![](assets/proof-status.png)
+![Stato bozza](assets/proof-status.png)
 
 ## Visualizza le sottoattività e i problemi
 
 1. Fai clic sull&#39;icona **[!UICONTROL Menu]** in alto a destra, quindi seleziona **[!UICONTROL Elenco lavori]**. È inoltre possibile utilizzare il menu per passare agli oggetti padre.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Torna all&#39;elenco di lavoro](assets/go-back-to-work-list-350x314.png)
 
 1. Selezionare l&#39;elemento di lavoro da visualizzare.
 
@@ -152,9 +152,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
    >Utilizza l&#39;icona **[!UICONTROL Menu]** per passare agli oggetti principali dell&#39;elemento di lavoro.
 
-1. Fai clic sull&#39;icona **[!UICONTROL Problema]** ![](assets/issues.png) o **Sottoattività** ![](assets/subtasks.png).
+1. Fai clic sull&#39;icona **[!UICONTROL Problema]** ![Problemi icona](assets/issues.png) o **Sottoattività** icona ![Sottoattività icona](assets/subtasks.png).
 
-1. Seleziona l&#39;attività o il problema, quindi fai clic sull&#39;icona **[!UICONTROL Dettagli]** ![](assets/details.png) nella barra di navigazione per visualizzare:
+1. Seleziona l&#39;attività o il problema, quindi fai clic sull&#39;icona **[!UICONTROL Dettagli]** ![Dettagli](assets/details.png) nella barra di navigazione per visualizzare:
 
    * [!UICONTROL Data di completamento Pianificata]
    * [!UICONTROL Stato]

@@ -6,10 +6,10 @@ description: Puoi rimanere nelle applicazioni Adobe Creative Cloud e completare 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 0%
+source-wordcount: '290'
+ht-degree: 1%
 
 ---
 
@@ -60,7 +60,7 @@ Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contatta
 
 1. Fai clic sull&#39;icona **[!UICONTROL Menu]** in alto a destra, quindi seleziona **[!UICONTROL Elenco lavori]**. È inoltre possibile utilizzare il menu per passare agli oggetti padre.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Torna all&#39;elenco di lavoro](assets/go-back-to-work-list-350x314.png)
 
 1. Dall&#39;**[!UICONTROL Elenco lavori]**, selezionare l&#39;attività o il problema che si desidera contrassegnare come completato.
 1. Fai clic su **[!UICONTROL Fine]**.  Se sei l&#39;unico utente assegnato a questa attività o problema, l&#39;elemento verrà contrassegnato come [!UICONTROL Completo] o [!UICONTROL Risolto] in [!DNL Workfront].
@@ -75,6 +75,6 @@ Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contatta
    >[!NOTE]
    >
    >Se l&#39;elemento di lavoro ha predecessori, il pulsante Fine è grigio finché tali predecessori non vengono contrassegnati come completati. Per visualizzare i predecessori all&#39;interno di [!DNL Workfront], fare clic sul nome dell&#39;attività.
-   >![](assets/navigate-to-workfront.png)
+   >![Passa a Workfront](assets/navigate-to-workfront.png)
 
-<!-- I dont think we need this one ![](assets/complete-work-350x529.png) -->
+<!-- I dont think we need this one ![Complete work](assets/complete-work-350x529.png) -->

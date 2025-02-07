@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: dcb7dadb-4dd8-48da-a559-cbe8ad99ff9e
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '362'
 ht-degree: 1%
 
 ---
@@ -22,12 +22,12 @@ Quando utilizzi l’API core di Adobe Workfront, API Explorer è uno strumento d
 ## Accedi a API Explorer:
 
 1. Utilizza un browser Web per passare a [API Explorer](https://developer.adobe.com/workfront/api-explorer/)\
-   ![](assets/mceclip1-350x149.png)
+   ![Passare a API Explorer](assets/mceclip1-350x149.png)
 
 1. In alto a destra in API Explorer, seleziona la **versione API** di Workfront desiderata; per impostazione predefinita, viene selezionata automaticamente la versione più recente
 1. Il campo **Filtro**, può essere utilizzato per filtrare gli oggetti elencati per nome e tronca l&#39;elenco di oggetti visualizzato di conseguenza:
 
-   ![](assets/mceclip2-350x147.png)
+   ![Campi API Explorer](assets/mceclip2-350x147.png)
 
    * **Campi**: campi disponibili nell&#39;oggetto specificato.
    * **Riferimenti**: variabili di riferimento disponibili per l&#39;oggetto specificato. Un riferimento è un alias per una variabile. Una volta inizializzato, un riferimento può essere utilizzato in modo intercambiabile con il nome della variabile. Un riferimento utilizza la memoria inizializzata.
@@ -36,7 +36,7 @@ Quando utilizzi l’API core di Adobe Workfront, API Explorer è uno strumento d
    * **Azioni**: azioni supportate per l&#39;oggetto. Le azioni possono essere procedure semplici o complesse che vengono eseguite su una risorsa o un set di risorse. Una determinata azione può influire anche sulle risorse correlate.
 
 1. Apri una scheda, quindi fai clic sull’ID oggetto per visualizzare le variabili applicabili.\
-   ![](assets/approval-350x89.png)\
+   ![Visualizza variabili](assets/approval-350x89.png)\
    A seconda dell’oggetto selezionato, possono essere applicate le seguenti variabili:
 
    | Variabile | Definizione |

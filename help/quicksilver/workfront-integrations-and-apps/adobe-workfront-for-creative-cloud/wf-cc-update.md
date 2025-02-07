@@ -6,10 +6,10 @@ description: Puoi aggiornare il tuo lavoro con il plug-in Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 2%
+source-wordcount: '224'
+ht-degree: 3%
 
 ---
 
@@ -86,11 +86,11 @@ Per pubblicare un aggiornamento:
 
 1. Fai clic sull&#39;icona **[!UICONTROL Menu]** in alto a destra, quindi seleziona **[!UICONTROL Elenco lavori]**. È inoltre possibile utilizzare il menu per passare agli oggetti padre.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Torna all&#39;elenco di lavoro](assets/go-back-to-work-list-350x314.png)
 
 1. Dalla **[!UICONTROL Elenco lavori]**, seleziona l&#39;elemento di lavoro a cui pubblicare un aggiornamento.
 1. Fai clic su **[!UICONTROL Aggiorna]** nella barra di navigazione.\
-   ![](assets/photoshop-update-350x295.png)
+   ![Aggiornamento Photoshop](assets/photoshop-update-350x295.png)
 
 1. Fai clic su **[!UICONTROL Nuovo aggiornamento]**.
 1. Digita il tuo aggiornamento.

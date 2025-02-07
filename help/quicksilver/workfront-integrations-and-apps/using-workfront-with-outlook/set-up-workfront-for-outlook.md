@@ -6,9 +6,9 @@ description: Il componente aggiuntivo  [!DNL Adobe Workfront] [!DNL Outlook] con
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: bcf03609e0503a5db0384fd573066467a1feb341
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ Per informazioni più dettagliate sugli ambienti supportati, consulta la [[!DNL 
 
 ### [!DNL Workfront] per [!DNL Outlook 365] {#workfront-for-outlook-365}
 
-1. In [!DNL Outlook 365], fai clic sull&#39;icona ![](assets/outlook-add-in-26x26.png)Sfoglia componenti aggiuntivi ]**nella parte superiore dell&#39;interfaccia di Office 365, quindi fai clic su**[!UICONTROL  Gestisci componenti aggiuntivi ]**.**[!UICONTROL 
+1. In [!DNL Outlook 365], fai clic sull&#39;icona **[!UICONTROL Sfoglia componenti aggiuntivi]** ![Sfoglia componenti aggiuntivi](assets/outlook-add-in-26x26.png)nella parte superiore dell&#39;interfaccia di Office 365, quindi fai clic su **[!UICONTROL Gestisci componenti aggiuntivi]**.
 
 1. Nella casella **[!UICONTROL Cerca componenti aggiuntivi]**, cerca **[!DNL Workfront]**, quindi premi [!UICONTROL Invio].
 
@@ -121,7 +121,7 @@ Per informazioni più dettagliate sugli ambienti supportati, consulta la [[!DNL 
 ### [!DNL Workfront] per [!DNL Outlook] sul Web {#workfront-for-outlook-on-the-web}
 
 1. Apri [!DNL Microsoft Outlook] in un browser Web.
-1. Fai clic sull&#39;icona ![](assets/outlook-add-in-web-version-20x20.png) dei componenti aggiuntivi **[!UICONTROL Sfoglia]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Sfoglia] componenti aggiuntivi** ![Sfoglia componenti aggiuntivi](assets/outlook-add-in-web-version-20x20.png).
 
    Per individuare l&#39;icona, vedere [Utilizzo di componenti aggiuntivi in [!DNL Outlook] sul Web](https://support.microsoft.com/en-us/office/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce#bkmk_addaddinsicon) nella documentazione di Microsoft.
 

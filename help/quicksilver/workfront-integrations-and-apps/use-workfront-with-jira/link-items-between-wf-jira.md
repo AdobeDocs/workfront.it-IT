@@ -6,9 +6,9 @@ description: Puoi collegare [!DNL Jira] problemi alle [!DNL Adobe Workfront] att
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: f2169acfbcbf6a1497bd35de01821a09c7b3d59c
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Devi avere i seguenti:
    <td> <p>[!UICONTROL Pro] o versione successiva</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica licenze Adobe [!DNL Workfront]</a>*</td> 
+   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica delle licenze di Adobe [!DNL Workfront]</a>*</td> 
    <td> <p>Piano</p> </td> 
   </tr> 
   <tr> 
@@ -85,7 +85,7 @@ Per collegare automaticamente un&#39;attività [!DNL Workfront] a un problema [!
 
    Per ulteriori informazioni sull&#39;accesso alle attività, vedere [Concedere l&#39;accesso alle attività](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
 
-1. Vai a un progetto e seleziona **[!UICONTROL Attività]** ![](assets/tasks-icon-in-left-panel-14x14.png) nel pannello a sinistra.
+1. Vai a un progetto e seleziona **[!UICONTROL Attività]** ![Attività icona](assets/tasks-icon-in-left-panel-14x14.png) nel pannello a sinistra.
 
 1. Fai clic su **[!UICONTROL Nuova attività]**
 
@@ -144,9 +144,9 @@ Per collegare manualmente [!DNL Jira] problemi a [!DNL Workfront] elementi:
 
    >[!IMPORTANT]
    >
-   >Se la tua organizzazione è stata integrata nell&#39;esperienza unificata Adobe, devi utilizzare il **Numero di riferimento** per collegare elementi Workfront a Jira. L’opzione URL è disponibile, ma se utilizzi restituirà un errore. Per informazioni sull&#39;esperienza unificata, vedere [Adobe di esperienza unificata per Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+   >Se la tua organizzazione è stata integrata in Adobe Unified Experience, devi utilizzare il **Numero di riferimento** per collegare elementi Workfront a Jira. L’opzione URL è disponibile, ma se utilizzi restituirà un errore. Per informazioni sull&#39;esperienza unificata, vedere [Esperienza unificata di Adobe per Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
    >
-   >Per le organizzazioni che non utilizzano l’esperienza unificata di Adobe, non è consigliabile utilizzare l’opzione URL perché gli URL possono cambiare.
+   >Per le organizzazioni che non utilizzano Adobe Unified Experience, non è consigliabile utilizzare l’opzione URL in quanto gli URL possono cambiare.
 
    >[!NOTE]
    >

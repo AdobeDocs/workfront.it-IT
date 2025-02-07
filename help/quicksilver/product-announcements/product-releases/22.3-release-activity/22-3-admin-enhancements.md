@@ -6,10 +6,10 @@ draft: false
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 0%
+source-wordcount: '770'
+ht-degree: 1%
 
 ---
 
@@ -96,7 +96,7 @@ Per ulteriori informazioni, vedere [Configurare le preferenze di progetto a live
 
 ## Disattivare un gruppo dalla pagina Gruppi
 
-Di recente, è stata aggiunta la possibilità di disattivare e riattivare i gruppi. Per rendere l’azione più rapida e semplice, l’abbiamo aggiunta alla pagina di un gruppo. Ora, dopo aver fatto clic sul nome di un gruppo per passare alla relativa pagina, è possibile selezionare il menu Altro ![](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) accanto al nome del gruppo, quindi selezionare Disattiva o Riattiva.
+Di recente, è stata aggiunta la possibilità di disattivare e riattivare i gruppi. Per rendere l’azione più rapida e semplice, l’abbiamo aggiunta alla pagina di un gruppo. Ora, dopo aver fatto clic sul nome di un gruppo per passare alla relativa pagina, è possibile selezionare il menu Altro ![Icona menu principale](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) accanto al nome del gruppo, quindi selezionare Disattiva o Riattiva.
 
 In precedenza, era possibile disattivare o riattivare un gruppo solo utilizzando la casella di controllo È attivo nella relativa pagina Dettagli.
 

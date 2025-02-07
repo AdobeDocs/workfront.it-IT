@@ -6,10 +6,10 @@ description: Potete caricare le vostre tavole da disegno come documenti per una 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 710035f7-339c-457c-b9b0-e51bc0e0061d
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 0%
+source-wordcount: '596'
+ht-degree: 1%
 
 ---
 
@@ -65,10 +65,10 @@ Per istruzioni, vedere [Installa [!DNL Adobe Workfront for XD]](/help/quicksilve
 
 1. Fai clic sull&#39;icona **[!UICONTROL Menu]** in alto a destra, quindi seleziona **[!UICONTROL Elenco lavori]**. È inoltre possibile utilizzare il menu per passare agli oggetti padre.
 
-   ![](assets/menu-350x440.png)
+   ![Icona menu](assets/menu-350x440.png)
 
 1. Passare all&#39;elemento di lavoro in cui si desidera caricare un documento.
-1. Fai clic sull&#39;icona ![](assets/documents.png) del **[!UICONTROL Documento]** nella barra di navigazione.
+1. Fai clic sull&#39;icona **[!UICONTROL Documento]** ![Icona documento](assets/documents.png) nella barra di navigazione.
 
 1. Fai clic su **[!UICONTROL Nuovo file]** nella parte inferiore del plug-in.
 1. Selezionate la tavola da disegno da caricare.
@@ -113,10 +113,10 @@ Per istruzioni, vedere [Installa [!DNL Adobe Workfront for XD]](/help/quicksilve
 
 1. Fai clic sull&#39;icona **[!UICONTROL Menu]** in alto a destra, quindi seleziona **[!UICONTROL Elenco lavori]**. È inoltre possibile utilizzare il menu per passare agli oggetti padre.
 
-   ![](assets/menu-350x440.png)
+   ![Icona menu](assets/menu-350x440.png)
 
 1. Passare all&#39;elemento di lavoro in cui si desidera caricare un documento.
-1. Fai clic sull&#39;icona **[!UICONTROL Documento]** ![](assets/documents.png)nella barra di navigazione.
+1. Fai clic sull&#39;icona **[!UICONTROL Documento]** ![Icona documento](assets/documents.png)nella barra di navigazione.
 
 1. Fare clic sul documento a cui si desidera aggiungere una nuova versione.
 1. Fai clic su **[!UICONTROL Nuova versione]** nella parte inferiore del plug-in.

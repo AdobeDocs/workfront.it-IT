@@ -6,9 +6,9 @@ description: Con la versione 20.3 (prevista per agosto 2020), Adobe Workfront st
 author: Luke
 feature: Product Announcements
 exl-id: 73abd185-81c6-43fc-b8b0-cad14d15b348
-source-git-commit: 9bc394c718becbac2848c2d91ba3202483699b6f
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Con la versione 20.3 (prevista per agosto 2020), Adobe Workfront sta passando a 
 
 Per accedere a questa funzione, accedi come amministratore di sistema e seleziona Configurazione > E-mail > Configurazione. Ecco una schermata che evidenzia la funzione:
 
-![](assets/email-server-settings-350x226.png)
+![Impostazioni server e-mail](assets/email-server-settings-350x226.png)
 
 L’impostazione evidenziata in questa schermata passerà automaticamente all’opzione Workfront Mail Server con la versione 20.3.
 

@@ -4,9 +4,9 @@ description: I seguenti miglioramenti significativi sono stati apportati alla ge
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,17 @@ I seguenti miglioramenti significativi sono stati apportati alla gestione dei mo
 
 Puoi incorporare l’immagine nei moduli personalizzati. Questo consente di comunicare con gli utenti dei moduli personalizzati in modo più interattivo e visivo. Ulteriori tipi di widget saranno presto disponibili.
 
-![](assets/image-in-custom-form.png)
+![Immagine nel modulo personalizzato](assets/image-in-custom-form.png)
 
 Quando a un oggetto viene allegato un modulo personalizzato contenente un widget, gli utenti che utilizzano l&#39;oggetto possono visualizzarlo nelle seguenti aree:
 
 * L’area Dettagli dell’oggetto (ad esempio, per un progetto, l’area Dettagli progetto )&#x200B;
 
-  ![](assets/see-image-details-page.png)
+  ![Dettagli immagine](assets/see-image-details-page.png)
 
 * La casella Modifica dell’oggetto, se presenta il nuovo aspetto dell’esperienza Adobe Workfront (ad esempio le caselle Modifica progetto e Modifica attività)&#x200B;
 
-  ![](assets/image-see-in-edit.png)
+  ![Modifica immagine](assets/image-see-in-edit.png)
 
 Attualmente, gli utenti non possono visualizzare il widget nelle seguenti aree:&#x200B;
 
@@ -42,11 +42,11 @@ Attualmente, gli utenti non possono visualizzare il widget nelle seguenti aree:&
 
 È possibile associare più tipi di oggetto a qualsiasi nuovo modulo personalizzato:
 
-![](assets/new-custom-form-object-types.png)
+![Tipi di oggetti modulo personalizzati](assets/new-custom-form-object-types.png)
 
 Oppure qualsiasi modulo personalizzato esistente:
 
-![](assets/add-object-type-existing-form.png)
+![Aggiungi tipo di oggetto al modulo](assets/add-object-type-existing-form.png)
 
 Questo consente di creare un singolo modulo personalizzato da utilizzare su progetti, attività, problemi e qualsiasi altro tipo di oggetto supportato per i moduli personalizzati.
 
@@ -76,11 +76,11 @@ Quando crei o modifichi un modulo personalizzato con più oggetti, considera qua
 
 Il set di opzioni di autorizzazione per l&#39;interruzione di sezione disponibili per i tipi di oggetto Problema, Attività, Progetto e Utente dispone di un&#39;opzione di autorizzazione in più rispetto al set di opzioni di autorizzazione per tutti gli altri tipi di oggetto: Modifica limitata.
 
-![](assets/section-break-permissions-limited-edit.png)
+![Interruzione di sezione con modifica limitata](assets/section-break-permissions-limited-edit.png)
 
 Il set di autorizzazioni di interruzione di sezione disponibile per tutti gli altri tipi di oggetto (Portfolio, Documento, Programma, Spesa, Società, Iterazione, Record fatturazione e Gruppo) non include la Modifica limitata:
 
-![](assets/section-break-permissions-no-limited-edit.png)
+![Interruzione di sezione senza modifica limitata](assets/section-break-permissions-no-limited-edit.png)
 
 In un modulo personalizzato associato a tipi di oggetto di entrambi questi gruppi, il sistema utilizza un set comune di autorizzazioni di interruzione di sezione che funzionano per tutti i tipi di oggetto. In particolare, anziché utilizzare l&#39;opzione di autorizzazione Modifica limitata, questo set comune sostituisce l&#39;opzione di autorizzazione Modifica con l&#39;opzione di autorizzazione Modifica limitata. L&#39;opzione Modifica è compatibile con tutti i tipi di oggetto.
 

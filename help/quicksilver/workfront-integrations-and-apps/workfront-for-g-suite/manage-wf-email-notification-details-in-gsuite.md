@@ -3,13 +3,13 @@ product-area: workfront-integrations
 keywords: google,documento,documento,foglio,diapositiva
 navigation-topic: workfront-for-g-suite
 title: Gestisci [!DNL Adobe Workfront] dettagli notifica da Google Workspace
-description: In Google Workspace, quando apri un messaggio e-mail di notifica inviato dall'Adobe [!DNL Workfront] puoi visualizzare i dettagli dell'elemento di lavoro associato e rispondere senza uscire dalla Posta in arrivo. Se sono disponibili azioni, ad esempio l’approvazione di una richiesta, è possibile eseguirle direttamente da Workfront per Google Workspace.
+description: In Google Workspace, quando apri un messaggio e-mail di notifica inviato da Adobe [!DNL Workfront] puoi visualizzare i dettagli dell'elemento di lavoro associato e rispondere senza uscire dalla Posta in arrivo. Se sono disponibili azioni, ad esempio l’approvazione di una richiesta, è possibile eseguirle direttamente da Workfront per Google Workspace.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '477'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ Prima di poter gestire i dettagli delle notifiche da [!DNL Google Workspace], è
 
 ## Gestisci dettagli notifica [!DNL Adobe Workfront] da [!DNL Google Workspace]
 
-1. Se il pannello [!DNL Workfront for Google Workspace] non è visualizzato, fai clic sull&#39;icona ![](assets/wf-lion-icon.png) di [!DNL Workfront] nella barra laterale dei componenti aggiuntivi di [!DNL Google Workspace] all&#39;estrema destra della pagina.
+1. Se il pannello [!DNL Workfront for Google Workspace] non è visualizzato, fai clic sull&#39;icona [!DNL Workfront] ![icona Workfront](assets/wf-lion-icon.png) nella barra laterale dei componenti aggiuntivi di [!DNL Google Workspace] all&#39;estrema destra della pagina.
 1. In [!DNL Google Workspace], apri un messaggio e-mail di notifica [!DNL Workfront].
 1. Fai clic su **[!UICONTROL Visualizza tutti gli aggiornamenti]** se è visualizzato nella parte superiore del pannello.
 1. Fare clic su **[!UICONTROL Dettagli]**.

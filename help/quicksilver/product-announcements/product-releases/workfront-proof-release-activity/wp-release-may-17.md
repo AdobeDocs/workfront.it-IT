@@ -2,15 +2,15 @@
 content-type: release-notes
 product-area: Workfront Proof
 navigation-topic: proof-release-activity
-title: "Attività del rilascio di Workfront Proof: settimana del 17 maggio 2021"
+title: 'Attività di rilascio di Workfront Proof: settimana del 17 maggio 2021'
 description: Questa pagina descrive le modifiche apportate a Workfront Proof (applicazione di verifica autonoma). Le modifiche qui descritte non sono applicabili alla funzionalità di verifica all’interno dell’applicazione Adobe Workfront.
 author: Luke
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: 8b148684-28bf-40e8-8014-d6458c8d14e1
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -33,4 +33,4 @@ Per facilitare la gestione dei menu a discesa di grandi dimensioni che elencano 
 
 In precedenza, tutti i menu a discesa per la ricerca dei profili elencavano tutti gli utenti nel sistema, generando un menu di grandi dimensioni.
 
-![](assets/user-profile-typeahead-350x142.png)
+![Automatico profilo utente](assets/user-profile-typeahead-350x142.png)

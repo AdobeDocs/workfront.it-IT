@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 587d1dff-6ef1-4f97-84b9-32a073481d37
-source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,13 @@ L&#39;integrazione diretta in Outlook 365 consente di eliminare il lavoro duplic
 
 Per ulteriori informazioni, consulta:  [Funzionalità resa disponibile in anteprima nel 2016](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
 
-![](assets/mceclip0-350x218.png)\
+![Gestisci lavoro da e-mail](assets/mceclip0-350x218.png)\
 **Riprendi i progetti e stabilisci il budget**
 Gestisci le risorse e il loro utilizzo, mantenendo i progetti sulla strada giusta e nel rispetto del budget, utilizzando il nuovo rapporto Utilizzo. Visualizzare le ore pianificate rispetto a quelle effettive per progetto e ruolo e confrontare regolarmente risorse e reparti.
 
 Per ulteriori informazioni, consulta:  [R1 Anteprima 3](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
 
-![](assets/mceclip1-350x169.png)\
+![Riprendi progetti](assets/mceclip1-350x169.png)\
 **Personalizzazione della terminologia e delle notifiche**
 Rendi Workfront più rilevante per il tuo team sfruttando la funzione di terminologia personalizzata per modificare termini come &quot;Portfolio&quot; o &quot;Progetto&quot; in base al tuo linguaggio preferito, indipendentemente dal settore. Inoltre, ogni utente può ora personalizzare i tipi di notifiche che riceve regolando la propria frequenza di riepilogo.
 
@@ -51,7 +51,7 @@ Le nuove icone di stato dell’avanzamento consentono di ottenere di più dai ra
 
 Per ulteriori informazioni, consulta:  [Anteprima R1 5](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md)
 
-![](assets/mceclip3-350x122.png)
+![Vista milestone](assets/mceclip3-350x122.png)
 
 **Cestino Workfront**
 Il nuovo Cestino di Workfront consente di ripristinare progetti, attività, problemi e tutti i documenti, i moduli e gli aggiornamenti correlati entro 30 giorni dall’eliminazione.
@@ -60,13 +60,13 @@ Per ulteriori informazioni, consulta:  [R1 Anteprima 1 e 2](../../../../product
 
 ### MIGLIORAMENTI DI PROOFHQ {#proofhq-enhancements}
 
-![](assets/mceclip4-350x201.png)\
+![Miglioramenti a ProofHQ](assets/mceclip4-350x201.png)\
 **Ricerca e ricerca bozze**
 La nuova funzionalità di ricerca di ProofHQ consente di cercare e trovare tutte le istanze di una parola o frase direttamente nelle bozze durante la revisione. Questo vale per tutti i documenti basati su testo, inclusi i PDF e i file di Microsoft Word.
 
 Per ulteriori informazioni, consulta:  [R1 Finale](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
 
-![](assets/mceclip5-350x226.png)\
+![Ricerca di bozze e ricerca](assets/mceclip5-350x226.png)\
 **Reporting visivo e visualizzazioni personalizzate avanzate**
 Le nuove metriche di reporting in ProofHQ consentono di monitorare il tempo di risposta, le percentuali di ritardo, il numero di commenti e il tempo alla prima attività. Le nuove viste personalizzate creano una logica di filtro avanzata che ti consente di ottenere i dati esatti nel momento più opportuno.
 
@@ -77,7 +77,7 @@ ProofHQ ora consente di testare le nuove funzioni in un ambiente di anteprima pr
 
 ## MIGLIORAMENTI DI WORKFRONT DAM {#workfront-dam-enhancements}
 
-![](assets/mceclip6-350x195.png)\
+![Miglioramenti di Workfront DAM](assets/mceclip6-350x195.png)\
 **Collegamenti incorporati DAM**
 Per i team di marketing che necessitano di un modo migliore per gestire, pubblicare e monitorare l’utilizzo delle risorse digitali su piattaforme esterne, la funzione dei collegamenti incorporati offre il controllo necessario per gestire il processo di condivisione dei contenuti giusti al momento giusto.
 

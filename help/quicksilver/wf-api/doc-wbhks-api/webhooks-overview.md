@@ -8,9 +8,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 30a3d0cb-51dc-4770-88be-36d8bf232b98
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Adobe Workfront Document Webhooks definisce un set di endpoint API attraverso i quali Workfront effettua chiamate API autorizzate a un provider di documenti esterno. Questo consente a chiunque di creare un plug-in middleware per qualsiasi provider di archiviazione dei documenti.
 
-![](assets/mceclip0-350x262.png)
+![Webhook](assets/mceclip0-350x262.png)
 
 L’esperienza utente per le integrazioni basate su webhook sarà simile a quella delle integrazioni di documenti esistenti, come Google Drive, Box e Dropbox. Ad esempio, un utente di Workfront sarà in grado di eseguire le azioni seguenti:
 

@@ -6,9 +6,9 @@ description: Puoi ricevere notifiche da [!DNL Adobe Workfront] sugli elementi da
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1355'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Per gestire le notifiche [!DNL Workfront] che è possibile ricevere in [!DNL Mic
 1. Fare clic su [!DNL Workfront] nell&#39;elenco visualizzato.
 1. Seleziona la scheda **[!UICONTROL Impostazioni]**.
 
-   ![](assets/ms-teams-settings-tab-350x552.png)
+   ![Scheda Impostazioni MS Teams](assets/ms-teams-settings-tab-350x552.png)
 
 1. Disattiva le notifiche che non desideri ricevere. Puoi abilitare o disabilitare gruppi di notifiche, ad esempio notifiche di informazione o di approvazione, oppure gestire le notifiche singolarmente.
 

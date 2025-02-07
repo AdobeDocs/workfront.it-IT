@@ -6,9 +6,9 @@ description: Puoi caricare le tue bacheche grafiche come documenti per una revis
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: aaca183e-75e5-4a5c-b75b-a7809ccd1274
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -64,16 +64,16 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Fai clic sull&#39;icona **[!UICONTROL Menu]** in alto a destra, quindi seleziona **[!UICONTROL Elenco lavori]**. È inoltre possibile utilizzare il menu per passare agli oggetti padre.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Torna all&#39;elenco di lavoro](assets/go-back-to-work-list-350x314.png)
 
 1. Passare all&#39;elemento di lavoro in cui si desidera caricare un documento.
-1. Fai clic sull&#39;icona ![](assets/documents.png) del **[!UICONTROL Documento]** nella barra di navigazione.
+1. Fai clic sull&#39;icona **[!UICONTROL Documento]** ![Icona documento](assets/documents.png) nella barra di navigazione.
 
 1. Fai clic su **[!UICONTROL Nuovo file]** nella parte inferiore del plug-in.
 1. (Facoltativo) Digita un commento nell&#39;area **[!UICONTROL Aggiornamenti]**.
 1. Scegli il **[!UICONTROL Tipo risorsa]** dal menu a discesa.
 1. Apri la finestra di dialogo **[!UICONTROL Imposta impostazioni file di esportazione]**, quindi configura le opzioni di esportazione desiderate in base al tipo di risorsa scelto in precedenza.
 
-   ![](assets/file-export-settings.png)
+   ![Impostazioni di esportazione file](assets/file-export-settings.png)
 1. Fai clic su **[!UICONTROL Carica]**.
 Il documento verrà visualizzato nell&#39;area [!UICONTROL Documenti] del plug-in e dell&#39;app desktop.

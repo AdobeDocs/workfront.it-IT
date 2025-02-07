@@ -6,9 +6,9 @@ description: Puoi caricare i tuoi progetti come documenti per una revisione e ap
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d26850d8-9594-4848-b263-6f71e6c52e9b
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -64,10 +64,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Fai clic sull&#39;icona **[!UICONTROL Menu]** in alto a destra, quindi seleziona **[!UICONTROL Elenco lavori]**. È inoltre possibile utilizzare il menu per passare agli oggetti padre.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Torna all&#39;elenco di lavoro](assets/go-back-to-work-list-350x314.png)
 
 1. Passare all&#39;elemento di lavoro in cui si desidera caricare un documento.
-1. Fai clic sull&#39;icona ![](assets/documents.png) del **[!UICONTROL Documento]** nella barra di navigazione.
+1. Fai clic sull&#39;icona **[!UICONTROL Documento]** ![Icona documento](assets/documents.png) nella barra di navigazione.
 
 1. Fai clic su **[!UICONTROL Nuovo file]** nella parte inferiore del plug-in.
 1. Scegli il **[!UICONTROL Tipo risorsa]** dal menu a discesa.

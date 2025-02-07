@@ -7,9 +7,9 @@ description: È possibile visualizzare e gestire i documenti associati a un ogge
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 20c9e1a6-fce0-44a2-a4c3-f89c94db6635
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Prima di poter visualizzare o gestire [!DNL Workfront] documenti in [!DNL Google
 
 ## Visualizza e gestisci [!DNL Workfront] documenti in [!DNL Google Workspace]
 
-1. Se il pannello [!UICONTROL Workfront for Google Workspace] non è visualizzato, fare clic sull&#39;icona [!DNL Workfront] ![](assets/wf-lion-icon.png) nella barra laterale dei componenti aggiuntivi [!DNL Google Workspace] all&#39;estrema destra della pagina.
+1. Se il pannello [!UICONTROL Workfront for Google Workspace] non è visualizzato, fare clic sull&#39;icona [!DNL Workfront] ![icona Workfront](assets/wf-lion-icon.png) nella barra laterale dei componenti aggiuntivi [!DNL Google Workspace] all&#39;estrema destra della pagina.
 1. Vai all&#39;attività o al problema [!DNL Workfront] in [!DNL Google Workspace], come descritto in [Accesso [!DNL Adobe Workfront] [!UICONTROL Home] contenuto da [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md).
 1. Fare clic su **[!UICONTROL Documenti]**.
 
@@ -68,11 +68,11 @@ Prima di poter visualizzare o gestire [!DNL Workfront] documenti in [!DNL Google
 
    Se hai bisogno di informazioni sulla pubblicazione di aggiornamenti o risposte, consulta [Aggiornare un oggetto [!DNL Adobe Workfront] da [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md).
 
-1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Scarica]** ![](assets/download-icon.png) per scaricare un documento nell&#39;elenco.
+1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Scarica]** ![Icona Scarica](assets/download-icon.png) per scaricare un documento nell&#39;elenco.
 
    Oppure
 
-   Se il documento viene salvato in un&#39;unità cloud, fare clic sull&#39;icona **[!UICONTROL Apri]** ![](assets/open-icon.png).
+   Se il documento viene salvato in un&#39;unità cloud, fare clic sull&#39;icona **[!UICONTROL Apri]** ![Apri icona](assets/open-icon.png) .
 
 1. Fare clic su **[!UICONTROL Visualizza in Workfront]** per passare alla pagina Dettagli documento relativa al documento in [!DNL Workfront].
 

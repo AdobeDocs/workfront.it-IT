@@ -6,9 +6,9 @@ description: Puoi caricare le tue bacheche grafiche come bozze direttamente in A
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -64,10 +64,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Fai clic sull&#39;icona **[!UICONTROL Menu]** in alto a destra, quindi seleziona **[!UICONTROL Elenco lavori]**. È inoltre possibile utilizzare il menu per passare agli oggetti padre.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Torna all&#39;elenco di lavoro](assets/go-back-to-work-list-350x314.png)
 
 1. Vai all’elemento di lavoro in cui desideri caricare una bozza.
-1. Fai clic sull&#39;icona ![](assets/documents.png) del **[!UICONTROL Documento]** nella barra di navigazione.
+1. Fai clic sull&#39;icona **[!UICONTROL Documento]** ![Icona documento](assets/documents.png) nella barra di navigazione.
 1. Fare clic su **[!UICONTROL Nuovo file]** nella parte inferiore del pannello [!DNL Workfront].
 1. Attiva l&#39;interruttore **[!UICONTROL Crea una bozza]**.
 1. (Facoltativo) Digitare un nome per la bozza nella casella di testo **[!UICONTROL Nome bozza]**.
@@ -75,14 +75,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. (Facoltativo) Aggiungi approvatori.
 1. (Facoltativo) Digita un commento nell&#39;area **[!UICONTROL Aggiornamenti]**.
 
-   ![](assets/add-comment.png)
+   ![Aggiungi un commento](assets/add-comment.png)
 
 1. Scegli il **[!UICONTROL Tipo risorsa]** dal menu a discesa.
 
 1. (Facoltativo) Seleziona **[!UICONTROL Aggiungi file esterno]** per aggiungere un file dal computer.
 1. Fai clic su **[!UICONTROL Carica]**, quindi configura le opzioni di esportazione desiderate in base al tipo di risorsa scelto in precedenza.
 
-   ![](assets/plugin-files-350x307.png)\
+   ![File nel plug-in](assets/plugin-files-350x307.png)\
    Il documento verrà visualizzato nell&#39;area [!UICONTROL Documenti] nel pannello [!DNL Workfront] in [!DNL Photoshop] e nell&#39;app desktop [!DNL Workfront].
 
 
@@ -90,10 +90,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Fai clic sull&#39;icona **[!UICONTROL Menu]** in alto a destra, quindi seleziona **[!UICONTROL Elenco lavori]**. È inoltre possibile utilizzare il menu per passare agli oggetti padre.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Torna all&#39;elenco di lavoro](assets/go-back-to-work-list-350x314.png)
 
 1. Vai all’elemento di lavoro in cui desideri caricare una bozza.
-1. Fai clic sull&#39;icona ![](assets/documents.png) del **[!UICONTROL Documento]** nella barra di navigazione.
+1. Fai clic sull&#39;icona **[!UICONTROL Documento]** ![Icona documento](assets/documents.png) nella barra di navigazione.
 
 1. Fare clic su **[!UICONTROL Nuovo file]** nella parte inferiore del pannello [!DNL Workfront].
 1. Attiva l&#39;interruttore **[!UICONTROL Crea una bozza]**.
@@ -110,7 +110,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. (Facoltativo) Digita un commento nell&#39;area **[!UICONTROL Aggiornamenti]**.
 
-   ![](assets/add-comment-automated-approval.png)
+   ![Aggiungi commento approvazione automatica](assets/add-comment-automated-approval.png)
 
 1. Scegli il **[!UICONTROL Tipo risorsa]** dal menu a discesa.
 1. (Facoltativo) Seleziona **[!UICONTROL Aggiungi file esterno]** per aggiungere un file dal computer.
@@ -123,10 +123,10 @@ Puoi caricare una nuova versione di una bozza. Il plug-in ricorda il flusso di l
 
 1. Fai clic sull&#39;icona **[!UICONTROL Menu]** in alto a destra, quindi seleziona **[!UICONTROL Elenco lavori]**. È inoltre possibile utilizzare il menu per passare agli oggetti padre.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Torna all&#39;elenco di lavoro](assets/go-back-to-work-list-350x314.png)
 
 1. Vai all’elemento di lavoro necessario per caricare un documento in.
-1. Fai clic sull&#39;icona **[!UICONTROL Documento]** ![](assets/documents.png)nella barra di navigazione.
+1. Fai clic sull&#39;icona **[!UICONTROL Documento]** ![Icona documento](assets/documents.png)nella barra di navigazione.
 
 1. Fai clic su **[!UICONTROL Nuova versione]** nella parte inferiore del pannello [!DNL Workfront].
 1. Attiva l&#39;interruttore **[!UICONTROL Crea una bozza]**.

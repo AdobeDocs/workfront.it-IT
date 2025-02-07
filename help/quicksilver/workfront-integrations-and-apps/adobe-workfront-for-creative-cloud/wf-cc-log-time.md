@@ -6,10 +6,10 @@ description: È possibile registrare il tempo per i progetti, le attività e i p
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4c5bd7ca-18f2-4a47-9e79-c39d5852aab5
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 0%
+source-wordcount: '260'
+ht-degree: 1%
 
 ---
 
@@ -68,16 +68,16 @@ Per registrare l’ora utilizzando il plug-in Workfront:
 
 1. Fai clic sull&#39;icona **[!UICONTROL Menu]** in alto a destra, quindi seleziona **[!UICONTROL Elenco lavori]**. È inoltre possibile utilizzare il menu per passare agli oggetti padre.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Torna all&#39;elenco di lavoro](assets/go-back-to-work-list-350x314.png)
 
 1. Dalla **[!UICONTROL Elenco lavori]**, selezionare l&#39;elemento di lavoro a cui si desidera registrare il tempo.
 1. Fai clic su **[!UICONTROL Ora]** nella barra di navigazione.
 
-   ![](assets/log-time-350x337.png)
+   ![Registrare ore](assets/log-time-350x337.png)
 
 1. (Facoltativo) Scegli il **[!UICONTROL Tipo di Ora]** dal menu a discesa.
 1. Immetti l’ora in ore per il giorno necessario.
 
-   ![](assets/copy-of-log-hours-350x236.png)
+   ![Registra ore](assets/copy-of-log-hours-350x236.png)
 
 1. Fai clic su **[!UICONTROL Invia]**.

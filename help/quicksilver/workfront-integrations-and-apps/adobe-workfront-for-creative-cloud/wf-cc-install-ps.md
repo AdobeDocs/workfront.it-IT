@@ -6,9 +6,9 @@ description: Puoi installare il plug-in Adobe Workfront for Photoshop da Adobe M
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '520'
 ht-degree: 1%
 
 ---
@@ -88,7 +88,7 @@ Gli amministratori di [!DNL Adobe Admin Console] possono anche creare pacchetti 
 
 1. Nel menu principale, fai clic su **[!UICONTROL Plug-in]** > **[!UICONTROL Pannello Plug-in]**.
 
-   ![](assets/plugins-panel-ps.png)
+   ![Pannello plug-in](assets/plugins-panel-ps.png)
 
 1. Nel pannello **[!UICONTROL Plugin]**, scegli la scheda **[!UICONTROL Plugin]** e trova **[!UICONTROL Workfront per Adobe Photoshop]**.
 
@@ -107,7 +107,7 @@ Gli amministratori di [!DNL Adobe Admin Console] possono anche creare pacchetti 
    >[!TIP]
    >
    >* Per trovare il dominio, aprire un browser, accedere all&#39;istanza [!DNL Workfront] e copiare la prima parte dell&#39;URL:\
-   >![](assets/domain-350x50.png)
+   >![Individua dominio](assets/domain-350x50.png)
    >
    > * Se la tua istanza di Workfront è integrata con Experience Cloud, chiedi all’amministratore di fornirti il dominio Workfront che si trova in Prodotto > Workfront nell’Admin Console.
 

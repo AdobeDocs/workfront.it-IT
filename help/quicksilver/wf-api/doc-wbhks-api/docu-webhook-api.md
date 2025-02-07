@@ -8,9 +8,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '3620'
+source-wordcount: '3627'
 ht-degree: 2%
 
 ---
@@ -851,10 +851,10 @@ name=Folder B ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 (Data di rilascio: da definire) Questo endpoint consente a un utente di Workfront (o forse a un evento di flusso di lavoro automatizzato) di eseguire un’azione nel sistema esterno. L’endpoint /customAction accetta un parametro &quot;name&quot; che consente al provider del webhook di implementare più operazioni personalizzate.
 
 Il provider webhook registra le azioni personalizzate con Workfront includendo le azioni nella risposta /serviceInfo in customActions. Workfront carica questo elenco durante la configurazione o l’aggiornamento del provider del webhook in Configurazione > Documenti > Integrazioni personalizzate.\
-![](assets/mceclip0-350x262.png)
+![Esegui un&#39;azione personalizzata](assets/mceclip0-350x262.png)
 
 Gli utenti possono attivare l’azione personalizzata selezionando la sezione in &quot;Azioni documento&quot;\
-![](assets/mceclip1-350x95.png)
+![Attiva azioni personalizzate](assets/mceclip1-350x95.png)
 
 **URL**
 

@@ -7,9 +7,9 @@ description: È possibile convertire un'e-mail esterna (non generata da Adobe [!
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 6bbb4301-2791-4d72-bad8-fef63d6e892a
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Prima di poter creare un&#39;attività [!DNL Workfront] in [!DNL Google Workspac
 
 ## Crea un&#39;attività [!DNL Adobe Workfront] in [!DNL Google Workspace] utilizzando il contenuto e-mail
 
-1. Se il pannello [!UICONTROL Workfront for Google Workspace] non è visualizzato, fare clic sull&#39;icona [!DNL Workfront] ![](assets/wf-lion-icon.png) nella barra laterale dei componenti aggiuntivi [!DNL Google Workspace] all&#39;estrema destra della pagina.
+1. Se il pannello [!UICONTROL Workfront for Google Workspace] non è visualizzato, fare clic sull&#39;icona [!DNL Workfront] ![icona Workfront](assets/wf-lion-icon.png) nella barra laterale dei componenti aggiuntivi [!DNL Google Workspace] all&#39;estrema destra della pagina.
 1. Con il messaggio di posta elettronica aperto in [!DNL Google Workspace], fare clic su un&#39;opzione in [!DNL Workfront for Google Workspace] per convertire il messaggio in una nuova attività [!DNL Workfront].
 
 1. Selezionare un&#39;opzione **[!UICONTROL Crea nuovo]** per indicare se l&#39;attività farà parte di un progetto o di un&#39;attività personale indipendente da un progetto.
@@ -116,7 +116,7 @@ Prima di poter creare un&#39;attività [!DNL Workfront] in [!DNL Google Workspac
 
    * Per rispondere a un aggiornamento nella scheda **[!UICONTROL Aggiornamenti]**, fai clic su **[!UICONTROL Rispondi]** e digita la tua risposta.
 
-     Per entrambe le azioni di cui sopra, puoi inviare una notifica a determinati utenti del commento. Fare clic su **[!UICONTROL Notifica]**, iniziare a digitare il nome di un utente, quindi fare clic sul nome quando viene visualizzato nell&#39;elenco a discesa. Ripetere la procedura per gli altri utenti a cui si desidera inviare una notifica, quindi fare clic su **[!UICONTROL Post]**.
+     Per entrambe le azioni di cui sopra, puoi inviare una notifica a determinati utenti del commento. Fare clic su **[!UICONTROL Notifica]**, iniziare a digitare il nome di un utente, quindi fare clic sul nome quando viene visualizzato nell&#39;elenco a discesa. Ripeti questo processo per gli altri utenti a cui vuoi inviare la notifica, quindi fai clic su **[!UICONTROL Post]**.
 
    * Fai clic sulla scheda **[!UICONTROL Documenti]** per visualizzare tutti i documenti salvati con l&#39;attività.
 

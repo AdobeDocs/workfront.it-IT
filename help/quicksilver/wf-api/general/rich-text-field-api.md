@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Alcuni oggetti in Adobe Workfront consentono l’archiviazione di testo con form
 
 Un campo personalizzato con formattazione RTF è denominato **Campo con testo RTF** e può essere associato ai seguenti valori:
 
-![](assets/rich-text-example-350x158.png)
+![Esempio Rich Text](assets/rich-text-example-350x158.png)
 
 **Esempio:** una richiesta di base di GET per recuperare il valore del campo modulo personalizzato **Campo con testo RTF**:
 
@@ -48,7 +48,7 @@ Un blocco è un oggetto JSON che rappresenta una singola riga di testo formattat
 
 **Esempio:** In questo caso, ogni riga di testo da un campo personalizzato viene mappata a un elemento di blocco nei blocchi di matrice
 
-![](assets/copy-of-rich-text-mapping-350x159.png)
+![Mappatura Rich Text](assets/copy-of-rich-text-mapping-350x159.png)
 
 Poiché ogni elemento del blocco è anche un oggetto JSON, ogni blocco è composto dagli elementi: **key**, **text**, **type**, **depth**, **inlineStyleRanges**, **entityRanges** e **data**. Ciascuno di questi elementi funziona come segue:
 
@@ -61,7 +61,7 @@ Poiché ogni elemento del blocco è anche un oggetto JSON, ogni blocco è compos
 
 **Esempio:** Ecco una matrice inlineStyleRanges che descrive ogni stile a livello di carattere. In questo caso: a 9 caratteri (lunghezza: 9) a partire dall&#39;indice 0 (offset: 0) era applicato lo stile **Grassetto**:
 
-![](assets/copy-of-rich-text-mapping-2-350x136.png)
+![Mappatura Rich Text](assets/copy-of-rich-text-mapping-2-350x136.png)
 
 Se a una singola riga sono stati applicati più tipi di formattazione, gli stili verranno mappati su elementi aggiuntivi nell’array** inlineStyleRanges**.
 

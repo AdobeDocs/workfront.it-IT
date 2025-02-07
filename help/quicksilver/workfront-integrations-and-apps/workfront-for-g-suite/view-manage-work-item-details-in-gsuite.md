@@ -7,9 +7,9 @@ description: È possibile visualizzare e gestire i dettagli di un elemento di la
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Prima di poter visualizzare e gestire i dettagli degli elementi di lavoro in [!D
 
 ## Visualizza e gestisci i dettagli dell&#39;elemento di lavoro in [!DNL Google Workspace]
 
-1. Se il pannello [!UICONTROL Workfront for Google Workspace] non è visualizzato, fare clic sull&#39;icona [!DNL Workfront] ![](assets/wf-lion-icon.png) nella barra laterale dei componenti aggiuntivi [!DNL Google Workspace] all&#39;estrema destra della pagina.
+1. Se il pannello [!UICONTROL Workfront for Google Workspace] non è visualizzato, fare clic sull&#39;icona [!DNL Workfront] ![icona Workfront](assets/wf-lion-icon.png) nella barra laterale dei componenti aggiuntivi [!DNL Google Workspace] all&#39;estrema destra della pagina.
 1. Vai all&#39;attività o al problema [!DNL Workfront] in [!DNL Google Workspace], come descritto in [Accesso [!DNL Adobe Workfront] [!UICONTROL Home] contenuto da [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md).
 
    Quando selezioni un&#39;attività o un problema, la scheda **[!UICONTROL Dettagli]** è aperta. Nell&#39;area sopra la scheda **[!UICONTROL Dettagli]** vengono visualizzati il nome dell&#39;oggetto padre, il nome dell&#39;attività o del problema e la [!UICONTROL Data di scadenza] (se si tratta di un&#39;attività) o la [!UICONTROL Data di priorità] (se si tratta di un problema).

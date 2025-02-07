@@ -6,9 +6,9 @@ description: Potete caricare le vostre tavole da disegno come bozze direttamente
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -64,10 +64,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Fai clic sull&#39;icona **[!UICONTROL Menu]** in alto a destra, quindi seleziona **[!UICONTROL Elenco lavori]**. È inoltre possibile utilizzare il menu per passare agli oggetti padre.
 
-   ![](assets/menu-350x440.png)
+   ![Icona menu](assets/menu-350x440.png)
 
 1. Vai all’elemento di lavoro in cui desideri caricare una bozza statica.
-1. Fai clic sull&#39;icona ![](assets/documents.png) del **[!UICONTROL Documento]** nella barra di navigazione.
+1. Fai clic sull&#39;icona **[!UICONTROL Documento]** ![Icona documento](assets/documents.png) nella barra di navigazione.
 
 1. Fai clic su **[!UICONTROL Nuovo file]** nella parte inferiore del plug-in.
 1. Selezionate le tavole da disegno da caricare.
@@ -108,7 +108,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. (Facoltativo) Digita un commento nell&#39;area **[!UICONTROL Aggiornamenti]**.
 
-   ![](assets/proof-approvals-xd-350x396.png)
+   ![Approvazioni bozze in XD](assets/proof-approvals-xd-350x396.png)
 
 1. Scegliere il formato di esportazione dal menu a discesa **[!UICONTROL Tipo risorsa]**.
 
@@ -117,7 +117,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. (Facoltativo) Denomina il PDF.
 
-   ![](assets/pdf-options.png)
+   ![Opzioni PDF](assets/pdf-options.png)
 
 1. Fai clic su **[!UICONTROL Carica]**.\
    Il documento verrà visualizzato nell&#39;area [!UICONTROL Documenti] del plug-in e dell&#39;app desktop.
@@ -149,10 +149,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Fai clic sull&#39;icona **[!UICONTROL Menu]** in alto a destra, quindi seleziona **[!UICONTROL Elenco lavori]**. È inoltre possibile utilizzare il menu per passare agli oggetti padre.
 
-   ![](assets/menu-350x440.png)
+   ![Icona menu](assets/menu-350x440.png)
 
 1. Vai all’elemento di lavoro in cui desideri caricare una bozza interattiva.
-1. Fai clic sull&#39;icona ![](assets/documents.png) del **[!UICONTROL Documento]** nella barra di navigazione.
+1. Fai clic sull&#39;icona **[!UICONTROL Documento]** ![Icona documento](assets/documents.png) nella barra di navigazione.
 
 1. Fai clic su **[!UICONTROL Nuovo file]** nella parte inferiore del plug-in.
 1. Abilita **[!UICONTROL Crea una bozza]**.
@@ -184,10 +184,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. (Facoltativo) Digita un commento nell&#39;area **[!UICONTROL Aggiornamenti]**.
 
-   ![](assets/proof-approvals-xd-350x396.png)
+   ![Approvazioni bozze in XD](assets/proof-approvals-xd-350x396.png)
 
 1. Nel menu a discesa **[!UICONTROL Tipo risorsa]**, scegli il collegamento appena creato nella scheda **Collegamenti condivisi**. Per ulteriori informazioni, vedere [Creare un collegamento interattivo per la tavola da disegno](#create-an-interactive-link-for-your-artboard).\
-   ![](assets/shared-links-xd-350x870.png)
+   ![Collegamenti condivisi in XD](assets/shared-links-xd-350x870.png)
 
 1. Fai clic su **[!UICONTROL Carica]**.
 
@@ -203,10 +203,10 @@ Puoi caricare una nuova versione di una bozza. Il plug-in ricorda il flusso di l
 
 1. Fai clic sull&#39;icona **[!UICONTROL Menu]** in alto a destra, quindi seleziona **[!UICONTROL Elenco lavori]**. È inoltre possibile utilizzare il menu per passare agli oggetti padre.
 
-   ![](assets/menu-350x440.png)
+   ![Icona menu](assets/menu-350x440.png)
 
 1. Vai all’elemento di lavoro necessario per caricare un documento in.
-1. Fai clic sull&#39;icona **[!UICONTROL Documento]** ![](assets/documents.png)nella barra di navigazione.
+1. Fai clic sull&#39;icona **[!UICONTROL Documento]** ![Icona documento](assets/documents.png)nella barra di navigazione.
 
 1. Fai clic su **[!UICONTROL Nuova versione]** nella parte inferiore del plug-in.
 1. Abilita **[!UICONTROL Crea una bozza]**.
@@ -243,17 +243,17 @@ Puoi caricare una nuova versione di una bozza. Il plug-in ricorda il flusso di l
 
 1. Scegliere il formato di esportazione dal menu a discesa **[!UICONTROL Tipo risorsa]**.
 
-   ![](assets/create-a-proof-xd-350x202.png)
+   ![Crea una bozza in XD](assets/create-a-proof-xd-350x202.png)
 
 1. (Facoltativo) Digita un commento nell&#39;area **[!UICONTROL Aggiornamenti]**.
 
-   ![](assets/proof-approvals-xd-350x396.png)
+   ![Approvazioni bozze in XD](assets/proof-approvals-xd-350x396.png)
 
 1. (Facoltativo) Se selezioni PDF come tipo di risorsa e hai selezionato più di una tavola da disegno, scegli se desideri esportare le tue tavole da disegno come **[!UICONTROL File di PDF singola]s** o **M[!UICONTROL File di PDF multiple]**.
 
 1. (Facoltativo) Denomina il PDF.
 
-   ![](assets/pdf-options.png)
+   Opzioni PDF
 
 1. Fai clic su **[!UICONTROL Carica]**.\
    Il documento verrà visualizzato nell&#39;area [!UICONTROL Documenti] del plug-in e dell&#39;app desktop.

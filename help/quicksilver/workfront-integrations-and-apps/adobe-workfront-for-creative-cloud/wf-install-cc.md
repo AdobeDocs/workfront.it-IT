@@ -6,9 +6,9 @@ description: Puoi installare  [!DNL Adobe Workfront for design and video]  da Ad
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '540'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,7 @@ Gli amministratori di [!DNL Adobe Admin Console] possono anche creare pacchetti 
    >
    >Se utilizzi Premiere Pro, devi avere un progetto aperto per accedere a questo menu.
 
-   ![](assets/adobe-workfront-menu.png)
+   ![Menu Workfront](assets/adobe-workfront-menu.png)
 
 
    >[!TIP]
@@ -121,7 +121,7 @@ Gli amministratori di [!DNL Adobe Admin Console] possono anche creare pacchetti 
    >[!TIP]
    >
    >* Per trovare il dominio, aprire un browser, accedere all&#39;istanza [!DNL Workfront] e copiare la prima parte dell&#39;URL:\
-   >![](assets/domain-350x50.png)
+   >![Individua dominio](assets/domain-350x50.png)
    >
    > * Se la tua istanza di Workfront è integrata con Experience Cloud, chiedi all’amministratore di fornirti il dominio Workfront che si trova in Prodotto > Workfront nell’Admin Console.
 

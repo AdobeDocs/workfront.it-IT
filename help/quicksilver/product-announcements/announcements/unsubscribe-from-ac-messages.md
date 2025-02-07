@@ -6,9 +6,9 @@ description: I messaggi del Centro notifiche sono messaggi inviati da Adobe Work
 author: Luke
 feature: Product Announcements
 exl-id: a9922e91-c58c-4c25-968c-ab70fa8d8916
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -25,16 +25,16 @@ I messaggi del Centro notifiche sono messaggi inviati da Adobe Workfront alla ba
 
 Per annullare l&#39;iscrizione alla ricezione dei messaggi del Centro notifiche:
 
-1. Fai clic sull&#39;icona numerata ![](assets/notifications-icon-jewel.jpg) nell&#39;angolo superiore destro di Workfront per aprire l&#39;elenco delle notifiche.
+1. Fai clic sull&#39;icona numerata ![Icona Notifiche](assets/notifications-icon-jewel.jpg) nell&#39;angolo superiore destro di Workfront per aprire l&#39;elenco delle notifiche.
 1. Fare clic su **Tutti gli annunci** nella parte inferiore dell&#39;elenco.
 
    Viene visualizzata la pagina **Annunci** in cui sono elencati tutti gli annunci.
 
-   ![](assets/announcements-page-qs-350x210.png)
+   ![Pagina Annunci](assets/announcements-page-qs-350x210.png)
 
 1. Fai clic su **Impostazioni** nell&#39;angolo superiore destro della pagina Annunci, quindi seleziona **Nuove versioni** o **Formazione**, a seconda del tipo di annunci che non desideri più ricevere.
 
-   ![](assets/announcementcenter-settings-350x187.png)
+   ![Impostazioni del centro notifiche](assets/announcementcenter-settings-350x187.png)
 
 1. Fare clic su **Salva impostazioni**.
 

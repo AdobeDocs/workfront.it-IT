@@ -6,9 +6,9 @@ description: Dopo aver installato  [!DNL Adobe Workfront] per [!DNL Salesforce],
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '547'
 ht-degree: 1%
 
 ---
@@ -107,7 +107,7 @@ Per inviare una richiesta [!DNL Workfront] da un&#39;opportunità [!DNL Salesfor
 1. (Facoltativo) Fai clic su **[!UICONTROL Vai a[!DNL Salesforce]]** per accedere all&#39;opportunità o all&#39;account in cui il problema ha avuto origine dalle seguenti aree di Workfront:
 
    * Nella sezione [!UICONTROL Dettagli] del problema
-   * Nel pannello Riepilogo quando si seleziona il problema in un elenco, dopo aver fatto clic su [!UICONTROL Apri riepilogo] ![](assets/summary-panel-icon.png) nella barra degli strumenti dell&#39;elenco.
+   * Nel pannello Riepilogo quando si seleziona il problema in un elenco, dopo aver fatto clic su [!UICONTROL Apri riepilogo] ![icona del pannello Riepilogo](assets/summary-panel-icon.png) nella barra degli strumenti dell&#39;elenco.
    * Nell&#39;intestazione del problema, quando è disponibile il campo [!UICONTROL Integrazioni]. L&#39;amministratore del sistema o del gruppo deve aggiungere il campo [!UICONTROL Integrazioni] al modello di layout per visualizzare il collegamento Vai a Salesforce nell&#39;intestazione del problema. Per ulteriori informazioni, vedere [Personalizzare le intestazioni degli oggetti utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
    >[!NOTE]

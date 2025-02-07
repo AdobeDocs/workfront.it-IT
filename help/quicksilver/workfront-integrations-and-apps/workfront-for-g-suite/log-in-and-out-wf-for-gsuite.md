@@ -7,9 +7,9 @@ description: In questo articolo viene descritto come accedere o uscire dall'inte
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Prima di accedere o uscire da [!DNL Workfront for Google Workspace], è necessar
 
 ## Accedi a [!DNL Adobe Workfront for Google Workspace]
 
-1. Fai clic sull&#39;icona [!DNL Workfront] ![](assets/wf-lion-icon.png) nella barra laterale dei componenti aggiuntivi di [!DNL Google Workspace] all&#39;estrema destra di [!DNL Gmail], [!DNL Google Calendar] o [!DNL Google Drive].
+1. Fai clic sull&#39;icona [!DNL Workfront] ![icona Workfront](assets/wf-lion-icon.png) nella barra laterale dei componenti aggiuntivi di [!DNL Google Workspace] all&#39;estrema destra di [!DNL Gmail], [!DNL Google Calendar] o [!DNL Google Drive].
 
    Se il componente aggiuntivo [!DNL Workfront for Google Workspace] è appena stato installato e l&#39;icona non è visibile, provare ad aggiornare la pagina del browser.
 
@@ -66,7 +66,7 @@ Prima di accedere o uscire da [!DNL Workfront for Google Workspace], è necessar
 
 ## Disconnetti da [!DNL Workfront for Google Workspace]
 
-1. Se il pannello [!UICONTROL Workfront for Google Workspace] non è visualizzato, fare clic sull&#39;icona [!DNL Workfront] ![](assets/wf-lion-icon.png) nella barra laterale dei componenti aggiuntivi [!DNL Google Workspace] all&#39;estrema destra della pagina.
+1. Se il pannello [!UICONTROL Workfront for Google Workspace] non è visualizzato, fare clic sull&#39;icona [!DNL Workfront] ![icona Workfront](assets/wf-lion-icon.png) nella barra laterale dei componenti aggiuntivi [!DNL Google Workspace] all&#39;estrema destra della pagina.
 1. Fai clic sull&#39;icona **[!UICONTROL Altre azioni]** nella parte superiore del pannello [!DNL Workfront for Google Workspace].
 
 1. Fare clic su **[!UICONTROL Disconnetti]** nel menu visualizzato.

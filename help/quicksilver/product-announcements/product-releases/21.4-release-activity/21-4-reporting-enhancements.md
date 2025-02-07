@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: db33cee1-45d3-4641-9afa-790de92654c5
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Per mantenere l’aspetto moderno delle altre aree della nuova esperienza Workfr
 
 Per ulteriori informazioni sulle assegnazioni negli elenchi, consulta [Assegnare attività](../../../manage-work/tasks/assign-tasks/assign-tasks.md) o [Assegnare problemi](../../../manage-work/issues/manage-issues/assign-issues.md).
 
-![](assets/assignments-updates-350x193.png)
+![Aggiornamenti assegnazioni](assets/assignments-updates-350x193.png)
 
 ## Nuovo aspetto per i campi typeahead negli elenchi e nei report aggiornati
 
@@ -60,4 +60,4 @@ Per conferire un aspetto moderno alle altre aree della nuova esperienza Workfron
 
 Per informazioni sugli elenchi aggiornati, vedere la sezione [Differenza tra gli elenchi aggiornati e quelli legacy](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) nell&#39;articolo [Introduzione agli elenchi in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-![](assets/typeahead-updates-350x336.png)
+![Campo automatico](assets/typeahead-updates-350x336.png)

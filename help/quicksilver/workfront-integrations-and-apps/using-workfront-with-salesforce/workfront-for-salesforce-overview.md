@@ -3,13 +3,13 @@ content-type: overview
 product-area: workfront-integrations
 navigation-topic: workfront-for-salesforce
 title: Panoramica di Adobe Workfront per Salesforce
-description: Puoi installare  [!DNL Adobe Workfront] per Salesforce per consentire agli utenti Salesforce di inviare [!DNL Workfront] richieste e creare automaticamente progetti senza mai uscire da Salesforce.
+description: Puoi installare  [!DNL Adobe Workfront] per Salesforce per consentire agli utenti di Salesforce di inviare [!DNL Workfront] richieste e creare automaticamente progetti senza mai uscire da Salesforce.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 65d4cdae-1d34-4a8a-a1c0-706cd41fc75e
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Quando si lavora con [!DNL Workfront] per [!DNL Salesforce], tenere presente qua
 
 * Puoi accedere direttamente agli elementi collegati a [!DNL Salesforce] facendo clic sul collegamento **[!UICONTROL Vai a Salesforce]** da Workfront.
 
-  Impossibile visualizzare informazioni sugli elementi [!DNL Salesforce] in [!DNL Workfront], ma si dispone di un collegamento all&#39;elemento [!UICONTROL Salesforce] di [!DNL Workfront] per esaminarlo in [!DNL Salesforce].
+  Non è possibile visualizzare informazioni sugli elementi [!DNL Salesforce] in [!DNL Workfront], ma si dispone di un collegamento all&#39;elemento [!UICONTROL Salesforce] di [!DNL Workfront] per esaminarlo in [!DNL Salesforce].
 
   [!UICONTROL Il collegamento **Vai a Salesforce**] viene visualizzato nelle seguenti aree:
 
@@ -78,7 +78,7 @@ Quando si lavora con [!DNL Workfront] per [!DNL Salesforce], tenere presente qua
    * L’intestazione di un progetto o di un problema.
 
      L&#39;amministratore del sistema o del gruppo deve aggiungere il campo [!UICONTROL Integrazioni] al modello di layout per visualizzare il collegamento [!UICONTROL Vai a Salesforce] nell&#39;intestazione del progetto o del problema.
-   * Pannello [!DNL Summary] di un problema durante la selezione del problema in un elenco, dopo aver fatto clic su [!UICONTROL Apri riepilogo] ![](assets/summary-panel-icon.png) nella barra degli strumenti dell&#39;elenco.
+   * Pannello [!DNL Summary] di un problema durante la selezione del problema in un elenco, dopo aver fatto clic sull&#39;icona del pannello [!UICONTROL Apri riepilogo] ![Riepilogo](assets/summary-panel-icon.png) nella barra degli strumenti dell&#39;elenco.
 
      >[!NOTE]
      >
