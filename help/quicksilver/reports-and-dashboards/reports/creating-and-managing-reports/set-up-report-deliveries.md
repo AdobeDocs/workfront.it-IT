@@ -6,7 +6,7 @@ description: Panoramica sulla consegna dei rapporti
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: a2cb33150ae50b00485f894dc81d7c719524a182
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 0%
@@ -43,11 +43,11 @@ Quando pianifichi i rapporti per la consegna, tieni presente quanto segue:
 
 Esistono diversi limiti di dimensione che influiscono sulla visualizzazione dei rapporti in Workfront e sulla modalità di esportazione tramite un’esportazione manuale, un rapporto consegnato o tramite l’API:
 
-* **5 MB di dimensione file:** Limite di dimensione file per qualsiasi report esportato pianificato per la consegna. Se un file esportato allegato a un messaggio e-mail supera i 5 MB, viene inviato un collegamento tramite e-mail in cui è possibile scaricare il file, anziché il report esportato allegato.
+* **Dimensione file 10 MB:** Limite dimensione file per qualsiasi report esportato pianificato per la consegna. Se un file esportato allegato a un messaggio e-mail supera i 5 MB, viene inviato un collegamento tramite e-mail in cui è possibile scaricare il file, anziché il report esportato allegato.
 
   >[!NOTE]
   >
-  >I file .xlsx di Excel di dimensioni superiori a 5 MB non generano un messaggio e-mail. Puoi esportare manualmente il rapporto in questo formato. Per informazioni sull&#39;esportazione di report, vedere [Esporta dati](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  >I file .xlsx di Excel di dimensioni superiori a 10 MB non generano un messaggio e-mail. Puoi esportare manualmente il rapporto in questo formato. Per informazioni sull&#39;esportazione di report, vedere [Esporta dati](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 * **50.000 righe:** il numero di righe di dati consentite in un&#39;esportazione di report per file .pdf e delimitati da tabulazioni.
 
