@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ In qualità di amministratore di Adobe Workfront o di amministratore di gruppo, 
 >
 >La personalizzazione delle intestazioni degli oggetti è attualmente disponibile per progetti, attività e problemi.
 
-![](assets/object-header-fields.png)
+![Campi intestazione oggetto](assets/object-header-fields.png)
 
 Per informazioni sulla creazione di modelli di layout, vedere [Creare e gestire modelli di layout](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -80,7 +80,7 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
 
    <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
 
-   ![](assets/object-header-field-x-and-grab-icons-in-lt.png)
+   ![I campi intestazione oggetto nascondono e spostano le icone](assets/object-header-field-x-and-grab-icons-in-lt.png)
 
 1. È possibile avere fino a cinque campi nell&#39;intestazione di un oggetto.
 Se sono già stati selezionati cinque campi, è necessario rimuovere un campo prima di poterne aggiungere uno nuovo.
@@ -95,7 +95,7 @@ Se sono già stati selezionati cinque campi, è necessario rimuovere un campo pr
    >* Quando aggiungi il campo &quot;Risolto da&quot; all’intestazione di un problema, il campo diventa &quot;Risolto da un problema, un’attività o un progetto&quot;, quando al problema è associato un oggetto di risoluzione.
 
 
-   ![](assets/add-field-to-header-in-lt-list.png)
+   ![Aggiungi campo all&#39;intestazione](assets/add-field-to-header-in-lt-list.png)
 
 
 1. (Facoltativo) Trascina i campi aggiunti in un ordine diverso.

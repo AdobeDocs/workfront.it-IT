@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '2155'
+source-wordcount: '2181'
 ht-degree: 0%
 
 ---
@@ -154,7 +154,7 @@ Per popolare il foglio di calcolo Excel con le informazioni per i nuovi campi pe
    >
    >Per informazioni sui nomi degli oggetti nel database di Workfront, vedere [API Explorer](../../../wf-api/general/api-explorer.md).
    >
-   >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
+   >![Fogli inclusi nell&#39;esportazione dei dati](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
 
 1. Verifica che le seguenti informazioni siano formattate correttamente:
@@ -206,7 +206,7 @@ Per popolare il foglio di calcolo Excel con le informazioni per i nuovi campi pe
 
    Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-   ![](assets/parameter-sheet-filled-out-kick-starts.png)
+   ![Foglio parametri compilato](assets/parameter-sheet-filled-out-kick-starts.png)
 
 1. Selezionare il foglio **`POPT Parameter Options`** e aggiungere informazioni sulle opzioni di ciascun campo personalizzato nelle colonne obbligatorie seguenti:
 
@@ -228,7 +228,7 @@ Per popolare il foglio di calcolo Excel con le informazioni per i nuovi campi pe
    * Le colonne **`setLabel`** e `**setValue`** in genere contengono le stesse informazioni e devono riflettere i nomi desiderati nell&#39;interfaccia utente di Workfront. Il valore di un’opzione è il nome visualizzato nei rapporti, ad esempio, mentre l’etichetta viene visualizzata nei moduli personalizzati quando è associata a un oggetto. Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    * **`setIsHidden`** = immetti `TRUE` se vuoi che una delle opzioni sia nascosta.
 
-   ![](assets/parameter-option-sheet-filled-out-kick-starts.png)
+   ![Foglio parametri compilato](assets/parameter-option-sheet-filled-out-kick-starts.png)
 
 
 1. (Facoltativo) Se si desidera anche creare un modulo personalizzato in cui aggiungere i nuovi campi in un secondo momento, selezionare il foglio **`CTGY Category`** e aggiornare le seguenti colonne obbligatorie per le informazioni del modulo personalizzato:
@@ -239,7 +239,7 @@ Per popolare il foglio di calcolo Excel con le informazioni per i nuovi campi pe
 
    Per individuare il `ID` di un gruppo, è possibile creare un report del gruppo e aggiungere il campo `ID` nella visualizzazione oppure passare a un gruppo e trovare l&#39;URL del gruppo. L’ID gruppo si trova nell’URL della pagina del gruppo. Ad esempio, se l&#39;URL del gruppo è `https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members`, l&#39;ID gruppo è `575b000800467a6f66e747932c807464`.
 
-   * **`setCatObjCode` **= codice oggetto per il tipo di oggetto per cui si desidera creare il modulo. Immettere un codice dalle seguenti opzioni:
+   * **`setCatObjCode`**= codice oggetto per il tipo di oggetto per cui si desidera creare il modulo. Immettere un codice dalle seguenti opzioni:
       * **`CMPY`** per la società
       * **`TASK`** per l&#39;attività
       * **`PROJ`** per il progetto
@@ -259,7 +259,7 @@ Per popolare il foglio di calcolo Excel con le informazioni per i nuovi campi pe
 
    * **`setName`** = nome del modulo personalizzato che si desidera venga visualizzato nell&#39;interfaccia di Workfront.
 
-     ![](assets/category-sheet-filled-out-kick-starts.png)
+     ![Foglio categorie compilato](assets/category-sheet-filled-out-kick-starts.png)
 
 1. Salvare il foglio di calcolo come file xls o xlsx nel computer. Il foglio di calcolo Excel è stato compilato ed è pronto per l&#39;importazione in Workfront.
 
@@ -277,11 +277,11 @@ Dopo aver eseguito i passaggi descritti nelle sezioni precedenti, continuare con
 1. Cercare il foglio di calcolo Excel preparato, nel computer e selezionarlo quando lo si trova. Quando Workfront riconosce il file, il pulsante Carica diventa blu.
 1. Fai clic su **Carica.**
 
-   ![](assets/kick-start-file-selected-and-upload-blue-button.png)
+   ![Pulsante File selezionato e caricamento](assets/kick-start-file-selected-and-upload-blue-button.png)
 
 1. Viene visualizzata una notifica di completamento dell’importazione. A seconda della quantità di informazioni importate, questo passaggio potrebbe richiedere alcuni secondi o un minuto.
 
-   ![](assets/kick-start-successful.png)
+   ![Avvio completato](assets/kick-start-successful.png)
 
    I nuovi campi e moduli personalizzati sono ora disponibili nel sistema Workfront. Puoi trovarli nell’area Forms personalizzata di Configurazione.
 
@@ -294,7 +294,7 @@ Dopo aver eseguito i passaggi descritti nelle sezioni precedenti, continuare con
 
 1. (Condizionale) Se l’importazione non è andata a buon fine, viene visualizzato un messaggio di errore in cui viene indicato il problema. Provare a identificare il campo, il foglio e il numero di riga in cui è stato riscontrato il problema e correggere le informazioni nel file di Excel, quindi provare a importare il file un&#39;altra volta.
 
-   ![](assets/kick-start-error.png)
+   ![Errore di avvio](assets/kick-start-error.png)
 
 1. (Condizionale) A seconda del problema, come indicato nel messaggio di errore, alcune informazioni potrebbero essere già state importate. Prima di importare nuovamente il foglio, è necessario effettuare una delle seguenti operazioni:
 

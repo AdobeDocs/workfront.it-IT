@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: be7377a0c4d933823f65ed09d2b1fc091779f252
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1741'
+source-wordcount: '1744'
 ht-degree: 5%
 
 ---
@@ -386,7 +386,7 @@ Nella tabella seguente viene confrontato l&#39;accesso generale di un utente agl
 
 Le attività che un utente può svolgere con un oggetto sono definite da una combinazione del proprio livello di accesso e delle autorizzazioni assegnate.
 
-![](assets/security-model-hierachy-copy.png)
+![Gerarchia modelli di sicurezza](assets/security-model-hierachy-copy.png)
 
 ### Concedere autorizzazioni tramite la condivisione di oggetti
 

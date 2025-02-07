@@ -9,9 +9,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Per modificare le impostazioni delle notifiche e-mail per più utenti:
 
 1. Espandere una categoria per visualizzare le impostazioni di notifica relative a tale categoria.
 
-   Se è selezionato almeno un utente in cui le notifiche non corrispondono a quelle degli altri utenti selezionati, la casella di controllo categoria per la notifica contiene una riga orizzontale ![](assets/straight-line-instead-of-checkmark.jpg) anziché un segno di spunta.
+   Se è selezionato almeno un utente le cui notifiche non corrispondono a quelle degli altri utenti selezionati, la casella di controllo categoria per la notifica contiene una riga orizzontale ![Riga invece del segno di spunta](assets/straight-line-instead-of-checkmark.jpg).
 
 
 1. Fai clic sulle notifiche che desideri che gli utenti ricevano quotidianamente o istantaneamente, oppure cancella le notifiche che desideri che gli utenti smettano di ricevere.
@@ -80,7 +80,7 @@ Per modificare le impostazioni delle notifiche e-mail per più utenti:
 
 1. Se hai selezionato le notifiche da inviare come riepilogo giornaliero, seleziona l&#39;ora del giorno in cui desideri che il riepilogo venga consegnato nella parte superiore della sezione **Notifiche** nel menu **Invia riepilogo giornaliero tramite posta elettronica dopo**.
 
-   ![](assets/daily-digest-time.png)
+   ![Ora riepilogo giornaliera](assets/daily-digest-time.png)
 
    Il riepilogo giornaliero include gli eventi che soddisfano i criteri delle notifiche 24 ore prima dell’ora selezionata. Gli utenti ricevono un’e-mail di riepilogo giornaliero per ogni tipo di notifica.
 

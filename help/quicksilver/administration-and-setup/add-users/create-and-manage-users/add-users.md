@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1130'
 ht-degree: 1%
 
 ---
@@ -151,7 +151,7 @@ Per creare un nuovo utente copiandone uno esistente:
 
 {{step-1-to-users}}
 
-1. Selezionare l&#39;utente da copiare, quindi fare clic sull&#39;icona Copia ![](assets/copy-icon.png).
+1. Seleziona l&#39;utente da copiare, quindi fai clic sull&#39;icona Copia ![icona Copia](assets/copy-icon.png).
 1. Nella casella **Copia utente** visualizzata, modificare i campi disponibili per il nuovo utente.
 
    Per informazioni su tutti i campi associati a un utente, vedere [Modificare il profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).

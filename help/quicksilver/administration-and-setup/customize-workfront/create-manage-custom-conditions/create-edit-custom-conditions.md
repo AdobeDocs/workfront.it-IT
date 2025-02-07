@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '633'
 ht-degree: 2%
 
 ---
@@ -66,7 +66,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Per modificare una condizione esistente, passa il cursore del mouse sulla condizione da modificare, quindi fai clic sull&#39;icona **Modifica** visualizzata all&#39;estrema destra.
 
-   ![](assets/custom-condition-edit-nwe.jpg)
+   ![Condizione personalizzata](assets/custom-condition-edit-nwe.jpg)
 
 1. Configura la condizione personalizzata utilizzando le seguenti opzioni:
 
@@ -110,21 +110,21 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    >
    >Puoi standardizzare la terminologia e i colori delle condizioni tra tutti e tre i tipi di oggetto. A questo scopo, copia il Nome della condizione e il Codice esadecimale Colore da una scheda (Progetto, Attività, Problema) alla condizione corrispondente nelle altre due schede.
 
-1. (Facoltativo) Trascina ![](assets/move-icon---dots.png) qualsiasi condizione in una nuova posizione per riordinare l&#39;elenco.
+1. (Facoltativo) Trascina ![Icona Sposta](assets/move-icon---dots.png) in una nuova posizione per riordinare l&#39;elenco.
 
    Questo cambia l’ordine in cui vengono visualizzate le condizioni nei progetti, nelle attività e nei problemi:
 
    * Quando un utente modifica un progetto
 
-     ![](assets/change-condition-edit-project.png)
+     ![Modifica condizione durante la modifica del progetto](assets/change-condition-edit-project.png)
 
    * Quando un utente modifica la condizione per un’attività o un problema nella scheda Aggiornamenti:
 
-     ![](assets/change-condition-update-comment.png)
+     ![Modifica condizione durante l&#39;aggiornamento del commento](assets/change-condition-update-comment.png)
 
    * Quando un utente modifica la condizione di un’attività o di un problema in una vista a elenco:
 
-     ![](assets/change-conditions-list-dropdown-only.png)
+     ![Modifica condizione nell&#39;elenco](assets/change-conditions-list-dropdown-only.png)
 
 1. Fai clic su **Salva**.
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: af8c9fc1-8398-437e-b326-3b94f6e7e7e5
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '247'
 ht-degree: 1%
 
 ---
@@ -60,7 +60,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 {{step-1-to-setup}}
 
-1. Nel pannello a sinistra, fai clic su **Gruppi** ![](assets/groups-icon.png).
+1. Nel pannello a sinistra, fai clic su **Gruppi** ![Gruppi](assets/groups-icon.png).
 
 1. Fare clic sul nome del gruppo al quale si desidera assegnare un amministratore.
 1. Nell&#39;intestazione, nell&#39;angolo superiore destro, fare clic su una delle immagini del profilo utente in **Amministratori gruppo**.

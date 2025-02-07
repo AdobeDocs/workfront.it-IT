@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '664'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ Prima di disattivare una mansione non utilizzata, è consigliabile effettuare le
 1. Fare clic sul nome della mansione che si desidera disattivare.
 1. Nel menu a discesa **[!UICONTROL È attivo]**, selezionare **[!UICONTROL No]**.
 
-   ![](assets/deactivate-job-role-edit-role-box-nwe.png)
+   ![Disattiva mansione](assets/deactivate-job-role-edit-role-box-nwe.png)
 
 1. Fai clic su **[!UICONTROL Salva modifiche]**.
 

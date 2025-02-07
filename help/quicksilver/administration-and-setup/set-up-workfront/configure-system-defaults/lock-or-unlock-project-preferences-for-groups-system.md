@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f5a94eaf-ebb8-424b-80ff-ba40cc985a6e
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Per istruzioni su come bloccare o sbloccare un progetto, un&#39;attività o una 
 
 1. Effettua una delle seguenti operazioni:
 
-   * Se si desidera che gli amministratori dei gruppi possano configurare una preferenza per i loro gruppi, sbloccarla ![](assets/unlock-toggle-button.png).
+   * Se desideri che gli amministratori dei gruppi possano configurare una preferenza per i loro gruppi, sbloccarla ![Sblocca/Sblocca](assets/unlock-toggle-button.png).
    * Se si desidera che tutti i gruppi utilizzino la configurazione per una preferenza, assicurarsi che sia bloccata (impostazione predefinita).
 
      >[!IMPORTANT]

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 In qualità di amministratore di Adobe Workfront, puoi utilizzare un modello di layout per specificare quali controlli elenco visualizzare nei menu a discesa Filtro, Visualizza e Raggruppamento. Questi menu vengono visualizzati sopra gli elenchi in Workfront, ad esempio l’elenco delle attività di un progetto:
 
-![](assets/filter-view-grouping-layout-templates.png)
+![Modelli layout di raggruppamento visualizzazione filtro](assets/filter-view-grouping-layout-templates.png)
 
 Per ulteriori informazioni sui modelli di layout, vedere [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -62,25 +62,25 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
 ## Personalizzare i controlli Filtro, Visualizza e Raggruppamento:
 
 1. Iniziare a lavorare su un modello di layout, come descritto in [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Fai clic sulla freccia rivolta verso il basso ![](assets/down-arrow-blue.png) in **Personalizza gli elementi visualizzati dagli utenti**, quindi fai clic su **Elenchi** nel menu a discesa visualizzato.
+1. Fai clic sulla freccia giù ![freccia giù](assets/down-arrow-blue.png) in **Personalizza gli elementi visualizzati dagli utenti**, quindi fai clic su **Elenchi** nel menu a discesa visualizzato.
 
-   ![](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
+   ![Personalizza gli elementi visualizzati dagli utenti](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
 
-1. Fare clic sulla freccia rivolta verso il basso ![](assets/down-arrow-blue.png) in **Selezionare un elenco da personalizzare**, quindi selezionare il tipo di oggetto Workfront per il quale si desidera personalizzare i controlli Filtro, Visualizza e Raggruppamento.
+1. Fare clic sulla freccia giù ![freccia giù](assets/down-arrow-blue.png) in **Selezionare un elenco da personalizzare**, quindi selezionare il tipo di oggetto Workfront per il quale si desidera personalizzare i controlli Filtro, Visualizza e Raggruppamento.
 
-   ![](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
+   ![Selezionare un elenco da personalizzare](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
 
    >[!NOTE]
    >
    >Se selezioni Progetti come elenco da personalizzare e poi disabiliti Progetti in cui sono o Progetti di cui sono proprietario nella sezione Filtro, gli utenti non vedranno più o non potranno utilizzare quel filtro:
    >
-   >* Nell&#39;elenco di filtri visualizzato quando si fa clic sull&#39;icona del filtro ![](assets/filter-nwepng.png) sopra un elenco:
+   >* Nell&#39;elenco di filtri visualizzato quando si fa clic sull&#39;icona del filtro ![Icona filtro](assets/filter-nwepng.png) sopra un elenco:
    >   
-   >  ![](assets/disable-filters-projects-im-on-or-own.png)
+   >  ![Disabilita filtri](assets/disable-filters-projects-im-on-or-own.png)
    >   
    >* Nell’intestazione dell’area Progetti:
    >   
-   >  ![](assets/disable-filter-pills.png)
+   >  ![Disabilita pulsante filtri](assets/disable-filter-pills.png)
 
 1. (Facoltativo) Se desideri modificare il filtro, la visualizzazione o il raggruppamento predefiniti per il modello di layout, passa il puntatore del mouse sul filtro, sulla visualizzazione o sul raggruppamento, quindi fai clic su **Imposta come predefinito**.
 

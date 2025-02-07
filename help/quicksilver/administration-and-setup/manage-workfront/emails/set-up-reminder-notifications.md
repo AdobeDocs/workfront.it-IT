@@ -5,9 +5,9 @@ author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1232'
 ht-degree: 2%
 
 ---
@@ -79,7 +79,7 @@ Per informazioni su come creare un modello di posta elettronica, vedere [Configu
 
 1. Fai clic su **Email** > **Notifiche** > **Notifiche promemoria**.
 
-   ![](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
+   ![Scheda Notifiche promemoria](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
 
 1. Fai clic su **Nuova notifica promemoria**.
 
@@ -176,4 +176,4 @@ Per attivare manualmente una notifica di promemoria:
 
    Gli utenti designati nella notifica del promemoria ricevono un messaggio e-mail.
 
-![](assets/reminder-test.png)
+![Test notifica promemoria](assets/reminder-test.png)

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '641'
 ht-degree: 2%
 
 ---
@@ -81,7 +81,7 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
 1. Fai clic su **Imposta terminologia** nell&#39;angolo superiore destro della pagina.
 1. Effettua una delle seguenti operazioni:
 
-   * Per utilizzare un termine alternativo fornito da Workfront, fare clic sulla freccia giù ![](assets/dropdown-arrow.png) accanto all&#39;etichetta, quindi selezionare l&#39;etichetta alternativa desiderata nell&#39;elenco a discesa.
+   * Per utilizzare un termine alternativo fornito da Workfront, fai clic sulla freccia giù ![freccia giù](assets/dropdown-arrow.png) accanto all&#39;etichetta, quindi sull&#39;etichetta alternativa desiderata nell&#39;elenco a discesa.
 
      >[!NOTE]
      >

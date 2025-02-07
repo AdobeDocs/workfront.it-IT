@@ -8,9 +8,9 @@ feature: System Setup and Administration
 role: Admin
 author: Nolan, Lisa
 exl-id: d48b0dd7-933e-4e91-a2f1-8d64b1c6dbb3
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '194'
 ht-degree: 1%
 
 ---
@@ -60,6 +60,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. Seleziona il livello di accesso per il quale vuoi nascondere i report integrati, quindi fai clic su **Modifica**.
 1. Per l&#39;oggetto **Reports**, fai clic sull&#39;icona **Settings** accanto al livello di accesso più alto disponibile, quindi deseleziona **Visualizza report incorporati**.
 
-   ![](assets/edit-access-level.png)
+   ![Modifica livello di accesso](assets/edit-access-level.png)
 
 1. Fai clic su **Salva**.

@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '501'
 ht-degree: 4%
 
 ---
 
 # Personalizzare le pagine bloccate utilizzando un modello di layout
 
-In un modello di layout, puoi fissare le pagine che dovranno essere sempre disponibili per gli utenti nella parte superiore di Adobe Workfront. Possono essere pagine accessibili tramite il menu principale ![](assets/main-menu-icon.png) o il menu principale ![](assets/lines-main-menu.png), se disponibile, o dashboard.
+In un modello di layout, puoi fissare le pagine che dovranno essere sempre disponibili per gli utenti nella parte superiore di Adobe Workfront. È possibile accedere a queste pagine tramite l&#39;icona del menu principale ![Main menu icon](assets/main-menu-icon.png) o l&#39;icona del menu principale ![Main menu](assets/main-menu-icon.png), se disponibile, oppure tramite le dashboard.
 
 I pin aggiunti autonomamente dagli utenti vengono visualizzati a destra dei pin aggiunti nel modello di layout.
 

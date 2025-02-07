@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Messaggio di errore: si è verificato un piccolo problema. Questo campo viene utilizzato in una configurazione multi-modulo"
+title: 'Messaggio di errore: si è verificato un piccolo problema. Questo campo viene utilizzato in una configurazione con più moduli'
 description: Quando si modifica un calcolo in un campo personalizzato calcolato in un modulo personalizzato e un messaggio di errore indica che il campo viene utilizzato in una configurazione con più moduli, è necessario sostituire il campo con un nuovo campo contenente il calcolo che si desidera utilizzare.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1239'
+source-wordcount: '1241'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Questo articolo spiega come trovare l’oggetto e quindi risolvere il problema i
 
    **Esempio:** Campo 1 nel modulo 1 = Sì, Campo 2 nel modulo 2 = Sì, Campo 3 nel modulo 3 = Sì. Ciò significa che &quot;il campo personalizzato calcolato esiste nel modulo 1&quot; o che &quot;il campo personalizzato calcolato esiste nel modulo 2&quot; e così via.
 
-1. Nell&#39;icona **[!UICONTROL Ricerca]** ![](assets/search-icon.png) nell&#39;angolo superiore destro dello schermo, fare clic su **[!UICONTROL Ricerca avanzata]**.
+1. Nell&#39;**[!UICONTROL icona Ricerca]** ![icona Ricerca](assets/search-icon.png) nell&#39;angolo superiore destro dello schermo, fare clic su **[!UICONTROL Ricerca avanzata]**.
 1. Fai clic sull&#39;oggetto del modulo personalizzato (ad esempio Problema), fai clic su **[!UICONTROL Filtra i risultati]**, quindi su **[!UICONTROL Aggiungi un filtro]**.
 1. Inizia a digitare il nome di un campo Casella di controllo nel campo **[!UICONTROL Inizia a digitare il nome del campo]** e selezionalo quando viene visualizzato nell&#39;elenco, quindi seleziona **[!UICONTROL Uguale]** e digita **[!UICONTROL Sì]** (senza virgolette) nella casella seguente.
 

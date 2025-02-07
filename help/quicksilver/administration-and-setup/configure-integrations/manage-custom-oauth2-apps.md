@@ -8,9 +8,9 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-source-git-commit: bb81e32263348128b7661db6102ad5ac14e9a434
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Per ulteriori informazioni, consulta [Creare applicazioni OAuth2 per [!DNL Workf
 
 1. Nel pannello di navigazione a sinistra, fai clic su **[!UICONTROL Sistema]**, quindi seleziona **[!UICONTROL Applicazioni OAuth]**.
 1. Fai clic su **[!UICONTROL Crea integrazione app]**.
-1. Passa il puntatore del mouse sull&#39;applicazione e fai clic su **[!UICONTROL Modifica]** ![](assets/edit-icon.png) quando viene visualizzata all&#39;estrema destra.
+1. Passa il puntatore del mouse sull&#39;applicazione e fai clic sull&#39;icona **[!UICONTROL Modifica]** ![Modifica](assets/edit-icon.png) quando viene visualizzata all&#39;estrema destra.
 1. (Facoltativo) Modificare i dettagli dell&#39;applicazione.
 
    Per i campi relativi alle app OAuth2 e JWT, consulta [Creare applicazioni OAuth2 per [!DNL Workfront] integrazioni](../../administration-and-setup/configure-integrations/create-oauth-application.md).
@@ -87,7 +87,7 @@ Per ulteriori informazioni, consulta [Creare applicazioni OAuth2 per [!DNL Workf
 {{step-1-to-setup}}
 
 1. Nel pannello di navigazione a sinistra, fai clic su **[!UICONTROL Sistema]**, quindi seleziona **[!UICONTROL Applicazioni OAuth]**.
-1. Passa il puntatore del mouse sull&#39;applicazione e fai clic su **[!UICONTROL Elimina]** ![](assets/delete.png) quando viene visualizzato all&#39;estrema destra.
+1. Passa il puntatore del mouse sull&#39;applicazione e fai clic su **[!UICONTROL Elimina]** ![Elimina](assets/delete.png) quando viene visualizzato all&#39;estrema destra.
 
 ## Gestire i segreti client nelle applicazioni OAuth2
 
@@ -143,4 +143,4 @@ Per ulteriori informazioni, consulta [Creare applicazioni OAuth2 per [!DNL Workf
 1. Fai clic su **[!UICONTROL Crea integrazione app]**.
 1. Passa il puntatore del mouse sull&#39;applicazione e fai clic sull&#39;icona **[!UICONTROL Modifica]** quando viene visualizzata all&#39;estrema destra.
 1. Individua il segreto client da eliminare.
-1. Fai clic sull&#39;icona **[!UICONTROL Elimina]** ![](assets/delete.png) accanto al segreto client.
+1. Fai clic sull&#39;icona **[!UICONTROL Elimina]** ![Elimina](assets/delete.png) accanto al segreto client.

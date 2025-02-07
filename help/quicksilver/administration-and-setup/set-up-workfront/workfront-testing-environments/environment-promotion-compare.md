@@ -8,9 +8,10 @@ description: Puoi confrontare gli oggetti tra ambienti diversi per garantire che
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 2ff7a8b0ae3cc1f641c0d7c0b1384548c9603423
+exl-id: 085b0f04-5a9c-49b9-86d7-2363731ee067
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -85,7 +86,7 @@ In questo esempio:
 
 Per visualizzare specifiche differenze tra gli oggetti:
 
-1. Fare clic sull&#39;icona della lente di ingrandimento ![](assets/compare-icon.png) nella riga dell&#39;oggetto.
+1. Fare clic sull&#39;icona della lente di ingrandimento ![icona Confronta](assets/compare-icon.png) nella riga dell&#39;oggetto.
 
    Viene visualizzata una finestra con tutti i campi dell&#39;oggetto. le differenze sono evidenziate in rosso.
 

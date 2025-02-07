@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '961'
 ht-degree: 2%
 
 ---
@@ -72,13 +72,13 @@ Quando crei uno stato personalizzato per l’intera organizzazione, puoi configu
 
 1. (Condizionale) Se stai creando o modificando uno stato per l&#39;uso a livello di sistema, assicurati che **Stati di sistema** sia selezionato nella casella in alto a destra.
 
-   ![](assets/system-statuses-in-upper-rt-corner-new.jpg)
+   ![Stati di sistema](assets/system-statuses-in-upper-rt-corner-new.jpg)
 
    Oppure
 
    Se lo stato è per un gruppo o un sottogruppo, iniziare a digitare il nome del gruppo nell&#39;angolo superiore destro, quindi selezionarlo quando viene visualizzato.
 
-   ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   ![Stati di sistema per il gruppo](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
 1. Selezionare la scheda del tipo di oggetto (**Progetto**, **Attività** o **Problemi**) che si desidera associare allo stato.
 
@@ -88,7 +88,7 @@ Quando crei uno stato personalizzato per l’intera organizzazione, puoi configu
 
    Se stai modificando uno stato esistente, passa il puntatore del mouse su di esso, quindi fai clic sull&#39;icona **Modifica** visualizzata all&#39;estrema destra.
 
-   ![](assets/custom-status-edit.png)
+   ![Modifica stato personalizzato](assets/custom-status-edit.png)
 
 1. Configura lo stato utilizzando le seguenti opzioni:
 

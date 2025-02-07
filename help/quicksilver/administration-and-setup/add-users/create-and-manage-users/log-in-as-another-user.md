@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    >
    >* Gli amministratori di gruppi possono accedere solo come utenti dei gruppi gestiti. Inoltre, l’autorizzazione Amministratore utenti (utenti gruppo) deve essere abilitata nel tuo livello di accesso:
    >   
-   >  ![](assets/group-admin-user.png)
+   >  ![Utente amministratore gruppo](assets/group-admin-user.png)
    >   
    >  Questa impostazione è disabilitata per impostazione predefinita. Per ulteriori informazioni, vedere [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
    >   
@@ -153,7 +153,7 @@ Ad esempio, se si commenta un elemento durante l&#39;accesso come altro utente, 
 ### Visualizzare le informazioni di audit {#view-audit-information}
 
 1. Accedere a Workfront come amministratore di Workfront o amministratore di gruppo.
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic sull&#39;icona **Setup** ![Gear settings](assets/gear-icon-settings.png).
 
 1. Fare clic su **Accedi come,**, quindi fare clic sulla scheda **Registro di accesso**.
 

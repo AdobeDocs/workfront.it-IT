@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -88,9 +88,9 @@ Per generare manualmente inviti e-mail per utenti esistenti non registrati:
 
 1. Seleziona l&#39;utente che mostra l&#39;etichetta **Non registrato** dopo il nome.
 
-   ![](assets/unreg-user-qs-350x221.png)
+   ![Registrazione annullata](assets/unreg-user-qs-350x221.png)
 
-1. Fai clic sull&#39;icona Altro ![](assets/more-icon.png), quindi fai clic su **Ricorda all&#39;utente di registrarsi**.
+1. Fai clic sull&#39;icona Altro ![Icona Altro](assets/more-icon.png), quindi fai clic su **Ricorda all&#39;utente di registrarsi**.
 
    Al nuovo utente viene inviato un invito e-mail con un nuovo collegamento da utilizzare per creare la password Workfront.
 
@@ -100,7 +100,7 @@ Per generare manualmente inviti e-mail per utenti esistenti non registrati:
    >
    >I nuovi utenti dell’Adobe vengono aggiunti all’Admin Console Admin Console, che a sua volta distribuisce un’e-mail per invitarli a completare la procedura di registrazione. Tutti gli utenti devono completare la procedura di registrazione per accedere a qualsiasi Adobe.
    >
-   >Per gli Adobi esistenti, l’utente potrebbe ricevere o meno un’e-mail sulla disponibilità di Workfront. Questa è una preferenza controllata dall’amministratore di Adobe per il prodotto.
+   >Per gli utenti esistenti di Adobe, l’utente può ricevere o meno un’e-mail sulla disponibilità di Workfront. Questa è una preferenza controllata dall’amministratore di Adobe per il prodotto.
 
 ## Configurare gli inviti e-mail {#configure-email-invitations}
 

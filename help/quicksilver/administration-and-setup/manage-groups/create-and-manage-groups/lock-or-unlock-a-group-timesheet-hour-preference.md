@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5b36106f-d521-4cc1-9f1f-647415c282b4
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -91,8 +91,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Nella pagina visualizzata eseguire una delle operazioni seguenti:
 
-   * Se desideri che gli amministratori dei gruppi al di sotto del gruppo possano configurare una preferenza per i loro gruppi, sbloccarla ![](assets/unlock-toggle-button.png).
-   * Se desideri che tutti i gruppi al di sotto del tuo utilizzino la configurazione per una preferenza, accertati che sia bloccata ![](assets/lock-toggle-button.png) (impostazione predefinita).
+   * Se vuoi che gli amministratori dei gruppi al di sotto del gruppo possano configurare una preferenza per i loro gruppi, sbloccarla ![Attiva/Disattiva blocco](assets/unlock-toggle-button.png).
+   * Se vuoi che tutti i gruppi al di sotto del tuo utilizzino la configurazione per una preferenza, assicurati che sia bloccata ![Attiva/Disattiva blocco](assets/lock-toggle-button.png) (impostazione predefinita).
 
      >[!IMPORTANT]
      >

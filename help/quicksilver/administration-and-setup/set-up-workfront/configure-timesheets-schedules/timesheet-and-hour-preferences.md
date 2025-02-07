@@ -8,9 +8,9 @@ author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. (Facoltativo) Nella casella di ricerca **Schede orario di sistema e preferenze ore**, inizia a digitare il nome di un gruppo, quindi selezionalo quando viene visualizzato nell&#39;elenco.
 
-   ![](assets/search-for-group-box-in-timesheets-preferences-page.png)
+   ![Cerca casella di gruppo](assets/search-for-group-box-in-timesheets-preferences-page.png)
 
    La pagina Preferenze scheda orario e ore viene aggiornata con le preferenze per il gruppo selezionato. Per poter modificare le preferenze a livello di gruppo, è necessario sbloccare le preferenze a livello di sistema. Per ulteriori informazioni, vedere la sezione [Sbloccare le preferenze di orario e orario per i gruppi](#unlock-timesheet-and-hour-preferences-for-groups) in questo articolo.
 
@@ -212,8 +212,8 @@ Per sbloccare una preferenza di progetto in modo che i gruppi possano configurar
 
 1. Effettua una delle seguenti operazioni:
 
-   * Se vuoi che gli amministratori dei gruppi possano configurare una preferenza per i loro gruppi, fai clic sull&#39;interruttore **sblocca** ![](assets/unlock-toggle-button.png) per sbloccarla.
-   * Se desideri che tutti i gruppi utilizzino la configurazione per una preferenza, accertati che l&#39;interruttore sia bloccato ![](assets/locked-preference-toggle.png) (impostazione predefinita).
+   * Se vuoi che gli amministratori dei gruppi possano configurare una preferenza per i loro gruppi, fai clic sull&#39;interruttore **sblocca** ![Sblocca/sblocca](assets/unlock-toggle-button.png) per sbloccarla.
+   * Se desideri che tutti i gruppi utilizzino la configurazione per una preferenza, accertati che l&#39;interruttore sia bloccato ![Interruttore preferenza bloccata](assets/locked-preference-toggle.png) (impostazione predefinita).
 
      >[!IMPORTANT]
      >

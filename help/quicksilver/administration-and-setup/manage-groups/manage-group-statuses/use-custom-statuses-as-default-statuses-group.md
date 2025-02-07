@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51018635-cd9a-402d-a136-c5bec4707cda
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -66,14 +66,14 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 Se lo stato personalizzato è uno stato Problema, tutti e quattro i tipi di problema devono essere abilitati (Rapporto bug, Ordine di modifica, Problema e Richiesta). Ad esempio, nello stato del problema mostrato di seguito, lo stato Riaperto non può essere utilizzato come stato predefinito perché il tipo di problema Ordine di modifica non è selezionato:
 
-![](assets/all-4-issue-types-enabled.png)
+![Tutti i tipi di problemi abilitati](assets/all-4-issue-types-enabled.png)
 
 ## Impostazione di uno stato personalizzato come stato predefinito per un gruppo
 
 {{step-1-to-setup}}
 
-1. Nel pannello a sinistra, fai clic su **Gruppi** ![](assets/groups-icon.png), quindi fai clic sul nome del gruppo in cui desideri creare o personalizzare gli stati.
-1. Nel pannello a sinistra, fai clic su **Stati** ![](assets/gear-icon-settings.png).
+1. Nel pannello a sinistra, fai clic su **Gruppi** ![Gruppi](assets/groups-icon.png), quindi fai clic sul nome del gruppo in cui desideri creare o personalizzare gli stati.
+1. Nel pannello a sinistra, fai clic su **Stati** ![Icona impostazioni ingranaggio](assets/gear-icon-settings.png).
 1. Apri la scheda **Progetto**, **Attività** o **Problemi**, a seconda del tipo di stato che desideri impostare come predefinito.
 1. Fai clic su **Imposta stati predefiniti** nell&#39;angolo superiore destro.
 1. Nell&#39;area a discesa visualizzata, accanto allo stato in cui si desidera impostare lo stato predefinito, selezionare lo stato predefinito che si desidera impostare.
@@ -90,7 +90,7 @@ Se lo stato personalizzato è uno stato Problema, tutti e quattro i tipi di prob
    >Se si assegna il progetto a un gruppo diverso, lo stato del progetto verrà ricaricato e potrebbe cambiare.
 
    1. Vai al progetto in cui desideri utilizzare lo stato personalizzato.
-   1. Fai clic sul menu Altro ![](assets/more-icon.png), quindi fai clic su **Modifica**.
+   1. Fai clic sull&#39;icona Altro ![Altro](assets/more-icon.png), quindi fai clic su **Modifica**.
    1. Nella casella **Modifica progetto** visualizzata, nel campo **Gruppo** della **Associazione progetto**, selezionare il gruppo a cui è associato lo stato personalizzato.
 
    1. Fai clic su **Salva modifiche**.
@@ -109,4 +109,4 @@ Se si nasconde uno stato predefinito (attivando l&#39;opzione Nascondi stato), i
 
 Se non è disponibile alcuno stato del tipo equivalente, il tipo di stato viene visualizzato come **Nascosto** e non è disponibile per gli elementi di lavoro.
 
-![](assets/when-hide-default-status-no-equivalent.png)
+![Nessuno stato disponibile](assets/when-hide-default-status-no-equivalent.png)

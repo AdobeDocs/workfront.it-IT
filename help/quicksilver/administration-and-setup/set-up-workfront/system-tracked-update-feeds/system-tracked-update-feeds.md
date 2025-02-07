@@ -9,10 +9,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 0%
+source-wordcount: '390'
+ht-degree: 1%
 
 ---
 
@@ -37,13 +37,13 @@ L&#39;area [!UICONTROL Aggiornamenti] include i seguenti tipi di aggiornamenti:
 
   Per ulteriori informazioni sulla configurazione degli aggiornamenti utente, vedere [Configurare le preferenze per gli aggiornamenti utente](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
 
-  ![](assets/updates-qs-350x125.png)
+  ![Aggiornamenti](assets/updates-qs-350x125.png)
 
 * **Aggiornamenti di sistema:** eseguiti automaticamente dal sistema. Un aggiornamento del sistema include una breve nota che descrive il tipo di modifica apportata all&#39;elemento. Gli aggiornamenti di sistema vengono visualizzati nelle schede Attività di sistema e Tutti nella sezione Aggiornamenti di un oggetto.
 
   Per ulteriori informazioni sui feed di aggiornamento del sistema e su come attivarli, vedere [Configurare gli aggiornamenti del sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-  ![](assets/system-updates-example-unified-stream.png)
+  ![Esempio di aggiornamenti di sistema](assets/system-updates-example-unified-stream.png)
 
 
   <!--

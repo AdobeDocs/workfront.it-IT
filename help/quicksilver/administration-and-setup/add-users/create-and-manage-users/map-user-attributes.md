@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '977'
 ht-degree: 1%
 
 ---
@@ -63,21 +63,21 @@ Quando mappate gli attributi, tenete presente quanto segue:
 
 ## Mappare gli attributi utente per la tua organizzazione
 
-La procedura per la mappatura degli attributi varia a seconda che l’organizzazione sia o meno nell’esperienza unificata di Adobe.
+La procedura per la mappatura degli attributi varia a seconda che l’organizzazione utilizzi o meno l’esperienza Adobe.
 
 Per determinare se l’organizzazione si trova nell’esperienza unificata di Adobe, esamina l’URL utilizzato per accedere a Workfront.
 
 | URL | Esperienza Adobe |
 |---|---|
 | (NomeSocietà).my.workfront.com | Esperienza classica |
-| experience.adobe.com | Adobe di esperienza unificata |
+| experience.adobe.com | Esperienza Adobe unificata |
 
 * [Mappatura degli attributi utente nell’esperienza classica](#map-user-attributes-in-the-classic-experience)
-* [Mappare gli attributi utente nell’esperienza unificata di Adobe](#map-user-attributes-in-the-adobe-unified-experience)
+* [Mappatura degli attributi utente nell’esperienza Adobe](#map-user-attributes-in-the-adobe-unified-experience)
 
 ### Mappatura degli attributi utente nell’esperienza classica
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic sull&#39;icona **Setup** ![Gear settings](assets/gear-icon-settings.png).
 
 1. Fare clic su **Sistema** > **Single Sign-On (SSO)**.
 
@@ -85,7 +85,7 @@ Per determinare se l’organizzazione si trova nell’esperienza unificata di Ad
 
 1. Fare clic su **Mappa attributi utente**.
 
-   ![](assets/map-user-attributes.png)
+   ![Mappa attributi utente](assets/map-user-attributes.png)
 
 1. Nella riga di opzioni visualizzata, mappa gli attributi necessari per gli utenti di Workfront.
 
@@ -123,26 +123,26 @@ Per determinare se l’organizzazione si trova nell’esperienza unificata di Ad
    1. Nell’elenco a discesa, scegli il modificatore di attributo che desideri utilizzare.
    1. Nei 2 campi a destra, digita il valore dell’attributo della directory e il valore con cui desideri sostituirlo.
 
-      ![](assets/rule-fields.png)
+      ![Campi regola](assets/rule-fields.png)
 
    Puoi fare clic su **Aggiungi regola** per aggiungere altre regole all&#39;attributo.
 
 1. (Facoltativo) Per mappare altri attributi utente, fare clic su **Aggiungi mappatura** e ripetere i passaggi 6-7.
 1. Fai clic su **Salva**.
 
-### Mappare gli attributi utente nell’esperienza unificata di Adobe
+### Mappatura degli attributi utente nell’esperienza Adobe
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-left.png) del **menu principale** nell&#39;angolo superiore sinistro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-left.png) nell&#39;angolo superiore sinistro di Adobe Workfront, quindi fai clic sull&#39;icona **Setup** ![Gear settings](assets/gear-icon-settings.png).
 
 1. Fare clic su **Sistema** > **Single Sign-On (SSO)**.
 
 1. Selezionare la scheda **Adobe**.
 
-1. (Facoltativo e condizionale) Se nell&#39;esperienza classica è stata configurata la mappatura degli attributi per la tua organizzazione e desideri copiarla nell&#39;esperienza unificata di Adobe, fai clic su **Migra mappature**. Puoi quindi eliminare, eliminare o modificare queste mappature.
+1. (Facoltativo e condizionale) Se nell&#39;esperienza classica è stata configurata la mappatura degli attributi per la tua organizzazione e desideri copiarla nell&#39;esperienza Adobe, fai clic su **Migra mappature**. Puoi quindi eliminare, eliminare o modificare queste mappature.
 
    >[!NOTE]
    >
-   >È consigliabile eseguire la migrazione delle mappature la prima volta che le si configura nell’esperienza unificata di Adobe. Non c&#39;è alcun danno nel migrarli di nuovo in un secondo momento, ma migrarli più di una volta non è necessario.
+   >È consigliabile eseguire la migrazione delle mappature la prima volta che le si configura nell’esperienza Adobe. Non c&#39;è alcun danno nel migrarli di nuovo in un secondo momento, ma migrarli più di una volta non è necessario.
 
 1. Per creare un nuovo mapping di attributi, fare clic su **Aggiungi mapping**.
 

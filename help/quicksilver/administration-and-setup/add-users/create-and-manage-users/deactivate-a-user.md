@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Per disattivare un utente:
 
 {{step-1-to-users}}
 
-1. Seleziona un utente, fai clic sull&#39;icona **Altro** ![](assets/more-icon.png), quindi su **Disattiva**.
+1. Seleziona un utente, fai clic sull&#39;icona **Altro** ![Altro](assets/more-icon.png), quindi su **Disattiva**.
 
 1. Fare clic su **Disattiva** nella casella visualizzata.
 
@@ -118,7 +118,7 @@ Per pianificare la disattivazione di un utente:
 
    (Facoltativo) Seleziona più utenti per pianificarne la disattivazione in blocco.
 
-1. Fare clic sull&#39;icona Modifica ![](assets/edit-icon.png).
+1. Fare clic sull&#39;icona Modifica ![icona Modifica](assets/edit-icon.png).
 1. Nella casella Modifica utente visualizzata, fare clic su **Pianificazione risorse** per passare a tale area.
 1. Abilita l&#39;opzione **Pianifica disattivazione**.
 
@@ -139,7 +139,7 @@ Per pianificare la disattivazione di un utente:
 
 {{step-1-to-users}}
 
-1. Selezionare un utente, fare clic sull&#39;icona Altro ![](assets/more-icon.png) e quindi su **Attiva**.
+1. Seleziona un utente, fai clic sull&#39;icona Altro ![Icona Altro](assets/more-icon.png), quindi fai clic su **Attiva**.
 
 1. Assegna un nuovo **Livello di accesso** nel menu a discesa, quindi fai clic su **Riattiva**.
 <!--

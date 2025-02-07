@@ -5,9 +5,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '593'
 ht-degree: 1%
 
 ---
@@ -76,7 +76,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Fai clic su **E-mail** > **Notifiche**.
 
-   ![](assets/notifications-area-under-setup-emails.png)
+   ![Area di notifica nelle e-mail di configurazione](assets/notifications-area-under-setup-emails.png)
 
 
 1. Assicurati che la scheda **Notifiche evento** sia aperta.
@@ -88,7 +88,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Per ulteriori informazioni sulla personalizzazione dell&#39;oggetto delle notifiche e-mail, vedere [Personalizzare gli oggetti e-mail per le notifiche degli eventi](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
 
-1. (Facoltativo) Se si desidera sbloccare la configurazione di una notifica e-mail in modo che gli amministratori dei gruppi possano configurarla separatamente per i loro gruppi, fare clic sul pulsante ![](assets/lock-toggle-button.png) a destra della notifica per passare alla posizione sbloccata ![](assets/unlock-toggle-button.png).
+1. (Facoltativo) Se desideri sbloccare la configurazione per una notifica e-mail in modo che gli amministratori dei gruppi possano configurarla separatamente per i loro gruppi, fai clic sul pulsante ![Blocca/blocca](assets/lock-toggle-button.png) a destra della notifica per passare alla posizione sbloccata ![Sblocca/Sblocca](assets/unlock-toggle-button.png).
 
    >[!NOTE]
    >

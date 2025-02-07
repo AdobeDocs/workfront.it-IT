@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 5cd1cbd1976d5574668098be53daee780a9cc1fb
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 0%
+source-wordcount: '728'
+ht-degree: 1%
 
 ---
 
@@ -105,10 +105,10 @@ Fornire all&#39;amministratore di rete le informazioni seguenti:
 
    Il cluster viene visualizzato nella parte superiore destra della sezione **Informazioni di base**.
 
-   ![](assets/locate-cluster.png)
+   ![Individua cluster](assets/locate-cluster.png)
 
 1. Per visualizzare il piano Workfront, selezionare **Licenze**.
 
    Il piano viene visualizzato nell’angolo superiore destro della pagina.
 
-   ![](assets/locate-plan.png)
+   ![Individua piano](assets/locate-plan.png)

@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1330'
 ht-degree: 2%
 
 ---
@@ -107,7 +107,7 @@ Puoi generare e gestire le chiavi API per gli utenti con ruoli diversi da Ammini
    1. Espandere **Sistema**, quindi fare clic su **Single Sign-on (SSO)**.
    1. Nel campo **Tipo**, seleziona il tipo di SSO utilizzato dalla tua organizzazione.
    1. Con il tipo selezionato, scorri verso il basso e deseleziona la casella di controllo **Abilita**.
-      ![](assets/sysadmin-security-sso-disable-31620-350x320.png)
+      ![Abilita SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. Fai clic su **Salva**.
 
 
@@ -165,7 +165,7 @@ Se sei preoccupato di una particolare violazione di sicurezza relativa al tuo si
 
 >[!IMPORTANT]
 >
->La procedura descritta in questa sezione si applica solo alle organizzazioni che non sono ancora state caricate su Adobe Business Platform. L’accesso a Workfront tramite l’API Workfront non è disponibile se l’organizzazione è stata integrata in Adobe Business Platform.
+>La procedura descritta in questa sezione si applica solo alle organizzazioni che non hanno ancora effettuato l’onboarding in Adobe Business Platform. L’accesso a Workfront tramite l’API Workfront non è disponibile se l’organizzazione è stata integrata in Adobe Business Platform.
 >
 >Per un elenco delle procedure che differiscono a seconda che l&#39;organizzazione sia stata integrata o meno in Adobe Business Platform, consulta [Differenze di amministrazione basate su Platform (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -187,7 +187,7 @@ Ottenere un certificato X.509 valido da un&#39;autorità di certificazione atten
 
 Dopo aver ottenuto il certificato X.509 dall’autorità di certificazione, devi caricarlo in Workfront.
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic sull&#39;icona **Setup** ![Gear settings](assets/gear-icon-settings.png).
 
 1. Espandi **Sistema**, quindi fai clic su **Informazioni cliente**.
 

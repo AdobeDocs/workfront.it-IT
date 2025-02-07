@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
-In qualità di amministratore di Adobe Workfront, puoi utilizzare un modello di layout per determinare quali informazioni vengono visualizzate quando un utente fa clic sull&#39;icona Dettagli ![](assets/project-details-icon.png) nel pannello a sinistra durante la visualizzazione di un&#39;attività, un problema, un documento, un programma o un portfolio.
+In qualità di amministratore di Adobe Workfront, puoi utilizzare un modello di layout per determinare quali informazioni vengono visualizzate quando un utente fa clic sull&#39;icona Dettagli ![icona Dettagli](assets/project-details-icon.png) nel pannello a sinistra durante la visualizzazione di un&#39;attività, un problema, un documento, un programma o un portfolio.
 
 <!--
 or billing record
@@ -38,22 +38,22 @@ Le modifiche apportate alla visualizzazione Dettagli per un oggetto determinano 
 
 * Caselle &quot;Crea oggetto&quot;, ad esempio Crea attività
 
-  ![](assets/new-task-dialog.png)
+  ![Finestra di dialogo Nuova attività](assets/new-task-dialog.png)
 
 
 * Schermate &quot;Modifica oggetto&quot; durante la modifica di un oggetto, come Modifica attività, Modifica problema e Modifica progetto
 
-  ![](assets/edit-task-screen.png)
+  ![Modifica schermata attività](assets/edit-task-screen.png)
 
 
 * Quando si modificano oggetti in blocco, viene visualizzata la schermata Modifica oggetti. Attualmente questo è supportato per la modifica in blocco di progetti.
 
-  ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
+  ![Personalizza modifica progetti](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
 
-* Pannello di riepilogo ![](assets/summary-panel-icon.png) per elenchi di attività e problemi
+* Pannello di riepilogo ![Pannello di riepilogo](assets/summary-panel-icon.png) per elenchi di attività e problemi
 
-  ![](assets/summary-area.png)
+  ![Area di riepilogo](assets/summary-area.png)
 
   >[!NOTE]
   >
@@ -100,14 +100,14 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
 ## Personalizzare gli elementi visualizzati dagli utenti nella visualizzazione Dettagli
 
 1. Iniziare a lavorare su un modello di layout, come descritto in [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Fai clic sulla freccia rivolta verso il basso ![](assets/dropdown-arrow-12x12.png) in **Personalizza gli utenti visualizzati**, quindi fai clic su **Progetto**, **Attività**, **Problema**, **Programma** o **Portfolio.**
+1. Fai clic sulla freccia giù ![freccia giù](assets/dropdown-arrow-12x12.png) sotto **Personalizza ciò che gli utenti vedono**, quindi fai clic su **Progetto**, **Attività**, **Problema**, **Programma** o **Portfolio.**
 <!--
 , or billing record
 -->
 
 1. Nella sezione **Dettagli** eseguire una delle operazioni seguenti per personalizzare la visualizzazione della visualizzazione Dettagli:
 
-   * Trascinare le intestazioni di sezione ![](assets/move-icon---dots.png) per modificarne l&#39;ordine.
+   * Trascina le intestazioni di sezione ![Icona Sposta](assets/move-icon---dots.png) per modificarne l&#39;ordine.
    * Abilita o disabilita le opzioni nelle varie aree, ad esempio **Panoramica**, **Finanza** e **Forms personalizzato**, per mostrarle o nasconderle.
 
      Se si nascondono tutti i campi in una di queste sezioni, l&#39;intera sezione viene nascosta.

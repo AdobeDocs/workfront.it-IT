@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 57b76a404b0c965038d48a52a20521883c9f4b53
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2422'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Quando si utilizza un campo personalizzato calcolato esistente, il calcolo non v
 >
 >Le modifiche nelle espressioni calcolate possono causare l’obsolescenza del valore del campo sugli oggetti. Per essere certi di visualizzare sempre il calcolo aggiornato in questi campi, effettuare una delle seguenti operazioni:
 >
->* Dopo aver salvato un oggetto in cui sono stati modificati i dati in un modulo personalizzato allegato, fare clic sull&#39;icona Altro ![](assets/more-icon.png) nella pagina principale dell&#39;oggetto, quindi ricalcolare le espressioni personalizzate.
+>* Dopo aver salvato un oggetto in cui sono stati modificati i dati in un modulo personalizzato allegato, fare clic sull&#39;icona Altro ![Icona Altro](assets/more-icon.png) nella pagina principale dell&#39;oggetto, quindi Ricalcolare le espressioni personalizzate.
 >* Selezionare l&#39;opzione Ricalcola espressioni personalizzate quando si modificano oggetti in blocco.
 >* Selezionare l&#39;opzione Aggiorna calcoli precedenti durante la modifica di un campo personalizzato calcolato in un modulo personalizzato.
 
@@ -104,7 +104,7 @@ Per riutilizzare un campo personalizzato calcolato esistente:
 
 1. Nella parte superiore sinistra dello schermo fare clic su **Libreria campi**.
 
-   ![](assets/field-library.png)
+   ![Libreria campi](assets/field-library.png)
 
 1. Utilizza la casella di ricerca o espandi la sezione **Calcolato** per individuare il campo calcolato necessario, quindi trascina il campo nel punto in cui desideri che venga visualizzato nel modulo personalizzato.
 
@@ -142,7 +142,7 @@ Per riutilizzare un campo personalizzato calcolato esistente:
 
 1. Sul lato sinistro della schermata, trovare **Calcolato** e trascinarlo in una sezione dell&#39;area di lavoro.
 
-   ![](assets/drag-field-to-section.png)
+   ![Trascina campo nella sezione](assets/drag-field-to-section.png)
 
 1. Sul lato destro della schermata, configura le opzioni disponibili per il tipo di campo personalizzato che stai aggiungendo:
 
@@ -296,14 +296,14 @@ Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contene
       >Per ottenere informazioni sui calcoli, eseguire una delle operazioni seguenti:
       > 
       >* Passa il puntatore del mouse su un&#39;espressione nel calcolo per visualizzare una descrizione, un esempio che ne illustra le modalità di utilizzo e un collegamento &quot;Ulteriori informazioni&quot; per ulteriori informazioni nell&#39;articolo [Panoramica delle espressioni di dati calcolati](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
-      >  ![](assets/hover-expression-help-text.jpg)
+      >  ![Testo della guida dell&#39;espressione](assets/hover-expression-help-text.jpg)
       >* Utilizza la codifica a colori per identificare i componenti aggiunti. Le espressioni vengono visualizzate in blu e i campi in verde.
-      >  ![](assets/colors-fields-expressions.jpg)
+      >  ![Colori per espressioni di campo](assets/colors-fields-expressions.jpg)
       >* Individuare gli errori di calcolo, evidenziati in rosa. Puoi passare il cursore del mouse su un errore evidenziato per visualizzarne una breve descrizione della causa.
-      >  ![](assets/error-help.png)
+      >  ![Guida per errori](assets/error-help.png)
       >* Nell&#39;area sottostante il calcolo, visualizzare in anteprima i risultati di un oggetto Workfront esistente.
       ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-      >  ![](assets/preview-calc.jpg)
+      >  ![Anteprima calcolo](assets/preview-calc.jpg)
       >* Riferimento alle espressioni in un calcolo lungo utilizzando i numeri di riga visualizzati a sinistra.
 
 +++

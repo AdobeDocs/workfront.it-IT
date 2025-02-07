@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1018'
 ht-degree: 3%
 
 ---
@@ -54,10 +54,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 {{step-1-to-setup}}
 
-1. Nel pannello a sinistra, fai clic su **Gruppi** ![](assets/groups-icon.png).
+1. Nel pannello a sinistra, fai clic su **Gruppi** ![Gruppi](assets/groups-icon.png).
 
 1. Fare clic sul nome del gruppo per il quale si desidera creare o modificare i team.
-1. Nel pannello a sinistra, fai clic su **Team** ![](assets/teams.png) per elencare i team associati al gruppo e ai suoi eventuali sottogruppi.
+1. Nel pannello a sinistra, fai clic su **Team** ![Team](assets/teams.png) per elencare i team associati al gruppo e ai suoi eventuali sottogruppi.
 
 1. Effettua una delle seguenti operazioni:
 
@@ -100,7 +100,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       </tbody> 
      </table>
 
-   * **Modifica team**: seleziona almeno un team, fai clic su **the** Modifica icona ![](assets/edit-icon.png), quindi utilizza le seguenti opzioni per configurarlo:
+   * **Modifica team**: seleziona almeno un team, fai clic su **the** Modifica icona ![Modifica icona](assets/edit-icon.png), quindi utilizza le seguenti opzioni per configurarlo:
 
      <table style="table-layout:auto"> 
       <col> 
@@ -149,5 +149,5 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       </tbody> 
      </table>
 
-   * **Elimina team**: selezionare almeno un team, quindi fare clic sull&#39;icona Elimina ![](assets/delete.png).
-   * **Esporta l&#39;elenco dei team**: fare clic su **Esporta** ![](assets/export.png), quindi selezionare il formato di file desiderato per l&#39;elenco esportato.
+   * **Elimina team**: seleziona almeno un team, quindi fai clic sull&#39;icona Elimina ![icona Elimina](assets/delete.png).
+   * **Esporta l&#39;elenco dei team**: fare clic su **Esporta** ![Icona Esporta](assets/export.png), quindi selezionare il formato di file desiderato per l&#39;elenco esportato.

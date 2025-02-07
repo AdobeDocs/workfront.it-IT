@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Prima di poter mappare i campi per il processo di mappatura dei metadati, è nec
 
 1. Nel pannello a sinistra, fai clic su **[!UICONTROL Documenti]** > **[!UICONTROL Mappatura metadati]**.
 
-   ![](assets/metadata-mapping.png)
+   ![Mappatura metadati](assets/metadata-mapping.png)
 
 1. Nella casella **[!UICONTROL Seleziona campo Source per mappatura]**, inizia a digitare il nome del campo Workfront che desideri mappare a [!DNL Workfront DAM], quindi selezionalo quando lo visualizzi nell&#39;elenco.
 1. Nella casella **[!UICONTROL Seleziona campo di destinazione per mappatura]**, selezionare il campo che si desidera compilare con le informazioni nel campo [!DNL Workfront] selezionato.

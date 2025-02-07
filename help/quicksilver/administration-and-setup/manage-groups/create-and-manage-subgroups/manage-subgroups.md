@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1251'
 ht-degree: 1%
 
 ---
@@ -63,7 +63,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 {{step-1-to-setup}}
 
-1. Nel pannello a sinistra, fai clic su **Gruppi** ![](assets/groups-icon.png).
+1. Nel pannello a sinistra, fai clic su **Gruppi** ![Gruppi](assets/groups-icon.png).
 
    Nell’elenco visualizzato puoi visualizzare i gruppi che gestisci, insieme a tutti i relativi sottogruppi. Gli amministratori di Adobe Workfront possono visualizzare tutti i gruppi.
 
@@ -153,9 +153,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 {{step-1-to-setup}}
 
-1. Nel pannello a sinistra, fai clic su **Gruppi** ![](assets/groups-icon.png).
+1. Nel pannello a sinistra, fai clic su **Gruppi** ![Gruppi](assets/groups-icon.png).
 
-1. Selezionare il gruppo padre del gruppo che si desidera creare come gruppo principale, quindi fare clic sull&#39;icona Modifica ![](assets/edit-icon.png).
+1. Seleziona il gruppo principale del gruppo che desideri creare, quindi fai clic sull&#39;icona Modifica ![icona Modifica](assets/edit-icon.png).
 1. Nella casella **Modifica gruppo** visualizzata, in **Membri gruppo e amministratori gruppo**, inizia a digitare il nome del sottogruppo che si desidera creare come gruppo principale, quindi fai clic sulla X a destra del nome quando viene visualizzato.
 1. Fai clic su **Salva**.
 

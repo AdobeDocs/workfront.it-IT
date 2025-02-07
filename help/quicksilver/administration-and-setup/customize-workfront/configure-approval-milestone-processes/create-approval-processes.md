@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: a1ead3895afaf8b601a9c53e08d41b1cab51cb48
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '2191'
+source-wordcount: '2193'
 ht-degree: 1%
 
 ---
@@ -82,10 +82,10 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Oppure
 
-   Se stai creando un processo di approvazione a livello di gruppo, fai clic su **Gruppi** ![](assets/groups-icon.png), fai clic sul nome del gruppo, quindi fai clic su **Approvazioni**.
+   Se stai creando un processo di approvazione a livello di gruppo, fai clic su **Gruppi** ![Icona Gruppi](assets/groups-icon.png), fai clic sul nome del gruppo, quindi su **Approvazioni**.
 
    <!--hidden for the new tab redesign - August 2023: 
-   ![](assets/approvals-area-in-setup-processes.png)
+   ![Approvals area in setup](assets/approvals-area-in-setup-processes.png)
    -->
 
 1. Scegliere la scheda **Approvazioni progetti**, **Approvazioni attività** o **Approvazioni problemi**.

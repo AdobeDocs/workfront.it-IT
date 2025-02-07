@@ -8,14 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '816'
 ht-degree: 1%
 
 ---
 
-# Aggiornare gli utenti per il Single Sign-On
+# Aggiornare utenti per Single Sign-On
 
 <!-- Audited: 1/2024 -->
 
@@ -92,7 +92,7 @@ Questo processo aggiorna i nomi utente SSO esistenti in Workfront oppure, se ne 
    | ID | L&#39;ID è il GUID alfanumerico di Workfront. |
    | Nome utente SSO | Aggiunta del campo Nome utente SSO per garantire che non siano presenti nomi utente sovrascritti con l&#39;importazione. Questo campo deve essere vuoto per tutti gli utenti, se gli utenti non sono ancora stati aggiornati per l&#39;SSO. |
 
-   ![](assets/users-with-sso-username-and-no-sso-access-only-field.png)
+   ![Utenti con nome utente SSO ma senza accesso](assets/users-with-sso-username-and-no-sso-access-only-field.png)
 
 1. Salva il rapporto.
 1. Fai clic su **Esporta** nella parte superiore del report ed esporta il report in Excel.
@@ -112,7 +112,7 @@ Questo processo aggiorna i nomi utente SSO esistenti in Workfront oppure, se ne 
    * La seconda colonna deve contenere il nome utente SSO visualizzato nel sistema SSO.
    * Le colonne non devono avere intestazioni e non devono essere presenti righe vuote nella parte superiore dell’elenco dei nomi.
 
-     ![](assets/update-users-for-sso-csv-file-for-import.png)
+     ![Aggiorna CSV utenti](assets/update-users-for-sso-csv-file-for-import.png)
 
 1. Salva il rapporto come file CSV o TSV sul computer.
 
@@ -145,6 +145,6 @@ Per istruzioni sulla creazione di un report utente contenente informazioni sul n
 1. Verificare che i valori della colonna Nome utente SSO corrispondano al nome utente SSO nel server SSO.
 1. Se la colonna Nome utente SSO è vuota, aggiorna i nomi utente SSO degli utenti.
 
-   ![](assets/users-with-sso-field-updated.png)
+   ![Utenti con campo SSO](assets/users-with-sso-field-updated.png)
 
    Per istruzioni sull&#39;aggiornamento degli utenti per l&#39;SSO, vedere [Aggiornare gli utenti per l&#39;SSO](#update-your-users-for-sso).

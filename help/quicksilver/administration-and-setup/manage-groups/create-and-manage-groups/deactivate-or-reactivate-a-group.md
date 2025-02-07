@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Fare clic sul nome del gruppo per aprirne la pagina.
 
-1. Fai clic sul menu Altro ![](assets/more-icon.png) accanto al nome del gruppo, quindi fai clic su **Disattiva** o **Riattiva**.
+1. Fai clic sull&#39;icona Altro ![Altro](assets/more-icon.png) accanto al nome del gruppo, quindi fai clic su **Disattiva** o **Riattiva**.
 
    >[!NOTE]
    >
@@ -92,7 +92,7 @@ Considera quanto segue in merito a un gruppo che hai disattivato disabilitando l
 
   Per informazioni sulla riattivazione di un sottogruppo in questa situazione, vedere [Informazioni sulla riattivazione di un sottogruppo al di sotto di un gruppo padre inattivo](#about-reactivating-a-subgroup-below-an-inactive-parent-group) in questo articolo.
 
-* Quando si accede all&#39;area Gruppi in Configurazione, è possibile visualizzare solo i gruppi attivi nell&#39;elenco, perché Attivo è il filtro predefinito ![](assets/filter-nwepng.png). Se desideri visualizzare tutti i gruppi gestiti, inclusi quelli inattivi, puoi utilizzare il filtro Tutto. In alternativa, utilizza il filtro Inattivo per elencare solo quelli inattivi.
+* Quando si accede all&#39;area Gruppi in Configurazione, è possibile visualizzare solo i gruppi attivi nell&#39;elenco perché Attivo è l&#39;icona filtro ![Filtro](assets/filter-nwepng.png) predefinita per l&#39;elenco. Se desideri visualizzare tutti i gruppi gestiti, inclusi quelli inattivi, puoi utilizzare il filtro Tutto. In alternativa, utilizza il filtro Inattivo per elencare solo quelli inattivi.
 
   Per ulteriori informazioni sui filtri negli elenchi, vedere [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 

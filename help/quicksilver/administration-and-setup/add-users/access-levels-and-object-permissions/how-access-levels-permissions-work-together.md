@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '876'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ L’amministratore Adobe Workfront determina il livello di accesso di ogni utent
 Gli utenti possono inoltre accedere a singoli oggetti quando altri utenti condividono e concedono determinate autorizzazioni su tali oggetti.
 
 
-![](assets/security-model-hierachy.png)
+![Gerarchia modelli di sicurezza](assets/security-model-hierachy.png)
 
 Se ad esempio il livello di accesso indica che è possibile creare attività, ma le autorizzazioni ricevute per un progetto specifico non consentono di aggiungervi attività, non è possibile aggiungere attività al progetto anche se è possibile crearle altrove in Workfront.
 

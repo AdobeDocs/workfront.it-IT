@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Selezionare la scheda del tipo di oggetto (**Progetto**, **Attività** o **Problema**) in cui si trova la condizione che si desidera eliminare.
 
-1. Passa il puntatore del mouse sulla condizione da eliminare, quindi fai clic sull&#39;icona **Elimina** ![](assets/delete.png) visualizzata all&#39;estrema destra.
+1. Passa il puntatore del mouse sulla condizione da eliminare, quindi fai clic sull&#39;icona **Elimina** ![Elimina](assets/delete.png) visualizzata all&#39;estrema destra.
 1. Nel messaggio di conferma visualizzato, fare clic su **Elimina condizione**.
 
 1. Nella casella **Elimina condizione** visualizzata, selezionare una nuova condizione nell&#39;elenco a discesa per tutti i progetti che utilizzano la condizione che si sta eliminando.

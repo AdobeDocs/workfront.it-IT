@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '382'
 ht-degree: 12%
 
 ---
@@ -23,7 +23,7 @@ Puoi creare un modulo personalizzato che gli utenti possono allegare a un oggett
 
 Ad esempio, puoi allegare a un progetto un modulo personalizzato denominato &quot;Marketing Content Research&quot; (Ricerca sui contenuti di marketing) in modo che gli utenti del progetto possano richiedere i contenuti di marketing necessari:
 
-![](assets/see-image-details-page.png)
+![Pagina dettagli](assets/see-image-details-page.png)
 
 ## Come creare un modulo personalizzato
 

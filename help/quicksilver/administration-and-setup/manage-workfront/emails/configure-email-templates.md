@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '828'
 ht-degree: 3%
 
 ---
@@ -66,7 +66,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Nel pannello a sinistra, fai clic su **E-mail** > **Notifiche**> **Modelli e-mail**.
 
-   ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
+   ![Scheda Modelli e-mail](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. Fai clic su **Nuovo modello di e-mail**.
 
@@ -239,7 +239,7 @@ Un Progetto Gestito È In Ritardo
 
 Questo genera un’e-mail simile alla seguente:
 
-![](assets/project-became-late-email.png)
+![E-mail del progetto in ritardo](assets/project-became-late-email.png)
 
 #### Promemoria attività o problema in procinto di iniziare {#task-or-issue-about-to-start-reminder-example}
 

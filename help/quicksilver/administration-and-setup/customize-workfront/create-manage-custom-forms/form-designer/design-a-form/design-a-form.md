@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '6474'
+source-wordcount: '6492'
 ht-degree: 5%
 
 ---
@@ -60,10 +60,10 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. Fare clic su **Nuovo modulo personalizzato.**
 1. Seleziona i tipi di oggetto a cui vuoi allegare il modulo personalizzato, quindi fai clic su **Continua**.
 
-   ![](assets/choose-object-type.jpg)
+   ![Scegli il tipo di oggetto](assets/choose-object-type.jpg)
 
 1. Nell&#39;area **Titolo obbligatorio** digitare il titolo del modulo personalizzato.
-1. (Facoltativo) Se si desidera aggiungere altri tipi di oggetto al modulo in modo che possa essere allegato a più oggetti, fare clic sull&#39;icona **Aggiungi** ![](assets/add-objects-icon.png) dopo **Tipi di oggetto**, quindi selezionare il tipo desiderato nel menu visualizzato. È possibile ripetere questa operazione per aggiungere tutti i tipi di oggetto desiderati.
+1. (Facoltativo) Se si desidera aggiungere altri tipi di oggetto al modulo in modo che possa essere allegato a più oggetti, fare clic sull&#39;icona **Aggiungi** ![Icona Aggiungi oggetti](assets/add-objects-icon.png) dopo **Tipi di oggetto**, quindi selezionare il tipo desiderato nel menu visualizzato. È possibile ripetere questa operazione per aggiungere tutti i tipi di oggetto desiderati.
 
    È inoltre possibile fare clic sulla X su un tipo di oggetto per eliminarlo dal modulo.
 
@@ -179,7 +179,7 @@ Per aggiungere un campo di testo:
    * Testo con formattazione
    * Testo descrittivo
 
-   ![](assets/drag-field-to-section.png)
+   ![Trascina campo nella sezione](assets/drag-field-to-section.png)
 
 1. Sul lato destro della schermata, configura le opzioni disponibili per il tipo di campo personalizzato che stai aggiungendo:
 
@@ -464,7 +464,7 @@ Per aggiungere campi di tipo typeahead e date:
    * Automatico
    * Data
 
-   ![](assets/drag-field-to-section.png)
+   ![Trascina campo nella sezione](assets/drag-field-to-section.png)
 
 1. Sul lato destro della schermata, configura le opzioni disponibili per il tipo di campo personalizzato che stai aggiungendo:
 
@@ -698,7 +698,7 @@ Per aggiungere immagini, PDF o video:
    * PDF
    * Video
 
-   ![](assets/drag-field-to-section.png)
+   ![Trascina campo nella sezione](assets/drag-field-to-section.png)
 
 1. Digitate o modificate una delle seguenti proprietà per il widget:
 

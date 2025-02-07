@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1344'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 {{step-1-to-setup}}
 
-1. Nel pannello a sinistra, fai clic su **Gruppi** ![](assets/groups-icon.png).
+1. Nel pannello a sinistra, fai clic su **Gruppi** ![Gruppi](assets/groups-icon.png).
 
 1. Fare clic sul nome del gruppo in cui si desidera creare o personalizzare gli stati.
 1. Nel pannello a sinistra, fai clic su **Stati**.
@@ -87,7 +87,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. (Condizionale) Se lo stato è un problema, assicurati che sia selezionato **Elenco principale**.
 
-   ![](assets/master-list.png)
+   ![Elenco principale](assets/master-list.png)
 
    Per informazioni sulla personalizzazione degli altri tipi di problemi (rapporto bug, ordine di modifica, problema, richiesta), vedere [Personalizzare i tipi di problemi predefiniti](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
 
@@ -97,7 +97,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Per modificare uno stato esistente, passa il puntatore del mouse sullo stato da modificare, quindi fai clic sull&#39;opzione **Modifica** visualizzata all&#39;estrema destra.
 
-   ![](assets/group-statuses-edit.jpg)
+   ![Stati gruppo](assets/group-statuses-edit.jpg)
 
    >[!NOTE]
    >Puoi modificare uno stato per il gruppo solo se:
@@ -173,11 +173,11 @@ Gli amministratori di gruppi o gli amministratori di Workfront possono creare un
 1. Nella casella in alto a destra, elimina **Stati di sistema**, inizia a digitare il nome di un gruppo in cui vuoi nascondere lo stato, quindi fai clic sul nome quando viene visualizzato.
 1. Passa il puntatore del mouse sullo stato che desideri nascondere al gruppo, quindi fai clic su **Modifica** quando viene visualizzato.
 
-   ![](assets/hover-click-edit.jpg)
+   ![Modifica stato](assets/hover-click-edit.jpg)
 
 1. Abilita l&#39;opzione **Nascondi stato** visualizzata.
 
-   ![](assets/hide-group-status.png)
+   ![Nascondi stato](assets/hide-group-status.png)
 
 1. Fai clic su **Salva**.
 

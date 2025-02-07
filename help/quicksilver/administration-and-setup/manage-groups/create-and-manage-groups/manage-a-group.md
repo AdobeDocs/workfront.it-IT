@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Senza uscire dalla pagina principale di un gruppo che si sta visualizzando, è p
 
    Nell’elenco visualizzato puoi visualizzare i gruppi che gestisci, insieme a tutti i relativi sottogruppi. Gli amministratori di Adobe Workfront possono visualizzare tutti i gruppi.
 
-1. Selezionare il gruppo, quindi fare clic sull&#39;icona Modifica ![](assets/edit-icon.png), Copia ![](assets/copy-icon.png) o Elimina ![](assets/delete.png).
+1. Seleziona il gruppo, quindi fai clic sull&#39;icona Modifica ![Modifica](assets/edit-icon.png), Copia ![Copia](assets/copy-icon.png) o Elimina ![Elimina](assets/delete.png).
 
    Per informazioni sull&#39;utilizzo della casella visualizzata, vedere una delle seguenti sezioni:
 

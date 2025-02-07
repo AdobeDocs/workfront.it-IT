@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ Se gli utenti dell’organizzazione preferiscono utilizzare il Visualizzatore bo
 
 1. Da Workfront, fai clic sull’icona Workfront Proof nella barra di navigazione globale per accedere a Workfront Proof.
 
-   ![](assets/proof-access-proofhq-350x39.png)
+   ![Icona bozza](assets/proof-access-proofhq-350x39.png)
 
 1. Fai clic su **Impostazioni account** nell&#39;angolo superiore destro di Workfront Proof, quindi fai clic sulla scheda **Impostazioni**.
 

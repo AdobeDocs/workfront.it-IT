@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. Nel pannello sinistro fai clic su **Stati**.
 1. Nell&#39;elenco degli stati visualizzati, passa il cursore sullo stato che desideri eliminare, quindi fai clic su **Elimina** quando viene visualizzato all&#39;estrema destra.
 
-   ![](assets/hover-click-delete.jpg)
+   ![Elimina](assets/hover-click-delete.jpg)
 
 1. Nella casella visualizzata, selezionare uno stato per designare uno stato sostitutivo per gli oggetti (progetti, attività, problemi e processi di approvazione) che utilizzavano lo stato che si sta eliminando.
 

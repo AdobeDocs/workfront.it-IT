@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -66,14 +66,14 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. Digita un nome per il trimestre personalizzato, ad esempio &quot;Fiscal Q1 2021&quot;.
 1. Seleziona le date di inizio e fine per il trimestre personalizzato.
 
-   ![](assets/custom-quarters-nwe.png)
+   ![Trimestri personalizzati](assets/custom-quarters-nwe.png)
 
 1. (Facoltativo) Fai clic su **[!UICONTROL Aggiungi trimestre personalizzato]** per aggiungere altri trimestri personalizzati al sistema.
 1. (Facoltativo) Crea un elemento di reporting che si riferisce ai trimestri fiscali.
 
    **Esempio:** Crea un filtro per un elenco di [!UICONTROL progetti] e includi la data di completamento pianificata di un progetto che fa riferimento ai trimestri personalizzati.
 
-   ![](assets/example-of-project-filter-with-custom-quarters.png)
+   ![Filtro progetti con trimestri personalizzati](assets/example-of-project-filter-with-custom-quarters.png)
 
    I riferimenti a &quot;Questo trimestre&quot;, &quot;Prossimo trimestre&quot; e &quot;Ultimo trimestre&quot; sono sostituiti da nuovi riferimenti ai trimestri personalizzati.
 

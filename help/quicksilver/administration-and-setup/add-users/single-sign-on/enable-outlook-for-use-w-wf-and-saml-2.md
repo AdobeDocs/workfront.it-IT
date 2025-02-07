@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
    >Se si abilita l&#39;opzione **Consenti incorporamento di Workfront in un iframe**, l&#39;opzione **Consenti autenticazione SAML 2.0 nei componenti aggiuntivi di Office 365** è disabilitata e abilitata.
    >
-   >![](assets/if-you-enable.png)
+   >![Opzione Consenti incorporamento](assets/if-you-enable.png)
    >
 
 1. Fai clic su **Salva**.

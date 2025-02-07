@@ -1,5 +1,5 @@
 ---
-title: Configura l'integrazione  [!DNL Workfront] e [!DNL Frame.io]
+title: 'Configura l''integrazione  [!DNL Workfront] e [!DNL Frame.io] '
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
@@ -10,9 +10,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
-source-git-commit: 321ffac87bd694325dfb05e4019b25479f58684a
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -97,9 +97,9 @@ Per abilitare gli utenti Frame.io:
 
 {{step-1-to-users}}
 
-1. Seleziona uno o più utenti, quindi fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png).
+1. Seleziona uno o più utenti, quindi fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png).
 1. Nella sezione Accesso, abilita la casella di controllo Aggiungi a progetti in Frame.io, quindi seleziona **Sì** nel menu a discesa.
-   ![](assets/add-to-frame-project.png)
+   ![Aggiungi al progetto Frame](assets/add-to-frame-project.png)
 
    >[!NOTE]
    >

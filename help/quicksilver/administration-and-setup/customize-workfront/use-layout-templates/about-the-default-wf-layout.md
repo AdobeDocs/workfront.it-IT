@@ -9,16 +9,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 52877ab16210699019c82e709f288b5f98e7d811
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '627'
 ht-degree: 9%
 
 ---
 
 # Informazioni sul layout predefinito di Adobe Workfront
 
-Il layout predefinito è la disposizione del menu principale ![](assets/main-menu-icon.png) o del menu principale ![](assets/lines-main-menu.png), se disponibile, il pannello sinistro e le visualizzazioni, i raggruppamenti e i filtri prima che un amministratore Adobe Workfront apporti modifiche utilizzando un modello di layout.
+Il layout predefinito è la disposizione dell&#39;icona Menu principale ![Icona Menu principale](assets/main-menu-icon.png) o dell&#39;icona Menu principale ![Icona Menu principale](assets/main-menu-icon.png), se disponibile, del pannello sinistro e delle visualizzazioni, dei raggruppamenti e dei filtri prima che un amministratore Adobe Workfront apporti modifiche utilizzando un modello di layout.
 
 Per informazioni su come un amministratore di Workfront può modificare il layout predefinito di un utente assegnandogli un modello di layout, vedere [Assegnare utenti a un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 

@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: 7a2cfddf4683b5b49121bbe3987498297b963ffa
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '2079'
 ht-degree: 0%
 
 ---
@@ -209,7 +209,7 @@ In qualità di amministratore di Workfront Proof, puoi modificare un modello di 
     </tbody> 
    </table>
 
-1. Nella sezione **Flusso di lavoro**, modifica il nome di una fase ed espandi le relative impostazioni ![](assets/arrow-button.png) per apportare le modifiche necessarie:
+1. Nella sezione **Flusso di lavoro**, modifica il nome di una fase ed espandine le impostazioni ![Pulsante Espandi](assets/arrow-button.png) per apportare le modifiche necessarie:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -256,7 +256,7 @@ In qualità di amministratore di Workfront Proof, puoi modificare un modello di 
 
    Se non è necessario visualizzare il diagramma, fare clic su **Nascondi diagramma**.
 
-1. Nella sezione **Condiviso con**, per eliminare un utente, fare clic sul pulsante Altro ![](assets/more-icon.png) a destra, quindi su **Rimuovi**.
+1. Nella sezione **Condiviso con**, se desideri eliminare un utente, fai clic sul pulsante Altro ![Icona Altro](assets/more-icon.png) a destra, quindi fai clic su **Rimuovi**.
 
 ## Creare gruppi di modelli di flussi di lavoro automatizzati {#create-automated-workflow-template-groups}
 

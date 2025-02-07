@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2238'
 ht-degree: 0%
 
 ---
@@ -300,7 +300,7 @@ Per bloccare o sbloccare un&#39;attività o una preferenza di problema in modo c
 
 1. Effettua una delle seguenti operazioni:
 
-   * Se desideri che gli amministratori dei gruppi al di sotto del gruppo possano configurare una preferenza per i loro gruppi, sbloccarla ![](assets/unlock-toggle-button.png).
+   * Se vuoi che gli amministratori dei gruppi al di sotto del gruppo possano configurare una preferenza per i loro gruppi, sbloccarla ![Attiva/Disattiva blocco](assets/unlock-toggle-button.png).
    * Se si desidera che il gruppo e tutti i gruppi sottostanti utilizzino la configurazione per una preferenza, assicurarsi che sia bloccata (impostazione predefinita).
 
      >[!IMPORTANT]

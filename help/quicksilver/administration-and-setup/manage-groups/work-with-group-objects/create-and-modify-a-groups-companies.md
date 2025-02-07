@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 {{step-1-to-setup}}
 
-1. Nel pannello a sinistra, fai clic su **Gruppi** ![](assets/groups-icon.png).
+1. Nel pannello a sinistra, fai clic su **Gruppi** ![Gruppi](assets/groups-icon.png).
 
 1. Fare clic sul nome del gruppo per il quale si desidera creare o modificare le società.
 1. Nel pannello a sinistra, fai clic su **Aziende** per elencare le aziende associate al gruppo ed eventuali sottogruppi.
@@ -86,8 +86,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
    >Se disponi di accesso amministrativo per le aziende nel tuo livello di accesso, puoi anche fare clic su Aggiungi altre aziende nella parte inferiore dell’elenco. In questo modo viene aggiunta una riga in cui è possibile configurare rapidamente la nuova società.
 
-1. (Facoltativo) Per modificare o eliminare società, selezionare almeno una società, quindi utilizzare i pulsanti della barra degli strumenti per modificare ![](assets/edit-icon.png) o eliminarla ![](assets/delete.png).
+1. (Facoltativo) Per modificare o eliminare società, selezionare almeno una società, quindi utilizzare i pulsanti della barra degli strumenti per modificare ![icona Modifica](assets/edit-icon.png) o eliminare ![icona Elimina](assets/delete.png).
 
    Per informazioni sulla modifica di una società, vedere la sezione [Creare o modificare una società in Workfront](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront) nell&#39;articolo [Creare e modificare società](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
-1. (Facoltativo) Per esportare l&#39;elenco di società, fare clic sull&#39;icona Esporta ![](assets/export.png), quindi selezionare il formato di file desiderato per l&#39;elenco esportato.
+1. (Facoltativo) Per esportare l&#39;elenco di società, fare clic sull&#39;icona Esporta ![icona Esporta](assets/export.png), quindi selezionare il formato di file desiderato per l&#39;elenco esportato.

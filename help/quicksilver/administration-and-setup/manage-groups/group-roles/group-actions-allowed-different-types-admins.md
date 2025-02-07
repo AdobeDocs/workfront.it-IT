@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '541'
 ht-degree: 3%
 
 ---
@@ -226,11 +226,11 @@ In questa tabella sono elencate le attività di amministrazione disponibili per:
  </tbody> 
 </table>
 
-&#42; Nel livello di accesso dell&#39;amministratore del gruppo, è necessario selezionare **Modifica** per l&#39;impostazione **Utenti**, con **Amministratore utenti (Utenti gruppi)** selezionato in **Ottimizza le impostazioni** ![](assets/gear-icon-in-access-levels.png). Per ulteriori informazioni, vedere la sezione [Configurare l&#39;accesso degli utenti per la modifica degli utenti utilizzando un livello di accesso personalizzato](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) nell&#39;articolo [Concedere l&#39;accesso agli utenti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+&#42; Nel livello di accesso dell&#39;amministratore del gruppo, è necessario selezionare **Modifica** per l&#39;impostazione **Utenti**, con **Amministratore utenti (Utenti gruppi)** selezionato in **Ottimizza impostazioni** ![Icona Impostazioni ottimizzate](assets/gear-icon-in-access-levels.png). Per ulteriori informazioni, vedere la sezione [Configurare l&#39;accesso degli utenti per la modifica degli utenti utilizzando un livello di accesso personalizzato](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) nell&#39;articolo [Concedere l&#39;accesso agli utenti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 &#42;&#42; Nel livello di accesso dell&#39;amministratore del gruppo, l&#39;accesso a questa azione deve essere abilitato. Per ulteriori informazioni, vedere [Concedere agli utenti l&#39;accesso amministrativo ad alcune aree](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-&#42;&#42;&#42; Le seguenti attività fanno parte di Advanced Enterprise Controls e non sono disponibili per il piano Select. Solo le organizzazioni che hanno acquistato i piani Prime o Ultimate possono accedere a queste funzionalità.  Per ulteriori informazioni sui piani, vedere la [pagina di determinazione prezzi e creazione pacchetti di Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html). Per le organizzazioni che utilizzano i piani legacy, la tabella precedente mostra le attività per gli amministratori di gruppi e sottogruppi.
+&#42;&#42;&#42; Le seguenti attività fanno parte di Advanced Enterprise Controls e non sono disponibili per il piano Select. Solo le organizzazioni che hanno acquistato i piani di Prime o Ultimate possono accedere a queste funzionalità.  Per ulteriori informazioni sui piani, vedere la [pagina di determinazione prezzi e creazione pacchetti di Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html). Per le organizzazioni che utilizzano i piani legacy, la tabella precedente mostra le attività per gli amministratori di gruppi e sottogruppi.
 
 * Configurare le preferenze di progetto, attività e problema a livello di gruppo
 * Configurare le preferenze di orario e scheda orario a livello di gruppo

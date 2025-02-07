@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '629'
 ht-degree: 3%
 
 ---
@@ -99,7 +99,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Ad esempio, se un&#39;attività viene assegnata il venerdì e ha una durata di 3 giorni, la data di completamento dell&#39;attività viene impostata per il lunedì (supponendo che sabato e domenica siano un fine settimana). Se l&#39;attività ha una durata di 3 giorni (non trascorsa), la data di completamento dell&#39;attività viene impostata su Mercoledì.
 
-   ![](assets/time-increments-for-automatic-reminder.png)
+   ![Incrementi di tempo](assets/time-increments-for-automatic-reminder.png)
 
 1. Fai clic su **Salva**.
 

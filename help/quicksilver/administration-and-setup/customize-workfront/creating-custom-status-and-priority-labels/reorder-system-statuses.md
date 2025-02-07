@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6fee45a6-1a55-4351-8b08-88244c742ed5
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '520'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,7 @@ In qualità di amministratore di Workfront, puoi modificare l’ordine degli sta
 
 <!--The system version of this snippet mentions a single group because a sysadmin call also reorder statuses there. Group admin version of this article is still needed.-->
 
-![](assets/statuses.png)
+![Stati](assets/statuses.png)
 
 >[!NOTE]
 >
@@ -125,7 +125,7 @@ Per impostazione predefinita, gli stati vengono visualizzati nell&#39;ordine seg
 1. Nel pannello a sinistra, fai clic su **Preferenze progetto > Stati**.
 1. (Condizionale) Se si stanno riordinando gli stati per un gruppo, iniziare a digitare il nome del gruppo nella casella nell&#39;angolo superiore destro, quindi fare clic sul nome quando viene visualizzato.
 
-   ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   ![Stati di sistema](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
 1. Sopra l&#39;elenco Stati visualizzato, fare clic sulla scheda **Progetti** o **Attività**.
 
@@ -137,12 +137,12 @@ Per impostazione predefinita, gli stati vengono visualizzati nell&#39;ordine seg
 
 ## Riordina gli stati per i problemi
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic sull&#39;icona **Setup** ![Gear settings](assets/gear-icon-settings.png).
 
 1. Fare clic su **Preferenze progetto > Stati.**
 1. (Condizionale) Se si stanno riordinando gli stati per un gruppo, iniziare a digitare il nome del gruppo nella casella nell&#39;angolo superiore destro, quindi fare clic sul nome quando viene visualizzato.
 
-   ![](assets/issue-statuses-group-name.png)
+   ![Stato problema per il gruppo](assets/issue-statuses-group-name.png)
 
 1. Fai clic sulla scheda **Issues**.
 1. (Facoltativo) Seleziona un tipo di problema (**Segnalazione bug**, **Ordine di modifica**, **Problema** o **Richiesta**).

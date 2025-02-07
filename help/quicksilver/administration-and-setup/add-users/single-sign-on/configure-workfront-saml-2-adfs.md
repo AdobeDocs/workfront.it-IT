@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bc5987b-6e32-47df-90c8-08ea4b1b7451
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ Per abilitare l’autenticazione all’applicazione web Workfront e all’applic
 
 1. Fare clic su **Verifica connessione**. Se configurato correttamente, dovresti vedere una pagina simile a quella mostrata di seguito:
 
-   ![](assets/success-saml-2.png)
+   ![Messaggio di successo SAML 2](assets/success-saml-2.png)
 
    >[!NOTE]
    >

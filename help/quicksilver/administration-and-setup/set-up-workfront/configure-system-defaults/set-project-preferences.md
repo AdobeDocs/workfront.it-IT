@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 90405d79f605d788331cb7a04ebf354dc4379bf5
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '2693'
+source-wordcount: '2695'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. Nel pannello a sinistra, fai clic su **[!UICONTROL Preferenze progetto]** > **[!UICONTROL Progetti]**.
 
 1. Nella pagina **Preferenze progetto**, continua con una delle quattro sezioni elencate di seguito per configurare le preferenze per [!UICONTROL Stato progetto], [!UICONTROL Timeline], [!UICONTROL Casi aziendali] e [!UICONTROL Vita dopo la morte].
-1. Se desideri che tutti i gruppi dell&#39;organizzazione utilizzino le stesse preferenze di progetto, accertati che ogni preferenza sia bloccata ![](assets/lock-toggle-button.png) (impostazione predefinita).
+1. Se vuoi che tutti i gruppi dell&#39;organizzazione utilizzino le stesse preferenze di progetto, assicurati che ogni preferenza sia bloccata ![Attiva/Disattiva blocco](assets/lock-toggle-button.png) (impostazione predefinita).
 
    >[!IMPORTANT]
    >

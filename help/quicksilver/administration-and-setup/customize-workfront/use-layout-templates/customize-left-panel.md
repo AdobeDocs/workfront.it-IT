@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ In un modello di layout è possibile personalizzare gli elementi visualizzati da
 
 Ad esempio, puoi determinare quali dei seguenti elementi vengono visualizzati dagli utenti nel pannello a sinistra quando visualizzano un’attività:
 
-![](assets/left-panel-adobe-branding.png)
+![Pannello sinistro marchio](assets/left-panel-adobe-branding.png)
 
 >[!IMPORTANT]
 >
@@ -70,7 +70,7 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
 ## Personalizzare il pannello sinistro per un&#39;area in [!DNL Workfront]:
 
 1. Iniziare a lavorare su un modello di layout, come descritto in [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Fare clic sulla freccia rivolta verso il basso ![](assets/dropdown-arrow.png) in **[!UICONTROL Personalizzare gli elementi visualizzati dagli utenti]**, quindi fare clic sul nome di un tipo di oggetto o di un&#39;area [!DNL Workfront] di cui si desidera personalizzare il pannello sinistro.
+1. Fare clic sulla freccia giù ![freccia giù](assets/dropdown-arrow.png) in **[!UICONTROL Personalizza gli elementi visualizzati dagli utenti]**, quindi fare clic sul nome di un tipo di oggetto o di un&#39;area [!DNL Workfront] di cui si desidera personalizzare il pannello sinistro.
 
    I tipi di oggetto e le aree [!DNL Workfront] di cui è possibile personalizzare il pannello sinistro sono elencati nella tabella seguente:
 
@@ -89,7 +89,7 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
      <tr> 
       <td>Progetto [!UICONTROL]</td> 
       <td>Nome di un progetto</td> 
-      <td>[!UICONTROL Tasks], [!UICONTROL Project Details], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issues], [!UICONTROL Risks], [!UICONTROL Approvals], [!UICONTROL Baselines], [!UICONTROL Billing Rates], [!UICONTROL Billing Records], [!UICONTROL Expenses], [!UICONTROL Hours],!UICONTROL Bilanciatore Dei Carichi Di Lavoro], [!UICONTROL People], [!UICONTROL Utilization], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics], [!UICONTROL Planning]*</td> 
+      <td>[!UICONTROL Tasks], [!UICONTROL Project Details], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issues], [!UICONTROL Risks], [!UICONTROL Approvals], [!UICONTROL Baselines], [!UICONTROL Billing Rates], [!UICONTROL Billing Records], [!UICONTROL Expenses], [!UICONTROL Hours], [!UICONTROL Bilanciatore Dei Carichi Di Lavoro], [!UICONTROL People], [!UICONTROL Utilization], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics], [!UICONTROL Planning]*</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Attività]</td> 
@@ -114,7 +114,7 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
      <tr> 
       <td>Modello [!UICONTROL]</td> 
       <td>Nome di un modello di progetto</td> 
-      <td>[!UICONTROL Template Tasks], [!UICONTROL Template Details], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Risks], [!UICONTROL Expenses], [!UICONTROL People], [!UICONTROL Approvals], [!UICONTROL Billing Rates], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Argomento Coda], [!UICONTROL Argomento]</td> 
+      <td>[!UICONTROL Template Tasks], [!UICONTROL Template Details], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Risks], [!UICONTROL Expenses], [!UICONTROL People], [!UICONTROL Approvals], [!UICONTROL Billing Rates], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Gruppo]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Attività Modello]</td> 
@@ -204,9 +204,9 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
 
 1. Nell&#39;elenco **[!UICONTROL Pannello sinistro]**, eseguire una delle operazioni seguenti per determinare gli elementi visualizzati dagli utenti nel pannello sinistro per l&#39;area [!DNL Workfront] o il tipo di oggetto selezionato:
 
-   * Fai clic sulle icone **Mostra** ![](assets/add-secondary-nav-item.png) o **Nascondi** ![](assets/delete-secondary-nav-item.png) per visualizzare o nascondere le sezioni nel pannello a sinistra. Non puoi nascondere elementi che non hanno un&#39;icona **Mostra** o **Nascondi**.
+   * Fai clic sulle icone **Mostra** ![Mostra icona](assets/add-secondary-nav-item.png) o **Nascondi** ![Nascondi icona](assets/delete-secondary-nav-item.png) per visualizzare o nascondere le sezioni nel pannello a sinistra. Non puoi nascondere elementi che non hanno un&#39;icona **Mostra** o **Nascondi**.
 
-   * Trascinare gli elementi ![](assets/move-icon---dots.png) per modificarne l&#39;ordine nel pannello sinistro.
+   * Trascina gli elementi ![Icona Sposta](assets/move-icon---dots.png) per modificarne l&#39;ordine nel pannello sinistro.
 
    >[!NOTE]
    >
@@ -221,7 +221,7 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
    >* [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >* [Personalizza il [!UICONTROL pannello di riepilogo] utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
    >* [Personalizza la Home usando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
-   >* [Adobe marchio [!DNL Workfront] utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
+   >* [Brand Adobe [!DNL Workfront] utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
 1. (Facoltativo) Se desideri aggiungere un elemento del pannello sinistro collegato a uno dei dashboard dell&#39;organizzazione, fai clic su **[!UICONTROL Aggiungi sezione personalizzata]**, digita un **[!UICONTROL Titolo sezione personalizzata]** per l&#39;elemento, quindi aggiungi il dashboard.

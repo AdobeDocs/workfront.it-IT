@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dba052ed-83a2-44d2-b025-d970783c4151
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Se il tipo di condizione di un progetto è impostato su Stato di avanzamento invece di Manuale, Adobe Workfront visualizza automaticamente una delle tre condizioni predefinite incorporate nel progetto (Su destinazione, A rischio o In difficoltà) durante l&#39;avanzamento, come spiegato in [Panoramica sulla condizione e sul tipo di condizione del progetto](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
-![](assets/condition-in-project-header-nwe.png)
+![Condizione nell&#39;intestazione del progetto](assets/condition-in-project-header-nwe.png)
 
 È possibile impostare le condizioni personalizzate come condizioni predefinite anziché utilizzare queste tre condizioni predefinite incorporate. Ad esempio, puoi modificare la condizione predefinita In Target in modo che venga visualizzata come Finestra di tracciamento in tutti i progetti.
 

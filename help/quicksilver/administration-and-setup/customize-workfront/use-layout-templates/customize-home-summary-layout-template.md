@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '770'
 ht-degree: 2%
 
 ---
@@ -77,7 +77,7 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
 
 1. Iniziare a lavorare su un modello di layout, come descritto in [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Fare clic sulla freccia giù ![](assets/dropdown-arrow.png) in **Personalizza gli elementi visualizzati dagli utenti**, quindi fare clic su **Riepilogo**.
+1. Fai clic sulla freccia giù ![freccia giù](assets/dropdown-arrow.png) in **Personalizza gli elementi visualizzati dagli utenti**, quindi fai clic su **Riepilogo**.
 
 1. Nell&#39;elenco visualizzato sotto, fate clic sul tipo di oggetto per il quale desiderate personalizzare il pannello Riepilogo.
 
@@ -132,15 +132,15 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
 
 1. (Condizionale) Se nel passaggio precedente hai fatto clic su Attività o Problemi, seleziona la categoria di attività o problema che desideri personalizzare.
 
-   ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
+   ![Scegli la categoria da personalizzare](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
 1. (Condizionale) Se viene visualizzato il menu a discesa **Imposta pulsante azione principale** (se si seleziona **Attività** o **Problemi** nell&#39;elenco a sinistra), fare clic sull&#39;azione principale (**Fine** o **Stato**) che si desidera rendere disponibile agli utenti nel pannello Riepilogo quando visualizzano un&#39;attività o un problema.
 
-   ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
+   ![Imposta azione primaria](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
-1. Aggiungi ![](assets/add-item-plus-in-circle-blue.png) o nascondi ![](assets/close-or-hide---x.png) campi per il tipo di oggetto selezionato.
+1. Aggiungi ![Aggiungi elemento](assets/add-item-plus-in-circle-blue.png) o nascondi ![Nascondi campi elemento](assets/close-or-hide---x.png) per il tipo di oggetto selezionato.
 
-   ![](assets/lt-home-add-hide-fields-adobe-branding.png)
+   ![Aggiungi e nascondi campi](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. Ripetete i passaggi 3-6 per personalizzare il pannello Riepilogo per qualsiasi altro tipo di oggetto.
 1. Fai clic su **Impostazioni globali**, nell&#39;angolo inferiore sinistro, quindi attiva o disattiva le seguenti opzioni relative agli oggetti Adobe Workfront nel Riepilogo:

@@ -11,9 +11,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 1f7fce86-0ba9-4407-842d-5f8625c9de70
-source-git-commit: 0ca335bf0db934d23f607d3f8ce7cfb67e629053
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Ai collaboratori del nuovo modello di licenza deve essere assegnata un’opzione
 
 Per visualizzare i livelli di accesso assegnati come opzioni di aggiornamento automatico:
 <!--
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png.png). -->
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear icon](assets/gear-icon-settings.png.png). -->
 
 1. Nel pannello di destra, fai clic su **Livelli di accesso**.
 
@@ -42,6 +42,6 @@ Per visualizzare i livelli di accesso assegnati come opzioni di aggiornamento au
 
 Per assegnare una nuova opzione di aggiornamento automatico a un livello di accesso:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic sull&#39;icona **Setup** ![Gear settings](assets/gear-icon-settings.png).
 
 1. Nel pannello di destra, fai clic su **Livelli di accesso**.

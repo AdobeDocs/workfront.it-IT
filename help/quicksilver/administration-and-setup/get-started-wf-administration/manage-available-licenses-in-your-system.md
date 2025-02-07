@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 >2. Gli amministratori di sistema possono visualizzare solo il numero totale di licenze utilizzate in tutti i gruppi home.
 >3. Gli amministratori di gruppi non possono accedere alla pagina Licenze.
 >
->Per i piani Prime e Ultimate:
+>Per i piani di Prime e Ultimate:
 >
 >1. Gli amministratori di sistema possono aggiungere gruppi predefiniti alla pagina Licenze per visualizzare l&#39;utilizzo delle licenze in tali gruppi e impostare i limiti di licenza.
 >2. Gli amministratori di gruppi possono accedere alla pagina Licenze e visualizzare l&#39;utilizzo delle licenze dei gruppi da loro gestiti che sono state aggiunte alla pagina Licenze dagli amministratori di sistema.
@@ -89,7 +89,7 @@ Per visualizzare le informazioni sulle licenze nel sistema:
 
    >[!NOTE]
    >
-   >Per i nuovi piani, il piano Select non consente agli amministratori di visualizzare le licenze per gruppo predefinito. È possibile visualizzare solo il numero complessivo di licenze utilizzate. I piani Prime e Ultimate consentono di impostare il numero massimo di licenze per gruppo predefinito.
+   >Per i nuovi piani, il piano Select non consente agli amministratori di visualizzare le licenze per gruppo predefinito. È possibile visualizzare solo il numero complessivo di licenze utilizzate. I piani di Prime e Ultimate consentono di impostare il numero massimo di licenze per gruppo predefinito.
 
 ## Visualizzare informazioni sulle licenze per i componenti aggiuntivi di Workfront
 
@@ -186,7 +186,7 @@ Per impostare il numero massimo di licenze per un gruppo predefinito:
 1. Nella colonna **Max** del gruppo fare clic sul valore per il quale si desidera impostare un valore massimo.
 1. Digitare il numero massimo, quindi premere Invio.
 
-   ![](assets/updated-max.png)
+   ![Numero massimo di licenze per il gruppo](assets/updated-max.png)
 
    >[!NOTE]
    >

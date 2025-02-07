@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
-source-git-commit: 5676910e53f1c4f49cab196e42bfbce8704887ca
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '563'
 ht-degree: 7%
 
 ---
@@ -125,15 +125,15 @@ Per configurare le decisioni relative alle bozze:
       >
       >Quando lo rinomini, mantieni la logica per una decisione. Ad esempio, la decisione predefinita Rifiutata potrebbe essere modificata in *Nuova versione richiesta*, ma non dovrebbe essere modificata in *Invia a stampanti*.
 
-      ![](assets/rename-decision-350x109.png)
+      ![Rinomina decisione](assets/rename-decision-350x109.png)
 
    1. **Ridisponi l&#39;ordine di decisione**: trascina le caselle di decisione nell&#39;ordine in cui desideri che vengano visualizzate nel visualizzatore di bozze.
 
-      ![](assets/move-decision-350x110.png)
+      ![Sposta decisione](assets/move-decision-350x110.png)
 
    1. **Nascondi una decisione**: passa il puntatore del mouse sulla casella di decisione e fai clic sull&#39;icona Nascondi nell&#39;angolo superiore destro.
 
-      ![](assets/hide-decision-350x109.png)
+      ![Nascondi decisione](assets/hide-decision-350x109.png)
 
 1. (Facoltativo) Per tornare ai valori predefiniti di Workfront, fare clic su **Ripristina valori predefiniti**.
 1. Fai clic su **Salva**.

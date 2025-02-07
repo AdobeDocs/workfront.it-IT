@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '871'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->La procedura descritta in questa pagina si applica solo alle organizzazioni che non sono ancora state caricate su Adobe Business Platform. Se hai effettuato l’onboarding in Adobe Business Platform, devi eliminare gli utenti in Adobe Admin Console.
+>La procedura descritta in questa pagina si applica solo alle organizzazioni che non hanno ancora effettuato l’onboarding in Adobe Business Platform. Se hai effettuato l’onboarding in Adobe Business Platform, devi eliminare gli utenti in Adobe Admin Console.
 >
 >Per un elenco delle procedure che differiscono a seconda che l&#39;organizzazione sia stata integrata o meno in Adobe Business Platform, consulta [Differenze di amministrazione basate su Platform (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -132,7 +132,7 @@ Per ulteriori informazioni sulla disattivazione degli utenti, vedere [Disattivar
 
 {{step-1-to-users}}
 
-1. Selezionare almeno un utente che si desidera eliminare, fare clic sul menu Altro ![](assets/more-icon.png) e quindi su **Elimina**.
+1. Selezionare almeno un utente che si desidera eliminare, fare clic sull&#39;icona Altro ![Altro](assets/more-icon.png) nel menu Altro, quindi fare clic su **Elimina**.
 1. Nella casella visualizzata, fare clic su **Elimina** per confermare l&#39;eliminazione.
 
    Il processo di eliminazione degli utenti viene eseguito come processo in background, quindi puoi continuare a utilizzare Workfront quando uno o più utenti vengono eliminati.

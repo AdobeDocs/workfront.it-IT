@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f5227454-457d-40d3-865c-c2551471d83e
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '260'
 ht-degree: 1%
 
 ---
@@ -64,9 +64,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 {{step-1-to-setup}}
 
-1. Nel pannello a sinistra, fai clic su **Gruppi** ![](assets/groups-icon.png).
+1. Nel pannello a sinistra, fai clic su **Gruppi** ![Gruppi](assets/groups-icon.png).
 
-1. Selezionare il gruppo di destinazione in cui si desidera spostare il gruppo, quindi fare clic sull&#39;icona Modifica ![](assets/edit-icon.png).
+1. Seleziona il gruppo di destinazione in cui desideri spostare il gruppo, quindi fai clic sull&#39;icona Modifica ![icona Modifica](assets/edit-icon.png).
 1. Nella casella **Modifica gruppo** visualizzata, in **Membri gruppo e amministratori gruppo**, iniziare a digitare il nome del gruppo che si desidera spostare, quindi fare clic su di esso quando viene visualizzato.
 1. Fai clic su **Salva**.
 

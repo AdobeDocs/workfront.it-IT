@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2cdedc67-b7b0-4e83-a446-d71e3afe255c
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Per informazioni sulla modifica degli stati di sistema o sulla creazione di nuov
 
    Gli stati delle attività disponibili in Workfront sono elencati in questa scheda.
 
-   ![](assets/task-status.png)
+   ![Stato attività](assets/task-status.png)
 
    Per informazioni dettagliate su ciascuno degli stati predefiniti delle attività di sistema, vedere [Stati delle attività di sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md).
 

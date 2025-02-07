@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: caed65ab-a787-437b-9f5f-b3d4135bb980
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Se disponi dell&#39;accesso [!DNL Adobe Workfront] [!UICONTROL amministratore], 
 * **[!UICONTROL Problema]** Oggetto in [!DNL Workfront] che comunica il lavoro non pianificato, un problema che si verifica o un problema che deve essere risolto per continuare un&#39;attività.
 * **[!UICONTROL Richiesta]** Un tipo di problema che si applica a una coda di richieste in cui gli utenti effettuano richieste in Workfront.
 
-![](assets/default-issue-types.png)
+![Tipi di problemi predefiniti](assets/default-issue-types.png)
 
 ## Personalizzare un tipo di problema
 
@@ -86,8 +86,8 @@ Per personalizzare un tipo di problema:
 1. Fai clic sulla scheda **[!UICONTROL Issues]**.
 1. Effettua una delle seguenti operazioni:
 
-   * Passa il puntatore del mouse sul tipo di problema che desideri personalizzare, fai clic sull&#39;icona [!UICONTROL Modifica] ![](assets/edit-icon.png) che appare all&#39;estrema destra, quindi digita un nuovo nome per il tipo di problema.
+   * Passa il puntatore del mouse sul tipo di problema che desideri personalizzare, fai clic sull&#39;icona [!UICONTROL Modifica] ![Icona Modifica](assets/edit-icon.png) visualizzata all&#39;estrema destra, quindi digita un nuovo nome per il tipo di problema.
 
-     ![](assets/customize-issue-type.png)
+     ![Personalizza tipo di problema](assets/customize-issue-type.png)
 
    * Fai clic su un [!UICONTROL tipo di problema] per elencare i relativi stati associati, quindi trascina gli handle visualizzati al passaggio del mouse su di essi e rilasciali nell&#39;ordine in cui desideri che vengano visualizzati nel menu a discesa dei problemi degli utenti **[!UICONTROL Stato]**.

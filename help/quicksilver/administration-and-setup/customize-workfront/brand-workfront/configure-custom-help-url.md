@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '277'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 Se crei un sito di assistenza interno personalizzato contenente informazioni sull’utilizzo di Workfront da parte dell’organizzazione, puoi configurare l’icona Aiuto del menu principale per passare a tale sito.
 
-![](assets/custom-help-button.png)
+![Pulsante Guida personalizzato](assets/custom-help-button.png)
 
 Ciò non influisce sui collegamenti di assistenza sensibili al contesto presenti in Workfront, che portano gli utenti al sito di assistenza di Workfront.
 

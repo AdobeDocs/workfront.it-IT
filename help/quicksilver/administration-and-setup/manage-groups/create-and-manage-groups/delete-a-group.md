@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f92eb1f5-fe98-4c7e-8ef7-8ed7134db8d4
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '314'
 ht-degree: 2%
 
 ---
@@ -58,9 +58,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 {{step-1-to-setup}}
 
-1. Nel pannello a sinistra, fai clic su **Gruppi** ![](assets/groups-icon.png).
+1. Nel pannello a sinistra, fai clic su **Gruppi** ![Gruppi](assets/groups-icon.png).
 
-1. Selezionare il gruppo da eliminare, quindi fare clic sull&#39;icona Elimina ![](assets/delete.png).
+1. Seleziona il gruppo da eliminare, quindi fai clic sull&#39;icona Elimina ![Elimina](assets/delete.png).
 
    >[!IMPORTANT]
    >
@@ -68,6 +68,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Nella casella **Elimina gruppo** visualizzata, iniziare a digitare e quindi selezionare il nome del gruppo in cui si desidera spostare i membri, gli elementi di lavoro e i sottogruppi del gruppo che si sta eliminando.
 
-   Per assicurarsi di selezionare il gruppo corretto, passare il puntatore del mouse su di esso e fare clic sull&#39;icona delle informazioni ![](assets/info-icon.png) visualizzata accanto ad esso. In questo modo viene visualizzata una descrizione del gruppo contenente informazioni sul gruppo stesso, ad esempio la gerarchia dei gruppi al di sopra del gruppo e i relativi amministratori.
+   Per assicurarsi di selezionare il gruppo corretto, passare il puntatore del mouse su di esso e fare clic sull&#39;icona delle informazioni ![icona Info](assets/info-icon.png) visualizzata accanto ad esso. In questo modo viene visualizzata una descrizione del gruppo contenente informazioni sul gruppo stesso, ad esempio la gerarchia dei gruppi al di sopra del gruppo e i relativi amministratori.
 
 1. Fai clic su **Elimina**.

@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Ricevi una risposta simile alla seguente:
 
-   ![](assets/get-guid.png)
+   ![Ottieni GUID](assets/get-guid.png)
 
    Il valore restituito per &quot;username&quot; è il GUID dell&#39;utente.
 
@@ -98,7 +98,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Nella casella **Indirizzo e-mail di accesso**, verifica che l&#39;indirizzo e-mail dell&#39;utente sia corretto, quindi fai clic su **Aggiorna account**.
 
-   ![](assets/guidusername-350x272.png)
+   ![Nome utente](assets/guidusername-350x272.png)
 
    Il nome utente dell’utente viene modificato nel relativo indirizzo e-mail Workfront.
 
@@ -106,7 +106,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 >
 >Per trovare l&#39;ID di un utente:
 >
->1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Utenti** ![](assets/users-icon-in-main-menu.png).
+>1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic sull&#39;icona **Users** ![Users](assets/users-icon-in-main-menu.png).
 >
 >1. Seleziona l’utente.
 >

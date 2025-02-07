@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Per impostazione predefinita, ADFS è configurato per verificare automaticamente
 1. Selezionare l&#39;attendibilità del componente precedentemente configurato per l&#39;utilizzo con Workfront, quindi nel pannello di destra fare clic su **Aggiorna da metadati federativi**.
 1. (Condizionale) Se questa opzione è disabilitata (il che significa che l&#39;attendibilità del componente è stata configurata in precedenza utilizzando un file di metadati), completare le operazioni seguenti.
 
-   1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+   1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic sull&#39;icona **Setup** ![Gear settings](assets/gear-icon-settings.png).
 
    1. Fare clic su **Sistema** > **Single Sign On (SSO)**.
 

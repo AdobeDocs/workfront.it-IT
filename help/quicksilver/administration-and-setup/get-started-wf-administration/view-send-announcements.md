@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 413e3051-fcb5-44d7-b6bd-6b05d39935e8
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Puoi inoltrare facilmente i messaggi ricevuti da Workfront agli utenti del tuo s
 
 1. Vai alla pagina Annunci facendo clic sull&#39;icona **Notifica** nell&#39;angolo superiore destro dell&#39;interfaccia di Workfront, quindi fai clic su **Tutti gli annunci**.
 
-   ![](assets/announcement-access-350x212.png)
+   ![Tutti gli annunci](assets/announcement-access-350x212.png)
 
 1. Nella pagina **Annunci** selezionare il messaggio che si desidera inoltrare.
 1. Fare clic su **Avanti**.
@@ -79,7 +79,7 @@ Puoi inoltrare facilmente i messaggi ricevuti da Workfront agli utenti del tuo s
 
 1. Vai alla pagina Annunci facendo clic sull&#39;icona **Notifica** nell&#39;angolo superiore destro dell&#39;interfaccia di Workfront, quindi fai clic su **Tutti gli annunci**.
 
-   ![](assets/announcement-access-350x212.png)
+   ![Tutti gli annunci](assets/announcement-access-350x212.png)
 
 1. Nella pagina **Annunci** fare clic su **Nuovo annuncio.**
 

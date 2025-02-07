@@ -6,10 +6,10 @@ navigation-topic: configure-proofing-functionality
 title: Configurare la generazione automatica delle bozze
 description: È possibile specificare se il sistema deve generare automaticamente le bozze quando gli utenti specificano di aggiungere documenti a Workfront. Questa impostazione è disabilitata per impostazione predefinita.
 author: Courtney
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 3%
+source-wordcount: '245'
+ht-degree: 2%
 
 ---
 
@@ -45,17 +45,17 @@ Devi avere i seguenti:
 
 ## Configurare la generazione automatica delle bozze per un singolo utente
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Utenti** ![](assets/users-icon-in-main-menu.png).
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Users** ![Users](assets/users-icon-in-main-menu.png).
 1. Seleziona un utente con accesso di verifica, quindi fai clic su **Modifica**.
 1. Nella sezione **Preferenze**, abilita o disabilita la casella di controllo **Genera automaticamente bozze durante il caricamento dei documenti**.
 
-   ![](assets/autogenerate-proofs-350x216.png)
+   ![Genera automaticamente bozze](assets/autogenerate-proofs-350x216.png)
 
 1. Fai clic su **Salva modifiche**.
 
 ## Configurare la generazione automatica delle bozze per più utenti
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Utenti** ![](assets/users-icon-in-main-menu.png).
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic sull&#39;icona **Users** ![Users](assets/users-icon-in-main-menu.png).
 1. Seleziona gli utenti con accesso di verifica, quindi fai clic su **Modifica**.
 
    >[!IMPORTANT]
@@ -64,7 +64,7 @@ Devi avere i seguenti:
 
 1. Nella sezione **Preferenze**, abilita **Genera automaticamente bozze durante il caricamento dei documenti**, quindi seleziona **Sì** o **No**.
 
-   ![](assets/autogenerate-proofs-bulk-350x285.png)
+   ![Genera automaticamente bozze in blocco](assets/autogenerate-proofs-bulk-350x285.png)
 
 1. Fai clic su **Salva modifiche**.
 

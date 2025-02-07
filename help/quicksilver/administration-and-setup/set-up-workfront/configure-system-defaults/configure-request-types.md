@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Per personalizzare i nomi dei tipi di richiesta:
 1. Fai clic sulla scheda **[!UICONTROL Issues]**.
 1. Nella parte superiore della scheda **[!UICONTROL Problemi]**, passa il puntatore del mouse sul nome di un tipo di richiesta, quindi fai clic sull&#39;icona **[!UICONTROL Modifica]** visualizzata.
 
-   ![](assets/edit-request-type-name-nwe.png)
+   ![Modifica nome tipo di richiesta](assets/edit-request-type-name-nwe.png)
 
 1. Nella casella visualizzata digitare un nuovo nome e premere **[!UICONTROL Invio]**.
 

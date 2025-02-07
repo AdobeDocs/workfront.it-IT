@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '2185'
+source-wordcount: '2189'
 ht-degree: 2%
 
 ---
@@ -82,13 +82,13 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 {{step-1-to-setup}}
 
-1. Nel pannello a sinistra, fai clic su **Gruppi** ![](assets/groups-icon.png).
+1. Nel pannello a sinistra, fai clic sull&#39;icona **Gruppi** ![Gruppi](assets/groups-icon.png).
 
 1. Fare clic sul nome del gruppo per il quale si desidera configurare le preferenze per attività sbloccate e problemi.
 1. Nella pagina visualizzata per il gruppo, nel pannello a sinistra, fai clic su **Preferenze attività e problema**.
 1. Nella pagina visualizzata, continua con una delle 5 sezioni elencate di seguito per configurare le impostazioni per le aree Nuovi valori predefiniti attività, Problemi, Eliminazione, Date effettive e Accesso, quindi fai clic su **Salva**.
 
-   Se passi il cursore sull&#39;icona del lucchetto ![](assets/lock-toggle-button-dimmed.png) per una preferenza da configurare e viene visualizzata una descrizione comando che informa che è bloccata, puoi chiedere all&#39;amministratore di Workfront di sbloccarla per tutti i gruppi dell&#39;organizzazione.
+   Se passi il cursore sull&#39;icona del lucchetto ![Icona del lucchetto](assets/lock-toggle-button-dimmed.png) per una preferenza da configurare e viene visualizzata una descrizione comando che informa che è bloccata, puoi chiedere all&#39;amministratore di Workfront di sbloccarla per tutti i gruppi dell&#39;organizzazione.
 
    Una volta sbloccato, l’utente e gli altri amministratori di gruppi possono configurarlo separatamente per i propri gruppi. Inoltre, puoi bloccarlo per il tuo gruppo e per tutti i suoi sottogruppi.
 

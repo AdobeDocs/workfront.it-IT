@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
 
    I nomi aggiunti di recente vengono visualizzati con uno sfondo blu. Questa funzione è utile quando si modifica un modello di layout esistente, in quanto è possibile distinguere i nomi appena aggiunti da quelli già presenti nell&#39;elenco.
 
-   A destra del nome di qualsiasi utente, mansione, team o gruppo già assegnato a un altro modello di layout viene visualizzata l&#39;icona Info ![](assets/info-icon.png). Passa il puntatore del mouse sull&#39;icona per visualizzare il nome del modello di layout e decidere se ignorare l&#39;assegnazione esistente.
+   A destra del nome di qualsiasi utente, mansione, team o gruppo già assegnato a un altro modello di layout viene visualizzata l&#39;icona Info ![Icona Info](assets/info-icon.png). Passa il puntatore del mouse sull&#39;icona per visualizzare il nome del modello di layout e decidere se ignorare l&#39;assegnazione esistente.
 
 1. Ripeti i due passaggi precedenti per assegnare il modello di layout ad altri utenti, ruoli, team o gruppi in base alle esigenze.
 

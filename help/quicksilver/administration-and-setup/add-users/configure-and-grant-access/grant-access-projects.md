@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 ## Configurare l’accesso degli utenti ai progetti utilizzando un livello di accesso personalizzato
 
 1. Iniziare a creare o modificare il livello di accesso, come descritto in [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Fai clic sull&#39;icona a forma di ingranaggio ![](assets/gear-icon-settings.png) sul pulsante **Visualizza** o **Modifica** a destra di Progetti, quindi seleziona le funzionalità che desideri concedere in **Ottimizza le impostazioni**.
+1. Fai clic sull&#39;icona ingranaggio ![icona Impostazioni ingranaggio](assets/gear-icon-settings.png) sul pulsante **Visualizza** o **Modifica** a destra di Progetti, quindi seleziona le funzionalità che desideri concedere in **Ottimizza le impostazioni**.
 
-   ![](assets/planner-fine-tune-your-settings-with-copy-projects.png)
+   ![Ottimizzare le impostazioni per la copia dei progetti](assets/planner-fine-tune-your-settings-with-copy-projects.png)
 
    >[!NOTE]
    >

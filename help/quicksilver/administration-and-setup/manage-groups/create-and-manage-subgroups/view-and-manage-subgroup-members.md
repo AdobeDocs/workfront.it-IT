@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8f7b0183-6035-4dd4-8e42-fd65485449bf
-source-git-commit: 63c2206905f4ebbc35cb162ae6e895b98b5d20eb
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -73,16 +73,16 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Effettua una delle seguenti operazioni:
 
-   * Selezionare un membro nell&#39;elenco, quindi fare clic su Modifica ![](assets/edit-icon.png) per modificare il profilo utente di tale persona.
+   * Seleziona un membro nell&#39;elenco, quindi fai clic su Modifica ![icona Modifica](assets/edit-icon.png) per modificare il profilo utente di quella persona.
 
      Per ulteriori informazioni, vedere [Modificare il profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) o [Modificare i profili utente in blocco](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md).
 
-   * Selezionare un numero qualsiasi di membri nell&#39;elenco, quindi fare clic su Aggiorna ![](assets/comment-icon.png) per aggiungere un commento ai profili utente.
+   * Seleziona un numero qualsiasi di membri nell&#39;elenco, quindi fai clic su Aggiorna ![icona Commento](assets/comment-icon.png) per aggiungere un commento ai loro profili utente.
 
      L’utente o gli utenti ricevono una notifica in-app e una notifica e-mail con il commento. Il commento viene visualizzato nell’area Aggiornamenti del profilo dell’utente.
 
-   * Selezionare un numero qualsiasi di membri nell&#39;elenco, quindi fare clic su Disattiva ![](assets/deactivate-user.png) o Attiva ![](assets/activate-user.png).
+   * Selezionare un numero qualsiasi di membri nell&#39;elenco, quindi fare clic su Disattiva ![Disattiva utente](assets/deactivate-user.png) o Attiva ![Attiva utente](assets/activate-user.png).
 
      Per ulteriori informazioni, vedere [Disattivare o riattivare un utente](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 
-   * Esporta ![](assets/export.png) l&#39;elenco dei membri.
+   * Esporta ![Esporta](assets/export.png) l&#39;elenco dei membri.

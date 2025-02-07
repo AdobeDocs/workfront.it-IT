@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '639'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ In qualità di amministratore di Adobe Workfront o di un gruppo, puoi utilizzare
 >
 >Le opzioni del menu principale visualizzate dagli utenti dipendono dal tipo di licenza e dalle impostazioni configurate nel livello di accesso. Alcuni utenti che utilizzeranno questo modello di layout potrebbero non visualizzare tutte le opzioni selezionate. Per ulteriori informazioni, vedere [Funzionamento dei livelli di accesso e delle autorizzazioni](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) e [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 >
->Se per la tua organizzazione è stato eseguito l’onboarding in Adobe Workfront Unified Experience, nel menu principale potrebbero essere visualizzate opzioni diverse. Per informazioni, vedere [Esperienza unificata di Adobe per Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>Se per la tua organizzazione è stato eseguito l’onboarding in Adobe Workfront Unified Experience, nel menu principale potrebbero essere visualizzate opzioni diverse. Per informazioni, vedere [Esperienza unificata Adobe per Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 Per informazioni sulla creazione di modelli di layout, vedere [Creare e gestire modelli di layout](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -98,7 +98,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
      >[!NOTE]
      >
-     >Solo gli utenti con una licenza Pianificazione (nel modello di licenza corrente) o gli utenti con una licenza Standard (nel nuovo modello di licenza) possono visualizzare l&#39;area Utenti ![](assets/users-icon-in-main-menu.png) nel menu principale.
+     >Solo gli utenti con una licenza Pianificazione (nel modello di licenza corrente) o gli utenti con una licenza Standard (nel nuovo modello di licenza) possono visualizzare l&#39;area Utenti ![Icona Utenti](assets/users-icon-in-main-menu.png) nel menu principale.
 
    * Richieste
    * Schede orario
@@ -123,9 +123,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Effettua una delle seguenti operazioni:
 
-   * Nascondi ![](assets/remove-icon---x-in-circle.png) **elementi attivi** che non desideri visualizzare
-   * Mostra ![](assets/add-icon-plus-in-circle.png) **Elementi disponibili** che si desidera visualizzare nel menu principale.
-   * Trascina ![](assets/move-icon---dots.png) **elementi attivi** per modificarne l&#39;ordine di visualizzazione nel menu principale.
+   * Nascondi ![Icona Nascondi](assets/remove-icon---x-in-circle.png) **Elementi attivi** che non desideri visualizzare
+   * Mostra ![Mostra icona](assets/add-icon-plus-in-circle.png) **Elementi disponibili** da visualizzare nel menu principale.
+   * Trascina ![Icona Trascina](assets/move-icon---dots.png) **Elementi attivi** per modificarne l&#39;ordine di visualizzazione nel menu principale.
 
 1. Fai clic su **Fine**.
 

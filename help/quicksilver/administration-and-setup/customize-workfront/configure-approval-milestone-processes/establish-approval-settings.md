@@ -8,9 +8,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '900'
 ht-degree: 2%
 
 ---
@@ -54,7 +54,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Fare clic su **Processi** > **Approvazioni**.
 
-1. Fai clic sull&#39;icona **Impostazioni** ![](assets/gear-icon-settings.png) accanto al nome dell&#39;area **Approvazioni**.
+1. Fai clic sull&#39;icona **Impostazioni** ![Icona Impostazioni ingranaggio](assets/gear-icon-settings.png) accanto al nome dell&#39;area **Approvazioni**.
 
 1. Nella casella **Impostazioni approvazione** visualizzata, specificare le informazioni seguenti:
 

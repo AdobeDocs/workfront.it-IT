@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Messaggio di errore: errore SAML 2.0: codice di stato primario"
+title: 'Messaggio di errore: errore SAML 2.0: Primary StatusCode'
 description: Impossibile stabilire una connessione ad ADFS.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1ec18638-97b8-4307-9cea-05b28395eaee
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '361'
 ht-degree: 1%
 
 ---
@@ -70,8 +70,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. Selezionare **[!UICONTROL Relazione di trust]** > **[!UICONTROL Trust tra relatori]** nel riquadro di sinistra.
 
 1. Fare clic con il pulsante destro del mouse sull&#39;attendibilità del componente relativa a [!DNL Adobe Workfront], quindi selezionare **[!UICONTROL Proprietà]**.
-1. Fai clic sulla scheda **[!UICONTROL Avanzate]**, quindi seleziona **[!UICONTROL SHA-1]** dal menu a discesa **[!UICONTROL Algoritmo hash protetto]**.\
-   ![](assets/1-350x287.png)
+1. Fai clic sulla scheda **[!UICONTROL Avanzate]**, quindi seleziona **[!UICONTROL SHA-1]** dal menu a discesa **[!UICONTROL Algoritmo hash protetto]**.
+   ![SHA-1](assets/1-350x287.png)
 
 ## Causa 2: il certificato di firma ADFS sta per scadere ed è stato sostituito da un nuovo certificato con date sovrapposte
 

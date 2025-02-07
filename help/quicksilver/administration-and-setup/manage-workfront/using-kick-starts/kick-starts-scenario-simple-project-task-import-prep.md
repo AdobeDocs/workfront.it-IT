@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;projects
 keywords: kick-start, kick-start, kick-start, kick-start
 navigation-topic: use-kick-starts
-title: "Scenario di avvio: preparazione semplice per l'importazione di progetti e attività"
+title: 'Scenario di avvio: preparazione semplice per l''importazione di progetti e attività'
 description: Descrive in dettaglio le impostazioni e i controlli disponibili per un'importazione di base di progetti e attività utilizzando il metodo Kick Start.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1493'
 ht-degree: 9%
 
 ---
@@ -277,10 +277,10 @@ Vai alla pagina Kick-Start. Selezionare gli oggetti Company (Società), Group (G
 
 Apri il file Workfront.xlsx appena scaricato. Passare all&#39;elenco Progetto PROJ.
 
-![](assets/im2.png)
+![Set di progetti PROJ](assets/im2.png)
 A meno che tu non abbia già creato dei progetti in Workfront, questo campo deve essere vuoto.
 
-![](assets/im10.png)
+![Foglio progetto vuoto](assets/im10.png)
 
 Impostare i valori per i seguenti campi del progetto:
 
@@ -305,7 +305,7 @@ Immettere la Data inizio pianificata per ogni progetto nella colonna setPlannedS
 * **Impostare altri dettagli necessari.**
 Compila altri dettagli, ad esempio una descrizione o lo stato corrente, secondo necessità. Cercare gli ID gruppo per ciascun progetto nel foglio Gruppo di gruppi e inserirli nella colonna setGroupID per i rispettivi progetti. Cercare l&#39;ID società per i progetti nel foglio Società della società e inserirlo nella colonna setCompanyID. Cercare l&#39;ID utente per ogni proprietario del progetto nel foglio Utente e inserirlo nella colonna setOwnerID. Cercare l&#39;ID utente di ogni sponsor del progetto nel foglio Utente e inserirlo nella colonna setSponsorID.
 
-![](assets/im9.png)
+![Imposta valori](assets/im9.png)
 
 >[!NOTE]
 >
@@ -319,11 +319,11 @@ Apri il file Workfront.xlsx appena scaricato. **Vai all&#39;elenco Attività.**
 
 Questo foglio deve essere vuoto, a meno che non siano già state create attività in Workfront.
 
-![](assets/im8.png)
+![Elenco attività](assets/im8.png)
 
-![](assets/im7.png)
+![Scheda attività vuota](assets/im7.png)
 
-![](assets/im6.png)
+![Colonne foglio attività](assets/im6.png)
 
 Il modo più semplice per mappare le attività è un progetto alla volta (in particolare quando le attività sono le stesse in ogni progetto). È quindi possibile copiare il piano attività per il primo progetto e apportare piccole modifiche al piano attività per i progetti successivi. Per i passaggi rimanenti si presuppone la creazione di attività solo per il progetto Implementa Workfront. In base allo scenario, importerai 9 attività per progetto, quindi inserisci TRUE nelle righe da 3 a 11 per la colonna isNew.
 
@@ -364,7 +364,7 @@ Impostare la durata di ogni attività immettendo il numero di ore, giorni, setti
 * Immettere la rappresentazione numerica completa della percentuale di completamento nel campo setPercentComplete per ogni attività. Questo valore non deve includere il simbolo di percentuale (%).
 * Includi una descrizione e altri dettagli per ogni attività che stai creando, secondo necessità.
 
-  ![](assets/im5.png)
+  ![Aggiungi dettagli](assets/im5.png)
 
 * Le colonne setPlannedStartDate e setTaskConstraint non vengono utilizzate per creare l&#39;indicatore cronologico di questo progetto perché si basano su relazioni predecessori. In alternativa, è possibile immettere una data per ogni attività. In questo caso, assicurarsi di specificare un vincolo di attività valido anche nella colonna setTaskConstraint. Per informazioni dettagliate sui valori validi per questo campo, consulta Vincolo attività e articoli correlati.
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Se sei un amministratore di gruppo, vedi [Impostare uno stato come predefinito p
 
 Se lo stato personalizzato è uno stato Problema, tutti e quattro i tipi di problema devono essere abilitati (Rapporto bug, Ordine di modifica, Problema e Richiesta). Ad esempio, nello stato del problema mostrato di seguito, lo stato Riaperto non può essere utilizzato come stato predefinito perché il tipo di problema Ordine di modifica non è selezionato:
 
-![](assets/all-4-issue-types-enabled.png)
+![Tutti i tipi di problemi abilitati](assets/all-4-issue-types-enabled.png)
 
 ## Impostare uno stato personalizzato come predefinito
 
@@ -101,6 +101,6 @@ Se lo stato personalizzato è uno stato Problema, tutti e quattro i tipi di prob
    >Se si imposta lo stato personalizzato di un gruppo e successivamente si assegna il progetto a un gruppo diverso, lo stato del progetto verrà ricaricato e potrebbe cambiare.
 
    1. Vai al progetto in cui desideri utilizzare lo stato personalizzato.
-   1. Fai clic sul menu Altro ![](assets/more-icon.png), quindi fai clic su **Modifica**.
+   1. Fai clic sull&#39;icona Altro ![Altro](assets/more-icon.png), quindi fai clic su **Modifica**.
    1. Nella casella **Modifica progetto** visualizzata, nel campo **Gruppo** della **Associazione progetto**, selezionare il gruppo in cui si trova lo stato.
    1. Fai clic su **Salva modifiche**.

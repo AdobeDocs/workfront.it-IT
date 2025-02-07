@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '905'
 ht-degree: 1%
 
 ---
@@ -31,19 +31,19 @@ In qualità di amministratore di Workfront, puoi aggiungere i logo di Workfront 
 
 * Schermata di accesso
 
-  ![](assets/brand-login-screen-nwe-adobe.jpg)
+  ![Marchio nella schermata di accesso](assets/brand-login-screen-nwe-adobe.jpg)
 
 * Area di navigazione superiore
 
-  ![](assets/brand-top-nav-area-nwe-adobe.jpg)
+  ![Marchio nella navigazione superiore](assets/brand-top-nav-area-nwe-adobe.jpg)
 
 * Menu principale
 
-  ![](assets/brand-main-menu-adobe.jpg)
+  ![Marchio nel menu principale](assets/brand-main-menu-adobe.jpg)
 
 È inoltre possibile modificare l&#39;immagine di sfondo e il colore della schermata di accesso:
 
-![](assets/wf_banner_on_login_screen-adobe.png)
+![Banner nella schermata di accesso](assets/wf_banner_on_login_screen-adobe.png)
 
 >[!NOTE]
 >
