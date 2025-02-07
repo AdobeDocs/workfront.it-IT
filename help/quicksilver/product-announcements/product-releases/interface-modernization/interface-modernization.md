@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: d8a76c9afacde32336fb8de4da531173e323112a
+source-git-commit: 36ec1b2e8bdd499718c1a46d2549b46ddce3b4aa
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,14 @@ In questa pagina sono elencati gli aggiornamenti dell’interfaccia che stiamo a
 Per tutte le altre modifiche apportate ad Adobe Workfront, vedi [Versioni del prodotto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Amministrazione e configurazione
+
+### Aggiornamento dell’interfaccia per le impostazioni del processo di approvazione in Configurazione
+
+**Anteprima versione: 6 febbraio 2025; Versione di produzione: da annunciare**
+
+La finestra di dialogo Impostazioni approvazione è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront.
+
+Per visualizzare le impostazioni, vai a Configurazione > Preferenze > Approvazioni > Seleziona l’icona delle impostazioni nella parte superiore della pagina.
 
 ### Aggiornamento dell’interfaccia per l’area Approvazioni in Configurazione > Gruppi
 
@@ -110,7 +118,17 @@ Questo aggiornamento include modifiche visive all’area. Nessuna funzionalità 
 
 ## Agile
 
-## Aggiornamento dell’interfaccia per l’area Team > Backlog
+### Aggiungere storie e problemi a un’iterazione
+
+**Anteprima versione: 6 febbraio 2025; Versione di produzione: da annunciare**
+
+La finestra di dialogo Aggiungi storia e Aggiungi problema è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront.
+
+Questo aggiornamento include modifiche visive all’area. Nessuna funzionalità è stata modificata.
+
+Per visualizzare questa modifica, vai a Team > scegli un team > Iterazioni > Scegli un&#39;iterazione, quindi fai clic su **Nuova storia** o **Nuovo problema**.
+
+### Aggiornamento dell’interfaccia per l’area Team > Backlog
 
 **Versione di anteprima: 23 gennaio 2025; versione di produzione: a partire dalla settimana del 13 febbraio 2025**
 
@@ -123,7 +141,7 @@ Questo aggiornamento include le seguenti modifiche:
 
 ### Aggiornamento interfaccia per l&#39;elenco Iterazioni
 
-**Anteprima versione: 23 gennaio 2025; Versione di produzione: da annunciare**
+**Versione di anteprima: 23 gennaio 2025; versione di produzione: a partire dalla settimana del 3 febbraio 2025**
 
 Abbiamo aggiornato l’elenco Team > Iterazioni con un design più moderno che è coerente con altre aree di Workfront.
 
