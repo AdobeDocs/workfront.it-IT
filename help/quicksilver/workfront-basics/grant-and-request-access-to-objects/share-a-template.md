@@ -6,14 +6,16 @@ description: In qualità di amministratore di Adobe Workfront, puoi concedere ag
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '608'
 ht-degree: 2%
 
 ---
 
 # Condividere un modello
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 In qualità di amministratore di Adobe Workfront, puoi concedere agli utenti l’accesso per visualizzare o modificare i modelli quando assegni il loro livello di accesso. Per poter accedere a Modifica modelli, l&#39;utente deve disporre di una licenza Pianificazione.
 
@@ -40,12 +42,13 @@ Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono qua
      Puoi concedere le seguenti autorizzazioni a un modello:
 
       * Visualizza
-
-        ![](assets/view-on-template-262x221.png)
-
       * Gestire
 
-        ![](assets/manage-on-template-225x280.png)
+        ![](assets/view-on-template-262x221.png) ![](assets/manage-on-template-225x280.png)
+
+     <span class="preview">In anteprima:
+     ![](assets/template-permissions.png)
+  </span>
 
    * I progetti futuri creati utilizzando il modello. Puoi assegnare ai progetti creati da un modello gli stessi livelli di autorizzazione di un singolo progetto. 
 

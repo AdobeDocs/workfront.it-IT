@@ -6,7 +6,7 @@ description: È possibile condividere una cartella e il relativo contenuto dall'
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 0%
@@ -132,6 +132,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. (Facoltativo) Se desideri che tutti gli utenti del sistema possano visualizzare la cartella e il suo contenuto, fai clic sull&#39;icona a forma di ingranaggio ![](assets/gear-icon-settings-with-dn-arrow.jpg) nell&#39;angolo superiore destro della casella di condivisione, quindi fai clic su **Rendi visibile a livello di sistema.**
 
    Se cambi idea, puoi fare clic su **Rimuovi accesso a livello di sistema** (opzione predefinita).
+
+<!--1. (Optional) If you want everyone in the system to be able to view the folder and its contents, choose **Everyone in the System can view** in the **Who has access** drop-down menu. -->
 
 ## Modalità di accesso degli utenti al contenuto di una cartella condivisa con loro
 
