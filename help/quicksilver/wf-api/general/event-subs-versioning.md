@@ -6,21 +6,23 @@ description: API di abbonamento agli eventi
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: e93634acdf2a97344f014c28ff9bbf43f1392e53
+exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
+source-git-commit: 0b8c327f5ab541358649474b405b881dac06c1aa
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
-
 
 # Controllo delle versioni delle sottoscrizioni agli eventi
 
 In Workfront sono disponibili due versioni delle sottoscrizioni di eventi. Questo articolo descrive le differenze tra di essi.
 
-Non si tratta di una modifica all’API Workfront, ma piuttosto di una modifica alla funzionalità di abbonamento agli eventi.
+La nuova versione non è una modifica all’API Workfront, ma piuttosto una modifica alla funzionalità di abbonamento agli eventi.
 
 La possibilità di aggiornare o effettuare il downgrade degli abbonamenti agli eventi assicura che, quando vengono apportate modifiche alla struttura degli eventi, gli abbonamenti esistenti non si interrompano, consentendo di testare e aggiornare alla nuova versione senza interruzioni nell’abbonamento agli eventi.
+
+Per informazioni sugli endpoint utilizzati per l&#39;aggiornamento o il downgrade delle sottoscrizioni di eventi, vedere [Controllo delle versioni delle sottoscrizioni di eventi](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) nell&#39;articolo API delle sottoscrizioni di eventi.
 
 >[!IMPORTANT]
 >
@@ -35,7 +37,6 @@ Le seguenti modifiche sono state apportate per le sottoscrizioni di eventi versi
 
 
 ### Modifiche generali
-
 
 
 <table style="table-layout:auto"> 
