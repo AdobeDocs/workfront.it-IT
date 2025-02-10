@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: a601b47f10de19fa99ecd4fdd4bbf8247dde4d48
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,13 @@ Per visualizzare le impostazioni, vai a Configurazione > Preferenze > Approvazio
 
 ### Aggiornamento dell’interfaccia per l’area Approvazioni in Configurazione > Gruppi
 
-**Anteprima versione: 6 febbraio 2025; Versione di produzione: da annunciare**
+**Anteprima versione: 30 gennaio 2025; Versione di produzione: da annunciare**
 
-La finestra di dialogo Impostazioni approvazione è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront.
+Gli elenchi Approvazioni di progetti, attività e problemi sono stati aggiornati in Configurazione > Gruppi > Approvazioni con un design più moderno che è coerente con le altre aree di Workfront.
 
-Per visualizzare le impostazioni, vai a Configurazione > Preferenze > Approvazioni > Seleziona l’icona delle impostazioni nella parte superiore della pagina.
+Per visualizzare questa modifica, vai a Configurazione > Gruppi > Approvazioni.
+
+Questo aggiornamento include modifiche visive all’area. Nessuna funzionalità è stata modificata.
 
 ### Aggiornamento dell’interfaccia per la pagina Ruoli bozza in Configurazione
 
@@ -52,7 +54,7 @@ Per visualizzare questa modifica, vai a Configurazione > Revisione e approvazion
 
 ### Aggiornamento dell&#39;interfaccia per la pagina Promemoria automatici in Configurazione
 
-**Anteprima versione: 23 gennaio 2025; Versione di produzione: da annunciare**
+**Versione di anteprima: 23 gennaio 2025; versione di produzione: a partire dalla settimana del 30 gennaio 2025**
 
 La pagina Promemoria automatici è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront.
 Per visualizzare questa pagina, vai a Configurazione > E-mail > Promemoria automatici.
@@ -60,7 +62,7 @@ Questo aggiornamento include modifiche visive all’area. Nessuna funzionalità 
 
 ### Aggiornamento dell’interfaccia per la pagina Modelli e-mail in Configurazione
 
-**Anteprima versione: 23 gennaio 2025; Versione di produzione: da annunciare**
+**Versione di anteprima: 23 gennaio 2025; versione di produzione: a partire dalla settimana del 30 gennaio 2025**
 
 La pagina Modelli e-mail è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront.
 
@@ -88,10 +90,9 @@ Per visualizzare questa pagina, vai a Configurazione > Gruppi > Seleziona un gru
 
 Questo aggiornamento include modifiche visive minori all’area. Nessuna funzionalità è stata modificata.
 
-
 ### Aggiornamenti dell’interfaccia per la scheda Notifiche promemoria in Configurazione
 
-**Anteprima versione: 23 gennaio 2025; Versione di produzione: da annunciare**
+**Versione di anteprima: 23 gennaio 2025; versione di produzione: a partire dalla settimana del 30 gennaio 2025**
 
 Sono state aggiornate la scheda Notifiche promemoria e le finestre di dialogo Aggiungi e modifica con una struttura più moderna, coerente con altre aree di Workfront.
 
@@ -109,7 +110,7 @@ Questo aggiornamento include modifiche visive all’area. Nessuna funzionalità 
 
 ### Aggiornamento dell’interfaccia per l’area Approvals (Approvazioni) nella configurazione
 
-**Anteprima versione: 16 gennaio 2025; Versione di produzione: da annunciare**
+**Versione di anteprima: 16 gennaio 2025; versione di produzione: a partire dalla settimana del 30 gennaio 2025**
 
 Gli elenchi Approvazioni progetti, attività e problemi sono stati aggiornati in Configurazione > Processi > Approvazioni con un design più moderno che è coerente con le altre aree di Workfront.
 
@@ -158,10 +159,20 @@ Questo aggiornamento include modifiche visive all’area. Nessuna funzionalità 
 
 Per visualizzare questa modifica, vai a Team > scegli un team > Backlog, quindi fai clic su **Nuova storia** o **Nuovo problema**.
 
-
 ## Report e dashboard
 
-## Rapporti e-mail aggiornati con nuovo stile
+### È stato aggiornato il rapporto Team con un nuovo stile
+
+**Anteprima versione: 30 gennaio 2025; Versione di produzione: da annunciare**
+
+Il rapporto Team è stato aggiornato con un design più moderno, coerente con le altre aree di Workfront.
+
+Questo aggiornamento include modifiche visive al rapporto. Nessuna funzionalità è stata modificata.
+
+Per creare un rapporto Team, vai a Rapporti > Nuovo rapporto > Team.
+
+
+### Rapporti e-mail aggiornati con nuovo stile
 
 **Anteprima versione: 23 gennaio 2025; Versione di produzione: da annunciare**
 
@@ -174,7 +185,7 @@ Questo aggiornamento include modifiche visive all’area. Nessuna funzionalità 
 
 ### È stato aggiornato il rapporto di iterazione con un nuovo stile
 
-**Anteprima versione: 17 gennaio 2025; Versione di produzione: da annunciare**
+**Versione di anteprima: 17 gennaio 2025; versione di produzione: a partire dalla settimana del 20 gennaio 2025**
 
 Il rapporto Iterazioni è stato aggiornato con un design più moderno, coerente con le altre aree di Workfront.
 
