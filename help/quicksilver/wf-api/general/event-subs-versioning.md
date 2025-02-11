@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: 0b8c327f5ab541358649474b405b881dac06c1aa
+source-git-commit: 3e082ddde7cb84fb8bf3b5a23c363fd3b4cfe3d2
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Per informazioni sugli endpoint utilizzati per l&#39;aggiornamento o il downgrad
 
 ## Modifiche tra versione 1 e versione 2
 
-Le seguenti modifiche sono state apportate per le sottoscrizioni di eventi versione 2
+Sono state apportate le seguenti modifiche per le sottoscrizioni di eventi versione 2:
 
 
 ### Modifiche generali
