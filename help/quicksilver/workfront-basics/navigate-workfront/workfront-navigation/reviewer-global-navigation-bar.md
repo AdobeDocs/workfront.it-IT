@@ -6,9 +6,9 @@ description: Il menu principale cambia con il livello di accesso assegnato dall'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Le seguenti aree sono incluse nel layout predefinito di un [!UICONTROL Revisore]
 * **[!UICONTROL Blueprint]**: controlla i blueprint esistenti nel tuo sistema e richiedi l&#39;installazione di uno, se l&#39;amministratore [!DNL Workfront] ha configurato la coda di richieste per i blueprint. Per ulteriori informazioni, consulta [Panoramica blueprint](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
 
-![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+![Accedi agli aggiornamenti dal menu principale](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
 ## Personalizza il [!UICONTROL menu principale] predefinito
 

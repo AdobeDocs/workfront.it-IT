@@ -6,9 +6,9 @@ description: Rivedi questo articolo per diventare un beta tester di Android per 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 84188dec-301b-40f6-a2a3-5e7befae1dc9
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,13 @@ Esistono due modi per diventare un beta tester per l&#39;app [!DNL Adobe Workfro
 
 1. Al termine dell’avanzamento, ricevi una conferma che ora sei un utente beta.\
    La parola &quot;[!UICONTROL Beta]&quot; viene visualizzata dopo il nome dell&#39;app in [!DNL Play Store] a indicare che si sta utilizzando la versione beta dell&#39;app.\
-   ![](assets/android-beta-tester-adobe-350x468.png)
+   ![Android beta tester](assets/android-beta-tester-adobe-350x468.png)
 
 ### QR code
 
 Puoi anche scansionare il codice QR riportato di seguito per iscriverti alla versione beta e scaricare l’app:
 
-![](assets/android-qr-code-350x409.png)
+![Codice QR Android](assets/android-qr-code-350x409.png)
 
 ## Facci sapere come stiamo andando
 

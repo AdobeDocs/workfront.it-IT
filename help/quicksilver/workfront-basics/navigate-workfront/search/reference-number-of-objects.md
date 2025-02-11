@@ -6,9 +6,9 @@ description: In [!DNL Adobe Workfront] gli elementi sono identificati come ogget
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 94f5a174-21cc-4c10-88ed-89a8014d28f4
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ I numeri di riferimento vengono visualizzati per impostazione predefinita per le
 
 I numeri di riferimento vengono visualizzati per impostazione predefinita quando si visualizza un’attività o un problema.  Per visualizzare il numero di riferimento, fai clic su **[!UICONTROL Dettagli attività]** o **[!UICONTROL Dettagli problema]** nel pannello a sinistra, quindi individua la sezione **[!UICONTROL Informazioni di base]** nella panoramica.
 
-![](assets/reference-number-nwe-350x184.png)
+![Numero di riferimento](assets/reference-number-nwe-350x184.png)
 
 ### Visualizza numeri di riferimento per altri oggetti
 

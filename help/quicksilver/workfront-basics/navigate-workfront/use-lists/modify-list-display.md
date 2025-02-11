@@ -5,9 +5,9 @@ description: In [!DNL Adobe Workfront] puoi personalizzare la visualizzazione di
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. (Facoltativo e condizionale) Se desideri visualizzare un numero specifico di elementi sullo schermo, fai clic sul menu a discesa **[!UICONTROL Visualizzazione]** nell&#39;angolo inferiore destro dello schermo, quindi seleziona per visualizzare **100**, **250**, **500**, **[!UICONTROL Tutti]** o **2000** elementi.
 
-   ![](assets/list-number-page-350x119.png)
+   ![Numero elenco a pagina](assets/list-number-page-350x119.png)
 
    >[!TIP]
    >

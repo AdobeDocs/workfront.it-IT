@@ -6,9 +6,9 @@ description: È possibile rivedere e risolvere i commenti esistenti su una bozza
 author: Nolan
 feature: Get Started with Workfront
 exl-id: c38f0d80-11e0-4d5a-9591-602543177fe6
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Nell&#39;elenco [!UICONTROL commento] è possibile eseguire azioni diverse, ad e
 
    Questa opzione è disponibile solo se è stata selezionata l&#39;opzione Commenti non letti.
 
-1. Per eliminare i commenti selezionati, seleziona l&#39;icona ![](assets/delete-30x28.png) **[!UICONTROL Elimina]** nella barra degli strumenti inferiore. Quindi, seleziona **[!UICONTROL Elimina]** nel messaggio di conferma per eliminare definitivamente il commento.
+1. Per eliminare i commenti selezionati, seleziona l&#39;icona **[!UICONTROL Elimina]** ![Elimina](assets/delete-30x28.png) nella barra degli strumenti inferiore. Quindi, seleziona **[!UICONTROL Elimina]** nel messaggio di conferma per eliminare definitivamente il commento.
 
 ## Commento su una bozza
 
@@ -82,7 +82,7 @@ Nell&#39;elenco [!UICONTROL commento] è possibile eseguire azioni diverse, ad e
 
    ![Impostazioni dello strumento di disegno](assets/ios-drawingtoolsettings-350x359.png)
 
-1. Draw la forma nel documento della bozza. Seleziona l&#39;icona **[!UICONTROL Annulla]** ![Annulla](assets/android-undo-icon-30x31.png) per annullare il disegno.
+1. Disegnare la forma nel documento della bozza. Seleziona l&#39;icona **[!UICONTROL Annulla]** ![Annulla](assets/android-undo-icon-30x31.png) per annullare il disegno.
 1. (Condizionale) Selezionare la forma e scegliere **[!UICONTROL Impostazioni]** per modificare le impostazioni della forma oppure **[!UICONTROL Rimuovi]** per eliminare la forma.
 
    ![Menu Disegno](assets/ios-drawing-settingsremove-350x190.png)

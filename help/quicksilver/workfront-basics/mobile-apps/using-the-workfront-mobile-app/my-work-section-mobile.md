@@ -6,10 +6,10 @@ description: Nella sezione [!UICONTROL Il mio lavoro] dell'area [!UICONTROL Home
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 006f6f5e-fe10-4530-a22a-4ab33a4e0da5
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 0%
+source-wordcount: '172'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ Nella sezione [!UICONTROL Il mio lavoro] dell&#39;area [!UICONTROL Home] sono vi
 >
 >[!UICONTROL Il mio lavoro] nell&#39;app mobile è separato da [!UICONTROL Il mio lavoro] nella versione desktop di [!UICONTROL Adobe Workfront].
 
-![](assets/home-myworksection-338x379.png)
+![Il mio lavoro](assets/home-myworksection-338x379.png)
 
 ## Personalizza la sezione [!UICONTROL Il mio lavoro]
 
@@ -36,4 +36,4 @@ Nella sezione [!UICONTROL Il mio lavoro] dell&#39;area [!UICONTROL Home] sono vi
    >
    >La voce di menu [!UICONTROL Attività e problemi] è sempre visualizzata e non puoi nasconderla.
 
-   ![](assets/mobile-settings-338x366.png)
+   ![Impostazioni dispositivi mobili](assets/mobile-settings-338x366.png)

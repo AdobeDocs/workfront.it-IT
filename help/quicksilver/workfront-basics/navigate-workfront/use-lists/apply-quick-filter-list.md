@@ -5,9 +5,9 @@ description: È possibile utilizzare il filtro rapido in un elenco di oggetti pe
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Applicare un filtro rapido a un elenco
 
-1. Vai a un elenco o a un report che supporta i filtri rapidi, quindi fai clic sull&#39;icona **[!UICONTROL Filtro rapido]** ![](assets/qs-quick-filter-icon.png) nella barra degli strumenti.
+1. Vai a un elenco o a un report che supporta i filtri rapidi, quindi fai clic sull&#39;icona **[!UICONTROL Filtro rapido]** ![Icona Filtro rapido](assets/qs-quick-filter-icon.png) nella barra degli strumenti.
 
    Oppure
 
@@ -120,7 +120,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    1. Seleziona tutti o alcuni elementi dell&#39;elenco, quindi fai clic su **[!UICONTROL Modifica]** per modificare gli elementi in blocco.
    1. Dopo aver completato le modifiche, fai clic su **[!UICONTROL Salva modifiche]**.
 
-1. (Facoltativo) Per esportare gli elementi trovati dal filtro rapido, selezionare tutti o alcuni elementi nell&#39;elenco, quindi fare clic sull&#39;icona **[!UICONTROL Esporta]** ![](assets/export.png).
+1. (Facoltativo) Per esportare gli elementi trovati dal filtro rapido, seleziona tutti o alcuni elementi nell&#39;elenco, quindi fai clic sull&#39;icona **[!UICONTROL Esporta]** ![Icona Esporta](assets/export.png).
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 

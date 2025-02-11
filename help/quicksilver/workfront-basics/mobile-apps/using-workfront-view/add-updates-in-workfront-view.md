@@ -7,9 +7,9 @@ description: Puoi rivedere e aggiungere aggiornamenti ai progetti che stai esami
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 5d0260ad-7049-42c6-a8a0-9b53fb115ec6
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre del
 
 1. Digita un aggiornamento.
 1. (Facoltativo) Includi altri nell&#39;aggiornamento toccando l&#39;icona [!UICONTROL persone] e specificando il nome di un altro utente.\
-   ![](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
+   ![Aggiornamenti nell&#39;app mobile](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
 
 1. Tocca **[!UICONTROL Post]**.\
    L&#39;aggiornamento viene visualizzato nel progetto nel widget **[!UICONTROL Aggiornamenti]**.

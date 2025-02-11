@@ -6,9 +6,9 @@ description: Rivedi questo articolo per diventare un beta tester di iOS per l'ap
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b02119ab-f4ea-4249-8d2c-b26df47e770d
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Per poter essere un beta tester su un dispositivo iOS, è necessario che nel dis
 
 Puoi anche scansionare il codice QR riportato di seguito per iscriverti alla versione beta e scaricare l’app:
 
-![](assets/ios-qr-code-350x397.png)
+![Codice QR iOS](assets/ios-qr-code-350x397.png)
 
 ## Facci sapere come stiamo andando
 

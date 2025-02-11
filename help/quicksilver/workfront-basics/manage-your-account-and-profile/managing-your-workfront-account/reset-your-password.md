@@ -6,9 +6,9 @@ description: Puoi reimpostare la tua  [!DNL Adobe Workfront]  password. Come mis
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '253'
 ht-degree: 1%
 
 ---
@@ -50,15 +50,15 @@ Per conoscere il piano o il tipo di licenza disponibile, contattare l&#39;ammini
 
 ## Reimposta la password in [!DNL Adobe Workfront]
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic sul nome utente accanto all&#39;immagine del tuo profilo.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic sul tuo nome utente accanto all&#39;immagine del tuo profilo.
 
    ![Apri il menu principale e seleziona il tuo nome utente.](assets/main-menu-options-350x481.png)
 
-1. Fai clic sul menu **[!UICONTROL Altro]** ![](assets/more-icon.png), quindi fai clic su **[!UICONTROL Modifica]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Altro menu]** ![Altro](assets/more-icon.png), quindi su **[!UICONTROL Modifica]**.
 
 1. Nella casella **[!UICONTROL Modifica persona]** che visualizza, in **[!UICONTROL Informazioni personali]**, fare clic su **[!UICONTROL Reimposta password]**.
 
-   ![](assets/edit-person-box-350x196.jpg)
+   ![Modifica persona](assets/edit-person-box-350x196.jpg)
 
    Se l&#39;organizzazione ha integrato [!DNL Workfront] con una soluzione SSO, quando si fa clic su **[!UICONTROL Reimposta password]** è possibile che le password vengano reimpostate tramite il sistema SSO. In questo modo viene ripristinata la password SSO che influisce sull&#39;accesso a tutte le altre applicazioni all&#39;interno dell&#39;organizzazione.
 

@@ -6,9 +6,9 @@ description: In questo articolo vengono fornite le definizioni alle date più co
 feature: Get Started with Workfront
 author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '2301'
+source-wordcount: '2357'
 ht-degree: 3%
 
 ---
@@ -47,9 +47,9 @@ Per ulteriori informazioni, vedere [Panoramica del progetto [!UICONTROL Data di 
 >
 >L&#39;attività [!UICONTROL Deve iniziare il] o i vincoli di Date fisse influiscono sulla [!UICONTROL Data inizio pianificata] di un&#39;attività, non sulla [!UICONTROL Data inizio effettiva]. La [!UICONTROL Data inizio pianificata] viene aggiornata a una data specificata. La [!UICONTROL Data inizio effettiva] è aggiornata indipendentemente dalla [!UICONTROL Data inizio pianificata], come descritto in precedenza.
 
-![](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
+![Data di inizio effettiva dell&#39;attività di modifica](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
 
-![](assets/actual-start-date-on-task-details-highlighted-nwe-350x191.png)
+![Data di inizio effettiva per l&#39;attività](assets/actual-start-date-on-task-details-highlighted-nwe-350x191.png)
 
 ## [!UICONTROL Data di completamento Effettiva]
 
@@ -68,7 +68,7 @@ La [!UICONTROL data di completamento effettiva] di un progetto coincide con la d
 
 Per ulteriori informazioni, vedere [Panoramica del progetto [!UICONTROL Data di completamento effettiva]](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
 
-![](assets/actual-completion-date-task-details-highlighted-nwe-350x189.png)
+![Data di completamento effettiva nei dettagli](assets/actual-completion-date-task-details-highlighted-nwe-350x189.png)
 
 ## Data di completamento percorso di approvazione
 
@@ -152,7 +152,7 @@ La [!UICONTROL Data di ingresso] è la data di creazione di un progetto, un&#39;
 
 La [!UICONTROL Data di ingresso] non influenza la sequenza temporale di progetti, attività o problemi, ma è importante a scopo di tracciamento e reporting. [!DNL Workfront] genera automaticamente la [!UICONTROL Data immissione] quando l&#39;oggetto viene creato e non è possibile modificarlo manualmente.
 
-![](assets/entry-date-in-task-details-highlighted-nwe.png)
+![Data di ingresso nei dettagli attività](assets/entry-date-in-task-details-highlighted-nwe.png)
 
 ## Data di Consegna Stimato
 
@@ -184,7 +184,7 @@ Si tratta di una stima manuale che non tiene conto dell&#39;avanzamento effettiv
 
 La Data di fine fissata di un progetto è visibile nella sezione Caso di business del progetto, nonché negli elenchi e nei rapporti dei progetti.
 
-![](assets/fixed-end-date-business-case-highlight.png)
+![Data di fine fissata](assets/fixed-end-date-business-case-highlight.png)
 
 ## Data di Inizio Fisso
 
@@ -194,7 +194,7 @@ Si tratta di una stima manuale che non tiene conto dell&#39;avanzamento effettiv
 
 La data di inizio fissa di un progetto è visibile nella sezione Caso di business del progetto, nonché negli elenchi e nei rapporti dei progetti.
 
-![](assets/fixed-start-date-business-case-highlight.png)
+![Data di inizio fissata](assets/fixed-start-date-business-case-highlight.png)
 
 ## Data del Handoff
 
@@ -252,9 +252,9 @@ Per ulteriori informazioni, consulta i seguenti articoli:
 * [Imposta il progetto [!UICONTROL Data di completamento pianificata]](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
 * [Panoramica del problema [!UICONTROL Data di completamento pianificata]](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
 
-![](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)
+![Data competizione pianificata nell&#39;intestazione](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)
 
-![](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
+![Data di completamento pianificata nell&#39;elenco attività](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
 
 
 ## Allineamento date pianificate
@@ -277,9 +277,9 @@ A seconda del [!UICONTROL Vincolo attività], potrebbe non essere possibile modi
 
 Per ulteriori informazioni, vedere [Panoramica del progetto [!UICONTROL Data inizio pianificata]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
 
-![](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
+![Data inizio pianificata per l&#39;attività di modifica](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
 
-![](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
+![Data di inizio pianificata nell&#39;elenco attività](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
 
 ## [!UICONTROL Data di completamento Prevista]
 
@@ -289,7 +289,7 @@ Se tutto procede come previsto, la [!UICONTROL data di completamento prevista] d
 
 Per ulteriori informazioni, vedere [Panoramica della [!UICONTROL Data di completamento prevista] per progetti, attività e problemi](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
-![](assets/projected-completion-date-in-task-details-highlighted-nwe-350x187.png)
+![Data di completamento prevista](assets/projected-completion-date-in-task-details-highlighted-nwe-350x187.png)
 
 ## [!UICONTROL Data Inizio Prevista]
 
@@ -305,7 +305,7 @@ Per un&#39;attività, anche una [!UICONTROL Data inizio prevista] può differire
 
 Per ulteriori informazioni, vedere [Panoramica del progetto [!UICONTROL Data di inizio prevista]](../../../manage-work/projects/planning-a-project/project-projected-start-date.md).
 
-![](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
+![Data di inizio prevista](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
 
 <!--## Rejection Date-->
 
@@ -313,9 +313,9 @@ Per ulteriori informazioni, vedere [Panoramica del progetto [!UICONTROL Data di 
 
 A volte le attività possono iniziare e completare in ritardo senza influire sulla data di completamento del progetto.
 
-In Data Slack viene visualizzata la data esatta in cui un&#39;attività potrebbe effettivamente influire sulla Data di completamento del progetto.
+In Data Slack viene visualizzata la data esatta in cui un&#39;attività potrebbe sicuramente influire sulla Data di completamento del progetto.
 
-Per informazioni sulla data di Slack di un&#39;attività, vedere [Panoramica sulla data di Slack attività](/help/quicksilver/manage-work/tasks/task-information/task-slack-date.md).
+Per informazioni sulla data Slack di un&#39;attività, vedere [Panoramica sulla data Slack dell&#39;attività](/help/quicksilver/manage-work/tasks/task-information/task-slack-date.md).
 
 Le date di Slack delle attività sono visibili negli elenchi delle attività e nei report.
 

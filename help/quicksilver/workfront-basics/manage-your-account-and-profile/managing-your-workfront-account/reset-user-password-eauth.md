@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -48,17 +48,17 @@ Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contatta
 
 ## Reimpostare la password di un utente in un ambiente abilitato per eAuth
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Workfront], quindi fai clic su **[!UICONTROL Utenti]** ![](assets/users-icon-in-main-menu.png).
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Workfront], quindi fai clic su **[!UICONTROL Users]** ![Users icon](assets/users-icon-in-main-menu.png).
 
-   ![](assets/main-menu-options-350x481.png)
+   ![Opzioni del menu principale](assets/main-menu-options-350x481.png)
 
 1. Selezionare l&#39;**[!UICONTROL utente]** che richiede la reimpostazione della password.
-   ![](assets/100520classicnweselectuser-350x105.png)
+   ![Seleziona l&#39;utente](assets/100520classicnweselectuser-350x105.png)
 
 1. Fai clic sul pulsante **[!UICONTROL Altro]** che viene visualizzato dopo aver scelto l&#39;**[!UICONTROL Utente]** desiderato e seleziona l&#39;opzione **[!UICONTROL Invia e-mail Password dimenticata]** dal menu a discesa.
 
-   ![](assets/100520classicnwesendemail-350x134.png)
+   ![Invia e-mail password dimenticata](assets/100520classicnwesendemail-350x134.png)
 
 Dopo aver selezionato l&#39;opzione **[!UICONTROL Invia e-mail Password dimenticata]**, viene inviata un&#39;e-mail all&#39;utente selezionato contenente le istruzioni per la modifica della propria password.
 
-![](assets/pwresetemail-resized-350x461.png)
+![Reimposta e-mail](assets/pwresetemail-resized-350x461.png)

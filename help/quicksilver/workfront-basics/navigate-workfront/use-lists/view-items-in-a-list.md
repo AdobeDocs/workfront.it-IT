@@ -5,9 +5,9 @@ description: È possibile visualizzare elenchi di oggetti in [!DNL Adobe Workfro
 feature: Get Started with Workfront
 author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '2284'
+source-wordcount: '2290'
 ht-degree: 0%
 
 ---
@@ -123,14 +123,14 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti disponibili in [!DNL
    <td>Elenco dei portfolio</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Portfoli]</p> </li> 
+     <li> <p>[!UICONTROL Portfolio]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Elenco dei programmi</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Portfoli] &gt;[!UICONTROL seleziona un portfolio] &gt;[!UICONTROL Programmi]</p> </li> 
+     <li> <p>[!UICONTROL Portfolio] &gt;[!UICONTROL seleziona un portfolio] &gt;[!UICONTROL Programmi]</p> </li> 
      <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>[!UICONTROL Programmi]</p> </li> 
     </ul> </td> 
   </tr> 
@@ -139,8 +139,8 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti disponibili in [!DNL
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Progetti]</p> </li> 
-     <li> <p>[!UICONTROL Portfoli] &gt;[!UICONTROL seleziona un portfolio] &gt;[!UICONTROL Progetti]</p> </li> 
-     <li> <p>[!UICONTROL Portfoli] &gt;[!UICONTROL seleziona un portfolio] &gt;[!UICONTROL Programmi] &gt;[!UICONTROL seleziona un programma] &gt;[!UICONTROL Progetti]</p> </li> 
+     <li> <p>[!UICONTROL Portfolio] &gt;[!UICONTROL seleziona un portfolio] &gt;[!UICONTROL Projects]</p> </li> 
+     <li> <p>[!UICONTROL Portfolio] &gt;[!UICONTROL seleziona un portfolio] &gt;[!UICONTROL Programmi] &gt;[!UICONTROL seleziona un programma] &gt;[!UICONTROL Progetti]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -194,8 +194,8 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti disponibili in [!DNL
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Documenti]</p> </li> 
-     <li> <p>[!UICONTROL Portfoli] &gt;[!UICONTROL seleziona un portfolio] &gt; [!UICONTROL Documenti]</p> </li> 
-     <li> <p>[!UICONTROL Portfoli] &gt; [!UICONTROL seleziona un portfolio] &gt;[!UICONTROL Programmi] &gt;[!UICONTROL seleziona un programma] &gt;[!UICONTROL Documenti]</p> </li> 
+     <li> <p>[!UICONTROL Portfolio] &gt;[!UICONTROL seleziona un portfolio] &gt; [!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Portfolio] &gt; [!UICONTROL seleziona un portfolio] &gt;[!UICONTROL Programmi] &gt;[!UICONTROL seleziona un programma] &gt;[!UICONTROL Documenti]</p> </li> 
      <li> <p>[!UICONTROL Progetti] &gt;[!UICONTROL seleziona un progetto] &gt;[!UICONTROL Documenti]</p> </li> 
      <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL select a task] &gt; [!UICONTROL Documents]</p> </li> 
      <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select] a project &gt; [!UICONTROL Issues] &gt;[!UICONTROL select an issue] &gt; [!UICONTROL Documents]</p> </li> 
@@ -331,7 +331,7 @@ Di seguito sono riportati gli elementi di un elenco:
 
 Per impostazione predefinita, questi elementi vengono visualizzati nella parte superiore di ogni elenco. Sono permanenti e non si spostano mentre scorri l’elenco. Passa il puntatore del mouse sull&#39;icona di ogni elemento per identificarli.
 
-![](assets/nwe-list-elements.png)
+![Elementi elenco](assets/nwe-list-elements.png)
 
 È possibile personalizzare gli elementi di un elenco nelle seguenti aree e condividerli con altri utenti:
 
@@ -525,13 +525,13 @@ La tabella seguente illustra le somiglianze e le differenze tra elenchi e rappor
  <tbody> 
   <tr> 
    <td> <p>Chiunque può crearli</p> </td> 
-   <td>✓ <span>*</span> </td> 
+   <td><span>✓*</span> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Solo un amministratore [!DNL Workfront] e gli utenti con una licenza [!UICONTROL Plan] possono crearli</p> </td> 
    <td> </td> 
-   <td>✓ **</td> 
+   <td>✓**</td> 
   </tr> 
   <tr> 
    <td> <p>Un set predefinito è disponibile da [!DNL Workfront]</p> </td> 
@@ -585,7 +585,7 @@ La tabella seguente illustra le somiglianze e le differenze tra elenchi e rappor
   </tr> 
   <tr> 
    <td> <p>Puoi aggiungerli a una dashboard</p> </td> 
-   <td> ✓ *** </td> 
+   <td> ✓*** </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
@@ -624,11 +624,11 @@ Esistono due tipi di elenchi in [!DNL Workfront]:
 
 * Elenchi legacy
 
-  ![](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
+  ![Raggruppamenti blu](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
 
 * Elenchi aggiornati
 
-  ![](assets/updated-list-screen-shot-gray-groupings-350x71.png)
+  ![Raggruppamenti grigi](assets/updated-list-screen-shot-gray-groupings-350x71.png)
 
 Nella tabella seguente sono illustrate alcune delle differenze tra gli elenchi legacy e aggiornato in [!DNL Workfront]:
 

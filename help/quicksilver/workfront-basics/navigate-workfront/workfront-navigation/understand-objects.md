@@ -6,9 +6,9 @@ description: Le informazioni visualizzate in [!DNL Adobe Workfront] sono rappres
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '2424'
+source-wordcount: '2508'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Le informazioni visualizzate in [!DNL Adobe Workfront] sono rappresentate da ogg
 
 È importante comprendere il modo in cui gli oggetti sono definiti in [!DNL Workfront] per poter utilizzare l&#39;oggetto corretto per le esigenze dell&#39;organizzazione.
 
-Ad esempio, quando si pianifica una grande quantità di lavoro, è necessario utilizzare l&#39;oggetto [!UICONTROL Project] per definire tale lavoro. Per suddividere questo lavoro in incrementi pianificati più piccoli, è possibile utilizzare l&#39;oggetto [!UICONTROL Task]. Per una quantità inferiore di lavoro non pianificato e che può verificarsi in modo imprevisto, è possibile utilizzare l&#39;oggetto Issue. Se desideri tenere traccia dell&#39;avanzamento e del rispetto del budget e della sequenza temporale di un gruppo di progetti, puoi organizzarli in [!UICONTROL Portfoli] e [!UICONTROL Programmi]. Per definire altri elementi che consentono di risolvere il lavoro, utilizzare altri oggetti archiviati in [!UICONTROL Progetti], [!UICONTROL Attività], [!UICONTROL Problemi] o [!UICONTROL Portfoli], ad esempio [!UICONTROL Documenti], [!UICONTROL Aggiornamenti], [!UICONTROL Ore], [!UICONTROL Utenti] o [!UICONTROL Ruoli].
+Ad esempio, quando si pianifica una grande quantità di lavoro, è necessario utilizzare l&#39;oggetto [!UICONTROL Project] per definire tale lavoro. Per suddividere questo lavoro in incrementi pianificati più piccoli, è possibile utilizzare l&#39;oggetto [!UICONTROL Task]. Per una quantità inferiore di lavoro non pianificato e che può verificarsi in modo imprevisto, è possibile utilizzare l&#39;oggetto Issue. Se desideri tenere traccia dell&#39;avanzamento e del rispetto del budget e della sequenza temporale di un gruppo di progetti, puoi organizzarli in [!UICONTROL Portfolio] e [!UICONTROL Programmi]. Per definire altri elementi che consentono di risolvere il lavoro, utilizzare altri oggetti archiviati in [!UICONTROL Progetti], [!UICONTROL Attività], [!UICONTROL Problemi] o [!UICONTROL Portfolio], ad esempio [!UICONTROL Documenti], [!UICONTROL Aggiornamenti], [!UICONTROL Ore], [!UICONTROL Utenti] o [!UICONTROL Ruoli].
 
 [!UICONTROL I report] e [!UICONTROL Dashboard] sono un altro esempio di oggetti che consentono di organizzare visivamente la quantità di dati disponibili in [!DNL Workfront], in modo da renderli facilmente accessibili a tutti gli utenti.
 
@@ -41,7 +41,7 @@ Di seguito sono riportati alcuni degli oggetti più comunemente utilizzati in [!
 |---|---|---|
 | [!UICONTROL Portfolio] |  | [!UICONTROL Programmi], [!UICONTROL Progetti], [!UICONTROL Documenti], [!DNL Notes], [!UICONTROL Utenti] |
 | [!UICONTROL Programmi] | [!UICONTROL Portfolio] | [!UICONTROL Progetti], [!UICONTROL Documenti], [!UICONTROL Note], [!UICONTROL Utenti] |
-| [!UICONTROL Progetti] | [!UICONTROL Portfoli], [!UICONTROL Programmi] | [!UICONTROL Attività], [!UICONTROL Problemi], [!UICONTROL Documenti], [!UICONTROL Note], [!UICONTROL Ore], [!UICONTROL Utenti] |
+| [!UICONTROL Progetti] | [!UICONTROL Portfolio], [!UICONTROL Programmi] | [!UICONTROL Attività], [!UICONTROL Problemi], [!UICONTROL Documenti], [!UICONTROL Note], [!UICONTROL Ore], [!UICONTROL Utenti] |
 | [!UICONTROL Attività] | [!UICONTROL Progetti] | [!UICONTROL Problemi], [!UICONTROL Attività Secondarie], [!UICONTROL Documenti], [!UICONTROL Note], [!UICONTROL Ore], [!UICONTROL Utenti] |
 | [!UICONTROL Problemi] | [!UICONTROL Attività], [!UICONTROL Progetti] | [!UICONTROL Documenti], [!UICONTROL Note], [!UICONTROL Ore], [!UICONTROL Utenti] |
 | [!UICONTROL Dashboard] |  | [!UICONTROL Report], Pagine Esterne |
@@ -50,7 +50,7 @@ Di seguito sono riportati alcuni degli oggetti più comunemente utilizzati in [!
 | [!UICONTROL Team] |  | [!UICONTROL Utenti] |
 | [!UICONTROL Utenti] | [!UICONTROL Gruppi], [!UICONTROL Team], [!UICONTROL Aziende] | [!UICONTROL Ruoli] |
 | [!UICONTROL Aziende] |  | [!UICONTROL Utenti] |
-| [!UICONTROL Documenti] | [!UICONTROL Attività], [!UICONTROL Problemi], [!UICONTROL Progetti], [!UICONTROL Portfoli], [!UICONTROL Programmi], [!UICONTROL Utenti] |  |
+| [!UICONTROL Documenti] | [!UICONTROL Attività], [!UICONTROL Problemi], [!UICONTROL Progetti], [!UICONTROL Portfolio], [!UICONTROL Programmi], [!UICONTROL Utenti] |  |
 | [!UICONTROL Piani]* |  | [!UICONTROL Iniziative] |
 | [!DNL Goals]* |  | [!UICONTROL Risultati], [!UICONTROL Attività] |
 
@@ -161,21 +161,21 @@ Di seguito è riportato un elenco di oggetti e delle relative icone in Workfront
 
 | **Oggetto** | **Icona** | **Nome oggetto personalizzabile** |
 |---|---|---|
-| [!UICONTROL Società] | ![](assets/company-icon-nwe.png) , ![](assets/nwe-company-icon-54x54.png) |  |
-| [!UICONTROL Dashboard] | ![](assets/dashboard-icon-nwe.png) , ![](assets/nwe-dashboards-icon.png) |  |
-| [!UICONTROL Obiettivo] | ![](assets/nwe-goal-icon.png) | ✔ |
-| [!UICONTROL Gruppo] | ![](assets/groups-icon-nwe.png) , ![](assets/nwe-group-icon.png) |  |
-| [!UICONTROL Problema] | ![](assets/issue-icon-nwe.png) , ![](assets/nwe-issues-icon.png) | ✔ |
-| [!UICONTROL Mansione] | ![job_role_icon.png](assets/job-role-icon-52x50.png), ![job_role_icon__1_.png](assets/job-role-icon--1--53x44.png), ![](assets/job-role-nwe-no-color.png), ![](assets/job-role-icon-nwe-color.png) |  |
-| [!UICONTROL Piano] | ![](assets/plan-icon.png), ![](assets/nwe-plan-icon-60x57.png) |  |
-| [!UICONTROL Portfolio] | ![](assets/portfolio-icon-nwe.png) , ![](assets/nwe-portfolios-icon.png) | ✔ |
-| [!UICONTROL Programma] | ![](assets/program-icon-nwe.png) , ![](assets/nwe-programs-icon.png) | ✔ |
-| [!UICONTROL Progetto] | ![](assets/project-icon-nwe.png) , ![](assets/nwe-projects-icon.png) | ✔ |
-| [!UICONTROL Rapporto] | ![](assets/report-icon-nwe.png) , ![](assets/nwe-reports-icon.png) |  |
-| [!UICONTROL Attività] | ![](assets/task-icon-new.png) , ![](assets/nwe-tasks-icon.png) | ✔ |
-| [!UICONTROL Team] | ![](assets/team-icon-nwe.png), ![](assets/team-icon-nwe-color.png) , ![](assets/nwe-teams-icon.png) |  |
-| [!UICONTROL Modello] | ![](assets/template-icon-nwe.png) , ![](assets/nwe-templates-icon.png) |  |
-| [!UICONTROL Utente] | ![](assets/users-icon-gray.png) , ![](assets/user-icon-blue.png) , ![](assets/user-icon-initials.png) , ![](assets/user-avatar.png) , ![](assets/user-main-menu-area.png) |  |
+| [!UICONTROL Società] | ![Icona società](assets/company-icon-nwe.png) , ![Icona società blu](assets/nwe-company-icon-54x54.png) |  |
+| [!UICONTROL Dashboard] | ![Icona dashboard](assets/dashboard-icon-nwe.png) , ![Icona dashboard blu](assets/nwe-dashboards-icon.png) |  |
+| [!UICONTROL Obiettivo] | ![Icona obiettivo](assets/nwe-goal-icon.png) | ✔ |
+| [!UICONTROL Gruppo] | ![Icona Gruppi](assets/groups-icon-nwe.png) , ![Icona Gruppo](assets/nwe-group-icon.png) |  |
+| [!UICONTROL Problema] | ![Icona problema](assets/issue-icon-nwe.png) , ![Icona problema rosa](assets/nwe-issues-icon.png) | ✔ |
+| [!UICONTROL Mansione] | ![job_role_icon.png](assets/job-role-icon-52x50.png), ![job_role_icon__1_.png](assets/job-role-icon--1--53x44.png), ![icona ruolo](assets/job-role-nwe-no-color.png), ![colore icona ruolo](assets/job-role-icon-nwe-color.png) |  |
+| [!UICONTROL Piano] | ![Icona piano](assets/plan-icon.png), ![Icona piano blu](assets/nwe-plan-icon-60x57.png) |  |
+| [!UICONTROL Portfolio] | ![Portfolio](assets/portfolio-icon-nwe.png) , ![Icona Portfolio blu](assets/nwe-portfolios-icon.png) | ✔ |
+| [!UICONTROL Programma] | ![Icona programma](assets/program-icon-nwe.png) , ![Icona programma arancione](assets/nwe-programs-icon.png) | ✔ |
+| [!UICONTROL Progetto] | ![Icona progetto](assets/project-icon-nwe.png) , ![Icona progetto viola](assets/nwe-projects-icon.png) | ✔ |
+| [!UICONTROL Rapporto] | ![Icona report](assets/report-icon-nwe.png) , ![Icona report verde](assets/nwe-reports-icon.png) |  |
+| [!UICONTROL Attività] | ![Icona attività](assets/task-icon-new.png) , ![Icona attività verde](assets/nwe-tasks-icon.png) | ✔ |
+| [!UICONTROL Team] | ![Icona team](assets/team-icon-nwe.png), ![Icona team round](assets/team-icon-nwe-color.png) , ![Icona team](assets/nwe-teams-icon.png) |  |
+| [!UICONTROL Modello] | ![Icona modello](assets/template-icon-nwe.png) , ![Icona modello verde](assets/nwe-templates-icon.png) |  |
+| [!UICONTROL Utente] | ![Icona utente grigia](assets/users-icon-gray.png) , ![Icona utente blu](assets/user-icon-blue.png) , ![Icona utente con iniziali](assets/user-icon-initials.png) , ![Avatar](assets/user-avatar.png) , ![Menu principale icona utente](assets/user-main-menu-area.png) |  |
 
 ## Numero di riferimento di oggetti
 
