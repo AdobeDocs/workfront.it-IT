@@ -6,9 +6,9 @@ description: Puoi spostare una storia o un problema dalla bacheca Scrum a un’a
 author: Lisa
 feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 95208e0f396d8eab9a71ca156c616891a7f56f7a
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Gestisci storie e problemi sulla bacheca [!UICONTROL Scrum]
 
 È possibile spostare una storia o un problema dalla bacheca [!UICONTROL Scrum] a un&#39;altra iterazione o nel backlog oppure eliminarlo dalla bacheca [!UICONTROL Scrum]. Quando elimini una storia o un problema, questa viene spostata nel Cestino per 30 giorni e può essere ripristinata solo dall&#39;amministratore di sistema.
+
+Per rimuovere un’attività o un problema dall’iterazione senza eliminarlo o inviarlo al backlog, vai al progetto e rimuovi il team Agile dalla colonna delle assegnazioni. In questo modo l’attività o il problema viene rimosso dalla bacheca Scrum, ma rimane nel progetto.
 
 ## Requisiti di accesso
 

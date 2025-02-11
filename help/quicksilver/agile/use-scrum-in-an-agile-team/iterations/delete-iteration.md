@@ -6,9 +6,9 @@ description: Se non è più necessaria, puoi eliminare un’iterazione per il te
 author: Lisa
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
+source-git-commit: 95208e0f396d8eab9a71ca156c616891a7f56f7a
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '189'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 1%
 # Eliminare un’iterazione
 
 Se non è più necessaria, puoi eliminare un’iterazione per il team agile.
+
+Quando eliminate un&#39;iterazione, tutte le storie vengono spostate nel backlog. I compiti e i problemi rimangono anche nei loro progetti.
 
 >[!NOTE]
 >

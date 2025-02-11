@@ -6,9 +6,9 @@ description: Le attività e i problemi possono essere assegnati a un team agile 
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ Puoi creare nuovi brani nel backlog creando il brano direttamente dal backlog o 
 
 ### Creare una storia dal backlog {#create-a-story-from-the-backlog}
 
-Quando crei una storia dal backlog, questa viene creata come un’attività o un problema all’interno di un progetto. Non puoi creare una storia dal backlog come problema.
+Quando crei una storia dal backlog, questa viene creata come un’attività o un problema all’interno di un progetto.
 
 Per creare una storia dal backlog:
 
@@ -189,11 +189,11 @@ L’attività o il problema è ora disponibile nel backlog del team.
 
 ## Spostare i brani nel backlog o fuori da esso
 
-* [Sposta le storie dal backlog a un’iterazione o a una bacheca +](#move-stories-from-the-backlog-to-an-iteration-or--board)
+* [Spostare i brani dal backlog a un’iterazione o bacheca](#move-stories-from-the-backlog-to-an-iteration-or--board)
 * [Sposta i brani esistenti nel backlog](#move-existing-stories-to-the-backlog)
 * [Esporta storie dal backlog](#export-stories-from-the-backlog)
 
-### Sposta le storie dal backlog a un’iterazione o a una bacheca +
+### Spostare i brani dal backlog a un’iterazione o bacheca
 
 1. Vai al backlog del team agile.
 1. Seleziona i brani da spostare in un&#39;iterazione o una bacheca Kanban, quindi fai clic su **[!UICONTROL Altro]** > **[!UICONTROL Sposta in]**.
