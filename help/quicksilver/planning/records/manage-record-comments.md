@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 7ef4d6c852328ff30e8b8c21398100f2f73e0dea
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
@@ -143,7 +143,7 @@ Viene visualizzata la pagina del tipo di record e vengono visualizzati tutti i r
 
 1. Inizia a immettere un commento nella casella **Nuovo commento**.
 
-   ![](assets/empty-comment-box-on-record.png)
+   ![Casella commenti vuota nel record](assets/empty-comment-box-on-record.png)
 
    >[!TIP]
    >

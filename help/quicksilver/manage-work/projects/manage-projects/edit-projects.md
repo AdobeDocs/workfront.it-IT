@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 0a7bb953e7e02e24857bfb7ff671538e184bda17
 workflow-type: tm+mt
-source-wordcount: '7528'
+source-wordcount: '7694'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 1%
 
 <!--Audited: 07/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -98,7 +100,7 @@ Per informazioni sulla creazione di un progetto da un modello, vedere [Creare un
 
 1. (Facoltativo) Fai clic su **Progetti di cui sono proprietario** o **Progetti di cui sono proprietario** nell&#39;angolo superiore destro per visualizzare i progetti di cui sei il proprietario o i progetti di cui fai parte del team di progetto.
 
-   ![](assets/projects-on-my-own-buttons-350x302.png)
+   ![Progetti con i miei pulsanti](assets/projects-on-my-own-buttons-350x302.png)
 
    >[!NOTE]
    >
@@ -108,7 +110,7 @@ Per informazioni sulla creazione di un progetto da un modello, vedere [Creare un
 
 1. (Facoltativo) Per modificare informazioni limitate su un progetto, fai clic su **Dettagli progetto** nel pannello a sinistra. Se si desidera modificare tutte le informazioni sul progetto, passare al passaggio 5. <!--accurate?!-->
 
-   ![](assets/nwe-project-details-expanded-350x298.png)
+   ![Dettagli progetto espansi](assets/nwe-project-details-expanded-350x298.png)
 
    >[!NOTE]
    >
@@ -116,15 +118,15 @@ Per informazioni sulla creazione di un progetto da un modello, vedere [Creare un
 
    Per modificare le informazioni nella sezione Dettagli, effettuare le seguenti operazioni:
 
-   1. (Facoltativo) Fai clic sull&#39;icona **Comprimi tutto** ![](assets/collapse-icon.png) nell&#39;angolo superiore destro per comprimere tutte le aree.
-   1. (Facoltativo e condizionale) Quando un&#39;area è compressa, fare clic sulla **freccia rivolta a destra** ![](assets/right-pointing-arrow.png) accanto a ogni area per espandere l&#39;area che si desidera modificare.
+   1. (Facoltativo) Fai clic sull&#39;icona **Comprimi tutto** ![Comprimi tutto](assets/collapse-icon.png) nell&#39;angolo superiore destro per comprimere tutte le aree.
+   1. (Facoltativo e condizionale) Quando un&#39;area è compressa, fare clic sulla **freccia rivolta a destra** ![freccia rivolta a destra](assets/right-pointing-arrow.png) accanto a ogni area per espandere l&#39;area che si desidera modificare.
    1. Per ulteriori informazioni sulla modifica delle informazioni nella scheda Project Details (Dettagli progetto), vedere gli articoli seguenti:
 
       * [Gestire le informazioni nell&#39;area Panoramica del progetto](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
       * [Gestire le informazioni nell&#39;area Finanza progetto](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 
    1. (Facoltativo) Per allegare un modulo personalizzato, inizia a digitare il nome di un modulo nel campo **Aggiungi modulo personalizzato**, quindi selezionalo quando viene visualizzato nell&#39;elenco, quindi fai clic su **Salva modifiche**.
-   1. (Facoltativo) Fai clic sull&#39;icona **Esporta** ![](assets/export.png) per esportare le informazioni sulla panoramica e sui moduli personalizzati in un file PDF, quindi fai clic su **Esporta**. Selezionare una delle opzioni seguenti:
+   1. (Facoltativo) Fai clic sull&#39;icona **Esporta** ![Icona Esporta](assets/export.png) per esportare le informazioni sulla panoramica e sui moduli personalizzati in un file PDF, quindi fai clic su **Esporta**. Selezionare una delle opzioni seguenti:
 
       * Seleziona tutto (viene visualizzato solo se è allegato almeno un modulo personalizzato)
       * Panoramica
@@ -132,16 +134,16 @@ Per informazioni sulla creazione di un progetto da un modello, vedere [Creare un
 
       Il file PDF viene scaricato nel computer.
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![Casella di selezione dei dettagli del problema di esportazione con pulsante di esportazione](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       Per ulteriori informazioni, vedere [Esportare moduli personalizzati e dettagli oggetto](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
    Per informazioni sui campi visibili nella sezione Dettagli progetto, continuare a modificare il progetto nella casella Modifica progetto come descritto di seguito.
-1. Per modificare tutte le informazioni sul progetto, fai clic sul menu **Altro** ![](assets/qs-more-menu.png) accanto al nome del progetto, quindi fai clic su **Modifica**.
+1. Per modificare tutte le informazioni sul progetto, fai clic sul menu **Altro** ![Altro menu](assets/qs-more-menu.png) accanto al nome del progetto, quindi fai clic su **Modifica**.
 
    Oppure
 
-   Da un elenco di progetti, seleziona uno o più progetti, quindi fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) nella parte superiore dell&#39;elenco.
+   Da un elenco di progetti, seleziona uno o più progetti, quindi fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png) nella parte superiore dell&#39;elenco.
 
    Per ulteriori informazioni sulla modifica di progetti in blocco, vedere la sezione [Modifica progetti in blocco](#edit-projects-in-bulk) in questo articolo.
 
@@ -167,6 +169,9 @@ Per informazioni sulla creazione di un progetto da un modello, vedere [Creare un
    * [Impostazioni attività](#task-settings)
    * [Impostazioni problema](#issue-settings)
    * [Accesso](#access)
+   * [Cartelle collegate](#linked-folders-conditional-availability) (disponibilità condizionale)
+     <!--* <span class="preview">[Comment](#comment)</span>-->
+
 
    >[!NOTE]
    >
@@ -177,7 +182,7 @@ Per informazioni sulla creazione di un progetto da un modello, vedere [Creare un
 1. Inizia a modificare il progetto come descritto in precedenza.
 1. Fai clic su **Nome progetto** nel pannello a sinistra.
 
-   ![](assets/nwe-project-name-in-edit-project-box-350x125.png)
+   ![Area del nome del progetto nella casella di modifica del progetto](assets/nwe-project-name-in-edit-project-box-350x125.png)
 
 1. Aggiorna il nome del progetto.
 
@@ -188,7 +193,7 @@ Per informazioni sulla creazione di un progetto da un modello, vedere [Creare un
 1. Inizia a modificare il progetto come descritto in precedenza.
 1. Fai clic su **Panoramica** nel pannello a sinistra.
 
-   ![](assets/nwe-overview-in-edit-project-box-350x172.png)
+   ![Area panoramica nella casella di modifica del progetto](assets/nwe-overview-in-edit-project-box-350x172.png)
 
 1. Aggiorna le seguenti informazioni sul progetto:
 
@@ -242,14 +247,14 @@ Per informazioni sulla creazione di un progetto da un modello, vedere [Creare un
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Portfolio</strong></td> 
-         <td>Indica un Portfolio a cui appartiene il progetto. È necessario creare un Portfolio prima che venga visualizzato nell'elenco a discesa. Solo i portfolio attivi possono essere associati a un progetto. Per ulteriori informazioni sulla creazione di portfolio, vedere <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Creare un portfolio </a>.
+         <td>Indica un Portfolio a cui appartiene il progetto. È necessario creare un Portfolio prima di visualizzarlo nell'elenco a discesa. Solo i portfolio attivi possono essere associati a un progetto. Per ulteriori informazioni sulla creazione di portfolio, vedere <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Creare un portfolio </a>.
          <p><b>NOTA</b></p>
          <p>Per poter aggiungere o rimuovere un portfolio al progetto, è necessario disporre delle autorizzazioni di gestione.</p>
       </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Programma</strong></td> 
-         <td> <p>Se hai selezionato un Portfolio per il progetto, specifica un Programma per il progetto. Alcuni Portfoli potrebbero non disporre di programmi. È innanzitutto necessario creare un programma prima che venga visualizzato in questo elenco a discesa. Solo i programmi attivi possono essere associati a un progetto. </p> <p>Per ulteriori informazioni sulla creazione di programmi, vedere <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Creare un programma</a>.</p> 
+         <td> <p>Se hai selezionato un Portfolio per il progetto, specifica un Programma per il progetto. Alcuni portafogli potrebbero non disporre di programmi. È innanzitutto necessario creare un programma prima che venga visualizzato in questo elenco a discesa. Solo i programmi attivi possono essere associati a un progetto. </p> <p>Per ulteriori informazioni sulla creazione di programmi, vedere <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Creare un programma</a>.</p> 
       <p><b>NOTA</b></p>
          <p>Per poter aggiungere o rimuovere il programma dal progetto, è necessario disporre delle autorizzazioni di gestione.</p>   
       </td> 
@@ -334,7 +339,7 @@ Per modificare le informazioni sui moduli personalizzati durante la modifica di 
 1. Inizia a modificare il progetto come descritto in precedenza.
 1. Fai clic su **Forms personalizzato** nel pannello a sinistra.
 
-   ![](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
+   ![Moduli personalizzati nella casella Modifica progetto](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
 
 1. Fare clic sulla casella **Aggiungi modulo personalizzato** e selezionare un modulo dall&#39;elenco per allegarlo al progetto. Per impostazione predefinita, i primi 40 moduli vengono visualizzati in ordine alfabetico. Se il modulo non viene visualizzato nell&#39;elenco, iniziare a digitarne il nome e selezionarlo quando viene visualizzato nell&#39;elenco.
 
@@ -369,7 +374,7 @@ Per modificare i campi nell&#39;area Finanza:
 1. Inizia a modificare il progetto come descritto in precedenza.
 1. Fai clic su **Finanza** nel pannello a sinistra.
 
-   ![](assets/nwe-finance-in-edit-project-box-350x183.png)
+   ![Area contabilità nella casella di modifica del progetto](assets/nwe-finance-in-edit-project-box-350x183.png)
 
 1. Aggiornare le seguenti informazioni finanziarie per il progetto:
 
@@ -399,7 +404,7 @@ Per modificare i campi nell&#39;area Finanza:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Vantaggio pianificato</strong> </td> 
-      <td> <p>Stimare il beneficio pianificato del progetto. Viene utilizzato nel caso aziendale del progetto e nell’Ottimizzatore Portfolio. Per ulteriori informazioni sul beneficio pianificato di un progetto, vedere <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Panoramica del beneficio pianificato del progetto</a>. Il beneficio pianificato di un progetto viene preso in considerazione quando viene calcolato il valore netto di un progetto. </p> <p>Per ulteriori informazioni, consulta <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Gestire i progetti in Portfolio Optimizer</a> .<br></p> </td> 
+      <td> <p>Stimare il beneficio pianificato del progetto. Viene utilizzato nel caso aziendale del progetto e in Portfolio Optimizer. Per ulteriori informazioni sul beneficio pianificato di un progetto, vedere <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Panoramica del beneficio pianificato del progetto</a>. Il beneficio pianificato di un progetto viene preso in considerazione quando viene calcolato il valore netto di un progetto. </p> <p>Per ulteriori informazioni, vedere <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Gestione dei progetti in Portfolio Optimizer</a> .<br></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Vantaggio effettivo</strong> </td> 
@@ -427,7 +432,7 @@ Per modificare i campi nell&#39;area Finanza:
 1. Inizia a modificare il progetto come descritto in precedenza.
 1. Fai clic su **Impostazioni progetto** nel pannello a sinistra.
 
-   ![](assets/nwe-project-settings-in-edit-project-box-350x380.png)
+   ![Area delle impostazioni del progetto nella casella di modifica del progetto](assets/nwe-project-settings-in-edit-project-box-350x380.png)
 
 1. Aggiorna le seguenti informazioni:
 
@@ -551,7 +556,7 @@ Per informazioni sull&#39;effetto di queste impostazioni sulla creazione di nuov
 1. Inizia a modificare il progetto come descritto in precedenza.
 1. Fai clic su **Impostazioni attività** nel pannello a sinistra.
 
-   ![](assets/nwe-task-settings-in-edit-project-box-350x211.png)
+   ![Impostazioni attività nella casella Modifica progetto](assets/nwe-task-settings-in-edit-project-box-350x211.png)
 
 1. Nella casella **Processo di approvazione predefinito attività** selezionare il processo di approvazione attività che si desidera associare a tutte le nuove attività quando si aggiungono al progetto.
 
@@ -565,7 +570,7 @@ Per informazioni sull&#39;effetto di queste impostazioni sulla creazione di nuov
 1. Nella casella **Forms personalizzato predefinito attività** selezionare il modulo o i moduli personalizzati che si desidera associare a tutte le nuove attività quando vengono aggiunti al progetto. Devi creare i moduli personalizzati prima che siano disponibili per la selezione in questo campo. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). È possibile associare fino a dieci moduli personalizzati a un&#39;attività.
 1. (Facoltativo) Seleziona **Usa Impegno di lavoro per calcolare automaticamente le ore pianificate dell&#39;attività** se desideri abilitare la gestione dell&#39;impegno dell&#39;attività utilizzando Impegno di lavoro invece delle Ore pianificate.
 
-   ![](assets/nwe-work-effort-on-projects-350x182.png)
+   ![Impegno di lavoro nella casella Modifica progetto](assets/nwe-work-effort-on-projects-350x182.png)
 
 1. (Condizionale e facoltativo) Se è stata selezionata l&#39;opzione Usa impegno di lavoro per calcolare automaticamente le ore pianificate per l&#39;attività, fare clic sul menu a discesa per ogni livello di impegno e selezionare una percentuale per ogni livello. I seguenti valori percentuali sono valori predefiniti:
 
@@ -590,7 +595,7 @@ Per informazioni sull&#39;effetto di queste impostazioni sulla creazione di nuov
 1. Inizia a modificare il progetto come descritto in precedenza.
 1. Fai clic su **Impostazioni problema** nel pannello a sinistra.
 
-   ![](assets/nwe-issue-settings-in-edit-project-box-350x306.png)
+   ![Impostazioni problema nella casella Modifica progetto](assets/nwe-issue-settings-in-edit-project-box-350x306.png)
 
 1. (Facoltativo) Deseleziona l&#39;opzione **Consenti agli utenti di aggiungere problemi in linea**. È selezionata per impostazione predefinita.
 
@@ -622,7 +627,7 @@ Per informazioni sull&#39;effetto di queste impostazioni sulla creazione di nuov
 1. Inizia a modificare il progetto come descritto in precedenza.
 1. Fai clic su **Accesso** nel pannello a sinistra.
 
-   ![](assets/nwe-access-in-edit-project-box-350x262.png)
+   ![Area di accesso nella casella di modifica del progetto](assets/nwe-access-in-edit-project-box-350x262.png)
 
 1. Specifica le seguenti informazioni di **Access** per il progetto:
 
@@ -632,23 +637,23 @@ Per informazioni sull&#39;effetto di queste impostazioni sulla creazione di nuov
     <tbody> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Quando a un utente viene assegnata un'attività</strong></td> 
-      <td><p>Seleziona da <strong>Visualizza</strong>, <strong>Contribute,</strong> o <strong>Gestisci</strong> l'accesso a un'attività. L’utente assegnato a un’attività ottiene automaticamente questo accesso all’attività.</p></td> 
+      <td><p>Seleziona da <strong>Visualizza</strong>, <strong>Contribuisci,</strong> o <strong>Gestisci</strong> l'accesso a un'attività. L’utente assegnato a un’attività ottiene automaticamente questo accesso all’attività.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Concedi anche l’accesso al progetto</strong></td> 
-      <td><p>Seleziona da <strong>Visualizza</strong>, <strong>Contribute</strong> o <strong>Gestisci</strong> l'accesso al progetto. Anche all’utente assegnato a un’attività viene automaticamente concesso questo accesso al progetto.<br></p></td> 
+      <td><p>Seleziona da <strong>Visualizza</strong>, <strong>Contribuisci</strong> o <strong>Gestisci</strong> l'accesso al progetto. Anche all’utente assegnato a un’attività viene automaticamente concesso questo accesso al progetto.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Quando a un utente viene assegnato un problema</strong></td> 
-      <td><p>Seleziona da <strong>Visualizza</strong>, <strong>Contribute,</strong> o <strong>Gestisci</strong> l'accesso a un problema. L’utente assegnato a un problema ottiene automaticamente questo accesso al problema. Per ulteriori informazioni, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Condividere un problema </a>.<br></p></td> 
+      <td><p>Seleziona da <strong>Visualizza</strong>, <strong>Contribuisci,</strong> o <strong>Gestisci</strong> l'accesso a un problema. L’utente assegnato a un problema ottiene automaticamente questo accesso al problema. Per ulteriori informazioni, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Condividere un problema </a>.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Concedi anche l’accesso al progetto</strong></td> 
-      <td><p>Seleziona da <strong>Visualizza</strong>, <strong>Contribute</strong> o <strong>Gestisci</strong> l'accesso al progetto. Anche l’utente assegnato a un problema dispone automaticamente di questo accesso al progetto.<br></p></td> 
+      <td><p>Seleziona da <strong>Visualizza</strong>, <strong>Contribuisci</strong> o <strong>Gestisci</strong> l'accesso al progetto. Anche l’utente assegnato a un problema dispone automaticamente di questo accesso al progetto.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Quando un utente invia una richiesta: concedi l’accesso</strong></td> 
-      <td><p>Seleziona da <strong>Visualizza</strong>, <strong>Contribute</strong> o <strong>Gestisci</strong> l'accesso alla richiesta. Quando il progetto è anche una coda di richieste e un utente invia una richiesta al progetto, gli viene concesso l’accesso alla richiesta inviata. Per informazioni sulla configurazione di un progetto come coda richieste, vedere <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Creare una coda richieste</a>.<br></p></td> 
+      <td><p>Seleziona da <strong>Visualizza</strong>, <strong>Contribuisci</strong> o <strong>Gestisci</strong> l'accesso alla richiesta. Quando il progetto è anche una coda di richieste e un utente invia una richiesta al progetto, gli viene concesso l’accesso alla richiesta inviata. Per informazioni sulla configurazione di un progetto come coda richieste, vedere <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Creare una coda richieste</a>.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Le persone della stessa società erediteranno le stesse autorizzazioni per tutte le richieste.</strong></td> 
@@ -663,7 +668,7 @@ Per informazioni sull&#39;effetto di queste impostazioni sulla creazione di nuov
 
 1. Fai clic su **Salva**.
 
-### Cartelle collegate
+### Cartelle collegate (disponibilità condizionale) {#linked-folders}
 
 La funzionalità Cartelle collegate crea automaticamente le cartelle in Adobe Experience Manager Assets e le connette a Workfront.
 
@@ -673,11 +678,28 @@ Questa sezione viene visualizzata solo se si applicano tutte le seguenti condizi
 * La tua organizzazione ha abilitato e configurato un’integrazione con Adobe Experience Manager
 * Il modello utilizzato per creare questo progetto ha abilitato e configurato le cartelle collegate.
 
-Per istruzioni sulla modifica delle cartelle collegate, vedere [Modificare i valori del flusso di lavoro in un progetto](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) nell&#39;articolo Utilizzare i flussi di lavoro nell&#39;integrazione Experience Manager Assets.
+Per istruzioni sulla modifica delle cartelle collegate, vedere [Modificare i valori del flusso di lavoro in un progetto](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) nell&#39;articolo [Utilizzare i flussi di lavoro nell&#39;integrazione di Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
 
 >[!NOTE]
 >
 >Poiché le cartelle collegate vengono create al momento della creazione del progetto, la modifica del flusso di lavoro delle cartelle collegate in un progetto esistente non è efficace. La modifica di questi valori durante la creazione di un progetto funziona come previsto.
+
+<!--
+<div class="preview">
+
+### Comment
+
+1. Begin editing your project as described above.
+1. Click **Comment** in the left panel.
+
+   ![project-comment-in-edit-project-box](assets/project-comment-in-edit-project-box.png)
+
+1. Add a comment in the space provided. Workfront adds the comment in the Updates area of the project. For more information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Click **Save**. 
+
+</div>
+
+-->
 
 ## Modificare un progetto nell’intestazione del progetto (limitato)
 
@@ -685,7 +707,7 @@ Puoi modificare una quantità limitata di informazioni nell’intestazione del p
 
 L’amministratore di sistema o di gruppo può personalizzare i campi visualizzati nell’intestazione del progetto.
 
-![](assets/project-header-350x18.png)
+![Intestazione progetto](assets/project-header-350x18.png)
 
 Per impostazione predefinita, i campi seguenti sono inclusi nell’intestazione del progetto.
 
@@ -719,21 +741,21 @@ Quando modifichi progetti in blocco, tieni presente quanto segue:
 
 * Quando si selezionano progetti che hanno valori diversi per lo stesso campo, nel campo viene visualizzato un indicatore &quot;Più valori&quot; nella casella Modifica progetti. I campi costituiti da caselle di controllo, pulsanti di scelta e interruttori dispongono accanto di un indicatore &quot;Più valori&quot;.
 
-  ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
+  ![Indicatore di più valori per le date nella casella di modifica in blocco dei progetti](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
 
 * Oltre all’indicatore &quot;Più valori&quot;, quando le opzioni scelte sono diverse in almeno uno dei progetti selezionati, i campi con più opzioni vengono visualizzati in uno dei seguenti modi:
 
    * I campi della casella di controllo hanno una riga invece di una casella di controllo per l’opzione selezionata per alcuni ma non per tutti i progetti selezionati.
 
-     ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+     ![Caselle di controllo Indicatore di più valori nella casella Modifica in blocco progetti](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
    * I campi di tipo Toggle vengono visualizzati in grigio, con l’opzione al centro attivata per alcuni ma non per tutti i progetti selezionati.
 
-  ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
+  ![Più valori evidenziati nei progetti di modifica in blocco](assets/multiple-values-highlighted-bulk-edit-projects.png)
 
    * Nei campi del tipo pulsante di opzione che presentano alcune opzioni selezionate ma non tutte, tutti i pulsanti di scelta vengono visualizzati come vuoti.
 
-     ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
+     ![Pulsanti di scelta di più valori per modificare in blocco la casella del progetto](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
 * Quando aggiorni un’opzione in un campo con più opzioni (ad esempio un campo che viene visualizzato come un insieme di interruttori o caselle di controllo), tutte le altre opzioni devono corrispondere tra i progetti selezionati.
 
@@ -748,10 +770,10 @@ Per modificare i progetti in blocco:
 {{step1-to-projects}}
 
 1. Seleziona diversi progetti nell’elenco.
-1. Fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) nella parte superiore dell&#39;elenco.
+1. Fai clic sull&#39;icona **Modifica** ![Modifica](assets/edit-icon.png) nella parte superiore dell&#39;elenco.
 Viene visualizzata la finestra di dialogo **Modifica progetti**.
 
-   ![](assets/edit-projects-in-bulk-modal-unshimmed.png)
+   ![Modifica progetti in modalità collettiva](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
 A seconda della modalità di modifica del modello di layout da parte dell&#39;amministratore di Workfront o del gruppo, le aree nel pannello sinistro della casella Modifica progetto o i campi elencati in tali aree potrebbero essere ridisposti o non essere visualizzati. Per informazioni, vedere [Personalizzare la visualizzazione Dettagli utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
@@ -765,7 +787,7 @@ A seconda della modalità di modifica del modello di layout da parte dell&#39;am
 
    I moduli personalizzati allegati a tutti i progetti selezionati vengono visualizzati nella sottosezione **Moduli personalizzati in comune** nell&#39;area **Forms** personalizzato.
 
-   ![](assets/custom-forms-in-common-unshimmed.png)
+   ![Moduli personalizzati in comune nei progetti di modifica in blocco](assets/custom-forms-in-common-unshimmed.png)
 
    >[!TIP]
    >
@@ -774,7 +796,7 @@ A seconda della modalità di modifica del modello di layout da parte dell&#39;am
 1. Inizia a digitare il nome di un modulo personalizzato nel campo **Aggiungi modulo personalizzato**.
 
 
-   ![](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
+   ![Indicatore Forms già associato nei progetti di modifica in blocco](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
 
    I moduli personalizzati già allegati ai progetti selezionati vengono visualizzati nella sottosezione **Moduli allegati** nel campo **Aggiungi modulo personalizzato**.
 
@@ -802,9 +824,10 @@ Per ulteriori informazioni sulla modifica dell&#39;area Impostazioni attività, 
 Per ulteriori informazioni sulla modifica dell&#39;area Impostazioni problemi, vedere la sezione [Impostazioni problemi](#issue-settings) in questo articolo.
 1. Fare clic su **Accesso** per modificare le impostazioni di accesso per tutti i progetti selezionati.
 Per ulteriori informazioni sulla modifica dell&#39;area di accesso, vedere la sezione [Accesso](#access) in questo articolo.
+   <!--1. <span class="preview">Click **Comment**, then add a comment in the space provided. Workfront adds the comment in the **Updates** area of each project. For information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>-->
 1. (Facoltativo) Per rimuovere le informazioni aggiunte nella casella Modifica progetti, passa il puntatore del mouse su un campo modificato, quindi fai clic sull&#39;icona Elimina **x** in alto a destra nel campo.
 
-   ![](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
+   ![Icona Elimina per progetti di modifica di campi in blocco](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
 
 1. (Facoltativo) Fai clic su **Annulla** nella parte inferiore della pagina **Modifica progetti** per rimuovere tutte le modifiche apportate a tutti i progetti.
 1. Fai clic su **Salva**.

@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 7ef4d6c852328ff30e8b8c21398100f2f73e0dea
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ La risposta a un commento nella sezione Aggiornamenti di un oggetto è simile pe
 1. (Facoltativo) Per includere nella risposta il testo di un aggiornamento precedente, fai clic sul menu **Altro** nell&#39;angolo superiore destro del commento a cui desideri rispondere, quindi fai clic su **Risposta preventivo**. Il testo dell&#39;aggiornamento precedente viene visualizzato nell&#39;area di input, contrassegnato da una linea grigia verticale.
 1. Fai clic su **Risposta**.
 
-   ![](assets/reply-to-update-empty-box.png)
+   ![Risposta per aggiornare la casella vuota](assets/reply-to-update-empty-box.png)
 
    Nella parte inferiore della casella **Aggiungi risposta...** è possibile visualizzare gli utenti coinvolti attivamente nella conversazione e aggiungerne altri o rimuovere quelli non più rilevanti. Questi utenti, insieme a tutti gli utenti abbonati all’oggetto, ricevono una notifica ogni volta che viene effettuato un aggiornamento o una risposta sull’oggetto. Puoi anche assegnare tag a più utenti per includerli nella risposta.  Per assegnare tag ad altri utenti, vedere [Assegnare tag ad altri utenti negli aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
@@ -115,7 +115,7 @@ La risposta a un commento nella sezione Aggiornamenti di un oggetto è simile pe
 
 1. Fai clic su **Invia** per salvare la risposta.
 
-1. (Facoltativo) Fai clic sul menu **Altro** ![](assets/more-menu.png) nell&#39;angolo superiore destro del commento a cui desideri rispondere per altre opzioni di gestione della risposta. Per ulteriori informazioni, vedere [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
+1. (Facoltativo) Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) nell&#39;angolo superiore destro del commento a cui desideri rispondere per altre opzioni di gestione della risposta. Per ulteriori informazioni, vedere [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
 
 <!--
 ### Reply to an update or reply in the legacy Updates section
