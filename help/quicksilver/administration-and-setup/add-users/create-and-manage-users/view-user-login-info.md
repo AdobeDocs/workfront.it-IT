@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '577'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Puoi vedere con quale frequenza gli utenti accedono ad Adobe Workfront, nonché 
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -69,7 +69,7 @@ L’accesso a Workfront può essere considerato come un accesso a Workfront in u
 
   >[!NOTE]
   >
-  >L’accesso a Workfront tramite l’API Workfront è disponibile solo per le organizzazioni che non sono ancora state caricate su Adobe Business Platform.
+  >L’accesso a Workfront tramite l’API Workfront è disponibile solo per le organizzazioni che non sono ancora state caricate nella piattaforma aziendale Adobe.
 
 ## Visualizzare le informazioni sull&#39;utilizzo in un elenco di utenti o in un report
 

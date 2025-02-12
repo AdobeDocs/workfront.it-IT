@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1330'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -133,13 +133,13 @@ Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, 
 
 L’autorizzazione Modifica limitata per le interruzioni di sezione del modulo personalizzato è disponibile solo per i tipi di oggetto Progetto, Attività, Problema e Utente.
 
-In un modulo personalizzato con un&#39;interruzione di sezione configurata con l&#39;autorizzazione Modifica limitata, se si aggiunge uno degli altri tipi di oggetto al modulo (Portfolio, Programma, Documento, Società, Fatturazione, Iterazione, Spesa o Gruppo), verrà richiesto di passare all&#39;autorizzazione Modifica, che è compatibile sia con il tipo di oggetto sia con i tipi di oggetto esistenti nel modulo.
+In un modulo personalizzato con un&#39;interruzione di sezione configurata con l&#39;autorizzazione Modifica limitata, se si aggiunge uno degli altri tipi di oggetto al modulo (Portfolio, Programma, Documento, Società, Fatturazione, Iterazione, Spesa o Gruppo), verrà richiesto di passare all&#39;autorizzazione Modifica, che è compatibile sia con il tipo di oggetto che con i tipi di oggetto esistenti nel modulo.
 
 >[!INFO]
 >
 >**Esempio:** In un modulo personalizzato associato al tipo di oggetto Progetto, viene configurata un&#39;interruzione di sezione con l&#39;autorizzazione Modifica limitata.
 >
->Aggiungendo al modulo il tipo di oggetto Portfolio, l&#39;opzione di autorizzazione Modifica limitata non sarà più disponibile per l&#39;interruzione di sezione nel modulo.
+>Aggiungere al modulo il tipo di oggetto Portfolio, il che significa che l&#39;opzione di autorizzazione Modifica limitata non è più disponibile per l&#39;interruzione di sezione nel modulo.
 >
 >In un messaggio sullo schermo viene richiesto di passare all&#39;autorizzazione Modifica, che è il livello di autorizzazioni minimo compatibile sia con il tipo di oggetto Progetto che con il tipo di oggetto Portfolio.
 

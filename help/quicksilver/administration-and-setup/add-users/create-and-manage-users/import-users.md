@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3dd99d01-a32f-4af8-90e3-f8c0e9027651
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Prima di creare un nuovo utente, verificare di aver creato tutti gli oggetti che
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 

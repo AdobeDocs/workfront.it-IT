@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dea77522-d89f-4baa-a701-aea124d2b3a5
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '256'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Puoi designare gli utenti come referenti diretti per un altro utente. In questo 
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 

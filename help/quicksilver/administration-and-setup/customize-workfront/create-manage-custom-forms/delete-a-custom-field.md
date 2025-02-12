@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Per migliorare le prestazioni del sistema e semplificare l&#39;utilizzo dei modu
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 

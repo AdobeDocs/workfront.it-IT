@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '6492'
+source-wordcount: '6493'
 ht-degree: 5%
 
 ---
@@ -23,7 +23,7 @@ Puoi progettare un modulo personalizzato con il progettista del modulo in Adobe 
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -513,7 +513,7 @@ Per aggiungere campi di tipo typeahead e date:
       <td role="rowheader">Tipo di oggetto di riferimento</td> 
       <td> <p>Selezionare il tipo di oggetto da associare al campo.</p> <p>Dopo aver fatto clic su Applica o su Salva+Chiudi, non è possibile modificare il tipo di oggetto per il campo.</p> <p><b>NOTA</b>:   
         <ul> 
-         <li>Se l'amministratore di Workfront ha personalizzato il nome di Portfoli, Programmi o Progetti nell'interfaccia utente di Workfront, in questo elenco a discesa viene visualizzato il nome Workfront predefinito per l'oggetto e non il nome personalizzato. Se hai bisogno di assistenza, rivolgiti all’amministratore di Workfront.<br></li> 
+         <li>Se l'amministratore di Workfront ha personalizzato il nome di Portfolio, Programmi o Progetti nell'interfaccia utente di Workfront, in questo elenco a discesa viene visualizzato il nome predefinito di Workfront per l'oggetto, non il nome personalizzato. Se hai bisogno di assistenza, rivolgiti all’amministratore di Workfront.<br></li> 
          <li>Nelle app mobili iOS e Android Workfront sono supportati i seguenti tipi di oggetti: Utente, Società, Gruppo, Mansione, Portfolio, Programma, Progetto e Modello.</li> 
         </ul> </p> </td> 
          <td><ul>
@@ -670,7 +670,7 @@ Per aggiungere una ricerca esterna:
 
 ### Aggiungere immagini, PDF e video
 
-È possibile aggiungere immagini, PDF e video a un modulo personalizzato. Gli utenti che utilizzano l&#39;oggetto a cui è associato il modulo personalizzato possono visualizzare l&#39;immagine, il PDF o il video solo nelle seguenti aree:
+È possibile aggiungere immagini, PDF e video a un modulo personalizzato. Gli utenti che utilizzano l&#39;oggetto a cui è allegato il modulo personalizzato possono visualizzare l&#39;immagine, il PDF o il video solo nelle seguenti aree:
 
 * L’area Dettagli dell’oggetto (ad esempio, per un progetto, l’area Dettagli progetto)
 * La casella Modifica dell’oggetto, se presenta il nuovo aspetto dell’esperienza Adobe Workfront (ad esempio le caselle Modifica progetto e Modifica attività)
@@ -853,7 +853,7 @@ In questa tabella sono elencati i campi nativi disponibili per oggetti Workfront
        <p>È necessario definire il filtro per il campo di riferimento selezionato utilizzando la sintassi in modalità testo. Per informazioni sulla creazione di un filtro in modalità testo, vedere <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Modificare un filtro in modalità testo</a>.</p>
        <p><b>NOTA</b>:
        <ul> 
-        <li>L’opzione filtro è disponibile solo quando si fa riferimento a un campo typeahead nativo, ad esempio Portfolio, Società o Proprietario.</li>
+        <li>L’opzione filtro è disponibile solo quando si fa riferimento a un campo typeahead nativo, ad esempio Portfolio, Company o Owner.</li>
         <li>Se si sta modificando un modulo personalizzato esistente, l'aggiunta di un filtro a un campo nativo non rimuove gli oggetti già aggiunti dagli utenti utilizzando il campo, al di fuori dell'ambito del filtro.</li> 
         <li>Questo filtro non è disponibile sui dispositivi mobili. Se utilizzi il filtro per un campo nativo, il campo verrà visualizzato sui dispositivi mobili degli utenti non interessati dal filtro.</li> 
         </ul></p></td> 
@@ -903,7 +903,7 @@ Per aggiungere un file Adobe XD:
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
-      <td> <p>(Obbligatorio) Digita o incolla un collegamento valido per il prototipo XD.</p> 
+      <td> <p>(Obbligatorio) Digita o incolla un collegamento valido per il prototipo di XD.</p> 
       <p>Nota: l’impostazione Accesso link nella scheda Condividi di Adobe XD deve essere impostata su Chiunque abbia il link. In caso contrario, gli utenti non potranno visualizzare il prototipo. 
    </td> 
      </tr> 
@@ -987,7 +987,7 @@ Per aggiungere un campo di connessione Planning:
       È possibile selezionare uno dei seguenti tipi di oggetto:
       <ul><li> Progetto</li>
       <li> Portfolio</li><li> Programma</li><li> Azienda</li><li> Gruppo</li></ul>
-       <p>Sono disponibili solo i tipi di oggetto di Workfront per i tipi di oggetto del modulo.</p> <p> Se, ad esempio, nell'elenco Tipi di oggetto nella parte superiore del progettista del modulo è visualizzato Progetto, in questo campo è possibile selezionare solo Progetto e non Portfoli, anche se i portfolio possono essere connessi anche ai tipi di record.</p>
+       <p>Sono disponibili solo i tipi di oggetto di Workfront per i tipi di oggetto del modulo.</p> <p> Se, ad esempio, nell'elenco Tipi di oggetto nella parte superiore del progettista del modulo è visualizzato Progetto, in questo campo è possibile selezionare solo Progetto e non Portfolio, anche se i portfolio possono essere collegati anche ai tipi di record.</p>
       </td>
      </tr>
      <tr> 

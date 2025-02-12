@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1131'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -120,7 +120,7 @@ Prima di aggiungere un utente, raccogliere le informazioni sull&#39;utente elenc
    >
    >* Se l&#39;amministratore di Workfront ha abilitato un&#39;integrazione SSO con Workfront, il campo Consenti solo autenticazione &lt;Configurazione SSO> è nascosto se si disabilita l&#39;invito e-mail. Il campo ID federazione o Nome utente &lt;Configurazione SSO> rimane visibile.
    >
-   * Se la tua organizzazione è stata integrata nell’Admin Console e aggiungi un utente tramite Workfront, non puoi inviare un invito e-mail.
+   * Se la tua organizzazione è stata integrata in Admin Console e aggiungi un utente tramite Workfront, non puoi inviare un invito e-mail.
    >
    Per gli utenti esistenti di Adobe, l’utente può ricevere o meno un’e-mail sulla disponibilità di Workfront. Questa è una preferenza controllata dall’amministratore di Adobe per il prodotto.
 
@@ -168,6 +168,6 @@ Se hai selezionato l’opzione per inviare un invito all’utente, questo dovreb
 
 >[!NOTE]
 >
-Se la tua organizzazione è stata integrata nell’Admin Console e aggiungi un utente tramite Workfront, non puoi inviare un invito e-mail.
+Se la tua organizzazione è stata integrata in Admin Console e aggiungi un utente tramite Workfront, non puoi inviare un invito e-mail.
 >
 Per gli utenti esistenti di Adobe, l’utente può ricevere o meno un’e-mail sulla disponibilità di Workfront. Questa è una preferenza controllata dall’amministratore di Adobe per il prodotto.
