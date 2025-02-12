@@ -6,9 +6,9 @@ description: In qualità di Responsabile risorse, puoi assegnare il lavoro agli 
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '2898'
+source-wordcount: '2909'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Autorizzazioni di Contribute o versioni successive che includono Assegnazione alle attività e ai problemi per i quali si desidera gestire le allocazioni. </p> <p>Oppure </p> <p>Gestisci le autorizzazioni per le attività per le quali desideri aggiornare le ore pianificate, oltre ad aggiornare le allocazioni. Per informazioni sull'aggiornamento delle ore pianificate nel Bilanciatore dei carichi di lavoro, consulta la sezione <a href="#update-task-planned-hours-when-managing-user-allocations">Aggiorna le ore pianificate per l'attività durante la gestione delle allocazioni utente</a> in questo articolo.</p> </td> 
+   <td> <p>Autorizzazioni di Contribute o versioni successive che includono l'opzione Assegna assegnazioni alle attività e ai problemi per i quali si desidera gestire le allocazioni. </p> <p>Oppure </p> <p>Gestisci le autorizzazioni per le attività per le quali desideri aggiornare le ore pianificate, oltre ad aggiornare le allocazioni. Per informazioni sull'aggiornamento delle ore pianificate nel Bilanciatore dei carichi di lavoro, consulta la sezione <a href="#update-task-planned-hours-when-managing-user-allocations">Aggiorna le ore pianificate per l'attività durante la gestione delle allocazioni utente</a> in questo articolo.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -191,11 +191,11 @@ Come parte dell’assegnazione del lavoro agli utenti, puoi modificare le alloca
    >
    >Puoi modificare le allocazioni utente solo per attività e problemi. Non è possibile modificare le allocazioni utente per i progetti.
 
-1. (Facoltativo) Fare clic sull&#39;icona **Mostra allocazioni** ![](assets/show-allocations-icon-small.png) per visualizzare le allocazioni per tutti gli elementi di lavoro.
+1. (Facoltativo) Fai clic sull&#39;icona **Mostra allocazioni** ![Mostra icona allocazioni](assets/show-allocations-icon-small.png) per visualizzare le allocazioni per tutti gli elementi di lavoro.
 
    Il nome delle attività e dei progetti viene sostituito con l&#39;assegnazione dell&#39;utente per l&#39;attività o il progetto.
 
-1. (Facoltativo) Fai clic sull&#39;icona **Impostazioni** ![](assets/gear-icon-settings.png) e seleziona una delle seguenti opzioni:
+1. (Facoltativo) Fai clic sull&#39;icona **Impostazioni** ![Icona Impostazioni](assets/gear-icon-settings.png) e seleziona una delle opzioni seguenti:
 
    1. **Includi ore da problemi**. Questo consente di gestire le allocazioni dei problemi oltre alle allocazioni delle attività.
    1. **Mostra lavoro completato**. In questo modo vengono visualizzati gli elementi completati e pianificati durante la sequenza temporale per la quale si gestiscono le allocazioni.
@@ -212,7 +212,7 @@ Come parte dell’assegnazione del lavoro agli utenti, puoi modificare le alloca
       >
       >L&#39;amministratore di Workfront decide la pianificazione da utilizzare nel sistema per calcolare la capacità dell&#39;utente nell&#39;area Gestione risorse di Configura. Per ulteriori informazioni, vedere [Configurare le preferenze di Gestione risorse](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-1. Fai clic sul menu **Altro** ![](assets/qs-more-menu.png) per un elemento di lavoro, quindi fai clic su **Modifica allocazioni**.
+1. Fai clic sul menu **Altro** ![Altro menu](assets/qs-more-menu.png) per un elemento di lavoro, quindi fai clic su **Modifica allocazioni**.
 
    ![Altro menu per elemento di lavoro](assets/more-menu-on-task-wb-nwe.png)
 
@@ -222,11 +222,11 @@ Come parte dell’assegnazione del lavoro agli utenti, puoi modificare le alloca
 
    Le caselle di allocazione diventano modificabili.
 
-1. Fai clic nella casella di ogni allocazione giornaliera, settimanale o mensile per aggiornare manualmente la quantità di ore o il valore percentuale per cui desideri allocare l&#39;utente ogni giorno, settimana o mese, quindi fai clic sull&#39;icona **Salva** ![](assets/checkmark-icon.png).
+1. Fai clic nella casella di ogni allocazione giornaliera, settimanale o mensile per aggiornare manualmente la quantità di ore o il valore percentuale per cui desideri allocare l&#39;utente ogni giorno, settimana o mese, quindi fai clic sull&#39;icona **Salva** ![Icona Salva](assets/checkmark-icon.png).
 
    >[!TIP]
    >
-   >Fai clic sull&#39;icona **Annulla** ![](assets/cancel-allocations-wb.png) per rimuovere le allocazioni regolate.
+   >Fai clic sull&#39;icona **Annulla** ![Annulla](assets/cancel-allocations-wb.png) per rimuovere le allocazioni modificate.
 
    ![Salvare o annullare le allocazioni corrette](assets/wb-contouring-with-check-and-x-boxes-350x63.png)
 

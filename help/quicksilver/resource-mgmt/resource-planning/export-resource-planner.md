@@ -6,9 +6,9 @@ description: È possibile esportare le informazioni da qualsiasi visualizzazione
 author: Lisa
 feature: Resource Management
 exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '628'
 ht-degree: 4%
 
 ---
@@ -74,7 +74,7 @@ Il **Planner** viene visualizzato per impostazione predefinita.
 
    Viene visualizzata la finestra di dialogo Opzioni di esportazione.
 
-   ![](assets/rp-export-options-box-350x421.png)
+   ![Opzioni di esportazione](assets/rp-export-options-box-350x421.png)
 
 1. Specifica le seguenti informazioni:\
    **Data inizio**: la data di inizio dell&#39;esportazione. Il file esportato contiene informazioni sull&#39;allocazione e sulla disponibilità a partire dal primo giorno della settimana che contiene il giorno specificato.\

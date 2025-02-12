@@ -6,9 +6,9 @@ description: I pool di risorse sono insiemi di utenti che consentono di gestire 
 author: Lisa
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '630'
 ht-degree: 1%
 
 ---
@@ -80,14 +80,14 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 È possibile associare i pool di risorse a un modello nello stesso modo in cui si associano i pool di risorse a un progetto. Questo articolo descrive come associare i pool di risorse ai progetti.
 
-1. Vai a un progetto e fai clic sull&#39;icona **Altro** ![](assets/more-icon.png)accanto al nome del progetto, quindi fai clic su **Modifica**.
+1. Vai a un progetto e fai clic sull&#39;icona **Altro** ![Altro](assets/more-icon.png)accanto al nome del progetto, quindi fai clic su **Modifica**.
 
 1. Fare clic su **Impostazioni progetto**.
 
 1. Inizia a digitare il nome di un pool di risorse nel campo **Pool di risorse**, quindi selezionalo dall&#39;elenco quando viene visualizzato.\
    È possibile associare più pool di risorse a un progetto o modello.
 
-   ![](assets/nwe-project-settings-in-edit-project-box-350x380.png)
+   ![Impostazioni progetto](assets/nwe-project-settings-in-edit-project-box-350x380.png)
 
 1. Fai clic su **Salva**.
 
@@ -104,7 +104,7 @@ Per ulteriori informazioni su come modificare un modello e associarlo ai pool di
 Per associare i pool di risorse a più progetti in blocco:
 
 1. Consente di passare a un elenco di progetti.
-1. Seleziona più progetti, quindi fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) nella parte superiore dell&#39;elenco.
+1. Seleziona più progetti, quindi fai clic sull&#39;icona **Modifica** ![Modifica](assets/edit-icon.png) nella parte superiore dell&#39;elenco.
 
 1. Fare clic su **Impostazioni**.
 1. Inizia a digitare il nome di un pool di risorse nel campo **Pool di risorse**, quindi selezionalo dall&#39;elenco quando viene visualizzato.\

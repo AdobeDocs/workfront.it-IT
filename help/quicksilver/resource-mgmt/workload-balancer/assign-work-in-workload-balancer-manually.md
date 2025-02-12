@@ -7,9 +7,9 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '733'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td>Autorizzazioni Contribute o superiori per progetti, attività e problemi che includono l'opzione Crea assegnazioni</td> 
+   <td>Autorizzazioni di Contribute o superiori per i progetti, le attività e i problemi che includono Assegnazioni</td> 
   </tr> 
  </tbody> 
 </table>
@@ -77,9 +77,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Passare all&#39;area **Lavoro assegnato** ed espandere il nome di un utente per visualizzare gli elementi di lavoro assegnati, se si desidera riassegnare i relativi elementi.
 
-1. Fai clic sul **Altro menu** ![](assets/qs-more-menu.png) a sinistra del nome di un elemento di lavoro, quindi fai clic su **Assegna a**.
+1. Fai clic sul **Altro menu** ![Altro menu](assets/qs-more-menu.png) a sinistra del nome di un elemento di lavoro, quindi fai clic su **Assegna a**.
 
-   ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
+   ![Assegna a](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
    >[!TIP]
    >
@@ -101,7 +101,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    > Per consentire agli utenti di visualizzare le e-mail degli utenti, nel proprio livello di accesso deve essere abilitata l’impostazione Visualizza informazioni di contatto. Per informazioni, vedere [Concedere l&#39;accesso agli utenti](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
-   ![](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
+   ![Assegnazioni avanzate](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
 
    >[!TIP]
    >
@@ -130,7 +130,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
      Per ulteriori informazioni sull&#39;esecuzione di assegnazioni avanzate, vedere [Creare assegnazioni avanzate](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
-1. (Facoltativo) Fai clic sull&#39;icona **Mostra allocazioni** ![](assets/show-allocations-icon-small.png), quindi sul menu **Altro** ![](assets/qs-more-menu.png) > **Modifica allocazioni**.
+1. (Facoltativo) Fai clic sull&#39;icona **Mostra allocazioni** ![Mostra allocazioni](assets/show-allocations-icon-small.png), quindi fai clic sul **Altro menu** ![Altro menu](assets/qs-more-menu.png) > **Modifica allocazioni**.
 
    Oppure
 

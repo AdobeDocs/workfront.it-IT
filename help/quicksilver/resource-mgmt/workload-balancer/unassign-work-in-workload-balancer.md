@@ -6,9 +6,9 @@ description: È possibile annullare l’assegnazione degli utenti agli elementi 
 author: Lisa
 feature: Resource Management
 exl-id: e4293d4a-afb8-48ef-8a8e-6fad2ef82a25
-source-git-commit: 196d0aa4ed67cf564c823625515ef49d811e0e06
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '405'
 ht-degree: 2%
 
 ---
@@ -56,7 +56,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td>Autorizzazioni Contribute o superiori per progetti, attività e problemi che includono l'opzione Crea assegnazioni</td> 
+   <td>Autorizzazioni di Contribute o superiori per i progetti, le attività e i problemi che includono Assegnazioni</td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,9 +75,9 @@ Per annullare l&#39;assegnazione degli elementi di lavoro agli utenti:
 1. Esegui una delle operazioni seguenti:
 
    * Individuare l&#39;elemento di cui si desidera annullare l&#39;assegnazione nell&#39;area di un utente, fare clic su di esso e trascinarlo nell&#39;area Non assegnato o nell&#39;area di un altro utente.
-   * Fai clic sull&#39;icona **Altro** ![](assets/more-icon-task-list.png) a destra del nome di un elemento di lavoro, fai clic su **Assegna a**, quindi rimuovi il nome delle entità assegnate all&#39;elemento di lavoro o immetti un altro nome e fai clic su **Salva**.
+   * Fai clic sull&#39;icona **Altro** ![Icona Altro](assets/more-icon-task-list.png) a destra del nome di un elemento di lavoro, fai clic su **Assegna a**, quindi rimuovi il nome delle entità assegnate all&#39;elemento di lavoro o immetti un altro nome e fai clic su **Salva**.
 
-     ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
+     ![Assegna a](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
    L’elemento viene visualizzato nell’area Lavoro non assegnato se corrisponde ai criteri di filtro per tale area e non è assegnato ad altri utenti, oppure nell’area utente se è assegnato a un altro utente.
 

@@ -7,9 +7,9 @@ description: È possibile stimare e preventivare l'allocazione delle risorse ai 
 author: Lisa
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '2082'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Per utilizzare correttamente la Pianificazione risorse per la definizione del bu
 >Se manca uno dei seguenti prerequisiti, alcune informazioni sull’allocazione o sulla disponibilità delle risorse potrebbero essere mancanti o avere un valore zero.\
 >Per ulteriori informazioni sul motivo per cui i campi non contengono dati o non contengono valori, passa il puntatore del mouse sui campi.
 
-![](assets/no-users-with-this-role-in-the-res-pool-350x57.png)
+![Nessun utente con questa mansione](assets/no-users-with-this-role-in-the-res-pool-350x57.png)
 
 >[!NOTE]
 >
@@ -187,7 +187,7 @@ Prima di iniziare a definire il budget delle risorse nella Programmazione risors
 
 È necessario comprendere in che modo l&#39;istanza di Workfront calcola la disponibilità dell&#39;utente in base alle preferenze di gestione delle risorse del sistema. Workfront può calcolare la disponibilità dell&#39;utente utilizzando la pianificazione definita nella pagina Profilo utente o la pianificazione predefinita del sistema.
 
-![](assets/resource-management-preferences-section-in-setup-350x89.png)
+![Preferenze di gestione](assets/resource-management-preferences-section-in-setup-350x89.png)
 
 L&#39;amministratore di Workfront configura le preferenze di gestione delle risorse.
 

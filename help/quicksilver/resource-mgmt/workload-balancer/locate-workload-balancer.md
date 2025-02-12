@@ -7,10 +7,10 @@ description: È possibile utilizzare il Bilanciatore dei carichi di lavoro per p
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 3d7708e674af716657cc287c9f54a8cf56278da3
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 0%
+source-wordcount: '714'
+ht-degree: 1%
 
 ---
 
@@ -87,7 +87,7 @@ Le sezioni seguenti illustrano dove è possibile accedere al Bilanciatore dei ca
 
 1. Fai clic su **Bilanciatore dei carichi di lavoro** nel pannello a sinistra.
 
-   ![](assets/nwe-balancer-global.png)
+   ![Bilanciamento del carico di lavoro](assets/nwe-balancer-global.png)
 
    Per impostazione predefinita, il Bilanciatore dei carichi di lavoro visualizza quanto segue per informazioni nell’area Risorse:
 
@@ -104,7 +104,7 @@ Viene visualizzata la pagina del team predefinito.
 
 1. Fai clic su **Bilanciatore dei carichi di lavoro** nel pannello a sinistra.
 
-   ![](assets/nwe-balancer-team-350x172.png)
+   ![Bilanciatore dei carichi di lavoro per il team](assets/nwe-balancer-team-350x172.png)
 
    Il Bilanciatore dei carichi di lavoro di un team visualizza le seguenti informazioni, per impostazione predefinita:
 
@@ -124,7 +124,7 @@ Viene visualizzata la pagina del team predefinito.
 
    Viene visualizzato il Bilanciatore dei carichi di lavoro per il progetto.
 
-   ![](assets/nwe-balancer-project-350x152.png)
+   ![Bilanciatore dei carichi di lavoro per il progetto](assets/nwe-balancer-project-350x152.png)
 
    Per impostazione predefinita, nel Bilanciatore dei carichi di lavoro di un progetto vengono visualizzate le seguenti informazioni:
 

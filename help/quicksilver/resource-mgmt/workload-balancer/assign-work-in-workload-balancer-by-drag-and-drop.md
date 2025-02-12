@@ -6,9 +6,9 @@ description: È possibile assegnare gli elementi di lavoro utilizzando il Bilanc
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td>Autorizzazioni Contribute o superiori per progetti, attività e problemi che includono l'opzione Crea assegnazioni</td> 
+   <td>Autorizzazioni di Contribute o superiori per i progetti, le attività e i problemi che includono Assegnazioni</td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,13 +76,13 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Passare all&#39;area **Lavoro assegnato** ed espandere il nome di un utente per visualizzare gli elementi di lavoro assegnati, se si desidera riassegnare i relativi elementi.
 
-1. (Condizionale) Nel Bilanciatore dei carichi di lavoro di un progetto, fai clic sull&#39;icona **Mostra tutti gli utenti** ![](assets/show-all-users-icon-project-workload-balancer.png) per visualizzare tutti gli utenti di Workfront.
+1. (Condizionale) Nel Bilanciatore dei carichi di lavoro di un progetto, fai clic sull&#39;icona **Mostra tutti gli utenti** ![Mostra tutti gli utenti](assets/show-all-users-icon-project-workload-balancer.png) per visualizzare tutti gli utenti di Workfront.
 
    In questo modo vengono visualizzati tutti gli utenti a cui hai accesso.
 
    Gli utenti che fanno anche parte del team del progetto e sono già assegnati agli elementi del progetto hanno l’icona del progetto a destra del loro nome nell’area Lavoro assegnato.
 
-   ![](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)
+   ![Utente nel progetto](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)
 
 
    >[!TIP]
@@ -100,7 +100,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    >
    >Le ore pianificate per l’utente che stai passando il cursore vengono aggiornate in tempo reale con il numero di ore pianificate giornaliere dall’elemento di lavoro, per indicare quale potrebbe essere l’impatto dell’aggiunta di un nuovo elemento sulla loro allocazione complessiva.
 
-   ![](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
+   ![Elimina elemento a assegnato](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
 
 1. Quando si è pronti, rilasciare l&#39;elemento di lavoro selezionato nella stessa riga del nome dell&#39;utente nell&#39;area assegnata. L&#39;articolo viene assegnato e le ore pianificate allocate vengono aggiornate per l&#39;utente con le nuove ore dell&#39;elemento di lavoro.
 
@@ -118,7 +118,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 
 1. (Facoltativo) Fai clic sulla barra di un elemento di lavoro sotto il nome di un utente nell’area Lavoro assegnato, trascinala e rilasciala sull’area Lavoro non assegnato per annullarne l’assegnazione. L’elemento non è stato assegnato dall’utente, ma potrebbe ancora essere assegnato a una mansione nel qual caso viene visualizzato nell’area Lavoro non assegnato. Se l’elemento è assegnato a un altro utente, rimane nell’area Lavoro assegnato sotto il nome dell’utente ancora assegnato.
-1. (Facoltativo) Fai clic sull&#39;icona **Mostra allocazioni** ![](assets/show-allocations-icon-small.png), quindi sul menu **Altro** ![](assets/qs-more-menu.png) > **Modifica allocazioni**.
+1. (Facoltativo) Fai clic sull&#39;icona **Mostra allocazioni** ![Mostra allocazioni](assets/show-allocations-icon-small.png), quindi fai clic sul **Altro menu** ![Altro menu](assets/qs-more-menu.png) > **Modifica allocazioni**.
 
    <!--
    (make sure these are still called this, and that the icon has not changed)

@@ -6,9 +6,9 @@ description: Nella Programmazione risorse è possibile visualizzare la disponibi
 author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1243'
 ht-degree: 4%
 
 ---
@@ -148,7 +148,7 @@ Quando si modifica la visualizzazione in Pianificazione risorse, tenere presente
 
 1. (Condizionale) Se hai selezionato **Personalizza**, indica le opzioni nella casella **Personalizza metriche visualizzate** per configurare la visualizzazione personalizzata.
 
-   ![](assets/planner-customize-view-box-350x114.png)
+   ![Personalizza riquadro di visualizzazione](assets/planner-customize-view-box-350x114.png)
 
 1. Nella colonna **Tipo di visualizzazione** a sinistra, selezionare una delle visualizzazioni seguenti:
 
@@ -189,7 +189,7 @@ Quando si modifica la visualizzazione in Pianificazione risorse, tenere presente
    >
    >È possibile disporre di una sola visualizzazione personalizzata.
 
-   ![](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
+   ![Elenco a discesa delle ore di pianificazione](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
 
 ## Visualizzare il grafico Allocazione utenti
 

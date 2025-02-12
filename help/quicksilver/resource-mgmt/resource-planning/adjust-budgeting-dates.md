@@ -6,9 +6,9 @@ description: Se si riscontrano sovrassegnazioni di risorse dopo averle preventiv
 author: Lisa
 feature: Resource Management
 exl-id: bc49d45a-73a5-4b02-9054-9c9dbb54224d
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '515'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    Viene visualizzata la timeline di allocazione del progetto.\
    L&#39;intervallo di tempo in cui le ore sono attualmente preventivate è evidenziato in arancione se si verifica un conflitto di budget e in blu se non si verificano conflitti.
 
-   ![](assets/rp-adjust-budgeting-dates-with-no-done-button-350x63.png)
+   ![Modifica date budget](assets/rp-adjust-budgeting-dates-with-no-done-button-350x63.png)
 
 1. Trascina e rilascia l’intervallo di tempo evidenziato in un altro momento per capire dove non sono presenti conflitti di budget per il progetto selezionato. Quando si trova un intervallo di tempo in cui il valore Netto è positivo, l&#39;intervallo di tempo evidenziato diventa blu.
 1. Fai clic sulla &quot;x&quot; nell’angolo superiore destro della timeline di allocazione del progetto per chiuderla.

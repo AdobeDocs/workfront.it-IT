@@ -7,9 +7,9 @@ description: La pianificazione delle risorse di Adobe Workfront consente di comp
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2652'
 ht-degree: 1%
 
 ---
@@ -24,13 +24,13 @@ La pianificazione delle risorse di Adobe Workfront consente di comprendere facil
 
 Devi soddisfare i prerequisiti necessari per utilizzare completamente la Programmazione delle risorse. Per ulteriori informazioni sulla Programmazione delle risorse, vedere [Panoramica sulla programmazione delle risorse](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-![](assets/rp-project-view-all-functionality-350x117.png)
+![Pianificazione risorse](assets/rp-project-view-all-functionality-350x117.png)
 
 Le sezioni seguenti descrivono tutte le aree della Programmazione delle risorse.
 
 ## Timeline dei progetti
 
-![](assets/timeline-calendar-resource-planner-nwe-350x25.png)
+![Calendario sequenza temporale](assets/timeline-calendar-resource-planner-nwe-350x25.png)
 
 
 
@@ -77,7 +77,7 @@ Per spostarsi nella timeline:
 
 ## Selezione della vista Progetto/Ruolo/Utente
 
-![](assets/nwe-project-role-user-view-selection-resource-planner.png)
+![Visualizza per progetto, ruolo o utente](assets/nwe-project-role-user-view-selection-resource-planner.png)
 
 È possibile modificare la visualizzazione nella Programmazione delle risorse in base alla modalità di visualizzazione delle informazioni.
 
@@ -194,7 +194,7 @@ Quando selezioni la Vista utente nella Programmazione risorse, tieni presente qu
    * Se si dispone delle autorizzazioni per visualizzare i progetti, ma non le attività o i problemi relativi, verrà visualizzato il nome del progetto e le attività e i problemi saranno elencati nella sezione **Elementi inaccessibili**.\
      Per ulteriori informazioni sulle autorizzazioni in Workfront, vedere [Panoramica sulle autorizzazioni di condivisione per gli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-     ![](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
+     ![Elementi non accessibili](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
 
    
 
@@ -210,7 +210,7 @@ Quando selezioni la Vista utente nella Programmazione risorse, tieni presente qu
 
 ## Nome progetto
 
-![](assets/project-name-highlighted-resource-planner-350x445.png)
+![Nome progetto](assets/project-name-highlighted-resource-planner-350x445.png)
 
 Puoi visualizzare i seguenti progetti nella Programmazione delle risorse:
 
@@ -232,13 +232,13 @@ Puoi visualizzare i seguenti progetti nella Programmazione delle risorse:
 
 I progetti sono elencati in ordine di priorità nella Programmazione delle risorse, con il progetto più importante in alto. La priorità è indicata da un numero davanti al nome del progetto.
 
-![](assets/rp-planner-priority-highlighted-350x186.png)
+![Priorità pianificazione progetto](assets/rp-planner-priority-highlighted-350x186.png)
 
 Puoi anche abilitare un’impostazione per visualizzare le priorità dei progetti in base ai loro portfolio, quando sono associati a un portfolio. Per informazioni sull&#39;assegnazione delle priorità ai progetti e sulla visualizzazione delle priorità del portfolio nella Programmazione delle risorse, vedere [Assegnazione delle priorità ai progetti nella Programmazione delle risorse](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
 ## Nome Ruolo
 
-![](assets/role-highlighted-resource-planner-350x243.png)
+![Nome mansione](assets/role-highlighted-resource-planner-350x243.png)
 
 Nella pianificazione risorse sono elencate le seguenti categorie di mansioni:
 
@@ -254,7 +254,7 @@ Nella pianificazione risorse sono elencate le seguenti categorie di mansioni:
 
 ## Nome utente
 
-![](assets/user-highlighted-resource-planner-350x272.png)
+![Nome utente](assets/user-highlighted-resource-planner-350x272.png)
 
 Gli utenti elencati nelle visualizzazioni Progetto e Ruolo nella Programmazione delle risorse appartengono ai gruppi di risorse associati ai progetti.\
 Per ulteriori informazioni sul popolamento dei pool di risorse con gli utenti, vedere [Associare i pool di risorse agli utenti](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
@@ -310,11 +310,11 @@ Per abilitare le impostazioni nella Programmazione delle risorse:
 1. Apri la Programmazione delle risorse.
 1. Fai clic sull&#39;icona **Impostazioni**.
 
-   ![](assets/rp-settings-icon-edit-1.png)
+   ![Icona delle impostazioni di Programmazione delle risorse](assets/rp-settings-icon-edit-1.png)
 
    Viene visualizzata la casella Impostazioni di programmazione delle risorse.
 
-   ![](assets/rp-settings-without-actual-hours-350x211.png)
+   ![Impostazioni di programmazione delle risorse](assets/rp-settings-without-actual-hours-350x211.png)
 
 1. Abilita l&#39;impostazione **Includi ore da problemi** per visualizzare le ore pianificate da problemi nella Programmazione delle risorse. Questa impostazione è disabilitata per impostazione predefinita.
 
@@ -327,7 +327,7 @@ Per abilitare le impostazioni nella Programmazione delle risorse:
      >
      >**Quando le date di inizio e di completamento pianificate del problema sono al di fuori della sequenza temporale del progetto, le ore pianificate per il problema vengono visualizzate in base alle date del problema. Ad esempio, se la sequenza temporale del progetto è compresa tra gennaio e marzo, ma la sequenza temporale dei problemi è in agosto, le ore pianificate per i problemi vengono visualizzate nel periodo di agosto.**
 
-1. (Condizionale e facoltativo) Se hai selezionato la vista Progetto, abilita l’impostazione Visualizza priorità di Portfolio per visualizzare le priorità del progetto in base al Portfolio a cui sono assegnate. La priorità dei progetti in base al loro portfolio viene visualizzata accanto alla priorità Pianificazione risorse. Questa impostazione è disabilitata per impostazione predefinita.
+1. (Condizionale e facoltativo) Se hai selezionato la vista Progetto, abilita l’impostazione Visualizza priorità Portfolio per visualizzare le priorità del progetto in base al Portfolio a cui sono assegnate. La priorità dei progetti in base al loro portfolio viene visualizzata accanto alla priorità Pianificazione risorse. Questa impostazione è disabilitata per impostazione predefinita.
 
    Per informazioni sull&#39;assegnazione delle priorità ai progetti nella Programmazione delle risorse, vedere [Assegnare priorità ai progetti nella Programmazione delle risorse](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
@@ -348,7 +348,7 @@ Per visualizzare la Programmazione delle risorse a schermo intero:
 
 ## Opzione di esportazione
 
-![](assets/export-button-highlighted-resource-planner-350x92.png)
+![Pulsante Esporta](assets/export-button-highlighted-resource-planner-350x92.png)
 
 È possibile esportare le informazioni in un file di Excel (.xlsx) da qualsiasi visualizzazione della Programmazione delle risorse.\
 Per informazioni sull&#39;esportazione di informazioni dalla Programmazione delle risorse, vedere [Esportare informazioni dalla Programmazione delle risorse](../../resource-mgmt/resource-planning/export-resource-planner.md).

@@ -6,9 +6,9 @@ description: I progetti sono elencati in ordine di priorità nella Programmazion
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1308'
 ht-degree: 1%
 
 ---
@@ -94,7 +94,7 @@ Per modificare la Priorità di pianificazione del progetto:
 1. Vai alla **Programmazione risorse**.
 
 1. Fare clic all&#39;interno del campo a sinistra del nome del progetto che contiene un numero e immettere un numero per modificare la priorità di pianificazione, quindi premere Invio.\
-   ![](assets/mceclip4.png)\
+   ![Modifica priorità pianificazione](assets/mceclip4.png)\
    Oppure\
    Passa il puntatore del mouse sul nome del progetto, fai clic sull’indicatore a sinistra del nome del progetto, trascinalo e rilascialo nel punto corretto per modificare la priorità.
 
@@ -106,15 +106,15 @@ Per modificare la Priorità di pianificazione del progetto:
 1. Fai clic su **Salva**.\
    L’ordine dei progetti cambia in base alle selezioni effettuate e questa diventa la priorità del progetto personalizzato nella Programmazione delle risorse. Gli altri utenti non possono visualizzare l&#39;ordine di priorità per i progetti nella Programmazione delle risorse, anche se potrebbero essere in grado di visualizzare gli stessi progetti nella Programmazione delle risorse.
 
-## Ordinare i progetti in base alla loro priorità di Portfolio nella Programmazione delle risorse
+## Ordinare i progetti in base alla loro priorità Portfolio nella Programmazione delle risorse
 
 >[!IMPORTANT]
 >
->L&#39;azienda deve disporre di un piano Business o Workfront di livello superiore per assegnare la priorità ai progetti in Ottimizzatore Portfolio.
+>L&#39;azienda deve disporre di un piano Business o Workfront di livello superiore per assegnare la priorità ai progetti in Portfolio Optimizer.
 >
 >Per ulteriori informazioni sui piani di Workfront, vedere [I nostri piani](https://www.workfront.com/plans).
 >
->Per informazioni sull&#39;assegnazione delle priorità ai progetti in Ottimizzatore Portfolio, vedere [Assegnare priorità ai progetti in Ottimizzatore Portfolio](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
+>Per informazioni sull&#39;assegnazione delle priorità ai progetti in Portfolio Optimizer, vedere [Assegnare priorità ai progetti in Portfolio Optimizer](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
 1. Apri **Programmazione risorse** nella **Visualizzazione progetto**.
 1. Fai clic sull&#39;icona **Impostazioni**.
@@ -124,7 +124,7 @@ Per modificare la Priorità di pianificazione del progetto:
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: check screen shot to see if this is accurate still - should say Order, and not Sort:)</p>
    -->
 
-   ![](assets/rp-portfolio-priority-unordered-edit-350x180.png)
+   ![Priorità Portfolio](assets/rp-portfolio-priority-unordered-edit-350x180.png)
 
    Le priorità del portfolio dei progetti vengono visualizzate solo nella visualizzazione Progetto della Programmazione delle risorse.
 
@@ -136,7 +136,7 @@ Per modificare la Priorità di pianificazione del progetto:
    1. Data di inizio pianificata
    1. Nome progetto
 
-   ![](assets/rp-portfolio-priority-ordered-350x198.png)
+   ![Priorità Portfolio ordinata](assets/rp-portfolio-priority-ordered-350x198.png)
 
 1. Fai clic su **Salva**.
 

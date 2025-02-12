@@ -6,9 +6,9 @@ description: Utilizzando i filtri, puoi modificare le informazioni visualizzate 
 author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2371'
+source-wordcount: '2390'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ Per impostazione predefinita, al primo accesso alla pianificazione risorse viene
    ![icona_filtro.png](assets/filter-icon.png)
 Oppure
 Espandi il menu a discesa **Filtro** e fai clic su **Aggiungi nuovo filtro**.
-   ![](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
+   ![Elenco a discesa dei filtri](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. Per creare un filtro utilizzando i criteri incorporati, specifica uno dei campi seguenti:
 
@@ -214,7 +214,7 @@ Quando modifichi un filtro, questo viene aggiornato per tutti gli utenti del sis
 1. Espandere il menu a discesa **Filtro**. Individua il filtro che desideri rinominare e passa il cursore sul nome.
 1. Selezionare l&#39;icona **Rinomina filtro** accanto al nome del filtro.
 
-   ![](assets/rp-filter-options-edit-350x154.png)
+   ![Modifica opzioni filtro](assets/rp-filter-options-edit-350x154.png)
 
 1. Specificare un nuovo nome per il filtro nella casella **Nome filtro**.
 1. Fai clic su **Salva**.\
@@ -253,7 +253,7 @@ Puoi duplicare un filtro esistente. I criteri di filtro originali rimangono gli 
 1. Passa il puntatore del mouse sul nome di un filtro salvato che desideri duplicare.
 1. Fai clic sull&#39;icona **Duplica**.
 
-   ![](assets/rp-filter-options---duplicate-350x154.png)\
+   ![Filtro duplicato](assets/rp-filter-options---duplicate-350x154.png)\
    Viene visualizzata la casella Duplica filtro.
 
 1. Nel campo **Nome filtro**, specificare un nuovo nome per il filtro duplicato.\
@@ -280,7 +280,7 @@ Per rimuovere un filtro:
 1. Individua il filtro da rimuovere e passa il cursore sul nome.
 1. Selezionare l&#39;icona **Elimina filtro** accanto al nome del filtro.
 
-   ![](assets/rp-filter-options---delete-350x154.png)
+   ![Elimina filtro](assets/rp-filter-options---delete-350x154.png)
 
 1. Fare clic su **Elimina** nella finestra di dialogo **Elimina filtro**.
 
@@ -303,13 +303,13 @@ Per informazioni sulla duplicazione dei filtri, vedere la sezione [Duplicare un 
 1. Individua il filtro da condividere e passa il cursore sul nome.
 1. Selezionare l&#39;icona **Condividi filtro** accanto al nome del filtro.
 
-   ![](assets/rp-filter-options---share-350x154.png)
+   ![Condividi filtro](assets/rp-filter-options---share-350x154.png)
 
    Viene visualizzata la finestra di dialogo Accesso al filtro.
 
 1. (Facoltativo) Per rendere il filtro disponibile a tutti gli utenti di Resource Planner, fai clic sull&#39;icona **Impostazioni**, quindi seleziona **Rendi visibile a livello di sistema**.
 
-   ![](assets/make-this-visible-system-wide-350x119.png)
+   ![Rendi visibile a livello di sistema](assets/make-this-visible-system-wide-350x119.png)
 
 1. Nella casella **Assegna accesso al filtro di programmazione delle risorse a:**, inizia a digitare i nomi di utenti, team, ruoli, gruppi o società con cui desideri condividere il filtro.
 1. Seleziona tra i seguenti livelli di autorizzazione:
@@ -321,10 +321,10 @@ Per informazioni sulla duplicazione dei filtri, vedere la sezione [Duplicare un 
 
 1. (Facoltativo) Fai clic su **Impostazioni avanzate** per aggiungere le autorizzazioni per ogni livello selezionandole o rimuoverle per ogni livello deselezionandole.
 
-   ![](assets/rp-share-filter-manage-advanced-settings-350x271.png)
+   ![Condividi filtro](assets/rp-share-filter-manage-advanced-settings-350x271.png)
 
 1. Fai clic su **Salva**.
 
    Il filtro è condiviso con le entità selezionate e viene visualizzato nell&#39;area **Condiviso con me**.
 
-   ![](assets/rp-shared-with-me-area.png)
+   ![Condiviso con me](assets/rp-shared-with-me-area.png)

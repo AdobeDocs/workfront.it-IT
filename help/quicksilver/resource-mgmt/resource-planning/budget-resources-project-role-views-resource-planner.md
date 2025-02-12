@@ -6,9 +6,9 @@ description: È possibile preventivare le risorse in Adobe Workfront Resource Pl
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '2127'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,7 @@ Per informazioni sull&#39;accesso necessario per l&#39;impostazione del budget d
 
 Per preventivare le allocazioni nella Programmazione risorse nella vista Ruolo****:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront.
 
 1. Fare clic su **Risorse**.
 1. Il **Planner** viene visualizzato per impostazione predefinita.
@@ -225,7 +225,7 @@ Per ulteriori informazioni sulla comprensione dell&#39;area Budget risorse del c
 
 Quando si utilizzano i collegamenti rapidi, è possibile preventivare le allocazioni per le risorse in blocco. I collegamenti rapidi sono disponibili solo per le visualizzazioni Progetto e Ruolo.
 
-![](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
+![Opzioni di impostazione budget automatica](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
 
 >[!NOTE]
 >

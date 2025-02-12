@@ -6,9 +6,9 @@ description: È possibile utilizzare la Programmazione delle risorse per gestire
 author: Lisa
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Per accedere alla sezione Planner nell&#39;area Risorse:
 
 Il Planner viene visualizzato per impostazione predefinita.  Per informazioni sulla definizione del budget delle risorse nella Programmazione delle risorse, vedere l&#39;articolo [Risorse preventivo nella Programmazione delle risorse utilizzando le visualizzazioni Progetto e Ruolo](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-![](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
+![Pianificazione risorse predefinita](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
 
 1. Fai clic su **Pool di Risorse** nel pannello a sinistra.
 Per informazioni sulla creazione di pool di risorse, vedere [Creare pool di risorse](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
@@ -105,6 +105,6 @@ Quando si utilizza la pianificazione risorse per un progetto, i numeri di alloca
    >
    >È possibile aggiungere un gruppo di risorse nell&#39;area Budget risorse del Business Case solo se al progetto non è associato alcun gruppo di risorse. Quando il progetto ha già un Pool di Risorse, gli utenti nel pool e le loro mansioni vengono visualizzati nell&#39;area Budget risorse per impostazione predefinita.
 
-   ![](assets/resource-budgeting-area-on-project-350x70.png)
+   ![Impostazione budget risorse](assets/resource-budgeting-area-on-project-350x70.png)
 
    Per informazioni sulla definizione del budget delle risorse per un progetto, vedere l&#39;articolo [Risorse budget nel caso aziendale](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).

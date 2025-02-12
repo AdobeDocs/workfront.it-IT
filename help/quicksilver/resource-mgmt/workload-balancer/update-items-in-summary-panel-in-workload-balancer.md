@@ -6,9 +6,9 @@ description: È possibile aprire il pannello Riepilogo nel Bilanciatore dei cari
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '410'
 ht-degree: 2%
 
 ---
@@ -53,7 +53,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td>Autorizzazioni Contribute o superiori per progetti, attività e problemi</td> 
+   <td>Autorizzazioni di Contribute o superiori per progetti, attività e problemi</td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,11 +78,11 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Oppure
 
-   Fai clic sull&#39;icona ![](assets/summary-panel-icon.png) di **Apri riepilogo**, quindi fai clic sulla barra di un&#39;attività o di un problema per aprire il pannello Riepilogo.
+   Fai clic sull&#39;icona **Apri riepilogo** ![Apri riepilogo](assets/summary-panel-icon.png), quindi fai clic sulla barra di un&#39;attività o di un problema per aprire il pannello Riepilogo.
 
    Oppure
 
-   Fai clic sul menu **Altro** ![](assets/more-icon.png) a destra di un&#39;attività o di un problema, quindi fai clic su **Apri riepilogo**.
+   Fai clic sul menu **Altro** ![Icona Altro](assets/more-icon.png) a destra di un&#39;attività o di un problema, quindi fai clic su **Apri riepilogo**.
 
    Il pannello Riepilogo si apre a destra.
 
@@ -97,4 +97,4 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    Per ulteriori informazioni sull&#39;aggiornamento delle informazioni tramite Riepilogo, vedere [Panoramica di Riepilogo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 1. (Condizionale) Se hai aperto una delle sezioni dell&#39;elemento di lavoro, fai clic sul **pulsante Indietro** del browser per tornare al Bilanciatore dei carichi di lavoro.
-1. Fare clic sull&#39;icona **Chiudi** ![](assets/close-icon.png) nell&#39;angolo superiore destro del riepilogo per chiuderlo.
+1. Fai clic sull&#39;icona **Chiudi** ![Chiudi](assets/close-icon.png) nell&#39;angolo superiore destro del riepilogo per chiuderlo.
