@@ -6,9 +6,9 @@ description: Nell'elenco delle attività Diagramma di Gantt vengono visualizzati
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: e2f6eada24b4e48bce58189ec16447eda89f4a09
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Per seguire i passaggi descritti in questo articolo, è necessario disporre dei 
 1. Vai al progetto che desideri modificare.
 1. Fai clic su **[!UICONTROL Attività]** nel pannello a sinistra.
 
-   ![](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
+   ![Area attività](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
 
 1. Fai clic sull&#39;icona **[!UICONTROL Grafico di Gantt]**.
 
@@ -73,7 +73,7 @@ Per seguire i passaggi descritti in questo articolo, è necessario disporre dei 
 
 1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Modalità pianificazione]** e seleziona **[!UICONTROL Salvataggio manuale standard]** o **[!UICONTROL Pianificazione sequenza temporale]** per salvare le modifiche manualmente.
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![Impostazione manuale abilitata](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Passa il puntatore del mouse sulla sequenza temporale di un&#39;attività e trascina l&#39;indicatore della sequenza temporale su una data diversa.
 1. Rilasciare l&#39;indicatore quando è stata raggiunta la nuova data di completamento corretta per l&#39;attività.
@@ -103,7 +103,7 @@ Per seguire i passaggi descritti in questo articolo, è necessario disporre dei 
 
 1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Modalità pianificazione]** e seleziona **[!UICONTROL Salvataggio manuale standard]** o **[!UICONTROL Pianificazione sequenza temporale]** per salvare le modifiche manualmente.
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![Impostazione manuale abilitata](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Per creare una relazione predecessore, fare clic sul punto iniziale di un&#39;attività e trascinarla fino al punto finale dell&#39;attività.
 1. Per eliminare una relazione predecessore, fare clic su una riga predecessore che connette due attività per selezionarla, quindi premere **[!UICONTROL Elimina]** sulla tastiera.\
@@ -135,7 +135,7 @@ Per seguire i passaggi descritti in questo articolo, è necessario disporre dei 
 
 1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Modalità pianificazione]** e seleziona **[!UICONTROL Salvataggio manuale standard]** o **[!UICONTROL Pianificazione sequenza temporale]** per salvare le modifiche manualmente.
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![Impostazione manuale abilitata](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Posizionare il puntatore del mouse sul centro dell&#39;operazione e individuare la freccia multidirezionale.
 1. Fare clic e trascinare l&#39;attività fino alla data desiderata.

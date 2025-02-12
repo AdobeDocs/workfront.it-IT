@@ -6,9 +6,9 @@ description: Puoi spostare i problemi tra progetti e attività.
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '887'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per il problema</p> <p>Autorizzazioni di Contribute per l’elemento in cui stai spostando il problema con la possibilità di aggiungere problemi.</td> 
+   <td> <p>Gestire le autorizzazioni per il problema</p> <p>Concedere le autorizzazioni per l’elemento in cui si sta spostando il problema con la possibilità di aggiungere problemi.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,7 +91,7 @@ Quando si spostano problemi che contengono documenti o sono associati a una coda
 1. Se hai selezionato di passare a un progetto, fai clic su **Problemi** nel pannello a sinistra.
 1. Seleziona il problema o i problemi da spostare e fai clic sul **menu Altro** nella parte superiore dell&#39;elenco dei problemi, quindi fai clic su **Sposta in**.
 
-   ![](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
+   ![Copia e sposta nei collegamenti](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
 
 1. Continuare con lo spostamento dei problemi, come descritto nella sezione [Spostare un singolo problema](#move-a-single-issue) a partire dal passaggio 2.
 
@@ -101,13 +101,13 @@ Quando si spostano problemi che contengono documenti o sono associati a una coda
 
 ### Spostare un singolo problema
 
-1. Passa al problema che desideri spostare, fai clic sul menu **Altro** ![](assets/more-icon.png) a destra del nome del problema, quindi fai clic su **Sposta in**.
+1. Vai al problema che desideri spostare, fai clic sul menu **Altro** ![Altro menu](assets/more-icon.png) a destra del nome del problema, quindi fai clic su **Sposta in**.
 
-   ![](assets/nwe-move-at-issue-level-highlighted-350x579.png)
+   ![Sposta al livello del problema](assets/nwe-move-at-issue-level-highlighted-350x579.png)
 
    Viene visualizzata la casella **Sposta problema**.
 
-   ![](assets/move-issue-box-nwe-350x280.png)
+   ![Sposta casella problema](assets/move-issue-box-nwe-350x280.png)
 
 1. Nella sezione **Seleziona progetto di destinazione**, specifica il nome del progetto in cui desideri spostare i problemi. Il nome del progetto corrente viene visualizzato per impostazione predefinita.
 
@@ -118,7 +118,7 @@ Quando si spostano problemi che contengono documenti o sono associati a una coda
 1. (Condizionale) Se non disponi dell&#39;accesso per spostare i problemi nel progetto, fai clic su **richiedi accesso**.
 1. (Facoltativo) Se disponi dell’accesso per aggiungere problemi a una delle attività nel progetto di destinazione, continua a spostare il problema sul progetto di destinazione selezionato senza richiedere l’accesso.
 
-   ![](assets/move-issue-request-access-from-project-nwe-350x118.png)
+   ![Sposta il problema e richiedi l&#39;accesso](assets/move-issue-request-access-from-project-nwe-350x118.png)
 
    >[!TIP]
    >

@@ -6,9 +6,9 @@ description: Le richieste di progetto vengono visualizzate come progetti con sta
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso di [!UICONTROL View] ai Portfoli o versione successiva</p> <p>Accesso [!UICONTROL Edit] ai progetti</p>  </td> 
+   <td> <p>Accesso di [!UICONTROL View] o versione successiva ai portafogli</p> <p>Accesso [!UICONTROL Edit] ai progetti</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
@@ -99,7 +99,7 @@ Per ulteriori informazioni sull&#39;approvazione delle richieste di progetto tra
 
    * Cambia lo stato del progetto in qualsiasi altro stato nel menu a discesa **[!UICONTROL Stato]**.
 
-     ![](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
+     ![Cambia lo stato del progetto dal menu a discesa](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
  
 
  

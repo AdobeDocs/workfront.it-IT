@@ -6,9 +6,9 @@ description: Puoi eliminare problemi o richieste in Adobe Workfront se disponi d
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '735'
 ht-degree: 1%
 
 ---
@@ -110,7 +110,7 @@ A seconda del modo in cui l&#39;amministratore di Workfront o di gruppo configur
 1. Fai clic su **Progetti**.
 1. Fai clic sul nome del progetto che contiene i problemi da eliminare.
 1. Fai clic su **Problemi** nel pannello a sinistra.
-1. Seleziona un problema, quindi fai clic sull&#39;icona **Elimina** ![](assets/delete.png) in alto nell&#39;elenco.
+1. Seleziona un problema, quindi fai clic sull&#39;icona **Elimina** ![Elimina](assets/delete.png) nella parte superiore dell&#39;elenco.
 
 1. Se l&#39;eliminazione è consentita, fare clic su **Sì, eliminarla**.\
    L’amministratore di Workfront potrebbe non consentire l’eliminazione dei problemi in cui sono registrate le ore.\
@@ -123,12 +123,12 @@ A seconda del modo in cui l&#39;amministratore di Workfront o di gruppo configur
 1. Fai clic sul nome del progetto che contiene il problema da eliminare.
 1. Fai clic su **Problemi** nel pannello a sinistra.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![Icona problemi](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. Fai clic sul nome del problema che desideri eliminare.
 1. Fai clic sul menu **Altro** a destra del nome del problema.
 
-   ![](assets/qs-issue-more-menu-highlighted-350x469.png)
+   ![Menu Altro problema](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. Fai clic su **Elimina problema**.
 1. Se l&#39;eliminazione è consentita, fare clic su **Sì, eliminarla**.

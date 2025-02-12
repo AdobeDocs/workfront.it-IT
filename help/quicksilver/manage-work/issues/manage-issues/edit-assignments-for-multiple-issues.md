@@ -6,9 +6,9 @@ description: Modificare le assegnazioni utente per più problemi in un elenco
 author: Alina
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '751'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Per informazioni generali sull&#39;assegnazione dei problemi, vedere [Panoramica
 
 >[!NOTE]
 >
->È necessario disporre almeno delle autorizzazioni Contribute per un problema per poter effettuare assegnazioni al problema.
+>È necessario disporre almeno delle autorizzazioni Contribuisci a un problema per poter effettuare assegnazioni al problema.
 
 ## Requisiti di accesso
 
@@ -54,7 +54,7 @@ Per informazioni generali sull&#39;assegnazione dei problemi, vedere [Panoramica
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per il problema</p> <p>Quando si assegnano più problemi, le autorizzazioni Contribute o una versione successiva al progetto o all’attività in cui si trova il problema.</p>  </td> 
+   <td> <p>Gestire le autorizzazioni per il problema</p> <p>Quando si assegnano più problemi, contribuire con autorizzazioni o versioni successive al progetto o all’attività in cui si trova il problema.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,13 +102,13 @@ Per informazioni generali sull&#39;assegnazione dei problemi, vedere [Panoramica
    1. Inizia a digitare il nome dell’utente o del ruolo per cui desideri filtrare, quindi fai clic sul nome quando viene visualizzato nell’elenco a discesa.
    1. Fai clic su **Salva filtro.**
 
-1. Seleziona i problemi per i quali vuoi modificare le assegnazioni, quindi fai clic sull&#39;icona **Modifica** ![](assets/qs-edit-icon.png).
+1. Seleziona i problemi per i quali vuoi modificare le assegnazioni, quindi fai clic sull&#39;icona **Modifica** ![Icona Modifica](assets/qs-edit-icon.png).
 
    Viene visualizzato **Modifica problemi**. Gli elementi modificati vengono visualizzati nell&#39;angolo superiore sinistro della pagina.
 
 1. Vai alla sezione **Assegnazioni**, quindi seleziona **Assegnatario**.
 
-   ![](assets/classic-assignmens-area-on-edit-box-350x119.png)
+   ![Area assegnazioni](assets/classic-assignmens-area-on-edit-box-350x119.png)
 
 1. Esegui una delle operazioni seguenti:
 

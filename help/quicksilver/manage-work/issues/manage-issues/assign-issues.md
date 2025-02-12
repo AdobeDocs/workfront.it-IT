@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1419'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ L’assegnazione di problemi e attività è simile in Adobe Workfront. Per infor
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per il problema</p> <p> Visualizzare le autorizzazioni o versioni successive per il progetto o l’attività in cui si trova il problema, quando si assegna un problema</p><p>Quando si assegnano più problemi, le autorizzazioni Contribute o una versione successiva al progetto o all’attività in cui si trova il problema.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per il problema</p> <p> Visualizzare le autorizzazioni o versioni successive per il progetto o l’attività in cui si trova il problema, quando si assegna un problema</p><p>Quando si assegnano più problemi, contribuire con autorizzazioni o versioni successive al progetto o all’attività in cui si trova il problema.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -166,7 +166,7 @@ Per assegnare i problemi in un elenco:
 
    * Fai clic all&#39;interno dei campi **Assegnato a** o **Assegnato** e inizia a digitare il nome di un utente attivo che desideri assegnare al problema, quindi fai clic su di esso quando viene visualizzato nell&#39;elenco.
 
-     ![](assets/assigned-to-field-task-list-nwe.png)
+     ![Assegnato al campo](assets/assigned-to-field-task-list-nwe.png)
 
    * Fai clic all&#39;interno del campo **Assegnazioni** e inizia a digitare il nome di un utente attivo, una mansione o un team attivo che desideri assegnare al problema, quindi fai clic su di esso quando viene visualizzato nell&#39;elenco.
 
@@ -181,7 +181,7 @@ Per assegnare i problemi in un elenco:
    >Per consentire agli utenti di visualizzare le e-mail degli utenti, nel proprio livello di accesso deve essere abilitata l’impostazione Visualizza informazioni di contatto. Per informazioni, vedere [Concedere l&#39;accesso agli utenti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
-1. (Condizionale) Quando è visibile nel campo Assegnazioni, fai clic sull&#39;icona **Persone** ![](assets/teams.png) nell&#39;angolo superiore destro della casella Assegnazioni per aprire la casella Assegnazioni avanzate e creare assegnazioni avanzate. Per ulteriori informazioni, vedere [Creare assegnazioni avanzate](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+1. (Condizionale) Quando è visibile nel campo Assegnazioni, fai clic sull&#39;icona **Persone** ![Persone](assets/teams.png) nell&#39;angolo superiore destro della casella Assegnazioni per aprire la casella Assegnazioni avanzate e creare assegnazioni avanzate. Per ulteriori informazioni, vedere [Creare assegnazioni avanzate](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
    >[!TIP]
    >
@@ -193,7 +193,7 @@ Per assegnare i problemi in un elenco:
 
 1. Passare a un elenco di problemi che si desidera assegnare in blocco.
 1. Seleziona diversi problemi nell’elenco.
-1. Fai clic sull&#39;icona **Modifica** ![](assets/qs-edit-icon.png).
+1. Fai clic sull&#39;icona **Modifica** ![Modifica](assets/qs-edit-icon.png).
 
    Viene visualizzata la finestra di dialogo **Modifica problemi**.
 

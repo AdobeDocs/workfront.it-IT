@@ -6,9 +6,9 @@ description: È possibile modificare le informazioni relative ai programmi creat
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
    >Se si desidera modificare tutte le informazioni sul programma, andare al passaggio 4.
 
-   ![](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
+   ![Dettagli prolusione con sezione modulo personalizzato](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
 
    >[!NOTE]
    >
@@ -81,10 +81,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    Per modificare le informazioni nella sezione [!UICONTROL Dettagli], eseguire le operazioni seguenti:
 
    1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Comprimi tutto]** nell&#39;angolo superiore destro per comprimere tutte le aree.
-   1. (Facoltativo e condizionale) Quando un&#39;area è compressa, fare clic sulla **freccia rivolta a destra** ![](assets/right-pointing-arrow.png) accanto a ogni area per espandere l&#39;area che si desidera modificare.
+   1. (Facoltativo e condizionale) Quando un&#39;area è compressa, fare clic sulla **freccia rivolta a destra** ![freccia rivolta a destra](assets/right-pointing-arrow.png) accanto a ogni area per espandere l&#39;area che si desidera modificare.
    1. Per informazioni sui campi visibili nella sezione [!UICONTROL Dettagli programma], continuare a modificare il programma nella casella [!UICONTROL Modifica programma] come descritto di seguito.
    1. (Facoltativo) Se al programma non sono allegati moduli personalizzati, inizia a digitare il nome di un modulo nel campo **[!UICONTROL Aggiungi modulo personalizzato]**, selezionalo quando viene visualizzato nell&#39;elenco, quindi fai clic su **[!UICONTROL Salva modifiche]**.
-   1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Esporta]** ![](assets/export.png) per esportare le informazioni [!UICONTROL Panoramica] e moduli personalizzati in un file PDF, quindi fai clic su **[!UICONTROL Esporta]**. Selezionare una delle opzioni seguenti:
+   1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Esporta]** ![Icona Esporta](assets/export.png) per esportare le informazioni di [!UICONTROL Panoramica] e moduli personalizzati in un file PDF, quindi fai clic su **[!UICONTROL Esporta]**. Selezionare una delle opzioni seguenti:
 
       * Seleziona tutto (viene visualizzato solo se è allegato almeno un modulo personalizzato)
       * [!UICONTROL Panoramica]
@@ -92,19 +92,19 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
       Il file PDF viene scaricato nel computer.
 
-      ![](assets/export-portfolio-details-box-with-export-button-350x368.png)
+      ![Esporta dettagli portfolio](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
       Per ulteriori informazioni, vedere [Esportare moduli personalizzati e dettagli oggetto](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
 
 1. Per modificare tutte le informazioni su uno o più programmi, effettuare una delle seguenti operazioni:
 
-   * Fai clic sul menu **[!UICONTROL Altro]** ![](assets/more-icon.png) accanto al nome del programma, quindi&#x200B;**[!UICONTROL Modifica].**
-   * Vai a un elenco di programmi e seleziona uno o più programmi da modificare, quindi fai clic sull&#39;icona **[!UICONTROL Modifica]** ![](assets/edit-icon.png) nella parte superiore dell&#39;elenco.
+   * Fai clic sul menu **[!UICONTROL Altro]** ![Altro menu](assets/more-icon.png) accanto al nome del programma, quindi&#x200B;**[!UICONTROL Modifica].**
+   * Vai a un elenco di programmi e seleziona uno o più programmi da modificare, quindi fai clic sull&#39;icona **[!UICONTROL Modifica]** ![Modifica icona](assets/edit-icon.png) nella parte superiore dell&#39;elenco.
 
    Viene visualizzata la finestra di dialogo **[!UICONTROL Modifica programma]**.
 
-   ![](assets/edit-program-box-nwe-350x236.png)
+   ![Modifica la casella del programma](assets/edit-program-box-nwe-350x236.png)
 
    Tutti i campi del programma sono disponibili nella casella [!UICONTROL Modifica programma] e sono raggruppati per le aree elencate nel pannello sinistro.
 
@@ -140,7 +140,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Descrizione]</td> 
-      <td> <p>Digitare una descrizione per il Portfolio per indicare l'elemento univoco. </p> </td> 
+      <td> <p>Digita una descrizione per Portfolio per indicare cosa c’è di univoco. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Program Manager]</td> 
@@ -177,7 +177,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Inizia a modificare un programma come descritto in precedenza.
 1. Fai clic su **[!UICONTROL Commento]**.
 
-   ![](assets/comment-box-in-program-edit-box-classic-350x195.png)
+   ![Casella Commento nella casella Modifica programma](assets/comment-box-in-program-edit-box-classic-350x195.png)
 
 1. Aggiungi un commento nel campo **[!UICONTROL Pubblica un aggiornamento al programma]**.
 1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Persone]** per aggiungere un utente o un team al commento.

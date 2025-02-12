@@ -2,13 +2,13 @@
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
 title: Eliminare e disattivare i portfolio
-description: I Portfoli sono raccolte di progetti o programmi in Adobe Workfront. Puoi eliminare o disattivare un portfolio se lo ritieni irrilevante per il tuo sistema.
+description: I portafogli sono raccolte di progetti o programmi in Adobe Workfront. Puoi eliminare o disattivare un portfolio se lo ritieni irrilevante per il tuo sistema.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--Audited: 2/2024-->
 
-I Portfoli sono raccolte di progetti o programmi in [!DNL Adobe Workfront]. Puoi eliminare o disattivare un portfolio se lo ritieni irrilevante per il tuo sistema.
+I portafogli sono insiemi di progetti o programmi in [!DNL Adobe Workfront]. Puoi eliminare o disattivare un portfolio se lo ritieni irrilevante per il tuo sistema.
 
 Consigliamo di disattivare un portfolio che non deve più essere associato a progetti futuri, invece di eliminarlo, per conservare le informazioni storiche sui progetti attualmente associati al portfolio e ai suoi programmi.
 
@@ -42,7 +42,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso a progetti e Portfoli tramite [!UICONTROL Edit]</p>  </td> 
+   <td> <p>Accesso a progetti e portafogli da [!UICONTROL Edit]</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
@@ -71,22 +71,22 @@ Quando decidi se eliminare o disattivare i portfolio, considera quanto segue:
 
 ## Disattivare un portfolio
 
-Quando disattivi un portfolio, puoi comunque accedervi dall&#39;area [!UICONTROL Portfoli], ma non viene più visualizzato nell&#39;elenco dei portfolio quando gli utenti tentano di aggiungerlo a un progetto.
+Quando disattivi un portfolio, puoi comunque accedervi dall&#39;area [!UICONTROL Portfolio], ma non viene più visualizzato nell&#39;elenco dei portfolio quando gli utenti tentano di aggiungerlo a un progetto.
 
 >[!NOTE]
 >
->A seconda della configurazione del modello di layout da parte dell&#39;amministratore di [!DNL Workfront] o del gruppo, l&#39;area [!UICONTROL Portfoli] potrebbe non essere visualizzata nel [!UICONTROL menu principale]. Per ulteriori informazioni, vedere [Personalizzare il menu principale utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+>A seconda della configurazione del modello di layout da parte dell&#39;amministratore di [!DNL Workfront] o gruppo, l&#39;area [!UICONTROL Portfolio] potrebbe non essere visualizzata nel [!UICONTROL Menu principale]. Per ulteriori informazioni, vedere [Personalizzare il menu principale utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 {{step1-click-main-menu}}
 
-1. Fai clic su **[!UICONTROL Portfoli]**.
+1. Fare clic su **[!UICONTROL Portfolio]**.
 1. Fai clic sul nome del portfolio.
-1. Fai clic sul menu **Altro** ![](assets/more-icon.png) a destra del nome del portfolio, quindi fai clic su **[!UICONTROL Disattiva Portfolio]**.
+1. Fai clic sul menu **Altro** ![Altro menu](assets/more-icon.png) a destra del nome del portfolio, quindi fai clic su **[!UICONTROL Disattiva Portfolio]**.
 
 ## Eliminare un portfolio
 
 {{step1-click-main-menu}}
 
-1. Fai clic su **[!UICONTROL Portfoli]**.
-1. Seleziona il portfolio, quindi fai clic su **[!UICONTROL Elimina]**&#x200B;icona [!UICONTROL Elimina] ![](assets/delete.png).
+1. Fare clic su **[!UICONTROL Portfolio]**.
+1. Seleziona il portfolio, quindi fai clic su **[!UICONTROL Elimina]**&#x200B;icona [!UICONTROL Elimina] ![Icona Elimina](assets/delete.png).
 1. Fai clic su **[!UICONTROL Sì, elimina]** per confermare.

@@ -7,9 +7,9 @@ description: Un oggetto risolvibile è un problema la cui risoluzione è associa
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1778'
+source-wordcount: '1788'
 ht-degree: 1%
 
 ---
@@ -79,10 +79,10 @@ A seconda del modo in cui l’amministratore di Workfront o di gruppo ha configu
 Esistono i seguenti scenari:
 
 * Se l&#39;amministratore di Workfront o del gruppo ha **Mantieni il problema originale e collegane la risoluzione all&#39;attività** e **Mantieni il problema originale e collegane la risoluzione al progetto** selezionato e **Consenti la modifica di queste impostazioni durante la conversione** deselezionato, non sarà possibile modificare queste impostazioni durante la conversione dei problemi in attività o progetti.\
-  ![](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
+  ![Area problemi preferenze progetto](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
 * Se l&#39;amministratore di Workfront o del gruppo ha **Mantieni il problema originale e collegane la risoluzione all&#39;attività** e **Mantieni il problema originale e collegane la risoluzione al progetto** selezionato o non selezionato e **Consenti la modifica di queste impostazioni durante la conversione** selezionato, potrai modificare queste impostazioni durante la conversione dei problemi in attività o progetti.\
-  ![](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
+  ![Opzione per mantenere il problema](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
 
 Per ulteriori informazioni sulla conversione dei problemi in attività e progetti, vedere [Panoramica sulla conversione dei problemi in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
@@ -202,7 +202,7 @@ L&#39;individuazione dell&#39;oggetto di risoluzione è identica per attività e
 
 In un elenco di problemi è possibile identificare i problemi etichettati come oggetti di risoluzione tramite icone di stato individuando questa icona nelle colonne **Icone di stato** o **Flag**:
 
-![](assets/ro1.png)
+![Oggetto risolutivo](assets/ro1.png)
 
 ## Visualizzare informazioni sugli oggetti risolvibili e risolvibili in un report
 

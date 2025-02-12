@@ -3,13 +3,13 @@ content-type: overview
 product-area: portfolios
 navigation-topic: portfolio-optimizer
 title: Panoramica di Portfolio Optimizer
-description: '[!UICONTROL Ottimizzatore Portfolio] è lo strumento utilizzato per la valutazione e il confronto dei progetti. Il processo di revisione e confronto dei valori di Business Case per i progetti assegnati a un portfolio è il modo in cui un gestore di portfolio può dare priorità ai progetti e generare il massimo valore per un''organizzazione.'
+description: '[!UICONTROL Portfolio Optimizer] è lo strumento utilizzato per la valutazione e il confronto dei progetti. Il processo di revisione e confronto dei valori di Business Case per i progetti assegnati a un portfolio è il modo in cui un gestore di portfolio può dare priorità ai progetti e generare il massimo valore per un''organizzazione.'
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1649'
+source-wordcount: '1657'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 <!-- Audited: 01/2024 -->
 
-[!UICONTROL Ottimizzatore Portfolio] è lo strumento utilizzato per la valutazione e il confronto dei progetti. Il processo di revisione e confronto dei valori [!UICONTROL Caso di business] per i progetti assegnati a un portfolio è il modo in cui un gestore di portfolio può dare priorità ai progetti e generare il maggior valore per un&#39;organizzazione.
+[!UICONTROL Portfolio Optimizer] è lo strumento utilizzato per la valutazione e il confronto dei progetti. Il processo di revisione e confronto dei valori [!UICONTROL Caso di business] per i progetti assegnati a un portfolio è il modo in cui un gestore di portfolio può dare priorità ai progetti e generare il maggior valore per un&#39;organizzazione.
 
-![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+![Ottimizzatore Portfolio con progetti](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
 Lo scopo di [!UICONTROL Ottimizzatore portfolio] è quello di fornire un&#39;interfaccia tramite la quale un gestore di portfolio, un comitato direttivo o un ufficio di gestione prodotti possono visualizzare informazioni di riepilogo sul caso di business di ciascun progetto. I progetti possono quindi essere classificati in base a valori e obiettivi strategici o in base al loro punteggio complessivo.
 
@@ -30,39 +30,39 @@ Lo scopo di [!UICONTROL Ottimizzatore portfolio] è quello di fornire un&#39;int
 * Un portfolio è definito nell&#39;area Panoramica progetto della sezione Dettagli progetto per i progetti che si desidera esaminare.
 * Hai indicato il Budget del progetto e il Beneficio pianificato per i progetti che desideri rivedere. Costi fissi e Redditi fissi sono facoltativi ma aggiungono valore. Per ulteriori informazioni, vedere [Campi finanziari progetto](../../projects/project-finances/project-finances-overview-1.md).
 
-Per informazioni sull&#39;individuazione di [!UICONTROL Ottimizzatore Portfolio], vedere [Individuare l&#39;[!UICONTROL Ottimizzatore Portfolio]](../../../manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md).
+Per informazioni sull&#39;individuazione di [!UICONTROL Portfolio Optimizer], vedere [Individuare il [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md).
 
-## Finanze in [!UICONTROL Ottimizzatore Portfolio]
+## Finanze in [!UICONTROL Portfolio Optimizer]
 
-Puoi visualizzare lo stato finanziario del tuo portfolio in qualsiasi momento durante la durata dei tuoi progetti utilizzando [!UICONTROL Ottimizzatore Portfolio].
+Puoi visualizzare lo stato finanziario del tuo portfolio in qualsiasi momento durante la durata dei tuoi progetti utilizzando [!UICONTROL Portfolio Optimizer].
 
-Quando si lavora con i dati finanziari in [!UICONTROL Ottimizzatore Portfolio], tenere presente quanto segue:
+Quando si lavora con i dati finanziari in [!UICONTROL Portfolio Optimizer], tenere presente quanto segue:
 
-* A ciascuno dei progetti viene assegnato un punteggio quando i relativi [!UICONTROL casi aziendali] vengono completati in base ai criteri corrispondenti nell&#39;[!UICONTROL Ottimizzatore Portfolio]. Ad esempio, i progetti a basso costo o ad alto allineamento ricevono un punteggio più alto.
+* A ciascuno dei progetti viene assegnato un punteggio quando i relativi [!UICONTROL casi aziendali] vengono completati in base ai criteri corrispondenti in [!UICONTROL Portfolio Optimizer]. Ad esempio, i progetti a basso costo o ad alto allineamento ricevono un punteggio più alto.
 
-  Per ulteriori informazioni sul calcolo del punteggio dell&#39;ottimizzatore portfolio di un progetto, vedere [Panoramica del punteggio [!UICONTROL dell&#39;ottimizzatore Portfolio]](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
+  Per ulteriori informazioni sul calcolo del punteggio dell&#39;ottimizzatore portfolio di un progetto, vedere [Panoramica del punteggio [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
 
-* I calcoli finanziari per l&#39;[!UICONTROL Ottimizzatore Portfolio] utilizzano il [!UICONTROL Costo preventivato] nel [!UICONTROL Business Case] del progetto.
-* Puoi assegnare manualmente la priorità ai tuoi progetti in [!UICONTROL Ottimizzatore Portfolio], tenendo conto di tutte le informazioni su di essi. Ad esempio, dati finanziari, allineamento alle scorecard e ROI.
+* I calcoli finanziari per il [!UICONTROL Portfolio Optimizer] utilizzano il [!UICONTROL Costo preventivato] nel [!UICONTROL Business Case] del progetto.
+* Puoi assegnare manualmente la priorità ai progetti in [!UICONTROL Portfolio Optimizer], tenendo conto di tutte le informazioni relative. Ad esempio, dati finanziari, allineamento alle scorecard e ROI.
 
-### Aree finanziarie in [!UICONTROL Ottimizzatore Portfolio] {#the-financial-areas-in-the-portfolio-optimizer}
+### Aree finanziarie in [!UICONTROL Portfolio Optimizer] {#the-financial-areas-in-the-portfolio-optimizer}
 
-È possibile visualizzare le informazioni finanziarie nelle seguenti aree di [!UICONTROL Ottimizzatore Portfolio]:
+È possibile visualizzare le informazioni finanziarie nelle seguenti aree di [!UICONTROL Portfolio Optimizer]:
 
 * **[!UICONTROL Intestazione Portfolio]**: in quest&#39;area vengono visualizzate le informazioni finanziarie raccolte da tutti i progetti del portfolio. Viene visualizzato su ogni scheda dell&#39;oggetto Portfolio.
-* **[!UICONTROL Dati finanziari di Portfolio per i progetti selezionati]**: in quest&#39;area vengono visualizzate le informazioni finanziarie raccolte dai progetti selezionati in [!UICONTROL Ottimizzatore Portfolio]. È possibile aggiungere o rimuovere progetti e capire in che modo questo influirà sulle finanze del portfolio visualizzando le informazioni in quest’area.
-* **[!UICONTROL Finanza progetti]**: in quest&#39;area vengono visualizzate le informazioni finanziarie di ogni progetto elencato in [!UICONTROL Ottimizzatore Portfolio].
+* **[!UICONTROL Portfolio Finances for Selected Projects]**: in quest&#39;area vengono visualizzate le informazioni finanziarie raccolte dai progetti selezionati in [!UICONTROL Portfolio Optimizer]. È possibile aggiungere o rimuovere progetti e capire in che modo questo influirà sulle finanze del portfolio visualizzando le informazioni in quest’area.
+* **[!UICONTROL Finanza progetti]**: in quest&#39;area vengono visualizzate le informazioni finanziarie di ogni progetto elencato in [!UICONTROL Portfolio Optimizer].
 
-### Campi finanziari in [!UICONTROL Ottimizzatore Portfolio] {#the-financial-fields-in-the-portfolio-optimizer}
+### Campi finanziari in [!UICONTROL Portfolio Optimizer] {#the-financial-fields-in-the-portfolio-optimizer}
 
-I seguenti campi finanziari vengono visualizzati in [!UICONTROL Ottimizzatore Portfolio]:
+I seguenti campi finanziari vengono visualizzati in [!UICONTROL Portfolio Optimizer]:
 
 * [Intestazione Portfolio](#portfolio-header)
-* [Finanziamenti Portfoli per i progetti selezionati](#portfolio-finances-for-selected-projects)
+* [Finanziamenti Portfolio per i progetti selezionati](#portfolio-finances-for-selected-projects)
 
 #### Intestazione Portfolio {#portfolio-header}
 
-![](assets/portfolio-header-nwe-350x14.png)
+![Intestazione Portfolio](assets/portfolio-header-nwe-350x14.png)
 
 [!DNL Adobe Workfront] calcola i campi finanziari nell&#39;intestazione del portfolio utilizzando informazioni provenienti da progetti con stati che equivalgono solo a [!UICONTROL Approvato] o [!UICONTROL Corrente].
 
@@ -78,19 +78,19 @@ I seguenti campi finanziari vengono visualizzati in [!UICONTROL Ottimizzatore Po
  <tbody> 
   <tr> 
    <td>[!UICONTROL On Time]</td> 
-   <td> <p>Percentuale di progetti nel portfolio considerati come [!UICONTROL On Time]. È visibile da qualsiasi scheda all’interno di un portfolio.</p> <p>Un progetto è considerato [!UICONTROL On Time] quando il progetto <strong>[!UICONTROL Condition]</strong> è <strong>[!UICONTROL On Target]</strong>. <br>Per ulteriori informazioni su [!UICONTROL Project Conditions], vedere l'articolo <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Overview of Project Condition and Condition Type</a>.</p> <p>La percentuale di <strong>[!UICONTROL On Time]</strong> viene calcolata utilizzando la formula seguente:</p> <p><em>[!UICONTROL Percentuale su Portfoli di lavoro] = Numero di progetti [!UICONTROL nei tempi]/ Numero totale di progetti in uno stato [!UICONTROL corrente] o [!UICONTROL approvato]</em> </p> </td> 
+   <td> <p>Percentuale di progetti nel portfolio considerati come [!UICONTROL On Time]. È visibile da qualsiasi scheda all’interno di un portfolio.</p> <p>Un progetto è considerato [!UICONTROL On Time] quando il progetto <strong>[!UICONTROL Condition]</strong> è <strong>[!UICONTROL On Target]</strong>. <br>Per ulteriori informazioni su [!UICONTROL Project Conditions], vedere l'articolo <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Overview of Project Condition and Condition Type</a>.</p> <p>La percentuale di <strong>[!UICONTROL On Time]</strong> viene calcolata utilizzando la formula seguente:</p> <p><em>[!UICONTROL On Time Portfolio Percentage] = Numero di progetti [!UICONTROL On Time]/ Numero totale di progetti in uno stato [!UICONTROL Current] o [!UICONTROL Approved]</em> </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Nel Budget]</td> 
-   <td> <p>Percentuale di progetti nel portfolio considerati [!UICONTROL On Budget]. Visibile da qualsiasi scheda all'interno di un portfolio [!UICONTROL].</p> <p>I progetti sono <strong>[!UICONTROL Nel Budget]</strong> se non hanno superato il budget predefinito. <br>Per ulteriori informazioni sul budget di un progetto, vedere l'articolo <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">[!UICONTROL Gestisci] informazioni nell'area Finanza progetto</a>.</p> <p>La percentuale di [!UICONTROL nel budget] viene calcolata utilizzando la formula seguente:</p> <p><em>[!UICONTROL Su Percentuale Portfolio Budget] = Numero di progetti [!UICONTROL Su Budget]/ Numero totale di progetti </em><em>in uno stato [!UICONTROL Corrente] o [!UICONTROL Approvato]</em> </p> </td> 
+   <td> <p>Percentuale di progetti nel portfolio considerati [!UICONTROL On Budget]. Visibile da qualsiasi scheda all'interno di un portfolio [!UICONTROL].</p> <p>I progetti sono <strong>[!UICONTROL Nel Budget]</strong> se non hanno superato il budget predefinito. <br>Per ulteriori informazioni sul budget di un progetto, vedere l'articolo <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">[!UICONTROL Gestisci] informazioni nell'area Finanza progetto</a>.</p> <p>La percentuale di [!UICONTROL nel budget] viene calcolata utilizzando la formula seguente:</p> <p><em>[!UICONTROL Percentuale su progetti Portfolio nel budget] = Numero di progetti [!UICONTROL nel budget]/ Numero totale di progetti </em><em>in uno stato [!UICONTROL corrente] o [!UICONTROL approvato]</em> </p> </td> 
   </tr> 
   <tr> 
    <td>ROI (per portfolio)</td> 
-   <td> <p>Il [!UICONTROL Return on Investment] (ROI) per il portfolio viene calcolato prendendo in considerazione il [!UICONTROL Benefit] totale del [!UICONTROL Portfolio] e il totale dei [!UICONTROL Costi preventivati] dei progetti. È visibile da qualsiasi scheda all’interno di un portfolio.</p> <p>Il valore del ROI Portfolio viene calcolato utilizzando la seguente formula:</p> <p><em>ROI Portfolio = ([!UICONTROL Total Benefit] - [!UICONTROL Total Budgeted Cost])/ [!UICONTROL Total Cost] * 100</em> </p> <p>Per ulteriori informazioni sul calcolo del ROI per un progetto, vedere l'articolo <a href="../../../manage-work/projects/project-finances/calculate-roi.md" class="MCXref xref">Calcolare il ROI</a>.</p> </td> 
+   <td> <p>Il [!UICONTROL Return on Investment] (ROI) per il portfolio viene calcolato prendendo in considerazione il [!UICONTROL Benefit] totale di [!UICONTROL Portfolio] e il totale dei [!UICONTROL Budgeted Costs] dei progetti. È visibile da qualsiasi scheda all’interno di un portfolio.</p> <p>Il valore del ROI di Portfolio viene calcolato utilizzando la formula seguente:</p> <p><em>ROI Portfolio = ([!UICONTROL Total Benefit] - [!UICONTROL Total Budgeted Cost])/ [!UICONTROL Total Cost] * 100</em> </p> <p>Per ulteriori informazioni sul calcolo del ROI per un progetto, vedere l'articolo <a href="../../../manage-work/projects/project-finances/calculate-roi.md" class="MCXref xref">Calcolare il ROI</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Allineato] o [!UICONTROL Punteggio Allineamento] </td> 
-   <td> <p>Media di tutti i valori [!UICONTROL Punteggio allineamento progetto], calcolati dopo il completamento della [!UICONTROL Scorecard] nel business case [!UICONTROL] del progetto. Il punteggio di allineamento di ciascun progetto è elencato nella colonna [!UICONTROL Alignment] dell'Ottimizzatore Portfolio [!UICONTROL]. È visibile da qualsiasi scheda all’interno di un portfolio.</p> <p>Per ulteriori informazioni sulla generazione di un punteggio di allineamento per un progetto, vedere l'articolo <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">Applicare una scorecard a un progetto e generare un punteggio di allineamento</a>.</p> </td> 
+   <td> <p>Media di tutti i valori [!UICONTROL Punteggio allineamento progetto], calcolati dopo il completamento della [!UICONTROL Scorecard] nel business case [!UICONTROL] del progetto. Il punteggio di allineamento di ciascun progetto è elencato nella colonna [!UICONTROL Alignment] di [!UICONTROL Portfolio Optimizer]. È visibile da qualsiasi scheda all’interno di un portfolio.</p> <p>Per ulteriori informazioni sulla generazione di un punteggio di allineamento per un progetto, vedere l'articolo <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">Applicare una scorecard a un progetto e generare un punteggio di allineamento</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Valore Netto]</td> 
@@ -99,9 +99,9 @@ I seguenti campi finanziari vengono visualizzati in [!UICONTROL Ottimizzatore Po
  </tbody> 
 </table>
 
-#### Finanziamenti Portfoli per i progetti selezionati {#portfolio-finances-for-selected-projects}
+#### Finanziamenti Portfolio per i progetti selezionati {#portfolio-finances-for-selected-projects}
 
-![](assets/portfolio-finances-for-selected-projects-in-optimizer-nwe-350x29.png)
+![Dati finanziari di Portfolio](assets/portfolio-finances-for-selected-projects-in-optimizer-nwe-350x29.png)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -128,7 +128,7 @@ I seguenti campi finanziari vengono visualizzati in [!UICONTROL Ottimizzatore Po
   </tr> 
   <tr> 
    <td>[!UICONTROL Rimanente]</td> 
-   <td> <p>Il budget rimanente dopo tutti i [!UICONTROL Costi preventivati] su tutti i progetti all'interno del portfolio è stato sottratto dal Budget del portfolio.</p> <p>Il [!UICONTROL Budget Portfolio rimanente] viene calcolato utilizzando la seguente formula:</p> <p><em>[!UICONTROL Budget Portfolio rimanente] = [!UICONTROL Budget Portfolio totale] - Costo preventivato totale [!UICONTROL] di Tutti i progetti Portfolio</em> </p> <p>Il [!UICONTROL Costo preventivato] complessivo di tutti i progetti nel portfolio è rappresentato nella barra degli indicatori sotto il campo Budget. </p> <p>Per ulteriori informazioni sul tracciamento dei costi di un progetto, vedere <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Tracciare i costi</a>.</p> </td> 
+   <td> <p>Il budget rimanente dopo tutti i [!UICONTROL Costi preventivati] su tutti i progetti all'interno del portfolio è stato sottratto dal Budget del portfolio.</p> <p>Il [!UICONTROL Budget Portfolio rimanente] viene calcolato utilizzando la seguente formula:</p> <p><em>[!UICONTROL Budget Portfolio rimanente] = [!UICONTROL Budget Portfolio totale] - Costo preventivato totale [!UICONTROL] di tutti i progetti Portfolio</em> </p> <p>Il [!UICONTROL Costo preventivato] complessivo di tutti i progetti nel portfolio è rappresentato nella barra degli indicatori sotto il campo Budget. </p> <p>Per ulteriori informazioni sul tracciamento dei costi di un progetto, vedere <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Tracciare i costi</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Costo Totale]</td> 
@@ -149,11 +149,11 @@ I seguenti campi finanziari vengono visualizzati in [!UICONTROL Ottimizzatore Po
  </tbody> 
 </table>
 
-## Personalizza [!UICONTROL Ottimizzatore Portfolio]
+## Personalizza [!UICONTROL Portfolio Optimizer]
 
-È possibile personalizzare solo l&#39;area dell&#39;elenco dei progetti di [!UICONTROL Ottimizzatore Portfolio] utilizzando le impostazioni per modificare le informazioni nell&#39;elenco.
+È possibile personalizzare solo l&#39;area dell&#39;elenco dei progetti di [!UICONTROL Portfolio Optimizer] utilizzando le impostazioni per modificare le informazioni nell&#39;elenco.
 
-Le icone e le opzioni seguenti sono disponibili per [!UICONTROL Ottimizzatore Portfolio]:
+Le icone e le opzioni seguenti sono disponibili per [!UICONTROL Portfolio Optimizer]:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -161,7 +161,7 @@ Le icone e le opzioni seguenti sono disponibili per [!UICONTROL Ottimizzatore Po
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Icona in Ottimizzatore Portfolio</strong></td> 
+   <td><strong>Icona in Portfolio Optimizer</strong></td> 
    <td><strong>Nome</strong></td> 
    <td><strong>Funzione</strong></td> 
   </tr> 
@@ -197,7 +197,7 @@ Le icone e le opzioni seguenti sono disponibili per [!UICONTROL Ottimizzatore Po
   <tr> 
    <td> <img src="assets/nwe-export-optimizer-icon-350x173.png" style="width: 350;height: 173;"> </td> 
    <td>[!UICONTROL Export] </td> 
-   <td> <p>Utilizzare questa icona per esportare i dati nell'area di [!UICONTROL Project Prioritization] di [!UICONTROL Portfolio Optimizer]. Puoi esportarlo nei seguenti formati:</p> 
+   <td> <p>Utilizzare questa icona per esportare i dati nell'area [!UICONTROL Project Prioritization] di [!UICONTROL Portfolio Optimizer]. Puoi esportarlo nei seguenti formati:</p> 
     <ul> 
      <li>PDF</li> 
      <li>[!DNL Excel]</li> 

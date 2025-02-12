@@ -6,9 +6,9 @@ description: Informazioni su come livellare le risorse nel Diagramma di Gantt.
 author: Alina
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Quando si livellano le risorse in un progetto, considera quanto segue:
 * Le relazioni con i predecessori avranno la precedenza sul livellamento delle risorse.
 * **[!UICONTROL Il livellamento delle risorse]** deve essere impostato su **[!UICONTROL Manuale]** per il progetto al fine di regolare il livellamento nel [!UICONTROL Diagramma di Gantt]. Se disponi delle autorizzazioni di gestione per il progetto, puoi far sì che il sistema livelli automaticamente le risorse regolando questa impostazione sul progetto e selezionando **[!UICONTROL Automatico]** invece di **[!UICONTROL Manuale]** nella casella **[!UICONTROL Modifica progetto]**.
 
-  ![](assets/resource-leveling-mode-350x177.png)
+  ![Modalità livellamento risorse](assets/resource-leveling-mode-350x177.png)
 
 * In qualità di proprietario del progetto o di assegnatario dell&#39;attività, è possibile introdurre un ritardo di livellamento per un&#39;attività per indicare che è molto probabile che l&#39;attività richieda più tempo. Per informazioni sull&#39;aggiunta di un ritardo di livellamento a un&#39;attività, vedere [Aggiorna ritardo di livellamento attività](../../../manage-work/tasks/task-information/task-leveling-delay.md).
 
@@ -83,7 +83,7 @@ Quando si livellano le risorse in un progetto, considera quanto segue:
    >
    >Impossibile livellare le risorse nel [!UICONTROL Diagramma di Gantt] quando è abilitata l&#39;opzione [!UICONTROL Salvataggio automatico].
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![Impostazione manuale abilitata](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Fai clic sul menu a discesa **[!UICONTROL Risorse di livello]**.
 

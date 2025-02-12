@@ -6,9 +6,9 @@ description: È possibile visualizzare i problemi associati a un progetto, un'at
 author: Alina
 feature: Work Management
 exl-id: b6791c8f-b356-4235-8b0e-952e29a88952
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1038'
 ht-degree: 0%
 
 ---
@@ -142,7 +142,7 @@ Per accedere a un problema e visualizzarne le informazioni:
 
 Per aggiungere icone che mostrano se un progetto presenta problemi in un report di progetto:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront.
 1. Fai clic su **Generazione rapporti** > **Nuovo rapporto** > **Rapporto progetto**.
 1. Nel campo **Mostra in questa colonna**, inizia a digitare **Icone di stato**, quindi selezionala quando viene visualizzata nell&#39;elenco.
 

@@ -6,9 +6,9 @@ description: È possibile collegare manualmente la risoluzione di un problema al
 author: Alina
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Prima di iniziare, è necessario:
 1. Passare a un problema la cui risoluzione si desidera associare alla risoluzione di un altro problema o alla risoluzione di un&#39;attività o di un progetto.
 1. Fai clic su **Dettagli problema** nel pannello a sinistra, quindi espandi l&#39;area **Panoramica**.
 
-   ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
+   ![Icona Dettagli problema](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
 1. Fai clic sul campo **Risolto da** e seleziona uno dei seguenti tipi di oggetti di risoluzione:
 

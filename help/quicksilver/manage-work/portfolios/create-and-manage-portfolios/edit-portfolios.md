@@ -6,9 +6,9 @@ description: Puoi modificare le informazioni sui portfolio che hai creato o che 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1029'
 ht-degree: 1%
 
 ---
@@ -32,13 +32,13 @@ Puoi modificare un [!UICONTROL portfolio] nella pagina del portfolio oppure puoi
    <td> <p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] licenze*</td> 
+   <td role="rowheader">Licenze Adobe [!DNL Workfront]*</td> 
    <td> <p>Nuovo: Standard</p>
    <p>Corrente: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Livello di accesso</td> 
-   <td> <p>Accesso a [!UICONTROL Edit] ai Portfoli</p>  </td> 
+   <td> <p>Accesso di [!UICONTROL Edit] ai portfolio</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
@@ -59,7 +59,7 @@ Puoi modificare un [!UICONTROL portfolio] nella pagina del portfolio oppure puoi
 1. Fai clic sul nome di un portfolio per aprirlo.
 1. (Facoltativo) Per modificare informazioni limitate sul portfolio, fai clic su **[!UICONTROL Dettagli Portfolio]** nel pannello a sinistra.
 
-   ![](assets/portfolio-details-tab-nwe-350x163.png)
+   ![Scheda Dettagli Portfolio](assets/portfolio-details-tab-nwe-350x163.png)
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the note below will also be true for Edit Portfolio box)</p>
@@ -72,10 +72,10 @@ Puoi modificare un [!UICONTROL portfolio] nella pagina del portfolio oppure puoi
    Per modificare le informazioni nella sezione [!UICONTROL Dettagli], eseguire le operazioni seguenti:
 
    1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Comprimi tutto]** nell&#39;angolo superiore destro per comprimere tutte le aree.
-   1. (Facoltativo e condizionale) Quando un&#39;area è compressa, fare clic sulla **freccia rivolta a destra** ![](assets/right-pointing-arrow.png) accanto a ogni area per espandere l&#39;area che si desidera modificare.
+   1. (Facoltativo e condizionale) Quando un&#39;area è compressa, fare clic sulla **freccia rivolta a destra** ![freccia rivolta a destra](assets/right-pointing-arrow.png) accanto a ogni area per espandere l&#39;area che si desidera modificare.
    1. Per informazioni sui campi visibili nella sezione [!UICONTROL Dettagli Portfolio], continuare a modificare il portfolio nella casella [!UICONTROL Modifica Portfolio] come descritto di seguito.
    1. (Facoltativo) Se non sono presenti moduli personalizzati allegati al portfolio, inizia a digitare il nome di un modulo nel campo **[!UICONTROL Aggiungi modulo personalizzato]**, selezionalo quando viene visualizzato nell&#39;elenco, quindi fai clic su **[!UICONTROL Salva modifiche]**.
-   1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Esporta]** ![](assets/export.png) per esportare le informazioni [!UICONTROL Panoramica] e moduli personalizzati in un file PDF, quindi fai clic su **[!UICONTROL Esporta]**. Selezionare una delle opzioni seguenti:
+   1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Esporta]** ![Icona Esporta](assets/export.png) per esportare le informazioni di [!UICONTROL Panoramica] e moduli personalizzati in un file PDF, quindi fai clic su **[!UICONTROL Esporta]**. Selezionare una delle opzioni seguenti:
 
       * Seleziona tutto (viene visualizzato solo se è allegato almeno un modulo personalizzato)
       * Panoramica
@@ -83,7 +83,7 @@ Puoi modificare un [!UICONTROL portfolio] nella pagina del portfolio oppure puoi
 
       Il file PDF viene scaricato nel computer.
 
-      ![](assets/export-portfolio-details-box-with-export-button-350x368.png)
+      ![Esporta dettagli portfolio](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
       Per ulteriori informazioni, vedere [Esportare moduli personalizzati e dettagli oggetto](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
@@ -100,14 +100,14 @@ Puoi modificare un [!UICONTROL portfolio] nella pagina del portfolio oppure puoi
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will change in NWE with a new Edit Portfolio UI)</p>   
      -->
 
-   * Vai a un elenco di portfolio e seleziona uno o più portfolio da modificare, quindi fai clic sull&#39;icona **[!UICONTROL Modifica]** ![](assets/edit-icon.png) nella parte superiore dell&#39;elenco.
+   * Vai a un elenco di portfolio e seleziona uno o più portfolio da modificare, quindi fai clic sull&#39;icona **[!UICONTROL Modifica]** ![Modifica icona](assets/edit-icon.png) nella parte superiore dell&#39;elenco.
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to split into another section when they release the new [!UICONTROL Edit Portfolio] UI)</p>   
      -->
    Viene visualizzata la finestra di dialogo **[!UICONTROL Modifica Portfolio]**.
 
-   ![](assets/edit-portfolio-box-classic-350x224.png)
+   ![Modifica casella portfolio](assets/edit-portfolio-box-classic-350x224.png)
 
    Tutti i campi portfolio sono disponibili nella casella [!UICONTROL Modifica Portfolio] e sono raggruppati per le aree elencate nel pannello sinistro.
 
@@ -143,11 +143,11 @@ Puoi modificare un [!UICONTROL portfolio] nella pagina del portfolio oppure puoi
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Descrizione]</td> 
-      <td> <p>Digitare una descrizione per il Portfolio per indicare l'elemento univoco. </p> </td> 
+      <td> <p>Digita una descrizione per Portfolio per indicare cosa c’è di univoco. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Gestione Portfoli]</td> 
-      <td> <p>Inizia a digitare il nome di un utente che desideri indicare come gestore del portfolio, quindi selezionalo quando viene visualizzato nell’elenco. Corrisponde al proprietario del Portfolio [!UICONTROL]. Questa è la persona che può supervisionare il lavoro definito nei progetti del portfolio e può approvare il Business Case.</p> <p>Importante: quando si designa un utente come manager di Portfolio, questi ottiene automaticamente le autorizzazioni [!UICONTROL Manage] per il portfolio, i programmi e i progetti in esso contenuti. </p> <p>Suggerimento: puoi aggiornare rapidamente il gestore portfolio nell’intestazione del portfolio. </p> </td> 
+      <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
+      <td> <p>Inizia a digitare il nome di un utente che desideri indicare come gestore del portfolio, quindi selezionalo quando viene visualizzato nell’elenco. È lo stesso del [!UICONTROL Portfolio Owner]. Questa è la persona che può supervisionare il lavoro definito nei progetti del portfolio e può approvare il Business Case.</p> <p>Importante: quando si designa un utente come Portfolio Manager, questi ottiene automaticamente le autorizzazioni [!UICONTROL Manage] per il portfolio, i programmi e i progetti in esso contenuti. </p> <p>Suggerimento: puoi aggiornare rapidamente il gestore portfolio nell’intestazione del portfolio. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Group]</td> 
@@ -155,7 +155,7 @@ Puoi modificare un [!UICONTROL portfolio] nella pagina del portfolio oppure puoi
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">[!UICONTROL Allineamento Scorecard]</p> </td> 
-      <td> <p>Selezionare la scorecard di allineamento che si desidera utilizzare dall'elenco a discesa. Una scorecard viene utilizzata per misurare il livello di allineamento di un progetto con i criteri stabiliti di un Portfolio, che spesso riflettono la missione, i valori e gli obiettivi strategici di un’organizzazione. Per ulteriori informazioni, vedere <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">Applicare una scorecard a un progetto e generare un punteggio di allineamento</a> e <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">Creare una scorecard</a>.</p> </td> 
+      <td> <p>Selezionare la scorecard di allineamento che si desidera utilizzare dall'elenco a discesa. Una scorecard viene utilizzata per misurare il livello di allineamento di un progetto con i criteri stabiliti di un Portfolio, spesso riflettendo la missione, i valori e gli obiettivi strategici di un’organizzazione. Per ulteriori informazioni, vedere <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">Applicare una scorecard a un progetto e generare un punteggio di allineamento</a> e <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">Creare una scorecard</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL È Attivo]</td> 
@@ -184,7 +184,7 @@ Puoi modificare un [!UICONTROL portfolio] nella pagina del portfolio oppure puoi
 1. Inizia a modificare un portfolio come descritto in precedenza.
 1. Fai clic su **[!UICONTROL Commento]**.
 
-   ![](assets/comment-box-edit-portfolio-classic-350x227.png)
+   ![Casella Modifica commento portfolio](assets/comment-box-edit-portfolio-classic-350x227.png)
 
 1. Aggiungi un commento in **[!UICONTROL Pubblica un aggiornamento per il campo portfolio]**.
 1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Persone]** per aggiungere un utente o un team al commento.

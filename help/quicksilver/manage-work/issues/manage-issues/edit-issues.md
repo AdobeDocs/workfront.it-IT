@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '2523'
+source-wordcount: '2551'
 ht-degree: 2%
 
 ---
@@ -45,7 +45,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Autorizzazioni di Contribute per un problema che consente di modificare i campi seguenti nell’area Dettagli: </p>
+   <td> <p>Autorizzazioni di Contribute a un problema per modificare i campi seguenti nell’area Dettagli: </p>
    <ul>
    <li>Descrizione</li>
    <li>Stato</li>
@@ -74,7 +74,7 @@ Esistono alcune limitazioni che potrebbero impedire la modifica dei problemi.
 1. (Facoltativo) Fai clic su **Attività**, quindi fai clic sul nome di un&#39;attività per aprirla.
 1. Fai clic su **Problemi** nel pannello a sinistra.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![Icona problemi](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. (Facoltativo) Per modificare informazioni limitate su un problema, fai clic su **Dettagli problema** nel pannello a sinistra.
 
@@ -85,9 +85,9 @@ Esistono alcune limitazioni che potrebbero impedire la modifica dei problemi.
    Per modificare le informazioni nella sezione Dettagli, effettuare le seguenti operazioni:
 
    1. (Facoltativo) Fai clic sull&#39;icona **Comprimi tutto** nell&#39;angolo superiore destro per comprimere tutte le aree.
-   1. (Facoltativo e condizionale) Quando un&#39;area è compressa, fare clic sulla **freccia rivolta a destra** ![](assets/right-pointing-arrow.png) accanto a ogni area per espandere l&#39;area che si desidera modificare.
+   1. (Facoltativo e condizionale) Quando un&#39;area è compressa, fare clic sulla **freccia rivolta a destra** ![freccia rivolta a destra](assets/right-pointing-arrow.png) accanto a ogni area per espandere l&#39;area che si desidera modificare.
    1. (Facoltativo) Per allegare un modulo personalizzato, inizia a digitare il nome di un modulo nel campo **Aggiungi modulo personalizzato**, quindi selezionalo quando viene visualizzato nell&#39;elenco, quindi fai clic su **Salva modifiche**.
-   1. (Facoltativo) Fai clic sull&#39;icona **Esporta** ![](assets/export.png) per esportare le informazioni sulla panoramica e sui moduli personalizzati in un file PDF, quindi fai clic su **Esporta**. Selezionare una delle opzioni seguenti:
+   1. (Facoltativo) Fai clic sull&#39;icona **Esporta** ![Icona Esporta](assets/export.png) per esportare le informazioni sulla panoramica e sui moduli personalizzati in un file PDF, quindi fai clic su **Esporta**. Selezionare una delle opzioni seguenti:
 
       * Seleziona tutto (viene visualizzato solo se è allegato almeno un modulo personalizzato)
       * Panoramica
@@ -95,7 +95,7 @@ Esistono alcune limitazioni che potrebbero impedire la modifica dei problemi.
 
       Il file PDF viene scaricato nel computer.
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![Esporta dettagli problema](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       Per ulteriori informazioni, vedere [Esportare moduli personalizzati e dettagli oggetto](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
@@ -134,7 +134,7 @@ Esistono alcune limitazioni che potrebbero impedire la modifica dei problemi.
 1. Inizia a modificare un problema come descritto in precedenza.
 1. Fai clic su **Nome problema**.
 
-   ![](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
+   ![Sezione nome problema](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
 
 1. Aggiorna il campo **Nome problema**.
 1. Fai clic su **Salva** o continua a modificare le sezioni seguenti.
@@ -144,7 +144,7 @@ Esistono alcune limitazioni che potrebbero impedire la modifica dei problemi.
 1. Inizia a modificare un problema come descritto in precedenza.
 1. Fare clic su **Panoramica**.
 
-   ![](assets/overview-section-edit-issue-box-nwe-350x284.png)
+   ![Sezione panoramica problema](assets/overview-section-edit-issue-box-nwe-350x284.png)
 
 1. Aggiornare o rivedere uno dei campi della tabella seguente:
 
@@ -271,7 +271,7 @@ Esistono alcune limitazioni che potrebbero impedire la modifica dei problemi.
 1. Inizia a modificare il problema come descritto in precedenza.
 1. Fai clic su **Assegnazioni** nel pannello a sinistra.
 
-   ![](assets/assignments-section-edit-issue-box-nwe-350x230.png)
+   ![Sezione assegnazioni problemi](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
 1. Fai clic su **Cerca persone, mansione e team** e inizia a digitare il nome di un utente, una mansione o un team che desideri assegnare all&#39;attività, quindi fai clic su di esso o premi Invio quando viene visualizzato nell&#39;elenco.
 
@@ -322,7 +322,7 @@ Esistono alcune limitazioni che potrebbero impedire la modifica dei problemi.
 1. Inizia a modificare un problema come descritto in precedenza.
 1. Fare clic su **Forms personalizzato**.
 
-   ![](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
+   ![Sezione moduli personalizzati problema](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
 
 1. Nel campo **Aggiungi modulo personalizzato**, seleziona il modulo o i moduli personalizzati che desideri associare al problema. Devi creare i moduli personalizzati prima che siano disponibili per la selezione in questo campo. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). A un problema è possibile aggiungere fino a dieci moduli personalizzati.
 
@@ -339,7 +339,7 @@ Esistono alcune limitazioni che potrebbero impedire la modifica dei problemi.
 1. Inizia a modificare un problema come descritto in precedenza.
 1. Fare clic su **Impostazioni**.
 
-   ![](assets/settings-section-edit-issue-box-nwe-350x240.png)
+   ![Icona impostazioni problema](assets/settings-section-edit-issue-box-nwe-350x240.png)
 
    Aggiorna le seguenti informazioni:
 
@@ -383,7 +383,7 @@ Puoi modificare una quantità limitata di informazioni nell’intestazione del p
 
 L’amministratore di sistema o di gruppo può personalizzare i campi visualizzati nell’intestazione del problema. Per informazioni, vedere [Personalizzare le intestazioni degli oggetti utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-![](assets/issue-header-350x19.png)
+![Intestazione problema](assets/issue-header-350x19.png)
 
 I seguenti campi sono inclusi nell’intestazione del problema, per impostazione predefinita:
 

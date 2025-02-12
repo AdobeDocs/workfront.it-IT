@@ -6,9 +6,9 @@ description: È possibile definire una priorità per un problema per indicare l'
 author: Alina
 feature: Work Management
 exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '371'
 ht-degree: 3%
 
 ---
@@ -103,7 +103,7 @@ Per informazioni su ciascuna etichetta di priorità predefinita e sul relativo n
 
 1. Fare clic sul campo **Priorità** nell&#39;area **Informazioni di base**.
 
-   ![](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
+   ![Priorità problema](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
 
 1. Selezionare un valore per il campo **Priorità**.
 

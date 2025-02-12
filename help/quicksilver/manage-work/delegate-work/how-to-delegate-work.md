@@ -6,9 +6,9 @@ description: Puoi delegare temporaneamente il lavoro che ti è stato assegnato m
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Per delegare le tue attività e i tuoi problemi ad altri:
 
 1. Fai clic su [!UICONTROL **Delega**] nell&#39;angolo superiore sinistro dei widget [!UICONTROL **Il mio lavoro**], [!UICONTROL **Le mie attività**] o [!UICONTROL **I miei problemi**].
 
-   ![](assets/delegate-button-on-my-work-widget.png)
+   ![Pulsante Delega](assets/delegate-button-on-my-work-widget.png)
 
 1. Aggiorna quanto segue:
 
@@ -133,7 +133,7 @@ Per delegare le tue attività e i tuoi problemi ad altri:
      >
      >Se si lascia vuoto il campo Data di fine e l&#39;opzione Nessuna data di fine non è selezionata, la delega viene impostata solo per il giorno corrente.
 
-     ![](assets/delegate-box-expanded-in-home.png)
+     ![Casella dei delegati espansa](assets/delegate-box-expanded-in-home.png)
      <!--check screen shot - submitted bug for casing-->
 
 1. Fai clic su [!UICONTROL **Salva**].
@@ -158,7 +158,7 @@ Per delegare le tue attività e i tuoi problemi ad altri:
       </MadCap:conditionalText>
       -->
 
-     ![](assets/edit-delegation-button-on-my-work-widget.png)
+     ![Pulsante Modifica delega](assets/edit-delegation-button-on-my-work-widget.png)
 
    * Se le notifiche degli eventi e le notifiche personali sono abilitate, riceverai anche una conferma via e-mail della tua delega.
 
@@ -179,7 +179,7 @@ Puoi lasciare scadere una delega se hai selezionato una Data di fine oppure puoi
    >
    >    Se la delega è già stata avviata, è possibile modificare solo la data di fine della delega.
 
-   ![](assets/stop-delegation-box-new-home-tasks-and-issues.png)
+   ![Pulsante Interrompi delega](assets/stop-delegation-box-new-home-tasks-and-issues.png)
 
 1. (Condizionale) fai clic su [!UICONTROL **Salva**] per salvare le nuove date di delega
 
@@ -213,11 +213,11 @@ Puoi accedere alla casella [!UICONTROL Assegnazioni] nelle seguenti aree:
 
   Il campo [!UICONTROL Assegnazioni] nell&#39;intestazione dell&#39;attività o del problema diventa [!UICONTROL Assegnazioni e deleghe].
 
-  ![](assets/assignments-and-delegates-panel-in-task-header.png)
+  ![Pannello Assegnazioni e delegati nell&#39;intestazione dell&#39;attività](assets/assignments-and-delegates-panel-in-task-header.png)
 
 * Il [!UICONTROL Bilanciatore dei carichi di lavoro] quando si assegnano manualmente attività o problemi
 
-  ![](assets/assignments-and-delegates-panel-in-workload-balancer.png)
+  ![Pannello assegnazioni e deleghe nel Bilanciatore](assets/assignments-and-delegates-panel-in-workload-balancer.png)
 
 >[!NOTE]
 >
@@ -240,7 +240,7 @@ Se un&#39;attività o un problema è delegato e la scheda secondaria [!UICONTROL
    * [!UICONTROL **Delegata a me**]: per visualizzare le attività e i problemi delegati a te da un altro utente.
    * [!UICONTROL **Delegato da me**]: per visualizzare le attività e i problemi da te delegati ad altri utenti.
 
-     ![](assets/delegated-tasks-and-issues-new-home-filter.png)
+     ![Filtro attività e problemi delegati](assets/delegated-tasks-and-issues-new-home-filter.png)
 
 1. (Facoltativo) Fai clic sul menu a discesa [!UICONTROL **Ordina**] per ordinare l&#39;elenco in base ai seguenti criteri:
    * [!UICONTROL Data di scadenza]. Questa è l’opzione di ordinamento predefinita.

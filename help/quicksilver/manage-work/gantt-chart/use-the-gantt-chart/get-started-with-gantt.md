@@ -6,9 +6,9 @@ description: I grafici di Gantt in Adobe Workfront forniscono una rappresentazio
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '538'
 ht-degree: 1%
 
 ---
@@ -69,9 +69,9 @@ Per accedere all&#39;elenco attività [!UICONTROL Grafico di Gantt] di un proget
    * Un&#39;attività o un modello, quindi fai clic su [!UICONTROL **Attività secondarie**] nel pannello a sinistra.
    * Un rapporto di attività
 
-1. Fai clic sull&#39;icona [!UICONTROL **Gantt**] ![](assets/gantt-icon-nwe.png) nella parte superiore dell&#39;elenco delle attività.
+1. Fai clic sull&#39;icona [!UICONTROL **Gantt**] ![Gantt icon](assets/gantt-icon-nwe.png) nella parte superiore dell&#39;elenco delle attività.
 
-   ![](assets/task-list-gantt.png)
+   ![Gantt elenco attività](assets/task-list-gantt.png)
 
    L&#39;elenco attività [!UICONTROL Grafico di Gantt] si apre a destra dell&#39;elenco attività.
 
@@ -114,7 +114,7 @@ Per accedere all&#39;elenco dei progetti [!UICONTROL Grafico di Gantt]:
 
 1. Fai clic sull&#39;icona [!UICONTROL **Gantt**] in alto nell&#39;elenco dei progetti.
 
-   ![](assets/project-list-gantt.png)
+   ![Gantt elenco progetti](assets/project-list-gantt.png)
 
    Verrà aperto l&#39;elenco dei progetti [!UICONTROL Grafico di Gantt].
 

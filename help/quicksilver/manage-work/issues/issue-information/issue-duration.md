@@ -6,9 +6,9 @@ description: La durata di un problema è il numero di giorni tra la data di iniz
 author: Alina
 feature: Work Management
 exl-id: 5a8f7c74-21e4-4e90-bb55-b4ff6e35a751
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
@@ -23,4 +23,4 @@ La durata di un problema viene calcolata automaticamente da Adobe Workfront e no
 
 Per ulteriori informazioni sulla creazione di un report, vedere [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-![](assets/nwe-issue-duration-view-highlighted-350x73.png)
+![Visualizzazione durata problema](assets/nwe-issue-duration-view-highlighted-350x73.png)

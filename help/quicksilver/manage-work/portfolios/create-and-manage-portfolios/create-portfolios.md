@@ -2,13 +2,13 @@
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
 title: Creare un portfolio
-description: Un Portfolio è una raccolta di progetti in concorrenza per le stesse risorse, budget e pianificazione. I progetti di un Portfolio sono abbastanza simili da utilizzare lo stesso Pool di Risorse ed essere misurati sulla stessa scorecard.
+description: Un Portfolio è una raccolta di progetti in competizione per le stesse risorse, budget e pianificazione. I progetti in un Portfolio sono abbastanza simili da utilizzare lo stesso Pool di Risorse e venire misurati sulla stessa scorecard.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '671'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 <!--Audited: 7/2024-->
 
-Un Portfolio è una raccolta di progetti in concorrenza per le stesse risorse, budget e pianificazione. I progetti di un Portfolio sono abbastanza simili da utilizzare lo stesso Pool di Risorse ed essere misurati sulla stessa scorecard.
+Un Portfolio è una raccolta di progetti in competizione per le stesse risorse, budget e pianificazione. I progetti in un Portfolio sono abbastanza simili da utilizzare lo stesso Pool di Risorse e venire misurati sulla stessa scorecard.
 
-È possibile utilizzare i Portfoli per raggruppare progetti appartenenti alle stesse linee di prodotti, divisioni, reparti, società o altre unità aziendali.
+È possibile utilizzare i portafogli per raggruppare progetti appartenenti alle stesse linee di prodotti, divisioni, reparti, società o altre unità aziendali.
 
 ## Requisiti di accesso
 
@@ -40,7 +40,7 @@ Un Portfolio è una raccolta di progetti in concorrenza per le stesse risorse, b
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso a [!UICONTROL Edit] ai Portfoli</p>  </td> 
+   <td> <p>Accesso di [!UICONTROL Edit] ai portfolio</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
@@ -57,7 +57,7 @@ Un Portfolio è una raccolta di progetti in concorrenza per le stesse risorse, b
 
 Puoi creare un portfolio in Workfront utilizzando uno dei seguenti metodi:
 
-* Crea un portfolio da zero a partire dall’area Portfoli del menu principale. Questo articolo descrive come creare un portfolio da zero.
+* Crea un portfolio da zero a partire dall’area Portfolio del menu principale. Questo articolo descrive come creare un portfolio da zero.
 
 * Importa un portfolio utilizzando le funzioni di avvio.
 
@@ -78,15 +78,15 @@ Puoi creare un portfolio in Workfront utilizzando uno dei seguenti metodi:
 
 {{step1-click-main-menu}}
 
-1. Fai clic su **[!UICONTROL Portfoli]**.
+1. Fai clic su **[!UICONTROL Portfolio]**.
 1. Fare clic su **[!UICONTROL Nuovo Portfolio]**.
 1. Sostituisci **[!UICONTROL Portfolio senza titolo]** con il nome desiderato per il portfolio.
 
    Il nome può contenere fino a 255 caratteri.
 
-1. (Facoltativo) Fai clic sul nome in **[!UICONTROL Responsabile di Portfolio]** nell&#39;intestazione nella parte superiore della pagina per assegnare un altro responsabile per il portfolio.
+1. (Facoltativo) Fai clic sul nome in **[!UICONTROL Portfolio Manager]** nell&#39;intestazione nella parte superiore della pagina per assegnare un manager diverso per il portfolio.
 
-   ![](assets/portfolio-manager-name-350x51.jpg)
+   ![Nome manager Portfolio](assets/portfolio-manager-name-350x51.jpg)
 
    In qualità di creatore del portfolio, per impostazione predefinita ti viene assegnato il ruolo di gestore del portfolio.
 
@@ -99,11 +99,11 @@ Puoi creare un portfolio in Workfront utilizzando uno dei seguenti metodi:
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Descrizione]</td> 
-      <td> <p>Digitare una descrizione per il Portfolio per indicare l'elemento univoco. </p> </td> 
+      <td> <p>Digita una descrizione per Portfolio per indicare cosa c’è di univoco. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Gestione Portfoli]</td> 
-      <td> <p>Inizia a digitare il nome di un utente che desideri indicare come gestore del portfolio, quindi selezionalo quando viene visualizzato nell’elenco. Corrisponde al proprietario del Portfolio [!UICONTROL]. Questa è la persona che può supervisionare il lavoro definito nei progetti del portfolio e può approvare il Business Case.</p> <p>Importante: quando si designa un utente come [!UICONTROL Portfolio Manager], questi ottiene automaticamente le autorizzazioni [!UICONTROL Manage] per il portfolio, i programmi e i progetti in esso contenuti. </p> <p>Suggerimento: è inoltre possibile aggiornare [!UICONTROL Portfolio Manager] nell'intestazione nella parte superiore della pagina.</p> </td> 
+      <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
+      <td> <p>Inizia a digitare il nome di un utente che desideri indicare come gestore del portfolio, quindi selezionalo quando viene visualizzato nell’elenco. È lo stesso del [!UICONTROL Portfolio Owner]. Questa è la persona che può supervisionare il lavoro definito nei progetti del portfolio e può approvare il Business Case.</p> <p>Importante: quando si designa un utente come [!UICONTROL Portfolio Manager], questi ottiene automaticamente le autorizzazioni [!UICONTROL Manage] per il portfolio, i programmi e i progetti in esso contenuti. </p> <p>Suggerimento: è inoltre possibile aggiornare [!UICONTROL Portfolio Manager] nell'intestazione nella parte superiore della pagina.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Gruppo </td> 

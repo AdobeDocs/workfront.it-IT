@@ -6,9 +6,9 @@ description: È consigliabile aggiungere progetti ai portfolio quando vengono av
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Quando aggiungi progetti ai portfolio, tieni presente quanto segue:
   </tr> 
   <tr> 
    <td role="rowheader">Livello di accesso</td> 
-   <td> <p>Portfoli di accesso a [!UICONTROL Edit]</p> <p>Accesso [!UICONTROL Edit] ai progetti</p> </td> 
+   <td> <p>Portafogli di accesso a [!UICONTROL Edit]</p> <p>Accesso [!UICONTROL Edit] ai progetti</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
@@ -61,7 +61,7 @@ Quando aggiungi progetti ai portfolio, tieni presente quanto segue:
 
 1. Vai a un portfolio, quindi fai clic su **[!UICONTROL Progetti]** nel pannello a sinistra.
 
-   ![](assets/qs-portfolio-with-projects-350x90.png)
+   ![Portfolio con progetti](assets/qs-portfolio-with-projects-350x90.png)
 
 1. Fare clic su **[!UICONTROL Nuovo progetto]** e selezionare un metodo per aggiungere un progetto.
 
@@ -98,11 +98,11 @@ Quando aggiungi progetti ai portfolio, tieni presente quanto segue:
     </tbody> 
    </table>
 
-   ![](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
+   ![Menu a discesa Nuovo progetto](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
 1. (Condizionale) Se hai selezionato di aggiungere un progetto esistente, inizia a digitare il nome di un progetto nella casella **[!UICONTROL Aggiungi progetti]** e fai clic su di esso quando viene visualizzato nell&#39;elenco. Puoi aggiungere più progetti alla volta.
 
-   ![](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
+   ![Aggiungi progetto esistente](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
 
 1. Fai clic su **[!UICONTROL Aggiungi progetti]**.
 

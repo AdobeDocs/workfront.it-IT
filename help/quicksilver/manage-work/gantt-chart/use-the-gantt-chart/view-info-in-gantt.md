@@ -5,9 +5,9 @@ description: Nell'elenco delle attività Diagramma di Gantt e nell'elenco dei pr
 author: Alina
 feature: Work Management
 exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Per ulteriori informazioni sulle attività nel [!UICONTROL Percorso critico], ve
 È possibile visualizzare le informazioni sulle attività di un progetto direttamente da un elenco di progetti nelle aree seguenti:
 
 * Nell&#39;area [!UICONTROL Progetti]
-* Entro un Portfolio
+* All’interno di un Portfolio
 * All’interno di un programma
 
 Per visualizzare le attività di un progetto da un elenco di progetti:
@@ -79,7 +79,7 @@ Per visualizzare le attività di un progetto da un elenco di progetti:
 
    Viene visualizzato un elenco di progetti.
 
-1. Fai clic sull&#39;icona ![](assets/gantt-icon-nwe.png) del **[!UICONTROL Grafico di Gantt]** nell&#39;angolo superiore destro dello schermo.
+1. Fai clic sull&#39;icona **[!UICONTROL Grafico di Gantt]** ![Icona di Gantt](assets/gantt-icon-nwe.png) nell&#39;angolo superiore destro dello schermo.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: images conditioned for classic and nwe) <br></p>
@@ -113,7 +113,7 @@ Per visualizzare le attività di un progetto da un elenco di progetti:
 
 1. Nel [!UICONTROL Diagramma di Gantt], fare clic sul menu a discesa dell&#39;intervallo di tempo.
 
-   ![](assets/timeline-options.png)
+   ![Opzioni sequenza temporale](assets/timeline-options.png)
 
 1. Seleziona un intervallo di tempo tra le seguenti opzioni disponibili:
 

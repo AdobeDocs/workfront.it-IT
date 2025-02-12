@@ -6,9 +6,9 @@ description: È possibile modificare un singolo problema oppure modificare i pro
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '896'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Autorizzazioni Contribute o superiori per il problema</p> <p> Per informazioni sulla concessione delle autorizzazioni per i problemi, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Condividere un problema </a></p> <p>Per informazioni sulla richiesta di autorizzazioni aggiuntive, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Contribuire o accedere ad autorizzazioni superiori per il problema</p> <p> Per informazioni sulla concessione delle autorizzazioni per i problemi, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Condividere un problema </a></p> <p>Per informazioni sulla richiesta di autorizzazioni aggiuntive, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,7 +65,7 @@ Per modificare in linea un problema:
 1. Consente di passare a un elenco di problemi in un progetto o in un&#39;attività.
 1. Fai clic all’interno di qualsiasi campo per il quale disponi delle autorizzazioni necessarie per aggiornare manualmente. Il campo diventa modificabile e puoi apportare le modifiche.
 
-   ![](assets/edit-issues-inline-350x34.png)
+   ![Modifica problemi in linea](assets/edit-issues-inline-350x34.png)
 
 1. Per accettare le modifiche, premi Invio. Le modifiche vengono salvate immediatamente.
 
@@ -76,9 +76,9 @@ Per modificare in linea un problema:
 1. Consente di passare a un elenco di problemi in un progetto o in un&#39;attività.
 1. Effettua una delle seguenti operazioni
 
-   * Selezionare il problema nell&#39;elenco, quindi fare clic sull&#39;icona Modifica ![](assets/qs-edit-icon.png) nella barra degli strumenti.
-   * Fai clic sul **Altro menu** ![](assets/more-icon-task-list.png) a destra del nome del problema, quindi fai clic su **Apri in una nuova scheda**. Verrà aperta la pagina del problema in una nuova scheda. Fai clic su **Altro** > **Modifica** dalla pagina del problema.
-   * Fai clic sul menu **Altro** ![](assets/more-icon-task-list.png) a destra del nome del problema, quindi fai clic su **Modifica**.
+   * Seleziona il problema nell&#39;elenco, quindi fai clic sull&#39;icona Modifica ![icona Modifica](assets/qs-edit-icon.png) nella barra degli strumenti.
+   * Fai clic sul **Altro menu** ![Altro menu](assets/more-icon-task-list.png) a destra del nome del problema, quindi fai clic su **Apri in una nuova scheda**. Verrà aperta la pagina del problema in una nuova scheda. Fai clic su **Altro** > **Modifica** dalla pagina del problema.
+   * Fai clic sul **Altro menu** ![Altro menu](assets/more-icon-task-list.png) a destra del nome del problema, quindi fai clic su **Modifica**.
 
      Una di queste azioni apre la casella Modifica problema.
 
@@ -93,7 +93,7 @@ Per modificare in linea un problema:
 
    Viene visualizzato l’elenco dei problemi del progetto.
 
-1. Seleziona un problema da modificare, quindi fai clic sull&#39;icona **Apri riepilogo** ![](assets/qs-open-summary-icon-in-new-toolbar-small.png) nell&#39;angolo superiore destro dell&#39;elenco dei problemi.
+1. Seleziona un problema da modificare, quindi fai clic sull&#39;icona **Apri riepilogo** ![Apri riepilogo](assets/qs-open-summary-icon-in-new-toolbar-small.png) nell&#39;angolo superiore destro dell&#39;elenco dei problemi.
 
    Verrà aperto il **Riepilogo**.
 
@@ -119,7 +119,7 @@ Per modificare i problemi in blocco:
 1. Fai clic sul nome di un progetto per accedere al progetto.
 1. Fai clic su **Problemi** nel pannello a sinistra.
 1. Seleziona diversi problemi nell’elenco.
-1. Fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png).
+1. Fai clic sull&#39;icona **Modifica** ![Modifica](assets/edit-icon.png).
 
    Viene visualizzata la finestra di dialogo **Modifica problemi**.
 

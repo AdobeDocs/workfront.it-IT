@@ -6,9 +6,9 @@ description: È possibile rimuovere un progetto da un portfolio e associarlo a u
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 8982097e-76ee-497a-aa7c-74c6fbd3002d
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '230'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Livello di accesso</td> 
-   <td> <p>Accesso [!UICONTROL Edit] ai progetti</p> <p>Accesso a [!UICONTROL Edit] ai Portfoli</p>  </td> 
+   <td> <p>Accesso [!UICONTROL Edit] ai progetti</p> <p>Accesso di [!UICONTROL Edit] ai portfolio</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
@@ -59,9 +59,9 @@ ht-degree: 1%
 1. Vai a un Portfolio e fai clic su **[!UICONTROL Progetti]** nel pannello a sinistra.
 1. Seleziona il progetto da rimuovere. 
 
-   ![](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
+   ![Pulsante Rimuovi progetti](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
 
 1. Fare clic su **[!UICONTROL Rimuovi progetti]**.
-1. Fare clic su **[!UICONTROL Elimina]** per eliminare il progetto da [!DNL Workfront] oppure su **[!UICONTROL Rimuovi]** **[!UICONTROL dal Portfolio]** per rimuoverlo dal Portfolio selezionato.
+1. Fare clic su **[!UICONTROL Elimina]** per eliminare il progetto da [!DNL Workfront] oppure su **[!UICONTROL Rimuovi]** **[!UICONTROL da Portfolio]** per rimuoverlo dal Portfolio selezionato.
 
 1. (Facoltativo e condizionale) Trovare il progetto rimosso dal portfolio e associarlo a un altro portfolio. Per informazioni sull&#39;associazione dei progetti ai portfolio, vedere [Aggiungere progetti a un portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).

@@ -6,9 +6,9 @@ description: Se è necessario fare di più per completare un problema dopo l’i
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizzare le autorizzazioni per il problema</p> <p>Autorizzazioni di Contribute per il progetto</p> <p>Ottieni le autorizzazioni di gestione per l’attività dopo la conversione del problema</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizzare le autorizzazioni per il problema</p> <p>Autorizzazioni per contribuire al progetto</p> <p>Ottieni le autorizzazioni di gestione per l’attività dopo la conversione del problema</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,7 +54,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Fai clic sul problema da convertire per passare alla pagina di destinazione del problema.
 1. Fai clic sul menu [!UICONTROL **Altro**] sul problema, quindi [!UICONTROL **Converti in attività**].
 
-   ![](assets/qs-issue-more-menu-highlighted-350x469.png)
+   ![Menu Altro problema](assets/qs-issue-more-menu-highlighted-350x469.png)
 
    >[!TIP]
    >
@@ -62,7 +62,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Aggiorna il nome dell&#39;attività nella sezione [!UICONTROL Nome attività]. Per impostazione predefinita, il nome dell’attività corrisponde a quello del problema originale.
 
-   ![](assets/convert-to-task-box-nwe.png)
+   ![Converti in casella attività](assets/convert-to-task-box-nwe.png)
 
 1. Fai clic su [!UICONTROL **Progetto di destinazione**], quindi inizia a digitare il nome del progetto in cui desideri inserire la nuova attività nel campo [!UICONTROL **Progetto di destinazione**] e selezionalo quando viene visualizzato nell&#39;elenco. Il progetto del problema è selezionato per impostazione predefinita.
 

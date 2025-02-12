@@ -6,9 +6,9 @@ description: È possibile copiare un problema o una richiesta e salvarli nello s
 author: Alina
 feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1064'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per il problema</p> <p>Autorizzazioni di Contribute per l’elemento in cui stai copiando il problema con la possibilità di aggiungere problemi.</p> <p> Per informazioni sulla concessione delle autorizzazioni per i problemi, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Condividere un problema </a></p> <p>Per informazioni sulla richiesta di autorizzazioni aggiuntive, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per il problema</p> <p>Concedi le autorizzazioni per l’elemento in cui stai copiando il problema con la possibilità di aggiungere problemi.</p> <p> Per informazioni sulla concessione delle autorizzazioni per i problemi, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Condividere un problema </a></p> <p>Per informazioni sulla richiesta di autorizzazioni aggiuntive, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,7 +95,7 @@ Quando copi problemi che contengono documenti o sono associati a una coda di ric
 1. Se hai selezionato di passare a un progetto, fai clic su **Problemi** nel pannello a sinistra.
 1. Seleziona il problema o i problemi da copiare e fai clic sul **menu Altro** nella parte superiore dell&#39;elenco dei problemi, quindi fai clic su **Copia in**.
 
-   ![](assets/copy-issue-in-list-nwe-350x169.png)
+   ![Copia problema nell&#39;elenco](assets/copy-issue-in-list-nwe-350x169.png)
 
 1. Continua a copiare il problema, come descritto nella sezione [Copia un singolo problema](#copy-a-single-issue) a partire dal passaggio 2.
 
@@ -109,13 +109,13 @@ Quando copi problemi che contengono documenti o sono associati a una coda di ric
 
 È possibile copiare un problema durante la visualizzazione.
 
-1. Passa al problema da copiare, quindi fai clic sul menu **Altro** ![](assets/more-icon.png) a destra del nome del problema, quindi **Copia** in.
+1. Passa al problema da copiare, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-icon.png) a destra del nome del problema, quindi **Copia** in.
 
-   ![](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
+   ![Copia a livello di problema](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
 
    Viene visualizzata la casella **Copia problema**.
 
-   ![](assets/copy-issue-box-nwe-350x285.png)
+   ![Copia casella problema](assets/copy-issue-box-nwe-350x285.png)
 
 1. Nella sezione **Seleziona progetto di destinazione**, specifica il nome del progetto in cui desideri copiare i problemi. Il nome del progetto corrente viene visualizzato per impostazione predefinita.
 
@@ -126,7 +126,7 @@ Quando copi problemi che contengono documenti o sono associati a una coda di ric
 1. (Condizionale) Se non disponi dell&#39;accesso per copiare i problemi nel progetto, fai clic su **richiedi l&#39;accesso**.
 1. (Facoltativo) Se disponi dell’accesso per aggiungere problemi a una delle attività nel progetto di destinazione, continua a copiare il problema nel progetto di destinazione selezionato senza richiedere l’accesso.
 
-   ![](assets/copy-issue-request-access-from-project-nwe-350x125.png)
+   ![Copia problema e richiedi accesso](assets/copy-issue-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >

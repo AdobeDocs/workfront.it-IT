@@ -6,9 +6,9 @@ description: Convertire un problema in un progetto in Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '1975'
 ht-degree: 1%
 
 ---
@@ -69,12 +69,12 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. Vai a un progetto e fai clic su **[!UICONTROL Problemi]** nel pannello a sinistra.
 1. Nell’elenco dei problemi visualizzato, effettua una delle seguenti operazioni:
 
-   * Per convertire un problema in un progetto vuoto, fai clic sul nome del problema, fai clic sul menu **[!UICONTROL Altro]** ![](assets/more-icon.png) a destra del nome del problema, quindi fai clic su **[!UICONTROL Converti in progetto vuoto]**.
+   * Per convertire un problema in un progetto vuoto, fai clic sul nome del problema, fai clic sul menu **[!UICONTROL Altro]** ![Altro](assets/more-icon.png) a destra del nome del problema, quindi fai clic su **[!UICONTROL Converti in progetto vuoto]**.
 
 
      Oppure
 
-     Seleziona il problema nell&#39;elenco dei problemi, fai clic sul menu **[!UICONTROL Altro]** ![](assets/more-icon.png) nella parte superiore dell&#39;elenco, quindi fai clic su **[!UICONTROL Converti in progetto vuoto]**.
+     Seleziona il problema nell&#39;elenco dei problemi, fai clic sul menu **[!UICONTROL Altro]** ![Altro menu](assets/more-icon.png) nella parte superiore dell&#39;elenco, quindi fai clic su **[!UICONTROL Converti in progetto vuoto]**.
 
      >[!IMPORTANT]
      >
@@ -122,7 +122,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    * Esamina i moduli personalizzati allegati al problema. Si trasferiranno al nuovo progetto, se sono anche moduli personalizzati del progetto.
    * Aggiungi altri moduli personalizzati
    * Assicurati che tutti i campi obbligatori contengano informazioni valide.
-   * Ridisporre i moduli personalizzati trascinandoli ![](assets/drag-object-icon.png) nella posizione desiderata.
+   * Ridisporre i moduli personalizzati trascinandoli ![Icona Trascina](assets/drag-object-icon.png) nella posizione desiderata.
    * Fai clic sull&#39;icona **x** a destra di qualsiasi modulo che non desideri trasferire al progetto. Questo rimuove il modulo dal progetto.
    * Se necessario, trasferisci le informazioni del modulo personalizzato dal problema al progetto.
 
@@ -153,7 +153,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 È possibile convertire un problema in un progetto utilizzando un modello.
 
 1. Vai a un progetto e fai clic su **[!UICONTROL Problemi]** nel pannello a sinistra.
-1. Nell&#39;elenco dei problemi visualizzato, fare clic sul nome del problema, fare clic sul menu **[!UICONTROL Altro]** ![](assets/more-icon.png) a destra del nome del problema, quindi fare clic su **Converti in progetto da modello** e iniziare a digitare il nome di un modello nella casella **Cerca modello**, quindi fare clic sul nome del modello quando viene visualizzato nell&#39;elenco. Continuare con il passaggio 3.
+1. Nell&#39;elenco dei problemi visualizzato, fare clic sul nome del problema, fare clic sul menu **[!UICONTROL Altro]** ![Altro menu](assets/more-icon.png) a destra del nome del problema, quindi fare clic su **Converti in progetto da modello** e iniziare a digitare il nome di un modello nella casella **Cerca modello**, quindi fare clic sul nome del modello quando viene visualizzato nell&#39;elenco. Continuare con il passaggio 3.
 
    >[!TIP]
    >
@@ -161,7 +161,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Viene visualizzata la casella Nuovo progetto da modello (New Project from Template).
 
-   ![](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
+   ![Nuovo progetto da modello](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
 
    >[!TIP]
    >
@@ -180,7 +180,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    * Numero di tutte le attività nel modello
    * Nomi dei moduli personalizzati del modello
 
-1. (Facoltativo) Passa il puntatore del mouse sul nome di un modello e fai clic sull&#39;icona **Preferiti** ![](assets/favorites-icon-small.png) per contrassegnarlo come preferito per un utilizzo futuro.
+1. (Facoltativo) Passa il puntatore del mouse sul nome di un modello e fai clic sull&#39;icona **Preferiti** ![Preferiti](assets/favorites-icon-small.png) per contrassegnarlo come preferito per un utilizzo futuro.
 
    >[!TIP]
    >
@@ -190,7 +190,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Viene visualizzata la casella [!UICONTROL Converti in progetto].
 
-   ![](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
+   ![Converti in progetto](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
 
 1. Se un campo è già popolato nel modello, il campo viene precompilato nella casella [!UICONTROL Converti in progetto]. Puoi modificare i valori precompilati in modo che corrispondano meglio al tuo progetto. Per ulteriori informazioni, vedere [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -230,7 +230,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       * Esamina i moduli personalizzati allegati al modello. Si trasferiranno al nuovo progetto.
       * Esamina i moduli personalizzati allegati al problema. Se sono anche moduli di progetto, verranno trasferiti al progetto.
       * Assicurati che tutti i campi obbligatori contengano informazioni valide.
-      * Ridisporre i moduli personalizzati trascinandoli ![](assets/drag-object-icon.png) nella posizione desiderata.
+      * Ridisporre i moduli personalizzati trascinandoli ![Icona Trascina](assets/drag-object-icon.png) nella posizione desiderata.
       * Fai clic sull&#39;icona **x** a destra di qualsiasi modulo che non desideri trasferire al progetto.
       * Se necessario, trasferisci le informazioni del modulo personalizzato dal problema al progetto.
 

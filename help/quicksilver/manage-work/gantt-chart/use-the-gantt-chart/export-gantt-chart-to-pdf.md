@@ -1,18 +1,18 @@
 ---
 navigation-topic: use-the-gantt-chart
 title: Esportare il diagramma di Gantt in PDF
-description: Puoi esportare il grafico Gantt in un PDF. Dopo aver esportato il diagramma di Gantt in PDF, puoi stamparlo o allegarlo a un messaggio e-mail per condividerlo con altri utenti.
+description: Puoi esportare il grafico Gantt in una PDF. Dopo aver esportato il diagramma di Gantt in PDF, puoi stamparlo o allegarlo a un messaggio e-mail per condividerlo con altri utenti.
 author: Alina
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1049'
 ht-degree: 1%
 
 ---
 
-# Esporta il [!UICONTROL Grafico di Gantt] in PDF
+# Esporta il [!UICONTROL Diagramma di Gantt] in PDF
 
 <!--Audited: 09/2024-->
 
@@ -61,7 +61,7 @@ Per seguire i passaggi descritti in questo articolo, è necessario disporre dei 
 
    >[!NOTE]
    >
-   >Se si esporta il [!UICONTROL Diagramma di Gantt] da un elenco di progetti, il file PDF contiene solo i progetti dell&#39;elenco, non le attività di ogni progetto. Se si desidera esportare un elenco di attività, è possibile farlo dal progetto a cui sono associate oppure creando un report di attività e visualizzando i risultati del report nella [!UICONTROL Visualizzazione Gantt].
+   >Se si esporta il [!UICONTROL Diagramma di Gantt] da un elenco di progetti, il file PDF contiene solo i progetti dell&#39;elenco, non le attività di ciascun progetto. Se si desidera esportare un elenco di attività, è possibile farlo dal progetto a cui sono associate oppure creando un report di attività e visualizzando i risultati del report nella [!UICONTROL Visualizzazione Gantt].
 
    Configura una delle seguenti informazioni:
 
@@ -75,7 +75,7 @@ Per seguire i passaggi descritti in questo articolo, è necessario disporre dei 
 
    * Selezionare l&#39;opzione **Passa a date previste** per visualizzare le date previste anziché quelle pianificate. Per impostazione predefinita, vengono visualizzate le Date pianificate.
 
-   * Fai clic sull&#39;icona **Impostazioni** ![](assets/settings-icon.png) nell&#39;angolo superiore destro del diagramma di Gantt e seleziona le informazioni da visualizzare nel diagramma di Gantt. Una volta selezionate, queste informazioni vengono incluse nel file PDF di Gantt esportato.
+   * Fai clic sull&#39;icona **Impostazioni** ![Icona Impostazioni](assets/settings-icon.png) nell&#39;angolo superiore destro del diagramma di Gantt e seleziona le informazioni da visualizzare nel diagramma di Gantt. Una volta selezionate, queste informazioni vengono incluse nel file PDF di Gantt esportato.
 
      Selezionare una delle opzioni seguenti:
 
@@ -109,8 +109,8 @@ Per seguire i passaggi descritti in questo articolo, è necessario disporre dei 
 
    Ad esempio, se visualizzi il [!UICONTROL Grafico di Gantt] per un progetto che contiene 50 attività, ma desideri visualizzare solo 10 attività nel [!UICONTROL Grafico di Gantt] esportato, seleziona le 10 attività che desideri visualizzare.
 
-1. Fare clic sull&#39;icona della stampante ![](assets/printer-icon.png) nell&#39;angolo superiore destro del diagramma di Gantt.
-Viene visualizzata la finestra di dialogo **[!UICONTROL Esporta in PDF]**.
+1. Fare clic sull&#39;icona della stampante ![Icona della stampante](assets/printer-icon.png) nell&#39;angolo superiore destro del diagramma di Gantt.
+Viene visualizzata la finestra di dialogo Esporta in PDF]**.**[!UICONTROL 
 
    ![export_gantt_UI.png](assets/exported-gantt-ui-350x225.png)
 
