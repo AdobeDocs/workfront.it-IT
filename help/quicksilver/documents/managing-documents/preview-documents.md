@@ -6,9 +6,9 @@ description: È possibile visualizzare in anteprima un documento dall'area Docum
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
-source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
+source-git-commit: f8ce7b64b117b709328be982339fd28ef4a741a7
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,20 @@ Devi avere i seguenti:
 
 ## Visualizzare in anteprima un documento
 
+È possibile visualizzare in anteprima un documento in Workfront.
+
 1. In un elenco di documenti, passa il cursore del mouse sulla riga contenente il documento, quindi fai clic su **Dettagli documento**.
 1. Nella pagina visualizzata fare clic sull&#39;immagine di anteprima del documento.
 
    * Se il documento non è stato preparato per la revisione, verrà visualizzato in una nuova scheda del browser.
    * Se il documento è stato preparato per la revisione, verrà aperto il visualizzatore di bozze per visualizzarlo.
+
+Nella finestra di anteprima non è possibile visualizzare i seguenti formati di file:
+
+* .mp4
+* gif
+* .jpeg
+* .png
+* .tiff
+* .normale
+* .pdf

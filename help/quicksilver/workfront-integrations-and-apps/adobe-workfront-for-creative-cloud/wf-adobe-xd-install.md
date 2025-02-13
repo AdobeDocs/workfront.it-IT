@@ -6,9 +6,9 @@ description: Puoi installare il plug-in Adobe Workfront for XD da Adobe Marketpl
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a5c4479833243bb5817196a3af8acaa063a16747
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '548'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> -->
   <tr> 
    <td role="rowheader">Prodotto</td> 
-   <td><p>È necessario disporre di una licenza [!DNL Adobe Creative Cloud] oltre a una licenza [!DNL Workfront].</p><p>Per ulteriori informazioni, vedere <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud criteri di supporto</a>.</p></td> 
+   <td><p>È necessario disporre di una licenza [!DNL Adobe Creative Cloud] oltre a una licenza [!DNL Workfront].</p><p>Per ulteriori informazioni, vedere <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Criteri di supporto Creative Cloud</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,7 +75,7 @@ Gli amministratori di [!DNL Adobe Admin Console] possono anche creare pacchetti 
 
 È possibile installare il plug-in [!DNL Adobe Workfront for XD] da [!DNL Adobe Exchange].
 
-1. Vai alla [pagina di installazione di Adobe Workfront for XD](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share) nell&#39;Adobe Exchange.
+1. Vai alla [pagina di installazione di Adobe Workfront for XD](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share) in Adobe Exchange.
 1. Nella finestra di dialogo visualizzata, fai clic su **Apri [!DNL Adobe Creative Cloud] app desktop**.
 1. Una volta aperto Gestione plug-in [!DNL Adobe XD], fare clic su **[!UICONTROL Installa]**.
 1. Leggere le informazioni nella finestra di dialogo, quindi fare clic su **[!UICONTROL OK]**.
@@ -89,9 +89,9 @@ Gli amministratori di [!DNL Adobe Admin Console] possono anche creare pacchetti 
 
 1. Nell&#39;angolo in basso a sinistra, fai clic sull&#39;icona **Plugin**.
 
-![Finestra del plug-in XD](assets/xd-plugin-window-350x620.png)
+![Finestra del plug-in di XD](assets/xd-plugin-window-350x620.png)
 
-1. Nel pannello **[!UICONTROL Plugin]**, trovare **[!UICONTROL Adobe Workfront per XD]**.
+1. Nel **[!UICONTROL pannello Plugin]**, trovare **[!UICONTROL Adobe Workfront per XD]**.
 
 1. Per informazioni su come accedere al plug-in, consulta la sezione seguente.
 
@@ -105,7 +105,7 @@ Gli amministratori di [!DNL Adobe Admin Console] possono anche creare pacchetti 
    >* Per trovare il dominio, aprire un browser, accedere all&#39;istanza [!DNL Workfront] e copiare la prima parte dell&#39;URL:\
    >![Individua dominio](assets/domain-350x50.png)
    >
-   > * Se la tua istanza di Workfront è integrata con Experience Cloud, chiedi all’amministratore di fornirti il dominio Workfront che si trova in Prodotto > Workfront nell’Admin Console.
+   > * Se l’istanza di Workfront è integrata con Experience Cloud, chiedi all’amministratore di fornirti il dominio Workfront che si trova in Prodotto > Workfront nell’Admin Console.
 
 1. Nel browser, immetti le tue credenziali di [!DNL Workfront], quindi fai clic su **[!DNL Log in]**. Se l&#39;azienda utilizza un Single Sign-On (SSO), verrà visualizzata la pagina del provider SSO per l&#39;accesso.
 
@@ -122,4 +122,20 @@ Gli amministratori di [!DNL Adobe Admin Console] possono anche creare pacchetti 
 
 1. Fai clic su **[!UICONTROL Consenti ad Access]** di completare l&#39;accesso e torna a [!DNL Adobe XD] per visualizzare il tuo lavoro.
 
- 
+### Risoluzione dei problemi di accesso
+
+**Errore &quot;Si è verificato un errore&quot; durante il tentativo di accesso**
+
+
+Non puoi usare un URL che inizia con `experience.adobe.com` per accedere al plug-in.
+
+![log in error](assets/plugin-log-in-error.png) ![dominio](assets/incorrect-domain.png)
+
+
+Per risolvere il problema:
+
+1. Disinstalla e reinstalla il plug-in Adobe Workfront for XD per cancellare il dominio e l’errore.
+
+1. Immetti il dominio Workfront. Il dominio deve essere `company-name.my.workfront.com` e non `experience.adobe.com`.
+
+Per trovare il tuo dominio Workfront se usi Adobe Unified Experience, vai a

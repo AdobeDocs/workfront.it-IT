@@ -6,9 +6,9 @@ description: Puoi installare  [!DNL Adobe Workfront for design and video]  da Ad
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 9473926f1b90f4e76c82b7e5dd15c50a667102df
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '643'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> -->
   <tr> 
    <td role="rowheader">Prodotto</td> 
-   <td><p>È necessario disporre di una licenza [!DNL Adobe Creative Cloud] oltre a una licenza [!DNL Workfront].</p><p>Per ulteriori informazioni, vedere <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud criteri di supporto</a>.</p></td> 
+   <td><p>È necessario disporre di una licenza [!DNL Adobe Creative Cloud] oltre a una licenza [!DNL Workfront].</p><p>Per ulteriori informazioni, vedere <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Criteri di supporto Creative Cloud</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,7 +82,7 @@ Gli amministratori di [!DNL Adobe Admin Console] possono anche creare pacchetti 
 
 È possibile installare [!DNL Adobe Workfront for design and video] da [!DNL Adobe Exchange].
 
-1. Vai alla [pagina di installazione di Adobe Workfront for Design and Video](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) nell&#39;Adobe Exchange.
+1. Vai alla [pagina di installazione di Adobe Workfront for Design and Video](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) in Adobe Exchange.
 1. Nella finestra di dialogo visualizzata, fai clic su **Apri [!DNL Adobe Creative Cloud] app desktop**.
 1. Una volta aperto Gestione plug-in [!DNL Adobe Creative Cloud], fare clic su **[!UICONTROL Installa]**.
 1. Leggere le informazioni nella finestra di dialogo, quindi fare clic su **[!UICONTROL OK]**.
@@ -92,7 +92,7 @@ Gli amministratori di [!DNL Adobe Admin Console] possono anche creare pacchetti 
 
 ## Apri [!DNL Adobe Workfront for design and video]
 
-1. Aprire il plug-in di Creative Cloud che si desidera utilizzare.
+1. Apri il plug-in Creative Cloud che desideri utilizzare.
 
 1. Crea un nuovo progetto o aprirne uno esistente.
 
@@ -100,7 +100,7 @@ Gli amministratori di [!DNL Adobe Admin Console] possono anche creare pacchetti 
 
    >[!NOTE]
    >
-   >Se utilizzi Premiere Pro, devi avere un progetto aperto per accedere a questo menu.
+   >Se utilizzi Premiere Pro, per accedere a questo menu devi avere un progetto aperto.
 
    ![Menu Workfront](assets/adobe-workfront-menu.png)
 
@@ -123,7 +123,7 @@ Gli amministratori di [!DNL Adobe Admin Console] possono anche creare pacchetti 
    >* Per trovare il dominio, aprire un browser, accedere all&#39;istanza [!DNL Workfront] e copiare la prima parte dell&#39;URL:\
    >![Individua dominio](assets/domain-350x50.png)
    >
-   > * Se la tua istanza di Workfront è integrata con Experience Cloud, chiedi all’amministratore di fornirti il dominio Workfront che si trova in Prodotto > Workfront nell’Admin Console.
+   > * Se l’istanza di Workfront è integrata con Experience Cloud, chiedi all’amministratore di fornirti il dominio Workfront che si trova in Prodotto > Workfront nell’Admin Console.
 
 1. Nel browser, immetti le tue credenziali di [!DNL Workfront], quindi fai clic su **[!UICONTROL Accedi]**. Se l&#39;azienda utilizza un Single Sign-On (SSO), verrà visualizzata la pagina del provider SSO per l&#39;accesso.
 
@@ -141,3 +141,25 @@ Gli amministratori di [!DNL Adobe Admin Console] possono anche creare pacchetti 
 1. Fai clic su **[!UICONTROL Consenti accesso]** per completare l&#39;accesso.
 1. Torna a [!DNL Adobe Photoshop] per visualizzare il tuo lavoro.
 
+### Risoluzione dei problemi di accesso
+
+**Errore &quot;Si è verificato un errore&quot; durante il tentativo di accesso**
+
+
+Non puoi usare un URL che inizia con `experience.adobe.com` per accedere al plug-in.
+
+![log in error](assets/plugin-log-in-error.png) ![dominio](assets/incorrect-domain.png)
+
+
+Per risolvere il problema:
+
+1. Elimina la cartella in cui è memorizzato il dominio del plug-in.
+
+   >[!TIP]
+   >
+   >In un Mac, vai al Finder, premi **Comando+Maiusc+.** per visualizzare le cartelle nascoste, passare a **/Users//Library/Application Support**, quindi eliminare la cartella **Workfront**.
+
+
+1. Torna al plug-in e immetti il dominio Workfront. Il dominio deve essere `company-name.my.workfront.com` e non `experience.adobe.com`.
+
+   Per [trovare il dominio Workfront](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) se usi Adobe Unified Experience, vai a Configurazione, Informazioni cliente.
