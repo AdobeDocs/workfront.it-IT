@@ -6,7 +6,7 @@ description: Questo scenario di integrazione collega un  [!DNL Adobe Workfront] 
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: d6fd224fb8a7b8094946814ae905bc0ff6e8223c
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 0%
@@ -60,7 +60,7 @@ L’esecuzione di questo scenario è pianificata ogni 15 minuti.
 
 Per utilizzare questo scenario, è necessario disporre dei seguenti elementi in [!DNL Workfront]:
 
-* Un profilo utente in [!DNL Workfront] denominato *[!UICONTROL *[!DNL Anaplan] Integration]**, con diritti di amministratore di sistema.
+* Un profilo utente in [!DNL Workfront] denominato Integrazione **[!DNL Anaplan]**, con diritti di amministratore di sistema.
 
   Per informazioni sulla creazione di un utente in [!DNL Workfront], vedere [Aggiungere utenti](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
