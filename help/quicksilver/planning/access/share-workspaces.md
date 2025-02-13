@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
+source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '809'
 ht-degree: 1%
 
 ---
@@ -175,15 +175,11 @@ Per condividere un’area di lavoro con altri utenti:
 
 1. Apri l&#39;area di lavoro che desideri condividere, quindi fai clic su **Condividi** nell&#39;angolo superiore destro dello schermo.
 
-   ![](assets/share-button-on-workspace-top-right.png)
+   ![Pulsante Condividi nell&#39;area di lavoro in alto a destra](assets/share-button-on-workspace-top-right.png)
 
-1. Nel campo **Concedi l&#39;accesso all&#39;area di lavoro a**, inizia a digitare il nome di un utente, un gruppo, un <span class="preview">team, un&#39;azienda o una mansione</span>, quindi fai clic su di esso quando viene visualizzato nell&#39;elenco.
+1. Nel campo **Concedi l&#39;accesso a questa area di lavoro**, inizia a digitare il nome di un utente, un gruppo, un <span class="preview">team, una società o una mansione</span>, quindi fai clic su di esso quando viene visualizzato nell&#39;elenco.
 
-   <div class="preview">
-
-   ![](assets/sharing-ui-with-groups.png)
-
-   </div>
+   ![Interfaccia utente condivisa con i gruppi](assets/sharing-ui-with-groups.png)
 
 1. Seleziona uno dei seguenti livelli di autorizzazione dal menu a discesa:
    * Visualizza
@@ -202,20 +198,20 @@ Gli utenti che accedono a un collegamento a un’area di lavoro per la quale non
 1. (Condizionale) Se sei il manager di un’area di lavoro, potresti ricevere una richiesta da un altro utente per accedere alla vista nelle seguenti aree:
 
    * Una notifica in-app
-     ![](assets/in-app-notification-for-access-request.png)
+     ![Notifica in-app per la richiesta di accesso](assets/in-app-notification-for-access-request.png)
    * Una notifica e-mail
-     ![](assets/email-notification-for-access-request.png)
+     ![Notifica e-mail per la richiesta di accesso](assets/email-notification-for-access-request.png)
 1. (Condizionale) Dall’area di notifica in Workfront, fai clic sulla notifica in-app.
 Oppure
 Dalla notifica e-mail, fai clic su **Visualizza tutte le notifiche**, quindi fai clic sulla notifica nell&#39;elenco.
 
    Viene visualizzata la casella **Richieste di accesso in sospeso**.
 
-   ![](assets/notifications-list-approval-box.png)
+   ![Casella di approvazione elenco notifiche](assets/notifications-list-approval-box.png)
 
 1. (Facoltativo) Per l’utente di cui desideri approvare le autorizzazioni, seleziona una delle seguenti opzioni dal menu a discesa a destra del nome dell’utente:
    * **Visualizza**
-   * **Contribute**
+   * **Contribuisci**
    * **Gestisci**
 1. Selezionare l&#39;utente per il quale si desidera approvare o negare l&#39;autorizzazione, quindi fare clic su **Approva tutto** o **Rifiuta tutto**.
 1. Fai clic sulla freccia rivolta a sinistra a sinistra di **Richieste di accesso in sospeso**, quindi fai clic su **Salva**.
