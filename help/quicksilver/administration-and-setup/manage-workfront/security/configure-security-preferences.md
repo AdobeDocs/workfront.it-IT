@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 222e940432f9cdea2b7da7fefbb429d75a3824d7
+source-git-commit: d4ebdcc942f119dc229e2a3216dbe82b3d701cba
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '951'
 ht-degree: 5%
 
 ---
@@ -113,11 +113,11 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      </tr> 
      <tr> 
       <td role="rowheader">Disconnetti automaticamente gli utenti dopo</td> 
-      <td> Consente di specificare quando un utente viene disconnesso da Workfront dopo un periodo di inattività. Per impostazione predefinita, gli utenti vengono disconnessi dopo 8 ore di inattività. <p>Questa opzione interessa anche i clienti Workfront che utilizzano una soluzione single sign-on.</p> </td> 
+      <td> Consente di specificare quando un utente viene disconnesso da Workfront dopo un periodo di inattività. Per impostazione predefinita, gli utenti vengono disconnessi dopo 8 ore di inattività. <p>Questa opzione interessa anche i clienti Workfront che utilizzano una soluzione single sign-on.</p> <p>Questa impostazione non è disponibile per le organizzazioni che sono state migrate ad Adobe IMS.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Disconnetti automaticamente gli utenti mobili dopo </td> 
-      <td>Consente di specificare quando un utente viene disconnesso dall’applicazione Workfront dopo un periodo di inattività. Per impostazione predefinita, gli utenti vengono disconnessi dopo 7 giorni di inattività. <p>Questa opzione interessa anche i clienti Workfront che utilizzano una soluzione single sign-on.</p></td> 
+      <td>Consente di specificare quando un utente viene disconnesso dall’applicazione Workfront dopo un periodo di inattività. Per impostazione predefinita, gli utenti vengono disconnessi dopo 7 giorni di inattività. <p>Questa opzione interessa anche i clienti Workfront che utilizzano una soluzione single sign-on.</p> <p>Questa impostazione non è disponibile per le organizzazioni che sono state migrate ad Adobe IMS.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Help URL</td> 
