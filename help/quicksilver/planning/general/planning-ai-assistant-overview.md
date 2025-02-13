@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 6e772ed53cca2fe3756fc15b715693b8b1fbef34
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Panoramica dell’Assistente di Adobe Workfront Planning AI
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -45,6 +45,8 @@ I comandi dell’utente e l’esecuzione di tali comandi da parte dell’IA coll
 
 * Puoi utilizzare i comandi per annullare le azioni. Ad esempio, puoi digitare &quot;Annulla ultima modifica&quot; per ripristinare la modifica.
 
+* <span class="preview"> Durante la creazione, l&#39;aggiornamento o l&#39;eliminazione di un oggetto tramite l&#39;Assistente IA, l&#39;Assistente AI visualizza le azioni previste e richiede conferma. Puoi quindi confermare o annullare le azioni. </span>
+
 ## Funzionalità attualmente disponibile per l’Assistente IA
 
 Attualmente, l’Assistente AI è disponibile nell’area Planning di Workfront per le seguenti pagine:
@@ -59,7 +61,7 @@ In questo momento, puoi utilizzare l’Assistente IA per eseguire le seguenti az
 * Creare record. Dopo la creazione del record viene visualizzato un ID con un collegamento al nuovo record. Puoi specificare i campi da aggiornare durante il processo di creazione, come date o descrizione.
 * Crea record basati su un documento caricato. Workfront supporta i seguenti formati di documento per l’Assistente IA:
 
-  .pptx, .pdf, .docx, .xlsx, .ppt, .doc, .txt e la maggior parte dei formati immagine
+  PPTX, PDF, DOCX, XLSX, PPT, DOC, TXT e la maggior parte dei formati immagine
 * Aggiorna i campi per i record visualizzati sullo schermo
 * Elimina record
 * Ripristina i record appena eliminati
