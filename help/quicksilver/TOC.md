@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 7a2549e0d523f211ee13bf13fdc9a54aa7cf4572
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '13030'
+source-wordcount: '13034'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 2%
       * Versione {#release-25-q2} del secondo trimestre 2025
          * [Panoramica sulla versione del secondo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
          * [Miglioramenti per gli amministratori del secondo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)
+         * [Miglioramenti al progetto per il secondo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md)
          * [Altri miglioramenti durante il periodo di rilascio del secondo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)
          * [Aggiornamenti look-and-feel durante il periodo di rilascio del secondo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md)
       * Versione {#release-25-q1} del primo trimestre 2025
@@ -741,7 +742,7 @@ ht-degree: 2%
       * [Disattiva integrazioni documenti](administration-and-setup/configure-integrations/disable-document-integrations.md)
       * [Configurare l’integrazione di SharePoint](administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
       * [Configurare la mappatura dei metadati](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
-      * [Creare pacchetti Creative Cloud di Adobe Workfront per i tuoi utenti in Adobe Admin Console](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+      * [Creare pacchetti Adobe Workfront Creative Cloud per i tuoi utenti in Adobe Admin Console](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
       * [Creazione di applicazioni OAuth2 per le integrazioni Workfront](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [Visualizzazione e gestione di applicazioni OAuth2 personalizzate](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
       * [Configurare l’integrazione JumpSeat](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
@@ -1099,10 +1100,10 @@ ht-degree: 2%
       * [Creare e gestire cartelle avanzate](documents/organizing-documents/create-manage-smart-folders.md)
    * Integrazioni Workfront e Experience Manager Assets {#wf-aem-integrations}
       * [Integrazioni Workfront e Experience Manager Assets](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
-      * Workfront, ad Experience Manager connettore avanzato {#wf-aem-enhanced-connector}
+      * Connettore avanzato Workfront per Experience Manager {#wf-aem-enhanced-connector}
          * [Connettore avanzato Workfront per Experience Manager](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)
-         * [Panoramica del connettore avanzato di Workfront ad Experience Manager](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md)
-         * [Panoramica dei metadati del connettore avanzato di Workfront ad Experience Manager](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-metadata-overview.md)
+         * [Panoramica del connettore avanzato di Workfront per Experience Manager](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md)
+         * [Panoramica sui metadati del connettore avanzato Workfront per Experience Manager](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-metadata-overview.md)
          * [Collegare risorse e cartelle con il connettore avanzato](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-link-assets.md)
          * [Inviare un documento con il connettore avanzato](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-send-document.md)
          * [Prova di una risorsa collegata con il connettore avanzato](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
@@ -1112,8 +1113,8 @@ ht-degree: 2%
          * [Panoramica delle integrazioni Adobe Experience Manager Assets](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
          * [Collegare risorse e cartelle da Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
          * [Visualizzare i metadati mappati per Experience Manager Assets o Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
-         * [Visualizzare o scaricare una risorsa collegata da Experience Manager Assets o da Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
-         * [Inviare un documento a Experience Manager Assets o ad Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
+         * [Visualizzare o scaricare una risorsa collegata da Experience Manager Assets o Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
+         * [Inviare un documento a Experience Manager Assets o Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
          * [Prova di una risorsa collegata per Experience Manager Assets o Asset Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
          * [Creare una cartella collegata a Experience Manager Assets o Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
          * [Scollegare o eliminare risorse e cartelle da Experience Manager Assets o Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
@@ -1274,7 +1275,7 @@ ht-degree: 2%
          * [Panoramica della data di inizio pianificata dell&#39;attività](manage-work/tasks/task-information/task-planned-start-date.md)
          * [Panoramica della data di completamento pianificata dell&#39;attività](manage-work/tasks/task-information/task-planned-completion-date.md)
          * [Panoramica sulla data di handoff dell’attività](manage-work/tasks/task-information/handoff-task-date.md)
-         * [Panoramica sulla data di Slack attività](manage-work/tasks/task-information/task-slack-date.md)
+         * [Panoramica data Slack attività](manage-work/tasks/task-information/task-slack-date.md)
          * [Panoramica di &quot;Può iniziare&quot; per le attività](manage-work/tasks/task-information/can-start-task-overview.md)
          * [Imposta modalità di verifica per le attività](manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
          * [Ritardo livellamento attività di aggiornamento](manage-work/tasks/task-information/task-leveling-delay.md)
@@ -1395,11 +1396,11 @@ ht-degree: 2%
          * [Esportare il diagramma di Gantt in PDF](manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)
    * Gestione Portfolio {#portfolio-management}
       * [Gestione Portfolio](manage-work/portfolios/portfolio-management-overview.md)
-      * Panoramica del Portfolio in Adobe Workfront {#portfolio-overview-in-adobe-workfront}
+      * Panoramica di Portfolio in Adobe Workfront {#portfolio-overview-in-adobe-workfront}
          * [Portfolio](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
          * [Spostarsi all’interno di un portfolio](manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
-         * [Panoramica sulla gestione dei Portfoli](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
-         * [Panoramica del Portfolio in Adobe Workfront](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
+         * [Panoramica sulla gestione di Portfolio](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
+         * [Panoramica di Portfolio in Adobe Workfront](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
       * Crea e gestisci portfolio {#create-and-manage-portfolios}
          * [Creare e gestire i portfolio](manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
          * [Creare un portfolio](manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
@@ -1416,12 +1417,12 @@ ht-degree: 2%
          * [Aggiungere un programma esistente a un portfolio](manage-work/portfolios/create-and-manage-programs/move-program.md)
          * [Aggiungere un progetto a un programma](manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
          * [Rimuovere un progetto da un programma](manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
-      * Gestisci progetti in Ottimizzatore Portfolio {#manage-projects-in-portfolio-optimizer}
+      * Gestisci progetti in Portfolio Optimizer {#manage-projects-in-portfolio-optimizer}
          * [Gestire i progetti in Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
          * [Panoramica di Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
-         * [Individuare l&#39;Ottimizzatore Portfolio](manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
-         * [Panoramica del punteggio dell’ottimizzatore del Portfolio](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)
-         * [Assegna priorità ai progetti in Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)
+         * [Individuare Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
+         * [Panoramica del punteggio di Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)
+         * [Assegnare la priorità ai progetti in Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)
          * [Ottimizzare i progetti in Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
          * [Calcolare il rischio per il valore netto in un portfolio](manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md)
    * Richieste {#requests}
@@ -1566,7 +1567,7 @@ ht-degree: 2%
          * [Filtro: visualizza i rapporti pianificati per la consegna](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-report-delivery-filter.md)
          * [Filtro: consente di visualizzare gli elementi in base agli stati con lo stesso nome quando gli stati sono associati a gruppi diversi](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
          * [Raggruppare un rapporto per un campo personalizzato a selezione multipla](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-multi-select-custom-field.md)
-         * [Raggruppamento: raggruppamento di attività a 4 livelli per proprietario Portfolio, proprietario programma, proprietario progetto e stato progetto](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
+         * [Raggruppamento: raggruppamento di attività a 4 livelli per Proprietario Portfolio, Proprietario programma, Proprietario progetto e Stato progetto](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
          * [Raggruppamento: aggiungere un quarto raggruppamento a un elenco](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
          * [Raggruppamento: organizza i risultati elenco in base a un valore calcolato comune a tutti gli oggetti del raggruppamento](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
          * [Raggruppamento: visualizza il risultato dell’aggregazione di più valori calcolati in un raggruppamento](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md)
@@ -1596,7 +1597,7 @@ ht-degree: 2%
          * [Visualizza: visualizza un’immagine invece di una stringa in una colonna](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
          * [Visualizza: oggetti di visualizzazione non inclusi nell&#39;interfaccia standard](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
          * [Visualizza: visualizza le informazioni originali sui problemi negli elenchi di attività o progetti](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
-         * [Visualizza: visualizza le informazioni su programma e Portfolio in una visualizzazione delle attività](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
+         * [Visualizza: visualizza le informazioni su Programma e Portfolio in una visualizzazione delle attività](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
          * [Visualizza: visualizza rientri attività in un elenco attività](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
          * [Visualizza: consente di visualizzare la relazione padre-figlio in un&#39;attività tramite il rientro delle attività](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-parent-child-relationship-by-indenting-tasks-with-custom-view.md)
          * [Visualizza: report di documenti con collegamento a una bozza](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-document-report-with-proof-link.md)
@@ -1698,7 +1699,7 @@ ht-degree: 2%
       * [Visualizzare la visualizzazione Attività per team in Analisi avanzate](enhanced-analytics/activity-by-team-overview.md)
    * Workfront Data Connect {#data-lake}
       * [Panoramica di Workfront Data Connect](reports-and-dashboards/data-lake/data-lake-overview.md)
-      * [Creazione di un account lettore o di una connessione per il Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
+      * [Creare un account o una connessione di lettura per Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
       * [Stabilire una connessione a Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
       * [Dizionario dati Workfront Data Connect](reports-and-dashboards/data-lake/data-dictionary.md)
       * [Esempi di query Workfront Data Connect](reports-and-dashboards/data-lake/basic-query-examples.md)
@@ -1755,7 +1756,7 @@ ht-degree: 2%
       * [Aggiornare gli elementi di lavoro nel Bilanciatore dei carichi di lavoro utilizzando il Riepilogo](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 * Rivedere e approvare il lavoro {#review-and-approve-work}
    * [Rivedere e approvare il lavoro](review-and-approve-work/review-and-approve-work.md)
-   * [Programma di Alpha - Approvazioni documenti](review-and-approve-work/Documents/doc-approvals-alpha.md)
+   * [Programma Alpha - Approvazioni documenti](review-and-approve-work/Documents/doc-approvals-alpha.md)
    * [Documento limitato e decisione sulla bozza per utenti non pagati - Panoramica](review-and-approve-work/proof-doc-decision-limits.md)
    * Approvazioni lavoro {#work-approvals}
       * [Approvazioni lavoro](review-and-approve-work/manage-approvals/manage-approvals.md)
@@ -2087,8 +2088,8 @@ ht-degree: 2%
    * [Metodi di integrazione di Adobe Workfront](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
    * Adobe Workfront per Creative Cloud {#workfront-for-creative-cloud}
       * [Adobe Workfront per Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
-      * Installare il plug-in Adobe Workfront per applicazioni Creative Cloud {#install-wf-cc}
-         * [Installare Adobe Workfront per applicazioni Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
+      * Installare il plug-in Adobe Workfront per le applicazioni Creative Cloud {#install-wf-cc}
+         * [Installare applicazioni Adobe Workfront for Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
          * [Installare e aprire Adobe Workfront for Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
          * [Installare e aprire Adobe Workfront for XD](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
          * [Installa e apri [!DNL Adobe Workfront for design and video]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
@@ -2102,12 +2103,12 @@ ht-degree: 2%
          * [Gestisci [!DNL Adobe Workfront] notifiche da Adobe Creative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Carica documenti e bozze con il plug-in Adobe Workfront per applicazioni Creative Cloud {#upload-docs-proofs-wf-cc}
          * [Carica documenti e bozze da  [!DNL Adobe Workfront plugin]  a  [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
-         * [Carica documenti e bozze con il plug-in Adobe Workfront per applicazioni Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
+         * [Caricare documenti e bozze con il plug-in Adobe Workfront per applicazioni Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [Caricare bozze da Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
          * [Carica documenti da Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
-         * [Carica le tavole da disegno dell’XD come bozze in Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
-         * [Carica tavole da disegno XD come documenti in Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
-         * [Caricare bozze dall’InDesign](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
+         * [Carica le tavole da disegno di XD come bozze in Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
+         * [Carica tavole da disegno di XD come documenti in Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
+         * [Caricare bozze da InDesign](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
          * [Carica documenti da InDesign](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
          * [Carica bozze da [!DNL Illustrator]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
          * [Carica documenti da [!DNL Illustrator]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
@@ -2150,10 +2151,10 @@ ht-degree: 2%
    * Adobe Workfront per Microsoft Teams {#workfront-for-microsoft-teams}
       * [[!DNL Adobe Workfront for Microsoft Teams]: indice articolo](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
       * [Panoramica di Adobe Workfront per Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
-      * [Installare Adobe Workfront per i Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
+      * [Installare Adobe Workfront per Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
       * [Accedere ad Adobe Workfront da Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)
       * [Cercare e condividere elementi di Adobe Workfront in Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)
-      * [Creazione di attività Adobe Workfront da Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)
+      * [Creare attività di Adobe Workfront da Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)
       * [Inviare richieste di Adobe Workfront da Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md)
       * [Gestire le notifiche di Adobe Workfront in Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)
    * Adobe Workfront per Salesforce {#workfront-for-salesforce}
@@ -2163,16 +2164,16 @@ ht-degree: 2%
       * [Configurare la sezione Adobe Workfront per gli utenti di Salesforce](workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)
       * [Inviare richieste Adobe Workfront da oggetti Salesforce](workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)
       * [Creazione di progetti Adobe Workfront da oggetti Salesforce](workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md)
-   * Adobe Workfront per lo Slack {#workfront-for-slack}
+   * Adobe Workfront per Slack {#workfront-for-slack}
       * [Adobe Workfront per Slack](workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md)
       * [Configurare Adobe Workfront per Slack](workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)
-      * [Accedi ai tuoi preferiti e agli elementi recenti da Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md)
-      * [Gestire il lavoro e le approvazioni da Slack](workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md)
+      * [Accedere ai preferiti e agli elementi recenti da Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md)
+      * [Gestisci il tuo lavoro e le approvazioni da Slack](workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md)
       * [Creazione di attività e problemi da Slack](workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md)
-      * [Cerca elementi Adobe Workfront da Slack](workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)
+      * [Cerca elementi di Adobe Workfront da Slack](workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)
       * [Accedere agli oggetti di Adobe Workfront da un collegamento condiviso in Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md)
       * [Accedere ad Adobe Workfront da Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
-      * [Pubblica un commento di Slack come aggiornamento](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
+      * [Pubblica un commento Slack come aggiornamento](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
       * [Ricevere notifiche Adobe Workfront in Slack](workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)
    * Adobe Workfront con Anaplan {#workfront-with-anaplan}
       * [Adobe Workfront con Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md)

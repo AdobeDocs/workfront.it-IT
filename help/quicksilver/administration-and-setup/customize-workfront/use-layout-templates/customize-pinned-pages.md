@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '546'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ Dopo aver configurato un modello di layout, è necessario assegnarlo agli utenti
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+Devi avere i seguenti:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,10 +44,17 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td><p>Nuovo: Standard</p>
-  <p> Corrente: Piano</p>
-   </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> 
+      <p>Nuovo:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Corrente:</p>
+         <ul>
+         <li><p>Piano</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -57,7 +64,7 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
  </tbody> 
 </table>
 
-*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -91,23 +98,28 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
       * Blueprint
       * In Pianificazione
 
-   >[!IMPORTANT]
-   >
-   >Per visualizzare le aree Scenari, Obiettivi e Pianificazione sono necessarie licenze aggiuntive.
-   >
-   >* Per informazioni sugli obiettivi di Workfront, consulta [Panoramica sugli obiettivi di Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
-   >
-   >* Per informazioni su Workfront Scenario Planner, vedere [Panoramica di Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
-   >
-   >* Per informazioni su Workfront Planning, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+     >[!IMPORTANT]
+     >
+     >Per visualizzare le aree Obiettivi, Scenari e Pianificazione sono necessarie licenze aggiuntive.
+     >
+     >* Per informazioni sugli obiettivi di Workfront, consulta [Panoramica sugli obiettivi di Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     >
+     >* Per informazioni su Workfront Scenario Planner, vedere [Panoramica di Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
+     >
+     >* Per informazioni su Workfront Planning, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-   * Fai clic su **Aggiungi dashboard**, quindi digita un titolo descrittivo della sezione **Personalizza** e aggiungi il dashboard.
+   * Fai clic su **Aggiungi dashboard**
+      * Digita un nome descrittivo nel campo <!--**Quick link name**-->**Nome personalizzato**
+      * Seleziona un dashboard nel **Aggiungi un dashboard** campo <!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now -->
+      * Fare clic su **Aggiungi**.
 
 1. Ripeti il passaggio precedente per fissare qualsiasi altra pagina.
 
-1. (Facoltativo) Per rinominare un pin, posizionare il puntatore sul pin, fare clic sulla freccia accanto al nome del pin e selezionare **Rinomina pin**. Digita il nuovo nome del pin e fai clic sull’icona del segno di spunta o premi Invio.
+1. (Facoltativo) Per spostare un pin, passa il cursore del mouse sul pin e fai clic sull&#39;icona del menu Altro ![Icona Altro](assets/more-icon.png) accanto al nome del pin, quindi fai clic su **Sposta a sinistra** o **Sposta a destra** per spostare il pin nella direzione scelta oppure fai clic su **Sposta in primo piano** per spostare il pin nella posizione più a sinistra.
 
-   Una piccola finestra pop-up appare per diversi secondi dopo aver fatto clic sul segno di spunta o aver premuto Invio, consentendo di annullare la modifica del nome del pin prima che venga salvato.
+1. (Facoltativo) Per rinominare un pin, passa il puntatore del mouse sul pin e fai clic sull&#39;icona del menu Altro ![Icona Altro](assets/more-icon.png) accanto al nome del pin, quindi fai clic su **Rinomina pin**. Immetti un nuovo nome, quindi fai clic su **Salva**.
+
+1. (Facoltativo) Per eliminare un pin, passa il puntatore sul pin e fai clic sull&#39;icona del menu Altro ![Icona Altro](assets/more-icon.png) accanto al nome del pin, quindi fai clic su **Rimuovi pin**.
 
 1. Continuate a personalizzare il modello di layout.
 

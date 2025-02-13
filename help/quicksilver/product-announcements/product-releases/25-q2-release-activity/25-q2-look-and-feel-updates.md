@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: dcfae507d531e0062bfa9552f6c397be3e8bb007
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,23 @@ Questa pagina descrive piccoli aggiornamenti all’aspetto di varie aree dell’
 
 Per un elenco di tutte le modifiche disponibili con la versione del secondo trimestre 2025, consulta [Panoramica sulla versione del secondo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
-<!--## New look and feel for the Share dialog 
+## Modifiche temporanee alle e-mail dei documenti
 
 >[!NOTE]
 >
->Preview release: January 30, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
+>Versione di anteprima: 13 febbraio 2025; versione di produzione per tutti i clienti: 13 febbraio 2025
 
-We have updated the look and feel of the Share dialog modern design that is consistent with other areas of Workfront. There are slight visual differences including:
+Le e-mail relative all’aggiunta o alla condivisione di documenti non avranno più una miniatura nel corpo dell’e-mail. Alcuni clienti visualizzano anche l’e-mail legacy di assegnazione di attività e problemi, che mostra solo l’avatar dell’assegnatario.
 
-* The "Visible system-wide" option now displays "Everyone in the system can view". This option still functions as it did previously. 
-* There is a new icon to access advanced share settings.-->
+Queste modifiche sono temporanee, in quanto vengono analizzati i ritardi delle e-mail.
+
+## Nuovo aspetto per la finestra di dialogo Condividi
+
+>[!NOTE]
+>
+>Versione di anteprima: 13 febbraio 2025; versione di produzione per tutti i clienti: con la versione 25.3 (marzo 2025)
+
+Il look and feel della finestra di dialogo Condividi è stato aggiornato a un design moderno coerente con le altre aree di Workfront. Vi sono lievi differenze visive, tra cui:
+
+* L&#39;opzione &quot;Visible system-wide&quot; (Visibile a livello di sistema) ora visualizza &quot;Everyone in the system can view&quot; (Tutti nel sistema possono visualizzare). Questa opzione funziona ancora come in precedenza.
+* Nuova icona per accedere alle impostazioni di condivisione avanzate.
