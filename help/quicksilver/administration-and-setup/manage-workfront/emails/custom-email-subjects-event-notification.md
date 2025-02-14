@@ -6,9 +6,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 3c8438fef3333c5f7ceab7b19b6755d4e4246cb9
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '614'
 ht-degree: 4%
 
 ---
@@ -82,7 +82,7 @@ Alcune notifiche di eventi hanno più righe dell’oggetto, a seconda degli ogge
 
 Ad esempio, &quot;Qualcuno mi include in un aggiornamento diretto&quot; ha due diverse righe di oggetti: il primo è per attività, problemi, attività modello e documenti (noto anche come &quot;referenceObject&quot;) e il secondo è per oggetti che consentono agli utenti di fare commenti, come portfolio, programma e così via (noto anche come &quot;topReferenceObject&quot;).
 
-![Evento non più righe oggetto](assets/Ev-not-mult-subj-lines.png)
+![Evento non più righe oggetto](assets/ev-multiple-subject.png)
 
 Se un utente viene incluso in una conversazione sull’attività, sul problema, sull’attività modello o sul documento, viene generato un messaggio e-mail con la prima riga dell’oggetto. L&#39;oggetto contiene &quot;referenceObject:name&quot; e il sistema definisce l&#39;oggetto e visualizza il nome appropriato nel campo dell&#39;oggetto. L’oggetto dell’e-mail sarà simile al seguente: &quot;Commento sull’attività 123 nel progetto ABC&quot;.
 
@@ -96,6 +96,8 @@ Alcune notifiche di eventi hanno anche più oggetti e-mail per delineare le dive
 
 Ad esempio, la richiesta di aggiungere un documento a un problema è un evento che può attivare due e-mail diverse: una per quando il documento viene aggiunto e una per quando il documento viene modificato.
 
-![Azioni evento diverse](assets/ev-not-mult-subj-lines-diff-actions.png)
+
+
+![Evento non più righe oggetto](assets/Ev-not-mult-subj-lines.png)
 
 Per modificare le righe dell&#39;oggetto e-mail e aggiungere campi aggiuntivi a entrambe le righe dell&#39;oggetto, vedere [Personalizzare le righe dell&#39;oggetto e-mail per le notifiche dell&#39;evento](#customize-email-subject-lines-for-event-notifications) in questo articolo.
