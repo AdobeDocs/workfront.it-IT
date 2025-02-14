@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 7b40bd67529e62e7b08ba3076a707ba14edd6824
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
@@ -24,7 +24,9 @@ Per un elenco di tutte le modifiche disponibili con la versione del secondo trim
 >
 >Versione di anteprima: 13 febbraio 2025; versione di produzione per tutti i clienti: 13 febbraio 2025
 
-Le e-mail relative all’aggiunta o alla condivisione di documenti non avranno più una miniatura nel corpo dell’e-mail. Alcuni clienti visualizzano anche l’e-mail legacy di assegnazione di attività e problemi, che mostra solo l’avatar dell’assegnatario.
+Le e-mail relative all’aggiunta o alla condivisione di documenti non avranno più una miniatura nel corpo dell’e-mail.
+
+Alcuni clienti visualizzano anche l’e-mail legacy di assegnazione di attività e problemi, che mostra solo l’avatar dell’assegnatario.
 
 Queste modifiche sono temporanee, in quanto vengono analizzati i ritardi delle e-mail.
 
