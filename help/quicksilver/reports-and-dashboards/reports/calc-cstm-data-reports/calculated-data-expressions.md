@@ -7,10 +7,10 @@ description: Puoi utilizzare le espressioni di dati per definire campi di dati p
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: e66d4223b13bcd4813156f147769e7ee99c3f8ef
+source-git-commit: 6a46486b62974f1cc7033b4497d32ab787b05bf2
 workflow-type: tm+mt
-source-wordcount: '2425'
-ht-degree: 0%
+source-wordcount: '2433'
+ht-degree: 2%
 
 ---
 
@@ -399,7 +399,7 @@ Puoi creare un campo personalizzato calcolato per la data o l’ora utilizzando 
   </tr>
   <tr> 
    <td><strong>ARRAYELEMENT</strong> </td> 
-   <td> <p>Restituisce l’elemento al numero specificato nella matrice. Se l’indice non rientra nei limiti, restituisce vuoto.</p> 
+   <td> <p>Restituisce l’elemento al numero specificato nell’array. Se l’indice è fuori dai limiti, lo restituisce vuoto.</p> 
    <p>L’espressione viene formattata come segue:</p>
    <p><code>ARRAYELEMENT(array, number)</code></p> 
    </td> 
@@ -458,7 +458,8 @@ Puoi creare un campo personalizzato calcolato per la data o l’ora utilizzando 
   </tr> 
   <tr> 
    <td><strong>FORMATO</strong> </td> 
-   <td><p>Restituisce il testo formattato. Le opzioni di colore sono $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE e le altre opzioni di formattazione sono $$BOLD, $$ITALIC, $$UNDERLINE. È possibile utilizzare una sola opzione di colore per funzione, insieme ad altre tre opzioni di formattazione. Se non viene specificata alcuna opzione di colore, viene applicato il colore predefinito del sistema.</p>
+   <td><p>Restituisce il testo formattato. Con FORMAT sono consentite solo le opzioni dei parametri elencate qui.</p>
+   <p>Le opzioni di colore sono $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE e le altre opzioni di formattazione sono $$BOLD, $$ITALIC, $$UNDERLINE. È consentita una sola opzione di colore, insieme a un massimo di tre altre opzioni di formattazione. Se non viene specificata alcuna opzione di colore, viene applicato il colore predefinito del sistema.</p>
    <p>L’espressione viene formattata come segue:</p>
    <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
    <p>Nota: questa espressione non è supportata in Workfront Planning.</p></td> 
@@ -573,7 +574,7 @@ Puoi creare un campo personalizzato calcolato per la data o l’ora utilizzando 
   </tr> 
   <tr> 
    <td><strong>OPZIONE</strong> </td> 
-   <td> <p>Valuta l'espressione rispetto a un elenco di valori e restituisce il risultato corrispondente al primo valore corrispondente.</p>
+   <td> <p>Valuta l’espressione rispetto a un elenco di valori e restituisce il risultato che corrisponde al primo valore corrispondente.</p>
    <p>L’espressione è formattata come segue:</p>
    <p><code>SWITCH(expression, value1, result1, [value2, result2], ...)</code></p>
    <p>Espressione non supportata in Workfront Planning.</p></td> 
