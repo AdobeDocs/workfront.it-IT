@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 98040582995af736d3716e24c7530dd4cda4d3a6
+source-git-commit: f6484489f4726b606cc9840beed77ec8ab48a518
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ Nella tabella seguente vengono illustrati i limiti per il numero di oggetti che 
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Numero di aree di lavoro per un’istanza Workfront | illimitato* |
 | Numero di sezioni per un’area di lavoro | 50 |
-| Numero di tipi di record per un&#39;area di lavoro | 1.000 (sono inclusi i tipi di record di tutte le sezioni e quelli creati quando si utilizza un modello di workspace) |
+| Numero di tipi di record per un&#39;area di lavoro | 100 (sono inclusi i tipi di record di tutte le sezioni e quelli creati quando si utilizza un modello workspace) |
 | Numero di record per un tipo di record | 25.000 |
 | Numero di record per un&#39;area di lavoro | 25.000 per i clienti con Planning <br> 500.000 per i clienti con Planning Plus |
 | Numero di record totali per un&#39;istanza di Workfront Planning | 500.000 per clienti con Planning <br>2 milioni per clienti con Planning Plus |
