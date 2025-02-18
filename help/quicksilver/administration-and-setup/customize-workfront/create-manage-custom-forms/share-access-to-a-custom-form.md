@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: 2a356b2cc98f8226d2a616cdd907a3aebaeecee0
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 1%
+source-wordcount: '1530'
+ht-degree: 0%
 
 ---
 
@@ -77,7 +77,11 @@ Invece di lasciare un modulo personalizzato nello stato di condivisione predefin
     <tbody> 
      <tr> 
       <td role="rowheader">Visualizzare</td> 
-      <td> <p>Possibilità di visualizzare e compilare il modulo personalizzato sugli oggetti.</p> <p><b>NOTA</b>: per gli utenti con licenze Light e Contributor (o Licenze Work, Review e Request), questa è l'opzione più alta disponibile.</p> <p>Fare clic su <strong>Impostazioni avanzate</strong> per specificare se si desidera consentire quanto segue:</p> 
+      <td> <p>Questa opzione consente di visualizzare e compilare il modulo personalizzato sugli oggetti. A livello di oggetto, gli utenti devono inoltre disporre almeno dell'accesso Contribute con l'impostazione avanzata <strong>Modifica modulo personalizzato</strong> abilitata. Ad esempio, se il modulo è allegato a un progetto, gli utenti devono avere l'accesso Contribuisci a tale progetto, altrimenti non potranno compilare il modulo.</p>
+
+   <p><b>NOTA</b>: per gli utenti con licenze Light e Contributor (o Licenze Work, Review e Request), questa è l'opzione più alta disponibile.</p>
+
+   <p>Fare clic su <strong>Impostazioni avanzate</strong> per specificare se si desidera consentire quanto segue:</p> 
        <ul> 
         <li><strong>Allega a dati personalizzati</strong>: possibilità di allegare il modulo personalizzato a progetti, attività e problemi per i quali dispongono dell'accesso di gestione</li> 
         <li> <p><strong>Condividi</strong>: possibilità di condividere il modulo personalizzato con altri utenti nel sistema</p> <p>Gli utenti con una licenza Light o Contributor (o Licenza Lavoro, Revisione o Richiesta) possono condividere un modulo personalizzato solo tramite l’API o un rapporto di moduli personalizzati.</p> </li>
@@ -85,7 +89,7 @@ Invece di lasciare un modulo personalizzato nello stato di condivisione predefin
      </tr> 
      <tr> 
       <td role="rowheader">Gestire</td> 
-      <td> <p>Disponibile solo per gli utenti con una licenza Standard o Plan. </p> <p>Oltre a poter aggiungere il modulo agli oggetti a cui hanno accesso per la modifica, gli utenti possono anche modificare completamente il modulo personalizzato, incluse le operazioni di aggiunta, modifica ed eliminazione dei campi.</p> <p>Fare clic su <strong>Impostazioni avanzate</strong> per specificare se si desidera consentire quanto segue:</p> 
+      <td> <p>Questa opzione è disponibile solo per gli utenti con una licenza Standard o Plan. </p> <p>Oltre a poter aggiungere il modulo agli oggetti a cui hanno accesso per la modifica, gli utenti possono anche modificare completamente il modulo personalizzato, incluse le operazioni di aggiunta, modifica ed eliminazione dei campi.</p> <p>Fare clic su <strong>Impostazioni avanzate</strong> per specificare se si desidera consentire quanto segue:</p> 
        <ul> 
         <li> <p><strong>Allega a dati personalizzati</strong>: possibilità di allegare il modulo personalizzato a progetti, attività e problemi per i quali dispongono dell'accesso di gestione</p> </li> 
         <li><strong>Elimina</strong>: elimina il modulo personalizzato dal sistema</li> 
@@ -127,7 +131,9 @@ Invece di lasciare un modulo personalizzato nello stato di condivisione predefin
     <tbody> 
      <tr> 
       <td role="rowheader">Visualizzare</td> 
-      <td> <p>Possibilità di visualizzare e compilare il modulo personalizzato sugli oggetti.</p> <p><b>NOTA</b>: per gli utenti con licenze Light e Contributor (o Licenze Work, Review e Request), questa è l'opzione più alta disponibile.</p> <p>Fare clic su <strong>Impostazioni avanzate</strong> per specificare se si desidera consentire quanto segue:</p> 
+      <td> <p>Questa opzione consente di visualizzare e compilare il modulo personalizzato sugli oggetti. A livello di oggetto, gli utenti devono inoltre disporre almeno dell'accesso Contribute con l'impostazione avanzata <strong>Modifica modulo personalizzato</strong> abilitata. Ad esempio, se il modulo è allegato a un progetto, gli utenti devono avere l'accesso Contribuisci a tale progetto, altrimenti non potranno compilare il modulo.</p>
+
+   <p><b>NOTA</b>: per gli utenti con licenze Light e Contributor (o Licenze Work, Review e Request), questa è l'opzione più alta disponibile.</p> <p>Fare clic su <strong>Impostazioni avanzate</strong> per specificare se si desidera consentire quanto segue:</p> 
        <ul> 
         <li><strong>Allega a dati personalizzati</strong>: possibilità di allegare il modulo personalizzato a progetti, attività e problemi per i quali dispongono dell'accesso di gestione</li> 
         <li> <p><strong>Condividi</strong>: possibilità di condividere il modulo personalizzato con altri utenti nel sistema</p> <p>Gli utenti con una licenza Light o Contributor (o Licenza Lavoro, Revisione o Richiesta) possono condividere un modulo personalizzato solo tramite l’API o un rapporto di moduli personalizzati.</p> </li>
@@ -135,7 +141,7 @@ Invece di lasciare un modulo personalizzato nello stato di condivisione predefin
      </tr> 
      <tr> 
       <td role="rowheader">Gestire</td> 
-      <td> <p>Disponibile solo per gli utenti con una licenza Standard o Plan. </p> <p>Oltre a poter aggiungere il modulo agli oggetti a cui hanno accesso per la modifica, gli utenti possono anche modificare completamente il modulo personalizzato, incluse le operazioni di aggiunta, modifica ed eliminazione dei campi.</p> <p>Fare clic su <strong>Impostazioni avanzate</strong> per specificare se si desidera consentire quanto segue:</p> 
+      <td> <p>Questa opzione è disponibile solo per gli utenti con una licenza Standard o Plan. </p> <p>Oltre a poter aggiungere il modulo agli oggetti a cui hanno accesso per la modifica, gli utenti possono anche modificare completamente il modulo personalizzato, incluse le operazioni di aggiunta, modifica ed eliminazione dei campi.</p> <p>Fare clic su <strong>Impostazioni avanzate</strong> per specificare se si desidera consentire quanto segue:</p> 
        <ul> 
         <li> <p><strong>Allega a dati personalizzati</strong>: possibilità di allegare il modulo personalizzato a progetti, attività e problemi per i quali dispongono dell'accesso di gestione</p> </li> 
         <li><strong>Elimina</strong>: elimina il modulo personalizzato dal sistema</li> 
