@@ -5,9 +5,9 @@ description: Adobe Workfront invia notifiche sugli elementi che ti sono stati as
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
@@ -75,12 +75,12 @@ Ad esempio, per abbonarti a un problema:
    >
    >Per iscriverti a progetti, puoi effettuare una delle seguenti operazioni:
    >
-   >* Vai al progetto a cui vuoi abbonarti, fai clic sull&#39;icona **[!UICONTROL Altro]** ![](assets/qs-more-menu.png) a destra del nome del progetto, quindi su **[!UICONTROL Abbonati]**.
-   >* Vai a un elenco o report di progetti e seleziona un progetto, fai clic sull&#39;icona **[!UICONTROL Altro]** ![](assets/qs-more-menu.png) nella parte superiore dell&#39;elenco, quindi fai clic su **[!UICONTROL Abbonati]**. Questa opzione è disponibile solo in un elenco di progetti.
+   >* Vai al progetto a cui desideri iscriverti, fai clic sull&#39;icona **[!UICONTROL Altro]** ![Altro menu](assets/qs-more-menu.png) a destra del nome del progetto, quindi **[!UICONTROL Abbonati]**.
+   >* Vai a un elenco o a un report di progetti e seleziona un progetto, fai clic sull&#39;icona **[!UICONTROL Altro]** ![Altro menu](assets/qs-more-menu.png) nella parte superiore dell&#39;elenco, quindi fai clic su **[!UICONTROL Abbonati]**. Questa opzione è disponibile solo in un elenco di progetti.
 
-1. Fai clic su **[!UICONTROL Altro]** ![](assets/more-icon.png), quindi fai clic su **[!UICONTROL Abbonati]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Altro]** ![Altro](assets/more-icon.png), quindi fai clic su **[!UICONTROL Abbonati]**.
 
-   ![](assets/subscribe-to-a-work-item-350x258.png)
+   ![Sottoscrizione a un elemento di lavoro](assets/subscribe-to-a-work-item-350x258.png)
 
    Un segno di spunta viene visualizzato sulla campana e il numero accanto a essa si aggiorna per aggiungerti al numero di utenti abbonati.
 
@@ -102,12 +102,12 @@ Ad esempio, per annullare l’abbonamento a un problema:
    >
    >Per annullare l’abbonamento a progetti, puoi effettuare una delle seguenti operazioni:
    >
-   >* Vai al progetto per il quale vuoi annullare l&#39;iscrizione, fai clic sull&#39;icona **[!UICONTROL Altro]** ![](assets/qs-more-menu.png) a destra del nome del progetto, quindi su **[!UICONTROL Annulla l&#39;iscrizione]**.
-   >* Vai a un elenco o report di progetti e seleziona un progetto, fai clic sull&#39;icona **[!UICONTROL Altro]** ![](assets/qs-more-menu.png) nella parte superiore dell&#39;elenco, quindi fai clic su **[!UICONTROL Annulla iscrizione]**. Questa opzione è disponibile solo in un elenco di progetti.
+   >* Vai al progetto per il quale vuoi annullare l&#39;abbonamento, fai clic sull&#39;icona **[!UICONTROL Altro]** ![Altro](assets/qs-more-menu.png) a destra del nome del progetto, quindi su **[!UICONTROL Annulla l&#39;abbonamento]**.
+   >* Vai a un elenco o a un report di progetti e seleziona un progetto, fai clic sull&#39;icona **[!UICONTROL Altro]** ![Altro](assets/qs-more-menu.png) nella parte superiore dell&#39;elenco, quindi fai clic su **[!UICONTROL Annulla iscrizione]**. Questa opzione è disponibile solo in un elenco di progetti.
 
-1. Fai clic su **[!UICONTROL Altro]** ![](assets/more-icon.png), quindi fai clic su **[!UICONTROL Annulla iscrizione]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Altro]** ![Altro](assets/more-icon.png), quindi fai clic su **[!UICONTROL Annulla iscrizione]**.
 
-   ![](assets/unsubscribe-to-a-work-item-350x258.png)
+   ![Annulla iscrizione a un elemento di lavoro](assets/unsubscribe-to-a-work-item-350x258.png)
 
 1. Puoi anche annullare l&#39;iscrizione a un elemento a cui sei abbonato facendo clic sul collegamento [!UICONTROL Annulla iscrizione] nell&#39;e-mail di iscrizione.
 
@@ -136,7 +136,7 @@ A tutti i sottoscrittori viene concessa l&#39;autorizzazione [!UICONTROL Visuali
    >   
    >* Vai a un elenco o a un report di progetti e seleziona un progetto.
 
-1. Fai clic su **[!UICONTROL Altro]** ![](assets/more-icon.png).
+1. Fai clic sull&#39;icona **[!UICONTROL Altro]** ![Altro](assets/more-icon.png).
 1. Fai clic sul numero a fianco del collegamento **[!UICONTROL Abbonati]**.
 1. Nella casella visualizzata, iniziare a digitare il nome dell&#39;utente nella casella **[!UICONTROL Sottoscrivi altri]**, quindi selezionare l&#39;utente tra le opzioni visualizzate.
 
@@ -159,7 +159,7 @@ Quando qualcuno aggiunge un commento alla scheda [!UICONTROL Aggiornamenti] dell
    >   
    >* Vai a un elenco o a un report di progetti e seleziona un progetto.
 
-1. Fai clic su **[!UICONTROL Altro]** ![](assets/more-icon.png).
+1. Fai clic sull&#39;icona **[!UICONTROL Altro]** ![Altro](assets/more-icon.png).
 1. Fai clic sul numero a fianco del collegamento **[!UICONTROL Abbonati]** o **[!UICONTROL Annulla abbonamento]**.
 1. Nella pagina **[!UICONTROL Abbonati]** visualizzata, fare clic sulla &quot;X&quot; accanto al nome dell&#39;utente che si desidera annullare l&#39;abbonamento.
 
@@ -175,7 +175,7 @@ Quando qualcuno aggiunge un commento alla scheda [!UICONTROL Aggiornamenti] dell
 
 Immediatamente dopo che qualcuno ha pubblicato un commento su un elemento a cui sei abbonato, ricevi una notifica in-app.
 
-![](assets/in-app-not---cmmnt-sbscibd-to-350x164.png)
+![Notifica nell&#39;app](assets/in-app-not---cmmnt-sbscibd-to-350x164.png)
 
 Per ulteriori informazioni, vedere [Visualizzare e gestire le notifiche in-app](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 

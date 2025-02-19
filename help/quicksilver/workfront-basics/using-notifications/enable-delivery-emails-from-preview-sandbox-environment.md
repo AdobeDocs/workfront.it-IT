@@ -5,9 +5,9 @@ description: Se desideri ricevere notifiche e-mail dall’ambiente Sandbox di an
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e5c7e387-d08d-42f6-a9e6-f44e514ef902
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '522'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Oppure
 
-   Per più utenti: fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di Workfront, quindi fai clic su **[!UICONTROL Utenti]** ![](assets/users-icon-in-main-menu.png).  Quindi, selezionare più utenti e fare clic su **[!UICONTROL Modifica]**.
+   Per più utenti: fare clic sull&#39;icona **[!UICONTROL Menu principale]** ![Icona menu principale](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Workfront, quindi fare clic sull&#39;icona **[!UICONTROL Utenti]** ![Icona utente](assets/users-icon-in-main-menu.png).  Quindi, selezionare più utenti e fare clic su **[!UICONTROL Modifica]**.
 
 1. Fai clic su **[!UICONTROL Preferenze]**.
 1. Seleziona **[!UICONTROL Ricevi e-mail da questo ambiente di test]**.

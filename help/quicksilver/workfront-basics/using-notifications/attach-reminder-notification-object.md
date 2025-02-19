@@ -3,13 +3,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: Allegare una notifica di promemoria a un oggetto
-description: "È possibile associare le notifiche di promemoria a diversi tipi di oggetti: progetti, attività, problemi, schede orario, modelli, attività modello e profili di schede orario ricorrenti."
+description: 'È possibile associare le notifiche di promemoria a diversi tipi di oggetti: Progetti, Attività, Problemi, Schede orario, Modelli, Attività modello e Profili schede orario ricorrenti.'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: ea04d807-1a9f-4a23-96de-cd83f0821ba0
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '290'
 ht-degree: 1%
 
 ---
@@ -56,14 +56,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 ## Allega notifiche promemoria a un oggetto
 
 1. Passare all&#39;oggetto in cui si desidera allegare la notifica di promemoria.
-1. Fare clic sull&#39;icona Modifica ![](assets/edit-icon.png).
+1. Fare clic sull&#39;icona Modifica ![icona Modifica](assets/edit-icon.png).
 1. Nel pannello sinistro della casella **[!UICONTROL Modifica]** visualizzata, fare clic su **[!UICONTROL Impostazioni]**.
 
 1. In **[!UICONTROL Notifica promemoria]**, selezionare le notifiche da allegare all&#39;oggetto.
 
    In questo esempio, l&#39;oggetto che si sta modificando è un&#39;attività:
 
-   ![](assets/reminder-notification-select-one-350x213.png)
+   ![Notifica promemoria](assets/reminder-notification-select-one-350x213.png)
 
    Se l&#39;amministratore [!DNL Workfront] ha creato più notifiche promemoria, è possibile allegare più notifiche a un singolo oggetto.
 

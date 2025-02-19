@@ -7,9 +7,9 @@ description: Questo articolo descrive come gestire le notifiche e-mail nel profi
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: f9afe7c8f04777dd547ea1e202e7844bdfd3518e
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
@@ -67,13 +67,13 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 {{step1-click-profile-pic}}
 
-1. Fai clic sull&#39;icona **[!UICONTROL Altro]** ![](assets/more-icon.png) accanto al tuo nome, quindi fai clic su **[!UICONTROL Modifica]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Altro]** ![Altro icona](assets/more-icon.png) accanto al tuo nome, quindi fai clic su **[!UICONTROL Modifica]**.
 
 1. Nella casella **[!UICONTROL Modifica persona]** visualizzata, vai alla sezione **[!UICONTROL Notifiche]**.
 
 1. Fare clic su una categoria per visualizzare le impostazioni di notifica correlate a tale categoria.
 
-   ![](assets/my-profile-notifications.png)
+   ![Notifiche del mio profilo](assets/my-profile-notifications.png)
 
 1. Selezionare o deselezionare le caselle di controllo sulla destra per specificare se si desidera ricevere o meno notifiche ogni giorno, all&#39;istante o entrambe.
 
@@ -90,13 +90,13 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Se hai selezionato delle notifiche da inviare come riepilogo giornaliero, seleziona l&#39;ora del giorno in cui desideri riceverla nella parte superiore della sezione **[!UICONTROL Notifiche]** nel menu **[!UICONTROL Invia riepilogo giornaliero tramite posta elettronica dopo]**.
 
-   ![](assets/digest-time-stamp-my-settings-350x78.png)
+   ![Digest giornaliero: scegli ora del giorno](assets/digest-time-stamp-my-settings-350x78.png)
 
    Il riepilogo giornaliero include gli eventi che soddisfano i criteri delle notifiche 24 ore prima dell’ora selezionata. Ricevi un’e-mail di riepilogo giornaliero per ogni tipo di notifica.\
    Il riepilogo giornaliero può arrivare dopo l’orario selezionato, a seconda di quante e-mail sono in coda per la consegna nel sistema. L’ora indicata corrisponde all’ora locale specificata nelle impostazioni del browser.
 
 1. (Condizionale e facoltativo) Quando modifichi le impostazioni delle notifiche e-mail nell&#39;ambiente di anteprima, abilita l&#39;impostazione **[!UICONTROL Ricevi e-mail da questo ambiente di test]** per ricevere e-mail. Le e-mail non vengono generate automaticamente dall’ambiente di anteprima.
 
-   ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+   ![Ricevi e-mail da sndbox](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 1. Fai clic su **[!UICONTROL Salva modifiche]**.

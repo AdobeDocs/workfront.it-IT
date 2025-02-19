@@ -1,15 +1,15 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: "Notifiche: Obiettivi"
-description: "Notifiche: Obiettivi"
+title: 'Notifiche: Obiettivi'
+description: 'Notifiche: Obiettivi'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 3%
+source-wordcount: '569'
+ht-degree: 4%
 
 ---
 
@@ -72,7 +72,7 @@ L&#39;utente le cui notifiche [!DNL Goals] vengono aggiornate deve disporre dei 
 
 Le notifiche elencate nella tabella seguente ti avvisano di eventi che si verificano in [!DNL Workfront Goals], ad esempio di un utente che ti assegna un obiettivo, un risultato o un&#39;attività o di un utente che aggiorna un obiettivo, un risultato o un&#39;attività di tua proprietà. Per informazioni sulla configurazione delle notifiche ricevute, vedere [Modificare le proprie notifiche e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-![](assets/goals-notifications-preferences-350x114.png)
+![Preferenze notifiche](assets/goals-notifications-preferences-350x114.png)
 
 >[!NOTE]
 >

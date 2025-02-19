@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Visualizza: URL esterno tramite campo dati personalizzato"
+title: 'Visualizza: URL esterno tramite campo dati personalizzato'
 description: È possibile visualizzare un collegamento a un URL personalizzato interno utilizzando un campo personalizzato calcolato denominato "URL personalizzato" in una visualizzazione attività.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-source-git-commit: 4247f2b437a5627ac4cba5289573eb4f1c18c583
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Se si dispone dell&#39;accesso per creare un modulo personalizzato, è possibile
 
 L&#39;attività **Visualizza** nell&#39;esempio seguente visualizza il campo personalizzato **Calcolato** denominato &quot;URL personalizzato&quot; come collegamento diretto alla scheda secondaria **Panoramica** all&#39;interno della scheda attività&#x200B;**Dettagli** e al campo **URL** dell&#39;attività.
 
-![](assets/task-view-with-custom-url-field-quicksilver-350x70.png)
+(assets/task-view-with-custom-url-field-quicksilver-350x70.png)
 
 Per personalizzare questa visualizzazione:
 
