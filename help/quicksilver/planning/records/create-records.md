@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 597d8db034269e673dbe46e8c0f4934bf9509e2f
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
-source-wordcount: '1593'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
@@ -256,10 +256,16 @@ Prima di poter aggiungere nuovi record collegandoli da quelli esistenti, è nece
 
 Per creare i record durante la connessione da altri record:
 
-1. Avviare la connessione dei record di Workfront Planning, come descritto nell&#39;articolo [Connetti record](/help/quicksilver/planning/records/connect-records.md). È possibile collegare record da un campo di connessione nelle seguenti aree di Workfront Planning:
+1. Avviare la connessione dei record di Workfront Planning, come descritto nell&#39;articolo [Connetti record](/help/quicksilver/planning/records/connect-records.md). È possibile collegare record dalle seguenti aree:
 
-   * Vista tabella
-   * Pagina dei dettagli o casella di anteprima di un record
+   * Un campo di connessione nelle seguenti aree di Workfront Planning:
+
+      * Vista tabella
+      * Pagina dei dettagli o casella di anteprima di un record
+
+   * Campo di connessione nella sezione Pianificazione di un progetto, portfolio o programma in Workfront.
+
+     Per informazioni, vedere [Gestire le connessioni record dagli oggetti Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
 1. (Condizionale) Se non è possibile trovare un record quando si tenta di aggiungerlo dal campo record connesso di un altro record, cercare un record, quindi fare clic su **+ Aggiungi**. Il pulsante **+ Aggiungi** è seguito dal nome del tipo di record a cui ti stai connettendo. Ad esempio, &quot;Aggiungi marchi&quot; quando si aggiunge un marchio a una campagna esistente. Il nome digitato segue anche il pulsante Aggiungi.
 

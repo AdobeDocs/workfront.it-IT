@@ -7,9 +7,9 @@ description: Adobe Workfront determina lo stato di avanzamento di un progetto os
 author: Alina
 feature: Work Management
 exl-id: 922ca4cf-c526-4704-9966-de67b0c36a2a
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '390'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Di seguito sono riportati gli stati di avanzamento dei progetti in Workfront:
   </tr> 
   <tr> 
    <td>A Rischio</td> 
-   <td> Lo stato di avanzamento di un progetto è <strong>A rischio</strong> se <strong>tutti</strong> dei seguenti valori sono true:<ul><li>Le date di completamento previste e quelle previste sono entrambe nel futuro</li><li> Le date di completamento previste e quelle stimate sono successive alla data di completamento pianificata</li><li> La data di completamento stimata è successiva alla data di completamento prevista</li></ul><p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
+   <td> Lo stato di avanzamento di un progetto è <strong>A rischio</strong> se <strong>tutti</strong> dei seguenti valori sono true:<ul><li>Le date di completamento previste e quelle previste sono entrambe nel futuro</li><li> La data di completamento stimata è successiva sia alla data di completamento pianificata che alla data di completamento prevista </li></ul><p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
   </tr> 
   <tr> 
    <td>Indietro</td> 

@@ -6,9 +6,9 @@ description: È possibile modificare i modelli di progetto per riflettere le mod
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '4720'
+source-wordcount: '4809'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader">Autorizzazioni oggetto</td> 
    <td> 
     <ul> 
-     <li> <p>Autorizzazioni di Contribute per un modello per modificarlo nella scheda Dettagli modello</p> </li> 
+     <li> <p>Concedere le autorizzazioni per un modello per modificarlo nella scheda Dettagli modello</p> </li> 
      <li> <p>Gestire le autorizzazioni per un modello per modificarlo nella casella Modifica modello</p> </li> 
    </td> 
   </tr> 
@@ -592,6 +592,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    * [Impostazioni attività](#task-settings)
    * [Impostazioni problema](#issue-settings)
    * [Accesso](#access-preview)
+   * [Cartelle collegate](#linked-folders-conditional-availability) (disponibilità condizionale)
 
 
 ### Nome Modello{#template-name}
@@ -658,11 +659,11 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    <tr> 
          <td role="rowheader"><strong>Portfolio</strong></td> 
-         <td><p>Specifica un Portfolio per i progetti creati da questo modello. È necessario creare un Portfolio prima che venga visualizzato nell'elenco a discesa. </p><p>Nell’elenco vengono visualizzati solo i portfolio attivi. Per ulteriori informazioni sulla creazione di portfolio, vedere <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Creare un portfolio </a>.</p></td> 
+         <td><p>Specificare un Portfolio per i progetti creati da questo modello. È necessario creare un Portfolio prima di visualizzarlo nell'elenco a discesa. </p><p>Nell’elenco vengono visualizzati solo i portfolio attivi. Per ulteriori informazioni sulla creazione di portfolio, vedere <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Creare un portfolio </a>.</p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Programma</strong></td> 
-         <td><p>Se hai selezionato un Portfolio per il modello, specifica un <strong>Programma</strong> per il progetto futuro. Alcuni Portfoli potrebbero non disporre di programmi. È innanzitutto necessario creare un programma prima che venga visualizzato in questo elenco a discesa. Nell'elenco vengono visualizzati solo i programmi attivi.</p><p>Per ulteriori informazioni sulla creazione di programmi, vedere <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Creare un programma</a>.</p></td> 
+         <td><p>Se hai selezionato un Portfolio per il modello, specifica un <strong>Programma</strong> per il progetto futuro. Alcuni portafogli potrebbero non disporre di programmi. È innanzitutto necessario creare un programma prima che venga visualizzato in questo elenco a discesa. Nell'elenco vengono visualizzati solo i programmi attivi.</p><p>Per ulteriori informazioni sulla creazione di programmi, vedere <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Creare un programma</a>.</p></td> 
        </tr>  
        <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
          <td role="rowheader"><strong>Gruppo</strong></td> 
@@ -737,7 +738,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    </tr> 
          <tr> 
          <td role="rowheader"><strong>Benef Pian</strong></td> 
-         <td><p>Specifica il beneficio pianificato dei progetti creati da questo modello. Il beneficio pianificato viene utilizzato nel caso aziendale del progetto e nell'Ottimizzatore Portfolio. </p><p>Per ulteriori informazioni sul beneficio pianificato di un progetto, vedere <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Panoramica del beneficio pianificato del progetto</a>. Il beneficio pianificato di un progetto viene preso in considerazione quando viene calcolato il valore netto di un progetto. </p><p>Per ulteriori informazioni sull'utilizzo di Ottimizzatore Portfolio, vedere <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Gestire progetti in Ottimizzatore Portfolio</a> </p></td> 
+         <td><p>Specifica il beneficio pianificato dei progetti creati da questo modello. Il beneficio pianificato viene utilizzato nel caso aziendale del progetto e in Portfolio Optimizer. </p><p>Per ulteriori informazioni sul beneficio pianificato di un progetto, vedere <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Panoramica del beneficio pianificato del progetto</a>. Il beneficio pianificato di un progetto viene preso in considerazione quando viene calcolato il valore netto di un progetto. </p><p>Per ulteriori informazioni sull'utilizzo di Portfolio Optimizer, vedere <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Gestione dei progetti in Portfolio Optimizer</a> </p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Costi fissi</strong></td> 
@@ -991,23 +992,23 @@ Modificando le impostazioni dei problemi, puoi impedire agli utenti di aggiunger
        <tbody> 
        <tr> 
          <td role="rowheader"><strong>Quando a un utente viene assegnata un'attività</strong> </td> 
-         <td> <p>Seleziona da <strong>Visualizza</strong>, <strong>Contribute,</strong> o <strong>Gestisci</strong> l'accesso a un'attività. L’utente assegnato a un’attività ottiene automaticamente questo accesso all’attività. </p> </td> 
+         <td> <p>Seleziona da <strong>Visualizza</strong>, <strong>Contribuisci,</strong> o <strong>Gestisci</strong> l'accesso a un'attività. L’utente assegnato a un’attività ottiene automaticamente questo accesso all’attività. </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Concedi anche l'accesso al progetto</strong> </td> 
-         <td> <p> Seleziona da <strong>Visualizza</strong>, <strong>Contribute</strong> o <strong>Gestisci</strong> l'accesso al progetto. Anche all’utente assegnato a un’attività viene automaticamente concesso questo accesso al progetto. </p> </td> 
+         <td> <p> Seleziona da <strong>Visualizza</strong>, <strong>Contribuisci</strong> o <strong>Gestisci</strong> l'accesso al progetto. Anche all’utente assegnato a un’attività viene automaticamente concesso questo accesso al progetto. </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Quando a un utente viene assegnato un problema</strong> </td> 
-         <td> <p>Seleziona da <strong>Visualizza</strong>, <strong>Contribute,</strong> o <strong>Gestisci</strong> l'accesso a un problema. L’utente assegnato a un problema ottiene automaticamente questo accesso al problema. </p> </td> 
+         <td> <p>Seleziona da <strong>Visualizza</strong>, <strong>Contribuisci,</strong> o <strong>Gestisci</strong> l'accesso a un problema. L’utente assegnato a un problema ottiene automaticamente questo accesso al problema. </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Concedi anche l'accesso al progetto</strong> </td> 
-         <td> <p> Seleziona da <strong>Visualizza</strong>, <strong>Contribute</strong> o <strong>Gestisci</strong> l'accesso al progetto. Anche l’utente assegnato a un problema dispone automaticamente di questo accesso al progetto. </p> </td> 
+         <td> <p> Seleziona da <strong>Visualizza</strong>, <strong>Contribuisci</strong> o <strong>Gestisci</strong> l'accesso al progetto. Anche l’utente assegnato a un problema dispone automaticamente di questo accesso al progetto. </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Quando un utente invia una richiesta: concedi l'accesso</strong> </td> 
-         <td> <p> Seleziona da <strong>Visualizza</strong>, <strong>Contribute</strong> o <strong>Gestisci</strong> l'accesso alla richiesta. Quando presentano una richiesta al progetto, viene loro concesso l’accesso alla richiesta che hanno presentato. Per ulteriori informazioni, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Condividere un problema </a>.</p> </td> 
+         <td> <p> Seleziona da <strong>Visualizza</strong>, <strong>Contribuisci</strong> o <strong>Gestisci</strong> l'accesso alla richiesta. Quando presentano una richiesta al progetto, viene loro concesso l’accesso alla richiesta che hanno presentato. Per ulteriori informazioni, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Condividere un problema </a>.</p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Le persone della stessa società erediteranno le stesse autorizzazioni per tutte le richieste</strong> </td> 
@@ -1030,6 +1031,23 @@ Modificando le impostazioni dei problemi, puoi impedire agli utenti di aggiunger
 
    Ora, quando utilizzi questo modello per creare un progetto, tutte queste impostazioni verranno trasferite al nuovo progetto.
 
+
+### Cartelle collegate (disponibilità condizionale) {#linked-folders}
+
+La funzionalità Cartelle collegate crea automaticamente le cartelle in Adobe Experience Manager Assets e le connette a Workfront.
+
+Questa sezione viene visualizzata solo se si applicano tutte le seguenti condizioni:
+
+* La tua organizzazione è stata migrata a Adobe Admin Console
+* La tua organizzazione ha abilitato e configurato un’integrazione con Adobe Experience Manager
+* Nel modello sono state abilitate e configurate le cartelle collegate.
+
+Per istruzioni sulla modifica delle cartelle collegate, vedere [Modificare i valori del flusso di lavoro in un progetto](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) nell&#39;articolo [Utilizzare i flussi di lavoro nell&#39;integrazione di Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
+
+<!--I don't think this note is valid anymore - this note was on Edit project when this section was in that article, by mistake: 
+>[!NOTE]
+>
+>Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. Editing these values when creating a project functions as expected.-->
 
 ## Modificare i modelli in blocco
 

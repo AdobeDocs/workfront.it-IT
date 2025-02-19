@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1475'
 ht-degree: 1%
 
 ---
@@ -84,7 +84,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>
   <tr>
    <td role="rowheader"><p>Configurazione del livello di accesso</p></td>
-   <td> <p>Accesso di visualizzazione o superiore a progetti, programmi e Portfoli</p>  
+   <td> <p>Visualizzare o accedere più facilmente a progetti, programmi e portafogli</p>  
 </td>
   </tr>
 <tr>
@@ -97,7 +97,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>Per visualizzare l'area Planning o la sezione Planning per un oggetto Workfront, a tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale e l'area Planning per i progetti, i portfolio e i programmi. </p> Per ulteriori informazioni, vedere <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica dell'accesso di Adobe Planning</a>. </p>  </p>  
+   <td> <p>Per visualizzare l'area Planning o la sezione Planning per un oggetto Workfront, a tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale e l'area Planning per i progetti, i portfolio e i programmi. </p> Per ulteriori informazioni, vedere <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica dell'accesso ad Adobe Planning</a>. </p>  </p>  
 </td>
   </tr>
  </tbody>
@@ -172,7 +172,10 @@ Si verificano le seguenti situazioni:
    * Il record non è più connesso all&#39;oggetto Workfront.
    * L&#39;oggetto Workfront viene inoltre rimosso dal campo connesso del record da Workfront Planning.
    * Vengono eliminati anche i valori dei campi di ricerca di Workfront connessi al record Planning.
-1. Fai clic su **Connetti** per connettere altri record per i tipi di record connessi. Per ulteriori informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
+1. Fai clic su **Connetti** per connettere altri record per i tipi di record connessi.
+
+   Per ulteriori informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
+1. (Facoltativo) Se non riesci a trovare un record da connettere e vuoi aggiungerlo, fai clic su **+ Aggiungi** per aggiungere un nuovo record. Per ulteriori informazioni, vedere la sezione &quot;Creare record durante la connessione da altri record&quot; nell&#39;articolo [Creare record](/help/quicksilver/planning/records/create-records.md).
 
    Si verificano le seguenti situazioni:
 
@@ -204,7 +207,7 @@ Quando si visualizzano i record di Workfront Planning da un campo di connessione
 * Se si dispone dell&#39;accesso corretto, è necessario allegare un modulo personalizzato con un campo personalizzato della connessione Planning a un oggetto Workfront che può essere connesso da Workfront Planning.
 * I tipi di record di Workfront Planning devono prima essere connessi ai tipi di oggetto di Workfront. Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
 * È possibile connettere o disconnettere record dal campo di connessione Planning di un oggetto Workfront solo per gli oggetti che possono disporre di connessioni Workfront Planning.
-* È necessario disporre delle autorizzazioni Contribute per un&#39;area di lavoro in Workfront Planning per poter connettere o disconnettere i record dal campo di connessione Planning di un oggetto Workfront.
+* Per poter connettere o disconnettere record dal campo di connessione Planning di un oggetto Workfront, è necessario disporre delle autorizzazioni Contribute per un&#39;area di lavoro in Workfront Planning.
 * Non è possibile modificare un campo di connessione di Planning quando si modificano in blocco oggetti di Workfront.
 
 ### Gestire le connessioni record dal tipo di campo Connessione Planning
@@ -233,7 +236,7 @@ Quando si visualizzano i record di Workfront Planning da un campo di connessione
    >
    >Non è possibile aggiungere record ai campi di connessione di Planning associati a oggetti di Workfront diversi dall&#39;oggetto selezionato al momento della configurazione del campo.
    >
-   >Non è possibile, ad esempio, aggiungere record a un campo di connessione di Planning creato per una connessione di Portfolio dal modulo personalizzato di un progetto.
+   >Non è ad esempio possibile aggiungere record a un campo di connessione di Planning creato per una connessione di Portfolio dal modulo personalizzato di un progetto.
    >
    >L&#39;oggetto del campo e l&#39;oggetto selezionato non corrispondono.
    >

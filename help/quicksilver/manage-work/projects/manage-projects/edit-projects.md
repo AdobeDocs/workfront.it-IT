@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '7828'
+source-wordcount: '7703'
 ht-degree: 1%
 
 ---
@@ -169,7 +169,6 @@ Per informazioni sulla creazione di un progetto da un modello, vedere [Creare un
    * [Impostazioni attività](#task-settings)
    * [Impostazioni problema](#issue-settings)
    * [Accesso](#access)
-   * [Cartelle collegate](#linked-folders-conditional-availability) (disponibilità condizionale)
    * <span class="preview">[Commento](#comment)</span>
 
 
@@ -667,22 +666,6 @@ Per informazioni sull&#39;effetto di queste impostazioni sulla creazione di nuov
    </table>
 
 1. Fai clic su **Salva**.
-
-### Cartelle collegate (disponibilità condizionale) {#linked-folders}
-
-La funzionalità Cartelle collegate crea automaticamente le cartelle in Adobe Experience Manager Assets e le connette a Workfront.
-
-Questa sezione viene visualizzata solo se si applicano tutte le seguenti condizioni:
-
-* La tua organizzazione è stata migrata a Adobe Admin Console
-* La tua organizzazione ha abilitato e configurato un’integrazione con Adobe Experience Manager
-* Il modello utilizzato per creare questo progetto ha abilitato e configurato le cartelle collegate.
-
-Per istruzioni sulla modifica delle cartelle collegate, vedere [Modificare i valori del flusso di lavoro in un progetto](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) nell&#39;articolo [Utilizzare i flussi di lavoro nell&#39;integrazione di Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
-
->[!NOTE]
->
->Poiché le cartelle collegate vengono create al momento della creazione del progetto, la modifica del flusso di lavoro delle cartelle collegate in un progetto esistente non è efficace. La modifica di questi valori durante la creazione di un progetto funziona come previsto.
 
 <div class="preview">
 

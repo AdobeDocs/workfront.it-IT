@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 98040582995af736d3716e24c7530dd4cda4d3a6
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '3826'
+source-wordcount: '3824'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,11 @@ Per eseguire i passaggi descritti in questo articolo e registrare le ore specifi
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso di visualizzazione o superiore al tipo di elemento di lavoro per il quale si registra il tempo </p> <p>Ad esempio, per registrare i problemi è necessario disporre dell’accesso di visualizzazione ai problemi</p> </td> 
+   <td> <p>Modifica l'accesso al tipo di elemento di lavoro per il quale si registra il tempo </p> <p>Ad esempio, per registrare il tempo relativo ai problemi è necessario disporre dell’accesso in Modifica ai problemi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Autorizzazioni di Contribute o di livello superiore per l’elemento di lavoro per il quale si registra il tempo, che includono le autorizzazioni per Registra ore</p> </td> 
+   <td> <p>Autorizzazioni Contribute o superiori per l'elemento di lavoro per il quale si registra il tempo, che includono le autorizzazioni per Registrare le ore</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -420,7 +420,7 @@ Oppure
 È necessario disporre di tutti i seguenti elementi:
 
 * Una licenza Pianificazione con accesso amministrativo alle schede orario e alle ore. Per ulteriori informazioni sulla concessione dell&#39;accesso amministrativo alle schede orario e alle ore, vedere [Concedere agli utenti l&#39;accesso amministrativo ad alcune aree](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
-* Autorizzazioni Contribute o superiori per il progetto con accesso a Registra ore. Per ulteriori informazioni sulla concessione delle autorizzazioni per i progetti, vedere [Condividere un progetto in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+* Autorizzazioni Contribute o superiori per il progetto con accesso a Log Hours (Registra ore). Per ulteriori informazioni sulla concessione delle autorizzazioni per i progetti, vedere [Condividere un progetto in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 * Se desideri registrare l&#39;ora direttamente su un progetto, il tuo amministratore di Workfront deve abilitare l&#39;impostazione Registra tempo direttamente sui progetti nella sezione **Timesheet &amp; Hours > Preferences** dell&#39;area Setup (Configurazione). Per ulteriori informazioni su come consentire agli utenti di registrare le ore direttamente nei progetti, consulta [Configurare le preferenze di ore e schede orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 Per registrare il tempo nella sezione Ore di un progetto, attività o problema:
