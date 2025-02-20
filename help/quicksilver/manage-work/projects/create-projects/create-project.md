@@ -6,9 +6,9 @@ description: Un progetto è una grande unità di lavoro in Adobe Workfront. Puoi
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1388'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ Puoi creare un progetto in Workfront utilizzando uno dei seguenti metodi:
 
   Per informazioni sull&#39;importazione di progetti tramite Kick-Start, vedere [Scenario Kick-Start: preparazione dell&#39;importazione di un progetto semplice e di un&#39;attività](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
-* Publish un’iniziativa da uno scenario in Adobe Workfront Scenario Planner.
+* Pubblicare un’iniziativa da uno scenario in Adobe Workfront Scenario Planner.
 
   La Pianificazione scenario richiede uno dei seguenti elementi:
 
@@ -129,7 +129,7 @@ Puoi creare un progetto in Workfront utilizzando uno dei seguenti metodi:
 
   Per informazioni sull&#39;accesso a Workfront Planning, vedere [Panoramica dell&#39;accesso](/help/quicksilver/planning/access/access-overview.md).
 
-  Per informazioni sulla creazione di progetti tramite l&#39;aggiunta di tali progetti ai record, vedere la sezione &quot;Creazione di progetti durante la connessione con i record di Workfront Planning&quot; nell&#39;articolo [Creazione di oggetti Workfront da Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+  Per informazioni sulla creazione di progetti tramite l&#39;aggiunta di tali elementi ai record, vedere la sezione &quot;Creazione di progetti durante la connessione con i record di Workfront Planning&quot; nell&#39;articolo [Creazione di oggetti Workfront da Workfront Planning durante la connessione ai record](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
 ## Prerequisiti
 

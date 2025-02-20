@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '2956'
+source-wordcount: '3082'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Connetti record
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -112,7 +112,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
-   <td> <p>Non sono presenti controlli del livello di accesso per gli oggetti di Adobe Workfront Planning</p>   
+   <td> <p>Non sono presenti controlli del livello di accesso per gli oggetti di Adobe Workfront Planning</p> 
+   <p>Visualizza o autorizzazioni superiori per i tipi di oggetto da collegare da Workfront.</p>   
 </td> 
   </tr> 
 <tr> 
@@ -169,7 +170,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. (Facoltativo) Aggiungere record al tipo di record selezionato aggiungendo una nuova riga alla tabella. Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
 1. (Condizionale) Dopo aver collegato il tipo di record selezionato con un altro tipo di record, vai al campo connesso di un record e fai clic all&#39;interno del campo oppure fai clic su **Connetti** per aggiungere il record.
 
-   ![](assets/connect-other-records-smaller-box-in-table-view.png)
+   ![Connetti altri record nella vista tabella](assets/connect-other-records-smaller-box-in-table-view.png)
 
 1. Esegui una delle operazioni seguenti:
 
@@ -182,7 +183,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
 
 1. (Condizionale) Se si seleziona Da uno a molti o Da uno a uno per il tipo di connessione quando si collegano i tipi di record e si tenta di connettere un record o un oggetto già connesso altrove, verrà visualizzato un messaggio di avviso che segnala che la connessione di nuovo lo rimuoverà dalla connessione originale. Fai clic su **Connetti** per consentire la rimozione e la connessione del record oppure su **Annulla** per tornare al campo e selezionare un altro record.
-1. (Facoltativo) Se non è possibile trovare un record o un oggetto da connettere e si desidera aggiungerlo, fare clic su **+ Aggiungi** per aggiungere un nuovo record. Per ulteriori informazioni, vedere la sezione &quot;Creare record durante la connessione da altri record&quot; nell&#39;articolo [Creare record](/help/quicksilver/planning/records/create-records.md).
+1. (Facoltativo) Se non riesci a trovare un oggetto da connettere e vuoi aggiungerlo, <span class="preview">fai clic su **+ Aggiungi**</span>
+
+   Oppure
+
+   Inizia a digitare un nome per l&#39;oggetto, quindi fai clic su **+ Aggiungi** per crearlo e aggiungerlo.
+
+   Per ulteriori informazioni, vedere la sezione &quot;Creare record durante la connessione da altri record&quot; nell&#39;articolo [Creare record](/help/quicksilver/planning/records/create-records.md).
 
    >[!TIP]
    >
@@ -251,7 +258,7 @@ Dopo aver creato una connessione tra un tipo di record e un tipo di oggetto Work
 
 1. (Condizionale) Dopo aver connesso il tipo di record selezionato a un tipo di oggetto Workfront, passare al campo connesso di un record e fare clic sul campo oppure fare clic su **Connetti** per aggiungere oggetti Workfront.
 
-   ![](assets/connect-projects-smaller-box-in-table-view.png)
+   ![Connetti progetti nella vista tabella](assets/connect-projects-smaller-box-in-table-view.png)
 
 1. Esegui una delle operazioni seguenti:
 
@@ -262,7 +269,11 @@ Dopo aver creato una connessione tra un tipo di record e un tipo di oggetto Work
    >
    >È possibile aprire la pagina di un record dalla visualizzazione, fare doppio clic sul campo del record collegato oppure fare clic su **Connetti** nel campo per aggiungere oggetti dal tipo di oggetto connesso.
 
-1. (Facoltativo) Se non riesci a trovare un oggetto da connettere e vuoi aggiungerlo, fai clic su **+ Aggiungi** per creare e aggiungere un nuovo progetto o portfolio.
+1. (Facoltativo) Se non riesci a trovare un oggetto da connettere e vuoi aggiungerlo, <span class="preview">fai clic su **+ Aggiungi**</span>
+
+   Oppure
+
+   Inizia a digitare un nome per l&#39;oggetto, quindi fai clic su **+ Aggiungi** per creare e aggiungere un nuovo progetto, portfolio o programma.
 
    Per informazioni, vedere [Creare oggetti Workfront da Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
@@ -415,7 +426,7 @@ Per collegare i record con le risorse di Experience Manager:
 1. (Facoltativo) Fai clic sull&#39;icona ![](assets/open-details-in-a-new-tab-icon.png) di **Apri in una nuova scheda** per aprire la pagina del record.
 1. Fare clic sulla scheda **Connessioni** nell&#39;anteprima o nella pagina del record.
 
-   ![](assets/connections-tab-on-record-in-workfront-planning.png)
+   ![Scheda Connessioni nel record di Workfront Planning](assets/connections-tab-on-record-in-workfront-planning.png)
 
    Tutti i tipi di record o di oggetti collegati al tipo di record selezionato vengono visualizzati come sezioni. I record o gli oggetti collegati vengono visualizzati sotto i nomi dei record o dei tipi di oggetto sulle schede.
 
@@ -428,7 +439,13 @@ Per collegare i record con le risorse di Experience Manager:
 1. (Facoltativo) Fare clic sulla freccia rivolta verso il basso a sinistra di una sezione per comprimerla.
 
 1. (Condizionale) Fare clic su **Connetti** per aggiungere altri record o oggetti dello stesso tipo.
-1. (Facoltativo) Se non è possibile trovare un record o un oggetto da connettere e si desidera aggiungerlo, fare clic su **+ Aggiungi** per aggiungere un nuovo record. Per ulteriori informazioni, vedere la sezione &quot;Creare record durante la connessione da altri record&quot; nell&#39;articolo [Creare record](/help/quicksilver/planning/records/create-records.md).
+1. (Facoltativo) Se non riesci a trovare un record o un oggetto da connettere e vuoi aggiungerlo, <span class="preview">fai clic su **+ Aggiungi**</span>
+
+   Oppure
+
+   Inizia a digitare un nome per l&#39;oggetto, quindi fai clic su **+ Aggiungi** per crearlo e aggiungerlo al record.
+
+   Per ulteriori informazioni, vedere la sezione &quot;Creare record durante la connessione da altri record&quot; nell&#39;articolo [Creare record](/help/quicksilver/planning/records/create-records.md).
 1. Seguire i passaggi descritti nelle sezioni precedenti per connettere i record da Workfront Planning o gli oggetti da Workfront o Experience Manager Assets.
 I record e gli oggetti vengono aggiunti immediatamente.
 1. (Facoltativo) Passa il puntatore del mouse sulla scheda connessa di un record o di un oggetto, quindi fai clic sull&#39;icona **Disconnetti record** ![](assets/disconnect-icon-with-tooltip.png) per disconnetterlo dal record selezionato.

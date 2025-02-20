@@ -6,16 +6,16 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 1%
+source-wordcount: '1140'
+ht-degree: 2%
 
 ---
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-# Creazione di oggetti Workfront da Workfront Planning <!--as you connect them to records-->
+# Creazione di oggetti Workfront da Workfront Planning durante la connessione ai record
 
 <!-- update the title (and all the links to this article) at preview, to be this: Create Workfront objects from Workfront Planning as you connect them to records-->
 <!-- remove preview and production at release time-->
@@ -26,41 +26,29 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-<!--
-You can create Adobe Workfront objects from Workfront Planning in the following ways: 
+È possibile creare oggetti Adobe Workfront da Workfront Planning nei modi seguenti:
 
-* As you try to connect Workfront objects from Planning records
+* Quando si collegano oggetti Workfront da record di Planning
 
-    This article describes how to create Workfront objects from Workfront Planning as you try to connect them from Planning records. 
-* <span class="preview">When you use automations from a record's page.</span> 
+  In questo articolo viene descritto come creare oggetti Workfront da Workfront Planning quando vengono collegati da record di Planning.
+* <span class="preview">Quando si utilizzano le automazioni dalla pagina di un record.</span>
 
-    For information about creating Workfront objects using automations, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md). 
--->
+  <span class="preview">Per informazioni sulla creazione di oggetti Workfront tramite automazioni, vedere [Creare oggetti tramite automazioni record di Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md). </span>
 
 È possibile creare i seguenti tipi di oggetti Workfront da Workfront Planning quando si collega un record di Workfront Planning ai seguenti tipi di oggetti Workfront:
 
 * Progetti
 * Portfolio
-  <!--* <span class="preview">Programs</span>-->
+* <span class="preview">Programmi</span>
 
 >[!IMPORTANT]
 >
->* Puoi creare solo progetti e portfolio in Workfront quando li connetti da un record.
+>* Puoi creare solo progetti, portfolio e <span class="preview">programmi</span> in Workfront quando li connetti da un record.
 >
->* Non è possibile creare programmi, gruppi o società quando si collegano da un record in Workfront Planning.
+>* Non è possibile creare gruppi o società quando si collegano da un record in Workfront Planning.
 >
 
-<!--replace the IMPORTANT above with this when we release programs: 
-
->[!IMPORTANT]
->
->* You can create only projects, portfolios, and <span class="preview">programs</span> in Workfront when connecting them from a record. 
->
->* You cannot create groups or companies when connecting them from a record in Workfront Planning. 
->
--->
-
-È possibile connettere progetti e portfolio <!--<span class="preview"> and programs </span>--> da un campo di connessione nelle seguenti aree di Workfront Planning:
+È possibile connettere progetti, portfolio, <span class="preview"> e programmi </span> da un campo di connessione nelle seguenti aree di Workfront Planning:
 
 * Visualizzazione tabella di un tipo di record
 * Pagina Dettagli o casella di anteprima di un record
@@ -145,7 +133,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 Prima di poter aggiungere nuovi progetti o portfolio collegandoli da record esistenti, è necessario disporre dei seguenti elementi:
 
-* Tipi di record connessi ai progetti o ai portfolio Workfront <!--or <span class="preview">programs</span>-->. Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Tipi di record connessi a progetti, portfolio o <span class="preview">programmi</span> di Workfront. Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Record. Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
 * L&#39;accesso e le autorizzazioni corretti in Workfront Planning e Workfront, come descritto nella sezione [Requisiti di accesso](#access-requirements) in questo articolo.
 
@@ -155,7 +143,11 @@ Per creare progetti mentre li si connette da altri record:
 
 1. Passare alla pagina dei dettagli di un record o alla tabella del tipo di record e iniziare a collegare i record di Workfront Planning ai progetti Workfront, come descritto nell&#39;articolo [Connetti record](/help/quicksilver/planning/records/connect-records.md).
 
-1. (Condizionale) <!--<span class="preview">Click **Add project**</span> Or Start typing the name of a project, then click **Add project** if you cannot find it.--> Se non riesci a trovare un progetto quando tenti di aggiungerlo dal campo record connesso di un altro record, aggiungi un nome, quindi fai clic su **Aggiungi progetto**. Il pulsante Aggiungi è seguito dal nome del progetto digitato.
+1. (Condizionale) <span class="preview">Fai clic su **Aggiungi progetto**</span>
+Oppure
+Inizia a digitare il nome di un progetto, quindi fai clic su **Aggiungi progetto** se non riesci a trovarlo.
+
+   Se non riesci a trovare un progetto quando tenti di aggiungerlo dal campo record connesso di un altro record, aggiungi un nome e fai clic su **Aggiungi progetto**. Il pulsante Aggiungi è seguito dal nome del progetto digitato.
 
    <!--at production or when the permanent Add button is released to preview, take the first part of the direction above out and say "Click Add to add a new project"; take this out too: "The Add button is followed by the project name you typed."-->
 
@@ -180,7 +172,11 @@ Per creare i portfolio durante la connessione dai record di Planning:
 
    <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new portfolio"; take this out too: "The Add button is followed by the portfolio name you typed."-->
 
-1. (Condizionale) <!--<span class="preview">Click **Add portfolio**</span> Or Start typing the name of a portfolio, then click **Add portfolio** if you cannot find it.--> Se non riesci a trovare un portfolio quando tenti di aggiungerlo dal campo record connesso di un altro record, aggiungi un nome, quindi fai clic su **Aggiungi portfolio**. Il pulsante Aggiungi è seguito anche dal nome del portfolio digitato.
+1. (Condizionale) <span class="preview">Fai clic su **Aggiungi portfolio**</span>
+
+   Oppure
+
+   Inizia a digitare il nome di un portfolio, quindi fai clic su **Aggiungi portfolio** se non riesci a trovarlo.—> Se non riesci a trovare un portfolio quando tenti di aggiungerlo dal campo record connesso di un altro record, aggiungi un nome e fai clic su **Aggiungi portfolio**. Il pulsante Aggiungi è seguito anche dal nome del portfolio digitato.
 
    ![Aggiungi portfolio quando lo connetti da un campo di connessione](assets/add-portfolio-when-connecting-it-from-connection-field.png)
 
@@ -188,36 +184,33 @@ Per creare i portfolio durante la connessione dai record di Planning:
 
 1. (Facoltativo) Fare clic sul nome del nuovo portfolio da Workfront Planning per aprire la pagina del portfolio in Workfront e apportare ulteriori aggiornamenti al portfolio.
 
-<!--
-
 <div class="preview">
 
-## Create programs as you connect them with records from Workfront Planning
+## Creazione di programmi durante la connessione con i record di Workfront Planning
 
-To create programs as you are connecting them from Planning records: 
+Per creare i programmi mentre li si connette dai record di Planning, procedere come segue.
 
-1. Go to a record's details page or to the record type's table and start connecting Workfront Planning records with Workfront portfolios, as described in the article [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+1. Andare alla pagina dei dettagli di un record o alla tabella del tipo di record e iniziare a collegare i record di Workfront Planning ai portfolio Workfront, come descritto nell&#39;articolo [Connetti record](/help/quicksilver/planning/records/connect-records.md).
 
-    ******** at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new program"; take this out too: "The Add button is followed by the program name you typed." ***********
-    
-1. Click **Add program** 
+   <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new program"; take this out too: "The Add button is followed by the program name you typed."-->
 
-    Or 
-    
-    Start typing the name of a program, then click **Add program** if you cannot find it. The Add button is followed by the program name you typed. 
+1. Fai clic su **Aggiungi programma**
 
-    ![Add Workfront program when connecting it from connection field](assets/add-wf-program-when-connecting-it-from-connection-field.png)
+   Oppure
 
-    The **Create program** box opens.
+   Inizia a digitare il nome di un programma, quindi fai clic su **Aggiungi programma** se non riesci a trovarlo. Il pulsante Aggiungi è seguito dal nome del programma digitato.
 
-1. Update the **Program name**. This is a required field.
-1. Choose a **Portfolio** from the drop-down, or start typing the name of a portfolio, then select it when it displays in the list. This is a required field. 
-1. Click **Create**.
+   ![Aggiungi programma Workfront durante la connessione dal campo di connessione](assets/add-wf-program-when-connecting-it-from-connection-field.png)
 
-    The program is created and added to the connection field of the record you selected. 
+   Viene visualizzata la casella **Crea programma**.
 
-1. (Optional) Click the name of the new program from Workfront Planning to open the program's page in Workfront and make additional updates to it. 
+1. Aggiorna il **nome programma**. Questo è un campo obbligatorio.
+1. Scegli un **Portfolio** dall&#39;elenco a discesa oppure inizia a digitare il nome di un portfolio, quindi selezionalo quando viene visualizzato nell&#39;elenco. Questo è un campo obbligatorio.
+1. Fai clic su **Crea**.
+
+   Il programma viene creato e aggiunto al campo di connessione del record selezionato.
+
+1. (Facoltativo) Fare clic sul nome del nuovo programma da Workfront Planning per aprire la pagina del programma in Workfront e apportare ulteriori aggiornamenti.
 
 </div>
 
--->
