@@ -7,9 +7,9 @@ description: In qualità di business manager, puoi utilizzare Adobe Workfront Sc
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: df2b895b-8bc1-4a55-b0d7-8a06db420315
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Quando si creano i piani, tenere presente quanto segue:
 
 È possibile esaminare le informazioni generali sulle mansioni per i piani che indicano la quantità di mansioni disponibili per il piano, nonché la quantità di mansioni richieste per il completamento delle iniziative. Puoi visualizzare queste informazioni nella casella [!UICONTROL Ruoli] nell&#39;intestazione del piano.
 
-![](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)
+![Casella Ruolo nel piano](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)
 
 Nella casella Ruolo è possibile visualizzare quanto segue:
 
@@ -78,7 +78,7 @@ Per informazioni sull&#39;accesso a un piano e sulla visualizzazione di informaz
 
 È possibile esaminare le informazioni finanziarie relative a un piano, in particolare il budget pianificato, le modalità di utilizzo del budget e il valore netto del piano. Il valore netto di un piano si basa sul valore netto delle sue iniziative. Puoi visualizzare queste informazioni nelle caselle [!UICONTROL Financial] e [!UICONTROL Summary] nell&#39;intestazione del piano.
 
-![](assets/budget-net-value-boxes-on-plan-not-expanded-350x86.png)
+![Caselle del budget e del valore netto](assets/budget-net-value-boxes-on-plan-not-expanded-350x86.png)
 
 Puoi visualizzare quanto segue nelle caselle [!UICONTROL Dati finanziari] e [!UICONTROL Riepilogo] del piano:
 

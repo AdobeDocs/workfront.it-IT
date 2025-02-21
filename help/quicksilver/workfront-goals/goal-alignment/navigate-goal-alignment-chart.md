@@ -6,9 +6,9 @@ description: Utilizzare la sezione Allineamento obiettivo per visualizzare una v
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '937'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ Oppure
 <p> Nuovo requisito del prodotto, uno dei seguenti: </p>
 <ul>
 <li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
-<li>Un piano Workfront Ultimate che include gli obiettivi Workfront per impostazione predefinita. </li></ul>
+<li>Un piano Workfront di Ultimate che include gli obiettivi di Workfront per impostazione predefinita. </li></ul>
 <p>Oppure</p>
 <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
 </tr>
@@ -137,11 +137,11 @@ Oppure
 
    Gli obiettivi allineati ad altri obiettivi visualizzano il numero di obiettivi allineati sotto la scheda obiettivo.
 
-   ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+   ![Freccia del grafico di allineamento](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
 1. Fai clic sull&#39;icona **freccia rivolta verso il basso** sotto un obiettivo per espandere ulteriormente e visualizzare gli obiettivi secondari.
 
-   ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+   ![Freccia del grafico di allineamento](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
    >[!TIP]
    >
@@ -149,7 +149,7 @@ Oppure
 
 1. (Condizionale) Se il filtro corrente esclude alcuni degli obiettivi che partecipano a un allineamento, viene visualizzato un messaggio di avviso per indicare che non tutti gli obiettivi vengono visualizzati.
 
-   ![](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
+   ![Obiettivo principale escluso](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
 
 1. Fai clic su **Mostra** per visualizzare gli obiettivi attualmente eliminati dal filtro.
 
@@ -158,14 +158,14 @@ Oppure
    * Gli obiettivi connessi precedentemente eliminati dal filtro vengono ora visualizzati nel grafico di allineamento.
    * Il filtro nell’angolo superiore destro è evidenziato in giallo per indicare che non è attualmente applicato.
 
-     ![](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
+     ![Filtro giallo evidenziato](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
 
      A sinistra del nome del filtro viene visualizzato il collegamento Riapplica filtro.
 
 1. (Facoltativo) Fai clic su **Riapplica filtro** per tornare ai risultati originali e visualizzare la gerarchia degli obiettivi.
 1. (Facoltativo) Passa il cursore del mouse sull’indicatore di avanzamento per capire dove dovrebbe essere l’avanzamento dell’obiettivo per il giorno corrente.
 
-   ![](assets/progress-mouse-over-alignment-chart-350x163.png)
+   ![Grafico sopra l&#39;allineamento del mouse](assets/progress-mouse-over-alignment-chart-350x163.png)
 
    Vengono visualizzate le seguenti informazioni:
 

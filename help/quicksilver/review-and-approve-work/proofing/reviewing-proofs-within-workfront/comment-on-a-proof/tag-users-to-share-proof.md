@@ -6,9 +6,9 @@ description: Quando inserisci un commento su una bozza nel visualizzatore di boz
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Per assegnare un tag a qualcuno e condividere una bozza in un commento:
 1. Termina il commento, quindi fai clic su **Post**.
 1. (Condizionale) Se hai assegnato un tag a qualcuno che non è già stato aggiunto alla bozza, specifica un&#39;impostazione per **Ruolo bozza** e **Avvisi e-mail** per ogni utente elencato nella casella visualizzata, quindi fai clic su **Aggiungi persone e pubblica commento**.
 
-   ![](assets/add-people-to-proof-350x220.png)
+   ![Aggiungi persone alla bozza](assets/add-people-to-proof-350x220.png)
 
    Per informazioni sui ruoli delle bozze, consulta . Per informazioni sugli avvisi e-mail relativi alle bozze, vedere la sezione dell&#39;articolo [Configurare le impostazioni delle notifiche e-mail in Workfront Proof](../../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 

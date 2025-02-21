@@ -6,9 +6,9 @@ description: È possibile contrassegnare i commenti risolti dopo averli affronta
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 89ba3a34-3347-41dc-939e-94d4c1511c31
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '371'
 ht-degree: 1%
 
 ---
@@ -63,7 +63,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Selezionare il commento.
 1. Fai clic sull’icona del segno di spunta nell’angolo inferiore destro del commento. Nell&#39;angolo superiore sinistro del commento viene visualizzato un segno di spunta verde, mentre sotto l&#39;etichetta e il messaggio &quot;Thread resolved&quot; (Risoluzione thread) vengono visualizzati messaggi. L’utente che ha inviato il commento riceve una notifica e-mail che indica che il commento è stato risolto.
 
-   ![](assets/resolve-comment-350x247.png)
+   ![Risolvi commento](assets/resolve-comment-350x247.png)
 
 ## Riaprire un commento risolto
 
@@ -74,4 +74,4 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Selezionare il commento.
 1. Fai clic sull&#39;icona del segno di spunta verde nell&#39;angolo inferiore destro del commento (a destra del pulsante **Rispondi**). Il segno di spunta nell&#39;angolo superiore sinistro del commento scompare e sotto di esso vengono visualizzati l&#39;etichetta e il messaggio &quot;Thread reopen&quot; (Thread riaperto). L’utente che ha inviato il commento riceve una notifica e-mail che informa che il commento è stato riaperto.
 
-   ![](assets/reopen-resolved-comment-350x334.png)
+   ![Riapri commento risolto](assets/reopen-resolved-comment-350x334.png)

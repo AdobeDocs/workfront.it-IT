@@ -6,9 +6,9 @@ description: È possibile chiudere un obiettivo quando si desidera indicare che 
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Devi avere i seguenti:
  <p> Nuovo requisito del prodotto, uno dei seguenti: </p>
 <ul>
 <li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
-<li>Un piano Workfront Ultimate che include gli obiettivi Workfront per impostazione predefinita. </li></ul>
+<li>Un piano Workfront di Ultimate che include gli obiettivi di Workfront per impostazione predefinita. </li></ul>
  <p>Oppure</p>
  <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
  </tr>
@@ -111,7 +111,7 @@ Closing goals differs depending on what environment you use.
 
 ### Close goals in the Production environment
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -128,7 +128,7 @@ Closing goals differs depending on what environment you use.
 
 1. (Optional and recommended) Click the **Updates** tab and add an update in the **Comment here** field about the reason you are closing the goal, then click **Post**. 
 
-1. Click the **More icon** ![](assets/more-icon.png) to the right of the goal name, then click **Close** > **Close Goal**.
+1. Click the **More icon** ![More icon](assets/more-icon.png) to the right of the goal name, then click **Close** > **Close Goal**.
 
    This closes the goal and saves the current progress on the goal and its results and activities.
 
@@ -137,13 +137,13 @@ Closing goals differs depending on what environment you use.
    >If the goal has contributing goals that are still active, the progress of the goal continues to update based on the progress of the aligned goals.
    >
    >
-   >![](assets/closing-goals-with-active-aligned-goals-warning-350x71.png)   >
+   >![Closing goals with active aligned goals](assets/closing-goals-with-active-aligned-goals-warning-350x71.png)   >
    >
 
 1. (Optional) Modify your filters again to display only closed goals. The goals you closed display on the screen.
 -->
 
-1. Fai clic sull&#39;icona **Main Menu** ![](assets/main-menu-icon.png) > **Goals** nell&#39;angolo superiore destro.
+1. Fai clic sull&#39;icona **Menu principale** ![Icona Menu principale](assets/main-menu-icon.png) > **Obiettivi** nell&#39;angolo superiore destro.
 
    Viene visualizzato Elenco obiettivi (Goal List).
 
@@ -157,17 +157,17 @@ Closing goals differs depending on what environment you use.
 
    Viene visualizzata la pagina dell’obiettivo.
 
-   ![](assets/goal-page-unshimmed.png)
-1. Fai clic sul menu **Altro** ![](assets/more-icon.png) a destra del nome dell&#39;obiettivo, quindi fai clic su **Chiudi**.
+   ![Pagina obiettivo](assets/goal-page-unshimmed.png)
+1. Fai clic sul menu **Altro** ![Icona Altro](assets/more-icon.png) a destra del nome dell&#39;obiettivo, quindi fai clic su **Chiudi**.
 
    L’obiettivo si chiude e ricevi una conferma nell’angolo in alto a destra dello schermo.
 
-   ![](assets/goal-close-confirmation-with-add-closing-notes-link.png)
+   ![Conferma chiusura obiettivo](assets/goal-close-confirmation-with-add-closing-notes-link.png)
 
 1. (Facoltativo) Nella casella di conferma, fare clic su **Aggiungi note di chiusura** per aggiungere commenti su questo obiettivo e sul motivo per cui è necessario chiuderlo.
 1. Aggiungi note di chiusura, quindi fai clic su **Aggiungi note**.
 
-   ![](assets/add-closing-notes-box-unshimmed.png)
+   ![Aggiungi note di chiusura](assets/add-closing-notes-box-unshimmed.png)
 
    I commenti vengono visualizzati nella sezione Dettagli obiettivo della pagina dell&#39;obiettivo, nell&#39;area Note di chiusura.
 
@@ -185,7 +185,7 @@ Reopening goals differs depending on what environment you use.
 
 ### Reopen goals in the Production environment
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -201,7 +201,7 @@ Reopening goals differs depending on what environment you use.
 
    This opens the Goal Details panel on the right. 
 
-1. Click the **More icon** ![](assets/more-icon.png) to the right of the goal name, then click **Reopen** > **Reopen**.
+1. Click the **More icon** ![More icon](assets/more-icon.png) to the right of the goal name, then click **Reopen** > **Reopen**.
 
    This reopens the goal and places it in a status of Active. The progress of the goal is recalculated starting with the current date. 
 
@@ -209,7 +209,7 @@ Reopening goals differs depending on what environment you use.
 
 -->
 
-1. Fai clic sull&#39;icona **Main Menu** ![](assets/main-menu-icon.png)> **Goals** nell&#39;angolo superiore destro.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png)> **Goals** nell&#39;angolo superiore destro.
 
    Viene visualizzato Elenco obiettivi (Goal List).
 
@@ -222,7 +222,7 @@ Reopening goals differs depending on what environment you use.
 1. Fai clic sul nome di un obiettivo chiuso.
 
    Viene visualizzata la pagina dell’obiettivo.
-1. Fai clic sul menu **Altro** ![](assets/more-icon.png) a destra del nome dell&#39;obiettivo, quindi **Riapri** > **Riapri**.
+1. Fai clic sul menu **Altro** ![Icona Altro](assets/more-icon.png) a destra del nome dell&#39;obiettivo, quindi **Riapri** > **Riapri**.
 
    Si verificano le seguenti situazioni:
    * L’obiettivo è ora aperto e ha lo stato Attivo.

@@ -6,9 +6,9 @@ description: Puoi visualizzare lo stato complessivo dei tuoi obiettivi e la loro
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
  <p> Nuovo requisito del prodotto, uno dei seguenti: </p>
 <ul>
 <li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
-<li>Un piano Workfront Ultimate che include gli obiettivi Workfront per impostazione predefinita. </li></ul>
+<li>Un piano Workfront di Ultimate che include gli obiettivi di Workfront per impostazione predefinita. </li></ul>
  <p>Oppure</p>
  <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
  </tr>
@@ -113,7 +113,7 @@ Nella sezione Grafici o Obiettivi Workfront sono disponibili i seguenti grafici:
 
 ## Esaminare l’avanzamento dell’obiettivo nei grafici
 
-1. Fai clic sull&#39;icona **Main Menu** ![](assets/main-menu-icon.png) > **Goals** nell&#39;angolo superiore destro.
+1. Fai clic sull&#39;icona **Menu principale** ![Icona Menu principale](assets/main-menu-icon.png) > **Obiettivi** nell&#39;angolo superiore destro.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -122,7 +122,7 @@ Nella sezione Grafici o Obiettivi Workfront sono disponibili i seguenti grafici:
 
 1. Fai clic su **Grafici** nel pannello a sinistra.
 
-   ![](assets/graphs-in-left-panel.png)
+   ![Grafici nel pannello sinistro](assets/graphs-in-left-panel.png)
 
    Viene visualizzata la sezione Grafici.
 
@@ -141,7 +141,7 @@ Nella sezione Grafici o Obiettivi Workfront sono disponibili i seguenti grafici:
 
 1. Rivedi le informazioni nella tabella seguente quando rivedi il Grafico stato obiettivo.
 
-   ![](assets/gauge-graph-wf-align-350x230.png)
+   ![Grafo misuratore](assets/gauge-graph-wf-align-350x230.png)
 
    | Numero totale di obiettivi | Il numero nella parte inferiore del grafico indica il numero di tutti gli obiettivi nel periodo selezionato, in tutti gli stati selezionati. |
    |---|---|
@@ -151,7 +151,7 @@ Nella sezione Grafici o Obiettivi Workfront sono disponibili i seguenti grafici:
 
 1. Rivedi le informazioni nella tabella seguente quando visualizzi il grafico Progresso obiettivo.
 
-   ![](assets/line-graph-wf-align-350x161.png)
+   ![Grafico a linee](assets/line-graph-wf-align-350x161.png)
 
    <table style="table-layout:auto"> 
     <col> 

@@ -6,9 +6,9 @@ description: Il progresso degli obiettivi è guidato da indicatori di progresso 
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '833'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Dopo aver attivato un obiettivo, Workfront Goals inizia a calcolarne l’avanzam
 | Percentuale di completamento prevista | Quanto dell’obiettivo deve essere completato finora affinché l’obiettivo possa essere completato in tempo. Obiettivi Workfront calcola questo valore osservando la Durata dell’obiettivo e il momento nel tempo corrente. Se l’obiettivo deve essere completato in tempo, questo valore dovrebbe essere visualizzato all’ora corrente. |
 | Avanzamento | Etichetta che indica se l’obiettivo è nel target da completare in tempo, o se è a rischio o ha problemi a non completarlo. |
 
-![](assets/in-trouble-goal-progress-expanded.png)
+![Problemi](assets/in-trouble-goal-progress-expanded.png)
 
 <!--drafted for the redesign: replace the screen shot above with the redesigned one which is white, not black-->
 
@@ -108,7 +108,7 @@ Ad esempio, se la percentuale di completamento prevista è del 53% al momento e 
 
 Il grafico seguente illustra la relazione tra le etichette delle condizioni e la percentuale di avanzamento:
 
-![](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
+![Etichette di stato avanzamento con grafico](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
 
 La tabella seguente elenca le etichette delle condizioni di obiettivo e le percentuali di avanzamento dell’obiettivo associate a ciascuna etichetta.
 

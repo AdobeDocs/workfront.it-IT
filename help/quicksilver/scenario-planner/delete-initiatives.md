@@ -6,9 +6,9 @@ description: È possibile eliminare le iniziative in base a un piano creato dall
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 799ca02e-c513-4409-b327-1ce7d8eb19ae
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '518'
 ht-degree: 2%
 
 ---
@@ -90,7 +90,7 @@ Viene visualizzato un elenco di piani.
 1. Fare clic sul nome di un piano per aprirlo, quindi individuare l&#39;iniziativa che si desidera eliminare.
 1. Esegui una delle operazioni seguenti:
 
-   * Fai clic sul menu **[!UICONTROL Altro]** ![](assets/more-menu.png) a destra del nome dell&#39;iniziativa, quindi fai clic su **[!UICONTROL Elimina]** > **[!UICONTROL Sì, elimina]**.
+   * Fai clic sul **[!UICONTROL Altro menu]** ![Altro menu](assets/more-menu.png) a destra del nome dell&#39;iniziativa, quindi fai clic su **[!UICONTROL Elimina]** > **[!UICONTROL Sì, elimina]**.
 
    * Selezionare la casella a sinistra dell&#39;iniziativa, quindi fare clic su **[!UICONTROL Elimina]** nel menu mobile visualizzato nella parte inferiore del piano, quindi fare clic su **[!UICONTROL Sì, elimina]**.
 
@@ -107,7 +107,7 @@ Viene visualizzato un elenco di piani.
 1. Fare clic sul nome di un piano per aprirlo, quindi individuare l&#39;iniziativa che si desidera eliminare.
 1. Selezionare le caselle a sinistra delle iniziative che si desidera eliminare, quindi fare clic su **[!UICONTROL Elimina]** dal menu visualizzato nella parte inferiore del piano, quindi fare clic su **[!UICONTROL Sì, eliminale]**.
 
-   ![](assets/bottom-manage-initiative-menu-350x45.png)
+   ![Gestisci menu iniziativa](assets/bottom-manage-initiative-menu-350x45.png)
 
    Le iniziative e le relative mansioni e informazioni sui costi vengono eliminate dal piano.
 

@@ -7,9 +7,9 @@ description: È possibile utilizzare il visualizzatore di bozze per confrontare 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 515562f6-ed19-446c-8f8c-4ad5f07e6d11
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '344'
 ht-degree: 2%
 
 ---
@@ -68,13 +68,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If this button is not visible, ensure that two proofed documents are selected.</p>
    -->
 
-   ![](assets/compare-proofs-select-docs-350x138.jpg)
+   ![Confronta bozze](assets/compare-proofs-select-docs-350x138.jpg)
 
    Entrambe le bozze vengono visualizzate nel visualizzatore di bozze in una visualizzazione affiancata. È possibile esaminare ogni documento durante il confronto.
 
    Le breadcrumb separate sopra ogni bozza consentono di visualizzare e passare all’elemento di lavoro associato alla bozza:
 
-   ![](assets/compare-proofs-breadcrumbs-350x148.jpg)
+   ![Confronta bozze delle bozze](assets/compare-proofs-breadcrumbs-350x148.jpg)
 
    Per informazioni sugli strumenti utilizzabili per confrontare le due bozze, consulta  [Utilizza gli strumenti di confronto](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools) in [Confronta bozze nel visualizzatore di bozze](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).
 

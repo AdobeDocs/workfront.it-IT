@@ -6,9 +6,9 @@ description: Puoi caricare una nuova versione del documento e richiedere l’app
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
-source-git-commit: 162f63d52c97c6d4894d35565c68eb2858369b53
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, co
 
 1. Scorri verso il basso fino alla sezione **Approvazioni** nel riquadro Riepilogo documento, quindi fai clic su **Aggiungi**.
 
-![](assets/doc-summary-add-approvers.png)
+![Aggiungi approvatori nel riepilogo documenti](assets/doc-summary-add-approvers.png)
 
 1. (Facoltativo) Imposta una scadenza per l’approvazione. Gli utenti e i team ricevono una notifica via e-mail 72 ore e in seguito 24 ore prima della scadenza specificata.
 
@@ -89,4 +89,4 @@ Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, co
 
 1. Per aggiungere nuovi approvatori e revisori, fare clic su **Revisore** o **Approvatore** e iniziare a digitare l&#39;utente o il team.
 
-   ![](assets/add-approver-and-deadline.png)
+   ![Aggiungi approvatore e scadenza](assets/add-approver-and-deadline.png)

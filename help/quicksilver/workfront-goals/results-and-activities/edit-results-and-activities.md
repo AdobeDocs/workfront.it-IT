@@ -7,9 +7,9 @@ description: Dopo che l’amministratore di Adobe Workfront ti ha concesso l’a
 author: Alina
 feature: Workfront Goals
 exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '779'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,7 @@ Devi avere i seguenti:
  <p> Nuovo requisito del prodotto, uno dei seguenti: </p>
 <ul>
 <li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
-<li>Un piano Workfront Ultimate che include gli obiettivi Workfront per impostazione predefinita. </li></ul>
+<li>Un piano Workfront di Ultimate che include gli obiettivi di Workfront per impostazione predefinita. </li></ul>
  <p>Oppure</p>
  <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
  </tr>
@@ -121,9 +121,9 @@ Editing results differs depending on which environment you use.
 
 1. Go to the goal for which you want to edit a result and click the goal name to open the **Goal Details** panel.
 1. Click **Results**.
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the result you want to edit.
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the result you want to edit.
 
-   ![](assets/results-gear-icon-options-350x85.png)
+   ![Results gear icon](assets/results-gear-icon-options-350x85.png)
 
 1. Click **Edit** to edit the following information:
 
@@ -139,14 +139,14 @@ Editing results differs depending on which environment you use.
 -->
 
 
-1. Fai clic sul **menu principale** ![](assets/main-menu-icon.png), quindi su **Obiettivi**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu](assets/main-menu-icon.png), quindi su **Goals**.
 1. Nell&#39;elenco Obiettivo fare clic sul nome di un obiettivo per aprire la pagina obiettivo.
 1. Fai clic su **Indicatori di avanzamento** nel pannello a sinistra.
-1. Selezionare un risultato nell&#39;elenco Indicatori di avanzamento e fare clic sull&#39;icona **Modifica** ![](assets/edit-icon.png).
+1. Selezionare un risultato nell&#39;elenco Indicatori di avanzamento e fare clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png).
 
    Viene visualizzata la casella Modifica risultato (Edit Result).
 
-   ![](assets/edit-result-box-unshimmed.png)
+   ![Modifica casella risultati](assets/edit-result-box-unshimmed.png)
 
 1. Modifica le seguenti informazioni:
    * **Nome risultato**: nome del risultato. Utilizza un nome descrittivo che illustra il risultato da ottenere per completare l’obiettivo.
@@ -170,9 +170,9 @@ Editing activities differs depending on which environment you use.
 
 1. Go to the goal for which you want to edit an activity and click the goal name to open the **Goal Details** panel.
 1. Click **Activities**.
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the activity you want to edit .
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the activity you want to edit .
 
-   ![](assets/activities-gear-icon-options-350x84.png)
+   ![Activities gear icon](assets/activities-gear-icon-options-350x84.png)
 
 1. Click **Edit** to edit the following information:
 
@@ -184,14 +184,14 @@ Editing activities differs depending on which environment you use.
 1. Click **Save**.
 -->
 
-1. Fai clic sul **menu principale** ![](assets/main-menu-icon.png), quindi su **Obiettivi**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu](assets/main-menu-icon.png), quindi su **Goals**.
 1. Nell&#39;elenco Obiettivo fare clic sul nome di un obiettivo per aprire la pagina obiettivo.
 1. Fai clic su **Indicatori di avanzamento** nel pannello a sinistra.
-1. Selezionare un&#39;attività nell&#39;elenco Indicatori di avanzamento e fare clic sull&#39;icona **Modifica** ![](assets/edit-icon.png).
+1. Selezionare un&#39;attività nell&#39;elenco Indicatori di avanzamento e fare clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png).
 
    Viene visualizzata la casella Modifica attività.
 
-   ![](assets/edit-activity-box-unshimmed.png)
+   ![Casella Modifica attività](assets/edit-activity-box-unshimmed.png)
 
 1. Modifica le seguenti informazioni:
    * **Nome attività**: nome dell&#39;attività. Utilizza un nome descrittivo che illustra l’attività da eseguire per indicare che l’obiettivo è stato completato.

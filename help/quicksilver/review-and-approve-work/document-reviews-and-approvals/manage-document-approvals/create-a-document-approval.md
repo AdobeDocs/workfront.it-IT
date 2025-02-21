@@ -6,9 +6,9 @@ description: Puoi richiedere l’approvazione di altri utenti per un documento i
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: a1a5c2bb9395748c4e0103d10dcf66624238032b
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Accesso a progetti, attività, problemi, modelli, Portfoli, programmi, report, dashboard e calendari, documenti o versioni successive</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Accesso di visualizzazione o superiore a progetti, attività, problemi, modelli, portafogli, programmi, report, dashboard e calendari, documenti</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
@@ -58,7 +58,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 ## Creare una richiesta di revisione o approvazione documento dalla pagina del documento
 
 1. Passa il puntatore del mouse sul documento, quindi fai clic su Dettagli documento.
-   ![](assets/doc-details.png)
+   ![Dettagli documento](assets/doc-details.png)
 
 
 1. Accanto al nome del documento, seleziona la versione del documento per cui desideri creare un’approvazione nel menu a discesa della versione. Per impostazione predefinita, viene selezionata la versione più recente.
@@ -71,7 +71,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Per aggiungere un revisore, selezionare la casella di controllo **Revisore** e iniziare a digitare il nome di un utente o di un team.
 
-   ![](assets/add-approver-and-deadline.png)
+   ![Aggiungi approvatore e scadenza](assets/add-approver-and-deadline.png)
 
 1. Ripeti il passaggio precedente per aggiungere altri approvatori o revisori.
 
@@ -85,7 +85,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Scorri verso il basso fino alla sezione **Approvazioni** nel riquadro Riepilogo documento, quindi fai clic su **Aggiungi**.
 
-![](assets/doc-summary-add-approvers.png)
+![Aggiungi approvatori nel riepilogo documenti](assets/doc-summary-add-approvers.png)
 
 1. (Facoltativo) Imposta una scadenza per l’approvazione. Gli utenti e i team ricevono una notifica via e-mail 72 ore e in seguito 24 ore prima della scadenza specificata.
 
@@ -93,7 +93,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Per aggiungere un revisore, selezionare la casella di controllo **Revisore** e iniziare a digitare il nome di un utente o di un team.
 
-   ![](assets/add-approver-and-deadline.png)
+   ![Aggiungi approvatore e scadenza](assets/add-approver-and-deadline.png)
 
 1. Ripeti il passaggio precedente per aggiungere altri approvatori o revisori.
 
@@ -111,5 +111,5 @@ Document approval decisions are not automatically reset when you upload a new ve
 
 1. Scroll down to the **Approvals** section in the Summary, click the More icon, then click Resubmit.
 
-   ![](assets/nwe-resubmit-approval-350x149.png)
+   ![Resubmit approval](assets/nwe-resubmit-approval-350x149.png)
 -->

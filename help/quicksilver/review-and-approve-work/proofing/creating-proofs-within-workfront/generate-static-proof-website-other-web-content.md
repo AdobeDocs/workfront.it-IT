@@ -6,9 +6,9 @@ description: Puoi generare una nuova bozza statica o una nuova versione di una b
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
-source-git-commit: 0a7cdf217d3c8227c569831b16f09c0b1d9c7111
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Per creare una bozza statica, il sito web deve essere accessibile al pubblico (n
 
    Vengono visualizzate le opzioni per la configurazione della bozza del sito Web.
 
-   ![](assets/interactive-proof-radio-btn-area-350x199.png)
+   ![Bozza interattiva](assets/interactive-proof-radio-btn-area-350x199.png)
 
 1. (Facoltativo) Se desideri modificare il nome della bozza dall&#39;URL del sito Web in un altro nome, digita **Nome bozza.**
 1. Assicurati che **Acquisisci schermata** sia selezionato e utilizza una delle seguenti opzioni:

@@ -6,9 +6,9 @@ description: È possibile richiamare i seguenti oggetti inviati per l'approvazio
 author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 exl-id: 33df75f0-47d0-4848-8d9a-203f40d8831c
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1251'
 ht-degree: 1%
 
 ---
@@ -69,14 +69,14 @@ Se si ricorda un&#39;approvazione associata allo stato iniziale del progetto, il
 
 Per richiamare l&#39;approvazione di un progetto inviata:
 
-1. Fai clic sull&#39;icona **Home** ![](assets/home-icon-30x29.png) nell&#39;angolo superiore sinistro di Adobe Workfront.
+1. Fai clic sull&#39;icona **Home** ![Home](assets/home-icon-30x29.png) nell&#39;angolo superiore sinistro di Adobe Workfront.
 
    >[!NOTE]
    >
    >L’amministratore di Workfront potrebbe apportare le seguenti modifiche all’icona Home nel tuo ambiente:
    >
    >* Sostituiscilo con un’immagine personalizzata per illustrare la tua organizzazione. In questo caso, l’icona avrà un aspetto diverso da quello mostrato in questo articolo.
-   >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic sul **menu principale** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro della pagina, quindi fai clic su **Home**.
+   >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic sull&#39;icona **Main Menu** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro della pagina, quindi fai clic su **Home**.
 
 1. Nell&#39;area **Elenco lavori**, passa al raggruppamento **Approvazioni inviate**.
 
@@ -84,7 +84,7 @@ Per richiamare l&#39;approvazione di un progetto inviata:
 
    Il progetto verrà aperto a destra di Work List (Elenco di lavoro).
 
-   ![](assets/project-pending-approval-phome-nwe-350x106.png)
+   ![Progetto in attesa di approvazione](assets/project-pending-approval-phome-nwe-350x106.png)
 
 1. Fai clic su **Richiama** nell&#39;angolo superiore destro del pannello di destra.
 
@@ -100,14 +100,14 @@ Se si ricorda un&#39;approvazione associata allo stato iniziale dell&#39;attivit
 
 Per richiamare l&#39;approvazione di un&#39;attività inviata:
 
-1. Fai clic sull&#39;icona **Home** ![](assets/home-icon-30x29.png) nell&#39;angolo superiore sinistro di Adobe Workfront.
+1. Fai clic sull&#39;icona **Home** ![Home](assets/home-icon-30x29.png) nell&#39;angolo superiore sinistro di Adobe Workfront.
 
    >[!NOTE]
    >
    >L’amministratore di Workfront potrebbe apportare le seguenti modifiche all’icona Home nel tuo ambiente:
    >
    >* Sostituiscilo con un’immagine personalizzata per illustrare la tua organizzazione. In questo caso, l’icona avrà un aspetto diverso da quello mostrato in questo articolo.
-   >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic sul **menu principale** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro della pagina, quindi fai clic su **Home**.
+   >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic sull&#39;icona **Main Menu** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro della pagina, quindi fai clic su **Home**.
 
 1. Nell&#39;area **Elenco lavori**, passa al raggruppamento **Approvazioni inviate**.
 
@@ -115,7 +115,7 @@ Per richiamare l&#39;approvazione di un&#39;attività inviata:
 
    L’attività verrà aperta a destra di Work List (Elenco di lavoro).
 
-   ![](assets/task-pending-approval-home-nwe-350x97.png)
+   ![Attività in attesa di approvazione](assets/task-pending-approval-home-nwe-350x97.png)
 
 1. Fai clic su **Richiama** nell&#39;angolo superiore destro del pannello di destra.
 
@@ -129,14 +129,14 @@ Se si ricorda un&#39;approvazione associata allo stato iniziale del problema, il
 >
 >È possibile associare il primo stato di un problema a un processo di approvazione utilizzando un modello. Per ulteriori informazioni sulla creazione di una coda richieste, vedere [Creare una coda richieste](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Fai clic sull&#39;icona **Home** ![](assets/home-icon-30x29.png) nell&#39;angolo superiore sinistro di Adobe Workfront.
+1. Fai clic sull&#39;icona **Home** ![Home](assets/home-icon-30x29.png) nell&#39;angolo superiore sinistro di Adobe Workfront.
 
    >[!NOTE]
    >
    >L’amministratore di Workfront potrebbe apportare le seguenti modifiche all’icona Home nel tuo ambiente:
    >
    >* Sostituiscilo con un’immagine personalizzata per illustrare la tua organizzazione. In questo caso, l’icona avrà un aspetto diverso da quello mostrato in questo articolo.
-   >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic sul **menu principale** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro della pagina, quindi fai clic su **Home**.
+   >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic sull&#39;icona **Main Menu** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro della pagina, quindi fai clic su **Home**.
 
 1. Nell&#39;area **Elenco lavori**, passa al raggruppamento **Approvazioni inviate**.
 
@@ -144,7 +144,7 @@ Se si ricorda un&#39;approvazione associata allo stato iniziale del problema, il
 
    Questo apre il problema a destra di Work List (Elenco di lavoro).
 
-   ![](assets/issue-pending-approval-home-nwe-350x103.png)
+   ![Problema in attesa di approvazione](assets/issue-pending-approval-home-nwe-350x103.png)
 
 1. Fai clic su **Richiama** nell&#39;angolo superiore destro del pannello di destra.
 
@@ -152,14 +152,14 @@ Se si ricorda un&#39;approvazione associata allo stato iniziale del problema, il
 
 Quando si richiama un&#39;approvazione della scheda orario, questa torna allo stato precedente all&#39;invio per l&#39;approvazione.
 
-1. Fai clic sull&#39;icona **Home** ![](assets/home-icon-30x29.png) nell&#39;angolo superiore sinistro di Adobe Workfront.
+1. Fai clic sull&#39;icona **Home** ![Home](assets/home-icon-30x29.png) nell&#39;angolo superiore sinistro di Adobe Workfront.
 
    >[!NOTE]
    >
    >L’amministratore di Workfront potrebbe apportare le seguenti modifiche all’icona Home nel tuo ambiente:
    >
    >* Sostituiscilo con un’immagine personalizzata per illustrare la tua organizzazione. In questo caso, l’icona avrà un aspetto diverso da quello mostrato in questo articolo.
-   >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic sul **menu principale** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro della pagina, quindi fai clic su **Home**.
+   >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic sull&#39;icona **Main Menu** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro della pagina, quindi fai clic su **Home**.
 
 1. Nell&#39;area **Elenco lavori**, passa al raggruppamento **Approvazioni inviate**.
 
@@ -167,7 +167,7 @@ Quando si richiama un&#39;approvazione della scheda orario, questa torna allo st
 
    Verrà aperta la scheda orario a destra di Elenco lavori.
 
-   ![](assets/timesheet-pending-approval-home-nwe-350x157.png)
+   ![Scheda orario in attesa di approvazione](assets/timesheet-pending-approval-home-nwe-350x157.png)
 
 1. Fai clic su **Richiama** nell&#39;angolo superiore destro del pannello di destra.
 
@@ -175,14 +175,14 @@ Quando si richiama un&#39;approvazione della scheda orario, questa torna allo st
 
 Per richiamare l&#39;approvazione di un documento, è necessario rimuovere manualmente uno o tutti gli utenti dall&#39;approvazione.
 
-1. Fai clic sull&#39;icona **Home** ![](assets/home-icon-30x29.png) nell&#39;angolo superiore sinistro di Adobe Workfront.
+1. Fai clic sull&#39;icona **Home** ![Home](assets/home-icon-30x29.png) nell&#39;angolo superiore sinistro di Adobe Workfront.
 
    >[!NOTE]
    >
    >L’amministratore di Workfront potrebbe apportare le seguenti modifiche all’icona Home nel tuo ambiente:
    >
    >* Sostituiscilo con un’immagine personalizzata per illustrare la tua organizzazione. In questo caso, l’icona avrà un aspetto diverso da quello mostrato in questo articolo.
-   >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic sul **menu principale** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro della pagina, quindi fai clic su **Home**.
+   >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic sull&#39;icona **Main Menu** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro della pagina, quindi fai clic su **Home**.
 
 1. Nell&#39;area **Elenco lavori**, passa al raggruppamento **Approvazioni inviate**.
 
@@ -199,14 +199,14 @@ Per richiamare l&#39;approvazione di un documento, è necessario rimuovere manua
 
 ## Richieste di accesso
 
-1. Fai clic sull&#39;icona **Home** ![](assets/home-icon-30x29.png) nell&#39;angolo superiore sinistro di Adobe Workfront.
+1. Fai clic sull&#39;icona **Home** ![Home](assets/home-icon-30x29.png) nell&#39;angolo superiore sinistro di Adobe Workfront.
 
    >[!NOTE]
    >
    >L’amministratore di Workfront potrebbe apportare le seguenti modifiche all’icona Home nel tuo ambiente:
    >
    >* Sostituiscilo con un’immagine personalizzata per illustrare la tua organizzazione. In questo caso, l’icona avrà un aspetto diverso da quello mostrato in questo articolo.
-   >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic sul **menu principale** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro della pagina, quindi fai clic su **Home**.
+   >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic sull&#39;icona **Main Menu** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro della pagina, quindi fai clic su **Home**.
 
 1. Nell&#39;area **Elenco lavori**, passa al raggruppamento **Approvazioni inviate**.
 
@@ -214,6 +214,6 @@ Per richiamare l&#39;approvazione di un documento, è necessario rimuovere manua
 
    Verrà aperta la richiesta di accesso a destra di Elenco lavori.
 
-   ![](assets/access-request-pending-approval-nwe-350x104.png)
+   ![Richiesta di accesso in attesa di approvazione](assets/access-request-pending-approval-nwe-350x104.png)
 
 1. Fai clic su **Richiama** nell&#39;angolo superiore destro del pannello di destra.

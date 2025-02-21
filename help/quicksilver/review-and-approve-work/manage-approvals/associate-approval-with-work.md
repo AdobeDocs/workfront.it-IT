@@ -7,9 +7,9 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1880'
+source-wordcount: '1914'
 ht-degree: 0%
 
 ---
@@ -123,19 +123,19 @@ Per associare un processo di approvazione globale esistente a un progetto, un&#3
 
    Potrebbe essere necessario fare clic su **Mostra altro**, quindi su **Approvazioni**.
 
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   ![Sezione approvazioni sull&#39;attività](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
-1. ![](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
+1. ![Utilizzare le approvazioni esistenti o creare approvazioni per utilizzo singolo](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
 
    Viene visualizzato il processo di approvazione selezionato.
 
 1. Espandi il menu a discesa **Usa esistente** e seleziona un processo di approvazione esistente.
 
-   ![](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
+   ![Menu Approvazioni](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
    Viene visualizzato il processo di approvazione selezionato.
 
-   ![](assets/existing-approval-attached-to-task-redesigned-nwe-350x355.png)
+   ![Approvazione esistente allegata all&#39;attività](assets/existing-approval-attached-to-task-redesigned-nwe-350x355.png)
 
 1. Fai clic su **Salva**.
 1. (Facoltativo) Fare clic su Modifica processo di approvazione se si desidera modificare l&#39;approvazione esistente associata all&#39;elemento. In questo modo il processo di approvazione globale viene trasformato in un processo di approvazione a utente singolo. Per ulteriori informazioni, vedere la sezione [Modificare un processo di approvazione globale da utilizzare su un oggetto specifico](#modify-a-global-approval-process-for-use-on-a-specific-object) in questo articolo.
@@ -168,7 +168,7 @@ Per modificare un processo di approvazione già associato a un elemento:
    >
    >Assicurati di fare clic su **Salva** durante l&#39;aggiunta dell&#39;approvazione.
 
-1. Dopo aver aggiunto il processo di approvazione globale, fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) nell&#39;angolo superiore destro della pagina di approvazione. Questa azione trasforma il processo di approvazione globale o a livello di gruppo in un processo di approvazione a utente singolo.
+1. Dopo aver aggiunto il processo di approvazione globale, fai clic sull&#39;icona **Modifica** icona ![Modifica](assets/edit-icon.png) nell&#39;angolo superiore destro della pagina di approvazione. Questa azione trasforma il processo di approvazione globale o a livello di gruppo in un processo di approvazione a utente singolo.
 1. Apporta eventuali modifiche al processo di approvazione esistente. Per ulteriori informazioni, vedere la sezione [Associare un processo di approvazione a utente singolo a un progetto, un&#39;attività, un problema, un modello o un&#39;attività modello](#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task) in questo articolo.
 1. Fai clic su **Salva**, quindi di nuovo su **Salva** per confermare che vuoi convertire il processo di approvazione globale in un processo di approvazione a utente singolo disponibile solo su questo oggetto.
 
@@ -193,11 +193,11 @@ Per creare un processo di approvazione per singolo utilizzo:
 
    Potrebbe essere necessario fare clic su **Mostra altro** > **Approvazioni**.
 
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   ![Sezione approvazioni sull&#39;attività](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. Fare clic su **Crea monouso**.
 
-   ![](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
+   ![Menu Approvazioni](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
 1. Completare i passaggi che iniziano con il passaggio 6 della sezione &quot;Creare un processo di approvazione globale a livello di sistema o di gruppo per gli elementi di lavoro&quot; nell&#39;articolo [Creare un processo di approvazione per gli elementi di lavoro](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
@@ -232,12 +232,12 @@ Per rimuovere o eliminare un processo di approvazione da un elemento di lavoro:
 
    Potrebbe essere necessario fare clic su **Mostra altro** > **Approvazioni**.
 
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   ![Sezione approvazioni sull&#39;attività](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. Fai clic su una delle seguenti icone nell&#39;angolo superiore destro della sezione Approvazioni, a seconda del tipo di approvazione associata all&#39;elemento:
 
-   * **Icona Rimuovi** ![](assets/remove-icon---x-in-circle.png) per le approvazioni globali o a livello di gruppo.
-   * **Icona Elimina** ![](assets/delete.png) per le approvazioni a uso singolo.
+   * **Icona Rimuovi** icona ![Icona Rimuovi](assets/remove-icon---x-in-circle.png) per le approvazioni globali o a livello di gruppo.
+   * **Icona Elimina** icona ![Icona Elimina](assets/delete.png) per le approvazioni monouso.
 
 1. Fai clic su **Rimuovi** o **Elimina** per confermare.
 

@@ -6,9 +6,9 @@ description: Puoi monitorare facilmente l’avanzamento di una bozza configurata
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 71df1445-c64c-4de2-a9b8-23bd47898b6d
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -69,24 +69,24 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Le linee tra le fasi rappresentano le dipendenze tra le fasi. Le linee che conducono agli stadi inattivi vengono tratteggiate fino all&#39;attivazione dello stadio.
 
-   È possibile passare il cursore del mouse su una fase del diagramma per visualizzarne l&#39;avanzamento. Se la fase non è attiva e si dispone dei diritti di modifica sulla fase, è possibile fare clic sul pulsante Attiva fase ![](assets/activate-stage-btn.png) per avviare la fase. Se lo stage è attivo e si dispone dei diritti di modifica sullo stage, è possibile bloccarlo. ![](assets/lock-stage-btn.png) Per ulteriori informazioni sulla barra di avanzamento (S, O, C, D), vedere  [Visualizzare lo stato e l&#39;avanzamento di una bozza in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
+   È possibile passare il cursore del mouse su una fase del diagramma per visualizzarne l&#39;avanzamento. Se la fase non è attiva e si dispone dei diritti di modifica sulla fase, è possibile fare clic sul pulsante Attiva fase ![Attiva fase](assets/activate-stage-btn.png) per avviare la fase. Se lo stage è attivo e si dispone dei diritti di modifica sullo stage, è possibile bloccarlo. ![Fase di blocco](assets/lock-stage-btn.png) Per ulteriori informazioni sulla barra di avanzamento (S, O, C, D), vedere  [Visualizzare lo stato e l&#39;avanzamento di una bozza in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
 
 ## Visualizzare una fase
 
 1. In un elenco di documenti che contiene il documento, posizionare il puntatore del mouse sulla riga contenente il documento, quindi fare clic su **Flusso di lavoro bozze**.
 1. Nel diagramma fare clic sullo stadio che si desidera visualizzare.
 
-   ![](assets/view-stage-diagram-350x204.png)
+   ![Visualizza diagramma fase](assets/view-stage-diagram-350x204.png)
 
 1. Per espandere i dettagli di uno stadio, fare clic sulla freccia laterale sotto il nome.
 
-   ![](assets/stage-details-caret-350x167.png)
+   ![Dettagli fase](assets/stage-details-caret-350x167.png)
 
 ## Visualizza tutte le fasi
 
 Per visualizzare tutte le fasi di un flusso di lavoro automatico:
 
-1. Fare clic sul pulsante Cambia visualizzazione nella parte superiore della pagina ![](assets/change-view-btn.png), quindi fare clic su **Visualizza tutte le fasi**.
+1. Fai clic sul pulsante Cambia visualizzazione nella parte superiore della pagina ![Cambia visualizzazione](assets/change-view-btn.png), quindi fai clic su **Visualizza tutte le fasi**.
 
    Tutte le fasi del flusso di lavoro automatico sono elencate nella sezione, ma i dettagli sono nascosti.
 
@@ -96,5 +96,5 @@ Per visualizzare tutte le fasi di un flusso di lavoro automatico:
 
 Per visualizzare tutte le fasi del flusso di lavoro automatizzato con i relativi dettagli espansi:
 
-1. Fare clic sul pulsante Cambia visualizzazione nella parte superiore della pagina ![](assets/change-view-btn.png), quindi fare clic su **Visualizza tutti gli stadi in dettaglio**.
+1. Fai clic sul pulsante Cambia visualizzazione nella parte superiore della pagina ![Cambia visualizzazione](assets/change-view-btn.png), quindi fai clic su **Visualizza in dettaglio tutte le fasi**.
 1. Per visualizzare i dettagli di un&#39;area di visualizzazione, fare clic sulla freccia in giù sotto il nome.

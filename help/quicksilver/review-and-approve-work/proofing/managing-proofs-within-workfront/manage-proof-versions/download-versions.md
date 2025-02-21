@@ -6,9 +6,9 @@ description: È possibile scaricare una singola versione o tutte le versioni di 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: eb61cc0b-b402-48db-aa88-9a1dea3180d6
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '227'
 ht-degree: 4%
 
 ---
@@ -53,9 +53,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 ## Scarica una singola versione di bozza
 
 1. Nell&#39;elenco del documento, fare clic sulla bozza.
-1. Nel Riepilogo, in **Versioni**, fai clic sul menu Altro ![](assets/more-icon.png) a destra della versione, quindi fai clic su **Scarica** nell&#39;elenco a discesa visualizzato.
+1. Nel Riepilogo, in **Versioni**, fai clic su ![Altro icona](assets/more-icon.png) nel menu Altro a destra della versione, quindi fai clic su **Scarica** nell&#39;elenco a discesa visualizzato.
 
-   ![](assets/more-versions-350x143.png)
+   ![Scarica una versione](assets/more-versions-350x143.png)
 
 ## Scaricare tutte le versioni di una bozza
 

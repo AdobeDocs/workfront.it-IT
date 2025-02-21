@@ -6,9 +6,9 @@ description: Scopri come individuare rapidamente il testo in una bozza.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03f07011-b17b-41ea-b99e-4535f2d143ff
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '232'
 ht-degree: 2%
 
 ---
@@ -63,7 +63,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Aprire la bozza che si desidera cercare.
 1. Nella barra degli strumenti sopra la bozza, fare clic sull&#39;icona **Cerca documento**.
 
-   ![](assets/search-document-icon-search-in-proof-350x129.png)
+   ![Cerca documento](assets/search-document-icon-search-in-proof-350x129.png)
 
 1. Iniziare a digitare il testo che si desidera cercare.
 

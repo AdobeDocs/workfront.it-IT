@@ -6,9 +6,9 @@ description: Puoi importare progetti esistenti in un piano. I progetti importati
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1690'
+source-wordcount: '1710'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ Quando si importa un progetto in un piano, alcune informazioni del progetto veng
      <ul> 
       <li> <p>Se un utente assegnato a un'attività o a un problema ha modificato il proprio ruolo dopo aver contrassegnato l'assegnazione come [!UICONTROL Done], [!DNL Workfront] importa nell'iniziativa il ruolo che l'utente ha svolto prima di contrassegnare l'assegnazione come [!UICONTROL Done].</p> </li> 
       <li> <p>Se un utente assegnato a un'attività o a un problema ha modificato il ruolo durante la durata del progetto, ma la sua assegnazione all'attività o al problema non è contrassegnata come [!UICONTROL Done] quando si importa il progetto, [!DNL Workfront] importa solo il ruolo corrente dell'utente assegnato. </p> </li> 
-     </ul> <p>Per informazioni sullo stato di un'assegnazione, vedere "Stato assegnazione" in <a href="../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">Glossario della terminologia dell'Adobe [!DNL Workfront]</a>. </p> </p> </td> 
+     </ul> <p>Per informazioni sullo stato di un'assegnazione, vedere "Stato assegnazione" in <a href="../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">Glossario della terminologia di Adobe [!DNL Workfront]</a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td>Progetto [!UICONTROL Lavoro Necessario] associato alle mansioni assegnate ad attività o problemi</td> 
@@ -164,7 +164,7 @@ Quando si importa un progetto in un piano, alcune informazioni del progetto veng
 
    Viene visualizzata la casella [!UICONTROL Importa progetti]. I progetti con date incluse nell’intervallo di tempo del piano vengono visualizzati in un elenco.
 
-   ![](assets/project-import-ui-projects-selected-350x72.png)
+   ![Importa progetti](assets/project-import-ui-projects-selected-350x72.png)
 
    >[!TIP]
    >
@@ -174,9 +174,9 @@ Quando si importa un progetto in un piano, alcune informazioni del progetto veng
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the status of the projects in the import projects UI might change; right now it's ALL statuses)</p>
    -->
 
-1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Filtro]** ![](assets/filter-nwepng.png)e seleziona un filtro disponibile dall&#39;elenco per ridurre la quantità di progetti nel tuo elenco. Per impostazione predefinita, l’elenco dei progetti viene filtrato in base al filtro di progetto attualmente selezionato dall’utente in un elenco di progetti.
+1. (Facoltativo) Fai clic sull&#39;**[!UICONTROL icona Filtro]** ![icona Filtro](assets/filter-nwepng.png)e seleziona un filtro disponibile dall&#39;elenco per ridurre la quantità di progetti nel tuo elenco. Per impostazione predefinita, l’elenco dei progetti viene filtrato in base al filtro di progetto attualmente selezionato dall’utente in un elenco di progetti.
 
-1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Ricerca]** ![](assets/search-icon.png) e aggiungi una parola chiave visualizzata in qualsiasi campo dello schermo. Gli elementi contenenti la parola da cercare vengono visualizzati automaticamente nell&#39;elenco e tutti gli elementi sono nascosti.
+1. (Facoltativo) Fai clic sull&#39;**[!UICONTROL icona Ricerca]** ![icona Ricerca](assets/search-icon.png) e aggiungi una parola chiave visualizzata in qualsiasi campo dello schermo. Gli elementi contenenti la parola da cercare vengono visualizzati automaticamente nell&#39;elenco e tutti gli elementi sono nascosti.
 
 1. (Condizionale) Fai clic sull&#39;icona **[!UICONTROL X]** per rimuovere la ricerca e visualizzare tutti i progetti.
 1. Seleziona fino a 100 progetti e fai clic su **[!UICONTROL Importa]**.
@@ -185,10 +185,10 @@ Quando si importa un progetto in un piano, alcune informazioni del progetto veng
 
    Osserva quanto segue:
 
-   * A destra del nome dell&#39;iniziativa viene visualizzata l&#39;icona di progetto ![](assets/project-icon-sp.png).
+   * A destra del nome dell&#39;iniziativa viene visualizzata l&#39;icona di progetto ![Icona progetto](assets/project-icon-sp.png).
    * Se la sequenza temporale del progetto supera la durata del piano, la barra dell&#39;iniziativa termina con un margine puntato a sinistra (quando la data di inizio è precedente alla data del piano) o a destra (quando la data di fine è successiva alla data del piano).
 
-     ![](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
+     ![Barra del progetto precedente alla data di inizio](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
 
    * Il numero di mesi e mansioni è stato aggiornato per corrispondere a quelli del progetto.
 
@@ -198,7 +198,7 @@ Quando si importa un progetto in un piano, alcune informazioni del progetto veng
 
 1. Fai clic sulla barra che rappresenta la nuova iniziativa per aprire il pannello dei dettagli dell’iniziativa a destra.
 
-   ![](assets/initiative-duration-with-project-duration-details-panel-350x292.png)
+   ![Durata iniziativa](assets/initiative-duration-with-project-duration-details-panel-350x292.png)
 
    Nell&#39;area **[!UICONTROL Durata iniziativa]** esaminare le informazioni seguenti:
 
@@ -234,4 +234,4 @@ Quando si importa un progetto in un piano, alcune informazioni del progetto veng
 1. (Facoltativo) Per aggiornare le modifiche apportate all&#39;iniziativa al progetto da cui è stata importata, pubblicare il progetto dal piano. Per informazioni sulla pubblicazione dei piani, vedere [Aggiornare o creare progetti pubblicando iniziative in [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 1. (Facoltativo) Fai clic sull’icona del progetto per accedere al progetto collegato.
 
-   ![](assets/project-icon-on-initiative-highlighted-350x49.png)
+   ![Icona progetto nell&#39;iniziativa](assets/project-icon-on-initiative-highlighted-350x49.png)

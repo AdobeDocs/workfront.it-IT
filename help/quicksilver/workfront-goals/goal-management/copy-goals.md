@@ -6,9 +6,9 @@ description: Puoi copiare gli obiettivi in Obiettivi di Adobe Workfront per crea
 author: Alina
 feature: Workfront Goals
 exl-id: 690a6030-ee29-4e50-869f-cd014050b364
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '800'
 ht-degree: 4%
 
 ---
@@ -52,7 +52,7 @@ Devi avere i seguenti:
  <p> Nuovo requisito del prodotto, uno dei seguenti: </p>
 <ul>
 <li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
-<li>Un piano Workfront Ultimate che include gli obiettivi Workfront per impostazione predefinita. </li></ul>
+<li>Un piano Workfront di Ultimate che include gli obiettivi di Workfront per impostazione predefinita. </li></ul>
  <p>Oppure</p>
  <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
  </tr>
@@ -117,7 +117,7 @@ To copy goals in the Production environment:
 
    This opens the Goal Details panel.
 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Copy**. 
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Copy**. 
 
 1. Update any of the following information for the copied goal:
 
@@ -177,9 +177,9 @@ To copy goals in the Production environment:
 -->
 
 
-1. Vai a un obiettivo e fai clic sul menu **Altro** ![](assets/more-icon.png), quindi fai clic su **Copia obiettivo**.
+1. Vai a un obiettivo e fai clic sul menu **Altro** ![Icona Altro](assets/more-icon.png), quindi fai clic su **Copia obiettivo**.
 
-   ![](assets/copy-goal-box-unshimmed.png)
+   ![Copia casella obiettivo](assets/copy-goal-box-unshimmed.png)
 
 1. Aggiorna le seguenti informazioni per l&#39;obiettivo copiato:
    * **Nome obiettivo**: nome del nuovo obiettivo. Il nome predefinito per l&#39;obiettivo copiato è &quot;Copia di &lt;obiettivo originale>&quot;.

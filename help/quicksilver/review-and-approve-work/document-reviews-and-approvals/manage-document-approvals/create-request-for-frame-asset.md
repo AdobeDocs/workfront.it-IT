@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: d80d7ea1-698a-4b78-bf65-bad6bbdfc423
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ You must have the following access to perform the steps in this article:
 
 1. Scorri verso il basso fino alla sezione **Approvazioni**, quindi fai clic su **Aggiungi**.
 
-   ![](assets/doc-summary-add-approvers.png)
+   ![Aggiungi approvatori nel riepilogo documenti](assets/doc-summary-add-approvers.png)
 
 1. (Facoltativo) Imposta una scadenza per l’approvazione. Gli utenti e i team ricevono una notifica via e-mail 72 ore e in seguito 24 ore prima della scadenza specificata.
 
@@ -75,14 +75,14 @@ You must have the following access to perform the steps in this article:
 
 1. Per aggiungere un revisore, selezionare la casella di controllo **Revisore** e iniziare a digitare il nome di un utente o di un team.
 
-   ![](assets/add-approver-and-deadline.png)
+   ![Aggiungi approvatore e scadenza](assets/add-approver-and-deadline.png)
 
 1. Ripeti il passaggio precedente per aggiungere altri approvatori o revisori.
 
 ## Creare una richiesta di revisione o approvazione dalla pagina Dettagli documento
 
 1. Passa il puntatore del mouse sul documento, quindi fai clic su **Dettagli documento**.
-   ![](assets/doc-details.png)
+   ![Dettagli documento](assets/doc-details.png)
 
 1. Accanto al nome del documento, selezionare la versione del documento per la quale si desidera creare un&#39;approvazione. La versione più recente è selezionata per impostazione predefinita.
 
@@ -94,7 +94,7 @@ You must have the following access to perform the steps in this article:
 
 1. Per aggiungere un revisore, selezionare la casella di controllo **Revisore** e iniziare a digitare il nome di un utente o di un team.
 
-   ![](assets/add-approver-and-deadline.png)
+   ![Aggiungi approvatore e scadenza](assets/add-approver-and-deadline.png)
 
 1. Ripeti il passaggio precedente per aggiungere altri approvatori o revisori.
 
@@ -110,5 +110,5 @@ Document approval decisions are not automatically reset when you upload a new ve
 
 1. Scroll down to the **Approvals** section in the Summary, click the More icon, then click Resubmit.
 
-   ![](assets/nwe-resubmit-approval-350x149.png)
+   ![Resubmit approval](assets/nwe-resubmit-approval-350x149.png)
 -->

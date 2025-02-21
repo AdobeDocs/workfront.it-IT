@@ -2,20 +2,20 @@
 product-area: documents
 navigation-topic: create-proofs-within-workfront
 title: Creare una bozza interattiva per un sito web o altro contenuto web
-description: Puoi generare una nuova bozza interattiva o una nuova versione di una bozza interattiva esistente per il contenuto web. Può trattarsi di un sito web o di altri tipi di contenuti interattivi, ad esempio annunci con video o audio in streaming, animazioni HTML e banner interattivi.
+description: Puoi generare una nuova bozza interattiva o una nuova versione di una bozza interattiva esistente per il contenuto web. Può trattarsi di un sito Web o di altri tipi di contenuti interattivi, ad esempio annunci con video o audio in streaming, animazioni HTML e banner interattivi.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
-source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
 
 # Creare una bozza interattiva per un sito web o altro contenuto web
 
-Puoi generare una nuova bozza interattiva o una nuova versione di una bozza interattiva esistente per il contenuto web. Può trattarsi di un sito web o di altri tipi di contenuti interattivi, ad esempio annunci con video o audio in streaming, animazioni HTML e banner interattivi.
+Puoi generare una nuova bozza interattiva o una nuova versione di una bozza interattiva esistente per il contenuto web. Può trattarsi di un sito Web o di altri tipi di contenuti interattivi, ad esempio annunci con video o audio in streaming, animazioni HTML e banner interattivi.
 
 In una bozza interattiva, i revisori possono navigare e interagire come di consueto con il sito web o altri contenuti web.
 
@@ -82,7 +82,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Fai clic sull’URL aggiunto.
 
-   ![](assets/click-url-350x137.png)
+   ![Fai clic sull&#39;URL](assets/click-url-350x137.png)
 
 1. (Facoltativo) Se desideri modificare il nome della bozza dall&#39;URL del sito Web a qualcos&#39;altro, digita **Nome bozza**.
 1. Seleziona **Interattivo**, quindi fai clic su **Fine**.

@@ -7,9 +7,9 @@ description: È possibile richiedere l'accesso a un piano in Adobe Workfront Sce
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '511'
 ht-degree: 1%
 
 ---
@@ -80,7 +80,7 @@ Per richiedere le autorizzazioni:
 
 1. Fare clic su un collegamento a un piano.
 
-   ![](assets/request-access-to-plan-350x277.png)
+   ![Richiedi accesso al piano](assets/request-access-to-plan-350x277.png)
 
 1. Nel menu a discesa **[!UICONTROL Richiedi accesso a]**, indica il livello di autorizzazioni che desideri concedere. Selezionare una delle opzioni seguenti:
 
@@ -98,11 +98,11 @@ Per richiedere le autorizzazioni:
    Si verifica quanto segue:
 
    * [!DNL Workfront] invia una notifica e-mail al proprietario del piano in cui può concedere le autorizzazioni richieste.\
-     ![](assets/request-access-to-plan-email-350x156.png)
+     ![Notifica e-mail per richiesta di accesso](assets/request-access-to-plan-email-350x156.png)
 
    * Dopo che il proprietario del piano ha concesso le autorizzazioni richieste, si riceve un messaggio e-mail che informa che le autorizzazioni sono state concesse se l&#39;amministratore [!DNL Workfront] ha abilitato la condivisione oggetto per la notifica all&#39;utente nel sistema e se si abilita la notifica e-mail [!UICONTROL Qualcuno condivide un oggetto con me] nel profilo.
 
-     ![](assets/access-granted-to-plan-email-350x172.png)
+     ![Accesso e-mail concesso](assets/access-granted-to-plan-email-350x172.png)
 
    * Puoi anche concedere autorizzazioni ai piani dall&#39;area [!UICONTROL Home] e dall&#39;app mobile [!DNL Workfront].
 

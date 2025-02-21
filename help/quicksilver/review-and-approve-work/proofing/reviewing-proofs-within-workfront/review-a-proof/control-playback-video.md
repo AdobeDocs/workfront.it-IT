@@ -6,9 +6,9 @@ description: Scopri come controllare la riproduzione in una bozza video.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e1dce216-c41d-447b-b5b0-64b04b4132ff
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '357'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ Per una dimostrazione video più dettagliata, potete rivedere manualmente il vid
 
 1. Nella parte inferiore del visualizzatore di bozze, fai clic sulle frecce **Avanti** e **Indietro** per rivedere il video fotogramma per fotogramma.
 
-   ![](assets/frame-.png)
+   ![Frame](assets/frame-.png)
 
 ## Cambia volume di riproduzione
 
@@ -82,7 +82,7 @@ Per una dimostrazione video più dettagliata, potete rivedere manualmente il vid
 
 1. Nell&#39;angolo inferiore destro del visualizzatore di bozze, passare il mouse sull&#39;icona **Volume**, quindi trascinare il dispositivo di scorrimento per selezionare un nuovo volume.
 
-   ![](assets/phq-viewer-volume.png)
+   ![Volume](assets/phq-viewer-volume.png)
 
    Oppure
 

@@ -6,9 +6,9 @@ description: Puoi creare iniziative copiando quelle esistenti. È possibile copi
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 0aadb074-69c3-4229-a01a-7cabdb87e7cb
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '500'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,7 @@ Viene visualizzato un elenco di piani.
 1. Fare clic sul nome di un piano per aprirlo, quindi individuare le iniziative da copiare.
 1. Seleziona la casella a sinistra dell&#39;iniziativa o delle iniziative da copiare, quindi fai clic su **[!UICONTROL Copia]** dal menu visualizzato in fondo al piano.
 
-   ![](assets/bottom-manage-initiative-menu-350x45.png)
+   ![Copia iniziativa](assets/bottom-manage-initiative-menu-350x45.png)
 
    [!DNL Workfront] copia immediatamente le iniziative e le posiziona sotto l&#39;ultima iniziativa selezionata.
 

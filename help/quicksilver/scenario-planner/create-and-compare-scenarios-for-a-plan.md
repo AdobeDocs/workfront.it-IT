@@ -7,10 +7,10 @@ description: Quando si pianifica la strategia a lungo termine dell'azienda, è p
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 2%
+source-wordcount: '964'
+ht-degree: 1%
 
 ---
 
@@ -79,7 +79,7 @@ Uno scenario è una copia di un piano. Puoi creare tutti gli scenari necessari. 
 
 1. Fai clic sulla freccia rivolta verso il basso accanto a uno scenario esistente, quindi fai clic sull&#39;icona **[!UICONTROL Copia]**.
 
-   ![](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
+   ![Copia scenario](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
 
    Viene creato un nuovo scenario con le stesse informazioni dello scenario copiato. Viene automaticamente denominato &quot;[!UICONTROL Scenario 2]&quot; se si tratta del secondo scenario del piano, &quot;[!UICONTROL Scenario 3]&quot; se si tratta del terzo e così via. Non è possibile rinominare gli scenari. Non esiste un limite al numero di copie che è possibile effettuare.
 
@@ -116,7 +116,7 @@ Dopo aver creato gli scenari, puoi confrontarli per trovare quello migliore per 
 
    Tutti gli scenari esistenti per il piano vengono visualizzati in un formato di scheda affiancato. Lo scenario Iniziale viene sempre elencato per primo ed è statico.
 
-   ![](assets/scenario-cards-overlapping-350x166.png)
+   ![Schede Senario](assets/scenario-cards-overlapping-350x166.png)
 
 1. (Facoltativo) Scorri verso destra per visualizzare tutte le schede scenario.
 
@@ -174,7 +174,7 @@ Dopo aver creato gli scenari, puoi confrontarli per trovare quello migliore per 
    >Quando le informazioni differiscono tra lo scenario iniziale e gli scenari aggiuntivi, accanto al valore modificato viene visualizzata una freccia verso l&#39;alto o verso il basso per indicare un aumento o una diminuzione di tale valore rispetto allo scenario iniziale.
    >
    >
-   >![](assets/arrows-on-scenario-cards-highlighted-350x70.png)
+   >![Frecce nelle schede scenario](assets/arrows-on-scenario-cards-highlighted-350x70.png)
    >
    >Ad esempio, il budget, il numero di mansioni, il numero di iniziative potrebbero cambiare da uno scenario all&#39;altro.
 
@@ -188,9 +188,9 @@ Dopo aver creato gli scenari, puoi confrontarli per trovare quello migliore per 
 
    Fai clic sul campo descrizione per aggiornarlo, quindi fai clic in un punto qualsiasi dello schermo per salvare le modifiche.
 
-1. (Facoltativo) Fai clic sul menu **[!UICONTROL Altro]** ![](assets/more-icon.png) per **[!UICONTROL Copiare]** o **[!UICONTROL Eliminare]** lo scenario.
+1. (Facoltativo) Fai clic sul menu **[!UICONTROL Altro]** ![Icona Altro](assets/more-icon.png) per **[!UICONTROL Copiare]** o **[!UICONTROL Eliminare]** lo scenario.
 
-   ![](assets/copy-or-delete-scenario-links-from-card-350x109.png)
+   ![Copia o elimina scenario](assets/copy-or-delete-scenario-links-from-card-350x109.png)
 
    Quando copi uno scenario, questo viene automaticamente visualizzato nella pagina della scheda e viene rinominato in base al seguente pattern: &quot;[!UICONTROL Scenario] `<next number in order>`.&quot;
 

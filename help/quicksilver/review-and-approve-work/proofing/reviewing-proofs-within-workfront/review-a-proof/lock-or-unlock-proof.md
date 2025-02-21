@@ -6,9 +6,9 @@ description: Puoi bloccare e sbloccare manualmente una bozza in qualsiasi moment
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 39dc8c17-b087-4c7c-be19-3bbe93577966
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '394'
 ht-degree: 1%
 
 ---
@@ -61,13 +61,13 @@ Per bloccare una bozza:
 
    Oppure
 
-   Se si desidera aprire una bozza per una versione precedente del documento, fare clic sull&#39;icona Altro ![](assets/more-icon.png) per tale versione nel Riepilogo, quindi fare clic su **Apri bozza**.
+   Se si desidera aprire una bozza per una versione precedente del documento, fare clic sull&#39;icona Altro ![Icona Altro](assets/more-icon.png) per tale versione nel Riepilogo, quindi fare clic su **Apri bozza**.
 
    Per informazioni sul Riepilogo, vedere [Riepilogo per la panoramica dei documenti](../../../../documents/managing-documents/summary-for-documents.md).
 
-1. Nel pannello a sinistra, fai clic sull&#39;icona **Blocca** ![](assets/unlock-proof-icon.png).
+1. Nel pannello a sinistra, fai clic sull&#39;icona **Blocca** ![Icona Blocca](assets/unlock-proof-icon.png).
 
-   ![](assets/lock-proof-350x277.png)
+   ![Blocca bozza](assets/lock-proof-350x277.png)
 
 ## Sblocca una bozza
 
@@ -79,10 +79,10 @@ Per sbloccare una bozza:
 
    Oppure
 
-   Se si desidera aprire una bozza per una versione precedente del documento, fare clic sull&#39;icona Altro ![](assets/more-icon.png) per tale versione nel Riepilogo, quindi fare clic su **Apri bozza**.
+   Se si desidera aprire una bozza per una versione precedente del documento, fare clic sull&#39;icona Altro ![Icona Altro](assets/more-icon.png) per tale versione nel Riepilogo, quindi fare clic su **Apri bozza**.
 
    Per informazioni sul Riepilogo, vedere [Riepilogo per la panoramica dei documenti](../../../../documents/managing-documents/summary-for-documents.md).
 
-1. Nel pannello a sinistra, fai clic sull&#39;icona **Sblocca** ![](assets/unlock-proof-icon.png), quindi fai clic su **Sblocca**.
+1. Nel pannello a sinistra, fai clic sull&#39;icona **Sblocca** ![Sblocca icona](assets/unlock-proof-icon.png), quindi fai clic su **Sì, sblocca**.
 
-   ![](assets/copy-of-unlock-proof-350x279.png)
+   ![Sblocca bozza](assets/copy-of-unlock-proof-350x279.png)

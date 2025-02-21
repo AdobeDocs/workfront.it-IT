@@ -6,9 +6,9 @@ description: Se si è assegnati come approvatori a un documento, è possibile pr
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 3755eb0d384e7274b88fbeafc2affa85f735efbc
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Approvare un documento dalla Home
 
-1. Fai clic sull&#39;icona **Home** ![](../assets/home-icon-30x29.png) nell&#39;angolo superiore sinistro di Adobe Workfront.
+1. Fai clic sull&#39;icona **Home** ![Home](../assets/home-icon-30x29.png) nell&#39;angolo superiore sinistro di Adobe Workfront.
 
    >[!NOTE]
    >
@@ -66,7 +66,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
    >* Sostituiscilo con un’immagine personalizzata per illustrare la tua organizzazione. In questo caso, l’icona avrà un aspetto diverso da quello mostrato in questo articolo.
    >
-   >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic sul **menu principale** ![](../assets/main-menu-icon.png) nell&#39;angolo superiore destro della pagina, quindi fai clic su **Home**.
+   >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic sull&#39;icona del **menu principale** ![menu principale](../assets/main-menu-icon.png) nell&#39;angolo superiore destro della pagina, quindi fai clic su **Home**.
 
 1. Fai clic su **Filtri** in alto a sinistra della pagina e assicurati che **Approvazioni** sia selezionato.
 
@@ -103,7 +103,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    Se la versione attualmente selezionata del documento ha un&#39;approvazione in sospeso, i pulsanti di decisione di approvazione vengono visualizzati nell&#39;angolo in alto a destra della pagina. Se altre versioni del documento hanno approvazioni in sospeso, il menu a discesa della versione visualizza un punto rosso.
 
    <!--
-   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
+   ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. Fai clic su una delle due opzioni di approvazione seguenti nell’angolo in alto a destra della pagina:
@@ -127,7 +127,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    Se la versione attualmente selezionata del documento ha un&#39;approvazione in sospeso, i pulsanti di decisione di approvazione vengono visualizzati nell&#39;angolo in alto a destra del riquadro Riepilogo documento. Se altre versioni del documento hanno approvazioni in sospeso, il menu a discesa della versione visualizza un punto rosso.
 
    <!--
-   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
+   ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. Fare clic su una delle due opzioni di approvazione seguenti nell&#39;angolo superiore destro del riquadro Riepilogo documento:

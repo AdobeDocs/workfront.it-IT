@@ -6,9 +6,9 @@ description: Puoi condividere una bozza dal visualizzatore di bozze se la condiv
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
-source-git-commit: aaf5beb8692b2fdbb797ba908796d78b4ee8866c
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1511'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Puoi condividere una bozza tramite un URL se il proprietario ha configurato la b
 
 1. Se il menu dell&#39;icona sinistra non è visualizzato, fare clic sull&#39;icona **Menu** nell&#39;angolo superiore sinistro del visualizzatore di bozze.
 
-   ![](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![Icona menu](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. Nel menu dell&#39;icona a sinistra del visualizzatore di bozze, fare clic sull&#39;icona **Condividi**.
 

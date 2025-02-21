@@ -6,9 +6,9 @@ description: Durante il processo di revisione e approvazione, è possibile invia
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e7d60d6f-b6bd-4082-b50c-e42d4b72c149
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '457'
 ht-degree: 1%
 
 ---
@@ -61,15 +61,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Individuare il documento per la bozza contenente gli utenti a cui si desidera inviare il messaggio.
 1. Passa il puntatore del mouse sul documento, quindi fai clic su **Flusso di lavoro di verifica**.
 
-   ![](assets/proof-workflow-doc-list-350x92.png)
+   ![Flusso di lavoro di verifica](assets/proof-workflow-doc-list-350x92.png)
 
 1. Per inviare un messaggio a tutti gli utenti dell&#39;area di visualizzazione, fare clic sul menu **Altro** dell&#39;area di visualizzazione e scegliere **Messaggio tutto**.
 
-   ![](assets/message-stage-350x122.png)
+   ![Messaggio sullo stage](assets/message-stage-350x122.png)
 
 1. Per inviare un messaggio a un singolo utente, fare clic sul menu **Altro** accanto all&#39;utente e scegliere **Messaggio**.
 
-   ![](assets/message-user-350x121.png)
+   ![Utente del messaggio](assets/message-user-350x121.png)
 
 1. Nella sezione **Dettagli messaggio**, specifica le seguenti informazioni:
 

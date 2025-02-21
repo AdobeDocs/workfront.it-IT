@@ -2,20 +2,20 @@
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Stampare un riepilogo delle bozze in Adobe Workfront
-description: Puoi stampare un riepilogo della bozza, salvarlo come PDF o esportarlo come file XLS o PDF ottimizzato per Adobe Reader.
+description: È possibile stampare un riepilogo della bozza, salvarlo come PDF o esportarlo come file XLS o PDF ottimizzato per Adobe Reader.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
-source-git-commit: 918d51e3b832a3104777346cebd54a4830e2d826
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '772'
 ht-degree: 1%
 
 ---
 
 # Stampare un riepilogo delle bozze in Adobe Workfront
 
-Puoi stampare un riepilogo della bozza, salvarlo come PDF o esportarlo come file XLS o PDF ottimizzato per Adobe Reader.
+È possibile stampare un riepilogo della bozza, salvarlo come PDF o esportarlo come file XLS o PDF ottimizzato per Adobe Reader.
 
 ## Requisiti di accesso
 
@@ -65,7 +65,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Oppure
 
-   Quando visualizzi la bozza nel visualizzatore di bozze, fai clic sull&#39;icona **Stampa** nella barra degli strumenti a sinistra. ![](assets/print-icon-in-pv.png) Se la barra degli strumenti sinistra non è visibile, fare clic sull&#39;icona Menu ![](assets/menu-icon-in-pv.png) nell&#39;angolo superiore sinistro del visualizzatore di bozze.
+   Quando visualizzi la bozza nel visualizzatore di bozze, fai clic sull&#39;icona **Stampa** icona ![Stampa](assets/print-icon-in-pv.png) nella barra degli strumenti a sinistra. Se la barra degli strumenti a sinistra non è visibile, fare clic sull&#39;icona Menu ![icona Menu](assets/menu-icon-in-pv.png) nell&#39;angolo superiore sinistro del visualizzatore di bozze.
 
 1. Utilizza una delle seguenti opzioni:
 
@@ -114,7 +114,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Oppure
 
-   Se vuoi salvare il riepilogo come file di PDF, fai clic sul menu **Destinazione**, fai clic su **Salva come PDF** e quindi su **Salva**.
+   Se vuoi salvare il riepilogo come file PDF, fai clic sul menu **Destinazione**, fai clic su **Salva come PDF** e quindi su **Salva**.
 
 ## Esportare un riepilogo della bozza come XLS o PDF
 
@@ -126,7 +126,7 @@ Puoi esportare un riepilogo della bozza per il contenuto statico come file XLS o
 
 1. Fai clic sull’icona XLS o PDF nell’angolo superiore destro della pagina.
 
-   ![](assets/xls-pdf-icons-350x136.png)
+   ![Icona PDF XLS](assets/xls-pdf-icons-350x136.png)
 
 Quando il file esportato è pronto, ricevi un’e-mail da cui puoi scaricare il file.
 

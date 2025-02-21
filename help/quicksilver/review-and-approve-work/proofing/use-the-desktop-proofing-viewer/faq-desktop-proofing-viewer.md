@@ -7,9 +7,9 @@ description: No. Il visualizzatore di bozze desktop è progettato appositamente 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e5c9f039-2a6e-47be-a125-f0ce23cfaeaa
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Per ulteriori informazioni, consulta
 
 Apri una bozza interattiva e scarica l’app direttamente dalla schermata Launch.
 
-![](assets/mceclip0-350x114.png) 
+![Schermata di avvio](assets/mceclip0-350x114.png) 
 
 ## È necessario reinstallare le nuove versioni di Desktop Viewer?
 
@@ -50,7 +50,7 @@ Solo se invii una bozza interattiva o un sito web in tempo reale alle parti inte
 
 ## Qual è lo stato del visualizzatore di bozze legacy utilizzato dalla mia organizzazione per la bozza interattiva?
 
-Prima della versione 2018.3, era supportato il visualizzatore di bozze Legacy. Con la versione 2018.3 (a novembre 2018), il visualizzatore di bozze legacy e tutte le altre applicazioni che si basano sul Flash sono stati rimossi e non sono più disponibili. 
+Prima della versione 2018.3, era supportato il visualizzatore di bozze Legacy. Con la versione 2018.3 (a novembre 2018), il visualizzatore di bozze legacy e tutte le altre applicazioni che si basano su Flash sono stati rimossi e non sono più disponibili. 
 
 Per le bozze statiche e video, il nuovo visualizzatore predefinito è Web Proofing Viewer (Visualizzatore di bozze web). Per le bozze interattive, il visualizzatore predefinito è Visualizzatore bozze desktop.
 

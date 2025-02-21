@@ -8,9 +8,9 @@ description: Puoi disattivare la possibilità di condividere una bozza con un UR
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 73f08e12-f70d-4347-8a5b-441f94d24590
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Devi essere il proprietario della bozza o il creatore, oppure devi avere il ruol
 1. Passa il puntatore del mouse sulla bozza e seleziona **Dettagli documento**.
 1. Nel pannello a sinistra, fai clic su **Impostazioni visualizzatore bozze**, quindi disabilita la casella di controllo **Consenti condivisione bozze tramite URL pubblico o codice di incorporamento**.
 
-   ![](assets/proofing-viewer-settings-350x200.png)
+   ![Impostazioni visualizzatore bozza](assets/proofing-viewer-settings-350x200.png)
 
 1. Fai clic su **Salva**.
 
@@ -64,9 +64,9 @@ Devi essere il proprietario della bozza o il creatore, oppure devi avere il ruol
 
 Puoi disattivare l’impostazione Bozza pubblica per i singoli utenti nella tua istanza di Workfront. Per apportare questa modifica è necessario disporre di un Profilo di autorizzazione di bozza dell&#39;amministratore.
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Strumenti di correzione**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Proofing**.
 1. Fai clic su **Impostazioni account** nell&#39;angolo superiore destro.
 1. Fai clic sulla scheda **Utenti**, quindi sul nome di un utente.
 1. Nella sezione **Impostazioni bozza predefinite**, disabilita la casella di controllo **Condivisione pubblica**.
 
-   ![](assets/default-proof-settings--public-sharing-350x210.png)
+   ![Condivisione pubblica](assets/default-proof-settings--public-sharing-350x210.png)

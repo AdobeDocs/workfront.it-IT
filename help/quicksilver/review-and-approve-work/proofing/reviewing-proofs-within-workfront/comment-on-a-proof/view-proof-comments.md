@@ -6,9 +6,9 @@ description: Puoi visualizzare e rispondere ai commenti della bozza inseriti da 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 32a068ab-0d99-4ab5-a98d-dc3abd953948
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Per visualizzare i commenti nel visualizzatore di bozze:
 In Workfront, è possibile visualizzare i commenti della bozza senza avviare il visualizzatore di bozze.
 
 1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
-1. Fai clic sulla riga contenente il documento, quindi fai clic sull&#39;icona ![](assets/summary-panel-icon.png) di **Riepilogo** sul lato destro della pagina.\
+1. Fai clic sulla riga contenente il documento, quindi fai clic sull&#39;icona **Riepilogo** ![Riepilogo](assets/summary-panel-icon.png) sul lato destro della pagina.\
    I commenti vengono visualizzati nella sezione Aggiornamenti del Riepilogo documento.
 
 ## Contrassegna tutti i commenti come letti
@@ -96,7 +96,7 @@ In qualità di revisore di una bozza, puoi contrassegnare rapidamente tutti i co
 
 1. Sopra l&#39;elenco dei commenti, fare clic sull&#39;icona **Altro**, quindi fare clic su **Segna tutto come letto**.
 
-1. ![](assets/mceclip8-350x173.png)
+1. ![Contrassegna tutto come letto](assets/mceclip8-350x173.png)
 
 ## Risposta ai commenti della bozza dal visualizzatore di bozze
 

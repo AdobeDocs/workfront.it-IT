@@ -6,9 +6,9 @@ description: Questo articolo descrive come trovare e gestire gli obiettivi in Ad
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '472'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ Per eseguire le attività descritte in questo articolo, è necessario disporre d
  <p> Nuovo requisito del prodotto, uno dei seguenti: </p>
 <ul>
 <li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
-<li>Un piano Workfront Ultimate che include gli obiettivi Workfront per impostazione predefinita. </li></ul>
+<li>Un piano Workfront di Ultimate che include gli obiettivi di Workfront per impostazione predefinita. </li></ul>
  <p>Oppure</p>
  <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
  </tr>
@@ -85,7 +85,7 @@ Per eseguire le attività descritte in questo articolo, è necessario disporre d
 
 ## Accedere agli obiettivi di Workfront
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** in alto a destra, quindi fai clic su **Obiettivi**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **Goals**.
 
    <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -127,7 +127,7 @@ Accessing goals differs depending on what environment you use.
 
 To access an individual goal in the Production environment:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Goals** .
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Goals** .
 
      (!--drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -155,11 +155,11 @@ Per accedere a un singolo obiettivo:
 
 1. Fai clic sull&#39;icona **Main Menu** nell&#39;angolo superiore destro di Workfront, quindi fai clic su **Goals** .
 L’Elenco obiettivi viene visualizzato per impostazione predefinita.
-   ![](assets/goal-list-unshimmed.png)
+   ![Elenco obiettivi](assets/goal-list-unshimmed.png)
 1. Fai clic sul nome di un obiettivo nell’elenco.
 Viene visualizzata la pagina dell’obiettivo.
-   ![](assets/goal-page-unshimmed.png)
-1. Fai clic sul menu **Altro** ![](assets/more-icon.png) a destra del nome dell&#39;obiettivo per modificare o condividere ulteriormente l&#39;obiettivo.
+   ![Pagina obiettivo](assets/goal-page-unshimmed.png)
+1. Fai clic sul menu **Altro** ![Icona Altro](assets/more-icon.png) a destra del nome dell&#39;obiettivo per modificare o condividere ulteriormente l&#39;obiettivo.
 1. Fai clic su **Dettagli obiettivo** nel pannello a sinistra per modificare le informazioni sull&#39;obiettivo. Per ulteriori informazioni, consulta [Aggiornare gli obiettivi nella sezione Dettagli obiettivo in Obiettivi di Adobe Workfront](../goal-management/update-goals-in-goal-details-panel.md).
 
 

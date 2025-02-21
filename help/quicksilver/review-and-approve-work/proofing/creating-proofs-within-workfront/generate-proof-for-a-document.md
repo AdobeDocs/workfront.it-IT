@@ -6,9 +6,9 @@ description: È possibile generare una bozza per un documento nel momento in cui
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Vai al progetto, all’attività o al problema in cui desideri creare una nuova bozza.
 1. Fare clic sulla scheda **Documenti**.
-1. Fare clic su Documenti ![](assets/document-icon.png) nel pannello sinistro.
+1. Fare clic su Documenti ![icona Documenti](assets/document-icon.png) nel pannello sinistro.
 1. Fai clic su **Aggiungi nuovo**, quindi fai clic su **Bozza** nel menu visualizzato.
 
    >[!TIP]

@@ -6,9 +6,9 @@ description: È possibile configurare le impostazioni sia per Web Proofing Viewe
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1424'
 ht-degree: 0%
 
 ---
@@ -80,13 +80,13 @@ Per configurare le impostazioni del visualizzatore di verifica:
 1. Aprire il visualizzatore bozze Web o il visualizzatore bozze desktop in uno dei modi seguenti:
 
    * Se esegui una bozza in Adobe Workfront, passa a un elenco di documenti contenente la bozza che desideri visualizzare, passa il puntatore del mouse sul documento e fai clic su **Apri bozza**.
-   * Se si utilizza Workfront Proof, fare clic sull&#39;icona **Vai a bozza** per la bozza nel dashboard o in un elenco visualizzazioni ![](assets/go-to-proof-blue-icon.png).
+   * Se si utilizza Workfront Proof, fare clic sull&#39;icona **Vai alla bozza** per la bozza nel dashboard o nell&#39;elenco Visualizzazioni ![Vai alla bozza](assets/go-to-proof-blue-icon.png).
 
 1. Se la barra degli strumenti a sinistra non è visualizzata, fare clic sull&#39;icona **Menu** nell&#39;angolo superiore sinistro del visualizzatore bozze Web.
 
-   ![](assets/menu-icon-in-proofing-viewer-350x228.png)
+   ![Icona menu](assets/menu-icon-in-proofing-viewer-350x228.png)
 
-1. Nella barra degli strumenti a sinistra, fare clic sull&#39;icona ![](assets/settings-icon-in-pv.png) delle **Impostazioni**.
+1. Nella barra degli strumenti a sinistra, fare clic sull&#39;icona **Impostazioni** ![Impostazioni](assets/settings-icon-in-pv.png).
 
 1. Configura le seguenti **Impostazioni** visualizzate.
 

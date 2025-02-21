@@ -6,9 +6,9 @@ description: Gli obiettivi con un Progress of In Trouble rischiano di non essere
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Devi avere i seguenti:
  <p> Nuovo requisito del prodotto, uno dei seguenti: </p>
 <ul>
 <li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
-<li>Un piano Workfront Ultimate che include gli obiettivi Workfront per impostazione predefinita. </li></ul>
+<li>Un piano Workfront di Ultimate che include gli obiettivi di Workfront per impostazione predefinita. </li></ul>
  <p>Oppure</p>
  <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
  </tr>
@@ -82,7 +82,7 @@ Devi avere i seguenti:
 
 *Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Recommendations per evitare che gli obiettivi raggiungano un progresso di In difficoltà
+## Raccomandazioni per prevenire gli obiettivi per raggiungere un progresso di In difficoltà
 
 Prima che gli obiettivi raggiungano un progresso di In difficoltà, puoi monitorarli spesso e regolarne l’avanzamento quando raggiungono un progresso di A rischio. Gli obiettivi a rischio rischiano di finire nei guai. Per ulteriori informazioni sull&#39;avanzamento dell&#39;obiettivo, vedere [Panoramica sull&#39;avanzamento e sulla condizione dell&#39;obiettivo in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/calculate-goal-progress.md)
 
@@ -97,7 +97,7 @@ Puoi rivedere gli obiettivi in qualsiasi sezione di Workfront Goals. Per inform
 
 Questo articolo descrive come rivedere gli obiettivi nell’elenco Obiettivo.
 
-1. Fai clic sull&#39;icona **Main Menu** ![](assets/main-menu-icon.png) > **Goals** nell&#39;angolo superiore destro.
+1. Fai clic sull&#39;icona **Menu principale** ![Icona Menu principale](assets/main-menu-icon.png) > **Obiettivi** nell&#39;angolo superiore destro.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -124,7 +124,7 @@ Questo articolo descrive come rivedere gli obiettivi nell’elenco Obiettivo.
 
 1. Passa il cursore del mouse sull’indicatore della barra di avanzamento per vedere qual è la percentuale di avanzamento effettiva e qual è il valore previsto per il giorno corrente.
 
-   ![](assets/goal-progress-hover-over-detail-unshimmed.png)
+   ![Dettagli passaggio del mouse sull&#39;avanzamento del lancio](assets/goal-progress-hover-over-detail-unshimmed.png)
 
 1. (Facoltativo) Utilizza i filtri per trovare gli obiettivi che appartengono a un proprietario specifico.
 
@@ -134,7 +134,7 @@ Questo articolo descrive come rivedere gli obiettivi nell’elenco Obiettivo.
 
    Per informazioni sull&#39;aggiornamento dei risultati e delle attività, vedere [Aggiorna stato obiettivo in Obiettivi Adobe Workfront](../goal-review-and-workfront-goals-sections/check-in-goals.md)
 
-   ![](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
+   ![Stato effettivo](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
 
    >[!NOTE]
    >

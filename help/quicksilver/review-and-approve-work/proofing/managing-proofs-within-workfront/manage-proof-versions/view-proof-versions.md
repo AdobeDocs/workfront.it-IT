@@ -6,9 +6,9 @@ description: Puoi visualizzare le versioni precedenti di una bozza.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 909b8924-c0f6-47a6-ba30-fbff7c2e0d55
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '298'
 ht-degree: 1%
 
 ---
@@ -55,7 +55,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Selezionare la bozza dall&#39;elenco Documento.
 1. Nel Riepilogo scorrere fino alla sezione **Tutte le versioni**. Qui puoi visualizzare tutte le versioni della bozza.
 
-   ![](assets/copy-of-versions-350x173.png)
+   ![Copia delle versioni](assets/copy-of-versions-350x173.png)
 
 ## Visualizzare in anteprima una versione di bozza precedente
 
@@ -64,7 +64,7 @@ I file che non possono essere visualizzati in anteprima (come XLSX e DOC) vengon
 1. Selezionare una bozza nell&#39;elenco dei documenti.
 1. Nel Riepilogo, scorri verso il basso fino a **Versioni**, fai clic sul menu **Altro**, quindi seleziona **Anteprima**.
 
-   ![](assets/proof-versions-in-summary-350x167.png)
+   ![Versioni di bozza nel riepilogo](assets/proof-versions-in-summary-350x167.png)
 
 ## Visualizza una versione di bozza precedente
 
@@ -74,4 +74,4 @@ Qualsiasi utente di Workfront con accesso di visualizzazione al documento può v
 1. Trova la bozza necessaria.
 1. Nel riepilogo, scorri verso il basso fino a **Versioni**, fai clic sul menu **Altro**, quindi seleziona **Apri bozza**.
 
-   ![](assets/proof-versions-in-summary-350x167.png)
+   ![Versioni di bozza nel riepilogo](assets/proof-versions-in-summary-350x167.png)

@@ -6,9 +6,9 @@ description: Un flusso di lavoro automatizzato semplifica la gestione del proces
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1838'
 ht-degree: 0%
 
 ---
@@ -139,7 +139,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
       Oltre alle opzioni **Durante la creazione della bozza**, **In una data e un&#39;ora specifiche** o **Manualmente**, puoi selezionare un&#39;opzione che dipende da ciò che si è verificato nel passaggio precedente:
 
-      ![](assets/activate-stage-options-for-stage-2-plus-350x177.png)
+      ![Attiva opzioni fase](assets/activate-stage-options-for-stage-2-plus-350x177.png)
 
    1. Se è stata selezionata un&#39;opzione Attiva fase che dipende da quanto si è verificato nel passaggio precedente, utilizzare le opzioni visualizzate per configurare l&#39;impostazione di attivazione.
 
@@ -149,7 +149,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Quando aggiungi fasi al flusso di lavoro automatico, sullo schermo viene visualizzato un diagramma che le rappresenta:
 
-   ![](assets/stages-diagram-350x213.png)
+   ![Diagramma fasi](assets/stages-diagram-350x213.png)
 
 1. Continua con [Configurare le impostazioni e-mail per la bozza](#configure-email-settings-for-the-proof) di seguito.
 
@@ -230,6 +230,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Dopo aver generato la bozza, fare clic su **Apri bozza** per avviare il visualizzatore di bozze.
 
-   ![](assets/open-proof-350x132.png)
+   ![Apri bozza](assets/open-proof-350x132.png)
 
    Gli utenti che non hanno abilitato la verifica sul proprio account possono comunque visualizzare il documento e aggiungere commenti alla bozza [.](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)

@@ -6,9 +6,9 @@ description: Puoi modificare gli obiettivi esistenti da qualsiasi periodo di tem
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '640'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ Devi avere i seguenti:
  <p> Nuovo requisito del prodotto, uno dei seguenti: </p>
 <ul>
 <li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
-<li>Un piano Workfront Ultimate che include gli obiettivi Workfront per impostazione predefinita. </li></ul>
+<li>Un piano Workfront di Ultimate che include gli obiettivi di Workfront per impostazione predefinita. </li></ul>
  <p>Oppure</p>
  <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
  </tr>
@@ -104,9 +104,9 @@ Editing goals differs depending on what environment you use.
 ### Edit goals in the Production environment
 
 1. Go to a goal that you want to edit and click the goal name to open the **Goal Details** panel. 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Edit**.
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Edit**.
 
-   ![](assets/edit-goal-highlighted.png)
+   ![Edit goal](assets/edit-goal-highlighted.png)
 
 1. Update the name of the goal in the **Goal** field. 
 1. Select a time period when the goal should be completed.
@@ -144,17 +144,17 @@ Editing goals differs depending on what environment you use.
 
 -->
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale**, quindi fai clic su **Obiettivi**.\
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png), quindi fai clic su **Goals**.\
    Viene visualizzato un elenco di obiettivi.
 1. Fai clic su un obiettivo.\
    Viene visualizzata la pagina dell’obiettivo.
 
-   ![](assets/goal-page-unshimmed.png)
+   ![Pagina obiettivo](assets/goal-page-unshimmed.png)
 
 1. Per modificare le informazioni per l&#39;obiettivo, effettuate una delle seguenti operazioni:
    * Fai clic sui campi visualizzati nell’intestazione dell’obiettivo per aggiornarli. Non tutti i campi nell’intestazione sono modificabili.
-   * Fai clic sull&#39;icona **Altro** ![](assets/more-icon.png) a destra del nome dell&#39;obiettivo, quindi fai clic su **Modifica**.
-   * Fai clic su **Dettagli obiettivo** nel pannello a sinistra, quindi fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) in alto a destra, quindi fai clic su **Modifica tutto**. Inizia ad aggiornare i campi nella sezione Dettagli obiettivo.
+   * Fai clic sull&#39;icona **Altro** ![Altro icona](assets/more-icon.png) a destra del nome dell&#39;obiettivo, quindi fai clic su **Modifica**.
+   * Fai clic su **Dettagli obiettivo** nel pannello a sinistra, quindi fai clic sull&#39;icona **Modifica** ![Modifica](assets/edit-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **Modifica tutto**. Inizia ad aggiornare i campi nella sezione Dettagli obiettivo.
 
      >[!IMPORTANT]
      >

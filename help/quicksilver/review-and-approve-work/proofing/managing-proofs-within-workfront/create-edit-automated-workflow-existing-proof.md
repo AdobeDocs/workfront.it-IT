@@ -6,9 +6,9 @@ description: I flussi di lavoro automatizzati semplificano la gestione del proce
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 852f960f-1b57-4a8a-a928-407ad52418e6
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1242'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Oppure
 
-   Se stai esaminando la bozza nel visualizzatore di bozze, fai clic su **Flusso di lavoro** ![](assets/workflow-icon-proofing-viewer.png) nel pannello a sinistra, quindi fai clic sull&#39;icona Modifica ![](assets/edit-icon-proofing-viewer.png) per aprire le impostazioni del flusso di lavoro automatico per la bozza.
+   Se stai esaminando la bozza nel visualizzatore di bozze, fai clic su **Flusso di lavoro** ![Icona flusso di lavoro](assets/workflow-icon-proofing-viewer.png) nel pannello a sinistra, quindi fai clic sull&#39;icona Modifica ![icona Modifica](assets/edit-icon-proofing-viewer.png) per aprire le impostazioni del flusso di lavoro automatico per la bozza.
 
 1. (Condizionale) Se la bozza utilizza attualmente un flusso di lavoro di base (senza fasi), fare clic su **Converti in flusso di lavoro automatico** nella schermata visualizzata.
 
@@ -135,7 +135,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
          <td><p>Selezionare il decisore principale sullo stadio (disponibile solo dopo aver aggiunto almeno una persona allo stadio con il ruolo di Approvatore di bozza o superiore). Se si seleziona un decisore principale, l'opzione <strong>È richiesta una sola decisione</strong> è disabilitata in questa fase.</p></td>
         </tr>
         <tr>
-         <td role="rowheader">Occorre solo una decisione</td>
+         <td role="rowheader">È richiesta una sola decisione</td>
          <td>Termina l’intero processo di revisione quando uno dei responsabili decisionali prende una decisione.<p>Questa opzione non è disponibile se è stato designato un utente nel menu a discesa <strong>Principale responsabile delle decisioni</strong>.</p></td>
         </tr>
         <tr>
@@ -155,7 +155,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Quando aggiungi fasi al flusso di lavoro automatico, sullo schermo viene visualizzato un diagramma che le rappresenta:
 
-   ![](assets/workflow-diagram-existing-proof-qs-350x215.png)
+   ![Diagramma del flusso di lavoro](assets/workflow-diagram-existing-proof-qs-350x215.png)
 
 1. Dopo aver aggiunto le fasi, fare clic su **Fine**.
 

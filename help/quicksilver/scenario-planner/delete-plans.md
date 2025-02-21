@@ -6,9 +6,9 @@ description: È possibile eliminare i piani creati. Non è possibile eliminare i
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '512'
 ht-degree: 1%
 
 ---
@@ -90,7 +90,7 @@ Per eliminare un piano:
 Viene visualizzato un elenco di piani.
 
 1. Fare clic sul nome di un piano per aprirlo.
-1. Fai clic sul **[!UICONTROL menu Altro]** ![](assets/more-menu.png) a destra del nome del piano, quindi fai clic su **[!UICONTROL Elimina]** > **[!UICONTROL Sì, elimina]**.
+1. Fai clic sul **[!UICONTROL Altro menu]** ![Altro menu](assets/more-menu.png) a destra del nome del piano, quindi fai clic su **[!UICONTROL Elimina]** > **[!UICONTROL Sì, elimina]**.
 
    Il piano viene eliminato e si torna all&#39;elenco dei piani.
 
@@ -114,7 +114,7 @@ Per eliminare uno scenario:
    Per impostazione predefinita, viene visualizzato lo scenario Iniziale.
 
 1. Fai clic su **[!UICONTROL Confronta scenari]**.
-1. Nell&#39;angolo superiore destro della scheda dello scenario, fai clic sul menu **[!UICONTROL Altro]** ![](assets/more-menu.png), quindi fai clic su **[!UICONTROL Elimina]**.
+1. Nell&#39;angolo superiore destro della scheda dello scenario fare clic sul menu **[!UICONTROL Altro]** ![Altro menu](assets/more-menu.png), quindi fare clic su **[!UICONTROL Elimina]**.
 
    Lo scenario viene eliminato.
 

@@ -6,9 +6,9 @@ description: Quando le iniziative sono in conflitto tra loro, competono per le s
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d3a3e177-bece-4e03-89d7-9cee6127bc55
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '2172'
+source-wordcount: '2220'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Ciò può verificarsi in uno qualsiasi dei seguenti casi:
 
 1. Verificare che **[!UICONTROL Mostra conflitti]** sia abilitato. È attivata per impostazione predefinita.
 
-   ![](assets/show-scenarios-toggle-on.png)
+   ![Mostra/nascondi scenari](assets/show-scenarios-toggle-on.png)
 
    La prima iniziativa in conflitto visualizza in rosso i mesi con conflitti e accanto al nome dell’iniziativa viene visualizzata un’icona di avviso.
 
@@ -111,13 +111,13 @@ Ciò può verificarsi in uno qualsiasi dei seguenti casi:
 
    Quando un&#39;iniziativa presenta un conflitto, significa che il numero di mansioni per almeno una mansione specifica, i costi sostenuti o entrambi superano il numero di mansioni o il budget definito per il piano per un mese specifico.
 
-   ![](assets/initiatives-on-plan-with-conflicts-350x126.png)
+   ![Iniziative sul piano con conflitto](assets/initiatives-on-plan-with-conflicts-350x126.png)
 
 1. Effettuare una delle seguenti operazioni per ulteriori informazioni sui conflitti che potrebbero esistere:
 
    * Passa il cursore del mouse sull’icona di avviso accanto al nome dell’iniziativa per capire se disponi di una mansione o di un conflitto di budget.
 
-     ![](assets/budget-job-role-conflict-tooltip-on-warning-icon-350x109.png)
+     ![Conflitto di mansioni budget](assets/budget-job-role-conflict-tooltip-on-warning-icon-350x109.png)
 
      A seconda che si siano sovrassegnate le mansioni o i costi sovrastimati per l’iniziativa, è possibile che venga visualizzata una delle seguenti opzioni quando si passa il puntatore sull’icona di avviso:
 
@@ -127,7 +127,7 @@ Ciò può verificarsi in uno qualsiasi dei seguenti casi:
 
    * Quando visualizzi il piano per mese, passa il cursore su un mese nella sequenza temporale del piano per visualizzare le risorse richieste per quel mese e se i conflitti per il mese sono relativi alle persone o ai costi.
 
-     ![](assets/details-of-conflicts-on-monthly-plan-timeline-pop-up-350x178.png)
+     ![Dettagli dei conflitti nella sequenza temporale mensile](assets/details-of-conflicts-on-monthly-plan-timeline-pop-up-350x178.png)
 
      Esamina le seguenti informazioni mensili a livello di piano:
 
@@ -140,7 +140,7 @@ Ciò può verificarsi in uno qualsiasi dei seguenti casi:
 
    * Passa il cursore del mouse sulla barra rossa di un’iniziativa per un mese, in modo da visualizzare la casella delle informazioni aggiuntive sul conflitto che si verifica in quel mese.
 
-     ![](assets/details-of-conflicts-on-initiative-timeline-pop-up-350x113.png)
+     ![Dettagli dei conflitti nella sequenza temporale dell&#39;iniziativa](assets/details-of-conflicts-on-initiative-timeline-pop-up-350x113.png)
 
      Rivedi i campi seguenti nella casella delle informazioni aggiuntive a livello di iniziativa:
 
@@ -181,7 +181,7 @@ Ciò può verificarsi in uno qualsiasi dei seguenti casi:
 
    * Fai clic sull’icona di avviso accanto al nome dell’iniziativa.
    * Fai clic sulla barra di un’iniziativa.
-   * Fai clic sull&#39;icona **[!UICONTROL Altro]** ![](assets/more-icon.png) a destra del nome dell&#39;iniziativa, quindi fai clic su **[!UICONTROL Modifica]**.
+   * Fai clic sull&#39;icona **[!UICONTROL Altro]** ![Icona Altro](assets/more-icon.png) a destra del nome dell&#39;iniziativa, quindi fai clic su **[!UICONTROL Modifica]**.
 
      Il pannello dei dettagli dell’iniziativa viene visualizzato a destra.
 
@@ -192,11 +192,11 @@ Ciò può verificarsi in uno qualsiasi dei seguenti casi:
 
 1. (Condizionale) Per le iniziative che presentano conflitti di mansioni, vai alla sezione **[!UICONTROL Mansioni richieste]** per visualizzare tutte le mansioni richieste per l&#39;iniziativa. Identifica i ruoli che potrebbero essere sovrassegnati. Esamina il numero di FTE o di ore necessarie per ogni mansione per ogni mese dell’iniziativa. La casella con il numero FTE o ore per i mesi con sovrassegnazioni viene visualizzata in rosso.
 
-   ![](assets/details-panel-overallocated-roles-350x275.png)
+   ![Ruoli sovrassegnati](assets/details-panel-overallocated-roles-350x275.png)
 
 1. (Facoltativo) Fai clic sulla freccia rivolta a destra accanto ai mesi nella timeline dell’iniziativa per visualizzare quali mesi aggiuntivi visualizzano i conflitti di mansioni.
 
-   ![](assets/right-arrow-initiative-months-inside-details-box-highlighted-350x145.png)
+   ![Errore destro nella casella dei dettagli](assets/right-arrow-initiative-months-inside-details-box-highlighted-350x145.png)
 
 1. (Facoltativo) Fare clic su **[!UICONTROL Mostra dettagli]** sotto la mansione che visualizza un conflitto per vedere dove appaiono i conflitti ed evidenziare i mesi in conflitto nell&#39;area grafico del piano. Vengono visualizzate informazioni aggiuntive per ogni mansione.
 
@@ -225,12 +225,12 @@ Ciò può verificarsi in uno qualsiasi dei seguenti casi:
    >
    >Nel grafico del piano, i mesi in cui vengono allocate le mansioni visualizzano il nome e il numero di mansioni necessarie per ogni iniziativa in cui sono necessarie. È necessario selezionare la visualizzazione [!UICONTROL Mese] per visualizzare il nome delle mansioni
 
-   ![](assets/conflicting-job-role-months-on-plan-after-clicking-show-details-350x158.png)
+   ![Ruoli in conflitto](assets/conflicting-job-role-months-on-plan-after-clicking-show-details-350x158.png)
 
 1. Per risolvere i conflitti di mansioni, eseguire una delle operazioni seguenti:
 
    * Regola manualmente il numero di ruoli per ogni mese dell’iniziativa su un numero inferiore.
-   * Passa il puntatore del mouse sul nome della mansione e fai clic sull&#39;icona **[!UICONTROL elimina]** ![](assets/delete.png) per rimuovere la mansione dall&#39;iniziativa.
+   * Passa il puntatore del mouse sul nome della mansione e fai clic sull&#39;icona **[!UICONTROL elimina]** ![Elimina](assets/delete.png) per rimuovere la mansione dall&#39;iniziativa.
    * Seleziona **[!UICONTROL Aggiungi ruoli alle risorse disponibili dello scenario]**, quindi fai clic su **[!UICONTROL Applica]**.
 
      Questo aggiunge il numero mancante di FTE o di ore per la mansione al campo [!UICONTROL Available] dello scenario.
@@ -239,7 +239,7 @@ Ciò può verificarsi in uno qualsiasi dei seguenti casi:
      >
      >I ruoli aggiunti per risolvere i conflitti modificano i ruoli [!UICONTROL Disponibili] per lo scenario selezionato e non per tutti gli scenari del piano.
 
-     Viene visualizzata una freccia verde rivolta verso l&#39;alto ![](assets/upward-green-arrow.png) per il mese nella sequenza temporale del piano per indicare che sono state aggiunte più risorse al piano in quel mese. È necessario selezionare la visualizzazione [!UICONTROL Mese] per visualizzare questo indicatore.
+     Una freccia verde rivolta verso l&#39;alto ![Freccia verde rivolta verso l&#39;alto](assets/upward-green-arrow.png) viene visualizzata per il mese nella sequenza temporale del piano per indicare che sono state aggiunte più risorse al piano in quel mese. È necessario selezionare la visualizzazione [!UICONTROL Mese] per visualizzare questo indicatore.
 
    * (Facoltativo) Chiudi il pannello dei dettagli e assegna all’iniziativa una priorità più alta per ricevere prima le risorse di budget dal piano, se possibile. Per informazioni sull&#39;aggiornamento della priorità dell&#39;iniziativa, vedere [Aggiornare le priorità dell&#39;iniziativa in Pianificazione scenario](../scenario-planner/prioritize-initiatives.md).
 
@@ -248,7 +248,7 @@ Ciò può verificarsi in uno qualsiasi dei seguenti casi:
 1. (Condizionale) Per le iniziative che presentano conflitti di costi, vai alla sezione **[!UICONTROL Costi]** nel pannello dei dettagli dell&#39;iniziativa per esaminare i costi per ogni mese della durata dell&#39;iniziativa. Identifica i mesi che potrebbero non avere abbastanza soldi nel budget del piano per coprire i costi per l&#39;iniziativa selezionata. La casella con il budget disponibile insufficiente viene visualizzata in rosso.
 1. (Facoltativo) Fai clic sulla freccia rivolta a destra accanto ai mesi nella timeline dell’iniziativa per visualizzare i mesi aggiuntivi con budget insufficiente a coprire i costi.
 
-   ![](assets/details-panel-insufficient-costs-350x239.png)
+   ![Freccia per costi insufficienti](assets/details-panel-insufficient-costs-350x239.png)
 
 1. (Facoltativo) Fare clic su **[!UICONTROL Mostra dettagli]** sotto le informazioni sui costi per visualizzare la posizione del conflitto ed evidenziare i mesi in conflitto nel grafico del piano. Per ogni tipo di costo vengono visualizzati i seguenti campi aggiuntivi:
 
@@ -275,7 +275,7 @@ Ciò può verificarsi in uno qualsiasi dei seguenti casi:
    >
    >Nel grafico del piano, i mesi in cui i costi sono insufficienti visualizzano il nome e il numero di ruoli ancora necessari per l’iniziativa. Per visualizzare gli importi dei costi è necessario selezionare la vista Mese.
 
-   ![](assets/conflicting-costs-months-on-plan-after-clicking-show-details-350x139.png)
+   ![Costi in conflitto](assets/conflicting-costs-months-on-plan-after-clicking-show-details-350x139.png)
 
    >[!NOTE]
    >

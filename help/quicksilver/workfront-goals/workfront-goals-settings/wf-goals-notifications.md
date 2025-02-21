@@ -7,9 +7,9 @@ description: Adobe Workfront Goals viene fornito con una serie di notifiche di e
 author: Alina
 feature: Workfront Goals
 exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -140,4 +140,4 @@ A personal goal is a goal where you are designated as the owner.
 
 Quando si verifica l’evento definito dalla notifica abilitata, ricevi un’e-mail con la descrizione dell’evento. Di seguito è riportato un esempio di e-mail che ti informa che sei assegnato come Proprietario di un nuovo obiettivo:
 
-![](assets/wf-align-notification-email-350x164.png)
+![E-mail di notifica obiettivi](assets/wf-align-notification-email-350x164.png)

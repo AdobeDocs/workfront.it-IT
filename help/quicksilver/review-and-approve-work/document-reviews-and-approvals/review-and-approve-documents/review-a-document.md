@@ -6,9 +6,9 @@ description: In qualità di revisore, puoi visualizzare in anteprima un document
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 3755eb0d384e7274b88fbeafc2affa85f735efbc
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -94,5 +94,5 @@ Add once functionality is added
 
 1. (Facoltativo) Dopo aver rivisto il documento, puoi lasciare un commento per il richiedente nella sezione **Aggiornamenti** del documento. Per ulteriori informazioni sui commenti, vedere [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Facoltativo) Puoi anche visualizzare in anteprima o scaricare una versione specifica del documento scorrendo verso il basso fino alla sezione **Versioni** del riquadro Riepilogo documento, quindi facendo clic sull&#39;icona Altro ![](../assets/more-icon.png) accanto alla versione da rivedere e selezionando **Scarica** o **Anteprima**.
+1. (Facoltativo) Puoi anche visualizzare in anteprima o scaricare una versione specifica del documento scorrendo verso il basso fino alla sezione **Versioni** del riquadro Riepilogo documento, quindi facendo clic sull&#39;icona Altro ![Icona Altro](../assets/more-icon.png) accanto alla versione da rivedere e selezionando **Scarica** o **Anteprima**.
 1. Per registrare che hai completato la revisione, fai clic su **Completa revisione**.

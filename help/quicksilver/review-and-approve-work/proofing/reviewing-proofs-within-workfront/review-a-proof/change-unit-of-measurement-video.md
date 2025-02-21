@@ -6,9 +6,9 @@ description: È possibile regolare l'unità di misura utilizzata nella timeline 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 553c7cea-6d92-438e-a76e-639daa020ac5
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '323'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Nell&#39;angolo inferiore sinistro del visualizzatore di bozze fare clic sull&#39;unità di misura corrente.
 
-   ![](assets/phq-viewer-video-timeline.png)
+   ![Timeline video](assets/phq-viewer-video-timeline.png)
 
 1. Selezionare una delle opzioni seguenti:
 

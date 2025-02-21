@@ -7,9 +7,9 @@ description: Puoi accedere agli elenchi di obiettivi o di singoli obiettivi e ge
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '699'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ Puoi utilizzare l’Elenco obiettivi per rivedere gli obiettivi che appartengono
 
 Per informazioni sulla navigazione nell&#39;elenco degli obiettivi e sulla gestione degli obiettivi, vedere [Gestire gli obiettivi nell&#39;elenco degli obiettivi di Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
 
-![](assets/goal-list-unshimmed.png)
+![Elenco obiettivi](assets/goal-list-unshimmed.png)
 
 Utilizza Elenco obiettivi per effettuare le seguenti operazioni:
 
@@ -78,7 +78,7 @@ Puoi utilizzare la sezione Grafici per ottenere una visione olistica dello stato
 
 Per informazioni sull&#39;utilizzo della sezione Grafici, vedere [Esaminare i grafici per comprendere le tendenze di avanzamento degli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
 
-![](assets/graphs-section-unshimmed.png)
+![Sezione grafici](assets/graphs-section-unshimmed.png)
 
 Utilizzare la sezione Grafici per effettuare le seguenti operazioni:
 
@@ -97,7 +97,7 @@ Per informazioni sull&#39;allineamento degli obiettivi, vedere i seguenti artico
 * [Allinea gli obiettivi collegandoli in Obiettivi Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 * [Allineare gli obiettivi convertendo risultati e attività in obiettivi](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
-![](assets/goal-alignment-section-unshimmed.png)
+![Sezione allineamento obiettivo](assets/goal-alignment-section-unshimmed.png)
 
 Utilizzare la sezione Allineamento obiettivo per effettuare le seguenti operazioni:
 
@@ -118,7 +118,7 @@ You can use the Pulse section to review and request updates to goals that might 
 
 For information about reviewing goals using the Pulse section, see [Review goals in the Adobe Workfront Goals Pulse section](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md).
 
-![](assets/pulse-section-350x141.png)
+![Pulse section](assets/pulse-section-350x141.png)
 
 Use the Pulse section to do the following:
 
@@ -149,7 +149,7 @@ You can use the Check-in section to update active goals and any results and acti
 
 For information about managing goals in the Goal List, see [Manage goals in the Goal List of Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
 
-![](assets/check-in-section-350x143.png)
+![Check in section](assets/check-in-section-350x143.png)
 
 Use the Check-in section to do the following:
 

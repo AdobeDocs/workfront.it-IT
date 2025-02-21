@@ -6,9 +6,9 @@ description: Dopo aver collegato progetti e iniziative, puoi gestirne l’alloca
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Se la società ha acquistato una licenza di [!DNL Workfront Scenario Planner], �
 
 1. Vai al progetto in cui desideri rivedere l’allocazione delle mansioni per il progetto e per l’iniziativa associata.
 1. Fai clic su **[!UICONTROL Attività]** nel pannello a sinistra.
-1. Fai clic sull&#39;icona ![](assets/show-role-allocation-icon.png) **[!UICONTROL Mostra allocazione ruoli]** nell&#39;angolo superiore destro della barra degli strumenti.
+1. Fai clic sull&#39;icona **[!UICONTROL Mostra allocazione ruoli]** ![Mostra allocazione ruoli](assets/show-role-allocation-icon.png) nell&#39;angolo superiore destro della barra degli strumenti.
 
    Viene visualizzato il pannello [!UICONTROL Allocazione ruoli].
 

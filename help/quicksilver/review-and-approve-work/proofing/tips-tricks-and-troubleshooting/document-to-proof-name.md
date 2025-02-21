@@ -6,9 +6,9 @@ title: Il nome del documento è stato modificato dopo il caricamento e contiene 
 description: Alcuni documenti non possono essere convertiti in bozze.
 author: Courtney
 exl-id: 7771deb5-cf9f-4a32-a444-b701bec1619e
-source-git-commit: 3e16f69f5b3c2b37093b00841945e6529394fa94
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,6 @@ Rimuovi il carattere non valido dal nome del documento:
 
    Caratteri non validi: `! # % * \ | ' " / ? < > { } [ ]`
 
-   ![](assets/doc-name.png)
+   ![Nome documento](assets/doc-name.png)
 
 1. Aggiorna la pagina e genera la bozza.

@@ -6,9 +6,9 @@ description: È possibile rimuovere l’allineamento tra due obiettivi se non ha
 author: Alina
 feature: Workfront Goals
 exl-id: a6196356-ca11-4759-9cff-64850a60208e
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '456'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ Devi avere i seguenti:
  <p> Nuovo requisito del prodotto, uno dei seguenti: </p>
 <ul>
 <li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
-<li>Un piano Workfront Ultimate che include gli obiettivi Workfront per impostazione predefinita. </li></ul>
+<li>Un piano Workfront di Ultimate che include gli obiettivi di Workfront per impostazione predefinita. </li></ul>
  <p>Oppure</p>
  <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
  </tr>
@@ -101,9 +101,9 @@ Removing goal alignment differs depending on which environment you use.
 
 1. Go to a child goal aligned to a parent goal. 
 1. Click the goal name to open the **Goal Details** panel. 
-1. Click the **gear icon** ![](assets/gear-icon-settings.png) next to the parent goal, then click **Remove alignment**.
+1. Click the **gear icon** ![Gear icon](assets/gear-icon-settings.png) next to the parent goal, then click **Remove alignment**.
 
-   ![](assets/edit-remove-alignment-350x88.png)
+   ![Reove alignment](assets/edit-remove-alignment-350x88.png)
 
    The goal becomes a standalone goal and its progress no longer influences the progress of the original parent goal. 
 
@@ -117,9 +117,9 @@ Removing goal alignment differs depending on which environment you use.
 1. Accedi all&#39;area **Obiettivi** in Workfront e fai clic sul nome di un obiettivo per aprirne la pagina.
 1. Dalla pagina dell&#39;obiettivo di un obiettivo principale, fai clic su **Indicatori di avanzamento** nel pannello a sinistra.
 
-   ![](assets/remove-goal-alignment-from-list-unshimmed.png)
+   ![Rimuovi allineamento obiettivo](assets/remove-goal-alignment-from-list-unshimmed.png)
 
-1. Nel raggruppamento **Tipo: Obiettivo**, seleziona un obiettivo, quindi fai clic sull&#39;icona **Disconnetti** ![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) nella parte superiore dell&#39;elenco.
+1. Nel raggruppamento **Tipo: Obiettivo**, seleziona un obiettivo, quindi fai clic sull&#39;icona **Disconnetti** ![Icona Disconnetti](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) nella parte superiore dell&#39;elenco.
 
    Viene visualizzata la casella Disconnetti.
 

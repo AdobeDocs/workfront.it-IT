@@ -6,9 +6,9 @@ description: Puoi utilizzare le azioni per tenere traccia di ciò che deve accad
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d1ee871c-ef61-44ca-8287-1093c5e5cb97
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '441'
 ht-degree: 2%
 
 ---
@@ -67,7 +67,7 @@ Per applicare un&#39;azione a un commento esistente nel visualizzatore di bozze:
 
    * Fai clic sull’icona del contrassegno nell’angolo inferiore destro del commento, quindi fai clic sull’azione desiderata nel menu a discesa.
 
-     ![](assets/actions-flag-icon-350x198.png)
+     ![Icona del flag Azioni](assets/actions-flag-icon-350x198.png)
 
    * Fai clic sull&#39;icona **Altro** (tre punti orizzontali sul commento), quindi fai clic sull&#39;azione desiderata nella sezione inferiore del menu a discesa visualizzato.
 

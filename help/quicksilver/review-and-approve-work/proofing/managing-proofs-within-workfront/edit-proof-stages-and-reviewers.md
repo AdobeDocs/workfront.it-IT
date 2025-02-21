@@ -6,9 +6,9 @@ description: Scopri come modificare le fasi della bozza e i revisori.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 91549c2d-d7b1-461c-a3c4-ad0032acfb23
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '629'
 ht-degree: 1%
 
 ---
@@ -98,7 +98,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 ## Modifica dettagli revisore
 
 1. In Workfront, passa il puntatore del mouse sulla bozza, quindi fai clic su **Dettagli bozza** per aprire la pagina Dettagli bozza.
-1. Nella sezione **Flusso di lavoro**, fai clic sul menu **Altro** ![](assets/more-button-small.png) a destra del nome del revisore, quindi fai clic su **Modifica** nel menu a discesa visualizzato.
+1. Nella sezione **Flusso di lavoro**, fai clic sul menu **Altro** ![Altro menu](assets/more-button-small.png) a destra del nome del revisore, quindi fai clic su **Modifica** nel menu a discesa visualizzato.
 
 1. Nella casella **Modifica revisore** visualizzata, modificare uno dei dettagli seguenti:
 

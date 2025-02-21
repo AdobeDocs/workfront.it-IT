@@ -6,9 +6,9 @@ description: Quando utilizzi Adobe Workfront Scenario Planner, puoi creare inizi
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1637'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ Per creare iniziative da zero:
 1. (Facoltativo) Trascina la fine della barra dell’iniziativa per estenderne la durata a più di un mese e rilasciala nel punto in cui desideri che si trovi la fine del mese dell’iniziativa.
 1. (Facoltativo e condizionale) Se la durata dell&#39;iniziativa è inferiore a quella del piano, trascinare e rilasciare la barra dell&#39;iniziativa in una posizione diversa sulla cronologia del piano, per spostarla in un altro intervallo di tempo.
 
-   ![](assets/move-initiative-back-and-forth-on-the-timeline-350x71.png)
+   ![Sposta iniziativa sulla timeline](assets/move-initiative-back-and-forth-on-the-timeline-350x71.png)
 
    >[!IMPORTANT]
    >
@@ -120,7 +120,7 @@ Per creare iniziative da zero:
 1. (Facoltativo) Scorri da sinistra a destra per visualizzare l’intera durata dell’iniziativa.
 1. (Facoltativo) Fai clic sulla riga dell&#39;indicatore **[!UICONTROL Oggi]** per tornare alla data corrente.
 
-   ![](assets/today-indicator-350x160.png)
+   ![Indicatore oggi](assets/today-indicator-350x160.png)
 
    >[!TIP]
    >
@@ -128,7 +128,7 @@ Per creare iniziative da zero:
 
 1. Fai clic sulla barra di un’iniziativa. Il pannello dei dettagli dell’iniziativa si apre a destra.
 
-   ![](assets/initiative-details-panel-multiple-months-350x626.png)
+   ![Pannello dettagli iniziativa](assets/initiative-details-panel-multiple-months-350x626.png)
 
    Specifica o controlla le seguenti informazioni:
 
@@ -196,7 +196,7 @@ Per creare iniziative da zero:
    >
    >Se hai già definito il numero di mansioni e il budget per il tuo piano, nonché il numero di mansioni e i costi dell&#39;iniziativa che stai modificando e di tutte le iniziative al di sopra di essa e tutti superano gli importi specificati per il piano, [!DNL Workfront] potrebbe scoprire che non hai abbastanza risorse per completare l&#39;iniziativa. [!DNL Workfront] contrassegna l&#39;iniziativa come conflitto quando tenta di ottenerla e la visualizza come barra rossa. Tutte le iniziative che seguono l&#39;iniziativa in conflitto vengono visualizzate in rosso. Potrebbe essere necessario adeguare alcune delle esigenze delle iniziative, a partire dalla prima con risorse insufficienti. Per informazioni sulla regolazione delle iniziative in conflitto, vedere [Risolvere i conflitti tra iniziative in  [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).
 
-1. (Facoltativo) Passa il puntatore del mouse sul nome di una mansione, quindi fai clic sull&#39;icona **[!UICONTROL cestino]** ![](assets/delete.png) per rimuoverlo dall&#39;iniziativa.
+1. (Facoltativo) Passa il puntatore del mouse sul nome di una mansione, quindi fai clic sull&#39;icona **[!UICONTROL cestino]** ![icona Elimina](assets/delete.png) per rimuoverla dall&#39;iniziativa.
 
 1. (Condizionale) Se hai apportato modifiche all&#39;iniziativa, fai clic su **[!UICONTROL Applica]**.
 

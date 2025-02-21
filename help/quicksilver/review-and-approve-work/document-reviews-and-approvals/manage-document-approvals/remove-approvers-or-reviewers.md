@@ -6,9 +6,9 @@ description: È possibile rimuovere singoli approvatori o revisori da un documen
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
-source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Accesso a progetti, attività, problemi, modelli, Portfoli, programmi, report, dashboard e calendari, documenti o versioni successive</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Accesso di visualizzazione o superiore a progetti, attività, problemi, modelli, portafogli, programmi, report, dashboard e calendari, documenti</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
@@ -60,7 +60,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Seleziona **Approvazioni** nel riquadro a sinistra.
 
-1. Passa il puntatore del mouse sul nome dell&#39;approvatore o del revisore che desideri rimuovere, quindi fai clic sull&#39;icona **Elimina** ![](../assets/delete.png) che viene visualizzata dopo il nome.
+1. Passa il puntatore del mouse sul nome dell&#39;approvatore o del revisore che desideri rimuovere, quindi fai clic sull&#39;icona **Elimina** ![Elimina](../assets/delete.png) che compare dopo il nome.
 
    La richiesta di approvazione o di revisione viene rimossa e l&#39;approvatore riceve una notifica che indica che la sua approvazione non è più necessaria. Viene rimosso anche l’accesso condiviso relativo all’approvazione.
 
@@ -76,7 +76,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Selezionare la versione del documento per la quale si desidera rimuovere un approvatore o un revisore nel menu a discesa della versione. Per impostazione predefinita, viene selezionata la versione più recente.
 
-1. Scorri verso il basso fino alla sezione **Approvazioni** nel riquadro Riepilogo documento. Passa il puntatore del mouse sul nome dell&#39;approvatore o del revisore che desideri rimuovere, quindi fai clic sull&#39;icona **Elimina** ![](../assets/delete.png) che viene visualizzata dopo il nome.
+1. Scorri verso il basso fino alla sezione **Approvazioni** nel riquadro Riepilogo documento. Passa il puntatore del mouse sul nome dell&#39;approvatore o del revisore che desideri rimuovere, quindi fai clic sull&#39;icona **Elimina** ![Elimina](../assets/delete.png) che compare dopo il nome.
 
    La richiesta di approvazione o di revisione viene rimossa e l&#39;approvatore riceve una notifica che indica che la sua approvazione non è più necessaria. Viene rimosso anche l’accesso condiviso relativo all’approvazione.
 

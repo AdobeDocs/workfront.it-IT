@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents
 exl-id: 360d0f4a-a78c-4c17-b4a1-6d4b811f7bb6
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '363'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. In un elenco di documenti, passa il cursore del mouse sulla riga contenente la bozza, quindi fai clic su **Dettagli documento**.
 1. Nella parte superiore della pagina Dettagli documento fare clic sul menu a discesa accanto al nome, quindi sul nome della versione che si desidera visualizzare e gestire.
 
-   ![](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   ![Elenco a discesa versione](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    Oltre a visualizzare i dettagli della versione, è possibile modificarne il nome, i metadati e le impostazioni di correzione (se si tratta di una bozza di documento).
 

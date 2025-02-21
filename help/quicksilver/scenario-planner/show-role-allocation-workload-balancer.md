@@ -6,9 +6,9 @@ description: Dopo aver collegato progetti e iniziative, puoi gestirne l’alloca
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '816'
 ht-degree: 1%
 
 ---
@@ -87,12 +87,12 @@ Se la società ha acquistato una licenza [!DNL Workfront Scenario Planner], è p
 
 1. Esegui una delle operazioni seguenti:
 
-   * Fai clic su **[!UICONTROL Mese]** per visualizzare il Bilanciatore dei carichi di lavoro per mese, fai clic sul menu a discesa accanto a un mese nella timeline ![](assets/drop-down-next-to-month-month-view-wb.png), quindi fai clic su **[!UICONTROL Altro]**.
-   * Fai clic sull&#39;icona ![](assets/show-role-allocation-icon.png) **[!UICONTROL Mostra allocazione ruoli]** nell&#39;angolo superiore destro della barra degli strumenti.
+   * Fai clic su **[!UICONTROL Mese]** per visualizzare il Bilanciatore dei carichi di lavoro per mese, fai clic sul menu a discesa accanto a un mese nella timeline ![A discesa accanto al mese](assets/drop-down-next-to-month-month-view-wb.png), quindi fai clic su **[!UICONTROL Altro]**.
+   * Fai clic sull&#39;icona **[!UICONTROL Mostra allocazione ruoli]** ![Mostra allocazione ruoli](assets/show-role-allocation-icon.png) nell&#39;angolo superiore destro della barra degli strumenti.
 
    Viene visualizzato il pannello [!UICONTROL Allocazione ruoli].
 
-   ![](assets/role-allocation-panel-months-collapsed-350x319.png)
+   ![Pannello allocazione ruoli](assets/role-allocation-panel-months-collapsed-350x319.png)
 
    >[!CAUTION]
    >
@@ -162,7 +162,7 @@ Se la società ha acquistato una licenza [!DNL Workfront Scenario Planner], è p
 
 1. (Facoltativo) Fai clic sull&#39;icona a discesa per espandere uno dei mesi nel pannello [!UICONTROL Allocazione ruoli] o nella timeline del [!UICONTROL Bilanciatore dei carichi di lavoro].
 
-   ![](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
+   ![Espandi mese nel pannello di allocazione ruoli](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
 
    Lo stesso tipo di informazioni visualizzate nell&#39;area [!UICONTROL Totali progetto] viene visualizzato anche per ogni mese.
 

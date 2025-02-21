@@ -7,9 +7,9 @@ description: Le attività misurano l’avanzamento di un obiettivo. Senza risult
 author: Alina
 feature: Workfront Goals
 exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '455'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ Devi avere i seguenti:
  <p> Nuovo requisito del prodotto, uno dei seguenti: </p>
 <ul>
 <li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
-<li>Un piano Workfront Ultimate che include gli obiettivi Workfront per impostazione predefinita. </li></ul>
+<li>Un piano Workfront di Ultimate che include gli obiettivi di Workfront per impostazione predefinita. </li></ul>
  <p>Oppure</p>
  <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
  </tr>
@@ -101,7 +101,7 @@ Adding activities to goals differs depending on which environment you use.
 1. Go to the goal for which you want to add an activity and click the name to open the **Goal Details** panel.
 1. Click **Add activities**.
 
-   ![](assets/add-activity-inside-goal-details-highlighted-350x152.png)
+   ![Add activity inside goal](assets/add-activity-inside-goal-details-highlighted-350x152.png)
 
 1. From the **Activity Type** drop-down menu, select the type of activity you want to associate with your goal.&nbsp;Select **Manual progress bar** or **Project**. Manual progress bar is the default selection. 
 1. (Conditional) Depending on which activity type you selected, do the following:
@@ -144,14 +144,14 @@ Adding activities to goals differs depending on which environment you use.
 -->
 
 
-1. Fai clic sul **menu principale** ![](assets/main-menu-icon.png), quindi su **Obiettivi**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu](assets/main-menu-icon.png), quindi su **Goals**.
 1. Dall’elenco Obiettivo, fai clic sul nome di un obiettivo per aprirne la pagina.
 1. Fai clic su **Indicatori di avanzamento** nel pannello a sinistra.
 1. Dal menu a discesa Nuovo indicatore di avanzamento, fare clic su **Crea attività**.
 
    Viene visualizzata la casella Nuova attività (New activity).
 
-   ![](assets/new-activity-box-unshimmed.png)
+   ![Nuova casella attività](assets/new-activity-box-unshimmed.png)
 
 1. Immetti un nome per l’attività nel campo Nome attività. Questo è un campo obbligatorio.
 1. (Facoltativo) Rimuovi il tuo nome dal campo **Proprietario attività** se desideri assegnare l&#39;attività a un altro utente. Per impostazione predefinita, sei il proprietario di un’attività creata.

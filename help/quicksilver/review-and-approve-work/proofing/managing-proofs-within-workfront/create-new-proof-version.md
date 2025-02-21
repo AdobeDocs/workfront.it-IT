@@ -6,9 +6,9 @@ description: Gestire il feedback tra più versioni o revisioni di un lavoro può
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1734'
+source-wordcount: '1737'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Per creare una nuova versione di una bozza:
 
    Seleziona la riga in cui è elencata la bozza, fai clic su **Aggiungi nuovo** > **Versione**, quindi fai clic sull&#39;opzione che desideri utilizzare per aggiungere la nuova versione della bozza.
 
-   ![](assets/add-new-version-350x185.png)
+   ![Aggiungi nuova versione](assets/add-new-version-350x185.png)
 
 ## Creare una nuova versione di una bozza dal visualizzatore di bozze (solo Workfront Proof)
 

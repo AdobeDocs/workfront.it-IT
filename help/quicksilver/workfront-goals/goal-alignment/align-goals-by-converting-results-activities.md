@@ -6,10 +6,10 @@ description: Puoi allineare manualmente due obiettivi oppure convertire i risult
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 16%
+source-wordcount: '649'
+ht-degree: 15%
 
 ---
 
@@ -47,7 +47,7 @@ Per informazioni sull&#39;allineamento manuale di due obiettivi, vedere [Allinea
  <p> Nuovo requisito del prodotto, uno dei seguenti: </p>
 <ul>
 <li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
-<li>Un piano Workfront Ultimate che include gli obiettivi Workfront per impostazione predefinita. </li></ul>
+<li>Un piano Workfront di Ultimate che include gli obiettivi di Workfront per impostazione predefinita. </li></ul>
  <p>Oppure</p>
  <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
  </tr>
@@ -109,9 +109,9 @@ Quando converti risultati e attività in obiettivi, tieni presente quanto segue:
 1. Click the name of the goal to open the **Goal Details** panel.
 1. Expand the **Results** or **Activities** right-pointing arrows to see a list of results or activities for the goal. 
 
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the result or activity name that you want to convert, then click **Convert into a Goal**.
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the result or activity name that you want to convert, then click **Convert into a Goal**.
 
-   ![](assets/convert-to-goal-link-highlighted-350x191.png)
+   ![Convert to goal](assets/convert-to-goal-link-highlighted-350x191.png)
 
 1. (Optional) Remove the name of the original activity or result owner from the **Goal Owner** field and replace it with another user, team, group, or your organization's name. By default, Workfront selects the owner of the result or the activity as the goal owner. 
 1. Click **Convert**. The activity or result displays as an aligned goal in the Goal Details panel of the original goal and the original activity or result is removed from the original goal and transferred to the second goal. By default, the new goal has the same name as the original converted result or activity. 
@@ -120,9 +120,9 @@ Quando converti risultati e attività in obiettivi, tieni presente quanto segue:
 
 1. Vai a un obiettivo che ha un risultato o un&#39;attività che desideri convertire in un obiettivo.
 1. Dalla pagina dell&#39;obiettivo, fai clic su **Indicatori di avanzamento** nel pannello a sinistra.
-1. Seleziona un risultato o un&#39;attività nell&#39;elenco degli indicatori di avanzamento, quindi fai clic sull&#39;icona **Converti in obiettivo** ![](assets/convert-to-goal-icon-unshimmed.png) nella parte superiore dell&#39;elenco degli indicatori di avanzamento. Viene visualizzata la casella Converti in obiettivo (Convert to goal).
+1. Seleziona un risultato o un&#39;attività nell&#39;elenco degli indicatori di avanzamento, quindi fai clic sull&#39;icona **Converti in obiettivo** ![Converti in obiettivo](assets/convert-to-goal-icon-unshimmed.png) nella parte superiore dell&#39;elenco degli indicatori di avanzamento. Viene visualizzata la casella Converti in obiettivo (Convert to goal).
 
-   ![](assets/convert-to-goal-box-unshimmed.png)
+   ![Converti in casella obiettivo](assets/convert-to-goal-box-unshimmed.png)
 1. Aggiorna le seguenti informazioni:
    * **Nome obiettivo**: per impostazione predefinita, il nuovo obiettivo ha lo stesso nome del risultato o dell&#39;attività originale.
    * **Periodo**: per impostazione predefinita, il periodo del nuovo obiettivo è il trimestre corrente. È possibile selezionare l&#39;impostazione **Abilita date personalizzate** per definire un periodo di tempo personalizzato per il nuovo obiettivo.

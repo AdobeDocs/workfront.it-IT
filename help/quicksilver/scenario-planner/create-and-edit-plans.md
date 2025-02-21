@@ -6,9 +6,9 @@ description: È possibile creare piani utilizzando Workfront Scenario Planner qu
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2434'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Per creare o modificare un piano:
 
 Un elenco dei piani esistenti creati viene visualizzato in [!DNL Workfront Scenario Planner].
 
-1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Filtro]** ![](assets/filter-icon-34x37.png)nell&#39;angolo superiore destro dell&#39;elenco dei piani e seleziona una delle opzioni seguenti:
+1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Filtro]** ![Icona Filtro](assets/filter-icon-34x37.png)nell&#39;angolo superiore destro dell&#39;elenco dei piani e seleziona una delle seguenti opzioni:
 
    | Filtro | Descrizione |
    |---|---|
@@ -97,9 +97,9 @@ Un elenco dei piani esistenti creati viene visualizzato in [!DNL Workfront Scena
    | [!UICONTROL I miei piani] | Visualizza i piani creati. |
    | [!UICONTROL Condiviso con me] | Visualizza i piani condivisi con l&#39;utente. |
 
-   ![](assets/plans-filters-dropdown-options-scenario-planer.png)
+   ![Pianifica le opzioni del menu a discesa dei filtri](assets/plans-filters-dropdown-options-scenario-planer.png)
 
-1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Ricerca]** ![](assets/search-icon.png) per digitare una parola chiave e individuare rapidamente un piano nell&#39;elenco.
+1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Ricerca]** ![Icona Ricerca](assets/search-icon.png) per digitare una parola chiave e individuare rapidamente un piano nell&#39;elenco.
 
 1. Fare clic sul nome di un piano esistente per modificarlo e continuare con il passaggio 7.
 
@@ -115,11 +115,11 @@ Un elenco dei piani esistenti creati viene visualizzato in [!DNL Workfront Scena
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate)</p>
    -->
 
-   ![](assets/new-plan-button.png)
+   ![Pulsante Nuovo piano](assets/new-plan-button.png)
 
    Viene visualizzata la casella [!UICONTROL Nuovo piano].
 
-   ![](assets/new-plan-ui-adding-a-new-plan-350x306.png)
+   ![Nuova finestra del piano](assets/new-plan-ui-adding-a-new-plan-350x306.png)
 
 1. (Condizionale) Quando si crea un nuovo piano, specificare le informazioni seguenti:
 
@@ -172,7 +172,7 @@ Un elenco dei piani esistenti creati viene visualizzato in [!DNL Workfront Scena
 
 1. (Facoltativo) Dal menu a discesa della timeline, selezionate una delle opzioni della tabella seguente per modificare la modalità di visualizzazione della timeline del piano.
 
-   ![](assets/month-dropdown-with-all-options.png)
+   ![Menu a discesa Mese](assets/month-dropdown-with-all-options.png)
 
    | Opzione menu a discesa | Descrizione |
    |---|---|
@@ -183,7 +183,7 @@ Un elenco dei piani esistenti creati viene visualizzato in [!DNL Workfront Scena
 1. (Facoltativo) Scorri da sinistra a destra per visualizzare l’intera durata del piano.
 1. (Facoltativo) Fai clic sulla riga dell&#39;indicatore **[!UICONTROL Oggi]** per tornare al giorno corrente.
 
-   ![](assets/today-indicator-350x160.png)
+   ![Indicatore oggi](assets/today-indicator-350x160.png)
 
 1. Fare clic sulla casella **[!UICONTROL Ruoli]** nell&#39;intestazione del piano per aggiungere i ruoli disponibili per l&#39;esecuzione del piano.
 
@@ -193,7 +193,7 @@ Un elenco dei piani esistenti creati viene visualizzato in [!DNL Workfront Scena
    >
    >L&#39;unità di allocazione dei ruoli (FTE o ore) utilizzata da [!DNL Workfront] per questo piano viene visualizzata tra parentesi nel titolo della casella.
 
-   ![](assets/adding-people-to-plan-350x206.png)
+   ![Aggiunta di persone al piano](assets/adding-people-to-plan-350x206.png)
 
 1. Fare clic sul campo **[!UICONTROL Inizia a digitare la mansione]** e selezionare una mansione dall&#39;elenco oppure iniziare a digitare il nome di una mansione attiva.
 
@@ -239,12 +239,12 @@ Un elenco dei piani esistenti creati viene visualizzato in [!DNL Workfront Scena
     </tbody> 
    </table>
 
-1. (Facoltativo) Passa il puntatore del mouse sul nome di una mansione o fai clic sulla scheda dopo aver aggiornato le informazioni sul ruolo, quindi fai clic sull&#39;icona **[!UICONTROL cestino]** ![](assets/delete.png) per rimuoverlo dal piano.
+1. (Facoltativo) Passa il puntatore del mouse sul nome di una mansione o fai clic sulla scheda dopo aver aggiornato le informazioni sul ruolo, quindi fai clic sull&#39;icona **[!UICONTROL cestino]** ![icona Elimina](assets/delete.png) per rimuoverlo dal piano.
 1. Fare clic su **[!UICONTROL Distribuzione mansioni]**.
 
    Il pannello Distribuzione mansione viene visualizzato per tutti i mesi della durata dello scenario.
 
-   ![](assets/job-role-monthly-distribution-box-fte-350x144.png)
+   ![Distribuzione mensile mansioni](assets/job-role-monthly-distribution-box-fte-350x144.png)
 
 1. Digitare il nome di una mansione per aggiungerla al piano nel campo **[!UICONTROL Inizia a digitare la mansione]**, quindi fare clic su Invio quando viene visualizzato nell&#39;elenco. Questa operazione aggiunge la mansione alla colonna [!UICONTROL Ruoli].
 1. Aggiorna o controlla le seguenti informazioni per ogni mese dello scenario:
@@ -334,13 +334,13 @@ Un elenco dei piani esistenti creati viene visualizzato in [!DNL Workfront Scena
 
 1. Fai clic su **[!UICONTROL Avanzate]** per visualizzare la distribuzione del budget mensile. I bilanci annuali e mensili sono sempre numeri arrotondati. Quando l&#39;importo del budget non può essere distribuito equamente a tutti i mesi entro un anno a causa di decimali, viene visualizzato un indicatore **[!UICONTROL Rimanente]** sotto la distribuzione del budget annuale.
 
-   ![](assets/adanced-and-remaining-links-on-plan-budget-350x507.png)
+   ![Collegamenti avanzati e rimanenti](assets/adanced-and-remaining-links-on-plan-budget-350x507.png)
 
 1. Adeguare manualmente i budget mensili per eliminare gli importi in eccesso.
 
    Quando il totale di tutti gli importi di budget mensili è maggiore del budget annuale, viene visualizzato un indicatore di avvertenza **[!UICONTROL Eccedente]** nella distribuzione del budget annuale. Adeguare manualmente gli importi di budget mensili finché non sono uguali o inferiori al budget disponibile per il piano.
 
-   ![](assets/exceeding-budget-warning-on-plan-350x483.png)
+   ![Avviso di superamento del budget](assets/exceeding-budget-warning-on-plan-350x483.png)
 
 1. Disattiva l&#39;impostazione **[!UICONTROL Includi costi persone]** per escludere i costi associati alle mansioni dal conteggio del costo complessivo del piano. I costi fissi vengono sempre conteggiati nel costo complessivo del piano. Questa impostazione è attivata per impostazione predefinita e influisce su tutti gli scenari del piano.
 1. Fare clic in un punto qualsiasi all&#39;esterno della casella [!UICONTROL Financial] per chiuderla. Le informazioni immesse vengono salvate automaticamente.
@@ -360,6 +360,6 @@ Un elenco dei piani esistenti creati viene visualizzato in [!DNL Workfront Scena
 
    Il piano viene creato o aggiornato.
 
-1. (Facoltativo) Fare clic sull&#39;icona **[!UICONTROL Preferiti]** ![](assets/favorites-icon-small.png) a destra del nome del piano per aggiungere il piano all&#39;elenco dei preferiti.
+1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Preferiti]** ![Preferiti](assets/favorites-icon-small.png) a destra del nome del piano per aggiungere il piano all&#39;elenco dei preferiti.
 
 1. (Facoltativo) Copiare l&#39;URL del piano e inviarlo a qualsiasi altro utente che potrebbe avere bisogno di rivederlo o aggiornarlo. Per poter visualizzare il piano, devono disporre di almeno l&#39;accesso [!UICONTROL Visualizzazione] nel proprio livello di accesso. Devono avere l&#39;accesso [!UICONTROL Modifica] per modificarlo. Se devono esaminare le informazioni finanziarie sul piano, ad esempio le informazioni su budget, costi e tassi di ruolo, devono avere accesso anche a [!UICONTROL Dati finanziari] nel proprio livello di accesso. Per informazioni sull&#39;accesso necessario per [!DNL Scenario Planner], vedere [Accesso necessario per utilizzare  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).

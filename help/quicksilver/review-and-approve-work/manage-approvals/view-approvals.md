@@ -6,9 +6,9 @@ description: I processi di approvazione offrono la flessibilità necessaria per 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: b0b83e8a8a2a076ec20691183605e3d25d10129d
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Puoi visualizzare o gestire le approvazioni dalle seguenti aree:
 
 ## Rivedi il lavoro che invii per l&#39;approvazione nell&#39;area Home {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
 1. (Condizionale) Fai clic su **Personalizza** per aggiungere il widget **Le mie approvazioni**.
 1. (Condizionale) Fai clic sul menu a discesa **Filtro**, quindi seleziona **Approvazioni inviate** per visualizzare le approvazioni inviate.
 
@@ -133,6 +133,6 @@ Per visualizzare lo stato corrente di un&#39;attività o di un problema nel proc
 
    Nella scheda Approvazioni vengono visualizzate tutte le informazioni su tutti i percorsi e le fasi di approvazione passati. Puoi vedere esattamente chi ha preso una decisione sull’approvazione o se l’approvazione è impostata per un team, una mansione o un utente.
 
-   ![](assets/approvals-tab-expanded-on-issue-nwe-350x320.png)
+   ![Scheda Approvazioni espansa](assets/approvals-tab-expanded-on-issue-nwe-350x320.png)
 
    Per informazioni sulla creazione di un processo di approvazione, vedere [Creare un processo di approvazione per gli elementi di lavoro](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).

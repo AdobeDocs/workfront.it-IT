@@ -6,9 +6,9 @@ description: Con un flusso di lavoro di base, è possibile inviare più revisori
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1858'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Nella sezione Tipo di flusso di lavoro scegliere **Base**.
 1. Specifica gli utenti da aggiungere, quindi scegli un ruolo Bozza.
 
-   ![](assets/new-proof---roles-350x213.png)
+   ![Nuovi ruoli bozza](assets/new-proof---roles-350x213.png)
 
 1. Nella tabella seguente sono elencati tutti i ruoli e i diritti ad essi associati.
 
@@ -193,7 +193,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       <td> <p><strong>Moderatore</strong> </p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>✓</p> </td> 
-      <td> <p>✓ <strong></strong> </p> </td> 
+      <td> <p><strong>✓</strong> </p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>✓</p> <p> </p> </td> 
@@ -347,6 +347,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Dopo aver generato la bozza, fare clic su **Apri bozza** per avviare il visualizzatore di bozze.
 
-   ![](assets/open-proof-350x132.png)
+   ![Apri bozza](assets/open-proof-350x132.png)
 
    Gli utenti che non dispongono di un account di verifica abilitato possono comunque visualizzare il documento e aggiungere commenti alla bozza.

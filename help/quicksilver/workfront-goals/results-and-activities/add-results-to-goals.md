@@ -7,9 +7,9 @@ description: I risultati misurano l’avanzamento di un obiettivo. Senza associa
 author: Alina
 feature: Workfront Goals
 exl-id: 30e22482-22e2-432d-bb73-7f9a9160aba2
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '593'
 ht-degree: 3%
 
 ---
@@ -52,7 +52,7 @@ Devi avere i seguenti:
  <p> Nuovo requisito del prodotto, uno dei seguenti: </p>
 <ul>
 <li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
-<li>Un piano Workfront Ultimate che include gli obiettivi Workfront per impostazione predefinita. </li></ul>
+<li>Un piano Workfront di Ultimate che include gli obiettivi di Workfront per impostazione predefinita. </li></ul>
  <p>Oppure</p>
  <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
  </tr>
@@ -102,7 +102,7 @@ Adding results to goals differs depending on which environment you use.
 1. Go to the goal for which you want to add a result and click the name to open the **Goal Details** panel.
 1. Click **Add results**.
 
-   ![](assets/add-result-inside-goal-details-highlighted-350x145.png)
+   ![Add result inside goal](assets/add-result-inside-goal-details-highlighted-350x145.png)
 
 1. Start typing the result you want to achieve in the **Result** field. This is the name of the result and it displays wherever the goal displays. 
 1. (Optional) If you want to set the Result Owner as someone other than yourself, click your name in the **Owner** field and start typing the name of the user that you want to assign as the owner of the result, then click it when it appears in the drop-down list.
@@ -113,7 +113,7 @@ Adding results to goals differs depending on which environment you use.
 
 1. In the Value drop-down menu, select the type of value that you want to measure your success by.
 
-   ![](assets/results-value-initial-target-boxes-350x49.png)
+   ![Results value](assets/results-value-initial-target-boxes-350x49.png)
 
    Select from the following options:
 
@@ -137,7 +137,7 @@ Adding results to goals differs depending on which environment you use.
 
 -->
 
-1. Fai clic sul menu principale ![](assets/main-menu-icon.png), quindi su **Obiettivi**.
+1. Fai clic sull&#39;icona del menu principale ![Main Menu](assets/main-menu-icon.png), quindi su **Goals**.
 
 1. Dalla **lista obiettivi**, fare clic sul nome di un obiettivo per aprire la pagina obiettivo.
 1. Fai clic su **Indicatori di avanzamento** nel pannello a sinistra.
@@ -145,7 +145,7 @@ Adding results to goals differs depending on which environment you use.
 
    Viene visualizzata la casella Nuovo risultato (New result).
 
-   ![](assets/new-result-box-unshimmed.png)
+   ![Nuova casella dei risultati](assets/new-result-box-unshimmed.png)
 
 1. Immettere un nome per il risultato nel campo **Nome risultato**. Questo è un campo obbligatorio.
 1. (Facoltativo) Rimuovi il tuo nome dal campo **Proprietario risultato** se desideri assegnare il risultato a un altro utente. Per impostazione predefinita, sei il proprietario di un’attività creata.

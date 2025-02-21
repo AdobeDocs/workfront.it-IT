@@ -6,9 +6,9 @@ description: La delega delle richieste di approvazione ti consente di assegnare 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 69c1e99b996025615e96a84bc8e91cbe2ae6ee48
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ Quando deleghi le approvazioni, tieni presente quanto segue:
 
 Per delegare le approvazioni a un altro utente:
 
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
 1. (Condizionale) Fai clic su **Personalizza** per aggiungere il widget **Le mie approvazioni**.
 1. Vai al widget Le mie approvazioni, quindi fai clic su **Delega le mie approvazioni**.
 
@@ -112,7 +112,7 @@ Per delegare le approvazioni a un altro utente:
    >
    >Gli amministratori di Workfront possono disattivare le deleghe di approvazione dall’area di configurazione. Se le deleghe di approvazione sono disattivate, il pulsante Delega approvazioni non viene visualizzato.
 
-   ![](assets/delegate-approvals-home.png)
+   ![Delega le approvazioni in home](assets/delegate-approvals-home.png)
 
 1. Specifica le seguenti informazioni nella sezione Delegate My Approvals (Delega le mie approvazioni):
 
@@ -144,11 +144,11 @@ Per delegare le approvazioni a un altro utente:
 
 ## Aggiornare o interrompere una delega di approvazione {#update-or-stop-an-approval-delegation}
 
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
 1. (Condizionale) Fai clic su **Personalizza** per aggiungere il widget **Le mie approvazioni**.
 
 1. Vai al widget Le mie approvazioni, quindi fai clic su **Modifica delega**.
-   ![](assets/edit-delegations.png)
+   ![Modifica deleghe](assets/edit-delegations.png)
 <!--
    Or
 
@@ -170,7 +170,7 @@ Nel widget Approvazioni personali è possibile visualizzare solo i seguenti tipi
 
 Per visualizzare le approvazioni delegate:
 
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
 1. (Condizionale) Fai clic su **Personalizza** per aggiungere il widget **Le mie approvazioni**.
 1. Nel widget **Le mie approvazioni**, fai clic sul menu a discesa **Filtra**, quindi fai clic su **Approvazioni delegate**.\
    Tutte le approvazioni delegate all&#39;utente vengono visualizzate nell&#39;elenco.

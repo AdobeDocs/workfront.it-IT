@@ -6,9 +6,9 @@ description: Puoi cercare, filtrare e ordinare i commenti della bozza per naviga
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03edaa7e-08c3-4ab1-83ab-747694cf1c17
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ Quando si ordina l&#39;elenco dei commenti, l&#39;opzione di ordinamento scelta 
 1. Se l&#39;area commenti non è aperta, fare clic su **Visualizza commenti** nell&#39;angolo superiore destro.
 
 1. Fare clic sul menu di ordinamento per aprirlo.
-1. ![](assets/mceclip3.png)
+1. ![Menu ordinamento](assets/mceclip3.png)
 
 1. Selezionare una delle opzioni di ordinamento seguenti:
 

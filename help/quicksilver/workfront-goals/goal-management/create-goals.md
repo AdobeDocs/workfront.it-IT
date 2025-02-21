@@ -6,9 +6,9 @@ description: Che tu sia un amministratore delegato, un manager o un collaborator
 author: Alina
 feature: Workfront Goals
 exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '717'
 ht-degree: 5%
 
 ---
@@ -51,7 +51,7 @@ Devi avere i seguenti:
  <p> Nuovo requisito del prodotto, uno dei seguenti: </p>
 <ul>
 <li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
-<li>Un piano Workfront Ultimate che include gli obiettivi Workfront per impostazione predefinita. </li></ul>
+<li>Un piano Workfront di Ultimate che include gli obiettivi di Workfront per impostazione predefinita. </li></ul>
  <p>Oppure</p>
  <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
  </tr>
@@ -99,7 +99,7 @@ Creating goals differs depending on what environment you use.
 #### Create a goal from scratch in the Production environment 
 
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper right corner, then click **Goals**.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper right corner, then click **Goals**.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -)
@@ -108,7 +108,7 @@ Creating goals differs depending on what environment you use.
 
 1. (Conditional) Click **Goal List**, **Graphs**, **Pulse**, or **Check-in** in the left pane, then click **Add Goal** in the upper-right corner of the page. The Add Goal box displays.
 
-   ![](assets/add-goal-box-350x235.png)
+   ![Add goal box](assets/add-goal-box-350x235.png)
 
    >[!TIP]
    >
@@ -170,7 +170,7 @@ Creating goals differs depending on what environment you use.
 
 -->
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro, quindi fai clic su **Obiettivi**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **Goals**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -180,7 +180,7 @@ Creating goals differs depending on what environment you use.
 
    Viene visualizzata la casella Nuovo obiettivo.
 
-   ![](assets/new-goal-box-unshimmed.png)
+   ![Nuova casella obiettivo](assets/new-goal-box-unshimmed.png)
 
 1. Immettere le informazioni nei campi riportati di seguito.
    * **Nome obiettivo**: immettere un nome per l&#39;obiettivo. Questo è un campo obbligatorio.

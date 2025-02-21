@@ -7,9 +7,9 @@ description: Puoi impostare una singola scadenza per una bozza di base dopo la s
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8e0c6fd3-5506-4b23-b64a-473c4d20b506
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '231'
 ht-degree: 2%
 
 ---
@@ -62,7 +62,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Fare clic su **Flusso di lavoro di verifica**.
 1. Nell&#39;area **Flusso di lavoro**, selezionare **Nessuna scadenza**.
 
-   ![](assets/no-deadline-basic-proof-350x70.png)
+   ![Nessuna scadenza](assets/no-deadline-basic-proof-350x70.png)
 
 1. Scegli una data e specifica un’ora, quindi fai clic in un punto qualsiasi dello schermo.
 1. Scegli se desideri avvisare i revisori della nuova scadenza.

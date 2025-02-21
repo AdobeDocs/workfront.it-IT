@@ -7,9 +7,9 @@ description: Puoi condividere un piano creato in Adobe Workfront Scenario Planne
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '913'
 ht-degree: 1%
 
 ---
@@ -119,7 +119,7 @@ Nella tabella seguente sono elencate le autorizzazioni che è possibile conceder
   <tr> 
    <td>Visualizza scenari</td> 
    <td>✓</td> 
-   <td>✓ <span style="font-weight: normal;"></span> </td> 
+   <td><span style="font-weight: normal;">✓</span> </td> 
   </tr> 
   <tr> 
    <td>Visualizza mansioni</td> 
@@ -157,7 +157,7 @@ Nella tabella seguente sono elencate le autorizzazioni che è possibile conceder
    <td> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Scenari Publish**</td> 
+   <td>Pubblica scenari**</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -186,7 +186,7 @@ Per informazioni sulle autorizzazioni del progetto, vedere [Condividere un proge
    >
    >Per condividere un piano, fare clic sugli avatar degli utenti con cui è condiviso nell&#39;angolo superiore destro dell&#39;intestazione del piano.
 
-1. (Condizionale) Se hai aperto un piano, fai clic sull&#39;icona **[!UICONTROL Altro]** ![](assets/more-icon.png) a destra del nome del [!UICONTROL Piano], quindi fai clic su **[!UICONTROL Condividi]**
+1. (Condizionale) Se hai aperto un piano, fai clic sull&#39;icona **[!UICONTROL Altro]** ![Altro](assets/more-icon.png) a destra del nome del [!UICONTROL Piano], quindi fai clic su **[!UICONTROL Condividi]**
 
    Oppure
 

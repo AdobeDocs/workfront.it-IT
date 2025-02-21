@@ -6,9 +6,9 @@ description: Puoi visualizzare gli obiettivi che tu o chiunque altro hai aggiunt
 author: Alina
 feature: Workfront Goals
 exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
-source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1379'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
  <p> Nuovo requisito del prodotto, uno dei seguenti: </p>
 <ul>
 <li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
-<li>Un piano Workfront Ultimate che include gli obiettivi Workfront per impostazione predefinita. </li></ul>
+<li>Un piano Workfront di Ultimate che include gli obiettivi di Workfront per impostazione predefinita. </li></ul>
  <p>Oppure</p>
  <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
  </tr>
@@ -128,7 +128,7 @@ Puoi creare un filtro da zero o modificare uno dei filtri incorporati.
 
 1. Fai clic su **Filtro** nell&#39;angolo superiore destro dell&#39;elenco.
 
-   ![](assets/filter-icon-and-label.png)
+   ![Icona filtro](assets/filter-icon-and-label.png)
 
    Per impostazione predefinita, Workfront applica il filtro **All** che visualizza tutti gli obiettivi nel sistema.
 
@@ -172,7 +172,7 @@ Puoi creare un filtro da zero o modificare uno dei filtri incorporati.
       </tbody> 
      </table>
 
-   * Passa il puntatore del mouse sul nome di un filtro, quindi fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) accanto al nome per personalizzarlo e aggiungere nomi specifici di utenti, team, gruppi o il nome della tua organizzazione, quindi selezionala quando vengono visualizzati nell&#39;elenco.
+   * Passa il puntatore del mouse sul nome di un filtro, quindi fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png) accanto al nome per personalizzarlo e aggiungere nomi specifici di utenti, team, gruppi o il nome della tua organizzazione, quindi selezionalo quando vengono visualizzati nell&#39;elenco.
 
    * Fai clic su **Nuovo filtro** per creare un nuovo filtro, quindi seleziona una delle seguenti opzioni per personalizzare il nuovo filtro:
 
@@ -249,11 +249,11 @@ Puoi creare un filtro da zero o modificare uno dei filtri incorporati.
 
 1. (Facoltativo e condizionale) Quando visualizzi gli obiettivi nella sezione Allineamento obiettivi, fai clic su **Mostra** per visualizzare gli obiettivi esclusi.
 
-   ![](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
+   ![Mostra collegamento agli elementi filtrati](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
 
    Il nome del filtro è evidenziato in giallo per indicare che viene ignorato.
 
-   ![](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
+   ![Filtra contorno giallo](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
 
 
 1. (Facoltativo e condizionale) Fare clic su **Riapplica filtro** per applicare il filtro e omettere gli elementi visualizzati nel passaggio precedente.

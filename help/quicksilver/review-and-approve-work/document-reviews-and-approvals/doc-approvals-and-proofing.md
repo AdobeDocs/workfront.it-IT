@@ -6,9 +6,9 @@ description: È possibile utilizzare le nuove approvazioni di documenti con la v
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: bea547e7a7400798d4544fb4f299f72e18a700be
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Gli utenti assegnati come partecipanti possono utilizzare il visualizzatore di b
 Per assegnare i partecipanti:
 
 1. Seleziona il documento caricato e apri il Riepilogo del documento.
-   ![](assets/open-doc-summary.png)
+   ![Apri riepilogo documenti](assets/open-doc-summary.png)
 
 1. Scorri fino alla sezione Approvazioni, quindi fai clic su **Aggiungi**.
 
@@ -62,7 +62,7 @@ Per assegnare i partecipanti:
 
 1. Per aggiungere un revisore, fare clic sul pulsante Revisore e iniziare a digitare il nome di un utente o di un team.
 
-   ![](assets/add-approvers.png)
+   ![Aggiungi approvatori](assets/add-approvers.png)
 
 1. Dopo aver aggiunto tutti i revisori e gli approvatori, fare clic su **Invia richiesta**. I partecipanti vengono informati via e-mail.
 
@@ -77,7 +77,7 @@ Per aggiungere una nuova versione:
 1. Al termine del caricamento del documento, selezionarlo e fare clic su **Crea bozza** > **Bozza semplice**.
 
 1. Selezionare nuovamente il documento e aprire il Riepilogo del documento.
-   ![](assets/open-doc-summary.png)
+   ![Apri riepilogo documenti](assets/open-doc-summary.png)
 
 1. Scorri fino alla sezione Approvazioni, quindi fai clic su **Aggiungi**.
 
@@ -89,7 +89,7 @@ Per aggiungere una nuova versione:
 
 1. Per aggiungere un revisore, fare clic sul pulsante Revisore e iniziare a digitare il nome di un utente o di un team, <span class="preview"> oppure scegliere un revisore della versione precedente. </span>
 
-   ![](assets/add-approvers.png)
+   ![Aggiungi approvatori](assets/add-approvers.png)
 
 1. Dopo aver aggiunto tutti i revisori e gli approvatori, fare clic su **Invia richiesta**. I partecipanti vengono informati via e-mail.
 

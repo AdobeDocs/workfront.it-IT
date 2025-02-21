@@ -8,9 +8,9 @@ description: È possibile collegare i progetti agli obiettivi per indicare il mo
 author: Alina
 feature: Workfront Goals
 exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '931'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ Devi avere i seguenti:
  <p> Nuovo requisito del prodotto, uno dei seguenti: </p>
 <ul>
 <li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
-<li>Un piano Workfront Ultimate che include gli obiettivi Workfront per impostazione predefinita. </li></ul>
+<li>Un piano Workfront di Ultimate che include gli obiettivi di Workfront per impostazione predefinita. </li></ul>
  <p>Oppure</p>
  <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
  </tr>
@@ -112,7 +112,7 @@ Devi avere i seguenti:
 
 There is an indication on the goal list that the project no longer updates progress for the goal.
 
-  ![](assets/goal-closed-project-active-warning-goal-list-350x94.png)
+  ![Goal closed](assets/goal-closed-project-active-warning-goal-list-350x94.png)
 -->
 
 * Quando elimini un progetto associato a un obiettivo, il progetto viene eliminato anche dall’obiettivo.
@@ -124,14 +124,14 @@ There is an indication on the goal list that the project no longer updates progr
 
 ## Aggiungere progetti agli obiettivi
 
-1. Fai clic sul **menu principale** ![](assets/main-menu-icon.png) (bozza per Shell: oppure fai clic sul **menu principale** ![](assets/three-line-main-menu-icon.png) nell&#39;angolo superiore sinistro, se disponibile.) , quindi su **Obiettivi**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu](assets/main-menu-icon.png) (crea bozza per Shell: oppure fai clic sulle **Main Menu** ![Main Menu lines](assets/three-line-main-menu-icon.png) nell&#39;angolo superiore sinistro, se disponibile.) , quindi su **Goals**.
 1. Nell&#39;elenco Obiettivo fare clic sul nome di un obiettivo per aprire la pagina obiettivo.
 1. Fai clic su **Indicatori di avanzamento** nel pannello a sinistra.
 1. Dal menu a discesa **Nuovo indicatore di avanzamento**, fare clic su **Aggiungi progetto esistente**.
 
    Viene visualizzata la casella Aggiungi progetti all’obiettivo.
 1. (Facoltativo) Aggiorna **Visualizza**, **Filtra** o **Raggruppamento** facendo clic sulle rispettive icone nell&#39;angolo superiore destro dell&#39;elenco per modificare la modalità di visualizzazione dell&#39;elenco dei progetti.
-1. (Facoltativo) Fai clic sull&#39;icona **Cerca** ![](assets/search-icon.png) e inizia a digitare il nome di un progetto per trovarlo rapidamente nell&#39;elenco.
+1. (Facoltativo) Fai clic sull&#39;icona **Ricerca** ![Icona Ricerca](assets/search-icon.png) e inizia a digitare il nome di un progetto per trovarlo rapidamente nell&#39;elenco.
 1. Seleziona i progetti da aggiungere all&#39;obiettivo, quindi fai clic su **Aggiungi**.
 
    I progetti selezionati vengono aggiunti all&#39;obiettivo e visualizzati nella sezione Indicatori di avanzamento della pagina dell&#39;obiettivo, nel raggruppamento **Progetto**.

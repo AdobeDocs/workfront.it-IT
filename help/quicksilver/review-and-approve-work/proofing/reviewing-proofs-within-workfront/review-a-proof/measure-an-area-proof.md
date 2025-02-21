@@ -6,9 +6,9 @@ description: È possibile misurare un’area all’interno di una bozza.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c44de4f0-654e-4b1e-b3d6-2bd8f1ee9d8a
-source-git-commit: 9d2c65516ca1fc612f5f7ee4ee4453019d836cb3
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '357'
 ht-degree: 1%
 
 ---
@@ -60,7 +60,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    ![measurement_tool_button.png](assets/measurement-tool-button-350x128.png)
 
 1. (Facoltativo) Fai clic su **Colore markup di misurazione** per espandere le opzioni di colore, quindi fai clic su un colore e su **Opacità** facilmente visibili nella bozza.\
-   ![](assets/selection-color-350x330.png)
+   ![Colore selezione](assets/selection-color-350x330.png)
 
    Il colore predefinito dello strumento di misurazione è il rosso.
 
@@ -79,7 +79,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Trascinare gli angoli o i bordi della finestra di misurazione per ridimensionarla.
 1. (Facoltativo) Se l&#39;area di misurazione deve avere una dimensione esatta, digitare **Dimensione selezione** valori.
 1. (Facoltativo) Se è necessario misurare una determinata percentuale all&#39;interno di un&#39;area, selezionare la casella di controllo calcola percentuale. Viene visualizzata una nuova casella che consente di regolarla\
-   ![](assets/calculate-percentage-350x230.png)
+   ![Calcola percentuale](assets/calculate-percentage-350x230.png)
 
 1. Fai clic sull&#39;icona **Misura un&#39;area** nella parte superiore del visualizzatore di bozze per chiudere lo strumento al termine.
 

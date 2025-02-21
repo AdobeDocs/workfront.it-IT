@@ -6,9 +6,9 @@ description: È possibile visualizzare informazioni sull'avanzamento di una bozz
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 78e81070-ff82-4d82-90a3-6e0cd176b290
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '376'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 L’avanzamento della bozza indica il lavoro svolto su una bozza dal momento dell’invio della bozza ai destinatari al momento in cui prendono una decisione sulla bozza. Accanto al nome della bozza vengono visualizzate le icone di avanzamento S, O, C e D che forniscono informazioni sull’avanzamento della bozza.
 
-![](assets/proof-edit-existing-progress-350x62.png)
+![Stato di avanzamento della modifica di elementi esistenti](assets/proof-edit-existing-progress-350x62.png)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -95,7 +95,7 @@ Le icone di avanzamento possono essere visualizzate nei seguenti colori per indi
 
 Lo stato della bozza visualizza lo stato delle decisioni necessarie per la bozza. Lo stato della bozza è determinato dal partecipante che si trova nel &quot;caso peggiore&quot;. Si supponga, ad esempio, di avere tre decisioni sulla bozza: due hanno lo stato **Accettato** e uno ha lo stato **Rifiutato**. La decisione &quot;caso peggiore&quot; di **Rifiutato** sovrascrive le altre decisioni e lo stato complessivo della bozza viene visualizzato come **Rifiutato**. 
 
-![](assets/proof-edit-existing-progress-350x62.png)
+![Stato modifica bozza esistente](assets/proof-edit-existing-progress-350x62.png)
 
 Le opzioni di stato standard sono le seguenti:
 

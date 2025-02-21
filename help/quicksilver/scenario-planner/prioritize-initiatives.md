@@ -6,9 +6,9 @@ description: La priorità delle iniziative è importante perché le iniziative r
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 45f019de-b29c-477b-8bd1-f32ef21c1015
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '545'
 ht-degree: 1%
 
 ---
@@ -92,7 +92,7 @@ Viene visualizzato un elenco di piani.
 
      In Workfront viene visualizzato il numero di iniziative selezionate.
 
-     ![](assets/multi-select-initiative-number.png)
+     ![Numero iniziativa a selezione multipla](assets/multi-select-initiative-number.png)
 
    * Fai clic sulla casella **[!UICONTROL Assegna priorità]** nella parte inferiore del piano, quindi scegli una delle seguenti opzioni:
 
@@ -100,7 +100,7 @@ Viene visualizzato un elenco di piani.
       * **[!UICONTROL Inferiore]**: sposta le iniziative selezionate in fondo all&#39;elenco delle iniziative. Le iniziative selezionate sono elencate per ultime nel piano.
       * **[!UICONTROL Seleziona un numero]**: sposta le iniziative selezionate dopo l&#39;iniziativa indicata.
 
-        ![](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
+        ![Assegna priorità alle iniziative](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
 
      [!DNL Workfront] inserisce immediatamente le iniziative selezionate dove si indica e il numero di tutte le iniziative viene aggiornato di conseguenza.
 
