@@ -2,25 +2,25 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Visualizzazione: visualizzazione di informazioni su programmi e Portfoli in una visualizzazione attività"
-description: In questa visualizzazione attività vengono visualizzati il programma e il Portfolio associati al progetto dell'attività. Queste informazioni non sono disponibili nel generatore di report durante la creazione di una visualizzazione delle attività. Queste informazioni sono disponibili solo in modalità testo.
+title: 'Visualizzazione: visualizzazione delle informazioni su programmi e Portfolio in una visualizzazione attività'
+description: In questa visualizzazione vengono visualizzati il programma e il Portfolio associati al progetto dell'attività. Queste informazioni non sono disponibili nel generatore di report durante la creazione di una visualizzazione delle attività. Queste informazioni sono disponibili solo in modalità testo.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cdd5a1e9-3cbf-4951-b803-fca544b2519a
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
 
-# Visualizza: visualizza le informazioni su programma e Portfolio in una visualizzazione delle attività
+# Visualizza: visualizza le informazioni su Programma e Portfolio in una visualizzazione delle attività
 
-In questa visualizzazione attività vengono visualizzati il programma e il Portfolio associati al progetto dell&#39;attività. Queste informazioni non sono disponibili nel generatore di report durante la creazione di una visualizzazione delle attività. Queste informazioni sono disponibili solo in modalità testo.
+In questa visualizzazione vengono visualizzati il programma e il Portfolio associati al progetto dell&#39;attività. Queste informazioni non sono disponibili nel generatore di report durante la creazione di una visualizzazione delle attività. Queste informazioni sono disponibili solo in modalità testo.
 
 Nella visualizzazione sono inoltre disponibili collegamenti a Progetto, Programma e Portfolio da un elenco di attività.
 
-![](assets/view--program-and-portfolio-350x116.png)
+![Visualizza programma e portfolio](assets/view--program-and-portfolio-350x116.png)
 
 ## Requisiti di accesso
 
@@ -62,7 +62,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 +++
 
-## Visualizzare le informazioni su programma e Portfolio in una visualizzazione delle attività
+## Visualizzare le informazioni su programmi e Portfolio in una visualizzazione delle attività
 
 1. Consente di passare a un elenco di attività.
 1. Dal menu a discesa **Visualizza**, selezionare **Nuova visualizzazione**.

@@ -7,9 +7,9 @@ description: Puoi eseguire il raggruppamento in base al valore in un campo perso
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ Per raggruppare in base a un campo personalizzato a selezione multipla in un rap
 
    Gli oggetti nel report sono raggruppati in base ai valori del campo personalizzato a selezione multipla.
 
-   ![](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
+   ![Raggruppamento del campo a selezione multipla](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
 
    I nomi dei raggruppamenti del rapporto sono i nomi del campo personalizzato a selezione multipla seguiti dai valori selezionati nel campo.
 

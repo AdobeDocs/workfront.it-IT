@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Raggruppamento: organizza i risultati dell’elenco in base a un valore calcolato comune a tutti gli oggetti del raggruppamento"
+title: 'Raggruppamento: organizza i risultati elenco in base a un valore calcolato comune a tutti gli oggetti del raggruppamento'
 description: È possibile visualizzare le attività raggruppate per percentuale di completamento in intervalli di 0-25, 26-50, 51-75, 75-99 e 100. A tale scopo, puoi creare un raggruppamento utilizzando la modalità testo.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 93b743ce-7e54-4a96-933b-912e2107a84f
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 È possibile visualizzare le attività raggruppate per percentuale di completamento in intervalli di 0-25, 26-50, 51-75, 75-99 e 100. A tale scopo, puoi creare un raggruppamento utilizzando la modalità testo.
 
-![](assets/grouping-calculated-value-column-to-all-objects.png)
+![Raggruppamento per valore calcolato](assets/grouping-calculated-value-column-to-all-objects.png)
 
 ## Requisiti di accesso
 

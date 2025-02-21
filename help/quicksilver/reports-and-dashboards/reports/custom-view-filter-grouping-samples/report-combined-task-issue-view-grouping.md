@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Rapporto: visualizzazione e raggruppamento attività e problemi combinati"
+title: 'Rapporto: visualizzazione e raggruppamento attività e problemi combinati'
 description: Questo rapporto Elemento di lavoro mostra le attività e i problemi che gli utenti hanno accettato di affrontare in un unico rapporto. È consigliabile se combinato con un raggruppamento personalizzato.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
-source-git-commit: bc99e303047b989b972974b398420a9180e40874
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 Per creare un rapporto con questa visualizzazione:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro o sull&#39;icona ![](assets/lines-main-menu.png) del **menu principale** nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **Rapporti**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro o sull&#39;icona **Main Menu** ![Main Menu lines](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **Reports**.
 
 1. Fai clic su **Nuovo rapporto** > **Altro** > **Elemento di lavoro** dal menu a discesa.
 

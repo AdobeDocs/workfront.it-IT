@@ -7,9 +7,9 @@ description: Questo filtro attività restituisce le richieste di lavoro ad hoc i
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 204cfae1-7c57-4223-9e00-ac94e1e2ba3a
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Le richieste di lavoro ad hoc e gli elementi da fare vengono salvati in Adobe Wo
 
 Le attività personali non sono collegate a un progetto, ma possono essere spostate in un progetto, se necessario. Per informazioni, vedere [Creare attività personali](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md).
 
-![](assets/personal-tasks-report.png)
+![Rapporto attività personali](assets/personal-tasks-report.png)
 
 ## Requisiti di accesso
 

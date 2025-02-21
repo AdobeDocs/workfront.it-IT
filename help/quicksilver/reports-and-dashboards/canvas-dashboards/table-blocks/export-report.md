@@ -4,9 +4,9 @@ description: Esportare un rapporto nell’area di lavoro rapporti
 hidefromtoc: true
 hide: true
 exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '183'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
 ## Esportare un rapporto
 
 1. Passare al report da esportare.
-1. Nell&#39;intestazione del report fare clic sull&#39;icona ![](assets/more-icon-27x15.png) **Altro**, fare clic su **Esporta**, quindi selezionare il formato di file da creare.
+1. Nell&#39;intestazione del report fare clic sull&#39;icona **Altro** ![Altro icona](assets/more-icon-27x15.png), fare clic su **Esporta**, quindi selezionare il formato di file che si desidera creare.
 
    >[!NOTE]
    >

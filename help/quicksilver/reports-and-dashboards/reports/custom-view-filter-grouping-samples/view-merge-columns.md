@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Visualizza: unire informazioni da più colonne in una colonna condivisa"
+title: 'Visualizzazione: unire informazioni da più colonne in una colonna condivisa'
 description: È possibile unire le informazioni visualizzate in più colonne separate e visualizzarle in una colonna condivisa.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: 8c51f8acbe4cefc2404709d9b52c2fe5ec3c7fca
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 Per unire i dati di due colonne senza interruzioni di riga:
 
 1. Consente di passare a un elenco di oggetti.
-1. Selezionare una visualizzazione dal menu a discesa **Visualizza**, quindi fare clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) per modificare la visualizzazione.
+1. Dal menu a discesa **Visualizza**, seleziona una visualizzazione, quindi fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png) per modificare la visualizzazione.
 1. Passare alla prima colonna da unire, quindi fare clic su **Passa alla modalità testo** > **Modifica modalità testo**.
 1. Aggiungere il testo seguente alla prima colonna che si desidera unire:
 
@@ -121,7 +121,7 @@ Per unire i dati di due colonne senza interruzioni di riga:
    column.3.valueformat=HTML
    ```
 
-   ![](assets/shared-column-no-line-breaks-350x142.png)
+   ![Colonna condivisa senza interruzioni di riga](assets/shared-column-no-line-breaks-350x142.png)
 
 
 1. Fai clic su **Fine**, quindi su **Salva visualizzazione**.
@@ -131,7 +131,7 @@ Per unire i dati di due colonne senza interruzioni di riga:
 Per unire i dati di più colonne in modo da visualizzarli in una colonna comune con un&#39;interruzione di riga tra i valori di ciascuna colonna, eseguire le operazioni seguenti:
 
 1. Consente di passare a un elenco di oggetti.
-1. Selezionare una visualizzazione dal menu a discesa **Visualizza**, quindi fare clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) per modificare la visualizzazione.
+1. Dal menu a discesa **Visualizza**, seleziona una visualizzazione, quindi fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png) per modificare la visualizzazione.
 1. Aggiungere una terza colonna tra le due colonne che si desidera unire.
 
    >[!TIP]
@@ -182,6 +182,6 @@ Per unire i dati di più colonne in modo da visualizzarli in una colonna comune 
    column.5.valueformat=HTML 
    ```
 
-   ![](assets/shared-column-with-line-breaks-350x199.png)
+   ![Colonna condivisa con interruzioni di riga](assets/shared-column-with-line-breaks-350x199.png)
 
 1. Fai clic su **Fine**, quindi su **Salva visualizzazione**.

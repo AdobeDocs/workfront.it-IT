@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2767'
+source-wordcount: '2798'
 ht-degree: 4%
 
 ---
@@ -181,7 +181,7 @@ Queste informazioni possono essere utilizzate per facilitare il controllo e per 
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Reports**.
 1. Fai clic su **Nuovo rapporto**, quindi seleziona **Voce diario**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![Seleziona voce diario](assets/nwe-select-journal-entry-350x273.png)
 
    Il generatore di report viene caricato.
 
@@ -255,7 +255,7 @@ Queste informazioni possono essere utilizzate per facilitare il controllo e per 
 
 1. Nella scheda **Filtri**, fai clic su **Aggiungi regola filtro**, quindi aggiungi la regola filtro **Nome campo** > **Uguale** > **stato**.
 
-   ![](assets/nwe-journal-entry-status-filter-rules-350x90.png)
+   ![Filtro stato voce diario](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
    >[!TIP]
    >
@@ -295,7 +295,7 @@ Per vedere quando un&#39;attività o un problema è stato eliminato:
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Reports**.
 1. Fai clic su **Nuovo rapporto**, quindi seleziona **Voce diario**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![Seleziona voce diario](assets/nwe-select-journal-entry-350x273.png)
 
    Il generatore di report viene caricato.
 
@@ -342,7 +342,7 @@ Per vedere quando un&#39;attività o un problema è stato eliminato:
    * **ID progetto** > **Uguale** > **&lt; nome progetto >**
 
      <!--WRITER check link; this png file has spaces
-     [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
+     [![Task or issue deleted](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
 
    Per ulteriori informazioni sull&#39;aggiunta di filtri, vedere [Panoramica filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -379,7 +379,7 @@ Per vedere come sono cambiati i campi personalizzati nel corso del ciclo di vita
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Reports**.
 1. Fai clic su **Nuovo rapporto**, quindi seleziona **Voce diario**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![Seleziona voce diario](assets/nwe-select-journal-entry-350x273.png)
 
    Il generatore di report viene caricato.
 
@@ -450,7 +450,7 @@ Per vedere come sono cambiati i campi personalizzati nel corso del ciclo di vita
 
    * **ID progetto** > **Uguale** > **&lt; progetto >**.
 
-   ![](assets/qs-custom-form-changes-filter-350x92.png)
+   ![Filtro modifiche modulo personalizzato](assets/qs-custom-form-changes-filter-350x92.png)
 
    Per ulteriori informazioni sull&#39;aggiunta di filtri, vedere [Panoramica filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -481,7 +481,7 @@ Per vedere come sono cambiati i campi personalizzati nel corso del ciclo di vita
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Reports**.
 1. Fai clic su **Nuovo rapporto**, quindi seleziona **Voce diario**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![Seleziona voce diario](assets/nwe-select-journal-entry-350x273.png)
 
    Il generatore di report viene caricato.
 
@@ -551,7 +551,7 @@ Per vedere come sono cambiati i campi personalizzati nel corso del ciclo di vita
    * **Nome Campo** > **Uguale** > **Data**
    * **ID progetto** > **Uguale** > **&lt; nome progetto >**.
 
-   ![](assets/qs-planned-completion-date-change-filter-350x91.png)
+   ![Filtro modifica data di completamento pianificata](assets/qs-planned-completion-date-change-filter-350x91.png)
 
    Per ulteriori informazioni sull&#39;aggiunta di filtri, vedere [Panoramica filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -582,7 +582,7 @@ Per vedere come sono cambiati i campi personalizzati nel corso del ciclo di vita
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Reports**.
 1. Fai clic su **Nuovo rapporto**, quindi seleziona **Voce diario**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![Seleziona voce diario](assets/nwe-select-journal-entry-350x273.png)
 
    Il generatore di report viene caricato.
 
@@ -640,7 +640,7 @@ Per vedere come sono cambiati i campi personalizzati nel corso del ciclo di vita
    * **Nome campo** > **Uguale** > **ownerID**
    * **ID progetto** > **Uguale** > **&lt; nome progetto >**.
 
-   ![](assets/qs-owner-changes-filter-350x94.png)
+   ![Filtro modifica proprietario](assets/qs-owner-changes-filter-350x94.png)
 
    Per ulteriori informazioni sull&#39;aggiunta di filtri, vedere [Panoramica filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 

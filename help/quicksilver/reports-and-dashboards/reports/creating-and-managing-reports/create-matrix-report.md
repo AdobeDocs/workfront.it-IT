@@ -6,9 +6,9 @@ description: I report matrice presentano informazioni di riepilogo in un formato
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 714f2802-089f-4a41-8205-f397cf474a24
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
@@ -23,14 +23,14 @@ I report matrice presentano informazioni di riepilogo in un formato di tabella a
 
 Ad esempio, desideri creare un rapporto sulle ore che visualizzi le ore registrate durante un periodo di 3 mesi e che sia organizzato in base a chi ha inserito le ore, nonché in base al mese e alla settimana.
 
-![](assets/report-matrix-overview-350x123.png)
+![Panoramica sulla matrice dei rapporti](assets/report-matrix-overview-350x123.png)
 
 ## Visualizzazione dei dati in un rapporto matrice
 
 Le informazioni nel rapporto matrice vengono sempre visualizzate come valore numerico. Nella maggior parte dei casi, le colonne contenenti un valore numerico sono indicate per la visualizzazione in un rapporto matrice (ad esempio ore registrate e costo effettivo).
 
 Tuttavia, altre colonne (ad esempio Stato) possono ancora essere visualizzate nel rapporto matrice come illustrato nell&#39;immagine seguente:\
-![](assets/report-matrix-status-350x73.png)
+![Stato matrice](assets/report-matrix-status-350x73.png)
 
 ## Requisiti di accesso
 
@@ -91,7 +91,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       >
       >Se questa opzione non è selezionata, le informazioni della colonna non vengono visualizzate correttamente nel report matrice.
 
-      ![](assets/qs-report-matrix-summarized-350x392.png)
+      ![Matrice riepilogata](assets/qs-report-matrix-summarized-350x392.png)
 
    1. Ripetere il processo per ogni colonna nella scheda Colonne (Visualizzazione), quindi fare clic su **Fine**.
 
@@ -105,10 +105,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    1. Nella sezione **Raggruppamenti di colonne** identificare il raggruppamento di colonne, che stabilisce i raggruppamenti verticali della tabella.
    1. (Facoltativo) Per aggiungere un ulteriore raggruppamento di colonne, fare clic su **Aggiungi raggruppamento di colonne secondario**.
    1. (Condizionale) Se aggiungi un raggruppamento per data, specifica anche se i risultati sono raggruppati per giorno, settimana, mese, trimestre o anno.\
-      ![](assets/qs-grouping-by-date-options-for-matrix-report-350x450.png)
+      ![Opzioni raggruppamento per data](assets/qs-grouping-by-date-options-for-matrix-report-350x450.png)
 
    1. (Condizionale) Se si è scelto di raggruppare per data e visualizzare i risultati per trimestre, ad esempio, specificare se si desidera visualizzare i trimestri senza dati selezionando la casella di controllo **Mostra trimestri senza risultati**.\
-      ![](assets/qs-show-quarters-with-no-results-on-matrix-report-350x175.png)
+      ![Mostra trimestri senza risultati](assets/qs-show-quarters-with-no-results-on-matrix-report-350x175.png)
 
       >[!NOTE]
       >

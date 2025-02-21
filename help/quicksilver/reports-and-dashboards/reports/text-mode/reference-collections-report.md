@@ -6,9 +6,9 @@ description: Fare riferimento alle raccolte in un rapporto
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2539'
+source-wordcount: '2560'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ Nella visualizzazione le informazioni sulle attività o sui problemi vengono vis
 
 Per aggiungere una colonna di raccolta in una visualizzazione report:
 
-1. Fai clic sul menu **Principale** ![](assets/main-menu-icon.png), quindi fai clic su **Rapporti**.
+1. Fai clic sull&#39;icona del menu **Principale** ![Menu principale](assets/main-menu-icon.png), quindi fai clic su **Rapporti**.
 1. Fare clic su **Nuovo report**.
 1. Seleziona l’oggetto del rapporto.
 1. Esci dal report e, utilizzando [API Explorer](../../../wf-api/general/api-explorer.md), determina quali raccolte sono disponibili per l&#39;oggetto selezionato per il report.
@@ -236,7 +236,7 @@ Per aggiungere una colonna di raccolta in una visualizzazione report:
 
 1. Nel rapporto del progetto viene visualizzata la colonna seguente, in cui sono elencate tutte le attività di ciascun progetto insieme ai relativi assegnatari principali:
 
-   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
+   ![Report di progetto con raccolta attività e assegnatari](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
 
 1. Fai clic su **Salva**.
 1. (Facoltativo) Continua a modificare il rapporto.
@@ -309,7 +309,7 @@ Ad esempio, è possibile filtrare le informazioni su attività o problemi in un 
 
 Per aggiungere un riferimento a una raccolta in un filtro di report:
 
-1. Fai clic sul menu **Principale** ![](assets/main-menu-icon.png), quindi fai clic su **Rapporti**.
+1. Fai clic sull&#39;icona del menu **Principale** ![Menu principale](assets/main-menu-icon.png), quindi fai clic su **Rapporti**.
 1. Fare clic su **Nuovo report**.
 1. Seleziona l’oggetto del rapporto.
 1. Esci dal report e, utilizzando [API Explorer](../../../wf-api/general/api-explorer.md), determina quali raccolte sono disponibili per l&#39;oggetto selezionato per il report.
@@ -350,7 +350,7 @@ Per aggiungere un riferimento a una raccolta in un filtro di report:
 
    Questo report visualizza solo i progetti che hanno almeno un&#39;attività il cui nome contiene la parola &quot;marketing&quot;.
 
-   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
+   ![Attività solo marketing nel progetto](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
 
 1. Per filtrare in base al nome di un problema, utilizza il seguente codice:
 
@@ -386,7 +386,7 @@ Per ulteriori informazioni sulla creazione di un&#39;istruzione di filtro con un
 
 Per aggiungere un riferimento a una raccolta nel prompt personalizzato di un report:
 
-1. Fai clic sul menu **Principale** ![](assets/main-menu-icon.png), quindi fai clic su **Rapporti**.
+1. Fai clic sull&#39;icona del menu **Principale** ![Menu principale](assets/main-menu-icon.png), quindi fai clic su **Rapporti**.
 1. Fare clic su **Nuovo report**.
 1. Seleziona l’oggetto del rapporto.
 1. Creare un filtro con un riferimento a una raccolta come descritto nella sezione [Fare riferimento a una raccolta nel filtro di un report](#reference-a-collection-in-the-filter-of-a-report) in questo articolo.

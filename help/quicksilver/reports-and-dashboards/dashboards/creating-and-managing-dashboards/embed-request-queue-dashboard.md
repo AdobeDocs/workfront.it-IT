@@ -6,9 +6,9 @@ description: Puoi incorporare una nuova coda di richieste in un dashboard per fo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1150'
 ht-degree: 1%
 
 ---
@@ -100,7 +100,7 @@ Gli utenti possono modificare il tipo di richiesta o scegliere un altro argoment
 
    In questo modo il collegamento viene copiato nella coda richieste o nell&#39;argomento della coda mentre viene visualizzato sullo schermo. Gli utenti possono aggiornare il Tipo di richiesta o uno qualsiasi dei gruppi di argomenti e degli argomenti della coda disponibili.
 
-   ![](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
+   ![Coda richieste con percorso di condivisione](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
 
 ### Ottenere un collegamento a una coda di richieste e modificare il tipo di richiesta {#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type}
 
@@ -121,7 +121,7 @@ Quando condividi un collegamento a un tipo di richiesta, questo viene selezionat
 
    Gli utenti possono selezionare qualsiasi gruppo di argomenti o argomento di coda di cui hanno bisogno oppure scegliere un altro tipo di richiesta.
 
-   ![](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
+   ![URL coda richieste](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
 
 ### Ottenere un collegamento a una coda di richieste senza la possibilità di modificare il tipo di richiesta {#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type}
 
@@ -150,7 +150,7 @@ Quando condividi un collegamento a un tipo di richiesta preselezionato, il tipo 
 
    Gli utenti possono selezionare qualsiasi gruppo di argomenti o argomento di coda di cui hanno bisogno per il tipo di richiesta selezionato. Gli utenti non possono selezionare un altro tipo di richiesta.
 
-   ![](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
+   ![Codice coda richieste](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
 
 ## Incorporare una coda di richieste in un dashboard
 
@@ -164,7 +164,7 @@ Puoi incorporare in un dashboard un collegamento alla coda delle richieste o a u
 
 1. Fare clic su **Aggiungi pagina esterna**.
 
-   ![](assets/add-external-page-highlighted---nwe-350x214.png)
+   ![Pagina esterna](assets/add-external-page-highlighted---nwe-350x214.png)
 
 1. Nella casella **Aggiungi pagina esterna** modificare i campi seguenti:
 

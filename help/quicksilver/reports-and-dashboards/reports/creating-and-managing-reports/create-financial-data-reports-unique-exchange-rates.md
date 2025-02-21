@@ -6,9 +6,9 @@ description: Se in Adobe Workfront sono stati configurati più tassi di cambio, 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
-source-git-commit: 2322415c173919a1fecffabb4b561645d33eea8d
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -117,13 +117,13 @@ Per visualizzare in un rapporto due progetti con valute personalizzate:
 
 1. Crea due progetti con valute diverse applicate.
 
-   ![](assets/qs-currency-350x217.png)
+   ![Valuta](assets/qs-currency-350x217.png)
 
 1. Registra le ore su entrambi i progetti.
 
    Per ulteriori informazioni sull&#39;ora di registrazione, vedere [Ora di registrazione](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **Main Menu**, quindi fai clic su **Reporting**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png), quindi fai clic su **Reporting**.
 1. Fai clic su **Nuovo rapporto**, quindi su **Rapporto progetto**.
 1. Nella scheda **Colonne (visualizzazione)**, aggiungi una colonna **Costo effettivo** e riepilogala per **Somma**.
 
@@ -182,6 +182,6 @@ Per modificare in linea un campo finanziario in un report:
 1. Fare clic su **Impostazioni report**.
 1. Fai clic sull&#39;elenco a discesa **Valuta predefinita**, quindi seleziona **Valuta originale del progetto**.
 
-   ![](assets/qs-report-settings-default-currency-350x370.png)
+   ![Valuta predefinita](assets/qs-report-settings-default-currency-350x370.png)
 
 1. Fai clic su **Fine**.

@@ -6,7 +6,7 @@ description: Puoi esportare i dati di Adobe Workfront da vari elenchi, report, d
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
 source-wordcount: '2247'
 ht-degree: 0%
@@ -190,14 +190,14 @@ In caso di dubbi o problemi relativi al limite, contattare il supporto tecnico W
    >[!NOTE]
    >
    >To export a Dashboard report, you must have a Plan license.  
-   >![](assets/nwe-dashboard-export-note-350x271.png)
+   >![Export dashboard note](assets/nwe-dashboard-export-note-350x271.png)
    -->
 
    Oppure
 
    Fai clic sull&#39;icona **Esporta** ![Icona Esporta](assets/export-icon-nwe.png), quindi seleziona un formato.
 
-   Le opzioni disponibili per l&#39;esportazione PDF dipendono dalle impostazioni internazionali specificate nelle impostazioni utente di Workfront:
+   Le opzioni disponibili per l&#39;esportazione in PDF dipendono dalle impostazioni internazionali specificate nelle impostazioni utente di Workfront:
 
    * Nord America - lettera (predefinita), legale, contabilità generale, A4
 
@@ -241,13 +241,13 @@ Quando si esporta un elenco di attività o problemi, **Nome file** può essere u
 
 * Quando si esportano gli elenchi di attività e problemi in un progetto:
 
-   * *Le attività nome_progetto_esportato*(*in PDF, Excel, Excel (.xlsx) o nei formati delimitati da tabulazioni)*
-   * *Il_nome_progetto_Problemi_esportati*(*in PDF, Excel, Excel (.xlsx) o Formati delimitati da tabulazioni)*
+   * *Le attività nome_progetto_esportato*(*in PDF, Excel (.xlsx) o nei formati delimitati da tabulazioni)*
+   * *Il_nome_progetto_Problemi_esportati*(*in PDF, Excel (.xlsx) o nei formati delimitati da tabulazioni)*
 
 * Quando si esportano elenchi di attività e problemi in un’attività (sottoattività):
 
    * **Il_nome_progetto_l_nome_attività_Attività_esportate**(*in PDF, Excel, Excel (.xlsx) o nei formati delimitati da tabulazioni)*
-   * **Nome_progetto_nome_attività_problemi_esportati**(*in PDF, Excel, Excel (.xlsx) o formati delimitati da tabulazioni)*
+   * **Il_nome_progetto_l_nome_attività_Problemi_esportati**(*in PDF, Excel, Excel (.xlsx) o nei formati delimitati da tabulazioni)*
 
 Quando esportate un elenco di qualsiasi altro oggetto da un progetto a un file PDF, il nome del file del documento esportato indica il tipo di oggetto esportato.\
 Ad esempio, il nome del file può essere:
@@ -259,7 +259,7 @@ Ad esempio, il nome del file può essere:
 
 Quando si esporta un report, il nome file del report esportato è:
 
-*Nome_report*(*nei formati PDF, Excel, Excel (.xlsx) o delimitato da tabulazioni)*
+*Nome_report*(*in PDF, Excel, Excel (.xlsx) o nei formati delimitati da tabulazioni)*
 
 ### Titoli {#titles}
 
@@ -277,7 +277,7 @@ Quando si esportano gli elenchi di attività e problemi di un&#39;attività in u
 * *Nome progetto - Nome attività - Attività esportate*
 * *Nome progetto - Nome attività - Problemi esportati*
 
-Quando esportate un elenco di qualsiasi altro oggetto da un progetto a un file PDF, il titolo del documento esportato indica il tipo di oggetto esportato.\
+Quando esportate un elenco di qualsiasi altro oggetto da un progetto in un file PDF, il titolo del documento esportato indica il tipo di oggetto esportato.\
 Ad esempio, il titolo può essere:
 
 * *Utenti esportati*, durante l&#39;esportazione della scheda Persone nel progetto.
@@ -303,7 +303,7 @@ La marca temporale include:
 
 A seconda del tipo di documento esportato, le marche temporali vengono visualizzate in varie posizioni:
 
-* **PDF:** i timestamp vengono visualizzati nel piè di pagina di ogni pagina e nel nome del file.
+* **PDF:** Le marche temporali vengono visualizzate nel piè di pagina di ogni pagina e nel nome del file.
 * **Excel:** Le marche temporali sono visualizzate nel nome del file.
 
 ### Formattazione {#formatting}

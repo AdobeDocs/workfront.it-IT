@@ -7,9 +7,9 @@ description: Domande frequenti sui rapporti
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Per informazioni sulla modifica di filtri e raggruppamenti, vedere gli articoli 
 ### Risposta
 
 È possibile che nel report o nel calendario sia presente una variabile di filtro con caratteri jolly che punta all&#39;utente connesso. In questo caso, il rapporto mostra informazioni in base all’utente che ha effettuato l’accesso. Regolare il filtro per rimuovere il carattere jolly che punta all&#39;utente connesso.\
-![](assets/qs--user.id-filter-variable-350x79.png)
+![Variabile filtro ID utente](assets/qs--user.id-filter-variable-350x79.png)
 
 Per un elenco completo delle variabili filtro con caratteri jolly basate sull&#39;utente, vedere [Panoramica delle variabili filtro con caratteri jolly](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
@@ -122,7 +122,7 @@ Per visualizzare tutte le attività o i problemi assegnati, sia che tu sia il Pr
 1. Seleziona il modificatore **Equal**.
 1. Inizia a digitare *$$USER.ID* nella casella di testo e selezionalo dall&#39;elenco a discesa visualizzato.\
    In questo modo potrai visualizzare tutte le attività e i problemi assegnati all’utente connesso. È possibile sostituire il carattere jolly con un nome utente specifico.\
-   ![](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
+   ![Attività assegnate a me](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
 
 1. Fai clic su **Salva e Chiudi**.
 
@@ -143,7 +143,7 @@ Tuttavia, ci sono alcuni elementi che potrebbero impedire la visualizzazione di 
 * Se a questi elenchi è applicata una **Visualizzazione** con una valuta selezionata diversa da quella predefinita per il progetto, i collegamenti non vengono visualizzati. Modifica la **visualizzazione** in **valuta originale del progetto** e i collegamenti dovrebbero essere visualizzati in modo da poter aggiungere problemi e attività ai progetti.\
   Per ulteriori informazioni sulla modifica della valuta nella visualizzazione, vedere [Creare report di dati finanziari con tassi di cambio univoci](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
-![](assets/nwe-project-original-currency-350x229.png)
+![Valuta progetto](assets/nwe-project-original-currency-350x229.png)
 
 ## Le informazioni nel report o nel dashboard vengono aggiornate automaticamente?
 

@@ -6,9 +6,9 @@ description: È possibile fare riferimento alle maschere personalizzate di un og
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '967'
 ht-degree: 2%
 
 ---
@@ -82,7 +82,7 @@ Durante la creazione del report, è sufficiente utilizzare il tipo di oggetto de
 
 Ad esempio, potresti avere un modulo personalizzato applicato a tutti i progetti che include il campo personalizzato **Consulente**. Per creare un report che elenca tutti i progetti di cui Olivia Kim è consulente, utilizzare il tipo di oggetto **Progetto** come origine del campo e utilizzare **Consulente** come nome del campo. Imposta il qualificatore del filtro su **Equal**, quindi digita Olivia Kim.
 
-![](assets/qs-consultant-filter-example-350x126.png)
+![Filtro consulente](assets/qs-consultant-filter-example-350x126.png)
 
 Per ulteriori informazioni sulla creazione di un report, vedere l&#39;articolo [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
@@ -111,13 +111,13 @@ Per visualizzare tutti i moduli personalizzati associati a un oggetto:
 1. Iniziare a creare un report come descritto nell&#39;articolo [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Nella scheda **Colonne**, espandi il tipo di oggetto a cui è applicato il modulo personalizzato a cui desideri fare riferimento, quindi fai clic su **Nome categoria**.\
    Ad esempio, per visualizzare tutti i moduli personalizzati associati a un&#39;attività, espandi l&#39;origine campo **Attività**, quindi fai clic sul nome campo **Nome categoria**.\
-   ![](assets/qs-category-name-column-350x267.png)
+   ![Colonna nome categoria](assets/qs-category-name-column-350x267.png)
 
 Per visualizzare solo il modulo personalizzato principale associato all&#39;oggetto:
 
 1. Iniziare a creare un report come descritto nell&#39;articolo [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Nella scheda **Colonne**, espandi l&#39;origine campo **Categoria**, quindi fai clic sul nome campo **Nome**.\
-   ![](assets/qs-category-name-column-2-350x248.png)
+   ![Nome categoria](assets/qs-category-name-column-2-350x248.png)
 
 ### Fare riferimento a maschere personalizzate in un filtro per report {#reference-custom-forms-in-a-report-filter}
 
@@ -125,7 +125,7 @@ Per filtrare in base a tutti i moduli personalizzati associati al tipo di oggett
 
 1. Iniziare a creare un report come descritto nell&#39;articolo [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Nella scheda **Filtri**, espandi **Categorie**, quindi fai clic su **Nome**.\
-   ![](assets/qs-categories-name-filter-350x311.png)
+   ![Filtro nome categoria](assets/qs-categories-name-filter-350x311.png)
 
 1. Selezionare il qualificatore di condizione che si desidera utilizzare:
 
@@ -133,8 +133,8 @@ Per filtrare in base a tutti i moduli personalizzati associati al tipo di oggett
    * Not Blank
    * Contiene
    * Non contiene
-   * Uguale a
-   * Diverso da
+   * Uguale
+   * Non uguale
 
    Per ulteriori informazioni su ciascun qualificatore, vedere l&#39;articolo [Filtri e modificatori di condizioni](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
@@ -150,7 +150,7 @@ Per filtrare solo il modulo personalizzato principale associato al tipo di ogget
 
 1. Iniziare a creare un report come descritto nell&#39;articolo [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Nella scheda **Filtri**, espandi l&#39;origine campo **Categoria**, quindi fai clic sul nome campo **Nome**.\
-   ![](assets/qs-category-name-filter-350x437.png)
+   ![Filtro nome categoria](assets/qs-category-name-filter-350x437.png)
 
 1. Selezionare il qualificatore di condizione che si desidera utilizzare:
 
@@ -158,8 +158,8 @@ Per filtrare solo il modulo personalizzato principale associato al tipo di ogget
    * Not Blank
    * Contiene
    * Non contiene
-   * Uguale a
-   * Diverso da
+   * Uguale
+   * Non uguale
 
    Per ulteriori informazioni su ciascun qualificatore, vedere l&#39;articolo [Filtri e modificatori di condizioni](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
@@ -175,4 +175,4 @@ Per filtrare solo il modulo personalizzato principale associato al tipo di ogget
 
 1. Iniziare a creare un report come descritto nell&#39;articolo [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Nella scheda **Raggruppamenti** espandere **Categoria**, quindi fare clic su **Nome**.\
-   ![](assets/qs-category-name-grouping-350x373.png)
+   ![Raggruppamento nomi categorie](assets/qs-category-name-grouping-350x373.png)

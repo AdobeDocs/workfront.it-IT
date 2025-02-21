@@ -4,9 +4,9 @@ description: Creare un campo formula nell’area di lavoro Reporting
 hidefromtoc: true
 hide: true
 exl-id: 22a2c3d7-39db-4f5d-94f3-222ca3ee0615
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '662'
 ht-degree: 7%
 
 ---
@@ -22,16 +22,16 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
 ## Creare un campo formula
 
 1. Creare o passare a un blocco di tabella, come descritto in [Aggiungere o modificare un blocco di tabella nell&#39;area di lavoro Reporting](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
-1. Nell&#39;intestazione della tabella del report, fare clic sull&#39;icona **Modifica** ![](assets/edit-icon.png).
+1. Nell&#39;intestazione della tabella del report fare clic sull&#39;icona **Modifica** ![Modifica](assets/edit-icon.png).
 
-   ![](assets/edit-icon-table-header-350x71.png)
+   ![Icona Modifica nell&#39;intestazione della tabella](assets/edit-icon-table-header-350x71.png)
 
    >[!NOTE]
    >
    >Se la tabella è stata appena creata e non sono ancora stati aggiunti campi, fare clic sul pulsante Modifica al centro della tabella.
 
 1. Fai clic su **Nuovo +** nella parte superiore dell&#39;elenco **Campi** nel pannello di destra.
-1. Nella nuova pagina visualizzata, fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) accanto al nome del campo nell&#39;angolo in alto a sinistra per modificare il nome del campo formula.
+1. Nella nuova pagina visualizzata, fai clic sull&#39;icona **Modifica** ![Icona Modifica](assets/edit-icon.png) accanto al nome del campo nell&#39;angolo in alto a sinistra per modificare il nome del campo formula.
 1. Trascina **Funzioni** o **Campi** dal pannello di sinistra al generatore di campi al centro per aggiungerli al campo formula.
 
 

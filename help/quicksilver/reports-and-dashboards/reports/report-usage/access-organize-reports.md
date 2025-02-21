@@ -6,9 +6,9 @@ description: È possibile utilizzare i report in Adobe Workfront per esaminare o
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -46,11 +46,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
-## Visualizzare i rapporti
+## Visualizza rapporti
 
 Per accedere ai report creati o condivisi con te o condivisi pubblicamente:
 
-1. Dal **menu principale** ![](assets/main-menu-icon.png), fare clic su **Report**.
+1. Dal **menu principale** ![icona menu principale](assets/main-menu-icon.png), fare clic su **Report**.
 
 1. Fai clic su una delle seguenti opzioni, a seconda del rapporto che desideri visualizzare:
 
@@ -67,10 +67,10 @@ Per accedere ai report creati o condivisi con te o condivisi pubblicamente:
 
 ### Creare una nuova cartella per i rapporti {#create-a-new-folder-for-reports}
 
-1. Dal **menu principale** ![](assets/main-menu-icon.png), fare clic su **Report**.
+1. Dal **menu principale** ![icona menu principale](assets/main-menu-icon.png), fare clic su **Report**.
 
 1. Fai clic sull&#39;icona **Nuova cartella**.\
-   ![](assets/nwe-new-folder-350x346.png)
+   ![Icona nuova cartella](assets/nwe-new-folder-350x346.png)
 
 1. Specificare un nome per la nuova cartella, quindi premere Invio.
 1. Dalla cartella **I miei report**, aggiungi i report alla nuova cartella.\
@@ -82,7 +82,7 @@ Per accedere ai report creati o condivisi con te o condivisi pubblicamente:
 
 ### Aggiungere rapporti a una cartella {#add-reports-to-a-folder}
 
-1. Dal **menu principale** ![](assets/main-menu-icon.png), fare clic su **Report**.
+1. Dal **menu principale** ![icona menu principale](assets/main-menu-icon.png), fare clic su **Report**.
 
 1. Fai clic su **I miei report**.\
    Oppure\
@@ -94,4 +94,4 @@ Per accedere ai report creati o condivisi con te o condivisi pubblicamente:
    >
    >Puoi spostare i report solo dalla cartella **I miei report** ad altre cartelle nidificate in **I miei report**. Non puoi spostare i report da o nella cartella **Condiviso con me** o **Tutti i report** in o da altre cartelle.
 
-   ![](assets/nwe-drag-report-to-folder-350x292.png)
+   ![Trascina il report nella cartella](assets/nwe-drag-report-to-folder-350x292.png)

@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Visualizzazione: rimozione del collegamento a un oggetto in una colonna"
+title: 'Visualizzazione: rimozione del collegamento a un oggetto in una colonna'
 description: Per impostazione predefinita, alcuni oggetti visualizzati in una visualizzazione vengono collegati alla pagina Dettagli dell'oggetto. Ad esempio, la colonna in cui viene visualizzato il Nome di un progetto è un collegamento al progetto; la colonna in cui viene visualizzato il Nome di un utente è un collegamento alla pagina del profilo dell’utente.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
-source-git-commit: 17a277a5a63a521ec7285e3f5051bfd42fc204bf
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Oppure
 
-   Fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png)
+   Fai clic sull&#39;icona **Modifica** ![Modifica](assets/edit-icon.png)
 
    per modificare una vista esistente, selezionare la vista.
 

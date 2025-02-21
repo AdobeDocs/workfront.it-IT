@@ -7,9 +7,9 @@ description: È possibile tracciare un report in base a un campo personalizzato 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ Per generare il campo personalizzato calcolato che fa riferimento al campo perso
 
 1. Sostituisci &quot;Campo personalizzato a selezione multipla&quot; con il nome effettivo del campo personalizzato a selezione multipla, come visualizzato in Workfront.
 
-   ![](assets/calculated-multi-select-custom-field-nwe-350x223.png)
+   ![Campo personalizzato a selezione multipla calcolato](assets/calculated-multi-select-custom-field-nwe-350x223.png)
 
 1. (Facoltativo) Se il campo personalizzato a selezione multipla è già incluso in questo modulo e se il modulo è già associato a oggetti, abilitare l&#39;opzione **Applica ai calcoli esistenti**.
 
@@ -140,11 +140,11 @@ Per generare il campo personalizzato calcolato che fa riferimento al campo perso
 
 1. (Facoltativo) Per fare in modo che tutti i campi calcolati in base ai quali si desidera creare il grafico vengano compilati con valori, dalla scheda Dettagli del report selezionare tutti gli oggetti che contengono il modulo personalizzato con il campo personalizzato a selezione multipla e il campo personalizzato calcolato, quindi fare clic su **Modifica**.
 1. (Facoltativo e condizionale) Seleziona il campo **Ricalcola espressioni personalizzate**, quindi fai clic su **Salva modifiche**.\
-   ![](assets/recalculate-custom-expressions-350x259.png)
+   ![Ricalcolare espressioni personalizzate](assets/recalculate-custom-expressions-350x259.png)
 
    >[!NOTE]
    >
-   >Questa opzione è stata eliminata dalla modifica in blocco di progetti.  È comunque possibile ricalcolare le espressioni per i progetti in blocco facendo clic sull&#39;icona **Altro** ![](assets/more-icon-45x33.png) nella parte superiore dell&#39;elenco dei progetti, quindi **Ricalcola espressioni**.
+   >Questa opzione è stata eliminata dalla modifica in blocco di progetti.  Puoi comunque ricalcolare le espressioni per i progetti in blocco facendo clic sull&#39;icona **Altro** ![Altro](assets/more-icon-45x33.png) nella parte superiore dell&#39;elenco dei progetti, quindi **Ricalcola espressioni**.
 
 1. Vai al report in cui desideri aggiungere il grafico per il campo calcolato che fa riferimento al campo personalizzato a selezione multipla.
 1. Fai clic su **Azioni report**, quindi su **Modifica**.
@@ -160,4 +160,4 @@ Per generare il campo personalizzato calcolato che fa riferimento al campo perso
 
    Il rapporto visualizza i risultati raggruppati per il campo a selezione multipla calcolato in un grafico.
 
-   ![](assets/chart-multi-select-field-column-chart-example.png)
+   ![Campo a selezione multipla nel grafico](assets/chart-multi-select-field-column-chart-example.png)

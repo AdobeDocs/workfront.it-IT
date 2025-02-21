@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Visualizza: Calcolare le differenze di data e ora"
+title: 'Visualizza: Calcola differenze di data e ora'
 description: Scopri come calcolare le differenze di data e ora.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 È ad esempio possibile calcolare la differenza tra la data di completamento pianificata e la data di completamento effettiva di un&#39;attività.
 
-![](assets/view-planned-actual-completion-dates-datediff-column-new.png)
+![Differenza date](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
 1. Consente di passare a un elenco di attività.
 1. Dal menu a discesa **Visualizza**, fare clic su **Nuova visualizzazione**.
@@ -100,7 +100,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 Per un elenco degli oggetti e dei relativi oggetti padre, vedere la sezione &quot;Informazioni sull&#39;interdipendenza e sulla gerarchia degli oggetti&quot; in [Informazioni sugli oggetti in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
 È ad esempio possibile calcolare la differenza tra la data di completamento pianificata di un&#39;attività e la data di completamento pianificata dell&#39;attività padre o del progetto a cui appartiene l&#39;attività.
 
-![](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
+![Differenza data di completamento pianificata](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. Consente di passare a un elenco di attività.
 1. Dal menu a discesa **Visualizza**, fare clic su **Nuova visualizzazione**.

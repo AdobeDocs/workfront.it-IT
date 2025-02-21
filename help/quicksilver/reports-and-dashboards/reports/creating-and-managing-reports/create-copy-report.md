@@ -7,9 +7,9 @@ description: Puoi creare una copia di qualsiasi rapporto a cui hai accesso. È p
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ Se si desidera creare una copia di un report personalizzato, eseguire le operazi
 
 Se si desidera creare una copia di un report predefinito, eseguire le operazioni seguenti:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront.
 
 1. Fai clic su **Rapporti**, quindi su **Tutti i rapporti**.
 1. Fare clic sul nome di un report predefinito per aprirlo.
@@ -124,6 +124,6 @@ Se si desidera creare una copia di un report predefinito, eseguire le operazioni
 1. Fai clic su **Fine**.
 1. Fare clic su **Salva come nuovo report**.
 
-   ![](assets/unshimmed-save-as-new-report.png)
+   ![Salva come nuovo report](assets/unshimmed-save-as-new-report.png)
 
 1. (Facoltativo) Per condividere la nuova versione del report con altri utenti, fai clic su **Azioni report**, quindi su **Condivisione**.

@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Visualizzazione: visualizzare un’immagine invece di una stringa in una colonna"
+title: 'Visualizzazione: visualizzare un''immagine anziché una stringa in una colonna'
 description: È possibile sostituire il nome di un oggetto in una visualizzazione con un'immagine utilizzando la modalità testo. È inoltre possibile aggiungere all'immagine un collegamento che consenta di aprire l'oggetto che sostituisce.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >Le immagini vengono visualizzate nella loro risoluzione effettiva, quindi prova a utilizzare immagini piccole.
 
-![](assets/replace-project-name-with-image-and-link-350x125.png)
+![Sostituisci nome progetto con immagine e collegamento](assets/replace-project-name-with-image-and-link-350x125.png)
 
 ## Requisiti di accesso
 
@@ -86,7 +86,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    1. Fai clic con il pulsante destro del mouse e seleziona **Copia percorso immagine** o **Ottieni collegamento**, a seconda del browser in uso. Ora disponi dell’URL per quell’immagine specifica e puoi incollarla dagli Appunti.
    1. Assicurati che tutti coloro che dispongono di quel collegamento siano autorizzati a visualizzare l’immagine semplicemente andando sul collegamento e che non abbiano bisogno di un accesso per accedervi.
 
-1. Vai a un progetto, fai clic sul menu **Altro** ![](assets/more-icon-45x33.png) accanto al nome del progetto, quindi fai clic su **Modifica**.
+1. Vai a un progetto, fai clic sul menu **Altro** ![Icona Altro](assets/more-icon-45x33.png) accanto al nome del progetto, quindi fai clic su **Modifica**.
 
 1. Aggiungi il collegamento all&#39;immagine nel campo **URL**.
 1. Consente di passare a una visualizzazione di progetto in un elenco di progetti.

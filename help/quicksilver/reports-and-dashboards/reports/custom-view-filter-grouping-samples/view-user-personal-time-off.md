@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Visualizza: indisponibilità personale utente"
-description: "Visualizza: Indisponibilità personale utente"
+title: 'Visualizza: indisponibilità personale dell''utente'
+description: 'Visualizza: Indisponibilità personale utente'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '260'
 ht-degree: 5%
 
 ---
@@ -71,7 +71,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Visualizza indisponibilità personale utente
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro, quindi fai clic su **Rapporti > Nuovo rapporto**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **Reports > New Report**.
 1. Dal menu a discesa, seleziona **Indisponibilità**.
 1. Fai clic su **Salva e Chiudi**.
 

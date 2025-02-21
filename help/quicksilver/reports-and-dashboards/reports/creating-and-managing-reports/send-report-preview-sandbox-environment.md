@@ -6,9 +6,9 @@ description: Le informazioni presenti in questa pagina si riferiscono alle funzi
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 568360df-bec9-4767-8b5a-32a294d05d47
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Il fatto che un report consegnato venga prodotto o meno nell&#39;ambiente di ant
 
 Per informazioni sull&#39;abilitazione delle e-mail dall&#39;ambiente Sandbox, vedere [Abilitare la consegna di e-mail dall&#39;ambiente Sandbox di anteprima](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
-![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+![Ricevi e-mail dall&#39;opzione sandbox](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 La pianificazione dei rapporti da consegnare nell’ambiente di anteprima è identica alla pianificazione dei rapporti nell’ambiente di produzione. Per informazioni sulla pianificazione di un report per la consegna, vedere [Panoramica sulla consegna del report](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
@@ -100,7 +100,7 @@ Il fatto che un rapporto consegnato venga prodotto o meno nella Sandbox di aggio
 
 Per informazioni sull&#39;attivazione delle e-mail dall&#39;ambiente di anteprima, vedere la sezione [Visualizzare e modificare le impostazioni delle notifiche e-mail](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) nell&#39;articolo [Modificare le proprie notifiche e-mail](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+![Ricevi e-mail dall&#39;opzione sandbox](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 La pianificazione dei rapporti da consegnare nell’ambiente Sandbox di aggiornamento personalizzato è identica alla pianificazione dei rapporti nell’ambiente di produzione. Per informazioni sulla pianificazione di un report per la consegna, vedere [Panoramica sulla consegna del report](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 

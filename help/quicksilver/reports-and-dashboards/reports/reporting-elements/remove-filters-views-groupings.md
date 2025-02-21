@@ -6,9 +6,9 @@ description: È possibile rimuovere un filtro, una visualizzazione o un raggrupp
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '811'
 ht-degree: 1%
 
 ---
@@ -116,7 +116,7 @@ Quando si rimuove un filtro, una visualizzazione o un raggruppamento, si verific
 ### Rimuovere un filtro, una visualizzazione o un raggruppamento mediante il generatore di versioni precedenti
 
 1. Consente di passare a un elenco di oggetti o a un report.
-1. (Condizionale) Da un elenco, fai clic sull&#39;icona **Filtro**, **Visualizzazione** o **Raggruppamento**, quindi passa il puntatore del mouse sul filtro, sulla visualizzazione o sul raggruppamento che desideri rimuovere, fai clic sull&#39;icona **Altro** ![](assets/more-icon.png), quindi su **Rimuovi**. Il filtro, la visualizzazione o il raggruppamento vengono rimossi.
+1. (Condizionale) Da un elenco, fai clic sull&#39;icona **Filtro**, **Visualizzazione** o **Raggruppamento**, quindi passa il puntatore del mouse sul filtro, sulla visualizzazione o sul raggruppamento che desideri rimuovere, fai clic sull&#39;icona **Altro** ![Icona Altro](assets/more-icon.png), quindi **Rimuovi**. Il filtro, la visualizzazione o il raggruppamento vengono rimossi.
 1. (Condizionale) Da un report, fare clic sul menu a discesa **Raggruppamento**, **Filtro** o **Visualizza** e selezionare **Rimuovi raggruppamento**, **Rimuovi filtro** o **Rimuovi visualizzazione**.
 
    Viene visualizzata la finestra di dialogo **I miei raggruppamenti**, **I miei filtri,** o **Le mie visualizzazioni**.

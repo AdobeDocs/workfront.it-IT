@@ -6,9 +6,9 @@ description: Utilizzare la formattazione condizionale in modalità testo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1682'
+source-wordcount: '1734'
 ht-degree: 1%
 
 ---
@@ -189,10 +189,10 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 >* Questa istruzione può essere applicata a una colonna Nome società, ma può anche essere applicata a qualsiasi altra colonna del report. Il testo verde viene visualizzato solo se al progetto è associata una società. Ricordare l&#39;unità `[field name]`, `[value]` e `[qualifier]`, indipendentemente dal fatto che il condizionamento venga visualizzato o meno nella colonna.
 >* Quando si lavora con i qualificatori, è consigliabile utilizzare `cicontains` anziché `equal`. Per impostazione predefinita, `equal` cerca i numeri ID. Utilizzando il qualificatore `cicontains`, è possibile accedere agli elementi in base al loro nome.
 
-![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png){width="500"}
+![Esempio di modalità testo](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png){width="500"}
 
 
-![](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png){width="400"}
+![Risultati esempio modalità testo](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png){width="400"}
 
 Se a una modalità testo vengono applicati il colore del testo, l&#39;allineamento, lo stile del carattere o il colore di sfondo, viene utilizzata la stessa istruzione (illustrata sopra).
 
@@ -297,9 +297,9 @@ styledef.case.0.comparison.truetext=not today
 >
 >Le righe che iniziano con `case.0.` confronti tra casi d&#39;uso per identificare l&#39;uso del testo. Le righe che iniziano con `styledef.case.0.` sono le prime istruzioni di formattazione condizionale in cui viene identificato l&#39;utilizzo del testo tramite l&#39;espressione `truetext`. Assicurarsi di impostare `truetext` su un valore, anziché lasciarlo vuoto.
 
-![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png){width="500"}
+![Applica esempio di testo](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png){width="400"}
+![Applica risultati testo](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png){width="400"}
 
 #### Applicare formati di riga {#apply-row-formats}
 
@@ -359,30 +359,30 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 >
 >L&#39;istruzione utilizza l&#39;espressione `icon=true`. Questa istruzione è diversa anche da altre istruzioni di formattazione condizionale in quanto non utilizza il formato `style.def`, ma un formato immagine univoco.
 
-![](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png){width="500"}
+![Modalità testo icona](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png){width="400"}
+![Risultati modalità testo icona](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png){width="400"}
 
 Per utilizzare le immagini disponibili, applica il codice e i valori seguenti:
 
 | **Icona** | **Riga: image.case.0.comparison.truetext=** |
 |---|---|
-| Faccia accigliata ![](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
-| Volto felice ![](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
-| Flag blu ![](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
-| Flag verde ![](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
-| Contrassegno rosso ![](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
-| Flag giallo ![](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
-| Cerchio nero ![](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
-| Cerchio blu ![](assets/dot-blue.png) | =`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
-| Cerchio grigio ![](assets/dot-gray.png) | =`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
-| Cerchio verde ![](assets/dot-green.png) | =`/interface/images/v4_redux/icons/casebuilder/light_green.gif` |
-| Cerchio arancione ![](assets/dot-orange.png) | =`/interface/images/v4_redux/icons/casebuilder/light_orange.gif` |
-| Cerchio rosa ![](assets/dot-pink.png) | =`/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
-| Cerchio viola ![](assets/dot-purple.png) | =`/interface/images/v4_redux/icons/casebuilder/light_purple.gif` |
-| Cerchio rosso ![](assets/dot-red.png) | =`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
-| Cerchio bianco ![](assets/dot-white.png) | =`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
-| Cerchio giallo ![](assets/dot-yellow.png) | =`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
+| Faccia accigliata ![Faccia accigliata](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
+| Volto felice ![Volto felice](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
+| Contrassegno blu ![Contrassegno blu](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
+| Contrassegno verde ![Contrassegno verde](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
+| Contrassegno rosso ![Contrassegno rosso](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
+| Flag giallo ![Flag giallo](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
+| Cerchio nero ![Cerchio nero](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
+| Cerchio blu ![Cerchio blu](assets/dot-blue.png) | =`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
+| Cerchio grigio ![Cerchio grigio](assets/dot-gray.png) | =`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
+| Cerchio verde ![Cerchio verde](assets/dot-green.png) | =`/interface/images/v4_redux/icons/casebuilder/light_green.gif` |
+| Cerchio arancione ![Cerchio arancione](assets/dot-orange.png) | =`/interface/images/v4_redux/icons/casebuilder/light_orange.gif` |
+| Cerchio rosa ![Cerchio rosa](assets/dot-pink.png) | =`/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
+| Cerchio viola ![Cerchio viola](assets/dot-purple.png) | =`/interface/images/v4_redux/icons/casebuilder/light_purple.gif` |
+| Cerchio rosso ![Cerchio rosso](assets/dot-red.png) | =`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
+| Cerchio bianco ![Cerchio bianco](assets/dot-white.png) | =`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
+| Cerchio giallo ![Cerchio giallo](assets/dot-yellow.png) | =`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
 
 {style="table-layout:auto"}
 

@@ -6,9 +6,9 @@ description: È possibile utilizzare la formattazione condizionale per confronta
 author: Nolan
 feature: Reports and Dashboards
 exl-id: da4447ba-6e76-4701-88ee-87a30393bed9
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '469'
 ht-degree: 1%
 
 ---
@@ -76,7 +76,7 @@ Per confrontare la Data inizio pianificata e la Data inizio effettiva dell&#39;a
 1. Immetti i criteri di confronto utilizzando i valori esistenti trovati nel generatore e specifica la formattazione condizionale.\
    Ad esempio, si desidera evidenziare le attività in cui la data di inizio effettiva è successiva alla data di inizio pianificata (o successiva). Selezionare il modificatore Maggiore di e selezionare una data effettiva nel campo data.
 
-   ![](assets/cond-format-1-350x84.png)
+   ![Formattazione condizionale per la data di inizio effettiva](assets/cond-format-1-350x84.png)
 
 1. (Facoltativo) Selezionare **Applica a tutta la riga** se si desidera applicare la formattazione all&#39;intera riga.
 1. Fai clic su **Salva**.
@@ -104,7 +104,7 @@ Per confrontare la Data inizio pianificata e la Data inizio effettiva dell&#39;a
 
 1. Verificare che la riga di codice `righttext` corrisponda all&#39;istruzione nella riga di codice `rightmethod`.
 
-   ![](assets/cond-format-2-350x171.png)
+   ![Formattazione condizionale](assets/cond-format-2-350x171.png)
 
 1. Fai clic su **Salva**.
 1. Fai clic su **Salva e Chiudi**.

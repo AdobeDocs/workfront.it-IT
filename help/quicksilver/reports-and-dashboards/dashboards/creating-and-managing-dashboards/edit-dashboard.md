@@ -6,10 +6,10 @@ description: Lo scopo del dashboard è quello di fornire un accesso rapido alle 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 1%
+source-wordcount: '497'
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Lo scopo del dashboard è quello di fornire un accesso rapido alle informazioni. In Adobe Workfront, puoi popolare un dashboard con i seguenti elementi:
 
-* Report
+* Rapporti
 
   Per ulteriori informazioni sulla creazione di report, vedere [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
@@ -86,7 +86,7 @@ Per informazioni sulla creazione di dashboard, vedere [Creare un dashboard](../.
 1. Passa alla dashboard da modificare.
 1. Fai clic su **Azioni dashboard**, quindi su **Modifica**.
 
-   ![](assets/unshimmed-edit-dashboard.png)
+   ![Modifica dashboard](assets/unshimmed-edit-dashboard.png)
 
    >[!TIP]
    >

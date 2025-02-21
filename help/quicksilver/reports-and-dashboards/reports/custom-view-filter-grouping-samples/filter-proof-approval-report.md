@@ -2,14 +2,14 @@
 content-type: tips-tricks-troubleshooting
 product-area: reporting;user-management
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: "Filtro: rapporto Approvazione bozza per omettere le versioni di bozza precedenti"
+title: 'Filtro: rapporto Approvazione bozza per omettere le versioni di bozza precedenti'
 description: In un rapporto Proof Approval (Approvazione bozza) è possibile utilizzare il filtro Is Current Document Version (È versione corrente del documento) per includere solo le versioni correnti delle bozze in attesa di approvazione.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e844d3ed-75ee-4a0f-a28c-a3d22f203502
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Puoi creare un filtro per un rapporto Proof Approval (Approvazione della bozza).
    <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sarah: Add sub bullets for report creation.</p>
    -->
 
-   Per creare un report Proof Approval personalizzato, fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** in alto a destra oppure sull&#39;icona ![](assets/lines-main-menu.png) del **menu principale** in alto a sinistra, se disponibile, quindi fai clic su **Report** ![](assets/reports-in-main-menu.png).
+   Per creare un report Proof Approval personalizzato, fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro o sull&#39;icona **Main Menu** ![Main Menu lines](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **Reports** ![Reports icon](assets/reports-in-main-menu.png).
 
 1. Fare clic su **Nuovo report**. Viene visualizzato l&#39;elenco dei tipi di oggetto.
 1. Fare clic su **Approvazione bozza** nell&#39;elenco.

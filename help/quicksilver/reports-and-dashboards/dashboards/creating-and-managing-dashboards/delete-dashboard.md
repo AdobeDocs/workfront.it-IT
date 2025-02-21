@@ -6,9 +6,9 @@ description: Se non utilizzi più un dashboard, puoi rimuoverlo da Adobe Workfro
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 706a3e16-34d7-49d8-9688-109ce4f95c2f
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Per eliminare un dashboard:
 1. Passa alla dashboard da modificare.
 1. Fai clic su **Azioni dashboard**, quindi su **Elimina**.
 
-   ![](assets/unshimmed-delete-dashboard.png)
+   ![Elimina dashboard](assets/unshimmed-delete-dashboard.png)
 
 1. Per confermare l&#39;eliminazione del dashboard, fare clic su **Sì, elimina il dashboard.**
 La dashboard viene rimossa da Workfront.
@@ -84,9 +84,9 @@ Se elimini più dashboard, puoi eliminarle dall’area Dashboard. Questo è anch
 Per eliminare più dashboard:
 
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Dashboards]**.
-1. Selezionare ogni dashboard nell&#39;elenco da eliminare, quindi fare clic su **Elimina** ![](assets/delete.png).
+1. Selezionare ogni dashboard nell&#39;elenco che si desidera eliminare, quindi fare clic su **Elimina** ![Elimina icona](assets/delete.png).
 
-   ![](assets/unshimmed-delete-dashboard-list.png)
+   ![Elimina dashboard](assets/unshimmed-delete-dashboard-list.png)
 
 1. Per confermare l&#39;eliminazione del dashboard, fare clic su **Sì, elimina il dashboard.**
 La dashboard viene rimossa da Workfront.

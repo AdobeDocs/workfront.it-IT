@@ -6,9 +6,9 @@ description: È possibile filtrare un report in base all'intervallo di tempo di 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1024'
 ht-degree: 5%
 
 ---
@@ -70,14 +70,14 @@ Per ulteriori informazioni sulla creazione di report, vedere [Creare un report](
 
 ## Filtrare un rapporto in base all’intervallo di tempo di una data {#filter-a-report-by-the-time-frame-of-a-date}
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **Main Menu**, quindi fai clic su **Reporting**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png), quindi fai clic su **Reporting**.
 
 1. Fai clic su **Nuovo rapporto**, quindi seleziona il tipo di rapporto desiderato.\
    Ad esempio, seleziona **Rapporto ore**.
 
 1. Selezionare la scheda **Filtri**.
 1. Fai clic su **Aggiungi regola filtro**, quindi seleziona **Data immissione ore**.\
-   ![](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
+   ![Filtraggio del report delle ore per intervallo temporale](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
 
 1. Nel menu a discesa seguente, selezionare una delle opzioni seguenti:
 

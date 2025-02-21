@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Visualizza: mostra il nome delle attività padre come tutto maiuscolo"
+title: 'Visualizza: mostra il nome delle attività padre come maiuscole'
 description: È possibile aggiungere questa colonna a una visualizzazione delle attività per visualizzare il nome delle attività padre in lettere maiuscole.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bb489920-6b17-4689-b432-b0c28bcb5d10
-source-git-commit: a7cdee912e5047f1c8ef224aff6a41eaa3633df6
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 È possibile aggiungere questa colonna a una visualizzazione delle attività per visualizzare il nome delle attività padre in lettere maiuscole.
 
-![](assets/column-task-with-all-caps-parent-350x112.png)
+![Colonna con attività padre in maiuscolo](assets/column-task-with-all-caps-parent-350x112.png)
 
 ## Requisiti di accesso
 
@@ -67,7 +67,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 Per generare questa colonna in una visualizzazione delle attività:
 
 1. Consente di passare a un elenco di attività.
-1. Dal menu a discesa **Visualizza**, seleziona una visualizzazione, quindi fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png).
+1. Dal menu a discesa **Visualizza**, seleziona una visualizzazione, quindi fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png).
 Oppure\
    Dal menu a discesa **Visualizza**, selezionare **Nuova visualizzazione**.
 

@@ -6,9 +6,9 @@ description: È possibile personalizzare il tipo di informazioni visualizzate su
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1718'
+source-wordcount: '1731'
 ht-degree: 1%
 
 ---
@@ -97,7 +97,7 @@ Viene visualizzata la finestra di dialogo **Personalizza visualizzazione**.
 
         Per i campi numerici e di valuta, è possibile riepilogare i valori utilizzando le opzioni seguenti:
 
-         * Conta
+         * Conteggio
          * SOMMA
          * Media
          * Massimo
@@ -123,7 +123,7 @@ Viene visualizzata la finestra di dialogo **Personalizza visualizzazione**.
          <tbody> 
           <tr> 
            <td role="rowheader"><strong>Etichetta colonna personalizzata</strong></td> 
-           <td><p>Specifica un’etichetta personalizzata per la colonna. Questa etichetta sostituisce quella predefinita.</p></td> 
+           <td><p>Specifica un’etichetta personalizzata per la colonna. Questa etichetta sostituisce quella predefinita. Per evitare problemi di compatibilità, si consiglia di utilizzare solo caratteri UTF-8.</p></td> 
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Formato campo</strong></td> 
@@ -179,7 +179,7 @@ Per creare o personalizzare una visualizzazione Agile:
       Non è possibile personalizzare la visualizzazione Agile predefinita.
 
    1. Fai di nuovo clic sul menu a discesa **Visualizza**, quindi fai clic su **Personalizza visualizzazione**.\
-      ![](assets/view-agile-customize.png)
+      ![Personalizza visualizzazione](assets/view-agile-customize.png)
 
 1. (Condizionale) Per creare una nuova visualizzazione Agile, fai clic su **Nuova visualizzazione**.\
    Viene visualizzata la finestra di dialogo **Personalizza visualizzazione Agile**.

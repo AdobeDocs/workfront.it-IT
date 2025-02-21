@@ -4,9 +4,9 @@ description: I blocchi di contenuto web consentono di visualizzare informazioni 
 hidefromtoc: true
 hide: true
 exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '332'
 ht-degree: 1%
 
 ---
@@ -21,12 +21,12 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
 
 ## Aggiungere o modificare un blocco di contenuto web
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **Main Menu** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Reporting**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Reporting**.
 1. Fare clic su **Nuovo report**.
 
    Oppure
 
-   Vai a un report esistente, fai clic sull&#39;icona **Altro** ![](assets/more-icon-27x15.png) nell&#39;intestazione del report, quindi fai clic su **Modifica**.
+   Vai a un report esistente, fai clic sull&#39;icona **Altro** ![Altro](assets/more-icon-27x15.png) nell&#39;intestazione del report, quindi fai clic su **Modifica**.
 
 1. Nella parte destra della schermata, in **Aggiungi un blocco**:
 
@@ -41,9 +41,9 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
    >Puoi modificare le dimensioni del blocco dopo averlo posizionato trascinandone le maniglie d’angolo.
 
 1. Fai clic su **Contenuto Web senza titolo** nell&#39;intestazione del blocco, quindi digita un titolo per il blocco.
-1. Fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) nell&#39;intestazione del blocco.
+1. Fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png) nell&#39;intestazione del blocco.
 
-   ![](assets/web-content-block-header-350x76.png)
+   ![Icona Modifica nell&#39;intestazione del blocco](assets/web-content-block-header-350x76.png)
 
 1. Nel pannello **Impostazioni** visualizzato, immetti l&#39;URL completo per la pagina che desideri visualizzare (incluso &quot;https://&quot;) nel campo **URL**.
 

@@ -4,9 +4,9 @@ description: Aggiungere o modificare un blocco di visualizzazione nell’area di
 hidefromtoc: true
 hide: true
 exl-id: 14750eb1-d0a3-42ea-bd2e-100b633322ff
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '437'
 ht-degree: 1%
 
 ---
@@ -32,12 +32,12 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
 >
 >Tutte le modifiche vengono salvate automaticamente durante la generazione e la modifica dei blocchi nel report.
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **Main Menu** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Reporting**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Reporting**.
 1. Fare clic su **Nuovo report**, quindi creare un report con tabelle contenenti dati, come descritto in [Creare un report nell&#39;area di lavoro Reporting](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md) e [Aggiungere o modificare un blocco di tabella nell&#39;area di lavoro Reporting](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
 
    Oppure
 
-   In un report esistente con tabelle contenenti dati, fare clic sull&#39;icona ![](assets/more-icon.png) di **Altro menu** nell&#39;intestazione del report, quindi selezionare **Modifica**.
+   In un report esistente con tabelle contenenti dati, fare clic sull&#39;icona **Altro menu** ![Altro icona](assets/more-icon.png) nell&#39;intestazione del report, quindi selezionare **Modifica**.
 
 1. Nella parte destra della schermata, in **Aggiungi un blocco**:
 
@@ -57,7 +57,7 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
 
 1. (Condizionale) Se il report contiene più di una tabella, nella casella **Genera la visualizzazione** visualizzata, seleziona la tabella di origine per la visualizzazione.
 
-   ![](assets/select-table-on-vis-350x155.png)
+   ![Seleziona tabella nella visualizzazione](assets/select-table-on-vis-350x155.png)
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
 
 1. Seleziona il tipo di visualizzazione da aggiungere.
 
-   ![](assets/select-vis-type-350x205.png)
+   ![Seleziona tipo di visualizzazione](assets/select-vis-type-350x205.png)
 
    Viene visualizzata la visualizzazione, che rappresenta i dati della tabella selezionata.
 

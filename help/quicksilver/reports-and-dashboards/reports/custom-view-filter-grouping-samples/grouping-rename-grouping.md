@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Raggruppamento: modificare il nome visualizzato in un raggruppamento"
+title: 'Raggruppamento: modificare il nome visualizzato in un raggruppamento'
 description: È possibile rinominare i raggruppamenti in elenchi e rapporti in modo più familiare agli utenti.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 È possibile rinominare i raggruppamenti in modo da renderli più familiari agli utenti.
 
-Quando ad esempio si applica il raggruppamento Nome Portfolio standard a un elenco di progetti, il nome del raggruppamento viene visualizzato come *Portfolio: Nome:`<name of portfolio>`*.
+Ad esempio, quando applichi il raggruppamento Nome Portfolio standard a un elenco di progetti, il nome del raggruppamento viene visualizzato come *Portfolio: Nome:`<name of portfolio>`*.
 
-![](assets/grouping-unedited-name-350x167.png)
+![Raggruppamento per nome non modificato](assets/grouping-unedited-name-350x167.png)
 
 È possibile modificare questo raggruppamento utilizzando la modalità testo per visualizzare un nome più facile da leggere.
 
-![](assets/grouping-edited-name-350x160.png)
+![Raggruppamento per nome modificato](assets/grouping-edited-name-350x160.png)
 
 ## Requisiti di accesso
 
@@ -103,7 +103,7 @@ Per modificare il nome visualizzato in un raggruppamento di progetti:
      >È inoltre possibile lasciare vuote le righe `group.0.name=` e `group.0.displayname=`, nel qual caso il raggruppamento mostra il valore in base al quale si sta effettuando il raggruppamento.
 
 
-     ![](assets/grouping-edited-name-no-name-350x162.png)
+     ![Raggruppamento per nome modificato senza nome](assets/grouping-edited-name-no-name-350x162.png)
 
 1. Fai clic su **Fine**, quindi su **Salva raggruppamento**.
 1. (Facoltativo) Aggiornare il nome del raggruppamento, quindi fare clic su **Salva raggruppamento**.

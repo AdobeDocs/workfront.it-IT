@@ -6,9 +6,9 @@ description: Puoi applicare la vista Milestone (Attività cardine) a un elenco o
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -126,16 +126,16 @@ Quando si visualizza l’elenco o il rapporto di un progetto nella vista Milesto
 * **Icone di stato attività:** Accanto a ogni progetto e attività nella visualizzazione Milestone viene visualizzata un&#39;icona di stato.
 
    * Nei Tempi\
-     ![](assets/gantt-ontime.png)
+     ![Icona orario](assets/gantt-ontime.png)
 
    * Indietro\
-     ![](assets/gantt-behind.png)
+     ![Icona Indietro](assets/gantt-behind.png)
 
    * A Rischio\
-     ![](assets/gantt-atrisk.png)
+     ![Icona a rischio](assets/gantt-atrisk.png)
 
    * In Ritardo\
-     ![](assets/gantt-late.png)
+     ![Icona ritardo](assets/gantt-late.png)
 
   È possibile disattivare la visualizzazione di queste icone di stato, come descritto nella sezione [Configurare le informazioni visualizzate nella vista Milestone](#configure-what-information-displays-in-the-milestone-view) in questo articolo.\
   Per informazioni più dettagliate su ciascun tipo di stato, vedere l&#39;articolo [Panoramica sullo stato di avanzamento dell&#39;attività](../../../manage-work/tasks/task-information/task-progress-status.md).
@@ -183,7 +183,7 @@ Per configurare la visualizzazione delle icone di stato del progetto e della per
 {{step1-to-projects}}
 
 1. Fai clic sul menu a discesa **Visualizza**, quindi fai clic su **Milestone**.\
-   Se visualizzi un elenco di progetti all&#39;interno di un Portfolio o di un programma, seleziona la scheda secondaria **Milestone**.
+   Se visualizzi un elenco di progetti all&#39;interno di un Portfolio o di un Programma, seleziona la scheda secondaria **Milestone**.
 
 1. Fai clic su **Opzioni** nell&#39;angolo superiore destro della visualizzazione Milestone.\
    ![opzioni_vista_milestone.png](assets/milestone-view-options-350x141.png)

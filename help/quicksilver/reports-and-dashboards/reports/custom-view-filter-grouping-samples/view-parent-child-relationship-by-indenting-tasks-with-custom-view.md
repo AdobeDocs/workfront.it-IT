@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Visualizzazione: visualizzazione della relazione padre-figlio in un'attività tramite il rientro delle attività"
+title: 'Visualizza: consente di visualizzare la relazione padre-figlio in un task rientrando i task.'
 description: Per mantenere la distinzione tra relazioni padre e figlio in un elenco di attività esportato, aggiungere una visualizzazione personalizzata all'elenco di attività e assicurarsi che sia selezionata prima di esportare l'elenco.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 4987501f-a1d9-47cd-bfbe-83acfc225204
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Per mantenere la distinzione tra relazioni padre e figlio in un elenco di attività esportato, aggiungere una visualizzazione personalizzata all&#39;elenco di attività e assicurarsi che sia selezionata prima di esportare l&#39;elenco.
 
-![](assets/parent-child-indented-custom-view-350x94.png)
+![Rientro figlio principale](assets/parent-child-indented-custom-view-350x94.png)
 
 ## Requisiti di accesso
 

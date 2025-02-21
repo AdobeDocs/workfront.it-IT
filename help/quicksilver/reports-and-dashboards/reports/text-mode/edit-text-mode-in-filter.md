@@ -6,9 +6,9 @@ description: È possibile modificare un filtro in un elenco o in un report utili
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1044'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ Per informazioni sulla creazione di un report, vedere [Creare un report personal
 
 1. Esegui una delle operazioni seguenti:
 
-   Per accedere al filtro da un elenco, vai all&#39;elenco e fai clic sull&#39;icona **Filtro**, quindi passa il puntatore del mouse sul filtro nel pannello laterale **Filtri** che desideri modificare e fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png). Nel pannello laterale **Filtri** viene visualizzato il filtro selezionato oppure viene aperto il generatore di filtri legacy.
+   Per accedere al filtro da un elenco, vai all&#39;elenco e fai clic sull&#39;icona **Filtro**, quindi passa il puntatore del mouse sul filtro nel pannello laterale **Filtri** che desideri modificare e fai clic sull&#39;icona **Modifica** ![Icona Modifica](assets/edit-icon.png). Nel pannello laterale **Filtri** viene visualizzato il filtro selezionato oppure viene aperto il generatore di filtri legacy.
 
    OPPURE
 

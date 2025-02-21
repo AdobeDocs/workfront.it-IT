@@ -4,9 +4,9 @@ description: Creare un rapporto nell’area di lavoro rapporti
 hidefromtoc: true
 hide: true
 exl-id: eac210d8-0e25-4aae-94f4-b26a81240482
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
 >
 >Tutte le modifiche vengono salvate automaticamente durante la generazione e la modifica dei blocchi nel report.
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **Main Menu** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Reporting**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Reporting**.
 1. Fare clic su **Nuovo report**.
 1. Nell’angolo in alto a sinistra dell’area di modifica, digita un nome per il rapporto.
 
-   Puoi cambiare il nome del report in qualsiasi momento facendo clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) accanto al nome.
+   Puoi cambiare il nome del report in qualsiasi momento facendo clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png) accanto al nome.
 
 1. Dal lato destro dello schermo, trascina i blocchi da aggiungere nell’area di lavoro.
 

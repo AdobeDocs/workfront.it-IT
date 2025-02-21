@@ -6,9 +6,9 @@ description: Adobe Workfront dispone di un ampio elenco di rapporti incorporati 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2964'
+source-wordcount: '2970'
 ht-degree: 10%
 
 ---
@@ -83,19 +83,19 @@ I seguenti rapporti sono forniti con il pacchetto Workfront. I rapporti sono dis
  <tbody> 
   <tr> 
    <td>Costo Reale di Portfolio per Programma</td> 
-   <td>Un report di progetti che visualizza il costo pianificato e il costo effettivo dei progetti. Il report è raggruppato per Nome programma, richiesto dal Nome Portfolio, e include un grafico.</td> 
+   <td>Un report di progetti che visualizza il costo pianificato e il costo effettivo dei progetti. Il report è raggruppato per Nome programma, richiesto da Nome Portfolio, e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Costo Reale di Portfolio per Progetto</td> 
-   <td>Un report di progetti che visualizza il costo pianificato e il costo effettivo dei progetti. Il report è raggruppato per Nome progetto, richiesto dal Nome Portfolio, e include un grafico.</td> 
+   <td>Un report di progetti che visualizza il costo pianificato e il costo effettivo dei progetti. Il report è raggruppato per Nome progetto, richiesto da Nome Portfolio, e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Reddito Reale di Portfolio per Programma</td> 
-   <td>Un report di progetti che visualizza la Retribuzione pianificata e la Retribuzione effettiva dei progetti. Il report è raggruppato per Nome programma, richiesto dal Nome Portfolio, e include un grafico.</td> 
+   <td>Un report di progetti che visualizza la Retribuzione pianificata e la Retribuzione effettiva dei progetti. Il report è raggruppato per Nome programma, richiesto da Nome Portfolio, e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Reddito Reale di Portfolio per Progetto</td> 
-   <td>Un report di progetti che visualizza la Retribuzione pianificata e la Retribuzione effettiva dei progetti. Il report è raggruppato per Nome progetto, richiesto dal Nome Portfolio, e include un grafico.</td> 
+   <td>Un report di progetti che visualizza la Retribuzione pianificata e la Retribuzione effettiva dei progetti. Il report è raggruppato per Nome progetto, richiesto da Nome Portfolio, e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Questa mostra il Reddito Reale per Azienda</td> 
@@ -115,7 +115,7 @@ I seguenti rapporti sono forniti con il pacchetto Workfront. I rapporti sono dis
   </tr> 
   <tr> 
    <td>Progetti a Rischio</td> 
-   <td>Un report di progetti che visualizza i progetti correnti e di pianificazione con una condizione A rischio o In difficoltà. Il rapporto visualizza i campi seguenti: Descrizione, Data di completamento pianificata, Data di completamento prevista, Percentuale di completamento, Stato e Priorità dei progetti. Il rapporto è raggruppato per nome Portfolio.</td> 
+   <td>Un report di progetti che visualizza i progetti correnti e di pianificazione con una condizione A rischio o In difficoltà. Il rapporto visualizza i campi seguenti: Descrizione, Data di completamento pianificata, Data di completamento prevista, Percentuale di completamento, Stato e Priorità dei progetti. Il report è raggruppato per nome Portfolio.</td> 
   </tr> 
   <tr> 
    <td>Questo mostra il reddito fatturato per azienda</td> 
@@ -199,7 +199,7 @@ I seguenti rapporti sono forniti con il pacchetto Workfront. I rapporti sono dis
   </tr> 
   <tr> 
    <td>I Miei Portfolio</td> 
-   <td>Un report di Portfoli che visualizza i Portfoli attivi in cui l'utente connesso è il Manager Portfolio.</td> 
+   <td>Un report di Portfolio che visualizza i portfolio attivi in cui l'utente connesso è Portfolio Manager.</td> 
   </tr> 
   <tr> 
    <td>I Miei Programmi</td> 
@@ -243,23 +243,23 @@ I seguenti rapporti sono forniti con il pacchetto Workfront. I rapporti sono dis
   </tr> 
   <tr> 
    <td>Progetti Fuori Budget per Portfolio</td> 
-   <td>Un report di progetti che visualizza il costo pianificato e il costo effettivo dei progetti. Il rapporto è raggruppato per nome Portfolio.</td> 
+   <td>Un report di progetti che visualizza il costo pianificato e il costo effettivo dei progetti. Il report è raggruppato per nome Portfolio.</td> 
   </tr> 
   <tr> 
    <td>Costo Pianifcato Portfolio per Programma</td> 
-   <td>Un report di progetti che visualizza il costo pianificato e il costo effettivo dei progetti. Il report viene richiesto in base al nome del Portfolio, raggruppato in base al nome del programma e include un grafico.</td> 
+   <td>Un report di progetti che visualizza il costo pianificato e il costo effettivo dei progetti. Il report viene richiesto da Nome Portfolio, raggruppato per Nome programma e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Costo Pianificato Portfolio per Progetto</td> 
-   <td>Un report di progetti che visualizza il costo pianificato e il costo effettivo dei progetti. Il report viene richiesto in base al nome del Portfolio, raggruppato in base al nome del progetto e include un grafico.</td> 
+   <td>Un report di progetti che visualizza il costo pianificato e il costo effettivo dei progetti. Il report viene richiesto da Nome Portfolio, raggruppato per Nome progetto e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Reddito Pianificato Portfolio per Programma</td> 
-   <td>Un report di progetti che visualizza la Retribuzione pianificata e la Retribuzione effettiva dei progetti. Il report viene richiesto in base al nome del Portfolio, raggruppato in base al nome del programma e include un grafico.</td> 
+   <td>Un report di progetti che visualizza la Retribuzione pianificata e la Retribuzione effettiva dei progetti. Il report viene richiesto da Nome Portfolio, raggruppato per Nome programma e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Reddito Pianificato Portfolio per Progetto</td> 
-   <td>Un report di progetti che visualizza la Retribuzione pianificata e la Retribuzione effettiva dei progetti. Il report viene richiesto in base al nome del Portfolio, raggruppato in base al nome del progetto e include un grafico.</td> 
+   <td>Un report di progetti che visualizza la Retribuzione pianificata e la Retribuzione effettiva dei progetti. Il report viene richiesto da Nome Portfolio, raggruppato per Nome progetto e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Costi Reali vs. Costi Pianificati per Portfolio</td> 
@@ -279,7 +279,7 @@ I seguenti rapporti sono forniti con il pacchetto Workfront. I rapporti sono dis
   </tr> 
   <tr> 
    <td>Costi portfolio raggruppati per programma e mese</td> 
-   <td>Un report di progetti matrice che visualizza il Costo pianificato, il Costo preventivato e il Costo effettivo dei progetti. Il rapporto è raggruppato per nome Portfolio, nome programma e mese della data di inizio pianificata dei progetti.</td> 
+   <td>Un report di progetti matrice che visualizza il Costo pianificato, il Costo preventivato e il Costo effettivo dei progetti. Il rapporto è raggruppato per nome Portfolio, nome del programma e mese della data di inizio pianificata dei progetti.</td> 
   </tr> 
   <tr> 
    <td>Progetti di Portfolio divisi per Stato e Programma</td> 
@@ -287,15 +287,15 @@ I seguenti rapporti sono forniti con il pacchetto Workfront. I rapporti sono dis
   </tr> 
   <tr> 
    <td>Progetti di Portfolio divisi per condizione e Portfolio</td> 
-   <td>Un report di progetti che visualizza il Nome Portfolio e lo Stato dei progetti. Il report è raggruppato per nome del Portfolio e stato dei progetti e include un grafico.</td> 
+   <td>Un report di progetti che visualizza il Nome Portfolio e lo Stato dei progetti. Il report è raggruppato per nome Portfolio e stato dei progetti e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Il Reddito del Portfolio per Programma</td> 
-   <td>Un report di progetti che visualizza il Nome Portfolio, il Nome programma, la Retribuzione pianificata e la Retribuzione effettiva dei progetti. Il rapporto è raggruppato per nome del Portfolio e per nome del programma e include un grafico.</td> 
+   <td>Un report di progetti che visualizza il Nome Portfolio, il Nome programma, la Retribuzione pianificata e la Retribuzione effettiva dei progetti. Il report è raggruppato per nome Portfolio e nome del programma e include un grafico.</td> 
   </tr> 
   <tr> 
    <td>Retribuzioni raggruppate per programma e mese</td> 
-   <td>Un report di progetti matrice che visualizza la Retribuzione pianificata, la Retribuzione effettiva, il Nome Portfolio e il Nome programma. Il rapporto è raggruppato per nome del Portfolio, nome del programma e mese della data di inizio pianificata dei progetti.</td> 
+   <td>Un report di progetti matrice che visualizza la Retribuzione pianificata, la Retribuzione effettiva, il Nome Portfolio e il Nome programma. Il rapporto è raggruppato per nome Portfolio, nome del programma e mese della data di inizio pianificata dei progetti.</td> 
   </tr> 
   <tr> 
    <td>Retribuzione e costi progetto per stato attività</td> 
@@ -383,7 +383,7 @@ I seguenti rapporti sono forniti con il pacchetto Workfront. I rapporti sono dis
 1. Sotto l&#39;oggetto **Report**, selezionare **ID globale**.
 
 1. Nel menu a discesa del modificatore di filtro, seleziona **Non è vuoto**.\
-   ![](assets/qs-global-id-filter-for-system-reports-350x179.png)
+   ![Filtro ID globale per i report di sistema](assets/qs-global-id-filter-for-system-reports-350x179.png)
 
 1. Fai clic su **Salva filtro**.\
    L’elenco dei rapporti mostra solo i rapporti incorporati.\

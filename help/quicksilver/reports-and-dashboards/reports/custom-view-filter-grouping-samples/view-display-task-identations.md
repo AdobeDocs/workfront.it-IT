@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Visualizzazione: visualizzazione dei rientri delle attività in un elenco attività"
+title: 'Visualizzazione: visualizzazione dei rientri di attività in un elenco attività'
 description: In questa visualizzazione delle attività è possibile aggiungere codice alla colonna Nome attività per visualizzare le attività rientrate in base alla struttura funzionale del progetto.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f7f43e1e-db32-48b8-9a23-ff9fa6195386
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 In questa visualizzazione delle attività è possibile aggiungere codice alla colonna Nome attività per visualizzare le attività rientrate in base alla struttura funzionale del progetto.
 
-![](assets/view-text-mode-indentation-task-list-350x171.png)
+![Visualizza rientro attività](assets/view-text-mode-indentation-task-list-350x171.png)
 
 ## Requisiti di accesso
 

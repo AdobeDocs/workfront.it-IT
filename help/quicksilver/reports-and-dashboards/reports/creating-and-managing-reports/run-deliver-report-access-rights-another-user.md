@@ -6,9 +6,9 @@ description: Per impostazione predefinita, gli utenti possono visualizzare solo 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1193'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Per eseguire un report con i diritti di accesso di un altro utente:
 1. Fare clic su **Impostazioni report**.
 
 1. Nel campo **Esegui il report con i diritti di accesso di:**, iniziare a digitare il nome dell&#39;utente con cui si desidera visualizzare il report, quindi selezionarlo quando viene visualizzato nell&#39;elenco.\
-   ![](assets/unshimmed-access-rights-of.png)
+   ![Esegui con diritti di accesso di](assets/unshimmed-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -108,7 +108,7 @@ Puoi impostare i rapporti da consegnare come allegati a un messaggio e-mail. Puo
 
 Per consegnare un report con i diritti di accesso di un altro utente:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Workfront, quindi fai clic su **Rapporti**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Workfront, quindi fai clic su **Reports**.
 
 1. Seleziona il rapporto che desideri consegnare con i diritti di accesso di un altro utente.
 1. Fai clic sul nome del rapporto per selezionarlo.
@@ -116,7 +116,7 @@ Per consegnare un report con i diritti di accesso di un altro utente:
 1. Fare clic su **Invia report**.
 
 1. Nel campo **Consegna il report con i diritti di accesso di:**, iniziare a digitare il nome dell&#39;utente che si desidera visualizzare nel report come quando viene consegnato in un&#39;e-mail, quindi selezionarlo quando viene visualizzato nell&#39;elenco. L’impostazione predefinita è il nome dell’utente che genera il rapporto.\
-   ![](assets/unshimmed-send-report-access-rights-of.png)
+   ![Report inviato con diritti di accesso di](assets/unshimmed-send-report-access-rights-of.png)
 
    >[!NOTE]
    >

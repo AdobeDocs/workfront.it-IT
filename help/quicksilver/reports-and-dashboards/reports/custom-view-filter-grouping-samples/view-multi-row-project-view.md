@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Visualizzazione: visualizzazione progetto su più righe"
+title: 'Vista: Vista progetto a più righe'
 description: Scopri la vista di progetto a più righe nei rapporti.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3c6028c0-2c9f-4f86-aa6c-bf089844bac8
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ In questa vista del progetto puoi effettuare le seguenti operazioni:
 * Visualizzare le informazioni del progetto in un formato a più righe.\
   La visualizzazione utilizza il tag `sharecol=true` per combinare più campi sotto la stessa intestazione di colonna. Per ulteriori informazioni su questo tag, vedere [Visualizza: unire le informazioni di più colonne in una colonna condivisa](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
-* Utilizzare una colonna segnaposto contenente un tag di interruzione di riga HTML (`<br>`) per forzare la visualizzazione della descrizione sotto il nome del progetto, ad esempio.
+* Utilizzare una colonna segnaposto contenente un tag di interruzione di riga di HTML (`<br>`) per forzare la visualizzazione della descrizione sotto il nome del progetto, ad esempio.
 * Visualizza il Proprietario del progetto tra parentesi dopo Nome progetto.
 * Visualizza il Nome progetto come collegamento al progetto.
 
-![](assets/project-multi-row-stacked-view-350x219.png)
+![Riga di progetto con visualizzazione in pila](assets/project-multi-row-stacked-view-350x219.png)
 
 ## Requisiti di accesso
 

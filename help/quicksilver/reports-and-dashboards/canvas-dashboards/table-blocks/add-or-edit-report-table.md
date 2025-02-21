@@ -4,9 +4,9 @@ description: Aggiungere o modificare un blocco di tabella nell’area di lavoro 
 hidefromtoc: true
 hide: true
 exl-id: d706659c-457f-4da0-a6e7-03ea29cab700
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -21,20 +21,20 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
 
 ## Aggiungere o modificare un blocco di tabella
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **Main Menu** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Reporting**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Reporting**.
 1. Fare clic su **Nuovo report**.
 
    Oppure
 
-   Vai a un report esistente, fai clic sull&#39;icona **Altro** ![](assets/more-icon-27x15.png) nell&#39;intestazione del report, quindi fai clic su **Modifica**.
+   Vai a un report esistente, fai clic sull&#39;icona **Altro** ![Altro](assets/more-icon-27x15.png) nell&#39;intestazione del report, quindi fai clic su **Modifica**.
 
 1. Sul lato destro della schermata in **Aggiungi un blocco**:
 
-   Trascina l&#39;icona ![](assets/table-icon.png) della **Tabella** nell&#39;area di lavoro direttamente nella posizione desiderata.
+   Trascina l&#39;icona **Tabella** ![Icona Tabella](assets/table-icon.png) nell&#39;area di lavoro direttamente nella posizione desiderata.
 
    Oppure
 
-   Fare doppio clic sull&#39;icona ![](assets/table-icon.png) della **Tabella** per aggiungere una tabella nella parte superiore dell&#39;area di lavoro.
+   Fare doppio clic sull&#39;icona **Tabella** ![Icona Tabella](assets/table-icon.png) per aggiungere una tabella nella parte superiore dell&#39;area di lavoro.
 
    >[!TIP]
    >
@@ -42,14 +42,14 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
 
 1. Fare clic su **Tabella senza titolo** nell&#39;intestazione della tabella, quindi digitare un titolo per la tabella.
 
-   ![](assets/table-name-350x142.png)
+   ![Nome tabella](assets/table-name-350x142.png)
 
 1. Fai clic su **Modifica** al centro del blocco di tabella per configurare la tabella.
 
    >[!NOTE]
    >
-   >Se la tabella faceva già parte dell&#39;area di lavoro (ad esempio durante la modifica di un report esistente), il pulsante **Modifica** non viene visualizzato al centro del blocco. Per modificare la tabella, fai clic sull&#39;icona ![](assets/edit-icon.png) di **Modifica** nell&#39;intestazione della tabella.
-   >![](assets/edit-icon-table-header-350x71.png)
+   >Se la tabella faceva già parte dell&#39;area di lavoro (ad esempio durante la modifica di un report esistente), il pulsante **Modifica** non viene visualizzato al centro del blocco. Per modificare la tabella, fai clic sull&#39;icona **Modifica** ![Icona Modifica](assets/edit-icon.png) nell&#39;intestazione della tabella.
+   >![Icona Modifica nell&#39;intestazione della tabella](assets/edit-icon-table-header-350x71.png)
 
 1. Nel pannello **Campi** a destra, individua un campo che desideri aggiungere come colonna alla tabella, quindi trascinalo nella tabella in cui lo desideri o fai doppio clic su di esso per aggiungerlo come ultima colonna della tabella.
 

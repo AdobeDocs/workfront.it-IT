@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Rapporto: Ore preventivate"
-description: "Rapporto: Ore preventivate"
+title: 'Report: Ore preventivate'
+description: 'Report: Ore preventivate'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '670'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Quando desideri condividere le informazioni sulle Ore preventivate con altri ute
 >
 >Le ore preventivate vengono di solito aggiornate ogni ora (raramente, può richiedere un massimo di tre ore) nel database di Adobe Workfront. L’aggiornamento del rapporto non aggiorna necessariamente le informazioni sulle ore in esso contenute. Puoi visualizzare il tempo trascorso dall’ultimo aggiornamento nell’angolo in alto a destra di ogni rapporto sulle ore preventivate. L’aggiornamento del rapporto aggiorna le informazioni in esso contenute solo quando è trascorsa più di un’ora dall’ultimo aggiornamento.
 >
->![](assets/budgeted-hour-report-time-sync-warning-350x74.png)
+>![Avviso sincronizzazione ore report preventivate](assets/budgeted-hour-report-time-sync-warning-350x74.png)
 
 ## Requisiti di accesso
 
@@ -72,7 +72,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Creare un rapporto sulle ore preventivate
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro o sull&#39;icona ![](assets/lines-main-menu.png) del **menu principale** nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **Rapporti**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro o sull&#39;icona **Main Menu** ![Main Menu lines](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **Reports**.
 
 1. Fai clic su **Nuovo rapporto** > **Altro** > **Ora preventivata**.
 

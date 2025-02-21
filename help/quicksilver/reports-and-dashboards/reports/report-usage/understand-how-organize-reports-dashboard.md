@@ -7,9 +7,9 @@ description: Puoi vedere se un rapporto viene aggiunto a una dashboard in Adobe 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce00c307-9e64-49f5-997b-f7fc461c960c
-source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '652'
 ht-degree: 1%
 
 ---
@@ -68,7 +68,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 Per creare una vista con le informazioni del dashboard per un elenco di report:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Workfront, quindi fai clic su **Rapporti**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Workfront, quindi fai clic su **Reports**.
 1. Nell&#39;elenco dei report fare clic sul menu a discesa **Visualizza**.
 1. Fare clic su **Nuova visualizzazione**.
 1. Fai clic su **Aggiungi colonna**.
@@ -77,13 +77,13 @@ Per creare una vista con le informazioni del dashboard per un elenco di report:
 
 1. Fai clic su **Salva vista**.\
    Le dashboard in cui viene visualizzato un report vengono visualizzate nella colonna Dashboard dell’elenco dei report.\
-   ![](assets/qs-dashboards-in-report-view.png)
+   ![Dashboard nel report](assets/qs-dashboards-in-report-view.png)
 
 ## Filtrare un elenco di rapporti in base alle informazioni del dashboard
 
 Per filtrare un elenco di rapporti in base alle informazioni del dashboard:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Workfront, quindi fai clic su **Rapporti**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Workfront, quindi fai clic su **Reports**.
 
 1. Nell&#39;elenco dei report fare clic sul menu a discesa **Filtro**.
 1. Fai clic su **Nuovo filtro**, quindi fai clic su **Aggiungi una regola filtro**.
@@ -93,7 +93,7 @@ Per filtrare un elenco di rapporti in base alle informazioni del dashboard:
 1. Nell&#39;oggetto **Dashboards**, selezionare **Name**.
 
 1. Seleziona **Uguale** nel menu a discesa del modificatore, quindi inizia a digitare il nome del dashboard in base al quale desideri filtrare. Puoi selezionare più dashboard per il filtro.\
-   ![](assets/qs-dashboards-in-report-filters-350x143.png)
+   ![Dashboard nei filtri dei report](assets/qs-dashboards-in-report-filters-350x143.png)
 
 1. Fai clic su **Salva e Chiudi**.\
    Viene visualizzato un elenco di rapporti elencati solo nei dashboard specificati.\

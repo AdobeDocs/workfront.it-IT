@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Visualizza: Società e gruppo predefinito dell'utente assegnato"
+title: 'Visualizza: Società e gruppo predefinito dell''utente assegnato'
 description: In questa visualizzazione attività vengono visualizzati la società e il gruppo predefinito del proprietario principale dell'attività. Si tratta di valori che non sono disponibili nell’interfaccia standard, ma che sono accessibili tramite la modalità testo.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 818c1f3a-4e82-4dc3-af86-4f9dcf5c11a4
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 In questa visualizzazione attività vengono visualizzati la società e il gruppo predefinito del proprietario principale dell&#39;attività. Si tratta di valori che non sono disponibili nell’interfaccia standard, ma che sono accessibili tramite la modalità testo.
 
-![](assets/view--assigned-user-s-company-and-home-group-350x80.png)
+![Visualizza società e gruppo predefinito dell&#39;utente assegnato](assets/view--assigned-user-s-company-and-home-group-350x80.png)
 
 ## Requisiti di accesso
 

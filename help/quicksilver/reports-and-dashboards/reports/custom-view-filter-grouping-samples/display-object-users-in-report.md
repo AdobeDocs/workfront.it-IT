@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Rapporti o elenchi: visualizzare gli utenti associati a un oggetto"
+title: 'Report o elenchi: visualizza gli utenti associati a un oggetto'
 description: Puoi visualizzare gli utenti, i ruoli e i team associati agli oggetti nei rapporti o negli elenchi, nonché farvi riferimento nei filtri. Non è possibile eseguire il raggruppamento per utenti, mansioni o team associati agli oggetti.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 9abdaafb-da2c-4b5d-9117-59afa4a1e71f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '674'
 ht-degree: 2%
 
 ---
@@ -55,7 +55,7 @@ Puoi visualizzare o filtrare per utenti, ruoli o team associati ai seguenti ogge
 
 È possibile visualizzare tutti gli utenti associati al progetto nella visualizzazione di un elenco o di un report di progetti. Sono inclusi tutti gli utenti elencati nella sezione Persone del progetto. Puoi anche visualizzare i ruoli a cui sono associati quando sono assegnati ad attività o problemi sul progetto in un report di progetto.
 
-![](assets/project-with-user-and-role-information-report-350x100.png)
+![Progetto con informazioni su utente e ruolo](assets/project-with-user-and-role-information-report-350x100.png)
 
 Per informazioni sulla creazione di un report di progetto per visualizzare tutti gli utenti e i relativi ruoli nel progetto, vedere [Visualizza: elenco di utenti del progetto con ruoli](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
 
@@ -65,7 +65,7 @@ Non è possibile filtrare gli utenti o i ruoli associati ai progetti in un filtr
 
 È possibile visualizzare tutti gli utenti, i ruoli o i team assegnati a un&#39;attività nella visualizzazione di un elenco di attività o di un report aggiungendo il campo Assegnazioni alla visualizzazione.
 
-![](assets/assignments-field-task-view-350x124.png)
+![Campo assegnazione](assets/assignments-field-task-view-350x124.png)
 
 Puoi filtrare in base agli utenti, alle mansioni o ai team assegnati alle attività facendo riferimento ai campi seguenti in un filtro attività:
 
@@ -73,7 +73,7 @@ Puoi filtrare in base agli utenti, alle mansioni o ai team assegnati alle attivi
 * Assegnazioni Ruoli
 * Team
 
-![](assets/assignment-users-roles-task-filter-350x334.png)
+![Assegnazione di utenti e ruoli nel filtro attività](assets/assignment-users-roles-task-filter-350x334.png)
 
 ## Visualizza tutti gli utenti, le mansioni o i team assegnati a un problema
 

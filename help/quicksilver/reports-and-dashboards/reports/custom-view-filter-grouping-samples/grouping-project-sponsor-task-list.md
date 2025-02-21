@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Raggruppamento: sponsor del progetto per un elenco attività"
+title: 'Raggruppamento: sponsor progetto per un elenco attività'
 description: Questo raggruppamento di attività consente di raggruppare le attività per sponsor progetto.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d8f85ea-492e-4b08-82f5-726170acc7d5
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Questo raggruppamento di attività consente di raggruppare le attività per sponsor progetto.
 
-![](assets/grouping--project-sponsor-for-a-task-350x189.png)
+![Raggruppa per sponsor progetto](assets/grouping--project-sponsor-for-a-task-350x189.png)
 
 ## Requisiti di accesso
 

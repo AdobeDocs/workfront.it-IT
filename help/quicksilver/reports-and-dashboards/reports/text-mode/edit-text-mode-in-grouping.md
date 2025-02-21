@@ -6,9 +6,9 @@ description: È possibile modificare un raggruppamento in un elenco o in un repo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1539'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Per informazioni sulla creazione di un report, vedere [Creare un report personal
 1. Esegui una delle operazioni seguenti:
 
    1. Per accedere al raggruppamento da un report, passa al report, quindi fai clic sulla scheda **Azioni report** > **Modifica** > **Raggruppamenti**.
-   1. Per accedere al raggruppamento da un elenco, passa all&#39;elenco e dal menu a discesa **Raggruppamento**, passa il puntatore del mouse sul raggruppamento da modificare e fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png).
+   1. Per accedere al raggruppamento da un elenco, passa all&#39;elenco e dal menu a discesa **Raggruppamento**, passa il puntatore del mouse sul raggruppamento da modificare e fai clic sull&#39;icona **Modifica** ![Icona Modifica](assets/edit-icon.png).
 
       Viene aperto il generatore di raggruppamenti.
 
@@ -194,7 +194,7 @@ Per informazioni sulla creazione di un report, vedere [Creare un report personal
        <ol> 
         <li value="1"> <p> Se il nome del campo visualizzato è una frase invece di un singolo sostantivo, è necessario utilizzare la sintassi Camel Case per <code>valuefield</code>. Ad esempio, per la Data inizio pianificata di un'attività il codice è:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Esempio: </b></span></span><code>group.0.valuefield=plannedStartDate</code> </p> </li> 
         <li value="2"> <p>Se si desidera visualizzare un campo personalizzato, il valore <code>valuefield</code> è il nome effettivo del campo, come visualizzato nell'interfaccia. Ad esempio, per un campo personalizzato denominato "Ulteriori informazioni", il codice è:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Esempio: </b></span></span><code>group.0.valuefield=More information</code> </p> </li> 
-        <li value="3"> <p>Se si desidera eseguire il raggruppamento in base a oggetti correlati ad altri oggetti utilizzando la riga di codice <code>valuefield</code>, i nomi e gli attributi degli oggetti sono separati da due punti.</p> <p>Un raggruppamento per nome Portfolio per un elenco di attività, ad esempio, ha il seguente valore per la riga del campo valore:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Esempio: </b></span></span><code>group.0.valuefield=project:portfolio:name</code> </p> <p>Indica che dall'oggetto del report (attività) è possibile accedere all'oggetto correlato successivo (progetto), quindi al seguente oggetto correlato dal progetto (portfolio) e infine al nome del portfolio (nome).</p> </li> 
+        <li value="3"> <p>Se si desidera eseguire il raggruppamento in base a oggetti correlati ad altri oggetti utilizzando la riga di codice <code>valuefield</code>, i nomi e gli attributi degli oggetti sono separati da due punti.</p> <p>Ad esempio, un raggruppamento per nome Portfolio per un elenco di attività ha il seguente valore per la riga del campo valore:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Esempio: </b></span></span><code>group.0.valuefield=project:portfolio:name</code> </p> <p>Indica che dall'oggetto del report (attività) è possibile accedere all'oggetto correlato successivo (progetto), quindi al seguente oggetto correlato dal progetto (portfolio) e infine al nome del portfolio (nome).</p> </li> 
        </ol> <p>Per informazioni sulla connessione tra gli oggetti, vedere la sezione <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">Interdipendenza e gerarchia degli oggetti</a> in <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Informazioni sugli oggetti in Adobe Workfront</a>.</p> <p>Nota: se si sceglie un campo in modalità testo non valido nell'interfaccia standard e si passa all'interfaccia standard, il raggruppamento viene eliminato.</p> </td> 
      </tr> 
      <tr> 

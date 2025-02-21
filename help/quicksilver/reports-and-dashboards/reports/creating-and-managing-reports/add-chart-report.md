@@ -6,9 +6,9 @@ description: Puoi migliorare i rapporti aggiungendo un grafico. È possibile agg
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2734'
+source-wordcount: '2747'
 ht-degree: 0%
 
 ---
@@ -277,11 +277,11 @@ Per aggiungere un grafico a **bolle** al report:
 
    Ad esempio, se hai selezionato **Nome progetto** in un report attività, puoi aggiungere **Stato attività** come campo **Colore bolla**.
 
-   ![](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
+   ![Stato attività come colore bolla](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
 
    Tuttavia, se hai selezionato **Stato attività** per il campo **Bolle**, non puoi selezionare un campo **Colore bolla**. Inoltre, non puoi selezionare **Nome progetto** per il campo **Colore bolla**, nemmeno quando selezioni **Nome progetto** per il campo **Bolle**.
 
-   ![](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
+   ![Impossibile selezionare il colore della bolla](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
 
 1. Fai clic su **Salva + Chiudi** per salvare le modifiche apportate al generatore di interfacce.
 
@@ -304,7 +304,7 @@ Per personalizzare i colori dei grafici:
 
 1. Fare clic su **Colori personalizzati** quando questo campo è disponibile.\
    Viene visualizzata la finestra di dialogo Colori personalizzati.\
-   ![](assets/unshimmed-custom-colors-in-charts.png)
+   ![Colori personalizzati nei grafici](assets/unshimmed-custom-colors-in-charts.png)
 
    >[!NOTE]
    >

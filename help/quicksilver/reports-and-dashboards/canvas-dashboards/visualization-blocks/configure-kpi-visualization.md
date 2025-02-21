@@ -4,9 +4,9 @@ description: Configurare una visualizzazione KPI nell’area di lavoro del repor
 hidefromtoc: true
 hide: true
 exl-id: 38beccf6-d7bc-478f-8bba-56607d315e6f
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '258'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
 
 1. Inizia aggiungendo un blocco di visualizzazione con tipo di visualizzazione **KPI** a un rapporto, come spiegato in [Aggiungi o modifica un blocco di visualizzazione nell&#39;area di lavoro Reporting](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md).
 
-1. Fai clic sull&#39;icona Modifica visualizzazione ![](assets/edit-icon.png) nell&#39;angolo superiore destro della visualizzazione, quindi effettua una delle seguenti operazioni.
+1. Fai clic sull&#39;icona Modifica visualizzazione ![Icona Modifica](assets/edit-icon.png) nell&#39;angolo superiore destro della visualizzazione, quindi effettua una delle seguenti operazioni.
 
    1. Nella scheda **Impostazioni**:
 

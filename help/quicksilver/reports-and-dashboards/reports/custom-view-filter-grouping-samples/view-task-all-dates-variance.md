@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Visualizza: attività con variazione di tutte le date"
+title: 'Visualizza: Attività con tutte le date Varianza'
 description: Questa visualizzazione delle attività è simile alla visualizzazione "Tutte le date" fornita con il tuo account Adobe Workfront. In questa visualizzazione sono incluse le colonne Varianza, che calcolano la differenza in giorni tra le date.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 20df7cd8-113e-4c0d-b3f5-1def7db968a5
-source-git-commit: 4247f2b437a5627ac4cba5289573eb4f1c18c583
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Questa vista rappresenta un esempio di colonne calcolate, in cui è possibile pr
 
 Per ulteriori informazioni sull&#39;utilizzo dei calcoli in una visualizzazione, vedere la sezione [Panoramica sugli usi comuni per la modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md) in  [Panoramica sugli usi comuni per la modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
-![](assets/view-task-with-all-dates-variance.png)
+![Visualizza attività con tutte le date](assets/view-task-with-all-dates-variance.png)
 
 ## Requisiti di accesso
 

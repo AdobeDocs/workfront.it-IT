@@ -6,9 +6,9 @@ description: Visualizza utilizzo report
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 51d9067c-8c55-433e-b560-7da241ef33ae
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1011'
 ht-degree: 1%
 
 ---
@@ -68,7 +68,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Visualizzare le informazioni sull&#39;utilizzo del report nella visualizzazione di un elenco di report
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Workfront, quindi fai clic su **Rapporti**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Workfront, quindi fai clic su **Reports**.
 
 1. Nell&#39;elenco dei report fare clic sul menu a discesa **Visualizza**.
 1. (Facoltativo) Seleziona la visualizzazione **Utilizzo report** per visualizzare le informazioni più comuni sull&#39;utilizzo del report.\
@@ -97,7 +97,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Filtrare un elenco di rapporti in base alle informazioni sull’utilizzo {#filter-a-report-list-by-usage-information}
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Workfront, quindi fai clic su **Rapporti**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Workfront, quindi fai clic su **Reports**.
 1. Nell&#39;elenco dei report fare clic sul menu a discesa **Filtro**.
 1. Fai clic su **Nuovo filtro**, quindi fai clic su **Aggiungi una regola filtro**.
 1. Inizia a digitare uno dei campi seguenti e selezionali quando vengono visualizzati nell&#39;elenco sotto l&#39;oggetto **Report** per aggiungerli come nuova regola di filtro:
@@ -112,7 +112,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    * **Data ultima visualizzazione**: visualizza la data dell&#39;ultima visualizzazione del report
 
 1. Seleziona un modificatore per il campo, quindi specifica un valore, quando richiesto.\
-   ![](assets/qs-report-usage-filter-statistics-350x150.png)
+   ![Statistiche filtro utilizzo report](assets/qs-report-usage-filter-statistics-350x150.png)
 
 1. Fai clic su **Salva filtro**.\
    Viene visualizzato un elenco di rapporti che soddisfano le informazioni di utilizzo definite.\

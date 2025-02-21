@@ -7,9 +7,9 @@ description: Creare un rapporto di delega utente
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '333'
 ht-degree: 2%
 
 ---
@@ -83,11 +83,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Creare un rapporto di delega utente
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Rapporti**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Reports**.
 
 1. Fai clic su **Nuovo report**, quindi seleziona **Delega utente**.
 
-   ![](assets/classic-new-report-user-delegation-350x644.png)
+   ![Nuova delega utente report](assets/classic-new-report-user-delegation-350x644.png)
 
    I campi seguenti vengono visualizzati in questo rapporto per impostazione predefinita:
 

@@ -6,9 +6,9 @@ description: Puoi incorporare una pagina web esterna in una dashboard per fornir
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1030'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Ad esempio, se la tua organizzazione dispone di un archivio documenti basato su 
 >[!IMPORTANT]
 >
 >* Per motivi di sicurezza, alcuni siti web non consentono di incorporare le pagine web come iframe. Se la pagina web che desideri incorporare in un dashboard non lo consente, la pagina non viene visualizzata nel dashboard. Tuttavia, è comunque possibile accedere alla pagina esterna facendo clic sul nome della dashboard.\
->![](assets/qs-empty-external-page-report-350x165.png)\
+>![Report pagina esterna vuoto](assets/qs-empty-external-page-report-350x165.png)\
 >Per consentire l&#39;incorporamento per un sito Web di tua proprietà, rivolgiti al tuo amministratore Web per regolare l&#39;impostazione **X-Frame-Options**. Per ulteriori informazioni, vedere [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
 >
 >
@@ -118,7 +118,7 @@ Oppure\
 
 1. Fare clic su **Aggiungi pagina esterna** nell&#39;area **Seleziona layout/ Aggiungi report/ Aggiungi calendari**.
 
-   ![](assets/qs-add-external-page-350x239.png)
+   ![Aggiungi pagina esterna](assets/qs-add-external-page-350x239.png)
 
    Viene visualizzata la casella **Aggiungi pagina esterna**.
 
@@ -132,7 +132,7 @@ Oppure\
 
       * Un URL https (crittografato) di una pagina web.\
         Solo le pagine https (crittografate) vengono caricate con l’URL.\
-        ![](assets/add-external-page-dialog-qs-350x247.png)
+        ![Finestra di dialogo Aggiungi pagina esterna](assets/add-external-page-dialog-qs-350x247.png)
 
       * URL del modello che contiene informazioni sulla sessione per un sito Web specifico.\
         Esempio: *https://localhost/?session={!$$SESSIONE}*
@@ -170,10 +170,10 @@ Per aggiornare le informazioni per una pagina esterna utilizzata in un dashboard
    Viene visualizzata la casella **Dettagli dashboard**.
 
 1. Nell&#39;area **Seleziona layout / Aggiungi report** della casella **Dettagli dashboard**, individuare la pagina esterna che si desidera aggiornare, passare il puntatore del mouse su di essa e fare clic sull&#39;icona **Modifica**.\
-   ![](assets/nwe-inline-edit-external-page-350x226.png)
+   ![Modifica in linea pagina esterna](assets/nwe-inline-edit-external-page-350x226.png)
 
 1. Nella casella **Modifica pagina esterna**, aggiorna i campi che desideri modificare, quindi fai clic su **Salva**.
-1. (Facoltativo) Fai clic sull&#39;icona **Elimina** ![](assets/delete.png) per rimuovere la pagina esterna dal dashboard. Per ulteriori informazioni, vedere [Rimuovere una pagina esterna da un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
+1. (Facoltativo) Fai clic sull&#39;icona **Elimina** ![Elimina](assets/delete.png) per rimuovere la pagina esterna dal dashboard. Per ulteriori informazioni, vedere [Rimuovere una pagina esterna da un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
 1. Fai clic su **Salva e Chiudi**.
 
 ## Visualizzare pagine esterne in un rapporto
@@ -184,7 +184,7 @@ Puoi visualizzare tutte le pagine esterne in Workfront in un rapporto di pagina 
 
 1. Fai clic su **Nuovo rapporto** > seleziona **Sezione esterna**.
 
-   ![](assets/external-page-new-report-in-dropdown-nwe.png)
+   ![Sezione esterna](assets/external-page-new-report-in-dropdown-nwe.png)
 
 1. (Facoltativo) Aggiorna le schede Visualizza, Filtri o Raggruppamenti del rapporto.
 

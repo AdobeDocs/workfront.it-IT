@@ -7,9 +7,9 @@ description: Quando si crea un report sui report, è possibile identificare info
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3861ac81-d2e4-4dec-b9cd-96eee0b66a38
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Creare il rapporto sui rapporti esistenti {#create-the-report-about-existing-reports}
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront.
 1. Fai clic su **Rapporti**, quindi su **Nuovo rapporto**.
 1. Nel menu a discesa **Nuovo report**, seleziona **Report** per creare un report sui report esistenti.
 

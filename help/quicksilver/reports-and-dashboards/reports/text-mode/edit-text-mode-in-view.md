@@ -6,9 +6,9 @@ description: È possibile modificare una visualizzazione in un elenco o in un re
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '461'
 ht-degree: 2%
 
 ---
@@ -86,7 +86,7 @@ Per informazioni sulla creazione di un report, vedere [Creare un report personal
 1. Esegui una delle operazioni seguenti:
 
    1. Per accedere alla visualizzazione da un report, passa al report, quindi fai clic sulla scheda **Azioni report** > **Modifica** > **Colonne (visualizzazione)**.
-   1. Per accedere alla visualizzazione da un elenco, passa all&#39;elenco e dal menu a discesa **Visualizza**, passa il puntatore del mouse sulla visualizzazione da modificare e fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png).
+   1. Per accedere alla visualizzazione da un elenco, passa all&#39;elenco e dal menu a discesa **Visualizza**, passa il puntatore del mouse sulla visualizzazione da modificare e fai clic sull&#39;icona **Modifica** ![Icona Modifica](assets/edit-icon.png).
 
       Viene aperto il generatore di viste (View Builder).
 

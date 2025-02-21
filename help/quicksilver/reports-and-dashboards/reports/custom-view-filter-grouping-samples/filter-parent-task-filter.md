@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Filtro: visualizzare le attività principali"
+title: 'Filtro: visualizza le attività padre'
 description: È possibile applicare i filtri delle attività riportati di seguito per visualizzare le attività di lavoro. Le attività di lavoro sono attività che possono essere elaborate in modo indipendente e non sono attività padre di altre attività. In un esempio, un filtro identifica le attività secondarie che potrebbero essere padri stessi. In questo caso, non sono attività operative.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 4c3956e1-59e0-4bf2-8739-8064271d6281
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '841'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 Per visualizzare le attività senza elementi secondari, è possibile applicare il seguente filtro a un report di attività. Potrebbero avere genitori propri ed essere figli di altre mansioni.
 
-1. Dal **menu principale** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro o dal **menu principale** ![](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibile, fare clic su **Report**.
+1. Dall&#39;icona **Main Menu** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro o dalle **Main Menu** ![Main Menu lines](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibili, fare clic su **Reports**.
 
 1. Fare clic su **Nuovo report**.
 1. Seleziona un **report attività**.
@@ -79,7 +79,7 @@ Per visualizzare le attività senza elementi secondari, è possibile applicare i
 1. Nella riga **Inizia a digitare il nome del campo ...**, inizia a digitare **Number of Children**, quindi fai clic su **Task >> Number of Children** quando viene visualizzato nell&#39;elenco.
 
 1. Seleziona **Uguale (distinzione maiuscole/minuscole)** per il modificatore, quindi immetti **0** per il numero di elementi figlio.\
-   ![](assets/parent-task-filter-from-the-ui-350x76.png)
+   ![Filtro attività padre](assets/parent-task-filter-from-the-ui-350x76.png)
 
    Oppure
 
@@ -99,7 +99,7 @@ Per visualizzare le attività senza elementi secondari, è possibile applicare i
 
 È possibile applicare il filtro seguente a un report di attività per visualizzare le attività con padre, ovvero le attività figlio. Tuttavia, queste attività possono anche avere figli propri, perché il filtro non esclude i loro figli. Le attività figlio che sono anche padri per altre attività non sono considerate attività di lavoro.
 
-1. Dal **menu principale** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro o dal **menu principale** ![](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibile, fare clic su **Report**.
+1. Dall&#39;icona **Main Menu** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro o dalle **Main Menu** ![Main Menu lines](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibili, fare clic su **Reports**.
 
 1. Fare clic su **Nuovo report**.
 1. Seleziona un **report attività**.
@@ -108,7 +108,7 @@ Per visualizzare le attività senza elementi secondari, è possibile applicare i
 1. Nella riga **Inizia a digitare il nome del campo ...**, inizia a digitare **ID padre**, quindi seleziona **Attività >> ID padre** quando viene visualizzato nell&#39;elenco.
 1. Seleziona **Non è vuoto** per il modificatore.
 
-   ![](assets/filter-parent-id-not-blank-350x100.png)
+   ![L&#39;ID padre non è vuoto](assets/filter-parent-id-not-blank-350x100.png)
 
    Oppure
 
@@ -124,7 +124,7 @@ Per visualizzare le attività senza elementi secondari, è possibile applicare i
 
 È possibile applicare il filtro seguente a un report di attività per visualizzare le attività di lavoro autonome. Queste attività non hanno un genitore e non hanno figli propri.
 
-1. Dal **menu principale** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro o dal **menu principale** ![](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibile, fare clic su **Report**.
+1. Dall&#39;icona **Main Menu** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro o dalle **Main Menu** ![Main Menu lines](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibili, fare clic su **Reports**.
 
 1. Fare clic su **Nuovo report**.
 1. Seleziona un **report attività**.
@@ -136,7 +136,7 @@ Per visualizzare le attività senza elementi secondari, è possibile applicare i
 1. In **Inizia a digitare il nome del campo ...** la riga inizia a digitare **ID padre**, quindi seleziona **Attività >> ID padre** dall&#39;elenco.
 1. Selezionare **È vuoto** per il modificatore.
 
-   ![](assets/filter-parent-id-blank-and-zero-children-350x121.png)
+   ![L&#39;ID padre è vuoto e non sono presenti elementi figlio](assets/filter-parent-id-blank-and-zero-children-350x121.png)
 
    Oppure
 

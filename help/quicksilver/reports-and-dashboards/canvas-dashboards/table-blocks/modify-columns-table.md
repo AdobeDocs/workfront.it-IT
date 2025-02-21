@@ -4,9 +4,9 @@ description: Configurare una colonna di tabella nell’area di lavoro Reporting
 hidefromtoc: true
 hide: true
 exl-id: ce33888f-344d-4f69-b527-9679340d134b
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1052'
 ht-degree: 2%
 
 ---
@@ -28,10 +28,10 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
 
 ## Modificare le colonne in una tabella
 
-1. Vai a un report esistente, fai clic sull&#39;icona ![](assets/more-icon.png) di **Altro menu** nell&#39;intestazione del report, quindi seleziona **Modifica**.
-1. Nell&#39;intestazione della tabella del report, fare clic sull&#39;icona **Modifica** ![](assets/edit-icon.png).
+1. Vai a un report esistente, fai clic sull&#39;icona **Altro menu** ![Altro icona](assets/more-icon.png) nell&#39;intestazione del report, quindi seleziona **Modifica**.
+1. Nell&#39;intestazione della tabella del report fare clic sull&#39;icona **Modifica** ![Modifica](assets/edit-icon.png).
 
-   ![](assets/edit-icon-table-header-350x71.png)
+   ![Icona Modifica nell&#39;intestazione della tabella](assets/edit-icon-table-header-350x71.png)
 
    >[!NOTE]
    >

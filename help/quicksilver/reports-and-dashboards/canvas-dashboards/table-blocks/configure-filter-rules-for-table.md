@@ -4,9 +4,9 @@ description: Filtrare una tabella in Reporting Canvas (Area di lavoro rapporti)
 hidefromtoc: true
 hide: true
 exl-id: 1838b142-d845-4795-b27f-80bfba18e9d4
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -46,19 +46,19 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
 
 ## Configurare le regole di filtro per una tabella
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **Main Menu** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Reporting**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Reporting**.
 
 1. Fare clic su **Nuovo report**.
 
    Oppure
 
-   Vai a un report esistente, fai clic sull&#39;icona ![](assets/more-icon.png) di **Altro menu** nell&#39;intestazione del report, quindi seleziona **Modifica**.
+   Vai a un report esistente, fai clic sull&#39;icona **Altro menu** ![Altro icona](assets/more-icon.png) nell&#39;intestazione del report, quindi seleziona **Modifica**.
 
 1. Per raggruppare le righe di una nuova tabella, trascinare o fare doppio clic su un blocco di tabella nell&#39;area di lavoro.
 
    Oppure
 
-   Per raggruppare le righe in una tabella esistente, fare clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) nell&#39;intestazione della tabella.
+   Per raggruppare le righe in una tabella esistente, fare clic sull&#39;icona **Modifica** ![Icona Modifica](assets/edit-icon.png) nell&#39;intestazione della tabella.
 
 1. Nel pannello a destra, individua il campo in base al quale desideri filtrare la tabella, quindi trascinalo nella sezione Filtro.
 

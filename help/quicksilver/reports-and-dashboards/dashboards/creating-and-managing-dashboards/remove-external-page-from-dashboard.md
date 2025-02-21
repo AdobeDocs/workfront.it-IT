@@ -6,9 +6,9 @@ description: Se non è più necessario, è possibile rimuovere una pagina estern
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9e400b8a-bbb8-4d1f-b419-d4a4518c0b2e
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -69,11 +69,11 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 1. Fai clic su **Azioni dashboard**, quindi su **Modifica**.
 
-   ![](assets/unshimmed-edit-dashboard.png)
+   ![Modifica dashboard](assets/unshimmed-edit-dashboard.png)
 
-1. Nella parte destra dello schermo individuare la pagina esterna che si desidera rimuovere e fare clic sull&#39;icona **Elimina** ![](assets/delete.png).
+1. Nella parte destra dello schermo individuare la pagina esterna da rimuovere e fare clic sull&#39;icona **Elimina** ![Elimina](assets/delete.png).
 
-   ![](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
+   ![Icona Elimina pagina esterna nel dashboard](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
 
 1. Fai clic su **Salva + Chiudi** nell&#39;angolo in basso a sinistra.
 

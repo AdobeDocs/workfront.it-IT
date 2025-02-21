@@ -6,9 +6,9 @@ description: L’amministratore di Adobe Workfront consente agli utenti di visua
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ La condivisione di uno o più report da un elenco è identica.
 
    * **Tutti gli utenti del sistema possono visualizzare** Selezionare questa opzione per consentire a tutti gli utenti di Workfront con accesso ai report di visualizzare il report.
 
-1. (Facoltativo) Fai clic sull&#39;icona **Ingranaggio** ![](assets/gear-icon-settings-with-dn-arrow.jpg) nell&#39;angolo superiore destro della casella di condivisione, quindi seleziona facoltativamente la seguente opzione:
+1. (Facoltativo) Fai clic sull&#39;icona **Ingranaggio** ![Impostazioni icona ingranaggio](assets/gear-icon-settings-with-dn-arrow.jpg) nell&#39;angolo superiore destro della casella di condivisione, quindi, facoltativamente, seleziona la seguente opzione:
 
    * **Rendi pubblico agli utenti esterni** Seleziona questa opzione per generare un URL che possa essere condiviso con altri utenti. Chiunque abbia l’URL può accedere al rapporto senza disporre di una licenza Adobe Workfront.
 

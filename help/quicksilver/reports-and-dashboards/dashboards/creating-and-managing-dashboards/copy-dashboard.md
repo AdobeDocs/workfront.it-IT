@@ -6,9 +6,9 @@ description: È possibile copiare un dashboard e tutto il relativo contenuto (re
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a88cc171-2bb1-40f0-a778-8dac7eecb718
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Per informazioni sulla creazione di dashboard, vedere [Creare un dashboard](../.
 
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Dashboards]**.
 
-1. Seleziona il dashboard da copiare, quindi fai clic su **Copia** ![](assets/copy-icon.png).\
+1. Seleziona il dashboard da copiare, quindi fai clic su **Copia** ![Copia icona](assets/copy-icon.png).\
    Oppure\
    Apri il dashboard da copiare, quindi fai clic su **Azioni dashboard** > **Copia**.\
    Viene visualizzata la finestra di dialogo Copia dashboard. Vengono visualizzati tutti gli elementi nel quadro comandi originale.

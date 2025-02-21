@@ -6,9 +6,9 @@ description: Leggi questo articolo per scoprire le linee guida sulla larghezza d
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ Per ulteriori informazioni sull&#39;esportazione di dati da elenchi e report, ve
 
 1. Passare all&#39;elenco da modificare.
 1. Trascinare il bordo di un&#39;intestazione di colonna fino a raggiungere le dimensioni desiderate.\
-   ![](assets/column-resize-350x124.png)
+   ![Ridimensiona colonna](assets/column-resize-350x124.png)
 
 #### Riordina temporaneamente le colonne {#reorder-columns-temporarily}
 

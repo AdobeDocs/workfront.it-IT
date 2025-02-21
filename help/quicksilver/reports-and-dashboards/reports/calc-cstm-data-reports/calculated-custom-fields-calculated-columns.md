@@ -7,9 +7,9 @@ description: Per aggregare diversi campi in Adobe Workfront e visualizzare tale 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Per ulteriori informazioni sulla sintassi da utilizzare in una colonna personali
 
 ## Azioni che attivano l’aggiornamento di un campo personalizzato calcolato
 
-* Nella pagina principale di un oggetto, fare clic sull&#39;icona Altro ![](assets/more-icon.png), quindi su **Ricalcola espressioni**
+* Nella pagina principale di un oggetto, fai clic sull&#39;icona Altro ![Icona Altro](assets/more-icon.png), quindi fai clic su **Ricalcola espressioni**
 
 * Modifica in blocco di più oggetti quando **Ricalcola espressioni personalizzate** è abilitato
 * Modifica di un modulo personalizzato quando **Aggiorna calcoli precedenti** è abilitato per il campo personalizzato calcolato

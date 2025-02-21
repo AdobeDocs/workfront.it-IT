@@ -6,9 +6,9 @@ description: Potete esportare un dashboard in un file .pdf utilizzando le opzion
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '375'
 ht-degree: 6%
 
 ---
@@ -77,7 +77,7 @@ Per informazioni sulla creazione di dashboard, vedere [Creare un dashboard](../.
 1. Vai alla dashboard che desideri esportare.
 1. Fai clic su **Azioni dashboard**, quindi seleziona **Anteprima di stampa**.
 
-   ![](assets/dashboard-actions-print-350x254.png)
+   ![Anteprima di stampa dashboard](assets/dashboard-actions-print-350x254.png)
 
    Viene visualizzata la finestra Anteprima di stampa.
 
@@ -107,7 +107,7 @@ Per informazioni sulla creazione di dashboard, vedere [Creare un dashboard](../.
       <td>Internet Explorer, Microsoft Edge e Mozilla Firefox</td> 
       <td> <p>Nota: se si utilizza Internet Explorer versione 11, potrebbe non essere possibile utilizzare la funzionalità Stampa su PDF senza installare un plug-in di terze parti.</p> 
        <ol> 
-        <li value="1">Nel campo <strong>Stampante</strong> o <strong>Seleziona stampante</strong>, selezionare <strong>Stampa su Microsoft PDF</strong>, quindi modificare le altre opzioni di stampa che si desidera modificare.</li> 
+        <li value="1">Nel campo <strong>Stampante</strong> o <strong>Seleziona stampante</strong>, selezionare <strong>Stampa su PDF</strong> di Microsoft, quindi modificare le altre opzioni di stampa che si desidera modificare.</li> 
         <li value="2">Fare clic su <strong>Stampa</strong>.</li> 
         <li value="3">Immetti un <strong>nome file</strong></li> 
         <li value="4">(Facoltativo) Selezionate una nuova destinazione cartella per il file.</li> 

@@ -6,9 +6,9 @@ description: Panoramica sulla consegna dei rapporti
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: a2cb33150ae50b00485f894dc81d7c719524a182
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1534'
 ht-degree: 0%
 
 ---
@@ -189,7 +189,7 @@ Puoi verificare se un rapporto è stato configurato per essere consegnato creand
 
 * **Un filtro** per l&#39;oggetto report: creare un filtro in un elenco di report o in un report in report con l&#39;istruzione seguente: *L&#39;ID report pianificato non è vuoto*.\
   Verranno visualizzati solo i report pianificati nell&#39;elenco o nel report.\
-  ![](assets/qs-scheduled-report-filter-350x101.png)\
+  ![Filtro report pianificato](assets/qs-scheduled-report-filter-350x101.png)\
   Per ulteriori informazioni sulla creazione di report, vedere [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Per informazioni sulla creazione di un report sui report, vedere [Creare un report sulle attività di reporting](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
 <!--

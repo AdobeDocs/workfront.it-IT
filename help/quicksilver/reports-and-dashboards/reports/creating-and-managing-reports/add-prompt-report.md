@@ -6,9 +6,9 @@ description: I filtri e i prompt sono simili in quanto limitano la quantità di 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1369'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Per istruzioni sulla creazione di un report, vedere [Creare un report](../../../
 
 1. Fare clic sul pulsante **Impostazioni report**.
 1. Fai clic sulla scheda **Prompt dei rapporti**, quindi fai clic su **Aggiungi un prompt**.\
-   ![](assets/create-report-prompt-tab.png)
+   ![Scheda Richieste di report](assets/create-report-prompt-tab.png)
 
 1. (Condizionale) Seleziona il campo su cui desideri basare il prompt. Inizia a digitare il nome del campo, quindi fai clic su per selezionarlo quando viene visualizzato nell’elenco.\
    Le opzioni disponibili per gli utenti che eseguono il rapporto variano a seconda del campo selezionato.\
@@ -144,7 +144,7 @@ Per eseguire un report con un prompt:
 
 1. Vai al report con il prompt.
 
-   ![](assets/run-report-prompts.png)
+   ![Esegui richieste report](assets/run-report-prompts.png)
 
 1. Scegli una condizione per uno o tutti i prompt visualizzati nella scheda **Prompts**.\
    (Facoltativo) Puoi lasciare vuoti i prompt e non filtrare il rapporto in base alle condizioni dei prompt.

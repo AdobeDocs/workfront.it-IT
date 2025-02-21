@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Per accedere alle dashboard di Canvas, è possibile abilitare la nuova opzione D
 
 1. Fai clic sul menu a discesa **Personalizza gli utenti visualizzati**, quindi fai clic su **Dashboard**.
 
-1. Nell&#39;elenco **Pannello sinistro** visualizzato di seguito, fare clic sull&#39;icona ![](assets/delete-secondary-nav-item.png) accanto a **Dashboard canvas**. L&#39;icona diventerà ![](assets/add-secondary-nav-item.png) per mostrare che è ora visibile nel pannello a sinistra delle dashboard.
+1. Nell&#39;elenco **Pannello sinistro** visualizzato di seguito, fare clic sull&#39;icona ![Elimina elemento di navigazione secondario](assets/delete-secondary-nav-item.png) accanto a **Dashboard Canvas**. L&#39;icona diventerà ![Aggiungi elemento di navigazione secondario](assets/add-secondary-nav-item.png) per mostrare che è ora visibile nel pannello sinistro dei dashboard.
 
 1. Fai clic su **Salva** nella parte inferiore della schermata.
 
@@ -49,7 +49,7 @@ Per accedere alle dashboard di Canvas, è possibile abilitare la nuova opzione D
 
 1. Assicurati di aver attivato l’opzione Dashboard Canvas nel modello di layout. Per istruzioni, consulta **Aggiunta di dashboard di Canvas al menu dei dashboard** di cui sopra.
 
-1. Fai clic sull&#39;icona del menu principale ![](assets/main-menu-icon.png), quindi fai clic su **Dashboard**.
+1. Fai clic sull&#39;icona Menu principale ![icona Menu principale](assets/main-menu-icon.png), quindi fai clic su **Dashboard**.
 
 1. Nel pannello a sinistra, fai clic su **Dashboard Canvas**.
 
