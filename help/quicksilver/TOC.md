@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 34fe190983a165a69f9dfbb49f619e84f6216fa8
 workflow-type: tm+mt
-source-wordcount: '13034'
+source-wordcount: '13007'
 ht-degree: 2%
 
 ---
@@ -1487,12 +1487,12 @@ ht-degree: 2%
       * Tipi di report del dashboard Canvas {#report-types}
          * [Panoramica sui tipi di rapporti del dashboard Area di lavoro](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
          * [Aggiungere un rapporto esistente a un dashboard di Canvas](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
-         * [Creare un rapporto KPI in un dashboard Area di lavoro](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
-         * [Creare un rapporto di grafico in un dashboard di Canvas](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
-         * [Creare un rapporto di tabella in un dashboard di Canvas](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
-         * [Aggiungere un rapporto approvazioni in sospeso a un dashboard Canvas](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
+        <!--* [Build a KPI report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+      * [Build a chart report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+      * [Build a table report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+      * [Add a pending approvals report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)-->
    * Rapporti {#reports}
-      * [Report](reports-and-dashboards/reports/reports-overview.md)
+      * [Rapporti](reports-and-dashboards/reports/reports-overview.md)
       * Nozioni di base sul reporting {#report-basics}
          * [Nozioni di base sul reporting](reports-and-dashboards/reports/reporting/reporting-basics.md)
          * [Introduzione ai rapporti](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
@@ -2062,7 +2062,7 @@ ht-degree: 2%
       * [Gestire il layout della pagina record](planning/records/manage-the-record-page.md)
       * [Gestire i record nella sezione Pianificazione degli oggetti di Adobe Workfront](planning/records/manage-records-in-planning-section.md)
       * [Esportare i dettagli di un record](planning/records/export-the-record-page.md)
-      * [Creazione di oggetti Workfront da Workfront Planning](planning/records/create-workfront-objects-from-workfront-planning.md)
+      * [Creazione di oggetti Workfront da Workfront Planning durante la connessione ai record](planning/records/create-workfront-objects-from-workfront-planning.md)
       * [Creazione di oggetti mediante le automazioni dei record di Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
    * Richieste di Adobe Workfront Planning {#adobe-workfront-planning-requests}
       * [Richieste Adobe Workfront Planning: indice articolo](planning/requests/requests-article-index.md)

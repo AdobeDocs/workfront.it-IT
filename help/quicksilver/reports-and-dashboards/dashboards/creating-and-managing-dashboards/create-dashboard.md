@@ -6,9 +6,9 @@ description: Puoi creare dashboard per accedere rapidamente alle informazioni in
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ Prima di poter aggiungere gli oggetti seguenti a un dashboard, è necessario cre
     <tbody>
      <tr>
       <td role="rowheader"><strong>Nome</strong></td>
-      <td><p>Questo è il nome del dashboard.</p><p>Se non si specifica un nome, per impostazione predefinita il nome del primo report sul dashboard diventa il nome del dashboard.</p></td>
+      <td><p>Questo è il nome del dashboard. Per evitare problemi di compatibilità, si consiglia di utilizzare solo caratteri UTF-8.</p><p>Se non si specifica un nome, per impostazione predefinita il nome del primo report sul dashboard diventa il nome del dashboard.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>Descrizione (facoltativa)</strong></td>

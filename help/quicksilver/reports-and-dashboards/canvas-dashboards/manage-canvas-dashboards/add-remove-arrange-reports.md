@@ -6,9 +6,9 @@ description: Dopo aver creato un dashboard di Canvas, puoi aggiungervi rapporti 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 840f2e1f-592f-44c1-b2e9-7201e424209a
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Nella finestra **Aggiungi rapporto** visualizzata, fai clic su **Aggiungi** sotto il tipo di rapporto che desideri aggiungere al dashboard di Canvas.
 
-1. Continua a impostare il rapporto in base al tipo di rapporto selezionato. Per informazioni dettagliate sulla configurazione di ogni tipo di report, vedere [Tipi di report del dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md). Se chiudi la finestra prima di completare l’installazione, al dashboard di Canvas verrà comunque aggiunto un rapporto vuoto. Per completare la configurazione in un secondo momento, fai clic sul pulsante **Configurazione** al centro del report vuoto.
+1. Continua a impostare il rapporto in base al tipo di rapporto selezionato. <!--For detailed information about setting up each type of report, see [Canvas Dashboard report types](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md).--> Se si chiude la finestra prima di completare l&#39;installazione, verrà comunque aggiunto un report vuoto al dashboard dell&#39;area di lavoro. Per completare la configurazione in un secondo momento, fai clic sul pulsante **Configurazione** al centro del report vuoto.
 
 ## Spostare o ridimensionare i rapporti in un dashboard Area di lavoro
 

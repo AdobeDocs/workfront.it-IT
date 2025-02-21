@@ -1,14 +1,14 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: Rivedi e prendi decisioni sulle bozze nell'app mobile  [!DNL Adobe Workfront]
+title: 'Rivedi e prendi decisioni sulle bozze nell''app mobile  [!DNL Adobe Workfront] '
 description: Quando ti viene assegnata una bozza per l’approvazione, questa viene visualizzata nell’elenco delle approvazioni nell’app mobile. Puoi rivedere la bozza direttamente nell’app e prendere una decisione al riguardo.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,10 @@ L&#39;accesso per la revisione e l&#39;approvazione delle bozze è lo stesso di 
 1. Nella pagina Dettagli selezionare **[!UICONTROL Vai alla bozza]**.
 
    ![Attività bozza](assets/mobile-prooftask1-338x516.png)
+
+   >[!NOTE]
+   >
+   >Impossibile aprire le bozze video nell’app mobile.
 
 1. Esaminare la bozza del documento.
 1. (Facoltativo) Seleziona ![[!UICONTROL Icona Pagina singola]](assets/mobile-proofpagingicon1-25x36.png) in alto a destra del documento per passare dalla visualizzazione a pagina singola alla visualizzazione continua. Seleziona ![[!UICONTROL Icona Pagina continua]](assets/mobile-proofpagingicon2-25x25.png) per tornare alla visualizzazione a pagina singola.

@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '1093'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,56 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 <!--keep the sentence below for all future quarterly release pages-->
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Nuova espressione aggiunta ai campi formula
+
+>[!NOTE]
+>
+>Versione di anteprima: 20 febbraio 2025; versione di produzione per tutti i clienti: 20 febbraio 2025
+
+È stata aggiunta l’espressione JSONELEMENT ai campi formula. Questa espressione restituisce i dati da JSON in base al codice JSONPath fornito.
+
+Per informazioni, vedere [Panoramica dei campi formula](/help/quicksilver/planning/fields/formula-fields.md).
+
+## Indicatori di presenza in tempo reale nell&#39;anteprima o nella pagina dei dettagli di un record
+
+>[!NOTE]
+>
+>Versione di anteprima: 20 febbraio 2025; produzione per rilascio rapido: con la versione 25.3 (marzo 2025); produzione per rilascio trimestrale: con la versione 25.4 (aprile 2025)
+
+Per comprendere quali informazioni vengono modificate da altri utenti quando si lavora nella pagina di anteprima o dei dettagli di un record, sono stati introdotti indicatori di presenza in tempo reale per quest&#39;area di Workfront Planning.
+
+Il campo modificato da un altro utente verrà ora evidenziato e gli avatar degli altri utenti saranno visibili nell’angolo superiore destro della pagina di anteprima o dei dettagli.
+
+Per informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
+
+## Miglioramenti per la creazione di oggetti Workfront quando vengono collegati ai record di Planning
+
+>[!NOTE]
+>
+>Versione di anteprima: 20 febbraio 2025; produzione per rilascio rapido: con la versione 25.3 (marzo 2025); produzione per rilascio trimestrale: con la versione 25.4 (aprile 2025)
+
+È ora possibile creare facilmente progetti, portfolio e programmi quando vengono collegati a un record da un campo di connessione esistente.
+
+Con questo miglioramento sono disponibili le seguenti funzioni:
+
+* Un pulsante Aggiungi persistente quando ci si connette a un record Planning di un progetto Workfront, portfolio o un altro record Planning
+
+* Possibilità di aggiungere programmi e associarli a un portfolio utilizzando un pulsante Aggiungi persistente in un campo connessione.
+
+Per informazioni, vedere [Creare oggetti Workfront da Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+
+## Configurare le automazioni per creare oggetti e record in base a un record esistente
+
+>[!NOTE]
+>
+>Versione di anteprima: 20 febbraio 2025; produzione per rilascio rapido: con la versione 25.3 (marzo 2025); produzione per rilascio trimestrale: con la versione 25.4 (aprile 2025)
+
+In qualità di responsabile dell&#39;area di lavoro, è ora possibile configurare automazioni personalizzate per un tipo di record in modo da creare automaticamente un oggetto Workfront connesso o un record Planning.
+
+Gli oggetti o i record creati vengono immediatamente collegati al record in cui è configurata e attivata l&#39;automazione.
+
+Per informazioni, vedere [Creare oggetti utilizzando le automazioni dei record di Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 ## Esaminare e confermare le azioni eseguite dall’Assistente IA
 
@@ -41,18 +91,6 @@ In precedenza, questo passaggio di conferma non era disponibile.
 Nei campi delle formule di Workfront sono ora disponibili le seguenti espressioni: ARRAY, ARRAYLENGTH, ARRAYELEMENT. Le definizioni e gli esempi di ciascuna espressione sono disponibili nell’editor di formule.
 
 Per informazioni, vedere [Panoramica dei campi formula](/help/quicksilver/planning/fields/formula-fields.md).
-
-<!--## Real-time presence indicators in a record's details preview or page
-
->[!NOTE]
->
->Preview release: January 30, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
-
-To understand what information is edited by other users when working in a record's preview or details page, we have introduced real-time presence indicators for this area of Workfront Planning.
-
-The field edited by another user will now be highlighted, and other users' avatars will be visible to you in the upper-right corner of the preview or details page.
-
-For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).-->
 
 ## Condivisione di Workfront Planning con team, mansioni e società
 

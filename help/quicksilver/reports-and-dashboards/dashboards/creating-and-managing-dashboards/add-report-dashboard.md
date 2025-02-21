@@ -6,9 +6,9 @@ description: Puoi aggiungere un rapporto a un dashboard nuovo o esistente dirett
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 42d5945d-66c5-430b-8a37-dca9c2973716
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2025 -->
 
-Puoi aggiungere un rapporto a un dashboard nuovo o esistente direttamente da un rapporto. È inoltre possibile aggiungere un report esistente a un dashboard, come descritto in [Creare un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+Puoi aggiungere un rapporto a un dashboard nuovo o esistente direttamente da un rapporto. È inoltre possibile aggiungere un report esistente a un dashboard, come descritto in [Creare un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md). È possibile aggiungere a un singolo dashboard fino a un massimo di 25 rapporti, calendari o pagine esterne.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 È necessario creare un report prima di poterlo aggiungere a una dashboard.
 
-Per informazioni sulla creazione di un report, vedere [Creare un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+Per informazioni sulla creazione di un report, vedere [Creare un report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
 ## Aggiungere un report a un dashboard esistente
 
