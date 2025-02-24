@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1105'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,14 @@ Puoi riattivare un utente in qualsiasi momento.
 
 >[!IMPORTANT]
 >
->È consigliabile disattivare gli utenti che hanno abbandonato l’organizzazione, anziché eliminarli. Se un utente viene eliminato, tutta la cronologia in Workfront associata a tale utente viene persa. Ciò include le assegnazioni di lavoro, l&#39;associazione con note, ore, documenti e tutti gli altri oggetti creati.
+>* È consigliabile disattivare gli utenti che hanno abbandonato l’organizzazione, anziché eliminarli. Se un utente viene eliminato, tutta la cronologia in Workfront associata a tale utente viene persa. Ciò include le assegnazioni di lavoro, l&#39;associazione con note, ore, documenti e tutti gli altri oggetti creati.
 >
->La disattivazione di un utente in Workfront rimuove le licenze dell’utente sia per Workfront che per la verifica digitale. Inoltre, all’utente non può più essere assegnato un lavoro. Quando un utente viene disattivato, la licenza Workfront e la licenza di verifica dell’utente diventano disponibili per essere utilizzate da un altro utente. Tutte le altre informazioni nel profilo dell’utente disattivato rimangono invariate.
+>   La disattivazione di un utente in Workfront rimuove le licenze dell’utente sia per Workfront che per la verifica digitale. Inoltre, all’utente non può più essere assegnato un lavoro. Quando un utente viene disattivato, la licenza Workfront e la licenza di verifica dell’utente diventano disponibili per essere utilizzate da un altro utente. Tutte le altre informazioni nel profilo dell’utente disattivato rimangono invariate.
 >
->Per ulteriori informazioni sull&#39;impatto dell&#39;eliminazione e della disattivazione degli utenti, vedere [Elimina utenti](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>   Per ulteriori informazioni sull&#39;impatto dell&#39;eliminazione e della disattivazione degli utenti, vedere [Elimina utenti](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>
+>* La disattivazione di un utente in Workfront non ne comporta la rimozione dal profilo di prodotto Workfront in Adobe Admin Console.
+
 
 ## Requisiti di accesso
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
 workflow-type: tm+mt
-source-wordcount: '3276'
+source-wordcount: '3325'
 ht-degree: 0%
 
 ---
@@ -86,8 +86,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <td> 
        <ul> 
         <li><p><b>Nome</b></p></li>
-        <li><p><b>Cognome</b></p></li> 
-        <li> <p><b>Indirizzo e-mail:</b> L'indirizzo e-mail di un utente è anche il suo nome utente in Workfront. Questo campo distingue tra maiuscole e minuscole e deve essere univoco. Se un utente tenta di aggiungere un indirizzo e-mail non univoco 3 volte in una finestra di 10 minuti, viene visualizzata una risposta reCAPTCHA.</p> <p> Selezionare l'impostazione <b>Non sono un robot</b> prima di procedere.</p><p>Se utilizzi il elenco Consentiti di gestione delle e-mail e immetti un dominio e-mail non incluso nell’elenco, l’utente non riceverà notifiche e-mail. Per ulteriori informazioni sul inserisco nell'elenco Consentiti di, vedere <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">Configurare il proprio inserisco nell'elenco Consentiti di gestione dei messaggi di posta elettronica</a>.</p> </li> 
+        <li><p><b>Cognome</b></p><p><b>NOTA:</b></p><p>Quando si modifica il nome di un utente in Workfront, il nome dell’utente non viene modificato in Adobe Admin Console.</p></li> 
+        <li> <p><b>Indirizzo e-mail:</b> L'indirizzo e-mail di un utente è anche il suo nome utente in Workfront. Questo campo distingue tra maiuscole e minuscole e deve essere univoco. Se un utente tenta di aggiungere un indirizzo e-mail non univoco 3 volte in una finestra di 10 minuti, viene visualizzata una risposta reCAPTCHA.</p> <p> Selezionare l'impostazione <b>Non sono un robot</b> prima di procedere.</p><p>Se utilizzi il elenco Consentiti di gestione delle e-mail e immetti un dominio e-mail non incluso nell’elenco, l’utente non riceverà notifiche e-mail. Per ulteriori informazioni sul inserisco nell'elenco Consentiti di, vedere <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">Configurare il proprio inserisco nell'elenco Consentiti di gestione dei messaggi di posta elettronica</a>.</p><p>Se la tua organizzazione è stata migrata a Adobe Admin Console, non puoi modificare l’indirizzo e-mail di un utente in Workfront. L’indirizzo e-mail dell’utente è impostato in Adobe Admin Console. </li> 
         <li> <p><b>Reimposta password</b>: fare clic su questo collegamento per reimpostare la password dell'utente. È necessario immettere la propria password prima di reimpostare quella di un altro utente.</p> <p>Per reimpostare la password di un altro utente, è necessario essere un amministratore di Workfront o un amministratore di gruppo.</p> <p><b>NOTA</b>:  
           <ul> 
            <li> <p>Se si è un amministratore di gruppo, è possibile reimpostare le password solo per gli utenti dei gruppi in cui si è designati come amministratore. Inoltre, l’autorizzazione Amministratore utenti (utenti gruppo) deve essere abilitata nel tuo livello di accesso:</p> <p> <img src="assets/group-admin-user.png" > </p> <p>Questa impostazione è disabilitata per impostazione predefinita. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </li> 
