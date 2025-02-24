@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1772'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale e l'area Planning per i progetti, i portfolio e i programmi. </p> Per ulteriori informazioni, vedere <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica dell'accesso di Adobe Planning</a>. </p>  </p>  
+   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale e l'area Planning per i progetti, i portfolio e i programmi. </p> Per ulteriori informazioni, vedere <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica dell'accesso ad Adobe Planning</a>. </p>  </p>  
 </td>
   </tr>
  </tbody>
@@ -157,29 +157,29 @@ Per aggiungere una sezione a un&#39;anteprima record o a una pagina:
 
    Oppure
 
-   Nella vista tabella fare clic sull&#39;icona ![](assets/open-details-icon-in-table-name-field.png) **Apri dettagli** nella prima colonna.
+   Nella vista tabella fare clic sull&#39;icona **Apri dettagli** ![Apri dettagli nel campo nome tabella](assets/open-details-icon-in-table-name-field.png) nella prima colonna.
 
    L&#39;anteprima del record viene visualizzata nella vista.
 
    <!--<div class="preview">
 
-    ![](assets/details-box.png)  
+    ![Details box](assets/details-box.png)  
 
     </div>-->
 
-1. (Facoltativo) Fai clic sull&#39;icona **Apri in una nuova scheda** ![](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda.
+1. (Facoltativo) Fai clic sull&#39;icona **Apri in una nuova scheda** ![Apri i dettagli in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda.
 
    Viene visualizzata la pagina del record. Per impostazione predefinita, viene visualizzata la scheda Dettagli (Details).
 
-   ![](assets/details-page.png)
+   ![Pagina dettagli](assets/details-page.png)
 
-1. Nella scheda **Dettagli** dell&#39;anteprima del record o della pagina, passa il puntatore del mouse sullo spazio vuoto a sinistra dei campi, quindi fai clic sull&#39;icona **Aggiungi sezione** ![](assets/add-section-icon.png) per aggiungere una sezione.
+1. Nella scheda **Dettagli** dell&#39;anteprima del record o della pagina, passa il puntatore del mouse sullo spazio vuoto a sinistra dei campi, quindi fai clic sull&#39;icona **Aggiungi sezione** ![Aggiungi sezione](assets/add-section-icon.png) per aggiungere una sezione.
 1. Fare clic nel nome della sezione e sostituire **Sezione senza titolo** con un nome, quindi fare clic su Invio. I campi visualizzati sotto la sezione fanno automaticamente parte della nuova sezione.
 1. Inizia a trascinare i campi nella nuova sezione, come descritto nella sezione [Ridisponi i campi nell&#39;anteprima del record o nella pagina dei dettagli](#rearrange-fields-in-the-record-preview-or-details-page) in questo articolo.
 
-1. (Facoltativo) Passa il puntatore del mouse sul nome di una sezione e fai clic sul menu **Altro** ![](assets/more-menu.png).
+1. (Facoltativo) Passa il puntatore del mouse sul nome di una sezione e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png).
 
-   ![](assets/more-menu-options-for-section-on-record-page.png)
+   ![Altre opzioni di menu per la sezione nella pagina record](assets/more-menu-options-for-section-on-record-page.png)
 1. (Facoltativo) Per modificare la sezione, effettuate una delle seguenti operazioni:
 
    * Fai clic su **Rinomina** per rinominare la sezione
@@ -200,19 +200,19 @@ Tutti i campi della sezione vengono spostati insieme alla sezione.
 1. Fare clic sulla freccia rivolta verso il basso a sinistra del nome di una sezione per comprimerla oppure sulla freccia rivolta verso destra per espanderla.
 Per impostazione predefinita, tutte le sezioni vengono espanse.
 
-1. (Facoltativo) Fai clic sull&#39;icona **grab** ![](assets/grab-icon.png) a sinistra del nome di una sezione, quindi trascinala e rilasciala nel punto desiderato.
+1. (Facoltativo) Fai clic sull&#39;icona **grab** ![Grab icon](assets/grab-icon.png) a sinistra del nome di una sezione, quindi trascinala e rilasciala nella posizione desiderata.
 
    La nuova posizione della sezione viene aggiornata sia nell&#39;anteprima che nella pagina di tutti i record dello stesso tipo per tutti gli utenti che visualizzano i record.
 
    Tutte le modifiche apportate alle sezioni e all&#39;ordine dei campi vengono salvate automaticamente.
 
-1. (Facoltativo) Fare clic sul menu **Esporta** ![](assets/export-icon-in-record-details-page.png) per esportare la scheda Dettagli in un file Word o PDF. Per ulteriori informazioni, vedere [Esportare i dettagli di un record](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Facoltativo) Fai clic sull&#39;icona del menu **Esporta** ![Esporta nella pagina dei dettagli del record](assets/export-icon-in-record-details-page.png) per esportare la scheda Dettagli in un file Word o PDF. Per ulteriori informazioni, vedere [Esportare i dettagli di un record](/help/quicksilver/planning/records/export-the-record-page.md).
 
 1. (Facoltativo) Fai clic sulla scheda **Connessioni** accanto alla scheda **Dettagli**. Potrebbe essere necessario fare clic su **Altro** prima di fare clic sulla scheda **Connessioni**.
 
    Tutti i record o gli oggetti connessi al record selezionato vengono visualizzati con i nomi del tipo di record o dell&#39;applicazione a cui appartengono.
 
-   ![](assets/connections-tab-on-record-in-workfront-planning.png)
+   ![Scheda Connessioni nel record di Workfront Planning](assets/connections-tab-on-record-in-workfront-planning.png)
 
 1. (Facoltativo) Selezionare l&#39;impostazione **Mostra tutti i record** nell&#39;angolo superiore destro della scheda Connessioni. Vengono visualizzati tutti i tipi di record connessi, inclusi quelli che non dispongono ancora di record connessi. Per impostazione predefinita, l&#39;interruttore è deselezionato e i tipi di record senza record collegati sono nascosti.
 
@@ -240,27 +240,27 @@ Si verificano le seguenti situazioni:
 
    Oppure
 
-   Nella vista tabella fare clic sull&#39;icona ![](assets/open-details-icon-in-table-name-field.png) **Apri dettagli** nella prima colonna.
+   Nella vista tabella fare clic sull&#39;icona **Apri dettagli** ![Apri dettagli nel campo nome tabella](assets/open-details-icon-in-table-name-field.png) nella prima colonna.
 
    L&#39;anteprima del record viene visualizzata nella vista.
 
    <!--<div class="preview">
 
-    ![](assets/details-box.png) 
+    ![Details box](assets/details-box.png) 
 
     </div>-->
 
-1. (Facoltativo) Fai clic sull&#39;icona **Apri in una nuova scheda** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda.
+1. (Facoltativo) Fai clic sull&#39;icona **Apri in una nuova scheda** ![Apri la casella dei dettagli in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda.
 
    Per impostazione predefinita viene aperta la scheda **Dettagli** del record.
 
    <!--<div class="preview">
 
-   ![](assets/details-page.png)
+   ![Details page](assets/details-page.png)
 
    </div>-->
 
-1. Nella scheda record **Dettagli**, fai clic sull&#39;icona **grab** ![](assets/grab-icon.png) a sinistra del nome di un campo, quindi trascinala e rilasciala nella posizione desiderata. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. Nella scheda **Dettagli** del record, fai clic sull&#39;icona **grab** ![Grab icon](assets/grab-icon.png) a sinistra di un nome di campo, quindi trascinalo e rilascialo nel punto desiderato. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 
    La nuova posizione del campo viene aggiornata sia nell&#39;anteprima che nella pagina di tutti i record dello stesso tipo per tutti gli utenti che visualizzano i record.
 
@@ -268,40 +268,64 @@ Si verificano le seguenti situazioni:
 
 ## Aggiungere una pagina di visualizzazione Connessione alla pagina di un record
 
+<!--suggested a new name for this type of page: "Connected records details" - check to see if this changed-->
+
 Quando si aggiunge una visualizzazione Connessione alla pagina di un record, tenere presente quanto segue:
 
 * È possibile aggiungere una pagina di visualizzazione Connessione alla pagina di un record.
 
 * Impossibile aggiungere una pagina di visualizzazione Connessione all&#39;area di anteprima di un record.
 
-* Le pagine della visualizzazione Connessione visualizzano una pagina di record connesso nella visualizzazione Tabella. La vista tabella è di sola lettura.
+* Le pagine della visualizzazione Connessione visualizzano una pagina di record connesso nella visualizzazione Tabella. La vista tabella è di sola lettura. <!--more views might be added in the future-->
 
 * È possibile aggiungere una pagina di visualizzazione Connessione per ogni tipo di record connesso.  <!--edit this when we can remove fields from this page-->
 
-* Dopo aver aggiunto una pagina di visualizzazione Connessione alla pagina di un record, la pagina sarà visibile dall&#39;area di anteprima del record.
+* Dopo aver aggiunto una pagina di visualizzazione Connessione alla pagina di un record, la scheda della pagina è visibile dall&#39;area di anteprima del record. È necessario passare alla pagina intera per visualizzare la vista tabella per il record connesso. <!--this might have changed? check and take disclaimer out-->
 
 Per aggiungere una pagina di visualizzazione Connessione:
 
-1. Da una visualizzazione della pagina record, fare clic sul nome di un record per aprirlo, quindi fare clic sull&#39;icona **Apri in una nuova scheda** ![](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro della pagina di anteprima.
+1. Nella visualizzazione della pagina di un record fare clic sul nome di un record per aprirlo, quindi fare clic sull&#39;icona **Apri in una nuova scheda** ![Apri i dettagli in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro della pagina di anteprima.
 1. Fai clic su **Aggiungi pagina** > **Visualizzazione connessione**.
 
-   ![](assets/add-connection-view-page-modal.png)
+   ![Aggiungi pagina visualizzazione connessione modale](assets/add-connection-view-page-modal.png)
 1. Aggiungi **Nome pagina**, fai clic su **Visualizzazione connessione**, quindi fai clic su **Crea**.
 
    Viene aggiunta una nuova scheda alla pagina del record.
 1. Cercare o fare clic sul nome di un record o di un tipo di oggetto connesso nell&#39;elenco.
 Viene visualizzata la vista tabella del tipo di record selezionato e i record collegati vengono visualizzati nella vista tabella.
-La vista tabella è di sola lettura.
+Tutti i campi del record connesso vengono visualizzati nella vista a tabella della scheda del record connesso.
 
-   ![](assets/audience-connected-table-view-under-campaign-details-page.png)
+   <!--<span class="preview">When you access Workfront Planning from the Preview environment, five fields from the connected record display in the connected record's table view by default. Some connection fields display in addition to other fields. All lookup fields are hidden.</span> (*****be more specific about which connected fields show, if Robert responds*******)-->
+
+   La vista tabella è di sola lettura.
+
+   <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
+
+   ![Visualizzazione tabella connessa al pubblico nei dettagli della campagna](assets/audience-connected-table-view-under-campaign-details-page.png)
 1. (Facoltativo) Fai doppio clic sul nome della scheda
 
    Oppure
 
-   Passa il puntatore del mouse sul nome della scheda, quindi fai clic su **Altro** ![](assets/more-menu.png), quindi fai clic su **Rinomina** per rinominare la nuova scheda Visualizzazione connessa.
-1. (Facoltativo) Utilizza tutti gli elementi della vista nella barra degli strumenti per gestire la vista tabella. Per informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
-1. (Facoltativo) Passa il puntatore del mouse sul nome della scheda, quindi fai clic su **Altro** ![](assets/more-menu.png), quindi fai clic su **Elimina** per rimuoverlo nella nuova scheda Visualizzazione connessa.
+   Passa il puntatore del mouse sul nome della scheda, quindi fai clic su **Altro** ![Altro menu](assets/more-menu.png), quindi su **Rinomina** per rinominare la nuova scheda Visualizzazione connessa.
+1. (Facoltativo) Per gestire la vista tabella, utilizzate uno dei seguenti elementi della barra degli strumenti
 
+   * Filtri
+   * Ordina
+   * Raggruppamento
+
+   <!--Add to the list above some of the capabilities in the note with a preview tag when they are available.-->
+
+   Per informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+   >[!NOTE]
+   >
+   >   Nella visualizzazione per tabella della scheda di un record connesso non è possibile eseguire alcuna delle operazioni seguenti:
+   >
+   >   * Nascondi campi
+   >   * Creare, modificare o eliminare campi
+   >   * Ridisponi campi
+   >
+1. (Facoltativo) Passa il puntatore del mouse sul nome della scheda, quindi fai clic su **Altro** ![Altro menu](assets/more-menu.png), quindi fai clic su **Elimina** per rimuoverlo nella nuova scheda Visualizzazione connessa.
 
 
 <!--

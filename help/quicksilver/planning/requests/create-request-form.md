@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1479'
 ht-degree: 2%
 
 ---
@@ -169,7 +169,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >    * Workfront Planning connected records' lookup fields
    >    * AEM Assets connection fields-->
 
-   * **Sezione predefinita**: questa è l&#39;interruzione di sezione predefinita che Workfront applica al modulo di richiesta. Impossibile rinominare o rimuovere la sezione predefinita.
+   * **Sezione predefinita**: questa è l&#39;interruzione di sezione predefinita che Workfront applica al modulo di richiesta. Tutti i campi record vengono visualizzati nell&#39;area **Sezione predefinita**.
    * Campo **Oggetto**: campo che identificherà la richiesta in Workfront. Impossibile modificare la configurazione e il valore del campo Oggetto.
 
      >[!TIP]
@@ -183,6 +183,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. (Facoltativo) Passa il puntatore del mouse su tutti i campi del modulo che desideri rimuovere, quindi fai clic sull&#39;icona **x** per rimuoverli. Vengono aggiunti alla scheda **Campi** a sinistra del modulo.
 
    Rimuovere ad esempio il campo **Oggetto**, in quanto non è visibile in Workfront Planning. <!--remove this step when we connect intake with the Requests area in Workfront-->
+1. (Facoltativo) Per rimuovere la **sezione predefinita** dal modulo, eseguire le operazioni seguenti:
+
+   1. Rimuovi tutti i campi dalla sezione predefinita.
+   1. Fai clic su **Elementi di contenuto** e aggiungi una nuova sezione, quindi aggiungi un nome per la sezione.
+   1. Aggiungi campi alla nuova sezione.
+   1. Fai clic sull&#39;icona **x** per rimuovere la **sezione predefinita**.
 1. Fare clic su un campo qualsiasi, quindi utilizzare i controlli nel pannello destro del modulo per definirne le dimensioni o una delle seguenti informazioni:
 
    * **Etichetta**: questo è il nome del campo che verrà visualizzato nel modulo di richiesta. Questo non modifica il nome del campo record.
@@ -220,11 +226,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      Per ulteriori informazioni sull&#39;aggiunta di approvazioni ai moduli di richiesta, vedere [Aggiungere approvazione a un modulo di richiesta](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 1. (Facoltativo) Fai clic sul menu **Altro** ![](assets/more-menu.png) a destra del nome del modulo nell&#39;intestazione, quindi fai clic su **Modifica** per aggiornare il nome del modulo.
-1. Fai clic su **Publish** per pubblicare il modulo e ottenere un collegamento univoco.
+1. Fai clic su **Pubblica** per pubblicare il modulo e ottenere un collegamento univoco.
 
    Si verificano le seguenti situazioni:
 
-   * Il pulsante **Publish** è stato rimosso.
+   * Il pulsante **Pubblica** è stato rimosso.
    * Il pulsante **Annulla pubblicazione** è stato aggiunto al modulo. Facendo clic su di esso, il modulo non sarà accessibile.
    * Un pulsante **Condividi** è stato aggiunto al modulo.
 

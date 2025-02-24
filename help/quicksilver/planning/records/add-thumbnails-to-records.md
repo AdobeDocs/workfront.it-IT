@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '913'
 ht-degree: 0%
 
 ---
@@ -132,9 +132,9 @@ Considera quanto segue:
 
    Verrà aperta la pagina del tipo di record.
 1. Selezionare una visualizzazione tabella dal menu a discesa **Visualizza**. Tutti i record del tipo selezionato vengono visualizzati in una tabella.
-1. Passa il puntatore del mouse sulle informazioni del campo primario, fai clic sul menu **Altro** ![](assets/more-menu.png), quindi fai clic su **Miniatura**.
+1. Passa il puntatore del mouse sulle informazioni del campo principale, fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png), quindi fai clic su **Miniatura**.
 
-   ![](assets/record-more-menu-expanded.png)
+   ![Registra altro menu espanso](assets/record-more-menu-expanded.png)
 
    >[!TIP]
    >
@@ -180,15 +180,15 @@ Considera quanto segue:
 1. In qualsiasi visualizzazione, fare clic su un record per aprirlo.
 
    Viene visualizzata la casella di anteprima dei dettagli.
-1. (Facoltativo) Fai clic sull&#39;icona ![](assets/open-details-in-a-new-tab-icon.png) in alto a destra **Apri in una nuova scheda**.
+1. (Facoltativo) Fai clic sull&#39;icona **Apri in una nuova scheda** ![Apri i dettagli in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro.
 
    Viene visualizzata la pagina dei dettagli del record.
 
-1. (Condizionale) Nella pagina di anteprima o dettagli del record, passa il cursore del mouse sull&#39;immagine miniatura o sull&#39;icona ![](assets/record-thumbnail-icon-on-details-page.png), passa il puntatore del mouse sullo spazio sopra il nome del record, quindi fai clic su **Aggiungi miniatura** o **Modifica miniatura**.
+1. (Facoltativo) Nella pagina dei dettagli o dell&#39;anteprima del record, passa il cursore del mouse sull&#39;immagine miniatura o sull&#39;icona ![Icona miniatura record nella pagina dei dettagli](assets/record-thumbnail-icon-on-details-page.png), passa il puntatore del mouse sullo spazio sopra il nome del record e fai clic su **Aggiungi miniatura** o **Modifica miniatura**.
 
    Per impostazione predefinita, nella casella **Miniatura record** viene aperta la scheda **Carica**.
 
-   ![](assets/record-thumbnail-box-for-upload.png)
+   ![Casella delle miniature dei record da caricare](assets/record-thumbnail-box-for-upload.png)
 
 1. Trascina un file da aggiungere come miniatura
 
@@ -197,12 +197,12 @@ Considera quanto segue:
    Fai clic su **Sfoglia immagini**, quindi cerca un file di immagine da aggiungere. Il file deve essere salvato nel computer.
 
 1. (Facoltativo) Dopo il caricamento dell&#39;immagine nella casella **Miniatura record**, utilizzare lo strumento di ridimensionamento per ritagliare e ridimensionare l&#39;immagine.
-1. (Facoltativo) Fai clic sull&#39;icona ![](assets/upload-new-image-icon.png) di **Carica nuova immagine** per caricare un&#39;altra immagine.
+1. (Facoltativo) Fai clic sull&#39;icona **Carica nuova immagine** ![Carica nuova immagine](assets/upload-new-image-icon.png) per caricare un&#39;altra immagine.
 1. (Facoltativo) Fai clic sulla scheda **Galleria**, quindi su un&#39;immagine. Impossibile modificare la raccolta di immagini.
 
-   ![](assets/record-thumbnail-box-for-gallery.png)
+   ![Casella miniature record per la raccolta](assets/record-thumbnail-box-for-gallery.png)
 
-1. (Facoltativo) Per rimuovere la miniatura prima del salvataggio, fare clic sull&#39;icona **Rimuovi** ![](assets/remove-image-icon.png) a destra dell&#39;immagine.
+1. (Facoltativo) Per rimuovere la miniatura prima del salvataggio, fare clic sull&#39;icona **Rimuovi** ![Rimuovi icona immagine](assets/remove-image-icon.png) a destra dell&#39;immagine.
 
 1. Fare clic su **Utilizza immagine** per aggiungere l&#39;immagine come miniatura.
 Chiude la casella **Miniatura record**.
@@ -212,7 +212,7 @@ La miniatura viene visualizzata nelle aree di Workfront Planning in cui viene vi
    >
    >   Per visualizzare le miniature in questa visualizzazione, è necessario attivare il campo Miniatura nella visualizzazione Tabella. Per impostazione predefinita, è disabilitata.
 
-1. (Facoltativo) Per rimuovere la miniatura dopo averla salvata, fai clic su un record in una visualizzazione qualsiasi per aprire la pagina dei dettagli, quindi passa il puntatore sull&#39;immagine miniatura e fai clic sul menu **Altro** ![](assets/more-menu.png)> icona **Rimuovi** ![](assets/remove-image-icon.png). L&#39;immagine di anteprima viene rimossa.
+1. (Facoltativo) Per rimuovere la miniatura dopo averla salvata, fai clic su un record in una visualizzazione qualsiasi per aprire la pagina dei dettagli, quindi passa il puntatore sull&#39;immagine miniatura e fai clic sul menu **Altro** ![Icona altro menu](assets/more-menu.png)> **Rimuovi** icona ![Rimuovi icona](assets/remove-image-icon.png). L&#39;immagine di anteprima viene rimossa.
 
 
 

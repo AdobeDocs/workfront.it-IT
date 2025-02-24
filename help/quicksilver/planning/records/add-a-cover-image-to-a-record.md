@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '748'
 ht-degree: 1%
 
 ---
@@ -136,53 +136,46 @@ Considera quanto segue:
 
    Oppure
 
-   Nella vista tabella fare clic sull&#39;icona ![](assets/open-details-icon-in-table-name-field.png) **Apri dettagli** nella prima colonna.
+   Dalla vista tabella, fare clic sull&#39;icona **Apri dettagli** ![Apri dettagli icona](assets/open-details-icon-in-table-name-field.png) nella prima colonna.
 
    L&#39;anteprima del record viene visualizzata nella vista.
 
-   <!--<div class="preview">
+   ![Anteprima dettagli](assets/details-box.png)
 
-    ![](assets/details-box.png) 
 
-    </div>-->
-
-1. (Facoltativo) Fai clic sull&#39;icona **Apri in una nuova scheda** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda.
+1. (Facoltativo) Fai clic sull&#39;icona **Apri in una nuova scheda** ![Apri in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda.
 
    Viene visualizzata la pagina del record.
 
-   <!--<div class="preview">
-
-    ![](assets/details-page.png)
-
-    </div>-->
+   ![Pagina dettagli](assets/details-page.png)
 
 1. Nella pagina di anteprima o dettagli del record, passa il cursore del mouse sullo spazio sopra il nome del record, quindi fai clic su **Aggiungi copertina**.
 
    Oppure
 
-   Passa il puntatore del mouse su un&#39;immagine di copertina esistente, fai clic sul menu **Altro** ![](assets/more-menu.png), quindi fai clic su **Carica**. <!--check the casing here; I logged a bug for this-->
+   Passa il puntatore del mouse su un&#39;immagine di copertina esistente e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) , quindi su **Carica**. <!--check the casing here; I logged a bug for this-->
 La casella **Copertina record** si apre nella scheda **Carica**.
 
-   ![](assets/record-cover-box-for-upload.png)
+   ![Casella di copertina record per il caricamento](assets/record-cover-box-for-upload.png)
 
 1. Fare clic su **Sfoglia immagini** e cercare un&#39;immagine nel computer per selezionarla e aggiungerla.
 
-1. (Facoltativo) Per rimuovere l&#39;immagine prima di salvarla, fare clic sull&#39;icona ![](assets/upload-new-image-icon.png) di **Carica nuova immagine** e caricare una nuova immagine.
+1. (Facoltativo) Per rimuovere l&#39;immagine prima che venga salvata, fai clic sull&#39;icona **Carica nuova immagine** ![Carica nuova immagine](assets/upload-new-image-icon.png) e carica una nuova immagine.
 
 1. (Facoltativo) Fai clic sulla scheda **Galleria**, quindi fai clic su un&#39;immagine nella raccolta di immagini. Impossibile modificare la raccolta di immagini.
 
-   ![](assets/record-cover-box-for-gallery.png)
+   ![Casella di copertina record per la raccolta](assets/record-cover-box-for-gallery.png)
 
 1. Fare clic su **Usa immagine**.
 
    L’immagine viene caricata nella parte superiore della pagina dei dettagli o dell’anteprima del record e le modifiche vengono salvate automaticamente.
 
-   ![](assets/record-page-with-cover-image.png)
+   ![Registra pagina con immagine di copertina](assets/record-page-with-cover-image.png)
 
-1. (Facoltativo) Passa il puntatore del mouse sull&#39;immagine, quindi fai clic sul menu **Altro** ![](assets/more-menu.png) nell&#39;angolo inferiore destro dell&#39;immagine di copertina, quindi effettua una delle seguenti operazioni:
+1. (Facoltativo) Passa il puntatore del mouse sull&#39;immagine, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) nell&#39;angolo inferiore destro dell&#39;immagine di copertina, quindi effettua una delle seguenti operazioni:
 
    * Fare clic su **Carica** se si desidera sostituire l&#39;immagine di copertina e ripetere il passaggio 6 per caricare e salvare una nuova immagine.
-   * Fai clic su **Riposiziona** e utilizza lo strumento **Riposiziona** ![](assets/reposition-tool-icon.png) per centrare l&#39;immagine di copertina, quindi al termine fai clic su **Salva**.
+   * Fai clic su **Riposiziona** e utilizza lo strumento **Riposiziona** ![Icona strumento di riposizionamento](assets/reposition-tool-icon.png) per centrare l&#39;immagine di copertina, quindi al termine fai clic su **Salva**.
    * Fai clic su **Rimuovi** per rimuovere l&#39;immagine di copertina.
 
    Workfront salva automaticamente le modifiche.
