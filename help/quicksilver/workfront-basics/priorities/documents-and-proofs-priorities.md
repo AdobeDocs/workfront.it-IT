@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '514'
 ht-degree: 2%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 2%
 # Caricare documenti e creare bozze in Priorità
 
 È possibile caricare documenti e creare bozze in Priorità.
+
+In Priorità vengono visualizzati gli elementi di lavoro assegnati all&#39;utente. Non è possibile visualizzare gli elementi di lavoro assegnati al team.
 
 ## Requisiti di accesso
 
@@ -171,7 +173,7 @@ Add new version, open proof, edit, download, move, share, remove
 
 È possibile filtrare i documenti in base a
 
-* Aggiunta di
+* Aggiunta da
 * Tipo di file
 
 ### Ordina

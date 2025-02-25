@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '263'
 ht-degree: 4%
 
 ---
@@ -37,7 +37,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader"><strong>Licenza Adobe Workfront*</strong></td> 
    <td> 
    <p>Corrente: richiesta o superiore per richieste; revisione o superiore per problemi; lavoro o superiore per attività</p>
-   <p>Nuovo: Collaboratore o versione successiva per le richieste; Light o versione successiva per i problemi <!--and documents-->: attività standard o successive</p> 
+   <p>Nuovo: Collaboratore o versione successiva per richieste; Chiaro o versione successiva per problemi e documenti: attività standard o versioni successive</p> 
    </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Creare attività o problemi in Priorità
 
-Puoi creare un’attività o un problema in un progetto.
+Puoi creare un’attività o un problema in un progetto. In Priorità vengono visualizzati gli elementi di lavoro assegnati all&#39;utente. Non è possibile visualizzare gli elementi di lavoro assegnati al team nell&#39;elenco Priorità.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Per creare un&#39;attività o un problema in un progetto:
 
 1. Fai clic su **Crea nuovo** nell&#39;angolo superiore destro.
    ![](assets/create-new.png)
-&lt;!—nuova schermata per il prodotto ![](assets/create-new--.png)—>
+nuova schermata per il prod ![](assets/create-new--.png)
 1. Specifica le seguenti informazioni:
 
    | Campo | Istruzioni |

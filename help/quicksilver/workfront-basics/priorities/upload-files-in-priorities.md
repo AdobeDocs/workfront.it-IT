@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Caricare file in Priorità
 
 È possibile caricare i file dall&#39;elenco delle priorità o dai singoli elementi di lavoro. I file caricati da Priorità vengono visualizzati nella scheda Documenti dell’elemento di lavoro.
+
+In Priorità vengono visualizzati gli elementi di lavoro assegnati all&#39;utente. Non è possibile visualizzare gli elementi di lavoro assegnati al team.
 
 ## Requisiti di accesso
 
@@ -57,7 +59,7 @@ Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, co
 1. Seleziona una cartella (facoltativo).
 1. Trascina e rilascia il file o usa Cmd/Ctrl + V per incollarlo dagli Appunti
 o
-Fai clic su **Aggiungi file** per sfogliare i file o importarli da un provider di Document Cloud.
+Fai clic su **Aggiungi file** per sfogliare i file o importarli da un provider Document Cloud.
    ![](assets/add-files.png)
 1. Aggiungi un commento (facoltativo).
 1. Aggiungi altri file (facoltativo).
@@ -78,7 +80,7 @@ Fai clic su **Aggiungi file** per sfogliare i file o importarli da un provider d
 1. Seleziona una cartella (facoltativo).
 1. Trascina e rilascia il file o usa Cmd/Ctrl + V per incollarlo dagli Appunti
 o
-Fai clic su **Aggiungi file** per sfogliare i file o importarli da un provider di Document Cloud.
+Fai clic su **Aggiungi file** per sfogliare i file o importarli da un provider Document Cloud.
    ![](assets/add-files.png)
 1. Aggiungi un commento (facoltativo).
 1. Aggiungi altri file (facoltativo).
