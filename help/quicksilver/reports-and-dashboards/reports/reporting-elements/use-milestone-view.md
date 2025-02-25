@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: Utilizzare la vista Milestone
-description: Puoi applicare la vista Milestone (Attività cardine) a un elenco o a un rapporto di progetto.
+description: Puoi applicare la vista Milestone (Attività cardine) a un elenco o a un rapporto di progetto. È possibile utilizzare la vista Milestone (Attività cardine) per visualizzare tutte le attività cardine associate alle attività all'interno dei progetti visualizzati.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1360'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,13 @@ ht-degree: 0%
 
 <!-- Audited: 11/2024 -->
 
-Puoi applicare la vista Milestone (Attività cardine) a un elenco o a un rapporto di progetto.
+Puoi applicare la vista Milestone (Attività cardine) a un elenco o a un rapporto di progetto. È possibile utilizzare la vista Milestone (Attività cardine) per visualizzare tutte le attività cardine associate alle attività all&#39;interno dei progetti visualizzati.
 
-Prima di poter utilizzare la vista milestone, è necessario configurare le milestone, aggiungere percorsi milestone ai progetti e associare le milestone alle attività, come descritto negli articoli [Creare un percorso milestone](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) e [Associare le milestone alle attività](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+Prima di poter utilizzare la vista milestone, è necessario che siano presenti i seguenti elementi:
+
+* I percorsi delle milestone sono configurati. Per informazioni, vedere [Creare un percorso milestone](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+* I percorsi delle milestone necessari vengono aggiunti ai progetti. Per informazioni, vedere [Modifica progetti](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+* Le attività cardine sono associate alle attività. Per informazioni, vedere [Associa attività cardine alle attività](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 La vista Milestone (Attività cardine) è disponibile quando si visualizza un elenco di progetti o un rapporto di progetto. Nelle sezioni seguenti viene descritto come visualizzare e utilizzare la vista milestone.
 

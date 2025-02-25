@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '700'
 ht-degree: 3%
 
 ---
@@ -22,6 +22,10 @@ ht-degree: 3%
 <!--
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
+
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 In qualità di amministratore di Adobe Workfront, puoi creare percorsi milestone che possono quindi essere applicati a qualsiasi progetto del sistema. Le modifiche apportate ai percorsi milestone in quest&#39;area hanno effetto sull&#39;intero sistema Workfront.
 
@@ -116,3 +120,38 @@ Per ulteriori informazioni su come associare un percorso milestone a un progetto
    Il percorso milestone è pronto per essere associato a un progetto.
 
    Per ulteriori informazioni su come associare percorsi milestone a progetti e milestone ad attività, vedere [Associare milestone ad attività](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+
+
+## Visualizzare i dettagli del percorso milestone in un rapporto
+
+Puoi visualizzare i dettagli di un percorso milestone in un rapporto di progetto.
+
+È necessario associare un percorso milestone a un progetto prima di visualizzarne i dettagli in un report di progetto.
+
+Per informazioni sull&#39;associazione dei percorsi milestone ai progetti, vedere [Modifica progetti](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+
+{{step1-to-reports}}
+
+1. Fai clic su **Nuovo report**, quindi fai clic su **Progetto**.
+1. Fai clic su **Aggiungi colonna**.
+1. Nell&#39;area **Mostra in questa colonna**, inizia a digitare **Percorso milestone**, quindi fai clic su **Nome percorso milestone**.
+1. (Facoltativo) Fai clic su **Filtri** e aggiungi il seguente filtro al rapporto: **L&#39;ID percorso milestone del progetto non è vuoto**.
+
+   Il filtro assicura che nel rapporto vengano visualizzati solo i progetti associati a un percorso milestone.
+
+1. Fai clic su **Salva e Chiudi**.
+1. Aggiungi un nome per il report, quindi fai clic su **Applica**.
+
+   Viene visualizzato il report del progetto. I percorsi milestone associati a ciascun progetto vengono visualizzati nell’ultima colonna del rapporto.
+1. Fare clic sul nome di un percorso milestone nell&#39;ultima colonna del report.
+
+   Vengono visualizzati i dettagli del percorso milestone. Vengono visualizzati anche i dettagli di ogni attività cardine.
+
+   ![Dettagli del percorso milestone dal report del progetto](assets/milestone-details-from-project-report.png)
+
+   <!--replace screen shot above with unshimming and mark it for Preview-->
+
+1. (Facoltativo) Fai clic su **Indietro** per tornare al report del progetto.
+
+
+
