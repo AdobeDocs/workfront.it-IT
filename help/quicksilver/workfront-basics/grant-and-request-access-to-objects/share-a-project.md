@@ -6,9 +6,9 @@ description: Il tuo amministratore Adobe Workfront può concederti l’accesso p
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1007'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 Il tuo amministratore Adobe Workfront può concederti l’accesso per visualizzare o modificare progetti durante l’assegnazione del livello di accesso. Per ulteriori informazioni, vedere [Concedere l&#39;accesso ai progetti](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
-Oltre al livello di accesso concesso agli utenti, è possibile concedere loro le autorizzazioni per visualizzare, Contribute o gestire progetti specifici a cui si ha accesso per la condivisione.
+Oltre al livello di accesso concesso agli utenti, è possibile concedere loro le autorizzazioni per visualizzare, contribuire o gestire progetti specifici a cui si ha accesso per la condivisione.
 
 Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono quali azioni è possibile eseguire su tale elemento.
 
@@ -104,9 +104,9 @@ Puoi condividere un progetto nei seguenti modi:
 
 ## Limitazioni per i diversi tipi di licenza
 
-* Gli utenti con una licenza Worker non dispongono delle autorizzazioni necessarie per gestire i progetti. Per i processi di lavoro, l&#39;autorizzazione di condivisione più elevata è Contribute.
-* Gli utenti con una licenza Request possono visualizzare le informazioni sul progetto, ma hanno accesso limitato al progetto.
-* Un’eccezione alla modifica dello stato di un progetto si verifica quando un utente con autorizzazioni Visualizzazione o Contribute è incluso anche in un processo di approvazione. Possono approvare il progetto, che modifica lo stato del progetto, ma lo stato è quello predefinito per l’approvazione o per il rifiuto.
+* Gli utenti con una licenza Light e inferiore (o licenza Lavoro e inferiore per il vecchio modello di licenza) non dispongono delle autorizzazioni per gestire i progetti. Per questi utenti, l&#39;autorizzazione di condivisione più elevata è Contribute.
+* Gli utenti con una licenza Collaboratore (o una licenza Richiesta per il vecchio modello di licenza) possono visualizzare le informazioni sul progetto, ma hanno accesso limitato al progetto.
+* Un&#39;eccezione alla modifica dello stato di un progetto si verifica quando un utente con autorizzazioni Visualizza o Contribuisci è incluso anche in un processo di approvazione. Possono approvare il progetto, che modifica lo stato del progetto, ma lo stato è quello predefinito per l’approvazione o per il rifiuto.
 * Per poter copiare un progetto, un utente deve anche avere accesso alla creazione di progetti nel proprio Livello di Accesso.
 
 <!--
@@ -144,7 +144,7 @@ Nella tabella seguente sono elencate le autorizzazioni che gli utenti possono co
   <tr> 
    <th> <p><strong>Azioni</strong> </p> </th> 
    <th> <p><strong>Gestisci</strong> </p> </th> 
-   <th> <p><strong>Contribute</strong> </p> </th> 
+   <th> <p><strong>Contribuisci</strong> </p> </th> 
    <th> <p><strong>Visualizza</strong> </p> </th> 
   </tr> 
  </thead> 

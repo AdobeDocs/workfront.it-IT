@@ -6,9 +6,9 @@ description: È possibile filtrare un report in base all'intervallo di tempo di 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1027'
 ht-degree: 5%
 
 ---
@@ -129,11 +129,11 @@ Per ulteriori informazioni sulla creazione di report, vedere [Creare un report](
 
 ## Modificatori di intervallo temporale incorporati {#built-in-time-frame-modifiers}
 
-Adobe Workfront dispone di modificatori di intervalli di tempo incorporati che è possibile utilizzare senza definire una data specifica. 
+Adobe Workfront dispone di modificatori di intervalli di tempo incorporati che è possibile utilizzare senza definire una data specifica.
 
-Questi modificatori sono disponibili per qualsiasi campo data in un filtro o in un prompt in qualsiasi rapporto. 
+Questi modificatori sono disponibili per qualsiasi campo data in un filtro o in un prompt in qualsiasi rapporto.
 
-Per ulteriori informazioni su come filtrare un rapporto in base a un intervallo di tempo associato a una data, consulta  [Filtrare un report per intervallo di tempo di una data](#filter-a-report-by-the-time-frame-of-a-date).
+Per ulteriori informazioni su come filtrare un report in base a un intervallo di tempo associato a una data, vedere la sezione precedente [Filtrare un report in base all&#39;intervallo di tempo di una data](#filter-a-report-by-the-time-frame-of-a-date).
 
 Ad esempio, se desideri visualizzare le ore inserite in un determinato intervallo di tempo durante la creazione di un rapporto orario, puoi scegliere tra le seguenti opzioni di filtro integrate per l’intervallo di tempo:
 

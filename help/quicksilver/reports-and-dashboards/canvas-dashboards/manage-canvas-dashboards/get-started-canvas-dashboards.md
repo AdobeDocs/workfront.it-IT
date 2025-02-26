@@ -6,9 +6,9 @@ description: Istruzioni di base per l’utilizzo delle dashboard di Canvas, incl
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 43456634-f891-4262-93be-bdb9e7d58c77
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ Le dashboard di Canvas consentono di visualizzare facilmente i dati di Adobe Wor
 
 ## Prerequisiti
 
-* Per creare un dashboard Area di lavoro è necessario disporre di una licenza Pianificazione (licenze correnti) o Standard (nuove licenze).\
-  Per informazioni sui tipi di licenza di Workfront, vedere [Panoramica licenze](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) per le licenze correnti e [Panoramica nuove licenze](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) per le nuove licenze.
+* La tua organizzazione deve far parte della versione beta chiusa dei dashboard di Canvas. Per informazioni, vedere [Informazioni sulla versione beta delle dashboard di Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-* L’amministratore di Workfront deve consentire l’accesso a Modifica dashboard nel livello di accesso per creare o modificare un dashboard di Canvas.\
-  Per informazioni su come concedere l&#39;accesso in modifica alle dashboard, vedere [Concedere l&#39;accesso a report, dashboard e calendari](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+* Per creare un dashboard Area di lavoro è necessario disporre di una licenza Pianificazione (licenze correnti) o Standard (nuove licenze). Per informazioni sui tipi di licenze di Workfront, vedere [Panoramica licenze](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) o [Panoramica nuove licenze](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+
+* L’amministratore di Workfront deve consentire l’accesso in modifica alle dashboard nel livello di accesso per creare o modificare una dashboard di Canvas. Per informazioni sulla concessione dell&#39;accesso in modifica, vedere [Concedere l&#39;accesso a report, dashboard e calendari](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Passa a un dashboard Area di lavoro
 

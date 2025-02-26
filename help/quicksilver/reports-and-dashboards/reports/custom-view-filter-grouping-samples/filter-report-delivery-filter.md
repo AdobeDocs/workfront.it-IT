@@ -2,12 +2,12 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Filtro: visualizzare i rapporti pianificati per la consegna"
+title: 'Filtro: visualizzare i rapporti pianificati per la consegna'
 description: Questo filtro per la generazione di rapporti mostra tutti i rapporti pianificati per essere consegnati automaticamente in Adobe Workfront. È meglio utilizzarlo con la visualizzazione standard.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 7b937384-80c9-4bc7-94be-5573cf86b35b
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 1%
@@ -65,8 +65,16 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 Per applicare questo filtro:
 
 1. Passare a un elenco di report.
+
 1. Dal menu a discesa **Filtro**, selezionare **Nuovo filtro**.
 
 1. Fare clic su **Passa alla modalità testo**.
-1. Nell&#39;area **Imposta regole filtro per il report**, copiare e incollare il codice seguente: `scheduledReportID=0<br>scheduledReportID_Mod=notnull`
+
+1. Nell&#39;area **Imposta regole filtro per il report**, copiare e incollare il codice seguente:
+
+   ```
+   scheduledReportID=0
+   scheduledReportID_Mod=notnull
+   ```
+
 1. Fai clic su **Salva filtro**.
