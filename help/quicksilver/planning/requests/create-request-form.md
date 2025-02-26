@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
+source-git-commit: 5510f99e9e5c8c4c5f85953e19563f9ab18b0fae
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1538'
 ht-degree: 2%
 
 ---
@@ -115,6 +115,49 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 +++
 
+## Limitazioni della visualizzazione di campi e valori nei moduli di richiesta
+
+<!--
+
+There are limitations in how certain fields display on the request form and how their values later display on the records or the request details page, after you submit a request. 
+
+For information about submitting requests to create records, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
+
+The following are limitations for how certain fields display in request forms, records created by a request form, or on the request details page: -->
+
+* Non è possibile aggiungere campi dei tipi seguenti a un modulo di richiesta:
+
+   * Creato da e Ultima modifica da
+   * Data di creazione e data dell’ultima modifica
+   * Formula. I campi formula sono supportati nell’ambiente di anteprima.
+   * Campi di ricerca di oggetti Workfront
+   * Campi di ricerca dei record connessi di Workfront Planning
+
+<!--at release to Preview, replace the above with this:  
+>
+>Fields of the following types do not display in the request form:
+>* Created by and Last modified by
+>* Created date and Last modified date
+>* Formula. <span class="preview">Formula fields display in request forms in the Preview environment.</span>
+>* Workfront objects' lookup fields
+>* Workfront Planning connected records' lookup fields-->
+
+* Differenza tra la modalità di visualizzazione dei formati dei campi nel generatore di moduli di richiesta e la formattazione dei valori nel record o nella pagina dei dettagli della richiesta:
+
+   * I campi Valuta, Numero e Percentuale vengono visualizzati come un tipo di campo di testo a riga singola nel generatore di moduli.
+
+     Tuttavia, il formato del campo viene mantenuto e i valori dei numeri in questi campi verranno visualizzati come Valuta, Numero e Percentuale sul tipo di record e nella pagina dei dettagli della richiesta.
+
+<!--
+* The following describes how some field values display on request forms and the request details pages: 
+
+   * Special formatting for Currency, Number, and Percentage fields is not preserved. For example, the decimal precision is not preserved for these fields' values in these areas.
+   * People field values display as IDs.
+   * Formula fields that don't refer to other fields or calculations don't display any values. For example, a field with a `STRING` formula displays a "N/A" value.
+   * Formula fields that refer to Currency fields display the values without accounting for exchange rates.
+   * The values of Paragraph fields that contain special formatting display a "N/A" value on the request form and they display html tags instead of the formatted text in the request details page.
+-->
+
 ## Creare un modulo di richiesta per un tipo di record
 
 {{step1-to-planning}}
@@ -140,34 +183,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    Per impostazione predefinita, il modulo di richiesta contiene le seguenti informazioni:
 
    * Campi record disponibili nella vista tabella del tipo di record selezionato. <!--they are working on removing the limitation below-->
-
-   <!-- when we go to prod, the Preview batch below will become the only batch-->
-
-   >[!IMPORTANT]
-   >
-   >I campi dei seguenti tipi non vengono visualizzati nel modulo di richiesta:
-   >
-   >* Creato da e Ultima modifica da
-   >* Data di creazione e data dell’ultima modifica
-   >* Formula
-   >* Campi di ricerca di oggetti Workfront
-   >* Campi di ricerca dei record connessi di Workfront Planning
-   >
-
-   <!--before release to prod: 
-    > Depending on what environment you use to create a request form, the following scenarios exist:
-   >
-   >* Fields of the following types do not display in the request form in the Production environment: 
-   >
-   >    * Created by and Last modified by
-   >    * Created date and Last modified date
-   >    * Formula
-   >    * People 
-   >    * Workfront connected fields
-   >    * Workfront objects' lookup fields
-   >    * Workfront Planning records' connected fields
-   >    * Workfront Planning connected records' lookup fields
-   >    * AEM Assets connection fields-->
 
    * **Sezione predefinita**: questa è l&#39;interruzione di sezione predefinita che Workfront applica al modulo di richiesta. Tutti i campi record vengono visualizzati nell&#39;area **Sezione predefinita**.
    * Campo **Oggetto**: campo che identificherà la richiesta in Workfront. Impossibile modificare la configurazione e il valore del campo Oggetto.
@@ -196,12 +211,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    * **Imposta un campo obbligatorio**: se selezionata, il campo deve avere un valore. In caso contrario, il modulo non può essere inviato.
    * **Aggiungi logica**: definisci quali condizioni devono essere soddisfatte affinché il campo venga visualizzato o nascosto.
 
-   >[!NOTE]
+   >[!TIP]
    >
    >   Il tipo di campo di ciascun campo viene visualizzato nella parte superiore del pannello di destra, dopo aver selezionato il campo nel modulo.
-   >   
-   >
-   >   I campi Valuta, Numero e Percentuale vengono visualizzati come un tipo di campo di testo a riga singola. Tuttavia, il formato del campo viene mantenuto e i valori all’interno di questi campi verranno visualizzati come Valuta, Numero e Percentuale.
+   >     
 
 1. (Facoltativo) Fai clic sulla scheda **Elementi di contenuto** sul lato sinistro del modulo e aggiungi i seguenti elementi:
 
