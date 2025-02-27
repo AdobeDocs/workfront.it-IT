@@ -5,9 +5,9 @@ description: Panoramica dell’Assistente AI
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: f496d5170ff087167130a6463e18ea44af50e21f
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '817'
 ht-degree: 1%
 
 ---
@@ -139,3 +139,30 @@ Per richiedere l’accordo Adobe Gen AI:
 1. Inserisci il nome e l’indirizzo e-mail della persona dell’organizzazione che firmerà l’accordo Adobe Gen AI.
 
    Il contratto verrà inviato a questa persona per la firma. Dopo la firma e la restituzione, l’Assistente IA viene abilitato per la tua organizzazione.
+
+## Suggerimenti per la creazione di prompt nell’Assistente IA
+
+Utilizza le seguenti parole chiave nelle tue richieste per fornire contesto e aiutare a individuare le informazioni corrette. Le parole chiave non fanno distinzione tra maiuscole e minuscole.
+
+Quando si immette la richiesta, includere la frase `using (keyword)`.
+
+| Parola chiave | Effetto |
+|---|---|
+| `workfront` | Interagisce direttamente con Workfront. |
+| `planning ` | Interagisce con Workfront Planning. |
+| `help` | Restituisce informazioni dalla documentazione di Experience League. |
+| `formula` | Controlla e restituisce le formule da utilizzare nei moduli personalizzati di Planning, Setup o. |
+| `health` | Verifica lo stato del progetto con Project Health Advisor. |
+| `summarize` | Riepiloga gli elementi, ad esempio quando si carica un file o si riepiloga un progetto. |
+
+>[!NOTE]
+>
+> Non tutte le parole chiave sono disponibili in tutte le aree.
+>
+>* La parola chiave `formula` è disponibile solo in Planning, Installazione e nel sistema di creazione di moduli personalizzati.
+>* La parola chiave `planning` è disponibile solo in Workfront Planning.
+
+
+
+
+
