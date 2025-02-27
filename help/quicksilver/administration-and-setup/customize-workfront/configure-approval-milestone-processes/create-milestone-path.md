@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '779'
 ht-degree: 3%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 3%
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 In qualità di amministratore di Adobe Workfront, puoi creare percorsi milestone che possono quindi essere applicati a qualsiasi progetto del sistema. Le modifiche apportate ai percorsi milestone in quest&#39;area hanno effetto sull&#39;intero sistema Workfront.
 
@@ -145,11 +145,19 @@ Per informazioni sull&#39;associazione dei percorsi milestone ai progetti, veder
    Viene visualizzato il report del progetto. I percorsi milestone associati a ciascun progetto vengono visualizzati nell’ultima colonna del rapporto.
 1. Fare clic sul nome di un percorso milestone nell&#39;ultima colonna del report.
 
-   Vengono visualizzati i dettagli del percorso milestone. Vengono visualizzati anche i dettagli di ogni attività cardine.
+   Vengono visualizzati i dettagli del percorso milestone.
+
+   <div class="preview">
 
    ![Dettagli del percorso milestone dal report del progetto](assets/milestone-details-from-project-report.png)
 
-   <!--replace screen shot above with unshimming and mark it for Preview-->
+   Nella pagina dei dettagli del percorso della milestone vengono visualizzate le seguenti informazioni:
+
+   * Nome, ID e descrizione del percorso di Milestone
+   * Gruppi di percorsi milestone
+   * Nomi milestone, descrizioni, colori e icone colore
+
+   </div>
 
 1. (Facoltativo) Fai clic su **Indietro** per tornare al report del progetto.
 

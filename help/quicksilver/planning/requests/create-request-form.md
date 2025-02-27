@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 5510f99e9e5c8c4c5f85953e19563f9ab18b0fae
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '1538'
-ht-degree: 2%
+source-wordcount: '1868'
+ht-degree: 1%
 
 ---
 
@@ -19,11 +19,10 @@ ht-degree: 2%
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
 {{planning-important-intro}}
 
@@ -117,46 +116,37 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Limitazioni della visualizzazione di campi e valori nei moduli di richiesta
 
-<!--
+Dopo l’invio di una richiesta, la visualizzazione di determinati campi nel modulo di richiesta e la successiva visualizzazione dei relativi valori nei record o nella pagina dei dettagli della richiesta sono soggette a limitazioni.
 
-There are limitations in how certain fields display on the request form and how their values later display on the records or the request details page, after you submit a request. 
+Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare richieste Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md).
 
-For information about submitting requests to create records, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
+* Di seguito sono riportate le limitazioni relative alla visualizzazione di determinati campi nei moduli di richiesta, nei record creati da un modulo di richiesta o nella pagina dei dettagli della richiesta:
 
-The following are limitations for how certain fields display in request forms, records created by a request form, or on the request details page: -->
+   * Non è possibile aggiungere campi dei tipi seguenti a un modulo di richiesta:
 
-* Non è possibile aggiungere campi dei tipi seguenti a un modulo di richiesta:
+      * Creato da e Ultima modifica da
+      * Data di creazione e data dell’ultima modifica
+      * Formula. <span class="preview">I campi formula sono supportati nell&#39;ambiente di anteprima.</span>
+      * Campi di ricerca di oggetti Workfront
+      * Campi di ricerca dei record connessi di Workfront Planning
 
-   * Creato da e Ultima modifica da
-   * Data di creazione e data dell’ultima modifica
-   * Formula. I campi formula sono supportati nell’ambiente di anteprima.
-   * Campi di ricerca di oggetti Workfront
-   * Campi di ricerca dei record connessi di Workfront Planning
-
-<!--at release to Preview, replace the above with this:  
->
->Fields of the following types do not display in the request form:
->* Created by and Last modified by
->* Created date and Last modified date
->* Formula. <span class="preview">Formula fields display in request forms in the Preview environment.</span>
->* Workfront objects' lookup fields
->* Workfront Planning connected records' lookup fields-->
-
-* Differenza tra la modalità di visualizzazione dei formati dei campi nel generatore di moduli di richiesta e la formattazione dei valori nel record o nella pagina dei dettagli della richiesta:
+* Di seguito sono riportate le differenze tra la visualizzazione dei formati dei campi nel generatore di moduli di richiesta e la formattazione dei valori dei campi nel record o nella pagina dei dettagli della richiesta:
 
    * I campi Valuta, Numero e Percentuale vengono visualizzati come un tipo di campo di testo a riga singola nel generatore di moduli.
 
      Tuttavia, il formato del campo viene mantenuto e i valori dei numeri in questi campi verranno visualizzati come Valuta, Numero e Percentuale sul tipo di record e nella pagina dei dettagli della richiesta.
 
-<!--
-* The following describes how some field values display on request forms and the request details pages: 
+<div class="preview">
 
-   * Special formatting for Currency, Number, and Percentage fields is not preserved. For example, the decimal precision is not preserved for these fields' values in these areas.
-   * People field values display as IDs.
-   * Formula fields that don't refer to other fields or calculations don't display any values. For example, a field with a `STRING` formula displays a "N/A" value.
-   * Formula fields that refer to Currency fields display the values without accounting for exchange rates.
-   * The values of Paragraph fields that contain special formatting display a "N/A" value on the request form and they display html tags instead of the formatted text in the request details page.
--->
+* Di seguito viene descritto come alcuni valori di campo vengono visualizzati nei moduli di richiesta e nelle pagine dei dettagli della richiesta:
+
+   * La formattazione speciale per i campi Valuta, Numero e Percentuale non viene mantenuta. Ad esempio, la precisione decimale non viene mantenuta per i valori di questi campi in queste aree.
+   * I valori dei campi Persone vengono visualizzati come ID.
+   * I campi formula che non fanno riferimento ad altri campi o calcoli non visualizzano alcun valore. Ad esempio, un campo con una formula `STRING` visualizza un valore &quot;N/D&quot;.
+   * I campi formula che fanno riferimento ai campi Valuta visualizzano i valori senza tenere conto dei tassi di cambio.
+   * I valori dei campi Paragrafo che contengono formattazione speciale visualizzano un valore &quot;N/A&quot; nel modulo di richiesta e visualizzano tag HTML invece del testo formattato nella pagina dei dettagli della richiesta.
+
+</div>
 
 ## Creare un modulo di richiesta per un tipo di record
 
@@ -170,7 +160,7 @@ The following are limitations for how certain fields display in request forms, r
 
    La pagina del tipo di record viene visualizzata nella visualizzazione a cui si è effettuato l&#39;ultimo accesso. Per impostazione predefinita, nella vista tabella viene visualizzata una pagina del tipo di record.
 
-1. Fai clic sul menu **Altro** ![](assets/more-menu.png) a destra del nome del tipo di record nell&#39;intestazione della pagina, quindi fai clic su **Crea modulo di richiesta**.
+1. Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record nell&#39;intestazione della pagina, quindi fai clic su **Crea modulo di richiesta**.
 1. Aggiorna il nome del modulo di richiesta. Per impostazione predefinita, il nome del modulo è **Modulo senza titolo**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Facoltativo) Aggiungi una **Descrizione** per il modulo di richiesta.
 
@@ -178,7 +168,7 @@ The following are limitations for how certain fields display in request forms, r
 
 1. Fai clic su **Crea**. Il modulo di richiesta per il tipo di record selezionato viene aperto nella scheda Modulo.
 
-   ![](assets/campaigns-request-form-edit-mode.png)
+   ![Modalità di modifica modulo richiesta campagne](assets/campaigns-request-form-edit-mode.png)
 
    Per impostazione predefinita, il modulo di richiesta contiene le seguenti informazioni:
 
@@ -197,7 +187,8 @@ The following are limitations for how certain fields display in request forms, r
 
 1. (Facoltativo) Passa il puntatore del mouse su tutti i campi del modulo che desideri rimuovere, quindi fai clic sull&#39;icona **x** per rimuoverli. Vengono aggiunti alla scheda **Campi** a sinistra del modulo.
 
-   Rimuovere ad esempio il campo **Oggetto**, in quanto non è visibile in Workfront Planning. <!--remove this step when we connect intake with the Requests area in Workfront-->
+   Rimuovere ad esempio il campo **Oggetto**, in quanto non è visibile in Workfront Planning. <!--remove this example if this becomes visible in Planning?-->
+
 1. (Facoltativo) Per rimuovere la **sezione predefinita** dal modulo, eseguire le operazioni seguenti:
 
    1. Rimuovi tutti i campi dalla sezione predefinita.
@@ -227,7 +218,7 @@ The following are limitations for how certain fields display in request forms, r
 
 1. (Facoltativo) Fai clic sulla scheda **Configurazione**, quindi aggiungi almeno un utente al campo **Approvatori** per approvare nuove richieste per questo modulo record.
 
-   ![](assets/configuration-tab.png)
+   ![Scheda Configurazione](assets/configuration-tab.png)
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
@@ -238,7 +229,7 @@ The following are limitations for how certain fields display in request forms, r
 
      Per ulteriori informazioni sull&#39;aggiunta di approvazioni ai moduli di richiesta, vedere [Aggiungere approvazione a un modulo di richiesta](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-1. (Facoltativo) Fai clic sul menu **Altro** ![](assets/more-menu.png) a destra del nome del modulo nell&#39;intestazione, quindi fai clic su **Modifica** per aggiornare il nome del modulo.
+1. (Facoltativo) Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del modulo nell&#39;intestazione, quindi fai clic su **Modifica** per aggiornare il nome del modulo.
 1. Fai clic su **Pubblica** per pubblicare il modulo e ottenere un collegamento univoco.
 
    Si verificano le seguenti situazioni:
@@ -249,7 +240,7 @@ The following are limitations for how certain fields display in request forms, r
 
 1. Fai clic su **Condividi** per condividere il modulo con altri.
 
-   ![](assets/share-box-for-request-form.png)
+   ![Casella di condivisione per il modulo di richiesta](assets/share-box-for-request-form.png)
 
 1. Selezionare una delle opzioni seguenti per indicare i tipi di utenti che possono accedere al modulo:
 
@@ -261,7 +252,7 @@ The following are limitations for how certain fields display in request forms, r
    >
    >* Quando si seleziona **Chiunque disponga del collegamento** può accedere al modulo e inviare un nuovo record, anche persone esterne all&#39;organizzazione che non dispongono di un account Workfront.
    >
-   > * Un modulo contenente i seguenti tipi di campi non può essere condiviso pubblicamente:
+   >* Un modulo contenente i seguenti tipi di campi non può essere condiviso pubblicamente:
    >
    >     * Connessioni Workfront o AEM Assets
    >     * Persone
@@ -271,7 +262,12 @@ The following are limitations for how certain fields display in request forms, r
 
    È possibile selezionare date future entro 180 giorni dalla data corrente.
 
-1. Fare clic su **Salva e copia collegamento** per salvare i dettagli di condivisione per il modulo. Se il modulo è stato salvato in precedenza, fare clic su **Copia collegamento**.
+   >[!TIP]
+   >
+   ><span class="preview">Dopo la scadenza della data di condivisione, il modulo di richiesta non è più disponibile nell&#39;area Richieste di Workfront.</span>
+
+
+1. <span class="preview">(Facoltativo)</span> Fare clic su **Salva e copia collegamento** per salvare i dettagli di condivisione per il modulo. Se il modulo è stato salvato in precedenza, fare clic su **Copia collegamento**.
 
    Le opzioni di condivisione del modulo vengono salvate e il collegamento viene copiato negli Appunti. Ora puoi condividerlo con altri utenti.
 
@@ -281,11 +277,12 @@ The following are limitations for how certain fields display in request forms, r
 1. Fare clic sulla freccia rivolta a sinistra a sinistra del nome della maschera nell&#39;intestazione per chiudere la maschera.
 
    Viene visualizzata la pagina del tipo di record.
-1. (Facoltativo) Fare clic sul menu **Altro** ![](assets/more-menu.png) a destra del nome del tipo di record nell&#39;intestazione, quindi eseguire una delle operazioni seguenti:
+1. (Facoltativo) Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record nell&#39;intestazione, quindi effettua una delle seguenti operazioni:
    * Fai clic su **Aggiorna modulo di richiesta** per apportare eventuali modifiche al modulo di richiesta.
    * Fai clic su **Copia collegamento al modulo di richiesta** per condividere il collegamento al modulo con altri utenti.
+   * <span class= "preview"> Vai all&#39;area **Richieste** in Workfront e trova il modulo condiviso per inviare una richiesta. Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md).</span>
 
    >[!TIP]
    >
    >In questo caso, il collegamento viene condiviso pubblicamente.
-   >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+   >![Collegamento condiviso pubblicamente al modulo nel menu del tipo di record](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)

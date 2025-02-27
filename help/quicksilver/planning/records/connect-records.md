@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '3082'
+source-wordcount: '3249'
 ht-degree: 1%
 
 ---
@@ -155,8 +155,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 È possibile collegare record da Workfront Planning nelle seguenti aree di un record Planning:
 
 * Campi record connessi nella visualizzazione tabella.
-* L&#39;anteprima o la pagina del record nei campi del record collegato nella scheda Dettagli.
-* L&#39;anteprima o la pagina del record nella scheda Connessioni.
+* La casella di anteprima o la pagina del record nei campi del record connesso della scheda Dettagli.
+* La casella di anteprima o la pagina del record nella scheda Connessioni.
+* <span class="preview">Pagina del record nella scheda Visualizzazione connessione.</span> <!--this needs title edit when they rename the "Connection view" page type-->
 
 ### Collegare i record di Workfront Planning dalla vista tabella o dall&#39;area Dettagli di un record
 
@@ -395,7 +396,7 @@ Per collegare i record con le risorse di Experience Manager:
    * Miniatura dell&#39;immagine
    * Nome del file di immagine
    * Dimensioni
-   * Dimensione
+   * Dimensioni
    * Descrizione
    * Percorso del file in Experience Manager
    * Tipo di risorsa
@@ -462,3 +463,25 @@ Per connettere i record di Workfront Planning dagli oggetti di Workfront, è nec
 * L&#39;amministratore del Workfront o del gruppo deve aggiungere la sezione Pianificazione ai progetti, ai portfolio e ai programmi Workfront nel modello di layout.
 
 Per ulteriori informazioni, vedere [Gestire i record nella sezione Pianificazione degli oggetti Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+
+<div class="preview">
+
+## Collegare i record dalla scheda Visualizzazione connessione nella pagina dei dettagli di un record
+
+<!--section needs title edit when they rename the "Connection view" page type-->
+
+1. Passare a una visualizzazione di un tipo di record connesso ad altri tipi di record o tipi di oggetto di Planning da altre applicazioni.
+1. Seguire i passaggi descritti nelle sottosezioni precedenti per trovare un record nella visualizzazione che si desidera connettere ad altri record o oggetti.
+1. Fare clic sul nome di un record.
+
+   Viene visualizzata la pagina di anteprima.
+1. Fai clic sull&#39;icona **Apri in una nuova scheda** ![Apri i dettagli in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) per aprire la pagina del record.
+1. Fare clic su una scheda della visualizzazione Connessione esistente nell&#39;anteprima o nella pagina del record. È innanzitutto necessario creare una pagina di visualizzazione Connessione. Per informazioni, vedere [Gestire il layout della pagina record](/help/quicksilver/planning/records/manage-the-record-page.md).
+
+   Nella vista a tabella viene visualizzata una pagina del tipo di record connesso.
+1. Fai clic su **Connetti** per aggiungere o rimuovere record.
+
+   ![Pulsante Connetti evidenziato nella scheda dei dettagli del record connesso](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+1. (Facoltativo) Se non riesci a trovare un record connesso, fai clic su **+ Aggiungi** per crearlo e connetterlo.
+
+</div>

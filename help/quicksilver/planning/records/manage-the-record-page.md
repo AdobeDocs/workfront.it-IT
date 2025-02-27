@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1914'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Gestire il layout della pagina record
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -161,11 +161,11 @@ Per aggiungere una sezione a un&#39;anteprima record o a una pagina:
 
    L&#39;anteprima del record viene visualizzata nella vista.
 
-   <!--<div class="preview">
+   <div class="preview">
 
-    ![Details box](assets/details-box.png)  
+   ![Casella Dettagli](assets/details-box.png)
 
-    </div>-->
+   </div>
 
 1. (Facoltativo) Fai clic sull&#39;icona **Apri in una nuova scheda** ![Apri i dettagli in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda.
 
@@ -244,23 +244,29 @@ Si verificano le seguenti situazioni:
 
    L&#39;anteprima del record viene visualizzata nella vista.
 
-   <!--<div class="preview">
+   <div class="preview">
 
-    ![Details box](assets/details-box.png) 
+   ![Casella Dettagli](assets/details-box.png)
 
-    </div>-->
+   </div>
 
 1. (Facoltativo) Fai clic sull&#39;icona **Apri in una nuova scheda** ![Apri la casella dei dettagli in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda.
 
    Per impostazione predefinita viene aperta la scheda **Dettagli** del record.
 
-   <!--<div class="preview">
+   <div class="preview">
 
-   ![Details page](assets/details-page.png)
+   ![Pagina dettagli](assets/details-page.png)
 
-   </div>-->
+   </div>
 
-1. Nella scheda **Dettagli** del record, fai clic sull&#39;icona **grab** ![Grab icon](assets/grab-icon.png) a sinistra di un nome di campo, quindi trascinalo e rilascialo nel punto desiderato. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. Nella scheda **Dettagli** del record, fai clic sull&#39;icona **grab** ![Grab icon](assets/grab-icon.png) a sinistra di un nome di campo, quindi trascinalo e rilascialo nel punto desiderato.
+
+   >[!TIP]
+   >
+   >È possibile trascinare i campi in un&#39;altra sezione.
+   >È necessario disporre di almeno un campo in una sezione.
+   >
 
    La nuova posizione del campo viene aggiornata sia nell&#39;anteprima che nella pagina di tutti i record dello stesso tipo per tutti gli utenti che visualizzano i record.
 
@@ -295,23 +301,29 @@ Per aggiungere una pagina di visualizzazione Connessione:
 Viene visualizzata la vista tabella del tipo di record selezionato e i record collegati vengono visualizzati nella vista tabella.
 Tutti i campi del record connesso vengono visualizzati nella vista a tabella della scheda del record connesso.
 
-   <!--<span class="preview">When you access Workfront Planning from the Preview environment, the first five fields from the connected record table display by default. No lookup fields display by default. -->
+   <span class="preview">Quando si accede a Workfront Planning dall&#39;ambiente di anteprima, per impostazione predefinita vengono visualizzati i primi cinque campi della tabella record connessa. Nessun campo di ricerca visualizzato per impostazione predefinita.</span>
 
    La vista tabella è di sola lettura.
 
    <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
+   <div class="preview">
+
    ![Visualizzazione tabella connessa al pubblico nei dettagli della campagna](assets/audience-connected-table-view-under-campaign-details-page.png)
+
+   </div>
+
 1. (Facoltativo) Fai doppio clic sul nome della scheda
 
    Oppure
 
    Passa il puntatore del mouse sul nome della scheda, quindi fai clic su **Altro** ![Altro menu](assets/more-menu.png), quindi su **Rinomina** per rinominare la nuova scheda Visualizzazione connessa.
-1. (Facoltativo) Per gestire la vista tabella, utilizzate uno dei seguenti elementi della barra degli strumenti
+1. (Facoltativo) Per gestire la vista tabella, utilizzate uno dei seguenti elementi della barra degli strumenti:
 
    * Filtri
    * Ordina
    * Raggruppamento
+   * <span class="preview">Campi, per visualizzare, nascondere o ridisporre i campi</span>
 
    <!--Add to the list above from the list below - and condition these for Preview only: Hide fields, rearrange fields-->
 
@@ -321,11 +333,14 @@ Tutti i campi del record connesso vengono visualizzati nella vista a tabella del
    >
    >   Nella visualizzazione per tabella della scheda di un record connesso non è possibile eseguire alcuna delle operazioni seguenti:
    >
-   >   * Nascondi campi
+   >   * Nascondere o ridisporre i campi. <span class="preview">È possibile nascondere e ridisporre i campi nell&#39;ambiente di anteprima.</span>
    >   * Creare, modificare o eliminare campi
-   >   * Ridisponi campi
    >
-1. (Facoltativo) Passa il puntatore del mouse sul nome della scheda, quindi fai clic su **Altro** ![Altro menu](assets/more-menu.png), quindi fai clic su **Elimina** per rimuoverlo nella nuova scheda Visualizzazione connessa.
+
+1. <span class="preview">Fare clic su **Connetti** per aggiungere o rimuovere record. Per informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md)</span>
+1. (Facoltativo) Passa il puntatore del mouse sul nome della scheda Visualizzazione connessione, fai clic su **Altro** ![Altro menu](assets/more-menu.png), quindi fai clic su **Elimina** per rimuoverlo nella nuova scheda Visualizzazione connessa.
+
+
 
 
 <!--

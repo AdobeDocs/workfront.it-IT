@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 5510f99e9e5c8c4c5f85953e19563f9ab18b0fae
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1798'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -136,98 +136,95 @@ Prima di inviare una richiesta a un modulo di richiesta Workfront Planning, è n
 
 ## Inviare una richiesta a Workfront Planning
 
-<!--
+L&#39;invio di richieste a Workfront Planning varia a seconda dell&#39;ambiente utilizzato.
+
 <div class="preview">
 
-Submitting requests to Workfront Planning differs depending on what environment you use. 
-
-### Submit a request to Workfront Planning in the Preview Environment
+### Inviare una richiesta a Workfront Planning nell&#39;ambiente di anteprima
 
 >[!NOTE]
 >
->After the monthly releases to Production, the features described in this section are also available in the Production environment for customers who enabled fast releases.
+>Dopo i rilasci mensili in Produzione, le funzioni descritte in questa sezione sono disponibili anche nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi.
 
 {{step1-to-requests}}
 
-1. Enable the **Switch to a new experience** setting, in the upper-right corner of he screen. 
-   Enabling this setting makes the Workfront Planning request forms available in the **Requests** area of Workfront.
+1. Abilita **Passa a una nuova esperienza** nell&#39;angolo superiore destro dello schermo.
+L&#39;abilitazione di questa impostazione rende disponibili i moduli di richiesta di Workfront Planning nell&#39;area **Richieste** di Workfront.
 
    >[!TIP]
    >
-   >This setting is available only when the following are in place:
+   >Questa impostazione è disponibile solo quando sono presenti le seguenti condizioni:
    >
-   >* Your company has purchased a Workfront Planning package. 
-   >* Your Workfront instance is onboarded to the Adobe Unified Experience. 
-   >* You have access to view at least one workspace. 
+   >* La società ha acquistato un pacchetto Workfront Planning.
+   >* La tua istanza di Workfront è integrata in Adobe Unified Experience.
+   >* Puoi accedere alla visualizzazione di almeno un’area di lavoro.
    >
 
-1. Click **New request**. (********* update screen shot at release ********)
+1. Fai clic su **Nuova richiesta**.
 
-   ![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png)
+   ![Nuova casella di richiesta con schede Workfront e Planning unificate](assets/new-request-box-with-unified-workfront-and-planning-cards.png)
 
-   The New request area opens with the following information: 
+   Viene visualizzata la casella **Nuova richiesta** con le seguenti informazioni:
 
-   * The 6 most recently accessed Workfront request queues and Planning request forms display in the Recent section. 
-   * 50 additional Workfront request queues and Planning request forms display in alphabetical order in the **All request forms** section. You can search for a request queue that does not display by default. 
+   * Le 6 code di richieste Workfront e i moduli di richiesta Planning utilizzati più di recente vengono visualizzati nella sezione Recenti.
+   * Nella sezione **Tutti i moduli di richiesta** vengono visualizzate in ordine alfabetico 50 code di richiesta Workfront e moduli di richiesta Planning aggiuntivi. Puoi cercare una coda di richieste che non viene visualizzata per impostazione predefinita.
 
-1. Do one of the following:
+1. Esegui una delle operazioni seguenti:
 
-   * Click the card for one of the Planning request forms in the Recent or All request forms sections
-   * Start typing the name of a Planning request form in the search box, then click the card when it displays in the list. 
+   * Fare clic sulla scheda di uno dei moduli di richiesta Planning nelle sezioni Moduli di richiesta recenti o Tutti
+   * Inizia a digitare il nome di un modulo di richiesta Planning nella casella di ricerca, quindi fai clic sulla scheda quando viene visualizzata nell’elenco.
 
-   The request form opens.
+   Viene aperto il modulo di richiesta.
 
-1. Update the fields available in the request form. Fields with a red asterisk are required. 
-1. Click **Submit**.
-    
-   The request form closes and you return to the **Requests** area. 
+1. Aggiorna i campi disponibili nel modulo di richiesta. I campi con un asterisco rosso sono obbligatori.
+1. Fai clic su **Invia**.
 
-   Your form is submitted and the following things occur:
+   Il modulo di richiesta si chiude e si torna all&#39;area **Richieste**.
 
-   * If the request form was not associated with an approval, the request is added to the Planning tab of the Submitted section of the Workfront Requests area and a new record is added to the record type associated with the form.
-   
-   * If the request form was associated with an approval, the request is added to the Planning tab of the Submitted section of the Workfront Requests area. A new record is added to the record type page only after all the approvers have approved it.
-   
-      For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+   Il modulo viene inviato e si verificano gli eventi seguenti:
 
-      ![](assets/requests-area-with-toggle-for-unified-workflow-planning-tab-open.png)
+   * Se il modulo di richiesta non è stato associato a un&#39;approvazione, la richiesta viene aggiunta alla scheda Pianificazione della sezione Inviata dell&#39;area Richieste di Workfront e viene aggiunto un nuovo record al tipo di record associato al modulo.
 
-      >[!IMPORTANT]
-      >
-      >All users who have access to at least one workspace can view the Planning tab in the Requests area. You can view only the requests submitted by you or anyone else to the workspaces that you have at least permissions to View. Workfront administrators can view all requests submitted to any workspace in the system. (******** ensure this is correct; asking team in slack **************)
+   * Se il modulo di richiesta era associato a un’approvazione, la richiesta viene aggiunta alla scheda Pianificazione della sezione Inviata dell’area Richieste di Workfront. Un nuovo record viene aggiunto alla pagina del tipo di record solo dopo l&#39;approvazione di tutti gli approvatori.
 
-   * You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.
-   * If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.
+     Per informazioni, vedere [Aggiungere un&#39;approvazione a un modulo di richiesta](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-      >[!NOTE]
-      >
-      >The email and in-app notifications are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
+     ![Area richieste con attivazione/disattivazione della scheda di pianificazione del flusso di lavoro unificato](assets/requests-area-with-toggle-for-unified-workflow-planning-tab-open.png)
 
-1. (Optional) Click the **Planning** tab in the Requests area to view your request, then click the name of the request. 
+     >[!IMPORTANT]
+     >
+     >Tutti gli utenti che hanno accesso ad almeno un&#39;area di lavoro possono visualizzare la scheda Pianificazione nell&#39;area Richieste. Puoi visualizzare solo le richieste inviate da te o da altri utenti alle aree di lavoro per le quali disponi almeno delle autorizzazioni di visualizzazione. Gli amministratori di Workfront possono visualizzare tutte le richieste inviate a qualsiasi area di lavoro del sistema.
 
-   The request details page opens. 
+   * Ricevi una notifica in-app e un messaggio e-mail che informa che la richiesta è stata inviata correttamente o è stata inviata per la revisione.
+   * Se il modulo di richiesta era associato a un’approvazione, gli approvatori ricevono una notifica in-app e un messaggio e-mail per rivedere e approvare la richiesta.
 
-   ![Request details page](assets/request-details-page.png)
+     >[!NOTE]
+     >
+     >Le notifiche e-mail e in-app sono visibili solo quando l’istanza di Workfront della tua organizzazione viene integrata in Adobe Unified Experience.
 
-1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Record** field. 
+1. (Facoltativo) Fai clic sulla scheda **Planning** nell&#39;area Richieste per visualizzare la richiesta, quindi fai clic sul nome della richiesta.
 
-   The record's page opens in Workfront Planning. 
+   Viene visualizzata la pagina dei dettagli della richiesta.
+
+   ![Pagina dettagli richiesta](assets/request-details-page.png)
+
+1. (Condizionale) Se il modulo di richiesta non è associato a un&#39;approvazione o se la richiesta è stata approvata, fare clic sul nome della richiesta, quindi sul nome del record nel campo **Record**.
+
+   La pagina del record viene visualizzata in Workfront Planning.
 
    >[!TIP]
    >
-   >* If the record name was not added to the request form, the name of the record in the Record field of the request displays as **Untitled**. 
+   >* Se il nome del record non è stato aggiunto al modulo di richiesta, il nome del record nel campo Record della richiesta viene visualizzato come **Senza titolo**.
    >
-   >* If the request form is associated with an approval, the approval must be granted before you can access the record from the request page. 
+   >* Se il modulo di richiesta è associato a un’approvazione, questa deve essere concessa prima di poter accedere al record dalla pagina della richiesta.
 
-1. (Optional) Click the name of the **Record type**. 
+1. (Facoltativo) Fare clic sul nome del tipo di record ****.
 
-   The record type page opens in Workfront Planning. 
+   La pagina del tipo di record viene visualizzata in Workfront Planning.
 
 </div>
 
-### Submit a request to Workfront Planning in the Production environment
-
--->
+### Inviare una richiesta a Workfront Planning nell’ambiente di produzione
 
 1. Passare al collegamento condiviso con l&#39;utente da un tipo di record di Workfront Planning.
 
@@ -249,7 +246,7 @@ Submitting requests to Workfront Planning differs depending on what environment 
 
      Per informazioni, vedere [Aggiungere un&#39;approvazione a un modulo di richiesta](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-     ![](assets/planning-tab-in-requests.png)
+     ![Scheda Pianificazione nelle richieste](assets/planning-tab-in-requests.png)
 
      >[!IMPORTANT]
      >
