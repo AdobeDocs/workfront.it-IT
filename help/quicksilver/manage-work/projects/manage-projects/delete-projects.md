@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '895'
 ht-degree: 1%
 
 ---
@@ -135,7 +135,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 Puoi eliminare i progetti da un elenco di progetti.
 
 1. Consente di passare a un elenco di progetti o a un report di progetti.
-1. Seleziona il progetto o i progetti da eliminare, quindi fai clic sull&#39;icona **Elimina** ![](assets/delete-icon.png) nella parte superiore dell&#39;elenco.
+1. Seleziona il progetto o i progetti da eliminare, quindi fai clic sull&#39;icona **Elimina** ![Elimina](assets/delete-icon.png) nella parte superiore dell&#39;elenco.
 
 1. Fare clic su **Sì, Elimina** per confermare l&#39;eliminazione.
 
@@ -144,9 +144,9 @@ Puoi eliminare i progetti da un elenco di progetti.
 ## Eliminare un progetto a livello di progetto
 
 1. Vai al progetto che desideri eliminare.
-1. Fai clic sull&#39;icona **Altro** ![](assets/qs-more-menu.png) a destra del nome del progetto, quindi fai clic su **Elimina progetto**.
+1. Fai clic sull&#39;icona **Altro** ![Altro menu](assets/qs-more-menu.png) a destra del nome del progetto, quindi fai clic su **Elimina progetto**.
 
-   ![](assets/more-icon-expanded-delete-project-highlighted.png)
+   ![Menu Altro espanso](assets/more-icon-expanded-delete-project-highlighted.png)
 
 1. Fai clic su **Sì, elimina**.
 
