@@ -6,9 +6,9 @@ description: In Adobe Workfront puoi visualizzare o scaricare una risorsa colleg
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4516ddf7-b39d-4bd7-8e59-4b3bdad5b643
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Devi avere i seguenti:
 
 Prima di iniziare, è necessario
 
-* Installare Workfront, ad Experience Manager il connettore avanzato
+* Installare il connettore avanzato di Workfront for Experience Manager
 
 ## Visualizzare o scaricare una risorsa collegata da Experience Manager Assets
 
@@ -62,4 +62,4 @@ Prima di iniziare, è necessario
 1. Selezionare il documento dall&#39;elenco dei documenti.
 1. Nel Riepilogo documento a destra, passa il cursore sulla miniatura in alto e scegli **Anteprima** o **Scarica**.
 
-   ![](assets/view-or-download-enhanced-connector-350x123.png)
+   ![Anteprima o download](assets/view-or-download-enhanced-connector-350x123.png)
