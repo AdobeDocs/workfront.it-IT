@@ -5,9 +5,9 @@ description: Come parte della pianificazione delle risorse, è possibile utilizz
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -120,11 +120,11 @@ Prima di iniziare, è necessario effettuare le seguenti operazioni:
 
    * Se hai appena pubblicato le informazioni dalla Pianificazione scenario, seleziona Pianificazione scenario in **Scegli le ore da utilizzare per calcolare il costo della manodopera preventivato del progetto** nel campo Budget risorse, quindi fai clic su **Scegli**.
 
-     ![](assets/business-case-sp-selected-with-choose-button-350x121.png)
+     ![Caso di studio in Pianificazione risorse con pulsante Scegli](assets/business-case-sp-selected-with-choose-button-350x121.png)
 
    * Se la Programmazione delle risorse è stata precedentemente selezionata per la definizione del budget delle risorse per il progetto, fare clic su **Modifica** > **Pianificazione scenario** > **Scegli**.
 
-     ![](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
+     ![Caso di business in Scenario Planner con pulsante Scegli](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
 
      Workfront utilizza le ore ruolo richieste dall&#39;iniziativa collegata per calcolare il costo manodopera preventivato e le ore preventivate del progetto. Questa è l’opzione consigliata. Nel Business Case, il costo viene visualizzato nella valuta del progetto.
 
