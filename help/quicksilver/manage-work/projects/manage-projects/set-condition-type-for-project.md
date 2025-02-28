@@ -6,9 +6,9 @@ description: In qualità di project manager, è possibile determinare come viene
 author: Alina
 feature: Work Management
 exl-id: e6b99c48-5ccc-4956-8465-6f22f14468ef
-source-git-commit: 097cad00835f3fb415c06c93dcf11325736c5250
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '382'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader">Autorizzazioni oggetto</td> 
    <td> 
     <ul> 
-     <li> <p>Autorizzazioni di Contribute per un progetto che consentono di modificare il Tipo di condizione nell’area Dettagli progetto </p> </li> 
+     <li> <p>Concedere le autorizzazioni per un progetto per modificare il Tipo di condizione nell’area Dettagli progetto </p> </li> 
      <li> <p>Nella casella Modifica progetto puoi gestire le autorizzazioni per un progetto per modificare il Tipo di condizione</p> </li> 
     </ul> <p> Per informazioni sulle autorizzazioni del progetto, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Condividere un progetto in Adobe Workfront</a>.</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
@@ -55,7 +55,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Vai al progetto per il quale desideri aggiornare il Tipo di condizione.
 1. Esegui una delle operazioni seguenti:
 
-   * Fai clic sul menu **Altro** ![](assets/qs-more-menu.png) a destra del nome del progetto, quindi fai clic su **Modifica**.
+   * Fai clic sul menu **Altro** ![Altro menu](assets/qs-more-menu.png) a destra del nome del progetto, quindi fai clic su **Modifica**.
    * Fai clic su **Dettagli progetto** nel pannello a sinistra.
 
    ![](assets/update-condition-type-nwe-350x108.png)
