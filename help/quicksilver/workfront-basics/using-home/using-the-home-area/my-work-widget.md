@@ -6,10 +6,10 @@ description: Il widget Il mio lavoro mostra tutte le attività, i problemi e le 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
-source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 5%
+source-wordcount: '744'
+ht-degree: 4%
 
 ---
 
@@ -50,7 +50,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Autorizzazioni Contribute o superiore per le attività e i problemi su cui devi lavorare</p>  </td> 
+   <td> <p>Autorizzazioni per contribuire o superiore alle attività e ai problemi su cui devi lavorare</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,7 +63,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 Puoi perfezionare i filtri Il mio lavoro per concentrarti su elementi specifici nell’elenco del lavoro:
 
-![](assets/filter-my-work-widget.png)
+![Filtro Il mio lavoro](assets/filter-my-work-widget.png)
 
 ### Dettagli filtro
 
@@ -135,7 +135,7 @@ Gli elementi scaduti visualizzano un&#39;icona di avviso accanto alla data. Work
 >Per creare un elenco che visualizzi tutti gli elementi scaduti nella parte superiore del widget Il mio lavoro, ordinarli per data di scadenza e non applicare un raggruppamento.
 
 
-![](assets/sort-my-work-widget.png)
+![Ordina nel widget Il mio lavoro](assets/sort-my-work-widget.png)
 
 ### Gruppo
 
@@ -151,7 +151,7 @@ La data di scadenza è determinata dalla data di completamento pianificata.
 >Quando si applica un raggruppamento, la selezione nel menu Ordina determina l&#39;ordine all&#39;interno del raggruppamento.
 
 
-![](assets/group-my-work-widget.png)
+![Raggruppamento nel widget Il mio lavoro](assets/group-my-work-widget.png)
 
 ## Aggiornare le informazioni sull&#39;elemento di lavoro nel Riepilogo
 
@@ -167,7 +167,7 @@ Gli amministratori di Workfront possono personalizzare i campi da visualizzare n
 * Registra ore
 * Visualizza i processi di approvazione allegati
 
-Per aprire il Riepilogo, passa il puntatore sull&#39;elemento di lavoro, quindi fai clic sull&#39;icona **Riepilogo** ![](assets/open-summary-new-home.png).
+Per aprire il Riepilogo, passa il puntatore sull&#39;elemento di lavoro, quindi fai clic sull&#39;icona **Riepilogo** ![Icona Riepilogo](assets/open-summary-new-home.png).
 
 Per ulteriori informazioni sull&#39;utilizzo del pannello Riepilogo, vedere [Panoramica di riepilogo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 
@@ -182,7 +182,7 @@ Per ulteriori informazioni sull&#39;utilizzo del pannello Riepilogo, vedere [Pan
 
 Per individuare il menu Azioni rapide, passa il puntatore sull&#39;elemento di lavoro. L&#39;elenco delle azioni rapide viene visualizzato accanto al pulsante **Lavoraci** o **Fine**.
 
-![](assets/quick-actions-new-home.png)
+![Menu Azioni rapide](assets/quick-actions-new-home.png)
 
 
 ## Visualizzare approvazioni e richieste del team
