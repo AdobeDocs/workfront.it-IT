@@ -6,9 +6,9 @@ description: Se un progetto è associato a un gruppo, è possibile applicare sia
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 Quando si aggiorna il Gruppo per un progetto, le opzioni disponibili per lo Stato delle attività, dei problemi o del progetto cambiano in modo che corrispondano al gruppo.
 
 1. Passare a un progetto o crearne uno nuovo, come descritto in [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md).
-1. Fai clic sull&#39;icona **Altro** ![](assets/more-icon.png), quindi fai clic su **Modifica**.
+1. Fai clic sull&#39;icona **Altro** ![Altro icona](assets/more-icon.png), quindi fai clic su **Modifica**.
 
 1. Nella casella **Modifica progetto** visualizzata nella parte inferiore della sezione **Panoramica**, selezionare il gruppo nel menu a discesa **Gruppo**.
 
