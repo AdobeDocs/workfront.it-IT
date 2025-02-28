@@ -6,10 +6,10 @@ description: Puoi visualizzare e aggiungere aggiornamenti a un elemento di lavor
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 7%
+source-wordcount: '869'
+ht-degree: 6%
 
 ---
 
@@ -52,7 +52,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Autorizzazioni Contribute o superiore per le attività e i problemi su cui devi lavorare</p> </td> 
+   <td> <p>Autorizzazioni per contribuire o superiore alle attività e ai problemi su cui devi lavorare</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,7 +67,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 You can view updates on any work item in the [!UICONTROL Work List]:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![Main Menu lines icon](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
 1. In the **[!UICONTROL Work List]** area, select the item where you want to view updates.\
    Updates are displayed in the right panel.
 
@@ -104,13 +104,13 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 
 Puoi fornire aggiornamenti su qualsiasi elemento di lavoro nel widget [!UICONTROL Il mio lavoro]:
 
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro o sul **menu principale** ![](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **[!UICONTROL Home]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro o sull&#39;icona **Main Menu** ![Main Menu lines icon](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **[!UICONTROL Home]**.
 1. (Condizionale) Fai clic su **Personalizza** per aggiungere il widget [!UICONTROL **Il mio lavoro**].
 
 1. Individuare l&#39;elemento di lavoro che si desidera aggiornare nel widget [!UICONTROL **Il mio lavoro**].
 1. Passa il puntatore del mouse sul nome, quindi fai clic sull&#39;icona **Aggiungi nuovo aggiornamento**.
 
-   ![](assets/add-update-on-widget.png)
+   ![Aggiungi aggiornamento al widget](assets/add-update-on-widget.png)
 
 1. Inizia a digitare il commento.
 1. (Facoltativo) Nella casella **Assegna tag a persone o team**, inizia a digitare il nome o l&#39;e-mail di un utente o di un team che desideri includere in questo commento, quindi selezionalo quando viene visualizzato nell&#39;elenco.
@@ -132,7 +132,7 @@ Puoi fornire aggiornamenti su qualsiasi elemento di lavoro nel widget [!UICONTRO
 
 1. Fai clic su **Risposta**.
 
-   ![](assets/reply-to-comment-in-mentions-widget.png)
+   ![Rispondi al commento](assets/reply-to-comment-in-mentions-widget.png)
 
 1. Inizia a digitare il commento.
 1. (Facoltativo) Nella casella **Assegna tag a persone**, inizia a digitare il nome di un utente o di un team che desideri includere in questo commento, quindi selezionalo quando viene visualizzato nell&#39;elenco.
@@ -149,11 +149,11 @@ Puoi fornire aggiornamenti su qualsiasi elemento di lavoro nel widget [!UICONTRO
 
 È possibile modificare qualsiasi campo di qualsiasi elemento di lavoro a cui si ha accesso per la modifica.
 
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro o sul **menu principale** ![](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **[!UICONTROL Home]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro o sull&#39;icona **Main Menu** ![Main Menu lines icon](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **[!UICONTROL Home]**.
 1. (Condizionale) Fai clic su **Personalizza** per aggiungere il widget **Il mio lavoro**.
 
 1. Passa il puntatore del mouse sull&#39;elemento di lavoro, quindi fai clic sull&#39;icona **Riepilogo**.
-   ![](assets/open-summary-new-home.png)
+   ![Apri riepilogo](assets/open-summary-new-home.png)
 
 1. Nel pannello Riepilogo, posizionate il cursore sul campo da modificare.
 Se si dispone dei diritti per modificare il campo, il campo viene evidenziato quando si passa il puntatore del mouse su di esso.
