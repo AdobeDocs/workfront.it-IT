@@ -7,9 +7,9 @@ description: Comprendere il costo manodopera preventivato e le ore preventivate 
 author: Lisa
 feature: Work Management
 exl-id: 01020bbb-7cf9-4461-b0b6-dcbbc537c616
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -76,11 +76,11 @@ Se gli utenti sono associati alle mansioni del progetto e le loro ore sono preve
 
 * [!UICONTROL **Costo manodopera preventivato**]: area Budget risorse del caso aziendale con i rispettivi ruoli.
 
-  ![](assets/budgeted-labor-cost-for-users-in-business-case-highlighted-350x73.png)
+  ![Costo manodopera preventivato nel caso aziendale](assets/budgeted-labor-cost-for-users-in-business-case-highlighted-350x73.png)
 
 * [!UICONTROL **BDG**]: la pianificazione delle risorse quando vengono visualizzate le informazioni nella visualizzazione Progetto e Ruolo in base al costo.
 
-  ![](assets/budgeted-labor-cost-for-users-in-rp-project-view-cost--highlighted-350x115.png)
+  ![Costo manodopera preventivato nelle pianificazioni risorse](assets/budgeted-labor-cost-for-users-in-rp-project-view-cost--highlighted-350x115.png)
 
 Gli utenti vengono visualizzati nell&#39;area Budget risorse del caso aziendale sotto i rispettivi ruoli o nella Programmazione risorse se soddisfano i seguenti requisiti:
 
