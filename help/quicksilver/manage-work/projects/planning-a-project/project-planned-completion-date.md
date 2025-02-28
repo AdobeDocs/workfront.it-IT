@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '564'
 ht-degree: 1%
 
 ---
@@ -96,7 +96,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
 Per programmare un progetto dalla data di completamento:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** in alto a destra, quindi fai clic su **Progetti**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **Projects**.
 
 1. Fai clic su **Nuovo progetto** e quindi su **Nuovo progetto**.
 
@@ -117,7 +117,7 @@ La data di completamento pianificata di un progetto viene calcolata automaticame
 
 Per programmare un progetto dalla data di inizio:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** in alto a destra, quindi fai clic su **Progetti**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **Projects**.
 
 1. Fai clic su **Nuovo progetto** e quindi su **Nuovo progetto**.
 
