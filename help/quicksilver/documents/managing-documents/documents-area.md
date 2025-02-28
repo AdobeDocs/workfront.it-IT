@@ -7,9 +7,9 @@ description: Nell’area Documenti puoi organizzare, gestire e visualizzare i me
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
-source-git-commit: 8bf345be3632061b89d239697077fd42c9d9cfd6
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 Nell’area Documenti puoi organizzare, gestire e visualizzare i metadati dei documenti caricati in Adobe Workfront. Puoi anche vedere la decisione relativa alla bozza.
 
-![](assets/documents-area-v2-350x199.png)
+![Area documenti](assets/documents-area-v2-350x199.png)
 
 Sono disponibili due tipi di aree Documenti. Funzionalità e funzionalità identiche per:
 
-* **Area Documenti in un programma, portfolio, progetto, attività o problema:** Elenca tutti i documenti a cui si ha accesso per un particolare progetto, attività o problema. Per accedere a questa area, fai clic su **Documenti** ![](assets/document-icon-12x14.png) nel pannello a sinistra mentre visualizzi un progetto, un&#39;attività o un problema.
+* **Area Documenti in un programma, portfolio, progetto, attività o problema:** Elenca tutti i documenti a cui si ha accesso per un particolare progetto, attività o problema. Per accedere a questa area, fai clic su **Documenti** ![Icona Documenti](assets/document-icon-12x14.png) nel pannello a sinistra durante la visualizzazione di un progetto, un&#39;attività o un problema.
 
-* **Area documenti globali:** Elenca tutti i documenti a cui si ha accesso in Workfront. Per accedere a quest&#39;area, fare clic su **Documenti** ![](assets/document-icon.png) nel menu principale ![](assets/main-menu-icon.png).
+* **Area documenti globali:** Elenca tutti i documenti a cui si ha accesso in Workfront. Per accedere a quest&#39;area, fare clic su **Documenti** ![Icona Documenti](assets/document-icon.png) nel menu principale ![Icona Menu principale](assets/main-menu-icon.png).
 
 Per informazioni sul caricamento di documenti in Workfront, consulta [Aggiungere documenti ad Adobe Workfront dal file system](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
@@ -44,7 +44,7 @@ Se per il documento è impostata la verifica, la sezione Dettagli include inform
 
 È possibile fare clic sull&#39;intestazione Dettagli per passare all&#39;area Dettagli documento completa quando sono necessarie tutte le informazioni relative a un documento.
 
-![](assets/documents-area-v2-350x199.png)
+![Area documenti](assets/documents-area-v2-350x199.png)
 
 Per informazioni sul Riepilogo, vedere [Riepilogo per la panoramica dei documenti](../../documents/managing-documents/summary-for-documents.md).
 
@@ -52,7 +52,7 @@ Per informazioni sul Riepilogo, vedere [Riepilogo per la panoramica dei document
 
 Una volta presa la decisione relativa alla bozza, questa viene visualizzata nell&#39;elenco Documento.
 
-![](assets/proof-decision---doc-list-350x168.png)
+![Decisione bozza nell&#39;elenco documenti](assets/proof-decision---doc-list-350x168.png)
 
 ## Cartelle
 
