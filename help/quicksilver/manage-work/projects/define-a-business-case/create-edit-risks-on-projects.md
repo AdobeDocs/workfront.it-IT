@@ -6,9 +6,9 @@ description: I rischi sono eventi o fattori possibili che impediscono a un proge
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Per creare o modificare un rischio nel Business Case:
 
    * **Costo di mitigazione**: indicare il costo del piano di mitigazione che è necessario implementare per evitare che si verifichi il rischio.
 
-   ![](assets/crp1-350x117.png)
+   ![Rischi](assets/crp1-350x117.png)
 
 1. (Facoltativo) Fai clic su **Aggiungi un altro rischio** per aggiungere altri rischi.
 1. Fai clic su **Salva**.
