@@ -6,9 +6,9 @@ description: Il ricalcolo delle sequenze temporali consente ai responsabili di v
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1064'
 ht-degree: 0%
 
 ---
@@ -174,13 +174,13 @@ In qualità di proprietario di un progetto, puoi ricalcolare manualmente le temp
 
 È possibile ricalcolare la sequenza temporale di un progetto in Workfront dalla pagina del progetto o da un elenco o report di progetti.
 
-1. Vai al progetto per il quale vuoi ricalcolare la timeline e fai clic sull&#39;icona **Altro** ![](assets/qs-more-menu.png) a sinistra del nome del progetto
+1. Vai al progetto per il quale vuoi ricalcolare la timeline e fai clic sull&#39;icona **Altro** ![Altro menu](assets/qs-more-menu.png) a sinistra del nome del progetto
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Altro menu a discesa](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Oppure
 
-   Vai a un elenco o a un report di progetti e seleziona uno o più progetti, quindi fai clic sull&#39;icona **Altro** ![](assets/qs-more-menu.png) nella parte superiore dell&#39;elenco.
+   Vai a un elenco o a un report di progetti e seleziona uno o più progetti, quindi fai clic sull&#39;icona **Altro** ![Altro menu](assets/qs-more-menu.png) nella parte superiore dell&#39;elenco.
 
    ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
