@@ -6,9 +6,9 @@ description: Quando le attività e i problemi vengono assegnati all'utente, veng
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Autorizzazioni Contribute o superiori per le attività e i problemi su cui devi lavorare</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Autorizzazioni per contribuire o superiore alle attività e ai problemi su cui devi lavorare</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,10 +63,10 @@ In questo articolo viene descritto come utilizzare i filtri nell&#39;area [!UICO
 
 Per visualizzare un elemento di lavoro nel widget Il mio lavoro:
 
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
 1. (Condizionale) Fai clic su **Personalizza** per aggiungere il widget **Il mio lavoro**.
 
-1. Fare clic sull&#39;icona ![](assets/filter-nwepng.png) del **filtro** nell&#39;angolo superiore sinistro dell&#39;elenco lavori widget.
+1. Fai clic sull&#39;icona **Filtro** ![Icona Filtro](assets/filter-nwepng.png) nell&#39;angolo in alto a sinistra dell&#39;elenco lavori widget.
 
 1. Fare clic su una o entrambe le opzioni seguenti per le attività:
 
@@ -89,12 +89,12 @@ Puoi accedere a una richiesta assegnata al tuo team direttamente dal widget Rich
 
 Per accedere a una richiesta team:
 
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
 1. (Condizionale) Fai clic su **Personalizza** per aggiungere il widget **Richieste team**.
 
    Il widget mostra le richieste del team sotto i raggruppamenti del team. Il widget **[!UICONTROL Richieste team]** visualizza e mostra tutte le richieste assegnate a qualsiasi team a cui sei iscritto. Per ulteriori informazioni sull&#39;utilizzo delle richieste del team, vedere [Gestire le richieste del team e del lavoro](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
-   ![](assets/team-request-widget.png)
+   ![Widget richiesta team](assets/team-request-widget.png)
 
 ## Lavorare su un elemento di lavoro nel widget Il mio lavoro
 
@@ -102,13 +102,13 @@ Quando si fa clic sul pulsante [!UICONTROL Lavoraci], si indica all&#39;utente c
 
 Per lavorare su un elemento di lavoro:
 
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
 1. (Condizionale) Fai clic su **Personalizza** per aggiungere il widget **Il mio lavoro**.
 
 1. Nell&#39;area **[!UICONTROL worklist]** del widget, seleziona la richiesta su cui vuoi lavorare, quindi fai clic su **[!UICONTROL Lavoraci]**.
 1. Passa il puntatore del mouse sull&#39;elemento di lavoro, quindi fai clic sull&#39;icona **Riepilogo** per visualizzare le informazioni sull&#39;elemento di lavoro.
 
-   ![](assets/open-summary-new-home.png)
+   ![Apri riepilogo](assets/open-summary-new-home.png)
 
 
 ## Rimuovere un elemento di lavoro
@@ -117,20 +117,20 @@ Se si decide di non utilizzare l&#39;elemento di lavoro, è possibile rimuoverlo
 
 Per rimuovere un elemento di lavoro:
 
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
 1. (Condizionale) Fai clic su **Personalizza** per aggiungere il widget **Il mio lavoro**.
 
 1. Nell&#39;elenco lavori del widget, passa il cursore sull&#39;elemento di lavoro, quindi fai clic sull&#39;icona **Riepilogo** per visualizzare le informazioni sull&#39;elemento di lavoro.
-   ![](assets/open-summary-new-home.png)
+   ![Apri riepilogo](assets/open-summary-new-home.png)
 1. nella sezione **Assegnazioni**, rimuovi il tuo nome.
-   ![](assets/remove-assignment.png)
+   ![Rimuovi assegnazione](assets/remove-assignment.png)
 
 
 
 <!--
 ## Reassign a request
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. In the **[!UICONTROL Work List]** area, select the request you want to reassign.
 
 1. Click on the **[!UICONTROL Assignments]** widget and remove yourself from the request, then type the name of the user you want to reassign the request to.
@@ -148,7 +148,7 @@ Per rimuovere un elemento di lavoro:
 
 You can reply to a request to further clarify the request or to propose a new date.
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. In the **[!UICONTROL Work List]** area, select the request you want to reply to.
 1. Locate the individual who assigned the request to you.
 
