@@ -6,9 +6,9 @@ description: Puoi eliminare i documenti caricati. Se si dispone dell'autorizzazi
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1a4c4849-bca1-4ae3-9111-d0ed4dacca14
-source-git-commit: 060557085c6941fab4ca8df22641679199f5c55b
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Per eliminare un documento:
 1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
 1. Trovare il documento necessario.
 
-1. Fare clic sull&#39;icona **Elimina** ![](assets/delete.png) sopra l&#39;area Documenti.
+1. Fare clic sull&#39;icona **Elimina** ![Elimina](assets/delete.png) sopra l&#39;area Documenti.
 
 1. Nella casella visualizzata fare clic su **Sì, eliminarlo** per confermare.
 
