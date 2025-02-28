@@ -6,9 +6,9 @@ description: Ogni widget contiene il proprio elenco di lavoro. Negli elenchi di 
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 0bd250b323a4e8e83d7ce8b42d0446c3879d7e6b
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '1016'
 ht-degree: 4%
 
 ---
@@ -51,7 +51,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Autorizzazioni Contribute o superiore per le attività e i problemi su cui devi lavorare</p>  </td> 
+   <td> <p>Autorizzazioni per contribuire o superiore alle attività e ai problemi su cui devi lavorare</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -104,7 +104,7 @@ Per essere visualizzate nel widget Team personali, le richieste del team devono 
 
 Per filtrare il lavoro:
 
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
 1. (Condizionale) Fai clic su **Personalizza** per aggiungere i seguenti widget:
 
    | Widget | Descrizione |
@@ -117,12 +117,12 @@ Per filtrare il lavoro:
    | Le mie richieste | Visualizza tutte le richieste inviate |
    | Le mie approvazioni | Visualizza tutte le approvazioni in sospeso, assegnate, delegate e inviate |
 
-1. Fai clic sull&#39;icona ![](assets/filter-nwepng.png) del **filtro** nell&#39;angolo superiore destro dell&#39;elenco lavori widget.
+1. Fai clic sull&#39;icona **Filtro** ![Icona Filtro](assets/filter-nwepng.png) nell&#39;angolo superiore destro dell&#39;elenco lavori widget.
 1. Scegli un filtro **Suggested** o un filtro creato.
 Per informazioni dettagliate sui filtri suggeriti, vedere [Panoramica sui filtri widget principale](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md).
 1. (Facoltativo) Attiva **Sovrapponi filtri** per selezionare più opzioni filtro.
 
-   ![](assets/my-task-filter-open.png)
+   ![Il filtro Attività personale è aperto](assets/my-task-filter-open.png)
 
 
 ## Raggruppare il lavoro
@@ -131,7 +131,7 @@ Puoi raggruppare il widget [!UICONTROL elenco lavori] per mantenere organizzati 
 
 Per raggruppare l&#39;elenco lavori:
 
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
 1. (Condizionale) Fai clic su **Personalizza** per aggiungere i seguenti widget:
 
    | Widget | Descrizione |
@@ -144,16 +144,16 @@ Per raggruppare l&#39;elenco lavori:
    | Le mie richieste | Visualizza tutte le richieste inviate |
    | Le mie approvazioni | Visualizza tutte le approvazioni in sospeso, assegnate, delegate e inviate |
 
-1. Fai clic sull&#39;icona ![](assets/group-icon.png) del **Gruppo** nell&#39;angolo superiore destro dell&#39;elenco lavori widget.
+1. Fai clic sull&#39;icona **Gruppo** ![Icona Gruppo](assets/group-icon.png) nell&#39;angolo superiore destro dell&#39;elenco lavori widget.
 1. Scegli un raggruppamento **Consigliato** o un raggruppamento creato.
-   ![](assets/grouping-expanded.png)
+   ![Raggruppamento espanso](assets/grouping-expanded.png)
 
 
 ## Personalizzare le colonne dell’elenco lavori
 
 È possibile scegliere quali colonne visualizzare nell&#39;elenco di lavoro widget:
 
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
 1. (Condizionale) Fai clic su **Personalizza** per aggiungere i seguenti widget:
 
    | Widget | Descrizione |
@@ -166,10 +166,10 @@ Per raggruppare l&#39;elenco lavori:
    | Le mie richieste | Visualizza tutte le richieste inviate |
    | Le mie approvazioni | Visualizza tutte le approvazioni in sospeso, assegnate, delegate e inviate |
 
-1. Fai clic sull&#39;icona ![](assets/column-icon.png) della **Colonna** nell&#39;angolo superiore destro dell&#39;elenco lavori widget.
+1. Fai clic sull&#39;icona **Colonna** ![Icona Colonna](assets/column-icon.png) nell&#39;angolo superiore destro dell&#39;elenco lavori widget.
 1. Attiva o disattiva le colonne a seconda delle preferenze.
-1. (Facoltativo) Fai clic sull&#39;icona **Trascina** ![](assets/drag-icon.png) per riordinare le colonne.
-   ![](assets/columns-expanded.png)
+1. (Facoltativo) Fai clic sull&#39;icona **Trascina** ![Trascina icona](assets/drag-icon.png) per riordinare le colonne.
+   ![Colonne espanse](assets/columns-expanded.png)
 
 
 ## Visualizza elementi in ritardo
