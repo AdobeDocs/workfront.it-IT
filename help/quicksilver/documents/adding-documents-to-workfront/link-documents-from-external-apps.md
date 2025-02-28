@@ -6,9 +6,9 @@ description: Puoi collegare documenti e cartelle ad Adobe Workfront da origini e
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: fde2ad9a8ef1b7f659f8f52c157726d0562b972a
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '2608'
+source-wordcount: '2620'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Puoi collegare documenti e cartelle ad Adobe Workfront dalle seguenti origini:
     <ul> 
      <li>Box</li> 
      <li>Dropbox</li> 
-     <li>Attività Dropbox</li> 
+     <li>Dropbox Business</li> 
      <li>WebDAM</li> 
      <li>Microsoft OneDrive</li> 
      <li>Microsoft SharePoint</li> 
@@ -114,12 +114,12 @@ Prima di collegare documenti o cartelle, l&#39;amministratore di Workfront deve 
 
 >[!IMPORTANT]
 >
->Il Dropbox memorizza i documenti in base al percorso del file. Per questo motivo, se un file collegato dal Dropbox viene spostato, rinominato o eliminato, diventa inaccessibile in Workfront.
+>Dropbox memorizza i documenti in base al percorso del file. Per questo motivo, se un file collegato da Dropbox viene spostato, rinominato o eliminato, diventa inaccessibile in Workfront.
 
 1. Vai all&#39;area **Documenti** in Workfront in cui desideri inserire il documento.
 1. Fare clic su **Aggiungi nuovo**, quindi sul provider di documenti esterno in cui si desidera collegare i documenti a Workfront.
 
-   Per collegare documenti dal Dropbox, ad esempio, fare clic su **Dal Dropbox**.
+   Ad esempio, per collegare documenti da Dropbox, fare clic su **Da Dropbox**.
 
    I provider esterni che hai già autorizzato vengono visualizzati nella parte superiore dell’elenco.
 
@@ -163,7 +163,7 @@ Prima di collegare documenti o cartelle, l&#39;amministratore di Workfront deve 
 
 1. Fai clic su **Aggiungi nuovo** > **Versione**, quindi fai clic sul provider di documenti esterno.
 
-   Per collegare ad esempio una nuova versione di un documento dal Dropbox, fare clic su **Dal Dropbox**.
+   Ad esempio, per collegare una nuova versione di un documento da Dropbox, fare clic su **Da Dropbox**.
 
    I provider esterni che hai già autorizzato vengono visualizzati nella parte superiore dell’elenco.
 
@@ -248,7 +248,7 @@ Gli utenti senza accesso a Workfront possono visualizzare il documento nell’ap
 1. Seleziona un documento caricato in Workfront.
 1. Fai clic su **Altro** >**Invia a**, quindi seleziona il provider cloud in cui desideri archiviare il documento collegato.
 
-   A tale scopo è inoltre possibile utilizzare il menu Altro ![](assets/more-icon.png) nella pagina Dettagli documento.
+   A tale scopo è inoltre possibile utilizzare il menu Altro ![Altro menu](assets/more-icon.png) nella pagina Dettagli documento.
 
 1. Selezionare la cartella nell&#39;applicazione del provider in cui si desidera archiviare il documento.
 
@@ -278,7 +278,7 @@ Quando si sincronizza il contenuto della cartella da un&#39;applicazione per doc
 
 ### Collega una o più cartelle esterne {#link-one-or-more-external-folders}
 
-1. Vai all&#39;area di Workfront in cui desideri inserire la cartella, quindi fai clic su **Documenti** ![](assets/document-icon.png) nel pannello a sinistra.
+1. Vai all&#39;area di Workfront in cui desideri inserire la cartella, quindi fai clic su **Documenti** ![Icona Documenti](assets/document-icon.png) nel pannello a sinistra.
 
 1. Fare clic su **Aggiungi nuovo**, quindi sul provider di documenti esterno da cui si desidera collegare una cartella a Workfront.
 1. (Condizionale) Se non hai ancora autorizzato il servizio esterno, specifica le credenziali di accesso per il provider esterno, quindi fai clic su **Accedi**.
@@ -301,9 +301,9 @@ Quando si sincronizza il contenuto della cartella da un&#39;applicazione per doc
 
    In Workfront, accanto alla cartella viene visualizzato il logo del provider di cloud, che indica che è collegato al provider di cloud esterno.
 
-1. (Facoltativo) Per rinominare la cartella in modo che il nome della cartella in Workfront sia diverso dal nome della cartella nell&#39;applicazione documento esterna, selezionare la cartella nella sezione **Cartelle**, fare clic sul menu Altro ![](assets/more-icon.png) accanto al nome della cartella, quindi fare clic su **Rinomina**.
+1. (Facoltativo) Per rinominare la cartella in modo che il nome della cartella in Workfront sia diverso dal nome della cartella nell&#39;applicazione per documenti esterni, selezionare la cartella nella sezione **Cartelle**, fare clic sul menu Altro ![Menu Altro](assets/more-icon.png) visualizzato accanto al nome della cartella, quindi fare clic su **Rinomina**.
 
-   ![](assets/documents-folderlink-rename-nwe-350x154.png)
+   ![Rinomina cartella](assets/documents-folderlink-rename-nwe-350x154.png)
 
 La cartella non verrà rinominata nell&#39;applicazione esterna.
 
@@ -317,7 +317,7 @@ La cartella non verrà rinominata nell&#39;applicazione esterna.
 
    Per trascinare una cartella esistente in una cartella collegata esistente, passare all&#39;area Documenti in cui si desidera inserire la sottocartella, quindi trascinarla nella cartella collegata.
 
-   ![](assets/documents-link-folder-move-nwe-350x113.png)
+   ![Trascina nella cartella collegata](assets/documents-link-folder-move-nwe-350x113.png)
 
    >[!NOTE]
    >
@@ -363,4 +363,4 @@ Se si desidera che il nome corrisponda in Workfront e nell&#39;applicazione este
 
 >[!IMPORTANT]
 >
->Non rinominare un documento in Workfront collegato al Dropbox; in questo modo il file in Workfront non sarà più accessibile. Rinominare il file nel Dropbox, quindi risincronizzare il file.
+>Non rinominare un documento in Workfront collegato a Dropbox; in questo modo il file in Workfront non è accessibile. Rinomina il file in Dropbox, quindi sincronizza nuovamente il file.
