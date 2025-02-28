@@ -6,9 +6,9 @@ description: In qualità di Project Manager, puoi configurare un progetto in mod
 author: Lisa
 feature: Work Management
 exl-id: c496fe92-5c17-41a5-972b-1c063643bde3
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. Fai clic su **Dettagli progetto** nel pannello a sinistra, quindi vai all&#39;area **Finanza**.
 1. Fare clic su **Aggiungi** nel campo **Valuta** e selezionare la valuta che si desidera utilizzare come valuta predefinita per il progetto. Vengono visualizzate tutte le valute impostate dall’amministratore di Workfront per l’istanza di Workfront.
 
-   ![](assets/currency-on-project-expanded-nwe.png)
+   ![Valuta nel progetto](assets/currency-on-project-expanded-nwe.png)
 
 1. (Condizionale) Se si seleziona una valuta diversa da quella predefinita impostata per il sistema Workfront, specificare il tasso per la valuta selezionata, in quanto si riferisce alla valuta impostata come valuta di base nel sistema.
 1. Fai clic su **Salva modifiche**.
