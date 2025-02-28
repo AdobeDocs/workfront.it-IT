@@ -2,20 +2,20 @@
 product-area: projects
 navigation-topic: business-case-and-scorecards
 title: Esportare il Business Case di un progetto
-description: È possibile esportare il Business Case in un file PDF, nel caso sia necessario stamparlo o allegarlo a un messaggio di posta elettronica in un formato più compatto.
+description: È possibile esportare il Business Case in un file PDF, nel caso sia necessario stamparlo o allegarlo a un'e-mail in un formato più compatto.
 author: Alina
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
 
 # Esportare il Business Case di un progetto
 
-È possibile esportare il Business Case in un file PDF, nel caso sia necessario stamparlo o allegarlo a un messaggio di posta elettronica in un formato più compatto. 
+È possibile esportare il Business Case in un file PDF, nel caso sia necessario stamparlo o allegarlo a un&#39;e-mail in un formato più compatto. 
 
 ## Requisiti di accesso
 
@@ -52,8 +52,8 @@ Devi avere i seguenti:
 1. Fai clic su **Business Case** nel pannello a sinistra.
 1. Nell&#39;area superiore destra **Riepilogo caso di business**, fare clic su **Esporta**.
 
-   ![](assets/bc-summary--350x587.png)\
-   UN PDF  il file viene scaricato nel computer. Il file contiene tutte le aree del Business Case in un formato di facile lettura.
+   ![Riepilogo del caso di business](assets/bc-summary--350x587.png)\
+   A PDF  il file viene scaricato nel computer. Il file contiene tutte le aree del Business Case in un formato di facile lettura.
 
    ![BC_Summary_exports.png](assets/bc-summary-exported-350x160.png)
 
