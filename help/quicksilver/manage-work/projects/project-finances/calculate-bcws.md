@@ -7,9 +7,9 @@ description: Anche noto come valore pianificato, il costo preventivato del lavor
 author: Lisa
 feature: Work Management
 exl-id: b9a36333-9430-42bd-99dd-3ad82803b633
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '621'
 ht-degree: 2%
 
 ---
@@ -77,7 +77,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. Vai a un progetto e fai clic su **Dettagli progetto** nel pannello a sinistra.
 1. Nell&#39;area **Finance** individuare il campo **Metodo indice prestazioni** e fare doppio clic su di esso per modificarlo.
 
-   ![](assets/pim-options-hour-cost-based-nwe.png)
+   ![Opzioni PIM](assets/pim-options-hour-cost-based-nwe.png)
 
 1. Selezionare una delle opzioni seguenti:
 
@@ -126,7 +126,7 @@ Task BCWS = 20% x $10,000 = $2,000
 1. Fai clic su **Aggiungi colonna**.
 1. Nel campo **Mostra in questa colonna:** inizia a digitare **BCWS** e fai clic su per selezionarlo quando viene visualizzato nell&#39;elenco.
 
-   ![](assets/bcws-in-project-view.png)
+   ![BCWS nella visualizzazione del progetto](assets/bcws-in-project-view.png)
 
 1. Fai clic su **Salva vista**.
 1. Il campo **BCWS** viene visualizzato nella visualizzazione.
