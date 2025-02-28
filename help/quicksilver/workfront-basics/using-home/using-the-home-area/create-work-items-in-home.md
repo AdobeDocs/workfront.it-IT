@@ -6,9 +6,9 @@ description: È possibile creare elementi di lavoro e progetti dall'area [!UICON
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '847'
 ht-degree: 2%
 
 ---
@@ -71,12 +71,12 @@ L&#39;utente e gli altri utenti possono visualizzare le attività personali in u
 
 Per creare un elemento attività:
 
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro o sul **menu principale** ![](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **[!UICONTROL Home]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro o sull&#39;icona **Main Menu** ![Main Menu lines icon](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **[!UICONTROL Home]**.
 1. (Condizionale) Fai clic su **Personalizza**, quindi fai clic su **Da fare** per aggiungere il widget Da fare alla schermata iniziale.
 1. Vai al widget **Da fare**, quindi fai clic su **Aggiungi da fare**.
 1. Digitare il nome dell&#39;attività personale, quindi fare clic su Invio.
-1. (Facoltativo) Fai clic sull&#39;icona **Data** ![](assets/date-icon.png) per aggiungere una data di scadenza per l&#39;elemento.
-   ![](assets/my-work-to-dos.png)
+1. (Facoltativo) Fai clic sull&#39;icona **Data** ![Icona data](assets/date-icon.png) per aggiungere una data di scadenza per l&#39;elemento.
+   ![Le mie cose da fare](assets/my-work-to-dos.png)
 1. (Facoltativo) Crea un rapporto o un filtro di attività personale. Per informazioni sulla creazione di un filtro attività personale, vedere [Filtro: attività personale](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
 Nel rapporto attività personale è possibile visualizzare le attività personali e quelle di altri utenti.
 
@@ -84,10 +84,10 @@ Nel rapporto attività personale è possibile visualizzare le attività personal
 
 Puoi aggiungere un’attività a un progetto esistente direttamente dall’area Home:
 
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
 1. (Condizionale) Aggiungi il widget **Le mie attività** alla schermata iniziale. Fai clic su **Personalizza** e trova **Le mie attività**.
 1. Vai al widget **Le mie attività**, quindi fai clic su **Nuove**.
-   ![](assets/create-new-task.png)
+   ![Crea nuova attività](assets/create-new-task.png)
 1. Nella finestra di dialogo **Nuova attività** immettere il nome dell&#39;attività.
 1. Inizia a digitare il nome di un progetto, quindi selezionalo dall’elenco.
 1. (Facoltativo) Immettere le informazioni nei campi riportati di seguito.
@@ -107,10 +107,10 @@ Puoi aggiungere un’attività a un progetto esistente direttamente dall’area 
 
 Puoi aggiungere un problema a un progetto esistente direttamente dall’area Home:
 
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
 1. (Condizionale) Aggiungi il widget **Problemi personali** alla schermata iniziale. Fai clic su **Personalizza** e trova **I miei problemi**.
 1. Vai al widget **I miei problemi**, quindi fai clic su **Nuovi**.
-   ![](assets/create-new-issue.png)
+   ![Crea nuovo problema](assets/create-new-issue.png)
 1. Nella finestra di dialogo **Nuovo problema**, inizia a digitare il nome di un progetto, quindi selezionalo dall&#39;elenco.
 1. Immetti un nome per il problema.
 1. (Facoltativo) Immettere le informazioni nei campi riportati di seguito.
@@ -128,10 +128,10 @@ Puoi aggiungere un problema a un progetto esistente direttamente dall’area Hom
 
 Puoi creare una richiesta direttamente dall’area Home:
 
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
 1. (Condizionale) Aggiungi il widget **Richieste personali** alla schermata iniziale. Fai clic su **Personalizza** e trova **Le mie richieste**.
 1. Vai al widget **Richieste personali**, quindi fai clic su **Nuove**.
-   ![](assets/create-new-request.png)
+   ![Crea nuova richiesta](assets/create-new-request.png)
 
 1. Nella finestra di dialogo **Nuova richiesta**, inizia a digitare il nome della coda di richieste.
 1. Compila i campi pertinenti.
@@ -143,10 +143,10 @@ Per ulteriori informazioni sull&#39;invio di richieste, vedere [Creare e inviare
 
 Puoi creare un progetto direttamente dall’area Home:
 
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
 1. (Condizionale) Aggiungi il widget **Progetti personali** alla schermata iniziale. Fai clic su **Personalizza** e trova **I miei progetti**.
 1. Vai al widget **Progetti personali**, quindi fai clic su **Nuovi**.
-   ![](assets/create-new-project.png)
+   ![Crea nuovo progetto](assets/create-new-project.png)
 1. Scegliere una delle opzioni seguenti:
 
    | Campo | Istruzioni |
@@ -161,7 +161,7 @@ Puoi creare un progetto direttamente dall’area Home:
 
 You can create a board directly from the Home area:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Add the **Boards** widget to your home screen. Click **Customize**, and find **Boards**. -->
 
 
@@ -171,13 +171,13 @@ You can create a board directly from the Home area:
 <!--
 ## Delete a to-do item
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. Go to the to-do widget.
-1. Hover over the item, then click the **Delete** icon ![](assets/delete-to-do.png). 
+1. Hover over the item, then click the **Delete** icon ![Delete icon](assets/delete-to-do.png). 
 
 ## Edit a to-do item
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. Go to the to-do widget.
 1. Edit the item name.
-1. Click on the **Date** icon ![](assets/date-icon.png) to add or adjust a due date. -->
+1. Click on the **Date** icon ![Date icon](assets/date-icon.png) to add or adjust a due date. -->
