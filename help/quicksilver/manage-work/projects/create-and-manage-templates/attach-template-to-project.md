@@ -6,9 +6,9 @@ description: È possibile allegare un modello a un progetto durante la fase iniz
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -77,15 +77,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 È possibile allegare un modello a un progetto in Workfront dalla pagina del progetto o da un elenco o report di progetti.
 
-1. Vai al progetto in cui desideri allegare un modello e fai clic sull&#39;icona **Altro** ![](assets/qs-more-icon-on-an-object.png) a destra del nome del progetto
+1. Vai al progetto in cui desideri allegare un modello e fai clic sull&#39;icona **Altro** ![Altro](assets/qs-more-icon-on-an-object.png) a destra del nome del progetto
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Altro menu a discesa](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Oppure
 
-   Vai a un elenco o a un report di progetti e seleziona un progetto, quindi fai clic sull&#39;icona **Altro** ![](assets/qs-more-icon-on-an-object.png) nella parte superiore dell&#39;elenco.
+   Vai a un elenco o a un report di progetti e seleziona un progetto, quindi fai clic sull&#39;icona **Altro** ![Altro](assets/qs-more-icon-on-an-object.png) nella parte superiore dell&#39;elenco.
 
-   ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![Menu Altro espanso](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 
 1. Fare clic su **Allega modello**.
@@ -106,16 +106,16 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    * Numero totale di attività
    * Nomi dei moduli personalizzati allegati
 
-   ![](assets/attach-template-box-template-preview-area-nwe-350x282.png)
+   ![Allega casella modello](assets/attach-template-box-template-preview-area-nwe-350x282.png)
 
-1. (Facoltativo) Fai clic sull&#39;icona **Preferiti** ![](assets/favorites-icon-small.png) a sinistra del nome del modello per contrassegnarlo come preferito. In questo modo il modello viene spostato nell&#39;elenco Preferiti.
+1. (Facoltativo) Fai clic sull&#39;icona **Preferiti** ![Preferiti](assets/favorites-icon-small.png) a sinistra del nome del modello per contrassegnarlo come preferito. In questo modo il modello viene spostato nell&#39;elenco Preferiti.
 
-   ![](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
+   ![Icona Preferiti nell&#39;elenco modelli](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
 
-1. (Facoltativo) Fare di nuovo clic sull&#39;icona **Preferiti** ![](assets/favorites-icon-selected.png) per rimuoverla dall&#39;elenco Preferiti.
+1. (Facoltativo) Fai di nuovo clic sull&#39;icona **Preferiti** ![Preferiti](assets/favorites-icon-selected.png) per rimuoverla dall&#39;elenco Preferiti.
 1. Fare clic su **Personalizza e allega**.
 
-   ![](assets/attach-template-large-box-nwe-350x262.png)
+   ![Allega modello](assets/attach-template-large-box-nwe-350x262.png)
 
 1. Aggiorna le informazioni nelle sezioni seguenti prima di allegare il modello (oppure fai clic su **Allega modello** in qualsiasi momento):
 
@@ -193,6 +193,6 @@ Per capire quale modello viene applicato a un progetto:
 1. Fai clic su **Dettagli progetto** nel pannello a sinistra.
 1. Trova il nome del modello allegato al progetto nel campo **Modello** nella parte inferiore della sezione **Panoramica** in **Relazioni progetto**.
 
-   ![](assets/nwe-template-info-on-project-350x356.png)
+   ![Informazioni modello sul progetto](assets/nwe-template-info-on-project-350x356.png)
 
 
