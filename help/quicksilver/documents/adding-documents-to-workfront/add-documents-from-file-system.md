@@ -6,9 +6,9 @@ description: È possibile aggiungere documenti a progetti, attività o problemi 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 8687e92ffed08e87fcb8c22816fd86bafa7f9e7a
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '769'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ Per aggiungere un documento:
 1. Passare al progetto, all&#39;attività o al problema in cui si desidera aggiungere un nuovo documento.
 1. Fai clic sulla scheda **Documenti**, quindi sul menu a discesa **Aggiungi nuovo**.
 
-   ![](assets/add-new-doc.png)
+   ![Aggiungi nuovo documento](assets/add-new-doc.png)
 
 1. A seconda del tipo di documento che si desidera aggiungere, eseguire una delle operazioni seguenti:
 
