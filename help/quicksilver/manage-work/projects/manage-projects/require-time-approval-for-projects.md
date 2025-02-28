@@ -6,9 +6,9 @@ description: Richiede l'approvazione del tempo per un progetto
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      <li>Sei il proprietario del progetto con l’accesso e le autorizzazioni specificati sopra. In questo caso, se esiste una delle condizioni seguenti, puoi effettuare le seguenti operazioni: 
       <ul>
        <li>Se disponi delle autorizzazioni di gestione per il progetto, puoi approvare o rifiutare le ore registrate sul progetto da qualsiasi altro utente.</li>
-       <li> Se disponi dell’accesso Contribute o View al progetto, potrai approvare o rifiutare solo le ore registrate da te o da qualsiasi altro utente che ti segnali.<br></li>
+       <li> Se disponete dell'accesso Contribuisci o Visualizza al progetto, potrete approvare o rifiutare solo le ore registrate dall'utente o da qualsiasi altro utente che vi segnala.<br></li>
       </ul></li> 
      <li>Disponi di una licenza Pianificazione con accesso amministrativo alle schede orario e alle ore. In questo caso:
       <ul>
@@ -80,7 +80,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 Per richiedere l&#39;approvazione del project manager per le ore relative al progetto:
 
 1. Vai al progetto per il quale desideri richiedere l’approvazione per le ore.
-1. Fai clic sull&#39;icona **Altro** ![](assets/more-icon.png) a destra del nome del progetto, quindi fai clic su **Modifica**.\
+1. Fai clic sull&#39;icona **Altro** ![Icona Altro](assets/more-icon.png) a destra del nome del progetto, quindi fai clic su **Modifica**.\
    Viene visualizzata la finestra di dialogo Modifica progetto.
 
 1. Nella sezione **Impostazioni progetto**, seleziona **Richiedi l&#39;approvazione del tempo per questo progetto**.
