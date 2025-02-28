@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: a7237746-0a18-408b-b932-8a608fd72eee
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -66,8 +66,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Individuare l&#39;elemento di lavoro da aggiornare.
 1. Passa il puntatore del mouse sul nome, quindi fai clic su **Aggiungi nuovo aggiornamento**.
-   ![](assets/add-update.png)
-   <!--new screen for prod ![](assets/update-log-upload.png)-->
+   ![Aggiungi nuovo aggiornamento](assets/add-update.png)
+   <!--new screen for prod ![Update](assets/update-log-upload.png)-->
 1. Inizia a digitare il commento.
 1. (Facoltativo) Nella casella **Assegna tag a persone o team**, inizia a digitare il nome o l&#39;e-mail di un utente o di un team che desideri includere in questo commento, quindi selezionalo quando viene visualizzato nell&#39;elenco.
 1. (Facoltativo) Utilizza le opzioni nella barra degli strumenti Testo formattato per formattare il testo, aggiungere emoticon, collegamenti o immagini al commento, per migliorarne il contenuto.
@@ -90,7 +90,7 @@ Per informazioni più dettagliate sull&#39;aggiunta di aggiornamenti, vedere [Ag
 1. (Facoltativo) Utilizzare la scheda **Commenti** per aggiornare altri utenti che hanno effettuato sull&#39;elemento di lavoro.
 1. (Facoltativo) Utilizzare la scheda **Attività di sistema** per visualizzare l&#39;attività di sistema correlata all&#39;elemento di lavoro.
 1. (Facoltativo) Per aggiungere un commento, vai alla scheda **Commento** e inizia a digitare nella casella Nuovo commento. Al termine, fai clic su **Invia**.
-   ![](assets/updates-area-in-overview.png)
+   ![Area aggiornamenti](assets/updates-area-in-overview.png)
 
 ## Rispondi a un commento
 
@@ -101,7 +101,7 @@ Per informazioni più dettagliate sull&#39;aggiunta di aggiornamenti, vedere [Ag
 1. Fare clic sul nome di un elemento di lavoro per aprire la pagina **Panoramica**.
 1. Individua l&#39;area **Aggiornamenti** nell&#39;angolo in basso a destra dello schermo.
 1. Nella scheda **Commenti**, individua il commento a cui desideri rispondere, quindi fai clic su **Rispondi**.
-1. (Condizionale) Se desideri rispondere per inserire il contenuto di un messaggio nella risposta, fai clic sull&#39;icona di menu **Altro** ![](assets/more-icon.png) accanto al corpo del messaggio e scegli **Risposta preventivo**.
+1. (Condizionale) Se desideri rispondere per inserire il contenuto di un messaggio nella risposta, fai clic sull&#39;icona del menu **Altro** ![Altro menu](assets/more-icon.png) accanto al corpo del messaggio e scegli **Risposta preventivo**.
 
 1. Digita la tua risposta, quindi fai clic su **Invia**.
 
@@ -109,4 +109,4 @@ Per informazioni più dettagliate sull&#39;aggiunta di aggiornamenti, vedere [Ag
    >
    >È possibile modificare il commento solo entro 15 minuti dall&#39;invio. Per modificare un commento, fai clic sul menu Altro nell’angolo superiore destro del commento, quindi fai clic su Modifica.
 
-   ![](assets/reply-to-comment.png)
+   ![Risposta al commento](assets/reply-to-comment.png)
