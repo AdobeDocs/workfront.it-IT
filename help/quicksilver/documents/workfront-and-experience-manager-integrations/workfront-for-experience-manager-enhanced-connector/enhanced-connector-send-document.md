@@ -6,9 +6,9 @@ description: È possibile inviare documenti da Workfront a Experience Manager As
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: d687d2db-28e0-45e8-9d60-8419921f02e9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '457'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 Prima di iniziare, è necessario
 
-* Installa Workfront, ad Experience Manager il connettore avanzato.
+* Installa il connettore avanzato Workfront for Experience Manager.
 
 ## Inviare un documento a Experience Manager Assets
 
@@ -69,7 +69,7 @@ Per inviare un documento:
    >
    >Qualsiasi nome può essere scelto per questa integrazione, quindi potrebbe non menzionare specificamente Experience Manager Assets.
 
-   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![Invia a](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Scegli dove vuoi spostare la risorsa, quindi fai clic su **Seleziona cartella**.
 1. Quando trovi la destinazione desiderata, fai clic su **Salva**.
@@ -87,6 +87,6 @@ Per inviare la versione più recente:
    >
    >Qualsiasi nome può essere scelto per questa integrazione, quindi potrebbe non menzionare specificamente Experience Manager Assets.
 
-   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![Invia a](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Fai clic su **Salva**. La nuova versione viene salvata nella stessa posizione della versione precedente.
