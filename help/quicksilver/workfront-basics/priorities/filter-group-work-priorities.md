@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
+source-git-commit: c362c62855c71022c4bc6b3abc22ba4ea83b1b24
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '652'
 ht-degree: 4%
 
 ---
@@ -66,7 +66,7 @@ Puoi filtrare le attività e i problemi assegnati.
 1. Fai clic su **Filtri** in alto a sinistra nell&#39;elenco lavori.
 1. fare clic su **Filtri standard**.
 1. Selezionare uno o più filtri per limitare gli elementi di lavoro.
-   ![](assets/filter-new.png)
+   ![Filtro](assets/filter-new.png)
 
 +++Espandi per visualizzare informazioni dettagliate sui filtri disponibili
 <table>
@@ -157,7 +157,7 @@ Utilizza il linguaggio naturale per filtrare rapidamente il lavoro.
 
 1. Fai clic su **Gruppi** in alto a sinistra nell&#39;elenco lavori.
 1. Selezionare un gruppo per organizzare l&#39;elenco di lavoro
-   ![](assets/groups-new.png)
+   ![Gruppi](assets/groups-new.png)
 
 +++Espandi per visualizzare informazioni dettagliate sui gruppi disponibili
 
@@ -184,7 +184,7 @@ Utilizza il linguaggio naturale per filtrare rapidamente il lavoro.
 
 Per ordinare il lavoro all&#39;interno di un gruppo, apri **Gruppo** e fai clic su **Ordine crescente** o **Ordine decrescente**.
 
-![](assets/sort-in-groups.png)
+![Ordina in gruppi](assets/sort-in-groups.png)
 
 ### Ordinare le colonne
 
@@ -196,4 +196,4 @@ Per ordinare le singole colonne, passare alla colonna e fare clic sulla freccia 
 
 Per espandere o comprimere tutte le sezioni del gruppo, aprire **Gruppo** e fare clic su **Espandi tutto** o **Comprimi tutto**.
 
-![](assets/expand-collapse-groups.png)
+![Espandi o comprimi gruppi](assets/expand-collapse-groups.png)
