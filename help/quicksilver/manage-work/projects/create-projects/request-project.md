@@ -6,9 +6,9 @@ description: È possibile richiedere l'approvazione di un progetto prima di iniz
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '530'
 ht-degree: 2%
 
 ---
@@ -70,14 +70,14 @@ Puoi richiedere un progetto quando aggiungi un nuovo progetto nelle seguenti are
 
 1. Esegui una delle operazioni seguenti:
 
-   * Fai clic sul **menu principale** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro o sul **menu principale** ![](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro. Se disponibile, fai clic su **Progetti**, quindi espandi **Nuovo progetto**.
+   * Fai clic sull&#39;icona **Main Menu** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro o sulle **Main Menu** ![Main Menu lines](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibili, fai clic su **Projects**, quindi espandi **New Project**.
    * Vai a un portfolio, quindi espandi **Nuovo progetto**.
    * Vai a un programma, quindi espandi **Nuovo progetto**.
    * Se sei un amministratore gruppo, puoi anche creare un progetto nella sezione Progetti di un gruppo che gestisci. Per ulteriori informazioni, vedere [Creare e modificare i progetti di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
 1. Fai clic su **Richiedi progetto**.
 
-   ![](assets/new-project-dropdown-nwe-350x358.png)
+   ![Menu a discesa Nuovo progetto](assets/new-project-dropdown-nwe-350x358.png)
 
 1. Esegui una delle operazioni seguenti:
 
@@ -89,4 +89,4 @@ Puoi richiedere un progetto quando aggiungi un nuovo progetto nelle seguenti are
 
      Per informazioni sulla creazione di un progetto, vedere [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md) o [Creare un progetto utilizzando un modello](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
-   Il progetto richiesto ha lo stato **Richiesto** e viene visualizzato nella scheda **Progetti richiesti** di un Portfolio, se associato a un Portfolio. Ora un gestore di portfolio può esaminarlo e approvarlo o rifiutarlo, nel qual caso lo stato del progetto cambia in **Approvato** o **Rifiutato**.
+   Lo stato del progetto richiesto è **Richiesto** e viene visualizzato nella scheda **Progetti richiesti** di Portfolio, se associato a un Portfolio. Ora un gestore di portfolio può esaminarlo e approvarlo o rifiutarlo, nel qual caso lo stato del progetto cambia in **Approvato** o **Rifiutato**.
