@@ -6,9 +6,9 @@ description: È possibile aggiungere o rispondere agli aggiornamenti di un docum
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Devi avere i seguenti:
 1. Vai all&#39;oggetto che contiene il documento, quindi seleziona **Documenti** nel pannello a sinistra.
 1. Individuare il documento necessario ed eseguire una delle operazioni seguenti:
 
-   * Fai clic sul documento nell&#39;elenco, fai clic sull&#39;icona ![](assets/qs-summary-in-new-toolbar-small.png) **Apri riepilogo** nell&#39;angolo superiore destro, quindi aggiungi un nuovo commento, oppure fai clic su **Rispondi** per aggiungere una risposta a un commento esistente. Per informazioni sul Riepilogo, vedere [Riepilogo per la panoramica dei documenti](../../documents/managing-documents/summary-for-documents.md).
+   * Fai clic sul documento nell&#39;elenco, fai clic sull&#39;icona **Apri riepilogo** ![Apri riepilogo](assets/qs-summary-in-new-toolbar-small.png) nell&#39;angolo superiore destro, quindi aggiungi un nuovo commento oppure fai clic su **Rispondi** per aggiungere una risposta a un commento esistente. Per informazioni sul Riepilogo, vedere [Riepilogo per la panoramica dei documenti](../../documents/managing-documents/summary-for-documents.md).
    * Passa il puntatore del mouse sul documento, fai clic su **Dettagli documento**, quindi su **Aggiornamenti** nel pannello a sinistra.
 Per ulteriori informazioni sull&#39;aggiunta di aggiornamenti agli oggetti, vedere [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
