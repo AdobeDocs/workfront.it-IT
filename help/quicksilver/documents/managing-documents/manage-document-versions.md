@@ -6,9 +6,9 @@ description: In Workfront è possibile gestire più versioni di un documento.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -64,15 +64,15 @@ Devi avere i seguenti:
 
 1. Nella parte superiore della pagina Dettagli documento fare clic sul menu a discesa accanto al nome, quindi sul nome della versione che si desidera visualizzare e gestire.
 
-   ![](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   ![Elenco a discesa della versione nei dettagli del documento](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    Oltre a visualizzare i dettagli della versione, è possibile modificarne il nome, i metadati e le impostazioni di correzione (se si tratta di una bozza di documento).
 
 ## Scarica una versione di un singolo documento
 
-1. Nel Riepilogo, in **Versioni**, fai clic sul menu Altro ![](assets/more-icon.png) a destra della versione, quindi fai clic su **Scarica** nell&#39;elenco a discesa visualizzato.
+1. Nel Riepilogo, in **Versioni**, fai clic sul menu Altro ![Altro menu](assets/more-icon.png) a destra della versione, quindi fai clic su **Scarica** nell&#39;elenco a discesa visualizzato.
 
-   ![](assets/more-versions-350x143.png)
+   ![Scarica un singolo documento](assets/more-versions-350x143.png)
 
 ## Scaricare tutte le versioni di un documento
 
@@ -105,4 +105,4 @@ Per eliminare una versione del documento:
 
    Se il documento è collegato a un&#39;origine esterna, il collegamento viene eliminato e il documento non è più accessibile tramite Workfront.
 
-   ![](assets/more-versions-350x143.png)
+   ![elimina versione documento](assets/more-versions-350x143.png)
