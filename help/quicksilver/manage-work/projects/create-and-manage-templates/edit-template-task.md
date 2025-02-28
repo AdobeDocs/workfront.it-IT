@@ -7,9 +7,9 @@ description: Dopo aver creato un modello, è possibile modificare le informazion
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '2406'
+source-wordcount: '2420'
 ht-degree: 4%
 
 ---
@@ -54,7 +54,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto </td> 
-   <td> <p>Consente di gestire le autorizzazioni per un modello. </p> <p>Autorizzazioni Contribute o superiori per l’attività modello.</p> </td> 
+   <td> <p>Consente di gestire le autorizzazioni per un modello. </p> <p>Autorizzazioni di Contribute o superiori per l'attività modello.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,8 +82,8 @@ Prima di iniziare, è necessario
 1. Fare clic sul nome di un&#39;attività modello nell&#39;elenco per aprirla.
 1. (Facoltativo) Per modificare più attività modello in blocco, seleziona più attività modello, quindi fai clic su **Modifica** nella parte superiore dell&#39;elenco dei modelli.
 1. (Condizionale) Per modificare informazioni limitate su un&#39;attività modello, fai clic su **Dettagli attività modello** nel pannello a sinistra, quindi vai alle aree della sezione Dettagli per modificare le informazioni per ogni area.
-1. (Facoltativo) Fai clic sull&#39;icona **Comprimi tutto** ![](assets/collapse-all-icon.png) per comprimere tutte le aree.
-1. Per modificare le informazioni nella sezione Dettagli, fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png), quindi seleziona una delle aree seguenti oppure fai clic su **Modifica tutto** per modificare le informazioni in tutte le aree:
+1. (Facoltativo) Fai clic sull&#39;icona **Comprimi tutto** ![Comprimi tutto](assets/collapse-all-icon.png) per comprimere tutte le aree.
+1. Per modificare le informazioni nella sezione Dettagli, fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png), quindi seleziona una delle aree seguenti oppure fai clic su **Modifica tutto** per modificare le informazioni in tutte le aree:
 
    * Panoramica
    * Moduli personalizzati
@@ -96,7 +96,7 @@ Prima di iniziare, è necessario
    >
    >Per informazioni su tutti i campi visualizzati nell&#39;area Dettagli, continuare a modificare tutti i campi utilizzando la casella Modifica attività modello, come descritto di seguito.
 
-1. (Condizionale) Per modificare tutte le informazioni sull&#39;attività modello, fai clic sul menu **Altro** ![](assets/qs-more-icon-on-an-object.png) accanto al nome dell&#39;attività modello, quindi fai clic su **Modifica**.
+1. (Condizionale) Per modificare tutte le informazioni sull&#39;attività modello, fai clic sul menu **Altro** ![Altro](assets/qs-more-icon-on-an-object.png) accanto al nome dell&#39;attività modello, quindi fai clic su **Modifica**.
 
    Viene visualizzata la casella **Modifica attività modello**.
 
@@ -104,7 +104,7 @@ Prima di iniziare, è necessario
    >
    >È inoltre possibile selezionare un&#39;attività modello in un elenco, quindi fare clic su Modifica per aprire la casella Modifica attività modello.
 
-   ![](assets/edit-template-tasks-box-classic-350x356.png)
+   ![Modifica attività modello](assets/edit-template-tasks-box-classic-350x356.png)
 
 1. Prendere in considerazione la possibilità di specificare informazioni in una delle sezioni seguenti:
 
@@ -268,7 +268,7 @@ Prima di iniziare, è necessario
 1. Inizia a modificare un’attività modello come descritto in precedenza.
 1. Fare clic su **Impostazioni**.
 
-   ![](assets/edit-template-tasks-settings-classic-350x231.png)
+   ![Modifica impostazioni attività modello](assets/edit-template-tasks-settings-classic-350x231.png)
 
 1. Aggiorna uno dei seguenti elementi:
 
