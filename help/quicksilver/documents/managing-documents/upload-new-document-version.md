@@ -6,9 +6,9 @@ description: Puoi aggiungere una nuova versione di un documento precedentemente 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d475e0f0-112e-4d4e-b666-6e0af3ea7702
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Devi avere i seguenti:
 1. Passare all&#39;area Documenti in cui viene caricato il documento.
 1. Dal desktop o da una scheda del browser separata, trascinare la nuova versione del documento sopra la versione esistente in Workfront.
 
-   ![](assets/drag-drop-doc-qs-350x145.png)
+   ![Trascina la versione del documento](assets/drag-drop-doc-qs-350x145.png)
 
    Mentre si trascina la nuova versione, è possibile passare il cursore su una cartella di documenti Workfront per aprirla. Puoi quindi scorrere verso l’alto o il basso trascinando i file nella parte superiore o inferiore dello schermo.
 
@@ -80,6 +80,6 @@ Devi avere i seguenti:
 1. Selezionare il documento in cui si desidera aggiungere una nuova versione.
 1. Fai clic su **Aggiungi nuovo** > **Versione**.
 
-   ![](assets/add-new-version-350x185.png)
+   ![Aggiungi nuova versione](assets/add-new-version-350x185.png)
 
 1. Seleziona il tipo di documento da caricare, quindi segui le istruzioni.
