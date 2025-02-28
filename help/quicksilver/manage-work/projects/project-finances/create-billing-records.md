@@ -5,9 +5,9 @@ description: Oltre a impostare le entrate e a tenere traccia delle spese, è pos
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1898'
 ht-degree: 0%
 
 ---
@@ -241,7 +241,7 @@ Dopo aver creato un record di fatturazione e aver incluso ore, spese e ricavi ne
 
    Oppure
 
-   Fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) nell&#39;angolo superiore destro, quindi modifica le informazioni in tutti i campi disponibili.
+   Fai clic sull&#39;icona **Modifica** ![Modifica](assets/edit-icon.png) nell&#39;angolo superiore destro, quindi modifica le informazioni in tutti i campi disponibili.
 
    Aggiorna quanto segue:
 
