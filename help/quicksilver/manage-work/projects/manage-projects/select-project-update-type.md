@@ -6,9 +6,9 @@ description: Selezionando un Tipo di aggiornamento per un progetto, è possibile
 author: Alina
 feature: Work Management
 exl-id: ffdfffec-d217-4daa-9849-cb0c794992c0
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 Quando le attività vengono aggiornate, gli oggetti padre (attività padre o progetto) vengono aggiornati all&#39;ora indicata dal Tipo di aggiornamento.  Per specificare un tipo di aggiornamento per il progetto:
 
 1. Vai al progetto di cui desideri specificare il Tipo di aggiornamento.
-1. Fai clic sul menu Altro ![](assets/more-icon.png) accanto al nome del progetto, quindi fai clic su **Modifica** .
+1. Fai clic sull&#39;icona Altro ![Altro](assets/more-icon.png) accanto al nome del progetto, quindi fai clic su **Modifica** .
 
 1. Fare clic su **Progetto** **Impostazioni**.
 
