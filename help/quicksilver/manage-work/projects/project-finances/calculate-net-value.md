@@ -7,9 +7,9 @@ description: Il valore netto di un progetto è il valore totale previsto del pro
 author: Lisa
 feature: Work Management
 exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '402'
 ht-degree: 1%
 
 ---
@@ -48,9 +48,9 @@ Il valore netto di un progetto si trova nelle seguenti aree in Workfront:
 * Area Riepilogo del caso di business \
   Per ulteriori informazioni sull&#39;area Riepilogo caso di business, vedere la sezione &quot;Informazioni sul riepilogo del caso di business&quot; nell&#39;articolo [Creare un caso di business per un progetto](../../../manage-work/projects/define-a-business-case/create-business-case.md) [Creare un caso di business per un progetto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-  ![](assets/net-value-on-business-case-summary-highlighted-350x444.png)
+  ![Valore netto nel caso di business](assets/net-value-on-business-case-summary-highlighted-350x444.png)
 
-* In Ottimizzatore Portfolio se il progetto è associato a un portfolio
+* In Portfolio Optimizer se il progetto è associato a un portfolio
 
   >[!TIP]
   >
