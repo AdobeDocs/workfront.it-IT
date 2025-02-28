@@ -6,9 +6,9 @@ description: È possibile estrarre un documento per impedire ad altri utenti di 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -77,9 +77,9 @@ Se si dispone delle autorizzazioni di gestione per un documento, è possibile es
 
    Per informazioni sull&#39;aggiunta di documenti, vedere [Aggiungere documenti ad Adobe Workfront dal file system](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
-1. Fare clic sull&#39;icona **Estrai** ![](assets/check-out-25x23.png).
+1. Fai clic sull&#39;icona **Estrai** ![Estrai](assets/check-out-25x23.png).
 
-1. A destra del nome del documento viene visualizzata l&#39;icona di blocco ![](assets/lock-icon-locked-qs.png). Il documento rimane estratto dopo la disconnessione da Workfront.
+1. A destra del nome del documento viene visualizzata l&#39;icona del lucchetto ![Icona del lucchetto](assets/lock-icon-locked-qs.png). Il documento rimane estratto dopo la disconnessione da Workfront.
 1. Solo l&#39;utente che ha estratto il documento o l&#39;amministratore di Workfront può archiviare il documento.
 
 ## Gestisci documenti estratti
@@ -103,6 +103,6 @@ Per archiviare un documento:
 
 1. Passare all&#39;area in cui è memorizzato il documento e selezionarlo. 
 
-   A destra del nome del documento viene visualizzata l&#39;icona di blocco ![](assets/lock-icon-locked-qs.png).
+   A destra del nome del documento viene visualizzata l&#39;icona del lucchetto ![Icona del lucchetto](assets/lock-icon-locked-qs.png).
 
-1. Fare clic sull&#39;icona **Archivia** ![](assets/check-in-25x22.png).
+1. Fai clic sull&#39;icona **Archivia** ![Icona Archivia](assets/check-in-25x22.png).
