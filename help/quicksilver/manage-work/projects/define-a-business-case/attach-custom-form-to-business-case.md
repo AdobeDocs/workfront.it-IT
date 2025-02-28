@@ -5,9 +5,9 @@ description: I Forms personalizzati vengono utilizzati per raccogliere informazi
 author: Alina
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -73,9 +73,9 @@ Per allegare un modulo personalizzato:
 
 1. Nella sezione **Modulo personalizzato** selezionare il modulo personalizzato che si desidera allegare dal menu a discesa.
 
-   ![](assets/custom-forms-drop-down-menu.png)
+   ![Elenco a discesa dei moduli personalizzati](assets/custom-forms-drop-down-menu.png)
 
 1. (Facoltativo) Seleziona **Modifica Modulo Personalizzato**.\
-   ![](assets/acf1-350x122.png)
+   ![Modifica modulo personalizzato](assets/acf1-350x122.png)
 
 1. (Facoltativo) Specifica le informazioni nei campi del modulo personalizzato, quindi fai clic su **Salva** .
