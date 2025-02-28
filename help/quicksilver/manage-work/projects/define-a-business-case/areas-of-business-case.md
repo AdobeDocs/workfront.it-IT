@@ -6,9 +6,9 @@ description: Questo articolo descrive le aree del Business Case di un progetto.
 author: Alina
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1607'
 ht-degree: 2%
 
 ---
@@ -53,9 +53,9 @@ Prendi in considerazione la modifica dei seguenti campi:
 
 * **Portfolio**: specificare un Portfolio per il progetto. È necessario creare il Portfolio e impostarlo sullo stato **Attivo** prima che sia disponibile per la selezione in questo menu a discesa.
 
-  Per ulteriori informazioni sui portfolio, vedere [Panoramica sui Portfoli in Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+  Per ulteriori informazioni sui portfolio, vedere [Panoramica di Portfolio in Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
-  Per ulteriori informazioni sulla creazione di Portfoli, vedere [Creazione di un portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
+  Per ulteriori informazioni sulla creazione di portafogli, vedere [Creare un portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
 * **Vantaggio pianificato**: stimare il beneficio monetario previsto per l&#39;organizzazione al completamento del progetto. Può essere qualsiasi quantità di valuta e deve essere un valore positivo. Ad esempio, $10.000.
 * **Stato**: per impostazione predefinita, lo Stato di una richiesta di progetto è impostato su **Idea**.
@@ -81,7 +81,7 @@ Gli obiettivi definiscono gli obiettivi del progetto. Questa area è abilitata p
 >
 >Puoi creare obiettivi strategici per la tua organizzazione che non sono collegati al singolo caso di business di un progetto. Per poter creare obiettivi strategici, devi poter accedere agli obiettivi di Adobe Workfront. Puoi quindi collegarli a progetti al di fuori dei loro casi aziendali. Per informazioni sulla creazione di obiettivi utilizzando gli obiettivi di Workfront, consulta [Panoramica sugli obiettivi di Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
-La definizione degli obiettivi è facoltativa per il progetto che deve ricevere un Punteggio in Ottimizzatore Portfolio. Questa è l&#39;unica sezione facoltativa del Business Case. Prima di assegnare un punteggio al progetto in Ottimizzatore Portfolio, è necessario completare tutte le altre sezioni del Business Case. È possibile indicare un livello di priorità per un obiettivo durante la creazione.
+La definizione degli obiettivi è facoltativa per il progetto che deve ricevere un Punteggio in Portfolio Optimizer. Questa è l&#39;unica sezione facoltativa del Business Case. Prima di assegnare un punteggio al progetto in Portfolio Optimizer, è necessario completare tutte le altre sezioni del Business Case. È possibile indicare un livello di priorità per un obiettivo durante la creazione.
 
 Per ulteriori informazioni sugli obiettivi, consulta  [Crea obiettivi caso di business](../../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
 
@@ -115,7 +115,7 @@ Le ore preventivate per le risorse del progetto vengono visualizzate nell&#39;ar
 
 Per ulteriori informazioni sulle risorse di budget per il progetto nel Business Case, vedere [Risorse di budget nel Business Case](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-![](assets/business-case-sp-selected-with-choose-button-350x121.png)
+![Impostazione budget risorse caso di business](assets/business-case-sp-selected-with-choose-button-350x121.png)
 
 Quando si visualizza la sezione Budget risorse del caso aziendale, tenere presente quanto segue:
 
@@ -125,7 +125,7 @@ Quando si visualizza la sezione Budget risorse del caso aziendale, tenere presen
 
      Per informazioni, vedere [Risorse preventivate nel Business Case utilizzando la pianificazione risorse](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
 
-   * Scenario Planner , se la società ha acquistato una licenza aggiuntiva, ad Adobe Scenario Planner
+   * Scenario Planner , se la società ha acquistato una licenza aggiuntiva per Adobe Scenario Planner
 
      Per ulteriori informazioni, vedere [Risorse budget nel caso di business utilizzando la Pianificazione scenario](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
@@ -149,7 +149,7 @@ Quando si visualizza la sezione Budget risorse del caso aziendale, tenere presen
 
 ## Rischi
 
-I rischi sono fattori che possono impedire a un progetto di terminare in tempo o nel rispetto del budget. La definizione di questi fattori è importante perché il responsabile del Portfolio o lo sponsor del progetto prenda una decisione informata sull’approvazione del progetto. Questa area è abilitata per impostazione predefinita nel Business Case, ma l’amministratore di Workfront potrebbe scegliere di non visualizzarla.
+I rischi sono fattori che possono impedire a un progetto di terminare in tempo o nel rispetto del budget. La definizione di questi fattori è importante perché Portfolio Manager o lo sponsor del progetto possano prendere una decisione consapevole sull&#39;approvazione del progetto. Questa area è abilitata per impostazione predefinita nel Business Case, ma l’amministratore di Workfront potrebbe scegliere di non visualizzarla.
 
 È possibile associare un costo potenziale ai rischi che si stanno definendo nel caso in cui si verifichino. Il costo dei rischi di un progetto influisce sul valore netto del progetto. 
 
@@ -213,7 +213,7 @@ Per ulteriori informazioni su questi campi, vedere [Panoramica dei campi finanzi
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: made this into a standalone article, linked in the first paragraph of this section)</p>
 -->
 
-È possibile esportare il Business Case in un file PDF, nel caso sia necessario stamparlo o allegarlo a un messaggio di posta elettronica in un formato più compatto. 
+È possibile esportare il Business Case in un file PDF, nel caso sia necessario stamparlo o allegarlo a un&#39;e-mail in un formato più compatto. 
 
 Per informazioni, vedere [Esportare il Business Case di un progetto](../../../manage-work/projects/define-a-business-case/export-business-case.md).
 
