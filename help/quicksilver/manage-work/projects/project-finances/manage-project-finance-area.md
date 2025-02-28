@@ -6,9 +6,9 @@ description: È possibile visualizzare o modificare le informazioni finanziarie 
 author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1297'
 ht-degree: 2%
 
 ---
@@ -69,9 +69,9 @@ Quando si visualizzano o si modificano informazioni nell&#39;area Finanza, tener
 
 1. Vai a un progetto.
 1. Fai clic su **Dettagli progetto** nel pannello a sinistra.
-1. Fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) nell&#39;angolo superiore destro della sezione Dettagli, quindi fai clic su **Finanza**.
+1. Fai clic sull&#39;icona **Modifica** ![Modifica](assets/edit-icon.png) nell&#39;angolo superiore destro della sezione Dettagli, quindi fai clic su **Finanza**.
 
-   ![](assets/finance-area-in-details-view-only-nwe-350x188.png)
+   ![Area finanza nella visualizzazione dettagli](assets/finance-area-in-details-view-only-nwe-350x188.png)
 
    >[!NOTE]
    >
@@ -156,14 +156,14 @@ Per modificare le informazioni nella scheda secondaria Dati finanziari progetto:
    >Per eseguire i passaggi seguenti, è necessario disporre delle autorizzazioni di gestione per il progetto. È inoltre consigliabile che solo il proprietario del progetto apporti modifiche alla scheda secondaria Finanza del progetto.
 
 1. Fai clic su **Dettagli progetto** nel pannello a sinistra.
-1. Fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) nell&#39;angolo superiore destro della sezione Dettagli, quindi fai clic su **Finanza**. Verrà aperta l&#39;area Finanza per la modifica.
+1. Fai clic sull&#39;icona **Modifica** ![Icona Modifica](assets/edit-icon.png) nell&#39;angolo superiore destro della sezione Dettagli, quindi fai clic su **Finanza**. Verrà aperta l&#39;area Finanza per la modifica.
 1. Modificare qualsiasi campo disponibile per la modifica facendo clic sul campo o facendo clic su **+Aggiungi** per aggiungere informazioni a un campo vuoto.
 
    >[!TIP]
    >
    >I campi non sono disponibili per la modifica se vengono calcolati automaticamente da Workfront o se non si dispone di autorizzazioni di modifica su di essi.
 
-   ![](assets/edit-finance-area-in-project-details-nwe-350x275.png)
+   ![Modifica area contabilità](assets/edit-finance-area-in-project-details-nwe-350x275.png)
 
 1. Aggiorna uno dei campi seguenti.
 
