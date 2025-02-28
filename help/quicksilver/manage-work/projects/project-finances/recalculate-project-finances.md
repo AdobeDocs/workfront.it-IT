@@ -6,9 +6,9 @@ description: I dati finanziari vengono calcolati su un progetto in base alle mod
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
@@ -149,15 +149,15 @@ Se i tassi cambiano durante la durata di un progetto e si desidera che i calcoli
 
 È possibile ricalcolare i dati finanziari durante la modifica in blocco. Per informazioni, vedere la sezione [Ricalcolare manualmente i dati finanziari in blocco](#manually-recalculate-finances-in-bulk) in questo articolo.
 
-1. Vai al progetto in cui desideri ricalcolare i dati finanziari e fai clic sull&#39;icona **Altro** ![](assets/qs-more-icon-on-an-object.png) a destra del nome del progetto.
+1. Vai al progetto in cui desideri ricalcolare i dati finanziari e fai clic sull&#39;icona **Altro** ![Altro menu](assets/qs-more-icon-on-an-object.png) a destra del nome del progetto.
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Elenco a discesa Livello di progetto](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Oppure
 
-   Vai a un elenco o a un report di progetti e seleziona uno o più progetti, quindi fai clic sull&#39;icona **Altro** ![](assets/qs-more-icon-on-an-object.png) nella parte superiore dell&#39;elenco.
+   Vai a un elenco o a un report di progetti e seleziona uno o più progetti, quindi fai clic sull&#39;icona **Altro** ![Altro menu](assets/qs-more-icon-on-an-object.png) nella parte superiore dell&#39;elenco.
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Ricalcola espressioni](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -181,9 +181,9 @@ I valori dei costi esistenti e alcuni valori dei ricavi che non sono stati blocc
 Per ricalcolare manualmente i dati finanziari di più progetti:
 
 1. Consente di passare a un elenco di progetti.
-1. Seleziona diversi progetti nell&#39;elenco, quindi fai clic sull&#39;icona **Altro** ![](assets/qs-more-icon-on-an-object.png) nella parte superiore dell&#39;elenco.
+1. Seleziona diversi progetti nell&#39;elenco, quindi fai clic sull&#39;icona **Altro** ![Altro menu](assets/qs-more-icon-on-an-object.png) nella parte superiore dell&#39;elenco.
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Ricalcola espressioni](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -207,4 +207,4 @@ Le azioni seguenti attivano il ricalcolo finanziario dei progetti in Workfront:
 >
 >Quando si modifica lo stato del progetto, vengono ricalcolati solo i valori pianificati.
 
-È inoltre possibile ricalcolare manualmente i dati finanziari nel menu **Altro** ![](assets/qs-more-menu.png) a livello di progetto facendo clic su **Ricalcola dati finanziari**.
+È inoltre possibile ricalcolare manualmente i dati finanziari nel menu **Altro** ![Altro menu](assets/qs-more-menu.png) a livello di progetto facendo clic su **Ricalcola dati finanziari**.
