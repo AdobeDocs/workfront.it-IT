@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 35c80f6a-419b-4237-8139-f59ab7bbd5c7
-source-git-commit: dd8718b00a310bee6caa13db7644b86174b476f4
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 0%
+source-wordcount: '591'
+ht-degree: 1%
 
 ---
 
@@ -64,7 +64,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 Prima di iniziare, è necessario
 
-* Installare Workfront, ad Experience Manager il connettore avanzato
+* Installare il connettore avanzato di Workfront for Experience Manager
 
 ## Collegare una risorsa da Experience Manager Assets
 
@@ -84,7 +84,7 @@ Per collegare una risorsa a Experience Manager Assets:
 
 1. Seleziona le risorse desiderate.
 
-   ![](assets/select-an-asset.png)
+   ![Seleziona una risorsa](assets/select-an-asset.png)
 
 1. Fai clic su **Collegamento**.
 
@@ -103,7 +103,7 @@ Per collegare una cartella a Experience Manager Assets:
 
 1. Selezionare le cartelle desiderate.
 
-   ![](assets/select-a-folder.png)
+   ![Seleziona una cartella](assets/select-a-folder.png)
 
 1. Fai clic su **Collegamento**.
 
@@ -127,6 +127,6 @@ Per collegare una nuova versione da Experience Manager Assets:
 
 1. Seleziona la risorsa desiderata.
 
-   ![](assets/select-an-asset.png)
+   ![Seleziona una risorsa](assets/select-an-asset.png)
 
 1. Fai clic su **Collegamento**.
