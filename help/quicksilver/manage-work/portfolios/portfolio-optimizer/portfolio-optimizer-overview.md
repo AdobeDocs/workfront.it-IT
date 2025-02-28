@@ -7,9 +7,9 @@ description: '[!UICONTROL Portfolio Optimizer] è lo strumento utilizzato per la
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ I seguenti campi finanziari vengono visualizzati in [!UICONTROL Portfolio Optimi
   </tr> 
   <tr> 
    <td>[!UICONTROL Rimanente]</td> 
-   <td> <p>Il budget rimanente dopo tutti i [!UICONTROL Costi preventivati] su tutti i progetti all'interno del portfolio è stato sottratto dal Budget del portfolio.</p> <p>Il [!UICONTROL Budget Portfolio rimanente] viene calcolato utilizzando la seguente formula:</p> <p><em>[!UICONTROL Budget Portfolio rimanente] = [!UICONTROL Budget Portfolio totale] - Costo preventivato totale [!UICONTROL] di tutti i progetti Portfolio</em> </p> <p>Il [!UICONTROL Costo preventivato] complessivo di tutti i progetti nel portfolio è rappresentato nella barra degli indicatori sotto il campo Budget. </p> <p>Per ulteriori informazioni sul tracciamento dei costi di un progetto, vedere <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Tracciare i costi</a>.</p> </td> 
+   <td> <p>Il budget rimanente dopo il [!UICONTROL Total Cost] su tutti i progetti all'interno del portfolio è stato sottratto dal Budget del portfolio.</p> <p>Il [!UICONTROL Budget Portfolio rimanente] viene calcolato utilizzando la seguente formula:</p> <p><em>[!UICONTROL Budget Portfolio rimanente] = [!UICONTROL Budget Portfolio totale] - Costo preventivato totale [!UICONTROL] di tutti i progetti Portfolio</em> </p> <p>Il campo Budget del portfolio è una voce manuale nel campo Budget di Portfolio Optimizer. </p> <p>Per ulteriori informazioni sul tracciamento dei costi di un progetto, vedere <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Tracciare i costi</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Costo Totale]</td> 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '1806'
+source-wordcount: '1811'
 ht-degree: 2%
 
 ---
@@ -29,13 +29,13 @@ ht-degree: 2%
 >
 >Le informazioni contenute in questo articolo si riferiscono ad Adobe Workfront Planning, una funzionalità aggiuntiva di Adobe Workfront.
 >
->Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
+>Per poter accedere a tutte le funzionalità di Workfront Planning, è necessario disporre dei seguenti elementi:
 >
 >* Un nuovo pacchetto Workfront e una nuova licenza. Workfront Planning non è disponibile per i pacchetti o le licenze legacy di Workfront.
 >* Un pacchetto di Workfront Planning.
 >* L’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.
 >
-> Per un elenco completo dei requisiti per accedere a Workfront Planning, vedere [Panoramica sull&#39;accesso ad Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
+> Per un elenco completo dei requisiti per accedere a Workfront Planning, vedere [Panoramica dell&#39;accesso ad Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 > 
 
 Questo articolo contiene informazioni generali su Workfront Planning.
@@ -170,7 +170,7 @@ Dopo l&#39;acquisto di un pacchetto Workfront Planning da parte dell&#39;organiz
 
 * Assegnare agli utenti che necessitano dell&#39;accesso a Planning un modello di layout che includa Planning nel menu principale. Per ulteriori informazioni, vedere [Personalizzare il menu principale utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) e [Assegnare gli utenti a un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
-* Assegnare agli utenti una licenza di Workfront e le autorizzazioni di Workfront Planning che consentano loro di visualizzare o creare oggetti in Workfront Planning. Per ulteriori informazioni su come concedere l&#39;accesso a Workfront Planning e consentire ad altri utenti di utilizzarlo, vedere [Panoramica sull&#39;accesso a Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
+* Assegnare agli utenti una licenza di Workfront e le autorizzazioni di Workfront Planning che consentano loro di visualizzare o creare oggetti in Workfront Planning. Per ulteriori informazioni su come concedere l&#39;accesso a Workfront Planning e consentire ad altri utenti di utilizzarlo, vedere [Panoramica sull&#39;accesso ad Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 
 ## Terminologia di Workfront Planning
 
@@ -194,7 +194,7 @@ Di seguito sono riportati gli oggetti e i concetti principali di Workfront Plann
 
   A differenza di Workfront, dove i tipi di oggetto sono predefiniti, in Workfront Planning è possibile creare tipi di oggetto personalizzati.
 
-  In Workfront, ad esempio, sono già stati creati i tipi di oggetto Programma, Portfolio, Progetto, Attività o Problema.
+  Ad esempio, in Workfront sono già stati creati i tipi di oggetto Programma, Portfolio, Progetto, Attività o Problema.
 
   In Workfront Planning è possibile creare qualsiasi tipo di record che soddisfi i flussi di lavoro dell&#39;organizzazione. Successivamente è possibile definire la relazione tra i tipi di record o le dipendenze tra le maschere.
 
@@ -272,7 +272,7 @@ Di seguito sono riportati gli oggetti e i concetti principali di Workfront Plann
    * Tipo di record e tipo di oggetto progetto, programma, portfolio, società o gruppo di Workfront.
    * Un tipo di record e una risorsa o cartella Adobe Experience Manager.
 
-     È necessario disporre di una licenza Adobe Experience Manager per collegare i tipi di record agli oggetti Experienci Manager.
+     È necessario disporre di una licenza Adobe Experience Manager per collegare i tipi di record agli oggetti Experience Manager.
 
      ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
@@ -325,7 +325,7 @@ Per ulteriori informazioni, vedere [Gestire le visualizzazioni dei record](/help
 
 ## Individuazione di Adobe Workfront Planning
 
-Per individuare Adobe Planning, verificare che l&#39;organizzazione abbia ricevuto l&#39;accesso a Workfront Planning e che l&#39;amministratore del sistema o del gruppo abbia aggiunto l&#39;area Pianificazione al menu principale. Per informazioni, vedere [Panoramica dell&#39;accesso di Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
+Per individuare Adobe Planning, verificare che l&#39;organizzazione abbia ricevuto l&#39;accesso a Workfront Planning e che l&#39;amministratore del sistema o del gruppo abbia aggiunto l&#39;area Pianificazione al menu principale. Per informazioni, vedere [Panoramica dell&#39;accesso ad Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
 
 Per individuare Workfront Planning:
 

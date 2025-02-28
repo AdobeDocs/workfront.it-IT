@@ -6,9 +6,9 @@ description: È possibile aggiungere commenti alle schede orario, agli elementi 
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 * Sulla scheda orario
 * Sulle ore inserite
 * Su un singolo elemento, come un’attività o un problema
+
+È possibile visualizzare gli aggiornamenti da una scheda orario o da singole ore in un report Note. Per informazioni, vedere [Visualizzare tutti gli aggiornamenti in un report Note](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md).
 
 ## Requisiti di accesso
 
@@ -73,7 +75,7 @@ Verrà aperta l&#39;area **Schede orario**.
 1. Fai clic su **Mostra commenti** nell&#39;angolo superiore destro della scheda orario.
 I commenti vengono visualizzati sotto l’elemento in cui sono stati registrati l’immissione delle ore e il commento.
 
-   ![](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
+   ![Commenti espansi in attività riprogettate](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
 
 
 ## Commenti su una scheda orario {#make-comments-on-a-timesheet}
@@ -86,7 +88,7 @@ I commenti vengono visualizzati sotto l’elemento in cui sono stati registrati 
 
 Puoi fare commenti generali sulla scheda orario. Commentare la scheda attività complessiva è simile a commentare altri oggetti.
 
-1. Fare clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro o sull&#39;icona **menu principale** ![](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro o su Workfront, se disponibile.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro o sull&#39;icona **Main Menu** ![Main Menu Linee](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro o su Workfront, se disponibile.
 
 1. Fai clic su **Schede orario**.
 1. Vai alla scheda orario in cui desideri inserire un commento.
@@ -113,7 +115,7 @@ Puoi fare commenti generali sulla scheda orario. Commentare la scheda attività 
 
 ### Commento su una singola immissione di ore in una scheda orario {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront.
 
 1. Fai clic su **Schede orario**.
 1. Vai alla scheda orario in cui desideri inserire un commento e fai clic su **Scheda orario** nel pannello a sinistra.
@@ -128,11 +130,11 @@ Puoi fare commenti generali sulla scheda orario. Commentare la scheda attività 
 
    * Digitare un nuovo commento e fare clic su **Fine**.
    * Modifica un commento esistente e fai clic su **Fine** oppure fai clic su **Annulla** per annullare le modifiche.
-   * Fai clic sull&#39;icona **Elimina** ![](assets/delete.png) per eliminare un commento salvato.
+   * Fai clic sull&#39;icona **Elimina** ![Elimina icona](assets/delete.png) per eliminare un commento salvato.
 
      Nell&#39;angolo superiore destro della casella di immissione ore viene visualizzato un indicatore blu per indicare la presenza di commenti registrati con l&#39;immissione dell&#39;ora.
 
-   ![](assets/commment-button-on-hour-log-redesigned-timesheet.png)
+   ![Pulsante Commento nel registro ore della scheda orario riprogettata](assets/commment-button-on-hour-log-redesigned-timesheet.png)
 
    >[!TIP]
    >
@@ -152,7 +154,7 @@ Puoi fare commenti generali sulla scheda orario. Commentare la scheda attività 
 
 È possibile aggiungere commenti solo alle attività e ai problemi di una scheda orario. Non è possibile aggiungere commenti ai progetti o all&#39;ora generale.
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del [!UICONTROL **menu principale**] nell&#39;angolo superiore destro di Adobe Workfront.
+1. Fai clic sull&#39;icona [!UICONTROL **Main Menu**] ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront.
 1. Fai clic su [!UICONTROL **Schede orario**].
 1. Vai alla scheda orario in cui desideri inserire un commento e fai clic su [!UICONTROL **Scheda orario**] nel pannello a sinistra.
 1. Fai clic sulla riga di un&#39;attività o di un problema, quindi fai clic su [!UICONTROL **Apri riepilogo**].

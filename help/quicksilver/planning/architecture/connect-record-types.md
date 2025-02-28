@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '2303'
+source-wordcount: '2344'
 ht-degree: 1%
 
 ---
@@ -59,9 +59,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
    <li><p> Adobe Workfront Planning<p></li>
-   <li><p> Adobe Experience Manager Assets, se si desidera collegare le risorse AEM con i tipi di record Planning<p>
+   <li><p> Adobe Experience Manager Assets, se si desidera collegare le risorse AEM ai tipi di record Planning<p>
    <p>Devi disporre di una licenza Adobe Experience Manager Assets e di un’integrazione tra AEM Assets e Workfront.
-    Per informazioni, vedere <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront per Experience Manager Assets e Assets Essentials: indice articolo</a>. </p>
+    Per informazioni, consulta <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p>
    </li>
    </ul></td> 
   </tr>   
@@ -201,20 +201,22 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      >Se nell&#39;area di lavoro selezionata non sono presenti altri tipi di record, la sezione area di lavoro non viene visualizzata.
 
 
-   * Tipo di record di un&#39;altra area di lavoro configurata per la connessione da altre aree di lavoro. Per informazioni, vedere [Modifica tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md).
-
-     ![](assets/new-connection-allow-multiple-records-box.png)
+   * Tipo di record di un&#39;altra area di lavoro configurata per la connessione da altre aree di lavoro.
 
      >[!TIP]
      >
-     >Se non sono presenti tipi di record configurati per la connessione da altre aree di lavoro, la sezione area di lavoro non viene visualizzata.
+     >L&#39;impostazione **Connetti da altre aree di lavoro** deve essere abilitata per un tipo di record nella scheda **Impostazioni avanzate** della casella **Modifica tipo di record** affinché un tipo di record sia accessibile da altre aree di lavoro. Se non sono presenti tipi di record configurati per la connessione da altre aree di lavoro, la sezione area di lavoro non viene visualizzata.
+     > ![Scheda Impostazioni avanzate della casella Modifica tipo di record](assets/edit-record-type-box-advanced-settings-tab.png)
 
+     Per informazioni, vedere [Modifica tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md).
+
+     ![](assets/new-connection-allow-multiple-records-box.png)
 
    * **Progetto, Portfolio, Programma, Società** o **Gruppo** dalla sezione **Tipi di oggetti di Workfront**.
 
      ![](assets/workfront-project-connection-selection.png)
 
-   * **Experience Manager Assets** dalla sezione **Adobe Applications**.
+   * **Experience Manager Assets** dalla sezione **Applicazioni Adobe**.
 
      ![](assets/aem-assets-connection-selection.png)
 
@@ -267,7 +269,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
    > È necessario creare moduli personalizzati in Workfront per gli oggetti selezionati prima che vengano visualizzati in questo elenco.
 
-1. (Condizionale) Se hai selezionato di connetterti a Experience Manager Assets, seleziona un archivio dal menu a discesa **Experience Manager repository** nella sezione **Collega risorse dal seguente archivio**. Questo campo è obbligatorio. In questo campo vengono visualizzati solo gli archivi a cui hai accesso in Experience Manager Assets.
+1. (Condizionale) Se hai selezionato di connetterti a Experience Manager Assets, seleziona un archivio dal menu a discesa **Archivio Experience Manager** nella sezione **Collega risorse dal seguente archivio**. Questo campo è obbligatorio. In questo campo vengono visualizzati solo gli archivi a cui hai accesso in Experience Manager Assets.
 
    >[!NOTE]
    >
