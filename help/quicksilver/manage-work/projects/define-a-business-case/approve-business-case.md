@@ -5,9 +5,9 @@ description: Dopo aver completato e sottomesso il Business Case per una richiest
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Quando si approva un caso di business di un progetto, considera quanto segue:
 * Per verificare che i progetti siano in attesa di approvazione, è necessario passare manualmente ai singoli progetti che richiedono l&#39;approvazione del Business Case. Non esiste un meccanismo di notifica Workfront che avvisa gli utenti che devono approvare il Business Case di un progetto.
 * È possibile trovare i progetti in attesa dell&#39;approvazione del Business Case creando un report di progetto o accedendo al portfolio a cui sono associati.
 
-  Per ulteriori informazioni sui Portfoli, vedere l&#39;articolo [Panoramica sui Portfoli in Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+  Per ulteriori informazioni sui portafogli, vedere l&#39;articolo [Panoramica di Portfolio in Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## Approvare il Business Case creando un report di progetto
 
@@ -86,7 +86,7 @@ Per creare un report per i progetti in attesa di approvazione dei relativi casi 
 
 1. (Facoltativo) Fai clic su **Aggiungi un&#39;altra regola filtro**.
 
-   Puoi aggiungere altri filtri per mostrare solo i progetti di cui sei il proprietario del progetto, lo sponsor del progetto o il proprietario del Portfolio.
+   Puoi aggiungere altri filtri per mostrare solo i progetti di cui sei il proprietario del progetto, lo sponsor del progetto o il proprietario di Portfolio.
 
    Ad esempio, puoi utilizzare le seguenti istruzioni di filtro:
 
@@ -106,7 +106,7 @@ Per creare un report per i progetti in attesa di approvazione dei relativi casi 
    Project Portfolio Owner ID Equals $$USER. ID
    ```
 
-   per visualizzare il punto in cui si è designati come manager del Portfolio.
+   per visualizzare la posizione in cui si è designati come Portfolio Manager.
 
 1. Fai clic su **Salva+Chiudi**.
 
@@ -116,7 +116,7 @@ Per creare un report per i progetti in attesa di approvazione dei relativi casi 
 1. Fai clic su **Business Case** nel pannello a sinistra.
 1. Fare clic su **Approva** o **Rifiuta** nell&#39;area Riepilogo caso di business per approvare o rifiutare il caso di business.
 
-   ![](assets/business-case-summary-with-rp-information--1-.png)
+   ![Caso di studio](assets/business-case-summary-with-rp-information--1-.png)
 
    Lo stato del progetto viene modificato in **Approvato** se il Business Case viene approvato.
 
