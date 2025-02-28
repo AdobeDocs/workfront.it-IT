@@ -6,9 +6,9 @@ description: Puoi importare progetti da Microsoft Project ad Adobe Workfront e g
 author: Alina
 feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '512'
 ht-degree: 1%
 
 ---
@@ -98,14 +98,14 @@ Puoi creare un progetto dall’area Progetti nel Menu principale oppure dall’a
 1. Accedi a Workfront.
 1. Esegui una delle operazioni seguenti:
 
-   * Fai clic sul **menu principale** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Workfront oppure sul **menu principale** ![](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro. Se disponibile, fai clic su **Progetti**, quindi espandi **Nuovo progetto**.
+   * Fai clic sull&#39;icona **Main Menu** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Workfront oppure fai clic su **Main Menu** ![Main Menu lines](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibile, fai clic su **Projects**, quindi espandi **New Project**.
    * Vai a un portfolio, quindi espandi **Nuovo progetto**.
    * Vai a un programma, quindi espandi **Nuovo progetto**.
    * Se sei un amministratore gruppo, puoi anche creare un progetto nella sezione Progetti di un gruppo che gestisci. Per ulteriori informazioni, vedere [Creare e modificare i progetti di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
 1. Scegliere l&#39;opzione **Importa MS Project**.
 
-   ![](assets/new-project-dropdown-nwe-350x358.png)
+   ![Menu a discesa Nuovo progetto](assets/new-project-dropdown-nwe-350x358.png)
 
 1. Fai clic su **Seleziona file**, quindi cerca il file .xml sul computer che hai esportato da Microsoft Project.
 1. Importa il file selezionato.
