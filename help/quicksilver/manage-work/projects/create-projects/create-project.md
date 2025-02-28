@@ -6,9 +6,9 @@ description: Un progetto è una grande unità di lavoro in Adobe Workfront. Puoi
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1390'
 ht-degree: 1%
 
 ---
@@ -204,7 +204,7 @@ Considera quanto segue:
 
    Per ulteriori informazioni sull&#39;aggiunta di attività a un progetto, vedere [Creare attività in un progetto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Modificare i dettagli del progetto facendo clic sul menu **Altro** e quindi su **Modifica** ![](assets/qs-edit-icon.png) accanto al nome del progetto.
+1. Modificare i dettagli del progetto facendo clic sul menu **Altro** e quindi sull&#39;icona **Modifica** ![Modifica](assets/qs-edit-icon.png) accanto al nome del progetto.
 
    Viene visualizzata la finestra di dialogo **Modifica progetto**.
 
