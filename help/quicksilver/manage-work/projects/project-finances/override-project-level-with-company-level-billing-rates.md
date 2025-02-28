@@ -6,9 +6,9 @@ description: Sostituisci tariffe di fatturazione a livello di progetto con tarif
 author: Lisa
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '476'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ Quando una società è associata a un progetto e questa opzione è abilitata, le
 Quando un utente ricalcola manualmente i dati finanziari sul progetto, vengono applicate eventuali modifiche alle tariffe di fatturazione della società. Anche i calcoli dei ricavi storici vengono sostituiti a meno che non vengano contrassegnati come fatturati.
 
 1. Vai a un progetto.
-1. Fai clic sul menu **Altro** ![](assets/qs-more-icon-on-an-object.png) accanto al nome del progetto nell&#39;intestazione, quindi fai clic su **Modifica**.
+1. Fai clic sul menu **Altro** ![Altro menu](assets/qs-more-icon-on-an-object.png) accanto al nome del progetto nell&#39;intestazione, quindi fai clic su **Modifica**.
 1. Nella sezione **Finanza**, abilita **Consenti tariffe di fatturazione a livello di società per sostituire le tariffe di fatturazione a livello di progetto**.
 
    >[!CAUTION]
@@ -103,4 +103,4 @@ Dopo aver abilitato l&#39;opzione di sostituzione delle tariffe di fatturazione 
    * Progetto singolo:
 
       1. Vai al progetto per il quale hai abilitato la sostituzione delle tariffe di fatturazione a livello di società.
-      1. Fai clic sul menu **Altro** ![](assets/qs-more-icon-on-an-object.png) accanto al nome del progetto nell&#39;intestazione, quindi fai clic su **Ricalcola dati finanziari**.
+      1. Fai clic sul menu **Altro** ![Altro menu](assets/qs-more-icon-on-an-object.png) accanto al nome del progetto nell&#39;intestazione, quindi fai clic su **Ricalcola dati finanziari**.
