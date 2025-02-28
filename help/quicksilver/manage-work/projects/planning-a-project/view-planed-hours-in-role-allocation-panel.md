@@ -6,9 +6,9 @@ description: È possibile visualizzare l'allocazione dei ruoli per tutte le mans
 author: Alina
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '471'
 ht-degree: 1%
 
 ---
@@ -100,7 +100,7 @@ Devi avere i seguenti:
 
 ## Visualizza le ore pianificate per il progetto nel pannello Allocazione ruoli
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Progetti**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Projects**.
 1. Fai clic sul nome di un progetto per accedervi. Viene visualizzata la pagina Progetto.
 1. Fai clic su una delle seguenti opzioni nel pannello a sinistra:
 
