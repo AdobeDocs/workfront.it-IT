@@ -7,9 +7,9 @@ description: Come metrica delle prestazioni, la stima al completamento (CES) rap
 author: Lisa
 feature: Work Management
 exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -140,4 +140,4 @@ Costo preventivato totale lavoro eseguito = somma del campo Costo preventivato t
 
    Il valore EAC viene visualizzato nel campo **Stima al completamento**.
 
-   ![](assets/eac-highlighted-on-project-350x112.png)
+   ![EAC sul progetto](assets/eac-highlighted-on-project-350x112.png)
