@@ -7,10 +7,10 @@ description: Il Riepilogo consente di interagire con informazioni importanti dir
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 3%
+source-wordcount: '418'
+ht-degree: 2%
 
 ---
 
@@ -56,11 +56,11 @@ Devi avere i seguenti:
 ## Aprire la visualizzazione Riepilogo
 
 1. Vai all&#39;area **Documenti** e seleziona un elemento nell&#39;elenco.
-1. Fare clic sull&#39;icona **Apri riepilogo** ![](assets/qs-summary-in-new-toolbar-small.png).
+1. Fai clic sull&#39;icona **Apri riepilogo** ![Apri riepilogo](assets/qs-summary-in-new-toolbar-small.png).
 
    Dopo aver aperto il riepilogo, rimane aperto mentre si fa clic su altri documenti e rimane aperto fino a quando non viene chiuso manualmente.
 
-   ![](assets/summary-details-350x585.png)
+   ![Dettagli riepilogo](assets/summary-details-350x585.png)
 
 ## Dettagli
 
@@ -69,19 +69,19 @@ Utilizza la sezione Dettagli per visualizzare informazioni generali di alto live
 * [Panoramica](#overview)
 * [Moduli personalizzati](#custom-forms)
 
-![](assets/copy-of-doc-summary-details-section-350x404.png)
+![Dettagli riepilogo documento](assets/copy-of-doc-summary-details-section-350x404.png)
 
 ### Panoramica {#overview}
 
 Espandi la sezione Panoramica per visualizzare o scaricare una miniatura di immagine, aprire una bozza, aggiornare la descrizione di base, estrarre il documento e altro ancora.
 
-![](assets/copy-of-doc-summary-with-overview-350x560.png)
+![Panoramica riepilogo documenti](assets/copy-of-doc-summary-with-overview-350x560.png)
 
 ### Moduli personalizzati {#custom-forms}
 
 Utilizza la sezione Forms personalizzato per aggiungere, modificare o visualizzare i moduli personalizzati associati al documento. Iniziare a digitare il nome del modulo personalizzato per aggiungerlo al documento. Per ulteriori informazioni, vedere [Aggiungere o modificare un modulo personalizzato in un documento](../../documents/managing-documents/add-custom-form-documents.md).
 
-![](assets/add-custom-form-doc-summary-350x265.png)
+![Aggiungere un modulo personalizzato nel riepilogo del documento](assets/add-custom-form-doc-summary-350x265.png)
 
 ## Aggiornamenti
 
@@ -98,7 +98,7 @@ Utilizzare la sezione Approvazioni per richiedere l&#39;approvazione di un docum
 * [Approvazione del lavoro](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Richiedere le approvazioni dei documenti](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![Approvazioni riepilogo documenti](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## Versioni
 
@@ -110,4 +110,4 @@ Utilizzare la sezione Versioni per visualizzare il numero di versioni create per
 * Vai a Dettagli documento
 * Eliminare una bozza o un documento
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![Versioni di riepilogo documenti](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
