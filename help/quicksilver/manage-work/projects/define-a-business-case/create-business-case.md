@@ -1,20 +1,20 @@
 ---
 navigation-topic: business-case-and-scorecards
 title: Creare un Business Case per un progetto
-description: È possibile utilizzare il Business Case per richiedere un progetto e definirne lo scopo, il budget e il vantaggio potenziale. Il Responsabile di Portfolio o lo Sponsor del progetto utilizza le informazioni del Business Case per analizzare e assegnare la priorità al progetto prima che venga approvato.
+description: È possibile utilizzare il Business Case per richiedere un progetto e definirne lo scopo, il budget e il vantaggio potenziale. Portfolio Manager o lo sponsor del progetto utilizza le informazioni del Business Case per analizzare e assegnare la priorità al progetto prima che venga approvato.
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
 
 # Creare un Business Case per un progetto
 
-È possibile utilizzare il Business Case per richiedere un progetto e definirne lo scopo, il budget e il vantaggio potenziale. Il Responsabile di Portfolio o lo Sponsor del progetto utilizza le informazioni del Business Case per analizzare e assegnare la priorità al progetto prima che venga approvato.
+È possibile utilizzare il Business Case per richiedere un progetto e definirne lo scopo, il budget e il vantaggio potenziale. Portfolio Manager o lo sponsor del progetto utilizza le informazioni del Business Case per analizzare e assegnare la priorità al progetto prima che venga approvato.
 
 ## Requisiti di accesso
 
@@ -54,13 +54,13 @@ Quando si richiede un progetto tramite un Business Case, tenere presente quanto 
 
   Per informazioni sulle aree del Business Case, vedere l&#39;articolo [Panoramica delle aree del Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
-* Se si desidera che il progetto riceva un punteggio nell&#39;Ottimizzatore Portfolio, è necessario completare tutte le aree del Business Case, ad eccezione dell&#39;area Obiettivi. Il completamento dell’area Obiettivi è facoltativo. Il progetto riceve un punteggio nell’Ottimizzatore Portfolio, anche se questa area non è stata completata.
+* Se si desidera che il progetto riceva un punteggio in Portfolio Optimizer, è necessario completare tutte le aree del Business Case, ad eccezione dell&#39;area Obiettivi. Il completamento dell’area Obiettivi è facoltativo. Il progetto riceve un punteggio in Portfolio Optimizer, anche se questa area non è stata completata.
 
-  Per informazioni sull&#39;utilizzo delle scorecard e dell&#39;ottimizzatore di Portfolio, vedere l&#39;articolo [Applicare una scorecard a un progetto e generare un punteggio di allineamento](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
+  Per informazioni sull&#39;utilizzo delle scorecard e di Portfolio Optimizer, vedere l&#39;articolo [Applicare una scorecard a un progetto e generare un punteggio di allineamento](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
 ## Creazione di un Business Case
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale**, quindi fai clic su **Progetti**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png), quindi fai clic su **Projects**.
 1. Fai clic su **Nuovo progetto** e seleziona **Richiedi progetto**.\
    Per impostazione predefinita, il progetto si trova nello stato **Idea**.
 
@@ -69,7 +69,7 @@ Quando si richiede un progetto tramite un Business Case, tenere presente quanto 
    >Se lo stato Idea è stato eliminato nell’istanza di Workfront, il progetto viene posto nello stato predefinito per i nuovi progetti, come definito nell’area Preferenze progetto. Per informazioni sulla configurazione delle preferenze di progetto, vedere [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 1. Specifica un nome per il progetto, quindi premi Invio.
-1. (Facoltativo) Fai clic sull&#39;icona **Altro** ![](assets/qs-more-icon-on-an-object.png), quindi **Allega modello**, per creare la struttura funzionale del progetto.
+1. (Facoltativo) Fai clic sull&#39;icona **Altro** ![Altro icona](assets/qs-more-icon-on-an-object.png), quindi **Allega modello**, per creare la struttura funzionale del progetto.
 
    Oppure
 
