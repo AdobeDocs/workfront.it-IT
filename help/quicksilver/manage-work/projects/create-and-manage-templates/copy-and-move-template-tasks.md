@@ -6,9 +6,9 @@ description: È possibile copiare o spostare un'attività modello nello stesso m
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '2128'
+source-wordcount: '2140'
 ht-degree: 3%
 
 ---
@@ -87,9 +87,9 @@ Quando si spostano le attività modello, considera quanto segue:
 1. Esegui una delle operazioni seguenti:
    * Fare clic sul nome di un&#39;attività modello per aprirla.
    * Selezionare una o più attività modello nell&#39;elenco.
-1. (Condizionale) Fai clic sul menu **Altro** ![](assets/more-icon.png) nella parte superiore dell&#39;elenco delle attività modello o a destra del nome dell&#39;attività modello se hai aperto l&#39;attività, quindi fai clic su **Copia in** o **Copia**, a seconda di dove accedi all&#39;opzione Copia da.
+1. (Condizionale) Fai clic sull&#39;icona ![Altro **del menu** Altro](assets/more-icon.png) nella parte superiore dell&#39;elenco delle attività modello o a destra del nome dell&#39;attività modello se hai aperto l&#39;attività, quindi fai clic su **Copia in** o **Copia**, a seconda di dove accedi all&#39;opzione Copia da.
 Viene visualizzata la casella Copia attività modello (Copy Template Task).
-   ![](assets/copy-template-task-box-unshimmed.png)
+   ![Casella attività modello Copu](assets/copy-template-task-box-unshimmed.png)
 1. (Facoltativo) Rinomina l&#39;attività modello nel campo **Nome attività modello**.
 
    >[!TIP]
@@ -210,9 +210,9 @@ Viene visualizzata la casella Copia attività modello (Copy Template Task).
 1. Esegui una delle operazioni seguenti:
    * Fare clic sul nome di un&#39;attività modello per aprirla.
    * Selezionare una o più attività modello nell&#39;elenco.
-1. (Facoltativo) Fai clic sul menu **Altro** ![](assets/more-icon.png) nella parte superiore dell&#39;elenco delle attività modello o a destra del nome dell&#39;attività modello se hai aperto l&#39;attività, quindi fai clic su **Sposta in** o **Sposta**, a seconda di dove accedi all&#39;opzione Sposta da.
+1. (Facoltativo) Fai clic sull&#39;icona ![Altro **del menu** Altro](assets/more-icon.png) nella parte superiore dell&#39;elenco delle attività modello o a destra del nome dell&#39;attività modello se hai aperto l&#39;attività, quindi fai clic su **Sposta in** o **Sposta**, a seconda di dove accedi all&#39;opzione Sposta da.
 Viene visualizzata la casella Sposta attività modello (Move Template Task).
-   ![](assets/move-template-task-box-unshimmed.png)
+   ![Sposta casella attività modello](assets/move-template-task-box-unshimmed.png)
 
 1. (Facoltativo) Rinomina l&#39;attività modello nel campo **Nome attività modello**.
 
