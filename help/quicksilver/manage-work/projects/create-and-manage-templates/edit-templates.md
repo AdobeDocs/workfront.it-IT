@@ -6,9 +6,9 @@ description: È possibile modificare i modelli di progetto per riflettere le mod
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '4809'
+source-wordcount: '4854'
 ht-degree: 2%
 
 ---
@@ -71,7 +71,7 @@ Editing a template differs depending on what environment you choose.
 
 1. Go to the template you want to edit.
 1. (Conditional) To edit limited information about the template,  click **Template Details** in the left panel, then go to the areas listed in the left panel to edit information for each area. 
-1. To edit information in the Details section, click the **Edit** icon ![](assets/edit-icon.png), then select from any of the areas below, or click **Edit all** to edit information in all areas:
+1. To edit information in the Details section, click the **Edit** icon ![Edit icon](assets/edit-icon.png), then select from any of the areas below, or click **Edit all** to edit information in all areas:
 
    * Overview
    * Custom Forms
@@ -84,7 +84,7 @@ Editing a template differs depending on what environment you choose.
    >
    >For information about all fields that display in the Details area, continue with editing all fields using the Edit Template box below.
 
-1. (Conditional) To edit all information about the template, click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the name of the template, then click **Edit**.
+1. (Conditional) To edit all information about the template, click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png) next to the name of the template, then click **Edit**.
 
    The **Edit Template** box opens. The sections in this box contain the same fields available in  the Template Details section .
 
@@ -105,7 +105,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Overview**.
 
-   ![](assets/edit-template-overview-with-tasks-and-issues-350x210.png)
+   ![Edit template overview](assets/edit-template-overview-with-tasks-and-issues-350x210.png)
 
 1. Update the following fields:
 
@@ -204,7 +204,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Finance**.
 
-   ![](assets/edit-template-finance-with-tasks-and-issues-350x259.png)
+   ![Edit template finance](assets/edit-template-finance-with-tasks-and-issues-350x259.png)
 
 1. Update the following fields:
 
@@ -250,7 +250,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Portfolio**.
 
-   ![](assets/edit-template-portfolio-with-tasks-and-issues-350x228.png)
+   ![Edit template portfolio](assets/edit-template-portfolio-with-tasks-and-issues-350x228.png)
 
 1. Update the following fields:
 
@@ -283,7 +283,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Settings**.
 
-   ![](assets/edit-template-settings-with-tasks-and-issues-350x336.png)
+   ![Edit template settings](assets/edit-template-settings-with-tasks-and-issues-350x336.png)
 
 1. Update the following fields: 
 
@@ -411,7 +411,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Access**.
 
-   ![](assets/edit-template-access-with-tasks-and-issues-350x241.png)
+   ![Edit template access](assets/edit-template-access-with-tasks-and-issues-350x241.png)
 
    The Access you specify for your template will become the Access of users associated with the project when the template is used to create a project.
 
@@ -488,7 +488,7 @@ For information about how these settings affect creating new tasks, see [Create 
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Tasks**.
 
-   ![](assets/edit-template-with-tasks-and-issue-sections-350x144.png)
+   ![Edit template tasks](assets/edit-template-with-tasks-and-issue-sections-350x144.png)
 
 1. In the **Task Default Approval Process** box, select the Approval Process you want to associate with all new tasks when you add them to a project created from this template. You must create an Approval Process for tasks before you can associate it with tasks. Only active approval processes display in the list. For more information about creating Approval Processes, see [Creating Approval Processes](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 1. In the **Task Default Custom Forms** box, select the custom form or forms that you want to associate with all new tasks when you add them to a project created from this template. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. You can associate up to ten custom forms with a task.
@@ -516,7 +516,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Issues**.
 
-   ![](assets/edit-template-box-with-issues-nwe-350x171.png)
+   ![Edit template issues](assets/edit-template-box-with-issues-nwe-350x171.png)
 
 1. (Optional) Deselect the **Allow users to add issues inline** option. It is enabled by default.
 
@@ -565,7 +565,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 1. Passa al modello da modificare.
 1. (Condizionale) Per modificare informazioni limitate sul modello, fai clic su **Dettagli modello** nel pannello a sinistra, quindi vai alle aree elencate nel pannello a sinistra per modificare le informazioni per ogni area.
-1. Per modificare le informazioni nella sezione Dettagli, fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png), quindi seleziona una delle aree seguenti oppure fai clic su **Modifica tutto** per modificare le informazioni in tutte le aree:
+1. Per modificare le informazioni nella sezione Dettagli, fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png), quindi seleziona una delle aree seguenti oppure fai clic su **Modifica tutto** per modificare le informazioni in tutte le aree:
 
    * Panoramica
    * Moduli personalizzati
@@ -578,7 +578,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    >
    >Per informazioni su tutti i campi visualizzati nell&#39;area Dettagli, continuare a modificare tutti i campi utilizzando la casella Modifica modello di seguito.
 
-1. (Condizionale) Per modificare tutte le informazioni sul modello, fai clic sul menu **Altro** ![](assets/qs-more-icon-on-an-object.png) accanto al nome del modello, quindi fai clic su **Modifica**.
+1. (Condizionale) Per modificare tutte le informazioni sul modello, fai clic sul menu **Altro** ![Altro](assets/qs-more-icon-on-an-object.png) accanto al nome del modello, quindi fai clic su **Modifica**.
 
    Viene visualizzata la casella **Modifica modello**. Le sezioni di questa casella contengono gli stessi campi disponibili nella sezione Dettagli modello .
 
@@ -612,7 +612,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. Inizia a modificare il modello come descritto in precedenza.
 1. Nella casella **Modifica modello** fare clic su **Panoramica**.
 
-   ![](assets/edit-template-box-overview-section.png)
+   ![Modifica casella modello](assets/edit-template-box-overview-section.png)
 
 1. Aggiorna i campi seguenti:
 
@@ -710,7 +710,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. Inizia a modificare il modello come descritto in precedenza.
 1. Nella casella **Modifica modello** fare clic su **Finanza**.
 
-   ![](assets/edit-template-box-finance-section.png)
+   ![Modifica finanziamento casella modello](assets/edit-template-box-finance-section.png)
 
 1. Aggiorna i campi seguenti:
 
@@ -766,7 +766,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. Inizia a modificare il modello come descritto in precedenza.
 1. Nella casella **Modifica modello** fare clic su **Forms personalizzato**.
 
-   ![](assets/edit-template-box-custom-forms-section.png)
+   ![Modifica moduli personalizzati della casella modello](assets/edit-template-box-custom-forms-section.png)
 
    I nomi dei moduli personalizzati già allegati al modello vengono visualizzati nel pannello a sinistra.
 
@@ -793,7 +793,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. Inizia a modificare il modello come descritto in precedenza.
 1. Nella casella **Modifica modello** fare clic su **Impostazioni progetto**.
 
-   ![](assets/edit-template-box-project-settings-section.png)
+   ![Modifica impostazioni casella modello](assets/edit-template-box-project-settings-section.png)
 
 1. Aggiorna i campi seguenti:
 
@@ -925,7 +925,7 @@ Per informazioni sull&#39;effetto di queste impostazioni sulla creazione di nuov
 1. Inizia a modificare il modello come descritto in precedenza.
 1. Nella casella **Modifica modello** fare clic su **Impostazioni attività**.
 
-   ![](assets/edit-template-box-tax-settings-section.png)
+   ![Modifica impostazioni attività casella modello](assets/edit-template-box-tax-settings-section.png)
 
 1. Nella casella **Processo di approvazione predefinito attività** selezionare il processo di approvazione che si desidera associare a tutte le nuove attività quando si aggiungono a un progetto creato da questo modello. È necessario creare un processo di approvazione per le attività prima di associarlo alle attività. Nell&#39;elenco vengono visualizzati solo i processi di approvazione attivi. Per ulteriori informazioni sulla creazione di processi di approvazione, vedere [Creazione di processi di approvazione](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 1. Nella casella **Forms personalizzato predefinito attività** selezionare il modulo o i moduli personalizzati che si desidera associare a tutte le nuove attività quando vengono aggiunti a un progetto creato da questo modello. Devi creare i moduli personalizzati prima che siano disponibili per la selezione in questo campo. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). È possibile associare fino a dieci moduli personalizzati a un&#39;attività.
@@ -953,7 +953,7 @@ Modificando le impostazioni dei problemi, puoi impedire agli utenti di aggiunger
 1. Inizia a modificare il modello come descritto in precedenza.
 1. Nella casella **Modifica modello** fare clic su **Impostazioni problema**.
 
-   ![](assets/edit-template-box-issue-settings-section.png)
+   ![Modifica impostazioni problemi casella modello](assets/edit-template-box-issue-settings-section.png)
 
 1. (Facoltativo) Deseleziona l&#39;opzione **Consenti agli utenti di aggiungere problemi in linea**. È attivata per impostazione predefinita.
 
@@ -980,7 +980,7 @@ Modificando le impostazioni dei problemi, puoi impedire agli utenti di aggiunger
 1. Inizia a modificare il modello come descritto in precedenza.
 1. Nella casella **Modifica modello** fare clic su **Accesso**.
 
-   ![](assets/edit-template-box-access-section.png)
+   ![Modifica accesso alla casella modello](assets/edit-template-box-access-section.png)
 
    L’accesso specificato per il modello diventerà l’accesso degli utenti associati al progetto quando il modello viene utilizzato per creare un progetto.
 
@@ -1055,7 +1055,7 @@ Per istruzioni sulla modifica delle cartelle collegate, vedere [Modificare i val
 
 Per modificare i modelli in blocco:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront.
 
 1. Fare clic su **Modelli**.
 1. Seleziona diversi modelli nell’elenco.
@@ -1063,7 +1063,7 @@ Per modificare i modelli in blocco:
 
    Viene visualizzata la finestra di dialogo **Modifica modelli**.
 
-   ![](assets/edit-templates-in-bulk-box-nwe-350x327.png)
+   ![Modifica modelli](assets/edit-templates-in-bulk-box-nwe-350x327.png)
 
 1. Fai clic sulle sezioni a sinistra per modificare tutti i modelli selezionati.
 
@@ -1130,12 +1130,12 @@ I modelli disattivati non influiscono sui progetti esistenti creati utilizzando 
 
 Per disattivare un modello:
 
-1. Vai a un modello attivo, quindi fai clic sul menu **Altro** ![](assets/qs-more-icon-on-an-object.png) accanto al nome del modello, quindi fai clic su **Disattiva**.
+1. Vai a un modello attivo, quindi fai clic sul menu **Altro** ![Icona altro](assets/qs-more-icon-on-an-object.png) accanto al nome del modello, quindi fai clic su **Disattiva**.
 
-   ![](assets/deactivate-template-link-in-more-menu.png)
+   ![Disattiva modello](assets/deactivate-template-link-in-more-menu.png)
 
    Il modello non è più attivo e gli utenti non possono più trovarlo per creare progetti da esso.
-1. (Facoltativo) Per attivare il modello, fai clic sul menu **Altro** ![](assets/qs-more-icon-on-an-object.png) accanto al nome del modello, quindi fai clic su **Attiva**.
+1. (Facoltativo) Per attivare il modello, fai clic sul menu **Altro** ![Icona Altro](assets/qs-more-icon-on-an-object.png) accanto al nome del modello, quindi fai clic su **Attiva**.
 
    Il modello è ora attivo e può essere allegato ai progetti o utilizzato per crearli.
 
