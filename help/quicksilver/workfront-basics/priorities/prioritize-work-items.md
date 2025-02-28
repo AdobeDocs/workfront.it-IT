@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 1%
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ In Priorità vengono visualizzati gli elementi di lavoro assegnati all&#39;utent
    | **Normale** | Normale è per gli elementi di lavoro di routine su cui lavorerai dopo il completamento degli elementi Urgenti e ad alta priorità. Questa è l&#39;impostazione predefinita per le attività e i problemi. |
    | **Basso** | Basso è per gli elementi di lavoro che non richiedono attenzione immediata e che possono essere differiti fino al completamento di tutti gli elementi di lavoro con priorità più alta. |
 
-   ![](assets/my-focus-new.png)
+   ![Stato attivo](assets/my-focus-new.png)
 
    >[!TIP]
    >
