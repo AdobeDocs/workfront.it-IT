@@ -7,9 +7,9 @@ description: Il valore BCWP (Costo preventivato del lavoro eseguito, Budgeted Co
 author: Lisa
 feature: Work Management
 exl-id: 203709a7-e522-4875-b3eb-40b967a938ec
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '594'
 ht-degree: 2%
 
 ---
@@ -77,7 +77,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. Vai a un progetto ed espandi **Dettagli progetto** nel pannello a sinistra.
 1. Nell&#39;area **Finance** individuare il campo **Metodo indice prestazioni** e fare doppio clic per modificarlo.
 
-   ![](assets/pim-options-hour-cost-based-nwe.png)
+   ![Opzioni PIM](assets/pim-options-hour-cost-based-nwe.png)
 
 1. Selezionare una delle opzioni seguenti:
 
@@ -125,7 +125,7 @@ BCWP = 25% x $10,000 = $2,500
 1. Fai clic su **Aggiungi colonna**.
 1. Nel campo **Mostra in questa colonna:** inizia a digitare **BCWP** e fai clic su per selezionarlo quando viene visualizzato nell&#39;elenco.
 
-   ![](assets/bcwp-project-view.png)
+   ![BCWP in visualizzazione progetto](assets/bcwp-project-view.png)
 
 1. Fai clic su **Salva vista**.
 1. Nella visualizzazione viene visualizzato il campo BCWP.
