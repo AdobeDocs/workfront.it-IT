@@ -6,9 +6,9 @@ description: Il processo di creazione e gestione delle spese è lo stesso sia pe
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '544'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td>Autorizzazioni Contribute o superiori per il progetto con autorizzazioni per visualizzare o gestire le finanze</td> 
+   <td>Contribuire o accedere ad autorizzazioni superiori per il progetto con autorizzazioni di visualizzazione o gestione delle finanze</td> 
   </tr> 
  </tbody> 
 </table>
@@ -74,7 +74,7 @@ Viene visualizzata la finestra di dialogo **Aggiungi una spesa**.
    * **Importo effettivo:** L&#39;importo del costo effettivo della spesa.\
      Questo incide sul Costo Reale del progetto.
 
-   * **Data pianificata:** la data prevista per l&#39;esecuzione della spesa. È possibile digitare la data nel campo utilizzando il formato *mm/gg/aa* oppure fare clic sull&#39;icona del calendario  ![](assets/calendar-icon.png) e selezionare la data in modo dinamico.
+   * **Data pianificata:** la data prevista per l&#39;esecuzione della spesa. È possibile digitare la data nel campo utilizzando il formato *mm/gg/aa* oppure fare clic sull&#39;icona del calendario  ![Icona Calendario](assets/calendar-icon.png) e selezionare la data in modo dinamico.
 
    * **Data di pagamento:** La data in cui è stata pagata la spesa.
    * **Fatturabile:** Selezionare questa opzione se si desidera fatturare la spesa. La classificazione di una spesa come fatturabile è importante quando si creano i record di fatturazione.
