@@ -6,9 +6,9 @@ description: È possibile aggiungere un modulo personalizzato a un documento o a
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '334'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ Per aggiungere un modulo personalizzato a un documento:
 1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
 1. Trovare il documento necessario.
 
-1. Fai clic sull&#39;icona ![](assets/summary-panel-icon.png) di **Riepilogo**, quindi individua la sezione **Dettagli**.
+1. Fai clic sull&#39;icona **Riepilogo** ![Icona Riepilogo](assets/summary-panel-icon.png), quindi individua la sezione **Dettagli**.
 1. Nella casella **Aggiungi modulo personalizzato** iniziare a digitare e selezionare un modulo personalizzato. Il modulo viene salvato automaticamente nel documento.
 
    >[!NOTE]
@@ -73,8 +73,8 @@ Per aggiungere un modulo personalizzato a un documento:
 1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
 1. Trovare il documento necessario.
 
-1. Fai clic sull&#39;icona ![](assets/summary-panel-icon.png) di **Riepilogo**, quindi individua la sezione **Dettagli** accanto alla parte superiore.
+1. Fai clic sull&#39;icona **Riepilogo** ![Icona Riepilogo](assets/summary-panel-icon.png), quindi individua la sezione **Dettagli** nella parte superiore.
 1. Fai clic su **Modifica** nell&#39;angolo superiore destro, quindi espandi il modulo desiderato.
 1. Apporta le modifiche necessarie, quindi fai clic su **Salva**.
 
-   ![](assets/edit-custom-form-350x265.png)
+   ![Modifica modulo personalizzato](assets/edit-custom-form-350x265.png)
