@@ -6,9 +6,9 @@ description: È possibile contrassegnare un’attività o un problema come compl
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Autorizzazioni Contribute o superiori per le attività e i problemi su cui devi lavorare</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Autorizzazioni per contribuire o superiore alle attività e ai problemi su cui devi lavorare</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,21 +58,21 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Contrassegnare un elemento di lavoro come completato nel widget Il mio lavoro
 
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
 1. (Condizionale) Fai clic su **Personalizza** per aggiungere il widget **Il mio lavoro**.
 1. Trova l&#39;elemento di lavoro, quindi fai clic su **[!UICONTROL Contrassegna come completato]** sull&#39;elemento di lavoro.
 Per informazioni dettagliate su come potrebbe apparire questo pulsante, vedere [Comprendere le opzioni del pulsante [!UICONTROL Fine]](#understand-the-options-of-the-done-button).
-   ![](assets/my-work-done.png)
+   ![Il mio lavoro è terminato](assets/my-work-done.png)
 
 
 ## Contrassegnare un elemento di lavoro come completato nel pannello Riepilogo
 
 È possibile contrassegnare un elemento di lavoro come completato nel widget Attività personali e Problemi personali utilizzando il pannello Riepilogo.
 
-1. Fai clic sul **[!UICONTROL menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
 1. (Condizionale) Fai clic su **Personalizza** per aggiungere i widget **Le mie attività** o **I miei problemi**.
 1. Passa il puntatore del mouse sull&#39;elemento di lavoro, quindi fai clic sull&#39;icona **Riepilogo**.
-   ![](assets/open-summary-new-home.png)
+   ![Apri riepilogo](assets/open-summary-new-home.png)
 1. Fai clic su **Contrassegna come completato** nella parte superiore del pannello Riepilogo.
 
 
@@ -113,5 +113,5 @@ Se il pulsante Fine è associato a più stati, questi saranno elencati in **Fine
 >
 >In un&#39;attività o in un problema con più assegnatari, ogni utente è responsabile di indicare che la propria assegnazione all&#39;attività o al problema è stata effettivamente completata. Per questo motivo, ogni assegnatario deve fare clic su [!UICONTROL Fine] per mostrare che ha completato il lavoro assegnato all&#39;elemento.
 
-![](assets/done-with-my-part.png)
+![Fine con la mia parte](assets/done-with-my-part.png)
 
