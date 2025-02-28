@@ -7,9 +7,9 @@ description: (Anche se questo può essere aggiunto come domanda frequente, ho la
 author: Alina
 feature: Work Management
 exl-id: 774c103f-8785-4d8b-83e9-a074e6518293
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Se la Modalità di completamento di un progetto è impostata su Manuale, lo stat
 Per aggiornare la modalità di completamento di un progetto a Manuale:
 
 1. Vai al progetto che desideri aggiornare.
-1. Fai clic sull&#39;icona **Altro** ![](assets/more-icon.png) a destra del nome del progetto, quindi fai clic su **Modifica**.
+1. Fai clic sull&#39;icona **Altro** ![Icona Altro](assets/more-icon.png) a destra del nome del progetto, quindi fai clic su **Modifica**.
 1. Fare clic su **Progetto** **Impostazioni**.
 
 1. Individuare il menu a discesa **Modalità di completamento** e selezionare **Manuale**.
