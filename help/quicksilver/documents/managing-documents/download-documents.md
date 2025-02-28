@@ -6,9 +6,9 @@ description: È possibile scaricare documenti da Adobe Workfront singolarmente o
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
-source-git-commit: 060557085c6941fab4ca8df22641679199f5c55b
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
 1. Trovare il documento necessario.
 
-1. Fai clic sull&#39;icona **Scarica selezionati** ![](assets/download-icon.png).
+1. Fai clic sull&#39;icona **Scarica selezionati** ![Scarica selezionati](assets/download-icon.png).
 
 ## Download simultaneo di più documenti
 
@@ -69,6 +69,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >I documenti collegati a Workfront da Box, Dropbox, Google Drive e così via non possono essere scaricati in blocco.
 
 1. (Facoltativo) Selezionare dall&#39;elenco delle cartelle le cartelle contenenti i documenti che si desidera scaricare.
-1. Fare clic sull&#39;icona Scarica selezionati ![](assets/download-icon.png).
+1. Fare clic sull&#39;icona Scarica selezionati ![Icona Scarica selezionati](assets/download-icon.png).
 
    Le cartelle vengono scaricate come file .zip e sono limitate a 4 GB.
