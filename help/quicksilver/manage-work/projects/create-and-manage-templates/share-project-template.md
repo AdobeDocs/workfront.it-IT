@@ -6,9 +6,9 @@ description: Puoi condividere un modello con gli utenti oppure definire come i p
 author: Alina
 feature: Work Management
 exl-id: 99c6b241-a2c9-4b6c-b605-177bbbc3f21a
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '787'
 ht-degree: 2%
 
 ---
@@ -62,10 +62,10 @@ Puoi condividere i modelli con altri utenti utilizzando Condivisione modelli. Qu
 
 Per condividere un modello:
 
-1. Dall&#39;icona ![](assets/main-menu-icon.png) del **menu principale**, fare clic su **Modelli**.
+1. Dall&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png), fare clic su **Templates**.
 
 1. Esegui una delle operazioni seguenti:\
-   Fai clic sul nome di un modello per aprirlo, quindi fai clic sul menu **Altro** ![](assets/qs-more-icon-on-an-object.png), quindi su **Condivisione modelli**.
+   Fai clic sul nome di un modello per aprirlo, quindi fai clic sul menu **Altro** ![Icona Altro](assets/qs-more-icon-on-an-object.png), quindi su **Condivisione modelli**.
 
    Oppure
 
@@ -100,7 +100,7 @@ Con il modello Condivisione progetti, è possibile definire gli utenti con autor
 Per condividere con gli utenti i progetti futuri creati da un modello:
 
 1. Esegui una delle operazioni seguenti:\
-   Fai clic sul nome di un modello per aprirlo, quindi fai clic sul menu **Altro** ![](assets/qs-more-icon-on-an-object.png), quindi su **Condivisione modelli**.
+   Fai clic sul nome di un modello per aprirlo, quindi fai clic sul menu **Altro** ![Icona Altro](assets/qs-more-icon-on-an-object.png), quindi su **Condivisione modelli**.
 
    ![Condividi progetto da modello](assets/project-sharing-on-template-nwe-2022-350x172.png)
 
@@ -119,7 +119,7 @@ Per condividere con gli utenti i progetti futuri creati da un modello:
    * **Nessun accesso**: è possibile specificare quali utenti non avranno accesso al modello.\
      Questa opzione è disponibile solo quando si condividono progetti in blocco da modelli. 
    * **Visualizza**: gli utenti con queste autorizzazioni possono visualizzare i progetti creati dal modello.
-   * **Contribute**: gli utenti con queste autorizzazioni possono contribuire ai progetti creati dal modello 
+   * **Contribuisci**: gli utenti con queste autorizzazioni possono contribuire ai progetti creati dal modello 
    * **Gestisci**: gli utenti con queste autorizzazioni possono gestire o eliminare i progetti creati da questo modello.
 
 1. (Facoltativo) Fai clic sull&#39;icona **Opzioni** per rendere i progetti disponibili a livello di sistema.
