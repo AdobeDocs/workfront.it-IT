@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '268'
 ht-degree: 4%
 
 ---
@@ -68,8 +68,8 @@ Per creare un&#39;attività o un problema in un progetto:
 {{step1-to-priorities}}
 
 1. Fai clic su **Crea nuovo** nell&#39;angolo superiore destro.
-   ![](assets/create-new.png)
-nuova schermata per il prod ![](assets/create-new--.png)
+   ![Crea nuovo](assets/create-new.png)
+nuova schermata per il prodotto ![Crea nuovo (produzione)](assets/create-new--.png)
 1. Specifica le seguenti informazioni:
 
    | Campo | Istruzioni |
