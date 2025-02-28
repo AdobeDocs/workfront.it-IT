@@ -7,9 +7,9 @@ description: Esistono diversi modi per utilizzare le priorità per i progetti e 
 author: Alina
 feature: Work Management
 exl-id: b1e0b6c5-f2a7-455b-836b-6c0ead85e3ad
-source-git-commit: b08edd8dd7c339dffdba4c9ff5aa0a365229e794
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '663'
 ht-degree: 1%
 
 ---
@@ -86,9 +86,9 @@ Di seguito sono riportati i tipi di priorità che è possibile utilizzare per cl
 
   Per ulteriori informazioni, vedere la sezione [Considerazioni sulla priorità del progetto](#considerations-about-project-priority) in questo articolo.
 
-* **Priorità di un progetto in Ottimizzatore Portfolio**, se il progetto è associato a un portfolio:
+* **Priorità di un progetto in Portfolio Optimizer**, se il progetto è associato a un portfolio:
 
-  Per ulteriori informazioni sulla priorità di un progetto in Ottimizzatore Portfolio, vedere nell&#39;articolo [Assegnare priorità ai progetti in Ottimizzatore Portfolio](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
+  Per ulteriori informazioni sulla priorità di un progetto in Portfolio Optimizer, vedi nell&#39;articolo [Assegnare la priorità ai progetti in Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
 * **Priorità di un progetto nella Programmazione delle risorse**: è possibile assegnare manualmente la priorità ai progetti nella Programmazione delle risorse, per indicare quali progetti devono ricevere le risorse per primi.
 
@@ -104,7 +104,7 @@ Quando selezioni una priorità per i progetti, tieni presente quanto segue:
 
   Per ulteriori informazioni sulla creazione di priorità in Workfront, vedere l&#39;articolo [Creare e personalizzare le priorità](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
-* Quando si aggiorna il campo Priorità di un progetto, questa Priorità non viene trasferita nell&#39;Ottimizzatore Portfolio o nella Programmazione risorse. Il campo Priorità del progetto è semplicemente un flag manuale inserito sul progetto per indicarne l’importanza agli altri utenti.
+* Quando si aggiorna il campo Priorità di un progetto, questa Priorità non viene trasferita a Portfolio Optimizer o alla Programmazione delle risorse. Il campo Priorità del progetto è semplicemente un flag manuale inserito sul progetto per indicarne l’importanza agli altri utenti.
 * Il valore Priorità di un progetto viene utilizzato principalmente a scopo di reporting.
 
   Ad esempio, puoi cercare tutti i progetti con priorità Urgente quando utilizzi questo campo in un filtro di progetto.
@@ -119,7 +119,7 @@ Quando selezioni una priorità per i progetti, tieni presente quanto segue:
 
 1. Vai al progetto di cui desideri aggiornare la Priorità.
 1. Fai clic su **Dettagli progetto** nel pannello a sinistra.
-1. Fai clic sull&#39;icona **Modifica** ![](assets/qs-edit-icon.png) nell&#39;angolo superiore destro dell&#39;area Dettagli progetto, quindi fai clic su **Panoramica**.
+1. Fai clic sull&#39;icona **Modifica** ![Modifica](assets/qs-edit-icon.png) nell&#39;angolo superiore destro dell&#39;area Dettagli progetto, quindi fai clic su **Panoramica**.
 
 1. Nel campo **Priorità**, selezionare una delle opzioni seguenti:
 
