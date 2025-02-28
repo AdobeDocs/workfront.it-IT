@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 {{step1-to-priorities}}
 
 1. Fai clic su **Colonne** sul lato destro dello schermo.
-   ![](assets/columns.png)
+   ![Colonne](assets/columns.png)
 1. Utilizzare gli interruttori per attivare o disattivare le colonne nell&#39;elenco lavori.
 
 ### Riordinare le colonne
@@ -77,15 +77,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Fai clic su **Colonne** sul lato destro dello schermo.
 1. Fai clic sull&#39;icona **Trascina** e sposta la colonna nella posizione desiderata. Spostamento automatico degli aggiornamenti delle colonne nell&#39;elenco lavori.
-   ![](assets/reorder-columns.png)
+   ![Riordina colonne](assets/reorder-columns.png)
 
 ### Reimposta larghezze colonne
 
 {{step1-to-priorities}}
 
 1. Fai clic su **Colonne** sul lato destro dello schermo.
-1. Fai clic sull&#39;icona **Altro** ![](assets/more-icon.png) e scegli **Reimposta larghezza colonne**.
-   ![](assets/columns.png)
+1. Fai clic sull&#39;icona **Altro** ![Altro icona](assets/more-icon.png) e scegli **Reimposta larghezza colonne**.
+   ![Colonne](assets/columns.png)
 
 ## Personalizzare le colonne dell’elenco di lavoro Priorità
 
@@ -94,7 +94,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 {{step1-to-priorities}}
 
 1. Fai clic su **Colonne** nella parte sinistra della schermata.
-   ![](assets/columns-new.png)
+   ![Colonne](assets/columns-new.png)
 1. Utilizzare gli interruttori per attivare o disattivare le colonne nell&#39;elenco lavori.
 
 ### Riordinare le colonne
@@ -103,7 +103,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Fai clic su **Colonne** nella parte sinistra della schermata.
 1. Fai clic sull&#39;icona **Trascina** e sposta la colonna nella posizione desiderata. Spostamento automatico degli aggiornamenti delle colonne nell&#39;elenco lavori.
-   ![](assets/reorder-columns-new.png)
+   ![Riordina colonne](assets/reorder-columns-new.png)
 
 >[!NOTE]
 >
