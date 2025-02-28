@@ -6,9 +6,9 @@ description: È possibile creare ed eliminare modelli dall'area Modelli. Durante
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '574'
 ht-degree: 2%
 
 ---
@@ -102,7 +102,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    >
    >Non è possibile modificare le attività direttamente da questo diagramma di Gantt.
 
-1. Per aggiungere informazioni al nuovo modello, fai clic sul menu **Altro** ![](assets/more-icon.png), quindi fai clic su **Modifica**.
+1. Per aggiungere informazioni al nuovo modello, fai clic sul menu **Altro** ![Icona Altro](assets/more-icon.png), quindi fai clic su **Modifica**.
 
    Per informazioni sulla modifica di un modello, vedere [Modifica modelli di progetto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
