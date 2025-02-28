@@ -7,9 +7,9 @@ description: Il CSI (Cost Schedule Performance Index) è un calcolo automatico c
 author: Lisa
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ CSI ha i seguenti tre valori possibili:
 * \>1 = Combinazione programmazione sotto budget
 * &lt;1 = Combinazione di programmi fuori budget
 
-![](assets/csi-highlighted.png)
+![CSI](assets/csi-highlighted.png)
 
 ## Individuare l&#39;indice CSI (Cost Schedule Performance Index)
 
