@@ -7,9 +7,9 @@ description: L'indice delle prestazioni della pianificazione (SPI) descrive il r
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,6 @@ Ad esempio, se si dispone di un progetto con 1 attività e l&#39;attività ha 10
 
    1. Fai clic su **Dettagli attività** nel pannello a sinistra, quindi visualizza l&#39;area **Finanza**.
 
-      ![](assets/spi-on-project-nwe.png)
+      ![SPI nel progetto](assets/spi-on-project-nwe.png)
 
 1. Trova il campo **CPI/ SPI/ CSI**.
