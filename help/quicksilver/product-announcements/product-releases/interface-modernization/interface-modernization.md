@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 491a32e677b913c71396316d365fc1f18750124e
+source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1473'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ Per visualizzare questa modifica, vai a Team > Scegli un team > Iterazioni > Sce
 
 ### Aggiungere storie e problemi a un’iterazione
 
-**Anteprima versione: 6 febbraio 2025; Versione di produzione: da annunciare**
+**Versione di anteprima: 6 febbraio 2025; versione di produzione: a partire dalla settimana del 13 febbraio 2025**
 
 La finestra di dialogo Aggiungi storia e Aggiungi problema è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront.
 
