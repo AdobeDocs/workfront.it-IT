@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '493'
 ht-degree: 1%
 
 ---
@@ -62,7 +62,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 ## Crea modello da progetto
 
 1. Vai al progetto che desideri salvare come modello.
-1. Fai clic sul menu **Altro** ![](assets/qs-more-icon-on-an-object.png), quindi **Salva come modello**.
+1. Fai clic sul menu **Altro** ![Icona Altro](assets/qs-more-icon-on-an-object.png), quindi **Salva come modello**.
 1. Specificare le informazioni seguenti per il modello:
 
    <table style="table-layout:auto"> 
@@ -94,17 +94,17 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Fare clic su **Gestisci Forms** per rimuovere o riordinare i moduli. Per informazioni su come rimuovere e riordinare i moduli personalizzati nel modello, vedere [Moduli personalizzati](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
-   ![](assets/save-as-template-first-step-350x159.png)
+   ![Salva come modello primo passaggio](assets/save-as-template-first-step-350x159.png)
 
 1. Fai clic su **Passaggio successivo.**
 1. Nella sezione **Opzioni**, seleziona la casella di controllo accanto alle informazioni che desideri cancellare dal modello.
 
-   ![](assets/save-as-template-options-step-350x109.png)
+   ![Opzioni di salvataggio come modello](assets/save-as-template-options-step-350x109.png)
 
 1. Fai clic su **Passaggio successivo.**
 1. Nella sezione **Escludi** selezionare le attività che si desidera escludere dal progetto.
 
-   ![](assets/save-as-template-exclude-350x205.png)
+   ![Salva come modello da escludere](assets/save-as-template-exclude-350x205.png)
 
 1. Fare clic su **Fine e salva modello.**
 
