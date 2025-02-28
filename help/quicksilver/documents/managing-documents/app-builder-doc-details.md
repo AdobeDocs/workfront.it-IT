@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: 04259d63523050d5bd43e5e776c21237e5a5cfe4
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1357'
 ht-degree: 0%
 
 ---
@@ -41,17 +41,17 @@ Devi avere i seguenti:
 
 1. Nella sezione Utenti, fai clic su **Sviluppatori** > **Aggiungi sviluppatori**.
 
-   ![](assets/manage-users-admin-console.png)
+   ![Gestione degli sviluppatori in Admin Console](assets/manage-users-admin-console.png)
 
    >[!NOTE]
    >
-   >Se non trovi un’opzione per la gestione degli sviluppatori, non disponi di un prodotto che consenta l’accesso allo sviluppo. Workfront non fornisce l’accesso agli sviluppatori, ma l’AEM sì. Se non lo vedi, dovremo capire come includere Workfront nell’elenco delle app che consentono agli sviluppatori.
+   >Se non trovi un’opzione per la gestione degli sviluppatori, non disponi di un prodotto che consenta l’accesso allo sviluppo. Workfront non fornisce l’accesso per sviluppatori, ma AEM sì. Se non lo vedi, dovremo capire come includere Workfront nell’elenco delle app che consentono agli sviluppatori.
 
 1. Aggiungi l’e-mail dell’utente. Deve cercare gli utenti esistenti che sono già stati aggiunti dall’Admin Console.
 
 1. Aggiungi i prodotti necessari al profilo sviluppatore e fai clic su **Salva**.
 
-![](assets/add-developer.png)
+![Aggiungi sviluppatore](assets/add-developer.png)
 
 ## Accedere ad AppBuilder
 
@@ -72,7 +72,7 @@ Se AppBuilder è configurato correttamente, dovresti vedere &quot;Crea progetto 
    >
    >Se non trovi questa opzione, significa che in Admin Console non sei configurato correttamente e non hai accesso al catalogo di App Builder. Questa opzione è visibile solo quando si ha accesso ad AppBuilder.
 
-   ![](assets/create-from-template.png)
+   ![Crea progetto da modello](assets/create-from-template.png)
 
 1. Seleziona **App Builder**.
 
@@ -89,7 +89,7 @@ Se AppBuilder è configurato correttamente, dovresti vedere &quot;Crea progetto 
 
 ## CLI Adobe IO (aio)
 
-L’Adobe fornisce una CLI open source che può essere utilizzata per facilitare la creazione delle applicazioni App Builder. La documentazione è disponibile qui: [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) e le istruzioni App Builder di Adobe [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/getting_started/first_app/).
+Adobe fornisce una CLI open source che può essere utilizzata per facilitare la creazione delle applicazioni App Builder. La documentazione è disponibile qui: [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) e le istruzioni di Adobe App Builder [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/getting_started/first_app/).
 
 1. Installazione
    1. Per installare lo strumento (verificare di essere al primo posto sul nodo v18) eseguire: `npm install -g @adobe/aio-cli `.
@@ -102,20 +102,20 @@ L’Adobe fornisce una CLI open source che può essere utilizzata per facilitare
 
 1. Selezione configurazione
    1. Procedi selezionando l’organizzazione e il progetto tra le opzioni fornite.\
-      ![](assets/select-org.png)
-      ![](assets/select-project.png)
+      ![Seleziona organizzazione](assets/select-org.png)
+      ![Seleziona progetto](assets/select-project.png)
 
 1. Selezione e configurazione dei modelli
    1. Sfoglia tutti i modelli disponibili e scegli il modello **@adobe/aem-cf-editor-ui-ext-tpl** per il tuo progetto.
-      ![](assets/search-template.png)
-      ![](assets/select-template.png)
+      ![Modello di ricerca](assets/search-template.png)
+      ![Seleziona modello](assets/select-template.png)
 
 1. Definire L’Estensione
    1. Denomina l’estensione.
    1. Fornisci un riepilogo descrittivo delle funzionalità dell&#39;estensione.
    1. Seleziona un numero di versione iniziale con cui iniziare.
    1. Conferma il completamento selezionando **Fine**.
-      ![](assets/define-extension.png)
+      ![Definisci estensione](assets/define-extension.png)
 
 1. Passa alla cartella del progetto
    1. Accedere alla cartella src
@@ -308,7 +308,7 @@ L’Adobe fornisce una CLI open source che può essere utilizzata per facilitare
           export default Review;
       ```
 
-## Applicazioni Publish
+## Pubblicare le applicazioni
 
 >[!IMPORTANT]
 >
@@ -326,12 +326,12 @@ Per caricare un’applicazione guest in Workfront, è necessario inviarla all’
 1. Trova il progetto utilizzato per creare l’applicazione AppBuilder.
 
 1. Seleziona il Workspace di produzione.
-   ![](assets/find-application.png)
+   ![Seleziona area di lavoro di produzione](assets/find-application.png)
 
 1. Invia l’applicazione per una revisione privata (riceverai avvisi che non stiamo pubblicando nell’app exchange marketplace, il che va bene).
 
 1. Compila il modulo (titolo, descrizione, icona e nota per il revisore).
-   ![](assets/submission-details.png)
+   ![Compila il modulo per la revisione privata](assets/submission-details.png)
 
 >[!IMPORTANT]
 >
@@ -341,14 +341,14 @@ Per caricare un’applicazione guest in Workfront, è necessario inviarla all’
 
 1. Come amministratore di sistema, passa a [https://stage.exchange.adobe.com/](https://stage.exchange.adobe.com/) o [https://exchange.adobe.com/](https://exchange.adobe.com/).
 
-1. Fai clic su **Gestisci** > **Experience Cloud applicazioni**. Dovresti vedere le app inviate con opzioni di approvazione/rifiuto.
+1. Fai clic su **Gestisci** > **Applicazioni Experience Cloud**. Dovresti vedere le app inviate con opzioni di approvazione/rifiuto.
 Una volta approvate, le estensioni dell’applicazione pubblicate devono essere caricate automaticamente nell’ambiente Workfront.
 
-   ![](assets/approve-submission.png)
+   ![Invio approvato](assets/approve-submission.png)
 
 ## Aiuto aggiuntivo
 
-L’Adobe contiene un’ottima documentazione su come iniziare a creare app per AppBuilder e a distribuirle.
+Adobe dispone di un’ottima documentazione su come iniziare a creare e distribuire app per AppBuilder.
 
 Di seguito sono riportati alcuni collegamenti utili:
 
@@ -362,7 +362,7 @@ Di seguito sono riportati alcuni collegamenti utili:
 
 Durante lo sviluppo dell’applicazione App Builder per Workfront, potrebbe essere necessario testare l’app all’interno di Workfront senza pubblicarla. Fortunatamente, abbiamo una soluzione per questo.
 
-Nell&#39;app App Builder puoi avviare `aio app run` per lo sviluppo locale. Questo ti fornirà un URL, in genere qualcosa come `https://localhost:9080`. In alternativa, è possibile eseguire `aio app deploy` per ottenere un dominio di Adobe statico. Assicurati di prendere nota di questi URL per utilizzi futuri.
+Nell&#39;app App Builder puoi avviare `aio app run` per lo sviluppo locale. Questo ti fornirà un URL, in genere qualcosa come `https://localhost:9080`. In alternativa, è possibile eseguire `aio app deploy` per ottenere un dominio Adobe statico. Assicurati di prendere nota di questi URL per utilizzi futuri.
 
 Quindi, passa alla pagina dei dettagli del documento che desideri sviluppare nel browser. Apri gli strumenti per sviluppatori e accedi all’archiviazione locale per workfront.com o workfront.adobe.com. In questo caso, è necessario aggiungere una voce. Utilizza `appBuilderDocDetailsOverride` come chiave e l&#39;URL del generatore di app indicato in precedenza come valore.
 
