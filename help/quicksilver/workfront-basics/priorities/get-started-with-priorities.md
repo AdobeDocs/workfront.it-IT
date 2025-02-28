@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1041'
 ht-degree: 2%
 
 ---
@@ -114,7 +114,7 @@ Dopo aver assegnato i livelli di attivazione agli elementi di lavoro, è possibi
 
 Per ulteriori informazioni, vedere [Assegnare la priorità agli elementi di lavoro importanti](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
-![](assets/worklist.png)
+![Elenco lavori](assets/worklist.png)
 
 ### Utilizzare la vista Calendario
 
@@ -142,7 +142,7 @@ La sezione Aggiornamenti mostra gli aggiornamenti di sistema e fino a 200 degli 
 
 Per ulteriori informazioni, vedere [Aggiungere e visualizzare commenti in Priorità](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md).
 
-![](assets/update-log-upload.png)
+![Aggiorna, registra ora e carica](assets/update-log-upload.png)
 
 ### Registra ore
 
@@ -150,7 +150,7 @@ Per ulteriori informazioni, vedere [Aggiungere e visualizzare commenti in Priori
 
 Per ulteriori informazioni, consulta [Registra tempo in Priorità](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
 
-![](assets/update-log-upload.png)
+![Aggiorna, registra ora e carica](assets/update-log-upload.png)
 
 ### Carica file
 
@@ -163,14 +163,14 @@ Caricare i file direttamente nell’area Documenti dell’attività o del proble
 
 Per ulteriori informazioni, consulta [Caricare i file in Priorities](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md).
 
-![](assets/update-log-upload.png)
+![Aggiorna, registra ora e carica](assets/update-log-upload.png)
 
 
 ### Aggiungi collegamenti rapidi
 
 Puoi incorporare i collegamenti utilizzati di frequente nella pagina dei dettagli dell’elemento di lavoro. I collegamenti rapidi consentono di visitare o copiare rapidamente il collegamento.
 
-![](assets/quick-links.png)
+![Collegamenti rapidi](assets/quick-links.png)
 
 Per ulteriori informazioni, consulta [Aggiungere e gestire collegamenti rapidi in Priorità](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
 
@@ -194,7 +194,7 @@ Utilizza la funzione [!DNL Catch me up] per vedere cosa ti sei perso. Il comando
 
 Per ulteriori informazioni, consulta [Recuperare il lavoro in Priorità](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
-![](assets/catch-me-up.png)
+![Recuperami](assets/catch-me-up.png)
 
 <!--need new screen for prod-->
 
