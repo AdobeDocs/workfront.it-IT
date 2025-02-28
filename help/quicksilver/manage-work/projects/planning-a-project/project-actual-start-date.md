@@ -7,9 +7,9 @@ description: I progetti, le attività e i problemi hanno una data di inizio effe
 author: Alina
 feature: Work Management
 exl-id: 4357b072-24f6-4f89-b624-f066f8af0722
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 Per individuare la data di inizio effettiva nella sezione Dettagli del progetto:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Workfront, quindi fai clic su **Progetti**.
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Workfront, quindi fai clic su **Projects**.
 1. Fare clic sul progetto per il quale si desidera visualizzare la data di inizio effettiva.
 1. Fai clic su **Dettagli progetto** nel pannello a sinistra, quindi vai alla sezione **Panoramica**.
 
