@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -55,12 +55,12 @@ Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, co
 {{step1-to-priorities}}
 
 1. Passa il puntatore del mouse sul nome, quindi fai clic su **Carica**.
-   ![](assets/update-log-upload.png)
+   ![Aggiorna, registra ora e carica](assets/update-log-upload.png)
 1. Seleziona una cartella (facoltativo).
 1. Trascina e rilascia il file o usa Cmd/Ctrl + V per incollarlo dagli Appunti
 o
 Fai clic su **Aggiungi file** per sfogliare i file o importarli da un provider Document Cloud.
-   ![](assets/add-files.png)
+   ![Aggiungi file](assets/add-files.png)
 1. Aggiungi un commento (facoltativo).
 1. Aggiungi altri file (facoltativo).
 
@@ -68,7 +68,7 @@ Fai clic su **Aggiungi file** per sfogliare i file o importarli da un provider D
    >
    >I file aggiuntivi vengono caricati come documenti separati.
 1. Fai clic su **Carica**.
-   ![](assets/upload-file-module.png)
+   ![Carica file](assets/upload-file-module.png)
 
 
 ## Caricare un file in un elemento di lavoro
@@ -81,7 +81,7 @@ Fai clic su **Aggiungi file** per sfogliare i file o importarli da un provider D
 1. Trascina e rilascia il file o usa Cmd/Ctrl + V per incollarlo dagli Appunti
 o
 Fai clic su **Aggiungi file** per sfogliare i file o importarli da un provider Document Cloud.
-   ![](assets/add-files.png)
+   ![Aggiungi file](assets/add-files.png)
 1. Aggiungi un commento (facoltativo).
 1. Aggiungi altri file (facoltativo).
 
@@ -89,4 +89,4 @@ Fai clic su **Aggiungi file** per sfogliare i file o importarli da un provider D
    >
    >I file aggiuntivi vengono caricati come documenti separati.
 1. Fai clic su **Carica**.
-   ![](assets/upload-file-module.png)
+   ![Carica file](assets/upload-file-module.png)
