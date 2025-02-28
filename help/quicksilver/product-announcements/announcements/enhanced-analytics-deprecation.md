@@ -7,9 +7,10 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 10ab6466780d9fe88604bf781c153cde89f1e454
+exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b
+source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ A causa di un utilizzo in calo e di funzionalità limitate, Analytics avanzato d
 
 **Quando?**
 
-* Con la versione 25.2 (febbraio 2025)
+* La settimana del 26 maggio
 
 **Cosa posso usare al suo posto?**
 
@@ -40,7 +41,7 @@ Per ridurre al minimo le interruzioni per te e la tua organizzazione, di seguito
 
 Il nostro primo consiglio è quello di garantire che la tua organizzazione abbia accesso a Workfront Data Connect e di acquisire familiarità con il suo utilizzo il prima possibile. Per ulteriori informazioni sulle funzionalità di connessione dati e su come iniziare a utilizzarla, vedere [Panoramica di connessione dati di Workfront](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
-Data Connect è incluso nel nuovo piano Ultimate e può essere acquistato come componente aggiuntivo ai nuovi piani Select e Prime. Data Connect non è disponibile per le organizzazioni che utilizzano piani Workfront legacy. Contatta il rappresentante del tuo account Workfront per sapere su quale piano si trova attualmente la tua organizzazione e come acquistare Data Connect.
+Connessione dati inclusa nel nuovo piano Ultimate<!--, and can be purchased as an add-on to the new Select and Prime plans-->. Data Connect non è disponibile per le organizzazioni che utilizzano piani Workfront legacy. Contatta il rappresentante del tuo account Workfront per sapere su quale piano si trova attualmente la tua organizzazione e come acquistare Data Connect.
 
 ### Replicare visualizzazioni di analisi avanzate
 
@@ -59,6 +60,7 @@ No, it will be completely removed from the application.
 +++
 
 +++ What do I do if my organization is on a legacy Workfront plan but I want to use Data Connect?
-Contact your account representative about moving to one of the new Workfront plans.
 
+Contact your account representative about moving to one of the new Workfront plans.
++++
 -->

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,6 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Aggiungi un commento ai progetti quando li modifichi nella casella Modifica progetto</a></p>
-            [!BADGE Nuovo nell'anteprima ]{type=Negative}
             <p>È ora possibile aggiungere un commento a un progetto mentre lo si modifica nella casella Modifica progetto. Puoi anche aggiungere un commento a più progetti contemporaneamente quando li modifichi in blocco. Prima di questo aggiornamento, questa funzionalità non esisteva durante la modifica dei progetti.</p>
         </td>
         <td>

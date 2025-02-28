@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,18 @@ Abbiamo aggiornato l’aspetto del Calendario di Workfront a un design moderno c
 * E altro ancora
 
 Per ulteriori informazioni, vedere gli articoli [Calendari](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md).
+
+## Visualizzazione aggiornata del percorso milestone di un progetto in una visualizzazione progetto
+
+>[!NOTE]
+>
+>Versione di anteprima: 27 febbraio 2025; Produzione per rilascio rapido: con la versione 25.3 (marzo 2025); Produzione per rilascio trimestrale: con la versione 25.4 (aprile 2025)
+
+Quando si accede al percorso milestone da un elenco di progetti o da un rapporto, la pagina dei dettagli della milestone ora ha un nuovo aspetto. Per accedere alla pagina dei dettagli del percorso milestone, è necessario aggiungere il campo Nome percorso milestone alla visualizzazione dell&#39;elenco o del report.
+
+Con questo aggiornamento abbiamo anche aggiunto informazioni sui colori e i codici di colore di ogni milestone.
+
+Per informazioni, vedere [Creare un percorso milestone](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 ## Modifiche temporanee alle e-mail dei documenti
 
