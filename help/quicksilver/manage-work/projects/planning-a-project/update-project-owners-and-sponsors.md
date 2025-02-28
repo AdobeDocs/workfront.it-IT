@@ -6,9 +6,9 @@ description: Quando crei un progetto in Adobe Workfront, l’utente viene automa
 author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Quando aggiungi un utente come proprietario del progetto, Workfront assegna auto
 
 1. Vai al progetto che desideri aggiornare.
 1. Fai clic su **Dettagli progetto** nel pannello a sinistra.
-1. Fai clic sull&#39;icona **Modifica** ![](assets/qs-edit-icon.png) nell&#39;angolo superiore destro dell&#39;area Dettagli progetto, quindi fai clic su **Panoramica**.
+1. Fai clic sull&#39;icona **Modifica** ![Modifica](assets/qs-edit-icon.png) nell&#39;angolo superiore destro dell&#39;area Dettagli progetto, quindi fai clic su **Panoramica**.
 
 1. Specifica il nome di un utente per il campo **Proprietario progetto**.
 
@@ -121,7 +121,7 @@ Quando aggiungi un utente come sponsor del progetto di un progetto, Workfront as
 
 1. Vai al progetto che desideri aggiornare.
 1. Fai clic su **Dettagli progetto** nel pannello a sinistra.
-1. Fai clic sull&#39;icona **Modifica** ![](assets/qs-edit-icon.png) nell&#39;angolo superiore destro dell&#39;area Dettagli progetto, quindi fai clic su **Panoramica**.
+1. Fai clic sull&#39;icona **Modifica** ![Modifica](assets/qs-edit-icon.png) nell&#39;angolo superiore destro dell&#39;area Dettagli progetto, quindi fai clic su **Panoramica**.
 
 1. Specificare il nome di un utente per il campo **Sponsor progetto**.
 
