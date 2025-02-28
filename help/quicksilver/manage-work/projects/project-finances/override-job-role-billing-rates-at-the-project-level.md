@@ -6,9 +6,9 @@ description: In qualità di project manager, puoi specificare la tariffa di fatt
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Per sostituire una tariffa di fatturazione per un progetto:
 
 1. Nel campo **Mansione**, selezionare la mansione per la quale si desidera modificare la tariffa di fatturazione.
 
-   ![](assets/override-billing-rate-on-project-nwe-350x310.png)
+   ![Sostituisci tariffa di fatturazione nel progetto](assets/override-billing-rate-on-project-nwe-350x310.png)
 
    Nel campo **Tariffa di fatturazione predefinita** viene visualizzata la tariffa a livello di sistema per questa mansione.
 
