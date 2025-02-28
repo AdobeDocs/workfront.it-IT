@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1453'
 ht-degree: 3%
 
 ---
@@ -63,13 +63,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Oppure
 
-   Fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) nell&#39;angolo superiore destro della sezione Dettagli, quindi fai clic su **Panoramica**. Viene visualizzata l’area Panoramica per la modifica.
+   Fai clic sull&#39;icona **Modifica** ![Modifica](assets/edit-icon.png) nell&#39;angolo superiore destro della sezione Dettagli, quindi fai clic su **Panoramica**. Viene visualizzata l’area Panoramica per la modifica.
 
    >[!NOTE]
    >
    >A seconda del modo in cui l’amministratore di Workfront ha configurato il modello di layout, la sezione Panoramica potrebbe non essere elencata per prima, nel qual caso è compressa. Per informazioni, vedere [Personalizzare la visualizzazione Dettagli utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. (Condizionale) Se è presente un campo specifico che deve essere aggiornato in un progetto ma non è visualizzato in questa sezione, fai clic sul **Altro menu** ![](assets/more-icon.png) accanto al nome del progetto, quindi su **Modifica** per visualizzare altri campi del progetto.
+1. (Condizionale) Se è presente un campo specifico che deve essere aggiornato in un progetto ma non è visualizzato in questa sezione, fai clic sull&#39;icona **Altro menu** ![Altro](assets/more-icon.png) accanto al nome del progetto, quindi su **Modifica** per visualizzare altri campi del progetto.
 
    Per ulteriori informazioni sulla modifica dei progetti, vedere [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 
