@@ -6,9 +6,9 @@ description: Se necessario, puoi aggiornare manualmente lo stato di un progetto 
 author: Alina
 feature: Work Management
 exl-id: 80098514-fd44-436d-836b-bd9c1b52b3a9
-source-git-commit: 7363e86f5c507e40955e16843c6776777c7ad823
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -67,10 +67,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Vai al progetto di cui desideri aggiornare lo stato.
 1. Nell&#39;intestazione del progetto, fai clic sul nome dello stato nel campo **Stato**, quindi seleziona un nuovo stato.
 
-   ![](assets/change-project-status-in-header-drop-down-nwe-350x371.png)
+   ![Modifica stato progetto](assets/change-project-status-in-header-drop-down-nwe-350x371.png)
 
    Oppure
 
-   Fai clic sul menu **Altro** ![](assets/qs-more-menu.png) accanto al nome del progetto, quindi fai clic su **Modifica** e seleziona un nuovo stato nel campo **Stato**, quindi fai clic su **Salva**.
+   Fai clic sul menu **Altro** ![Altro menu](assets/qs-more-menu.png) accanto al nome del progetto, quindi fai clic su **Modifica** e seleziona un nuovo stato nel campo **Stato**, quindi fai clic su **Salva**.
 
    Lo stato del progetto viene aggiornato in base allo stato selezionato.
