@@ -6,10 +6,10 @@ description: Invece di creare un nuovo modello di progetto da zero, puoi copiare
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 3%
+source-wordcount: '335'
+ht-degree: 2%
 
 ---
 
@@ -69,7 +69,7 @@ I seguenti elementi non vengono mai copiati da un progetto esistente a uno nuovo
 ## Copiare un modello
 
 1. Vai al modello da copiare.
-1. Fai clic sul menu **Altro** ![](assets/qs-more-icon-on-an-object.png), quindi fai clic su **Copia**.
+1. Fai clic sull&#39;icona ![Altro **del menu** Altro](assets/qs-more-icon-on-an-object.png), quindi fai clic su **Copia**.
 1. Specificare un nome per il modello nel campo **Nuovo nome modello**.
 
    Per impostazione predefinita, il nuovo nome è **Copia di `<original template name>`.**
