@@ -6,9 +6,9 @@ description: Un utente con diritti di gestione su un documento può spostare il 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Devi avere i seguenti:
 1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
 1. Trovare il documento necessario.
 
-1. Fai clic sull&#39;icona **Sposta** ![](assets/move-document--25x19.png).
+1. Fai clic sull&#39;icona **Sposta** ![Sposta icona](assets/move-document--25x19.png).
 1. Dal menu a discesa nella casella visualizzata, fare clic su **Problema**, **Progetto** o **Attività** per indicare il tipo di oggetto in cui si desidera spostare il documento. 
 
 1. Digitare il nome dell&#39;**Issue**, **Project** o **Task** nella casella di testo.
