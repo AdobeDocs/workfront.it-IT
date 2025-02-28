@@ -6,9 +6,9 @@ description: Un report calendario è un report dinamico che fornisce una rappres
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
-source-git-commit: c88c8dc7431f3bc711ae1942df12925fafa7eff0
+source-git-commit: 40bbb198216b2806154f83730d8afedd5f355a3e
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1104'
 ht-degree: 1%
 
 ---
@@ -205,7 +205,6 @@ Dopo aver impostato la modalità di visualizzazione degli elementi, è necessari
    * **[!UICONTROL Attività]**
    * **[!UICONTROL Progetti]**
    * **[!UICONTROL Problemi]**
-   * **Indisponibilità**
 
 1. Fai clic su **[!UICONTROL Aggiungi attività]**, **[!UICONTROL Aggiungi progetti]**, **[!UICONTROL Aggiungi problemi]** o **Indisponibilità** a seconda del tipo di oggetto che stai aggiungendo al calendario.
 
