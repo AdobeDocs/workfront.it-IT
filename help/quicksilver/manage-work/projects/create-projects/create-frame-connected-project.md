@@ -8,9 +8,9 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1180'
 ht-degree: 1%
 
 ---
@@ -95,7 +95,7 @@ Se si sceglie di creare il progetto da zero, Workfront aggiunge automaticamente 
 
 Passare alla sezione successiva.
 
-![](assets/template-group.png)
+![Gruppo di modelli](assets/template-group.png)
 
 ### Aggiungere attività e assegnare utenti abilitati per Frame.io
 
@@ -105,7 +105,7 @@ Passare alla sezione successiva.
    Oppure
 
    Fai clic su **Nuova attività modello** per aggiungere un&#39;attività alla volta e configurare altre impostazioni.
-   ![](assets/add-tasks-to-template.png)
+   ![Aggiungi attività al modello](assets/add-tasks-to-template.png)
 1. Aggiungi un nome attività.
 1. Nell&#39;area **Assegnazioni**, assegna utenti o team. Se assegnate un utente abilitato Frame.io, singolarmente o in un team, gli verrà concesso l&#39;accesso collaboratore al progetto Frame.io e riceverà una notifica tramite e-mail relativa all&#39;attività nel progetto Frame.io. Da tale e-mail, possono partecipare al progetto Frame.io e iniziare a lavorare.
 1. Ripetere i passaggi 1 e 2 in base alle esigenze.
@@ -133,7 +133,7 @@ Dopo aver creato un modello, puoi utilizzarlo per creare progetti.
 1. Fai clic su **Nuovo progetto dal modello**.
 1. Utilizzando la casella di ricerca, inizia a digitare il nome del modello necessario.
 1. Seleziona il nome del modello, quindi fai clic su **Usa modello**.
-   ![](assets/find-your-template.png)
+   ![Trova il modello](assets/find-your-template.png)
 1. Modifica le impostazioni del progetto in base alle esigenze, quindi fai clic su **Crea progetto**.
 1. Nel pannello a sinistra, fai clic su **Documenti**.
 1. Utilizzare la cartella di sincronizzazione unidirezionale per condividere automaticamente il materiale creativo con Frame.io. [!BADGE In arrivo]{type=Informative}
@@ -176,7 +176,7 @@ Passare alla sezione successiva.
    Oppure
 
    Fai clic su **Nuova attività** per aggiungere un&#39;attività alla volta e configurare altre impostazioni.
-   ![](assets/add-project-tasks.png)
+   ![Nuova attività](assets/add-project-tasks.png)
 1. Aggiungi un nome attività.
 1. Nell&#39;area **Assegnazioni**, assegna utenti o team. Se assegnate un utente abilitato Frame.io, singolarmente o in un team, gli verrà concesso l&#39;accesso collaboratore al progetto Frame.io e riceverà una notifica tramite e-mail relativa all&#39;attività nel progetto Frame.io. Da tale e-mail, possono partecipare al progetto Frame.io e iniziare a lavorare.
 1. Ripetere i passaggi 1 e 2 in base alle esigenze.
