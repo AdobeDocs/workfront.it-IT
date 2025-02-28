@@ -1,20 +1,20 @@
 ---
 navigation-topic: business-case-and-scorecards
 title: Creare obiettivi di business case
-description: Durante la creazione di un caso di business, puoi creare una serie di obiettivi per definire gli obiettivi di un progetto. Gli obiettivi del caso di business vengono utilizzati per comunicare al manager del Portfolio o allo sponsor del progetto lo scopo di completare un progetto.
+description: Durante la creazione di un caso di business, puoi creare una serie di obiettivi per definire gli obiettivi di un progetto. Gli obiettivi del caso di business vengono utilizzati per comunicare al manager Portfolio o allo sponsor del progetto lo scopo di completare un progetto.
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '494'
 ht-degree: 1%
 
 ---
 
 # Creare obiettivi di business case
 
-Durante la creazione di un caso di business, puoi creare una serie di obiettivi per definire gli obiettivi di un progetto. Gli obiettivi del caso di business vengono utilizzati per comunicare al manager del Portfolio o allo sponsor del progetto lo scopo di completare un progetto.
+Durante la creazione di un caso di business, puoi creare una serie di obiettivi per definire gli obiettivi di un progetto. Gli obiettivi del caso di business vengono utilizzati per comunicare al manager Portfolio o allo sponsor del progetto lo scopo di completare un progetto.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: below snippet: NWE only, not classic)</p>
@@ -31,9 +31,9 @@ Quando crei gli obiettivi del caso di business per i tuoi progetti, tieni presen
 
 * Gli obiettivi non sono una sezione obbligatoria nel Business Case di un progetto.
 
-  Un progetto può ricevere un punteggio da assegnare come priorità nell’Ottimizzatore Portfolio, anche se la sezione Obiettivi del caso di business non è definita.
+  Un progetto può ricevere un punteggio da assegnare in base alla priorità in Portfolio Optimizer, anche se la sezione Obiettivi del caso di business non è definita.
 
-  Per ulteriori informazioni sul punteggio di Portfolio Optimizer, vedi [Applicare una scorecard a un progetto e generare un punteggio di allineamento](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
+  Per ulteriori informazioni sul punteggio di Portfolio Optimizer, vedere [Applicare una scorecard a un progetto e generare un punteggio di allineamento](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
 * Non è possibile creare rapporti sugli obiettivi del caso di business.
 
@@ -75,7 +75,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Viene visualizzato il Business Case (Caso di business).
 
-   ![](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
+   ![Informazioni sul caso di business](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
 
 1. Nella sezione **Obiettivi**, fai clic su **Modifica obiettivi**.
 
@@ -88,7 +88,7 @@ Nel menu a discesa **Importance**, seleziona il livello di importanza:
    * Basso
    * Il più basso
 
-     ![](assets/g1-350x76.png)
+     Importanza(assets/g1-350x76.png)
 
      Non è possibile personalizzare i livelli di importanza degli obiettivi.
 
