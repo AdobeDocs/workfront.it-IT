@@ -6,9 +6,9 @@ description: Puoi utilizzare i modelli come framework per creare progetti in Ado
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -65,14 +65,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader">Livello di accesso</td> 
    <td> <p>Modificare l’accesso a progetti e modelli</p>
 
-<p>modificare l'accesso a Portfoli e programmi, se il modello utilizzato contiene un Portfolio e un programma</p>
+<p>modificare l'accesso a portafogli e programmi, se il modello utilizzato contiene un Portfolio e un programma</p>
 
 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
    <td> <p>Visualizzare le autorizzazioni per un modello</p> 
-  <p>Se il modello utilizzato contiene un Portfolio e un programma, è necessario disporre delle autorizzazioni di gestione per il portfolio e il programma per la creazione del progetto </p> 
+  <p>Se il modello utilizzato contiene un Portfolio e un programma, è necessario disporre delle autorizzazioni di gestione per il portfolio e il programma per creare il progetto </p> 
    <p>Quando crei un progetto, ricevi automaticamente le autorizzazioni di gestione per il progetto.</p></td> 
   </tr> 
  </tbody> 
@@ -97,13 +97,13 @@ Puoi creare un progetto dall’area Progetti nel Menu principale oppure dall’a
 
      >[!TIP]
      >
-     >Quando si crea un progetto utilizzando un modello di un portfolio, il campo Portfolio del nuovo progetto viene aggiornato in modo da visualizzare il portfolio da cui si è scelto di creare il progetto. In questo modo viene sovrascritto il campo Portfolio del modello, se specificato.
+     >Quando crei un progetto utilizzando un modello di un portfolio, il campo Portfolio del nuovo progetto viene aggiornato in modo da visualizzare il portfolio da cui hai scelto di creare il progetto. In questo modo viene sovrascritto il campo Portfolio del modello, se specificato.
 
    * Vai a un programma, quindi espandi **Nuovo progetto**.
 
      >[!TIP]
      >
-     >Quando si crea un progetto utilizzando un modello di un programma, il campo Programma dei nuovi progetti viene aggiornato in modo da visualizzare il programma dal quale si è scelto di creare il progetto. Il campo Portfolio del modello viene aggiornato in modo da visualizzare il portfolio del programma da cui hai scelto di creare il progetto. In questo modo vengono sovrascritti i campi Programma e Portfolio del modello, se specificati.
+     >Quando si crea un progetto utilizzando un modello di un programma, il campo Programma dei nuovi progetti viene aggiornato in modo da visualizzare il programma dal quale si è scelto di creare il progetto. Il campo Portfolio del modello viene aggiornato per visualizzare il portfolio del programma da cui hai scelto di creare il progetto. In questo modo vengono sovrascritti i campi Programma e Portfolio del modello, se specificati.
 
    * Se sei un amministratore gruppo, puoi anche creare un progetto nella sezione Progetti di un gruppo che gestisci. Per ulteriori informazioni, vedere [Creare e modificare i progetti di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
@@ -137,7 +137,7 @@ Puoi creare un progetto dall’area Progetti nel Menu principale oppure dall’a
       * Numero di tutte le attività nel modello
       * Nomi dei moduli personalizzati del modello
 
-   1. (Facoltativo) Passa il puntatore del mouse sul nome di un modello nel riquadro di sinistra e fai clic sull&#39;icona **Preferiti** **![](assets/favorites-icon-small.png) di** Preferiti per contrassegnarlo come preferito per un utilizzo futuro.
+   1. (Facoltativo) Passa il puntatore del mouse sul nome di un modello nel riquadro di sinistra e fai clic sull&#39;icona **Preferiti** **icona** ![Preferiti](assets/favorites-icon-small.png) per contrassegnarlo come preferito per un utilizzo futuro.
 
       Oppure
 
@@ -175,7 +175,7 @@ Invece di iniziare dall’area Progetti, puoi creare un progetto da un modello i
 {{step1-to-templates}}
 
 1. Fare clic sul nome del modello che si desidera utilizzare.
-1. Fai clic sul menu **Altro** ![](assets/more-icon.png), quindi fai clic su **Crea progetto**.
+1. Fai clic sul menu **Altro** ![Icona Altro](assets/more-icon.png), quindi fai clic su **Crea progetto**.
 
    ![Crea progetto da modello](assets/project-sharing-on-template.png)
 
