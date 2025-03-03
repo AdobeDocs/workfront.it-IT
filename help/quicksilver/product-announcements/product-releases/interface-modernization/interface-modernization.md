@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
+source-git-commit: 2d38448bf7da12b8f896d444d560f746e0e9798f
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,14 @@ Per tutte le altre modifiche apportate ad Adobe Workfront, vedi [Versioni del pr
 
 ## Amministrazione e configurazione
 
+### Aggiornamento dell&#39;interfaccia per il Centro notifiche
+
+**Anteprima versione: 27 febbraio 2025; da annunciare**
+
+Il Centro annunci è stato aggiornato con un design più moderno, coerente con le altre aree di Workfront.
+
+Per visualizzare questa modifica, vai all’icona Notifiche in alto a destra, quindi scegli Tutti gli annunci.
+
 ### Aggiornamento dell’interfaccia per personalizzare gli argomenti delle notifiche degli eventi
 
 **Anteprima versione: 13 febbraio 2025; a partire dalla settimana del 13 febbraio 2025**
@@ -34,7 +42,7 @@ Per visualizzare questa modifica, vai a Configurazione > E-mail > Notifiche > No
 
 ### Aggiornamento dell’interfaccia per l’area Team
 
-**Anteprima versione: 13 febbraio 2025; Versione di produzione: da annunciare**
+**Versione di anteprima: 13 febbraio 2025; versione di produzione: a partire dalla settimana del 20 febbraio 2025**
 
 L&#39;area Team è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront.
 
@@ -136,7 +144,7 @@ Questo aggiornamento include modifiche visive all’area. Nessuna funzionalità 
 
 ### Pagina Panoramica dell’aggiornamento dell’interfaccia per le iterazioni
 
-**Anteprima versione: 13 febbraio 2025; Versione di produzione: da annunciare**
+**Versione di anteprima: 13 febbraio 2025; versione di produzione: a partire dalla settimana del 20 febbraio 2025**
 
 La pagina Panoramica iterazioni è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront.
 
