@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: d02e781be70b34a77e8c780cc29c7a234dd62e68
+source-git-commit: 77cc1acde87b2ada96117daa06e98ba38e64fa8a
 workflow-type: tm+mt
-source-wordcount: '13010'
+source-wordcount: '13018'
 ht-degree: 2%
 
 ---
@@ -428,7 +428,7 @@ ht-degree: 2%
          * [Gestire le aziende](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
          * [Gestire le appartenenze a società](administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
          * [Disattivare o riattivare un’azienda](administration-and-setup/set-up-workfront/organizational-setup/deactivate-a-company.md)
-         * [Ruolo](administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)
+         * [Mansione](administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)
          * [Creare e gestire le mansioni](administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
          * [Elimina mansioni](administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md)
          * [Disattiva mansioni](administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)
@@ -2145,6 +2145,7 @@ ht-degree: 2%
       * [Aggiungere un messaggio e-mail di Outlook come attività all&#39;elenco di lavoro](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-as-task-to-your-work-list.md)
       * [Visualizza informazioni aggiuntive su Adobe Workfront per Outlook e disconnetti](workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
       * [Abilitare Outlook per Office per l&#39;utilizzo con Adobe Workfront e SAML 2.0](workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
+      * [Risoluzione dei problemi: errore outlookIdentityToken durante l’utilizzo di Workfront per Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/troubleshooting-outlookidentitytoken-error.md)
    * Adobe Workfront per Microsoft Teams {#workfront-for-microsoft-teams}
       * [[!DNL Adobe Workfront for Microsoft Teams]: indice articolo](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
       * [Panoramica di Adobe Workfront per Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)

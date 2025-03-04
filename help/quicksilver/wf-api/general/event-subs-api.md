@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
+source-git-commit: f469147947715dd1bae2718565cd521fa8bc6e96
 workflow-type: tm+mt
 source-wordcount: '2407'
 ht-degree: 3%
@@ -452,11 +452,11 @@ La possibilità di aggiornare o effettuare il downgrade degli abbonamenti agli e
 
 Per ulteriori informazioni sul controllo delle versioni delle sottoscrizioni di eventi, incluse differenze specifiche tra la versione e le date importanti, vedere [Controllo delle versioni delle sottoscrizioni di eventi](/help/quicksilver/wf-api/general/event-subs-versioning.md).
 
-### Modifica della versione di un singolo abbonamento
-
 >[!NOTE]
 >
 >Quando aggiorni o esegui il downgrade dell’abbonamento a un’altra versione, ricevi eventi duplicati per ogni consegna di eventi per una finestra di cinque minuti dopo la modifica della versione. I duplicati includono uno per ogni abbonamento all’evento versione 1 e versione 2. In questo modo non si perde nessun evento a causa della modifica della versione dell’abbonamento all’evento.
+
+### Modifica della versione di un singolo abbonamento
 
 La sintassi della richiesta per modificare la versione di una singola sottoscrizione è la seguente:
 
