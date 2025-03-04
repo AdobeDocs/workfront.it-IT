@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '3249'
+source-wordcount: '3332'
 ht-degree: 1%
 
 ---
@@ -200,13 +200,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >Oppure
    >Fare clic su **Connetti record** (se il campo è vuoto) per aggiungere record dal record o dal tipo di oggetto connesso.
    >
-   >![](assets/connect-records-from-record-page-field.png)
+   >![Connetti record dal campo pagina record](assets/connect-records-from-record-page-field.png)
 
 1. (Facoltativo) Fai clic su **Visualizza tutti** per visualizzare tutti i record.
 
 1. (Condizionale) Se hai fatto clic su **Visualizza tutti** nel passaggio precedente, viene visualizzata la casella **Connetti oggetti**.
 
-   ![](assets/connected-objects-table-for-records.png)
+   ![Tabella oggetti connessi per i record](assets/connected-objects-table-for-records.png)
 
 1. Iniziare a digitare il nome di un record nella casella di ricerca, quindi selezionarlo quando viene visualizzato nell&#39;elenco
 
@@ -282,7 +282,7 @@ Dopo aver creato una connessione tra un tipo di record e un tipo di oggetto Work
 
    Se hai fatto clic su **Visualizza tutti** nel passaggio precedente, viene visualizzata la casella **Connetti oggetti**.
 
-   ![](assets/connect-objects-box-to-select-projects.png)
+   ![Connetti la casella degli oggetti per selezionare i progetti](assets/connect-objects-box-to-select-projects.png)
 
 1. Inizia a digitare il nome di un oggetto Workfront nella casella di ricerca, quindi selezionalo quando viene visualizzato nell’elenco
 
@@ -359,7 +359,7 @@ Per collegare i record con le risorse di Experience Manager:
 
    Viene visualizzata la casella **Seleziona Assets**. <!--we might change this to Connect assets-->
 
-   ![](assets/select-assets-box-for-aem-record-connections.png)
+   ![Casella di selezione risorse per le connessioni record di AEM](assets/select-assets-box-for-aem-record-connections.png)
 
 1. Fai clic su per selezionare alcuni dei seguenti tipi di risorse:
 
@@ -389,7 +389,7 @@ Per collegare i record con le risorse di Experience Manager:
 
 1. (Facoltativo) Vai al tipo di record da cui hai collegato Experience Manager Assets e fai clic sul nome di una risorsa nel campo del record collegato. I dettagli Experience Manager della risorsa vengono visualizzati in una finestra a comparsa.
 
-   ![](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
+   ![Finestra popup della risorsa con dettagli e miniatura di AEM](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 
    Per un file di immagine vengono visualizzati i seguenti campi:
 
@@ -403,7 +403,7 @@ Per collegare i record con le risorse di Experience Manager:
    * Data di creazione
    * Data modificata
 
-1. (Facoltativo) Per aprire la pagina record di Experience Manager Assets in Experience Manager, vai alla pagina tipo di record del record da cui stai effettuando il collegamento, fai clic sul nome di una risorsa nel campo record collegato per aprire la finestra a comparsa, quindi fai clic sull&#39;icona **Apri in AEM** ![](assets/open-asset-icon.png) per aprire la risorsa.
+1. (Facoltativo) Per aprire la pagina dei record di Experience Manager Assets in Experience Manager, vai alla pagina del tipo di record del record da cui stai effettuando il collegamento, fai clic sul nome di una risorsa nel campo del record collegato per aprire la finestra a comparsa, quindi fai clic sull&#39;icona **Apri in AEM** ![Apri risorsa in AEM icona](assets/open-asset-icon.png) per aprire la risorsa.
 
    Verrà aperta la risorsa Experience Manager in Adobe Experience Manager Assets.
 
@@ -424,7 +424,7 @@ Per collegare i record con le risorse di Experience Manager:
 1. Fare clic sul nome di un record.
 
    Viene visualizzata la pagina di anteprima.
-1. (Facoltativo) Fai clic sull&#39;icona ![](assets/open-details-in-a-new-tab-icon.png) di **Apri in una nuova scheda** per aprire la pagina del record.
+1. (Facoltativo) Fai clic sull&#39;icona **Apri in una nuova scheda** ![Apri i dettagli in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) per aprire la pagina del record.
 1. Fare clic sulla scheda **Connessioni** nell&#39;anteprima o nella pagina del record.
 
    ![Scheda Connessioni nel record di Workfront Planning](assets/connections-tab-on-record-in-workfront-planning.png)
@@ -449,24 +449,15 @@ Per collegare i record con le risorse di Experience Manager:
    Per ulteriori informazioni, vedere la sezione &quot;Creare record durante la connessione da altri record&quot; nell&#39;articolo [Creare record](/help/quicksilver/planning/records/create-records.md).
 1. Seguire i passaggi descritti nelle sezioni precedenti per connettere i record da Workfront Planning o gli oggetti da Workfront o Experience Manager Assets.
 I record e gli oggetti vengono aggiunti immediatamente.
-1. (Facoltativo) Passa il puntatore del mouse sulla scheda connessa di un record o di un oggetto, quindi fai clic sull&#39;icona **Disconnetti record** ![](assets/disconnect-icon-with-tooltip.png) per disconnetterlo dal record selezionato.
+1. (Facoltativo) Passa il puntatore del mouse sulla scheda connessa di un record o di un oggetto, quindi fai clic sull&#39;icona **Disconnetti record** ![Disconnetti record](assets/disconnect-icon-with-tooltip.png) per disconnetterlo dal record selezionato.
 
-   ![](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
+   ![Icona Disconnetti record con descrizione comando nella scheda connessioni](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 
    Il record viene immediatamente disconnesso da tutte le aree di Workfront Planning o da altre applicazioni in cui potrebbe essere visualizzato come connesso. Vengono rimossi anche eventuali valori dei campi di ricerca.
 
-## Connetti record da oggetti Workfront
-
-Per connettere i record di Workfront Planning dagli oggetti di Workfront, è necessario disporre delle seguenti informazioni:
-
-* Connessioni tra tipi di record e tipi di oggetto Workfront stabiliti in Workfront Planning.
-* L&#39;amministratore del Workfront o del gruppo deve aggiungere la sezione Pianificazione ai progetti, ai portfolio e ai programmi Workfront nel modello di layout.
-
-Per ulteriori informazioni, vedere [Gestire i record nella sezione Pianificazione degli oggetti Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
-
 <div class="preview">
 
-## Collegare i record dalla scheda Visualizzazione connessione nella pagina dei dettagli di un record
+### Collegare i record dalla scheda Visualizzazione connessione nella pagina dei dettagli di un record
 
 <!--section needs title edit when they rename the "Connection view" page type-->
 
@@ -485,3 +476,22 @@ Per ulteriori informazioni, vedere [Gestire i record nella sezione Pianificazion
 1. (Facoltativo) Se non riesci a trovare un record connesso, fai clic su **+ Aggiungi** per crearlo e connetterlo.
 
 </div>
+
+## Connetti record da oggetti Workfront
+
+Per connettere i record di Workfront Planning dagli oggetti di Workfront, è necessario disporre delle seguenti informazioni:
+
+* Connessioni tra tipi di record e tipi di oggetto Workfront stabiliti in Workfront Planning.
+* L&#39;amministratore del Workfront o del gruppo deve aggiungere uno degli elementi seguenti a un tipo di oggetto Workfront:
+
+   * La sezione Pianificazione dei progetti, dei portfolio e dei programmi Workfront nel modello di layout.
+
+   * Il campo personalizzato Connessioni di Planning a un modulo personalizzato per uno dei seguenti oggetti:
+
+      * Progetto
+      * Portfolio
+      * Programma
+      * Gruppo
+      * Azienda
+
+  Per ulteriori informazioni, vedere [Gestire i record nella sezione Pianificazione degli oggetti Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

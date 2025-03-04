@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 22a1525658f4ba60d638d5080f8c178fcf500441
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -54,10 +54,11 @@ Per informazioni su come connettere i record tra loro o a un altro oggetto, vede
    * Campi record collegati nella vista tabella di un tipo di record in Planning.
    * L&#39;anteprima o la pagina del record nei campi del record collegato nella scheda Dettagli.
    * L&#39;anteprima o la pagina del record nella scheda Connessioni.
+   * <span class="preview">Pagina del record in una scheda della visualizzazione Connessione di un record connesso.</span>
 
-* È possibile collegare oggetti Workfront ai record di Workfront Planning nelle aree seguenti:
+* È possibile collegare oggetti Workfront ai record di Workfront Planning nelle seguenti aree di Workfront:
 
-   * Dalla sezione Planning di un oggetto Workfront.
-   * <span class="preview">Da un campo di connessione Planning nel modulo personalizzato di un oggetto Workfront. </span>
+   * La sezione Planning di un oggetto Workfront.
+   * <span class="preview">Campo di connessione Planning nel modulo personalizzato di un oggetto Workfront. </span>
 
   Per informazioni, vedere [Gestire le connessioni record dagli oggetti Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md)

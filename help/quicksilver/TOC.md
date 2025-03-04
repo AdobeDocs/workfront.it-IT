@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 77cc1acde87b2ada96117daa06e98ba38e64fa8a
+source-git-commit: c9a5ba9a35bddfc45756cf04cd1a3da9d7a3105f
 workflow-type: tm+mt
-source-wordcount: '13018'
+source-wordcount: '13041'
 ht-degree: 2%
 
 ---
@@ -2017,6 +2017,7 @@ ht-degree: 2%
       * [Creare aree di lavoro](planning/architecture/create-workspaces.md)
       * [Panoramica sui tipi di record](planning/architecture/overview-of-record-types.md)
       * [Crea tipi di record](planning/architecture/create-record-types.md)
+      * [Creare tipi di record importando informazioni da un file CSV o Excel](planning/architecture/import-file-to-create-record-types.md)
       * [Panoramica sulla connessione dei tipi di record](planning/architecture/connect-record-types-overview.md)
       * [Connetti tipi di record](planning/architecture/connect-record-types.md)
       * [Modifica tipi di record](planning/architecture/edit-record-types.md)
@@ -2045,6 +2046,7 @@ ht-degree: 2%
    * Record di Adobe Workfront Planning {#adobe-workfront-planning-records}
       * [Record: indice articolo](planning/records/records-information.md)
       * [Crea record](planning/records/create-records.md)
+      * [Creare record importando informazioni da un file CSV o Excel](planning/records/import-file-to-create-records.md)
       * [Panoramica sui record collegati](planning/records/connected-records-overview.md)
       * [Connetti record](planning/records/connect-records.md)
       * [Modifica record](planning/records/edit-records.md)

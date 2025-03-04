@@ -1,14 +1,14 @@
 ---
-title: "Architettura: indice degli articoli"
+title: 'Architettura: indice degli articoli'
 description: Nei seguenti articoli viene descritto come configurare l'architettura di Adobe Workfront Planning. Come parte di questa configurazione, è possibile imparare a creare aree di lavoro, tipi di record e campi personalizzati per mappare i flussi di lavoro che si desidera gestire in Workfront Planning.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,7 @@ Gli articoli nelle sezioni seguenti descrivono come configurare le aree di lavor
 * [Elenco dei modelli di Workspace](/help/quicksilver/planning/architecture/workspace-templates.md)
 * [Panoramica sui tipi di record](/help/quicksilver/planning/architecture/overview-of-record-types.md)
 * [Crea tipi di record](/help/quicksilver/planning/architecture/create-record-types.md)
+* [Creare tipi di record importando informazioni da un file CSV o Excel](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md)
 * [Modifica tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md)
 * [Panoramica sui tipi di record collegati](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
 * [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md)
