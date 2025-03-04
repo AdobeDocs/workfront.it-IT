@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: 3e082ddde7cb84fb8bf3b5a23c363fd3b4cfe3d2
+source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1192'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,9 @@ La nuova versione non è una modifica all’API Workfront, ma piuttosto una modi
 
 La possibilità di aggiornare o effettuare il downgrade degli abbonamenti agli eventi assicura che, quando vengono apportate modifiche alla struttura degli eventi, gli abbonamenti esistenti non si interrompano, consentendo di testare e aggiornare alla nuova versione senza interruzioni nell’abbonamento agli eventi.
 
+
+Quando aggiorni o esegui il downgrade dell’abbonamento a un’altra versione, ricevi eventi duplicati per ogni consegna di eventi per una finestra di cinque minuti dopo la modifica della versione. I duplicati includono uno per ogni abbonamento all’evento versione 1 e versione 2. In questo modo non si perde nessun evento a causa della modifica della versione dell’abbonamento all’evento.
+
 Per informazioni sugli endpoint utilizzati per l&#39;aggiornamento o il downgrade delle sottoscrizioni di eventi, vedere [Controllo delle versioni delle sottoscrizioni di eventi](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) nell&#39;articolo API delle sottoscrizioni di eventi.
 
 >[!IMPORTANT]
@@ -30,6 +33,7 @@ Per informazioni sugli endpoint utilizzati per l&#39;aggiornamento o il downgrad
 >
 >* **Versione 25.2** (10 aprile 2025): tutte le nuove sottoscrizioni create dopo la versione 25.2 vengono create come versione 2.
 >* **Versione 25.3** (17 luglio 2025): non è più possibile effettuare il downgrade delle sottoscrizioni alla versione 1 dopo la versione 25.3.
+>* **1 settembre 2025**: tutte le sottoscrizioni della versione 1 rimanenti sono state migrate alla versione 2.
 
 ## Modifiche tra versione 1 e versione 2
 

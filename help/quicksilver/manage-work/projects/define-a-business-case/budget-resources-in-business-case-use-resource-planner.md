@@ -5,9 +5,9 @@ description: Come parte della pianificazione delle risorse, è possibile utilizz
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
+source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -108,11 +108,11 @@ Per applicare i gruppi di risorse e le risorse del progetto di budget nel Busine
 
    * Selezionare Pianificazione risorse nel campo **Scegliere le ore da utilizzare per calcolare il costo manodopera preventivato del progetto**, quindi fare clic su **Scegli > Modifica budget risorse**.
 
-     ![](assets/business-case-rp-selected-with-choose-button-350x120.png)
+     ![Caso di business in Pianificazione risorse](assets/business-case-rp-selected-with-choose-button-350x120.png)
 
    * Se la Pianificazione scenario è stata selezionata per la definizione del budget delle risorse per il progetto, fare clic su **Modifica** > **Modifica budget risorse**.
 
-     ![](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
+     ![Caso di business in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
 
    In questo modo vengono utilizzate le ore preventivate del progetto per calcolare il costo manodopera preventivato per il progetto.
 

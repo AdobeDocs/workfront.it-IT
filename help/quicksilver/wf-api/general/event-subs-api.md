@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 193a1ecafb5dd919a2fa760ce5ab2a9903881900
+source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
 workflow-type: tm+mt
-source-wordcount: '2362'
+source-wordcount: '2407'
 ht-degree: 3%
 
 ---
@@ -30,19 +30,19 @@ Per ricevere i payload degli abbonamenti agli eventi tramite il firewall, è nec
 **Per i clienti in Europa:**
 
 * 52.30.133.50
-* 52 208 159 124
-* 54 220 93 204
+* 52.208.159.124
+* 54.220.93.204
 * 52.17.130.201
-* 34 254 76 122
-* 34 252 250 191
+* 34.254.76.122
+* 34.252.250.191
 
 **Per clienti in località diverse dall&#39;Europa:**
 
-* 54 244 142 219
-* 44 241 82 96
+* 54.244.142.219
+* 44.241.82.96
 * 52.36.154.34
-* 34 211 224,9
-* 54 218 48 56
+* 34.211.224.9
+* 54.218.48.56
 * 52.39.217.230
 
 I seguenti argomenti supportano l’API di abbonamento agli eventi:
@@ -286,7 +286,7 @@ Il passaggio di una risorsa di abbonamento come corpo di una richiesta (con il t
 
 ## Query delle sottoscrizioni eventi
 
-Quando esegui una query su HTTP di Workfront, utilizza il metodo GET. Esistono due modi per eseguire query per le sottoscrizioni di eventi: eseguire query per ID sottoscrizione (vedi sotto) o eseguire query su tutte le sottoscrizioni di eventi.
+Quando si esegue una query su HTTP di Workfront, utilizzare il metodo GET. Esistono due modi per eseguire query per le sottoscrizioni di eventi: eseguire query per ID sottoscrizione (vedi sotto) o eseguire query su tutte le sottoscrizioni di eventi.
 
 ### Esegui query su tutte le sottoscrizioni eventi
 
@@ -350,6 +350,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
     "id": "750a636c-5628-48f5-ba26-26b7ce537ac2",
     "date_created": "2024-04-11T17:10:10.305981",
     "date_modified": "2024-04-11T17:10:10.305981",
+    "version": "v2",
+    "dateVersionUpdated": "2025-01-15T04:04:04.407945"
     "customerId": "504f9640000013401be513579fbebffa",
     "objId": null,
     "objCode": "PROJ",
@@ -422,6 +424,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
     "id": "750a636c-5628-48f5-ba26-26b7ce537ac2",
     "date_created": "2024-04-11T17:10:10.305981",
     "date_modified": "2024-04-11T17:10:10.305981",
+    "version": "v2",
+    "dateVersionUpdated": "2025-01-15T04:04:04.407945"
     "customerId": "504f9640000013401be513579fbebffa",
     "objId": null,
     "objCode": "PROJ",
@@ -449,6 +453,10 @@ La possibilità di aggiornare o effettuare il downgrade degli abbonamenti agli e
 Per ulteriori informazioni sul controllo delle versioni delle sottoscrizioni di eventi, incluse differenze specifiche tra la versione e le date importanti, vedere [Controllo delle versioni delle sottoscrizioni di eventi](/help/quicksilver/wf-api/general/event-subs-versioning.md).
 
 ### Modifica della versione di un singolo abbonamento
+
+>[!NOTE]
+>
+>Quando aggiorni o esegui il downgrade dell’abbonamento a un’altra versione, ricevi eventi duplicati per ogni consegna di eventi per una finestra di cinque minuti dopo la modifica della versione. I duplicati includono uno per ogni abbonamento all’evento versione 1 e versione 2. In questo modo non si perde nessun evento a causa della modifica della versione dell’abbonamento all’evento.
 
 La sintassi della richiesta per modificare la versione di una singola sottoscrizione è la seguente:
 
