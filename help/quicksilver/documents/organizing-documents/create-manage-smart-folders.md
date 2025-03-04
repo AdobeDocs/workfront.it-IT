@@ -6,9 +6,9 @@ description: Le cartelle avanzate vengono utilizzate per gestire documenti ester
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 3695c5bb566434d70907bfecf775ccd12b9208f4
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -70,9 +70,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Vai all&#39;area **Documenti** contenente la cartella Smart che desideri modificare.
 1. Nella colonna **Cartelle** fare clic sull&#39;icona **Altro** ![Altro menu](assets/more-icon.png) accanto alla cartella Smart che si desidera modificare.
 1. Fai clic su **Modifica**.
-
-   Viene visualizzata la finestra di dialogo **Modifica cartella avanzata**.\
-   ![Modifica cartella avanzata](assets/screen-shot-2013-08-14-at-8.42.04-am-350x167.png)
 
 1. Apporta le modifiche, quindi fai clic su **Salva cartella**.
 
