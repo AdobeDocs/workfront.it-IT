@@ -5,7 +5,7 @@ title: 'Risoluzione dei problemi: errore outlookIdentityToken durante l’utiliz
 description: Se si verifica un errore outlookIdentityToken quando si utilizza Workfront per Outlook, è necessario abilitare i token legacy di Microsoft 365 per l'organizzazione.
 author: Becky
 feature: Workfront Integrations and Apps
-source-git-commit: 77cc1acde87b2ada96117daa06e98ba38e64fa8a
+source-git-commit: 571ed00f44322d73183323c4d4154284cd028301
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -25,4 +25,4 @@ Per risolvere questo errore, devi abilitare i token legacy di Microsoft 365 per 
 
 Per istruzioni sull&#39;abilitazione dei token legacy di Microsoft 365, consulta [Attivare o disattivare i token legacy di Exchange Online](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/turn-exchange-tokens-on-off) nella documentazione di Microsoft.
 
-Per ulteriori informazioni sui token di accesso, vedere [È possibile riattivare i token legacy di Exchange Online?](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens#can-i-turn-exchange-online-legacy-tokens-back-on) nella documentazione di Microsoft.
+Per ulteriori informazioni sui token legacy, vedere [È possibile riattivare i token legacy di Exchange Online?](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens#can-i-turn-exchange-online-legacy-tokens-back-on) nella documentazione di Microsoft.
