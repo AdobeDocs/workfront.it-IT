@@ -7,9 +7,9 @@ description: È possibile utilizzare il Bilanciatore dei carichi di lavoro per p
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: 496420d1c74b7c29d0fb2ff7109ea8478680d117
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '724'
 ht-degree: 1%
 
 ---
@@ -97,6 +97,8 @@ Le sezioni seguenti illustrano dove è possibile accedere al Bilanciatore dei ca
      È consigliabile utilizzare i filtri durante la visualizzazione degli utenti nell’area Lavoro assegnato. Per ulteriori informazioni, vedere [Informazioni sul filtro nel Bilanciatore dei carichi di lavoro](../workload-balancer/filter-information-workload-balancer.md).
 
 ### Accedere al Bilanciatore dei carichi di lavoro per un team
+
+Per ulteriori informazioni sui team in Workfront, consulta [Panoramica sui team](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/teams-overview.md).
 
 {{step1-to-team}}
 
