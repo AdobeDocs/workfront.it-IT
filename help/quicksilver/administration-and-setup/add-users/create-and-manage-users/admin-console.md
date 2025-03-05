@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
+source-git-commit: 47aa463406c2807a375297f296b3e81eca1285bb
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1533'
 ht-degree: 0%
 
 ---
@@ -223,10 +223,18 @@ Per approvare un utente:
    Gli utenti rifiutati vengono eliminati automaticamente da Workfront.
 
 
+## Modificare gli utenti esistenti in Adobe Admin Console
 
+Puoi modificare i seguenti dettagli utente nel Adobe Admin Console:
 
+* Gruppi di utenti e prodotti associati all’utente
+* Diritti amministrativi
+* Nazione
 
+Per informazioni sulla modifica di un singolo utente in Adobe Admin Console, consulta [Modifica dettagli utente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#edit-user-details) nell&#39;articolo Gestire gli utenti singolarmente nella documentazione di Adobe.
 
+Per informazioni sugli utenti che eseguono modifiche in blocco in Adobe Admin Console, consulta
+[Modifica dettagli utente](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html#edit-user-details) nell&#39;articolo Gestire più utenti nella documentazione di Adobe.
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>&nbsp;</p>
