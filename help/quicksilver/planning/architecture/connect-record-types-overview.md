@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1518'
 ht-degree: 1%
 
 ---
@@ -60,7 +60,7 @@ Considerare le seguenti informazioni sulla connessione dei tipi di record:
      >
      >È necessario disporre di una licenza Adobe Experience Manager Assets e l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console per collegare i record di Workfront Planning ad Adobe Experience Manager Assets.
      >
-     >Se hai domande sull&#39;onboarding in Adobe Admin Console, consulta le [Domande frequenti sull&#39;esperienza unificata di Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+     >Se hai domande sull&#39;onboarding in Adobe Admin Console, consulta le [Domande frequenti su Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 * Dopo aver creato i record per i tipi di record connessi, è possibile collegarli tra loro tramite il campo record connesso.  Per informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
 
@@ -74,9 +74,9 @@ Considerare le seguenti informazioni sulla connessione dei tipi di record:
 
       * Nel tipo di record da cui si sta effettuando la connessione viene creato un campo record collegato. Nessun campo record collegato viene creato automaticamente sul tipo di oggetto dell&#39;altra applicazione.
       * I campi dei record di Planning non sono accessibili dagli oggetti di Workfront.
-      * I record di Planning sono visibili dalla scheda Planning dell&#39;oggetto Workfront. Per informazioni, vedere [Gestire i record nella sezione Pianificazione degli oggetti Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+      * I record di Planning sono visibili dalla scheda Planning dell&#39;oggetto Workfront. Per informazioni, vedere [Gestire le connessioni record dagli oggetti Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * <span class="preview">È possibile creare un campo personalizzato della connessione di Planning e allegarlo al modulo personalizzato di un oggetto Workfront. Per informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). </span>
-      * I campi dei record di pianificazione sono accessibili da Experience Manager Assets quando l’amministratore Workfront configura la mappatura dei metadati tramite l’integrazione tra Workfront e Adobe Experience Manager Assets. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+      * I campi del record di pianificazione sono accessibili dalle risorse di Experience Manager quando l’amministratore Workfront configura la mappatura dei metadati tramite l’integrazione tra Workfront e Adobe Experience Manager Assets. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
 
    * **Quando si aggiungono campi di ricerca dal record o dall&#39;oggetto a cui ci si connette**: oltre a creare un campo record collegato, è anche possibile connettersi ai campi del record o del tipo di oggetto connesso denominati campi di ricerca. Un campo di ricerca collegato con le informazioni del record a cui ci si connette viene visualizzato nel record da cui ci si connette.
@@ -114,7 +114,7 @@ A seconda del numero di record che è possibile aggiungere a un campo record con
 >
 >* Due record da aree di lavoro diverse
 >
->* Un tipo di record e risorse di Experience Manager
+>* Un tipo di record e risorse Experience Manager
 
 ### Tipo di connessione da molti-a-molti
 

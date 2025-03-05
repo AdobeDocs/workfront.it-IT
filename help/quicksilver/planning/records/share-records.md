@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '515'
 ht-degree: 1%
 
 ---
@@ -89,7 +89,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
    <td>  <p>Visualizzare o autorizzazioni superiori per un'area di lavoro per condividere un record utilizzando un collegamento </p>
-   <p>Gestire le autorizzazioni di un'area di lavoro per condividere i record durante la condivisione dell'area di lavoro a cui appartiene il record </p>
+   <p>Gestire le autorizzazioni di un'area di lavoro per condividere i record dell'area di lavoro a cui appartiene il record </p>
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  </td> 
   </tr> 
 <tr> 
@@ -145,7 +145,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
    <td> <p>View or higher permissions to a workspace to share a record using a link </p>
-   <p>Manage permissions to a workspace to share records while sharing the workspace the record belongs to </p>
+   <p>Manage permissions to a workspace to share the workspace the record belongs to </p>
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>

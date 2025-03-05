@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '3332'
+source-wordcount: '3330'
 ht-degree: 1%
 
 ---
@@ -118,7 +118,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
-   <td>   <p>Gestire le autorizzazioni per un'area di lavoro per connettere i record </p>  
+   <td>   <p>Autorizzazioni Contribute o superiori per un'area di lavoro per la connessione di record </p>  
    <p>Consente di visualizzare o autorizzazioni superiori per un'area di lavoro per visualizzare tutte le connessioni a oggetti e campi da altre applicazioni, indipendentemente dall'accesso all'altra applicazione. </p>
    <p>Visualizza o autorizzazioni superiori per gli oggetti che si desidera collegare da Workfront o Experience Manager Assets. </p>
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle che non hanno creato.</p> </td> 
@@ -494,4 +494,4 @@ Per connettere i record di Workfront Planning dagli oggetti di Workfront, è nec
       * Gruppo
       * Azienda
 
-  Per ulteriori informazioni, vedere [Gestire i record nella sezione Pianificazione degli oggetti Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+  Per ulteriori informazioni, vedere [Gestire le connessioni record dagli oggetti Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: f6484489f4726b606cc9840beed77ec8ab48a518
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '364'
+ht-degree: 1%
 
 ---
 
@@ -44,7 +44,7 @@ Nella tabella seguente vengono illustrati i limiti per il numero di oggetti che 
 | Frequenza con cui è possibile effettuare richieste API | 200 richieste al minuto |
 | Numero di visualizzazioni che un utente può creare per un tipo di record | 100 |
 | Dimensione del file CSV di Excel che puoi importare per creare tipi di record | 5 MB |
-| Numero di righe che è possibile importare in un file CSV o Excel per creare tipi di record | 10.000 |
+| Numero di righe che è possibile importare in un file CSV o Excel per creare tipi di record | 25.000 |
 | Numero di colonne che è possibile importare in un file CSV o Excel per creare tipi di record | 500 |
 
 *Si consiglia di non disporre di troppe aree di lavoro, in quanto potrebbero diventare difficili da gestire e i flussi di lavoro potrebbero essere troppo frammentati.

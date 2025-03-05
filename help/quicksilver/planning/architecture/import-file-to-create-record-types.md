@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 1%
 
 ---
-
 
 # Creare tipi di record importando informazioni da un file CSV o Excel
 
@@ -101,7 +101,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 * I campi sono univoci per i rispettivi tipi di record.
 * Ogni riga di ogni foglio diventa un record univoco associato al rispettivo tipo di record.
 * Ogni foglio del file Excel non deve superare i seguenti:
-   * 10.000 righe
+   * 25.000 righe
    * 500 colonne
 * Il file non deve superare i 5 MB.
 * I fogli vuoti non sono supportati.

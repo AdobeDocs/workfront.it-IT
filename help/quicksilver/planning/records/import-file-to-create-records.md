@@ -3,13 +3,13 @@ title: Creare record importando informazioni da un file CSV o Excel
 description: I record sono singole istanze di tipi di record, che sono i tipi di oggetto di Adobe Workfront Planning. In Workfront Planning è possibile creare record importando informazioni da un file CSV o Excel.
 hide: true
 hidefromtoc: true
-source-git-commit: 9f17fcab210768923e866d2f1596f40ddf8a558e
+exl-id: 940945df-391c-4672-9d9d-180d5028509b
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 1%
+source-wordcount: '985'
+ht-degree: 0%
 
 ---
-
 
 <!-- add the following in the metadata when live:
 
@@ -82,12 +82,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr> 
    <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
    <td> <p>Nessun controllo del livello di accesso per Adobe Workfront Planning</p> 
-   <p>Modificare l'accesso in Workfront per i tipi di oggetto che si desidera creare (progetti e portafogli) quando si collegano i record. </p>  
+   <p>Modificare l'accesso in Workfront per i tipi di oggetto che si desidera creare (progetti, programmi e portafogli) quando si collegano i record. </p>  
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
-   <td> <p>Consente di gestire le autorizzazioni per l'area di lavoro a cui si desidera aggiungere record. </p>  
+   <td> <p>Autorizzazioni di Contribute o di livello superiore per l'area di lavoro a cui si desidera aggiungere record. </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
    <p>Gestisci le autorizzazioni per gli oggetti Workfront (portfolio) per aggiungere oggetti figlio (progetti).</p>
    </td> 
@@ -103,23 +103,23 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 +++
 
-## Considerazioni sull&#39;importazione di tipi di record utilizzando un file Excel o CSV
+## Considerazioni sull&#39;importazione di record utilizzando un file Excel o CSV
 
 * Le intestazioni delle colonne di ciascun foglio diventano i campi associati ai record.
 * Ogni riga di ogni foglio diventa un record univoco associato.
 * Se il file di Excel contiene più fogli, vengono importate solo le informazioni di un foglio selezionate durante il processo di importazione.
 * Il file non deve superare i seguenti valori:
-   * 10.000 righe
+   * 25.000 righe
    * 500 colonne
 * Il file non deve superare i 5 MB.
 * I fogli vuoti non sono supportati.
 * I campi dei tipi seguenti non sono supportati e non possono essere mappati ai campi del foglio di importazione:
-   * Campi di ricerca di record o oggetti Workfront connessi
+   * Connessioni e campi di ricerca dei record connessi <!--or connected Workfront objects-->
    * Campi formula
    * Data di creazione, Creato da
    * Data ultima modifica, Autore ultima modifica
    * Persone
-* Se viene importato un campo a selezione multipla o singola che dispone di più scelte rispetto a un campo simile in Planning, le opzioni aggiuntive vengono create durante l&#39;importazione.
+   * Se viene importato un campo a selezione multipla o singola che dispone di più scelte rispetto a un campo simile in Planning, le opzioni aggiuntive vengono create durante l&#39;importazione. Solo gli utenti con le autorizzazioni di gestione per l&#39;area di lavoro possono importare nuove scelte.
 
 ## Creare record importando un file CSV o Excel
 
@@ -144,11 +144,16 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Ogni riga rappresenta un nuovo record. Nella casella Anteprima e modifica vengono visualizzati solo i primi 10 record.
 
-1. (Facoltativo) Seleziona **Crea opzioni mancanti** nell&#39;angolo inferiore sinistro dello schermo. Quando questa opzione è attivata, vengono aggiunte le scelte mancanti dei campi a selezione singola e multipla.
+1. (Facoltativo e condizionale) Se disponi delle autorizzazioni di gestione per l&#39;area di lavoro, seleziona **Crea opzioni mancanti** nell&#39;angolo inferiore sinistro dello schermo. Quando questa opzione è attivata, vengono aggiunte le scelte mancanti dei campi a selezione singola e multipla.
 
-   Ad esempio, se il tipo di record selezionato dispone di un campo Stato a selezione singola con le opzioni Nuovo, In corso e Chiuso e un campo Stato importato da un file dispone anche di una scelta Stato in sospeso, viene aggiunta anche la scelta Stato in sospeso
+>[!NOTE]
+>
+>Ad esempio, se il tipo di record selezionato dispone di un campo Stato a selezione singola con le opzioni Nuovo, In corso e Chiuso e un campo Stato importato da un file dispone anche di una scelta Stato in sospeso, viene aggiunta anche la scelta Stato in sospeso.
+>
+>Se non si dispone delle autorizzazioni Gestione per l&#39;area di lavoro, è possibile importare i record, ma le scelte aggiuntive non verranno create. Viene invece visualizzato il seguente messaggio nell&#39;angolo superiore destro della casella Mappa i campi di Planning sulle intestazioni di colonna: **Le scelte che non esistono nella connessione, i campi a selezione singola o multipla non verranno aggiunti**.
 
-   <!--when we add connected records and the info icon in the tool changes, also add those items to this step-->
+
+    &lt;!—quando si aggiungono record connessi e l&#39;icona info nello strumento cambia, aggiungere anche questi elementi al passaggio—>
 
 1. Fai clic su **Importa**.
 

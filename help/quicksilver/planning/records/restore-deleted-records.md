@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8b6df633-eb05-4d3e-bfe6-76cedabdb76d
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '477'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
-   <td>   <p>Gestione delle autorizzazioni per un'area di lavoro</a> </p>  
+   <td>   <p>Autorizzazioni di Contribute o superiori per un'area di lavoro</a> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p> </td> 
   </tr> 
 <tr> 

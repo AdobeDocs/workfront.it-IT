@@ -8,9 +8,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1802'
 ht-degree: 2%
 
 ---
@@ -94,7 +94,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
-   <td> <p>Consente di gestire le autorizzazioni per l'area di lavoro a cui si desidera aggiungere record. </p>  
+   <td> <p>Autorizzazioni di Contribute o di livello superiore per l'area di lavoro a cui si desidera aggiungere record. </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
    <p>Gestisci le autorizzazioni per gli oggetti Workfront (portfolio) per aggiungere oggetti figlio (progetti).</p>
    </td> 

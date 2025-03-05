@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '1801'
+source-wordcount: '1804'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,6 @@ In Adobe Workfront Planning, un record è un&#39;istanza di un tipo di record.
 * [Creare record durante l&#39;importazione di tipi di record da un file CSV o Excel](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
 <!--* <Span class="preview">[Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md)</span> -->
 * <span class="preview">[Crea record tramite automazioni](#create-records-by-using-automations)</span>
-
 
 Per informazioni sulla gestione dei record nelle viste tabella o sequenza temporale, vedere gli articoli seguenti:
 
@@ -94,12 +93,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr> 
    <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
    <td> <p>Nessun controllo del livello di accesso per Adobe Workfront Planning</p> 
-   <p>Modificare l'accesso in Workfront per i tipi di oggetto che si desidera creare (progetti e portafogli) quando si collegano i record. </p>  
+   <p>Modificare l'accesso in Workfront per i tipi di oggetto che si desidera creare (progetti, programmi e portafogli) quando si collegano i record. </p>  
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
-   <td> <p>Consente di gestire le autorizzazioni per l'area di lavoro a cui si desidera aggiungere record. </p>  
+   <td> <p>Autorizzazioni di Contribute o di livello superiore per l'area di lavoro a cui si desidera aggiungere record. </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
    <p>Gestisci le autorizzazioni per gli oggetti Workfront (portfolio) per aggiungere oggetti figlio (progetti).</p>
    </td> 

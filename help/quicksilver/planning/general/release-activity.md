@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '7392'
+source-wordcount: '7388'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ In questo aggiornamento sono incluse le seguenti funzionalità:
 * A seconda della configurazione, il modulo di richiesta può visualizzare tutti i campi del tipo di record, ad eccezione dei campi dei tipi seguenti:
 
    * Persone
-   * Campi collegati (include connessioni con risorse Experience Manager)
+   * Campi connessi (include le connessioni con le risorse Experience Manager)
    * Campi di ricerca connessi
    * Formula
 
@@ -268,7 +268,7 @@ In questo momento è possibile creare quanto segue durante la connessione dei re
 
 * Record di Workfront Planning
 * Progetti Workfront senza modello
-* Portfoli Workfront
+* Portfolio Workfront
 
 Non è possibile creare altri oggetti Workfront o risorse Experience Manager connessi quando vengono collegati a un record.
 
@@ -563,7 +563,7 @@ Produzione: 21 giugno 2024
 
 Anteprima: da determinare
 
-Sono stati modificati i tipi di utenti che possono avere accesso completo alle aree di lavoro. Ora solo gli utenti con licenza Standard o Plan possono disporre delle autorizzazioni Manage per le aree di lavoro. L&#39;accesso ai tipi di record, ai record e ai campi viene ereditato da un&#39;area di lavoro. Tutti gli altri utenti hanno accesso in sola visualizzazione alle aree di lavoro e ai relativi tipi di oggetto. Prima di questo aggiornamento, gli utenti con licenza Light e Worker potevano ricevere le autorizzazioni Contribute per le aree di lavoro.
+Sono stati modificati i tipi di utenti che possono avere accesso completo alle aree di lavoro. Ora solo gli utenti con licenza Standard o Plan possono disporre delle autorizzazioni Manage per le aree di lavoro. L&#39;accesso ai tipi di record, ai record e ai campi viene ereditato da un&#39;area di lavoro. Tutti gli altri utenti hanno accesso in sola visualizzazione alle aree di lavoro e ai relativi tipi di oggetto. Prima di questo aggiornamento, gli utenti Light e Worker con licenza potevano ricevere le autorizzazioni Contribute per le aree di lavoro.
 
 Per ulteriori informazioni, vedere [Panoramica del tipo di licenza quando si utilizza Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
@@ -715,7 +715,7 @@ Nella sezione Pianificazione di Workfront sono disponibili le azioni seguenti:
 
 * Aprire la casella o la pagina di anteprima dei dettagli per visualizzare ulteriori informazioni sui record connessi
 
-Per informazioni, vedere [Gestire i record nella sezione Pianificazione degli oggetti Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+Per informazioni, vedere [Gestire le connessioni record dagli oggetti Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
 ## Settimana del 13 maggio 2024
 
@@ -800,7 +800,7 @@ Produzione: 8 maggio 2024
 
 Anteprima: da determinare
 
-Adobe Se sei un cliente di Unified Experience e qualcuno ti aggiunge a un commento nella pagina del record, riceverai una notifica in-app e un’e-mail riguardante il commento. Puoi gestire le preferenze per le notifiche nell’area Preferenze del tuo profilo Adobe Experience Cloud. Per ulteriori informazioni, vedere [Preferenze account e notifiche](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+Se sei un cliente di Adobe Unified Experience e qualcuno ti aggiunge a un commento nella pagina di registrazione, riceverai una notifica in-app e un’e-mail relativa al commento. Puoi gestire le preferenze per le notifiche nell’area Preferenze del tuo profilo Adobe Experience Cloud. Per ulteriori informazioni, vedere [Preferenze account e notifiche](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 Per ulteriori informazioni sulle notifiche di Workfront Planning, vedere [Notifiche di Adobe Workfront Planning: indice articolo](/help/quicksilver/planning/notifications/notifications-information.md).
 
@@ -1101,7 +1101,7 @@ Di seguito sono riportati i livelli più elevati di autorizzazioni che gli utent
 
 * Gli utenti con una licenza Pianificazione (o Standard, nel nuovo modello di licenza) possono creare e gestire aree di lavoro, tipi di record e record.
 
-* Gli utenti con una licenza Lavoro (o Light, nel nuovo modello di licenza) possono visualizzare e contribuire a un’area di lavoro condivisa con loro, nonché i tipi di record e i record di tale area di lavoro.  Gli utenti con licenza Lavoro (o Light) possono inoltre creare, modificare ed eliminare record nelle aree di lavoro in cui dispongono dell’accesso a Contribute.
+* Gli utenti con una licenza Lavoro (o Light, nel nuovo modello di licenza) possono visualizzare e contribuire a un’area di lavoro condivisa con loro, nonché i tipi di record e i record di tale area di lavoro.  Gli utenti con licenza Lavoro (o Light) possono inoltre creare, modificare ed eliminare record nelle aree di lavoro in cui dispongono dell&#39;accesso a Contribute.
 
 * Gli utenti con una licenza Revisione o Richiedente (o Collaboratore, nel nuovo modello di licenza) possono visualizzare solo le aree di lavoro condivise con loro, nonché i tipi di record e i record di tali aree di lavoro. Non possono creare, modificare o eliminare tipi di record o record.
 
@@ -1237,7 +1237,7 @@ Di seguito sono riportati i livelli di autorizzazione per le aree di lavoro:
 
 * Visualizzazione: gli utenti possono visualizzare le aree di lavoro condivise con loro. Possono inoltre visualizzare i tipi di record e i record dall&#39;area di lavoro condivisa.
 
-* Contribute: gli utenti possono creare, modificare o eliminare i record nell’area di lavoro condivisa con loro.  Non possono creare o modificare tipi di record o aree di lavoro condivisi con loro.
+* Contribute: gli utenti possono creare, modificare o eliminare record nell&#39;area di lavoro condivisa con loro.  Non possono creare o modificare tipi di record o aree di lavoro condivisi con loro.
 
 * Gestione: gli utenti possono creare, modificare ed eliminare aree di lavoro, tipi di record, record e campi nelle aree di lavoro condivise.
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1865'
 ht-degree: 1%
 
 ---
@@ -144,7 +144,7 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
    * I valori dei campi Persone vengono visualizzati come ID.
    * I campi formula che non fanno riferimento ad altri campi o calcoli non visualizzano alcun valore. Ad esempio, un campo con una formula `STRING` visualizza un valore &quot;N/D&quot;.
    * I campi formula che fanno riferimento ai campi Valuta visualizzano i valori senza tenere conto dei tassi di cambio.
-   * I valori dei campi Paragrafo che contengono formattazione speciale visualizzano un valore &quot;N/A&quot; nel modulo di richiesta e visualizzano tag HTML invece del testo formattato nella pagina dei dettagli della richiesta.
+   * I valori dei campi Paragrafo visualizzano un valore &quot;N/A&quot; nel modulo di richiesta e visualizzano tag HTML invece del testo formattato nella pagina dei dettagli della richiesta.
 
 </div>
 

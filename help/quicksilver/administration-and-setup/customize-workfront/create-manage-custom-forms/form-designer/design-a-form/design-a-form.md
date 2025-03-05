@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 6a46486b62974f1cc7033b4497d32ab787b05bf2
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
 source-wordcount: '6493'
 ht-degree: 5%
@@ -16,6 +16,13 @@ ht-degree: 5%
 ---
 
 # Creare un modulo personalizzato
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+
+-->
 
 Puoi progettare un modulo personalizzato con il progettista del modulo in Adobe Workfront. È possibile allegare moduli personalizzati a diversi oggetti di Workfront per acquisire dati su tali oggetti.
 
@@ -190,7 +197,7 @@ Per aggiungere un campo di testo:
     <td>Disponibile per </td>
     </tr>
     <tr>
-    <td>Dimensione</td>
+    <td>Dimensioni</td>
     <td><p>Modificare le dimensioni dei campi di testo nel modulo.<p>
    </td>
     <td><ul>
@@ -731,7 +738,7 @@ Per aggiungere immagini, PDF o video:
       <td> <p>Digita eventuali informazioni aggiuntive sul widget. Quando gli utenti compilano il modulo personalizzato, possono passare il cursore sull’icona del punto interrogativo per visualizzare una descrizione comando contenente le informazioni digitate qui.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Dimensione</td> 
+      <td role="rowheader">Dimensioni</td> 
       <td>Modifica le dimensioni di visualizzazione del widget in base alle esigenze.</td> 
      </tr> 
     </tbody> 
@@ -864,7 +871,7 @@ In questa tabella sono elencati i campi nativi disponibili per oggetti Workfront
       <td><p>Seleziona questa opzione se desideri che il campo sia obbligatorio per consentire all’utente di completare il modulo personalizzato.</p></td>
      </tr> 
      <tr> 
-      <td role="rowheader">Dimensione</td> 
+      <td role="rowheader">Dimensioni</td> 
       <td>(Facoltativo) Modifica la dimensione di visualizzazione del campo in base alle esigenze.</td> 
      </tr> 
     </tbody> 
@@ -913,7 +920,7 @@ Per aggiungere un file Adobe XD:
     <img src="assets/instructions-form-designer.png"></p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Dimensione</td> 
+      <td role="rowheader">Dimensioni</td> 
       <td>(Facoltativo) Modifica la dimensione di visualizzazione del widget in base alle esigenze.</td> 
      </tr> 
     </tbody> 
@@ -1005,6 +1012,17 @@ Per aggiungere un campo di connessione Planning:
     </tbody> 
    </table>
 
+
+   <!--
+
+    Add this to the table - one more row at the bottom at release time: 
+
+    <span class="preview">Record type fields</span>
+      
+    <p><span class="preview">(Optional) Select up to 7 lookup fields from the connected record type to display in the custom form. The primary field is selected by default and cannot be edited. </span></p> <span class="preview"><p> The connected record's fields that you select display in the table view on the custom form. The records that will later display on the selected Workfront objects' custom form will not be editable in the table view of the custom form.</span></p>  
+    <img src="assets/planning-connections-field-with-table-on-form-preview.png">
+    -->
+
 1. (Facoltativo) Ripeti i passaggi precedenti per aggiungere altri campi.
 
    oppure
@@ -1029,3 +1047,6 @@ Per aggiungere un campo di connessione Planning:
 ## Organizzare e visualizzare in anteprima un modulo con il progettista del modulo
 
 Per informazioni su come organizzare un modulo personalizzato con interruzioni di sezione e visualizzare un&#39;anteprima del modulo, vedere [Organizzare e visualizzare in anteprima un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+
+
+
