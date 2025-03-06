@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 4072e71dc0ba76871e17da7718ed4b77a3cdbda6
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,6 @@ ht-degree: 0%
 # Crea assegnazioni avanzate
 
 <!-- Audited: 07/2024-->
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente di anteprima per tutti i clienti oppure nell&#39;ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
-
-<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Per informazioni sulla versione corrente, consulta [Panoramica sulla versione del quarto trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 È possibile gestire le assegnazioni di attività o problemi utilizzando Assegnazioni avanzate.
 
@@ -72,7 +66,7 @@ Inoltre, puoi effettuare assegnazioni avanzate nelle seguenti aree di Workfront:
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Autorizzazioni Contribute o superiori per un’attività o un problema</p>  </td> 
+   <td> <p>Contribuire o concedere autorizzazioni superiori a un’attività o a un problema</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,7 +96,7 @@ Inoltre, puoi effettuare assegnazioni avanzate nelle seguenti aree di Workfront:
 
    <span class="preview">![Fare clic su Avanzate](assets/assignments-box-in-task-header.png)</span>
 
-1. Nel campo **Cerca persone, mansione e team**, inizia a digitare il nome di un utente, una mansione o un team e fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
+1. Nel campo **Cerca persone, mansione e team**, inizia a digitare il nome di un utente, una mansione o un team, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
    >[!NOTE]
    >
@@ -140,10 +134,6 @@ Inoltre, puoi effettuare assegnazioni avanzate nelle seguenti aree di Workfront:
      >A seconda della modalità di impostazione delle preferenze di progetto da parte dell&#39;amministratore di Workfront o del gruppo, Workfront potrebbe utilizzare la pianificazione del proprietario dell&#39;attività per calcolare la sequenza temporale dell&#39;attività quando più utenti sono assegnati all&#39;attività. Per informazioni su più assegnatari di attività, vedere la sezione &quot;Assegnare più utenti a un&#39;attività&quot; nell&#39;articolo [Assegnare attività](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
    * **Allocazioni**: quando il tipo di durata di un&#39;attività è Semplice, specificare il numero di ore che ogni utente o mansione deve assegnare all&#39;attività. La somma di tutte le ore assegnate a ciascun utente è uguale al numero nel campo **Ore pianificate** nella parte inferiore della colonna Allocazioni. In tutti gli altri casi, specifica la percentuale di tempo (o allocazione) che l’assegnatario deve dedicare alla risoluzione dell’attività o del problema.
-
-     <!--   
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: make sure this is right in the new UI for both classic and QS???)</p>   
-     -->
 
      >[!TIP]
      >   
