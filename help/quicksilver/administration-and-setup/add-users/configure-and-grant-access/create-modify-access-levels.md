@@ -8,14 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: f9bf60fc39cc7cd26e242e7cc782ece060cc5471
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1465'
 ht-degree: 6%
 
 ---
 
-# Creare e modificare livelli di accesso personalizzati
+# Creare e modificare i livelli di accesso personalizzati
 
 <!--Audited: 12/2023-->
 
@@ -184,7 +184,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      </tr> 
      <tr> 
       <td role="rowheader">Visualizza solo società, gruppi e team di appartenenza</td> 
-      <td>Consente agli utenti di visualizzare e condividere gli elementi solo con le società, i gruppi e i team a cui appartengono.<p><strong>NOTA</strong>: gli utenti con licenze Requestor non possono visualizzare le società a cui non appartengono, anche se questa opzione è selezionata.</td> 
+      <td>Consente agli utenti di visualizzare e condividere gli elementi solo con le società, i gruppi e i team a cui appartengono.<p><strong>NOTA</strong>: gli utenti con licenze Requestor o Contributor non possono visualizzare le società a cui non appartengono, anche se questa opzione è selezionata.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Non consentire mai la visualizzazione delle ore pianificate o delle ore effettive</td> 
