@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: f9ebf647c7672a9d471288806cf596d103007613
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,7 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 È ora possibile modificare più documenti contemporaneamente. Puoi modificare le descrizioni e aggiornare i moduli personalizzati.
 
-<!--For more information, see [Edit documents in bulk](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md).-->
-
->[!IMPORTANT]
->
->Le funzioni elencate di seguito fanno parte di una versione graduale e sono disponibili solo per clienti specifici.
+Per ulteriori informazioni, vedere [Modificare documenti in blocco](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md).
 
 ## Nuovo stato Ritirato disponibile per le approvazioni delle versioni dei documenti
 

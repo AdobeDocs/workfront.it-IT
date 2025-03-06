@@ -7,17 +7,17 @@ description: È possibile modificare più documenti contemporaneamente nell'area
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 8c1f829eb29d8cd13524814d98ed353add15e881
+exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
+source-git-commit: f9ebf647c7672a9d471288806cf596d103007613
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
 
-
 # Modifica documenti in blocco
 
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 È possibile modificare la descrizione, aggiungere moduli personalizzati e modificare i moduli personalizzati in più documenti contemporaneamente.
 
@@ -97,4 +97,33 @@ Per modificare documenti in blocco:
     </table>
 1. Fai clic su **Salva**.
 
+<span class="preview">
 
+## Modificare documenti in blocco in un report Documento
+
+1. Passare a un report documento esistente.
+o
+Creare un report di documenti come descritto in [Creare un report personalizzato](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+1. Selezionare i documenti da modificare.
+1. Fai clic sull&#39;icona Modifica ![icona Modifica](assets/edit-icon.png).
+   ![modifica posizione icona a pagina](assets/edit-multiple-documents.png)
+1. (Facoltativo) Aggiungi o modifica la **Descrizione**. Se la descrizione di ogni documento è diversa, nella casella di descrizione verranno visualizzati _Più valori_. È possibile aggiungere la stessa descrizione per tutti i documenti, ma non è possibile modificare le descrizioni di singoli documenti durante la modifica in blocco.
+1. Apporta le seguenti modifiche ai moduli personalizzati:
+
+   <table>
+    <tr>
+    <td><strong>Aggiungi moduli</strong></td>
+    <td>Nella <strong>casella Aggiungi modulo personalizzato</strong> è possibile scegliere tra Moduli allegati e moduli da aggiungere. I moduli allegati si trovano su alcuni dei documenti selezionati, ma non su tutti. Un modulo allegato a tutti i documenti selezionati viene visualizzato automaticamente nella finestra di modifica.  </td>
+    </tr>
+    <tr>
+    <td><strong>Modifica moduli</strong></td>
+    <td>Modifica eventuali moduli personalizzati allegati. Le informazioni modificate sovrascrivono quelle esistenti nei singoli documenti. I campi con valori diversi nei documenti vengono visualizzati come "Più valori". </td>
+    </tr>
+    <tr>
+    <td><strong>Ridisponi moduli</strong></td>
+    <td>Fai clic su e trascina il modulo personalizzato per ridisporlo.</td>
+    </tr>
+    </table>
+1. Fai clic su **Salva**.
+
+</span>
