@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: '1818'
 ht-degree: 2%
 
 ---
@@ -277,9 +277,9 @@ Di seguito sono riportati gli oggetti e i concetti principali di Workfront Plann
      ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
-  Dopo aver stabilito una connessione tra i tipi di record, è possibile collegare tra loro singoli record di tali tipi. La connessione tra i record viene visualizzata come campo record collegato.
+  Dopo aver stabilito una connessione tra i tipi di record, è possibile collegare tra loro singoli record o oggetti di tali tipi. La connessione tra i record viene visualizzata come campo record connesso o come connessione.
 
-* **Campi collegati** (o campi di ricerca): dopo aver stabilito la connessione tra due tipi di record e aver collegato i singoli record, è possibile fare riferimento ai campi dei record collegati nel record da cui si sta effettuando la connessione.
+* **Campi di ricerca** (o campi collegati): dopo aver stabilito la connessione tra due tipi di record e aver connesso i singoli record, è possibile fare riferimento ai campi dei record connessi dal record da cui si sta effettuando la connessione.
 
   Se ad esempio si connette un tipo di record Campagna a un tipo di oggetto Progetto Workfront, è possibile visualizzare il campo Budget dei progetti connessi nei record della campagna.
 

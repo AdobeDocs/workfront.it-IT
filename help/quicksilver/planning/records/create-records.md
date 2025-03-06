@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1858'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ In Adobe Workfront Planning, un record è un&#39;istanza di un tipo di record.
 * [Crea record durante la connessione da altri record](#create-records-as-you-connect-them)
 * [Creare record inviando un modulo di richiesta a un tipo di record](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [Creare record durante l&#39;importazione di tipi di record da un file CSV o Excel](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
-<!--* <Span class="preview">[Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md)</span> -->
+* <Span class="preview">[Creare record importando informazioni da un file CSV o Excel](/help/quicksilver/planning/records/import-file-to-create-records.md)</span>
 * <span class="preview">[Crea record tramite automazioni](#create-records-by-using-automations)</span>
 
 Per informazioni sulla gestione dei record nelle viste tabella o sequenza temporale, vedere gli articoli seguenti:
@@ -271,8 +271,6 @@ Per creare i record durante la connessione da altri record:
    Oppure
 Inizia a digitare un nome, quindi fai clic su **+ Aggiungi**. Il pulsante **+ Aggiungi** è seguito dal nome del tipo di record a cui ti stai connettendo. Ad esempio, &quot;Aggiungi marchi&quot; quando si aggiunge un marchio a una campagna esistente. Il nome digitato segue anche il pulsante Aggiungi.
 
-   <!--remove the first part of the step above to say just Click Add when the button will be persistent, for preview and production-->
-
    ![Pulsante Aggiungi per creare record nel contesto evidenziato](assets/add-button-to-create-records-in-context-highlighted.png)
 
    Il record viene creato e aggiunto al campo record connesso.
@@ -305,18 +303,15 @@ Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per l
 
 Per informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
-<!--
 <div class="preview">
 
-## Create records when importing records from a CSV or Excel file
+## Creare record durante l&#39;importazione di record da un file CSV o Excel
 
-You can import records for existing record types when you import information from a CSV or Excel file. 
+È possibile importare record per i tipi di record esistenti quando si importano informazioni da un file CSV o Excel.
 
-For information, see [Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md). 
+Per informazioni, vedere [Creare record importando informazioni da un file CSV o Excel](/help/quicksilver/planning/records/import-file-to-create-records.md).
 
-</div> 
-
--->
+</div>
 
 <div class="preview">
 

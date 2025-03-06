@@ -1,22 +1,18 @@
 ---
 title: Creare record importando informazioni da un file CSV o Excel
 description: I record sono singole istanze di tipi di record, che sono i tipi di oggetto di Adobe Workfront Planning. In Workfront Planning è possibile creare record importando informazioni da un file CSV o Excel.
-hide: true
-hidefromtoc: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
 
-<!-- add the following in the metadata when live:
-
-feature: Workfront Planning
-role: User, Admin
-author: Alina
-recommendations: noDisplay, noCatalog-->
 
 # Creare record importando informazioni da un file CSV o Excel
 
@@ -125,14 +121,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 {{step1-to-planning}}
 
-1. Fare clic sull&#39;area di lavoro in cui si desidera creare i tipi di record.
+1. Fare clic sull&#39;area di lavoro in cui si desidera creare i record.
 
    Oppure
 
    Da un workspace, espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente, cercare un workspace e selezionarlo quando viene visualizzato nell&#39;elenco.
 1. Fare clic sulla scheda del tipo di record in cui si desidera importare i record.
 1. Fai clic su **Nuovo record** nell&#39;angolo superiore destro della schermata.
-1. Fai clic su **Carica dal file**, quindi su **Continua**.
+1. Fai clic su **Carica dal file**, quindi su **Continua**. <!--add screen shot when all three buttons are added - with the Submit a request button-->
 1. Trascina e rilascia un file Excel o CSV salvato in precedenza sul computer, oppure fai clic su **Seleziona un file CSV o Excel** per cercarne uno.
 1. Fare clic su **Anteprima e modifica**.
 1. (Condizionale) Se il file importato contiene più di un foglio, selezionare il pulsante di opzione del foglio da importare nella casella **Seleziona un foglio da importare**, quindi fare clic su **Avanti**. In caso contrario, procedere al passaggio successivo.
@@ -146,14 +142,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. (Facoltativo e condizionale) Se disponi delle autorizzazioni di gestione per l&#39;area di lavoro, seleziona **Crea opzioni mancanti** nell&#39;angolo inferiore sinistro dello schermo. Quando questa opzione è attivata, vengono aggiunte le scelte mancanti dei campi a selezione singola e multipla.
 
->[!NOTE]
->
->Ad esempio, se il tipo di record selezionato dispone di un campo Stato a selezione singola con le opzioni Nuovo, In corso e Chiuso e un campo Stato importato da un file dispone anche di una scelta Stato in sospeso, viene aggiunta anche la scelta Stato in sospeso.
->
->Se non si dispone delle autorizzazioni Gestione per l&#39;area di lavoro, è possibile importare i record, ma le scelte aggiuntive non verranno create. Viene invece visualizzato il seguente messaggio nell&#39;angolo superiore destro della casella Mappa i campi di Planning sulle intestazioni di colonna: **Le scelte che non esistono nella connessione, i campi a selezione singola o multipla non verranno aggiunti**.
+   >[!NOTE]
+   >
+   >Ad esempio, se il tipo di record selezionato dispone di un campo Stato a selezione singola con le opzioni Nuovo, In corso e Chiuso e un campo Stato importato da un file dispone anche di una scelta Stato in sospeso, viene aggiunta anche la scelta Stato in sospeso.
+   >
+   >Se non si dispone delle autorizzazioni Gestione per l&#39;area di lavoro, è possibile importare i record, ma le scelte aggiuntive non verranno create. Viene invece visualizzato il seguente messaggio nell&#39;angolo superiore destro della casella Mappa i campi di Planning sulle intestazioni di colonna: **Le scelte che non esistono nella connessione, i campi a selezione singola o multipla non verranno aggiunti**.
 
 
-    &lt;!—quando si aggiungono record connessi e l&#39;icona info nello strumento cambia, aggiungere anche questi elementi al passaggio—>
+   <!--when we add connected records and the info icon in the tool changes, also add those items to this step and to the NOTE-->
 
 1. Fai clic su **Importa**.
 
@@ -161,7 +157,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    * Nuovi record visualizzati nella parte inferiore della vista tabella del tipo di record selezionato.
    * Nuovi valori di campo per i campi esistenti associati a ciascun record.
-   * Nuove scelte di un campo a selezione multipla o singola non esistente in Planning.
+   * Nuove scelte di un campo a selezione multipla o singola non esistente in Planning.  <!--when we add connected records - add those here too-->
 
    È possibile iniziare a gestire campi e record nella pagina dei tipi di record.
 

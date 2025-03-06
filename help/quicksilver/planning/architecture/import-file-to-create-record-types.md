@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '757'
 ht-degree: 1%
 
 ---
@@ -158,4 +158,4 @@ Per importare tipi di record utilizzando un file Excel o CSV:
 
    È possibile iniziare a gestire campi e record nelle pagine dei tipi di record.
 
-   Tutti gli utenti con accesso a Workfront Planning possono ora visualizzare e modificare i tipi di record importati e le relative informazioni.
+   Tutti coloro che hanno accesso a Workfront Planning e all&#39;area di lavoro possono ora visualizzare e modificare i tipi di record importati e le relative informazioni.
