@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 22a293cf4ded2c24c58f3948c1e7b41fa1055e3f
+source-git-commit: b03ac1037e03a70c7e685f5e6e53ce86755868c7
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1660'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,29 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 <!--keep the sentence below for all future quarterly release pages-->
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Aggiungere i campi di ricerca dei record connessi ai campi di connessione di Planning nei moduli personalizzati di Workfront
+
+>[!NOTE]
+>
+>Anteprima: 6 marzo 2025; produzione per rilascio rapido: 13 marzo 2025; produzione per tutti i clienti: 10 aprile 2025
+
+Per accedere facilmente a tutte le informazioni dai record connessi dagli oggetti di Workfront, sono stati aggiunti i campi di ricerca dei record connessi ai campi di connessione di Planning in Workfront.
+
+È possibile aggiungere fino a sette campi di ricerca a un record connesso a un oggetto Workfront nel campo personalizzato della connessione Planning. Come parte di questo miglioramento, ora è possibile visualizzare i record collegati e i relativi campi in un formato di tabella di facile lettura nel modulo personalizzato di un oggetto Workfront.
+
+Per informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+## Importare record utilizzando un file CSV o Excel
+
+>[!NOTE]
+>
+>Versione di anteprima: 6 marzo 2025; Produzione per tutti i clienti: 10 aprile 2025
+
+È ora possibile importare record utilizzando un foglio di calcolo CSV o Excel dalla pagina di un tipo di record.
+Prima di questo miglioramento, era possibile importare record solo durante la creazione di tipi di record. Con questo aggiornamento è possibile importare record in tipi di record esistenti.
+
+Per informazioni, vedere [Creare record importando informazioni da un file CSV o Excel](/help/quicksilver/planning/records/import-file-to-create-records.md).
 
 ## Visualizzare il nome record di una pagina dei dettagli di una richiesta di Workfront Planning nel nome della scheda del browser
 
