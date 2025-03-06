@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1846'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,7 @@ In Adobe Workfront Planning, un record è un&#39;istanza di un tipo di record.
 * [Duplicare record da una vista tabella](#create-records-by-duplicating-them)
 * [Crea record durante la connessione da altri record](#create-records-as-you-connect-them)
 * [Creare record inviando un modulo di richiesta a un tipo di record](#create-records-by-submitting-a-request-form-to-a-record-type)
-* [Creare record durante l&#39;importazione di tipi di record da un file CSV o Excel](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
-* <Span class="preview">[Creare record importando informazioni da un file CSV o Excel](/help/quicksilver/planning/records/import-file-to-create-records.md)</span>
+* <span class="preview">[Creare record importando informazioni da un file CSV o Excel](#create-records-by-importing-records-from-a-csv-or-excel-file)</span>
 * <span class="preview">[Crea record tramite automazioni](#create-records-by-using-automations)</span>
 
 Per informazioni sulla gestione dei record nelle viste tabella o sequenza temporale, vedere gli articoli seguenti:
@@ -305,7 +304,7 @@ Per informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/arch
 
 <div class="preview">
 
-## Creare record durante l&#39;importazione di record da un file CSV o Excel
+## Creare record importando record da un file CSV o Excel
 
 È possibile importare record per i tipi di record esistenti quando si importano informazioni da un file CSV o Excel.
 

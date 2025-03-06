@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1800'
 ht-degree: 1%
 
 ---
@@ -207,7 +207,7 @@ Quando si visualizzano i record di Workfront Planning da un campo di connessione
 * Un campo di connessione Planning viene visualizzato nei modi seguenti nel modulo personalizzato di un oggetto Workfront, dopo che i record Planning sono connessi all&#39;oggetto Workfront:
 
    * Se è selezionato solo il campo principale del record connesso, il campo Connessione Planning viene visualizzato come campo con più valori, se la connessione consente il collegamento di più record. Per informazioni, vedere [Panoramica sui tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-   * <span class="preview">Se sono selezionati campi di ricerca aggiuntivi dal record connesso, il campo Connessione Planning viene visualizzato come tabella. È possibile selezionare fino a 7 campi per il campo di connessione Planning. La vista tabella è di sola lettura.  </span>
+   * <span class="preview">Se l&#39;amministratore del Workfront o del gruppo ha aggiunto campi di ricerca aggiuntivi dal record connesso nella maschera personalizzata, il campo di connessione di Planning viene visualizzato come tabella. È possibile selezionare fino a 7 campi per il campo di connessione Planning. La vista tabella è di sola lettura.  </span>
 
 * È possibile associare un solo tipo di record a un campo di connessione Planning. Non esiste alcun limite al numero di campi di connessione di Planning presenti in un modulo.
 * Per allegare un modulo personalizzato con un campo personalizzato della connessione Planning a un oggetto Workfront, è necessario disporre dell&#39;accesso e delle autorizzazioni corretti per l&#39;oggetto, il record e Workfront Planning.

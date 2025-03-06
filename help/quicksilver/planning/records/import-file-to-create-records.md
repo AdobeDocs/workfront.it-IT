@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 0%
@@ -148,9 +148,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
    >Se non si dispone delle autorizzazioni Gestione per l&#39;area di lavoro, è possibile importare i record, ma le scelte aggiuntive non verranno create. Viene invece visualizzato il seguente messaggio nell&#39;angolo superiore destro della casella Mappa i campi di Planning sulle intestazioni di colonna: **Le scelte che non esistono nella connessione, i campi a selezione singola o multipla non verranno aggiunti**.
 
-
-   <!--when we add connected records and the info icon in the tool changes, also add those items to this step and to the NOTE-->
-
 1. Fai clic su **Importa**.
 
    Le informazioni seguenti vengono importate in Workfront Planning:
@@ -162,3 +159,5 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    È possibile iniziare a gestire campi e record nella pagina dei tipi di record.
 
    Tutti coloro che hanno accesso a Workfront Planning e all&#39;area di lavoro ora possono visualizzare e modificare i record importati e le relative informazioni.
+
+   <!--when we add connected records and the info icon in the tool changes, also add those items to the Import step and to the NOTE above it-->

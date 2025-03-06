@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '4310'
+source-wordcount: '4336'
 ht-degree: 1%
 
 ---
@@ -533,6 +533,10 @@ Per ulteriori informazioni, vedere [Panoramica dei campi formula](/help/quicksil
 ### Persone
 
 Utilizzare il tipo di campo Persone per aggiungere un utente <!--, job role, or team--> a un record. Questo è un campo di tipo-ahead ed è possibile aggiungere solo utenti<!--, roles, or teams--> già esistenti nell&#39;istanza di Workfront.
+
+>[!TIP]
+>
+>Quando aggiungi il nome di un utente in un campo Persone, il nome dell’utente e la sua mansione principale vengono visualizzati nel campo.
 
 1. Inizia a creare un campo come descritto nella sezione [Crea campi da zero](#create-fields-from-scratch) in questo articolo, quindi seleziona il tipo di campo **Persone**.
 

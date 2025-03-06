@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '795'
 ht-degree: 1%
 
 ---
@@ -105,6 +105,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    * 500 colonne
 * Il file non deve superare i 5 MB.
 * I fogli vuoti non sono supportati.
+* I campi dei tipi seguenti non sono supportati e non possono essere mappati ai campi del foglio di importazione:
+   * Connessioni e campi di ricerca dei record connessi <!--or connected Workfront objects-->
+   * Campi formula
+   * Data di creazione, Creato da
+   * Data ultima modifica, Autore ultima modifica
+   * Persone
 
 Per importare tipi di record utilizzando un file Excel o CSV:
 

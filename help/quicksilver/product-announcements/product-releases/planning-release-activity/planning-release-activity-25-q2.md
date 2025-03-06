@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: b03ac1037e03a70c7e685f5e6e53ce86755868c7
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1662'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Aggiungere i campi di ricerca dei record connessi ai campi di connessione di Planning nei moduli personalizzati di Workfront
+## Aggiungere campi di ricerca da record connessi nei campi di connessione di Planning dei moduli personalizzati di Workfront
 
 >[!NOTE]
 >
