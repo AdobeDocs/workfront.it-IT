@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: f9bf60fc39cc7cd26e242e7cc782ece060cc5471
+source-git-commit: 3e48bebde0171c13b4168d7eb5d693b07cb9e396
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 6%
@@ -221,3 +221,6 @@ Se si concede a un utente Standard o Planner l&#39;accesso amministrativo alle m
 Successivamente, se si disabilita l&#39;accesso amministrativo alle mansioni per l&#39;utente, le mansioni saranno ancora visibili perché l&#39;impostazione Modifica fatturazione mansione e tassi di costo è ancora abilitata.
 
 Se ciò accade e devi rimuovere l’accesso dell’utente per visualizzare le mansioni, devi disabilitare l’impostazione di autorizzazione Modifica fatturazione mansione e tassi di costo dell’utente. Per istruzioni, vedere [Concedere l&#39;accesso ai dati finanziari](grant-access-financial.md).
+
+
+
