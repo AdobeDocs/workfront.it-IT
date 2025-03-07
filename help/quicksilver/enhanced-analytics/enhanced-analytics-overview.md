@@ -7,14 +7,19 @@ description: Le funzioni di analisi avanzate sono uno strumento potente di Adobe
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1246'
 ht-degree: 3%
 
 ---
 
 # Panoramica di analisi avanzate
+
+>[!IMPORTANT]
+>
+>Le funzioni di analisi avanzate verranno rimosse da Workfront la settimana del 26 maggio. Workfront Data Connect è una soluzione nuova e alternativa che può essere utilizzata per replicare qualsiasi visualizzazione avanzata di Analytics attualmente in uso. <br>Per ulteriori informazioni, consulta la [Guida all&#39;obsolescenza di Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
+
 
 Le funzioni di analisi avanzate sono uno strumento potente di Adobe Workfront con visualizzazioni predefinite che consentono di esaminare i dati dei progetti e identificare le tendenze con la pianificazione e il completamento. Questo approfondimento sui tuoi progetti ti aiuta a gestire il lavoro corrente e ti consente di pianificare in modo più accurato il lavoro futuro.
 

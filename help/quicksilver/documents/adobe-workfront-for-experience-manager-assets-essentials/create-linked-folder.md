@@ -3,20 +3,20 @@ content-type: reference
 product-area: documents;workfront-integrations
 navigation-topic: documents-navigation-topic
 title: Creare una cartella collegata a Experience Manager Assets o Assets Essentials
-description: Puoi creare una cartella collegata a Experience Manager Assets o agli Assets Essentials mentre ti trovi in Workfront.
+description: In Workfront puoi creare una cartella collegata con Experience Manager Assets o Assets Essentials.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: 84760d5fe301bd0a44879490fb030bd29821bd41
+source-git-commit: e9c6a01e80d34bc873c9a06ae0782dc65afb2445
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
 
 # Creare una cartella collegata a Experience Manager Assets o Assets Essentials
 
-Puoi creare una cartella collegata a Experience Manager Assets o agli Assets Essentials mentre ti trovi in Workfront. Poiché la cartella è collegata, tutte le risorse aggiunte alla cartella verranno visualizzate automaticamente sia in Workfront che in Experience Manager. Se la risorsa si trova in una cartella collegata, non è necessario inviarla manualmente.
+In Workfront puoi creare una cartella collegata con Experience Manager Assets o Assets Essentials. Poiché la cartella è collegata, tutte le risorse aggiunte alla cartella verranno visualizzate automaticamente sia in Workfront che in Experience Manager. Se la risorsa si trova in una cartella collegata, non è necessario inviarla manualmente.
 
 Se una risorsa viene eliminata o spostata da una cartella collegata all’interno di Experience Manager Assets o Assets Essentials, Workfront ne conserva una copia nell’area Progetto > Documenti.
 
@@ -42,7 +42,7 @@ Devi avere i seguenti:
   <tr>
    <td><strong>Prodotto</strong>
    </td>
-   <td>È necessario disporre di Assets Essentials di Experience Manager Assets as a Cloud Service e aggiungerli al prodotto come utente.
+   <td>Devi disporre di Experience Manager Assets as a Cloud Service o Assets Essentials e devi essere aggiunto al prodotto come utente.
    </td>
   </tr>
   <tr>
@@ -54,7 +54,7 @@ Devi avere i seguenti:
   <tr>
    <td><strong>Configurazioni del livello di accesso</strong>
    </td>
-   <td>Per configurare un’integrazione Workfront Experienci Manager è necessario essere un amministratore. Una volta configurata, gli utenti con una licenza Pianificazione possono impostare cartelle collegate su singoli progetti.
+   <td>Per configurare un’integrazione Experience Manager è necessario essere un amministratore di Workfront. Una volta configurata, gli utenti con una licenza Pianificazione possono impostare cartelle collegate su singoli progetti.
    </td>
   </tr>
 </table>
@@ -68,14 +68,19 @@ Devi avere i seguenti:
 
 Prima di iniziare,
 
-* L’amministratore di Workfront deve configurare un’integrazione Experience Manager. Per ulteriori informazioni, consulta [Configurare Experience Manager Assets as a Cloud Service Integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) o [Configurare l&#39;integrazione Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* L’amministratore di Workfront deve configurare un’integrazione Experience Manager. Per ulteriori informazioni, consulta [Configurare l&#39;integrazione Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) o [Configurare l&#39;integrazione Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 
 ## Creare una cartella collegata
 
 La cartella collegata viene creata nel percorso specificato dall’amministratore di Workfront al momento della configurazione dell’integrazione. Ogni integrazione può avere una sola posizione di cartella per le cartelle collegate.
 
-Il nome della cartella collegata viene creato automaticamente in base al Portfolio, al programma o al progetto a cui è associato e non può essere modificato. Se il progetto non è associato a un Portfolio o programma, nella cartella collegata verranno visualizzati il nome del progetto e la data di creazione.
+Il nome della cartella collegata viene creato automaticamente in base al Portfolio, al Programma, al Progetto a cui è associato e non può essere modificato. Se il progetto non è associato a un Portfolio o a un Programma, nella cartella collegata verranno visualizzati il nome del progetto e la data di creazione.
+
+>[!NOTE]
+>
+>Impossibile creare un nuovo documento o una nuova versione di una bozza all&#39;interno di una cartella collegata.
+
 
 Per creare una cartella collegata:
 
@@ -86,5 +91,5 @@ Per creare una cartella collegata:
    >
    >L’amministratore di Workfront può scegliere qualsiasi nome per questa integrazione, pertanto potrebbe non menzionare specificamente Experience Manager Assets o Assets Essentials.
 
-1. Selezionare **Crea cartella collegata**. Viene creata automaticamente una cartella in Experience Manager in base alla posizione specificata al momento della configurazione dell&#39;integrazione.
+1. Selezionare **Crea cartella collegata**. Il sistema crea automaticamente una cartella in Experience Manager in base alla posizione specificata al momento della configurazione dell’integrazione.
    ![crea una cartella collegata](assets/linked-folder.png)

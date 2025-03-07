@@ -7,14 +7,19 @@ description: La visualizzazione Attività in volo mostra quante attività (entro
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cc738450-362a-49e8-836f-611fa82057b5
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '791'
 ht-degree: 4%
 
 ---
 
 # Visualizzare la visualizzazione Attività in volo in Analisi avanzate
+
+>[!IMPORTANT]
+>
+>Le funzioni di analisi avanzate verranno rimosse da Workfront la settimana del 26 maggio. Workfront Data Connect è una soluzione nuova e alternativa che può essere utilizzata per replicare qualsiasi visualizzazione avanzata di Analytics attualmente in uso. <br>Per ulteriori informazioni, consulta la [Guida all&#39;obsolescenza di Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
+
 
 La visualizzazione Attività in volo mostra quante attività (entro i criteri di filtro applicati) sono in corso per un progetto, la percentuale di lavoro completato per ogni attività e come sono programmate le attività.
 

@@ -1,5 +1,5 @@
 ---
-source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
+source-git-commit: affff16630379333465c118734babf7a239af272
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 1%
@@ -88,7 +88,7 @@ ht-degree: 1%
 Per assicurarsi di associare il gruppo corretto al team, posizionare il puntatore del mouse su di esso e fare clic sull&#39;icona delle informazioni <img src="assets/info-icon.png"> visualizzato accanto a esso. In questo modo viene visualizzata una descrizione del gruppo contenente informazioni sul gruppo stesso, ad esempio la gerarchia dei gruppi al di sopra del gruppo e i nomi dei relativi amministratori.
 
 
-## Nota importante per l’onboarding di Admin Console {#important-admin-console-onboard}
+## Nota importante per l’onboarding in Admin Console {#important-admin-console-onboard}
 
 >[!IMPORTANT]
 >
@@ -127,7 +127,7 @@ Per assicurarsi di associare il gruppo corretto al team, posizionare il puntator
 
 ## configurare le cartelle collegate {#setup-linked-folder}
 
-Puoi consentire agli utenti di creare cartelle collegate a Experience Manager durante un progetto Workfront. Quando una cartella viene collegata, tutte le risorse aggiunte alla cartella vengono visualizzate automaticamente sia in Workfront che in Experience Manager. Quando una risorsa viene aggiunta alla cartella collegata in Workfront per la prima volta, i relativi metadati vengono inviati a Experience Manager Assets.
+Puoi consentire agli utenti di creare cartelle collegate ad Experience Manager durante un progetto Workfront. Quando una cartella viene collegata, tutte le risorse aggiunte alla cartella vengono visualizzate automaticamente sia in Workfront che in Experience Manager. Quando una risorsa viene aggiunta alla cartella collegata in Workfront per la prima volta, i relativi metadati vengono inviati a Experience Manager Assets.
 
 Nei passaggi seguenti, indichi dove desideri creare le cartelle collegate. Ogni integrazione può avere una sola posizione per tutte le cartelle collegate.
 
@@ -171,7 +171,7 @@ Per impostare le cartelle collegate:
 
 È necessario installare il plug-in corretto per l’applicazione Adobe Creative Cloud in uso:
 * Per Photoshop, vedi [Installare Adobe Workfront per Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
-* Per XD, vedere [Installare Adobe Workfront per XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
+* Per XD, vedi [Installare Adobe Workfront per XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * Per InDesign, Illustrator, Premiere Pro e After Effects consulta [Installare Adobe Workfront per progettazione e video](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
 
 ## Elenco applicazioni CC {#cc-app-list}
@@ -315,9 +315,9 @@ Per impostare le cartelle collegate:
 
 <!-- Manage Work -->
 
-## Passaggio 1: passare ai Portfoli {#step1-to-portfolios}
+## Passaggio 1: come accedere ai portafogli {#step1-to-portfolios}
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Portfoli]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Portfolio]**.
 
 ## Passaggio 1 - Accesso ai programmi - {#step1-to-programs}
 
@@ -495,3 +495,5 @@ For each snippets, create a head 2 section and add an anchor, such as
 In any .md file, add {{classic-note}} where you want that shared snippet content to appear.
 
 -->
+
+

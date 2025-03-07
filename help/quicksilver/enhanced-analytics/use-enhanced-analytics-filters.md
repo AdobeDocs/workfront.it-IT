@@ -6,14 +6,19 @@ description: I filtri nell’area Analisi avanzata di Adobe Workfront consentono
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '1486'
+source-wordcount: '1528'
 ht-degree: 0%
 
 ---
 
 # Applicare i filtri nelle analisi avanzate
+
+>[!IMPORTANT]
+>
+>Le funzioni di analisi avanzate verranno rimosse da Workfront la settimana del 26 maggio. Workfront Data Connect è una soluzione nuova e alternativa che può essere utilizzata per replicare qualsiasi visualizzazione avanzata di Analytics attualmente in uso. <br>Per ulteriori informazioni, consulta la [Guida all&#39;obsolescenza di Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
+
 
 <!-- Audited: 12/2023 -->
 
@@ -52,7 +57,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>
   <tr> 
    <td>Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso ai progetti in visualizzazione</p> <p>Per visualizzare opzioni di filtro specifiche per i campi del progetto, è inoltre necessario disporre dell'accesso in visualizzazione ad attività, Portfoli e utenti.</p> <p>Nota: se sono selezionate restrizioni nella sezione <strong>Imposta restrizioni aggiuntive</strong> della finestra di dialogo Modifica livello di accesso, è possibile che dopo l'applicazione del filtro non vengano visualizzate tutte le informazioni nei filtri o nella pagina Analisi avanzata.</p> </td> 
+   <td> <p>Accesso ai progetti in visualizzazione</p> <p>Per visualizzare opzioni di filtro specifiche per i campi del progetto, è inoltre necessario disporre dell'accesso in visualizzazione ad attività, portafogli e utenti.</p> <p>Nota: se sono selezionate restrizioni nella sezione <strong>Imposta restrizioni aggiuntive</strong> della finestra di dialogo Modifica livello di accesso, è possibile che dopo l'applicazione del filtro non vengano visualizzate tutte le informazioni nei filtri o nella pagina Analisi avanzata.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Autorizzazioni oggetto </p> </td> 

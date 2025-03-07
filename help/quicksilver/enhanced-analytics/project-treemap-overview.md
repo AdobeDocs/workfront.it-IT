@@ -7,14 +7,19 @@ description: La visualizzazione Mappa ad albero progetto è una visualizzazione 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '896'
 ht-degree: 2%
 
 ---
 
 # Visualizzare la mappa ad albero del progetto in Analisi avanzate
+
+>[!IMPORTANT]
+>
+>Le funzioni di analisi avanzate verranno rimosse da Workfront la settimana del 26 maggio. Workfront Data Connect è una soluzione nuova e alternativa che può essere utilizzata per replicare qualsiasi visualizzazione avanzata di Analytics attualmente in uso. <br>Per ulteriori informazioni, consulta la [Guida all&#39;obsolescenza di Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
+
 
 <!-- Audited: 12/2023 -->
 

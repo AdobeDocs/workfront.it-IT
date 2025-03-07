@@ -7,7 +7,7 @@ description: Puoi configurare una bozza da creare o modificare nelle bozze.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca379054-4737-4796-a812-f2ec38b437ba
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: 5635906462cf838c3ca162cb47b16f157e6a66f6
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 1%
@@ -113,11 +113,12 @@ L’abilitazione dell’abbonamento sulla bozza consente alle persone che non so
 
 Se l’abbonamento è stato abilitato su una bozza, i campi seguenti diventano attivi:
 
-* **[!UICONTROL È richiesta la convalida del Sottoscrittore]** - Per accedere a una bozza, il Sottoscrittore deve fare clic su un collegamento in un messaggio e-mail\
+* **[!UICONTROL Ruolo sottoscrittore]**: si tratta del ruolo di bozza predefinito che verrà assegnato a tutti i revisori che si abbonano alla bozza.
+* **[!UICONTROL Impostazioni avvisi e-mail per gli abbonati]** - Questo è l&#39;avviso e-mail predefinito che verrà assegnato a tutti i revisori che si abbonano alla bozza.
+* **[!UICONTROL È necessario accedere alla bozza tramite il collegamento e-mail per]**. Per accedere a una bozza, il sottoscrittore deve fare clic su un collegamento in un messaggio e-mail\
    Selezionando questa opzione, la persona che si abbona non avrà accesso immediato alla bozza, ma riceverà un collegamento alla bozza in un messaggio e-mail. Lo scopo della convalida dell’abbonato è garantire che la persona abbia inserito un indirizzo e-mail corretto al quale ha accesso.
 
-* **[!UICONTROL Ruolo predefinito per i nuovi abbonati]** - Si tratta del ruolo di bozza predefinito che verrà assegnato a tutti i revisori che si abbonano alla bozza.
-* **[!UICONTROL Avviso e-mail predefinito per i nuovi abbonati]**: questo è l&#39;avviso e-mail predefinito che verrà assegnato a tutti i revisori che si abbonano alla bozza.
+
 
 Vedi anche [Abbonati a una bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)
 

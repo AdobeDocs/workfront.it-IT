@@ -5,9 +5,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e9c6a01e80d34bc873c9a06ae0782dc65afb2445
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '571'
 ht-degree: 1%
 
 ---
@@ -90,8 +90,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. (Facoltativo) Se desideri sbloccare la configurazione per una notifica e-mail in modo che gli amministratori dei gruppi possano configurarla separatamente per i loro gruppi, fai clic sul pulsante ![Blocca/blocca](assets/lock-toggle-button.png) a destra della notifica per passare alla posizione sbloccata ![Sblocca/Sblocca](assets/unlock-toggle-button.png).
 
-   >[!NOTE]
-   >
-   >Questa funzionalità è disponibile inizialmente solo per i clienti del cluster 4 come parte di un rollout graduale. Subito dopo sarà disponibile per altri cluster. Questo articolo verrà aggiornato in questo modo.
-
    Per ulteriori informazioni, vedere [Sbloccare o bloccare la configurazione delle notifiche degli eventi per tutti i gruppi](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
+
+Gli utenti possono personalizzare la frequenza di queste notifiche nel loro profilo utente.
