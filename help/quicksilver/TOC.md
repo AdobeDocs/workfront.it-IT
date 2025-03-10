@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 1e372089de40c49cd99c0b0d95a614f6e6c4a997
+source-git-commit: 321a29a4792bf8a40c04e46e8b29bf44e092678f
 workflow-type: tm+mt
-source-wordcount: '13061'
+source-wordcount: '13063'
 ht-degree: 2%
 
 ---
@@ -1702,13 +1702,13 @@ ht-degree: 2%
       * [Dizionario dati Workfront Data Connect](reports-and-dashboards/data-lake/data-dictionary.md)
       * [Esempi di query Workfront Data Connect](reports-and-dashboards/data-lake/basic-query-examples.md)
       * [Visualizzare le metriche di utilizzo di Workfront Data Connect](reports-and-dashboards/data-lake/view-usage-metrics.md)
-      * [Query di analisi avanzate]{#enhanced-analytics-queries}
+      * Query Analytics migliorate{#enhanced-analytics-queries}
          * [Query Analytics avanzate](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/enhanced-analytics-queries.md)
          * [Query KPI](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
          * [Query piano di volo](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
          * [Query attività progetto](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
          * [Query mappa ad albero progetto](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
-         * [Query persone](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/people-queries.md)
+         * [Attività per query team](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
 * Gestire le risorse {#manage-resources}
    * [Gestire le risorse](resource-mgmt/manage-resources.md)
    * Gestione delle risorse {#resource-management}
