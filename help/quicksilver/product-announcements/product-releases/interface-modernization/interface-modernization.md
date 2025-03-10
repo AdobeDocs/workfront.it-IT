@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3695c5bb566434d70907bfecf775ccd12b9208f4
+source-git-commit: b4747df73cedfb512fb54f912a5370cbb3a4c6a7
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1589'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Per visualizzare le impostazioni, vai a Configurazione > Preferenze > Approvazio
 
 Gli elenchi Approvazioni di progetti, attività e problemi sono stati aggiornati in Configurazione > Gruppi > Approvazioni con un design più moderno che è coerente con le altre aree di Workfront.
 
-Per visualizzare questa modifica, vai a Configurazione > Gruppi > Approvazioni.
+Per visualizzare questa modifica, vai a Configurazione > Gruppi > Scegli un gruppo > Approvazioni.
 
 Questo aggiornamento include modifiche visive all’area. Nessuna funzionalità è stata modificata.
 
