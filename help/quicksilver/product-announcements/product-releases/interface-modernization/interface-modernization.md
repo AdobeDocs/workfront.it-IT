@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: b4747df73cedfb512fb54f912a5370cbb3a4c6a7
+source-git-commit: 1a0902c7c6e1b7f647564e448daf74748d9cb3db
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1634'
 ht-degree: 0%
 
 ---
@@ -141,6 +141,14 @@ Gli elenchi Approvazioni progetti, attività e problemi sono stati aggiornati in
 Questo aggiornamento include modifiche visive all’area. Nessuna funzionalità è stata modificata.
 
 ## Agile
+
+### Aggiornamenti dell’interfaccia per le richieste del team
+
+**Anteprima versione: 6 marzo 2025; Versione di produzione: da annunciare**
+
+La pagina Richieste team è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront.
+
+Per visualizzare questa modifica, vai a Team > Scegli un team > Richieste team.
 
 ### Pagina Panoramica dell’aggiornamento dell’interfaccia per le iterazioni
 
