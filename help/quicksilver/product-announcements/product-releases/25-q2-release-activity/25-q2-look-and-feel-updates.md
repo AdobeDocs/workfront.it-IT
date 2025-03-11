@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
+source-git-commit: 69389422fc33839c3f557c3866f0d88b4a8ea837
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -68,3 +68,5 @@ Il look and feel della finestra di dialogo Condividi è stato aggiornato a un de
 
 * L&#39;opzione &quot;Visible system-wide&quot; (Visibile a livello di sistema) ora visualizza &quot;Everyone in the system can view&quot; (Tutti nel sistema possono visualizzare). Questa opzione funziona ancora come in precedenza.
 * Nuova icona per accedere alle impostazioni di condivisione avanzate.
+
+Per ulteriori informazioni su dove trovare la finestra di dialogo Condivisione, vedere [Concedere e richiedere autorizzazioni agli oggetti](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
