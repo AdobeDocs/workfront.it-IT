@@ -1,0 +1,226 @@
+---
+title: Condividi tipi di record
+description: È possibile condividere un tipo di record con altri utenti per garantire la collaborazione quando si utilizza Adobe Workfront Planning.
+hide: true
+hidefromtoc: true
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+workflow-type: tm+mt
+source-wordcount: '1186'
+ht-degree: 0%
+
+---
+
+
+<!-- add these to metadata on release:
+
+author: Alina
+feature: Workfront Planning
+role: User, Admin
+recommendations: noDisplay, noCatalog-->
+
+# Condividere tipi di record
+
+<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+{{planning-important-intro}}
+
+È possibile condividere un tipo di record con altri utenti per garantire la collaborazione durante l&#39;utilizzo dei record in Adobe Workfront Planning.
+
+>[!IMPORTANT]
+>
+>* La concessione di autorizzazioni a un&#39;area di lavoro conferisce agli utenti le stesse autorizzazioni per i tipi di record nell&#39;area di lavoro.
+>* La concessione di autorizzazioni al tipo di record può assegnare agli utenti autorizzazioni minori e non autorizzazioni superiori rispetto a quelle già disponibili nell&#39;area di lavoro.
+> Per ulteriori informazioni, vedere la sezione [Considerazioni durante la condivisione dei tipi di record](#considerations-when-sharing-record-types) in questo articolo.
+
+## Requisiti di accesso
+
++++ Espandere per visualizzare i requisiti di accesso.
+
+<!--at GA, check that the Workfront plans article linked below has Planning info-->
+
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Prodotti</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Piano Adobe Workfront*</p></td> 
+   <td> 
+<p>Uno dei seguenti piani di Workfront:</p> 
+<ul><li>Seleziona</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning non è disponibile per i piani Workfront legacy</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Pacchetto Adobe Workfront Planning*</p></td> 
+   <td> 
+<p>Qualsiasi </p> 
+<p>Per ulteriori informazioni su quanto incluso in ogni piano di Workfront Planning, contattare l'account manager Workfront. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td> 
+   <td> 
+<p>Per poter accedere a tutte le funzionalità di Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
+<p>Per consentire agli utenti di richiedere e concedere autorizzazioni per una visualizzazione da una richiesta di autorizzazione, la tua organizzazione deve essere integrata nell’esperienza unificata di Adobe. </p>
+<p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata Adobe per Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Licenza Adobe Workfront*</p></td> 
+   <td><p> Standard</p>
+   <p>Workfront Planning non è disponibile per le licenze Workfront legacy</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
+   <td> <p>Nessun controllo del livello di accesso per Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td>  <p>Gestire le autorizzazioni per un tipo di record</p>  
+   <p>Solo gli utenti con le autorizzazioni di gestione di un'area di lavoro possono condividere le autorizzazioni di gestione di un tipo di record</p></td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Modello di layout</p></td> 
+   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+## Considerazioni durante la condivisione dei tipi di record
+
+* Per informazioni generali sulla condivisione di oggetti in Workfront Planning, vedere anche [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+* È possibile condividere un tipo di record internamente con le entità seguenti:
+
+   * Utenti, gruppi, team, aziende e ruoli di Workfront
+* Non è possibile condividere tipi di record esternamente con utenti esterni a Workfront.
+* Gli utenti ereditano automaticamente le autorizzazioni del tipo di record dall&#39;area di lavoro.
+* Manualmente, è possibile assegnare agli utenti le autorizzazioni Visualizzazione per un tipo di record oppure rimuovere le autorizzazioni ereditate dall&#39;area di lavoro.
+
+* Gli utenti aggiunti al tipo di record che non dispongono di autorizzazioni Workspace vengono aggiunti automaticamente alla condivisione dell&#39;area di lavoro con le autorizzazioni Visualizzazione.
+
+  Per assegnare a un tipo di record un utente che non dispone di autorizzazioni di area di lavoro superiori alle autorizzazioni di visualizzazione, è innanzitutto necessario condividere l&#39;area di lavoro con l&#39;utente. Se si condivide solo il tipo di record, è possibile solo ricevere le autorizzazioni di visualizzazione per il tipo di record e tali autorizzazioni vengono anche aggiunte all&#39;area di lavoro con le autorizzazioni di visualizzazione. Quando si assegnano loro le autorizzazioni per il tipo di record, nella casella Condivisione è presente un&#39;indicazione che le autorizzazioni vengono aggiunte anche all&#39;area di lavoro.
+
+* Non è possibile assegnare a un utente autorizzazioni superiori al tipo di record rispetto a quelle disponibili in un&#39;area di lavoro.
+
+  Ad esempio, non è possibile assegnare a un utente le autorizzazioni Visualizzazione di un&#39;area di lavoro e Gestione di un tipo di record.
+
+
+## Condivisione delle autorizzazioni per un tipo di record
+
+È possibile condividere i tipi di record creati o i tipi di record per i quali si dispone delle autorizzazioni di gestione con utenti, gruppi, team, aziende e ruoli in Workfront Planning.
+
+{{step1-to-planning}}
+
+1. Aprire l&#39;area di lavoro di cui si desidera condividere i tipi di record, quindi fare clic su una scheda del tipo di record.
+
+   Verrà aperta la pagina del tipo di record.
+
+1. Dalla scheda di qualsiasi visualizzazione, fai clic su **Condividi** nell&#39;angolo superiore destro del tipo di record.
+
+   Viene visualizzata la casella **Condividi**.
+
+   ![Autorizzazioni per i tipi di record con autorizzazioni ereditate su](assets/permissions-for-record-types-with-inherited-permissions-on.png)
+
+1. (Facoltativo) Nell&#39;area **Chi ha accesso**, selezionare una delle opzioni seguenti: <!--the Only invited people is supposed to be removed - rewrite this - according to Vahan-->
+
+   * **L&#39;accesso è consentito solo alle persone invitate**: è necessario specificare gli utenti, i gruppi, il team, la società o le mansioni con cui si desidera condividere la visualizzazione.
+   * **Tutti gli utenti dell&#39;area di lavoro possono visualizzare**: tutti gli utenti che dispongono di autorizzazioni di visualizzazione o di livello superiore per l&#39;area di lavoro possono accedere alla visualizzazione. Questa è l&#39;opzione predefinita.
+
+1. (Facoltativo) Espandi l&#39;opzione **Autorizzazioni ereditate** per visualizzare utenti, team, gruppi, aziende o ruoli che ereditano le autorizzazioni dall&#39;area di lavoro.
+
+   >[!TIP]
+   >
+   >Non è possibile rimuovere singole entità dall&#39;elenco Autorizzazioni ereditate.
+
+1. (Facoltativo e condizionale) Se si desidera condividere il tipo di record con entità specifiche e concedere loro un accesso al tipo di record diverso da quello già disponibile per l&#39;area di lavoro, eseguire le operazioni seguenti:
+
+   1. Disattivare le autorizzazioni ereditate.
+   1. Nel campo **Concedi l&#39;accesso a questo tipo di record**, aggiungi gli utenti, i team, i gruppi, le aziende o le mansioni a cui desideri concedere un diverso livello di autorizzazione.
+1. Scegliere un livello di autorizzazione.
+
+   >[!IMPORTANT]
+   >
+   >* Non è mai possibile concedere agli utenti autorizzazioni maggiori per un tipo di record rispetto a quelle disponibili in un&#39;area di lavoro.
+   >* Non è possibile concedere agli utenti un&#39;autorizzazione inferiore a Gestisci per un tipo di record, se dispongono delle autorizzazioni di Gestione per l&#39;area di lavoro.
+   >* Se dispongono delle autorizzazioni Contribute per l&#39;area di lavoro, potete concedere agli utenti un&#39;autorizzazione minore per il tipo di record.
+   > Per ulteriori informazioni, vedere [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+
+1. Per consentire agli utenti che non dispongono delle autorizzazioni per l&#39;area di lavoro di accedere al tipo di record di visualizzazione, nel campo **Concedi l&#39;accesso a questa visualizzazione**, inizia a digitare il nome di un utente, un gruppo, un team, una società o una mansione, quindi fai clic su di esso quando viene visualizzato nell&#39;elenco.
+
+   L&#39;entità selezionata viene aggiunta al tipo di record e all&#39;area di lavoro con autorizzazioni **Visualizza**.
+
+   Gli amministratori di sistema ricevono sempre le autorizzazioni Manage (Gestione) per i tipi di record condivisi con loro e vi è un&#39;indicazione che un utente è un amministratore di sistema.
+
+1. Fai clic su **Copia collegamento** per copiare negli Appunti un collegamento al tipo di record.
+1. Fai clic su **Salva**.
+
+   Il tipo di record è ora condiviso con altri utenti.
+
+1. Condividi il collegamento copiato con altri utenti. Gli utenti che ricevono il collegamento devono essere utenti attivi e accedere a Workfront per poter accedere alla pagina del tipo di record e visualizzarla nella visualizzazione selezionata.
+
+<!-- This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
+
+## Grant permissions to a record type from a permission request
+
+Users who access a link to a record type to which they do not have permissions can request permissions to the record type. All users with Manage permissions to the view receive the permission request and can grant or deny the permissions. 
+
+1. (Conditional) If you are are the manager of a view, you might receive a request from another user to access the view in the following areas:
+   
+   * An in-app notification
+      ![In-app notification for access request for view](assets/in-app-notification-for-access-request-for-view.png)
+   * An email notification
+      ![In-app notification for access request for view](assets/in-app-notification-for-access-request-for-view.png)
+1. (Conditional) From the notification area in Workfront, click the in-app notification
+   Or
+   From the email notification, click **View all notifications**, then click the notification in the list.
+
+   The **Pending access requests** box displays. 
+
+      ![Notifications list approval box](assets/notifications-list-approval-box.png)
+1. (Optional) For the user whose permissions you want to approve, select one of the following options from the drop-down menu to the right of the user's name: 
+   * **View**
+   * **Manage**
+1. Select the user for whom you want to approve or deny the permission, then click **Approve all** or **Deny all**. 
+1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
+
+   If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. <!--will they also get an in-app notification??-->
+
+## Rimuovere le autorizzazioni per un tipo di record
+
+{{step1-to-planning}}
+
+1. Aprire l&#39;area di lavoro di cui si desidera interrompere la condivisione dei tipi di record, quindi fare clic su una scheda del tipo di record. Verrà aperta la pagina del tipo di record.
+
+1. Dalla scheda di qualsiasi visualizzazione, fai clic su **Condividi** nell&#39;angolo superiore destro del tipo di record.
+
+   Viene visualizzata la casella **Condividi**.
+1. Individuare l&#39;utente, il gruppo, il team, la società o la mansione di cui si desidera rimuovere le autorizzazioni, espandere il menu a discesa delle autorizzazioni a destra del nome, quindi fare clic su **Rimuovi**. <!--check the screen shot below - the UI text for View might not be accurate-->
+
+   ![Rimuovi opzione nell&#39;elenco a discesa per la condivisione dei tipi di record](assets/remove-option-on-record-type-sharing-drop-down.png)
+
+1. Fai clic su **Salva**.
+
+   Gli utenti non hanno più accesso al tipo di record. Possono comunque disporre delle autorizzazioni per l’area di lavoro, a meno che non vengano rimosse anche dalle autorizzazioni dell’area di lavoro.
+
+   Agli utenti che sono stati rimossi dall’accesso alla vista non viene notificato che non dispongono più di questo accesso.

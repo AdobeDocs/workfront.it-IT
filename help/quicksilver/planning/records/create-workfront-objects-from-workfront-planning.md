@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1138'
 ht-degree: 2%
 
 ---
@@ -58,7 +58,7 @@ Per informazioni sulla connessione dei record di Planning con gli oggetti di Wor
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso per Workfront Planning.
++++ Espandi per visualizzare i requisiti di accesso.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -113,7 +113,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
-   <td> <p>Consente di gestire le autorizzazioni per l'area di lavoro a cui si desidera aggiungere record. </p>  
+   <td> <p>Gestire le autorizzazioni per l'area di lavoro <!--<span class="preview">and record type</span>--> in cui si desidera aggiungere record. </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
    <p>Gestisci le autorizzazioni per gli oggetti Workfront (portfolio) per aggiungere oggetti figlio (progetti).</p>
    </td> 

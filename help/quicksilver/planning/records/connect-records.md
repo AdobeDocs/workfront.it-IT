@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '3330'
+source-wordcount: '3327'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ Per un esempio di connessione dei tipi di record, vedere [Esempio di connessione
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso per Workfront Planning.
++++ Espandi per visualizzare i requisiti di accesso.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -118,8 +118,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
-   <td>   <p>Autorizzazioni Contribute o superiori per un'area di lavoro per la connessione di record </p>  
-   <p>Consente di visualizzare o autorizzazioni superiori per un'area di lavoro per visualizzare tutte le connessioni a oggetti e campi da altre applicazioni, indipendentemente dall'accesso all'altra applicazione. </p>
+   <td>   <p>Autorizzazioni Contribute o superiori a un'area di lavoro <!--<span class="preview">and record type</span>--> per la connessione dei record </p>  
+   <p>Visualizza o autorizzazioni superiori per un'area di lavoro <!--<span class="preview">and record type</span>--> per visualizzare tutte le connessioni a oggetti e campi da altre applicazioni, indipendentemente dall'accesso all'altra applicazione. </p>
    <p>Visualizza o autorizzazioni superiori per gli oggetti che si desidera collegare da Workfront o Experience Manager Assets. </p>
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle che non hanno creato.</p> </td> 
   </tr> 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Per informazioni sulla concessione di autorizzazioni per visualizzazioni e aree 
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso per Workfront Planning.
++++ Espandi per visualizzare i requisiti di accesso.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -94,7 +94,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
    <td>  <p>Dopo aver concesso la richiesta di autorizzazione, puoi ottenere le seguenti autorizzazioni:</p>
    <ul><li><p>Visualizzare o gestire una visualizzazione</p></li>
-   <li><p>Visualizzare, Contribute o gestire in un’area di lavoro</p></li></ul>  
+   <li><p>Visualizzare, contribuire o gestire in un'area di lavoro</p></li></ul>  
    <p>Solo gli utenti con le autorizzazioni di gestione per un’area di lavoro e una visualizzazione possono condividere una visualizzazione pubblicamente.</p></td> 
   </tr> 
 <tr> 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '2344'
+source-wordcount: '2341'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ Per un esempio di connessione di tipi di record e record, vedere [Esempio di con
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso per Workfront Planning.
++++ Espandi per visualizzare i requisiti di accesso.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 

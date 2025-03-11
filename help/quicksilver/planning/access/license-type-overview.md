@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Il tipo di licenza di Adobe Workfront funziona in combinazione con le autorizzazioni di Adobe Workfront Planning per concedere i seguenti accessi:
 
-* Visualizzare, contribuire o gestire le aree di lavoro
+* Visualizza, contribuisce o gestisci le aree di lavoro <!--<span class="preview">or record types</span>-->
 * Visualizzare o gestire le visualizzazioni.
 
 Per informazioni sulle autorizzazioni per gli oggetti in Workfront Planning, vedere [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
@@ -39,9 +39,20 @@ La concessione di autorizzazioni utente a un&#39;area di lavoro consente inoltre
 
 Per poter accedere alle viste e gestirle, è necessario concedere agli utenti autorizzazioni distinte per le viste, oltre a quelle di cui dispongono per le aree di lavoro.
 
+
+<div class="preview">
+
+Quando si utilizzano le autorizzazioni per il tipo di record, tenere presente quanto segue:
+
+* Gli utenti ereditano automaticamente le autorizzazioni del tipo di record dalle aree di lavoro.
+* Quando un utente dispone delle autorizzazioni di gestione per un’area di lavoro, non può avere un accesso inferiore al tipo di record.
+* Gli utenti non possono disporre di autorizzazioni maggiori per un tipo di record rispetto a quelle disponibili per l’area di lavoro a cui appartiene il tipo di record.
+
+</div>
+
 | Tipo di licenza Adobe Workfront* | Autorizzazioni massime consentite in Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Standard | <p>Gli utenti possono gestire le aree di lavoro e le visualizzazioni. Possono creare, modificare o eliminare aree di lavoro, tipi di record, record, campi e visualizzazioni.</p> <br> <p>Gli amministratori di sistema dispongono delle autorizzazioni di gestione per tutte le aree di lavoro, incluse quelle che non hanno creato.</p> |
+| Standard | <p>Gli utenti possono gestire aree di lavoro <span class="preview">, tipi di record, </span> e visualizzazioni. Possono creare, modificare o eliminare aree di lavoro, tipi di record, record, campi e visualizzazioni.</p> <br> <p>Gli amministratori di sistema dispongono delle autorizzazioni di gestione per tutte le aree di lavoro, incluse quelle che non hanno creato.</p> |
 | Light o Collaboratore | <p>Gli utenti possono visualizzare le aree di lavoro condivise, nonché i tipi di record, i record e i campi di tali aree di lavoro.</p> <br> <p>Gli utenti possono visualizzare le visualizzazioni condivise con loro, ma non possono crearne di proprie. </p><br> <p>Gli utenti non possono creare, modificare o eliminare aree di lavoro, tipi di record, record o campi.</p> |
 
 *Workfront Planning non è disponibile per le licenze Workfront legacy.
@@ -60,9 +71,11 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 ### Tipi di licenze e autorizzazioni dell’area di lavoro
 
-Solo gli utenti con una licenza Standard possono disporre delle autorizzazioni Contribute o Manage per le aree di lavoro. Gli utenti con tutti gli altri tipi di licenza possono disporre delle autorizzazioni di visualizzazione per le aree di lavoro condivise con loro.
+Solo gli utenti con una licenza Standard possono disporre delle autorizzazioni Contribute o Manage per le aree di lavoro <span class="preview"> e i tipi di record</span>. Gli utenti con tutti gli altri tipi di licenza possono disporre delle autorizzazioni di visualizzazione per le aree di lavoro <span class="preview"> e i tipi di record </span> condivisi con loro.
 
 Gli amministratori di sistema possono visualizzare tutte le aree di lavoro del sistema, anche quelle che non hanno creato.
+
+<!--does the shot below need to be replaced for record types??-->
 
 >[!INFO]
 >

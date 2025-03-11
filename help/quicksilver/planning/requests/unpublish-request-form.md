@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 1%
@@ -89,7 +89,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td>
    <td>
    <ul>
-   <li><p>Gestire le autorizzazioni per un’area di lavoro</p></li>
+   <li><p>Gestire le autorizzazioni per un'area di lavoro <!--<span class="preview">and record type</span>--> </p></li>
     <li><p>Gli amministratori di sistema possono gestire le aree di lavoro che non hanno creato. </p></li>
     </ul>
    <p>Per informazioni sulle autorizzazioni di condivisione per gli oggetti di Workfront Planning, vedere  
@@ -149,7 +149,7 @@ Quando un modulo di richiesta diventa irrilevante e non desideri più che qualcu
 
    Nella parte inferiore della schermata viene visualizzata una conferma che notifica l’annullamento della pubblicazione del modulo.
 
-   Il pulsante **Annulla pubblicazione** diventa **Publish**.
+   Il pulsante **Annulla pubblicazione** diventa **Pubblica**.
 
 1. Fai clic su **Salva**.
 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '510'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 1%
 <!--should this move to the Access folder when we have sharing for ALL the objects???-->
 
 # Condividere i record
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -28,13 +32,28 @@ Per collaborare con altri utenti, è possibile condividere i record con altri ut
 
 * Copiare un collegamento alla pagina del record quando si visualizzano i record nella vista tabella del tipo di record.
 
-* È possibile condividere tutti i record di un&#39;area di lavoro con altri utenti condividendo l&#39;area di lavoro. Per ulteriori informazioni, vedere [Condividere un&#39;area di lavoro](/help/quicksilver/planning/access/share-workspaces.md).
+* È possibile condividere tutti i record di un&#39;area di lavoro con altri utenti condividendo l&#39;area di lavoro <!--<span class="preview">and record type</span>-->. Per ulteriori informazioni, vedere [Condividere un&#39;area di lavoro](/help/quicksilver/planning/access/share-workspaces.md).
+
+<!-- replace the last sentence above with this: 
+
+For more information see the following articles:
+
+* [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md)
+
+
+<div class="preview">
+
+* [Share a record type](/help/quicksilver/planning/access/share-record-types.md)
+
+</div>
+
+-->
 
 In questo articolo viene descritto come copiare un collegamento alla pagina di un record dalla vista tabella di un tipo di record.
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso per Workfront Planning.
++++ Espandi per visualizzare i requisiti di accesso.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -88,8 +107,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
-   <td>  <p>Visualizzare o autorizzazioni superiori per un'area di lavoro per condividere un record utilizzando un collegamento </p>
-   <p>Gestire le autorizzazioni di un'area di lavoro per condividere i record dell'area di lavoro a cui appartiene il record </p>
+   <td>  <p>Visualizza o autorizzazioni superiori per un'area di lavoro per condividere <!--<span class="preview">and record type</span>--> un record utilizzando un collegamento </p>
+   <p>Gestire le autorizzazioni per un'area di lavoro <!--<span class="preview">and record type</span>--> per condividere i record nell'area di lavoro </p>
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  </td> 
   </tr> 
 <tr> 

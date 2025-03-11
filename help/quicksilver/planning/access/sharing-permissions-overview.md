@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '922'
 ht-degree: 6%
 
 ---
@@ -18,17 +18,17 @@ ht-degree: 6%
 
 # Panoramica delle autorizzazioni di condivisione in Adobe Workfront Planning
 
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+
+
 {{planning-important-intro}}
 
 È possibile condividere o rimuovere le autorizzazioni per un&#39;area di lavoro o una vista di Adobe Workfront Planning.
 
 Questo articolo descrive i livelli di autorizzazione per gli oggetti di Workfront Planning.
-
-Per informazioni su come condividere aree di lavoro o visualizzazioni, vedere i seguenti articoli:
-
-* [Condividere le aree di lavoro](/help/quicksilver/planning/access/share-workspaces.md)
-
-* [Condividere le visualizzazioni](/help/quicksilver/planning/access/share-views.md)
 
 ## Oggetti condivisibili in Adobe Workfront Planning
 
@@ -40,6 +40,22 @@ Per informazioni su come condividere aree di lavoro o visualizzazioni, vedere i 
    * Quando si condivide un&#39;area di lavoro, vengono condivisi anche tutti i tipi di record, i record e i campi associati alle aree di lavoro.
    * Quando si condivide un&#39;area di lavoro, le visualizzazioni non vengono condivise. Le visualizzazioni sono condivise separatamente.
 
+  Per ulteriori informazioni, vedere [Condividi aree di lavoro](/help/quicksilver/planning/access/share-workspaces.md)
+
+<!--
+<div class="preview">
+
+* Record types
+
+    * You can share record types with people inside your organization.
+    * The level of permissions granted for the workspace displays as Inherited permissions for the record type. 
+    * You cannot share a workspace with a higher permission level than the user has on the workspace. 
+
+    For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
+
+</div>
+-->
+
 * Viste
 
    * È necessario concedere agli utenti, inclusi gli amministratori di sistema, le autorizzazioni per accedere alle visualizzazioni separatamente dalle relative autorizzazioni per accedere alle aree di lavoro.
@@ -47,12 +63,20 @@ Per informazioni su come condividere aree di lavoro o visualizzazioni, vedere i 
    * Quando si condivide una visualizzazione, i record visibili nella visualizzazione non vengono condivisi. I record devono essere condivisi condividendo le aree di lavoro.
    * È possibile condividere una visualizzazione pubblicamente con utenti esterni all&#39;organizzazione quando si genera un collegamento pubblico per una visualizzazione.Gli utenti che accedono alla pagina record da un collegamento pubblico possono visualizzare tutti i record e i relativi campi, inclusi i record e i campi collegati.
 
-  Per informazioni, vedere [Condividi visualizzazioni](/help/quicksilver/planning/access/share-views.md).
+  Per ulteriori informazioni, vedere [Condividi visualizzazioni](/help/quicksilver/planning/access/share-views.md).
 
 Internamente, potete condividere un&#39;area di lavoro o una vista con le seguenti entità Workfront:
 
 * Utenti
 * Gruppi
+
+<div class="preview">
+
+* Team
+* Aziende
+* Mansioni
+
+</div>
 
 ## Considerazioni sulla condivisione di oggetti in Adobe Workfront Planning
 
@@ -78,7 +102,7 @@ Le tabelle delle sezioni seguenti illustrano il livello di autorizzazioni che è
 >
 >Non tutti gli utenti possono disporre dei livelli di autorizzazione descritti di seguito. La licenza individuale degli utenti determina il livello di autorizzazioni che possono ricevere per gli oggetti di Workfront Planning.
 >
->Solo gli utenti con licenza Standard (o Plan) possono disporre delle autorizzazioni Contribute o Manage per le aree di lavoro e delle autorizzazioni Manage per le visualizzazioni.
+>Solo gli utenti con licenza Standard (o Plan) possono disporre delle autorizzazioni Contribute (Contribuisci) o Manage (Gestisci) per le aree di lavoro e delle autorizzazioni Manage (Gestisci) per le viste.
 > 
 >Gli utenti con tutti gli altri tipi di licenza possono disporre delle autorizzazioni di visualizzazione per le aree di lavoro e le visualizzazioni.
 >
@@ -105,7 +129,7 @@ Di seguito sono riportati i livelli di autorizzazione per le aree di lavoro:
 
 ### Autorizzazioni del tipo di record
 
-Le autorizzazioni del tipo di record vengono ereditate quando si concedono le autorizzazioni all&#39;area di lavoro.
+<!--In the Production environment,--> Le autorizzazioni del tipo di record vengono sempre ereditate quando si concedono le autorizzazioni all&#39;area di lavoro.
 
 Di seguito sono riportati i livelli di autorizzazione per i tipi di record:
 
@@ -116,6 +140,27 @@ Di seguito sono riportati i livelli di autorizzazione per i tipi di record:
 | Elimina | ✓ |            |       |
 | Modifica | ✓ |            |       |
 | Visualizza | ✓ | ✓ | ✓ |
+
+<!--
+
+<div class="preview">
+
+In the Preview environment, Record Type permissions are inherited when you grant permissions to the workspace. 
+
+You can remove inherited permissions from the record type, but you can never grant higher permissions for the record type than users have on the workspace. 
+
+The following scenarios exist: 
+
+|   Workspace permissions     | Automatic inherited permissions for a Record Type |Possible Record Type permissions when Inherited permissions are turned off (granted manually)| 
+|--------|--------|-------------|
+| Manage |   Manage    |   Manage, No permissions           | 
+| Contribute |     Contribute |  Contribute, View, No permissions        |
+| View   |  View     |      View, No permissions        |     
+
+
+</div>
+
+-->
 
 ### Autorizzazioni record
 

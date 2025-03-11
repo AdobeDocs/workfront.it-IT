@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '1916'
+source-wordcount: '1913'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Per informazioni, vedere i seguenti articoli:
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso per Workfront Planning.
++++ Espandi per visualizzare i requisiti di accesso.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -99,7 +99,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <tr>
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td>
    <td>
-   <p>Autorizzazioni di Contribute o superiori per un'area di lavoro</a> </p>  
+   <p>Autorizzazioni di Contribute o superiori per un'area di lavoro <!--<span class="preview">and record type</span>--> </a> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p> 
   </td>
   </tr>

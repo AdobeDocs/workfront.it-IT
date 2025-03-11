@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1600'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ This article describes how you can share a view with others. For information abo
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso per Workfront Planning.
++++ Espandi per visualizzare i requisiti di accesso.
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
@@ -112,68 +112,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 *Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--OLD: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan </p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> There are no access controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a view</p>  
-   <p>Only users with Manage permissions to a workspace can share a view publicly.</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p> 
-</td>
-  </tr>
- </tbody>
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
-
 +++
 
 ## Considerazioni durante la condivisione delle visualizzazioni
 
+* Per informazioni generali sulla condivisione di oggetti in Workfront Planning, vedere anche [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 * È possibile assegnare le autorizzazioni Visualizzazione o Gestione a una visualizzazione agli utenti interni di Workfront.
 
 * Gli utenti con le autorizzazioni Gestione possono modificare le impostazioni di visualizzazione, condividerle, duplicarle o eliminarle.
@@ -186,7 +129,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Condivisione interna delle autorizzazioni per una visualizzazione
 
-Puoi condividere le visualizzazioni che hai creato o le visualizzazioni per le quali disponi delle autorizzazioni di gestione con utenti, gruppi, <span class="preview">team, aziende e mansioni</span> in Workfront.
+In Workfront Planning è possibile condividere le visualizzazioni create o le visualizzazioni per le quali si dispone delle autorizzazioni di gestione con utenti, gruppi, <span class="preview">team, aziende e mansioni</span>.
 
 >[!NOTE]
 >

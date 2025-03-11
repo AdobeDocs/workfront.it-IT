@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1797'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso per Workfront Planning.
++++ Espandi per visualizzare i requisiti di accesso.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -92,7 +92,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td>
    <td>
    <p>In Workfront, visualizzare o autorizzazioni superiori per un progetto, portfolio o programma</a> </p> 
-   <p>In Workfront Planning, visualizzare le autorizzazioni di un'area di lavoro per visualizzare tutti i record connessi o le autorizzazioni Contribute o superiori a un'area di lavoro per connettere o disconnettere i record</a> </p>  
+   <p>In Workfront Planning:
+   <ul><li>
+   Visualizza le autorizzazioni per un'area di lavoro <!--<span class="preview">and record type</span>--> per visualizzare tutti i record connessi </li>
+   oppure
+   <li> Autorizzazioni Contribute o superiori a un'area di lavoro <!--<span class="preview">and record type</span>--> per connettere o disconnettere i record</a></li></ul> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro di Workfront Planning, incluse quelle non create</p> 
   </td>
   </tr>

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '2638'
+source-wordcount: '2635'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Per informazioni sulle visualizzazioni record, vedere [Gestione visualizzazioni 
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso per Workfront Planning.
++++ Espandi per visualizzare i requisiti di accesso.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -403,7 +403,7 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
 * È possibile visualizzare i record o gli oggetti connessi sotto i record del tipo di record selezionato nella vista timeline.
 * Utilizzando la funzione Raggruppamento (Breakdown), potete visualizzare quanto segue nella vista timeline:
    * Record di Workfront Planning connessi al tipo di record selezionato.
-   * Tipi di oggetto Workfront o risorse di Experience Manager connesse al tipo di record selezionato.
+   * Tipi di oggetto Workfront o risorse Experience Manager connesse al tipo di record selezionato.
    * Record di Workfront Planning o oggetti di un&#39;altra applicazione connessi a record connessi al tipo di record selezionato.
 
      Ad esempio, puoi collegare le campagne ai portfolio. Inoltre, è possibile collegare un altro tipo di record, prodotti, con progetti e con campagne. Quando crei la visualizzazione timeline della campagna, puoi suddividere le campagne per portfolio, prodotti e progetti.

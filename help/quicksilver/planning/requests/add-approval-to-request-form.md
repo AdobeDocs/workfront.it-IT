@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
@@ -93,7 +93,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td>
    <td>
    <ul>
-   <li><p>Gestire le autorizzazioni per un’area di lavoro</p></li>
+   <li><p>Gestire le autorizzazioni per un’area di lavoro <!--<span class="preview">and record type</span>--></p></li>
     <li><p>Gli amministratori di sistema possono gestire le aree di lavoro che non hanno creato. </p></li>
     </ul>
    <p>Per informazioni sulle autorizzazioni di condivisione per gli oggetti di Workfront Planning, vedere  
@@ -148,7 +148,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >* Tutti gli approvatori devono prendere una decisione prima che una richiesta venga approvata o rifiutata.
 
 
-1. (Facoltativo) Fai clic su **Publish** se non hai mai condiviso il modulo di richiesta in precedenza
+1. (Facoltativo) Fai clic su **Pubblica** se non hai mai condiviso il modulo di richiesta in precedenza
 
    Oppure
 

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '1865'
 ht-degree: 1%
@@ -95,7 +95,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td>
    <td>
    <ul>
-   <li><p>Gestire le autorizzazioni per un’area di lavoro</p></li>
+   <li><p>Gestire le autorizzazioni per un'area di lavoro <!--<span class="preview">and record type</span>--> </p></li>
     <li><p>Gli amministratori di sistema possono gestire le aree di lavoro che non hanno creato. </p></li>
     </ul>
    <p>Per informazioni sulle autorizzazioni di condivisione per gli oggetti di Workfront Planning, vedere  
