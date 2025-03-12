@@ -6,7 +6,7 @@ description: Potete creare una storia agile su un'iterazione in vari modi. Dopo 
 author: Lisa
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 9a363dc0c591985c7ae8edb4a511fd648b486f1c
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    1. Nel pannello a sinistra, seleziona **[!UICONTROL Iterazioni]** per scegliere un&#39;iterazione specifica oppure seleziona **[!UICONTROL Iterazione corrente]**.
    1. Fare clic sul nome dell&#39;iterazione specifica in cui si desidera creare un brano.
 
-   ![Aggiungi nuova storia all&#39;iterazione](assets/iteration-add-story.png)
+   ![Aggiungi nuova storia all&#39;iterazione](assets/iteration-stories-list.png)
 
 1. Fai clic su **[!UICONTROL Nuova storia].**
 1. Specifica le seguenti informazioni:

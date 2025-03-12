@@ -6,9 +6,9 @@ description: Le iterazioni sono un componente chiave per i team agili Scrum nell
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
+source-git-commit: 6fb0870b919baf49e17d48586b2a9661e5cb4b94
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,14 @@ Utilizza la funzione [!UICONTROL Iterazione piano] per creare un&#39;iterazione 
 
 1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team Scrum dal menu a discesa o cerca un team nella barra di ricerca.
 
-1. Seleziona **[!UICONTROL Backlog]** nel pannello a sinistra. Quindi fare clic su **[!UICONTROL Iterazione piano]**.
+1. Seleziona **[!UICONTROL Backlog]** nel pannello a sinistra.
+
+1. Nella scheda **Storie** o **Problemi**, seleziona almeno un elemento di lavoro, quindi fai clic su **[!UICONTROL Iterazione piano]**.
+
+>[!NOTE]
+>
+> Non è possibile passare dalla scheda Storie alla scheda Problemi durante la pianificazione di un&#39;iterazione nella scheda Backlog. Puoi aggiungere storie o problemi esistenti una volta creata l’iterazione. Per ulteriori informazioni, consulta [Spostare i brani dal backlog a un&#39;iterazione o a una bacheca](/help/quicksilver/agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or-board).
+
 
 1. Specifica le seguenti informazioni:
 

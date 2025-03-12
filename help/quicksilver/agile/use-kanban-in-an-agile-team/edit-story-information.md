@@ -6,9 +6,9 @@ description: Quando visualizzi una sezione del brano sulla bacheca Kanban, alcun
 author: Lisa
 feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. Vai alla bacheca [!UICONTROL Kanban].
 1. Espandere il riquadro del brano per visualizzare tutti i campi associati al brano.
 
-   ![](assets/story-expanded-on-kanban-board-2021-350x405.png)
+   ![Scheda storia](assets/story-expanded-on-kanban-board-2021-350x405.png)
 
 1. (Facoltativo) Per modificare un campo, fai clic sul campo e apporta le modifiche necessarie.
 Per modificare il riquadro della storia, è necessario disporre dei diritti [!UICONTROL Modifica] per l&#39;attività o il problema.

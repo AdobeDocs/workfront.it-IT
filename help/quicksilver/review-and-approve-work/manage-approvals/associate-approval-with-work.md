@@ -7,9 +7,9 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: e02a593ddca923067eb61f838a7ade17e7fc3652
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '1917'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,9 @@ Nelle sezioni seguenti vengono descritti i diversi metodi di associazione di un 
 
 È possibile associare un processo di approvazione globale a un elemento di lavoro (progetto, attività, problema, modello, attività modello).
 
-Il processo di approvazione globale deve essere disponibile per il gruppo associato all&#39;elemento di lavoro o per tutti i gruppi del sistema.
+Puoi accedere a qualsiasi processo di approvazione globale purché sia condiviso con un gruppo a cui appartieni o con tutti i gruppi del sistema.
+
+<!--The global approval process must be available to the group associated with the work item or to all groups in the system.-->
 
 >[!NOTE]
 >

@@ -6,9 +6,9 @@ description: L'associazione di colore predefinita delle storie della bacheca Scr
 author: Lisa
 feature: Agile
 exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -59,8 +59,8 @@ Se le impostazioni del team Agile sono state configurate in modo che l&#39;opzio
 1. Nel pannello a sinistra, seleziona **[!UICONTROL Iterazioni]** per scegliere un&#39;iterazione specifica oppure seleziona **[!UICONTROL Iterazione corrente]**.
 1. Passa il puntatore del mouse sul banner colorato nella parte superiore della sezione della storia.
 
-   ![](assets/agile-story-color1-nwe-350x140.png)
+   ![scheda storia](assets/agile-story-color1-nwe-350x140.png)
 
 1. Fare clic su **[!UICONTROL Cambia colore]**, quindi selezionare il colore desiderato.
 
-   ![](assets/agile-story-color2-nwe-350x138.png)
+   ![scegli il colore](assets/agile-story-color2-nwe-350x138.png)

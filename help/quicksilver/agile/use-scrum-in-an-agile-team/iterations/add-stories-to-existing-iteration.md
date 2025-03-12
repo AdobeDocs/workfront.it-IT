@@ -6,9 +6,9 @@ description: È possibile aggiungere storie a un'iterazione in molti modi.
 author: Lisa
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Puoi aggiungere qualsiasi attività o problema a qualsiasi iterazione se disponi
 Oppure
 Passare al progetto, report o dashboard contenente l&#39;attività o il problema che si desidera aggiungere a un&#39;iterazione. Quindi, seleziona una o più attività o problemi.
 
-1. Fai clic su **[!UICONTROL Altro]** ![](assets/more-icon.png) > **[!UICONTROL Aggiungi a iterazione]**.
+1. Fai clic sull&#39;icona **[!UICONTROL Altro]** ![Altro](assets/more-icon.png) > **[!UICONTROL Aggiungi all&#39;iterazione]**.
 Non puoi assegnare attività o problemi ai team non agili.
 
 1. Nella casella **[!UICONTROL Aggiungi a]** digitare il nome dell&#39;iterazione e selezionarlo quando viene visualizzato nell&#39;elenco.

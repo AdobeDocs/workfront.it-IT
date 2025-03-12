@@ -6,9 +6,9 @@ description: Quando visualizzi una sezione del brano sulla bacheca Kanban, alcun
 author: Lisa
 feature: Agile
 exl-id: 88d156ea-0913-425e-b3eb-6ae81d2d2336
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>
    <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td>Accesso [!UICONTROL Contribute] o [!UICONTROL Gestisci] all'attività o al problema</td> 
+   <td>Accesso [!UICONTROL Contribute] o [!UICONTROL Manage] all'attività o al problema</td> 
   </tr>
  </tbody> 
 </table>
@@ -109,7 +109,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. Vai alla bacheca delle storie agile [!UICONTROL Scrum].
 1. Espandi il riquadro [!UICONTROL storia] per visualizzare tutti i campi associati alla storia.
 
-   ![](assets/agile-storycard-scrum-2021-350x333.png)
+   ![scheda storia](assets/agile-storycard-scrum-2021-350x333.png)
 
 1. (Facoltativo) Per modificare un campo, fai clic sul campo e apporta le modifiche necessarie.
 

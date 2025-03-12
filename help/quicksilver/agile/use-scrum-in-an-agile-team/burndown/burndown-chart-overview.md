@@ -7,9 +7,9 @@ description: Il grafico burndown fornisce una rappresentazione visiva dell'avanz
 author: Lisa
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -31,31 +31,31 @@ Il grafico a burn-down contiene i seguenti indicatori visivi:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt="Inizio tasso di burndown ideale"> </td> 
    <td> <p>Percentuale di burndown ideale in base a quando è iniziata l'iterazione.</p> <p>Questa riga non viene visualizzata se l’ambito dell’iterazione non cambia mai (le ore o i punti non vengono mai aggiunti o rimossi).</p> <p>Questa linea viene visualizzata come piatta quando il lavoro viene eseguito in un giorno libero. Per ulteriori informazioni, vedere <a title="Utilizzo del grafico Burndown Agile" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Come i giorni liberi influiscono sul grafico di burn-down</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt="Percentuale di burn-down ideale per storie o attività"> </td> 
    <td> <p>Percentuale di burndown ideale in base alle storie o alle attività correnti.</p> <p>La velocità di burn-down ideale corrente (linea blu continua) differisce dalla velocità di burndown ideale originale (linea blu punteggiata) quando le ore o i punti vengono aggiunti o rimossi dall'iterazione dopo l'inizio dell'iterazione.</p> <p>Questa linea viene visualizzata come piatta quando il lavoro viene eseguito in un giorno libero.</p> <p>Per ulteriori informazioni, vedere <a title="Utilizzo del grafico Burndown Agile" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Come i giorni liberi influiscono sul grafico di burn-down</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt="Percentuale di burn-down effettiva in rosso"> </td> 
    <td> <p>Il tasso di burndown effettivo viene visualizzato in rosso quando il tasso di burndown è inferiore all’ideale (più punti o ore rimanenti al giorno rispetto al calcolo del burndown ideale).</p> <p>La formula seguente viene utilizzata per calcolare il tasso di burn-down effettivo:</p> <p>[SOMMA (valore punto o ora del lavoro in corso * percentuale di completamento) + valore punto o ora del lavoro completato]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-green.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-green.png" alt="Percentuale di burn-down effettiva in verde"> </td> 
    <td> <p>Il tasso di burndown effettivo viene visualizzato in verde quando il tasso di burndown è uguale o migliore dell’ideale (sono rimasti meno punti al giorno del calcolo del burndown ideale).</p> <p>La formula seguente viene utilizzata per calcolare il tasso di burn-down effettivo:</p> <p>[SOMMA (valore punto o ora del lavoro in corso * percentuale di completamento) + valore punto o ora del lavoro completato]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="Modifica dell&apos;ambito"> </td> 
    <td> <p>Modifica dell’ambito (le ore o i punti vengono aggiunti o rimossi dall’iterazione).</p> <p>Le modifiche di ambito vengono sempre visualizzate come una linea verticale a metà giornata. Inoltre, un punto blu viene visualizzato nel mezzo di qualsiasi giorno in cui si è verificata una modifica dell’ambito.</p> <p>L'asse verticale del grafico a bruciatura mostra i punti o le ore del brano.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="Modifica nell’intervallo di date"> </td> 
    <td> <p>Modifica nell’intervallo di date (la durata dell’iterazione aumenta o diminuisce).</p> <p>Un punto blu viene visualizzato al centro di qualsiasi giorno in cui la durata dell'iterazione è stata modificata.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="Un punto verde per il lavoro bruciato"> </td> 
    <td> <p>Un punto verde o rosso viene visualizzato sulla frequenza di masterizzazione effettiva ogni volta che il lavoro viene masterizzato. (Quando il tasso di burn-down effettivo in quel giorno è rosso, il punto è rosso; quando il tasso di burndown effettivo in quel giorno è verde, il punto è verde.)</p> <p>Il lavoro viene masterizzato quando si verifica una delle seguenti situazioni:</p> 
     <ul> 
      <li> Il [!UICONTROL Percent Complete] viene aumentato nella storia.<br>[!UICONTROL Percent Complete] viene aumentato quando: 

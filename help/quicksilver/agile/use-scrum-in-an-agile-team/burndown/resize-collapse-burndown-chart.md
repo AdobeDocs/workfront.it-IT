@@ -6,9 +6,9 @@ description: È possibile ridimensionare o comprimere il grafico a bruciatura pe
 author: Lisa
 feature: Agile
 exl-id: ad7ea883-987a-4278-8d24-7c1dd4e542a3
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Passare all&#39;iterazione contenente il grafico a burn-down che si desidera ridimensionare.
 1. Passa il puntatore del mouse sulla linea inferiore del grafico a burn-down, quindi trascina il grafico fino a ottenere le dimensioni desiderate.
-   ![](assets/burndown-resize.png)
+   ![Ridimensionare il grafico di burn-down](assets/burndown-resize.png)
 
 ## Comprimi il grafico a dispersione
 

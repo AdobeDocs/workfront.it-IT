@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 1a0902c7c6e1b7f647564e448daf74748d9cb3db
+source-git-commit: 3ea3acc79a0f2d9c61b4ca7fff68855a9a7b1de7
 workflow-type: tm+mt
-source-wordcount: '1634'
+source-wordcount: '1706'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ In questa pagina sono elencati gli aggiornamenti dell’interfaccia che stiamo a
 Per tutte le altre modifiche apportate ad Adobe Workfront, vedi [Versioni del prodotto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Amministrazione e configurazione
+
++++Espandi per visualizzare gli aggiornamenti dell’interfaccia di amministrazione e configurazione
 
 ### Aggiornamento dell&#39;interfaccia per il Centro notifiche
 
@@ -140,7 +142,11 @@ Gli elenchi Approvazioni progetti, attività e problemi sono stati aggiornati in
 
 Questo aggiornamento include modifiche visive all’area. Nessuna funzionalità è stata modificata.
 
++++
+
 ## Agile
+
++++Espandi per visualizzare gli aggiornamenti dell’interfaccia Agile
 
 ### Aggiornamenti dell’interfaccia per le richieste del team
 
@@ -177,7 +183,8 @@ Abbiamo aggiornato l’area Team > Backlog con un design più moderno che è coe
 Questo aggiornamento include le seguenti modifiche:
 
 * Miglioramenti visivi alla scheda Storie e problemi e alla finestra di dialogo Breakdown Story
-* Una nuova finestra di dialogo per lo strumento Iterazione piano
+* Una nuova finestra di dialogo per lo strumento Iterazione piano. È necessario selezionare una storia o un problema per visualizzare il pulsante Iterazione piano.
+* Non è più possibile passare dalla scheda Storie alla scheda Problemi durante la pianificazione di un’iterazione. Puoi aggiungere storie o problemi dalla scheda backlog una volta creata l’iterazione.
 
 ### Aggiornamento interfaccia per l&#39;elenco Iterazioni
 
@@ -199,7 +206,11 @@ Questo aggiornamento include modifiche visive all’area. Nessuna funzionalità 
 
 Per visualizzare questa modifica, vai a Team > scegli un team > Backlog, quindi fai clic su **Nuova storia** o **Nuovo problema**.
 
++++
+
 ## Documenti
+
++++Espandi per visualizzare gli aggiornamenti dell’interfaccia Documenti
 
 ### Aggiornamento dell’interfaccia per l’area Approvazioni di un documento
 
@@ -217,7 +228,11 @@ La finestra di dialogo di modifica Cartelle avanzate è stata aggiornata con un 
 
 Per visualizzare questa modifica, passa a Documenti > Fai clic sul menu Altro accanto al nome del filtro avanzato > Fai clic su Modifica.
 
++++
+
 ## Report e dashboard
+
++++Espandi per visualizzare gli aggiornamenti dell’interfaccia per Report e Dashboard.
 
 ### È stato aggiornato il rapporto Team con un nuovo stile
 
@@ -271,3 +286,5 @@ Questi aggiornamenti includono modifiche visive all’area. Nessuna funzionalit�
 
 * Filtri legacy
 * Raggruppamenti
+
++++

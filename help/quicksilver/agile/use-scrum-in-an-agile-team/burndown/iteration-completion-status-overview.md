@@ -7,9 +7,9 @@ description: Le informazioni di completamento descritte in questo articolo vengo
 author: Lisa
 feature: Agile
 exl-id: cc6bebdb-f2aa-4e85-9f9f-15e7753d84cb
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Le informazioni di completamento descritte in questo articolo vengono visualizza
 
 Percentuale di completamento in un&#39;iterazione:
 
-![](assets/burndown-percentcomplete-350x47.png)
+![pannello dettagli iterazione](assets/burndown-percentcomplete-350x47.png)
 
 Queste informazioni indicano lo stato di completamento dell&#39;iterazione per il giorno attualmente selezionato nel grafico a dispersione. Per impostazione predefinita, lo stato di completamento viene visualizzato in base alla data del giorno corrente.
 
