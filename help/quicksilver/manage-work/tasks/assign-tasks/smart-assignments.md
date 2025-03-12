@@ -7,9 +7,9 @@ description: Quando gestisci le assegnazioni di attività e problemi, puoi utili
 author: Lisa
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -51,23 +51,23 @@ Puoi visualizzare le assegnazioni intelligenti nelle seguenti aree, dove puoi as
 
 * Un elenco di problemi o un report nella colonna Assegnazioni
 
-  ![](assets/smart-assignments-issue-list.png)
+  ![Colonna assegnazioni elenco problemi](assets/smart-assignments-issue-list.png)
 
 * Un elenco di attività o un report nella colonna Assegnazioni
 
-  ![](assets/smart-assignments-task-list.png)
+  ![Colonna assegnazioni elenco attività](assets/smart-assignments-task-list.png)
 
 * Un&#39;intestazione di attività nel campo Assegnazioni
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  ![Campo Assegnazioni intestazione attività](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * Intestazione di un problema nel campo Assegnazioni
 
-  ![](assets/smart-assignments-issue-header.png)
+  ![Campo assegnazioni intestazione problema](assets/smart-assignments-issue-header.png)
 
 * Pannello Riepilogo attività o problemi nell’area Assegnazioni
 
-  ![](assets/issue-assignments-summary-panel.png)
+  ![Area assegnazioni pannello di riepilogo](assets/issue-assignments-summary-panel.png)
 
 <!--* The Assignments field in the New Task box, when adding a task to a project
 
@@ -81,8 +81,7 @@ Puoi visualizzare le assegnazioni intelligenti nelle seguenti aree, dove puoi as
 
 * Bilanciatore dei carichi di lavoro nell’area Assegnato a quando si assegna un’attività o un problema
 
-  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
-
+  ![Area assegnazioni del Bilanciatore dei carichi di lavoro](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 ## Criteri di assegnazione intelligenti
 
@@ -153,7 +152,7 @@ Le assegnazioni identificate sono elencate nelle sezioni **Utenti e team**, **As
 >
 >The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. For information, see the section [First phase of smart assignment calculation for tasks](#first-phase-of-smart-assignment-calculation-for-tasks) in this article. The following criteria always applies for issues, by default. -->
 
-![](assets/smart-assignments-issue-header.png)
+![Assegnazione intelligente di esempio](assets/smart-assignments-issue-header.png)
 
 Gli utenti sono consigliati nell’elenco a discesa delle assegnazioni intelligenti in base a una combinazione dei seguenti criteri (elencati in ordine crescente e decrescente):
 

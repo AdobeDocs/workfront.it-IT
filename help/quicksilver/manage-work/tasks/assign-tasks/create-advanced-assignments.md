@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 4072e71dc0ba76871e17da7718ed4b77a3cdbda6
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1132'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ## Aree di Adobe Workfront in cui è possibile effettuare assegnazioni avanzate
 
-Questo articolo descrive come accedere ad Assegnazioni anticipate nell’intestazione dell’attività o del problema.
+Questo articolo descrive come accedere alle assegnazioni avanzate nell’intestazione dell’attività o del problema.
 
 Inoltre, puoi effettuare assegnazioni avanzate nelle seguenti aree di Workfront:
 
@@ -47,6 +47,8 @@ Inoltre, puoi effettuare assegnazioni avanzate nelle seguenti aree di Workfront:
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -56,7 +58,7 @@ Inoltre, puoi effettuare assegnazioni avanzate nelle seguenti aree di Workfront:
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Nuovo: Standard</p>
     <p>Corrente: Lavoro o versione successiva</p> </td> 
   </tr> 
@@ -71,7 +73,7 @@ Inoltre, puoi effettuare assegnazioni avanzate nelle seguenti aree di Workfront:
  </tbody> 
 </table>
 
-*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -83,18 +85,17 @@ Inoltre, puoi effettuare assegnazioni avanzate nelle seguenti aree di Workfront:
    >[!TIP]
    >
    >Se sono presenti due o più persone assegnate, è possibile effettuare assegnazioni avanzate direttamente nell&#39;elenco delle attività o dei problemi. Fai clic all&#39;interno del campo **Assegnazioni** sulla stessa riga dell&#39;attività o del problema, quindi fai clic sull&#39;icona **Persone** per aprire la finestra Assegnazioni avanzate. Passare al passaggio 5 per continuare la creazione di assegnazioni avanzate.\
-   >![](assets/nwe-advanced-assignments-350x55.png)
-   >
+   >![Fare clic sull&#39;icona Persone](assets/nwe-advanced-assignments-350x55.png)
 
 1. Fai clic su **Assegna a** nel campo **Assegnazioni** nell&#39;intestazione dell&#39;attività o del problema
 
    Oppure
 
-   Se l’attività o il problema è già assegnato, fai clic sul nome delle assegnazioni.
+   Se l’attività o il problema è già assegnato, fai clic su uno dei nomi assegnati.
 
 1. Fare clic su **Avanzate**.
 
-   <span class="preview">![Fare clic su Avanzate](assets/assignments-box-in-task-header.png)</span>
+   ![Fare clic su Avanzate](assets/assignments-box-in-task-header.png)
 
 1. Nel campo **Cerca persone, mansione e team**, inizia a digitare il nome di un utente, una mansione o un team, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
@@ -102,7 +103,7 @@ Inoltre, puoi effettuare assegnazioni avanzate nelle seguenti aree di Workfront:
    >
    >Se il nome dell&#39;utente contiene un carattere speciale, è necessario includere tale carattere nel campo di ricerca.
 
-1. (Facoltativo) Continua ad aggiungere assegnatari nella casella **Cerca persone, mansione o team** per aggiungere più risorse all&#39;attività o al problema.
+1. (Facoltativo) Continua ad aggiungere assegnatari nella casella **Cerca persone, mansioni e team** per aggiungere più risorse all&#39;attività o al problema.
 
    >[!TIP]
    >
@@ -118,7 +119,6 @@ Inoltre, puoi effettuare assegnazioni avanzate nelle seguenti aree di Workfront:
    >   
    >   * Riassegnare l&#39;elemento di lavoro alle risorse attive.
    >   * Associare gli utenti di un team disattivato a un team attivo e riassegnare l&#39;elemento di lavoro al team attivo.
-   >
 
    <!-- SHOULD BE THIRD BULLET POINT IN TIP TABLE WHEN THIS FEATURE IS RELEASED 
     * <span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to override the rate at the assignment level. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
@@ -141,7 +141,7 @@ Inoltre, puoi effettuare assegnazioni avanzate nelle seguenti aree di Workfront:
      >   * Non è possibile modificare manualmente le allocazioni di assegnazione in caso di problemi.
      >   * Non è possibile modificare manualmente le allocazioni per i team assegnati alle attività.
 
-   * **Ruolo dell&#39;assegnatario:** Selezionare il ruolo che l&#39;utente deve utilizzare per l&#39;esecuzione di questa assegnazione.  Il Ruolo principale dell’utente viene visualizzato per impostazione predefinita. Fare clic nella casella Ruolo dell&#39;assegnatario per selezionare un altro ruolo.  Quando prima assegni l’attività o il problema a un ruolo e poi aggiungi un utente che può svolgere quel ruolo come seconda assegnazione, l’elenco degli utenti suggeriti viene filtrato per gli utenti che possono adempiere ai ruoli già assegnati all’attività e al problema.
+   * **Ruolo dell&#39;assegnatario:** Selezionare il ruolo che l&#39;utente deve utilizzare per l&#39;esecuzione di questa assegnazione.  Il Ruolo principale dell’utente viene visualizzato per impostazione predefinita. Fai clic nella casella **Ruolo dell&#39;assegnatario** per selezionare un altro ruolo. Quando prima assegni l’attività o il problema a un ruolo e poi aggiungi un utente che può svolgere quel ruolo come seconda assegnazione, l’elenco degli utenti suggeriti viene filtrato per gli utenti che possono adempiere ai ruoli già assegnati all’attività e al problema.
 
      ![Ruolo dell&#39;assegnatario](assets/advanced-assignments-select-role.png)
 
@@ -160,6 +160,5 @@ Inoltre, puoi effettuare assegnazioni avanzate nelle seguenti aree di Workfront:
      Per ulteriori informazioni, vedere [Panoramica sulla durata e sul tipo di durata dell&#39;attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md). Quando si modificano in blocco le informazioni di assegnazione, viene visualizzata una finestra di dialogo simile che consente di assegnare utenti, ore, allocazione e proprietario dell&#39;attività.
 
    * **Ore pianificate**: quando il tipo di durata è Assegnazione calcolata o Semplice, aggiorna il numero di ore pianificate. Di conseguenza, le percentuali di allocazione o le ore per ogni risorsa vengono distribuite in modo uniforme. Workfront calcola le ore pianificate quando il tipo di durata è Lavoro calcolato o Impegno guidato. Per ulteriori informazioni, vedere [Panoramica sulla durata e sul tipo di durata dell&#39;attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
-
 
 1. Fai clic su **Salva**.
