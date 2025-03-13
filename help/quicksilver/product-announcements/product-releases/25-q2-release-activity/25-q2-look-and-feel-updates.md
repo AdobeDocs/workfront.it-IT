@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 69389422fc33839c3f557c3866f0d88b4a8ea837
+source-git-commit: a17f501e732e4ba72bf224c7dd9efef7f90b47e7
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,38 @@ Questa pagina descrive piccoli aggiornamenti all’aspetto di varie aree dell’
 
 Per un elenco di tutte le modifiche disponibili con la versione del secondo trimestre 2025, consulta [Panoramica sulla versione del secondo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
+## Gli avatar non vengono più visualizzati in alcune notifiche e-mail
+
+>[!NOTE]
+>
+>Versione di anteprima: 13 marzo 2025; versione di produzione per tutti i clienti: 13 marzo 2025
+
+
+Gli avatar non verranno più visualizzati nelle seguenti notifiche e-mail:
+
+* Tutte le notifiche degli eventi di comunicazione
+* Notifiche di nuove assegnazioni
+* Notifiche di completamento di tutte le attività predecessore
+
+<!--
+
+## Look and feel updates to a Milestone Path list 
+
+>[!NOTE]
+>
+>Preview release: March 6, 2025; Production release for all customers: April 10, 2025
+
+We have updated the look and feel of the Milestone Path list in the Setup area, to match the design of other areas of Workfront.  
+
+For information, see [Create a milestone path](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+
+-->
+
 ## Aggiornamenti look-and-feel del calendario Workfront
 
 >[!NOTE]
 >
->Versione di anteprima: 27 febbraio 2025; versione di produzione per tutti i clienti: con la versione 25.3 (marzo 2025)
+>Versione di anteprima: 27 febbraio 2025; versione di produzione per tutti i clienti: con la versione 25.4 (10 aprile 2025)
 
 Abbiamo aggiornato l’aspetto del Calendario di Workfront a un design moderno coerente con altre aree di Workfront. Esistono piccole differenze di funzionalità rispetto al calendario Workfront corrente, tra cui:
 
@@ -38,7 +65,7 @@ Per ulteriori informazioni, vedere gli articoli [Calendari](/help/quicksilver/re
 
 >[!NOTE]
 >
->Versione di anteprima: 27 febbraio 2025; Produzione per rilascio rapido: con la versione 25.3 (marzo 2025); Produzione per rilascio trimestrale: con la versione 25.4 (aprile 2025)
+>Versione di anteprima: 13 marzo 2025; versione di produzione per tutti i clienti: con la versione 25.4 (10 aprile 2025)
 
 Quando si accede al percorso milestone da un elenco di progetti o da un rapporto, la pagina dei dettagli della milestone ora ha un nuovo aspetto. Per accedere alla pagina dei dettagli del percorso milestone, è necessario aggiungere il campo Nome percorso milestone alla visualizzazione dell&#39;elenco o del report.
 
@@ -62,7 +89,7 @@ Queste modifiche sono temporanee, in quanto vengono analizzati i ritardi delle e
 
 >[!NOTE]
 >
->Versione di anteprima: 13 febbraio 2025; versione di produzione per tutti i clienti: con la versione 25.3 (marzo 2025)
+>Versione di anteprima: 13 febbraio 2025; versione di produzione per tutti i clienti: con la versione 25.3 (13 marzo 2025)
 
 Il look and feel della finestra di dialogo Condividi è stato aggiornato a un design moderno coerente con le altre aree di Workfront. Vi sono lievi differenze visive, tra cui:
 

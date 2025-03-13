@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: cbadf0a758369bf9835b5804a036fddbc37dbb51
+source-git-commit: a86b91ee323e9efdca33655eaaac805a019cbb1c
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1158'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
 
 | Versione mensile | Versione trimestrale |
 | ----------------- | ----------------- |
-| <ul><li>25.2 (13 febbraio 2025)</li><li>25.3 (marzo 2025)</li><li>25.4 (aprile 2025)</li></ul> | <ul><li>25.4 (aprile 2025)</li></ul> |
+| <ul><li>25.2 (13 febbraio 2025)</li><li>25.3 (13 marzo 2025)</li><li>25.4 (10 aprile 2025)</li></ul> | <ul><li>25.4 (10 aprile 2025)</li></ul> |
 
 >[!NOTE]
 >
@@ -47,6 +47,21 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Miglioramenti alla logica dei moduli personalizzati</a></p>
+            <p>Il generatore di logica dei moduli personalizzati dispone di un’interfaccia aggiornata che offre più spazio per la creazione di regole logiche. Questo nuovo design può accogliere più facilmente ulteriori tipi di logica che potrebbero essere aggiunti in futuro.</p><p>Oltre alle opzioni di visualizzazione e salta logica correnti, è disponibile anche la logica di convalida.</p>
+        </td>
+        <td>
+            <p><b>Disponibile in queste date:</b></p>
+            <ul>
+                <li>Versione di anteprima: 31 gennaio 2025</li>
+                <li><span class="preview">Versione di produzione per tutti i clienti: 31 gennaio 2025</span></li>
+            </ul>
+        </td>
+    </tr>                          
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -74,7 +89,7 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Modificare più documenti contemporaneamente in un report di documenti </a></p>
+            Modificare più documenti contemporaneamente in un report di documenti </a></p>[!BADGE In produzione ]{type=Informative}
             <p>È ora possibile modificare più documenti contemporaneamente in un rapporto di documento. Puoi modificare le descrizioni e aggiornare i moduli personalizzati.</p>
         </td>
         <td>
@@ -97,7 +112,7 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Aggiungi un commento ai progetti quando li modifichi nella casella Modifica progetto</a></p>
+            Aggiungi un commento ai progetti quando li modifichi nella casella Modifica progetto</a>[!BADGE In produzione per rilascio rapido]{type=Positive}</p>
             <p>È ora possibile aggiungere un commento a un progetto mentre lo si modifica nella casella Modifica progetto. Puoi anche aggiungere un commento a più progetti contemporaneamente quando li modifichi in blocco. Prima di questo aggiornamento, questa funzionalità non esisteva durante la modifica dei progetti.</p>
         </td>
         <td>

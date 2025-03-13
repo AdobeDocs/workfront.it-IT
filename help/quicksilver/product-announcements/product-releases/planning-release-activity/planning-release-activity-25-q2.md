@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
+source-git-commit: e5878d3b591e65f4ece2a79248e03940976580de
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1935'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,31 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 <!--keep the sentence below for all future quarterly release pages-->
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Impostare e gestire più moduli di richiesta da un tipo di record
+
+>[!NOTE]
+>
+>Anteprima: 13 marzo 2025; Produzione per tutti i clienti: 10 aprile 2025
+
+Per aiutarti a personalizzare i moduli di richiesta per vari soggetti interessati provenienti da diverse aree dell’organizzazione, ora è possibile creare e gestire più di un modulo di richiesta per un tipo di record. Prima di questo miglioramento, era possibile creare una sola maschera per un tipo di record.
+
+Tutte le richieste inviate utilizzando moduli diversi potevano creare record per il tipo di record selezionato. È ora possibile impostare più moduli di richiesta per lo stesso tipo di record. Le maschere sono elencate in una nuova vista tabella Moduli di richiesta sul tipo di record. Quando gestisci i moduli di richiesta, ora puoi modificare, pubblicare, condividere, copiare o eliminare un modulo di richiesta dall’elenco dei moduli di richiesta sul tipo di record.
+
+Per ulteriori informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+## Facile accesso ai moduli di richiesta pubblicati nella pagina del tipo di record
+
+>[!NOTE]
+>
+>Anteprima: 13 marzo 2025; Produzione per tutti i clienti: 10 aprile 2025
+
+È ora possibile accedere alle maschere di richiesta dal pulsante Nuovo record nell&#39;angolo superiore destro della pagina del tipo di record. Per gli utenti con autorizzazioni di visualizzazione per l’area di lavoro, il pulsante Nuovo record viene visualizzato come pulsante Richiedi record.
+
+Oltre a poter creare i record manualmente e importando un file CSV o Excel, è ora possibile creare i record da un modulo di richiesta dalla pagina del tipo di record.
+Prima di questo miglioramento, era possibile creare record utilizzando un modulo di richiesta solo da un collegamento diretto a un modulo o dall’area Richieste di Workfront.
+
+Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
 
 ## Aggiungere campi di ricerca da record connessi nei campi di connessione di Planning dei moduli personalizzati di Workfront
 
