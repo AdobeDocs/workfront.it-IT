@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '875'
 ht-degree: 3%
 
 ---
@@ -115,26 +115,28 @@ Per ulteriori informazioni su come associare un percorso milestone a un progetto
    </table>
 
 1. Fai clic su **Aggiungi milestone** e continua ad aggiungere le milestone necessarie fino al completamento del percorso.
+
 1. Fai clic su **Crea percorso milestone** per salvare le modifiche.
 
    Il percorso milestone è pronto per essere associato a un progetto.
 
    Per ulteriori informazioni su come associare percorsi milestone a progetti e milestone ad attività, vedere [Associare milestone ad attività](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
-<!--
-1. <span class="preview">(Optional) Click the **Export** icon ![Export icon](assets/export-icon.png), then select from the following formats to export the milestone path list to a file: </span>
+
+1. <span class="preview">(Facoltativo) Fare clic sull&#39;icona **Esporta** ![Icona Esporta](assets/export-icon.png), quindi selezionare uno dei formati seguenti per esportare l&#39;elenco dei percorsi milestone in un file: </span>
 
    * PDF
    * Excel
    * Excel (xlsx)
-   * Tab Delimited
-1. <span class="preview">(Optional) Select a milestone in the milestone list, then click the **Edit** icon ![Edit icon](assets/edit-icon.png) to edit milestone information. </span>
-1. <span class="preview">(Optional) Select a milestone in the milestone list, then click the **Delete** icon ![Delete icon](assets/delete-icon.png) to delete it. </span>
-1. <span class="preview">Click **Yes, Delete it**. </span>
-   <span class="preview">The milestone is deleted and cannot be recovered. Any project information associated with the milestone and any task information associated with the milestone paths is also deleted. </span>
+   * Delimitato in tabella
 
-   </div>
--->
+1. <span class="preview">(Facoltativo) Selezionare un&#39;attività cardine nell&#39;elenco delle attività cardine, quindi fare clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png) per modificare le informazioni sulle attività cardine. </span>
+1. <span class="preview">(Facoltativo) Selezionare un&#39;attività cardine nell&#39;elenco delle attività cardine, quindi fare clic sull&#39;icona **Elimina** ![Elimina icona](assets/delete-icon.png) per eliminarla. </span>
+1. <span class="preview">Fare clic su **Sì, eliminarlo**. </span>
+   <span class="preview">La milestone è stata eliminata e non può essere recuperata. Vengono eliminate anche tutte le informazioni sul progetto associate alla fase cardine e tutte le informazioni sull&#39;attività associate ai percorsi delle fasi cardine. </span>
+
+
+<div class="preview">
 
 ## Visualizzare i dettagli del percorso milestone in un rapporto
 
@@ -171,9 +173,8 @@ Per informazioni sull&#39;associazione dei percorsi milestone ai progetti, veder
    * Gruppi di percorsi milestone
    * Nomi milestone, descrizioni, colori e icone colore
 
-   </div>
-
 1. (Facoltativo) Fai clic su **Indietro** per tornare al report del progetto.
 
+</div>
 
 

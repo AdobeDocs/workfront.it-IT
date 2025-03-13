@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '1798'
+source-wordcount: '1828'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,14 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Dopo che un utente ha condiviso un collegamento a un modulo di richiesta da una pagina di tipo di record in Adobe Workfront Planning, è possibile aggiungere una richiesta per la creazione di record per il tipo di record associato al modulo di richiesta.
+Dopo che un responsabile dell&#39;area di lavoro crea un modulo di richiesta per un tipo di record in Adobe Workfront Planning, è possibile utilizzare il modulo per inviare richieste che creeranno record per il tipo di record associato al modulo.
+
+È possibile inviare una richiesta di Workfront Planning dalle aree seguenti:
+
+* Dall’area Richieste di Workfront o da un collegamento diretto al modulo di richiesta. Questo articolo descrive come inviare una richiesta per aggiungere nuovi record a un tipo di record dall’area Richieste di Workfront o da un collegamento condiviso.
+* <span class="preview">Dalla pagina del tipo di record, quando si aggiunge o si richiede un nuovo record. Per informazioni, vedere [Crea record](/help/quicksilver/planning/records/create-records.md).</span>
 
 Gli utenti Workfront e gli utenti esterni possono inviare richieste ai tipi di record Planning e creare record. <!--double check on the external users-->
-
-Questo articolo descrive come inviare una richiesta per aggiungere nuovi record a un tipo di record.
 
 Per informazioni su come un manager area di lavoro può creare un modulo di richiesta e associarlo a un tipo di record, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
@@ -113,34 +116,41 @@ Prima di inviare una richiesta a un modulo di richiesta Workfront Planning, è n
 * In Workfront Planning devono esistere gli elementi seguenti:
 
    * Un’area di lavoro
-   * Tipo di record associato a un modulo di richiesta. Per informazioni, vedere [Creare un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+   * Un tipo di record.
+   * Modulo di richiesta associato a un tipo di record.
 
-* Il modulo di richiesta deve essere condiviso con un collegamento in modo da potervi accedere. Esistono i seguenti scenari:
+     Per informazioni, vedere [Creare un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-   * Se disponi di un account Workfront, il collegamento è stato condiviso solo con persone interne e puoi contribuire o accedere più facilmente all’area di lavoro. Gli utenti esterni a Workfront non possono accedere a un collegamento condiviso internamente.
-   * Se non disponi di un account Workfront, il collegamento è stato condiviso con persone esterne. Gli utenti di Workfront possono anche accedere a un collegamento condiviso con persone esterne.
+* Il modulo di richiesta deve essere condiviso in modo da potervi accedere. Esistono i seguenti scenari:
+
+   * Internamente, il modulo deve essere condiviso con utenti che dispongono di autorizzazioni di visualizzazione o di livello superiore per l&#39;area di lavoro.
+
+     Gli utenti di Workfront possono accedere al modulo da un collegamento <span class="preview"> oppure trovare il modulo di richiesta nell&#39;area Richieste di Workfront.</span>
+
+   * Se non disponi di un account Workfront, significa che un collegamento al modulo è stato condiviso con persone esterne.
+
+     Gli utenti di Workfront possono anche accedere a un collegamento condiviso con persone esterne.
 
 * Il collegamento al modulo non deve essere scaduto.
 
 ## Considerazioni sull&#39;invio di richieste a Workfront Planning
 
-* È possibile accedere a un modulo di richiesta per le richieste di Workfront Planning solo da un collegamento specifico al modulo.
-* Non è possibile modificare una richiesta in Workfront dopo averla inviata a Workfront Planning.
-* Ogni richiesta inviata crea un record per il tipo di record associato al modulo utilizzato, se il modulo non è associato a un&#39;approvazione o se l&#39;approvazione è stata concessa da tutti gli approvatori.
-* I record creati con l’invio di moduli di richiesta non possono essere differenziati dai record aggiunti tramite qualsiasi altro metodo. Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
+* Non è possibile modificare una richiesta in Workfront dopo averla inviata.
+* Ogni richiesta sottomessa crea un record per il tipo di record associato al modulo utilizzato, se il modulo non è associato a un&#39;approvazione o se l&#39;approvazione è stata concessa da tutti gli approvatori.
+* I record creati mediante l&#39;invio di moduli di richiesta non possono essere distinti dai record aggiunti tramite qualsiasi altro metodo in Workfront Planning.
+
+  Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
 * Le richieste inviate vengono visualizzate nella scheda Pianificazione della sezione Inviate dell&#39;area Richieste di Workfront.
-* Esistono limitazioni nella visualizzazione di determinati tipi di campo in un modulo di richiesta o nella pagina dei dettagli della richiesta dopo l’invio di un modulo. Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+* Esistono limitazioni nella visualizzazione di determinati tipi di campo in un modulo di richiesta o nella pagina dei dettagli della richiesta dopo l’invio di un modulo.
+
+  Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
 
-## Inviare una richiesta a Workfront Planning
-
-L&#39;invio di richieste a Workfront Planning varia a seconda dell&#39;ambiente utilizzato.
-
 <div class="preview">
 
-### Inviare una richiesta a Workfront Planning nell&#39;ambiente di anteprima
+## Inviare una richiesta a Workfront Planning nell&#39;area Richieste di Workfront
 
 >[!NOTE]
 >
@@ -214,7 +224,7 @@ L&#39;abilitazione di questa impostazione rende disponibili i moduli di richiest
 
    >[!TIP]
    >
-   >* Se il nome del record non è stato aggiunto al modulo di richiesta, il nome del record nel campo Record della richiesta viene visualizzato come **Senza titolo**.
+   >* Se il campo principale del record non è stato aggiornato nel modulo di richiesta, il nome del record nel campo Record della richiesta viene visualizzato come **Senza titolo**.
    >
    >* Se il modulo di richiesta è associato a un’approvazione, questa deve essere concessa prima di poter accedere al record dalla pagina della richiesta.
 
@@ -224,7 +234,7 @@ L&#39;abilitazione di questa impostazione rende disponibili i moduli di richiest
 
 </div>
 
-### Inviare una richiesta a Workfront Planning nell’ambiente di produzione
+## Inviare una richiesta a Workfront Planning da un collegamento condiviso a un modulo di richiesta
 
 1. Passare al collegamento condiviso con l&#39;utente da un tipo di record di Workfront Planning.
 

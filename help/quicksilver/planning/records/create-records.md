@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '1844'
+source-wordcount: '2411'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,8 @@ In Adobe Workfront Planning, un record è un&#39;istanza di un tipo di record.
 
 È possibile creare record eseguendo una delle operazioni seguenti:
 
-* [Aggiungere record dalla pagina del tipo di record nella vista tabella](#create-records-by-adding-them-to-a-record-type-in-a-record-type-table)
+* [Creare record aggiungendoli in linea dalla vista tabella del tipo di record](#create-records-by-adding-them-inline-from-the-record-type-table-view)
+* <span class="preview">[Crea record utilizzando il pulsante Nuovo record o Richiedi record da qualsiasi visualizzazione del tipo di record](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)</span>
 * [Copiare e incollare un elenco di record da un elenco esterno](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplicare record da una vista tabella](#create-records-by-duplicating-them)
 * [Crea record durante la connessione da altri record](#create-records-as-you-connect-them)
@@ -97,7 +98,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
-   <td> <p>Autorizzazioni di Contribute o di livello superiore per l'area di lavoro <!--<span class="preview">and record type</span>--> in cui si desidera aggiungere record. </p>  
+   <td> <p>Autorizzazioni di Contribute o di livello superiore per l'area di lavoro <!--<span class="preview">and record type</span>--> in cui si desidera aggiungere record. </p>
+   <p><span class="preview">Visualizza o autorizzazioni superiori all'area di lavoro <!--<span class="preview">and record type</span>--> per creare record utilizzando il pulsante Richiedi record nella pagina record</span></p>
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
    <p>Gestisci le autorizzazioni per gli oggetti Workfront (portfolio) per aggiungere oggetti figlio (progetti).</p>
    </td> 
@@ -113,9 +115,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 +++
 
-## Creare record aggiungendoli a un tipo di record in una tabella del tipo di record
+## Creare record aggiungendoli in linea dalla vista tabella del tipo di record
 
-È possibile creare record nella vista tabella di una pagina del tipo di record.
+È possibile creare record nella vista tabella di una pagina del tipo di record quando vengono aggiunti in linea.
 
 Per informazioni sulla modifica delle informazioni sui record, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
 
@@ -128,27 +130,28 @@ Per informazioni sulla modifica delle informazioni sui record, vedere [Modifica 
 1. Fare clic su una scheda del tipo di record. Per informazioni sulla creazione di un tipo di record, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
    La pagina del tipo di record viene visualizzata nella visualizzazione a cui si è effettuato l&#39;ultimo accesso. Per impostazione predefinita, nella vista tabella viene visualizzata una pagina del tipo di record.
-Tutti i record del tipo selezionato vengono visualizzati nella vista.
+I record del tipo selezionato vengono visualizzati nella vista.
 
-1. (Condizionale) A seconda della vista visualizzata, effettuate una delle seguenti operazioni:
+1. (Condizionale) Nella vista a tabella, effettuate una delle seguenti operazioni:
 
-   * Dalla vista tabella:
+   * Fai clic su **Nuovo record** nell&#39;ultima riga della tabella
 
-      * Fai clic su **Nuovo record** nell&#39;ultima riga della tabella
+   * Fai clic su **Maiusc + Invio** sulla tastiera da qualsiasi colonna o riga della tabella. In questo modo viene aggiunta una riga vuota sotto il record iniziale.
+   * Passa il puntatore del mouse sul campo principale di un record, fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del campo, quindi fai clic su **Inserisci record sopra** o **Inserisci record sotto**.
 
-      * Fai clic su **Maiusc + Invio** sulla tastiera da qualsiasi colonna o riga della tabella. In questo modo viene aggiunta una riga vuota sotto il record iniziale.
-      * Passa il puntatore del mouse sul campo principale di un record, fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del campo, quindi fai clic su **Inserisci record sopra** o **Inserisci record sotto**.
+   ![Aggiunta di una nuova campagna nella riga della tabella](assets/adding-a-new-campaign-in-table-row.png)
 
-     ![Aggiunta di una nuova campagna nella riga della tabella](assets/adding-a-new-campaign-in-table-row.png)
+   Workfront carica automaticamente una miniatura in ogni nuovo record. In seguito sarà possibile modificare queste immagini. Per informazioni, vedere [Aggiungere un&#39;immagine di copertina a un record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
-   * Da qualsiasi vista:
+   Nella tabella viene aggiunto un nuovo record.
 
-      * Fai clic su **Nuovo record** nell&#39;angolo superiore destro della pagina. Viene visualizzata la casella di anteprima del record.
+1. Fare clic sul campo principale del nuovo record
 
-     Workfront carica automaticamente una miniatura e un&#39;immagine di copertina in ogni nuovo record. In seguito sarà possibile modificare queste immagini. Per informazioni, vedere i seguenti articoli:
+   Oppure
 
-      * [Aggiungere una copertina a un record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
-      * [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
+   Fai clic sull&#39;icona **Apri dettagli** ![Apri icona dettagli nel campo nome tabella](assets/open-details-icon-in-table-name-field.png) a sinistra del nome del record.
+
+   Nella tabella viene visualizzata la casella di anteprima.
 
 1. Iniziare a digitare informazioni sul nuovo record nei campi visualizzati nella casella di anteprima.
 
@@ -158,23 +161,94 @@ Tutti i record del tipo selezionato vengono visualizzati nella vista.
    >
    >  * I campi che fanno riferimento ad altri tipi di record o campi calcolati sono campi di sola lettura.
 
-1. (Condizionale) Quando aggiungi record nella tabella, continua ad aggiungere informazioni su ogni riga, quindi fai clic su **Invio** sulla tastiera per salvare le modifiche.
+1. (Condizionale) Quando si aggiungono record nella tabella, prima di aprire la casella di anteprima del record, continuare ad aggiungere informazioni su ogni riga, quindi fare clic su **Invio** sulla tastiera per salvare le modifiche.
 
    Oppure
 
-   Fare clic sul nome del nuovo record o sull&#39;icona **Apri dettagli** ![Apri icona dettagli nel campo nome tabella](assets/open-details-icon-in-table-name-field.png) a sinistra del nome del record. Nella tabella viene visualizzata un&#39;anteprima con le informazioni dettagliate del record.
+   Fare clic sul nome del nuovo record o sull&#39;icona **Apri dettagli** ![Apri icona dettagli nel campo nome tabella](assets/open-details-icon-in-table-name-field.png) a sinistra del nome del record per aprire la casella di anteprima e modificare le informazioni del record nell&#39;area dei dettagli.
 
    >[!TIP]
    >
    >Puoi accedere all&#39;icona **Apri dettagli** solo dal campo del nome del record quando il campo Nome è un campo primario.
 
-1. Iniziare a modificare le informazioni del record nell&#39;anteprima del record. Workfront salva automaticamente le modifiche.
-1. (Facoltativo) Fai clic sull&#39;icona **Apri in una nuova scheda** ![Apri i dettagli in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda. Continuare a modificare il record nella pagina record. Per informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
+1. (Facoltativo) Dalla casella di anteprima del record, fare clic sull&#39;icona **Apri in una nuova scheda** ![Apri i dettagli in una nuova scheda icona](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro per aprire la pagina del record in una nuova scheda. Continuare a modificare il record nella pagina record. Per informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
 
-1. (Facoltativo) Utilizzare le seguenti scelte rapide da tastiera per annullare o ripetere l&#39;aggiunta di nuovi record o delle relative informazioni quando questi vengono aggiunti nella vista tabella:
+   Workfront salva automaticamente le modifiche.
+
+1. (Facoltativo) Se si apre la pagina del record, chiudere la casella di anteprima o fare clic sulla freccia indietro a sinistra del nome del record.
+
+1. (Facoltativo) Nella vista tabella, utilizzare le seguenti scelte rapide da tastiera per annullare o ripristinare l&#39;aggiunta di nuovi record o delle relative informazioni durante l&#39;aggiunta nella vista tabella:
 
    * CTRL + Z (⌘ + Z per Mac) per annullare una modifica
    * CTRL + MAIUSC + Z (⌘ + MAIUSC + Z per Mac) per ripetere una modifica
+
+<div class="preview">
+
+## Creare record utilizzando il pulsante Nuovo record o Richiedi record da qualsiasi visualizzazione del tipo di record
+
+Gli utenti con autorizzazioni di visualizzazione per l&#39;area di lavoro <!--<span class="preview">and record type</span>--> possono creare record solo utilizzando il pulsante Richiedi record nella pagina Tipo di record.
+
+Gli utenti con le autorizzazioni Contribute e Manage per l&#39;area di lavoro <!--<span class="preview">and record type</span>--> possono creare record utilizzando il pulsante Nuovo record nella pagina del tipo di record.
+<!--did the permissions to record types get released?? if not, take the record type reference here out; AND else-where in this article, including access requirements table-->
+
+>[!IMPORTANT]
+>
+>Un manager dell&#39;area di lavoro deve creare un modulo di richiesta per il tipo di record affinché gli utenti con autorizzazioni di visualizzazione possano aggiungere record utilizzando un modulo di richiesta. In caso contrario, gli utenti con autorizzazioni di visualizzazione non potranno creare record.
+
+{{step1-to-planning}}
+
+1. Fare clic sull&#39;area di lavoro in cui si desidera aggiungere i record.
+
+   Viene aperto il workspace e i tipi di record vengono visualizzati come schede.
+
+1. Fare clic su una scheda del tipo di record. Per informazioni sulla creazione di un tipo di record, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+
+   La pagina del tipo di record viene visualizzata nella visualizzazione a cui si è effettuato l&#39;ultimo accesso. Per impostazione predefinita, nella vista tabella viene visualizzata una pagina del tipo di record.
+Tutti i record del tipo selezionato vengono visualizzati nella vista.
+
+1. Da qualsiasi vista, fai clic su quanto segue nell&#39;angolo superiore destro dello schermo, a seconda delle autorizzazioni dell&#39;area di lavoro <!--<span class="preview">and record type</span>-->:
+
+   * Fare clic su **Nuovo record** se si dispone delle autorizzazioni Contribute o di livello superiore nell&#39;area di lavoro <!--<span class="preview">and record type</span>-->
+
+     Oppure
+
+   * Fare clic su **Richiedi record** se si dispone delle autorizzazioni di visualizzazione per l&#39;area di lavoro <!--<span class="preview">and record type</span>-->.
+
+1. (Condizionale) Se hai fatto clic su **Nuovo record**, effettua le seguenti operazioni:
+
+   1. Fare clic su uno dei modi seguenti per creare un record, quindi fare clic su **Continua**:
+
+      * **Aggiungi manualmente**. Viene visualizzata la casella di anteprima del record.\
+        Aggiungere informazioni sul record come descritto in [Creare i record aggiungendoli in linea dalla sezione della tabella dei tipi di record](#create-records-by-adding-them-inline-from-the-record-type-table-view) in questo articolo, a partire dal passaggio 6. <!--insure this stays accurate-->
+      * **Carica da file**
+Aggiungere record come descritto nell&#39;articolo [Creare record importando informazioni da un file CSV o Excel](/help/quicksilver/planning/records/import-file-to-create-records.md), a partire dal passaggio 6. <!--ensure this stays accurate-->
+      * **Invia una richiesta**
+Viene aperto il modulo di richiesta del tipo di record.
+
+        Per poter aggiungere un record utilizzando un modulo di richiesta, il manager dell’area di lavoro deve creare un modulo di richiesta.
+
+        >[!TIP]
+        >
+        >Alcuni tipi di record possono avere più maschere. Fai clic su uno per aprirlo.
+
+        Aggiungere il record, come descritto nell&#39;articolo [Inviare le richieste di Adobe Workfront Planning per la creazione dei record](/help/quicksilver/planning/requests/submit-requests.md), a partire dal passaggio 6. <!--ensure this stays accurate-->
+
+      ![](assets/three-ways-to-create-records-choice-modal.png)
+
+1. (Condizionale) Se hai fatto clic su **Record richiesta**, effettua le seguenti operazioni:
+
+   1. (Condizionale) Se il tipo di record dispone di più moduli di richiesta, fare clic su uno per selezionarlo.
+   2. Continuare ad aggiungere informazioni nel modulo per creare il record, come descritto nell&#39;articolo [Inviare richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md), a partire dal passaggio 6. <!--ensure this stays accurate-->
+
+1. (Condizionale) Esamina i nuovi record.
+
+   A seconda della modalità di aggiunta del record, possono verificarsi alcuni degli eventi seguenti:
+
+   * Al tipo di record viene aggiunto un nuovo record, a meno che non si sia scelto di aggiungerlo utilizzando un modulo di richiesta con un processo di approvazione. L&#39;approvazione deve essere concessa da tutti gli approvatori prima della creazione del record.
+   * Se si aggiungono record utilizzando un foglio di calcolo CSV o Excel, al tipo di record verranno aggiunti più record.
+   * Se la richiesta è stata aggiunta inviando un modulo di richiesta, nella scheda Pianificazione dell&#39;area Richieste Workfront viene aggiunta una nuova richiesta.
+
+</div>
 
 <!-- this is not possible anymore: 
 
