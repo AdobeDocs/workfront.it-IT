@@ -5,16 +5,16 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: c21029e098f6b4f51f8698155e2b8a2e789c8bfc
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '594'
 ht-degree: 1%
 
 ---
 
 # Esportare moduli personalizzati e dettagli oggetto
 
-È possibile esportare le informazioni relative alla panoramica e al modulo personalizzato dalla sezione Dettagli di un oggetto in un file PDF. È quindi possibile stampare o condividere il PDF con altri utenti.
+È possibile esportare le informazioni della panoramica e del modulo personalizzato dalla sezione Dettagli di un oggetto in un file PDF. È quindi possibile stampare o condividere il PDF con altri utenti.
 
 Questa funzionalità è supportata per i seguenti oggetti:
 
@@ -97,14 +97,10 @@ L&#39;esportazione delle informazioni dalla sezione Dettagli di un oggetto è id
    >
    >Possono esistere i seguenti scenari:
    >
-   >   
-   >   
    >   * Quando il gruppo o l’amministratore Workfront deseleziona tutti i campi nell’area Panoramica e all’oggetto sono allegati moduli personalizzati, la sezione Panoramica non viene visualizzata.
    >   * Quando l’amministratore del gruppo o di Workfront deseleziona tutti i campi nell’area Panoramica e all’oggetto non sono allegati moduli personalizzati, il menu a discesa Esporta non è visibile.
    >   * Se all’oggetto non sono allegati moduli personalizzati, è possibile esportare solo l’area Panoramica.
-   >   * I campi personalizzati che si trovano dietro la logica e non sono visibili nel modulo non vengono esportati. Per informazioni sull&#39;aggiunta della logica a un modulo personalizzato, vedere [Aggiungere logica di visualizzazione e ignorare la logica a un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
-   >   
-   >
+   >   * I campi personalizzati che si trovano dietro la logica e non sono visibili nel modulo non vengono esportati. Per informazioni sull&#39;aggiunta di logica a un modulo personalizzato, vedere [Aggiungere regole di logica a moduli e campi personalizzati](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
 
    Un file PDF viene prodotto e scaricato sul computer. Il file PDF contiene le seguenti informazioni:
 
