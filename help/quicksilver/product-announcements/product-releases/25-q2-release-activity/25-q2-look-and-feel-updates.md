@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: a17f501e732e4ba72bf224c7dd9efef7f90b47e7
+source-git-commit: ece8b2b248c8dd4e27465fbacb1319a7e0fbac11
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -31,19 +31,15 @@ Gli avatar non verranno più visualizzati nelle seguenti notifiche e-mail:
 * Notifiche di nuove assegnazioni
 * Notifiche di completamento di tutte le attività predecessore
 
-<!--
-
-## Look and feel updates to a Milestone Path list 
+## Aggiornamenti visivi e immediati a un elenco di percorsi milestone
 
 >[!NOTE]
 >
->Preview release: March 6, 2025; Production release for all customers: April 10, 2025
+>Versione di anteprima: 6 marzo 2025; versione di produzione per tutti i clienti: 10 aprile 2025
 
-We have updated the look and feel of the Milestone Path list in the Setup area, to match the design of other areas of Workfront.  
+Abbiamo aggiornato l’aspetto dell’elenco Percorso milestone nell’area Configura, per adattarlo al design di altre aree di Workfront.
 
-For information, see [Create a milestone path](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
-
--->
+Per informazioni, vedere [Creare un percorso milestone](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 ## Aggiornamenti look-and-feel del calendario Workfront
 
@@ -89,7 +85,7 @@ Queste modifiche sono temporanee, in quanto vengono analizzati i ritardi delle e
 
 >[!NOTE]
 >
->Versione di anteprima: 13 febbraio 2025; versione di produzione per tutti i clienti: con la versione 25.3 (13 marzo 2025)
+>Versione di anteprima: 13 febbraio 2025; versione di produzione per tutti i clienti: con la versione 25.4 (10 aprile 2025)
 
 Il look and feel della finestra di dialogo Condividi è stato aggiornato a un design moderno coerente con le altre aree di Workfront. Vi sono lievi differenze visive, tra cui:
 
