@@ -7,9 +7,9 @@ description: È possibile aggiungere raggruppamenti per gestire il layout delle 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 69dec186cdb8a6d29853703edb41073282cdd447
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -64,13 +64,17 @@ Quando si lavora con i raggruppamenti, considera quanto segue:
 
 È possibile aggregare i dati visualizzati nel report nella riga di raggruppamento riepilogando i valori in ogni colonna del report. Per ulteriori informazioni sul riepilogo dei dati delle colonne in un raggruppamento, vedere [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
+
 >[!NOTE]
 >
->Le eccezioni riportate di seguito si applicano agli oggetti padre, ad esempio i task padre, quando si aggregano i valori per i campi seguenti nei raggruppamenti:
+>Le eccezioni seguenti si applicano agli oggetti padre (ad esempio, attività padre) quando si aggregano i valori per i campi seguenti in >raggruppamenti:
 >
->* Tutti i campi relativi al numero e alla divisa tranne Ore effettive (ad esempio Costo manodopera pianificato/effettivo, Costo spesa pianificato/effettivo, Costo pianificato/effettivo, Ore pianificate) aggregano solo i valori per le attività figlio e le attività autonome. Non aggregano i valori per le attività padre o i padri dei padri.
->* Le ore effettive aggregano i valori per le attività padre principale e le attività autonome; non aggregano i numeri per le attività padre o figlio.
+>* Tutti i campi relativi a numero, valuta e data, ad eccezione delle ore effettive, aggregano i valori solo per le attività figlio e le attività autonome. Non aggregano i valori per le attività padre o i padri dei padri. L&#39;aggregazione dei campi numerici, di valuta e di data in un elenco che include solo le attività padre non comporta la visualizzazione di un valore aggregato nella barra di raggruppamento.
+>
+>* Le ore effettive aggregano i valori per le attività principali padre e autonome, ma non aggregano i numeri delle attività figlio o padre delle attività padre. <!--Examples of Actual hours include Planned/Actual Labor Cost, Planned/Actual Expense Cost, Planned/Actual Cost, and Planned Hours.-->
+>
 >* I campi dati personalizzati per i valori numerici e di valuta aggregano tutte le attività: padri, figli, padri e attività autonome.
+
 
 ### Ordina per raggruppamento {#sort-by-a-grouping}
 
@@ -84,3 +88,13 @@ La modalità di rimozione di un raggruppamento dipende dal fatto che il raggrupp
 * **Se il raggruppamento è stato condiviso con te e lo rimuovi**, il raggruppamento verrà rimosso solo per te. L’utente che l’ha creato originariamente e tutti gli altri utenti con cui è stato condiviso hanno ancora accesso al raggruppamento.
 
 Per informazioni sulla rimozione di un raggruppamento, vedere l&#39;articolo [Rimuovere filtri, visualizzazioni e raggruppamenti](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+
+
+<!--Original note
+
+The following exceptions apply for parent objects (for example, parent tasks) when you are aggregating values for the following fields in groupings:
+All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents.
+Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks.
+Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks.
+
+-->

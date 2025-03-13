@@ -6,9 +6,9 @@ description: Le iterazioni sono un componente chiave per i team agili Scrum nell
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 6fb0870b919baf49e17d48586b2a9661e5cb4b94
+source-git-commit: e24c97e78b210fc385052b573fe69d092b521a90
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
@@ -103,11 +103,11 @@ Utilizza la funzione [!UICONTROL Iterazione piano] per creare un&#39;iterazione 
 
 1. Seleziona **[!UICONTROL Backlog]** nel pannello a sinistra.
 
-1. Nella scheda **Storie** o **Problemi**, seleziona almeno un elemento di lavoro, quindi fai clic su **[!UICONTROL Iterazione piano]**.
+1. Nella scheda **Storie** o **Problemi**, seleziona gli elementi di lavoro che desideri aggiungere all&#39;iterazione, quindi fai clic su **[!UICONTROL Pianifica iterazione]**.
 
 >[!NOTE]
 >
-> Non è possibile passare dalla scheda Storie alla scheda Problemi durante la pianificazione di un&#39;iterazione nella scheda Backlog. Puoi aggiungere storie o problemi esistenti una volta creata l’iterazione. Per ulteriori informazioni, consulta [Spostare i brani dal backlog a un&#39;iterazione o a una bacheca](/help/quicksilver/agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or-board).
+> Non è possibile passare dalla scheda Storie alla scheda Problemi e non è possibile aggiungere altre attività durante la pianificazione di un&#39;iterazione nella scheda Backlog. Puoi aggiungere storie o problemi esistenti una volta creata l’iterazione. Per ulteriori informazioni, vedere [Aggiungere attività o problemi a un&#39;iterazione esistente nella scheda Backlog](#add-tasks-or-issues-to-an-existing-iteration-on-the-backlog-tab) di seguito.
 
 
 1. Specifica le seguenti informazioni:
@@ -143,19 +143,20 @@ Utilizza la funzione [!UICONTROL Iterazione piano] per creare un&#39;iterazione 
     </tbody> 
    </table>
 
-1. (Facoltativo) Seleziona i brani per aggiungerli ora all&#39;iterazione oppure puoi saltare questo passaggio e aggiungerli a un&#39;iterazione in un secondo momento. Le storie nella parte superiore del backlog hanno priorità più alta. Le storie vengono evidenziate in verde quando rientrano nella loro capacità; in caso contrario vengono evidenziate in rosso.
-È possibile aggiungere sia attività che problemi a una singola iterazione:
+1. Fai clic su **[!UICONTROL Salva].** L&#39;iterazione è stata creata.
 
-   * **Per aggiungere attività all&#39;iterazione:** Nella scheda **[!UICONTROL Backlog]**, verificare che sia selezionata la scheda **[!UICONTROL Storie]** (questa scheda è selezionata per impostazione predefinita durante la visualizzazione del backlog). Selezionate i brani da aggiungere all&#39;iterazione.
+## Aggiungere attività o problemi a un&#39;iterazione esistente nella scheda Backlog
 
-     Quando si aggiungono attività a un&#39;iterazione, la data di inizio dell&#39;attività viene calcolata come descritto in [[!UICONTROL Comprendere] come vengono calcolate le date di inizio dell&#39;attività quando questa viene aggiunta a un&#39;iterazione](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
+1. Dalla scheda **Backlog**, fai clic sulla scheda **Storie** o **Problemi**.
 
-   * **Per aggiungere problemi all&#39;iterazione:** Nella scheda **[!UICONTROL Backlog]**, fare clic sulla scheda **[!UICONTROL Problemi]**. Seleziona i problemi da aggiungere all’iterazione.
+1. Seleziona i brani o i problemi da aggiungere all’iterazione. Le storie nella parte superiore del backlog hanno priorità più alta.
 
-1. Fai clic su **[!UICONTROL Salva].**
-Viene creata l&#39;iterazione.
+   ![sposta un elemento di lavoro](assets/move-to-iteration.png)
 
-1. (Facoltativo) Per aggiungere brani a un&#39;iterazione esistente, vedere [Aggiungere brani a un&#39;iterazione esistente](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+   >[!NOTE]
+   >
+   >  Quando si aggiungono attività a un&#39;iterazione, la data di inizio dell&#39;attività viene calcolata come descritto in [[!UICONTROL Comprendere] come vengono calcolate le date di inizio dell&#39;attività quando questa viene aggiunta a un&#39;iterazione](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
+
 
 ## Informazioni sul calcolo delle date di inizio attività quando vengono aggiunte a un&#39;iterazione {#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration}
 
