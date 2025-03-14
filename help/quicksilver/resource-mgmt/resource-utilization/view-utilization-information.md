@@ -6,14 +6,19 @@ description: È possibile visualizzare l'utilizzo delle risorse nel rapporto Uti
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
-source-wordcount: '7252'
+source-wordcount: '7283'
 ht-degree: 0%
 
 ---
 
-# Visualizza informazioni sull&#39;utilizzo delle risorse
+# Visualizza informazioni sull&#39;utilizzo delle risorse {#view-resource-utilization-information}
+
+>[!CONTEXTUALHELP]
+>id="wf-resourcing-utilization"
+>title="Rapporto utilizzo"
+>abstract="Il rapporto Utilizzo consente di visualizzare l&#39;avanzamento, il costo o i ricavi di un progetto, programma o portfolio in un unico rapporto. Puoi anche confrontare i ricavi con i costi."
 
 <!-- Audited: 01/2024 -->
 
@@ -475,7 +480,7 @@ Per tenere traccia dell&#39;avanzamento o del costo di uno o più progetti con u
 
      {{step1-to-utilization-report}}
 
-      1. Fai clic su **Mostra**>**Portfoli**.
+      1. Fai clic su **Mostra**>**Portfolio**.
       1. Applica un filtro al report Utilizzo, quindi fai clic su **Esegui**.\
          È necessario specificare uno o più portfolio nel filtro prima di eseguire il rapporto Utilizzo. Per informazioni su come filtrare il report Utilizzo, vedere [Informazioni sull&#39;utilizzo del filtro](#filter-utilization-information) in questo articolo.\
          Le informazioni sull&#39;utilizzo vengono visualizzate per singoli progetti, programmi e portafogli (i progetti sono raggruppati all&#39;interno del programma associato e i programmi sono raggruppati all&#39;interno del portfolio associato).
@@ -516,7 +521,7 @@ Consulta [Tieni traccia di avanzamento, costi e ricavi con il report Utilizzo](#
 1. (Condizionale) Per modificare un filtro esistente, fai clic sul menu a discesa **Filtro**, quindi seleziona il filtro da modificare.
 1. Specifica le seguenti informazioni per creare o modificare il filtro:
 
-   * **Portfoli:** Inizia a digitare il nome del portfolio che contiene le informazioni da includere nel report Utilizzo, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa\
+   * **Portfolio:** inizia a digitare il nome del portfolio che contiene le informazioni da includere nel report Utilizzo, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa\
      Ripetere questo processo per includere le informazioni di più portfolio nel rapporto Utilizzo.\
      Per includere nel filtro tutti i portfolio del sistema, fai clic su **Aggiungi tutti**. Questa opzione è disponibile solo se nel sistema sono presenti meno di 10 portfolio.
 
@@ -668,7 +673,7 @@ Consulta [Tieni traccia di avanzamento, costi e ricavi con il report Utilizzo](#
 
    Il report Utilizzo viene visualizzato in una visualizzazione grafico.
 
-1. (Facoltativo) Configurare il grafico per visualizzare progetti, programmi o Portfoli selezionando l&#39;opzione appropriata dal menu a discesa **Mostra**.
+1. (Facoltativo) Configurare il grafico per visualizzare progetti, programmi o portafogli selezionando l&#39;opzione appropriata dal menu a discesa **Mostra**.
 1. (Facoltativo) Passa il cursore del mouse su un momento specifico del rapporto per visualizzare i dati di quel momento.
 
    ![Passa il cursore sopra un punto dati](assets/utilization-chart-hover.png)

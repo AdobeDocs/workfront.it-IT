@@ -7,14 +7,19 @@ description: Dopo che i project manager hanno pianificato il lavoro sui progetti
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: 233e61c011cc87f49d0d4082a20b7790104c96c8
+source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1194'
 ht-degree: 0%
 
 ---
 
-# Panoramica del Bilanciatore dei carichi di lavoro
+# Panoramica del Bilanciatore dei carichi di lavoro {#workload-balancer-overview}
+
+>[!CONTEXTUALHELP]
+>id="wf-resourcing-workload-balancer"
+>title="Bilanciatore dei carichi di lavoro"
+>abstract="I proprietari dei progetti e i manager del team possono utilizzare il Bilanciatore dei carichi di lavoro per assegnare elementi di lavoro agli utenti."
 
 <!--
 <p>(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>
@@ -30,7 +35,7 @@ Dopo che i project manager hanno pianificato il lavoro sui progetti creando atti
 
 Questo articolo descrive lo scopo generale del Bilanciatore dei carichi di lavoro e alcune delle best practice per configurare progetti e risorse per utilizzarlo con successo.
 
-Per rivedere le esercitazioni video del Bilanciatore dei carichi di lavoro, vai alla pagina [Tutorials di Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=it). Nel menu a sinistra, seleziona **Gestisci risorse** > **Bilanciatore dei carichi di lavoro** e scegli un&#39;esercitazione.
+Per rivedere le esercitazioni video del Bilanciatore dei carichi di lavoro, vai alla pagina [Esercitazioni Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=it). Nel menu a sinistra, seleziona **Gestisci risorse** > **Bilanciatore dei carichi di lavoro** e scegli un&#39;esercitazione.
 
 ## Individuare il Bilanciatore dei carichi di lavoro
 
