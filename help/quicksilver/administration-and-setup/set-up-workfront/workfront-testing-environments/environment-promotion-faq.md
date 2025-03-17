@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: b8d5abc996a3902a8ab8cdce9a8f8d92d4736db1
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 3%
@@ -70,5 +70,4 @@ Il rollback del pacchetto è disponibile per il pacchetto più recente, entro 24
 ### Risposta
 
 * &quot;Usa esistente&quot; equivale a &quot;ignorare&quot; o &quot;ignorare&quot; la distribuzione, perché viene mappato sull’oggetto esistente nell’ambiente di destinazione e non apporta modifiche.
-* Per ignorare gli oggetti, si consiglia di rimuovere
-tutti gli oggetti che non desideri installare dal pacchetto di promozione o direttamente dall’ambiente di origine. Dopo aver rimosso gli oggetti, riassemblate il pacchetto.
+* Per ignorare gli oggetti, è consigliabile rimuovere gli oggetti che non si desidera installare dal pacchetto di promozione o direttamente dall&#39;ambiente di origine. Dopo aver rimosso gli oggetti, riassemblate il pacchetto.
