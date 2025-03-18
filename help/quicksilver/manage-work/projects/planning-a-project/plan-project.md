@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: plan-a-project
-title: Pianificare una panoramica del progetto
-description: Pianificare una panoramica del progetto
+title: Panoramica del progetto
+description: Scopri cos’è un progetto, come stabilirne l’ambito e la struttura, nonché concetti chiave come pianificazioni, tempistiche e date di inizio e completamento.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 3cbcc2dd2efb457f5f0c4213110af54230a23eb0
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1414'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 < see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
 -->
 
-Un progetto è un elemento di lavoro di grandi dimensioni in Adobe Workfront. È possibile suddividere un progetto in attività che sono elementi di lavoro più piccoli, ad esempio attività. Le attività possono essere assegnate a utenti o team che possono essere responsabili del loro completamento. Quando tutti gli utenti completano le loro attività, anche il progetto diventa completo.
+Un progetto è un elemento di lavoro di grandi dimensioni in Adobe Workfront. È possibile suddividere un progetto in attività che sono elementi di lavoro più piccoli. Le attività possono essere assegnate a utenti o team che possono essere responsabili del loro completamento. Quando tutti gli utenti completano le loro attività, anche il progetto diventa completo.
 
 Oltre a pianificare le attività di un progetto, molti altri dettagli vengono inseriti nei progetti di pianificazione. Dalla determinazione degli impatti economici alla considerazione della disponibilità di risorse, vi sono molti elementi di progetti che richiedono attenzione.
 
