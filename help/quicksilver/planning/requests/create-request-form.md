@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7c39f54677be746ce6305124026df7df598b3da2
+source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
 workflow-type: tm+mt
 source-wordcount: '2121'
 ht-degree: 1%
@@ -134,7 +134,7 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
 
    * I campi Valuta, Numero e Percentuale vengono visualizzati come un tipo di campo di testo a riga singola nel generatore di moduli.
 
-     Tuttavia, il formato del campo viene mantenuto e i valori dei numeri in questi campi verranno visualizzati come Valuta, Numero e Percentuale sul tipo di record e nella pagina dei dettagli della richiesta.
+     Tuttavia, il formato del campo viene mantenuto e i valori del campo vengono visualizzati come valuta, numeri e percentuali dopo l’invio della richiesta, nel tipo di record e nella pagina dei dettagli della richiesta.
 
 <div class="preview">
 

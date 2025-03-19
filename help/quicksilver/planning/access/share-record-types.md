@@ -4,7 +4,7 @@ description: È possibile condividere un tipo di record con altri utenti per gar
 hide: true
 hidefromtoc: true
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 08c9eb508861d585d8f76de5bb523132f3be371f
+source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 0%
@@ -17,6 +17,8 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog-->
+
+<!-- take the Remove permissions section out, at the end - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
 # Condividere tipi di record
 
@@ -196,6 +198,25 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Condividi il collegamento copiato con altri utenti. Gli utenti che ricevono il collegamento devono essere utenti attivi e accedere a Workfront per poter accedere alla pagina del tipo di record e visualizzarla nella visualizzazione selezionata.
 
+## Rimuovere le autorizzazioni per un tipo di record
+
+{{step1-to-planning}}
+
+1. Aprire l&#39;area di lavoro di cui si desidera interrompere la condivisione dei tipi di record, quindi fare clic su una scheda del tipo di record. Verrà aperta la pagina del tipo di record.
+
+1. Dalla scheda di qualsiasi visualizzazione, fai clic su **Condividi** nell&#39;angolo superiore destro del tipo di record.
+
+   Viene visualizzata la casella **Condividi**.
+1. Individuare l&#39;utente, il gruppo, il team, la società o la mansione di cui si desidera rimuovere le autorizzazioni, espandere il menu a discesa delle autorizzazioni a destra del nome, quindi fare clic su **Rimuovi**. <!--check the screen shot below - the UI text for View might not be accurate-->
+
+   ![Rimuovi opzione nell&#39;elenco a discesa per la condivisione dei tipi di record](assets/remove-option-on-record-type-sharing-drop-down.png)
+
+1. Fai clic su **Salva**.
+
+   Gli utenti non hanno più accesso al tipo di record. Possono comunque disporre delle autorizzazioni per l&#39;area di lavoro, a meno che non vengano rimosse anche dalle autorizzazioni dell&#39;area di lavoro.
+
+   Agli utenti che sono stati rimossi dall’accesso alla vista non viene notificato che non dispongono più di questo accesso.
+
 <!-- This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
 
 ## Grant permissions to a record type from a permission request
@@ -222,25 +243,4 @@ Users who access a link to a record type to which they do not have permissions c
 1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
 
    If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. <!--will they also get an in-app notification??-->
-
-## Rimuovere le autorizzazioni per un tipo di record
-
-<!-- take this section out - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
-
-{{step1-to-planning}}
-
-1. Aprire l&#39;area di lavoro di cui si desidera interrompere la condivisione dei tipi di record, quindi fare clic su una scheda del tipo di record. Verrà aperta la pagina del tipo di record.
-
-1. Dalla scheda di qualsiasi visualizzazione, fai clic su **Condividi** nell&#39;angolo superiore destro del tipo di record.
-
-   Viene visualizzata la casella **Condividi**.
-1. Individuare l&#39;utente, il gruppo, il team, la società o la mansione di cui si desidera rimuovere le autorizzazioni, espandere il menu a discesa delle autorizzazioni a destra del nome, quindi fare clic su **Rimuovi**. <!--check the screen shot below - the UI text for View might not be accurate-->
-
-   ![Rimuovi opzione nell&#39;elenco a discesa per la condivisione dei tipi di record](assets/remove-option-on-record-type-sharing-drop-down.png)
-
-1. Fai clic su **Salva**.
-
-   Gli utenti non hanno più accesso al tipo di record. Possono comunque disporre delle autorizzazioni per l&#39;area di lavoro, a meno che non vengano rimosse anche dalle autorizzazioni dell&#39;area di lavoro.
-
-   Agli utenti che sono stati rimossi dall’accesso alla vista non viene notificato che non dispongono più di questo accesso.
 
