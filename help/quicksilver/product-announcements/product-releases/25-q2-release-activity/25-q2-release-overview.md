@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 3e9323b42037eec496cf5d1b000f5b91be998e1f
+source-git-commit: b115018560d37fd5d2741086b15b6c844ddf2505
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1226'
 ht-degree: 0%
 
 ---
@@ -189,6 +189,12 @@ Le seguenti funzionalità verranno presto rimosse da Workfront:
 La vista Agile legacy in un progetto verrà rimossa da Workfront con la versione 25.3 del 13 marzo 2025. Puoi comunque visualizzare le attività in una visualizzazione Agile in un progetto facendo clic sull’icona Bacheche.
 
 Per ulteriori informazioni sull&#39;utilizzo della visualizzazione Agile, vedere [Gestire un progetto nella visualizzazione Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+
+#### Obsolescenza avanzata di Analytics
+
+A causa di un utilizzo basso e in calo, abbiamo deciso di rendere obsoleto il prodotto Analytics avanzato nella settimana del 25 maggio 2025.
+Consigliamo di considerare il nostro prodotto Data Connect come un sostituto. Data Connect consente di creare visualizzazioni personalizzate simili utilizzando gli strumenti di business intelligence preferiti.
+Per ulteriori informazioni su questa rimozione, consulta la [Guida all&#39;eliminazione di Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
 
 ## Notifiche
 
