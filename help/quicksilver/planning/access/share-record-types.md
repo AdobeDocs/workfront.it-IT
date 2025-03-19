@@ -4,7 +4,7 @@ description: È possibile condividere un tipo di record con altri utenti per gar
 hide: true
 hidefromtoc: true
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 3cbcc2dd2efb457f5f0c4213110af54230a23eb0
+source-git-commit: 08c9eb508861d585d8f76de5bb523132f3be371f
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 0%
@@ -243,3 +243,4 @@ Users who access a link to a record type to which they do not have permissions c
    Gli utenti non hanno più accesso al tipo di record. Possono comunque disporre delle autorizzazioni per l&#39;area di lavoro, a meno che non vengano rimosse anche dalle autorizzazioni dell&#39;area di lavoro.
 
    Agli utenti che sono stati rimossi dall’accesso alla vista non viene notificato che non dispongono più di questo accesso.
+
