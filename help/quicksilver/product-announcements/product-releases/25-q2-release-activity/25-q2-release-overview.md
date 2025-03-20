@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: b115018560d37fd5d2741086b15b6c844ddf2505
+source-git-commit: eb51a0b5f726105d7d25a358fc3546f7a2f27d89
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1272'
 ht-degree: 0%
 
 ---
@@ -86,6 +86,21 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Aggiornamento visualizzatore bozze desktop </a></p>[!BADGE In produzione ]{type=Informative}
+            <p>Il Visualizzatore bozze desktop è stato aggiornato alla versione 2.1.45. Questo aggiornamento consente di utilizzare
+            <ul><li>Electron versione 35</li><li>Cromo versione 134</li><ul></p>
+        </td>
+        <td>
+            <p><b>Disponibile in queste date:</b></p>
+            <ul>
+                <li>Versione di anteprima: 20 marzo 2025</li>
+                <li><span class="preview">Versione di produzione per tutti i clienti: 20 marzo 2025</span></li>
+            </ul>
+        </td>
+    </tr>                          
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">

@@ -4,9 +4,10 @@ description: Miglioramenti al progetto per il secondo trimestre 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1123c028a1971c7a66158b95642154e540dc3d0e
+exl-id: 32c0df18-2093-42c2-810a-015345d2fa7c
+source-git-commit: 35aa30973b5f942d3b22ad9f9338a509827f4656
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
@@ -17,6 +18,19 @@ Questa pagina descrive tutti i miglioramenti alla gestione dei documenti apporta
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del secondo trimestre 2025, consulta [Panoramica sulla versione del secondo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
+## Aggiornamento visualizzatore bozze desktop
+
+>[!NOTE]
+>
+>Versione di anteprima: 20 marzo 2025; Produzione per tutti i clienti: 20 marzo 2025
+
+Il Visualizzatore bozze desktop è stato aggiornato alla versione 2.1.45. Questo aggiornamento consente di utilizzare
+
+* Electron versione 35
+* Cromo versione 134
+
+Questo aggiornamento è sia per Mac che per Windows.
+
 ## Modificare più documenti contemporaneamente in un report di documenti
 
 >[!NOTE]
@@ -26,4 +40,3 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 È ora possibile modificare più documenti contemporaneamente in un rapporto di documento. Puoi modificare le descrizioni e aggiornare i moduli personalizzati.
 
 Per ulteriori informazioni, vedere [Modificare documenti in blocco](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md).
-
