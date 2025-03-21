@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 92efd05bc97e2e957825cbe7a5ca6d43ca795d6b
+source-git-commit: 8d8282e095c902c0e6b2f51585ac0d4ac9b1e177
 workflow-type: tm+mt
-source-wordcount: '13071'
+source-wordcount: '13099'
 ht-degree: 2%
 
 ---
@@ -414,7 +414,7 @@ ht-degree: 2%
          * [Ricalcoli sequenza temporale progetto](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
          * [Trimestri personalizzati per progetti](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
          * [Abilitare o disabilitare le versioni rapide per la tua organizzazione](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
-         * [Creare e modificare regole aziendali](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
+         * [Creare e modificare le regole di business](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
          * [Configurare le posizioni](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
          * [Gestire le schede delle tariffe](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
       * Configura pianificazioni e preferenze scheda orario {#configure-timesheets-schedules}
@@ -1710,6 +1710,10 @@ ht-degree: 2%
          * [Query attività progetto](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
          * [Query mappa ad albero progetto](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
          * [Attività per query team](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
+      * Suggerimenti e risoluzione dei problemi relativi a Data Connect{#troubleshooting-data-connect}
+         * [Suggerimenti, trucchi e risoluzione dei problemi per Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/tips-tricks-troubleshooting-data-connect.md)
+         * [Tableau Desktop: impossibile stabilire una connessione](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-load-data.md)
+         * [Impossibile connettersi con la password fornita dallo strumento Power BI](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-connect-with-provided-password.md)
 * Gestire le risorse {#manage-resources}
    * [Gestire le risorse](resource-mgmt/manage-resources.md)
    * Gestione delle risorse {#resource-management}
