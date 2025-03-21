@@ -8,20 +8,24 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '2551'
+source-wordcount: '2522'
 ht-degree: 2%
 
 ---
 
 # Modifica problemi
 
+<!--Audited: 03/2025-->
+
 Puoi modificare le informazioni sui problemi che hai creato o che altri utenti hanno creato se hanno condiviso i problemi con te.
 
 Puoi modificare un singolo problema oppure i problemi in un elenco. Per informazioni sulla modifica dei problemi in un elenco, vedi [Modifica problemi in un elenco](../../../manage-work/issues/manage-issues/edit-issues-in-a-list.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -30,19 +34,21 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Richiedi o superiore</p> <p>Revisiona o ottieni la licenza per modificare i problemi nella sezione Problemi di un'attività o di un progetto</p> </td> 
+   <td> <p>Nuova licenza:</p>
+   <ul><li>Collaboratore o versione successiva</li>
+   <li>Chiaro o superiore per modificare i problemi nella sezione Problemi di un’attività o di un progetto</li></ul>
+   <p>Licenza corrente:</p>
+  <ul><li>Richiedi o superiore</li> <li>Revisione o successiva per modificare i problemi nella sezione Problemi di un'attività o di un progetto</li></ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Livello di accesso*</td> 
-   <td> <p>Modifica l'accesso alle Issues</p> <p><b>NOTA</b>
-
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni sull&#39;accesso ai problemi nel tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Concedere l&#39;accesso ai problemi</a>. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>. </p> </td>
-</tr> 
+   <td role="rowheader">Livello di accesso</td> 
+   <td> <p>Modifica l'accesso alle Issues</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
    <td> <p>Autorizzazioni di Contribute a un problema per modificare i campi seguenti nell’area Dettagli: </p>
@@ -56,7 +62,9 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Limitazioni durante la modifica dei problemi
 
@@ -254,14 +262,9 @@ Esistono alcune limitazioni che potrebbero impedire la modifica dei problemi.
       <tr> 
       <td role="rowheader">Questo risolve</td> 
       <td>Il nome collegato del problema che viene completato quando viene risolto il problema a cui accedi.  </td> 
-     </tr>
-
-
-   </tbody> 
+     </tr> 
+    </tbody> 
    </table>
-
-
-
 
 
 1. Fai clic su **Salva** o continua a modificare le sezioni seguenti.

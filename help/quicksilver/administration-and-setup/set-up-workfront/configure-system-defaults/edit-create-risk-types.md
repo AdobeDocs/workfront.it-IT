@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
-source-git-commit: 7c39f54677be746ce6305124026df7df598b3da2
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '584'
 ht-degree: 3%
 
 ---
 
 # Modificare e creare tipi di rischio
+
+<!--Audited: 03/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -46,7 +48,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
    <td><p>Nuovo: [!UICONTROL Standard]</p>
    Oppure
    <p>Corrente: [!UICONTROL Plan]</p>
@@ -59,7 +61,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -95,10 +97,9 @@ Per aumentare il numero di tipi di rischio nell’istanza di Workfront, puoi eff
 
    >[!TIP]
    >
-   >   È possibile modificare le informazioni sul tipo di rischio in linea facendo doppio clic sul nome o sulla descrizione di un tipo di rischio nell&#39;elenco.
+   >   È possibile modificare le informazioni sul tipo di rischio in linea quando si fa doppio clic sul nome o sulla descrizione di un tipo di rischio in un elenco di tipi di rischio.
 
 1. (Facoltativo) Modificare il nome e la descrizione del tipo di rischio.
-
 
    I campi **[!UICONTROL Nome]** e **[!UICONTROL Descrizione]** contengono un limite di 50 caratteri.
 
@@ -130,7 +131,7 @@ Per aumentare il numero di tipi di rischio nell’istanza di Workfront, puoi eff
    Oppure
 
    Fare clic su [!UICONTROL **Aggiungi altri tipi di rischio**] nell&#39;angolo inferiore sinistro dell&#39;elenco dei tipi di rischio per aggiungere i tipi di rischio in linea. <!--add screen shot-->
-1. Digitare un **[!UICONTROL Nome]** (obbligatorio) e una **[!UICONTROL Descrizione]** (facoltativo) per il tipo di rischio.
+1. Aggiungi un **[!UICONTROL Nome]** (obbligatorio) e una **[!UICONTROL Descrizione]** (facoltativo) per il tipo di rischio.
 
    I campi **[!UICONTROL Nome]** e **[!UICONTROL Descrizione]** contengono un limite di 50 caratteri.
 

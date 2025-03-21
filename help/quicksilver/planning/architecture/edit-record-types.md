@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 2%
+source-wordcount: '714'
+ht-degree: 1%
 
 ---
 
@@ -159,15 +159,15 @@ OLD:
    Viene visualizzata la pagina dell&#39;area di lavoro e i tipi di record.
 1. Esegui una delle operazioni seguenti:
 
-   * Passa il puntatore del mouse sulla scheda di un tipo di record e fai clic sul menu **Altro** ![](assets/more-menu.png) nell&#39;angolo superiore destro della scheda del tipo di record, quindi fai clic su **Modifica**
+   * Passa il puntatore del mouse sulla scheda di un tipo di record e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) nell&#39;angolo superiore destro della scheda del tipo di record, quindi fai clic su **Modifica**
 Oppure
-   * Fai clic su una scheda del tipo di record per aprire la pagina del tipo di record, fai clic sul menu **Altro** ![](assets/more-menu.png) a destra del nome del tipo di record, quindi fai clic su **Modifica**.
+   * Fai clic su una scheda del tipo di record per aprire la pagina del tipo di record, fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record, quindi fai clic su **Modifica**.
 
-   ![](assets/more-menu-options-from-record-type-card.png)
+   ![Altre opzioni di menu dalla scheda del tipo di record](assets/more-menu-options-from-record-type-card.png)
 
 1. Nella casella **Modifica tipo di record**, per impostazione predefinita viene aperta la scheda **Aspetto**.
 
-   ![](assets/edit-record-type-box-appearance-tab.png)
+   ![Modifica la scheda dell&#39;aspetto della casella del tipo di record ](assets/edit-record-type-box-appearance-tab.png)
 
    Aggiorna le seguenti informazioni nella scheda **Aspetto**:
 
@@ -179,7 +179,7 @@ Oppure
 
 1. (Condizionale) Se sei un amministratore di sistema, fai clic sulla scheda **Impostazioni avanzate** nella casella **Modifica tipo di record**.
 
-   ![](assets/edit-record-type-box-advanced-settings-tab.png)
+   ![Scheda Impostazioni avanzate della casella Modifica tipo di record](assets/edit-record-type-box-advanced-settings-tab.png)
 
 1. (Condizionale) In qualità di amministratore di sistema, aggiorna le seguenti informazioni nella scheda **Impostazioni avanzate**:
 
@@ -189,10 +189,10 @@ Oppure
 
 1. Fai clic su **Salva**.
 
-   La scheda del tipo di record nell&#39;area di lavoro visualizza un&#39;icona di connettività ![](assets/connect-from-other-workspaces-icon.png) nell&#39;angolo superiore destro per indicare che il record è ora accessibile da altre aree di lavoro.
+   La scheda del tipo di record nell&#39;area di lavoro visualizza un&#39;icona di connettività ![Connetti da altre aree di lavoro](assets/connect-from-other-workspaces-icon.png) nell&#39;angolo superiore destro per indicare che il record è ora accessibile da altre aree di lavoro.
 
 1. (Facoltativo) Fai clic sulla scheda del tipo di record nell’area di lavoro per aprire la pagina del tipo di record, quindi rinomina il tipo di record nell’intestazione.
 
 1. (Facoltativo) Per modificare un altro tipo di record, dalla pagina tipo di record espandere la freccia rivolta verso il basso a destra del nome di un tipo di record, cercare un tipo di record e selezionarlo quando viene visualizzato nell&#39;elenco.
 
-   ![](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
+   ![Elenco a discesa del tipo di record nella pagina del tipo di record con casella di ricerca](assets/record-type-drop-down-on-record-type-page-with-search-box.png)

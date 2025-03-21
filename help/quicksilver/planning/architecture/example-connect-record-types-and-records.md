@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '2047'
 ht-degree: 0%
 
 ---
@@ -61,11 +61,11 @@ Per eseguire questa operazione:
       * **Immagine**: visualizza solo la miniatura o l&#39;icona dei record connessi.
    * **Seleziona campi di ricerca**: se lasci selezionata questa opzione, viene visualizzata la casella **Aggiungi campi di ricerca** per consentire il collegamento di campi prodotto con il tipo di record Campaign. Puoi fare clic su **Ignora** per saltare questo passaggio e aggiungere i campi Prodotto in un secondo momento.
 
-     ![](assets/new-connection-with-product-record-type.png)
+     ![Nuova connessione con tipo di record prodotto](assets/new-connection-with-product-record-type.png)
 
 1. (Condizionale) Se nel passaggio precedente hai selezionato l&#39;opzione **Seleziona campi di ricerca**, dall&#39;elenco dei campi associati al tipo di record **Prodotto** fai clic sull&#39;icona **+** per il campo **Budget**, quindi fai clic su **Aggiungi campi**. In questo modo viene creato un campo denominato **Budget (dalle informazioni sul prodotto)**, che corrisponde al nome del campo collegato. In questo campo vengono visualizzate tutte le informazioni relative al budget prodotti per i record Campagna.
 
-   ![](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
+   ![Aggiungi campi per il campo del budget per la connessione con tipo di record](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
 
    >[!TIP]
    >
@@ -84,17 +84,17 @@ Per eseguire questa operazione:
 
       * **Campagna**: indica che il tipo di record Prodotto è collegato dal tipo di record Campagna.
 
-     ![](assets/example-campaign-information-relationship-fields-from-product-record-table.png)
+     ![Esempio di campi di relazione delle informazioni sulla campagna dalla tabella dei record di prodotto](assets/example-campaign-information-relationship-fields-from-product-record-table.png)
 
    >[!TIP]
    >
-   >    I campi record collegati sono preceduti dall&#39;icona di relazione ![](assets/relationship-field-icon.png).
+   >    I campi record collegati sono preceduti dall&#39;icona relazione ![Icona campo relazione](assets/relationship-field-icon.png).
 
 1. Dalla vista della tabella dei tipi di record **Campaign**, crea una campagna aggiungendo una nuova riga nella tabella della pagina del tipo di record Campaign.
 
 1. Fai doppio clic all&#39;interno della colonna **Informazioni prodotto** della nuova campagna.
 
-   ![](assets/connect-other-records-smaller-box-in-table-view.png)
+   ![Connetti altri record a una casella più piccola nella vista tabella](assets/connect-other-records-smaller-box-in-table-view.png)
 
 1. Esegui una delle operazioni seguenti:
 
@@ -104,7 +104,7 @@ Per eseguire questa operazione:
 
 1. (Condizionale) Se hai fatto clic su **Visualizza tutti** nel passaggio precedente, viene visualizzata la casella **Connetti oggetti**.
 
-   ![](assets/connected-objects-table-for-records.png)
+   ![Tabella oggetti connessi per i record](assets/connected-objects-table-for-records.png)
 
 1. Inizia a digitare il nome di un prodotto nella casella di ricerca, quindi selezionalo quando viene visualizzato nell’elenco
 
@@ -120,7 +120,7 @@ Per eseguire questa operazione:
    * Il campo **Informazioni prodotto** viene compilato per il record Campagna con i prodotti selezionati.
    * **Il campo Budget (da informazioni prodotto)** viene compilato con il valore Budget per ciascun prodotto selezionato o con il totale di tutti i budget dei prodotti selezionati (se è stato selezionato SOMMA per l&#39;aggregatore).
 
-   ![](assets/example-product-information-and-budget-relationship-fields-for-campaign-record-table.png)
+   ![Esempio di campi delle informazioni sul prodotto e delle relazioni di budget per la tabella dei record della campagna](assets/example-product-information-and-budget-relationship-fields-for-campaign-record-table.png)
 
    >[!TIP]
    >
@@ -159,7 +159,7 @@ Per eseguire questa operazione:
    * **Collega solo gli oggetti che corrispondono a questo criterio**: seleziona un modulo personalizzato dal menu a discesa **Modulo personalizzato**. Solo i progetti associati ai moduli specificati sono disponibili per la connessione alle campagne. È possibile selezionare più moduli.
    * **Seleziona campi di ricerca**: se lasci selezionata questa opzione, viene visualizzata la casella **Aggiungi campi di ricerca** per consentire il collegamento di campi di Project con il tipo di record Campaign. Puoi fare clic su **Ignora** per saltare questo passaggio e aggiungere i campi Progetto in un secondo momento.
 
-   ![](assets/new-connection-tab-with-workfront-option.png)
+   ![Nuova scheda di connessione con l&#39;opzione Workfront](assets/new-connection-tab-with-workfront-option.png)
 
 1. (Condizionale) Se hai selezionato l&#39;opzione **Seleziona campi di ricerca** nel passaggio precedente, dall&#39;elenco di campi associati al tipo di oggetto **Progetto**, fai clic sull&#39;icona **+** per il campo **Entrate pianificate**, quindi fai clic su **Aggiungi campi**. In questo modo viene creato un campo denominato **Ricavi pianificati (dalle informazioni sul progetto)**, che corrisponde al nome del campo collegato. Tutte le informazioni contenute nel campo Retribuzione pianificata progetto verranno visualizzate automaticamente in questo campo per i record della campagna.
 
@@ -169,7 +169,7 @@ Per eseguire questa operazione:
    >
    > Se selezioni **Nessuno**, invece di **SOMMA**, le singole Retribuzioni pianificate vengono visualizzate separate da virgole.
 
-   ![](assets/add-planned-revenue-project-field-to-new-connection.png)
+   ![Aggiungi il campo del progetto Reddito Pianificato alla nuova connessione](assets/add-planned-revenue-project-field-to-new-connection.png)
 
    Vengono generati i campi seguenti:
 
@@ -180,13 +180,13 @@ Per eseguire questa operazione:
 
    >[!TIP]
    >
-   >    I campi oggetto collegato sono preceduti dall&#39;icona di relazione ![](assets/relationship-field-icon.png).
+   >    I campi oggetto collegato sono preceduti dall&#39;icona di relazione ![Icona campo relazione](assets/relationship-field-icon.png).
 
 1. Dalla vista tabella del tipo di record **Campaign**, crea una campagna aggiungendo una nuova riga nella tabella.
 
 1. Fai doppio clic all’interno della colonna Informazioni progetto** della nuova campagna.
 
-   ![](assets/connect-projects-smaller-box-in-table.png)
+   ![Collega progetti con riquadro più piccolo nella tabella](assets/connect-projects-smaller-box-in-table.png)
 
 1. Esegui una delle operazioni seguenti:
 
@@ -196,7 +196,7 @@ Per eseguire questa operazione:
 
 1. (Condizionale) Se hai fatto clic su **Visualizza tutti** nel passaggio precedente, viene visualizzata la casella **Connetti oggetti**.
 
-   ![](assets/connect-projects-larger-box.png)
+   ![Connetti progetti con dimensioni maggiori](assets/connect-projects-larger-box.png)
 
 1. Inizia a digitare il nome di un progetto nella casella di ricerca, quindi selezionalo quando viene visualizzato nell’elenco
 
@@ -214,7 +214,7 @@ Per eseguire questa operazione:
       * Il campo **Informazioni progetto** viene compilato per il record Campagna con i progetti selezionati.
       * Nel campo **Entrate pianificate (da informazioni prodotto)** viene inserito il valore Budget per ciascun prodotto selezionato. Questo campo è di sola lettura.
 
-   ![](assets/project-linked-field-and-planned-revenue-in-campaign-table-highlighted.png)
+   ![Campo collegato al progetto e retribuzione pianificata nella tabella della campagna evidenziati](assets/project-linked-field-and-planned-revenue-in-campaign-table-highlighted.png)
 
    >[!TIP]
    >

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '1541'
 ht-degree: 1%
 
 ---
@@ -93,7 +93,7 @@ Considerare le seguenti informazioni sulla connessione dei tipi di record:
      >
      >Tutti gli utenti con autorizzazioni View (Visualizzazione) o superiori all&#39;area di lavoro possono visualizzare le informazioni nei campi di ricerca, indipendentemente dalle autorizzazioni o dal livello di accesso nell&#39;applicazione dei tipi di oggetto collegati o dalle autorizzazioni in altre aree di lavoro.
 
-     I campi record collegati sono preceduti dall&#39;icona di relazione ![](assets/relationship-field-icon.png).
+     I campi record collegati sono preceduti dall&#39;icona di relazione ![Icona campo relazione](assets/relationship-field-icon.png).
 
      I campi collegati sono preceduti da un’icona che identifica il tipo di campo. Ad esempio, i campi collegati (o di ricerca) sono preceduti da icone che indicano che un campo è un numero, un paragrafo o una data.
 
@@ -118,7 +118,7 @@ A seconda del numero di record che è possibile aggiungere a un campo record con
 
 ### Tipo di connessione da molti-a-molti
 
-![](assets/many-to-many-connection-picker.png)
+![Selezione connessioni molti a molti](assets/many-to-many-connection-picker.png)
 
 Quando si crea una connessione molti-a-molti tra tipi di record, è possibile selezionare più record nel campo connessione da entrambi i tipi di record.
 
@@ -130,7 +130,7 @@ Quando si seleziona questo tipo di connessione, non è possibile modificarlo dop
 
 ### Tipo di connessione uno-a-molti
 
-![](assets/one-to-many-connection-picker.png)
+![Selezione connessione uno a molti](assets/one-to-many-connection-picker.png)
 
 
 Quando si crea una connessione uno-a-molti tra tipi di record, è possibile selezionare più record nel campo connessione del tipo di record corrente, ma il campo connessione corrispondente nel tipo di record a cui ci si connette consente di selezionare un solo record. Il campo record connesso creato automaticamente nel secondo tipo di record viene impostato automaticamente su un tipo di relazione molti-a-uno.
@@ -143,7 +143,7 @@ Quando si seleziona questo tipo di connessione, è possibile modificarlo in un s
 
 ### Tipo di connessione molti-a-uno
 
-![](assets/many-to-one-connection-picker.png)
+![Selezione connessione molti a uno](assets/many-to-one-connection-picker.png)
 
 
 Quando si crea una connessione molti-a-uno tra tipi di record, è possibile collegare ogni record del tipo di record corrente con un solo record del tipo di record connesso. Il campo record connesso creato automaticamente nel secondo tipo di record viene impostato automaticamente su un tipo di relazione uno-a-molti.
@@ -156,7 +156,7 @@ Quando si seleziona questo tipo di connessione, è possibile modificarlo in un s
 
 ### Tipo di connessione uno-a-uno
 
-![](assets/one-to-one-connection-picker.png)
+![Selezione connessione uno a uno](assets/one-to-one-connection-picker.png)
 
 Quando si crea una connessione uno-a-uno tra tipi di record, in entrambi i tipi di record è possibile connettere ogni record a un solo record dell&#39;altro tipo.
 

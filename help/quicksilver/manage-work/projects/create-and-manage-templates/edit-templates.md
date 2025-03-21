@@ -6,9 +6,9 @@ description: È possibile modificare i modelli di progetto per riflettere le mod
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '4854'
+source-wordcount: '4877'
 ht-degree: 2%
 
 ---
@@ -1106,9 +1106,16 @@ L’aggiunta dei seguenti elementi a un modello è identica all’aggiunta a un 
 
   Per ulteriori informazioni sull&#39;aggiunta delle spese, vedere [Gestione delle spese del progetto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
+* Dettagli coda
+
+  Per informazioni sull&#39;aggiunta di Dettagli coda a un progetto o a un modello, vedere [Creare una coda di richieste](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+
 * Gruppi di argomenti e argomenti coda
 
-  Per ulteriori informazioni sull&#39;aggiunta di Gruppi di argomenti e Argomenti coda a un progetto o modello, vedere [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+  Per informazioni sull&#39;aggiunta di Gruppi di argomenti e Argomenti coda a un progetto o a un modello, vedere gli articoli seguenti:
+
+   * [Crea gruppi di argomenti](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+   * [Crea argomenti coda](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 
 Puoi aggiungere i seguenti elementi alle attività nel modello:
 

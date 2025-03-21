@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '2341'
+source-wordcount: '2407'
 ht-degree: 1%
 
 ---
@@ -187,13 +187,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Fare clic sulla scheda di un tipo di record per aprire la pagina del tipo di record.
 1. Fai clic sull&#39;icona **+** nell&#39;angolo superiore destro della visualizzazione tabella, quindi fai clic sulla scheda **Nuova connessione**.
 
-   ![](assets/new-connection-tab-with-workfront-aem-options.png)
+   ![Nuova scheda di connessione con le opzioni di Workfront AEM](assets/new-connection-tab-with-workfront-aem-options.png)
 
 1. Nel campo **Tipo di record**, cercare un tipo di record oppure selezionare uno dei tipi seguenti:
 
    * Un altro tipo di record dell&#39;area di lavoro corrente
 
-     ![](assets/many-to-many-connection-picker.png)
+     ![Selezione connessioni molti a molti](assets/many-to-many-connection-picker.png)
 
      >[!TIP]
      >
@@ -210,15 +210,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
      Per informazioni, vedere [Modifica tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     ![Nuova connessione per consentire più record, casella](assets/new-connection-allow-multiple-records-box.png)
 
    * **Progetto, Portfolio, Programma, Società** o **Gruppo** dalla sezione **Tipi di oggetti di Workfront**.
 
-     ![](assets/workfront-project-connection-selection.png)
+     ![Selezione connessione progetto Workfront](assets/workfront-project-connection-selection.png)
 
    * **Experience Manager Assets** dalla sezione **Applicazioni Adobe**.
 
-     ![](assets/aem-assets-connection-selection.png)
+     ![Selezione connessione AEM Assets](assets/aem-assets-connection-selection.png)
 
 1. Aggiorna le seguenti informazioni:
 
@@ -233,7 +233,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
      Questa opzione è disponibile solo quando si collegano record di due aree di lavoro diverse o un record e un oggetto risorsa di Adobe Experience Manager.
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     ![Nuova connessione per consentire più record, casella](assets/new-connection-allow-multiple-records-box.png)
 
    * **Tipo di connessione**: selezionare una delle opzioni seguenti per indicare il numero di record a cui è possibile connettersi e da cui connettersi:
 
@@ -244,7 +244,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
      Questa opzione è disponibile solo quando si connettono record dello stesso workspace o di un record e un tipo di oggetto Workfront.
 
-     ![](assets/many-to-many-connection-picker.png)
+     ![Selezione connessioni molti a molti](assets/many-to-many-connection-picker.png)
 
      Per ulteriori informazioni sui tipi di connessione, vedere [Panoramica sui tipi di record connessi](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -303,7 +303,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Fai clic sull&#39;icona **-** per rimuovere i campi dall&#39;area **Campi selezionati**
 
-   ![](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
+   ![Aggiungi campi di ricerca per un&#39;altra casella del tipo di record](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
 
    I valori dei campi collegati vengono compilati automaticamente dopo il collegamento di record o oggetti.
 
@@ -328,7 +328,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
    >    Se si desidera che i campi siano disponibili per l&#39;aggiunta come date di inizio e di fine per le visualizzazioni Timeline e Calendario, è necessario selezionare un valore di aggregazione durante l&#39;aggiunta di campi data ricerca. Ad esempio, puoi selezionare MAX o l’aggregatore MIN per un campo data di ricerca.
 
-   ![](assets/aggregator-drop-down-for-number-linked-field.png)
+   ![Elenco a discesa Aggregator per il campo numerico collegato](assets/aggregator-drop-down-for-number-linked-field.png)
 
    >[!NOTE]
    >
@@ -358,7 +358,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >* **UNIVOCO**: $100.000
    >
 
-1. (Facoltativo) Utilizza l&#39;icona **ricerca** ![](assets/search-icon.png) per cercare un campo.
+1. (Facoltativo) Utilizza l&#39;icona **ricerca** ![icona di ricerca](assets/search-icon.png) per cercare un campo.
 
 1. Fai clic su **Aggiungi campi** per salvare le modifiche.
 
@@ -385,7 +385,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    * **Modifica campo**: aggiorna il **Nome** e le **Descrizione** informazioni del campo.
    * **Modifica campi di ricerca**: aggiungere o rimuovere i campi del record collegato.
 
-   ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
+   ![Menu a discesa Modifica campo e campi di ricerca nella colonna della tabella](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
    Per aggiungere o rimuovere campi di ricerca, seguire le istruzioni riportate nei passaggi 16-17 precedenti. <!--ensure these step numbers stay accurate-->
 

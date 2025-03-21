@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ Quando qualcuno condivide con te un collegamento a un’area di lavoro o a una v
 
    Viene visualizzata una pagina di **Accesso negato** per informare che non si dispone dell&#39;accesso alla visualizzazione o all&#39;area di lavoro.
 
-   ![](assets/request-access-to-view.png)
+   ![Richiedi accesso alla visualizzazione](assets/request-access-to-view.png)
 
 1. (Condizionale) Se il collegamento condiviso è per una visualizzazione di un&#39;area di lavoro a cui hai accesso, fai clic su **Apri con visualizzazione esistente**. Se si dispone delle autorizzazioni di accesso all&#39;area di lavoro, la pagina del tipo di record viene visualizzata nella visualizzazione predefinita.
 
@@ -126,8 +126,8 @@ Quando qualcuno condivide con te un collegamento a un’area di lavoro o a una v
 
    Tutti gli utenti con autorizzazioni di gestione per la visualizzazione o l’area di lavoro ricevono le notifiche seguenti per la richiesta di accesso:
    * Una notifica in-app
-     ![](assets/in-app-notification-for-access-request.png)
+     ![Notifica in-app per la richiesta di accesso](assets/in-app-notification-for-access-request.png)
    * Una notifica e-mail
-     ![](assets/email-notification-for-access-request.png)
+     ![Notifica e-mail per la richiesta di accesso](assets/email-notification-for-access-request.png)
 
 1. (Facoltativo) Quando il gestore della visualizzazione o dell’area di lavoro ti concede le autorizzazioni per la visualizzazione o l’area di lavoro, ricevi una notifica e-mail e una notifica in-app con la conferma che l’autorizzazione è stata concessa. <!--check this - I was not able to test this, but Isk confirmed.-->

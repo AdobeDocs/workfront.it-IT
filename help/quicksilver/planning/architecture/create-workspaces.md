@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '628'
 ht-degree: 1%
 
 ---
@@ -176,7 +176,7 @@ For more information about access requirements, see [Access requirements in Work
 
    È possibile indicare i tipi di record operativi, le tassonomie e il numero di campi associati a ciascun modello.
 
-   ![](assets/previewing-a-workspace-template.png)
+   ![Anteprima di un modello di area di lavoro](assets/previewing-a-workspace-template.png)
 
    Per informazioni sui modelli di area di lavoro di Workfront Planning, vedere [Elenco dei modelli di area di lavoro](/help/quicksilver/planning/architecture/workspace-templates.md).
 
@@ -201,7 +201,7 @@ For more information about access requirements, see [Access requirements in Work
 
    Oppure
 
-   Passa il mouse sul nome di una sezione, quindi fai clic sul menu **Altro** ![](assets/more-menu.png), quindi fai clic su **Rinomina** per rinominare la sezione.
+   Passa il mouse sul nome di una sezione, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png), quindi fai clic su **Rinomina** per rinominare la sezione.
 
    >[!TIP]
    >

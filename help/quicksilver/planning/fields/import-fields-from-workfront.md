@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '709'
 ht-degree: 7%
 
 ---
@@ -169,11 +169,11 @@ Tutti gli altri tipi di campo di Workfront non sono supportati in Workfront Plan
    Passa il puntatore del mouse sull&#39;intestazione di una colonna, fai clic sulla freccia rivolta verso il basso dopo il nome del campo, quindi fai clic su **Inserisci a sinistra** o **Inserisci a destra** per aggiungere il nuovo campo.
 1. Fai clic su **Aggiungi esistente** nell&#39;angolo inferiore destro della scheda **Nuovo campo**. <!--check UI - did they change this??-->
 
-   ![](assets/add-existing-fields-from-workfront-modal.png)
+   ![Aggiungi campi esistenti dal modale Workfront](assets/add-existing-fields-from-workfront-modal.png)
 
 1. Inizia a digitare il nome di un campo Workfront esistente nell&#39;area di ricerca, quindi fai clic su **+** quando viene visualizzato nell&#39;elenco.
 1. (Facoltativo) Digitare un altro campo, quindi fare clic su **+** quando viene visualizzato nell&#39;elenco.
-1. (Facoltativo) Fai clic sull&#39;icona ![](assets/filters-in-import-fields-icon.png) di **Filtri**, quindi aggiorna uno o entrambi i campi seguenti:
+1. (Facoltativo) Fai clic sull&#39;icona **Filtri** ![Icona Filtri nei campi di importazione](assets/filters-in-import-fields-icon.png), quindi aggiorna uno o entrambi i campi seguenti:
 
    * Tipo di oggetto: selezionare un tipo di oggetto Workfront di cui si desidera importare i campi.
    * Modulo personalizzato: seleziona uno o più moduli personalizzati da Workfront. È possibile selezionare un modulo personalizzato senza prima selezionare un tipo di oggetto.
