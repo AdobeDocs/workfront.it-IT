@@ -6,9 +6,9 @@ description: Puoi reimpostare la tua  [!DNL Adobe Workfront]  password. Come mis
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 234fc6b7b5acb0914744831066cb88a965e54048
+source-git-commit: 00930d520a6421a33ebe7c4842b59b9df514080b
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '261'
 ht-degree: 1%
 
 ---
@@ -77,10 +77,10 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 1. Digitare la vecchia password, quindi digitare la nuova password due volte.
 
-   La password deve avere almeno 8 caratteri e contenere due <!--of each--> dei seguenti tipi di caratteri:
+   La password deve avere almeno 8 caratteri e contenere due dei seguenti tipi di caratteri:
 
-   <!--* Uppercase letters
-   * Lowercase letters-->
+   * Lettere maiuscole
+   * Lettere minuscole
    * Lettere
    * Numeri
    * Caratteri speciali (come ! @ # $ %)
