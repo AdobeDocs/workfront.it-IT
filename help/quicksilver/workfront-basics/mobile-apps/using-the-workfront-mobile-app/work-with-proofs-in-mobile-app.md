@@ -6,9 +6,9 @@ description: Quando ti viene assegnata una bozza per l’approvazione, questa vi
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
-source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
+source-git-commit: 234fc6b7b5acb0914744831066cb88a965e54048
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ L&#39;accesso per la revisione e l&#39;approvazione delle bozze è lo stesso di 
 
    >[!NOTE]
    >
-   >Impossibile aprire le bozze video nell’app mobile.
+   >Le bozze video possono essere aperte solo nell’app mobile di iOS. Questa funzionalità non è ancora disponibile per Android.
 
 1. Esaminare la bozza del documento.
 1. (Facoltativo) Seleziona ![[!UICONTROL Icona Pagina singola]](assets/mobile-proofpagingicon1-25x36.png) in alto a destra del documento per passare dalla visualizzazione a pagina singola alla visualizzazione continua. Seleziona ![[!UICONTROL Icona Pagina continua]](assets/mobile-proofpagingicon2-25x25.png) per tornare alla visualizzazione a pagina singola.
