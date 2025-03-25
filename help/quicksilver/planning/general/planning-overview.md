@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1818'
+source-wordcount: '1878'
 ht-degree: 2%
 
 ---
@@ -184,7 +184,7 @@ Di seguito sono riportati gli oggetti e i concetti principali di Workfront Plann
 
 * **Workspace**: raccolta di tipi di record che definiscono il ciclo di vita operativo di una determinata organizzazione. Un’area di lavoro è l’area di lavoro di un’unità organizzativa.
 
-  ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
+  ![Area di lavoro di marketing con tassonomie di tipo record apertura pagina](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
   Per ulteriori informazioni, vedere [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
 
@@ -202,7 +202,7 @@ Di seguito sono riportati gli oggetti e i concetti principali di Workfront Plann
 
 * **Record**: istanza di un tipo di record.
 
-  ![](assets/records-highlighted-in-campaign-record-type-list.png)
+  ![Record evidenziati nell&#39;elenco dei tipi di record della campagna](assets/records-highlighted-in-campaign-record-type-list.png)
 
   Dopo aver aggiunto un tipo di record a un&#39;area di lavoro, è possibile iniziare ad aggiungere record di tale tipo nella pagina del tipo di record.
 
@@ -212,7 +212,7 @@ Di seguito sono riportati gli oggetti e i concetti principali di Workfront Plann
 
 * **Modello Workspace**: è possibile creare un&#39;area di lavoro utilizzando modelli predefiniti. È possibile utilizzare i tipi di record e i campi predefiniti inclusi in un modello oppure aggiungere record personalizzati.
 
-  ![](assets/workspaces-page-with-templates-thumbnails.png)
+  ![Pagina aree di lavoro con miniature modelli](assets/workspaces-page-with-templates-thumbnails.png)
 
   Adobe Workfront Planning contiene i seguenti modelli:
 
@@ -226,7 +226,7 @@ Di seguito sono riportati gli oggetti e i concetti principali di Workfront Plann
 
 * **Campi**: i campi sono attributi che è possibile aggiungere ai tipi di record. I campi contengono informazioni sul tipo di record. <!--check the shot below, "Connection" needs to be in lowercase-->
 
-  ![](assets/drop-down-list-of-record-fields.png)
+  ![Elenco a discesa dei campi record](assets/drop-down-list-of-record-fields.png)
 
   Considerazioni sui campi record:
 
@@ -274,7 +274,7 @@ Di seguito sono riportati gli oggetti e i concetti principali di Workfront Plann
 
      È necessario disporre di una licenza Adobe Experience Manager per collegare i tipi di record agli oggetti Experience Manager.
 
-     ![](assets/new-connection-tab-with-workfront-aem-options.png)
+     ![Nuova scheda di connessione con le opzioni di Workfront AEM](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
   Dopo aver stabilito una connessione tra i tipi di record, è possibile collegare tra loro singoli record o oggetti di tali tipi. La connessione tra i record viene visualizzata come campo record connesso o come connessione.
@@ -283,7 +283,7 @@ Di seguito sono riportati gli oggetti e i concetti principali di Workfront Plann
 
   Se ad esempio si connette un tipo di record Campagna a un tipo di oggetto Progetto Workfront, è possibile visualizzare il campo Budget dei progetti connessi nei record della campagna.
 
-  ![](assets/add-lookup-fields-modal.png)
+  ![Aggiungi casella campi di ricerca](assets/add-lookup-fields-modal.png)
 
   >[!TIP]
   >
@@ -303,7 +303,7 @@ Di seguito sono riportati gli oggetti e i concetti principali di Workfront Plann
 
 * **Visualizzazioni**: i record vengono visualizzati nella rispettiva pagina del tipo di record in diversi tipi di visualizzazioni.
 
-  ![](assets/view-types-drop-down-from-record-type-list.png)
+  ![Elenco a discesa dei tipi di visualizzazione dall&#39;elenco dei tipi di record](assets/view-types-drop-down-from-record-type-list.png)
 
   Le visualizzazioni contengono impostazioni personalizzate di un tipo di visualizzazione specifico, ad esempio l&#39;elenco di campi (colonne), un elenco di record (righe), il relativo ordine, un filtro applicato o applicabile e un raggruppamento.
 
@@ -311,14 +311,14 @@ Di seguito sono riportati gli oggetti e i concetti principali di Workfront Plann
 
    * **Vista tabella**: visualizza i record e i relativi campi, inclusi i campi connessi e di ricerca, in un formato tabella. Le righe della tabella sono i singoli record e le colonne sono i campi record. La vista tabella è quella predefinita.
 
-     ![](assets/table-view-example.png)
+     ![Esempio di visualizzazione tabella](assets/table-view-example.png)
 
    * **Visualizzazione sequenza temporale**: visualizza i record contenenti almeno due campi di tipo Data in una sequenza temporale cronologica. È possibile visualizzare fino a 5 tipi di record collegati e i relativi record nella visualizzazione timeline.
 
-     ![](assets/grouping-applied-in-timeline-view.png)
+     ![Raggruppamento applicato nella vista timeline](assets/grouping-applied-in-timeline-view.png)
 
    * **Visualizzazione calendario**: visualizza i record con almeno due campi di tipo Data in un formato calendario.
-     ![](assets/calendar-view-example.png)
+     ![Esempio di visualizzazione calendario](assets/calendar-view-example.png)
 
 
 Per ulteriori informazioni, vedere [Gestire le visualizzazioni dei record](/help/quicksilver/planning/views/manage-record-views.md).
@@ -333,11 +333,11 @@ Per individuare Workfront Planning:
 
 {{step1-click-main-menu}}
 
-1. Fare clic su **Pianificazione** ![](assets/planning-icon.png).
+1. Fare clic sull&#39;icona **Planning** ![Planning](assets/planning-icon.png).
 
    Viene visualizzata la pagina principale di Workfront Planning.
 
-   ![](assets/planning-landing-page-admin.png)
+   ![Amministratore pagina di destinazione di Planning](assets/planning-landing-page-admin.png)
 
    >[!TIP]
    >

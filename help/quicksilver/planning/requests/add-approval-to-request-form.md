@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '709'
 ht-degree: 1%
 
 ---
@@ -127,7 +127,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Viene visualizzata l&#39;area **Configurazione**.
 
-   ![](assets/configuration-tab.png)
+   ![Scheda Configurazione](assets/configuration-tab.png)
 1. Nel campo **Approvatori**, fare clic sull&#39;icona a discesa e selezionare uno o più nomi nell&#39;elenco
 
    Oppure

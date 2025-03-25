@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2876'
+source-wordcount: '2932'
 ht-degree: 2%
 
 ---
@@ -171,7 +171,7 @@ Per gestire una vista tabella:
 
 1. Creare una visualizzazione tabella come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
 
-   ![](assets/table-view-example.png)
+   ![Esempio di visualizzazione tabella](assets/table-view-example.png)
 
 1. (Facoltativo) Fai clic su **Altezza riga**, quindi seleziona una delle seguenti opzioni per modificare l&#39;altezza delle righe della tabella:
    * Piccolo
@@ -209,7 +209,7 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
 
    * Fai clic su **Campi** nella barra degli strumenti della tabella, trascina i campi nell&#39;ordine desiderato, quindi fai clic all&#39;esterno della casella **Visibilità campi e ordine** per chiuderla.
 
-     ![](assets/fields-setting-table-view-toolbar-expanded.png)
+     ![Barra degli strumenti di visualizzazione tabella dei campi espansa](assets/fields-setting-table-view-toolbar-expanded.png)
 
 
      >[!TIP]
@@ -224,7 +224,7 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
 
 1. (Facoltativo) Posizionare il puntatore del mouse su un nome di campo nell&#39;intestazione di colonna di un campo che non viene visualizzato nella prima colonna della tabella, fare clic sulla freccia rivolta verso il basso a destra del nome del campo, quindi fare clic su **Imposta come campo principale**.
 
-   ![](assets/set-as-primary-field-option-table-view.png)
+   ![Imposta come opzione campo primario nella vista tabella](assets/set-as-primary-field-option-table-view.png)
 
 1. Fai clic su **Imposta campo** per confermare.
 
@@ -253,9 +253,9 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
 
 1. Per trovare rapidamente i record che corrispondono a una parola chiave, eseguire le operazioni seguenti:
 
-   1. Fai clic sull&#39;icona **Ricerca** ![](assets/search-icon.png) e inizia a digitare una parola chiave associata a qualsiasi campo di un record visualizzato sullo schermo. Accanto all’elemento da cercare viene visualizzato il numero di corrispondenze corrette e viene evidenziato il campo con la corrispondenza corretta.
+   1. Fai clic sull&#39;icona **Ricerca** ![Icona Ricerca](assets/search-icon.png) e inizia a digitare una parola chiave associata a qualsiasi campo di un record visualizzato sullo schermo. Accanto all’elemento da cercare viene visualizzato il numero di corrispondenze corrette e viene evidenziato il campo con la corrispondenza corretta.
 
-      ![](assets/search-box-with-results-blue-outline-table-view.png)
+      ![Casella di ricerca con struttura blu dei risultati nella vista tabella](assets/search-box-with-results-blue-outline-table-view.png)
 
       È possibile utilizzare qualsiasi parola o carattere speciale visibile sullo schermo.
 
@@ -284,7 +284,7 @@ Le righe di una vista tabella visualizzano i singoli record del tipo di record s
 
    Per informazioni, vedere [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. (Facoltativo) Seleziona uno o più record in una riga, quindi trascina e rilascia l&#39;icona **handle** ![](assets/handle-icon.png) a sinistra del record per riordinare le righe.
+1. (Facoltativo) Seleziona uno o più record in una riga, quindi trascina e rilascia l&#39;icona **handle** ![Icona Handle](assets/handle-icon.png) a sinistra del record per riordinare le righe.
 
    >[!NOTE]
    >
@@ -394,7 +394,7 @@ Per aggiungere un filtro a una vista tabella:
 
    * Selezionare un valore per il campo selezionato.
 
-   ![](assets/filter-ui-table-view.png)
+   ![Visualizzazione tabella interfaccia utente filtro](assets/filter-ui-table-view.png)
 
    Non esiste alcun limite al numero di condizioni di filtro che è possibile aggiungere.
 
@@ -408,7 +408,7 @@ Per aggiungere un filtro a una vista tabella:
 
    1. (Facoltativo) Aggiungi altri operatori **AND** o **OR** tra più raggruppamenti di condizioni.
 
-      ![](assets/multi-tiered-filters-in-views.png)
+      ![Filtri multilivello nelle visualizzazioni](assets/multi-tiered-filters-in-views.png)
 
    </div>
 
@@ -446,7 +446,7 @@ Per aggiungere un raggruppamento:
 1. Creare una visualizzazione timeline per un tipo di record, come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
 1. Fai clic su **Raggruppamento** nell&#39;angolo superiore destro della visualizzazione tabella.
 
-   ![](assets/grouping-ui-table-view-with-linked-fields.png)
+   ![Raggruppamento della vista tabella dell&#39;interfaccia utente con campi collegati](assets/grouping-ui-table-view-with-linked-fields.png)
 
 1. Fare clic su uno dei campi suggeriti oppure fare clic su **Scegli un campo diverso**, cerca un campo diverso e quindi fare clic su di esso quando viene visualizzato nell&#39;elenco.
 
@@ -456,7 +456,7 @@ Per aggiungere un raggruppamento:
 
    Il numero di campi selezionati per il raggruppamento viene visualizzato accanto all’icona Raggruppamento.
 
-   ![](assets/grouping-applied-in-table-view.png)
+   ![Raggruppamento applicato nella vista tabella](assets/grouping-applied-in-table-view.png)
 
 1. (Facoltativo) Nella casella **Raggruppa record per**, fai clic sull&#39;icona **x** a destra di un campo selezionato per il raggruppamento per rimuovere il raggruppamento
 
@@ -499,7 +499,7 @@ Quando si ordinano i record nella vista tabella, tenere presente quanto segue:
 Per ordinare <!--ungrouped (add this when sorting for groupings will be available--> record, eseguire le operazioni seguenti:
 
 1. Creare una visualizzazione tabella come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
-1. Fai clic sull&#39;icona **Ordina** ![](assets/sort-icon.png) nell&#39;angolo superiore destro della tabella
+1. Fai clic sull&#39;icona **Ordina** ![Ordina icona](assets/sort-icon.png) nell&#39;angolo superiore destro della tabella
 
    Oppure
 
@@ -523,7 +523,7 @@ Per ordinare <!--ungrouped (add this when sorting for groupings will be availabl
 
 1. Fare clic all&#39;esterno della casella **Ordina record per** per chiuderla.
 
-   ![](assets/sorting-in-table-view.png)
+   ![Ordinamento nella vista tabella](assets/sorting-in-table-view.png)
 
    Le informazioni visualizzate nella tabella vengono ordinate in base ai criteri selezionati.
 

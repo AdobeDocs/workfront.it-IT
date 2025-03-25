@@ -6,9 +6,9 @@ description: Quando crei un progetto in Adobe Workfront, l’utente viene automa
 author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ Quando aggiungi un utente come proprietario del progetto, Workfront assegna auto
 
    Il Proprietario del progetto viene aggiornato nell’intestazione del progetto e nell’area Dettagli progetto.
 
-   ![](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
+   ![Proprietario cointeressati progetto evidenziato](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
 
 ## Aggiornare lo sponsor di un progetto
 
@@ -131,4 +131,4 @@ Quando aggiungi un utente come sponsor del progetto di un progetto, Workfront as
 
    Lo sponsor del progetto viene aggiornato nella sezione Project Details (Dettagli progetto).
 
-   ![](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)
+   ![Sponsor parti interessate progetto evidenziato](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)

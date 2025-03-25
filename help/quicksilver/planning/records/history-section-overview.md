@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '661'
 ht-degree: 3%
 
 ---
@@ -114,14 +114,14 @@ Viene visualizzata la pagina del tipo di record e vengono visualizzati tutti i r
 1. In qualsiasi visualizzazione fare clic sul nome di un record.
 
    Viene visualizzata la pagina del record. L’area Commenti (Comments) viene visualizzata per impostazione predefinita nel pannello di destra.
-1. Fai clic sull&#39;icona **Mostra cronologia** ![](assets/show-history-icon.png). Tutte le modifiche apportate ai campi del record vengono visualizzate nel pannello di destra, a partire da quello più recente.
-1. (Facoltativo) Fai clic sull&#39;icona **Nascondi cronologia** ![](assets/hide-history-icon.png) per chiudere il pannello a destra.
+1. Fai clic sull&#39;icona **Mostra cronologia** ![Mostra icona cronologia](assets/show-history-icon.png). Tutte le modifiche apportate ai campi del record vengono visualizzate nel pannello di destra, a partire da quello più recente.
+1. (Facoltativo) Fai clic sull&#39;icona **Nascondi cronologia** ![Nascondi cronologia](assets/hide-history-icon.png) per chiudere il pannello di destra.
 
 ## Considerazioni sulla sezione Cronologia
 
 È possibile esaminare le modifiche apportate ai campi record nella sezione Cronologia del pannello di destra della pagina di un record.
 
-![](assets/history-area-in-comments.png)
+![Area della cronologia nei commenti](assets/history-area-in-comments.png)
 
 * Workfront Planning registra le seguenti informazioni nella sezione Cronologia:
 

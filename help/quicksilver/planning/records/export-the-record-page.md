@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '491'
 ht-degree: 1%
 
 ---
@@ -118,11 +118,11 @@ Viene visualizzata la pagina del tipo di record e vengono visualizzati tutti i r
 
    Viene visualizzata la casella di anteprima del record.
 
-1. (Facoltativo) Fai clic sull&#39;icona ![](assets/open-details-in-a-new-tab-icon.png) di **Apri in una nuova scheda** per aprire la pagina del record.
+1. (Facoltativo) Fai clic sull&#39;icona **Apri in una nuova scheda** ![Apri i dettagli in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) per aprire la pagina del record.
 
 1. Scegliere la scheda **Dettagli**. Per impostazione predefinita, viene aperta la scheda Dettagli.
 
-1. Fare clic sul menu **Esporta** ![](assets/export-icon-in-record-details-page.png) nell&#39;anteprima o nella pagina del record, quindi fare clic su una delle opzioni seguenti:
+1. Fare clic sull&#39;icona del menu **Esporta** ![Esporta nella pagina dei dettagli del record](assets/export-icon-in-record-details-page.png) nell&#39;anteprima o nella pagina del record, quindi fare clic su una delle opzioni seguenti:
 
    * **Microsoft Word**
    * **Adobe PDF**
@@ -131,7 +131,7 @@ Viene visualizzata la pagina del tipo di record e vengono visualizzati tutti i r
 
    Il nome del file esportato è il campo Principale del record.
 
-   ![](assets/exported-word-file.png)
+   ![File di Word esportato](assets/exported-word-file.png)
 
    >[!NOTE]
    >

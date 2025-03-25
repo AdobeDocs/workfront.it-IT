@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 6e772ed53cca2fe3756fc15b715693b8b1fbef34
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '780'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ In questo momento, puoi utilizzare l’Assistente IA per eseguire le seguenti az
 
 ## Accedere all’Assistente AI nell’area Pianificazione
 
-1. Accedi a Workfront, quindi fai clic sull&#39;icona ![](assets/dots-main-menu.png) del **menu principale** nell&#39;angolo superiore destro dello schermo o sull&#39;icona ![](assets/lines-main-menu.png) del **menu principale** nell&#39;angolo superiore sinistro, se disponibile.
+1. Accedi a Workfront, quindi fai clic sull&#39;icona **Main Menu** ![Dots main menu](assets/dots-main-menu.png) nell&#39;angolo superiore destro dello schermo oppure sull&#39;icona **Main Menu** ![Lines main menu](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibile.
 
 . Fare clic su **Pianificazione**. Verrà visualizzata l&#39;area Pianificazione.
 
@@ -88,11 +88,11 @@ In questo momento, puoi utilizzare l’Assistente IA per eseguire le seguenti az
 
 1. Fare clic sull&#39;icona **Assistente AI** nell&#39;angolo superiore destro dello schermo nella barra di navigazione globale o nell&#39;angolo superiore destro dell&#39;anteprima o della pagina del record.
 
-   ![](assets/ai-assistant-icon-highlighted.png)
+   ![Icona Assistente IA](assets/ai-assistant-icon-highlighted.png)
 
 1. Nello spazio disponibile, inizia a digitare i comandi per l’Assistente AI, quindi al termine fai clic su Invio.
 
-   ![](assets/ai-assistant-panel-with-empty-command-box.png)
+   ![Pannello Assistente IA con casella di comando vuota](assets/ai-assistant-panel-with-empty-command-box.png)
 
    Ad esempio, è possibile digitare uno dei seguenti elementi:
 

@@ -5,9 +5,9 @@ author: Alina
 draft: Probably
 feature: Work Management
 exl-id: be262d72-f4e4-4426-a6bc-23499667fc97
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '625'
 ht-degree: 1%
 
 ---
@@ -55,11 +55,11 @@ Se la modalità di completamento del progetto è impostata su Automatico, dopo i
 
 ## Perché non è possibile aggiungere un progetto a un Portfolio, anche se si dispone delle autorizzazioni corrette?
 
-Anche se dispongo delle autorizzazioni corrette, il pulsante Aggiungi progetti non è presente nella scheda Progetti del Portfolio.
+Anche se dispongo delle autorizzazioni corrette, il pulsante Aggiungi progetti non è presente nella scheda Progetti di Portfolio.
 
 ### Risposta
 
-Ciò è dovuto al fatto che lo stato del Portfolio è Inattivo. Per modificare lo stato del Portfolio:
+Questo problema è causato dallo stato di inattività di Portfolio. Per modificare lo stato di Portfolio:
 
 1. Fai clic su **Dettagli Portfolio > Panoramica**.
 1. Cambia **Stato** in **Attivo.**
@@ -99,6 +99,6 @@ Di seguito sono riportati gli stati del budget:
 
 L’amministratore Adobe Workfront ti ha limitato alla visualizzazione delle sole Società, dei gruppi e dei team a cui appartieni nel tuo Livello di accesso di. Il team che stai cercando non è uno dei team a cui appartieni.
 
-![](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
+![Visualizza solo team, gruppi e società a cui appartengono](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
 
 Per informazioni su come consentire a un utente di visualizzare tutti i team nel sistema, vedere [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).

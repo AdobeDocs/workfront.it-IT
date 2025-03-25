@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1837'
 ht-degree: 1%
 
 ---
@@ -166,12 +166,12 @@ La pagina dell&#39;oggetto si apre in Workfront.
       * Nome del campo record connesso visualizzato in Workfront Planning.
    * I record vengono visualizzati nel rispettivo workspace e tipo di record.
 
-   ![](assets/planning-section-on-project.png)
+   ![Sezione Pianificazione sul progetto](assets/planning-section-on-project.png)
 
 1. (Facoltativo) Fare clic su **Mostra tutte le connessioni** per visualizzare tutti i tipi di record connessi, inclusi quelli senza record connessi. Per impostazione predefinita, i tipi di record senza record collegati non vengono visualizzati.
 1. Fare clic su una scheda record per visualizzare ulteriori informazioni sul record. Viene visualizzata la casella di anteprima del record.
 1. (Facoltativo) Inizia a modificare i campi nella casella di anteprima del record. Le modifiche vengono salvate automaticamente.
-1. (Facoltativo) Fai clic sull&#39;icona ![](assets/open-details-in-a-new-tab-icon.png) di **Apri in una nuova scheda** nell&#39;angolo superiore destro della casella di anteprima per aprire la pagina dei dettagli del record. La pagina dei dettagli del record viene visualizzata in Workfront Planning.
+1. (Facoltativo) Fai clic sull&#39;icona **Apri in una nuova scheda** ![Apri i dettagli in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro della casella di anteprima per aprire la pagina dei dettagli del record. La pagina dei dettagli del record viene visualizzata in Workfront Planning.
 1. (Facoltativo) Passa il puntatore del mouse su una scheda record, quindi fai clic sull&#39;icona Disconnetti record **-**, quindi fai clic su **Disconnetti**.
 Si verificano le seguenti situazioni:
    * Il record non è più connesso all&#39;oggetto Workfront.
@@ -242,7 +242,7 @@ Quando si visualizzano i record di Workfront Planning da un campo di connessione
 
 1. Fare clic all&#39;interno del campo per aggiungere record collegati, quindi fare clic sulla freccia rivolta verso il basso all&#39;interno del campo per selezionare i record dall&#39;elenco.
 
-   ![](assets/planning-connection-field-on-project-with-record-list-open.png)
+   ![Campo di connessione Planning nel progetto con elenco record aperto](assets/planning-connection-field-on-project-with-record-list-open.png)
 
    >[!TIP]
    >
@@ -252,7 +252,7 @@ Quando si visualizzano i record di Workfront Planning da un campo di connessione
    >
    >L&#39;oggetto del campo e l&#39;oggetto selezionato non corrispondono.
    >
-   >![](assets/warning-unsupported-object-planning-connection-field-on-form.png)
+   >![Avviso oggetto non supportato Campo di connessione Planning nel modulo](assets/warning-unsupported-object-planning-connection-field-on-form.png)
 
 1. Fare clic all&#39;esterno dell&#39;elenco per chiuderlo.
 
@@ -263,13 +263,13 @@ Quando si visualizzano i record di Workfront Planning da un campo di connessione
    * I valori dei campi di ricerca di Workfront connessi al record Planning vengono inseriti in Workfront Planning.
    * <span class="preview">Se l&#39;amministratore del Workfront o del gruppo ha aggiunto campi di ricerca dei record al momento della creazione della maschera personalizzata, i campi di ricerca del record vengono compilati automaticamente in una visualizzazione per tabella. La vista tabella nel campo della connessione Planning è di sola lettura</span>
 
-     ![](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
+     ![Campo di connessione Planning con tabella nel modulo personalizzato Dettagli progetto](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
 
 1. (Facoltativo) Fare clic sul nome di un record <span class="preview">o passare il puntatore del mouse sul nome del record nella tabella, quindi fare clic sull&#39;icona **Apri record** ![Apri record nella maschera personalizzata di connessione Planning](assets/open-record-icon-on-planning-connection-custom-form.png)</span> nel campo Connessione Planning per aprirla in Workfront Planning.
 Viene visualizzata la casella di anteprima dei dettagli dei record di Workfront Planning.
 1. Rivedi o modifica le informazioni sul record oppure fai clic sull&#39;icona **Apri in una nuova scheda** ![Apri record in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) per aprire la pagina dei dettagli del record.
 
-1. (Facoltativo) Dal modulo personalizzato in Workfront, fare clic sull&#39;icona ![](assets/remove-icon.png) **Rimuovi** su un record per rimuoverlo dal campo di connessione di Planning e disconnetterlo dall&#39;oggetto Workfront.
+1. (Facoltativo) Dal modulo personalizzato in Workfront, fare clic sull&#39;icona **Rimuovi** ![Rimuovi icona](assets/remove-icon.png) su un record per rimuoverlo dal campo di connessione di Planning e disconnetterlo dall&#39;oggetto Workfront.
 L&#39;oggetto Workfront viene disconnesso dal record Planning e tutte le informazioni di ricerca provenienti da Workfront vengono rimosse dal record.
 
 1. Fai clic su **Salva modifiche** per salvare il modulo personalizzato e tutte le altre modifiche apportate all&#39;oggetto Workfront.

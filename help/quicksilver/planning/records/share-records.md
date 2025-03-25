@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '517'
 ht-degree: 1%
 
 ---
@@ -196,9 +196,9 @@ Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
 
    Oppure
 
-   Passa il puntatore del mouse sul nome di un record, fai clic sul menu **Altro** ![](assets/more-menu.png), quindi fai clic su **Copia collegamento**.
+   Passa il puntatore del mouse sul nome di un record, fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png), quindi fai clic su **Copia collegamento**.
 
-   ![](assets/contextual-menu-for-record-row.png)
+   ![Menu contestuale per riga record](assets/contextual-menu-for-record-row.png)
 
    Il collegamento viene copiato negli Appunti.
 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2149'
+source-wordcount: '2246'
 ht-degree: 0%
 
 ---
@@ -208,7 +208,7 @@ Per ulteriori informazioni, vedere [Gestire le visualizzazioni dei record](/help
    I record associati al tipo di record selezionato vengono visualizzati nella vista tabella.
 1. Fare clic all&#39;interno della riga di un record per iniziare a modificare le informazioni sul record in linea.
 
-   ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
+   ![Modifica campo paragrafo record con visualizzazione tabella di formattazione](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 
    >[!TIP]
    >
@@ -226,7 +226,7 @@ Per ulteriori informazioni, vedere [Gestire le visualizzazioni dei record](/help
    * Aggiungere un elenco puntato
    * Aggiungere un elenco numerato
 
-   ![](assets/rich-text-toolbar-on-paragraph-field.png)
+   ![Barra degli strumenti RTF nel campo paragrafo](assets/rich-text-toolbar-on-paragraph-field.png)
 
 1. (Facoltativo) Fare doppio clic su un campo record connesso per aggiungere record o oggetti connessi a un altro record. Per ulteriori informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
 1. Premi **Invio** sulla tastiera o fai clic all&#39;esterno di una riga per salvare le modifiche. Le modifiche vengono salvate automaticamente. Un indicatore **Salvato** viene visualizzato brevemente nell&#39;angolo superiore destro della visualizzazione tabella per indicare che le modifiche sono state salvate.
@@ -240,7 +240,7 @@ Per ulteriori informazioni, vedere [Gestire le visualizzazioni dei record](/help
    * Copiare le informazioni da una cella, quindi selezionare più celle e incollare le stesse informazioni in più celle. È possibile selezionare più celle e incollare le stesse informazioni in più celle da righe e colonne adiacenti.
    * Selezionare l&#39;angolo inferiore destro di una cella esistente contenente le informazioni da copiare, quindi trascinarlo e rilasciarlo nelle celle adiacenti in cui si desidera incollare le stesse informazioni. Tutte le celle devono contenere lo stesso tipo di informazioni.
 
-     ![](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
+     ![Angolo inferiore destro trascinabile per copia e incolla nella vista tabella](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
    <div class="preview">
 
@@ -293,11 +293,11 @@ Per ulteriori informazioni, vedere [Gestire le visualizzazioni dei record](/help
 
    Oppure
 
-   Nella vista tabella fare clic sull&#39;icona ![](assets/open-details-icon-in-table-name-field.png) **Apri dettagli** nella prima colonna. L&#39;anteprima del record viene visualizzata nella vista.
+   Nella vista tabella fare clic sull&#39;icona **Apri dettagli** ![Apri dettagli nel campo nome tabella](assets/open-details-icon-in-table-name-field.png) nella prima colonna. L&#39;anteprima del record viene visualizzata nella vista.
 
    <div class="preview">
 
-   ![](assets/details-box.png)
+   ![Casella Dettagli](assets/details-box.png)
 
    </div>
 
@@ -316,11 +316,11 @@ Per ulteriori informazioni, vedere [Gestire le visualizzazioni dei record](/help
 
 1. (Facoltativo) Fare clic su **Aggiungi copertina** per aggiungere una copertina al record. Per ulteriori informazioni, vedere [Aggiungere una copertina a un record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
-1. (Facoltativo) Passa il puntatore sull&#39;icona della miniatura, quindi fai clic su **Altro** ![](assets/more-menu.png) > **Modifica miniatura** per aggiungere un&#39;immagine di miniatura. Per informazioni, vedere [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+1. (Facoltativo) Passa il puntatore sull&#39;icona della miniatura, quindi fai clic su **Altro** ![Altro menu](assets/more-menu.png) > **Modifica miniatura** per aggiungere un&#39;immagine di miniatura. Per informazioni, vedere [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront salva automaticamente le modifiche.
 
-1. <span class="preview"> (Facoltativo) Fare clic sull&#39;**indicatore in tempo reale** ![](assets/real-time-indicator-icon.png) nell&#39;angolo superiore destro della casella di anteprima del record, quindi abilitare l&#39;impostazione **Mostra collaboratori** per evidenziare i campi modificati da altri utenti in tempo reale.
+1. <span class="preview"> (Facoltativo) Fai clic sull&#39;**indicatore in tempo reale** ![icona indicatore in tempo reale](assets/real-time-indicator-icon.png) nell&#39;angolo superiore destro della casella di anteprima del record, quindi abilita l&#39;impostazione **Mostra collaboratori** per evidenziare i campi modificati in tempo reale da altri utenti.
 
    In quest’area vengono visualizzati i nomi e gli avatar di tutti gli utenti che accedono contemporaneamente al record.
 
@@ -328,13 +328,13 @@ Per ulteriori informazioni, vedere [Gestire le visualizzazioni dei record](/help
 
    <div class="preview">
 
-   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   ![Indicatore di tempo reale: casella di anteprima record espansa](assets/real-time-indicator-expanded-record-preview-box.png)
 
    </div>
 
-1. (Facoltativo) Fare clic sul menu **Esporta** ![](assets/export-icon-in-record-details-page.png) per esportare i dettagli del record. Per informazioni, vedere [Esportare i dettagli di un record](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Facoltativo) Fai clic sull&#39;icona del menu **Esporta** ![Esporta nella pagina dei dettagli del record](assets/export-icon-in-record-details-page.png) per esportare i dettagli del record. Per informazioni, vedere [Esportare i dettagli di un record](/help/quicksilver/planning/records/export-the-record-page.md).
 
-1. (Facoltativo) Fai clic sull&#39;icona **Apri in una nuova scheda** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda. Continua a modificare il record come descritto in [Modifica un record dalla sezione della pagina del record](#edit-a-record-from-the-records-page) in questo articolo.
+1. (Facoltativo) Fai clic sull&#39;icona **Apri in una nuova scheda** ![Apri i dettagli in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda. Continua a modificare il record come descritto in [Modifica un record dalla sezione della pagina del record](#edit-a-record-from-the-records-page) in questo articolo.
 
 ### Modificare un record dalla pagina del record
 
@@ -350,15 +350,15 @@ Per ulteriori informazioni, vedere [Gestire le visualizzazioni dei record](/help
 
 1. Esegui una delle operazioni seguenti:
 
-   * Da qualsiasi visualizzazione, accedere all&#39;anteprima del record come descritto nella sezione [Modificare un record dall&#39;anteprima del record in una visualizzazione](#edit-a-record-from-the-records-preview-in-a-view) in questo articolo, quindi fare clic sull&#39;icona **Apri in una nuova scheda** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda.
+   * Da qualsiasi visualizzazione, accedere all&#39;anteprima del record come descritto nella sezione [Modificare un record dall&#39;anteprima del record in una visualizzazione](#edit-a-record-from-the-records-preview-in-a-view) di questo articolo, quindi fare clic sull&#39;icona **Apri in una nuova scheda** ![Apri i dettagli in una nuova scheda icona](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda.
 
-   * Dalla visualizzazione **Tabella**, passa il puntatore del mouse sul nome di un record, quindi fai clic sul menu **Altro** ![](assets/more-menu.png), quindi fai clic su **Visualizza**
+   * Dalla visualizzazione **Tabella**, passa il puntatore sul nome di un record, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png), quindi fai clic su **Visualizza**
 
-     ![](assets/contextual-menu-for-record-row.png)
+     ![Menu contestuale per riga record](assets/contextual-menu-for-record-row.png)
 
      Viene visualizzata la pagina del record.
 
-     ![](assets/details-page.png)
+     ![Pagina dettagli](assets/details-page.png)
 
 1. (Facoltativo) Fai clic sul menu **Altro** a destra del titolo del record, quindi fai clic su **Rinomina**. Il campo visualizzato come titolo del record verrà aggiornato.
 
@@ -378,17 +378,17 @@ Per ulteriori informazioni, vedere [Gestire le visualizzazioni dei record](/help
 
    Oppure
 
-   Passa il puntatore del mouse sull&#39;immagine di copertina esistente, quindi fai clic sul menu **Altro** ![](assets/more-menu.png) > **Carica** per aggiungere una nuova immagine di copertina per il record.
+   Passa il puntatore del mouse sull&#39;immagine di copertina esistente, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) > **Carica** per aggiungere una nuova immagine di copertina per il record.
 
    Per ulteriori informazioni, vedere [Aggiungere una copertina a un record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
-1. (Facoltativo) Passa il puntatore del mouse su una miniatura esistente o sull&#39;**icona miniatura** ![](assets/record-thumbnail-icon-on-details-page.png), quindi fai clic sul menu **Altro** ![](assets/more-menu.png) > **Modifica miniatura** per aggiungere una miniatura per il record.
+1. (Facoltativo) Passa il puntatore del mouse su una miniatura esistente o sull&#39;**icona miniatura** ![icona Miniatura record nella pagina dei dettagli](assets/record-thumbnail-icon-on-details-page.png), quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) > **Modifica miniatura** per aggiungere una miniatura per il record.
 
    Per ulteriori informazioni, vedere [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront salva automaticamente le modifiche.
 
-1. <span class="preview"> (Facoltativo) Fare clic sull&#39;**indicatore in tempo reale** ![](assets/real-time-indicator-icon.png) nell&#39;angolo superiore destro della pagina del record, quindi abilitare l&#39;impostazione **Mostra collaboratori** per evidenziare i campi modificati da altri utenti in tempo reale.
+1. <span class="preview"> (Facoltativo) Fai clic sull&#39;**indicatore in tempo reale** ![icona indicatore in tempo reale](assets/real-time-indicator-icon.png) nell&#39;angolo superiore destro della pagina del record, quindi abilita l&#39;impostazione **Mostra collaboratori** per evidenziare i campi modificati in tempo reale da altri utenti.
 
    In quest’area vengono visualizzati i nomi e gli avatar di tutti gli utenti che accedono contemporaneamente al record.
 
@@ -396,11 +396,11 @@ Per ulteriori informazioni, vedere [Gestire le visualizzazioni dei record](/help
 
    <div class="preview">
 
-   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   ![Casella di anteprima record espanso indicatore in tempo reale](assets/real-time-indicator-expanded-record-preview-box.png)
 
    </div>
 
-1. (Facoltativo) Fare clic sul menu **Esporta** ![](assets/export-icon-in-record-details-page.png) per esportare i dettagli del record. Per informazioni, vedere [Esportare i dettagli di un record](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Facoltativo) Fai clic sull&#39;icona del menu **Esporta** ![Esporta nella pagina dei dettagli del record](assets/export-icon-in-record-details-page.png) per esportare i dettagli del record. Per informazioni, vedere [Esportare i dettagli di un record](/help/quicksilver/planning/records/export-the-record-page.md).
 
 
 ## Modificare un record da un oggetto Workfront nella sezione Planning

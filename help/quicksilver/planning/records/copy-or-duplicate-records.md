@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2fed8c96-0c9c-4662-a9c4-66dae507ff2a
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 2%
+source-wordcount: '605'
+ht-degree: 1%
 
 ---
 
@@ -175,13 +175,13 @@ Tutti i record del tipo selezionato vengono visualizzati nella vista.
 
 1. Esegui una delle operazioni seguenti:
 
-   * Passa il puntatore del mouse sul nome di un record, quindi fai clic sul menu **Altro** in linea con il nome del record, quindi fai clic sull&#39;icona **Duplica** ![](assets/duplicate-icon-gray.png).
+   * Passa il puntatore del mouse sul nome di un record, quindi fai clic sul menu **Altro** in linea con il nome del record, quindi fai clic sull&#39;icona **Duplica** ![Icona Duplica grigia](assets/duplicate-icon-gray.png).
 
-     ![](assets/more-menu-from-record-in-table-view.png)
+     ![Altro menu da record nella vista tabella](assets/more-menu-from-record-in-table-view.png)
 
-   * Seleziona un record, quindi fai clic sull&#39;icona ![](assets/duplicate-icon-white-and-blue.png) **Duplica** nella barra degli strumenti nella parte inferiore della pagina.
+   * Seleziona un record, quindi fai clic sull&#39;icona **Duplica** ![Duplica icona bianca e blu](assets/duplicate-icon-white-and-blue.png) nella barra degli strumenti nella parte inferiore della pagina.
 
-     ![](assets/duplicate-icon-in-toolbar-in-table-view.png)
+     ![Icona duplicata nella barra degli strumenti nella vista tabella](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
    Sotto il record originale viene creato un record identico con lo stesso nome. Tutti i campi del nuovo record vengono compilati con le stesse informazioni del record originale.
 

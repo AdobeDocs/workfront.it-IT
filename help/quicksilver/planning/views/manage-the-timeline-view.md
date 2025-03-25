@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2635'
+source-wordcount: '2692'
 ht-degree: 0%
 
 ---
@@ -176,7 +176,7 @@ Per gestire una vista timeline:
 1. Passare alla pagina del tipo di record per la quale si desidera visualizzare la sequenza temporale.
 1. Creare una visualizzazione timeline come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
 
-   ![](assets/timeline-view-example.png)
+   ![Esempio di visualizzazione della sequenza temporale](assets/timeline-view-example.png)
 
    Per impostazione predefinita, i record associati al tipo di record selezionato vengono visualizzati come barre in un indicatore cronologico e ordinati in ordine cronologico rispetto alla data di inizio.
 
@@ -205,9 +205,9 @@ Per gestire una vista timeline:
 
 1. Per trovare rapidamente i record che corrispondono a una parola chiave, eseguire le operazioni seguenti:
 
-   1. Fai clic sull&#39;icona **Ricerca** ![](assets/search-icon.png) e inizia a digitare una parola chiave associata a qualsiasi campo di un record visualizzato sullo schermo. Il numero di corrispondenze corrette viene visualizzato accanto all’elemento di ricerca e viene evidenziato il record con la corrispondenza corretta.
+   1. Fai clic sull&#39;icona **Ricerca** ![Icona Ricerca](assets/search-icon.png) e inizia a digitare una parola chiave associata a qualsiasi campo di un record visualizzato sullo schermo. Il numero di corrispondenze corrette viene visualizzato accanto all’elemento di ricerca e viene evidenziato il record con la corrispondenza corretta.
 
-      ![](assets/search-box-and-results-timeline-view.png)
+      ![Casella di ricerca e visualizzazione della sequenza temporale dei risultati](assets/search-box-and-results-timeline-view.png)
 
       È possibile utilizzare qualsiasi parola o carattere speciale visibile sullo schermo.
 
@@ -281,7 +281,7 @@ Per aggiungere un raggruppamento nella vista timeline:
 1. Creare una visualizzazione timeline per un tipo di record, come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
 1. Fai clic su **Raggruppamento** nell&#39;angolo superiore destro della visualizzazione della timeline.
 
-   ![](assets/grouping-ui-timeline-view-with-linked-fields.png)
+   ![Raggruppamento della visualizzazione timeline dell&#39;interfaccia utente con campi collegati](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. Fare clic su uno dei campi suggeriti oppure fare clic su **Scegli un campo diverso**, cerca un campo diverso e quindi fare clic su di esso quando viene visualizzato nell&#39;elenco.
 
@@ -295,7 +295,7 @@ Per aggiungere un raggruppamento nella vista timeline:
 
    <!-- update screen shot with view redesign-->
 
-   ![](assets/grouping-applied-in-timeline-view.png)
+   ![Il raggruppamento si applica nella vista timeline](assets/grouping-applied-in-timeline-view.png)
 
 1. (Facoltativo) Nella casella **Raggruppa record per**, fai clic sull&#39;icona **x** a destra di un campo selezionato per il raggruppamento per rimuovere il raggruppamento
 
@@ -347,11 +347,11 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
 
    Sulla destra viene visualizzata un&#39;anteprima dell&#39;aspetto delle barre sulla timeline.
 
-   ![](assets/record-details-panel-timeline-settings-with-preview.png)
+   ![Registra le impostazioni della timeline del pannello dei dettagli con anteprima](assets/record-details-panel-timeline-settings-with-preview.png)
 
 1. Fai clic su **Colore** nel pannello a sinistra per personalizzare i colori dei record e dei raggruppamenti nella timeline.
 
-   ![](assets/color-tab-timeline-view.png)
+   ![Visualizzazione timeline scheda Colore](assets/color-tab-timeline-view.png)
 
 1. (Condizionale e facoltativo) Se hai aggiunto un raggruppamento alla visualizzazione della timeline, seleziona una delle seguenti opzioni per impostare un colore per il raggruppamento nella sezione **Imposta colore di raggruppamento**:
 
@@ -382,7 +382,7 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
 
 1. (Condizionale) Se hai selezionato **Valori campo** per i colori del record, seleziona un campo dal menu a discesa **Corrispondenza colore del record con**.
 
-   ![](assets/field-selector-drop-down-menu-timeline-view.png)
+   ![Menu a discesa del selettore dei campi nella visualizzazione timeline](assets/field-selector-drop-down-menu-timeline-view.png)
 
    Nel menu a discesa vengono visualizzati solo i campi con opzioni codificate a colori.
 
@@ -424,7 +424,7 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
 1. (Condizionale) Se visualizzi la visualizzazione della sequenza temporale in modalità Standard, fai clic su **Raggruppamento**.
 1. Espandere la casella **Selezionare un tipo di record collegato** e selezionare un tipo di record connesso. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
-   ![](assets/breakdown-picker-and-button-on-timeline.png)
+   ![Selettore e pulsante di suddivisione nella visualizzazione della sequenza temporale](assets/breakdown-picker-and-button-on-timeline.png)
 
    >[!TIP]
    >
@@ -439,7 +439,7 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
    Una freccia rivolta a destra viene visualizzata sulla barra del record selezionato nella timeline, se sono collegati ad altri record.
 1. Fare clic sulla freccia rivolta a destra per espandere un tipo di record e visualizzare le connessioni.
 
-   ![](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
+   ![Campagne suddivise per programmi nella visualizzazione Timeline](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
 
 1. (Facoltativo) Ripeti i passaggi precedenti per aggiungere altri record connessi.
 

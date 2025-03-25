@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -163,7 +163,7 @@ OLD:
 
 1. (Condizionale e facoltativo) Dopo che un utente ti ha contrassegnato un commento su un record, vai alla notifica e-mail che ti informa del tag e del commento. Il mittente dell’e-mail è Adobe Experience Cloud.
 
-   ![](assets/email-notification-example.png)
+   ![Esempio di notifiche e-mail](assets/email-notification-example.png)
 
 1. (Facoltativo) Fai clic sul messaggio nella casella **Workfront** all&#39;interno dell&#39;e-mail.
 
@@ -195,6 +195,6 @@ dopo aver inviato una richiesta o dopo che una richiesta inviata è stata approv
 
 1. (Facoltativo) Fai clic su **Apri richiesta**. Verrà aperta la richiesta in Workfront Planning.
 
-1. Fai clic sull&#39;icona ![](assets/notifications-area-icon-unified-shell.png) delle **notifiche** nell&#39;angolo superiore destro della schermata per accedere alla pagina **notifiche**.
+1. Fai clic sull&#39;icona **Notifiche** ![Icona area Notifiche Unified Shell](assets/notifications-area-icon-unified-shell.png) nell&#39;angolo superiore destro della schermata per accedere alla pagina **Notifiche**.
 
    Per informazioni sulla gestione delle notifiche di Workfront Planning, vedere [Gestione preferenze di notifica di Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-notification-preferences.md).

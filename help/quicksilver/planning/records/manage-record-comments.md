@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -147,7 +147,7 @@ Viene visualizzata la pagina del tipo di record e vengono visualizzati tutti i r
 
    Viene aperta la pagina **Dettagli** del record. L’area Commenti (Comments) viene visualizzata per impostazione predefinita nel pannello di destra.
 
-1. (Condizionale) Se il pannello destro non si apre per impostazione predefinita, fai clic sull&#39;icona **Mostra commenti** ![](assets/show-comments-icon.png) nell&#39;angolo superiore destro per aprire la sezione Commenti.
+1. (Condizionale) Se per impostazione predefinita il pannello di destra non si apre, fai clic sull&#39;icona **Mostra commenti** ![Mostra commenti](assets/show-comments-icon.png) nell&#39;angolo superiore destro per aprire la sezione Commenti.
 
 1. Inizia a immettere un commento nella casella **Nuovo commento**.
 
@@ -173,8 +173,8 @@ Viene visualizzata la pagina del tipo di record e vengono visualizzati tutti i r
 
    Per ulteriori informazioni sull&#39;aggiornamento degli oggetti, inclusi i record di Workfront Planning, vedere [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Facoltativo) Fai clic sull&#39;icona **Altro** ![](assets/more-menu.png) nell&#39;angolo superiore destro del commento, quindi fai clic su **Elimina** per eliminare il commento.
-1. (Facoltativo) Fai clic sull&#39;icona ![](assets/hide-comments-icon.png) di **Nascondi commenti** per chiudere il pannello a destra.
+1. (Facoltativo) Fai clic sull&#39;icona **Altro** ![Altro menu](assets/more-menu.png) nell&#39;angolo superiore destro del commento, quindi fai clic su **Elimina** per eliminare il commento.
+1. (Facoltativo) Fai clic sull&#39;icona **Nascondi commenti** ![Nascondi commenti](assets/hide-comments-icon.png) per chiudere il pannello di destra.
 
 <!--
       >[!TIP]
@@ -183,9 +183,9 @@ Viene visualizzata la pagina del tipo di record e vengono visualizzati tutti i r
       >
       >The indicator displays only after the comment was submitted on the item, and not when the comment is still composed. 
       >
-      >![](assets/new-line-indicator-comments.png)
+      >![New line indicator in comments](assets/new-line-indicator-comments.png)
 1. Click **Submit** to add the update to the record. 
-1. (Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the comment, then click **Edit**.
+1. (Optional) To edit a comment, click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the comment, then click **Edit**.
    >[!IMPORTANT]
    >
    >You can edit your comment only within 15 minutes from submitting it.  
@@ -194,15 +194,15 @@ Viene visualizzata la pagina del tipo di record e vengono visualizzati tutti i r
       >
       >Comments from the current year do not display the year in the date stamp. Hovering over a timestamp displays the full date, including the year.
 1. (Optional and conditional) To search for an existing comment, start typing a keyword in the search box in the upper-right corner of the **Comments** area.     
-   ![](assets/search-box-for-comments-area.png)
+   ![Search box for comments](assets/search-box-for-comments-area.png)
 1. (Optional) Click **Reply** or start typing a comment in the **Add reply ...** area, to reply to an existing comment, then follow steps 4-8 above. (**************accurate??***********)
 1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Comments section while you were adding your comments, click **View** inside the **new comments banner** at the bottom of the screen  to display these comments.
-   ![](assets/new-comments-banner-on-record.png)
+   ![New comments banner on record](assets/new-comments-banner-on-record.png)
 
     Additional comments display at the bottom of the screen.
 1. (Optional) Click the **Like** icon to like an update or acknowledge that you read it. The icon updates with the number of likes.
 1. (Conditional and optional) If you included additional people in your comment, click the avatars of the users included in the update to display a list of users that the comment is shared with. 
-1. (Optional) Click the **More** icon ![](assets/more-menu.png) in the upper-right corner of the comment and click one of the following options, to copy a information from a comment: 
+1. (Optional) Click the **More** icon ![More menu](assets/more-menu.png) in the upper-right corner of the comment and click one of the following options, to copy a information from a comment: 
     * **Copy link**: This copies a link to the comment to your clipboard.
     * **Copy body text**: This copies the text of the comment to your clipboard.
     * **Quote reply**: This copies the content of your comment into a new reply. Images are not included in the copied reply. 

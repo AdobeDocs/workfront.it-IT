@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '665'
 ht-degree: 1%
 
 ---
@@ -124,7 +124,7 @@ Per modificare la condivisione di un modulo di richiesta:
 
    La pagina del tipo di record viene visualizzata nella visualizzazione a cui si è effettuato l&#39;ultimo accesso. Per impostazione predefinita, nella vista tabella viene visualizzata una pagina del tipo di record.
 
-1. Fai clic sul menu **Altro** ![](assets/more-menu.png) a destra del nome del tipo di record nell&#39;intestazione della pagina, quindi fai clic su **Aggiorna modulo di richiesta**.
+1. Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record nell&#39;intestazione della pagina, quindi fai clic su **Aggiorna modulo di richiesta**.
 1. Fai clic su **Condividi** nell&#39;angolo superiore destro dello schermo, quindi aggiorna le scelte di condivisione. Per ulteriori informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 1. (Facoltativo) Se hai modificato la condivisione del modulo di richiesta e desideri condividerlo con il nuovo gruppo di persone con un nuovo collegamento, fai clic su **Copia collegamento**.
 
@@ -142,10 +142,10 @@ Quando un modulo di richiesta diventa irrilevante e non desideri più che qualcu
 
    La pagina del tipo di record viene visualizzata nella visualizzazione a cui si è effettuato l&#39;ultimo accesso. Per impostazione predefinita, nella vista tabella viene visualizzata una pagina del tipo di record.
 
-1. Fai clic sul menu **Altro** ![](assets/more-menu.png) a destra del nome del tipo di record nell&#39;intestazione della pagina, quindi fai clic su **Aggiorna modulo di richiesta**.
+1. Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record nell&#39;intestazione della pagina, quindi fai clic su **Aggiorna modulo di richiesta**.
 1. Fai clic su **Annulla pubblicazione** nell&#39;angolo superiore destro.
 
-   ![](assets/unpublish-button-highlighted.png)
+   ![Pulsante Annulla pubblicazione evidenziato](assets/unpublish-button-highlighted.png)
 
    Nella parte inferiore della schermata viene visualizzata una conferma che notifica l’annullamento della pubblicazione del modulo.
 

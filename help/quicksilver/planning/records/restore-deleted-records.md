@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8b6df633-eb05-4d3e-bfe6-76cedabdb76d
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '479'
 ht-degree: 1%
 
 ---
@@ -109,11 +109,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 ## Ripristina record eliminati
 
 1. Passare alla pagina del tipo di record in cui sono stati eliminati i record.
-1. Fai clic sull&#39;icona **Annulla** ![](assets/undo-icon.png) nell&#39;angolo superiore destro di qualsiasi visualizzazione pagina di tipo record, quindi fai clic su **Eliminato di recente**.
+1. Fai clic sull&#39;icona **Annulla** ![Icona Annulla](assets/undo-icon.png) nell&#39;angolo superiore destro di qualsiasi visualizzazione pagina di tipo record, quindi fai clic su **Eliminato di recente**.
 
    Viene visualizzata la casella **Eliminato di recente**.
 
-   ![](assets/recently-deleted-box.png)
+   ![Casella eliminata di recente](assets/recently-deleted-box.png)
 
 1. Seleziona i record da eliminare, quindi fai clic su **Ripristina** > **Ripristina**. È possibile selezionare più record.
 

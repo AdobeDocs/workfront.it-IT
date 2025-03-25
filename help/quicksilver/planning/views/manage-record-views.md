@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1459'
 ht-degree: 1%
 
 ---
@@ -252,7 +252,7 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
 
    Viene creata una nuova scheda con la vista selezionata.
 
-   A seconda della larghezza dello schermo, potrebbero essere visualizzate altre visualizzazioni nel menu **Altro** ![](assets/more-menu.png).
+   A seconda della larghezza dello schermo, nel menu **Altro** ![Altro](assets/more-menu.png) potrebbero essere visualizzate altre visualizzazioni.
 
 
 >[!TIP]
@@ -264,7 +264,7 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
 >In caso contrario, le opzioni Timeline (Timeline) e Calendario (Calendar) vengono disattivate.
 >
 
-![](assets/view-types-drop-down-from-record-type-list.png)
+![Elenco a discesa dei tipi di visualizzazione dall&#39;elenco dei tipi di record](assets/view-types-drop-down-from-record-type-list.png)
 
 1. (Condizionale) Fai clic su **Avanti** durante la creazione di una visualizzazione calendario o sequenza temporale.
 
@@ -285,10 +285,10 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
 1. Fai clic su **Crea**.
 
    La vista viene visualizzata come una nuova scheda. Le visualizzazioni vengono visualizzate in ordine cronologico a partire dal momento in cui sono state create o condivise con te.
-1. (Facoltativo) Fai clic sul menu **Altro** ![](assets/more-caret-down-icon-views.png) accanto all&#39;ultima visualizzazione per visualizzare tutte le visualizzazioni per il tipo di record selezionato.
+1. (Facoltativo) Fai clic sul menu **Altro** ![Altre visualizzazioni dell&#39;icona del punto di inserimento](assets/more-caret-down-icon-views.png) accanto all&#39;ultima visualizzazione per visualizzare tutte le visualizzazioni per il tipo di record selezionato.
 
    Visualizzazioni aggiuntive nel menu **Altro** dopo l&#39;ultima scheda della visualizzazione. Il numero accanto al menu **Altro** mostra il numero di visualizzazioni aggiuntive.
-1. (Facoltativo) Per rinominare una visualizzazione dopo averla creata, fai clic sul menu a discesa della visualizzazione, quindi sul menu **Altro** ![](assets/more-menu.png) > **Rinomina** per aggiornare il nome della visualizzazione
+1. (Facoltativo) Per rinominare una visualizzazione dopo averla creata, fai clic sul menu a discesa Visualizza, quindi sul menu **Altro** ![Altro menu](assets/more-menu.png) > **Rinomina** per aggiornare il nome della visualizzazione
 
    Oppure
 
@@ -315,7 +315,7 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
 
    Per impostazione predefinita, tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
 
-1. Passa il puntatore del mouse su uno dei nomi della visualizzazione nella scheda della visualizzazione, quindi fai clic su **Altro** ![](assets/more-menu.png) a sinistra del nome della visualizzazione, quindi fai clic su **Elimina**.
+1. Passa il puntatore del mouse su uno dei nomi della visualizzazione nella scheda della visualizzazione, quindi fai clic su **Altro** ![Altro menu](assets/more-menu.png) a sinistra del nome della visualizzazione, quindi fai clic su **Elimina**.
 Per trovare la visualizzazione da eliminare, potrebbe essere necessario fare clic su **Altro** a sinistra dell&#39;ultima scheda.
 
 1. Fai clic su **Elimina** per confermare. <!--ensure there is not another saving step here?!-->
@@ -345,9 +345,9 @@ Le autorizzazioni di condivisione della vista originale non vengono trasferite a
    Viene visualizzata la pagina del tipo di record.
 Per impostazione predefinita, tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
 
-1. Passa il puntatore del mouse sulla scheda della visualizzazione da duplicare e fai clic sul menu **Altro** ![](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Duplica**.
+1. Passa il puntatore del mouse sulla scheda della visualizzazione da duplicare e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Duplica**.
 
-   ![](assets/view-more-menu-with-duplicate-option.png)
+   ![Visualizza altro menu con opzione duplicata](assets/view-more-menu-with-duplicate-option.png)
 
 
    La visualizzazione è duplicata e il nome della nuova visualizzazione segue il seguente schema: `Original view's name (Copy)`. La nuova scheda vista viene visualizzata alla fine di tutte le schede vista.
@@ -362,13 +362,13 @@ Quando si visualizza la vista tabella, è inoltre possibile visualizzare il camp
 1. (Condizionale) Se altri utenti modificano contemporaneamente i record del tipo selezionato, i relativi avatar vengono visualizzati nell’angolo superiore destro della visualizzazione.
 1. Fai clic sul menu a discesa accanto agli avatar, quindi seleziona l&#39;opzione **Mostra collaboratori**. L’opzione è selezionata per impostazione predefinita.
 
-   ![](assets/show-collaborators-toggle-selected.png)
+   ![Mostra/nascondi collaboratori selezionati](assets/show-collaborators-toggle-selected.png)
 
 1. (Facoltativo) Apri una vista a tabella e il campo che un’altra persona sta modificando attivamente viene evidenziato nel colore corrispondente al contorno del proprio avatar nella vista a tabella.
 
    Se il colore di evidenziazione dell’avatar è grigio, l’utente ha interrotto la modifica attiva del record più di 30 secondi fa.
 
-   ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
+   ![Campo tabella indicatori in tempo reale e connessione avatar](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
    >[!TIP]
    >

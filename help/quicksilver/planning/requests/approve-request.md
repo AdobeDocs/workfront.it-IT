@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '906'
 ht-degree: 1%
 
 ---
@@ -141,20 +141,20 @@ Per approvare una richiesta:
 
 1. Esegui una delle operazioni seguenti:
 
-   * Se hai accesso a Workfront Planning e puoi visualizzare almeno un&#39;area di lavoro, fai clic su **Menu principale** ![](assets/dots-menu.png) nell&#39;angolo superiore destro dello schermo o sul **Menu principale** ![](assets/lines-menu.png) nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **Richieste** > **Inviate** > **Pianificazione** e fai clic sulla richiesta con lo stato di **Revisione in sospeso** o **In revisione**.
+   * Se hai accesso a Workfront Planning e puoi visualizzare almeno un&#39;area di lavoro, fai clic su **Main Menu** ![Dots main menu](assets/dots-menu.png) nell&#39;angolo superiore destro della schermata o sul **Main Menu** ![Lines main menu](assets/lines-menu.png) nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **Requests** > **Submitted** > **Planning** e fai clic sulla richiesta con lo stato di **Pending review** o **In review**.
 
      >[!TIP]
      >
      >Se non disponi dell’accesso a Workfront Planning o se non disponi dell’accesso per visualizzare alcuna area di lavoro, puoi accedere a una richiesta per approvarla solo utilizzando l’e-mail o le notifiche in-app.
 
-   * Fai clic sull&#39;icona ![](assets/notifications-area-icon-unified-shell.png) dell&#39;area **Notifiche** nell&#39;angolo superiore destro della schermata e fai clic sulla notifica di una richiesta in attesa della tua approvazione per aprire la richiesta.
+   * Fai clic sull&#39;icona dell&#39;area **Notifications** ![Notifications area icon in Unified Shell](assets/notifications-area-icon-unified-shell.png) nell&#39;angolo superiore destro della schermata e fai clic sulla notifica relativa a una richiesta in attesa della tua approvazione per aprire la richiesta.
    * Vai alla notifica e-mail nell&#39;e-mail che ti notifica una richiesta in attesa della tua approvazione, quindi fai clic su **Apri richiesta** per aprire la richiesta. <!--add the name of the button here, from the email-->
 
    La pagina della richiesta si apre in modalità di sola lettura.
 
-   ![](assets/read-only-reqeust-page-in-review-status.png)
+   ![Pagina richiesta di sola lettura in stato di revisione](assets/read-only-reqeust-page-in-review-status.png)
 
-1. (Facoltativo) Fai clic sull&#39;icona **Approvazioni** ![](assets/approvals-icon.png) nell&#39;angolo superiore destro della richiesta per visualizzare gli approvatori.
+1. (Facoltativo) Fai clic sull&#39;icona **Approvazioni** ![Approvazioni](assets/approvals-icon.png) nell&#39;angolo superiore destro della richiesta per visualizzare gli approvatori.
 1. Fai clic su **Rivedi e approva**, quindi scegli una delle seguenti opzioni: <!--did they fix the button and removed the &??-->
 
    * **Approva**: questa operazione approva la richiesta. Viene creato immediatamente un record per il tipo di record associato al modulo di richiesta dopo che tutti gli approvatori hanno approvato la richiesta.

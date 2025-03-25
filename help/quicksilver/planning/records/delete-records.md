@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '737'
 ht-degree: 2%
 
 ---
@@ -124,18 +124,18 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Esegui una delle operazioni seguenti:
 
    * In una visualizzazione Tabella fare clic sul nome di un record.
-   * Dalla vista Tabella, passa il puntatore del mouse sul nome di un record, quindi fai clic sul menu **Altro** ![](assets/more-menu.png), quindi fai clic su **Visualizza**
+   * Dalla vista Tabella, passa il puntatore del mouse sul nome di un record, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png), quindi fai clic su **Visualizza**
 
-     ![](assets/contextual-menu-for-record-row.png)
+     ![Menu contestuale per riga record](assets/contextual-menu-for-record-row.png)
    * In una visualizzazione Sequenza temporale, fare clic su una barra dei record.
 
    Viene visualizzata la pagina del record.
 
-1. Fai clic sul menu **Altro** ![](assets/more-menu.png) a destra del nome del record, quindi fai clic di nuovo su **Elimina**, quindi su **Elimina** per confermare.
+1. Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del record, quindi fai clic su **Elimina**, quindi di nuovo su **Elimina** per confermare.
 
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+   ![Altre opzioni di menu dalla pagina dettagli record](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 Il record viene eliminato.
-1. (Facoltativo e condizionale) Se elimini il record nell&#39;ambiente di anteprima, accedi alla visualizzazione a tabella della pagina del record e fai clic sull&#39;icona **Annulla** ![](assets/undo-icon.png) nell&#39;angolo superiore destro della visualizzazione, quindi fai clic su **Eliminati di recente** per recuperare i record eliminati.
+1. (Facoltativo e condizionale) Se elimini il record nell&#39;ambiente di anteprima, accedi alla visualizzazione a tabella della pagina del record e fai clic sull&#39;icona **Annulla** ![Icona Annulla](assets/undo-icon.png) nell&#39;angolo superiore destro della visualizzazione, quindi fai clic su **Eliminati di recente** per recuperare i record eliminati.
 
 Per informazioni sul ripristino dei record eliminati, vedere [Recuperare i record eliminati](/help/quicksilver/planning/records/restore-deleted-records.md).
 
@@ -156,17 +156,17 @@ Per informazioni sul ripristino dei record eliminati, vedere [Recuperare i recor
 1. Esegui una delle operazioni seguenti:
 
    * Fare clic con il pulsante destro del mouse su una riga di record, quindi scegliere **Elimina**.
-   * Fai clic sul menu **Altro** ![](assets/more-menu.png) a destra del nome del record, quindi fai clic su **Elimina**.
+   * Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del record, quindi fai clic su **Elimina**.
 
-     ![](assets/contextual-menu-for-record-row.png)
+     ![Menu contestuale per riga record](assets/contextual-menu-for-record-row.png)
 
-   * Fai clic sull&#39;icona ![](assets/open-details-icon-in-table-name-field.png) **Apri dettagli** per aprire la casella con le informazioni dettagliate del record, quindi fai clic su **Altro** ![](assets/more-menu.png) a destra del nome del record, quindi su **Elimina**.
+   * Fai clic sull&#39;icona **Apri dettagli** ![Apri icona dettagli nel campo nome tabella](assets/open-details-icon-in-table-name-field.png) per aprire la casella con le informazioni dettagliate del record, quindi fai clic su **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del record, quindi su **Elimina**.
 
    Il record viene eliminato.
 
 1. (Facoltativo) Per annullare o ripristinare l&#39;eliminazione di un record, effettuare una delle seguenti operazioni:
 
-   * Fai clic sull&#39;icona **Annulla** ![](assets/undo-icon.png), quindi **Eliminati di recente** per recuperare i record eliminati. Per informazioni sul ripristino dei record eliminati, vedere [Recuperare i record eliminati](/help/quicksilver/planning/records/restore-deleted-records.md).
+   * Fai clic sull&#39;icona **Annulla** ![Annulla icona](assets/undo-icon.png), quindi **Eliminato di recente** per recuperare i record eliminati. Per informazioni sul ripristino dei record eliminati, vedere [Recuperare i record eliminati](/help/quicksilver/planning/records/restore-deleted-records.md).
    * Utilizzare le seguenti scelte rapide da tastiera per annullare o ripristinare l&#39;eliminazione di un record:
 
       * CTRL + Z (⌘ + Z per Mac) per annullare l’eliminazione di un record

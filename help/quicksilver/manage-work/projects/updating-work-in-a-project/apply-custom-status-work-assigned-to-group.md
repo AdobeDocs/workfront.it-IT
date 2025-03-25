@@ -6,9 +6,9 @@ description: Se un progetto è associato a un gruppo, è possibile applicare sia
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Quando si aggiorna il Gruppo per un progetto, le opzioni disponibili per lo Stat
    >Se si seleziona un gruppo diverso nel menu a discesa **Gruppo**, gli stati personalizzati nel menu **Stato** cambiano automaticamente in modo da essere correlati al nuovo gruppo.
    >
    >
-   >![](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
+   >![Elenco a discesa Stato espanso con stati personalizzati per il progetto](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
    >
 
 1. Seleziona lo stato del progetto. Gli stati personalizzati creati e applicati a tale gruppo vengono visualizzati nell’elenco.

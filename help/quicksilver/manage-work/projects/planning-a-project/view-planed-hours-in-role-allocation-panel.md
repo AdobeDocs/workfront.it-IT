@@ -6,9 +6,9 @@ description: È possibile visualizzare l'allocazione dei ruoli per tutte le mans
 author: Alina
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '482'
 ht-degree: 1%
 
 ---
@@ -107,11 +107,11 @@ Devi avere i seguenti:
    * **Attività**
    * **Bilanciamento del carico di lavoro**
 
-1. Fai clic sull&#39;icona **Mostra allocazione ruoli** ![](assets/show-role-allocation-icon.png).
+1. Fai clic sull&#39;icona **Mostra allocazione ruoli** ![Mostra icona allocazione ruoli](assets/show-role-allocation-icon.png).
 
    Viene visualizzato il pannello Allocazione ruoli.
 
-   ![](assets/role-allocation-panel-planned-hours-only-350x316.png)
+   ![Pannello Allocazione ruoli con solo ore pianificate](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
 1. Rivedi le seguenti informazioni nel pannello **Allocazione ruoli**:
 
