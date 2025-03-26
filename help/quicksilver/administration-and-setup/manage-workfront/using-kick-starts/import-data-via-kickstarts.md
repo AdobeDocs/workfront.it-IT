@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 69cd1eafd7798861a4868fe0d68707ab5ba9106c
 workflow-type: tm+mt
-source-wordcount: '2754'
+source-wordcount: '2776'
 ht-degree: 6%
 
 ---
@@ -201,7 +201,7 @@ Per esportare un modello di Kick-Start:
      <tr> 
       <td>Ruolo</td> 
       <td>Esporta come file Excel</td> 
-      <td> <p> Ruolo</p> <p>Preferenze </p> </td> 
+      <td> <p> Mansione</p> <p>Preferenze </p> </td> 
      </tr>
 
    <tr> 
@@ -362,6 +362,10 @@ Ogni riga del foglio corrisponde a un oggetto univoco.
 
      **Esempio:** Digitare A|D nella colonna DE:Dipartimenti per compilare il reparto A e il reparto D nel modulo personalizzato.
 
+     >[!NOTE]
+     >
+     >Utilizza solo il delimitatore &quot;|&quot; per separare i valori dei campi personalizzati. Non è possibile utilizzarlo in altre colonne del foglio di calcolo, incluso **setCategoryID**.
+
 ### Includi date  {#include-dates}
 
 Workfront è in grado di elaborare la maggior parte dei formati di date. È tuttavia necessario assicurarsi che la colonna data nel foglio di calcolo sia formattata come data. L&#39;importazione avrà esito negativo se la colonna viene formattata come generale, un numero o un testo.
@@ -469,7 +473,7 @@ L&#39;importazione Kick-Start supporta i seguenti tipi di file:
   >
   >È necessario utilizzare un file .ZIP per importare fogli di calcolo Excel che fanno riferimento ai seguenti oggetti:
   >
-  >* Report
+  >* Rapporti
   >* Documenti
   >* Avatar
   >* Visualizzare, filtrare o raggruppare i file di proprietà
