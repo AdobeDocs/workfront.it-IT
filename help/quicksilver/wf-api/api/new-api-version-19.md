@@ -6,7 +6,8 @@ description: Adobe Workfront ha rilasciato la versione API 19 il 6 aprile 2022. 
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 13910328903744aa9bf619e8b4c376520c21b89e
+exl-id: 84909dea-7ce1-4ad3-90f5-9dbdb354eaa4
+source-git-commit: 1c1f9f46ea25ffa7d01c1a762b0478a5edb3339e
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 0%
@@ -308,7 +309,7 @@ Un oggetto Hour rappresenta un&#39;ora registrata da un utente su una scheda ora
           <li><p><b>rejectionComment</b></li>
           <li><p><b>submitByID</b></li>
           </ul>
-          <p>Le seguenti modifiche sono state apportate al campo <b>ore</b>.</p>
+          <p>Sono state apportate le seguenti modifiche al campo <b>ore</b>.</p>
           <ul> 
           <li> Convalida <b>GREATER_THAN</b> rimossa</li>
           <li> Aggiunta convalida <b>NOT_EQUAL</b></li>
@@ -437,7 +438,7 @@ Un oggetto Ruolo (ruolo) rappresenta una capacità funzionale o un insieme di co
 
 ### ScoreCardQuestion {#scorecardquestion}
 
-Un oggetto ScoreCardQuestion rappresenta una domanda aggiunta a una scorecard. Queste domande sono solitamente determinate dal manager del Portfolio e le loro risposte consentono al manager di capire quanto un progetto sia in linea con gli obiettivi del portfolio.
+Un oggetto ScoreCardQuestion rappresenta una domanda aggiunta a una scorecard. Queste domande sono solitamente determinate dal manager Portfolio e le loro risposte consentono al manager di comprendere quanto un progetto sia in linea con gli obiettivi del portfolio.
 
 <table>
   <tbody>
@@ -522,5 +523,3 @@ Un oggetto Timesheet rappresenta un foglio ore virtuale che consente agli utenti
       </td>
   </tbody>
 </table>
-
-

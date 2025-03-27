@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: ece8b2b248c8dd4e27465fbacb1319a7e0fbac11
+source-git-commit: 9b1514ac84692703aa1938c306ff5680d7c9f74f
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,62 @@ ht-degree: 0%
 Questa pagina descrive piccoli aggiornamenti all’aspetto di varie aree dell’applicazione Adobe Workfront che sono stati apportati nell’arco temporale del rilascio del secondo trimestre 2025.
 
 Per un elenco di tutte le modifiche disponibili con la versione del secondo trimestre 2025, consulta [Panoramica sulla versione del secondo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+
+<!--
+
+## Updated experience in the Access Levels area in Setup
+
+>[!NOTE]
+>
+>Preview release: March 27, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
+
+To enhance performance, we've made some visual updates to the Access Levels area in Setup.
+
+A small functionality change has been applied to the Access Levels list. To copy, edit, or delete an access level, select the level and click the appropriate icon.
+
+-->
+
+## Aggiornamenti diretti alle finestre di dialogo Tipi di spesa
+
+>[!NOTE]
+>
+>Versione di anteprima: 27 marzo 2025; versione di produzione per tutti i clienti: con la versione 25.4 (10 aprile 2025)
+
+Abbiamo aggiornato l’aspetto delle finestre di dialogo per l’aggiunta e la modifica dei Tipi di spesa nell’area Configura, in modo che corrispondano al design di altre aree di Workfront.
+
+Per informazioni, vedere [Creare tipi di spesa personalizzati](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md).
+
+## Aggiornamenti visivi per la casella Modifica tipo di rischio
+
+>[!NOTE]
+>
+>Versione di anteprima: 27 marzo 2025; versione di produzione per tutti i clienti: con la versione 25.4 (10 aprile 2025)
+
+È stato aggiornato l&#39;aspetto della casella Modifica tipo di rischio quando si aggiorna un tipo di rischio esistente nell&#39;area Configurazione di Workfront. Il nuovo design ora si adatta ad altre aree di Workfront.
+
+Per informazioni, vedere [Modificare e creare tipi di rischio](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
+
+## Aggiornamenti look-and-feel della casella Nuovo tipo di rischio
+
+>[!NOTE]
+>
+>Versione di anteprima: 27 marzo 2025; versione di produzione per tutti i clienti: con la versione 25.4 (10 aprile 2025)
+
+È stato aggiornato l&#39;aspetto della casella Nuovo tipo di rischio quando si aggiunge un nuovo tipo di rischio nell&#39;area Configurazione di Workfront. Il nuovo design ora si adatta ad altre aree di Workfront.
+
+Per informazioni, vedere [Modificare e creare tipi di rischio](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
+
+## Scopri gli aggiornamenti nell’area Dettagli coda di un progetto
+
+>[!NOTE]
+>
+>Versione di anteprima: 27 marzo 2025; versione di produzione per tutti i clienti: con la versione 25.4 (10 aprile 2025)
+
+Abbiamo aggiornato l’aspetto dell’area Dettagli coda in un progetto, per uniformarla al design di altre aree di Workfront.
+
+Con questo aggiornamento, l’aspetto dell’area Dettagli coda di un modello non è cambiato.
+
+Per informazioni, vedere [Creare una coda di richieste](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 ## Gli avatar non vengono più visualizzati in alcune notifiche e-mail
 
@@ -35,27 +91,11 @@ Gli avatar non verranno più visualizzati nelle seguenti notifiche e-mail:
 
 >[!NOTE]
 >
->Versione di anteprima: 6 marzo 2025; versione di produzione per tutti i clienti: 10 aprile 2025
+>Versione di anteprima: 6 marzo 2025; versione di produzione per tutti i clienti: con la versione 25.4 (10 aprile 2025)
 
 Abbiamo aggiornato l’aspetto dell’elenco Percorso milestone nell’area Configura, per adattarlo al design di altre aree di Workfront.
 
 Per informazioni, vedere [Creare un percorso milestone](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
-
-## Aggiornamenti look-and-feel del calendario Workfront
-
->[!NOTE]
->
->Versione di anteprima: 27 febbraio 2025; versione di produzione per tutti i clienti: con la versione 25.4 (10 aprile 2025)
-
-Abbiamo aggiornato l’aspetto del Calendario di Workfront a un design moderno coerente con altre aree di Workfront. Esistono piccole differenze di funzionalità rispetto al calendario Workfront corrente, tra cui:
-
-* Come aggiungere elementi ad hoc al calendario
-* Creazione e ridenominazione del calendario
-* Le azioni del calendario sono state spostate in un menu Altro accanto al nome del calendario
-* Un nuovo pannello laterale per la visualizzazione delle informazioni del calendario
-* E altro ancora
-
-Per ulteriori informazioni, vedere gli articoli [Calendari](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md).
 
 ## Visualizzazione aggiornata del percorso milestone di un progetto in una visualizzazione progetto
 

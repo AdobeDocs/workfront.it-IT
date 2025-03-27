@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: e5878d3b591e65f4ece2a79248e03940976580de
+source-git-commit: e8751b8e33ce99d56f816f12b065482c4deb7fbd
 workflow-type: tm+mt
-source-wordcount: '1935'
+source-wordcount: '2166'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,45 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 <!--keep the sentence below for all future quarterly release pages-->
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Collegamento per visualizzare la nuova richiesta dopo l’invio
+
+>[!NOTE]
+>
+>Anteprima: 27 marzo 2025; Produzione per tutti i clienti: 10 aprile 2025
+
+Ora è possibile aprire una nuova richiesta immediatamente dopo averla inviata dalle seguenti aree:
+
+* il modulo di richiesta dopo averne effettuato l’accesso da un collegamento condiviso
+* pagina del tipo di record dai pulsanti Nuovo record o Richiedi record
+* nell&#39;area Richieste del menu principale
+
+Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md).
+
+## Creazione di più oggetti da un record mediante automazioni
+
+>[!NOTE]
+>
+>Anteprima: 27 marzo 2025; Produzione per tutti i clienti: 10 aprile 2025
+
+È ora possibile creare più progetti dallo stesso record di Workfront Planning quando si utilizzano le automazioni in Workfront Planning. Quando attivi un’automazione, puoi creare più progetti e basare la creazione di ciascun progetto sui valori di un campo a selezione singola o multipla. Puoi utilizzare questa funzionalità solo per creare progetti.  Non è possibile attivare altre modifiche o creare altri tipi di oggetti utilizzando le automazioni in Planning.
+
+
+Prima di questo miglioramento, era possibile creare un solo progetto ogni volta che si attivava un’automazione configurata per i progetti.
+
+Per informazioni, vedere [Creare oggetti utilizzando le automazioni dei record di Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+
+## Rinomina campi di ricerca
+
+>[!NOTE]
+>
+>Anteprima: 27 marzo 2025; Produzione per tutti i clienti: 10 aprile 2025
+
+È ora possibile aggiornare le informazioni sui campi di ricerca dopo averli aggiunti alla tabella di un record connesso.
+
+Prima di questo miglioramento, non era possibile modificare i campi di ricerca esistenti.
+
+Per informazioni, vedere [Modifica campi](/help/quicksilver/planning/fields/edit-fields.md).
 
 ## Impostare e gestire più moduli di richiesta da un tipo di record
 
