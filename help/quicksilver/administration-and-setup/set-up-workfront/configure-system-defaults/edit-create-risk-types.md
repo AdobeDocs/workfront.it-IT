@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 3%
+source-wordcount: '658'
+ht-degree: 2%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 3%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Adobe Workfront dispone di una serie di tipi di rischio predefiniti che è possibile associare ai progetti nella fase di pianificazione per identificare potenziali ostacoli prima dell’approvazione di qualsiasi lavoro.
 
@@ -93,7 +93,9 @@ Per aumentare il numero di tipi di rischio nell’istanza di Workfront, puoi eff
 1. Seleziona il tipo di rischio da modificare.
 1. Fai clic sull&#39;icona **[!UICONTROL Modifica]** ![Modifica](assets/edit-icon.png).
 
-   Viene visualizzata la casella [!UICONTROL **Modifica tipo di rischio**]. <!--add screen shot-->
+   <span class="preview">Viene visualizzata la casella [!UICONTROL **Modifica tipo di rischio**].</span>
+
+   ![Modifica casella tipo di rischio](assets/edit-risk-type-box.png)
 
    >[!TIP]
    >
@@ -126,11 +128,18 @@ Per aumentare il numero di tipi di rischio nell’istanza di Workfront, puoi eff
 {{step-1-to-setup}}
 
 1. Fare clic su **[!UICONTROL Tipi di rischio]**.
+
 1. Fai clic su **[!UICONTROL Nuovo tipo di rischio]** per aprire la casella [!UICONTROL **Nuovo tipo di rischio**]
 
    Oppure
 
-   Fare clic su [!UICONTROL **Aggiungi altri tipi di rischio**] nell&#39;angolo inferiore sinistro dell&#39;elenco dei tipi di rischio per aggiungere i tipi di rischio in linea. <!--add screen shot-->
+   Fare clic su [!UICONTROL **Aggiungi altri tipi di rischio**] nell&#39;angolo inferiore sinistro dell&#39;elenco dei tipi di rischio per aggiungere i tipi di rischio in linea.
+
+   <span class="preview">Viene visualizzata la casella **Nuovo tipo di rischio**. <span>
+
+   ![Casella nuovo tipo di rischio](assets/new-risk-type-box.png)
+
+
 1. Aggiungi un **[!UICONTROL Nome]** (obbligatorio) e una **[!UICONTROL Descrizione]** (facoltativo) per il tipo di rischio.
 
    I campi **[!UICONTROL Nome]** e **[!UICONTROL Descrizione]** contengono un limite di 50 caratteri.

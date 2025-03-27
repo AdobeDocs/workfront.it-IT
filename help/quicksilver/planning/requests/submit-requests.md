@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1878'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,10 @@ Dopo che un responsabile dell&#39;area di lavoro crea un modulo di richiesta per
 
 È possibile inviare una richiesta di Workfront Planning dalle aree seguenti:
 
-* Dall’area Richieste di Workfront o da un collegamento diretto al modulo di richiesta. Questo articolo descrive come inviare una richiesta per aggiungere nuovi record a un tipo di record dall’area Richieste di Workfront o da un collegamento condiviso.
+* Dall’area Richieste di Workfront.
+* Da un collegamento diretto al modulo di richiesta condiviso.
+
+  Questo articolo descrive come inviare una richiesta per aggiungere nuovi record a un tipo di record dall’area Richieste di Workfront o da un collegamento condiviso.
 * <span class="preview">Dalla pagina del tipo di record, quando si aggiunge o si richiede un nuovo record. Per informazioni, vedere [Crea record](/help/quicksilver/planning/records/create-records.md).</span>
 
 Gli utenti Workfront e gli utenti esterni possono inviare richieste ai tipi di record Planning e creare record. <!--double check on the external users-->
@@ -97,7 +100,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Modello di layout</p></td>
+   <td role="rowheader"><p>Modello layout</p></td>
    <td> <p>Per accedere all'area Planning in Workfront, è necessario disporre di un modello di layout che includa l'area Planning nel menu principale. </p>
    <p> Tuttavia, per inviare richieste a Workfront Planning non è necessario accedere all'area Planning. </p>  
 </td>
@@ -212,6 +215,8 @@ L&#39;abilitazione di questa impostazione rende disponibili i moduli di richiest
      >
      >Le notifiche e-mail e in-app sono visibili solo quando l’istanza di Workfront della tua organizzazione viene integrata in Adobe Unified Experience.
 
+   1. (Facoltativo) Fai clic su **Visualizza la richiesta** nel messaggio di conferma, per aprire la richiesta, oppure fai clic sull&#39;icona **X** per chiudere la conferma.
+
 1. (Facoltativo) Fai clic sulla scheda **Planning** nell&#39;area Richieste per visualizzare la richiesta, quindi fai clic sul nome della richiesta.
 
    Viene visualizzata la pagina dei dettagli della richiesta.
@@ -269,7 +274,13 @@ L&#39;abilitazione di questa impostazione rende disponibili i moduli di richiest
      >
      >Le notifiche e-mail e in-app sono visibili solo quando l’istanza di Workfront della tua organizzazione viene integrata in Adobe Unified Experience.
 
-1. (Facoltativo) Fai clic sulla scheda **Planning** nell&#39;area Richieste per visualizzare la richiesta, quindi fai clic sul nome della richiesta.
+1. <span class="preview">(facoltativo) Fai clic su **Visualizza la richiesta** per aprire la richiesta in Workfront.</span>
+
+   Oppure
+
+   <span class="preview">Fare clic su [Invia un&#39;altra richiesta](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) per aprire il modulo di richiesta e aggiungere una nuova richiesta. </span>
+
+1. (Facoltativo) Fai clic su **Menu principale** > **Richieste** > scheda **Pianificazione** per visualizzare la richiesta, quindi fai clic sul nome della richiesta.
 
    Viene visualizzata la pagina dei dettagli della richiesta.
 

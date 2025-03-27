@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '792'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Modifica impostazioni campo
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -88,7 +88,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p></td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Modello di layout</p></td> 
+   <td role="rowheader"><p>Modello layout</p></td> 
    <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> </td> 
   </tr> 
 </tbody> 
@@ -121,11 +121,10 @@ Prima di apportare modifiche alla configurazione di un campo, è necessario cons
   >
   >Non viene inviata alcuna notifica agli altri utenti circa la modifica della configurazione del campo.
 
-* Non è possibile modificare i campi di ricerca esistenti dai record connessi.
+* Nell’ambiente di produzione non è possibile modificare i campi di ricerca esistenti.
+  <span class="preview">Nell&#39;ambiente di anteprima è possibile modificare i campi di ricerca esistenti dai record connessi.</span>
 
-<!--replace he last bullet with thsi: 
-
-* <span class="preview">You can edit existing lookup fields from connected records.</span>-->
+<!--at production - April 10, 2025 - remove the last bullet altogether-->
 
 <!--this is not yet true, but it might come later:
 * You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
@@ -164,7 +163,21 @@ Prima di apportare modifiche alla configurazione di un campo, è necessario cons
 
    Le informazioni sul campo vengono aggiornate per tutti gli utenti con accesso alla visualizzazione dell&#39;area di lavoro.
 
-1. (Condizionale) Per i campi record collegati, fare clic su **Modifica campi di ricerca** e aggiungere o rimuovere i campi dal tipo di record collegato.
+1. (Condizionale) Per i campi record connessi, fare clic su **Modifica campi di ricerca** e aggiungere o rimuovere i campi di ricerca dal tipo di record connesso.
 
    Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
 
+   >[!TIP]
+   >
+   >È possibile aggiungere o rimuovere campi di ricerca da record connessi, ma non modificare le impostazioni dei campi di ricerca.
+
+
+<!-- replace the TIP above with the one below at Preview, and remove this tip altogether after April 10 Prod release:-->
+
+<!--
+   >[!TIP]
+   >
+   >* In the Production environment, you can add or remove lookup fields from connected records, but you cannot edit the settings of lookup fields.
+   >* <span class="preview">In the Preview environment, you can edit the settings of lookup fields.</span>
+
+-->

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '2184'
 ht-degree: 1%
 
 ---
@@ -103,7 +103,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Modello di layout</p></td>
+   <td role="rowheader"><p>Modello layout</p></td>
    <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p>  
 </td>
   </tr>
@@ -178,9 +178,11 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
    * **Sezione predefinita**: questa è l&#39;interruzione di sezione predefinita che Workfront applica al modulo di richiesta. Tutti i campi record vengono visualizzati nell&#39;area **Sezione predefinita**.
    * Campo **Oggetto**: campo che identificherà la richiesta in Workfront. Impossibile modificare la configurazione e il valore del campo Oggetto.
 
-     >[!TIP]
+     >[!NOTE]
      >
-     >Il campo **Subject** richiede un valore quando è visibile nel modulo di richiesta. Tuttavia, è possibile rimuovere il campo **Oggetto**, se necessario, e i richiedenti non lo visualizzeranno nel modulo al momento dell&#39;invio della richiesta.
+     >* Il campo **Subject** richiede un valore quando è visibile nel modulo di richiesta. Tuttavia, è possibile rimuovere il campo **Oggetto**, se necessario, e i richiedenti non lo visualizzeranno nel modulo al momento dell&#39;invio della richiesta.
+     >* Quando in un modulo di richiesta manca il campo Oggetto, ma è presente un campo Nome per il nome del record futuro, al nome della richiesta viene automaticamente assegnato lo stesso nome del record creato.
+     >* Quando nel modulo di richiesta mancano i campi Oggetto e Nome, la richiesta viene denominata in base al seguente pattern: `< Record name > request form < Entry date of the request >`; il record è denominato **Senza titolo**.
 
    * Tutti i campi associati al tipo di record.
 
