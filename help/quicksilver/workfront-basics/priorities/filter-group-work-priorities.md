@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: c362c62855c71022c4bc6b3abc22ba4ea83b1b24
+source-git-commit: fbe5373ebe1c73db656384da8a339d0983215e4e
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '651'
 ht-degree: 4%
 
 ---
@@ -64,7 +64,7 @@ Puoi filtrare le attività e i problemi assegnati.
 {{step1-to-priorities}}
 
 1. Fai clic su **Filtri** in alto a sinistra nell&#39;elenco lavori.
-1. fare clic su **Filtri standard**.
+1. Fare clic su **Filtri standard**.
 1. Selezionare uno o più filtri per limitare gli elementi di lavoro.
    ![Filtro](assets/filter-new.png)
 
@@ -93,8 +93,9 @@ Puoi filtrare le attività e i problemi assegnati.
       <td>Non pronto</td>
       <td>Visualizza gli elementi con
        <ul>
-      <li>Predecessori incompleti o vincoli di attività che impediscono la lavorazione dell'elemento</li>
+      <li>Predecessori incompleti o vincoli di attività che impediscono la lavorazione dell'elemento</li></ul>
       <p>oppure</p>
+      <ul>
       <li>La data di inizio pianificata nel futuro è tra più di due settimane</li>
       </ul>
        </td>
