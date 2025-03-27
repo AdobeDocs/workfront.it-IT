@@ -6,9 +6,9 @@ description: Puoi reimpostare la tua  [!DNL Adobe Workfront]  password. Come mis
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 00930d520a6421a33ebe7c4842b59b9df514080b
+source-git-commit: 0df2a474fe1c29faca580088289d04ce9d1ef7f5
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '258'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,6 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    * Lettere maiuscole
    * Lettere minuscole
-   * Lettere
    * Numeri
    * Caratteri speciali (come ! @ # $ %)
 
