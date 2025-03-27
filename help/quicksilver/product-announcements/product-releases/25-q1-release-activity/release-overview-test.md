@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: 4ab8fede74c9e2ec5d374b0766445a2c23430777
+source-git-commit: 8e90b7c3bcc75be75ccec7ae5ee8e0d88b190426
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 2%
+source-wordcount: '541'
+ht-degree: 3%
 
 ---
 
@@ -40,7 +40,6 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 ### Miglioramenti per gli amministratori
 
-Versioni mensili: 14 novembre, 12 dicembre. Gennaio 15 | Versione trimestrale: gennaio
 <table style="table-layout:auto">
   <tbody>
     <tr>
@@ -60,7 +59,7 @@ Versioni mensili: 14 novembre, 12 dicembre. Gennaio 15 | Versione trimestrale: g
         </td>
         <td>21 novembre 2024</td>
         <td>Dicembre 2024</td>
-        <td>Gennaio 2024 (25.1)</td>
+        <td>Gennaio 2024</td>
     </tr>     
     <tr>
         <td>
@@ -88,11 +87,13 @@ Versioni mensili: 14 novembre, 12 dicembre. Gennaio 15 | Versione trimestrale: g
 
 
 
-<!--
-### Functionality soon to be removed from Workfront
 
-The following functionality is soon to be removed from Workfront:
--->
+### Funzionalità presto rimossa da Workfront
+
+Le seguenti funzionalità verranno presto rimosse da Workfront:
+
+* Analisi avanzata
+
 
 ## Note sulla versione per altre aree
 
