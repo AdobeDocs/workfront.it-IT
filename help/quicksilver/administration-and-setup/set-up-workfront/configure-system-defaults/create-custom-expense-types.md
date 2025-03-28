@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: ff4a9b317bd75b298a7a39814b4ae265c92c6d2a
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 4%
@@ -16,6 +16,8 @@ ht-degree: 4%
 ---
 
 # Creare tipi di spesa personalizzati
+
+{{highlighted-preview}}
 
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -57,7 +59,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Tipi di spesa predefiniti
 
-I Tipi di Spesa che sono in [!DNL Workfront] per impostazione predefinita non possono essere eliminati o modificati includono:
+I tipi di spesa predefiniti in [!DNL Workfront] che non possono essere eliminati o modificati includono:
 
 * [!UICONTROL Advertising]
 * [!UICONTROL Consulenza]
@@ -72,7 +74,7 @@ I Tipi di Spesa che sono in [!DNL Workfront] per impostazione predefinita non po
 
 1. Fare clic su **[!UICONTROL Tipi di spesa]**.
 1. Fare clic su **[!UICONTROL Nuovo tipo di spesa]**.
-1. Nella casella **[!UICONTROL Nuovo tipo di spesa]** visualizzata, specifica le seguenti informazioni:
+1. Nella finestra di dialogo **[!UICONTROL Nuovo tipo di spesa]**, specifica le seguenti informazioni:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -106,7 +108,8 @@ I Tipi di Spesa che sono in [!DNL Workfront] per impostazione predefinita non po
     </tbody> 
    </table>
 
-1. Fai clic su **[!UICONTROL Crea tipo di spesa]**.\
+1. Fai clic su **Crea tipo di spesa** <span class="preview">o **[!UICONTROL Salva]**.</span>
+
    Il tipo di spesa è ora disponibile per gli utenti per associarlo alle spese relative ai progetti e alle attività.
 
 ## Modifica tipi di spesa personalizzati
@@ -118,7 +121,8 @@ I Tipi di Spesa che sono in [!DNL Workfront] per impostazione predefinita non po
 
    Viene visualizzata la finestra di dialogo **[!UICONTROL Modifica tipo di spesa]**.
 
-1. Apporta le modifiche desiderate, quindi fai clic su **[!UICONTROL Salva modifiche]**.\
+1. Apporta le modifiche desiderate, quindi fai clic su **Salva modifiche** <span class="preview">o **[!UICONTROL Salva]**.</span>
+
    Il tipo di spesa è ora disponibile per gli utenti per associarlo alle spese relative ai progetti e alle attività.
 
 Per ulteriori informazioni su come utilizzare le spese e su come possono influenzare il costo di un progetto, vedere l&#39;articolo [Gestione delle spese del progetto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
