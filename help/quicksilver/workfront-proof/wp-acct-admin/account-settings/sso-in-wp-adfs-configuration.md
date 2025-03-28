@@ -2,12 +2,12 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
-title: 'Single Sign-On in [!DNL Workfront Proof]: configurazione ADFS'
+title: 'Single Sign-On in [!DNL Workfront Proof]: configurazione AD FS'
 description: Se si è un amministratore del server AD, è possibile installare e configurare ADFS.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 670422e9-5db8-4f06-baf8-1f9ce83873fe
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: 690b0817dfe4ff200982ffe8d67ad93e563e30ac
 workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Se si è un amministratore del server AD, è possibile installare e configurare 
 
 ## Installazione e configurazione di ADFS
 
-1. Scaricare [ADFS 2.0](http://www.microsoft.com/en-us/download/details.aspx?id=10909) nel computer.
+1. Scaricare Microsoft AD FS 2.0 nel computer.
 1. Aprire il file AdfsSetup.exe scaricato per avviare l&#39;Installazione guidata di ADFS (Active Directory Federation Services).
 1. Nella schermata Ruolo server selezionare una delle opzioni (è necessario almeno un server federativo).
 1. Se non si desidera esporre IIS sul server AD a Internet (porte 80 e 443 per HTTP e HTTPS), è innanzitutto possibile impostare un server federativo dietro il firewall e quindi creare un secondo proxy server federativo che trasmetta le richieste al server federativo attraverso il firewall.

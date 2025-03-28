@@ -7,9 +7,9 @@ description: Questa pagina contiene informazioni sulla struttura e sul contenuto
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: eccc878f4b6fdeeffbcd5635b80ac3e26f7fb8c6
 workflow-type: tm+mt
-source-wordcount: '4609'
+source-wordcount: '4719'
 ht-degree: 4%
 
 ---
@@ -249,7 +249,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <td>DOCU | Documento</td>
         <td>DOCUMENTS_CURRENT<br>DOCUMENTS_DAILY_HISTORY<br>DOCUMENTS_EVENT<br>DOCUMENTS_CUSTOM_VALUE_CURRENT<br>DOCUMENTS_CUSTOM_VALUE_DAILY_HISTORY<br>DOCUMENTS_CUSTOM_VALUE_EVENT</td>
         <td>CATEGORYID<br>CHECKEDOUTBYID<br>DOCUMENTID<br>DOCUMENTREQUESTID<br>EXCHANGERATEID<br>ITERATIONID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>NOTEID<br>OBJID<br>OPTASKID<br>OWNERID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>RELEASEVERSIONID<br>TASKID<br>TEMPLATEID<br>TEMPLATETASKID 18}TOPOBJID<br>USERID<br></td>
-        <td>CATEGORIES_CURRENT | CATEGORYID<br>UTENTE_CORRENTE | USERID<br>Self<br>Tabella richieste documenti non supportata al momento<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>ITERATIONS_CURRENT | ITERATIONID<br>NOTE_CURRENT | NOTEID<br>UTENTE_CORRENTE | USERID<br>NOTE_CURRENT | NOTEID<br>Variabile a seconda del valore DOCOBJCODE<br>OPTASK_CURRENT | OPTASKID<br>UTENTE_CORRENTE | USERID<br>PORTFOLIO_CORRENTE | PORTFOLIOID<br>PROGRAMMA_CORRENTE | PROGRAMID<br>PROJECT_CURRENT | PROJECTID<br>Tabella delle versioni di rilascio non supportata al momento<br>TASK_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>Variabile a seconda del valore TOPOBJCODE<br>USER_CURRENT | USERID</td>
+        <td>CATEGORIES_CURRENT | CATEGORYID<br>UTENTE_CORRENTE | USERID<br>Self<br>Tabella richieste documenti non supportata al momento<br>EXCHANGERATES_CURRENT | EXCHANGERATEID<br>ITERATIONS_CURRENT | ITERATIONID<br>NOTE_CURRENT | NOTEID<br>UTENTE_CORRENTE | USERID<br>NOTE_CURRENT | NOTEID<br>Variabile a seconda del valore DOCOBJCODE<br>OPTASK_CURRENT | OPTASKID<br>UTENTE_CORRENTE | USERID<br>PORTFOLIO_CURRENT | PORTFOLIOID<br>PROGRAMMA_CORRENTE | PROGRAMID<br>PROJECT_CURRENT | PROJECTID<br>Tabella delle versioni di rilascio non supportata al momento<br>TASK_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>Variabile a seconda del valore TOPOBJCODE<br>USER_CURRENT | USERID</td>
     </tr>
     <tr>
         <td>Approvazione documento</td>
@@ -265,7 +265,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <td>DOCFLD | DocsFolders</td>
         <td>DOCFOLDERS_CURRENT<br>DOCFOLDERS_DAILY_HISTORY<br>DOCFOLDERS_EVENT</td>
         <td>DOCFOLDERID (self)<br>ENTEREDBYID<br>ISSUEID<br>ITERATIONID    <br>LINKEDFOLDERID<br>PARENTID<br>PORTFOLIOID <br>PROGRAMID    <br>PROJECTID<br>SYSID<br>TASKID     <br>TEMPLATEID<br>TEMPLATETASKID<br>USERID</td>
-        <td>Self<br>USERS_CURRENT | USERID<br>OPTASKS_CURRENT | OPTASKID<br>ITERATIONS_CURRENT | ITERATIONID<br>LINKEDFOLDERS_CURRENT | LINKEDFOLDERID<br>DOCFOLDERS_CURRENT | DOCFOLDERID<br>PORTFOLIO_CORRENTE | PORTFOLIOID <br>PROGRAMMA_CORRENTE | PROGRAMID    <br>PROGETTI_ATTUALI | PROJECTID <br>Non è una relazione; viene utilizzato per scopi interni all'applicazione<br>TASKS_CURRENT | TASKID     <br>MODELLI_CORRENTI | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>USERS_CURRENT | USERID</td>
+        <td>Self<br>USERS_CURRENT | USERID<br>OPTASKS_CURRENT | OPTASKID<br>ITERATIONS_CURRENT | ITERATIONID<br>LINKEDFOLDERS_CURRENT | LINKEDFOLDERID<br>DOCFOLDERS_CURRENT | DOCFOLDERID<br>PORTFOLIO_CURRENT | PORTFOLIOID <br>PROGRAMMA_CORRENTE | PROGRAMID    <br>PROGETTI_ATTUALI | PROJECTID <br>Non è una relazione; viene utilizzato per scopi interni all'applicazione<br>TASKS_CURRENT | TASKID     <br>MODELLI_CORRENTI | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>USERS_CURRENT | USERID</td>
     </tr>
     <tr>
         <td>DocumentProvideMetadata</td>
@@ -361,7 +361,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <td>GERGO | Voce diario</td>
         <td>JOURNALENTRIES_CURRENT<br>JOURNALENTRIES_DAILY_HISTORY<br>JOURNALENTRIES_EVENT</td>
         <td>APPROVERSTATUSID<br>ASSIGNMENTID<br>AUDITRECORDID<br>BASELINEID <br>BILLINGRECORDID<br>COMPANYID <br>DOCUMENTID <br>DOCUMENTSHAREID <br>EDITEDBYID<br>EXPENSEID<br>HOURID<br>INITIATIVEID<br>JOURNALENTRIEID (self)<br>OBJID<br>OPTASKID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>SUBOBJID<br>SUBSCRIBEID<br>SYSID<br>TASKID<br>TEMPLATEID<br>TIMESHEETID<br>TOPOBJID<br>USERID</td>
-        <td>APPROVERSTATUSES_CURRENT | APPROVERSTATUSID<br>ASSIGNMENTS_CURRENT | ASSIGNMENTID<br>Tabella record di controllo non supportata al momento<br>BASELINES_CURRENT | BASELINEID <br>BILLINGRECORDS_CURRENT | BILLINGRECORDID<br>COMPANIES_CURRENT | COMPANYID <br>DOCUMENTI_CORRENTI | La tabella di condivisione documenti <br>ID documento non è attualmente supportata <br>USERS_CURRENT | ID UTENTE<br>SPESE_CORRENTE | EXPENSEID<br>HOURS_CURRENT | HOURID<br>Tabella iniziativa non supportata al momento<br>Self<br>ID dell'oggetto identificato nel campo OBJCODE<br>OPTASKS_CURRENT | OPTASKID<br>PORTFOLIO_CORRENTE | PORTFOLIOID<br>PROGRAMMA_CORRENTE | PROGRAMID<br>PROJECTS_CURRENT | PROJECTID <br>L'ID dell'oggetto identificato nel campo SUBOBJCODE<br>Tabella di sottoscrizione non supportata al momento<br>Nessuna relazione. Utilizzato per applicazioni interne<br>TASKS_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>TIMESHEETS_CURRENT | TIMESHEETID<br>ID dell'oggetto identificato nel campo TOPOBJCODE<br>USERS_CURRENT | USERID</td>
+        <td>APPROVERSTATUSES_CURRENT | APPROVERSTATUSID<br>ASSIGNMENTS_CURRENT | ASSIGNMENTID<br>Tabella record di controllo non supportata al momento<br>BASELINES_CURRENT | BASELINEID <br>BILLINGRECORDS_CURRENT | BILLINGRECORDID<br>COMPANIES_CURRENT | COMPANYID <br>DOCUMENTI_CORRENTI | La tabella di condivisione documenti <br>ID documento non è attualmente supportata <br>USERS_CURRENT | ID UTENTE<br>SPESE_CORRENTE | EXPENSEID<br>HOURS_CURRENT | HOURID<br>Tabella iniziativa non supportata al momento<br>Self<br>ID dell'oggetto identificato nel campo OBJCODE<br>OPTASKS_CURRENT | OPTASKID<br>PORTFOLIO_CURRENT | PORTFOLIOID<br>PROGRAMMA_CORRENTE | PROGRAMID<br>PROJECTS_CURRENT | PROJECTID <br>L'ID dell'oggetto identificato nel campo SUBOBJCODE<br>Tabella di sottoscrizione non supportata al momento<br>Nessuna relazione. Utilizzato per applicazioni interne<br>TASKS_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>TIMESHEETS_CURRENT | TIMESHEETID<br>ID dell'oggetto identificato nel campo TOPOBJCODE<br>USERS_CURRENT | USERID</td>
     </tr>
     <tr>
         <td>LinkedFolder</td>
@@ -417,7 +417,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <td>NOTA | Nota</td>
         <td>NOTES_CURRENT<br>NOTES_DAILY_HISTORY<br>NOTES_EVENT</td>
         <td>ATTACHDOCUMENTID<br>ATTACHOBJID<br>ATTACHOPTASKID<br>ATTACHWORKID<br>ATTACHWORKUSERID<br>AUDITRECORDID<br>COMPANYID<br>DOCUMENTID<br>EXTERNALSERVICEID<br>ITERATIONID<br>NOTEID<br>OBJID<br>OPTASKID<br>OWNERID<br>PARENTENDORSEMENTID<br>PARENTJOURNALENTRYID<br>PARENTNOTEID<br>PORTAFOGLIO{17 PROGRAMID<br>PROJECTID<br>PROOFACTIONID<br>PROOFID<br>RICHTEXTNOTEID<br>TASKID<br>TEMPLATEID<br>TEMPLATETASKID<br>THREADID<br>TIMESHEETID<br>TOPOBJID<br>USERID<br></td>
-        <td>DOCUMENT_CURRENT | DOCUMENTID<br>Variabile a seconda di ATTACHOBJCODE<br>OPTASK_CURRENT | OPTASKID<br>ELEMENTI DI LAVORO_CORRENTE<br>UTENTE_CORRENTE | USERID<br>Tabella record di controllo non supportata al momento<br>COMPANIES_CURRENT | COMPANYID <br>DOCUMENTO_CORRENTE | DOCUMENTID<br>Relazione non Workfront; utilizzato per l'integrazione con sistemi esterni<br>ITERATIONS_CURRENT | ITERATIONID<br>Self<br>Variabile a seconda di NOTEOBJCODE<br>OPTASK_CURRENT | OPTASKID<br>UTENTE_CORRENTE | USERID<br>Tabella di verifica non supportata al momento<br>JOURNALENTRIES_CURRENT | JOURNALENTRYID<br>NOTE_CURRENT | NOTEID<br>PORTFOLIO_CORRENTE | PORTFOLIOID<br>PROGRAMMA_CORRENTE | PROGRAMID<br>PROJECT_CURRENT | PROJECTID<br>Tabella azione bozza non supportata al momento<br>Tabella bozza non supportata al momento<br>RESERVEDTEXTNOTES_CURRENT | RICHTEXTNOTEID<br>TASK_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>NOTA_CORRENTE | NOTEID<br>TIMESHEET_CURRENT | TIMESHEETID<br>Variabile che dipende da TOPOBJCODE<br>USER_CURRENT | USERID</td>
+        <td>DOCUMENT_CURRENT | DOCUMENTID<br>Variabile a seconda di ATTACHOBJCODE<br>OPTASK_CURRENT | OPTASKID<br>ELEMENTI DI LAVORO_CORRENTE<br>UTENTE_CORRENTE | USERID<br>Tabella record di controllo non supportata al momento<br>COMPANIES_CURRENT | COMPANYID <br>DOCUMENTO_CORRENTE | DOCUMENTID<br>Relazione non Workfront; utilizzato per l'integrazione con sistemi esterni<br>ITERATIONS_CURRENT | ITERATIONID<br>Self<br>Variabile a seconda di NOTEOBJCODE<br>OPTASK_CURRENT | OPTASKID<br>UTENTE_CORRENTE | USERID<br>Tabella di verifica non supportata al momento<br>JOURNALENTRIES_CURRENT | JOURNALENTRYID<br>NOTE_CURRENT | NOTEID<br>PORTFOLIO_CURRENT | PORTFOLIOID<br>PROGRAMMA_CORRENTE | PROGRAMID<br>PROJECT_CURRENT | PROJECTID<br>Tabella azione bozza non supportata al momento<br>Tabella bozza non supportata al momento<br>RESERVEDTEXTNOTES_CURRENT | RICHTEXTNOTEID<br>TASK_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>NOTA_CORRENTE | NOTEID<br>TIMESHEET_CURRENT | TIMESHEETID<br>Variabile che dipende da TOPOBJCODE<br>USER_CURRENT | USERID</td>
     </tr>
     <tr>
         <td>Integrazione degli oggetti</td>
@@ -495,7 +495,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <td>Portfolio</td>
         <td>Portfolio</td>
         <td>PORTA | Portfolio</td>
-        <td>PORTFOLI_CORRENTI<br>PORTFOLI_CRONOLOGIA_GIORNALIERA<br>PORTFOLI_EVENTI<br>PORTFOLI_VALORE_PERSONALIZZATO_CORRENTE<br>PORTFOLI_VALORE_PERSONALIZZATO_CRONOLOGIA_GIORNALIERA<br>PORTFOLI_VALORE_PERSONALIZZATO_EVENTO</td>
+        <td>PORTFOLIO_CURRENT<br>PORTFOLIO_DAILY_HISTORY<br>PORTFOLIO_EVENT<br>PORTFOLIO_CUSTOM_VALUE_CURRENT<br>PORTFOLIO_CUSTOM_VALUE_DAILY_HISTORY<br>PORTFOLIO_CUSTOM_VALUE_EVENT</td>
         <td>ALIGNMENTSCORECARDID<br>CATEGORYID<br>ENTEREDBYID<br>GROUPID<br>LASTUPDATEDBYID<br>OWNERID<br>PORTFOLIOID</td>
         <td>Tabella scorecard non supportata al momento<br>CATEGORIES_CURRENT | CATEGORYID<br>UTENTE_CORRENTE | USERID<br>GROUP_CURRENT | GROUPID<br>UTENTE_CORRENTE | USERID<br>UTENTE_CORRENTE | USERID<br>Self</td>
     </tr>
@@ -513,7 +513,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <td>PRGM | Programma</td>
         <td>PROGRAMS_CURRENT<br>PROGRAMS_DAILY_HISTORY<br>PROGRAMS_EVENT<br>PROGRAMS_CUSTOM_VALUE_CURRENT<br>PROGRAMS_CUSTOM_VALUE_DAILY_HISTORY<br>PROGRAMS_CUSTOM_VALUE_EVENT</td>
         <td>CATEGORYID<br>ENTEREDBYID<br>GROUPID<br>LASTUPDATEDBYID<br>OWNERID<br>PORTFOLIOID<br>PROGRAMID</td>
-        <td>CATEGORIES_CURRENT | CATEGORYID<br>UTENTE_CORRENTE | USERID<br>GROUP_CURRENT | GROUPID<br>UTENTE_CORRENTE | USERID<br>UTENTE_CORRENTE | USERID<br>PORTFOLIO_CORRENTE | PORTFOLIOID<br>Self</td>
+        <td>CATEGORIES_CURRENT | CATEGORYID<br>UTENTE_CORRENTE | USERID<br>GROUP_CURRENT | GROUPID<br>UTENTE_CORRENTE | USERID<br>UTENTE_CORRENTE | USERID<br>PORTFOLIO_CURRENT | PORTFOLIOID<br>Self</td>
     </tr>
     <tr>
         <td>Progetto</td>
@@ -723,12 +723,28 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <td>PREDECESSORID<br>SUCCESSORID <br>TEMPLATEPREDECESSORID (self)<br>SYSID</td>
         <td>TEMPLATETASKS_CURRENT |TEMPLATETASKID<br>TEMPLATETASKS_CURRENT |TEMPLATETASKID <br>Autonomo<br>Nessuna relazione; utilizzato per scopi interni all'applicazione</td>
     </tr>
+       <tr>
+        <td>Valuta KPI rapportata alla tempificazione (disponibilità limitata del cliente)</td>
+        <td>KPI a fasi temporali</td>
+        <td>TMPH | KPIaseTempo</td>
+        <td>TIMESHEETS_CURRENT<br>TIMESHEETS_DAILY_HISTORY<br>TIMESHEETS_EVENT</td>
+        <td>APPROVERID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>TIMESHEETID<br>TIMESHEETPROFILEID<br>USERID</td>
+        <td>USER_CURRENT | USERID<br>NOTE_CURRENT | NOTEID<br>UTENTE_CORRENTE | USERID<br>Self<br>TIMESHEETPROFILES_CURRENT | TIMESHEETPROFILEID<br>UTENTE_CORRENTE | USERID</td>
+    </tr>
+        <tr>
+        <td>Durata KPI rapportata alla tempificazione (disponibilità limitata del cliente)</td>
+        <td>KPI a fasi temporali</td>
+        <td>TMPH | KPIaseTempo</td>
+        <td>TIMEPHASED_DURATION_CURRENT<br>TIMEPHASED_DURATION_DAILY_HISTORY<br>TIMEPHASED_DURATION_EVENT</td>
+        <td>ASSIGNMENTID<br>GROUPID<br>LOCATIONID<br>OPTASKID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>REFERENCEID<br>ROLEID<br>SOURCETASKID<br>TASKID<br>TIMEPHASEDDURATIONID (self)<br>USERID</td>
+        <td>ASSIGNMENTS_CURRENT | ASSIGNMENTID<br>GROUPS_CURRENT | GROUPID<br>CLASSIFICATORE_CORRENTE | CLASSIFIERID<br>OPTASKS_CURRENT | OPTASKID<br>PORTFOLIOS_CURRENT | PORTFOLIOID<br>PROGRAMMI_CORRENTI | PROGRAMID<br>PROJECTS_CURRENT | PROJECTID<br>Identifica l'oggetto del record KPI<br>ROLES_CURRENT | ID RUOLO<br>ATTIVITÀ_CORRENTE | TASKID<br>ATTIVITÀ_CORRENTE | TASKID<br>Self<br>USERS_CURRENT | USERID</td>
+    </tr>
     <tr>
         <td>Scheda orario</td>
         <td>Scheda orario</td>
-        <td>SCHEDA | Scheda orario</td>
-        <td>TIMESHEETS_CURRENT<br>TIMESHEETS_DAILY_HISTORY<br>TIMESHEETS_EVENT</td>
-        <td>APPROVERID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>TIMESHEETID<br>TIMESHEETPROFILEID<br>USERID</td>
+        <td>TMPH | KPIaseTempo</td>
+        <td>TIMEPHASED_CURRENCY_CURRENT<br>TIMEPHASED_CURRENCY_DAILY_HISTORY<br>TIMEPHASED_CURRENCY_EVENT</td>
+        <td>ASSIGNMENTID<br>GROUPID<br>LOCATIONID<br>OPTASKID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>REFERENCEID<br>ROLEID<br>SOURCETASKID<br>TASKID<br>TIMEPHASEDCURRENCYID (self)<br>USERID</td>
         <td>USER_CURRENT | USERID<br>NOTE_CURRENT | NOTEID<br>UTENTE_CORRENTE | USERID<br>Self<br>TIMESHEETPROFILES_CURRENT | TIMESHEETPROFILEID<br>UTENTE_CORRENTE | USERID</td>
     </tr>
     <tr>
@@ -737,7 +753,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         <td>TSPRO | Timesheet Ricorrente</td>
         <td>TIMESHEETPROFILES_CURRENT<br>TIMESHEETPROFILES_DAILY_HISTORY<br>TIMESHEETPROFILES_EVENT</td>
         <td>APPROVERID<br>ENTEREDBYID <br>GROUPID<br>SYSID<br>TIMESHEETPROFILEID (self)</td>
-        <td>USERS_CURRENT | USERID<br>USERS_CURRENT | ID UTENTE <br>GROUPS_CURRENT | GROUPID<br>Non è una relazione; utilizzato per scopi interni dell'applicazione<br>Self</td>
+        <td>ASSIGNMENTS_CURRENT | ASSIGNMENTID<br>GROUPS_CURRENT | GROUPID<br>CLASSIFICATORE_CORRENTE | CLASSIFIERID<br>OPTASKS_CURRENT | OPTASKID<br>PORTFOLIOS_CURRENT | PORTFOLIOID<br>PROGRAMMI_CORRENTI | PROGRAMID<br>PROJECTS_CURRENT | PROJECTID<br>Identifica l'oggetto del record KPI<br>ROLES_CURRENT | ID RUOLO<br>ATTIVITÀ_CORRENTE | TASKID<br>ATTIVITÀ_CORRENTE | TASKID<br>Self<br>USERS_CURRENT | USERID</td>
     </tr>
     <tr>
         <td>Filtro interfaccia utente</td>
