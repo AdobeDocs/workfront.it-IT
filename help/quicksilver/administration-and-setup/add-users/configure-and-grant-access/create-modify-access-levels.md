@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 3e48bebde0171c13b4168d7eb5d693b07cb9e396
+source-git-commit: 674c46b699ba445abba06bec3e4da4a710c60d63
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1521'
 ht-degree: 6%
 
 ---
@@ -66,11 +66,21 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 {{step-1-to-setup}}
 
 1. Fai clic su **Livelli di accesso** nel pannello a sinistra.
-1. Seleziona il livello di accesso da copiare e personalizzare, quindi fai clic su **Copia**.
+1. 
+   * Nell’ambiente di produzione:
+Seleziona il livello di accesso da copiare e personalizzare, quindi fai clic su **Copia**.
 
-   Oppure
+     Oppure
 
-   Se si sta modificando un livello di accesso esistente (copiato in precedenza), fare clic sul relativo nome.
+     Se si sta modificando un livello di accesso esistente (copiato in precedenza), fare clic sul relativo nome.
+
+   * <span class="preview">Nell&#39;ambiente di anteprima:</span>
+
+     <span class="preview">Selezionare il livello di accesso che si desidera copiare e personalizzare, quindi fare clic sull&#39;icona **Copia** ![Copia icona](assets/copy-icon.png). </span>
+
+     <span class="preview"> O </span>
+
+     <span class="preview">Se stai modificando un livello di accesso esistente, seleziona il livello di accesso facendo clic sulla casella a sinistra di tale livello di accesso, quindi fai clic sull&#39;icona **Modifica** ![Icona Modifica](assets/edit-icon.png). </span>
 
 1. Nella casella visualizzata, eseguire una delle operazioni seguenti per iniziare a configurare il livello di accesso personalizzato:
 
