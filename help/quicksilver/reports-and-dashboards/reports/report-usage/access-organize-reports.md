@@ -6,9 +6,9 @@ description: È possibile utilizzare i report in Adobe Workfront per esaminare o
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: da574efdede5aee34518f251cabdfe96983a69eb
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -88,10 +88,15 @@ Per accedere ai report creati o condivisi con te o condivisi pubblicamente:
    Oppure\
    Fai clic su una cartella nidificata nella cartella **I miei report**.
 
-1. Trascinare un report dall&#39;elenco dei report nella cartella in cui si desidera che risieda e rilasciarlo quando si raggiunge la cartella.
+1. Seleziona il rapporto, quindi fai clic sull&#39;icona della cartella ![Icona della cartella](assets/folder-icon.png) nella parte superiore dell&#39;elenco.
+
+1. Scegliere la cartella in cui aggiungere il report.
+
+   ![Scegliere una cartella in cui spostare il report](assets/choose-folder.png)
 
    >[!NOTE]
    >
    >Puoi spostare i report solo dalla cartella **I miei report** ad altre cartelle nidificate in **I miei report**. Non puoi spostare i report da o nella cartella **Condiviso con me** o **Tutti i report** in o da altre cartelle.
 
-   ![Trascina il report nella cartella](assets/nwe-drag-report-to-folder-350x292.png)
+
+
