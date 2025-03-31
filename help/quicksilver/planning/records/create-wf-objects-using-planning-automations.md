@@ -1,14 +1,12 @@
 ---
 title: Creazione di oggetti Workfront mediante Adobe Workfront Planning Record Automations
 description: In Adobe Workfront Planning è possibile configurare automazioni che, se attivate, creano oggetti in Workfront o record in Workfront Planning. Gli oggetti e i record creati vengono automaticamente connessi ai record di Planning esistenti. Questo articolo descrive come gestire le automazioni, tra cui come modificarle, disattivarle, eliminarle e attivarle per creare oggetti e record.
-hide: true
-hidefromtoc: true
 feature: Workfront Planning
 role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 89b2e3547387397279cce751dd7c84d8174532b5
+source-git-commit: 585a65c497211c84cffafeeaa5016218fd66acd2
 workflow-type: tm+mt
 source-wordcount: '2197'
 ht-degree: 2%

@@ -6,10 +6,10 @@ description: 'Notifiche: Obiettivi'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: 585a65c497211c84cffafeeaa5016218fd66acd2
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 4%
+source-wordcount: '436'
+ht-degree: 2%
 
 ---
 
@@ -97,15 +97,19 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
    <td> <p>Nome della persona che ha lasciato il commento</p> <p>Periodo dell’obiettivo </p> <p>Nome dell’obiettivo</p> <p>Testo del commento</p> <p>Il pulsante <strong>[!UICONTROL Apri in Web app]</strong> che apre il pannello [!UICONTROL Dettagli obiettivo]</p> <p>Il pulsante <strong>[!UICONTROL Change Notifications Settings]</strong> che consente di gestire le notifiche.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>A qualcuno piace il mio commento su un obiettivo</strong></td> 
-   <td> <p>Il nome della persona a cui è piaciuto il commento</p> <p>Periodo dell’obiettivo </p> <p>Nome dell’obiettivo</p> <p>Testo del commento </p> <p>Il pulsante <strong>[!UICONTROL Apri in Web app]</strong> che apre il pannello [!UICONTROL Dettagli obiettivo]</p> <p>Il pulsante <strong>[!UICONTROL Change Notifications Settings]</strong> che consente di gestire le notifiche.</p> </td> 
+  </tbody> 
+</table>
+
+<!--these were removed at some point: 
+
+   <td><strong>Someone liked my comment on a Goal</strong></td> 
+   <td> <p>The name of the person who liked the comment</p> <p>The Period of the goal </p> <p>The name of the goal</p> <p>The text of the comment </p> <p>The <strong>[!UICONTROL Open in web app]</strong> button which opens the [!UICONTROL Goal Details] panel</p> <p>The <strong>[!UICONTROL Change Notifications Settings]</strong> button which allows you to manage your notifications.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>A qualcuno piace un aggiornamento sul mio Goal</strong></td> 
-   <td> <p>Ricevi un’e-mail quando a qualcuno piace un commento che hai fatto su un obiettivo o quando aggiorni l’avanzamento dei tuoi risultati o delle tue attività sull’obiettivo. </p> <p>Nome della persona a cui è piaciuto l’aggiornamento</p> <p>Periodo dell’obiettivo </p> <p>Nome dell’obiettivo</p> <p>Il pulsante <strong>[!UICONTROL Apri in Web app]</strong> che apre il pannello [!UICONTROL Dettagli obiettivo]</p> <p>Il pulsante <strong>[!UICONTROL Change Notifications Settings]</strong> che consente di gestire le notifiche.</p> </td> 
+   <td><strong>Someone liked an update on my Goal</strong></td> 
+   <td> <p>You receive an email when someone likes a comment you made on a goal or when you update the progress of your results or activities on the goal. </p> <p>The name of the person who liked the update</p> <p>The Period of the goal </p> <p>The name of the goal</p> <p>The <strong>[!UICONTROL Open in web app]</strong> button which opens the [!UICONTROL Goal Details] panel</p> <p>The <strong>[!UICONTROL Change Notifications Settings]</strong> button which allows you to manage your notifications.</p> </td> 
   </tr> 
- </tbody> 
-</table>
+ -->
 
 <!--
 NOTE FOR NAME OF GOAL IN LAST TABLE CELL: check this. Is this true? Didn't triggger when this was written; add anything else? Maybe the type of the update is mentioned?!

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 4b5248f667648543263073022ae10336fb022f97
 workflow-type: tm+mt
-source-wordcount: '2418'
+source-wordcount: '2419'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Modello di layout</p></td> 
+   <td role="rowheader"><p>Modello layout</p></td> 
    <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale </p> </td> 
   </tr> 
 </tbody> 
@@ -206,7 +206,7 @@ Gli utenti con le autorizzazioni Contribute e Manage per l&#39;area di lavoro <!
    La pagina del tipo di record viene visualizzata nella visualizzazione a cui si è effettuato l&#39;ultimo accesso. Per impostazione predefinita, nella vista tabella viene visualizzata una pagina del tipo di record.
 Tutti i record del tipo selezionato vengono visualizzati nella vista.
 
-1. Da qualsiasi vista, fai clic su quanto segue nell&#39;angolo superiore destro dello schermo, a seconda delle autorizzazioni dell&#39;area di lavoro <!--<span class="preview">and record type</span>-->:
+1. (Condizionale) Da qualsiasi vista, fai clic su quanto segue nell&#39;angolo superiore destro dello schermo, a seconda delle autorizzazioni dell&#39;area di lavoro <!--<span class="preview">and record type</span>-->:
 
    * Fare clic su **Nuovo record** se si dispone delle autorizzazioni Contribute o di livello superiore nell&#39;area di lavoro <!--<span class="preview">and record type</span>-->
 

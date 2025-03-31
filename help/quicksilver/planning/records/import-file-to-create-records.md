@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 4b5248f667648543263073022ae10336fb022f97
 workflow-type: tm+mt
 source-wordcount: '961'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -78,7 +78,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr> 
    <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
    <td> <p>Nessun controllo del livello di accesso per Adobe Workfront Planning</p> 
-   <p>Modificare l'accesso in Workfront per i tipi di oggetto che si desidera creare (progetti, programmi e portafogli) quando si collegano i record. </p>  
+   <p>Modificare l'accesso in Workfront per i tipi di oggetto che si desidera creare (progetti, programmi e portafogli) durante la connessione da nuovi record  </p>  
 </td> 
   </tr> 
 <tr> 
@@ -89,7 +89,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Modello di layout</p></td> 
+   <td role="rowheader"><p>Modello layout</p></td> 
    <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale </p> </td> 
   </tr> 
 </tbody> 

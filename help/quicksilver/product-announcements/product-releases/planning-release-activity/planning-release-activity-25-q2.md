@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: e8751b8e33ce99d56f816f12b065482c4deb7fbd
+source-git-commit: 4b5248f667648543263073022ae10336fb022f97
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2208'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,14 @@ Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning,
 >
 >Anteprima: 27 marzo 2025; Produzione per tutti i clienti: 10 aprile 2025
 
-Ora è possibile aprire una nuova richiesta immediatamente dopo averla inviata dalle seguenti aree:
+È stato migliorato il modo in cui si accede a una richiesta inviata in Workfront Planning.
+È stato aggiunto il collegamento &quot;Visualizza la richiesta&quot; che consente di accedere alla pagina dei dettagli della richiesta appena inviata.
 
-* il modulo di richiesta dopo averne effettuato l’accesso da un collegamento condiviso
-* pagina del tipo di record dai pulsanti Nuovo record o Richiedi record
-* nell&#39;area Richieste del menu principale
+Il nuovo collegamento è disponibile dopo l’invio di una richiesta dalle seguenti aree:
+
+* Da un collegamento condiviso
+* Dal pulsante Nuovo record o Richiedi record nella pagina del tipo di record
+* Dall’area Richieste, dopo aver abilitato la nuova esperienza per l’invio delle richieste.
 
 Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md).
 
