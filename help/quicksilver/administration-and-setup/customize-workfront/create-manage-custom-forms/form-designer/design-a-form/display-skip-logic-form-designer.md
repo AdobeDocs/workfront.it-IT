@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 9f2ada5f9954878efc195661173fe88a0fe1d3bd
+source-git-commit: 64deb1b0b3ba52f869ca38e2a26288d461070f82
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1744'
 ht-degree: 0%
 
 ---
@@ -250,7 +250,7 @@ La logica di convalida viene creata utilizzando le formule e può essere resa se
 
 Se il campo con la logica applicata soddisfa le condizioni di convalida definite quando un utente compila il modulo personalizzato, il campo viene evidenziato e viene visualizzato il messaggio di errore.
 
-È possibile applicare la logica di convalida ai seguenti tipi di campi: elenco a discesa, pulsante di scelta, casella di controllo, completamento automatico, testo a riga singola, testo di paragrafo, campo data, testo con formattazione e campi calcolati.
+È possibile applicare la logica di convalida ai seguenti tipi di campi: testo a riga singola, paragrafo, elenco a discesa a selezione singola, elenco a discesa a selezione multipla, ricerca esterna, pulsanti di scelta, gruppo di caselle di controllo e typeahead.
 
 ### Esempi
 
