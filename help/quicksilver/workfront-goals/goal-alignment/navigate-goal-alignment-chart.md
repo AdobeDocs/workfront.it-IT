@@ -6,14 +6,16 @@ description: Utilizzare la sezione Allineamento obiettivo per visualizzare una v
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '956'
 ht-degree: 1%
 
 ---
 
 # Passare alla sezione Allineamento obiettivi in Obiettivi di Adobe Workfront
+
+<!--Audited P&P only: 4/2025-->
 
 Utilizzare la sezione Allineamento obiettivo per visualizzare una visualizzazione olistica dell&#39;allineamento obiettivo in tutta l&#39;organizzazione in un diagramma di flusso. Gli obiettivi allineati vengono visualizzati su schede che si interconnettono in una struttura gerarchica.
 
@@ -24,6 +26,8 @@ Per informazioni sull’allineamento degli obiettivi e su come raggiungerlo, con
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire le attività descritte in questo articolo, è necessario disporre dei seguenti elementi:
 
 <table style="table-layout:auto">
@@ -33,11 +37,15 @@ Per eseguire le attività descritte in questo articolo, è necessario disporre d
 </col>
 <tbody>
 <tr>
-<td role="rowheader">piano Adobe Workfront</td>
-<td>
-<p>Qualsiasi</p>
-
-</td>
+<td role="rowheader">Piano Adobe Workfront*</td>
+<td> 
+   <p>Per il nuovo piano e la nuova struttura delle licenze:
+  <ul><li>Un piano Ultimate </li></ul>
+   </p>
+<p>Per il piano corrente e la struttura delle licenze: 
+<ul><li> A Pro o superiore </li>
+  <li>Una licenza Adobe Workfront Goals oltre a una licenza Workfront.</li></ul></p>
+   </td> 
 </tr>
 <tr>
 <td role="rowheader">Licenza Adobe Workfront*</td>
@@ -49,12 +57,9 @@ Oppure
 <tr>
 <td role="rowheader">Prodotto*</td>
 <td>
-<p> Nuovo requisito del prodotto, uno dei seguenti: </p>
-<ul>
-<li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
-<li>Un piano Workfront di Ultimate che include gli obiettivi di Workfront per impostazione predefinita. </li></ul>
-<p>Oppure</p>
-<p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
+  <p> Nuovo requisito prodotto: Workfront</p>
+  Oppure
+  <p>Requisiti attuali del prodotto: oltre a una licenza Workfront, è necessario acquistare una licenza per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
 </tr>
 <tr>
 <td role="rowheader">Livello di accesso</td>
@@ -70,7 +75,7 @@ Oppure
 </div> </td>
 </tr>
 <tr>
-<td role="rowheader"><p>Modello di layout</p></td>
+<td role="rowheader"><p>Modello layout</p></td>
 <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l’area Obiettivi nel menu principale. </p>  
 </td>
 </tr>
@@ -78,6 +83,8 @@ Oppure
 </table>
 
 *Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Passare alla sezione Allineamento obiettivo
 

@@ -6,16 +6,16 @@ description: Puoi aggiungere commenti a tutti gli obiettivi che puoi visualizzar
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 0%
+source-wordcount: '297'
+ht-degree: 1%
 
 ---
 
 # Gestire i commenti sugli obiettivi in Obiettivi di Adobe Workfront
 
-<!--Audited: 01/2024-->
+<!--Audited for P&P only: 04/2025-->
 
 <!--consider retiring this article when goals and all objects are in parity and we remove the legacy commenting from the system. From then on, there is just ONE way to comment and that will be documented in the Update Work article-->
 
@@ -63,9 +63,9 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
  <tr>
  <td role="rowheader">Prodotto*</td>
  <td>
- <p> Nuovo fabbisogno di prodotto: se si dispone del piano Select o Prime Adobe Workfront, è necessario acquistare anche una licenza Adobe Workfront Goals aggiuntiva. Gli obiettivi Workfront sono inclusi nel piano Ultimate Workfront.</p>
+ <p> Nuovo requisito prodotto: Workfront</p>
  Oppure
- <p>Fabbisogno prodotto corrente: è necessario acquistare una licenza aggiuntiva per gli obiettivi Adobe Workfront per accedere alle funzionalità descritte in questo articolo. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
+ <p>Requisiti attuali del prodotto: oltre a una licenza Workfront, è necessario acquistare una licenza per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Configurazione del livello di accesso</td>
@@ -81,7 +81,7 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>Modello di layout</p></td>
+   <td role="rowheader"><p>Modello layout</p></td>
    <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l’area Obiettivi nel menu principale. </p>  
 </td>
   </tr>

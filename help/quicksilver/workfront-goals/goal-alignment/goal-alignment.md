@@ -2,20 +2,22 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Consulta i seguenti articoli per scoprire come allineare gli obiettivi in Obiettivi di Workfront.
-description: Scopri come allineare gli obiettivi in Adobe Workfront nei seguenti articoli.
+title: 'Allineamento degli obiettivi in Adobe Workfront Goals: Indice degli articoli'
+description: Garantire che tutti gli obiettivi dell’azienda a qualsiasi livello siano allineati gli uni agli altri e alla strategia complessiva è un passo importante per il successo dell’organizzazione. Scopri come allineare gli obiettivi in Adobe Workfront nei seguenti articoli.
 author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
 
-# Allineamento degli obiettivi in Obiettivi di Adobe Workfront
+# Allineamento degli obiettivi in Adobe Workfront Goals: indice degli articoli
+
+<!--Audited P&P only: 4/2025-->
 
 >[!NOTE]
 >
@@ -24,11 +26,6 @@ ht-degree: 0%
 >* Per il nuovo piano e la nuova struttura delle licenze:
 >    
 >   * Un piano Ultimate
->        
->     Oppure
->        
->   * Una licenza aggiuntiva per Adobe Workfront Goals per i piani Prime o Select Adobe Workfront.
->      
 >      
 >* Per il piano corrente e la struttura delle licenze:
 >    

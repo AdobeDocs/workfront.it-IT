@@ -2,10 +2,9 @@
 title: Introduzione agli obiettivi di Adobe Workfront
 description: Gli obiettivi di Workfront consentono di definire, comunicare e raggiungere risultati strategici collegando la strategia all’esecuzione e alla consegna del lavoro.
 author: Alina
-draft: Probably
 feature: Workfront Goals
 exl-id: 9daa074e-94ce-4825-a058-722e53dbce51
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
 source-wordcount: '1374'
 ht-degree: 1%
@@ -13,6 +12,8 @@ ht-degree: 1%
 ---
 
 # Introduzione agli obiettivi di Adobe Workfront
+
+<!--Audited for P&P only: 4/2025-->
 
 >[!IMPORTANT]
 >

@@ -1,19 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Chiudere e riaprire gli obiettivi in Obiettivi di Adobe Workfront
+title: Chiudere e riaprire Obiettivi in Obiettivi di Adobe Workfront
 description: È possibile chiudere un obiettivo quando si desidera indicare che è stato completato o che non si sta più lavorando su di esso perché è diventato obsoleto.
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
 
 # Chiudere e riaprire gli obiettivi in Obiettivi di Adobe Workfront
+
+<!--Audited for P&P only: 4/2025-->
 
 È possibile chiudere un obiettivo quando si desidera indicare quanto segue:
 
@@ -23,6 +25,8 @@ ht-degree: 0%
 Puoi riaprire gli obiettivi che sono stati chiusi quando diventano di nuovo rilevanti.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Devi avere i seguenti:
 
@@ -54,12 +58,9 @@ Devi avere i seguenti:
  <tr>
  <td role="rowheader">Prodotto*</td>
  <td>
- <p> Nuovo requisito del prodotto, uno dei seguenti: </p>
-<ul>
-<li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
-<li>Un piano Workfront di Ultimate che include gli obiettivi di Workfront per impostazione predefinita. </li></ul>
+  <p> Nuovo requisito prodotto: Workfront</p>
  <p>Oppure</p>
- <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
+  <p>Requisiti attuali del prodotto: oltre a una licenza Workfront, è necessario acquistare una licenza per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
  </tr>
  <td role="rowheader">Livello di accesso</td>
  <td> <p>Modifica accesso agli obiettivi</p> </td>
@@ -74,7 +75,7 @@ Devi avere i seguenti:
   </div> </td>
  </tr>
 <tr>
-   <td role="rowheader"><p>Modello di layout</p></td>
+   <td role="rowheader"><p>Modello layout</p></td>
    <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l’area Obiettivi nel menu principale. </p>  
 </td>
   </tr>
@@ -82,6 +83,8 @@ Devi avere i seguenti:
 </table>
 
 *Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerazioni per la chiusura o la riapertura degli obiettivi
 

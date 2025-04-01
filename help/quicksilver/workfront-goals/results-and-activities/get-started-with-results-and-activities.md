@@ -7,9 +7,9 @@ description: Per poter attivare un obiettivo, devi aggiungere risultati, attivit
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Dopo aver aggiunto almeno uno di questi elementi, puoi attivare l’obiettivo. �
 >
 > Un obiettivo non può avere più di un totale di 1000 attività, risultati, progetti o obiettivi allineati.</span>
 
-Questo articolo offre una panoramica delle attività e dei risultati. Per informazioni sull&#39;allineamento degli obiettivi, vedere [Allineamento degli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-alignment/goal-alignment.md). Per informazioni sulla connessione dei progetti agli obiettivi, vedere [Aggiungere progetti agli obiettivi in Obiettivi di Adobe Workfront](../results-and-activities/connect-projects-to-goals-overview.md).
+Questo articolo offre una panoramica delle attività e dei risultati. Per informazioni sull&#39;allineamento degli obiettivi, vedere [Allineamento degli obiettivi in Obiettivi di Adobe Workfront: indice articolo](../../workfront-goals/goal-alignment/goal-alignment.md). Per informazioni sulla connessione dei progetti agli obiettivi, vedere [Aggiungere progetti agli obiettivi in Obiettivi di Adobe Workfront](../results-and-activities/connect-projects-to-goals-overview.md).
 
 ## Panoramica dei risultati
 

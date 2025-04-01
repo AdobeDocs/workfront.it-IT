@@ -2,12 +2,12 @@
 content-type: overview
 product-previous: workfront-goals
 navigation-topic: goal-alignment
-title: Panoramica sull’allineamento degli obiettivi in Obiettivi di Adobe Workfront
+title: Panoramica sull’allineamento degli obiettivi negli obiettivi di Adobe Workfront
 description: L’allineamento degli obiettivi garantisce che tutti i membri dell’organizzazione si trovino sulla stessa pagina di quello che deve essere raggiunto allineando i loro obiettivi l’uno all’altro e agli obiettivi organizzativi di team, gruppi e azienda.
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 1%
@@ -15,6 +15,8 @@ ht-degree: 1%
 ---
 
 # Panoramica sull’allineamento degli obiettivi in Obiettivi di Adobe Workfront
+
+<!--Audited P&P only: 4/2025-->
 
 >[!IMPORTANT]
 >

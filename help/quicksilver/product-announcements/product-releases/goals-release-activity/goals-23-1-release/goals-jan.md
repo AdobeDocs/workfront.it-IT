@@ -7,9 +7,9 @@ description: Questa pagina descrive tutti i miglioramenti apportati con la versi
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 30a8d125-f84c-4e1a-8e4c-d76da326c2ef
-source-git-commit: ebc729ad0300d54d294be275773d9ffc13128c83
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,6 @@ La condivisione, la modifica, l&#39;eliminazione o la copia di un obiettivo è s
 >
 >Con questo aggiornamento, sono state rimosse le sezioni Check-in e Pulse nell’area Obiettivi.
 
-Per ulteriori informazioni sugli obiettivi di Workfront, consulta gli articoli disponibili nell&#39;area [Obiettivi Workfront](/help/quicksilver/workfront-goals/workfront-goals.md) della documentazione di Workfront.
+Per ulteriori informazioni sugli obiettivi di Workfront, consulta gli articoli disponibili nell&#39;area [Obiettivi Adobe Workfront: indice articolo](/help/quicksilver/workfront-goals/workfront-goals.md) della documentazione di Workfront.
 
 [Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3413327/){target=_blank}

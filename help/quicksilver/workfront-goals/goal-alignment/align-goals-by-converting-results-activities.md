@@ -6,20 +6,25 @@ description: Puoi allineare manualmente due obiettivi oppure convertire i risult
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '680'
 ht-degree: 15%
 
 ---
 
 # Allineare gli obiettivi convertendo risultati e attività in obiettivi
 
+<!--Audited P&P only: 4/2025-->
+
 Puoi allineare manualmente due obiettivi oppure convertire i risultati e le attività di un obiettivo esistente in un altro obiettivo. Il risultato o l’attività convertiti diventano l’obiettivo secondario dell’obiettivo originale.
 Per informazioni sull&#39;allineamento manuale di due obiettivi, vedere [Allineare gli obiettivi collegandoli in Obiettivi di Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
+Per eseguire le attività elencate in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto">
 <col>
@@ -28,11 +33,15 @@ Per informazioni sull&#39;allineamento manuale di due obiettivi, vedere [Allinea
 </col>
 <tbody>
  <tr>
- <td role="rowheader">piano Adobe Workfront</td>
- <td>
- <p>Qualsiasi</p>
-
-</td>
+ <td role="rowheader">Piano Adobe Workfront*</td>
+ <td> 
+   <p>Per il nuovo piano e la nuova struttura delle licenze:
+  <ul><li>Un piano Ultimate </li></ul>
+   </p>
+<p>Per il piano corrente e la struttura delle licenze: 
+<ul><li> A Pro o superiore </li>
+  <li>Una licenza Adobe Workfront Goals oltre a una licenza Workfront.</li></ul></p>
+   </td> 
  </tr>
  <tr>
  <td role="rowheader">Licenza Adobe Workfront*</td>
@@ -44,12 +53,9 @@ Per informazioni sull&#39;allineamento manuale di due obiettivi, vedere [Allinea
  <tr>
  <td role="rowheader">Prodotto*</td>
  <td>
- <p> Nuovo requisito del prodotto, uno dei seguenti: </p>
-<ul>
-<li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
-<li>Un piano Workfront di Ultimate che include gli obiettivi di Workfront per impostazione predefinita. </li></ul>
- <p>Oppure</p>
- <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
+   <p> Nuovo requisito prodotto: Workfront</p>
+   Oppure
+   <p>Requisiti attuali del prodotto: oltre a una licenza Workfront, è necessario acquistare una licenza per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Livello di accesso</td>
@@ -65,7 +71,7 @@ Per informazioni sull&#39;allineamento manuale di due obiettivi, vedere [Allinea
   </div> </td>
  </tr>
 <tr>
-   <td role="rowheader"><p>Modello di layout</p></td>
+   <td role="rowheader"><p>Modello layout</p></td>
    <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l’area Obiettivi nel menu principale. </p>  
 </td>
   </tr>
@@ -73,6 +79,8 @@ Per informazioni sull&#39;allineamento manuale di due obiettivi, vedere [Allinea
 </table>
 
 *Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisiti
 

@@ -6,14 +6,16 @@ description: Gli obiettivi con un Progress of In Trouble rischiano di non essere
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 01e53bbc10573950d08f2df63fc742e6b9771e77
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
 
 # Revisione degli obiettivi in caso di problemi in Obiettivi di Adobe Workfront
+
+<!--Audited: 4/2025-->
 
 <!--
 <p>(NOTE: the status of goals in "red" used to be called At Risk. Now, it is "in trouble") </p>
@@ -22,6 +24,8 @@ ht-degree: 0%
 Gli obiettivi con un avanzamento di In difficoltà rischiano di non essere raggiunti e sono rappresentati da una barra di avanzamento rossa negli Obiettivi di Adobe Workfront. Devi rivedere spesso i tuoi obiettivi e capire perché il progresso è in ritardo. Per informazioni sull&#39;avanzamento dell&#39;obiettivo, vedere [Panoramica sull&#39;avanzamento e sulla condizione dell&#39;obiettivo in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Devi avere i seguenti:
 
@@ -52,12 +56,9 @@ Devi avere i seguenti:
  <tr>
  <td role="rowheader">Prodotto*</td>
  <td>
- <p> Nuovo requisito del prodotto, uno dei seguenti: </p>
-<ul>
-<li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
-<li>Un piano Workfront di Ultimate che include gli obiettivi di Workfront per impostazione predefinita. </li></ul>
- <p>Oppure</p>
- <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
+  <p> Nuovo requisito prodotto: Workfront</p>
+  Oppure
+  <p>Requisiti attuali del prodotto: oltre a una licenza Workfront, è necessario acquistare una licenza per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Livello di accesso</td>
@@ -73,7 +74,7 @@ Devi avere i seguenti:
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>Modello di layout</p></td>
+   <td role="rowheader"><p>Modello layout</p></td>
    <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l’area Obiettivi nel menu principale. </p>  
 </td>
   </tr>
@@ -81,6 +82,8 @@ Devi avere i seguenti:
 </table>
 
 *Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Raccomandazioni per prevenire gli obiettivi per raggiungere un progresso di In difficoltà
 

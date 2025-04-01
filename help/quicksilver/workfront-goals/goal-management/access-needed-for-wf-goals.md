@@ -3,23 +3,22 @@ content-type: reference
 product-previous: workfront-goals
 navigation-topic: goal-management
 title: Requisiti per l’utilizzo degli obiettivi di Workfront
-description: Prima di poter accedere agli obiettivi di Adobe Workfront Adobe Workfront, l’amministratore deve verificare che alcune condizioni siano soddisfatte.
+description: Prima di poter accedere agli obiettivi di Adobe Workfront Adobe Workfront, l’amministratore deve verificare che alcune condizioni siano soddisfatte. In questo articolo, scopri i requisiti di accesso, autorizzazioni e layout per accedere agli Obiettivi di Workfront.
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
 
 # Requisiti per l’utilizzo degli obiettivi di Workfront
 
-Prima di poter accedere agli obiettivi di Adobe Workfront Adobe Workfront, l’amministratore deve verificare che siano soddisfatte tutte le seguenti condizioni:
+<!--Audited P&P only: 04/2025-->
 
-<!--drafted for P&P - replace the first bullet with this one when licensing changes: 
-* Your company must purchase the correct Adobe Worfront plan or Adobe Workfront Goal license. For information, see the section [Obtain Workfront Goals organization access](#obtain-workfront-goals-organization-access)in this article.-->
+Prima di poter accedere agli obiettivi di Adobe Workfront Adobe Workfront, l’amministratore deve verificare che siano soddisfatte tutte le seguenti condizioni:
 
 * La tua organizzazione deve acquistare la licenza corretta per gli obiettivi Workfront. Per informazioni, vedere la sezione [Ottenere l&#39;accesso all&#39;organizzazione per gli obiettivi di Workfront](#obtain-workfront-goals-organization-access) in questo articolo.
 
@@ -48,9 +47,9 @@ Prima di poter accedere agli obiettivi di Adobe Workfront Adobe Workfront, l’a
 
 A seconda del piano Workfront su cui si trova attualmente la società, esistono i seguenti scenari:
 
-* Se la società dispone di un nuovo piano Workfront, è necessario disporre di un piano Ultimate Workfront. Gli obiettivi Workfront sono inclusi solo in questo piano.
+* **Un nuovo piano Workfront**: è necessario disporre di un piano Ultimate Workfront. Gli obiettivi Workfront sono inclusi solo in questo piano.
 
-* Se la società dispone del piano Workfront corrente, l’organizzazione deve acquistare una licenza aggiuntiva, oltre alla licenza Workfront, per consentire agli utenti di accedere agli obiettivi di Workfront.
+* **Piano Workfront corrente**: l&#39;organizzazione deve acquistare una licenza aggiuntiva, oltre alla licenza Workfront.
 
   Dopo che la tua organizzazione ha acquistato la licenza aggiuntiva, Workfront abilita Workfront Goals per il tuo account. Per informazioni sull&#39;acquisto di una licenza per Workfront Goals, contattare l&#39;account manager Workfront.
 
@@ -60,13 +59,13 @@ Per informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di acce
 
 A seconda del piano Workfront su cui si trova attualmente la società, esistono i seguenti scenari:
 
-* Se la società dispone del nuovo modello di livello di accesso, l’amministratore di Workfront deve concedere all’utente uno dei seguenti tipi di licenza Workfront per accedere agli obiettivi di Workfront:
+* **Nuovo modello del livello di accesso**: l&#39;amministratore di Workfront deve concedere all&#39;utente uno dei seguenti tipi di licenza Workfront per accedere agli obiettivi di Workfront:
 
    * Collaboratore
    * Light
    * Standard
 
-* Se la società dispone del modello del livello di accesso corrente, l&#39;amministratore di Workfront deve concedere all&#39;utente uno dei seguenti tipi di licenza Workfront per accedere agli obiettivi di Workfront:
+* **Modello del livello di accesso corrente**: l&#39;amministratore di Workfront deve concedere all&#39;utente uno dei seguenti tipi di licenza Workfront per accedere agli obiettivi di Workfront:
 
    * Piano
    * Lavoro

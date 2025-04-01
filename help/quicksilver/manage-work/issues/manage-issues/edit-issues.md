@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '2522'
+source-wordcount: '2556'
 ht-degree: 2%
 
 ---
@@ -243,15 +243,15 @@ Esistono alcune limitazioni che potrebbero impedire la modifica dei problemi.
       <td role="rowheader">Risoluzione di</td> 
       <td> <p>Questo mostra se il problema è risolto da un altro oggetto. Puoi scegliere se risolvere il problema con un’attività, un progetto o un altro problema dal menu a discesa, quindi inizia a digitare il nome dell’attività, del progetto o del problema che risolverà il problema. Selezionala quando viene visualizzata nell’elenco.</p>
 
-   <b>NOTA</b>
+   <b>NOTE</b>
 
-   Quando si seleziona un oggetto per risolvere un problema, lo stato del problema viene collegato allo stato dell&#39;oggetto di risoluzione e non può essere modificato sul problema. Per ulteriori informazioni sulla risoluzione degli oggetti, vedere <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Panoramica sugli oggetti risolvibili e risolvibili </a>.
+   <ul><li>Quando si seleziona un oggetto per risolvere un problema, lo stato del problema viene collegato allo stato dell'oggetto di risoluzione e non può essere modificato sul problema. Per ulteriori informazioni sulla risoluzione degli oggetti, vedere <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Panoramica sugli oggetti risolvibili e risolvibili </a>.</li>
 
-   <b>SUGGERIMENTO</b>
+   <li>Quando si collega un problema che deve essere risolto da un'altra attività, problema o progetto, nessuna informazione del problema viene trasferita all'oggetto di risoluzione (l'attività, il problema o il progetto elencato nel campo Risolto da). </li>
 
-   Quando l’amministratore di sistema o di gruppo aggiunge il campo &quot;Risolto da&quot; a un’intestazione personalizzata di un problema, il campo cambia in &quot;Risolto un problema&quot;, &quot;Attività risolutiva&quot; o &quot;Progetto risolutivo&quot; se al problema è associato un oggetto di risoluzione.
+   <li>Quando l’amministratore di sistema o di gruppo aggiunge il campo "Risolto da" a un’intestazione personalizzata di un problema, il campo cambia in "Risolto un problema", "Attività risolutiva" o "Progetto risolutivo" se al problema è associato un oggetto di risoluzione.
 
-   Non puoi modificare questo campo quando viene visualizzato nell’intestazione del problema. Per ulteriori informazioni sulla personalizzazione delle intestazioni dei problemi, vedere <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md">Personalizzare le intestazioni degli oggetti utilizzando un modello di layout </a>
+   Non puoi modificare questo campo quando viene visualizzato nell’intestazione del problema. Per ulteriori informazioni sulla personalizzazione delle intestazioni dei problemi, vedere <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md">Personalizzare le intestazioni degli oggetti utilizzando un modello di layout </a></li></ul>
    </td> 
      </tr>
 

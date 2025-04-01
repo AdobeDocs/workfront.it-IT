@@ -7,7 +7,7 @@ description: Gli stati obiettivo indicano se un obiettivo è attivo e sta regist
 author: Alina
 feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 4%
@@ -15,6 +15,8 @@ ht-degree: 4%
 ---
 
 # Panoramica sullo stato degli obiettivi in Obiettivi di Adobe Workfront
+
+<!--Audited: 4/2025-->
 
 >[!IMPORTANT]
 >
