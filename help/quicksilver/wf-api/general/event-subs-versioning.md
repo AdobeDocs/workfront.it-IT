@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
+source-git-commit: cdd7c0ef619e4cb75be82ba936f07bc3ce6dc745
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1252'
 ht-degree: 0%
 
 ---
@@ -250,3 +250,10 @@ Sono state apportate le seguenti modifiche per le sottoscrizioni di eventi versi
    <td>Nessuno. Se disponi di un filtro per il campo interessato, riceverai un evento <code>UPDATE</code> solo se tale campo è stato effettivamente modificato, non se è stato modificato un altro valore di parametro.
  </tbody> 
 </table>
+
+
+## Aggiornare la versione della sottoscrizione dell’evento in uno scenario Workfront Fusion
+
+Workfront Fusion utilizza gli abbonamenti agli eventi per controllare le modifiche in Workfront per attivare gli scenari. Puoi aggiornare la versione della sottoscrizione dell’evento utilizzata direttamente da Fusion in uno scenario, utilizzando il modulo Workfront > Aggiorna versione payload eventi.
+
+Per istruzioni sull&#39;utilizzo di questo modulo, vedere [Moduli Workfront](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) nella documentazione di Workfront Fusion.
