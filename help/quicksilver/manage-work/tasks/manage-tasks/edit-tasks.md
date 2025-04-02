@@ -2,15 +2,15 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Modifica le Attività
-description: Puoi modificare le informazioni sulle attività create, sulle attività per le quali disponi delle autorizzazioni Contribute o Manage. In questo articolo viene descritto come cercare, trovare e modificare un'attività, se si dispone delle autorizzazioni necessarie.
+description: Potete modificare le informazioni sulle attività create o sulle quali disponete delle autorizzazioni Contribute o Manage. In questo articolo viene descritto come cercare, trovare e modificare un'attività, se si dispone delle autorizzazioni necessarie.
 author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
 workflow-type: tm+mt
-source-wordcount: '3681'
-ht-degree: 3%
+source-wordcount: '3706'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 3%
 -->
 
 
-Puoi modificare le informazioni sulle attività create, sulle attività per le quali disponi delle autorizzazioni Contribute o Manage.
+Potete modificare le informazioni sulle attività create o sulle quali disponete delle autorizzazioni Contribute o Manage.
 
 ## Requisiti di accesso
 
@@ -54,7 +54,7 @@ Puoi modificare le informazioni sulle attività create, sulle attività per le q
    <td role="rowheader">Autorizzazioni oggetto</td> 
    <td> 
     <ul> 
-     <li> <p>Le autorizzazioni di Contribute per un'attività consentono di modificare le informazioni seguenti nell'area Dettagli attività: </p>
+     <li> <p>Concedere le autorizzazioni per un'attività per modificare le informazioni seguenti nell'area Dettagli attività: </p>
      <ul>
      <li>Descrizione</li>
      <li>Stato</li>
@@ -63,7 +63,7 @@ Puoi modificare le informazioni sulle attività create, sulle attività per le q
      <li> <p>Gestire le autorizzazioni per un'attività per modificare tutte le informazioni nell'area Dettagli e nella casella Modifica attività</p> </li> 
     </ul> 
     <ul> 
-     <li> <p>Autorizzazioni Contribute o superiori per il progetto</p> </li> 
+     <li> <p>Autorizzazioni Contribute (Contribute) o superiori per il progetto</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -82,7 +82,7 @@ Quando modifichi le attività, tieni presente quanto segue:
 * L’aggiornamento delle attività attiva le notifiche per i progetti che si trovano nello stato Corrente. Per evitare confusione per gli utenti assegnati alle attività, limita il più possibile le attività di modifica quando il progetto è nello stato Corrente.
 * Non è possibile modificare le attività in un processo di approvazione. È possibile registrare solo l&#39;ora o aggiornare lo stato di un&#39;attività in un processo di approvazione.
 
-  ![](assets/edit-task-in-approval-process-nwe-350x148.png)
+  ![Modifica attività con processo di approvazione](assets/edit-task-in-approval-process-nwe-350x148.png)
 
 * È possibile modificare e aggiungere documenti alle attività di un progetto con stato Completato, Inattivo o In attesa di approvazione solo quando l&#39;amministratore di Workfront o un amministratore di gruppo ha abilitato questa funzionalità nell&#39;area Preferenze progetto. Per informazioni sull&#39;impostazione delle preferenze di progetto, vedere [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
@@ -90,7 +90,7 @@ Quando modifichi le attività, tieni presente quanto segue:
 
    * Registra ore
    * Modifica spese esistenti
-   * Allegare un modulo personalizzato
+   * Allega un modulo personalizzato
 
 * Gli altri utenti devono aggiornare le proprie pagine prima di poter visualizzare gli aggiornamenti apportati a un&#39;attività.
 
@@ -223,8 +223,11 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
       <td role="rowheader">Stato</td> 
       <td> <p>Selezionare lo stato dell'attività che indica la fase di sviluppo in cui si trova l'attività.</p> <p><b>SUGGERIMENTO</b>
 
-   È possibile aggiornare lo Stato dell&#39;attività nell&#39;intestazione dell&#39;attività. </p> </td>
-   </tr> 
+   È possibile aggiornare lo Stato dell&#39;attività nell&#39;intestazione dell&#39;attività. </p>
+
+   <p>L'amministratore del Workfront o del gruppo può personalizzare i nomi degli stati delle attività. Per informazioni, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md">Creare o modificare uno stato</a>. 
+      </td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Priorità</td> 
       <td> <p>Questo è un flag visivo che ti consente di assegnare la priorità alle attività. </p> <p>Selezionare una delle opzioni seguenti: </p> 
