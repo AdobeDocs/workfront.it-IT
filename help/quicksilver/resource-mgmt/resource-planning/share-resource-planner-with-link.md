@@ -6,9 +6,9 @@ description: Adobe Workfront può generare un URL univoco per la Visualizzazione
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: af0f1b9baef20c5910b13a52207531887a8524c5
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 +++
 
-
 Quando generi l’URL univoco per la visualizzazione utente della Programmazione risorse, considera quanto segue:
 
 * Puoi ottenere un URL univoco solo per la Visualizzazione utente. L’opzione per generare l’URL non esiste nelle visualizzazioni Progetto o Ruolo.
@@ -80,18 +79,18 @@ Per ottenere un URL univoco nella Vista utente della Programmazione delle risors
    * Trimestre
 
 1. (Facoltativo) Seleziona se desideri visualizzare le informazioni entro **FTE** o **Ore**.\
-   ![RP_hours_or_fte_in_user_view.png](assets/rp-hours-or-fte-in-user-view.png)
+   ![Seleziona FTE o ore](assets/rp-hours-or-fte-in-user-view.png)
 
 1. (Facoltativo) Applica i filtri alla Programmazione delle risorse.\
    Per informazioni sull&#39;applicazione dei filtri, vedere [Informazioni sui filtri nella programmazione delle risorse](../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 1. Fare clic sull&#39;icona **collegamento ipertestuale**.\
-   ![RP_Storm_generate_URL_with_copy_URL_link.png](assets/rp-storm-generate-url-with-copy-url-link-350x182.png)
+   ![Icona collegamento ipertestuale e URL](assets/rp-generate-url-from-link-icon.png)
 
 1. Fare clic su **Copia URL**.\
    Copia negli Appunti l&#39;URL univoco della Programmazione delle risorse nella Vista utente.
 
-1. (Facoltativo) Effettuate una delle seguenti operazioni:  
+1. (Facoltativo) Effettuate una delle seguenti operazioni:
 
    * Incolla l’URL in un’altra applicazione per inviarlo a un altro utente.\
      L’utente deve aver effettuato l’accesso a Workfront per visualizzare la Programmazione delle risorse nella Vista utente.
@@ -114,4 +113,4 @@ Per ottenere un URL univoco nella Vista utente della Programmazione delle risors
    Per informazioni sull&#39;aggiunta di dashboard a un modello di layout, vedere [Creare e gestire modelli di layout](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).\
    Per informazioni sulla condivisione delle dashboard, vedere [Condividere una dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).\
    Quando si visualizza l&#39;URL condiviso, gli utenti possono visualizzare le informazioni con le impostazioni originariamente applicate alla Programmazione delle risorse. Devono aver effettuato l’accesso a Workfront per visualizzare l’URL condiviso.\
-   ![user_view_dashoard_from_unique_url.png](assets/user-view-dashoard-from-unique-url-350x85.png)
+   ![Dashboard di esempio con Pianificazione risorse visualizzato](assets/user-view-dashoard-from-unique-url-350x85.png)
