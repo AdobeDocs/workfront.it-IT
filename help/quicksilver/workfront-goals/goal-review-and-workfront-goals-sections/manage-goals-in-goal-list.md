@@ -6,14 +6,16 @@ description: Dopo che tu o altri utenti avete creato gli obiettivi, puoi esamina
 author: Alina
 feature: Workfront Goals
 exl-id: 2a2c1240-f796-4cb8-b8a6-2ad5853916b9
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '796'
 ht-degree: 2%
 
 ---
 
 # Gestione degli obiettivi nell’elenco Obiettivi di Adobe Workfront
+
+<!--Audited for P&P only: 4/2025-->
 
 <!-- printing or exporting goals is no longer possible, but see if they add it later-->
 
@@ -21,7 +23,9 @@ Dopo che tu o altri utenti avete creato gli obiettivi, puoi esaminarne l’avanz
 
 ## Requisiti di accesso
 
-Per eseguire le azioni descritte in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
+Devi avere i seguenti:
 
 <table style="table-layout:auto">
 <col>
@@ -38,7 +42,7 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
 <p>Per il piano corrente e la struttura delle licenze: 
 <ul><li> A Pro o superiore </li>
   <li>Una licenza Adobe Workfront Goals oltre a una licenza Workfront.</li></ul></p>
-   </td> 
+   </td>
   </tr>
  <tr>
  <td role="rowheader">Licenza Adobe Workfront*</td>
@@ -50,12 +54,9 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
  <tr>
  <td role="rowheader">Prodotto*</td>
  <td>
- <p> Nuovo requisito del prodotto, uno dei seguenti: </p>
-<ul>
-<li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
-<li>Un piano Workfront di Ultimate che include gli obiettivi di Workfront per impostazione predefinita. </li></ul>
- <p>Oppure</p>
- <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
+    <p> Nuovo requisito prodotto: Workfront</p>
+    Oppure
+    <p>Requisiti attuali del prodotto: oltre a una licenza Workfront, è necessario acquistare una licenza per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Livello di accesso</td>
@@ -71,7 +72,7 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>Modello di layout</p></td>
+   <td role="rowheader"><p>Modello layout</p></td>
    <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l’area Obiettivi nel menu principale. </p>  
 </td>
   </tr>
@@ -79,6 +80,8 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
 </table>
 
 *Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Gestione degli obiettivi nell’elenco Obiettivi
 

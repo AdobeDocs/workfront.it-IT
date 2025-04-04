@@ -2,19 +2,21 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Revisione degli obiettivi e sezioni Obiettivi di Adobe Workfront
+title: 'Sezioni Revisione obiettivo e Obiettivi di Adobe Workfront: Indice articolo'
 description: Scopri come rivedere gli obiettivi e le sezioni in cui puoi gestirli in Adobe Workfront, nei seguenti articoli.
 author: Alina
 feature: Workfront Goals
 exl-id: 81f531f7-3390-4f85-9a96-480f4e84295e
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
 
-# Revisione degli obiettivi e sezioni Obiettivi di Adobe Workfront
+# Sezioni Revisione degli obiettivi e Obiettivi di Adobe Workfront: indice degli articoli
+
+<!--Audited: 4/2025-->
 
 >[!IMPORTANT]
 >

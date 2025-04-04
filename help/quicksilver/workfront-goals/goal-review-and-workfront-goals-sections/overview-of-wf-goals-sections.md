@@ -7,7 +7,7 @@ description: Puoi accedere agli elenchi di obiettivi o di singoli obiettivi e ge
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 1%
@@ -15,6 +15,8 @@ ht-degree: 1%
 ---
 
 # Panoramica delle sezioni Obiettivi di Adobe Workfront
+
+<!--Audited for P&P only: 4/2025-->
 
 >[!IMPORTANT]
 >
