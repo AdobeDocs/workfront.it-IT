@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 0ae0e2d3c4e47a1f7344acf18068bba9cbbab597
+source-git-commit: 993b066ecefb4b345c59289d6c6466ef0416d620
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1640'
 ht-degree: 0%
 
 ---
@@ -298,9 +298,11 @@ Continuando a migliorare la piattaforma Workfront, è fondamentale mantenere agg
 
 #### Stiamo rimuovendo la vista Agile legacy in un progetto
 
-La vista Agile legacy in un progetto verrà rimossa da Workfront con la versione 25.3 del 13 marzo 2025. Puoi comunque visualizzare le attività in una visualizzazione Agile in un progetto facendo clic sull’icona Bacheche.
+La vista Agile legacy in un progetto verrà rimossa da Workfront con la versione 25.3 del 13 marzo 2025. Puoi comunque visualizzare le attività in una visualizzazione Agile in un progetto facendo clic sull’icona Bacheche. Gli strumenti agili legacy esistenti sono ancora disponibili nell’area Team.
 
-Per ulteriori informazioni sull&#39;utilizzo della visualizzazione Agile, vedere [Gestire un progetto nella visualizzazione Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+L’immagine seguente mostra l’opzione agile legacy che verrà rimossa:
+![collegamento visualizzazione agile legacy](assets/project-agile-board-view.png)
+
 
 #### Obsolescenza avanzata di Analytics
 
