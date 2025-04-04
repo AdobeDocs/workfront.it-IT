@@ -3,17 +3,19 @@ product-area: requests
 navigation-topic: create-requests
 title: Consentire agli utenti di inviare un problema tramite e-mail a un progetto della coda richieste
 description: Puoi configurare un progetto per consentire agli utenti di aggiungere problemi al progetto tramite e-mail.
-author: LIsa
+author: Alina, Courtney
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: fedb0328450896d212081715df4cde7644b169bc
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
 
 # Consentire agli utenti di inviare un problema tramite e-mail a un progetto della coda richieste
+
+<!-- Audited: 4/2025 -->
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
@@ -55,9 +57,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Prerequisiti
 
-Per configurare un progetto in modo che gli utenti possano aggiungere problemi al progetto tramite e-mail, sono necessari i seguenti prerequisiti.
-
-Prima di abilitare questa funzione è necessario soddisfare le seguenti condizioni:
+Per configurare un progetto in modo che gli utenti possano aggiungere problemi al progetto tramite e-mail, sono necessarie le seguenti condizioni:
 
 * Gli utenti che inviano problemi a questo account tramite e-mail devono essere utenti attivi con una licenza per Workfront.
 * Gli utenti che inviano problemi a questo account devono disporre delle autorizzazioni Aggiungi problema per il progetto.
@@ -79,7 +79,7 @@ Prima di abilitare questa funzione è necessario soddisfare le seguenti condizio
 
 1. Vai al progetto che desideri abilitare per ricevere i problemi tramite e-mail.
 1. Fai clic su **Dettagli coda** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**.
-1. Nell&#39;area **Tipo coda**, selezionare **Publish come Coda richieste della Guida**.
+1. Nell&#39;area **Tipo coda**, selezionare **Pubblica come coda richieste di aiuto**.
 
 1. Scorri verso il basso fino all&#39;area **Impostazioni coda e-mail**, quindi seleziona **Abilita acquisizione richieste tramite e-mail**.
 

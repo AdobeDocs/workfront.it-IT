@@ -5,9 +5,9 @@ description: È possibile utilizzare il Business Case per richiedere un progetto
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: fedb0328450896d212081715df4cde7644b169bc
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -18,22 +18,24 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
-Devi avere i seguenti:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Piano o superiore</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modifica accesso a progetti, dati finanziari e gestione risorse</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +45,9 @@ Devi avere i seguenti:
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisiti
 
@@ -60,43 +64,43 @@ Quando si richiede un progetto tramite un Business Case, tenere presente quanto 
 
 ## Creazione di un Business Case
 
-1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png), quindi fai clic su **Projects**.
-1. Fai clic su **Nuovo progetto** e seleziona **Richiedi progetto**.\
-   Per impostazione predefinita, il progetto si trova nello stato **Idea**.
+{{step1-to-projects}}
+
+1. Fai clic su **Nuovo progetto**, quindi seleziona **Richiedi progetto** dal menu a discesa visualizzato. Il progetto è stato creato e lo stato **Idea** è assegnato per impostazione predefinita.
 
    >[!CAUTION]
    >
    >Se lo stato Idea è stato eliminato nell’istanza di Workfront, il progetto viene posto nello stato predefinito per i nuovi progetti, come definito nell’area Preferenze progetto. Per informazioni sulla configurazione delle preferenze di progetto, vedere [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-1. Specifica un nome per il progetto, quindi premi Invio.
-1. (Facoltativo) Fai clic sull&#39;icona **Altro** ![Altro icona](assets/qs-more-icon-on-an-object.png), quindi **Allega modello**, per creare la struttura funzionale del progetto.
+1. Immetti un nome nel campo del titolo del progetto.
+1. (Facoltativo) Fai clic sull&#39;icona **Altro** ![Altro icona](assets/qs-more-icon-on-an-object.png), quindi **Allega modello** per creare la struttura funzionale del progetto.
 
    Oppure
 
    Inizia ad aggiungere attività al progetto manualmente.
 
-1. (Condizionale) Se hai selezionato di allegare un modello, continua ad allegarlo al progetto
-1. Fai clic su **Business Case** nel pannello a sinistra.
-1. (Facoltativo) Fai Clic Su **Modifica Informazioni Progetto**. 
+1. (Condizionale) Se hai selezionato di allegare un modello, continua ad allegarlo al progetto.
+1. Nel pannello a sinistra, fai clic su **Business Case**.
+1. (Facoltativo) Per modificare la sezione **Informazioni progetto**, fare clic su **Modifica informazioni progetto**. 
 
-   Per ulteriori informazioni sulla modifica dei campi nella sezione Informazioni progetto del caso di business, vedere la sezione [Informazioni progetto](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) nell&#39;articolo [Panoramica delle aree del caso di business](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
+   Per ulteriori informazioni sulla modifica dei campi della sezione **Informazioni progetto**, vedere la sezione [Informazioni progetto](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) nell&#39;articolo [Panoramica delle aree del caso di business](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
-1. (Facoltativo) Fai clic su **Modifica obiettivi**.
+1. (Facoltativo) Per modificare la sezione **Obiettivi**, fai clic su **Modifica obiettivi**.
 
-   Per ulteriori informazioni sulla modifica della sezione Obiettivi del caso di business, vedere la sezione [Obiettivi](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#goals) nell&#39;articolo [Panoramica delle aree del caso di business](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
+   Per ulteriori informazioni sulla modifica della sezione **Obiettivi** del caso aziendale, vedere la sezione [Obiettivi](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#goals) nell&#39;articolo [Panoramica delle aree del caso aziendale](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
-1. (Facoltativo) Fai Clic Su **Modifica Spese**.
+1. (Facoltativo) Per modificare la sezione **Spese**, fare clic su **Modifica spese**.
 
-   Per ulteriori informazioni sulla modifica della sezione Spese del Business Case, vedere la sezione [Spese](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#expenses) nell&#39;articolo [Panoramica delle aree del Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
+   Per ulteriori informazioni sulla modifica della sezione **Spese** del Business Case, vedere la sezione [Spese](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#expenses) nell&#39;articolo [Panoramica delle aree del Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
-1. (Facoltativo) Utilizzare l&#39;area Budget risorse per preventivare le risorse e ottenere il Costo manodopera preventivato associato alle mansioni del progetto. Per ulteriori informazioni, vedere [Risorse budget nel caso di business](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+1. (Facoltativo) Fare clic su **Modifica budget risorse** per preventivare le risorse e ottenere il costo manodopera preventivato associato alle mansioni del progetto. Per ulteriori informazioni, vedere [Risorse budget nel caso di business](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
    >[!TIP]
    >
    >Le informazioni visualizzate qui corrispondono a quelle visualizzate negli strumenti di budget delle risorse a livello di sistema.
 
 1. (Facoltativo) Fai clic su **Modifica rischi** per aggiungere potenziali rischi a questo progetto. Per informazioni sull&#39;aggiunta di rischi al Business Case, vedere la sezione [Rischi](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#risks) nell&#39;articolo [Panoramica delle aree del Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
-1. (Facoltativo) Seleziona una **scorecard** nel menu a discesa **Aggiungi una scorecard****a questo progetto**.
+1. (Facoltativo) Seleziona una **scorecard** nel menu a discesa **Aggiungi una scorecard a questo progetto**.
 
    Le scorecard devono essere create prima di poter essere allegate ai progetti.
 
@@ -108,10 +112,13 @@ Quando si richiede un progetto tramite un Business Case, tenere presente quanto 
 
    Per ulteriori informazioni su Forms personalizzato, vedere l&#39;articolo [Creazione di un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Fai clic su **Invia**.
-
-   Lo stato del progetto è cambiato in **Richiesto** e viene inviato per l&#39;approvazione del Business Case.
+1. Fai clic su **Invia**. Lo stato del progetto è cambiato in **Richiesto** e viene inviato per l&#39;approvazione del Business Case.
 
    Per ulteriori informazioni sull&#39;approvazione di un caso aziendale, vedere l&#39;articolo [Approvare un caso aziendale](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
-1. (Facoltativo) Dopo aver completato il Business Case, puoi esportare una copia in un file .pdf. Per ulteriori informazioni sull&#39;esportazione del Business Case in un file .pdf, vedere la sezione &quot;Esportare il Business Case&quot; nell&#39;articolo [Panoramica delle aree del Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
+
+>[!TIP]
+>
+> Dopo aver completato il Business Case, puoi esportare una copia in un file .pdf. Per ulteriori informazioni sull&#39;esportazione del Business Case in un file .pdf, vedere [Esportare il Business Case di un progetto](/help/quicksilver/manage-work/projects/define-a-business-case/export-business-case.md).
+
+

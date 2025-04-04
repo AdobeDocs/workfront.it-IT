@@ -8,16 +8,18 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: fedb0328450896d212081715df4cde7644b169bc
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '591'
 ht-degree: 1%
 
 ---
 
 # Impostare la data di completamento pianificata del progetto
 
-La Data di completamento pianificata di un progetto è la data entro la quale il progetto è impostato per essere completato.
+<!-- Audited: 4/2025 -->
+
+La Data di completamento pianificata di un progetto è la data in cui il progetto è impostato per il completamento.
 
 L&#39;Inizio pianificato e le Date di completamento pianificate di un progetto si basano sulle date delle attività del progetto. Questo articolo descrive come impostare manualmente o automaticamente la Data di completamento pianificata di un progetto. Per ulteriori informazioni sulla data di completamento pianificata di un&#39;attività, vedere [Panoramica sulla data di completamento pianificata dell&#39;attività](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
@@ -56,6 +58,8 @@ La data di completamento pianificata di un progetto può essere impostata manual
 </table>
 -->
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -63,15 +67,22 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td><p>
+   Nuovo: Standard
+
+Oppure
+
+Corrente: Piano </p>
+
+</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modifica accesso ai progetti</p> <p><b>NOTA</b>
 
 Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
@@ -83,7 +94,9 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Impostare manualmente la data di completamento pianificata di un progetto
 
@@ -96,15 +109,17 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
 Per programmare un progetto dalla data di completamento:
 
-1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **Projects**.
+{{step1-to-projects}}
 
-1. Fai clic su **Nuovo progetto** e quindi su **Nuovo progetto**.
+1. Fai clic su **Nuovo progetto**, quindi seleziona **Nuovo progetto** dal menu a discesa visualizzato.
 
    Per ulteriori informazioni sulla creazione di progetti, vedere l&#39;articolo [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md).
 
-1. Seleziona **Dettagli progetto** nel pannello a sinistra, quindi fai clic sull&#39;icona **Modifica progetto** nell&#39;angolo superiore destro.
+1. Seleziona **Dettagli progetto** nel pannello a sinistra.
 
-1. Nel campo **Modalità pianificazione**, seleziona **Data completamento**.
+1. Fai clic sull&#39;icona **Modifica progetto** ![Icona Modifica](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) nell&#39;angolo superiore destro, quindi seleziona **Panoramica** nel menu a discesa visualizzato.
+
+1. Nella sezione **Date progetto**, fai clic sul campo **Modalità pianificazione**, quindi seleziona **Data completamento**.
 
 1. Specifica la **data di completamento pianificata** del progetto.
 1. Fai clic su **Salva modifiche**.
@@ -117,15 +132,17 @@ La data di completamento pianificata di un progetto viene calcolata automaticame
 
 Per programmare un progetto dalla data di inizio:
 
-1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **Projects**.
+{{step1-to-projects}}
 
-1. Fai clic su **Nuovo progetto** e quindi su **Nuovo progetto**.
+1. Fai clic su **Nuovo progetto**, quindi seleziona **Nuovo progetto** dal menu a discesa visualizzato.
 
    Per ulteriori informazioni sulla creazione di progetti, vedere l&#39;articolo [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md).
 
-1. Seleziona **Dettagli progetto** nel pannello a sinistra, quindi fai clic sull&#39;icona **Modifica progetto** nell&#39;angolo superiore destro.
+1. Seleziona **Dettagli progetto** nel pannello a sinistra.
 
-1. Nel campo **Modalità pianificazione**, selezionare **Data inizio**.
+1. Fai clic sull&#39;icona **Modifica progetto** ![Icona Modifica](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) nell&#39;angolo superiore destro, quindi seleziona **Panoramica** nel menu a discesa visualizzato.
+
+1. Nella sezione **Date progetto**, fai clic sul campo **Modalità pianificazione**, quindi seleziona **Data inizio**.
 
 1. Specifica la **Data inizio pianificata** del progetto.
 1. Fai clic su **Salva modifiche**.
