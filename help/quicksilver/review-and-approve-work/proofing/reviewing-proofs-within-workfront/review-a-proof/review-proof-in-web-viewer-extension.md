@@ -6,9 +6,9 @@ description: Lo strumento di revisione Adobe Workfront è un’estensione del br
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 91f2dd12a91889c2cd1c2c01c93402e161684665
+source-git-commit: 7b02d5670ebba1456e37e6fd815e7812ec06def2
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '522'
 ht-degree: 1%
 
 ---
@@ -30,8 +30,34 @@ Lo strumento di revisione Adobe Workfront è un’estensione del browser basata 
 * Impedisce l&#39;apertura del sito in iFrame, ad esempio Figma
 
 
+## Installare l’estensione
 
-## Imposta lo strumento di revisione Adobe Workfront come visualizzatore predefinito per le bozze URL e ZIP
+### Prerequisiti
+
+* Per utilizzare lo strumento Adobe Workfront Review, è necessario rimuovere l’estensione Legacy Web Viewer.
+
+### Installare l’estensione
+
+<!--This extension is required to review conent in GS and Ex.
+
+You must install the extension to reiew content in GenS and Express.
+
+To review content in GS, Express, or Wou must install the extension if you are using GenStuido or Creative cloud express-->
+
+I revisori e gli approvatori devono installare lo strumento di revisione Adobe Workfront. in uno dei seguenti browser:
+
+* [Estensione Firefox](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
+
+* [Estensione Chrome](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
+
+* [Edge](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
+
+
+Affinché le bozze interattive possano essere aperte automaticamente nello strumento di revisione di Adobe Workfront, un amministratore di Workfront deve aggiornare le impostazioni di bozza in Workfront come descritto nelle sezioni seguenti.
+
+## Aggiorna i valori predefiniti di verifica di Workfront
+
+### Imposta lo strumento di revisione Adobe Workfront come visualizzatore predefinito per le bozze URL e ZIP
 
 Per utilizzare lo strumento di revisione web per le bozze URL e ZIP, un amministratore di Workfront deve regolare l’impostazione predefinita per le bozze interattive.
 
@@ -43,9 +69,9 @@ Per utilizzare lo strumento di revisione web per le bozze URL e ZIP, un amminist
 
 >[!NOTE]
 >
->Questa modifica si applica a tutte le bozze interattive negli ambienti di anteprima e produzione. È consigliabile testare la nuova esperienza nell’ambiente di anteprima prima di abilitarla in produzione. È possibile tornare facilmente al Visualizzatore desktop modificando l&#39;impostazione dell&#39;account in **Abilitato per tutte le bozze interattive**.
+>Questa modifica si applica a tutte le bozze interattive nell’istanza Workfront. È consigliabile testare la nuova esperienza nell’ambiente di anteprima prima di abilitarla in produzione. È possibile tornare facilmente al Visualizzatore desktop modificando l&#39;impostazione dell&#39;account **Visualizzatore bozze desktop per bozze interattive** su **Abilitato per tutte le bozze interattive**.
 
-## Imposta lo strumento di revisione Adobe Workfront come visualizzatore predefinito solo per le bozze ZIP
+### Imposta lo strumento di revisione Adobe Workfront come visualizzatore predefinito solo per le bozze ZIP
 
 Per utilizzare lo strumento di revisione web solo per le bozze ZIP, un amministratore di Workfront deve regolare l’impostazione predefinita per le bozze interattive.
 
@@ -57,20 +83,7 @@ Per utilizzare lo strumento di revisione web solo per le bozze ZIP, un amministr
 
 >[!NOTE]
 >
->Questa modifica si applica a tutte le bozze interattive negli ambienti di anteprima e produzione. È consigliabile testare la nuova esperienza nell’ambiente di anteprima prima di abilitarla in produzione. È possibile tornare facilmente al Visualizzatore desktop modificando l&#39;impostazione dell&#39;account in **Abilitato per tutte le bozze interattive**.
+>Questa modifica si applica a tutte le bozze ZIP nella tua istanza Workfront. È consigliabile testare la nuova esperienza nell’ambiente di anteprima prima di abilitarla in produzione. È possibile tornare facilmente al Visualizzatore desktop modificando l&#39;impostazione dell&#39;account **Visualizzatore bozze desktop per bozze interattive** su **Abilitato per tutte le bozze interattive**.
 
-## Installare l’estensione
 
-I revisori e gli approvatori devono installare lo strumento di revisione Adobe Workfront. in uno dei seguenti browser:
 
-* [Estensione Firefox](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
-
-* [Estensione Chrome](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
-
-* [Edge](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
-
-Una volta installata l’estensione, le bozze interattive vengono aperte automaticamente nello strumento di revisione di Adobe Workfront.
-
->[!IMPORTANT]
->
->Per utilizzare lo strumento Adobe Workfront Review, è necessario rimuovere l’estensione Legacy Web Viewer.

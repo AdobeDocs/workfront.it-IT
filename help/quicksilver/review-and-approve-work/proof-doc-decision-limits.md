@@ -6,16 +6,22 @@ description: Le decisioni su bozze e documenti sono limitate per tutte le licenz
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: cc3930f01d5e2162d7c778d061a08f937877c3c0
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 3%
+source-wordcount: '259'
+ht-degree: 5%
 
 ---
 
 # Documento limitato e decisione sulla bozza per utenti non pagati - Panoramica
 
-Le decisioni su bozze e documenti sono limitate per tutte le licenze Workfront non pagate sui nuovi piani. Per ulteriori informazioni, vedere [Panoramica delle nuove licenze](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+Le decisioni su bozze e documenti sono limitate per tutte le licenze Workfront non pagate sui nuovi piani. Quando si è assegnati come approvatori per un documento o una bozza, è necessario decidere se portare avanti il processo di revisione e approvazione.
+
+Le seguenti opzioni di decisione sono conteggiate ai fini del limite mensile:
+
+* Approvazione
+* Approva con modifiche
+* Azioni da intraprendere
 
 Limiti reimpostati per ogni utente ogni mese. I limiti di decisione per ciascuna licenza variano a seconda del piano a cui stai lavorando:
 
@@ -61,6 +67,8 @@ Limiti reimpostati per ogni utente ogni mese. I limiti di decisione per ciascuna
    </td>
   </tr>
 </table>
+
+Per ulteriori informazioni, vedere [Panoramica delle nuove licenze](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
 ## Utenti esterni
 
