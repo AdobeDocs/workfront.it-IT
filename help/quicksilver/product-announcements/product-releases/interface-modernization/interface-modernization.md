@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3ea3acc79a0f2d9c61b4ca7fff68855a9a7b1de7
+source-git-commit: 80cb8ffa0495c7d163de8fb99dba84e6442aa938
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: '1774'
 ht-degree: 0%
 
 ---
@@ -212,11 +212,23 @@ Per visualizzare questa modifica, vai a Team > scegli un team > Backlog, quindi 
 
 +++Espandi per visualizzare gli aggiornamenti dell’interfaccia Documenti
 
+### Aggiornamenti dell’interfaccia alla pagina di condivisione per i documenti esterni
+
+**Versione di anteprima: 3 aprile 2025; versione di produzione: a partire dalla settimana del 10 aprile 2025**
+
+Abbiamo aggiornato la pagina visualizzata dagli utenti esterni quando un documento viene condiviso con loro. Da questa pagina, gli utenti esterni possono:
+
+* Scarica il documento
+* Decidere in merito all&#39;approvazione
+* Apri il visualizzatore di bozze
+
+Questo aggiornamento include un design più moderno che è coerente con altre aree di Workfront.
+
 ### Aggiornamento dell’interfaccia per l’area Approvazioni di un documento
 
 **Versione di anteprima: 13 febbraio 2025; versione di produzione: a partire dalla settimana del 27 febbraio 2025**
 
-Abbiamo aggiornato l’area Approvazioni su un documento con un design più moderno che è coerente con altre aree di Workfront.
+L’area Approvazioni è stata aggiornata su un documento con un design più moderno che è coerente con altre aree di Workfront.
 
 Per visualizzare questa modifica, passa a un documento > Fai clic su Dettagli documento > Approvazioni.
 
