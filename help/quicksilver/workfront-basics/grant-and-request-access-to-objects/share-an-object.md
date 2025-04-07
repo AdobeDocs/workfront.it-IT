@@ -6,9 +6,9 @@ description: L’amministratore di Adobe Workfront consente agli utenti di visua
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
+source-git-commit: 311398231719fb8a29a6bf2ddf1eeafb58e4f39f
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '1922'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Per informazioni sulla condivisione delle autorizzazioni sugli oggetti, vedere [
 Questo articolo descrive come condividere i seguenti oggetti:
 
 * Progetti, attività, problemi
-* Portfoli, programmi
+* Portfolio, programmi
 * Documenti
 
 Per informazioni su come condividere tutti gli altri oggetti in Workfront, vedere anche i seguenti articoli:
@@ -110,7 +110,7 @@ Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
 
    ![](assets/new-share-button.png)
 
-1. Nella casella **Concedi &lt; nome oggetto > l&#39;accesso a**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo o della società con cui desideri condividere l&#39;oggetto, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
+1. Nella casella **Concedi l&#39;accesso a**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo o della società con cui desideri condividere l&#39;oggetto, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
    ![](assets/new-share-button-add-people.png){width="350"}
 
@@ -134,8 +134,8 @@ Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
    Sono disponibili le seguenti opzioni:
 
    * **Visualizzazione:** gli utenti possono esaminare e condividere l&#39;elemento.
-   * **Contribute**: gli utenti possono eseguire aggiornamenti, registrare informazioni, apportare modifiche minori e condividere, oltre a tutte le autorizzazioni di visualizzazione.
-   * **Gestisci:** gli utenti hanno accesso completo all&#39;oggetto senza diritti amministrativi (concessi a livello di accesso). Inoltre, dispongono anche di tutte le autorizzazioni View (Visualizzazione) e Contribute (Visualizzazione).
+   * **Contributo**: gli utenti possono apportare aggiornamenti, registrare informazioni, apportare modifiche minori e condividere, oltre a tutte le autorizzazioni di visualizzazione.
+   * **Gestisci:** gli utenti hanno accesso completo all&#39;oggetto senza diritti amministrativi (concessi a livello di accesso). Inoltre, dispongono di tutte le autorizzazioni Visualizza e Contribuisci.
 
      >[!NOTE]
      >
@@ -169,13 +169,7 @@ Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
 
    Puoi specificare le autorizzazioni per i progetti che verranno creati da un modello quando condividi il modello. Per ulteriori informazioni, vedere [Condividere modelli di progetto](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-1. (Condizionale) Per condividere l&#39;oggetto con utenti esterni, fare clic su **Copia collegamento**, quindi distribuire il collegamento agli utenti esterni.
-
-   Tutti gli utenti con il collegamento possono visualizzare l&#39;oggetto.
-
-   >[!CAUTION]
-   >
-   >Si consiglia di usare cautela quando si condivide con utenti esterni un oggetto contenente informazioni riservate. Questo consente loro di visualizzare le informazioni senza essere utenti di Workfront o parte dell’organizzazione.
+1. (Condizionale) Per condividere rapidamente l&#39;oggetto con gli utenti che hanno accesso, fare clic su **Copia collegamento**.
 
 1. Fai clic su **Salva**.
 
@@ -218,7 +212,7 @@ Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
    Sono disponibili le seguenti opzioni:
 
    * **Visualizzazione:** gli utenti possono esaminare e condividere l&#39;elemento.
-   * **Gestisci:** gli utenti hanno accesso completo all&#39;oggetto senza diritti amministrativi (concessi a livello di accesso). Inoltre, dispongono anche di tutte le autorizzazioni View (Visualizzazione) e Contribute (Visualizzazione).
+   * **Gestisci:** gli utenti hanno accesso completo all&#39;oggetto senza diritti amministrativi (concessi a livello di accesso). Inoltre, dispongono di tutte le autorizzazioni Visualizza e Contribuisci.
 
      >[!NOTE]
      >
@@ -288,18 +282,18 @@ Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
    Sono disponibili le seguenti opzioni:
 
    * **Visualizzazione:** gli utenti possono esaminare e condividere l&#39;elemento.
-   * **Contribute**: gli utenti possono eseguire aggiornamenti, registrare informazioni, apportare modifiche minori e condividere, oltre a tutte le autorizzazioni di visualizzazione.
+   * **Contributo**: gli utenti possono apportare aggiornamenti, registrare informazioni, apportare modifiche minori e condividere, oltre a tutte le autorizzazioni di visualizzazione.
 
      >[!TIP]
      >
-     >È possibile concedere autorizzazioni Contribute solo ai seguenti oggetti:
+     >Potete concedere le autorizzazioni Contribute solo ai seguenti oggetti:
      >
      >* Progetti
      >* Attività
      >* Problemi
      >
 
-   * **Gestisci:** gli utenti hanno accesso completo all&#39;oggetto senza diritti amministrativi (concessi a livello di accesso). Inoltre, dispongono anche di tutte le autorizzazioni View (Visualizzazione) e Contribute (Visualizzazione).
+   * **Gestisci:** gli utenti hanno accesso completo all&#39;oggetto senza diritti amministrativi (concessi a livello di accesso). Inoltre, dispongono di tutte le autorizzazioni Visualizza e Contribuisci.
 
      >[!NOTE]
      >
