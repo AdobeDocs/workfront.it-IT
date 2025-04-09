@@ -6,20 +6,20 @@ description: Puoi rivedere le metriche di approvazione nelle dashboard di Canvas
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 9c86cf877e0d1bbb0c4700dfc362062028496e3c
+source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '1991'
+source-wordcount: '1987'
 ht-degree: 1%
 
 ---
 
 # Creare un dashboard di report per la revisione e le approvazioni
 
-È possibile creare una dashboard di report nell’area Dashboard Canvas per visualizzare informazioni dettagliate e di alto livello su revisioni e approvazioni con la nuova funzionalità approvazioni documenti.
+Puoi creare una dashboard di rapporti nell’area Dashboard di Canvas per visualizzare informazioni dettagliate e di alto livello su revisioni e approvazioni con funzionalità di approvazione unificata.
 
 >[!IMPORTANT]
 >
->Questa funzionalità è disponibile solo per i clienti che utilizzano il nuovo servizio di approvazione dei documenti e sono iscritti alla versione beta di Canvas Dashboards.
+>Questa funzionalità è disponibile solo per i clienti che utilizzano il servizio di approvazione unificata e sono iscritti alla versione beta di Canvas Dashboards.
 
 
 ![dashboard di esempio](assets/whole-dashboard.png)

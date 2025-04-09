@@ -1,23 +1,23 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Utilizzare insieme nuove approvazioni di documenti e prove
-description: È possibile utilizzare le nuove approvazioni di documenti con la verifica.
+title: Utilizzare insieme approvazioni e prove unificate
+description: Puoi utilizzare le approvazioni unificate con la verifica.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '944'
 ht-degree: 0%
 
 ---
 
-# Utilizzare insieme nuove approvazioni di documenti e prove
+# Utilizzare insieme approvazioni e prove unificate
 
-Nuove approvazioni di documenti in Workfront introduce un nuovo set di funzioni per facilitare la revisione e l’approvazione dei documenti. È possibile utilizzare il nuovo flusso di lavoro approvazioni documenti con il visualizzatore di bozze esistente per aggiungere commenti e markup ai documenti in revisione.
+Le approvazioni unificate in Workfront introducono un nuovo set di funzioni che facilitano la revisione e l’approvazione dei documenti. È possibile utilizzare un flusso di lavoro di approvazione unificato con il visualizzatore di bozze esistente per aggiungere commenti e markup ai documenti in revisione.
 
-Esistono alcune differenze chiave nel flusso di lavoro quando si utilizzano insieme nuove approvazioni di documenti e prove:
+Esistono alcune differenze chiave nel flusso di lavoro quando si utilizzano insieme approvazioni unificate e verifiche:
 
 * I pulsanti di decisione non vengono visualizzati nel visualizzatore di bozze
 
