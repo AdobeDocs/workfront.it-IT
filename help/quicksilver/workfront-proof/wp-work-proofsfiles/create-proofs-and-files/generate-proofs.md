@@ -7,14 +7,16 @@ description: Workfront Proof consente di creare bozze da documenti o siti Web e 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+source-git-commit: 1443551b605dac6e53531c5d445b89517384fe11
 workflow-type: tm+mt
-source-wordcount: '2259'
-ht-degree: 0%
+source-wordcount: '1889'
+ht-degree: 2%
 
 ---
 
 # Genera bozze in [!DNL Workfront Proof]
+
+<!-- Audited: 4/2025 -->
 
 >[!IMPORTANT]
 >
@@ -22,26 +24,21 @@ ht-degree: 0%
 
 [!DNL Workfront Proof] consente di creare bozze da documenti o siti Web e di condividerle con altri utenti. I passaggi seguenti descrivono le varie opzioni di configurazione disponibili:
 
-## Generare una bozza per un documento
+## Generare una bozza da un documento
 
-1. Effettua una delle seguenti operazioni per iniziare a creare una nuova bozza e visualizzare la pagina [!UICONTROL New Proof]:
+1. Per aprire la pagina **[!UICONTROL Nuova bozza]**, eseguire una delle operazioni seguenti:
 
-   * Fai clic sul pulsante verde **[!UICONTROL Nuova bozza]** nell&#39;angolo superiore sinistro di qualsiasi pagina.
-   * Nell&#39;area **[!UICONTROL Dashboard]**, nella scheda **[!UICONTROL Panoramica]**, fare clic sul collegamento **[!UICONTROL Nuova bozza]**.
-
+   * Fai clic sul pulsante **[!UICONTROL Nuova bozza]** nell&#39;angolo superiore sinistro di qualsiasi pagina.
    * Invia tramite Dropzone (funzione Enterprise).
-   * Viene visualizzata la pagina **[!UICONTROL Nuova bozza]**.
 
-1. Per eseguire la bozza di uno o più documenti, aggiungete i documenti da sottoporre a bozza in uno dei seguenti modi (ripetete questo processo per aggiungere più documenti da sottoporre a bozza):
+1. Per eseguire la verifica di uno o più documenti, aggiungi i documenti da sottoporre a verifica in uno dei seguenti modi (ripeti questo processo per aggiungere più documenti):
 
    * Trascinare un documento dal file system nell&#39;area di trascinamento della selezione nell&#39;area **[!UICONTROL Aggiungi file]**.
-   * Fare clic nell&#39;area di trascinamento della selezione nell&#39;area **[!UICONTROL Aggiungi file]**, quindi cercare e selezionare il documento che si desidera caricare dal file system della workstation.
+   * Nell&#39;area **[!UICONTROL Aggiungi file]**, fare clic sul collegamento **Sfoglia** per trovare e selezionare il documento che si desidera caricare dal file system della workstation.
 
      ![proof_document_upload.png](assets/proof-document-upload-350x64.png)
 
-1. Per eseguire la verifica di uno o più siti Web, specificare l&#39;URL del sito Web da verificare nell&#39;area **[!UICONTROL Aggiungi file]**, quindi premere **[!UICONTROL Invio]**.
-
-1. (Facoltativo) Ripeti questa procedura per aggiungere più siti web alla bozza.
+1. Per effettuare la verifica di un sito Web, immetti l&#39;URL del sito Web nell&#39;area **[!UICONTROL Aggiungi file]**, quindi premi **[!UICONTROL Invio]**. Ripeti questo passaggio per aggiungere più siti web alla bozza.
 
    Per ulteriori dettagli sulla verifica dei siti Web, vedere [Generare una bozza per un URL](#generate-a-proof-for-a-url).
 
@@ -49,13 +46,13 @@ ht-degree: 0%
 
 1. (Facoltativo) Modifica i nomi dei file caricati:
 
-   1. Passa il puntatore del mouse sul nome del documento che desideri modificare nell&#39;elenco dei documenti nell&#39;area **[!UICONTROL Aggiungi file]**, quindi fai clic sull&#39;icona **[!UICONTROL Modifica]**.
+   1. Nell&#39;elenco dei documenti, passa il puntatore sul nome del documento che desideri modificare, quindi fai clic sull&#39;icona **[!UICONTROL Modifica]**.
 
       ![modifica_bozza.png](assets/proof-edit-350x53.png)
 
    1. Nel campo **[!UICONTROL Nome bozza]**, specifica un nuovo nome, quindi fai clic su **[!UICONTROL Fine]**.
 
-   1. (Facoltativo) Per eliminare i file da caricare, passa il puntatore del mouse sul documento da eliminare nell&#39;elenco dei documenti nell&#39;area **[!UICONTROL Aggiungi file]**, quindi fai clic sull&#39;icona **[!UICONTROL Elimina]**.
+   1. (Facoltativo) Per eliminare i file da caricare, passa il cursore del mouse sul documento da eliminare nell&#39;elenco dei documenti, quindi fai clic sull&#39;icona **[!UICONTROL Elimina]**.
 
       ![proof_delete.png](assets/proof-delete-350x53.png)
 
@@ -72,14 +69,14 @@ ht-degree: 0%
       Per combinare tutti i file e i siti web caricati in un’unica bozza:
 
       1. Abilita l&#39;opzione **[!UICONTROL Combina tutti i file compatibili in un&#39;unica bozza]**.
-      1. Nel campo **[!UICONTROL Nome bozza]**, specifica un nuovo nome per la bozza combinata.
+      1. Nel campo **[!UICONTROL Nome bozza]** immettere un nuovo nome per la bozza combinata.
       1. Nell&#39;area **[!UICONTROL Aggiungi file]**, riordinare i file inclusi trascinandoli nell&#39;ordine desiderato. L’ordine dei file è l’ordine di pagina della bozza combinata. Per ulteriori informazioni sulla creazione di bozze combinate, vedere [Creare una bozza multipagina](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md).
 
-1. (Facoltativo) Se desideri utilizzare un flusso di lavoro automatizzato che includa più fasi, nella sezione **[!UICONTROL Flusso di lavoro]** seleziona una delle opzioni seguenti:
+1. (Facoltativo) Se desideri utilizzare un flusso di lavoro automatizzato che include più fasi, seleziona una delle seguenti opzioni nella sezione **[!UICONTROL Flusso di lavoro]**:
 
    * **Base:** Selezionare questa opzione per indicare gli utenti ai quali si desidera consentire l&#39;accesso alla bozza subito dopo la creazione. Puoi condividere la bozza con più utenti.
 
-     Per ulteriori informazioni sulla condivisione di una bozza, vedere &quot;Aggiunta di utenti a una bozza&quot; in [Condividi una bozza in [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+     Per ulteriori informazioni sulla condivisione di una bozza, vedere [Condividere una bozza in [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
    * **Automatizzato:** Selezionare questa opzione per gestire la revisione e l&#39;approvazione del contenuto quando si utilizzano processi di revisione complessi o se si inviano regolarmente contenuti per la revisione agli stessi gruppi di persone. Con un flusso di lavoro automatizzato, la bozza si sposta da una fase all’altra fino all’approvazione finale. Gli utenti interessati vengono avvisati ogni volta che sono tenuti a effettuare un’approvazione.
 
@@ -98,96 +95,81 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Accesso necessario: la bozza può essere condivisa solo con altri utenti</td> 
-      <td> <p><strong>Accesso richiesto - la bozza può essere condivisa solo con altri utenti:</strong> Se questa opzione è selezionata, solo [!DNL Workfront Proof] utenti possono visualizzare la bozza.</p> <p>Questa opzione è disabilitata per impostazione predefinita; qualsiasi persona con l’URL può visualizzare la bozza.</p> <p>Quando questa opzione è selezionata:</p> 
+      <td role="rowheader">Accesso obbligatorio. Impossibile condividere questa bozza con altri utenti</td> 
+      <td> <p>Quando questa opzione è selezionata:</p> 
        <ul> 
-        <li>Gli utenti non possono accedere alla bozza a meno che non siano stati aggiunti alla bozza.</li> 
+        <li>Gli utenti non possono accedere alla bozza per visualizzarla a meno che non siano stati aggiunti a essa.</li> 
         <li>Le sottoscrizioni non possono essere abilitate.</li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Per questa bozza è necessaria una sola decisione</td> 
-      <td> <p>Quando questa opzione è selezionata, la revisione viene completata dopo che un decisore prende la sua decisione.</p> <p>Questa opzione è disabilitata per impostazione predefinita.</p> </td> 
+       </ul> 
+       <p>Questa opzione è disabilitata per impostazione predefinita.</p> 
+       </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Richiedi la firma elettronica per le decisioni</td> 
-      <td>Gli utenti devono specificare il nome utente e la password nel momento in cui prendono una decisione sulla bozza.</td> 
+      <td><p>Quando questa opzione è selezionata, gli utenti devono specificare il nome utente e la password al momento della decisione su una bozza.</p>
+      <p>Questa opzione è disabilitata per impostazione predefinita.</p>
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Blocca la bozza quando vengono prese tutte le decisioni necessarie</td> 
-      <td> <p><strong></strong> Quando questa impostazione è abilitata, lo stato della bozza viene bloccato dopo che tutte le decisioni sono state prese. Lo stato viene automaticamente modificato da sbloccato a bloccato quando l'approvatore finale prende la sua decisione.</p> <p>Questa opzione è disabilitata per impostazione predefinita.</p> </td> 
+      <td> <p>Quando questa impostazione è abilitata, lo stato della bozza viene bloccato dopo che tutte le decisioni sono state prese. Lo stato viene automaticamente modificato da sbloccato a bloccato quando l'approvatore finale prende la sua decisione.</p> 
+      <p>Questa opzione è disabilitata per impostazione predefinita.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Scarica il file originale</td> 
-      <td> <p><strong></strong> Quando questa opzione è selezionata, i revisori possono scaricare il file originale da cui è stata creata la bozza.</p> <p>Quando questa opzione è deselezionata, l’icona Scarica non è più visibile.<br>Questa opzione è attivata per impostazione predefinita.</p> </td> 
+      <td role="rowheader">Consenti il download del file originale</td> 
+      <td> <p><strong></strong> Quando questa opzione è selezionata, i revisori possono scaricare il file originale da cui è stata creata la bozza.</p> <p>Quando questa opzione è deselezionata, l’icona Scarica non è più visibile.</p>
+      <p>Questa opzione è attivata per impostazione predefinita.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Condividere una bozza tramite un URL pubblico o un codice incorporato</td> 
-      <td>Quando questa opzione è selezionata, la bozza può essere condivisa tramite un URL pubblico o un codice di incorporamento.</td> 
+      <td role="rowheader">Consenti la condivisione bozza tramite URL pubblico o codice integrato</td> 
+      <td><p>Quando questa opzione è selezionata, la bozza può essere condivisa tramite un URL pubblico o un codice di incorporamento.</p>
+       <p>Questa opzione è attivata per impostazione predefinita.</p>
+      </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Iscriviti alla bozza tramite URL pubblico o codice di incorporamento</td> 
-      <td> <p>Quando questa opzione è selezionata, le persone che non sono state aggiunte esplicitamente alla bozza possono abbonarsi alla bozza. Alla persona che si abbona alla bozza vengono assegnati il ruolo e l’e-mail definiti nelle seguenti impostazioni:</p> 
+      <td role="rowheader">Consenti l’iscrizione alla bozza tramite un URL pubblico o un codice di incorporamento</td> 
+      <td> <p>Quando questa opzione è selezionata, gli utenti che non sono stati aggiunti alla bozza possono effettuare la sottoscrizione alla bozza. Alla persona che si abbona alla bozza vengono assegnati il ruolo e l’e-mail definiti nelle seguenti impostazioni:</p> 
        <ul> 
         <li><strong>Ruolo sottoscrittore</strong>: ruolo bozza predefinito assegnato a tutti i revisori che sottoscrivono la bozza.</li> 
         <li><strong>Impostazioni degli avvisi e-mail per i sottoscrittori</strong>: L'avviso e-mail predefinito assegnato a tutti i revisori che si abbonano alla bozza.</li> 
-        <li> <p><strong>Accesso alla bozza tramite collegamento e-mail richiesto per</strong>: configurare se il sottoscrittore riceve un'e-mail con un collegamento alla bozza. È possibile selezionare <strong>Nessuna e-mail</strong> (il collegamento e-mail non è necessario per accedere alla bozza), <strong>Solo e-mail notifica bozza</strong> (l'abbonato riceve un collegamento alla bozza tramite e-mail senza alcuna verifica) o <strong>E-mail di notifica convalida e bozza</strong> (l'abbonato riceve un collegamento alla bozza tramite e-mail e deve fare clic sul collegamento per accedere a una bozza; lo scopo di questa opzione è garantire che l'utente abbia immesso un indirizzo e-mail corretto al quale ha accesso).</p> <p>Nota: se alle bozze è allegato un flusso di lavoro automatico, tutti gli abbonamenti genereranno e-mail di conferma al proprietario della bozza, in modo che possa decidere a quale fase aggiungere la persona.</p> </li> 
-       </ul> </td> 
+        <li> <p><strong>Accesso alla bozza tramite collegamento e-mail richiesto per</strong>: configurare se il sottoscrittore riceve un'e-mail con un collegamento alla bozza. È possibile selezionare <strong>Nessuna e-mail</strong> (il collegamento e-mail non è necessario per accedere alla bozza), <strong>Solo e-mail di notifica bozza</strong> (l'abbonato riceve un collegamento alla bozza tramite e-mail senza alcuna verifica) o <strong>E-mail di notifica convalida e bozza</strong> (l'abbonato riceve un collegamento alla bozza tramite e-mail e deve fare clic sul collegamento per accedere a una bozza. Lo scopo di questa opzione è garantire che la persona abbia inserito un indirizzo e-mail corretto a cui ha accesso).</p> <p>Nota: se alle bozze è allegato un flusso di lavoro automatico, tutte le sottoscrizioni genereranno e-mail di conferma al proprietario della bozza in modo che possa decidere a quale fase deve essere aggiunta la persona.</p> </li> 
+       </ul> 
+        <p>Questa opzione è disabilitata per impostazione predefinita.</p>
+       </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Fare clic su **[!UICONTROL Crea bozza]**.
+1. Fare clic su **[!UICONTROL Crea bozza]**. Workfront genera una bozza dei documenti o dei siti Web selezionati.
 
-   Workfront inizia a generare una bozza dei documenti o dei siti web selezionati. A seconda delle dimensioni e del tipo di file, il tempo di ritardo per il caricamento di un documento varia. Attendi, poiché la generazione di file più grandi richiede più tempo. Puoi spostarti dalla pagina e Workfront continua a generare il file. La dimensione massima per il caricamento dei file è di 4 GB.
+   Il tempo di ritardo per il caricamento di un documento varia a seconda delle dimensioni e del tipo di file. La generazione di file più grandi richiede più tempo. Puoi spostarti dalla pagina man mano che Workfront continua a generare il file. La dimensione massima per il caricamento dei file è di 4 GB.
 
-   Dopo aver generato la bozza, fare clic su **[!UICONTROL Vai alla bozza]** per avviare lo strumento di bozza.
+## Generare una bozza statica con un URL {#generate-a-proof-for-a-url}
 
-   ![Schermata_2018-05-16_08-59-34.png](assets/screenshot-2018-05-16-08-59-34-350x134.png)
-
-   Il documento viene visualizzato nello strumento di correzione.
-
-   Gli utenti che non dispongono di un account di verifica abilitato possono comunque visualizzare il documento e aggiungere commenti alla bozza.
-
-## Generare una bozza per un URL {#generate-a-proof-for-a-url}
-
-Puoi generare una bozza per un URL per la prima volta. In alternativa, puoi generare una nuova versione di una bozza URL in cui è stata precedentemente generata una bozza.
+Puoi generare una bozza statica utilizzando un URL del sito web.
 
 >[!NOTE]
 >
->È possibile generare una bozza interattiva per un URL solo se l&#39;ambiente [!DNL Workfront] è integrato con un account Premium [!DNL Workfront Proof]. Se non è possibile utilizzare la verifica come descritto in questa sezione, contattare l&#39;amministratore di sistema.
+>È possibile generare una bozza interattiva per un URL solo se l&#39;ambiente [!DNL Workfront] è integrato con un account Premium [!DNL Workfront Proof]. Se non è possibile utilizzare gli strumenti di correzione come descritto in questa sezione, contattare l&#39;amministratore di Workfront.
 
-Per generare una bozza per un URL:
+1. Per aprire la pagina **[!UICONTROL Nuova bozza]**, eseguire una delle operazioni seguenti:
 
-1. Effettua una delle seguenti operazioni per iniziare a creare una nuova bozza e visualizzare la pagina [!UICONTROL New Proof]:
-
-   * Fai clic sul pulsante verde **[!UICONTROL Nuova bozza]** nell&#39;angolo superiore sinistro di qualsiasi pagina.
-   * Nell&#39;area **[!UICONTROL Dashboard]**, nella scheda **[!UICONTROL Panoramica]**, fare clic sul collegamento **[!UICONTROL Nuova bozza]**.
-
+   * Fai clic sul pulsante **[!UICONTROL Nuova bozza]** nell&#39;angolo superiore sinistro di qualsiasi pagina.
    * Invia tramite Dropzone (funzione Enterprise).
 
-1. (Condizionale) Nella pagina **[!UICONTROL Nuova bozza]** visualizzata, per creare una nuova versione di una bozza esistente:
-
-   1. Seleziona la bozza URL in cui desideri aggiungere una nuova versione.
-   1. Fai clic sul pulsante **[!UICONTROL Nuova versione]** nella parte superiore della pagina.
-
-      ![Schermata_2018-05-15_10-59-56.png](assets/screenshot-2018-05-15-10-59-56-350x80.png)
-
-1. Nella pagina Nuova versione di bozza visualizzata, specifica l&#39;URL del sito Web che desideri verificare nell&#39;area **[!UICONTROL Aggiungi file]**, quindi premi **[!UICONTROL Invio]**.
+1. Nella pagina **Nuova bozza**, immetti l&#39;URL del sito Web dal quale desideri creare una bozza nell&#39;area **[!UICONTROL Aggiungi file]**, quindi premi **[!UICONTROL Invio]** o **[!UICONTROL Ritorno]** sulla tastiera.
 
 1. (Facoltativo) Ripeti questa procedura per aggiungere più siti web alla bozza.
 
    ![proof_website.png](assets/proof-website-350x65.png)
 
-1. Fare clic sul sito Web nell&#39;elenco dei documenti nell&#39;area **[!UICONTROL Aggiungi file]**.
+1. Nell&#39;area **[!UICONTROL Aggiungi file]**, fare clic sull&#39;icona **Modifica** a destra dell&#39;URL per aprire i dettagli della bozza del sito Web.
 
    ![proof_upload_website_modify.png](assets/proof-upload-website-modify-350x185.png)
 
-1. Specificare un **[!UICONTROL nome bozza]** per la bozza.
+1. Immetti un **[!UICONTROL nome bozza]**. Per impostazione predefinita, il nome della bozza è lo stesso dell’URL del sito.
 
-   Per impostazione predefinita, il nome della bozza è lo stesso dell’URL del sito.
-
-1. Selezionare **[!UICONTROL Gestione contenuto sito]** opzioni:
+1. Selezionare una delle seguenti **[!UICONTROL opzioni per la gestione del contenuto del sito]**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -199,7 +181,7 @@ Per generare una bozza per un URL:
      </tr> 
      <tr> 
       <td role="rowheader">Interattiva</td> 
-      <td> <p>Crea una bozza che consente ai revisori di navigare nel sito, visualizzare immagini HTML5, elementi del Flash e così via.</p> <p>Per creare una bozza interattiva, il sito web deve essere ospitato con un protocollo sicuro (https). Inoltre, i siti web che non possono essere incorporati in un iframe non possono essere generati come bozza interattiva (le restrizioni di incorporamento di iframe sono controllate dal sito web che si sta tentando di incorporare).</p> <p>Dopo la creazione della bozza iniziale, questa impostazione non può essere modificata durante la creazione di versioni successive.</p> <p>Per ulteriori informazioni sulla verifica interattiva, vedere <a href="#generate-a-proof-for-interactive-content" class="MCXref xref">Generare una bozza per il contenuto interattivo</a>.</p> </td> 
+      <td> <p>Crea una bozza che consente ai revisori di navigare nel sito, visualizzare immagini HTML5, elementi Flash e così via.</p> <p>Per creare una bozza interattiva, il sito web deve essere ospitato con un protocollo sicuro (https). Inoltre, i siti web che non possono essere incorporati in un iframe non possono essere generati come bozza interattiva (le restrizioni di incorporamento iframe sono controllate dal sito web che si sta tentando di incorporare).</p> <p>Dopo la creazione della bozza iniziale, questa impostazione non può essere modificata durante la creazione di versioni successive.</p> <p>Per ulteriori informazioni sulla verifica interattiva, vedere <a href="#generate-a-proof-for-interactive-content" class="MCXref xref">Generare una bozza per il contenuto interattivo</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Risoluzione schermata</td> 
@@ -207,7 +189,7 @@ Per generare una bozza per un URL:
      </tr> 
      <tr> 
       <td role="rowheader">Cerca pagine secondarie</td> 
-      <td>Questa opzione non è disponibile per le bozze interattive. Seleziona questa opzione per navigare tra le pagine del sito web. Puoi espandere il sito web fino a 2 livelli di profondità dalla pagina principale. Passa il puntatore del mouse su una pagina per visualizzarne l’URL. Seleziona solo le pagine per le quali desideri eseguire la verifica. Per impostazione predefinita, ogni pagina selezionata viene creata come una singola bozza; oppure, abilita l'opzione <strong>Combina in una singola bozza</strong> per combinare tutte le pagine selezionate in un'unica bozza.</td> 
+      <td>Questa opzione non è disponibile per le bozze interattive. Seleziona questa opzione per navigare tra le pagine del sito web. Puoi espandere il sito web fino a 2 livelli di profondità dalla pagina principale. Passa il puntatore del mouse su una pagina per visualizzare l’URL della pagina e seleziona solo le pagine che desideri verificare. Per impostazione predefinita, ogni pagina selezionata viene creata come una singola bozza. In alternativa, è possibile abilitare l'opzione <strong>Combina tutti i file compatibili in un'unica bozza</strong>.</td> 
      </tr> 
     </tbody> 
    </table>
@@ -220,13 +202,11 @@ Per generare una bozza per un URL:
 
 1. Fai clic su **[!UICONTROL Fine]**.
 
-   Se stai aggiungendo una nuova versione a una bozza URL esistente, tutte le opzioni configurate sulla bozza originale o sulla versione precedente vengono mantenute in questa versione. Se stai aggiungendo una nuova versione a una bozza URL esistente, tutte le opzioni configurate sulla bozza originale o sulla versione precedente vengono mantenute in questa versione.
-
 1. Fare clic su **[!UICONTROL Crea bozza]**.
 
 ## Generare una bozza per il contenuto interattivo {#generate-a-proof-for-interactive-content}
 
-Per utilizzare questa funzione è necessario un piano Pro Workfront o superiore. Per ulteriori informazioni sui vari piani disponibili, vedere [Piani Workfront](https://www.workfront.com/plans).
+<!--A Pro Workfront Plan or higher is required to use this feature. For more information about the various plans available, see [Workfront Plans](https://www.workfront.com/plans).-->
 
 Per ulteriori informazioni sul contenuto interattivo, vedere [Panoramica delle bozze del contenuto interattivo](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
@@ -241,25 +221,20 @@ Per informazioni su come aggiungere una bozza URL interattiva, vedere [Generare 
 
 1. Prepara il contenuto creando un file .zip.
 
-   Per informazioni sulle specifiche dei file con bundle .zip, vedere [Informazioni sulla preparazione del contenuto interattivo in un file ZIP per la verifica](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md#howtoprepareaninteractiveziparchive) nell&#39;articolo [Panoramica delle bozze dei contenuti interattivi](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+   Per informazioni sulle specifiche dei file con bundle .zip, consulta [Panoramica delle bozze interattive dei contenuti](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
-1. Effettua una delle seguenti operazioni per iniziare a creare una nuova bozza e visualizzare la pagina [!UICONTROL New Proof]:
+1. Per aprire la pagina **[!UICONTROL Nuova bozza]**, eseguire una delle operazioni seguenti:
 
-   * Fai clic sul pulsante verde **[!UICONTROL Nuova bozza]** nell&#39;angolo superiore sinistro di qualsiasi pagina.
-   * Nell&#39;area **[!UICONTROL Dashboard]**, nella scheda **[!UICONTROL Panoramica]**, fare clic sul collegamento **[!UICONTROL Nuova bozza]**.
-
+   * Fai clic sul pulsante **[!UICONTROL Nuova bozza]** nell&#39;angolo superiore sinistro di qualsiasi pagina.
    * Invia tramite Dropzone (funzione Enterprise).
 
-1. Nella pagina **[!UICONTROL Nuova bozza]** visualizzata, trascina e rilascia il pacchetto .zip interattivo nell&#39;area **[!UICONTROL Aggiungi file]**.
+1. Nella pagina **[!UICONTROL Nuova bozza]**, trascina e rilascia il bundle .zip interattivo nell&#39;area **[!UICONTROL Aggiungi file]**.
 
 1. (Facoltativo) Configura le opzioni di verifica avanzate, ad esempio la condivisione della bozza, l’aggiunta di un flusso di lavoro automatizzato o la configurazione delle impostazioni di accesso e abbonamento. Per ulteriori dettagli su queste opzioni, vedi i seguenti articoli:
 
    * [Condividi bozza in [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
-   * nell’articolo
    * [Configurare le impostazioni di accesso e abbonamento per una bozza](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
 
-1. Fare clic su **[!UICONTROL Crea bozza]**.
+1. Fare clic su **[!UICONTROL Crea bozza]**. Workfront genera una bozza del file zip.
 
-   Workfront inizia a generare una bozza del bundle .zip. A seconda delle dimensioni del bundle, il tempo di ritardo per il caricamento di un documento varia. La generazione di file più grandi richiede più tempo. Puoi spostarti dalla pagina e Workfront continua a generare il file. La dimensione massima per il caricamento dei file è di 4 GB.
-
-   Dopo la generazione della bozza, è possibile fare clic sul pulsante **[!UICONTROL Vai alla bozza]** che viene visualizzato per aprire la bozza.
+   Il tempo di ritardo per il caricamento di un documento varia a seconda delle dimensioni del file zip. Puoi spostarti dalla pagina man mano che Workfront continua a generare il file. La dimensione massima per il caricamento dei file è di 4 GB.
