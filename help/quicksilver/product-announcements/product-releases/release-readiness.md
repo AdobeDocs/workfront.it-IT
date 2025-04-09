@@ -1,15 +1,15 @@
 ---
 content-type: release-notes
 navigation-topic: product-announcements
-title: Prepararsi per una versione  [!DNL Adobe Workfront]
+title: 'Prepararsi per una versione  [!DNL Adobe Workfront] '
 description: Segui questi suggerimenti per aggiornare facilmente la tua organizzazione per ogni nuova versione di Workfront.
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1233'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ Quando ti prepari a comunicare le informazioni sulla versione agli utenti, consi
 * Newsletter interne
 * E-mail
 * Messaggi del Centro notifiche (inoltrati da [!DNL Workfront] o creati da te)
-* Annunci sugli strumenti di collaborazione, ad esempio [!DNL Slack] o [!DNL Microsoft Teams]
+* Annunci sugli strumenti di collaborazione, ad esempio [!DNL Slack]
 * Webinar o corsi di formazione interni
 
 È possibile scegliere l&#39;equilibrio tra [!DNL Workfront] risorse (ad esempio documentazione, note sulla versione e formazione) con informazioni più personalizzate in base alle esigenze e ai flussi di lavoro della propria organizzazione. Mostrare agli utenti come le nuove funzionalità possono migliorare il loro lavoro o risparmiare tempo ed energia aiuterà gli utenti ad accettare le modifiche, ma puoi risparmiare tempo utilizzando le demo o la documentazione già disponibile tramite [!DNL Workfront].

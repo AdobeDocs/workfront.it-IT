@@ -1,15 +1,15 @@
 ---
 product-area: workfront-integrations
-keywords: adobe,box,dropbox,gsuite,google,jira,microsoft,salesforce,sharepoint,slack,webdam,zoom
+keywords: adobe, box, dropbox, gsuite, google, jira, microsoft, salesforce, sharepoint, slack, webdam, zoom
 navigation-topic: workfront-integrations-navigation-topic
 title: Panoramica delle integrazioni integrate di Adobe Workfront
 description: Puoi integrare [!DNL Adobe Workfront] con applicazioni di terze parti. Queste integrazioni possono estendere l'utilità di  [!DNL Workfront]  e personalizzarla in base alle esigenze della tua organizzazione. Ad esempio, se sei un lavoratore creativo nel settore del marketing, puoi utilizzare il componente aggiuntivo Adobe Creative Cloud per esportare le risorse direttamente da Photoshop a Workfront.
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 502e3fae874df91d4699867dcd25812659a3ffdf
+source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '539'
 ht-degree: 3%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 3%
 
 <!-- Audited: 12/2023 -->
 
-È possibile integrare [!DNL Adobe Workfront] con applicazioni di terze parti e altri prodotti [!DNL Adobe]. Queste integrazioni possono estendere l&#39;utilità di [!DNL Workfront] e adattarla alle esigenze della tua organizzazione. Ad esempio, se sei un lavoratore creativo nel settore del marketing, puoi utilizzare il plug-in [!DNL Adobe Workfront] per le applicazioni [!DNL Creative Cloud] per esportare le risorse direttamente da Photoshop a Workfront.
+È possibile eseguire l&#39;integrazione [!DNL Adobe Workfront] con applicazioni di terze parti e altri [!DNL Adobe] prodotti. Queste integrazioni possono estendere l&#39;utilità e [!DNL Workfront] adattarla alle esigenze della tua organizzazione. Ad esempio, se si lavora creativo nel settore marketing, è possibile utilizzare il [!DNL Adobe Workfront] plugin for [!DNL Creative Cloud] applications per esportare risorse direttamente da Photoshop a Workfront.
 
-L&#39;amministratore di [!DNL Workfront] deve abilitare e configurare le integrazioni incorporate prima che sia possibile utilizzarle. Per informazioni sulle integrazioni incorporate utilizzate nell&#39;organizzazione, contattare l&#39;amministratore [!DNL Workfront].
+L&#39;amministratore [!DNL Workfront] deve abilitare e configurare le integrazioni incorporate prima di poterle utilizzare. Per informazioni sulle integrazioni predefinite utilizzate all&#39;interno dell&#39;organizzazione, contatta l&#39;amministratore [!DNL Workfront] .
 
 ## Integrazioni integrate disponibili
 
@@ -44,31 +44,31 @@ Le seguenti integrazioni integrate sono attualmente disponibili in Workfront.
      <li>After Effects </li>
      </ul>
      <li><p>Scarica/installa da <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
-     <p>Per informazioni e istruzioni, vedere <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Installare il plug-in [!DNL Adobe Workfront] per [!DNL Creative Cloud] applicazioni</a>.</p> </td> 
+     <p>Per informazioni e istruzioni, vedere <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Installare il  [!DNL Adobe Workfront] plugin for [!DNL Creative Cloud] Applications</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>ADOBE EXPERIENCE MANAGER ASSETS e ASSETS ESSENTIALS </p>  </p> </td> 
+   <td role="rowheader"> <p>Adobe Experience Manager Assets e Assets Essentials </p>  </p> </td> 
    <td> 
     <ul> 
-     <li>Creazione automatica di cartelle collegate tra Workfront e Adobe Experience Manager 
+     <li>Crea automaticamente cartelle collegate tra Workfront e Adobe Experience Manager 
       <li>Sincronizza metadati per risorse collegate esistenti</p></li>
       <li>Aggiorna automaticamente metatada portfolio, programma, progetto, attività, problema e documenti quando viene modificato in Workfront.</li>
-      <li>Collegare in modo semplice più archivi Experience Manager Assets a un ambiente Workfront o più ambienti Workfront a un archivio Experience Manager Assets tra gli ID organizzazione</li></ul>
-     <p>Per informazioni e istruzioni, consulta <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Panoramica delle integrazioni Adobe Experience Manager Assets</a></p> 
+      <li>Connettere senza problemi diversi repository Assets Experience Manager a un ambiente Workfront o diversi ambienti Workfront a un Experience Manager Assets archivio tra ID organizzazione</li></ul>
+     <p>Per informazioni e istruzioni, consulta <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Panoramica delle integrazioni di Adobe Experience Manager Assets</a></p> 
      </td>
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Box</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
    <td> 
     <ul> 
-     <li>Collega documenti e cartelle a [!DNL Workfront]</li> 
+     <li>Collegare documenti e cartelle a [!DNL Workfront]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Dropbox</p> <p> <img src="assets/dropbox-1-logo-png-transparent.png"> </p> </td> 
    <td> 
     <ul> 
-     <li>Collega documenti e cartelle a [!DNL Workfront]</li> 
+     <li>Collegare documenti e cartelle a [!DNL Workfront]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -115,12 +115,12 @@ Le seguenti integrazioni integrate sono attualmente disponibili in Workfront.
     <ul> 
      <li>Aggiornare un progetto, un’attività o un problema esistente con le informazioni contenute in un messaggio e-mail </li> 
      <li>Converti le e-mail in [!DNL Workfront] elementi direttamente dalla casella in entrata </li> 
-     <li>Creare nuove attività da un messaggio e-mail </li> 
+     <li>Crea nuove attività da un'e-mail </li> 
      <li>Commento su [!DNL Workfront] elementi </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p> </td> 
+   <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p><b>NOTA</b>: a partire dal 1° luglio 2025, Microsoft rimuoverà il supporto per l'app desktop Classic Teams. Di conseguenza, l’integrazione di Workfront con Microsoft Teams non sarà supportata una volta che l’app desktop Classic Teams non sarà più disponibile. </p> </td> 
    <td> 
     <ul> 
      <li>Ottieni [!DNL Workfront] notifiche in [!DNL Microsoft Teams] </li> 
@@ -135,14 +135,14 @@ Le seguenti integrazioni integrate sono attualmente disponibili in Workfront.
    <td> 
     <ul> 
      <li>Crea nuove [!DNL Workfront] richieste da [!DNL Salesforce] </li> 
-     <li>Crea [!DNL Workfront] progetti da [!DNL Salesforce]</li> 
+     <li>[!DNL Workfront] Crea progetti da [!DNL Salesforce]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Sharepoint</p> <p> <img src="assets/sharepoint.png"> </p> </td> 
    <td> 
     <ul> 
-     <li>Collega documenti e cartelle a [!DNL Workfront]</li> 
+     <li>Collegare documenti e cartelle a [!DNL Workfront]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -151,15 +151,15 @@ Le seguenti integrazioni integrate sono attualmente disponibili in Workfront.
     <ul> 
      <li>Ricevi [!DNL Workfront] notifiche in [!DNL Slack] </li> 
      <li>Gestire le approvazioni in Slack </li> 
-     <li>Crea [!DNL Workfront] attività e problemi da [!DNL Slack] </li> 
-     <li>Pubblicare commenti in un progetto o attività da uno Slack</li> 
+     <li>[!DNL Workfront] Crea attività e problemi da[!DNL Slack] </li> 
+     <li>Post commenti a un progetto o un'attività da Slack</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Webdam</p> <p> <img src="assets/webdam-logo.png"> </p> </td> 
    <td> 
     <ul> 
-     <li>Collega documenti e cartelle a [!DNL Workfront]</li> 
+     <li>Collegare documenti e cartelle a [!DNL Workfront]</li> 
     </ul> </td> 
   </tr> 
   <tr> 

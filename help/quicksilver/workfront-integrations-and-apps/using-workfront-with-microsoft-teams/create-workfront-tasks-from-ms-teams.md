@@ -2,13 +2,13 @@
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
 title: Crea [!DNL Adobe Workfront] attività da [!DNL Microsoft] Team
-description: Puoi creare attività personali in Adobe [!DNL Workfront] da Microsoft Teams se un proprietario del team ha installato e configurato [!DNL Workfront] per Microsoft Teams del team e hai effettuato l'accesso a Workfront da Microsoft Teams.
+description: Puoi creare attività personali in Adobe [!DNL Workfront] da Microsoft Teams se un proprietario del team ha installato e configurato [!DNL Workfront] Microsoft Teams per il tuo team e hai effettuato l'accesso a Workfront da Microsoft Teams.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->L’integrazione di Adobe Workfront for Microsoft Teams è attualmente supportata solo per l’esperienza di Microsoft Teams classica.
+>A partire dal 1° luglio 2025, Microsoft rimuoverà il supporto per l’app desktop Classic Teams. Di conseguenza, l’integrazione di Workfront con Microsoft Teams non sarà supportata dopo che l’app desktop Classic Teams non sarà più disponibile.
 
 ## Requisiti di accesso
 

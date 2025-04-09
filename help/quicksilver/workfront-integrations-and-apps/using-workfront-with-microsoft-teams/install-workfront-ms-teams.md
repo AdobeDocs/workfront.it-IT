@@ -1,14 +1,14 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: workfront-for-microsoft-teams
-title: Installa  [!DNL Adobe Workfront]  per Microsoft Teams
+title: Installa [!DNL Adobe Workfront] per Microsoft Teams
 description: L'app  [!DNL Adobe Workfront for Microsoft Teams] ti consente di eseguire azioni di base in [!DNL Workfront] senza uscire dai tuoi [!DNL Microsoft Teams] canali di chat.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->L’integrazione di Adobe Workfront for Microsoft Teams è attualmente supportata solo per l’esperienza di Microsoft Teams classica.
+>A partire dal 1° luglio 2025, Microsoft rimuoverà il supporto per l’app desktop Classic Teams. Di conseguenza, l’integrazione di Workfront con Microsoft Teams non sarà supportata dopo che l’app desktop Classic Teams non sarà più disponibile.
 
 
 L&#39;app [!DNL Adobe Workfront for Microsoft Teams] consente di eseguire le azioni di base in [!DNL Workfront] senza uscire dai canali di chat di [!DNL Microsoft Teams].
@@ -93,7 +93,7 @@ In qualità di proprietario del team in [!DNL Microsoft Teams], puoi installare 
 
 1. Fare clic su **[!UICONTROL Accedi a[!DNL Workfront]]** per accedere a [!DNL Workfront from Microsoft Teams].
 
-   Per informazioni sull&#39;accesso a [!DNL Workfront], vedere la sezione [Accesso a Workfront dai Microsoft Teams](#log-in-to-workfront-from-microsoft-teams) in questo articolo.
+   Per informazioni sull&#39;accesso a [!DNL Workfront], vedere la sezione [Accesso a Workfront da Microsoft Teams](#log-in-to-workfront-from-microsoft-teams) in questo articolo.
 
 ### Installa [!DNL Workfront for Microsoft Teams] da un file privato
 
