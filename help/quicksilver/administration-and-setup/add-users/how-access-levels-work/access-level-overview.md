@@ -10,21 +10,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: d50ff253b0557c282496deae2a488cff4ab71775
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1720'
 ht-degree: 5%
 
 ---
 
 # Panoramica dei nuovi livelli di accesso
 
-In qualità di amministratore di Adobe Workfront, puoi assegnare un livello di accesso a un utente per due scopi:
+In qualità di amministratore di Adobe Systems Workfront, puoi assegnare un livello di accesso a un utente per 2 scopi:
 
-* Per accedere e lavorare in Workfront, ogni utente deve disporre di un livello di accesso.
-* Il livello di accesso consente di controllare cosa un utente può vedere e cosa può fare con determinati oggetti e aree di Workfront.
+* Ogni utente deve avere un livello accesso per poter accedere e lavorare in Workfront.
+* È possibile utilizzare il livello accesso per controllare ciò che un utente può vedere e fare con determinati oggetti e aree di Workfront.
 
-## Nuovi livelli di accesso incorporati in Adobe Workfront {#built-in-access}
+## Nuovo livelli di accesso incorporati in Adobe Systems Workfront {#built-in-access}
 
 Workfront dispone di 5 nuovi livelli di accesso incorporati:
 
@@ -94,34 +94,34 @@ Di seguito sono riportate le impostazioni di accesso più elevate disponibili pe
 | Problemi |   |   | ✓ |
 | Portfolio |   |   | ✓ |
 | Programmi |   |   | ✓ |
-| Report (inclusi dashboard e report calendario) |   |   | ✓ |
+| Report (inclusi dashboard e rapporti calendario) |   |   | ✓ |
 | Filtri, viste e raggruppamenti |   |   | ✓ |
 | Documenti |   |   | ✓ |
 | Utenti |   |   | ✓ |
 | Modelli |   |   | ✓ |
 | Dati finanziari |   |   | ✓ |
 | Gestione risorse |   |   | ✓ |
-| Pianificazione scenario |   |   | ✓ (l&#39;impostazione predefinita è Nessun accesso). |
+| Pianificazione scenario |   |   | ✓ (L&#39;impostazione predefinita è Nessun accesso.) |
 | Bacheche |   |   | ✓ |
 | Pagina Home |   |   | ✓ |
 | Obiettivi |   |   | ✓ |
 
 {style="table-layout:auto"}
 
-### Livello di accesso alla luce
+### Livello accesso luce
 
-Collegato alla licenza Light, questo livello di accesso è progettato per gli utenti che:
+Allegato alla licenza Light, questo livello accesso è progettato per gli utenti che:
 
-* Visualizza tutti gli elementi e gli aggiornamenti associati al lavoro
-* Approva progetti, attività e problemi
+* Visualizza tutti gli elementi e gli aggiornamenti legati al lavoro
+* Approvare progetti, attività e problemi
 * Visualizzare dashboard e rapporti
 * Tracciare il tempo e approvare le schede orario
-* Creare e gestire i problemi
+* Problemi di Crea e gestire
 
-Utenti con il livello di accesso Light:
+Utenti con il livello accesso Luce:
 
-* Possono essere assegnati elementi di lavoro ma non possono completarli.
-* Può accedere a richieste e documenti nel menu principale.
+* Può essere assegnato elementi di lavoro ma non è possibile completarli.
+* Può accesso richieste e documenti nel menu principale.
 * Hanno capacità limitate di creare oggetti, non possono creare progetti, portfolio, programmi o report.
 
 >[!NOTE]
@@ -261,10 +261,10 @@ Associato alla licenza Collaboratore, questo livello di accesso è progettato pe
 Utenti con questo livello di accesso integrato:
 
 * Può effettuare richieste e aggiornarle
-* Può caricare e approvare i documenti
+* Può caricare e approvare documenti
 * Può approvare progetti, attività e problemi
-* Può rivedere lo stato dei problemi che ha inviato
-* Può essere assegnato ad elementi di lavoro ma non può completarli
+* Può esaminare lo stato dei problemi che ha inviato
+* Può essere assegnato agli elementi di lavoro ma non è possibile completarli
 * Può accedere alle richieste solo dal menu principale. Per ulteriori informazioni sulle code di richieste, vedere [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 >[!NOTE]
@@ -282,7 +282,7 @@ Di seguito sono riportate le impostazioni di accesso più elevate disponibili pe
 | Problema |   |   | ✓ |
 | Portfolio |   | ✓ |   |
 | Programmi |   | ✓ |   |
-| Report (inclusi dashboard e report calendario) |   | ✓ (solo la scheda Dettagli) |   |
+| Report (inclusi dashboard e report calendario) |   | ✓ (solo i dettagli scheda) |   |
 | Filtri, viste e raggruppamenti |   |   | ✓ |
 | Documento |   |   | ✓ |
 | Utente |   | ✓ |   |
@@ -299,22 +299,22 @@ Di seguito sono riportate le impostazioni di accesso più elevate disponibili pe
 
 >[!IMPORTANT]
 >
->A partire dalla versione 24.7, per impostazione predefinita i collaboratori hanno accesso in visualizzazione a programmi e Portfoli.
+>A partire dalla versione 24.7, per impostazione predefinita i collaboratori hanno accesso in visualizzazione a programmi e portafogli.
 >
 > 
->Per impostazione predefinita, i collaboratori avviati prima della versione 24.7 continueranno a non avere accesso a programmi e Portfoli. Se necessario, puoi aggiornarne l’accesso per la visualizzazione manuale.
+>Per impostazione predefinita, i collaboratori avviati prima della versione 24.7 continueranno a non avere accesso a programmi e portafogli. Se necessario, puoi aggiornarne l’accesso per la visualizzazione manuale.
 
 ### Livello di accesso utente esterno
 
 Questo livello di accesso non è collegato a una licenza Workfront a pagamento. È il livello di accesso più restrittivo, progettato principalmente per collaboratori come consulenti esterni che non accedono a Workfront, ma che devono rivedere, scaricare o visualizzare documenti di tanto in tanto.
 
-Gli utenti di Workfront possono assegnare attività a utenti esterni anche se questi non possono accedere al sistema. Ma sconsigliamo questo perché il lavoro resterebbe irrisolto nel sistema.
+Utenti con livello di accesso Utente esterno:
 
-Utenti con il livello di accesso Utente esterno:
+* Può visualizzare solo i documenti e i rapporti di calendario condivisi con l&#39;utente
+* Visualizza gli utenti che condividono con loro documenti e rapporti di calendario
+* Approvare i documenti condivisi con l&#39;utente
 
-* È possibile visualizzare solo i documenti e i report del calendario condivisi con gli altri
-* Visualizzare gli utenti che condividono con loro documenti e report del calendario
-* Approva i documenti condivisi con gli altri
+Gli utenti esterni non possono essere assegnati agli elementi di lavoro.
 
 Non puoi modificare questo livello di accesso.
 
@@ -333,7 +333,7 @@ Di seguito sono riportate le impostazioni di accesso più elevate disponibili pe
 | Problema | ✓ |   |   |
 | Portfolio | ✓ |   |   |
 | Programmi | ✓ |   |   |
-| Report (inclusi dashboard e report calendario) |   | ✓ (solo per i report calendario; impossibile condividere i report) |   |
+| Report (inclusi dashboard e rapporti calendario) |   | ✓ (Solo per i rapporti del calendario; nessuna possibilità di condividere i rapporti) |   |
 | Filtri, viste e raggruppamenti | ✓ |   |   |
 | Documento |   | ✓ (impossibile condividere i documenti) |   |
 | Utente |   | ✓ |   |
@@ -376,7 +376,7 @@ Nella tabella seguente viene confrontato l&#39;accesso generale di un utente agl
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Ereditato da un oggetto condiviso di livello superiore 
+   <td> <p>Ereditato da un oggetto condiviso di classificazione superiore 
    </td> 
    <td> </td> 
    <td>✓</td> 
@@ -414,13 +414,13 @@ Un utente può concedere al destinatario le seguenti autorizzazioni per il singo
 
 Se il livello di accesso del destinatario non consente la modifica del progetto, l’utente non può modificare o eliminare un progetto anche se il condivisore ha concesso le autorizzazioni per gestirlo.
 
-In alternativa, se il livello di accesso del destinatario consente la modifica del progetto, ma il condivisore concede autorizzazioni di sola visualizzazione a un progetto, l’utente non può modificare o eliminare il progetto.
+Oppure, se il livello di accesso del destinatario consente la modifica del progetto, ma il condivisore ha concesso autorizzazioni di sola visualizzazione a un progetto, il utente non può modificare o eliminare il progetto.
 
 #### **Scenario 2**
 
-Quando Olivia condivide un progetto Workfront con Tony, l’accesso di quest’ultimo è determinato da una combinazione di due fattori:
+Quando Olivia condivide un progetto Workfront con Tony, la accesso di Tony è determinata da una combinazione di due fattori:
 
-* Livello di accesso di Tony assegnato dall’amministratore Workfront
+* Livello di accesso di Tony, assegnato dall&#39;amministratore di Workfront
 * Autorizzazioni di Tony per il progetto, specificate da Olivia
 
 Le azioni di Tony sul progetto possono essere ulteriormente limitate sul progetto, ma non possono essere illimitate al di là di ciò che è consentito sul suo livello di accesso:
