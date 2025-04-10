@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 0d746db3b3665b288b4724c346a02d3f459fc365
+source-git-commit: bb7f627f7ee2fdf15ba84919bf67f6c8fbb682dd
 workflow-type: tm+mt
-source-wordcount: '1709'
+source-wordcount: '1713'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,19 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 <span class="preview">Le funzioni fuori ciclo (quelle rilasciate in produzione prima della data di rilascio del secondo trimestre 2025) sono evidenziate in giallo.</span>
 
-## Versione programmare
+## Pianificazione della versione
 
-Le versioni di Workfront sono numerate al account per le tracce di rilascio mensili e trimestrali. Il primo numero indica l&#39;anno e il secondo numero indica il mese del rilascio. Esempio: la versione per aprile 2025 è numerata 25.4.
+Le versioni Workfront sono numerate per tenere conto delle versioni mensili e trimestrali. Il primo numero indica l’anno e il secondo il mese di rilascio. Esempio: la versione di aprile 2025 è numerata 25.4.
 
-Le versioni mensili e trimestrali sono pianificate per essere disponibili il giovedì della seconda settimana completa del mese, se non diversamente specificato.
+Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere disponibili il giovedì della seconda settimana completa del mese.
 
-| Rilascio mensile | Pubblicazione trimestrale |
+| Versione mensile | Versione trimestrale |
 | ----------------- | ----------------- |
 | <ul><li>25.2 (13 febbraio 2025)</li><li>25.3 (13 marzo 2025)</li><li>25.4 (10 aprile 2025)</li></ul> | <ul><li>25.4 (10 aprile 2025)</li></ul> |
 
 >[!NOTE]
 >
->Per la versione finale di ogni trimestre (25,4 in questo trimestre), gli utenti dell&#39;programmare di rilascio rapido riceveranno la versione con un giorno di anticipo.
+>Per la versione finale di ogni trimestre (25.4 questo trimestre), gli utenti che eseguono la pianificazione del rilascio rapido riceveranno la versione con un giorno di anticipo.
 >
 >Per ulteriori informazioni sul processo di rilascio rapido, vedere [Attivare o disattivare il processo di rilascio rapido](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -53,7 +53,7 @@ Le versioni mensili e trimestrali sono pianificate per essere disponibili il gio
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Miglioramenti alla logica dei moduli personalizzati</a></p>
+            Miglioramenti alla logica dei moduli personalizzati</a></p><p>[!BADGE In produzione ]{type=Informative}</p>
             <p>Il generatore di logica dei moduli personalizzati dispone di un’interfaccia aggiornata che offre più spazio per la creazione di regole logiche. Questo nuovo design può accogliere più facilmente ulteriori tipi di logica che potrebbero essere aggiunti in futuro.</p><p>Oltre alle opzioni di visualizzazione e salta logica correnti, è disponibile anche la logica di convalida.</p>
         </td>
         <td>
@@ -143,7 +143,7 @@ Le versioni mensili e trimestrali sono pianificate per essere disponibili il gio
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Miglioramenti alle bozze nell'app mobile (solo iOS)</a>[!BADGE In produzione ]{type=Informative}</p>
+            Miglioramenti alle bozze nell’app mobile (solo iOS)</a><p>[!BADGE In produzione ]{type=Informative}</p></p>
             <p>Sono disponibili diversi miglioramenti per la funzionalità di bozza nell’app mobile di Adobe Workfront:
             <ul>
             <li>Ora puoi aprire un file di bozza dalla tua app e-mail mobile, da un collegamento condiviso con te. In precedenza, i collegamenti dalle e-mail non erano supportati e si doveva accedere alle bozze dall’app mobile di Workfront.</li>
@@ -157,16 +157,16 @@ Le versioni mensili e trimestrali sono pianificate per essere disponibili il gio
                 <li>Anteprima versione: N/D</li>
                 <span class="preview"><li>Versione di produzione per tutti i clienti: 12 marzo 2025</li> 
             </ul>
-            <p><b>Disponibile nei seguenti ambienti:</b></p>
+            <p><b>Disponibile in questi ambienti:</b></p>
             <ul>
-                <li>App mobile iOS</li>
+                <li>app mobile di iOS</li>
             </ul>
         </td>
     </tr>                          
 </tbody>
 </table>
 
-### Miglioramenti apportati ai progetti
+### Miglioramenti al progetto
 
 <table>
 <col style="width: 50%;" />
@@ -175,14 +175,14 @@ Le versioni mensili e trimestrali sono pianificate per essere disponibili il gio
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Aggiungi un commento ai progetti quando li modifichi nella casella Modifica progetto</a>[!BADGE In produzione per rilascio rapido]{type=Positive}</p>
+            Aggiungi un commento ai progetti quando li modifichi nella casella Modifica progetto</a><p>[!BADGE In produzione ]{type=Informative}</p>
             <p>È ora possibile aggiungere un commento a un progetto mentre lo si modifica nella casella Modifica progetto. Puoi anche aggiungere un commento a più progetti contemporaneamente quando li modifichi in blocco. Prima di questo aggiornamento, questa funzionalità non esisteva durante la modifica dei progetti.</p>
         </td>
         <td>
             <p><b>Disponibile in queste date:</b></p>
             <ul>
                 <li>Versione di anteprima: 13 febbraio 2025</li>
-                <li>Produzione per il rilascio rapido: con la versione 25.3 (marzo 2025)</li>
+                <li>Produzione per rilascio rapido: con la versione 25.3 (marzo 2025)</li>
                 <li>Versione di produzione per tutti i clienti: con la versione 25.4 (aprile 2025)</li>
             </ul>
         </td>
@@ -199,7 +199,7 @@ Le versioni mensili e trimestrali sono pianificate per essere disponibili il gio
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            I dati relativi all'approvazione e alle decisioni dei documenti sono ora disponibili in Data Connect</a>[!BADGE In produzione ]{type=Informative}</p>
+            I dati relativi all’approvazione dei documenti e alle decisioni sono ora disponibili in Data Connect</a><p>[!BADGE In produzione ]{type=Informative}</p>
             <p>È ora possibile accedere ai dati per le approvazioni dei documenti e le decisioni in Data Connect. Questo set di dati collega le approvazioni dei documenti dalle funzionalità di verifica di Workfront e le approvazioni Frame.io che si verificano sui documenti di Workfront. Ora puoi illustrare l’impatto della durata del ciclo, del numero di cicli e della timeline per le approvazioni in ritardo tramite visualizzazioni di BI.</p>
         </td>
         <td>
@@ -212,7 +212,7 @@ Le versioni mensili e trimestrali sono pianificate per essere disponibili il gio
     </tr>                          
     <tr>
         <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti al calendario di Workfront</a></p>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti al calendario di Workfront</a></p><p>[!BADGE In produzione ]{type=Informative}</p>
             <p>Abbiamo aggiornato l’aspetto del Calendario di Workfront a un design moderno coerente con altre aree di Workfront. Esistono piccole differenze di funzionalità rispetto al calendario Workfront corrente, tra cui:
             <ul>
             <li>Come aggiungere elementi ad hoc al calendario</li>
@@ -255,9 +255,7 @@ Le versioni mensili e trimestrali sono pianificate per essere disponibili il gio
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Rappresenta le modifiche utente di Adobe Admin Console come "System" nel feed di aggiornamento di Workfront</a></p>
-            [!BADGE In produzione per rilascio rapido ]{type=Positive}
-            <p>Ora, quando l’amministratore di Adobe Admin Console apporta una modifica alle informazioni utente di un utente Workfront, Workfront registra tale modifica nella scheda Attività di sistema dell’area Aggiornamenti dell’utente come appartenente al "Sistema". Si riferisce all’amministratore di Adobe Admin Console.</p>
+            Rappresenta le modifiche utente di Adobe Admin Console come "System" nel feed di aggiornamento di Workfront</a></p><p>[!BADGE In produzione ]{type=Informative}</p><p>Ora, quando l’amministratore di Adobe Admin Console apporta una modifica alle informazioni utente di un utente Workfront, Workfront registra tale modifica nella scheda Attività di sistema dell’area Aggiornamenti dell’utente come appartenente al "Sistema". Si riferisce all’amministratore di Adobe Admin Console.</p>
         </td>
         <td>
             <p><b>Disponibile in queste date:</b></p>
@@ -304,11 +302,11 @@ L’immagine seguente mostra l’opzione agile legacy che verrà rimossa:
 ![collegamento visualizzazione agile legacy](assets/project-agile-board-view.png)
 
 
-#### Deprecazione avanzata dei Analytics
+#### Obsolescenza avanzata di Analytics
 
-A causa del basso utilizzo e del calo di utilizzo, abbiamo deciso di rendere obsoleto il prodotto Enhanced Analytics la settimana del 25 maggio 2025.
-Ti consigliamo di prendere in considerazione il nostro prodotto Data Connect come sostituto. Data Connect consente di versione visualizzazioni personalizzabili simili utilizzando gli strumenti di intelligence aziendali preferiti.
-Per ulteriori informazioni su questa deprecazione, vedi la [Guida](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) alla deprecazione di Analytics avanzata.
+A causa di un utilizzo basso e in calo, abbiamo deciso di rendere obsoleto il prodotto Analytics avanzato nella settimana del 25 maggio 2025.
+Consigliamo di considerare il nostro prodotto Data Connect come un sostituto. Data Connect consente di creare visualizzazioni personalizzate simili utilizzando gli strumenti di business intelligence preferiti.
+Per ulteriori informazioni su questa rimozione, consulta la [Guida all&#39;eliminazione di Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
 
 ## Notifiche
 
@@ -334,13 +332,13 @@ Le nuove funzioni di Workfront Planning sono disponibili in Produzione. Per ulte
 
 ### Miglioramenti di Workfront Scenario Planner
 
-A questo punto del rilascio non sono disponibili aggiornamenti di Scenario Planner. Quest&#39;area verrà aggiornata non appena saranno disponibili aggiornamenti.
+A questo punto della versione, non sono presenti aggiornamenti di Scenario Planner. Questa area verrà aggiornata quando saranno disponibili aggiornamenti.
 
-### Miglioramenti a prova di Workfront
+### Miglioramenti di Workfront Proof
 
-Non sono disponibili aggiornamenti Workfront Proof a questo punto della release. Quest&#39;area verrà aggiornata non appena saranno disponibili aggiornamenti.
+A questo punto della versione, non ci sono aggiornamenti per Workfront Proof. Questa area verrà aggiornata quando saranno disponibili aggiornamenti.
 
-### Miglioramenti degli obiettivi del fronte di lavoro
+### Miglioramenti agli obiettivi di Workfront
 
 A questo punto della versione, non ci sono aggiornamenti per gli Obiettivi di Workfront. Questa area verrà aggiornata quando saranno disponibili aggiornamenti.
 
