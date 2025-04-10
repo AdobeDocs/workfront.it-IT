@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 03f95d2d6397850fd53e79fd37c2de56e94a04cd
+source-git-commit: 34f7f35875f063a77d33ee63c33e69721dc70c03
 workflow-type: tm+mt
-source-wordcount: '1270'
-ht-degree: 0%
+source-wordcount: '1308'
+ht-degree: 2%
 
 ---
 
-# Creare e modificare regole aziendali
+# Creare e modificare le regole di business
 
 Una regola business consente di applicare la convalida agli oggetti di Workfront e di impedire agli utenti di creare, modificare o eliminare un oggetto quando vengono soddisfatte determinate condizioni. Le regole aziendali contribuiscono a migliorare la qualità dei dati e l’efficienza operativa impedendo azioni che potrebbero compromettere l’integrità dei dati.
 
@@ -124,7 +124,29 @@ IF(
 
    ![Seleziona un oggetto](assets/object-for-business-rule3.png)
 
-1. Digitare **Nome** per la regola business.
+   È possibile applicare le regole business ai seguenti oggetti:
+
+   * Progetto
+   * Attività
+   * Problema/Richiesta
+   * Portfolio
+   * Documento
+   * Programma
+   * Spesa
+   * Utente
+   * Azienda
+   * Iterazione
+   * Fatturazione
+   * Gruppo
+   * Rischio
+   * Assegnazione
+   * Ruolo
+   * Gruppo di risorse
+   * Indisponibilità
+   * Ora
+   * Modello
+
+1. Digita **Nome** per la regola business nella finestra di dialogo del generatore di regole.
 1. Nel campo **È attivo**, selezionare se la regola deve essere attiva al momento del salvataggio.
 
    Se si seleziona **No**, la regola verrà salvata come inattiva e sarà possibile attivarla in un secondo momento.
