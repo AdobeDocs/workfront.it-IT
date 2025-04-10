@@ -6,9 +6,9 @@ description: L’amministratore di Adobe Workfront può concederti l’accesso p
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 871117ddb06af6d37448c683a259ccc7e708930c
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,8 @@ Per informazioni sulla gerarchia di oggetti in Workfront, vedere [Informazioni s
 </table>
 -->
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Devi avere i seguenti:
 
 <table style="table-layout:auto"> 
@@ -81,6 +83,8 @@ Devi avere i seguenti:
 </table>
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+
++++
 
 ## Visualizzare le autorizzazioni ereditate per un oggetto
 

@@ -7,7 +7,7 @@ description: L’amministratore di Adobe Workfront può concederti l’accesso p
 author: Alina
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: 851e946fd4e9b0da725185227f9ed24334eafb86
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -15,6 +15,7 @@ ht-degree: 0%
 ---
 
 # Condividere un programma
+
 
 L’amministratore di Adobe Workfront può concederti l’accesso per visualizzare o modificare i programmi al momento dell’assegnazione del livello di accesso. Per poter accedere alla modifica di un programma è necessario disporre di una licenza Pianificazione. Per ulteriori informazioni, vedere [Concedere l&#39;accesso ai programmi](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md).
 
@@ -36,9 +37,7 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 
   Per ulteriori informazioni sulla condivisione di elementi in Workfront, vedere [Condividere un oggetto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
-* È possibile concedere autorizzazioni di visualizzazione o gestione solo ai programmi.
-
-  ![](assets/screen-shot-2014-01-23-at-12.45.15-pm.png)    ![](assets/screen-shot-2014-01-22-at-10.03.43-am-190x167.png)
+* È possibile concedere le autorizzazioni Visualizza o Gestisci solo ai programmi:
 
 * Quando si condivide un programma, per impostazione predefinita gli utenti ereditano le stesse autorizzazioni per tutti gli oggetti figlio associati al programma.
 
@@ -65,4 +64,6 @@ Nella tabella seguente vengono visualizzate le autorizzazioni che è possibile c
 | Condividi | ✓ | ✓ |
 | Condividi a livello di sistema |   | ✓ |
 
-*Queste autorizzazioni sono controllate dal livello di accesso e dalle autorizzazioni su altri oggetti, come i progetti. 
+*Queste autorizzazioni sono controllate dal livello di accesso e dalle autorizzazioni su altri oggetti, come i progetti.
+
+

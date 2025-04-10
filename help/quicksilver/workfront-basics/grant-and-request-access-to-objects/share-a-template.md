@@ -6,7 +6,7 @@ description: In qualità di amministratore di Adobe Workfront, puoi concedere ag
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 2%
@@ -40,12 +40,7 @@ Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono qua
      Puoi concedere le seguenti autorizzazioni a un modello:
 
       * Visualizza
-
-        ![](assets/view-on-template-262x221.png)
-
       * Gestire
-
-        ![](assets/manage-on-template-225x280.png)
 
    * I progetti futuri creati utilizzando il modello. Puoi assegnare ai progetti creati da un modello gli stessi livelli di autorizzazione di un singolo progetto. 
 

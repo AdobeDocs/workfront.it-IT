@@ -6,9 +6,9 @@ description: L’amministratore di Adobe Workfront consente agli utenti di visua
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 311398231719fb8a29a6bf2ddf1eeafb58e4f39f
+source-git-commit: 8b524f7cd7e1bfedbaa1e993cbf4b3b805344b7c
 workflow-type: tm+mt
-source-wordcount: '1922'
+source-wordcount: '1909'
 ht-degree: 0%
 
 ---
@@ -193,9 +193,7 @@ Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
 
    ![](assets/share-a-document-350x160.png)
 
-1. Nel campo **Concedi a &lt; Nome oggetto > l&#39;accesso a**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo o della società con cui desideri condividere l&#39;oggetto, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
-
-   ![](assets/portfolio-access-box.png)
+1. Nel campo **Concedi a [Object Name] l&#39;accesso a**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo o della società con cui desideri condividere l&#39;oggetto, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
    >[!TIP]
    >
@@ -205,7 +203,7 @@ Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
 
 1. (Facoltativo) Ripetere il passaggio 3 per ogni utente, team, ruolo o gruppo a cui si desidera concedere l&#39;accesso all&#39;oggetto.
 
-1. Specificare le autorizzazioni per ogni utente, team, ruolo, gruppo o società aggiunto al passaggio 3 facendo clic sul menu a discesa, quindi selezionando il livello di autorizzazione che si desidera concedere.
+1. Specifica le autorizzazioni per ogni utente, team, ruolo, gruppo o azienda aggiunti al passaggio 3.
 
    Per rimuovere le autorizzazioni da un oggetto, vedere [Rimuovere le autorizzazioni dagli oggetti](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
@@ -218,24 +216,24 @@ Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
      >
      >L’amministratore di Workfront o il creatore di oggetti può rimuovere le autorizzazioni da queste entità.
 
-     ![](assets/view-manage-sharing-options-for-portfolio-or-document.png)
+1. (Facoltativo) Fai clic sull’icona delle opzioni avanzate accanto al livello di autorizzazione concesso per configurare autorizzazioni specifiche sull’oggetto.
 
-1. (Facoltativo) Fai clic su **Impostazioni avanzate** per configurare autorizzazioni specifiche per l&#39;oggetto.
+   ![](assets/new-share-advanced-permissions-dropdown.png)
 
    Le autorizzazioni Visualizza e Gestisci hanno opzioni avanzate diverse a seconda dell’oggetto selezionato.\
    Per ulteriori informazioni sui livelli di autorizzazione, vedere [Panoramica sulla condivisione delle autorizzazioni sugli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. (Facoltativo) Per rendere questo oggetto disponibile a tutti gli utenti del sistema, fai clic sull&#39;icona **Ingranaggio** ![](assets/gear-icon-settings-with-dn-arrow.jpg), quindi nel menu a discesa fai clic su **Rendi visibile a livello di sistema**.
+1. (Facoltativo) Per rendere questo oggetto disponibile a tutti gli utenti del sistema, fai clic su **Chi ha accesso** al menu a discesa e seleziona **Tutti nel sistema possono visualizzare**.
 
    Tutti gli utenti possono visualizzare l’oggetto in base alle autorizzazioni impostate.
 
-1. (Facoltativo) Per rendere l&#39;oggetto pubblico, fare clic su **Rendi pubblico per gli utenti esterni**.
+1. (Facoltativo) Per rendere l&#39;oggetto pubblico, fai clic sull&#39;icona a forma di ingranaggio, quindi abilita **Rendi pubblico per gli utenti esterni**.
 
    >[!TIP]
    >
    >Questa opzione non è disponibile per tutti gli oggetti.
 
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png){width="350"}
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png)
 
 1. (Condizionale) Se l&#39;oggetto è stato reso pubblico a utenti esterni, fare clic su **copia collegamento**, quindi distribuire il collegamento a utenti esterni.
 
@@ -261,7 +259,6 @@ Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
 
 1. Nella casella di accesso **Modifica &lt; Nome oggetto > per**, iniziare a digitare il nome dell&#39;utente, del team, del ruolo, del gruppo o della società con cui si desidera condividere gli oggetti, quindi fare clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
-   ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -273,11 +270,10 @@ Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
 
 1. (Facoltativo) Ripetere il passaggio 3 per ogni utente, team, ruolo o gruppo a cui si desidera concedere l&#39;accesso agli oggetti.
 
-1. Specificare le autorizzazioni per ogni utente, team, ruolo, gruppo o società aggiunto al passaggio 3 facendo clic sul menu a discesa a destra del nome, quindi selezionando il livello di autorizzazione che si desidera concedere.
+1. Specifica le autorizzazioni per ogni utente, team, ruolo, gruppo o azienda aggiunti nel passaggio.
 
    Per rimuovere le autorizzazioni da un oggetto, vedere [Rimuovere le autorizzazioni dagli oggetti](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
-   ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
 
    Sono disponibili le seguenti opzioni:
 
@@ -299,12 +295,12 @@ Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
      >
      >L’amministratore di Workfront o il creatore di oggetti può rimuovere le autorizzazioni da queste entità.
 
-1. (Facoltativo) Fai clic su **Impostazioni avanzate** per configurare autorizzazioni specifiche per l&#39;oggetto.
+1. (Facoltativo) Fai clic sull’icona delle opzioni avanzate accanto al livello di autorizzazione concesso per configurare autorizzazioni specifiche sull’oggetto.
+
+   ![](assets/new-share-advanced-permissions-dropdown.png)
 
    Le opzioni avanzate di Visualizza, Gestisci e Contribute variano a seconda dell&#39;oggetto selezionato.\
    Per ulteriori informazioni sui livelli di autorizzazione, vedere [Panoramica sulla condivisione delle autorizzazioni sugli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-
-   ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
 
 1. (Facoltativo) Per rendere questo oggetto disponibile a tutti gli utenti del sistema, fai clic sull&#39;icona **Ingranaggio** ![](assets/gear-icon-settings-with-dn-arrow.jpg) , quindi fai clic su **Rendi visibile a livello di sistema** nel menu a discesa.
 

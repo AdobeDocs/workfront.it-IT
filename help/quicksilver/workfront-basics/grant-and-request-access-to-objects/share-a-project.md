@@ -6,9 +6,9 @@ description: Il tuo amministratore Adobe Workfront può concederti l’accesso p
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '990'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 
 * Per impostazione predefinita, il creatore di un progetto dispone delle autorizzazioni per gestire il progetto ed è anche designato come proprietario del progetto. Se il progetto è assegnato a un altro proprietario, anche tale utente dispone delle autorizzazioni necessarie per gestire il progetto. Quando il creatore del progetto (o il proprietario) condivide il progetto con altri utenti, concede a questi ultimi determinate autorizzazioni per controllare ciò che possono fare mentre lavorano sul progetto.
 
-  Tuttavia, se un proprietario del progetto non dispone di una licenza Planner, non ha accesso completo alla gestione del progetto. Solo un utente con una licenza Pianificazione può disporre delle autorizzazioni per gestire un progetto. Per ulteriori informazioni, vedere [Funzionamento dei livelli di accesso e delle autorizzazioni](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+  Tuttavia, se un proprietario del progetto non dispone di una licenza Pianificazione o Standard, non ha accesso completo alla gestione del progetto. Solo un utente con una licenza Plan o Standard può disporre delle autorizzazioni per gestire un progetto. Per ulteriori informazioni, vedere [Funzionamento dei livelli di accesso e delle autorizzazioni](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 * Puoi condividere i progetti singolarmente, oppure puoi condividerne più di uno alla volta. La condivisione di progetti è identica alla condivisione di altri oggetti. Per ulteriori informazioni sulla condivisione di elementi in Workfront, vedere [Condividere un oggetto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Puoi concedere le seguenti autorizzazioni a un progetto:
@@ -37,8 +37,6 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
    * Visualizza
    * Gestire
    * Contribuisci
-
-     ![](assets/view-on-projects-190x207.png) ![](assets/contribute-on-projects-159x243.png) ![](assets/manage-on-projects-178x230.png)
 
 * Quando si condivide un progetto, tutte le attività, i problemi e i documenti ereditano le stesse autorizzazioni, se non diversamente specificato.
 
@@ -104,8 +102,8 @@ Puoi condividere un progetto nei seguenti modi:
 
 ## Limitazioni per i diversi tipi di licenza
 
-* Gli utenti con una licenza Light e inferiore (o licenza Lavoro e inferiore per il vecchio modello di licenza) non dispongono delle autorizzazioni per gestire i progetti. Per questi utenti, l&#39;autorizzazione di condivisione più elevata è Contribute.
-* Gli utenti con una licenza Collaboratore (o una licenza Richiesta per il vecchio modello di licenza) possono visualizzare le informazioni sul progetto, ma hanno accesso limitato al progetto.
+* Gli utenti con una licenza Worker non dispongono delle autorizzazioni necessarie per gestire i progetti. Per i lavoratori, l&#39;autorizzazione di condivisione più elevata è Contribute.
+* Gli utenti con una licenza Request possono visualizzare le informazioni sul progetto, ma hanno accesso limitato al progetto.
 * Un&#39;eccezione alla modifica dello stato di un progetto si verifica quando un utente con autorizzazioni Visualizza o Contribuisci è incluso anche in un processo di approvazione. Possono approvare il progetto, che modifica lo stato del progetto, ma lo stato è quello predefinito per l’approvazione o per il rifiuto.
 * Per poter copiare un progetto, un utente deve anche avere accesso alla creazione di progetti nel proprio Livello di Accesso.
 

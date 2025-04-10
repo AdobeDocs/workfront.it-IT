@@ -6,9 +6,9 @@ description: È possibile condividere una cartella e il relativo contenuto dall'
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: 842c61cf6dfee0c79b1c95ff84888083c9f5b5a4
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 -->
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -88,6 +89,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+
++++
 
 ## Condividere una cartella
 
@@ -160,8 +163,8 @@ Per informazioni sull&#39;esecuzione di un report, vedere la sezione [Report sug
 Quando si condivide un oggetto che ha una cartella documenti, i destinatari possono accedere anche alla cartella:
 
 * Se concedi ai destinatari l’accesso in visualizzazione all’oggetto principale, avranno l’accesso in visualizzazione alla cartella.
-* Se concedi ai destinatari l’accesso Contribute o Manage all’oggetto principale, questi dispongono dell’accesso Manage alla cartella.
-* Se si concede un tipo di accesso (Visualizza, Contribute o Gestisci) all&#39;oggetto padre e un altro tipo alla cartella, i destinatari disporranno del più alto di questi due tipi di accesso ai documenti della cartella
+* Se si concede ai destinatari l&#39;accesso Contribute o Manage all&#39;oggetto padre, questi dispongono dell&#39;accesso Manage alla cartella.
+* Se si concede un tipo di accesso (Visualizza, Contribuisci o Gestisci) all&#39;oggetto padre e un altro tipo alla cartella, i destinatari disporranno del più alto di questi due tipi di accesso ai documenti della cartella
 
   Ad esempio, se condividi l’oggetto principale con accesso in visualizzazione e la cartella con accesso in gestione, i destinatari dispongono di accesso in gestione ai documenti della cartella.
 

@@ -7,7 +7,7 @@ description: L’amministratore di Adobe Workfront consente agli utenti di visua
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2dac54b-6506-41b0-a7f2-6fafab12c2d1
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%
@@ -54,12 +54,7 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 * Puoi concedere le seguenti autorizzazioni a rapporti, dashboard e calendari:
 
    * Visualizza
-
-     ![](assets/screen-shot-2014-01-22-at-10.19.55-am.png)
-
    * Gestire
-
-     ![](assets/screen-shot-2014-01-22-at-10.20.13-am.png)
 
 * Quando si condivide un dashboard, per impostazione predefinita gli utenti dispongono delle autorizzazioni Visualizzazione per tutti i report, i calendari e le pagine esterne del dashboard.
 * Gli utenti con una licenza Request non possono visualizzare un rapporto a livello di sistema. Un report deve essere condiviso con i Richiedenti singolarmente se devono visualizzarlo.

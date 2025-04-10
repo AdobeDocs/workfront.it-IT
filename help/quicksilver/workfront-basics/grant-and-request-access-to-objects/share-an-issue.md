@@ -6,9 +6,9 @@ description: L’amministratore di Adobe Workfront consente agli utenti di visua
 author: Alina
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '692'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 L’amministratore di Adobe Workfront consente agli utenti di visualizzare o modificare i problemi quando assegnano i livelli di accesso. Per ulteriori informazioni sulla concessione dell&#39;accesso ai problemi, vedere [Concedere l&#39;accesso ai problemi](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md).
 
-Oltre al livello di accesso concesso agli utenti, è possibile concedere loro le autorizzazioni per visualizzare, Contribute o gestire problemi specifici a cui si ha accesso per la condivisione. Per ulteriori informazioni sui livelli di accesso e sulle autorizzazioni, vedere [Funzionamento dei livelli di accesso e delle autorizzazioni](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+Oltre al livello di accesso concesso agli utenti, è possibile concedere loro le autorizzazioni per visualizzare, contribuire o gestire problemi specifici a cui si ha accesso per la condivisione. Per ulteriori informazioni sui livelli di accesso e sulle autorizzazioni, vedere [Funzionamento dei livelli di accesso e delle autorizzazioni](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono quali azioni è possibile eseguire su tale elemento.
 
@@ -34,15 +34,8 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 * Puoi concedere le seguenti autorizzazioni a un problema: 
 
    * Visualizza
-
-     ![visualizza_su_problema.png](assets/view-on-issue-221x216.png)
-
+   * Contribuisci
    * Gestire
-
-     ![gestisci_su_problemi.png](assets/manage-on-issues-179x199.png)
-
-   * Contribuisci\
-     ![contribuisci_su_problema.png](assets/contribute-on-issue-156x205.png)
 
 * Quando condividi un problema, tutti i documenti allegati al problema ereditano le stesse autorizzazioni.
 
@@ -134,7 +127,7 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 
 ## Autorizzazioni problema
 
-La tabella seguente mostra le autorizzazioni che puoi concedere agli utenti quando consenti loro di visualizzare, Contribute o gestire un problema:
+Nella tabella seguente vengono visualizzate le autorizzazioni che è possibile concedere agli utenti quando si consente loro di visualizzare, contribuire o gestire un problema:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -145,7 +138,7 @@ La tabella seguente mostra le autorizzazioni che puoi concedere agli utenti quan
   <tr> 
    <td><strong>Azioni</strong> </td> 
    <td><strong>Gestisci</strong> </td> 
-   <td><strong>Contribute</strong> </td> 
+   <td><strong>Contribuisci</strong> </td> 
    <td><strong>Visualizza</strong> </td> 
   </tr> 
   <tr> 

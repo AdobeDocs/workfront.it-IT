@@ -6,16 +6,14 @@ description: Il tuo amministratore Adobe Workfront può concederti l’accesso p
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '565'
 ht-degree: 1%
 
 ---
 
 # Condividere le autorizzazioni finanziarie su un oggetto
-
-{{highlighted-preview}}
 
 Il tuo amministratore Adobe Workfront può concederti l’accesso per visualizzare o modificare dati finanziari durante l’assegnazione del livello di accesso. Per ulteriori informazioni, vedere [Concedere l&#39;accesso ai dati finanziari](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
@@ -54,6 +52,8 @@ Per informazioni sulle operazioni che gli utenti di ogni livello di accesso poss
  </tbody> 
 </table>
 -->
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 Per condividere informazioni finanziarie sugli oggetti, è necessario disporre dei seguenti elementi:
 
 <table style="table-layout:auto"> 
@@ -81,11 +81,13 @@ Per condividere informazioni finanziarie sugli oggetti, è necessario disporre d
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
 
++++
+
 ## Condividere un oggetto e concedere autorizzazioni finanziarie
 
 Quando si concedono autorizzazioni finanziarie agli oggetti, tenere presente quanto segue:
 
-* Puoi concedere autorizzazioni finanziarie a progetti, attività, problemi, <span class="preview">e schede di tariffa</span>.
+* Puoi concedere autorizzazioni finanziarie a progetti, attività e problemi.
 * Le autorizzazioni possono essere ereditate: se si dispone delle autorizzazioni Visualizza contabilità per un progetto, si ereditano automaticamente le autorizzazioni Visualizza contabilità per le attività e i problemi del progetto.
 
 Per concedere autorizzazioni finanziarie a un oggetto:
@@ -102,10 +104,8 @@ Per concedere autorizzazioni finanziarie a un oggetto:
 1. Se viene visualizzato un menu a discesa a destra del nome selezionato, fare clic su una delle opzioni disponibili:
 
    * **Visualizza**
-   * **Contribute**
+   * **Contribuisci**
    * **Gestisci**
-
-     ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
 
 1. Nello stesso menu a discesa, fare clic su **Impostazioni avanzate**, quindi eseguire una delle operazioni seguenti:
 
@@ -116,7 +116,7 @@ Per concedere autorizzazioni finanziarie a un oggetto:
 
 ## Autorizzazioni finanziarie per tutti i livelli di condivisione
 
-Nella tabella seguente vengono visualizzate le autorizzazioni finanziarie ottenute dagli utenti quando si concedono loro le autorizzazioni Visualizza, Contribute o Gestisci sugli oggetti: 
+Nella tabella seguente vengono visualizzate le autorizzazioni finanziarie ottenute dagli utenti quando si concedono loro le autorizzazioni Visualizza, Contribuisci o Gestisci per gli oggetti: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -127,7 +127,7 @@ Nella tabella seguente vengono visualizzate le autorizzazioni finanziarie ottenu
   <tr> 
    <th><strong>Azioni</strong> </th> 
    <th><strong>Gestisci</strong> </th> 
-   <th><strong>Contribute</strong> </th> 
+   <th><strong>Contribuisci</strong> </th> 
    <th><strong>Visualizza</strong> </th> 
   </tr> 
  </thead> 
@@ -156,18 +156,6 @@ Nella tabella seguente vengono visualizzate le autorizzazioni finanziarie ottenu
    <td>✓</td> 
    <td> ✓</td> 
   </tr> 
-  <tr> 
-   <td><span class="preview">Gestire le schede delle tariffe</span></td> 
-   <td>✓</td> 
-   <td> <p> </p> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td><span class="preview">Visualizza schede di tariffa</span></td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td> ✓</td> 
-  </tr>
   <tr> 
    <td>Visualizzare le informazioni per costo negli strumenti di pianificazione delle risorse</td> 
    <td>✓</td> 
