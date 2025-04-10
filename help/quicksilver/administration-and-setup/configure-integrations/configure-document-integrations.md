@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 04bdfbdf1fa05082fe12c2ab239e861a6db4ee6e
+source-git-commit: 5ff071a6e0af93f5280225355edad1d0dde42b3f
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1125'
 ht-degree: 1%
 
 ---
@@ -97,9 +97,9 @@ Puoi configurare le seguenti integrazioni per la gestione dei documenti:
 
 * Altri provider di documenti (tramite integrazioni di documenti personalizzate).
 
-  Per i piani correnti, è necessario un piano [!UICONTROL Pro] [!DNL Workfront] o superiore per utilizzare questa funzione. Per i nuovi piani, questa funzione è disponibile con tutti i piani. Per ulteriori informazioni sui vari piani disponibili, vedere [Piani Workfront](https://www.workfront.com/plans).
+  Per i piani attuali, è necessario un [!UICONTROL Pro] [!DNL Workfront] piano o superiore per utilizzare questa funzione. Per i nuovi piani, questa funzione è disponibile con tutti i piani. Per ulteriori informazioni sui vari piani disponibili, vedere [Piani](https://www.workfront.com/plans) di Workfront.
 
-Inoltre, è possibile migliorare l&#39;esperienza dei documenti [!DNL Workfront] con integrazioni DAM di terze parti. Gli amministratori devono abilitare queste funzionalità affinché gli utenti possano collegare il servizio al proprio account [!DNL Workfront].
+Inoltre, è possibile migliorare l&#39;esperienza del documento [!DNL Workfront] con integrazioni DAM di terze parti. Gli amministratori devono abilitare queste funzionalità affinché gli utenti possano collegare il servizio al proprio account [!DNL Workfront].
 
 ## Configurare le integrazioni per gestire i documenti
 
@@ -107,14 +107,14 @@ Inoltre, è possibile migliorare l&#39;esperienza dei documenti [!DNL Workfront]
 
 1. Nel pannello a sinistra, fai clic su **[!UICONTROL Documenti]** > **[!UICONTROL Provider di cloud].**
 
-1. (Facoltativo) Per archiviare i documenti in un&#39;applicazione Document Services e non in [!DNL Workfront], selezionare **[!UICONTROL Impedisci agli utenti di archiviare i documenti in [!DNL Workfront]].**
+1. (Facoltativo) Per archiviare i documenti in un applicazione di Document Services e non in [!DNL Workfront], selezionare **[!UICONTROL Impedisci agli utenti di archiviare documenti in [!DNL Workfront]].**
 
-1. Seleziona le integrazioni da abilitare.
+1. Seleziona le integrazioni che desideri abilitare.
 1. Fai clic su **[!UICONTROL Salva]**.
 
-Se si impostano integrazioni con [!DNL Workfront DAM], è possibile abilitare [!DNL Workfront] per includere metadati con i documenti. Per informazioni sulla mappatura dei metadati, vedere [Configurare la mappatura dei metadati](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md).
+Se stai configurando integrazioni con [!DNL Workfront DAM], puoi abilitare per includere [!DNL Workfront] metadati con i documenti. Per informazioni sulla mappatura dei metadati, vedere [Configurazione metadati mappatura](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md).
 
-## Configurare le integrazioni di documenti personalizzati
+## Configurare integrazioni di documenti personalizzati
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ***DON'T DELETE, DRAFT OR HIDE THIS SECTION IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **)</p>
@@ -138,25 +138,25 @@ Dopo aver creato l&#39;integrazione del documento personalizzato, è possibile r
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Name]</td> 
-      <td>Nome dell’integrazione personalizzata. Questo è il nome visualizzato dagli utenti quando utilizzano l’integrazione all’interno di Workfront.</td> 
+      <td role="rowheader">[! Nome UICONTROL]</td> 
+      <td>Nome dell'integrazione personalizzata. Questo è il nome che gli utenti vedono quando utilizzano l'integrazione all'interno di Workfront.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL URL API di base] </td> 
-      <td>L’URL HTTP di base o sicuro per le chiamate API. Ad esempio: <code>https://&lt;documentprovider&gt;.com/api/v2</code></td> 
+      <td role="rowheader">[! UICONTROL Base API URL] </td> 
+      <td>Il URL HTTP di base o HTTP sicuro per le chiamate API. Ad esempio: <code>https://&lt;documentprovider&gt;.com/api/v2</code></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Authentication Type]</td> 
-      <td> <p>Il metodo di autenticazione da utilizzare quando si effettuano chiamate API autorizzate all’integrazione personalizzata.</p> 
+      <td role="rowheader">[! Tipo Authentication UICONTROL]</td> 
+      <td> <p>Metodo di autenticazione da utilizzare quando si effettuano chiamate API autorizzate all'integrazione personalizzata.</p> 
        <ul> 
-        <li>Se scegli <strong>[!UICONTROL OAuth]</strong>, continua con il passaggio 5.</li> 
-        <li>Se si sceglie <strong>[!UICONTROL ApiKey]</strong>, continuare con il passaggio 6.</li> 
+        <li>Se scegli <strong>[! UICONTROL OAuth]</strong>, continua con il passaggio 5.</li> 
+        <li>Se scegli <strong>[! UICONTROL ApiKey],</strong> continuare con il passaggio 6.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Condizionale) Se hai selezionato l&#39;autenticazione **[!UICONTROL OAuth]** per il **[!UICONTROL tipo di autenticazione]**, immetti le seguenti informazioni:
+1. (Condizionale) Se hai selezionato **[!UICONTROL Autenticazione OAuth]** per Tipo **[!UICONTROL Authentication]**, immetti le seguenti informazioni:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -215,7 +215,7 @@ Le informazioni sono mappate solo unidirezionale, da [!DNL Workfront] a [!DNL Wo
 Se è necessario configurare più campi [!DNL Workfront] da esportare in un campo [!DNL Workfront DAM], creare innanzitutto un campo personalizzato calcolato in [!DNL Workfront] per visualizzare tutti i singoli campi personalizzati di un oggetto. Quindi, mappare il campo [!DNL Workfront] calcolato a un campo [!DNL Workfront DAM].\
 Per ulteriori informazioni sui campi personalizzati calcolati, vedere [Aggiungere campi calcolati a un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-Il mapping ha effetto su tutti i documenti caricati da qualsiasi utente da [!DNL Workfront] a [!UICONTROL Workfront] DAM.
+La mappatura interessa tutti i documenti caricati da qualsiasi utente da [!DNL Workfront] a [!UICONTROL Workfront] DAM.
 
 In qualità di amministratore di [!DNL Workfront], è necessario abilitare [!DNL Workfront DAM] in Workfront prima di poter mappare i campi per il processo di mappatura dei metadati.
 
@@ -232,9 +232,9 @@ Per configurare [!DNL Workfront] per l&#39;invio di metadati a [!DNL Workfront D
    >
    > Tutti i documenti inviati a [!DNL Workfront DAM] da utenti che dispongono dei diritti per farlo vengono aggiornati con i campi [!DNL Workfront] qui mappati, quando vengono caricati in [!DNL Workfront DAM].
 
-1. Fare clic su **[!UICONTROL Aggiungi mapping]**.
+1. Fare clic su **[!UICONTROL Aggiungi mappatura]**.
 
-1. Continua ad aggiungere altri campi [!UICONTROL Workfront] e i corrispondenti campi [!DNL Workfront DAM].
+1. Continua l&#39;aggiunta di ulteriori [!UICONTROL campi Workfront] e campi corrispondenti [!DNL Workfront DAM] .
 
 ### Elimina campi mappati
 
@@ -246,3 +246,8 @@ Per configurare [!DNL Workfront] per l&#39;invio di metadati a [!DNL Workfront D
 1. Fare clic su **[!UICONTROL Elimina]**.
 
    I campi vengono rimossi dalla mappatura dei metadati e le informazioni in essi contenute non vengono trasferite a [!DNL Workfront DAM] con i documenti caricati.
+
+
+## Limitazioni
+
+* L&#39;integrazione dei documenti di Google Drive supporta l&#39;aggiunta di cartelle e immagini dall&#39;area My Drive dell&#39;unità Google. Impossibile aggiungere cartelle o immagini da un&#39;unità condivisa. Ulteriori informazioni sulle [unità condivise di Google](https://support.google.com/a/users/answer/7212025?hl=en).

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 993b066ecefb4b345c59289d6c6466ef0416d620
+source-git-commit: 0d746db3b3665b288b4724c346a02d3f459fc365
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: '1709'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,19 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 <span class="preview">Le funzioni fuori ciclo (quelle rilasciate in produzione prima della data di rilascio del secondo trimestre 2025) sono evidenziate in giallo.</span>
 
-## Pianificazione della versione
+## Versione programmare
 
-Le versioni Workfront sono numerate per tenere conto delle versioni mensili e trimestrali. Il primo numero indica l’anno e il secondo il mese di rilascio. Esempio: la versione di aprile 2025 è numerata 25.4.
+Le versioni di Workfront sono numerate al account per le tracce di rilascio mensili e trimestrali. Il primo numero indica l&#39;anno e il secondo numero indica il mese del rilascio. Esempio: la versione per aprile 2025 è numerata 25.4.
 
-Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere disponibili il giovedì della seconda settimana completa del mese.
+Le versioni mensili e trimestrali sono pianificate per essere disponibili il giovedì della seconda settimana completa del mese, se non diversamente specificato.
 
-| Versione mensile | Versione trimestrale |
+| Rilascio mensile | Pubblicazione trimestrale |
 | ----------------- | ----------------- |
 | <ul><li>25.2 (13 febbraio 2025)</li><li>25.3 (13 marzo 2025)</li><li>25.4 (10 aprile 2025)</li></ul> | <ul><li>25.4 (10 aprile 2025)</li></ul> |
 
 >[!NOTE]
 >
->Per la versione finale di ogni trimestre (25.4 questo trimestre), gli utenti che eseguono la pianificazione del rilascio rapido riceveranno la versione con un giorno di anticipo.
+>Per la versione finale di ogni trimestre (25,4 in questo trimestre), gli utenti dell&#39;programmare di rilascio rapido riceveranno la versione con un giorno di anticipo.
 >
 >Per ulteriori informazioni sul processo di rilascio rapido, vedere [Attivare o disattivare il processo di rilascio rapido](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -88,20 +88,20 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
-<!--    <tr>
+    <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            New document approval decision buttons available in proofing viewer</a></p>
-            <p>The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.</p>
+            Pulsanti di decisione per l'approvazione di un nuovo documento disponibili nel visualizzatore di bozze</a></p>
+            <p>I nuovi pulsanti di decisione per l'approvazione del documento vengono ora visualizzati nel visualizzatore di bozze. Ora, quando si crea una semplice bozza e si aggiungono approvatori e revisori dal riepilogo del documento, questi possono prendere la decisione direttamente all’interno del visualizzatore di bozze.</p>
         </td>
         <td>
-            <p><b>Available on these dates:</b></p>
+            <p><b>Disponibile in queste date:</b></p>
             <ul>
-                <li>Preview release: March 27, 2025</li>
-                <li>Production release for all customers: With the 25.4 release (April 2025)</li>
+                <li>Versione di anteprima: 9 aprile 2025</li>
+                <li>Versione di produzione per un set limitato di clienti: con la versione 25.4 (aprile 2025)</li>
             </ul>
         </td>
-    </tr>    -->                      
+    </tr>                        
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -157,16 +157,16 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
                 <li>Anteprima versione: N/D</li>
                 <span class="preview"><li>Versione di produzione per tutti i clienti: 12 marzo 2025</li> 
             </ul>
-            <p><b>Disponibile in questi ambienti:</b></p>
+            <p><b>Disponibile nei seguenti ambienti:</b></p>
             <ul>
-                <li>app mobile di iOS</li>
+                <li>App mobile iOS</li>
             </ul>
         </td>
     </tr>                          
 </tbody>
 </table>
 
-### Miglioramenti al progetto
+### Miglioramenti apportati ai progetti
 
 <table>
 <col style="width: 50%;" />
@@ -182,7 +182,7 @@ Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere dis
             <p><b>Disponibile in queste date:</b></p>
             <ul>
                 <li>Versione di anteprima: 13 febbraio 2025</li>
-                <li>Produzione per rilascio rapido: con la versione 25.3 (marzo 2025)</li>
+                <li>Produzione per il rilascio rapido: con la versione 25.3 (marzo 2025)</li>
                 <li>Versione di produzione per tutti i clienti: con la versione 25.4 (aprile 2025)</li>
             </ul>
         </td>
@@ -304,11 +304,11 @@ L’immagine seguente mostra l’opzione agile legacy che verrà rimossa:
 ![collegamento visualizzazione agile legacy](assets/project-agile-board-view.png)
 
 
-#### Obsolescenza avanzata di Analytics
+#### Deprecazione avanzata dei Analytics
 
-A causa di un utilizzo basso e in calo, abbiamo deciso di rendere obsoleto il prodotto Analytics avanzato nella settimana del 25 maggio 2025.
-Consigliamo di considerare il nostro prodotto Data Connect come un sostituto. Data Connect consente di creare visualizzazioni personalizzate simili utilizzando gli strumenti di business intelligence preferiti.
-Per ulteriori informazioni su questa rimozione, consulta la [Guida all&#39;eliminazione di Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
+A causa del basso utilizzo e del calo di utilizzo, abbiamo deciso di rendere obsoleto il prodotto Enhanced Analytics la settimana del 25 maggio 2025.
+Ti consigliamo di prendere in considerazione il nostro prodotto Data Connect come sostituto. Data Connect consente di versione visualizzazioni personalizzabili simili utilizzando gli strumenti di intelligence aziendali preferiti.
+Per ulteriori informazioni su questa deprecazione, vedi la [Guida](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) alla deprecazione di Analytics avanzata.
 
 ## Notifiche
 
@@ -334,13 +334,13 @@ Le nuove funzioni di Workfront Planning sono disponibili in Produzione. Per ulte
 
 ### Miglioramenti di Workfront Scenario Planner
 
-A questo punto della versione, non sono presenti aggiornamenti di Scenario Planner. Questa area verrà aggiornata quando saranno disponibili aggiornamenti.
+A questo punto del rilascio non sono disponibili aggiornamenti di Scenario Planner. Quest&#39;area verrà aggiornata non appena saranno disponibili aggiornamenti.
 
-### Miglioramenti di Workfront Proof
+### Miglioramenti a prova di Workfront
 
-A questo punto della versione, non ci sono aggiornamenti per Workfront Proof. Questa area verrà aggiornata quando saranno disponibili aggiornamenti.
+Non sono disponibili aggiornamenti Workfront Proof a questo punto della release. Quest&#39;area verrà aggiornata non appena saranno disponibili aggiornamenti.
 
-### Miglioramenti agli obiettivi di Workfront
+### Miglioramenti degli obiettivi del fronte di lavoro
 
 A questo punto della versione, non ci sono aggiornamenti per gli Obiettivi di Workfront. Questa area verrà aggiornata quando saranno disponibili aggiornamenti.
 

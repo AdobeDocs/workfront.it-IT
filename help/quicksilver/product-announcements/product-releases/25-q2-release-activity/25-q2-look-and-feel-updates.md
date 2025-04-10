@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 69f9797b5427a5dd72b7b8531cd5aa41013b3d5d
+source-git-commit: 0d746db3b3665b288b4724c346a02d3f459fc365
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,33 @@ ht-degree: 0%
 Questa pagina descrive piccoli aggiornamenti all’aspetto di varie aree dell’applicazione Adobe Workfront che sono stati apportati nell’arco temporale del rilascio del secondo trimestre 2025.
 
 Per un elenco di tutte le modifiche disponibili con la versione del secondo trimestre 2025, consulta [Panoramica sulla versione del secondo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+
+## Aggiornamento look-and-feel della finestra di dialogo per l’integrazione del documento di Google Drive
+
+>[!NOTE]
+>
+>Versione di anteprima: 26 marzo 2025; versione di produzione per tutti i clienti: con la versione 25.4 (10 aprile 2025)
+
+È stato aggiornato l&#39;aspetto quando si utilizza l&#39;integrazione del documento Google Drive per creare una nuova versione di un documento. Questo aggiornamento porta la finestra di dialogo Versione > Da Google Drive in parità con la finestra di dialogo Aggiungi nuovo > Da Google Drive.
+
+In precedenza era possibile scegliere tra Unità condivisa o Unità condivisa se l&#39;account era associato a una di esse. La finestra di dialogo viene visualizzata direttamente nell&#39;area My Drive dell&#39;unità Google.
+
++++ Espandi per visualizzare questa modifica
+
+<table>
+ <thead>
+    <tr>
+        <th>Precedente</th>
+        <th>Nuovo</th>
+    </tr>
+  </thead>
+ <tr>
+        <td><img src="assets/legacy-add.png" alt="aggiungi documento con integrazione Google Drive"></td>
+         <td><img src="assets/new-add.png" alt="aggiungi documento con integrazione Google Drive"></td>
+    </tr>
+</table>
+
++++
 
 ## Esperienza aggiornata nell’area Livelli di accesso in Configurazione
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 32c0df18-2093-42c2-810a-015345d2fa7c
-source-git-commit: e07e4c7bbdc7f68695df94cc1155e3997bad338b
+source-git-commit: 0d746db3b3665b288b4724c346a02d3f459fc365
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -22,23 +22,23 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 >
 >Le funzioni elencate in questa pagina fanno parte di un rilascio graduale e sono disponibili solo per clienti specifici.
 
-<!--
 
-## New document approval decision buttons available in proofing viewer
+
+## Pulsanti di decisione per l&#39;approvazione di un nuovo documento disponibili nel visualizzatore di bozze
 
 >[!NOTE]
 >
->Preview release: March 27, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
+>Versione di anteprima: 8 aprile 2025; versione di produzione per tutti i clienti: con la versione 25.4 (10 aprile 2025)
 
-The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.
+I nuovi pulsanti di decisione per l&#39;approvazione del documento vengono ora visualizzati nel visualizzatore di bozze. Ora, quando si crea una semplice bozza e si aggiungono approvatori e revisori dal riepilogo del documento, questi possono prendere la decisione direttamente all’interno del visualizzatore di bozze.
 
-Previously, you had to exit the proofing viewer to make a decision.
+In precedenza, per prendere una decisione, era necessario uscire dal visualizzatore di bozze.
 
-Approvals created before this release will not display the buttons in proofing viewer.
+Le approvazioni create prima di questa versione non visualizzano i pulsanti nel visualizzatore di bozze.
 
-For more information, see [Use new document approvals and proofing together](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
+Per ulteriori informazioni, vedere [Utilizzare insieme le approvazioni e le prove dei nuovi documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
 
--->
+
 
 ## Aggiornamento visualizzatore bozze desktop
 
