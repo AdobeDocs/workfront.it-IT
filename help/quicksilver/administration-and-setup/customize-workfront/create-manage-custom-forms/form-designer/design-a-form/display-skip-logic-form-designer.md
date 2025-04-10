@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 64deb1b0b3ba52f869ca38e2a26288d461070f82
+source-git-commit: f94ad0f289064f243aadb08226bd5e53357f650d
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1680'
 ht-degree: 0%
 
 ---
 
 # Aggiungere regole logiche a campi e moduli personalizzati
-
-{{highlighted-preview}}
 
 Le regole logiche consentono di personalizzare ulteriormente i campi nel modulo.
 
@@ -115,13 +113,7 @@ La logica di visualizzazione definisce quali campi personalizzati vengono visual
 1. Selezionare la scheda **Visualizzazione** nel generatore di logica.
 1. Fai clic su **Aggiungi regola di visualizzazione**.
 
-   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
-
    ![Generatore di logica di visualizzazione](assets/simple-display-logic1-val-only-in-menu.png)
-
-   Immagine di esempio nell’ambiente di produzione:
-
-   ![Generatore di logica di visualizzazione](assets/custom-form-logic-builder-display-blank.png)
 
 1. Segui i passaggi seguenti per creare l’istruzione logica nel generatore.
 
@@ -130,17 +122,11 @@ La logica di visualizzazione definisce quali campi personalizzati vengono visual
    1. La terza opzione è **Selezionato** o **Non selezionato**. Scegliendo **Selezionato**, quando il valore è selezionato, viene visualizzato il campo di destinazione. La scelta di **Non selezionato** indica che quando nel campo di definizione viene selezionato un altro valore, viene visualizzato il campo di destinazione.
    1. Per aggiungere una regola **And** all&#39;istruzione logica, fare clic su **Aggiungi regola** direttamente sotto la regola appena creata. Segui le stesse istruzioni per generare la regola. Affinché il campo di destinazione venga visualizzato, è necessario che siano soddisfatte tutte le regole AND.
 
-      <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
-
       ![Generatore di logica di visualizzazione](assets/simple-display-logic2.png)
-
-      Immagine di esempio nell’ambiente di produzione:
-
-      ![Generatore di logica di visualizzazione](assets/custom-form-logic-builder-display1.png)
 
    1. Per aggiungere una regola **Or** all&#39;istruzione di logica, fare clic su **Aggiungi regola** nella parte inferiore del generatore di logica. Quindi, fai clic su **Aggiungi regola** all&#39;interno dell&#39;area O e segui le stesse istruzioni per generare la regola. Quando viene soddisfatta una regola Or, viene visualizzato il campo di destinazione.
 
-1. Al termine della creazione dell&#39;istruzione logica, fare clic su **Salva** <span class="preview">o **Applica**</span>.
+1. Fare clic su **Applica** al termine della creazione dell&#39;istruzione logica.
 
    Le icone della logica di visualizzazione vengono aggiunte al campo di destinazione e al campo di definizione nel progettista del modulo.
 
@@ -212,14 +198,7 @@ La logica di salto definisce i campi modulo personalizzati che vengono saltati q
 1. Seleziona la scheda **Ignora** nel generatore di logica.
 1. Fai clic su **Aggiungi regola di salto**.
 
-
-   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
-
    ![Ignora generatore di logica](assets/skip-logic1-val-only-in-menu.png)
-
-   Immagine di esempio nell’ambiente di produzione:
-
-   ![Ignora generatore di logica](assets/custom-form-logic-builder-skip-blank.png)
 
 1. Segui i passaggi seguenti per creare l’istruzione logica nel generatore.
 
@@ -228,21 +207,13 @@ La logica di salto definisce i campi modulo personalizzati che vengono saltati q
    1. La seconda opzione è **Selezionato** o **Non selezionato**. La scelta di **Selezionato** implica che quando il valore è selezionato, il campo di destinazione viene visualizzato e i campi intermedi vengono ignorati. La scelta di **Non selezionato** indica che quando nel campo di definizione viene selezionato un altro valore, viene visualizzato il campo di destinazione e i campi intermedi vengono ignorati.
    1. La terza opzione è il campo di destinazione o il punto in cui passare. Selezionare un nome di campo o **Fine modulo**. Potrebbe essere necessario fare clic sulla parola &quot;vuoto&quot; prima di selezionare un&#39;opzione.
 
-      <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
-
       ![Ignora generatore di logica](assets/skip-logic2.png)
-
-      Immagine di esempio nell’ambiente di produzione:
-
-      ![Ignora generatore di logica](assets/custom-form-logic-builder-skip1.png)
 
    1. Per aggiungere una regola **Or** all&#39;istruzione di logica, fare clic su **Aggiungi regola** nella parte inferiore del generatore di logica. Quindi, seleziona le opzioni seguendo le stesse istruzioni per creare la regola. Quando viene soddisfatta una regola **Or**, viene visualizzato il campo di destinazione.
 
-1. Al termine della creazione dell&#39;istruzione logica, fare clic su **Salva** <span class="preview">o **Applica**</span>.
+1. Fare clic su **Applica** al termine della creazione dell&#39;istruzione logica.
 
    Le icone di salto della logica vengono aggiunte al campo di destinazione e al campo di definizione nel progettista del modulo.
-
-<div class="preview">
 
 ## Aggiungere una logica di convalida a un modulo personalizzato
 
@@ -250,7 +221,7 @@ La logica di convalida viene creata utilizzando le formule e può essere resa se
 
 Se il campo con la logica applicata soddisfa le condizioni di convalida definite quando un utente compila il modulo personalizzato, il campo viene evidenziato e viene visualizzato il messaggio di errore.
 
-È possibile applicare la logica di convalida ai seguenti tipi di campi: testo a riga singola, paragrafo, elenco a discesa a selezione singola, elenco a discesa a selezione multipla, ricerca esterna, pulsanti di scelta, gruppo di caselle di controllo e typeahead.
+È possibile applicare la logica di convalida ai seguenti tipi di campi: testo a riga singola, paragrafo, elenco a discesa a selezione singola, elenco a discesa a selezione multipla, ricerca esterna, completamento automatico, data, gruppo di caselle di controllo e pulsanti di scelta.
 
 ### Esempi
 
@@ -287,14 +258,14 @@ Un altro esempio per la convalida basata su altri campi è un campo relativo all
 
    La logica viene applicata al campo nel progettista del modulo.
 
-</div>
-
 <!--
 <div class="preview">
 
 ## Add formatting logic to a custom form
 
-Formatting logic highlights a field value when it meets the defined conditions. You can apply formatting logic to all field types, and it will work on multiple fields at once.
+Formatting logic highlights a field value when it meets the defined conditions. The applied formatting will work on multiple fields at once.
+
+You can apply formatting logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, typeahead, calculated, date, checkbox group, and radio buttons.
 
 Formatting applied to custom forms is separate from formatting applied to lists and reports. For information on report formatting, see [Use conditional formatting in views](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
