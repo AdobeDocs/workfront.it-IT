@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
 
 # Panoramica sui record collegati
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span> -->
 
 {{planning-important-intro}}
 
@@ -54,11 +54,11 @@ Per informazioni su come connettere i record tra loro o a un altro oggetto, vede
    * Campi record collegati nella vista tabella di un tipo di record in Planning.
    * L&#39;anteprima o la pagina del record nei campi del record collegato nella scheda Dettagli.
    * L&#39;anteprima o la pagina del record nella scheda Connessioni.
-   * <span class="preview">Pagina del record in una scheda della visualizzazione Connessione di un record connesso.</span>
+   * Pagina del record in una scheda della visualizzazione Connessione di un record connesso.
 
 * È possibile collegare oggetti Workfront ai record di Workfront Planning nelle seguenti aree di Workfront:
 
    * La sezione Planning di un oggetto Workfront.
-   * <span class="preview">Campo di connessione Planning nel modulo personalizzato di un oggetto Workfront. </span>
+   * Campo di connessione Planning nel modulo personalizzato di un oggetto Workfront.
 
-  Per informazioni, vedere [Gestire le connessioni record dagli oggetti Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
+  Per informazioni, vedere [Gestire le connessioni record dagli oggetti Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

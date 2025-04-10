@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 1%
+source-wordcount: '825'
+ht-degree: 2%
 
 ---
 
 # Condividere le aree di lavoro
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -91,7 +91,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td>  <p>Gestire le autorizzazioni per un’area di lavoro</p>  </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Modello di layout</p></td> 
+   <td role="rowheader"><p>Modello layout</p></td> 
    <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> </td> 
   </tr> 
 </tbody> 
@@ -104,7 +104,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 ## Considerazioni sulla condivisione delle aree di lavoro
 
 * Per informazioni generali sulla condivisione di oggetti in Workfront Planning, vedere anche [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
-* Puoi condividere le aree di lavoro con utenti, <span class="preview"> team, ruoli, gruppi o aziende </span> all&#39;interno della tua organizzazione.
+* Puoi condividere le aree di lavoro con utenti, team, ruoli, gruppi o aziende all’interno della tua organizzazione.
 * Non è possibile condividere le aree di lavoro con utenti esterni all’organizzazione.
 * Quando si condivide un&#39;area di lavoro, vengono condivisi anche tutti i tipi di record, i record e i campi associati alle aree di lavoro.
 * Quando si condivide un&#39;area di lavoro, le visualizzazioni non vengono condivise. È necessario condividere le visualizzazioni separatamente.
@@ -133,7 +133,7 @@ Per condividere un’area di lavoro con altri utenti:
 
    ![Pulsante Condividi nell&#39;area di lavoro in alto a destra](assets/share-button-on-workspace-top-right.png)
 
-1. Nel campo **Concedi l&#39;accesso a questa area di lavoro**, inizia a digitare il nome di un utente, un gruppo, un <span class="preview">team, una società o una mansione</span>, quindi fai clic su di esso quando viene visualizzato nell&#39;elenco.
+1. Nel campo **Concedi l&#39;accesso a questa area di lavoro**, inizia a digitare il nome di un utente, un gruppo, un team, una società o una mansione e fai clic su di esso quando viene visualizzato nell&#39;elenco.
 
    ![Interfaccia utente condivisa con i gruppi](assets/sharing-ui-with-groups.png)
 

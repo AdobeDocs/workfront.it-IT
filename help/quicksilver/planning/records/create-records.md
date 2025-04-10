@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4b5248f667648543263073022ae10336fb022f97
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2359'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Crea record
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -28,13 +28,13 @@ In Adobe Workfront Planning, un record è un&#39;istanza di un tipo di record.
 È possibile creare record eseguendo una delle operazioni seguenti:
 
 * [Creare record aggiungendoli in linea dalla vista tabella del tipo di record](#create-records-by-adding-them-inline-from-the-record-type-table-view)
-* <span class="preview">[Crea record utilizzando il pulsante Nuovo record o Richiedi record da qualsiasi visualizzazione del tipo di record](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)</span>
+* [Creare record utilizzando il pulsante Nuovo record o Richiedi record da qualsiasi visualizzazione del tipo di record](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
 * [Copiare e incollare un elenco di record da un elenco esterno](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplicare record da una vista tabella](#create-records-by-duplicating-them)
 * [Crea record durante la connessione da altri record](#create-records-as-you-connect-them)
 * [Creare record inviando un modulo di richiesta a un tipo di record](#create-records-by-submitting-a-request-form-to-a-record-type)
-* <span class="preview">[Creare record importando informazioni da un file CSV o Excel](#create-records-by-importing-records-from-a-csv-or-excel-file)</span>
-* <span class="preview">[Crea record tramite automazioni](#create-records-by-using-automations)</span>
+* [Creare record importando informazioni da un file CSV o Excel](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [Creare record utilizzando le automazioni](#create-records-by-using-automations)
 
 Per informazioni sulla gestione dei record nelle viste tabella o sequenza temporale, vedere gli articoli seguenti:
 
@@ -99,7 +99,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
    <td> <p>Autorizzazioni di Contribute o di livello superiore per l'area di lavoro <!--<span class="preview">and record type</span>--> in cui si desidera aggiungere record. </p>
-   <p><span class="preview">Visualizza o autorizzazioni superiori all'area di lavoro <!--<span class="preview">and record type</span>--> per creare record utilizzando il pulsante Richiedi record nella pagina record</span></p>
+   <p>Visualizza o autorizzazioni superiori all'area di lavoro <!--<span class="preview">and record type</span>--> per creare record utilizzando il pulsante Richiedi record nella pagina record</p>
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
    <p>Gestisci le autorizzazioni per gli oggetti Workfront (portfolio) per aggiungere oggetti figlio (progetti).</p>
    </td> 
@@ -182,8 +182,6 @@ I record del tipo selezionato vengono visualizzati nella vista.
    * CTRL + Z (⌘ + Z per Mac) per annullare una modifica
    * CTRL + MAIUSC + Z (⌘ + MAIUSC + Z per Mac) per ripetere una modifica
 
-<div class="preview">
-
 ## Creare record utilizzando il pulsante Nuovo record o Richiedi record da qualsiasi visualizzazione del tipo di record
 
 Gli utenti con autorizzazioni di visualizzazione per l&#39;area di lavoro <!--<span class="preview">and record type</span>--> possono creare record solo utilizzando il pulsante Richiedi record nella pagina Tipo di record.
@@ -247,8 +245,6 @@ Viene aperto il modulo di richiesta del tipo di record.
    * Al tipo di record viene aggiunto un nuovo record, a meno che non si sia scelto di aggiungerlo utilizzando un modulo di richiesta con un processo di approvazione. L&#39;approvazione deve essere concessa da tutti gli approvatori prima della creazione del record.
    * Se si aggiungono record utilizzando un foglio di calcolo CSV o Excel, al tipo di record verranno aggiunti più record.
    * Se la richiesta è stata aggiunta inviando un modulo di richiesta, nella scheda Pianificazione dell&#39;area Richieste Workfront viene aggiunta una nuova richiesta.
-
-</div>
 
 <!-- this is not possible anymore: 
 
@@ -339,7 +335,7 @@ Per creare i record durante la connessione da altri record:
 
      Per informazioni, vedere [Gestire le connessioni record dagli oggetti Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
-1. (Condizionale) Se non riesci a trovare un record durante il tentativo di connessione, <span class="preview">fai clic su **+ Aggiungi**</span>
+1. (Condizionale) Se non riesci a trovare un record durante il tentativo di connessione, fai clic su **+ Aggiungi**
 
    Oppure
 Inizia a digitare un nome, quindi fai clic su **+ Aggiungi**. Il pulsante **+ Aggiungi** è seguito dal nome del tipo di record a cui ti stai connettendo. Ad esempio, &quot;Aggiungi marchi&quot; quando si aggiunge un marchio a una campagna esistente. Il nome digitato segue anche il pulsante Aggiungi.
@@ -376,17 +372,11 @@ Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per l
 
 Per informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
-<div class="preview">
-
 ## Creare record importando record da un file CSV o Excel
 
 È possibile importare record per i tipi di record esistenti quando si importano informazioni da un file CSV o Excel.
 
 Per informazioni, vedere [Creare record importando informazioni da un file CSV o Excel](/help/quicksilver/planning/records/import-file-to-create-records.md).
-
-</div>
-
-<div class="preview">
 
 ## Creare record utilizzando le automazioni
 
@@ -396,6 +386,5 @@ In Workfront Planning è possibile configurare automazioni che, se attivate, cre
 
 Per informazioni, vedere [Creare oggetti utilizzando le automazioni dei record di Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
-</div>
 
 

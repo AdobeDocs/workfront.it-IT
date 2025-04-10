@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2186'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Modifica record
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -92,7 +92,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Modello di layout</p></td> 
+   <td role="rowheader"><p>Modello layout</p></td> 
    <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> </td> 
   </tr> 
 </tbody> 
@@ -242,7 +242,6 @@ Per ulteriori informazioni, vedere [Gestire le visualizzazioni dei record](/help
 
      ![Angolo inferiore destro trascinabile per copia e incolla nella vista tabella](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
-   <div class="preview">
 
    * Copiare una o più celle da un&#39;origine esterna, ad esempio un file di Excel, quindi incollarle in uno dei seguenti tipi di campi:
 
@@ -250,7 +249,6 @@ Per ulteriori informazioni, vedere [Gestire le visualizzazioni dei record](/help
       * Campi Persone. Sono supportati solo i campi con un valore.
 
      Non è possibile copiare informazioni da un’origine esterna e incollarle in altri tipi di campi, inclusi i campi di connessione Workfront o AEM Assets.
-   </div>
 
    >[!NOTE]
    >
@@ -295,11 +293,7 @@ Per ulteriori informazioni, vedere [Gestire le visualizzazioni dei record](/help
 
    Nella vista tabella fare clic sull&#39;icona **Apri dettagli** ![Apri dettagli nel campo nome tabella](assets/open-details-icon-in-table-name-field.png) nella prima colonna. L&#39;anteprima del record viene visualizzata nella vista.
 
-   <div class="preview">
-
    ![Casella Dettagli](assets/details-box.png)
-
-   </div>
 
 1. (Facoltativo) Fai clic sul menu **Altro** a destra del titolo del record, quindi fai clic su **Rinomina**. Il campo visualizzato come titolo del record verrà aggiornato.
 
@@ -320,17 +314,13 @@ Per ulteriori informazioni, vedere [Gestire le visualizzazioni dei record](/help
 
    Workfront salva automaticamente le modifiche.
 
-1. <span class="preview"> (Facoltativo) Fai clic sull&#39;**indicatore in tempo reale** ![icona indicatore in tempo reale](assets/real-time-indicator-icon.png) nell&#39;angolo superiore destro della casella di anteprima del record, quindi abilita l&#39;impostazione **Mostra collaboratori** per evidenziare i campi modificati in tempo reale da altri utenti.
+1. (Facoltativo) Fai clic sull&#39;**indicatore in tempo reale** ![icona indicatore in tempo reale](assets/real-time-indicator-icon.png) nell&#39;angolo superiore destro della casella di anteprima del record, quindi abilita l&#39;impostazione **Mostra collaboratori** per evidenziare i campi modificati in tempo reale da altri utenti.
 
    In quest’area vengono visualizzati i nomi e gli avatar di tutti gli utenti che accedono contemporaneamente al record.
 
-   Quando l’impostazione è disattivata, gli avatar e i nomi sono elencati nell’area dell’indicatore in tempo reale e i campi in fase di modifica non vengono evidenziati. </span>
-
-   <div class="preview">
+   Quando l’impostazione è disattivata, gli avatar e i nomi sono elencati nell’area dell’indicatore in tempo reale e i campi in fase di modifica non vengono evidenziati.
 
    ![Indicatore di tempo reale: casella di anteprima record espansa](assets/real-time-indicator-expanded-record-preview-box.png)
-
-   </div>
 
 1. (Facoltativo) Fai clic sull&#39;icona del menu **Esporta** ![Esporta nella pagina dei dettagli del record](assets/export-icon-in-record-details-page.png) per esportare i dettagli del record. Per informazioni, vedere [Esportare i dettagli di un record](/help/quicksilver/planning/records/export-the-record-page.md).
 
@@ -388,17 +378,13 @@ Per ulteriori informazioni, vedere [Gestire le visualizzazioni dei record](/help
 
    Workfront salva automaticamente le modifiche.
 
-1. <span class="preview"> (Facoltativo) Fai clic sull&#39;**indicatore in tempo reale** ![icona indicatore in tempo reale](assets/real-time-indicator-icon.png) nell&#39;angolo superiore destro della pagina del record, quindi abilita l&#39;impostazione **Mostra collaboratori** per evidenziare i campi modificati in tempo reale da altri utenti.
+1. (Facoltativo) Fai clic sull&#39;**indicatore in tempo reale** ![icona indicatore in tempo reale](assets/real-time-indicator-icon.png) nell&#39;angolo superiore destro della pagina del record, quindi abilita l&#39;impostazione **Mostra collaboratori** per evidenziare i campi modificati in tempo reale da altri utenti.
 
    In quest’area vengono visualizzati i nomi e gli avatar di tutti gli utenti che accedono contemporaneamente al record.
 
-   Quando l’impostazione è disattivata, gli avatar e i nomi sono elencati nell’area dell’indicatore in tempo reale e i campi in fase di modifica non vengono evidenziati. </span>
-
-   <div class="preview">
+   Quando l’impostazione è disattivata, gli avatar e i nomi sono elencati nell’area dell’indicatore in tempo reale e i campi in fase di modifica non vengono evidenziati.
 
    ![Casella di anteprima record espanso indicatore in tempo reale](assets/real-time-indicator-expanded-record-preview-box.png)
-
-   </div>
 
 1. (Facoltativo) Fai clic sull&#39;icona del menu **Esporta** ![Esporta nella pagina dei dettagli del record](assets/export-icon-in-record-details-page.png) per esportare i dettagli del record. Per informazioni, vedere [Esportare i dettagli di un record](/help/quicksilver/planning/records/export-the-record-page.md).
 

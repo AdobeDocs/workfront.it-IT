@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2184'
+source-wordcount: '2046'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -126,7 +126,7 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
 
       * Creato da e Ultima modifica da
       * Data di creazione e data dell’ultima modifica
-      * Formula. <span class="preview">I campi formula sono supportati nell&#39;ambiente di anteprima.</span>
+      * Formula. <!--Formula fields are supported in the Preview environment.-->
       * Campi di ricerca di oggetti Workfront
       * Campi di ricerca dei record connessi di Workfront Planning
 
@@ -136,8 +136,6 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
 
      Tuttavia, il formato del campo viene mantenuto e i valori del campo vengono visualizzati come valuta, numeri e percentuali dopo l’invio della richiesta, nel tipo di record e nella pagina dei dettagli della richiesta.
 
-<div class="preview">
-
 * Di seguito viene descritto come alcuni valori di campo vengono visualizzati nei moduli di richiesta e nelle pagine dei dettagli della richiesta:
 
    * La formattazione speciale per i campi Valuta, Numero e Percentuale non viene mantenuta. Ad esempio, la precisione decimale non viene mantenuta per i valori di questi campi in queste aree.
@@ -145,8 +143,6 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
    * I campi formula che non fanno riferimento ad altri campi o calcoli non visualizzano alcun valore. Ad esempio, un campo con una formula `STRING` visualizza un valore &quot;N/D&quot;.
    * I campi formula che fanno riferimento ai campi Valuta visualizzano i valori senza tenere conto dei tassi di cambio.
    * I valori dei campi Paragrafo visualizzano un valore &quot;N/A&quot; nel modulo di richiesta e visualizzano tag HTML invece del testo formattato nella pagina dei dettagli della richiesta.
-
-</div>
 
 ## Creare un modulo di richiesta per un tipo di record
 
@@ -160,8 +156,8 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
 
    La pagina del tipo di record viene visualizzata nella visualizzazione a cui si è effettuato l&#39;ultimo accesso. Per impostazione predefinita, nella vista tabella viene visualizzata una pagina del tipo di record.
 
-1. Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record nell&#39;intestazione della pagina, quindi fai clic su **Crea modulo di richiesta** <span class="preview">o su **Gestisci moduli di richiesta**, se disponi già di un modulo e desideri crearne di nuovi</span>.
-1. <span class="preview">(Condizionale) Per aggiungere un altro modulo, fare clic su **Nuovo modulo di richiesta**</span>.
+1. Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record nell&#39;intestazione della pagina, quindi fai clic su **Crea modulo di richiesta** o **Gestisci moduli di richiesta**, se disponi già di un modulo e desideri crearne di nuovi.
+1. (Condizionale) Se si desidera aggiungere un altro modulo, fare clic su **Nuovo modulo di richiesta**.
 1. Aggiorna il nome del modulo di richiesta. Per impostazione predefinita, il nome del modulo è **Modulo senza titolo**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Facoltativo) Aggiungi una **Descrizione** per il modulo di richiesta.
 
@@ -274,10 +270,10 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
 
    >[!TIP]
    >
-   ><span class="preview">Dopo la scadenza della data di condivisione, il modulo di richiesta non è più disponibile nell&#39;area Richieste di Workfront e i collegamenti condivisi con altri utenti non sono più accessibili.</span>
+   >Dopo la scadenza della data di condivisione, il modulo di richiesta non è più disponibile nell’area Richieste di Workfront e i collegamenti condivisi con altri utenti non sono più accessibili.
 
 
-1. <span class="preview">(Facoltativo)</span> Fare clic su **Salva e copia collegamento** per salvare i dettagli di condivisione per il modulo. Se il modulo è stato salvato in precedenza, fare clic su **Copia collegamento**.
+1. (Facoltativo) Fai clic su **Salva e copia collegamento** per salvare i dettagli di condivisione del modulo. Se il modulo è stato salvato in precedenza, fare clic su **Copia collegamento**.
 
    Le opzioni di condivisione del modulo vengono salvate e il collegamento viene copiato negli Appunti. Ora puoi condividerlo con altri utenti.
 
@@ -287,36 +283,34 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
 
 1. Fare clic sulla freccia rivolta a sinistra a sinistra del nome della maschera nell&#39;intestazione per chiudere la maschera.
 
-   <span class="preview">Viene aperta la vista tabella **Moduli richiesta** alla quale viene aggiunto il modulo.</span>
+   Viene aperta la vista tabella **Moduli di richiesta** alla quale viene aggiunto il modulo.
 
-1. <span class="preview">(Facoltativo) Passare il puntatore del mouse sul nome di un modulo di richiesta nella visualizzazione tabella, quindi fare clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del modulo e fare clic su uno dei seguenti elementi:</span>
+1. (Facoltativo) Passa il puntatore del mouse sul nome di un modulo di richiesta nella visualizzazione tabella, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del modulo e fai clic su una delle seguenti opzioni:
 
-   * <span class="preview">**Modifica modulo**: fare clic qui per modificare ulteriormente le informazioni nel modulo. </span>
-   * <span class="preview"> **Annulla pubblicazione**: fare clic qui per annullare la pubblicazione del modulo che lo rimuove dall&#39;area Richieste di Workfront. </span>
-   * <span class="preview">**Condividi**: fare clic qui per modificare gli utenti che hanno accesso al modulo. </span>
-   * <span class="preview">**Copia collegamento**: fare clic qui per copiare rapidamente il collegamento del modulo di richiesta senza aprire il modulo. </span>
-   * <span class="preview">**Elimina**: fare clic qui per eliminare il modulo. Tutte le richieste e i record aggiunti utilizzando il modulo non vengono eliminati. Impossibile recuperare il modulo. </span>
+   * **Modifica modulo**: fare clic qui per modificare ulteriormente le informazioni nel modulo.
+   * **Annulla pubblicazione**: fare clic qui per annullare la pubblicazione del modulo che lo rimuove dall&#39;area Richieste di Workfront.
+   * **Condividi**: fare clic qui per modificare gli utenti che hanno accesso al modulo.
+   * **Copia collegamento**: fare clic qui per copiare rapidamente il collegamento del modulo di richiesta senza aprire il modulo.
+   * **Elimina**: fare clic qui per eliminare il modulo. Tutte le richieste e i record aggiunti utilizzando il modulo non vengono eliminati. Impossibile recuperare il modulo.
 
    ![Altro menu nel modulo di richiesta dall&#39;elenco dei moduli di richiesta](assets/more-menu-on-request-form-from-request-forms-list.png)
 
 
-1. <span class= "preview">Fare clic sulla freccia rivolta a sinistra a sinistra di **Moduli di richiesta** nell&#39;intestazione per chiudere la tabella dei moduli di richiesta.   </span>
+1. Fare clic sulla freccia rivolta a sinistra a sinistra di **Moduli di richiesta** nell&#39;intestazione per chiudere la tabella dei moduli di richiesta.
 
-   <span class= "preview">Viene visualizzata la pagina del tipo di record. </span>
-1. (Facoltativo e condizionale) Per modificare un modulo esistente, effettuare una delle seguenti operazioni, a seconda dell&#39;ambiente in uso:
+   Viene visualizzata la pagina del tipo di record.
+1. (Facoltativo e condizionale) Per modificare un modulo esistente:
 
-   * Dall’ambiente di produzione:
+   1. Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record nell&#39;intestazione, quindi fai clic su **Gestisci moduli di richiesta**. </span>
 
-      1. Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record nell&#39;intestazione, quindi effettua una delle seguenti operazioni:
+      Verrà aperta la vista tabella Moduli richiesta.
 
-      1. Fai clic su **Aggiorna modulo di richiesta** per apportare eventuali modifiche al modulo di richiesta.
-      1. Fai clic su **Copia collegamento al modulo di richiesta** per condividere il collegamento al modulo con altri utenti.
+   1. Fare clic su un modulo di richiesta per aprirlo e modificarlo.
+   1. (Facoltativo) Vai all&#39;area **Richieste** in Workfront e trova il modulo condiviso per inviare una richiesta. Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md).
 
-   * <span class="preview">Dall&#39;ambiente di anteprima:
-
-      1. Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record nell&#39;intestazione, quindi fai clic su **Gestisci moduli di richiesta**. </span>
-
-         <span class="preview">Verrà aperta la visualizzazione della tabella Moduli di richiesta. </span>
-
-      1. <span class="preview">Fare clic su un modulo di richiesta per aprirlo e modificarlo.</span>
-      1. <span class= "preview">(Facoltativo) Passare all&#39;area **Richieste** in Workfront e trovare il modulo condiviso per inviare una richiesta. Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md).</span>
+<!--   * From the Production environment:
+   
+      1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the header, then do one of the following: 
+   
+      1. Click **Update request form** to make any changes to the request form.
+      1. Click **Copy link to request form**  to share the link to the form with others.-->

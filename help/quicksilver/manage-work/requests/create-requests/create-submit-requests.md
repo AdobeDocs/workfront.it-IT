@@ -6,9 +6,9 @@ description: Il lavoro pianificato è rappresentato in Adobe Workfront dai proge
 author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2740'
+source-wordcount: '2680'
 ht-degree: 1%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 1%
 </div>
 -->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Il lavoro pianificato è rappresentato in Adobe Workfront dai progetti e dalle attività. Tuttavia, puoi lavorare in un ambiente in cui è possibile inserire lavoro non pianificato, sotto forma di richieste, in qualsiasi momento. Workfront fornisce un flusso di lavoro per questo tipo di ambiente tramite l’utilizzo di Code di richieste.
 
@@ -44,7 +44,7 @@ Puoi creare una richiesta Workfront nei seguenti modi:
 
 * Da un collegamento a un modulo di richiesta di Workfront Planning.
 
-* <span class="preview">Da un modulo di richiesta di Workfront Planning nell&#39;area Richieste di Workfront. </span>
+* Da un modulo di richiesta Workfront Planning nell&#39;area Richieste di Workfront.
 
   L&#39;organizzazione deve acquistare un pacchetto Workfront Planning. Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md).
 
@@ -124,12 +124,12 @@ Per creare una richiesta nell’app web Workfront:
 
 {{step1-to-requests}}
 
-1. <span class="preview"> (Facoltativo e condizionale) Selezionare l&#39;impostazione **Passa alla nuova esperienza** in alto a destra dello schermo se all&#39;organizzazione e all&#39;istanza di Workfront si applicano le seguenti condizioni: </span>
+1. (Facoltativo e condizionale) Seleziona l&#39;impostazione **Passa alla nuova esperienza** in alto a destra dello schermo, se all&#39;organizzazione e all&#39;istanza di Workfront si applicano le seguenti condizioni:
 
-   * <span class="preview">La tua organizzazione ha acquistato un pacchetto Workfront</span>
-   * <span class="preview">La tua organizzazione è stata integrata in Adobe Unified Experience.
-   * <span class="preview">L&#39;amministratore ti ha concesso l&#39;accesso a Workfront Planning</span>
-   * <span class="preview">Si dispone almeno delle autorizzazioni di visualizzazione per un&#39;area di lavoro di Workfront Planning</span>
+   * La tua organizzazione ha acquistato un pacchetto Workfront
+   * La tua organizzazione è stata integrata in Adobe Unified Experience.
+   * L&#39;amministratore ti ha concesso l&#39;accesso a Workfront Planning
+   * Si dispone almeno delle autorizzazioni di visualizzazione per un&#39;area di lavoro di Workfront Planning
 
    Per ulteriori informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md)
 
@@ -142,15 +142,15 @@ Per creare una richiesta nell’app web Workfront:
 
    Viene visualizzata la casella **Nuova richiesta**.
 
-1. <span class="preview">(Condizionale) Se si è passati alla nuova esperienza che include Workfront Planning, nella casella **Nuova richiesta** verrà visualizzato quanto segue:</span>
+1. (Condizionale) Se si è passati alla nuova esperienza che include Workfront Planning, nella casella **Nuova richiesta** viene visualizzato quanto segue:</span>
 
-   * <span class="preview">Le 6 code di richieste Workfront e i moduli di richiesta Planning utilizzati più di recente vengono visualizzati nella sezione Recenti. </span>
-   * <span class="preview">50 code di richieste aggiuntive di Workfront e moduli di richiesta di Planning vengono visualizzati in ordine alfabetico nella sezione **Tutti i moduli di richiesta**. Puoi cercare una coda di richieste che non viene visualizzata per impostazione predefinita. </span>
+   * Le 6 code di richieste Workfront e i moduli di richiesta Planning utilizzati più di recente vengono visualizzati nella sezione Recenti.
+   * Nella sezione **Tutti i moduli di richiesta** vengono visualizzate in ordine alfabetico 50 code di richiesta Workfront e moduli di richiesta Planning aggiuntivi. Puoi cercare una coda di richieste che non viene visualizzata per impostazione predefinita.
 
    ![Nuova casella di richiesta con flusso di lavoro unificato per le richieste di pianificazione](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
 
-   <span class="preview">Fare clic su una delle schede della coda di richieste di Workfront o cercarne una, quindi fare clic su di essa quando viene visualizzata nell&#39;elenco. </span>
-1. (Condizionale) <span class="preview">Se si è passati alla nuova esperienza che include Workfront Planning, selezionare i gruppi di argomenti e gli argomenti della coda e continuare ad aggiornare il modulo</span>
+   Fai clic su una delle schede della coda di richieste di Workfront o cercalo, quindi fai clic su di essa quando viene visualizzata nell’elenco.
+1. (Condizionale) Se si è passati alla nuova esperienza che include Workfront Planning, selezionare i gruppi di argomenti e gli argomenti della coda e continuare ad aggiornare il modulo.
 
    In caso contrario, fare clic all&#39;interno del campo **Tipo di richiesta** ed eseguire una delle operazioni seguenti:
 
@@ -333,7 +333,7 @@ Per creare una richiesta nell’app web Workfront:
 
    Quando inviate la richiesta, la bozza viene eliminata automaticamente e non può essere ripristinata.
 
-   Le richieste inviate sono elencate nella sezione **Inviate** dell&#39;area Richieste. <span class="preview">Se si utilizza la nuova esperienza che include Workfront Planning, le richieste inviate da Workfront verranno visualizzate nella scheda **Workfront** dell&#39;area Richieste. </span>
+   Le richieste inviate sono elencate nella sezione **Inviate** dell&#39;area Richieste. Se si utilizza la nuova esperienza che include Workfront Planning, le richieste inviate da Workfront verranno visualizzate nella scheda **Workfront** dell&#39;area Richieste.
 
    Per informazioni sulla gestione delle richieste in arrivo, vedere l&#39;articolo [Gestione delle richieste del team e del lavoro](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 

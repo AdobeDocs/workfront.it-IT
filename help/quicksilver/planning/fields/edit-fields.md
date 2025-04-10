@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
+source-git-commit: e49f1b3d9de3984ed798e20a0a0f03f9d4060115
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '718'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Modifica impostazioni campo
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -121,8 +121,7 @@ Prima di apportare modifiche alla configurazione di un campo, è necessario cons
   >
   >Non viene inviata alcuna notifica agli altri utenti circa la modifica della configurazione del campo.
 
-* Nell’ambiente di produzione non è possibile modificare i campi di ricerca esistenti.
-  <span class="preview">Nell&#39;ambiente di anteprima è possibile modificare i campi di ricerca esistenti dai record connessi.</span>
+* È possibile modificare i campi di ricerca esistenti dai record connessi.
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 

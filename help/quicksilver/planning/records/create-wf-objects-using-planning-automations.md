@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 585a65c497211c84cffafeeaa5016218fd66acd2
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2197'
+source-wordcount: '2138'
 ht-degree: 2%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 2%
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 È possibile configurare le automazioni in Adobe Workfront Planning che, se attivate, creano oggetti in Workfront o record in Workfront Planning quando attivate da un record Planning. Gli oggetti o i record creati vengono automaticamente collegati ai record da cui si sta attivando l&#39;automazione.
 
@@ -37,7 +37,7 @@ Per ulteriori informazioni sui record connessi, vedere [Panoramica sui record co
 
 È possibile creare gli elementi seguenti utilizzando le automazioni in Workfront Planning:
 
-* Uno <span class="preview">o più</span> progetti
+* Uno o più progetti
 * Un gruppo
 * Un programma
 * Un portfolio
@@ -123,15 +123,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 * Il nome dell&#39;oggetto o del record creato da un&#39;automazione corrisponde al nome del record da cui è stato creato quando si crea un singolo oggetto.
 
-<div class="preview">
-
 * Quando crei più progetti, questi vengono denominati automaticamente in base al seguente pattern:
 
   `[ Name of the record ] Name of the field choice`
 
   Per ulteriori informazioni, vedere la sezione [Utilizzare un&#39;automazione di Workfront Planning per creare un oggetto o un record](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) in questo articolo.
-
-</div>
 
 * I nuovi oggetti o record non sostituiscono quelli esistenti nello stesso campo. Attivando più volte la stessa automazione per lo stesso record, vengono aggiunti i nuovi oggetti o record nello stesso campo connesso del record originale, oltre a quelli creati in precedenza.
 
@@ -166,8 +162,8 @@ Viene visualizzata la pagina dei dettagli dell’automazione.
    * **Azioni**: selezionare l&#39;azione che si desidera venga eseguita da Workfront quando si attiva l&#39;automazione. Questo campo è obbligatorio.
 Selezionare una delle azioni seguenti:
 
-      * <span class="preview">Crea più progetti</span>
-      * <span class="preview">Crea un singolo progetto</span>
+      * Creazione di più progetti
+      * Crea un singolo progetto
       * Crea progetto
       * Crea record
       * Crea programma
@@ -180,11 +176,9 @@ Selezionare una delle azioni seguenti:
 
 1. (Condizionale) A seconda dell’azione selezionata, aggiorna i campi seguenti:
 
-   * **Crea <span class="preview">un singolo</span> progetto**: <!--replace to the left: Create a single project-->
+   * **Crea un singolo progetto**: <!--replace to the left: Create a single project-->
       * **Campo connesso in cui viene creato il progetto**: campo connesso in cui verrà visualizzato il nuovo progetto. Questo è un campo obbligatorio.
       * **Modello di progetto**: selezionare un modello di progetto che verrà utilizzato da Workfront per creare il progetto.
-
-   <div class="preview">
 
    * Creazione di più progetti:
       * **Campo connesso in cui viene creato il progetto**: campo connesso in cui verrà visualizzato il nuovo progetto. Questo è un campo obbligatorio.
@@ -197,8 +191,6 @@ Selezionare una delle azioni seguenti:
 
       * **Usa lo stesso modello**: selezionare questa opzione per utilizzare lo stesso modello per ogni nuovo progetto. Se l&#39;opzione è deselezionata, selezionare un **modello di progetto** per ogni scelta di campo.
       * **Modello di progetto**: se è stata selezionata l&#39;opzione **Usa lo stesso modello**, selezionare un modello di progetto che verrà utilizzato da Workfront per creare i progetti.
-
-   </div>
 
    * **Crea portfolio**:
       * **Campo connesso in cui viene creato il portfolio**: campo connesso in cui verrà visualizzato il nuovo portfolio. Questo è un campo obbligatorio.
@@ -311,15 +303,11 @@ Nell&#39;area **Mappa campi**, aggiorna le seguenti informazioni:
 
    * Il nuovo oggetto viene visualizzato nel campo connesso indicato nella configurazione del pulsante di automazione. Potrebbe essere necessario aggiornare la pagina prima di visualizzare il nuovo oggetto. Il nuovo oggetto ha lo stesso nome del record originale.
 
-   <div class="preview">
-
    * Se sono stati creati più progetti in base alle scelte di campi a selezione multipla o singola, i progetti vengono denominati automaticamente in base al seguente pattern:
 
      `[ Name of the record ] Name of the field choice`
 
      Ad esempio, se una campagna denominata `Summer breeze` ha generato un progetto da un campo scelto di `EMEA`, il progetto si chiama `[ Summer breeze ] EMEA`.
-
-   </div>
 
    * Il record da cui stai attivando l’automazione viene aggiunto al campo connesso del nuovo record.
 

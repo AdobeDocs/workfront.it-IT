@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '7703'
+source-wordcount: '7643'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 <!--Audited: 07/2024-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -169,7 +169,7 @@ Per informazioni sulla creazione di un progetto da un modello, vedere [Creare un
    * [Impostazioni attività](#task-settings)
    * [Impostazioni problema](#issue-settings)
    * [Accesso](#access)
-   * <span class="preview">[Commento](#comment)</span>
+   * [Commento](#comment)
 
 
    >[!NOTE]
@@ -667,7 +667,6 @@ Per informazioni sull&#39;effetto di queste impostazioni sulla creazione di nuov
 
 1. Fai clic su **Salva**.
 
-<div class="preview">
 
 ### Commento
 
@@ -679,7 +678,6 @@ Per informazioni sull&#39;effetto di queste impostazioni sulla creazione di nuov
 1. Aggiungi un commento nello spazio fornito. Workfront aggiunge il commento nell’area Aggiornamenti del progetto. Per ulteriori informazioni sull&#39;aggiornamento del lavoro, vedere [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Fai clic su **Salva**.
 
-</div>
 
 ## Modificare un progetto nell’intestazione del progetto (limitato)
 
@@ -804,7 +802,7 @@ Per ulteriori informazioni sulla modifica dell&#39;area Impostazioni attività, 
 Per ulteriori informazioni sulla modifica dell&#39;area Impostazioni problemi, vedere la sezione [Impostazioni problemi](#issue-settings) in questo articolo.
 1. Fare clic su **Accesso** per modificare le impostazioni di accesso per tutti i progetti selezionati.
 Per ulteriori informazioni sulla modifica dell&#39;area di accesso, vedere la sezione [Accesso](#access) in questo articolo.
-1. <span class="preview">Fai clic su **Commento**, quindi aggiungi un commento nello spazio fornito. Workfront aggiunge il commento nell&#39;area **Aggiornamenti** di ciascun progetto. Per informazioni sull&#39;aggiornamento del lavoro, vedere [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>
+1. Fai clic su **Commento**, quindi aggiungi un commento nello spazio fornito. Workfront aggiunge il commento nell&#39;area **Aggiornamenti** di ciascun progetto. Per informazioni sull&#39;aggiornamento del lavoro, vedere [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Facoltativo) Per rimuovere le informazioni aggiunte nella casella Modifica progetti, passa il puntatore del mouse su un campo modificato, quindi fai clic sull&#39;icona Elimina **x** in alto a destra nel campo.
 
    ![Icona Elimina per progetti di modifica di campi in blocco](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)

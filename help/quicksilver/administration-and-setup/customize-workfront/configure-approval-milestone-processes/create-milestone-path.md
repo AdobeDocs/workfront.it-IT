@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '815'
 ht-degree: 3%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 3%
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 In qualità di amministratore di Adobe Workfront, puoi creare percorsi milestone che possono quindi essere applicati a qualsiasi progetto del sistema. Le modifiche apportate ai percorsi milestone in quest&#39;area hanno effetto sull&#39;intero sistema Workfront.
 
@@ -123,20 +123,18 @@ Per ulteriori informazioni su come associare un percorso milestone a un progetto
    Per ulteriori informazioni su come associare percorsi milestone a progetti e milestone ad attività, vedere [Associare milestone ad attività](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 
-1. <span class="preview">(Facoltativo) Fare clic sull&#39;icona **Esporta** ![Icona Esporta](assets/export-icon.png), quindi selezionare uno dei formati seguenti per esportare l&#39;elenco dei percorsi milestone in un file: </span>
+1. (Facoltativo) Fai clic sull&#39;icona **Esporta** ![Icona Esporta](assets/export-icon.png), quindi seleziona uno dei seguenti formati per esportare l&#39;elenco dei percorsi delle milestone in un file:
 
    * PDF
    * Excel
    * Excel (xlsx)
    * Delimitato in tabella
 
-1. <span class="preview">(Facoltativo) Selezionare un&#39;attività cardine nell&#39;elenco delle attività cardine, quindi fare clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png) per modificare le informazioni sulle attività cardine. </span>
-1. <span class="preview">(Facoltativo) Selezionare un&#39;attività cardine nell&#39;elenco delle attività cardine, quindi fare clic sull&#39;icona **Elimina** ![Elimina icona](assets/delete-icon.png) per eliminarla. </span>
-1. <span class="preview">Fare clic su **Sì, eliminarlo**. </span>
-   <span class="preview">La milestone è stata eliminata e non può essere recuperata. Vengono eliminate anche tutte le informazioni sul progetto associate alla fase cardine e tutte le informazioni sull&#39;attività associate ai percorsi delle fasi cardine. </span>
+1. (Facoltativo) Seleziona una milestone nell&#39;elenco, quindi fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png) per modificare le informazioni sulla milestone.
+1. (Facoltativo) Seleziona una milestone nell&#39;elenco delle milestone, quindi fai clic sull&#39;icona **Elimina** ![Elimina icona](assets/delete-icon.png) per eliminarla.
+1. Fai clic su **Sì, elimina**.
+La milestone viene eliminata e non può essere recuperata. Vengono eliminate anche tutte le informazioni sul progetto associate alla fase cardine e tutte le informazioni sull&#39;attività associate ai percorsi delle fasi cardine.
 
-
-<div class="preview">
 
 ## Visualizzare i dettagli del percorso milestone in un rapporto
 
@@ -163,8 +161,6 @@ Per informazioni sull&#39;associazione dei percorsi milestone ai progetti, veder
 
    Vengono visualizzati i dettagli del percorso milestone.
 
-   <div class="preview">
-
    ![Dettagli del percorso milestone dal report del progetto](assets/milestone-details-from-project-report.png)
 
    Nella pagina dei dettagli del percorso della milestone vengono visualizzate le seguenti informazioni:
@@ -175,6 +171,5 @@ Per informazioni sull&#39;associazione dei percorsi milestone ai progetti, veder
 
 1. (Facoltativo) Fai clic su **Indietro** per tornare al report del progetto.
 
-</div>
 
 

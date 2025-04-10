@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1853'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Gestire il layout della pagina record
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -104,7 +104,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Modello di layout</p></td>
+   <td role="rowheader"><p>Modello layout</p></td>
    <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale e l'area Planning per i progetti, i portfolio e i programmi. </p> Per ulteriori informazioni, vedere <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica dell'accesso ad Adobe Planning</a>. </p>  </p>  
 </td>
   </tr>
@@ -161,11 +161,7 @@ Per aggiungere una sezione a un&#39;anteprima record o a una pagina:
 
    L&#39;anteprima del record viene visualizzata nella vista.
 
-   <div class="preview">
-
    ![Casella Dettagli](assets/details-box.png)
-
-   </div>
 
 1. (Facoltativo) Fai clic sull&#39;icona **Apri in una nuova scheda** ![Apri i dettagli in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda.
 
@@ -244,21 +240,13 @@ Si verificano le seguenti situazioni:
 
    L&#39;anteprima del record viene visualizzata nella vista.
 
-   <div class="preview">
-
    ![Casella Dettagli](assets/details-box.png)
-
-   </div>
 
 1. (Facoltativo) Fai clic sull&#39;icona **Apri in una nuova scheda** ![Apri la casella dei dettagli in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda.
 
    Per impostazione predefinita viene aperta la scheda **Dettagli** del record.
 
-   <div class="preview">
-
    ![Pagina dettagli](assets/details-page.png)
-
-   </div>
 
 1. Nella scheda **Dettagli** del record, fai clic sull&#39;icona **grab** ![Grab icon](assets/grab-icon.png) a sinistra di un nome di campo, quindi trascinalo e rilascialo nel punto desiderato.
 
@@ -301,17 +289,13 @@ Per aggiungere una pagina di visualizzazione Connessione:
 Viene visualizzata la vista tabella del tipo di record selezionato e i record collegati vengono visualizzati nella vista tabella.
 Tutti i campi del record connesso vengono visualizzati nella vista a tabella della scheda del record connesso.
 
-   <span class="preview">Quando si accede a Workfront Planning dall&#39;ambiente di anteprima, per impostazione predefinita vengono visualizzati i primi cinque campi della tabella record connessa. Nessun campo di ricerca visualizzato per impostazione predefinita.</span>
+   Quando si accede a Workfront Planning dall&#39;ambiente Anteprima, per impostazione predefinita vengono visualizzati i primi cinque campi della tabella record connessa. Nessun campo di ricerca visualizzato per impostazione predefinita.0
 
    La vista tabella è di sola lettura.
 
    <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
-   <div class="preview">
-
    ![Visualizzazione tabella connessa al pubblico nei dettagli della campagna](assets/audience-connected-table-view-under-campaign-details-page.png)
-
-   </div>
 
 1. (Facoltativo) Fai doppio clic sul nome della scheda
 
@@ -323,7 +307,7 @@ Tutti i campi del record connesso vengono visualizzati nella vista a tabella del
    * Filtri
    * Ordina
    * Raggruppamento
-   * <span class="preview">Campi, per visualizzare, nascondere o ridisporre i campi</span>
+   * Campi, per visualizzare, nascondere o ridisporre i campi
 
    <!--Add to the list above from the list below - and condition these for Preview only: Hide fields, rearrange fields-->
 
@@ -333,11 +317,11 @@ Tutti i campi del record connesso vengono visualizzati nella vista a tabella del
    >
    >   Nella visualizzazione per tabella della scheda di un record connesso non è possibile eseguire alcuna delle operazioni seguenti:
    >
-   >   * Nascondere o ridisporre i campi. <span class="preview">È possibile nascondere e ridisporre i campi nell&#39;ambiente di anteprima.</span>
+   >   * Nascondere o ridisporre i campi. È possibile nascondere e ridisporre i campi nell’ambiente di anteprima.
    >   * Creare, modificare o eliminare campi
    >
 
-1. <span class="preview">Fare clic su **Connetti** per aggiungere o rimuovere record. Per informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md)</span>
+1. Fai clic su **Connetti** per aggiungere o rimuovere record. Per informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md)
 1. (Facoltativo) Passa il puntatore del mouse sul nome della scheda Visualizzazione connessione, fai clic su **Altro** ![Altro menu](assets/more-menu.png), quindi fai clic su **Elimina** per rimuoverlo nella nuova scheda Visualizzazione connessa.
 
 

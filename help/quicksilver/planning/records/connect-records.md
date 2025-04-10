@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '3327'
+source-wordcount: '3267'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Connetti record
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
 
 {{planning-important-intro}}
 
@@ -124,7 +124,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle che non hanno creato.</p> </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Modello di layout</p></td> 
+   <td role="rowheader"><p>Modello layout</p></td> 
    <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale </p> </td> 
   </tr> 
 </tbody> 
@@ -157,7 +157,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 * Campi record connessi nella visualizzazione tabella.
 * La casella di anteprima o la pagina del record nei campi del record connesso della scheda Dettagli.
 * La casella di anteprima o la pagina del record nella scheda Connessioni.
-* <span class="preview">Pagina del record nella scheda Visualizzazione connessione.</span> <!--this needs title edit when they rename the "Connection view" page type-->
+* Pagina del record nella scheda Visualizzazione connessione. <!--this needs title edit when they rename the "Connection view" page type-->
 
 ### Collegare i record di Workfront Planning dalla vista tabella o dall&#39;area Dettagli di un record
 
@@ -184,7 +184,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
 
 1. (Condizionale) Se si seleziona Da uno a molti o Da uno a uno per il tipo di connessione quando si collegano i tipi di record e si tenta di connettere un record o un oggetto già connesso altrove, verrà visualizzato un messaggio di avviso che segnala che la connessione di nuovo lo rimuoverà dalla connessione originale. Fai clic su **Connetti** per consentire la rimozione e la connessione del record oppure su **Annulla** per tornare al campo e selezionare un altro record.
-1. (Facoltativo) Se non riesci a trovare un oggetto da connettere e vuoi aggiungerlo, <span class="preview">fai clic su **+ Aggiungi**</span>
+1. (Facoltativo) Se non riesci a trovare un oggetto da connettere e vuoi aggiungerlo, fai clic su **+ Aggiungi**
 
    Oppure
 
@@ -270,7 +270,7 @@ Dopo aver creato una connessione tra un tipo di record e un tipo di oggetto Work
    >
    >È possibile aprire la pagina di un record dalla visualizzazione, fare doppio clic sul campo del record collegato oppure fare clic su **Connetti** nel campo per aggiungere oggetti dal tipo di oggetto connesso.
 
-1. (Facoltativo) Se non riesci a trovare un oggetto da connettere e vuoi aggiungerlo, <span class="preview">fai clic su **+ Aggiungi**</span>
+1. (Facoltativo) Se non riesci a trovare un oggetto da connettere e vuoi aggiungerlo, fai clic su **+ Aggiungi**
 
    Oppure
 
@@ -440,7 +440,7 @@ Per collegare i record con le risorse di Experience Manager:
 1. (Facoltativo) Fare clic sulla freccia rivolta verso il basso a sinistra di una sezione per comprimerla.
 
 1. (Condizionale) Fare clic su **Connetti** per aggiungere altri record o oggetti dello stesso tipo.
-1. (Facoltativo) Se non riesci a trovare un record o un oggetto da connettere e vuoi aggiungerlo, <span class="preview">fai clic su **+ Aggiungi**</span>
+1. (Facoltativo) Se non è possibile trovare un record o un oggetto da connettere e si desidera aggiungerlo, fare clic su **+ Aggiungi**
 
    Oppure
 
@@ -454,8 +454,6 @@ I record e gli oggetti vengono aggiunti immediatamente.
    ![Icona Disconnetti record con descrizione comando nella scheda connessioni](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 
    Il record viene immediatamente disconnesso da tutte le aree di Workfront Planning o da altre applicazioni in cui potrebbe essere visualizzato come connesso. Vengono rimossi anche eventuali valori dei campi di ricerca.
-
-<div class="preview">
 
 ### Collegare i record dalla scheda Visualizzazione connessione nella pagina dei dettagli di un record
 
@@ -474,8 +472,6 @@ I record e gli oggetti vengono aggiunti immediatamente.
 
    ![Pulsante Connetti evidenziato nella scheda dei dettagli del record connesso](assets/connect-button-highlighted-in-connected-record-details-tab.png)
 1. (Facoltativo) Se non riesci a trovare un record connesso, fai clic su **+ Aggiungi** per crearlo e connetterlo.
-
-</div>
 
 ## Connetti record da oggetti Workfront
 

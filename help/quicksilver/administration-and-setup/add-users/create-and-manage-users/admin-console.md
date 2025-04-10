@@ -5,18 +5,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 47aa463406c2807a375297f296b3e81eca1285bb
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1473'
 ht-degree: 0%
 
 ---
 
 # Gestione degli utenti in Adobe Admin Console
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -33,7 +33,7 @@ In qualità di amministratore di Adobe, puoi creare amministratori di sistema di
 >   Dopo aver creato l’utente in Adobe Admin Console, puoi configurare le relative informazioni in Workfront, ad esempio assegnando ruoli, gruppi, team e livelli di accesso.
 >* **Se l&#39;organizzazione non utilizza il Single Sign-On (SSO)**, è possibile aggiungere utenti non amministratori di sistema direttamente in Workfront. È possibile aggiungere utenti in Adobe Admin Console, ma aggiungerli in Workfront consente di impostarne il livello di accesso durante la creazione, con un conseguente risparmio di tempo.
 
-<span class="preview">Quando si apportano modifiche ai profili degli utenti da Admin Console, viene aggiunto un aggiornamento alla scheda Attività di sistema dell&#39;utente in Workfront. L’aggiornamento viene visualizzato come effettuato dal &quot;Sistema&quot;. Si riferisce all&#39;amministratore di Adobe Admin Console e non all&#39;amministratore principale di Workfront.</span>
+Quando si apportano modifiche ai profili degli utenti da Admin Console, viene aggiunto un aggiornamento alla scheda Attività del sistema dell’utente in Workfront. L’aggiornamento viene visualizzato come effettuato dal &quot;Sistema&quot;. Si riferisce all’amministratore di Adobe Admin Console e non all’amministratore principale di Workfront.
 
 ## Requisiti di accesso
 

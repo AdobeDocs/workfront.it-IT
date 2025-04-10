@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1540'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Condividere le visualizzazioni
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 Potete condividere una vista con le seguenti entità:
 
-* Internamente, con utenti, gruppi, <span class="preview">team, aziende e ruoli di Workfront</span>
+* Internamente, con utenti, gruppi, team, aziende e ruoli di Workfront
 * Pubblicamente, con utenti esterni a Workfront
 
 <!--
@@ -104,7 +104,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <p>Solo gli utenti con le autorizzazioni di gestione di un’area di lavoro possono condividere una visualizzazione pubblicamente.</p></td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Modello di layout</p></td> 
+   <td role="rowheader"><p>Modello layout</p></td> 
    <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> </td> 
   </tr> 
 </tbody> 
@@ -129,7 +129,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Condivisione interna delle autorizzazioni per una visualizzazione
 
-In Workfront Planning è possibile condividere le visualizzazioni create o le visualizzazioni per le quali si dispone delle autorizzazioni di gestione con utenti, gruppi, <span class="preview">team, aziende e mansioni</span>.
+È possibile condividere le visualizzazioni create o le visualizzazioni per le quali si dispone delle autorizzazioni Gestione con utenti, gruppi, team, aziende e ruoli in Workfront Planning.
 
 >[!NOTE]
 >
@@ -151,10 +151,10 @@ In Workfront Planning è possibile condividere le visualizzazioni create o le vi
 
 1. (Facoltativo) Nell&#39;area **Chi ha accesso**, selezionare una delle opzioni seguenti:
 
-   * **Solo le persone invitate possono accedere**: è necessario specificare gli utenti, i gruppi, il <span class="preview">team, la società o la mansione</span> con cui si desidera condividere la visualizzazione. Questa è l&#39;opzione predefinita.
+   * **L&#39;accesso è consentito solo alle persone invitate**: è necessario specificare gli utenti, i gruppi, il team, la società o la mansione con cui si desidera condividere la visualizzazione. Questa è l&#39;opzione predefinita.
    * **Tutti gli utenti nell&#39;area di lavoro possono visualizzare**: tutti gli utenti che dispongono di autorizzazioni di visualizzazione o di livello superiore per le aree di lavoro possono accedere alla visualizzazione.
 
-1. Nel campo **Concedi l&#39;accesso a questa visualizzazione**, inizia a digitare il nome di un utente, un gruppo, <span class="preview">team, società o mansione</span> e fai clic su di esso quando viene visualizzato nell&#39;elenco.
+1. Nel campo **Concedi l&#39;accesso a questa visualizzazione**, inizia a digitare il nome di un utente, un gruppo, un team, una società o una mansione e fai clic su di esso quando viene visualizzato nell&#39;elenco.
 
    ![Condivisione di una visualizzazione con gruppi](assets/sharing-a-view-ui-with-groups.png)
 
@@ -255,7 +255,7 @@ Dalla notifica e-mail, fai clic su **Visualizza tutte le notifiche**, quindi fai
 1. Per rimuovere la condivisione interna di una vista, eseguire le operazioni seguenti:
 
    1. Verificare che la scheda **Condivisione interna** sia selezionata.
-   1. Individua l&#39;utente, il gruppo, il <span class="preview">team, la società o la mansione</span> che desideri rimuovere, espandi il menu a discesa delle autorizzazioni a destra del nome dell&#39;entità con cui stai condividendo la visualizzazione, quindi fai clic su **Rimuovi**.
+   1. Individuare l&#39;utente, il gruppo, il team, la società o la mansione da rimuovere, espandere il menu a discesa delle autorizzazioni a destra del nome dell&#39;entità con cui si condivide la visualizzazione, quindi fare clic su **Rimuovi**.
 
 1. Per rimuovere la condivisione pubblica di una visualizzazione, eseguire le operazioni seguenti:
 

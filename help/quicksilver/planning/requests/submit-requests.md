@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1816'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -32,7 +32,7 @@ Dopo che un responsabile dell&#39;area di lavoro crea un modulo di richiesta per
 * Da un collegamento diretto al modulo di richiesta condiviso.
 
   Questo articolo descrive come inviare una richiesta per aggiungere nuovi record a un tipo di record dall’area Richieste di Workfront o da un collegamento condiviso.
-* <span class="preview">Dalla pagina del tipo di record, quando si aggiunge o si richiede un nuovo record. Per informazioni, vedere [Crea record](/help/quicksilver/planning/records/create-records.md).</span>
+* Dalla pagina del tipo di record, quando si aggiunge o si richiede un nuovo record. Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
 
 Gli utenti Workfront e gli utenti esterni possono inviare richieste ai tipi di record Planning e creare record. <!--double check on the external users-->
 
@@ -128,7 +128,7 @@ Prima di inviare una richiesta a un modulo di richiesta Workfront Planning, è n
 
    * Internamente, il modulo deve essere condiviso con utenti che dispongono di autorizzazioni di visualizzazione o di livello superiore per l&#39;area di lavoro.
 
-     Gli utenti di Workfront possono accedere al modulo da un collegamento <span class="preview"> oppure trovare il modulo di richiesta nell&#39;area Richieste di Workfront.</span>
+     Gli utenti di Workfront possono accedere al modulo da un collegamento o trovare il modulo di richiesta nell’area Richieste di Workfront.
 
    * Se non disponi di un account Workfront, significa che un collegamento al modulo è stato condiviso con persone esterne.
 
@@ -150,8 +150,6 @@ Prima di inviare una richiesta a un modulo di richiesta Workfront Planning, è n
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
-
-<div class="preview">
 
 ## Inviare una richiesta a Workfront Planning nell&#39;area Richieste di Workfront
 
@@ -239,8 +237,6 @@ L&#39;abilitazione di questa impostazione rende disponibili i moduli di richiest
 
    La pagina del tipo di record viene visualizzata in Workfront Planning.
 
-</div>
-
 ## Inviare una richiesta a Workfront Planning da un collegamento condiviso a un modulo di richiesta
 
 1. Passare al collegamento condiviso con l&#39;utente da un tipo di record di Workfront Planning.
@@ -276,11 +272,11 @@ L&#39;abilitazione di questa impostazione rende disponibili i moduli di richiest
      >
      >Le notifiche e-mail e in-app sono visibili solo quando l’istanza di Workfront della tua organizzazione viene integrata in Adobe Unified Experience.
 
-1. <span class="preview">(facoltativo) Fai clic su **Visualizza la richiesta** per aprire la richiesta in Workfront.</span>
+1. (Facoltativo) Fai clic su **Visualizza la richiesta** per aprire la richiesta in Workfront.
 
-   Oppure
+   <!--Or-->
 
-   <span class="preview">Fare clic su [Invia un&#39;altra richiesta](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) per aprire il modulo di richiesta e aggiungere una nuova richiesta. </span>
+   <!--Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.-->
 
 1. (Facoltativo) Fai clic su **Menu principale** > **Richieste** > scheda **Pianificazione** per visualizzare la richiesta, quindi fai clic sul nome della richiesta.
 
