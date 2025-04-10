@@ -6,9 +6,9 @@ description: I modificatori di filtri e condizioni ti consentono di creare filtr
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: b2b17c34fe4887e291e69facf76f5071bca43b06
 workflow-type: tm+mt
-source-wordcount: '1566'
+source-wordcount: '1565'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Alcuni modificatori sono incorporati e puoi sceglierli da un menu a discesa all�
 
 Per ulteriori informazioni sulla modalità testo, vedere [Panoramica della modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-Per un elenco dei modificatori incorporati dell&#39;intervallo di tempo, vedere l&#39;articolo [Filtrare i rapporti per intervalli di tempo](../../../reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md).
+Per un elenco dei modificatori incorporati dell&#39;intervallo di tempo, consulta l&#39;articolo [Filtrare i rapporti per intervalli di tempo](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md).
 
 Puoi utilizzare i seguenti modificatori di condizioni nei filtri e nelle istruzioni di formattazione condizionale:
 

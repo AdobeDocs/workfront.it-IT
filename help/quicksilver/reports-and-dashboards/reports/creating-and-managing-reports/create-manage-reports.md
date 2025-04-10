@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: e3596bd2-4f22-45c8-8cc2-cac08359a093
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: b2b17c34fe4887e291e69facf76f5071bca43b06
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Questa sezione contiene i seguenti articoli:
 * [Esegui un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md)
 * [Creare un report matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)
 * [Crea una copia di un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)
-* [Filtrare i report per intervalli di tempo](../../../reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)
+* [Filtrare i report per intervalli di tempo](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)
 * [Aggiungere una richiesta a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 * [Aggiungere un grafico a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)
 * [Panoramica sulla consegna dei rapporti](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)

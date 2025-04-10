@@ -1,23 +1,23 @@
 ---
 product-area: reporting
 navigation-topic: create-and-manage-reports
-title: Filtrare i rapporti per intervalli di tempo
-description: È possibile filtrare un report in base all'intervallo di tempo di una data esistente su un oggetto. Ad esempio, puoi filtrare un rapporto orario per un particolare intervallo di tempo in cui sono state inserite le ore.
-author: Nolan
+title: Filtrare i rapporti per intervalli temporali
+description: È possibile filtrare un report in base all'intervallo temporale di una data esistente su un oggetto. Ad esempio, puoi filtrare un report delle ore per un particolare arco temporale di quando sono state inserite le ore.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '965'
 ht-degree: 5%
 
 ---
 
-# Filtrare i rapporti per intervalli di tempo
+# Filtrare i rapporti per intervalli temporali
 
-<!-- Audited: 11/2024 -->
+<!-- Audited: 4/2025 -->
 
-È possibile filtrare un report in base all&#39;intervallo di tempo di una data esistente su un oggetto. Ad esempio, puoi filtrare un rapporto orario per un particolare intervallo di tempo in cui sono state inserite le ore.
+È possibile filtrare un report in base all&#39;intervallo temporale di una data esistente su un oggetto. Ad esempio, puoi filtrare un report delle ore per un particolare arco temporale di quando sono state inserite le ore.
 
 ## Requisiti di accesso
 
@@ -30,25 +30,20 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
       <td> 
-      <p>Nuovo:</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Corrente:</p>
-         <ul>
-         <li><p>Piano</p></li>
-         </ul>
+      <p>Nuovo: Standard</p>
+       <p> Oppure</p>
+      <p>Corrente: Piano</p>
    </td>
 
 </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p></td> 
   </tr> 
   <tr> 
@@ -58,28 +53,30 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Prerequisiti
 
-Il report deve essere creato prima di filtrarne i risultati.
+È necessario creare il report prima di filtrarne i risultati.
 
 Per ulteriori informazioni sulla creazione di report, vedere [Creare un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
-## Filtrare un rapporto in base all’intervallo di tempo di una data {#filter-a-report-by-the-time-frame-of-a-date}
+## Filtrare un rapporto in base all’arco temporale di una data {#filter-a-report-by-the-timeframe-of-a-date}
 
-1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png), quindi fai clic su **Reporting**.
+{{step1-to-reports}}
 
-1. Fai clic su **Nuovo rapporto**, quindi seleziona il tipo di rapporto desiderato.\
-   Ad esempio, seleziona **Rapporto ore**.
+1. Nell&#39;angolo in alto a sinistra, fai clic su **Nuovo report**, quindi seleziona il tipo di report che desideri creare.
 
-1. Selezionare la scheda **Filtri**.
-1. Fai clic su **Aggiungi regola filtro**, quindi seleziona **Data immissione ore**.\
+1. Nella pagina **Nuovo report** selezionare la scheda **Filtri**.
+
+1. Fai clic su **Aggiungi regola filtro**, quindi su **Seleziona un campo**.
+
+1. Nella finestra di dialogo **Seleziona un campo**, seleziona **Ora**, quindi **Data di ingresso**.
    ![Filtraggio del report delle ore per intervallo temporale](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
 
-1. Nel menu a discesa seguente, selezionare una delle opzioni seguenti:
+1. Nell’elenco a discesa visualizzato, seleziona una delle opzioni seguenti:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -88,54 +85,58 @@ Per ulteriori informazioni sulla creazione di report, vedere [Creare un report](
      <tr> 
       <td role="rowheader">Equal</td> 
       <td>Dopo aver selezionato questo modificatore, specifica la data in cui sono state inserite le ore.</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Not Equal</td> 
-      <td>Dopo aver selezionato questo modificatore, specifica la data in cui sono state inserite le ore, per escludere questa data dal rapporto. Il rapporto mostra le ore registrate in tutte le date, in base alla data specificata.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Null</td> 
-      <td>Selezionare questo modificatore per visualizzare solo le ore in cui manca la data di immissione.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Not Null</td> 
-      <td>Selezionare questo modificatore per visualizzare solo le ore per le quali la data di immissione ha un valore.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Tra</td> 
-      <td>Dopo aver selezionato questo modificatore, specifica un intervallo di date in cui sono state immesse le ore. Il rapporto mostra le ore inserite tra le date specificate.</td> 
-     </tr> 
-     <tr> 
+      <td>Dopo aver selezionato questo modificatore, specifica la data in cui sono state inserite le ore per escludere questa data dal rapporto. Il rapporto mostra le ore registrate in tutte le date, in base alla data specificata.</td> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Minore di</td> 
       <td>Dopo aver selezionato questo modificatore, specifica una data prima della quale sono state inserite le ore. Il rapporto mostra le ore inserite prima della data specificata, esclusa la data specificata.</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Less Than Equal</td> 
       <td>Dopo aver selezionato questo modificatore, specifica una data prima della quale sono state inserite le ore. Il rapporto mostra le ore inserite prima della data specificata, inclusa la data specificata.</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Maggiore di</td> 
       <td>Dopo aver selezionato questo modificatore, specifica una data dopo la quale sono state inserite le ore. Il rapporto mostra le ore inserite dopo la data specificata, esclusa la data specificata.</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Greater Than Equal</td> 
-      <td> <p>Dopo aver selezionato questo modificatore, specifica una data dopo la quale sono state inserite le ore. Il rapporto mostra le ore inserite dopo la data specificata, inclusa la data specificata.</p> <p>Selezionare uno dei modificatori predefiniti per l'intervallo di tempo, come descritto in <a href="#built-in-time-frame-modifiers" class="MCXref xref">Modificatori incorporati per l'intervallo di tempo</a>.</p> </td> 
-     </tr> 
-    </tbody> 
+      <td> Dopo aver selezionato questo modificatore, specifica una data dopo la quale sono state inserite le ore. Il rapporto mostra le ore inserite dopo la data specificata, inclusa la data specificata. </td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">Tra</td> 
+      <td>Dopo aver selezionato questo modificatore, specifica un intervallo di date in cui sono state immesse le ore. Il rapporto mostra le ore inserite tra le date specificate.</td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">Null</td> 
+      <td>Selezionare questo modificatore per visualizzare solo le ore in cui manca la data di immissione.</td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">Not Null</td> 
+      <td>Selezionare questo modificatore per visualizzare solo le ore per le quali la data di immissione ha un valore.</td> 
+     </tr>
+
+   </tbody> 
    </table>
 
-1. Questi modificatori sono disponibili per qualsiasi campo data in un filtro o in un prompt in qualsiasi rapporto.
 1. Fai clic su **Salva e Chiudi**.
 
-## Modificatori di intervallo temporale incorporati {#built-in-time-frame-modifiers}
+## Modificatori di intervallo temporale incorporati {#built-in-timeframe-modifiers}
 
-Adobe Workfront dispone di modificatori di intervalli di tempo incorporati che è possibile utilizzare senza definire una data specifica.
+Adobe Workfront dispone di modificatori di intervallo temporale incorporati che è possibile utilizzare senza definire una data specifica. Questi modificatori sono disponibili per qualsiasi campo data in un filtro o in un prompt in qualsiasi rapporto.
 
-Questi modificatori sono disponibili per qualsiasi campo data in un filtro o in un prompt in qualsiasi rapporto.
-
-Per ulteriori informazioni su come filtrare un report in base a un intervallo di tempo associato a una data, vedere la sezione precedente [Filtrare un report in base all&#39;intervallo di tempo di una data](#filter-a-report-by-the-time-frame-of-a-date).
-
-Ad esempio, se desideri visualizzare le ore inserite in un determinato intervallo di tempo durante la creazione di un rapporto orario, puoi scegliere tra le seguenti opzioni di filtro integrate per l’intervallo di tempo:
+Ad esempio, se desideri visualizzare le ore inserite in un determinato arco temporale durante la creazione di un rapporto orario, puoi scegliere tra le seguenti opzioni di filtro integrate:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -197,7 +198,7 @@ Ad esempio, se desideri visualizzare le ore inserite in un determinato intervall
   </tr> 
   <tr> 
    <td role="rowheader">Anno scorso</td> 
-   <td> <p>Visualizza le ore in cui Data immissione è una data dell'ultimo anno, in cui l'ultimo anno inizia il 1 gennaio e termina il 31 dicembre dell'anno precedente l'anno corrente.</p> <p>Nota: non esiste un periodo di tempo predefinito per l'anno fiscale. È possibile creare un rapporto e filtrare le informazioni per data utilizzando un modificatore personalizzato per l'intervallo di date dell'anno fiscale, come definito nell'organizzazione. Se si desidera scegliere un intervallo di tempo per un anno fiscale sul posto, è necessario utilizzare un prompt anziché un filtro. </p> </td> 
+   <td> <p>Visualizza le ore in cui Data immissione è una data dell'ultimo anno, in cui l'ultimo anno inizia il 1 gennaio e termina il 31 dicembre dell'anno precedente l'anno corrente.</p> <p>Nota: non esiste un periodo di tempo predefinito per l'anno fiscale. È possibile creare un rapporto e filtrare le informazioni per data utilizzando un modificatore personalizzato per l'intervallo di date dell'anno fiscale, come definito nell'organizzazione. Se desideri scegliere un periodo temporale per un anno fiscale sul posto, utilizza un prompt invece di un filtro. </p> </td> 
   </tr> 
  </tbody> 
 </table>
