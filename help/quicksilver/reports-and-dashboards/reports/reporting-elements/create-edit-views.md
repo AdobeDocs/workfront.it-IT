@@ -6,9 +6,9 @@ description: È possibile personalizzare il tipo di informazioni visualizzate su
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 4ab3915651e664d97c368a6b650b0d0cb0a1593c
+source-git-commit: d98998627ac5161fd12bb2d86f65555550c82a48
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1721'
 ht-degree: 1%
 
 ---
@@ -89,8 +89,7 @@ Viene visualizzata la finestra di dialogo **Personalizza visualizzazione**.
    * Aggiungere una colonna facendo clic su **Aggiungi colonna**, digitare il nome della colonna che si desidera aggiungere, quindi fare clic su di essa quando viene visualizzata nell&#39;elenco a discesa.
    * Modificare l&#39;ordine di visualizzazione delle colonne trascinando il titolo della colonna in una nuova posizione.
 
-   * Nell&#39;area **Impostazioni colonna**, fare clic su **Riepiloga colonna per** e scegliere la modalità di visualizzazione dei dati nella colonna:
-
+   * Nell&#39;area **Impostazioni colonna** fare clic su **Riepiloga colonna per** e scegliere la modalità di visualizzazione dei dati nella colonna. Questa opzione è disponibile per i seguenti tipi di colonna:
      <table style="table-layout:auto"> 
          <col> 
          <col> 
@@ -124,9 +123,9 @@ Viene visualizzata la finestra di dialogo **Personalizza visualizzazione**.
      >
      >Le eccezioni riportate di seguito si applicano agli oggetti padre, ad esempio i task padre, quando si riepilogano i valori dei campi seguenti nei raggruppamenti:
      >   
-     > * Tutti i campi relativi al numero e alla divisa tranne Ore effettive (ad esempio Costo manodopera pianificato/effettivo, Costo spesa pianificato/effettivo, Costo pianificato/effettivo, Ore pianificate) aggregano solo i valori per le attività figlio e le attività autonome. Non aggregano i valori per le attività padre o i padri dei padri.
-     > * Le ore effettive aggregano i valori per le attività padre principale e le attività autonome; non aggregano i numeri per le attività padre o figlio.
-     > * I campi dati personalizzati per i valori numerici e di valuta aggregano tutte le attività: padri, figli, padri e attività autonome.
+     > * Tutti i campi relativi al numero e alla divisa, ad eccezione delle ore effettive (ad esempio Costo manodopera pianificato/effettivo, Costo spesa pianificato/effettivo, Costo pianificato/effettivo, Ore pianificate), riepilogano i valori solo per le attività figlio e per le attività autonome. Non riepilogano i valori per le attività padre o i padri dei padri.
+     > * Ore effettive riepiloga i valori per le attività padre principale e le attività autonome; non riepiloga i numeri per le attività padre o figlio.
+     > * I campi dati personalizzati per i valori numerici e di valuta riepilogano tutte le attività: padri, figli, padri e attività autonome.
      >
      >Per ulteriori informazioni sull&#39;utilizzo dei raggruppamenti in un report, vedere l&#39;articolo [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
