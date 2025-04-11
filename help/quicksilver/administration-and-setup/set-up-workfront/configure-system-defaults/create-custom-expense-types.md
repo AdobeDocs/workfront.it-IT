@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: ff4a9b317bd75b298a7a39814b4ae265c92c6d2a
+source-git-commit: 428e6a9365c793ce5944941ec5368a674c208c78
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '405'
 ht-degree: 4%
 
 ---
 
 # Creare tipi di spesa personalizzati
-
-{{highlighted-preview}}
 
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -108,7 +106,7 @@ I tipi di spesa predefiniti in [!DNL Workfront] che non possono essere eliminati
     </tbody> 
    </table>
 
-1. Fai clic su **Crea tipo di spesa** <span class="preview">o **[!UICONTROL Salva]**.</span>
+1. Fai clic su **[!UICONTROL Salva]**.
 
    Il tipo di spesa è ora disponibile per gli utenti per associarlo alle spese relative ai progetti e alle attività.
 
@@ -121,7 +119,7 @@ I tipi di spesa predefiniti in [!DNL Workfront] che non possono essere eliminati
 
    Viene visualizzata la finestra di dialogo **[!UICONTROL Modifica tipo di spesa]**.
 
-1. Apporta le modifiche desiderate, quindi fai clic su **Salva modifiche** <span class="preview">o **[!UICONTROL Salva]**.</span>
+1. Apporta le modifiche desiderate, quindi fai clic su **[!UICONTROL Salva]**.
 
    Il tipo di spesa è ora disponibile per gli utenti per associarlo alle spese relative ai progetti e alle attività.
 

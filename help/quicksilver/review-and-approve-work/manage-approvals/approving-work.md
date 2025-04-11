@@ -6,7 +6,7 @@ description: Approvazione del lavoro
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
+source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 1%
@@ -19,9 +19,9 @@ ht-degree: 1%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;From&nbsp;Courtney: Linked to Training sites/ articles , don't change title and link)</p>
 -->
 
-Se si è impostati come approvatore, è necessario verificare regolarmente il lavoro in attesa di approvazione.
+Se sei impostato come approvatore, dovresti rivedere regolarmente quale lavoro è in attesa di approvazione.
 
-Per informazioni sulla creazione dei processi di approvazione, vedere [Creare un processo di approvazione per gli elementi di lavoro](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+Per informazioni sulla creazione di processi di approvazione, vedere [Crea un processo di approvazione per gli elementi](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) di lavoro.
 
 Per informazioni sull&#39;associazione delle approvazioni al lavoro in Workfront, vedere [Associare un processo di approvazione nuovo o esistente al lavoro](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
@@ -45,11 +45,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Accesso di visualizzazione o accesso successivo agli oggetti associati alle approvazioni</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Accesso di visualizzazione o accesso successivo agli oggetti associati alle approvazioni</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, vedi <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Crea o modificare i livelli</a> di accesso personalizzati.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizza o autorizzazioni superiori per gli oggetti associati alle approvazioni</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizza o più autorizzazioni per gli oggetti associati alle approvazioni</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,10 +64,10 @@ Puoi visualizzare e gestire le approvazioni in varie aree di Workfront.
 
 Per ulteriori informazioni sulla visualizzazione degli elementi in attesa di approvazione o degli elementi inviati personalmente per l&#39;approvazione, vedere [Visualizza approvazioni](../../review-and-approve-work/manage-approvals/view-approvals.md).
 
-## Approva lavoro dalla sezione Home
+## Approvare il lavoro dall&#39;area Home
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
-1. (Condizionale) Fai clic su **Personalizza** per aggiungere il widget **Le mie approvazioni**.
+1. Fai clic sull&#39;icona Menu **[!UICONTROL principale ![]** nell&#39;angolo](assets/main-menu-icon.png) in alto a destra, quindi fai clic su **[!UICONTROL Home]**.
+1. (Condizionale) Fare clic su **Personalizza** per aggiungere il **widget Approvazioni** utente.
 1. (Condizionale) Fai clic sul menu a discesa **Filtro**, quindi seleziona **Tutti** per visualizzare le approvazioni assegnate e delegate all&#39;utente.
 
    >[!NOTE]
@@ -102,7 +102,7 @@ Per ulteriori informazioni sulla visualizzazione degli elementi in attesa di app
       <li>Concedi</li>
       <li>Ignora</li>
       </ul>
-      Se necessario, è possibile regolare il livello di accesso nel menu a discesa <b>Modifica accesso</b>.
+      Se necessario, potete regolare il livello di accesso nel <b>menu a discesa Cambia accesso</b> .
       </td>
       <td>
          <ul>
@@ -138,9 +138,9 @@ Dopo aver preso una decisione, l&#39;approvazione viene rimossa dal widget Appro
 
 ## Approvare il lavoro direttamente da un progetto, attività o problema
 
-Quando un progetto, un’attività o un problema è in attesa di approvazione, è possibile approvare o rifiutare l’approvazione direttamente dal progetto, dall’attività o dal problema. Puoi anche visualizzare i dettagli relativi al processo di approvazione.
+Quando un progetto, un&#39;attività o un problema è in attesa di approvazione, è possibile approvare o rifiutare l&#39;approvazione direttamente dal progetto, dall&#39;attività o dal problema. È inoltre possibile visualizzare i dettagli relativi al processo di approvazione.
 
-Per approvare il lavoro direttamente da un progetto, attività o problema:
+Per approvare il lavoro direttamente da un progetto, un&#39;attività o un problema:
 
 1. Vai al progetto, all’attività o al problema che richiede la tua approvazione.
 
@@ -156,7 +156,7 @@ Per approvare il lavoro direttamente da un progetto, attività o problema:
     <tbody> 
      <tr> 
       <td role="rowheader">Stato</td> 
-      <td>Lo stato corrente del progetto, dell’attività o del problema. Lo stato corrente dell'elemento in attesa di approvazione. Lo stato viene approvato dopo ogni fase del processo di approvazione.</td> 
+      <td>Lo stato corrente del progetto, dell'attività o del problema. Questo è lo stato corrente dell'elemento in attesa di approvazione. Lo stato viene approvato dopo l'approvazione di ogni fase nel processo di approvazione.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Fasi di approvazione</td> 
@@ -179,7 +179,7 @@ Per approvare il lavoro direttamente da un progetto, attività o problema:
 
 ## Approvare un documento da un messaggio e-mail di notifica dell’approvazione
 
-A seconda delle impostazioni di notifica, è possibile che vengano inviate e-mail di notifica relative ai documenti per i quali altri utenti necessitano di una decisione di approvazione. Quando ricevi un&#39;e-mail contenente un pulsante **Decidi per l&#39;approvazione**, puoi avviare il processo di approvazione direttamente dall&#39;e-mail:
+A seconda delle impostazioni notifica, potresti ricevere e-mail che ti informano sui documenti per i quali altri utenti richiedono che tu prenda una decisione di approvazione. Quando si riceve un&#39;e-mail contenente un **pulsante di decisione di approvazione** , è possibile avviare il processo di approvazione direttamente dall&#39;e-mail:
 
 1. Dall&#39;e-mail, fai clic su **Decisione di approvazione** per aprire la pagina Dettagli documento per la bozza.
 1. Per rivedere il documento, eseguire una delle operazioni seguenti:
@@ -195,6 +195,6 @@ A seconda delle impostazioni di notifica, è possibile che vengano inviate e-mai
 
 1. Fai clic su un&#39;opzione **Decisione** nell&#39;angolo superiore destro per approvare, approvare con modifiche o rifiutare il documento.
 
-## Approvare un documento da una bozza {#approve-a-document-from-a-proof}
+## Approvare un documento da una prova {#approve-a-document-from-a-proof}
 
-È possibile approvare un documento nel visualizzatore di bozze. Per ulteriori informazioni, vedere [Decidere su una bozza nel visualizzatore di bozze](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) nell&#39;articolo [Decidere su una bozza nel visualizzatore di bozze](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+È possibile approvare un documento all&#39;interno dell&#39;visualizzatore di correzione. Per ulteriori informazioni, vedere [Prendere una decisione su una dimostrazione nella visualizzatore](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) di correzione dell&#39;articolo [Prendere una decisione su una dimostrazione nella visualizzatore](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) di correzione.

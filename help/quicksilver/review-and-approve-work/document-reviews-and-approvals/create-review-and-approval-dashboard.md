@@ -6,7 +6,7 @@ description: Puoi rivedere le metriche di approvazione nelle dashboard di Canvas
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
+source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
 workflow-type: tm+mt
 source-wordcount: '1987'
 ht-degree: 1%
@@ -15,11 +15,11 @@ ht-degree: 1%
 
 # Creare un dashboard di report per la revisione e le approvazioni
 
-Puoi creare una dashboard di rapporti nell’area Dashboard di Canvas per visualizzare informazioni dettagliate e di alto livello su revisioni e approvazioni con funzionalità di approvazione unificata.
+Puoi creare una dashboard di rapporti nell’area Dashboard Canvas per visualizzare informazioni dettagliate e di alto livello su revisioni e approvazioni con la funzionalità Unified Approvals.
 
 >[!IMPORTANT]
 >
->Questa funzionalità è disponibile solo per i clienti che utilizzano il servizio di approvazione unificata e sono iscritti alla versione beta di Canvas Dashboards.
+>Questa funzionalità è disponibile solo per i clienti che utilizzano il servizio Unified Approvals e sono iscritti alla versione beta di Canvas Dashboards.
 
 
 ![dashboard di esempio](assets/whole-dashboard.png)
@@ -31,13 +31,13 @@ Puoi creare una dashboard di rapporti nell’area Dashboard di Canvas per visual
 1. Nel pannello a sinistra, fai clic su **Dashboard Canvas**.
 1. Fai clic su **Nuovo dashboard**.
 1. Denomina il dashboard.
-1. Aggiungi una descrizione (facoltativo).
+1. (Facoltativo) Aggiungi una descrizione.
 1. Fai clic su **Crea**.
-   ![aggiungi nome e descrizione dashboard](assets/create-a-dashboard.png)
+   ![Aggiungi nome e descrizione dashboard](assets/create-a-dashboard.png)
 
-Dopo aver creato un dashboard, è possibile iniziare ad aggiungere indicatori KPI, grafici e tabelle. Per ulteriori informazioni, consulta le sezioni seguenti:
+Dopo aver creato un dashboard, puoi iniziare ad aggiungere indicatori KPI, grafici e Tables. Per ulteriori informazioni, consulta le sezioni seguenti:
 
-* [Aggiungere informazioni di revisione e approvazione di alto livello con KPI e grafici](#add-high-level-review-and-approval-information-with-kpis-and-charts)
+* [Aggiungere informazioni di revisione e approvazione di alto livello con indicatori KPI e grafici](#add-high-level-review-and-approval-information-with-kpis-and-charts)
 * [Aggiungere informazioni dettagliate di revisione e approvazione con le tabelle](#add-detailed-review-and-approval-information-with-tables)
 
 ## Aggiungere informazioni di revisione e approvazione di alto livello con KPI e grafici
@@ -106,10 +106,10 @@ Dopo aver creato un dashboard, è possibile iniziare ad aggiungere indicatori KP
 
 #### Approvazioni abbandonate
 
-1. [Creare un dashboard](#create-a-dashboard) come descritto nella sezione precedente.
-1. Nella scheda **KPI**, fai clic su **Aggiungi**.
-1. Digitare _Abandoned_ nella casella di testo **KPI Title**.
-1. Digita _Scadenza approvazione oltre le 2 settimane precedenti_ nella casella di testo **Didascalia KPI**. Questo testo descrive ciò che l’indicatore KPI sta mostrando.
+1. [Crea un dashboard](#create-a-dashboard) come descritto nella sezione precedente.
+1. Nell&#39;scheda **KPI** fare clic su **Aggiungi**.
+1. Tipo _abbandonato_ nella **casella di testo KPI Titolo** .
+1. Scadenza per l&#39;approvazione del tipo _oltre 2 settimane nella_ casella di testo KPI Didascalia **.** Questo testo descrive cosa mostra l&#39;indicatore KPI.
 1. Nella parte superiore della pagina fare clic su **Seleziona campo KPI**.
 1. Scorri verso il basso e individua la cartella **Document Approval Stage**.
 1. Scegli **Scadenza**, quindi seleziona **Conteggio** dal menu a discesa.
@@ -137,19 +137,19 @@ Dopo aver creato un dashboard, è possibile iniziare ad aggiungere indicatori KP
 1. Nel menu a discesa **Tipo di grafico**, lascia selezionato **Grafico a barre**.
 1. Nel menu a discesa **Tipo barra**, lascia selezionato **Semplice**.
 1. Fare clic su **Aggiorna campo** per l&#39;asse **Inferiore (X)** e scegliere la prima cartella **Approvazione documento** e quindi **Stato**.
-1. Imposta il tipo di aggregazione su **Count**.
-1. Fare clic su **Aggiorna campo** per l&#39;asse **Sinistra (Y)** e scegliere la prima opzione **Approvazione documento**, quindi **Stato**.
-1. Fai clic sull&#39;icona della scheda Filtro ![scheda Filtro](assets/filter-tab.png).
-1. Fai clic su **Modifica filtro** > **Aggiungi condizione**:
+1. Impostare il tipo di aggregazione su **Conteggio**.
+1. Fare clic sul **campo Aggiorna per l&#39;asse****sinistro (Y) e scegliere la prima** opzione Approvazione **documento, quindi** Stato **.**
+1. Fai clic sull&#39;icona](assets/filter-tab.png) del filtro scheda del filtro Filtra scheda![.
+1. Fare clic **Modifica Filtra** > **Aggiungi condizione**:
    1. Fare clic sul filtro delle condizioni vuoto, fare clic su **Scegli un campo**, quindi scegliere **Versione documento**.
-   1. Cambia l&#39;operatore in **Is Not Null**.
-      ![esempio filtro](assets/approvals-by-decision-chart-filter.png)
-1. Fai clic su **Fine** nell&#39;angolo in alto a destra dello schermo.
+   1. Modificare l&#39;operatore in **non è nullo**.
+      ![Esempio di filtro](assets/approvals-by-decision-chart-filter.png)
+1. Fai clic su **Fine** nell&#39;angolo in alto a destra della schermata.
 
 
 #### Grafico a barre delle revisioni
 
-1. [Creare un dashboard](#create-a-dashboard) come descritto nella sezione precedente.
+1. [Crea un dashboard](#create-a-dashboard) come descritto nella sezione precedente.
 1. Nella scheda **Grafico**, fai clic su **Aggiungi**.
 1. Digita _Revisioni_ nella casella di testo **Nome**.
 1. Digitare _Numero di revisioni per i documenti con decisioni incomplete pianificate prima della fine di questo mese_ nella casella di testo **Descrizione**. Questo testo viene visualizzato come descrizione accanto al nome del grafico.
@@ -174,12 +174,12 @@ Dopo aver creato un dashboard, è possibile iniziare ad aggiungere indicatori KP
 
 ![esempio tabella](assets/table-dashboard.png)
 
-### Elenco approvazioni in sospeso
+### Elenco approvazioni in attesa
 
-1. [Creare un dashboard](#create-a-dashboard) come descritto nella sezione precedente.
-1. Nella scheda **Tabella**, fai clic su **Aggiungi**.
-1. Digitare _Approvazioni in sospeso_ nella casella di testo **Nome**.
-1. (Facoltativo) Digitare una descrizione nella casella di testo **Descrizione**. Questo testo viene visualizzato come descrizione accanto al nome del grafico.
+1. [Crea un dashboard](#create-a-dashboard) come descritto nella sezione precedente.
+1. **Nella scheda tabella**, fare clic su **Aggiungi**.
+1. Digitare _Approvazioni_ in attesa nella **casella di testo Nome** .
+1. (Facoltativo) Digitare una descrizione nella casella di testo Descrizione ****. Questo testo viene visualizzato come descrizione comandi accanto al nome del grafico.
 1. Fare clic su **Apri impostazioni colonna**.
 1. Fai clic su **Aggiungi colonna**, scorri verso il basso e fai clic sulla prima cartella **Approvazioni documenti**, quindi scegli **Stato**.
 1. Aggiungi le seguenti colonne:
@@ -224,21 +224,21 @@ Dopo aver creato un dashboard, è possibile iniziare ad aggiungere indicatori KP
 1. Fare clic sull&#39;icona della scheda Filtro ![scheda Filtro](assets/filter-tab.png).
 1. Fai clic su **Modifica filtro** > **Aggiungi condizione**:
    1. Fai clic sul filtro delle condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Stato**.
-   1. Cambia l&#39;operatore in **Equal**, quindi digita _in attesa di approvazione_.
-      ![esempio di filtro della tabella di approvazione in sospeso](assets/pending-approval-table-filter.png)
-1. Aggiungi i filtri facoltativi come descritto di seguito oppure fai clic su **Fine** nell&#39;angolo in alto a destra dello schermo.
+   1. Cambia l&#39;operatore su **Uguale**, quindi digita _in attesa di approvazione_.
+      ![Esempio di filtro tabella in attesa di approvazione](assets/pending-approval-table-filter.png)
+1. Aggiungi i filtri facoltativi descritti di seguito oppure fai clic su **Fine** nell&#39;angolo in alto a destra dello schermo.
 
-**Filtri facoltativi**
+**Filtri opzionali**
 
-Per visualizzare informazioni più specifiche a seconda del caso di utilizzo, puoi aggiungere condizioni di filtro aggiuntive. È possibile ricreare la tabella e aggiungere nuove condizioni di filtro in base al caso d’uso.
+Per visualizzare informazioni più specifiche a seconda del caso di utilizzo, puoi aggiungere condizioni di filtro aggiuntive. È possibile ricreare la tabella e aggiungere nuove condizioni di filtro per ogni caso d&#39;uso.
 
-+++ Espandi per visualizzare altre opzioni filtro
++++ Espandi per visualizzare altre opzioni di filtro
 
-**Progetti personali**
+**I miei progetti**
 
-1. Fai clic su **Modifica filtro** > **Aggiungi condizione**:
-   1. Fai clic sul filtro delle condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Versione documento** > **Documento** > **Progetto** > **Proprietario** > digita _Nome_ nella casella di ricerca.
-   1. Cambia l&#39;operatore in **Uguale**, quindi scegli **Io (Utente connesso)** per visualizzare i progetti in Workfront in cui sei contrassegnato come proprietario del progetto.
+1. Fare clic **Modifica Filtra** > **Aggiungi condizione**:
+   1. Fai clic sul filtro condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Versione** documento > **Documento** > **Progetto** > **Proprietario** > digita _Nome_ nella casella ricerca.
+   1. Cambia l&#39;operatore su **Uguale**, quindi scegli **Io (utente connesso)** per visualizzare i progetti in Workfront in cui sei contrassegnato come progetto proprietario.
       ![esempio di filtro della tabella di approvazione in sospeso](assets/pending-approvals-my-project-filter.png)
 1. Fai clic su **Fine** nell&#39;angolo in alto a destra dello schermo.
 
@@ -273,15 +273,15 @@ Per visualizzare informazioni più specifiche a seconda del caso di utilizzo, pu
     </tr>
     <tr>
     <td><strong>Versione documento</strong></td>
-    <td>Versione documento &gt; Documento &gt; Versione</td>
+    <td>Document Versione &gt; Document &gt; Versione</td>
     </tr>
     <tr>
     <td><strong>Scadenza</strong></td>
-    <td>Documento &gt; Fase di approvazione &gt; Scadenza</td>
+    <td>Fase di approvazione &gt; del documento &gt; scadenza</td>
     </tr>
     <tr>
     <td><strong>Richiesta di</strong></td>
-    <td>Documento &gt; Fase approvazione &gt; Partecipanti fase approvazione* &gt; Richiedente &gt; digita _Name_ nella casella di ricerca.</td>
+    <td>Fase di approvazione &gt; del documento &gt; Fase di approvazione Partecipanti* &gt; Richiedente &gt; digitare _Name_ nella casella ricerca.</td>
     </tr>
      <tr>
     <td><strong>Data richiesta</strong></td>
@@ -321,19 +321,19 @@ Per visualizzare informazioni più specifiche a seconda del caso di utilizzo, pu
       ![esempio di filtro della tabella di approvazione in sospeso](assets/pending-approvals-my-project-filter.png)
 1. Fai clic su **Fine** nell&#39;angolo in alto a destra dello schermo.
 
-**Approvazioni inviate**
+**Approvazioni che ho inviato**
 
-1. Fai clic su **Modifica filtro** > **Aggiungi condizione**:
-   1. Fai clic sul filtro delle condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Fase approvazione** > **Partecipanti fase approvazione** > **Richiedente** > digita _Nome_ nella casella di ricerca.
-   1. Cambia l&#39;operatore in **Uguale**, quindi scegli **Io (Utente connesso)** per visualizzare i progetti in Workfront in cui sei contrassegnato come proprietario del progetto.
-      ![esempio di filtro della tabella di approvazione in sospeso](assets/pending-approvals-my-project-filter.png)
+1. Fare clic **Modifica Filtra** > **Aggiungi condizione**:
+   1. Fai clic sul filtro condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Fase** approvazione > **Fase approvazione Partecipanti** > **Richiedente** > digita _Nome_ nella casella ricerca.
+   1. Cambia l&#39;operatore su **Uguale**, quindi scegli **Io (utente connesso)** per visualizzare i progetti in Workfront in cui sei contrassegnato come progetto proprietario.
+      ![Esempio di filtro tabella in attesa di approvazione](assets/pending-approvals-my-project-filter.png)
 1. Fai clic su **Fine** nell&#39;angolo in alto a destra dello schermo.
 
-**Team**
+**Il mio team**
 
-1. Fai clic su **Modifica filtro** > **Aggiungi condizione**:
-   1. Fai clic sul filtro delle condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Fase approvazione** > **Partecipanti fase approvazione** > **Team partecipante** > digita _Nome_ nella casella di ricerca.
-   1. Cambia l&#39;operatore in **Uguale**, quindi scegli **I miei team predefiniti (Utente connesso)** o **I miei altri team (Utente connesso)** per visualizzare i progetti assegnati al tuo team predefinito o ad altri team a cui sei connesso.
-      ![esempio di filtro della tabella di approvazione in sospeso](assets/approvals-ive-submitted-filter.png)
+1. Fare clic **Modifica Filtra** > **Aggiungi condizione**:
+   1. Fai clic sul filtro condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Fase** approvazione > **Fase approvazione Partecipanti** > **Team partecipante** > digita _Nome_ nella casella ricerca.
+   1. Cambia l&#39;operatore su **Uguale**, quindi scegli **I miei team predefiniti (Utente connesso)** o **Gli altri team (Utente connesso)** per visualizzare i progetti assegnati al tuo team predefinito o ad altri team di cui fai parte.
+      ![Esempio di filtro tabella in attesa di approvazione](assets/approvals-ive-submitted-filter.png)
 1. Fai clic su **Fine** nell&#39;angolo in alto a destra dello schermo.
 +++

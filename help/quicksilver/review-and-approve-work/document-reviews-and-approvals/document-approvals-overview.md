@@ -6,7 +6,7 @@ description: È possibile aggiungere ulteriori approvatori o revisori a un docum
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
+source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 >
 >Il contenuto di questo articolo fa riferimento alla funzionalità di approvazione dei documenti aggiornata, disponibile solo per account specifici. Per informazioni sui processi di approvazione standard, vedere gli articoli elencati in [Approvazioni di lavoro](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
-Le approvazioni unificate sono una riprogettazione completa del processo di approvazione esistente attualmente in fase di sviluppo per Adobe Workfront. Attualmente disponibile in versione limitata, è progettato per essere una soluzione pratica ed efficace per le aziende che richiedono un coinvolgimento completo delle parti interessate e l’approvazione di documenti specifici per le versioni. Il design attento e le nuove funzioni mirate facilitano la collaborazione, la chiarezza dei ruoli e il controllo delle versioni nel processo di approvazione, migliorando l’efficienza e la responsabilità.
+Unified Approvals è una riprogettazione completa del processo di approvazione esistente attualmente in fase di sviluppo per Adobe Workfront. Attualmente disponibile in versione limitata, è progettato per essere una soluzione pratica ed efficace per le aziende che richiedono un coinvolgimento completo delle parti interessate e l’approvazione di documenti specifici per le versioni. Il design attento e le nuove funzioni mirate facilitano la collaborazione, la chiarezza dei ruoli e il controllo delle versioni nel processo di approvazione, migliorando l’efficienza e la responsabilità.
 
 ## Differenze chiave rispetto alle approvazioni di bozze e documenti legacy
 
@@ -29,7 +29,7 @@ Le approvazioni unificate sono una riprogettazione completa del processo di appr
 * I partecipanti all&#39;approvazione del documento vengono visualizzati nel Riepilogo del documento, non nella scheda del flusso di lavoro di verifica.
 * Le approvazioni unificate non sono supportate nello strumento di reporting corrente.
 
-  È possibile unire la nuova versione beta di Canvas Dashboards a [Creare una dashboard di report per la revisione e le approvazioni](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) oppure è possibile utilizzare il widget Tutte le approvazioni disponibile nelle nuove dashboard Home e Canvas fornisce i seguenti dettagli sulle approvazioni unificate:
+  È possibile unire la nuova versione beta di Canvas Dashboards a [Creare un dashboard per i report per la revisione e le approvazioni](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md), oppure è possibile utilizzare il widget Tutte le approvazioni disponibile nelle nuove dashboard Home e Canvas fornisce i seguenti dettagli sulle approvazioni unificate:
 
    * Approvazioni mediante decisione
    * Tempo medio approvazione
@@ -48,7 +48,7 @@ Con le approvazioni unificate è possibile:
 * Visualizzare più indicatori di prestazioni chiave per le approvazioni nei widget della home di Workfront
 * Utilizza i dashboard di Canvas per visualizzare i dettagli di reporting sulle approvazioni unificate
 
-## Utilizzo di approvazioni unificate
+## Utilizzo delle approvazioni unificate
 
 Per gli utenti che desiderano creare o gestire le approvazioni dei documenti, vedere gli articoli elencati in [Configurare e gestire le approvazioni di risorse e documenti: indice articolo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
 
@@ -68,12 +68,12 @@ Per gli utenti che desiderano rivedere o approvare documenti per i quali hanno r
     La natura iterativa dello sviluppo di documenti spesso porta a più versioni dello stesso documento. Le approvazioni unificate soddisfano questa realtà fornendo catene di approvazione univoche per ogni versione di un documento. Questo consente agli utenti di caricare una nuova versione e aggiungere nuovi approvatori o revisori, in base alle esigenze, garantendo che il feedback e l’approvazione siano specifici per la versione del documento ed eliminando potenziale confusione.
 
 * **Audit trail**\
-    Con le approvazioni unificate, nel flusso di attività viene mantenuto un audit trail di tutte le attività di approvazione, che fornisce una risorsa preziosa per riferimenti futuri e conformità.
+    Con le approvazioni unificate, nel flusso di attività viene mantenuto un audit trail di tutte le attività di approvazione, che fornisce una risorsa preziosa per riferimento e conformità futuri.
 
 ## Piano di rilascio
 
-Stiamo rendendo disponibili agli utenti le approvazioni unificate nel corso di diverse versioni. Oltre ad aggiungere nuove funzioni, aumenteremo il numero di account per i quali sono disponibili approvazioni unificate a ogni versione.
+Stiamo rendendo le approvazioni unificate disponibili agli utenti nel corso di diverse versioni. Oltre ad aggiungere nuove funzioni, aumenteremo il numero di account per i quali sono disponibili approvazioni unificate a ogni versione.
 
-Se desideri che nell’ambiente di produzione siano abilitate le approvazioni unificate, rivolgiti al tuo Customer Success o Strategic Account Manager.
+Se desideri che le approvazioni unificate siano abilitate nel tuo ambiente di produzione, contatta il tuo Customer Success o Strategic Account Manager.
 
 
