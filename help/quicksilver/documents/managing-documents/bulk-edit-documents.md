@@ -8,16 +8,14 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
-source-git-commit: f9ebf647c7672a9d471288806cf596d103007613
+source-git-commit: 486b672a67c62b86f3306c9375a286895c2fae01
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
 
 # Modifica documenti in blocco
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 È possibile modificare la descrizione, aggiungere moduli personalizzati e modificare i moduli personalizzati in più documenti contemporaneamente.
 
@@ -97,7 +95,6 @@ Per modificare documenti in blocco:
     </table>
 1. Fai clic su **Salva**.
 
-<span class="preview">
 
 ## Modificare documenti in blocco in un report Documento
 
@@ -125,5 +122,3 @@ Creare un report di documenti come descritto in [Creare un report personalizzato
     </tr>
     </table>
 1. Fai clic su **Salva**.
-
-</span>

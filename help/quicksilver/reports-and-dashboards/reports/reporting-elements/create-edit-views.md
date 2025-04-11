@@ -6,9 +6,9 @@ description: È possibile personalizzare il tipo di informazioni visualizzate su
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 4ab3915651e664d97c368a6b650b0d0cb0a1593c
 workflow-type: tm+mt
-source-wordcount: '1731'
+source-wordcount: '1713'
 ht-degree: 1%
 
 ---
@@ -89,31 +89,46 @@ Viene visualizzata la finestra di dialogo **Personalizza visualizzazione**.
    * Aggiungere una colonna facendo clic su **Aggiungi colonna**, digitare il nome della colonna che si desidera aggiungere, quindi fare clic su di essa quando viene visualizzata nell&#39;elenco a discesa.
    * Modificare l&#39;ordine di visualizzazione delle colonne trascinando il titolo della colonna in una nuova posizione.
 
-      * (Facoltativo) Nell&#39;area **Impostazioni colonna**, fare clic sull&#39;elenco a discesa **Riepiloga colonna per**, quindi selezionare una delle opzioni disponibili per il riepilogo delle informazioni. Quando si sceglie questa opzione, le informazioni nella colonna vengono aggregate nei raggruppamenti del rapporto.\
-        Per i campi data, è possibile riepilogare i valori utilizzando le opzioni seguenti:
+   * Nell&#39;area **Impostazioni colonna**, fare clic su **Riepiloga colonna per** e scegliere la modalità di visualizzazione dei dati nella colonna:
 
-         * Massimo
-         * Minimo
+     <table style="table-layout:auto"> 
+         <col> 
+         <col> 
+         <tbody> 
+          <tr> 
+           <td role="rowheader"><strong>Campi data</strong></td> 
+           <td><ul>
+           <li>Massimo</li>
+         <li>Minimo</li>
+           </ul></td> 
+          </tr> 
+          <tr>
+           <td role="rowheader"><strong>Campi valuta</strong></td> 
+           <td><ul>
+           <li>Conteggio</li>
+         <li>Somma</li>
+           <li>Media</li>
+         <li>Massimo</li>
+           <li>Minimo</li>
+         </ul></td> 
+          </tr> 
+         <tr>
+           <td role="rowheader"><strong>Campi stringa e booleani</strong></td> 
+           <td><ul><li>Conteggio</li></ul>
+           <p>Nota: Workfront in genere non consiglia di riepilogare un campo booleano in base al conteggio, perché il valore sarà sempre true/false.</p></td> 
+          </tr> 
+         </tbody> 
+        </table>
 
-        Per i campi numerici e di valuta, è possibile riepilogare i valori utilizzando le opzioni seguenti:
-
-         * Conteggio
-         * SOMMA
-         * Media
-         * Massimo
-         * Minimo
-
-        >[!NOTE]
-        >
-        >Le eccezioni riportate di seguito si applicano agli oggetti padre, ad esempio i task padre, quando si aggregano i valori per i campi seguenti nei raggruppamenti:
-        >   
-        >   * Tutti i campi relativi al numero e alla divisa tranne Ore effettive (ad esempio Costo manodopera pianificato/effettivo, Costo spesa pianificato/effettivo, Costo pianificato/effettivo, Ore pianificate) aggregano solo i valori per le attività figlio e le attività autonome. Non aggregano i valori per le attività padre o i padri dei padri.
-        >   * Le ore effettive aggregano i valori per le attività padre principale e le attività autonome; non aggregano i numeri per le attività padre o figlio.
-        >   * I campi dati personalizzati per i valori numerici e di valuta aggregano tutte le attività: padri, figli, padri e attività autonome.
-        >   
-        >
-
-        Per ulteriori informazioni sull&#39;utilizzo dei raggruppamenti in un report, vedere l&#39;articolo [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+     >[!NOTE]
+     >
+     >Le eccezioni riportate di seguito si applicano agli oggetti padre, ad esempio i task padre, quando si riepilogano i valori dei campi seguenti nei raggruppamenti:
+     >   
+     > * Tutti i campi relativi al numero e alla divisa tranne Ore effettive (ad esempio Costo manodopera pianificato/effettivo, Costo spesa pianificato/effettivo, Costo pianificato/effettivo, Ore pianificate) aggregano solo i valori per le attività figlio e le attività autonome. Non aggregano i valori per le attività padre o i padri dei padri.
+     > * Le ore effettive aggregano i valori per le attività padre principale e le attività autonome; non aggregano i numeri per le attività padre o figlio.
+     > * I campi dati personalizzati per i valori numerici e di valuta aggregano tutte le attività: padri, figli, padri e attività autonome.
+     >
+     >Per ulteriori informazioni sull&#39;utilizzo dei raggruppamenti in un report, vedere l&#39;articolo [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
       * (Facoltativo) Fare clic su **Opzioni avanzate** per specificare le seguenti informazioni per la colonna:
 
