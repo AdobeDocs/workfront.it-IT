@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 6f69425c811042f9f3e13f3631ba734f8fdcb95f
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Per ulteriori informazioni sull&#39;aggiunta di un campo di ricerca esterna a un
 
 ### Utilizzare i valori dei campi nativi di Workfront nella ricerca esterna
 
-Questo esempio mostra come chiamare l’API Workfront e inserire i dati dal campo &quot;Status Query&quot; esistente nel campo di ricerca esterna.
+Questo esempio illustra come chiamare l’API Workfront e compilare un elenco di progetti in un campo di ricerca esterna, filtrati per stato utilizzando il valore del campo personalizzato &quot;Query di stato&quot; e un termine di ricerca tramite $$QUERY.
 
 1. Apri il modulo personalizzato.
 1. Nella parte sinistra dello schermo, trovare **Ricerca esterna** e trascinarlo in una sezione dell&#39;area di lavoro.
@@ -37,17 +37,17 @@ Questo esempio mostra come chiamare l’API Workfront e inserire i dati dal camp
 1. Seleziona il **Formato** per il campo.
 1. Immetti la chiamata API nel campo **URL API di base**.
 
-   * Per fare riferimento alla stessa istanza di Workfront in cui si trova il modulo personalizzato, utilizza $$HOST per l’URL.
-   * Per filtrare i risultati in base all&#39;esecuzione di query su un campo diverso, aggiungere $$QUERY.
+   * Utilizzare $$HOST per fare riferimento alla stessa istanza di Workfront in cui si trova il modulo personalizzato.
+   * Utilizzare $$QUERY per filtrare dinamicamente i risultati in base all&#39;input dell&#39;utente.
 
-   **Esempio**
-   `$$HOST/attask/api/v15.0/project/search?status={DE:StatusQuery}&$$QUERY`
+   **Esempio di chiamata API**
+   `$$HOST/attask/api/v15.0/project/search?status={DE:Status Query}&description=$$QUERY`
 
-1. Rivedi **Dipendenze** per i campi a cui fa riferimento il campo di ricerca nell&#39;API.
+1. Rivedi **Dipendenze** per i campi a cui si fa riferimento nella chiamata API.
 
-   Un campo dipendenza può essere un qualsiasi campo personalizzato o nativo esistente nella pagina dei dettagli dell&#39;oggetto.
+   Un campo di dipendenza può essere qualsiasi campo personalizzato o nativo disponibile sull&#39;oggetto. Ad esempio, quando si crea un modulo personalizzato per i gruppi che include un campo di ricerca esterno, i campi di dipendenza possono includere qualsiasi campo disponibile in un gruppo.
 
-   In questo esempio, `{DE:StatusQuery}` verrà sostituito con il valore del campo personalizzato StatusQuery.
+   In questo esempio, `{DE:Status Query}` verrà sostituito dinamicamente con il valore del campo personalizzato &quot;Query di stato&quot; per il gruppo corrente. Pertanto, quando il modulo viene allegato al Gruppo A, `{DE:Status Query}` viene sostituito con il valore impostato nel campo &quot;Status Query&quot; per tale gruppo.
 
 1. Selezionare il **metodo HTTP**.
 
