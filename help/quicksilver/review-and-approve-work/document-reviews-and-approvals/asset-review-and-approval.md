@@ -6,9 +6,9 @@ description: Panoramica dei sistemi disponibili per la revisione e l'approvazion
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: 97821d0fa97e8ba18e63b7e4156e06563e148a3d
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -21,32 +21,33 @@ Al momento in Workfront sono disponibili 3 diversi sistemi per la revisione e l�
 
 * [Approvazioni unificate](#new-document-approvals)
 
-* [Approvazioni di prova](#proof-approvals)
+* [Approvazioni bozza](#proof-approvals)
 
-## Approvazioni di documenti legacy
+## Approvazioni documenti legacy
 
-Le approvazioni dei documenti legacy verranno rimosse da Workfront nel 2025. Il sistema di approvazione unificata è stato progettato per sostituire le approvazioni dei documenti legacy.
+Le approvazioni di documenti legacy verranno rimosse da Workfront nel 2025. Il sistema Unified Approvals è stato progettato per sostituire le approvazioni di documenti legacy.
 
-Funzionalità principali disponibili per l&#39;approvazione di documenti legacy:
+Funzioni principali disponibili per le approvazioni di documenti legacy:
 
 * Aggiungere utenti come approvatori
-* Rivedere e commentare nel visualizzatore di correzione
+* Revisione e commento nel visualizzatore di bozze
 * Prendi decisioni nel visualizzatore di bozze
 * Creare rapporti di approvazione con rapporti legacy
+* Accedere alle richieste di approvazione nel widget Approvazioni personali nell’area Home
 
 Per ulteriori informazioni, vedere [Approvazioni documenti legacy](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes).
 
 ## Approvazioni unificate
 
-Unified Approvals è una riprogettazione del sistema di approvazione legacy. Attualmente disponibile in versione limitata, è progettato per essere una soluzione pratica ed efficace per le aziende che richiedono un coinvolgimento completo del portatore di interesse e approvazioni di documenti specifici della versione.
+Unified Approvals (Approvazioni unificate) è una riprogettazione del sistema di approvazione legacy. Attualmente disponibile in versione limitata, è progettato per essere una soluzione pratica ed efficace per le aziende che richiedono un coinvolgimento completo delle parti interessate e l’approvazione di documenti specifici per le versioni.
 
-Per informazioni più dettagliate sulle approvazioni unificate, vedere [Cenni preliminari](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) sulle approvazioni unificate.
+Per informazioni più dettagliate sulle approvazioni unificate, vedere [Panoramica sulle approvazioni unificate](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
-Funzionalità principali disponibili per le approvazioni unificate:
+Funzioni principali disponibili per le approvazioni unificate:
 
 * Aggiungere utenti e team come approvatori e revisori
 
-* Impostare scadenze
+* Impostare le scadenze
 
 * Creare e utilizzare i modelli
 
@@ -60,20 +61,22 @@ Per ulteriori informazioni sul reporting, vedere [Creare un dashboard di report 
 
 * Prendi decisioni nel visualizzatore di bozze [!BADGE Disponibile a breve]{type=Informative}
 
-* Crea approvazioni di più fase Disponibile [!BADGE a breve]{type=Informative}
+* Crea più approvazioni fase [!BADGE In arrivo]{type=Informative}
+
+* Accedi alle richieste di revisione e approvazione nel widget Approvazioni personali nell’area Home
 
 
-## Approvazioni di prova
+## Approvazioni bozza
 
-Le approvazioni delle prove consentono di utilizzare flussi di lavoro di base e automatizzati per gestire processi complessi di revisione e approvazione. Per ulteriori informazioni sulle correzioni, vedere [Strumenti di correzione](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/proofing-basics.md).
+Le approvazioni delle bozze consentono di utilizzare flussi di lavoro di base e automatizzati per gestire processi complessi di revisione e approvazione. Per ulteriori informazioni sulla verifica, vedere [Verifica](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/proofing-basics.md).
 
-Funzioni disponibili per la correzione:
+Funzioni disponibili per la verifica:
 
-* Utilizzare i ruoli di prova per personalizzare accesso e funzionalità di prova
+* Utilizza i ruoli di bozza per personalizzare l’accesso e le funzionalità delle bozze
 
-* Impostare scadenze
+* Impostare le scadenze
 
-* Crea e utilizzare i modelli
+* Creare e utilizzare i modelli
 
 * Revisione e commento nel visualizzatore di bozze
 
@@ -81,9 +84,11 @@ Funzioni disponibili per la correzione:
 
 * Prendi decisioni nel visualizzatore di bozze
 
-* Crea approvazioni multiple fase
+* Creare più approvazioni di fase
 
 * Utilizzare flussi di lavoro di base o automatizzati
+
+* Accedere alle richieste di approvazione nel widget Approvazioni personali nell’area Home
 
 <!--
 ## Upcoming deprecations
