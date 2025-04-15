@@ -6,9 +6,9 @@ description: Puoi visualizzare i rapporti del calendario e i dettagli dell’eve
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: eebece1ba576d9c654ac0fd9763ae646ce3be5a5
+source-git-commit: 3e5fdb157a6ff29daf964b505d3a0bf4f9842e88
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -82,8 +82,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    * **[!UICONTROL Settimana]**: visualizza una settimana del calendario
    * **[!UICONTROL Gantt]**: visualizza una visualizzazione continua del calendario
 
-     ![[!UICONTROL Rapporto calendario Gantt]](assets/gantt-calendar-report.png)
-
      Puoi visualizzare altri eventi in una visualizzazione [!UICONTROL Gantt] scorrendo verso il basso o lateralmente. Un simbolo di caricamento viene visualizzato quando i dati vengono compilati per la vista.
 
    >[!NOTE]
@@ -118,16 +116,5 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 Puoi visualizzare i dettagli di un evento in un calendario, sia per gli eventi correnti che per quelli passati.
 
-1. Vai all’evento per il quale desideri conoscere i dettagli, quindi fai clic sull’evento.
-Viene visualizzata una pagina di dettagli per l’evento.
-   ![calendar_report_EventDetails.png](assets/calendar-report-eventdetails-350x145.png)
-
-1. (Facoltativo) Per visualizzare ulteriori dettagli sull&#39;oggetto:
-
-   1. Passa il puntatore del mouse sul nome del progetto, dell’attività o del problema.
-
-      Viene visualizzata una pagina dei dettagli dell&#39;oggetto.
-      ![additional_object_details_-_calendar_report.png](assets/additional-object-details---calendar-report-350x131.png)
-
-   1. (Facoltativo) Per aprire il progetto, l’attività o il problema associato, fai clic sul titolo dell’oggetto.
-   1. (Facoltativo) Per chiudere tutte le pagine dei dettagli aperte, fai clic in un punto qualsiasi al di fuori delle pagine dei dettagli dell’evento.
+1. Vai all’evento per il quale desideri conoscere i dettagli, quindi fai clic sull’evento. I dettagli vengono visualizzati in un pannello sul lato destro.
+1. (Facoltativo) Per aprire il progetto, l’attività o il problema associato, fai clic sul titolo dell’oggetto.
