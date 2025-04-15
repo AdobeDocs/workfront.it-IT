@@ -6,9 +6,9 @@ description: L'app  [!DNL Adobe Workfront for Microsoft Teams] ti consente di es
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
+source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '803'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,13 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
+<!--
+
 >[!IMPORTANT]
 >
->A partire dal 1° luglio 2025, Microsoft rimuoverà il supporto per l’app desktop Classic Teams. Di conseguenza, l’integrazione di Workfront con Microsoft Teams non sarà supportata dopo che l’app desktop Classic Teams non sarà più disponibile.
+>As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
+
+-->
 
 
 L&#39;app [!DNL Adobe Workfront for Microsoft Teams] consente di eseguire le azioni di base in [!DNL Workfront] senza uscire dai canali di chat di [!DNL Microsoft Teams].

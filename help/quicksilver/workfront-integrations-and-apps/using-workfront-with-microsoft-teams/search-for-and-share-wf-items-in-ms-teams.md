@@ -6,18 +6,22 @@ description: Puoi cercare [!DNL Workfront] elementi in qualsiasi [!DNL Adobe Wor
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
-source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
+source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
 # Cerca e condividi [!DNL Adobe Workfront] elementi in [!DNL Microsoft Teams]
 
+<!--
+
 >[!NOTE]
 >
->A partire dal 1° luglio 2025, Microsoft rimuoverà il supporto per l’app desktop Classic Teams. Di conseguenza, l’integrazione di Workfront con Microsoft Teams non sarà supportata dopo che l’app desktop Classic Teams non sarà più disponibile.
+>As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
+
+-->
 
 Puoi cercare [!DNL Workfront] elementi in qualsiasi canale [!DNL Adobe Workfront] in [!DNL Microsoft Teams] e condividerli con i membri dei tuoi team.
 
