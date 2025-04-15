@@ -6,7 +6,7 @@ description: Puoi aggiungere qualsiasi attività o problema a una bacheca Kanban
 author: Courtney
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
+source-git-commit: 2ce454f6f6e883090fe69c953d89c2d3eef7ce5b
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -67,6 +67,7 @@ Per aggiungere un&#39;attività o un problema a una bacheca [!UICONTROL Kanban] 
    >Se all&#39;attività o al problema sono assegnati più team, l&#39;elemento di lavoro può essere visualizzato solo sulla bacheca [!DNL kanban] di un team.
 1. Fare clic su **Aggiungi**.
 
+
 ## Aggiungere attività o problemi esistenti da un rapporto
 
 Per aggiungere un&#39;attività o un problema a una bacheca [!UICONTROL Kanban] da un report:
@@ -84,13 +85,14 @@ Per aggiungere un&#39;attività o un problema a una bacheca [!UICONTROL Kanban] 
 1. Fare clic su **Aggiungi**.
 
 
+
 ## Aggiungere attività o problemi esistenti da un dashboard
 
 Per aggiungere un&#39;attività o un problema a una bacheca [!UICONTROL Kanban] da una dashboard:
 
 {{step1-to-dashboards}}
 
-1. Selezionare il dashboard contenente l&#39;elemento di lavoro da aggiungere alla bacheca Kanban.
+1. Selezionare il dashboard contenente l&#39;elemento di lavoro che si desidera aggiungere al Kanban Board.
 1. Selezionare uno o più elementi di lavoro da aggiungere.
 1. Fai clic sull&#39;icona **[!UICONTROL Altro]** ![Altro icona](assets/more-icon.png), quindi seleziona **Aggiungi a bacheca Kanban**. Viene visualizzata la finestra di dialogo [!UICONTROL **Aggiungi a**].
 1. Nel campo **Kanban Board**, digita il nome del team Kanban, quindi selezionalo dal menu a discesa.
@@ -98,4 +100,5 @@ Per aggiungere un&#39;attività o un problema a una bacheca [!UICONTROL Kanban] 
    >[!NOTE]
    >
    >Se all&#39;attività o al problema sono assegnati più team, l&#39;elemento di lavoro può essere visualizzato solo sulla bacheca [!DNL kanban] di un team.
+
 1. Fare clic su **Aggiungi**.
