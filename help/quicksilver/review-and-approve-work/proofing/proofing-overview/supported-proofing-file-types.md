@@ -7,9 +7,9 @@ description: È possibile condividere e rivedere vari tipi di file con i revisor
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: b0454e68bdd6e9e78bd748868fc82a7b0cf8f379
+source-git-commit: 1df1eff727ff2044eee0f5c0e79794c109d16c7a
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Workfront ha i seguenti limiti:
 * DCS - Sistema di fotocamera digitale Kodak
 * DCM - DICOM
 * DCX - Pennello pittura
-* DNG - Adobe digitale negativa
+* DNG - Adobe Digital Negative
 * DOC - Documento di Microsoft Word
 * DOCX - Microsoft Word Document 2007
 * DRW - DRaWing
@@ -91,7 +91,7 @@ Workfront ha i seguenti limiti:
 * FLC - Animazione di tipo Flic
 * FPX - Kodak FlashPix
 * GBR - Gerber GIF - CompuServe
-* GIF - Graphics Interchange Format (GIF animati solo nel nuovo Workfront Proof Viewer)
+* GIF - Graphics Interchange Format (GIF animato solo nel nuovo Workfront Proof Viewer)
 * GIF HDP - Windows HD Photo
 * ICO - Icona Windows
 * IFF - Interchange File Format
@@ -100,7 +100,7 @@ Workfront ha i seguenti limiti:
 * ITG - Intergrafo
 * JBG - JBIG
 * JB2 - JBIG2
-* Gruppo misto di esperti fotografici (JPEG) dell’JPG
+* JPG - Joint Photographic Experts Group (JPEG)
 * JPEG-XR - Windows Media Photo/HD Photo (HDP)
 * JPEG-LS - JPEG senza perdita di dati
 * J2K - JPEG 2000
@@ -208,7 +208,7 @@ Workfront ha i seguenti limiti:
 * AVI
 * Flash (VP6, Sorenson Spark/H.263+, H.264)
 * MOV
-* MP4
+* MP4 - limite 8.192 x 4.320 pixel
 * MPG
 * VOB (solo VOB non crittografati)
 * Flash
@@ -248,4 +248,4 @@ Per ulteriori informazioni, vedere [Panoramica delle bozze dei contenuti interat
 
 ## File InDesign e Quark
 
-I file InDesign e Quark non sono supportati in quanto non sono tipi di file autonomi e fanno riferimento a numerosi altri file, ad esempio immagini e font. L’output di questi tipi di file varia a seconda delle impostazioni di output. Consigliamo ai clienti di salvare i file InDesign e Quark come PDF e di caricare le PDF.
+InDesign e Quark Files non sono supportati perché non sono tipi di file autonomi e fanno riferimento a numerosi altri file come immagini e font. L’output di questi tipi di file varia a seconda delle impostazioni di output. Consigliamo ai clienti di salvare i file InDesign e Quark come PDF e di caricare il PDF.
