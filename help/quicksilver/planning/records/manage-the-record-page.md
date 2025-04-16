@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1809'
 ht-degree: 0%
 
 ---
@@ -270,9 +270,7 @@ Quando si aggiunge una visualizzazione Connessione alla pagina di un record, ten
 
 * Impossibile aggiungere una pagina di visualizzazione Connessione all&#39;area di anteprima di un record.
 
-* Le pagine della visualizzazione Connessione visualizzano una pagina di record connesso nella visualizzazione Tabella. La vista tabella è di sola lettura. <!--more views might be added in the future-->
-
-* È possibile aggiungere una pagina di visualizzazione Connessione per ogni tipo di record connesso.  <!--edit this when we can remove fields from this page-->
+* Le pagine della visualizzazione Connessione visualizzano una pagina del tipo di record connesso nella visualizzazione Tabella.
 
 * Dopo aver aggiunto una pagina di visualizzazione Connessione alla pagina di un record, la scheda della pagina è visibile dall&#39;area di anteprima del record. È necessario passare alla pagina intera per visualizzare la vista tabella per il record connesso. <!--this might have changed? check and take disclaimer out-->
 
@@ -289,7 +287,7 @@ Per aggiungere una pagina di visualizzazione Connessione:
 Viene visualizzata la vista tabella del tipo di record selezionato e i record collegati vengono visualizzati nella vista tabella.
 Tutti i campi del record connesso vengono visualizzati nella vista a tabella della scheda del record connesso.
 
-   Quando si accede a Workfront Planning dall&#39;ambiente Anteprima, per impostazione predefinita vengono visualizzati i primi cinque campi della tabella record connessa. Nessun campo di ricerca visualizzato per impostazione predefinita.0
+   Per impostazione predefinita, vengono visualizzati i primi cinque campi della tabella record connessa. Per impostazione predefinita, non viene visualizzato alcun campo di ricerca.
 
    La vista tabella è di sola lettura.
 
@@ -309,16 +307,11 @@ Tutti i campi del record connesso vengono visualizzati nella vista a tabella del
    * Raggruppamento
    * Campi, per visualizzare, nascondere o ridisporre i campi
 
-   <!--Add to the list above from the list below - and condition these for Preview only: Hide fields, rearrange fields-->
-
    Per informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
 
    >[!NOTE]
    >
-   >   Nella visualizzazione per tabella della scheda di un record connesso non è possibile eseguire alcuna delle operazioni seguenti:
-   >
-   >   * Nascondere o ridisporre i campi. È possibile nascondere e ridisporre i campi nell’ambiente di anteprima.
-   >   * Creare, modificare o eliminare campi
+   >   Non è possibile creare, modificare o eliminare campi nella visualizzazione per tabella della scheda di un record connesso.
    >
 
 1. Fai clic su **Connetti** per aggiungere o rimuovere record. Per informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md)

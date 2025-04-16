@@ -6,9 +6,9 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1345'
 ht-degree: 1%
 
 ---
@@ -17,40 +17,43 @@ ht-degree: 1%
 
 Quando invii spesso richieste simili, puoi copiare una richiesta già inviata. In questo caso, puoi copiare una richiesta esistente, apportarvi modifiche minime e inviarla nuovamente come nuova richiesta.
 
-## Requisiti di accesso
+<!--Old?? 
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+## Access requirements
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
-   <td> <p>Qualsiasi</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Richiedi o superiore</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modifica l'accesso alle Issues</p> <p><b>NOTA</b>
-
-Se non disponi dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Issues</p> <p><b>NOTE</b> 
+   
+   If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Accesso per aggiungere richieste a una coda di richieste</p> <p>Visualizza o autorizzazioni superiori per la richiesta esistente</p> <p>Per informazioni sulla configurazione di una coda richieste, vedere <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Creare una coda richieste</a>. </p> </td> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Access to add requests to a request queue</p> <p>View or higher permissions on the existing request</p> <p>For information on setting up a request queue, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
+-->
 
 ## Requisiti di accesso
 

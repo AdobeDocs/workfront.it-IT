@@ -6,9 +6,9 @@ description: Un programma rappresenta una raccolta di progetti che condividono u
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1288'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Un programma rappresenta una raccolta di progetti che condividono una strategia, un obiettivo o un obiettivo comune che trascende i limiti del progetto.
 I programmi sono una suddivisione dei portafogli e non possono esistere al di fuori di un portfolio. In genere, i programmi condividono le stesse risorse di altri programmi all’interno dello stesso portfolio.
@@ -74,17 +74,14 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
   Per informazioni sull&#39;importazione di dati tramite Kick-Start in Workfront, vedere [Importare dati in Adobe Workfront utilizzando un modello Kick-Start](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-<div class="preview">
 
 * Aggiungere i programmi quando vengono collegati da un tipo di record in Workfront Planning.
 
-  È necessario disporre di una nuova licenza Workfront e di un pacchetto Workfront Planning aggiuntivo per Workfront Planning.
+  È necessario disporre di un pacchetto Workfront Planning aggiuntivo.
 
-  Per informazioni sull&#39;accesso a Workfront Planning, vedere [Panoramica dell&#39;accesso](/help/quicksilver/planning/access/access-overview.md).
+  Per informazioni sull&#39;accesso a Workfront Planning, vedere [Panoramica dell&#39;accesso ad Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
   Per informazioni sulla creazione di portafogli tramite l&#39;aggiunta di tali portafogli ai record, vedere la sezione &quot;Creare record durante la connessione&quot; nell&#39;articolo [Creare record](/help/quicksilver/planning/records/create-records.md).
-
-</div>
 
 ## Creare un programma
 

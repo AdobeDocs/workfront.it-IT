@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: e49f1b3d9de3984ed798e20a0a0f03f9d4060115
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '699'
 ht-degree: 1%
 
 ---
@@ -165,18 +165,3 @@ Prima di apportare modifiche alla configurazione di un campo, è necessario cons
 1. (Condizionale) Per i campi record connessi, fare clic su **Modifica campi di ricerca** e aggiungere o rimuovere i campi di ricerca dal tipo di record connesso.
 
    Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
-
-   >[!TIP]
-   >
-   >È possibile aggiungere o rimuovere campi di ricerca da record connessi, ma non modificare le impostazioni dei campi di ricerca.
-
-
-<!-- replace the TIP above with the one below at Preview, and remove this tip altogether after April 10 Prod release:-->
-
-<!--
-   >[!TIP]
-   >
-   >* In the Production environment, you can add or remove lookup fields from connected records, but you cannot edit the settings of lookup fields.
-   >* <span class="preview">In the Preview environment, you can edit the settings of lookup fields.</span>
-
--->

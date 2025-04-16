@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '2046'
+source-wordcount: '2020'
 ht-degree: 1%
 
 ---
@@ -26,9 +26,7 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-È possibile creare un modulo di richiesta e associarlo a un tipo di record in Adobe Workfront Planning. Puoi quindi condividere un collegamento con altri utenti interni o esterni.
-
-Gli utenti con un collegamento al modulo possono aggiornare i valori dei campi in esso contenuti e aggiungere nuovi record inviandolo.
+È possibile creare un modulo di richiesta e associarlo a un tipo di record in Adobe Workfront Planning. È quindi possibile condividere il modulo con altri utenti, che possono inviare richieste per la creazione di record.
 
 In questo articolo viene descritto come un manager area di lavoro può creare un modulo di richiesta associato a un tipo di record.
 
@@ -126,7 +124,7 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
 
       * Creato da e Ultima modifica da
       * Data di creazione e data dell’ultima modifica
-      * Formula. <!--Formula fields are supported in the Preview environment.-->
+      * Formula
       * Campi di ricerca di oggetti Workfront
       * Campi di ricerca dei record connessi di Workfront Planning
 
@@ -257,12 +255,7 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
    >     * Persone
    >
 
-1. (Condizionale) Se hai selezionato **Qualcuno con il collegamento** nel passaggio precedente, seleziona **Data di scadenza collegamento** dal calendario disponibile. <!--take out this tip when we release to production as in multiple forms this is no longer happening-->
-
-   >[!TIP]
-   >
-   >In questo caso, il collegamento viene condiviso pubblicamente.
-   >![Collegamento condiviso pubblicamente al modulo nel menu del tipo di record](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+1. (Condizionale) Se hai selezionato **Qualcuno con il collegamento** nel passaggio precedente, seleziona **Data di scadenza collegamento** dal calendario disponibile.
 
    Gli utenti riceveranno un errore dopo la scadenza del collegamento e, prima di poter accedere nuovamente al modulo, è necessario aggiornare la data del collegamento e generare un nuovo collegamento da condividere.
 
@@ -299,18 +292,10 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
 1. Fare clic sulla freccia rivolta a sinistra a sinistra di **Moduli di richiesta** nell&#39;intestazione per chiudere la tabella dei moduli di richiesta.
 
    Viene visualizzata la pagina del tipo di record.
-1. (Facoltativo e condizionale) Per modificare un modulo esistente:
+1. (Facoltativo e condizionale) Fare clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record nell&#39;intestazione, quindi eseguire una delle operazioni seguenti:
 
-   1. Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record nell&#39;intestazione, quindi fai clic su **Gestisci moduli di richiesta**. </span>
+   1. Fai clic su **Aggiorna modulo di richiesta** per apportare modifiche al modulo di richiesta, quindi fai clic su un modulo di richiesta per aprirlo e modificarlo.
+   1. Fai clic su **Copia collegamento al modulo di richiesta** per condividere il collegamento al modulo con altri utenti.
 
-      Verrà aperta la vista tabella Moduli richiesta.
+1. (Facoltativo) Vai all&#39;area **Richieste** in Workfront e trova il modulo condiviso per inviare una richiesta. Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md).
 
-   1. Fare clic su un modulo di richiesta per aprirlo e modificarlo.
-   1. (Facoltativo) Vai all&#39;area **Richieste** in Workfront e trova il modulo condiviso per inviare una richiesta. Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md).
-
-<!--   * From the Production environment:
-   
-      1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the header, then do one of the following: 
-   
-      1. Click **Update request form** to make any changes to the request form.
-      1. Click **Copy link to request form**  to share the link to the form with others.-->
