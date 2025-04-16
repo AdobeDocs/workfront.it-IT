@@ -6,15 +6,17 @@ description: È possibile scegliere tra diversi widget per personalizzare il con
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
-source-git-commit: be7f2b811bf963d31881879655edd4bc634294c5
+source-git-commit: c1f5e11c6327ef86bd3f89eb383b3bf06bd4981f
 workflow-type: tm+mt
-source-wordcount: '1155'
-ht-degree: 5%
+source-wordcount: '1103'
+ht-degree: 6%
 
 ---
 
 
 # Aggiungere, modificare o rimuovere widget nella Home
+
+<!-- Audited: 4/2025 -->
 
 È possibile scegliere tra diversi widget per personalizzare il contenuto visualizzato nella home page. Questi widget possono essere ridimensionati e ridisposti.
 
@@ -35,15 +37,15 @@ Per impostazione predefinita, la home page è compilata con widget specifici in 
     </tr>
     <tr>
         <td>Light</td>
-        <td>Il mio lavoro, in attesa della mia approvazione</td>
+        <td>Il mio lavoro, le mie approvazioni</td>
     </tr>
     <tr>
         <td>Collaboratore</td>
-        <td>Le mie richieste, menzioni, in attesa della mia approvazione, bacheche</td>
+        <td>Le mie richieste, menzioni, le mie approvazioni, bacheche</td>
     </tr>
     <tr>
         <td>Esterno</td>
-        <td>In attesa della mia approvazione</td>
+        <td>Le mie approvazioni</td>
     </tr>
 </table>
 
@@ -66,7 +68,7 @@ Per impostazione predefinita, la home page è compilata con widget specifici in 
     </tr>
     <tr>
         <td>Richiesta</td>
-        <td>I miei progetti, in attesa della mia approvazione</td>
+        <td>I miei progetti, le mie approvazioni</td>
     </tr>
     <tr>
         <td>Contribuisci</td>
@@ -74,7 +76,7 @@ Per impostazione predefinita, la home page è compilata con widget specifici in 
     </tr>
     <tr>
         <td>Esterno</td>
-        <td>In attesa della mia approvazione</td>
+        <td>Le mie approvazioni</td>
     </tr>
 </table>
 
@@ -88,20 +90,18 @@ Per aggiungere un widget:
 
 1. Passa alla home page facendo clic sull&#39;icona Adobe Workfront ![Icona Adobe Workfront](assets/home-icon-30x29.png) nella parte superiore dello schermo se Home è impostata come pagina di destinazione oppure facendo clic sull&#39;icona del menu principale ![Icona menu principale](assets/main-menu-icon.png) e quindi su **Home**.
 
-1. Fai clic su **Personalizza** nell&#39;angolo superiore destro dello schermo.
+1. Nell&#39;angolo superiore destro dello schermo fare clic su **Personalizza**.
 
    ![Pulsante Personalizza](assets/customize-button.png)
 1. Scorri fino alla sezione **Widget**, quindi seleziona i widget che desideri aggiungere.
 
 +++ Espandere per visualizzare un elenco dettagliato dei widget disponibili
 
-       Di seguito sono riportati gli 11 widget attualmente disponibili tra cui scegliere, nonché un riepilogo delle informazioni visualizzate:
-   
    * **Il mio lavoro**\
-       Un ottimo punto di partenza per la gestione di una varietà di lavori, questo widget mostra tutte le attività, i problemi e le richieste assegnati in un&#39;unica posizione. È possibile fare clic sul pulsante Lavoraci per iniziare a lavorare su un elemento oppure sul pulsante Fine per contrassegnarli come completati. È inoltre possibile aggiornare le informazioni (Stato, Condizione, Percentuale di completamento) relative alle attività e ai problemi, registrare i tempi e aggiungere aggiornamenti dal widget Il mio lavoro.
+       Visualizza tutte le attività, i problemi e le richieste assegnati in un&#39;unica posizione. È possibile fare clic sul pulsante Lavoraci per iniziare a lavorare su un elemento oppure sul pulsante Fine per contrassegnarli come completati. È inoltre possibile aggiornare le informazioni (Stato, Condizione, Percentuale di completamento) relative alle attività e ai problemi, registrare i tempi e aggiungere aggiornamenti dal widget Il mio lavoro.
 
    * **Bacheche**\
-       Visualizza tutte le bacheche create o che sono state invitate a utilizzare. Puoi anche creare una nuova bacheca basata sui seguenti modelli: Bacheca di base, Bacheca Kanban, Bacheca retrospettiva, Bacheca dinamica
+       Visualizza tutte le bacheche create o che sono state invitate a utilizzare. Puoi anche creare una nuova bacheca basata sui seguenti modelli: Bacheca di base, Bacheca Kanban, Bacheca retrospettiva e Bacheca dinamica.
 
    * **Progetti personali**\
        Visualizza in un elenco i progetti di cui sei proprietario o a cui appartieni. È possibile utilizzare filtri, viste o raggruppamenti esistenti per personalizzare l’elenco oppure creare un progetto direttamente dal widget.
@@ -118,7 +118,7 @@ Per aggiungere un widget:
    * **Richieste team**\
        Mostra tutte le richieste in sospeso per i team di cui fai parte, ordinate per team, nonché i pulsanti per assegnare direttamente una richiesta a un utente o per lavorarci di persona.
 
-   * **In attesa della mia approvazione**\
+   * **Le mie approvazioni**\
        Mostra tutte le approvazioni assegnate o delegate in attesa, un pulsante per delegare le approvazioni e pulsanti per prendere decisioni di approvazione direttamente all’interno del widget.
 
    * **Tutte le approvazioni**\
@@ -132,7 +132,7 @@ Per aggiungere un widget:
 
      >[!NOTE]
      >
-     >È necessario disporre dell&#39;autorizzazione per creare le attività da fare nel widget Da fare e nel widget verranno visualizzate solo le attività personali immesse dall&#39;utente corrente.
+     >È necessario disporre dell&#39;autorizzazione per creare le attività per poter creare le attività da fare nel widget Attività. Verranno visualizzate solo le attività personali immesse dall&#39;utente corrente.
 
 +++
 
@@ -153,7 +153,7 @@ Per aggiungere un widget:
 
 1. Passa alla home page facendo clic sull&#39;icona Adobe Workfront ![Icona Adobe Workfront](assets/home-icon-30x29.png) nella parte superiore dello schermo se Home è impostata come pagina di destinazione oppure facendo clic sull&#39;icona del menu principale ![Icona menu principale](assets/main-menu-icon.png) e quindi su **Home**.
 
-1. Individua il widget nella home page che desideri rimuovere, quindi fai clic sull&#39;icona Altro ![Icona Altro](assets/more-icon.png) nell&#39;angolo in alto a destra del widget.
+1. Individua il widget nella home page che desideri rimuovere, quindi fai clic sull&#39;icona **Altro** ![Icona aggiuntiva](assets/more-icon.png) nell&#39;angolo superiore destro del widget.
 
 1. Fare clic su **Rimuovi**.
 
@@ -162,10 +162,8 @@ Per aggiungere un widget:
 
 1. Passa alla home page facendo clic sull&#39;icona Adobe Workfront ![Icona Adobe Workfront](assets/home-icon-30x29.png) nella parte superiore dello schermo se Home è impostata come pagina di destinazione oppure facendo clic sull&#39;icona del menu principale ![Icona menu principale](assets/main-menu-icon.png) e quindi su **Home**.
 
-1. Fai clic su **Personalizza** nell&#39;angolo superiore destro dello schermo.
+1. Nell&#39;angolo superiore destro dello schermo fare clic su **Personalizza**.
 
    ![Pulsante Personalizza](assets/customize-button.png)
-
-   Viene visualizzato il pannello Personalizza.
 
 1. Nella sezione **Sfondo** del pannello **Personalizza**, fai clic sul colore che desideri selezionare per lo sfondo della Home. Puoi anche fare clic su **Nessuno** per rimuovere lo sfondo.
