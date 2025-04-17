@@ -6,7 +6,7 @@ description: Puoi aggiungere qualsiasi attività o problema a una bacheca Kanban
 author: Courtney
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: 2ce454f6f6e883090fe69c953d89c2d3eef7ce5b
+source-git-commit: bf79bc8fd3e25ff1bae404700ca27973a8b2307d
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -65,6 +65,7 @@ Per aggiungere un&#39;attività o un problema a una bacheca [!UICONTROL Kanban] 
    >[!NOTE]
    >
    >Se all&#39;attività o al problema sono assegnati più team, l&#39;elemento di lavoro può essere visualizzato solo sulla bacheca [!DNL kanban] di un team.
+
 1. Fare clic su **Aggiungi**.
 
 
@@ -82,6 +83,7 @@ Per aggiungere un&#39;attività o un problema a una bacheca [!UICONTROL Kanban] 
    >[!NOTE]
    >
    >Se all&#39;attività o al problema sono assegnati più team, l&#39;elemento di lavoro può essere visualizzato solo sulla bacheca [!DNL kanban] di un team.
+
 1. Fare clic su **Aggiungi**.
 
 

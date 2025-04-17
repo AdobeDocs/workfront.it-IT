@@ -3,12 +3,12 @@ navigation-topic: the-new-workfront-experience
 title: Fissa pagine per personalizzare l’area di lavoro
 description: Puoi fissare il tuo lavoro più importante [!DNL Adobe Workfront] per una maggiore visibilità, una migliore organizzazione e un accesso più rapido. Le pagine bloccate sono sempre accessibili dalla parte superiore di qualsiasi pagina in Workfront.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: e8a3f47a33b862a29000436d7c08c1a0e9371907
+source-git-commit: b3fe63f7a332f50c7bac3bedee5db3bbbabd2b42
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 0%
+source-wordcount: '420'
+ht-degree: 1%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -29,27 +31,28 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano</strong></td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Request] o versione successiva</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza</strong></td> 
+   <td> <p>Nuovo: Collaboratore</p> 
+   <p>Oppure</p>
+     <p>Corrente: richiesta</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano o il tipo di licenza disponibile, contattare l&#39;amministratore [!DNL Workfront].
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Inserisci puntina su una pagina
 
-1. Vai alla pagina che desideri fissare.
+1. Passare alla pagina che si desidera fissare. Può trattarsi di qualsiasi elemento di lavoro, ad esempio un progetto, un’attività, una coda di richieste e così via.
 
-   Può trattarsi di qualsiasi elemento di lavoro, ad esempio un progetto, un’attività, una coda di richieste e così via.
-
-1. Fai clic su **[!UICONTROL Aggiungi pagina corrente]** nella parte superiore della pagina.
-
-   La pagina bloccata è ora accessibile dalla parte superiore di qualsiasi pagina in [!DNL Workfront].
+1. Nell&#39;angolo superiore sinistro della pagina fare clic su **[!UICONTROL Aggiungi pagina corrente]**. La pagina bloccata è ora accessibile dalla parte superiore di qualsiasi pagina in [!DNL Workfront].
 
 ## Accedere a una pagina bloccata
 
@@ -61,31 +64,31 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Oppure
 
-   Se hai fissato molte pagine, potresti dover fare clic sul menu **[!UICONTROL Altro]** ![](assets/more-icon-spectrum.png) per visualizzare altre pagine fissate.
+   Se hai fissato molte pagine, fai clic sull&#39;icona **[!UICONTROL Altro]** ![Fai clic sull&#39;icona Altro](assets/more-icon.png) per visualizzare altre pagine fissate.
+
+   ![Visualizza altre pagine bloccate](assets/display-pinned-pages.png)
 
    Viene visualizzata la pagina bloccata.
 
-## Rinomina pagine bloccate
+## Rinominare una pagina bloccata
 
-È possibile modificare il nome di una pagina bloccata in modo da renderlo più significativo.
-
-1. Passa il puntatore del mouse sulla pagina bloccata nella navigazione superiore o sul **[!UICONTROL menu Altro]**.
-1. Fare clic sull&#39;icona Altro ![](assets/more-icon.png) accanto al nome del pin e selezionare **[!UICONTROL Rinomina pin]**.
+1. Passa il puntatore del mouse sulla pagina bloccata nella navigazione superiore.
+1. Fai clic sull&#39;icona **Altro** ![Altro icona](assets/more-icon.png) visualizzata accanto al nome del pin e seleziona **[!UICONTROL Rinomina pin]**.
 
    ![Rinomina pin](assets/pin-menu.png)
 
-1. Digitare il nuovo nome del pin e fare clic su **Salva**.
+1. Digita il nuovo nome del pin, quindi fai clic su **Salva**.
 
-   ![Fare clic sul segno di spunta per rinominare il pin](assets/new-pin-name.png)
+   ![Fare clic sul segno di spunta per rinominare il pin](assets/rename-pin-dialog-box.png)
 
 
 ## Riordinare le pagine bloccate
 
 È possibile modificare l&#39;ordine di visualizzazione delle pagine bloccate.
 
-1. Passa il puntatore del mouse sulla pagina bloccata da spostare, quindi fai clic sull&#39;icona **Altro**.
+1. Passa il puntatore del mouse sulla pagina bloccata da spostare, quindi fai clic sull&#39;icona **Altro** ![Altro](assets/more-icon.png).
 1. Scegli **Sposta a sinistra** o **Sposta a destra** per spostare il pin.
-1. (Facoltativo) Scegli **Sposta in primo piano** per spostare il pin all&#39;estrema destra della barra del pin.
+1. (Facoltativo) Scegli **Sposta in primo piano** per spostare il pin nella posizione più a sinistra della barra del pin.
 
    ![sposta pin](assets/pin-menu.png)
 
@@ -93,9 +96,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Rimuovere una pagina bloccata
 
-1. Fare clic sull&#39;icona Altro ![](assets/more-icon.png) accanto al pin che si desidera rimuovere.
-1. Fare clic su **Rimuovi pin**.
+1. Fai clic sull&#39;icona **Altro** ![](assets/more-icon.png) accanto al pin che desideri rimuovere.
+1. Fare clic su **Rimuovi pin**. La pagina non è più accessibile dalla parte superiore di alcuna pagina in [!DNL Workfront].
 
    ![Rimuovi pin](assets/pin-menu.png)
 
-   La pagina non è più accessibile dalla parte superiore di alcuna pagina in [!DNL Workfront].
+
