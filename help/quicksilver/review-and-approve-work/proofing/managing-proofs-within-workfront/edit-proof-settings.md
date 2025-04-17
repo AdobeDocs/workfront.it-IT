@@ -6,7 +6,7 @@ description: Puoi modificare le impostazioni della bozza in qualsiasi momento do
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee30ce2c-e3dc-4863-a69b-cbc1b8747362
-source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
+source-git-commit: a036a99c13d80a2ba2305ebcdc799ad6e5b62b39
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 7%
@@ -73,12 +73,7 @@ Alcune impostazioni potrebbero essere bloccate se l’amministratore di Workfron
      </tr> 
      <tr> 
       <td role="rowheader">Richiedi la firma elettronica per le decisioni</td> 
-      <td> <p>Puoi richiedere una firma elettronica di qualsiasi revisore che prenda una decisione sulla bozza. Quando un revisore prende una decisione, viene visualizzato un messaggio che chiede di inserire la propria e-mail e password e di confermare la decisione. <!--
-         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-          For more information, see 
-          <a href="../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md" class="MCXref xref">Understanding electronic signatures in Workfront Proof</a>
-         </MadCap:conditionalText>
-        --></p> </td> 
+      <td> <p>Puoi richiedere una firma elettronica di qualsiasi revisore che prenda una decisione sulla bozza. Quando un revisore prende una decisione, viene visualizzato un messaggio che chiede di inserire la propria e-mail e password e di confermare la decisione.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Blocca la bozza quando vengono prese tutte le decisioni necessarie</td> 
