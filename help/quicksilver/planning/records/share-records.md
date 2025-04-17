@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '731'
 ht-degree: 1%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 1%
 
 <!--should this move to the Access folder when we have sharing for ALL the objects???-->
 
+<!--take out preview and production references at release-->
+
 # Condividere i record
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
-
-<!--take out preview and production references at release-->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -34,22 +34,17 @@ Per collaborare con altri utenti, è possibile condividere i record con altri ut
 
 * Copiare un collegamento alla pagina del record quando si visualizzano i record nella vista tabella del tipo di record.
 
-* È possibile condividere tutti i record di un&#39;area di lavoro con altri utenti condividendo l&#39;area di lavoro <!--<span class="preview">and record type</span>-->. Per ulteriori informazioni, vedere [Condividere un&#39;area di lavoro](/help/quicksilver/planning/access/share-workspaces.md).
+* È possibile condividere tutti i record di un&#39;area di lavoro con altri utenti condividendo l&#39;area di lavoro <span class="preview"> e il tipo di record.</span>
 
-<!-- replace the last sentence above with this: 
+  Per ulteriori informazioni, consulta i seguenti articoli:
 
-For more information see the following articles:
+   * [Condividere un’area di lavoro](/help/quicksilver/planning/access/share-workspaces.md)
 
-* [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md)
+  <div class="preview">
 
+   * [Condividere un tipo di record](/help/quicksilver/planning/access/share-record-types.md)
 
-<div class="preview">
-
-* [Share a record type](/help/quicksilver/planning/access/share-record-types.md)
-
-</div>
-
--->
+  </div>
 
 In questo articolo viene descritto come copiare un collegamento alla pagina di un record dalla vista tabella di un tipo di record.
 
@@ -109,12 +104,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
-   <td>  <p>Visualizza o autorizzazioni superiori per un'area di lavoro per condividere <!--<span class="preview">and record type</span>--> un record utilizzando un collegamento </p>
-   <p>Gestire le autorizzazioni per un'area di lavoro <!--<span class="preview">and record type</span>--> per condividere i record nell'area di lavoro </p>
+   <td>  <p>Visualizza o autorizzazioni superiori per un'area di lavoro <span class="preview"> e tipo di record</span> da condividere   un record utilizzando un collegamento </p>
+   <p>Gestisci le autorizzazioni per un'area di lavoro <span class="preview"> e un tipo di record</span> per condividere i record nell'area di lavoro </p>
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Modello di layout</p></td> 
+   <td role="rowheader"><p>Modello layout</p></td> 
    <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> </td> 
   </tr> 
 </tbody> 
@@ -220,26 +215,23 @@ Solo gli utenti con le autorizzazioni di gestione di un’area di lavoro possono
 Per ulteriori informazioni, vedere [Condividere un&#39;area di lavoro](/help/quicksilver/planning/access/share-workspaces.md).
 
 
-<!--
 <div class="preview">
 
-## Share all records in a record type by sharing the record type
+## Condividere tutti i record di un tipo di record condividendo il tipo di record
 
-In the Production environment, records inherit permissions from the workspace. 
+Nell’ambiente di produzione, i record ereditano le autorizzazioni dall’area di lavoro.
 
-In the Preview environment, records inherit permissions from the record type. 
+Nell&#39;ambiente di anteprima i record ereditano le autorizzazioni dal tipo di record.
 
-By default, record types inherit permissions from the workspace. 
+Per impostazione predefinita, i tipi di record ereditano le autorizzazioni dal workspace.
 
-However, you can do any of the following:
+Tuttavia, è possibile effettuare una delle seguenti operazioni:
 
-* Turn off inherited permissions from the workspace on a record type. This removes permissions from the records. 
-* Manually grant permissions to users to a record type, even when they have no permissions to the workspace. This automatically gives them View permissions to the workspace. This grants permissions to users to the records. 
+* Disabilita le autorizzazioni ereditate dall&#39;area di lavoro in un tipo di record. In questo modo verranno rimosse le autorizzazioni di livello superiore per i record, ma verranno mantenute le autorizzazioni di visualizzazione per l&#39;area di lavoro, il tipo di record e i record.
+* Concedere manualmente le autorizzazioni agli utenti per un tipo di record, anche quando non dispongono di autorizzazioni per l&#39;area di lavoro. In questo modo viene automaticamente concesso loro il permesso di visualizzazione per l&#39;area di lavoro. In questo modo vengono concesse autorizzazioni agli utenti per i record.
 
-Only users with Manage permissions to a workspace can share its record types and records with others. 
+Solo gli utenti con le autorizzazioni Gestione di un&#39;area di lavoro possono condividere i tipi di record e i record con altri utenti.
 
-For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
+Per ulteriori informazioni, vedere [Condividi tipi di record](/help/quicksilver/planning/access/share-record-types.md).
 
 </div>
-
--->

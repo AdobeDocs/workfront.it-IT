@@ -6,15 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
 
 # Informazioni di accesso di Adobe Workfront Planning: indice articolo
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -24,16 +28,14 @@ Gli articoli seguenti contengono informazioni sull&#39;accesso necessario per l&
 
 * [Panoramica sull’accesso ad Adobe Planning](/help/quicksilver/planning/access/access-overview.md)
 * [Panoramica delle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md)
-
-<!--<div class="preview">
-
-* [Share record types](/help/quicksilver/planning/access/share-record-types.md)
-
-</div>-->
-
-* [Condividere le visualizzazioni](/help/quicksilver/planning/access/share-views.md)
-* [Condividere le aree di lavoro](/help/quicksilver/planning/access/share-workspaces.md)
 * [Panoramica del tipo di licenza quando si utilizza Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md)
 * [Richiedere le autorizzazioni per una visualizzazione o un’area di lavoro](/help/quicksilver/planning/access/request-permissions.md)
+* [Condividere le visualizzazioni](/help/quicksilver/planning/access/share-views.md)
+* [Condividere le aree di lavoro](/help/quicksilver/planning/access/share-workspaces.md)
+<div class="preview">
+
+* [Condividere tipi di record](/help/quicksilver/planning/access/share-record-types.md)
+
+</div>
 
 

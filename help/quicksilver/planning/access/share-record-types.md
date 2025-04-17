@@ -1,22 +1,18 @@
 ---
 title: Condividi tipi di record
 description: È possibile condividere un tipo di record con altri utenti per garantire la collaborazione quando si utilizza Adobe Workfront Planning.
-hide: true
-hidefromtoc: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
+recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
 
-<!-- add these to metadata on release:
-
-author: Alina
-feature: Workfront Planning
-role: User, Admin
-recommendations: noDisplay, noCatalog-->
 
 <!-- take the Remove permissions section out, at the end - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
@@ -32,12 +28,10 @@ recommendations: noDisplay, noCatalog-->
 
 >[!IMPORTANT]
 >
->* Per impostazione predefinita, la concessione di autorizzazioni a un’area di lavoro conferisce agli utenti le stesse autorizzazioni per i tipi di record nell’area di lavoro.
->* È inoltre possibile modificare le autorizzazioni per i singoli tipi di record.
->* Non è tuttavia possibile concedere a un tipo di record autorizzazioni superiori a quelle di cui dispone per l&#39;area di lavoro.
->* Le persone con l&#39;autorizzazione Gestione per l&#39;area di lavoro mantengono sempre l&#39;accesso Gestione a tutti i tipi di record nell&#39;area di lavoro. Le relative autorizzazioni non possono essere ridotte per i tipi di record, anche quando le autorizzazioni ereditate sono disattivate.
-> 
-> Per ulteriori informazioni, vedere la sezione [Considerazioni durante la condivisione dei tipi di record](#considerations-when-sharing-record-types) in questo articolo.
+>Gli utenti con accesso a un&#39;area di lavoro ottengono automaticamente almeno le autorizzazioni di visualizzazione per tutti i tipi di record nell&#39;area di lavoro.
+>La condivisione delle visualizzazioni non concede agli utenti le autorizzazioni per i tipi di record. Solo le aree di lavoro condivise possono concedere agli utenti le autorizzazioni per i tipi di record.
+>* Per informazioni generali sulla condivisione di oggetti in Workfront Planning, vedere anche [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+>* Per ulteriori informazioni, vedere la sezione [Considerazioni durante la condivisione dei tipi di record](#considerations-when-sharing-record-types) in questo articolo.
 
 ## Requisiti di accesso
 
@@ -102,7 +96,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <p>Solo gli utenti con le autorizzazioni di gestione di un'area di lavoro possono condividere le autorizzazioni di gestione di un tipo di record</p></td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Modello di layout</p></td> 
+   <td role="rowheader"><p>Modello layout</p></td> 
    <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> </td> 
   </tr> 
 </tbody> 
@@ -114,29 +108,35 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Considerazioni durante la condivisione dei tipi di record
 
-* Per informazioni generali sulla condivisione di oggetti in Workfront Planning, vedere anche [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+* Per impostazione predefinita, la concessione di autorizzazioni a un’area di lavoro conferisce agli utenti le stesse autorizzazioni per i tipi di record nell’area di lavoro.
+
+  È inoltre possibile modificare le autorizzazioni per i singoli tipi di record.
+
+  Non è tuttavia possibile concedere a un tipo di record autorizzazioni superiori a quelle di cui dispone per l&#39;area di lavoro.
+* È possibile concedere agli utenti autorizzazioni inferiori per il tipo di record rispetto a quelle disponibili nell&#39;area di lavoro. Ad esempio, possono disporre delle autorizzazioni Contribute per l&#39;area di lavoro e delle autorizzazioni View per un tipo di record.
+* Le persone con l&#39;autorizzazione Gestione per l&#39;area di lavoro mantengono sempre l&#39;accesso Gestione a tutti i tipi di record nell&#39;area di lavoro. Le relative autorizzazioni non possono essere ridotte per i tipi di record, anche quando le autorizzazioni ereditate sono disattivate.
 
 * Attualmente è possibile ottenere quanto segue quando si condividono tipi di record:
+
    * Assegnare agli utenti le autorizzazioni di visualizzazione per un&#39;area di lavoro quando si condivide per la prima volta un tipo di record con gli utenti che non dispongono di autorizzazioni per l&#39;area di lavoro.
 
      Questo consente inoltre di visualizzare tutti i tipi di record nell&#39;area di lavoro.
 
      Quando si assegnano loro le autorizzazioni per il tipo di record, nella casella Condivisione è presente un&#39;indicazione che le autorizzazioni vengono aggiunte anche all&#39;area di lavoro.
-   * Quando si disattivano le autorizzazioni Ereditate, il tipo di record viene impostato in modalità di sola visualizzazione per tutti gli utenti dell&#39;area di lavoro, ad eccezione dei manager dell&#39;area di lavoro.
+   * Quando si disattivano le autorizzazioni ereditate, il tipo di record diventa di sola visualizzazione per tutti gli utenti dell&#39;area di lavoro, ad eccezione dei manager dell&#39;area di lavoro.
 
      Le persone con autorizzazioni Gestisci per l&#39;area di lavoro dispongono sempre delle autorizzazioni Gestione per i tipi di record, anche quando si disattivano le autorizzazioni Ereditate per il tipo di record.
-  <!-- checking with Lilit - this doesn't make much sense: * Add people with Contribute permission to the workspace, who will retain Contribute permission to the record type. This way, only the selected people can manage records in the record type, while others can only view them. -->
    * Ridurre l&#39;autorizzazione delle persone a un tipo di record. Non è possibile aumentare l&#39;autorizzazione di un utente a un tipo di record a partire da quella disponibile nell&#39;area di lavoro.
 
      Se ad esempio un utente dispone dell&#39;autorizzazione Contribuisci all&#39;area di lavoro, è possibile modificare l&#39;autorizzazione in un tipo di record specifico in Visualizza. Tuttavia, se dispongono dell&#39;autorizzazione Visualizzazione per l&#39;area di lavoro, non potete concedere l&#39;autorizzazione Contribuisci a qualsiasi tipo di record.
 
-* Impossibile rimuovere l&#39;accesso a un tipo di record per le persone nell&#39;area di lavoro. Tutti dispongono sempre almeno dell&#39;autorizzazione Visualizzazione.
+* Impossibile rimuovere l&#39;accesso a un tipo di record per le persone nell&#39;area di lavoro. Tutti dispongono sempre almeno dell&#39;autorizzazione Visualizzazione per tutti i tipi di record se dispongono almeno dell&#39;autorizzazione Visualizzazione per l&#39;area di lavoro.
 
 * È possibile condividere un tipo di record internamente con le entità seguenti:
 
-   * Utenti, gruppi, team, aziende e ruoli di Workfront
+  Utenti, gruppi, team, aziende e ruoli di Workfront
 * Non è possibile condividere tipi di record esternamente con utenti esterni a Workfront.
-* Per assegnare a un tipo di record un utente che non dispone di autorizzazioni di area di lavoro superiori alle autorizzazioni di visualizzazione, è necessario innanzitutto condividere l&#39;area di lavoro con l&#39;utente con un&#39;autorizzazione superiore a quella di visualizzazione.
+* Per assegnare a un tipo di record un utente che non dispone di autorizzazioni di area di lavoro superiori alle autorizzazioni di visualizzazione, è necessario innanzitutto condividere l&#39;area di lavoro con l&#39;utente con un&#39;autorizzazione superiore a quella di visualizzazione. Le autorizzazioni più elevate per l’area di lavoro verranno quindi applicate ai tipi di record.
 
 ## Condivisione delle autorizzazioni per un tipo di record
 
@@ -154,12 +154,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    ![Autorizzazioni per i tipi di record con autorizzazioni ereditate su](assets/permissions-for-record-types-with-inherited-permissions-on.png)
 
-1. (Facoltativo) Nell&#39;area **Chi ha accesso**, selezionare una delle opzioni seguenti: <!--the Only invited people is supposed to be removed - rewrite this - according to Vahan-->
+1. (Facoltativo) Nell&#39;area **Chi ha accesso**, l&#39;opzione **Tutti nell&#39;area di lavoro possono visualizzare** è selezionata per impostazione predefinita.  Tutti gli utenti che dispongono di autorizzazioni View (Visualizzazione) o di livello superiore per l&#39;area di lavoro possono visualizzare il tipo di record.
 
-   * **L&#39;accesso è consentito solo alle persone invitate**: è necessario specificare gli utenti, i gruppi, il team, la società o le mansioni con cui si desidera condividere la visualizzazione.
-   * **Tutti gli utenti dell&#39;area di lavoro possono visualizzare**: tutti gli utenti che dispongono di autorizzazioni di visualizzazione o di livello superiore per l&#39;area di lavoro possono accedere alla visualizzazione. Questa è l&#39;opzione predefinita. <!--rewrite this based on what Lilit says in the proof: At this point, once the inherited permissions are disabled, everyone in the workspace except workspace managers will have View permission to the record type because the "Everyone in the workspace can view"  setting cannot be changed. -->
-
-1. (Facoltativo) Espandi l&#39;opzione **Autorizzazioni ereditate** per visualizzare utenti, team, gruppi, aziende o ruoli che ereditano le autorizzazioni dall&#39;area di lavoro.
+1. (Facoltativo) Fai clic sul numero di utenti nell&#39;opzione **Autorizzazioni ereditate** per visualizzare utenti, team, gruppi, aziende o ruoli che ereditano le autorizzazioni dall&#39;area di lavoro.
 
    >[!TIP]
    >
@@ -168,15 +165,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. (Facoltativo e condizionale) Se si desidera condividere il tipo di record con entità specifiche e concedere loro un accesso al tipo di record diverso da quello già disponibile per l&#39;area di lavoro, eseguire le operazioni seguenti:
 
-1. **Disattiva** autorizzazioni ereditate.
+   1. Seleziona **Disattiva** dal menu a discesa **Autorizzazioni ereditate**.
 
    >[!TIP]
    >
    >I manager di Workspace continuano a disporre delle autorizzazioni di gestione per il tipo di record.
 
-   1. Nel campo **Concedi l&#39;accesso a questo tipo di record**, aggiungi gli utenti, i team, i gruppi, le aziende o le mansioni a cui desideri concedere un diverso livello di autorizzazione.
+   1. Nel campo **Concedi l&#39;accesso a questo tipo di record**, aggiungi gli utenti, i team, i gruppi, le aziende o le mansioni a cui desideri concedere un livello di autorizzazione diverso da quello che hanno per l&#39;area di lavoro.
    1. Scegli un livello di autorizzazione.
-
 
    >[!IMPORTANT]
    >
@@ -185,20 +181,22 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >* Se dispongono delle autorizzazioni Contribute per l&#39;area di lavoro, potete concedere agli utenti un&#39;autorizzazione minore per il tipo di record.
    > Per ulteriori informazioni, vedere [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
-1. Per consentire agli utenti che non dispongono delle autorizzazioni per l&#39;area di lavoro di accedere al tipo di record di visualizzazione, nel campo **Concedi l&#39;accesso a questa visualizzazione**, inizia a digitare il nome di un utente, un gruppo, un team, una società o una mansione, quindi fai clic su di esso quando viene visualizzato nell&#39;elenco.
+1. Per consentire agli utenti che non dispongono delle autorizzazioni per l&#39;area di lavoro di visualizzare un tipo di record, nel campo **Concedi l&#39;accesso a questa visualizzazione**, inizia a digitare il nome di un utente, un gruppo, un team, una società o una mansione, quindi fai clic su di esso quando viene visualizzato nell&#39;elenco.
 
    L&#39;entità selezionata viene aggiunta al tipo di record e all&#39;area di lavoro con autorizzazioni **Visualizza**.
 
    Gli amministratori di sistema ricevono sempre le autorizzazioni Manage (Gestione) per i tipi di record condivisi con loro e vi è un&#39;indicazione che un utente è un amministratore di sistema.
 
-1. Fai clic su **Copia collegamento** per copiare negli Appunti un collegamento al tipo di record.
+1. (Facoltativo) Fai clic su **Copia collegamento** per copiare negli Appunti un collegamento al tipo di record e condividerlo con altri utenti.
 1. Fai clic su **Salva**.
 
    Il tipo di record è ora condiviso con altri utenti.
 
-1. Condividi il collegamento copiato con altri utenti. Gli utenti che ricevono il collegamento devono essere utenti attivi e accedere a Workfront per poter accedere alla pagina del tipo di record e visualizzarla nella visualizzazione selezionata.
+1. Condividi il collegamento copiato con altri utenti. Gli utenti che ricevono il collegamento devono essere utenti attivi e accedere a Workfront per poter accedere alla pagina del tipo di record e visualizzarla nella visualizzazione selezionata. Per visualizzarlo, è necessario disporre delle autorizzazioni per il tipo di record.
 
 ## Rimuovere le autorizzazioni per un tipo di record
+
+È possibile rimuovere le autorizzazioni degli utenti da un tipo di record. Tuttavia, conservano almeno l’accesso di visualizzazione all’area di lavoro, che consente loro di visualizzare almeno il tipo di record. È necessario rimuoverne l&#39;accesso dall&#39;area di lavoro se si desidera che non dispongano di autorizzazioni per i tipi di record nell&#39;area di lavoro.
 
 {{step1-to-planning}}
 
@@ -213,7 +211,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Fai clic su **Salva**.
 
-   Gli utenti non hanno più accesso al tipo di record. Possono comunque disporre delle autorizzazioni per l&#39;area di lavoro, a meno che non vengano rimosse anche dalle autorizzazioni dell&#39;area di lavoro.
+   Gli utenti non dispongono più delle autorizzazioni indicate per il tipo di record. Tuttavia, dispongono ancora delle autorizzazioni per l’area di lavoro, a meno che non vengano rimosse anche dalle autorizzazioni dell’area di lavoro.
 
    Agli utenti che sono stati rimossi dall’accesso alla vista non viene notificato che non dispongono più di questo accesso.
 

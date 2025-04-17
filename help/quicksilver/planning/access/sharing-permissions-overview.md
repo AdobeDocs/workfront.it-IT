@@ -6,15 +6,17 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 6%
+source-wordcount: '1122'
+ht-degree: 5%
 
 ---
 
 
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
+
+<!--remove the Prod and Preview references when we release to Prod-->
 
 # Panoramica delle autorizzazioni di condivisione in Adobe Workfront Planning
 
@@ -69,14 +71,9 @@ Internamente, potete condividere un&#39;area di lavoro o una vista con le seguen
 
 * Utenti
 * Gruppi
-
-<div class="preview">
-
 * Team
 * Aziende
 * Mansioni
-
-</div>
 
 <span class="preview"> Quando si condividono aree di lavoro e tipi di record con altri utenti, il livello di autorizzazione del tipo di record viene ereditato automaticamente dai record e dai campi ad essi associati. </span>
 
@@ -131,7 +128,7 @@ Di seguito sono riportati i livelli di autorizzazione per le aree di lavoro:
 
 ### Autorizzazioni del tipo di record
 
-<!--In the Production environment,--> Le autorizzazioni del tipo di record sono <!--always--> ereditate quando si concedono le autorizzazioni all&#39;area di lavoro.
+Nell’ambiente di produzione, le autorizzazioni Tipo di record vengono sempre ereditate quando si concedono le autorizzazioni all’area di lavoro.
 
 Di seguito sono riportati i livelli di autorizzazione per i tipi di record:
 
@@ -143,29 +140,35 @@ Di seguito sono riportati i livelli di autorizzazione per i tipi di record:
 | Modifica | ✓ |            |       |
 | Visualizza | ✓ | ✓ | ✓ |
 
-<!--
-
 <div class="preview">
 
-In the Preview environment, you can remove the record type's inherited permissions received from the workspace. 
+Nell&#39;ambiente di anteprima è possibile rimuovere le autorizzazioni ereditate del tipo di record ricevute dall&#39;area di lavoro.
 
-You can give users different permissions on the record type than they have on the workspace. However, you can never grant higher permissions for the record type than users have on the workspace. 
+È possibile assegnare agli utenti autorizzazioni inferiori per il tipo di record rispetto a quelle disponibili nell&#39;area di lavoro.
 
-The following scenarios exist: 
+Tuttavia, non è possibile effettuare le seguenti operazioni:
 
-|   Workspace permissions     | Automatic inherited permissions for a Record Type |Possible Record Type permissions when Inherited permissions are turned off (granted manually)| 
+* Concedere autorizzazioni più elevate per il tipo di record rispetto a quelle disponibili per gli utenti nell&#39;area di lavoro.
+* Concedere ai responsabili dell&#39;area di lavoro autorizzazioni inferiori per un tipo di record.
+* Rimuovere le autorizzazioni di visualizzazione al tipo di record o all&#39;area di lavoro rimuovendo gli utenti dalle autorizzazioni del tipo di record.
+
+Esistono i seguenti scenari:
+
+| Autorizzazioni Workspace | Autorizzazioni ereditate automaticamente per un tipo di record | Autorizzazioni possibili per il tipo di record quando le autorizzazioni ereditate sono disattivate (concesse manualmente) |
 |--------|--------|-------------|
-| Manage |   Manage    |   Manage, Remove permissions           | 
-| Contribute |     Contribute |  Contribute, View, Remove permissions        |
-| View   |  View     |      View, Remove permissions        |     
+| Gestire | Gestire | Gestisci, Rimuovi autorizzazioni* |
+| Contribuisci | Contribuisci | Autorizzazioni Contribute, View, Remove* |
+| Visualizza | Visualizza | Visualizza, Rimuovi autorizzazioni* |
+
+>[!NOTE]
+>
+>*Quando si rimuovono le autorizzazioni da un tipo di record, gli utenti conservano comunque le autorizzazioni di visualizzazione per l&#39;area di lavoro e per tutti i tipi di record, a meno che non si rimuovano le relative autorizzazioni dall&#39;area di lavoro.
 
 </div>
 
--->
-
 ### Autorizzazioni record
 
-Le autorizzazioni dei record vengono ereditate dall&#39;<!--<span class="preview">the record type</span>, when you grant permissions to -->area di lavoro<!-- and <span class="preview">the record type</span>-->.
+Le autorizzazioni dei record vengono ereditate da <span class="preview">il tipo di record</span>, quando si concedono le autorizzazioni all&#39;area di lavoro e <span class="preview">il tipo di record</span>.
 
 Di seguito sono riportati i livelli di autorizzazione per i record:
 
@@ -179,7 +182,7 @@ Di seguito sono riportati i livelli di autorizzazione per i record:
 
 ### Autorizzazioni campo
 
-Le autorizzazioni del campo sono ereditate da <!--<span class="preview">the record type</span>, when you grant permissions to -->l&#39;area di lavoro <!--and <span class="preview">the record type</span>-->.
+Le autorizzazioni del campo vengono ereditate da <span class="preview">il tipo di record</span>, quando si concedono le autorizzazioni all&#39;area di lavoro e <span class="preview">il tipo di record</span>.
 
 Le autorizzazioni seguenti fanno riferimento ai campi stessi e non ai valori associati a ciascun campo. Per modificare i valori dei campi è necessario disporre delle autorizzazioni per la modifica dei record.
 
