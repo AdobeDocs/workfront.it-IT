@@ -4,11 +4,10 @@ description: Miglioramenti al progetto del terzo trimestre 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: 16f0caf4bdf80ef7b95e8ab51bf9f75aa3b81b3f
+exl-id: 4829d487-7041-447f-9a68-fb1acf467734
+source-git-commit: d616fcdafee137adcdd6fe88616a18c01ed969f3
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -28,7 +27,9 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 >[!NOTE]
 >
->Versione di anteprima: 10 aprile 2025; versione di produzione per tutti i clienti: 17 aprile 2025
+>* Versione di anteprima: 10 aprile 2025; versione di produzione per tutti i clienti: 17 aprile 2025
+>
+>* Questa funzionalità non è attualmente disponibile per gli utenti di Adobe Unified Experience.
 
 I nuovi pulsanti di decisione per l&#39;approvazione del documento vengono ora visualizzati nel visualizzatore di bozze. Ora, quando si crea una semplice bozza e si aggiungono approvatori e revisori dal riepilogo del documento, questi possono prendere la decisione direttamente all’interno del visualizzatore di bozze.
 
