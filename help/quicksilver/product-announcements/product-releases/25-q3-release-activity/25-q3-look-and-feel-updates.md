@@ -4,9 +4,7 @@ description: Aggiornamenti look-and-feel durante l’intervallo di tempo del ril
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: 131a4443564def1437c9b26d1e29e65fcc78d069
+source-git-commit: 20faacf09266c455a29a04db59a4d39f825f0c2d
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 5%
@@ -62,6 +60,3 @@ Per informazioni, vedere [Creare un report personalizzato](/help/quicksilver/rep
 È stato aggiornato l&#39;aspetto della casella Elimina società quando si elimina una società da un rapporto aziendale. Il nuovo design ora si adatta ad altre aree di Workfront.
 
 Con questo aggiornamento, l’aspetto della casella Elimina società nella pagina Società dell’area Configura non è cambiato.
-
-
-
