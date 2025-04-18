@@ -5,18 +5,14 @@ description: È possibile riepilogare rapidamente gli elementi di lavoro e i doc
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
-source-git-commit: c91a0cd0987b810cc5fb3f52199dccc64bf4d0a1
+source-git-commit: 1b11eb212f8eb980361cfd22a07ac17be71d4472
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 0%
+source-wordcount: '185'
+ht-degree: 1%
 
 ---
 
 # Utilizzare l’Assistente AI per lavorare con progetti, attività e problemi
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile nell’ambiente di anteprima per tutti i clienti e nell’ambiente di produzione per i clienti che hanno abilitato i rilasci mensili. </span>
-
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 L’Assistente AI può aiutarti a individuare progetti, attività e problemi in Workfront.
