@@ -6,9 +6,9 @@ description: È possibile aggiungere ulteriori approvatori o revisori a un docum
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '568'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,6 @@ Unified Approvals è una riprogettazione completa del processo di approvazione e
 
 **Differenze rispetto alla verifica**
 
-* I pulsanti di decisione per l&#39;approvazione del documento non sono disponibili nel visualizzatore di bozze. Le decisioni possono essere prese nella pagina Riepilogo documento, Widget Home Workfront o nella pagina Dettagli documento.
 * I partecipanti all&#39;approvazione del documento vengono visualizzati nel Riepilogo del documento, non nella scheda del flusso di lavoro di verifica.
 * Le approvazioni unificate non sono supportate nello strumento di reporting corrente.
 
@@ -74,6 +73,6 @@ Per gli utenti che desiderano rivedere o approvare documenti per i quali hanno r
 
 Stiamo rendendo le approvazioni unificate disponibili agli utenti nel corso di diverse versioni. Oltre ad aggiungere nuove funzioni, aumenteremo il numero di account per i quali sono disponibili approvazioni unificate a ogni versione.
 
-Se desideri che le approvazioni unificate siano abilitate nel tuo ambiente di produzione, contatta il tuo Customer Success o Strategic Account Manager.
+Se desideri che le approvazioni unificate siano abilitate nell&#39;ambiente di produzione, contatta il tuo Customer Success o Strategic Account Manager.
 
 

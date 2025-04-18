@@ -6,9 +6,9 @@ description: In qualità di revisore, puoi visualizzare in anteprima un document
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: da00226448e0969cec57bf9d525686129d53430e
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -76,15 +76,15 @@ Add once functionality is added
 1. (Facoltativo) Dopo aver rivisto il documento, puoi lasciare un commento per il richiedente nella sezione **Aggiornamenti** del documento. Per ulteriori informazioni sui commenti, vedere [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Per registrare che hai completato la revisione, fai clic su **Completa revisione**.
 
-## Esaminare un documento dal riquadro Riepilogo documento
+## Esaminare un documento dal pannello Riepilogo documento
 
 1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
 
-1. Fare clic sul documento necessario per aprire il riquadro Riepilogo documento.
+1. Fare clic sul documento necessario per aprire il pannello Riepilogo documento.
 
 1. Seleziona la versione del documento da rivedere nel menu a discesa della versione. Per impostazione predefinita, viene selezionata la versione più recente.
 
-1. Passa il puntatore del mouse sull&#39;anteprima del documento nella sezione **Dettagli** nella parte superiore del riquadro Riepilogo documento. Quindi:
+1. Passa il puntatore del mouse sull&#39;anteprima del documento nella sezione **Dettagli** nella parte superiore del pannello Riepilogo documento. Quindi:
 
    Fare clic su **Anteprima** per aprire una versione di sola lettura del documento in una nuova finestra.
 
@@ -94,5 +94,18 @@ Add once functionality is added
 
 1. (Facoltativo) Dopo aver rivisto il documento, puoi lasciare un commento per il richiedente nella sezione **Aggiornamenti** del documento. Per ulteriori informazioni sui commenti, vedere [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Facoltativo) Puoi anche visualizzare in anteprima o scaricare una versione specifica del documento scorrendo verso il basso fino alla sezione **Versioni** del riquadro Riepilogo documento, quindi facendo clic sull&#39;icona Altro ![Icona Altro](../assets/more-icon.png) accanto alla versione da rivedere e selezionando **Scarica** o **Anteprima**.
+1. (Facoltativo) Puoi anche visualizzare in anteprima o scaricare una versione specifica del documento scorrendo verso il basso fino alla sezione **Versioni** del pannello Riepilogo documento, quindi facendo clic sull&#39;icona Altro ![Icona Altro](../assets/more-icon.png) accanto alla versione da rivedere e selezionando **Scarica** o **Anteprima**.
 1. Per registrare che hai completato la revisione, fai clic su **Completa revisione**.
+
+## Rivedere un documento dal visualizzatore bozze
+
+Per rivedere un documento:
+
+1. Vai alla notifica e-mail di revisione e fai clic su **Vai alla revisione**.
+
+1. Una volta in Workfront, fai clic su **Vai alla bozza**.
+
+1. Rivedi il contenuto e aggiungi eventuali commenti o markup. Per ulteriori informazioni sull&#39;utilizzo del visualizzatore di bozze, vedere [Rivedere le bozze in Adobe Workfront: article index](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+
+1. Per registrare che hai completato la revisione, fai clic su **Completa revisione**.
+

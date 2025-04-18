@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: d616fcdafee137adcdd6fe88616a18c01ed969f3
+source-git-commit: d072b8e9c657e970c12f75a304f63e04d0512505
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 >[!NOTE]
 >
 >* Versione di anteprima: 10 aprile 2025; versione di produzione per tutti i clienti: 17 aprile 2025
->
->* Questa funzionalità non è attualmente disponibile per gli utenti di Adobe Unified Experience.
 
 I nuovi pulsanti di decisione per l&#39;approvazione del documento vengono ora visualizzati nel visualizzatore di bozze. Ora, quando si crea una semplice bozza e si aggiungono approvatori e revisori dal riepilogo del documento, questi possono prendere la decisione direttamente all’interno del visualizzatore di bozze.
 

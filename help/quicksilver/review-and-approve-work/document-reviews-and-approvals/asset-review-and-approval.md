@@ -6,9 +6,9 @@ description: Panoramica dei sistemi disponibili per la revisione e l'approvazion
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 24668c9fdbb5e23f41831b388d509220d0783057
+source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,6 @@ Funzioni principali disponibili per le approvazioni di documenti legacy:
 
 * Aggiungere utenti come approvatori
 * Revisione e commento nel visualizzatore di bozze
-* Prendi decisioni nel visualizzatore di bozze
 * Creare rapporti di approvazione con rapporti legacy
 * Accedere alle richieste di approvazione nel widget Approvazioni personali nell’area Home
 
@@ -51,15 +50,13 @@ Funzioni principali disponibili per le approvazioni unificate:
 
 * Creare e utilizzare i modelli
 
-* Revisione e commento nel visualizzatore di bozze
+* Rivedi, commenta e prendi decisioni nel visualizzatore di bozze
 Per ulteriori informazioni sull&#39;utilizzo del visualizzatore di bozze, vedere [Utilizzare insieme approvazioni unificate e bozze](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
 
 * Visualizzare più indicatori di prestazioni chiave per le approvazioni nei widget della home di Workfront
 
 * Utilizza le dashboard di Canvas, attualmente in versione beta, per visualizzare i dettagli di reporting sulle approvazioni unificate
 Per ulteriori informazioni sul reporting, vedere [Creare un dashboard di report per revisione e approvazione](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
-
-* Prendi decisioni nel visualizzatore di bozze [!BADGE Disponibile a breve]{type=Informative}
 
 * Crea più approvazioni fase [!BADGE In arrivo]{type=Informative}
 
