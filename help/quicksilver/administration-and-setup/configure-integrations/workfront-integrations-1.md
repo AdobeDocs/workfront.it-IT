@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
+source-git-commit: 33d5e67ffe3e28d0d667a82d881f274107d1d04a
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,9 @@ Per iniziare a utilizzare le integrazioni integrate (native), segui il seguente 
 
 1. **Determinare le integrazioni native più adatte alle proprie esigenze**
 
-   Quando si sceglie un&#39;integrazione, è importante scegliere un applicazione che le persone usano già regolarmente. L&#39;integrazione di [!DNL Workfront] con un&#39;applicazione utilizzata regolarmente o frequentemente aumenterà il tasso di adozione da parte degli utenti.
+   Quando si sceglie un’integrazione, è importante scegliere un’applicazione che le persone già utilizzano regolarmente. L&#39;integrazione di [!DNL Workfront] con un&#39;applicazione utilizzata regolarmente o frequentemente aumenterà il tasso di adozione da parte degli utenti.
 
-   Per un elenco delle integrazioni disponibili, consulta [Integrazioni disponibili senza costi](#integrations-available-at-no-additional-cost) aggiuntivi e [Integrazioni che richiedono un acquisto](#integrations-requiring-an-additional-purchase) aggiuntivo.
+   Per un elenco delle integrazioni disponibili, vedere [Integrazioni disponibili senza costi aggiuntivi](#integrations-available-at-no-additional-cost) e [Integrazioni che richiedono un acquisto aggiuntivo](#integrations-requiring-an-additional-purchase).
 
 1. **Identificare l&#39;amministratore della tecnologia**
 
@@ -145,7 +145,7 @@ Sappiamo che le integrazioni integrate (native) disponibili potrebbero non soddi
      <li>[!DNL Google Workspace] gli utenti devono disporre di una licenza [!DNL Workfront] </li> 
      <li>[!DNL Workfront] le autorizzazioni di visualizzazione e condivisione del lavoro devono essere impostate per livello di accesso </li> 
      <li> L’utente deve avere un account e-mail abilitato per POP </li> 
-     <li>[!DNL Workfront] richiesta impostazioni devono includere impostazioni POP </li> 
+     <li>[!DNL Workfront] Le impostazioni della richiesta devono includere le impostazioni POP </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -273,11 +273,11 @@ Sappiamo che le integrazioni integrate (native) disponibili potrebbero non soddi
      <li>Gestisci approvazioni in [!DNL Slack] </li> 
      <li>Crea [!DNL Workfront] attività e problemi da [!DNL Slack] </li> 
      <li>Pubblica commenti su un progetto o un'attività da [!DNL Slack]</li> 
-    </ul> <p>Per ulteriori informazioni, vedi <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md" class="MCXref xref">[!DNL Adobe Workfront for Slack]</a>.</p> </td> 
+    </ul> <p>Per ulteriori informazioni, vedere <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md" class="MCXref xref">[!DNL Adobe Workfront for Slack]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>[!DNL Slack] l'amministratore deve consentire a tutti gli utenti di Slack di installare [!DNL Workfront for Slack]</li> 
-     <li>[!DNL Slack] Gli utenti devono disporre di una [!DNL Workfront] licenza </li> 
+     <li>[!DNL Slack] l'amministratore deve consentire l'installazione a tutti gli utenti di Slack [!DNL Workfront for Slack]</li> 
+     <li>[!DNL Slack] gli utenti devono disporre di una licenza [!DNL Workfront] </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -314,11 +314,9 @@ L’integrazione tra Workfront e Experience Manager Assets o Assets Essentials c
 
 Per ulteriori informazioni, vedere [Panoramica delle integrazioni di Adobe Workfront for Experience Manager Assets](../../documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
 
-## Integrazioni dei partner
+## Integrazioni con i partner
 
-[!DNL Workfront] ha molte integrazioni partner arricchiscono la tua [!DNL Workfront] esperienza.
-
-Workfront include molte integrazioni partner che arricchiscono la tua esperienza Workfront. Esempi di offerte di partner esistenti includono integrazioni con Claravine, RWS Group e altro ancora.
+Workfront offre diverse integrazioni di partner che arricchiscono la tua esperienza con Workfront. Esempi di offerte di partner esistenti includono integrazioni con Claravine, RWS Group e altro ancora.
 
 Per ulteriori informazioni su queste e altre integrazioni partner, vedere [Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?page=1&amp;partnerLevel=All&amp;product=WRKFRNT&amp;sort=RELEVANCE).
 
