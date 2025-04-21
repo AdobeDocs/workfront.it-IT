@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: c0a7603ed461d903f4d0b0f6788c17d58f20c328
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 1%
+source-wordcount: '681'
+ht-degree: 2%
 
 ---
 
@@ -81,7 +81,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <p>Solo gli amministratori di sistema possono abilitare i tipi di record alla connessione da altre aree di lavoro</p> </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Modello di layout</p></td> 
+   <td role="rowheader"><p>Modello layout</p></td> 
    <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> </td> 
   </tr> 
 </tbody> 
@@ -177,15 +177,17 @@ Oppure
       * Selezionare un colore per identificare il tipo di record. Colore dell&#39;icona del tipo di record.
       * Seleziona un’icona dall’elenco, oppure inizia a digitare il nome di un’icona per descrivere ciò che rappresenta, quindi selezionala quando viene visualizzata. Icona del tipo di record. Per impostazione predefinita, viene selezionata un&#39;icona di file.
 
-1. (Condizionale) Se sei un amministratore di sistema, fai clic sulla scheda **Impostazioni avanzate** nella casella **Modifica tipo di record**.
+1. (Condizionale) Se sei un amministratore di sistema, fai clic sulla scheda **Impostazioni avanzate** nella casella **Modifica tipo di record**. <!--the info here is duplicated in the Create record types article-->
 
    ![Scheda Impostazioni avanzate della casella Modifica tipo di record](assets/edit-record-type-box-advanced-settings-tab.png)
 
-1. (Condizionale) In qualità di amministratore di sistema, aggiorna le seguenti informazioni nella scheda **Impostazioni avanzate**:
+1. (Condizionale) Aggiorna le seguenti informazioni nella scheda **Impostazioni avanzate**:
 
-   * **Connetti da altre aree di lavoro**: selezionare questa opzione per consentire agli utenti di connettersi a questo tipo di record da altre aree di lavoro. Questa opzione è deselezionata per impostazione predefinita.
-   * **A livello di sistema**: selezionare questa opzione per consentire agli utenti di connettersi a questo record da tutte le aree di lavoro del sistema.
-   * **Aree di lavoro specifiche**: selezionare questa opzione per limitare le aree di lavoro da cui gli utenti possono connettersi a questo tipo di record, quindi espandere il menu a discesa e selezionare le aree di lavoro da cui si desidera che gli utenti si connettano a questo tipo di record. Potete iniziare a digitare il nome di un workspace e selezionarlo quando viene visualizzato nell&#39;elenco.
+   * Abilita l&#39;impostazione **Connetti da altra area di lavoro**. Se attivato, il tipo di record è accessibile e può essere connesso da altre aree di lavoro.
+   * Scegliere le aree di lavoro da cui è possibile accedere al tipo di record. Scegli una delle seguenti opzioni:
+
+      * **A livello di sistema**: gli utenti possono connettersi a questo tipo di record da tutte le aree di lavoro in cui dispongono di autorizzazioni di gestione.
+      * **Aree di lavoro specifiche**: aggiungere i nomi delle aree di lavoro a cui i responsabili area di lavoro possono connettersi a questo tipo di record.
 
 1. Fai clic su **Salva**.
 
