@@ -7,9 +7,9 @@ description: Questa pagina contiene informazioni sulla struttura e sul contenuto
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 8aa03e16daa7c82342741b3db7b805941508c896
+source-git-commit: 44342db0a473eac70212d08cedf9ac0f571cda0b
 workflow-type: tm+mt
-source-wordcount: '7843'
+source-wordcount: '8129'
 ht-degree: 7%
 
 ---
@@ -1377,7 +1377,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
              <td>CATEGORYID</td>
              <td>FK</td>
              <td>CATEGORIES_CURRENT</td>
-             <td>ID CATEGORIA</td>
+             <td>CATEGORYID</td>
         </tr>
         <tr>
              <td>PARAMETERGROUPID</td>
@@ -1389,7 +1389,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
              <td>PARAMETERID</td>
              <td>FK</td>
              <td>PARAMETERS_CURRENT</td>
-             <td>ID PARAMETRO</td>
+             <td>PARAMETERID</td>
         </tr>
         <tr>
              <td>SYSID</td>
@@ -1776,10 +1776,10 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
              <td>PROGRAMID</td>
         </tr>
         <tr>
-             <td>ID PROGETTO</td>
+             <td>PROJECTID</td>
              <td>FK</td>
              <td>PROJECTS_CURRENT</td>
-             <td>ID PROGETTO</td>
+             <td>PROJECTID</td>
         </tr>
         <tr>
              <td>RELEASEVERSIONID</td>
@@ -1890,6 +1890,235 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
              <td>SYSID</td>
              <td>-</td>
              <td colspan="2">Non una relazione; utilizzato per scopi interni all’applicazione</td>
+        </tr>
+    </tbody>
+</table>
+
+### Approvazione documento (NUOVO)
+
+Disponibilità limitata dei clienti
+
+<table>
+    <thead>
+        <tr>
+            <th>Nome entità Workfront</th>
+            <th>Riferimenti interfaccia</th>
+            <th>Riferimento API</th>
+            <th>Etichetta API</th>
+            <th>Visualizzazioni Data Lake</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Approvazione documento</td>
+            <td>Approvazione</td>
+            <td>N/D</td>
+            <td>N/D</td>
+            <td>APPROVAL_CURRENT<br>APPROVAL_DAILY_HISTORY<br>APPROVAL_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Chiave primaria/esterna</th>
+            <th>Tipo</th>
+            <th>Tabella correlata</th>
+            <th>Campo correlato</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">APPROVABILE</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>NOTA: questo è anche l'ID dell'oggetto DOCUMENTVERSION a cui è associata l'approvazione.</td>
+        </tr>
+        <tr>
+             <td class="key">ASSETID</td>
+             <td>FK</td>
+             <td>Variabile, basata su ASSETTYPE</td>
+             <td>Chiave/ID primario dell'oggetto identificato nel campo ASSETTYPE</td>
+        </tr>
+        <tr>
+             <td class="key">CREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">EAUTHTENANTID</td>
+             <td>-</td>
+             <td colspan="2">Non una relazione; utilizzato per scopi interni all’applicazione</td>
+        </tr>
+        <tr>
+             <td class="key">PRODUCTID</td>
+             <td>-</td>
+             <td colspan="2">Non una relazione; utilizzato per scopi interni all’applicazione</td>
+        </tr>
+        <tr>
+             <td class="key">REALCREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Fase di approvazione documento (NUOVO)
+
+Disponibilità limitata dei clienti
+
+<table>
+    <thead>
+        <tr>
+            <th>Nome entità Workfront</th>
+            <th>Riferimenti interfaccia</th>
+            <th>Riferimento API</th>
+            <th>Etichetta API</th>
+            <th>Visualizzazioni Data Lake</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Fase di approvazione documento</td>
+            <td>Fase di approv.</td>
+            <td>N/D</td>
+            <td>N/D</td>
+            <td>APPROVAL_STAGE_CURRENT<br>APPROVAL_STAGE_DAILY_HISTORY<br>APPROVAL_STAGE_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Chiave primaria/esterna</th>
+            <th>Tipo</th>
+            <th>Tabella correlata</th>
+            <th>Campo correlato</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">APPROVABILE</td>
+             <td>FK</td>
+             <td>APPROVAZIONE_CORRENTE</td>
+             <td>APPROVABILE</td>
+        </tr>
+        <tr>
+             <td class="key">APPROVALSTAGEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td class="key">CREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">OBJID</td>
+             <td class="type">FK</td>
+             <td class="relatedtable">Variabile, basata su OBJCODE</td>
+             <td>Chiave/ID primario dell'oggetto identificato nel campo OBJCODE</td>
+        </tr>
+    </tbody>
+</table>
+
+### Partecipanti fase approvazione documento (NUOVO)
+
+Disponibilità limitata dei clienti
+
+<table>
+    <thead>
+        <tr>
+            <th>Nome entità Workfront</th>
+            <th>Riferimenti interfaccia</th>
+            <th>Riferimento API</th>
+            <th>Etichetta API</th>
+            <th>Visualizzazioni Data Lake</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Partecipante alla fase di approvazione documento</td>
+            <td>Decisioni di approvazione</td>
+            <td>N/D</td>
+            <td>N/D</td>
+            <td>APPROVAL_STAGE_PARTICIPANT_CURRENT<br>APPROVAL_STAGE_PARTICIPANT_DAILY_HISTORY<br>APPROVAL_STAGE_PARTICIPANT_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Chiave primaria/esterna</th>
+            <th>Tipo</th>
+            <th>Tabella correlata</th>
+            <th>Campo correlato</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">APPROVABILE</td>
+             <td>FK</td>
+             <td>APPROVAZIONE_CORRENTE</td>
+             <td>APPROVABILE</td>
+        </tr>
+        <tr>
+             <td class="key">APPROVALSTAGEPARTICIPANTID/td&gt;
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td class="key">ASSETID</td>
+             <td>FK</td>
+             <td>Variabile, basata su ASSETTYPE</td>
+             <td>Chiave/ID primario dell'oggetto identificato nel campo ASSETTYPE</td>
+        </tr>
+        <tr>
+             <td class="key">DECISIONUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">OBJID</td>
+             <td class="type">FK</td>
+             <td class="relatedtable">Variabile, basata su OBJCODE</td>
+             <td>Chiave/ID primario dell'oggetto identificato nel campo OBJCODE</td>
+        </tr>
+        <tr>
+             <td class="key">PARTICIPANTID</td>
+             <td>FK</td>
+             <td class="relatedtable">Variabile, basata su PARTICIPANTTYPE</td>
+             <td>Chiave/ID primario dell'oggetto identificato nel campo PARTICIPANTTYPE</td>
+        </tr>
+        <tr>
+             <td class="key">REALREQUESTORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">REALUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">REQUESTORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">STAGEID</td>
+             <td>FK</td>
+             <td>APPROVAL_STAGE_CURRENT</td>
+             <td>STAGEID</td>
         </tr>
     </tbody>
 </table>
@@ -2571,10 +2800,10 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
              <td colspan="2">Non una relazione; utilizzato per scopi interni all’applicazione</td>
         </tr>
         <tr>
-             <td>ID UITEMPLATEID</td>
+             <td>UITEMPLATEID</td>
              <td>FK</td>
              <td>UITEMPLATES_CURRENT</td>
-             <td>ID UITEMPLATEID</td>
+             <td>UITEMPLATEID</td>
         </tr>
     </tbody>
 </table>
@@ -2615,7 +2844,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
              <td>APPROVEDBYID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>ID UTENTE</td>
+             <td>USERID</td>
         </tr>
         <tr>
              <td>BILLINGRECORDID</td>
@@ -3332,10 +3561,10 @@ Autonomo</td>
     </thead>
     <tbody>
         <tr>
-             <td>ID CATEGORIA</td>
+             <td>CATEGORYID</td>
              <td>FK</td>
              <td>CATEGORIES_CURRENT</td>
-             <td>ID CATEGORIA</td>
+             <td>CATEGORYID</td>
         </tr>
         <tr>
              <td>ENTEREDBYID</td>
@@ -3362,7 +3591,7 @@ Autonomo</td>
              <td>RATECARDID</td>
         </tr>
         <tr>
-             <td>ID PIANIFICAZIONE</td>
+             <td>SCHEDULEID</td>
              <td>FK</td>
              <td>SCHEDULES_CURRENT</td>
              <td>SCHEDULEID</td>
@@ -7287,7 +7516,7 @@ Disponibilità limitata dei clienti
             <td>Modello layout</td>
             <td>UITMPL</td>
             <td>Modello layout</td>
-            <td><br>UITEMPLATES_CURRENT UITEMPLATES_DAILY_HISTORY<br>UITEMPLATES_EVENT</td>
+            <td>UITEMPLATES_CURRENT<br>UITEMPLATES_DAILY_HISTORY<br>UITEMPLATES_EVENT</td>
         </tr>
       </tbody>
 </table>
@@ -7317,7 +7546,7 @@ Disponibilità limitata dei clienti
              <td>LASTUPDATEDBYID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>ID UTENTE</td>
+             <td>USERID</td>
         </tr>
         <tr>
              <td>SYSID</td>
@@ -7325,7 +7554,7 @@ Disponibilità limitata dei clienti
              <td colspan="2">Non una relazione; utilizzato per scopi interni all’applicazione</td>
         </tr>
         <tr>
-             <td>ID UITEMPLATEID</td>
+             <td>UITEMPLATEID</td>
              <td>PK</td>
              <td>-</td>
              <td>-</td>
