@@ -3,13 +3,13 @@ title: Condividere un’attività
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 description: L’amministratore di Adobe Workfront può concederti l’accesso per visualizzare o modificare le attività quando assegna i livelli di accesso. Per ulteriori informazioni sulla concessione dell'accesso alle attività, vedere Concedere l'accesso alle attività.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 2%
+source-wordcount: '1201'
+ht-degree: 1%
 
 ---
 
@@ -21,11 +21,48 @@ Oltre al livello di accesso concesso agli utenti, è possibile concedere loro le
 
 Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono quali azioni è possibile eseguire su tale elemento.
 
+
+## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
+Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">piano Adobe Workfront</td> 
+   <td> <p>Qualsiasi </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p>Nuovo: Standard</p> 
+   Oppure
+   <p>Corrente: Lavoro o versione successiva</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Accesso di visualizzazione o superiore agli oggetti da condividere</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td> <p>Visualizzare le autorizzazioni o versioni successive per gli oggetti da condividere</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 ## Considerazioni durante la condivisione di un’attività
 
 Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle autorizzazioni di condivisione per gli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-* Per impostazione predefinita, il creatore di un’attività dispone delle autorizzazioni di gestione.
+* Per impostazione predefinita, il creatore di un’attività dispone delle autorizzazioni di gestione necessarie.
 * È possibile condividere le attività singolarmente oppure più attività contemporaneamente in blocco.\
   La condivisione delle attività è identica alla condivisione di altri oggetti. Per ulteriori informazioni sulla condivisione di elementi in Workfront, vedere [Condividere un oggetto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
@@ -46,9 +83,7 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 
 È possibile condividere un&#39;attività nei modi seguenti:
 
-* Manualmente, singolarmente o in blocco. La condivisione manuale delle attività è simile alla condivisione di qualsiasi altro oggetto in Workfront.
-
-  Per ulteriori informazioni sulla condivisione di oggetti in Workfront, vedi  [Condividi un oggetto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* Manualmente, singolarmente o in blocco.
 
 * Automaticamente, eseguendo le operazioni seguenti:
 
@@ -60,6 +95,76 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
   >[!TIP]
   >
   >Se non si specifica quali autorizzazioni di attività si desidera assegnare agli utenti quando vengono assegnati alle attività del progetto, per impostazione predefinita questi ricevono le stesse autorizzazioni di cui dispongono sul progetto.
+
+## Condividere un’attività
+
+1. Passare all&#39;attività da condividere.
+
+1. A destra del nome dell&#39;attività, fare clic su **Condividi**. Viene visualizzata la finestra di dialogo **Condividi [Nome attività]**.
+
+   ![Pulsante Condividi attività](assets/share-task-button.png)
+
+1. Nel campo **Concedi l&#39;accesso all&#39;attività a**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo o della società con cui desideri condividere l&#39;attività, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
+
+   >[!TIP]
+   >
+   >Puoi condividere un’attività solo con utenti attivi, team, ruoli o aziende.
+
+
+1. (Facoltativo) Seleziona l&#39;elenco a discesa **Chi ha accesso** e il livello di accesso dell&#39;attività:
+
+   * **Solo gli utenti invitati possono accedere a:** Solo gli utenti invitati all&#39;attività possono accedervi (impostazione predefinita).
+   * **Tutti gli utenti del sistema possono visualizzare**: tutti gli utenti del sistema possono visualizzare l&#39;attività senza un invito.
+
+1. Fai clic sull’elenco a discesa a destra del nome dell’utente e seleziona il relativo livello di autorizzazione per questa attività:
+
+   * **Visualizza**: l&#39;utente può rivedere e condividere l&#39;attività.
+   * **Contributo**: l&#39;utente può apportare aggiornamenti, registrare informazioni, apportare modifiche minori e condividere l&#39;attività (include anche tutte le autorizzazioni di visualizzazione).
+   * **Gestisci**: l&#39;utente ha accesso completo all&#39;attività senza diritti amministrativi, concessi a livello di accesso (include anche tutte le autorizzazioni di visualizzazione e di contributo).
+
+1. (Facoltativo) Fai clic sull’icona delle opzioni avanzate accanto al livello di autorizzazione concesso per configurare autorizzazioni specifiche per l’attività.
+
+   ![Opzioni di autorizzazione avanzate configurate](assets/advanced-permission-options.png)
+
+1. (Facoltativo) Per disattivare le autorizzazioni ereditate per gli oggetti figlio dell&#39;attività, fare clic su **Disattiva** in linea con **Autorizzazioni ereditate**.
+
+1. (Facoltativo) Per condividere rapidamente l&#39;attività utilizzando un collegamento, fare clic su **Copia collegamento** e quindi inoltrarlo al destinatario.
+
+1. Fai clic su **Salva**.
+
+
+## Condivisione di attività in blocco
+
+1. Passare al progetto contenente le attività da condividere.
+
+1. Nella scheda **Attività** della pagina del progetto, seleziona la casella a sinistra di ogni attività da condividere, quindi fai clic sull&#39;icona **Condividi** ![Condividi icona](assets/share-icon.png) nella parte superiore della pagina. Viene visualizzata la finestra modale di condivisione.
+
+   ![Attività di condivisione in blocco](assets/bulk-share-tasks.png)
+
+1. Nel campo **Concedi l&#39;accesso alle attività**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo o della società con cui desideri condividere le attività, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
+
+   >[!TIP]
+   >
+   >Puoi condividere le attività solo con utenti attivi, team, ruoli o aziende.
+
+
+1. (Facoltativo) Seleziona l&#39;elenco a discesa **Chi ha accesso** e il livello di accesso delle attività:
+
+   * **Solo gli utenti invitati possono accedere a:** Solo gli utenti invitati alle attività possono accedervi (impostazione predefinita).
+   * **Tutti gli utenti del sistema possono visualizzare**: tutti gli utenti del sistema possono visualizzare le attività senza un invito.
+
+
+1. Fai clic sull’elenco a discesa a destra del nome dell’utente e seleziona il relativo livello di autorizzazione per le attività:
+
+   * **Visualizza**: l&#39;utente può rivedere e condividere le attività.
+   * **Contributo**: l&#39;utente può apportare aggiornamenti, registrare informazioni, apportare modifiche minori e condividere le attività (include anche tutte le autorizzazioni di visualizzazione).
+   * **Gestisci**: l&#39;utente dispone dell&#39;accesso completo alle attività senza diritti amministrativi, concessi a livello di accesso (include anche tutte le autorizzazioni di visualizzazione e di contributo).
+
+1. (Facoltativo) Fai clic sull’icona delle opzioni avanzate accanto al livello di autorizzazione concesso per configurare autorizzazioni specifiche per le attività.
+
+   ![Opzioni di autorizzazione avanzate configurate](assets/advanced-permission-options.png)
+
+1. Fai clic su **Salva**.
 
 ## Autorizzazioni attività
 

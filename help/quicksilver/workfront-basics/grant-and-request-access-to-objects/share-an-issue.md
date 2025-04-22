@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: Condividere un problema
 description: L’amministratore di Adobe Workfront consente agli utenti di visualizzare o modificare i problemi quando assegnano i livelli di accesso. Per ulteriori informazioni su come concedere l’accesso ai problemi, consulta Concedere l’accesso ai problemi.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '1242'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,43 @@ Oltre al livello di accesso concesso agli utenti, è possibile concedere loro le
 
 Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono quali azioni è possibile eseguire su tale elemento.
 
+
+## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
+Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">piano Adobe Workfront</td> 
+   <td> <p>Qualsiasi </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p>Nuovo: Standard</p> 
+   Oppure
+   <p>Corrente: Lavoro o versione successiva</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Accesso di visualizzazione o superiore agli oggetti da condividere</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td> <p>Visualizzare le autorizzazioni o versioni successive per gli oggetti da condividere</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 ## Considerazioni sulla condivisione dei problemi
 
 Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle autorizzazioni di condivisione per gli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
@@ -29,7 +66,7 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 >
 >Un amministratore di Workfront può aggiungere o rimuovere autorizzazioni per qualsiasi elemento del sistema, per tutti gli utenti, senza esserne il proprietario.
 
-* Per impostazione predefinita, l’autore di un problema dispone delle autorizzazioni di gestione.
+* Per impostazione predefinita, l’autore di un problema dispone delle autorizzazioni di gestione relative a tale problema.
 * È possibile condividere i problemi singolarmente o più problemi contemporaneamente. I problemi di condivisione sono identici agli altri elementi di Workfront. Per ulteriori informazioni sulla condivisione di elementi in Workfront, vedere [Condividere un oggetto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Puoi concedere le seguenti autorizzazioni a un problema: 
 
@@ -45,7 +82,7 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 
 ## Modi per condividere un problema
 
-* Manuale, simile alla condivisione di qualsiasi altro oggetto in Workfront. Per ulteriori informazioni sulla condivisione di oggetti in Workfront, vedere [Condividere un oggetto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* Manuale, simile alla condivisione di qualsiasi altro oggetto in Workfront.
 * Automaticamente, effettuando una delle seguenti operazioni:
 
    * Specifica le autorizzazioni per uno qualsiasi degli oggetti principali del problema: progetto, programma o portfolio. I problemi ereditano le autorizzazioni dai loro oggetti principali. Per informazioni sulla visualizzazione delle autorizzazioni ereditate sugli oggetti, vedere [Visualizzare le autorizzazioni ereditate sugli oggetti](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
@@ -124,6 +161,73 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 </ol>
 </div>
 -->
+
+## Condividere un problema
+
+1. Individua il problema da condividere.
+
+1. A destra del nome del problema, fai clic su **Condividi**. Viene visualizzata la finestra di dialogo **Condividi [Nome problema]**.
+
+   ![Pulsante Condividi problema](assets/share-issue-button.png)
+
+1. Nel campo **Concedi l&#39;accesso al problema**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo o della società con cui vuoi condividere il problema, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
+
+   >[!TIP]
+   >
+   >Puoi condividere un problema solo con utenti attivi, team, ruoli o aziende.
+
+
+1. (Facoltativo) Seleziona l&#39;elenco a discesa **Chi ha accesso** e seleziona il livello di accesso del problema:
+
+   * **Solo gli utenti invitati possono accedere a:** Solo gli utenti invitati possono accedervi (impostazione predefinita).
+   * **Tutti nel sistema possono visualizzare**: tutti gli utenti del sistema possono visualizzare il problema senza un invito.
+
+1. Fai clic sull’elenco a discesa a destra del nome dell’utente e seleziona il relativo livello di autorizzazione per questo problema:
+
+   * **Visualizza**: l&#39;utente può esaminare e condividere il problema.
+   * **Contributo**: l&#39;utente può apportare aggiornamenti, registrare informazioni, apportare modifiche minori e condividere il problema (include anche tutte le autorizzazioni di visualizzazione).
+   * **Gestisci**: l&#39;utente ha accesso completo al problema senza diritti amministrativi, concessi a livello di accesso (include anche tutte le autorizzazioni di visualizzazione e di contributo).
+
+1. (Facoltativo) Fai clic sull’icona delle opzioni avanzate accanto al livello di autorizzazione concesso per configurare autorizzazioni specifiche sul problema.
+
+   ![Opzioni di autorizzazione avanzate configurate](assets/advanced-permission-options.png)
+
+1. (Facoltativo) Per condividere rapidamente il problema utilizzando un collegamento, fare clic su **Copia collegamento** e quindi inoltrarlo al destinatario.
+
+1. Fai clic su **Salva**.
+
+## Condividi problemi in blocco
+
+1. Passa al progetto contenente i problemi da condividere.
+
+1. Nella scheda **Problemi** della pagina del progetto, seleziona la casella a sinistra di ciascun problema che desideri condividere, quindi fai clic sull&#39;icona **Condividi** ![Condividi icona](assets/share-icon.png) nella parte superiore della pagina. Viene visualizzata la finestra modale di condivisione.
+
+   ![Problemi di condivisione in blocco](assets/bulk-share-issues.png)
+
+1. Nel campo **Concedi l&#39;accesso al problema**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo o della società con cui desideri condividere i problemi, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
+
+   >[!TIP]
+   >
+   >Puoi condividere i problemi solo con utenti attivi, team, ruoli o aziende.
+
+
+1. (Facoltativo) Seleziona l&#39;elenco a discesa **Chi ha accesso** e il livello di accesso dei problemi:
+
+   * **Solo gli utenti invitati possono accedere a:** Solo gli utenti invitati possono accedervi (impostazione predefinita).
+   * **Tutti gli utenti del sistema possono visualizzare**: tutti gli utenti del sistema possono visualizzare i problemi senza un invito.
+
+
+1. Fai clic sull’elenco a discesa a destra del nome dell’utente e seleziona il relativo livello di autorizzazione per i problemi:
+
+   * **Visualizza**: l&#39;utente può esaminare e condividere i problemi.
+   * **Contributo**: l&#39;utente può apportare aggiornamenti, registrare informazioni, apportare modifiche minori e condividere i problemi (include anche tutte le autorizzazioni di visualizzazione).
+   * **Gestisci**: l&#39;utente dispone dell&#39;accesso completo ai problemi senza diritti amministrativi, concessi a livello di accesso (include anche tutte le autorizzazioni di visualizzazione e di contributo).
+
+1. (Facoltativo) Fai clic sull’icona delle opzioni avanzate accanto al livello di autorizzazione concesso per configurare autorizzazioni specifiche sui problemi.
+
+   ![Opzioni di autorizzazione avanzate configurate](assets/advanced-permission-options.png)
+
+1. Fai clic su **Salva**.
 
 ## Autorizzazioni problema
 

@@ -4,12 +4,12 @@ content-type: reference
 product-area: user-management
 navigation-topic: grant-and-request-access-to-objects
 description: L'amministratore di Adobe Workfront consente agli utenti di visualizzare o modificare i documenti quando assegnano livelli di accesso, come spiegato in Concedere l'accesso ai documenti.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '1025'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,42 @@ Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono qua
 Per impostazione predefinita, l’utente che carica un documento in Workfront dispone delle autorizzazioni di gestione per tale documento.
 
 Per informazioni sulla condivisione di un&#39;intera cartella documenti, vedere [Condividere una cartella documenti](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+
+## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
+Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">piano Adobe Workfront</td> 
+   <td> <p>Qualsiasi </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p>Nuovo: Standard</p> 
+   Oppure
+   <p>Corrente: Lavoro o versione successiva</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Accesso di visualizzazione o superiore agli oggetti da condividere</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td> <p>Visualizzare le autorizzazioni o versioni successive per gli oggetti da condividere</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerazioni sulla condivisione di documenti
 
@@ -57,6 +93,52 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
   È possibile rimuovere manualmente le autorizzazioni ereditate dai documenti. Per ulteriori informazioni, vedere [Rimuovere le autorizzazioni dagli oggetti](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
 
 * Un documento allegato eredita le autorizzazioni solo dall&#39;oggetto a cui è stato associato. Se si crea una cartella sull&#39;oggetto e si sposta il documento nella cartella, questa eredita le autorizzazioni della cartella. Tuttavia, se si crea una cartella su un oggetto padre o padre e si sposta il documento in tale cartella, questa non eredita le autorizzazioni della cartella.
+
+## Condividere un documento
+
+{{step1-to-documents}}
+
+1. Nella pagina **Documenti**, passa il puntatore del mouse sul documento che desideri condividere e fai clic sul collegamento **Dettagli documento** visualizzato. Viene aperta la pagina **Dettagli documento**.
+
+   ![Collegamento dettagli documento](assets/document-details-link.png)
+
+1. Fai clic sull&#39;icona **Altro** ![Icona Altro](assets/more-icon.png) a destra del nome del documento, quindi fai clic su **Condividi**. Viene visualizzata la finestra di dialogo **Condividi [Nome documento]**.
+
+   ![Condividi documento](assets/share-a-document-350x160.png)
+
+1. Nel campo **Concedi l&#39;accesso al documento**, iniziare a digitare il nome dell&#39;utente, del team, della mansione, del gruppo o della società con cui si desidera condividere il documento, quindi fare clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
+
+   >[!TIP]
+   >
+   >È possibile condividere un documento solo con utenti attivi, team, ruoli o aziende.
+
+
+1. (Facoltativo) Selezionare l&#39;elenco a discesa **Chi ha accesso** e selezionare il livello di accesso del documento:
+
+   * **Solo gli utenti invitati possono accedere a:** Solo gli utenti invitati al documento possono accedervi (impostazione predefinita).
+   * **Tutti gli utenti del sistema possono visualizzare**: tutti gli utenti del sistema possono visualizzare il documento senza un invito.
+
+1. (Facoltativo) Per rendere pubblico il documento, fai clic sull&#39;icona a forma di ingranaggio ![Seleziona l&#39;icona a forma di ingranaggio](assets/gear-icon.png), quindi fai clic sulla casella in linea con **Rendi pubblico questo documento agli utenti esterni**. Il pulsante **Copia collegamento pubblico** viene visualizzato nella parte inferiore della finestra di dialogo.
+
+1. Fai clic sull’elenco a discesa a destra del nome dell’utente e seleziona il relativo livello di autorizzazione per questo documento:
+
+   * **Visualizzazione**: l&#39;utente può rivedere e condividere il documento.
+   * **Gestisci**: l&#39;utente ha accesso completo al programma senza diritti amministrativi, che sono concessi al livello di accesso (include anche tutte le autorizzazioni di visualizzazione).
+
+1. (Facoltativo) Fai clic sull’icona delle opzioni avanzate accanto al livello di autorizzazione concesso per configurare autorizzazioni specifiche per il programma.
+
+   ![Opzioni di autorizzazione avanzate configurate](assets/advanced-options-icon.png)
+
+1. (Facoltativo) Per disattivare le autorizzazioni ereditate per gli oggetti figlio del documento, fare clic su **Disattiva** in linea con **Autorizzazioni ereditate**.
+
+1. (Condizionale) Per copiare il collegamento pubblico che ti consente di condividere il documento con utenti esterni, fai clic su **Copia collegamento pubblico**.
+
+   >[!CAUTION]
+   >
+   >Si consiglia di usare cautela quando si condivide un documento contenente informazioni riservate con utenti esterni. Questo consente loro di visualizzare le informazioni senza essere utenti di Workfront o parte dell’organizzazione.
+
+1. Fai clic su **Salva**.
+
 
 ## Autorizzazioni documento
 

@@ -2,20 +2,20 @@
 content-type: reference
 product-area: user-management
 navigation-topic: get-started-with-workfront
-title: Concedere e richiedere autorizzazioni per gli oggetti
+title: 'Concedere e richiedere autorizzazioni agli oggetti: indice articolo'
 description: Consulta questi articoli per scoprire come concedere e richiedere l’autorizzazione per gli oggetti in Workfront.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: b7b3de2c-8537-49c5-8674-a7a0f3691db3
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 0%
+source-wordcount: '176'
+ht-degree: 1%
 
 ---
 
-# Concedere e richiedere autorizzazioni per gli oggetti
+# Concedere e richiedere autorizzazioni agli oggetti: indice articolo
 
 Questa sezione contiene i seguenti articoli su come concedere e richiedere le autorizzazioni per gli oggetti:
 
@@ -25,7 +25,7 @@ Questa sezione contiene i seguenti articoli su come concedere e richiedere le au
 * [Richiedi accesso agli oggetti](../../workfront-basics/grant-and-request-access-to-objects/request-access.md)
 * [Visualizza autorizzazioni ereditate per gli oggetti](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)
 * [Rimuovi le autorizzazioni dagli oggetti](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
-* [Condividi un progetto in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
+* [Condividere un progetto](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
 * [Condividi un&#39;attività](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md)
 * [Condividi un problema](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
 * [Condividi un modello](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)

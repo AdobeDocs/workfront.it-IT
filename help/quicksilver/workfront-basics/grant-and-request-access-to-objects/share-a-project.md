@@ -1,19 +1,19 @@
 ---
-title: Condividere un progetto in Adobe Workfront
+title: Condividere un progetto
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 description: Il tuo amministratore Adobe Workfront può concederti l’accesso per visualizzare o modificare progetti durante l’assegnazione del livello di accesso. Per ulteriori informazioni, consulta Concedere l’accesso ai progetti.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '1579'
 ht-degree: 2%
 
 ---
 
-# Condividere un progetto in Adobe Workfront
+# Condividere un progetto
 
 <!-- Audited: 1/2024 -->
 
@@ -22,6 +22,43 @@ Il tuo amministratore Adobe Workfront può concederti l’accesso per visualizza
 Oltre al livello di accesso concesso agli utenti, è possibile concedere loro le autorizzazioni per visualizzare, contribuire o gestire progetti specifici a cui si ha accesso per la condivisione.
 
 Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono quali azioni è possibile eseguire su tale elemento.
+
+
+## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
+Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">piano Adobe Workfront</td> 
+   <td> <p>Qualsiasi </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p>Nuovo: Standard</p> 
+   Oppure
+   <p>Corrente: Lavoro o versione successiva</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Accesso di visualizzazione o superiore agli oggetti da condividere</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td> <p>Visualizzare le autorizzazioni o versioni successive per gli oggetti da condividere</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerazioni sulla condivisione di progetti
 
@@ -46,6 +83,13 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 
 * È possibile rimuovere le autorizzazioni ereditate da un progetto in modo che gli oggetti figlio non le ereditino. Per ulteriori informazioni sulla rimozione delle autorizzazioni ereditate dagli oggetti, vedere [Rimuovere le autorizzazioni dagli oggetti](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
+## Limitazioni per i diversi tipi di licenza
+
+* Gli utenti con una licenza Worker non dispongono delle autorizzazioni necessarie per gestire i progetti. Per i lavoratori, l&#39;autorizzazione di condivisione più elevata è Contribute.
+* Gli utenti con una licenza Request possono visualizzare le informazioni sul progetto, ma hanno accesso limitato al progetto.
+* Un&#39;eccezione alla modifica dello stato di un progetto si verifica quando un utente con autorizzazioni Visualizza o Contribuisci è incluso anche in un processo di approvazione. Possono approvare il progetto, che modifica lo stato del progetto, ma lo stato è quello predefinito per l’approvazione o per il rifiuto.
+* Per poter copiare un progetto, un utente deve anche avere accesso alla creazione di progetti nel proprio Livello di Accesso.
+
 ## Modi per condividere un progetto {#ways-to-share-a-project}
 
 Puoi condividere un progetto nei seguenti modi:
@@ -53,25 +97,18 @@ Puoi condividere un progetto nei seguenti modi:
 * Manualmente, effettuando una delle seguenti operazioni:
 
    * Aggiunta di utenti al team del progetto. Quando aggiungi utenti al team di progetto, questi ottengono automaticamente le autorizzazioni di visualizzazione per il progetto.\
-     Per ulteriori informazioni sull&#39;aggiunta di utenti a un team di progetto, vedere la sezione &quot;Aggiunta di utenti a un team di progetto&quot; in [Panoramica team di progetto](../../manage-work/projects/planning-a-project/project-team-overview.md).
+     Per ulteriori informazioni sull&#39;aggiunta di utenti a un team di progetto, vedere la sezione Aggiunta di utenti a un team di progetto in [Panoramica team di progetto](../../manage-work/projects/planning-a-project/project-team-overview.md).
    * Condivisione singola o in blocco dei progetti quando si utilizza l&#39;opzione **Condivisione**.
 
-     La condivisione di un progetto è simile alla condivisione di tutti gli altri oggetti in Adobe Workfront.
-
-     Per informazioni sulla condivisione di oggetti in Workfront, vedere [Condividere un oggetto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
-
-* Automaticamente, effettuando una delle seguenti operazioni:
+* Automaticamente eseguendo una delle operazioni seguenti:
 
    * Posiziona un progetto in un **Portfolio** o **Programma** già condiviso con altri. Gli utenti ottengono le stesse autorizzazioni al progetto di cui dispongono per il portfolio o il programma.\
      Per informazioni sull&#39;aggiunta di un progetto a un **Portfolio**, vedere [Aggiungere progetti a un portfolio](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
      Per informazioni sull&#39;aggiunta di un progetto a un **Programma**, vedere [Aggiungere un progetto a un programma](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
-
-     Per informazioni sulla visualizzazione delle autorizzazioni ereditate per un oggetto, vedere [Visualizzare le autorizzazioni ereditate per gli oggetti](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+Per informazioni sulla visualizzazione delle autorizzazioni ereditate per un oggetto, vedere [Visualizzare le autorizzazioni ereditate per gli oggetti](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 
    * Aggiungere entità alla condivisione di progetti in un modello utilizzato per creare il progetto. Per informazioni sulla condivisione di progetti da modelli, vedere [Condividere un modello](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
    * Definire il modello di accesso al progetto.
-
-     Per definire il modello di accesso al progetto, vedere [Condividere un oggetto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
      >[!TIP]
      >
@@ -100,12 +137,87 @@ Puoi condividere un progetto nei seguenti modi:
 </ol>
 -->
 
-## Limitazioni per i diversi tipi di licenza
+## Condividere un progetto
 
-* Gli utenti con una licenza Worker non dispongono delle autorizzazioni necessarie per gestire i progetti. Per i lavoratori, l&#39;autorizzazione di condivisione più elevata è Contribute.
-* Gli utenti con una licenza Request possono visualizzare le informazioni sul progetto, ma hanno accesso limitato al progetto.
-* Un&#39;eccezione alla modifica dello stato di un progetto si verifica quando un utente con autorizzazioni Visualizza o Contribuisci è incluso anche in un processo di approvazione. Possono approvare il progetto, che modifica lo stato del progetto, ma lo stato è quello predefinito per l’approvazione o per il rifiuto.
-* Per poter copiare un progetto, un utente deve anche avere accesso alla creazione di progetti nel proprio Livello di Accesso.
+{{step1-to-projects}}
+
+1. Nella pagina **Progetti**, seleziona dall&#39;elenco il progetto che desideri condividere. Viene visualizzata la pagina del progetto.
+
+1. A destra del nome del progetto, fai clic su **Condividi**. Viene visualizzata la finestra di dialogo **Condividi [Nome progetto]**.
+
+   ![Pulsante Condividi progetto](assets/share-project.png)
+
+1. Nel campo **Concedi l&#39;accesso al progetto a**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo o della società con cui vuoi condividere il progetto, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
+
+   >[!TIP]
+   >
+   >Puoi condividere un progetto solo con utenti attivi, team, ruoli o aziende.
+
+
+1. (Facoltativo) Seleziona l&#39;elenco a discesa **Chi ha accesso** e seleziona il livello di accesso del progetto:
+
+   * **Solo gli utenti invitati possono accedere a:** Solo gli utenti invitati al progetto possono accedervi (impostazione predefinita).
+   * **Tutti gli utenti del sistema possono visualizzare**: tutti gli utenti del sistema possono visualizzare il progetto senza un invito.
+
+1. (Facoltativo) Per applicare automaticamente le impostazioni di accesso al progetto selezionate a tutti i nuovi progetti, fai clic sull&#39;icona **Ingranaggio** ![Seleziona l&#39;icona a forma di ingranaggio](assets/gear-icon.png), quindi seleziona la casella in linea con **Imposta come modello di accesso al progetto**.
+
+   >[!NOTE]
+   >
+   >Il modello di accesso al progetto sostituisce i valori predefiniti di condivisione concessi dall&#39;amministratore di Workfront nel proprio livello di accesso.\
+   >Per ulteriori informazioni su come specificare i valori predefiniti di condivisione per i progetti nel Livello d&#39;Accesso, vedere [Concedere l&#39;accesso ai progetti](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
+
+   <!--
+   >this note also appears in Understanding Project Permissions-->
+
+
+1. Fai clic sull’elenco a discesa a destra del nome dell’utente e seleziona il relativo livello di autorizzazione per questo progetto:
+
+
+   * **Visualizza**: l&#39;utente può rivedere e condividere il progetto.
+   * **Contributo**: l&#39;utente può apportare aggiornamenti, registrare informazioni, apportare modifiche minori e condividere il progetto (include anche tutte le autorizzazioni di visualizzazione).
+   * **Gestisci**: l&#39;utente ha accesso completo al progetto senza diritti amministrativi, concessi a livello di accesso (include anche tutte le autorizzazioni di visualizzazione e di contributo).
+
+1. (Facoltativo) Fai clic sull’icona delle opzioni avanzate accanto al livello di autorizzazione concesso per configurare autorizzazioni specifiche sul progetto.
+
+   ![Opzioni di autorizzazione avanzate configurate](assets/advanced-permission-options.png)
+
+1. (Facoltativo) Per condividere rapidamente il progetto utilizzando un collegamento, fare clic su **Copia collegamento** e quindi inoltrarlo al destinatario.
+
+1. Fai clic su **Salva**.
+
+## Condivisione di progetti in blocco
+
+{{step1-to-projects}}
+
+1. Nella pagina **Progetti**, seleziona la casella a sinistra di ciascun progetto che desideri condividere, quindi fai clic sull&#39;icona **Condividi** ![Condividi icona](assets/share-icon.png) nella parte superiore della pagina. Viene visualizzata la finestra modale di condivisione.
+
+   ![Progetti di condivisione in blocco](assets/bulk-share-icon.png)
+
+1. Nel campo **Concedi l&#39;accesso al progetto a**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo o della società con cui desideri condividere i progetti, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
+
+   >[!TIP]
+   >
+   >Puoi condividere i progetti solo con utenti attivi, team, ruoli o aziende.
+
+
+1. (Facoltativo) Seleziona l&#39;elenco a discesa **Chi ha accesso** e il livello di accesso dei progetti:
+
+   * **Solo gli utenti invitati possono accedere a:** Solo gli utenti invitati ai progetti possono accedervi (impostazione predefinita).
+   * **Tutti gli utenti del sistema possono visualizzare**: tutti gli utenti del sistema possono visualizzare i progetti senza un invito.
+
+
+1. Fai clic sull’elenco a discesa a destra del nome dell’utente e seleziona il relativo livello di autorizzazione per i progetti:
+
+   * **Visualizza**: l&#39;utente può esaminare e condividere i progetti.
+   * **Contributo**: l&#39;utente può apportare aggiornamenti, registrare informazioni, apportare modifiche minori e condividere i progetti (include anche tutte le autorizzazioni di visualizzazione).
+   * **Gestisci**: l&#39;utente ha accesso completo ai progetti senza diritti amministrativi, che sono concessi a livello di accesso (include anche tutte le autorizzazioni Visualizza e Contribuisci).
+
+1. (Facoltativo) Fai clic sull’icona delle opzioni avanzate accanto al livello di autorizzazione concesso per configurare autorizzazioni specifiche sui progetti.
+
+   ![Opzioni di autorizzazione avanzate configurate](assets/advanced-permission-options.png)
+
+1. Fai clic su **Salva**.
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
