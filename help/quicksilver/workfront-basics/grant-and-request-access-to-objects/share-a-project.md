@@ -6,7 +6,7 @@ description: Il tuo amministratore Adobe Workfront può concederti l’accesso p
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
+source-git-commit: eb4bf18407562b88bf0c946c905b202e5b62a5fe
 workflow-type: tm+mt
 source-wordcount: '1579'
 ht-degree: 2%
@@ -159,7 +159,7 @@ Per informazioni sulla visualizzazione delle autorizzazioni ereditate per un ogg
    * **Solo gli utenti invitati possono accedere a:** Solo gli utenti invitati al progetto possono accedervi (impostazione predefinita).
    * **Tutti gli utenti del sistema possono visualizzare**: tutti gli utenti del sistema possono visualizzare il progetto senza un invito.
 
-1. (Facoltativo) Per applicare automaticamente le impostazioni di accesso al progetto selezionate a tutti i nuovi progetti, fai clic sull&#39;icona **Ingranaggio** ![Seleziona l&#39;icona a forma di ingranaggio](assets/gear-icon.png), quindi seleziona la casella in linea con **Imposta come modello di accesso al progetto**.
+1. (Facoltativo) Per applicare automaticamente le impostazioni di accesso al progetto selezionate a tutti i nuovi progetti, fai clic sull&#39;icona **Ingranaggio** ![Seleziona l&#39;icona ingranaggio](assets/gear-icon.png), quindi seleziona la casella in linea con **Imposta come modello di accesso al progetto**.
 
    >[!NOTE]
    >

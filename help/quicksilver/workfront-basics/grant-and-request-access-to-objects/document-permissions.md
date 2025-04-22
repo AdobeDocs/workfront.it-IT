@@ -7,9 +7,9 @@ description: L'amministratore di Adobe Workfront consente agli utenti di visuali
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
+source-git-commit: eb4bf18407562b88bf0c946c905b202e5b62a5fe
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1247'
 ht-degree: 1%
 
 ---
@@ -123,9 +123,9 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 1. Fai clic sull’elenco a discesa a destra del nome dell’utente e seleziona il relativo livello di autorizzazione per questo documento:
 
    * **Visualizzazione**: l&#39;utente può rivedere e condividere il documento.
-   * **Gestisci**: l&#39;utente ha accesso completo al programma senza diritti amministrativi, che sono concessi al livello di accesso (include anche tutte le autorizzazioni di visualizzazione).
+   * **Gestisci**: l&#39;utente ha accesso completo al documento senza diritti amministrativi, concessi al livello di accesso (include anche tutte le autorizzazioni di visualizzazione).
 
-1. (Facoltativo) Fai clic sull’icona delle opzioni avanzate accanto al livello di autorizzazione concesso per configurare autorizzazioni specifiche per il programma.
+1. (Facoltativo) Fai clic sull’icona delle opzioni avanzate accanto al livello di autorizzazione concesso per configurare autorizzazioni specifiche sul documento.
 
    ![Opzioni di autorizzazione avanzate configurate](assets/advanced-options-icon.png)
 
@@ -136,6 +136,39 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
    >[!CAUTION]
    >
    >Si consiglia di usare cautela quando si condivide un documento contenente informazioni riservate con utenti esterni. Questo consente loro di visualizzare le informazioni senza essere utenti di Workfront o parte dell’organizzazione.
+
+1. Fai clic su **Salva**.
+
+## Condivisione di documenti in blocco
+
+{{step1-to-documents}}
+
+1. Nella scheda **Tutti i documenti** della pagina **Documenti**, tieni premuto **Comando** (Mac) o **Ctrl** (Windows) sulla tastiera, quindi fai clic su ogni documento che desideri condividere.
+
+1. Nella parte superiore della pagina fare clic sull&#39;icona **Condividi** ![Condividi](assets/share-icon.png). Viene visualizzata la finestra modale di condivisione.
+
+   ![Icona Condividi](assets/share-documents-in-bulk.png)
+
+1. Nel campo **Concedi l&#39;accesso al documento**, iniziare a digitare il nome dell&#39;utente, del team, della mansione, del gruppo o della società con cui si desidera condividere i documenti, quindi fare clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
+
+   >[!TIP]
+   >
+   >È possibile condividere documenti solo con utenti attivi, team, ruoli o aziende.
+
+
+1. (Facoltativo) Selezionare l&#39;elenco a discesa **Chi ha accesso** e selezionare il livello di accesso dei documenti:
+
+   * **Solo gli utenti invitati possono accedere a:** Solo gli utenti invitati ai documenti possono accedervi (impostazione predefinita).
+   * **Tutti gli utenti del sistema possono visualizzare**: tutti gli utenti del sistema possono visualizzare i documenti senza un invito.
+
+1. Fai clic sull’elenco a discesa a destra del nome dell’utente e seleziona il relativo livello di autorizzazione per i documenti:
+
+   * **Visualizza**: l&#39;utente può esaminare e condividere i documenti.
+   * **Gestisci**: l&#39;utente ha accesso completo ai documenti senza diritti amministrativi, che sono concessi al livello di accesso (include anche tutte le autorizzazioni di visualizzazione).
+
+1. (Facoltativo) Fai clic sull’icona delle opzioni avanzate accanto al livello di autorizzazione concesso per configurare autorizzazioni specifiche sui documenti.
+
+   ![Opzioni di autorizzazione avanzate configurate](assets/advanced-options-icon.png)
 
 1. Fai clic su **Salva**.
 
