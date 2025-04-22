@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: 82694183c32938905f1f8542c430d3c453274cb6
+source-git-commit: a5769e57a9fe28b816e7fb4474ec4a67f837f530
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1275'
 ht-degree: 0%
 
 ---
@@ -58,16 +58,16 @@ Sono state apportate le seguenti modifiche per le sottoscrizioni di eventi versi
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Valori dei parametri</p> </td> 
-   <td> <p>Per qualsiasi oggetto creato da un modello che include un modulo personalizzato, è stato inviato un evento <code>CREATE</code>, quindi è stato inviato un <code>UPDATE</code> con i valori dei parametri (inclusi i campi calcolati e i relativi valori).    </p> </td> 
+   <td> <p>Valori dei parametri calcolati</p> </td> 
+   <td> <p>Qualsiasi oggetto creato da un modello che includa un modulo personalizzato con valori di parametro calcolati, verrà inviato un evento <code>CREATE</code> e quindi verrà inviato un <code>UPDATE</code> con i valori di parametro (inclusi i campi calcolati e i relativi valori). </p> </td> 
    <td> <p>Quando un oggetto viene creato da un modello che include un modulo personalizzato con valori dei parametri calcolati, verrà inviato solo un evento <code>CREATE</code> che conterrà i valori dei parametri, inclusi i campi calcolati.</p> </td> 
-   <td> <p>Se disponi di un abbonamento per <tr><ul><ul><code>UPDATE<code> events and are expecting to receive an <code>UPDATE</code> event after an object is created with calculated parameter values, you will no longer receive that <code>UPDATE</code> event. If you wish to see calculated parameter values on object creation, you must create an additional <code>CREATE</code> subscription.</p> </td> 
+   <td> <p>Se si dispone di una sottoscrizione per gli eventi <code>UPDATE</code> e si prevede di ricevere un evento <code>UPDATE</code> dopo che un oggetto è stato creato con i valori dei parametri calcolati, l'evento <code>UPDATE</code> non verrà più ricevuto. Se si desidera visualizzare i valori dei parametri calcolati durante la creazione dell'oggetto, è necessario creare una sottoscrizione <code>CREATE</code> aggiuntiva.</p> </td> 
   </tr> 
-   
-   <td> <p>Multi-Select type fields</p> </td> 
-   <td> <p>For any type of event that contains a change on a multi-select type field, if the field only contained one value it would be converted to and sent as a string. Otherwise it would be sent as an array. </p><p>Examples:</p><li><code>myMultiSelectField: ["oneValue"]</code> is converted and sent as <code>myMultiSelectField: "oneValue"</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> is sent as <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
-   <td> <p>Regardless of how many values are in the array, it will be sent as an array. </p><p>Examples:</p><li><code>myMultiSelectField: ["oneValue"]</code> is sent as <code>myMultiSelectField: ["oneValue"]</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> is sent as <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
-   <td> <p>If you have a subscription with a filter on a multi-select field, and the value as a string, you must create a new subscription with the same filter that has the value as an array. </p> </td> 
+  <tr> 
+   <td> <p>Campi di tipo a selezione multipla</p> </td> 
+   <td> <p>Per qualsiasi tipo di evento che contiene una modifica in un campo di tipo a selezione multipla, se il campo conteneva un solo valore, verrebbe convertito in e inviato come stringa. In caso contrario, verrebbe inviato come array. </p><p>Esempi:</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> viene convertito e inviato come <code>myMultiSelectField: "oneValue"</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> viene inviato come <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
+   <td> <p>Indipendentemente dal numero di valori presenti nell’array, questo verrà inviato come array. </p><p>Esempi:</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> viene inviato come <code>myMultiSelectField: ["oneValue"]</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> viene inviato come <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
+   <td> <p>Se disponi di una sottoscrizione con un filtro su un campo a selezione multipla e il valore è una stringa, devi creare una nuova sottoscrizione con lo stesso filtro che ha il valore come array. </p> </td> 
   </tr> 
  </tbody> 
 </table>
