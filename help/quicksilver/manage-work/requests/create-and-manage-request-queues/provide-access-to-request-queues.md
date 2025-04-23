@@ -3,10 +3,10 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: Fornire l’accesso alle code di richieste
 description: Quando fornisci l’accesso a una coda di richieste, puoi determinare chi, nella tua organizzazione, può visualizzare la coda di richieste nell’area Richieste di Adobe Workfront.
-author: Lisa
+author: Alina
 feature: Work Management
 exl-id: eb88c32a-f8b8-42d3-9a3a-72c62fd1dc3a
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -73,7 +73,7 @@ Prima che la coda di richieste sia disponibile per gli utenti nell’area Richie
    >Nell’area Richieste sono visibili solo i progetti con lo stato Attuale.
 
 1. Fai clic su **Dettagli coda** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**, quindi su **Dettagli coda**.
-1. Selezionare **Publish come coda di richieste della Guida** per designare il progetto come coda di richieste.
+1. Selezionare **Pubblica come coda di richieste della Guida** per designare il progetto come coda di richieste.
 1. Selezionare una delle opzioni seguenti:
 
    * **Chiunque**: qualsiasi utente può visualizzare e aggiungere richieste alla coda richieste.
