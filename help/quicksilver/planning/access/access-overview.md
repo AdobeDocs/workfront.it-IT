@@ -6,10 +6,10 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 1%
+source-wordcount: '735'
+ht-degree: 2%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 1%
 # Panoramica sull’accesso ad Adobe Workfront Planning
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 >[!IMPORTANT]
 >
@@ -38,7 +42,7 @@ Questo articolo descrive l&#39;accesso e le impostazioni necessarie per utilizza
 
 <!--*********ensure that the link ^^^^^^^^below^^^^^^^^ to Workfront Pricing and Packaging now also includes information about Workfront Planning. If not, talk with Lauren S.***************-->
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+Per accedere a Workfront Planning, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto">
  <col>
@@ -100,9 +104,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td>
    <td>
    <ul>
-   <li><p>Visualizzare o modificare le autorizzazioni per le aree di lavoro e le visualizzazioni non create per accedervi e i relativi oggetti.</p></li>
-   <li><p>Autorizzazioni Contribute o di livello superiore per le aree di lavoro che non sono state create per modificarle e creare, modificare o eliminare tipi di record e record.</p></li>
-   <li><p>Autorizzazioni Contribute o superiori per le visualizzazioni non create, per modificarle, eliminarle e condividerle</p>
+   <li><p>Visualizza o autorizzazioni superiori per le aree di lavoro, <span class="preview">tipi di record</span> e visualizzazioni non create per accedervi e i relativi oggetti.</p></li>
+   <li><p>Autorizzazioni Contribute o superiori per le aree di lavoro <span class="preview">e i tipi di record</span> che non sono stati creati per modificarli e creare, modificare o eliminare tipi di record e record.</p></li>
+   <li><p>Autorizzazioni Contribute (Contribute) o superiori per le visualizzazioni non create, per modificarle, eliminarle e condividerle</p>
    </li>
     <li><p>Gli amministratori di sistema possono gestire le aree di lavoro che non hanno creato. </p></li>
     <li><p>Gli amministratori di sistema non possono accedere alle viste che non hanno creato. </p></li></ul>
@@ -111,7 +115,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Modello di layout</p></td>
+   <td role="rowheader"><p>Modello layout</p></td>
    <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'opzione Planning nelle seguenti aree:</p>
    <ul><li>Menu principale</li>
    <li>Pannello a sinistra di progetti, portfolio e programmi</li>
@@ -126,73 +130,20 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 *Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
-<!--Acccess and permissions before GA (OLD): 
+<!--replace the layout template info in the table with this at release: 
 
-You must have the following access to perform the steps in this article:
+<div class="preview">
+<p> Users with a Light or Contributor license must be assigned a layout template that includes the Planning option  in the following areas:</p>
+   <ul><li>Main Menu</li>
+   <li>Left panel of projects, portfolios, and programs</li>
+   <li>Landing page</li>
+   <li>Pins</li></ul>
+   <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Create and manage layout templates</a>.</p>
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div>
+   <p><b>NOTE</b></p>
+   <p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes the Planning areas.</p>
 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>Any, to view Workfront planning information</p>
-   <p>To create workspaces, you must have the following license:</p>
-   <ul>
-   <li>
-   New: Standard
-   </li>
-   <li>
-   Current: Plan
-   </li>
-   </ul>
-  </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Object permissions</p></td>
-   <td>
-   <p>Contribute or higher permissions to workspaces and views that you did not create to edit, delete, and share them, and to create, edit, or delete record types and records.</p>
-    <p>System Administrators can manage workspaces they did not create. </p>
-    <p>System Administrators cannot manage views they did not create. </p>
-   <p>For information about sharing permissions for Workfront Planning objects, see  
-   <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Overview of sharing permissions in Adobe Workfront Planning</a> 
-  </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Customize the Main Menu using a layout template</a> and and <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Assign users to a layout template</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
-*For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  -->
+-->
 
 ## Condividere l&#39;area Planning utilizzando un modello di layout
 

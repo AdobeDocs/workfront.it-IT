@@ -6,14 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
+source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
 workflow-type: tm+mt
-source-wordcount: '2684'
+source-wordcount: '2863'
 ht-degree: 0%
 
 ---
 
 # Gestire la visualizzazione della timeline
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -90,65 +94,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 *Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-<!--OLD: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan </p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> There are no access controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a view</p>  
-   <p>View permissions to a view to temporarily change the view settings</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p> 
-</td>
-  </tr>
- </tbody>
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
-
 
 ## Gestire una vista timeline {#manage-a-timeline-view}
 
@@ -326,7 +271,7 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
    >
    >I record privi di valori per le date di inizio o di fine o con una data di inizio successiva alla data di fine non vengono visualizzati nella visualizzazione della sequenza temporale.
 
-1. Fare clic su **Stile barra** nel pannello sinistro per indicare i campi da visualizzare sulle barre dei record.
+1. Fare clic su **Stile barra** nel pannello sinistro per indicare le informazioni da visualizzare sulle barre dei record.
 
    Il campo principale (o titolo) del record, come definito nella vista tabella del record, è selezionato per impostazione predefinita. <!--adjust this when the primary field is released??-->
 
@@ -336,18 +281,30 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
    >
    >    Prima di poter visualizzare le miniature nella vista timeline, dovete aggiungerle alla vista tabella. Per ulteriori informazioni, vedere [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. Fai clic su **Aggiungi campo** per aggiungere fino a 4 campi alle barre dei record.
-1. Fare clic all&#39;interno della casella **Cerca campi** e selezionare il campo che si desidera aggiungere.
+1. Fai clic su **Aggiungi campo**, quindi fai clic nella casella **Cerca campi** e fai clic sul campo che desideri aggiungere.
 
    >[!TIP]
    >
    >   * È necessario creare i campi prima di aggiungerli alle barre dei record.
    > 
    >   * È necessario selezionare almeno un campo. **Nome** è selezionato per impostazione predefinita.
+   >
+   >   * Puoi aggiungere fino a 5 campi.
 
    Sulla destra viene visualizzata un&#39;anteprima dell&#39;aspetto delle barre sulla timeline.
 
    ![Registra le impostazioni della timeline del pannello dei dettagli con anteprima](assets/record-details-panel-timeline-settings-with-preview.png)
+
+1. <span class="preview">(Facoltativo e condizionale) Se si visualizza la sequenza temporale in modalità Standard, abilitare l&#39;impostazione **Tronca dettagli barra**. Quando questa opzione è attivata, le informazioni sulle barre dei record vengono troncate e vengono visualizzate completamente solo quando si passa il puntatore del mouse sulle barre. Questa impostazione è disattivata per impostazione predefinita e le informazioni sono visualizzate completamente sulle barre. </span>
+
+   ![Impostazione di troncamento abilitata nella casella delle impostazioni della sequenza temporale evidenziata](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
+
+   >[!TIP]
+   >
+   >* <span class="preview">L&#39;impostazione dei dettagli della barra di troncamento non è disponibile quando si visualizza la visualizzazione della sequenza temporale in modalità Compatta e non è disponibile nella visualizzazione Calendario.</span>
+   >
+   >* <span class="preview">Se si suddivide la visualizzazione della sequenza temporale per visualizzare gli oggetti connessi nella sequenza temporale, l&#39;impostazione dei dettagli della barra di troncamento si applica solo al tipo di record principale. Non si applica alle barre dei record connesse.</span>
+
 
 1. Fai clic su **Colore** nel pannello a sinistra per personalizzare i colori dei record e dei raggruppamenti nella timeline.
 
