@@ -6,16 +6,14 @@ description: Puoi modificare un calendario esistente aggiungendo o eliminando un
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: c8f4d8e460ed9247ca5d89c9a711ecb1ec5ed1e9
+source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
 
 # Modificare un report calendario esistente
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 Puoi modificare un calendario esistente aggiungendo o eliminando un collegamento a un progetto. È inoltre possibile modificare i raggruppamenti di calendari associati a un report calendario.
 
@@ -60,45 +58,12 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 +++
 
-## Modificare un report calendario esistente in Produzione
+
+## Modificare un report calendario esistente
 
 {{step1-to-calendars}}
 
-1. (Facoltativo) Per modificare il nome del report calendario, fare clic sul campo [!UICONTROL nome calendario], quindi apportare le modifiche desiderate. Per evitare problemi di compatibilità, si consiglia di utilizzare solo caratteri UTF-8.
-
-   ![Cambia nome report](assets/titlechange-250x230.png)
-
-   Se hai condiviso il report sul calendario con altri utenti o team, il nome del calendario modificato viene aggiornato automaticamente nella relativa vista calendario.
-
-1. (Facoltativo) Per aggiungere un progetto al rapporto del calendario:
-
-   1. Fai clic su **[!UICONTROL Aggiungi al calendario].**
-   1. Nel campo **[!UICONTROL Nome progetto]**, inizia a digitare il nome di un progetto dal quale si desidera aggiungere eventi di calendario, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
-
-      ![Selezionare il nome del progetto](assets/calendar-project-name.png)
-Gli elementi del progetto e le attività e i problemi associati vengono aggiunti al rapporto del calendario.
-
-1. (Facoltativo) Per aggiungere un raggruppamento di calendari o per modificare un raggruppamento di calendari esistente:
-
-   1. Passa il puntatore del mouse sul nome del progetto, fai clic sulla freccia a discesa accanto al nome del progetto, quindi fai clic su **[!UICONTROL Modifica]**.
-
-      ![Modifica raggruppamento calendari](assets/editcalendergroup-350x126.png)
-
-   1. Scegliere la modalità di raggruppamento degli elementi:
-
-      * [Usa [!UICONTROL date pianificate] in un report calendario](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
-      * [Usa [!UICONTROL Date previste] in un report calendario](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
-      * [Utilizzare campi data personalizzati in un report calendario](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
-
-
-<div class="preview">
-
-## Modificare un report calendario esistente in Anteprima
-
-{{step1-to-calendars}}
-
-1. (Facoltativo) Per modificare il nome del report del calendario, fare clic sul menu **Altro** e selezionare **Modifica**.
-   ![altro menu](assets/new-more-menu-calendar.png)
+1. (Facoltativo) Per modificare il nome del report del calendario, fai clic su **Rinomina** accanto al menu a discesa del calendario.
 Se hai condiviso il report sul calendario con altri utenti o team, il nome del calendario modificato viene aggiornato automaticamente nella relativa vista calendario.
 
 1. (Facoltativo) Per aggiungere un progetto al rapporto del calendario:
@@ -110,7 +75,7 @@ Se hai condiviso il report sul calendario con altri utenti o team, il nome del c
 
 1. (Facoltativo) Per aggiungere un raggruppamento di calendari o per modificare un raggruppamento di calendari esistente:
    1. Fai clic sul menu **Altro** accanto al nome del progetto, quindi fai clic su **Modifica**.
-      ![modifica progetto nel calendario](assets/edit-project-in-calendar.png)e
+      ![modifica progetto nel calendario](assets/edit-project-in-calendar.png)
 
    1. Scegliere la modalità di raggruppamento degli elementi:
 
@@ -118,5 +83,3 @@ Se hai condiviso il report sul calendario con altri utenti o team, il nome del c
       * [Usa [!UICONTROL Date previste] in un report calendario](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
       * [Utilizzare campi data personalizzati in un report calendario](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
 
-
-      </div>

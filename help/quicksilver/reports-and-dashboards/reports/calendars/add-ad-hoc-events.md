@@ -6,16 +6,14 @@ description: Puoi aggiungere eventi ad hoc a un calendario. Un evento ad hoc fun
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 4145119e-ef2c-4f0d-89e7-86669ca5b127
-source-git-commit: 041e812d0663304b4bd51134020209d3a67e1423
+source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
 
 # Aggiungere eventi ad hoc a un report calendario
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 Puoi aggiungere eventi ad hoc a un calendario. Un evento ad hoc funge semplicemente da promemoria nel calendario e non è associato a un progetto, un’attività o un problema.
 
@@ -56,28 +54,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 +++
 
-## Aggiungere eventi ad hoc a un report calendario in Produzione
 
-1. Nel calendario, vai alla data in cui desideri aggiungere un evento ad hoc, quindi fai clic sulla data [!UICONTROL inizio] dell&#39;evento.
-1. Inserisci il nome dell’evento e, se lo desideri, seleziona un colore per l’evento.
-1. (Condizionale) Se l&#39;evento ad hoc si svolge nell&#39;arco di diversi giorni, selezionare **[!UICONTROL L&#39;evento si estenderà su più giorni]**, quindi selezionare la data di fine dal calendario popup.
-
-   ![Evento calendario ad hoc](assets/calendar-report---span-multiple-days-350x266.png)
-
-1. Fai clic su **[!UICONTROL Salva]**.
-1. (Facoltativo) Per modificare un evento ad hoc:
-
-   1. Fai clic sull’evento nel calendario per aprire la pagina dei dettagli dell’evento.
-   1. Fai clic sull&#39;icona di modifica (matita), modifica l&#39;evento, quindi fai clic su **[!UICONTROL Salva]**.
-
-1. (Facoltativo) Per eliminare un evento ad hoc:
-
-   1. Fai clic sull’evento nel calendario per aprire la pagina dei dettagli dell’evento.
-   1. Fare clic sull&#39;icona del cestino, quindi fare clic su **[!UICONTROL Sì, Elimina]**.
-
-<div class="preview">
-
-## Aggiungere eventi ad hoc a un report calendario in Anteprima
+## Aggiungere eventi ad hoc a un report calendario
 
 1. Vai al Calendario a cui desideri aggiungere un evento ad hoc.
 1. Fai clic su **Aggiungi** nella parte superiore del calendario.
@@ -85,5 +63,4 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. Scegli un colore per l’evento.
 1. Scegli se l’evento deve estendersi su più giorni.
 1. Immettere o scegliere una data utilizzando l&#39;icona Calendario.
-
-</div>
+   ![aggiungi evento ad hoc](assets/add-ad-hoc.png)
