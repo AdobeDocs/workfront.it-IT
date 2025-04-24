@@ -5,9 +5,9 @@ title: Il laboratorio dell'innovazione
 description: Il [!UICONTROL Innovation Lab] consente agli utenti autenticati di inviare, votare e discutere idee con altri clienti.
 feature: Get Started with Workfront
 exl-id: 4775ece1-2841-4acc-b3f0-66cd2783669f
-source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
+source-git-commit: 3583368918cf9eb4c64faeda4730e2be08375aed
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -47,4 +47,4 @@ Una volta raggiunta la soglia critica di 450 punti, l’idea avrà uno dei segue
 * **[!UICONTROL Consegnato]:** È stata creata e consegnata una soluzione. Non verranno forniti ulteriori aggiornamenti e i commenti verranno disabilitati.
 * **[!UICONTROL Archiviato]**: verranno archiviate le idee che raggiungono la soglia dei 18 mesi (dalla data di invio) e che hanno meno di 300 punti.
 
-Per iniziare o per ulteriori informazioni, accedi al laboratorio di innovazione all&#39;indirizzo [workfront.com/customer](https://www.workfront.com/customer).
+Per iniziare o per saperne di più, accedi al [Innovation Lab](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
