@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
 workflow-type: tm+mt
-source-wordcount: '2863'
+source-wordcount: '2860'
 ht-degree: 0%
 
 ---
@@ -94,6 +94,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 *Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--replace the layout template info in the table with this at release: 
+
+
+<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
+
+-->
 
 ## Gestire una vista timeline {#manage-a-timeline-view}
 
@@ -303,7 +311,7 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
    >
    >* <span class="preview">L&#39;impostazione dei dettagli della barra di troncamento non è disponibile quando si visualizza la visualizzazione della sequenza temporale in modalità Compatta e non è disponibile nella visualizzazione Calendario.</span>
    >
-   >* <span class="preview">Se si suddivide la visualizzazione della sequenza temporale per visualizzare gli oggetti connessi nella sequenza temporale, l&#39;impostazione dei dettagli della barra di troncamento si applica solo al tipo di record principale. Non si applica alle barre dei record connesse.</span>
+   >* <span class="preview">Se si suddivide la visualizzazione della sequenza temporale per visualizzare gli oggetti connessi, l&#39;impostazione dei dettagli della barra di troncamento si applica solo al tipo di record principale. Non si applica alle barre dei record connesse.</span>
 
 
 1. Fai clic su **Colore** nel pannello a sinistra per personalizzare i colori dei record e dei raggruppamenti nella timeline.

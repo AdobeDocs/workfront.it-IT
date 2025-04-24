@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
 workflow-type: tm+mt
-source-wordcount: '1872'
+source-wordcount: '2034'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 +++
 
 <!--replace the layout template info in the table with this at release: 
-
 
 <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
 <p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
@@ -268,42 +267,75 @@ Si verificano le seguenti situazioni:
 
    Tutte le modifiche apportate al layout dell&#39;anteprima record o del salvataggio automatico della pagina.
 
-## Aggiungere una pagina di visualizzazione Connessione alla pagina di un record
+## Aggiungere una scheda Visualizzazione connessione alla pagina di un record
 
-<!--suggested a new name for this type of page: "Connected records details" - check to see if this changed-->
+<!--suggested a new name for this type of page: "Connected records page" - check to see if this changed, and update this everywhere in this section-->
+
+È possibile visualizzare informazioni da record o oggetti connessi aggiungendo a un record una scheda per un tipo di pagina di visualizzazione Connessione. Le informazioni dei record collegati vengono visualizzate in una visualizzazione tabella di sola lettura.
+
+&lt;!-sostituisci l&#39;ultima frase precedente con questo al rilascio:
+
+Nell’ambiente di produzione, le informazioni dei record o degli oggetti collegati vengono visualizzate in una vista tabella di sola lettura.
+
+<Span class="preview">Nell&#39;ambiente di anteprima è possibile modificare le informazioni dei record collegati nella vista tabella. Le informazioni degli oggetti connessi da un&#39;altra applicazione non sono modificabili nella vista tabella.</span> —>
 
 Quando si aggiunge una visualizzazione Connessione alla pagina di un record, tenere presente quanto segue:
 
-* È possibile aggiungere una pagina di visualizzazione Connessione alla pagina di un record.
+* È possibile aggiungere una pagina di visualizzazione Connessione alla pagina di un record dopo aver connesso tipi di record o di oggetti al tipo di record.
 
 * Impossibile aggiungere una pagina di visualizzazione Connessione all&#39;area di anteprima di un record.
 
-* Le pagine della visualizzazione Connessione visualizzano una pagina del tipo di record connesso nella visualizzazione Tabella.
+* Le pagine della visualizzazione Connessione visualizzano una pagina del tipo di record o un tipo di oggetto connesso di un&#39;altra applicazione in una visualizzazione tabella.
 
 * Dopo aver aggiunto una pagina di visualizzazione Connessione alla pagina di un record, la scheda della pagina è visibile dall&#39;area di anteprima del record. È necessario passare alla pagina intera per visualizzare la vista tabella per il record connesso. <!--this might have changed? check and take disclaimer out-->
 
 Per aggiungere una pagina di visualizzazione Connessione:
 
 1. Nella visualizzazione della pagina di un record fare clic sul nome di un record per aprirlo, quindi fare clic sull&#39;icona **Apri in una nuova scheda** ![Apri i dettagli in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro della pagina di anteprima.
-1. Fai clic su **Aggiungi pagina** > **Visualizzazione connessione**.
+1. Fare clic su **Aggiungi pagina**.
 
    ![Aggiungi pagina visualizzazione connessione modale](assets/add-connection-view-page-modal.png)
 1. Aggiungi **Nome pagina**, fai clic su **Visualizzazione connessione**, quindi fai clic su **Crea**.
 
    Viene aggiunta una nuova scheda alla pagina del record.
 1. Cercare o fare clic sul nome di un record o di un tipo di oggetto connesso nell&#39;elenco.
-Viene visualizzata la vista tabella del tipo di record selezionato e i record collegati vengono visualizzati nella vista tabella.
+La visualizzazione tabella del tipo di record selezionato viene visualizzata nella nuova pagina e i record collegati nella visualizzazione tabella.
 Tutti i campi del record connesso vengono visualizzati nella vista a tabella della scheda del record connesso.
 
    Per impostazione predefinita, vengono visualizzati i primi cinque campi della tabella record connessa. Per impostazione predefinita, non viene visualizzato alcun campo di ricerca.
-
-   La vista tabella è di sola lettura.
 
    <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
    ![Visualizzazione tabella connessa al pubblico nei dettagli della campagna](assets/audience-connected-table-view-under-campaign-details-page.png)
 
-1. (Facoltativo) Fai doppio clic sul nome della scheda
+1. (Facoltativo) Nella vista a tabella dei record collegati, eseguire una delle operazioni seguenti:
+
+   * Fare clic sul nome di un record. Verrà aperta la pagina del record in una nuova scheda. <!--<span class="preview">In the Preview environment, this opens the record's preview page.</span>-->
+   * Fai clic su **Connetti** per connettere altri record, quindi fai clic all&#39;esterno della casella di connessione per chiuderla. I nuovi record vengono aggiunti automaticamente alla tabella.
+     <!--* <span class="preview">Edit any information from the connected records inside the table view. </span>-->
+
+   <!--<div class="preview">
+
+   * Hover over a connected record's name, then click the **More** menu ![More menu](assets/more-menu.png), then click one of the following options: 
+      * View 
+      * Copy link
+      * Edit thumbnail
+      * Duplicate
+      * Insert record above or below
+      * Delete 
+   * Select one of the records, then click one of the following options in the blue bar at the bottom of the screen: 
+      * View
+      * Copy link
+      * Edit thumbnail
+      * Duplicate
+      * Delete. Delete is the only option available when you select more than one record. 
+
+      For information about editing records in the table view, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
+
+   </div>-->
+
+
+1. (Facoltativo) Fare doppio clic sul nome della scheda della vista Connessione
 
    Oppure
 
@@ -323,7 +355,7 @@ Tutti i campi del record connesso vengono visualizzati nella vista a tabella del
    >
 
 1. Fai clic su **Connetti** per aggiungere o rimuovere record. Per informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md)
-1. (Facoltativo) Passa il puntatore del mouse sul nome della scheda Visualizzazione connessione, fai clic su **Altro** ![Altro menu](assets/more-menu.png), quindi fai clic su **Elimina** per rimuoverlo nella nuova scheda Visualizzazione connessa.
+1. (Facoltativo) Passa il puntatore del mouse sul nome della scheda Visualizzazione connessione, fai clic su **Altro** ![Altro menu](assets/more-menu.png), quindi fai clic su **Elimina** per rimuoverlo dalla scheda.
 
 
 
