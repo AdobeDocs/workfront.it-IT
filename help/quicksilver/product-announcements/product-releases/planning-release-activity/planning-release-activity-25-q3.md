@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: a92261330ddf289217057c83fa9360776a8628b8
+source-git-commit: 881eea5b527532227a40483d2cd2edeba84dc30f
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning,
 >* Versione rapida di produzione: 15 maggio 2025
 >* Produzione per tutti i clienti: 17 luglio 2025
 
-È ora possibile attivare un&#39;impostazione nella scheda Stile barra della casella Impostazioni di una visualizzazione timeline per troncare i nomi dei record più lunghi quando vengono visualizzati nella visualizzazione Standard. L&#39;impostazione è disattivata per impostazione predefinita e può essere attivata solo quando si visualizza la vista timeline in modalità Standard.
+È ora possibile attivare un&#39;impostazione nella scheda Stile barra della casella Impostazioni di una visualizzazione timeline per troncare i nomi dei record più lunghi quando vengono visualizzati nella visualizzazione Standard. L&#39;impostazione è disattivata per impostazione predefinita e può essere attivata solo quando si visualizza la vista timeline in modalità Standard. Poiché questa impostazione è disabilitata, per impostazione predefinita le informazioni sulle barre dei record vengono visualizzate espanse. Prima di questo miglioramento, le informazioni sulle barre dei record venivano troncate per impostazione predefinita.
 
 Per informazioni, vedere [Gestire la visualizzazione della sequenza temporale](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
