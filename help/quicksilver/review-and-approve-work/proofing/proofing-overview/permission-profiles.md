@@ -8,7 +8,7 @@ description: I profili di autorizzazione delle bozze determinano le autorizzazio
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fb6faa48-d97b-4b7b-83ae-fe39d40b3963
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 2%
@@ -44,7 +44,7 @@ I profili di autorizzazione delle bozze sono diversi dai ruoli delle bozze. Per 
 
 Nella tabella seguente vengono visualizzate le autorizzazioni disponibili per ogni profilo di autorizzazione di bozza.
 
-<table>
+<table style="table-layout:auto">
   <tr>
    <td colspan="1" ><strong></strong>
    </td>

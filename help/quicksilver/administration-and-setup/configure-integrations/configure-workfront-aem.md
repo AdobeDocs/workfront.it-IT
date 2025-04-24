@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 5d818b2e3c3314c6af076df46f7f806214f97bab
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1868'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ Prima di iniziare, è necessario abilitare le autorizzazioni per workfront-servi
 1. Sul lato destro della schermata, selezionare **[!UICONTROL Aggiungi ACE]** per creare nuove voci.
 1. Nella finestra &#x200B;**[!UICONTROL Aggiungi nuova voce]**&#x200B;, seleziona l&#39;icona della casella di controllo nel campo **[!UICONTROL Percorso]**&#x200B; e scegli la cartella: */conf*
 1. Nel campo **Privilegi** immettere: *jcr:read*
-1. Nell&#39;angolo in alto a destra, seleziona **[!UICONTROL Aggiungi]**&#x200B;.
+1. Nell&#39;angolo in alto a destra, seleziona **Aggiungi**.
 1. (Facoltativo) Ripeti i passaggi precedenti per creare altre voci.
 
 ### Integrare AEM con [!DNL Workfront] {#integrate-aem-with-workfront}

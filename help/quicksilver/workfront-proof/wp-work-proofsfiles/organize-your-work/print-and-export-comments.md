@@ -7,9 +7,9 @@ description: È possibile accedere al riepilogo Commenti in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: de23513976d7bc4fe34cbf7b007a41c3b9797347
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -97,8 +97,7 @@ Per scaricare il riepilogo [!DNL Excel] dalla pagina Dettagli bozza:
 
 1. Fai clic sul pulsante **Altro**, quindi seleziona **Esporta in Excel**.
 
-   <!--
-   ![Export to Excel option](assets/export-to-excel-option.png) -->
+   ![Esporta in Excel](assets/export-to-excel.png)
 
 ## Esportazione in PDF
 

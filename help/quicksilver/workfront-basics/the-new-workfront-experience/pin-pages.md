@@ -5,14 +5,16 @@ description: Puoi fissare il tuo lavoro più importante [!DNL Adobe Workfront] p
 feature: Get Started with Workfront
 author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: b3fe63f7a332f50c7bac3bedee5db3bbbabd2b42
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '423'
 ht-degree: 1%
 
 ---
 
 # Fissa pagine per personalizzare l’area di lavoro
+
+<!-- Audited: 4/2025 -->
 
 È possibile fissare il lavoro più importante in [!DNL Adobe Workfront] per aumentare la visibilità, migliorare l&#39;organizzazione e velocizzare l&#39;accesso. Le pagine bloccate sono sempre accessibili dalla parte superiore di qualsiasi pagina in Workfront.
 
@@ -53,6 +55,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. Passare alla pagina che si desidera fissare. Può trattarsi di qualsiasi elemento di lavoro, ad esempio un progetto, un’attività, una coda di richieste e così via.
 
 1. Nell&#39;angolo superiore sinistro della pagina fare clic su **[!UICONTROL Aggiungi pagina corrente]**. La pagina bloccata è ora accessibile dalla parte superiore di qualsiasi pagina in [!DNL Workfront].
+
+   ![Inserisci puntina alla pagina corrente](assets/pin-current-page-button.png)
 
 ## Accedere a una pagina bloccata
 
