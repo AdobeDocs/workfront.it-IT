@@ -6,9 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 16f0caf4bdf80ef7b95e8ab51bf9f75aa3b81b3f
+exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
+source-git-commit: a92261330ddf289217057c83fa9360776a8628b8
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -20,6 +21,18 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 <!--keep the sentence below for all future quarterly release pages-->
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Nuova impostazione per troncare i nomi dei record lunghi nella vista Timeline standard
+
+>[!NOTE]
+>
+>* Anteprima: 23 aprile 2025
+>* Versione rapida di produzione: 15 maggio 2025
+>* Produzione per tutti i clienti: 17 luglio 2025
+
+È ora possibile attivare un&#39;impostazione nella scheda Stile barra della casella Impostazioni di una visualizzazione timeline per troncare i nomi dei record più lunghi quando vengono visualizzati nella visualizzazione Standard. L&#39;impostazione è disattivata per impostazione predefinita e può essere attivata solo quando si visualizza la vista timeline in modalità Standard.
+
+Per informazioni, vedere [Gestire la visualizzazione della sequenza temporale](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Autorizzazioni di condivisione per i tipi di record
 
