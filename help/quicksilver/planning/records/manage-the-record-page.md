@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
+source-git-commit: 8fcc6c75811080f3ee152849a149542be8ae820c
 workflow-type: tm+mt
-source-wordcount: '2034'
+source-wordcount: '1974'
 ht-degree: 0%
 
 ---
@@ -273,11 +273,11 @@ Si verificano le seguenti situazioni:
 
 È possibile visualizzare informazioni da record o oggetti connessi aggiungendo a un record una scheda per un tipo di pagina di visualizzazione Connessione. Le informazioni dei record collegati vengono visualizzate in una visualizzazione tabella di sola lettura.
 
-&lt;!-sostituisci l&#39;ultima frase precedente con questo al rilascio:
+<!--replace the last sentence above with this at release:
 
-Nell’ambiente di produzione, le informazioni dei record o degli oggetti collegati vengono visualizzate in una vista tabella di sola lettura.
+In the Production environment, the information from the connected records or objects displays in a read-only table view. 
 
-<Span class="preview">Nell&#39;ambiente di anteprima è possibile modificare le informazioni dei record collegati nella vista tabella. Le informazioni degli oggetti connessi da un&#39;altra applicazione non sono modificabili nella vista tabella.</span> —>
+<Span class="preview">In the Preview environment, the information from the connected records can be edited in the table view. The information from the objects connected from another application is not editable in the table view.</span> -->
 
 Quando si aggiunge una visualizzazione Connessione alla pagina di un record, tenere presente quanto segue:
 
