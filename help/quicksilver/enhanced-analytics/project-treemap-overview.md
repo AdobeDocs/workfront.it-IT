@@ -7,7 +7,7 @@ description: La visualizzazione Mappa ad albero progetto è una visualizzazione 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 2%
@@ -38,7 +38,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">piano Adobe Workfront</a></td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">piano Adobe Workfront</a></td> 
    <td> <p>Business o superiore</p> </td> 
   </tr> 
   <tr> 
@@ -156,7 +156,7 @@ Per informazioni su come ottenere i dati migliori per questa visualizzazione, co
    * **Grafico (PNG)**
    * **Tabella dati (XSLX)**
 
-1. Fai clic su un progetto per aprire le visualizzazioni Burndown e Attività in volo e ottenere informazioni più approfondite su come le attività e le ore, o i giorni, hanno contribuito alla dimensione di un progetto.
+1. Fai clic su un progetto per aprire le visualizzazioni Burndown e Attività in volo e ottenere un insight più approfondito del modo in cui le attività e le ore (o i giorni) hanno contribuito alla dimensione di un progetto.
 
 Per ulteriori informazioni sulla visualizzazione Burndown, consulta [Visualizzare la visualizzazione Burndown in Analisi avanzate](../enhanced-analytics/burndown-overview.md). Per ulteriori informazioni sulla visualizzazione Attività in volo, consulta [Visualizzare la visualizzazione Attività in volo in Analisi avanzate](../enhanced-analytics/tasks-in-flight-overview.md).
 

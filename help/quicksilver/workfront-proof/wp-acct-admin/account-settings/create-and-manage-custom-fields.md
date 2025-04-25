@@ -7,7 +7,7 @@ description: Per utilizzare questa funzione è necessario un Select o Premium [!
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 87c8aff7-b638-4d14-9c5a-7e316f1ec608
-source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
+source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
-Per utilizzare questa funzione è necessario un piano Select o Premium [!DNL Workfront]. Per ulteriori informazioni sui vari piani disponibili, vedere [Piani Workfront](https://www.workfront.com/plans).
+Per utilizzare questa funzione è necessario un piano Select o Premium [!DNL Workfront]. Per ulteriori informazioni sui vari piani disponibili, vedere [Piani Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 I campi personalizzati ti consentono di acquisire dati aggiuntivi durante la creazione di una nuova bozza, utente o ospite. Ad esempio, gli utenti che creano una nuova bozza potrebbero voler includere una sezione aggiuntiva che consenta loro di acquisire un Numero OdL, un Codice reparto o un Riferimento fornitore.
 

@@ -6,7 +6,7 @@ description: Collega il tuo lavoro con i contenuti in Experience Manager Assets 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 1%
@@ -53,7 +53,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr>
    <td>Prodotto
    </td>
-   <td>Devi disporre di Experience Manager Assets Essentials e devi essere aggiunto al prodotto come utente nell’Admin Console.
+   <td>Devi disporre di Experience Manager Assets Essentials e devi essere aggiunto al prodotto come utente in Admin Console.
    </td>
   </tr>
   <tr>
@@ -86,7 +86,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    <tr>
       <td><strong>URL di navigazione</strong>
       </td>
-      <td>Il sistema compila automaticamente l’URL di navigazione. Questo URL viene utilizzato per creare un collegamento all’istanza degli Assets Essentials della tua organizzazione dal menu principale per un accesso rapido.
+      <td>Il sistema compila automaticamente l’URL di navigazione. Questo URL viene utilizzato per collegare all’istanza Assets Essentials della tua organizzazione dal menu principale per un accesso rapido.
       </td>
    </tr>
    <tr>
@@ -94,7 +94,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <strong>Archivio Experience Manager Assets</strong>
       </td>
       <td>
-      Il sistema compila automaticamente l'archivio Experienci Manager associato all'ID organizzazione.
+      Il sistema popola automaticamente l’archivio Experience Manager associato al tuo ID organizzazione.
       </td>
    </tr>
    </table>
@@ -111,7 +111,7 @@ Mappa i dati oggetto Workfront ai campi degli elementi multimediali delle risors
 
 Prima di iniziare, è necessario
 
-* Configura uno schema metadati in Experience Manager Assets Essentials come descritto in [Configura la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+* Configura uno schema metadati in Experience Manager Assets Essentials come descritto in [Configura la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 * (Facoltativo) Configura i campi modulo personalizzati in Workfront. Workfront dispone di molti campi personalizzati incorporati che è possibile utilizzare. Tuttavia, puoi anche creare campi personalizzati. Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Campi Workfront e Experience Manager Assets supportati

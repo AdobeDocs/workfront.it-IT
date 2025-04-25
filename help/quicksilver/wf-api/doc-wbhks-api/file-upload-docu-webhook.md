@@ -8,10 +8,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c5727ee-bf8f-4664-a9b1-c5da356d94f5
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ Aggiunto alla versione 1.1 di questa specifica, l&#39;ID documento e l&#39;ID ve
 
 **Esempio:** se il sistema di gestione dei documenti desidera ulteriori informazioni sul documento, il codice di implementazione del webhook potrebbe utilizzare l&#39;ID del documento per recuperare tali informazioni utilizzando l&#39;API RESTful di Workfront. È buona norma che queste informazioni provengano dai campi dati personalizzati del documento che contengono l&#39;attività, il problema o il progetto.
 
-## POST, metodo
+## Metodo POST
 
 **URL**
 
@@ -71,7 +71,7 @@ I metadati del file, come definito dall’endpoint /metadata. Questo include l�
 https://www.acme.com/api/uploadInit?parentId=12345&filename=new-file.png&documentId=511ea6e000023edb38d2effb2f4e6e3b&documentVersionId=511ea6e000023edb38d2e ffb2f4e6e3b
 ```
 
-## PUT, metodo
+## Metodo PUT
 
 Carica i byte di un documento nel provider del webhook.
 

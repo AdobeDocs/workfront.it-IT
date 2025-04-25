@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 150bc838-d6a5-445a-af77-62c4ed74dd1b
-source-git-commit: 99aac8d1621370f901704f58affd9e3e18497c4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
@@ -26,7 +26,7 @@ In Configurazione, configura una preferenza per garantire che ogni nuovo progett
 
 Per fare in modo che i nuovi progetti abbiano sempre uno stato, anche se un amministratore nasconde o sblocca lo stato configurato per i nuovi progetti, il sistema ora assegna il primo stato nell&#39;elenco Stato a tutti i nuovi progetti fino a quando non configuri nuovamente il nuovo stato per i nuovi progetti.
 
-Per informazioni sull&#39;impostazione della preferenza per lo stato di tutti i nuovi progetti, vedere [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (oppure, se si utilizza Adobe Workfront Classic, vedere [Impostazione delle preferenze di progetto](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
+Per informazioni sull&#39;impostazione della preferenza per lo stato di tutti i nuovi progetti, vedere [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (oppure, se si utilizza Adobe Workfront Classic, vedere [Impostazione delle preferenze di progetto](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Disponibile in questi ambienti:**
 
@@ -42,7 +42,7 @@ L’impostazione delle preferenze di progetto ora è più intuitiva e facile da 
 * Se si digita un numero non valido per un&#39;opzione, ad esempio &quot;Ore tipiche per giorno lavorativo&quot;, viene visualizzato immediatamente un messaggio di avviso invece di essere visualizzato dopo aver fatto clic su Salva.
 * Le etichette delle opzioni corrispondono al testo dell’interfaccia corrispondente in altre aree di Workfront, ad esempio nell’area Dettagli e nei rapporti.
 
-Per informazioni sull&#39;area Preferenze progetto, vedere [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (oppure, se si utilizza Adobe Workfront Classic, vedere [Impostazione delle preferenze progetto](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
+Per informazioni sull&#39;area Preferenze progetto, vedere [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (oppure, se si utilizza Adobe Workfront Classic, vedere [Impostazione delle preferenze progetto](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Disponibile in questi ambienti:**
 
@@ -68,11 +68,11 @@ Quando ad esempio si sposta o si copia un&#39;attività con un vincolo Deve iniz
 
 Prima di questa modifica, il vincolo dell’attività diventa sempre Appena possibile.
 
-Per informazioni sullo spostamento delle attività, vedi [Sposta attività](../../../manage-work/tasks/manage-tasks/move-tasks.md) (o se utilizzi Adobe Workfront Classic, vedi [Spostamento delle attività](https://one.workfront.com/s/article/Moving-Tasks-2081996259)).
+Per informazioni sullo spostamento delle attività, vedi [Sposta attività](../../../manage-work/tasks/manage-tasks/move-tasks.md) (o se utilizzi Adobe Workfront Classic, vedi [Spostamento delle attività](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
-Per informazioni sulla copia delle attività, vedere [Copiare e duplicare le attività](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (oppure, se si utilizza Adobe Workfront Classic, vedere [Copiare e duplicare le attività](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605)).
+Per informazioni sulla copia delle attività, vedere [Copiare e duplicare le attività](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (oppure, se si utilizza Adobe Workfront Classic, vedere [Copiare e duplicare le attività](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
-Per una panoramica di tutti i vincoli di attività, vedere [Panoramica dei vincoli di attività](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (o se si utilizza Adobe Workfront Classic, vedere [Panoramica dei vincoli di attività](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
+Per una panoramica di tutti i vincoli di attività, vedere [Panoramica dei vincoli di attività](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (o se si utilizza Adobe Workfront Classic, vedere [Panoramica dei vincoli di attività](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Disponibile in questi ambienti:**
 

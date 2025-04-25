@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4162cfb7-d5e1-4152-857a-fc4a6eb09cd7
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2566'
 ht-degree: 0%
@@ -183,7 +183,7 @@ Alcune funzionalità sono state rilasciate prima della versione 2020.1 di. Per v
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#include" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Includere e identificare il testo tra virgolette in un commento o in una risposta di aggiornamento</a><!--
       <a href="https://experience.workfront.com/s/article/2020-1-Project-enhancements-1509887664?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Include and identify quoted text in an update comment or reply</a>
-     --> </p> <p>Quando si digita un commento, è possibile contrassegnarne una parte come testo citato per distinguerlo dal proprio commento. Utilizza il pulsante Citazione nell’editor di HTML.</p> </td> 
+     --> </p> <p>Quando si digita un commento, è possibile contrassegnarne una parte come testo citato per distinguerlo dal proprio commento. Utilizza il pulsante Blocca preventivo nell’editor di HTML.</p> </td> 
    <td> <p>Anteprima Beta: 27 febbraio 2020</p> <p>Versione di produzione: 26 marzo 2020</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -286,9 +286,9 @@ Alcune funzionalità sono state rilasciate prima della versione 2020.1 di. Per v
    <td> <p>Anteprima Beta: 10 marzo 2020</p> <p>Versione di produzione: con versione 2020.1 <span style="color: #ff0000;">(rimossa dalla versione)</span></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#the" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Ottimizzatore Portfolio di Flash rimosso</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#the" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Flash Portfolio Optimizer rimosso</a><!--
       <a href="https://experience.workfront.com/s/article/2020-1-Other-enhancements-1407923545?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">The Flash Portfolio Optimizer has been removed</a>
-     --> </p> <p>È stata rimossa la possibilità di passare dall’Ottimizzatore di Portfolio nuovo a quello legacy (basato su Flash) dall’ambiente Workfront Classic per tutti i clienti. Legacy Portfolio Optimizer è una funzione obsoleta e i nuovi strumenti forniscono oggi la stessa funzionalità.</p> </td> 
+     --> </p> <p>È stata rimossa la possibilità di passare, per tutti i clienti, dall’ambiente Workfront Classic a Portfolio Optimizer nuovo e legacy (basato su Flash). La versione precedente di Portfolio Optimizer è una funzione obsoleta e i nuovi strumenti forniscono oggi la stessa funzionalità.</p> </td> 
    <td> <p>Anteprima Beta: 27 febbraio 2020</p> <p>Versione di produzione: con la versione 2020.1</p> </td> 
   </tr> 
   <tr> 
@@ -343,7 +343,7 @@ Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versi
 * [Webinar sulla roadmap del prodotto per il primo trimestre](#q1-product-roadmap-webinar)
 * [Varie opzioni Single Sign-On da rimuovere](#various-single-sign-on-options-to-be-removed)
 * [Termina il supporto di TLS 1.0 e 1.1](#tls-1-0-and-1-1-support-is-ending)
-* [Rimozione applicazione di Flash](#flash-application-removal)
+* [Rimozione dell&#39;applicazione Flash](#flash-application-removal)
 
 ### Aggiunta di domini aggiuntivi al inserisco nell&#39;elenco Consentiti di accesso a Workfront {#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront}
 
@@ -358,7 +358,7 @@ Per ulteriori informazioni, vedere [Configurare il inserisco nell&#39;elenco Con
 
 Con Workfront One, potrai scoprire i contenuti, le risorse e le notizie più importanti da Workfront, il tutto in un&#39;unica posizione, con un unico accesso. Abbiamo unificato i siti Esperienza, Community e Formazione per facilitare la ricerca delle tue esigenze.
 
-[Ulteriori informazioni su Workfront One](https://www.workfront.com/campaigns/workfront-one).
+[Ulteriori informazioni su Workfront One](https://business.adobe.com/products/workfront.html).
 
 ### Webinar sulla versione 2020.1 {#2020-1-release-webinar}
 
@@ -435,11 +435,11 @@ Per garantire la sicurezza ottimale, Workfront richiede che tutte le integrazion
 
 Per ulteriori informazioni, vedere [TLS 1.2 richiesto in Adobe Workfront](../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md).
 
-### Rimozione applicazione di Flash {#flash-application-removal}
+### Rimozione dell&#39;applicazione Flash {#flash-application-removal}
 
-Tutte le funzionalità basate sulla tecnologia di Flash sono state rimosse da Workfront a partire dalla versione 2018.3 e sostituite con una nuova soluzione.
+Tutte le funzionalità basate sulla tecnologia Flash sono state rimosse da Workfront a partire dalla versione 2018.3 e sostituite con una nuova soluzione.
 
-Per informazioni dettagliate sugli strumenti di Flash legacy e sulle relative sostituzioni, vedere [Sostituzione degli strumenti basati sul Flash in Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Per informazioni dettagliate sugli strumenti Flash precedenti e sulle relative sostituzioni, vedere [Sostituzione degli strumenti basati su Flash in Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
 <!--
 <a href="https://experience.workfront.com/s/article/Replacement-of-Flash-Based-Tools-in-Workfront-194935493" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">

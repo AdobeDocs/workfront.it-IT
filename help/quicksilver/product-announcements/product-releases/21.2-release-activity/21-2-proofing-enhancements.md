@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 1f82c397-5cb6-4adc-bb84-f5b1e1ed9d5e
-source-git-commit: ea1248f7b5227bbab222b3616ff4222122964358
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
@@ -33,7 +33,7 @@ In precedenza, per visualizzare la decisione generale sulla bozza era necessario
 
 Per ulteriori informazioni sulle decisioni relative alle bozze, vedere [Area Documenti](../../../documents/managing-documents/documents-area.md).
 
-Questa funzionalità è ora inclusa nel percorso di apprendimento [Gestione di bozze e versioni nella nuova esperienza Workfront](https://one.workfront.com/s/learningpath3/manage-proofs-and-versions-in-the-new-workfront-experience-MCPBYNLTQSS5H4NG7C27IPCVR5YA) in Workfront One.
+Questa funzionalità è ora inclusa nel percorso di apprendimento [Gestione di bozze e versioni nella nuova esperienza Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
 
 ## Nuovi campi nel rapporto Proof Approval (Approvazione bozza)
 
@@ -45,7 +45,7 @@ Per rendere più visibili informazioni utili sulle prove, sono stati aggiunti i 
 
 Questi campi non fanno parte del rapporto predefinito. Devi aggiungerli se vuoi vederli.
 
-Questa funzionalità è ora inclusa nelle [impostazioni del sistema di bozze, Parte 2: Gestione dei flussi di lavoro](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA), percorso di apprendimento in Workfront One.
+Questa funzionalità è ora inclusa nelle [impostazioni del sistema di bozze, Parte 2: Gestione dei flussi di lavoro](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home), percorso di apprendimento in Workfront One.
 
 ## Riporta il flusso di lavoro della bozza esistente durante la generazione di una nuova versione
 

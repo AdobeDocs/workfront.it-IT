@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4e954d79-da5a-42f5-b43f-b1fdd17316d2
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 1%
@@ -29,7 +29,7 @@ Nell’ambito della riprogettazione delle caselle Nuova attività e Modifica att
 
 Per ulteriori informazioni, vedere [Creare attività ricorrenti](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
-Questa funzionalità è ora inclusa in [Planner - Nozioni di base per la nuova esperienza Workfront, parte 2: Pianificare un percorso di apprendimento per il progetto](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI) in Workfront One.
+Questa funzionalità è ora inclusa in [Planner - Nozioni di base per la nuova esperienza Workfront, parte 2: Pianificare un percorso di apprendimento per il progetto](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
 
 ## Nuovi pulsanti disponibili nell’intestazione Progetti
 
@@ -39,7 +39,7 @@ Questa funzionalità è ora inclusa in [Planner - Nozioni di base per la nuova e
 
 Per filtrare rapidamente l’elenco dei progetti nella pagina Progetti, nell’intestazione sono presenti due nuovi pulsanti che consentono di applicare rapidamente il filtro Progetti in corso o Progetti di cui sono proprietario.
 
-Questa funzionalità è ora inclusa in [Planner - Nozioni di base per la nuova esperienza Workfront, Parte 1: Creazione di un percorso di apprendimento Project](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE) in Workfront One.
+Questa funzionalità è ora inclusa in [Planner - Nozioni di base per la nuova esperienza Workfront, Parte 1: Creazione di un percorso di apprendimento Project](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
 
 ## Spostare o eliminare una storia o un problema dalla bacheca Scrum
 
@@ -133,9 +133,9 @@ Gli utenti possono ora visualizzare la formattazione del testo, ad esempio grass
 
 In precedenza, in Workfront Classic, la formattazione del testo era visibile solo negli elenchi Progetto, Attività e Ora.
 
-Per informazioni sulla formattazione del testo in un campo personalizzato, vedere [Creare un modulo personalizzato](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html).
+Per informazioni sulla formattazione del testo in un campo personalizzato, vedere [Creare un modulo personalizzato](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
-Per informazioni sulla visualizzazione delle informazioni negli elenchi, vedere [Introduzione agli elenchi](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fview-items-in-a-list.html&amp;_LANG=en).
+Per informazioni sulla visualizzazione delle informazioni negli elenchi, vedere [Introduzione agli elenchi](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 ## Casella Nuova attività di modifica
 

@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 5e841349-7d76-4ab9-9625-a0c53111bf35
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Per un elenco di tutte le modifiche disponibili con la versione 22.2, vedere [Pa
 
 ## È ora disponibile l’integrazione di Adobe Workfront con Anaplan
 
-Per offrirti una maggiore flessibilità e informazioni approfondite sugli aspetti finanziari dei tuoi progetti Workfront, Workfront ora può integrarsi con il tuo account Anaplan. Collegando oggetti Workfront a oggetti Anaplan, è possibile aggiornare automaticamente le informazioni tra i due account, assicurandosi che le informazioni in entrambi siano aggiornate e identiche. Puoi anche attivare processi automatizzati in Anaplan in base alle azioni in Workfront (o viceversa).
+Per offrirti maggiore flessibilità e insight negli aspetti finanziari dei tuoi progetti Workfront, Workfront ora può integrarsi con il tuo account Anaplan. Collegando oggetti Workfront a oggetti Anaplan, è possibile aggiornare automaticamente le informazioni tra i due account, assicurandosi che le informazioni in entrambi siano aggiornate e identiche. Puoi anche attivare processi automatizzati in Anaplan in base alle azioni in Workfront (o viceversa).
 
 Ad esempio, puoi creare una campagna in Anaplan, quindi un progetto o un programma Workfront collegato alla campagna. Tutti i costi tracciati in Workfront possono quindi essere caricati di nuovo su Anaplan per rivedere le prestazioni della campagna.
 
@@ -41,9 +41,9 @@ Altri flussi di lavoro per i quali si può considerare l’utilizzo dell’integ
 
 Per ulteriori informazioni, vedere [Adobe Workfront con Anaplan](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md).
 
-## Workfront, ad Experience Manager aggiornamenti di connettori avanzati
+## Aggiornamenti dei connettori avanzati di Workfront per Experience Manager
 
-Il connettore ottimizzato di Workfront ad Experience Manager ora include i seguenti aggiornamenti:
+Il connettore avanzato Workfront per Experience Manager ora include i seguenti aggiornamenti:
 
 * Ora puoi creare cartelle collegate tra Adobe Workfront e Adobe Experience Manager Assets as a Cloud Service anche in presenza di più configurazioni di cartelle collegate a un progetto.
 * È stato aggiunto il supporto per l’impaginazione dell’abbonamento agli eventi
@@ -51,11 +51,11 @@ Il connettore ottimizzato di Workfront ad Experience Manager ora include i segue
 * È stato aggiunto il supporto per ambienti proxy
 * Diverse correzioni di bug in base al feedback ricevuto da partner e clienti
 
-Per ulteriori informazioni, vedere [Workfront, ad Experience Manager Panoramica del connettore avanzato](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md).
+Per ulteriori informazioni, consulta [Panoramica del connettore avanzato di Workfront per Experience Manager](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md).
 
 >[!NOTE]
 >
->L’implementazione e la configurazione di questo connettore richiedono un partner certificato. Per ulteriori informazioni, vedere [Installare Workfront per Experience Manager connettore avanzato](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install.html?lang=en#).
+>L’implementazione e la configurazione di questo connettore richiedono un partner certificato. Per ulteriori informazioni, vedere [Installare il connettore avanzato di Workfront per Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install).
 
 ## Le integrazioni Adobe Creative Cloud ora utilizzano OAuth2
 

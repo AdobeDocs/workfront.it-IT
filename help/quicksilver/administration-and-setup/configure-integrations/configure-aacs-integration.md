@@ -6,7 +6,7 @@ description: Puoi collegare il tuo lavoro al contenuto in [!DNL Experience Manag
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 25d250e7be17773117761aa739b8e4804c6fc55a
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1708'
 ht-degree: 0%
@@ -121,7 +121,7 @@ Prima di iniziare la mappatura dei campi di metadati, è necessario configurare 
 
 Per configurare i campi metadati:
 
-1. Configura uno schema metadati in [!DNL Experience Manager Assets] come spiegato in [Configura la mappatura dei metadati delle risorse tra Adobe [!DNL Workfront] e [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+1. Configura uno schema metadati in [!DNL Experience Manager Assets] come spiegato in [Configura la mappatura dei metadati delle risorse tra Adobe [!DNL Workfront] e [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. Configurare i campi modulo personalizzati in Workfront. [!DNL Workfront] contiene molti campi personalizzati incorporati che è possibile utilizzare. Tuttavia, puoi anche creare campi personalizzati come descritto in [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
@@ -151,7 +151,7 @@ Puoi mappare qualsiasi campo supportato da Workfront a un tag in Experience Mana
 
 Dopo aver creato i tag in Experience Manager Assets, vengono visualizzati nel menu a discesa Tag della sezione Metadati. Per collegare un campo a un tag, selezionare `xcm:keywords` nel menu a discesa del campo Experience Manager Assets nell&#39;area di mappatura dei metadati.
 
-Per ulteriori informazioni sui tag in Experience Manager Assets, tra cui come creare e gestire i tag, vedere [Amministrazione dei tag](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html).
+Per ulteriori informazioni sui tag in Experience Manager Assets, tra cui come creare e gestire i tag, vedere [Amministrazione dei tag](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags).
 
 **Campi schema metadati personalizzati Experience Manager Assets**
 
@@ -251,7 +251,7 @@ I flussi di lavoro sono abilitati e configurati per Adobe Experience Manager nel
 Nell’integrazione di Adobe Experience Manager sono disponibili i seguenti flussi di lavoro:
 
 * [Creare cartelle collegate a Adobe Experience Manager](#create-adobe-experience-manager-linked-folders)
-* [Risorse Publish inviate ad Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
+* [Pubblicare le risorse inviate ad Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
 
 ### Creare cartelle collegate a Adobe Experience Manager
 
@@ -282,7 +282,7 @@ Nell’integrazione di Adobe Experience Manager sono disponibili i seguenti flus
    1. (Facoltativo) Per eliminare una cartella, selezionarla e fare clic sull&#39;icona **Elimina cartella** ![Elimina cartella](assets/delete-folder.png).
 1. (Condizionale) Per aggiungere un&#39;altra struttura di cartelle, fare clic su **+ Aggiungi struttura di cartelle** e seguire la procedura descritta nel passaggio 5.
 
-1. Fai clic su **[!UICONTROL Salva]** o passa alle [risorse Publish inviate ad Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) in questo articolo.
+1. Fai clic su **[!UICONTROL Salva]** o passa alla sezione [Pubblica risorse inviate ad Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) in questo articolo.
 
 >[!NOTE]
 >
@@ -291,9 +291,9 @@ Nell’integrazione di Adobe Experience Manager sono disponibili i seguenti flus
 >* Se non viene fornita alcuna struttura di cartelle, la cartella principale diventa la cartella collegata.
 
 
-### Risorse Publish inviate ad Adobe Experience Manager Assets
+### Pubblicare le risorse inviate ad Adobe Experience Manager Assets
 
-1. Attiva automaticamente **[!UICONTROL risorse Publish]**.
+1. Attiva **[!UICONTROL Pubblica automaticamente risorse]**.
 1. Seleziona la casella accanto al percorso in cui desideri pubblicare le risorse inviate alle risorse Adobe Experience Manager. Puoi abilitare una o entrambe le opzioni.
 1. (Condizionale) Se hai attivato l’opzione Brand Portal, seleziona il Brand Portal in cui desideri pubblicare le risorse.
 1. Fai clic su **[!UICONTROL Salva]** o passa alla sezione [Configura cartelle collegate (facoltativo)](#set-up-linked-folders-optional) in questo articolo.

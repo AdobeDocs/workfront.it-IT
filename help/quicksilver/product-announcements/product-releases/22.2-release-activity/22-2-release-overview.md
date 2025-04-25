@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e490a955-b2cb-4b9b-9794-12ff2a2c2338
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3974'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Panoramica sulla versione 22.2
 
-Questa pagina fornisce informazioni sulle funzionalità incluse nella versione 22.2 di. Tutte le funzioni elencate sono disponibili nella nuova esperienza Adobe Workfront. Alcune funzionalità sono disponibili anche in Adobe Workfront Classic; tuttavia, [Workfront Classic verrà interrotto a marzo 2022](https://one.workfront.com/s/new-workfront-experience), seguito a breve dalla data di fine del ciclo di vita di Workfront Classic a luglio 2022.
+Questa pagina fornisce informazioni sulle funzionalità incluse nella versione 22.2 di. Tutte le funzioni elencate sono disponibili nella nuova esperienza Adobe Workfront. Alcune funzionalità sono disponibili anche in Adobe Workfront Classic; tuttavia, [Workfront Classic verrà interrotto a marzo 2022](https://experienceleague.adobe.com/en/docs/workfront/using/home), seguito a breve dalla data di fine del ciclo di vita di Workfront Classic a luglio 2022.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -123,7 +123,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>Disponibile in questi ambienti:</strong> </p> 
     <ul> 
      <li> <p>La nuova esperienza Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic verrà interrotto a marzo 2022</a>, seguito a breve dalla data di fine del ciclo di vita per Workfront Classic a luglio 2022.)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic verrà interrotto a marzo 2022</a>, seguito a breve dalla data di fine del ciclo di vita per Workfront Classic a luglio 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -217,7 +217,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     <ul> 
      <li> <p>Per più progetti alla volta:</p> </li> 
      <li> <p>Ricalcola la timeline</p> </li> 
-     <li> <p>Ricalcola Finanze</p> </li> 
+     <li> <p>Ricalcola finanze</p> </li> 
      <li> <p>Ricalcolare Espressioni Customizzate</p> </li> 
      <li> <p>Per un singolo progetto:</p> </li> 
      <li> <p>Allega Modello</p> </li> 
@@ -291,7 +291,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>Disponibile in questi ambienti:</strong> </p> 
     <ul> 
      <li> <p>La nuova esperienza Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic verrà interrotto a marzo 2022</a>, seguito a breve dalla data di fine del ciclo di vita per Workfront Classic a luglio 2022.)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic verrà interrotto a marzo 2022</a>, seguito a breve dalla data di fine del ciclo di vita per Workfront Classic a luglio 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -303,7 +303,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>Disponibile in questi ambienti:</strong> </p> 
     <ul> 
      <li> <p>La nuova esperienza Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic verrà interrotto a marzo 2022</a>, seguito a breve dalla data di fine del ciclo di vita per Workfront Classic a luglio 2022.)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic verrà interrotto a marzo 2022</a>, seguito a breve dalla data di fine del ciclo di vita per Workfront Classic a luglio 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -357,7 +357,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>Disponibile in questi ambienti:</strong> </p> 
     <ul> 
      <li> <p>La nuova esperienza Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic verrà interrotto a marzo 2022</a>, seguito a breve dalla data di fine del ciclo di vita per Workfront Classic a luglio 2022.)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic verrà interrotto a marzo 2022</a>, seguito a breve dalla data di fine del ciclo di vita per Workfront Classic a luglio 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -440,7 +440,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#adobe" class="MCXref xref" xrefformat="{para}">È ora disponibile l'integrazione di Adobe Workfront con Anaplan</a> </p> <p>Per offrirti una maggiore flessibilità e informazioni approfondite sugli aspetti finanziari dei tuoi progetti Workfront, Workfront ora può integrarsi con il tuo account Anaplan. Collegando oggetti Workfront a oggetti Anaplan, è possibile aggiornare automaticamente le informazioni tra i due account, assicurandosi che le informazioni in entrambi siano aggiornate e identiche. </p> <p>Puoi anche attivare processi automatizzati in Anaplan in base alle azioni in Workfront (o viceversa).</p> <p>Ad esempio, puoi creare una campagna in Anaplan, quindi un progetto o un programma Workfront collegato alla campagna. Tutti i costi tracciati in Workfront possono quindi essere caricati di nuovo su Anaplan per rivedere le prestazioni della campagna.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#adobe" class="MCXref xref" xrefformat="{para}">È ora disponibile l'integrazione di Adobe Workfront con Anaplan</a> </p> <p>Per offrirti maggiore flessibilità e insight negli aspetti finanziari dei tuoi progetti Workfront, Workfront ora può integrarsi con il tuo account Anaplan. Collegando oggetti Workfront a oggetti Anaplan, è possibile aggiornare automaticamente le informazioni tra i due account, assicurandosi che le informazioni in entrambi siano aggiornate e identiche. </p> <p>Puoi anche attivare processi automatizzati in Anaplan in base alle azioni in Workfront (o viceversa).</p> <p>Ad esempio, puoi creare una campagna in Anaplan, quindi un progetto o un programma Workfront collegato alla campagna. Tutti i costi tracciati in Workfront possono quindi essere caricati di nuovo su Anaplan per rivedere le prestazioni della campagna.</p> </td> 
    <td><strong>Disponibile in queste date:</strong> 
     <ul> 
      <li> <p>Versione di anteprima: 10 marzo 2022<br></p> </li> 
@@ -451,7 +451,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#workfron" class="MCXref xref" xrefformat="{para}">Workfront, ad Experience Manager aggiornamenti del connettore avanzato</a> </p> <p>Il connettore ottimizzato di Workfront ad Experience Manager ora include i seguenti aggiornamenti:</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#workfron" class="MCXref xref" xrefformat="{para}">Aggiornamenti del connettore avanzato di Workfront per Experience Manager</a> </p> <p>Il connettore avanzato Workfront per Experience Manager ora include i seguenti aggiornamenti:</p> 
     <ul> 
      <li> <p>Ora puoi creare cartelle collegate tra Adobe Workfront e Adobe Experience Manager Assets as a Cloud Service anche in presenza di più configurazioni di cartelle collegate a un progetto.</p> </li> 
      <li> <p>È stato aggiunto il supporto per l’impaginazione dell’abbonamento agli eventi</p> </li> 
@@ -552,7 +552,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-other-enhancements.md#enhancem" class="MCXref xref" xrefformat="{para}">Miglioramenti alla barra di navigazione superiore</a> </p> <p>Sono stati apportati diversi miglioramenti alla barra di navigazione superiore di Adobe Workfront.</p> 
     <ul> 
      <li> <p>Preferiti e Recenti ora dispongono di icone separate nella barra di navigazione superiore. Ogni pagina visualizza ancora lo stesso contenuto (le pagine contrassegnate come preferite e quelle visitate di recente) e puoi continuare ad aggiungere e rimuovere le pagine preferite nello stesso modo.</p> </li> 
-     <li> <p>L'aspetto di entrambi i pin e del menu principale è stato aggiornato agli standard di progettazione Adobe, inclusi colori e font. Il modo in cui aggiungi e rimuovi i pin e le aree a cui hai accesso nel menu principale non sono cambiati.</p> </li> 
+     <li> <p>L’aspetto di entrambi i pin e del menu principale è stato aggiornato agli standard di progettazione Adobe, inclusi colori e font. Il modo in cui aggiungi e rimuovi i pin e le aree a cui hai accesso nel menu principale non sono cambiati.</p> </li> 
      <li> <p>Le icone sulla destra della barra di navigazione superiore sono state riordinate per essere più intuitive. L’ordine delle icone è: collegamento della guida, notifiche, preferiti, recenti, ricerca, menu principale.</p> </li> 
     </ul> </td> 
    <td><strong>Disponibile in queste date:</strong> 
@@ -620,7 +620,7 @@ Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianific
 
 ## Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione apportati durante la versione 22.2, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Per informazioni sugli aggiornamenti di manutenzione apportati durante la versione 22.2, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ## Webinar sulla versione 22.2
 
@@ -653,7 +653,7 @@ was presented on January 12, 2022. You can view the webinar recording on the
 
 ## Aggiornamenti dei corsi di formazione
 
-Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione di Adobe Workfront. Per ulteriori informazioni, vedere la [pagina Aggiornamenti delle versioni di formazione](https://one.workfront.com/s/training-release-updates).
+Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione di Adobe Workfront. Per ulteriori informazioni, vedere la [pagina Aggiornamenti delle versioni di formazione](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ## Funzionalità non più supportata
 

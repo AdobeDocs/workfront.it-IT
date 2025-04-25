@@ -2,11 +2,11 @@
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
 title: Creazione di attività e problemi da Slack
-description: Dopo aver installato e configurato [!DNL Adobe Workfront] per lo Slack, puoi creare attività e problemi da Slack e associarli ai progetti in Workfront.
+description: Dopo aver installato e configurato [!DNL Adobe Workfront] per Slack, puoi creare attività e problemi da Slack e associarli ai progetti in Workfront.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cf4a514a-fe69-4c2f-8e35-5738dfaab24e
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Dopo aver installato e configurato [!DNL Adobe Workfront for Slack], puoi creare
 
 Per ulteriori informazioni sulla configurazione di [!DNL Workfront] con [!DNL Slack], vedere [Configura [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
-Devi avere l&#39;accesso per creare attività e problemi nel tuo livello di accesso e devi disporre di [!UICONTROL autorizzazioni Contribute] sul progetto a cui stai associando.
+Devi avere accesso per creare attività e problemi nel tuo livello di accesso e devi disporre di [!UICONTROL autorizzazioni Contribute] sul progetto a cui stai associando.
 
 Per ulteriori informazioni sui livelli di accesso, vedere [Panoramica sui livelli di accesso](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md). Per ulteriori informazioni sulle autorizzazioni per gli oggetti, vedere [Panoramica sulle autorizzazioni di condivisione per gli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
@@ -34,7 +34,7 @@ Devi avere i seguenti:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] piano]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] piano]</a>*</td> 
    <td> <p>[!UICONTROL Pro] o versione successiva</p> </td> 
   </tr> 
  </tbody> 

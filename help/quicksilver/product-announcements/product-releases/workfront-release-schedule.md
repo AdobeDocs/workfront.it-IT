@@ -8,7 +8,7 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Per ulteriori informazioni sui processi di rilascio trimestrali e rapidi, vedere
 
 ### Aggiornamenti di manutenzione
 
-Le correzioni dei problemi relativi al prodotto Adobe Workfront sono rese disponibili nell’ambiente di produzione ogni settimana. Visita la pagina [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) per visualizzare gli ultimi aggiornamenti.
+Le correzioni dei problemi relativi al prodotto Adobe Workfront sono rese disponibili nell’ambiente di produzione ogni settimana. Visita la pagina [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates) per visualizzare gli ultimi aggiornamenti.
 
 ## Funzioni rimosse da una versione pianificata
 

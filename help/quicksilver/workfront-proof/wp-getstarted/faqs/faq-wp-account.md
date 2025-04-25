@@ -8,7 +8,7 @@ description: Per aprire un nuovo account, vai alla pagina di iscrizione alla ver
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 47092717-3895-40a3-9db1-0009638e2544
-source-git-commit: d5ffd576fcedf9b10dce5e5d5bd9245dd7f67ef8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## Come si apre un nuovo account [!DNL Workfront Proof]?
 
-Per aprire un nuovo account, passare alla [pagina di iscrizione di prova](https://www.proofhq.com/html/free-trial.html) e aprire un account di prova. Un membro del nostro team ti contatterà per aiutarti a iniziare a utilizzare [!DNL Workfront Proof].
+Per aprire un nuovo account, passare alla [pagina di iscrizione di prova](https://business.adobe.com/products/workfront/proofing-approvals.html) e aprire un account di prova. Un membro del nostro team ti contatterà per aiutarti a iniziare a utilizzare [!DNL Workfront Proof].
 
 Se conosci già il sistema e desideri iscriverti a un piano a pagamento, vai a *[!UICONTROL Impostazioni]* *>* *[!UICONTROL Fatturazione]* e aggiorna il tuo account a uno dei nostri piani a pagamento.
 

@@ -3,11 +3,11 @@ title: Panoramica di analisi avanzate
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: Le funzioni di analisi avanzate sono uno strumento potente di Adobe Workfront con visualizzazioni predefinite che consentono di esaminare i dati dei progetti e identificare le tendenze con la pianificazione e il completamento. Questo approfondimento sui tuoi progetti ti aiuta a gestire il lavoro corrente e ti consente di pianificare in modo più accurato il lavoro futuro.
+description: Le funzioni di analisi avanzate sono uno strumento potente di Adobe Workfront con visualizzazioni predefinite che consentono di esaminare i dati dei progetti e identificare le tendenze con la pianificazione e il completamento. Questo insight nei tuoi progetti ti aiuta a gestire il lavoro corrente e ti consente di pianificare in modo più accurato il lavoro futuro.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 3%
@@ -21,7 +21,7 @@ ht-degree: 3%
 >Le funzioni di analisi avanzate verranno rimosse da Workfront la settimana del 26 maggio. Workfront Data Connect è una soluzione nuova e alternativa che può essere utilizzata per replicare qualsiasi visualizzazione avanzata di Analytics attualmente in uso. <br>Per ulteriori informazioni, consulta la [Guida all&#39;obsolescenza di Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
 
 
-Le funzioni di analisi avanzate sono uno strumento potente di Adobe Workfront con visualizzazioni predefinite che consentono di esaminare i dati dei progetti e identificare le tendenze con la pianificazione e il completamento. Questo approfondimento sui tuoi progetti ti aiuta a gestire il lavoro corrente e ti consente di pianificare in modo più accurato il lavoro futuro.
+Le funzioni di analisi avanzate sono uno strumento potente di Adobe Workfront con visualizzazioni predefinite che consentono di esaminare i dati dei progetti e identificare le tendenze con la pianificazione e il completamento. Questo insight nei tuoi progetti ti aiuta a gestire il lavoro corrente e ti consente di pianificare in modo più accurato il lavoro futuro.
 
 Le funzioni di analisi avanzate consentono di identificare:
 
@@ -34,7 +34,7 @@ Le funzioni di analisi avanzate consentono di identificare:
 
 ![Analytics](assets/nwe-full-screen-analytics-350x222.png)
 
-Per visualizzare i casi d&#39;uso o per ulteriori informazioni sulla gestione del lavoro corrente e sulla pianificazione per il lavoro futuro con le analisi avanzate, consulta [Percorsi di apprendimento delle analisi avanzate](https://one.workfront.com/s/enhanced-analytics-program).
+Per visualizzare i casi d&#39;uso o per ulteriori informazioni sulla gestione del lavoro corrente e sulla pianificazione per il lavoro futuro con le analisi avanzate, consulta [Percorsi di apprendimento delle analisi avanzate](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ## Prerequisiti
 
@@ -42,11 +42,11 @@ Per accedere all’area Analisi avanzata, è necessario:
 
 * Avere un piano aziendale o aziendale.
 
-  Per ulteriori informazioni, vedere [Piani Workfront](https://www.workfront.com/plans).
+  Per ulteriori informazioni, vedere [Piani Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 * Chiedi all’amministratore di Workfront di aggiungere analisi avanzate al modello di layout.
 
-  Per ulteriori informazioni, vedere [Analisi avanzate: aggiunta di analisi ai modelli di layout](https://one.workfront.com/s/managed-content-videos/enhanced-analytics-adding-analytics-to-layout-templates-MCH7URDSIXRREHHHF7TRTYYP2LTE).
+  Per ulteriori informazioni, vedere [Analisi avanzate: aggiunta di analisi ai modelli di layout](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 Per visualizzare le informazioni relative ai progetti e alle attività, è necessario:
 
@@ -139,7 +139,7 @@ Se si utilizza un software per la lettura dello schermo o un plug-in, l&#39;assi
 
 ## Visualizzazioni e funzioni di analisi migliorate
 
-Per ulteriori informazioni sui dettagli di una funzione specifica in Analisi avanzate, sulle azioni che puoi completare per ottenere ulteriori informazioni e su cosa puoi imparare da questi dati, consulta i seguenti articoli:
+Per ulteriori informazioni sui dettagli di una funzione specifica in Analisi avanzate, sulle azioni che puoi completare per sviluppare ulteriormente insight e su cosa puoi imparare da questi dati, consulta i seguenti articoli:
 
 <table style="table-layout:auto"> 
  <col> 

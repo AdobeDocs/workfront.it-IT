@@ -5,7 +5,7 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: df24d13e-d9ff-4c04-8669-9e0b6e4f6501
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%
@@ -29,10 +29,10 @@ In questa prima versione, il processo di approvazione è stato semplificato sia 
 * Prendi decisioni di approvazione direttamente da My Updates and Home
 * Creare approvazioni per specifiche versioni di documenti
 
-Per ulteriori informazioni sull&#39;utilizzo delle nuove approvazioni dei documenti, vedere [Panoramica sulle nuove approvazioni dei documenti](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.html).
+Per ulteriori informazioni sull&#39;utilizzo delle nuove approvazioni dei documenti, vedere [Panoramica sulle nuove approvazioni dei documenti](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview).
 
 ## Pulsante Nuova condivisione
 
 L’opzione Condividi è stata rimossa dal menu Altro per consentire la condivisione di progetti, attività e problemi in modo più intuitivo. Il nuovo pulsante Condividi ora viene visualizzato accanto al nome di un oggetto prima del menu Altro. La condivisione di documenti, portfolio e programmi rimane invariata.
 
-Per ulteriori informazioni sulla condivisione degli oggetti, vedere [Condividere un oggetto](https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/share-an-object.html).
+Per ulteriori informazioni sulla condivisione degli oggetti, vedere [Condividere un oggetto](https://experienceleague.adobe.com/en/docs/workfront/using/basics/grant-request-object-permissions/share-an-object).

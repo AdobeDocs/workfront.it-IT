@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd8fcafc-00cc-4025-b2d3-e3a6f12e40fc
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Nella nuova esperienza Workfront, nel menu principale viene visualizzata l’opz
 
 In Workfront Classic, l’opzione Passa alla nuova esperienza viene visualizzata nel menu visualizzato quando si fa clic sull’immagine del profilo nell’angolo in alto a destra della barra di navigazione globale.
 
-Questa funzionalità è ora inclusa in [Nozioni di base per gli amministratori, parte 1, percorso di apprendimento](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) in Workfront One.
+Questa funzionalità è ora inclusa in [Nozioni di base per gli amministratori, parte 1, percorso di apprendimento](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
 
 ## Crittografia migliorata per Workfront Proof
 
@@ -62,7 +62,7 @@ Inoltre, nota il nostro stile moderno che ora migliora l’esperienza di configu
 
 Per informazioni sulla configurazione delle notifiche e-mail, vedere [Configurare le notifiche degli eventi per tutti gli utenti del sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-Questa funzionalità è ora inclusa nel percorso di apprendimento [Notifiche e-mail e in-app](https://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-20Y4X000000CaZGUA0) in Workfront One.
+Questa funzionalità è ora inclusa nel percorso di apprendimento [Notifiche e-mail e in-app](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
 
 ## Nuovi oggetti API che attivano gli aggiornamenti delle sottoscrizioni di eventi
 

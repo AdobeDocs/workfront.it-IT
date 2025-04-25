@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1525'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Nell’area Registri di controllo, ora puoi tenere traccia e risolvere i problem
 
 Per ulteriori informazioni, vedere [Registri di controllo](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
-Questa funzionalità è ora inclusa in [Nozioni di base dell&#39;amministratore per la nuova esperienza Workfront, Parte 2: Percorso di apprendimento della configurazione del progetto](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) in Workfront One.
+Questa funzionalità è ora inclusa in [Nozioni di base dell&#39;amministratore per la nuova esperienza Workfront, Parte 2: Percorso di apprendimento della configurazione del progetto](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
 
 ## Per gli amministratori di gruppi: controlli migliorati per lo spostamento dei sottogruppi e barra degli strumenti aggiornata
 
@@ -137,7 +137,7 @@ In precedenza, queste impostazioni predefinite non potevano essere personalizzat
 
 Per ulteriori informazioni, vedere [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-Questa funzionalità è ora inclusa in [Nozioni di base per gli amministratori nella nuova esperienza Workfront, parte 3: esperienza di controllo e interfaccia](https://one.workfront.com/s/learningpath3/administrator-fundamentals-control-and-interface-experience-MCNCSSMXLPDFEERGVEM4EWL2I4LI) nel percorso di apprendimento di Workfront One.
+Questa funzionalità è ora inclusa in [Nozioni di base per gli amministratori nella nuova esperienza Workfront, parte 3: esperienza di controllo e interfaccia](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) nel percorso di apprendimento di Workfront One.
 
 ## Novità per gli amministratori: elenco semplice dei rapporti che attualmente utilizzano un campo personalizzato
 

@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aa6cfba2-d1df-4d7c-975b-2ae0e63b6d85
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Per ulteriori informazioni, vedere [Consentire agli utenti di inviare un problem
 
 Per ulteriori informazioni sul motivo di questa modifica, vedere [Nuovo sistema gestito da Adobe Workfront per sostituire POP email for Request Queues con 21.1](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
 
-Questa funzionalità è ora inclusa in [Gestione code nel nuovo percorso di apprendimento di Workfront](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE) in Workfront One.
+Questa funzionalità è ora inclusa in [Gestione code nel nuovo percorso di apprendimento di Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
 
 ## Limita la modifica delle ore nelle schede orario
 

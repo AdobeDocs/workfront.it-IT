@@ -2,11 +2,11 @@
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
 title: Accedi ai tuoi preferiti e agli elementi recenti da [!DNL Slack]
-description: Dopo aver installato e configurato [!DNL Adobe Workfront] per lo Slack, è possibile visualizzare i Preferiti e gli Elementi recenti di Workfront e accedere agli elementi da entrambi gli elenchi da Slack.
+description: Dopo aver installato e configurato [!DNL Adobe Workfront] per Slack, puoi visualizzare i Preferiti e gli Elementi recenti di Workfront e accedere agli elementi da entrambi gli elenchi da Slack.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4bf62192-66fe-42a7-b8c0-23b7bdef45e8
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Devi avere i seguenti:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] piano]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] piano]</a>*</td> 
    <td> <p>[!UICONTROL Pro] o versione successiva</p> </td> 
   </tr> 
  </tbody> 

@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 95e75a28-5ac2-4d1d-acc3-dbc0b295b28f
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 1%
@@ -27,7 +27,7 @@ Per condividere più facilmente lo stato e l’avanzamento di un progetto, ora p
 
 Per ulteriori informazioni, vedere [Panoramica delle metriche del progetto](../../../manage-work/projects/manage-projects/project-metrics.md).
 
-Questa funzionalità è ora inclusa in [Planner - Nozioni di base per la nuova esperienza Workfront, Parte 3: Gestire un percorso di apprendimento Project](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-MCG6OJL724XRBLHBXEAKGAUZOJ6U) in Workfront One.
+Questa funzionalità è ora inclusa in [Planner - Nozioni di base per la nuova esperienza Workfront, Parte 3: Gestire un percorso di apprendimento Project](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
 
 ## Aggiorna la percentuale di completamento del problema quando il progetto o l’attività viene convertito dall’aggiornamento del problema
 
@@ -41,9 +41,9 @@ Per consentirti di gestire le richieste inviate in modo più semplice e coerente
 
 Per informazioni su come individuare le richieste inviate, vedere [Individuare le richieste inviate](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Questa funzionalità è ora inclusa in [Nozioni di base di Collaborator per il nuovo percorso di apprendimento di Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) in Workfront One.
+Questa funzionalità è ora inclusa in [Nozioni di base di Collaborator per il nuovo percorso di apprendimento di Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) in Workfront One.
 
-Questa funzionalità è ora inclusa nelle [richieste nel nuovo percorso di apprendimento di Workfront](https://one.workfront.com/s/learningpath3/core-team-requests-in-the-new-workfront-experience-MCHWSSDWRFC5EKXFBXTQ6MJNKE7E) in Workfront One.
+Questa funzionalità è ora inclusa nelle [richieste nel nuovo percorso di apprendimento di Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/request-queues/understand-request-queues) in Workfront One.
 
 ## Campi rimossi dalla pagina Nuova richiesta
 

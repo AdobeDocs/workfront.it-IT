@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1831'
 ht-degree: 0%
@@ -225,7 +225,7 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guardare
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Miglioramenti di Workfront per Experience Manager Assets e Assets Essentials</a></p>
                         [!BADGE In produzione ]{type=Informative}
-                        <p>Sono stati apportati i seguenti miglioramenti alle integrazioni di Workfront for Experience Manager Assets e Assets Essentials:</p>
+                        <p>Sono stati apportati i seguenti miglioramenti alle integrazioni Workfront per Experience Manager Assets e Assets Essentials:</p>
                         <ul>
                             <li><p>L’integrazione ora supporta GCP come provider di servizi cloud. In precedenza, AWS e Azure erano supportati.</p></li>
                             <li><p>Il limite di dimensione per i file inviati ad Experience Manager tramite l’integrazione è aumentato a 30 GB. In precedenza, il limite era di 5 GB.</p></li>
@@ -425,7 +425,7 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guardare
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Esperienza unificata Adobe ora disponibile per altre organizzazioni Workfront</a></p>
                         [!BADGE In produzione ]{type=Informative}
-                        <p>Per consentire alle organizzazioni di accedere ai vantaggi di Adobe Unified Experience, abbiamo iniziato a renderla disponibile ai clienti Workfront esistenti. </p>
+                        <p>Per consentire alle organizzazioni di accedere ai vantaggi dell’esperienza unificata di Adobe, abbiamo iniziato a renderla disponibile ai clienti Workfront esistenti. </p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -436,7 +436,7 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guardare
                                 <p>Produzione per clienti specifici: con la versione 24.7 (18 luglio 2024)</p>
                             </li>
                          </ul>
-                         <span style="color: #ff0000;">Adobe Unified Shell è disponibile in un rollout graduale. Altre organizzazioni saranno integrate in Adobe Unified Shell con le versioni 24.10 e 25.1. </p>
+                         <span style="color: #ff0000;">Adobe Unified Shell è stato reso disponibile in un rollout graduale. Con le versioni 24.10 e 25.1, in Adobe Unified Shell verranno integrate ulteriori organizzazioni. </p>
                     </td>
                 </tr>
                 <tr>
@@ -523,8 +523,8 @@ Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianific
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del terzo trimestre 2024, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del terzo trimestre 2024, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Aggiornamenti dei corsi di formazione
 
-Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione di Adobe Workfront. Per ulteriori informazioni, vedere la sezione &quot;Novità&quot; della [pagina Tutorials di Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=it).
+Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione di Adobe Workfront. Per ulteriori informazioni, vedere la sezione &quot;Novità&quot; della [pagina delle esercitazioni di Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).

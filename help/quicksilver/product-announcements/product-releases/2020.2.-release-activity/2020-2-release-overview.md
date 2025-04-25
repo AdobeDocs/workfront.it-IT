@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 88a97b1e-4052-485e-8566-963c6ba640b9
-source-git-commit: 99aac8d1621370f901704f58affd9e3e18497c4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2544'
 ht-degree: 0%
@@ -267,7 +267,7 @@ Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versi
 
 A partire dal 20 maggio 2020, Workfront inizierà a rendere disponibili le funzionalità nell’ambiente di anteprima su base settimanale. Prima di questa modifica, in genere la funzionalità veniva rilasciata nell’ambiente di anteprima ogni due settimane.
 
-Per ulteriori informazioni, consulta [Domande frequenti sulla modifica della cadenza di rilascio dell&#39;anteprima di Workfront](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)
+Per ulteriori informazioni, consulta [Domande frequenti sulla modifica della cadenza di rilascio dell&#39;anteprima di Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/home)
 
 ### Aggiunta di domini aggiuntivi al inserisco nell&#39;elenco Consentiti di accesso a Workfront {#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront}
 
@@ -282,7 +282,7 @@ Per ulteriori informazioni, vedere la sezione [Configurare il inserisco nell&#39
 
 Con Workfront One, potrai scoprire i contenuti, le risorse e le notizie più importanti da Workfront, il tutto in un&#39;unica posizione, con un unico accesso. Abbiamo unificato i siti Esperienza, Community e Formazione per facilitare la ricerca delle tue esigenze.
 
-[Ulteriori informazioni su Workfront One](https://www.workfront.com/campaigns/workfront-one).
+[Ulteriori informazioni su Workfront One](https://business.adobe.com/products/workfront.html).
 
 ### Webinar sulla versione 2020.1 {#2020-1-release-webinar}
 
@@ -292,4 +292,4 @@ Visualizza la registrazione del webinar sulla versione 2020.1 [qui](https://webi
 
 Ulteriori informazioni su cosa verrà presentato durante il webinar [Q1 Roadmap](https://webinars.on24.com/workfront/product_roadmap032620?partnerref=announcementcenter). Questo webinar si è tenuto il 26 marzo 2020. Fai clic sul collegamento per registrarti e guardare la registrazione su richiesta.
 
-Prova
+Test

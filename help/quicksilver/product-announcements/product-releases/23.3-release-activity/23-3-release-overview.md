@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2799'
 ht-degree: 0%
@@ -421,7 +421,7 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. Puoi [r
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Visualizza e gestisci le notifiche Workfront da Workfront per i plug-in Creative Cloud</a></p> 
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Visualizza e gestisci le notifiche Workfront dai plug-in di Workfront for Creative Cloud</a></p> 
                         <p>Per semplificare la ricezione delle notifiche necessarie, è possibile visualizzare e gestire le notifiche di Workfront senza uscire da Adobe Creative Cloud. Ora puoi visualizzare le notifiche, nonché accedere agli elementi di lavoro e ai commenti relativi a tali notifiche direttamente dalla finestra del plug-in Workfront all’interno dell’applicazione Creative Cloud.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -486,7 +486,7 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. Puoi [r
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Mappatura dei campi di Workfront con campi di metadati Experience Manager Assets personalizzati</a></p>
-                        <p>Con l’integrazione nativa, ora puoi mappare i campi Workfront nativi e incorporati ai campi dello schema di metadati personalizzati in Experience Manager Assets as a Cloud Service.</p>
+                        <p>Con l’integrazione nativa, ora è possibile mappare i campi Workfront nativi e incorporati ai campi dello schema di metadati personalizzati in Experience Manager Assets as a Cloud Service.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -501,8 +501,8 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. Puoi [r
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Regola le impostazioni del modello di flusso di lavoro per bozza automatizzata con Adobe Workfront for Creative Cloud</a></p>
-                        <p>È ora possibile modificare le impostazioni del modello di workflow automatizzato esistente direttamente nella Creative Cloud.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Regola le impostazioni del modello di flusso di lavoro per bozza automatizzata con Adobe Workfront per Creative Cloud</a></p>
+                        <p>È ora possibile modificare le impostazioni del modello di flusso di lavoro automatico esistente direttamente in Creative Cloud.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -768,11 +768,11 @@ Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianific
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione apportati durante la versione 22.3, vedere [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Per informazioni sugli aggiornamenti di manutenzione apportati durante la versione 22.3, vedere [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Aggiornamenti dei corsi di formazione
 
-Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione di Adobe Workfront. Per ulteriori informazioni, vedere la sezione &quot;Novità&quot; della [pagina Tutorials di Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=it).
+Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione di Adobe Workfront. Per ulteriori informazioni, vedere la sezione &quot;Novità&quot; della [pagina delle esercitazioni di Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ### Funzionalità presto rimossa da Workfront
 

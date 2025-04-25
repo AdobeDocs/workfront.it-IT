@@ -6,7 +6,7 @@ description: Alcune funzionalità sono diverse tra  [!DNL Workfront]  e Adobe Ex
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: 68a5bfe5d85ac530ac14faf2a6a5cccf602e6c8c
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 0%
@@ -61,15 +61,15 @@ Per informazioni su [!DNL Admin Console], esaminare gli articoli seguenti:
 
 I clienti esistenti verranno contattati per pianificare le migrazioni. I colleghi del team di supporto per la migrazione assisteranno i clienti durante il processo, forniranno consigli sulla configurazione di [!DNL Admin Console] e forniranno i collegamenti alla documentazione necessaria per rendere la migrazione il più semplice e semplice possibile.
 
-* [[!DNL Adobe Workfront] Panoramica del supporto](https://experienceleague.adobe.com/docs/customer-one/using/workfront/overview.html)
-* [[!DNL Workfront Admin Console] informazioni](https://experienceleague.adobe.com/docs/customer-one/using/workfront/landing.html)
-* [[!DNL Adobe Business Platform] e [!DNL Admin Console] Domande frequenti](https://experienceleague.adobe.com/docs/customer-one/using/workfront/faq.html)
+* [[!DNL Adobe Workfront] Panoramica del supporto](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/overview)
+* [[!DNL Workfront Admin Console] informazioni](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/landing)
+* [[!DNL Adobe Business Platform] e [!DNL Admin Console] Domande frequenti](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/faq)
 
 ### In che modo gestisci [!DNL Adobe Admin Console] per le aziende che hanno già abilitato questo per i Federated ID in modo diverso rispetto a [!DNL Workfront] SSO configurato?
 
 [!DNL Adobe Admin Console] ha l&#39;opzione di includere [!DNL Workfront], sostituendo SSO con IMS. Tutti i provisioning degli utenti si verificano in [!DNL Admin Console] e gli utenti visualizzeranno la schermata di accesso di [!DNL Adobe] per accedere a [!DNL Experience Cloud], dove vedranno [!DNL Workfront] come opzione (se dispongono dell&#39;accesso consentito).
 
-### In che modo questo influisce sui clienti che dispongono già del pannello di amministrazione AEM per [!DNL Adobe Assets], ma l&#39;SSO è configurato in modo diverso rispetto a [!DNL Workfront?]
+### Che impatto ha questo sui clienti che dispongono già del pannello di amministrazione di AEM per [!DNL Adobe Assets], ma l&#39;SSO è configurato in modo diverso rispetto a [!DNL Workfront?]
 
 Una volta aggiunto [!DNL Workfront] come applicazione [!DNL Admin Console], non è necessario eseguire altre operazioni per [!DNL Workfront] per sfruttare la configurazione SSO esistente per [!DNL Adobe Assets].
 
@@ -97,7 +97,7 @@ Puoi sempre utilizzare qualsiasi URL personalizzato. Dopo aver fatto clic su uno
 
 Tutti i collegamenti diretti devono essere reindirizzati ai nuovi pattern URL. Tuttavia, se hai distribuito i collegamenti alle persone, devi inviare un aggiornamento per sfruttare il collegamento diretto e evitare ritardi nel raggiungere la pagina prevista.
 
-### Effettueremo la migrazione a [!DNL Experience Cloud] a livello globale oppure è possibile selezionare alcuni utenti (non tutti i nostri utenti utilizzano anche altri prodotti Adobe)?
+### Effettueremo la migrazione a [!DNL Experience Cloud] a livello globale o possiamo selezionare alcuni utenti (non tutti i nostri utenti utilizzano anche altri prodotti Adobe)?
 
 Verrà eseguita la migrazione dell&#39;intero account del cliente [!DNL Workfront]. Non può essere fatto utente per utente.
 

@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6fef7261-114f-4c26-861e-61a4acb22d40
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1503'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Per aiutarti a visualizzare e gestire meglio il tuo lavoro quotidiano con i cale
 
 In precedenza, era possibile gestire il calendario solo con date pianificate e previste quando le date effettive non erano disponibili.
 
-Per ulteriori informazioni, vedere [Utilizzare campi data personalizzati in un report del calendario](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (o se si utilizza Workfront Classic, vedere [Utilizzare campi data personalizzati in un report del calendario](https://one.workfront.com/s/article/Use-custom-date-fields-in-a-calendar-report-432597950?language=en_US)).
+Per ulteriori informazioni, vedere [Utilizzare campi data personalizzati in un report del calendario](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (o se si utilizza Workfront Classic, vedere [Utilizzare campi data personalizzati in un report del calendario](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 ## Modifiche e-mail
 
@@ -82,11 +82,11 @@ In precedenza, gli amministratori di sistema potevano aggiungere un indirizzo e-
 
 **Modifiche alla risposta POP e-mail in entrata:** gli amministratori di sistema non potranno più configurare un server e-mail POP personalizzato per le risposte e-mail in entrata alle notifiche.
 
-Per ulteriori informazioni, consulta [Modifiche e-mail di spoofing e risposta POP](https://one.workfront.com/s/article/Email-spoofing-and-POP-reply-email-changes?language=en_US).
+Per ulteriori informazioni, consulta [Modifiche e-mail di spoofing e risposta POP](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
-## DKIM (DomainKeys Identified Mail) ora incluso nelle e-mail Workfront in uscita
+## DomainKeys Identified Mail (DKIM) ora incluso nelle e-mail Workfront in uscita
 
-In tutte le e-mail in uscita verrà inclusa una tecnica di autenticazione e-mail (DKIM). Questa firma DKIM non è visibile all’utente finale, ma consente la convalida a livello di server e rafforza il framework di autenticazione esistente.
+Una tecnica di autenticazione e-mail (DKIM) verrà inclusa in tutte le e-mail in uscita. Questa firma DKIM non è visibile all’utente finale, ma consente la convalida a livello di server e rafforza il framework di autenticazione esistente.
 
 ## Aggiornamenti all’iscrizione alla nuova esperienza Workfront
 
@@ -95,7 +95,7 @@ Per rendere più gestibile l’iscrizione degli utenti alla nuova esperienza Wor
 È inoltre disponibile un collegamento Dettagli utente che consente di visualizzare le seguenti informazioni utente:
 
 * Nome
-* Ruolo
+* Mansione
 * Indirizzo e-mail
 * Immagine del profilo
 

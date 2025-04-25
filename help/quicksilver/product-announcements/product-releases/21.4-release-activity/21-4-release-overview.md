@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0897b269-c6f3-4b63-8956-b7f9fbe0a553
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '4718'
 ht-degree: 0%
@@ -343,11 +343,11 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#link" class="MCXref xref" xrefformat="{para}">Collega documenti da Dropbox Business</a> </p> <p>Abbiamo aggiunto Dropbox Business come integrazione di documenti disponibile. Ora è possibile accedere ai documenti archiviati in Dropbox Business direttamente da Workfront.</p> <p>Dropbox Business consente di collegare documenti condivisi e di caricarli in cartelle condivise. Il Dropbox (non l'azienda di Dropbox) consente solo al proprietario dei documenti di visualizzare il documento in Workfront.</p> <p>L’amministratore di Workfront può abilitare questa integrazione per la tua organizzazione.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#link" class="MCXref xref" xrefformat="{para}">Collega documenti da Dropbox Business</a> </p> <p>Abbiamo aggiunto Dropbox Business come integrazione di documenti disponibile. Ora è possibile accedere ai documenti archiviati in Dropbox Business direttamente da Workfront.</p> <p>Dropbox Business consente di collegare documenti condivisi e caricarli in cartelle condivise. Dropbox (non Dropbox Business) consente solo al proprietario dei documenti di visualizzare il documento in Workfront.</p> <p>L’amministratore di Workfront può abilitare questa integrazione per la tua organizzazione.</p> </td> 
    <td> <p><b>Disponibile in queste date:</b> </p> <p>Anteprima versione: N/D<br></p> <p>Versione di produzione: con la versione 21.4</p> <p><strong>Disponibile in questi ambienti:</strong> </p> <p>La nuova esperienza Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#updates" class="MCXref xref" xrefformat="{para}">Aggiornamenti a Workfront per Slack</a> </p> <p>I seguenti aggiornamenti sono ora visibili in Workfront per l’integrazione con Slack:</p> <p>L’integrazione Workfront for Slack ora ha un nuovo aspetto. Inoltre, ora ricevi il Workfront per le notifiche di Slack in tempo reale. </p> <p>Ad esempio, se si è assegnati a un'attività, la notifica viene ricevuta non appena si è assegnati. </p> <p>In precedenza, poteva verificarsi un ritardo prima che la notifica apparisse in Slack.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#updates" class="MCXref xref" xrefformat="{para}">Aggiornamenti a Workfront per Slack</a> </p> <p>Nell’integrazione Workfront for Slack sono ora visibili i seguenti aggiornamenti:</p> <p>L'integrazione di Workfront per Slack ora ha un nuovo aspetto. Inoltre, ora ricevi le notifiche Workfront for Slack in tempo reale. </p> <p>Ad esempio, se si è assegnati a un'attività, la notifica viene ricevuta non appena si è assegnati. </p> <p>In precedenza, poteva verificarsi un ritardo prima che la notifica apparisse in Slack.</p> </td> 
    <td><strong>Disponibile in queste date:</strong> <p>Versione di anteprima: 29 luglio 2021<br></p> <p>Versione di produzione: 29 luglio 2021</p> <p><strong>Disponibile in questi ambienti:</strong> </p> <p>La nuova esperienza Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -465,7 +465,7 @@ Il webinar sulla versione di Workfront 21.4 è stato presentato il 23 settembre 
 
 ## Aggiornamenti dei corsi di formazione
 
-Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione di Adobe Workfront. Per ulteriori informazioni, vedere la [pagina Aggiornamenti delle versioni di formazione](https://one.workfront.com/s/training-release-updates).
+Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione di Adobe Workfront. Per ulteriori informazioni, vedere la [pagina Aggiornamenti delle versioni di formazione](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ## Funzionalità non più supportata
 

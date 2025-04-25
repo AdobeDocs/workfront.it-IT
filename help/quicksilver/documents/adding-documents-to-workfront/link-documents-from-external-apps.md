@@ -6,7 +6,7 @@ description: Puoi collegare documenti e cartelle ad Adobe Workfront da origini e
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2620'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Puoi collegare documenti e cartelle ad Adobe Workfront dalle seguenti origini:
   </tr> 
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
-   <td>In Workfront è possibile rendere disponibili le bozze create originariamente in Workfront Proof. Per utilizzare questa funzione, è necessario un piano Pro Workfront o superiore per le licenze correnti. Per le nuove licenze, tutti i piani includono questa funzione. Per ulteriori informazioni sui vari piani disponibili, vedere <a href="https://www.workfront.com/plans">Piani Workfront</a>.</td> 
+   <td>In Workfront è possibile rendere disponibili le bozze create originariamente in Workfront Proof. Per utilizzare questa funzione, è necessario un piano Pro Workfront o superiore per le licenze correnti. Per le nuove licenze, tutti i piani includono questa funzione. Per ulteriori informazioni sui vari piani disponibili, vedere <a href="https://business.adobe.com/products/workfront/pricing.html">Piani Workfront</a>.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
@@ -51,7 +51,7 @@ Puoi collegare documenti e cartelle ad Adobe Workfront dalle seguenti origini:
   </tr> 
   <tr> 
    <td role="rowheader">Altri provider di documenti (tramite integrazioni di documenti personalizzate)</td> 
-   <td> <p class="workfront_plans">Per utilizzare questa funzione, è necessario un piano Pro Workfront o superiore per le licenze correnti. Per le nuove licenze, tutti i piani includono questa funzione. Per ulteriori informazioni sui vari piani disponibili, vedere <a href="https://www.workfront.com/plans">Piani Workfront</a>.</p> </td>
+   <td> <p class="workfront_plans">Per utilizzare questa funzione, è necessario un piano Pro Workfront o superiore per le licenze correnti. Per le nuove licenze, tutti i piani includono questa funzione. Per ulteriori informazioni sui vari piani disponibili, vedere <a href="https://business.adobe.com/products/workfront/pricing.html">Piani Workfront</a>.</p> </td>
   </tr> 
  </tbody> 
 </table>

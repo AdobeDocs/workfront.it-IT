@@ -7,7 +7,7 @@ description: La visualizzazione del piano di volo mostra quanti progetti (entro 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 4%
@@ -34,7 +34,7 @@ Devi avere i seguenti:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Piano Adobe Workfront</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Piano Adobe Workfront</a>*</td> 
    <td> <p>Business o superiore</p> </td> 
   </tr> 
   <tr> 
@@ -149,6 +149,6 @@ Per informazioni su come ottenere i dati migliori per questa visualizzazione, co
 
 1. Per visualizzare ulteriori informazioni sul progetto, fai clic su un progetto nella visualizzazione per aprire le visualizzazioni Burndown e Attività in volo.
 
-   Queste visualizzazioni possono aiutarti a ottenere informazioni più approfondite su cosa ha causato la deviazione del progetto. Semplificano inoltre il check-in di un progetto in corso.\
+   Queste visualizzazioni possono aiutarti a ottenere informazioni più approfondite su insight che hanno portato il progetto a deviare dalla traiettoria. Semplificano inoltre il check-in di un progetto in corso.\
    Per ulteriori informazioni sulla visualizzazione Burndown, consulta [Visualizzare la visualizzazione Burndown in Analisi avanzate](../enhanced-analytics/burndown-overview.md). Per ulteriori informazioni sulla visualizzazione Attività in volo, consulta [Visualizzare la visualizzazione Attività in volo in Analisi avanzate](../enhanced-analytics/tasks-in-flight-overview.md).
 

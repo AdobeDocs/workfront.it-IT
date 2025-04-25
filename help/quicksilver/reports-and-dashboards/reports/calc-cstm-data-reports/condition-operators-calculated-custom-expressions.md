@@ -7,7 +7,7 @@ description: È possibile utilizzare operatori di condizione o modificatori per 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: 639a696c19d79cf2415a45ccb9849ec183fb0bb8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 1%
@@ -53,7 +53,7 @@ In Workfront puoi utilizzare i seguenti modificatori di condizioni:
  </thead> 
  <tbody> 
   <tr> 
-   <td>Uguale a</td> 
+   <td>Uguale</td> 
    <td>= </td> 
    <td> <p>Utilizzare questo operatore per indicare che la condizione viene soddisfatta quando il primo campo dell'istruzione è uguale al secondo campo.</p> <p>Ad esempio, utilizzare l'istruzione seguente in un campo personalizzato calcolato per generare un'istruzione "IF" che confronta la Data di completamento pianificata con la Data di completamento prevista di un'attività: </p><p><code>IF({projectedCompletionDate}={plannedCompletionDate},"On Track","Off Track")</code></p> </td> 
   </tr> 

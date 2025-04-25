@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cacff71c-d0a9-4a36-b8d2-787101a16f52
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%
@@ -20,4 +20,4 @@ ht-degree: 0%
 
 Adobe Workfront Inc. (&quot;Workfront&quot;) prende sul serio la protezione della privacy dei nostri clienti. La presente Informativa sulla privacy (la &quot;Informativa sulla privacy&quot;) ti informa sulle nostre politiche relative alla raccolta, all&#39;utilizzo e alla divulgazione di tutte le informazioni personali (&quot;Dati Personali&quot;) e di altri dati che ci vengono forniti attraverso l&#39;uso di ciascuno dei nostri siti web e applicazioni mobili su cui viene visualizzato un link alla presente Informativa sulla privacy e tutti i prodotti e i servizi resi disponibili attraverso tali siti web, tra cui, senza limitazioni, le nostre offerte SaaS (collettivamente, il &quot;Servizio&quot;).
 
-Per informazioni sull&#39;Informativa sulla privacy di Workfront, consulta la nostra pagina Web sull&#39;Informativa sulla privacy, [qui](https://www.workfront.com/privacy-notice).
+Per informazioni sull&#39;Informativa sulla privacy di Workfront, consulta la nostra pagina Web sull&#39;Informativa sulla privacy, [qui](https://www.adobe.com/legal/terms/enterprise-licensing/workfront-legacy-terms.html).

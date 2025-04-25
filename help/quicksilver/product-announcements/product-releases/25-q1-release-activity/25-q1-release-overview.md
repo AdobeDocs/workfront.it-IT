@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2775'
 ht-degree: 0%
@@ -155,7 +155,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             È ora disponibile il filtro per i campi nativi typeahead</a></p>
             [!BADGE In produzione ]{type=Informative}
-            <p>Quando si aggiunge un riferimento a un campo nativo in un modulo personalizzato che fa riferimento a un campo typeahead, ad esempio Portfolio, Società o Proprietario, è ora disponibile un'opzione di filtro. Il filtro consente di limitare gli oggetti che gli utenti possono scegliere quando utilizzano il campo. Questo filtro personalizzato funziona come un filtro in un campo typeahead personalizzato, utilizzando la modalità testo per definire il filtro.</p>
+            <p>Quando si aggiunge un riferimento a un campo nativo in un modulo personalizzato che fa riferimento a un campo typeahead, ad esempio Portfolio, Company o Owner, è ora disponibile un'opzione di filtro. Il filtro consente di limitare gli oggetti che gli utenti possono scegliere quando utilizzano il campo. Questo filtro personalizzato funziona come un filtro in un campo typeahead personalizzato, utilizzando la modalità testo per definire il filtro.</p>
         </td>
         <td>
             <p><b>Disponibile in queste date:</b></p>
@@ -583,7 +583,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Pulsante per la creazione del primo account lettore per Data Connect</a></p>
             [!BADGE In produzione ]{type=Informative}
-            <p>Agli amministratori che accedono a Data Connect per la prima volta viene ora offerta l’opzione di creare un nuovo account lettore di Snowflake facendo clic su un singolo pulsante. Il completamento del processo richiede alcuni minuti, ma non richiede ulteriori azioni.</p>
+            <p>Agli amministratori che accedono a Data Connect per la prima volta viene ora offerta l’opzione di creare un nuovo account Snowflake Reader facendo clic su un singolo pulsante. Il completamento del processo richiede alcuni minuti, ma non richiede ulteriori azioni.</p>
         </td>
         <td>
             <p><b>Disponibile in queste date:</b></p>
@@ -638,9 +638,9 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Aggiornamento della modalità di gestione delle risorse spostate o eliminate nelle cartelle collegate</a></p>
             [!BADGE In produzione ]{type=Informative}
-            <p>Abbiamo modificato il modo in cui vengono gestite le risorse spostate ed eliminate quando si utilizza l’integrazione Adobe Workfront con Experience Manager Assets e gli Assets Essentials:</p>
+            <p>Abbiamo modificato il modo in cui le risorse spostate ed eliminate vengono gestite quando si utilizza l’integrazione di Adobe Workfront con Experience Manager Assets e Assets Essentials:</p>
             <ul>
-                <li>Risorse eliminate: quando una risorsa viene eliminata all’interno di una cartella collegata in Assets o in Assets Essentials, la risorsa eliminata viene mantenuta nell’area Documenti progetto.</li>
+                <li>Risorse eliminate: quando una risorsa viene eliminata all’interno di una cartella collegata in Assets o Assets Essentials, la risorsa eliminata viene mantenuta nell’area Documenti progetto.</li>
                 <li>Risorse spostate: quando una risorsa viene spostata all’esterno di una cartella collegata in Assets o Assets Essentials, la risorsa spostata viene mantenuta nell’area Documenti progetti.</li>
             </ul>
         </td>
@@ -747,8 +747,8 @@ Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianific
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Aggiornamenti dei corsi di formazione
 
-Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione di Adobe Workfront. Per ulteriori informazioni, vedere la sezione &quot;Novità&quot; della [pagina Tutorials di Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=it).
+Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione di Adobe Workfront. Per ulteriori informazioni, vedere la sezione &quot;Novità&quot; della [pagina delle esercitazioni di Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).

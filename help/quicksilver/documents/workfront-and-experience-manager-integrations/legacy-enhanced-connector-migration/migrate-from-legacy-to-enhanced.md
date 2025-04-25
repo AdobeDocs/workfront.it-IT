@@ -6,7 +6,7 @@ description: Il processo seguente illustra le best practice per passare dal conn
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4a8d1e2b-9744-4f72-a337-5057448db4fb
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%
@@ -30,9 +30,9 @@ Per i clienti che utilizzano Adobe Experience Manager Assets as a Cloud Service,
 >
 >Per l’implementazione del connettore avanzato sono necessari un partner certificato o i servizi Adobe Consulting.
 >
-> Per i partner che desiderano certificare sul connettore avanzato, consultare il seguente articolo: [Workfront, ad Experience Manager la serie Expert del connettore avanzato](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview.html?lang=en).
+> Per i partner che desiderano certificare sul connettore avanzato, leggere il seguente articolo: [Workfront per la serie Expert del connettore avanzato Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview).
 
-Per implementare il connettore avanzato, vedere [Configurare Workfront, ad Experience Manager il connettore avanzato](https://experienceleague.adobe.com/docs/experience-manager-65/assets/integrations/workfront-connector-configure.html?lang=en).
+Per implementare il connettore avanzato, vedere [Configurare il connettore avanzato di Workfront per Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure).
 
 
 ## Spostare le risorse esistenti

@@ -6,7 +6,7 @@ description: Ricevi [!DNL Adobe Workfront] notifiche in [!DNL Slack]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 1%
@@ -38,7 +38,7 @@ Devi avere i seguenti:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] piano]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] piano]</a>*</td> 
    <td> <p>[!UICONTROL Pro] o versione successiva</p> </td> 
   </tr> 
  </tbody> 
@@ -112,7 +112,7 @@ Per gestire le notifiche di [!DNL Workfront] per [!DNL Slack]:
    * (Condizionale e facoltativo) Fai clic su **[!UICONTROL Approva]**, **[!UICONTROL Modifiche]** o **[!UICONTROL Rifiuta]** per approvare, approvare con modifiche o rifiutare un documento.
 
      È inoltre possibile passare il puntatore del mouse sulla miniatura del documento e fare clic sull&#39;icona della lente di ingrandimento per visualizzare un&#39;anteprima più grande del documento prima di approvarlo.\
-      È possibile visualizzare in anteprima solo i [tipi di file](https://api.slack.com/types/file) di Slack approvati.
+      È possibile visualizzare in anteprima solo i [tipi di file](https://api.slack.com/types/file) approvati da Slack.
 
    * (Condizionale e facoltativo) Fai clic su **[!UICONTROL Concedi]** o **[!UICONTROL Ignora]** per concedere o ignorare la richiesta di accesso aggiuntivo da parte di un altro utente.\
 

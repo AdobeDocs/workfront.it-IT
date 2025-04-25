@@ -6,7 +6,7 @@ description: I progetti sono elencati in ordine di priorità nella Programmazion
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 1%
@@ -112,7 +112,7 @@ Per modificare la Priorità di pianificazione del progetto:
 >
 >L&#39;azienda deve disporre di un piano Business o Workfront di livello superiore per assegnare la priorità ai progetti in Portfolio Optimizer.
 >
->Per ulteriori informazioni sui piani di Workfront, vedere [I nostri piani](https://www.workfront.com/plans).
+>Per ulteriori informazioni sui piani di Workfront, vedere [I nostri piani](https://business.adobe.com/products/workfront/pricing.html).
 >
 >Per informazioni sull&#39;assegnazione delle priorità ai progetti in Portfolio Optimizer, vedere [Assegnare priorità ai progetti in Portfolio Optimizer](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 

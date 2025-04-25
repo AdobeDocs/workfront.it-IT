@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3272'
 ht-degree: 0%
@@ -298,7 +298,7 @@ Nota: questa funzionalità non è attualmente disponibile nel Bilanciatore dei c
 
 </p>
 <ol>
-<li>Aggiungi un file Adobe XD per rendere un modulo personalizzato più visivo e informativo. Quando il modulo viene allegato a un oggetto, gli utenti che utilizzano l'oggetto possono visualizzare e interagire con il file XD dall'interno del modulo.
+<li>Aggiungi un file Adobe XD per rendere un modulo personalizzato più visivo e informativo. Quando il modulo viene allegato a un oggetto, gli utenti che lo utilizzano possono visualizzare e interagire con il file XD dall'interno del modulo.
 </li>
 <li>Utilizza il filtro rapido per individuare facilmente gli elementi nell’elenco dei campi e dei moduli personalizzati modernizzati. Inoltre, è possibile ottenere un aspetto migliore durante la gestione di moduli e campi.
 </li>
@@ -605,7 +605,7 @@ Nota: questa funzionalità non è attualmente disponibile nel Bilanciatore dei c
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront per InDesign</a> <span style="color: #ff0000;"> Novità in produzione!</span> </p>
-                        <p>Questo plug-in è ora disponibile per l’installazione in InDesign. Consente di accedere ai dettagli degli elementi di lavoro, collaborare con i colleghi nell’area Aggiornamenti e inviare bozze per la revisione completa senza uscire dall’XD. Visita il marketplace Adobe Creative Cloud per scaricare il plug-in. </p>
+                        <p>Questo plug-in è ora disponibile per l’installazione in InDesign. Consente di accedere ai dettagli degli elementi di lavoro, collaborare con i colleghi nell’area Aggiornamenti e inviare bozze per la revisione completa senza uscire da XD. Visita il marketplace Adobe Creative Cloud per scaricare il plug-in. </p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -623,7 +623,7 @@ Nota: questa funzionalità non è attualmente disponibile nel Bilanciatore dei c
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Sincronizza i metadati dell'oggetto con l'integrazione nativa di Experience Manager Assets</a> </p>
                         <p>Ora i campi portfolio, programma, progetto, attività, problema e documento di Workfront vengono aggiornati automaticamente quando vengono modificati in Workfront.</p>
-                        <p>Per consentire la sincronizzazione automatica dei metadati dell'oggetto, è necessario abilitare l'opzione Sincronizza metadati dell'oggetto per le integrazioni in Configurazione &gt; Integrazioni Experience Manager.</p>
+                        <p>Per consentire la sincronizzazione automatica dei metadati dell’oggetto, devi abilitare l’opzione Sincronizza metadati dell’oggetto per le integrazioni in Configurazione &gt; Integrazioni Experience Manager.</p>
                         <p>In precedenza, venivano aggiornati automaticamente solo i campi del progetto.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -640,7 +640,7 @@ Nota: questa funzionalità non è attualmente disponibile nel Bilanciatore dei c
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Push di metadati per oggetti padre di programmi e portfolio</a></p>
-                        <p>Ora, quando una risorsa viene inviata per la prima volta a Experience Manager Assets o agli Assets Essentials, vengono inviati anche tutti i metadati configurati per la mappatura degli oggetti principali del programma e del portfolio.</p>
+                        <p>Ora, quando una risorsa viene inviata per la prima volta a Experience Manager Assets o Assets Essentials, vengono inviati anche tutti i metadati configurati per la mappatura di oggetti principali di programmi e portfolio.</p>
                         <p>In precedenza venivano inviati solo i dati del progetto principale.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -734,7 +734,7 @@ Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianific
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione apportati durante la versione 22.3, vedere [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Per informazioni sugli aggiornamenti di manutenzione apportati durante la versione 22.3, vedere [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Webinar sulla versione 22.4
 
@@ -742,7 +742,7 @@ Il webinar sulla versione 22.4 si terrà giovedì 22 settembre 2022 alle 9:00 PD
 
 ### Aggiornamenti dei corsi di formazione
 
-Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione di Adobe Workfront. Per ulteriori informazioni, vedere la [pagina Aggiornamenti delle versioni di formazione](https://one.workfront.com/s/training-release-updates).
+Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione di Adobe Workfront. Per ulteriori informazioni, vedere la [pagina Aggiornamenti delle versioni di formazione](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ### Funzionalità rimossa con la versione 22.4
 

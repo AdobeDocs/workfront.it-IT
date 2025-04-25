@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3158'
 ht-degree: 1%
@@ -155,7 +155,7 @@ Prima di questo miglioramento, la colonna adiacente a destra della colonna ridim
 
 Per informazioni sul ridimensionamento delle colonne negli elenchi, vedere [Modificare la larghezza e l&#39;ordine delle colonne](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
-Per partecipare al nostro programma di beta testing per i miglioramenti dell&#39;elenco corrente, consulta [New Lists Study.](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=6b135c15-33dd-4fa2-8bc3-7cd7f7740c57&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520) (accesso richiesto)
+Per partecipare al nostro programma di beta testing per i miglioramenti dell&#39;elenco corrente, consulta [New Lists Study.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) (accesso richiesto)
 
 ## Icona Supporto per i nuovi elenchi di progetti {#icon-support-for-the-new-project-lists}
 
@@ -238,7 +238,7 @@ Nel menu Nuova versione sono ora disponibili le seguenti opzioni per tutte le ar
 
 * Bozza
 * Solo documento
-* Opzioni collegate (dal Dropbox, dall&#39;unità Google e così via)
+* Opzioni collegate (da Dropbox, da Google Drive e così via)
 * Incolla dagli Appunti (questa è una nuova opzione per l’aggiunta di versioni)
 
 Per ulteriori informazioni, vedere [Aggiungere documenti ad Adobe Workfront dal file system](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) nell&#39;articolo [Aggiungere documenti ad Adobe Workfront dal file system](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
@@ -424,7 +424,7 @@ Per ulteriori informazioni, consulta  [Glossario della terminologia di Adobe Wo
 
 È ora possibile creare una nuova versione di una bozza direttamente dal nuovo visualizzatore di bozze e dal Visualizzatore bozze desktop quando si esegue la verifica in Workfront Proof.
 
-In precedenza, questa opzione era disponibile solo nel Visualizzatore di Flash legacy.
+In precedenza, questa opzione era disponibile solo nel Visualizzatore Flash legacy.
 
 Per ulteriori informazioni, vedere [Copia delle bozze in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md) nell&#39;articolo  [Copia delle bozze in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).
 

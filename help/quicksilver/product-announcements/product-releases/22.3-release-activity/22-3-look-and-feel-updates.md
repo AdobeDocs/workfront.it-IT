@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7f85bc50-52c7-4fe8-9f0f-489eaf19b441
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 14%
@@ -25,7 +25,7 @@ Per un elenco di tutte le modifiche disponibili con la versione 22.3, vedere [Pa
 >
 >Versione di anteprima: 21 aprile 2022; versione di produzione: 5 maggio 2022
 
-Per allineare meglio i prodotti di Adobe e migliorare la coerenza in tutta l’applicazione Workfront, vengono rilasciate modifiche di stile cosmetiche minori in tutta l’interfaccia utente di Workfront.
+Per allineare meglio i prodotti Adobe e migliorare la coerenza in tutta l’applicazione Workfront, vengono rilasciate modifiche minori agli stili cosmetici in tutta l’interfaccia utente di Workfront.
 
 I pulsanti, i colori e i font vengono ora aggiornati in tutta l’applicazione Workfront.
 
@@ -43,6 +43,6 @@ Le barre degli strumenti degli elenchi e dei rapporti seguenti hanno ora un aspe
 
 >[!NOTE]
 >
->Questa modifica è stata aggiornata in Produzione il 23 maggio 2022. Per ulteriori informazioni, vedere l&#39;[aggiornamento di manutenzione del 26 maggio 2022](https://one.workfront.com/s/article/Maintenance-Update-on-May-26-2022).
+>Questa modifica è stata aggiornata in Produzione il 23 maggio 2022. Per ulteriori informazioni, vedere l&#39;[aggiornamento di manutenzione del 26 maggio 2022](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 Sono stati aggiornati i separatori delle breadcrumb in tutte le aree in cui sono disponibili le breadcrumb. Ora, gli oggetti nelle breadcrumb sono separati da barre verticali (|). Prima di questo aggiornamento, erano separati da barre (/).

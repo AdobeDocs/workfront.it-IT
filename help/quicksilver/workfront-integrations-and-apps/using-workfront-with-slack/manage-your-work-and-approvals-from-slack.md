@@ -1,12 +1,12 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
-title: Gestire il lavoro e le approvazioni da Slack
-description: Puoi accedere alla sezione Work List (Elenco di lavoro) dell’area Home, esaminare e accettare di lavorare su attività e problemi, e rivedere o prendere decisioni sulle approvazioni direttamente dallo Slack.
+title: Gestisci il tuo lavoro e le approvazioni da Slack
+description: Puoi accedere alla sezione Work List (Elenco di lavoro) dell’area Home, esaminare e accettare di lavorare su attività e problemi, nonché rivedere o prendere decisioni sulle approvazioni direttamente da Slack.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 802a2f16-d827-455e-9e49-f58f4c5fc482
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Devi avere i seguenti:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL Adobe Workfront] piano</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL Adobe Workfront] piano</a>*</td> 
    <td> <p>[!UICONTROL Pro] o versione successiva</p> </td> 
   </tr> 
  </tbody> 

@@ -6,7 +6,7 @@ description: Dopo aver installato  [!DNL Adobe Workfront] per Salesforce come am
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Configura la sezione [!DNL Adobe Workfront] per [!DNL Salesforce] utenti
 
-Per utilizzare questa funzionalità è necessario un piano [!UICONTROL Pro] [!DNL Workfront]. Per ulteriori informazioni sui vari piani disponibili, vedere [[!DNL Workfront] Piani.](https://www.workfront.com/plans)
+Per utilizzare questa funzionalità è necessario un piano [!UICONTROL Pro] [!DNL Workfront]. Per ulteriori informazioni sui vari piani disponibili, vedere [[!DNL Workfront] Piani.](https://business.adobe.com/products/workfront/pricing.html)
 
 Dopo aver installato [!DNL Adobe Workfront] per [!DNL Salesforce] come amministratore [!DNL Workfront], puoi renderla disponibile agli utenti aggiungendola in una nuova sezione alle loro [!UICONTROL opportunità] e [!UICONTROL account]
 layout di pagina in [!UICONTROL Salesforce].

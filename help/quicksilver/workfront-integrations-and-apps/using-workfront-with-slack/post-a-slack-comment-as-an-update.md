@@ -1,12 +1,12 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
-title: Pubblica un commento di Slack come aggiornamento
-description: È possibile aggiungere un commento di Slack come aggiornamento a un progetto, attività o problema specifico in Adobe Workfront.
+title: Pubblica un commento Slack come aggiornamento
+description: È possibile aggiungere un commento Slack come aggiornamento a un progetto, attività o problema specifico in Adobe Workfront.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 18b22f2c-2490-41e2-afb9-0551f9579973
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Devi avere i seguenti:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] piano]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] piano]</a>*</td> 
    <td> <p>[!UICONTROL Pro] o versione successiva</p> </td> 
   </tr> 
  </tbody> 
@@ -64,4 +64,4 @@ Prima di poter pubblicare un commento [!DNL Slack] come aggiornamento, è necess
 
    Quando un commento ha avuto origine in [!DNL Slack], il commento visualizza il messaggio &quot;[!UICONTROL Pubblicato da [!DNL Slack]]&quot; in [!DNL Workfront].
 
-   ![Aggiornamento pubblicato dallo Slack](assets/slack-update-posted-from-slack-350x112.png)
+   ![Aggiornamento pubblicato da Slack](assets/slack-update-posted-from-slack-350x112.png)

@@ -8,7 +8,7 @@ description: Single Sign-On (SSO) consente agli utenti di accedere a [!DNL Workf
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb1f6883-6209-4a55-b181-67af4b496ca0
-source-git-commit: 405523606094d4f8553b0aee544d71c2b7f97d86
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
-Per utilizzare questa funzionalità è necessario un piano [!UICONTROL Enterprise] [!DNL Workfront]. Per ulteriori informazioni sui vari piani disponibili, vedere [Piani Workfront](https://www.workfront.com/plans).
+Per utilizzare questa funzionalità è necessario un piano [!UICONTROL Enterprise] [!DNL Workfront]. Per ulteriori informazioni sui vari piani disponibili, vedere [Piani Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 Single Sign-On (SSO) consente agli utenti di accedere a [!DNL Workfront Proof] utilizzando il nome utente e la password esistenti dell&#39;organizzazione.
 

@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2770'
 ht-degree: 0%
@@ -21,11 +21,11 @@ Per suggerimenti sulla preparazione per la prossima versione, consulta [Preparar
 
 ## Webinar sulla versione
 
-Al posto del webinar sulla versione, ti invitiamo a registrarti, ad Adobe Summit, per guardare le seguenti sessioni su Workfront:
+Al posto del webinar sulla versione, ti invitiamo a registrarti ad Adobe Summit per guardare le seguenti sessioni su Workfront:
 
 [Esperienze di impatto: dalla creazione dei contenuti a Personalization](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9) il 21 marzo 2023, per scoprire nuovi modi per creare, gestire e personalizzare i contenuti e fornire esperienze di impatto con una maggiore efficienza. Questa sessione verrà trasmessa in streaming live per i tipi di pubblico virtuali.
 
-[Il futuro di Adobe Workfront](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU) il 23 marzo 2023, per vedere la visione di Workfront e del suo posto all&#39;interno dell&#39;ecosistema Adobe e ottenere una panoramica della roadmap futura. Questa sessione verrà registrata e sarà disponibile in seguito come contenuto on-demand.
+[Il futuro di Adobe Workfront](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU) il 23 marzo 2023, per vedere la visione di Workfront e del suo ruolo all&#39;interno dell&#39;ecosistema Adobe e ottenere una panoramica della roadmap futura. Questa sessione verrà registrata e sarà disponibile in seguito come contenuto on-demand.
 
 <span class="preview">Le funzioni off-cycle (quelle rilasciate in produzione prima della data di rilascio della versione 23.2) sono evidenziate in giallo.</span>
 
@@ -516,8 +516,8 @@ Al posto del webinar sulla versione, ti invitiamo a registrarti, ad Adobe Summit
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuovo Workfront per i plug-in Creative Cloud</a>
-                        <p>Abbiamo aggiunto le seguenti modifiche al Workfront per i plug-in Creative Cloud:
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Novità di Workfront per i plug-in di Creative Cloud</a>
+                        <p>Abbiamo aggiunto le seguenti modifiche ai plug-in di Workfront for Creative Cloud:
                         <ul>
                         <li>Il plug-in ora notifica quando un’attività ha un predecessore</li>
                         <li>Il coreano è ora una lingua supportata</li>
@@ -653,11 +653,11 @@ Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianific
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione apportati durante la versione 23.2, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Per informazioni sugli aggiornamenti di manutenzione apportati durante la versione 23.2, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Aggiornamenti dei corsi di formazione
 
-Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione di Adobe Workfront. Per ulteriori informazioni, vedere la sezione &quot;Novità&quot; della [pagina Tutorials di Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=it).
+Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione di Adobe Workfront. Per ulteriori informazioni, vedere la sezione &quot;Novità&quot; della [pagina delle esercitazioni di Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ### Funzionalità presto rimossa da Workfront
 

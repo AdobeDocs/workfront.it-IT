@@ -6,7 +6,7 @@ description: È possibile visualizzare le informazioni sugli oggetti in [!DNL Ad
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3697'
 ht-degree: 0%
@@ -255,7 +255,7 @@ L’intestazione del programma visualizza le seguenti informazioni:
  <tbody> 
   <tr> 
    <td role="rowheader">Breadcrumb con il nome del Portfolio</td> 
-   <td> <p>È possibile accedere al Portfolio [!UICONTROL] dall'intestazione del programma [!UICONTROL]. Facendo clic sul nome dell'oggetto padre viene aperto l'oggetto padre.</p> <p>Per ulteriori informazioni, vedere <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Panoramica delle breadcrumb</a>.</p> </td> 
+   <td> <p>È possibile accedere a [!UICONTROL Portfolio] dall'intestazione del [!UICONTROL Program]. Facendo clic sul nome dell'oggetto padre viene aperto l'oggetto padre.</p> <p>Per ulteriori informazioni, vedere <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Panoramica delle breadcrumb</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Icona oggetto </td> 
@@ -326,15 +326,15 @@ L’intestazione del portfolio include le seguenti informazioni:
   </tr> 
   <tr> 
    <td role="rowheader">Stato attivazione</td> 
-   <td> <p>Se il portfolio è disattivato, il testo "[!UICONTROL PORTFOLIO DISATTIVATO]" viene visualizzato sopra il nome del portfolio nell’intestazione.</p> </td> 
+   <td> <p>Se il portfolio è disattivato, il testo "[!UICONTROL PORTFOLIO DEACTIVATED]" viene visualizzato sopra il nome del portfolio nell’intestazione.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">L’area Azioni del portfolio</td> 
    <td> <p>Accanto al nome del portfolio viene visualizzata l'area [!UICONTROL actions].</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Gestione Portfoli]</td> 
-   <td>È possibile modificare [!UICONTROL Portfolio Manager] nell'intestazione. Corrisponde al proprietario del Portfolio [!UICONTROL].</td> 
+   <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
+   <td>È possibile modificare [!UICONTROL Portfolio Manager] nell'intestazione. È lo stesso del [!UICONTROL Portfolio Owner].</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL On Time]</td> 
@@ -850,8 +850,8 @@ Nell&#39;intestazione del piano vengono visualizzate le seguenti informazioni:
    <td>Gli utenti che possono visualizzare o gestire il piano vengono visualizzati nell’angolo superiore destro dell’intestazione. Passando il puntatore del mouse sulle immagini del profilo vengono visualizzati i relativi nomi.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Vai a Publish]</td> 
-   <td>Quando si fa clic su [!UICONTROL Vai a Publish], è possibile creare o aggiornare un progetto collegato a un'iniziativa nello scenario visualizzato.</td> 
+   <td role="rowheader">[!UICONTROL Vai alla pubblicazione]</td> 
+   <td>Quando fai clic su [!UICONTROL Vai a pubblicazione], puoi creare o aggiornare un progetto collegato a un'iniziativa nello scenario che stai visualizzando.</td> 
   </tr> 
  </tbody> 
 </table>

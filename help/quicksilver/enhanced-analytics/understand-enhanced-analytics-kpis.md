@@ -7,7 +7,7 @@ description: Nella parte superiore dello schermo nell’area Analisi avanzata, v
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 44e43618-9a0b-4585-8659-c1fe055516be
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 
 Per utilizzare questa funzione è necessario un piano aziendale o un piano superiore.\
-Per ulteriori informazioni sui vari piani disponibili, vedere [Piani Adobe Workfront](https://www.workfront.com/plans).
+Per ulteriori informazioni sui vari piani disponibili, vedere [Piani Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 Nella parte superiore dello schermo nell’area Analisi avanzata, vengono visualizzati 4 indicatori prestazioni chiave (KPI, Key Performance Indicators). Queste metriche consentono di comprendere rapidamente quanto tempo sono necessari i progetti, quanto sono grandi i progetti e quanti progetti vengono completati in un intervallo di tempo specifico. Questi numeri non sono limitati al massimo di 50 progetti che viene visualizzato per le visualizzazioni in questa pagina. Al contrario, questi dati si basano su tutti i progetti che si applicano a qualsiasi filtro impostato e questi numeri si modificano se si modifica l’intervallo di date selezionato o uno qualsiasi dei filtri.
 

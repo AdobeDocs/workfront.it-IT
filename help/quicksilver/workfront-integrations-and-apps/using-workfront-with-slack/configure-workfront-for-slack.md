@@ -6,7 +6,7 @@ description: L'integrazione di [!DNL Adobe Workfront] con Slack consente di acce
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cac75a81-26e8-4713-a6be-453943b431ab
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Devi avere i seguenti:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] piano]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] piano]</a>*</td> 
    <td> <p>[!UICONTROL Pro] o versione successiva</p> </td> 
   </tr> 
  </tbody> 
@@ -72,7 +72,7 @@ Per eseguire il processo di installazione e autorizzare [!DNL Workfront for Slac
 
 >[!IMPORTANT]
 >
->Quando viene rilasciata una nuova versione di [!DNL Workfront] per lo Slack, è necessario autorizzare nuovamente l&#39;app per continuare a utilizzarla.
+>Quando viene rilasciata una nuova versione di [!DNL Workfront] per Slack, è necessario autorizzare nuovamente l&#39;app per continuare a utilizzarla.
 
 1. Individua il componente aggiuntivo [!DNL Adobe Workfront] nell&#39;archivio [[!DNL Slack] store](https://workfront.slack.com/apps/A7CLAMVNW-adobe-workfront?tab=more_info).
 

@@ -7,7 +7,7 @@ description: Dopo che i project manager hanno pianificato il lavoro sui progetti
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1194'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Dopo che i project manager hanno pianificato il lavoro sui progetti creando atti
 
 Questo articolo descrive lo scopo generale del Bilanciatore dei carichi di lavoro e alcune delle best practice per configurare progetti e risorse per utilizzarlo con successo.
 
-Per rivedere le esercitazioni video del Bilanciatore dei carichi di lavoro, vai alla pagina [Esercitazioni Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=it). Nel menu a sinistra, seleziona **Gestisci risorse** > **Bilanciatore dei carichi di lavoro** e scegli un&#39;esercitazione.
+Per rivedere le esercitazioni video del Bilanciatore dei carichi di lavoro, vai alla pagina [Esercitazioni Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home). Nel menu a sinistra, seleziona **Gestisci risorse** > **Bilanciatore dei carichi di lavoro** e scegli un&#39;esercitazione.
 
 ## Individuare il Bilanciatore dei carichi di lavoro
 

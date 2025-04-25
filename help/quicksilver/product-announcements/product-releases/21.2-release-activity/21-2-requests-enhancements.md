@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: af9c801f-ae40-439a-8749-ae8d178040ae
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Continuando a integrare il tuo feedback sulla creazione di richieste nella nuova
 
 Per informazioni sulla creazione di nuove richieste, vedere [Creare e inviare richieste Adobe Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-Questa funzionalità è ora inclusa in [Nozioni di base di Collaborator per il nuovo percorso di apprendimento di Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) in Workfront One.
+Questa funzionalità è ora inclusa in [Nozioni di base di Collaborator per il nuovo percorso di apprendimento di Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) in Workfront One.
 
 ## Miglioramenti al flusso di lavoro delle richieste
 
@@ -64,7 +64,7 @@ Continuando ad ascoltare e a incorporare i tuoi commenti, abbiamo aggiunto diver
 * L’ordinamento dell’elenco Richieste inviate in base a una delle colonne ora viene mantenuto quando ci si sposta dalla pagina. Per ulteriori informazioni, vedere [Individuare le richieste inviate](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 * Durante la creazione di una nuova richiesta, i pulsanti Invia e Annulla ora si trovano nella parte inferiore del modulo Nuova richiesta. Per ulteriori informazioni, vedere [Creare e inviare richieste Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-Questa funzionalità è ora inclusa in [Nozioni di base di Collaborator per il nuovo percorso di apprendimento di Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) in Workfront One.
+Questa funzionalità è ora inclusa in [Nozioni di base di Collaborator per il nuovo percorso di apprendimento di Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) in Workfront One.
 
 ## Apri il pannello Riepilogo nella sezione Inviato dell’area Richieste
 
@@ -76,7 +76,7 @@ Per rendere la tua esperienza coerente in tutte le aree di Adobe Workfront, abbi
 
 Per informazioni sulle richieste inviate, vedere [Individuare le richieste inviate](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Questa funzionalità è ora inclusa in [Nozioni di base di Collaborator per il nuovo percorso di apprendimento di Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) in Workfront One.
+Questa funzionalità è ora inclusa in [Nozioni di base di Collaborator per il nuovo percorso di apprendimento di Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) in Workfront One.
 
 ## Ripristino dei campi dei nuovi problemi rimossi in un nuovo modulo di richiesta
 
@@ -104,7 +104,7 @@ Possibilità di condividere un collegamento alla coda di richieste, al gruppo di
 
 Per informazioni sull&#39;invio di richieste, vedere [Creare e inviare richieste Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-Questa funzionalità è ora inclusa in [Nozioni di base di Collaborator per il nuovo percorso di apprendimento di Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) in Workfront One.
+Questa funzionalità è ora inclusa in [Nozioni di base di Collaborator per il nuovo percorso di apprendimento di Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) in Workfront One.
 
 ## Condividere un collegamento a una coda di richieste durante l’invio di una richiesta
 
@@ -118,4 +118,4 @@ Prima di inviare una nuova richiesta, è possibile copiare un collegamento alla 
 
 Per informazioni sulla condivisione di un collegamento a una coda richieste durante l&#39;invio di una richiesta, vedere [Condividere un collegamento a una coda richieste](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
 
-Questa funzionalità è ora inclusa in [Nozioni di base di Collaborator per il nuovo percorso di apprendimento di Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) in Workfront One.
+Questa funzionalità è ora inclusa in [Nozioni di base di Collaborator per il nuovo percorso di apprendimento di Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) in Workfront One.

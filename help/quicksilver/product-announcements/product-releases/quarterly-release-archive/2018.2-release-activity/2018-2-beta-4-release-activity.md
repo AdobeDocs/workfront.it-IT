@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4b54b9e6-d1bf-4802-9d6c-9c3d3b6a6583
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1705'
 ht-degree: 0%
@@ -145,7 +145,7 @@ Per risolvere alcuni problemi di prestazioni, è stata temporaneamente disabilit
 
 Per ulteriori informazioni sull&#39;esportazione dei dati di Programmazione delle risorse in Excel, vedere la sezione &quot;Opzione di esportazione&quot; in [Panoramica sulla navigazione di Programmazione delle risorse](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-Per partecipare al nostro programma beta corrente per la Programmazione delle risorse, consulta [Performance Beta della Programmazione delle risorse.](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=8b018ed9-97a2-4f9d-a93b-01a7b09b6350&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520)
+Per partecipare al nostro programma beta corrente per la Programmazione delle risorse, consulta [Performance Beta della Programmazione delle risorse.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
 
 ## Impostazioni di sistema: Informazioni sulla sessione nelle pagine esterne {#system-setting-session-information-in-external-pages}
 

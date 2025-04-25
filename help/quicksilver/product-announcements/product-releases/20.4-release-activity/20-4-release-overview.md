@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3695'
 ht-degree: 0%
@@ -245,7 +245,7 @@ Questa pagina fornisce informazioni sulle funzionalità sia per Adobe Workfront 
    <td> <p><strong>Date e ambienti di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md#added" class="MCXref xref" xrefformat="{para}">Funzionalità aggiunta nelle notifiche dei Microsoft Teams </a> </p> <p>Per semplificare l’utilizzo di Workfront nei Microsoft Teams, sono state aggiunte nuove funzionalità alle notifiche dei Microsoft Teams inviate da Workfront.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md#added" class="MCXref xref" xrefformat="{para}">Funzionalità aggiunta nelle notifiche Microsoft Teams </a> </p> <p>Per semplificare l’utilizzo di Workfront tramite Microsoft Teams, sono state aggiunte nuove funzionalità alle notifiche Microsoft Teams inviate da Workfront.</p> </td> 
    <td><strong>Disponibile in queste date:</strong> <p>Anteprima Beta: da definire</p> <p>Versione di produzione: con la versione 20.4 <strong> (posticipata a dicembre 2020 o all'inizio del 2021)</strong></p> <p><strong>Disponibile in questi ambienti:</strong> </p> <p>La nuova esperienza Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -310,7 +310,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-Per informazioni sulle novità e sugli aggiornamenti, vedere [Novità della versione 12](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWF_API%2FAPI%2Fnew-api-version-12.htm) dell&#39;API.
+Per informazioni sulle novità e sugli aggiornamenti, vedere [Novità della versione 12](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12) dell&#39;API.
 
 Per ulteriori informazioni sulle versioni API, vedere [Controllo delle versioni e pianificazione del supporto API](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -326,7 +326,7 @@ Per informazioni sugli aggiornamenti di manutenzione apportati durante la versio
 
 ## Notifiche
 
-* [Flash di deprecazione](#flash-deprecation)
+* [Obsolescenza Flash](#flash-deprecation)
 * Webinar sulla versione di [20.4](#20-4-release-webinar)
 * [Modifica nella cadenza di rilascio dell&#39;anteprima](#change-in-preview-release-cadence)
 * [Inserisco nell&#39;elenco Consentiti di domini aggiuntivi necessari per accedere a Workfront](#allowlist-of-additional-domains-required-for-accessing-workfront)
@@ -336,9 +336,9 @@ Per informazioni sugli aggiornamenti di manutenzione apportati durante la versio
 
 Alla fine del 2020, Adobe e tutti i principali browser finalizzeranno la tecnologia Adobe Flash obsoleta, il che significa che questi strumenti cesseranno di funzionare.
 
-Workfront si propone di assisterti nel passaggio alla tecnologia più recente fornendo una suite di nuove soluzioni che non si basano sul Flash. Per ulteriori informazioni sulle soluzioni sostitutive per ogni specifico strumento basato su Flash, vedere l&#39;articolo seguente: [Sostituzione degli strumenti basati su Flash in Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Workfront intende aiutarvi a passare alla tecnologia più recente fornendo una suite di nuove soluzioni che non si basano su Flash. Per ulteriori informazioni sulle soluzioni sostitutive per ogni specifico strumento basato su Flash, vedere l&#39;articolo seguente: [Sostituzione degli strumenti basati su Flash in Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
-Tutti gli strumenti basati su Flash verranno rimossi da tutti i prodotti il 19 novembre 2020. Per aumentare la sicurezza dell’istanza, è consigliabile iniziare a utilizzare i nuovi strumenti e ritirare quelli di Flash prima di tale data. Se desideri che gli strumenti di Flash vengano disattivati prima del 19 novembre, puoi contattare l’Assistenza clienti.
+Tutti gli strumenti basati su Flash verranno rimossi da tutti i prodotti il 19 novembre 2020. Per aumentare la sicurezza dell&#39;istanza, è consigliabile iniziare a utilizzare i nuovi strumenti e ritirare prima gli strumenti Flash. Se desideri che gli strumenti Flash vengano disattivati prima del 19 novembre, puoi contattare l&#39;Assistenza clienti.
 
 ### Webinar sulla versione 20.4 {#20-4-release-webinar}
 
@@ -348,7 +348,7 @@ Il webinar sulla versione di Workfront 20.4 verrà presentato mercoledì 28 otto
 
 A partire dal 20 maggio 2020, Workfront ha iniziato a rendere disponibili funzionalità nell’ambiente di anteprima su base settimanale. Prima di questa modifica, in genere la funzionalità veniva rilasciata nell’ambiente di anteprima ogni due settimane.
 
-Per ulteriori informazioni, consulta [Domande frequenti sulla modifica della cadenza di rilascio dell&#39;anteprima di Workfront](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)
+Per ulteriori informazioni, consulta [Domande frequenti sulla modifica della cadenza di rilascio dell&#39;anteprima di Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/home)
 
 ### È richiesto il Elenco Consentiti di domini aggiuntivi per accedere a Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
@@ -363,4 +363,4 @@ Per ulteriori informazioni, vedere [Configurare il inserisco nell&#39;elenco Con
 
 Con Workfront One, potrai scoprire i contenuti, le risorse e le notizie più importanti da Workfront, il tutto in un&#39;unica posizione, con un unico accesso. Abbiamo unificato i siti Esperienza, Community e Formazione per facilitare la ricerca delle tue esigenze.
 
-[Ulteriori informazioni su Workfront One](https://www.workfront.com/campaigns/workfront-one).
+[Ulteriori informazioni su Workfront One](https://business.adobe.com/products/workfront.html).

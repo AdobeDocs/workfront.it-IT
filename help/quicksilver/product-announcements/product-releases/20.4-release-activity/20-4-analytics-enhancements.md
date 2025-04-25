@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39e09278-afce-4e9b-857c-f18453081f9d
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -29,4 +29,4 @@ Per consentirti di visualizzare le informazioni che desideri visualizzare senza 
 
 In precedenza, l’area Analisi avanzata limitava a 50 il numero di progetti che era possibile esaminare.
 
-Questa funzionalità è ora inclusa nel percorso di apprendimento [Analisi avanzata, Parte 1](https://one.workfront.com/s/learningpath2/enhanced-analytics-part-1-overview-20Y0z000000bmgOEAQ) in Workfront One.
+Questa funzionalità è ora inclusa nel percorso di apprendimento [Analisi avanzata, Parte 1](https://experienceleague.adobe.com/en/docs/workfront/using/home) in Workfront One.

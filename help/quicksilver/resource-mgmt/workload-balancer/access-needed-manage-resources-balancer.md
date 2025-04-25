@@ -6,7 +6,7 @@ description: Senza l'accesso o le autorizzazioni corrette, potrebbe non essere p
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -50,7 +50,7 @@ La tabella seguente illustra la connessione tra il piano Workfront di cui dispon
  </tbody> 
 </table>
 
-Per informazioni sui piani di Workfront, vedere [I nostri piani](https://www.workfront.com/plans).
+Per informazioni sui piani di Workfront, vedere [I nostri piani](https://business.adobe.com/products/workfront/pricing.html).
 
 Per informazioni su dove è possibile individuare il Bilanciatore dei carichi di lavoro in Workfront, vedere [Individuare il Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
@@ -104,7 +104,7 @@ Per gestire il Bilanciatore dei carichi di lavoro è necessario disporre dei seg
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p> Autorizzazioni Contribute o di livello superiore per il progetto di cui si desidera gestire le assegnazioni, che includono le autorizzazioni per effettuare assegnazioni. </p> <p>Per informazioni sulle autorizzazioni del progetto, vedere l'articolo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Condividere un progetto in Adobe Workfront</a>.</p></td>
+   <td> <p> Autorizzazioni di Contribute o di livello superiore per il progetto di cui si desidera gestire le assegnazioni, che includono le autorizzazioni per effettuare assegnazioni. </p> <p>Per informazioni sulle autorizzazioni del progetto, vedere l'articolo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Condividere un progetto in Adobe Workfront</a>.</p></td>
   </tr> 
  </tbody> 
 </table>

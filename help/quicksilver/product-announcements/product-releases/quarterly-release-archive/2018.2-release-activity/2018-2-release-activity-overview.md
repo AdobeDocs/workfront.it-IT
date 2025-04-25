@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91e79c87-9c70-4050-9a3f-236eff0be41d
-source-git-commit: b9dd01ee0e8732bf7e2fec68a7682fc17271e19e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 0%
@@ -54,7 +54,7 @@ La versione 2018.2 contiene miglioramenti sia per gli amministratori di Workfron
 * [Supporto per le unità del team Google](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#support-for-google-team-drives) 
 * [Nuovo limite di esportazione per il Diagramma di Gantt](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#new-export-limit-for-the-gantt-chart) 
 * [Visualizzare le relazioni tra i predecessori di progetti nel diagramma di Gantt in un elenco di progetti](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#view-cross-project-predecessor-relationshipts-in-the-gantt)
-* [Utilizzare il costo preventivato in Ottimizzatore Portfolio per calcolare le finanze del Portfolio](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#use-budgeted-cost-in-the-portfolio-optimizer)
+* [Utilizzare il costo preventivato in Portfolio Optimizer per calcolare Portfolio Finances](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#use-budgeted-cost-in-the-portfolio-optimizer)
 * [Modifica date attività nel Diagramma di Gantt](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#modify-task-dates-in-the-gantt-chart)
 * [Accedere al diagramma di Gantt del progetto dalla scheda Aggiornamenti](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#access-the-project-gantt-chart-from-the-updates-tab)
 * [Nuova esperienza elenco progetti](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#new-project-list-expeirence)
@@ -99,7 +99,7 @@ La versione 2018.2 contiene miglioramenti sia per gli amministratori di Workfron
 
 * [Workfront per Salesforce](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-salesforce) Disponibile a breve.
 
-* [Miglioramenti di Workfront for Slack](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-slack-improvements) Novità! (in Beta Final)
+* [Miglioramenti di Workfront per Slack](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-slack-improvements) novità! (in Beta Final)
 
 ### Miglioramenti API
 
@@ -146,7 +146,7 @@ La versione 2018.2 contiene miglioramenti sia per gli amministratori di Workfron
 ## Notifiche {#announcements}
 
 * [Il supporto TLS sta per terminare](#tls-support-is-ending)
-* [Rimozione applicazione di Flash](#flash-application-removal)
+* [Rimozione applicazione Flash](#flash-application-removal)
 * [Il Supporto Per Il Componente Aggiuntivo Di Microsoft Outlook Sta Per Terminare](#microsoft-outlook-add-in-support-is-ending)
 * [Rimozione delle versioni API precedenti](#removing-old-api-versions)
 
@@ -158,7 +158,7 @@ Per ulteriori informazioni, vedere [TLS 1.2 richiesto in Adobe Workfront](../../
 
 ### Rimozione applicazione Flash {#flash-application-removal}
 
-Tutte le funzionalità basate sulla tecnologia di Flash verranno rimosse da Workfront con la versione 2018.3 e sostituite con una nuova soluzione.
+Tutte le funzionalità basate sulla tecnologia Flash verranno rimosse da Workfront con la versione 2018.3 e sostituite con una nuova soluzione.
 
 Questa funzionalità include:
 
@@ -215,7 +215,7 @@ Quando installi il nuovo Workfront per Outlook in uno qualsiasi degli ambienti, 
 
 Utilizzare le risorse seguenti per ulteriori informazioni su Workfront for Outlook e per iniziare:
 
-* [Sito Web e video](https://www.workfront.com/integrations/outlook) 
+* [Sito Web e video](https://business.adobe.com/products/workfront/integrations.html) 
 * [Utilizzo di Workfront con Outlook](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) (articolo della Guida)
 
 ### Rimozione delle versioni API precedenti {#removing-old-api-versions}

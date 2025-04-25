@@ -5,9 +5,9 @@ title: La tua guida rapida per trovare aiuto in [!DNL Adobe Workfront]
 description: La tua guida rapida per trovare aiuto in [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: 3cdbf342-4809-44e3-ad9b-b5841950a1e4
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 8789f7ad50f9180edc7549a8a6802d5df6c5b006
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '812'
 ht-degree: 0%
 
 ---
@@ -40,12 +40,12 @@ Per ulteriori informazioni su [!DNL Workfront], è possibile:
  <tbody> 
   <tr> 
    <td><strong>Estrai [!DNL Workfront] il [!DNL Adobe Experience League]</strong> </td> 
-   <td> <p>Puoi utilizzare la barra di ricerca nella parte superiore di <a href="https://experienceleague.adobe.com/docs/workfront.html?lang=it">https://experienceleague.adobe.com/docs/workfront.html</a> per trovare un articolo specifico, una discussione o un corso di formazione. Consideralo come il tuo motore di ricerca per tutti gli elementi [!DNL Workfront].</p> <p>Qui puoi anche trovare risorse come</p> 
+   <td> <p>Puoi utilizzare la barra di ricerca nella parte superiore di <a href="https://experienceleague.adobe.com/en/docs/workfront">https://experienceleague.adobe.com/en/docs/workfront</a> per trovare un articolo specifico, una discussione o un corso di formazione. Consideralo come il tuo motore di ricerca per tutti gli elementi [!DNL Workfront].</p> <p>Qui puoi anche trovare risorse come</p> 
     <ul> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/home.html">Documentazione</a> </p> </li> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=it">Tutorials</a> </p> </li> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html?lang=en">Rilasci di prodotti</a> </p> </li> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics.html">Documentazione API</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/home">Documentazione</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home">Esercitazioni</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/product-announcements/product-releases/product-releases">Versioni</a> </p></li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics">Documentazione API</a> </p> </li> 
      <li> <p>E altro ancora!</p> </li> 
     </ul> </td> 
   </tr> 
@@ -63,11 +63,11 @@ Per ulteriori informazioni su [!DNL Workfront], è possibile:
   </tr> 
   <tr> 
    <td><strong>Visualizza le novità di uno dei</strong>[!DNL Workfront]<strong>prodotti</strong></td> 
-   <td>Visita <a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html" target="_blank">Versioni del prodotto</a> per informazioni aggiornate sulle novità.</td> 
+   <td>Visita <a href="https://experienceleague.adobe.com/en/docs/workfront/using/product-announcements/product-releases/product-releases">Versioni del prodotto</a> per informazioni aggiornate sulle novità.</td> 
   </tr> 
   <tr> 
    <td><strong>Apprendi on-demand e approfondisci con [!DNL Workfront] corso di formazione</strong> </td> 
-   <td><a href="https://experienceleague.adobe.com">L'Experience League</a> offre percorsi di apprendimento basati sui ruoli per consentire a responsabili pianificazione, lavoratori, collaboratori e amministratori di sistema di iniziare a utilizzare le funzionalità chiave in [!DNL Workfront].<br>Espandi la tua conoscenza di [!DNL Workfront]</a> esplorando percorsi di apprendimento, esercitazioni video e guide scaricabili sugli argomenti di tuo interesse.<br></td> 
+   <td><a href="https://experienceleague.adobe.com">Experience League</a> offre percorsi di apprendimento basati sui ruoli per consentire a responsabili pianificazione, lavoratori, collaboratori e amministratori di sistema di iniziare a utilizzare le funzionalità chiave in [!DNL Workfront].<br>Espandi la tua conoscenza di [!DNL Workfront]</a> esplorando percorsi di apprendimento, esercitazioni video e guide scaricabili sugli argomenti di tuo interesse.<br></td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,7 +85,7 @@ Le risorse seguenti possono essere utili per determinare come utilizzare [!DNL W
    <td>Questa è la tua fonte di partenza per webinar, ebook, white paper, video e report.</td> 
   </tr> 
   <tr> 
-   <td><a href="https://business.adobe.com/customer-success-stories?Products=Adobe%2520Workfront">Casi di studio</a> </td> 
+   <td><a href="https://business.adobe.com/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">Case study </a></td> 
    <td>Leggi l'articolo completo di oltre 60 case study per approfondire le problematiche dei clienti e [!DNL Workfront] soluzioni e vantaggi.</td> 
   </tr> 
   <tr> 
@@ -107,7 +107,7 @@ Questi 3 passaggi possono essere utili in qualità di amministratore [!DNL Workf
    <td><strong>Passaggio 1: scopri cosa ti aspetta</strong> </td> 
    <td> <p>Queste risorse ti mantengono informato sugli aggiornamenti che vengono rilasciati a Workfront:</p> 
     <ul> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html?lang=en" target="_blank">Annunci di prodotto</a>: stai cercando aggiornamenti della roadmap di prodotto di Workfront? La pagina Annunci prodotto è il luogo in cui puoi trovare gli aggiornamenti sulle versioni e le presentazioni della roadmap.</p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/product-announcements/product-releases/product-releases">Annunci di prodotto</a>: stai cercando aggiornamenti della roadmap di prodotto di Workfront? La pagina Annunci prodotto è il luogo in cui puoi trovare gli aggiornamenti sulle versioni e le presentazioni della roadmap.</p> </li> 
      <li> <p><strong>Centro annunci</strong>: rivedi le notifiche e ricevi aggiornamenti importanti dal nostro team di prodotto [!DNL Workfront] per quanto riguarda le informazioni per tutti i clienti. Visita la sezione <a href="https://experience.workfront.com/s/article/View-and-manage-in-app-notifications-323912892">[!UICONTROL "Notifiche"]</a> in [!DNL Workfront], nella navigazione superiore.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -116,7 +116,7 @@ Questi 3 passaggi possono essere utili in qualità di amministratore [!DNL Workf
    <td> 
     <ul> 
      <li> <p>Verifica gli ultimi aggiornamenti nella [!DNL Workfront] <a href="https://experience.workfront.com/s/article/The-Workfront-Preview-Sandbox-Environment-519456234">Sandbox</a>.</p> </li> 
-     <li> <p>Determina in che modo questi aggiornamenti influiscono sul modo in cui lavorano le persone. I nostri <a href="https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=en">Knowledge Base</a> e <a href="https://experienceleague.adobe.com/events/?lang=en">eventi</a> possono essere utili. I nostri Product Manager spesso citano il problema diretto dell'utente finale o del business risolto dalla funzionalità, aiutandoti ad abbreviare l'impatto del cambiamento.</p> </li> 
+     <li> <p>Determina in che modo questi aggiornamenti influiscono sul modo in cui lavorano le persone. I nostri <a href="https://experienceleague.adobe.com/en/docs/workfront/using/home">Knowledge Base</a> e <a href="https://experienceleague.adobe.com/en/events"> eventi</a> possono essere utili. I nostri Product Manager spesso citano il problema diretto dell'utente finale o del business risolto dalla funzionalità, aiutandoti ad abbreviare l'impatto del cambiamento.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -142,18 +142,18 @@ Le risorse seguenti sono utili per ottenere ulteriori informazioni sull&#39;API 
 
 | [[!DNL Adobe Workfront] integrazioni](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | È possibile integrare [!DNL Workfront] con applicazioni di terze parti. Le integrazioni possono estendere l&#39;utilità di [!DNL Workfront] e personalizzarla in base alle esigenze della tua organizzazione. Questo articolo della knowledge base descrive le opzioni di integrazione e ti indirizza nella direzione successiva. |
 |---|---|
-| [[!DNL Workfront] integrazioni incorporate](https://www.workfront.com/integrations) | Le integrazioni integrate gratuite di Workfront consentono a te e al tuo team di passare senza problemi alla piattaforma Workfront mantenendo gli stessi flussi di lavoro e processi. |
+| [[!DNL Workfront] integrazioni incorporate](https://business.adobe.com/products/workfront/integrations.html) | Le integrazioni integrate gratuite di Workfront consentono a te e al tuo team di passare senza problemi alla piattaforma Workfront mantenendo gli stessi flussi di lavoro e processi. |
 | [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home) | Consente di collegare [!DNL Workfront] a più di 100 applicazioni, semplificando l&#39;automazione dei processi aziendali critici senza codice. |
 
 {style="table-layout:auto"}
 
 ## Quando [!DNL Workfront] esegue la manutenzione? Come posso sapere se [!DNL Workfront] non funziona?
 
-Iscriviti a [status.adobe.com](https://status.adobe.com/it) per ricevere informazioni sulle pianificazioni di manutenzione e sui problemi di interruzione.
+Iscriviti a [status.adobe.com](https://status.adobe.com/it/) per ricevere informazioni sulle pianificazioni di manutenzione e sui problemi di interruzione.
 
 Per ulteriori informazioni sul sito di stato [!DNL Workfront], vedere [Il [!DNL Adobe Workfront] sito di stato](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md).
 
-Per sapere cosa è stato risolto in un aggiornamento di manutenzione settimanale, vedi [Aggiornamenti di manutenzione](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Per sapere cosa è stato risolto in un aggiornamento di manutenzione settimanale, vedi [Aggiornamenti di manutenzione](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 <!-- the links in this section don't work anymore and I am not sure who would have the content?! Made a note to update this but will have to do some searching - October 26, 2023: 
 
