@@ -6,9 +6,9 @@ description: Gestire il feedback tra più versioni o revisioni di un lavoro può
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
+source-git-commit: daa46f0e2a5f656d048260d4a714ed02f01cdbbf
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1521'
 ht-degree: 0%
 
 ---
@@ -225,4 +225,4 @@ Se nelle impostazioni personali sono stati salvati un oggetto e un messaggio pre
 Se nelle impostazioni personali non vengono salvati un oggetto e un messaggio predefiniti, nella pagina Nuova versione verrà visualizzato quanto segue:
 
 * Se hai informato i tuoi revisori della versione della bozza precedente utilizzando l’e-mail standard (ad esempio, nessun oggetto/messaggio personalizzato), l’opzione Notifica alle persone per e-mail sarà selezionata per impostazione predefinita nella pagina Nuova versione. Per aggiungere un messaggio personalizzato, fai clic sul collegamento.
-* Se non hai inviato ai revisori una notifica via e-mail per la versione della bozza precedente (ad esempio, nessuna e-mail standard o personalizzata), la pagina Nuova versione non includerà alcun messaggio per impostazione predefinita. Per notificare ai revisori la nuova versione, fare clic sul collegamento Invia un messaggio. È quindi possibile aggiungere un oggetto e un messaggio personalizzati facendo clic sul collegamento Aggiungi messaggio personalizzato.
+* Se non hai notificato ai revisori la versione della bozza precedente (ad esempio, nessuna e-mail standard o personalizzata), la pagina Nuova versione non includerà alcun messaggio per impostazione predefinita. Per notificare ai revisori la nuova versione, fare clic sul collegamento Invia un messaggio. È quindi possibile aggiungere un oggetto e un messaggio personalizzati facendo clic sul collegamento Aggiungi messaggio personalizzato.
