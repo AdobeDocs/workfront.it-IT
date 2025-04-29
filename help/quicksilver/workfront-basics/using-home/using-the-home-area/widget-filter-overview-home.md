@@ -6,10 +6,10 @@ description: È possibile scegliere tra diversi widget per personalizzare il con
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 4994f099b11703bbffb396d494fd5622fc006cbf
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 13%
+source-wordcount: '963'
+ht-degree: 12%
 
 ---
 
@@ -238,6 +238,44 @@ Puoi utilizzare i seguenti filtri nel widget Problemi personali:
     <td>Visualizza tutti i problemi a cui non è stato assegnato un utente principale ma a cui è stato assegnato un ruolo </td>
   </tr>
 </table>
+
+## Le mie richieste
+
+<table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Tutti</td> 
+      <td>Visualizza tutte le richieste inviate, indipendentemente dallo stato o da chi le ha inviate.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Aperti</td> 
+      <td> <p>Visualizza tutte le richieste inviate 
+      <ul>
+      <li>Attualmente aperte, indipendentemente da chi le ha inviate. Solo le richieste per le quali disponi almeno delle autorizzazioni di visualizzazione vengono visualizzate qui se non le hai inviate personalmente.</li>
+      <li>Senza una data di completamento effettiva o per i quali l'oggetto di risoluzione non dispone di una data di completamento effettiva è disponibile l'elenco nella scheda secondaria Apri.</li> 
+      </ul>
+      <p><b>NOTA</b> 
+      Le richieste con uno stato diverso da Chiuso vengono considerate aperte.</p> 
+      </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Le mie richieste</td> 
+      <td>Visualizza le richieste inviate indipendentemente dal loro stato. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Le mie richieste aperte</td> 
+      <td> <p>Visualizza le richieste 
+      <ul>
+      <li>Che hai inviato e che sei ancora aperto. </li> 
+      <li>Senza una data di completamento effettiva o per i quali l'oggetto di risoluzione non dispone di una data di completamento effettiva è disponibile la scheda secondaria Richieste personali aperte. </li> 
+      </ul>
+      <p><b>NOTA</b> 
+      Le richieste che non si trovano in uno stato che equivale a Chiuso vengono considerate aperte.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 ## Il mio lavoro
 
