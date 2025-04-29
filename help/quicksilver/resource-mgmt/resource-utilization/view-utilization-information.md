@@ -9,16 +9,16 @@ exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
 source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
 source-wordcount: '7283'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Visualizza informazioni sull&#39;utilizzo delle risorse {#view-resource-utilization-information}
+# Visualizzare le informazioni sull’utilizzo delle risorse {#view-resource-utilization-information}
 
 >[!CONTEXTUALHELP]
 >id="wf-resourcing-utilization"
->title="Rapporto utilizzo"
->abstract="Il rapporto Utilizzo consente di visualizzare l&#39;avanzamento, il costo o i ricavi di un progetto, programma o portfolio in un unico rapporto. Puoi anche confrontare i ricavi con i costi."
+>title="Rapporto sull’utilizzo"
+>abstract="Il rapporto sull’utilizzo consente di visualizzare l’avanzamento, i costi o i ricavi di un progetto, un programma o un portfolio in un unico rapporto. Puoi anche confrontare i ricavi con i costi."
 
 <!-- Audited: 01/2024 -->
 
@@ -113,7 +113,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Panoramica del rapporto Utilizzo {#overview-of-the-utilization-report}
 
-Il rapporto Utilizzo consente di visualizzare l&#39;avanzamento, il costo o i ricavi di un progetto, programma o portfolio in un unico rapporto. Puoi anche confrontare i ricavi con i costi.
+Il rapporto sull’utilizzo consente di visualizzare l’avanzamento, i costi o i ricavi di un progetto, un programma o un portfolio in un unico rapporto. Puoi anche confrontare i ricavi con i costi.
 
 È possibile visualizzare il rapporto Utilizzo nell&#39;area Risorse per visualizzare l&#39;utilizzo in più progetti oppure a livello di progetto per visualizzare l&#39;utilizzo per le singole risorse (mansioni e utenti) associate al progetto.
 

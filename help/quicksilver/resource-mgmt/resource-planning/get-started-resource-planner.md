@@ -10,16 +10,16 @@ exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
 source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
 source-wordcount: '2113'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Panoramica di Programmazione delle risorse {#resource-planner-overview}
+# Panoramica di Pianificazione risorse {#resource-planner-overview}
 
 >[!CONTEXTUALHELP]
 >id="wf-resourcing-planner"
 >title="Pianificazione risorse"
->abstract="È possibile utilizzare la Pianificazione risorse per stimare e preventivare l&#39;allocazione delle risorse ai progetti a cui sono assegnate e per prevedere la loro disponibilità per il lavoro futuro."
+>abstract="Puoi utilizzare la Pianificazione risorse per stimare e preventivare l’allocazione delle risorse ai progetti a cui sono assegnate e per prevederne la disponibilità per il lavoro futuro."
 
 <!-- Audited: 12/2023 -->
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 Per una panoramica generale della pianificazione delle risorse in Adobe Workfront, vedere l&#39;articolo [Introduzione alla pianificazione delle risorse](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
-## Panoramica di Programmazione delle risorse
+## Panoramica di Pianificazione risorse
 
 È possibile utilizzare la Programmazione delle risorse per comprendere facilmente la disponibilità di utenti e mansioni, nonché il tempo pianificato necessario per completare il lavoro sui progetti. Puoi quindi decidere come allocare gli utenti e le loro mansioni ai progetti a cui sono assegnati in base al tempo disponibile.
 

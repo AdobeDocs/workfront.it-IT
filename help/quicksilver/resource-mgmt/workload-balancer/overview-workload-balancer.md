@@ -10,16 +10,16 @@ exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1194'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Panoramica del Bilanciatore dei carichi di lavoro {#workload-balancer-overview}
+# Panoramica del bilanciamento del carico di lavoro {#workload-balancer-overview}
 
 >[!CONTEXTUALHELP]
 >id="wf-resourcing-workload-balancer"
 >title="Bilanciatore dei carichi di lavoro"
->abstract="I proprietari dei progetti e i manager del team possono utilizzare il Bilanciatore dei carichi di lavoro per assegnare elementi di lavoro agli utenti."
+>abstract="I proprietari dei progetti e i manager del team possono utilizzare il bilanciamento del carico di lavoro per assegnare elementi di lavoro agli utenti."
 
 <!--
 <p>(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>
