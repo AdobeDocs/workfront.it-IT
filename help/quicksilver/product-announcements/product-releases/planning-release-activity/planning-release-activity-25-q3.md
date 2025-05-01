@@ -7,7 +7,7 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 711810c00ba8657230dbda558629613be2b35d9b
+source-git-commit: 036846cc84e53b090276f7b853372e4e0050c316
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 0%
@@ -103,3 +103,5 @@ Sono stati introdotti i seguenti aggiornamenti:
 * È possibile disabilitare le autorizzazioni ereditate sul tipo di record per renderlo di sola lettura per tutte le persone nell&#39;area di lavoro. Successivamente, è possibile aggiungere singoli utenti, team, gruppi, società o ruoli e concedere loro l&#39;autorizzazione Contribuisci al tipo di record.
 
 Per ulteriori informazioni, vedere [Condividi tipi di record](/help/quicksilver/planning/access/share-record-types.md).
+
+
