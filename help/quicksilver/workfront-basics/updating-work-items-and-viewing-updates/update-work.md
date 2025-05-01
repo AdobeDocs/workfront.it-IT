@@ -6,7 +6,7 @@ description: Puoi aggiungere un aggiornamento a un oggetto Adobe Workfront (prog
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: c06f25de917474ffae9a7de3a00033fdf9c84b58
 workflow-type: tm+mt
 source-wordcount: '3234'
 ht-degree: 0%
@@ -241,11 +241,9 @@ Questo articolo descrive come aggiornare progetti, attività o problemi. L&#39;a
 1. Fai clic su **Aggiornamenti** nel pannello a sinistra.
 La scheda **Commenti** è selezionata per impostazione predefinita.
 
-1. 
-   <div class="preview">Iniziare a immettere un commento nella casella **Nuovo commento**.
+1. <span class="preview">Inizia a immettere un commento nella casella **Nuovo commento**.</span>
 
-   ![Nuova casella commenti](assets/comment-box-all-tabs.png)
-   </div>
+   <span class="preview">![Nuova casella commenti](assets/comment-box-all-tabs.png)</span>
 
    >[!TIP]
    >
