@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 828426242e87d99d27d763e1893dee81afa36fc4
+source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2064'
 ht-degree: 0%
 
 ---
@@ -150,6 +150,14 @@ Per visualizzare questa pagina, vai a Configurazione > E-mail > Notifiche > Avvi
 **Anteprima versione: 16 gennaio 2025; a partire dalla settimana del 30 gennaio 2025**
 
 La finestra di dialogo Aggiungi Sharepoint in Configurazione > Documenti > Integrazione Sharepoint è stata aggiornata con un design più moderno che è coerente con altre aree di Workfront.
+
+Questo aggiornamento include modifiche visive all’area. Nessuna funzionalità è stata modificata.
+
+### Finestra di dialogo Aggiornamento interfaccia per aggiunta integrazione personalizzata
+
+**Anteprima versione: 16 gennaio 2025; a partire dalla settimana del 30 gennaio 2025**
+
+La finestra di dialogo Aggiungi integrazione personalizzata in Configurazione > Documenti > Integrazione personalizzata è stata aggiornata con un design più moderno che è coerente con altre aree di Workfront.
 
 Questo aggiornamento include modifiche visive all’area. Nessuna funzionalità è stata modificata.
 

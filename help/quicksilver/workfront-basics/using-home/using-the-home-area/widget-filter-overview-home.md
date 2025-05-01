@@ -6,9 +6,9 @@ description: È possibile scegliere tra diversi widget per personalizzare il con
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: 4994f099b11703bbffb396d494fd5622fc006cbf
+source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '965'
 ht-degree: 12%
 
 ---
@@ -20,6 +20,7 @@ Per trovare e organizzare il lavoro, potete utilizzare i filtri dei seguenti wid
 * [I miei progetti](#my-projects)
 * [Le mie attività](#my-tasks)
 * [I miei problemi](#my-issues)
+* [Le mie richieste](#my-requests)
 * [Il mio lavoro](#my-work)
 * [Le mie approvazioni](#my-approvals)
 
