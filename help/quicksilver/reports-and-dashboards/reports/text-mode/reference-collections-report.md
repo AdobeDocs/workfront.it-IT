@@ -6,9 +6,9 @@ description: Fare riferimento alle raccolte in un rapporto
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 6bd9dc626befc4dfa4054760e7ec7d677f6da6e5
 workflow-type: tm+mt
-source-wordcount: '2560'
+source-wordcount: '2615'
 ht-degree: 0%
 
 ---
@@ -306,6 +306,15 @@ Quando crei una vista di raccolta, considera le seguenti limitazioni:
 È possibile fare riferimento a un insieme di oggetti nel filtro di un report per filtrare gli attributi degli oggetti associati all&#39;oggetto del report.
 
 Ad esempio, è possibile filtrare le informazioni su attività o problemi in un report di progetto utilizzando un riferimento agli attributi delle attività o dei problemi sul progetto nell&#39;istruzione di filtro.
+
+>[!NOTE]
+>
+>Quando viene applicato a campi che contengono più valori (ad esempio, una raccolta di note all’interno di un progetto), il filtro determina l’inclusione come segue:
+>
+>* Se tutti gli elementi di una raccolta contengono il valore specificato, l&#39;intero record viene escluso dai risultati.
+>* Se almeno un elemento della raccolta non contiene il valore specificato, il record rimane nei risultati.
+
+
 
 Per aggiungere un riferimento a una raccolta in un filtro di report:
 
