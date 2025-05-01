@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 036846cc84e53b090276f7b853372e4e0050c316
+source-git-commit: f8344ad64305b5ffe05f208da06cf330affa5850
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '595'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Miglioramenti di Adobe Workfront
 
 * [Miglioramenti alla gestione dei documenti](#document-management-enhancements)
-* [Aggiornamenti e miglioramenti delle notifiche]
+* [Miglioramenti al reporting](#reporting-enhancements)
+* [Miglioramenti per gli aggiornamenti e le notifiche](#update-and-notification-enhancements)
 * [Altri miglioramenti](#other-enhancements)
 
 ### Miglioramenti alla gestione dei documenti
