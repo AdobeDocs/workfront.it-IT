@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: c3e71e5126f68878411764766eb053215d050145
+source-git-commit: b36cfdc4587bc440867a6a84b9460eaeaf4daf88
 workflow-type: tm+mt
-source-wordcount: '13172'
+source-wordcount: '13178'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 2%
       * Versione Q3 2025 {#release-25-q3}
          * [Panoramica sulla versione del terzo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
          * [Miglioramenti alla gestione dei documenti](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md)
+         * [Miglioramenti al reporting](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md)
+         * [Miglioramenti per gli aggiornamenti e le notifiche](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md)
          * [Aggiornamenti look-and-feel durante il periodo di rilascio del terzo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-look-and-feel-updates.md)
       * Versione del secondo trimestre 2025 {#release-25-q2}
          * [Panoramica sulla versione del secondo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
@@ -1739,7 +1741,7 @@ ht-degree: 2%
          * [Rimuovere utenti dai pool di risorse](resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
       * [Introduzione alla pianificazione delle risorse](resource-mgmt/resource-planning/get-started-resource-planning.md)
       * [Accesso necessario alle risorse del budget in Workfront](resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
-      * [Panoramica di Programmazione delle risorse](resource-mgmt/resource-planning/get-started-resource-planner.md)
+      * [Panoramica di Pianificazione risorse](resource-mgmt/resource-planning/get-started-resource-planner.md)
       * [Individua la Programmazione delle risorse](resource-mgmt/resource-planning/locate-resource-planner.md)
       * [Panoramica sulla navigazione di Pianificazione risorse](resource-mgmt/resource-planning/resource-planner-navigation.md)
       * [Verificare la disponibilità e l&#39;allocazione delle risorse mediante Adobe Workfront Resource Planner](resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md)
@@ -1757,10 +1759,10 @@ ht-degree: 2%
       * [Limitazioni della visualizzazione di Programmazione delle risorse](resource-mgmt/resource-planning/resource-planner-display-limitations.md)
    * Utilizzo risorse {#resource-utilization}
       * [Utilizzo risorse](resource-mgmt/resource-utilization/resource-utilization.md)
-      * [Visualizza informazioni sull&#39;utilizzo delle risorse](resource-mgmt/resource-utilization/view-utilization-information.md)
+      * [Visualizzare le informazioni sull’utilizzo delle risorse](resource-mgmt/resource-utilization/view-utilization-information.md)
    * Il Bilanciatore dei carichi di lavoro {#the-workload-balancer}
       * [L’indice del Bilanciatore dei carichi di lavoro: articolo](resource-mgmt/workload-balancer/workload-balancer.md)
-      * [Panoramica del Bilanciatore dei carichi di lavoro](resource-mgmt/workload-balancer/overview-workload-balancer.md)
+      * [Panoramica del bilanciamento del carico di lavoro](resource-mgmt/workload-balancer/overview-workload-balancer.md)
       * [Accesso necessario per gestire le risorse nel Bilanciatore dei carichi di lavoro](resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
       * [Individuare il Bilanciatore dei carichi di lavoro](resource-mgmt/workload-balancer/locate-workload-balancer.md)
       * [Panoramica sull’assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)

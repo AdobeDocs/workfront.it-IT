@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: f47c1ad2c3c5d82e62efa1a8920bc0aac59af26e
+source-git-commit: bd6a9c2de25aa1088a0348df4ec5154d81d7a385
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 5%
+source-wordcount: '552'
+ht-degree: 3%
 
 ---
 
@@ -17,6 +17,33 @@ ht-degree: 5%
 Questa pagina descrive piccoli aggiornamenti all’aspetto di varie aree dell’applicazione Adobe Workfront che sono stati apportati entro il periodo di rilascio del terzo trimestre 2025.
 
 Per un elenco di tutte le modifiche disponibili con la versione del terzo trimestre 2025, consulta [Panoramica sulla versione del terzo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Aggiornamento dell&#39;aspetto per le opzioni di menu Altro per i commenti
+
+>[!NOTE]
+>
+>Versione di anteprima: 17 aprile 2025; versione di produzione per tutti i clienti: 17 aprile 2025
+
+È stato aggiornato l’aspetto delle opzioni disponibili nel menu Altro di un commento nella sezione Aggiornamenti per tutti gli oggetti.
+
+Questo aggiornamento include le seguenti modifiche:
+
+* Le azioni sono state riorganizzate in modo da raggruppare funzioni simili.
+* Inserite i divisori per separare chiaramente ogni gruppo.
+* L&#39;azione Elimina è stata evidenziata in rosso.
+
+Per informazioni, vedere [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+
+## Aggiornamenti look and feel di un rapporto del Percorso Milestone
+
+>[!NOTE]
+>
+>Versione di anteprima: 30 aprile 2025; versione di produzione per tutti i clienti: 30 aprile 2025
+
+Il look and feel del rapporto Milestone Path è stato aggiornato per rispecchiare il design di altre aree di Workfront.
+
+Per informazioni, vedere [Creare un report personalizzato](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Aggiornamenti visivi agli elementi ripristinati di recente
 
