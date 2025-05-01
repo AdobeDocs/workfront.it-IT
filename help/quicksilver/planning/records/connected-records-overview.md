@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Per informazioni su come connettere i record tra loro o a un altro oggetto, vede
    * Campi record collegati nella vista tabella di un tipo di record in Planning.
    * L&#39;anteprima o la pagina del record nei campi del record collegato nella scheda Dettagli.
    * L&#39;anteprima o la pagina del record nella scheda Connessioni.
-   * Pagina del record in una scheda della visualizzazione Connessione di un record connesso.
+   * Pagina del record in una scheda <span class="preview">Record connessi</span> di un record connesso.
 
 * È possibile collegare oggetti Workfront ai record di Workfront Planning nelle seguenti aree di Workfront:
 

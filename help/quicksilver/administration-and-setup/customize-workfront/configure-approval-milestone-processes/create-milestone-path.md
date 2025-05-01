@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '816'
 ht-degree: 3%
 
 ---
@@ -136,7 +136,7 @@ Per ulteriori informazioni su come associare un percorso milestone a un progetto
 La milestone viene eliminata e non può essere recuperata. Vengono eliminate anche tutte le informazioni sul progetto associate alla fase cardine e tutte le informazioni sull&#39;attività associate ai percorsi delle fasi cardine.
 
 
-## Visualizzare i dettagli del percorso milestone in un rapporto
+## Visualizzare i dettagli del percorso milestone in un rapporto del progetto
 
 Puoi visualizzare i dettagli di un percorso milestone in un rapporto di progetto.
 

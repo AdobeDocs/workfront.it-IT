@@ -6,7 +6,7 @@ description: Puoi visualizzare e aggiungere aggiornamenti a un elemento di lavor
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 6%
@@ -132,7 +132,7 @@ Puoi fornire aggiornamenti su qualsiasi elemento di lavoro nel widget [!UICONTRO
 
 1. Fai clic su **Risposta**.
 
-   ![Rispondi al commento](assets/reply-to-comment-in-mentions-widget.png)
+   ![Risposta al commento](assets/reply-to-comment-in-mentions-widget.png)
 
 1. Inizia a digitare il commento.
 1. (Facoltativo) Nella casella **Assegna tag a persone**, inizia a digitare il nome di un utente o di un team che desideri includere in questo commento, quindi selezionalo quando viene visualizzato nell&#39;elenco.

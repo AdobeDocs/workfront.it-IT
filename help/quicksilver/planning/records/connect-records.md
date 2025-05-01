@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '3333'
+source-wordcount: '3359'
 ht-degree: 1%
 
 ---
@@ -125,7 +125,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
 <tr> 
    <td role="rowheader"><p>Modello layout</p></td> 
-   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale </p> </td> 
+   <td> <p>Nell’ambiente di produzione, tutti gli utenti, inclusi gli amministratori di sistema, devono essere assegnati a un modello di layout che includa le aree Planning.</p>
+<p><span class="preview">Nell'ambiente di anteprima, gli utenti Standard e gli amministratori di sistema hanno l'area Planning attivata per impostazione predefinita.</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -133,14 +134,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 *Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-<!--replace the layout template info in the table with this at release: 
-
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## Considerazioni sulla connessione dei record
 
@@ -165,7 +158,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 * Campi record connessi nella visualizzazione tabella.
 * La casella di anteprima o la pagina del record nei campi del record connesso della scheda Dettagli.
 * La casella di anteprima o la pagina del record nella scheda Connessioni.
-* Pagina del record nella scheda Visualizzazione connessione. <!--this needs title edit when they rename the "Connection view" page type-->
+* Pagina del record in una scheda <span class="preview">Record connessi</span>.
 
 ### Collegare i record di Workfront Planning dalla vista tabella o dall&#39;area Dettagli di un record
 
@@ -463,9 +456,8 @@ I record e gli oggetti vengono aggiunti immediatamente.
 
    Il record viene immediatamente disconnesso da tutte le aree di Workfront Planning o da altre applicazioni in cui potrebbe essere visualizzato come connesso. Vengono rimossi anche eventuali valori dei campi di ricerca.
 
-### Collegare i record dalla scheda Visualizzazione connessione nella pagina dei dettagli di un record
+### Connetti record dalla <span class="preview">pagina Record connessi</span> di un record
 
-<!--section needs title edit when they rename the "Connection view" page type-->
 
 1. Passare a una visualizzazione di un tipo di record connesso ad altri tipi di record o tipi di oggetto di Planning da altre applicazioni.
 1. Seguire i passaggi descritti nelle sottosezioni precedenti per trovare un record nella visualizzazione che si desidera connettere ad altri record o oggetti.
@@ -473,9 +465,11 @@ I record e gli oggetti vengono aggiunti immediatamente.
 
    Viene visualizzata la pagina di anteprima.
 1. Fai clic sull&#39;icona **Apri in una nuova scheda** ![Apri i dettagli in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) per aprire la pagina del record.
-1. Fare clic su una scheda della visualizzazione Connessione esistente nell&#39;anteprima o nella pagina del record. È innanzitutto necessario creare una pagina di visualizzazione Connessione. Per informazioni, vedere [Gestire il layout della pagina record](/help/quicksilver/planning/records/manage-the-record-page.md).
+1. Fare clic su una scheda <span class="preview">Pagina record connessi</span> esistente nella pagina del record. Devi innanzitutto creare una <span class="preview">pagina di record connessi</span>. Per informazioni, vedere [Gestire il layout della pagina record](/help/quicksilver/planning/records/manage-the-record-page.md).
 
    Nella vista a tabella viene visualizzata una pagina del tipo di record connesso.
+
+   Tutti i record collegati di un tipo vengono visualizzati nella tabella.
 1. Fai clic su **Connetti** per aggiungere o rimuovere record.
 
    ![Pulsante Connetti evidenziato nella scheda dei dettagli del record connesso](assets/connect-button-highlighted-in-connected-record-details-tab.png)

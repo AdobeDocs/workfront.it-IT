@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '2872'
-ht-degree: 3%
+source-wordcount: '3205'
+ht-degree: 2%
 
 ---
 
 # Gestire la vista tabella
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -86,7 +86,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
 <tr> 
    <td role="rowheader"><p>Modello layout</p></td> 
-   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> </td> 
+   <td> <p>Nell’ambiente di produzione, tutti gli utenti, inclusi gli amministratori di sistema, devono essere assegnati a un modello di layout che includa le aree Planning.</p>
+<p><span class="preview">Nell'ambiente di anteprima, gli utenti Standard e gli amministratori di sistema hanno l'area Planning attivata per impostazione predefinita.</span></p></td> 
   </tr> 
 </tbody> 
 </table>
@@ -95,13 +96,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 +++
 
-<!--replace the layout template info in the table with this at release: 
 
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## Modificare i record utilizzando la vista tabella
 
@@ -117,9 +112,11 @@ Durante la creazione di una vista tabella, tutti i record del tipo selezionato v
 
 Per gestire una vista tabella:
 
-1. Creare una visualizzazione tabella come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
+1. <span class="preview">Creare una vista tabella, come descritto nell&#39;articolo [Gestire le viste record](/help/quicksilver/planning/views/manage-record-views.md). </span>
 
-   ![Esempio di visualizzazione tabella](assets/table-view-example.png)
+   <span class="preview">![Esempio di visualizzazione tabella](assets/table-view-example.png)
+
+   </span>
 
 1. (Facoltativo) Fai clic su **Altezza riga**, quindi seleziona una delle seguenti opzioni per modificare l&#39;altezza delle righe della tabella:
    * Piccolo
@@ -130,14 +127,17 @@ Per gestire una vista tabella:
    * [Colonne (o campi)](#add-columns-or-fields)
    * [Righe (o record)](#add-rows-or-records)
    * [Filtri](#add-filters)
-   * [Raggruppamento](#add-groupings)
    * [Ordina](#add-a-sort)
-   * [Abilita indicatore di presenza in tempo reale](#enable-the-real-time-presence-indicator)
+   * [Raggruppamento](#add-groupings)
+   * <span class="preview">[Colori riga](#add-row-colors)</span>
+   * [Indicatore di presenza in tempo reale](#enable-the-real-time-presence-indicator)
 
 
 ### Aggiungi colonne (o campi) {#add-columns}
 
-Nelle intestazioni di colonna di una vista tabella vengono visualizzati i campi associati ai record della vista. Gli stessi campi visualizzati nella vista tabella vengono visualizzati anche nella sezione Dettagli di un record. Per ulteriori informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
+Nelle intestazioni di colonna di una vista tabella vengono visualizzati i campi associati ai record della vista. I campi visualizzati nella vista a tabella vengono visualizzati anche nella sezione Dettagli di un record.
+
+Per ulteriori informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
 
 <!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
@@ -362,55 +362,6 @@ Per aggiungere un filtro a una vista tabella:
 1. (Facoltativo) Fai clic sull&#39;icona **x** per rimuovere una condizione di filtro.
 1. (Facoltativo) Fai clic su **Filtri** per chiudere la casella dei filtri. <!--right now you cannot "clear all" for filters, but this might come later-->
 
-### Aggiungi raggruppamenti {#add-groupings}
-
-<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
-
-È possibile raggruppare i record in base a informazioni simili quando si applica un raggruppamento a una visualizzazione.
-
-L’aggiunta di raggruppamenti nella vista tabella è simile all’aggiunta di raggruppamenti nella vista timeline.
-
-Considera quanto segue:
-
-* Potete applicare i raggruppamenti sia nella vista tabella che nella vista timeline. I raggruppamenti della vista tabella sono indipendenti da quelli della vista timeline dello stesso tipo di record.
-* È possibile applicare 3 livelli di raggruppamento in una visualizzazione. I record vengono raggruppati in base all&#39;ordine dei raggruppamenti selezionati.
-&lt;!—* È possibile applicare fino a 4 livelli di raggruppamento quando si utilizza l’API. —controllare questo per il momento—>
-* I raggruppamenti sono univoci per la vista selezionata. A due visualizzazioni tabella dello stesso tipo di record possono essere applicati raggruppamenti diversi. Due utenti che visualizzano la stessa vista tabella visualizzano lo stesso raggruppamento attualmente applicato.
-* Non è possibile denominare i raggruppamenti creati per una vista tabella.
-* Se si rimuovono i raggruppamenti, questi verranno rimossi da tutti coloro che accedono allo stesso tipo di record e che visualizzano la stessa visualizzazione.
-* È possibile modificare i record elencati in un raggruppamento.
-* È possibile eseguire il raggruppamento in base ai campi record o ai campi di ricerca connessi.
-* Quando si esegue il raggruppamento per campi di ricerca con più valori (che non sono stati riepilogati da un aggregatore), i record vengono raggruppati per ogni combinazione univoca di valori di campo.
-* È possibile fare riferimento a un campo fino a 4 livelli di distanza dal tipo di record corrente. Ad esempio, se si crea un raggruppamento per un tipo di record Attività e l&#39;attività è connessa al tipo di record Prodotto connesso al tipo di record Campagna connesso a un progetto Workfront, è possibile fare riferimento allo stato del progetto nel raggruppamento che si sta creando per il tipo di record Attività.
-<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
-<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
-
-Per aggiungere un raggruppamento:
-
-1. Creare una visualizzazione timeline per un tipo di record, come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
-1. Fai clic su **Raggruppamento** nell&#39;angolo superiore destro della visualizzazione tabella.
-
-   ![Raggruppamento della vista tabella dell&#39;interfaccia utente con campi collegati](assets/grouping-ui-table-view-with-linked-fields.png)
-
-1. Fare clic su uno dei campi suggeriti oppure fare clic su **Scegli un campo diverso**, cerca un campo diverso e quindi fare clic su di esso quando viene visualizzato nell&#39;elenco.
-
-   Il raggruppamento viene applicato automaticamente alla tabella e i record vengono visualizzati sotto la linea di separazione di raggruppamento.
-
-1. (Facoltativo) Fai clic su **Aggiungi condizione** e ripeti i passaggi precedenti per aggiungere fino a 3 raggruppamenti.
-
-   Il numero di campi selezionati per il raggruppamento viene visualizzato accanto all’icona Raggruppamento.
-
-   ![Raggruppamento applicato nella vista tabella](assets/grouping-applied-in-table-view.png)
-
-1. (Facoltativo) Nella casella **Raggruppa record per**, fai clic sull&#39;icona **x** a destra di un campo selezionato per il raggruppamento per rimuovere il raggruppamento
-
-   Oppure
-
-   Fare clic su **Cancella tutto** per rimuovere tutti i campi.
-
-1. Fare clic all&#39;esterno della casella **Raggruppa record per** per chiuderla.
-1. (Facoltativo) Fai clic su **+ Nuovo record** alla fine di qualsiasi raggruppamento per aggiungere nuovi record, quindi aggiorna la pagina per aggiungere il nuovo record al raggruppamento appropriato. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
-
 ### Aggiungi un ordinamento {#sort-information}
 
 Applicando un ordinamento, è possibile organizzare le informazioni in un determinato ordine.
@@ -473,6 +424,56 @@ Per ordinare <!--ungrouped (add this when sorting for groupings will be availabl
 
    I campi selezionati per l’ordinamento visualizzano un’icona di ordinamento seguita da un numero che indica l’ordine in cui viene applicato l’ordinamento.
 
+### Aggiungi raggruppamenti {#add-groupings}
+
+<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
+
+È possibile raggruppare i record in base a informazioni simili quando si applica un raggruppamento a una visualizzazione.
+
+L’aggiunta di raggruppamenti nella vista tabella è simile all’aggiunta di raggruppamenti nella vista timeline.
+
+Considera quanto segue:
+
+* Potete applicare i raggruppamenti sia nella vista tabella che nella vista timeline. I raggruppamenti della vista tabella sono indipendenti da quelli della vista timeline dello stesso tipo di record.
+* È possibile applicare 3 livelli di raggruppamento in una visualizzazione. I record vengono raggruppati in base all&#39;ordine dei raggruppamenti selezionati.
+&lt;!—* È possibile applicare fino a 4 livelli di raggruppamento quando si utilizza l’API. —controllare questo per il momento—>
+* I raggruppamenti sono univoci per la vista selezionata. A due visualizzazioni tabella dello stesso tipo di record possono essere applicati raggruppamenti diversi. Due utenti che visualizzano la stessa vista tabella visualizzano lo stesso raggruppamento attualmente applicato.
+* Non è possibile denominare i raggruppamenti creati per una vista tabella.
+* Se si rimuovono i raggruppamenti, questi verranno rimossi da tutti coloro che accedono allo stesso tipo di record e che visualizzano la stessa visualizzazione.
+* È possibile modificare i record elencati in un raggruppamento.
+* È possibile eseguire il raggruppamento in base ai campi record o ai campi di ricerca connessi.
+* Quando si esegue il raggruppamento per campi di ricerca con più valori (che non sono stati riepilogati da un aggregatore), i record vengono raggruppati per ogni combinazione univoca di valori di campo.
+* È possibile fare riferimento a un campo fino a 4 livelli di distanza dal tipo di record corrente. Ad esempio, se si crea un raggruppamento per un tipo di record Attività e l&#39;attività è connessa al tipo di record Prodotto connesso al tipo di record Campagna connesso a un progetto Workfront, è possibile fare riferimento allo stato del progetto nel raggruppamento che si sta creando per il tipo di record Attività.
+<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
+<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
+
+Per aggiungere un raggruppamento:
+
+1. Creare una visualizzazione timeline per un tipo di record, come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
+1. Fai clic su **Raggruppamento** nell&#39;angolo superiore destro della visualizzazione tabella.
+
+   ![Raggruppamento della vista tabella dell&#39;interfaccia utente con campi collegati](assets/grouping-ui-table-view-with-linked-fields.png)
+
+1. Fare clic su uno dei campi suggeriti oppure fare clic su **Scegli un campo diverso**, cerca un campo diverso e quindi fare clic su di esso quando viene visualizzato nell&#39;elenco.
+
+   Il raggruppamento viene applicato automaticamente alla tabella e i record vengono visualizzati sotto la linea di separazione di raggruppamento.
+
+1. (Facoltativo) Fai clic su **Aggiungi condizione** e ripeti i passaggi precedenti per aggiungere fino a 3 raggruppamenti.
+
+   Il numero di campi selezionati per il raggruppamento viene visualizzato accanto all’icona Raggruppamento.
+
+   ![Raggruppamento applicato nella vista tabella](assets/grouping-applied-in-table-view.png)
+
+1. (Facoltativo) Nella casella **Raggruppa record per**, fai clic sull&#39;icona **x** a destra di un campo selezionato per il raggruppamento per rimuovere il raggruppamento
+
+   Oppure
+
+   Fare clic su **Cancella tutto** per rimuovere tutti i campi.
+
+1. Fare clic all&#39;esterno della casella **Raggruppa record per** per chiuderla.
+1. (Facoltativo) Fai clic su **+ Nuovo record** alla fine di qualsiasi raggruppamento per aggiungere nuovi record, quindi aggiorna la pagina per aggiungere il nuovo record al raggruppamento appropriato. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
+
+
 <!-- this is not available yet: 
 
 To sort grouped records: 
@@ -481,6 +482,42 @@ To sort grouped records:
 1. ************************* add steps here for sorting grouped records****************
 
 -->
+
+<div class="preview">
+
+### Aggiungi colori riga
+
+1. (Facoltativo) Fai clic su **Colori riga** per definire le condizioni e scegliere di configurare colori diversi per le righe della tabella.
+
+1. Fare clic su **Aggiungi colore**, quindi su **Seleziona un campo** di cui si desidera determinare il colore di una riga.
+
+   Ad esempio, per visualizzare le campagne con lo stato Attivo in verde, seleziona **Stato**, quindi scegli un modificatore e un valore per il campo.
+
+   ![Casella colori riga con stato Attivo selezionato e scelta colore predefinita](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
+
+1. Fare clic sul menu a discesa del selettore colore nell&#39;angolo superiore sinistro della condizione selezionata per scegliere il colore della condizione, quindi fare clic all&#39;esterno della casella del selettore colore per chiuderlo.
+
+   ![Menu selettore colore a discesa nella casella Colori riga evidenziata](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+
+1. (Facoltativo) Fai clic su **Aggiungi condizione** per aggiungere altri campi e valori al primo set di condizioni
+
+   Oppure
+
+   Fare clic su **Aggiungi colore** per aggiungere un nuovo insieme di condizioni e identificare un nuovo colore.
+
+   Ad esempio, è possibile visualizzare le campagne con lo stato Pianificazione in giallo definendo un nuovo set di condizioni.
+
+   ![Casella colori riga con colori personalizzati dello stato Attivo e Pianificazione](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
+
+1. (Facoltativo) Attivare l&#39;impostazione **Applica all&#39;intera riga** nell&#39;angolo superiore destro della casella Colori riga. L’intera riga in cui viene soddisfatta la condizione viene visualizzata automaticamente nel colore selezionato.
+
+   >[!TIP]
+   >
+   >Se l&#39;opzione Applica all&#39;intera riga è disattivata, solo il lato sinistro del campo Principale visualizza un indicatore di colore stretto con il colore selezionato. L&#39;impostazione è disattivata per impostazione predefinita.
+
+1. Fare clic all&#39;esterno della casella **Colori riga** per chiuderla. I colori vengono applicati automaticamente.
+
+</div>
 
 ### Abilita indicatore di presenza in tempo reale
 

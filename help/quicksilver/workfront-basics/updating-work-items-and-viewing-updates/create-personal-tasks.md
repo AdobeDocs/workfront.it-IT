@@ -6,9 +6,9 @@ description: Le attività personali sono richieste di lavoro ad hoc inviate a un
 author: Lisa
 feature: Get Started with Workfront
 exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: a1081b7ce0877b08f9546ab57cfac3f2a580ea76
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,16 @@ ht-degree: 0%
 
 Le attività personali sono richieste di lavoro ad hoc che invii a un utente o che invii o aggiungi personalmente.
 
-Adobe Workfront salva le richieste di lavoro ad hoc e esegue gli elementi come attività personali.
+Adobe Workfront salva le richieste di lavoro ad hoc e le attività da eseguire come attività personali sul progetto personale di un utente creato automaticamente da Workfront per ogni utente.
 
-Per impostazione predefinita, tutti gli utenti di Workfront hanno un progetto personale denominato &quot;Attività di&lt; Nome completo dell’utente>&quot;. Ad esempio, &quot;John Smith&#39;s Tasks&quot;.
+Di seguito sono riportate le caratteristiche del progetto personale di un utente:
 
-Il progetto personale di ciascun utente non viene visualizzato nelle ricerche ed è nascosto. Tutte le attività personali sono memorizzate in questo progetto.
-
-Se necessario, puoi spostare le attività personali in un progetto.
+* Tutti gli utenti di Workfront hanno un progetto personale chiamato &quot;&lt; Nome completo dell’utente>’s Tasks&quot; (Attività). Ad esempio, &quot;John Smith&#39;s Tasks&quot;.
+* Il progetto personale di ciascun utente non viene visualizzato nelle ricerche ed è nascosto.
+* Un progetto personale non può essere eliminato, anche se gli utenti sono stati disattivati.
+* Lo stato di un progetto personale è sempre Corrente. Non è possibile completare o annullare i progetti personali.
+* Tutte le attività personali vengono memorizzate nel progetto personale di un utente.
+* Se necessario, puoi spostare le attività personali in un altro progetto.
 
 È possibile creare attività personali nei modi seguenti:
 
