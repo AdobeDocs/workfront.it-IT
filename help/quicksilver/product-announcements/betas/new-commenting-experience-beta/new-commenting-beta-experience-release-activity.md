@@ -317,19 +317,19 @@ Disponibile per il commento del problema esperienza Beta e per gli obiettivi Wor
 
 È stato rilasciato il seguente aggiornamento di manutenzione per il commento del problema in versione beta e per gli obiettivi:
 
-Modificare le immagini allegate durante la modifica di un commento. Per informazioni, consulta la sezione &quot;Aggiornamento di manutenzione del 27 aprile&quot; nell’articolo &lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in aprile 2023</a>.
+Modificare le immagini allegate durante la modifica di un commento. Per informazioni, consulta la sezione &quot;Aggiornamento di manutenzione del 27 aprile&quot; nell’articolo &lt;a href=&quot;https://experienceleague.adobe.com/it/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in aprile 2023</a>.
 
 ### 20 aprile 2023
 
 È stato rilasciato il seguente aggiornamento di manutenzione per il commento del problema in versione beta e per gli obiettivi:
 
-Mantieni le immagini come bozza quando ti allontani da un aggiornamento per gli obiettivi e per i problemi nell’esperienza beta di commento. Per informazioni, consulta la sezione &quot;Aggiornamento di manutenzione del 20 aprile&quot; nell’articolo &lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in aprile 2023</a>.
+Mantieni le immagini come bozza quando ti allontani da un aggiornamento per gli obiettivi e per i problemi nell’esperienza beta di commento. Per informazioni, consulta la sezione &quot;Aggiornamento di manutenzione del 20 aprile&quot; nell’articolo &lt;a href=&quot;https://experienceleague.adobe.com/it/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in aprile 2023</a>.
 
 ### 17 aprile 2023
 
 È stato rilasciato il seguente aggiornamento di manutenzione per il commento del problema in versione beta e per gli obiettivi:
 
-Mostra nuovi commenti al di fuori dell’area della schermata visibile nella sezione Aggiornamenti dei problemi (nuova esperienza di aggiunta di commenti a Beta) e degli Obiettivi. Per informazioni, consulta la sezione &quot;Aggiornamento di manutenzione del 17 aprile&quot; nell’articolo &lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in aprile 2023</a>.
+Mostra nuovi commenti al di fuori dell’area della schermata visibile nella sezione Aggiornamenti dei problemi (nuova esperienza di aggiunta di commenti a Beta) e degli Obiettivi. Per informazioni, consulta la sezione &quot;Aggiornamento di manutenzione del 17 aprile&quot; nell’articolo &lt;a href=&quot;https://experienceleague.adobe.com/it/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in aprile 2023</a>.
 
 
 ### Settimana del 6 aprile 2023

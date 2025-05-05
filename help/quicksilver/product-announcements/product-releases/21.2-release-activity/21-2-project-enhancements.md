@@ -29,7 +29,7 @@ Nell’ambito della riprogettazione delle caselle Nuova attività e Modifica att
 
 Per ulteriori informazioni, vedere [Creare attività ricorrenti](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
-Questa funzionalità è ora inclusa in [Planner - Nozioni di base per la nuova esperienza Workfront, parte 2: Pianificare un percorso di apprendimento per il progetto](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
+Questa funzionalità è ora inclusa in [Planner - Nozioni di base per la nuova esperienza Workfront, parte 2: Pianificare un percorso di apprendimento per il progetto](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
 
 ## Nuovi pulsanti disponibili nell’intestazione Progetti
 
@@ -39,7 +39,7 @@ Questa funzionalità è ora inclusa in [Planner - Nozioni di base per la nuova e
 
 Per filtrare rapidamente l’elenco dei progetti nella pagina Progetti, nell’intestazione sono presenti due nuovi pulsanti che consentono di applicare rapidamente il filtro Progetti in corso o Progetti di cui sono proprietario.
 
-Questa funzionalità è ora inclusa in [Planner - Nozioni di base per la nuova esperienza Workfront, Parte 1: Creazione di un percorso di apprendimento Project](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
+Questa funzionalità è ora inclusa in [Planner - Nozioni di base per la nuova esperienza Workfront, Parte 1: Creazione di un percorso di apprendimento Project](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
 
 ## Spostare o eliminare una storia o un problema dalla bacheca Scrum
 
@@ -133,9 +133,9 @@ Gli utenti possono ora visualizzare la formattazione del testo, ad esempio grass
 
 In precedenza, in Workfront Classic, la formattazione del testo era visibile solo negli elenchi Progetto, Attività e Ora.
 
-Per informazioni sulla formattazione del testo in un campo personalizzato, vedere [Creare un modulo personalizzato](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Per informazioni sulla formattazione del testo in un campo personalizzato, vedere [Creare un modulo personalizzato](https://experienceleague.adobe.com/it/docs/workfront/using/home).
 
-Per informazioni sulla visualizzazione delle informazioni negli elenchi, vedere [Introduzione agli elenchi](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Per informazioni sulla visualizzazione delle informazioni negli elenchi, vedere [Introduzione agli elenchi](https://experienceleague.adobe.com/it/docs/workfront/using/home).
 
 ## Casella Nuova attività di modifica
 

@@ -47,7 +47,7 @@ Continuiamo a migliorare il modo in cui utilizzi gli obiettivi di Workfront in b
 >
 >**Disponibilità di produzione:** con la versione 20.4
 
-Questa funzionalità è ora inclusa nel percorso di apprendimento [Obiettivi Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
+Questa funzionalità è ora inclusa nel percorso di apprendimento [Obiettivi Workfront](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
 
 ## Controlli di accesso per gli obiettivi di Workfront
 
@@ -61,7 +61,7 @@ Per informazioni sulla concessione dell&#39;accesso agli obiettivi di Workfront,
 >
 >**Disponibilità di produzione:** con la versione 20.4
 
-Questa funzionalità è ora inclusa nel percorso di apprendimento [Obiettivi Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
+Questa funzionalità è ora inclusa nel percorso di apprendimento [Obiettivi Workfront](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
 
 ## Miglioramenti all’usabilità degli obiettivi di Workfront
 
@@ -82,4 +82,4 @@ Per informazioni, vedere i seguenti articoli:
 >
 >**Disponibilità di produzione:** con la versione 20.4
 
-Questa funzionalità è ora inclusa nel percorso di apprendimento [Obiettivi Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
+Questa funzionalità è ora inclusa nel percorso di apprendimento [Obiettivi Workfront](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home) in Workfront One.

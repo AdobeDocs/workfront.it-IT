@@ -72,7 +72,7 @@ Per aiutarti a visualizzare e gestire meglio il tuo lavoro quotidiano con i cale
 
 In precedenza, era possibile gestire il calendario solo con date pianificate e previste quando le date effettive non erano disponibili.
 
-Per ulteriori informazioni, vedere [Utilizzare campi data personalizzati in un report del calendario](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (o se si utilizza Workfront Classic, vedere [Utilizzare campi data personalizzati in un report del calendario](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
+Per ulteriori informazioni, vedere [Utilizzare campi data personalizzati in un report del calendario](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (o se si utilizza Workfront Classic, vedere [Utilizzare campi data personalizzati in un report del calendario](https://experienceleague.adobe.com/it/docs/workfront/using/home)).
 
 ## Modifiche e-mail
 
@@ -82,7 +82,7 @@ In precedenza, gli amministratori di sistema potevano aggiungere un indirizzo e-
 
 **Modifiche alla risposta POP e-mail in entrata:** gli amministratori di sistema non potranno più configurare un server e-mail POP personalizzato per le risposte e-mail in entrata alle notifiche.
 
-Per ulteriori informazioni, consulta [Modifiche e-mail di spoofing e risposta POP](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Per ulteriori informazioni, consulta [Modifiche e-mail di spoofing e risposta POP](https://experienceleague.adobe.com/it/docs/workfront/using/home).
 
 ## DomainKeys Identified Mail (DKIM) ora incluso nelle e-mail Workfront in uscita
 

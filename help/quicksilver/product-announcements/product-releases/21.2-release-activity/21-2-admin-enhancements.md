@@ -36,7 +36,7 @@ Nell’area Registri di controllo, ora puoi tenere traccia e risolvere i problem
 
 Per ulteriori informazioni, vedere [Registri di controllo](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
-Questa funzionalità è ora inclusa in [Nozioni di base dell&#39;amministratore per la nuova esperienza Workfront, Parte 2: Percorso di apprendimento della configurazione del progetto](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
+Questa funzionalità è ora inclusa in [Nozioni di base dell&#39;amministratore per la nuova esperienza Workfront, Parte 2: Percorso di apprendimento della configurazione del progetto](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
 
 ## Per gli amministratori di gruppi: controlli migliorati per lo spostamento dei sottogruppi e barra degli strumenti aggiornata
 
@@ -137,7 +137,7 @@ In precedenza, queste impostazioni predefinite non potevano essere personalizzat
 
 Per ulteriori informazioni, vedere [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-Questa funzionalità è ora inclusa in [Nozioni di base per gli amministratori nella nuova esperienza Workfront, parte 3: esperienza di controllo e interfaccia](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) nel percorso di apprendimento di Workfront One.
+Questa funzionalità è ora inclusa in [Nozioni di base per gli amministratori nella nuova esperienza Workfront, parte 3: esperienza di controllo e interfaccia](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home) nel percorso di apprendimento di Workfront One.
 
 ## Novità per gli amministratori: elenco semplice dei rapporti che attualmente utilizzano un campo personalizzato
 

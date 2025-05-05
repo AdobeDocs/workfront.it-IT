@@ -41,7 +41,7 @@ Per informazioni su come utilizzare e installare il plug-in, consulta le risorse
 * [Installa il plug-in  [!DNL Adobe Workfront] per [!DNL Creative Cloud] applicazioni](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
 * [Gestisci il lavoro con il plug-in  [!DNL Adobe Workfront]  per  [!DNL Creative Cloud] applicazioni](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
 * [Carica documenti e bozze con il plugin  [!DNL Adobe Workfront]  per  [!DNL Creative Cloud] applicazioni](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
-* [Esercitazione video: usa [!DNL Adobe Workfront] plug-in per [!DNL Creative Cloud]](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud)
+* [Esercitazione video: usa [!DNL Adobe Workfront] plug-in per [!DNL Creative Cloud]](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud)
 * [Esercitazione video: creazione e gestione di pacchetti, distribuzione di aggiornamenti e risoluzione di problemi di installazione](https://www.youtube.com/watch?v=zzvXNLIBzrc)
 
 >[!NOTE]

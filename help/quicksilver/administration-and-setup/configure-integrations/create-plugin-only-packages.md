@@ -44,4 +44,4 @@ Per ulteriori informazioni sui plug-in [!UICONTROL [!DNL Adobe Workfront] per [!
 
 I pacchetti vengono creati tramite [!DNL Adobe Admin Console].
 
-Per istruzioni sulla creazione di questi pacchetti, vedere [Pacchetti gestiti](https://helpx.adobe.com/enterprise/using/create-nul-packages.html#managed-packages) nella documentazione di Adobe Admin Console.
+Per istruzioni sulla creazione di questi pacchetti, vedere [Pacchetti gestiti](https://helpx.adobe.com/it/enterprise/using/create-nul-packages.html#managed-packages) nella documentazione di Adobe Admin Console.

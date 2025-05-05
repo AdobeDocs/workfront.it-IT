@@ -138,5 +138,5 @@ Per informazioni sull&#39;utilizzo dei campi negli elenchi e nei report, vedere 
 
 Quando elimini una bozza salvata, ora puoi fare clic su Annulla nel messaggio di conferma che ti informa che la bozza verrà eliminata. In questo modo, non si perde la bozza nel caso in cui si cambia idea su come scartarla.
 
-Questa funzione è disponibile solo nella nuova esperienza Workfront. Per informazioni, vedere [Creare e inviare richieste Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Questa funzione è disponibile solo nella nuova esperienza Workfront. Per informazioni, vedere [Creare e inviare richieste Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/home).
 

@@ -27,7 +27,7 @@ Nella nuova esperienza Workfront, nel menu principale viene visualizzata l’opz
 
 In Workfront Classic, l’opzione Passa alla nuova esperienza viene visualizzata nel menu visualizzato quando si fa clic sull’immagine del profilo nell’angolo in alto a destra della barra di navigazione globale.
 
-Questa funzionalità è ora inclusa in [Nozioni di base per gli amministratori, parte 1, percorso di apprendimento](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
+Questa funzionalità è ora inclusa in [Nozioni di base per gli amministratori, parte 1, percorso di apprendimento](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
 
 ## Crittografia migliorata per Workfront Proof
 
@@ -62,7 +62,7 @@ Inoltre, nota il nostro stile moderno che ora migliora l’esperienza di configu
 
 Per informazioni sulla configurazione delle notifiche e-mail, vedere [Configurare le notifiche degli eventi per tutti gli utenti del sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-Questa funzionalità è ora inclusa nel percorso di apprendimento [Notifiche e-mail e in-app](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
+Questa funzionalità è ora inclusa nel percorso di apprendimento [Notifiche e-mail e in-app](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
 
 ## Nuovi oggetti API che attivano gli aggiornamenti delle sottoscrizioni di eventi
 

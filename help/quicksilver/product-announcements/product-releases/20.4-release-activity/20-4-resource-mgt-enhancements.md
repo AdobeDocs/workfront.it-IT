@@ -32,7 +32,7 @@ Con questa nuova funzione sono ora disponibili i seguenti miglioramenti:
 
 Per informazioni sull&#39;impegno di lavoro, vedere [Panoramica sull&#39;impegno di lavoro](../../../manage-work/tasks/task-information/work-effort.md).
 
-Questa funzionalità è ora inclusa in [Planner Fundamentals, Part 2 learning path](https://experienceleague.adobe.com/en/docs/workfront/using/home) su Workfront One.
+Questa funzionalità è ora inclusa in [Planner Fundamentals, Part 2 learning path](https://experienceleague.adobe.com/it/docs/workfront/using/home) su Workfront One.
 
 ## Colori basati sullo stato del progetto per gli elementi di lavoro nel Bilanciatore dei carichi di lavoro
 

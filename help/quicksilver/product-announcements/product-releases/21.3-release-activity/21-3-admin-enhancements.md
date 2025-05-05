@@ -27,7 +27,7 @@ Blueprint fornisce elementi di base per aiutarti a creare un sistema di gestione
 
 Per ulteriori informazioni, consulta [Panoramica blueprint](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
-Questa funzionalità è ora inclusa nei [modelli di progetto nella nuova esperienza Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) nel percorso di apprendimento di Workfront One.
+Questa funzionalità è ora inclusa nei [modelli di progetto nella nuova esperienza Workfront](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home) nel percorso di apprendimento di Workfront One.
 
 ## Novità per gli amministratori di gruppi: creare e gestire gli stati di un gruppo a qualsiasi livello
 

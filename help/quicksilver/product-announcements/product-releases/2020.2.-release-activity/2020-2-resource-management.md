@@ -64,7 +64,7 @@ Per informazioni sul filtro nel Bilanciatore dei carichi di lavoro, vedi [Gestir
 
 Per facilitare le decisioni corrette in merito alle assegnazioni, una nuova impostazione consente ora di visualizzare la differenza di ore tra le ore che un utente è disponibile a lavorare in base alla propria pianificazione e le ore che è già stato assegnato al lavoro (le ore rimanenti). La nuova impostazione è ora disponibile nel Bilanciatore dei carichi di lavoro.
 
-Per informazioni sulla visualizzazione delle informazioni nel Bilanciatore dei carichi di lavoro, vedi [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (o se utilizzi Adobe Workfront Classic, vedi [Navigare nel Bilanciatore dei carichi di lavoro](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
+Per informazioni sulla visualizzazione delle informazioni nel Bilanciatore dei carichi di lavoro, vedi [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (o se utilizzi Adobe Workfront Classic, vedi [Navigare nel Bilanciatore dei carichi di lavoro](https://experienceleague.adobe.com/it/docs/workfront/using/home)).
 
 **Disponibile in questi ambienti:**
 
@@ -76,7 +76,7 @@ Per comprendere in che modo le attività influiranno sul carico di lavoro degli 
 
 Prima di questa modifica, questa impostazione aggiornava solo le informazioni nell’area Lavoro assegnato del Bilanciatore.
 
-Per informazioni sull&#39;esplorazione del Bilanciatore dei carichi di lavoro, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (oppure, se si utilizza Adobe Workfront Classic, vedere [Navigare nel Bilanciatore dei carichi di lavoro](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
+Per informazioni sull&#39;esplorazione del Bilanciatore dei carichi di lavoro, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (oppure, se si utilizza Adobe Workfront Classic, vedere [Navigare nel Bilanciatore dei carichi di lavoro](https://experienceleague.adobe.com/it/docs/workfront/using/home)).
 
 **Disponibile in questi ambienti:**
 
@@ -90,7 +90,7 @@ Per semplificare l’esperienza, ora è disponibile una casella Impostazioni che
 * Gruppo per progetto
 * Visualizza le ore allocate o le ore rimanenti per le attività e i progetti.
 
-Per informazioni sulla visualizzazione delle informazioni nel Bilanciatore dei carichi di lavoro, vedi [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (o se utilizzi Adobe Workfront Classic, vedi [Navigare nel Bilanciatore dei carichi di lavoro](https://experienceleague.adobe.com/en/docs/workfront/using/home).).
+Per informazioni sulla visualizzazione delle informazioni nel Bilanciatore dei carichi di lavoro, vedi [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (o se utilizzi Adobe Workfront Classic, vedi [Navigare nel Bilanciatore dei carichi di lavoro](https://experienceleague.adobe.com/it/docs/workfront/using/home).).
 
 **Disponibile in questi ambienti:**
 
@@ -101,7 +101,7 @@ Per informazioni sulla visualizzazione delle informazioni nel Bilanciatore dei c
 
 Ora puoi condividere il carico di lavoro delle tue persone con dirigenti in modo che possano contestualizzare le tue esigenze di personale. Per questo, ora puoi condividere il Bilanciatore dei carichi di lavoro condividendo un URL univoco con chiunque altro.
 
-Per informazioni sull&#39;esplorazione del Bilanciatore dei carichi di lavoro, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (oppure, se si utilizza Adobe Workfront Classic, vedere [Navigare nel Bilanciatore dei carichi di lavoro](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
+Per informazioni sull&#39;esplorazione del Bilanciatore dei carichi di lavoro, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (oppure, se si utilizza Adobe Workfront Classic, vedere [Navigare nel Bilanciatore dei carichi di lavoro](https://experienceleague.adobe.com/it/docs/workfront/using/home)).
 
 **Disponibile in questi ambienti:**
 
@@ -114,7 +114,7 @@ Per personalizzare ulteriormente la durata della timeline del Bilanciatore dei c
 
 Prima di questo miglioramento, il Bilanciatore dei carichi di lavoro visualizzava sempre le informazioni a partire dalla settimana corrente.
 
-Per informazioni sull&#39;esplorazione del Bilanciatore dei carichi di lavoro, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (oppure, se si utilizza Adobe Workfront Classic, vedere [Navigare nel Bilanciatore dei carichi di lavoro](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
+Per informazioni sull&#39;esplorazione del Bilanciatore dei carichi di lavoro, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (oppure, se si utilizza Adobe Workfront Classic, vedere [Navigare nel Bilanciatore dei carichi di lavoro](https://experienceleague.adobe.com/it/docs/workfront/using/home)).
 
 **Disponibile in questi ambienti:**
 
@@ -129,11 +129,11 @@ Quando ad esempio si sposta o si copia un&#39;attività con un vincolo Deve iniz
 
 Prima di questa modifica, il vincolo dell’attività diventa sempre Appena possibile.
 
-Per informazioni sullo spostamento delle attività, vedi [Sposta attività](../../../manage-work/tasks/manage-tasks/move-tasks.md) (o se utilizzi Adobe Workfront Classic, vedi [Spostamento delle attività](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
+Per informazioni sullo spostamento delle attività, vedi [Sposta attività](../../../manage-work/tasks/manage-tasks/move-tasks.md) (o se utilizzi Adobe Workfront Classic, vedi [Spostamento delle attività](https://experienceleague.adobe.com/it/docs/workfront/using/home)).
 
-Per informazioni sulla copia delle attività, vedere [Copiare e duplicare le attività](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (oppure, se si utilizza Adobe Workfront Classic, vedere [Copiare e duplicare le attività](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
+Per informazioni sulla copia delle attività, vedere [Copiare e duplicare le attività](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (oppure, se si utilizza Adobe Workfront Classic, vedere [Copiare e duplicare le attività](https://experienceleague.adobe.com/it/docs/workfront/using/home)).
 
-Per una panoramica di tutti i vincoli di attività, vedere [Panoramica dei vincoli di attività](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (o se si utilizza Adobe Workfront Classic, vedere [Panoramica dei vincoli di attività](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
+Per una panoramica di tutti i vincoli di attività, vedere [Panoramica dei vincoli di attività](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (o se si utilizza Adobe Workfront Classic, vedere [Panoramica dei vincoli di attività](https://experienceleague.adobe.com/it/docs/workfront/using/home)).
 
 **Disponibile in questi ambienti:**
 
@@ -161,9 +161,9 @@ Gli stati personalizzati possono essere utilizzati ora nei processi di approvazi
 * Crea un processo di approvazione a utente singolo per un oggetto (progetto, attività o problema) e basalo sugli stati associati al gruppo che lavora su tale oggetto. Questo include eventuali stati personalizzati associati al gruppo.
 * Crea un processo di approvazione globale e rendilo disponibile solo per il gruppo o per tutti gli utenti del sistema.
 
-Per gli utenti con accesso amministrativo ai processi di approvazione, le informazioni sulla configurazione dei processi di approvazione sono disponibili in [Creare un processo di approvazione per gli elementi di lavoro](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (o se si utilizza Adobe Workfront Classic, vedere [Creazione di processi di approvazione](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
+Per gli utenti con accesso amministrativo ai processi di approvazione, le informazioni sulla configurazione dei processi di approvazione sono disponibili in [Creare un processo di approvazione per gli elementi di lavoro](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (o se si utilizza Adobe Workfront Classic, vedere [Creazione di processi di approvazione](https://experienceleague.adobe.com/it/docs/workfront/using/home)).
 
-Per gli utenti, le informazioni sull&#39;associazione dei processi di approvazione agli elementi di lavoro sono disponibili in [Associa un processo di approvazione nuovo o esistente al lavoro](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (oppure se si utilizza Adobe Workfront Classic, vedere [Associazione di un processo di approvazione nuovo o esistente al lavoro](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
+Per gli utenti, le informazioni sull&#39;associazione dei processi di approvazione agli elementi di lavoro sono disponibili in [Associa un processo di approvazione nuovo o esistente al lavoro](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (oppure se si utilizza Adobe Workfront Classic, vedere [Associazione di un processo di approvazione nuovo o esistente al lavoro](https://experienceleague.adobe.com/it/docs/workfront/using/home)).
 
 **Disponibile in questi ambienti:**
 

@@ -25,4 +25,4 @@ L’impostazione evidenziata in questa schermata passerà automaticamente all’
 
 Se hai configurato un server di posta SMTP personalizzato, **ti consigliamo vivamente di contattare il tuo team IT** per assicurarti che l&#39;e-mail da notifications@my.workfront.com non venga bloccata per le e-mail in arrivo nel tuo sistema. Puoi anche fare riferimento a Configurazione del firewall per i dettagli sugli indirizzi IP da cui provengono il traffico e l’e-mail.
 
-Per ulteriori domande o dubbi, contattare il [team di supporto Workfront](https://experienceleague.adobe.com/?support-tab=home#support).
+Per ulteriori domande o dubbi, contattare il [team di supporto Workfront](https://experienceleague.adobe.com/it?support-tab=home#support).

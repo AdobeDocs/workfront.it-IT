@@ -27,5 +27,5 @@ Ciò può verificarsi a causa del inserisco nell&#39;elenco Consentiti di in Ado
 
 Aggiungi gli indirizzi IP di Workfront al inserisco nell&#39;elenco Consentiti Adobe Cloud Manager.
 
-* Per istruzioni sull&#39;aggiunta di indirizzi IP al Cloud Manager di Adobe, vedi [Introduzione agli Elenchi consentiti IP](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction) nella documentazione di Adobe Experience Manager.
+* Per istruzioni sull&#39;aggiunta di indirizzi IP al Cloud Manager di Adobe, vedi [Introduzione agli Elenchi consentiti IP](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction) nella documentazione di Adobe Experience Manager.
 * Per un elenco degli indirizzi IP di Workfront da aggiungere al inserisco nell&#39;elenco Consentiti di, vedere [Configurare il firewall](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-firewall.md).

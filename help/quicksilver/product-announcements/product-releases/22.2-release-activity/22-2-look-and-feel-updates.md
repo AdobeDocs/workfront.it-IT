@@ -55,7 +55,7 @@ Le barre degli strumenti degli elenchi e dei rapporti seguenti hanno ora un aspe
 
 >[!NOTE]
 >
->La barra degli strumenti per questi stessi rapporti nelle dashboard è stata aggiornata anche in Produzione con l’aggiornamento settimanale di [manutenzione](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates) il 3 marzo 2022.
+>La barra degli strumenti per questi stessi rapporti nelle dashboard è stata aggiornata anche in Produzione con l’aggiornamento settimanale di [manutenzione](https://experienceleague.adobe.com/it/docs/workfront-known-issues/releases/current-updates) il 3 marzo 2022.
 
 * Rapporti sul progetto
 * Report attività

@@ -35,7 +35,7 @@ Dopo che i project manager hanno pianificato il lavoro sui progetti creando atti
 
 Questo articolo descrive lo scopo generale del Bilanciatore dei carichi di lavoro e alcune delle best practice per configurare progetti e risorse per utilizzarlo con successo.
 
-Per rivedere le esercitazioni video del Bilanciatore dei carichi di lavoro, vai alla pagina [Esercitazioni Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home). Nel menu a sinistra, seleziona **Gestisci risorse** > **Bilanciatore dei carichi di lavoro** e scegli un&#39;esercitazione.
+Per rivedere le esercitazioni video del Bilanciatore dei carichi di lavoro, vai alla pagina [Esercitazioni Workfront](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home). Nel menu a sinistra, seleziona **Gestisci risorse** > **Bilanciatore dei carichi di lavoro** e scegli un&#39;esercitazione.
 
 ## Individuare il Bilanciatore dei carichi di lavoro
 

@@ -43,6 +43,6 @@ Le barre degli strumenti degli elenchi e dei rapporti seguenti hanno ora un aspe
 
 >[!NOTE]
 >
->Questa modifica è stata aggiornata in Produzione il 23 maggio 2022. Per ulteriori informazioni, vedere l&#39;[aggiornamento di manutenzione del 26 maggio 2022](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+>Questa modifica è stata aggiornata in Produzione il 23 maggio 2022. Per ulteriori informazioni, vedere l&#39;[aggiornamento di manutenzione del 26 maggio 2022](https://experienceleague.adobe.com/it/docs/workfront/using/home).
 
 Sono stati aggiornati i separatori delle breadcrumb in tutte le aree in cui sono disponibili le breadcrumb. Ora, gli oggetti nelle breadcrumb sono separati da barre verticali (|). Prima di questo aggiornamento, erano separati da barre (/).

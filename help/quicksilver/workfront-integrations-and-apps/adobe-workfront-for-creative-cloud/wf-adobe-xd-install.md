@@ -50,7 +50,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> -->
   <tr> 
    <td role="rowheader">Prodotto</td> 
-   <td><p>È necessario disporre di una licenza [!DNL Adobe Creative Cloud] oltre a una licenza [!DNL Workfront].</p><p>Per ulteriori informazioni, vedere <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Criteri di supporto Creative Cloud</a>.</p></td> 
+   <td><p>È necessario disporre di una licenza [!DNL Adobe Creative Cloud] oltre a una licenza [!DNL Workfront].</p><p>Per ulteriori informazioni, vedere <a href="https://helpx.adobe.com/it/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Criteri di supporto Creative Cloud</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>

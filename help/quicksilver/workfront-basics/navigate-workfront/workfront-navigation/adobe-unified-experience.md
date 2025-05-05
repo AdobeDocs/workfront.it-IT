@@ -117,7 +117,7 @@ Se l&#39;organizzazione utilizza un&#39;applicazione separata per la gestione de
 
 Se la password è gestita da [!DNL Adobe], è possibile modificarla nell&#39;account Adobe.
 
-[Consulta questo articolo per modificare la password di Adobe.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
+[Consulta questo articolo per modificare la password di Adobe.](https://helpx.adobe.com/it/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 Per ulteriori informazioni sulla modifica della password, contattare l&#39;amministratore.
 

@@ -267,7 +267,7 @@ Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versi
 
 A partire dal 20 maggio 2020, Workfront inizierà a rendere disponibili le funzionalità nell’ambiente di anteprima su base settimanale. Prima di questa modifica, in genere la funzionalità veniva rilasciata nell’ambiente di anteprima ogni due settimane.
 
-Per ulteriori informazioni, consulta [Domande frequenti sulla modifica della cadenza di rilascio dell&#39;anteprima di Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/home)
+Per ulteriori informazioni, consulta [Domande frequenti sulla modifica della cadenza di rilascio dell&#39;anteprima di Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/home)
 
 ### Aggiunta di domini aggiuntivi al inserisco nell&#39;elenco Consentiti di accesso a Workfront {#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront}
 

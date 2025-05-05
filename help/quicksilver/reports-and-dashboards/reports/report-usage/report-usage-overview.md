@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Questa sezione contiene i seguenti articoli:
 
-* [Programma di base per la creazione di rapporti per la nuova esperienza Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)
+* [Programma di base per la creazione di rapporti per la nuova esperienza Workfront](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home)
 * [Accedere e organizzare i report](../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md)
 * [Crea un report sulle attività di reporting](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)
 * [Come organizzare i report in un dashboard](../../../reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)

@@ -25,7 +25,7 @@ Per un elenco di tutte le modifiche disponibili con la versione 2020.1, consulta
 
 Per rendere la tua esperienza più coerente quando utilizzi Workfront sia sull’app mobile che sul web, qualsiasi personalizzazione della navigazione secondaria del pannello sinistro nei modelli di layout nuovi o esistenti viene automaticamente riflessa nell’app mobile.
 
-Per ulteriori informazioni sulla personalizzazione del pannello sinistro, vedere [Personalizzare il pannello sinistro utilizzando un modello di layout nella nuova esperienza Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Per ulteriori informazioni sulla personalizzazione del pannello sinistro, vedere [Personalizzare il pannello sinistro utilizzando un modello di layout nella nuova esperienza Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/home).
 
 ## Aggiornamenti Mi piace sull’app mobile
 

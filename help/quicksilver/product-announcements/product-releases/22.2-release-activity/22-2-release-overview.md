@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Panoramica sulla versione 22.2
 
-Questa pagina fornisce informazioni sulle funzionalità incluse nella versione 22.2 di. Tutte le funzioni elencate sono disponibili nella nuova esperienza Adobe Workfront. Alcune funzionalità sono disponibili anche in Adobe Workfront Classic; tuttavia, [Workfront Classic verrà interrotto a marzo 2022](https://experienceleague.adobe.com/en/docs/workfront/using/home), seguito a breve dalla data di fine del ciclo di vita di Workfront Classic a luglio 2022.
+Questa pagina fornisce informazioni sulle funzionalità incluse nella versione 22.2 di. Tutte le funzioni elencate sono disponibili nella nuova esperienza Adobe Workfront. Alcune funzionalità sono disponibili anche in Adobe Workfront Classic; tuttavia, [Workfront Classic verrà interrotto a marzo 2022](https://experienceleague.adobe.com/it/docs/workfront/using/home), seguito a breve dalla data di fine del ciclo di vita di Workfront Classic a luglio 2022.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -123,7 +123,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>Disponibile in questi ambienti:</strong> </p> 
     <ul> 
      <li> <p>La nuova esperienza Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic verrà interrotto a marzo 2022</a>, seguito a breve dalla data di fine del ciclo di vita per Workfront Classic a luglio 2022.)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/it/docs/workfront/using/home" target="_blank">Workfront Classic verrà interrotto a marzo 2022</a>, seguito a breve dalla data di fine del ciclo di vita per Workfront Classic a luglio 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -291,7 +291,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>Disponibile in questi ambienti:</strong> </p> 
     <ul> 
      <li> <p>La nuova esperienza Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic verrà interrotto a marzo 2022</a>, seguito a breve dalla data di fine del ciclo di vita per Workfront Classic a luglio 2022.)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/it/docs/workfront/using/home" target="_blank">Workfront Classic verrà interrotto a marzo 2022</a>, seguito a breve dalla data di fine del ciclo di vita per Workfront Classic a luglio 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -303,7 +303,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>Disponibile in questi ambienti:</strong> </p> 
     <ul> 
      <li> <p>La nuova esperienza Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic verrà interrotto a marzo 2022</a>, seguito a breve dalla data di fine del ciclo di vita per Workfront Classic a luglio 2022.)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/it/docs/workfront/using/home" target="_blank">Workfront Classic verrà interrotto a marzo 2022</a>, seguito a breve dalla data di fine del ciclo di vita per Workfront Classic a luglio 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -357,7 +357,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>Disponibile in questi ambienti:</strong> </p> 
     <ul> 
      <li> <p>La nuova esperienza Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic verrà interrotto a marzo 2022</a>, seguito a breve dalla data di fine del ciclo di vita per Workfront Classic a luglio 2022.)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/it/docs/workfront/using/home" target="_blank">Workfront Classic verrà interrotto a marzo 2022</a>, seguito a breve dalla data di fine del ciclo di vita per Workfront Classic a luglio 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -584,7 +584,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
 
 ## Miglioramenti apportati a Workfront Fusion
 
-Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione della versione 22.2. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione della versione 22.2. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Miglioramenti di Workfront Scenario Planner
 
@@ -620,7 +620,7 @@ Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianific
 
 ## Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione apportati durante la versione 22.2, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
+Per informazioni sugli aggiornamenti di manutenzione apportati durante la versione 22.2, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/it/docs/workfront-known-issues/releases/current-updates).
 
 ## Webinar sulla versione 22.2
 
@@ -653,7 +653,7 @@ was presented on January 12, 2022. You can view the webinar recording on the
 
 ## Aggiornamenti dei corsi di formazione
 
-Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione di Adobe Workfront. Per ulteriori informazioni, vedere la [pagina Aggiornamenti delle versioni di formazione](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
+Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione di Adobe Workfront. Per ulteriori informazioni, vedere la [pagina Aggiornamenti delle versioni di formazione](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home).
 
 ## Funzionalità non più supportata
 

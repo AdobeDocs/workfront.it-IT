@@ -47,7 +47,7 @@ Per ulteriori informazioni, vedere [Consentire agli utenti di inviare un problem
 
 Per ulteriori informazioni sul motivo di questa modifica, vedere [Nuovo sistema gestito da Adobe Workfront per sostituire POP email for Request Queues con 21.1](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
 
-Questa funzionalità è ora inclusa in [Gestione code nel nuovo percorso di apprendimento di Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
+Questa funzionalità è ora inclusa in [Gestione code nel nuovo percorso di apprendimento di Workfront](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
 
 ## Limita la modifica delle ore nelle schede orario
 

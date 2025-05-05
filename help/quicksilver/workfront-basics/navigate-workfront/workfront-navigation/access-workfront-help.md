@@ -40,11 +40,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Accedi alla documentazione di [!DNL Adobe Workfront] su Experience League
 
-1. Vai alla [[!DNL Adobe Workfront] pagina della documentazione il [!DNL Experience League]](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+1. Vai alla [[!DNL Adobe Workfront] pagina della documentazione il [!DNL Experience League]](https://experienceleague.adobe.com/it/docs/workfront/using/home).
 
 Oltre alla ricerca della documentazione di supporto, è possibile accedere alle seguenti risorse di [!DNL Workfront] da Experience League:
 
-* Esercitazioni Workfront: per ulteriori informazioni, consulta [[!DNL Workfront] Esercitazioni](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
+* Esercitazioni Workfront: per ulteriori informazioni, consulta [[!DNL Workfront] Esercitazioni](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home).
 
 * [!UICONTROL Innovation Lab]: per ulteriori informazioni, vedere [The [!UICONTROL Innovation Lab]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
 * [!UICONTROL [!DNL Workfront] Community]: per ulteriori informazioni, vedere [The [!UICONTROL [!DNL Adobe Workfront] Community]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)

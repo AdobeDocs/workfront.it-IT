@@ -33,7 +33,7 @@ In precedenza, per visualizzare la decisione generale sulla bozza era necessario
 
 Per ulteriori informazioni sulle decisioni relative alle bozze, vedere [Area Documenti](../../../documents/managing-documents/documents-area.md).
 
-Questa funzionalità è ora inclusa nel percorso di apprendimento [Gestione di bozze e versioni nella nuova esperienza Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
+Questa funzionalità è ora inclusa nel percorso di apprendimento [Gestione di bozze e versioni nella nuova esperienza Workfront](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
 
 ## Nuovi campi nel rapporto Proof Approval (Approvazione bozza)
 
@@ -45,7 +45,7 @@ Per rendere più visibili informazioni utili sulle prove, sono stati aggiunti i 
 
 Questi campi non fanno parte del rapporto predefinito. Devi aggiungerli se vuoi vederli.
 
-Questa funzionalità è ora inclusa nelle [impostazioni del sistema di bozze, Parte 2: Gestione dei flussi di lavoro](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home), percorso di apprendimento in Workfront One.
+Questa funzionalità è ora inclusa nelle [impostazioni del sistema di bozze, Parte 2: Gestione dei flussi di lavoro](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home), percorso di apprendimento in Workfront One.
 
 ## Riporta il flusso di lavoro della bozza esistente durante la generazione di una nuova versione
 

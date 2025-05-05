@@ -42,4 +42,4 @@ Questa sezione contiene i seguenti articoli:
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../enhanced-analytics/trend-views-overview.md" class="MCXref xref" xrefformat="{para}">Trend views overview</a> </li>
   -->
 
-Per informazioni approfondite su Analisi avanzate, consulta [Percorsi di apprendimento per Analisi avanzate](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
+Per informazioni approfondite su Analisi avanzate, consulta [Percorsi di apprendimento per Analisi avanzate](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home).

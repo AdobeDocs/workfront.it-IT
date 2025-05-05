@@ -29,4 +29,4 @@ Per consentirti di visualizzare le informazioni che desideri visualizzare senza 
 
 In precedenza, l’area Analisi avanzata limitava a 50 il numero di progetti che era possibile esaminare.
 
-Questa funzionalità è ora inclusa nel percorso di apprendimento [Analisi avanzata, Parte 1](https://experienceleague.adobe.com/en/docs/workfront/using/home) in Workfront One.
+Questa funzionalità è ora inclusa nel percorso di apprendimento [Analisi avanzata, Parte 1](https://experienceleague.adobe.com/it/docs/workfront/using/home) in Workfront One.

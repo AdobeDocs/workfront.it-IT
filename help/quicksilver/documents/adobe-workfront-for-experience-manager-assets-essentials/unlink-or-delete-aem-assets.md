@@ -30,8 +30,8 @@ Quando si elimina un documento o una cartella collegata in Workfront, questo vie
 
 Quando si elimina un documento o una cartella collegata dall&#39;applicazione esterna, il documento o la cartella rimane nel sistema Workfront fino a quando non viene eliminato anche da Workfront.
 
-* Per eliminare una risorsa da Adobe Experience Manager as a Cloud Service, vedi [Elimina risorse](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets) nella documentazione di Adobe Experience Manager as a Cloud Service.
-* Per eliminare una risorsa da Adobe Experience Manager Assets Essentials, consulta [Eliminare risorse o cartelle](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/add-delete#delete-assets) nella documentazione di Adobe Experience Manager Assets Essentials.
+* Per eliminare una risorsa da Adobe Experience Manager as a Cloud Service, vedi [Elimina risorse](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets) nella documentazione di Adobe Experience Manager as a Cloud Service.
+* Per eliminare una risorsa da Adobe Experience Manager Assets Essentials, consulta [Eliminare risorse o cartelle](https://experienceleague.adobe.com/it/docs/experience-manager-assets-essentials/help/add-delete#delete-assets) nella documentazione di Adobe Experience Manager Assets Essentials.
 
 
 

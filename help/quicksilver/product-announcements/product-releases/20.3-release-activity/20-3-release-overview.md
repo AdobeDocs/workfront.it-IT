@@ -435,7 +435,7 @@ Per informazioni sugli aggiornamenti di manutenzione apportati durante la versio
 
 A partire dal 20 maggio 2020, Workfront ha iniziato a rendere disponibili funzionalità nell’ambiente di anteprima su base settimanale. Prima di questa modifica, in genere la funzionalità veniva rilasciata nell’ambiente di anteprima ogni due settimane.
 
-Per ulteriori informazioni, consulta [Domande frequenti sulla modifica della cadenza di rilascio dell&#39;anteprima di Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/home)
+Per ulteriori informazioni, consulta [Domande frequenti sulla modifica della cadenza di rilascio dell&#39;anteprima di Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/home)
 
 ### È richiesto il Elenco Consentiti di domini aggiuntivi per accedere a Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
@@ -454,7 +454,7 @@ Con Workfront One, potrai scoprire i contenuti, le risorse e le notizie più imp
 
 ### Webinar sulla versione 20.3 {#20-3-release-webinar}
 
-Guarda il webinar sulla versione di prodotto 20.3 [qui](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Guarda il webinar sulla versione di prodotto 20.3 [qui](https://experienceleague.adobe.com/it/docs/workfront/using/home).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
