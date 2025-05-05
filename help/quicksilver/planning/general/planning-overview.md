@@ -323,6 +323,7 @@ Di seguito sono riportati gli oggetti e i concetti principali di Workfront Plann
      ![Raggruppamento applicato nella vista timeline](assets/grouping-applied-in-timeline-view.png)
 
    * **Visualizzazione calendario**: visualizza i record con almeno due campi di tipo Data in un formato calendario.
+
      ![Esempio di visualizzazione calendario](assets/calendar-view-example.png)
 
 

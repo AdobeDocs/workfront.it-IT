@@ -197,4 +197,4 @@ Se disponi dei diritti di modifica per eseguire questa operazione, puoi spostare
 1. Esegui una delle operazioni seguenti:
 
    * Per spostare un elemento, fare clic su di esso e tenerlo premuto, trascinandolo nella cartella in cui si desidera inserirlo.
-   * Per spostare più elementi contemporaneamente, seleziona le caselle di controllo a sinistra degli elementi, quindi fai clic su **[!UICONTROL Sposta in]**sopra l&#39;elenco, quindi seleziona la cartella in cui vuoi inserirli o crea una nuova cartella per essi.
+   * Per spostare più elementi contemporaneamente, seleziona le caselle di controllo a sinistra degli elementi, quindi fai clic su **[!UICONTROL Sposta in]**&#x200B;sopra l&#39;elenco, quindi seleziona la cartella in cui vuoi inserirli o crea una nuova cartella per essi.

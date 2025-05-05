@@ -107,11 +107,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       <td>[!DNL Workfront] invia un’e-mail quando l’ultimo approvatore sulla bozza ha preso la sua decisione.<p>Questo avviso viene spesso utilizzato dal progettista, che di solito non ha bisogno di partecipare alla discussione di revisione effettiva. Al momento della decisione finale, il progettista riceve una notifica e può quindi intervenire su eventuali modifiche necessarie.</p><p>Questo avviso può essere utile anche per un responsabile di reparto che deve ricevere una notifica solo al termine del processo di revisione.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Riepilogo orario [!UICONTROL]</td> 
+      <td role="rowheader">Riepilogo orario </td> 
       <td>[!DNL Workfront] invia ogni ora un'e-mail al revisore con un riepilogo di tutti i commenti, le risposte e le decisioni che si sono verificati nel corso dell'ora.<p>L’e-mail viene inviata solo quando nell’ultima ora si verifica un’attività oltre alla tua. </p><p>Questo avviso è utile per avere una panoramica del progetto.</p><p>Un caso d’uso di esempio per questo riepilogo è un revisore senior che ha bisogno di una panoramica del progetto ma non ha bisogno di essere informato immediatamente di tutte le attività sulla bozza.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Riepilogo giornaliero di [!UICONTROL]</td> 
+      <td role="rowheader">Riepilogo giornaliero di </td> 
       <td>[!DNL Workfront] invia un’e-mail con tutti i commenti, le risposte e le decisioni elencati solo nei giorni in cui è presente un’attività oltre alla tua.<p>Questo avviso è un buon modo per visualizzare un riepilogo del progetto senza essere sommersi da più aggiornamenti durante la giornata.</p><p>Un caso d’uso di esempio per questo riepilogo è un responsabile di reparto che desidera monitorare l’avanzamento generale del progetto.</p><p>Per ulteriori informazioni, consulta <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Gestire le notifiche per i commenti e le decisioni relative alle bozze</a>.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
@@ -134,7 +134,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      <tr> 
       <td role="rowheader">[!UICONTROL Formato delle e-mail inviate all'utente] </td> 
       <td> <p>Scegli tra e-mail in stile HTML ed e-mail in testo normale. </p> <p><b>NOTA</b></p>
-      <p>Le impostazioni predefinite della bozza vengono sostituite dalle impostazioni a livello di bozza. Tuttavia, se le notifiche e-mail delle bozze sono disabilitate per l'intero account nelle impostazioni dell'account [!UICONTROL], nessun avviso e-mail verrà inviato ai collaboratori anche se l'avviso e-mail [!UICONTROL Disabled] non è selezionato nelle bozze.<br></p> </td> 
+      <p>Le impostazioni predefinite della bozza vengono sostituite dalle impostazioni a livello di bozza. Tuttavia, se le notifiche e-mail delle bozze sono disabilitate per l'intero account nelle impostazioni dell'account , nessun avviso e-mail verrà inviato ai collaboratori anche se l'avviso e-mail [!UICONTROL Disabled] non è selezionato nelle bozze.<br></p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -201,11 +201,11 @@ Se sei un amministratore di [!DNL Workfront Proof], puoi impostare le impostazio
       <td>[!DNL Workfront] invia un’e-mail quando l’ultimo approvatore sulla bozza ha preso la sua decisione.<p>Questo avviso viene spesso utilizzato dal progettista, che di solito non ha bisogno di partecipare alla discussione di revisione effettiva. Al momento della decisione finale, il progettista riceve una notifica e può quindi intervenire su eventuali modifiche necessarie.</p><p>Questo avviso può essere utile anche per un responsabile di reparto che deve ricevere una notifica solo al termine del processo di revisione.</p></td>
      </tr>
      <tr>
-      <td role="rowheader">Riepilogo orario [!UICONTROL]</td>
+      <td role="rowheader">Riepilogo orario </td>
       <td>[!DNL Workfront] invia ogni ora un'e-mail al revisore con un riepilogo di tutti i commenti, le risposte e le decisioni che si sono verificati nel corso dell'ora.<p>L’e-mail viene inviata solo quando nell’ultima ora si verifica un’attività oltre alla tua. </p><p>Questo avviso è utile per avere una panoramica del progetto.</p><p>Un caso d’uso di esempio per questo riepilogo è un revisore senior che ha bisogno di una panoramica del progetto ma non ha bisogno di essere informato immediatamente di tutte le attività sulla bozza.</p></td>
      </tr>
      <tr>
-      <td role="rowheader">Riepilogo giornaliero di [!UICONTROL]</td>
+      <td role="rowheader">Riepilogo giornaliero di </td>
       <td>[!DNL Workfront] invia un’e-mail con tutti i commenti, le risposte e le decisioni elencati solo nei giorni in cui è presente un’attività oltre alla tua.<p>Questo avviso è un buon modo per visualizzare un riepilogo del progetto senza essere sommersi da più aggiornamenti durante la giornata.</p><p>Un caso d’uso di esempio per questo riepilogo è un responsabile di reparto che desidera monitorare l’avanzamento generale del progetto.</p><p>Per ulteriori informazioni, consulta <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Gestire le notifiche per i commenti e le decisioni relative alle bozze</a>.</p></td>
      </tr>
      <tr data-mc-conditions="">
@@ -227,7 +227,7 @@ Se sei un amministratore di [!DNL Workfront Proof], puoi impostare le impostazio
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Formato delle e-mail inviate all'utente] </td> 
-      <td> <p>Scegli tra e-mail in stile HTML ed e-mail in testo normale. </p> <p><b>NOTA</b></p> <p>Le impostazioni predefinite della bozza vengono sostituite dalle impostazioni a livello di bozza. Tuttavia, se le notifiche e-mail delle bozze sono disabilitate per l'intero account nelle impostazioni dell'account [!UICONTROL], nessun avviso e-mail verrà inviato ai collaboratori anche se l'avviso e-mail [!UICONTROL Disabled] non è selezionato nelle bozze.<br></p> </td> 
+      <td> <p>Scegli tra e-mail in stile HTML ed e-mail in testo normale. </p> <p><b>NOTA</b></p> <p>Le impostazioni predefinite della bozza vengono sostituite dalle impostazioni a livello di bozza. Tuttavia, se le notifiche e-mail delle bozze sono disabilitate per l'intero account nelle impostazioni dell'account , nessun avviso e-mail verrà inviato ai collaboratori anche se l'avviso e-mail [!UICONTROL Disabled] non è selezionato nelle bozze.<br></p> </td> 
      </tr> 
     </tbody> 
    </table>

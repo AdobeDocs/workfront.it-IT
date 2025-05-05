@@ -74,7 +74,7 @@ Quando qualcuno condivide una cartella con te, questa viene visualizzata nella b
 
 1. Fai clic sul collegamento nell’e-mail di notifica ricevuta.
 1. Accedi a [!DNL Workfront Proof].\
-     [!DNL  Workfront Proof] visualizza la pagina Dettagli cartella. Per ulteriori informazioni, vedere [Gestione cartelle e relativo contenuto in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
+     [!DNL &#x200B; Workfront Proof] visualizza la pagina Dettagli cartella. Per ulteriori informazioni, vedere [Gestione cartelle e relativo contenuto in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
 
 ## Informazioni sulla condivisione delle sottocartelle
 

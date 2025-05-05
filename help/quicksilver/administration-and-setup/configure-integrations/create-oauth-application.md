@@ -222,7 +222,7 @@ Per istruzioni sulla configurazione e l&#39;utilizzo dell&#39;applicazione OAuth
       <td>Abilita questa opzione affinché, ogni volta che viene utilizzato il token di aggiornamento, ne venga emesso uno nuovo. L’applicazione deve archiviare il nuovo token di aggiornamento dopo ogni aggiornamento.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">Scadenza token di aggiornamento assoluto di [!UICONTROL]</td> 
+      <td role="rowheader">Scadenza token di aggiornamento assoluto di </td> 
       <td> <p>Seleziona il periodo di tempo per il quale desideri che esista un token di aggiornamento prima della scadenza. Quando scade, gli utenti devono accedere di nuovo all’integrazione. Seleziona "[!UICONTROL Nessuna scadenza]" se non desideri che il token di aggiornamento scada.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 

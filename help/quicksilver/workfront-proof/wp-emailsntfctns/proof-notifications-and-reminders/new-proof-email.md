@@ -56,7 +56,7 @@ L’e-mail Nuova bozza contiene:
 
 ## Registro attività
 
-L&#39;invio di un&#39;e-mail di [!UICONTROL Nuova bozza] a un revisore è registrato nella sezione [!UICONTROL Attività] della pagina [!UICONTROL Dettagli bozza]. Per ulteriori informazioni, vedi [Gestisci[!UICONTROL  dettagli bozza] in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md). Puoi verificare se l&#39;e-mail [!UICONTROL New Proof] è stata abilitata al momento della creazione di una bozza.
+L&#39;invio di un&#39;e-mail di [!UICONTROL Nuova bozza] a un revisore è registrato nella sezione [!UICONTROL Attività] della pagina [!UICONTROL Dettagli bozza]. Per ulteriori informazioni, vedi [Gestisci[!UICONTROL &#x200B; dettagli bozza] in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md). Puoi verificare se l&#39;e-mail [!UICONTROL New Proof] è stata abilitata al momento della creazione di una bozza.
 
 ![New_Verison_email_-_activity_log.png](assets/new-verison-email---acitivity-log-350x44.png)
 

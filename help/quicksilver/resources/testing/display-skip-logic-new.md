@@ -141,7 +141,7 @@ Per saperne di più, continua a lavorare sul modulo personalizzato di esempio cr
 
    *Appartenenza*
 
-1. Apri la scheda **Aggiungi campo**, crea un **Campo di testo con formattazione **campo denominato *Qual è l&#39;obiettivo per il sito Web?*, quindi fare clic su **Applica**.
+1. Apri la scheda **Aggiungi campo**, crea un **Campo di testo con formattazione &#x200B;** campo denominato *Qual è l&#39;obiettivo per il sito Web?*, quindi fare clic su **Applica**.
 
    In questa organizzazione, il team di redazione tecnica crea un sito di documentazione della Guida e non il reparto Marketing. Pertanto, non sono necessarie ulteriori informazioni da parte di un utente che seleziona la documentazione di Aiuto nel secondo campo. Creeremo una riga di testo (un campo di testo descrittivo) che comunicherà loro di visualizzare il team di redazione tecnica. E utilizzeremo una regola di logica skip che salta l’utente a quella riga di testo.
 

@@ -33,7 +33,7 @@ La modifica delle impostazioni internazionali non ha effetto sul giorno di inizi
 Di seguito sono riportate le istruzioni per la modifica delle impostazioni della lingua e delle impostazioni internazionali per i vari browser supportati con Workfront.
 
 * **Chrome:** Copia e incolla il seguente collegamento nel browser Chrome: `chrome://settings/languages`, quindi passa a Lingue.
-* **Firefox:**copia e incolla il seguente collegamento nel browser Firefox: `about:preferences#content`, quindi passa a Lingue.
+* **Firefox:**&#x200B;copia e incolla il seguente collegamento nel browser Firefox: `about:preferences#content`, quindi passa a Lingue.
 * **IE 11:** Strumenti -> Opzioni Internet -> Generale -> Lingue
 * **Safari:** Sfortunatamente, Safari non consente la modifica delle lingue di esplorazione Web senza modificare anche l&#39;intera lingua del sistema operativo. Probabilmente è più facile semplicemente installare un altro browser come Chrome o Firefox.
 

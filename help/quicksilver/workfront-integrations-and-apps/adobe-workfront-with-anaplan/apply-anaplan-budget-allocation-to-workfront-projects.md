@@ -98,7 +98,7 @@ Per utilizzare questo scenario, è necessario disporre dei seguenti elementi in 
 
    6. [!UICONTROL Marchio]
 
-  La visualizzazione deve essere filtrata in modo da visualizzare gli elementi con GUID ] del progetto [!UICONTROL [!DNL Workfront] e alcuni indicatori che indicano che le allocazioni budget devono essere trasmesse a [!DNL Workfront].
+  La visualizzazione deve essere filtrata in modo da visualizzare gli elementi con GUID  del progetto [!DNL Workfront] e alcuni indicatori che indicano che le allocazioni budget devono essere trasmesse a [!DNL Workfront].
 
 Per istruzioni su una di queste azioni, vedere la documentazione di [!DNL Anaplan].
 

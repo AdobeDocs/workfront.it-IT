@@ -60,6 +60,7 @@ Dopo aver creato un dashboard, è possibile iniziare ad aggiungere indicatori KP
 1. Fai clic su **Modifica filtro** > **Aggiungi condizione**.
    1. Fai clic sul filtro delle condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Stato**.
    1. Lascia l&#39;operatore come **Uguale** e digita _in attesa di revisione_ nella casella di testo.
+
       ![esempio di filtro kpi in sospeso](assets/pending-kpi-filter.png)
 1. Fai clic su **Fine** nell&#39;angolo in alto a destra dello schermo.
 
@@ -76,10 +77,12 @@ Dopo aver creato un dashboard, è possibile iniziare ad aggiungere indicatori KP
 1. Fai clic su **Modifica filtro** > **Aggiungi condizione**:
    1. Fai clic sul filtro delle condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Scadenza**.
    1. Cambia l&#39;operatore in **Minore di** e attiva la data relativa, quindi digita _$$TODAY_ nella casella di testo.
+
       ![esempio di filtro kpi scaduto](assets/overdue-kpi-filter.png)
 1. Fai clic su **Aggiungi condizione**:
    1. Fai clic sul filtro delle condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Stato**.
    1. Cambia l&#39;operatore in **Non contiene**, quindi digita _approvato_ nella casella di testo.
+
       ![esempio di filtro kpi scaduto 2](assets/overdue-kpi-filter-2.png)
 1. Fai clic su **Fine** nell&#39;angolo in alto a destra dello schermo.
 
@@ -96,11 +99,13 @@ Dopo aver creato un dashboard, è possibile iniziare ad aggiungere indicatori KP
 1. Fai clic su **Modifica filtro** > **Aggiungi condizione**:
    1. Fai clic sul filtro delle condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Stato**.
    1. Cambia l&#39;operatore in **Contains** e digita _approve_ nella casella di testo.
+
       ![esempio di filtro kpi completato](assets/completed-kpi-filter.png)
 1. Fai clic su **Aggiungi condizione**:
    1. Fai clic su **And** per modificarlo in **Or**.
    1. Fai clic sul filtro delle condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Stato**.
    1. Cambia l&#39;operatore in **Uguale a**, quindi digita _revisionato_ nella casella di testo.
+
       ![esempio di filtro kpi completato](assets/completed-kpi-filter-2.png)
 1. Fai clic su **Fine** nell&#39;angolo in alto a destra dello schermo.
 
@@ -116,10 +121,12 @@ Dopo aver creato un dashboard, è possibile iniziare ad aggiungere indicatori KP
 1. Fai clic su **Modifica filtro** > **Aggiungi condizione**:
    1. Fai clic sul filtro delle condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Stato**.
    1. Cambia l&#39;operatore in **Non contiene** e digita _approvato_ nella casella di testo.
+
       ![esempio di filtro kpi abbandonato](assets/abandoned-kpi-filter.png)
 1. Fai clic su **Aggiungi condizione**:
    1. Fai clic sul filtro delle condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Scadenza**.
    1. Cambia l&#39;operatore in **Minore di**, quindi attiva la data relativa e digita _$$TODAY-2w_ nella casella di testo.
+
       ![esempio di filtro kpi abbandonato](assets/abandoned-kpi-filter-2.png)
 1. Fai clic su **Fine** nell&#39;angolo in alto a destra dello schermo.
 
@@ -143,6 +150,7 @@ Dopo aver creato un dashboard, è possibile iniziare ad aggiungere indicatori KP
 1. Fai clic su **Modifica filtro** > **Aggiungi condizione**:
    1. Fare clic sul filtro delle condizioni vuoto, fare clic su **Scegli un campo**, quindi scegliere **Versione documento**.
    1. Cambia l&#39;operatore in **Is Not Null**.
+
       ![esempio filtro](assets/approvals-by-decision-chart-filter.png)
 1. Fai clic su **Fine** nell&#39;angolo in alto a destra dello schermo.
 
@@ -163,10 +171,12 @@ Dopo aver creato un dashboard, è possibile iniziare ad aggiungere indicatori KP
 1. Fai clic su **Modifica filtro** > **Aggiungi condizione**:
    1. Fai clic sul filtro delle condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Data decisione partecipanti fase di approvazione**.
    1. Cambia l&#39;operatore in **Is Null**.
+
       ![esempio filtro grafico revisioni](assets/revision-chart-filter.png)
 1. Fai clic su **Modifica filtro** > **Aggiungi condizione**:
    1. Fai clic sul filtro delle condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Scadenza fase di approvazione**.
    1. Modifica l&#39;operatore in **Minore di o uguale a**, quindi attiva Imposta data relativa e digita _$$TODAYem_ nella casella di testo.
+
       ![esempio filtro grafico revisioni](assets/revision-chart-filter-2.png)
 1. Fai clic su **Fine** nell&#39;angolo in alto a destra dello schermo.
 
@@ -225,6 +235,7 @@ Dopo aver creato un dashboard, è possibile iniziare ad aggiungere indicatori KP
 1. Fai clic su **Modifica filtro** > **Aggiungi condizione**:
    1. Fai clic sul filtro delle condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Stato**.
    1. Cambia l&#39;operatore in **Equal**, quindi digita _in attesa di approvazione_.
+
       ![esempio di filtro della tabella di approvazione in sospeso](assets/pending-approval-table-filter.png)
 1. Aggiungi i filtri facoltativi come descritto di seguito oppure fai clic su **Fine** nell&#39;angolo in alto a destra dello schermo.
 
@@ -239,6 +250,7 @@ Per visualizzare informazioni più specifiche a seconda del caso di utilizzo, pu
 1. Fai clic su **Modifica filtro** > **Aggiungi condizione**:
    1. Fai clic sul filtro delle condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Versione documento** > **Documento** > **Progetto** > **Proprietario** > digita _Nome_ nella casella di ricerca.
    1. Cambia l&#39;operatore in **Uguale**, quindi scegli **Io (Utente connesso)** per visualizzare i progetti in Workfront in cui sei contrassegnato come proprietario del progetto.
+
       ![esempio di filtro della tabella di approvazione in sospeso](assets/pending-approvals-my-project-filter.png)
 1. Fai clic su **Fine** nell&#39;angolo in alto a destra dello schermo.
 
@@ -247,6 +259,7 @@ Per visualizzare informazioni più specifiche a seconda del caso di utilizzo, pu
 1. Fai clic su **Modifica filtro** > **Aggiungi condizione**:
    1. Fai clic sul filtro delle condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Fase approvazione** > **Partecipanti fase approvazione** > **Richiedente** > digita _Nome_ nella casella di ricerca.
    1. Cambia l&#39;operatore in **Uguale**, quindi scegli **Io (Utente connesso)** per visualizzare i progetti in Workfront in cui sei contrassegnato come proprietario del progetto.
+
       ![esempio di filtro della tabella di approvazione in sospeso](assets/pending-approvals-my-project-filter.png)
 1. Fai clic su **Fine** nell&#39;angolo in alto a destra dello schermo.
 
@@ -303,6 +316,7 @@ Per visualizzare informazioni più specifiche a seconda del caso di utilizzo, pu
 1. Fai clic su **Modifica filtro** > **Aggiungi condizione**:
    1. Fai clic sul filtro delle condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Fase approvazione** > **Scadenza**.
    1. Modifica l&#39;operatore in **Minore di**, attiva **Imposta data relativa**, quindi digita _$$TODAY_.
+
       ![esempio di filtro della tabella di approvazione scaduto](assets/overdue-approval.png)
 1. Aggiungi i filtri facoltativi come descritto di seguito oppure fai clic su **Fine** nell&#39;angolo in alto a destra dello schermo.
 
@@ -318,6 +332,7 @@ Per visualizzare informazioni più specifiche a seconda del caso di utilizzo, pu
 1. Fai clic su **Modifica filtro** > **Aggiungi condizione**:
    1. Fai clic sul filtro delle condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Versione documento** > **Documento** > **Progetto** > **Proprietario** > digita _Nome_ nella casella di ricerca.
    1. Cambia l&#39;operatore in **Uguale**, quindi scegli **Io (Utente connesso)** per visualizzare i progetti in Workfront in cui sei contrassegnato come proprietario del progetto.
+
       ![esempio di filtro della tabella di approvazione in sospeso](assets/pending-approvals-my-project-filter.png)
 1. Fai clic su **Fine** nell&#39;angolo in alto a destra dello schermo.
 
@@ -326,6 +341,7 @@ Per visualizzare informazioni più specifiche a seconda del caso di utilizzo, pu
 1. Fai clic su **Modifica filtro** > **Aggiungi condizione**:
    1. Fai clic sul filtro delle condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Fase approvazione** > **Partecipanti fase approvazione** > **Richiedente** > digita _Nome_ nella casella di ricerca.
    1. Cambia l&#39;operatore in **Uguale**, quindi scegli **Io (Utente connesso)** per visualizzare i progetti in Workfront in cui sei contrassegnato come proprietario del progetto.
+
       ![esempio di filtro della tabella di approvazione in sospeso](assets/pending-approvals-my-project-filter.png)
 1. Fai clic su **Fine** nell&#39;angolo in alto a destra dello schermo.
 
@@ -334,6 +350,7 @@ Per visualizzare informazioni più specifiche a seconda del caso di utilizzo, pu
 1. Fai clic su **Modifica filtro** > **Aggiungi condizione**:
    1. Fai clic sul filtro delle condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Fase approvazione** > **Partecipanti fase approvazione** > **Team partecipante** > digita _Nome_ nella casella di ricerca.
    1. Cambia l&#39;operatore in **Uguale**, quindi scegli **I miei team predefiniti (Utente connesso)** o **I miei altri team (Utente connesso)** per visualizzare i progetti assegnati al tuo team predefinito o ad altri team a cui sei connesso.
+
       ![esempio di filtro della tabella di approvazione in sospeso](assets/approvals-ive-submitted-filter.png)
 1. Fai clic su **Fine** nell&#39;angolo in alto a destra dello schermo.
 +++

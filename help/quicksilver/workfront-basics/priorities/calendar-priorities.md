@@ -131,7 +131,7 @@ In Priorità vengono visualizzati gli elementi di lavoro assegnati all&#39;utent
     </tbody>
     </table>
 
-+++
+   +++
 
 1. Fare clic sulla barra degli elementi di lavoro nel calendario per aprire il riepilogo laterale. Il riepilogo laterale consente di:
 

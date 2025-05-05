@@ -206,7 +206,7 @@ Per informazioni sulle autorizzazioni del progetto, vedere [Condividere un proge
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Visualizzazione [!UICONTROL]</td> 
+      <td role="rowheader">Visualizzazione </td> 
       <td>Gli utenti con cui condividi il piano disporranno delle autorizzazioni necessarie per visualizzarlo. Non possono modificare le informazioni sul piano, aggiungere iniziative, scenari o pubblicare scenari. </td> 
      </tr> 
      <tr> 

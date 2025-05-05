@@ -62,7 +62,7 @@ I campi personalizzati ti consentono di acquisire dati aggiuntivi durante la cre
    * **Ricercabile** (Condizionale): seleziona questa casella per rendere ricercabile il campo personalizzato.
    * **Nascosto**: selezionare questa casella per nascondere il campo personalizzato nelle pagine **Nuova bozza**, **Nuovo ospite** e **Nuovo utente**.
 
-1. Specificare il tipo di campo **** e i dettagli:
+1. Specificare il tipo di campo **&#x200B;**&#x200B;e i dettagli:
 
    * **Tipo**: selezionare il tipo di campo personalizzato.
    * **Elementi elenco**: (condizionale) aggiungi gli elementi elenco che verranno visualizzati nel campo personalizzato.

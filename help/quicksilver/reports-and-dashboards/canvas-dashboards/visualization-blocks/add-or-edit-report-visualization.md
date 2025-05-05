@@ -41,15 +41,15 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
 
 1. Nella parte destra della schermata, in **Aggiungi un blocco**:
 
-   Trascina l&#39;icona **Visualizzazione** **** nell&#39;area di lavoro direttamente nella posizione desiderata.
+   Trascina l&#39;icona **Visualizzazione** **&#x200B;**&#x200B;nell&#39;area di lavoro direttamente nella posizione desiderata.
 
    Oppure
 
-   Fai doppio clic sull&#39;icona **Visualizzazione** **** per aggiungere una visualizzazione all&#39;inizio dell&#39;area di lavoro.
+   Fai doppio clic sull&#39;icona **Visualizzazione** **&#x200B;**&#x200B;per aggiungere una visualizzazione all&#39;inizio dell&#39;area di lavoro.
 
    Oppure
 
-   Seleziona l&#39;icona **Visualizza** **** nella parte superiore di una tabella esistente nell&#39;area di lavoro.
+   Seleziona l&#39;icona **Visualizza** **&#x200B;**&#x200B;nella parte superiore di una tabella esistente nell&#39;area di lavoro.
 
    >[!TIP]
    >
@@ -61,7 +61,7 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
 
    >[!NOTE]
    >
-   >Se si seleziona **+ Aggiungi nuova tabella**, viene creato un nuovo blocco di tabella sotto il blocco di visualizzazione. Devi compilare la tabella con i dati prima di poter aggiungere una visualizzazione per essa. Per ulteriori informazioni sulla creazione e la modifica di tabelle, vedere [ [Aggiungere o modificare un blocco di tabella in Reporting Canvas](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
+   >Se si seleziona **+ Aggiungi nuova tabella**, viene creato un nuovo blocco di tabella sotto il blocco di visualizzazione. Devi compilare la tabella con i dati prima di poter aggiungere una visualizzazione per essa. Per ulteriori informazioni sulla creazione e la modifica di tabelle, vedere [&#128279;](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md) [Aggiungere o modificare un blocco di tabella in Reporting Canvas](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
 
 1. Seleziona il tipo di visualizzazione da aggiungere.
 

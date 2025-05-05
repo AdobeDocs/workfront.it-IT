@@ -66,7 +66,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 {{step-1-to-setup}}
 
 1. Fai clic su **Livelli di accesso** nel pannello a sinistra.
-1. 
+1. &#x200B;
    * Nell’ambiente di produzione:
 Seleziona il livello di accesso da copiare e personalizzare, quindi fai clic su **Copia**.
 

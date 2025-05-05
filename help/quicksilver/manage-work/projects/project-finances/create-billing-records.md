@@ -271,4 +271,4 @@ Dopo aver creato un record di fatturazione e aver incluso ore, spese e ricavi ne
      Included Hourly Revenue (Billable Hours) + Included Expenses (Billable Expenses) + Included Fixed Revenue (Billable Revenues) + Fixed Amount for Other Billable Items (Additional Amount)
      ```
 
-1. Fai clic su **Salva****Modifiche**.
+1. Fai clic su **Salva**&#x200B;**Modifiche**.

@@ -84,7 +84,7 @@ ht-degree: 2%
 
 1. Seleziona se inviare notifiche e-mail e un messaggio personalizzato agli utenti selezionati nel passaggio precedente:
 
-   * **Notifica ai destinatari questa bozza:** Seleziona questa opzione per inviare una notifica e-mail agli utenti. Quando nella sezione **[!UICONTROL Flusso di lavoro]** è selezionata la condivisione di base ]**, viene inviata una notifica e-mail al momento della creazione della bozza.**[!UICONTROL  Quando **[!UICONTROL Flusso di lavoro automatico]** è selezionato nella sezione **[!UICONTROL Flusso di lavoro]**, una notifica e-mail viene inviata quando la bozza entra nella fase del flusso di lavoro automatico a cui è associato l&#39;utente.
+   * **Notifica ai destinatari questa bozza:** Seleziona questa opzione per inviare una notifica e-mail agli utenti. Quando nella sezione **[!UICONTROL Flusso di lavoro]** è selezionata la condivisione di base **, viene inviata una notifica e-mail al momento della creazione della bozza.** Quando **[!UICONTROL Flusso di lavoro automatico]** è selezionato nella sezione **[!UICONTROL Flusso di lavoro]**, una notifica e-mail viene inviata quando la bozza entra nella fase del flusso di lavoro automatico a cui è associato l&#39;utente.
 
    * **Aggiungi messaggio personalizzato:** Selezionare questa opzione per includere un messaggio personalizzato nella notifica. È possibile specificare un oggetto e il corpo del messaggio. Il corpo del messaggio può includere formattazione RTF, ad esempio grassetto, punti elenco e collegamenti ipertestuali.
 

@@ -59,7 +59,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Oppure
 
-   Per aggiornare alcuni membri del team di progetto, selezionare uno o più utenti nell&#39;elenco, quindi fare clic su **Invia aggiornamento all&#39;utente******.\
+   Per aggiornare alcuni membri del team di progetto, selezionare uno o più utenti nell&#39;elenco, quindi fare clic su **Invia aggiornamento all&#39;utente**&#x200B;**&#x200B;**.\
    ![Commento_1.png](assets/commenting-1-350x352.png)
 
 1. Digita il tuo aggiornamento nel campo **Post an update to this project**.

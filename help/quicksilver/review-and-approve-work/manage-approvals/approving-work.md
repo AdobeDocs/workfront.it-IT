@@ -66,7 +66,7 @@ Per ulteriori informazioni sulla visualizzazione degli elementi in attesa di app
 
 ## Approvare il lavoro dall&#39;area Home
 
-1. Fai clic sull&#39;icona Menu **[!UICONTROL principale ![]** nell&#39;angolo](assets/main-menu-icon.png) in alto a destra, quindi fai clic su **[!UICONTROL Home]**.
+1. Fai clic sull&#39;icona Menu **![[!UICONTROL principale []** nell&#39;angolo]](assets/main-menu-icon.png) in alto a destra, quindi fai clic su **[!UICONTROL Home]**.
 1. (Condizionale) Fare clic su **Personalizza** per aggiungere il **widget Approvazioni** utente.
 1. (Condizionale) Fai clic sul menu a discesa **Filtro**, quindi seleziona **Tutti** per visualizzare le approvazioni assegnate e delegate all&#39;utente.
 

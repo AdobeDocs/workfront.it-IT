@@ -38,7 +38,7 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Messaggio inviato al Centro notifiche [!UICONTROL]</strong> </p> <p>Riceverai una notifica e-mail quando un nuovo messaggio viene inviato al [!UICONTROL Announcement Center]. </p> <p>Oggetto dell'e-mail di notifica immediata: <em>[!UICONTROL [!DNL Adobe Workfront] notifica]: &lt;Oggetto della notifica&gt;</em></p> </td> 
+   <td> <p><strong>Messaggio inviato al Centro notifiche </strong> </p> <p>Riceverai una notifica e-mail quando un nuovo messaggio viene inviato al [!UICONTROL Announcement Center]. </p> <p>Oggetto dell'e-mail di notifica immediata: <em>[!UICONTROL [!DNL Adobe Workfront] notifica]: &lt;Oggetto della notifica&gt;</em></p> </td> 
    <td> Oggetto della notifica<br>Testo del messaggio incluso nella notifica<br>Documenti allegati<br>Nome dell'utente che ha inviato la notifica<br>Data e ora di invio della notifica </td> 
    <td><strong>Istantanea</strong> </td> 
   </tr> 

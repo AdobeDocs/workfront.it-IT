@@ -89,7 +89,7 @@ Puoi configurare la ricezione di notifiche e-mail per le richieste di accesso. L
 1. Vai al tuo profilo utente effettuando una delle seguenti operazioni:
 
    * Fai clic sul **menu principale** ![](assets/dots-main-menu.png) nell&#39;angolo superiore destro dello schermo, quindi fai clic sul tuo nome.
-   * Fai clic sull&#39;icona ](assets/adobe-blue-main-menu.png) del **![profilo di Adobe** Main menu nell&#39;angolo superiore destro, se disponibile, quindi fai clic su **Profilo Workfront**.
+   * Fai clic sull&#39;icona ![&#128279;](assets/adobe-blue-main-menu.png) del **profilo di Adobe** Main menu nell&#39;angolo superiore destro, se disponibile, quindi fai clic su **Profilo Workfront**.
 
 1. Fai clic sull&#39;icona ![Altro **del menu** Altro](assets/more-icon.png) a destra del tuo nome nell&#39;intestazione, quindi fai clic su **Modifica**.
 1. Fai clic su **Notifiche** e seleziona o deseleziona **Qualcuno richiede a me l&#39;accesso** nella sezione **Azione richiesta**, a seconda che tu desideri ricevere le notifiche e-mail quando un altro utente richiede l&#39;accesso da te o meno.

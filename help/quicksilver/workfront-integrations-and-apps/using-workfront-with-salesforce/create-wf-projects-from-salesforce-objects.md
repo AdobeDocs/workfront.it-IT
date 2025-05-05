@@ -138,7 +138,7 @@ Per configurare i trigger in [!UICONTROL Salesforce]:
 
       Questo è un campo obbligatorio.
 
-   1. (Condizionale) Iniziare a digitare il nome di un **[!UICONTROL Modello]** che si desidera associare al nuovo progetto [!DNL Workfront] se il prodotto specificato si trova nell&#39;opportunità [!UICONTROL 4}. ] Selezionala quando viene visualizzata nell’elenco.
+   1. (Condizionale) Iniziare a digitare il nome di un **[!UICONTROL Modello]** che si desidera associare al nuovo progetto [!DNL Workfront] se il prodotto specificato si trova nell&#39;opportunità [!UICONTROL 4&rbrace;. &#x200B;] Selezionala quando viene visualizzata nell’elenco.
 
       Questo è un campo obbligatorio.
 
@@ -158,7 +158,7 @@ Per configurare i trigger in [!UICONTROL Salesforce]:
    1. Selezionare un tipo **[!UICONTROL Type]** dal menu a discesa **[!UICONTROL Type]**.
 
       Quando un **account
-** designato come **[!UICONTROL Tipo]** qui specificato in [!DNL Salesforce], viene creato un **[!UICONTROL Progetto]** in [!DNL Workfront].
+**&#x200B; designato come &#x200B;** [!UICONTROL Tipo] **&#x200B; qui specificato in [!DNL Salesforce], viene creato un &#x200B;** [!UICONTROL Progetto]** in [!DNL Workfront].
 
       Questo è un campo obbligatorio.
 
@@ -189,7 +189,7 @@ A seconda del trigger che ha generato i progetti, i nomi dei progetti in [!DNL W
 
 ## Visualizza [!DNL Workfront] progetti
 
-Se l&#39;amministratore di [!DNL Workfront] ha aggiunto la sezione [!DNL Workfront] all&#39;opportunità [!UICONTROL o all&#39;account ]
+Se l&#39;amministratore di [!DNL Workfront] ha aggiunto la sezione [!DNL Workfront] all&#39;opportunità [!UICONTROL o all&#39;account &#x200B;]
 layout di pagina, puoi visualizzare i progetti creati automaticamente nella scheda [!UICONTROL Progetti] di questa sezione.\
 Per ulteriori informazioni sull&#39;aggiunta della sezione [!DNL Workfront] al layout di pagina di un&#39;opportunità [!UICONTROL o di un account]
 , vedi [Configurare la [!DNL Adobe Workfront] sezione per [!DNL Salesforce] utenti](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
@@ -209,8 +209,8 @@ Per visualizzare i progetti creati da un [!UICONTROL opportunità] o account
 
 1. Selezionare la scheda **[!UICONTROL Progetti]**.
 
-   Tutti i progetti creati da attivatori definiti sono elencati in questa scheda. Qualsiasi utente in [!DNL Salesforce] che dispone anche di un account [!DNL Workfront] e che potrebbe disporre delle autorizzazioni per visualizzare questi progetti in [!DNL Workfront] può visualizzarli anche in [!DNL Salesforce] per l&#39;opportunità [!UICONTROL  o l&#39;account
-che li ha generati.]
+   Tutti i progetti creati da attivatori definiti sono elencati in questa scheda. Qualsiasi utente in [!DNL Salesforce] che dispone anche di un account [!DNL Workfront] e che potrebbe disporre delle autorizzazioni per visualizzare questi progetti in [!DNL Workfront] può visualizzarli anche in [!DNL Salesforce] per l&#39;opportunità o l&#39;account
+che li ha generati.&rbrack;
 
    Puoi visualizzare le seguenti informazioni sui progetti creati dall’integrazione:
 

@@ -78,9 +78,7 @@ Per informazioni sulla creazione di un processo di approvazione a livello di sis
      >     Se ad esempio si dispone di un&#39;approvazione dell&#39;attività associata allo stato In corso, al momento della concessione dell&#39;approvazione lo stato dell&#39;attività verrà automaticamente modificato in In corso. Non può cambiare automaticamente il suo stato in Completato o in qualsiasi altro stato non associato all’approvazione.
      >   
      >   
-     >
-
-   * Le entità associate a un processo di approvazione possono essere utenti, ruoli o team. Gli utenti sono in ultima analisi responsabili dell’accettazione o del rifiuto dell’approvazione. Puoi assegnare le approvazioni agli utenti che svolgono un determinato ruolo nel progetto. Ad esempio, puoi assegnare un’approvazione a un Proprietario del progetto o a uno Sponsor. Per ulteriori informazioni, vedere [Creare un processo di approvazione per gli elementi di lavoro](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+     >* Le entità associate a un processo di approvazione possono essere utenti, ruoli o team. Gli utenti sono in ultima analisi responsabili dell’accettazione o del rifiuto dell’approvazione. Puoi assegnare le approvazioni agli utenti che svolgono un determinato ruolo nel progetto. Ad esempio, puoi assegnare un’approvazione a un Proprietario del progetto o a uno Sponsor. Per ulteriori informazioni, vedere [Creare un processo di approvazione per gli elementi di lavoro](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
      Esistono i seguenti scenari:
 

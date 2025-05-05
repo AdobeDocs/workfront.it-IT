@@ -90,6 +90,7 @@ Viene visualizzata la finestra di dialogo **Personalizza visualizzazione**.
    * Modificare l&#39;ordine di visualizzazione delle colonne trascinando il titolo della colonna in una nuova posizione.
 
    * Nell&#39;area **Impostazioni colonna** fare clic su **Riepiloga colonna per** e scegliere la modalità di visualizzazione dei dati nella colonna. Questa opzione è disponibile per i seguenti tipi di colonna:
+
      <table style="table-layout:auto"> 
          <col> 
          <col> 

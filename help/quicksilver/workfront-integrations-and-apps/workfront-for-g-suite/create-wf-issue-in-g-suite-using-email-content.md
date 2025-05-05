@@ -81,7 +81,7 @@ Prima di poter creare un problema da [!DNL Google Workspace], è necessario
       <td>Fare clic su <strong>[!UICONTROL Assegna a]</strong>, fare clic sull'opzione <strong>[!UICONTROL Assegna a]</strong> visualizzata, quindi iniziare a digitare il nome della persona e fare clic su di esso quando viene visualizzato nell'elenco seguente. Ripetere l'operazione per ogni persona che si desidera aggiungere, quindi fare clic su <strong>[!UICONTROL Salva]</strong>.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">Priorità [!UICONTROL]</td> 
+      <td role="rowheader">Priorità </td> 
       <td>Fai clic sulla freccia a discesa, quindi fai clic sulla priorità desiderata per il problema.</td> 
      </tr> 
      <tr data-mc-conditions=""> 

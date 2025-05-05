@@ -55,4 +55,4 @@ Per impostazione predefinita, i revisori possono scaricare il file originale da 
 
 Le impostazioni salvate nelle impostazioni personali vengono applicate a tutte le bozze create dall&#39;utente, ma possono essere ignorate durante la creazione di una nuova bozza o la modifica di una bozza, come descritto in [Gestione dettagli bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-Puoi disattivare i download dei file modificando le impostazioni della bozza personale, come descritto in [Configurare le impostazioni della bozza in[!DNL  Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
+Puoi disattivare i download dei file modificando le impostazioni della bozza personale, come descritto in [Configurare le impostazioni della bozza in[!DNL &#x200B; Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).

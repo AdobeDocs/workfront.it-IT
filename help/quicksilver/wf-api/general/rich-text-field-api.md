@@ -28,7 +28,7 @@ Un campo personalizzato con formattazione RTF è denominato **Campo con testo RT
 **Esempio:** una richiesta di base di GET per recuperare il valore del campo modulo personalizzato **Campo con testo RTF**:
 
 <!-- [Copy](javascript:void(0);) -->
-<pre><OBJ Code><OBJ ID><OBJ Code><OBJ ID></pre> 
+<pre>&lt;OBJ Code>&lt;OBJ ID>&lt;OBJ Code>&lt;OBJ ID></pre> 
 
 **Esempio:** Questa richiesta restituirà il valore di **Field con Rich Text** in JSON archiviato in **parameterValue** **DE:Field con Rich Text**
 
@@ -63,7 +63,7 @@ Poiché ogni elemento del blocco è anche un oggetto JSON, ogni blocco è compos
 
 ![Mappatura Rich Text](assets/copy-of-rich-text-mapping-2-350x136.png)
 
-Se a una singola riga sono stati applicati più tipi di formattazione, gli stili verranno mappati su elementi aggiuntivi nell’array** inlineStyleRanges**.
+Se a una singola riga sono stati applicati più tipi di formattazione, gli stili verranno mappati su elementi aggiuntivi nell’array **&#x200B; inlineStyleRanges**.
 
 **Esempio:** Ecco come apparirebbe un blocco quando si memorizza una riga di testo con la formattazione mista: **Testo in grassetto e corsivo**
 
@@ -118,4 +118,4 @@ Per salvare i seguenti valori di un campo in formato Rich Text utilizzando l’A
 1. Utilizza il metodo **stringify** nel JSON descritto sopra per effettuare una richiesta **PUT** e inviare aggiornamenti
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre><OBJ Code><OBJ ID></pre>
+   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>

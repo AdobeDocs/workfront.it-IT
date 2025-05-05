@@ -107,6 +107,7 @@ Adobe fornisce una CLI open source che può essere utilizzata per facilitare la 
 
 1. Selezione e configurazione dei modelli
    1. Sfoglia tutti i modelli disponibili e scegli il modello **@adobe/aem-cf-editor-ui-ext-tpl** per il tuo progetto.
+
       ![Modello di ricerca](assets/search-template.png)
       ![Seleziona modello](assets/select-template.png)
 
@@ -115,6 +116,7 @@ Adobe fornisce una CLI open source che può essere utilizzata per facilitare la 
    1. Fornisci un riepilogo descrittivo delle funzionalità dell&#39;estensione.
    1. Seleziona un numero di versione iniziale con cui iniziare.
    1. Conferma il completamento selezionando **Fine**.
+
       ![Definisci estensione](assets/define-extension.png)
 
 1. Passa alla cartella del progetto

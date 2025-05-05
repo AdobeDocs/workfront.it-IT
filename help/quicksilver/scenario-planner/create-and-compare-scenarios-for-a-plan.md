@@ -152,7 +152,7 @@ Dopo aver creato gli scenari, puoi confrontarli per trovare quello migliore per 
      </tr> 
      <tr> 
       <td>Utilizzo</td> 
-      <td>La percentuale di utilizzo del budget [!UICONTROL] per il piano in questo scenario. Per informazioni sulla percentuale di utilizzo del budget di [!UICONTROL], vedere <a href="../scenario-planner/plans-overview.md" class="MCXref xref">Panoramica sui piani in [!DNL Scenario Planner]</a>. </td> 
+      <td>La percentuale di utilizzo del budget  per il piano in questo scenario. Per informazioni sulla percentuale di utilizzo del budget di , vedere <a href="../scenario-planner/plans-overview.md" class="MCXref xref">Panoramica sui piani in [!DNL Scenario Planner]</a>. </td> 
      </tr> 
      <tr> 
       <td>Valore Netto</td> 

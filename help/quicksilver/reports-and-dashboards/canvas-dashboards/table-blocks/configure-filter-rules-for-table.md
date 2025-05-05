@@ -154,4 +154,4 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
 
    1. Trascina il campo da aggiungere nell&#39;area **Aggiungi un set di regole** sotto gli altri set di regole del filtro.
    1. Ripetere i passaggi 4-7.
-   1. Nell&#39;elenco a discesa operatore a sinistra del nuovo set di regole selezionare **AND** o **OR**. Questi operatori funzionano come quelli elencati nel passaggio 7, ma si applicano a interi set di regole anziché a singole regole all’interno di un set.****
+   1. Nell&#39;elenco a discesa operatore a sinistra del nuovo set di regole selezionare **AND** o **OR**. Questi operatori funzionano come quelli elencati nel passaggio 7, ma si applicano a interi set di regole anziché a singole regole all’interno di un set.**&#x200B;**

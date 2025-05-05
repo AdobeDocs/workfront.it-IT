@@ -107,13 +107,14 @@ Puoi generare e gestire le chiavi API per gli utenti con ruoli diversi da Ammini
    1. Espandere **Sistema**, quindi fare clic su **Single Sign-on (SSO)**.
    1. Nel campo **Tipo**, seleziona il tipo di SSO utilizzato dalla tua organizzazione.
    1. Con il tipo selezionato, scorri verso il basso e deseleziona la casella di controllo **Abilita**.
+
       ![Abilita SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. Fai clic su **Salva**.
 
 
 1. Nella barra degli indirizzi di un browser, immetti la seguente chiamata API:
 
-   `<domain>`**.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**nomeutente**&amp;password=**password**&amp;method=PUT
+   `<domain>`**.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**&#x200B;nomeutente&#x200B;**&amp;password=**&#x200B;password**&amp;method=PUT
 
    Sostituisci `<domain>` con il tuo nome di dominio Workfront e nome utente e password con le credenziali Workfront dell&#39;utente.
 

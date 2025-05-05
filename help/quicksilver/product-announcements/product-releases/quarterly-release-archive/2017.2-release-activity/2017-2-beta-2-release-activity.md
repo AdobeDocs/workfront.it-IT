@@ -59,7 +59,7 @@ Per ulteriori informazioni sull&#39;annullamento dell&#39;abbonamento alle e-mai
 
 ## Configurare la modalità di visualizzazione delle milestone nel diagramma di Gantt {#configure-how-milestones-are-displayed-on-the-gantt-chart}
 
-***CORREZIONE **: questa funzione non è attualmente disponibile nell&#39;ambiente Sandbox di anteprima. Il rilascio è previsto in una data successiva, nel corso del mese di giugno 2017.*
+***CORREZIONE &#x200B;**: questa funzione non è attualmente disponibile nell&#39;ambiente Sandbox di anteprima. Il rilascio è previsto in una data successiva, nel corso del mese di giugno 2017.*
 
 Sono ora disponibili due opzioni per visualizzare le informazioni sulle milestone in un diagramma di Gantt. Puoi configurare uno o entrambi i seguenti indicatori milestone:
 

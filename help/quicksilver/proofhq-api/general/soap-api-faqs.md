@@ -33,7 +33,7 @@ Prende 2 semplici passaggi:
 
 **Passaggio 1**: se non si dispone ancora di un ID sessione, ottenerlo utilizzando i metodi doLogin() o getSessionID(). Utilizza la prima per effettuare l’accesso con l’indirizzo e-mail e la password di un utente oppure, se disponi del token di autenticazione e dell’indirizzo e-mail dell’utente, con il secondo metodo.
 
-**Passaggio 2:**È ora di creare la bozza. Utilizza il metodo createProof() e inviaci almeno i campi obbligatori (al momento ce ne sono solo 5). Accertati di impostare il parametro Hash su &quot;web&quot; e il parametro SourceName come URL della pagina web che desideri acquisire.
+**Passaggio 2:**&#x200B;È ora di creare la bozza. Utilizza il metodo createProof() e inviaci almeno i campi obbligatori (al momento ce ne sono solo 5). Accertati di impostare il parametro Hash su &quot;web&quot; e il parametro SourceName come URL della pagina web che desideri acquisire.
 
 Se accedi al tuo account, verrà visualizzata la bozza.
 

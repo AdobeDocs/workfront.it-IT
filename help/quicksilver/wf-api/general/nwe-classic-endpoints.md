@@ -37,7 +37,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
-   <td>[Specificare informazioni speciali sul prodotto. Rimuovi questa riga se la funzionalità è in Workfront [Corretto]</td> 
+   <td>&lbrack;Specificare informazioni speciali sul prodotto. Rimuovi questa riga se la funzionalità è in Workfront [Corretto]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
