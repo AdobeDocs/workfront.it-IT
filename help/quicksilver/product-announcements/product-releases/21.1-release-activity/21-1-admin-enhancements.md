@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 4048f8b5-70e2-4d63-ae64-a4fbf91a57df
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6fe1a2c71f53d6b314c2b1402a547f9c934bfbea
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1347'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Per informazioni sul livello di accesso Piano, vedere [Concedere l&#39;accesso a
 
 Per informazioni sulla copia di un progetto, vedere [Copiare un progetto](../../../manage-work/projects/manage-projects/copy-project.md).
 
-Questa funzionalità è ora inclusa in [Nozioni di base per gli amministratori nella nuova esperienza Workfront, parte 1: percorso di apprendimento Organizzazione utente](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
+Questa funzionalità è ora inclusa in [Nozioni di base per gli amministratori nella nuova esperienza Workfront, parte 1: percorso di apprendimento Organizzazione utente](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
 
 ## In un modulo personalizzato su un oggetto, seleziona tutti gli elementi in un campo a discesa a selezione multipla
 
@@ -63,7 +63,7 @@ Gli amministratori di Adobe Workfront ora possono dare agli amministratori di gr
 
 Per ulteriori informazioni, consulta [Configurare le preferenze per attività e problemi per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-Questa funzionalità è ora inclusa in [Nozioni di base per gli amministratori nella nuova esperienza Workfront, parte 2: Percorso di apprendimento per la configurazione del progetto](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
+Questa funzionalità è ora inclusa in [Nozioni di base per gli amministratori nella nuova esperienza Workfront, parte 2: Percorso di apprendimento per la configurazione del progetto](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
 
 ## Configurare separatamente le impostazioni del livello di accesso per portfolio e programmi
 
@@ -75,7 +75,7 @@ Per informazioni sulla configurazione di un livello di accesso, vedere [Creare o
 
 Per informazioni sulle impostazioni di accesso che è possibile configurare per programmi e portfolio, vedere [Accesso configurabile alle funzionalità per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-Questa funzionalità è ora inclusa in [Nozioni di base per gli amministratori nella nuova esperienza Workfront, parte 1: percorso di apprendimento Organizzazione utente](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
+Questa funzionalità è ora inclusa in [Nozioni di base per gli amministratori nella nuova esperienza Workfront, parte 1: percorso di apprendimento Organizzazione utente](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
 
 ## Selezionare tutte le caselle di controllo di una serie durante la modifica delle informazioni in un modulo personalizzato
 
@@ -108,7 +108,7 @@ In precedenza, solo un gruppo di primo livello poteva avere Amministratori di gr
 
 Per ulteriori informazioni, vedere la sezione [Amministratori di gruppi per i sottogruppi](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for) nell&#39;articolo [Panoramica sui sottogruppi](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
-Questa funzionalità è ora inclusa in [Nozioni di base per gli amministratori nella nuova esperienza Workfront, parte 1: percorso di apprendimento Organizzazione utente](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
+Questa funzionalità è ora inclusa in [Nozioni di base per gli amministratori nella nuova esperienza Workfront, parte 1: percorso di apprendimento Organizzazione utente](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
 
 ## Configurare le notifiche degli eventi per i gruppi
 
@@ -125,9 +125,9 @@ Per ulteriori informazioni, consulta i seguenti articoli:
 * [Sblocca o blocca la configurazione delle notifiche degli eventi per tutti i gruppi](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
 * [Visualizzare e configurare le notifiche degli eventi per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
 
-Questa funzionalità è ora inclusa in [Nozioni di base per gli amministratori nella nuova esperienza Workfront, parte 1: percorso di apprendimento Organizzazione utente](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
+<!--This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 1: User Organization](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
 
-Questa funzionalità è ora inclusa nelle [Notifiche e-mail e in-app nel nuovo percorso di apprendimento esperienza Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/home://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-MCDSDH3SRJ4ZGTJF5NJI64F4TW2U) in Workfront One.
+This feature is now included in the [Email and In-App Notifications in the new Workfront experience](https://experienceleague.adobe.com/en/docs/workfront/using/home://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-MCDSDH3SRJ4ZGTJF5NJI64F4TW2U) learning path on Workfront One.-->
 
 ## Utilizzare progetti di gruppo e processi di approvazione nell&#39;area Gruppi
 
