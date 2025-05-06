@@ -6,9 +6,9 @@ description: È possibile aggiungere documenti a progetti, attività o problemi 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: a69193eb7a98949222f71561b44d8fecea4dd496
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '763'
 ht-degree: 1%
 
 ---
@@ -123,7 +123,7 @@ La scansione dei documenti è abilitata per la tua organizzazione solo su richie
 
 Se è abilitata la scansione dei documenti, i file di dimensioni inferiori a 25 MB vengono analizzati al momento del caricamento. I file superiori a 25 MB non vengono analizzati.
 
-Se Workfront rileva un documento danneggiato, Workfront interrompe il processo di caricamento e viene visualizzato un messaggio che indica che il file è danneggiato. Ricevi inoltre una notifica e-mail quando Workfront rileva contenuti potenzialmente dannosi e il file è pianificato per la rimozione.
+Se Workfront rileva un documento danneggiato, viene visualizzato un messaggio che indica che il file è danneggiato. Ricevi inoltre una notifica e-mail quando Workfront rileva contenuti potenzialmente dannosi e il file è pianificato per la rimozione.
 
 I file danneggiati vengono rimossi entro 24 ore dal rilevamento, a meno che non vengano rimossi manualmente. Se elimini un file danneggiato, Workfront tiene traccia di questa azione come aggiornamento. Se consenti a Workfront di rimuoverlo, non vengono registrati aggiornamenti.
 
