@@ -5,9 +5,9 @@ description: Puoi controllare quali livelli di accesso nell’organizzazione han
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: d6fd224fb8a7b8094946814ae905bc0ff6e8223c
+source-git-commit: 0dcf12ed00c04e9d7acddfd034dbba6357bb1385
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '259'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ In qualità di amministratore di Workfront, puoi controllare quali utenti dell�
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+Per abilitare o disabilitare l&#39;Assistente AI, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,17 +47,19 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Attivare o disattivare l’Assistente IA in Workfront
 
-L&#39;Assistente AI è attivato per impostazione predefinita.
+>[!NOTE]
+>
+>L’Assistente IA è disabilitato per impostazione predefinita per i non amministratori.
 
-Per disabilitare l&#39;Assistente IA per un determinato livello di accesso:
+Per abilitare l&#39;Assistente AI per un determinato livello di accesso:
 
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic sull&#39;icona **[!UICONTROL Setup]** ![Setup](/help/_includes/assets/gear-icon-setup.png).
 1. Seleziona **Livelli di accesso** nel menu di navigazione a sinistra.
 1. Selezionare il livello di accesso per il quale si desidera abilitare l&#39;Assistente AI.
 1. Nella finestra Modifica livello di accesso, scorri verso il basso fino alla parte inferiore della finestra e fai clic su **Imposta restrizioni aggiuntive...**.
-1. Nell&#39;area Imposta restrizioni aggiuntive abilitare l&#39;opzione **Disabilita funzionalità di IA**.
+1. Nell&#39;area Imposta restrizioni aggiuntive disabilitare l&#39;opzione **Disabilita funzionalità di IA**.
 1. Fai clic su **Salva**.
-1. Ripeti i passaggi 3-6 per ogni livello di accesso per il quale vuoi disabilitare l’assistente AI.
+1. Ripeti i passaggi 3-6 per ogni livello di accesso per il quale desideri abilitare l’assistente AI.
 
 >[!NOTE]
 >
