@@ -7,9 +7,9 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '715'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,11 @@ ht-degree: 4%
 <(LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)</p>
 -->
 
-È possibile copiare un progetto anziché crearne uno da zero. È possibile copiare un solo progetto alla volta. Non è possibile copiare progetti in blocco.
+<!-- Audited: 5/2025 -->
+
+È possibile copiare un progetto da un progetto esistente anziché crearne uno nuovo, risparmiando tempo.
+
+Non è possibile copiare i progetti in blocco.
 
 >[!IMPORTANT]
 >
@@ -44,7 +48,7 @@ ht-degree: 4%
 >* Scorecard
 >* Informazioni predefinite attività (processo di approvazione predefinito attività, Forms personalizzato predefinito attività)
 >
-> Le date delle attività originali nei progetti vengono copiate nel nuovo progetto. È necessario modificare la data di inizio o di completamento del progetto (a seconda della modalità di programmazione) per aggiornare le date delle attività. I vincoli relativi alle attività potrebbero impedire la modifica delle date nel progetto.
+> Le date delle attività del progetto originale verranno copiate nel nuovo progetto. È necessario modificare la data di inizio o di completamento del progetto (a seconda della modalità di programmazione) per aggiornare le date delle attività. I vincoli relativi alle attività potrebbero impedire la modifica delle date nel progetto.
 
 ## Requisiti di accesso
 
@@ -77,34 +81,40 @@ ht-degree: 4%
  </tbody> 
 </table>
 -->
-Devi avere i seguenti:
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Piano Adobe Workfront*</p> </td> 
+   <td> <p>piano Adobe Workfront</p> </td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td> <p>Licenza Adobe Workfront*</p> </td> 
-   <td> <p>Piano </p> </td> 
+   <td> <p>Licenza Adobe Workfront</p> </td> 
+   <td> <p>Nuovo: Standard </p> 
+   <p>Oppure</p>
+   <p>Corrente: Piano </p>
+
+</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Configurazioni del livello di accesso*</strong> </td> 
-   <td> <p>Modifica l'accesso ai progetti con la possibilità di creare <span> e copiare </span> progetti</p> <p><b>NOTA</b>
-
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
-</tr> 
+   <td>Configurazioni del livello di accesso </td> 
+   <td> <p>Modifica l'accesso ai progetti con la possibilità di creare <span> e copiare </span> progetti</p> </td> 
+  </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Autorizzazioni oggetto</strong> </p> </td> 
-   <td> <p>Visualizza autorizzazioni o versioni successive per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Autorizzazioni oggetto </p> </td> 
+   <td> <p>Visualizza autorizzazioni o versioni successive per il progetto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Copiare un singolo progetto
 
@@ -112,27 +122,21 @@ Quando si copia un progetto, alcune informazioni vengono copiate anche dal proge
 
 Per copiare un progetto:
 
-1. Vai al progetto da copiare e fai clic sull&#39;icona **Altro** ![Altro menu](assets/qs-more-menu.png) a destra del nome del progetto
+{{step1-to-projects}}
 
-   ![Altro menu a discesa](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+1. Seleziona il progetto da copiare dall&#39;elenco dei progetti, quindi fai clic sull&#39;icona **Altro** ![Altro menu](assets/more-icon.png) a destra del nome del progetto.
 
    Oppure
 
-   Vai a un elenco o a un report di progetti e seleziona un progetto, quindi fai clic sull&#39;icona **Altro** ![Altro menu](assets/qs-more-menu.png) nella parte superiore dell&#39;elenco.
+   Vai a un elenco o a un report di progetti e seleziona un progetto, quindi fai clic sull&#39;icona **Altro** ![Altro menu](assets/more-icon.png) nella parte superiore dell&#39;elenco.
 
-   ![Menu Altro espanso](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+1. Nel menu a discesa **Altro**, fai clic su **Copia**. Viene visualizzata la finestra di dialogo **Copia di [Nome progetto]**.
 
-1. Fai clic su **Copia**.
+1. (Facoltativo) Aggiorna **Nome progetto**. Per impostazione predefinita, il nuovo nome è **Copia di [Nome progetto originale]**.
 
-1. Aggiorna il nome del nuovo progetto.
+   ![Copia casella progetto](assets/copy-of-project-box.png)
 
-   Per impostazione predefinita, il nuovo nome è **Copia di `<Original project name>`.**
-
-   ![Copia casella progetto](assets/copy-project-box-nwe-350x276.png)
-
-1. Seleziona **Stato** per il nuovo progetto.
-
-   Per impostazione predefinita, lo **Stato** corrisponde a quello del progetto originale.
+1. Seleziona uno **Stato**. Per impostazione predefinita, viene selezionato lo stato del progetto originale.
 
 1. (Facoltativo) Deseleziona gli elementi da non copiare nel nuovo progetto. La tabella seguente descrive cosa accade quando si deselezionano gli elementi:
 
@@ -143,17 +147,17 @@ Per copiare un progetto:
     <tbody> 
      <tr> 
       <td role="rowheader">Seleziona tutto</td> 
-      <td> <p>Seleziona tutte le opzioni e cancella tutti i campi e gli oggetti elencati dal nuovo progetto.</p> <p><b>SUGGERIMENTO</b>
+      <td> <p>Seleziona tutte le opzioni e cancella tutti i campi e gli oggetti elencati dal nuovo progetto. </p>
 
-   Se si deseleziona <strong>Seleziona tutto</strong>, tutti gli elementi verranno deselezionati. </p> </td>
-   </tr> 
+   <p> Deselezionando questa opzione vengono deselezionati tutti gli elementi. </p> </td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Assegnazioni</td> 
-      <td>Rimuove tutte le assegnazioni di progetto e attività</td> 
+      <td>Rimuove tutte le assegnazioni di progetto e attività.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Avanzamento</td> 
-      <td>Rimuove lo stato di avanzamento di tutte le attività e vengono visualizzate come nuove. </td> 
+      <td>Rimuove lo stato di avanzamento di tutte le attività, visualizzandole come nuove. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Dati personalizzati</td> 
@@ -162,29 +166,26 @@ Per copiare un progetto:
         <li>Attività</li> 
         <li>Spese</li> 
         <li> Documenti</li> 
-       </ul> <p><b>NOTA</b>
-
-   I moduli personalizzati rimangono allegati alle attività, alle spese, ai documenti e al progetto, ma le informazioni contenute nei campi personalizzati dei moduli non vengono copiate nel nuovo progetto. </p> </td>
-   </tr> 
+       </ul> 
+      <p>I moduli personalizzati rimangono allegati alle attività, alle spese, ai documenti e al progetto, ma le informazioni contenute nei campi personalizzati del modulo non vengono copiate nel nuovo progetto. </p> </td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Documenti</td> 
-      <td> <p>Rimuove tutti gli elementi presenti nella scheda documenti, incluse le versioni dei documenti, i documenti collegati e le cartelle.</p> <p>Per impostazione predefinita, le bozze e le approvazioni dei documenti non possono essere copiate in un altro progetto. </p> </td> 
+      <td> <p>Rimuove tutti gli elementi presenti nella scheda Documenti, incluse le versioni dei documenti, i documenti collegati e le cartelle.</p> <p>Per impostazione predefinita, le bozze e le approvazioni dei documenti non possono essere copiate in un altro progetto. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tutti i predecessori</td> 
-      <td> <p>Rimuove tutte le relazioni predecessore tra le attività del progetto. </p> <p><b>SUGGERIMENTO</b>
+      <td> <p>Rimuove tutte le relazioni predecessore tra le attività del progetto. </p> <p>
 
    I predecessori tra progetti non vengono mai trasferiti al nuovo progetto, indipendentemente dal fatto che sia selezionato o meno. </p> </td>
    </tr>
 
 <tr> 
       <td role="rowheader">Ore preventivate</td> 
-      <td> <p>Rimuove le ore preventivate nell'area Pianificazione risorse del Business Case del progetto dal progetto copiato.</p>
-
-<b>NOTA</b>
-
-Le ore preventivate utilizzando la Pianificazione scenario non vengono mai copiate nel nuovo progetto perché il nuovo progetto non è collegato a un&#39;iniziativa nella Pianificazione scenario. Per ulteriori informazioni, consulta <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Risorse budget nel caso di business utilizzando Scenario Planner</a>
-</tr></td>
+      <td> <p>Rimuove le ore preventivate nell'area Pianificazione risorse del Business Case del progetto dal progetto copiato.</p> 
+    <p>
+   Le ore preventivate utilizzando la Pianificazione scenario non vengono mai copiate nel nuovo progetto perché il nuovo progetto non è collegato a un'iniziativa nella Pianificazione scenario. Per ulteriori informazioni, consulta <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Risorse budget nel caso di business utilizzando Scenario Planner</a></p>
+   </tr></td>
     <tr> 
       <td role="rowheader">Informazioni finanziarie</td> 
       <td> <p>Rimuove le informazioni nelle seguenti aree: </p> 
@@ -213,8 +214,4 @@ Le ore preventivate utilizzando la Pianificazione scenario non vengono mai copia
     </tbody> 
    </table>
 
-1. Fai clic su **Copia** per creare una copia del progetto.
-
-   In questo modo viene creato un nuovo progetto simile a quello copiato.
-
-   È possibile iniziare ad apportare modifiche al nuovo progetto copiato, ad esempio rivedere le assegnazioni delle attività o modificare le sequenze temporali.
+1. Fai clic su **Copia progetto**. Il progetto copiato viene creato.

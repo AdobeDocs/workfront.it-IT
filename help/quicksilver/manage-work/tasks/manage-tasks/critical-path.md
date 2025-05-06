@@ -7,45 +7,49 @@ description: La determinazione del percorso critico di un progetto consente ad A
 author: Alina
 feature: Work Management
 exl-id: 9cbc84bf-d02b-4bb7-8d5d-922554d1262e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
 
 # Panoramica del percorso critico del progetto
 
-La determinazione del percorso critico di un progetto consente ad Adobe Workfront di contrassegnare automaticamente una sequenza di attività in un progetto che possono influire sulla tempistica del progetto. Le attività che possono influire sulla timeline del progetto sono contrassegnate come attività del percorso critico.
+<!-- Audited: 5/2025 -->
+
+La determinazione del percorso critico di un progetto consente ad Adobe Workfront di contrassegnare automaticamente una sequenza di attività in un progetto che possono influire sulla tempistica del progetto. Le attività che possono influire sulla sequenza temporale del progetto vengono contrassegnate come attività Percorso critico.
 
 Le seguenti funzioni possono influire sul Percorso critico di un progetto:
 
 * Struttura funzionale del progetto.
 
-  Per ulteriori informazioni sulla struttura funzionale, vedere [Determinare la struttura funzionale in un progetto](../../../manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md)
+  Per ulteriori informazioni, vedere [Determinare la struttura di suddivisione del lavoro in un progetto](../../../manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md).
 
 * Tempo (durata) necessario per il completamento di ogni attività.
 * Dipendenze tra le attività.
 
   Considera quanto segue:
 
-   * Quando un&#39;attività sul percorso critico ha una relazione predecessore, i predecessori e i successori si trovano anche sul percorso critico se le modifiche alle date dei predecessori o dei successori influiscono direttamente sui rispettivi dipendenti.
+   * Quando un&#39;attività sul percorso critico ha una relazione predecessore, i predecessori e i successori si trovano anche sul percorso critico se le modifiche alle date dei predecessori o successori influiscono direttamente sui rispettivi dipendenti.
 
      >[!TIP]
      >
-     >Quando la data del successore di un&#39;attività non influisce direttamente sulla data delle attività dipendenti e non influisce sulle date del progetto, l&#39;attività successore non si trova nel Percorso Critico.
+     >Quando la data del successore di un&#39;attività non influisce direttamente sulla data delle attività dipendenti o sulle date del progetto, l&#39;attività successore non si trova nel percorso critico.
      >
      >
      >![](assets/successor-not-on-critical-path-350x150.png)     >
      >
 
-   * Quando un&#39;attività secondaria viene identificata come attività Percorso critico, l&#39;attività padre viene identificata anche come attività Percorso critico, se la data e l&#39;ora di inizio previste dell&#39;attività padre corrispondono a quelle della sottoattività.
+   * Quando un&#39;attività secondaria viene identificata come attività Percorso critico, l&#39;attività padre viene identificata anche come attività Percorso critico se la data di inizio prevista e l&#39;ora dell&#39;attività padre corrispondono a quelle della sottoattività.
 
 Tenendo conto di queste caratteristiche, il sistema calcola il percorso critico utilizzando il percorso più lungo tra l&#39;attività meno recente e l&#39;attività che determina la fine del progetto. Il calcolo del percorso critico tiene conto della data e dell&#39;ora in cui ogni attività può iniziare e finire senza prolungare il progetto. Questo processo determina quali attività sono &quot;critiche&quot; (e appartengono al percorso più lungo) e quali hanno &quot;fluttuazione totale&quot; (possono essere ritardate senza prolungare il progetto).
 
 Qualsiasi ritardo nell’attività di un’attività sul percorso critico influisce direttamente sulla Data di completamento prevista del progetto (non esiste alcun valore mobile sul percorso critico).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -54,15 +58,19 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Lavoro o superiore</p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> 
+   <p>Nuovo: Standard<p>
+   <p>Oppure</p>
+   <p>Corrente: Lavoro o versione successiva</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Accesso alle attività di visualizzazione o superiore</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -72,7 +80,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+
++++
 
 ## Visualizzare il percorso critico
 
@@ -85,15 +96,17 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 Per visualizzare le attività sul Percorso critico nel diagramma di Gantt:
 
-1. Passare a un progetto per il quale si desidera visualizzare il percorso critico.
-1. Fai clic su **Attività** nel pannello a sinistra.
-1. Fai clic sull&#39;icona **Grafico di Gantt** nell&#39;angolo superiore destro dell&#39;elenco delle attività.
+{{step1-to-projects}}
 
-   ![icona_grafico_gantt__1_.png](assets/gantt-chart-icon--1-.png)
+1. Nell’elenco Progetto, seleziona un progetto.
 
-1. Espandi il menu **Opzioni**, quindi abilita l&#39;opzione **Percorso critico**.
+1. Nel pannello a sinistra, fai clic su **Attività**. Viene visualizzata la scheda **Attività**.
 
-   Le attività che si trovano nel Percorso critico presentano una linea rossa sopra la linea temporale nel diagramma di Gantt.
+1. Nell&#39;angolo superiore destro dell&#39;elenco attività fare clic sull&#39;icona **Grafico di Gantt**.
+
+   ![icona_grafico_gantt__1_.png](assets/gantt-icon.png)
+
+1. Nell&#39;angolo superiore destro della sezione del grafico Gantt fare clic sull&#39;icona **Opzioni** ![Opzioni](assets/options-icon.png), quindi selezionare l&#39;opzione **Percorso critico** nell&#39;elenco a discesa visualizzato. Le attività che si trovano sul Percorso Critico ora presentano una linea rossa sopra la timeline.
 
    ![percorso_critico_su_gantt__1_.png](assets/crtitical-path-on-gantt--1--350x137.png)
 
@@ -101,23 +114,23 @@ Per visualizzare le attività sul Percorso critico nel diagramma di Gantt:
 
 Per visualizzare quali attività si trovano nel percorso critico in un elenco di attività:
 
-1. Passare a un progetto per il quale si desidera visualizzare il percorso critico.
-1. Fai clic su **Attività** nel pannello a sinistra.
-1. Dal menu a discesa **Visualizza**, selezionare **Stato**.
+{{step1-to-projects}}
 
-   Le attività presenti nel percorso critico hanno un flag **Percorso critico** nella colonna **Flag** dell&#39;elenco.
+1. Nell’elenco Progetto, seleziona un progetto.
 
-   È possibile applicare la stessa visualizzazione a un report attività.
+1. Nel pannello a sinistra, fai clic su **Attività**. Viene visualizzata la scheda **Attività**.
 
-   Per ulteriori informazioni sulla creazione di report, vedere l&#39;articolo [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+1. Fai clic sull&#39;icona **Visualizza** ![Visualizza icona](assets/view-icon.png), quindi seleziona **Stato**. Le attività presenti nel percorso critico visualizzano un flag **Percorso critico** nella colonna **Flag** dell&#39;elenco.
 
    Oppure
 
-   Dal menu a discesa **Filtro**, selezionare **Nuovo filtro**.
+   Fai clic sull&#39;icona **Filtro** ![Icona Filtri](assets/filters-icon.png), quindi seleziona **+ Nuovo filtro**.
+1. Nel primo campo, digita *È critico*, quindi selezionalo quando viene visualizzato nella sezione **Attività** dell&#39;elenco.
 
-1. Fai clic su **Aggiungi regola filtro** e inizia a digitare **È critico** in **Mostra solo le attività in cui il campo ...**.
+   ![L&#39;attività è un filtro critico](assets/task-is-critical.png)
 
-1. Selezionala quando viene visualizzata nell’elenco.
-1. Fai clic su **Salva filtro**.
+1. Verificare che **Is true** sia selezionato nel secondo menu a discesa.
 
-   Nell&#39;elenco devono essere visualizzate solo le attività presenti nel percorso critico.
+   ![Elenco a discesa vero](assets/critical-path-filter.png)
+
+1. Chiudete il pannello Filtri. Nell&#39;elenco delle attività vengono ora visualizzate solo le attività che si trovano nel Percorso critico.
