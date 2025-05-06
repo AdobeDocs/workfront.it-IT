@@ -6,9 +6,9 @@ description: Puoi visualizzare i rapporti del calendario e i dettagli dell’eve
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: 3e5fdb157a6ff29daf964b505d3a0bf4f9842e88
+source-git-commit: 83b425998de978fef4998f407960a2489e1320b4
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -90,18 +90,18 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. (Facoltativo) Se visualizzi il calendario nelle visualizzazioni [!UICONTROL Mese] o [!UICONTROL Settimana], puoi modificare la visualizzazione del calendario con le seguenti opzioni:
 
-   * Per includere o escludere i fine settimana:
+<!--   * To include or exclude weekends:
 
-      1. Sulla barra degli strumenti **[!UICONTROL Calendario]**, fai clic su **[!UICONTROL Azioni calendario]**, quindi seleziona **[!UICONTROL Mostra fine settimana]** o **[!UICONTROL Nascondi fine settimana]** dall&#39;elenco a discesa.
+      1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.-->
 
-   * Per modificare rapidamente le date visualizzate:
+* Per modificare rapidamente le date visualizzate:
 
-      1. Sulla barra degli strumenti **[!UICONTROL Calendario]** fare clic sulla freccia sinistra dell&#39;indicatore di data per tornare al calendario o sulla freccia destra per spostarsi in avanti.
+   1. Sulla barra degli strumenti **[!UICONTROL Calendario]** fare clic sulla freccia sinistra dell&#39;indicatore di data per tornare al calendario o sulla freccia destra per spostarsi in avanti.
 
-         ![Fare clic sulla freccia per modificare la data](assets/click-arrows-to-change-dates-calendar-report.png)\
-         Le date visualizzate vengono regolate in base a un intervallo basato sulla visualizzazione del calendario corrente. Ad esempio, se visualizzi il calendario nella visualizzazione [!UICONTROL Settimana], il calendario visualizza una settimana avanti o una settimana indietro, a seconda della freccia selezionata.
+      ![Fare clic sulla freccia per modificare la data](assets/click-arrows-to-change-dates-calendar-report.png)\
+      Le date visualizzate vengono regolate in base a un intervallo basato sulla visualizzazione del calendario corrente. Ad esempio, se visualizzi il calendario nella visualizzazione [!UICONTROL Settimana], il calendario visualizza una settimana avanti o una settimana indietro, a seconda della freccia selezionata.
 
-      1. (Facoltativo) Per tornare al giorno corrente, fare clic su [!UICONTROL **Oggi**].
+   1. (Facoltativo) Per tornare al giorno corrente, fare clic su [!UICONTROL **Oggi**].
 
 
 1. (Facoltativo) Per visualizzare un calendario a schermo intero, fare clic sulle frecce a schermo intero sul lato destro della barra degli strumenti **[!UICONTROL Calendario]**.
