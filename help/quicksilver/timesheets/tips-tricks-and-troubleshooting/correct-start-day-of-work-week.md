@@ -2,39 +2,61 @@
 content-type: tips-tricks-troubleshooting
 product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
-title: Correggere il giorno di inizio della settimana lavorativa per le schede orario
-description: Il giorno di inizio della settimana nella scheda orario non corrisponde al giorno di inizio della settimana configurato nel profilo della scheda orario.
+title: Correct the Start Day of the Work Week for Timesheets
+description: The start day of the week on my timesheet does not match my expected weekly start day.
 author: Alina
 feature: Timesheets
 exl-id: 5c6c100f-2a04-4a6b-9f95-acc8de3a90f1
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
 
 # Correggere il giorno di inizio della settimana lavorativa per le schede orario
 
+<!--Audited: 5/2025-->
+
 ## Problema
 
-Il giorno di inizio della settimana nella scheda attività non corrisponde al giorno di inizio della settimana configurato nel mio profilo scheda attività (come descritto in [Creare, modificare e assegnare profili scheda attività](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).)
+The start day of the week on my timesheet does not match my expected weekly start day.
+
+This typically occurs when you are not assigned to a Timesheet Profile and your timesheet was manually created.
+
 
 ## Soluzione
 
-Il giorno di inizio della settimana di una scheda orario in Adobe Workfront utilizza le impostazioni della lingua e delle impostazioni internazionali nel browser per determinare il giorno della settimana. Per questo motivo, è necessario aggiornare le impostazioni della lingua e delle impostazioni internazionali del browser.
+Your Workfront administrator should create timesheet profiles and assign everyone to a profile, as described in [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). Your Workfront administrator might define the start date of a timesheet on a day other than your expected weekly start date. Check with them to find out what the start date of a timesheet profile is for your timesheet.
 
-Ad esempio, con la lingua del browser impostata su Inglese e la lingua impostata su Stati Uniti, la settimana inizia di domenica. In alternativa, se la lingua del browser è impostata su Inglese e la lingua è impostata su Regno Unito, il giorno di inizio è Lunedì.
+If your timesheet was manually created, the start day of the week in the timesheet uses the Email Locale settings in your user&#39;s profile, as described in the article [Configure My Settings](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
-Questa impostazione ha effetto anche sul giorno di inizio della settimana nei calendari popup nel sistema.
+For example, with the Email Locale set to English (United States), the week in the timesheet starts on Sunday. Alternatively, with the Email Locale set to English (United Kingdom), the week in the timesheet starts on a Monday.
 
-La modifica delle impostazioni internazionali non ha effetto sul giorno di inizio della settimana nella griglia risorse o nella visualizzazione griglia risorse. La settimana inizia sempre la domenica.
 
-Di seguito sono riportate le istruzioni per la modifica delle impostazioni della lingua e delle impostazioni internazionali per i vari browser supportati con Workfront.
+<!--This is the old content for this article but I found this was not working this way at all, so I changed it to what it is today: 
 
-* **Chrome:** Copia e incolla il seguente collegamento nel browser Chrome: `chrome://settings/languages`, quindi passa a Lingue.
-* **Firefox:**&#x200B;copia e incolla il seguente collegamento nel browser Firefox: `about:preferences#content`, quindi passa a Lingue.
-* **IE 11:** Strumenti -> Opzioni Internet -> Generale -> Lingue
-* **Safari:** Sfortunatamente, Safari non consente la modifica delle lingue di esplorazione Web senza modificare anche l&#39;intera lingua del sistema operativo. Probabilmente è più facile semplicemente installare un altro browser come Chrome o Firefox.
+## Problem
+
+The start day of the week on my timesheet does not match the start day of the week that is configured on my timesheet profile (as described in [Create, edit, and assign timesheet profiles](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).).
+
+## Solution
+
+The start day of the week of a timesheet in Adobe Workfront uses the language and locale settings in your browser to determine the day of the week. Because of this, you need to update the language and locale settings for your browser. 
+
+For example, with the browser language set to English and the locale set to United States, the week starts on Sunday. Alternatively, the browser language set to English and the locale set to United Kingdom, the start day is Monday.
+
+This setting also affects the start day of the week in the pop-up calendars across the system.
+
+The locale change does not affect the start day of the week on the Resource Grid (or resource grid view). The week always starts on Sunday.
+
+Following are the directions for changing language and locale settings for various browsers that are supported with Workfront.
+
+* **Chrome:** Copy and paste the following link into your Chrome browser: `chrome://settings/languages` then go to Languages.
+* **Firefox:**Copy and paste the following link into your Firefox browser: `about:preferences#content` then go to Languages.
+* **IE 11:** Tools -> Internet Options -> General -> Languages
+* **Safari:** Unfortunately, Safari does not allow changing web browsing languages without also changing your entire operating system language. It is probably easier to simply install another browser like Chrome or Firefox.
+
+-->
 
 
