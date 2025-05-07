@@ -109,7 +109,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 * I fogli vuoti non sono supportati.
 * I campi dei tipi seguenti non sono supportati e non possono essere mappati ai campi del foglio di importazione:
 
-   * <!--In the Production environment,--> Campi di connessione a record di Planning o oggetti Workfront e AEM Assets
+   * &#x200B;<!--In the Production environment,--> Campi di connessione a record di Planning o oggetti Workfront e AEM Assets
 
      <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
 
@@ -156,7 +156,7 @@ Per importare tipi di record utilizzando un file Excel o CSV:
 1. (Facoltativo) Fai clic sulla freccia rivolta verso il basso a destra dell’intestazione della colonna per effettuare una delle seguenti operazioni:
 
    * Rinomina uno dei campi
-   * Cambia il tipo di campo ****
+   * Cambia il tipo di campo **&#x200B;**
    * Aggiorna il campo **Descrizione**
 
 1. (Condizionale) Dopo aver aggiornato le informazioni sul campo, fai clic su **Salva**.
