@@ -1,5 +1,5 @@
 ---
-source-git-commit: affff16630379333465c118734babf7a239af272
+source-git-commit: cbb434ff7c8f614b6ca3f657f01945306d26068c
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
-## Anteprima evidenziata per l'articolo completo {#highlighted-preview-article-level}
+## Anteprima evidenziata per l&#39;articolo completo {#highlighted-preview-article-level}
 
 <span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
@@ -360,8 +360,8 @@ Per impostare le cartelle collegate:
 ## Versione più recente di DPV {#latest-version}
 
 **Versione più recente**:
-* Mac: 2.1.44 a partire dal 1/2/2025
-* Windows: 2.1.44 del 1/2/2025
+* Mac: 2.1.48 a partire dal 5/7/2025
+* Windows: 2.1.48 del 5/7/2025
 
 <!-- Release -->
 
@@ -432,7 +432,7 @@ Per impostare le cartelle collegate:
    >   * Attività
    >   * Problema
    >   * Richiesta
-   >   * Richiesta di Modifica
+   >   * Ordine di modifica
    >   * Segnalazione Bug
 
    Se l’attività o il problema è assegnato a più utenti, nel menu a discesa viene visualizzata l’opzione &quot;Fine con la parte&quot;, oltre ai diversi stati scelti per il team.

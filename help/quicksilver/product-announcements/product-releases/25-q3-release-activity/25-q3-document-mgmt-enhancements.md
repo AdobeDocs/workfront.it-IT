@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: d072b8e9c657e970c12f75a304f63e04d0512505
+source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,25 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 >[!IMPORTANT]
 >
 >Le funzioni elencate in questa pagina fanno parte di un rilascio graduale e sono disponibili solo per clienti specifici.
+
+## Assets in una cartella Google collegata deve essere aggiunto singolarmente per essere visualizzato in Workfront
+
+>[!NOTE]
+>
+>* Versione di anteprima: 31 maggio 2025; versione di produzione per tutti i clienti: 31 maggio 2025
+
+Google sta [migliorando i controlli di sicurezza](https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps) per le applicazioni di terze parti che accedono a Google Drive, richiedendo che le applicazioni adottino un modello di consenso per utente. Di conseguenza, per essere visibili in Workfront, le singole risorse devono essere collegate una alla volta. Per ulteriori informazioni, vedere [Configurare le integrazioni dei documenti](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md).
+
+Funzionalità chiave che rimangono invariate:
+
+* Cerca e filtra risorse e cartelle dall’interno della finestra modale Google Drive
+* Collegare risorse a oggetti Workfront da Google Drive
+* Carica le risorse in Google Drive tramite il menu a discesa &quot;Invia a&quot; nella pagina dei documenti
+* Visualizzare e accedere alla struttura di cartelle nell&#39;area Unità utente
+* Collegare una nuova versione di una risorsa da Google Drive a un documento esistente in Workfront
+* Collegare cartelle a oggetti Workfront da Google Drive
+* Caricare risorse in Google Drive trascinando i documenti in una cartella collegata
+* Crea un nuovo documento Google Drive da Workfront
 
 
 ## Pulsanti di decisione per l&#39;approvazione di un nuovo documento disponibili nel visualizzatore di bozze

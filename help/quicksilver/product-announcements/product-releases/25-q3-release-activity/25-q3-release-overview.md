@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 74714ce45c815afc9cff1360fd3542fa15763907
+source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '669'
 ht-degree: 3%
 
 ---
@@ -56,6 +56,17 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Rilascio rapido</strong></td>
         <td><strong>Ogni trimestre</strong></td>
     </tr>
+      <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Assets in una cartella Google collegata deve essere aggiunto singolarmente per essere visualizzato in Workfront</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>Google sta <a href="https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps">migliorando i controlli di sicurezza</a>
+            per le applicazioni di terze parti che accedono a Google Drive, che richiedono l'adozione di un modello di consenso per utente. Di conseguenza, per essere visibili in Workfront, le singole risorse devono essere collegate una alla volta. Consulta <a href="/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md">Configurare le integrazioni dei documenti</a>
+             per ulteriori informazioni. </p>
+        </td>
+        <td>25 maggio 2023</td>
+        <td>25 maggio 2023</td>
+        <td>25 maggio 2023</td>
+    </tr>  
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuovi pulsanti di decisione per l'approvazione dei documenti disponibili nel visualizzatore di bozze</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -157,7 +168,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Note sulla versione per altre aree
 
-* [Attività di rilascio di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+* [Attività di rilascio di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 * [Attività sulla versione del terzo trimestre 2025 di Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md).
 
 A questo punto della versione non sono presenti aggiornamenti per i seguenti elementi:
@@ -177,7 +188,7 @@ Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianific
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Aggiornamenti dei corsi di formazione
 
