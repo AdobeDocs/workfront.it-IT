@@ -6,9 +6,9 @@ title: Cambia il formato delle date in [!DNL Adobe Workfront]
 description: Per modificare il formato della data per le date in [!DNL Adobe Workfront] è necessario modificare le impostazioni della lingua nel browser.
 feature: Get Started with Workfront
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
-source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
+source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 0%
 >
 > Le informazioni contenute in questo articolo si applicano solo alle organizzazioni che non hanno ancora effettuato l’onboarding in Adobe Unified Experience.
 > Se per la tua organizzazione è stato eseguito l’onboarding in Adobe Unified Experience, la preferenza relativa alla data è controllata dalla preferenza relativa alla lingua impostata in Adobe Unified Shell. L&#39;impostazione predefinita per la lingua, e quindi per la data, è `en-US`.
+> Per ulteriori informazioni, vedere [[!DNL Adobe Unified Experience] per [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md/#access-your-profile-and-preferences).
 
 È possibile modificare il formato della data in [!DNL Adobe Workfront], ad esempio [!UICONTROL Data di completamento pianificata], [!UICONTROL Data di completamento effettiva] o [!UICONTROL Data di completamento prevista].
 

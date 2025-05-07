@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td> 
    <td> 
 <p>Per poter accedere a tutte le funzionalità di Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
-<p>Per consentire agli utenti di richiedere e concedere autorizzazioni per una visualizzazione da una richiesta di autorizzazione, la tua organizzazione deve essere integrata nell’esperienza unificata di Adobe. </p>
+<p>Gli utenti devono essere aggiunti a Adobe Admin Console per ottenere le autorizzazioni per le viste di Workfront Planning.</p>
 <p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata Adobe per Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -199,7 +199,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Rimuovere le autorizzazioni per un tipo di record
 
-È possibile rimuovere le autorizzazioni degli utenti da un tipo di record. Tuttavia, conservano almeno l’accesso di visualizzazione all’area di lavoro, che consente loro di visualizzare almeno il tipo di record. È necessario rimuoverne l&#39;accesso dall&#39;area di lavoro se si desidera che non dispongano di autorizzazioni per i tipi di record nell&#39;area di lavoro.
+È possibile rimuovere le autorizzazioni degli utenti da un tipo di record. Tuttavia, manterranno almeno le autorizzazioni View (Visualizzazione) per l&#39;area di lavoro, che assegnano loro almeno le autorizzazioni View (Visualizzazione) per il tipo di record. È necessario rimuoverne l&#39;accesso dall&#39;area di lavoro se si desidera che non dispongano di autorizzazioni per i tipi di record nell&#39;area di lavoro.
 
 {{step1-to-planning}}
 

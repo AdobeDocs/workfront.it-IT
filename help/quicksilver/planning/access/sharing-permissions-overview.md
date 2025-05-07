@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1227'
 ht-degree: 5%
 
 ---
@@ -44,19 +44,18 @@ In Workfront Planning è possibile condividere manualmente i seguenti oggetti:
 
   Per ulteriori informazioni, vedere [Condividi aree di lavoro](/help/quicksilver/planning/access/share-workspaces.md)
 
-<!--
 <div class="preview">
 
-* Record types
+* Tipi di record
 
-    * You can share record types with people inside your organization.
-    * The level of permissions granted for the workspace displays as Inherited permissions for the record type. 
-    * You cannot share a record type with a higher permission level than the user has on the workspace. 
+   * È possibile condividere i tipi di record con persone all&#39;interno dell&#39;organizzazione.
+   * Il livello di autorizzazioni concesse per l&#39;area di lavoro viene visualizzato come Autorizzazioni ereditate per il tipo di record.
+   * Non è possibile condividere un tipo di record con un livello di autorizzazione superiore a quello dell&#39;utente nell&#39;area di lavoro.
 
-    For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
+  Per ulteriori informazioni, vedere [Condividi tipi di record](/help/quicksilver/planning/access/share-record-types.md).
 
 </div>
--->
+
 
 * Viste
 
@@ -67,7 +66,7 @@ In Workfront Planning è possibile condividere manualmente i seguenti oggetti:
 
   Per ulteriori informazioni, vedere [Condividi visualizzazioni](/help/quicksilver/planning/access/share-views.md).
 
-Internamente, potete condividere un&#39;area di lavoro o una vista con le seguenti entità Workfront:
+Internamente, è possibile condividere un&#39;area di lavoro, una visualizzazione, <span class="preview"> o un tipo di record </span> con le seguenti entità Workfront:
 
 * Utenti
 * Gruppi
@@ -76,6 +75,11 @@ Internamente, potete condividere un&#39;area di lavoro o una vista con le seguen
 * Mansioni
 
 <span class="preview"> Quando si condividono aree di lavoro e tipi di record con altri utenti, il livello di autorizzazione del tipo di record viene ereditato automaticamente dai record e dai campi ad essi associati. </span>
+
+>[!IMPORTANT]
+>
+>Se l’istanza di Workfront della tua organizzazione è stata integrata nell’esperienza unificata di Adobe, gli utenti con cui desideri condividere gli oggetti di Planning devono essere aggiunti al Adobe Admin Console. Non è possibile condividere oggetti Planning con utenti di Workfront che non sono stati aggiunti al Adobe Admin Console.
+
 
 ## Considerazioni sulla condivisione di oggetti in Adobe Workfront Planning
 

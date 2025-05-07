@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
 workflow-type: tm+mt
-source-wordcount: '3205'
+source-wordcount: '3497'
 ht-degree: 2%
 
 ---
@@ -82,7 +82,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
    <td>   <p>Gestire le autorizzazioni per una visualizzazione</p>  
-   <p>Autorizzazioni di visualizzazione per modificare temporaneamente le impostazioni di visualizzazione</p> </td> 
+   <p>Autorizzazioni di visualizzazione per modificare temporaneamente le impostazioni di visualizzazione o duplicarle <!--<span class="preview">or to export the view</span>--></p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Modello layout</p></td> 
@@ -509,9 +509,11 @@ To sort grouped records:
 
 1. (Facoltativo) Attivare l&#39;impostazione **Applica all&#39;intera riga** nell&#39;angolo superiore destro della casella Colori riga. L’intera riga in cui viene soddisfatta la condizione viene visualizzata automaticamente nel colore selezionato.
 
-   >[!TIP]
+   >[!NOTE]
    >
-   >Se l&#39;opzione Applica all&#39;intera riga è disattivata, solo il lato sinistro del campo Principale visualizza un indicatore di colore stretto con il colore selezionato. L&#39;impostazione è disattivata per impostazione predefinita.
+   >* Se l&#39;opzione Applica all&#39;intera riga è disattivata, solo il lato sinistro del campo Principale visualizza un indicatore di colore stretto con il colore selezionato. L&#39;impostazione è disattivata per impostazione predefinita.
+   >
+   >* Non è possibile applicare colori di riga a un&#39;intera riga se nella visualizzazione per tabella è selezionato almeno un raggruppamento.
 
 1. Fare clic all&#39;esterno della casella **Colori riga** per chiuderla. I colori vengono applicati automaticamente.
 
@@ -525,3 +527,49 @@ Quando si visualizza la vista tabella, è inoltre possibile visualizzare il camp
 
 Per ulteriori informazioni, vedere la sezione &quot;Abilitare l&#39;indicatore di presenza in tempo reale&quot; nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
 
+<div class="preview">
+
+## Esportare la vista tabella
+
+È possibile esportare le informazioni nella vista tabella in un file CSV o Excel.
+
+Quando esportate la vista tabella, tenete presente quanto segue:
+
+* Le informazioni esportate in un file di Excel mantengono i filtri, i raggruppamenti e gli ordinamenti applicati alla vista tabella in Workfront Planning. I raggruppamenti non sono visibili nel file CSV.
+
+* Le miniature e i colori di riga personalizzati non sono supportati nei file esportati.
+
+* Vengono esportati solo i campi resi visibili nell’interfaccia di Workfront. I campi nascosti non vengono esportati.
+
+Per esportare informazioni dalla vista tabella o da un tipo di record:
+
+1. Passare a una pagina del tipo di record e fare clic su una scheda della vista tabella.
+1. Passa il puntatore del mouse sul nome della scheda di visualizzazione della tabella, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png).
+1. Fai clic su **Esporta**, quindi seleziona uno dei seguenti formati:
+
+   * Excel
+   * CSV
+
+   >[!IMPORTANT]
+   >
+   >Non è possibile esportare informazioni dalla vista tabella quando si visualizza una vista diversa sullo schermo. Per accedere all&#39;opzione Esporta nel menu Altro, è necessario visualizzare la vista tabella che si desidera esportare.
+
+   Il file viene scaricato nel computer.
+
+1. (Facoltativo) Vai alla cartella dei download sul tuo computer e trova il file scaricato.
+
+   Il nome del file esportato è nel seguente formato:
+
+   `Name of the view - name of the record type`
+
+   Ad esempio, una visualizzazione tabella per il tipo di record Campagne genera un file denominato `Table view - Campaigns`.
+
+   Nel file vengono visualizzate le seguenti informazioni:
+
+   * Le intestazioni di colonna sono evidenziate in nero nel file Excel
+   * Tutti i campi visibili nell’interfaccia di Workfront, ordinati e filtrati in base agli stessi criteri
+   * I raggruppamenti vengono mantenuti nel file di Excel
+
+   È ora possibile condividere i file esportati con altri utenti o allegarli a qualsiasi comunicazione.
+
+</div>

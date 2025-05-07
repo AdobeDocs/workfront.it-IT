@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '881'
 ht-degree: 1%
 
 ---
@@ -108,7 +108,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 * Il file non deve superare i 5 MB.
 * I fogli vuoti non sono supportati.
 * I campi dei tipi seguenti non sono supportati e non possono essere mappati ai campi del foglio di importazione:
-   * Connessioni e campi di ricerca dei record connessi <!--or connected Workfront objects-->
+
+   * <!--In the Production environment,--> Campi di connessione a record di Planning o oggetti Workfront e AEM Assets
+
+     <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
+
+   * Campi di ricerca da record di Planning o oggetti Workfront e AEM Assets connessi
    * Campi formula
    * Data di creazione, Creato da
    * Data ultima modifica, Autore ultima modifica
@@ -151,7 +156,7 @@ Per importare tipi di record utilizzando un file Excel o CSV:
 1. (Facoltativo) Fai clic sulla freccia rivolta verso il basso a destra dell’intestazione della colonna per effettuare una delle seguenti operazioni:
 
    * Rinomina uno dei campi
-   * Cambia il tipo di campo **&#x200B;**
+   * Cambia il tipo di campo ****
    * Aggiorna il campo **Descrizione**
 
 1. (Condizionale) Dopo aver aggiornato le informazioni sul campo, fai clic su **Salva**.
