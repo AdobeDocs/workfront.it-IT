@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: ec0e2be036ce1298e285ce85cdeddae97cd1f144
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1199'
 ht-degree: 1%
 
 ---
@@ -250,4 +250,12 @@ Per configurare [!DNL Workfront] per l&#39;invio di metadati a [!DNL Workfront D
 
 ## Limitazioni
 
-* L&#39;integrazione dei documenti di Google Drive supporta l&#39;aggiunta di cartelle e immagini dall&#39;area My Drive dell&#39;unità Google. Impossibile aggiungere cartelle o immagini da un&#39;unità condivisa. Ulteriori informazioni sulle [unità condivise di Google](https://support.google.com/a/users/answer/7212025?hl=en).
+### Integrazione di Google Drive
+
+* Quando una cartella collegata viene aggiunta a Workfront, i file in essa contenuti non vengono più aggiunti automaticamente.
+   * Puoi aggiungere la cartella Google a Workfront senza i file, quindi aggiungere i singoli file a Workfront. I file vengono aggiunti automaticamente alla cartella Google in Workfront.
+Oppure
+   * È possibile creare una cartella Documenti in Workfront, quindi selezionare tutti i file nella cartella Google e aggiungerli alla cartella Workfront.
+
+
+* L&#39;integrazione dei documenti di Google Drive supporta l&#39;aggiunta di file dall&#39;area My Drive dell&#39;unità Google. Impossibile aggiungere cartelle o immagini da un&#39;unità condivisa. Ulteriori informazioni sulle [unità condivise di Google](https://support.google.com/a/users/answer/7212025?hl=en).
