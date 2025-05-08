@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
+source-git-commit: 78300d47d9a892a07816d94c448c7b957f11f14f
 workflow-type: tm+mt
-source-wordcount: '2064'
+source-wordcount: '2138'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Per tutte le altre modifiche apportate ad Adobe Workfront, vedi [Versioni del pr
 
 ### Aggiornamento dell’interfaccia per la ricerca avanzata
 
-**Anteprima rilascio: 17 aprile; produzione: da annunciare**
+**Anteprima rilascio: 17 aprile; produzione: a partire dalla settimana del 24 aprile**
 
 L’area Ricerca avanzata è stata aggiornata con le seguenti modifiche:
 
@@ -344,19 +344,16 @@ Abbiamo aggiornato la pagina di condivisione dei documenti per gli utenti estern
 
 Gli utenti esterni non possono più accedere alle _Impostazioni personali_ da questa pagina.
 
-<!--
+### Pagina di registrazione utente esterno aggiornata
 
-### Updated external user registration page
+**Versione di anteprima: 24 aprile 2024; versione di produzione: a partire dalla settimana dell&#39;8 maggio 2024**
 
-**Preview release: April 24, 2024; Production release: To be announced**
+La pagina di registrazione per gli utenti esterni è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront.
 
-We have updated the external user registration page with a more modern design that is consistent with other areas of Workfront.
+## Licenze
 
+### Pagina del contratto di licenza aggiornata
 
-## Licenses
+**Versione di anteprima: 24 aprile 2024; versione di produzione: a partire dalla settimana dell&#39;8 maggio 2024**
 
-### Updated license agreement page
-
-**Preview release: tbd; Production release: To be announced**
-
-We have updated the license agreement page with a more modern design that is consistent with other areas of Workfront.-->
+La pagina del contratto di licenza è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront.
