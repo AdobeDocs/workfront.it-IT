@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 7de63fbe2df6aa5f173b8e5647097e3f8aabc08c
+source-git-commit: 73df51a476695a3af11911da850ce4049c95aa06
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2204'
 ht-degree: 0%
 
 ---
@@ -277,11 +277,21 @@ Per visualizzare questa modifica, passa a Documenti > Fai clic sul menu Altro ac
 
 ## Report e dashboard
 
-+++Espandi per visualizzare gli aggiornamenti dell’interfaccia per Report e Dashboard.
+### È stato aggiornato il rapporto Livello di accesso con un nuovo stile
+
+**Anteprima versione: da definire; Versione di produzione: a partire dalla settimana del 6 febbraio 2025**
+
+Il rapporto Livello di accesso è stato aggiornato con un design più moderno, coerente con le altre aree di Workfront.
+
+Questo aggiornamento include modifiche visive al rapporto. Nessuna funzionalità è stata modificata.
+
+Per creare un rapporto del team, vai a Rapporti > Nuovo rapporto > Livello di accesso.
+
++++Espandi per visualizzare altri aggiornamenti dell’interfaccia per Report e Dashboard.
 
 ### È stato aggiornato il rapporto Team con un nuovo stile
 
-**Versione di anteprima: 30 gennaio 2025; a partire dalla settimana del 6 febbraio 2025**
+**Versione di anteprima: 30 gennaio 2025; versione di produzione: a partire dalla settimana del 6 febbraio 2025**
 
 Il rapporto Team è stato aggiornato con un design più moderno, coerente con le altre aree di Workfront.
 
