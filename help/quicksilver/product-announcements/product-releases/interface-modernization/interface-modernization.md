@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 78300d47d9a892a07816d94c448c7b957f11f14f
+source-git-commit: 7de63fbe2df6aa5f173b8e5647097e3f8aabc08c
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2140'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Abbiamo aggiornato la pagina utilizzata per concedere al supporto l’accesso al
 
 ### Aggiornamento dell&#39;interfaccia per il Centro notifiche
 
-**Anteprima versione: 27 febbraio 2025; da annunciare**
+**Anteprima versione: 27 febbraio 2025; a partire dalla settimana del 6 marzo 2025**
 
 Il Centro annunci è stato aggiornato con un design più moderno, coerente con le altre aree di Workfront.
 
@@ -71,7 +71,7 @@ Per visualizzare le impostazioni, vai a Configurazione > Team.
 
 ### Aggiornamento dell’interfaccia per le impostazioni del processo di approvazione in Configurazione
 
-**Anteprima versione: 6 febbraio 2025; Versione di produzione: da annunciare**
+**Versione di anteprima: 6 febbraio 2025; versione di produzione: a partire dalla settimana del 13 febbraio 2025**
 
 La finestra di dialogo Impostazioni approvazione è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront.
 
@@ -177,7 +177,7 @@ Questo aggiornamento include modifiche visive all’area. Nessuna funzionalità 
 
 ### Aggiornamenti dell’interfaccia per le richieste del team
 
-**Anteprima versione: 6 marzo 2025; Versione di produzione: da annunciare**
+**Versione di anteprima: 6 marzo 2025; versione di produzione: 13 marzo 2025**
 
 La pagina Richieste team è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront.
 

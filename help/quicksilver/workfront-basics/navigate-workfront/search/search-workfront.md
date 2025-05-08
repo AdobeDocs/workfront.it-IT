@@ -5,9 +5,9 @@ description: È possibile individuare facilmente gli elementi in [!DNL Adobe Wor
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: b04d09d1244a7d7abef8aaddb62dbdf7124bfde8
 workflow-type: tm+mt
-source-wordcount: '1690'
+source-wordcount: '1673'
 ht-degree: 1%
 
 ---
@@ -89,13 +89,13 @@ I campi disponibili per la ricerca si basano sul tipo di ricerca: Base o [!UICON
 
   Per ulteriori informazioni sulla ricerca di base in [!DNL Workfront], vedere [Ricerca di base](#basic-search) in questo articolo.
 
-* **[!UICONTROL Ricerca avanzata]**: in una [!UICONTROL Ricerca avanzata], è possibile impostare filtri per la ricerca di campi non disponibili nella ricerca di base. Pertanto, [!UICONTROL Ricerca avanzata] consente di eseguire ricerche in qualsiasi campo dell&#39;oggetto.
+* **[!UICONTROL Ricerca avanzata]**: in una [!UICONTROL Ricerca avanzata], è possibile impostare filtri per la ricerca di campi non disponibili in Ricerca di base. Pertanto, [!UICONTROL Ricerca avanzata] consente di eseguire ricerche in qualsiasi campo dell&#39;oggetto.
 
   Per ulteriori informazioni su [!UICONTROL Ricerca avanzata], vedere [Ricerca avanzata](#advanced-search) in questo articolo.
 
 >[!NOTE]
 >
->Per eseguire una [!UICONTROL Ricerca avanzata], seleziona l&#39;opzione [!UICONTROL Ricerca avanzata] all&#39;inizio della ricerca. Non è possibile perfezionare una ricerca di base in una [!UICONTROL Ricerca avanzata].
+>Per eseguire una [!UICONTROL Ricerca avanzata], seleziona l&#39;opzione [!UICONTROL Ricerca avanzata] all&#39;inizio della ricerca. Non è possibile perfezionare una ricerca di base in una [!UICONTROL ricerca avanzata].
 
 ## Comprendere le limitazioni di [!DNL Workfront] ricerche
 
@@ -160,10 +160,10 @@ Tuttavia, è possibile eseguire le operazioni seguenti nella casella [!UICONTROL
 
 [!DNL Workfront] dispone di due tipi di ricerche: di base e avanzate. Utilizzare la ricerca di base se si desidera trovare parole chiave nei campi oggetto comuni, ad esempio nome o descrizione. Utilizzare [!UICONTROL Ricerca avanzata] se si desidera utilizzare i filtri per eseguire ricerche in altri campi oggetto.
 
-* [Ricerca Base](#basic-search)
+* [Ricerca di base](#basic-search)
 * [Ricerca avanzata](#advanced-search)
 
-### Ricerca Base
+### Ricerca di base
 
 Una ricerca di base consente di cercare parole chiave in tutti gli oggetti del sistema o su un solo oggetto alla volta (ad esempio i progetti). [!DNL Workfront] cerca quindi tali parole chiave in alcuni campi specifici. È quindi possibile perfezionare i risultati della ricerca in base ad altri campi specifici dell&#39;oggetto selezionati da [!DNL Workfront].
 
@@ -171,14 +171,14 @@ Per un elenco dei campi specifici cercati nella ricerca di base, vedere [Campi d
 
 >[!NOTE]
 >
->Per eseguire una [!UICONTROL Ricerca avanzata], seleziona l&#39;opzione [!UICONTROL Ricerca avanzata] all&#39;inizio della ricerca. Non è possibile perfezionare una ricerca di base in una [!UICONTROL Ricerca avanzata].
+>Per eseguire una [!UICONTROL Ricerca avanzata], seleziona l&#39;opzione [!UICONTROL Ricerca avanzata] all&#39;inizio della ricerca. Non è possibile perfezionare una ricerca di base in una [!UICONTROL ricerca avanzata].
 
 * [Eseguire una ricerca di base](#perform-a-basic-search)
 * [Perfezionare una ricerca di base](#refine-a-basic-search)
 
 #### Eseguire una ricerca di base
 
-Puoi eseguire una ricerca di base in uno dei seguenti modi:
+È possibile eseguire una ricerca di base in uno dei modi seguenti:
 
 * In tutti gli oggetti del sistema (ricerca generale).
 * Su un solo oggetto alla volta (ricerca specifica per oggetto).
@@ -191,9 +191,10 @@ Per eseguire una ricerca di base:
 
    ![Ricerca per tipo di oggetto](assets/search-objecttype.png)
 
-1. Nella casella **[!UICONTROL Cerca]**, inizia a digitare le informazioni che stai cercando.\
-   Per informazioni sui campi in cui eseguire la ricerca in [!DNL Workfront], vedere [Comprendere la ricerca](#understand-search).\
-   ![Menu a discesa di ricerca](assets/qs-search-drop-down-highlighted-350x234.png)\
+1. Nella casella **[!UICONTROL Cerca]**, inizia a digitare le informazioni che stai cercando.
+Per informazioni sui campi in cui eseguire la ricerca in [!DNL Workfront], vedere [Comprendere la ricerca](#understand-search).
+   ![Menu a discesa di ricerca](assets/qs-search-drop-down-highlighted-350x234.png)
+
    Quando si inizia a digitare nella barra di ricerca, [!DNL Workfront] formula raccomandazioni in base alla cronologia di visualizzazione ed evidenzia in blu la parola chiave che si sta cercando.
 
 1. Se l&#39;elemento che si sta cercando viene visualizzato nel menu [!UICONTROL typeahead], fare clic su di esso.
@@ -227,12 +228,13 @@ Utilizzare la barra degli strumenti a sinistra dei risultati di ricerca per limi
 Per perfezionare una ricerca:
 
 1. (Condizionale) Se hai eseguito una ricerca generale, seleziona l’oggetto che stavi cercando nell’elenco degli oggetti in alto a sinistra dei risultati.
-1. Individua i campi disponibili per gli oggetti visualizzati nella ricerca nella barra degli strumenti a sinistra dei risultati.\
-   Vengono visualizzati i valori di ogni campo, ordinati per conteggio, fino a 10 valori per ogni campo.
-1. Fai clic all’interno di uno dei campi disponibili per ridurre l’elenco dei risultati.\
-   Le selezioni effettuate sono evidenziate in blu e i valori dei campi non selezionati sono nascosti.\
-   Dopo aver selezionato ogni nuovo valore, i risultati vengono aggiornati dinamicamente.\
-   ![Perfeziona ricerca](assets/qs-refine-search-350x175.png)
+1. Individua i campi disponibili per gli oggetti visualizzati nella ricerca nella barra degli strumenti a sinistra dei risultati.
+Vengono visualizzati i valori di ogni campo, ordinati per conteggio, fino a 10 valori per ogni campo.
+1. Fai clic all’interno di uno dei campi disponibili per ridurre l’elenco dei risultati.
+Le selezioni effettuate sono evidenziate in blu e i valori dei campi non selezionati sono nascosti.
+Dopo aver selezionato ogni nuovo valore, i risultati vengono aggiornati dinamicamente.
+
+   ![Scheda Ricerca di base](assets/basic-search.png)
 
 1. (Facoltativo) Fai clic sui valori selezionati per deselezionarli e visualizzare nuovamente tutti i valori per ciascun campo.
 
@@ -242,7 +244,7 @@ Per perfezionare una ricerca:
 
 >[!NOTE]
 >
->Per eseguire una [!UICONTROL Ricerca avanzata], seleziona l&#39;opzione [!UICONTROL Ricerca avanzata] all&#39;inizio della ricerca. Non è possibile perfezionare una ricerca di base in una [!UICONTROL Ricerca avanzata].
+>Per eseguire una [!UICONTROL Ricerca avanzata], seleziona l&#39;opzione [!UICONTROL Ricerca avanzata] all&#39;inizio della ricerca. Non è possibile perfezionare una ricerca di base in una [!UICONTROL ricerca avanzata].
 
 * [Usa [!UICONTROL Ricerca avanzata]](#use-advanced-search)
 
@@ -260,14 +262,12 @@ Per eseguire una ricerca avanzata:
    La pagina [!UICONTROL Ricerca avanzata] si apre da destra e copre la maggior parte della pagina precedente.
 
 1. Selezionare il tipo di oggetto che si sta cercando.\
-   **[!UICONTROL Progetti]** è selezionato per impostazione predefinita.
+   **[!UICONTROL Attività]** è selezionato per impostazione predefinita.
 
-   ![Oggetti di ricerca avanzata](assets/advanced-search-objects-qs-remove-after-prod-release.png)
+   ![Oggetti di ricerca avanzata](assets/advanced-search.png)
 
 1. (Facoltativo) Digita una parola chiave nel campo nella parte superiore dell’elenco.
-1. (Facoltativo) Fai clic su **[!UICONTROL Filtra i risultati]** per filtrare i risultati della ricerca in base a tipi di campo specifici, quindi seleziona un campo dall&#39;elenco. Se necessario, seleziona anche un valore per il campo.\
-   Oppure\
-   Aggiungi un nuovo filtro.
+1. (Facoltativo) Attiva **[!UICONTROL Filtra i risultati]** per creare un filtro per perfezionare la ricerca. Al termine, fai clic su **Applica**.
 
 1. Fare clic su **[!UICONTROL Cerca]**.\
    Un elenco di elementi corrispondenti alla ricerca viene visualizzato a destra della barra degli strumenti [!UICONTROL Ricerca avanzata].
