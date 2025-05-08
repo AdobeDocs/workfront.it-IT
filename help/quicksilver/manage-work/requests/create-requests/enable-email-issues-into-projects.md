@@ -6,9 +6,9 @@ description: Puoi configurare un progetto per consentire agli utenti di aggiunge
 author: Alina, Courtney
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: fedb0328450896d212081715df4cde7644b169bc
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Per configurare un progetto in modo che gli utenti possano aggiungere problemi a
 >È consigliabile che il progetto configurato per la ricezione di richieste tramite e-mail non contenga più di un argomento della coda. Se le richieste inviate sono destinate a risorse o progetti diversi, è necessario indirizzarle o spostarle manualmente, dopo l’invio.
 
 1. Vai al progetto che desideri abilitare per ricevere i problemi tramite e-mail.
-1. Fai clic su **Dettagli coda** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**.
+1. Fai clic su **Dettagli coda** nel pannello a sinistra.
 1. Nell&#39;area **Tipo coda**, selezionare **Pubblica come coda richieste di aiuto**.
 
 1. Scorri verso il basso fino all&#39;area **Impostazioni coda e-mail**, quindi seleziona **Abilita acquisizione richieste tramite e-mail**.

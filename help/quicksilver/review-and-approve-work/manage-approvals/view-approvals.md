@@ -6,9 +6,9 @@ description: I processi di approvazione offrono la flessibilità necessaria per 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ Puoi ottenere visibilità su dove si trova un’attività o un problema su cui s
 Per visualizzare lo stato corrente di un&#39;attività o di un problema nel processo di approvazione:
 
 1. Vai al progetto, all’attività o al problema a cui è associata l’approvazione.
-1. Nel pannello a sinistra, fai clic su **Approvazioni**. Potrebbe essere necessario fare clic su **Mostra altro**.
+1. Nel pannello a sinistra, fai clic su **Approvazioni**.
 
    Nella scheda Approvazioni vengono visualizzate tutte le informazioni su tutti i percorsi e le fasi di approvazione passati. Puoi vedere esattamente chi ha preso una decisione sull’approvazione o se l’approvazione è impostata per un team, una mansione o un utente.
 

@@ -7,9 +7,9 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: e02a593ddca923067eb61f838a7ade17e7fc3652
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '1917'
+source-wordcount: '1891'
 ht-degree: 0%
 
 ---
@@ -123,8 +123,6 @@ Per associare un processo di approvazione globale esistente a un progetto, un&#3
 1. Passare all&#39;elemento di lavoro in cui si desidera associare un processo di approvazione.
 1. Fai clic su **Approvazioni** nel pannello a sinistra.
 
-   Potrebbe essere necessario fare clic su **Mostra altro**, quindi su **Approvazioni**.
-
    ![Sezione approvazioni sull&#39;attività](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. ![Utilizzare le approvazioni esistenti o creare approvazioni per utilizzo singolo](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
@@ -193,8 +191,6 @@ Per creare un processo di approvazione per singolo utilizzo:
 1. Passare al progetto, all&#39;attività, al problema, al modello o all&#39;attività modello a cui si desidera associare un processo di approvazione.
 1. Fai clic su **Approvazioni** nel pannello a sinistra.
 
-   Potrebbe essere necessario fare clic su **Mostra altro** > **Approvazioni**.
-
    ![Sezione approvazioni sull&#39;attività](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. Fare clic su **Crea monouso**.
@@ -231,8 +227,6 @@ Per rimuovere o eliminare un processo di approvazione da un elemento di lavoro:
 
 1. Vai al progetto, all’attività, al problema, al modello o all’attività modello in cui desideri rimuovere un processo di approvazione aggiunto in precedenza.
 1. Fai clic su **Approvazioni** nel pannello a sinistra.
-
-   Potrebbe essere necessario fare clic su **Mostra altro** > **Approvazioni**.
 
    ![Sezione approvazioni sull&#39;attività](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 

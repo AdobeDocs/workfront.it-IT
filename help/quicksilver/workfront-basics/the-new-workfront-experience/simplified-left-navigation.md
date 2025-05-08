@@ -3,11 +3,12 @@ content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Navigazione a sinistra in [!DNL Adobe Workfront]
 description: Il pannello di navigazione sinistro in [!DNL Workfront] semplifica la navigazione nel sistema.
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '1403'
+source-wordcount: '1373'
 ht-degree: 1%
 
 ---
@@ -242,7 +243,7 @@ Per informazioni sulle sezioni disponibili per aree specifiche, vedere [[!UICONT
 
    Viene visualizzata la pagina oggetto.
 
-1. (Condizionale) Se hai selezionato un&#39;area contenente un elenco di oggetti, ad esempio **[!UICONTROL Progetti]** o **[!UICONTROL Portfoli]**, per accedere alla navigazione del pannello sinistro devi effettuare le seguenti operazioni:
+1. (Condizionale) Se hai selezionato un&#39;area contenente un elenco di oggetti, ad esempio **[!UICONTROL Progetti]** o **[!UICONTROL Portfolio]**, per accedere alla navigazione nel pannello sinistro devi effettuare le seguenti operazioni:
 
    1. Selezionare un oggetto nell&#39;elenco.
    1. (Facoltativo) Nel pannello di navigazione a sinistra, puoi selezionare un altro oggetto, ad esempio **[!UICONTROL Attività]** o **[!UICONTROL Problemi]** all&#39;interno di un progetto, nel pannello a sinistra per accedere a un elenco di oggetti, quindi fare clic sul nome dell&#39;oggetto specifico.\
@@ -254,12 +255,6 @@ Per informazioni sulle sezioni disponibili per aree specifiche, vedere [[!UICONT
    Prima di poter modificare le informazioni, è necessario disporre delle autorizzazioni necessarie per modificare l&#39;oggetto.
 
    ![Sezioni del pannello sinistro](assets/NWE-left-navigation-panel.png)
-
-1. (Facoltativo) Fai clic su **[!UICONTROL Mostra altro]** nella parte inferiore del pannello a sinistra per visualizzare altre sezioni.
-
-   >[!NOTE]
-   >
-   >Questa opzione non è disponibile se tutte le sezioni vengono visualizzate nel pannello sinistro per impostazione predefinita.
 
 1. (Facoltativo) Per aggiungere un collegamento rapido al dashboard, fai clic su **[!UICONTROL Aggiungi dashboard]** nella parte inferiore del pannello sinistro, quindi effettua le seguenti operazioni:
 
