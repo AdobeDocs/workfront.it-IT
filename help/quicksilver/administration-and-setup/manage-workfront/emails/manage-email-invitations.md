@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: Gestire gli inviti e-mail ai nuovi utenti
 description: In qualità di amministratore di Adobe Workfront, puoi aggiungere utenti a Workfront e avvisarli che sono stati aggiunti, utilizzando inviti e-mail.
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: dccbd5a036e1b148bc8f3e41fac3a67babe6dc9a
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->La procedura descritta in questa pagina si applica solo alle organizzazioni che non hanno ancora effettuato l’onboarding nell’Admin Console. Se la tua organizzazione è stata integrata in Adobe Admin Console, devi eseguire questa azione tramite Adobe Admin Console.
+>La procedura descritta in questa pagina si applica solo alle organizzazioni che non hanno ancora effettuato l’onboarding in Admin Console. Se la tua organizzazione è stata integrata in Adobe Admin Console, devi eseguire questa azione tramite Adobe Admin Console.
 >
 >Per un elenco delle procedure che differiscono a seconda che l&#39;organizzazione sia stata integrata in Adobe Admin Console, consulta [Differenze di amministrazione basate su Platform (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -69,7 +69,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 +++
 
-## Genera inviti e-mail {#generate-email-invitations}
+## Invia nuovamente gli inviti e-mail agli utenti non registrati esistenti
 
 Gli inviti e-mail vengono generati nei seguenti scenari:
 
@@ -82,7 +82,7 @@ Gli inviti e-mail vengono generati nei seguenti scenari:
   >
   >Se deselezioni la casella **Invia un invito e-mail a questa persona** al momento della creazione dell&#39;utente, l&#39;invito e-mail non può essere generato manualmente. È possibile inviare manualmente gli inviti e-mail solo agli utenti a cui è stato inviato l’invito e-mail originale al momento della creazione del loro account. Per ulteriori informazioni sulla creazione di nuovi utenti, vedere [Aggiungi utenti](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-Per generare manualmente inviti e-mail per utenti esistenti non registrati:
+Per inviare manualmente gli inviti e-mail agli utenti non registrati esistenti:
 
 {{step-1-to-users}}
 
@@ -96,9 +96,9 @@ Per generare manualmente inviti e-mail per utenti esistenti non registrati:
 
    >[!NOTE]
    >
-   >Se la tua organizzazione è stata integrata nell’Admin Console e aggiungi un utente tramite Workfront, non puoi inviare un invito e-mail a nuovi utenti.
+   >Se la tua organizzazione è stata integrata in Admin Console e aggiungi un utente tramite Workfront, non puoi inviare un invito e-mail a nuovi utenti.
    >
-   >I nuovi utenti dell’Adobe vengono aggiunti all’Admin Console Admin Console, che a sua volta distribuisce un’e-mail per invitarli a completare la procedura di registrazione. Tutti gli utenti devono completare la procedura di registrazione per accedere a qualsiasi Adobe.
+   >I nuovi utenti di Adobe vengono aggiunti all’Admin Console e l’Admin Console consegna un’e-mail per invitarli a completare il processo di registrazione. Tutti gli utenti devono completare il processo di registrazione per accedere a qualsiasi sistema Adobe.
    >
    >Per gli utenti esistenti di Adobe, l’utente può ricevere o meno un’e-mail sulla disponibilità di Workfront. Questa è una preferenza controllata dall’amministratore di Adobe per il prodotto.
 
