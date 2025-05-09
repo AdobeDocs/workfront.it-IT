@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '2855'
+source-wordcount: '2845'
 ht-degree: 2%
 
 ---
@@ -139,7 +139,7 @@ To create a Request Queue:
 
 1. Go to the project that you want to set up as a Request Queue.
 1. (Optional) Click **Project Details** in the left panel and add a **Description** to the project in the **Overview** area. This information displays on all new requests.
-1. Click **Queue Details** in the left panel. You might need to click **Show More**, then **Queue Details**.
+1. Click **Queue Details** in the left panel. 
 
    This opens the Queue Details section.
 
@@ -339,7 +339,7 @@ Per creare una coda di richieste:
 
 1. Passare al progetto che si desidera impostare come coda di richieste.
 1. (Facoltativo) Fai clic su **Dettagli progetto** nel pannello a sinistra e aggiungi una **Descrizione** al progetto nell&#39;area **Panoramica**. Queste informazioni vengono visualizzate in tutte le nuove richieste.
-1. Fai clic su **Dettagli coda** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**, quindi su **Dettagli coda**.
+1. Fai clic su **Dettagli coda** nel pannello a sinistra.
 
    Verrà aperta la sezione Dettagli coda.
 
@@ -424,7 +424,7 @@ Per creare una coda di richieste:
    * **Tipi di richiesta:** Nella sezione **Proprietà coda**, selezionare una delle opzioni seguenti:
 
    * Segnalazione Bug
-   * Richiesta di Modifica
+   * Ordine di modifica
    * Problema
    * Richiesta
 

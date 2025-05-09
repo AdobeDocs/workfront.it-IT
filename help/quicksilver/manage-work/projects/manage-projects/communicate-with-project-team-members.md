@@ -6,9 +6,9 @@ description: Puoi comunicare facilmente con i membri del team di progetto tramit
 author: Alina
 feature: Work Management
 exl-id: 2dadc10c-ffa8-4bb5-b2f1-14e2a8f0a7d6
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -53,16 +53,16 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 ## Inviare un messaggio e-mail a un membro del team di progetto {#send-an-email-to-a-project-team-member}
 
 1. Vai a un progetto a cui desideri inviare un messaggio e-mail dai membri del team del progetto.
-1. Fai clic su **Persone** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**.
+1. Fai clic su **Persone** nel pannello a sinistra.
 
    Per aggiornare tutti i membri del team di progetto, fare clic su **Aggiorna tutti** nell&#39;angolo superiore sinistro dell&#39;elenco dei membri del team di progetto.
 
    Oppure
 
-   Per aggiornare alcuni membri del team di progetto, selezionare uno o più utenti nell&#39;elenco, quindi fare clic su **Invia aggiornamento all&#39;utente**&#x200B;**&#x200B;**.\
+   Per aggiornare alcuni membri del team di progetto, selezionare uno o più utenti nell&#39;elenco, quindi fare clic su **Invia aggiornamento all&#39;utente******.\
    ![Commento_1.png](assets/commenting-1-350x352.png)
 
-1. Digita il tuo aggiornamento nel campo **Post an update to this project**.
+1. Digita il tuo aggiornamento nel campo **Pubblica un aggiornamento per questo progetto**.
 1. (Facoltativo) Per rendere l&#39;aggiornamento privato, fare clic sull&#39;icona **Blocca**.
 
    Gli utenti esterni alla società non possono visualizzare un aggiornamento privato.
@@ -91,7 +91,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(NOTE: drafted. No longer valid)</p>
 <ol>
 <li value="1"> <p>Go to a project whose members of the project team you want to send an email to. </p> </li>
-<li value="2"> Click <strong>Show More</strong>, then <strong>People</strong> in the left panel.</li>
+<li value="2"> Click <strong>People</strong> in the left panel.</li>
 <li value="3"> <p>To update all members of the project team, click <strong>Update All</strong> in the upper-left corner of the list of project team members.</p> <p>Or</p> <p>To update certain members of the project team, select one or several users in the list, then click <strong>Update</strong>. </p> </li>
 <li value="4">Type your update in the <strong>Post an update to this project</strong> field.</li>
 <li value="5"> <p>(Optional) To make the update private, click the <strong>Lock</strong> icon.</p> <p>Users outside the company cannot view a private&nbsp;update.</p> </li>

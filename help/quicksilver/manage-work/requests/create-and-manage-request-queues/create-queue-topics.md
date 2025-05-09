@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '844'
 ht-degree: 2%
 
 ---
@@ -108,7 +108,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Per informazioni sulla creazione di gruppi di argomenti, vedere [Creare gruppi di argomenti](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
-1. Fai clic su **Argomenti coda** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**, quindi su **Argomenti coda**.
+1. Fai clic su **Argomenti coda** nel pannello a sinistra.
 1. Fare clic su **Nuovo argomento coda**.
 1. Nel modulo **Nuovo argomento coda** immettere quanto segue:
 
@@ -161,7 +161,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    I tipi vengono visualizzati come selezione nell&#39;area Richieste solo se il tipo di richiesta è selezionato nelle pagine Dettagli coda e Argomento coda. Per informazioni sulla configurazione dell&#39;area Dettagli coda di un progetto, vedere <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Creare una coda di richieste</a>. </p> <p>Selezionare uno dei tipi seguenti:</p>
    <ul>
    <li>Segnalazione Bug</li>
-   <li>Richiesta di Modifica</li>
+   <li>Ordine di modifica</li>
    <li>Problema</li>
    <li>Richiesta</li>
    </ul> <p>L&#39;amministratore di Workfront potrebbe aver rinominato alcune di queste opzioni. </p> </td>

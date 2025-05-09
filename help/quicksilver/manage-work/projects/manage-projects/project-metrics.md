@@ -8,9 +8,9 @@ description: Le metriche del progetto forniscono una visualizzazione di ciò che
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1258'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ Il grafico a barre assegnatario mostra il numero di attività assegnate a ogni p
 È possibile interagire con i grafici nell&#39;area Metriche per esaminare i diversi aspetti di un grafico oppure esaminare più da vicino le attività e i problemi relativi a un grafico.
 
 1. Vai al progetto per il quale vuoi visualizzare le metriche.
-1. Nel pannello a sinistra, fai clic su **Mostra altro** per visualizzare altre sezioni, quindi fai clic su **Metriche**.\
+1. Nel pannello a sinistra, fai clic su **Metriche**.\
    Per impostazione predefinita, i grafici nell’area Metriche visualizzano le informazioni relative alle attività.\
    ![](assets/metrics-section-350x298.png)
 

@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '506'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ Una volta create, non è possibile spostare le regole di instradamento da un pro
 ## Creare una regola di instradamento
 
 1. Passare al progetto in cui si desidera aggiungere regole di instradamento per le richieste.
-1. Fai clic su **Regole di indirizzamento** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**, quindi su **Regole di routing**.
+1. Fai clic su **Regole di indirizzamento** nel pannello a sinistra.
 1. Fare clic su **Nuova regola di routing** per aggiungere la nuova regola. Viene visualizzata la casella **Nuova regola di routing**.
 
    ![Casella Nuova regola di routing](assets/new-routing-rule-box.png)

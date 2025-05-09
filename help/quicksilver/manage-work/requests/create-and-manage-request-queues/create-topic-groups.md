@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Per creare un Topic Group:
 1. Vai al progetto pubblicato come coda di richieste di aiuto.\
    Per ulteriori informazioni sulla pubblicazione di un progetto come coda di richieste di aiuto, vedere [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Fai clic su **Gruppi di argomenti** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**, quindi su **Gruppi argomenti**.
+1. Fai clic su **Gruppi di argomenti** nel pannello a sinistra.
 1. Fare clic su **Nuovo gruppo di argomenti**.
 
    ![](assets/new-topic-group-box-nwe-350x306.png)

@@ -6,9 +6,9 @@ description: Puoi rimuovere utenti da un progetto quando non sono più coinvolti
 author: Alina
 feature: Work Management
 exl-id: 3a75c78d-faed-41cd-a0a4-59504bb981af
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Per rimuovere utenti dalla squadra del progetto:
 
 1. Vai al progetto in cui desideri rimuovere gli utenti.
 
-1. Fai clic su **Persone** nel pannello a sinistra, quindi seleziona gli utenti da rimuovere. Potrebbe essere necessario fare clic su **Mostra altro**, quindi su **Persone**.
+1. Fai clic su **Persone** nel pannello a sinistra, quindi seleziona gli utenti da rimuovere.
 
 1. Fai clic sull&#39;icona **Rimuovi** ![Rimuovi elemento](assets/remove-icon---x-in-circle.png) nella parte superiore dell&#39;elenco degli utenti.
 

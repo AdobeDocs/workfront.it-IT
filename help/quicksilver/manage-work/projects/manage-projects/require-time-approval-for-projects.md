@@ -6,9 +6,9 @@ description: Richiede l'approvazione del tempo per un progetto
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Se si imposta un progetto per richiedere l&#39;approvazione sulle ore registrate
 Per approvare o rifiutare le ore di un progetto:
 
 1. Vai al progetto.
-1. Fai clic sull&#39;area **Ore** nel pannello a sinistra. Potrebbe trovarsi nell&#39;area **Mostra altro**.
+1. Fai clic sull&#39;area **Ore** nel pannello a sinistra.
 
 1. Vengono visualizzate le ore registrate per problemi, attività e progetto con lo stato **Inviato**.\
    Fai clic sulla casella a sinistra delle voci orarie per selezionare le ore da approvare.

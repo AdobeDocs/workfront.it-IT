@@ -6,9 +6,9 @@ description: I predecessori sono attività da cui dipendono altre attività per 
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 ## Imponi un predecessore a livello di attività
 
 1. Passare all&#39;attività successore di cui si desidera applicare il predecessore.
-1. Fai clic su **Predecessori** nel pannello a sinistra, quindi fai clic su **Aggiungi predecessore**. Potrebbe essere necessario fare clic su **Mostra altro**, quindi su **Predecessori**.
+1. Fai clic su **Predecessori** nel pannello a sinistra, quindi fai clic su **Aggiungi predecessore**.
 1. (Condizionale) Se desideri aggiungere un predecessore per più progetti, rimuovi il nome del progetto nel campo **Progetto principale** e sostituiscilo con un altro progetto.
 1. Specifica il nome dell&#39;attività predecessore o delle attività nel campo **Attività**.
 1. Specificare il **Tipo di dipendenza** tra queste due attività.

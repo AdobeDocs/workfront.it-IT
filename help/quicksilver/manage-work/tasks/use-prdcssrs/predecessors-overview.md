@@ -7,9 +7,9 @@ description: Un predecessore è l'attività da cui dipende un'altra attività, d
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Per trovare i predecessori di un&#39;attività, effettuare una delle seguenti op
 * Vai al progetto su cui stai lavorando ed effettua le seguenti operazioni:
 
    1. Individuare l&#39;attività per la quale si desidera trovare i predecessori e fare clic sull&#39;attività.
-   1. Fai clic su **Predecessori** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**, quindi su **Predecessori**.
+   1. Fai clic su **Predecessori** nel pannello a sinistra.
    1. Il nome del progetto in cui si trova il predecessore viene visualizzato nella colonna **Progetto**.
 
       Il numero nella colonna **#** mostra il numero dell&#39;attività predecessore. Ad esempio, &quot;6&quot; indica la sesta attività del progetto.

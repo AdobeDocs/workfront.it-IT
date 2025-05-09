@@ -7,9 +7,9 @@ description: Lag è il tempo che deve trascorrere dopo il completamento di un pr
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1452'
 ht-degree: 0%
 
 ---
@@ -142,7 +142,7 @@ Quando si utilizzano i tag negativi, considera le seguenti regole:
 ### Indicare i tipi di ritardo nella sezione Predecessori di un&#39;attività {#indicate-lag-types-in-the-predecessors-section-of-a-task}
 
 1. Passare a un&#39;attività per la quale si desidera definire il predecessore e il Tipo di Lag.
-1. Fai clic su **Predecessori** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro** e quindi su **Predecessori**.
+1. Fai clic su **Predecessori** nel pannello a sinistra.
 1. Fai clic su **Aggiungi predecessore**.
 1. (Facoltativo) Se desideri aggiungere un predecessore per più progetti, sostituisci il nome del **progetto principale** con un altro progetto.
 1. Inizia a digitare il nome dell&#39;attività predecessore, quindi selezionalo quando viene visualizzato nell&#39;elenco.
