@@ -6,9 +6,9 @@ description: Utilizza il Bilanciatore dei carichi di lavoro per comprendere la d
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '4078'
+source-wordcount: '4068'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Utilizza il Bilanciatore dei carichi di lavoro in Adobe Workfront per assegnare 
 
 Il Bilanciatore dei carichi di lavoro è disponibile in più aree di Adobe Workfront. La navigazione è simile in tutte le aree.
 
-Per ulteriori informazioni sulla posizione del Bilanciatore dei carichi di lavoro, vedere [Individuare il Bilanciatore dei carichi di lavoro](https://experienceleague.adobe.com/it/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
+Per ulteriori informazioni sulla posizione del Bilanciatore dei carichi di lavoro, vedere [Individuare il Bilanciatore dei carichi di lavoro](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
 
 ## Requisiti di accesso
 
@@ -106,8 +106,8 @@ Per ulteriori informazioni sulla visualizzazione delle informazioni nel Bilancia
 
 Per informazioni sulla gestione delle risorse tramite il Bilanciatore dei carichi di lavoro, vedi anche i seguenti articoli:
 
-* [Panoramica sull&#39;assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](https://experienceleague.adobe.com/it/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [Gestione delle allocazioni utente nel Bilanciatore dei carichi di lavoro](https://experienceleague.adobe.com/it/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [Panoramica sull&#39;assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [Gestione delle allocazioni utente nel Bilanciatore dei carichi di lavoro](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 
 ## Navigare nel Bilanciatore dei carichi di lavoro per più progetti nell&#39;area Risorse
@@ -184,7 +184,7 @@ Nell&#39;area Lavoro non assegnato non viene visualizzato alcun elemento di lavo
 
 1. Utilizzare lo scorrimento orizzontale per visualizzare la sequenza temporale degli elementi di lavoro che si estendono oltre i limiti dello schermo.
 1. Fai clic sulle icone **avanti o indietro** ![Indietro e avanti](assets/back-and-forward-icons.png) nell&#39;angolo superiore sinistro per spostarti nella timeline, quindi fai clic su **Oggi** per tornare alla settimana corrente.
-1. Fare clic sul menu a discesa dell&#39;intervallo di tempo **&#x200B;**&#x200B;sulla barra degli strumenti, quindi fare clic sulla data di inizio del periodo che si desidera visualizzare. Per impostazione predefinita, la prima settimana selezionata nel calendario è quella a cui si è passati.
+1. Fare clic sul menu a discesa dell&#39;intervallo di tempo **** sulla barra degli strumenti, quindi fare clic sulla data di inizio del periodo che si desidera visualizzare. Per impostazione predefinita, la prima settimana selezionata nel calendario è quella a cui si è passati.
 
    ![Selezione calendario](assets/calendar-date-picker-wb.png)
 
@@ -422,7 +422,7 @@ Per impostazione predefinita, viene visualizzata la pagina del team predefinito.
 {{step1-to-projects}}
 
 1. Fai clic sul nome di un progetto per aprire la pagina del progetto.
-1. Fai clic su **Bilanciatore dei carichi di lavoro** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**, quindi su **Bilanciatore dei carichi di lavoro**.
+1. Fai clic su **Bilanciatore dei carichi di lavoro** nel pannello a sinistra.
 
    ![Bilanciatore dei carichi di lavoro di un progetto](assets/nwe-balancer-project-350x152.png)
 

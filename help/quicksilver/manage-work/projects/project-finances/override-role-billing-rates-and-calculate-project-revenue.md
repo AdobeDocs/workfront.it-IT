@@ -6,7 +6,7 @@ description: È possibile utilizzare le tariffe di fatturazione per calcolare i 
 author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
 source-wordcount: '3860'
 ht-degree: 0%
@@ -134,7 +134,7 @@ Per ulteriori informazioni sulla mansione utilizzata per calcolare i ricavi sul 
 <p>To override a billing rate for a project:</p>
 <ol>
 <li value="1">Go to the project you want to override billing rates for.</li>
-<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <strong>Billing Rates</strong> in the left panel. You might have to first click <strong>Show More</strong>. </p> </li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <strong>Billing Rates</strong> in the left panel. </p> </li>
 <li value="3"> <p>Click <strong>Add Billing Rate</strong> > <strong>New Billing Rate</strong>.</p> <p>The New Billing Rate box opens</p> <p> <img src="assets/override-billing-rate-on-project-nwe-350x310.png" style="width: 350;height: 310;"> </p> <p> <br>The <strong>Default Billing Rate</strong> field displays the system-level rate for this job role.</p> </li>
 <li value="4">In the <strong>Job Role</strong> field, select the job role you want to change the billing rate for.<br></li>
 <li value="5">In the <strong>Billing Rates 1</strong> field, enter the one time billing rate override, then click <strong>Save</strong> to override the billing rate one time, <br>Or Click <strong>Add Rate</strong> to add more billing rate overrides.</li>
@@ -211,7 +211,7 @@ Se si dispone di più tariffe di fatturazione sostitutive per una mansione speci
 
 Quando si calcola la retribuzione pianificata in base a una sostituzione della tariffa di fatturazione una tantum, tenere presente quanto segue:
 
-* Quando il tipo di retribuzione **1&rbrace; di un&#39;attività è** Ore ruolo **, Workfront moltiplica le Ore pianificate di un&#39;attività per la tariffa di fatturazione della mansione associata all&#39;attività per calcolare la retribuzione pianificata dell&#39;attività.**
+* Quando il tipo di retribuzione **1} di un&#39;attività è** Ore ruolo **, Workfront moltiplica le Ore pianificate di un&#39;attività per la tariffa di fatturazione della mansione associata all&#39;attività per calcolare la retribuzione pianificata dell&#39;attività.**
 
 * Quando la tariffa di fatturazione della mansione è stata sostituita a livello di progetto, Workfront utilizza la tariffa di sostituzione del progetto per calcolare la Retribuzione pianificata.
 * Quando un&#39;attività ha più assegnazioni, la Retribuzione pianificata viene calcolata moltiplicando la tariffa di fatturazione della mansione di ciascuna assegnazione e la rispettiva allocazione delle Ore pianificate.
@@ -226,7 +226,7 @@ Per ulteriori informazioni sulla mansione utilizzata per calcolare i ricavi pian
 
 Quando si calcola la retribuzione pianificata in base a più sostituzioni della tariffa di fatturazione, tenere presente quanto segue:
 
-* Quando il tipo di retribuzione **1&rbrace; di un&#39;attività è** Ore ruolo **, Workfront moltiplica le Ore pianificate di un&#39;attività per la tariffa di fatturazione della mansione associata all&#39;attività per calcolare la retribuzione pianificata dell&#39;attività.**
+* Quando il tipo di retribuzione **1} di un&#39;attività è** Ore ruolo **, Workfront moltiplica le Ore pianificate di un&#39;attività per la tariffa di fatturazione della mansione associata all&#39;attività per calcolare la retribuzione pianificata dell&#39;attività.**
 
   Per ulteriori informazioni sulla mansione utilizzata per calcolare i ricavi pianificati, vedere la sezione &quot;Informazioni sui calcoli dei ricavi per le attività basate sulle assegnazioni di utenti e ruoli&quot; nell&#39;articolo [Panoramica su fatturazione e ricavi](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 

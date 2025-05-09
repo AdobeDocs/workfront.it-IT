@@ -6,9 +6,9 @@ description: È possibile visualizzare l'utilizzo delle risorse nel rapporto Uti
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '7283'
+source-wordcount: '7285'
 ht-degree: 1%
 
 ---
@@ -453,7 +453,7 @@ Per tenere traccia dell&#39;avanzamento o del costo di uno o più progetti con u
 
    * Per visualizzare le informazioni sull&#39;utilizzo per un singolo progetto:
 
-      1. Vai a un progetto per il quale vuoi visualizzare le informazioni sull&#39;utilizzo, quindi fai clic su **Mostra altro> Utilizzo**.
+      1. Vai a un progetto per il quale vuoi visualizzare le informazioni sull&#39;utilizzo, quindi fai clic su **Utilizzo** nel pannello a sinistra.
       1. Le informazioni sull’utilizzo vengono visualizzate automaticamente quando si visualizza un singolo progetto e non è necessario applicare un filtro.\
          Se desideri filtrare il report Utilizzo, puoi applicare un filtro e fare clic su **Esegui**.\
          Per informazioni su come filtrare il report Utilizzo, vedere [Informazioni sull&#39;utilizzo del filtro](#filter-utilization-information) in questo articolo.\

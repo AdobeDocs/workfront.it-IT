@@ -5,9 +5,9 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 ## Allegare una scheda tariffe a un progetto
 
 1. Vai al progetto.
-1. Fai clic su **Tariffe di fatturazione** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**.
+1. Fai clic su **Tariffe di fatturazione** nel pannello a sinistra.
 1. Fai clic su **Aggiungi tariffa di fatturazione > Allega una tariffa**.
 
    Viene visualizzata la pagina Allega scheda tariffa. Per ulteriori informazioni, consulta [Gestione schede tariffarie](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).

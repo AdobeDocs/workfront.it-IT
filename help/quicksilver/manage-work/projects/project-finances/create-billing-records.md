@@ -5,9 +5,9 @@ description: Oltre a impostare le entrate e a tenere traccia delle spese, è pos
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1862'
 ht-degree: 0%
 
 ---
@@ -73,9 +73,6 @@ Quando si pianifica l&#39;utilizzo dei record di fatturazione, tenere presente q
 
 1. Passa a un progetto.
 1. Fai clic su **Record fatturazione** nel pannello a sinistra.
-
-   Questa sezione potrebbe trovarsi in **Mostra altro**.
-
 1. Con **Dettagli record fatturazione** selezionato nel pannello a sinistra, fai clic su **Nuovo record fatturazione**.
 1. Nella casella **Nuovo record fatturazione** visualizzata, specificare le informazioni seguenti:
 
@@ -158,17 +155,13 @@ Puoi aggiungere ore a una fatturazione quando sono soddisfatte le seguenti condi
 * Se **Richiedi l&#39;approvazione del tempo per questo progetto** è selezionato in Impostazioni progetto, il proprietario del progetto deve approvare le ore registrate.\
   Per ulteriori informazioni sulla richiesta di approvazione nelle ore del progetto, vedere l&#39;articolo [Richiedi approvazione del tempo per un progetto](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md).
 
-#### Aggiungi ore a un record fatturazione {#add-hours-to-a-billing-record}
+#### Aggiungere ore a un record fatturazione {#add-hours-to-a-billing-record}
 
 Per aggiungere ore fatturabili a un record di fatturazione:
 
 1. Vai al progetto con i record di fatturazione.
 1. Fai clic su **Record fatturazione** nel pannello a sinistra.
-
-   Questa sezione potrebbe trovarsi in **Mostra altro**.
-
 1. Fai clic su **Descrizione** di un record di fatturazione per aprire la scheda **Dettagli record fatturazione**.
-
 1. Fai clic su **Ore fatturabili** nel pannello a sinistra.
 1. Se ci sono ore che potrebbero essere incluse in un record di fatturazione, fai clic su **Aggiungi ore**.\
    Viene visualizzata la casella **Aggiungi ore fatturabili**.
@@ -190,11 +183,7 @@ Per aggiungere spese fatturabili a un record fatturazione:
 
 1. Vai al progetto con i record di fatturazione.
 1. Fai clic su **Record fatturazione** nel pannello a sinistra.
-
-   Potrebbe essere necessario fare clic su **Mostra altro**, quindi su **Record fatturazione**.
-
 1. Fai clic su **Descrizione** di un record di fatturazione per aprire la scheda **Dettagli record fatturazione**.
-
 1. Fai clic su **Spese fatturabili** nel pannello a sinistra.
 1. (Condizionale) Se hai aggiunto spese alle attività o al progetto e le hai contrassegnate come Fatturabili, fai clic su **Aggiungi spese**.
 
@@ -215,11 +204,7 @@ Per aggiungere i ricavi fissi a un record di fatturazione:
 
 1. Vai al progetto con i record di fatturazione.
 1. Fai clic su **Record fatturazione** nel pannello a sinistra.
-
-   Potrebbe essere necessario fare clic su **Mostra altro**, quindi su **Record fatturazione**.
-
 1. Fai clic su **Descrizione** di un record di fatturazione per aprire la scheda **Dettagli record fatturazione**.
-
 1. Selezionare la scheda **Redditi fissi**.
 1. Se hai aggiunto ricavi fissi alle attività, fai clic su **Aggiungi ricavi fissi**.
 
@@ -271,4 +256,4 @@ Dopo aver creato un record di fatturazione e aver incluso ore, spese e ricavi ne
      Included Hourly Revenue (Billable Hours) + Included Expenses (Billable Expenses) + Included Fixed Revenue (Billable Revenues) + Fixed Amount for Other Billable Items (Additional Amount)
      ```
 
-1. Fai clic su **Salva**&#x200B;**Modifiche**.
+1. Fai clic su **Salva****Modifiche**.

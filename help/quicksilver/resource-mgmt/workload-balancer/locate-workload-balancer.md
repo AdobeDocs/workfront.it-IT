@@ -7,9 +7,9 @@ description: È possibile utilizzare il Bilanciatore dei carichi di lavoro per p
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '714'
 ht-degree: 1%
 
 ---
@@ -122,7 +122,7 @@ Viene visualizzata la pagina del team predefinito.
 {{step1-to-projects}}
 
 1. Fai clic sul nome di un progetto per aprire la pagina del progetto.
-1. Fai clic su **Bilanciatore dei carichi di lavoro** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**, quindi su **Bilanciatore dei carichi di lavoro**.
+1. Fai clic su **Bilanciatore dei carichi di lavoro** nel pannello a sinistra.
 
    Viene visualizzato il Bilanciatore dei carichi di lavoro per il progetto.
 

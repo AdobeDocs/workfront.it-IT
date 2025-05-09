@@ -6,7 +6,7 @@ description: Il processo di creazione e gestione delle spese è lo stesso sia pe
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 1%
@@ -58,14 +58,13 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 ## Aggiungi spese
 
 1. Vai al progetto in cui desideri inserire le spese.\
-   Se si desidera aggiungere spese a un&#39;attività, passare a un&#39;attività. 
-1. Fai clic su **Mostra altro**, quindi fai clic su **Spese**.
+   Se si desidera aggiungere spese a un&#39;attività, passare a un&#39;attività.
+1. Fai clic su **Spese** nel pannello a sinistra.
 1. Fai clic su **Aggiungi una spesa**.
 Viene visualizzata la finestra di dialogo **Aggiungi una spesa**.
 1. Aggiorna quanto segue:
 
    * **Descrizione:** Descrizione della spesa.
-
    * **Tipo di spesa:** (obbligatorio) Selezionare la categoria che meglio descrive la spesa.
    * **Attività:** Inizia a digitare il nome dell&#39;attività a cui è associata questa spesa, quindi fai clic su di essa quando viene visualizzata nell&#39;elenco a discesa.
    * **Importo pianificato:** l&#39;importo preventivato pianificato per la spesa.\
@@ -87,7 +86,6 @@ Viene visualizzata la finestra di dialogo **Aggiungi una spesa**.
 ## Cancella Spese
 
 1. Vai al progetto in cui desideri eliminare le spese.
-1. Fai clic su **Mostra altro**, quindi fai clic su **Spese**.
+1. Fai clic su **Spese** nel pannello a sinistra.
 1. Seleziona le spese da eliminare, quindi fai clic su **Elimina** ![Elimina](assets/delete.png).
-
 1. Fare clic su **Sì, Elimina** per confermare l&#39;eliminazione.
