@@ -7,7 +7,7 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 036846cc84e53b090276f7b853372e4e0050c316
+source-git-commit: b81164511776efed53d3f41b4ac1cbf0c035c741
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 0%
@@ -88,7 +88,7 @@ Per informazioni, vedere [Gestire la visualizzazione della sequenza temporale](/
 >[!NOTE]
 >
 >* Anteprima: 17 aprile 2025
->* Versione rapida di produzione: 15 maggio 2025
+>* Versione rapida di produzione: 12 giugno 2025
 >* Produzione per tutti i clienti: 17 luglio 2025
 
 Per controllare meglio chi può visualizzare o gestire i record in ogni tipo di record e garantire che solo le persone autorizzate possano gestire le informazioni di ogni tipo di record in base ai loro ruoli e responsabilità, sono state introdotte le autorizzazioni a livello di tipo di record.
