@@ -3,19 +3,24 @@ title: Disattivare o riattivare un utente
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: In qualità di amministratore di Workfront, puoi disattivare o riattivare un utente.
+description: Gli amministratori di Workfront possono disattivare o riattivare un utente.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: 0c2a54406ceb690e638cdc0376a3dc01a7c2df76
+source-git-commit: b235945deb3254feaf671083fc992786851a3286
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
 
-# Disattivare o riattivare un utente
+# Disattivare o riattivare un utente {#deactivate-or-reactivate-a-user}
+
+>[!CONTEXTUALHELP]
+>id="wf_users_deactivate_user"
+>title="Disattivare un utente"
+>abstract="Quando si disattiva un utente, questi vengono rimossi da Workfront e Frame.io. Gli utenti disattivati possono essere riattivati in un secondo momento."
 
 <!--Audited 5/2025-->
 
@@ -25,7 +30,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/it/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -181,3 +186,4 @@ Quando si pianifica la disattivazione di un utente, questi non vengono più visu
 La Programmazione delle risorse tiene conto di tutte le mansioni degli utenti e delle Date di completamento pianificate delle attività e calcola le risorse di conseguenza.
 
 Per ulteriori informazioni sulla Programmazione delle risorse, vedere [Panoramica sulla programmazione delle risorse](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+
