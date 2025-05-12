@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
+source-git-commit: d0a82c1ae306edb4f63c961120bb1df4613ace7e
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,14 @@ Questa pagina descrive tutti i miglioramenti alla gestione dei documenti apporta
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del terzo trimestre 2025, consulta [Panoramica sulla versione del terzo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
->[!IMPORTANT]
->
->Le funzioni elencate in questa pagina fanno parte di un rilascio graduale e sono disponibili solo per clienti specifici.
+## Aggiornamento visualizzatore bozze desktop
+
+Il Visualizzatore bozze desktop è stato aggiornato alla versione 2.1.48.
+
+Questo aggiornamento è una correzione di un problema per mantenere il Visualizzatore desktop compatibile con i sistemi operativi Mac. L&#39;Electron fu declassato a 34.4.0 e il Chromium a 132.
+
+Questo aggiornamento è sia per Mac che per Windows.
+
 
 ## Assets in una cartella Google collegata deve essere aggiunto singolarmente per essere visualizzato in Workfront
 
@@ -43,6 +48,10 @@ Funzionalità chiave che rimangono invariate:
 
 
 ## Pulsanti di decisione per l&#39;approvazione di un nuovo documento disponibili nel visualizzatore di bozze
+
+>[!IMPORTANT]
+>
+>Questa funzione fa parte di un rilascio graduale e è disponibile solo per clienti specifici.
 
 >[!NOTE]
 >
