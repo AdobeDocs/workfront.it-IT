@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: f94ad0f289064f243aadb08226bd5e53357f650d
+source-git-commit: b3a4945cf2db1ba11b42742f0da685b32a6d0dd9
 workflow-type: tm+mt
-source-wordcount: '1680'
+source-wordcount: '1694'
 ht-degree: 0%
 
 ---
@@ -237,6 +237,8 @@ IF({DE:Budget Field} < 0,
 Un altro semplice esempio è che un campo numero di telefono deve contenere un certo numero di cifre per essere valido.
 
 Un altro esempio per la convalida basata su altri campi è un campo relativo alle dimensioni della sala riunioni (piccolo, medio o grande) e un campo separato relativo al numero di partecipanti alla riunione. Il numero di persone per ogni dimensione della stanza è indicato nella formula di convalida. Se il numero di partecipanti immessi è eccessivo per la sala riunioni selezionata, viene visualizzato il messaggio di errore.
+
+Per ulteriori esempi di logica di convalida, vedere [Esempi di logica avanzata nei moduli personalizzati](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/advanced-logic-examples.md).
 
 ### Definire la logica di convalida
 
