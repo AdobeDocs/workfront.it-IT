@@ -2,28 +2,32 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: Creare, modificare e condividere filtri, viste e raggruppamenti predefiniti
+title: Creare, modificare e condividere filtri, visualizzazioni e raggruppamenti a livello di sistema
 description: Puoi creare filtri, viste e raggruppamenti predefiniti, quindi renderli disponibili agli utenti dell’organizzazione.
-author: Lisa
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: ad6d983524e19e60e0c884faed2990d9fa6549d7
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 1%
+source-wordcount: '742'
+ht-degree: 0%
 
 ---
 
-# Creare, modificare e condividere filtri, viste e raggruppamenti predefiniti
+# Creare, modificare e condividere filtri, viste e raggruppamenti a livello di sistema
+
+<!-- Audited: 5/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-Puoi creare filtri, viste e raggruppamenti predefiniti, quindi renderli disponibili agli utenti dell’organizzazione.
+Puoi creare filtri, viste e raggruppamenti e renderli disponibili agli utenti a livello di sistema all’interno della tua organizzazione.
 
-Quando crei filtri, viste e raggruppamenti predefiniti come descritto in questo articolo, gli utenti con cui li condividi possono sfruttarli durante la visualizzazione dei loro elenchi. Gli utenti possono creare filtri, viste e raggruppamenti personalizzati in base a quelli creati, ma non possono modificare direttamente quelli creati.
+Quando crei filtri, viste e raggruppamenti a livello di sistema come descritto in questo articolo, gli utenti con cui li condividi possono sfruttarli durante la visualizzazione dei loro elenchi. Gli utenti possono creare filtri, viste e raggruppamenti personalizzati in base a quelli creati, ma non possono modificarli direttamente.
+
+Tieni presente che i filtri, le viste e i raggruppamenti creati a livello di sistema sono diversi da quelli predefiniti creati automaticamente da Adobe Workfront. Impossibile modificare o eliminare i filtri, le visualizzazioni e i raggruppamenti predefiniti.
 
 ## Requisiti di accesso
 
@@ -58,17 +62,12 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 +++
 
-## Creare filtri, viste o raggruppamenti predefiniti
+## Creare filtri, viste o raggruppamenti
 
 {{step-1-to-setup}}
 
-1. Effettua una delle seguenti operazioni, a seconda che tu stia creando o modificando un filtro, una vista o un raggruppamento:
 
-   * Fare clic su **[!UICONTROL Interfaccia]** > **[!UICONTROL Filtri]**.
-
-   * Fare clic su **[!UICONTROL Interfaccia]** > **[!UICONTROL Viste]**.
-
-   * Fare clic su **[!UICONTROL Interfaccia]** > **[!UICONTROL Raggruppamenti]**.
+1. Fai clic su **[!UICONTROL Interfaccia]**, quindi su uno dei seguenti elementi: **[!UICONTROL Filtri]**, **[!UICONTROL Visualizzazioni]** o **[!UICONTROL Raggruppamenti]**.
 
 1. Se stai creando un filtro, una visualizzazione o un raggruppamento, fai clic su **[!UICONTROL Aggiungi filtro]**, **[!UICONTROL Aggiungi visualizzazione]** o **[!UICONTROL Aggiungi raggruppamento]**, quindi seleziona il tipo di oggetto a cui vuoi associare il nuovo filtro, la nuova visualizzazione o il nuovo raggruppamento.
 
@@ -91,13 +90,15 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Mostrare o nascondere i filtri, le visualizzazioni o i raggruppamenti disponibili nel modello di layout
 
-È possibile scegliere di mostrare o nascondere filtri, viste o raggruppamenti dal modello di layout. I filtri visibili sono disponibili per tutti gli utenti a livello di sistema. È possibile utilizzare un modello di layout per nascondere i filtri visibili per utenti o gruppi specifici.
+È possibile scegliere di mostrare o nascondere filtri, viste o raggruppamenti dal modello di layout. I filtri visibili sono disponibili per tutti gli utenti del sistema. È possibile utilizzare un modello di layout per nascondere i filtri visibili per utenti o gruppi specifici.
 
 >[!NOTE]
 >
->Se un utente utilizza attivamente un filtro, una visualizzazione o un raggruppamento e poi un amministratore lo disabilita, l’utente può comunque accedervi finché non sceglie un nuovo filtro, una visualizzazione o un raggruppamento. Dopo aver scelto un nuovo filtro, una nuova vista o un nuovo raggruppamento, non sarà più possibile ripristinare il filtro, la vista o il raggruppamento nascosto.
+>Se un utente utilizza attivamente un filtro, una visualizzazione o un raggruppamento e poi un amministratore lo disabilita, l’utente può comunque accedervi finché non sceglie un nuovo filtro, una visualizzazione o un raggruppamento. Dopo averne scelto uno nuovo, non potranno più tornare a quello nascosto.
 
 Per mostrare o nascondere i filtri, le visualizzazioni o i raggruppamenti disponibili nel modello di layout:
+
+{{step-1-to-setup}}
 
 1. Fai clic su **[!UICONTROL Interfaccia]**, quindi su uno dei seguenti elementi: **[!UICONTROL Filtri]**, **[!UICONTROL Visualizzazioni]** o **[!UICONTROL Raggruppamenti]**.
 
@@ -107,9 +108,9 @@ Per mostrare o nascondere i filtri, le visualizzazioni o i raggruppamenti dispon
 
    >[!TIP]
    >
-   >Se si desidera mantenere il filtro, la visualizzazione o il raggruppamento disponibili per la maggior parte degli utenti, ma nasconderli ad altri utenti, è possibile utilizzare il modello di layout. Per ulteriori informazioni, vedere [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+   >Se si desidera mantenere il filtro, la visualizzazione o il raggruppamento disponibili per la maggior parte degli utenti, ma nasconderli ad altri, è possibile utilizzare il modello di layout. Per ulteriori informazioni, vedere [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Condizionale) Selezionare il filtro, la visualizzazione o il raggruppamento che si desidera nascondere agli utenti, quindi fare clic su **[!UICONTROL Disattiva a livello di sistema]**. Una volta disattivato, il filtro, la vista o il raggruppamento saranno nascosti dal modello di layout e dagli utenti nel sistema.
+1. (Condizionale) Selezionare il filtro, la visualizzazione o il raggruppamento che si desidera nascondere agli utenti, quindi fare clic su **[!UICONTROL Disattiva a livello di sistema]**. Il filtro, la visualizzazione o il raggruppamento ora sono nascosti dal modello di layout e dagli utenti in tutto il sistema.
 
 
 ## Rendi filtri, viste o raggruppamenti disponibili a tutti gli utenti {#make-filters-views-or-groupings-available-to-users}
@@ -120,34 +121,19 @@ Questi passaggi spiegano come rendere disponibili filtri, visualizzazioni e ragg
 
 1. Fai clic su **[!UICONTROL Interfaccia]**, quindi su uno dei seguenti elementi: **[!UICONTROL Filtri]**, **[!UICONTROL Visualizzazioni]** o **[!UICONTROL Raggruppamenti]**.
 
-1. Seleziona il filtro, la visualizzazione o il raggruppamento che desideri rendere disponibile agli utenti, quindi fai clic sull&#39;icona **[!UICONTROL Condividi]** ![Condividi icona](assets/share-icon.png) per aprire la maschera [!UICONTROL Accesso al filtro], [!UICONTROL Accesso alla visualizzazione] o [!UICONTROL Accesso al raggruppamento].
-1. (Condizionale) Per rendere il filtro, la visualizzazione o il raggruppamento disponibili a tutti gli utenti del sistema, fare clic sul menu a discesa **[!UICONTROL Ingranaggio]** ![](assets/gear-menu-for-sharing-items.png), quindi fare clic su **[!UICONTROL Rendi visibile a livello di sistema]**. Tutti gli utenti del sistema possono ora visualizzare il filtro, la vista o il raggruppamento.
-
-   Oppure
-
-   Inizia a digitare il nome di utenti, team, ruoli, gruppi o società specifici con cui condividere il filtro, la visualizzazione o il raggruppamento, quindi fai clic sul nome quando viene visualizzato nell’elenco a discesa.
+1. Seleziona il filtro, la visualizzazione o il raggruppamento che desideri rendere disponibile agli utenti, quindi fai clic sull&#39;icona **[!UICONTROL Condividi]** ![Condividi icona](assets/share-icon.png).
+1. Inizia a digitare il nome di utenti, team, ruoli, gruppi o società specifici con cui condividere il filtro, la visualizzazione o il raggruppamento, quindi fai clic sul nome quando viene visualizzato nell’elenco a discesa.
 
    Per ulteriori informazioni sulla condivisione, vedere [Panoramica sulle autorizzazioni di condivisione per gli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. Fai clic su **[!UICONTROL Salva]**.
-
-   Gli utenti specificati possono ora visualizzare il filtro, la visualizzazione o il raggruppamento predefinito quando visualizzano il tipo di oggetto a cui è associato.
+1. Fai clic su **[!UICONTROL Salva]**. Gli utenti specificati possono ora visualizzare il filtro, la visualizzazione o il raggruppamento quando visualizzano il tipo di oggetto a cui è associato.
 
 ## Eliminare filtri, viste e raggruppamenti
 
 {{step-1-to-setup}}
 
-1. Effettua una delle seguenti operazioni, a seconda che tu stia eliminando un filtro, una vista o un raggruppamento:
-
-   * Fai clic su **[!UICONTROL Interfaccia]** > **[!UICONTROL Filtri]**
-
-   * Fai clic su **[!UICONTROL Interfaccia]** > **[!UICONTROL Viste]**
-
-   * Fai clic su **[!UICONTROL Interfaccia]** > **[!UICONTROL Raggruppamenti]**
+1. Fai clic su **[!UICONTROL Interfaccia]**, quindi su uno dei seguenti elementi: **[!UICONTROL Filtri]**, **[!UICONTROL Visualizzazioni]** o **[!UICONTROL Raggruppamenti]**.
 
 1. Seleziona uno o più elementi nell&#39;elenco, quindi fai clic sull&#39;icona **[!UICONTROL Elimina]** ![Elimina](assets/delete.png).
-1. Per informazioni dettagliate sulla configurazione di un filtro, di una vista o di un raggruppamento, vedere uno degli articoli seguenti.
 
-   * [Panoramica filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-   * [Panoramica delle visualizzazioni in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
-   * [Panoramica sui raggruppamenti in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+1. Nella finestra di dialogo **Elimina** visualizzata, fare clic su **Sì, Elimina**.

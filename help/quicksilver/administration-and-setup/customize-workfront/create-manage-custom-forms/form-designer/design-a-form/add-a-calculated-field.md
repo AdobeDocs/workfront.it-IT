@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 0c2a54406ceb690e638cdc0376a3dc01a7c2df76
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2434'
 ht-degree: 0%
 
 ---
 
 # Aggiungere campi calcolati a un modulo
+
+<!-- Audited: 5/2025 -->
 
 È possibile aggiungere un campo personalizzato calcolato che utilizza dati esistenti per generare nuovi dati quando il modulo personalizzato viene allegato a un oggetto.
 
@@ -93,15 +95,15 @@ Per riutilizzare un campo personalizzato calcolato esistente:
 
 {{step-1-to-setup}}
 
-1. Fai clic su **Forms personalizzato** nel pannello a sinistra.
+1. Nel pannello a sinistra, fai clic su **Forms personalizzato**, quindi su **Forms**.
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. Fare clic su **Nuovo modulo personalizzato.**
-1. Seleziona i tipi di oggetto a cui vuoi allegare il modulo personalizzato, quindi fai clic su **Continua**.
+1. Fai clic su **Nuovo modulo personalizzato**.
 
+1. Nella finestra di dialogo **Nuovo modulo personalizzato**, seleziona i tipi di oggetto a cui vuoi allegare il modulo personalizzato, quindi fai clic su **Continua**.
 1. Nella parte superiore sinistra dello schermo fare clic su **Libreria campi**.
 
    ![Libreria campi](assets/field-library.png)
@@ -131,14 +133,15 @@ Per riutilizzare un campo personalizzato calcolato esistente:
 
 {{step-1-to-setup}}
 
-1. Fai clic su **Forms personalizzato** nel pannello a sinistra.
+1. Nel pannello a sinistra, fai clic su **Forms personalizzato**, quindi su **Forms**.
+
+1. Fai clic su **Nuovo modulo personalizzato**.
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. Fare clic su **Nuovo modulo personalizzato.**
-1. Seleziona i tipi di oggetto a cui vuoi allegare il modulo personalizzato, quindi fai clic su **Continua**.
+1. Nella finestra di dialogo **Nuovo modulo personalizzato**, seleziona i tipi di oggetto a cui vuoi allegare il modulo personalizzato, quindi fai clic su **Continua**.
 
 1. Sul lato sinistro della schermata, trovare **Calcolato** e trascinarlo in una sezione dell&#39;area di lavoro.
 
@@ -166,9 +169,9 @@ Per riutilizzare un campo personalizzato calcolato esistente:
      </tr> 
      <tr> 
       <td role="rowheader">Formato</td> 
-      <td> <p>Il formato in cui si desidera memorizzare e visualizzare i risultati del campo.</p> <p>Se il campo verrà utilizzato nei calcoli matematici, utilizzare sempre un formato <strong>Numero</strong> o <strong>Valuta</strong>. Quando selezionate Numero (Number) o Valuta (Currency), il sistema tronca automaticamente i numeri che iniziano con 0.</p> 
+      <td> <p>Il formato in cui si desidera memorizzare e visualizzare i risultati del campo.</p> <p>Se il campo verrà utilizzato nei calcoli matematici, utilizzare sempre un formato <strong>Numero</strong> o <strong>Valuta</strong>. Quando si seleziona <strong>Numero</strong> o <strong>Valuta</strong>, i numeri che iniziano con 0 vengono troncati automaticamente.</p> 
       <p><b>IMPORTANTE</b>: prima di scegliere un formato, considerare il formato corretto per il nuovo campo. Impossibile modificare il campo di formato dopo il salvataggio del modulo personalizzato. La selezione del formato errato potrebbe inoltre influire sui calcoli futuri e sui valori aggregati nei raggruppamenti di report ed elenchi.</p>
-      <p><strong>NOTA:</strong> i campi calcolati con un formato Valuta non devono includere virgolette. (Ad esempio, utilizzare 800.00 e non "800.00"). L’utilizzo delle virgolette può causare conseguenze impreviste a causa di sfumature con la formattazione della lingua per i tipi di valuta.</p></td>
+      <p><strong>NOTA</strong>: i campi calcolati con formato <strong>Valuta</strong> non devono includere virgolette. (Ad esempio, utilizzare 800.00 e non "800.00"). L’utilizzo delle virgolette può causare conseguenze impreviste a causa di sfumature con la formattazione della lingua per i tipi di valuta.</p></td>
      </tr> 
     </tbody> 
    </table>
@@ -217,7 +220,7 @@ Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contene
 
         Quando si fa riferimento a un oggetto correlato in un campo personalizzato calcolato, è necessario separare i nomi degli oggetti e gli attributi con i punti.
 
-        In un modulo personalizzato di tipo attività, ad esempio, per visualizzare il nome del proprietario del Portfolio in un campo personalizzato calcolato, digitare quanto segue:
+        Ad esempio, in un modulo personalizzato di tipo attività, per visualizzare il nome del proprietario di Portfolio in un campo personalizzato calcolato, digitare quanto segue:
 
         `{project}.{porfolio}.{owner}`
 
@@ -295,7 +298,7 @@ Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contene
       >
       >Per ottenere informazioni sui calcoli, eseguire una delle operazioni seguenti:
       > 
-      >* Passa il puntatore del mouse su un&#39;espressione nel calcolo per visualizzare una descrizione, un esempio che ne illustra le modalità di utilizzo e un collegamento &quot;Ulteriori informazioni&quot; per ulteriori informazioni nell&#39;articolo [Panoramica delle espressioni di dati calcolati](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+      >* Passa il puntatore del mouse su un&#39;espressione nel calcolo per visualizzare una descrizione, un esempio che ne illustra le modalità di utilizzo e un collegamento **Ulteriori informazioni** per ulteriori informazioni nell&#39;articolo [Panoramica delle espressioni di dati calcolate](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
       >  ![Testo della guida dell&#39;espressione](assets/hover-expression-help-text.jpg)
       >* Utilizza la codifica a colori per identificare i componenti aggiunti. Le espressioni vengono visualizzate in blu e i campi in verde.
       >  ![Colori per espressioni di campo](assets/colors-fields-expressions.jpg)

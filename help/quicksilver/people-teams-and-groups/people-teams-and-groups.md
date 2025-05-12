@@ -2,20 +2,20 @@
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: teams-and-groups
-title: Team e gruppi
+title: 'Team e gruppi: indice degli articoli'
 description: Esamina queste aree per scoprire come lavorare con team e gruppi.
 author: Lisa
 feature: People Teams and Groups
 recommendations: noDisplay, noCatalog
 exl-id: 1ff36a4b-637a-46f2-ac1a-6a8d2c146862
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 0c2a54406ceb690e638cdc0376a3dc01a7c2df76
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
 
-# Team e gruppi
+# Team e gruppi: indice degli articoli
 
 Questa sezione contiene le seguenti sottosezioni:
 
