@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: 19e0b792bc49ede0504af479952fdbdf384dc73c
+source-git-commit: e4ff9c9c44c75518e75b14209a18586363cdf4f5
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1259'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,6 @@ Per informazioni sugli endpoint utilizzati per l&#39;aggiornamento o il downgrad
 >Le seguenti versioni influiranno sul controllo delle versioni delle sottoscrizioni agli eventi:
 >
 >* **Versione 25.2** (10 aprile 2025): tutte le nuove sottoscrizioni create dopo la versione 25.2 vengono create come versione 2.
->* **Versione 25.3** (17 luglio 2025): non è più possibile effettuare il downgrade delle sottoscrizioni alla versione 1 dopo la versione 25.3.
 >* **15 gennaio 2026**: tutte le sottoscrizioni della versione 1 rimanenti sono state migrate alla versione 2.
 
 ## Modifiche tra versione 1 e versione 2
@@ -256,4 +255,4 @@ Sono state apportate le seguenti modifiche per le sottoscrizioni di eventi versi
 
 Workfront Fusion utilizza gli abbonamenti agli eventi per controllare le modifiche in Workfront per attivare gli scenari. Puoi aggiornare la versione della sottoscrizione dell’evento utilizzata direttamente da Fusion in uno scenario, utilizzando il modulo Workfront > Aggiorna versione payload eventi.
 
-Per istruzioni sull&#39;utilizzo di questo modulo, vedere [Moduli Workfront](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) nella documentazione di Workfront Fusion.
+Per istruzioni sull&#39;utilizzo di questo modulo, vedere [Moduli Workfront](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) nella documentazione di Workfront Fusion.
