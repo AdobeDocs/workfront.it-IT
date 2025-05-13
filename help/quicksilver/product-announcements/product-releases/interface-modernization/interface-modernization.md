@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 73df51a476695a3af11911da850ce4049c95aa06
+source-git-commit: 454877e742420c3bc289adf6b2cb1d692fc4fe95
 workflow-type: tm+mt
-source-wordcount: '2204'
+source-wordcount: '2355'
 ht-degree: 0%
 
 ---
@@ -32,12 +32,13 @@ L’area Ricerca avanzata è stata aggiornata con le seguenti modifiche:
 
 * È stata aggiunta una nuova scheda Ricerca completa. In questa scheda è possibile eseguire ricerche per tipo, immesso da, data di immissione, categoria e ultimo aggiornamento di.
 * Il filtro della scheda Ricerca avanzata è leggermente diverso. Ora il filtro non è precompilato. È necessario attivarlo e creare il filtro da zero. Il filtro non rimane se la pagina viene aggiornata.
+* Ricerca avanzata a schermo intero. È necessario spostarsi dalla pagina anziché chiudere la finestra di dialogo.
 
 Per ulteriori informazioni, vedere [Ricerca [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md).
 
 ### Aggiornamento dell’interfaccia per concedere l’accesso di supporto al tuo account Workfront
 
-**Anteprima rilascio: 24 aprile; produzione: da annunciare**
+**Anteprima versione: 24 aprile; Produzione versione: a partire dalla settimana del 1° maggio 2024**
 
 Abbiamo aggiornato la pagina utilizzata per concedere al supporto l’accesso al tuo account Workfront con una progettazione più moderna che è coerente con altre aree di Workfront.
 
@@ -237,7 +238,13 @@ Per visualizzare questa modifica, vai a Team > scegli un team > Backlog, quindi 
 
 ## Documenti
 
-+++Espandi per visualizzare gli aggiornamenti dell’interfaccia Documenti
+### Condividere un documento con un indirizzo e-mail esterno
+
+**Anteprima versione: 15 maggio 2025; Versione di produzione: da annunciare**
+
+La finestra di dialogo di condivisione è stata aggiornata per consentire agli utenti di condividere documenti con utenti esterni utilizzando un indirizzo e-mail. Questa funzionalità non era temporaneamente disponibile a causa del lavoro di modernizzazione dell’interfaccia.
+
++++Espandi per visualizzare altri aggiornamenti dell’interfaccia Documenti
 
 ### Aggiornamenti dell’interfaccia durante la richiesta di un documento
 
@@ -345,6 +352,22 @@ Questi aggiornamenti includono modifiche visive all’area. Nessuna funzionalit�
 +++
 
 ## Utenti
+
+### Ricerca aggiornata per la pagina di accesso
+
+**Anteprima versione: 15 maggio 2024; Versione di produzione: da annunciare**
+
+La pagina di accesso è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront.
+
+### Pagina Ricerca reimpostazione password aggiornata
+
+**Anteprima versione: 15 maggio 2024; Versione di produzione: da annunciare**
+
+La schermata di reimpostazione della password è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront. Questo aggiornamento include aggiornamenti alle pagine seguenti:
+
+* Password quasi scaduta
+* Password scaduta
+* Password temporanea
 
 ### È stata aggiornata la pagina di condivisione dei documenti per utenti esterni
 
