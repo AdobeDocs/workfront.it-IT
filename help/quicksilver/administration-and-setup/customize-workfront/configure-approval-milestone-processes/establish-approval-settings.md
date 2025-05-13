@@ -8,9 +8,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 1397702a6b50953e7abcfe491b95aeb8b981df5b
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '879'
 ht-degree: 2%
 
 ---
@@ -70,7 +70,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      </tr> 
      <tr> 
       <td role="rowheader">Non è necessario che l'approvatore sia nel team di progetto (per i processi di approvazione che includono una mansione)</td> 
-      <td> <p>Selezionare questa opzione se non è necessario che un approvatore appartenga al team di progetto quando un processo di approvazione include un ruolo. Quando si assegna la decisione di approvazione a una mansione, solo gli utenti a cui è associato un ruolo nel progetto visualizzeranno l’approvazione. Se abiliti questa impostazione, qualsiasi utente con quella mansione riceve la richiesta di approvazione indipendentemente dal fatto che appartenga o meno al team di progetto. Per informazioni sulla modifica del ruolo di progetto di un utente, vedere <a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">Gestione del team di progetto</a>. </p> 
+      <td> <p>Selezionare questa opzione se non è necessario che un approvatore appartenga al team di progetto quando un processo di approvazione include un ruolo. Qualsiasi utente con tale mansione riceve la richiesta di approvazione indipendentemente dal fatto che si trovi o meno nel team del progetto, anche se non gli viene concesso automaticamente l’accesso al progetto. Per informazioni sulla modifica del ruolo di progetto di un utente, vedere <a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">Gestione del team di progetto</a>. </p> 
       <p><b>SUGGERIMENTO</b>: quando si assegna un'approvazione a un ruolo e l'opzione <b>Approvatore non obbligatorio nel team di progetto (per i processi di approvazione che includono un ruolo)</b> è disabilitata, ma non vi sono ruoli nel team di progetto che corrispondono al ruolo nell'approvazione, l'approvazione viene riassegnata al proprietario del progetto. </p> </td> 
      </tr> 
      <tr> 
