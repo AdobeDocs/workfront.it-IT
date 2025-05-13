@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 454877e742420c3bc289adf6b2cb1d692fc4fe95
+source-git-commit: 8e8a10d375e721199c5f81f425178a7bae0bf0c0
 workflow-type: tm+mt
-source-wordcount: '2355'
+source-wordcount: '2365'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Abbiamo aggiornato la pagina utilizzata per concedere al supporto l’accesso al
 
 ## Amministrazione e configurazione
 
-+++Espandi per visualizzare gli aggiornamenti dell’interfaccia di amministrazione e configurazione
++++Espandi per visualizzare gli aggiornamenti dell’interfaccia di amministrazione e configurazione effettuati nel secondo trimestre
 
 ### Aggiornamento dell&#39;interfaccia per il Centro notifiche
 
@@ -174,7 +174,7 @@ Questo aggiornamento include modifiche visive all’area. Nessuna funzionalità 
 
 ## Agile
 
-+++Espandi per visualizzare gli aggiornamenti dell’interfaccia Agile
++++Espandi per visualizzare gli aggiornamenti dell’interfaccia Agile effettuati nel secondo trimestre
 
 ### Aggiornamenti dell’interfaccia per le richieste del team
 
@@ -244,7 +244,7 @@ Per visualizzare questa modifica, vai a Team > scegli un team > Backlog, quindi 
 
 La finestra di dialogo di condivisione è stata aggiornata per consentire agli utenti di condividere documenti con utenti esterni utilizzando un indirizzo e-mail. Questa funzionalità non era temporaneamente disponibile a causa del lavoro di modernizzazione dell’interfaccia.
 
-+++Espandi per visualizzare altri aggiornamenti dell’interfaccia Documenti
++++Espandere per visualizzare gli aggiornamenti all&#39;interfaccia Documenti eseguiti nel secondo trimestre
 
 ### Aggiornamenti dell’interfaccia durante la richiesta di un documento
 
@@ -284,17 +284,17 @@ Per visualizzare questa modifica, passa a Documenti > Fai clic sul menu Altro ac
 
 ## Report e dashboard
 
++++Espandi per visualizzare gli aggiornamenti all’interfaccia Reports and Dashboards effettuati nel secondo trimestre
+
 ### È stato aggiornato il rapporto Livello di accesso con un nuovo stile
 
-**Anteprima versione: da definire; Versione di produzione: a partire dalla settimana del 6 febbraio 2025**
+**Versione di anteprima: 30 gennaio 2024; versione di produzione: a partire dalla settimana del 6 febbraio 2025**
 
 Il rapporto Livello di accesso è stato aggiornato con un design più moderno, coerente con le altre aree di Workfront.
 
 Questo aggiornamento include modifiche visive al rapporto. Nessuna funzionalità è stata modificata.
 
 Per creare un rapporto del team, vai a Rapporti > Nuovo rapporto > Livello di accesso.
-
-+++Espandi per visualizzare altri aggiornamenti dell’interfaccia per Report e Dashboard.
 
 ### È stato aggiornato il rapporto Team con un nuovo stile
 
