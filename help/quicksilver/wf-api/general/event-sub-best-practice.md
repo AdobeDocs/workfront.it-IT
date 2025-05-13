@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 19e0b792bc49ede0504af479952fdbdf384dc73c
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -42,15 +42,13 @@ Assicurati che l’endpoint di abbonamento sia conforme ai requisiti di consegna
 
 Per ricevere i payload degli abbonamenti agli eventi tramite il firewall, è necessario aggiungere gli indirizzi IP al, inseriti nell&#39;elenco Consentiti per area globale. Per ulteriori informazioni, vedere [API sottoscrizione eventi](../../wf-api/general/event-subs-api.md).
 
-## Avere il giusto livello di accesso e una chiave API
+## Avere il giusto livello di accesso e autenticazione
 
 Per creare, eseguire query o eliminare un abbonamento a un evento, è necessario che l’utente di Workfront:
 
 * Livello di accesso di **Amministratore di sistema**
 Per ulteriori informazioni, vedere [Concedere a un utente l&#39;accesso amministrativo completo](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) o [Concedere agli utenti l&#39;accesso amministrativo a determinate aree](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-* Una chiave API
+* È necessaria un&#39;intestazione `sessionID` per utilizzare l&#39;API sottoscrizioni eventi
 
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To learn more, see .</p>
-  -->
+  Per ulteriori informazioni, vedere [Autenticazione](api-basics.md#authentication) in [Nozioni di base sulle API](api-basics.md).
