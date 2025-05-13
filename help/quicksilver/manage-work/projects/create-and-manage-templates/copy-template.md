@@ -6,10 +6,10 @@ description: Oltre a creare un modello di progetto da zero, puoi anche copiarne 
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 3%
+source-wordcount: '322'
+ht-degree: 2%
 
 ---
 
@@ -36,7 +36,7 @@ Oltre a creare un modello di progetto da zero, puoi anche copiarne uno esistente
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
    <td><p>Nuovo: Standard</p> 
-   <p>Corrente:Piano </p> </td> 
+   <p>Corrente: Piano </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -81,9 +81,14 @@ I seguenti elementi non vengono mai copiati da un modello esistente a uno nuovo:
 1. Fai clic sul menu **Altro** ![Icona Altro](assets/qs-more-icon-on-an-object.png) a destra del nome del modello nell&#39;intestazione, quindi fai clic su **Copia**.
 
    Viene visualizzata la casella **Copia modello**.
+
+   <!--![Copy template box](assets/copy-template-box.png)-->
+
 1. Specificare un nome per il modello nel campo **Nuovo nome modello**.
 
    Per impostazione predefinita, il nuovo nome è `Copy of Original template name`.
 
-1. Seleziona se desideri **Mantenere le assegnazioni utente per attività e modello**: seleziona questa opzione per trasferire tutte le assegnazioni di attività e modello dal modello originale al nuovo modello.
+1. Selezionare l&#39;opzione **Mantieni assegnazioni utente per attività e modello** se si desidera trasferire tutte le assegnazioni di attività e modelli dal modello originale al nuovo modello. Le assegnazioni delle attività del modello, il proprietario del modello e lo sponsor vengono trasferiti al modello copiato.
 1. Fai clic su **Salva** per creare una copia del modello.
+
+   Il nuovo modello viene visualizzato nell&#39;elenco dei modelli nell&#39;area Modello di Workfront.

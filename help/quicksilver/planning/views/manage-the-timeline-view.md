@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '2878'
+source-wordcount: '2946'
 ht-degree: 0%
 
 ---
@@ -171,7 +171,7 @@ Per gestire una vista timeline:
 
 1. (Facoltativo) Fai clic su **Raggruppamento** per visualizzare i record connessi nella timeline.
 
-   Per informazioni, vedere la sezione [Utilizzare la funzionalità di raggruppamento per visualizzare i record connessi nella visualizzazione della sequenza temporale](#break-down-connected-records-in-the-timeline-view)
+   Per informazioni, vedere la sezione [Utilizzare la funzionalità di raggruppamento per visualizzare i record connessi nella visualizzazione della sequenza temporale](#break-down-connected-records-in-the-timeline-view) in questo articolo.
 
 ### Aggiungere filtri
 
@@ -266,15 +266,22 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
 
 1. Creare una visualizzazione timeline per un tipo di record, come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
 1. Fare clic su **Impostazioni**.
-1. Fai clic su **Data e ora** nel pannello a sinistra, quindi seleziona una **Data di inizio** e una **Data di fine** da visualizzare sulla timeline. È possibile scegliere le date di inizio e di fine predefinite oppure scegliere qualsiasi campo data disponibile. Le barre che rappresentano i record iniziano nella data indicata per la data di inizio e terminano nella data corrispondente alla data di fine.
+1. Fai clic su **Data e ora** nel pannello a sinistra, quindi seleziona una **Data di inizio** e una **Data di fine** da visualizzare sulla timeline. È possibile scegliere le date di inizio e di fine predefinite oppure scegliere qualsiasi campo data disponibile.
+
+   Le barre che rappresentano i record iniziano nella data indicata per la data di inizio e terminano nella data corrispondente alla data di fine.
 
    >[!NOTE]
    >
-   >I record privi di valori per le date di inizio o di fine o con una data di inizio successiva alla data di fine non vengono visualizzati nella visualizzazione della sequenza temporale.
+   >* I record privi di valori per le date di inizio o di fine o con una data di inizio successiva alla data di fine non vengono visualizzati nella visualizzazione della sequenza temporale.
+   >
+   >* Se si visualizzano record aggiuntivi utilizzando l&#39;opzione Raggruppamento, le date di inizio e di fine corrispondono a quelle del record principale. Non è possibile scegliere le date di inizio e di fine per i record connessi in quest&#39;area.
 
 1. Fare clic su **Stile barra** nel pannello sinistro per indicare le informazioni da visualizzare sulle barre dei record.
 
-   Il campo principale (o titolo) del record, come definito nella vista tabella del record, è selezionato per impostazione predefinita. <!--adjust this when the primary field is released??-->
+   <!--<span class="preview">You can define the bar style of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+
+   Il campo principale (o titolo) del record, come definito nella vista tabella del record, è selezionato per impostazione predefinita.
+   <!--adjust this when the primary field is released??-->
 
 1. (Facoltativo e condizionale) Se ai record sono state aggiunte miniature, selezionare l&#39;opzione Miniatura per visualizzare l&#39;immagine associata ai record nella barra dei record.
 
@@ -306,10 +313,13 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
    >
    >* <span class="preview">Se si suddivide la visualizzazione della sequenza temporale per visualizzare gli oggetti connessi, l&#39;impostazione dei dettagli della barra di troncamento si applica solo al tipo di record principale. Non si applica alle barre dei record connesse.</span>
 
+   <!--take out the last bullet in the Tip above when we release the additional records in breakdown formatting-->
 
 1. Fai clic su **Colore** nel pannello a sinistra per personalizzare i colori dei record e dei raggruppamenti nella timeline.
 
    ![Visualizzazione timeline scheda Colore](assets/color-tab-timeline-view.png)
+
+   <!--<span class="preview">You can define the color of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
 
 1. (Condizionale e facoltativo) Se hai aggiunto un raggruppamento alla visualizzazione della timeline, seleziona una delle seguenti opzioni per impostare un colore per il raggruppamento nella sezione **Imposta colore di raggruppamento**:
 
@@ -348,9 +358,13 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
 
    Se non si dispone di un campo con opzioni codificate a colori per il tipo di record selezionato, questa opzione viene disattivata.
 
+   <!--1. <span class="preview">(Optional) If you are using the Breakdown option, repeat the steps starting with step 4 for each connected record displayed in the timeline. </span>-->
+
 1. Fai clic su **Salva**.
 
    I record vengono visualizzati nella vista timeline con le specifiche selezionate.
+
+
 
 ### Suddividere i record connessi nella visualizzazione timeline
 
@@ -359,6 +373,7 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
 #### Considerazioni durante l’utilizzo della funzione di raggruppamento
 
 * È possibile visualizzare i record o gli oggetti connessi sotto i record del tipo di record selezionato nella vista timeline.
+* È possibile visualizzare i record connessi nella visualizzazione timeline solo quando si visualizzano i record in modalità Standard. Non potete utilizzare l&#39;opzione Raggruppamento (Breakdown) nella modalità Compatta della vista timeline.
 * Utilizzando la funzione Raggruppamento (Breakdown), potete visualizzare quanto segue nella vista timeline:
    * Record di Workfront Planning connessi al tipo di record selezionato.
    * Tipi di oggetto Workfront o risorse Experience Manager connesse al tipo di record selezionato.
