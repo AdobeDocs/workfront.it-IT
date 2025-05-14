@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '1956'
-ht-degree: 10%
+source-wordcount: '1563'
+ht-degree: 13%
 
 ---
 
@@ -35,35 +35,35 @@ Solo gli utenti con una licenza Pianificazione possono avere accesso completo ai
 
 | Azione | Pianificatore | Collaboratore | Revisore | Richiedente | Utente esterno |
 |---|---|---|---|---|---|
-| Crea | ✓&#42; |   |   |   |   |
-| Copia | ✓&#42; |   |   |   |   |
-| Elimina | ✓&#42; |   |   |   |   |
-| Condividi | ✓&#42; | ✓&#42; |   |   |   |
-| Condividi a livello di sistema | ✓&#42; |   |   |   |   |
-| Visualizza | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
-| Aggiungere un modulo personalizzato | ✓ |   |   |   |   |
-| Aggiornare i campi personalizzati | ✓ | ✓ |   |   |   |
-| Aggiungere un processo di approvazione | ✓ |   |   |   |   |
-| Approvare un progetto | ✓ | ✓ | ✓ |   |   |
-| Aggiungi documento | ✓ | ✓ | ✓ |   |   |
-| Aggiungi problema | ✓ | ✓ |   |   |   |
-| Aggiungi attività | ✓ | ✓ |   |   |   |
-| Assegna aggiornamenti/commenti | ✓ | ✓ | ✓ |   |   |
-| Modifica stato | ✓ |   |   |   |   |
-| Registra ore | ✓ | ✓ |   |   |   |
-| Modifica assegnazioni | ✓ | ✓ |   |   |   |
-| Gestire una baseline | ✓ |   |   |   |   |
-| Gestire i rischi | ✓ |   |   |   |   |
-| Gestisci dati finanziari | ✓ |   |   |   |   |
-| Aggiungi/modifica spese | ✓ | ✓ |   |   |   |
-| Allega modelli | ✓ |   |   |   |   |
-| Salva come modello | ✓ |   |   |   |   |
-| Aggiungere/modificare un caso di business | ✓ |   |   |   |   |
-| Modifica dettagli progetto | ✓ |   |   |   |   |
-| Modifica assegnazione personale | ✓ |   |   |   |   |
-| Esporta in MS Project | ✓ | ✓ | ✓ |   |   |
-| Ricalcola finanza/timeline | ✓ |   |   |   |   |
-| Impostare le proprietà della coda | ✓ |   |   |   |   |
+| Crea | ✓&#42; |  |  |  |  |
+| Copia | ✓&#42; |  |  |  |  |
+| Elimina | ✓&#42; |  |  |  |  |
+| Condividi | ✓&#42; | ✓&#42; |  |  |  |
+| Condividi a livello di sistema | ✓&#42; |  |  |  |  |
+| Visualizza | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
+| Aggiungere un modulo personalizzato | ✓ |  |  |  |  |
+| Aggiornare i campi personalizzati | ✓ | ✓ |  |  |  |
+| Aggiungere un processo di approvazione | ✓ |  |  |  |  |
+| Approvare un progetto | ✓ | ✓ | ✓ |  |  |
+| Aggiungi documento | ✓ | ✓ | ✓ |  |  |
+| Aggiungi problema | ✓ | ✓ |  |  |  |
+| Aggiungi attività | ✓ | ✓ |  |  |  |
+| Assegna aggiornamenti/commenti | ✓ | ✓ | ✓ |  |  |
+| Modifica stato | ✓ |  |  |  |  |
+| Registra ore | ✓ | ✓ |  |  |  |
+| Modifica assegnazioni | ✓ | ✓ |  |  |  |
+| Gestire una baseline | ✓ |  |  |  |  |
+| Gestire i rischi | ✓ |  |  |  |  |
+| Gestisci dati finanziari | ✓ |  |  |  |  |
+| Aggiungi/modifica spese | ✓ | ✓ |  |  |  |
+| Allega modelli | ✓ |  |  |  |  |
+| Salva come modello | ✓ |  |  |  |  |
+| Aggiungere/modificare un caso di business | ✓ |  |  |  |  |
+| Modifica dettagli progetto | ✓ |  |  |  |  |
+| Modifica assegnazione personale | ✓ |  |  |  |  |
+| Esporta in MS Project | ✓ | ✓ | ✓ |  |  |
+| Ricalcola finanza/timeline | ✓ |  |  |  |  |
+| Impostare le proprietà della coda | ✓ |  |  |  |  |
 
 
 
@@ -73,29 +73,29 @@ Solo gli utenti con una licenza Pianificazione possono avere accesso completo ai
 
 | Azione | Pianificatore | Collaboratore | Revisore | Richiedente | Utente esterno |
 |---|---|---|---|---|---|
-| Crea | ✓&#42; | ✓&#42; |   |   |   |
-| Elimina | ✓&#42; | ✓&#42; |   |   |   |
-| Condividi | ✓&#42; | ✓&#42; |   |   |   |
-| Condividi a livello di sistema | ✓&#42; |   |   |   |   |
-| Visualizza | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Aggiungi predecessori | ✓ | ✓ |   |   |   |
-| Aggiungi problemi | ✓ | ✓ |   |   |   |
-| Modificare un’attività (escluso lo stato) | ✓ | ✓ |   |   |   |
-| Cambia stato attività | ✓ | ✓ |   |   |   |
-| Agguingere documenti | ✓ | ✓ | ✓ |   |   |
-| Copiare un&#39;attività | ✓ | ✓ |   |   |   |
-| Spostare un’attività | ✓ | ✓ |   |   |   |
-| Registra ore | ✓ | ✓ |   |   |   |
-| Accetta un&#39;assegnazione | ✓ | ✓ |   |   |   |
-| Assegnazione | ✓ | ✓ | Solo modifica in linea | Solo modifica in linea |   |
-| Allegare un modulo personalizzato | ✓ | ✓ |   |   |   |
-| Modifica campi personalizzati | ✓ | ✓ |   |   |   |
-| Creare un processo di approvazione | ✓ | ✓ |   |   |   |
-| Approvare un’attività | ✓ | ✓ | ✓ |   |   |
-| Modifica dati finanziari | ✓ |   |   |   |   |
-| Aggiungi/modifica spese | ✓ | ✓ |   |   |   |
-| Visualizzare dati finanziari | ✓ | ✓ | ✓ |   |   |
-| Aggiornamenti/commenti | ✓ | ✓ | ✓ |   |   |
+| Crea | ✓&#42; | ✓&#42; |  |  |  |
+| Elimina | ✓&#42; | ✓&#42; |  |  |  |
+| Condividi | ✓&#42; | ✓&#42; |  |  |  |
+| Condividi a livello di sistema | ✓&#42; |  |  |  |  |
+| Visualizza | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Aggiungi predecessori | ✓ | ✓ |  |  |  |
+| Aggiungi problemi | ✓ | ✓ |  |  |  |
+| Modificare un’attività (escluso lo stato) | ✓ | ✓ |  |  |  |
+| Cambia stato attività | ✓ | ✓ |  |  |  |
+| Agguingere documenti | ✓ | ✓ | ✓ |  |  |
+| Copiare un&#39;attività | ✓ | ✓ |  |  |  |
+| Spostare un’attività | ✓ | ✓ |  |  |  |
+| Registra ore | ✓ | ✓ |  |  |  |
+| Accetta un&#39;assegnazione | ✓ | ✓ |  |  |  |
+| Assegnazione | ✓ | ✓ | Solo modifica in linea | Solo modifica in linea |  |
+| Allega un modulo personalizzato | ✓ | ✓ |  |  |  |
+| Modifica campi personalizzati | ✓ | ✓ |  |  |  |
+| Creare un processo di approvazione | ✓ | ✓ |  |  |  |
+| Approvare un’attività | ✓ | ✓ | ✓ |  |  |
+| Modifica dati finanziari | ✓ |  |  |  |  |
+| Aggiungi/modifica spese | ✓ | ✓ |  |  |  |
+| Visualizzare dati finanziari | ✓ | ✓ | ✓ |  |  |
+| Aggiornamenti/commenti | ✓ | ✓ | ✓ |  |  |
 
 {style="table-layout:auto"}
 
@@ -105,25 +105,25 @@ Solo gli utenti con una licenza Pianificazione possono avere accesso completo ai
 
 | Azione | Pianificatore | Collaboratore | Revisore | Richiedente | Utente esterno |
 |---|---|---|---|---|---|
-| Crea | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Modifica | ✓ | ✓ | ✓ | ✓ |   |
-| Elimina | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Condividi | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Condividi a livello di sistema | ✓&#42; |   |   |   |   |
-| Visualizza | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Allegare moduli personalizzati | ✓ | ✓ | ✓ | ✓ |   |
-| Modifica campi personalizzati | ✓ | ✓ | ✓ | ✓ |   |
-| Approva problemi | ✓ | ✓ | ✓ | ✓ |   |
-| Aggiungere un processo di approvazione | ✓ | ✓ | ✓ | ✓ |   |
-| Agguingere documenti | ✓ | ✓ | ✓ | ✓ |   |
-| Copia i problemi | ✓ | ✓ | ✓ | ✓ |   |
-| Sposta i problemi | ✓ | ✓ | ✓ | ✓ |   |
-| Registra ore | ✓ | ✓ |   |   |   |
-| Convertire un problema in un progetto | ✓ | ✓ |   |   |   |
-| Convertire un problema in un&#39;attività | ✓ |   |   |   |   |
-| Accetta assegnazioni | ✓ | ✓ |   |   |   |
-| Fai le assegnazioni | ✓ | ✓ |   |   |   |
-| Aggiungere aggiornamenti e commenti | ✓ | ✓ | ✓ | ✓ |   |
+| Crea | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Modifica | ✓ | ✓ | ✓ | ✓ |  |
+| Elimina | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Condividi | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Condividi a livello di sistema | ✓&#42; |  |  |  |  |
+| Visualizza | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Allegare moduli personalizzati | ✓ | ✓ | ✓ | ✓ |  |
+| Modifica campi personalizzati | ✓ | ✓ | ✓ | ✓ |  |
+| Approva problemi | ✓ | ✓ | ✓ | ✓ |  |
+| Aggiungere un processo di approvazione | ✓ | ✓ | ✓ | ✓ |  |
+| Agguingere documenti | ✓ | ✓ | ✓ | ✓ |  |
+| Copia i problemi | ✓ | ✓ | ✓ | ✓ |  |
+| Sposta i problemi | ✓ | ✓ | ✓ | ✓ |  |
+| Registra ore | ✓ | ✓ |  |  |  |
+| Convertire un problema in un progetto | ✓ | ✓ |  |  |  |
+| Convertire un problema in un&#39;attività | ✓ |  |  |  |  |
+| Accetta assegnazioni | ✓ | ✓ |  |  |  |
+| Fai le assegnazioni | ✓ | ✓ |  |  |  |
+| Aggiungere aggiornamenti e commenti | ✓ | ✓ | ✓ | ✓ |  |
 
 
 
@@ -135,19 +135,19 @@ Solo gli utenti con una licenza Plan possono avere accesso completo ai portfolio
 
 | Azione | Pianificatore | Collaboratore | Revisore | Richiedente | Utente esterno |
 |---|---|---|---|---|---|
-| Crea | ✓&#42; |   |   |   |   |
-| Elimina | ✓&#42; |   |   |   |   |
-| Condividi | ✓&#42; |   |   |   |   |
-| Condividi a livello di sistema | ✓&#42; |   |   |   |   |
-| Visualizza | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
-| Modifica dettagli | ✓ |   |   |   |   |
-| Allegare moduli personalizzati | ✓ |   |   |   |   |
-| Modifica campi personalizzati | ✓ |   |   |   |   |
-| Aggiungere e rimuovere progetti | ✓ |   |   |   |   |
-| Approva progetti | ✓ |   |   |   |   |
-| Ottimizzazione del Portfolio | ✓ |   |   |   |   |
-| Agguingere documenti | ✓ | ✓ | ✓ |   |   |
-| Aggiungere aggiornamenti e commenti | ✓ | ✓ | ✓ |   |   |
+| Crea | ✓&#42; |  |  |  |  |
+| Elimina | ✓&#42; |  |  |  |  |
+| Condividi | ✓&#42; |  |  |  |  |
+| Condividi a livello di sistema | ✓&#42; |  |  |  |  |
+| Visualizza | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
+| Modifica dettagli | ✓ |  |  |  |  |
+| Allegare moduli personalizzati | ✓ |  |  |  |  |
+| Modifica campi personalizzati | ✓ |  |  |  |  |
+| Aggiungere e rimuovere progetti | ✓ |  |  |  |  |
+| Approva progetti | ✓ |  |  |  |  |
+| Ottimizzazione Portfolio | ✓ |  |  |  |  |
+| Agguingere documenti | ✓ | ✓ | ✓ |  |  |
+| Aggiungere aggiornamenti e commenti | ✓ | ✓ | ✓ |  |  |
 
 
 
@@ -159,19 +159,19 @@ Solo gli utenti con una licenza Pianificazione possono avere accesso completo ai
 
 | Azione | Pianificatore | Collaboratore | Revisore | Richiedente | Utente esterno |
 |---|---|---|---|---|---|
-| Crea | ✓&#42; |   |   |   |   |
-| Elimina | ✓&#42; |   |   |   |   |
-| Condividi | ✓&#42; |   |   |   |   |
-| Condividi a livello di sistema | ✓&#42; |   |   |   |   |
-| Visualizza | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
-| Modifica dettagli | ✓ |   |   |   |   |
-| Allegare moduli personalizzati | ✓ |   |   |   |   |
-| Modifica campi personalizzati | ✓ |   |   |   |   |
-| Aggiungere e rimuovere progetti | ✓ |   |   |   |   |
-| Approva progetti | ✓ |   |   |   |   |
-| Ottimizzazione Portfolio | ✓ |   |   |   |   |
-| Agguingere documenti | ✓ | ✓ | ✓ |   |   |
-| Aggiungi aggiornamenti e commenti | ✓ | ✓ | ✓ |   |   |
+| Crea | ✓&#42; |  |  |  |  |
+| Elimina | ✓&#42; |  |  |  |  |
+| Condividi | ✓&#42; |  |  |  |  |
+| Condividi a livello di sistema | ✓&#42; |  |  |  |  |
+| Visualizza | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
+| Modifica dettagli | ✓ |  |  |  |  |
+| Allegare moduli personalizzati | ✓ |  |  |  |  |
+| Modifica campi personalizzati | ✓ |  |  |  |  |
+| Aggiungere e rimuovere progetti | ✓ |  |  |  |  |
+| Approva progetti | ✓ |  |  |  |  |
+| Ottimizzazione Portfolio | ✓ |  |  |  |  |
+| Agguingere documenti | ✓ | ✓ | ✓ |  |  |
+| Aggiungi aggiornamenti e commenti | ✓ | ✓ | ✓ |  |  |
 
 
 
@@ -183,15 +183,15 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
 
 | Azione | Pianificatore | Collaboratore | Revisore | Richiesta | Utente esterno |
 |---|---|---|---|---|---|
-| Crea | ✓&#42; |   |   |   |   |
-| Elimina | ✓&#42; |   |   |   |   |
-| Visualizzare rapporti incorporati | ✓&#42; |   |   |   |   |
-| Condividi | ✓&#42; | ✓ | ✓ |   |   |
-| Condividere calendari e report pubblicamente | ✓&#42; |   |   |   |   |
-| Condividi a livello di sistema | ✓&#42; |   |   |   |   |
-| Visualizza | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
-| Modifica | ✓ |   |   |   |   |
-| Copia | ✓ |   |   |   |   |
+| Crea | ✓&#42; |  |  |  |  |
+| Elimina | ✓&#42; |  |  |  |  |
+| Visualizzare rapporti incorporati | ✓&#42; |  |  |  |  |
+| Condividi | ✓&#42; | ✓ | ✓ |  |  |
+| Condividere calendari e report pubblicamente | ✓&#42; |  |  |  |  |
+| Condividi a livello di sistema | ✓&#42; |  |  |  |  |
+| Viste | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
+| Modif | ✓ |  |  |  |  |
+| Copia | ✓ |  |  |  |  |
 
 {style="table-layout:auto"}
 
@@ -233,7 +233,7 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
    <td>✓*</td> 
    <td>✓*</td> 
    <td>✓*</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Elimina</td> 
@@ -241,7 +241,7 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
    <td>✓*</td> 
    <td>✓*</td> 
    <td>✓*</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Condividi</td> 
@@ -249,7 +249,7 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
    <td>✓*</td> 
    <td>✓*</td> 
    <td>✓*</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Condividi a livello di sistema</td> 
@@ -257,7 +257,7 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
    <td>✓*</td> 
    <td>✓*</td> 
    <td>✓*</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Visualizza</td> 
@@ -265,7 +265,7 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Modifica</td> 
@@ -273,7 +273,7 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -284,32 +284,32 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
 
 | Azione | Pianificatore | Collaboratore | Revisore | Richiedente | Utente esterno |
 |---|---|---|---|---|---|
-| Crea | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Elimina (documenti e cartelle) | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Condividi | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Condividi pubblicamente (esternamente) | ✓&#42; |   |   |   |   |
-| Condividi a livello di sistema | ✓&#42; | ✓&#42; |   |   |   |
+| Crea | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Elimina (documenti e cartelle) | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Condividi | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Condividi pubblicamente (esternamente) | ✓&#42; |  |  |  |  |
+| Condividi a livello di sistema | ✓&#42; | ✓&#42; |  |  |  |
 | Visualizza | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
-| Modifica dettagli | ✓ | ✓ | ✓ | ✓ |   |
+| Modifica dettagli | ✓ | ✓ | ✓ | ✓ |  |
 | Scarica | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Pagamento | ✓ | ✓ | ✓ | ✓ |   |
-| Aggiungi approvatori | ✓ | ✓ | ✓ | ✓ |   |
+| Pagamento | ✓ | ✓ | ✓ | ✓ |  |
+| Aggiungi approvatori | ✓ | ✓ | ✓ | ✓ |  |
 | Approva documenti | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Allegare moduli personalizzati | ✓ | ✓ | ✓ | ✓ |   |
-| Modifica campi personalizzati | ✓ | ✓ | ✓ | ✓ |   |
-| Sposta in (oggetto) | ✓ | ✓ | ✓ | ✓ |   |
-| Invia a (integrazione) | ✓ | ✓ | ✓ | ✓ |   |
-| Aggiungere aggiornamenti e commenti | ✓ | ✓ | ✓ | ✓ |   |
-| Carica nuova versione | ✓ | ✓ | ✓ | ✓ |   |
-| Eliminare una versione | ✓ | ✓ | ✓ | ✓ |   |
+| Allegare moduli personalizzati | ✓ | ✓ | ✓ | ✓ |  |
+| Modifica campi personalizzati | ✓ | ✓ | ✓ | ✓ |  |
+| Sposta in (oggetto) | ✓ | ✓ | ✓ | ✓ |  |
+| Invia a (integrazione) | ✓ | ✓ | ✓ | ✓ |  |
+| Aggiungere aggiornamenti e commenti | ✓ | ✓ | ✓ | ✓ |  |
+| Carica nuova versione | ✓ | ✓ | ✓ | ✓ |  |
+| Eliminare una versione | ✓ | ✓ | ✓ | ✓ |  |
 | Anteprima | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Bozza | ✓ | ✓ | ✓ | ✓ |   |
-| Genera bozza | ✓ | ✓ |   |   |   |
-| Rimuovi bozza | ✓ | ✓ | ✓ | ✓ |   |
-| Aggiungi/Rimuovi&#42;&#42; | ✓ | ✓ | ✓ | ✓ |   |
-| Rinomina&#42;&#42; | ✓ | ✓ | ✓ | ✓ |   |
-| Collegamento (con integrazione) | ✓ | ✓ | ✓ | ✓ |   |
-| Scollega (con integrazione) | ✓ | ✓ | ✓ | ✓ |   |
+| Bozza | ✓ | ✓ | ✓ | ✓ |  |
+| Genera bozza | ✓ | ✓ |  |  |  |
+| Rimuovi bozza | ✓ | ✓ | ✓ | ✓ |  |
+| Aggiungi/Rimuovi&#42;&#42; | ✓ | ✓ | ✓ | ✓ |  |
+| Rinomina&#42;&#42; | ✓ | ✓ | ✓ | ✓ |  |
+| Collegamento (con integrazione) | ✓ | ✓ | ✓ | ✓ |  |
+| Scollega (con integrazione) | ✓ | ✓ | ✓ | ✓ |  |
 
 {style="table-layout:auto"}
 
@@ -346,34 +346,34 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
   <tr> 
    <td>Crea</td> 
    <td>✓*</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Elimina</td> 
    <td>✓*</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Modifica, elimina, disattiva, accedi come o reimposta la password per qualsiasi utente</td> 
    <td>✓*<p><b>NOTA</b>: non è possibile accedere come qualsiasi utente che sia un amministratore di sistema.</p></td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Modifica, elimina, disattiva, accedi come o reimposta la password per tutti gli utenti di un gruppo che amministrano</td> 
    <td>✓*<p><b>NOTA</b>: non è possibile accedere come qualsiasi utente che sia un amministratore di sistema.</p></td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Visualizza utenti</td> 
@@ -381,7 +381,7 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Visualizza informazioni di contatto</td> 
@@ -389,7 +389,7 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
    <td> ✓</td> 
    <td>✓ </td> 
    <td> ✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -421,34 +421,34 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
   <tr> 
    <td>Crea</td> 
    <td>✓*</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Elimina</td> 
    <td>✓*</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Modifica i team a cui appartengono</td> 
    <td>✓*</td> 
    <td>✓*</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Modificare i team nei gruppi da loro gestiti</td> 
    <td>✓*</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Visualizza tutti i team</td> 
@@ -456,7 +456,7 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Visualizza i team associati ai loro gruppi</td> 
@@ -464,7 +464,7 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
    <td> ✓</td> 
    <td>✓ </td> 
    <td> ✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -475,13 +475,13 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
 
 | Azione | Pianificatore | Collaboratore | Revisore | Richiedente | Utente esterno |
 |---|---|---|---|---|---|
-| Crea | ✓&#42; |   |   |   |   |
-| Elimina | ✓&#42; |   |   |   |   |
-| Condividi | ✓&#42; |   |   |   |   |
-| Condividi a livello di sistema | ✓&#42; |   |   |   |   |
-| Visualizza | ✓&#42; |   |   |   |   |
-| Copia | ✓ |   |   |   |   |
-| Modifica dettagli modello | ✓ |   |   |   |   |
+| Crea | ✓&#42; |  |  |  |  |
+| Elimina | ✓&#42; |  |  |  |  |
+| Condividi | ✓&#42; |  |  |  |  |
+| Condividi a livello di sistema | ✓&#42; |  |  |  |  |
+| Visualizza | ✓&#42; |  |  |  |  |
+| Copia | ✓ |  |  |  |  |
+| Modifica dettagli modello | ✓ |  |  |  |  |
 
 {style="table-layout:auto"}
 
@@ -495,18 +495,18 @@ I tipi di licenza Request (Richiesta) e External User (Utente esterno) non sono 
 
 | Azione | Pianificatore | Collaboratore | Revisore |
 |---|---|---|---|
-| Modifica fatturazione mansioni e tassi di costo | ✓&#42; |   |   |
-| Modifica fatturazione utente e tariffe | ✓&#42; |   |   |
-| Visualizza fatturazione mansioni e tassi di costo | ✓&#42; |   |   |
-| Visualizza fatturazione utente e tariffe di costo | ✓&#42; |   |   |
-| Gestire record fatturazione | ✓ |   |   |
-| Gestire le spese | ✓ | ✓ |   |
+| Modifica fatturazione mansioni e tassi di costo | ✓&#42; |  |  |
+| Modifica fatturazione utente e tariffe | ✓&#42; |  |  |
+| Visualizza fatturazione mansioni e tassi di costo | ✓&#42; |  |  |
+| Visualizza fatturazione utente e tariffe di costo | ✓&#42; |  |  |
+| Gestire i record di fatturazione | ✓ |  |  |
+| Gestire le spese | ✓ | ✓ |  |
 | Visualizza dati finanziari | ✓&#42; | ✓&#42; | ✓&#42; |
-| <span class="preview">Gestione schede tariffarie</span> | ✓ |   |   |
-| Visualizzare le informazioni per costo negli strumenti di pianificazione delle risorse | ✓ |   |   |
-| Risorse budget negli strumenti di pianificazione risorse&#42;&#42; | ✓ |   |   |
+| <span class="preview">Gestione schede tariffarie</span> | ✓ |  |  |
+| Visualizzare le informazioni per costo negli strumenti di pianificazione delle risorse | ✓ |  |  |
+| Risorse budget negli strumenti di pianificazione risorse&#42;&#42; | ✓ |  |  |
 | Visualizza allocazione risorse negli strumenti di pianificazione risorse&#42; | ✓ | ✓ | ✓ |
-| Creare rischi nei progetti | ✓ |   |   |
+| Creare rischi nei progetti | ✓ |  |  |
 | Visualizzare i rischi sui progetti | ✓ | ✓ | ✓ |
 
 {style="table-layout:auto"}
@@ -521,14 +521,14 @@ Solo gli utenti con una licenza Pianificazione possono avere accesso completo al
 
 | Azione | Pianificatore | Collaboratore | Revisore | Richiedente | Utente esterno |
 |---|---|---|---|---|---|
-| Modifica priorità e ore preventivate nella Programmazione | ✓&#42; |   |   |   |   |
-| Crea, modifica, elimina i gruppi di risorse&#42;&#42; | ✓&#42; |   |   |   |   |
-| Aggiorna le ore pianificate nel Bilanciatore dei carichi di lavoro&#42;&#42;&#42; | ✓* |   |   |   |   |
-| Visualizzare le priorità del progetto nella Programmazione delle risorse | ✓&#42; |   |   |   |   |
-| Visualizzare l&#39;allocazione delle risorse negli strumenti di pianificazione risorse | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
-| Visualizza gruppi di risorse | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
-| Risorse preventivate negli strumenti di pianificazione risorse&#42;&#42; | ✓ |   |   |   |   |
-| Allega gruppi di risorse a progetti, modelli e utenti | ✓ |   |   |   |   |
+| Modifica priorità e ore preventivate nella Programmazione | ✓&#42; |  |  |  |  |
+| Crea, modifica, elimina i gruppi di risorse&#42;&#42; | ✓&#42; |  |  |  |  |
+| Aggiorna le ore pianificate nel Bilanciatore dei carichi di lavoro&#42;&#42;&#42; | ✓* |  |  |  |  |
+| Visualizzare le priorità del progetto nella Programmazione delle risorse | ✓&#42; |  |  |  |  |
+| Visualizzare l&#39;allocazione delle risorse negli strumenti di pianificazione risorse | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
+| Visualizza gruppi di risorse | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
+| Risorse preventivate negli strumenti di pianificazione risorse&#42;&#42; | ✓ |  |  |  |  |
+| Allega gruppi di risorse a progetti, modelli e utenti | ✓ |  |  |  |  |
 
 {style="table-layout:auto"}
 
@@ -536,18 +536,18 @@ Solo gli utenti con una licenza Pianificazione possono avere accesso completo al
 
 &#42;&#42;Richiede l&#39;accesso aggiuntivo ai dati finanziari e le autorizzazioni per i dati finanziari del progetto. Se si concede l&#39;accesso Gestione risorse a un utente di Planner che non ha accesso ai dati finanziari, l&#39;utente potrà comunque visualizzare le allocazioni orarie nella Programmazione risorse, ma non potrà passare alla visualizzazione Costo o al Business Case. Per ulteriori informazioni, vedere [Concedere l&#39;accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) e [Condividere le autorizzazioni finanziarie su un oggetto](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
-&#42;&#42;&#42;Richiede l&#39;autorizzazione di Contribute per l&#39;oggetto, con l&#39;opzione Rendi assegnazioni abilitata in Impostazioni avanzate. Per informazioni, vedere la sezione [Comprendere le autorizzazioni ereditate e la gerarchia degli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) nell&#39;articolo [Panoramica delle autorizzazioni di condivisione sugli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+&#42;&#42;&#42;Richiede l&#39;autorizzazione per contribuire all&#39;oggetto, con l&#39;opzione Crea assegnazioni abilitata in Impostazioni avanzate. Per informazioni, vedere la sezione [Comprendere le autorizzazioni ereditate e la gerarchia degli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) nell&#39;articolo [Panoramica delle autorizzazioni di condivisione sugli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 ## Area Pianificazione scenario
 
 | Azione | Pianificatore | Collaboratore | Revisore | Richiedente | Utente esterno |
 |---|---|---|---|---|---|
-| Crea/modifica piani e iniziative esistenti | ✓ | ✓ | ✓ |   |   |
-| Aggiungi o modifica informazioni mansione su piani e iniziative&#42; | ✓ | ✓ | ✓ |   |   |
-| Aggiungi o modifica informazioni sui costi in piani e iniziative&#42; | ✓ | ✓ | ✓ |   |   |
-| Elimina piani e iniziative | ✓ | ✓ | ✓ |   |   |
-| Visualizza scenari nel menu principale ![Icona Pianificazione scenari](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |   |
-| Visualizza piani e iniziative creati dall&#39;utente&#42; | ✓ | ✓ | ✓ |   |   |
+| Crea/modifica piani e iniziative esistenti | ✓ | ✓ | ✓ |  |  |
+| Aggiungi o modifica informazioni mansione su piani e iniziative&#42; | ✓ | ✓ | ✓ |  |  |
+| Aggiungi o modifica informazioni sui costi in piani e iniziative&#42; | ✓ | ✓ | ✓ |  |  |
+| Elimina piani e iniziative | ✓ | ✓ | ✓ |  |  |
+| Visualizza scenari nel menu principale ![Icona Pianificazione scenari](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |  |
+| Visualizza piani e iniziative creati dall&#39;utente&#42; | ✓ | ✓ | ✓ |  |  |
 
 {style="table-layout:auto"}
 
@@ -561,19 +561,19 @@ Solo gli utenti con una licenza Pianificazione possono avere accesso completo al
 
 | Azioni | Viste | Modif |
 |---|---|---|
-| Crea |   | ✓ |
-| Modifica/elimina tutti gli obiettivi |   | ✓ |
+| Crea |  | ✓ |
+| Modifica/elimina tutti gli obiettivi |  | ✓ |
 | Visualizza obiettivi nel menu principale | ✓ | ✓ |
 | Visualizzare l’area Obiettivi da un collegamento condiviso | ✓ | ✓ |
 | Visualizza tutti gli obiettivi nel sistema | ✓ | ✓ |
-| Attiva/disattiva/chiudi tutti gli obiettivi |   | ✓ |
-| Creare, modificare ed eliminare attività |   | ✓ |
-| Crea/modifica/elimina risultati |   | ✓ |
-| Aggiungi un obiettivo allineato |   | ✓ |
-| Aggiornare l’avanzamento di un risultato o di un’attività |   | ✓ |
+| Attiva/disattiva/chiudi tutti gli obiettivi |  | ✓ |
+| Creare, modificare ed eliminare attività |  | ✓ |
+| Crea/modifica/elimina risultati |  | ✓ |
+| Aggiungi un obiettivo allineato |  | ✓ |
+| Aggiornare l’avanzamento di un risultato o di un’attività |  | ✓ |
 | Possiedi un obiettivo, un risultato o un&#39;attività | ✓ | ✓ |
 | Commento su un obiettivo | ✓ | ✓ |
-| Copia obiettivi |   | ✓ |
+| Copia obiettivi |  | ✓ |
 | Visualizza la sezione Elenco obiettivi nel pannello a sinistra | ✓ | ✓ |
 | Visualizzare la sezione Grafici nel pannello a sinistra | ✓ | ✓ |
 | Visualizza la sezione Allineamento obiettivo nel pannello a sinistra | ✓ | ✓ |

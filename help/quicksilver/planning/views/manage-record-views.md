@@ -1,14 +1,14 @@
 ---
 title: Gestisci visualizzazioni record
-description: È possibile visualizzare i record in una vista tabella, sequenza temporale o calendario quando si utilizza Adobe Workfront Planning. In questo articolo viene descritto come creare una visualizzazione e modificarne o eliminarne una esistente.
+description: È possibile visualizzare i record in una vista tabella, sequenza temporale o calendario quando si utilizza Adobe Workfront Planning. In questo articolo viene descritto come creare una visualizzazione e modificarne una esistente.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1161'
 ht-degree: 1%
 
 ---
@@ -40,10 +40,14 @@ Dopo aver selezionato un tipo di record nell&#39;area di Adobe Workfront Plannin
 Questo articolo descrive le seguenti informazioni sulle visualizzazioni record:
 
 * [Creare e modificare una visualizzazione](#create-or-edit-record-views)
-* [Eliminare una visualizzazione](#delete-views)
-* [Duplicare una vista](#duplicate-a-view)
 * [Attiva gli indicatori di presenza in tempo reale in una visualizzazione](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+
+Per ulteriori informazioni sulla gestione delle visualizzazioni record di Workfront Planning, vedere anche i seguenti articoli:
+
+* [Eliminare le visualizzazioni record](/help/quicksilver/planning/views/delete-record-views.md)
+* [Visualizzazioni record duplicate](/help/quicksilver/planning/views/duplicate-record-views.md)
+* [Condividere le visualizzazioni](/help/quicksilver/planning/access/share-views.md)
 
 
 ## Requisiti di accesso
@@ -123,21 +127,17 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 * Le visualizzazioni create sono visibili solo a te e agli utenti con cui condividi le visualizzazioni.
 * Quando si modifica o si elimina una visualizzazione, questa viene modificata ed eliminata per tutti gli utenti che dispongono di autorizzazioni per la visualizzazione.
 * Ogni utente può creare un massimo di 100 visualizzazioni. È possibile visualizzare più di 100 visualizzazioni per un tipo di record, ma un utente può creare solo 100 visualizzazioni.
-* È possibile condividere con altri le viste create. Per informazioni, vedere [Condividi visualizzazioni](/help/quicksilver/planning/access/share-views.md).
-* I seguenti elementi sono univoci per ogni visualizzazione record:
+* Anche se alcuni elementi di visualizzazione possono essere applicati a più viste per lo stesso record, essi sono univoci per ciascuna vista record:
 
    * Filtro
-   * Raggruppamento
-   * Ordina
-   * Aspetto barra (per la visualizzazione timeline)
+   * Raggruppamento (per le viste tabella e timeline)
+   * Aspetto della barra (per le visualizzazioni Timeline e Calendario)
 
-  <!-- some of these are not available in all of the views - edit above-->
+  Ad esempio, quando si crea un filtro in una vista tabella, i risultati del filtro sono visibili solo nella vista selezionata (vista tabella) e non in tutte le viste associate al tipo di record.
 
-  Ad esempio, quando si crea un filtro in una visualizzazione tabella, i risultati del filtro sono visibili solo nella visualizzazione selezionata e non in tutte le visualizzazioni associate al tipo di record.
-
-  >[!NOTE]
+  >[!TIP]
   >
-  > Alcuni elementi della vista potrebbero non essere disponibili per tutte le viste.
+  >Alcuni elementi della vista non sono disponibili per tutte le viste.
 
 
 ## Somiglianze e differenze tra le visualizzazioni record
@@ -160,7 +160,7 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
 | Visualizzare i record in un calendario |           |              | ✓ |
 | Raggruppa record | ✓ | ✓ |
 | Ordinare i record | ✓ |              |
-| Record codice colore |           | ✓ | ✓ |
+| <span class="preview">Record codice colore</span> | <span class="preview">✓</span> | ✓ | ✓ |
 | Raggruppamenti di codici colore |           | ✓ |
 | Cerca record specifici | ✓ | ✓ |
 | Condividere la visualizzazione con altri utenti | ✓ | ✓ | ✓ |
@@ -242,76 +242,18 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
    * [Gestire la visualizzazione della timeline](/help/quicksilver/planning/views/manage-the-timeline-view.md)
    * [Gestire la visualizzazione calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md)
 
-
-## Eliminare le viste
-
-{{step1-to-planning}}
-
-1. Fai clic sulla scheda di un’area di lavoro.
-
-   Viene aperto il workspace e i tipi di record vengono visualizzati come schede.
-
-1. Fare clic su una scheda del tipo di record.
-
-   Viene visualizzata la pagina del tipo di record.
-
-   Per impostazione predefinita, tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
-
-1. Passa il puntatore del mouse su uno dei nomi della visualizzazione nella scheda della visualizzazione, quindi fai clic su **Altro** ![Altro menu](assets/more-menu.png) a sinistra del nome della visualizzazione, quindi fai clic su **Elimina**.
-Per trovare la visualizzazione da eliminare, potrebbe essere necessario fare clic su **Altro** a sinistra dell&#39;ultima scheda.
-
-1. Fai clic su **Elimina** per confermare. <!--ensure there is not another saving step here?!-->
-
-   La vista viene eliminata per tutti gli utenti che possono accedere all’area dei record e non può essere recuperata.
-
-<!--## Add a view as a favorite - this is not possible yet-->
-
-<!--not possible yet - August 30, 2023: -->
-
-## Duplicare una vista
-
-Se si desidera mantenere più versioni di una visualizzazione e apportare lievi modifiche tra le versioni, è possibile duplicare una visualizzazione.
-
-La duplicazione di una vista crea copie identiche di una vista esistente.
-
-Le autorizzazioni di condivisione della vista originale non vengono trasferite alla vista duplicata.
-
-{{step1-to-planning}}
-
-1. Fai clic sulla scheda di un’area di lavoro.
-
-   Viene aperto il workspace e i tipi di record vengono visualizzati come schede.
-
-1. Fare clic su una scheda del tipo di record.
-
-   Viene visualizzata la pagina del tipo di record.
-Per impostazione predefinita, tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
-
-1. Passa il puntatore del mouse sulla scheda della visualizzazione da duplicare e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Duplica**.
-
-   ![Visualizza altro menu con opzione duplicata](assets/view-more-menu-with-duplicate-option.png)
-
-
-   La visualizzazione è duplicata e il nome della nuova visualizzazione segue il seguente schema: `Original view's name (Copy)`. La nuova scheda vista viene visualizzata alla fine di tutte le schede vista.
-
 ## Abilitare l&#39;indicatore di presenza in tempo reale in una visualizzazione
+
+Per verificare se altri utenti stanno modificando i record contemporaneamente, seguire gli indicatori di presenza in tempo reale nella visualizzazione.
 
 Per impostazione predefinita, nell&#39;angolo superiore destro di tutte le visualizzazioni record vengono visualizzati gli avatar di altri utenti che modificano le informazioni dei record contemporaneamente.
 
 Quando si visualizza la vista tabella, è inoltre possibile visualizzare il campo che un altro utente sta modificando al momento della visualizzazione del record.
 
-1. Passare a una pagina del tipo di record e aprire qualsiasi visualizzazione.
-1. (Condizionale) Se altri utenti modificano contemporaneamente i record del tipo selezionato, i relativi avatar vengono visualizzati nell’angolo superiore destro della visualizzazione.
-1. Fai clic sul menu a discesa accanto agli avatar, quindi seleziona l&#39;opzione **Mostra collaboratori**. L’opzione è selezionata per impostazione predefinita.
+Per ulteriori informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-   ![Mostra/nascondi collaboratori selezionati](assets/show-collaborators-toggle-selected.png)
 
-1. (Facoltativo) Apri una vista a tabella e il campo che un’altra persona sta modificando attivamente viene evidenziato nel colore corrispondente al contorno del proprio avatar nella vista a tabella.
 
-   Se il colore di evidenziazione dell’avatar è grigio, l’utente ha interrotto la modifica attiva del record più di 30 secondi fa.
+<!--## Add a view as a favorite - this is not possible yet-->
 
-   ![Campo tabella indicatori in tempo reale e connessione avatar](assets/real-time-indicator-table-field-and-avatar-connection.png)
-
-   >[!TIP]
-   >
-   >È possibile selezionare l&#39;opzione **Mostra collaboratori** da qualsiasi visualizzazione. Il campo attualmente modificato da altri utenti è evidenziato solo nella vista tabella.
+<!--not possible yet - August 30, 2023: -->
