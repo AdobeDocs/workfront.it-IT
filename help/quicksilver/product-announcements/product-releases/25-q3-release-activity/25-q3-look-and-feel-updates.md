@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: 93a904811ccc48d320c8d2646c095017baf13900
+source-git-commit: f2ae543071fa77725037d9b4834651cd05b05b72
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 3%
+source-wordcount: '116'
+ht-degree: 0%
 
 ---
 
@@ -19,145 +19,6 @@ Questa pagina descrive piccoli aggiornamenti all’aspetto di varie aree dell’
 Per un elenco di tutte le modifiche disponibili con la versione del terzo trimestre 2025, consulta [Panoramica sulla versione del terzo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
 
-
 ## Modernizzazione dell&#39;interfaccia
 
 Stiamo aggiornando l’interfaccia in Adobe Workfront per migliorare l’esperienza utente e per coerenza con altre applicazioni Adobe. Queste modifiche vengono rilasciate al di fuori della pianificazione standard. Per un elenco di queste modifiche, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
-
-<!--
-
-## Look-and-feel-updates to a group's recently restored items
-
->[!NOTE]
->
->Preview release: May 15, 2025; Production release for all customers: May 15, 2025
-
-We have updated the look and feel of the recently restored items for groups, to match the design of other areas of Workfront. No functionality has changed for recently restored group projects, tasks, requests, documents, or templates.
-
-To view this change, go to Setup > Groups > Select name of group > Recently Restored.
-
-For information, see [View and manage a group's recently restored items](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
-
--->
-
-## Aggiornamenti look-and-feel alla pagina Diagnostica in Configurazione
-
->[!NOTE]
->
->Versione di anteprima: 15 maggio 2025; versione di produzione per tutti i clienti: 15 maggio 2025
-
-Abbiamo aggiornato l&#39;aspetto della pagina Diagnostica nell&#39;area Configurazione, per adattarla al design di altre aree di Workfront.
-
-Per visualizzare questa modifica, vai a Configurazione > Sistema > Diagnostica.
-
-Per informazioni, vedere [Utilizzare la diagnostica per attivare i processi automatizzati](/help/quicksilver/administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).
-
-## Aggiornamenti di look and feel durante l’aggiunta di una tariffa di fatturazione a un modello
-
->[!NOTE]
->
->Versione di anteprima: 15 maggio 2025; versione di produzione per tutti i clienti: 15 maggio 2025
-
-È stata aggiornata l’interfaccia di quando si aggiungeva una tariffa di fatturazione a un modello, per farla corrispondere ad altre aree dell’applicazione.
-
-Con questo aggiornamento non sono state introdotte modifiche di funzionalità.
-
-## Aggiornamento dell&#39;aspetto per le opzioni di menu Altro per i commenti
-
->[!NOTE]
->
->Versione di anteprima: 17 aprile 2025; versione di produzione per tutti i clienti: 17 aprile 2025
-
-È stato aggiornato l’aspetto delle opzioni disponibili nel menu Altro di un commento nella sezione Aggiornamenti per tutti gli oggetti.
-
-Questo aggiornamento include le seguenti modifiche:
-
-* Le azioni sono state riorganizzate in modo da raggruppare funzioni simili.
-* Inserite i divisori per separare chiaramente ogni gruppo.
-* L&#39;azione Elimina è stata evidenziata in rosso.
-
-Per informazioni, vedere [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-
-
-## Aggiornamenti look and feel di un rapporto del Percorso Milestone
-
->[!NOTE]
->
->Versione di anteprima: 30 aprile 2025; versione di produzione per tutti i clienti: 30 aprile 2025
-
-Il look and feel del rapporto Milestone Path è stato aggiornato per rispecchiare il design di altre aree di Workfront.
-
-Per informazioni, vedere [Creare un report personalizzato](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-
-## Aggiornamenti visivi agli elementi ripristinati di recente
-
->[!NOTE]
->
->Versione di anteprima: 23 aprile 2025; versione di produzione per tutti i clienti: 23 aprile 2025
-
-Abbiamo aggiornato il look and feel degli elementi ripristinati di recente nell&#39;area Setup (Configurazione), in modo da adeguarli al design di altre aree di Workfront. Nessuna funzionalità è stata modificata per i progetti, le attività, le richieste, i documenti o i modelli ripristinati di recente.
-
-Per visualizzare questa modifica, vai a Configurazione > Cestino > Ripristinato di recente.
-
-Per informazioni, vedere [Visualizza elementi ripristinati](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
-
-## Rapporti aggiornati con il nuovo stile
-
->[!NOTE]
->
->Versione di anteprima: 23 aprile 2025; versione di produzione per tutti i clienti: 23 aprile 2025
-
-Abbiamo aggiornato l&#39;aspetto di diversi rapporti, per uniformarli al design di altre aree di Workfront. Nessuna funzionalità è stata modificata.
-
-Questo aggiornamento include modifiche visive agli elenchi e alle barre degli strumenti dei report per i seguenti tipi di oggetti:
-
-* Attività modello
-* Gruppi di argomenti
-* Scorecard
-* Schedule
-
-Per informazioni, vedere [Creare un report personalizzato](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-
-## Aggiornamenti dell’aspetto dell’area Gestione risorse in Configurazione
-
->[!NOTE]
->
->Versione di anteprima: 17 aprile 2025; versione di produzione per tutti i clienti: 17 aprile 2025
-
-Abbiamo aggiornato l’aspetto delle preferenze di Gestione risorse nell’area Configura, per uniformarle al design di altre aree di Workfront.
-
-Per informazioni, vedere [Configurare le preferenze di Gestione risorse](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
-
-## Rapporti aggiornati con il nuovo stile
-
->[!NOTE]
->
->Versione di anteprima: 17 aprile 2025; versione di produzione per tutti i clienti: 17 aprile 2025
-
-Abbiamo aggiornato l&#39;aspetto di diversi rapporti, per uniformarli al design di altre aree di Workfront.
-
-Questo aggiornamento include modifiche visive agli elenchi e alle barre degli strumenti dei seguenti rapporti. Nessuna funzionalità è stata modificata.
-
-* Azienda
-* Tipo di spesa
-* Gruppo
-* Tipo di Ora
-* Voce del diario
-* Risorsa non manodopera (disponibile solo per clienti specifici)
-* Categoria risorsa non manodopera (disponibile solo per clienti specifici)
-* Argomento coda
-* Tipo Rischio
-* Profilo scheda orario
-* Delega utente
-
-Per informazioni, vedere [Creare un report personalizzato](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-
-## Aggiornamenti di look-and-feel della casella Elimina società in un rapporto aziendale
-
->[!NOTE]
->
->Versione di anteprima: 17 aprile 2025; versione di produzione per tutti i clienti: 17 aprile 2025
-
-È stato aggiornato l&#39;aspetto della casella Elimina società quando si elimina una società da un rapporto aziendale. Il nuovo design ora si adatta ad altre aree di Workfront.
-
-Con questo aggiornamento, l’aspetto della casella Elimina società nella pagina Società dell’area Configura non è cambiato.
