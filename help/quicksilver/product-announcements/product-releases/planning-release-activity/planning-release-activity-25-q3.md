@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: b81164511776efed53d3f41b4ac1cbf0c035c741
+source-git-commit: a39ba047fc4c1e422f3bea8bd9266b9197219900
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,61 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 <!--keep the sentence below for all future quarterly release pages-->
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Aggiornare le impostazioni della vista timeline per definire l&#39;aspetto delle barre dei record collegati quando si utilizza l&#39;opzione Raggruppamento
+
+>[!NOTE]
+>
+>* Anteprima: 15 maggio 2025
+>* Versione rapida di produzione: 12 giugno 2025
+>* Produzione per tutti i clienti: 17 luglio 2025
+
+È ora possibile formattare l&#39;aspetto delle barre dei record nella visualizzazione timeline per i record del raggruppamento. È possibile aggiornare le seguenti impostazioni per le barre di questi record:
+
+* Stile barra
+* Colore
+
+Prima di questo miglioramento, era possibile formattare solo le barre dei record principali così come vengono visualizzate nella visualizzazione timeline e non era possibile formattare le barre dei record collegati.\
+ 
+Per informazioni, vedere [Gestire la visualizzazione della sequenza temporale](/help/quicksilver/planning/views/manage-the-timeline-view.md).  
+
+## Esportare la vista tabella in un file CSV o Excel 
+
+>[!NOTE]
+>
+>* Anteprima: 15 maggio 2025
+>* Versione rapida di produzione: 12 giugno 2025
+>* Produzione per tutti i clienti: 17 luglio 2025
+
+È stata aggiunta una nuova funzionalità a Workfront Planning che consente di esportare le informazioni visibili nella vista a tabella in un file CSV o Excel.  
+
+Quando esportate informazioni dalla vista tabella, tenete presente quanto segue:  
+
+* Le informazioni esportate tengono conto dei filtri, dei raggruppamenti e degli ordinamenti applicati alla vista tabella in Workfront Planning.
+* Le miniature e i colori di riga personalizzati non sono supportati nel file esportato.  
+* Vengono esportati solo i campi resi visibili nell’interfaccia di Workfront. I campi nascosti non vengono esportati.  
+
+Per ulteriori informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md). 
+
+## I campi connessi di Workfront Planning sono ora supportati quando si importano record utilizzando un file CSV o Excel
+
+>[!NOTE]
+>
+>* Anteprima: 15 maggio 2025
+>* Versione rapida di produzione: 12 giugno 2025
+>* Produzione per tutti i clienti: 17 luglio 2025
+
+È ora possibile popolare i valori dei campi collegati quando si aggiungono record a un tipo di record utilizzando un file CSV o Excel.  Sono supportati solo i campi dei record di Planning connessi. I campi che visualizzano connessioni ad altre applicazioni non sono supportati.
+
+Questa modifica è supportata quando si importa un file CSV ed Excel per creare sia un tipo di record che record per un tipo di record esistente.
+
+Prima di questo miglioramento, non era possibile compilare i campi di connessione al momento dell’importazione dei record.
+
+Per informazioni, vedere i seguenti articoli:
+
+* [Creare record importando informazioni da un file CSV o Excel](/help/quicksilver/planning/records/import-file-to-create-records.md).
+
+* [Creare tipi di record importando informazioni da un file CSV o Excel](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
 
 ## Modifica in linea nella pagina Record connessi di un record
 

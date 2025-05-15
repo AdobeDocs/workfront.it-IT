@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: 564d9b6ba81093caf7ac897ef785120f3bc85d07
+source-git-commit: 93a904811ccc48d320c8d2646c095017baf13900
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '700'
 ht-degree: 3%
 
 ---
@@ -23,6 +23,44 @@ Per un elenco di tutte le modifiche disponibili con la versione del terzo trimes
 ## Modernizzazione dell&#39;interfaccia
 
 Stiamo aggiornando l’interfaccia in Adobe Workfront per migliorare l’esperienza utente e per coerenza con altre applicazioni Adobe. Queste modifiche vengono rilasciate al di fuori della pianificazione standard. Per un elenco di queste modifiche, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+<!--
+
+## Look-and-feel-updates to a group's recently restored items
+
+>[!NOTE]
+>
+>Preview release: May 15, 2025; Production release for all customers: May 15, 2025
+
+We have updated the look and feel of the recently restored items for groups, to match the design of other areas of Workfront. No functionality has changed for recently restored group projects, tasks, requests, documents, or templates.
+
+To view this change, go to Setup > Groups > Select name of group > Recently Restored.
+
+For information, see [View and manage a group's recently restored items](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
+
+-->
+
+## Aggiornamenti look-and-feel alla pagina Diagnostica in Configurazione
+
+>[!NOTE]
+>
+>Versione di anteprima: 15 maggio 2025; versione di produzione per tutti i clienti: 15 maggio 2025
+
+Abbiamo aggiornato l&#39;aspetto della pagina Diagnostica nell&#39;area Configurazione, per adattarla al design di altre aree di Workfront.
+
+Per visualizzare questa modifica, vai a Configurazione > Sistema > Diagnostica.
+
+Per informazioni, vedere [Utilizzare la diagnostica per attivare i processi automatizzati](/help/quicksilver/administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).
+
+## Aggiornamenti di look and feel durante l’aggiunta di una tariffa di fatturazione a un modello
+
+>[!NOTE]
+>
+>Versione di anteprima: 15 maggio 2025; versione di produzione per tutti i clienti: 15 maggio 2025
+
+È stata aggiornata l’interfaccia di quando si aggiungeva una tariffa di fatturazione a un modello, per farla corrispondere ad altre aree dell’applicazione.
+
+Con questo aggiornamento non sono state introdotte modifiche di funzionalità.
 
 ## Aggiornamento dell&#39;aspetto per le opzioni di menu Altro per i commenti
 
