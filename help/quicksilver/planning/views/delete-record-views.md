@@ -5,13 +5,13 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '440'
 ht-degree: 2%
 
 ---
-
 
 # Eliminare le visualizzazioni record
 
@@ -111,11 +111,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Per impostazione predefinita, tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
 
-1. Passa il puntatore del mouse su uno dei nomi della visualizzazione nella scheda della visualizzazione, quindi fai clic su **Altro** ![Altro menu](assets/more-menu.png) a sinistra del nome della visualizzazione, quindi fai clic su **Elimina**.
+1. <span class="preview">Passa il puntatore del mouse su uno dei nomi della visualizzazione nella scheda della visualizzazione, quindi fai clic su **Altro** ![Altro menu](assets/more-menu.png) a sinistra del nome della visualizzazione, quindi fai clic su **Elimina**.</span>
 
-   Per trovare la visualizzazione da eliminare, potrebbe essere necessario fare clic su **Altro** a sinistra dell&#39;ultima scheda.
+   <span class="preview">![Visualizza altro menu in una visualizzazione record](assets/view-more-menu-with-duplicate-option.png)</span>
 
-   ![Visualizza altro menu in una visualizzazione record](assets/view-more-menu-with-duplicate-option.png)
+   >[!TIP]
+   >
+   >Per trovare la visualizzazione da eliminare, potrebbe essere necessario fare clic su **Altro** a destra dell&#39;ultima scheda.
+
 
 1. Fai clic su **Elimina** per confermare. <!--ensure there is not another saving step here?!-->
 

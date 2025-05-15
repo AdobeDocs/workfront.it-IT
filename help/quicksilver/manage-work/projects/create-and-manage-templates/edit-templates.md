@@ -6,9 +6,9 @@ description: È possibile modificare i modelli di progetto per riflettere le mod
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '4877'
+source-wordcount: '4881'
 ht-degree: 2%
 
 ---
@@ -1100,7 +1100,7 @@ L’aggiunta dei seguenti elementi a un modello è identica all’aggiunta a un 
 
 * Tariffe di fatturazione
 
-  Per ulteriori informazioni sull&#39;override delle tariffe di fatturazione per un progetto, vedere [Panoramica sull&#39;override delle tariffe di fatturazione dei ruoli e sul calcolo dei ricavi per un progetto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  L’aggiunta di tariffe di fatturazione per un modello è simile all’aggiunta di tariffe di fatturazione a un progetto. Per ulteriori informazioni, vedere [Sostituire le tariffe di fatturazione dei ruoli a livello di progetto](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
 
 * Spese
 

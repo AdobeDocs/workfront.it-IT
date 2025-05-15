@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '3395'
+source-wordcount: '3680'
 ht-degree: 2%
 
 ---
@@ -28,8 +28,8 @@ Per informazioni sulle visualizzazioni record e su come gestirle, vedere [Gestio
 Questo articolo descrive le seguenti informazioni:
 
 * [Creare o modificare colonne e righe in una vista tabella](#manage-a-table-view)
-* [Attiva gli indicatori di presenza in tempo reale per la visualizzazione tabella](#enable-the-real-time-presence-indicator)
-  <!--* <span class="preview">[Export a table view to a CSV or Excel file](#export-the-table-view)</span>-->
+* [Abilita indicatori di presenza in tempo reale per la vista tabella](#enable-the-real-time-presence-indicator)
+* <span class="preview">[Esportare una visualizzazione tabella in un file CSV o Excel](#export-the-table-view)</span>
 
 ## Requisiti di accesso
 
@@ -88,7 +88,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
    <td>   <p>Gestire le autorizzazioni per una visualizzazione</p>  
-   <p>Autorizzazioni di visualizzazione per modificare temporaneamente le impostazioni di visualizzazione o duplicarle <!--<span class="preview">or to export the view</span>--></p> </td> 
+   <p>Autorizzazioni di visualizzazione a una visualizzazione per modificare temporaneamente le impostazioni di visualizzazione, duplicarla, <span class="preview">o esportarla</span></p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Modello layout</p></td> 
@@ -109,8 +109,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 Per ulteriori informazioni sulla modifica dei record nella vista tabella, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
 
 ## Gestire una vista tabella {#manage-a-table-view}
-
-<!--insert screen shot of table view-->
 
 Durante la creazione di una vista tabella, tutti i record del tipo selezionato vengono visualizzati in una tabella. Ogni riga è un record univoco e ogni colonna è un campo record. Tutti i campi e tutti i record vengono visualizzati per impostazione predefinita.
 
@@ -547,51 +545,52 @@ Quando si visualizza la vista tabella, è inoltre possibile visualizzare il camp
    >
    >È possibile selezionare l&#39;opzione **Mostra collaboratori** da qualsiasi visualizzazione. Il campo attualmente modificato da altri utenti è evidenziato solo nella vista tabella.
 
-<!--<div class="preview">
+<div class="preview">
 
-## Export the table view
+## Esportare la vista tabella
 
-You can export information in the table view to a CSV or an Excel file. 
+È possibile esportare le informazioni nella vista tabella in un file CSV o Excel.
 
-Consider the following when exporting the table view:
+Quando esportate la vista tabella, tenete presente quanto segue:
 
-* The information exported to an Excel file preserves the filters, groupings, and sorts applied to the table view in Workfront Planning. Groupings are not visible in the CSV file.
+* Le informazioni esportate in un file di Excel mantengono i filtri, i raggruppamenti e gli ordinamenti applicati alla vista tabella in Workfront Planning. I raggruppamenti non sono visibili nel file CSV.
 
-* Thumbnails and custom row colors are not supported in exported files.  
+* Le miniature e i colori di riga personalizzati non sono supportati nei file esportati.
 
-* Only fields made visible in the Workfront interface are exported. Hidden fields are not exported.
+* Vengono esportati solo i campi resi visibili nell’interfaccia di Workfront. I campi nascosti non vengono esportati.
 
-To export information from the table view or a record type:
+Per esportare informazioni dalla vista tabella o da un tipo di record:
 
-1. Go to a record type page and click a table view tab. 
-1. Hover over the table view tab's name, then click the **More** menu ![More menu](assets/more-menu.png).
-1. Click **Export**, then select one of the following formats:
+1. Passare a una pagina del tipo di record e fare clic su una scheda della vista tabella.
+1. Passa il puntatore del mouse sul nome della scheda di visualizzazione della tabella, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png).
 
-    * Excel
-    * CSV
+   ![Altro menu in una visualizzazione](assets/view-more-menu-with-duplicate-option.png)
+1. Fai clic su **Esporta**, quindi seleziona uno dei seguenti formati:
 
-    >[!IMPORTANT]
-    >
-    >You cannot export information from the table view when you display a different view on the screen. You must display the table view that you want to export in order to access the Export option in the More menu. 
+   * Excel
+   * CSV
 
-    The file is downloaded to your computer. 
+   >[!IMPORTANT]
+   >
+   >Non è possibile esportare informazioni dalla vista tabella quando si visualizza una vista diversa sullo schermo. Per accedere all&#39;opzione Esporta nel menu Altro, è necessario visualizzare la vista tabella che si desidera esportare.
 
-1. (Optional) Go to the downloads folder on your computer and find the downloaded file. 
+   Il file viene scaricato nel computer.
 
-    The name of the exported file follows the following format: 
+1. (Facoltativo) Vai alla cartella dei download sul tuo computer e trova il file scaricato.
 
-    `Name of the view - name of the record type`
+   Il nome del file esportato è nel seguente formato:
 
-    For example, a table view for the Campaigns record type generates a file named `Table view - Campaigns`.
+   `Name of the view - name of the record type`
 
-    The file displays the following information: 
-    
-    * The column headers are highlighted in black, in the Excel file
-    * All the fields visible in the Workfront interface, sorted and filtered by the same criteria
-    * Groupings are preserved in the Excel file
+   Ad esempio, una visualizzazione tabella per il tipo di record Campagne genera un file denominato `Table view - Campaigns`.
 
-    You can now share the exported files with others, or attach them to any communication. 
-    
- </div>   
+   Nel file vengono visualizzate le seguenti informazioni:
 
- -->
+   * Le intestazioni di colonna sono evidenziate in nero nel file Excel
+   * Tutti i campi visibili nell’interfaccia di Workfront, ordinati e filtrati in base agli stessi criteri
+   * I raggruppamenti vengono mantenuti nel file di Excel
+
+   È ora possibile condividere i file esportati con altri utenti o allegarli a qualsiasi comunicazione.
+
+</div>
+

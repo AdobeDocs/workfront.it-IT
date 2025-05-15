@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '2946'
+source-wordcount: '3060'
 ht-degree: 0%
 
 ---
@@ -97,8 +97,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 +++
 
 ## Gestire una vista timeline {#manage-a-timeline-view}
-
-<!--insert screen shot of timeline view-->
 
 Durante la creazione di una vista timeline, tutti i record del tipo di record selezionato vengono visualizzati in una timeline cronologica.
 
@@ -278,7 +276,7 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
 
 1. Fare clic su **Stile barra** nel pannello sinistro per indicare le informazioni da visualizzare sulle barre dei record.
 
-   <!--<span class="preview">You can define the bar style of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+   <span class="preview">Quando si utilizza l&#39;opzione Raggruppamento nella visualizzazione Standard, è possibile definire lo stile della barra del record principale e dei record connessi. </span>
 
    Il campo principale (o titolo) del record, come definito nella vista tabella del record, è selezionato per impostazione predefinita.
    <!--adjust this when the primary field is released??-->
@@ -309,17 +307,14 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
 
    >[!TIP]
    >
-   >* <span class="preview">L&#39;impostazione dei dettagli della barra di troncamento non è disponibile quando si visualizza la visualizzazione della sequenza temporale in modalità Compatta e non è disponibile nella visualizzazione Calendario.</span>
+   ><span class="preview">L&#39;impostazione dei dettagli della barra di troncamento non è disponibile quando si visualizza la visualizzazione della sequenza temporale in modalità Compatta e non è disponibile nella visualizzazione Calendario.</span>
    >
-   >* <span class="preview">Se si suddivide la visualizzazione della sequenza temporale per visualizzare gli oggetti connessi, l&#39;impostazione dei dettagli della barra di troncamento si applica solo al tipo di record principale. Non si applica alle barre dei record connesse.</span>
-
-   <!--take out the last bullet in the Tip above when we release the additional records in breakdown formatting-->
 
 1. Fai clic su **Colore** nel pannello a sinistra per personalizzare i colori dei record e dei raggruppamenti nella timeline.
 
    ![Visualizzazione timeline scheda Colore](assets/color-tab-timeline-view.png)
 
-   <!--<span class="preview">You can define the color of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+   <span class="preview">Quando si utilizza l&#39;opzione Raggruppamento nella visualizzazione Standard, è possibile definire il colore del record principale e dei record connessi. </span>
 
 1. (Condizionale e facoltativo) Se hai aggiunto un raggruppamento alla visualizzazione della timeline, seleziona una delle seguenti opzioni per impostare un colore per il raggruppamento nella sezione **Imposta colore di raggruppamento**:
 
@@ -358,7 +353,7 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
 
    Se non si dispone di un campo con opzioni codificate a colori per il tipo di record selezionato, questa opzione viene disattivata.
 
-   <!--1. <span class="preview">(Optional) If you are using the Breakdown option, repeat the steps starting with step 4 for each connected record displayed in the timeline. </span>-->
+   1. <span class="preview">(Facoltativo) Se si utilizza l&#39;opzione Raggruppamento, ripetere i passaggi a partire dal passaggio 4 per ogni record connesso visualizzato nella sequenza temporale. </span>
 
 1. Fai clic su **Salva**.
 
@@ -410,9 +405,18 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
    >    Le date di inizio e di fine devono essere sequenziali. Se la data di fine è precedente alla data di inizio, nella sequenza temporale non verrà visualizzato alcun record.
 
    Una freccia rivolta a destra viene visualizzata sulla barra del record selezionato nella timeline, se sono collegati ad altri record.
-1. Fare clic sulla freccia rivolta a destra per espandere un tipo di record e visualizzare le connessioni.
+1. Fare clic sulla freccia rivolta a destra per espandere un tipo di record e visualizzarne le connessioni.
 
    ![Campagne suddivise per programmi nella visualizzazione Timeline](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
+
+   >[!IMPORTANT]
+   >
+   >    Quando si visualizzano più record connessi nel raggruppamento, questi non sono in ordine gerarchico.
+   >
+   >Ad esempio, se visualizzi la timeline delle campagne e aggiungi Prodotti e quindi Programmi al raggruppamento, i Programmi non sono necessariamente connessi prima ai Prodotti.
+   >
+   >Sia Prodotti che Programmi devono essere connessi alle campagne per essere visualizzati come opzioni di suddivisione e puoi aggiungerli al raggruppamento in qualsiasi ordine.
+
 
 1. (Facoltativo) Ripeti i passaggi precedenti per aggiungere altri record connessi.
 

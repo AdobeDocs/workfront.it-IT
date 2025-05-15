@@ -6,9 +6,9 @@ description: In qualità di project manager, puoi specificare la tariffa di fatt
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,8 @@ Puoi sovrascrivere la tariffa di fatturazione di una mansione su un progetto nei
 
 * Più volte, selezionando diverse nuove tariffe per intervalli di date specifici.\
   È possibile utilizzare un tasso diverso durante ogni intervallo di date specificato.
+
+* È possibile aggiungere nuove tariffe di fatturazione a un modello di progetto e queste diventano tariffe di fatturazione del progetto quando si crea il progetto da tale modello. Per informazioni sulla modifica dei modelli, vedere [Modifica modelli di progetto](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 >[!TIP]
 >

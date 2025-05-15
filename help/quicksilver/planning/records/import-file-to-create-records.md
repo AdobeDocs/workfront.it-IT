@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1065'
 ht-degree: 1%
 
 ---
@@ -113,9 +113,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 * I fogli vuoti non sono supportati.
 * I campi dei tipi seguenti non sono supportati e non possono essere mappati ai campi del foglio di importazione:
 
-   * &#x200B;<!--In the Production environment,--> Campi di connessione a record di Planning o oggetti Workfront e AEM Assets
+   * Campi di connessione, a seconda dell’ambiente utilizzato:
 
-     <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
+      * Nell’ambiente di produzione non è possibile mappare i campi di connessione ai record di Planning o agli oggetti Workfront e AEM Assets
+
+      * <span class="preview">Nell&#39;ambiente di anteprima è possibile mappare e importare i campi di connessione nei record di Planning. Impossibile mappare i campi su Workfront e AEM Assets.</span>
 
    * Campi di ricerca da record di Planning o oggetti Workfront e AEM Assets connessi
    * Campi formula
@@ -148,6 +150,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    ![Mappa i campi di Planning alle colonne durante l&#39;importazione dei record](assets/map-planning-fields-to-columns-when-importing-records.png)
 
    Ogni riga rappresenta un nuovo record. Nella casella Anteprima e modifica vengono visualizzati solo i primi 10 record.
+
+   >[!TIP]
+   >
+   >Non tutti i tipi di campo sono supportati. Per ulteriori informazioni, vedere la sezione [Considerazioni sull&#39;importazione di record utilizzando un file Excel o CSV](#considerations-about-importing-records-using-an-excel-or-csv-file) in questo articolo.
+
 
 1. (Facoltativo e condizionale) Se disponi delle autorizzazioni di gestione per l&#39;area di lavoro, seleziona **Crea opzioni mancanti** nell&#39;angolo inferiore sinistro dello schermo. Quando questa opzione è attivata, vengono aggiunte le scelte mancanti dei campi a selezione singola e multipla.
 
