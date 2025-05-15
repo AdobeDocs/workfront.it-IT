@@ -6,9 +6,10 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: b2ab4ca5aab65966d3833b0e6d58a563e70694e0
+exl-id: c0bf438f-f496-420a-b3b6-b958c8a70d3f
+source-git-commit: 1d2761d50176ea5ddf7649f31da8423fd60a6fe6
 workflow-type: tm+mt
-source-wordcount: '3354'
+source-wordcount: '3365'
 ht-degree: 1%
 
 ---
@@ -556,6 +557,8 @@ Questi aggiornamenti includono modifiche visive all’area. Nessuna funzionalit�
 
 ### Aggiornamenti e commenti
 
++++Espandere per visualizzare gli aggiornamenti dell&#39;interfaccia Aggiornamenti e commenti effettuati nel secondo trimestre
+
 ### Aggiornamento dell&#39;aspetto per le opzioni di menu Altro per i commenti
 
 **Versione di anteprima: 17 aprile 2024; versione di produzione: a partire dalla settimana del 17 aprile 2024**
@@ -569,3 +572,5 @@ Questo aggiornamento include le seguenti modifiche:
 * L&#39;azione Elimina è stata evidenziata in rosso.
 
 Per informazioni, vedere [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
++++
