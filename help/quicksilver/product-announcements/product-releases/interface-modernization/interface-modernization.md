@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 0525dc9025f43491a5413726600df0dbb9e45b94
+source-git-commit: e94d7f40accd80d631765405752a03bf3a0363f1
 workflow-type: tm+mt
-source-wordcount: '3539'
+source-wordcount: '3691'
 ht-degree: 1%
 
 ---
@@ -82,8 +82,28 @@ Per ulteriori informazioni, vedere [Ricerca [!DNL Adobe Workfront]](/help/quicks
 
 Abbiamo aggiornato la pagina utilizzata per concedere al supporto l’accesso al tuo account Workfront con una progettazione più moderna che è coerente con altre aree di Workfront.
 
+## Rapporti e dashboard
+
+### Gli URL con /tile o /qstile non sono più supportati nei dashboard di Workfront
+
+**Anteprima versione: 13 maggio; Produzione: da annunciare**
+
+Se in un dashboard è presente una pagina esterna con un URL di Workfront che contiene `/tile` o `/qstile`, la pagina non verrà più caricata.
+
+L&#39;aggiunta di `/tile` o `/qstile` a un URL di Workfront ha consentito al browser di caricare pagine di esperienza classica non supportate, che sono state dichiarate obsolete a luglio 2022.
+
+È consigliabile sostituire l’URL per passare a una pagina supportata o rimuovere la pagina esterna dal dashboard.
+
 
 ## Utenti
+
+### Aggiornamento dell’interfaccia alla nuova pagina di registrazione utente
+
+**Anteprima versione: 15 maggio 2024; Versione di produzione: da annunciare**
+
+La nuova pagina di registrazione è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront.
+
+Gli utenti non hanno più la possibilità di caricare una foto su questa pagina. Tuttavia, una volta effettuato l’accesso a Workfront, può caricare una foto nel suo profilo utente.
 
 ### Ricerca aggiornata per la pagina di accesso
 
@@ -122,7 +142,6 @@ La pagina di registrazione per gli utenti esterni è stata aggiornata con un des
 **Versione di anteprima: 24 aprile 2024; versione di produzione: a partire dalla settimana dell&#39;8 maggio 2024**
 
 La pagina del contratto di licenza è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront.
-
 
 
 ## Aggiornamenti dell’interfaccia effettuati nel secondo trimestre
