@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: d0ec729a510b78a7ce417356ac9250a485308f0b
 workflow-type: tm+mt
 source-wordcount: '1657'
 ht-degree: 1%
@@ -202,9 +202,9 @@ Per condividere una visualizzazione pubblicamente in Workfront Planning:
 
    Verrà aperta la pagina del tipo di record.
 
-1. Dalla scheda Visualizza, passa il puntatore del mouse sulla visualizzazione che desideri condividere e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Condividi**.
+1. <span class="preview">Dalla scheda Visualizza, passa il puntatore del mouse sulla visualizzazione da condividere e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Condividi**. </span>
 
-   ![Menu Altro per le visualizzazioni espanse con l&#39;opzione di condivisione](assets/more-menu-for-views-expanded-with-share-option.png)
+   <span class="preview">![Menu Altro per le visualizzazioni espanse con l&#39;opzione di condivisione](assets/more-menu-for-views-expanded-with-share-option.png)</span>
 
 1. Fai clic su **Condivisione pubblica**.
 
@@ -236,10 +236,8 @@ Gli utenti che accedono a un collegamento a una visualizzazione per la quale non
 1. (Condizionale) Se sei il manager di una visualizzazione, potresti ricevere una richiesta da un altro utente per accedere alla visualizzazione nelle seguenti aree:
 
    * Una notifica in-app
-
      ![Notifica in-app per la richiesta di accesso per la visualizzazione](assets/in-app-notification-for-access-request-for-view.png)
    * Una notifica e-mail
-
      ![Notifica in-app per la richiesta di accesso per la visualizzazione](assets/in-app-notification-for-access-request-for-view.png)
 1. (Condizionale) Dall’area di notifica in Workfront, fai clic sulla notifica in-app.
 Oppure

@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: d0ec729a510b78a7ce417356ac9250a485308f0b
 workflow-type: tm+mt
 source-wordcount: '3060'
 ht-degree: 0%
@@ -276,7 +276,7 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
 
 1. Fare clic su **Stile barra** nel pannello sinistro per indicare le informazioni da visualizzare sulle barre dei record.
 
-   <span class="preview">Quando si utilizza l&#39;opzione Raggruppamento nella visualizzazione Standard, è possibile definire lo stile della barra del record principale e dei record connessi. </span>
+   È possibile definire lo stile della barra del record principale <span class="preview">e dei record connessi</span> quando si utilizza l&#39;opzione Raggruppamento nella visualizzazione Standard.
 
    Il campo principale (o titolo) del record, come definito nella vista tabella del record, è selezionato per impostazione predefinita.
    <!--adjust this when the primary field is released??-->
@@ -314,7 +314,7 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
 
    ![Visualizzazione timeline scheda Colore](assets/color-tab-timeline-view.png)
 
-   <span class="preview">Quando si utilizza l&#39;opzione Raggruppamento nella visualizzazione Standard, è possibile definire il colore del record principale e dei record connessi. </span>
+   È possibile definire il colore del record principale <span class="preview">e dei record connessi</span> quando si utilizza l&#39;opzione Raggruppamento nella visualizzazione Standard.
 
 1. (Condizionale e facoltativo) Se hai aggiunto un raggruppamento alla visualizzazione della timeline, seleziona una delle seguenti opzioni per impostare un colore per il raggruppamento nella sezione **Imposta colore di raggruppamento**:
 
