@@ -154,7 +154,7 @@ Per informazioni sulla pianificazione e la programmazione delle risorse in [!DNL
 
      >[!INFO]
      >
-     >Ad esempio, se la [!UICONTROL pianificazione predefinita] è di 40 ore settimanali, la pianificazione dell&#39;utente è di 30 ore settimanali, l&#39;orario di lavoro [!UICONTROL dell&#39;utente] è 0,5 e l&#39;FTE [!UICONTROL  dell&#39;utente è 0,35.]
+     >Ad esempio, se la [!UICONTROL pianificazione predefinita] è di 40 ore settimanali, la pianificazione dell&#39;utente è di 30 ore settimanali, l&#39;orario di lavoro [!UICONTROL dell&#39;utente] è 0,5 e l&#39;FTE [!UICONTROL &#x200B; dell&#39;utente è 0,35.]
      >
      >Se l&#39;utente ha 2 ore di inattività in un giorno, le sue [!UICONTROL FTE] settimanali disponibili verranno calcolate come segue:
      >
