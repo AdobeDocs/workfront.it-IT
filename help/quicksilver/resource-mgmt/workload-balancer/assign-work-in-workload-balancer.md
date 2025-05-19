@@ -6,14 +6,16 @@ description: In qualità di responsabile delle risorse, puoi utilizzare il Bilan
 author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1032'
 ht-degree: 1%
 
 ---
 
 # Panoramica sull’assegnazione del lavoro nel Bilanciatore dei carichi di lavoro
+
+<!-- Audited: 5/2025 -->
 
 In qualità di responsabile delle risorse, puoi utilizzare il Bilanciatore dei carichi di lavoro di Adobe Workfront per visualizzare gli elementi di lavoro non ancora assegnati agli utenti e assegnare loro tali elementi.
 
@@ -30,7 +32,7 @@ Per informazioni sull&#39;assegnazione di elementi di lavoro in altre aree di Wo
 
 Puoi assegnare il lavoro nel Bilanciatore dei carichi di lavoro in modo che corrisponda al tempo disponibile degli utenti. Per assicurarsi di assegnare la giusta quantità di lavoro e non sovrassegnare l&#39;utente, il totale delle ore pianificate degli elementi di lavoro assegnati all&#39;utente deve corrispondere alle allocazioni giornaliere o settimanali dell&#39;utente.
 
-È necessario comprendere in che modo Workfront calcola il tempo disponibile per un utente.
+È importante comprendere in che modo Workfront calcola il tempo disponibile per un utente.
 
 Workfront utilizza le seguenti informazioni per calcolare la capacità dell’utente nel Bilanciatore dei carichi di lavoro:
 
@@ -43,7 +45,7 @@ Workfront utilizza le seguenti informazioni per calcolare la capacità dell’ut
 
   Per ulteriori informazioni, vedere [Configurare le preferenze di Gestione risorse](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-  Per informazioni sulle pianificazioni, vedere [Creare una pianificazione](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+  Per informazioni sulle pianificazioni, vedere [Creare una pianificazione](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 * Indisponibilità dell&#39;utente. Indica i giorni previsti per il decollo dell&#39;utente.
 

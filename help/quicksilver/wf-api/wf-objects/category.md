@@ -1,21 +1,23 @@
 ---
 content-type: api
 navigation-topic: workfront-objects
-title: Quando APIModel INTERNAL non supporta il campo projectid (OpTask)Category
-description: Quando APIModel INTERNAL non supporta il campo projectid (OpTask)
+title: Categoria
+description: Tabella dei campi disponibili per l'oggetto Category, con le relative descrizioni e i tipi di valore.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 24c900ee-a8f1-458e-a18b-c098c6314e0c
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 25%
+source-wordcount: '281'
+ht-degree: 27%
 
 ---
 
 
 # Categoria
+
+<!-- Audited: 5/2025 -->
 
 Classe campo: &quot;java.lang.IllegalArgumentException&quot;,\
 messaggio: &quot;APIModel INTERNAL non supporta field projectid (OpTask)&quot;
@@ -104,7 +106,7 @@ messaggio: &quot;APIModel INTERNAL non supporta field projectid (OpTask)&quot;
   </tr> 
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;hasCalculatedFields&quot;}"><strong>hasCalculatedFields</strong> </td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Has Calculated Fields&quot;}">Ha Campi Calcolati</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Has Calculated Fields&quot;}">Ha campi calcolati</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Boolean&quot;}">Booleano</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Does the form have calculated fields associated with it?&quot;}">Al modulo sono associati campi calcolati?</td> 
    <td> </td> 
@@ -139,23 +141,23 @@ messaggio: &quot;APIModel INTERNAL non supporta field projectid (OpTask)&quot;
 
 ## Riferimenti
 
-| Nome | Etichetta | Tipo | Digita codice oggetto | URL |
-|---|---|---|---|---|
-| Cliente | cliente | Cliente | CUST | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Immesso da | enteredBy | Utente | UTENTE | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Gruppo | gruppo | Gruppo | GRUPPO | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Ultimo aggiornamento di | lastUpdatedBy | Utente | UTENTE | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| Nome | Etichetta | Tipo | Digita codice oggetto |
+|---|---|---|---|
+| Cliente | cliente | Cliente | CUST |
+| Immesso da | enteredBy | Utente | UTENTE |
+| Gruppo | gruppo | Gruppo | GRUPPO |
+| Ultimo aggiornamento di | lastUpdatedBy | Utente | UTENTE |
 
 
 ## Raccolte
 
-| Nome | Etichetta | Tipo | Digita codice oggetto | URL |
-|---|---|---|---|---|
-| Regole di accesso | accessRules | Regola di accesso | ACSRUL | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Regole di accesso alle categorie | categoryAccessRules | Regole di accesso alle categorie | CATACRO | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Regole a cascata categoria | categoryCascadeRules | Regole a catena categoria | CTCSRL | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Parametri di Categoria | categoryParameters | Parametri di Categoria | CTGYPA | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Altre Gruppi | otherGroups | Gruppo | GRUPPO | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| Nome | Etichetta | Tipo | Digita codice oggetto |
+|---|---|---|---|
+| Regole di accesso | accessRules | Regola di accesso | ACSRUL |
+| Regole di accesso alle categorie | categoryAccessRules | Regole di accesso alle categorie | CATACRO |
+| Regole a cascata categoria | categoryCascadeRules | Regole a catena categoria | CTCSRL |
+| Parametri di Categoria | categoryParameters | Parametri di Categoria | CTGYPA |
+| Altre Gruppi | otherGroups | Gruppo | GRUPPO |
 
 
 ## Azioni
