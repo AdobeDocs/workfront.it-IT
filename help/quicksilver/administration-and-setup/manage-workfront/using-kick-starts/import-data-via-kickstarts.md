@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 69cd1eafd7798861a4868fe0d68707ab5ba9106c
+source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
 workflow-type: tm+mt
-source-wordcount: '2776'
+source-wordcount: '2785'
 ht-degree: 6%
 
 ---
@@ -104,7 +104,7 @@ Per esportare un modello di Kick-Start:
     </thead> 
     <tbody> 
      <tr> 
-      <td scope="col"> <p>Dashboard</p> <p>Tutte le dashboard del sistema sono disponibili per l’esportazione. È possibile selezionare fino a 100 dashboard specifici in una singola esportazione.</p> </td> 
+      <td scope="col"> <p>Dashboard</p> <p>Tutte le dashboard condivise pubblicamente nel sistema sono disponibili per l’esportazione. Impossibile esportare dashboard non condivisi a livello di sistema. È possibile selezionare fino a 100 dashboard specifici in una singola esportazione.</p> </td> 
       <td scope="col">Esporta come file ZIP</td> 
       <td scope="col"> <p>Parametro</p> <p>Testo descrittivo</p><p>Opzione Parametro</p> <p>Gruppo di parametri</p> <p>Parametro di Categoria</p> <p>Categoria</p> <p>Rapporto</p> <p>La Sezione della Liguetta Portale</p> <p>Dashboard</p> <p>Preferenze</p> </td> 
      </tr> 

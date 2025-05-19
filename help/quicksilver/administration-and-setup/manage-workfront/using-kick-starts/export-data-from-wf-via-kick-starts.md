@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1043'
 ht-degree: 7%
 
 ---
@@ -168,6 +168,10 @@ Esistono le seguenti limitazioni quando si esportano dati tramite avvii (i dati 
     </tbody> 
    </table>
 
+   >[!NOTE]
+   >
+   >Se l&#39;opzione **Dashboard** non è disponibile, significa che nel sistema non sono presenti dashboard condivisi a livello di sistema. Non è possibile esportare dashboard privati.
+
 1. Fai clic su **Altre opzioni** per visualizzare l&#39;elenco completo degli oggetti.
 
    Tutti gli oggetti elencati possono essere utilizzati anche per importare dati in Workfront.
@@ -260,7 +264,7 @@ Esistono le seguenti limitazioni quando si esportano dati tramite avvii (i dati 
      </tr> 
      <tr> 
       <td valign="top">Portfolio</td> 
-      <td valign="top"> Portfolio<br>Preferenze  </td> 
+      <td valign="top"> Preferenze di Portfolio<br>  </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
@@ -330,7 +334,7 @@ Esistono le seguenti limitazioni quando si esportano dati tramite avvii (i dati 
 
    Il file di avvio esportato viene scaricato nel computer come file Excel o come file . file zip contenente più file Excel e proprietà. Ogni file di Excel è un insieme di fogli, in cui ogni foglio rappresenta un campo associato all&#39;oggetto selezionato. A ogni esportazione è associato un foglio **Proprietà**.
 
-   Le opzioni **Dashboard** e **Report** consentono di selezionare dashboard e report specifici da includere nel download. Puoi esportare solo dashboard condivisi a livello di sistema.
+   Le opzioni **Dashboard** e **Report** consentono di selezionare dashboard e report specifici da includere nel download. Per le dashboard, puoi esportare solo dashboard condivisi a livello di sistema.
 
    Non è possibile esportare report matrice. Per ulteriori informazioni sui report matrice, vedere [Creare un report matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 

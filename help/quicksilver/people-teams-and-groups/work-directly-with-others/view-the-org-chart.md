@@ -6,7 +6,7 @@ description: La funzione organigramma consente di visualizzare l’organigramma 
 author: Lisa
 feature: People Teams and Groups
 exl-id: 10c1fc55-8df4-4c2a-9251-ee6db9ee6c0d
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 0%
@@ -49,5 +49,5 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 {{step1-click-profile-pic}}
 
-1. Nel pannello a sinistra, fai clic su **[!UICONTROL Organigramma]**.\
-   ![Organigramma](assets/org-chart.png)
+1. Nel pannello a sinistra, fai clic su **[!UICONTROL Organigramma]**.
+   ![Organigramma](assets/org-chart-2025.png)

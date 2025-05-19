@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Visualizzare e gestire gli elementi ripristinati di recente di un gruppo
-description: Quando si visualizza un gruppo che si gestisce nell'area Gruppi, è possibile visualizzare, mascherare, raggruppare e ripristinare gli elementi di lavoro, i documenti e i modelli ripristinati di recente.
+description: Quando si visualizza un gruppo gestito nell'area Gruppi, è possibile visualizzare, filtrare, raggruppare e ripristinare gli elementi di lavoro, i documenti e i modelli ripristinati di recente.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8ec06363-080e-4f1d-8a50-fc14f06ad323
-source-git-commit: 96b9939131beebd9c1968cb5c287d75295c68c5b
+source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '333'
 ht-degree: 1%
 
 ---
@@ -79,19 +79,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Ogni scheda elenca gli elementi del tipo di oggetto corrispondente che appartengono al gruppo corrente o ai relativi sottogruppi e che sono stati ripristinati negli ultimi 30 giorni.
 
-1. Completa una delle azioni seguenti:
+1. (Facoltativo) Per esportare l&#39;intero elenco di oggetti nella scheda, fai clic sull&#39;icona **Esporta**. ![Icona Esporta](assets/export-icon.png).
+1. (Facoltativo) Modificare la visualizzazione delle informazioni nell&#39;elenco utilizzando un filtro, una visualizzazione o un raggruppamento.
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"> <p>Esporta l'intero elenco di oggetti nella scheda</p> </td> 
-      <td> <p>Fai clic su <strong>Esporta</strong>.</p> </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"> <p>Modificare la visualizzazione delle informazioni nell'elenco</p> </td> 
-      <td> <p>Nell'angolo superiore destro sopra l'elenco, utilizza <strong>Filtro</strong> per definire ciò che viene visualizzato in base ai criteri specificati. Utilizza <strong>Visualizza</strong> per definire quali campi vengono visualizzati come colonne. Usa <strong>Raggruppamento</strong> per raggruppare gli elementi in categorie.</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   Per ulteriori informazioni, vedere [Panoramica degli elementi di reporting](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
+
