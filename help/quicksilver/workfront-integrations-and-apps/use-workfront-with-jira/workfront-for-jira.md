@@ -2,20 +2,22 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: Adobe Workfront per Jira
+title: 'Adobe Workfront per Jira: indice degli articoli'
 description: Adobe Workfront Fusion offre un’integrazione con Jira. Questo articolo contiene collegamenti alle istruzioni per l’installazione e la configurazione di queste integrazioni, nonché su come utilizzarle nel lavoro quotidiano.
 author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 924f3c9b-394d-4637-b981-9062c1fdd5aa
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '64'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront per Jira
+# Adobe Workfront per Jira: indice degli articoli
+
+<!-- Audited: 5/2025 -->
 
 Questa sezione contiene i seguenti articoli:
 

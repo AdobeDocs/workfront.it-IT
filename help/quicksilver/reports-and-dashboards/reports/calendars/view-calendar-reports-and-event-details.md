@@ -6,9 +6,9 @@ description: Puoi visualizzare i rapporti del calendario e i dettagli dell’eve
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: 83b425998de978fef4998f407960a2489e1320b4
+source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -82,31 +82,26 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    * **[!UICONTROL Settimana]**: visualizza una settimana del calendario
    * **[!UICONTROL Gantt]**: visualizza una visualizzazione continua del calendario
 
-     Puoi visualizzare altri eventi in una visualizzazione [!UICONTROL Gantt] scorrendo verso il basso o lateralmente. Un simbolo di caricamento viene visualizzato quando i dati vengono compilati per la vista.
+     Puoi visualizzare altri eventi in una visualizzazione **Gantt** scorrendo verso il basso o lateralmente. Un simbolo di caricamento viene visualizzato quando i dati vengono compilati per la vista.
 
    >[!NOTE]
    >
-   >Nelle visualizzazioni [!UICONTROL Mese] e [!UICONTROL Settimana], gli eventi correnti o futuri (compresi gli eventi che si estendono su più giorni, purché contengano oggi o un giorno futuro) presentano uno sfondo che corrisponde al colore nel progetto o nel raggruppamento del calendario. Gli eventi passati presentano un&#39;ombreggiatura più chiara per indicare che non sono più correnti, ma è comunque possibile selezionarli e visualizzarli.
+   >Nelle visualizzazioni **Mese** e **Settimana**, gli eventi correnti o futuri (compresi gli eventi che si estendono su più giorni, purché contengano oggi o un giorno futuro) presentano uno sfondo che corrisponde al colore nel progetto o nel raggruppamento del calendario. Gli eventi passati presentano un&#39;ombreggiatura più chiara per indicare che non sono più correnti, ma è comunque possibile selezionarli e visualizzarli.
 
-1. (Facoltativo) Se visualizzi il calendario nelle visualizzazioni [!UICONTROL Mese] o [!UICONTROL Settimana], puoi modificare la visualizzazione del calendario con le seguenti opzioni:
+1. (Facoltativo) Se visualizzi il calendario nelle visualizzazioni **Mese** o **Settimana**, puoi modificare la visualizzazione del calendario con le seguenti opzioni:
 
-<!--   * To include or exclude weekends:
-
+   <!--   * To include or exclude weekends:
       1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.-->
 
-* Per modificare rapidamente le date visualizzate:
+   * Per modificare rapidamente le date visualizzate:
 
-   1. Sulla barra degli strumenti **[!UICONTROL Calendario]** fare clic sulla freccia sinistra dell&#39;indicatore di data per tornare al calendario o sulla freccia destra per spostarsi in avanti.
+      1. Sulla barra degli strumenti **[!UICONTROL Calendario]** fare clic sulla freccia sinistra dell&#39;indicatore di data per tornare al calendario o sulla freccia destra per spostarsi in avanti.
 
-      ![Fare clic sulla freccia per modificare la data](assets/click-arrows-to-change-dates-calendar-report.png)\
-      Le date visualizzate vengono regolate in base a un intervallo basato sulla visualizzazione del calendario corrente. Ad esempio, se visualizzi il calendario nella visualizzazione [!UICONTROL Settimana], il calendario visualizza una settimana avanti o una settimana indietro, a seconda della freccia selezionata.
+         ![Fare clic sulla freccia per modificare la data](assets/click-arrows-to-change-dates-calendar-report.png)
 
-   1. (Facoltativo) Per tornare al giorno corrente, fare clic su [!UICONTROL **Oggi**].
+         Le date visualizzate vengono regolate in base a un intervallo basato sulla visualizzazione del calendario corrente. Ad esempio, se visualizzi il calendario nella visualizzazione **Settimana**, il calendario visualizza una settimana avanti o una settimana indietro, a seconda della freccia selezionata.
 
-
-1. (Facoltativo) Per visualizzare un calendario a schermo intero, fare clic sulle frecce a schermo intero sul lato destro della barra degli strumenti **[!UICONTROL Calendario]**.
-   ![Fare clic sulla freccia per modificare la data](assets/click-arrows-to-change-dates-calendar-report.png)\
-   Premere ESC per tornare alla visualizzazione normale del calendario.
+      1. (Facoltativo) Per tornare al giorno corrente, fare clic su [!UICONTROL **Oggi**].
 
 1. (Facoltativo) Per nascondere gli eventi di un progetto o di un raggruppamento del calendario collegato al calendario, deselezionare il raggruppamento del progetto o del calendario nell&#39;elenco dei progetti.
    ![Nascondi eventi](assets/hide-events-for-project-or-cal-grouping.png)

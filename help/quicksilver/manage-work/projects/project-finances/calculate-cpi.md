@@ -7,14 +7,16 @@ description: L'indice di prestazioni dei costi (IPC) descrive la relazione a liv
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
 # Calcola indice prestazioni costi (IPC)
+
+<!-- Audited: 5/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
@@ -61,9 +63,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 +++
 
 ## Panoramica dell’indice di prestazione dei costi (IPC)
-
-* [Valore CPI](#the-cpi-value)
-* [Come viene calcolato CPI](#how-cpi-is-calculated)
 
 ### Valore dell’IPC {#the-cpi-value}
 
@@ -184,20 +183,18 @@ Il costo preventivato totale lavoro eseguito viene calcolato per i seguenti elem
 * **Per un progetto:**
 
   ```
-  Total Budgeted Cost Work Performed = SUM(Total Budgeted Cost Work Performed field for all top level tasks)
+  Total Budgeted Cost Work Performed = SUM(Total Budgeted Cost Work Performed field for all top-level tasks)
   ```
 
 
 
 ## Individuare l&#39;IPC in un progetto o in un task
 
-È possibile visualizzare l&#39;IPC di un progetto o di un task in un progetto o in un elenco o report di task. È inoltre possibile visualizzarlo a livello di progetto o di task.
+È possibile visualizzare l&#39;indice dei prezzi al consumo di un progetto o di un task in un progetto o in un elenco di task o in un report. È inoltre possibile visualizzarlo a livello di progetto o di task.
 
 1. Passare al progetto o al task in cui si desidera visualizzare l&#39;IPC.
 1. Espandi **Dettagli progetto** o **Dettagli attività** nel pannello a sinistra, a seconda che sia visualizzato l&#39;IPC per un progetto o un&#39;attività.
 
-1. Fare clic su **Finanza**.
-
-   Il CPI viene visualizzato nel campo **CPI/ SPI/ CSI**.
+1. Fare clic su **Finanza**. Il CPI viene visualizzato nel campo **CPI/ SPI/ CSI**.
 
    ![CPI sul progetto](assets/cpi-on-project-nwe.png)
