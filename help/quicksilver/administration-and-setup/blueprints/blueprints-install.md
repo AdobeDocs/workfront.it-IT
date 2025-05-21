@@ -9,14 +9,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '490'
 ht-degree: 1%
 
 ---
 
 # Installare una blueprint
+
+<!-- Audited: 5/2025 -->
 
 Puoi installare una blueprint nell’ambiente di produzione o in un ambiente Sandbox.
 
@@ -63,7 +65,7 @@ Puoi installare il pacchetto in uno dei seguenti ambienti:
     </tr>
     <tr>
         <td><strong>Anteprima sandbox</strong></td>
-        <td>L’anteprima sandbox è un ambiente di test che funge da replica dell’ambiente live e viene aggiornato ogni fine settimana da Workfront. Tutti i pacchetti di supporto hanno accesso all’anteprima Sandbox. Per ulteriori informazioni, vedere <a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">L'ambiente Sandbox di anteprima [!DNL Adobe Workfront]</a>.</td>
+        <td>L’anteprima sandbox è un ambiente di test che funge da replica dell’ambiente live e viene aggiornato ogni fine settimana da Adobe Workfront. Tutti i pacchetti di supporto hanno accesso all’anteprima Sandbox. Per ulteriori informazioni, vedere <a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">L'ambiente Sandbox di anteprima [!DNL Adobe Workfront]</a>.</td>
     </tr>
     <tr>
         <td><strong>Sandbox 1 e 2</strong></td>
@@ -73,7 +75,7 @@ Puoi installare il pacchetto in uno dei seguenti ambienti:
 
 >[!TIP]
 >
->È consigliabile innanzitutto installare la blueprint in un ambiente sandbox. In questo modo, puoi testare il contenuto del blueprint e assicurarti che sia adatto alla tua organizzazione senza apportare modifiche ai dati live.
+>È consigliabile innanzitutto installare il blueprint in un ambiente Sandbox. In questo modo, puoi testare il contenuto del blueprint e assicurarti che sia adatto alla tua organizzazione senza apportare modifiche ai dati live.
 
 >[!NOTE]
 >
@@ -84,17 +86,18 @@ Puoi installare il pacchetto in uno dei seguenti ambienti:
 
 {{step1-to-blueprints}}
 
-1. Trova il blueprint da installare. Puoi filtrare per caso d’uso, livello di maturità, stato di installazione e tipo sul lato destro.
+1. Trova il blueprint da installare. Puoi filtrare in base a caso d’uso, livello di maturità, stato di installazione e tipo sul lato destro della pagina.
 1. (Facoltativo) Fai clic su **[!UICONTROL Dettagli]** per scoprire come funziona la blueprint.
 1. Fare clic su **[!UICONTROL Installa]**.
 1. Scegli di eseguire l’installazione nell’ambiente di produzione o in un ambiente sandbox.\
    Per ulteriori informazioni, vedere [Dove installare una blueprint?](#where-should-i-install-a-blueprint) sezione in questo articolo.
-1. Nella pagina [!UICONTROL Configura] è possibile scegliere di eseguire una delle operazioni seguenti:
+1. Nella pagina **Configura** è possibile scegliere di eseguire una delle operazioni seguenti:
 
    * Installa la blueprint così come è. Per i tipi di blueprint che non richiedono alcuna configurazione, questa è l’unica opzione. Per i tipi di blueprint che richiedono la configurazione, puoi facoltativamente scegliere di installare la blueprint ora e configurarla in un secondo momento. Fare clic su **[!UICONTROL Installa come è]**.
-   * Configura il blueprint prima dell’installazione, per i blueprint che richiedono la configurazione. Effettuare le selezioni di configurazione e fare clic su **[!UICONTROL Installa blueprint]**.\
+   * Configura il blueprint prima dell’installazione, per i blueprint che richiedono la configurazione. Effettua le selezioni di configurazione, quindi fai clic su **[!UICONTROL Installa blueprint]**.
 
      Per ulteriori informazioni, vedere [Configurare una blueprint](../../administration-and-setup/blueprints/configure-template-package.md).
-Al termine dell’installazione, un messaggio visualizza un elenco degli oggetti specifici (ad esempio ruoli, team o gruppi) installati correttamente con la blueprint e degli oggetti che non sono stati installati.
+
+   L’installazione viene completata e viene visualizzato un elenco degli oggetti specifici (ad esempio ruoli, team o gruppi) installati correttamente con il blueprint e degli oggetti che non sono stati installati.
 
 Dopo aver installato la blueprint, potrebbero essere necessarie alcune azioni aggiuntive per distribuirla completamente. Per informazioni, vedere [Azioni da eseguire dopo l&#39;installazione di una blueprint](../../administration-and-setup/blueprints/best-next-actions-after-install.md).

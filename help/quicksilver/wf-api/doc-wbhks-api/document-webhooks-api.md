@@ -3,21 +3,23 @@ filename: document-webhooks-api
 content-type: api
 product-area: documents
 navigation-topic: workfront-api
-title: Panoramica API dei webhook dei documenti
+title: 'API Document Webhooks: indice dell’articolo'
 description: Documenta gli argomenti API dei webhook
 author: Becky
 feature: Workfront API
 role: Developer
 recommendations: noDisplay, noCatalog
 exl-id: e946c988-6a97-4ef1-a381-4b3bd10ced99
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
 
-# Panoramica API dei webhook dei documenti
+# API Document Webhooks: indice dell’articolo
+
+<!-- Audited: 5/2025 -->
 
 Questa sezione contiene i seguenti articoli:
 

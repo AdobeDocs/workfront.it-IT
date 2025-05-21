@@ -7,7 +7,7 @@ description: La pianificazione delle risorse di Adobe Workfront consente di comp
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
 source-wordcount: '2424'
 ht-degree: 2%
@@ -249,7 +249,6 @@ Nelle visualizzazioni Progetto e Ruolo, gli utenti possono essere elencati nei s
 
    * Se il ruolo secondario dispone di un numero valido per la percentuale di disponibilità FTE nel profilo utente.
    * Se l’utente è assegnato ad attività in tali ruoli.
-
 Per ulteriori informazioni sulla percentuale di disponibilità FTE per una mansione, vedere [Modificare il profilo di un utente](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Nessuna sezione Ruolo e Nessuna sezione Utente
