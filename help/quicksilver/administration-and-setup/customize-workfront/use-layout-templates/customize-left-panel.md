@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 7640016921e421d2aec0ab1aadc0edd304125feb
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <tbody> 
   <tr> 
    <td role="rowheader">piano Adobe Workfront</td> 
-   <td>Qualsiasi</td> 
+   <td><p>Qualsiasi</p>
+   <p>L’aggiunta di applicazioni personalizzate al menu principale è disponibile solo per le organizzazioni con licenza per Adobe App Builder.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
@@ -87,32 +88,32 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
     </thead> 
     <tbody> 
      <tr> 
-      <td>Progetto </td> 
+      <td>Progetto [!UICONTROL]</td> 
       <td>Nome di un progetto</td> 
-      <td>[!UICONTROL Tasks], [!UICONTROL Project Details], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issues], [!UICONTROL Risks], [!UICONTROL Approvals], [!UICONTROL Baselines], [!UICONTROL Billing Rates], [!UICONTROL Billing Records], [!UICONTROL Expenses], [!UICONTROL Hours], [!UICONTROL Bilanciatore Dei Carichi Di Lavoro], [!UICONTROL People], [!UICONTROL Utilization], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics], [!UICONTROL Planning]*</td> 
+      <td>[!UICONTROL Tasks], [!UICONTROL Project Details], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issues], [!UICONTROL Risks], [!UICONTROL Approvals], [!UICONTROL Baselines], [!UICONTROL Billing Rates], [!UICONTROL Billing Records], [!UICONTROL Expenses], [!UICONTROL Hours], [!UICONTROL Bilanciatore dei carichi di lavoro], [!UICONTROL People], [!UICONTROL Utilization], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics], [!UICONTROL Planning]*, [!UICONTROL Custom Application]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Attività]</td> 
       <td>Nome di un'attività</td> 
-      <td> [!UICONTROL Aggiornamenti], [!UICONTROL Documenti], [!UICONTROL Dettagli Attività], [!UICONTROL Sottoattività], [!UICONTROL Problemi], [!UICONTROL Ore], [!UICONTROL Approvazioni], [!UICONTROL Spese], [!UICONTROL Predecessori]</td> 
+      <td> [!UICONTROL Aggiornamenti], [!UICONTROL Documenti], [!UICONTROL Dettagli Attività], [!UICONTROL Sottoattività], [!UICONTROL Problemi], [!UICONTROL Ore], [!UICONTROL Approvazioni], [!UICONTROL Spese], [!UICONTROL Predecessori], [!UICONTROL Applicazione Personalizzata]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Issue]</td> 
       <td>Nome di un problema</td> 
-      <td> [!UICONTROL Aggiornamenti], [!UICONTROL Documenti], [!UICONTROL Dettagli Problema], [!UICONTROL Ore], [!UICONTROL Approvazioni]</td> 
+      <td> [!UICONTROL Aggiornamenti], [!UICONTROL Documenti], [!UICONTROL Dettagli problema], [!UICONTROL Ore], [!UICONTROL Approvazioni], [!UICONTROL Applicazione personalizzata]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Portfolio]</td> 
       <td>Nome di un portfolio</td> 
-      <td>[!UICONTROL Projects], [!UICONTROL Programs], [!UICONTROL Portfolio Details], [!UICONTROL Portfolio] [!UICONTROL Optimization], [!UICONTROL Documents], [!UICONTROL Updates], [!UICONTROL Planning]*</td> 
+      <td>[!UICONTROL Progetti], [!UICONTROL Programmi], [!UICONTROL Dettagli Portfolio], [!UICONTROL Portfolio] [!UICONTROL Ottimizzazione], [!UICONTROL Documenti], [!UICONTROL Aggiornamenti], [!UICONTROL Planning]*, [!UICONTROL Applicazione personalizzata]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Program]</td> 
       <td>Nome di un programma</td> 
-      <td>[!UICONTROL Projects], [!UICONTROL Program Details], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Planning]*</td> 
+      <td>[!UICONTROL Projects], [!UICONTROL Program Details], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Planning]*, [!UICONTROL Custom application]**</td> 
      </tr> 
      <tr> 
-      <td>Modello </td> 
+      <td>Modello [!UICONTROL]</td> 
       <td>Nome di un modello di progetto</td> 
       <td>[!UICONTROL Template Tasks], [!UICONTROL Template Details], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Risks], [!UICONTROL Expenses], [!UICONTROL People], [!UICONTROL Approvals], [!UICONTROL Billing Rates], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Gruppo]</td> 
      </tr> 
@@ -135,7 +136,7 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
      </tr> 
      <tr> 
       <td>[!UICONTROL Progetti]</td> 
-      <td>Progetta <img src="assets/projects-in-main-menu.png"> nel menu principale  <img src="assets/main-menu-icon.png"></td> 
+      <td>Progetta <img src="assets/projects-in-main-menu.png"> nel menu principale [!UICONTROL] <img src="assets/main-menu-icon.png"></td> 
       <td>[!UICONTROL Progetti]</td> 
      </tr> 
      <tr> 
@@ -200,6 +201,8 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
    </table>
 
    *La società deve acquistare una licenza aggiuntiva per Workfront Planning per poter aggiungere quest&#39;area al pannello sinistro di progetti, portfolio e programmi. Per ulteriori informazioni, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
+
+   **Le applicazioni personalizzate devono essere create separatamente prima di diventare disponibili come opzioni del menu principale. Per ulteriori informazioni, vedere [Creare un&#39;applicazione personalizzata per Workfront con Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
 
 1. Nell&#39;elenco **[!UICONTROL Pannello sinistro]**, eseguire una delle operazioni seguenti per determinare gli elementi visualizzati dagli utenti nel pannello sinistro per l&#39;area [!DNL Workfront] o il tipo di oggetto selezionato:

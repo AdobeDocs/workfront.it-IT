@@ -3,15 +3,13 @@ title: Creare applicazioni personalizzate per Workfront con Adobe App Builder
 description: Le estensioni dell’interfaccia utente di Workfront, basate su Adobe App Builder, consentono a clienti e partner di creare esperienze utente personalizzate.
 author: Courtney
 feature: Digital Content and Documents
-hide: true
-hidefromtoc: true
-source-git-commit: 7c82dc70c5fde69c905b74f28a0ff9add663dbd9
+exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
+source-git-commit: e27cf74c94167e918bb6426b99bf7e47139cbade
 workflow-type: tm+mt
 source-wordcount: '1705'
 ht-degree: 0%
 
 ---
-
 
 # Creare applicazioni personalizzate per Workfront con Adobe App Builder
 
@@ -155,13 +153,13 @@ Per consentire applicazioni personalizzate nel menu principale di Workfront:
 Nella funzione ExtensionRegistration dovrebbe essere visualizzato il seguente codice. Questo codice è stato creato automaticamente dal modello. Questo codice può essere aggiunto per creare altre voci di menu. Assicurati di sostituire ID e URL.
 
     &quot;
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -171,13 +169,13 @@ Nella funzione ExtensionRegistration dovrebbe essere visualizzato il seguente co
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-    &rbrace;
+    }
     &quot;
 
 1. Aggiungi il seguente frammento di codice:
