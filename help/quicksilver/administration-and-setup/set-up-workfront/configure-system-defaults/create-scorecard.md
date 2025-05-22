@@ -4,28 +4,39 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Creare una scorecard
 description: Una scorecard misura il grado di allineamento di un progetto ai criteri precedentemente stabiliti per un portfolio. Una scorecard spesso riflette la missione, i valori e gli obiettivi strategici di un'organizzazione.I responsabili di Portfolio solitamente definiscono le domande e le risposte della scorecard per garantire che siano significative e utili durante la definizione delle priorità e la selezione del progetto. Un amministratore  [!DNL Adobe Workfront]  crea le scorecard in base ai consigli dei gestori di portfolio.
-author: Lisa
+author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '781'
 ht-degree: 1%
 
 ---
 
 # Creare una scorecard
 
-<!--Audited: 01/2024-->
+<!--Audited: 05/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti dopo una settimana dalla versione di anteprima. </span>
+
+<span class="preview">Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+
 Una scorecard misura il grado di allineamento di un progetto ai criteri precedentemente stabiliti per un portfolio. Una scorecard spesso riflette la missione, i valori e gli obiettivi strategici di un’organizzazione.
 
-I manager Portfolio solitamente definiscono le domande e le risposte delle scorecard per garantire che siano significative e utili durante la definizione delle priorità e la selezione dei progetti. Un amministratore [!DNL Adobe Workfront] crea le scorecard in base ai consigli dei gestori di portfolio.
+In qualità di gestore di portfolio, puoi definire le domande e le risposte delle scorecard per garantirne il significato e il valore durante la definizione delle priorità e la selezione dei progetti.
+
+In qualità di amministratore [!DNL Adobe Workfront], puoi creare scorecard in base ai consigli dei gestori di portfolio.
 
 Le domande e le risposte scelte per una scorecard devono essere quantificabili in modo da fornire un valore di allineamento per confrontare progetti diversi.
+
+Puoi creare una scorecard nel modo seguente:
+
+* Da zero
+* Copiandone uno esistente
 
 ## Requisiti di accesso
 
@@ -56,17 +67,15 @@ Devi disporre dei seguenti diritti di accesso:
 
 +++
 
-## Creare una scorecard
-
-È possibile creare una scorecard da zero oppure copiarne una esistente.
-
-Per creare una scorecard da zero:
+## Creare una scorecard da zero
 
 {{step-1-to-setup}}
 
-1. Fai clic su **[!UICONTROL Scorecard]**, quindi su **[!UICONTROL Nuova scorecard]**. Verrà aperta la casella **Nuova scorecard**.
+1. Fai clic su **[!UICONTROL Scorecard]**, quindi su **[!UICONTROL Nuova scorecard]**.
 
-   <!--add screen shot at unshim-->
+   <span class="preview">Viene aperta la casella **Nuova scorecard**.</span>
+
+   <span class="preview">![Nuova casella scorecard](assets/new-scorecard-350x173.png)</span>
 
 1. Specifica un nome **[!UICONTROL scorecard]** e una **[!UICONTROL descrizione]**.
 
@@ -91,7 +100,7 @@ Per creare una scorecard da zero:
       <td>Selezionare questa opzione per indicare che [!DNL Workfront] deve sottrarre dal totale dei punti possibili. Non è possibile aggiungere punteggi negativi al numero massimo di punti possibile di una scorecard.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Tipo di visualizzazione </td> 
+      <td role="rowheader">Tipo di visualizzazione [!UICONTROL]</td> 
       <td>Selezionare <strong>[!UICONTROL Value(0-100)]</strong> per visualizzare un campo numerico nella scorecard in cui gli utenti possono specificare un valore compreso tra 0 e 100.<p>In alternativa, selezionare <strong>[!UICONTROL elenco a discesa]</strong> o <strong>[!UICONTROL pulsanti di scelta]</strong> per creare una risposta che gli utenti possono specificare utilizzando tale controllo. Fare clic su <strong>[!UICONTROL Add Answer]</strong>, quindi digitare il <strong>[!UICONTROL Value]</strong> in punti percentuali per questa risposta, nel caso che sia soddisfatta. Se si sceglie 100%, il numero di punti assegnati per questa domanda viene raggiunto completamente. Se si desidera indicare che la risposta contiene solo una parte del totale di punti assegnati a questa domanda, selezionare un valore percentuale inferiore. Ad esempio, se la domanda è valutata a 10 punti e si desidera che la risposta contenga 5 di tali punti, scegliere 50% per il valore.</p>
       <p>Selezionare <strong>[!UICONTROL Predefinito]</strong> se si desidera indicare che questa risposta è quella predefinita.</strong></p>
      </tr> 
@@ -104,9 +113,9 @@ Per creare una scorecard da zero:
    >
    >Puoi riordinare le domande nella scorecard trascinandole nell’ordine corretto.
 
-1. Fai clic su **[!UICONTROL Salva]** dopo aver immesso tutte le informazioni.
+1. Fai clic su **[!UICONTROL Salva]**.
 
-   In questo modo, la scorecard viene creata e i project manager possono collegarla al proprio caso aziendale di progetto.
+   In questo modo viene creata la scorecard e i project manager possono collegarla al proprio caso aziendale di progetto.
 
 ## Copiare una scorecard esistente
 
@@ -116,16 +125,20 @@ Puoi creare una scorecard copiandone e modificandone una esistente.
 
 1. Fai clic su **[!UICONTROL Scorecard]** nel pannello a sinistra.
 1. Seleziona una scorecard nell&#39;elenco, quindi fai clic sull&#39;icona **Copia** ![Copia scorecard](assets/copy-scorecard-icon.png) nella parte superiore dell&#39;elenco delle scorecard.
-Viene visualizzata la casella **Copia scorecard**.
 
-   <!--add screen shot at unshim-->
+   <span class="preview">Viene aperta la casella **Copia scorecard**.</span>
+
+   <span class="preview">![Copia casella scorecard](assets/copy-scorecard-box.png)</span>
+
 1. Specifica le seguenti informazioni:
 
-   * **Scorecard**: digitare il nome della scorecard.  Per impostazione predefinita, il nome viene aggiornato automaticamente in base al seguente formato:
+   * **Scorecard**: aggiorna il nome della scorecard.  Per impostazione predefinita, il nome viene aggiornato automaticamente in base al seguente formato:
 
      `Original scorecard name (Copy)`
    * **Descrizione**: digitare ulteriori informazioni sulla scorecard.
 1. Fai clic su **Salva**.
+
+   In questo modo viene creata una nuova scorecard con le stesse informazioni di quella originale. Ora i project manager possono allegarlo al proprio caso aziendale di progetto.
 
 ## Applicare una scorecard a un progetto
 

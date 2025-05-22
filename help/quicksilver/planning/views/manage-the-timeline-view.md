@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: d0ec729a510b78a7ce417356ac9250a485308f0b
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '3060'
+source-wordcount: '3152'
 ht-degree: 0%
 
 ---
@@ -139,13 +139,8 @@ Per gestire una vista timeline:
       * Anno
       * Trimestre
       * Mese
-1. Fai clic su **Passa alla visualizzazione Standard** per visualizzare i record in righe separate <!--check to see if they updated the name of the setting here-->
-
-   Oppure
-
-   Fare clic su **Passa alla visualizzazione compatta** per visualizzare i record le cui date non si intersecano sulla stessa riga. <!--check to see if they updated the name of the setting here-->
-
-   I record vengono visualizzati nella visualizzazione Compatta per impostazione predefinita.
+1. (Facoltativo) Fare clic su **Passa alla visualizzazione compatta** per visualizzare i record le cui date non si intersecano sulla stessa riga. <!--check to see if they updated the name of the setting here-->
+1. (Condizionale) Se hai cambiato la modalità in **Compatta**, fai clic su **Passa alla visualizzazione Standard** per visualizzare i record in righe separate. <span class="preview">L&#39;opzione **Standard** è l&#39;impostazione predefinita.</span>  <!--check to see if they updated the name of the setting here-->
 
 1. Per trovare rapidamente i record che corrispondono a una parola chiave, eseguire le operazioni seguenti:
 
@@ -353,7 +348,7 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
 
    Se non si dispone di un campo con opzioni codificate a colori per il tipo di record selezionato, questa opzione viene disattivata.
 
-   1. <span class="preview">(Facoltativo) Se si utilizza l&#39;opzione Raggruppamento, ripetere i passaggi a partire dal passaggio 4 per ogni record connesso visualizzato nella sequenza temporale. </span>
+1. <span class="preview">(Facoltativo) Se si utilizza l&#39;opzione Raggruppamento, ripetere i passaggi a partire dal passaggio 4 per ogni record connesso visualizzato nella sequenza temporale. </span>
 
 1. Fai clic su **Salva**.
 
@@ -389,7 +384,7 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
 #### Suddividere i record connessi
 
 1. Creare una visualizzazione timeline per un tipo di record, come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
-1. (Condizionale) Se visualizzi la visualizzazione della sequenza temporale in modalità Standard, fai clic su **Raggruppamento**.
+1. Dalle modalità **Standard** o <span class="preview">**Compatta**, fai clic su **Suddivisione**</span> nell&#39;angolo superiore destro della visualizzazione della sequenza temporale.
 1. Espandere la casella **Selezionare un tipo di record collegato** e selezionare un tipo di record connesso. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Selettore e pulsante di suddivisione nella visualizzazione della sequenza temporale](assets/breakdown-picker-and-button-on-timeline.png)
@@ -417,7 +412,15 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
    >
    >Sia Prodotti che Programmi devono essere connessi alle campagne per essere visualizzati come opzioni di suddivisione e puoi aggiungerli al raggruppamento in qualsiasi ordine.
 
+1. <span class="preview">(Condizionale) Se si visualizza la sequenza temporale in modalità Compatta, fare clic su **Cambia visualizzazione**. Il raggruppamento non è visibile in modalità **Compatta**.</span>
 
+   >[!TIP]
+   >
+   ><span class="preview">Selezionare **Non mostrare più** in **Passare alla visualizzazione Standard?Casella**, prima di cambiare visualizzazione. </span>
+   >
+   ><span class="preview">Questa preferenza viene memorizzata solo per il browser corrente. Se si modificano browser o computer, sarà necessario selezionare nuovamente questa preferenza.</span>
+   >
+   >Non è possibile tornare alla modalità Compatta dopo aver impostato la visualizzazione su Standard e aver visualizzato i record collegati nella visualizzazione.
 1. (Facoltativo) Ripeti i passaggi precedenti per aggiungere altri record connessi.
 
 

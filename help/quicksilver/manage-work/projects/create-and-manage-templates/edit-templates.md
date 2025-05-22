@@ -6,9 +6,9 @@ description: È possibile modificare i modelli di progetto per riflettere le mod
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '4881'
+source-wordcount: '4870'
 ht-degree: 2%
 
 ---
@@ -1092,7 +1092,7 @@ L’aggiunta dei seguenti elementi a un modello è identica all’aggiunta a un 
 * Documenti
 * Rischi
 
-  Per ulteriori informazioni sulla creazione di rischi, vedere la sezione [Creare e modificare rischi nei progetti](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create) nell&#39;articolo [Creare e modificare rischi nei progetti](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+  Per ulteriori informazioni sulla creazione di rischi, vedere [Creare e modificare i rischi nei progetti](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 
 * Processi di approvazione
 

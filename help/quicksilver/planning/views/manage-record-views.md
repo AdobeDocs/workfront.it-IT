@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1181'
 ht-degree: 1%
 
 ---
@@ -221,9 +221,13 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
 
 1. (Condizionale) Seleziona **Inizio** e **Fine** per i record che verranno visualizzati nella visualizzazione Timeline o Calendario.
 
-   >[!TIP]
+   >[!NOTE]
    >
-   >    È possibile selezionare i campi della data di record o i campi della data di ricerca dai tipi di oggetto o record collegati. È necessario utilizzare gli aggregatori per i campi data (MAX o MIN) quando si selezionano i campi di ricerca come date di inizio e di fine per le visualizzazioni Timeline e Calendario. Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >    È possibile selezionare i campi della data di record o i campi della data di ricerca dai tipi di oggetto o record collegati.
+   >
+   >È necessario utilizzare gli aggregatori per i campi data (MAX o MIN) quando si selezionano i campi di ricerca durante la connessione dei tipi di record. Solo l&#39;aggiunta degli aggregatori consente di utilizzare le date delle connessioni come date di inizio e di fine per le visualizzazioni Timeline e Calendario.
+   >
+   >Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 1. Fai clic su **Crea**.
 

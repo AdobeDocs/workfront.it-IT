@@ -6,9 +6,9 @@ description: È possibile aggiungere programmi esistenti a un portfolio. Poiché
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 # Aggiungere un programma esistente a un portfolio
 
 <!--Audited: 5/2025-->
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti dopo una settimana dalla versione di anteprima. </span>
+
+<span class="preview">Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
 
 È possibile aggiungere programmi esistenti a un portfolio. Poiché i programmi non possono esistere in due portafogli diversi, l&#39;aggiunta di un programma esistente comporta lo spostamento permanente da un portfolio all&#39;altro.
 
@@ -55,23 +59,23 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 ## Aggiungere un programma esistente a un portfolio
 
 1. Vai a un portfolio, quindi fai clic su **[!UICONTROL Programmi]** nel pannello a sinistra.
-1. Fai clic su **[!UICONTROL Aggiungi programma]**.
+1. Fai clic su **[!UICONTROL Nuovo programma]**.
 1. Fare clic su **[!UICONTROL Programma esistente]**.
 
-   Viene visualizzata la casella **Aggiungi programmi**.
+   <span class="preview">Viene visualizzata la casella **Aggiungi programmi**.</span> <!--check screen shot - I logged changes for this casing-->
+
+   <span class="preview">![Aggiungi programma](assets/add-programs-box.png)</span>
 
    >[!IMPORTANT]
    >
    >L&#39;aggiunta di un programma esistente porta tutti i progetti associati a quel programma nel portfolio. Fai attenzione a non spostare involontariamente i progetti in questo modo.
 
-1. Nella finestra di dialogo **[!UICONTROL Aggiungi programmi]** digitare il nome di un programma, quindi selezionarlo quando viene visualizzato nell&#39;elenco.
+1. Nel campo **[!UICONTROL Aggiungi programmi a questo Portfolio]** digitare il nome di un programma, quindi selezionarlo quando viene visualizzato nell&#39;elenco. <!--see the name of this field, I suggested changes here-->
 
    È possibile aggiungere più programmi.
 
-1. (Facoltativo) Se non si desidera aggiungerla, fare clic sull&#39;icona **X** a destra del nome del programma per rimuoverla dall&#39;elenco.
+1. (Facoltativo) Se decidi di non aggiungerlo al portfolio, fai clic sull&#39;icona <span class="preview">**Elimina** ![Elimina](assets/delete-icon.png)</span> accanto al nome di un programma.
 
-   <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a program if you decide not to add it to the portfolio.-->
-
-1. Fare clic su **[!UICONTROL Aggiungi programmi]**.
+1. Fare clic su **[!UICONTROL Aggiungi programmi]**. <!--check this button in the UI after they implemented the changes??-->
 
    Il programma viene visualizzato nella scheda **[!UICONTROL Programmi]** del portfolio selezionato.

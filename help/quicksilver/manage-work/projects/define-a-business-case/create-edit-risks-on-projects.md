@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: business-case-and-scorecards
 title: Creare e modificare i rischi nei progetti
-description: I rischi sono eventi o fattori possibili che impediscono a un progetto di terminare in tempo o nel rispetto del budget. I rischi possono essere registrati durante la creazione del Business Case di un progetto o utilizzando la scheda Rischi. I rischi vengono creati solo su un progetto. Non è possibile associare rischi ad attività o problemi.
+description: I rischi sono eventi o fattori possibili che impediscono a un progetto di terminare in tempo o nel rispetto del budget. È possibile registrare i rischi del progetto durante la creazione del Business Case di un progetto o utilizzando la scheda Rischi. Puoi aggiungere rischi ai progetti e ai modelli. Non è possibile associare rischi ad attività o problemi.
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,21 @@ ht-degree: 0%
 
 <!--Audited: 01/2025-->
 
-I rischi sono eventi o fattori possibili che impediscono a un progetto di terminare in tempo o nel rispetto del budget. I rischi possono essere registrati durante la creazione del Business Case di un progetto o utilizzando la scheda Rischi. I rischi vengono creati solo su un progetto. Non è possibile associare rischi ad attività o problemi.
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti dopo una settimana dalla versione di anteprima. </span>
+
+<span class="preview">Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+
+I rischi sono eventi o fattori possibili che impediscono a un progetto di terminare in tempo o nel rispetto del budget. È possibile registrare i rischi durante la creazione del Business Case di un progetto o utilizzando la scheda Rischi.
+
+Puoi creare rischi solo su progetti o modelli. Non è possibile associare rischi ad attività o problemi.
 
 I rischi possono essere associati ai costi, ma il costo rischio effettivo non influisce sul costo effettivo del progetto.
 
 >[!NOTE]
 >
->Questo articolo definisce i rischi associati al progetto nel modo in cui vengono definiti nel Business Case del progetto o aggiunti nella scheda Rischi del progetto. Per informazioni sul campo Rischio disponibile quando si modifica un progetto, vedere [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
+>Questo articolo definisce i rischi associati al progetto nel modo in cui vengono definiti nel Business Case del progetto o aggiunti nella scheda Rischi del progetto.
+>
+>Per informazioni sul campo Rischio disponibile quando si modifica un progetto, vedere [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 ## Requisiti di accesso
 
@@ -94,8 +102,7 @@ Per creare o modificare un rischio nel Business Case:
 
 Oltre a creare e modificare i rischi nel caso di business, puoi farlo utilizzando la sezione **Rischi** di un progetto.
 
-* [Crea rischi nell&#39;area Rischi](#create-risks-in-the-risks-area)
-* [Modifica rischi nell&#39;area Rischi](#edit-risks-in-the-risks-area)
+È possibile creare e modificare i rischi nella sezione Rischi di un progetto o di un modello. Creare rischi per i modelli è identico a creare rischi per i progetti.
 
 ### Creare rischi nell&#39;area Rischi {#create-risks-in-the-risks-area}
 
@@ -104,15 +111,19 @@ Oltre a creare e modificare i rischi nel caso di business, puoi farlo utilizzand
 
    ![Sezione Rischi dell&#39;attività](assets/risks-section-on-project-2022.png)
 
-1. Fai clic su **Inizia ad aggiungere rischi** e crea rischi modificando le informazioni in linea.
+1. Fai clic su **Inizia ad aggiungere rischi** e crea rischi modificando le informazioni in linea. **Descrizione** è un campo obbligatorio
 
    Oppure
 
-   Fai clic su **Nuovo rischio**. Viene visualizzata la finestra di dialogo **Nuovo rischio**.
+   Fai clic su **Nuovo rischio**.
 
-1. Immettere le seguenti informazioni:
+   <span class="preview">Viene aperta la casella **Nuovo rischio**.</span>
 
-   * **Descrizione**: descrivere il rischio.
+   <span class="preview">![Nuova casella rischi](assets/new-risk-box.png)</span>
+
+1. (Condizionale) Se si aggiunge un rischio nella casella **Nuovo rischio**, immettere le informazioni seguenti:
+
+   * **Descrizione**: descrivere il rischio. Questo è un campo obbligatorio.
    * **Tipo di rischio**: indicare la categoria di appartenenza del rischio.\
      L’amministratore di Workfront definisce i tipi di rischio disponibili nel tuo ambiente. Per informazioni sulla definizione dei tipi di rischio, vedere l&#39;articolo [Modifica e crea tipi di rischio](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
 
@@ -126,11 +137,11 @@ Oltre a creare e modificare i rischi nel caso di business, puoi farlo utilizzand
 
    Oppure
 
-   Fai clic su **Salva** se stai modificando le informazioni nella finestra di dialogo **Nuovo rischio**.
+   Fai clic su **Salva** se stai modificando le informazioni nella casella **Nuovo rischio**.
 
 1. (Facoltativo) Selezionare un altro **Stato** per il rischio, nel menu a discesa **Stato**, quando si applica la visualizzazione **Standard** per l&#39;elenco dei rischi.
 
-   Per impostazione predefinita, lo stato di un rischio è **Identificato**.
+   Per impostazione predefinita, lo **Stato** di un rischio è **Identificato**.
 
 ### Modifica rischi nell&#39;area Rischi {#edit-risks-in-the-risks-area}
 
@@ -152,7 +163,7 @@ Per modificare i rischi:
    >
    >Quando si modificano più rischi contemporaneamente, si applicano le stesse informazioni a tutti i rischi selezionati. Le informazioni associate a ciascun rischio prima delle modifiche vengono sovrascritte in una modifica collettiva.
 
-1. Se hai fatto clic su **Modifica**, viene visualizzata la finestra di dialogo **Modifica rischio**.
+1. Se hai fatto clic su **Modifica**, verrà visualizzata la casella **Modifica rischio** o **Modifica rischi**.
 
    Prendi in considerazione la modifica dei seguenti campi:
 
@@ -164,7 +175,7 @@ Per modificare i rischi:
    * **Costo effettivo**: indicare il costo effettivo del rischio se si è verificato il rischio.
    * **Piano di mitigazione**: aggiornare la descrizione del piano per mitigare il rischio.
 
-1. Fai clic su **Salva modifiche**.
+1. <span class="preview">Fai clic su **Salva**.</span>
 1. (Facoltativo) Modifica lo **Stato** per un rischio, nel menu a discesa **Stato**, quando applichi la visualizzazione **Standard** per l&#39;elenco dei rischi.
 
    >[!NOTE]
