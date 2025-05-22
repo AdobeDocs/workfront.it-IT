@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: a39ba047fc4c1e422f3bea8bd9266b9197219900
+source-git-commit: 870e4130daf9924bf85b59eb09f7d548b8152096
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,23 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 <!--keep the sentence below for all future quarterly release pages-->
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Nuova esperienza nella suddivisione dei record in modalità Compatta nella visualizzazione timeline
+
+>[!NOTE]
+>
+>* Anteprima: 22 maggio 2025
+>* Versione rapida di produzione: 12 giugno 2025
+>* Produzione per tutti i clienti: 17 luglio 2025
+
+È stata modificata l’esperienza di suddivisione dei record nella visualizzazione timeline ed è stata applicata la visualizzazione Compatta.
+Con il nuovo aggiornamento, quando si definiscono gli oggetti di suddivisione durante la visualizzazione della timeline in modalità Compatta, viene richiesto di passare alla visualizzazione Standard al termine della configurazione delle condizioni di suddivisione.
+
+Prima di questo miglioramento, non era possibile definire le condizioni di raggruppamento durante la visualizzazione della timeline in modalità Compatta.
+
+Con questo aggiornamento, l’opzione Standard è la scelta predefinita. In precedenza, la modalità Compatta era quella predefinita.
+
+Per informazioni, vedere [Gestire la visualizzazione della sequenza temporale](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Aggiornare le impostazioni della vista timeline per definire l&#39;aspetto delle barre dei record collegati quando si utilizza l&#39;opzione Raggruppamento
 
