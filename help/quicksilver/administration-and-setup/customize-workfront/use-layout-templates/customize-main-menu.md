@@ -122,7 +122,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      >[!NOTE]
      >
      >Planning richiede una licenza aggiuntiva. Per informazioni su Workfront Planning, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
-      * Applicazione personalizzata
+     > * Applicazione personalizzata
 
      >[!NOTE]
      >
