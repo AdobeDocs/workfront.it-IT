@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: fe2e7c5ad5d2d2f32d66f5dfd3e1fd69eca8ca92
+source-git-commit: f9b0f6b246a723ce407de05c4ae4d5dec0c06fe2
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '992'
 ht-degree: 3%
 
 ---
@@ -116,6 +116,31 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 -->
 
+### Miglioramenti al progetto
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>Funzionalità</strong>
+        </td>
+        <td><strong>Anteprima</strong></td>
+        <td><strong>Rilascio rapido</strong></td>
+        <td><strong>Ogni trimestre</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Maggiore trasparenza quando si utilizza l'Assistente IA per progetti, attività e problemi</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>Per chiarire in che modo l’Assistente per l’intelligenza artificiale individua le risposte a domande su progetti, attività e problemi di Workfront, abbiamo aggiunto queste informazioni alla risposta alla domanda. Ora, l’Assistente AI include le informazioni di ricerca nell’output. Puoi utilizzare queste informazioni per verificare che l’Assistente AI abbia identificato correttamente la domanda che ti stai ponendo e per comprendere il contesto della risposta.</p>
+        </td>
+        <td>martedì 19 maggio 2025</td>
+        <td>martedì 19 maggio 2025</td>
+        <td>martedì 19 maggio 2025</td>
+    </tr>     
+  </tbody>
+</table>
+
+
+
 ### Miglioramenti al reporting
 
 <table style="table-layout:auto">
@@ -180,6 +205,32 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Maggiore trasparenza durante l'utilizzo dell'Assistente IA</a></p>
+                        <p>Per chiarire in che modo l’Assistente per l’intelligenza artificiale individua le risposte a domande su progetti, attività e problemi di Workfront, abbiamo aggiunto queste informazioni alla risposta alla domanda. Ora, l’Assistente AI include le informazioni di ricerca nell’output. Puoi utilizzare queste informazioni per verificare che l’Assistente AI abbia identificato correttamente la domanda che ti stai ponendo e per comprendere il contesto della risposta. </p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: nell’arco temporale di rilascio del terzo trimestre 2025<br /></p>
+                            </li>
+                            <li>
+                                <p>Versione di produzione: almeno 2 settimane dopo il rilascio in anteprima (se non diversamente specificato)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funzionalità</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Date di rilascio</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti look-and-feel durante l’intervallo di tempo di rilascio del terzo trimestre 2025</a></p>
                         <p>Aggiornamenti minori al look and feel di varie aree dell’applicazione Adobe Workfront vengono effettuati entro l’arco temporale di rilascio del terzo trimestre 2025. </p>
                     </td>
@@ -211,7 +262,7 @@ Stiamo aggiornando l’interfaccia in Adobe Workfront per migliorare l’esperie
 
 ### Miglioramenti apportati a Workfront Fusion
 
-Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione di rilascio standard. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione di rilascio standard. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Miglioramenti di Workfront Planning
 
@@ -233,7 +284,7 @@ Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianific
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Aggiornamenti dei corsi di formazione
 
