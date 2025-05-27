@@ -7,9 +7,9 @@ description: Le ore di accesso agli elementi di lavoro in Adobe Workfront sono c
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '803'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza Adobe Workfront*</td> 
    <td> 
    <p>Nuovo: Standard<p>
    <p>Oppure</p>
@@ -49,7 +49,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso di visualizzazione o accesso successivo ad attività, progetti o problemi</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Accesso di visualizzazione o accesso successivo ad attività, progetti o problemi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
@@ -58,7 +58,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -83,13 +83,6 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 ## Trova ore effettive
 
 Il valore di Ore effettive per un elemento è identico per attività, progetti e problemi.
-
-È possibile trovare le informazioni sulle ore effettive relative alle attività nelle posizioni seguenti:
-
-* [Ore effettive nella sezione Dettagli](#actual-hours-in-the-details-section)
-* [Ore effettive nella sezione Ore](#actual-hours-in-the-hours-section)
-* [Ore effettive nei report](#actual-hours-in-reports)
-* [Ore effettive negli strumenti di gestione delle risorse](#actual-hours-in-resource-management-tools)
 
 ### Ore effettive nella sezione Dettagli {#actual-hours-in-the-details-section}
 
@@ -139,6 +132,21 @@ Se si desidera visualizzare l&#39;avanzamento del lavoro svolto dagli utenti sul
 * La Programmazione delle risorse.
 
   Per informazioni, vedere [Visualizza ore disponibili, pianificate ed effettive o FTE nella pianificazione risorse quando si utilizza la visualizzazione utente](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md).
+
+
+### Ore effettive nel database di Workfront, nell’API e nei dati personalizzati
+
+<!--this section was added as a result to this issue: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/6810910e0001b932e0948336208e76f2/overview-->
+
+La maggior parte dei campi di Workfront in cui sono memorizzate le ore viene salvata nel database di Workfront in pochi minuti. Il nome del campo Ore pianificate di un&#39;attività, ad esempio, è `workRequired` nel database di Workfront ed è memorizzato in minuti.
+
+Devi tenere conto della conversione da minuti a ore quando accedi a questi campi nelle chiamate API o nei campi o nelle colonne personalizzati calcolati.
+
+Tuttavia, le ore effettive vengono memorizzate nel database di Workfront in Ore.
+
+Per le ore effettive nelle chiamate API o nei campi o colonne personalizzati calcolati in Workfront è necessario utilizzare il seguente nome di campo valore: `actualWorkRequiredDouble`.
+
+Per informazioni sull&#39;utilizzo delle ore effettive nelle colonne o nei campi calcolati, vedere [Domande frequenti sui report](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
 ## Registra ore
 

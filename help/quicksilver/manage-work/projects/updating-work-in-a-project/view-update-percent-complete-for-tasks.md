@@ -2,26 +2,28 @@
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: Visualizza e aggiorna percentuale di completamento per le attività
-description: È possibile aggiornare la percentuale di completamento di un'attività per indicare lo stato di avanzamento dell'attività verso il completamento.
+description: È possibile aggiornare la percentuale di completamento di un'attività per indicare lo stato di avanzamento dell'attività verso il completamento. Aggiornare la percentuale di completamento per i problemi è simile ad aggiornarla per un'attività. In questo articolo viene descritto come aggiornare la percentuale di completamento di un'attività.
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
 
 # Visualizza e aggiorna la percentuale di completamento per le attività
 
-<!--Audited:01/2024-->
+<!--Audited: 05/2025-->
 
 È possibile aggiornare la percentuale di completamento di un&#39;attività per indicare lo stato di avanzamento dell&#39;attività verso il completamento.
 
+Aggiornare la percentuale di completamento per i problemi è simile ad aggiornarla per un&#39;attività. In questo articolo viene descritto come aggiornare la percentuale di completamento di un&#39;attività.
+
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandere per visualizzare i requisiti di accesso.
 
 Per aggiornare manualmente le attività, è necessario disporre dei seguenti diritti di accesso:
 
@@ -59,23 +61,20 @@ Per aggiornare manualmente le attività, è necessario disporre dei seguenti dir
 
 È possibile aggiornare la percentuale di completamento di un&#39;attività in una delle seguenti aree:
 
-* **In un elenco di attività**: è possibile aggiornare la percentuale di completamento di un&#39;attività quando viene visualizzata la colonna Percentuale di completamento.\
+* **In un elenco attività**: è possibile aggiornare la percentuale di completamento di un&#39;attività quando viene visualizzata la colonna Percentuale di completamento.
+
   Per ulteriori informazioni sulla modifica in linea, vedere [Elementi di modifica in linea in un elenco in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
-* **Nella vista Milestone**: è possibile aggiornare la percentuale di completamento di un&#39;attività quando si utilizza la vista Milestone in un elenco di progetti o in un report di progetti. Per ulteriori informazioni, vedere [Utilizzare la vista Milestone](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+* **Nella vista Milestone**: è possibile aggiornare la percentuale di completamento di un&#39;attività quando si utilizza la vista Milestone in un elenco di progetti o in un report di progetti.
 
-<!--only in legacy commenting: 
-* **As you update the task**:  You can update the percent complete option of a task when adding an update to the task.
-
-  >[!IMPORTANT]
+  >[!TIP]
   >
-  >This option displays only after you enable the Show Percent Complete option.  
-  >To enable the percent complete update bar for tasks, do the following:   
-  >
-  >1. Go to the **Main** menu>your name>**More** icon next to your name >**Edit** > select **Show percent complete on update status**.   
-  >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >-->
+  >  Non è possibile aggiornare la percentuale di completamento dei problemi nella vista Milestone (Attività cardine).
 
-* **Nell&#39;intestazione attività**: è possibile aggiornare la percentuale di completamento di un&#39;attività nell&#39;intestazione attività. Per informazioni, vedere [Modifica attività](../../tasks/manage-tasks/edit-tasks.md).
+
+  Per ulteriori informazioni, vedere [Utilizzare la vista Milestone](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+
+* **Nell&#39;intestazione attività**: è possibile aggiornare la percentuale di completamento di un&#39;attività nell&#39;intestazione attività.
 
   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
 
@@ -95,39 +94,42 @@ Per aggiornare manualmente le attività, è necessario disporre dei seguenti dir
 
 ## Considerazioni sull&#39;aggiornamento della percentuale di completamento di un&#39;attività
 
-* Quando si contrassegna un&#39;attività come completata al 100%, lo Stato dell&#39;attività viene aggiornato a Completo.
-* Esistono i seguenti scenari per le attività padre:
+* Quando si contrassegna un&#39;attività come completata al 100%, lo Stato dell&#39;attività viene aggiornato a Completo. Lo stato di un problema viene aggiornato a Chiuso.
+* Il completamento di un’attività aggiorna anche la percentuale di completamento dell’attività padre e del progetto.
+* Esistono i seguenti scenari per le attività e i progetti padre:
    * Non è possibile aggiornare al 100% la percentuale di completamento di un&#39;attività padre quando la modalità di completamento riepilogo del progetto è impostata su Automatico e le sottoattività non sono completate.
-   * È possibile aggiornare al 100% la percentuale di completamento di un&#39;attività padre quando la modalità di completamento riepilogo del progetto è impostata su Manuale e le sottoattività sono completate o incomplete.
+   * È possibile aggiornare al 100% la percentuale di completamento di un&#39;attività padre o di un progetto quando la Modalità di completamento riepilogo del progetto è impostata su Manuale e le sottoattività sono completate o incomplete.
 
   Per ulteriori informazioni, vedere [Modifica progetti](../manage-projects/edit-projects.md).
 
 ## Aggiornare la percentuale di completamento di un&#39;attività
 
-1. Vai a una delle seguenti aree in Workfront:
+1. Passare a una delle aree in cui si desidera aggiornare la percentuale di completamento di un&#39;attività.
 
-   * Un elenco di attività
-   * Un elenco di progetti e applica la vista Milestone
-   * Un’attività, accedendo alla pagina dell’attività
+   Per informazioni, vedere la sezione [Aree in cui è possibile aggiornare la percentuale di completamento di un&#39;attività](#areas-where-you-can-update-the-percent-complete-of-a-task) in questo articolo.
+
 1. Individua il campo **Percentuale completata** per l&#39;attività di cui desideri aggiornare la percentuale di completamento.
 
    >[!TIP]
    >
-   >  Il campo Percentuale di completamento viene sempre visualizzato nella parte superiore del pannello Riepilogo.
-
+   >Il campo Percentuale di completamento viene sempre visualizzato nella parte superiore del pannello Riepilogo.
 
 1. Fai clic nel campo **Percentuale completata** e digita un numero compreso tra 0 e 100
 
    Oppure
 
-   Fai clic e trascina la barra **Percent Complete** (Percentuale di completamento) sul numero necessario per indicare la quantità di attività completata, se disponibile.
+   Fai clic e trascina la bolla blu **Percentuale completata** sul numero necessario per indicare quanta attività hai completato, quando disponibile.
 
    >[!NOTE]
    >
-   >Quando si indica che il 100% dell&#39;attività è completato, lo stato dell&#39;attività viene aggiornato anche a Completato.
+   >    * Non è possibile immettere un numero decimale quando si fa clic all&#39;interno della bolla Percentuale di completamento.
+   >    * Quando trascinate la bolla blu nel pannello Riepilogo, la percentuale di completamento viene aggiornata con incrementi di un punto.
+   >
+   >    * Quando si trascina e si rilascia la bolla blu nell’intestazione dell’attività, la percentuale di completamento viene aggiornata con incrementi di 5 punti.
 
+1. Premi Invio sulla tastiera per salvare la percentuale di completamento.
 
-1. Premi Invio nella tastiera per salvare la percentuale di completamento.
+   Anche la percentuale di completamento del progetto o di qualsiasi attività padre può essere aggiornata automaticamente.
 
-Anche la percentuale di completamento del progetto viene aggiornata automaticamente.
+   Anche lo stato dell’attività o del problema viene aggiornato.
 

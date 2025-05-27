@@ -7,14 +7,16 @@ description: Domande frequenti sui rapporti
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1494'
 ht-degree: 0%
 
 ---
 
 # Domande frequenti sui rapporti
+
+<!--Audited: 05/2025-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***This is the ONE anchor article for all FAQs about Reporting. Add a new FAQ in the TOC at the top first, then add the answer as a section at the bottom.)</p>
@@ -23,6 +25,8 @@ ht-degree: 0%
 Di seguito sono riportate le domande frequenti sui rapporti.
 
 ## Requisiti di accesso
+
++++ Espandere per visualizzare i requisiti di accesso.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -33,39 +37,51 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano, Lavoro</p> </td> 
+   <td><p>Nuovo: Standard</p> 
+   <p>Corrente: Lavoro o versione successiva</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Perché il calcolo personalizzato per la differenza di un’ora non mostra il risultato corretto in una colonna?
 
-In un report di progetti ho un calcolo che sottrae le ore effettive (2) dalle ore pianificate (4). Il risultato che ottengo è 120 quando dovrebbe essere 2.\
+<!--this section is linked from the Actual Hours article for Tasks in the Task Information folder; edit the links or do not delete or change this section-->
+
+In un report di progetti ho un calcolo che sottrae le ore effettive dalle ore pianificate Il risultato che ottengo non è corretto.
+
+<!--this changed with this issue in May 2025; Actual Hours changed from actualWorkRequired to actualWorkRequiredDouble: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/68108e860000120e90a79cb82e5811c2/updates : On a project report I have a calculation that subtracts Actual Hours (2) from Planned Hours (4). The result I am getting is 120 when it should be 2.  -->
+
+
 Il mio calcolo è:
-<pre>valueexpression=SUB(workRequired,actualWorkRequired)</pre>
+
+`valueexpression=SUB(workRequired,actualWorkRequiredDouble)`
 
 ### Risposta
 
-I campi che utilizzano le ore in Workfront vengono memorizzati in minuti. Quando si utilizza il campo in un calcolo, il risultato sarà in minuti. Per ottenere il risultato in ore, è necessario dividere il risultato del calcolo per 60.
+La maggior parte dei campi che utilizzano le ore in Workfront vengono memorizzati in minuti. Quando si utilizzano questi campi in un calcolo, il risultato sarà spesso in minuti. Per ottenere il risultato in ore, è necessario dividere per 60 il risultato del calcolo o il campo a cui si fa riferimento.
+
+Ad esempio, le ore pianificate vengono memorizzate in minuti, mentre le ore effettive in ore. Di conseguenza, devi convertire le ore pianificate da minuti ad ore.
 
 Il calcolo corretto è:
 
-<pre>valueexpression=SUB(workRequired,actualWorkRequired)/60</pre>
+`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
 ## Perché il valore di ogni elemento del grafico in un report non viene visualizzato nel grafico?
 
@@ -175,7 +191,7 @@ Se disponi delle autorizzazioni necessarie per visualizzare o gestire un rapport
 
 ### Risposta
 
-A volte, il proprietario del report è anche l&#39;utente specificato nel campo **Esegui report con i diritti di accesso di:** nel report. Se **Esegui il report con i diritti di accesso di:** utente è disattivato, il report non verrà più visualizzato per gli utenti che hanno condiviso il report con loro. In questo caso, è possibile rendere nuovamente accessibile il report lasciando vuoto **Esegui il report con i diritti di accesso di:** o immettendo un utente attivo nel campo.
+A volte, il proprietario del report è anche l&#39;utente specificato nel campo **Esegui report con i diritti di accesso di:** nel report. Se **Esegui il report con i diritti di accesso di:** utente è disattivato, il report non verrà più visualizzato per gli utenti che hanno condiviso il report con loro. In questo caso, è possibile rendere nuovamente accessibile il report lasciando vuoto **Esegui il report con i diritti di accesso di:** o immettendo un utente attivo nel campo.
 
 Per ulteriori informazioni sul campo **Esegui il report con i diritti di accesso di:**, vedere [Esegui e recapita un report con i diritti di accesso di un altro utente](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md). Per informazioni sull&#39;identificazione di tutti i report di proprietà di utenti disattivati, vedere [Creare un report sulle attività di reporting](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 

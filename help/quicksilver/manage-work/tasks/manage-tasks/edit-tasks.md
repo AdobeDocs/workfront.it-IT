@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '3706'
+source-wordcount: '3721'
 ht-degree: 4%
 
 ---
@@ -514,7 +514,7 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Tipo Cst</td> 
+      <td role="rowheader">Tipo di costo</td> 
       <td> <p>Specificare il tipo di costo per l'attività. Questo determinerà come viene calcolato il costo dell'attività, in base al numero di ore sulle attività. </p> <p>Selezionare una delle opzioni seguenti: </p> 
        <ul> 
         <li> <p>Nessun Costo</p> </li> 
@@ -622,12 +622,14 @@ Per impostazione predefinita, nell&#39;intestazione dell&#39;attività sono incl
 
 * Nome attività
 * Percentuale completata
+
+  Per informazioni, vedere [Visualizzare e aggiornare la percentuale di completamento per le attività](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
 * Assegnazioni
 * Data di completamento Pianificata
 
   >[!CAUTION]
   >
-  >Alcuni vincoli di attività e altre dipendenze potrebbero impedire la modifica di questo campo. Per informazioni sui vincoli attività, vedere [Panoramica sui vincoli attività](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+  >Alcuni vincoli di attività e altre dipendenze potrebbero impedire la modifica della Data di completamento pianificata di un&#39;attività. Per informazioni sui vincoli attività, vedere [Panoramica sui vincoli attività](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 * Stato
 * Prendere decisioni di approvazione se si è impostati come approvatore in un processo di approvazione corrente

@@ -5,9 +5,9 @@ description: Puoi utilizzare il pannello Riepilogo per rivedere e aggiornare le 
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '986'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,7 @@ Nella tabella seguente vengono visualizzate le aree in cui è possibile individu
    <td>Attività nelle aree di lavoro [!UICONTROL non assegnato] e [!UICONTROL assegnato] del Bilanciatore dei carichi di lavoro [!UICONTROL assegnato]</td> 
   </tr> 
    <tr> 
-   <td>Attività in una scheda orario </td> 
+   <td>Attività in una scheda orario [!UICONTROL]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><b>Problemi</b></td> 
@@ -71,14 +71,14 @@ Nella tabella seguente vengono visualizzate le aree in cui è possibile individu
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Problemi nell'area [!UICONTROL Assigned Work] (Lavoro assegnato) del Bilanciatore dei carichi di lavoro </td> 
+   <td>Problemi nell'area [!UICONTROL Assigned Work] (Lavoro assegnato) del Bilanciatore dei carichi di lavoro [!UICONTROL]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Problemi nella sezione [!UICONTROL Submitted] dell'area [!UICONTROL Requests]</td> 
   </tr> 
 </tr> 
    <tr> 
-   <td>Problemi in una scheda orario </td> 
+   <td>Problemi in una scheda orario [!UICONTROL]</td> 
   </tr>
 
 <tr data-mc-conditions=""> 
@@ -167,7 +167,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## [!UICONTROL Percentuale completato]
 
-Utilizza la barra di avanzamento nella parte superiore del [!UICONTROL Riepilogo] per aggiornare la percentuale di completamento dell&#39;attività o del problema selezionato. Immetti un numero o trascina la barra fino alla percentuale corretta.
+Utilizza il fumetto blu di avanzamento nella parte superiore del [!UICONTROL Riepilogo] per aggiornare la percentuale di completamento dell&#39;attività o del problema selezionato. Immetti un numero o trascina la bolla fino alla percentuale corretta.
+
+Quando trascinate la bolla nel pannello Riepilogo, la percentuale di completamento viene aggiornata con incrementi di un punto. Impossibile immettere un numero decimale.
 
 ![Percentuale completata nel pannello Riepilogo](assets/summary-overview-percent-complete.png)
 
