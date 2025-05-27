@@ -2060,7 +2060,7 @@ Le ore possono avere uno dei seguenti stati in Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (in [!DNL Workfront Fusion]) </td> 
-   <td> <p>Uno scenario è costituito da una serie di passaggi (moduli) che indicano come i dati devono essere trasferiti e trasformati tra app/servizi.</p> <p>Per informazioni sugli scenari in [!DNL Workfront Fusion], vedere <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] panoramica dello scenario</a>.</p> </td> 
+   <td> <p>Uno scenario è costituito da una serie di passaggi (moduli) che indicano come i dati devono essere trasferiti e trasformati tra app/servizi.</p> <p>Per informazioni sugli scenari in [!DNL Workfront Fusion], vedere <a href="https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] panoramica dello scenario</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (in [!DNL Workfront Scenario Planner]) </td> 
