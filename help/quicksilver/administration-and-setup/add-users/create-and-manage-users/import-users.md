@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Add users" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Add users" in the article [Bulk Upload Users](https://helpx.adobe.com/it/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -114,4 +114,4 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 > 
 >Se un utente non esce dallo stato Disattivato e In attesa di approvazione entro pochi minuti e un aggiornamento della schermata non rimuove il badge In attesa di approvazione, puoi aggiungere direttamente il batch di utenti a Adobe Admin Console.
 >
->Per istruzioni, vedere [Gestione di più utenti | Caricamento CSV in blocco](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) nella documentazione di Adobe.
+>Per istruzioni, vedere [Gestione di più utenti | Caricamento CSV in blocco](https://helpx.adobe.com/it/enterprise/using/bulk-upload-users.html) nella documentazione di Adobe.
