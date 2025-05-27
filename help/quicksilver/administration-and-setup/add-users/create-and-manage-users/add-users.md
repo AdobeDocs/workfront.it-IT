@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
+source-git-commit: a8faf4aa1a0a1b60f61c0c981c3be1b0d9d033a4
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1299'
 ht-degree: 1%
 
 ---
@@ -126,9 +126,9 @@ Prima di aggiungere un utente, raccogliere le informazioni sull&#39;utente elenc
    >
    >* Se l&#39;amministratore di Workfront ha abilitato un&#39;integrazione SSO con Workfront, il campo Consenti solo autenticazione &lt;Configurazione SSO> è nascosto se si disabilita l&#39;invito e-mail. Il campo ID federazione o Nome utente &lt;Configurazione SSO> rimane visibile.
    >
-   >* Se la tua organizzazione è stata integrata in Admin Console e aggiungi un utente tramite Workfront, non puoi inviare un invito e-mail.
+   * Se la tua organizzazione è stata integrata in Admin Console e aggiungi un utente tramite Workfront, non puoi inviare un invito e-mail.
    >
-   >Per gli utenti esistenti di Adobe, l’utente può ricevere o meno un’e-mail sulla disponibilità di Workfront. Questa è una preferenza controllata dall’amministratore di Adobe per il prodotto.
+   Per gli utenti esistenti di Adobe, l’utente può ricevere o meno un’e-mail sulla disponibilità di Workfront. Questa è una preferenza controllata dall’amministratore di Adobe per il prodotto.
 
 1. Fai clic su **Aggiungi questa persona**.
 
@@ -138,7 +138,16 @@ Prima di aggiungere un utente, raccogliere le informazioni sull&#39;utente elenc
 
    >[!NOTE]
    >
-   >Se sei un amministratore gruppo e aggiungi un utente a un&#39;organizzazione che è stata integrata in Adobe Admin Console, le opzioni per questo passaggio sono **Invia utente per approvazione dell&#39;amministratore** e **Invia per approvazione e avvia altro**. L’utente viene creato con lo stato Disattivato e In attesa di approvazione. Un amministratore di Workfront deve approvare l’utente, che lo attiva in Workfront e lo aggiunge al Adobe Admin Console.
+   * Se sei un amministratore gruppo e aggiungi un utente a un&#39;organizzazione che è stata integrata in Adobe Admin Console, le opzioni per questo passaggio sono **Invia utente per approvazione dell&#39;amministratore** e **Invia per approvazione e avvia altro**. L’utente viene creato con lo stato Disattivato e In attesa di approvazione.
+   > 
+   * Se l’utente non esce dallo stato Disattivato e In attesa di approvazione entro pochi minuti e un aggiornamento della schermata non rimuove il badge In attesa di approvazione, puoi approvare l’utente manualmente.
+   >
+   1. Vai a Configurazione > Utenti.
+   1. Selezionare uno o più utenti nell&#39;elenco Utenti.
+   1. Fai clic sul menu a tre punti nell’intestazione dell’elenco.
+   1. Seleziona **Approva**.
+   1. Dopo alcuni minuti, aggiorna la pagina.
+
 
 ## Copiare un utente per crearne uno nuovo
 
@@ -146,11 +155,11 @@ Puoi creare un utente copiandone uno esistente.
 
 >[!NOTE]
 >
->Quando si crea un utente in questo modo, tutte le informazioni vengono copiate dall&#39;utente originale all&#39;utente appena creato, ad eccezione dei seguenti elementi:
+Quando si crea un utente in questo modo, tutte le informazioni vengono copiate dall&#39;utente originale all&#39;utente appena creato, ad eccezione dei seguenti elementi:
 >
->* Le informazioni nella sezione Informazioni personali.
->* Quando effettuo l’accesso, mostra: in questa casella è selezionata la scheda di destinazione predefinita per il livello di accesso.
->* I Report Diretti
+* Le informazioni nella sezione Informazioni personali.
+* Quando effettuo l’accesso, mostra: in questa casella è selezionata la scheda di destinazione predefinita per il livello di accesso.
+* I Report Diretti
 >
 
 Per creare un nuovo utente copiandone uno esistente:
@@ -174,6 +183,6 @@ Se hai selezionato l’opzione per inviare un invito all’utente, questo dovreb
 
 >[!NOTE]
 >
->Se la tua organizzazione è stata integrata in Admin Console e aggiungi un utente tramite Workfront, non puoi inviare un invito e-mail.
+Se la tua organizzazione è stata integrata in Admin Console e aggiungi un utente tramite Workfront, non puoi inviare un invito e-mail.
 >
->Per gli utenti esistenti di Adobe, l’utente può ricevere o meno un’e-mail sulla disponibilità di Workfront. Questa è una preferenza controllata dall’amministratore di Adobe per il prodotto.
+Per gli utenti esistenti di Adobe, l’utente può ricevere o meno un’e-mail sulla disponibilità di Workfront. Questa è una preferenza controllata dall’amministratore di Adobe per il prodotto.

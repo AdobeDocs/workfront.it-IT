@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: a8faf4aa1a0a1b60f61c0c981c3be1b0d9d033a4
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1218'
 ht-degree: 2%
 
 ---
@@ -70,8 +70,8 @@ Nella tabella seguente vengono visualizzate le società, i gruppi e i ruoli da i
  <tbody> 
   <tr> 
    <td valign="top"> <p>Acme, Co</p> <p>Workfront, Inc.</p> <p><em>La tua azienda</em> </p> <p>XYZ, Inc.</p> </td> 
-   <td valign="top"> <p valign="top" rowspan="7">Finanz</p> <p valign="top" rowspan="7">IT </p> <p valign="top" rowspan="7">Marketing </p> <p valign="top" rowspan="7">Agente di Vendita</p> </td> 
-   <td valign="top"> <p valign="top">Analista aziendale</p> <p valign="top">Creatività controller</p> <p valign="top">Designer</p> <p valign="top">Responsabile risorse</p> <p valign="top">Master Scrum</p> <p valign="top">Redattore tecnico</p> <p valign="top">Web Developer</p> </td> 
+   <td valign="top"> <p valign="top" rowspan="7">Finanz</p> <p valign="top" rowspan="7">IT </p> <p valign="top" rowspan="7">Marketing </p> <p valign="top" rowspan="7">Vendite</p> </td> 
+   <td valign="top"> <p valign="top">Analista aziendale</p> <p valign="top">Creative controller</p> <p valign="top">Designer</p> <p valign="top">Responsabile risorse</p> <p valign="top">Master Scrum</p> <p valign="top">Redattore tecnico</p> <p valign="top">Web Developer</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -117,7 +117,7 @@ Nelle tabelle seguenti vengono visualizzati gli utenti da importare e diversi at
 | **Password** | updateMe |
 | **Accesso** | Help Desk |
 | **Società** | &lt;*Società>* |
-| **Gruppo Predefinito** | Agente di Vendita |
+| **Gruppo Predefinito** | Vendite |
 | **Mansione** | Agente di vendita |
 
 {style="table-layout:auto"}
@@ -309,3 +309,13 @@ Nelle tabelle seguenti vengono visualizzati gli utenti da importare e diversi at
 1. Importa il file di Excel.
 
    Segui le istruzioni fornite in [Importa dati in Adobe Workfront utilizzando un modello di avvio](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+
+
+
+>[!NOTE]
+>
+>Gli utenti importati in Workfront vengono creati con lo stato Disattivato e In attesa di approvazione.
+> 
+>Se la tua organizzazione è stata migrata a Adobe Admin Console e un utente non esce dallo stato Disattivato e In attesa di approvazione entro pochi minuti, puoi aggiungere direttamente il batch di utenti a Adobe Admin Console.
+>
+>Per istruzioni, vedere [Gestione di più utenti | Caricamento CSV in blocco](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) nella documentazione di Adobe.
