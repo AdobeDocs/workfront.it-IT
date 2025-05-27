@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: e4ff9c9c44c75518e75b14209a18586363cdf4f5
+source-git-commit: f34f48d974db200d9ce1815c805885707ab27f6d
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1288'
 ht-degree: 0%
 
 ---
@@ -255,4 +255,6 @@ Sono state apportate le seguenti modifiche per le sottoscrizioni di eventi versi
 
 Workfront Fusion utilizza gli abbonamenti agli eventi per controllare le modifiche in Workfront per attivare gli scenari. Puoi aggiornare la versione della sottoscrizione dell’evento utilizzata direttamente da Fusion in uno scenario, utilizzando il modulo Workfront > Aggiorna versione payload eventi.
 
-Per istruzioni sull&#39;utilizzo di questo modulo, vedere [Moduli Workfront](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) nella documentazione di Workfront Fusion.
+Per istruzioni sull&#39;utilizzo di questo modulo, vedere [Moduli Workfront](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) nella documentazione di Workfront Fusion.
+
+Per le risorse sulla conservazione degli scenari di Workfront Fusion durante l&#39;aggiornamento dell&#39;abbonamento agli eventi, inclusa la registrazione di un webinar, consulta [Conservazione degli scenari di Fusion durante l&#39;aggiornamento V2 degli abbonamenti agli eventi](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182).
