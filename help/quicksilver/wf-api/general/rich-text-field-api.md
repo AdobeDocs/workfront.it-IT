@@ -30,7 +30,7 @@ Un campo personalizzato con formattazione RTF è denominato Campo con testo RTF 
 Esempio: una richiesta GET di base per recuperare il valore del campo modulo personalizzato Campo con testo RTF:
 
 <!-- [Copy](javascript:void(0);) -->
-<pre><OBJ Code><OBJ ID><OBJ Code><OBJ ID></pre> 
+<pre>&lt;OBJ Code>&lt;OBJ ID>&lt;OBJ Code>&lt;OBJ ID></pre> 
 
 Esempio: questa richiesta restituirà il valore di Field con testo RTF in JSON memorizzato nel parametroValue DE:Field con testo RTF
 
@@ -120,4 +120,4 @@ Per salvare i seguenti valori di un campo in formato Rich Text utilizzando l’A
 1. Utilizza il metodo stringify sul JSON descritto sopra per effettuare una richiesta PUT e inviare aggiornamenti.
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre><OBJ Code><OBJ ID></pre>
+   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>
