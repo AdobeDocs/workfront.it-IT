@@ -223,7 +223,7 @@ Workfront dispone di due operatori di filtro che collegano ogni istruzione di fi
 >[!INFO]
 >
 >**Esempio:**
->>Puoi filtrare per i progetti con una percentuale di completamento del 100%. In questo caso, è possibile utilizzare il modificatore &quot;equal&quot; nell&#39;istruzione di filtro seguente:
+>&#x200B;>Puoi filtrare per i progetti con una percentuale di completamento del 100%. In questo caso, è possibile utilizzare il modificatore &quot;equal&quot; nell&#39;istruzione di filtro seguente:
 >
 >`Project: Percent Complete Equal(Case Sensitive) 100`
 
