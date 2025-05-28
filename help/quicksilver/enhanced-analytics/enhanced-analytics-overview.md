@@ -7,9 +7,9 @@ description: Le funzioni di analisi avanzate sono uno strumento potente di Adobe
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 2a6e767036ae702f6c19dc71cdb11dae8e9e37ea
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1243'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Le funzioni di analisi avanzate verranno rimosse da Workfront la settimana del 26 maggio. Workfront Data Connect è una soluzione nuova e alternativa che può essere utilizzata per replicare qualsiasi visualizzazione avanzata di Analytics attualmente in uso. <br>Per ulteriori informazioni, consulta la [Guida all&#39;obsolescenza di Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
+>Analisi avanzata è stato rimosso da Workfront il 27 maggio. Workfront Data Connect è una soluzione nuova e alternativa che può essere utilizzata per replicare qualsiasi visualizzazione avanzata di Analytics attualmente in uso. <br>Per ulteriori informazioni, consulta la [Guida all&#39;obsolescenza di Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
 
 
 Le funzioni di analisi avanzate sono uno strumento potente di Adobe Workfront con visualizzazioni predefinite che consentono di esaminare i dati dei progetti e identificare le tendenze con la pianificazione e il completamento. Questo insight nei tuoi progetti ti aiuta a gestire il lavoro corrente e ti consente di pianificare in modo più accurato il lavoro futuro.
@@ -34,7 +34,7 @@ Le funzioni di analisi avanzate consentono di identificare:
 
 ![Analytics](assets/nwe-full-screen-analytics-350x222.png)
 
-Per visualizzare i casi d&#39;uso o per ulteriori informazioni sulla gestione del lavoro corrente e sulla pianificazione per il lavoro futuro con le analisi avanzate, consulta [Percorsi di apprendimento delle analisi avanzate](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home).
+Per visualizzare i casi d&#39;uso o per ulteriori informazioni sulla gestione del lavoro corrente e sulla pianificazione per il lavoro futuro con le analisi avanzate, consulta [Percorsi di apprendimento delle analisi avanzate](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ## Prerequisiti
 
@@ -46,7 +46,7 @@ Per accedere all’area Analisi avanzata, è necessario:
 
 * Chiedi all’amministratore di Workfront di aggiungere analisi avanzate al modello di layout.
 
-  Per ulteriori informazioni, vedere [Analisi avanzate: aggiunta di analisi ai modelli di layout](https://experienceleague.adobe.com/it/docs/workfront/using/home).
+  Per ulteriori informazioni, vedere [Analisi avanzate: aggiunta di analisi ai modelli di layout](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 Per visualizzare le informazioni relative ai progetti e alle attività, è necessario:
 

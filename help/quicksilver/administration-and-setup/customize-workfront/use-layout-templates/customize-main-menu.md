@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 7640016921e421d2aec0ab1aadc0edd304125feb
+source-git-commit: bb0c3139be903e34fd01be055010673764fe9787
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '682'
 ht-degree: 3%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 3%
 <!--Audited: 01/2024-->
 
 In qualità di amministratore di Adobe Workfront o di un gruppo, puoi utilizzare un modello di layout per configurare le opzioni che gli utenti visualizzano all’apertura del menu principale in Workfront.
-
-![Opzioni menu principale](assets/main-menu-with-blueprints-no-branding.png)
 
 >[!NOTE]
 >
@@ -106,7 +104,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    * Schede orario
    * Documenti
    * Modelli
-   * Analisi
    * Verifica
    * Obiettivi
 
@@ -122,7 +119,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      >[!NOTE]
      >
      >Planning richiede una licenza aggiuntiva. Per informazioni su Workfront Planning, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
-     > * Applicazione personalizzata
+      * Applicazione personalizzata
 
      >[!NOTE]
      >

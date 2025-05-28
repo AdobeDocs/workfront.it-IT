@@ -7,9 +7,9 @@ description: La visualizzazione delle attività del progetto mostra una visualiz
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9ef52be8-48d0-4f83-a214-dd32e794c73e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 2a6e767036ae702f6c19dc71cdb11dae8e9e37ea
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '817'
 ht-degree: 8%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->Le funzioni di analisi avanzate verranno rimosse da Workfront la settimana del 26 maggio. Workfront Data Connect è una soluzione nuova e alternativa che può essere utilizzata per replicare qualsiasi visualizzazione avanzata di Analytics attualmente in uso. <br>Per ulteriori informazioni, consulta la [Guida all&#39;obsolescenza di Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
+>Analisi avanzata è stato rimosso da Workfront il 27 maggio. Workfront Data Connect è una soluzione nuova e alternativa che può essere utilizzata per replicare qualsiasi visualizzazione avanzata di Analytics attualmente in uso. <br>Per ulteriori informazioni, consulta la [Guida all&#39;obsolescenza di Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
 
 
 <!-- Audited: 12/2023 -->

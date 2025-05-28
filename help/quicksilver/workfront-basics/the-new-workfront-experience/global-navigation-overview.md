@@ -5,9 +5,9 @@ description: La barra di navigazione superiore, visualizzata nella parte superio
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -104,10 +104,10 @@ Per ulteriori informazioni su ciascuna area, consulta:
    <td> 
     <ul> 
      <li>[!UICONTROL Home]: <a href="../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md" class="MCXref xref">Utilizza l'area [!UICONTROL Home]</a></li> 
-     <li>[!UICONTROL Portfoli]: <a href="../../manage-work/portfolios/portfolio-management-overview.md" class="MCXref xref">Gestione Portfoli</a></li> 
+     <li>[!UICONTROL Portfolio]: <a href="../../manage-work/portfolios/portfolio-management-overview.md" class="MCXref xref">Gestione Portfolio</a></li> 
      <li>[!UICONTROL Programs]: <a href="../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md" class="MCXref xref">Crea e gestisci programmi </a></li> 
      <li>[!UICONTROL Projects]: <a href="../../manage-work/projects/projects-overview.md" class="MCXref xref">Progetti: indice articolo</a></li> 
-     <li>Rapporti di : <a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">Rapporti</a></li> 
+     <li>Rapporti di [!UICONTROL]: <a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">Rapporti</a></li> 
      <li>[!UICONTROL Dashboards]: <a href="../../reports-and-dashboards/dashboards/dashboards-overview.md" class="MCXref xref">Dashboards</a></li> 
      <li>[!UICONTROL Calendars]: <a href="../../reports-and-dashboards/reports/calendars/calendars.md" class="MCXref xref">Calendari: indice articolo</a></li> 
      <li>[!UICONTROL Assorbimento Risorse]: <a href="../../resource-mgmt/resource-mgmt-overview/resource-management-overview.md" class="MCXref xref">Gestione Risorse </a></li> 
@@ -120,7 +120,6 @@ Per ulteriori informazioni su ciascuna area, consulta:
      <li>[!UICONTROL Timesheets]: <a href="../../timesheets/timesheets-all.md" class="MCXref xref">Timesheets: article index</a></li> 
      <li>[!UICONTROL Documents]: <a href="../../documents/documents-overview.md" class="MCXref xref">Documenti</a></li> 
      <li>[!UICONTROL Modelli]: <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">Crea e gestisci modelli di progetto: indice articolo</a></li> 
-     <li>[!UICONTROL Analytics]: <a href="../../enhanced-analytics/enhanced-analytics-overview.md" class="MCXref xref">Panoramica analisi avanzate</a></li> 
      <li>[!UICONTROL Goals]: <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] panoramica</a></li> 
      <li>[!UICONTROL Scenarios]: <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Panoramica di Scenario Planner</a></li> 
      <li>[!UICONTROL Proofing]: <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">[!DNL Workfront] Proof: article index</a></li> 
@@ -140,7 +139,7 @@ Nella parte inferiore del menu principale è possibile accedere ai seguenti elem
    <td> <p>Facendo clic su <b>[!UICONTROL Setup]</b> si accede all'area [!UICONTROL Setup] in cui è possibile configurare diversi aspetti dell'account [!DNL Workfront]. A seconda delle impostazioni di accesso, ciò che puoi configurare potrebbe essere limitato.</p> <p>Per ulteriori informazioni sull'area [!UICONTROL Setup], vedere <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">Amministrazione e configurazione: indice articolo</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p class="bold">Guida di </p> </td> 
+   <td> <p class="bold">Guida di [!UICONTROL]</p> </td> 
    <td> <p>Facendo clic su <b>[!UICONTROL Help]</b> ci si reca a [!DNL Adobe Experience League] dove è possibile accedere agli articoli della guida, trovare corsi di formazione, inviare un ticket all'assistenza clienti e così via.</p> <p>Per ulteriori informazioni su [!DNL Experience League] o altri metodi per ottenere assistenza, vedere <a href="../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md" class="MCXref xref">La guida rapida alla ricerca di informazioni in Adobe Workfront</a>.</p> </td> 
   </tr>
 

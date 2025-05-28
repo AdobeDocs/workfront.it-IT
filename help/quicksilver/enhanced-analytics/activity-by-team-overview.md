@@ -7,9 +7,9 @@ description: La visualizzazione Attività per team mostra le attività che avven
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c4f9886c-ce76-43a8-bd43-cb64fff27e79
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 2a6e767036ae702f6c19dc71cdb11dae8e9e37ea
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '766'
 ht-degree: 6%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->Le funzioni di analisi avanzate verranno rimosse da Workfront la settimana del 26 maggio. Workfront Data Connect è una soluzione nuova e alternativa che può essere utilizzata per replicare qualsiasi visualizzazione avanzata di Analytics attualmente in uso. <br>Per ulteriori informazioni, consulta la [Guida all&#39;obsolescenza di Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
+>Analisi avanzata è stato rimosso da Workfront il 27 maggio. Workfront Data Connect è una soluzione nuova e alternativa che può essere utilizzata per replicare qualsiasi visualizzazione avanzata di Analytics attualmente in uso. <br>Per ulteriori informazioni, consulta la [Guida all&#39;obsolescenza di Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
 
 
 

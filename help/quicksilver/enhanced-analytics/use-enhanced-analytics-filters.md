@@ -6,9 +6,9 @@ description: I filtri nell’area Analisi avanzata di Adobe Workfront consentono
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: 2a6e767036ae702f6c19dc71cdb11dae8e9e37ea
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1525'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,12 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Le funzioni di analisi avanzate verranno rimosse da Workfront la settimana del 26 maggio. Workfront Data Connect è una soluzione nuova e alternativa che può essere utilizzata per replicare qualsiasi visualizzazione avanzata di Analytics attualmente in uso. <br>Per ulteriori informazioni, consulta la [Guida all&#39;obsolescenza di Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
+>Analisi avanzata è stato rimosso da Workfront il 27 maggio. Workfront Data Connect è una soluzione nuova e alternativa che può essere utilizzata per replicare qualsiasi visualizzazione avanzata di Analytics attualmente in uso. <br>Per ulteriori informazioni, consulta la [Guida all&#39;obsolescenza di Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
 
 
 <!-- Audited: 12/2023 -->
 
-I filtri nell’area Analisi avanzata di Adobe Workfront consentono di concentrarsi su progetti specifici o su tipi specifici di dati. I tipi di filtri utilizzati possono fornire informazioni approfondite su:
+I filtri nell’area Analisi avanzata di Adobe Workfront consentono di concentrarsi su progetti specifici o su tipi specifici di dati. I tipi di filtri utilizzati possono fornire insight su:
 
 * Progetti di tua proprietà
 * Visualizzazioni di portfolio o programmi specifiche

@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 886fe974-7813-425c-b5cf-f6bca21a888b
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '267'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,6 @@ Per un elenco di tutte le modifiche disponibili con la versione 21.1, consulta l
 
 Nel modello di layout predefinito, l’area Analytics è ora attivata per impostazione predefinita, il che significa che gli utenti assegnati a questo modello di layout ora visualizzano l’area Analytics nella barra di navigazione globale in Adobe Workfront Classic e il menu principale nella nuova esperienza Adobe Workfront.
 
-Per ulteriori informazioni sulle analisi avanzate, consulta [Panoramica sulle analisi avanzate](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Analisi avanzate disponibili per tutti i cluster
 
@@ -37,7 +36,6 @@ L&#39;analisi avanzata è disponibile per tutti i cluster Workfront, inclusi i c
 
 In precedenza, l’analisi avanzata non era disponibile con Google Cloud Platform, impedendo ai clienti nel cluster 6 di accedere all’area Analytics. Ora i clienti aziendali e aziendali del cluster 6 possono accedere all’area di Analytics.
 
-Per ulteriori informazioni sulle analisi avanzate, consulta [Panoramica sulle analisi avanzate](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## La pagina Persone è ora disponibile per tutti i cluster
 
@@ -49,4 +47,4 @@ La pagina Persone è ora disponibile in Workfront Classic per il cluster 4. Ques
 
 Questa pagina era precedentemente disponibile con la versione 20.3 sia in Workfront Classic che nella nuova esperienza Workfront per tutti gli altri cluster.
 
-Per ulteriori informazioni sui grafici disponibili nella pagina Persone, consulta [Panoramica analisi avanzata](../../../enhanced-analytics/enhanced-analytics-overview.md).
+

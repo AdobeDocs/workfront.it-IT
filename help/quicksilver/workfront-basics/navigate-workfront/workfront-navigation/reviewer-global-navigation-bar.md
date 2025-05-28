@@ -6,9 +6,9 @@ description: Il menu principale cambia con il livello di accesso assegnato dall'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,6 @@ Le seguenti aree sono incluse nel layout predefinito di un [!UICONTROL Revisore]
 
 * **[!UICONTROL Richieste]**: puoi inviare e rivedere le richieste inviate da te o da altri utenti della tua azienda in quest&#39;area.
 * **[!UICONTROL Documenti]**: puoi caricare o rivedere i documenti condivisi con te qui.
-* **[!UICONTROL Analytics]**: esamina i dati del progetto e identifica le tendenze con la pianificazione e il completamento. In quest’area vengono visualizzate informazioni approfondite sui progetti a cui hai accesso. Per ulteriori informazioni, consulta [Panoramica analisi avanzata](../../../enhanced-analytics/enhanced-analytics-overview.md).
-
 * **[!UICONTROL Blueprint]**: controlla i blueprint esistenti nel tuo sistema e richiedi l&#39;installazione di uno, se l&#39;amministratore [!DNL Workfront] ha configurato la coda di richieste per i blueprint. Per ulteriori informazioni, consulta [Panoramica blueprint](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
 

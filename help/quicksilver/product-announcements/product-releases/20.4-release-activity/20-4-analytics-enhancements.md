@@ -1,19 +1,19 @@
 ---
-title: 20. 4 Miglioramenti di Analytics
-description: 20. 4 Miglioramenti di Analytics
+title: ​20. 4 Miglioramenti di Analytics
+description: ​20. 4 Miglioramenti di Analytics
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39e09278-afce-4e9b-857c-f18453081f9d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
 
-# 20. 4 Miglioramenti di Analytics
+# &#x200B;20. 4 Miglioramenti di Analytics
 
 Questa pagina descrive tutti i miglioramenti apportati da Analytics all’ambiente di anteprima con la versione 20.4. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione nella settimana del 9 novembre 2020.
 
@@ -28,5 +28,3 @@ Per consentirti di visualizzare le informazioni che desideri visualizzare senza 
 * Ogni grafico dispone ora di un menu Ordina per che consente di ordinare alfabeticamente, in base alla Data inizio pianificata o alla Data completamento pianificata.
 
 In precedenza, l’area Analisi avanzata limitava a 50 il numero di progetti che era possibile esaminare.
-
-Questa funzionalità è ora inclusa nel percorso di apprendimento [Analisi avanzata, Parte 1](https://experienceleague.adobe.com/it/docs/workfront/using/home) in Workfront One.

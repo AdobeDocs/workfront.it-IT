@@ -7,9 +7,9 @@ description: Il menu principale cambia con il livello di accesso assegnato dall'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -45,8 +45,6 @@ Le seguenti aree sono incluse nel layout predefinito di un [!UICONTROL lavorator
 * **[!UICONTROL Documenti]**: qui puoi caricare o rivedere i documenti condivisi con te. Per informazioni, vedere [Documenti](../../../documents/documents-overview.md).
 
 * **[!UICONTROL Risorse]**: è possibile visualizzare l&#39;allocazione delle risorse negli strumenti di pianificazione risorse e visualizzare i gruppi di risorse qui. Per informazioni, vedere [Gestione risorse](../../../resource-mgmt/manage-resources.md).
-
-* **[!UICONTROL Analytics]**: esamina i dati del progetto e identifica le tendenze con la pianificazione e il completamento. In quest’area vengono visualizzate informazioni approfondite sui progetti a cui hai accesso. Per ulteriori informazioni, consulta [Panoramica analisi avanzata](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 * **[!UICONTROL Bacheche]**: puoi lavorare con flessibilità e collaborazione con i membri del tuo team utilizzando bacheche condivise contenenti colonne e schede che riflettono il lavoro che desideri eseguire. Per informazioni, vedere [Introduzione alle bacheche: indice articolo](../../../agile/get-started-with-boards/get-started-with-boards.md).
 

@@ -5,13 +5,13 @@ content-type: reference;overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: Il layout predefinito è la disposizione del menu principale , del pannello sinistro e delle viste, dei raggruppamenti e dei filtri prima che un amministratore Adobe Workfront apporti modifiche utilizzando un modello di layout.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '614'
 ht-degree: 9%
 
 ---
@@ -192,16 +192,6 @@ Nella tabella seguente sono illustrate le voci predefinite del menu principale e
     <td class="tg-0lax">✔</td>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">Analisi</td>
-    <td class="tg-0lax">Lavoro<br>Persone</td>
-    <td class="tg-0lax">✔</td>
-    <td class="tg-0lax">✔</td>
-    <td class="tg-0lax">✔</td>
-    <td class="tg-0lax">✔</td>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
   </tr>
@@ -408,15 +398,6 @@ Nella tabella seguente sono illustrate le voci predefinite del menu principale e
     <td class="tg-0pky">✔</td>
     <td class="tg-0pky">✔</td>
     <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Analisi</td>
-    <td class="tg-0pky">Lavoro<br>Persone</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky"></td>
   </tr>

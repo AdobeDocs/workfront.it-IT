@@ -4,12 +4,12 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Panoramica sui filtri
 description: In Adobe Workfront è possibile utilizzare i filtri per ridurre la quantità di informazioni visualizzate sullo schermo in elenchi, rapporti o altre aree.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '1821'
+source-wordcount: '1811'
 ht-degree: 1%
 
 ---
@@ -83,17 +83,13 @@ Puoi utilizzare filtri incorporati o creare filtri personalizzati nelle seguenti
 
   Per informazioni, vedere l&#39;articolo [Informazioni filtro nella Programmazione delle risorse](../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
-* Rapporto utilizzo
+* Rapporto sull’utilizzo
 
   Per informazioni, vedere la sezione [Informazioni sull&#39;utilizzo del filtro](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filter-utilization-information) nell&#39;articolo [Informazioni sull&#39;utilizzo delle risorse](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
 * Bilanciatore dei carichi di lavoro
 
   Per informazioni, vedere [Informazioni sul filtro nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
-
-* Area di Analytics
-
-  Per informazioni, consulta [Applicare filtri in Analisi avanzate](../../../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 * Area blueprint
 
@@ -189,7 +185,7 @@ Un filtro contiene i seguenti elementi:
   </tr> 
   <tr> 
    <td><strong>Campo</strong></td> 
-   <td> <p>Attributo dell'oggetto in base al quale si sta filtrando. </p> <p>È ad esempio possibile filtrare in base al nome del Portfolio o al proprietario del progetto. In questi casi, Nome e Proprietario sono campi degli oggetti Portfolio e Progetto. </p> </td> 
+   <td> <p>Attributo dell'oggetto in base al quale si sta filtrando. </p> <p>Ad esempio, puoi filtrare per Nome Portfolio o Proprietario progetto. In questi casi, Nome e Proprietario sono campi degli oggetti Portfolio e Project. </p> </td> 
   </tr> 
   <tr> 
    <td><strong>Valore</strong></td> 
@@ -227,7 +223,7 @@ Workfront dispone di due operatori di filtro che collegano ogni istruzione di fi
 >[!INFO]
 >
 >**Esempio:**
->Puoi filtrare per i progetti con una percentuale di completamento del 100%. In questo caso, è possibile utilizzare il modificatore &quot;equal&quot; nell&#39;istruzione di filtro seguente:
+>>Puoi filtrare per i progetti con una percentuale di completamento del 100%. In questo caso, è possibile utilizzare il modificatore &quot;equal&quot; nell&#39;istruzione di filtro seguente:
 >
 >`Project: Percent Complete Equal(Case Sensitive) 100`
 
@@ -258,7 +254,7 @@ Per ulteriori informazioni sulla creazione di un filtro tramite l&#39;interfacci
 Quando si crea un filtro in modalità testo e si filtrano i valori di campo che contengono virgole, è necessario aggiungere una barra (&quot;/&quot;) prima delle virgole che separano i valori, per garantire che il valore venga letto come un’unica opzione di filtro. Questo vale solo per i seguenti tipi di campi:
 
 * Elenchi a discesa
-* Pulsanti di opzione
+* Pulsanti di scelta
 * Caselle di controllo
 
 Ad esempio, in un progetto denominato &quot;Colore&quot; è presente un campo pulsante di opzione con le seguenti opzioni:

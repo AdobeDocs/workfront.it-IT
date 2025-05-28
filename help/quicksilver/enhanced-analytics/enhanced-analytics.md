@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5d5be823-77d9-4d0c-bec6-cc172ea7f50b
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 2a6e767036ae702f6c19dc71cdb11dae8e9e37ea
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '126'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Le funzioni di analisi avanzate verranno rimosse da Workfront la settimana del 26 maggio. Workfront Data Connect è una soluzione nuova e alternativa che può essere utilizzata per replicare qualsiasi visualizzazione avanzata di Analytics attualmente in uso. <br>Per ulteriori informazioni, consulta la [Guida all&#39;obsolescenza di Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
+>Analisi avanzata è stato rimosso da Workfront il 27 maggio. Workfront Data Connect è una soluzione nuova e alternativa che può essere utilizzata per replicare qualsiasi visualizzazione avanzata di Analytics attualmente in uso. <br>Per ulteriori informazioni, consulta la [Guida all&#39;obsolescenza di Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
 
 
 Questa sezione contiene i seguenti articoli:
@@ -42,4 +42,4 @@ Questa sezione contiene i seguenti articoli:
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../enhanced-analytics/trend-views-overview.md" class="MCXref xref" xrefformat="{para}">Trend views overview</a> </li>
   -->
 
-Per informazioni approfondite su Analisi avanzate, consulta [Percorsi di apprendimento per Analisi avanzate](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home).
+Per informazioni approfondite su Analisi avanzate, consulta [Percorsi di apprendimento per Analisi avanzate](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).

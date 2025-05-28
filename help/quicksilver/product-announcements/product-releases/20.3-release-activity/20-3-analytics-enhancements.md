@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ca388df9-234f-4115-b399-f3f0a379f3d8
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -34,5 +34,4 @@ Puoi concentrarti su progetti diversi o limitare la quantità di progetti che st
 
 Oltre alle informazioni che puoi ottenere, puoi anche completare azioni sulle attività, come aggiornare lo stato, richiedere un aggiornamento, assegnare l’attività a qualcuno, ecc.- direttamente dall&#39;area Analisi avanzata (Enhanced Analytics).
 
-Per ulteriori informazioni, consulta [Panoramica analisi avanzata](../../../enhanced-analytics/enhanced-analytics-overview.md).
 

@@ -7,9 +7,9 @@ description: La visualizzazione del piano di volo mostra quanti progetti (entro 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 2a6e767036ae702f6c19dc71cdb11dae8e9e37ea
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '924'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->Le funzioni di analisi avanzate verranno rimosse da Workfront la settimana del 26 maggio. Workfront Data Connect è una soluzione nuova e alternativa che può essere utilizzata per replicare qualsiasi visualizzazione avanzata di Analytics attualmente in uso. <br>Per ulteriori informazioni, consulta la [Guida all&#39;obsolescenza di Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
+>Analisi avanzata è stato rimosso da Workfront il 27 maggio. Workfront Data Connect è una soluzione nuova e alternativa che può essere utilizzata per replicare qualsiasi visualizzazione avanzata di Analytics attualmente in uso. <br>Per ulteriori informazioni, consulta la [Guida all&#39;obsolescenza di Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
 
 
 La visualizzazione del piano di volo mostra quanti progetti (entro i criteri di filtro applicati) erano in corso di esecuzione, quali cambiamenti di condizioni si sono verificati durante l’intero ciclo di vita di tali progetti e con quale frequenza questi progetti hanno rispettato le scadenze di completamento pianificate.
