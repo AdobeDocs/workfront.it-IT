@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 616d729b0a42446e11805579febac4e26489b13f
+source-git-commit: f8b660859269694f13410e4bc6894d6677cd04a2
 workflow-type: tm+mt
-source-wordcount: '3990'
+source-wordcount: '3995'
 ht-degree: 1%
 
 ---
@@ -150,7 +150,7 @@ L&#39;aggiunta di `/tile` o `/qstile` a un URL di Workfront ha consentito al bro
 
 ### Aggiornamento dell’interfaccia alla nuova pagina di registrazione utente
 
-**Anteprima versione: 15 maggio 2024; Versione di produzione: da annunciare**
+**Versione di anteprima: 12 maggio 2024; versione di produzione: 19 maggio 2025**
 
 La nuova pagina di registrazione è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront.
 
@@ -158,13 +158,15 @@ Gli utenti non hanno più la possibilità di caricare una foto su questa pagina.
 
 ### Ricerca aggiornata per la pagina di accesso
 
-**Anteprima versione: 15 maggio 2024; Versione di produzione: da annunciare**
+**Versione di anteprima: 12 maggio 2024; versione di produzione: 19 maggio 2025**
 
 La pagina di accesso è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront.
 
+Con questa modifica, la pagina di accesso non supporta più il branding personalizzato.
+
 ### Pagina Ricerca reimpostazione password aggiornata
 
-**Anteprima versione: 15 maggio 2024; Versione di produzione: da annunciare**
+**Versione di anteprima: 12 maggio 2024; versione di produzione: 19 maggio 2025**
 
 La schermata di reimpostazione della password è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront. Questo aggiornamento include aggiornamenti alle pagine seguenti:
 
