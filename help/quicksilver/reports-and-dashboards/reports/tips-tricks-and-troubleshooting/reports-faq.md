@@ -88,7 +88,7 @@ Il calcolo corretto è:
 >Se si fa riferimento alle ore effettive nelle chiamate API, utilizzare `actualWorkRequiredDouble` per il campo valore. Le ore effettive nell’API vengono memorizzate in ore. Le ore pianificate vengono memorizzate in minuti.
 >
 >Il calcolo corretto in una chiamata API è:
->>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+>&#x200B;>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
 
 <!--when the actualWorkRequiredDouble is released to custom data in Workfront and not just the API, update the calculation above to this: `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`; and take the note out -->
