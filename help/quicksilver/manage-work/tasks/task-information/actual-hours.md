@@ -7,9 +7,9 @@ description: Le ore di accesso agli elementi di lavoro in Adobe Workfront sono c
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: d68189272bd3f78de2d57b8393b44b698fa5db13
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ Se si desidera visualizzare l&#39;avanzamento del lavoro svolto dagli utenti sul
   Per informazioni, vedere [Visualizza ore disponibili, pianificate ed effettive o FTE nella pianificazione risorse quando si utilizza la visualizzazione utente](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md).
 
 
-### Ore effettive nel database di Workfront, nell’API e nei dati personalizzati
+### Ore effettive nell&#39;API <!--database and the--> di Workfront <!--, and custom data-->
 
 <!--this section was added as a result to this issue: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/6810910e0001b932e0948336208e76f2/overview-->
 
@@ -142,9 +142,14 @@ La maggior parte dei campi di Workfront in cui sono memorizzate le ore viene sal
 
 Devi tenere conto della conversione da minuti a ore quando accedi a questi campi nelle chiamate API o nei campi o nelle colonne personalizzati calcolati.
 
-Tuttavia, le ore effettive vengono memorizzate nel database di Workfront in Ore.
+A seconda della modalità di accesso alle ore effettive, è possibile memorizzarle nei campi e nelle unità seguenti del database:
 
-Per le ore effettive nelle chiamate API o nei campi o colonne personalizzati calcolati in Workfront è necessario utilizzare il seguente nome di campo valore: `actualWorkRequiredDouble`.
+* Nell&#39;API: `valuefield` per le ore effettive è `actualWorkRequiredDouble`, memorizzato in ore.
+* Nell&#39;interfaccia di Workfront (campi e colonne personalizzati calcolati): `valuefield` per le ore effettive è `actualWorkRequired`, memorizzato in minuti.
+
+<!--Change the above with this when we fix this for the Workfront UI: 
+
+You must use the following valuefield name for Actual Hours in API calls or calculated custom fields or columns in Workfront: `actualWorkRequiredDouble`. -->
 
 Per informazioni sull&#39;utilizzo delle ore effettive nelle colonne o nei campi calcolati, vedere [Domande frequenti sui report](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 

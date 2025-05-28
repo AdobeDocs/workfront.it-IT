@@ -7,9 +7,9 @@ description: Domande frequenti sui rapporti
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: d68189272bd3f78de2d57b8393b44b698fa5db13
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -71,17 +71,27 @@ In un report di progetti ho un calcolo che sottrae le ore effettive dalle ore pi
 
 Il mio calcolo è:
 
-`valueexpression=SUB(workRequired,actualWorkRequiredDouble)`
+`valueexpression=SUB(workRequired,actualWorkRequired)`
 
 ### Risposta
 
 La maggior parte dei campi che utilizzano le ore in Workfront vengono memorizzati in minuti. Quando si utilizzano questi campi in un calcolo, il risultato sarà spesso in minuti. Per ottenere il risultato in ore, è necessario dividere per 60 il risultato del calcolo o il campo a cui si fa riferimento.
 
-Ad esempio, le ore pianificate vengono memorizzate in minuti, mentre le ore effettive in ore. Di conseguenza, devi convertire le ore pianificate da minuti ad ore.
+<!--For example, Planned Hours are stored in minutes, while Actual Hours are stored in hours. As a result, you must convert Planned Hours from minutes to hours. -->
 
 Il calcolo corretto è:
 
-`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+`valueexpression=SUB(workRequired,actualWorkRequired)/60`
+
+>[!NOTE]
+>
+>Se si fa riferimento alle ore effettive nelle chiamate API, utilizzare `actualWorkRequiredDouble` per il campo valore. Le ore effettive nell’API vengono memorizzate in ore. Le ore pianificate vengono memorizzate in minuti.
+>
+>Il calcolo corretto in una chiamata API è:
+>>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+
+
+<!--when the actualWorkRequiredDouble is released to custom data in Workfront and not just the API, update the calculation above to this: `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`; and take the note out -->
 
 ## Perché il valore di ogni elemento del grafico in un report non viene visualizzato nel grafico?
 
