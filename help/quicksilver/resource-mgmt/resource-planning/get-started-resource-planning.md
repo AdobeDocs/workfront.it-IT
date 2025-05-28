@@ -7,14 +7,16 @@ description: È possibile utilizzare gli strumenti di pianificazione delle risor
 author: Lisa
 feature: Resource Management
 exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
 
 # Introduzione alla pianificazione delle risorse
+
+<!--Audited: 5/2025-->
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -35,7 +37,7 @@ Per ulteriori informazioni sulla pianificazione delle risorse in Workfront trami
 
 Per preventivare il tempo dedicato alle risorse per i progetti a cui si intende assegnarle, è possibile utilizzare i seguenti strumenti:
 
-* Per allocare budget per più progetti a livello di sistema e assegnare loro priorità: utilizzare la pianificazione risorse a livello di sistema.
+* Per definire le allocazioni di budget e assegnare priorità a più progetti a livello di sistema, utilizzare la pianificazione delle risorse a livello di sistema.
 
   È possibile accedere alla Pianificazione risorse dalla sezione Pianificazione nell&#39;area Risorse.
 

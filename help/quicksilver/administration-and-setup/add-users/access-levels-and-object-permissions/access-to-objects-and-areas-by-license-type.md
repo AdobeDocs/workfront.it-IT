@@ -9,23 +9,29 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 20%
+source-wordcount: '456'
+ht-degree: 24%
 
 ---
 
 # Accesso a oggetti e aree per tipo di licenza
 
+<!-- Audited: 5/2025 -->
+
 La tabella seguente indica il livello massimo di accesso (Modifica o Visualizza) consentito da ciascuna licenza Adobe Workfront per gli oggetti e le aree in Workfront.
 
-* **Visualizza**: l&#39;utente può esaminare e condividere elementi.
-* **Modifica**: l&#39;utente può creare, modificare, eliminare e condividere elementi.
+* Visualizza: l’utente può rivedere e condividere gli elementi.
+* Modifica: l’utente può creare, modificare, eliminare e condividere elementi.
 
   >[!NOTE]
   >
-  >Quando un altro utente condivide un oggetto, può specificare le autorizzazioni che limitano la possibilità di modificarlo. Per ulteriori informazioni, vedere [Panoramica delle autorizzazioni di condivisione sugli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+  >Quando un altro utente condivide un oggetto, può specificare le autorizzazioni che limitano la possibilità di modificarlo. Per ulteriori informazioni sui nuovi tipi di licenza, vedere [Panoramica sulle autorizzazioni di condivisione per gli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+
+  >[!NOTE]
+  >
+  >Questo articolo contiene informazioni sull’accesso agli oggetti per i tipi di licenza legacy. Per informazioni sui nuovi tipi di licenza, vedere [Panoramica sui nuovi livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) e [Panoramica sulle nuove licenze](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
 |   | Piano | Lavoro | Revisiona | Richiesta | Esterno |
 |---|---|---|---|---|---|
@@ -49,7 +55,7 @@ La tabella seguente indica il livello massimo di accesso (Modifica o Visualizza)
 
 >[!NOTE]
 >
->Gli utenti con una licenza Revisione o Richiesta di licenza hanno funzionalità di condivisione limitate. Per ulteriori informazioni, vedere [Panoramica delle licenze di Adobe Workfront](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>Gli utenti con una licenza Revisione o Richiesta dispongono di funzionalità di condivisione limitate. Per ulteriori informazioni, vedere [Panoramica licenze](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 >
 >Gli utenti esterni non possono cercare elementi in Workfront. Possono visualizzare documenti e calendari condivisi in modo specifico con loro. Possono inoltre visualizzare gli utenti che condividono gli elementi con loro.
 
