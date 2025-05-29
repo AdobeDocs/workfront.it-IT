@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 author: Courtney
 hide: true
 hidefromtoc: true
-source-git-commit: 779fc409d316e957a4cbec951047e41641b69863
+source-git-commit: a984038eea41d249cb0ad0d2ec6ba47025c56a65
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Preparazione HIPAA per Workfront
 
-Un cliente Workfront che è, come definito in HIPAA, un **Business Associate** e/o la **Entità coperta** per conto del quale Business Associate fornisce Adobe Workfront deve utilizzare le seguenti linee guida per configurare Workfront per l&#39;utilizzo compatibile con HIPAA:
+Un cliente Workfront che, come definito in HIPAA, è un Business Associate e/o l’Entità coperta per conto del quale il Business Associate fornisce Adobe Workfront deve utilizzare le seguenti linee guida per configurare Workfront per l’utilizzo compatibile con HIPAA:
 
 
 ## Requisiti per la password
@@ -35,7 +35,7 @@ Un cliente Workfront che è, come definito in HIPAA, un **Business Associate** e
 | **Impostazione protezione** | **Cos&#39;È?** | **Requisito** |
 |----------------------|------------------|------------------|
 | Numero massimo di errori di accesso | Quanti tentativi di accesso non riusciti bloccano l&#39;utente? | Non più di 5 tentativi in un periodo di 5 minuti; è possibile riprovare dopo 30 minuti |
-| Numero massimo errori di verifica SSO | Quanti tentativi di verifica SSO non riusciti causano il blocco? | Non più di 5 (si applica solo ai clienti che utilizzano SSO) |
+| Numero massimo errori di verifica SSO | Quanti tentativi di verifica SSO non riusciti causano un blocco? | Non più di 5 (si applica solo ai clienti che utilizzano SSO) |
 
 
 ## Requisiti della sessione
