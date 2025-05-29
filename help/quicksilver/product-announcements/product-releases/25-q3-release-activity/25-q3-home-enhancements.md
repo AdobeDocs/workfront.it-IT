@@ -4,11 +4,10 @@ description: Miglioramenti Home Terzo Trimestre 2025
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: fe2e7c5ad5d2d2f32d66f5dfd3e1fd69eca8ca92
+exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
+source-git-commit: 75a8990a3bb75a0f8177b10d5e42bd6b4211f7f1
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
@@ -21,7 +20,12 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 ## Il widget delle mie approvazioni ora ordina automaticamente per scadenza
 
+>[!NOTE]
+>
+>* Anteprima: 29 maggio 2025
+>* Versione rapida di produzione: 12 giugno 2025
+>* Produzione per tutti i clienti: 17 luglio 2025
+
 Il widget Le mie approvazioni è stato aggiornato nella home per ordinare per scadenza (decrescente) per impostazione predefinita. Questo consente di visualizzare le approvazioni più urgenti nella parte superiore dell&#39;elenco.
 
 In precedenza, il widget era ordinato per data di immissione, il che rendeva difficile determinare la priorità.
-

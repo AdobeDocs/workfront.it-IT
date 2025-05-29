@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 870e4130daf9924bf85b59eb09f7d548b8152096
+source-git-commit: 686db6004d1a64279080ab3ba311c172a6a24d1f
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,30 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 <!--keep the sentence below for all future quarterly release pages-->
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Filtri, colonne e campi aggiuntivi aggiunti alla scheda Pianificazione nell’area Richieste
+
+>[!NOTE]
+>
+>* Anteprima: 29 maggio 2025
+>* Versione rapida di produzione: 12 giugno 2025
+>* Produzione per tutti i clienti: 17 luglio 2025
+
+Sono state aggiunte le seguenti funzionalità a un elenco di richieste nella scheda Pianificazione dell’area Richieste:
+
+* Nella colonna Inserito da è indicata la persona che ha aggiunto una richiesta
+* Filtri per limitare il numero di richieste visualizzate nella scheda Pianificazione. Puoi filtrare l’elenco in base ai seguenti elementi:
+
+   * Workspace da cui proviene il modulo di richiesta
+   * tipo di record associato al modulo di richiesta
+   * la data di ingresso della richiesta
+   * il nome del modulo di richiesta
+   * lo stato delle richieste
+   * il nome della persona che ha inserito la richiesta.
+
+* Le colonne consentono di visualizzare o nascondere i campi o le colonne dell&#39;elenco delle richieste di Planning.
+
+Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Nuova esperienza nella suddivisione dei record in modalità Compatta nella visualizzazione timeline
 
@@ -126,7 +150,7 @@ Prima di questo miglioramento, gli utenti con tutti i livelli di licenza dovevan
 >[!NOTE]
 >
 >Questa modifica sarà visibile per tutti gli utenti nuovi ed esistenti con una licenza Amministratore di sistema e Standard.
->Gli utenti esistenti assegnati a un modello di layout continueranno a visualizzare tutto in base alle impostazioni definite nel modello di layout.
+>>Gli utenti esistenti assegnati a un modello di layout continueranno a visualizzare tutto in base alle impostazioni definite nel modello di layout.
 
 Per informazioni, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 

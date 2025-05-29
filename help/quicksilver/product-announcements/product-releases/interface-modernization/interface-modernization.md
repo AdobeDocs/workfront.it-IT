@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f8b660859269694f13410e4bc6894d6677cd04a2
+source-git-commit: 2cf14ed7a4d96760c2c64ea8cca869ba5ba54c73
 workflow-type: tm+mt
-source-wordcount: '3995'
+source-wordcount: '4043'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,15 @@ Per tutte le altre modifiche apportate ad Adobe Workfront, vedi [Versioni del pr
 
 
 ## Amministrazione e configurazione
+
+<!--
+### Interface updates for the Import Data (Kick-Starts) page
+
+**Preview release: May 29, 2025; Production release: June 5, 2025**
+
+We have updated the Import Data (Kick-Starts) page in the Setup area with a more modern design that is consistent with other areas of Workfront. Also, the import process was streamlined so that the selected file is uploaded immediately. You no longer have to click a separate **Upload** button to complete the import after choosing the file.
+
+For information, see [Import data into Workfront using a Kick-Start template](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).-->
 
 ### Aggiornamento dell’interfaccia per la scheda Log degli accessi in Configurazione
 
@@ -100,6 +109,14 @@ Abbiamo aggiornato la pagina utilizzata per concedere al supporto l’accesso al
 
 ## Progetti
 
+### Aggiornamenti look and feel per la casella Elimina problema
+
+**Versione di anteprima: 29 maggio 2025; versione di produzione: 5 giugno 2025**
+
+Abbiamo aggiornato l’aspetto della casella Elimina problema durante l’eliminazione di uno o più problemi. La casella Elimina problema ora corrisponde ad altre aree di Workfront.
+
+Per informazioni, vedere [Elimina problemi](/help/quicksilver/manage-work/issues/manage-issues/delete-issues.md).
+
 ## Aggiornamenti diretti alle caselle di rischio Nuovo e Modifica per un progetto o un modello
 
 **Versione di anteprima: 22 maggio 2025; versione di produzione: 29 maggio 2025**
@@ -147,6 +164,17 @@ L&#39;aggiunta di `/tile` o `/qstile` a un URL di Workfront ha consentito al bro
 
 
 ## Utenti
+
+<!--
+### Interface updates to the organizational chart
+
+**Preview release: May 29, 2025; Production release: June 5, 2025**
+
+We have updated the look and feel of the organizational chart associated with a Workfront user, to match the design of other areas of Workfront.
+
+To view this change, go to a Workfront user profile and click **Org Chart** in the left panel. (This feature is available through the Workfront user profile, not the Adobe user profile.)
+
+For information, see [View the organizational chart](/help/quicksilver/people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).-->
 
 ### Aggiornamento dell’interfaccia alla nuova pagina di registrazione utente
 
