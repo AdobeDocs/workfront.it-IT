@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
+source-git-commit: 137d7112c051322c191488463e52abdd73e50d1f
 workflow-type: tm+mt
-source-wordcount: '2785'
+source-wordcount: '2894'
 ht-degree: 6%
 
 ---
 
 # Importare dati in Workfront utilizzando un modello di avvio
+
+{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -488,12 +490,19 @@ Per importare i dati del foglio di calcolo del modello in Workfront:
 
 1. Fare clic su **Sistema** > **Importa dati (Kick-Start)**.
 
-1. Nella sezione **Carica dati con foglio di calcolo di avvio**, fai clic su **Scegli file**, quindi individua e seleziona il foglio di calcolo popolato.
+1. Nella sezione **Carica dati con foglio di calcolo di avvio**, fai clic su **Scegli il file**, quindi individua e seleziona il foglio di calcolo popolato.
 
-1. Fai clic su **Carica.**
+   <div class="preview">
 
-   Se il caricamento del file Excel in Workfront richiede più di 5 minuti, l’applicazione va in timeout e Workfront non può caricare il file.
+   Nell’ambiente di anteprima, il file viene caricato automaticamente e viene visualizzata una notifica di completamento dell’importazione.
 
-   Prova a importare i dati in batch più piccoli di oggetti.
+   Se il caricamento del file Excel in Workfront richiede più di 5 minuti, l’applicazione va in timeout e Workfront non può caricare il file. Prova a importare i dati in batch più piccoli di oggetti.
 
-1. (Condizionale) Se utilizzi Workfront Fusion, ora puoi attivare i tuoi FLO o scenari.
+   </div>
+
+1. (Solo nell&#39;ambiente di produzione) Fai clic su **Carica**.
+
+   Se il caricamento del file Excel in Workfront richiede più di 5 minuti, l’applicazione va in timeout e Workfront non può caricare il file. Prova a importare i dati in batch più piccoli di oggetti.
+
+1. (Condizionale) Se l’importazione non è andata a buon fine, viene visualizzato un messaggio di errore in cui viene indicato il problema. Cercare di identificare il campo, il foglio e il numero di riga in cui è stato riscontrato il problema e correggere le informazioni nel file di Excel. Provare quindi a importare il file un&#39;altra volta.
+1. (Condizionale) Se utilizzi Workfront Fusion, puoi attivare i FLO o gli scenari al termine dell’importazione.

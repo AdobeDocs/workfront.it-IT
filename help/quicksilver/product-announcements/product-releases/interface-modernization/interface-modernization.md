@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 2cf14ed7a4d96760c2c64ea8cca869ba5ba54c73
+source-git-commit: c5cf44d1e68aebdb5b61d2588a8cefc088b6d2a2
 workflow-type: tm+mt
-source-wordcount: '4043'
+source-wordcount: '4126'
 ht-degree: 1%
 
 ---
@@ -25,14 +25,13 @@ Per tutte le altre modifiche apportate ad Adobe Workfront, vedi [Versioni del pr
 
 ## Amministrazione e configurazione
 
-<!--
-### Interface updates for the Import Data (Kick-Starts) page
+### Aggiornamenti dell&#39;interfaccia per la pagina Importa dati (Kick-Start)
 
-**Preview release: May 29, 2025; Production release: June 5, 2025**
+**Versione di anteprima: 29 maggio 2025; versione di produzione: 5 giugno 2025**
 
-We have updated the Import Data (Kick-Starts) page in the Setup area with a more modern design that is consistent with other areas of Workfront. Also, the import process was streamlined so that the selected file is uploaded immediately. You no longer have to click a separate **Upload** button to complete the import after choosing the file.
+Abbiamo aggiornato la pagina Importa dati (Kick-Start) nell’area Configura con un design più moderno che è coerente con altre aree di Workfront. Inoltre, il processo di importazione Kick-Start è stato semplificato in modo che il file selezionato venga caricato immediatamente. Non è più necessario fare clic su un pulsante **Carica** separato per completare l&#39;importazione dopo aver scelto il file.
 
-For information, see [Import data into Workfront using a Kick-Start template](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).-->
+Per informazioni, vedere [Importare dati in Workfront utilizzando un modello di avvio](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 ### Aggiornamento dell’interfaccia per la scheda Log degli accessi in Configurazione
 

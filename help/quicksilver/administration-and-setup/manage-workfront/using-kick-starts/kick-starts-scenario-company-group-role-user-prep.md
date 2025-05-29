@@ -5,13 +5,13 @@ keywords: kick-start, kick-start, kick-start, kick-start
 navigation-topic: use-kick-starts
 title: 'Scenario di avvio: società, gruppo, ruolo e preparazione di avvio utente'
 description: Quando si inizia a implementare Adobe Workfront, anziché inserire manualmente i dati, è possibile importare l’elenco dei clienti, i reparti interni, le mansioni e le informazioni utente.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: a8faf4aa1a0a1b60f61c0c981c3be1b0d9d033a4
+source-git-commit: 2a216610f6ea8ad8c4698964f96f2357bf3b5943
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1204'
 ht-degree: 2%
 
 ---
@@ -172,6 +172,7 @@ Nelle tabelle seguenti vengono visualizzati gli utenti da importare e diversi at
 
 1. Fai clic su **Altre opzioni** per visualizzare l&#39;elenco completo delle opzioni di importazione.
 1. Selezionare gli oggetti Livello di accesso, Società, Gruppo, Ruolo e Utente che si desidera importare.
+1. Fai clic su **Scarica**.
 
 ## Inserisci informazioni sulla società
 
@@ -181,69 +182,67 @@ Nelle tabelle seguenti vengono visualizzati gli utenti da importare e diversi at
    >
    >Quando si utilizzano fogli di dati molto grandi, può essere utile utilizzare lo strumento Blocca riquadro (o equivalente) dell’editor di fogli di calcolo per semplificare l’utilizzo del foglio di calcolo.
 
-1. Passare al foglio &#39;Società CMPY&#39;.
+1. Vai al foglio **Società CMPY**.
 
    Deve essere vuoto, a meno che le aziende non siano già presenti nel sistema. ![Foglio aziendale](assets/cmpysheet-350x16.png)
 
    ![ID società](assets/companyid--1--350x78.png)
 
-1. Specificare TRUE nella colonna **isNew**.
-1. Ripeti questa azione per ogni società aggiunta. In questo esempio, completa questa azione per le righe 3-6, perché vengono aggiunte quattro società.
+1. Immettere **TRUE** nella colonna **isNew**.
+
+   Ripeti questa azione per ogni società aggiunta. In questo esempio, completa questa azione per le righe 3-6, perché vengono aggiunte quattro società.
 
    ![Società nuova](assets/cmpyisnew-350x86.png)
 
-1. Specifica un ID univoco.
+1. Immetti un **ID** univoco.
 
-   Questa operazione deve essere eseguita per ogni riga della colonna ID. I numeri interi a partire da 1 funzionano bene quando si creano nuovi record.
+   Immettere un ID per ogni riga. I numeri interi a partire da 1 funzionano bene quando si creano nuovi record.
 
    ![Società nuova](assets/cmpyisnew-350x86.png)
 
-1. Imposta un nome.
-
-   Specificare i nomi di ciascun cliente nella colonna **setName**.
+1. Immettere i nomi di ciascun cliente nella colonna **setName**.
 
    ![ID società](assets/companyid-350x78.png)
 
-1. Passare al foglio Gruppo.
+1. Passare al foglio **Gruppo**.
 
    A meno che non siano già stati creati gruppi in Workfront, in questo foglio deve essere visualizzato solo il Gruppo predefinito fornito con ogni account di Workfront.
 
    ![Foglio gruppo](assets/groupsheet-350x15.png) ![Foglio gruppo vuoto](assets/emptygroupsheet-350x85.png)
 
-1. Imposta la colonna **isNew**. In base allo scenario, verranno importati 4 gruppi, quindi specifica TRUE nelle righe da 4 a 7 per la colonna &#39;isNew&#39;.
-1. Specifica un ID univoco.
+1. Immettere **TRUE** nella colonna **isNew**.
 
-   Questa operazione deve essere eseguita per ogni riga della colonna ID. I numeri interi a partire da 1 funzionano bene quando si creano nuovi record.
+   In base allo scenario, verranno importati 4 gruppi, quindi immetti **TRUE** nella colonna **isNew** per le righe dalla 4 alla 7.
+
+1. Immetti un **ID** univoco.
+
+   Immettere un ID per ogni riga. I numeri interi a partire da 1 funzionano bene quando si creano nuovi record.
 
    ![ID gruppo](assets/groupids-350x85.png)
 
-1. Imposta un nome.
-
-   Specificare i nomi di ogni reparto nella colonna **setName**.
+1. Immettere i nomi di ogni reparto nella colonna **setName**.
 
    ![Nomi gruppo](assets/groupnames-350x85.png)
 
-   Specificare le informazioni sul ruolo. Passare al foglio Ruolo.
+1. Vai al foglio **Ruolo**.
 
-1. A meno che tu non abbia già creato o eliminato dei ruoli nel tuo account, in questo foglio dovrebbero essere visualizzati 8 ruoli forniti con ogni account di Workfront.
+   A meno che tu non abbia già creato o eliminato dei ruoli nel tuo account, in questo foglio dovrebbero essere visualizzati 8 ruoli forniti con ogni account di Workfront.
 
    ![Nomi gruppo](assets/groupnames-350x85.png)
 
-1. Impostare l&#39;istruzione True.
+1. Immettere **TRUE** nella colonna **isNew**.
 
-   Sono in corso l’importazione di sette Ruoli, inserisci TRUE nelle righe da 12 a 18 per la colonna &quot;isNew&quot;.
+   In base allo scenario, verranno importati 7 Ruoli, quindi immetti **TRUE** nella colonna **isNew** per le righe da 12 a 18.
 
    ![Il ruolo è nuovo](assets/roleisnew-350x104.png)
 
-1. Specifica un ID univoco.
+1. Immetti un **ID** univoco.
 
-   Questa operazione deve essere eseguita per ogni riga della colonna ID. I numeri interi a partire da 1 funzionano bene quando si creano nuovi record.
-
-   ![Foglio utenti](assets/usersheet-350x16.png)
+   Immettere un ID per ogni riga. I numeri interi a partire da 1 funzionano bene quando si creano nuovi record.
 
    ![Il ruolo è nuovo](assets/roleisnew--1--350x104.png)
 
-1. Specificare un nome per ogni ruolo digitandolo nella colonna setName.
+1. Immettere un nome per ogni ruolo nella colonna **setName**.
 
    ![Il ruolo è nuovo](assets/roleisnew-350x104.png)
 
@@ -251,45 +250,49 @@ Nelle tabelle seguenti vengono visualizzati gli utenti da importare e diversi at
 
    Includi tariffe di fatturazione, tariffe di costo e descrizioni per i Ruoli che stai creando, secondo necessità.
 
-1. Passare al foglio Utente per immettere le informazioni utente.
+1. Passare al foglio **Utente**.
 
    A meno che tu non abbia già creato gli utenti nel tuo account, in questo foglio dovrebbe essere visualizzato solo l&#39;utente amministratore a cui è stato eseguito il provisioning con ogni account di Workfront.
 
-   ![Nomi ruolo](assets/rolenames-350x104.png) ![Foglio utenti vuoto](assets/emptyusersheet-350x52.png)
+   ![Foglio utenti](assets/usersheet-350x16.png) ![Foglio utenti vuoto](assets/emptyusersheet-350x52.png)
 
-1. Impostare il valore True specificando TRUE nelle righe da 4 a 9 per la colonna &#39;isNew&#39;, poiché vengono importati 6 utenti.
+1. Immettere **TRUE** nella colonna **isNew**.
 
-   ![Utente nuovo](assets/userisnew-350x52.png)
-
-1. Imposta un ID univoco specificando un ID univoco in ogni riga per la colonna ID. In genere, i numeri interi a partire da 1 funzionano correttamente per i nuovi record.
+   In base allo scenario, verranno importati 6 utenti, quindi immetti **TRUE** nella colonna **isNew** per le righe dalla 4 alla 9.
 
    ![Utente nuovo](assets/userisnew-350x52.png)
 
-1. Immettere i nomi di ogni utente nelle colonne &#39;setFirstName&#39; e &#39;setLastName&#39;.
+1. Immetti un **ID** univoco.
+
+   Immettere un ID per ogni riga. I numeri interi a partire da 1 funzionano bene quando si creano nuovi record.
+
+   ![Utente nuovo](assets/userisnew-350x52.png)
+
+1. Immettere i nomi di ogni utente nelle colonne **setFirstName** e **setLastName**.
 
    ![Nomi utente](assets/usernames-350x52.png)
 
-1. Impostare i valori di dettaglio specificando i valori nelle colonne &#39;setEmail&#39;, &#39;setPassword&#39; e &#39;setUsername&#39;.
+1. Impostare i valori di dettaglio immettendo i valori nelle colonne **setEmail**, **setPassword** e **setUsername**.
 
    ![Credenziali utente](assets/usercredentials-350x52.png)
 
 1. Specificare i valori del livello di accesso.
 
-   Ad esempio, Chris Manning, membro del team, cerca l&#39;ID nel foglio Livello di accesso ACSLVL per il livello di accesso Membro del team. Copiare l&#39;ID negli Appunti e incollarlo nel foglio Utente nella colonna **setAccessLevelID** della riga di Chris.
+   Ad esempio, Chris Manning è un membro del team. Cercare l&#39;ID nel foglio **Livello di accesso ACSLVL** per il livello di accesso Membro del team. Copiare l&#39;ID e incollarlo nel foglio **USER** nella colonna **setAccessLevelID** della riga dell&#39;utente.
 
    Ripeti questo passaggio per ogni utente e livello di accesso.
 
    ![Copia ID livello di accesso](assets/copyalid-350x171.png) ![Incolla ID livello di accesso](assets/pastealid-350x59.png)
 
-1. Specifica i dettagli del Gruppo Predefinito.
+1. Immettere i dettagli del Gruppo Predefinito dell&#39;utente.
 
-   Secondo lo scenario, Chris Manning appartiene al gruppo Marketing. Nel foglio Gruppo, individuare l&#39;ID del gruppo Marketing, copiarlo negli Appunti e incollarlo nella colonna **setHomeGroupID** della riga Chris. &#x200B;Ripeti questo passaggio per ogni assegnazione di utenti e gruppi.
+   Secondo lo scenario, Chris Manning appartiene al gruppo Marketing. Nel foglio **Gruppo di gruppi**, individuare l&#39;ID del gruppo di marketing, copiarlo e incollarlo nel foglio **Utente** nella colonna **setHomeGroupID** della riga dell&#39;utente. &#x200B;Ripeti questo passaggio per ogni assegnazione di utenti e gruppi.
 
    ![Copia ID gruppo](assets/copygroupid-1-350x133.png) ![Incolla ID gruppo](assets/pastegroupid-350x59.png)
 
-1. Specifica i dettagli dell’azienda.
+1. Inserisci i dettagli aziendali dell&#39;utente.
 
-   Tutti gli utenti in questo scenario appartengono alla stessa società. Individuare l&#39;ID della società *La tua società *aziendale, copiare l&#39;ID negli Appunti e incollare questo valore in ogni riga della colonna &#39;setCompanyID&#39; nella scheda Utente&#x200B;
+   Tutti gli utenti in questo scenario appartengono alla stessa società. Nel foglio **Società CMPY**, individua l&#39;ID per la società **La tua società**, copia l&#39;ID e, nella scheda **Utente**, incolla questo valore in ogni riga della colonna **setCompanyID**. &#x200B;
 
    Ripeti questo passaggio per ogni assegnazione di utenti e gruppi.
 
@@ -297,9 +300,9 @@ Nelle tabelle seguenti vengono visualizzati gli utenti da importare e diversi at
 
    ![Incolla ID società](assets/pastecompanyid-350x84.png)
 
-1. Specifica i dettagli della mansione.
+1. Immettere i dettagli della mansione dell&#39;utente.
 
-   In base allo scenario, Chris Manning avrà il ruolo di Business Analyst. Nel foglio Ruolo individuare l&#39;ID per il ruolo Analista business, copiarlo negli Appunti e incollarlo nella colonna &#39;setRoleID&#39; della riga Chris. &#x200B;Ripeti questo passaggio per ogni assegnazione di utenti e gruppi.
+   In base allo scenario, Chris Manning avrà il ruolo di Business Analyst. Nel foglio **Ruolo**, individuare l&#39;ID per il ruolo Analista business, copiarlo e incollarlo nel foglio **Utente** nella colonna **SetRoleID** della riga dell&#39;utente. &#x200B;Ripeti questo passaggio per ogni assegnazione di utenti e gruppi.
 
    ![Copia ID ruolo](assets/copyroleid-350x149.png)
 
@@ -311,11 +314,10 @@ Nelle tabelle seguenti vengono visualizzati gli utenti da importare e diversi at
    Segui le istruzioni fornite in [Importa dati in Adobe Workfront utilizzando un modello di avvio](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 
-
 >[!NOTE]
 >
 >Gli utenti importati in Workfront vengono creati con lo stato Disattivato e In attesa di approvazione.
 > 
 >Se la tua organizzazione è stata migrata a Adobe Admin Console e un utente non esce dallo stato Disattivato e In attesa di approvazione entro pochi minuti, puoi aggiungere direttamente il batch di utenti a Adobe Admin Console.
 >
->Per istruzioni, vedere [Gestione di più utenti | Caricamento CSV in blocco](https://helpx.adobe.com/it/enterprise/using/bulk-upload-users.html) nella documentazione di Adobe.
+>Per istruzioni, vedere [Gestione di più utenti | Caricamento CSV in blocco](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) nella documentazione di Adobe.

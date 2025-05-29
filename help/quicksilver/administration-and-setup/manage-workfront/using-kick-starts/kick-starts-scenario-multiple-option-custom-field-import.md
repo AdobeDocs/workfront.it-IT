@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 137d7112c051322c191488463e52abdd73e50d1f
 workflow-type: tm+mt
-source-wordcount: '2181'
+source-wordcount: '2271'
 ht-degree: 0%
 
 ---
 
 # Scenario Kick-Start: importare campi personalizzati con più opzioni in Workfront
+
+{{highlighted-preview}}
 
 Puoi importare campi personalizzati con più opzioni in Adobe Workfront utilizzando la funzionalità di avvio.
 
@@ -25,7 +27,7 @@ Di seguito sono riportati alcuni esempi di campi personalizzati con più opzioni
 * Elenco a discesa multi-selezione
 * A discesa
 * Checkboxe
-* Bottoni Circolari
+* Pulsanti di scelta
 
 Questi campi possono a volte avere molte (a volte centinaia) opzioni. L’importazione di questi file tramite la funzionalità di avvio rapido può farti risparmiare molto tempo, in qualità di amministratore di Workfront, e assicurarti di evitare gli errori.
 
@@ -124,7 +126,7 @@ Dopo aver analizzato le informazioni sui campi personalizzati esistenti nel sist
 
 1. Nell&#39;area **Scarica un foglio di calcolo Kick-Start vuoto**, selezionare la casella di controllo **Dati personalizzati** e fare clic su **Scarica**.
 
-   ![Seleziona Dati Personalizzati](assets/kickstarts-select-existing-data.png)
+   ![Seleziona Dati Personalizzati](assets/kickstarts-blank-spreadsheet-options.png)
 
    Un file Kick-Start vuoto viene scaricato sul computer.
 
@@ -223,7 +225,7 @@ Per popolare il foglio di calcolo Excel con le informazioni per i nuovi campi pe
      >
      >Per ogni campo è disponibile una sola opzione predefinita.
 
-   * **`setParameterID`** = le opzioni corrispondenti al campo personalizzato _Brand_ hanno **`setParameterID`** di 1 e le opzioni corrispondenti al _Media_ hanno **`setParameterID`**&#x200B;di 2. I fogli `PARAM` e `POPT` si incrociano per indicare le opzioni appartenenti a ciascun campo personalizzato.
+   * **`setParameterID`** = le opzioni corrispondenti al campo personalizzato _Brand_ hanno **`setParameterID`** di 1 e le opzioni corrispondenti al _Media_ hanno **`setParameterID`**di 2. I fogli `PARAM` e `POPT` si incrociano per indicare le opzioni appartenenti a ciascun campo personalizzato.
    * **`setDisplayOrder`**= la colonna dell&#39;ordine di visualizzazione indica l&#39;ordine di visualizzazione delle opzioni nel campo personalizzato. Puoi iniziare con 1 e continuare in ordine crescente per tutte le opzioni, indipendentemente dai campi a cui apparterranno. La cosa importante qui è avere numeri univoci per ogni opzione.
    * Le colonne **`setLabel`** e `**setValue`** in genere contengono le stesse informazioni e devono riflettere i nomi desiderati nell&#39;interfaccia utente di Workfront. Il valore di un’opzione è il nome visualizzato nei rapporti, ad esempio, mentre l’etichetta viene visualizzata nei moduli personalizzati quando è associata a un oggetto. Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    * **`setIsHidden`** = immetti `TRUE` se vuoi che una delle opzioni sia nascosta.
@@ -255,14 +257,13 @@ Per popolare il foglio di calcolo Excel con le informazioni per i nuovi campi pe
 
      >[!NOTE]
      >
-     >Per i moduli con più oggetti, immetti il primo oggetto da selezionare durante la creazione di un modulo nell’interfaccia utente. Impostare ad esempio `setCatObjCode` su `TASK` se si seleziona Attività nell&#39;interfaccia di Workfront e quindi Problema, Portfolio e così via, ma non si desidera che il modulo sia disponibile per i progetti.
+     >Per i moduli con più oggetti, immetti il primo oggetto da selezionare durante la creazione di un modulo nell’interfaccia utente. Impostare ad esempio `setCatObjCode` su `TASK`, se si seleziona Attività nell&#39;interfaccia di Workfront e quindi Problema, Portfolio e così via, ma non si desidera che il modulo sia disponibile per i progetti.
 
    * **`setName`** = nome del modulo personalizzato che si desidera venga visualizzato nell&#39;interfaccia di Workfront.
 
      ![Foglio categorie compilato](assets/category-sheet-filled-out-kick-starts.png)
 
 1. Salvare il foglio di calcolo come file xls o xlsx nel computer. Il foglio di calcolo Excel è stato compilato ed è pronto per l&#39;importazione in Workfront.
-
 
 ## Carica il foglio di calcolo Excel in Workfront
 
@@ -272,16 +273,13 @@ Dopo aver eseguito i passaggi descritti nelle sezioni precedenti, continuare con
 
 1. Fare clic su **Sistema > Importa dati (Kick-Start)**.
 
-1. Fare clic su **Scegli file** nella sezione **Carica dati con foglio di calcolo di avvio**.
+1. Fai clic su **Scegli il file** nella sezione **Carica dati con foglio di calcolo di avvio**.
 
-1. Cercare il foglio di calcolo Excel preparato, nel computer e selezionarlo quando lo si trova. Quando Workfront riconosce il file, il pulsante Carica diventa blu.
-1. Fai clic su **Carica.**
+1. Cercare il foglio di calcolo Excel preparato, nel computer e selezionarlo quando lo si trova.
 
-   ![Pulsante File selezionato e caricamento](assets/kick-start-file-selected-and-upload-blue-button.png)
+   <div class="preview">
 
-1. Viene visualizzata una notifica di completamento dell’importazione. A seconda della quantità di informazioni importate, questo passaggio potrebbe richiedere alcuni secondi o un minuto.
-
-   ![Avvio completato](assets/kick-start-successful.png)
+   Il file viene caricato automaticamente e viene visualizzata una notifica di completamento dell’importazione. A seconda della quantità di informazioni importate, questo passaggio potrebbe richiedere alcuni secondi o un minuto.
 
    I nuovi campi e moduli personalizzati sono ora disponibili nel sistema Workfront. Puoi trovarli nell’area Forms personalizzata di Configurazione.
 
@@ -289,12 +287,23 @@ Dopo aver eseguito i passaggi descritti nelle sezioni precedenti, continuare con
    >
    >I nuovi moduli e i campi importati non sono ancora connessi. Il modulo viene importato senza campi personalizzati. È necessario aggiungere manualmente i campi al nuovo modulo personalizzato o a un altro modulo personalizzato esistente.
 
+   Per informazioni sull&#39;aggiunta di campi ai moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+   </div>
+
+1. (Solo nell&#39;ambiente di produzione) Fai clic su **Carica**.
+
+   Viene visualizzata una notifica di completamento dell’importazione. A seconda della quantità di informazioni importate, questo passaggio potrebbe richiedere alcuni secondi o un minuto.
+
+   I nuovi campi e moduli personalizzati sono ora disponibili nel sistema Workfront. Puoi trovarli nell’area Forms personalizzata di Configurazione.
+
+   >[!NOTE]
+   >
+   >I nuovi moduli e i campi importati non sono ancora connessi. Il modulo viene importato senza campi personalizzati. È necessario aggiungere manualmente i campi al nuovo modulo personalizzato o a un altro modulo personalizzato esistente.
 
    Per informazioni sull&#39;aggiunta di campi ai moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Condizionale) Se l’importazione non è andata a buon fine, viene visualizzato un messaggio di errore in cui viene indicato il problema. Provare a identificare il campo, il foglio e il numero di riga in cui è stato riscontrato il problema e correggere le informazioni nel file di Excel, quindi provare a importare il file un&#39;altra volta.
-
-   ![Errore di avvio](assets/kick-start-error.png)
+1. (Condizionale) Se l’importazione non è andata a buon fine, viene visualizzato un messaggio di errore in cui viene indicato il problema. Cercare di identificare il campo, il foglio e il numero di riga in cui è stato riscontrato il problema e correggere le informazioni nel file di Excel. Provare quindi a importare il file un&#39;altra volta.
 
 1. (Condizionale) A seconda del problema, come indicato nel messaggio di errore, alcune informazioni potrebbero essere già state importate. Prima di importare nuovamente il foglio, è necessario effettuare una delle seguenti operazioni:
 
