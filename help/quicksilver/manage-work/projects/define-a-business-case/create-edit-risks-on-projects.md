@@ -6,10 +6,10 @@ description: I rischi sono eventi o fattori possibili che impediscono a un proge
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 0%
+source-wordcount: '1080'
+ht-degree: 1%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 <!--Audited: 01/2025-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti dopo una settimana dalla versione di anteprima. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 I rischi sono eventi o fattori possibili che impediscono a un progetto di terminare in tempo o nel rispetto del budget. È possibile registrare i rischi durante la creazione del Business Case di un progetto o utilizzando la scheda Rischi.
 
@@ -117,9 +117,9 @@ Oltre a creare e modificare i rischi nel caso di business, puoi farlo utilizzand
 
    Fai clic su **Nuovo rischio**.
 
-   <span class="preview">Viene aperta la casella **Nuovo rischio**.</span>
+   Viene visualizzata la casella **Nuovo rischio**.
 
-   <span class="preview">![Nuova casella rischi](assets/new-risk-box.png)</span>
+   ![Nuova casella rischi](assets/new-risk-box.png)
 
 1. (Condizionale) Se si aggiunge un rischio nella casella **Nuovo rischio**, immettere le informazioni seguenti:
 
@@ -175,7 +175,7 @@ Per modificare i rischi:
    * **Costo effettivo**: indicare il costo effettivo del rischio se si è verificato il rischio.
    * **Piano di mitigazione**: aggiornare la descrizione del piano per mitigare il rischio.
 
-1. <span class="preview">Fai clic su **Salva**.</span>
+1. Fai clic su **Salva**.
 1. (Facoltativo) Modifica lo **Stato** per un rischio, nel menu a discesa **Stato**, quando applichi la visualizzazione **Standard** per l&#39;elenco dei rischi.
 
    >[!NOTE]

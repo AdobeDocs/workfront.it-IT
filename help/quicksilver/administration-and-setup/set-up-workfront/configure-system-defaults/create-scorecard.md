@@ -8,9 +8,9 @@ author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '730'
 ht-degree: 1%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 1%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti dopo una settimana dalla versione di anteprima. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 Una scorecard misura il grado di allineamento di un progetto ai criteri precedentemente stabiliti per un portfolio. Una scorecard spesso riflette la missione, i valori e gli obiettivi strategici di un’organizzazione.
 
@@ -73,9 +73,9 @@ Devi disporre dei seguenti diritti di accesso:
 
 1. Fai clic su **[!UICONTROL Scorecard]**, quindi su **[!UICONTROL Nuova scorecard]**.
 
-   <span class="preview">Viene aperta la casella **Nuova scorecard**.</span>
+   Viene visualizzata la casella **Nuova scorecard**.
 
-   <span class="preview">![Nuova casella scorecard](assets/new-scorecard-350x173.png)</span>
+   ![Nuova casella scorecard](assets/new-scorecard-350x173.png)
 
 1. Specifica un nome **[!UICONTROL scorecard]** e una **[!UICONTROL descrizione]**.
 
@@ -100,7 +100,7 @@ Devi disporre dei seguenti diritti di accesso:
       <td>Selezionare questa opzione per indicare che [!DNL Workfront] deve sottrarre dal totale dei punti possibili. Non è possibile aggiungere punteggi negativi al numero massimo di punti possibile di una scorecard.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Tipo di visualizzazione </td> 
+      <td role="rowheader">Tipo di visualizzazione [!UICONTROL]</td> 
       <td>Selezionare <strong>[!UICONTROL Value(0-100)]</strong> per visualizzare un campo numerico nella scorecard in cui gli utenti possono specificare un valore compreso tra 0 e 100.<p>In alternativa, selezionare <strong>[!UICONTROL elenco a discesa]</strong> o <strong>[!UICONTROL pulsanti di scelta]</strong> per creare una risposta che gli utenti possono specificare utilizzando tale controllo. Fare clic su <strong>[!UICONTROL Add Answer]</strong>, quindi digitare il <strong>[!UICONTROL Value]</strong> in punti percentuali per questa risposta, nel caso che sia soddisfatta. Se si sceglie 100%, il numero di punti assegnati per questa domanda viene raggiunto completamente. Se si desidera indicare che la risposta contiene solo una parte del totale di punti assegnati a questa domanda, selezionare un valore percentuale inferiore. Ad esempio, se la domanda è valutata a 10 punti e si desidera che la risposta contenga 5 di tali punti, scegliere 50% per il valore.</p>
       <p>Selezionare <strong>[!UICONTROL Predefinito]</strong> se si desidera indicare che questa risposta è quella predefinita.</strong></p>
      </tr> 
@@ -126,9 +126,9 @@ Puoi creare una scorecard copiandone e modificandone una esistente.
 1. Fai clic su **[!UICONTROL Scorecard]** nel pannello a sinistra.
 1. Seleziona una scorecard nell&#39;elenco, quindi fai clic sull&#39;icona **Copia** ![Copia scorecard](assets/copy-scorecard-icon.png) nella parte superiore dell&#39;elenco delle scorecard.
 
-   <span class="preview">Viene aperta la casella **Copia scorecard**.</span>
+   Viene visualizzata la casella **Copia scorecard**.
 
-   <span class="preview">![Copia casella scorecard](assets/copy-scorecard-box.png)</span>
+   ![Copia casella scorecard](assets/copy-scorecard-box.png)
 
 1. Specifica le seguenti informazioni:
 

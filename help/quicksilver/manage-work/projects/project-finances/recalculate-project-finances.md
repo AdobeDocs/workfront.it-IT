@@ -6,9 +6,9 @@ description: I dati finanziari vengono calcolati su un progetto in base alle mod
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: '1632'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td>Qualsiasi </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza Adobe Workfront*</td> 
    <td>
    <p>Nuovo: Standard</p>
    <p>oppure</p>
@@ -55,7 +55,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Considerazioni sul calcolo dei dati finanziari in Adobe Workfront
 
-In Analisi avanzate, i dati finanziari vengono calcolati nei modi seguenti:
+I fondi vengono calcolati per i progetti nei modi seguenti:
 
 * È possibile ricalcolare manualmente costi e ricavi per un progetto utilizzando l&#39;opzione Ricalcola dati finanziari per un progetto.
 * Inoltre, alcune azioni attivano un ricalcolo automatico.

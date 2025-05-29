@@ -6,9 +6,9 @@ description: È consigliabile aggiungere progetti ai portfolio quando vengono av
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 <!--Audited: 5/2025-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti dopo una settimana dalla versione di anteprima. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 È consigliabile aggiungere progetti ai portfolio quando vengono avviati. Tuttavia, puoi aggiungerli a un portfolio in qualsiasi momento della loro durata.
 
@@ -104,9 +104,9 @@ Quando aggiungi progetti ai portfolio, tieni presente quanto segue:
 
    ![Menu a discesa Nuovo progetto](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
-1. (Condizionale) Se hai selezionato di aggiungere un progetto esistente, viene visualizzata la casella <span class="preview">**Aggiungi progetti**.</span> <!--check this after UI changes-->
+1. (Condizionale) Se hai selezionato di aggiungere un progetto esistente, viene visualizzata la casella **Aggiungi progetti**. <!--check this after UI changes-->
 
-   <span class="preview">![Aggiungi progetto esistente](assets/add-existing-projects-to-portfolios-box.png)</span> <!--check this after UI changes-->
+   ![Aggiungi progetto esistente](assets/add-existing-projects-to-portfolios-box.png) <!--check this after UI changes-->
 
 1. Inizia a digitare il nome di un progetto nel campo **[!UICONTROL Aggiungi progetti a questo Portfolio]**, quindi fai clic su di essi quando compaiono nell&#39;elenco.  <!--check this after UI changes-->
 
