@@ -2,20 +2,26 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Caricare bozze da Adobe Photoshop
-description: Puoi caricare le tue bacheche grafiche come bozze direttamente in Adobe Workfront per una revisione e approvazione completa.
+description: Puoi caricare i predefiniti per documenti fotografici come bozze direttamente in [!DNL Adobe Workfront]  per una revisione e un'approvazione approfondite.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 9cbf1706e6c535ff7f52627d2c6e13de65ec76d0
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
 
 # Carica bozze da [!DNL Photoshop]
 
-Puoi caricare le tue bacheche grafiche come bozze direttamente in [!DNL Adobe Workfront] per una revisione e approvazione completa.
+È possibile caricare alcuni tipi di predefiniti per documenti di Photoshop come bozze direttamente in [!DNL Adobe Workfront] per una revisione e approvazione completa.
+
+>[!IMPORTANT]
+>
+>Il file deve essere un predefinito per documenti fotografici come descritto in [Modelli e predefiniti in Photoshop](https://helpx.adobe.com/photoshop/using/create-documents.html).
+
+
 
 ## Requisiti di accesso
 
@@ -131,7 +137,7 @@ Puoi caricare una nuova versione di una bozza. Il plug-in ricorda il flusso di l
 1. Fai clic su **[!UICONTROL Nuova versione]** nella parte inferiore del pannello [!DNL Workfront].
 1. Attiva l&#39;interruttore **[!UICONTROL Crea una bozza]**.
 
-1. Nella sezione *[!UICONTROL *Proof approvals]&#x200B;**, scegli &#x200B;** [!UICONTROL Basic] **&#x200B; o &#x200B;** [!UICONTROL Automated]**.
+1. Nella sezione *[!UICONTROL *Proof approvals]**, scegli **[!UICONTROL Basic]** o **[!UICONTROL Automated]**.
 
 1. Aggiungi **[!UICONTROL Revisori]** o un **[!UICONTROL modello di flusso di lavoro]** in base al tipo di approvazione selezionato al passaggio 7.
 
