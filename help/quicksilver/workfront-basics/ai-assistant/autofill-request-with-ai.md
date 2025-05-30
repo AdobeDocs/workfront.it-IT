@@ -5,7 +5,7 @@ description: Puoi utilizzare l’intelligenza artificiale per compilare automati
 author: Becky
 feature: Get Started with Workfront
 exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
-source-git-commit: 977817157e016b7cbe591d8627031208d7bf3bb3
+source-git-commit: a3e93311277bc5b68063e0ec1cbdcce3a40eb3dd
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 1%
@@ -162,3 +162,4 @@ Quando si carica un documento per la richiesta di compilazione automatica, consi
    Oppure
 
    Selezionare **Accetta tutti** o **Rifiuta tutti** nella parte superiore della pagina per accettare o rifiutare tutti i suggerimenti.
+
