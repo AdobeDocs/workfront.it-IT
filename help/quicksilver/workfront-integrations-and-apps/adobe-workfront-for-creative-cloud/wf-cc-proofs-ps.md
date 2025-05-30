@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Il file deve essere un predefinito per documenti fotografici come descritto in [Modelli e predefiniti in Photoshop](https://helpx.adobe.com/photoshop/using/create-documents.html).
+>Il file deve essere un predefinito per documenti fotografici come descritto in [Modelli e predefiniti in Photoshop](https://helpx.adobe.com/it/photoshop/using/create-documents.html).
 
 
 
