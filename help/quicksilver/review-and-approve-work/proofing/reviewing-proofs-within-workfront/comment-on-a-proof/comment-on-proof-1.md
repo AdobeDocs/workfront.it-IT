@@ -6,21 +6,23 @@ description: I commenti consentono di fornire feedback sul contenuto e collabora
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b0386786-7f90-4d1c-bd3a-1cd545430de1
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
 
 # Commento su una bozza
 
+<!-- Audited: 5/2025 -->
+
 I commenti consentono di fornire feedback sul contenuto e collaborare con altri utenti nel visualizzatore di bozze.
 
 Quando si assegnano tag agli utenti nei commenti di una bozza, gli utenti a cui è possibile assegnare tag possono variare a seconda di vari fattori, come le autorizzazioni per i singoli utenti e l’appartenenza all’organizzazione:
 
-* Se sei il creatore o il proprietario della bozza oppure disponi di autorizzazioni specifiche abilitate, puoi assegnare tag agli utenti al di fuori del flusso di lavoro della bozza e condividere la bozza con loro.
-* Se sei stato aggiunto alla bozza come utente esterno e fai parte di un altro ambiente con un account di bozza diverso, puoi assegnare tag solo a tali utenti dall’ambiente originale. <!--For more information, see [Proofing collaboration limitations with people outside of your organization](../../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md)-->
+* Se sei il creatore o il proprietario della bozza o disponi di autorizzazioni specifiche abilitate, puoi assegnare tag agli utenti esterni al flusso di lavoro della bozza e condividere la bozza con loro.
+* Se sei stato aggiunto alla bozza come utente esterno e sei membro di un altro ambiente con un account di bozza diverso, puoi assegnare tag solo a tali utenti dall’ambiente originale. <!--For more information, see [Proofing collaboration limitations with people outside of your organization](../../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md)-->
 
 ## Requisiti di accesso
 
@@ -62,14 +64,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 ## Commento su una bozza
 
 1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
-1. Trova la bozza necessaria, quindi fai clic su **Apri bozza**.
+1. Passa il puntatore del mouse sulla bozza necessaria, quindi fai clic su **Apri bozza**.
 
 1. Nella parte superiore del visualizzatore di bozze, fare clic su **Aggiungi commento**.
-1. (Condizionale) Se si tratta di una bozza video, riproduci la bozza video, quindi fai clic su **Aggiungi commento** nel punto del video in cui desideri inserire il commento utilizzando le testine di riproduzione
+1. (Condizionale) Se si tratta di una bozza video, esegui la bozza video, quindi fai clic su **Aggiungi commento** nel punto del video in cui desideri inserire il commento utilizzando le testine di riproduzione.
 
    >[!TIP]
    >
-   >1. Per semplificare l’utilizzo, sospendi il video e fai clic sulla riga temporale in cui desideri inserire il commento.
+   >1. Per semplificare l’utilizzo, sospendi il video e fai clic sulla timeline in cui desideri inserire il commento.
    >1. Per una maggiore precisione, puoi fare clic sui valori sopra le testine di riproduzione e digitare nuovi valori.
    >1. Per aggiungere un commento a un intervallo di riprese video, trascinate le testine di riproduzione a sinistra e a destra nella timeline per indicare un intervallo di riprese su cui desiderate aggiungere un commento.
    >1. Per aggiungere un commento a un intervallo di riprese video, trascinate le testine di riproduzione a sinistra e a destra nella timeline per indicare un intervallo di riprese su cui desiderate aggiungere un commento.
@@ -84,37 +86,37 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      <tr> 
       <td role="rowheader"><strong>Disegna una linea a mano libera</strong> </td> 
       <td> <img src="assets/freehand-line.png"> </td> 
-      <td>Consente di aggiungere una linea a mano libera nell'area selezionata.</td> 
+      <td>Aggiunge una linea a mano libera nell'area selezionata.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Tracciare una riga</strong> </td> 
       <td> <img src="assets/line.png"> </td> 
-      <td>Consente di disegnare una linea sull'area selezionata.</td> 
+      <td>Disegnare una linea sull'area selezionata.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Disegnare una freccia</strong> </td> 
       <td> <img src="assets/arrow.png"> </td> 
-      <td>Consente di aggiungere una freccia a un'area selezionata.</td> 
+      <td>Aggiungere una freccia a un'area selezionata.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Evidenzia un'area</strong> </td> 
       <td> <img src="assets/highlight.png"> </td> 
-      <td>Evidenzia l'area selezionata.</td> 
+      <td>Evidenziare un'area selezionata.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Disegna un rettangolo</strong> </td> 
       <td> <img src="assets/rectangle.png"> </td> 
-      <td>Consente di disegnare un rettangolo attorno a un'area.</td> 
+      <td>Disegnare un rettangolo attorno a un'area.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Polilinea</strong> </td> 
       <td> <img src="assets/polyline.png"> </td> 
-      <td> <p>Disegna una sequenza connessa di segmenti di linea che è possibile lasciare aperta o chiudere come forma. Potete spostare o eliminare qualsiasi punto aggiunto. </p> <p>Questo strumento è utile per lavorare con immagini tecniche e architetturali.</p> </td> 
+      <td> <p>Disegnare una sequenza connessa di segmenti di linea che è possibile lasciare aperta o chiudere come forma. Potete spostare o eliminare qualsiasi punto aggiunto. </p> <p>Questo strumento è utile per lavorare con immagini tecniche e architetturali.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Modifica colore, spessore o opacità del markup</strong> </td> 
       <td> <img src="assets/change-color.png"> </td> 
-      <td>Consente di modificare il colore, lo spessore e l'opacità degli strumenti di markup.</td> 
+      <td>Modificate il colore, lo spessore e l'opacità degli strumenti di markup.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Testo</strong> </td> 
@@ -124,12 +126,17 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     </tbody> 
    </table>
 
-1. Nelle bozze statiche, è possibile contrassegnare più aree su più pagine per un commento. Ad esempio, se si desidera inserire lo stesso commento in più pagine, selezionare un&#39;area in una pagina, quindi passare alla pagina successiva in cui si desidera inserire lo stesso commento e selezionare un&#39;area. Questo vale solo per gli strumenti di markup delle annotazioni normali, non per gli strumenti di markup del testo.
+1. (Facoltativo e condizionale) Nelle bozze statiche, puoi contrassegnare più aree su più pagine per un commento. Ad esempio, se si desidera inserire lo stesso commento in più pagine, selezionare un&#39;area in una pagina, quindi passare alla pagina successiva in cui si desidera inserire lo stesso commento e selezionare un&#39;area.
+
+   >[!NOTE]
+   >
+   >Questo vale solo per gli strumenti di markup delle annotazioni normali, non per gli strumenti di markup del testo.
+
 1. Digita il commento nella casella **Aggiungi commento** a destra.
 1. (Facoltativo) Per assegnare un tag a un altro utente nel commento e aggiungerlo al flusso di lavoro della bozza, digita @ nella casella del commento, quindi digita il nome o l’indirizzo e-mail dell’utente e seleziona l’utente nel menu visualizzato. Per ulteriori informazioni, consulta [Assegnare tag agli utenti per condividere una bozza](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md).
 1. (Facoltativo) Per allegare un file a un commento, effettuate una delle seguenti operazioni:
 
-   * Fare clic sull&#39;icona della graffetta nell&#39;angolo inferiore destro del commento, quindi individuare e selezionare il file da caricare.
+   * Fare clic sull&#39;icona del ritaglio nell&#39;angolo superiore destro del commento, quindi individuare e selezionare il file che si desidera caricare.
    * Trascinare un file da una posizione nel computer e rilasciarlo nell&#39;area dei commenti.
 
 1. Fai clic su **Post**.

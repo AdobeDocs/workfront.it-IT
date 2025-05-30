@@ -7,7 +7,7 @@ description: Il Riepilogo consente di interagire con informazioni importanti dir
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: daa46f0e2a5f656d048260d4a714ed02f01cdbbf
+source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 2%
@@ -110,7 +110,7 @@ Utilizzare la sezione Approvazioni per richiedere l&#39;approvazione di un docum
 
 ## Versioni
 
-Utilizzare la sezione Versioni per visualizzare il numero di versioni create per un documento specifico. Fai clic sull&#39;icona **Altro** ![Altro](assets/more-icon.png) per effettuare le seguenti operazioni:
+Utilizzare la sezione Versioni per visualizzare il numero di versioni create per un documento specifico. Fai clic sull&#39;icona Altro ![Icona Altro](assets/more-icon.png) per effettuare le seguenti operazioni:
 
 * Apri una bozza.
 * Scarica una bozza o un documento.
