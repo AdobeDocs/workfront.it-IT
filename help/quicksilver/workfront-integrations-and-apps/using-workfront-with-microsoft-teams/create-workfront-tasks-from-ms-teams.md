@@ -6,22 +6,20 @@ description: Puoi creare attività personali in Adobe [!DNL Workfront] da Micros
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
-source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
+source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
 
 # Crea [!DNL Adobe Workfront] attività da [!DNL Microsoft Teams]
 
-<!--
-
->[!NOTE]
+>[!IMPORTANT]
 >
->As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
-
--->
+>Man mano che Microsoft passa al client New Teams, il client Classic Teams non sarà più disponibile dopo il 1° luglio 2025. In preparazione, stiamo sviluppando una nuova versione dell’integrazione di Microsoft Teams che sarà completamente compatibile con il client New Teams e disponibile prima del 1° luglio per garantire una transizione senza intoppi.
+>
+>Le istruzioni su come scaricare e installare l’integrazione nel client New Teams verranno visualizzate qui dopo che l’integrazione sarà disponibile.
 
 ## Requisiti di accesso
 
