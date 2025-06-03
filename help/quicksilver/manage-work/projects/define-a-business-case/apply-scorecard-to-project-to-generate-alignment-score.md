@@ -5,9 +5,9 @@ description: Puoi utilizzare una scorecard per misurare il livello di allineamen
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1227'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,6 @@ Per ulteriori informazioni sulle scorecard e su come crearne una, vedere [Creare
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -33,20 +31,20 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr> 
    <td role="rowheader">piano Adobe Workfront</td> 
    <td>
-   <p>Nuovo: Prime o superiore</p>
+   <p>Corrente: Prime o versione successiva</p>
    <p>oppure</p>
-   <p>Corrente: Business o superiore</p> </td>
+   <p>Legacy: aziendale o superiore</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td>
-   <p>Nuovo: Standard</p>
+   <p>Corrente: Standard</p>
    <p>oppure</p>
-   <p>Corrente: Piano</p></td>  
+   <p>Legacy: Plan</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai progetti</p> <p>Accesso ai Portfoli di visualizzazione o superiore</p> </td> 
+   <td> <p>Modifica accesso ai progetti</p> <p>Visualizzare o accedere ai portafogli in modo più avanzato</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
@@ -151,14 +149,14 @@ Una volta completate le scorecard dei progetti, Workfront utilizza questi valori
 
 ## Visualizzare il punteggio di allineamento
 
-Puoi visualizzare il punteggio di allineamento di un progetto a livello di progetto o in Ottimizzatore Portfolio.
+Puoi visualizzare il punteggio di allineamento di un progetto a livello di progetto o in Portfolio Optimizer.
 
 * [Visualizzazione del punteggio di allineamento in un progetto](#view-the-alignment-score-on-a-project)
-* [Visualizzare i punteggi di allineamento del progetto e del portfolio in Ottimizzatore Portfolio](#view-the-alignment-scores-of-the-project-and-of-the-portfolio-in-the-portfolio-optimizer)
+* [Visualizzare i punteggi di allineamento del progetto e del portfolio in Portfolio Optimizer](#view-the-alignment-scores-of-the-project-and-of-the-portfolio-in-the-portfolio-optimizer)
 
 ### Visualizzare il punteggio di allineamento di un progetto
 
-Se disponi dei diritti di Contribute per un progetto, puoi visualizzare il punteggio di allineamento a livello di progetto.
+Se si dispone dei diritti di Contribuisci al progetto, è possibile visualizzare il punteggio di allineamento di un progetto a livello di progetto.
 
 1. Vai al progetto di cui desideri visualizzare il Punteggio di allineamento.
 1. Fai clic su **Business Case** nel pannello a sinistra.
@@ -168,51 +166,51 @@ Se disponi dei diritti di Contribute per un progetto, puoi visualizzare il punte
 
    ![Punteggio di allineamento in un progetto](assets/alignment-score-on-a-project.png)
 
-### Visualizzare i punteggi di allineamento del progetto e del portfolio in Ottimizzatore Portfolio
+### Visualizzare i punteggi di allineamento del progetto e del portfolio in Portfolio Optimizer
 
-Puoi visualizzare il punteggio di allineamento di un progetto o di un portfolio in Ottimizzatore Portfolio, se disponi dell’accesso Gestisci al portfolio.
+Se disponi dell’accesso Gestisci al portfolio, puoi visualizzare il punteggio di allineamento di un progetto o di un portfolio in Portfolio Optimizer.
 
 Per ulteriori informazioni sulle informazioni visualizzate in Portfolio Optimizer, vedere [Panoramica di Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
-* [Individua il punteggio di allineamento del progetto in Ottimizzatore Portfolio](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
-* [Individua il punteggio di allineamento del portfolio in Ottimizzatore Portfolio](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
+* [Individua il punteggio di allineamento del progetto in Portfolio Optimizer](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
+* [Individuare il punteggio di allineamento del portfolio in Portfolio Optimizer](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
-  ![Punteggio di allineamento in Ottimizzatore Portfolio](assets/alignment-score-in-portfolio-optimizer.png)
+  ![Punteggio di allineamento in Portfolio Optimizer](assets/alignment-score-in-portfolio-optimizer.png)
 
-#### Individua il punteggio di allineamento del progetto in Ottimizzatore Portfolio {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
+#### Individua il punteggio di allineamento del progetto in Portfolio Optimizer {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 
 {{step1-to-portfolios}}
 
 1. Fai clic sul nome di un portfolio.
-1. Fai clic su **Ottimizzazione Portfoli** nel pannello a sinistra.
+1. Fai clic su **Ottimizzazione Portfolio** nel pannello a sinistra.
 
-   Viene visualizzato Ottimizzatore Portfolio.
+   Viene visualizzato Portfolio Optimizer.
 
-   Il punteggio di allineamento di un progetto viene visualizzato come percentuale nella colonna **Allineamento** dell&#39;Ottimizzatore Portfolio.
+   Il punteggio di allineamento di un progetto viene visualizzato come percentuale nella colonna **Allineamento** di Portfolio Optimizer.
 
    Questo è il punteggio di allineamento del progetto in base alla scheda di valutazione associata al progetto.
 
-#### Individua il punteggio di allineamento del portfolio in Ottimizzatore Portfolio  {#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer}
+#### Individuare il punteggio di allineamento del portfolio in Portfolio Optimizer  {#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer}
 
 {{step1-to-portfolios}}
 
 1. Fai clic sul nome di un portfolio.
-1. Fai clic su **Ottimizzazione Portfoli** nel pannello a sinistra.
-1. Nella parte superiore di Ottimizzatore Portfolio trova il valore **Allineato** e il contatore **Allineamento**, che indicano il punteggio di allineamento del portfolio.
+1. Fai clic su **Ottimizzazione Portfolio** nel pannello a sinistra.
+1. Nella parte superiore di Portfolio Optimizer trova il valore **Aligned** e il contatore **Alignment**, che indicano il punteggio di allineamento del portfolio.
 
    Punteggio di allineamento del portfolio.
 
    Per ulteriori informazioni sulla generazione del punteggio di allineamento di un portfolio, vedere [Generare un punteggio di allineamento per un portfolio](#generate-an-alignment-score-for-a-portfolio).
 
-## Panoramica del punteggio dell’ottimizzatore del Portfolio
+## Panoramica del punteggio di Portfolio Optimizer
 
 Esiste una differenza tra il punteggio di allineamento e il punteggio dell’ottimizzatore del portfolio di un progetto.
 
 Il punteggio di allineamento di un progetto viene calcolato in base ai punti ottenuti dopo il completamento della scorecard. Questo punteggio viene quindi utilizzato per determinare il punteggio di allineamento del portfolio. Il punteggio di allineamento viene visualizzato come percentuale.
 
-Il punteggio di allineamento di un progetto viene visualizzato nella colonna **Allineamento** dell&#39;Ottimizzatore Portfolio.
+Il punteggio di allineamento di un progetto viene visualizzato nella colonna **Allineamento** di Portfolio Optimizer.
 
-Il punteggio dell’ottimizzatore portfolio è una classificazione calcolata automaticamente nell’ottimizzatore Portfolio in base alla quale è possibile assegnare la priorità ai progetti. Il punteggio dell&#39;ottimizzatore portfolio viene visualizzato come icona indicatore accompagnata da un numero e viene visualizzato nella colonna **Punteggio** dell&#39;ottimizzatore Portfolio. Un punteggio di Portfolio Optimizer viene generato solo quando tutte le sezioni del Business Case sono completate, ad eccezione degli Obiettivi.
+Il punteggio dell’ottimizzatore del portfolio è una classificazione calcolata automaticamente in Portfolio Optimizer in base alla quale è possibile assegnare una priorità ai progetti. Il punteggio dell&#39;ottimizzatore portfolio viene visualizzato come icona di indicatore accompagnata da un numero e viene visualizzato nella colonna **Punteggio** di Portfolio Optimizer. Un punteggio di Portfolio Optimizer viene generato solo quando vengono completate tutte le sezioni del Business Case, ad eccezione degli Obiettivi.
 
 Per ulteriori informazioni sulla creazione di un Business Case per un progetto, vedere [Creare un Business Case per un progetto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 

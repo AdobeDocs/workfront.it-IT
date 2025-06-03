@@ -5,9 +5,9 @@ description: Durante la creazione di un caso di business, puoi creare una serie 
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
@@ -43,8 +43,6 @@ Quando crei gli obiettivi del caso di business per i tuoi progetti, tieni presen
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -53,14 +51,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <tbody> 
   <tr> 
    <td role="rowheader">piano Adobe Workfront</td> 
-   <td> <p>Pro o superiore</p> </td> 
+   <td> <p>Corrente: Prime o versione successiva</p>
+   <p>Legacy: Pro o superiore</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td>
    <td> 
-   <p>Nuovo: Standard</p> 
-   <p>Oppure</p>
-   <p>Corrente: Piano </p> 
+   <p>Corrente: Standard</p> 
+   <p>Legacy: Plan </p> 
    </td> 
   </tr> 
   <tr> 
