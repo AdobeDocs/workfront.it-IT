@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 52ba2457ac2870d23e325f64163b683756f88ad4
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '823'
 ht-degree: 8%
 
 ---
 
 # Configurare gli aggiornamenti di sistema
+
+<!-- Audited: 5/2025 -->
 
 [!DNL Adobe Workfront] genera aggiornamenti automatici di sistema nell&#39;area [!UICONTROL Aggiornamenti] di un oggetto per registrare i seguenti eventi:
 
@@ -37,8 +39,6 @@ Ad esempio, [!DNL Workfront] potrebbe tenere traccia di tutte le modifiche appor
 ## Requisiti di accesso
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -72,14 +72,14 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 >[!NOTE]
 >
->* [!DNL Workfront] non è in grado di tenere traccia e registrare gli aggiornamenti sui campi personalizzati calcolati.
+>* [!DNL Workfront] non può tenere traccia e registrare gli aggiornamenti sui campi personalizzati calcolati.
 >* Puoi personalizzare l’aggiornamento del sistema per progetti, attività, problemi, portfolio, programmi e utenti. Non è possibile personalizzare l&#39;aggiornamento di sistema per modelli, documenti o schede orario, ma [!DNL Workfront] registra gli aggiornamenti di sistema per questi oggetti.
 >
 
 
 
 * [Aggiungi i campi di cui vuoi tenere traccia [!DNL Workfront] ](#add-fields-you-want-workfront-to-track)
-* [Rimuovere i campi che non si desidera tracciare](#remove-fields-that-you-don-t-want-tracked)
+* [Rimuovi i campi che non desideri tracciare](#remove-fields-you-don-t-want-tracked)
 
 ### Aggiungi i campi di cui vuoi tenere traccia [!DNL Workfront] {#add-fields-you-want-workfront-to-track}
 
@@ -87,37 +87,33 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 >[!NOTE]
 >
->Nei feed di aggiornamento è possibile tenere traccia di un massimo di 300 campi incorporati e personalizzati. Se tieni traccia del numero massimo di campi e desideri tenere traccia di campi aggiuntivi non visualizzati nella scheda secondaria [!UICONTROL Tutti i campi], devi prima rimuovere alcuni dei campi tracciati per poter tenere traccia dei nuovi campi. Per ulteriori informazioni sulla rimozione dei campi dai campi di aggiornamento, vedere [Rimuovere i campi che non si desidera tenere traccia](#remove-fields-that-you-don-t-want-tracked).
+>Nei feed di aggiornamento è possibile tenere traccia di un massimo di 300 campi incorporati e personalizzati. Se tieni traccia del numero massimo di campi e desideri tenere traccia di campi aggiuntivi non visualizzati nella scheda secondaria [!UICONTROL Tutti i campi], devi prima rimuovere alcuni dei campi tracciati per poter tenere traccia dei nuovi campi. Per ulteriori informazioni sulla rimozione dei campi dai campi di aggiornamento, vedere [Rimuovere i campi che non si desidera tenere traccia](#remove-fields-you-don-t-want-tracked).
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Setup]** ![Gear settings icon](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Nel pannello a sinistra, fai clic su **[!UICONTROL Interfaccia]** > **[!UICONTROL Aggiorna feed]**.
+1. Nel pannello a sinistra, fai clic su **[!UICONTROL Interfaccia]**, quindi su **[!UICONTROL Aggiorna feed]**.
 
-1. &#x200B;Fare clic su **[!UICONTROL Aggiungi campi]**, quindi sull&#39;oggetto che si desidera tracciare.
+1. &#x200B;Fare clic su **[!UICONTROL Aggiungi campi]**, quindi selezionare dall&#39;elenco a discesa l&#39;oggetto di cui si desidera tenere traccia.
 
-1. Nella casella **[!UICONTROL Aggiorna feed]** visualizzata&#x200B; iniziare a digitare un campo predefinito (standard) o personalizzato per l&#39;oggetto, quindi fare clic su per selezionarlo quando viene visualizzato nell&#39;elenco.
+1. Nella casella visualizzata, inizia a digitare un campo predefinito (standard) o un campo personalizzato per l’oggetto, quindi selezionalo quando viene visualizzato nell’elenco.
 
-   Se [!DNL Workfront] sta già tenendo traccia del campo, non è possibile aggiungerlo una seconda volta dall&#39;elenco.
+   >[!NOTE]
+   >
+   >Se [!DNL Workfront] sta già tenendo traccia del campo, non è possibile aggiungerlo una seconda volta dall&#39;elenco.
 
-1. Dopo aver aggiunto tutti i campi di cui si desidera tenere traccia in [!DNL Workfront], fare clic su **[!UICONTROL Aggiungi campi]**.
-
-   I campi incorporati aggiunti vengono visualizzati nella scheda secondaria **[!UICONTROL Campi incorporati]**.
-
-   I campi personalizzati aggiunti vengono visualizzati nella scheda secondaria **[!UICONTROL Campi personalizzati]**.
+1. Dopo aver aggiunto tutti i campi di cui si desidera tenere traccia in [!DNL Workfront], fare clic su **[!UICONTROL Aggiungi campi]**. I campi incorporati aggiunti vengono visualizzati nella scheda secondaria **[!UICONTROL Campi incorporati]** e i campi personalizzati nella scheda secondaria **[!UICONTROL Campi personalizzati]**.
 
    La scheda secondaria **[!UICONTROL Tutti i campi]** mostra sia i campi incorporati che quelli personalizzati che vengono tracciati.
 
-### Rimuovere i campi che non si desidera tracciare {#remove-fields-that-you-don-t-want-tracked}
+### Rimuovi i campi che non desideri tracciare {#remove-fields-you-don-t-want-tracked}
 
 È possibile rimuovere i campi di cui non si desidera tenere traccia per un particolare tipo di oggetto nell&#39;interfaccia [!DNL Workfront].
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Setup]** ![Gear settings icon](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Fare clic su **[!UICONTROL Interfaccia]** > **[!UICONTROL Aggiorna feed]**.
+1. Fare clic su **[!UICONTROL Interfaccia]**, quindi su **[!UICONTROL Aggiorna feed]**.
 
-1. Nella scheda **[!UICONTROL Campi tracciati]**, selezionare la scheda secondaria **[!UICONTROL Tutti i campi]**.
-
-   Questo mostra sia i campi incorporati che quelli personalizzati che sono attualmente tracciati.
+1. Nella scheda **[!UICONTROL Campi tracciati]**, selezionare la scheda secondaria **[!UICONTROL Tutti i campi]**. Vengono visualizzati sia i campi incorporati che quelli personalizzati attualmente tracciati.
 
 1. Selezionare il campo di cui si desidera interrompere il rilevamento, quindi fare clic su **[!UICONTROL Rimuovi]**.
 
@@ -198,13 +194,13 @@ Ad esempio, [!DNL Workfront] può registrare un aggiornamento ogni volta che un 
 
 Per configurare le azioni di cui tenere traccia [!DNL Workfront]:
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Setup]** ![Gear settings icon](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Fare clic su **[!UICONTROL Interfaccia]** > **[!UICONTROL Aggiorna feed]**.
+1. Fare clic su **[!UICONTROL Interfaccia]**, quindi su **[!UICONTROL Aggiorna feed]**.
 
 1. Fare clic sulla scheda **[!UICONTROL Azioni]**.
 
-1. Seleziona un’azione per abilitarla o deseleziona un’azione per disabilitarla.
+1. Seleziona la casella di controllo di un’azione per abilitarla o deselezionala per disabilitarla.
 1. Fai clic su **[!UICONTROL Salva]**.
 
 Quando disattivi un&#39;azione, qualsiasi aggiornamento registrato in precedenza su tale azione viene mantenuto nell&#39;area [!UICONTROL Aggiornamenti] in cui è stato registrato.

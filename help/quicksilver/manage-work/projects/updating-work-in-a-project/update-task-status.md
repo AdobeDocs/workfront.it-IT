@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: Aggiorna Stato Attività
-description: È possibile aggiornare lo stato di un'attività per informare gli altri utenti sulla posizione dell'attività (e del progetto complessivo) e sull'avanzamento dell'attività.
+description: È possibile aggiornare lo stato di un'attività per informare gli altri utenti sulla posizione dell'attività (e del progetto complessivo) e sul relativo avanzamento.
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '638'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--Audited: 10/2024-->
 
-È possibile aggiornare lo stato di un&#39;attività per informare gli altri utenti sulla posizione dell&#39;attività (e del progetto complessivo) e sull&#39;avanzamento dell&#39;attività.
+È possibile aggiornare lo stato di un&#39;attività per informare gli altri utenti sulla posizione dell&#39;attività (e del progetto complessivo) e sul relativo avanzamento.
 
 Gli stati predefiniti sono Nuovo (New), In corso (In Progress) e Completo (Complete). Il tuo amministratore Adobe Workfront può aggiungere stati personalizzati per la tua organizzazione. Per ulteriori informazioni, vedere [Creare o modificare uno stato](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
@@ -26,8 +26,6 @@ Gli stati predefiniti sono Nuovo (New), In corso (In Progress) e Completo (Compl
 ## Requisiti di accesso
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
-Per aggiornare manualmente le attività, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +36,7 @@ Per aggiornare manualmente le attività, è necessario disporre dei seguenti dir
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Nuovo: Standard</p> 
    Oppure
    <p>Corrente: Lavoro o versione successiva</p>
@@ -55,7 +53,7 @@ Per aggiornare manualmente le attività, è necessario disporre dei seguenti dir
  </tbody> 
 </table>
 
-*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,23 +68,23 @@ Per aggiornare manualmente le attività, è necessario disporre dei seguenti dir
 
 ## Aggiorna manualmente lo stato delle attività
 
-È possibile aggiornare lo stato dell&#39;attività nelle seguenti aree di Workfront:
+È possibile aggiornare lo stato dell&#39;attività nelle seguenti aree:
 
 * L&#39;intestazione dell&#39;attività nella pagina dell&#39;attività.
-* La casella Modifica attività, quando si modifica un&#39;attività.
+* Casella Modifica attività durante la modifica di un&#39;attività.
 * La sezione Dettagli attività nella pagina dell&#39;attività.
-* In un elenco di attività o in un report, quando il campo Stato è visibile nella visualizzazione.
+* In un elenco di attività o in un report quando il campo Stato è visibile nella visualizzazione.
 * Nel pannello Riepilogo dell’attività.
 
 Per aggiornare manualmente lo stato dell&#39;attività nell&#39;intestazione dell&#39;attività:
 
 1. Passare a un&#39;attività per la quale si desidera aggiornare lo stato.
-1. Fai clic sul campo **Stato** nell&#39;intestazione dell&#39;attività e seleziona un nuovo stato.
-1. Per fornire un&#39;indicazione visiva del completamento dell&#39;attività, trascina o fai doppio clic sulla bolla sotto **Percentuale completata** nell&#39;intestazione dell&#39;attività
+1. Nell&#39;intestazione dell&#39;attività fare clic sul campo **Stato** e selezionare un nuovo stato.
+1. Per fornire un&#39;indicazione visiva del completamento dell&#39;attività, trascina la bolla sotto **Percentuale completata** nell&#39;intestazione dell&#39;attività.
 
    Oppure
 
-   Fai clic all’interno del fumetto nell’intestazione dell’attività per immettere una percentuale.
+   Fai doppio clic all&#39;interno della bolla **Percent Complete** per immettere manualmente una nuova percentuale.
 
    ![](assets/percent-complete-status-widgets-task-header.png)
 
@@ -94,7 +92,7 @@ Per aggiornare manualmente lo stato dell&#39;attività nell&#39;intestazione del
 
    * Per aggiungere una nota sull&#39;aggiornamento, vai alla sezione **Aggiornamenti** e fai clic su **Nuovo commento**, quindi digita una nota.
 
-     ![](assets/add-update-to-task.png)
+     ![Aggiunta di un aggiornamento a un&#39;attività](assets/add-update-to-task.png)
 
    * Per notificare l&#39;aggiornamento ad alcuni utenti, digitarne il nome nel campo **Assegna tag a persone o team** visualizzato quando si digita un commento. Per ulteriori informazioni, consulta [Assegnare tag ad altri in occasione di aggiornamenti](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
    * Per aggiornare la data di conferma dell&#39;attività, fare clic su **Dettagli attività**, quindi modificare il campo **Data conferma**. Per informazioni, vedere [Modifica attività](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
@@ -150,7 +148,7 @@ Workfront aggiorna automaticamente lo stato esistente di un&#39;attività a un a
   <tr data-mc-conditions=""> 
    <td><span>Fare clic sul pulsante Avvia attività per accettare di lavorare su un'attività assegnata a te</span> </td> 
    <td><span>Nuovo</span> </td> 
-   <td> <p>Qualsiasi stato associato al pulsante Avvia attività nelle impostazioni del team predefinito.</p> <p>Per informazioni sulla sostituzione del pulsante Lavoraci con un pulsante Avvia attività, vedere <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Sostituire il pulsante Lavoraci con un pulsante Avvia</a></span>.</p> <p>Suggerimento: <span>Facendo clic</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">sul pulsante Annulla</span>dopo aver fatto clic su Avvia attività, lo stato viene ripristinato su Nuovo. </p> </td> 
+   <td> <p>Qualsiasi stato associato al pulsante Avvia attività nelle impostazioni del team predefinito.</p> <p>Per informazioni sulla sostituzione del pulsante Lavoraci con un pulsante Avvia attività, vedere <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Sostituire il pulsante Lavoraci con un pulsante Avvia</a></span>.</p> <p>Suggerimento: <span>Facendo clic</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">sul pulsante Annulla</span> dopo aver fatto clic su Avvia attività, lo stato viene ripristinato su Nuovo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

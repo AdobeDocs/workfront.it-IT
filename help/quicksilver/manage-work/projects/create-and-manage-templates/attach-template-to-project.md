@@ -6,14 +6,16 @@ description: È possibile allegare un modello a un progetto durante la fase iniz
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1151'
 ht-degree: 0%
 
 ---
 
 # Allegare un modello a un progetto
+
+<!-- Audited: 5/2025 -->
 
 È possibile allegare un modello a un progetto durante la fase iniziale di creazione del progetto o dopo la sua creazione.
 
@@ -21,23 +23,26 @@ Per ulteriori informazioni sulla creazione di un progetto utilizzando un modello
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p>Nuovo: Standard</p>
+   <p>Oppure</p>
+   <p>Corrente: Piano</p>
+    </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modifica accesso ai progetti </p> <p>Per informazioni sull'accesso al progetto, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Concedere l'accesso ai progetti</a>.</p> <p>Accesso ai modelli</p> <p>Per informazioni sulle autorizzazioni per i modelli, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Condividere un modello</a>. </p> <p>Per informazioni sull'accesso ai modelli, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Concedere l'accesso ai modelli</a>.</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modifica accesso ai progetti </p> <p>Per informazioni sull'accesso al progetto, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Concedere l'accesso ai progetti</a>.</p> <p>Accesso ai modelli</p> <p>Per informazioni sulle autorizzazioni per i modelli, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Condividere un modello</a>. </p> <p>Per informazioni sull'accesso ai modelli, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Concedere l'accesso ai modelli</a>.</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il livello di accesso, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare e modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
@@ -46,7 +51,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -75,24 +82,26 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Allega un modello a un progetto esistente {#attach-a-template-to-an-existing-project}
 
-È possibile allegare un modello a un progetto in Workfront dalla pagina del progetto o da un elenco o report di progetti.
+È possibile allegare un modello a un progetto dalla pagina del progetto o da un elenco o report di progetti.
 
-1. Vai al progetto in cui desideri allegare un modello e fai clic sull&#39;icona **Altro** ![Altro](assets/qs-more-icon-on-an-object.png) a destra del nome del progetto
+{{step1-to-projects}}
 
-   ![Altro menu a discesa](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+1. Nella pagina **Progetti** selezionare il progetto a cui si desidera allegare un modello.
+
+1. Fai clic sull&#39;icona **Altro** ![Icona Altro](assets/qs-more-icon-on-an-object.png) a destra del nome del progetto.
+
+   ![Altro menu a discesa](assets/more-dropdown.png)
 
    Oppure
 
    Vai a un elenco o a un report di progetti e seleziona un progetto, quindi fai clic sull&#39;icona **Altro** ![Altro](assets/qs-more-icon-on-an-object.png) nella parte superiore dell&#39;elenco.
 
-   ![Menu Altro espanso](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![Menu Altro espanso](assets/more-menu-expanded.png)
 
 
-1. Fare clic su **Allega modello**.
+1. Fare clic su **Allega modello**. Viene visualizzata la casella **Allega modello**.
 
-   Viene visualizzata la casella Allega modello (Attach Template).
-
-1. Inizia a digitare il nome del modello da allegare nel campo **Cerca modelli**, quindi fai clic su di esso quando viene visualizzato.nell&#39;elenco
+1. Inizia a digitare il nome del modello da allegare nel campo **Cerca modelli**, quindi fai clic su di esso quando viene visualizzato nell&#39;elenco.
 
    Oppure
 
@@ -108,16 +117,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    ![Allega casella modello](assets/attach-template-box-template-preview-area-nwe-350x282.png)
 
-1. (Facoltativo) Fai clic sull&#39;icona **Preferiti** ![Preferiti](assets/favorites-icon-small.png) a sinistra del nome del modello per contrassegnarlo come preferito. In questo modo il modello viene spostato nell&#39;elenco Preferiti.
+1. (Facoltativo) Fai clic sull&#39;icona **Preferiti** ![Preferiti](assets/favorites-icon-small.png) a destra del nome del modello per contrassegnarlo come preferito e spostarlo nell&#39;elenco **Preferiti**.
 
-   ![Icona Preferiti nell&#39;elenco modelli](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
+1. (Facoltativo) Fai di nuovo clic sull&#39;icona **Preferiti** ![Preferiti](assets/favorites-icon-selected.png) per rimuoverla dall&#39;elenco **Preferiti**.
+1. Fare clic su **Personalizza e allega**. Viene aperto il pannello laterale **Allega modello**.
 
-1. (Facoltativo) Fai di nuovo clic sull&#39;icona **Preferiti** ![Preferiti](assets/favorites-icon-selected.png) per rimuoverla dall&#39;elenco Preferiti.
-1. Fare clic su **Personalizza e allega**.
-
-   ![Allega modello](assets/attach-template-large-box-nwe-350x262.png)
-
-1. Aggiorna le informazioni nelle sezioni seguenti prima di allegare il modello (oppure fai clic su **Allega modello** in qualsiasi momento):
+1. (Facoltativo) Aggiorna le informazioni nelle sezioni seguenti:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -132,7 +137,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      </tr> 
      <tr> 
       <td role="rowheader">Selezionare l'attività di progetto che si desidera come predecessore delle attività in questo modello.</td> 
-      <td> <p>Fare clic sul campo per visualizzare un elenco delle attività del progetto. Selezionare l'attività di progetto che si desidera completare prima di poter avviare le attività modello. In alternativa, puoi saltare questo passaggio e impostare relazioni all’interno del progetto dopo aver allegato il modello. </p> <p> Seleziona le informazioni relative al <strong>Tipo di dipendenza</strong>, <strong>Lag</strong> e specifica se il predecessore deve essere <strong>Imposto</strong> o meno. </p> </td> 
+      <td> <p>Fare clic sul campo per visualizzare un elenco delle attività del progetto, quindi selezionare l'attività che deve essere completata prima che le attività del modello possano iniziare. In alternativa, puoi saltare questo passaggio e impostare relazioni all’interno del progetto dopo aver allegato il modello. </p> <p> Selezionare le informazioni relative al <strong>Tipo di dipendenza</strong>, al <strong>Tempo di ritardo</strong> e se si desidera applicare il predecessore selezionando la casella di controllo <strong>Applica predecessore</strong>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Selezionare l'attività di progetto che si desidera utilizzare come padre delle attività in questo modello.</td> 
@@ -143,7 +148,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      </tr> 
      <tr> 
       <td role="rowheader">Gli elementi selezionati di seguito vengono trasferiti al progetto. Deseleziona quelli da escludere.</td> 
-      <td> <p>Deselezionate le caselle di controllo accanto alle informazioni che desiderate cancellare dal modello prima di allegarle al progetto. Queste informazioni non vengono trasferite dal modello al progetto. Per ulteriori informazioni su ciascun campo, vedere <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">Panoramica sull'associazione di un modello a un progetto</a>. </p> <p>Importante: se si seleziona la casella <strong>Impostazione proprietà coda e problemi</strong>, i dettagli coda del modello sovrascriveranno quelli del progetto. In questo caso, le Regole di instradamento, gli Argomenti coda e i Gruppi di argomenti del modello vengono aggiunti a quelli del progetto. <br>Se il progetto è configurato come coda di richieste e il modello allegato al progetto non è configurato come coda di richieste, le informazioni sulla coda del progetto vengono rimosse se si lascia selezionata la casella <strong>Proprietà coda e configurazione problemi</strong>. <br>Se si deseleziona la casella <strong>Proprietà coda e Configurazione problema</strong>, tutte le impostazioni di Configurazione coda del progetto vengono mantenute e nessuna impostazione di Configurazione coda del modello viene allegata. </p> </td> 
+      <td> <p>Deseleziona le caselle di controllo relative alle informazioni da escludere dal modello prima di allegarle al progetto. Per ulteriori informazioni su ciascun campo, vedere <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">Panoramica sull'associazione di un modello a un progetto</a>. </p> <p>Importante: se si seleziona la casella <strong>Impostazione proprietà coda e problemi</strong>, i dettagli coda del modello sovrascriveranno quelli del progetto. In questo caso, le Regole di instradamento, gli Argomenti coda e i Gruppi di argomenti del modello vengono aggiunti a quelli del progetto. <br>Se il progetto è configurato come coda di richieste e il modello associato al progetto non è impostato come coda di richieste, le informazioni sulla coda del progetto vengono rimosse se si lascia selezionata la casella <strong>Proprietà coda e configurazione problemi</strong>. <br>Se si deseleziona la casella <strong>Proprietà coda e Configurazione problema</strong>, tutte le impostazioni di Configurazione coda del progetto vengono mantenute e nessuna impostazione di Configurazione coda del modello viene allegata. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">Sezione Forms personalizzata</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-custom-forms-section-nwe-350x274.png" style="width: 350;height: 274;"> </p> </td> 
@@ -160,7 +165,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >[!TIP]
    >
    >* Questo passaggio è obbligatorio quando i moduli personalizzati nel modello contengono campi obbligatori vuoti.
-   >* Se i campi dei moduli personalizzati del modello esistono già nel progetto e contengono informazioni, queste vengono mantenute nel progetto. Non è possibile modificarli durante l&#39;associazione del modello.
+   >* Se i campi dei moduli personalizzati del modello esistono già nel progetto e contengono informazioni, queste vengono mantenute nel progetto. Non è possibile modificarli mentre si allega il modello.
 
 1. Fare clic su **Allega modello.**
 1. Fare clic su **Annulla allegato** per interrompere l&#39;associazione del modello.
@@ -171,28 +176,32 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Dopo aver allegato il modello, è possibile modificare il progetto e modificare le attività, le informazioni o le impostazioni in base alle esigenze.
 
-1. (Facoltativo) Fai clic su **Dettagli progetto**, quindi su **Panoramica** per visualizzare il nome del modello allegato nell&#39;area **Relazioni progetto**.
+1. (Facoltativo) Nel pannello a sinistra, fai clic su **Dettagli progetto**, quindi su **Panoramica** per visualizzare il nome del modello allegato nell&#39;area **Relazioni progetto**.
 
    >[!TIP]
    >
-   >Se si allegano più modelli al progetto, in questo campo viene visualizzato solo il modello applicato per primo. Per informazioni, vedere la sezione [Allegare più modelli a un progetto esistente e visualizzare le informazioni sul modello](#attach-multiple-templates-to-an-existing-project-and-view-template-information) in questo articolo.
+   >Se si allegano più modelli al progetto, in questo campo verrà visualizzato solo il modello applicato per primo. Per informazioni, vedere la sezione [Allegare più modelli a un progetto esistente e visualizzare le informazioni sul modello](#attach-multiple-templates-to-an-existing-project-and-view-template-information) in questo articolo.
 
 1. (Facoltativo) Rimuovi le informazioni sul modello dal progetto in cui è stato allegato il modello. Per informazioni, vedere [Rimuovere le informazioni sul modello da un progetto](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md).
 
 ## Allegare più modelli a un progetto esistente e visualizzare le informazioni sul modello {#attach-multiple-templates-to-an-existing-project-and-view-template-information}
 
-È possibile allegare più modelli (uno alla volta) allo stesso progetto, seguendo i passaggi descritti nella sezione [Allegare un modello a un progetto esistente](#attach-a-template-to-an-existing-project) in questo articolo. In questo modo le attività e altre informazioni di ogni modello vengono aggiunte al progetto.
+È possibile allegare più modelli (uno alla volta) allo stesso progetto seguendo i passaggi descritti nella sezione [Allegare un modello a un progetto esistente](#attach-a-template-to-an-existing-project) in questo articolo. In questo modo le attività e altre informazioni di ogni modello vengono aggiunte al progetto.
 
 >[!TIP]
 >
->Quando si allegano diversi modelli a un progetto, nell&#39;area Dettagli progetto viene visualizzato solo il modello associato per primo.
+>Quando alleghi più modelli a un progetto, nell’area Dettagli progetto viene visualizzato solo il modello allegato per primo.
 
-Per capire quale modello viene applicato a un progetto:
+Per visualizzare il modello applicato a un progetto:
 
-1. Passa a un progetto a cui è associato un modello.
+{{step1-to-projects}}
+
+1. Nella pagina **Progetti** selezionare il progetto a cui è associato un modello.
+
 1. Fai clic su **Dettagli progetto** nel pannello a sinistra.
-1. Trova il nome del modello allegato al progetto nel campo **Modello** nella parte inferiore della sezione **Panoramica** in **Relazioni progetto**.
 
-   ![Informazioni modello sul progetto](assets/nwe-template-info-on-project-350x356.png)
+1. Individua il nome del modello associato al progetto nel campo **Modello** nella parte inferiore della sezione **Panoramica** in **Relazioni progetto**.
+
+   ![Informazioni sul modello in un progetto](assets/nwe-template-info-on-project-350x356.png)
 
 

@@ -2,19 +2,21 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: "Panoramica sul tipo di durata: assegnazione calcolata"
+title: 'Panoramica sul tipo di durata: assegnazione calcolata'
 description: L'assegnazione calcolata è un tipo di durata che è possibile impostare per un'attività in Adobe Workfront. Per informazioni generali sui tipi di durata in Workfront, vedere Panoramica sulla durata e sul tipo di durata dell'attività.
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
 
 # Panoramica sul tipo di durata: assegnazione calcolata
+
+<!-- Audited: 5/2025 -->
 
 L&#39;assegnazione calcolata è un tipo di durata che è possibile impostare per un&#39;attività in Adobe Workfront. Per informazioni generali sui tipi di durata in Workfront, vedere [Panoramica sulla durata dell&#39;attività e sul tipo di durata](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
@@ -31,7 +33,7 @@ L&#39;assegnazione calcolata è un tipo di durata che è possibile impostare per
 
 Assegnazione calcolata è il tipo di durata preferito nelle situazioni seguenti:
 
-* Quando le assegnazioni hanno una finestra di attività ma non prendono l&#39;intera Durata assegnata per completare il loro lavoro. Ad esempio, ti viene assegnato il compito di consegnare un rapporto al tuo supervisore entro la fine della settimana. Hai una durata di cinque giorni, ma la bozza del documento richiederà solo dieci ore.
+* Quando le assegnazioni hanno una finestra di attività ma non prendono l&#39;intera Durata assegnata per completare il loro lavoro. Ad esempio, ti viene assegnato il compito di consegnare un rapporto al tuo supervisore entro la fine della settimana. Hai una durata di cinque giorni, ma la bozza del documento richiederà solo 10 ore.
 * Quando a un&#39;attività viene assegnata una singola risorsa perché il project manager può stimare la durata pianificata e la quantità di impegno pianificata in modo indipendente l&#39;una dall&#39;altra.
 
   È possibile utilizzare il tipo di durata del lavoro calcolato per lo stesso risultato, ma il project manager deve immettere un&#39;allocazione percentuale per la risorsa per poter influire sul valore calcolato per le ore pianificate. Ciò rende la pianificazione del progetto più difficile e dispendiosa in termini di tempo.

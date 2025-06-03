@@ -2,23 +2,24 @@
 content-type: reference
 product-area: programs
 navigation-topic: portfolios-navigation-topic
-title: Creare e gestire i programmi
-description: I programmi rappresentano una raccolta di progetti che condividono una strategia, un obiettivo o un obiettivo comune che trascende i limiti del progetto. I programmi sono una suddivisione dei portafogli e non possono esistere al di fuori di un portfolio.
+title: 'Creazione e gestione di programmi: indice articolo'
+description: I programmi sono una raccolta di progetti che contribuiscono a una strategia, un obiettivo o un obiettivo comune. I programmi sono una suddivisione di portafogli e non possono esistere al di fuori di un portfolio.
 author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: 3c796bab-b468-451a-adf8-8180f67546ee
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
 
-# Creare e gestire i programmi
+# Creazione e gestione di programmi: indice articolo
 
-I programmi rappresentano una raccolta di progetti che condividono una strategia, un obiettivo o un obiettivo comune che trascende i limiti del progetto.
-I programmi sono una suddivisione dei portafogli e non possono esistere al di fuori di un portfolio.
+I programmi sono una raccolta di progetti che contribuiscono a una strategia, un obiettivo o un obiettivo comune.
+
+I programmi sono una suddivisione di portafogli e non possono esistere al di fuori di un portfolio.
 
 Questa sezione contiene i seguenti articoli:
 
