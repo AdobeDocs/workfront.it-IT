@@ -6,7 +6,7 @@ description: Puoi creare attività personali in Adobe [!DNL Workfront] da Micros
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
-source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
+source-git-commit: 372b7566fa5eb38703905b22ff43d49a76bcb400
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >Man mano che Microsoft passa al client New Teams, il client Classic Teams non sarà più disponibile dopo il 1° luglio 2025. In preparazione, stiamo sviluppando una nuova versione dell’integrazione di Microsoft Teams che sarà completamente compatibile con il client New Teams e disponibile prima del 1° luglio per garantire una transizione senza intoppi.
 >
->Le istruzioni su come scaricare e installare l’integrazione nel client New Teams verranno visualizzate qui dopo che l’integrazione sarà disponibile.
+>Le istruzioni su come scaricare e installare l’integrazione nel client New Teams saranno disponibili dopo il rilascio dell’integrazione.
 
 ## Requisiti di accesso
 
