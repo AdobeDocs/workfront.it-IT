@@ -9,16 +9,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 137d7112c051322c191488463e52abdd73e50d1f
+source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
 workflow-type: tm+mt
-source-wordcount: '2894'
+source-wordcount: '2851'
 ht-degree: 6%
 
 ---
 
 # Importare dati in Workfront utilizzando un modello di avvio
-
-{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -492,15 +490,7 @@ Per importare i dati del foglio di calcolo del modello in Workfront:
 
 1. Nella sezione **Carica dati con foglio di calcolo di avvio**, fai clic su **Scegli il file**, quindi individua e seleziona il foglio di calcolo popolato.
 
-   <div class="preview">
-
-   Nell’ambiente di anteprima, il file viene caricato automaticamente e viene visualizzata una notifica di completamento dell’importazione.
-
-   Se il caricamento del file Excel in Workfront richiede più di 5 minuti, l’applicazione va in timeout e Workfront non può caricare il file. Prova a importare i dati in batch più piccoli di oggetti.
-
-   </div>
-
-1. (Solo nell&#39;ambiente di produzione) Fai clic su **Carica**.
+   Il file viene caricato automaticamente e viene visualizzata una notifica di completamento dell’importazione.
 
    Se il caricamento del file Excel in Workfront richiede più di 5 minuti, l’applicazione va in timeout e Workfront non può caricare il file. Prova a importare i dati in batch più piccoli di oggetti.
 

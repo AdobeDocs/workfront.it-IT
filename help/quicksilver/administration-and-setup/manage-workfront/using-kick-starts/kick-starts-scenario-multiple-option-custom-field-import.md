@@ -9,16 +9,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 137d7112c051322c191488463e52abdd73e50d1f
+source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: '2163'
 ht-degree: 0%
 
 ---
 
 # Scenario Kick-Start: importare campi personalizzati con più opzioni in Workfront
-
-{{highlighted-preview}}
 
 Puoi importare campi personalizzati con più opzioni in Adobe Workfront utilizzando la funzionalità di avvio.
 
@@ -144,20 +142,17 @@ Prima di popolare il foglio di calcolo Excel, scarica il modello di avvio come d
 
 Per popolare il foglio di calcolo Excel con le informazioni per i nuovi campi personalizzati:
 
-1. Aprire il foglio di calcolo di Excel scaricato nella sezione precedente e notare un certo numero di fogli. Ogni foglio rappresenta un oggetto nell&#39;applicazione.
+1. Aprire il foglio di calcolo di Excel scaricato nella sezione precedente e rivedere i fogli. Ogni foglio rappresenta un oggetto nell&#39;applicazione.
 
-   >[!INFO]
-   >
-   >Ad esempio, **Parametro** (che fa riferimento al campo personalizzato), **Opzione parametro** (che fa riferimento all&#39;opzione Campo personalizzato), **Categoria** (che fa riferimento al modulo personalizzato).
-   >
-   >È necessario scrivere i nomi degli oggetti e dei relativi attributi nel formato supportato dal database di Workfront.
-   >
-   >Per informazioni sul significato di questi oggetti, vedi il [Glossario della [!DNL Adobe Workfront] terminologia](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
-   >
-   >Per informazioni sui nomi degli oggetti nel database di Workfront, vedere [API Explorer](../../../wf-api/general/api-explorer.md).
-   >
-   >![Fogli inclusi nell&#39;esportazione dei dati](assets/sheets-included-in-custom-data-export-kick-start-file.png)
+   Ad esempio, **Parametro** (che fa riferimento al campo personalizzato), **Opzione parametro** (che fa riferimento all&#39;opzione Campo personalizzato), **Categoria** (che fa riferimento al modulo personalizzato).
 
+   È necessario scrivere i nomi degli oggetti e dei relativi attributi nel formato supportato dal database di Workfront.
+
+   Per informazioni sul significato di questi oggetti, vedi il [Glossario della [!DNL Adobe Workfront] terminologia](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+
+   Per informazioni sui nomi degli oggetti nel database di Workfront, vedere [API Explorer](../../../wf-api/general/api-explorer.md).
+
+   ![Fogli inclusi nell&#39;esportazione dei dati](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
 1. Verifica che le seguenti informazioni siano formattate correttamente:
 
@@ -179,9 +174,11 @@ Per popolare il foglio di calcolo Excel con le informazioni per i nuovi campi pe
 
    * **`ID`** = deve essere un numero univoco per ogni riga che rappresenta un nuovo campo. È possibile utilizzare qualsiasi numero che inizia con 1, a condizione che ogni nuovo campo abbia un numero univoco.
    * **`setDataType`** = per ogni riga che rappresenta un nuovo campo, immettere il tipo di dati supportato dal campo. Il Tipo di dati deve essere immesso così come apparirebbe nel database. Selezionare uno dei tipi di dati seguenti:
+
       * **`NMBR`** per numero
       * **`CURC`** per la valuta
       * **`TEXT`** per testo
+
    * `**setDisplaySize**`= la dimensione di visualizzazione (&#39;**setDisplaySize**&#39;) per i campi personalizzati con più opzioni è sempre 0.
    * **`setDisplayType`** = per ogni riga che rappresenta un nuovo campo, immettere il tipo di visualizzazione del campo. Il Tipo di visualizzazione deve essere immesso come apparirebbe nel database.
 
@@ -225,13 +222,12 @@ Per popolare il foglio di calcolo Excel con le informazioni per i nuovi campi pe
      >
      >Per ogni campo è disponibile una sola opzione predefinita.
 
-   * **`setParameterID`** = le opzioni corrispondenti al campo personalizzato _Brand_ hanno **`setParameterID`** di 1 e le opzioni corrispondenti al _Media_ hanno **`setParameterID`**&#x200B;di 2. I fogli `PARAM` e `POPT` si incrociano per indicare le opzioni appartenenti a ciascun campo personalizzato.
+   * **`setParameterID`** = le opzioni corrispondenti al campo personalizzato _Brand_ hanno **`setParameterID`** di 1 e le opzioni corrispondenti al _Media_ hanno **`setParameterID`**di 2. I fogli `PARAM` e `POPT` si incrociano per indicare le opzioni appartenenti a ciascun campo personalizzato.
    * **`setDisplayOrder`**= la colonna dell&#39;ordine di visualizzazione indica l&#39;ordine di visualizzazione delle opzioni nel campo personalizzato. Puoi iniziare con 1 e continuare in ordine crescente per tutte le opzioni, indipendentemente dai campi a cui apparterranno. La cosa importante qui è avere numeri univoci per ogni opzione.
    * Le colonne **`setLabel`** e `**setValue`** in genere contengono le stesse informazioni e devono riflettere i nomi desiderati nell&#39;interfaccia utente di Workfront. Il valore di un’opzione è il nome visualizzato nei rapporti, ad esempio, mentre l’etichetta viene visualizzata nei moduli personalizzati quando è associata a un oggetto. Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    * **`setIsHidden`** = immetti `TRUE` se vuoi che una delle opzioni sia nascosta.
 
    ![Foglio parametri compilato](assets/parameter-option-sheet-filled-out-kick-starts.png)
-
 
 1. (Facoltativo) Se si desidera anche creare un modulo personalizzato in cui aggiungere i nuovi campi in un secondo momento, selezionare il foglio **`CTGY Category`** e aggiornare le seguenti colonne obbligatorie per le informazioni del modulo personalizzato:
 
@@ -277,23 +273,7 @@ Dopo aver eseguito i passaggi descritti nelle sezioni precedenti, continuare con
 
 1. Cercare il foglio di calcolo Excel preparato, nel computer e selezionarlo quando lo si trova.
 
-   <div class="preview">
-
    Il file viene caricato automaticamente e viene visualizzata una notifica di completamento dell’importazione. A seconda della quantità di informazioni importate, questo passaggio potrebbe richiedere alcuni secondi o un minuto.
-
-   I nuovi campi e moduli personalizzati sono ora disponibili nel sistema Workfront. Puoi trovarli nell’area Forms personalizzata di Configurazione.
-
-   >[!NOTE]
-   >
-   >I nuovi moduli e i campi importati non sono ancora connessi. Il modulo viene importato senza campi personalizzati. È necessario aggiungere manualmente i campi al nuovo modulo personalizzato o a un altro modulo personalizzato esistente.
-
-   Per informazioni sull&#39;aggiunta di campi ai moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-
-   </div>
-
-1. (Solo nell&#39;ambiente di produzione) Fai clic su **Carica**.
-
-   Viene visualizzata una notifica di completamento dell’importazione. A seconda della quantità di informazioni importate, questo passaggio potrebbe richiedere alcuni secondi o un minuto.
 
    I nuovi campi e moduli personalizzati sono ora disponibili nel sistema Workfront. Puoi trovarli nell’area Forms personalizzata di Configurazione.
 
