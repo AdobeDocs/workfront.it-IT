@@ -6,7 +6,7 @@ description: Il componente aggiuntivo  [!DNL Adobe Workfront] [!DNL Outlook] con
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
+source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 0%
@@ -24,7 +24,6 @@ ht-degree: 0%
 >* **Dopo la completa disattivazione di questi token da parte di Microsoft, l&#39;integrazione di Workfront per Microsoft Outlook non funzionerà più.**
 >
 >Come parte di questa modifica, Microsoft ha deciso di cambiare il modo in cui i token vengono riabilitati. Dopo il **30 giugno 2025**, gli amministratori non saranno più in grado di riabilitare i token personalmente. Solo il supporto Microsoft può concedere eccezioni. **Il 1° ottobre 2025, i token legacy verranno disattivati per tutti i tenant. Le eccezioni non verranno concesse.**
-
 
 Il componente aggiuntivo [!DNL Adobe Workfront] [!DNL Outlook] consente di eseguire le seguenti attività chiave [!DNL Workfront] direttamente da Outlook:
 
