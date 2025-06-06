@@ -6,14 +6,23 @@ description: Puoi convertire le e-mail in [!DNL Adobe Workfront] attività o pro
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 00755c27-9fc9-4357-a39b-4f9772484252
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
 
 # Aggiungere un&#39;e-mail di [!DNL Outlook] a un progetto come attività o problema
+
+>[!IMPORTANT]
+>
+>Microsoft [È in corso la disabilitazione del supporto per i token online di Exchange legacy](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), attualmente utilizzati dal componente aggiuntivo di Workfront Outlook per l&#39;autenticazione. Questa modifica di Microsoft ha già iniziato a interessare i clienti e continuerà a essere implementata in più fasi fino a ottobre 2025.
+>
+>* **Dopo la completa disattivazione di questi token da parte di Microsoft, l&#39;integrazione di Workfront per Microsoft Outlook non funzionerà più.**
+>
+>Come parte di questa modifica, Microsoft ha deciso di cambiare il modo in cui i token vengono riabilitati. Dopo il **30 giugno 2025**, gli amministratori non saranno più in grado di riabilitare i token personalmente. Solo il supporto Microsoft può concedere eccezioni. **Il 1° ottobre 2025, i token legacy verranno disattivati per tutti i tenant. Le eccezioni non verranno concesse.**
+
 
 È possibile convertire le e-mail in [!DNL Adobe Workfront] attività o problemi. Dopo la conversione di un’e-mail, l’attività o il problema viene visualizzato sul progetto selezionato durante la conversione.
 
