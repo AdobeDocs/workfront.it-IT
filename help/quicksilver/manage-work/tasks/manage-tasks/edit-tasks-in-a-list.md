@@ -2,49 +2,55 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Modificare le attività in un elenco
-description: È possibile modificare le informazioni sulle attività in un elenco di attività modificando i campi visualizzati nell'elenco. Per informazioni su altri modi per modificare le attività, vedere Modificare le attività.
+description: È possibile modificare le informazioni sulle attività in un elenco di attività modificando i campi visualizzati nell'elenco.
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 42243c1f09b9d7eaa6705a0722fd3650bbc95266
 workflow-type: tm+mt
-source-wordcount: '2848'
+source-wordcount: '2756'
 ht-degree: 2%
 
 ---
 
 # Modificare le attività in un elenco {#edit-tasks-in-a-list}
 
+<!-- Audited: 5/2025 -->
+
 È possibile modificare le informazioni sulle attività in un elenco di attività modificando i campi visualizzati nell&#39;elenco. Per informazioni su altri modi per modificare le attività, vedere [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Lavoro o superiore</p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p>Nuovo: Standard<p>
+   <p>Corrente: Lavoro o versione successiva</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modifica accesso ad attività e progetti</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Autorizzazioni Contribute o superiori per l’attività e il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Autorizzazioni di contribuzione o superiori per l'attività e il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerazioni sulla modifica delle attività in un elenco {#considerations-about-editing-tasks-in-a-list}
 
@@ -52,7 +58,7 @@ La modifica delle attività in un elenco è un modo rapido per apportare modific
 
 Quando si modificano attività in un elenco, tenere presente quanto segue:
 
-* A differenza delle autorizzazioni di gestione necessarie per l&#39;attività quando questa viene modificata nella casella di modifica, è possibile modificare un&#39;attività in un elenco solo con le autorizzazioni di Contribute per l&#39;attività. Questo consente di modificare le seguenti informazioni limitate per l&#39;attività:
+* Diversamente dalla necessità di gestire le autorizzazioni per l&#39;attività quando la si modifica nella casella di modifica, è possibile modificare un&#39;attività in un elenco solo con le autorizzazioni Contribute per l&#39;attività. Questo consente di modificare le seguenti informazioni limitate per l&#39;attività:
 
    * Descrizione
    * Stato
@@ -86,11 +92,11 @@ Quando si modificano attività in un elenco, tenere presente quanto segue:
 
 ## Selezionare un&#39;opzione di salvataggio durante la modifica delle attività in un elenco {#select-a-save-option-when-editing-tasks-in-a-list}
 
-È possibile decidere dove vengono salvate automaticamente le modifiche apportate alle attività in un elenco, quando si verificano o se si desidera salvare manualmente ogni modifica.
+È possibile decidere se le modifiche apportate alle attività in un elenco vengono salvate automaticamente quando si verificano oppure se si desidera salvare manualmente ogni modifica.
 
 >[!IMPORTANT]
 >
->A seconda che le attività vengano salvate automaticamente o manualmente, è possibile che le informazioni di un altro utente vengano sovrascritte durante la modifica delle attività in un elenco. Per informazioni sul modo in cui Workfront salva le modifiche apportate contemporaneamente ad altri utenti, vedere [Panoramica sul salvataggio delle modifiche simultanee in un elenco di attività](../../../manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md).
+>A seconda che le attività vengano salvate automaticamente o manualmente, è possibile che le informazioni di un altro utente vengano sovrascritte durante la modifica delle attività in un elenco. Per ulteriori informazioni, vedere [Panoramica sul salvataggio delle modifiche simultanee in un elenco di attività](../../../manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md).
 
 Quando si salvano le modifiche in un elenco per un progetto il cui Tipo di aggiornamento è selezionato Automatico o Automatico e Al momento della modifica, Workfront aggiorna la sequenza temporale del progetto, insieme a tutte le dipendenze all&#39;interno del progetto e tra progetti. I calcoli della sequenza temporale possono richiedere molto tempo se il progetto è di grandi dimensioni o se vi sono molte dipendenze. Alcuni metodi di modifica di un elenco di attività possono essere più veloci di altri, a seconda del metodo selezionato per salvare le modifiche.
 
@@ -114,21 +120,23 @@ Quando si salvano automaticamente le modifiche all&#39;elenco attività, tenere 
 
 * È possibile applicare una visualizzazione personalizzata all&#39;elenco delle attività e modificare qualsiasi campo relativo alle attività a cui si ha accesso per l&#39;aggiornamento.
 * Impossibile annullare le modifiche salvate automaticamente. Questa è l&#39;impostazione predefinita.
-* Workfront ricalcola automaticamente la timeline del progetto e tutte le dipendenze interne e tra progetti dopo ogni modifica, quando il tipo di aggiornamento del progetto è Automatico o Automatico e In caso di modifica. Per informazioni sul tipo di aggiornamento del progetto, vedere [Selezionare il tipo di aggiornamento del progetto](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+* Quando il tipo di aggiornamento del progetto è Automatico o Automatico e Su modifica, Workfront ricalcola automaticamente la timeline del progetto e tutte le dipendenze interne e tra progetti dopo ogni modifica. Per informazioni sul tipo di aggiornamento del progetto, vedere [Selezionare il tipo di aggiornamento del progetto](../../../manage-work/projects/manage-projects/select-project-update-type.md).
 
 Per modificare le attività in un elenco e salvare automaticamente le modifiche:
 
-1. Vai al progetto, quindi fai clic sulla sezione **Attività**.
-1. Fare clic sul menu **Modalità pianificazione** ![](assets/qs-list-mode-or-save-mode-icon-small.png) nella parte superiore dell&#39;elenco e assicurarsi che l&#39;opzione **Salvataggio automatico** sia selezionata.
+{{step1-to-projects}}
 
-   ![](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
+1. Nella pagina **Progetti**, seleziona un progetto.
+1. Nel pannello a sinistra, fai clic sulla sezione **Attività**.
+
+1. Fai clic sull&#39;icona **Modalità pianificazione** ![Icona Modalità pianificazione](assets/plan-mode-icon.png) nella parte superiore dell&#39;elenco e accertati che sia selezionata l&#39;opzione **Salvataggio automatico**.
+
+   ![Abilitare l&#39;impostazione del salvataggio automatico](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
 
 1. Modifica qualsiasi campo per il quale disponi delle autorizzazioni necessarie per eseguire manualmente l’aggiornamento.
 
-   ![](assets/inline-editing-a-task-350x26.png)
-
 1. (Facoltativo) Premi **Esc** per annullare le modifiche.
-1. Premi Invio per salvare le modifiche apportate alle attività e alla sequenza temporale del progetto.
+1. Premi **Invio** (Windows) o **Ritorno** (Mac) sulla tastiera per salvare le modifiche apportate alle attività e alla sequenza temporale del progetto.
 1. (Facoltativo) Fai clic con il pulsante destro del mouse su un’attività da modificare.
 
    Oppure
@@ -142,12 +150,20 @@ Per modificare le attività in un elenco e salvare automaticamente le modifiche:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Apri in una nuova scheda</strong></td> 
+      <td role="rowheader">Apri in una nuova scheda</td> 
       <td>Apre l'attività in una nuova scheda del browser. </td> 
      </tr> 
+          <tr> 
+      <td role="rowheader">Inserisci attività in alto</td> 
+      <td>Inserisce un'attività sopra l'attività selezionata.</td> 
+     </tr> 
      <tr> 
-      <td role="rowheader"><strong>Modifica</strong></td> 
-      <td><p>Apre la casella <strong>Modifica attività</strong>, in cui è possibile modificare l'attività.</p><p>Per informazioni sulla modifica di un'attività, vedere <a href="#edit-tasks-in-a-list" class="MCXref xref">Modificare le attività in un elenco</a>.</p></td> 
+      <td role="rowheader">Inserisci attività in basso</td> 
+      <td>Inserisce un'attività sotto l'attività selezionata</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Modifica</td> 
+      <td><p>Apre la casella Modifica attività, in cui è possibile modificare l'attività.</p><p>Per informazioni sulla modifica di un'attività, vedere <a href="#edit-tasks-in-a-list" class="MCXref xref">Modificare le attività in un elenco</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Elimina</td> 
@@ -160,31 +176,21 @@ Per modificare le attività in un elenco e salvare automaticamente le modifiche:
      <tr> 
       <td role="rowheader">Rientro negativo</td> 
       <td><p>Riduce il rientro dell'attività di un livello. </p><p>Questa opzione viene visualizzata solo sulle attività figlio. </p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Inserisci attività in alto</td> 
-      <td>Inserisce un'attività sopra l'attività selezionata.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Inserisci attività in basso</td> 
-      <td>Inserisce un'attività sotto l'attività selezionata</td> 
-     </tr> 
+     </tr>  
      <tr> 
       <td role="rowheader">Duplica</td> 
       <td><p>Crea una versione duplicata dell'attività nello stesso progetto. </p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Copia a</td> 
+      <td role="rowheader">Copia in...</td> 
       <td><p>Copia l'attività in un altro progetto.</p><p>Per informazioni sulla copia e la duplicazione delle attività, vedere <a href="../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md" class="MCXref xref">Copiare e duplicare le attività</a>.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Sposta a</td> 
+      <td role="rowheader">Sposta in...</td> 
       <td><p>Sposta l'attività in un altro progetto.</p><p>Per informazioni sullo spostamento delle attività, vedere <a href="../../../manage-work/tasks/manage-tasks/move-tasks.md" class="MCXref xref">Sposta attività</a>.</p></td> 
      </tr> 
     </tbody> 
    </table>
-
-   Le modifiche vengono salvate automaticamente e non è possibile annullarle.
 
 ### Modificare le attività in un elenco e salvare manualmente le modifiche {#edit-tasks-in-a-list-and-manually-save-changes}
 
@@ -193,7 +199,7 @@ Per modificare le attività in un elenco e salvare automaticamente le modifiche:
 >[!TIP]
 >
 >* Non è possibile annullare le modifiche apportate alle attività in un elenco quando vengono modificate nella sezione Attività secondarie o in un report attività.
->* Non vi sono limiti al numero di modifiche che è possibile annullare. È possibile invertirli tutti singolarmente fino a raggiungere lo stato originale delle attività.
+>* Non vi sono limiti al numero di modifiche che è possibile annullare. È possibile invertirle tutte una per una fino a quando non si raggiunge lo stato originale delle attività.
 >
 
 Quando si salvano manualmente le modifiche in un elenco di attività, tenere presente quanto segue:
@@ -204,12 +210,12 @@ Quando si salvano manualmente le modifiche in un elenco di attività, tenere pre
 
    * Abbonati al progetto.
    * Aggiungi il progetto all’elenco dei preferiti.
-   * Aprire un&#39;attività facendo clic sul relativo nome nell&#39;elenco.
+   * Aprire un&#39;attività facendo clic sul nome corrispondente nell&#39;elenco.
 
-* Modifica le attività in blocco. L&#39;icona Modifica è disattivata quando si selezionano più attività.
+* Modificare le attività in blocco. L&#39;icona Modifica è disattivata quando si selezionano più attività.
 * Workfront attiva le notifiche sulle modifiche apportate alle attività solo dopo il salvataggio delle modifiche.
 
-Esistono due modi per salvare manualmente le modifiche apportate alle attività in un elenco. Questi due modi sono descritti di seguito.
+Esistono due modi per salvare manualmente le modifiche apportate alle attività in un elenco:
 
 * [Salvare manualmente le modifiche in un elenco di attività quando si seleziona l&#39;opzione Salvataggio manuale standard](#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-standard-option)
 * [Salvare manualmente le modifiche in un elenco di task quando si seleziona l&#39;opzione Pianificazione manuale della sequenza temporale](#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option)
@@ -218,31 +224,38 @@ Esistono due modi per salvare manualmente le modifiche apportate alle attività 
 
 >[!TIP]
 >
->Se il progetto contiene più di 2.000 attività o se presenta molte dipendenze, potrebbe essere necessario del tempo per identificare visivamente le modifiche apportate alle attività e il modo in cui tali modifiche influiscono su tutte le dipendenze del progetto. In questo caso, il salvataggio delle modifiche potrebbe richiedere più tempo se il progetto contiene più di 2.000 attività o se presenta molte dipendenze.
+>Se il progetto contiene più di 2.000 attività o se presenta molte dipendenze, potrebbe essere necessario del tempo per identificare visivamente le modifiche apportate alle attività e il modo in cui tali modifiche influiscono su tutte le dipendenze del progetto. In questo caso, il salvataggio delle modifiche potrebbe richiedere più tempo del previsto.
 
 Quando si aggiornano le attività in un elenco dopo aver selezionato l&#39;opzione Salvataggio manuale standard, tenere presente quanto segue:
 
 * È possibile applicare una visualizzazione personalizzata all&#39;elenco delle attività e modificare qualsiasi campo relativo alle attività per il quale si dispone delle autorizzazioni di gestione.
-* Dopo aver fatto clic su Salva, Workfront calcola la timeline del progetto e tutte le dipendenze interne e tra progetti, se il tipo di aggiornamento del progetto è Automatico o Automatico e In caso di modifica. Per informazioni sul tipo di aggiornamento del progetto, vedere [Selezionare il tipo di aggiornamento del progetto](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+* Quando il tipo di aggiornamento del progetto è Automatico o Automatico e In caso di modifica, Workfront calcola la timeline del progetto e tutte le dipendenze interne e tra i progetti dopo aver fatto clic su Salva. Per informazioni sul tipo di aggiornamento del progetto, vedere [Selezionare il tipo di aggiornamento del progetto](../../../manage-work/projects/manage-projects/select-project-update-type.md).
 
 Per modificare i task in un elenco selezionando l&#39;opzione Salvataggio manuale standard:
 
-1. Vai a un progetto, quindi fai clic sulla sezione **Attività** .
-1. Fai clic sul menu **Modalità pianificazione** ![](assets/qs-list-mode-or-save-mode-icon-small.png) nella parte superiore dell&#39;elenco e seleziona **Salvataggio manuale**, quindi fai clic su **Standard** > **Applica**.
+{{step1-to-projects}}
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+1. Nella pagina **Progetti**, seleziona un progetto.
 
-   Viene visualizzata un’impostazione della barra degli strumenti con opzioni per annullare, ripetere e salvare le modifiche.
+1. Nel pannello a sinistra, fai clic sulla sezione **Attività**.
 
-   ![](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+1. Fai clic sull&#39;icona **Modalità pianificazione** ![Icona Modalità pianificazione](assets/plan-mode-icon.png) nella parte superiore dell&#39;elenco.
+
+1. Nella finestra di dialogo **Modalità pianificazione**, seleziona **Salvataggio manuale**, quindi fai clic su **Standard**.
+
+   ![Abilitare l&#39;impostazione di salvataggio manuale](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+
+1. Fare clic su **Applica**. Viene visualizzata un’impostazione della barra degli strumenti con opzioni per annullare, ripetere e salvare le modifiche.
+
+   ![Barra degli strumenti di salvataggio manuale](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
 
 1. Fai clic all’interno di qualsiasi campo per il quale disponi delle autorizzazioni necessarie per aggiornare manualmente. Il campo diventa modificabile e puoi apportare le modifiche.
 
-   ![](assets/inline-editing-a-task-350x26.png)
+1. Premi **Invio** (Windows) o **Ritorno** (Mac) sulla tastiera per salvare temporaneamente le modifiche apportate.
 
-1. Premi Invio per salvare temporaneamente le modifiche apportate.
-1. (Facoltativo) Fai clic sull&#39;icona **Annulla** ![](assets/undo-icon-on-task-list.png) per annullare una modifica e ripristinare lo stato originale di un campo.
-1. (Facoltativo e condizionale) Fare clic sull&#39;icona **Ripeti** ![](assets/redo-icon-on-task-list.png) per ripristinare la modifica annullata.
+1. (Facoltativo) Fai clic sull&#39;icona **Annulla** ![Annulla icona](assets/undo-icon-on-task-list.png) per annullare una modifica e ripristinare lo stato originale di un campo.
+
+1. (Facoltativo e condizionale) Fai clic sull&#39;icona **Ripeti** ![Ripeti](assets/redo-icon-on-task-list.png) per ripristinare la modifica annullata.
 
 1. (Facoltativo) Fai clic con il pulsante destro del mouse su un’attività da modificare.
 
@@ -257,8 +270,16 @@ Per modificare i task in un elenco selezionando l&#39;opzione Salvataggio manual
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Apri in una nuova scheda</strong> </td> 
+      <td role="rowheader">Apri in una nuova scheda</td> 
       <td>Apre l'attività in una nuova scheda del browser. </td> 
+     </tr> 
+          <tr> 
+      <td role="rowheader">Inserisci attività in alto</td> 
+      <td>Inserisce un'attività sopra l'attività selezionata.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Inserisci attività in basso</td> 
+      <td>Inserisce un'attività sotto l'attività selezionata</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Elimina</td> 
@@ -271,14 +292,6 @@ Per modificare i task in un elenco selezionando l&#39;opzione Salvataggio manual
      <tr> 
       <td role="rowheader">Rientro negativo</td> 
       <td> <p>Riduce il rientro dell'attività di un livello. </p> <p>Questa opzione viene visualizzata solo sulle attività figlio. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Inserisci attività in alto</td> 
-      <td>Inserisce un'attività sopra l'attività selezionata.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Inserisci attività in basso</td> 
-      <td>Inserisce un'attività sotto l'attività selezionata</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Duplica</td> 
@@ -303,22 +316,30 @@ Quando si utilizza l&#39;opzione Pianificazione manuale della sequenza temporale
 * Non è possibile applicare l&#39;opzione Pianificazione sequenza temporale salvataggio manuale ai progetti con più di 2.000 task.
 * Non è possibile applicare una visualizzazione, un filtro o un raggruppamento personalizzato all&#39;elenco delle attività. I menu a discesa Visualizza, Filtro e Raggruppamento, nonché l’icona della vista Agile, sono disattivati. La visualizzazione applicata per impostazione predefinita contiene un numero limitato di campi.
 * La timeline del progetto e tutte le dipendenze interne al progetto vengono calcolate automaticamente dopo ogni modifica quando il tipo di aggiornamento del progetto è Automatico o Automatico e In caso di modifica.
-* Le dipendenze tra progetti vengono calcolate dopo aver fatto clic su Salva, quando il tipo di aggiornamento del progetto è Automatico o Automatico e su Modifica. Per informazioni sul tipo di aggiornamento del progetto, vedere [Selezionare il tipo di aggiornamento del progetto](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+* Quando il tipo di aggiornamento del progetto è Automatico o Automatico e In caso di modifica, le dipendenze tra progetti vengono calcolate dopo aver fatto clic su Salva. Per informazioni sul tipo di aggiornamento del progetto, vedere [Selezionare il tipo di aggiornamento del progetto](../../../manage-work/projects/manage-projects/select-project-update-type.md).
 
 Per modificare i task in un elenco quando si utilizza l&#39;opzione Pianificazione manuale del salvataggio della sequenza temporale:
 
-1. Vai a un progetto, quindi fai clic sulla sezione **Attività**.
-1. Fai clic sul menu **Modalità pianificazione** ![](assets/qs-list-mode-or-save-mode-icon-small.png) nella parte superiore dell&#39;elenco e seleziona **Salvataggio manuale**, quindi fai clic su **Pianificazione sequenza temporale**> **Applica**.
 
-   Questa opzione è disattivata per i progetti con più di 2.000 attività.
+{{step1-to-projects}}
 
-   ![](assets/manual-timeline-planning-setting-enabled-quicksilver-task-list-350x490.png)
+1. Nella pagina **Progetti**, seleziona un progetto.
+
+1. Nel pannello a sinistra, fai clic sulla sezione **Attività**.
+
+1. Fai clic sull&#39;icona **Modalità pianificazione** ![Icona Modalità pianificazione](assets/plan-mode-icon.png) nella parte superiore dell&#39;elenco.
+
+1. Nella finestra di dialogo **Modalità pianificazione**, seleziona **Salvataggio manuale**, quindi fai clic su **Pianificazione sequenza temporale**.
+
+   ![Applica impostazione di pianificazione sequenza temporale](assets/manual-timeline-planning-setting-enabled-quicksilver-task-list-350x490.png)
 
    >[!TIP]
    >
-   >Quando ci si sposta dalla pagina, Workfront riattiva l&#39;opzione Salvataggio automatico.
+   >L&#39;opzione **Pianificazione del tempo** è disabilitata per i progetti con più di 2.000 attività.
 
-   Osserva le seguenti modifiche nell’elenco:
+1. Fare clic su **Applica**.
+
+   Nell&#39;elenco si verificano le seguenti modifiche:
 
    * I menu a discesa Visualizza, Raggruppamento e Filtro vengono rimossi e la visualizzazione viene sostituita dai campi seguenti:
 
@@ -336,17 +357,15 @@ Per modificare i task in un elenco quando si utilizza l&#39;opzione Pianificazio
    * L’icona della vista Agile viene rimossa.
    * Viene visualizzata un’impostazione della barra degli strumenti con opzioni per annullare, ripetere e salvare le modifiche.
 
-     ![](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+     ![Barra degli strumenti di salvataggio manuale](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
 
 1. Modifica qualsiasi campo per il quale disponi delle autorizzazioni necessarie per eseguire manualmente l’aggiornamento.
 
-   ![](assets/inline-editing-a-task-350x26.png)
+1. Premi **Invio** (Windows) o **Ritorno** (Mac) sulla tastiera per salvare temporaneamente le modifiche apportate.
+1. (Facoltativo) Fai clic sull&#39;icona **Annulla** ![Annulla icona](assets/undo-icon-on-task-list.png) per annullare una modifica e ripristinare lo stato originale di un campo.
+1. (Facoltativo e condizionale) Fare clic sull&#39;icona **Ripeti** ![Ripeti](assets/redo-icon-on-task-list.png) per ripristinare la modifica annullata.
 
-1. Premi Invio per salvare temporaneamente le modifiche apportate.
-1. (Facoltativo) Fai clic sull&#39;icona **Annulla** ![](assets/undo-icon-on-task-list.png) per annullare una modifica e ripristinare lo stato originale di un campo.
-1. (Facoltativo e condizionale) Fare clic sull&#39;icona **Ripeti** ![](assets/redo-icon-on-task-list.png) per ripristinare la modifica annullata.
-
-1. (Facoltativo) Fai clic con il pulsante destro del mouse su un’attività da modificare
+1. (Facoltativo) Fai clic con il pulsante destro del mouse su un’attività da modificare.
 
    Oppure
 
@@ -359,8 +378,16 @@ Per modificare i task in un elenco quando si utilizza l&#39;opzione Pianificazio
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Apri in una nuova scheda</strong> </td> 
+      <td role="rowheader">Apri in una nuova scheda</td> 
       <td>Apre l'attività in una nuova scheda del browser. </td> 
+     </tr> 
+          <tr> 
+      <td role="rowheader">Inserisci attività in alto</td> 
+      <td>Inserisce un'attività sopra l'attività selezionata.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Inserisci attività in basso</td> 
+      <td>Inserisce un'attività sotto l'attività selezionata</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Elimina</td> 
@@ -375,14 +402,6 @@ Per modificare i task in un elenco quando si utilizza l&#39;opzione Pianificazio
       <td> <p>Riduce il rientro dell'attività di un livello. </p> <p>Questa opzione viene visualizzata solo sulle attività figlio. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Inserisci attività in alto</td> 
-      <td>Inserisce un'attività sopra l'attività selezionata.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Inserisci attività in basso</td> 
-      <td>Inserisce un'attività sotto l'attività selezionata</td> 
-     </tr> 
-     <tr> 
       <td role="rowheader">Duplica</td> 
       <td> <p>Crea una versione duplicata dell'attività nello stesso progetto. </p> <p>Per informazioni sulla copia e la duplicazione delle attività, vedere <a href="../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md" class="MCXref xref">Copiare e duplicare le attività</a>.</p> </td> 
      </tr> 
@@ -394,55 +413,62 @@ Per modificare i task in un elenco quando si utilizza l&#39;opzione Pianificazio
 
 ## Modificare un&#39;attività in un elenco utilizzando il Riepilogo
 
-1. Passare al progetto contenente le attività da modificare.
-1. Fai clic su **Attività** nel pannello a sinistra.
+{{step1-to-projects}}
 
-   Viene visualizzato l’elenco delle attività sul progetto.
+1. Nella pagina **Progetti**, seleziona un progetto.
 
-1. Fai clic sul menu Altro ![](assets/more-icon-task-list.png) dopo il nome dell&#39;attività, quindi fai clic su **Apri riepilogo**. Seleziona l&#39;attività da modificare, quindi fai clic sull&#39;icona **Apri riepilogo** ![](assets/qs-open-summary-icon-in-new-toolbar-small.png) nell&#39;angolo superiore destro dell&#39;elenco.
+1. Nel pannello a sinistra, fai clic sulla sezione **Attività**. Viene visualizzato l’elenco delle attività sul progetto.
 
-   Verrà aperto il **Riepilogo**.
-
-   ![](assets/qs-task-right-panel-in-a-task-list-350x328.png)
-
-1. (Facoltativo) Fai clic sull&#39;icona **X** in alto a destra del Riepilogo per chiudere il pannello e modificare le attività in linea.
-
-   Per modificare l’attività in linea, segui i passaggi relativi alla modifica di un’attività in un elenco.
-
-   Per informazioni sulla modifica dell&#39;attività in un elenco, vedere [Considerazioni sulla modifica delle attività in un elenco](#considerations-about-editing-tasks-in-a-list) in questo articolo.
+1. Seleziona l&#39;attività da modificare, quindi fai clic sull&#39;icona **Apri riepilogo** ![Apri riepilogo](assets/task-summary-icon.png) nell&#39;angolo superiore destro dell&#39;elenco. Viene aperto il pannello **Riepilogo attività**.
 
 1. (Facoltativo) Digita un aggiornamento per l&#39;attività nell&#39;area **Aggiornamenti**.
 1. Fare clic su una delle icone o aree seguenti per accedere all&#39;attività e modificare le informazioni a livello di attività:
 
-   | Documenti | Fare clic **Fare clic qui per aggiungere** documenti all&#39;attività. |
-   |---|---|
-   | Dettagli | Fare clic per aggiornare le informazioni sull&#39;attività. |
-   | Moduli personalizzati | Fare clic per aggiungere o rimuovere Forms personalizzato o aggiornare le informazioni nei moduli. |
-   | Ore | Fai clic su per registrare le ore. |
-   | Approvazioni | Fai clic su per aggiungere approvazioni attività. |
+<table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Documenti</td> 
+      <td>Aggiungi documenti all'attività. </td> 
+     </tr> 
+          <tr> 
+      <td role="rowheader">Moduli personalizzati</td> 
+      <td>Aggiungere o rimuovere moduli personalizzati o aggiornare le informazioni sui moduli.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Ore</td> 
+      <td>Registra ore.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Approvazioni</td> 
+      <td>Aggiungi approvazioni attività.</td> 
+     </tr> 
+     <tr> 
+    </tbody> 
+   </table>
 
-   {style="table-layout:auto"}
-
-1. Fare clic sul pulsante Indietro del browser per tornare all&#39;elenco delle attività al termine dell&#39;aggiornamento dell&#39;attività.
+1. Fai clic su **X** nell&#39;angolo superiore destro del pannello per chiuderlo.
 
 ## Modifica attività in blocco
 
 È possibile modificare più attività contemporaneamente. Assicurarsi di disporre delle autorizzazioni di gestione per le attività per poterle modificare.
 
-1. Passare a un progetto contenente attività che si desidera modificare in blocco.
-1. Fai clic su **Attività** nel pannello a sinistra.
-1. Verificare che l&#39;opzione **Salvataggio automatico** sia selezionata.
+{{step1-to-projects}}
+
+1. Nella pagina **Progetti**, seleziona un progetto.
+1. Nel pannello a sinistra, fai clic sulla sezione **Attività**.
+
+1. Fai clic sull&#39;icona **Modalità pianificazione** ![Icona Modalità pianificazione](assets/plan-mode-icon.png) nella parte superiore dell&#39;elenco e accertati che sia selezionata l&#39;opzione **Salvataggio automatico**.
+
+   ![Abilitare l&#39;impostazione del salvataggio automatico](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
 
    >[!IMPORTANT]
    >
    >Non è possibile modificare le attività in blocco quando si salvano le attività manualmente.
 
-   Per ulteriori informazioni sulle modalità di salvataggio delle modifiche apportate alle attività in un elenco, vedere la sezione [Considerazioni sulla modifica delle attività in un elenco](#considerations-about-editing-tasks-in-a-list) in questo articolo.
-
 1. Selezionare più attività nell&#39;elenco delle attività.
-1. Fai clic sull&#39;icona **Modifica** ![](assets/qs-edit-icon.png).
-
-   Viene visualizzata la finestra di dialogo **Modifica attività**.
+1. Fai clic sull&#39;icona **Modifica** ![Modifica](assets/qs-edit-icon.png). Viene visualizzata la finestra di dialogo **Modifica attività**.
 
 1. Specificare le informazioni da modificare per tutte le attività selezionate.
 
@@ -461,8 +487,6 @@ Per modificare i task in un elenco quando si utilizza l&#39;opzione Pianificazio
    È possibile modificare solo i campi dei moduli allegati a tutte le attività selezionate e per i quali si dispone delle autorizzazioni di modifica.
 
 1. (Facoltativo) Nella sezione Forms personalizzato, seleziona l&#39;opzione **Ricalcola espressioni personalizzate** per verificare che tutti i campi personalizzati calcolati presenti nei moduli personalizzati allegati alle attività selezionate siano aggiornati.
-1. Fai clic su **Salva modifiche**.
+1. Fai clic su **Salva modifiche**. Tutte le modifiche apportate sono ora visibili in tutte le attività selezionate.
 
-   Tutte le modifiche apportate sono ora visibili in tutte le attività selezionate.
-
-Per informazioni sulla modifica in blocco di moduli personalizzati, vedere la sezione &quot;Modificare più Forms personalizzati durante la modifica in blocco di oggetti&quot; in [Gestire i moduli personalizzati allegati agli oggetti](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).
+Per informazioni sulla modifica in blocco di moduli personalizzati, vedere [Gestire i moduli personalizzati allegati agli oggetti](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).

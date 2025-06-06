@@ -7,9 +7,9 @@ description: Facoltativamente, puoi aggiungere alla bacheca una colonna di acqui
 author: Courtney
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: 0ff02569d3c7fb532a2faafc46fe4235ce77acd4
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1033'
 ht-degree: 3%
 
 ---
@@ -84,16 +84,10 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. Seleziona la sezione **Bacheca**. Vengono visualizzati nuovi campi.
 1. Attiva **acquisizione dinamica di elementi nella bacheca**. La colonna dell’aspirazione vuota viene visualizzata sul lato sinistro della bacheca.
 
-   ![Opzioni filtro semplice colonna acquisizione](assets/intake-column-simple-filters.png)
+   ![Opzioni filtro semplice colonna acquisizione](assets/board-section.png)
 
 1. (Facoltativo) Cerca e seleziona [!DNL Workfront] [!UICONTROL **Progetti**].
 1. (Facoltativo) Cerca e seleziona l&#39;utente o il team [!UICONTROL **Assegnazioni**].
-1. Selezionare [!UICONTROL **Includi lavoro completato**] per visualizzare le attività e i problemi con stato Completato nella colonna Acquisizione.
-
-   >[!NOTE]
-   >
-   >Se questa opzione non è selezionata, quando le schede in altri stati sono contrassegnate come complete, non vengono visualizzate sulla bacheca.
-
 1. Fare clic su **Applica**. Gli oggetti vengono visualizzati nella colonna di acquisizione della bacheca come schede collegate.
 
    ![Colonna acquisizione](assets/intake-column-added3.png)
