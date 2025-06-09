@@ -6,9 +6,9 @@ description: Se si è assegnati come approvatori a un documento, è possibile pr
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 40c28e7efa61475c186d7f3fabda35a7257baf27
+source-git-commit: 1f7a17206ca77442b501f121f3333d4b60aa85f1
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    >[!NOTE]
    >
-   >Le approvazioni assegnate a Ruoli o Gruppi non sono elencate nella Home. Le approvazioni assegnate ai team vengono visualizzate nel raggruppamento Richiesta team in Work List (Elenco di lavoro).
+   >* Le approvazioni assegnate a Ruoli o Gruppi non sono elencate nella Home.
+   >* Le approvazioni assegnate ai team vengono visualizzate nel widget Le mie approvazioni di ogni singolo membro del team nella Home.
 
 1. Fare clic sull&#39;approvazione del documento nell&#39;elenco per il quale si desidera prendere una decisione di approvazione. Le informazioni relative all’approvazione verranno visualizzate sul lato destro della pagina.
 
