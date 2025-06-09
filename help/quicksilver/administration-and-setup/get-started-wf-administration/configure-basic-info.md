@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 83d236a4d50c0eef7062f161757d2f9fe6bc4e06
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '829'
 ht-degree: 2%
 
 ---
@@ -80,9 +80,14 @@ Per accedere alla pagina Informazioni cliente:
 
      Per informazioni sull&#39;aggiunta degli indirizzi IP al inserisco nell&#39;elenco Consentiti di accesso degli utenti a Workfront, vedere [Configurare il inserisco nell&#39;elenco Consentiti di accesso del firewall all&#39;interno del sistema di gestione delle relazioni con i clienti](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-   * **Licenza**
+   * **Inserisce nell&#39;elenco Consentiti messaggio di posta elettronica**
 
-     Per informazioni sulle licenze, vedere [Gestire le licenze disponibili nel sistema](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+     Per informazioni sull&#39;aggiunta di messaggi di posta elettronica al inserisco nell&#39;elenco Consentiti di, vedere [Configurare il proprio inserisco nell&#39;elenco Consentiti di posta elettronica di posta elettronica](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+
+   <!--
+   * **License**
+
+     For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).-->
 
 ## Configura informazioni di base {#configure-basic-info}
 
@@ -125,7 +130,7 @@ Per configurare la sezione Informazioni di base nell&#39;area Informazioni clien
        </ul> <p>Gli utenti possono modificare il fuso orario per la propria istanza di Workfront nel proprio profilo. Quando gli utenti modificano il proprio fuso orario, la data e l’ora nelle e-mail provenienti da Workfront corrispondono alle preferenze del profilo. Per ulteriori informazioni sulla modifica delle preferenze del profilo utente, vedere <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Configurare le impostazioni personali</a>. Viene selezionato come fuso orario predefinito quando si crea una nuova pianificazione. Per ulteriori informazioni sulla creazione di pianificazioni, vedere <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Creare una pianificazione</a>.</p> <p>Per informazioni sull'utilizzo delle pianificazioni per consentire agli utenti di collaborare in Workfront con fusi orari diversi, vedere <a href="../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Utilizzo con fusi orari diversi</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Zona</td> 
+      <td role="rowheader">Lingua predefinita per e-mail</td> 
       <td>Controlla la lingua, la data e il formato numerico utilizzati nei messaggi e-mail in uscita. La lingua selezionata è quella predefinita al momento della creazione di nuovi utenti. Gli utenti possono modificare le proprie impostazioni locali nel proprio profilo utente. Quando gli utenti modificano le impostazioni locali, la lingua, la data e il formato del numero nelle e-mail inviate da Workfront corrispondono alle preferenze del profilo. Per ulteriori informazioni sulla modifica delle preferenze del profilo, vedere <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Configurare le impostazioni personali</a>.</td> 
      </tr> 
      <tr> 
@@ -135,11 +140,7 @@ Per configurare la sezione Informazioni di base nell&#39;area Informazioni clien
         <li>Documenti collegati a Workfront da qualsiasi altro provider di servizi di terze parti (SharePoint, Google Drive, Webdam, Box, Dropbox o qualsiasi altro provider di Document Asset Management).</li> 
         <li>I tuoi dati Workfront (progetti, attività, problemi, utenti e così via).</li> 
        </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Versione prodotto</td> 
-      <td>Questo è il tipo di istanza di Workfront che ti viene assegnata. La versione del prodotto per la maggior parte dei clienti Workfront è <strong>Enterprise</strong>.</td> 
-     </tr> 
+     </tr>
     </tbody> 
    </table>
 
