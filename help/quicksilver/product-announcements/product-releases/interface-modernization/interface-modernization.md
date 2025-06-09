@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: c5cf44d1e68aebdb5b61d2588a8cefc088b6d2a2
+source-git-commit: b011ee9afcce273c82c1f7d93ca86dfde035a497
 workflow-type: tm+mt
 source-wordcount: '4126'
 ht-degree: 1%
@@ -239,7 +239,9 @@ Abbiamo aggiornato il look and feel degli elementi ripristinati di recente nell&
 
 Per visualizzare questa modifica, vai a Configurazione > Cestino > Ripristinato di recente.
 
-Per informazioni, vedere [Visualizza elementi ripristinati](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).### Aggiornamenti dell&#39;interfaccia all&#39;area Gestione risorse in Configurazione
+Per informazioni, vedere [Visualizza elementi ripristinati](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+
+### Aggiornamenti dell&#39;interfaccia per l&#39;area Gestione risorse in Configurazione
 
 **Versione di anteprima: 17 aprile 2025; a partire dalla settimana del 17 aprile 2025**
 
