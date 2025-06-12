@@ -154,8 +154,10 @@ Gli utenti che accedono a un collegamento a un’area di lavoro per la quale non
 1. (Condizionale) Se sei il manager di un’area di lavoro, potresti ricevere una richiesta da un altro utente per accedere alla vista nelle seguenti aree:
 
    * Una notifica in-app
+
      ![Notifica in-app per la richiesta di accesso](assets/in-app-notification-for-access-request.png)
    * Una notifica e-mail
+
      ![Notifica e-mail per la richiesta di accesso](assets/email-notification-for-access-request.png)
 1. (Condizionale) Dall’area di notifica in Workfront, fai clic sulla notifica in-app.
 Oppure
