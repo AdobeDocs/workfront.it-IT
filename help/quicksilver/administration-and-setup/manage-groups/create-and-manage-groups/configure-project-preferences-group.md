@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2767'
+source-wordcount: '2765'
 ht-degree: 2%
 
 ---
@@ -238,14 +238,14 @@ Configura una delle seguenti preferenze per i progetti appena creati associati a
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p><strong>Trimestri personalizzati</strong> </p> </td> 
-   <td> <p>Configura trimestri annuali personalizzati per gli utenti che lavoreranno ai progetti. I trimestri personalizzati sono solitamente trimestri che non corrispondono alla ripartizione tradizionale dei trimestri durante un anno di calendario. È possibile aggiungere più trimestri personalizzati. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Abilitare i trimestri personalizzati per i progetti</a>.</p> <p><b>NOTA</b>: gli amministratori di Workfront non possono sbloccare le preferenze per i trimestri personalizzati.</p> </td> 
+   <td> <p>Configura trimestri annuali personalizzati per gli utenti che lavoreranno ai progetti. I trimestri personalizzati sono solitamente trimestri che non corrispondono alla ripartizione tradizionale dei trimestri durante un anno di calendario. È possibile aggiungere più trimestri personalizzati. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Attiva trimestri personalizzati</a>.</p> <p><b>NOTA</b>: gli amministratori di Workfront non possono sbloccare le preferenze per i trimestri personalizzati.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Casi di studio {#business-cases}
 
-È possibile creare un Business Case per i nuovi progetti creati associati al gruppo per inviare richieste di progetto. È possibile definire le preferenze per determinare quali aree sono visibili nel modulo **Business Case**. È consigliabile attivare queste opzioni in modo che altri strumenti, ad esempio Ottimizzatore Portfolio, vengano aggiornati correttamente. Per ulteriori informazioni su ogni campo, vedere [Definire un caso di business: indice articolo](../../../manage-work/projects/define-a-business-case/define-business-case.md).
+È possibile creare un Business Case per i nuovi progetti creati associati al gruppo per inviare richieste di progetto. È possibile definire le preferenze per determinare quali aree sono visibili nel modulo **Business Case**. È consigliabile abilitare queste opzioni in modo che altri strumenti, come Portfolio Optimizer, vengano aggiornati correttamente. Per ulteriori informazioni su ogni campo, vedere [Definire un caso di business: indice articolo](../../../manage-work/projects/define-a-business-case/define-business-case.md).
 
 Dopo che l’amministratore di Workfront abilita le sezioni del caso di business, un proprietario del progetto può creare un caso di business a livello di progetto. Per informazioni sulla creazione di un caso aziendale, vedere [Creare un caso aziendale per un progetto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 

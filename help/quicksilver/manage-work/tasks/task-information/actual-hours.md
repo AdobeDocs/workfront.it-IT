@@ -7,9 +7,9 @@ description: Le ore di accesso agli elementi di lavoro in Adobe Workfront sono c
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: d68189272bd3f78de2d57b8393b44b698fa5db13
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ Devi tenere conto della conversione da minuti a ore quando accedi a questi campi
 
 A seconda della modalità di accesso alle ore effettive, è possibile memorizzarle nei campi e nelle unità seguenti del database:
 
-* Nell&#39;API: `valuefield` per le ore effettive è `actualWorkRequiredDouble`, memorizzato in ore.
+* Nell&#39;API: con la seguente versione dell&#39;API Workfront che verrà rilasciata più avanti nel 2025, `valuefield` per le ore effettive è `actualWorkRequiredDouble`, memorizzato in ore. Nella versione corrente le ore effettive sono memorizzate come `actualWorkRequired`, in minuti.
 * Nell&#39;interfaccia di Workfront (campi e colonne personalizzati calcolati): `valuefield` per le ore effettive è `actualWorkRequired`, memorizzato in minuti.
 
 <!--Change the above with this when we fix this for the Workfront UI: 

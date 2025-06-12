@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: dae692617f447c446a421207143225b33b51debe
 workflow-type: tm+mt
-source-wordcount: '3152'
+source-wordcount: '3512'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <tr> 
    <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td> 
    <td> 
-<p>Per poter accedere a tutte le funzionalità di Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
+<p>Per poter accedere a Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
 <p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata Adobe per Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -128,17 +128,51 @@ Per gestire una vista timeline:
    >
    >    L&#39;ordinamento dei record nella timeline non è visibile nella visualizzazione Compatta.
 
+1. <span class="preview"> (Condizionale) Se l&#39;amministratore ha abilitato i trimestri personalizzati e Workfront rileva problemi nella configurazione dei trimestri personalizzati, è possibile che all&#39;apertura della visualizzazione della timeline venga visualizzato un avviso. </span>
+
+   <div class="preview">
+
+   Esistono i seguenti scenari:
+
+   * Se sono stati rilevati spazi vuoti o sovrapposizioni tra le date dei trimestri, è possibile che venga inviata una notifica che informa che è ora possibile impostare i trimestri personalizzati e che potrebbe essere necessario modificarli.
+
+     ![Notifica trimestri personalizzati mancante o intervalli tra i trimestri](assets/custom-quarter-notification-missing-or-gaps.png)
+
+     >[!TIP]
+     >
+     >Questo messaggio dovrebbe essere visualizzato solo subito dopo che l’organizzazione ha acquistato Planning e i trimestri personalizzati erano già abilitati prima dell’acquisto. Le sovrapposizioni e gli spazi tra i trimestri non sono consentiti dopo l&#39;abilitazione di Workfront Planning per l&#39;organizzazione.
+
+   * Se i trimestri sono stati impostati parzialmente e mancano alcuni mesi all&#39;interno dello stesso anno, quando si scorre potrebbe essere visualizzata una notifica per indicare i trimestri mancanti in cui è necessario impostare il resto dell&#39;anno con i trimestri mancanti.
+
+   ![Messaggio originale trimestri personalizzati mancante nella visualizzazione della sequenza temporale](assets/missing-custom-quarters-original-message-on-timeline-view.png)
+
+   Questi messaggi di avviso vengono visualizzati una volta per ogni utente.
+
+   >[!NOTE]
+   >
+   >Se il trimestre personalizzato non viene salvato correttamente, nella visualizzazione della timeline vengono visualizzati i trimestri classici.
+   >Dopo aver impostato i trimestri personalizzati nell&#39;area Configura, nella vista timeline vengono visualizzati i trimestri personalizzati anziché quelli classici.
+   >Per informazioni, vedere [Abilitare i trimestri personalizzati](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+
+   </div>
+
+1. <span class="preview">(Condizionale) Se sei un amministratore di Workfront, fai clic su **Vai al programma di installazione** per configurare i trimestri. In caso contrario, fare clic su **OK** e chiedere all&#39;amministratore di Workfront di impostare i trimestri personalizzati.</span>
+
+   >[!TIP]
+   >
+   ><span class="preview">Il pulsante Vai all&#39;installazione viene visualizzato solo per l&#39;amministratore di Workfront.</span>
+
 1. (Facoltativo e condizionale) Quando il nome del record viene troncato, posizionare il puntatore del mouse su una barra dei record per visualizzare il nome completo del record e le informazioni aggiuntive.
 
 1. Per spostarsi nella timeline, effettuate una delle seguenti operazioni:
 
    * Fate clic sulle icone sinistra e destra oppure utilizzate lo scorrimento orizzontale per spostarvi avanti e indietro nella timeline. L’aggiornamento della pagina mantiene l’intervallo di tempo selezionato.
    * Fai clic su **Oggi** per centrare la timeline fino alla data odierna.
-   * Per aggiornare gli incrementi di tempo, selezionate una delle seguenti opzioni dal menu a discesa intervallo di tempo:
+   * Per aggiornare gli incrementi di tempo e aggiornare la vista, selezionate una delle seguenti opzioni dal menu a discesa intervallo di tempo:
 
-      * Anno
-      * Trimestre
-      * Mese
+      * **Anno**: visualizza trimestri e mesi con indicazione dell&#39;anno.
+      * **Trimestre**: visualizza mesi e settimane con indicazione del trimestre.
+      * **Mese**: visualizza settimane e giorni.
 1. (Facoltativo) Fare clic su **Passa alla visualizzazione compatta** per visualizzare i record le cui date non si intersecano sulla stessa riga. <!--check to see if they updated the name of the setting here-->
 1. (Condizionale) Se hai cambiato la modalità in **Compatta**, fai clic su **Passa alla visualizzazione Standard** per visualizzare i record in righe separate. <span class="preview">L&#39;opzione **Standard** è l&#39;impostazione predefinita.</span>  <!--check to see if they updated the name of the setting here-->
 
@@ -268,6 +302,16 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
    >* I record privi di valori per le date di inizio o di fine o con una data di inizio successiva alla data di fine non vengono visualizzati nella visualizzazione della sequenza temporale.
    >
    >* Se si visualizzano record aggiuntivi utilizzando l&#39;opzione Raggruppamento, le date di inizio e di fine corrispondono a quelle del record principale. Non è possibile scegliere le date di inizio e di fine per i record connessi in quest&#39;area.
+
+1. <span class="preview">(Condizionale e facoltativo) Se sei un amministratore di Workfront, fai clic su **Vai al programma di installazione** nella casella **Utilizza trimestri personalizzati** per passare all&#39;area di installazione e impostare trimestri personalizzati. Dopo aver impostato i trimestri personalizzati, è possibile visualizzarli nella vista timeline anziché nei trimestri classici. Se non sei un amministratore di Workfront, puoi richiedere a un amministratore di abilitare i trimestri personalizzati per la tua organizzazione. </span>
+
+   Per informazioni, vedere [Abilitare i trimestri personalizzati](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+
+   ![Utilizza l&#39;avviso di trimestri personalizzati nelle impostazioni di visualizzazione della sequenza temporale](assets/use-custom-quarters-warning-inside-timelive-view-settings.png)
+
+   >[!TIP]
+   >
+   ><span class="preview">Il pulsante Vai all&#39;installazione viene visualizzato solo per l&#39;amministratore di Workfront.</span>
 
 1. Fare clic su **Stile barra** nel pannello sinistro per indicare le informazioni da visualizzare sulle barre dei record.
 

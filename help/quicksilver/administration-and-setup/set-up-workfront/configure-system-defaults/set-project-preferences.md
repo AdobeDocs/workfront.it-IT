@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2695'
+source-wordcount: '2693'
 ht-degree: 1%
 
 ---
@@ -128,7 +128,7 @@ Configura una delle seguenti preferenze per i progetti appena creati nel sistema
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Imposta automaticamente la condizione del progetto in base allo stato di avanzamento]</td> 
-   <td> <p>Questa preferenza consente agli utenti di impostare manualmente la condizione  di un progetto su ([!UICONTROL On Target], [!UICONTROL At Risk], [!UICONTROL In Trouble]) o di impostare [!DNL Workfront] la condizione [!UICONTROL Condition] (Stato di avanzamento) in base alla progressione del progetto nella sequenza temporale. Per ulteriori informazioni sulla condizione dei progetti, vedere <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Panoramica della condizione e del tipo di condizione del progetto</a>.</p> </td> 
+   <td> <p>Questa preferenza consente agli utenti di impostare manualmente la condizione [!UICONTROL] di un progetto su ([!UICONTROL On Target], [!UICONTROL At Risk], [!UICONTROL In Trouble]) o di impostare [!DNL Workfront] la condizione [!UICONTROL Condition] (Stato di avanzamento) in base alla progressione del progetto nella sequenza temporale. Per ulteriori informazioni sulla condizione dei progetti, vedere <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Panoramica della condizione e del tipo di condizione del progetto</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Crea automaticamente linee di base]</p> </td> 
@@ -143,7 +143,7 @@ Configura una delle seguenti preferenze per i progetti appena creati nel sistema
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Stima al completamento &#x200B;]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Stima al completamento ]</p> </td> 
    <td> <p>Determinare i dati utilizzati da [!DNL Workfront] per calcolare la stima [!UICONTROL al completamento] (EAC) che rappresenta il costo totale previsto di un progetto.</p> 
     <ul> 
      <li><strong>[!UICONTROL Calcola a livello di progetto]</strong>: EAC per l'attività padre e il progetto vengono determinati immettendo [!UICONTROL Ore effettive] o [!UICONTROL Costo effettivo manodopera] nelle formule EAC. Questo calcolo include [!UICONTROL Ore effettive] o [!UICONTROL Costi e spese] aggiunti direttamente all'attività o al progetto padre.</li> 
@@ -241,18 +241,18 @@ Configura una delle seguenti preferenze per i progetti appena creati nel sistema
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL Trimestri Personalizzati]</p> </td> 
-   <td> <p>Configura trimestri annuali personalizzati per gli utenti che lavoreranno ai progetti. I trimestri personalizzati sono solitamente trimestri che non corrispondono alla ripartizione tradizionale dei trimestri durante un anno di calendario. È possibile aggiungere più trimestri personalizzati. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Abilitare i trimestri personalizzati per i progetti</a>.</p>  <p><b>NOTA</b>: </p><p>[!DNL Workfront] Gli amministratori non possono sbloccare le preferenze di [!UICONTROL Trimestri personalizzati].</p> </td> 
+   <td> <p>Configura trimestri annuali personalizzati per gli utenti che lavoreranno ai progetti. I trimestri personalizzati sono solitamente trimestri che non corrispondono alla ripartizione tradizionale dei trimestri durante un anno di calendario. È possibile aggiungere più trimestri personalizzati. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Attiva trimestri personalizzati</a>.</p>  <p><b>NOTA</b>: </p><p>[!DNL Workfront] Gli amministratori non possono sbloccare le preferenze di [!UICONTROL Trimestri personalizzati].</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### [!UICONTROL Casi di studio] {#business-cases}
 
-È possibile creare un Business Case per i nuovi progetti creati in tutto il sistema per inviare richieste di progetto. È possibile definire le preferenze per determinare quali aree sono visibili nel modulo **[!UICONTROL Business Case]**. È consigliabile attivare queste opzioni in modo che altri strumenti, ad esempio [!UICONTROL Ottimizzatore Portfolio], vengano aggiornati correttamente. Per ulteriori informazioni su ogni campo, vedere [Definire un caso di business: indice articolo](../../../manage-work/projects/define-a-business-case/define-business-case.md).
+È possibile creare un Business Case per i nuovi progetti creati in tutto il sistema per inviare richieste di progetto. È possibile definire le preferenze per determinare quali aree sono visibili nel modulo **[!UICONTROL Business Case]**. È consigliabile attivare queste opzioni in modo che altri strumenti, ad esempio [!UICONTROL Portfolio Optimizer], vengano aggiornati correttamente. Per ulteriori informazioni su ogni campo, vedere [Definire un caso di business: indice articolo](../../../manage-work/projects/define-a-business-case/define-business-case.md).
 
 Dopo che l&#39;amministratore [!DNL Workfront] ha abilitato le sezioni nel [!UICONTROL caso di business], un proprietario del progetto può creare un caso di business a livello di progetto. Per informazioni sulla creazione di un caso aziendale, vedere [Creare un caso aziendale per un progetto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-### [!UICONTROL Vita dopo la morte] {#life-after-death}
+### [!UICONTROL Vita dopo la morte]  {#life-after-death}
 
 Configura una delle seguenti preferenze per i progetti appena creati nel sistema:
 

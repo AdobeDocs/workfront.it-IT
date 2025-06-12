@@ -6,9 +6,9 @@ description: Puoi eliminare problemi o richieste in Adobe Workfront se disponi d
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '712'
 ht-degree: 1%
 
 ---
@@ -132,10 +132,12 @@ A seconda del modo in cui l&#39;amministratore di Workfront o di gruppo configur
    ![Menu Altro problema](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. Fai clic su **Elimina problema**.
-1. Se l&#39;eliminazione è consentita, scegliere **Elimina**.
+1. Fai clic su **Elimina** per.
 
-   L’amministratore di Workfront potrebbe non consentire l’eliminazione dei problemi in cui sono registrate le ore.\
-   Per ulteriori informazioni sull&#39;accesso e sulle autorizzazioni necessarie per eliminare un problema, vedere la sezione [Considerazioni per l&#39;eliminazione dei problemi](#considerations-for-deleting-issues) in questo articolo.
+   >[!NOTE]
+   >
+   >  L’amministratore di Workfront potrebbe non consentire l’eliminazione dei problemi in cui sono registrate le ore.\
+   >  Per ulteriori informazioni sull&#39;accesso e sulle autorizzazioni necessarie per eliminare un problema, vedere la sezione [Considerazioni per l&#39;eliminazione dei problemi](#considerations-for-deleting-issues) in questo articolo.
 
 ## Ripristina problemi eliminati
 

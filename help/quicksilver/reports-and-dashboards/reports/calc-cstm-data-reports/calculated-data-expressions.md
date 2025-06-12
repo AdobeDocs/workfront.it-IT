@@ -7,9 +7,9 @@ description: Puoi utilizzare le espressioni di dati per definire campi di dati p
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 6a46486b62974f1cc7033b4497d32ab787b05bf2
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2433'
+source-wordcount: '2463'
 ht-degree: 2%
 
 ---
@@ -391,7 +391,17 @@ Puoi creare un campo personalizzato calcolato per la data o l’ora utilizzando 
    <p><code>ARRAY(string1, "delimiter")</code></p> 
    </td> 
   </tr>
-  <tr> 
+
+<tr> 
+   <td><strong>ARRAYCONTAINS</strong> </td> 
+   <td> <p>Cerca un valore specifico in un elenco o array. Se il valore viene trovato, la funzione restituisce True, altrimenti restituisce False. </p> 
+   <p>L’espressione viene formattata come segue:</p>
+   <p><code>ARRAY(value 1, value 2)</code></p> 
+   </td> 
+  </tr>
+
+
+<tr> 
    <td><strong>LUNGHEZZA MATRICE</strong> </td> 
    <td> <p>Restituisce il numero di elementi nella matrice e viene formattato come segue:</p>
    <p><code>ARRAYLENGTH(array)</code></p> 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '808'
 ht-degree: 2%
 
 ---
@@ -64,7 +64,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <tr> 
    <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td> 
    <td> 
-<p>Per poter accedere a tutte le funzionalità di Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
+<p>Per poter accedere a Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
 <p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata Adobe per Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -170,8 +170,8 @@ Per informazioni sul ripristino dei record eliminati, vedere [Recuperare i recor
    * Fai clic sull&#39;icona **Annulla** ![Annulla icona](assets/undo-icon.png), quindi **Eliminato di recente** per recuperare i record eliminati. Per informazioni sul ripristino dei record eliminati, vedere [Recuperare i record eliminati](/help/quicksilver/planning/records/restore-deleted-records.md).
    * Utilizzare le seguenti scelte rapide da tastiera per annullare o ripristinare l&#39;eliminazione di un record:
 
-      * CTRL + Z (⌘ + Z per Mac) per annullare l’eliminazione di un record
-      * CTRL + MAIUSC + Z (⌘ + MAIUSC + Z per Mac) per ripetere l’eliminazione del record
+      * CTRL + Z (⌘ + Z per Mac) per annullare l&#39;eliminazione di un record
+      * CTRL + MAIUSC + Z (⌘ + MAIUSC + Z per Mac) per ripetere l&#39;eliminazione del record
 
 
 
