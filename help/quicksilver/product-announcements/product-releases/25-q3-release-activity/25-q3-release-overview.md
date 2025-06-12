@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 5ffda5783cf40cdb1a1418ab38b9c5cdf56bc291
+source-git-commit: 39762dbf34501f3cd967a2a766042086d18003c8
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1310'
 ht-degree: 3%
 
 ---
@@ -129,9 +129,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Modifica della modalità di archiviazione delle ore effettive nel database per le chiamate API</a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>Questo aggiornamento introduce una modifica nel modo in cui le ore effettive per progetti, attività e problemi vengono memorizzate nel database. A partire da questo aggiornamento, le ore effettive utilizzeranno un valore di <code>actualWorkRequiredDouble</code> (con un valore in ore).</p>
         </td>
-        <td>mercoledì 27 maggio 2025</td>
-        <td>mercoledì 27 maggio 2025</td>
-        <td>mercoledì 27 maggio 2025</td>
+        <td>Con la prossima versione API, pianificata per la fine del 2025</td>
+        <td>Con la prossima versione API, pianificata per la fine del 2025</td>
+        <td>Con la prossima versione API, pianificata per la fine del 2025</td>
     </tr>     
     <tr>
         <td>
@@ -251,7 +251,7 @@ Stiamo aggiornando l’interfaccia in Adobe Workfront per migliorare l’esperie
 
 ### Miglioramenti apportati a Workfront Fusion
 
-Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione di rilascio standard. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione di rilascio standard. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Miglioramenti di Workfront Planning
 
@@ -289,7 +289,7 @@ Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianific
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Aggiornamenti dei corsi di formazione
 

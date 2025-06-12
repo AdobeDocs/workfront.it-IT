@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: b011ee9afcce273c82c1f7d93ca86dfde035a497
+source-git-commit: 6fa00a88f6620936ed9af00faf60f61d48c2f825
 workflow-type: tm+mt
-source-wordcount: '4126'
+source-wordcount: '4390'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,16 @@ Per tutte le altre modifiche apportate ad Adobe Workfront, vedi [Versioni del pr
 
 
 ## Amministrazione e configurazione
+
+### Aggiornamenti dell&#39;interfaccia per la pagina Informazioni cliente
+
+**Anteprima versione: 12 giugno 2025; produzione versione: 19 giugno 2025**
+
+La pagina Informazioni cliente è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront.
+
+Per visualizzare questa modifica, vai a Configurazione > Sistema > Informazioni cliente.
+
+Per informazioni, vedere [Configurare le informazioni di base per il sistema](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 ### Aggiornamenti dell&#39;interfaccia per la pagina Importa dati (Kick-Start)
 
@@ -108,6 +118,22 @@ Abbiamo aggiornato la pagina utilizzata per concedere al supporto l’accesso al
 
 ## Progetti
 
+### Aggiornamenti dell’interfaccia per la sezione Progetti associati di un progetto (disponibile solo per clienti specifici)
+
+**Anteprima versione: 12 giugno 2025; produzione versione: 19 giugno 2025**
+
+Abbiamo aggiornato la sezione Progetti associati di un progetto con un design più moderno che è coerente con altre aree di Workfront.
+
+Clienti specifici possono visualizzare questa modifica andando alla sezione Progetti associati di un progetto nel pannello a sinistra.
+
+### Nuovo aspetto per la casella &quot;Salva come modello&quot;
+
+**Anteprima versione: 12 giugno 2025; produzione versione: 19 giugno 2025**
+
+È stato aggiornato l’aspetto della casella &quot;Salva come modello&quot; che viene visualizzata quando si salva un progetto come modello. Il nuovo design include un’interfaccia semplificata, in cui tutte le sezioni vengono visualizzate in un unico formato coesivo, accessibile tramite i collegamenti presenti nel pannello a sinistra. Il nuovo design corrisponde ad altre aree e ad altri oggetti dell&#39;applicazione.
+
+Per informazioni, vedere [Salvare un progetto come modello](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md).
+
 ### Aggiornamenti look and feel per la casella Elimina problema
 
 **Versione di anteprima: 29 maggio 2025; versione di produzione: 5 giugno 2025**
@@ -150,6 +176,21 @@ Per informazioni, vedere i seguenti articoli:
 
 
 ## Report e dashboard
+
+### Rapporti aggiornati con il nuovo stile
+
+**Anteprima versione: 12 giugno 2025; produzione versione: 19 giugno 2025**
+
+Abbiamo aggiornato l&#39;aspetto di diversi rapporti, per uniformarli al design di altre aree di Workfront. Nessuna funzionalità è stata modificata.
+
+Questo aggiornamento include modifiche visive agli elenchi e alle barre degli strumenti dei report per i seguenti tipi di oggetti:
+
+* Rischi
+* Linee di base
+* Tariffe
+* Modelli di layout
+
+Per informazioni, vedere [Creare un report personalizzato](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Gli URL con /tile o /qstile non sono più supportati nei dashboard di Workfront
 

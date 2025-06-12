@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: a5a61045bad5a97fb1413fac4a5a2666b753fa83
+source-git-commit: 3ff70fcc949644d511c876add10d2c58901cb197
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,9 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 >[!NOTE]
 >
->* Anteprima: 27 maggio 2025
->* Versione rapida di produzione: 27 maggio 2025
->* Produzione per tutti i clienti: 27 maggio 2025
+>* Anteprima: con la prossima versione API, pianificata per la fine del 2025
+>* Versione rapida di produzione: con la prossima versione API, prevista per la fine del 2025
+>* Produzione per tutti i clienti: con la prossima versione API, pianificata per la fine del 2025
 
 Questo aggiornamento introduce una modifica nel modo in cui le ore effettive per progetti, attività e problemi vengono memorizzate nel database. A partire da questo aggiornamento, le ore effettive utilizzeranno un valore di `actualWorkRequiredDouble` (con un valore in ore).
 
