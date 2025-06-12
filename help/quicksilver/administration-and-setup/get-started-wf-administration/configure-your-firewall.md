@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: ee4cf80bc69416e3224c895c1f04628432ce2f4c
+source-git-commit: d710c8bd9854d4d92945e034e708d06410d0779b
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1616'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->La procedura descritta in questa pagina si applica solo alle organizzazioni che non hanno ancora effettuato l’onboarding nell’Admin Console. Se la tua organizzazione è stata integrata in Adobe Admin Console, devi eseguire questa azione tramite Adobe Admin Console.
+>La procedura descritta in questa pagina si applica solo alle organizzazioni che non hanno ancora effettuato l’onboarding in Admin Console. Se la tua organizzazione è stata integrata in Adobe Admin Console, devi eseguire questa azione tramite Adobe Admin Console.
 >
->Inserire nell&#39;elenco Consentiti Per configurare il tuo di accesso a Adobe Admin Console, consulta [Domini per le app e i servizi Adobe](https://helpx.adobe.com/it/enterprise/kb/network-endpoints.html).
+>Inserire nell&#39;elenco Consentiti Per configurare il tuo di accesso a Adobe Admin Console, consulta [Domini per le app e i servizi Adobe](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >Per un elenco delle procedure che differiscono a seconda che l&#39;organizzazione sia stata integrata in Adobe Admin Console, consulta [Differenze di amministrazione basate su Platform (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -142,32 +142,32 @@ Se l&#39;ambiente di produzione si trova nel cluster 1, 2, 3, 5, 7, 8 o 9, è ne
 
 Se l’ambiente di produzione si trova nel cluster 4, aggiungi i seguenti indirizzi IP per l’SSO, documenta le integrazioni dei webhook e per ricevere e-mail dall’applicazione Workfront:
 
-* 52 31 132 175
+* 52.31.132.175
 * 52.19.188.226
-* 52 28 49 94
-* 52 29 41 175
+* 52.28.49.94
+* 52.29.41.175
 * 52.29.197.69
-* 52 48 124 108
-* 69 169 230 231
+* 52.48.124.108
+* 69.169.230.231
 * 69,169. 230,232
-* 3 121 91 129
-* 3 122 11 35
-* 34 246 27 40
-* 52 208 123 166
-* 52 208 159 124
+* 3.121.91.129
+* 3.122.11.35
+* 34.246.27.40
+* 52.208.123.166
+* 52.208.159.124
 * 52.17.130.201
-* 34 252 250 191
+* 34.252.250.191
 * 52.30.133.50
-* 54 220 93 204
-* 34 254 76 122
+* 54.220.93.204
+* 34.254.76.122
 * 34.242.62.80/32
 * 46.51.194.192/32
 * 54.229.129.66/32
 
 Per informazioni sui seguenti indirizzi IP, consulta [Nuovi indirizzi IP per l&#39;e-mail di Adobe Workfront con versione 21.1](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
 
-* 23 251 239 98
-* 23 251 239 99
+* 23.251.239.98
+* 23.251.239.99
 
 ### Indirizzi IP per consentire il cluster 6 {#ip-addresses-to-allow-for-cluster-6}
 
@@ -423,6 +423,7 @@ Se l&#39;organizzazione utilizza il filtro di rete in uscita, aggiungere i domin
 * fonts.gstatic.com
 * dpm.demdex.net
 * storage.googleapis.com
+* snippet.maze.co
 * *.aptrinsic.com
 * *.static.workfront.com
 
@@ -445,7 +446,7 @@ Se la tua organizzazione utilizza l’esperienza unificata di Adobe, utilizza i 
 
 Per Workfront Fusion, aggiungi i seguenti domini:
 
-* Per l’organizzazione non inclusa in Adobe Unified Experience:
+* Per l’organizzazione non inclusa nell’esperienza unificata di Adobe:
    * app.workfrontfusion.com (US AWS)
    * app-eu.workfrontfusion.com (EU AWS)
    * app-az.workfrontfusion.com (US Azure)
