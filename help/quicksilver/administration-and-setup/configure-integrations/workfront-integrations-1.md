@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 5ed9ee77c14948d81ef132e1977b902f8927a620
+source-git-commit: 273db4b8e9b59930dc640a342dbeb276c22ccda3
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1407'
 ht-degree: 0%
 
 ---
@@ -84,21 +84,21 @@ Sappiamo che le integrazioni integrate (native) disponibili potrebbero non soddi
   </tr> 
  </thead> 
  <tbody> 
- <!--<tr> 
+ <tr> 
    <td role="rowheader"> <p>GenStudio for Performance Marketing </p> </td> 
    <td> 
     <ul> 
-     <li>Integrate the proofing experience with Genstudio for Performance Marketing. With this integration, you can 
+     <li>Integra l’esperienza di verifica con Genstudio per il marketing delle prestazioni. Con questa integrazione, puoi 
      <ul>
-     <li>Use Workfront approval templates to define approval workflows. </li>
-     <li>Review GenStudio draft content in the proofing viewer. </li>
-     <li>See review decisions in GenStudio for final approval and publishing. </li>
+     <li>Utilizza i modelli di approvazione di Workfront per definire i flussi di lavoro di approvazione. </li>
+     <li>Rivedi il contenuto della bozza di GenStudio nel visualizzatore di bozze. </li>
+     <li>Consulta Revisione delle decisioni in GenStudio per l’approvazione e la pubblicazione finali. </li>
      </ul>
    </ul>
-     <p>For more information, see <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">Get started with the proofing and GenStudio for Performance Marketing integration</a>.</p> 
-     </td>  <td><ul><li>You must have licenses for both Workfront and GenStudio for Performance Marketing.</li><li>Your Workfront instance must be on the Adobe Unified Experience.</li><li>Workfront and GenStudio for Performance Marketing must be deployed to the same IMS Org.</li></ul></td> 
-   <td>The integration can be toggled on in the Workfront Setup area once all the requirements are met. For more information, see <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">Get started with the proofing and GenStudio for Performance Marketing integration</a>. </td> 
-  </tr> -->
+     <p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">Guida introduttiva all'integrazione di GenStudio for Performance Marketing e verifica</a>.</p> 
+     </td>  <td><ul><li>È necessario disporre di licenze per Workfront e GenStudio for Performance Marketing.</li><li>L’istanza di Workfront deve essere in Adobe Unified Experience.</li><li>Workfront e GenStudio for Performance Marketing devono essere distribuiti nella stessa organizzazione IMS.</li></ul></td> 
+   <td>L’integrazione può essere attivata nell’area di configurazione di Workfront una volta soddisfatti tutti i requisiti. Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">Guida introduttiva all'integrazione di GenStudio for Performance Marketing e verifica</a>. </td> 
+  </tr>
   <tr> 
    <td role="rowheader"> <p>Adobe Creative Cloud </p> <p> <img src="assets/creative-cloud-logo.png"> </p> </td> 
    <td> 
@@ -113,7 +113,7 @@ Sappiamo che le integrazioni integrate (native) disponibili potrebbero non soddi
      <li>After Effects </li>
      </ul>
      <li><p>Scarica/installa da <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
-     <p>Per informazioni e istruzioni, vedere <a href="https://experienceleague.adobe.com/it/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Installare il plug-in [!DNL Adobe Workfront] per [!DNL Creative Cloud] applicazioni</a></p> 
+     <p>Per informazioni e istruzioni, vedere <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Installare il plug-in [!DNL Adobe Workfront] per [!DNL Creative Cloud] applicazioni</a></p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
@@ -200,7 +200,7 @@ Sappiamo che le integrazioni integrate (native) disponibili potrebbero non soddi
    <td> 
     <ul> 
      <li> <p>Integrare con una versione basata sul Web di [!DNL Outlook] in [!DNL Office 365] o [!DNL Outlook Live.] ospitato dal cloud </p> </li> 
-     <li> <p>Visualizzare tutti gli eventi del calendario [!DNL Outlook] e dei calendari associati selezionati, ad esempio i calendari di compleanni e festività, nel Calendario predefinito .</p> </li> 
+     <li> <p>Visualizzare tutti gli eventi del calendario [!DNL Outlook] e dei calendari associati selezionati, ad esempio i calendari di compleanni e festività, nel Calendario predefinito [!UICONTROL].</p> </li> 
     </ul> <p><b>NOTA</b>: la configurazione del calendario di [!UICONTROL Outlook] è completamente separata dal componente aggiuntivo [!DNL Outlook] ([!DNL Outlook] Integration o [!DNL Workfront for Outlook]). Non è necessaria alcuna installazione per configurare il calendario.</p></td> 
    <td> </td> 
    <td> </td> 
@@ -320,7 +320,7 @@ Sappiamo che le integrazioni integrate (native) disponibili potrebbero non soddi
 
   [!DNL Adobe Workfront Fusion] collega azioni all&#39;interno e tra app e servizi per creare uno scenario che trasferisce e trasforma automaticamente i dati. Dispone di connettori dedicati per molte app, ma può connettersi a qualsiasi applicazione con un’API pubblica.
 
-  Per ulteriori informazioni, vedere [[!DNL Adobe Workfront Fusion] panoramica](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+  Per ulteriori informazioni, vedere [[!DNL Adobe Workfront Fusion] panoramica](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan] (Richiede [!DNL Workfront Fusion])
@@ -333,7 +333,7 @@ Per ulteriori informazioni, vedere [Panoramica delle integrazioni di Adobe Workf
 
 Workfront offre diverse integrazioni di partner che arricchiscono la tua esperienza con Workfront. Esempi di offerte di partner esistenti includono integrazioni con Claravine, RWS Group e altro ancora.
 
-Per ulteriori informazioni su queste e altre integrazioni partner, vedere [Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?page=1&amp;partnerLevel=All&amp;product=WRKFRNT&amp;sort=RELEVANCE).
+Per ulteriori informazioni su queste e altre integrazioni partner, vedere [Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?page=1&partnerLevel=All&product=WRKFRNT&sort=RELEVANCE).
 
 ## API [!DNL Workfront]
 

@@ -2,30 +2,30 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: Guida introduttiva all’integrazione di proof e GenStudio for Performance Marketing
-description: Guida introduttiva all’integrazione di proof e GenStudio for Performance Marketing
+title: Guida introduttiva all’integrazione tra GenStudio for Performance Marketing e Workfront Proof
+description: Guida introduttiva all’integrazione tra GenStudio for Performance Marketing e Workfront Proof
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: 9905a522-9913-49c0-8c80-a8b46221fcbb
-source-git-commit: e67446c6fb3e90d5dc45dd446988e5d02291f775
+source-git-commit: 4b0ba0112138b91b12e10f4770ecab3db4e3fddb
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
 
-# Guida introduttiva all’integrazione di proof e GenStudio for Performance Marketing
+# Guida introduttiva all’integrazione tra GenStudio for Performance Marketing e Workfront Proof
 
-Con l’integrazione tra Proofing e GenStudio for Performance Marketing, puoi
+L&#39;integrazione tra GenStudio for Performance Marketing e Workfront Proof consente di:
 
 * Utilizzare i modelli di bozza di Workfront per definire i flussi di lavoro di revisione e approvazione
 
-* Rivedere e approvare il contenuto delle bozze di GenStudio nel visualizzatore di bozze
+* Rivedere e approvare il contenuto della bozza di GenStudio for Performance Marketing nel visualizzatore di bozze di Workfront
 
-* Visualizzare le decisioni di revisione in GenStudio per l’approvazione e la pubblicazione finali
+* Visualizzare le decisioni di revisione in GenStudio for Performance Marketing per l’approvazione e la pubblicazione finali
+
+Per ulteriori informazioni sulla revisione e l&#39;approvazione in GenStudio for Performance Marketing, vedere [Integrazione di Workfront Proof con GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
 
 
 ## Requisiti di accesso
@@ -78,37 +78,35 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Abilitare l’integrazione in Workfront
 
+Per abilitare questa integrazione è necessario essere un amministratore di sistema.
+
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic sull&#39;icona **[!UICONTROL Setup]** ![Setup](/help/_includes/assets/gear-icon-setup.png).
 1. Nel pannello a sinistra, fai clic su **Revisione e approvazione** > **Adobe GenStudio**.
 1. Abilita **Usa approvazioni bozze**.
-   ![abilitare la verifica per GenStudio](assets/enable-proofing-gs.png)
+   ![abilitare la verifica per l&#39;impostazione di GenStudio](assets/enable-proofing-gs.png)
 
 ## Utilizzare i modelli di bozza di Workfront per definire i flussi di lavoro di approvazione
 
 Se il processo di revisione dei contenuti della tua organizzazione viene spesso ripetuto o rivisto dalle stesse persone, puoi utilizzare i modelli di bozza per automatizzare i flussi di lavoro di revisione e approvazione.
 
+### Creare un modello di bozza in Workfront
+
 È possibile creare semplici modelli a fase singola per uno o due revisori oppure modelli a più fasi automatizzati per revisioni complesse con molte fasi e dipendenze.
 
-Quando un utente avvia una revisione in GenStudio, si limita a scegliere il modello necessario. Gli utenti possono modificare facilmente qualsiasi modello di flusso di lavoro della bozza, aggiungendo o rimuovendo revisori e fasi in qualsiasi momento.
-
-Con i modelli di flusso di lavoro per bozze, puoi
-
-* Aggiungi utenti specifici e assegna a ciascuno un ruolo di bozza designato
-* Imposta una scadenza
-* Scegli quando attivare una fase
-* Blocca fasi dopo il completamento
-* Richiedi una sola decisione
-* Specificare un responsabile delle decisioni principale
-* e altro ancora
-
-Per ulteriori informazioni sui flussi di lavoro e i modelli automatizzati, consulta
+Per ulteriori informazioni sulla creazione di flussi di lavoro e modelli automatizzati in Workfront, consulta
 
 * [Panoramica del flusso di lavoro automatizzato](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
 * [Creare e gestire modelli di flussi di lavoro automatizzati](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md)
 
-## Rivedere e approvare il contenuto delle bozze di GenStudio nel visualizzatore di bozze
+### Scegli o modifica il modello in GenStudio for Performance Marketing
 
-Puoi rivedere e approvare il contenuto delle bozze di GenStudio direttamente in GenStudio nel visualizzatore di bozze.
+Quando un utente avvia una revisione in GenStudio for Performance Marketing, si limita a scegliere il modello necessario. Gli utenti possono modificare facilmente qualsiasi modello di flusso di lavoro della bozza, aggiungendo o rimuovendo revisori e fasi in qualsiasi momento.
+
+Per ulteriori informazioni, vedere [Richiedi revisione e approvazione](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+
+## Rivedere e approvare il contenuto della bozza di GenStudio for Performance Marketing nel visualizzatore di bozze di Workfront
+
+È possibile esaminare e approvare il contenuto delle bozze direttamente in GenStudio for Performance Marketing nel visualizzatore di bozze di Workfront.
 
 Con il visualizzatore di bozze è possibile:
 
@@ -116,10 +114,16 @@ Con il visualizzatore di bozze è possibile:
 * Bozza di ricarico per mostrare cosa è necessario modificare
 * Prendi una decisione
 
-Per ulteriori informazioni su revisione e approvazione in GenStudio, vedere <!--[Workfront Proof integration with GenStudio for Performance Marketing]().-->
+Per ulteriori informazioni, vedere [Rivedere e modificare il contenuto](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit).
 
-## Visualizzare le decisioni di revisione in GenStudio per l’approvazione e la pubblicazione finali
 
-Una volta che la risorsa è stata sottoposta al processo di revisione e approvazione, puoi visualizzare la decisione di revisione e pubblicare il contenuto direttamente da GenStudio.
+>[!IMPORTANT]
+>
+>Gli utenti devono installare [Rivedere il contenuto interattivo con lo strumento di revisione Adobe Workfront](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) prima di poter iniziare a rivedere le bozze in GenStudio for Performance Marketing.
 
-Per ulteriori informazioni, vedere <!--[link to GS docs]().-->
+
+## Visualizzare le decisioni di revisione in GenStudio for Performance Marketing per l’approvazione e la pubblicazione finali
+
+Una volta che la risorsa è stata sottoposta al processo di revisione e approvazione, puoi visualizzare la decisione di revisione e pubblicare il contenuto direttamente da GenStudio for Performance Marketing.
+
+Per ulteriori informazioni, vedere [Pubblicare contenuti approvati](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).

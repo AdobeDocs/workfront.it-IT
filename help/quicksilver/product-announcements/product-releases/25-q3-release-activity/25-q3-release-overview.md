@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 39762dbf34501f3cd967a2a766042086d18003c8
+source-git-commit: 26a97126bbe809bc5fdd40d52bce2e0763110bcb
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '1371'
 ht-degree: 3%
 
 ---
@@ -45,9 +45,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Miglioramenti al progetto](#project-enhancements)
 * [Miglioramenti al reporting](#reporting-enhancements)
 * [Miglioramenti per gli aggiornamenti e le notifiche](#update-and-notification-enhancements)
+* [Miglioramenti all&#39;integrazione]
 * [Altri miglioramenti](#other-enhancements)
 
-### Miglioramenti alla gestione dei documenti
+### Miglioramenti alla gestione di bozze e documenti
 
 <table style="table-layout:auto">
   <tbody>
@@ -58,6 +59,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Rilascio rapido</strong></td>
         <td><strong>Ogni trimestre</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuova integrazione di Proofing e GenStudio for Performance Marketing</a>
+            <p>Siamo entusiasti di introdurre una nuova integrazione tra Proofing e GenStudio for Performance Marketing. Con questa integrazione, puoi 
+            <ul>
+            <li>Utilizzare i modelli di approvazione di Workfront per definire i flussi di lavoro di approvazione
+            </li>
+             <li>Rivedi il contenuto della bozza di GenStudio nel visualizzatore di bozze
+            </li>
+             <li>Consulta le decisioni di revisione per l’approvazione finale e la pubblicazione in GenStudio 
+            </li>
+            </ul>
+            </p>
+        </td>
+        <td>venerdì 12 giugno 2025</td>
+        <td>venerdì 12 giugno 2025</td>
+        <td>venerdì 12 giugno 2025</td>
+    </tr> 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiornamento visualizzatore bozze desktop</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -251,7 +270,7 @@ Stiamo aggiornando l’interfaccia in Adobe Workfront per migliorare l’esperie
 
 ### Miglioramenti apportati a Workfront Fusion
 
-Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione di rilascio standard. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione di rilascio standard. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Miglioramenti di Workfront Planning
 
@@ -289,7 +308,7 @@ Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianific
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Aggiornamenti dei corsi di formazione
 
