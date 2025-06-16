@@ -6,9 +6,9 @@ description: Puoi ricevere notifiche da [!DNL Adobe Workfront] sugli elementi da
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 372b7566fa5eb38703905b22ff43d49a76bcb400
+source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1438'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Man mano che Microsoft passa al client New Teams, il client Classic Teams non sarà più disponibile dopo il 1° luglio 2025. In preparazione, stiamo sviluppando una nuova versione dell’integrazione di Microsoft Teams che sarà completamente compatibile con il client New Teams e disponibile prima del 1° luglio per garantire una transizione senza intoppi.
+>Poiché [Microsoft passa al client Nuovi team](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability), il client Team classici non sarà più disponibile dopo il 1° luglio 2025. Per continuare a utilizzare Microsoft Teams e le app integrate come Workfront, i clienti devono effettuare la transizione al client Nuovi team prima di tale data.
 >
->Le istruzioni su come scaricare e installare l’integrazione nel client New Teams saranno disponibili dopo il rilascio dell’integrazione.
+>L’integrazione aggiornata di Workfront è ora disponibile e completamente compatibile con l’esperienza Nuovi team. Nella maggior parte dei casi, Workfront viene visualizzato automaticamente dopo la transizione degli utenti. In caso contrario, l’integrazione può essere installata manualmente dall’App Store di Microsoft Teams. Per installare o verificare l&#39;integrazione di Workfront nel client New Teams, vedere [Installa [!DNL Adobe Workfront] per Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 Puoi ricevere notifiche da [!DNL Adobe Workfront] sugli elementi da approvare, sulle assegnazioni che ti sono state assegnate o sui commenti e le modifiche agli elementi a cui sei associato.
 
@@ -401,7 +401,7 @@ Ricevi una notifica di informazione quando viene aggiornato un elemento a cui se
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Qualcuno include il tuo team in un aggiornamento diretto di </td> 
+   <td role="rowheader">Qualcuno include il tuo team in un aggiornamento diretto di [!UICONTROL]</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
