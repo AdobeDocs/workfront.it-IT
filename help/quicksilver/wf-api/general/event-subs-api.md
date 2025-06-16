@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: ec018b8987a45cbf29c8a908f3adbdb8aade9d90
+source-git-commit: 334b08f4689318201d3b8260916655f57c2a9320
 workflow-type: tm+mt
-source-wordcount: '2407'
+source-wordcount: '2479'
 ht-degree: 3%
 
 ---
@@ -707,6 +707,33 @@ Questo filtro consente la trasmissione dei messaggi se la modifica apportata con
 }
 ```
 
+#### containsOnly
+
+Questo filtro consente la trasmissione dei messaggi solo quando l’intero set di valori selezionati corrisponde esattamente al valore fieldValue nel filtro, indipendentemente dall’ordine. Non devono essere presenti valori aggiuntivi o mancanti.
+
+Nota: viene utilizzato per i campi di tipo array (a selezione multipla). Questo esempio di abbonamento di seguito consente la trasmissione dei messaggi solo quando il campo `groups` contiene esattamente &quot;Scelta 3&quot; e &quot;Scelta 4&quot;, senza valori aggiuntivi o mancanti e indipendentemente dall&#39;ordine.
+
+
+```
+{
+    "objCode": "PROJ",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedProjects",
+    "filters": [
+        {
+            "fieldName": "groups",
+            "fieldValue": [
+                "Choice 3",
+                "Choice 4"
+            ],
+            "state": "newState",
+            "comparison": "containsOnly"
+        }
+    ]
+}
+```
+
 #### cambia
 
 Questo filtro consente la trasmissione dei messaggi solo se nel campo specificato (`fieldName`) è presente un valore diverso in oldstate e newstate. L&#39;aggiornamento di altri campi oltre a quello specificato (`fieldName`) non restituirà la modifica.
@@ -739,7 +766,7 @@ Questo connettore applica il filtro al nuovo stato o al vecchio stato dell’ogg
 >[!NOTE]
 >
 >La sottoscrizione seguente con il filtro specificato restituirà solo i messaggi in cui il nome dell&#39;attività contiene `again` per `oldState`, ovvero ciò che si trovava prima di un aggiornamento dell&#39;attività.
->Un caso d’uso per questo potrebbe essere quello di trovare i messaggi objCode che sono cambiati da una cosa all’altra. Ad esempio, per individuare tutte le attività che sono cambiate da &quot;Cerca nome&quot; a &quot;Cerca nome team&quot;
+>>Un caso d’uso per questo potrebbe essere quello di trovare i messaggi objCode che sono cambiati da una cosa all’altra. Ad esempio, per individuare tutte le attività che sono cambiate da &quot;Cerca nome&quot; a &quot;Cerca nome team&quot;
 
 ```
 {
