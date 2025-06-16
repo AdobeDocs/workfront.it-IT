@@ -8,10 +8,10 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: 0c76cf9ebadaeabee55939969d59ea16d69ed328
+source-git-commit: 15a703e2292883427e371603f77a99765ed9d00a
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 61%
+source-wordcount: '209'
+ht-degree: 60%
 
 ---
 
@@ -26,6 +26,7 @@ Questa sezione contiene le seguenti sottosezioni:
 * [Glossario della terminologia di Adobe Workfront](../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
 * [Requisiti del browser Adobe Workfront](../workfront-basics/workfront-browser-requirements.md)
 * [Lingue supportate in Adobe Workfront](../workfront-basics/supported-languages-in-workfront.md)
+* [Preparazione HIPAA per Workfront](/help/quicksilver/workfront-basics/hipaa-readiness-for-workfront.md)
 * [Naviga in Adobe Workfront: indice articolo](../workfront-basics/navigate-workfront/navigate-workfront.md)
 * [Priorità: indice articoli](/help/quicksilver/workfront-basics/priorities/priorities-toc.md)
 * [Home](../workfront-basics/using-home/home.md)
