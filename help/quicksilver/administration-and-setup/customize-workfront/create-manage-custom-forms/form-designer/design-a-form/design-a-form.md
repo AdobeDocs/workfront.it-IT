@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 7373ee9f31e4b7561735920f3ff02cbd4fdce44a
+source-git-commit: af7789f3a4c7443854639fd60bcf0661217b37ae
 workflow-type: tm+mt
 source-wordcount: '6547'
 ht-degree: 5%
@@ -133,7 +133,7 @@ Ogni nome di campo personalizzato deve essere univoco nell’istanza Workfront d
 >[!NOTE]
 >
 >Sebbene sia possibile farlo, si consiglia di non modificare questo nome dopo che l&#39;utente o altri utenti hanno iniziato a utilizzare il modulo personalizzato in Workfront. In questo caso, il sistema non riconoscerà più il campo personalizzato a cui potrebbe ora fare riferimento in altre aree di Workfront.
->&#x200B;>Ad esempio, se aggiungi il campo personalizzato a un rapporto e successivamente ne modifichi il nome, Workfront non lo riconosce nel rapporto e non funzionerà più correttamente a meno che non lo aggiungi nuovamente al rapporto utilizzando il nuovo nome.
+>>Ad esempio, se aggiungi il campo personalizzato a un rapporto e successivamente ne modifichi il nome, Workfront non lo riconosce nel rapporto e non funzionerà più correttamente a meno che non lo aggiungi nuovamente al rapporto utilizzando il nuovo nome.
 >
 >È consigliabile non digitare un nome già utilizzato per i campi Workfront incorporati.
 >
@@ -533,7 +533,7 @@ Per aggiungere campi di tipo typeahead e date:
         <li>Appartengono allo stesso gruppo della persona che utilizza il campo.</li> 
        </ul>
        <p>È necessario definire il filtro per il tipo di oggetto selezionato utilizzando la sintassi della modalità testo. Per informazioni sulla creazione di un filtro in modalità testo, vedere <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Modificare un filtro in modalità testo</a>.</p>
-       <p><b>Suggerimento:</b>È possibile creare un report per testare il filtro prima di aggiungerlo direttamente al campo di completamento automatico. Questo ti aiuterà a verificare che il filtro restituisca gli oggetti corretti. Quindi puoi passare alla modalità testo nel rapporto, copiare l’istruzione della modalità testo e aggiungerla al filtro typeahead.</p>
+       <p><b>Suggerimento:</b> è possibile creare un report per testare il filtro prima di aggiungerlo direttamente al campo di completamento automatico. Questo ti aiuterà a verificare che il filtro restituisca gli oggetti corretti. Quindi puoi passare alla modalità testo nel rapporto, copiare l’istruzione della modalità testo e aggiungerla al filtro typeahead.</p>
        <p><b>Nota</b>:
        <ul> 
         <li>Se si sta modificando un modulo personalizzato esistente, l'aggiunta di un filtro a un campo typeahead non rimuove gli oggetti già aggiunti dagli utenti utilizzando il campo al di fuori dell'ambito del filtro.</li> 
@@ -632,12 +632,12 @@ Per aggiungere una ricerca esterna:
       <td role="rowheader">Percorso JSON</td>
       <td><p>Digita o incolla il percorso JSON per l’API.</p> <p>Questa opzione consente di estrarre i dati dal JSON restituito dall’URL API. Serve come modo per selezionare quali valori dall’interno del JSON appariranno nelle opzioni a discesa.</p><p>Ad esempio, se l'URL API restituisce JSON nel seguente formato, puoi utilizzare "$.data[*].name" per selezionare Stati Uniti e Canada come opzioni a discesa:</br>
       <pre>
-      &lbrace;
-       dati: &lbrace;
+      {
+       dati: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Per ulteriori informazioni sul percorso JSON e sulla verifica della scrittura del percorso JSON corretto, fare riferimento a <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
