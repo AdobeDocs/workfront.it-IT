@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 26a97126bbe809bc5fdd40d52bce2e0763110bcb
+source-git-commit: 5413ab5cfbb06a7e047a4ccab87e82af7c859cab
 workflow-type: tm+mt
-source-wordcount: '13256'
+source-wordcount: '13262'
 ht-degree: 2%
 
 ---
@@ -109,7 +109,7 @@ ht-degree: 2%
          * [23.3 Altri miglioramenti](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
          * [Aggiornamenti look and feel durante il periodo di rilascio della versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * Versione 23.2 {#release-23-2}
-         * [Panoramica sulla versione di 23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
+         * Panoramica sulla versione di [23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 Miglioramenti per gli amministratori](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
          * [23.2 Miglioramenti di Agile](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
          * [23.2 Miglioramenti alla gestione dei progetti](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
@@ -1730,9 +1730,9 @@ ht-degree: 2%
          * [Tableau Desktop: impossibile stabilire una connessione](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-load-data.md)
          * [Impossibile connettersi con la password fornita dallo strumento Power BI](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-connect-with-provided-password.md)
 * Gestire le risorse {#manage-resources}
-   * [Gestire le risorse](resource-mgmt/manage-resources.md)
+   * [Gestisci risorse: indice articolo](resource-mgmt/manage-resources.md)
    * Gestione risorse {#resource-management}
-      * [Gestione risorse](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
+      * [Gestione risorse: indice articolo](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
       * [Introduzione alla gestione delle risorse](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
    * Pianificazione delle risorse in Adobe Workfront {#resource-planning-in-adobe-workfront}
       * [Pianificazione risorse: indice articolo](resource-mgmt/resource-planning/resource-planning-overview.md)
@@ -1762,7 +1762,7 @@ ht-degree: 2%
       * [Rapporto sulle ore preventivate di programmazione risorse](resource-mgmt/resource-planning/report-on-budgeted-hours.md)
       * [Limitazioni della visualizzazione di Programmazione delle risorse](resource-mgmt/resource-planning/resource-planner-display-limitations.md)
    * Utilizzo risorse {#resource-utilization}
-      * [Utilizzo risorse](resource-mgmt/resource-utilization/resource-utilization.md)
+      * [Utilizzo risorse: indice articolo](resource-mgmt/resource-utilization/resource-utilization.md)
       * [Visualizzare le informazioni sull’utilizzo delle risorse](resource-mgmt/resource-utilization/view-utilization-information.md)
    * Il Bilanciatore dei carichi di lavoro {#the-workload-balancer}
       * [L’indice del Bilanciatore dei carichi di lavoro: articolo](resource-mgmt/workload-balancer/workload-balancer.md)
@@ -2473,7 +2473,7 @@ ht-degree: 2%
       * [Configura e utilizza le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso PKCE](wf-api/api/oauth-app-pkce-flow.md)
       * [Obsolescenza di API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Novità dell&#39;API versione 20](wf-api/api/new-api-version-20.md)
-      * [Novità della versione 19 dell&#39;API](wf-api/api/new-api-version-19.md)
+      * [Novità della versione 19](wf-api/api/new-api-version-19.md) dell&#39;API
       * [Novità della versione 18 dell’API](wf-api/api/new-api-version-18.md)
       * [Novità della versione 17 dell’API](wf-api/api/new-api-version-17.md)
       * [Novità della versione 16 dell’API](wf-api/api/new-api-version-16.md)
