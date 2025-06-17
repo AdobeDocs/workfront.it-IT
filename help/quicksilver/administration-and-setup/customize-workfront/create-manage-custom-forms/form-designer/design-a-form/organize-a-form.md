@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 7373ee9f31e4b7561735920f3ff02cbd4fdce44a
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -173,4 +173,9 @@ In un modulo personalizzato con un&#39;interruzione di sezione configurata con l
 1. Iniziare a creare o modificare un modulo personalizzato e aggiungere campi, come descritto in [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Fai clic su **Anteprima** nell&#39;angolo in alto a destra per vedere come si presenterà il modulo durante l&#39;utilizzo, quindi fai clic su **Fine anteprima** per tornare alla modifica del modulo.
+
+   >[!NOTE]
+   >
+   >La logica avanzata non è supportata nella modalità di anteprima di Progettazione moduli.
+
 
