@@ -105,7 +105,7 @@ Per ulteriori informazioni su ciascuna area, consulta:
      <li>[!UICONTROL Portfolio]: <a href="../../manage-work/portfolios/portfolio-management-overview.md" class="MCXref xref">Gestione Portfolio</a></li> 
      <li>[!UICONTROL Programs]: <a href="../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md" class="MCXref xref">Crea e gestisci programmi </a></li> 
      <li>[!UICONTROL Projects]: <a href="../../manage-work/projects/projects-overview.md" class="MCXref xref">Progetti: indice articolo</a></li> 
-     <li>Rapporti di [!UICONTROL]: <a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">Rapporti</a></li> 
+     <li>Rapporti di : <a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">Rapporti</a></li> 
      <li>[!UICONTROL Dashboards]: <a href="../../reports-and-dashboards/dashboards/dashboards-overview.md" class="MCXref xref">Dashboards</a></li> 
      <li>[!UICONTROL Calendars]: <a href="../../reports-and-dashboards/reports/calendars/calendars.md" class="MCXref xref">Calendari: indice articolo</a></li> 
      <li>[!UICONTROL Assorbimento Risorse]: <a href="../../resource-mgmt/resource-mgmt-overview/resource-management-overview.md" class="MCXref xref">Gestione Risorse </a></li> 
@@ -137,7 +137,7 @@ Nella parte inferiore del menu principale è possibile accedere ai seguenti elem
    <td> <p>Facendo clic su <b>[!UICONTROL Setup]</b> si accede all'area [!UICONTROL Setup] in cui è possibile configurare diversi aspetti dell'account [!DNL Workfront]. A seconda delle impostazioni di accesso, ciò che puoi configurare potrebbe essere limitato.</p> <p>Per ulteriori informazioni sull'area [!UICONTROL Setup], vedere <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">Amministrazione e configurazione: indice articolo</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p class="bold">Guida di [!UICONTROL]</p> </td> 
+   <td> <p class="bold">Guida di </p> </td> 
    <td> <p>Facendo clic su <b>[!UICONTROL Help]</b> ci si reca a [!DNL Adobe Experience League] dove è possibile accedere agli articoli della guida, trovare corsi di formazione, inviare un ticket all'assistenza clienti e così via.</p> <p>Per ulteriori informazioni su [!DNL Experience League] o altri metodi per ottenere assistenza, vedere <a href="../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md" class="MCXref xref">La guida rapida alla ricerca di informazioni in Adobe Workfront</a>.</p> </td> 
   </tr>
 
