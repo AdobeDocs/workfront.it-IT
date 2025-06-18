@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 1d7d094a682a02b09651023f94e81ee0b330163c
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contatta
 
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Workfront], quindi fai clic su **[!UICONTROL Users]** ![Users icon](assets/users-icon-in-main-menu.png).
 
-   ![Opzioni del menu principale](assets/main-menu-options-350x481.png)
+
 
 1. Selezionare l&#39;**[!UICONTROL utente]** che richiede la reimpostazione della password.
    ![Seleziona l&#39;utente](assets/100520classicnweselectuser-350x105.png)
