@@ -7,7 +7,7 @@ description: Puoi utilizzare le espressioni di dati per definire campi di dati p
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
 workflow-type: tm+mt
 source-wordcount: '2463'
 ht-degree: 2%
@@ -396,7 +396,7 @@ Puoi creare un campo personalizzato calcolato per la data o l’ora utilizzando 
    <td><strong>ARRAYCONTAINS</strong> </td> 
    <td> <p>Cerca un valore specifico in un elenco o array. Se il valore viene trovato, la funzione restituisce True, altrimenti restituisce False. </p> 
    <p>L’espressione viene formattata come segue:</p>
-   <p><code>ARRAY(value 1, value 2)</code></p> 
+   <p><code>ARRAYCONTAINS(array, value)</code></p> 
    </td> 
   </tr>
 

@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
 workflow-type: tm+mt
-source-wordcount: '1979'
-ht-degree: 2%
+source-wordcount: '2061'
+ht-degree: 1%
 
 ---
 
@@ -284,6 +284,8 @@ Di seguito sono riportati gli oggetti e i concetti principali di Workfront Plann
 
   Dopo aver stabilito una connessione tra i tipi di record, è possibile collegare tra loro singoli record o oggetti di tali tipi. La connessione tra i record viene visualizzata come campo record connesso o come connessione.
 
+  La connessione dei tipi di record è utile quando si dispone di diversi tipi di oggetti di lavoro che influiscono l&#39;uno sull&#39;altro. Ad esempio, puoi utilizzare le campagne e ogni campagna può gestire più marchi. Per indicare questa relazione, puoi collegare le campagne ai brand. Inoltre, il lavoro per ogni campagna potrebbe essere pianificato in più progetti in Workfront. Per indicare questo, puoi collegare le campagne ai relativi progetti. La connessione di tipi di record e la successiva connessione di singoli record consente di ottenere questa relazione in Workfront Planning.
+
 * **Campi di ricerca** (o campi collegati): dopo aver stabilito la connessione tra due tipi di record e aver connesso i singoli record, è possibile fare riferimento ai campi dei record connessi dal record da cui si sta effettuando la connessione.
 
   Se ad esempio si connette un tipo di record Campagna a un tipo di oggetto Progetto Workfront, è possibile visualizzare il campo Budget dei progetti connessi nei record della campagna.
@@ -299,7 +301,7 @@ Di seguito sono riportati gli oggetti e i concetti principali di Workfront Plann
   >* Ultima modifica eseguita da
   >* Campi typeahead di Workfront (inclusi campi come Proprietario progetto o Sponsor progetto)
 
-  Per informazioni sul collegamento di tipi di record, record e sulla creazione di campi collegati, vedere gli articoli seguenti:
+  Per informazioni sulla connessione di tipi di record, record e sulla creazione di campi collegati, vedere gli articoli seguenti:
 
    * [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [Connetti record](/help/quicksilver/planning/records/connect-records.md)
@@ -323,7 +325,6 @@ Di seguito sono riportati gli oggetti e i concetti principali di Workfront Plann
      ![Raggruppamento applicato nella vista timeline](assets/grouping-applied-in-timeline-view.png)
 
    * **Visualizzazione calendario**: visualizza i record con almeno due campi di tipo Data in un formato calendario.
-
      ![Esempio di visualizzazione calendario](assets/calendar-view-example.png)
 
 
@@ -395,7 +396,7 @@ Per un elenco aggiornato delle funzionalità rilasciate, vedere [Attività di Ad
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [Moduli Adobe Workfront Planning per Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): con i moduli Adobe Workfront Planning è possibile attivare uno scenario quando si verificano eventi in Workfront Planning. Puoi anche creare, leggere, aggiornare ed eliminare record oppure eseguire una chiamata API personalizzata all’account Adobe Workfront Planning.
+* [Moduli Adobe Workfront Planning per Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): con i moduli Adobe Workfront Planning è possibile attivare uno scenario quando si verificano eventi in Workfront Planning. Puoi anche creare, leggere, aggiornare ed eliminare record oppure eseguire una chiamata API personalizzata all’account Adobe Workfront Planning.
 
 * [Nozioni di base sulle API di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md): l&#39;API di Adobe Workfront Planning ha l&#39;obiettivo di semplificare la creazione di integrazioni con Planning introducendo un&#39;architettura REST-ful che funziona tramite HTTP.
 
