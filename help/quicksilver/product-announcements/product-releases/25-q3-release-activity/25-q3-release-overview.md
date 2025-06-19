@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 85eeb9796f095aeaa09f8bf28953c0fa7bbf579b
+source-git-commit: d7b9f6cac531bed5fd2a3e5c766e9d714f2625e4
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1482'
 ht-degree: 3%
 
 ---
@@ -45,7 +45,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Miglioramenti al progetto](#project-enhancements)
 * [Miglioramenti al reporting](#reporting-enhancements)
 * [Miglioramenti per gli aggiornamenti e le notifiche](#update-and-notification-enhancements)
-* [Miglioramenti all&#39;integrazione]
 * [Altri miglioramenti](#other-enhancements)
 
 ### Miglioramenti alla gestione di bozze e documenti
@@ -130,6 +129,15 @@ Questo aggiornamento include aggiornamenti interni degli strumenti e non influis
         <td><strong>Rilascio rapido</strong></td>
         <td><strong>Ogni trimestre</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Esperienza di commento aggiornata nella sezione Riferimenti nell'area I miei aggiornamenti</a><p></p>
+            <p>Stiamo aggiornando l’esperienza di aggiunta di commenti nella sezione Menzioni nell’area I miei aggiornamenti. Ora, la stessa esperienza nell’area Aggiornamenti della maggior parte degli oggetti Workfront è disponibile anche nella sezione Menzioni di My Updates (I miei aggiornamenti).</p>
+        </td>
+        <td>venerdì 19 dicembre 2024</td>
+        <td>venerdì 19 giugno 2025</td>
+        <td>venerdì 19 giugno 2025</td>
+    </tr>     
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Il widget delle mie approvazioni ora ordina automaticamente per scadenza </a><p></p>
@@ -280,7 +288,7 @@ Stiamo aggiornando l’interfaccia in Adobe Workfront per migliorare l’esperie
 
 ### Miglioramenti apportati a Workfront Fusion
 
-Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione di rilascio standard. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione di rilascio standard. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Miglioramenti di Workfront Planning
 
@@ -296,9 +304,9 @@ A questo punto della versione non sono presenti aggiornamenti per i seguenti ele
 
 ### Nuova versione di Workfront per Microsoft Teams
 
-Man mano che Microsoft passa al client New Teams, il client Classic Teams non sarà più disponibile dopo il 1° luglio 2025. In preparazione, stiamo sviluppando una nuova versione dell’integrazione di Microsoft Teams che sarà completamente compatibile con il client New Teams e disponibile prima del 1° luglio per garantire una transizione senza intoppi.
+Poiché [Microsoft passa al client Nuovi team](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability), il client Team classici non sarà più disponibile dopo il 1° luglio 2025. Per continuare a utilizzare Microsoft Teams e le app integrate come Workfront, i clienti devono effettuare la transizione al client Nuovi team prima di tale data.
 
-Le istruzioni su come scaricare e installare l’integrazione nel client New Teams saranno disponibili dopo il rilascio dell’integrazione.
+L’integrazione aggiornata di Workfront è ora disponibile e completamente compatibile con l’esperienza Nuovi team. Nella maggior parte dei casi, Workfront viene visualizzato automaticamente dopo la transizione degli utenti. In caso contrario, l’integrazione può essere installata manualmente dall’App Store di Microsoft Teams. Per installare o verificare l&#39;integrazione di Workfront nel client New Teams, vedere [Installa [!DNL Adobe Workfront] per Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 ### Workfront per Microsoft Outlook
 
@@ -318,7 +326,7 @@ Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianific
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Aggiornamenti dei corsi di formazione
 

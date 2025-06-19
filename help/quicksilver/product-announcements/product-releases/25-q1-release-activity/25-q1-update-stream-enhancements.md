@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29fa2641-9ac0-4cad-aef1-0f5ac877bab1
-source-git-commit: 270bf0fb1bb5b3ab93e82aafd423ee6fceaa7b42
+source-git-commit: ec74d34bc69f2f1424414453f9fdf94e539a75fd
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 >[!NOTE]
 >
->Versione di anteprima: 19 dicembre 2024; versione di produzione per tutti i clienti: da annunciare
+>Versione di anteprima: 19 dicembre 2024; versione di produzione per tutti i clienti per la casa: da annunciare; versione di produzione per tutti i clienti per I miei aggiornamenti: 19 giugno 2025
 
 Stiamo aggiornando l’esperienza di aggiunta di commenti nel widget Menzioni in Home e nella sezione Menzioni nell’area I miei aggiornamenti. Ora, la stessa esperienza nell’area Aggiornamenti della maggior parte degli oggetti Workfront è disponibile anche nel widget Menzioni e nella sezione Menzioni di My Updates.
 
