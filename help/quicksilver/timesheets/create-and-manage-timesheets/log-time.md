@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 1926500c76e4f9cfdac829f8d9f0cdfa6231e31d
+source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
 workflow-type: tm+mt
-source-wordcount: '3818'
+source-wordcount: '4065'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,17 @@ ht-degree: 0%
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
 
+<!--
+<div class="preview">
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+
+</div>
+
+-->
+
 È possibile registrare il tempo degli elementi di lavoro in Adobe Workfront per indicare il numero di ore dedicate al loro lavoro. È inoltre possibile registrare il tempo non correlato al lavoro, ad esempio ferie, malattia o riunioni. L&#39;ora registrata viene visualizzata nella scheda orario.
 
 Per ulteriori informazioni sul tipo di ore che è possibile accedere a Workfront, vedere [Gestione dei tipi di ore](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
@@ -28,8 +39,6 @@ Per ulteriori informazioni sul tipo di ore che è possibile accedere a Workfront
 ## Requisiti di accesso
 
 +++ Espandere per visualizzare i requisiti di accesso.
-
-Per eseguire i passaggi descritti in questo articolo e registrare le ore specifiche del progetto, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -344,11 +353,25 @@ Inoltre, per registrare il tempo di un elemento nel widget Il mio lavoro:
 1. (Facoltativo) Seleziona un&#39;attività, un problema o una richiesta in un elenco, quindi fai clic su **Lavoraci**.
 1. Passa il puntatore del mouse sull&#39;attività o sul problema per cui desideri registrare l&#39;ora, quindi fai clic sull&#39;icona **Registra ora** ![](assets/log-time-icon-in-new-home.png) a destra delle informazioni sull&#39;attività.
 
-   ![](assets/log-time-ui-for-task-from-new-home.png)
+   Viene visualizzata la casella **Log time** (Tempo di registrazione).
+
+   ![Casella di tempo di registrazione per un&#39;attività nella Home](assets/log-time-ui-for-task-from-new-home.png)
+
+1. Specifica le seguenti informazioni:
+
+   * **Tipo di Ora**: seleziona un Tipo di Ora dal menu a discesa, se diverso da quello visualizzato per impostazione predefinita.
+
+     A seconda dei tipi di ore configurati nel sistema, le opzioni disponibili possono variare. Per ulteriori informazioni sulla configurazione dei tipi di lavoro, vedere [Definire i tipi di lavoro e la disponibilità](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+
+   * **Ruolo**: (Condizionale) Se l&#39;amministratore del Workfront o del gruppo ha abilitato l&#39;impostazione **Assegna mansioni alle voci orarie manualmente**, seleziona una **Mansione** dal menu a discesa. Il Ruolo specificato quando si è assegnati all&#39;oggetto viene visualizzato per impostazione predefinita. Se all&#39;utente non è stato assegnato un Ruolo nell&#39;oggetto, il Ruolo principale viene visualizzato come impostazione predefinita. Per ulteriori informazioni su questa impostazione, vedere l&#39;articolo [Configurare le preferenze relative alle ore e alle schede orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+
+   * Nel calendario settimanale, inserisci il numero di ore per il progetto, l&#39;attività o il problema.
 
 1. Fare clic su **Tempo di registrazione**.
 
    L&#39;ora registrata viene visualizzata nella sezione Ore dell&#39;oggetto e nella scheda orario.
+
+   Nel campo **Ore totali** della casella Registra ora vengono visualizzate tutte le ore registrate per il progetto, l&#39;attività o il problema da tutti gli utenti.
 
 <!--#### Log time on a work item from the legacy Home area
 
@@ -395,7 +418,7 @@ Per registrare l’ora nella sezione Aggiornamenti di un progetto, un’attivit�
    >   
    >   Nell&#39;angolo superiore destro della casella Immettere i giorni è indicato il numero di ore incluse in un giorno.
 
-   ![](assets/log-time-box-in-updates-stream.png)
+   ![Casella di tempo di registrazione per un&#39;attività nell&#39;area Aggiornamenti](assets/log-time-box-in-updates-stream.png)
 
 1. Specifica le seguenti informazioni:
 
@@ -405,11 +428,13 @@ Per registrare l’ora nella sezione Aggiornamenti di un progetto, un’attivit�
 
    * **Ruolo**: (Condizionale) Se l&#39;amministratore del Workfront o del gruppo ha abilitato l&#39;impostazione **Assegna mansioni alle voci orarie manualmente**, seleziona una **Mansione** dal menu a discesa. Il Ruolo specificato quando si è assegnati all&#39;oggetto viene visualizzato per impostazione predefinita. Se all&#39;utente non è stato assegnato un Ruolo nell&#39;oggetto, il Ruolo principale viene visualizzato come impostazione predefinita. Per ulteriori informazioni su questa impostazione, vedere l&#39;articolo [Configurare le preferenze relative alle ore e alle schede orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-   * **Ore**: immetti il numero di ore per il progetto, l&#39;attività o il problema.
+   * Nel calendario settimanale, inserisci il numero di ore per il progetto, l&#39;attività o il problema.
 
 1. Fare clic su **Tempo di registrazione**.
 
    L&#39;ora registrata viene visualizzata nella sezione Ore dell&#39;oggetto e nella scheda orario.
+
+   Nel campo **Ore totali** della casella Registra ora vengono visualizzate tutte le ore registrate per il progetto, l&#39;attività o il problema da tutti gli utenti.
 
 #### Sezione ore{#hours-section}
 
@@ -429,7 +454,13 @@ Per registrare il tempo nella sezione Ore di un progetto, attività o problema:
 1. Nel pannello a sinistra, fai clic su **Ore**.
 1. Fare clic su **Tempo di registrazione**.
 
-   Viene visualizzata la finestra di dialogo Registra ore.
+   Viene visualizzata la casella **Log Time** (Tempo di registrazione).
+
+   <!--<div class="preview">
+  
+   ![Log time in the Hours section of a task](assets/log-time-box-in-hours-section-on-task.png)
+
+   </div>-->
 
 1. Specifica le seguenti informazioni:
 
@@ -438,14 +469,19 @@ Per registrare il tempo nella sezione Ore di un progetto, attività o problema:
 
    * **Tipo di Ora**: seleziona un Tipo di Ora dal menu a discesa, se diverso da quello visualizzato per impostazione predefinita.
 
-     A seconda dei tipi di ore configurati nel sistema, le opzioni disponibili possono variare. Per ulteriori informazioni sulla configurazione dei tipi di lavoro, vedere [Definire i tipi di lavoro e la disponibilità](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+     A seconda dei tipi di ore configurati nel sistema, le opzioni disponibili possono variare.
+
+     Per ulteriori informazioni sulla configurazione dei tipi di lavoro, vedere [Definire i tipi di lavoro e la disponibilità](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **Ruolo**: (Condizionale) Se l&#39;amministratore del Workfront o del gruppo ha abilitato l&#39;impostazione **Assegna mansioni alle voci orarie manualmente**, seleziona una **Mansione** dal menu a discesa. Il Ruolo specificato quando si è assegnati all&#39;oggetto viene visualizzato per impostazione predefinita. Se all&#39;utente non è stato assegnato un Ruolo nell&#39;oggetto, il Ruolo principale viene visualizzato come impostazione predefinita. Per ulteriori informazioni su questa impostazione, vedere l&#39;articolo [Configurare le preferenze relative alle ore e alle schede orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-
-     ![](assets/log-time-box-in-hours-section-on-task.png)
-   * **Ore**: immetti il numero di ore per il progetto, l&#39;attività o il problema.
+   * **Ore**: immetti il numero di ore per il progetto, l&#39;attività o il problema. <!--<span class="preview">In the weekly calendar, enter the number of hours for the project, task, or issue.</span>-->
+   * **Nota**: aggiungi una nota per spiegare a cosa servono le ore. Questa è stata salvata come **Nota ore** o come **Descrizione ore**.
 
 1. Fare clic su **Tempo di registrazione**.
+
+   L&#39;ora registrata viene visualizzata nella sezione Ore dell&#39;oggetto e nella scheda orario.
+
+   Nel campo **Ore totali** della casella Registra ora vengono visualizzate tutte le ore registrate per il progetto, l&#39;attività o il problema da tutti gli utenti.
 
 ### Pannello di Riepilogo
 

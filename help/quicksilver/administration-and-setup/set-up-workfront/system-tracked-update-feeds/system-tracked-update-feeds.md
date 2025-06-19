@@ -3,22 +3,22 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration
 navigation-topic: system-tracked-update-feeds
-title: Aggiornamenti tracciati dal sistema
+title: Panoramica degli aggiornamenti tracciati dal sistema
 description: Adobe Workfront acquisisce l'attività che si svolge su determinati oggetti registrando le informazioni sullo stato nell'area [!UICONTROL Aggiornamenti] dell'oggetto.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 1%
+source-wordcount: '386'
+ht-degree: 0%
 
 ---
 
-# Aggiornamenti tracciati dal sistema
+# Panoramica degli aggiornamenti monitorati dal sistema
 
-<!-- Audited: April, 2024-->
+<!-- Audited: 06/2025-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
@@ -75,7 +75,7 @@ Gli aggiornamenti tracciati dal sistema non sono disponibili per tutti gli ogget
    * [!UICONTROL Iterazione]
    * [!UICONTROL Obiettivo]
 
-     Devi disporre di una licenza aggiuntiva per avere accesso all&#39;area [!UICONTROL Obiettivi]. Per informazioni, vedere [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+     Non tutti i pacchetti Workfront includono gli obiettivi di Workfront. Per informazioni, vedere [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    * [!UICONTROL Scheda] su una bacheca
 
      Per ulteriori informazioni sugli aggiornamenti sulle schede, vedere [Utilizzare schede collegate sulle schede](../../../agile/get-started-with-boards/connected-cards.md).

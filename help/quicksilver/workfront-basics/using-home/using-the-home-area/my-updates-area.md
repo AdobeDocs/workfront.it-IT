@@ -6,9 +6,9 @@ description: Puoi usare l'area [!UICONTROL I miei aggiornamenti] per rivedere ra
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
@@ -74,15 +74,13 @@ Prima di iniziare, è necessario disporre dei seguenti elementi:
 
 ## Accedi all&#39;area [!UICONTROL I miei aggiornamenti]
 
-1. Fai clic su **[!UICONTROL I miei aggiornamenti]** nel **[!UICONTROL menu principale]**.
+{{step1-to-my-updates}}
 
-   ![I miei aggiornamenti nel menu principale](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+Verrà aperta l&#39;area [!UICONTROL I miei aggiornamenti].
 
-   Verrà aperta l&#39;area [!UICONTROL I miei aggiornamenti].
+Le approvazioni e le richieste di accesso che ti vengono assegnate sono elencate nella prima metà della pagina, in **I miei aggiornamenti**.
 
-   Le approvazioni e le richieste di accesso che ti vengono assegnate sono elencate nella prima metà della pagina, in **I miei aggiornamenti**.
-
-   ![I miei aggiornamenti menzionano per i revisori](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
+![I miei aggiornamenti menzionano per i revisori](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
 1. (Facoltativo) Scorri fino alla parte inferiore dell&#39;area [!UICONTROL **I miei aggiornamenti**] e fai clic sulla freccia rivolta a destra per visualizzare altre approvazioni visualizzate in altre pagine.
 
