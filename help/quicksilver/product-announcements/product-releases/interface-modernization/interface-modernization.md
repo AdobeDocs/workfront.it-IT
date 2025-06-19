@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f7e8dd73dc50d5e8a600abe42868a6c7096d8ed6
+source-git-commit: 4c09cbe74e8f277cd6a9a7732aa1a93e17f7dfeb
 workflow-type: tm+mt
-source-wordcount: '4583'
+source-wordcount: '4622'
 ht-degree: 1%
 
 ---
@@ -248,15 +248,13 @@ Per informazioni, vedere i seguenti articoli:
 
 ## Report e dashboard
 
-<!--
-### Interface updates for the Expense report
+### Aggiornamenti dell&#39;interfaccia per la nota spese
 
-Preview release: June 19, 2025; Production release: June 26, 2025
+Versione di anteprima: 19 giugno 2025; Versione di produzione: 26 giugno 2025
 
-We have updated the look and feel of the Expense report to match the design of other areas of Workfront.
+Abbiamo aggiornato il look and feel della nota spese per uniformarla al design di altre aree di Workfront.
 
-For information, see [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
--->
+Per informazioni, vedere [Creare un report personalizzato](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Rapporti aggiornati con il nuovo stile
 
