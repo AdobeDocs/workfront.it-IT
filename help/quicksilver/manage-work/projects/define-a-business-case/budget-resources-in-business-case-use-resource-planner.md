@@ -5,7 +5,7 @@ description: Come parte della pianificazione delle risorse, è possibile utilizz
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
 source-wordcount: '1240'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Preventivare le risorse nel Business Case utilizzando la Programmazione delle risorse
 
-<!--Audited: 01/2025-->
+<!--Audited: 06/2025-->
 
 Come parte della pianificazione delle risorse, è possibile utilizzare la Pianificazione risorse a livello di progetto per preventivare i ruoli necessari per il completamento del lavoro in un progetto quando si crea il caso di business.
 
@@ -35,23 +35,23 @@ Puoi anche preventivare le risorse nel caso di business utilizzando Adobe Workfr
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader"><p>Piano Adobe Workfront*</p></td> 
    <td> <p>Corrente: Prime o versione successiva</p>
    <p>Legacy: Pro o superiore</p> 
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td role="rowheader"><p>Licenza Adobe Workfront*</p></td> 
    <td> <p>Corrente: Light o superiore</p>
    <p>Legacy: revisione o superiore</p>
 
 <p><b>IMPORTANTE:</b></p> 
-   <p>Nuovo: è necessario disporre di una licenza Standard per modificare le informazioni di budgeting delle risorse. </p> 
-   <p>Corrente: è necessario disporre di una licenza Pianificazione per modificare le informazioni di budgeting delle risorse. </p>
+   <p>Corrente: è necessario disporre di una licenza Standard per modificare le informazioni di budgeting delle risorse. </p> 
+   <p>Legacy: è necessario disporre di una licenza Pianificazione per modificare le informazioni di budgeting delle risorse. </p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td role="rowheader"><p>Configurazioni del livello di accesso</p></td> 
    <td> <p>Modifica accesso a: </p> 
     <ul> 
      <li> <p>Progetti</p> </li> 
@@ -60,13 +60,13 @@ Puoi anche preventivare le risorse nel caso di business utilizzando Adobe Workfr
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
    <td> <p>Gestire le autorizzazioni sul progetto</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

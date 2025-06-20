@@ -5,14 +5,16 @@ description: Come parte della pianificazione delle risorse, è possibile utilizz
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '972'
 ht-degree: 0%
 
 ---
 
 # Preventivare le risorse nel Business Case utilizzando la Pianificazione scenario
+
+<!--Audited: 06/2025-->
 
 Come parte della pianificazione delle risorse, è possibile utilizzare Adobe Workfront Scenario Planner per preventivare i ruoli necessari per il completamento del lavoro in un progetto al momento della creazione del business case.
 
@@ -33,7 +35,7 @@ Per ulteriori informazioni sulla creazione di un caso di business, vedere [Crear
 
 ## Requisiti di accesso
 
-Devi avere i seguenti:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,19 +44,22 @@ Devi avere i seguenti:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
-   <td> <p>Business o superiore</p> </td> 
+   <td role="rowheader"><p>Piano Adobe Workfront*</p></td> 
+   <td><p>Corrente: Ultimate</p> 
+   <p>Legacy: aziendale o superiore</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Revisione o successiva</p> </td> 
+   <td role="rowheader"><p>Licenza Adobe Workfront*</p></td> 
+   <td><p>Corrente: Light o superiore 
+   <p>Legacy: revisione o superiore</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Prodotto</td> 
-   <td> <p>È necessario acquistare una licenza aggiuntiva per Adobe Workfront Scenario Planner per accedere alle funzionalità descritte in questo articolo.</p> <p>Per informazioni su come ottenere Workfront Scenario Planner, vedere <a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accesso necessario per utilizzare Scenario Planner</a>. </p> </td> 
+   <td role="rowheader"><p>Prodotto</p></td> 
+   <td><p>La Pianificazione scenario è inclusa nel piano Ultimate Workfront corrente.</p> 
+   <p>Per i piani Workfront precedenti, è necessario acquistare una licenza per Adobe Workfront Scenario Planner, oltre alla licenza Workfront, per accedere alle funzionalità descritte in questo articolo.</p> <p>Per informazioni su come ottenere Workfront Scenario Planner, vedere <a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accesso necessario per utilizzare Scenario Planner</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td role="rowheader"><p>Configurazioni del livello di accesso</p></td> 
    <td> <p>Modifica accesso a: </p> 
     <ul> 
      <li> <p>Progetti</p> </li> 
@@ -63,13 +68,15 @@ Devi avere i seguenti:
     </ul> <p>Per informazioni sull'accesso necessario alle risorse del budget, vedere anche <a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Accesso necessario alle risorse del budget in Adobe Workfront</a>.</p> <p>Nota: se ancora non disponi dell’accesso, chiedi all’amministratore di Adobe Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
    <td> <p>Gestire le autorizzazioni sul progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisiti
 

@@ -6,16 +6,16 @@ description: I rischi sono eventi o fattori possibili che impediscono a un proge
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1108'
 ht-degree: 1%
 
 ---
 
 # Creare e modificare i rischi nei progetti
 
-<!--Audited: 01/2025-->
+<!--Audited: 06/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
@@ -44,27 +44,30 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td> 
-   <p>Qualsiasi</p></td> 
+   <td role="rowheader"><p>Piano Adobe Workfront*</p></td> 
+   <td> <p>Piani correnti:</p>
+   <ul><li>Qualsiasi piano, per aggiungere rischi nell’area Rischi del progetto</p></li>
+   <li><p>Prime o versione successiva, per aggiungere rischi nel Business Case del progetto</p></li></ul>
+   <p>Piani legacy: qualsiasi piano</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Nuovo: Standard </p>
-   <p>Corrente: Piano </p> </td> 
+   <td role="rowheader"><p>Licenza Adobe Workfront*</p></td> 
+   <td> <p>Corrente: Standard </p>
+   <p>Legacy: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td role="rowheader"><p>Configurazioni del livello di accesso</p></td> 
    <td> <p>Modifica accesso a progetti e dati finanziari</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
    <td> <p> Gestire le autorizzazioni che includono Gestisci dati finanziari per il progetto per il quale si desidera creare o modificare i rischi </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

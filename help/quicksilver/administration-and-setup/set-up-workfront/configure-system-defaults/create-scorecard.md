@@ -8,9 +8,9 @@ author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '718'
 ht-degree: 1%
 
 ---
@@ -42,15 +42,13 @@ Puoi creare una scorecard nel modo seguente:
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Devi disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] piano*</td> 
-   <td> <p>Nuovo: [!UICONTROL Prime] o versione successiva</p>
+   <td> <p>Nuovo: Ultimate</p>
    <p>Corrente: [!UICONTROL Business] o versione successiva</p> 
    </td> 
   </tr> 
@@ -60,10 +58,15 @@ Devi disporre dei seguenti diritti di accesso:
    <p>Corrente: [!UICONTROL Plan]</p>
    </td> 
   </tr> 
+   <tr> 
+   <td role="rowheader"><p>Livello di accesso</p></td> 
+   <td><p>Amministratore di Sistema</p>
+   </td> 
+  </tr>
  </tbody> 
 </table>
 
-*Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -100,7 +103,7 @@ Devi disporre dei seguenti diritti di accesso:
       <td>Selezionare questa opzione per indicare che [!DNL Workfront] deve sottrarre dal totale dei punti possibili. Non è possibile aggiungere punteggi negativi al numero massimo di punti possibile di una scorecard.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Tipo di visualizzazione </td> 
+      <td role="rowheader">Tipo di visualizzazione [!UICONTROL]</td> 
       <td>Selezionare <strong>[!UICONTROL Value(0-100)]</strong> per visualizzare un campo numerico nella scorecard in cui gli utenti possono specificare un valore compreso tra 0 e 100.<p>In alternativa, selezionare <strong>[!UICONTROL elenco a discesa]</strong> o <strong>[!UICONTROL pulsanti di scelta]</strong> per creare una risposta che gli utenti possono specificare utilizzando tale controllo. Fare clic su <strong>[!UICONTROL Add Answer]</strong>, quindi digitare il <strong>[!UICONTROL Value]</strong> in punti percentuali per questa risposta, nel caso che sia soddisfatta. Se si sceglie 100%, il numero di punti assegnati per questa domanda viene raggiunto completamente. Se si desidera indicare che la risposta contiene solo una parte del totale di punti assegnati a questa domanda, selezionare un valore percentuale inferiore. Ad esempio, se la domanda è valutata a 10 punti e si desidera che la risposta contenga 5 di tali punti, scegliere 50% per il valore.</p>
       <p>Selezionare <strong>[!UICONTROL Predefinito]</strong> se si desidera indicare che questa risposta è quella predefinita.</strong></p>
      </tr> 

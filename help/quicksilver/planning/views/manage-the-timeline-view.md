@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: dae692617f447c446a421207143225b33b51debe
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '3512'
-ht-degree: 0%
+source-wordcount: '3788'
+ht-degree: 2%
 
 ---
 
@@ -28,8 +28,6 @@ Per informazioni sulle visualizzazioni record, vedere [Gestione visualizzazioni 
 ## Requisiti di accesso
 
 +++ Espandere per visualizzare i requisiti di accesso.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -146,7 +144,7 @@ Per gestire una vista timeline:
 
    ![Messaggio originale trimestri personalizzati mancante nella visualizzazione della sequenza temporale](assets/missing-custom-quarters-original-message-on-timeline-view.png)
 
-   Questi messaggi di avviso vengono visualizzati una volta per ogni utente.
+   I messaggi di avviso relativi ai trimestri personalizzati vengono visualizzati una volta per ogni utente.
 
    >[!NOTE]
    >
@@ -162,12 +160,12 @@ Per gestire una vista timeline:
    >
    ><span class="preview">Il pulsante Vai all&#39;installazione viene visualizzato solo per l&#39;amministratore di Workfront.</span>
 
-1. (Facoltativo e condizionale) Quando il nome del record viene troncato, posizionare il puntatore del mouse su una barra dei record per visualizzare il nome completo del record e le informazioni aggiuntive.
+1. (Facoltativo e condizionale) Quando il nome del record viene troncato, posizionare il puntatore del mouse su una barra dei record per visualizzare il nome completo del record e le informazioni aggiuntive. Per informazioni sull&#39;impostazione del troncamento della barra dei record nella sequenza temporale, vedere la sezione [Modificare le impostazioni della visualizzazione della sequenza temporale](#edit-the-timeline-view-settings) in questo articolo.
 
 1. Per spostarsi nella timeline, effettuate una delle seguenti operazioni:
 
-   * Fate clic sulle icone sinistra e destra oppure utilizzate lo scorrimento orizzontale per spostarvi avanti e indietro nella timeline. L’aggiornamento della pagina mantiene l’intervallo di tempo selezionato.
-   * Fai clic su **Oggi** per centrare la timeline fino alla data odierna.
+   * Fate clic sulle icone sinistra e destra nell&#39;angolo superiore sinistro oppure utilizzate lo scorrimento orizzontale per spostarvi avanti e indietro nella timeline. L’aggiornamento della pagina mantiene l’intervallo di tempo selezionato.
+   * Fai clic su **Oggi** nell&#39;angolo superiore destro per centrare la timeline fino alla data odierna.
    * Per aggiornare gli incrementi di tempo e aggiornare la vista, selezionate una delle seguenti opzioni dal menu a discesa intervallo di tempo:
 
       * **Anno**: visualizza trimestri e mesi con indicazione dell&#39;anno.
@@ -218,12 +216,105 @@ Quando si lavora con i filtri nella vista timeline, considera quanto segue:
 
 * Se si rimuovono i filtri, questi verranno rimossi da tutti coloro che accedono allo stesso tipo di record e che visualizzano la stessa visualizzazione.
 
-* L’aggiunta di filtri nella vista timeline è identica all’aggiunta di filtri nella vista tabella.
-
-  Per ulteriori informazioni, vedere la sezione &quot;Aggiungere filtri&quot; nell&#39;articolo [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
-
 * È possibile filtrare in base ai campi record o ai campi di ricerca connessi.
 * Puoi filtrare per campi di ricerca che visualizzano più valori.
+
+Per aggiungere un filtro a una vista timeline:
+
+1. Creare una visualizzazione timeline per una pagina del tipo di record, come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
+1. Seleziona una visualizzazione timeline, quindi fai clic su **Filtri** nell&#39;angolo superiore destro della tabella.
+1. Fai clic su **Aggiungi condizione** e aggiungi le seguenti informazioni:
+
+   * **Selezionare un campo** da filtrare per <!-- the tip below might change-->
+
+   * **Seleziona un&#39;opzione** (o un modificatore di filtro) per definire il tipo di condizione che il campo deve soddisfare
+
+     Nella tabella seguente vengono visualizzati i modificatori disponibili per ogni tipo di campo.
+
+     <table>
+        <thead>
+        <tr>
+            <th><b>Tipo di campo</b></th>
+            <th><b>Modificatori</b></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Linea singola, paragrafo, formula </td>
+            <td><p>Contiene</p>
+            <p>Non contiene</p>
+            <p>È</p>
+            <p>Non è</p>
+            <p>È vuoto</p>
+            <p>Non è vuoto</p></td>
+        </tr>
+        <tr><td>Selezione singola</td>
+            <td><p>È</p>
+            <p>Non è</p>
+            <p>È uno qualsiasi di</p>
+            <p>Non è nessuno di</p>
+            <p>È vuoto</p>
+            <p>Non è vuoto</p></td>
+        </tr>
+        <tr>
+            <td>Selezione multipla, Persone</td>
+            <td><p>Ha uno qualsiasi di</p>
+            <p>Ha tutti</p>
+            <p>È esattamente</p>
+            <p>Non ha nessuno di</p>
+            <p>È vuoto</p>
+            <p>Non è vuoto</p></td>
+        </tr>
+        <tr>
+            <td>Numero, Percentuale, Valuta</td>
+            <td><p>=</p>
+            <p>≠</p>
+            <p> &lt; </p>
+            <p>&gt;</p>
+            <p>≤</p>
+            <p>≥</p>
+            <p>È vuoto</p>
+            <p>Non è vuoto</p></td>
+        </tr>
+        <tr>
+            <td>Data</td>
+            <td><p>È</p>
+            <p>Non è</p>
+            <p>È dopo il</p>
+            <p>È prima del</p>
+            <p>È compreso tra</p><p>Non è compreso tra</p>
+            <p>È vuoto</p><p>Non è vuoto</p></td>
+        </tr>
+
+     <tr>
+            <td>Casella di controllo</td>
+            <td><p>È</p>
+        </tr>
+        </tbody>
+        </table>
+
+   * Selezionare un valore per il campo selezionato.
+
+   ![Visualizzazione tabella interfaccia utente filtro](assets/filter-ui-table-view.png)
+
+   Non esiste alcun limite al numero di condizioni di filtro che è possibile aggiungere.
+
+1. (Facoltativo) Fai clic su **Aggiungi condizione** per aggiungere un&#39;altra opzione di filtro e ripetere i passaggi precedenti. Il numero di filtri applicati viene visualizzato a sinistra dell&#39;icona **Filtri**.
+1. Fare clic sugli operatori seguenti a sinistra per indicare come vengono unite e devono essere applicate le condizioni del filtro:
+
+   * **AND**: tutte le condizioni specificate devono essere soddisfatte.
+   * **OR**: è necessario soddisfare una delle condizioni specificate.
+Questa è l&#39;opzione predefinita.
+
+   1. (Facoltativo) Aggiungi altri raggruppamenti di filtri e aggiungili da **AND** o da **OR** operatori.
+
+      ![Filtri multilivello nelle visualizzazioni](assets/multi-tiered-filters-in-views.png)
+
+   L’elenco dei record viene filtrato automaticamente in base ai criteri di filtro.  <!--at this time, you can't name and save the filter - but will this change?!-->
+   <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
+
+1. (Facoltativo) Fai clic sull&#39;icona **x** per rimuovere una condizione di filtro.
+1. (Facoltativo) Fai clic su **Filtri** o in qualsiasi altro punto della pagina per chiudere la casella dei filtri. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 
 ### Aggiungi raggruppamento
@@ -231,8 +322,6 @@ Quando si lavora con i filtri nella vista timeline, considera quanto segue:
 <!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
 
 È possibile raggruppare i record in base a informazioni simili quando si applica un raggruppamento a una visualizzazione.
-
-L’aggiunta di raggruppamenti nella vista timeline è simile all’aggiunta di raggruppamenti nella vista tabella.
 
 Quando si lavora con i raggruppamenti nella vista timeline, tenete presente quanto segue:
 
@@ -320,7 +409,7 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
    Il campo principale (o titolo) del record, come definito nella vista tabella del record, è selezionato per impostazione predefinita.
    <!--adjust this when the primary field is released??-->
 
-1. (Facoltativo e condizionale) Se ai record sono state aggiunte miniature, selezionare l&#39;opzione Miniatura per visualizzare l&#39;immagine associata ai record nella barra dei record.
+1. (Facoltativo e condizionale) Se hai aggiunto miniature ai record, seleziona l&#39;opzione **Miniatura** per visualizzare l&#39;immagine associata ai record nella barra dei record.
 
    >[!NOTE]
    >
@@ -340,13 +429,13 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
 
    ![Registra le impostazioni della timeline del pannello dei dettagli con anteprima](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. <span class="preview">(Facoltativo e condizionale) Se si visualizza la sequenza temporale in modalità Standard, abilitare l&#39;impostazione **Tronca dettagli barra**. Quando questa opzione è attivata, le informazioni sulle barre dei record vengono troncate e vengono visualizzate completamente solo quando si passa il puntatore del mouse sulle barre. Questa impostazione è disattivata per impostazione predefinita e le informazioni sono visualizzate completamente sulle barre. </span>
+1. <span class="preview">(Facoltativo e condizionale) Se si visualizza la sequenza temporale in modalità Standard, selezionare l&#39;impostazione **Tronca dettagli barra**. Se questa opzione è selezionata, le informazioni sulle barre dei record vengono troncate e vengono visualizzate completamente solo quando si passa il puntatore del mouse sulle barre. Questa impostazione è deselezionata per impostazione predefinita e le informazioni del record sono visualizzate completamente sulle barre. </span>
 
    ![Impostazione di troncamento abilitata nella casella delle impostazioni della sequenza temporale evidenziata](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
 
    >[!TIP]
    >
-   ><span class="preview">L&#39;impostazione dei dettagli della barra di troncamento non è disponibile quando si visualizza la visualizzazione della sequenza temporale in modalità Compatta e non è disponibile nella visualizzazione Calendario.</span>
+   ><span class="preview">L&#39;impostazione dei dettagli della barra di troncamento non è disponibile quando si visualizza la visualizzazione della sequenza temporale in modalità Compatta.</span>
    >
 
 1. Fai clic su **Colore** nel pannello a sinistra per personalizzare i colori dei record e dei raggruppamenti nella timeline.
@@ -392,13 +481,11 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
 
    Se non si dispone di un campo con opzioni codificate a colori per il tipo di record selezionato, questa opzione viene disattivata.
 
-1. <span class="preview">(Facoltativo) Se si utilizza l&#39;opzione Raggruppamento, ripetere i passaggi a partire dal passaggio 4 per ogni record connesso visualizzato nella sequenza temporale. </span>
+1. <span class="preview">(Facoltativo) Se si utilizza l&#39;opzione **Raggruppamento**, ripetere i passaggi a partire dal passaggio 4 per ogni record connesso visualizzato nella sequenza temporale. </span>
 
 1. Fai clic su **Salva**.
 
    I record vengono visualizzati nella vista timeline con le specifiche selezionate.
-
-
 
 ### Suddividere i record connessi nella visualizzazione timeline
 

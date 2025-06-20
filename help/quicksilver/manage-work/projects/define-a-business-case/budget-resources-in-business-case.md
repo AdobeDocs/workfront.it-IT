@@ -5,7 +5,7 @@ description: Come parte della pianificazione delle risorse, è possibile prevent
 author: Alina
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Come parte della pianificazione delle risorse, è possibile preventivare i ruoli
 
   Per ulteriori informazioni, vedere [Risorse preventivate nel Business Case utilizzando la pianificazione risorse](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
 
-* Utilizza la Pianificazione scenario per creare iniziative con i ruoli richiesti e collegarle al progetto. Per ulteriori informazioni, consulta [Risorse budget nel caso di business utilizzando Scenario Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md) .
+* Utilizza la Pianificazione scenario per creare iniziative con i ruoli richiesti e collegarle al progetto. Per ulteriori informazioni, vedere [Risorse budget nel caso di business utilizzando la Pianificazione scenario](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
   >[!NOTE]
   >

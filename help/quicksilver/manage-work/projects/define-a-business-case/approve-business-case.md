@@ -5,14 +5,16 @@ description: Dopo aver completato e sottomesso il Business Case per una richiest
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '692'
 ht-degree: 0%
 
 ---
 
 # Approvare un caso di business
+
+<!--Audit: 6/2025-->
 
 Dopo aver completato e sottomesso il Business Case per una richiesta di progetto, il Business Case deve essere approvato. Questo dipende dal flusso di lavoro dell’organizzazione. Un progetto può iniziare senza che sia necessario approvare il Business Case, ma l’amministratore di Adobe Workfront e i proprietari del progetto potrebbero non considerarlo ideale.
 
@@ -27,30 +29,31 @@ Per ulteriori informazioni sul completamento e l&#39;invio di un Business Case, 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader"><p>Piano Adobe Workfront*</p></td> 
    <td> 
-   <p>Corrente: Prime o versione successiva</p> 
-   <p>Legacy: Pro o superiore</p> 
+   <p>Corrente: Prime o versione successiva</p>
+   <p>oppure</p>
+   <p>Legacy: aziendale o superiore</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza Adobe Workfront*</td> 
    <td> 
    <p>Corrente: Standard </p> 
    <p>Legacy: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modifica accesso ai progetti</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modifica accesso ai progetti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td> <p>Gestire le autorizzazioni per un progetto</p> <p>Visualizza o autorizzazioni superiori per un portfolio</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

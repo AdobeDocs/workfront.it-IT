@@ -5,16 +5,16 @@ description: Puoi utilizzare una scorecard per misurare il livello di allineamen
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
 
 # Applicare una scorecard a un progetto e generare un punteggio di allineamento
 
-<!-- Audited: 02/2024 -->
+<!-- Audited: 06/2025 -->
 
 Puoi utilizzare una scorecard per misurare il livello di allineamento di un progetto ai criteri precedentemente stabiliti per un portfolio. Una scorecard spesso riflette la missione, i valori e gli obiettivi strategici di un’organizzazione.
 
@@ -29,14 +29,14 @@ Per ulteriori informazioni sulle scorecard e su come crearne una, vedere [Creare
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td>
    <p>Corrente: Prime o versione successiva</p>
    <p>oppure</p>
    <p>Legacy: aziendale o superiore</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza Adobe Workfront*</td> 
    <td>
    <p>Corrente: Standard</p>
    <p>oppure</p>
@@ -53,7 +53,7 @@ Per ulteriori informazioni sulle scorecard e su come crearne una, vedere [Creare
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '3676'
+source-wordcount: '3633'
 ht-degree: 2%
 
 ---
@@ -34,8 +34,6 @@ Questo articolo descrive le seguenti informazioni:
 ## Requisiti di accesso
 
 +++ Espandere per visualizzare i requisiti di accesso.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -260,8 +258,6 @@ Quando si lavora con i filtri nella vista a tabella, considera quanto segue:
 
 * La rimozione dei filtri li rimuove da chiunque acceda allo stesso tipo di record utilizzato e utilizza la stessa visualizzazione utilizzata.
 
-* L’aggiunta di filtri alla vista tabella è identica all’aggiunta di filtri alla vista timeline.
-
 * È possibile filtrare in base ai campi record o ai campi di ricerca connessi.
 
 * Puoi filtrare per campi di ricerca che visualizzano più valori.
@@ -432,8 +428,6 @@ Per ordinare <!--ungrouped (add this when sorting for groupings will be availabl
 
 È possibile raggruppare i record in base a informazioni simili quando si applica un raggruppamento a una visualizzazione.
 
-L’aggiunta di raggruppamenti nella vista tabella è simile all’aggiunta di raggruppamenti nella vista timeline.
-
 Considera quanto segue:
 
 * Potete applicare i raggruppamenti sia nella vista tabella che nella vista timeline. I raggruppamenti della vista tabella sono indipendenti da quelli della vista timeline dello stesso tipo di record.
@@ -464,6 +458,8 @@ Per aggiungere un raggruppamento:
 
    Il numero di campi selezionati per il raggruppamento viene visualizzato accanto all’icona Raggruppamento.
 
+   <!--replace screen shot for Expand all-->
+
    ![Raggruppamento applicato nella vista tabella](assets/grouping-applied-in-table-view.png)
 
 1. (Facoltativo) Nella casella **Raggruppa record per**, fai clic sull&#39;icona **x** a destra di un campo selezionato per il raggruppamento per rimuovere il raggruppamento
@@ -475,6 +471,26 @@ Per aggiungere un raggruppamento:
 1. Fare clic all&#39;esterno della casella **Raggruppa record per** per chiuderla.
 1. (Facoltativo) Fai clic su **+ Nuovo record** alla fine di qualsiasi raggruppamento per aggiungere nuovi record, quindi aggiorna la pagina per aggiungere il nuovo record al raggruppamento appropriato. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
+<!--
+
+1. <span class="preview">To expand or collapse groupings, do one of the following:</span>
+
+    <div class="preview">
+
+    1. Click the **Grouping** icon, then **Expand all**, or **Collapse all**. This expands all the groupings and subgroupings in the table view. 
+
+        ![Expand and collapse all buttons on grouping box table view](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
+
+    1. Right-click any of the grouping headers in the table view, then click one of the following options:
+        * **Expand group**
+        * **Collapse group**
+        * **Expand all**
+        * **Collapse all**
+        * **Expand subgroups**
+        * **Collapse subgroups**
+
+        Depending on the number of groupings you apply to the view, some options might not be available.</div>
+-->
 
 <!-- this is not available yet: 
 
