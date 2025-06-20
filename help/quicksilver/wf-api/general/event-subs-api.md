@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 334b08f4689318201d3b8260916655f57c2a9320
+source-git-commit: 1e893dd5933ce5740b2bfea1e028f39a07a2291c
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '2632'
 ht-degree: 3%
 
 ---
@@ -711,7 +711,9 @@ Questo filtro consente la trasmissione dei messaggi se la modifica apportata con
 
 Questo filtro consente la trasmissione dei messaggi solo quando l’intero set di valori selezionati corrisponde esattamente al valore fieldValue nel filtro, indipendentemente dall’ordine. Non devono essere presenti valori aggiuntivi o mancanti.
 
-Nota: viene utilizzato per i campi di tipo array (a selezione multipla). Questo esempio di abbonamento di seguito consente la trasmissione dei messaggi solo quando il campo `groups` contiene esattamente &quot;Scelta 3&quot; e &quot;Scelta 4&quot;, senza valori aggiuntivi o mancanti e indipendentemente dall&#39;ordine.
+>[!NOTE]
+>
+>Utilizzato per campi di tipo array (a selezione multipla). Questo esempio di abbonamento di seguito consente la trasmissione dei messaggi solo quando il campo `groups` contiene esattamente &quot;Scelta 3&quot; e &quot;Scelta 4&quot;, senza valori aggiuntivi o mancanti e indipendentemente dall&#39;ordine. Se in `fieldValue` è specificata una stringa o un numero intero anziché un array, la sottoscrizione consente la trasmissione dei messaggi solo quando il campo `groups` contiene esattamente un&#39;opzione e tale opzione corrisponde esattamente alla stringa o al numero intero specificato in `fieldValue`&quot;
 
 
 ```
@@ -729,6 +731,31 @@ Nota: viene utilizzato per i campi di tipo array (a selezione multipla). Questo 
             ],
             "state": "newState",
             "comparison": "containsOnly"
+        }
+    ]
+}
+```
+
+#### notContains
+
+Questo filtro consente la trasmissione dei messaggi solo quando il campo specificato (`fieldName`) non contiene il valore specificato (`fieldValue`).
+
+>[!NOTE]
+>
+>Utilizzato per campi di tipo array (a selezione multipla) o stringa. Se il campo è una stringa, verificheremo se il valore specificato non è contenuto nella stringa (ad esempio, &quot;Nuovo&quot; non è nella stringa &quot;Progetto - Aggiornato&quot;). Se il campo è un array e il valore di campo specificato è una stringa o un numero intero, verrà verificato se l&#39;array non contiene il valore specificato (ad esempio, &quot;Scelta 1&quot; non in [&quot;Scelta 2&quot;, &quot;Scelta 3&quot;]). L&#39;esempio di sottoscrizione seguente consente la trasmissione dei messaggi solo quando i campi `groups` non contengono la stringa &quot;Gruppo 2&quot;.
+
+```
+{
+    "objCode": "PROJ",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedProjects",
+    "filters": [
+        {
+            "fieldName": "groups",
+            "fieldValue": "Group 2",
+            "state": "newState",
+            "comparison": "notContains"
         }
     ]
 }
@@ -766,7 +793,7 @@ Questo connettore applica il filtro al nuovo stato o al vecchio stato dell’ogg
 >[!NOTE]
 >
 >La sottoscrizione seguente con il filtro specificato restituirà solo i messaggi in cui il nome dell&#39;attività contiene `again` per `oldState`, ovvero ciò che si trovava prima di un aggiornamento dell&#39;attività.
->&#x200B;>Un caso d’uso per questo potrebbe essere quello di trovare i messaggi objCode che sono cambiati da una cosa all’altra. Ad esempio, per individuare tutte le attività che sono cambiate da &quot;Cerca nome&quot; a &quot;Cerca nome team&quot;
+>>Un caso d’uso per questo potrebbe essere quello di trovare i messaggi objCode che sono cambiati da una cosa all’altra. Ad esempio, per individuare tutte le attività che sono cambiate da &quot;Cerca nome&quot; a &quot;Cerca nome team&quot;
 
 ```
 {
