@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: d7b9f6cac531bed5fd2a3e5c766e9d714f2625e4
+source-git-commit: de30f2600c5d13bb4bbc56cdc1b166ac7c5adb05
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1497'
 ht-degree: 3%
 
 ---
@@ -61,8 +61,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiornamento visualizzatore bozze desktop</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-            <p>Il Visualizzatore bozze desktop è stato aggiornato alla versione 2.1.50.
-Questo aggiornamento include aggiornamenti interni degli strumenti e non influisce sulle funzionalità dell’utente finale. </p>
+            <p>Il Visualizzatore bozze desktop è stato aggiornato alla versione 2.1.50. Questo aggiornamento include aggiornamenti interni degli strumenti e non influisce sulle funzionalità dell’utente finale.</p>
         </td>
         <td>sabato 13 giugno 2025</td>
         <td>sabato 13 giugno 2025</td>
@@ -141,7 +140,7 @@ Questo aggiornamento include aggiornamenti interni degli strumenti e non influis
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Il widget delle mie approvazioni ora ordina automaticamente per scadenza </a><p></p>
-            <p>Il widget Le mie approvazioni è stato aggiornato nella home per ordinare per scadenza (decrescente) per impostazione predefinita. Questo consente di visualizzare le approvazioni più urgenti nella parte superiore dell'elenco. </p>
+            <p>Il widget Le mie approvazioni è stato aggiornato nella home per ordinare per scadenza (decrescente) per impostazione predefinita. Questo consente di visualizzare le approvazioni più urgenti nella parte superiore dell'elenco. </p><p><b>Nota:</b> attualmente, solo le approvazioni di bozze possono essere ordinate in base alla scadenza nel widget Approvazioni personali.</p>
         </td>
         <td>venerdì 29 maggio 2025</td>
         <td>venerdì 12 giugno 2025</td>
@@ -288,7 +287,7 @@ Stiamo aggiornando l’interfaccia in Adobe Workfront per migliorare l’esperie
 
 ### Miglioramenti apportati a Workfront Fusion
 
-Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione di rilascio standard. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione di rilascio standard. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Miglioramenti di Workfront Planning
 
@@ -326,7 +325,7 @@ Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianific
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Aggiornamenti dei corsi di formazione
 

@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: d7b9f6cac531bed5fd2a3e5c766e9d714f2625e4
+source-git-commit: de30f2600c5d13bb4bbc56cdc1b166ac7c5adb05
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,7 @@ Per informazioni, vedere [Utilizzare l&#39;area I miei aggiornamenti](/help/quic
 
 Il widget Le mie approvazioni è stato aggiornato nella home per ordinare per scadenza (decrescente) per impostazione predefinita. Questo consente di visualizzare le approvazioni più urgenti nella parte superiore dell&#39;elenco.
 
+Attualmente, solo le Approvazioni bozza possono essere ordinate per scadenza nel widget Approvazioni personali.
+
 In precedenza, il widget era ordinato per data di immissione, il che rendeva difficile determinare la priorità.
+
