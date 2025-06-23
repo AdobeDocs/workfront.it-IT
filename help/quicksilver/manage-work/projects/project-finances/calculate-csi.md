@@ -7,14 +7,16 @@ description: Il CSI (Cost Schedule Performance Index) è un calcolo automatico c
 author: Lisa
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
 
 # Calcola indice prestazioni programma costi (CSI)
+
+<!-- Audited: 6/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.) </p>
@@ -26,15 +28,12 @@ Il CSI (Cost Schedule Performance Index) è un calcolo automatico che combina l&
 
 >[!TIP]
 >
->Adobe Workfront calcola CSI sia per le attività che per i progetti. Workfront non calcola un valore CSI per i problemi.
+>Adobe Workfront calcola CSI sia per le attività che per i progetti, ma non per i problemi.
 
-Puoi beneficiare delle informazioni fornite da questa metrica solo se nell’organizzazione sono presenti i seguenti elementi:
+Puoi trarre vantaggio dalle informazioni fornite da questa metrica solo se nell’organizzazione sono presenti i seguenti scenari:
 
-* Gli utenti registrano il tempo necessario per completare il lavoro.\
-  Questo calcola il CSI in base alle ore.
-* Agli utenti o alle mansioni sono associati tassi Costo orario. 
-
-  Questo calcola il CSI in base ai costi.
+* Gli utenti registrano il tempo necessario per completare il lavoro. Questo calcola il CSI in base alle ore.
+* Agli utenti o alle mansioni sono associati tassi Costo orario. Questo calcola il CSI in base ai costi.
 
 ## Modalità di calcolo dell&#39;indice di prestazioni del programma di costo (CSI, Cost Schedule Performance Index) in Workfront
 
@@ -58,11 +57,11 @@ CSI ha i seguenti tre valori possibili:
 
 >[!CAUTION]
 >
->Per visualizzare il valore CSI di un progetto o di un task, è necessario disporre dell&#39;accesso Visualizza dati finanziari nel proprio livello di accesso e delle autorizzazioni per visualizzare il progetto o il task.
+>Per visualizzare il valore CSI di un progetto o di un task, è necessario disporre dell&#39;accesso Visualizzazione dati finanziari nel proprio livello di accesso e delle autorizzazioni per visualizzare il progetto o il task.
 
 È possibile individuare CSI nelle seguenti aree di Workfront:
 
 * Area Finanza nella sezione Dettagli progetto.
 * Area Contabilità nella sezione Dettagli attività.
-* Visualizzazione di un progetto o di un&#39;attività
-* Un report di progetto o attività
+* Visualizzazione di un progetto o di un&#39;attività.
+* Un report di progetto o attività.

@@ -2,46 +2,45 @@
 product-area: projects
 navigation-topic: financials
 title: Gestisci spese progetto
-description: Il processo di creazione e gestione delle spese è lo stesso sia per le spese relative al progetto che per quelle relative al task. Tutte le spese aggiunte al progetto nel Business Case vengono aggiunte alla scheda Spese come spese pianificate. Per ulteriori informazioni sul caso di business, consulta l’articolo Creare un caso di business per un progetto.
+description: Il processo di creazione e gestione delle spese è lo stesso sia per le spese relative al progetto che per quelle relative al task. Tutte le spese aggiunte al progetto nel Business Case vengono aggiunte alla scheda Spese come spese pianificate.
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '504'
 ht-degree: 1%
 
 ---
 
 # Gestisci spese progetto
 
-Il processo di creazione e gestione delle spese è lo stesso sia per le spese relative al progetto che per quelle relative al task. Tutte le spese aggiunte al progetto nel Business Case vengono aggiunte alla scheda Spese come spese pianificate. Per ulteriori informazioni sul Business Case, vedere l&#39;articolo [Creare un Business Case per un progetto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+<!-- Audited: 6/2025 -->
 
-L&#39;importo totale delle spese relative a tutte le attività e al progetto contribuisce al costo totale del progetto. L&#39;importo pianificato delle spese contribuisce al costo pianificato del progetto e l&#39;importo effettivo delle spese contribuisce al costo effettivo del progetto.
+Il processo di creazione e gestione delle spese è lo stesso sia per le spese relative al progetto che per quelle relative al task. Tutte le spese aggiunte al progetto nel Business Case vengono aggiunte alla scheda Spese come spese pianificate. Per ulteriori informazioni, vedere [Creare un caso di business per un progetto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+
+L&#39;importo totale delle spese di tutte le attività e di tutti i progetti contribuisce al costo totale del progetto. L&#39;importo pianificato delle spese contribuisce al costo pianificato del progetto e l&#39;importo effettivo delle spese contribuisce al costo effettivo del progetto.
 
 ## Requisiti di accesso
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
    <td>
    <p>Nuovo: Standard</p>
-   <p>oppure</p>
    <p>Corrente: Lavoro o versione successiva</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td>Modifica accesso a progetti e dati finanziari</td> 
   </tr> 
   <tr> 
@@ -57,35 +56,35 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Aggiungi spese
 
-1. Vai al progetto in cui desideri inserire le spese.\
-   Se si desidera aggiungere spese a un&#39;attività, passare a un&#39;attività.
+1. Passare al progetto o all&#39;attività per cui si desidera immettere le spese.
 1. Fai clic su **Spese** nel pannello a sinistra.
-1. Fai clic su **Aggiungi una spesa**.
-Viene visualizzata la finestra di dialogo **Aggiungi una spesa**.
+1. Fai clic su **Aggiungi una spesa**. Viene visualizzata la finestra di dialogo **Aggiungi una spesa**.
 1. Aggiorna quanto segue:
 
-   * **Descrizione:** Descrizione della spesa.
+   * **Descrizione:** Immettere una descrizione della spesa.
    * **Tipo di spesa:** (obbligatorio) Selezionare la categoria che meglio descrive la spesa.
-   * **Attività:** Inizia a digitare il nome dell&#39;attività a cui è associata questa spesa, quindi fai clic su di essa quando viene visualizzata nell&#39;elenco a discesa.
-   * **Importo pianificato:** l&#39;importo preventivato pianificato per la spesa.\
-     Questo incide sul Costo preventivato del progetto.
+   * **Attività:** Digitare il nome dell&#39;attività a cui è associata la spesa, quindi fare clic su di essa quando viene visualizzata nell&#39;elenco a discesa.
+   * **Importo pianificato:** Inserire l&#39;importo preventivato pianificato per la spesa. Questo incide sul Costo preventivato del progetto.
 
-   * **Importo effettivo:** L&#39;importo del costo effettivo della spesa.\
-     Questo incide sul Costo Reale del progetto.
+   * **Importo effettivo:** Immettere l&#39;importo del costo effettivo della spesa. Questo incide sul Costo Reale del progetto.
 
-   * **Data pianificata:** la data prevista per l&#39;esecuzione della spesa. È possibile digitare la data nel campo utilizzando il formato *mm/gg/aa* oppure fare clic sull&#39;icona del calendario  ![Icona Calendario](assets/calendar-icon.png) e selezionare la data in modo dinamico.
+   * **Data pianificata:** Immettere la data prevista per l&#39;esecuzione della spesa. È possibile digitare la data nel campo utilizzando il formato *mm/gg/aa* oppure fare clic sull&#39;icona **Calendario**  ![Icona Calendario](assets/calendar-icon.png) e selezionare la data in modo dinamico.
 
-   * **Data di pagamento:** La data in cui è stata pagata la spesa.
+   * **Data pagamento:** Immettere o selezionare la data di pagamento della spesa.
    * **Fatturabile:** Selezionare questa opzione se si desidera fatturare la spesa. La classificazione di una spesa come fatturabile è importante quando si creano i record di fatturazione.
    * **Rimborsabile:** Selezionare questa opzione se la spesa deve essere rimborsata. Puoi quindi contrassegnare la spesa come rimborsata dopo che la spesa è stata rimborsata.
 
-1. Seleziona un **modulo personalizzato** e specifica eventuali informazioni aggiuntive necessarie. È necessario creare un modulo personalizzato prima di associarlo a una spesa. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per informazioni sulla creazione di moduli personalizzati, vedere l&#39;articolo [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Seleziona un **modulo personalizzato** e specifica eventuali informazioni aggiuntive necessarie.
+
+   >[!NOTE]
+   >
+   >È necessario creare un modulo personalizzato prima di associarlo a una spesa. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per informazioni sulla creazione di moduli personalizzati, vedere l&#39;articolo [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Fai clic su **Salva modifiche**.
 
 ## Cancella Spese
 
-1. Vai al progetto in cui desideri eliminare le spese.
+1. Vai al progetto per il quale desideri eliminare una spesa.
 1. Fai clic su **Spese** nel pannello a sinistra.
-1. Seleziona le spese da eliminare, quindi fai clic su **Elimina** ![Elimina](assets/delete.png).
-1. Fare clic su **Sì, Elimina** per confermare l&#39;eliminazione.
+1. Seleziona la spesa da eliminare, quindi fai clic sull&#39;icona **Elimina** ![Elimina](assets/delete.png).
+1. Nella finestra di dialogo **Elimina spesa** fare clic su **Sì, elimina**.

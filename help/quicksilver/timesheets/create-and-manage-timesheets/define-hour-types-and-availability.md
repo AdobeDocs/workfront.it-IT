@@ -6,37 +6,33 @@ description: Un Tipo di Ora è un’etichetta che consente di categorizzare l’
 author: Alina
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
-source-git-commit: 83827c24bd9157d2a4fb151e61c38cd6892a7c86
+source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1487'
 ht-degree: 0%
 
 ---
 
 # Definire i tipi di ore e la disponibilità
 
-<!--Audited: 10/2024-->
+<!--Audited: 6/2025-->
 
-Un Tipo di Ora è un’etichetta che consente di categorizzare l’immissione dell’ora. A seconda dei requisiti di reporting della tua organizzazione per ore, questo può essere una parte essenziale del tempo di registrazione.
+Un Tipo di Ora è un’etichetta che consente di categorizzare l’immissione dell’ora. A seconda dei requisiti di reporting dell’organizzazione per le ore, questa può essere una parte essenziale del tempo di registrazione.
 
-In Adobe Workfront sono disponibili due set di tipi di ore:
+In Adobe Workfront sono disponibili 2 set di tipi di ore:
 
-* **Ore generali:** ore non associate a un progetto, ad esempio ore di malattia o amministrazione. Puoi registrare le ore generali solo sulla scheda orario.
-* **Ore specifiche del progetto:** ore collegate a progetti, attività e problemi. È possibile registrare le ore specifiche del progetto da qualsiasi posizione in cui è possibile registrare il tempo.
+* **Ore generali**: ore non associate a un progetto, ad esempio ore di malattia o amministrazione. Puoi registrare solo le ore generali sulla scheda orario.
+* **Ore specifiche per il progetto**: ore connesse a progetti, attività e problemi. È possibile registrare le ore specifiche del progetto da qualsiasi posizione in cui è possibile registrare il tempo.
 
 Quando si registra l’ora in Workfront, i tipi di ora specifici per il progetto disponibili dipendono dalle opzioni di configurazione impostate a livello di sistema, progetto e utente. Sono sempre disponibili i seguenti tipi di ore predefiniti specifici per il progetto: Ora progetto, Ora attività e Ora problema.
 
 I tipi di ore disponibili per la selezione durante la registrazione del tempo (su progetti, attività e problemi) sono determinati innanzitutto dai tipi di ore disponibili a livello di sistema dall&#39;amministratore di sistema e quindi dai tipi di ore selezionati a livello di progetto e utente.
 
-Dopo aver configurato i tipi di ore appropriati, è possibile registrare l&#39;ora da più posizioni in Workfront, come descritto in [Ora di registro](../../timesheets/create-and-manage-timesheets/log-time.md).
+Una volta configurati i tipi di ora appropriati, è possibile registrare il tempo da più posizioni in Workfront. Per ulteriori informazioni, vedere [Tempo di connessione](../../timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso e autorizzazioni:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,7 +45,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Nuovo: Standard</p> 
    <p>Corrente: Piano</p>
    </td> 
@@ -65,21 +61,22 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Definire la disponibilità a livello di sistema
 
-L&#39;amministratore di sistema determina quali tipi di ore specifici del progetto sono resi disponibili a livello di sistema, come descritto in [Gestione tipi di ore](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+L’amministratore di sistema determina quali tipi di ore specifiche per il progetto vengono rese disponibili a livello di sistema. Per ulteriori informazioni, vedere [Gestire i tipi di lavoro](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
 ## Definire la disponibilità a livello di progetto {#define-availability-at-the-project-level}
 
 Il proprietario del progetto determina se tutti i tipi di ore definiti a livello di sistema sono disponibili nel progetto (e le attività e i problemi all’interno del progetto) o se è disponibile solo un sottoinsieme di tali tipi di ore.
 
-1. Vai al progetto in cui desideri determinare la disponibilità dei tipi di ore.
-1. Fai clic sul menu **Altro** accanto al nome del progetto nell&#39;intestazione, quindi fai clic su **Modifica**.
-Viene visualizzata la casella **Modifica progetto**.
+{{step1-to-projects}}
+
+1. Nella pagina **Progetti** selezionare il progetto per il quale si desidera determinare la disponibilità dei tipi di ore.
+1. Fai clic sull&#39;icona **Altro** ![Altro icona](assets/more-icon.png) accanto al nome del progetto nell&#39;intestazione, quindi fai clic su **Modifica**. Viene aperto il pannello **Modifica progetto**.
 
 1. Nella sezione **Impostazioni progetto**, individua l&#39;impostazione **Filtra tipi di lavoro**.
 
@@ -87,9 +84,7 @@ Viene visualizzata la casella **Modifica progetto**.
 
    Oppure
 
-   Selezionare **Sì** per rendere disponibile nel progetto solo un sottoinsieme dei tipi di ore specifici del progetto, quindi selezionare i tipi di ore che si desidera rendere disponibili.
-
-   Tenere premuto il tasto Maiusc per selezionare più tipi di ore.
+   Seleziona **Sì** per rendere disponibile nel progetto solo un sottoinsieme dei tipi di lavoro specifici del progetto, quindi seleziona i **Tipi di lavoro** che desideri rendere disponibili. È possibile selezionare più tipi di ore.
 
    >[!NOTE]
    >
@@ -107,21 +102,19 @@ Viene visualizzata la casella **Modifica progetto**.
 
 ## Definire la disponibilità a livello di utente
 
-È possibile registrare le ore per un determinato tipo di ora su progetti, attività e problemi solo se tale tipo di ora è stato reso disponibile a livello di sistema, di progetto e a livello di utente.
+È possibile registrare le ore per un determinato tipo di ora su progetti, attività e problemi solo se tale tipo di ora è stato reso disponibile a livello di sistema, di progetto e di utente.
 
-Se si rende disponibile un tipo di ora a livello di utente come descritto in questa sezione, ma tale tipo non viene visualizzato quando si registra l&#39;ora in un progetto, un&#39;attività o un problema, tale tipo di ora non è stato reso disponibile nel progetto (come descritto in [Definire la disponibilità a livello di progetto](#define-availability-at-the-project-level)).
+Se si rende disponibile un tipo di ora a livello di utente come descritto in questa sezione, ma tale tipo non viene visualizzato durante la registrazione dell&#39;ora in un progetto, attività o problema, tale tipo di ora non è stato reso disponibile nel progetto. Per ulteriori informazioni, vedere la sezione seguente in questo articolo: [Definire la disponibilità a livello di progetto](#define-availability-at-the-project-level).
 
 Per definire i tipi di ore disponibili per un utente:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic sull&#39;avatar utente nell&#39;angolo superiore sinistro
+1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic sul tuo avatar utente nell&#39;angolo superiore sinistro.
 
    Oppure
 
-   Fai clic sull&#39;icona ![](assets/adobe-main-menu.png) del **menu principale** nell&#39;angolo superiore destro, se disponibile, quindi fai clic su **Profilo Workfront**.
+   Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/adobe-main-menu.png) nell&#39;angolo superiore destro, se disponibile, quindi fai clic su **Workfront Profile**.
 
-1. Fai clic sul menu **Altro** accanto al nome utente, quindi fai clic su **Modifica**.
-
-   Viene visualizzata la casella **Modifica persona**.
+1. Fai clic sull&#39;icona **Altro** ![Altro icona](assets/more-icon.png) accanto al nome utente, quindi fai clic su **Modifica**. Viene visualizzata la casella **Modifica persona**.
 
    >[!IMPORTANT]
    >
@@ -136,13 +129,9 @@ Per definire i tipi di ore disponibili per un utente:
 
      Affinché i tipi di lavoro selezionati a livello utente siano disponibili per progetti, attività e problemi, è necessario selezionare questi stessi tipi di lavoro anche nell&#39;opzione **Filtra tipi di lavoro** durante la modifica del progetto, come descritto in [Definire la disponibilità a livello di progetto](#define-availability-at-the-project-level).
 
-1. (Facoltativo) Nel menu a discesa **Tipo di ora predefinito**, seleziona un tipo di ora.
+1. (Facoltativo) Nel menu a discesa **Tipo di ora predefinito**, seleziona un tipo di ora. Quando il Tipo di Ora Predefinito dell’Utente e un Tipo di Ora Filtrato del Progetto corrispondono, quel tipo di Ora è selezionato per impostazione predefinita durante la registrazione dell’Ora.
 
-   Quando il Tipo di Ora Predefinito dell’Utente e un Tipo di Ora Filtrato del Progetto corrispondono, quel tipo di Ora è selezionato per impostazione predefinita durante la registrazione dell’Ora.
-
-1. Fai clic su **Salva modifiche**.
-
-   Ora, quando si registrano le ore per un progetto, un&#39;attività o un problema, i tipi di ore selezionati sono disponibili se tali tipi di ore sono stati resi disponibili a livello di progetto.
+1. Fai clic su **Salva modifiche**. Ora, quando si registrano le ore per un progetto, un&#39;attività o un problema, i tipi di ore selezionati sono disponibili se tali tipi di ore sono stati resi disponibili a livello di progetto.
 
 ## Collaborazione tra i tipi di lavoro a livello di utente e di progetto
 
@@ -152,20 +141,20 @@ Nell&#39;elenco seguente vengono descritti i tipi di ore visualizzati in un ogge
 
    * Quando l’utente ha un Tipo di Ora Predefinito sul proprio profilo e il progetto ha lo stesso Tipo di Ora Filtrato, questo Tipo di Ora viene visualizzato come impostazione predefinita selezionata durante la registrazione dell’ora; il Progetto, l’Attività o l’Ora del Problema vengono visualizzati come opzioni aggiuntive.
 
-   * Se l’utente non dispone di un Tipo di Ora predefinito e il progetto dispone di Tipi di Ora filtrati, il Tipo di Ora predefinito per la registrazione è Progetto, Attività o Ora problema, ma anche i Tipi di Ora filtrati dal progetto vengono visualizzati come opzioni aggiuntive.
+   * Se l’utente non dispone di un Tipo di Ora predefinito e il progetto dispone di Tipi di Ora filtrati, il Tipo di Ora predefinito per la registrazione è Progetto, Attività o Ora problema, ma vengono visualizzati anche i Tipi di Ora filtrati del progetto come opzioni aggiuntive.
 
-   * Se l&#39;utente non ha un Tipo di Ora Predefinito e il progetto non ha Tipi di Ora Filtrati, vengono visualizzati per impostazione predefinita solo i tipi di Ora Progetto, Attività o Problema, a seconda dell&#39;oggetto a cui si sta registrando il tempo.
+   * Se l&#39;utente non ha un Tipo di Ora Predefinito e il progetto non ha Tipi di Ora Filtrati, vengono visualizzati come valori predefiniti solo i tipi di Ora Progetto, Attività o Ora problema, a seconda dell&#39;oggetto a cui stai effettuando l&#39;accesso.
 
-   * Se l&#39;utente ha un Tipo di Ora Predefinito e il progetto non ha Tipi di Ora Filtrati, il Progetto, l&#39;Attività o il Nome Problema vengono visualizzati come valori predefiniti quando si registra il tempo sugli oggetti, e non sono disponibili altri Tipi di Ora come opzioni, incluso il Tipo di Ora Predefinito dell&#39;utente.
+   * Se l&#39;utente dispone di un Tipo di Ora Predefinito e il progetto non dispone di Tipi di Ora Filtrati, il Progetto, l&#39;Attività o il Tempo del Problema vengono visualizzati come valori predefiniti quando si registra il tempo sugli oggetti e non sono disponibili altri Tipi di Ora come opzioni, incluso il Tipo di Ora Predefinito dell&#39;utente.
 
 * Dopo aver personalizzato i Tipi di lavoro e definito i Tipi di lavoro disponibili per l&#39;utente o aver filtrato i Tipi di lavoro per un progetto, si possono verificare i seguenti scenari:
 
-   * Quando hai selezionato tutti i tipi di ore per il campo Tipo di ora disponibile nel profilo dell&#39;utente e i Tipi di ora del progetto non sono filtrati, visualizzerai tutti i tipi di ora disponibili al momento della registrazione dell&#39;ora.
+   * Quando hai selezionato tutti i tipi di ore per il campo Tipo di ora disponibile nel profilo dell&#39;utente e i Tipi di ora del progetto non sono filtrati, vedrai tutti i tipi di ora disponibili quando registri l&#39;ora.
    * Quando hai selezionato solo un sottoinsieme di tipi di ore per il campo Tipo di ora disponibile nel profilo dell&#39;utente e i Tipi di ora del progetto non sono filtrati, vedrai solo i tipi di ora dell&#39;utente quando registri l&#39;ora.
-   * Quando hai selezionato tutti i tipi di ore per il campo Tipo di ora disponibile nel profilo dell&#39;utente e i Tipi di ora del progetto sono filtrati, vedrai solo i tipi di ora del progetto e i tipi di ora predefiniti come Ora del progetto, Ora dell&#39;attività, Ora del problema a seconda dell&#39;oggetto.
-   * Quando hai selezionato solo un sottoinsieme di tipi di ora per il campo Tipo di ora disponibile nel profilo dell&#39;utente e i Tipi di ora del progetto sono filtrati, vedrai solo i tipi di ora comuni all&#39;utente e al progetto. Se nessun tipo di ora è comune all&#39;utente e al progetto, vengono visualizzati solo i tipi di ora predefiniti (Ora progetto, Ora attività, Ora problema).
+   * Quando hai selezionato tutti i tipi di ora per il campo Tipo di ora disponibile nel profilo dell&#39;utente e i Tipi di ora del progetto sono filtrati, vedrai solo i tipi di ora del progetto e i tipi di ora predefiniti come Ora del progetto, Ora dell&#39;attività, Ora del problema a seconda dell&#39;oggetto.
+   * Quando hai selezionato solo un sottoinsieme di tipi di ore per il campo Tipo di ora disponibile nel profilo dell&#39;utente e i Tipi di ora del progetto sono filtrati, vedrai solo i tipi di ora comuni all&#39;utente e al progetto. Se nessun tipo di ora è comune all&#39;utente e al progetto, vengono visualizzati solo i tipi di ora predefiniti (Ora progetto, Ora attività, Ora problema).
 
 >[!TIP]
 >
->   Se selezioni un Tipo di Ora diverso invece del tipo di Ora predefinito per un oggetto, il tipo di Ora diventa fisso. La prossima volta che accedi allo stesso oggetto, per impostazione predefinita il Tipo di Ora viene impostato automaticamente sull&#39;ultimo oggetto selezionato.
+>   Se selezioni un Tipo di Ora diverso da quello predefinito per un oggetto, il tipo di Ora diventa permanente. La prossima volta che accedi allo stesso oggetto, per impostazione predefinita il Tipo di Ora viene impostato automaticamente sull&#39;ultimo oggetto selezionato.
 
