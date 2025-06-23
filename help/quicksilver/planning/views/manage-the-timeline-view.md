@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 44b3298905a04c64a457045c4112d9628d933aae
 workflow-type: tm+mt
-source-wordcount: '3788'
+source-wordcount: '3804'
 ht-degree: 2%
 
 ---
@@ -106,7 +106,7 @@ Considera quanto segue:
 
    * Registra date
    * Registra campi generati dal sistema: Data di creazione, Data ultima modifica
-   * Ricercare date da tipi di oggetto o record connessi.
+   * Ricercare le date dai tipi di oggetto o record connessi (solo quando è stato aggiunto un aggregatore per tali date quando sono stati collegati i tipi di oggetto o record)
 * A seconda delle date associate ai record, alcuni record potrebbero non essere visualizzati nella visualizzazione della sequenza temporale nei seguenti scenari:
 
    * Quando le date di inizio e fine non hanno valori
