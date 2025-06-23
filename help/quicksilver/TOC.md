@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
+source-git-commit: d5b0043ed251bfdb6501d091cf10d77685bc497b
 workflow-type: tm+mt
-source-wordcount: '13266'
+source-wordcount: '13201'
 ht-degree: 2%
 
 ---
@@ -109,7 +109,7 @@ ht-degree: 2%
          * [23.3 Altri miglioramenti](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
          * [Aggiornamenti look and feel durante il periodo di rilascio della versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * Versione 23.2 {#release-23-2}
-         * [Panoramica sulla versione di 23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
+         * Panoramica sulla versione di [23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 Miglioramenti per gli amministratori](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
          * [23.2 Miglioramenti di Agile](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
          * [23.2 Miglioramenti alla gestione dei progetti](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
@@ -1699,17 +1699,6 @@ ht-degree: 2%
          * [Condividere un dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
          * [Rimuovere una pagina esterna da un dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
          * [Panoramica delle dashboard di Canvas](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
-   * Funzionalità di analisi avanzate {#enhanced-analytics}
-      * [Funzionalità di analisi avanzate](enhanced-analytics/enhanced-analytics.md)
-      * [Panoramica di analisi avanzate](enhanced-analytics/enhanced-analytics-overview.md)
-      * [Applicare i filtri nelle analisi avanzate](enhanced-analytics/use-enhanced-analytics-filters.md)
-      * [Comprendere i KPI per analisi avanzate](enhanced-analytics/understand-enhanced-analytics-kpis.md)
-      * [Visualizzare la visualizzazione del piano di volo in Analisi avanzate](enhanced-analytics/flight-plan-overview.md)
-      * [Visualizzare la visualizzazione Burndown in Analisi avanzate](enhanced-analytics/burndown-overview.md)
-      * [Visualizzare la visualizzazione Attività in volo in Analisi avanzate](enhanced-analytics/tasks-in-flight-overview.md)
-      * [Visualizzare l’attività del progetto in Analisi avanzate](enhanced-analytics/project-activity-overview.md)
-      * [Visualizzare la mappa ad albero del progetto in Analisi avanzate](enhanced-analytics/project-treemap-overview.md)
-      * [Visualizzare la visualizzazione Attività per team in Analisi avanzate](enhanced-analytics/activity-by-team-overview.md)
    * Workfront Data Connect {#data-lake}
       * [Panoramica di Workfront Data Connect](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [Creare un account o una connessione di lettura per Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
@@ -2473,7 +2462,7 @@ ht-degree: 2%
       * [Configura e utilizza le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso PKCE](wf-api/api/oauth-app-pkce-flow.md)
       * [Obsolescenza di API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Novità dell&#39;API versione 20](wf-api/api/new-api-version-20.md)
-      * [Novità della versione 19 dell&#39;API](wf-api/api/new-api-version-19.md)
+      * [Novità della versione 19](wf-api/api/new-api-version-19.md) dell&#39;API
       * [Novità della versione 18 dell’API](wf-api/api/new-api-version-18.md)
       * [Novità della versione 17 dell’API](wf-api/api/new-api-version-17.md)
       * [Novità della versione 16 dell’API](wf-api/api/new-api-version-16.md)
