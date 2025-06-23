@@ -10,23 +10,27 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: e67446c6fb3e90d5dc45dd446988e5d02291f775
+source-git-commit: ca9625b1cb3c51f208bad28792e9090802521dfa
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
 
-# Guida introduttiva alla verifica e a Creative Cloud Express
+# Guida introduttiva all’integrazione tra Adobe Express e Workfront Proof
+
+Utilizzare Workfront Proof con Adobe Express per
+
+* Semplificazione della collaborazione tra team creativi, legali e di conformità per ridurre i tempi di pubblicazione, mantenendo al contempo la supervisione
+
+* Esecuzione di revisioni approfondite mediante marcature di disegno, annotazioni e commenti con il visualizzatore di bozze di Workfront
+
+* Conformità agli standard di conformità aziendale con firme elettroniche e registri di audit completi
 
 
-Siamo entusiasti di presentare una nuova integrazione tra Proofing e Creative Cloud Express. Con questa integrazione, puoi
+* Richiedi approvazione per tutti i file remixati da un modello con marchio Express
 
-* Utilizzare i modelli di approvazione di Workfront per definire i flussi di lavoro di approvazione
-
-* Revisione del contenuto della bozza di Creative Cloud Express nel visualizzatore di bozze
-
-* Consulta le decisioni di revisione in Creative Cloud Express per l’approvazione e la pubblicazione finali
+* Mappare un modello Express a un flusso di lavoro di revisione e approvazione in più fasi utilizzando modelli di bozza avanzati
 
 ## Requisiti di accesso
 
@@ -45,49 +49,72 @@ Siamo entusiasti di presentare una nuova integrazione tra Proofing e Creative Cl
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> 
-   <p>Corrente: Standard </p> 
-   <p>Legacy: Plan </p></td> 
+   <p>Standard </p> 
+  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td> 
-   <p> Devi disporre di Creative Cloud Express e devi essere aggiunto al prodotto come utente in Admin Console. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai progetti</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestisci o autorizzazioni superiori per il progetto</p> </td> 
-  </tr> 
- </tbody> 
+   <p> Devi disporre di Adobe Express e devi essere aggiunto al prodotto come utente in Admin Console. </p> </td> 
+  </tr>
+
+</tbody> 
 </table>
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-
-
-## Prerequisiti
-
-* Workfront e Creative Cloud Express devono essere distribuiti nella stessa organizzazione IMS.
-
-* Per il corretto funzionamento dell’integrazione, un utente può essere attivo e abilitato SOLO in un’istanza di Workfront nell’organizzazione IMS
-
-* L’istanza di Workfront deve essere abilitata nella shell unificata
-
-* La sezione Configurazione di Workfront è attivata per la connessione a proof (vedi di seguito)
-
 ## Requisiti di integrazione
 
-Workfront e Creative Cloud Express devono essere distribuiti nella stessa organizzazione IMS.
+* Workfront e Adobe Express devono essere distribuiti nella stessa organizzazione IMS.
 
-## Configurazione in Workfront
+* L’integrazione deve essere abilitata per i tuoi account dal team di prodotto Adobe.
 
-## Utilizzare i modelli di approvazione di Workfront per definire i flussi di lavoro di approvazione
+  >[!IMPORTANT]
+  >
+  >L’integrazione Adobe Express e Workfront Proof sarà disponibile per gli utenti nel corso di diverse versioni, a partire da account che hanno Workfront e Adobe Express associati allo stesso ID organizzazione in Adobe Admin Console, seguiti da clienti con utenti che lavorano tra organizzazioni IMS. Se desideri che l’integrazione sia abilitata, rivolgiti al tuo Customer Success o Strategic Account Manager.
 
-## Revisione del contenuto della bozza di Creative Cloud Express nel visualizzatore di bozze
+* Gli utenti devono installare [Rivedere il contenuto interattivo con lo strumento di revisione Adobe Workfront](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) prima di poter iniziare a rivedere le bozze in Adobe Express.
 
-## Consulta le decisioni di revisione in Creative Cloud Express per l’approvazione e la pubblicazione finali
+
+## Impostare i flussi di lavoro di approvazione in Workfront
+
+Prima che gli utenti possano aggiungere un flusso di lavoro di approvazione su un modello Express, un amministratore di Proof deve creare un flusso di lavoro di approvazione in Workfront.
+
+Per ulteriori informazioni, vedere [Creare e gestire modelli di flussi di lavoro automatizzati](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md).
+
+## Aggiungere un flusso di lavoro di approvazione a un modello rapido
+
+Dopo aver creato un modello di flusso di lavoro di approvazione in Workfront, i designer con una licenza Express Enterprise Premium possono assegnarlo a un modello Express direttamente in Adobe Express.
+
+Quando viene eseguito il remixaggio di un modello Express, prima di pubblicarlo è necessaria un’approvazione che attiva automaticamente il flusso di lavoro di approvazione preconfigurato.
+
+Scopri come aggiungere flussi di lavoro di revisione e approvazione ai modelli condivisibili. <!--need link to help article-->
+
+
+## Remixare i modelli Express e inviarli per revisione e approvazione
+
+Gli utenti di Adobe Express possono remixare i modelli Express in base alle proprie esigenze. Prima di pubblicare, devono richiedere l’approvazione agli approvatori designati.
+
+Durante il processo di produzione, revisione e approvazione dei contenuti, gli utenti possono
+
+* Vedere chi ha aperto il file
+* Visualizza lo stato della decisione di tutti i partecipanti
+* Leggi commenti
+* e altro ancora
+
+Scopri come ottenere l’approvazione per i progetti.\
+<!--need link to help article-->
+
+## Revisione e approvazione del file Express remixato
+
+Le parti interessate possono fornire un feedback pertinente alla loro area di competenza (ad esempio copia, legale o marchio) utilizzando strumenti di markup e commenti nel visualizzatore di bozze di Workfront.
+
+Sono anche responsabili di prendere decisioni finali per approvare il contenuto in modo che possa essere pubblicato.
+
+Ulteriori informazioni su come rivedere e approvare le progettazioni in Workfront.
+
+
+Licenza di Workfront Collaborator: come risolvere il problema in—
+
