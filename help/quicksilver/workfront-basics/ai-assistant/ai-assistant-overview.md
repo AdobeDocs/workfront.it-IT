@@ -5,9 +5,9 @@ description: Panoramica dell’Assistente AI
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: f496d5170ff087167130a6463e18ea44af50e21f
+source-git-commit: a4e403abadc0268b919ce8105989ef6c912f33a4
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '825'
 ht-degree: 1%
 
 ---
@@ -138,7 +138,7 @@ Per richiedere l’accordo Adobe Gen AI:
 1. Quando viene visualizzato il messaggio del contratto di Adobe Gen AI, fare clic su **Rivedi contratto**.
 1. Inserisci il nome e l’indirizzo e-mail della persona dell’organizzazione che firmerà l’accordo Adobe Gen AI.
 
-   Il contratto verrà inviato a questa persona per la firma. Dopo la firma e la restituzione, l’Assistente IA viene abilitato per la tua organizzazione.
+   Il contratto verrà inviato a questa persona per la firma. Dopo la firma e la restituzione, l’accordo viene rivisto da Adobe e quindi l’Assistente IA viene abilitato per la tua organizzazione.
 
 ## Suggerimenti per la creazione di prompt nell’Assistente IA
 
