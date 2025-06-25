@@ -7,9 +7,9 @@ description: I ruoli di bozza ti consentono di concedere autorizzazioni per sing
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 258213af-0081-412e-bf6b-cdeb75d52966
-source-git-commit: 1aa5f36208578b0a7bbc1820cfb220b112bec05b
+source-git-commit: 93452926a27026f2b0e8a7a807381d562d7cbb01
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '382'
 ht-degree: 1%
 
 ---
@@ -21,10 +21,6 @@ I ruoli di bozza ti consentono di concedere autorizzazioni per singole bozze. I 
 ## Ruoli bozza
 
 I ruoli di bozza vengono concessi agli utenti per una singola bozza nel momento in cui l’utente viene invitato a rivederla. Se si dispone di un piano Workfront Pro+, è possibile concedere ruoli di verifica agli utenti con una licenza Lavoro o Piano. Se si dispone di un piano legacy di Workfront Premium, è possibile concedere ruoli di verifica agli utenti con una licenza di verifica specifica. Per ulteriori informazioni, vedere [Accesso alla funzionalità di verifica in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
-
->[!NOTE]
->
->Gli utenti dei nuovi piani di Workfront possono assegnare ruoli di autore o moderatore a qualsiasi utente del sistema. Gli utenti che usano piani precedenti possono concedere ruoli di autore o moderatore a qualsiasi utente con una licenza Verifica nel sistema.
 
 Il ruolo bozza definisce le azioni che un revisore può intraprendere in relazione a tale bozza specifica.
 
@@ -131,7 +127,7 @@ Alcuni ruoli bozza assegnano ai revisori i diritti di modifica sulla bozza (anch
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Autore</strong> </p> </td> 
+   <td> <p><strong>Autore*</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
@@ -147,10 +143,10 @@ Alcuni ruoli bozza assegnano ai revisori i diritti di modifica sulla bozza (anch
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Moderatore</strong> </p> </td> 
+   <td> <p><strong>Moderatore*</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>✓ <strong></strong> </p> </td> 
+   <td> <p><strong>✓</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> <p> </p> </td> 
@@ -164,3 +160,7 @@ Alcuni ruoli bozza assegnano ai revisori i diritti di modifica sulla bozza (anch
   </tr> 
  </tbody> 
 </table>
+
+<p>* Gli utenti dei nuovi piani di Workfront possono concedere ruoli di autore o moderatore a qualsiasi utente del sistema, ma solo gli utenti con una licenza Standard possono utilizzare tutte le funzionalità associate a tali ruoli.
+
+Gli utenti che usano piani precedenti possono concedere ruoli di autore o moderatore a qualsiasi utente con una licenza Verifica nel sistema.</p>
