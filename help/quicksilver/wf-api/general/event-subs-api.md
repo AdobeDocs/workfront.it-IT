@@ -808,7 +808,7 @@ Questo connettore applica il filtro al nuovo stato o al vecchio stato dell’ogg
 >[!NOTE]
 >
 >La sottoscrizione seguente con il filtro specificato restituirà solo i messaggi in cui il nome dell&#39;attività contiene `again` per `oldState`, ovvero ciò che si trovava prima di un aggiornamento dell&#39;attività.
->>Un caso d’uso per questo potrebbe essere quello di trovare i messaggi objCode che sono cambiati da una cosa all’altra. Ad esempio, per individuare tutte le attività che sono cambiate da &quot;Cerca nome&quot; a &quot;Cerca nome team&quot;
+>&#x200B;>Un caso d’uso per questo potrebbe essere quello di trovare i messaggi objCode che sono cambiati da una cosa all’altra. Ad esempio, per individuare tutte le attività che sono cambiate da &quot;Cerca nome&quot; a &quot;Cerca nome team&quot;
 
 ```
 {
