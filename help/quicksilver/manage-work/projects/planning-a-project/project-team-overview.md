@@ -7,20 +7,22 @@ description: Gli utenti associati a un progetto in una certa capacità costituis
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: 1b2180fd33da153c7f8b698cd17df2eb10669ce9
+source-git-commit: 3dfb30646e8a967264f7e562441a52a059d73d32
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
 
 # Panoramica del team del progetto
 
-Gli utenti associati a un progetto in una certa capacità costituiscono il team del progetto. Gli utenti elencati nell’area Persone di un progetto sono gli utenti che compongono il team del progetto. Ad esempio, gli utenti assegnati a lavorare sul progetto o il proprietario del progetto fanno parte del team del progetto.
+<!-- Audited: 6/2025 -->
+
+Un team di progetto è costituito da utenti associati a un progetto con una certa capacità. Gli utenti elencati nell’area Persone di un progetto costituiscono il team del progetto. Ad esempio, gli utenti assegnati a lavorare sul progetto o il proprietario del progetto fanno parte del team del progetto.
 
 ## Membri team progetto
 
-È possibile assegnare gli utenti a un team di progetto manualmente o automaticamente. Per ulteriori informazioni, vedere la sezione &quot;Aggiungere utenti a un team di progetto&quot; nell&#39;articolo [Gestire il team di progetto](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+È possibile assegnare gli utenti a un team di progetto manualmente o automaticamente. Per ulteriori informazioni, vedere la sezione Aggiungere utenti a un team di progetto nell&#39;articolo [Gestire il team di progetto](../../../manage-work/projects/planning-a-project/manage-project-team.md).
 
 Quando aggiungi manualmente gli utenti al team di progetto, questi ricevono le autorizzazioni di visualizzazione per il progetto, nonché le attività, i problemi e i documenti del progetto.
 
@@ -53,4 +55,4 @@ Puoi vedere se il filtro Progetti in corso è selezionato nell’intestazione de
 
 >[!NOTE]
 >
->Se sei l’autore di un progetto, il progetto rimane elencato nell’elenco Progetti che mi interessano, anche se il tuo nome non viene visualizzato nell’area Persone del progetto o se è stato rimosso da tale elenco.
+>Se sei l’autore di un progetto, il progetto rimane elencato nell’elenco Progetti che mi interessano, anche se il tuo nome non viene visualizzato nell’area Persone del progetto o se il tuo nome è stato rimosso da tale elenco.
