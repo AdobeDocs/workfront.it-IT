@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 1e893dd5933ce5740b2bfea1e028f39a07a2291c
+source-git-commit: d41bb7beb4879bcef224b0234b1c024eb16c9bd6
 workflow-type: tm+mt
-source-wordcount: '2632'
+source-wordcount: '2647'
 ht-degree: 3%
 
 ---
@@ -51,6 +51,9 @@ I seguenti argomenti supportano l’API di abbonamento agli eventi:
 
 I seguenti oggetti Workfront sono supportati dalle sottoscrizioni di eventi.
 
+* Approvazione
+* Fase di approv.
+* Partecipante fase di approvazione
 * Assegnazione
 * Azienda
 * Dashboard
@@ -105,6 +108,18 @@ La risorsa abbonamento contiene i campi seguenti.
        </tr> 
       </thead> 
       <tbody> 
+       <tr> 
+        <td scope="col">Approvazione</td> 
+        <td scope="col"><p>approvazione</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Fase di approv.</td> 
+        <td scope="col"><p>fase_approvazione</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Partecipante fase di approvazione</td> 
+        <td scope="col"><p>approval_stage_Participant</p></td> 
+       </tr> 
        <tr> 
         <td scope="col">Assegnazione</td> 
         <td scope="col"><p>ASSEGNA</p></td> 
@@ -793,7 +808,7 @@ Questo connettore applica il filtro al nuovo stato o al vecchio stato dell’ogg
 >[!NOTE]
 >
 >La sottoscrizione seguente con il filtro specificato restituirà solo i messaggi in cui il nome dell&#39;attività contiene `again` per `oldState`, ovvero ciò che si trovava prima di un aggiornamento dell&#39;attività.
->&#x200B;>Un caso d’uso per questo potrebbe essere quello di trovare i messaggi objCode che sono cambiati da una cosa all’altra. Ad esempio, per individuare tutte le attività che sono cambiate da &quot;Cerca nome&quot; a &quot;Cerca nome team&quot;
+>>Un caso d’uso per questo potrebbe essere quello di trovare i messaggi objCode che sono cambiati da una cosa all’altra. Ad esempio, per individuare tutte le attività che sono cambiate da &quot;Cerca nome&quot; a &quot;Cerca nome team&quot;
 
 ```
 {

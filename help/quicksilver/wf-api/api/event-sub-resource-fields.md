@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: e53f845a00245049ac78616848d243453b2d57eb
+source-git-commit: d41bb7beb4879bcef224b0234b1c024eb16c9bd6
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 9%
+source-wordcount: '848'
+ht-degree: 10%
 
 ---
 
@@ -21,6 +21,10 @@ I campi delle risorse di abbonamento agli eventi rappresentano trigger per gli e
 Tieni presente che i dati possono essere filtrati utilizzando un filtro nidificato. Per ulteriori informazioni, vedere [Utilizzo di filtri nidificati](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters) nell&#39;articolo API sottoscrizione eventi.
 
 Nella tabella seguente sono elencati i campi disponibili per le risorse di abbonamento agli eventi:
+
+>[!NOTE]
+>
+>Alcuni oggetti sono disponibili solo in Sottoscrizioni eventi versione 2. Questi oggetti sono indicati nella tabella.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,6 +38,200 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   </tr> 
  </thead> 
  <tbody> 
+  <tr> 
+   <td>Approvazione<p>(Subs evento v2)</p></td> 
+   <td>approvazione</td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>creatorID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> isLocked </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>stato</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>updatedAt</td> 
+  </tr> 
+  <tr> 
+   <td>Fase di approv.<p>(Subs evento v2)</p></td> 
+   <td>fase_approvazione</td> 
+   <td>approvalID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>creatorID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> deadlineDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> isLocked </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> name </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>stato</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>updatedAt</td> 
+  </tr> 
+  <tr> 
+   <td>Partecipante fase di approvazione<p>(Subs evento v2)</p></td> 
+   <td>approval_stage_Participant</td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> deadlineDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> decisione </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> decisionDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> decisionUserID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ParticipantID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ParticipantMetadata </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ParticipantRole </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ParticipantType </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> realUserID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> requesterID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> stageID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>stato</td> 
+  </tr> 
   <tr> 
    <td>Assegnazione</td> 
    <td>ASSEGNA</td> 
@@ -806,7 +1004,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td>topReferenceObjID</td> 
   </tr> 
   <tr> 
-   <td>Campo</td> 
+   <td>Campo<p>(Subs evento v2)</p></td> 
    <td>CAMPO</td> 
    <td>createdAt</td> 
   </tr> 
@@ -1876,7 +2074,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td><span>requesterID</span> </td> 
   </tr> 
   <tr> 
-   <td>Record</td> 
+   <td>Record<p><p>(Subs evento v2)</p></td> 
    <td>RECORD</td> 
    <td>createdAt</td> 
   </tr> 
@@ -1921,7 +2119,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td>updatedAt</td> 
   </tr> 
   <tr> 
-   <td>Tipo di record </td> 
+   <td>Tipo di record<p><p>(Subs evento v2)</p> </td> 
    <td>TIPO_RECORD </td> 
    <td>colore</td> 
   </tr> 
@@ -2776,7 +2974,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td>workHoursPerDay </td> 
   </tr> 
   <tr> 
-   <td>Area di lavoro</td> 
+   <td>Area di lavoro<p><p>(Subs evento v2)</p></td> 
    <td>WORKSPACE</td> 
    <td>colore</td> 
   </tr> 
