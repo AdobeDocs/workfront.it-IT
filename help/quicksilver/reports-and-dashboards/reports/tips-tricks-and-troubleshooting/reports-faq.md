@@ -7,9 +7,9 @@ description: Domande frequenti sui rapporti
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: 957c6e6955a828aa40ac996490d66e9c46f594bc
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1510'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <!--this section is linked from the Actual Hours article for Tasks in the Task Information folder; edit the links or do not delete or change this section-->
 
-In un report di progetti ho un calcolo che sottrae le ore effettive legacy dalle ore pianificate.
+In un report di progetti ho un calcolo che sottrae le ore effettive dalle ore pianificate.
 
 Il risultato che ottengo non è corretto.
 
@@ -78,17 +78,19 @@ Il mio calcolo è:
 
 La maggior parte dei campi che utilizzano le ore in Workfront vengono memorizzati in minuti. Quando si utilizzano questi campi in un calcolo, il risultato sarà spesso in minuti. Per ottenere il risultato in ore, è necessario dividere per 60 il risultato del calcolo o il campo a cui si fa riferimento.
 
-Il calcolo corretto è:
+Le ore pianificate vengono memorizzate in minuti.
 
-`valueexpression=SUB(workRequired,actualWorkRequired)/60`
+A seconda del campo Ore effettive che si desidera utilizzare per il calcolo, le formule corrette sono:
 
->[!NOTE]
->
->Se nel calcolo si utilizzano le ore effettive, utilizzare `actualWorkRequiredDouble` per il campo valore. Le ore effettive vengono memorizzate in ore. Le ore pianificate vengono memorizzate in minuti.
->
->Il calcolo corretto per le ore effettive è:
->&#x200B;>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+* Per le ore effettive legacy memorizzate in minuti:
 
+  `valueexpression=SUB(workRequired,actualWorkRequired)/60`
+
+* Per le ore effettive memorizzate in ore:
+
+  `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+
+Per ulteriori informazioni, vedere [Visualizza ore effettive](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
 ## Perché il valore di ogni elemento del grafico in un report non viene visualizzato nel grafico?
 
