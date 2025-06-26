@@ -87,7 +87,7 @@ Il calcolo corretto è:
 >Se nel calcolo si utilizzano le ore effettive, utilizzare `actualWorkRequiredDouble` per il campo valore. Le ore effettive vengono memorizzate in ore. Le ore pianificate vengono memorizzate in minuti.
 >
 >Il calcolo corretto per le ore effettive è:
->>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+>&#x200B;>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
 
 ## Perché il valore di ogni elemento del grafico in un report non viene visualizzato nel grafico?
