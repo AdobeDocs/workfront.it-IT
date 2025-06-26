@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: b89715649473ba13e1b6b7a250dfed7a468bb4b4
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ Per aggiungere o modificare una società:
 
    Oppure
 
-   Se stai modificando una società esistente, selezionala e fai clic su **[!UICONTROL Modifica]** in alto nell&#39;elenco delle società.
+   Se stai modificando una società esistente, selezionala e fai clic sull&#39;icona **[!UICONTROL Modifica]** ![Modifica icona](assets/edit-icon.png) nella parte superiore dell&#39;elenco delle società.
 
 1. Aggiorna le seguenti informazioni:
 
