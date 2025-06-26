@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: 3ff70fcc949644d511c876add10d2c58901cb197
+source-git-commit: b87b32d0396b0c277a5fc30d060c76a71192171b
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,31 @@ ht-degree: 0%
 Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con la versione del terzo trimestre 2025. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del terzo trimestre 2025, consulta [Panoramica sulla versione del terzo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Il campo Ore effettive esistente è stato sostituito dal campo Ore effettive precedenti e sono stati creati nuovi campi Ore effettive
+
+>[!NOTE]
+>
+> Anteprima e produzione: 24 giugno 2025 
+
+Il campo esistente Ore effettive è stato rinominato Ore effettive legacy. Questo campo memorizza in minuti il tempo registrato per progetti, attività e problemi. Il campo viene memorizzato nel database di Workfront come actualWorkRequired.
+
+È stato aggiunto un nuovo campo Ore effettive che memorizza in ore il tempo registrato per progetti, attività e problemi, con precisione decimale. Il campo viene memorizzato nel database di Workfront come actualWorkRequiredDouble.
+
+I campi Ore effettive e Ore effettive precedenti sono visibili nelle visualizzazioni e nei rapporti relativi a progetti, attività e problemi.
+
+Il campo Ore effettive visibile nella sezione Dettagli del progetto, delle attività e dei problemi rappresenta le Ore effettive legacy.
+
+
+>[!IMPORTANT]
+>
+>Le ore registrate prima di maggio 2021 vengono memorizzate nel campo Ore effettive legacy.  
+>>Il valore del campo Ore effettive per i progetti, le attività e i problemi in cui le ore sono state registrate prima di maggio 2021 è zero. 
+>>Le ore registrate dopo maggio 2021 vengono memorizzate sia nel campo Ore effettive che nel campo Ore effettive legacy.
+>> Potrebbe essere necessario aggiornare i rapporti per riflettere i nuovi campi.
+
+Per informazioni, vedere [Visualizza ore effettive](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
+
 
 ## Modifica della modalità di memorizzazione delle ore effettive nel database per le chiamate API
 

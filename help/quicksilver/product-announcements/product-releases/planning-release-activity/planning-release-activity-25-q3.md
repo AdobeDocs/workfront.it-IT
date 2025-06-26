@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 39762dbf34501f3cd967a2a766042086d18003c8
+source-git-commit: 482067778b6a5b7291eb25d00245a394bc72ccf0
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1799'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,39 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 <!--keep the sentence below for all future quarterly release pages-->
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+
+## Espandere e comprimere tutti i raggruppamenti nella vista tabella
+
+>[!NOTE]
+>
+>* Anteprima: 26 giugno 2025
+>* Produzione per tutti: 17 luglio 2025
+
+È ora possibile comprimere ed espandere i raggruppamenti in una vista tabella utilizzando le seguenti aree:
+
+* Casella Raggruppamento, accessibile dalla barra degli strumenti della vista tabella
+
+* Intestazione di un raggruppamento, facendo clic con il pulsante destro del mouse
+
+È possibile comprimere o espandere un raggruppamento o tutti i raggruppamenti contemporaneamente.
+
+Prima di questo miglioramento, era possibile comprimere o espandere un solo raggruppamento alla volta, da ogni intestazione di raggruppamento.
+
+Per informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+## Nuova funzionalità di aggregazione per i campi formula
+
+>[!NOTE]
+>
+>* Anteprima: 26 giugno 2025
+>* Produzione per tutti: 26 giugno 2025
+
+Ora, quando si collegano tipi di record e si inserisce un campo formula come ricerca, è possibile applicare le funzioni di aggregazione (SUM, AVERAGE, MIN, MAX, ecc.) a seconda del formato del campo formula. Se ad esempio il campo formula è numerico, è possibile utilizzare funzioni quali SOMMA o MEDIA. Se il campo formula è formattato come testo, le funzioni di aggregazione come SOMMA non verranno applicate.
+
+In precedenza, quando si collegavano tipi di record e si inserivano campi di ricerca dai record collegati, era possibile applicare le funzioni di aggregazione solo ai campi normali, ma non ai campi formula.
+
+Per informazioni, vedere [Panoramica campo formula](/help/quicksilver/planning/fields/formula-fields.md).
 
 ## Disponibilità dei trimestri personalizzati per la vista timeline di Workfront Planning
 
@@ -206,7 +239,7 @@ Prima di questo miglioramento, gli utenti con tutti i livelli di licenza dovevan
 >[!NOTE]
 >
 >Questa modifica sarà visibile per tutti gli utenti nuovi ed esistenti con una licenza Amministratore di sistema e Standard.
->&#x200B;>Gli utenti esistenti assegnati a un modello di layout continueranno a visualizzare tutto in base alle impostazioni definite nel modello di layout.
+>>Gli utenti esistenti assegnati a un modello di layout continueranno a visualizzare tutto in base alle impostazioni definite nel modello di layout.
 
 Per informazioni, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
