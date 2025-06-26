@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: b87b32d0396b0c277a5fc30d060c76a71192171b
+source-git-commit: e3fa5f6fd86f0fe9ba221fb7c20f46f966437a42
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -32,15 +32,19 @@ Il campo esistente Ore effettive è stato rinominato Ore effettive legacy. Quest
 
 I campi Ore effettive e Ore effettive precedenti sono visibili nelle visualizzazioni e nei rapporti relativi a progetti, attività e problemi.
 
-Il campo Ore effettive visibile nella sezione Dettagli del progetto, delle attività e dei problemi rappresenta le Ore effettive legacy.
+Il campo Ore effettive visibile nella sezione Dettagli progetto, attività e problemi rappresenta le nuove ore effettive.
+
 
 
 >[!IMPORTANT]
 >
->Le ore registrate prima di maggio 2021 vengono memorizzate nel campo Ore effettive legacy.  
->&#x200B;>Il valore del campo Ore effettive per i progetti, le attività e i problemi in cui le ore sono state registrate prima di maggio 2021 è zero. 
->&#x200B;>Le ore registrate dopo maggio 2021 vengono memorizzate sia nel campo Ore effettive che nel campo Ore effettive legacy.
->&#x200B;> Potrebbe essere necessario aggiornare i rapporti per riflettere i nuovi campi.
+>A seconda di quando sono state registrate le ore, potrebbe esserci una discrepanza tra le ore effettive effettive e le ore effettive legacy per un progetto, un&#39;attività o un problema.<br>
+>>Esistono i seguenti scenari:
+>
+>* Le ore effettive che rappresentano le ore registrate per progetti, attività e problemi da maggio 2021 sono state spostate dal campo Ore effettive legacy al nuovo campo Ore effettive.
+>* Le ore effettive che rappresentano le ore registrate per progetti, attività e problemi prima di maggio 2021 sono contabilizzate solo nel campo Ore effettive legacy.
+>  ><br>Potrebbe essere necessario aggiornare i rapporti per riflettere il nuovo campo e i relativi valori.
+
 
 Per informazioni, vedere [Visualizza ore effettive](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
