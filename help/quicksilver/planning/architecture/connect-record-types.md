@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 44b3298905a04c64a457045c4112d9628d933aae
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2556'
 ht-degree: 1%
 
 ---
@@ -199,14 +199,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    * **Seleziona campi di ricerca**: selezionare questa opzione per aggiungere campi dal tipo di record selezionato. I campi di ricerca sono campi associati al record o al tipo di oggetto a cui si sta effettuando il collegamento. Il collegamento consente di visualizzare le informazioni del record o dell&#39;oggetto a cui si sta effettuando il collegamento nel record da cui si sta effettuando il collegamento. Questa opzione è selezionata per impostazione predefinita.
 
-     >[!TIP]
-     >
-     > Non è possibile aggiungere i seguenti tipi di campi come campi di ricerca:
-     >
-     >    * Persone
-     >    * Creato da
-     >    * Ultima modifica eseguita da
-     >    * Campi typeahead di Workfront (inclusi campi come Proprietario progetto o Sponsor progetto)
+   >[!TIP]
+   >
+   >Non è possibile aggiungere campi typeahead di Workfront (inclusi campi come Proprietario progetto o Sponsor progetto) come campi di ricerca.
 
 1. (Condizionale e facoltativo) Se hai selezionato di connettere un oggetto Workfront, seleziona un **modulo personalizzato** dalla sezione **Collega solo gli oggetti che corrispondono a questi criteri**. Solo gli oggetti a cui sono allegati i moduli personalizzati selezionati possono essere collegati al tipo di record selezionato. È possibile selezionare più moduli.
 
@@ -218,7 +213,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    >[!NOTE]
    >
-   >L&#39;amministratore di Workfront può mappare i campi di Workfront Planning sui campi di Experience Manager Assets tramite la mappatura dei metadati in Workfront. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >L&#39;amministratore di Workfront può mappare i campi di Workfront Planning sui campi di Experience Manager Assets tramite la mappatura dei metadati in Workfront. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 1. (Condizionale) Se si è scelto di connettersi a Experience Manager Assets o a un tipo di record di Workfront Planning, selezionare una delle opzioni seguenti nell&#39;area **Aspetto record**:
 
@@ -256,10 +251,18 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
    >    Tutti coloro che dispongono di autorizzazioni di visualizzazione o di livello superiore per l&#39;area di lavoro possono visualizzare le informazioni nei campi collegati, indipendentemente dalle autorizzazioni o dal livello di accesso nell&#39;applicazione dei tipi di oggetto collegati.
 
-
 1. (Facoltativo) Fai clic su **Ignora** per saltare l&#39;aggiunta di campi dal record o dal tipo di oggetto collegato. Il campo Nome o Primario del record collegato è l&#39;unico campo visibile nella visualizzazione tabella del tipo di record da cui ci si connette.
 
-1. (Facoltativo e condizionale) Se si seleziona di collegare un campo di tipo numero, valuta, percentuale o data, selezionare anche un valore aggregatore per riepilogare più valori. Quando gli utenti selezionano più record collegati nel campo record collegato, i valori dei campi collegati vengono visualizzati separati da virgole o come valore di riepilogo in base all&#39;aggregatore scelto.
+1. Scegliere un aggregatore per i campi di ricerca aggiunti.
+
+   >[!NOTE]
+   >
+   >Non è possibile aggiungere aggregatori per i seguenti tipi di campi:
+   >
+   >    * Paragrafo
+   >    * Casella di controllo
+
+   Quando gli utenti selezionano più record collegati nel campo record collegato, i valori dei campi collegati vengono visualizzati separati da virgole o come valore di riepilogo in base all&#39;aggregatore scelto.
 
    Se il campo di ricerca contiene più valori che non vengono riepilogati, quando si utilizza il campo in ordinamento o raggruppamento in una visualizzazione tenere presente quanto segue:
 
@@ -271,7 +274,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    >[!IMPORTANT]
    >
-   >    Se si desidera che i campi siano disponibili per l&#39;aggiunta come date di inizio e di fine per le visualizzazioni Timeline e Calendario, è necessario selezionare un valore di aggregazione durante l&#39;aggiunta di campi data ricerca. Ad esempio, puoi selezionare MAX o l’aggregatore MIN per un campo data di ricerca.
+   > Se si desidera che i campi siano disponibili per l&#39;aggiunta come date di inizio e di fine per le visualizzazioni Timeline e Calendario, è necessario selezionare un valore di aggregazione durante l&#39;aggiunta di campi data ricerca. Ad esempio, puoi selezionare MAX o l’aggregatore MIN per un campo data di ricerca.
 
    ![Elenco a discesa Aggregator per il campo numerico collegato](assets/aggregator-drop-down-for-number-linked-field.png)
 

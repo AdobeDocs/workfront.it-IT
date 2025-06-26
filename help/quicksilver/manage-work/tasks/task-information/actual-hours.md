@@ -3,13 +3,13 @@ content-type: overview
 product-area: projects
 navigation-topic: task-information
 title: Visualizza ore effettive
-description: Le ore di accesso agli elementi di lavoro in Adobe Workfront sono considerate ore effettive.
+description: Le ore di accesso agli elementi di lavoro in Adobe Workfront sono considerate ore effettive. Le ore effettive rappresentano il tempo effettivo impiegato per completare un'attività, un problema o un progetto.
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,19 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 *Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Ore effettive rispetto alle ore effettive legacy
+
+A seconda dell’area di Workfront da cui accedi alle ore effettive, potrebbe fare riferimento a una delle seguenti ore registrate:
+
+* Nei report ed elenchi relativi a progetti, attività e problemi:
+
+   * **Ore effettive**: ore registrate per progetto, attività o problemi dopo maggio 2021. Sono archiviati nel database di Workfront in ore e il valore del campo è `actualWorkRequiredDouble`.
+   * **Ore effettive legacy**: ore registrate per progetti, attività o problemi in qualsiasi momento, anche prima di maggio 2021. Sono archiviati nel database di Workfront come minuti e il valore del campo è `actualWorkRequired`. <!--check below and see if you need to add this to the API section - asked on the tech doc task -->
+
+* Nell’area Dettagli progetto, attività o problema:
+
+   * **Ore effettive**: ore registrate per progetti, attività o problemi in qualsiasi momento, anche prima di maggio 2021. Corrispondono alle ore effettive legacy nei rapporti e negli elenchi. Sono archiviati nel database di Workfront come minuti e il valore del campo è `actualWorkRequired`.
 
 ## Ore effettive per attività e problemi rispetto alle ore effettive per i progetti
 
@@ -134,7 +147,7 @@ Se si desidera visualizzare l&#39;avanzamento del lavoro svolto dagli utenti sul
   Per informazioni, vedere [Visualizza ore disponibili, pianificate ed effettive o FTE nella pianificazione risorse quando si utilizza la visualizzazione utente](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md).
 
 
-### Ore effettive nell&#39;API <!--database and the--> di Workfront <!--, and custom data-->
+### Ore effettive nell’API Workfront
 
 <!--this section was added as a result to this issue: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/6810910e0001b932e0948336208e76f2/overview-->
 
@@ -142,14 +155,13 @@ La maggior parte dei campi di Workfront in cui sono memorizzate le ore viene sal
 
 Devi tenere conto della conversione da minuti a ore quando accedi a questi campi nelle chiamate API o nei campi o nelle colonne personalizzati calcolati.
 
-A seconda della modalità di accesso alle ore effettive, è possibile memorizzarle nei campi e nelle unità seguenti del database:
+Le ore effettive registrate per progetti, attività o problemi sono attualmente memorizzate nel database di Workfront in minuti e il valore del campo è `actualWorkRequired`.
 
-* Nell&#39;API: con la seguente versione dell&#39;API Workfront che verrà rilasciata più avanti nel 2025, `valuefield` per le ore effettive è `actualWorkRequiredDouble`, memorizzato in ore. Nella versione corrente le ore effettive sono memorizzate come `actualWorkRequired`, in minuti.
-* Nell&#39;interfaccia di Workfront (campi e colonne personalizzati calcolati): `valuefield` per le ore effettive è `actualWorkRequired`, memorizzato in minuti.
+Con la seguente versione dell’API Workfront, che verrà rilasciata più avanti nel 2025 e dipenderà da come accedi alle ore effettive, puoi memorizzarla nei campi e nelle unità seguenti nel database:
 
-<!--Change the above with this when we fix this for the Workfront UI: 
+* **Ore effettive**: ore registrate per progetto, attività o problemi dopo maggio 2021. Sono archiviati nel database di Workfront in ore e il valore del campo è `actualWorkRequiredDouble`.
 
-You must use the following valuefield name for Actual Hours in API calls or calculated custom fields or columns in Workfront: `actualWorkRequiredDouble`. -->
+* **Ore effettive legacy**: ore registrate per progetti, attività o problemi in qualsiasi momento, anche prima di maggio 2021. Sono archiviati nel database di Workfront come minuti e il valore del campo è `actualWorkRequired`.
 
 Per informazioni sull&#39;utilizzo delle ore effettive nelle colonne o nei campi calcolati, vedere [Domande frequenti sui report](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 

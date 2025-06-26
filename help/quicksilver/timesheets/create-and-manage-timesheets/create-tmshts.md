@@ -6,18 +6,22 @@ description: Puoi creare manualmente una scheda orario monouso se desideri una s
 author: Alina
 feature: Timesheets
 exl-id: b293dd50-a9b8-448b-afc1-8c7c7c79183b
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
 
 # Creare una scheda orario monouso
 
+<!--Audited: 6/2025-->
+
 Puoi creare manualmente una scheda orario monouso se desideri una scheda orario non ricorrente. Quando viene raggiunta la data di fine della scheda orario e sono necessarie altre schede orario, è necessario crearne di nuove.
 
 Per informazioni sulla creazione di un profilo di scheda orario che generi schede orario ricorrenti per gli utenti senza alcun ulteriore intervento da parte tua (consigliato), consulta [Creare, modificare e assegnare profili di scheda orario](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+
+Per informazioni sulla generazione manuale delle schede orario per tutti gli utenti del sistema associati a un profilo di scheda orario, vedere [Generazione manuale delle schede orario](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
 >[!NOTE]
 >
@@ -50,8 +54,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <p>Corrente: Piano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>È necessario disporre dell'accesso amministrativo alle schede orario. </p> <p>Per ulteriori informazioni, vedere <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo ad alcune aree</a>.</p> </td> 
+   <td role="rowheader">Livello di accesso</td> 
+   <td> <p>È necessario disporre dell'accesso amministrativo alle schede orario. </p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,11 +66,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Creare una scheda orario monouso
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
+{{step1-to-timesheets}}
 
-1. Fai clic su **Schede orario**. Il filtro **All** è selezionato per impostazione predefinita. In questo modo vengono visualizzate tutte le schede orario a cui hai accesso.
+Il filtro **All** è selezionato per impostazione predefinita. In questo modo vengono visualizzate tutte le schede orario a cui hai accesso.
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![Elenco schede orario con una scheda orario selezionata](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (Facoltativo) Per aggiornare il filtro nell’elenco delle schede orario, effettua una delle seguenti operazioni:
 
@@ -78,9 +82,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
      In questo modo all’elenco delle schede orario vengono applicate le approvazioni delle mie schede orario o i filtri delle mie schede orario.
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![Pulsanti filtro schede orario personali nella pagina dell&#39;elenco delle schede orario](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Fare clic sull&#39;icona Filtro ![](assets/filter-nwepng.png) per applicare un filtro diverso o crearne uno nuovo. Per informazioni sulla creazione o l&#39;aggiornamento dei filtri, vedere [Creare o modificare filtri in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Fai clic sull&#39;icona **Filtro** ![Icona Filtro](assets/filter-nwepng.png) per applicare un filtro diverso o crearne uno nuovo. Per informazioni sulla creazione o l&#39;aggiornamento dei filtri, vedere [Creare o modificare filtri in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
@@ -89,9 +93,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >   * [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 
 
-1. (Facoltativo) Fai clic sull&#39;icona **Ricerca** ![](assets/search-icon.png) per digitare una parola chiave e cercare una scheda orario specifica. Ad esempio, puoi cercare un intervallo di tempo della scheda orario con il nome del proprietario.
+1. (Facoltativo) Fai clic sull&#39;icona **Ricerca** ![Icona Ricerca](assets/search-icon.png) per digitare una parola chiave e cercare una scheda orario specifica. Ad esempio, puoi cercare un intervallo di tempo della scheda orario con il nome del proprietario.
 
-1. (Facoltativo) Fai clic sulle icone **Visualizza** ![](assets/view-icon.png) o **Raggruppamento** ![](assets/grouping.png) per applicare una visualizzazione o un raggruppamento diverso o per crearne uno nuovo.
+1. (Facoltativo) Fai clic sull&#39;icona **Visualizza** ![Visualizza](assets/view-icon.png) o **Raggruppamento** ![Icona Raggruppamento](assets/grouping.png) per applicare una visualizzazione o un raggruppamento diverso o crearne uno nuovo.
 
    Per informazioni sulla creazione di filtri, viste o raggruppamenti, vedere i seguenti articoli:
 

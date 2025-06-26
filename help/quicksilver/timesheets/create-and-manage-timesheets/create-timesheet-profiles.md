@@ -1,19 +1,29 @@
 ---
 product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
-title: Creare, modificare e assegnare profili di schede orario
+title: Creare, modificare e assegnare profili della scheda orario
 description: Puoi creare, modificare e assegnare profili di schede orario che generino schede orario ricorrenti per gli utenti senza ulteriori interventi da parte tua. In questo modo si risparmia tempo e si garantisce coerenza tra gli utenti.
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '1472'
-ht-degree: 0%
+source-wordcount: '1540'
+ht-degree: 1%
 
 ---
 
-# Creare, modificare e assegnare profili di schede orario
+# Creare, modificare e assegnare profili della scheda orario
+
+<!--Audited: 06/2025-->
+
+<!--<div class="preview">
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+
+</div> -->
 
 Puoi creare, modificare e assegnare profili di schede orario che generino schede orario ricorrenti per gli utenti senza ulteriori interventi da parte tua. In questo modo si risparmia tempo e si assicura che le seguenti operazioni siano coerenti tra gli utenti:
 
@@ -38,20 +48,20 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
    <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza Adobe Workfront*</td> 
    <td> <p>Nuovo: Standard </p>
  <p>oppure</p> 
 <p>Corrente: Piano </p> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>È necessario disporre dell'accesso amministrativo alle schede orario. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,18 +76,18 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 >[!IMPORTANT]
 >
->Per abilitare le modifiche al profilo della scheda orario nelle schede orario correnti, devi eliminare le schede orario esistenti e quindi generarne di nuove. Per istruzioni, vedere [Eliminare i Timesheets in Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) e [Generare manualmente i Timesheets](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
+>Per abilitare le modifiche al profilo della scheda orario nelle schede orario correnti, è necessario eliminare le schede orario esistenti prima di apportare le modifiche ai profili delle schede orario, quindi generare nuove schede orario. Per istruzioni, vedere [Eliminare i Timesheets in Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) e [Generare manualmente i Timesheets](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
 {{step-1-to-setup}}
 
-1. Se stai creando o modificando un profilo di scheda orario da utilizzare in tutto il sistema, fai clic su **Scheda orario e ore**.
+1. Se crei o modifichi un profilo di scheda orario da utilizzare in tutto il sistema, fai clic su **Scheda orario e ore**.
 
    Oppure
 
    Se crei o modifichi un profilo di scheda orario per un gruppo, fai clic su **Gruppi**, quindi fai clic sul nome del gruppo.
 
 1. Fare clic su **Profili scheda orario**.
-1. Per creare un nuovo profilo scheda orario, fare clic su **Nuovo profilo**.
+1. Per creare un profilo di scheda orario, fare clic su **Nuovo profilo**.
 
    Oppure
 
@@ -86,13 +96,26 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    Viene visualizzato il profilo della scheda orario nuovo o esistente.
 
 
-1. Nella scheda **Imposta dettagli**, digita un **Nome** e una **Descrizione** per il profilo della scheda orario e fornisci le seguenti informazioni:
+1. Fai clic sulla scheda **Imposta dettagli**, quindi aggiorna le seguenti informazioni:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
+      <td role="rowheader"><strong>Nome</strong> </td> 
+      <td> <p> Aggiungi un nome per il profilo della scheda orario. Potrebbe essere il nome di un team o di un gruppo le cui persone condividono lo stesso arco temporale per le loro schede orario. </p> </td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader"><strong>Descrizione</strong> </td> 
+      <td> <p> Aggiungi ulteriori informazioni sul profilo della scheda orario.     
+      </p> </td> 
+     </tr>
+
+
+
+   <tr> 
       <td role="rowheader"><strong>Gruppo con accesso amministratore</strong> </td> 
       <td> <p> 
       <ul> 
@@ -147,8 +170,14 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <td role="rowheader"><strong>Tipi di lavoro disponibili</strong> </td> 
       <td><p>Questa impostazione si riferisce solo ai Tipi di Ora generali e non ai Tipi di Ora specifici del progetto. </p>
       <p>Per impostazione predefinita, gli utenti visualizzano tutte le ore generali su una scheda orario. Tuttavia, se la tua organizzazione desidera che vengano visualizzate solo ore generali specifiche per un particolare gruppo di utenti, puoi selezionare le ore generali da visualizzare nelle schede orario selezionandole nel loro profilo Scheda orario in questo campo. Se vuoi disattivare tutte le ore generali, deseleziona tutti i tipi di ore per generare la scheda orario senza una sezione per le ore generali.</p></td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader"><strong>Notifiche promemoria</strong> </td> 
+      <td> <p> Aggiungi una notifica di promemoria. Workfront invierà dei promemoria agli utenti per chiedere loro di completare o approvare le schede orario. È necessario creare notifiche promemoria prima di associarle a un profilo scheda orario.  </p> </td> 
+     </tr>
+
+   <tr data-mc-conditions=""> 
       <td role="rowheader"><span style="font-weight: bold;">Straordinari</span> </td> 
       <td>È possibile scegliere di nascondere la casella Straordinari nelle schede orario. Questa opzione è disabilitata per impostazione predefinita.</td> 
      </tr> 

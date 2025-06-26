@@ -2,26 +2,30 @@
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Elimina profili scheda orario
-description: Puoi eliminare un profilo di scheda orario.
+description: Puoi eliminare un profilo di scheda orario che potrebbe non essere più rilevante.
 author: Alina
 feature: Timesheets
 exl-id: 1fb39f74-205b-485e-9e8b-a2ab3f9f1ac4
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
 
 # Elimina profili scheda orario
 
-Puoi eliminare un profilo di scheda orario.
+<!--Audited:6/2025-->
+
+La creazione e l’assegnazione di profili della scheda orario agli utenti garantisce la coerenza nella creazione delle schede orario da parte di Adobe Workfront.
+
+Puoi eliminare un profilo di scheda orario che potrebbe non essere più rilevante.
 
 Per informazioni sui profili delle schede orario, vedere [Creare, modificare e assegnare profili delle schede orario](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,17 +36,21 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Piano </p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td> <p>Nuovo: Standard</p>
+   Oppure
+   <p>Corrente: Piano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>È necessario disporre dell'accesso amministrativo alle schede orario. </p> <p>Per ulteriori informazioni, vedere <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Concedere agli utenti l'accesso amministrativo ad alcune aree</a>.</p>  <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>È necessario disporre dell'accesso amministrativo alle schede orario. </p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Elimina profili scheda orario
 
@@ -55,5 +63,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    Se elimini un profilo di scheda orario per un gruppo, fai clic su **Gruppi**, quindi fai clic sul nome del gruppo.
 
 1. Fare clic su **Profili scheda orario**.
-1. Seleziona almeno un profilo di scheda orario da eliminare, quindi fai clic su **Altro > Elimina**.
-1. Nella finestra di messaggio visualizzata, fare clic su **Sì, Elimina I** T.
+1. Seleziona almeno un profilo di scheda orario da eliminare, quindi fai clic su **Altro** > **Elimina**.
+1. (Condizionale) Se il profilo scheda orario è già assegnato agli utenti, viene visualizzata la casella **Profilo scheda orario sostitutivo**. Effettua le seguenti operazioni:
+   1. Seleziona un altro profilo di scheda orario dall’elenco a discesa. Il profilo della scheda orario che stai eliminando verrà sostituito dal profilo della scheda orario con cui lo sostituisci per tutti gli utenti assegnati. Le schede orario verranno generate in base al nuovo profilo assegnato nel seguente ciclo di generazione della scheda orario.
+   1. Fai clic su **Elimina** per confermare l&#39;eliminazione.
+1. (Condizionale) Se il profilo della scheda orario non è assegnato agli utenti, viene visualizzata la casella **Elimina scheda orario**.
+
+   Fai clic su **Elimina** per confermare l&#39;eliminazione.
