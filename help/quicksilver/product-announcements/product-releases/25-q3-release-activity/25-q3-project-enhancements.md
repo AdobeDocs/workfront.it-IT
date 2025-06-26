@@ -38,9 +38,9 @@ Il campo Ore effettive visibile nella sezione Dettagli del progetto, delle attiv
 >[!IMPORTANT]
 >
 >Le ore registrate prima di maggio 2021 vengono memorizzate nel campo Ore effettive legacy.  
->>Il valore del campo Ore effettive per i progetti, le attività e i problemi in cui le ore sono state registrate prima di maggio 2021 è zero. 
->>Le ore registrate dopo maggio 2021 vengono memorizzate sia nel campo Ore effettive che nel campo Ore effettive legacy.
->> Potrebbe essere necessario aggiornare i rapporti per riflettere i nuovi campi.
+>&#x200B;>Il valore del campo Ore effettive per i progetti, le attività e i problemi in cui le ore sono state registrate prima di maggio 2021 è zero. 
+>&#x200B;>Le ore registrate dopo maggio 2021 vengono memorizzate sia nel campo Ore effettive che nel campo Ore effettive legacy.
+>&#x200B;> Potrebbe essere necessario aggiornare i rapporti per riflettere i nuovi campi.
 
 Per informazioni, vedere [Visualizza ore effettive](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
