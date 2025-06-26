@@ -39,11 +39,11 @@ Il campo Ore effettive visibile nella sezione Dettagli progetto, attività e pro
 >[!IMPORTANT]
 >
 >A seconda di quando sono state registrate le ore, potrebbe esserci una discrepanza tra le ore effettive effettive e le ore effettive legacy per un progetto, un&#39;attività o un problema.<br>
->>Esistono i seguenti scenari:
+>&#x200B;>Esistono i seguenti scenari:
 >
 >* Le ore effettive che rappresentano le ore registrate per progetti, attività e problemi da maggio 2021 sono state spostate dal campo Ore effettive legacy al nuovo campo Ore effettive.
 >* Le ore effettive che rappresentano le ore registrate per progetti, attività e problemi prima di maggio 2021 sono contabilizzate solo nel campo Ore effettive legacy.
->  ><br>Potrebbe essere necessario aggiornare i rapporti per riflettere il nuovo campo e i relativi valori.
+>  &#x200B;><br>Potrebbe essere necessario aggiornare i rapporti per riflettere il nuovo campo e i relativi valori.
 
 
 Per informazioni, vedere [Visualizza ore effettive](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
