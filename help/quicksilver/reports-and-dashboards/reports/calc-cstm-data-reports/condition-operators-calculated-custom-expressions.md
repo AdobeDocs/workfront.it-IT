@@ -7,9 +7,9 @@ description: È possibile utilizzare operatori di condizione o modificatori per 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: e10fd7a3237d38ece8a5213990306ce511bd2412
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '731'
 ht-degree: 1%
 
 ---
@@ -29,12 +29,15 @@ Puoi creare istruzioni &quot;IF&quot; per i seguenti elementi di Workfront:
 * Viste
 * Raggruppamenti
 * Campi personalizzati calcolati
+* Regole di business
 
 Per ulteriori informazioni sulla compilazione delle istruzioni &quot;IF&quot;, vedere [ Panoramica delle istruzioni &quot;IF&quot;](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
 
 Gli esempi in questa guida illustrano l’utilizzo degli operatori condizione nei campi personalizzati calcolati. Puoi utilizzarli anche in colonne o raggruppamenti personalizzati calcolati, seguendo la sintassi corretta per i campi personalizzati calcolati nei rapporti.
 
 Per informazioni sulla differenza di sintassi tra i campi personalizzati calcolati e i dati personalizzati calcolati nei report, vedere [Confronto tra campi personalizzati calcolati e colonne calcolate](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
+
+Per informazioni sulle regole business, vedere [Creare e modificare le regole business](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
 
 Per trovare i campi a cui desideri fare riferimento nelle espressioni personalizzate calcolate, fai riferimento a API Explorer. Per informazioni su API Explorer, vedere [API Explorer](../../../wf-api/general/api-explorer.md).
 
