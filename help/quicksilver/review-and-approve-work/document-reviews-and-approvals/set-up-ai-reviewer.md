@@ -57,8 +57,8 @@ Prima di iniziare, è necessario impostare le linee guida del marchio in GenStui
 
 Per ulteriori informazioni sulle linee guida per i marchi, consulta
 
-* [Marchi GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [Aggiungi linee guida](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+* [Marchi GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
+* [Aggiungi linee guida](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
 
 ## Aggiungere un revisore di IA
 

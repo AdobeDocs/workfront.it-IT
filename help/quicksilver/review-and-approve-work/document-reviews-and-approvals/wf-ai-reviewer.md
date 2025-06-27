@@ -55,8 +55,8 @@ Durante la revisione dei contenuti, Workfront AI Reviewer utilizza le linee guid
 
 Per ulteriori informazioni sulle linee guida per i marchi, consulta
 
-* [Marchi GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [Aggiungi linee guida](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+* [Marchi GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
+* [Aggiungi linee guida](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
 
 
 ## Crea revisori AI
