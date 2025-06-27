@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: e3fa5f6fd86f0fe9ba221fb7c20f46f966437a42
+source-git-commit: f02a07c0bc4568d7e0fa25ca6e880024423527b7
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -26,25 +26,23 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 >
 > Anteprima e produzione: 24 giugno 2025 
 
-Il campo esistente Ore effettive è stato rinominato Ore effettive legacy. Questo campo memorizza in minuti il tempo registrato per progetti, attività e problemi. Il campo viene memorizzato nel database di Workfront come actualWorkRequired.
+È stato aggiunto un nuovo campo Ore effettive che memorizza in ore il tempo registrato per progetti, attività e problemi, con precisione decimale. Il campo è archiviato nel database di Workfront come `actualWorkRequiredDouble`.
 
-È stato aggiunto un nuovo campo Ore effettive che memorizza in ore il tempo registrato per progetti, attività e problemi, con precisione decimale. Il campo viene memorizzato nel database di Workfront come actualWorkRequiredDouble.
+Il campo esistente Ore effettive è stato rinominato Ore effettive legacy. Il campo memorizza in minuti il tempo registrato per progetti, attività e problemi ed è memorizzato nel database di Workfront come `actualWorkRequired`.
 
 I campi Ore effettive e Ore effettive precedenti sono visibili nelle visualizzazioni e nei rapporti relativi a progetti, attività e problemi.
 
 Il campo Ore effettive visibile nella sezione Dettagli progetto, attività e problemi rappresenta le nuove ore effettive.
 
-
-
 >[!IMPORTANT]
 >
 >A seconda di quando sono state registrate le ore, potrebbe esserci una discrepanza tra le ore effettive effettive e le ore effettive legacy per un progetto, un&#39;attività o un problema.<br>
->&#x200B;>Esistono i seguenti scenari:
+>>Esistono i seguenti scenari:
 >
->* Le ore effettive che rappresentano le ore registrate per progetti, attività e problemi da maggio 2021 sono state spostate dal campo Ore effettive legacy al nuovo campo Ore effettive.
->* Le ore effettive che rappresentano le ore registrate per progetti, attività e problemi prima di maggio 2021 sono contabilizzate solo nel campo Ore effettive legacy.
->  &#x200B;><br>Potrebbe essere necessario aggiornare i rapporti per riflettere il nuovo campo e i relativi valori.
-
+>* Le ore effettive rappresentano le ore registrate per progetti, attività e problemi da maggio 2021.
+>* Le ore effettive legacy rappresentano le ore registrate per progetti, attività e problemi per la durata del progetto, dell’attività o del problema. Sono incluse le ore registrate prima di maggio 2021 fino all’ora corrente.
+>  ><br>Potrebbe essere necessario aggiornare i rapporti per riflettere il nuovo campo e i relativi valori.
+>  ><br>Workfront utilizza le ore effettive legacy per calcolare i costi effettivi della manodopera.
 
 Per informazioni, vedere [Visualizza ore effettive](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
