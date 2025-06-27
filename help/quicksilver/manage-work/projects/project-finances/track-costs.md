@@ -7,9 +7,9 @@ description: Puoi tenere traccia dei costi per progetti, attività e problemi in
 author: Lisa
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
 workflow-type: tm+mt
-source-wordcount: '2480'
+source-wordcount: '2499'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,11 @@ In Workfront è possibile tenere traccia di diversi tipi di costi per attività 
     </tr> 
     <tr> 
      <td>Costi effettivi manodopera</td> 
-     <td> <p>Sono calcolati con la seguente formula:</p><code>Actual Labor Costs = Actual Hours * Cost per Hour rate</code> </td> 
+     <td> <p>Sono calcolati con la seguente formula:</p><code>Actual Labor Costs = Actual Hours * Cost per Hour rate</code> 
+     <p><strong>NOTA</strong>
+     <p>Workfront calcola il costo effettivo della manodopera utilizzando le ore effettive legacy. Per ulteriori informazioni, vedere <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">Visualizza ore effettive</a>. </p>
+
+  </td> 
     </tr> 
    </tbody> 
   </table>
@@ -150,7 +154,7 @@ La tariffa oraria nella formula considera eventuali modifiche effettive alla dat
 >[!NOTE]
 >
 >Il Costo di Spesa Reale del progetto viene calcolato come segue:
->`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
 >
 >Questi costi non vengono duplicati nel calcolo del costo effettivo. Ad esempio, se un Costo Fisso fa parte del Costo Spesa Reale del progetto, non viene aggiunto separatamente al Costo Reale.
 
