@@ -37,12 +37,12 @@ Il campo Ore effettive visibile nella sezione Dettagli progetto, attività e pro
 >[!IMPORTANT]
 >
 >A seconda di quando sono state registrate le ore, potrebbe esserci una discrepanza tra le ore effettive effettive e le ore effettive legacy per un progetto, un&#39;attività o un problema.<br>
->>Esistono i seguenti scenari:
+>&#x200B;>Esistono i seguenti scenari:
 >
 >* Le ore effettive rappresentano le ore registrate per progetti, attività e problemi da maggio 2021.
 >* Le ore effettive legacy rappresentano le ore registrate per progetti, attività e problemi per la durata del progetto, dell’attività o del problema. Sono incluse le ore registrate prima di maggio 2021 fino all’ora corrente.
->  ><br>Potrebbe essere necessario aggiornare i rapporti per riflettere il nuovo campo e i relativi valori.
->  ><br>Workfront utilizza le ore effettive legacy per calcolare i costi effettivi della manodopera.
+>  &#x200B;><br>Potrebbe essere necessario aggiornare i rapporti per riflettere il nuovo campo e i relativi valori.
+>  &#x200B;><br>Workfront utilizza le ore effettive legacy per calcolare i costi effettivi della manodopera.
 
 Per informazioni, vedere [Visualizza ore effettive](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
