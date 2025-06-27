@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 2c1102e3496d4d8bc7bc07e7c41d1d2455c8637e
+source-git-commit: a6d0cf24d560a64f4e1f0bae7f8655ebc2d44a9b
 workflow-type: tm+mt
-source-wordcount: '13201'
+source-wordcount: '13211'
 ht-degree: 2%
 
 ---
@@ -109,7 +109,7 @@ ht-degree: 2%
          * [23.3 Altri miglioramenti](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
          * [Aggiornamenti look and feel durante il periodo di rilascio della versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * Versione 23.2 {#release-23-2}
-         * [Panoramica sulla versione di 23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
+         * Panoramica sulla versione di [23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 Miglioramenti per gli amministratori](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
          * [23.2 Miglioramenti di Agile](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
          * [23.2 Miglioramenti alla gestione dei progetti](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
@@ -1501,9 +1501,12 @@ ht-degree: 2%
          * [Introduzione ai dashboard di Canvas](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
          * [Aggiungere, rimuovere o disporre i rapporti in un dashboard Canvas](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
          * [Condividere un dashboard Canvas](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
-      * Tipi di rapporti del dashboard Area di lavoro {#report-types}
-         * [Panoramica sui tipi di rapporti del dashboard Area di lavoro](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
-         * [Aggiungere un rapporto esistente a un dashboard di Canvas](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
+      * Aggiungere rapporti {#add-reports}
+         * [Panoramica sui tipi di rapporti del dashboard Area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/report-types-overview.md)
+         * [Creare un rapporto KPI](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
+         * [Creare un rapporto grafico](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
+         * [Creare un rapporto di tabella](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
+         * [Aggiungere un rapporto esistente a un dashboard di Canvas](reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
    * Rapporti {#reports}
       * [Rapporti](reports-and-dashboards/reports/reports-overview.md)
       * Nozioni di base sul reporting {#report-basics}
@@ -2462,7 +2465,7 @@ ht-degree: 2%
       * [Configura e utilizza le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso PKCE](wf-api/api/oauth-app-pkce-flow.md)
       * [Obsolescenza di API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Novità dell&#39;API versione 20](wf-api/api/new-api-version-20.md)
-      * [Novità della versione 19 dell&#39;API](wf-api/api/new-api-version-19.md)
+      * [Novità della versione 19](wf-api/api/new-api-version-19.md) dell&#39;API
       * [Novità della versione 18 dell’API](wf-api/api/new-api-version-18.md)
       * [Novità della versione 17 dell’API](wf-api/api/new-api-version-17.md)
       * [Novità della versione 16 dell’API](wf-api/api/new-api-version-16.md)
