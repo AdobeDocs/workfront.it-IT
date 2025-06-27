@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: a6d0cf24d560a64f4e1f0bae7f8655ebc2d44a9b
+source-git-commit: 8d37762a2f6b01ff25845639c6436b2a39aa5449
 workflow-type: tm+mt
-source-wordcount: '13211'
+source-wordcount: '13224'
 ht-degree: 2%
 
 ---
@@ -109,7 +109,7 @@ ht-degree: 2%
          * [23.3 Altri miglioramenti](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
          * [Aggiornamenti look and feel durante il periodo di rilascio della versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * Versione 23.2 {#release-23-2}
-         * [Panoramica sulla versione di 23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
+         * Panoramica sulla versione di [23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 Miglioramenti per gli amministratori](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
          * [23.2 Miglioramenti di Agile](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
          * [23.2 Miglioramenti alla gestione dei progetti](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
@@ -1095,7 +1095,6 @@ ht-degree: 2%
       * [Area Documenti](documents/managing-documents/documents-area.md)
       * [Panoramica dei dettagli del documento](documents/managing-documents/document-details-overview.md)
       * [Panoramica del riepilogo dei documenti](documents/managing-documents/summary-for-documents.md)
-      * [Revisore Workfront AI](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
       * [Anteprima documenti](documents/managing-documents/preview-documents.md)
       * [Approvazioni e prove dei documenti](documents/managing-documents/document-approvals-and-proofing.md)
       * [Aggiungere un aggiornamento a un documento](documents/managing-documents/add-update-documents.md)
@@ -1792,8 +1791,10 @@ ht-degree: 2%
       * [Funzionalità disponibili per la revisione e l’approvazione di risorse e documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
       * [Panoramica delle approvazioni unificate](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [Panoramica sullo stato delle decisioni relative ai documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+      * [Guida introduttiva a Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
       * Impostare e gestire le approvazioni di risorse e documenti {#manage-asset-review-and-approval}
          * [Impostare e gestire le approvazioni di risorse e documenti: indice articoli](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+         * [Crea revisori AI](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
          * [Creare una richiesta di revisione o approvazione documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [Aggiungere revisori o approvatori aggiuntivi a una risorsa o a un documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [Rimuovere approvatori o revisori da una risorsa o da un documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
@@ -1803,6 +1804,7 @@ ht-degree: 2%
          * [Creare un dashboard di report per la revisione e le approvazioni](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
       * Rivedere e approvare risorse e documenti {#review-and-approve-documents}
          * [Revisione e approvazione dei documenti: indice articolo](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
+         * [Visualizzare il punteggio e il feedback del revisore AI](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
          * [Rivedere un documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [Approvare un documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * Verifica {#proofing}
@@ -2465,7 +2467,7 @@ ht-degree: 2%
       * [Configura e utilizza le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso PKCE](wf-api/api/oauth-app-pkce-flow.md)
       * [Obsolescenza di API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Novità dell&#39;API versione 20](wf-api/api/new-api-version-20.md)
-      * [Novità della versione 19 dell&#39;API](wf-api/api/new-api-version-19.md)
+      * [Novità della versione 19](wf-api/api/new-api-version-19.md) dell&#39;API
       * [Novità della versione 18 dell’API](wf-api/api/new-api-version-18.md)
       * [Novità della versione 17 dell’API](wf-api/api/new-api-version-17.md)
       * [Novità della versione 16 dell’API](wf-api/api/new-api-version-16.md)
