@@ -102,7 +102,7 @@ Ad esempio, [!DNL Workfront] potrebbe tenere traccia di tutte le modifiche appor
    * <span class="preview">**Campi personalizzati**</span>: visualizza un elenco di campi personalizzati. È necessario creare i campi personalizzati prima che siano disponibili nell’elenco.
    * <span class="preview">**Tutti i campi**</span>: visualizza un elenco di campi predefiniti e personalizzati.
 
-1. Fai clic su <span class="preview">**[!UICONTROL Aggiungi campi ]**,</span>, quindi seleziona l&#39;oggetto da tracciare dal menu a discesa.
+1. Fai clic su <span class="preview">**[!UICONTROL Aggiungi campi &#x200B;]**,</span>, quindi seleziona l&#39;oggetto da tracciare dal menu a discesa.
 
    La selezione manuale dei campi non è disponibile per tutti gli oggetti con un&#39;area Aggiornamenti.
 

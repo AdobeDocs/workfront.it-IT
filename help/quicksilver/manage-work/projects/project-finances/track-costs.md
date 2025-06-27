@@ -154,7 +154,7 @@ La tariffa oraria nella formula considera eventuali modifiche effettive alla dat
 >[!NOTE]
 >
 >Il Costo di Spesa Reale del progetto viene calcolato come segue:
->>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>&#x200B;>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
 >
 >Questi costi non vengono duplicati nel calcolo del costo effettivo. Ad esempio, se un Costo Fisso fa parte del Costo Spesa Reale del progetto, non viene aggiunto separatamente al Costo Reale.
 
