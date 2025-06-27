@@ -107,6 +107,7 @@ Puoi generare e gestire le chiavi API per gli utenti con ruoli diversi da Ammini
    1. Espandere **Sistema**, quindi fare clic su **Single Sign-on (SSO)**.
    1. Nel campo **Tipo**, seleziona il tipo di SSO utilizzato dalla tua organizzazione.
    1. Con il tipo selezionato, scorri verso il basso e deseleziona la casella di controllo **Abilita**.
+
       ![Abilita SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. Fai clic su **Salva**.
 
