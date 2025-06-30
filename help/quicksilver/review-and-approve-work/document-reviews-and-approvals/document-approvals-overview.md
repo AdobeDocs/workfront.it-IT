@@ -6,9 +6,9 @@ description: È possibile aggiungere ulteriori approvatori o revisori a un docum
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
+source-git-commit: 9ede952041f89eca4ba324348880d7eb5f2bccd7
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '569'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Unified Approvals è una riprogettazione completa del processo di approvazione e
 * I partecipanti all&#39;approvazione del documento vengono visualizzati nel Riepilogo del documento, non nella scheda del flusso di lavoro di verifica.
 * Le approvazioni unificate non sono supportate nello strumento di reporting corrente.
 
-  È possibile unire la nuova versione beta di Canvas Dashboards a [Creare un dashboard per i report per la revisione e le approvazioni](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md), oppure è possibile utilizzare il widget Tutte le approvazioni disponibile nelle nuove dashboard Home e Canvas fornisce i seguenti dettagli sulle approvazioni unificate:
+  È possibile partecipare alla nuova versione beta di Canvas Dashboards per [Creare un dashboard per i report per la revisione e le approvazioni](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md), oppure è possibile utilizzare il widget delle metriche di approvazione dei documenti disponibile nelle nuove dashboard Home e Canvas fornisce i seguenti dettagli sulle approvazioni unificate:
 
    * Approvazioni mediante decisione
    * Tempo medio approvazione

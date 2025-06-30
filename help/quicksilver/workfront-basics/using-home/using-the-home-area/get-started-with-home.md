@@ -6,9 +6,9 @@ description: Home ti aiuta a gestire il tuo lavoro. Puoi personalizzare questo s
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 9ede952041f89eca4ba324348880d7eb5f2bccd7
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1011'
 ht-degree: 4%
 
 ---
@@ -61,8 +61,8 @@ Di seguito sono riportati gli 11 widget attualmente disponibili tra cui sceglier
 * **La mia approvazione**\
     Visualizza tutte le approvazioni in sospeso, assegnate, delegate e inviate, un pulsante per delegare le approvazioni e pulsanti per prendere decisioni di approvazione direttamente all&#39;interno del widget.
 
-* **Tutte le approvazioni**\
-        Visualizza 2 grafici con informazioni sul tempo medio di approvazione e sulle decisioni, nonché visualizzazioni elenco delle approvazioni in sospeso e in ritardo. <span style="color: #ff0000;">Questa funzionalità fa parte di una versione graduale ed è attualmente disponibile solo per clienti specifici.</span>
+* **Metriche di approvazione documento**\
+        Visualizza 2 grafici con informazioni sul tempo medio di approvazione dei documenti e sulle relative decisioni, nonché visualizzazioni elenco delle approvazioni in sospeso e in ritardo. Per utilizzare questo widget, è necessario che siano abilitate le approvazioni unificate.
 
 * **Menzioni**\
     Visualizza i thread di commenti recenti provenienti da Workfront, in modo simile alla pagina My Updates (I miei aggiornamenti). Puoi utilizzare il pulsante di risposta per comporre una risposta all’interno del widget. Questo widget mostra anche i commenti aggiunti sulle attività e sui problemi che ti vengono assegnati, che hai assegnato a un altro utente, di cui sei proprietario, per cui sei il contatto principale o che hai creato, purché l’attività o il problema sia stato aggiornato negli ultimi 30 giorni.
