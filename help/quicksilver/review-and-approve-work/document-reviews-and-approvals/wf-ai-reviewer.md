@@ -12,7 +12,7 @@ exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 source-git-commit: da980cee8710570f52c724053d1e0f359c6a9fe1
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -40,7 +40,7 @@ Per ulteriori informazioni sulla firma del contratto, consulta [Firmare il contr
 >[!CONTEXTUALHELP]
 >id="wf_document_approvals_ai_supported_files"
 >title="Tipo di file non supportato"
->abstract="Questo revisore IA non supporta il tipo di file selezionato. Per inviare la richiesta, carica un tipo di file supportato oppure rimuovi il revisore IA."
+>abstract="Questo revisore IA non supporta il tipo di file selezionato.Per inviare la richiesta, carica un tipo di file supportato oppure rimuovi il revisore IA."
 
 Il revisore IA può esaminare i seguenti tipi di file:
 
@@ -55,8 +55,8 @@ Durante la revisione dei contenuti, Workfront AI Reviewer utilizza le linee guid
 
 Per ulteriori informazioni sulle linee guida per i marchi, consulta
 
-* [Marchi GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [Aggiungi linee guida](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+* [Marchi GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
+* [Aggiungi linee guida](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
 
 
 ## Crea revisori AI
