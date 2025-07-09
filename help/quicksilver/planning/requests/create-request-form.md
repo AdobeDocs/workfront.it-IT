@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 8e9d9c9489d43917386e581ac9834fbb65b33d25
 workflow-type: tm+mt
-source-wordcount: '2087'
+source-wordcount: '2166'
 ht-degree: 1%
 
 ---
@@ -241,7 +241,7 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
 
    ![Casella di condivisione per il modulo di richiesta](assets/share-box-for-request-form.png)
 
-1. Selezionare una delle opzioni seguenti per indicare i tipi di utenti che possono accedere al modulo:
+1. (Condizionale) Nell’ambiente di produzione, seleziona tra le seguenti opzioni per indicare quali tipi di utenti possono accedere a questo modulo:
 
    * Chiunque con accesso alla visualizzazione, o superiore, all’area di lavoro
    * Chiunque con accesso per contribuire, o superiore, all’area di lavoro
@@ -257,7 +257,7 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
    >     * Persone
    >
 
-1. (Condizionale) Se hai selezionato **Qualcuno con il collegamento** nel passaggio precedente, seleziona **Data di scadenza collegamento** dal calendario disponibile.
+1. (Condizionale) Nell&#39;ambiente di produzione, se hai selezionato **Chiunque abbia il collegamento** nel passaggio precedente, seleziona **Data di scadenza collegamento** dal calendario disponibile.
 
    Gli utenti riceveranno un errore dopo la scadenza del collegamento e, prima di poter accedere nuovamente al modulo, è necessario aggiornare la data del collegamento e generare un nuovo collegamento da condividere.
 
@@ -267,13 +267,14 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
    >
    >Dopo la scadenza della data di condivisione, il modulo di richiesta non è più disponibile nell’area Richieste di Workfront e i collegamenti condivisi con altri utenti non sono più accessibili.
 
-
-1. (Facoltativo) Fai clic su **Salva e copia collegamento** per salvare i dettagli di condivisione del modulo. Se il modulo è stato salvato in precedenza, fare clic su **Copia collegamento**.
+1. (Facoltativo e condizionale) Nell&#39;ambiente di produzione, fare clic su **Salva e copia collegamento** per salvare i dettagli di condivisione per il modulo. Se il modulo è stato salvato in precedenza, fare clic su **Copia collegamento**.
 
    Le opzioni di condivisione del modulo vengono salvate e il collegamento viene copiato negli Appunti. Ora puoi condividerlo con altri utenti.
 
    Per informazioni sulla creazione di record mediante un collegamento a un modulo di richiesta, vedere [Inviare richieste Adobe Workfront Planning](/help/quicksilver/planning/requests/submit-requests.md).
 
+1. <span class="preview">(Condizionale) Nell&#39;ambiente di anteprima, per condividere con gli utenti, selezionare la scheda Condivisione interna, cercare il nome dell&#39;utente, quindi selezionarlo quando viene visualizzato nell&#39;elenco.</span>
+1. <span class="preview">(Condizionale) Nell&#39;ambiente di anteprima, per creare un collegamento pubblico, selezionare la scheda Condivisione pubblica, quindi attivare l&#39;opzione Crea collegamento pubblico. È quindi possibile copiare il collegamento qui o impostare una data di scadenza del collegamento.</span>
 1. Fai clic su **Salva** nell&#39;angolo inferiore destro della scheda **Modulo** per salvare il modulo.
 
 1. Fare clic sulla freccia rivolta a sinistra a sinistra del nome della maschera nell&#39;intestazione per chiudere la maschera.
