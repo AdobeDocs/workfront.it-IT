@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 482067778b6a5b7291eb25d00245a394bc72ccf0
+source-git-commit: 6f79c2973324d7de34736810dafcbd08714b4738
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1982'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,63 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+<!--## Auto-populate fields based on applied groupings
+
+Preview: July 10, 2025 
+Production fast release: August 14, 2025 
+Production for everyone: October 16, 2025 
+
+Now, when you have  groupings applied to a table view, adding a record to the table will auto-populate the fields associated with the groupings you add the record to.  
+
+If you have multiple groupings applied, the system auto-populates the fields associated with all groupings only when you add the record at the end of the list inside the last grouping criteria.  
+
+Prior to this enhancement, you had to manually update the fields associated with groupings.  
+
+For information, see [Create records](/help/quicksilver/planning/records/create-records.md).-->
+
+## Pulsante Condivisione comune per visualizzazioni e tipi di record
+
+>[!NOTE]
+>
+>* Anteprima: 9 luglio 2025
+>* Produzione per tutti: 17 luglio 2025
+
+Ora è possibile condividere una visualizzazione e un tipo di record dallo stesso pulsante nella pagina del tipo di record. Prima di questo miglioramento, era possibile condividere il tipo di record solo dal pulsante Condividi nella pagina del tipo di record e da una vista nella scheda della vista.
+
+Per ulteriori informazioni, consulta i seguenti articoli:
+
+* [Condividi visualizzazioni](/help/quicksilver/planning/access/share-views.md)
+
+* [Condividere tipi di record](/help/quicksilver/planning/access/share-record-types.md)
+
+
+<!--## Add teams as approvers on Planning request forms
+
+>[!NOTE]
+>
+>* Preview: July 9, 2025 
+>* Production for everyone: October 16, 20025 
+
+To make the approval process more flexible, we've added the ability to add teams as approvers on Planning request forms. Now, you can enter and select team names when setting approvers. Any of the team members can make a decision, which counts as the approval decision for the entire team.
+
+Previously, only individual users could be assigned as approvers. 
+
+For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).-->
+
+## Esperienza aggiornata durante la condivisione di un modulo di richiesta
+
+>[!NOTE]
+>
+>* Anteprima: 9 luglio 2025
+>* Produzione per tutti: 17 luglio 2025
+
+Per rendere più sicura e semplice la condivisione di un modulo di richiesta in Workfront Planning, sono state apportate le seguenti modifiche:
+
+* Sono state rimosse le autorizzazioni ereditate. Ora il modulo di richiesta viene condiviso solo con quelli selezionati.
+* Abbiamo rimosso le opzioni di gestione e contribuzione per gli utenti con cui condividi il modulo di richiesta. Ora gli utenti aggiunti possono solo inviare il modulo.
+* La scheda Condivisione pubblica ora visualizza il campo Collegamento e data di scadenza solo dopo l’abilitazione dell’opzione Crea collegamento pubblico.
+
+Per ulteriori informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Espandere e comprimere tutti i raggruppamenti nella vista tabella
 
@@ -239,7 +296,7 @@ Prima di questo miglioramento, gli utenti con tutti i livelli di licenza dovevan
 >[!NOTE]
 >
 >Questa modifica sarà visibile per tutti gli utenti nuovi ed esistenti con una licenza Amministratore di sistema e Standard.
->&#x200B;>Gli utenti esistenti assegnati a un modello di layout continueranno a visualizzare tutto in base alle impostazioni definite nel modello di layout.
+>>Gli utenti esistenti assegnati a un modello di layout continueranno a visualizzare tutto in base alle impostazioni definite nel modello di layout.
 
 Per informazioni, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 

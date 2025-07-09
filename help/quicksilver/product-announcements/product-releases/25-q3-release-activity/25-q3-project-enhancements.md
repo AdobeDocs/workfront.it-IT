@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: f02a07c0bc4568d7e0fa25ca6e880024423527b7
+source-git-commit: d950346c549d22c7a8db82ce032caa24202f9126
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,23 @@ ht-degree: 0%
 Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con la versione del terzo trimestre 2025. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del terzo trimestre 2025, consulta [Panoramica sulla versione del terzo trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Aggiornamenti all’esperienza durante la creazione di una richiesta
+
+>[!NOTE]
+>
+>* Anteprima: 9 luglio 2025
+>* Versione rapida di produzione: 17 luglio 2025
+>* Produzione per tutti i clienti: 17 luglio 2025
+
+L&#39;esperienza acquisita quando si effettua una richiesta nella nuova esperienza di richiesta è stata aggiornata.
+
+* I moduli e i percorsi di richiesta disponibili vengono visualizzati in un elenco, anziché nelle schede. Il più recente viene visualizzato in una sezione nella parte superiore.
+* Tutti i moduli di richiesta, inclusi i moduli di richiesta Workfront e Workfront Planning, vengono visualizzati nell&#39;elenco. In precedenza, comparivano solo i primi 50.
+* I percorsi delle richieste e i moduli di richiesta sono elencati in sezioni separate, sia nell’area Recente che nell’elenco più ampio sottostante.
+* Quando si cerca una coda di richieste, l’elenco filtra in modo da visualizzare solo i moduli e i percorsi che includono il termine di ricerca. Il termine di ricerca viene evidenziato in ogni modulo di richiesta o percorso visualizzato.
+
+Per informazioni su come effettuare una richiesta, vedere [Creare e inviare richieste](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
 ## Il campo Ore effettive esistente è stato sostituito dal campo Ore effettive precedenti e sono stati creati nuovi campi Ore effettive
 
@@ -37,12 +54,12 @@ Il campo Ore effettive visibile nella sezione Dettagli progetto, attività e pro
 >[!IMPORTANT]
 >
 >A seconda di quando sono state registrate le ore, potrebbe esserci una discrepanza tra le ore effettive effettive e le ore effettive legacy per un progetto, un&#39;attività o un problema.<br>
->&#x200B;>Esistono i seguenti scenari:
+>>Esistono i seguenti scenari:
 >
 >* Le ore effettive rappresentano le ore registrate per progetti, attività e problemi da maggio 2021.
 >* Le ore effettive legacy rappresentano le ore registrate per progetti, attività e problemi per la durata del progetto, dell’attività o del problema. Sono incluse le ore registrate prima di maggio 2021 fino all’ora corrente.
->  &#x200B;><br>Potrebbe essere necessario aggiornare i rapporti per riflettere il nuovo campo e i relativi valori.
->  &#x200B;><br>Workfront utilizza le ore effettive legacy per calcolare i costi effettivi della manodopera.
+>  ><br>Potrebbe essere necessario aggiornare i rapporti per riflettere il nuovo campo e i relativi valori.
+>  ><br>Workfront utilizza le ore effettive legacy per calcolare i costi effettivi della manodopera.
 
 Per informazioni, vedere [Visualizza ore effettive](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
@@ -96,3 +113,5 @@ Per chiarire in che modo l’Assistente per l’intelligenza artificiale individ
 In precedenza, queste informazioni non erano disponibili nella risposta dell’Assistente IA.
 
 Per informazioni sull&#39;utilizzo dell&#39;Assistente IA per ottenere informazioni sugli elementi di Workfront, vedere [Utilizzare l&#39;Assistente IA per lavorare con progetti, attività e problemi](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md).
+
+
