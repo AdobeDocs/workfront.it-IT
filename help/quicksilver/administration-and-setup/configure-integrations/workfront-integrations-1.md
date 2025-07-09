@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 273db4b8e9b59930dc640a342dbeb276c22ccda3
+source-git-commit: af54faae1e78d7ffbe679fd82dfb5a3abd45f5cf
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1292'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Sappiamo che le integrazioni integrate (native) disponibili potrebbero non soddi
      <li>After Effects </li>
      </ul>
      <li><p>Scarica/installa da <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
-     <p>Per informazioni e istruzioni, vedere <a href="https://experienceleague.adobe.com/it/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Installare il plug-in [!DNL Adobe Workfront] per [!DNL Creative Cloud] applicazioni</a></p> 
+     <p>Per informazioni e istruzioni, vedere <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Installare il plug-in [!DNL Adobe Workfront] per [!DNL Creative Cloud] applicazioni</a></p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
@@ -195,16 +195,16 @@ Sappiamo che le integrazioni integrate (native) disponibili potrebbero non soddi
      <li>Gli amministratori non [!DNL Jira] devono richiedere e ottenere l'accesso dall'amministratore [!DNL Jira]</li> 
     </ul> </td> 
   </tr> 
-  <tr> 
-   <td>[!DNL Microsoft] Calendari ([!DNL Office 365] / [!DNL Outlook Live])</td> 
+  <!--<tr> 
+   <td>[!DNL Microsoft] Calendars ([!DNL Office 365] / [!DNL Outlook Live])</td> 
    <td> 
     <ul> 
-     <li> <p>Integrare con una versione basata sul Web di [!DNL Outlook] in [!DNL Office 365] o [!DNL Outlook Live.] ospitato dal cloud </p> </li> 
-     <li> <p>Visualizzare tutti gli eventi del calendario [!DNL Outlook] e dei calendari associati selezionati, ad esempio i calendari di compleanni e festività, nel Calendario predefinito .</p> </li> 
-    </ul> <p><b>NOTA</b>: la configurazione del calendario di [!UICONTROL Outlook] è completamente separata dal componente aggiuntivo [!DNL Outlook] ([!DNL Outlook] Integration o [!DNL Workfront for Outlook]). Non è necessaria alcuna installazione per configurare il calendario.</p></td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
+     <li> <p>Integrate with a web-based version of [!DNL Outlook] in cloud-hosted [!DNL Office 365] or [!DNL Outlook Live.] </p> </li> 
+     <li> <p>Display all events from your [!DNL Outlook] calendar and any associated calendars you select, such as Birthdays and Holidays calendars, in your [!UICONTROL Home Calendar].</p> </li> 
+    </ul> <p><b>NOTE</b>: The [!UICONTROL Outlook] calendar configuration is completely separate from the [!DNL Outlook] Add-in ([!DNL Outlook] Integration or [!DNL Workfront for Outlook]). There's no installation required to configure the calendar.</p></td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> -->
   <tr> 
    <td> <p>[!DNL Microsoft OneDrive]</p> <p> <img src="assets/microsoft-onedrive.png"> </p> </td> 
    <td> 
@@ -214,26 +214,26 @@ Sappiamo che le integrazioni integrate (native) disponibili potrebbero non soddi
    <td> </td> 
    <td> </td> 
   </tr> 
-  <tr> 
+  <!--<tr> 
    <td> <p>[!DNL Microsoft Outlook]</p> <p> <img src="assets/outlook.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>Aggiornare un progetto, un’attività o un problema esistente con le informazioni contenute in un messaggio e-mail </li> 
-     <li>Converti le e-mail in elementi Workfront direttamente dalla casella in entrata </li> 
-     <li>Creare nuove attività da un messaggio e-mail </li> 
-     <li>Commento su [!DNL Workfront] elementi </li> 
-    </ul> <p>Per ulteriori informazioni, vedere <a href="../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md" class="MCXref xref">[!DNL Adobe Workfront for Outlook]</a>.</p> </td> 
+     <li>Update an existing project/task/issue with info from an email </li> 
+     <li>Convert emails into Workfront items right from your inbox </li> 
+     <li>Create new tasks from an email </li> 
+     <li>Comment on [!DNL Workfront] items </li> 
+    </ul> <p>For more information, see <a href="../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md" class="MCXref xref">[!DNL Adobe Workfront for Outlook]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>[!DNL Outlook] 2013 o 2016 per [!DNL Windows] e [!DNL Outlook] 2016 per [!DNL Mac] </li> 
-     <li>[!DNL Outlook] sul web deve essere per [!DNL Exchange] 2016 e [!DNL Office] 365 </li> 
-     <li>[!DNL Outlook Web Access] deve essere per [!DNL Exchange] 2013 </li> 
-     <li>Connessione diretta a un server [!DNL Exchange] o [!DNL Office 365]</li> 
+     <li>[!DNL Outlook] 2013 or 2016 for [!DNL Windows] and [!DNL Outlook] 2016 for [!DNL Mac] </li> 
+     <li>[!DNL Outlook] on the web must be for [!DNL Exchange] 2016 and [!DNL Office] 365 </li> 
+     <li>[!DNL Outlook Web Access] must be for [!DNL Exchange] 2013 </li> 
+     <li>Direct connection to an [!DNL Exchange] Server or [!DNL Office 365]</li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>[!DNL Workfront] amministratore </li> 
-    </ul> </td> 
+     <li>[!DNL Workfront] administrator </li> 
+    </ul> </td>--> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Microsoft Teams]</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p> </td> 
@@ -320,7 +320,7 @@ Sappiamo che le integrazioni integrate (native) disponibili potrebbero non soddi
 
   [!DNL Adobe Workfront Fusion] collega azioni all&#39;interno e tra app e servizi per creare uno scenario che trasferisce e trasforma automaticamente i dati. Dispone di connettori dedicati per molte app, ma può connettersi a qualsiasi applicazione con un’API pubblica.
 
-  Per ulteriori informazioni, vedere [[!DNL Adobe Workfront Fusion] panoramica](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+  Per ulteriori informazioni, vedere [[!DNL Adobe Workfront Fusion] panoramica](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan] (Richiede [!DNL Workfront Fusion])
