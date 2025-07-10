@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 1b9f18f51d6b83e0522fb1ff95d5d135cef547ec
+source-git-commit: 0e519e9d5cb5bbc5052448d399b9cf54e4ed2766
 workflow-type: tm+mt
-source-wordcount: '5088'
+source-wordcount: '5164'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,16 @@ In questa pagina sono elencati gli aggiornamenti dell’interfaccia che stiamo a
 Per tutte le altre modifiche apportate ad Adobe Workfront, vedi [Versioni del prodotto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Amministrazione e configurazione
+
+### Aggiornamenti dell’interfaccia alle finestre di dialogo dei sottogruppi
+
+**Anteprima versione: 10 luglio 2025; produzione versione: 17 luglio 2025**
+
+Sono state aggiornate le finestre di dialogo che consentono di aggiungere un sottogruppo, modificarne uno e copiarne uno per adattarlo ad altre aree dell’applicazione.
+
+Per visualizzare queste modifiche, vai a Configurazione > Gruppi > seleziona un gruppo > Sottogruppi. Le finestre di dialogo per aggiungere, modificare e copiare un sottogruppo dall’elenco principale dei gruppi sono già state aggiornate.
+
+Per informazioni, vedere [Creare un sottogruppo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md) e [Gestire un sottogruppo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
 
 ### Aggiornamenti visivi e immediati della sezione Feed di aggiornamento della configurazione
 
