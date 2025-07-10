@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: e8e8e12bef55303c65894aa495f7554a9f1a811c
 workflow-type: tm+mt
-source-wordcount: '1653'
-ht-degree: 1%
+source-wordcount: '1950'
+ht-degree: 0%
 
 ---
 
@@ -32,11 +32,6 @@ ht-degree: 1%
 >
 >* Quando si condivide una visualizzazione, si concedono ad altri utenti le autorizzazioni necessarie per accedere a tutti gli elementi della visualizzazione. Ad esempio, quando si assegnano le autorizzazioni Gestione a una visualizzazione, è possibile modificare il raggruppamento, il filtro, l&#39;ordinamento o l&#39;aspetto della barra.
 
-
-Potete condividere una vista con le seguenti entità:
-
-* Internamente, con utenti, gruppi, team, aziende e ruoli di Workfront
-* Pubblicamente, con utenti esterni a Workfront
 
 <!--
 This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). -->
@@ -118,6 +113,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Considerazioni durante la condivisione delle visualizzazioni
 
+* È possibile condividere una visualizzazione nei modi seguenti:
+
+   * Internamente, con utenti, gruppi, team, aziende e ruoli di Workfront
+   * Pubblicamente, con utenti esterni a Workfront
+   * Copiando e condividendo un collegamento a una visualizzazione
+   * Esportandolo in un file Excel o CSV. Potete esportare solo la vista tabella in un file. Per informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
+
 * Per informazioni generali sulla condivisione di oggetti in Workfront Planning, vedere anche [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 * È possibile assegnare le autorizzazioni Visualizzazione o Gestione a una visualizzazione agli utenti interni di Workfront.
 
@@ -145,11 +147,17 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Verrà aperta la pagina del tipo di record.
 
-1. <span class="preview">Dalla scheda Visualizza, passa il puntatore del mouse sulla visualizzazione da condividere e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Condividi**. </span>
+1. Dalla scheda Visualizza, <span class="preview">eseguire una delle operazioni seguenti:</span>
 
-   <span class="preview">![Altro menu per una visualizzazione](assets/more-menu-for-views-expanded-with-share-option.png) </span>
+   * Passa il puntatore del mouse sul nome della scheda della visualizzazione che desideri condividere e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Condividi**.
 
-   La scheda **Condivisione interna** deve essere selezionata per impostazione predefinita.
+     ![Altro menu per una visualizzazione](assets/more-menu-for-views-expanded-with-share-option.png)
+
+   * <span class="preview">Fai clic su **Condividi** > **Condividi la visualizzazione corrente**</span>
+
+     <span class="preview">![Pulsante Condividi con tipo di record e opzioni di condivisione della visualizzazione](assets/share-button-with-record-type-and-view-sharing-options.png)</span>
+
+   Viene visualizzata la casella **Condividi visualizzazione** e la scheda **Condivisione interna** deve essere selezionata per impostazione predefinita.
 
 1. (Facoltativo) Nell&#39;area **Chi ha accesso**, selezionare una delle opzioni seguenti:
 
@@ -174,7 +182,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
      Gli amministratori di sistema ricevono sempre le autorizzazioni di gestione per le visualizzazioni condivise con loro.
 
-1. Fai clic su **Copia collegamento** per copiare un collegamento negli Appunti.
 1. Fai clic su **Salva**.
 
    La visualizzazione viene aggiornata con l&#39;icona Persone ![Visualizza condivisa con altri utenti](assets/view-shared-with-others-people-icon.png) per indicare che la visualizzazione è ora condivisa con altri utenti.
@@ -202,9 +209,14 @@ Per condividere una visualizzazione pubblicamente in Workfront Planning:
 
    Verrà aperta la pagina del tipo di record.
 
-1. <span class="preview">Dalla scheda Visualizza, passa il puntatore del mouse sulla visualizzazione da condividere e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Condividi**. </span>
+1. Nella scheda Visualizza eseguire una delle operazioni seguenti:
 
-   <span class="preview">![Menu Altro per le visualizzazioni espanse con l&#39;opzione di condivisione](assets/more-menu-for-views-expanded-with-share-option.png)</span>
+   * Passa il puntatore del mouse sul nome della scheda della visualizzazione che desideri condividere e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Condividi**.
+
+   ![Menu Altro per le visualizzazioni espanse con l&#39;opzione di condivisione](assets/more-menu-for-views-expanded-with-share-option.png)
+   * <span class="preview">Fai clic su **Condividi** > **Condividi la visualizzazione corrente**</span>
+
+   Viene visualizzata la casella **Condividi visualizzazione**.
 
 1. Fai clic su **Condivisione pubblica**.
 
@@ -229,6 +241,34 @@ Per condividere una visualizzazione pubblicamente in Workfront Planning:
 
 1. (Facoltativo) Incolla il collegamento copiato in un messaggio e-mail, chat, documento o in un commento di Workfront per condividerlo con altri utenti.
 
+## Copiare un collegamento in una visualizzazione
+
+È possibile copiare un collegamento negli Appunti e includerlo in un&#39;altra applicazione o condividerlo con altri utenti.
+
+Per copiare un collegamento a una visualizzazione condivisa pubblicamente, vedere la sezione [Autorizzazioni di condivisione per una visualizzazione condivisa pubblicamente](#share-permissions-to-a-view-publicly) in questo articolo.
+
+Questa sezione descrive come condividere una vista internamente.
+
+>[!IMPORTANT]
+>
+>È innanzitutto necessario condividere la visualizzazione con gli utenti prima di condividere il collegamento alla visualizzazione affinché possano visualizzarla.
+
+
+{{step1-to-planning}}
+
+1. Apri l’area di lavoro di cui desideri copiare la visualizzazione e condividere il collegamento, quindi fai clic su una scheda del tipo di record.
+
+   Verrà aperta la pagina del tipo di record.
+
+1. Nella scheda di una vista effettuare una delle seguenti operazioni:
+
+   * Passa il puntatore del mouse sulla scheda della visualizzazione che desideri condividere e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Condividi** > **Copia collegamento** nella casella **Condividi visualizzazione**.
+   * <span class="preview">Fare clic su **Condividi** > **Copia collegamento visualizzazione**</span> > **Copia collegamento** nella casella **Condividi visualizzazione**.
+
+   Un collegamento alla visualizzazione viene copiato negli Appunti e si riceve una conferma nella parte inferiore dello schermo.
+
+   Ora puoi incollare il collegamento a un’altra applicazione o inviarlo ad altri.
+
 ## Concedere autorizzazioni a una visualizzazione da una richiesta di autorizzazione
 
 Gli utenti che accedono a un collegamento a una visualizzazione per la quale non dispongono di autorizzazioni possono richiedere le autorizzazioni per la visualizzazione. Tutti gli utenti con autorizzazioni Manage (Gestisci) per la visualizzazione ricevono la richiesta di autorizzazione e possono concedere o negare le autorizzazioni.
@@ -236,10 +276,8 @@ Gli utenti che accedono a un collegamento a una visualizzazione per la quale non
 1. (Condizionale) Se sei il manager di una visualizzazione, potresti ricevere una richiesta da un altro utente per accedere alla visualizzazione nelle seguenti aree:
 
    * Una notifica in-app
-
      ![Notifica in-app per la richiesta di accesso per la visualizzazione](assets/in-app-notification-for-access-request-for-view.png)
    * Una notifica e-mail
-
      ![Notifica in-app per la richiesta di accesso per la visualizzazione](assets/in-app-notification-for-access-request-for-view.png)
 1. (Condizionale) Dall’area di notifica in Workfront, fai clic sulla notifica in-app.
 Oppure
@@ -261,7 +299,13 @@ Dalla notifica e-mail, fai clic su **Visualizza tutte le notifiche**, quindi fai
 {{step1-to-planning}}
 
 1. Aprire l&#39;area di lavoro di cui si desidera interrompere la condivisione della visualizzazione, quindi fare clic su una scheda del tipo di record. Verrà aperta la pagina del tipo di record.
-1. Passa il puntatore del mouse sul nome della scheda della visualizzazione da cui vuoi rimuovere la condivisione e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png), quindi fai clic su **Condividi**.
+1. Dalla scheda Visualizza, <span class="preview"> effettua una delle seguenti operazioni:</span>
+
+   * Passa il puntatore del mouse sul nome della scheda della visualizzazione che desideri condividere e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Condividi**.
+
+   * <span class="preview">Fai clic su **Condividi** > **Condividi la visualizzazione corrente**</span>
+
+   Viene visualizzata la casella **Condividi visualizzazione**.
 1. Per rimuovere la condivisione interna di una vista, eseguire le operazioni seguenti:
 
    1. Verificare che la scheda **Condivisione interna** sia selezionata.

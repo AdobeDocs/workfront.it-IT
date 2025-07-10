@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '3720'
+source-wordcount: '3758'
 ht-degree: 2%
 
 ---
@@ -573,13 +573,20 @@ Quando esportate la vista tabella, tenete presente quanto segue:
 Per esportare informazioni dalla vista tabella o da un tipo di record:
 
 1. Passare a una pagina del tipo di record e fare clic su una scheda della vista tabella.
-1. Passa il puntatore del mouse sul nome della scheda di visualizzazione della tabella, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png).
+1. Esegui una delle operazioni seguenti:
+
+   * Passa il puntatore del mouse sul nome della scheda di visualizzazione della tabella, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Esporta**.
 
    ![Altro menu in una visualizzazione](assets/view-more-menu-with-duplicate-option.png)
-1. Fai clic su **Esporta**, quindi seleziona uno dei seguenti formati:
 
-   * Excel
-   * CSV
+   * Fai clic su **Condividi** > **Esporta la visualizzazione corrente**. Questa opzione è disponibile solo quando viene visualizzata la vista tabella.
+
+   ![Pulsante Condividi con tipo di record e opzioni di condivisione della visualizzazione](assets/share-button-with-record-type-and-view-sharing-options.png)
+
+1. Selezionare uno dei formati seguenti:
+
+   * **Excel**
+   * **CSV**
 
    >[!IMPORTANT]
    >

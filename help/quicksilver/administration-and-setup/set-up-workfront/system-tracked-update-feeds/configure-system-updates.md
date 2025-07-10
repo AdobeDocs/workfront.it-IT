@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '933'
 ht-degree: 8%
 
 ---
@@ -19,13 +19,15 @@ ht-degree: 8%
 
 <!-- Audited: 6/2025 -->
 
+<!--
+
 <div class="preview">
 
-Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti dopo una settimana dalla versione di anteprima.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
-Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
-</div>
+</div> -->
 
 [!DNL Adobe Workfront] genera aggiornamenti automatici di sistema nell&#39;area [!UICONTROL Aggiornamenti] di un oggetto per registrare i seguenti eventi:
 
@@ -96,13 +98,13 @@ Ad esempio, [!DNL Workfront] potrebbe tenere traccia di tutte le modifiche appor
 {{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **[!UICONTROL Interfaccia]**, quindi su **[!UICONTROL Aggiorna feed]**.
-1. (Facoltativo) In <span class="preview">**Campi tracciati** scheda</span>, fai clic su una delle seguenti schede secondarie, a seconda dei tipi di campi che desideri tracciare nel feed di aggiornamento:
+1. (Facoltativo) Nella scheda **Campi tracciati**, fai clic su una delle seguenti schede secondarie, a seconda dei tipi di campi che desideri tracciare nel feed di aggiornamento:
 
-   * <span class="preview">**Campi predefiniti**</span>: visualizza un elenco di campi predefiniti.
-   * <span class="preview">**Campi personalizzati**</span>: visualizza un elenco di campi personalizzati. È necessario creare i campi personalizzati prima che siano disponibili nell’elenco.
-   * <span class="preview">**Tutti i campi**</span>: visualizza un elenco di campi predefiniti e personalizzati.
+   * **Campi predefiniti**: visualizza un elenco di campi predefiniti.
+   * **Campi personalizzati**: visualizza un elenco di campi personalizzati. È necessario creare i campi personalizzati prima che siano disponibili nell’elenco.
+   * **Tutti i campi**: visualizza un elenco di campi predefiniti e personalizzati.
 
-1. Fai clic su <span class="preview">**[!UICONTROL Aggiungi campi &#x200B;]**,</span>, quindi seleziona l&#39;oggetto da tracciare dal menu a discesa.
+1. Fai clic su **[!UICONTROL Aggiungi campi]**, quindi seleziona dall&#39;elenco a discesa l&#39;oggetto di cui desideri tenere traccia.
 
    La selezione manuale dei campi non è disponibile per tutti gli oggetti con un&#39;area Aggiornamenti.
 
@@ -115,16 +117,16 @@ Ad esempio, [!DNL Workfront] potrebbe tenere traccia di tutte le modifiche appor
    * Programma
    * Utente
 
-   Viene visualizzata la casella <span class="preview">**Aggiungi campi** </span> per ogni oggetto selezionato.
-1. Nella casella <span class="preview">**Aggiungi campi** </span>, inizia a digitare un campo predefinito (standard) o personalizzato per l&#39;oggetto, quindi selezionalo quando viene visualizzato nell&#39;elenco.
+   Viene visualizzata la casella **Aggiungi campi** per ogni oggetto selezionato.
+1. Nella casella **Aggiungi campi**, inizia a digitare un campo predefinito (standard) o personalizzato per l&#39;oggetto, quindi selezionalo quando viene visualizzato nell&#39;elenco.
 
    >[!NOTE]
    >
    >Se [!DNL Workfront] sta già tenendo traccia del campo, non è possibile aggiungerlo una seconda volta dall&#39;elenco.
 
-1. Dopo aver aggiunto tutti i campi che desideri monitorare con [!DNL Workfront], <span class="preview"> fai clic su **[!UICONTROL Aggiungi]**.
+1. Dopo aver aggiunto tutti i campi che desideri monitorare in [!DNL Workfront], fai clic su **[!UICONTROL Aggiungi]**.
 I campi incorporati aggiunti vengono visualizzati nella scheda secondaria **[!UICONTROL Campi incorporati]** e i campi personalizzati nella scheda secondaria **[!UICONTROL Campi personalizzati]**.
-La scheda secondaria **[!UICONTROL Tutti i campi]** mostra sia i campi incorporati che quelli personalizzati di cui [!DNL Workfront] tiene traccia.</span>
+La scheda secondaria **[!UICONTROL Tutti i campi]** mostra sia i campi incorporati che quelli personalizzati di cui [!DNL Workfront] tiene traccia.
 
 ### Rimuovi i campi che non desideri tracciare {#remove-fields-you-don-t-want-tracked}
 
@@ -136,16 +138,7 @@ La scheda secondaria **[!UICONTROL Tutti i campi]** mostra sia i campi incorpora
 
 1. Nella scheda **[!UICONTROL Campi tracciati]**, selezionare la scheda secondaria **[!UICONTROL Tutti i campi]**. Vengono visualizzati sia i campi incorporati che quelli personalizzati attualmente tracciati.
 
-1. Seleziona il campo di cui vuoi interrompere il tracciamento, quindi fai clic su **[!UICONTROL Rimuovi]**.
-
-
-<!--replace above at Preview release with this:
-
-1. On the <span class="preview">**[!UICONTROL Tracked fields]** tab</span>, select the **[!UICONTROL All fields]** subtab. Both the built-in and custom fields that are currently being tracked display.
-
-1. Select the field you want to stop tracking, then click the <span class="preview">**[!UICONTROL Remove]** icon ![Remove icon](assets/remove-icon.png).</span>
-
--->
+1. Seleziona il campo di cui vuoi interrompere il tracciamento, quindi fai clic sull&#39;icona **[!UICONTROL Rimuovi]** ![Rimuovi icona](assets/remove-icon.png).
 
 1. Nella casella **[!UICONTROL Rimuovi campo]** visualizzata fare clic su **[!UICONTROL Sì, rimuovi]** per confermare.
 

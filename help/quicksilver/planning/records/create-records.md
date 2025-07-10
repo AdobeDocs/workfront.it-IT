@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2468'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,11 @@ I record del tipo selezionato vengono visualizzati nella vista.
 
 1. (Condizionale) Nella vista a tabella, effettuate una delle seguenti operazioni:
 
-   * Fai clic su **Nuovo record** nell&#39;ultima riga della tabella
+   * Fare clic su **Nuovo record** nell&#39;ultima riga della tabella o dopo l&#39;ultimo record di un raggruppamento
+
+     >[!TIP]
+     >
+     ><span class="preview">Quando si aggiunge un nuovo record dopo l&#39;ultimo record di un raggruppamento o di un sottogruppo, Workfront compila automaticamente i campi inclusi nei raggruppamenti. Se necessario, è possibile modificare manualmente questi campi e i record potrebbero essere rimossi dal raggruppamento. </span>
 
    * Fai clic su **Maiusc + Invio** sulla tastiera da qualsiasi colonna o riga della tabella. In questo modo viene aggiunta una riga vuota sotto il record iniziale.
    * Passa il puntatore del mouse sul campo principale di un record, fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del campo, quindi fai clic su **Inserisci record sopra** o **Inserisci record sotto**.

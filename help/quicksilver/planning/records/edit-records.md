@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 5f9f4d4f100557238d9ff8d7f571108de4341c75
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2305'
 ht-degree: 0%
 
 ---
@@ -139,6 +139,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 Quando si modificano i record dalla vista tabella, viene indicato quale campo viene modificato da altri utenti al momento della visualizzazione del record.
 
 Per ulteriori informazioni, vedere [Gestire le visualizzazioni dei record](/help/quicksilver/planning/views/manage-record-views.md).
+
+<span class="preview">Quando si aggiunge un nuovo record dopo l&#39;ultimo record di un raggruppamento o di un sottogruppo, Workfront aggiorna automaticamente i campi inclusi nei raggruppamenti per i nuovi record. Se necessario, è possibile modificare manualmente questi campi e i record potrebbero essere rimossi dal raggruppamento. </span>
+
+Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
 
 {{step1-to-planning}}
 

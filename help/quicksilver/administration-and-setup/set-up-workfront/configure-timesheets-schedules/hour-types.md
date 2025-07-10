@@ -9,9 +9,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: f35da9077b0422ba939ed9f6285835897f28874c
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '843'
 ht-degree: 1%
 
 ---
@@ -23,13 +23,14 @@ ht-degree: 1%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 **Linked to Creating Billing Record-->
 
-<div class="preview">
+<!--<div class="preview">
 
-Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti dopo una settimana dalla versione di anteprima.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
-Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
 </div>
+-->
 
 I tipi di ore sono etichette utilizzate per definire le ore inserite. È possibile associare i tipi di ore alle ore inserite.
 
@@ -165,11 +166,11 @@ Per disattivare un tipo di ora:
 1. Selezionare il tipo di ora che si desidera disattivare.
 
 
-1. <span class="preview">Fai clic su **Altro**, quindi su **Disattiva**.</span>
+1. Fai clic su **Altro**, quindi su **Disattiva**.
 
-   <span class="preview">![Attiva e disattiva collegamenti di tipo ora](assets/activate-and-deactivate-hour-type-links.png)</span>
+   ![Attiva e disattiva collegamenti di tipo ora](assets/activate-and-deactivate-hour-type-links.png)
 
-   <span class="preview">Il tipo di ora è disattivato e gli utenti non possono più trovarlo durante la registrazione delle ore.</span>
+   Il tipo di ora è disattivato e gli utenti non possono più trovarlo durante la registrazione delle ore.
 
-1. <span class="preview">(Facoltativo) Per riattivare un tipo di ora, selezionalo nell&#39;elenco **Tipi di ora**, quindi fai clic su **Altro** > **Attiva**. </span>
+1. (Facoltativo) Per riattivare un tipo di ora, selezionalo nell&#39;elenco **Tipi di ora**, quindi fai clic su **Altro** > **Attiva**.
 
