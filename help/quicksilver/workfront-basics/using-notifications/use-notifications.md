@@ -1,15 +1,15 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: "Utilizzare le notifiche: indice articolo"
+title: 'Utilizzare le notifiche: indice degli articoli'
 description: Leggi questi articoli per scoprire come utilizzare le notifiche in Adobe Workfront.
 author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c609c51d-df67-49bb-8fe3-8962a5270cc9
-source-git-commit: 90c4f33f988b2a303aa6ab11a797c90321c148af
+source-git-commit: 2768cb277a45493dc8eb9ffeca2c05b14d772382
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Questa sezione contiene i seguenti articoli:
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-basics/using-notifications/opt-out-of-email-notifications.md" class="MCXref xref" xrefformat="{para}">Opt out of email notifications</a> </li>
   -->
-
+* [Notifica evento: indice articolo](/help/quicksilver/workfront-basics/using-notifications/event-notifications-article-index.md)
 * [Notifiche: azione necessaria](../../workfront-basics/using-notifications/notifications-action-needed.md)
 * [Notifiche: informazioni sull’approvazione](../../workfront-basics/using-notifications/notifications-approval-information.md)
 * [Notifiche: comunicazione](../../workfront-basics/using-notifications/notifications-communication.md)
