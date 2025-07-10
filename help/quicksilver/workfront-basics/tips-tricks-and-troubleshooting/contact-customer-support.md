@@ -6,9 +6,9 @@ description: In qualità di cliente di Adobe Workfront, puoi contattare il team 
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 854b537e3a480d14a35bf7d17d1ed8ed1507660c
+source-git-commit: 008f96d52632f5f05554d63ae1c38cc37d21544b
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,39 @@ In qualità di cliente [!DNL Adobe Workfront], puoi contattare il team di Assist
 >[!NOTE]
 >
 >Per problemi critici, contattare l&#39;Assistenza clienti [!DNL Workfront] telefonicamente.
+
+## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">piano Adobe Workfront</td> 
+   <td>Qualsiasi</td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td><p>Nuovo: Standard</p>
+       <p>Oppure</p>
+       <p>Corrente: Piano</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td>Devi essere un amministratore di sistema.</td>
+  </tr> 
+ </tbody> 
+</table>
+
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Telefono
 
@@ -52,7 +85,7 @@ Puoi contattare [!DNL Workfront Customer Support] 7 giorni alla settimana, 24 or
 >Solo i contatti autorizzati del supporto (o gli utenti autorizzati al supporto) possono inviare ticket di supporto online.
 
 
-1. Dal sito Web [[!DNL Experience League]](https://experienceleague.adobe.com/it), fare clic su **[!UICONTROL Supporto]** nella parte superiore della pagina.
+1. Dal sito Web [[!DNL Experience League]](https://experienceleague.adobe.com), fare clic su **[!UICONTROL Supporto]** nella parte superiore della pagina.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 

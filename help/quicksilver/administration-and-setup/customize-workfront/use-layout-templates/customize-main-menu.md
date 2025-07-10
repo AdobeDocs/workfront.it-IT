@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: In qualità di amministratore di Adobe Workfront o di un gruppo, puoi utilizzare un modello di layout per configurare le opzioni che gli utenti visualizzano all’apertura del menu principale in Workfront.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: bb0c3139be903e34fd01be055010673764fe9787
+source-git-commit: 00ec13dfb082ecd9b087d79b385a4eea677cf55d
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 3%
@@ -118,13 +118,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
      >[!NOTE]
      >
-     >Planning richiede una licenza aggiuntiva. Per informazioni su Workfront Planning, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
-     > * Applicazione personalizzata
+     >Planning richiede una licenza aggiuntiva. Per informazioni su Workfront Planning, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+
+   * Applicazione personalizzata
 
      >[!NOTE]
      >
      > Le applicazioni personalizzate devono essere create separatamente prima di diventare disponibili come opzioni del menu principale. Per ulteriori informazioni, vedere [Creare un&#39;applicazione personalizzata per Workfront con Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
-
 
 1. Effettua una delle seguenti operazioni:
 
@@ -144,6 +144,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    >[!TIP]
    >
-   >Puoi fare clic su Salva in qualsiasi momento per salvare l’avanzamento, quindi continuare a modificare il modello in un secondo momento.
+   >Puoi fare clic su **Salva** in qualsiasi momento per salvare l&#39;avanzamento, quindi continuare a modificare il modello in un secondo momento.
 
 Per ulteriori informazioni sui modelli di layout, vedere [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
