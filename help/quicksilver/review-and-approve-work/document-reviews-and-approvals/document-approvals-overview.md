@@ -6,9 +6,9 @@ description: È possibile aggiungere ulteriori approvatori o revisori a un docum
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 9ede952041f89eca4ba324348880d7eb5f2bccd7
+source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '576'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 >
 >Il contenuto di questo articolo fa riferimento alla funzionalità di approvazione dei documenti aggiornata, disponibile solo per account specifici. Per informazioni sui processi di approvazione standard, vedere gli articoli elencati in [Approvazioni di lavoro](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
-Unified Approvals è una riprogettazione completa del processo di approvazione esistente attualmente in fase di sviluppo per Adobe Workfront. Attualmente disponibile in versione limitata, è progettato per essere una soluzione pratica ed efficace per le aziende che richiedono un coinvolgimento completo delle parti interessate e l’approvazione di documenti specifici per le versioni. Il design attento e le nuove funzioni mirate facilitano la collaborazione, la chiarezza dei ruoli e il controllo delle versioni nel processo di approvazione, migliorando l’efficienza e la responsabilità.
+Unified Approvals (Approvazioni unificate), precedentemente denominate New Document Approvals (Approvazioni di nuovi documenti), è una riprogettazione completa del processo di approvazione esistente attualmente in fase di sviluppo per Adobe Workfront. Attualmente disponibile in versione limitata, è progettato per essere una soluzione pratica ed efficace per le aziende che richiedono un coinvolgimento completo delle parti interessate e l’approvazione di documenti specifici per le versioni. Il design attento e le nuove funzioni mirate facilitano la collaborazione, la chiarezza dei ruoli e il controllo delle versioni nel processo di approvazione, migliorando l’efficienza e la responsabilità.
 
 ## Differenze chiave rispetto alle approvazioni di bozze e documenti legacy
 
