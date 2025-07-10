@@ -85,7 +85,7 @@ Puoi contattare [!DNL Workfront Customer Support] 7 giorni alla settimana, 24 or
 >Solo i contatti autorizzati del supporto (o gli utenti autorizzati al supporto) possono inviare ticket di supporto online.
 
 
-1. Dal sito Web [[!DNL Experience League]](https://experienceleague.adobe.com), fare clic su **[!UICONTROL Supporto]** nella parte superiore della pagina.
+1. Dal sito Web [[!DNL Experience League]](https://experienceleague.adobe.com/it), fare clic su **[!UICONTROL Supporto]** nella parte superiore della pagina.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
