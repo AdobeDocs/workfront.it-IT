@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: d41bb7beb4879bcef224b0234b1c024eb16c9bd6
+source-git-commit: 5b984451d19ed0381c75c4fa19f3eba16804fbf5
 workflow-type: tm+mt
-source-wordcount: '2647'
+source-wordcount: '2666'
 ht-degree: 3%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 3%
 -->
 
 Quando si verifica un&#39;azione su un oggetto Adobe Workfront supportato dalle sottoscrizioni di eventi, puoi configurare Workfront per inviare una risposta all&#39;endpoint desiderato. Ciò significa che le applicazioni di terze parti possono ricevere aggiornamenti dalle interazioni Workfront tramite l’API Workfront subito dopo che si verificano. In generale, puoi aspettarti di ricevere le notifiche del webhook in meno di 5 secondi dalla registrazione della modifica dei dati. In media, i clienti ricevono le notifiche dei webhook in meno di 1 secondo dalla registrazione della modifica dei dati.
+
+Poiché le sottoscrizioni di eventi inviano dati a un altro servizio, vengono gestite tramite comandi anziché tramite l&#39;applicazione Workfront.
 
 Per ricevere i payload degli abbonamenti agli eventi tramite il firewall, è necessario aggiungere i seguenti indirizzi IP al inserisco nell&#39;elenco Consentiti di accesso agli eventi:
 
@@ -808,7 +810,7 @@ Questo connettore applica il filtro al nuovo stato o al vecchio stato dell’ogg
 >[!NOTE]
 >
 >La sottoscrizione seguente con il filtro specificato restituirà solo i messaggi in cui il nome dell&#39;attività contiene `again` per `oldState`, ovvero ciò che si trovava prima di un aggiornamento dell&#39;attività.
->&#x200B;>Un caso d’uso per questo potrebbe essere quello di trovare i messaggi objCode che sono cambiati da una cosa all’altra. Ad esempio, per individuare tutte le attività che sono cambiate da &quot;Cerca nome&quot; a &quot;Cerca nome team&quot;
+>>Un caso d’uso per questo potrebbe essere quello di trovare i messaggi objCode che sono cambiati da una cosa all’altra. Ad esempio, per individuare tutte le attività che sono cambiate da &quot;Cerca nome&quot; a &quot;Cerca nome team&quot;
 
 ```
 {
