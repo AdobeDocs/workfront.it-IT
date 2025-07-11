@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 7549c9699a86b6f87e5562efd7e586be282c5619
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1763'
 ht-degree: 0%
 
 ---
@@ -210,9 +210,12 @@ Per informazioni, vedere [Configurare i ricalcoli della sequenza temporale per i
 
 Per l’ambiente Sandbox di aggiornamento personalizzato, il ricalcolo notturno è disattivato e le timeline del progetto non vengono ricalcolate automaticamente. È necessario ricalcolare manualmente la timeline del progetto per l’ambiente Sandbox di aggiornamento personalizzato. Per informazioni, vedere [Ricalcolare i timeline del progetto](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
+
 ## Uso previsto e disponibilità
 
 * Gli ambienti sandbox di aggiornamento personalizzati di [!DNL Workfront] non sono destinati a test delle prestazioni o del carico. Piuttosto, utilizza questi ambienti per convalidare le funzionalità con i flussi di lavoro esistenti della tua organizzazione.
+
+* I flussi di lavoro che coinvolgono i documenti devono concentrarsi sul processo e non sul test di carico. I file di grandi dimensioni non sono supportati negli ambienti Sandbox.
 
 * Gli ambienti sandbox di aggiornamento personalizzati di [!DNL Workfront] devono essere sempre disponibili. Qualsiasi interruzione in un ambiente Sandbox di aggiornamento personalizzato Workfront durante il normale orario di lavoro sarà una priorità assoluta subito dopo la risoluzione di eventuali problemi di produzione. In caso di interruzione di un ambiente Sandbox di aggiornamento personalizzato di Workfront nei fine settimana (sabato e domenica), verrà risolto il problema in modo che l’ambiente sia in esecuzione per l’orario di lavoro di lunedì.
 

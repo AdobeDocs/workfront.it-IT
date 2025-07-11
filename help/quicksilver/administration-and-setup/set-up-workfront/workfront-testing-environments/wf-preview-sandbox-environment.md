@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 7549c9699a86b6f87e5562efd7e586be282c5619
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1302'
 ht-degree: 0%
 
 ---
@@ -179,12 +179,15 @@ Per informazioni, vedere [Configurare i ricalcoli della sequenza temporale per i
 
 Per l’ambiente di anteprima, il ricalcolo notturno è disattivato e le timeline del progetto non vengono ricalcolate automaticamente. È necessario ricalcolare manualmente la timeline del progetto per l’ambiente di anteprima. Per informazioni, vedere [Ricalcolare i timeline del progetto](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
+
 ## Anteprima delle prestazioni e della disponibilità dell’ambiente
 
-Gli ambienti di anteprima [!DNL Workfront] non sono destinati a test delle prestazioni o del carico. Piuttosto, utilizza questi ambienti per convalidare le funzionalità con i flussi di lavoro esistenti della tua organizzazione.
+* Gli ambienti di anteprima [!DNL Workfront] non sono destinati a test delle prestazioni o del carico. Piuttosto, utilizza questi ambienti per convalidare le funzionalità con i flussi di lavoro esistenti della tua organizzazione.
 
-Gli ambienti di anteprima [!DNL Workfront] devono essere sempre disponibili.
+* I flussi di lavoro che coinvolgono i documenti devono concentrarsi sul processo e non sul test di carico. I file di grandi dimensioni non sono supportati negli ambienti Sandbox.
 
-Qualsiasi interruzione in un ambiente di anteprima [!DNL Workfront] durante il normale orario di lavoro sarà una priorità assoluta subito dopo la risoluzione di eventuali problemi di produzione.
+* Gli ambienti di anteprima [!DNL Workfront] devono essere sempre disponibili.
 
-Eventuali interruzioni di un ambiente di anteprima [!DNL Workfront] nei fine settimana (sabato e domenica) verranno risolte in modo che l&#39;ambiente sia in esecuzione per l&#39;orario di lavoro di lunedì.
+* Qualsiasi interruzione in un ambiente di anteprima [!DNL Workfront] durante il normale orario di lavoro sarà una priorità assoluta subito dopo la risoluzione di eventuali problemi di produzione.
+
+* Eventuali interruzioni di un ambiente di anteprima [!DNL Workfront] nei fine settimana (sabato e domenica) verranno risolte in modo che l&#39;ambiente sia in esecuzione per l&#39;orario di lavoro di lunedì.
