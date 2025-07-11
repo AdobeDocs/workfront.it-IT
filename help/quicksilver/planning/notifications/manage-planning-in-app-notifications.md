@@ -1,14 +1,14 @@
 ---
 title: Gestione delle notifiche in-app di Adobe Workfront Planning
-description: Quando qualcuno ti assegna un tag in un commento del record, ricevi una notifica e-mail per quel tag.
+description: Quando qualcuno assegna un tag a te o ai tuoi team in un commento del record, ricevi una notifica e-mail per quel tag.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '449'
 ht-degree: 1%
 
 ---

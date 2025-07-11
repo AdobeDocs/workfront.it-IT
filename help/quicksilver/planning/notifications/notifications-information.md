@@ -1,14 +1,14 @@
 ---
 title: 'Notifiche di Adobe Workfront Planning: indice articolo'
-description: Puoi ricevere un’e-mail o una notifica in-app quando qualcuno ti assegna i tag in un commento del record o ti richiede o ti concede le autorizzazioni per una visualizzazione o un’area di lavoro. Negli articoli seguenti vengono descritti i tipi di notifiche di Workfront Planning che possono essere ricevute e le modalità di gestione delle preferenze di notifica.
+description: Puoi ricevere un’e-mail o una notifica in-app quando qualcuno assegna un tag a te o ai tuoi team in un commento del record oppure ti richiede o concede le autorizzazioni per una visualizzazione o un’area di lavoro. Negli articoli seguenti vengono descritti i tipi di notifiche di Workfront Planning che possono essere ricevute e le modalità di gestione delle preferenze di notifica.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 9c2f5b14-77c5-42fd-83ad-acbe7da801bd
-source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Puoi ricevere un’e-mail o una notifica in-app quando qualcuno ti assegna i tag in un commento del record o ti richiede o ti concede le autorizzazioni per una visualizzazione o un’area di lavoro.
+Puoi ricevere un’e-mail o una notifica in-app quando qualcuno assegna un tag a te o ai tuoi team in un commento del record oppure ti richiede o concede le autorizzazioni per una visualizzazione o un’area di lavoro.
 
 Nei seguenti articoli viene descritto il tipo di notifiche di Workfront Planning che è possibile ricevere e come gestire le preferenze:
 
