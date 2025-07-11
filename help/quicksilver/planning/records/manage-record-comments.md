@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
@@ -120,9 +120,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
   Ad esempio, i commenti aggiunti ai progetti in Workfront non vengono visualizzati sullo stesso progetto collegato a una campagna in Workfront Planning e i commenti aggiunti al record di pianificazione del progetto Workfront non vengono visualizzati in Workfront.
 
-* Puoi assegnare tag agli utenti per attirare la loro attenzione su un aggiornamento. Gli utenti taggati non ricevono una notifica in-app o un’e-mail relativa all’aggiornamento. <!--this might change??-->
-
-* Puoi assegnare tag agli utenti per attirare la loro attenzione su un aggiornamento. Gli utenti taggati ricevono una notifica in-app o una notifica e-mail relativa all’aggiornamento.
+* Puoi assegnare tag a utenti o team per attirare l’attenzione su un aggiornamento. Sia gli utenti taggati singolarmente che quelli dei team taggati ricevono una notifica in-app e un’e-mail sull’aggiornamento.
 
   >[!NOTE]
   >
@@ -162,7 +160,7 @@ Viene visualizzata la pagina del tipo di record e vengono visualizzati tutti i r
 1. (Facoltativo) Per annullare o ripristinare una modifica, utilizzare i seguenti tasti di scelta rapida:
    * CTRL + Z (⌘+z per Mac) per annullare una modifica
    * CTRL + Y (⌘+y per Mac) per ripetere una modifica
-1. (Facoltativo e condizionale) Se l&#39;istanza di Workfront fa parte di Adobe Unified Experience, aggiungi **@** seguito dal nome di un utente per assegnare un tag a qualcuno nell&#39;aggiornamento. Per ulteriori informazioni, vedere la sezione [Considerazioni sull&#39;inserimento di commenti in un record](#considerations-about-commenting-on-a-record) in questo articolo.
+1. (Facoltativo e condizionale) Se l&#39;istanza di Workfront fa parte di Adobe Unified Experience, aggiungi **@** seguito dal nome di un utente o di un team per assegnare loro il tag nell&#39;aggiornamento. Per ulteriori informazioni, vedere la sezione [Considerazioni sull&#39;inserimento di commenti in un record](#considerations-about-commenting-on-a-record) in questo articolo.
 
 1. (Facoltativo) Utilizza le opzioni nella barra degli strumenti Testo formattato per formattare il testo, aggiungere emoticon o collegamenti all’aggiornamento per migliorare il contenuto.
 

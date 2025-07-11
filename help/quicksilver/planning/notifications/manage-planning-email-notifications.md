@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '668'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 È possibile ricevere notifiche e-mail da Workfront Planning quando si verificano i seguenti scenari:
 
-* Qualcuno ti assegna un tag in un commento record
+* Qualcuno assegna un tag a te o ai tuoi team in un commento record
 
   Per informazioni sull&#39;assegnazione di tag ad altri utenti in un commento record, vedere [Gestire i commenti record](/help/quicksilver/planning/records/manage-record-comments.md).
 * Qualcuno richiede l’autorizzazione per accedere a una vista o a un’area di lavoro
@@ -161,7 +161,7 @@ OLD:
 
 ## Gestisci le notifiche e-mail quando qualcuno ti assegna i tag in un commento
 
-1. (Condizionale e facoltativo) Dopo che un utente ti ha contrassegnato un commento su un record, vai alla notifica e-mail che ti informa del tag e del commento. Il mittente dell’e-mail è Adobe Experience Cloud.
+1. (Condizionale e facoltativo) Dopo che un utente ha aggiunto un tag a te o al tuo team in un commento di un record, vai alla notifica e-mail che ti informa del tag e del commento. Il mittente dell’e-mail è Adobe Experience Cloud.
 
    ![Esempio di notifiche e-mail](assets/email-notification-example.png)
 

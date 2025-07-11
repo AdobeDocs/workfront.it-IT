@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: ccd0f65f064b5e55b6b5b94b27e25facfe50502f
+source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
 workflow-type: tm+mt
-source-wordcount: '2078'
+source-wordcount: '2148'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,15 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 <!--keep the sentence below for all future quarterly release pages-->
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Aggiungere notifiche per gli utenti del team quando il team viene aggiunto a un commento del record
+
+Anteprima: 10 luglio 2025
+Produzione per tutti: 10 luglio 2025
+
+Ora, quando si aggiunge un team a un commento record in Workfront Planning, tutti i membri del team ricevono una notifica in-app e un messaggio e-mail relativo al commento. Prima di questo miglioramento, solo gli utenti aggiunti ai commenti singolarmente ricevevano una notifica .
+
+Per informazioni, vedere Gestire i commenti ai record [Gestire i commenti ai record](/help/quicksilver/planning/records/manage-record-comments.md).
 
 ## Compila automaticamente i campi in base ai raggruppamenti applicati
 
@@ -77,7 +86,7 @@ Per rendere più sicura e semplice la condivisione di un modulo di richiesta in 
 * Abbiamo rimosso le opzioni di gestione e contribuzione per gli utenti con cui condividi il modulo di richiesta. Ora gli utenti aggiunti possono solo inviare il modulo.
 * La scheda Condivisione pubblica ora visualizza il campo Collegamento e data di scadenza solo dopo l’abilitazione dell’opzione Crea collegamento pubblico.
 
-Per ulteriori informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](https://experienceleague.adobe.com/it/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Per ulteriori informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Espandere e comprimere tutti i raggruppamenti nella vista tabella
 
@@ -295,7 +304,7 @@ Prima di questo miglioramento, gli utenti con tutti i livelli di licenza dovevan
 >[!NOTE]
 >
 >Questa modifica sarà visibile per tutti gli utenti nuovi ed esistenti con una licenza Amministratore di sistema e Standard.
->&#x200B;>Gli utenti esistenti assegnati a un modello di layout continueranno a visualizzare tutto in base alle impostazioni definite nel modello di layout.
+>>Gli utenti esistenti assegnati a un modello di layout continueranno a visualizzare tutto in base alle impostazioni definite nel modello di layout.
 
 Per informazioni, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 

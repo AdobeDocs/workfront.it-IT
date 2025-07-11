@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '446'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 È possibile ricevere notifiche in-app da Workfront Planning quando si verificano i seguenti scenari:
 
-* Qualcuno ti assegna un tag in un commento record
+* Qualcuno assegna un tag a te o ai tuoi team in un commento record
 
   Per informazioni sull&#39;assegnazione di tag ad altri utenti in un commento record, vedere [Gestire i commenti record](/help/quicksilver/planning/records/manage-record-comments.md).
 * Qualcuno richiede l’autorizzazione per accedere a una vista o a un’area di lavoro
@@ -160,7 +160,7 @@ OLD:
 
 ## Gestire le notifiche in-app quando qualcuno ti assegna i tag in un commento
 
-1. (Condizionale) Dopo che un utente ti ha contrassegnato in un commento su un record, passa all&#39;icona in-app **Notifiche** ![Icona notifiche Experience Cloud](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud.
+1. (Condizionale) Dopo che un utente ha aggiunto un tag a te o ai tuoi team in un commento su un record, passa all&#39;icona **Notifiche** in-app ![Icona notifiche Experience Cloud](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud.
 
    ![Esempio di notifica in-app](assets/in-app-notification-example.png)
 
