@@ -7,23 +7,58 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: ba9256255905e139c281099555a6d129fc570984
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
 
 # Informazioni sulla versione beta delle dashboard di Canvas
 
-Le dashboard di Canvas sono una funzione attualmente in fase di sviluppo che consente di visualizzare facilmente i dati di Adobe Workfront aggiungendo vari tipi di rapporti a un’area di lavoro personalizzabile. Tieni presente che, nonostante la tua partecipazione durante la fase di test della versione beta, alcune parti della funzione potrebbero non essere complete o non funzionare come previsto. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Fornisci feedback](#provide-feedback) di seguito.
-
-Per informazioni di base sull&#39;utilizzo dei dashboard di Canvas, vedere [Introduzione ai dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
-Per un elenco di tutta la documentazione relativa ai dashboard di Canvas, vedere [Panoramica dei dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
-
 >[!NOTE]
 >
 >Canvas Dashboards è attualmente in fase di test beta chiuso ed è pertanto soggetto a frequenti modifiche.
+
+Le dashboard di Canvas sono una funzione attualmente in fase di sviluppo che consente di visualizzare facilmente i dati di Adobe Workfront aggiungendo vari tipi di rapporti a un’area di lavoro personalizzabile.
+
+Tieni presente che, nonostante la tua partecipazione durante la fase di test della versione beta, alcune parti della funzione potrebbero non essere complete o non funzionare come previsto. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Fornisci feedback](#provide-feedback) di seguito.
+
+## Requisiti di accesso
+
++++ Espandere per visualizzare i requisiti di accesso.
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>piano Adobe Workfront</p></td> 
+   <td> 
+<p>Qualsiasi </p> 
+   </td> 
+<tr> 
+ <tr> 
+   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td> 
+<p>Corrente: Piano </p> 
+<p>Nuovo: Standard</p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configurazioni del livello di accesso</p></td> 
+   <td><p>Modificare l’accesso a rapporti, dashboard e calendari</p>
+  </td> 
+  </tr>  
+</tbody> 
+</table>
+
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
++++
+
 
 ## Iscriviti alla versione beta
 
@@ -49,29 +84,3 @@ Il feedback è apprezzato durante lo sviluppo di questo strumento nel corso dell
 
 1. Fai clic su **Invia**.
 
-## Funzioni pianificate
-
-Di seguito è riportato un elenco dei tipi di rapporto attualmente supportati nella versione beta, nonché di altre funzioni che prevediamo di aggiungere alle dashboard di Canvas nel corso della versione beta e oltre.
-
-### Tipi di rapporti supportati
-
-* Rapporti esistenti (rapporti creati utilizzando lo strumento di reporting corrente)
-* Rapporti grafico
-* Rapporti KPI
-* Rapporti sulle tabelle
-* Rapporti approvazioni in sospeso
-
-### Funzioni in fase di sviluppo
-
-* Caratteri jolly basati su data e utente per i filtri
-* Rapporti di Workfront Planning
-* Tipi di oggetto Workfront aggiuntivi
-* Rapporti Bacheche
-* Altri miglioramenti a livello di usabilità
-* Fogli di lavoro
-* Contenuto web incorporato
-
-### Funzioni future della roadmap
-
-* Richieste a livello di dashboard
-* Supporto valutario
