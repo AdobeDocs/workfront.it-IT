@@ -6,9 +6,9 @@ description: Il pannello di navigazione sinistro in [!DNL Workfront] semplifica 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
+source-git-commit: 297a8bc1a59fab42d96ec3479451c2f82f5c3dc1
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1385'
 ht-degree: 1%
 
 ---
@@ -239,7 +239,7 @@ Trovare e modificare le informazioni nel pannello a sinistra è simile per quest
 
 Per informazioni sulle sezioni disponibili per aree specifiche, vedere [[!UICONTROL Sezioni predefinite] nel pannello di navigazione a sinistra](#default-sections-in-the-left-navigation-panel).
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon-16x12.png) del **[!UICONTROL menu principale]**, quindi fai clic sul nome di un oggetto per accedervi.
+1. Fai clic sull&#39;icona **[!UICONTROL del]** menu principale![](assets/main-menu-icon-16x12.png), quindi fai clic sul nome di un oggetto per accedervi.
 
    Viene visualizzata la pagina oggetto.
 
@@ -265,9 +265,7 @@ Per informazioni sulle sezioni disponibili per aree specifiche, vedere [[!UICONT
       >
       >È necessario creare il dashboard prima che venga visualizzato nell&#39;elenco.
 
-   1. Fare clic su **[!UICONTROL Aggiungi]**.
-
-      Il collegamento del dashboard viene visualizzato nella parte inferiore del pannello sinistro.
+1. (Facoltativo) Per rimuovere un collegamento rapido a un dashboard, passa il cursore del mouse sul dashboard nell&#39;area di navigazione a sinistra, quindi fai clic sull&#39;icona **Rimuovi** ![Rimuovi icona](assets/remove-dashboard-from-left.png) quando viene visualizzata.
 
 1. (Facoltativo) Per modificare l&#39;ordine di una sezione nel pannello di sinistra, fare clic sull&#39;icona **[!UICONTROL Trascina]** ![](assets/drag-icon.png) a destra di una sezione e trascinarla verso l&#39;alto o verso il basso.
 
