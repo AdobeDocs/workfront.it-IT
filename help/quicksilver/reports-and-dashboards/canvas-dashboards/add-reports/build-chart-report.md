@@ -6,7 +6,7 @@ description: È possibile aggiungere a un dashboard di Canvas un report di grafi
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -68,7 +68,7 @@ Sono disponibili molte opzioni di configurazione per la creazione di un rapporto
 
 1. Nel pannello a sinistra, fai clic su **Dashboard Canvas**.
 
-1. Fai clic su **Nuovo dashboard** nell&#39;angolo in alto a destra.
+1. Fai clic su **Nuovo dashboard** nell&#39;angolo superiore destro.
 
 1. Nella casella **Crea dashboard** immettere il **Nome** e la **Descrizione** del dashboard.
 
@@ -140,12 +140,11 @@ Sono disponibili molte opzioni di configurazione per la creazione di un rapporto
 
 In questa sezione verranno descritti i passaggi necessari per creare un istogramma in cui vengano visualizzate le attività scadute per proprietario del progetto.
 
-
 {{step1-to-dashboards}}
 
 1. Nel pannello a sinistra, fai clic su **Dashboard Canvas**.
 
-1. Fai clic su **Nuovo dashboard** nell&#39;angolo in alto a destra.
+1. Fai clic su **Nuovo dashboard** nell&#39;angolo superiore destro.
 
 1. Nella casella **Crea dashboard** immettere il **Nome** e la **Descrizione** del dashboard.
 

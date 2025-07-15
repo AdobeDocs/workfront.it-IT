@@ -6,9 +6,9 @@ description: I rapporti creati tramite lo strumento Rapporti di Adobe Workfront 
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 {{step1-to-dashboards}}
 
 1. Nel pannello a sinistra, fai clic su **Dashboard Canvas**.
+
+1. Fai clic su **Nuovo dashboard** nell&#39;angolo superiore destro.
 
 1. Nella casella **Crea dashboard** immettere il **Nome** e la **Descrizione** del dashboard.
 

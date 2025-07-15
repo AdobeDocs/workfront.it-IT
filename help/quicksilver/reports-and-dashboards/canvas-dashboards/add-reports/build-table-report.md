@@ -6,7 +6,7 @@ description: Puoi aggiungere un rapporto di tabella a un dashboard di Canvas per
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 0%
@@ -68,7 +68,7 @@ Sono disponibili molte opzioni di configurazione per la creazione di un rapporto
 
 1. Nel pannello a sinistra, fai clic su **Dashboard Canvas**.
 
-1. Fai clic su **Nuovo dashboard** nell&#39;angolo in alto a destra.
+1. Fai clic su **Nuovo dashboard** nell&#39;angolo superiore destro.
 
 1. Nella casella **Crea dashboard** immettere il **Nome** e la **Descrizione** del dashboard.
 
@@ -78,7 +78,7 @@ Sono disponibili molte opzioni di configurazione per la creazione di un rapporto
 
 1. Sul lato sinistro, selezionare **Tabella**.
 
-1. Nell&#39;angolo in alto a destra, fai clic su **Crea rapporto**.
+1. Nell&#39;angolo superiore destro fare clic su **Crea report**.
 
 1. (Facoltativo) Segui i passaggi seguenti per configurare la sezione **Dettagli**:
 

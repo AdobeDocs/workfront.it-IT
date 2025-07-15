@@ -6,7 +6,7 @@ description: È possibile aggiungere a un dashboard Canvas un rapporto KPI che v
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -68,7 +68,7 @@ Sono disponibili molte opzioni di configurazione per la creazione di un rapporto
 
 1. Nel pannello a sinistra, fai clic su **Dashboard Canvas**.
 
-1. Fai clic su **Nuovo dashboard** nell&#39;angolo in alto a destra.
+1. Fai clic su **Nuovo dashboard** nell&#39;angolo superiore destro.
 
 1. Nella casella **Crea dashboard** immettere il **Nome** e la **Descrizione** del dashboard.
 
@@ -78,7 +78,7 @@ Sono disponibili molte opzioni di configurazione per la creazione di un rapporto
 
 1. Sul lato sinistro, selezionare **KPI**.
 
-1. Nell&#39;angolo in alto a destra, fai clic su **Crea rapporto**.
+1. Nell&#39;angolo superiore destro fare clic su **Crea report**.
 
 1. Segui i passaggi seguenti per configurare la sezione **Dettagli**:
 
@@ -86,8 +86,8 @@ Sono disponibili molte opzioni di configurazione per la creazione di un rapporto
    1. Immetti un rapporto **Descrizione**.
 
       >[!NOTE]
-      > 
-      > La descrizione verrà utilizzata come didascalia sotto il valore dell’indicatore KPI. Se non si immette una descrizione, verrà generata automaticamente una didascalia in base all&#39;aggregatore e al tipo di aggregazione selezionati nei passaggi seguenti.
+      >
+      >La descrizione verrà utilizzata come didascalia sotto il valore dell’indicatore KPI. Se non si immette una descrizione, verrà generata automaticamente una didascalia in base all&#39;aggregatore e al tipo di aggregazione selezionati nei passaggi seguenti.
 
 1. Segui i passaggi seguenti per configurare la sezione **Genera KPI**:
 

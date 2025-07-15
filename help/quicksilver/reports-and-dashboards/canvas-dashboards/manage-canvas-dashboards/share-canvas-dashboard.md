@@ -6,9 +6,9 @@ description: Puoi condividere un dashboard di Canvas con altri utenti di Adobe W
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -23,30 +23,39 @@ Puoi condividere un dashboard di Canvas con altri utenti di Adobe Workfront in m
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandere per visualizzare i requisiti di accesso.
 
 <table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td>Qualsiasi</td> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>piano Adobe Workfront</p></td> 
+   <td> 
+<p>Qualsiasi </p> 
+   </td> 
+<tr> 
+ <tr> 
+   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td> 
+<p>Corrente: Piano </p> 
+<p>Nuovo: Standard</p> 
+   </td> 
+   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td>Nuovo: Standard
-   <p>oppure</p>
-   <p>Corrente: Piano</p></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>È necessario disporre dell'accesso di modifica per le dashboard.</p></td> 
-  </tr> 
- </tbody> 
+   <td role="rowheader"><p>Configurazioni del livello di accesso</p></td> 
+   <td><p>Modificare l’accesso a rapporti, dashboard e calendari</p>
+  </td> 
+  </tr>  
+</tbody> 
 </table>
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
++++
+
 
 ## Condividere un dashboard Canvas
 
@@ -56,7 +65,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Fai clic sul pulsante **Condividi** nell&#39;angolo superiore destro della pagina.
 
-1. Nel campo **Concedi l&#39;accesso a:** della finestra **Condivisione dashboard** visualizzata, inizia a digitare i nomi di utenti, team, ruoli, gruppi o società specifici nell&#39;istanza di Workfront con cui desideri condividere il dashboard di Canvas. Quando il nome che stai cercando viene visualizzato nell’elenco di completamento automatico sotto il campo, fai clic su di esso per aggiungerlo all’elenco dei destinatari desiderati.
+1. Nel campo **Concedi l&#39;accesso a:** della casella **Condivisione dashboard** visualizzata, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo o della società con cui si desidera condividere il dashboard di Canvas, quindi selezionalo quando viene visualizzato nell&#39;elenco seguente.
 
 1. (Facoltativo) Dopo aver aggiunto un’entità all’elenco dei destinatari desiderati, puoi modificare il tipo di accesso che riceveranno da questo dashboard dell’area di lavoro. Per impostazione predefinita, ricevono solo l&#39;accesso **Visualizza**, ma puoi concedere l&#39;accesso Gestisci facendo clic su **Visualizza >** accanto all&#39;entità, quindi selezionando **Gestisci** nell&#39;elenco a discesa. Tieni presente che il livello di accesso di alcune entità non può essere modificato, ad esempio gli amministratori.
 
