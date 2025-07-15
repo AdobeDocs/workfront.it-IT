@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3d24c7ac7c88aacd51c1c85c8ee20c69c627a014
+source-git-commit: e4f4c3502281ed46bb865faa401a0d2058a5e6cd
 workflow-type: tm+mt
-source-wordcount: '5168'
+source-wordcount: '5214'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,14 @@ In questa pagina sono elencati gli aggiornamenti dell’interfaccia che stiamo a
 Per tutte le altre modifiche apportate ad Adobe Workfront, vedi [Versioni del prodotto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Amministrazione e configurazione
+
+### Aggiornamenti dell’interfaccia alla scheda Portfolio in un gruppo
+
+**Anteprima: 10 luglio 2025; produzione per tutti: 17 luglio 2025**
+
+La pagina Portfolio nel pannello a sinistra di un gruppo è stata aggiornata per corrispondere ad altre aree dell’applicazione.
+
+Per visualizzare queste modifiche, vai a Configurazione > Gruppi > seleziona un gruppo > Porzioni.
 
 ### Aggiornamenti dell’interfaccia alle finestre di dialogo dei sottogruppi
 
