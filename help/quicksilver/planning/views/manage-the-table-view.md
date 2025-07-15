@@ -1,14 +1,14 @@
 ---
 title: Gestire la vista tabella
-description: È possibile visualizzare i record e i relativi campi in una vista tabella quando si accede alla pagina del tipo di record in Adobe Workfront Planning. Questo articolo descrive come creare o modificare una modifica della vista tabella e come abilitare gli indicatori di presenza in tempo reale per la vista o come esportarla in un file CSV o Excel.
+description: È possibile visualizzare i record e i relativi campi in una vista tabella quando si accede alla pagina del tipo di record in Adobe Workfront Planning. In questo articolo viene descritto come creare o modificare una modifica della vista tabella e come abilitare gli indicatori di presenza in tempo reale per la vista.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
 workflow-type: tm+mt
-source-wordcount: '3758'
+source-wordcount: '3446'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,8 @@ Questo articolo descrive le seguenti informazioni:
 
 * [Creare o modificare colonne e righe in una vista tabella](#manage-a-table-view)
 * [Abilita indicatori di presenza in tempo reale per la vista tabella](#enable-the-real-time-presence-indicator)
-* <span class="preview">[Esportare una visualizzazione tabella in un file CSV o Excel](#export-the-table-view)</span>
+
+Per informazioni sull&#39;esportazione della vista tabella in un file Excel o CSV, vedere [Esportare i record dalla vista tabella](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
 
 ## Requisiti di accesso
 
@@ -558,57 +559,5 @@ Quando si visualizza la vista tabella, è inoltre possibile visualizzare il camp
 
 <div class="preview">
 
-## Esportare la vista tabella
 
-È possibile esportare le informazioni nella vista tabella in un file CSV o Excel.
-
-Quando esportate la vista tabella, tenete presente quanto segue:
-
-* Le informazioni esportate in un file di Excel mantengono i filtri, i raggruppamenti e gli ordinamenti applicati alla vista tabella in Workfront Planning. I raggruppamenti non sono visibili nel file CSV.
-
-* Le miniature e i colori di riga personalizzati non sono supportati nei file esportati.
-
-* Vengono esportati solo i campi resi visibili nell’interfaccia di Workfront. I campi nascosti non vengono esportati.
-
-Per esportare informazioni dalla vista tabella o da un tipo di record:
-
-1. Passare a una pagina del tipo di record e fare clic su una scheda della vista tabella.
-1. Esegui una delle operazioni seguenti:
-
-   * Passa il puntatore del mouse sul nome della scheda di visualizzazione della tabella, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Esporta**.
-
-   ![Altro menu in una visualizzazione](assets/view-more-menu-with-duplicate-option.png)
-
-   * Fai clic su **Condividi** > **Esporta la visualizzazione corrente**. Questa opzione è disponibile solo quando viene visualizzata la vista tabella.
-
-   ![Pulsante Condividi con tipo di record e opzioni di condivisione della visualizzazione](assets/share-button-with-record-type-and-view-sharing-options.png)
-
-1. Selezionare uno dei formati seguenti:
-
-   * **Excel**
-   * **CSV**
-
-   >[!IMPORTANT]
-   >
-   >Non è possibile esportare informazioni dalla vista tabella quando si visualizza una vista diversa sullo schermo. Per accedere all&#39;opzione Esporta nel menu Altro, è necessario visualizzare la vista tabella che si desidera esportare.
-
-   Il file viene scaricato nel computer.
-
-1. (Facoltativo) Vai alla cartella dei download sul tuo computer e trova il file scaricato.
-
-   Il nome del file esportato è nel seguente formato:
-
-   `Name of the view - name of the record type`
-
-   Ad esempio, una visualizzazione tabella per il tipo di record Campagne genera un file denominato `Table view - Campaigns`.
-
-   Nel file vengono visualizzate le seguenti informazioni:
-
-   * Le intestazioni di colonna sono evidenziate in nero nel file Excel
-   * Tutti i campi visibili nell’interfaccia di Workfront, ordinati e filtrati in base agli stessi criteri
-   * I raggruppamenti vengono mantenuti nel file di Excel
-
-   È ora possibile condividere i file esportati con altri utenti o allegarli a qualsiasi comunicazione.
-
-</div>
 
