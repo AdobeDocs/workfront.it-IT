@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Puoi utilizzare un modello di layout per configurare ciò che gli utenti visualizzano quando fanno clic su un’attività o un problema nel Riepilogo. Ogni configurazione effettuata seguendo la procedura riportata di seguito ha effetto sul pannello Riepilogo. Queste personalizzazioni non sono applicabili al pannello Riepilogo documento.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 2%
@@ -154,7 +154,7 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
       <td>Visualizza nel pannello Riepilogo tutti gli aggiornamenti apportati a un’attività o a un problema selezionato. Ciò include sia gli aggiornamenti di sistema che quelli effettuati da un utente. Gli utenti possono ancora filtrare gli aggiornamenti di sistema, come descritto in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">Abilitare o disabilitare gli aggiornamenti di sistema</a> in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Aggiorna lavoro</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Tempo di connessione rispetto al lavoro</td> 
+      <td role="rowheader">Registra ore per lavoro</td> 
       <td>Visualizza l'opzione Registra tempo rispetto al lavoro quando si seleziona un'attività o un problema, consentendo agli utenti di registrare il tempo sugli elementi di lavoro direttamente dall'area Home e Riepilogo.</td> 
      </tr> 
      <tr> 

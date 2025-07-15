@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: In qualità di amministratore di Adobe Workfront, puoi utilizzare un modello di layout per modificare le etichette di alcuni oggetti visualizzati in Workfront in modo che corrispondano ai termini utilizzati nell’organizzazione.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 2%
@@ -25,7 +25,7 @@ Dopo aver salvato un modello di layout in cui è stata modificata la terminologi
 * Tutte le aree a cui si accede dal menu principale
 * Tutte le schede
 * Tutti i menu
-* Elementi di Report Builder e reporting (visualizzazioni, filtri e raggruppamenti)
+* Report Builder ed elementi di reporting (visualizzazioni, filtri e raggruppamenti)
 * Pulsanti Salva
 * File esportati
 * E-mail

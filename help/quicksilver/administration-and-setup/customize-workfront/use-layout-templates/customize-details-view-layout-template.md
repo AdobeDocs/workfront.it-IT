@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: In qualità di amministratore di Workfront, puoi utilizzare un modello di layout per determinare quali informazioni vengono visualizzate quando un utente seleziona la sezione Dettagli nel pannello a sinistra durante la visualizzazione di un’attività, un problema, un documento, un programma o un portfolio.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -100,7 +100,7 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
 ## Personalizzare gli elementi visualizzati dagli utenti nella visualizzazione Dettagli
 
 1. Iniziare a lavorare su un modello di layout, come descritto in [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Fai clic sulla freccia giù ![freccia giù](assets/dropdown-arrow-12x12.png) sotto **Personalizza ciò che gli utenti vedono**, quindi fai clic su **Progetto**, **Attività**, **Problema**, **Programma** o **Portfolio.**
+1. Fai clic sulla freccia giù ![freccia giù](assets/dropdown-arrow-12x12.png) in **Personalizza gli elementi visualizzati dagli utenti**, quindi fai clic su **Progetto**, **Attività**, **Problema**, **Programma** o **Portfolio.**
 <!--
 , or billing record
 -->
