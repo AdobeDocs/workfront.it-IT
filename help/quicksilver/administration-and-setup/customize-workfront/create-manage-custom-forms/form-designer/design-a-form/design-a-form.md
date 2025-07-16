@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: af7789f3a4c7443854639fd60bcf0661217b37ae
+source-git-commit: b95d536bc251c2575b105f38691a66bde67502b8
 workflow-type: tm+mt
-source-wordcount: '6547'
+source-wordcount: '6589'
 ht-degree: 5%
 
 ---
@@ -133,7 +133,7 @@ Ogni nome di campo personalizzato deve essere univoco nell’istanza Workfront d
 >[!NOTE]
 >
 >Sebbene sia possibile farlo, si consiglia di non modificare questo nome dopo che l&#39;utente o altri utenti hanno iniziato a utilizzare il modulo personalizzato in Workfront. In questo caso, il sistema non riconoscerà più il campo personalizzato a cui potrebbe ora fare riferimento in altre aree di Workfront.
->&#x200B;>Ad esempio, se aggiungi il campo personalizzato a un rapporto e successivamente ne modifichi il nome, Workfront non lo riconosce nel rapporto e non funzionerà più correttamente a meno che non lo aggiungi nuovamente al rapporto utilizzando il nuovo nome.
+>>Ad esempio, se aggiungi il campo personalizzato a un rapporto e successivamente ne modifichi il nome, Workfront non lo riconosce nel rapporto e non funzionerà più correttamente a meno che non lo aggiungi nuovamente al rapporto utilizzando il nuovo nome.
 >
 >È consigliabile non digitare un nome già utilizzato per i campi Workfront incorporati.
 >
@@ -632,12 +632,12 @@ Per aggiungere una ricerca esterna:
       <td role="rowheader">Percorso JSON</td>
       <td><p>Digita o incolla il percorso JSON per l’API.</p> <p>Questa opzione consente di estrarre i dati dal JSON restituito dall’URL API. Serve come modo per selezionare quali valori dall’interno del JSON appariranno nelle opzioni a discesa.</p><p>Ad esempio, se l'URL API restituisce JSON nel seguente formato, puoi utilizzare "$.data[*].name" per selezionare Stati Uniti e Canada come opzioni a discesa:</br>
       <pre>
-      &lbrace;
-       dati: &lbrace;
+      {
+       dati: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Per ulteriori informazioni sul percorso JSON e sulla verifica della scrittura del percorso JSON corretto, fare riferimento a <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -742,6 +742,10 @@ Per aggiungere immagini, PDF o video:
      </tr> 
     </tbody> 
    </table>
+
+   >[!NOTE]
+   >Per i PDF, si consiglia di utilizzare Large per le dimensioni di visualizzazione del widget.
+   >Il visualizzatore PDF di un browser influisce sulla visualizzazione per gli utenti, che potrebbero dover regolare le dimensioni della finestra e la percentuale di zoom del browser se la visualizzazione del PDF non è ottimale.
 
 1. (Facoltativo) Ripeti il passaggio precedente per aggiungere altri campi o widget.
 
