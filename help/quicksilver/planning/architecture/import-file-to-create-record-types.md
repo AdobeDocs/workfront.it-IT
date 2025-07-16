@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '855'
 ht-degree: 1%
 
 ---
 
 # Creare tipi di record importando informazioni da un file CSV o Excel
 
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -26,8 +26,6 @@ I tipi di record sono i tipi di oggetto di Adobe Workfront Planning. In Workfron
 ## Requisiti di accesso
 
 +++ Espandere per visualizzare i requisiti di accesso.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -81,12 +79,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
    <td>   <p>Gestione delle autorizzazioni per un'area di lavoro</a> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Modello layout</p></td> 
-   <td> <p>Nell'ambiente di produzione, tutti gli utenti, inclusi gli amministratori di sistema, devono essere assegnati a un modello di layout che includa Planning.</p>
-<p><span class="preview">Nell'ambiente di anteprima, per impostazione predefinita, Planning è abilitato per utenti standard e amministratori di sistema.</span></p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -109,16 +103,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 * I fogli vuoti non sono supportati.
 * I campi dei tipi seguenti non sono supportati e non possono essere mappati ai campi del foglio di importazione:
 
-   * Campi di connessione, a seconda dell’ambiente utilizzato:
-
-      * Nell’ambiente di produzione non è possibile mappare i campi di connessione ai record di Planning o agli oggetti Workfront e AEM Assets
-
-      * <span class="preview">Nell&#39;ambiente di anteprima è possibile mappare e importare i campi di connessione nei record di Planning. Impossibile mappare i campi su Workfront e AEM Assets.</span>
-
+   * Campi di connessione ai tipi di oggetto Workfront e AEM Assets.
    * Campi di ricerca da record di Planning o oggetti Workfront e AEM Assets connessi
    * Campi formula
    * Data di creazione, Creato da
    * Data ultima modifica, Autore ultima modifica
+     <!--* <span class="preview">Approved date, Approved by</span>-->
    * Persone
 
 Per importare tipi di record utilizzando un file Excel o CSV:
@@ -155,21 +145,21 @@ Per importare tipi di record utilizzando un file Excel o CSV:
 
    I fogli deselezionati vengono visualizzati con uno sfondo grigio.
 
-1. (Facoltativo) Fai clic sulla freccia rivolta verso il basso a destra di un&#39;intestazione di colonna per effettuare una delle seguenti operazioni, <span class="preview">nella scheda **Campo**</span>:
+1. (Facoltativo) Fare clic sulla freccia rivolta verso il basso a destra di un&#39;intestazione di colonna per eseguire una delle operazioni seguenti nella scheda **Campo**:
 
-   <span class="preview">![Scheda campo nella casella di importazione mapping tipo di record](assets/field-tab-on-record-type-import-mapping-box.png)</span>
+   ![Scheda campo nella casella di importazione mapping tipo di record](assets/field-tab-on-record-type-import-mapping-box.png)
 
    * Rinomina uno dei campi
-   * Cambia il tipo di campo **&#x200B;**
+   * Cambia il tipo di campo ****
    * Aggiorna il campo **Descrizione**
 
-1. <span class="preview">(Facoltativo) Fare clic sulla scheda **Connessione** per associare le informazioni nella colonna a un campo connesso di altri tipi di record.</span>
+1. (Facoltativo) Fare clic sulla scheda **Connessione** per associare le informazioni della colonna a un campo connesso di altri tipi di record.
 
-   <span class="preview">![Scheda Connessione nella casella di mappatura importazione tipo di record](assets/connection-tab-on-record-type-import-mapping-box.png)</span>
+   ![Scheda Connessione nella casella di mappatura importazione tipo di record](assets/connection-tab-on-record-type-import-mapping-box.png)
 
    >[!TIP]
    >
-   ><span class="preview">È possibile eseguire il mapping solo ai campi dei record connessi a Workfront Planning. Non è possibile eseguire il mapping a campi da connessioni Workfront o AEM Assets. Per ulteriori informazioni, vedere la sezione [Considerazioni sull&#39;importazione di tipi di record tramite un file Excel o CSV](#considerations-about-importing-record-types-using-an-excel-or-csv-file) in questo articolo.</span>
+   >È possibile eseguire il mapping solo ai campi dei record connessi a Workfront Planning. Non è possibile eseguire il mapping a campi da connessioni Workfront o AEM Assets. Per ulteriori informazioni, vedere la sezione [Considerazioni sull&#39;importazione di tipi di record tramite un file Excel o CSV](#considerations-about-importing-record-types-using-an-excel-or-csv-file) in questo articolo.
 
 1. (Condizionale) Dopo aver aggiornato le informazioni sul campo, fai clic su **Salva**.
 

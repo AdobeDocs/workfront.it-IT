@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 8e9d9c9489d43917386e581ac9834fbb65b33d25
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
 source-wordcount: '2166'
 ht-degree: 1%
@@ -124,8 +124,8 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
 
    * Non è possibile aggiungere campi dei tipi seguenti a un modulo di richiesta:
 
-      * Creato da e Ultima modifica da
-      * Data di creazione e data dell’ultima modifica
+      * Creato da e Ultima modifica da <!--Created by, Last modified by, <span class="preview">Approved by</span>-->
+      * Data di creazione e data dell&#39;ultima modifica <!--Created date, Last modified date, <span class="preview">Approved date</span>-->
       * Formula
       * Campi di ricerca di oggetti Workfront
       * Campi di ricerca dei record connessi di Workfront Planning

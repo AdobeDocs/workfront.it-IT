@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 44b3298905a04c64a457045c4112d9628d933aae
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '3804'
+source-wordcount: '3708'
 ht-degree: 2%
 
 ---
 
 # Gestire la visualizzazione della timeline
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -81,12 +81,7 @@ Per informazioni sulle visualizzazioni record, vedere [Gestione visualizzazioni 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
    <td>   <p>Gestire le autorizzazioni per una visualizzazione</p>  
    <p>Autorizzazioni di visualizzazione a una visualizzazione per modificare temporaneamente le impostazioni di visualizzazione o per duplicarla</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Modello layout</p></td> 
-   <td> <p>Nell'ambiente di produzione, tutti gli utenti, inclusi gli amministratori di sistema, devono essere assegnati a un modello di layout che includa Planning.</p>
-<p><span class="preview">Nell'ambiente di anteprima, per impostazione predefinita, Planning è abilitato per utenti standard e amministratori di sistema.</span></p> </td> 
-  </tr> 
+  </tr>  
 </tbody> 
 </table>
 
@@ -126,9 +121,7 @@ Per gestire una vista timeline:
    >
    >    L&#39;ordinamento dei record nella timeline non è visibile nella visualizzazione Compatta.
 
-1. <span class="preview"> (Condizionale) Se l&#39;amministratore ha abilitato i trimestri personalizzati e Workfront rileva problemi nella configurazione dei trimestri personalizzati, è possibile che all&#39;apertura della visualizzazione della timeline venga visualizzato un avviso. </span>
-
-   <div class="preview">
+1. (Condizionale) Se l’amministratore ha abilitato i trimestri personalizzati e Workfront rileva problemi nella configurazione dei trimestri personalizzati, potresti ricevere un avviso all’apertura della visualizzazione della timeline.
 
    Esistono i seguenti scenari:
 
@@ -152,13 +145,11 @@ Per gestire una vista timeline:
    >Dopo aver impostato i trimestri personalizzati nell&#39;area Configura, nella vista timeline vengono visualizzati i trimestri personalizzati anziché quelli classici.
    >Per informazioni, vedere [Abilitare i trimestri personalizzati](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
-   </div>
-
-1. <span class="preview">(Condizionale) Se sei un amministratore di Workfront, fai clic su **Vai al programma di installazione** per configurare i trimestri. In caso contrario, fare clic su **OK** e chiedere all&#39;amministratore di Workfront di impostare i trimestri personalizzati.</span>
+1. (Condizionale) Se sei un amministratore di Workfront, fai clic su **Vai al programma di installazione** per configurare i trimestri. In caso contrario, fare clic su **OK** e chiedere all&#39;amministratore di Workfront di impostare i trimestri personalizzati.
 
    >[!TIP]
    >
-   ><span class="preview">Il pulsante Vai all&#39;installazione viene visualizzato solo per l&#39;amministratore di Workfront.</span>
+   >Il pulsante Vai all&#39;installazione viene visualizzato solo per l&#39;amministratore di Workfront.
 
 1. (Facoltativo e condizionale) Quando il nome del record viene troncato, posizionare il puntatore del mouse su una barra dei record per visualizzare il nome completo del record e le informazioni aggiuntive. Per informazioni sull&#39;impostazione del troncamento della barra dei record nella sequenza temporale, vedere la sezione [Modificare le impostazioni della visualizzazione della sequenza temporale](#edit-the-timeline-view-settings) in questo articolo.
 
@@ -172,7 +163,7 @@ Per gestire una vista timeline:
       * **Trimestre**: visualizza mesi e settimane con indicazione del trimestre.
       * **Mese**: visualizza settimane e giorni.
 1. (Facoltativo) Fare clic su **Passa alla visualizzazione compatta** per visualizzare i record le cui date non si intersecano sulla stessa riga. <!--check to see if they updated the name of the setting here-->
-1. (Condizionale) Se hai cambiato la modalità in **Compatta**, fai clic su **Passa alla visualizzazione Standard** per visualizzare i record in righe separate. <span class="preview">L&#39;opzione **Standard** è l&#39;impostazione predefinita.</span>  <!--check to see if they updated the name of the setting here-->
+1. (Condizionale) Se hai cambiato la modalità in **Compatta**, fai clic su **Passa alla visualizzazione Standard** per visualizzare i record in righe separate. L&#39;opzione **Standard** è quella predefinita.  <!--check to see if they updated the name of the setting here-->
 
 1. Per trovare rapidamente i record che corrispondono a una parola chiave, eseguire le operazioni seguenti:
 
@@ -392,7 +383,7 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
    >
    >* Se si visualizzano record aggiuntivi utilizzando l&#39;opzione Raggruppamento, le date di inizio e di fine corrispondono a quelle del record principale. Non è possibile scegliere le date di inizio e di fine per i record connessi in quest&#39;area.
 
-1. <span class="preview">(Condizionale e facoltativo) Se sei un amministratore di Workfront, fai clic su **Vai al programma di installazione** nella casella **Utilizza trimestri personalizzati** per passare all&#39;area di installazione e impostare trimestri personalizzati. Dopo aver impostato i trimestri personalizzati, è possibile visualizzarli nella vista timeline anziché nei trimestri classici. Se non sei un amministratore di Workfront, puoi richiedere a un amministratore di abilitare i trimestri personalizzati per la tua organizzazione. </span>
+1. (Condizionale e facoltativo) Se sei un amministratore di Workfront, fai clic su **Vai al programma di installazione** nella casella **Utilizza trimestri personalizzati** per passare all&#39;area di installazione e impostare i trimestri personalizzati. Dopo aver impostato i trimestri personalizzati, è possibile visualizzarli nella vista timeline anziché nei trimestri classici. Se non sei un amministratore di Workfront, puoi richiedere a un amministratore di abilitare i trimestri personalizzati per la tua organizzazione.
 
    Per informazioni, vedere [Abilitare i trimestri personalizzati](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
@@ -400,11 +391,11 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
 
    >[!TIP]
    >
-   ><span class="preview">Il pulsante Vai all&#39;installazione viene visualizzato solo per l&#39;amministratore di Workfront.</span>
+   >Il pulsante Vai all&#39;installazione viene visualizzato solo per l&#39;amministratore di Workfront.
 
 1. Fare clic su **Stile barra** nel pannello sinistro per indicare le informazioni da visualizzare sulle barre dei record.
 
-   È possibile definire lo stile della barra del record principale <span class="preview">e dei record connessi</span> quando si utilizza l&#39;opzione Raggruppamento nella visualizzazione Standard.
+   Quando si utilizza l&#39;opzione Raggruppamento nella visualizzazione Standard, è possibile definire lo stile della barra del record principale e dei record collegati.
 
    Il campo principale (o titolo) del record, come definito nella vista tabella del record, è selezionato per impostazione predefinita.
    <!--adjust this when the primary field is released??-->
@@ -429,20 +420,20 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
 
    ![Registra le impostazioni della timeline del pannello dei dettagli con anteprima](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. <span class="preview">(Facoltativo e condizionale) Se si visualizza la sequenza temporale in modalità Standard, selezionare l&#39;impostazione **Tronca dettagli barra**. Se questa opzione è selezionata, le informazioni sulle barre dei record vengono troncate e vengono visualizzate completamente solo quando si passa il puntatore del mouse sulle barre. Questa impostazione è deselezionata per impostazione predefinita e le informazioni del record sono visualizzate completamente sulle barre. </span>
+1. (Facoltativo e condizionale) Se si visualizza la timeline in modalità Standard, selezionare l&#39;impostazione **Tronca dettagli barra**. Se questa opzione è selezionata, le informazioni sulle barre dei record vengono troncate e vengono visualizzate completamente solo quando si passa il puntatore del mouse sulle barre. Questa impostazione è deselezionata per impostazione predefinita e le informazioni del record sono visualizzate completamente sulle barre.
 
    ![Impostazione di troncamento abilitata nella casella delle impostazioni della sequenza temporale evidenziata](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
 
    >[!TIP]
    >
-   ><span class="preview">L&#39;impostazione dei dettagli della barra di troncamento non è disponibile quando si visualizza la visualizzazione della sequenza temporale in modalità Compatta.</span>
+   >L’impostazione dei dettagli della barra di troncamento non è disponibile quando si visualizza la vista timeline in modalità Compatta.
    >
 
 1. Fai clic su **Colore** nel pannello a sinistra per personalizzare i colori dei record e dei raggruppamenti nella timeline.
 
    ![Visualizzazione timeline scheda Colore](assets/color-tab-timeline-view.png)
 
-   È possibile definire il colore del record principale <span class="preview">e dei record connessi</span> quando si utilizza l&#39;opzione Raggruppamento nella visualizzazione Standard.
+   Quando si utilizza l&#39;opzione Raggruppamento nella visualizzazione Standard, è possibile definire il colore del record principale e dei record collegati.
 
 1. (Condizionale e facoltativo) Se hai aggiunto un raggruppamento alla visualizzazione della timeline, seleziona una delle seguenti opzioni per impostare un colore per il raggruppamento nella sezione **Imposta colore di raggruppamento**:
 
@@ -481,7 +472,7 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
 
    Se non si dispone di un campo con opzioni codificate a colori per il tipo di record selezionato, questa opzione viene disattivata.
 
-1. <span class="preview">(Facoltativo) Se si utilizza l&#39;opzione **Raggruppamento**, ripetere i passaggi a partire dal passaggio 4 per ogni record connesso visualizzato nella sequenza temporale. </span>
+1. (Facoltativo) Se utilizzi l&#39;opzione **Raggruppamento**, ripeti i passaggi a partire dal passaggio 4 per ogni record connesso visualizzato nella timeline.
 
 1. Fai clic su **Salva**.
 
@@ -515,7 +506,7 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
 #### Suddividere i record connessi
 
 1. Creare una visualizzazione timeline per un tipo di record, come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
-1. Dalle modalità **Standard** o <span class="preview">**Compatta**, fai clic su **Suddivisione**</span> nell&#39;angolo superiore destro della visualizzazione della sequenza temporale.
+1. Dalle modalità **Standard** o **Compatta**, fai clic su **Suddivisione** nell&#39;angolo superiore destro della visualizzazione della sequenza temporale.
 1. Espandere la casella **Selezionare un tipo di record collegato** e selezionare un tipo di record connesso. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Selettore e pulsante di suddivisione nella visualizzazione della sequenza temporale](assets/breakdown-picker-and-button-on-timeline.png)
@@ -543,13 +534,13 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
    >
    >Sia Prodotti che Programmi devono essere connessi alle campagne per essere visualizzati come opzioni di suddivisione e puoi aggiungerli al raggruppamento in qualsiasi ordine.
 
-1. <span class="preview">(Condizionale) Se si visualizza la sequenza temporale in modalità Compatta, fare clic su **Cambia visualizzazione**. Il raggruppamento non è visibile in modalità **Compatta**.</span>
+1. (Condizionale) Se si visualizza la sequenza temporale in modalità Compatta, fare clic su **Cambia visualizzazione**. Il raggruppamento non è visibile in modalità **Compatta**.
 
    >[!TIP]
    >
-   ><span class="preview">Selezionare **Non mostrare più** in **Passare alla visualizzazione Standard?Casella**, prima di cambiare visualizzazione. </span>
+   >Seleziona **Non mostrare più** in **Passa alla visualizzazione Standard?Casella**, prima di cambiare visualizzazione.
    >
-   ><span class="preview">Questa preferenza viene memorizzata solo per il browser corrente. Se si modificano browser o computer, sarà necessario selezionare nuovamente questa preferenza.</span>
+   >Questa preferenza viene memorizzata solo per il browser corrente. Se si modificano browser o computer, sarà necessario selezionare nuovamente questa preferenza.
    >
    >Non è possibile tornare alla modalità Compatta dopo aver impostato la visualizzazione su Standard e aver visualizzato i record collegati nella visualizzazione.
 1. (Facoltativo) Ripeti i passaggi precedenti per aggiungere altri record connessi.

@@ -8,7 +8,7 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 1%
@@ -175,7 +175,7 @@ Per individuare le richieste inviate da te o da altri utenti:
     </tbody> 
    </table>
 
-1. (Facoltativo) Fai clic sull&#39;icona ![](assets/search-icon.png) del filtro **Pagina** nella parte superiore dell&#39;elenco per cercare una richiesta in base al nome. L’elenco viene aggiornato con risultati che corrispondono ai criteri di ricerca.
+1. (Facoltativo) Fai clic sull&#39;icona **del filtro** Pagina![](assets/search-icon.png) nella parte superiore dell&#39;elenco per cercare una richiesta in base al nome. L’elenco viene aggiornato con risultati che corrispondono ai criteri di ricerca.
 
    <!--
    <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the <strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
@@ -204,9 +204,9 @@ Per individuare le richieste inviate da te o da altri utenti:
 
 1. (Facoltativo e condizionale) Se la tua organizzazione ha acquistato un pacchetto Workfront Planning, fai clic sulla scheda **Planning**, quindi fai clic su **Inviato** nel pannello a sinistra per visualizzare le richieste di Workfront Planning.
 
-   <span class="preview">Utilizzare **Filtri** e **Colonne** per aggiornare le informazioni nell&#39;elenco delle richieste di Planning. </span>
+   Utilizzare **Filtri** e **Colonne** per aggiornare le informazioni nell&#39;elenco delle richieste di Planning.
 
-   <span class="preview">![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)</span>
+   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
    Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md).
 

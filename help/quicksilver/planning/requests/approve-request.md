@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '970'
 ht-degree: 1%
 
 ---
@@ -35,15 +35,17 @@ Si consiglia inoltre di visualizzare i seguenti articoli:
 * [Inviare richieste di Adobe Workfront Planning per creare record](/help/quicksilver/planning/requests/submit-requests.md)
 * [Aggiungere un’approvazione a un modulo di richiesta](/help/quicksilver/planning/requests/add-approval-to-request-form.md)
 
-## Considerazioni sull’approvazione delle richieste e sugli stati delle richieste
+## Considerazioni sull’approvazione delle richieste
 
-Le richieste inviate vengono visualizzate nella scheda Pianificazione della sezione Inviate dell&#39;area Richieste di Workfront con uno dei seguenti stati di richiesta:
+* Le richieste inviate vengono visualizzate nella scheda Pianificazione della sezione Inviate dell&#39;area Richieste di Workfront con uno dei seguenti stati di richiesta:
 
-* **Revisione in sospeso**: questo stato viene visualizzato quando nessuno degli approvatori ha aperto l&#39;oggetto della richiesta.
-* **In revisione**: lo stato **In attesa di revisione** diventa **In revisione** quando almeno un approvatore apre l&#39;oggetto della richiesta. Lo stato della richiesta rimane **In revisione** fino a quando tutti gli approvatori non avranno approvato la richiesta.
-* **Approvato**: quando un approvatore approva l&#39;oggetto della richiesta, il suo stato individuale diventa **Approvato**, ma lo stato complessivo dell&#39;oggetto rimane **In revisione** fino a quando tutti gli approvatori non avranno preso le loro decisioni. Quando tutti gli approvatori approvano una richiesta, lo stato diventa **Approvato**.
-* **Completato**: se tutti gli approvatori approvano l&#39;oggetto della richiesta, lo stato cambia in **Completato** oppure se la richiesta non ha bisogno di un&#39;approvazione.
-* **Rifiutato**: se un approvatore rifiuta l&#39;oggetto della richiesta, lo stato diventa **Rifiutato**. Non viene creato alcun record ed è necessario inviare una nuova richiesta per creare il record.
+   * **Revisione in sospeso**: questo stato viene visualizzato quando nessuno degli approvatori ha aperto l&#39;oggetto della richiesta.
+   * **In revisione**: lo stato **In attesa di revisione** diventa **In revisione** quando almeno un approvatore apre l&#39;oggetto della richiesta. Lo stato della richiesta rimane **In revisione** fino a quando tutti gli approvatori non avranno approvato la richiesta.
+   * **Approvato**: quando un approvatore approva l&#39;oggetto della richiesta, il suo stato individuale diventa **Approvato**, ma lo stato complessivo dell&#39;oggetto rimane **In revisione** fino a quando tutti gli approvatori non avranno preso le loro decisioni. Quando tutti gli approvatori approvano una richiesta, lo stato diventa **Approvato**.
+   * **Completato**: se tutti gli approvatori approvano l&#39;oggetto della richiesta, lo stato cambia in **Completato** oppure se la richiesta non ha bisogno di un&#39;approvazione.
+   * **Rifiutato**: se un approvatore rifiuta l&#39;oggetto della richiesta, lo stato diventa **Rifiutato**. Non viene creato alcun record ed è necessario inviare una nuova richiesta per creare il record.
+
+<!--* <span class="preview">You can display approval information on a record created by submitting a request form in the Approved by and Approved date fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).</span>-->
 
 ## Requisiti di accesso
 

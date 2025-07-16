@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '3446'
+source-wordcount: '3346'
 ht-degree: 2%
 
 ---
 
 # Gestire la vista tabella
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -87,12 +87,7 @@ Per informazioni sull&#39;esportazione della vista tabella in un file Excel o CS
 <tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
    <td>   <p>Gestire le autorizzazioni per una visualizzazione</p>  
-   <p>Autorizzazioni di visualizzazione a una visualizzazione per modificare temporaneamente le impostazioni di visualizzazione, duplicarla, <span class="preview">o esportarla</span></p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Modello layout</p></td> 
-   <td> <p>Nell’ambiente di produzione, tutti gli utenti, inclusi gli amministratori di sistema, devono essere assegnati a un modello di layout che includa le aree Planning.</p>
-<p><span class="preview">Nell'ambiente di anteprima, gli utenti Standard e gli amministratori di sistema hanno l'area Planning attivata per impostazione predefinita.</span></p></td> 
+   <p>Autorizzazioni di visualizzazione per modificare temporaneamente le impostazioni di visualizzazione, duplicarle o esportarle</p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -113,11 +108,9 @@ Durante la creazione di una vista tabella, tutti i record del tipo selezionato v
 
 Per gestire una vista tabella:
 
-1. <span class="preview">Creare una vista tabella, come descritto nell&#39;articolo [Gestire le viste record](/help/quicksilver/planning/views/manage-record-views.md). </span>
+1. Creare una visualizzazione tabella come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
 
-   <span class="preview">![Esempio di visualizzazione tabella](assets/table-view-example.png)
-
-   </span>
+   ![Esempio di visualizzazione tabella](assets/table-view-example.png)
 
 1. (Facoltativo) Fai clic su **Altezza riga**, quindi seleziona una delle seguenti opzioni per modificare l&#39;altezza delle righe della tabella:
    * Piccolo
@@ -130,7 +123,7 @@ Per gestire una vista tabella:
    * [Filtri](#add-filters)
    * [Ordina](#add-a-sort)
    * [Raggruppamento](#add-groupings)
-   * <span class="preview">[Colori riga](#add-row-colors)</span>
+   * [Colori riga](#add-row-colors)
    * [Indicatore di presenza in tempo reale](#enable-the-real-time-presence-indicator)
 
 
@@ -459,7 +452,7 @@ Per aggiungere un raggruppamento:
 
    Il numero di campi selezionati per il raggruppamento viene visualizzato accanto all’icona Raggruppamento.
 
-   <span class="preview">![Raggruppamento applicato nella vista tabella](assets/grouping-applied-in-table-view.png)</span>
+   ![Raggruppamento applicato nella vista tabella](assets/grouping-applied-in-table-view.png)
 
 1. (Facoltativo) Nella casella **Raggruppa record per**, fai clic sull&#39;icona **x** a destra di un campo selezionato per il raggruppamento per rimuovere il raggruppamento
 
@@ -470,9 +463,7 @@ Per aggiungere un raggruppamento:
 1. Fare clic all&#39;esterno della casella **Raggruppa record per** per chiuderla.
 1. (Facoltativo) Fai clic su **+ Nuovo record** alla fine di qualsiasi raggruppamento per aggiungere nuovi record, quindi aggiorna la pagina per aggiungere il nuovo record al raggruppamento appropriato. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
-1. <span class="preview">Per espandere o comprimere i raggruppamenti, eseguire una delle operazioni seguenti:</span>
-
-   <div class="preview">
+1. Per espandere o comprimere i raggruppamenti, effettuare una delle seguenti operazioni:
 
    1. Fai clic sull&#39;icona **Raggruppamento**, quindi **Espandi tutto** o **Comprimi tutto**. Questo espande tutti i raggruppamenti e i sottogruppi nella vista tabella.
 
@@ -486,7 +477,7 @@ Per aggiungere un raggruppamento:
       * **Espandi sottogruppi**
       * **Comprimi sottogruppi**
 
-      A seconda del numero di raggruppamenti applicati alla visualizzazione, alcune opzioni potrebbero non essere disponibili.</div>
+      A seconda del numero di raggruppamenti applicati alla visualizzazione, alcune opzioni potrebbero non essere disponibili.
 
 <!-- this is not available yet: 
 
@@ -496,8 +487,6 @@ To sort grouped records:
 1. ************************* add steps here for sorting grouped records****************
 
 -->
-
-<div class="preview">
 
 ### Aggiungi colori riga
 
@@ -533,8 +522,6 @@ To sort grouped records:
 
 1. Fare clic all&#39;esterno della casella **Colori riga** per chiuderla. I colori vengono applicati automaticamente.
 
-</div>
-
 ### Abilita indicatore di presenza in tempo reale
 
 Per impostazione predefinita, nell&#39;angolo superiore destro di tutte le visualizzazioni record vengono visualizzati gli avatar di altri utenti che modificano le informazioni dei record contemporaneamente.
@@ -557,7 +544,7 @@ Quando si visualizza la vista tabella, è inoltre possibile visualizzare il camp
    >
    >È possibile selezionare l&#39;opzione **Mostra collaboratori** da qualsiasi visualizzazione. Il campo attualmente modificato da altri utenti è evidenziato solo nella vista tabella.
 
-<div class="preview">
+
 
 
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '2468'
+source-wordcount: '2388'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Crea record
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -43,8 +43,6 @@ Per informazioni sulla gestione dei record nelle viste tabella o sequenza tempor
 ## Requisiti di accesso
 
 +++ Espandere per visualizzare i requisiti di accesso.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -97,16 +95,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
-   <td> <p>Autorizzazioni di Contribute o superiori per l'area di lavoro <span class="preview"> e il tipo di record</span> in cui si desidera aggiungere record. </p>
-   <p>Visualizza o autorizzazioni superiori all'area di lavoro <span class="preview"> e al tipo di record</span> per creare record utilizzando il pulsante Richiedi record nella pagina record</p>
+   <td> <p>Autorizzazioni Contribute o superiori per l'area di lavoro e il tipo di record in cui si desidera aggiungere record. </p>
+   <p>Visualizza o autorizzazioni superiori per l'area di lavoro e il tipo di record per creare record utilizzando il pulsante Richiedi record nella pagina record</p>
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
    <p>Gestisci le autorizzazioni per gli oggetti Workfront (portfolio) per aggiungere oggetti figlio (progetti).</p>
    </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Modello layout</p></td> 
-   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale </p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -137,7 +132,7 @@ I record del tipo selezionato vengono visualizzati nella vista.
 
      >[!TIP]
      >
-     ><span class="preview">Quando si aggiunge un nuovo record dopo l&#39;ultimo record di un raggruppamento o di un sottogruppo, Workfront compila automaticamente i campi inclusi nei raggruppamenti. Se necessario, è possibile modificare manualmente questi campi e i record potrebbero essere rimossi dal raggruppamento. </span>
+     >Quando si aggiunge un nuovo record dopo l&#39;ultimo record di un raggruppamento o di un sottogruppo, Workfront compila automaticamente i campi inclusi nei raggruppamenti. Se necessario, è possibile modificare manualmente questi campi e i record potrebbero essere rimossi dal raggruppamento.
 
    * Fai clic su **Maiusc + Invio** sulla tastiera da qualsiasi colonna o riga della tabella. In questo modo viene aggiunta una riga vuota sotto il record iniziale.
    * Passa il puntatore del mouse sul campo principale di un record, fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del campo, quindi fai clic su **Inserisci record sopra** o **Inserisci record sotto**.
@@ -187,10 +182,10 @@ I record del tipo selezionato vengono visualizzati nella vista.
 
 ## Creare record utilizzando il pulsante Nuovo record o Richiedi record da qualsiasi visualizzazione del tipo di record
 
-Gli utenti con autorizzazioni di visualizzazione per l&#39;area di lavoro <!--<span class="preview">and record type</span>--> possono creare record solo utilizzando il pulsante Richiedi record nella pagina Tipo di record.
+Gli utenti con autorizzazioni di visualizzazione per l&#39;area di lavoro e il tipo di record possono creare record solo utilizzando il pulsante Richiedi record nella pagina Tipo di record.
 
-Gli utenti con le autorizzazioni Contribute e Manage per l&#39;area di lavoro <!--<span class="preview">and record type</span>--> possono creare record utilizzando il pulsante Nuovo record nella pagina del tipo di record.
-<!--did the permissions to record types get released?? if not, take the record type reference here out; AND else-where in this article, including access requirements table-->
+Gli utenti con le autorizzazioni Contribute e Manage per l&#39;area di lavoro e il tipo di record possono creare record utilizzando il pulsante Nuovo record nella pagina del tipo di record.
+
 
 >[!IMPORTANT]
 >
@@ -207,13 +202,13 @@ Gli utenti con le autorizzazioni Contribute e Manage per l&#39;area di lavoro <!
    La pagina del tipo di record viene visualizzata nella visualizzazione a cui si è effettuato l&#39;ultimo accesso. Per impostazione predefinita, nella vista tabella viene visualizzata una pagina del tipo di record.
 Tutti i record del tipo selezionato vengono visualizzati nella vista.
 
-1. (Condizionale) Da qualsiasi vista, fai clic su quanto segue nell&#39;angolo superiore destro dello schermo, a seconda delle autorizzazioni dell&#39;area di lavoro <!--<span class="preview">and record type</span>-->:
+1. (Condizionale) Da qualsiasi vista, fai clic su quanto segue nell’angolo superiore destro dello schermo, a seconda dell’area di lavoro e delle autorizzazioni per il tipo di record:
 
-   * Fare clic su **Nuovo record** se si dispone delle autorizzazioni Contribute o di livello superiore nell&#39;area di lavoro <!--<span class="preview">and record type</span>-->
+   * Fare clic su **Nuovo record** se si dispone delle autorizzazioni Contribute o di livello superiore per l&#39;area di lavoro e il tipo di record
 
      Oppure
 
-   * Fare clic su **Richiedi record** se si dispone delle autorizzazioni di visualizzazione per l&#39;area di lavoro <!--<span class="preview">and record type</span>-->.
+   * Fare clic su **Richiedi record** se si dispone delle autorizzazioni di visualizzazione per l&#39;area di lavoro e il tipo di record.
 
 1. (Condizionale) Se hai fatto clic su **Nuovo record**, effettua le seguenti operazioni:
 

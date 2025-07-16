@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '4717'
+source-wordcount: '4607'
 ht-degree: 1%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=it ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -22,9 +22,9 @@ ht-degree: 1%
 
 # Crea campi
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -100,13 +100,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
-   <td>   <p>Gestisci le autorizzazioni per un'area di lavoro <span class="preview"> e tipo di record</span> </a> </p>  
+   <td>   <p>Gestione delle autorizzazioni per un'area di lavoro e tipo di record</a> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle che non hanno creato.</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Modello layout</p></td> 
-   <td> <p>Nell'ambiente di produzione, tutti gli utenti, inclusi gli amministratori di sistema, devono essere assegnati a un modello di layout che includa Planning.</p>
-<p><span class="preview">Nell'ambiente di anteprima, per impostazione predefinita, Planning è abilitato per utenti standard e amministratori di sistema.</span></p></td> 
   </tr> 
 </tbody> 
 </table>
@@ -191,7 +186,7 @@ I campi di testo a riga singola acquisiscono informazioni alfanumeriche limitate
    ![Tipo di campo testo a riga singola](assets/single-line-text-field-type.png)
 
 1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
-   * **Nome**: il nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Nome**: il nome del campo, come verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sull&#39;intestazione di colonna del campo in una tabella o quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.
 1. Fai clic su **Crea**.
 
@@ -217,7 +212,7 @@ I campi Paragrafo acquisiscono informazioni alfanumeriche aggiuntive su un recor
 
 
 1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
-   * **Nome**: il nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Nome**: il nome del campo, come verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella o quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.
 1. Fai clic su **Crea**.
 
@@ -234,7 +229,7 @@ I campi Paragrafo acquisiscono informazioni alfanumeriche aggiuntive su un recor
 
 
 1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
-   * **Nome**: il nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Nome**: il nome del campo, come verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella o quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.
    * **Opzioni**: le opzioni che gli utenti possono selezionare quando aggiornano questo campo. È possibile utilizzare sia numeri che lettere per il nome di ciascuna scelta.
 1. Fai clic su **Aggiungi scelta** per aggiungere altre scelte. Non esiste alcun limite al numero di scelte che è possibile aggiungere a un campo a selezione multipla.
@@ -263,7 +258,7 @@ I campi a selezione singola acquisiscono informazioni aggiuntive in qualsiasi fo
 
 
 1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
-   * **Nome**: il nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Nome**: il nome del campo, come verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella o quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.
    * **Opzioni**: le opzioni disponibili per la selezione dal menu a discesa dopo il salvataggio del campo. È possibile utilizzare sia numeri che lettere per il nome di ciascuna scelta.
 
@@ -292,7 +287,7 @@ I campi a selezione singola acquisiscono informazioni aggiuntive in qualsiasi fo
 
 
 1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
-   * **Nome**: il nome del tipo di campo che verrà visualizzato in una tabella o nella pagina record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Nome**: il nome del campo, come verrà visualizzato in una tabella o nella pagina record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella o quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.
    * **Formato data**: tipo di formato data che si desidera visualizzare in questo campo. <!--update this casing - submitted bug for it-->
 
@@ -322,7 +317,7 @@ I tipi di campo numerico acquisiscono informazioni in formato numerico.
 >I campi numerici vengono visualizzati come tipo di campo di testo a riga singola in un generatore di moduli di richiesta.
 >
 >Tuttavia, il formato del campo viene mantenuto e i valori di questi campi vengono visualizzati come numeri dopo l’invio della richiesta, nel tipo di record e nella pagina dei dettagli della richiesta.
->&#x200B;>Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Inizia a creare un campo come descritto nella sezione [Crea campi da zero](#create-fields-from-scratch) in questo articolo, quindi seleziona il tipo di campo **Numero**.
@@ -330,7 +325,7 @@ I tipi di campo numerico acquisiscono informazioni in formato numerico.
    ![Tipo di campo numerico](assets/number-field-type.png)
 1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
 
-   * **Nome**: il nome del tipo di campo che verrà visualizzato in una tabella o nella pagina record.
+   * **Nome**: il nome del campo, come verrà visualizzato in una tabella o nella pagina record.
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella o quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.
    * **Precisione**: il numero di posizioni decimali che si desidera registrare per il campo. Puoi visualizzare fino a 6 posizioni decimali.
    * **Consenti numeri negativi**: selezionare questa opzione se si desidera consentire i numeri negativi in questo campo. Questa opzione è deselezionata per impostazione predefinita.
@@ -352,7 +347,7 @@ I tipi di campo Percentuale acquisiscono le informazioni in un formato numerico 
 >I campi percentuali vengono visualizzati come tipo di campo di testo a riga singola nel generatore di moduli di richiesta.
 >
 >Tuttavia, il formato del campo viene mantenuto e i valori di questi campi vengono visualizzati come percentuali dopo l’invio della richiesta, nel tipo di record e nella pagina dei dettagli della richiesta.
->&#x200B;>Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Inizia a creare un campo come descritto nella sezione [Crea campi da zero](#create-fields-from-scratch) in questo articolo, quindi seleziona il tipo di campo **Percentuale**.
@@ -360,7 +355,7 @@ I tipi di campo Percentuale acquisiscono le informazioni in un formato numerico 
    ![Tipo di campo percentuale](assets/percentage-field-type.png)
 
 1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
-   * **Nome**: il nome del tipo di campo che verrà visualizzato in una tabella o nella pagina record.
+   * **Nome**: il nome del campo, come verrà visualizzato in una tabella o nella pagina record.
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella o quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.
    * **Precisione**: il numero di posizioni decimali che si desidera registrare per il campo. Puoi visualizzare fino a 6 posizioni decimali.
    * **Consenti numeri negativi**: selezionare questa opzione se si desidera consentire valori percentuali negativi in questo campo. Questa opzione è deselezionata per impostazione predefinita.
@@ -392,14 +387,14 @@ I tipi di campo Valuta acquisiscono le informazioni in un formato numerico prece
 >I campi Valuta vengono visualizzati come tipo di campo di testo a riga singola in un generatore di moduli di richiesta.
 >
 >Tuttavia, il formato del campo viene mantenuto e i valori di questi campi vengono visualizzati come valuta dopo l’invio della richiesta, nel tipo di record e nella pagina dei dettagli della richiesta.
->&#x200B;>Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Inizia a creare un campo come descritto nella sezione [Crea campi da zero](#create-fields-from-scratch) in questo articolo, quindi seleziona il tipo di campo **Valuta**.
 
    ![Tipo di campo valuta](assets/currency-field-type.png)
 
 1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
-   * **Nome**: il nome del tipo di campo che verrà visualizzato in una tabella o nella pagina record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Nome**: il nome del campo, come verrà visualizzato in una tabella o nella pagina record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella o quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.
    * **Valuta**: tipo di valuta che si desidera visualizzare in questo campo. Questa è una lista di valute secondo l&#39;Organizzazione Internazionale di Standardizzazione (ISO).
    * **Precisione**: il numero di posizioni decimali che si desidera registrare per il campo. Puoi visualizzare fino a 6 decimali.
@@ -422,7 +417,7 @@ I tipi di campo Valuta acquisiscono le informazioni in un formato numerico prece
    ![Tipo di campo casella di controllo](assets/checkbox-field-type.png)
 
 1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
-   * **Nome**: il nome del tipo di campo che verrà visualizzato in una tabella o nella pagina record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Nome**: il nome del campo, come verrà visualizzato in una tabella o nella pagina record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella o quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.
 1. Fai clic su **Crea**.
 
@@ -513,7 +508,7 @@ Utilizzare il tipo di campo Persone per aggiungere un utente <!--, job role, or 
    ![Tipo di campo Persone](assets/people-field-type.png)
 
 1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
-   * **Nome**: il nome del tipo di campo che verrà visualizzato in una tabella o nella pagina record.
+   * **Nome**: il nome del campo, come verrà visualizzato in una tabella o nella pagina record.
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella o quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.
    * **Consenti più valori**: selezionare questa opzione se si desidera consentire agli utenti di aggiungere più utenti in questo campo. Questa opzione è deselezionata per impostazione predefinita.
 
@@ -535,7 +530,7 @@ Utilizzare il tipo di campo Persone per aggiungere un utente <!--, job role, or 
 
 1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
 
-   * **Nome**: il nome del tipo di campo che verrà visualizzato in una tabella o nella pagina record. <!--this might change and they might prepopulate it with "Created by"-->
+   * **Nome**: il nome del campo, come verrà visualizzato in una tabella o nella pagina record. <!--this might change and they might prepopulate it with "Created by"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella o quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.
 
 1. Fai clic su **Crea**.
@@ -555,7 +550,7 @@ Utilizzare il tipo di campo Persone per aggiungere un utente <!--, job role, or 
 
 1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
 
-   * **Nome**: il nome del tipo di campo che verrà visualizzato in una tabella o nella pagina record. <!--this might change and they might prepopulate it with "Created date"-->
+   * **Nome**: il nome del campo, come verrà visualizzato in una tabella o nella pagina record. <!--this might change and they might prepopulate it with "Created date"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella o quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.
    * **Formato data**: selezionare uno dei formati seguenti:
 
@@ -586,7 +581,7 @@ Utilizzare il tipo di campo Persone per aggiungere un utente <!--, job role, or 
 
 1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
 
-   * **Nome**: il nome del tipo di campo che verrà visualizzato in una tabella o nella pagina record. <!--this might change and they might prepopulate it with "Created by"-->
+   * **Nome**: il nome del campo, come verrà visualizzato in una tabella o nella pagina record. <!--this might change and they might prepopulate it with "Created by"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella o quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.
 
 1. Fai clic su **Crea**.
@@ -606,7 +601,7 @@ Utilizzare il tipo di campo Persone per aggiungere un utente <!--, job role, or 
 
 1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
 
-   * **Nome**: il nome del tipo di campo che verrà visualizzato in una tabella o nella pagina record. <!--this might change and they might prepopulate it with "Created date"-->
+   * **Nome**: il nome del campo, come verrà visualizzato in una tabella o nella pagina record. <!--this might change and they might prepopulate it with "Created date"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella o quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.
    * **Formato data**: selezionare uno dei formati seguenti:
 
@@ -626,6 +621,75 @@ Utilizzare il tipo di campo Persone per aggiungere un utente <!--, job role, or 
 1. Fai clic su **Crea**.
 
    Il nuovo campo Ultima modifica del tipo di data viene aggiunto come colonna al tipo di record e i relativi valori vengono precompilati con la data (o data e ora) dell’ultima modifica apportata al record.
+
+<!--
+
+<div class="preview">
+
+### Approved date
+
+You can use the Approved date field type to add the date when a request was approved and it resulted in the creation of the record. This is a read-only field, and it automatically populates with the date (and optionally with the time) when the request was approved by the last approver. In this case, the approval date should coincide with the date the record was created. 
+
+>[!TIP]
+>
+>The Approved date field populates with information only for records that were created by submitting a request form associated with approvers. 
+>
+>If the form is associated with more than one approver, only the date of the last approval decision is recorded in the Approved date field.
+ 
+
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
+ 
+   ![Approved date field type](assets/approved-date-field-type.png)
+
+   1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field, as it will appear in a table or the record page. 
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+     * **Date Format**: Select from the following formats:
+
+        * **Locale**: Matches the locale of your browser.
+        * **Standard**: 05/16/2023
+        * **Long**: May 16, 2023
+        * **European**: 16/05/2023
+        * **ISO**: 2023-05-16
+     
+     * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. 
+    
+        Select from the following options:
+        
+        * **24hr**: For example: 18:00
+        * **12hr**: For example: 6:00 PM 
+    
+1. Click **Create**.
+
+    The new Approved date-type field is added as a column to the record type and its values are prefilled with the date (or date and time) when the record request was approved, if the record was created by submitting a request associated with approvers. 
+
+### Approved by
+
+You can use the Approved by field type to add the user who last approved the request to create a record. This is a read-only field, and it automatically populates with the name of the user who approved the request to create the record.
+
+>[!TIP]
+>
+>The Approved by field populates with information only for records that were created by submitting a request form associated with approvers.
+>
+>If the form is associated with more than one approver, the name of all approvers are recorded in the Approved date field, separated by commas.
+ 
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Approved by** field type.
+ 
+   ![Approved by field type](assets/approved-by-field-type.png)
+
+1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field, as it will appear in a table or the record page. 
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+    
+1. Click **Create**.
+
+    The new Approved by-type field is added as a column to the record type and its values are prefilled with the name of the user who last modified each record.  
+
+</div>
+-->
+
 
 <!--
 
@@ -664,7 +728,7 @@ Create an Object field:
 
 1. Add the following information in the **New field** tab:
 
-     * **Name**: The name of the field type, as it will appear in a table or the record page. (***********this might change and they might prepopulate it with "Created date"********)
+     * **Name**: The name of the field, as it will appear in a table or the record page. (***********this might change and they might prepopulate it with "Created date"********)
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
 
 1. Click **Create**.

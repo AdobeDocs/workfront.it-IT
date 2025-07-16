@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '1969'
+source-wordcount: '1856'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Condividere le visualizzazioni
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -41,8 +41,6 @@ This article describes how you can share a view with others. For information abo
 +++ Espandere per visualizzare i requisiti di accesso.
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -98,12 +96,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
    <td>  <p>Gestire le autorizzazioni per una visualizzazione</p>  
    <p>Solo gli utenti con le autorizzazioni di gestione di un’area di lavoro possono condividere una visualizzazione pubblicamente.</p></td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Modello layout</p></td> 
-   <td> <p>Nell’ambiente di produzione, tutti gli utenti, inclusi gli amministratori di sistema, devono essere assegnati a un modello di layout che includa le aree Planning.</p>
-<p><span class="preview">Nell'ambiente di anteprima, gli utenti Standard e gli amministratori di sistema hanno l'area Planning attivata per impostazione predefinita.</span></p></td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -147,15 +141,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Verrà aperta la pagina del tipo di record.
 
-1. Dalla scheda Visualizza, <span class="preview">eseguire una delle operazioni seguenti:</span>
+1. Nella scheda Visualizza eseguire una delle operazioni seguenti:
 
    * Passa il puntatore del mouse sul nome della scheda della visualizzazione che desideri condividere e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Condividi**.
 
      ![Altro menu per una visualizzazione](assets/more-menu-for-views-expanded-with-share-option.png)
 
-   * <span class="preview">Fai clic su **Condividi** > **Condividi la visualizzazione corrente**</span>
+   * Fai clic su **Condividi** > **Condividi visualizzazione corrente**
 
-     <span class="preview">![Pulsante Condividi con tipo di record e opzioni di condivisione della visualizzazione](assets/share-button-with-record-type-and-view-sharing-options.png)</span>
+     ![Pulsante Condividi con tipo di record e opzioni di condivisione della visualizzazione](assets/share-button-with-record-type-and-view-sharing-options.png)
 
    Viene visualizzata la casella **Condividi visualizzazione** e la scheda **Condivisione interna** deve essere selezionata per impostazione predefinita.
 
@@ -216,7 +210,7 @@ Per condividere una visualizzazione pubblicamente in Workfront Planning:
    * Passa il puntatore del mouse sul nome della scheda della visualizzazione che desideri condividere e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Condividi**.
 
    ![Menu Altro per le visualizzazioni espanse con l&#39;opzione di condivisione](assets/more-menu-for-views-expanded-with-share-option.png)
-   * <span class="preview">Fai clic su **Condividi** > **Condividi la visualizzazione corrente**</span>
+   * Fai clic su **Condividi** > **Condividi visualizzazione corrente**
 
    Viene visualizzata la casella **Condividi visualizzazione**.
 
@@ -265,7 +259,7 @@ Questa sezione descrive come condividere una vista internamente.
 1. Nella scheda di una vista effettuare una delle seguenti operazioni:
 
    * Passa il puntatore del mouse sulla scheda della visualizzazione che desideri condividere e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Condividi** > **Copia collegamento** nella casella **Condividi visualizzazione**.
-   * <span class="preview">Fare clic su **Condividi** > **Copia collegamento visualizzazione**</span> > **Copia collegamento** nella casella **Condividi visualizzazione**.
+   * Fai clic su **Condividi** > **Copia collegamento visualizzazione** > **Copia collegamento** nella casella **Condividi visualizzazione**.
 
    Un collegamento alla visualizzazione viene copiato negli Appunti e si riceve una conferma nella parte inferiore dello schermo.
 
@@ -278,10 +272,8 @@ Gli utenti che accedono a un collegamento a una visualizzazione per la quale non
 1. (Condizionale) Se sei il manager di una visualizzazione, potresti ricevere una richiesta da un altro utente per accedere alla visualizzazione nelle seguenti aree:
 
    * Una notifica in-app
-
      ![Notifica in-app per la richiesta di accesso per la visualizzazione](assets/in-app-notification-for-access-request-for-view.png)
    * Una notifica e-mail
-
      ![Notifica in-app per la richiesta di accesso per la visualizzazione](assets/in-app-notification-for-access-request-for-view.png)
 1. (Condizionale) Dall’area di notifica in Workfront, fai clic sulla notifica in-app.
 Oppure
@@ -303,11 +295,11 @@ Dalla notifica e-mail, fai clic su **Visualizza tutte le notifiche**, quindi fai
 {{step1-to-planning}}
 
 1. Aprire l&#39;area di lavoro di cui si desidera interrompere la condivisione della visualizzazione, quindi fare clic su una scheda del tipo di record. Verrà aperta la pagina del tipo di record.
-1. Dalla scheda Visualizza, <span class="preview"> effettua una delle seguenti operazioni:</span>
+1. Nella scheda Visualizza eseguire una delle operazioni seguenti:
 
    * Passa il puntatore del mouse sul nome della scheda della visualizzazione che desideri condividere e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Condividi**.
 
-   * <span class="preview">Fai clic su **Condividi** > **Condividi la visualizzazione corrente**</span>
+   * Fai clic su **Condividi** > **Condividi visualizzazione corrente**
 
    Viene visualizzata la casella **Condividi visualizzazione**.
 1. Per rimuovere la condivisione interna di una vista, eseguire le operazioni seguenti:
