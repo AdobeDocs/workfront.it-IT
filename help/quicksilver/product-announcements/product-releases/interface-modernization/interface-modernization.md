@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e4f4c3502281ed46bb865faa401a0d2058a5e6cd
+source-git-commit: ba7939d80c074510f829e7f66edf083141cad5a5
 workflow-type: tm+mt
 source-wordcount: '5214'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Per tutte le altre modifiche apportate ad Adobe Workfront, vedi [Versioni del pr
 
 La pagina Portfolio nel pannello a sinistra di un gruppo è stata aggiornata per corrispondere ad altre aree dell’applicazione.
 
-Per visualizzare queste modifiche, vai a Configurazione > Gruppi > seleziona un gruppo > Porzioni.
+Per visualizzare queste modifiche, vai a Configurazione > Gruppi > seleziona un gruppo > Portfolio.
 
 ### Aggiornamenti dell’interfaccia alle finestre di dialogo dei sottogruppi
 
