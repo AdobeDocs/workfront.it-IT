@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: ef33a8bcdec76747434b5c5aaf62a743335fb10f
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 2%
@@ -154,18 +154,16 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Tipi di richiesta</strong> </td> 
-      <td> <p>Scegliere il tipo di richieste archiviate dall'argomento coda. Le opzioni visibili sono impostate nella scheda <strong>Dettagli coda</strong> del progetto. Questo è un campo obbligatorio. </p>
-
-   <p><b>NOTA</b>:
-
-   I tipi vengono visualizzati come selezione nell&#39;area Richieste solo se il tipo di richiesta è selezionato nelle pagine Dettagli coda e Argomento coda. Per informazioni sulla configurazione dell&#39;area Dettagli coda di un progetto, vedere <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Creare una coda di richieste</a>. </p> <p>Selezionare uno dei tipi seguenti:</p>
-   <ul>
-   <li>Segnalazione Bug</li>
-   <li>Ordine di modifica</li>
-   <li>Problema</li>
-   <li>Richiesta</li>
-   </ul> <p>L&#39;amministratore di Workfront potrebbe aver rinominato alcune di queste opzioni. </p> </td>
-   </tr> 
+      <td> <p>Scegliere il tipo di richieste archiviate dall'argomento coda. Le opzioni visibili sono impostate nella scheda <strong>Dettagli coda</strong> del progetto. Questo è un campo obbligatorio. </p> 
+       <p><b>NOTA</b>:</p>
+      <p>I tipi vengono visualizzati come selezione nell'area Richieste solo se il tipo di richiesta è selezionato nelle pagine Dettagli coda e Argomento coda. Per informazioni sulla configurazione dell'area Dettagli coda di un progetto, vedere <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Creare una coda di richieste</a>. </p> <p>Selezionare uno dei tipi seguenti:</p> 
+       <ul> 
+        <li>Segnalazione Bug</li> 
+        <li>Ordine di modifica</li> 
+        <li>Problema</li> 
+        <li>Richiesta</li> 
+       </ul> <p>L'amministratore di Workfront potrebbe aver rinominato alcune di queste opzioni. </p> </td> 
+     </tr> 
     </tbody> 
    </table>
 
