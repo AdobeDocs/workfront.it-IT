@@ -109,7 +109,7 @@ Per rendere più sicura e semplice la condivisione di un modulo di richiesta in 
 * Abbiamo rimosso le opzioni di gestione e contribuzione per gli utenti con cui condividi il modulo di richiesta. Ora gli utenti aggiunti possono solo inviare il modulo.
 * Nella scheda Condivisione pubblica vengono ora visualizzati il campo Collegamento e data di scadenza dopo l’abilitazione dell’opzione Crea collegamento pubblico.
 
-Per ulteriori informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Per ulteriori informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](https://experienceleague.adobe.com/it/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Espandere e comprimere tutti i raggruppamenti nella vista tabella
 
