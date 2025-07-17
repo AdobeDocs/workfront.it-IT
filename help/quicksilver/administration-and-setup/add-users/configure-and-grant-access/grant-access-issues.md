@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3c15f90f-ce87-484d-93a7-9eeb2963a798
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Iniziare a creare o modificare il livello di accesso, come descritto in [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Fai clic sull&#39;icona ingranaggio ![](assets/gear-icon-settings.png) sul pulsante **Visualizza** o **Modifica** a destra di Problemi, quindi seleziona le abilità che desideri concedere in **Ottimizza le impostazioni**.
+
+   ![ottimizzare le impostazioni dei problemi](assets/fine-tune-issues.png)
 
 1. (Facoltativo) Per limitare le autorizzazioni ereditate per i problemi di oggetti di livello superiore, fare clic su **Imposta restrizioni aggiuntive**, quindi selezionare **Non ereditare mai l&#39;accesso ai documenti da progetti, attività, problemi, ecc**.
 

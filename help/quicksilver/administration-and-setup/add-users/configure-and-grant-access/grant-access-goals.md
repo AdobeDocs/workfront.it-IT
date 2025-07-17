@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -59,7 +59,6 @@ Per ulteriori informazioni sull&#39;accesso agli obiettivi di Workfront, vedere 
 1. Iniziare a creare o modificare il livello di accesso, come descritto in [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Fai clic sull&#39;opzione a destra di **Obiettivi** che desideri utilizzare per questo livello di accesso.
 
-   ![](assets/edit-access-level-goals.png)
 
    >[!NOTE]
    >

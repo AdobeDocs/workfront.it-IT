@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aafa8886-82e2-41c4-8fcb-cbb9df2d55dd
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Iniziare a creare o modificare il livello di accesso, come descritto in [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Fai clic sull&#39;icona ingranaggio ![](assets/gear-icon-settings.png) sul pulsante **Visualizza** o **Modifica** a destra di Attività, quindi seleziona le abilità che desideri concedere in **Ottimizza le impostazioni**.
+
+   ![ottimizzazione impostazioni attività](assets/fine-tune-tasks.png)
 
    >[!NOTE]
    >

@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 915d1520-f5c4-4e33-b645-cb219289383c
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '699'
 ht-degree: 5%
 
 ---
@@ -47,6 +47,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Iniziare a creare o modificare il livello di accesso, come descritto in [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Fai clic sull&#39;icona ingranaggio ![](assets/gear-icon-settings.png) sul pulsante **Visualizza** o **Modifica** a destra di Team, quindi seleziona le abilità che desideri concedere in **Ottimizza le impostazioni**.
+
+   ![ottimizza team](assets/fine-tune-teams.png)
 
    * **Visualizza**: se stai configurando il modo in cui gli utenti con una licenza possono visualizzare i team, modifica una delle seguenti opzioni:
 
@@ -103,6 +105,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
         </tr>
        </tbody>
       </table>
+
+
 
 1. Fare clic sulla X per chiudere la casella **Ottimizza impostazioni**.
 1. (Facoltativo) Per configurare le impostazioni di accesso per altri oggetti e aree nel livello di accesso su cui stai lavorando, continua con uno degli articoli elencati in [Configura l&#39;accesso ad Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), ad esempio [Concedi l&#39;accesso alle attività](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) e [Concedi l&#39;accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).

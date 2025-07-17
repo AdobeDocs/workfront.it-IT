@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4fb6eefd-74dd-4941-91d4-0e5f637febf3
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 1%
@@ -53,7 +53,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Iniziare a creare o modificare il livello di accesso, come descritto in [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Fai clic sull&#39;icona a forma di ingranaggio ![](assets/gear-icon-settings.png) sul pulsante **Visualizza** o **Modifica** a destra di Filtri, quindi seleziona le funzionalità che desideri concedere in **Ottimizza le impostazioni**.
 
-   ![](assets/gear-icon-filters-dashboards-groupings.jpg)
+   ![](assets/gear-icon-filters-dashboards-groupings.png)
 
    Per impostazione predefinita, gli utenti con una licenza Pianificazione, Lavoro, Revisore o Richiesta dispongono di capacità di visualizzazione e modifica complete. Gli utenti con una licenza per utenti esterni non hanno accesso a filtri, viste e raggruppamenti.
 

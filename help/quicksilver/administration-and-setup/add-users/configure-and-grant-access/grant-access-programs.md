@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 169f6357-1fbb-43e0-83af-1c4be682ddbf
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Iniziare a creare o modificare il livello di accesso, come descritto in [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Fai clic sull&#39;icona a forma di ingranaggio ![](assets/gear-icon-settings.png) sul pulsante **Visualizza** o **Modifica** a destra di Programmi, quindi seleziona le funzionalità che desideri concedere in **Ottimizza le impostazioni**.
+
+   ![ottimizzare le impostazioni del programma](assets/fine-tune-programs.png)
 
    Per informazioni sulle operazioni che gli utenti di ogni livello di accesso possono eseguire con i programmi, vedere la sezione [Programmi](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#programs) nell&#39;articolo [Funzionalità disponibile per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 

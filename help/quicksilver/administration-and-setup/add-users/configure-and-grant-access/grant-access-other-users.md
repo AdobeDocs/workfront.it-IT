@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '767'
 ht-degree: 1%
 
 ---
@@ -71,6 +71,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    1. Disabilita **Visualizza info contatto**, quindi fai clic sulla X per chiudere la casella **Ottimizza le impostazioni**.
 
+      ![ottimizzare le impostazioni utente](assets/fine-tune-users.png)
+
 1. Per modificare la possibilità degli utenti con l&#39;accesso alla licenza Pianificazione di modificare altri utenti, fare clic sull&#39;icona a forma di ingranaggio ![](assets/gear-icon-settings.png) sul pulsante **Modifica** a destra di **Utenti**, quindi selezionare le funzionalità che si desidera concedere:
 
    <table style="table-layout:auto"> 
@@ -80,12 +82,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      <tr> 
       <td role="rowheader"><strong>Crea</strong> </td> 
       <td> <p>Consente agli utenti di creare utenti.<br>Questa opzione è attivata per impostazione predefinita.</p> 
-      &lt;!—
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Assicurati che questa modifica sia stata apportata prima di rimuovere queste 2 note. Il 29 marzo, il documento req afferma che ciò dipende dai risultati delle indagini.</p>
-
-       &lt;p>&lt;b>NOTA&lt;/b>: questa opzione non è disponibile se l’organizzazione è stata integrata in Adobe Admin Console. Per ulteriori informazioni, rivolgersi all&#39;amministratore di rete o IT.&lt;/p>
-       —> &lt;/td>
-   </tr> 
+     <p><b>NOTA</b>: questa opzione non è disponibile se l'organizzazione è stata integrata in Adobe Admin Console. Per ulteriori informazioni, rivolgersi all'amministratore di rete o IT.</p>
+        </td>  
+     </tr> 
      <tr> 
       <td role="rowheader"><strong>Elimina</strong> </td> 
       <td> <p> Consente agli utenti di eliminare gli utenti che hanno creato personalmente.<br>Questa opzione è attivata per impostazione predefinita.</p> <p><b>NOTA</b>: questa opzione non è disponibile se l'organizzazione è stata integrata in Adobe Admin Console. Per ulteriori informazioni, rivolgersi all'amministratore di rete o IT.</p> </td> 
