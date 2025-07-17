@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 1ab909022dad1acd1502cdc2bd8ba2d596c669e8
+source-git-commit: 53c5c970f2bfd0191c053baec25bd29f11b6272d
 workflow-type: tm+mt
-source-wordcount: '1801'
+source-wordcount: '1794'
 ht-degree: 3%
 
 ---
@@ -58,15 +58,33 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Rilascio rapido</strong></td>
         <td><strong>Ogni trimestre</strong></td>
     </tr>
-    <tr>
+        <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiornamento visualizzatore bozze desktop</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-            <p>Il Visualizzatore bozze desktop è stato aggiornato alla versione 2.1.50. Questo aggiornamento include aggiornamenti interni degli strumenti e non influisce sulle funzionalità dell’utente finale.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Integrazione di Adobe Express e Workfront Proof</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>Siamo entusiasti di annunciare una nuova integrazione tra Adobe Express e Workfront Proof.</p>
         </td>
         <td>sabato 13 giugno 2025</td>
         <td>sabato 13 giugno 2025</td>
         <td>sabato 13 giugno 2025</td>
     </tr> 
+    <!--<tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Desktop Proofing Viewer Update</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>The Desktop Proofing Viewer has been updated to version 2.1.50. This update includes internal tooling updates and does not impact end-user functionality.
+            <ul>
+            <li>Streamline collaboration between creative, legal, and compliance teams to reduce time-to-publish while maintaining oversight</li>
+            <li>Conduct deep reviews using drawing markups, annotations, and commenting with the Workfront proofing viewer</li>
+            <li>Meet enterprise compliance standards with electronic signatures and full audit logs</li>
+            <li>Require approval on any remixed files from an Express branded template</li>
+            <li>Map an Express template to a multi-stage review and approval workflow using advanced proof templates</li>
+            </ul>
+            <p>Note: The integration must be enabled for your accounts by the Adobe Product Team.</p>
+            </p>
+        </td>
+        <td>July 17, 2025</td>
+        <td>July 17, 2025</td>
+        <td>July 17, 2025</td>
+    </tr> -->
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuova integrazione di Proofing e GenStudio for Performance Marketing</a>
@@ -332,7 +350,7 @@ Stiamo aggiornando l’interfaccia in Adobe Workfront per migliorare l’esperie
 
 ### Miglioramenti apportati a Workfront Fusion
 
-Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione di rilascio standard. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione di rilascio standard. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Miglioramenti di Workfront Planning
 
@@ -370,7 +388,7 @@ Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianific
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Aggiornamenti dei corsi di formazione
 
