@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: a5b7683bffa6c63d7feb45e5c38404185d3f2b44
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '720'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Panoramica dell’Assistente di Adobe Workfront Planning AI
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
 
 
 {{planning-important-intro}}
@@ -45,7 +45,7 @@ I comandi dell’utente e l’esecuzione di tali comandi da parte dell’IA coll
 
 * Puoi utilizzare i comandi per annullare le azioni. Ad esempio, puoi digitare &quot;Annulla ultima modifica&quot; per ripristinare la modifica.
 
-* <span class="preview"> Durante la creazione, l&#39;aggiornamento o l&#39;eliminazione di un oggetto tramite l&#39;Assistente IA, l&#39;Assistente AI visualizza le azioni previste e richiede conferma. Puoi quindi confermare o annullare le azioni. </span>
+* Durante la creazione, l’aggiornamento o l’eliminazione di un oggetto tramite l’Assistente IA, l’Assistente AI visualizza le azioni previste e richiede una conferma. Puoi quindi confermare o annullare le azioni.
 
 ## Funzionalità attualmente disponibile per l’Assistente IA
 
