@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '3708'
+source-wordcount: '3750'
 ht-degree: 2%
 
 ---
@@ -66,9 +66,9 @@ Per informazioni sulle visualizzazioni record, vedere [Gestione visualizzazioni 
    </td> 
    </tr> 
   </tr> 
-  <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront*</p></td> 
-   <td><p> Standard </p>
+    <td role="rowheader"><p>Licenza Adobe Workfront*</p></td> 
+   <td><p> Standard per creare ed eliminare viste</p>
+   <p>Collaboratore o versione successiva per aggiornare gli elementi di visualizzazione</p>
    <p>Workfront Planning non è disponibile per le licenze Workfront legacy</p> 
   </td> 
   </tr> 
@@ -81,7 +81,13 @@ Per informazioni sulle visualizzazioni record, vedere [Gestione visualizzazioni 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
    <td>   <p>Gestire le autorizzazioni per una visualizzazione</p>  
    <p>Autorizzazioni di visualizzazione a una visualizzazione per modificare temporaneamente le impostazioni di visualizzazione o per duplicarla</p> </td> 
-  </tr>  
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Modello layout</p></td>
+   <td> Agli utenti con una licenza Light o Contributor deve essere assegnato un modello di layout che includa Planning.
+   <p>Per impostazione predefinita, le aree Pianificazione sono attivate dagli utenti standard e dagli amministratori di sistema.</p></div></li></ul>
+</td>
+  </tr>
 </tbody> 
 </table>
 

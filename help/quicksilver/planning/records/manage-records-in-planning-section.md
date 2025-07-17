@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1734'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 # Gestire le connessioni record dagli oggetti Workfront
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 {{planning-important-intro}}
 
@@ -32,8 +32,6 @@ ht-degree: 1%
 ## Requisiti di accesso
 
 +++ Espandere per visualizzare i requisiti di accesso.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto">
  <col>
@@ -72,8 +70,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <p>Per poter accedere a Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p>
 <p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata Adobe per Workfront</a>. </p>
    </td>
-
-</tr>
+  </tr>
   </tr>
   <tr>
    <td role="rowheader"><p>Licenza Adobe Workfront*</p></td>
@@ -94,17 +91,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <p>In Workfront, visualizzare o autorizzazioni superiori per un progetto, portfolio o programma</a> </p> 
    <p>In Workfront Planning:
    <ul><li>
-   Visualizza le autorizzazioni per un'area di lavoro <span class="preview"> e il tipo di record</span> per visualizzare tutti i record connessi </li>
+   Visualizzare le autorizzazioni per un'area di lavoro e un tipo di record per visualizzare tutti i record collegati </li>
    oppure
-   <li> Autorizzazioni Contribute o superiori per un'area di lavoro <span class="preview"> e un tipo di record</span> per connettere o disconnettere record</a></li></ul> </p>  
+   <li> Autorizzazioni Contribute o superiori per un'area di lavoro e un tipo di record per connettere o disconnettere i record</a></li></ul> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro di Workfront Planning, incluse quelle non create</p> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Modello layout</p></td>
-   <td> <p>Nell'ambiente di produzione, tutti gli utenti, inclusi gli amministratori di sistema, devono essere assegnati a un modello di layout che includa Planning.</p>
-<p><span class="preview">Nell'ambiente di anteprima, per impostazione predefinita, Planning è abilitato per utenti standard e amministratori di sistema.</span></p>  </p>  
-</td>
   </tr>
  </tbody>
 </table>

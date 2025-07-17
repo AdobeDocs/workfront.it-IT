@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '3414'
+source-wordcount: '3306'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Connetti record
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
 
 {{planning-important-intro}}
 
@@ -59,8 +59,6 @@ Per un esempio di connessione dei tipi di record, vedere [Esempio di connessione
 ## Requisiti di accesso
 
 +++ Espandere per visualizzare i requisiti di accesso.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -118,15 +116,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
-   <td>   <p>Autorizzazioni Contribute o superiori per un'area di lavoro <span class="preview"> e un tipo di record</span> per connettere i record </p>  
-   <p>Visualizza o autorizzazioni superiori per un'area di lavoro <span class="preview">e tipo di record</span> per visualizzare tutte le connessioni a oggetti e campi da altre applicazioni, indipendentemente dall'accesso all'altra applicazione. </p>
+   <td>   <p>Autorizzazioni Contribute o superiori per un'area di lavoro e un tipo di record per la connessione dei record </p>  
+   <p>Visualizzare o autorizzazioni superiori per un'area di lavoro e un tipo di record per visualizzare tutte le connessioni a oggetti e campi da altre applicazioni, indipendentemente dall'accesso all'altra applicazione. </p>
    <p>Visualizza o autorizzazioni superiori per gli oggetti che si desidera collegare da Workfront o Experience Manager Assets. </p>
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle che non hanno creato.</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Modello layout</p></td> 
-   <td> <p>Nell'ambiente di produzione, tutti gli utenti, inclusi gli amministratori di sistema, devono essere assegnati a un modello di layout che includa Planning.</p>
-<p><span class="preview">Nell'ambiente di anteprima, per impostazione predefinita, Planning è abilitato per utenti standard e amministratori di sistema.</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -158,7 +151,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 * Campi record connessi nella visualizzazione tabella.
 * La casella di anteprima o la pagina del record nei campi del record connesso della scheda Dettagli.
 * La casella di anteprima o la pagina del record nella scheda Connessioni.
-* Pagina del record in una scheda <span class="preview">Record connessi</span>.
+* Pagina del record in una scheda della pagina Record collegati.
 
 ### Collegare i record di Workfront Planning dalla vista tabella o dall&#39;area Dettagli di un record
 
@@ -231,7 +224,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
    >* Le informazioni relative al campo data degli oggetti di Workfront vengono visualizzate nel formato 24 ore in Workfront Planning, indipendentemente da come vengono visualizzate in Workfront.
    >
-   >   Ad esempio, se la Data inizio pianificata di un progetto in Workfront è visualizzata come 15:00 in Workfront Planning in un campo di ricerca importato.
+   >   Se, ad esempio, la Data inizio pianificata di un progetto viene visualizzata come 3:00 PM in Workfront, verrà visualizzata come 15:00 in Workfront Planning in un campo di ricerca importato.
 
 1. (Facoltativo) Chiudere la pagina del tipo di record e passare all&#39;area di lavoro selezionata.
 1. Fare clic sulla scheda del tipo di record a cui si è collegati.
@@ -344,7 +337,7 @@ Dopo aver creato una connessione tra un tipo di record e Adobe Experience Manage
 
 >[!NOTE]
 >
->I record di pianificazione e i relativi campi sono accessibili da Experience Manager Assets quando l’amministratore Workfront configura la mappatura dei metadati tramite l’integrazione tra Workfront e Adobe Experience Manager Assets. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>I record di pianificazione e i relativi campi sono accessibili da Experience Manager Assets quando l’amministratore Workfront configura la mappatura dei metadati tramite l’integrazione tra Workfront e Adobe Experience Manager Assets. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 Per collegare i record con le risorse di Experience Manager:
 
@@ -461,8 +454,7 @@ I record e gli oggetti vengono aggiunti immediatamente.
 
    Il record viene immediatamente disconnesso da tutte le aree di Workfront Planning o da altre applicazioni in cui potrebbe essere visualizzato come connesso. Vengono rimossi anche eventuali valori dei campi di ricerca.
 
-### Connetti record dalla <span class="preview">pagina Record connessi</span> di un record
-
+### Collegare i record dalla pagina Record connessi di un record
 
 1. Passare a una visualizzazione di un tipo di record connesso ad altri tipi di record o tipi di oggetto di Planning da altre applicazioni.
 1. Seguire i passaggi descritti nelle sottosezioni precedenti per trovare un record nella visualizzazione che si desidera connettere ad altri record o oggetti.
@@ -470,7 +462,7 @@ I record e gli oggetti vengono aggiunti immediatamente.
 
    Viene visualizzata la pagina di anteprima.
 1. Fai clic sull&#39;icona **Apri in una nuova scheda** ![Apri i dettagli in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) per aprire la pagina del record.
-1. Fare clic su una scheda <span class="preview">Pagina record connessi</span> esistente nella pagina del record. Devi innanzitutto creare una <span class="preview">pagina di record connessi</span>. Per informazioni, vedere [Gestire il layout della pagina record](/help/quicksilver/planning/records/manage-the-record-page.md).
+1. Fare clic sulla scheda di una pagina Record connessi esistente nella pagina del record. È innanzitutto necessario creare una pagina Record connessi. Per informazioni, vedere [Gestire il layout della pagina record](/help/quicksilver/planning/records/manage-the-record-page.md).
 
    Nella vista a tabella viene visualizzata una pagina del tipo di record connesso.
 

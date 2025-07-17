@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '327'
 ht-degree: 2%
 
 ---
 
 # Eliminare le visualizzazioni record
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -29,8 +29,6 @@ La vista viene eliminata per tutti gli utenti che dispongono delle autorizzazion
 ## Requisiti di accesso
 
 +++ Espandere per visualizzare i requisiti di accesso.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -85,11 +83,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td>   <p>Gestire le autorizzazioni per una visualizzazione</p>  
    <p>Autorizzazioni di visualizzazione a una visualizzazione per modificare temporaneamente le impostazioni di visualizzazione o per duplicarla</p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Modello layout</p></td> 
-   <td> <p>Nell'ambiente di produzione, tutti gli utenti, inclusi gli amministratori di sistema, devono essere assegnati a un modello di layout che includa Planning.</p>
-<p><span class="preview">Nell'ambiente di anteprima, per impostazione predefinita, Planning è abilitato per utenti standard e amministratori di sistema.</span></p></td> 
-  </tr> 
 </tbody> 
 </table>
 
@@ -111,9 +104,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Per impostazione predefinita, tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
 
-1. <span class="preview">Passa il puntatore del mouse su uno dei nomi della visualizzazione nella scheda della visualizzazione, quindi fai clic su **Altro** ![Altro menu](assets/more-menu.png) a sinistra del nome della visualizzazione, quindi fai clic su **Elimina**.</span>
+1. Passa il puntatore del mouse su uno dei nomi della visualizzazione nella scheda della visualizzazione, quindi fai clic su **Altro** ![Altro menu](assets/more-menu.png) a sinistra del nome della visualizzazione, quindi fai clic su **Elimina**.
 
-   <span class="preview">![Visualizza altro menu in una visualizzazione record](assets/view-more-menu-with-duplicate-option.png)</span>
+   ![Visualizza altro menu in una visualizzazione record](assets/view-more-menu-with-duplicate-option.png)
 
    >[!TIP]
    >

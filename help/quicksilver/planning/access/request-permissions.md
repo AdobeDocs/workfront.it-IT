@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '629'
 ht-degree: 1%
 
 ---
 
 # Richiedere le autorizzazioni per una visualizzazione o un’area di lavoro
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -101,19 +101,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <li><p>Visualizzare, contribuire o gestire in un'area di lavoro</p></li></ul>  
    <p>Solo gli utenti con le autorizzazioni di gestione per un’area di lavoro e una visualizzazione possono condividere una visualizzazione pubblicamente.</p></td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Modello layout</p></td> 
-   <td> 
-   <p>Nell'ambiente di produzione, tutti gli utenti, inclusi gli amministratori di sistema, devono essere assegnati a un modello di layout che includa le aree Planning.</p>
-   <div class="preview">
-<p> Nell’ambiente di anteprima, agli utenti con una licenza Light o Contributor deve essere assegnato un modello di layout che includa l’opzione Planning nelle seguenti aree:</p>
-   <ul><li>Menu principale</li>
-   <li>Pannello a sinistra di progetti, portfolio e programmi</li>
-   </ul>
-   <p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Creare e gestire modelli di layout</a>.</p>
-   <p>Per impostazione predefinita, le aree Pianificazione sono attivate dagli utenti standard e dagli amministratori di sistema.</p></div>
-   </td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>Modello layout</p></td>
+   <td> Agli utenti con una licenza Light o Contributor deve essere assegnato un modello di layout che includa Planning.
+   <p>Per impostazione predefinita, le aree Pianificazione sono attivate dagli utenti standard e dagli amministratori di sistema.</p></div></li></ul>
+
+</td>
+  </tr>
+
 </tbody> 
 </table>
 
@@ -140,10 +135,8 @@ Quando qualcuno condivide con te un collegamento a un’area di lavoro o a una v
 
    Tutti gli utenti con autorizzazioni di gestione per la visualizzazione o l’area di lavoro ricevono le notifiche seguenti per la richiesta di accesso:
    * Una notifica in-app
-
      ![Notifica in-app per la richiesta di accesso](assets/in-app-notification-for-access-request.png)
    * Una notifica e-mail
-
      ![Notifica e-mail per la richiesta di accesso](assets/email-notification-for-access-request.png)
 
 1. (Facoltativo) Quando il gestore della visualizzazione o dell’area di lavoro ti concede le autorizzazioni per la visualizzazione o l’area di lavoro, ricevi una notifica e-mail e una notifica in-app con la conferma che l’autorizzazione è stata concessa. <!--check this - I was not able to test this, but Isk confirmed.-->

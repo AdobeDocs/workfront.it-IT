@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '2250'
+source-wordcount: '2115'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Gestire il layout della pagina record
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -41,8 +41,6 @@ Per informazioni, vedere i seguenti articoli:
 ## Requisiti di accesso
 
 +++ Espandere per visualizzare i requisiti di accesso.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto">
  <col>
@@ -99,15 +97,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <tr>
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td>
    <td>
-   <p>Autorizzazioni Contribute o superiori per un'area di lavoro <span class="preview"> e un tipo di record</span> </a> </p>  
+   <p>Autorizzazioni Contribute o superiori per un'area di lavoro e tipo di record </a> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Modello layout</p></td>
-   <td> <p>Nell'ambiente di produzione, tutti gli utenti, inclusi gli amministratori di sistema, devono essere assegnati a un modello di layout che includa Planning.</p>
-<p><span class="preview">Nell'ambiente di anteprima, per impostazione predefinita, Planning è abilitato per utenti standard e amministratori di sistema.</span></p>  
-</td>
   </tr>
  </tbody>
 </table>
@@ -262,48 +254,43 @@ Si verificano le seguenti situazioni:
 
    Tutte le modifiche apportate al layout dell&#39;anteprima record o del salvataggio automatico della pagina.
 
-## Aggiungi <span class="preview">Pagina record connessi</span> a un record
+## Aggiungere una pagina Record connessi a un record
 
-È possibile visualizzare informazioni da record o oggetti connessi aggiungendo una scheda per una <span class="preview">pagina record connessi</span> a un record.
+È possibile visualizzare informazioni da record o oggetti connessi aggiungendo a un record una scheda per la pagina Record connessi.
 
-Nell’ambiente di produzione, le informazioni dei record o degli oggetti collegati vengono visualizzate in una vista tabella di sola lettura.
+Le informazioni dei record collegati possono essere modificate nella vista tabella. Le informazioni provenienti dagli oggetti connessi da un&#39;altra applicazione non sono modificabili nella vista tabella.
 
-<span class="preview">Nell&#39;ambiente di anteprima è possibile modificare le informazioni dei record collegati nella vista tabella. Le informazioni degli oggetti connessi da un&#39;altra applicazione non sono modificabili nella vista tabella.</span>
+Quando si aggiunge una pagina Record connessi a un record, tenere presente quanto segue:
 
-Quando si aggiunge una <span class="preview">pagina Record connessi</span> a un record, tenere presente quanto segue:
+* È possibile aggiungere una pagina Record collegati a un record dopo aver connesso tipi di record o di oggetti al tipo di record dalla vista tabella di un tipo di record.
 
-* È possibile aggiungere una <span class="preview">pagina Record connessi</span> a un record dopo aver connesso tipi di record o di oggetti al tipo di record dalla vista tabella di un tipo di record.
+* Non è possibile aggiungere una pagina Record connessi all&#39;area di anteprima di un record.
 
-* Impossibile aggiungere una <span class="preview">pagina Record connessi</span> all&#39;area di anteprima di un record.
+* Nelle pagine Record collegati vengono visualizzati solo gli oggetti o i record collegati di un oggetto o di un tipo di record in una visualizzazione tabella. La pagina non visualizza tutti i record di quel tipo nella vista tabella.
 
-* <span class="preview">Nelle pagine dei record connessi</span> vengono visualizzati solo gli oggetti o i record connessi di un oggetto o di un tipo di record in una vista tabella. La pagina non visualizza tutti i record di quel tipo nella vista tabella.
+* Dopo aver aggiunto una pagina Record connessi a un record, la scheda della pagina è visibile dall&#39;area di anteprima del record, ma è vuota. È necessario passare alla pagina intera per visualizzare la vista tabella per il record connesso. <!--this might have changed? check and take disclaimer out-->
 
-* Dopo aver aggiunto una <span class="preview">pagina Record connessi</span> a un record, la scheda della pagina è visibile dall&#39;area di anteprima del record, ma è vuota. È necessario passare alla pagina intera per visualizzare la vista tabella per il record connesso. <!--this might have changed? check and take disclaimer out-->
-
-* È possibile aggiungere <span class="preview">Pagine record connessi</span> per i tipi di oggetto o record connessi seguenti:
+* È possibile aggiungere pagine Record collegati per i tipi di oggetto o record connessi seguenti:
 
    * Tipi di record di Workfront Planning
    * Progetti, programmi, portfolio, gruppi o aziende di Workfront. È possibile visualizzare gli oggetti Workfront connessi anche se non si dispone delle autorizzazioni necessarie per accedervi in Workfront.
 
   >[!NOTE]
   >
-  >   Impossibile aggiungere una <span class="preview">pagina Record connessi</span> per i record AEM Assets connessi.
+  >   Non è possibile aggiungere una pagina Record connessi per i record AEM Assets connessi.
 
 
-Per aggiungere una <span class="preview">pagina record connessi</span>:
+Per aggiungere una pagina Record connessi:
 
 1. Nella visualizzazione della pagina di un record fare clic sul nome di un record per aprirlo, quindi fare clic sull&#39;icona **Apri in una nuova scheda** ![Apri i dettagli in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro della pagina di anteprima.
 1. Fare clic su **Aggiungi pagina**.
 
-   <div class="preview">
 
    Viene visualizzata la casella **Crea pagina**.
 
    ![Aggiungi record connessi a pagina modale](assets/add-connection-view-page-modal.png)
 
-   </div>
-
-1. Aggiungi **Nome pagina**, fai clic su **<span class="preview">Pagina record connessi</span>**, quindi fai clic su **Crea**.
+1. Aggiungi **Nome pagina**, fai clic su **Pagina record connessi**, quindi fai clic su **Crea**.
 
    Viene aggiunta una nuova scheda alla pagina del record.
 1. Cercare o fare clic sul nome di un record o di un tipo di oggetto connesso nell&#39;elenco.
@@ -320,12 +307,10 @@ Tutti i campi del record connesso vengono visualizzati nella vista a tabella del
 
    * Fare clic sul nome di un record. Verrà aperta la pagina del record in una nuova scheda.
 
-     <span class="preview">Nell&#39;ambiente di anteprima viene aperta la pagina di anteprima del record. Fai clic sull&#39;icona **Apri in una nuova scheda** ![Apri in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro per aprire la pagina del record connesso.</span>
+     Verrà aperta la pagina di anteprima del record. Fai clic sull&#39;icona **Apri in una nuova scheda** ![Apri in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro per aprire la pagina del record connesso.
 
    * Fai clic su **Connetti** per connettere altri record, quindi fai clic all&#39;esterno della casella di connessione per chiuderla. I nuovi record vengono aggiunti automaticamente alla tabella.
-   * <span class="preview">Modificare le informazioni dei record connessi nella visualizzazione tabella. </span>
-
-   <div class="preview">
+   * Modificare le informazioni dei record collegati all&#39;interno della vista tabella.
 
    * Passa il puntatore del mouse sul nome di un record connesso, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png), quindi fai clic su una delle seguenti opzioni:
       * Visualizza
@@ -345,10 +330,7 @@ Tutti i campi del record connesso vengono visualizzati nella vista a tabella del
 
    * Modifica in linea qualsiasi record della tabella nella pagina Record connessi. Gli oggetti Workfront vengono visualizzati in una vista tabella di sola lettura e non è possibile modificarli.
 
-   </div>
-
-
-1. (Facoltativo) Fare doppio clic sul nome della scheda <span class="preview">Record connessi</span>
+1. (Facoltativo) Fare doppio clic sul nome della scheda della pagina Record collegati
 
    Oppure
 
@@ -368,7 +350,7 @@ Tutti i campi del record connesso vengono visualizzati nella vista a tabella del
    >
 
 1. Fai clic su **Connetti** per aggiungere o rimuovere record. Per informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md)
-1. (Facoltativo) Passa il puntatore del mouse sul nome della scheda <span class="preview">Record connessi</span>, fai clic su **Altro** ![Altro menu](assets/more-menu.png), quindi fai clic su **Elimina** per rimuoverlo dalla scheda.
+1. (Facoltativo) Passa il puntatore del mouse sul nome della scheda della pagina Record connessi, fai clic su **Altro** ![Altro menu](assets/more-menu.png), quindi fai clic su **Elimina** per rimuoverlo dalla scheda.
 
 
 

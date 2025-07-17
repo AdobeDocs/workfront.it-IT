@@ -3,12 +3,12 @@ title: Aggiungere un’approvazione a un modulo di richiesta in Adobe Workfront 
 description: È possibile aggiungere un processo di approvazione a un modulo di richiesta di Adobe Workfront Planning, per avviare un'approvazione per ogni richiesta sottomessa, prima di creare un record.
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '754'
 ht-degree: 1%
 
 ---
@@ -36,8 +36,6 @@ Per informazioni sull&#39;invio di una richiesta a un tipo di record per la crea
 ## Requisiti di accesso
 
 +++ Espandere per visualizzare i requisiti di accesso.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto">
  <col>
@@ -93,20 +91,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td>
    <td>
    <ul>
-   <li><p>Gestisci le autorizzazioni per un'area di lavoro <span class="preview"> e tipo di record</span></p></li>
+   <li><p>Gestire le autorizzazioni per un’area di lavoro e un tipo di record</p></li>
     <li><p>Gli amministratori di sistema possono gestire le aree di lavoro che non hanno creato. </p></li>
     </ul>
    <p>Per informazioni sulle autorizzazioni di condivisione per gli oggetti di Workfront Planning, vedere  
    <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Panoramica delle autorizzazioni di condivisione in Adobe Workfront Planning</a> 
   </td>
   </tr>
-<tr>
-   <td role="rowheader"><p>Modello layout</p></td>
-   <td> <p>Nell'ambiente di produzione, tutti gli utenti, inclusi gli amministratori di sistema, devono essere assegnati a un modello di layout che includa Planning.</p>
-<p><span class="preview">Nell'ambiente di anteprima, per impostazione predefinita, Planning è abilitato per utenti standard e amministratori di sistema.</span></p>
-</td>
-  </tr>
- </tbody>
+
+</tbody>
 </table>
 
 *Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
@@ -116,7 +109,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 ## Considerazioni sull’aggiunta di approvazioni a un modulo di richiesta
 
 * È possibile aggiungere uno o più approvatori a un modulo di richiesta. È possibile aggiungere solo utenti come approvatori.
-  <!--* <span class="preview">You can display approval information on a record created by submitting a request form in the Approved by and Approved date fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).</span>-->
+* <span class="preview">È possibile visualizzare le informazioni sull&#39;approvazione in un record creato inviando un modulo di richiesta nei campi Approvato da e Data approvata. Per informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).</span>
 * Quando si aggiungono più approvatori a un modulo di richiesta, tutti gli approvatori devono accettare la richiesta prima di creare un record in Workfront Planning.
 * Se tutti gli approvatori approvano la richiesta, viene creato un record per il tipo di record associato al modulo di richiesta.
 * Se almeno un approvatore rifiuta la richiesta e tutti gli altri la approvano, viene creata una richiesta per l&#39;area Richieste di Workfront, ma non viene creato alcun record per il tipo di record associato al modulo di richiesta.

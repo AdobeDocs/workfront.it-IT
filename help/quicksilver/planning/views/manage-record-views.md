@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1110'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Gestire le visualizzazioni record
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -53,8 +53,6 @@ Per ulteriori informazioni sulla gestione delle visualizzazioni record di Workfr
 ## Requisiti di accesso
 
 +++ Espandere per visualizzare i requisiti di accesso.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -95,7 +93,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licenza Adobe Workfront*</p></td> 
-   <td><p> Standard </p>
+   <td><p> Standard per creare ed eliminare viste</p>
+   <p>Collaboratore o versione successiva per aggiornare gli elementi di visualizzazione</p>
    <p>Workfront Planning non è disponibile per le licenze Workfront legacy</p> 
   </td> 
   </tr> 
@@ -109,11 +108,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td>   <p>Gestire le autorizzazioni per una visualizzazione</p>  
    <p>Autorizzazioni di visualizzazione a una visualizzazione per modificare temporaneamente le impostazioni di visualizzazione o per duplicarla</p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Modello layout</p></td> 
-   <td> <p>Nell'ambiente di produzione, tutti gli utenti, inclusi gli amministratori di sistema, devono essere assegnati a un modello di layout che includa Planning.</p>
-<p><span class="preview">Nell'ambiente di anteprima, per impostazione predefinita, Planning è abilitato per utenti standard e amministratori di sistema.</span></p></td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>Modello layout</p></td>
+   <td> Agli utenti con una licenza Light o Contributor deve essere assegnato un modello di layout che includa Planning.
+   <p>Per impostazione predefinita, le aree Pianificazione sono attivate dagli utenti standard e dagli amministratori di sistema.</p></div></li></ul>
+</td>
+  </tr>
 </tbody> 
 </table>
 
@@ -160,7 +160,7 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
 | Visualizzare i record in un calendario |           |              | ✓ |
 | Raggruppa record | ✓ | ✓ |
 | Ordinare i record | ✓ |              |
-| <span class="preview">Record codice colore</span> | <span class="preview">✓</span> | ✓ | ✓ |
+| Record codice colore | ✓ | ✓ | ✓ |
 | Raggruppamenti di codici colore |           | ✓ |
 | Cerca record specifici | ✓ | ✓ |
 | Condividere la visualizzazione con altri utenti | ✓ | ✓ | ✓ |
@@ -168,7 +168,7 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
 | Visualizza record per anno e trimestre |           | ✓ |    |
 | Visualizza i record per mese |           | ✓ | ✓ |
 | Visualizza record per settimana |           |               | ✓ |
-| <span class="preview">Esporta informazioni da una visualizzazione</span> | <span class="preview">✓</span> |               |    |
+| Esportare informazioni da una vista | ✓ |               |    |
 
 
 ## Creare o modificare le viste {#create-or-edit-views}

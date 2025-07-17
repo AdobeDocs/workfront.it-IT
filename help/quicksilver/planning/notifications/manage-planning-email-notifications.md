@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '679'
 ht-degree: 1%
 
 ---
@@ -91,10 +91,14 @@ ht-degree: 1%
    <td>   <p>Visualizza o autorizzazioni superiori per un'area di lavoro</a> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Modello layout</p></td> 
-   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> </td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>Modello layout</p></td>
+   <td> Agli utenti con una licenza Light o Contributor deve essere assegnato un modello di layout che includa Planning.
+   <p>Per impostazione predefinita, le aree Pianificazione sono attivate dagli utenti standard e dagli amministratori di sistema.</p></div></li></ul>
+
+</td>
+  </tr>
+
 </tbody> 
 </table>
 

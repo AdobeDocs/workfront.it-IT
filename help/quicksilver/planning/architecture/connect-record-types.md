@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '2511'
+source-wordcount: '2499'
 ht-degree: 1%
 
 ---
@@ -45,8 +45,6 @@ Per un esempio di connessione di tipi di record e record, vedere [Esempio di con
 ## Requisiti di accesso
 
 +++ Espandere per visualizzare i requisiti di accesso.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -201,7 +199,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
    >* Le informazioni relative al campo data degli oggetti di Workfront vengono visualizzate nel formato 24 ore in Workfront Planning, indipendentemente da come vengono visualizzate in Workfront.
    >
-   >   Ad esempio, se la Data inizio pianificata di un progetto in Workfront è visualizzata come 15:00 in Workfront Planning in un campo di ricerca importato.
+   >   Se, ad esempio, la Data inizio pianificata di un progetto viene visualizzata come 3:00 PM in Workfront, verrà visualizzata come 15:00 in Workfront Planning in un campo di ricerca importato.
 
 1. (Condizionale e facoltativo) Se hai selezionato di connettere un oggetto Workfront, seleziona un **modulo personalizzato** dalla sezione **Collega solo gli oggetti che corrispondono a questi criteri**. Solo gli oggetti a cui sono allegati i moduli personalizzati selezionati possono essere collegati al tipo di record selezionato. È possibile selezionare più moduli.
 
@@ -213,7 +211,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    >[!NOTE]
    >
-   >L&#39;amministratore di Workfront può mappare i campi di Workfront Planning sui campi di Experience Manager Assets tramite la mappatura dei metadati in Workfront. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >L&#39;amministratore di Workfront può mappare i campi di Workfront Planning sui campi di Experience Manager Assets tramite la mappatura dei metadati in Workfront. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 1. (Condizionale) Se si è scelto di connettersi a Experience Manager Assets o a un tipo di record di Workfront Planning, selezionare una delle opzioni seguenti nell&#39;area **Aspetto record**:
 

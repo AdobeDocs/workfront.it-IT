@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
 
 # Panoramica sui record collegati
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>  -->
 
 {{planning-important-intro}}
 
@@ -41,8 +41,8 @@ Per informazioni su come connettere i record tra loro o a un altro oggetto, vede
 
   I valori dei campi di ricerca vengono inseriti automaticamente nel record di Workfront Planning da cui si sta eseguendo il collegamento dopo l&#39;aggiornamento nel record o nell&#39;oggetto originale.
 
-* Tutti coloro che dispongono dell&#39;accesso a Workfront Planning and View o di autorizzazioni superiori per l&#39;area di lavoro <span class="preview"> e un tipo di record</span> possono visualizzare le connessioni che si creano tra record o tra record e oggetti di altre applicazioni. Possono visualizzare i record e gli oggetti connessi indipendentemente dalle autorizzazioni di cui dispongono nelle applicazioni a cui ci si connette.
-* È possibile visualizzare e modificare le connessioni di tutti gli altri utenti se si dispone delle autorizzazioni Gestione per l&#39;area di lavoro <span class="preview"> e il tipo di record</span> in cui si trovano i record connessi.
+* Tutti coloro che dispongono dell&#39;accesso a Workfront Planning and View o di autorizzazioni superiori per l&#39;area di lavoro e un tipo di record possono visualizzare le connessioni che si creano tra record o tra record e oggetti di altre applicazioni. Possono visualizzare i record e gli oggetti connessi indipendentemente dalle autorizzazioni di cui dispongono nelle applicazioni a cui ci si connette.
+* È possibile visualizzare e modificare le connessioni di tutti gli altri utenti se si dispone delle autorizzazioni Gestione per l&#39;area di lavoro e il tipo di record in cui si trovano i record connessi.
 * È possibile connettere un record a uno o più oggetti di un&#39;altra applicazione, a seconda del tipo di connessione selezionata durante la connessione dei tipi di record. Per ulteriori informazioni, vedere la sezione &quot;Tipi di connessione&quot; nell&#39;articolo [Panoramica sui tipi di record connessi](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Aree in cui è possibile collegare i record
@@ -54,7 +54,7 @@ Per informazioni su come connettere i record tra loro o a un altro oggetto, vede
    * Campi record collegati nella vista tabella di un tipo di record in Planning.
    * L&#39;anteprima o la pagina del record nei campi del record collegato nella scheda Dettagli.
    * L&#39;anteprima o la pagina del record nella scheda Connessioni.
-   * Pagina del record in una scheda <span class="preview">Record connessi</span> di un record connesso.
+   * Pagina del record in una scheda della pagina Record connessi di un record connesso.
 
 * È possibile collegare oggetti Workfront ai record di Workfront Planning nelle seguenti aree di Workfront:
 

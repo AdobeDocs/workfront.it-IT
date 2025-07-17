@@ -3,12 +3,12 @@ title: Creazione e gestione di un modulo di richiesta in Adobe Workfront Plannin
 description: Dopo aver selezionato un tipo di record nell'area Adobe Workfront Planning, è possibile creare un modulo di richiesta e associarlo a tale tipo di record. Puoi quindi condividere un collegamento con altri utenti interni o esterni. Gli utenti con un collegamento al modulo possono compilare i valori dei campi e, inviandolo, possono aggiungere un nuovo record per il tipo di record ad esso associato.
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2242'
 ht-degree: 1%
 
 ---
@@ -35,8 +35,6 @@ Per informazioni sull&#39;invio di una richiesta a un tipo di record per la crea
 ## Requisiti di accesso
 
 +++ Espandere per visualizzare i requisiti di accesso.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto">
  <col>
@@ -93,18 +91,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td>
    <td>
    <ul>
-   <li><p>Gestisci le autorizzazioni per un'area di lavoro <span class="preview"> e tipo di record</span> </p></li>
+   <li><p>Gestire le autorizzazioni per un’area di lavoro e un tipo di record</p></li>
     <li><p>Gli amministratori di sistema possono gestire le aree di lavoro che non hanno creato. </p></li>
     </ul>
    <p>Per informazioni sulle autorizzazioni di condivisione per gli oggetti di Workfront Planning, vedere  
    <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Panoramica delle autorizzazioni di condivisione in Adobe Workfront Planning</a> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Modello layout</p></td>
-   <td> <p>Nell'ambiente di produzione, tutti gli utenti, inclusi gli amministratori di sistema, devono essere assegnati a un modello di layout che includa Planning.</p>
-<p><span class="preview">Nell'ambiente di anteprima, per impostazione predefinita, Planning è abilitato per utenti standard e amministratori di sistema.</span></p>  
-</td>
   </tr>
  </tbody>
 </table>
@@ -124,8 +116,8 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
 
    * Non è possibile aggiungere campi dei tipi seguenti a un modulo di richiesta:
 
-      * Creato da e Ultima modifica da <!--Created by, Last modified by, <span class="preview">Approved by</span>-->
-      * Data di creazione e data dell&#39;ultima modifica <!--Created date, Last modified date, <span class="preview">Approved date</span>-->
+      * Creato da, Ultima modifica da, <span class="preview">Approvato da</span>
+      * Data di creazione, Data ultima modifica, <span class="preview">Data approvazione</span>
       * Formula
       * Campi di ricerca di oggetti Workfront
       * Campi di ricerca dei record connessi di Workfront Planning
@@ -229,6 +221,7 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
      Per ulteriori informazioni sull&#39;aggiunta di approvazioni ai moduli di richiesta, vedere [Aggiungere approvazione a un modulo di richiesta](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 1. (Facoltativo) Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del modulo nell&#39;intestazione, quindi fai clic su **Modifica** per aggiornare il nome del modulo.
+
 1. Fai clic su **Pubblica** per pubblicare il modulo e ottenere un collegamento univoco.
 
    Si verificano le seguenti situazioni:
@@ -236,47 +229,11 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
    * Il pulsante **Pubblica** è stato rimosso.
    * Il pulsante **Annulla pubblicazione** è stato aggiunto al modulo. Facendo clic su di esso, il modulo non sarà accessibile.
    * Un pulsante **Condividi** è stato aggiunto al modulo.
+   * Il modulo diventa disponibile nell’area Richieste del menu Principale in Workfront.
 
 1. Fai clic su **Condividi** per condividere il modulo con altri.
 
-   ![Casella di condivisione per il modulo di richiesta](assets/share-box-for-request-form.png)
-
-1. (Condizionale) Nell’ambiente di produzione, seleziona tra le seguenti opzioni per indicare quali tipi di utenti possono accedere a questo modulo:
-
-   * Chiunque con accesso alla visualizzazione, o superiore, all’area di lavoro
-   * Chiunque con accesso per contribuire, o superiore, all’area di lavoro
-   * Chiunque abbia il collegamento
-
-   >[!WARNING]
-   >
-   >* Quando si seleziona **Chiunque disponga del collegamento** può accedere al modulo e inviare un nuovo record, anche persone esterne all&#39;organizzazione che non dispongono di un account Workfront.
-   >
-   >* Un modulo contenente i seguenti tipi di campi non può essere condiviso pubblicamente:
-   >
-   >     * Connessioni Workfront o AEM Assets
-   >     * Persone
-   >
-
-1. (Condizionale) Nell&#39;ambiente di produzione, se hai selezionato **Chiunque abbia il collegamento** nel passaggio precedente, seleziona **Data di scadenza collegamento** dal calendario disponibile.
-
-   Gli utenti riceveranno un errore dopo la scadenza del collegamento e, prima di poter accedere nuovamente al modulo, è necessario aggiornare la data del collegamento e generare un nuovo collegamento da condividere.
-
-   È possibile selezionare date future entro 180 giorni dalla data corrente.
-
-   >[!TIP]
-   >
-   >Dopo la scadenza della data di condivisione, il modulo di richiesta non è più disponibile nell’area Richieste di Workfront e i collegamenti condivisi con altri utenti non sono più accessibili.
-
-1. (Facoltativo e condizionale) Nell&#39;ambiente di produzione, fare clic su **Salva e copia collegamento** per salvare i dettagli di condivisione per il modulo. Se il modulo è stato salvato in precedenza, fare clic su **Copia collegamento**.
-
-   Le opzioni di condivisione del modulo vengono salvate e il collegamento viene copiato negli Appunti. Ora puoi condividerlo con altri utenti.
-
-   Per informazioni sulla creazione di record mediante un collegamento a un modulo di richiesta, vedere [Inviare richieste Adobe Workfront Planning](/help/quicksilver/planning/requests/submit-requests.md).
-
-1. <span class="preview">(Condizionale) Nell&#39;ambiente di anteprima, per condividere con gli utenti, selezionare la scheda Condivisione interna, cercare il nome dell&#39;utente, quindi selezionarlo quando viene visualizzato nell&#39;elenco.</span>
-1. <span class="preview">(Condizionale) Nell&#39;ambiente di anteprima, per creare un collegamento pubblico, selezionare la scheda Condivisione pubblica, quindi attivare l&#39;opzione Crea collegamento pubblico. È quindi possibile copiare il collegamento qui o impostare una data di scadenza del collegamento.</span>
-1. Fai clic su **Salva** nell&#39;angolo inferiore destro della scheda **Modulo** per salvare il modulo.
-
+   Per informazioni sulla condivisione di un modulo di richiesta, vedere la sezione [Condividere un modulo di richiesta](#share-a-request-form) in questo articolo
 1. Fare clic sulla freccia rivolta a sinistra a sinistra del nome della maschera nell&#39;intestazione per chiudere la maschera.
 
    Viene aperta la vista tabella **Moduli di richiesta** alla quale viene aggiunto il modulo.
@@ -291,7 +248,6 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
 
    ![Altro menu nel modulo di richiesta dall&#39;elenco dei moduli di richiesta](assets/more-menu-on-request-form-from-request-forms-list.png)
 
-
 1. Fare clic sulla freccia rivolta a sinistra a sinistra di **Moduli di richiesta** nell&#39;intestazione per chiudere la tabella dei moduli di richiesta.
 
    Viene visualizzata la pagina del tipo di record.
@@ -302,3 +258,54 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
 
 1. (Facoltativo) Vai all&#39;area **Richieste** in Workfront e trova il modulo condiviso per inviare una richiesta. Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md).
 
+## Condivisione di un modulo di richiesta
+
+1. Creare un modulo di richiesta come descritto nella sezione [Creare un modulo di richiesta per un tipo di record](#create-a-request-form-for-a-record-type) in questo articolo.
+1. Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del modulo di richiesta nella pagina del tipo di record.
+1. Fai clic su **Condividi** per condividere il modulo con altri.
+
+1. Per condividere il modulo internamente, selezionare la scheda **Condivisione interna**, cercare il nome di un utente, team, mansione, gruppo o società nel campo **Concedi l&#39;accesso per inviare il modulo**, quindi selezionarlo quando viene visualizzato nell&#39;elenco. L&#39;autorizzazione **Invia** è selezionata per impostazione predefinita per ogni entità.
+
+   ![Casella di condivisione per il modulo di richiesta](assets/share-box-for-request-form.png)
+
+1. (Facoltativo) Fai clic sul menu a discesa dopo il nome di un&#39;entità, quindi fai clic su **Rimuovi** per rimuoverli dall&#39;elenco e interrompere la condivisione del modulo con loro.
+
+1. Nella sezione **Chi può inviare richieste tramite questo modulo**, selezionare una delle opzioni seguenti per indicare i tipi di utenti che possono accedere al modulo:
+
+   * Possono accedere solo le persone invitate
+   * Chiunque con accesso alla visualizzazione, o superiore, all’area di lavoro
+   * Chiunque con accesso per contribuire, o superiore, all’area di lavoro
+1. (Facoltativo) Fai clic su **Copia collegamento** per condividere il collegamento al modulo con gli utenti che possono accedervi. Il collegamento viene copiato negli Appunti.
+1. Per condividere il modulo pubblicamente, seleziona la scheda **Condivisione pubblica**, quindi abilita l&#39;impostazione **Crea collegamento pubblico**.
+
+   ![Condivisione pubblica per modulo di richiesta](assets/share-request-form-publicly-tab.png)
+
+   >[!WARNING]
+   >
+   >* Quando si abilita l&#39;impostazione **Crea collegamento pubblico**, chiunque può accedere al modulo e inviare un nuovo record, anche persone esterne all&#39;organizzazione che non dispongono di un account Workfront.
+   >
+   >* Un modulo contenente i seguenti tipi di campi non può essere condiviso pubblicamente:
+   >
+   >     * Connessioni Workfront o AEM Assets
+   >     * Persone
+   >
+
+1. Scegli una **data di scadenza collegamento**.
+
+   È possibile selezionare date future entro 180 giorni dalla data corrente.
+
+   >[!TIP]
+   >
+   >Dopo la scadenza della data di condivisione, il modulo di richiesta non è più disponibile nell’area Richieste di Workfront e i collegamenti condivisi con altri utenti non sono più accessibili.
+
+   Gli utenti riceveranno un errore dopo la scadenza del collegamento e, prima di poter accedere nuovamente al modulo, è necessario aggiornare la data del collegamento e generare un nuovo collegamento da condividere.
+
+
+1. (Facoltativo e condizionale) Fare clic su **Salva** per salvare i dettagli di condivisione per il modulo.
+1. (Condizionale) Se il modulo è stato salvato in precedenza, fare clic su **Copia collegamento**.
+
+   Le opzioni di condivisione del modulo vengono salvate e il collegamento viene copiato negli Appunti. Ora puoi condividerlo con altri utenti.
+
+   Per informazioni sulla creazione di record mediante un collegamento a un modulo di richiesta, vedere [Inviare richieste Adobe Workfront Planning](/help/quicksilver/planning/requests/submit-requests.md).
+
+1. Fai clic su **Salva** nell&#39;angolo inferiore destro della scheda **Modulo** per salvare il modulo.

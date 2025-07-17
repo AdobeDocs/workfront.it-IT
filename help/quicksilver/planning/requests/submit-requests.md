@@ -3,12 +3,12 @@ title: Inviare richieste di Adobe Workfront Planning
 description: Dopo che un utente ha condiviso un collegamento a un modulo di richiesta da una pagina di tipo di record in Adobe Workfront Planning, è possibile aggiungere una richiesta per la creazione di record per il tipo di record associato al modulo di richiesta.
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '2091'
+source-wordcount: '2019'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,6 @@ Per informazioni su come un manager area di lavoro può creare un modulo di rich
 ## Requisiti di accesso
 
 +++ Espandere per visualizzare i requisiti di accesso.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto">
  <col>
@@ -96,20 +94,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <tr>
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td>
    <td>
-   <p>Visualizza o autorizzazioni superiori per un'area di lavoro <span class="preview">e tipo di record</span>, se sei un utente di Workfront</p> 
+   <p>Visualizza o autorizzazioni superiori per un’area di lavoro e un tipo di record, se sei un utente di Workfront</p> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Modello layout</p></td>
-   <td> <p>Per accedere all'area Planning in Workfront, è necessario disporre della seguente configurazione del modello di layout: </p>
-<ul>
-<li><p>Nell'ambiente di produzione, tutti gli utenti, inclusi gli amministratori di sistema, devono essere assegnati a un modello di layout che includa Planning.</p></li>
-<li><div class="preview">
-<p> Nell'ambiente di anteprima, agli utenti con una licenza Light o Contributor deve essere assegnato un modello di layout che includa Planning.
-   <p>Per impostazione predefinita, le aree Pianificazione sono attivate dagli utenti standard e dagli amministratori di sistema.</p></div></li></ul>
-
-<p> Tuttavia, per inviare richieste a Workfront Planning non è necessario accedere all'area Planning. </p>  
-</td>
   </tr>
  </tbody>
 </table>
@@ -226,8 +212,6 @@ L&#39;abilitazione di questa impostazione rende disponibili i moduli di richiest
 Tutte le richieste a cui si ha accesso per visualizzare che sono state sottomesse a un modulo di richiesta Planning vengono visualizzate in un elenco.
 1. (Facoltativo) Effettuate una delle seguenti operazioni:
 
-   <div class="preview">
-
    * Fare clic su **Filtri** e iniziare ad aggiungere le condizioni per le richieste che si desidera visualizzare nella scheda Pianificazione.
 
      ![Modifica dei filtri nella scheda Richieste di Planning](assets/filters-editing-box-in-requests-planning-tab.png)
@@ -261,8 +245,6 @@ L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi
 
    ![Pagina dettagli richiesta](assets/request-details-page.png)
 
-   </div>
-
 
 1. (Condizionale) Se il modulo di richiesta non è associato a un&#39;approvazione o se la richiesta è stata approvata, fare clic sul nome della richiesta, quindi sul nome del record nel campo **Record**.
 
@@ -274,7 +256,7 @@ L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi
    >
    >* Se il modulo di richiesta è associato a un’approvazione, questa deve essere concessa prima di poter accedere al record dalla pagina della richiesta.
 
-1. (Facoltativo) Fare clic sul nome del tipo di record **&#x200B;**.
+1. (Facoltativo) Fare clic sul nome del tipo di record ****.
 
    La pagina del tipo di record viene visualizzata in Workfront Planning.
 
@@ -313,7 +295,7 @@ L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi
      >
      >Le notifiche e-mail e in-app sono visibili solo quando l’istanza di Workfront della tua organizzazione viene integrata in Adobe Unified Experience.
 
-   <!--* <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>-->
+   * <span class="preview"> Dopo l&#39;approvazione della richiesta e la creazione del record, nei campi Approvato da e Approvato vengono visualizzate le informazioni sull&#39;approvazione nel record.</span>
 
 1. (Facoltativo) Fai clic su **Visualizza la richiesta** per aprire la richiesta in Workfront.
 
@@ -337,7 +319,7 @@ L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi
    >
    >* Se il modulo di richiesta è associato a un’approvazione, questa deve essere concessa prima di poter accedere al record dalla pagina della richiesta.
 
-1. (Facoltativo) Fare clic sul nome del tipo di record **&#x200B;**.
+1. (Facoltativo) Fare clic sul nome del tipo di record ****.
 
    La pagina del tipo di record viene visualizzata in Workfront Planning.
 

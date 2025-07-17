@@ -3,12 +3,12 @@ title: Approvare una richiesta in Adobe Workfront Planning
 description: Quando un utente invia una richiesta a un modulo di richiesta associato a un’approvazione in Adobe Workfront Planning, gli approvatori ricevono una notifica e un messaggio e-mail relativi all’approvazione in sospeso. È necessario approvare la richiesta prima che Workfront Planning crei un oggetto.
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '948'
 ht-degree: 1%
 
 ---
@@ -45,13 +45,11 @@ Si consiglia inoltre di visualizzare i seguenti articoli:
    * **Completato**: se tutti gli approvatori approvano l&#39;oggetto della richiesta, lo stato cambia in **Completato** oppure se la richiesta non ha bisogno di un&#39;approvazione.
    * **Rifiutato**: se un approvatore rifiuta l&#39;oggetto della richiesta, lo stato diventa **Rifiutato**. Non viene creato alcun record ed è necessario inviare una nuova richiesta per creare il record.
 
-<!--* <span class="preview">You can display approval information on a record created by submitting a request form in the Approved by and Approved date fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).</span>-->
+* <span class="preview">È possibile visualizzare le informazioni sull&#39;approvazione in un record creato inviando un modulo di richiesta nei campi Approvato da e Data approvata. Per informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).</span>
 
 ## Requisiti di accesso
 
 +++ Espandere per visualizzare i requisiti di accesso.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto">
  <col>
@@ -107,18 +105,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td>
    <td>
    <ul>
-   <li><p>Gestisci le autorizzazioni per un'area di lavoro <span class="preview"> e tipo di record</span> </p></li>
+   <li><p>Gestire le autorizzazioni per un’area di lavoro e un tipo di record </p></li>
     <li><p>Gli amministratori di sistema possono gestire le aree di lavoro che non hanno creato. </p></li>
     </ul>
    <p>Per informazioni sulle autorizzazioni di condivisione per gli oggetti di Workfront Planning, vedere  
    <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Panoramica delle autorizzazioni di condivisione in Adobe Workfront Planning</a> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Modello layout</p></td>
-   <td> <p>Nell'ambiente di produzione, tutti gli utenti, inclusi gli amministratori di sistema, devono essere assegnati a un modello di layout che includa Planning.</p>
-<p><span class="preview">Nell'ambiente di anteprima, per impostazione predefinita, Planning è abilitato per utenti standard e amministratori di sistema.</span></p> 
-</td>
   </tr>
  </tbody>
 </table>

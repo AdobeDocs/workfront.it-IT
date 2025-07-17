@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,17 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-A differenza di Workfront, dove i tipi di oggetto sono predefiniti, in Adobe Workfront Planning è possibile creare tipi di oggetto personalizzati. Ad esempio, in Workfront sono già stati creati i tipi di oggetto Programma, Portfolio, Progetto, Attività o Problema.
+A differenza di Workfront, dove i tipi di oggetto sono predefiniti, in Adobe Workfront Planning è possibile creare tipi di oggetto personalizzati.
 
-I tipi di oggetto di Workfront Planning sono denominati &quot;tipi di record&quot; ed esistono solo quando vengono creati dagli utenti. I tipi di record sono i blocchi predefiniti di un&#39;area di lavoro di Workfront Planning. Per informazioni sulle aree di lavoro, vedere [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
+Ad esempio, in Workfront sono già stati creati i tipi di oggetto Programma, Portfolio, Progetto, Attività o Problema.
+
+I tipi di oggetto di Workfront Planning sono denominati &quot;tipi di record&quot; ed esistono solo quando vengono creati dagli utenti.
+
+I tipi di record sono i blocchi predefiniti di un&#39;area di lavoro di Workfront Planning ed è necessario crearli tutti per poterli associare al flusso di lavoro e ad altre informazioni.
+
+I tipi di record sono organizzati in aree di lavoro.
+
+Per informazioni sulle aree di lavoro, vedere [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
 
 ## Panoramica del tipo di record
 
@@ -32,6 +40,8 @@ Per informazioni sulla creazione di tipi di record, vedere [Creare tipi di recor
 
    * **Tipi di record operativi**: tipi di record che rappresentano piani strategici, iniziative o lavoro pianificato. Ad esempio, Campaign, Activity, Tactic, Opportunity sono tipi di record operativi.
    * **Tassonomie**: tipi di record che acquisiscono attributi relativi a un tipo di record operativo. Ad esempio, Area geografica, Indirizzo e Pubblico sono tassonomie.
+
+  Puoi rinominare o eliminare queste sezioni o crearne altre.
 
 * Quando si crea un tipo di record in un&#39;area di lavoro creata da zero, è possibile inserire il tipo di record in qualsiasi sezione creata nell&#39;area di lavoro.
 * Quando si crea un tipo di record, solo l&#39;utente e coloro ai quali sono state assegnate le autorizzazioni di accesso all&#39;area di lavoro possono visualizzare il tipo di record.

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
-source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Panoramica del campo primario
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -53,4 +53,4 @@ Per informazioni su come designare un campo come campo principale, vedere [Gesti
 * La modifica del campo principale nella vista tabella ha effetto sulla vista di tutti gli altri utenti che la scelgono.
 * La modifica del campo principale in una vista tabella ha effetto su tutte le viste tabella del tipo di record.
 * Il valore elencato nel campo principale è sempre collegato alla pagina del record.
-* Se si dispone delle autorizzazioni Contribute o di livello superiore per un&#39;area di lavoro <span class="preview"> e un tipo di record</span>, è possibile modificare il valore dei campi primari, ad eccezione dei campi formula. Le formule sono calcoli che vengono aggiornati automaticamente.
+* Se si dispone delle autorizzazioni Contribute o di livello superiore per un&#39;area di lavoro e un tipo di record, è possibile modificare il valore dei campi principali, ad eccezione dei campi formula. Le formule sono calcoli che vengono aggiornati automaticamente.

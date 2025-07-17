@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1155'
 ht-degree: 5%
 
 ---
@@ -20,19 +20,23 @@ ht-degree: 5%
 
 # Panoramica delle autorizzazioni di condivisione in Adobe Workfront Planning
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 
 {{planning-important-intro}}
 
-È possibile condividere o rimuovere le autorizzazioni per un&#39;area di lavoro o una vista di Adobe Workfront Planning.
+È possibile condividere o rimuovere le autorizzazioni per un&#39;area di lavoro, un tipo di record o una visualizzazione di Adobe Workfront Planning.
 
-Questo articolo descrive i livelli di autorizzazione per gli oggetti di Workfront Planning.
+È inoltre possibile condividere i moduli di richiesta di Planning. Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+In questo articolo vengono descritti i livelli di autorizzazione per le aree di lavoro di Workfront Planning, i tipi di record, i record, i campi e le visualizzazioni.
 
 ## Oggetti condivisibili in Adobe Workfront Planning
+
+È possibile condividere manualmente alcuni oggetti di Workfront Planning, mentre altri oggetti ereditano tali autorizzazioni da altri oggetti.
 
 In Workfront Planning è possibile condividere manualmente i seguenti oggetti:
 
@@ -44,8 +48,6 @@ In Workfront Planning è possibile condividere manualmente i seguenti oggetti:
 
   Per ulteriori informazioni, vedere [Condividi aree di lavoro](/help/quicksilver/planning/access/share-workspaces.md)
 
-<div class="preview">
-
 * Tipi di record
 
    * È possibile condividere i tipi di record con persone all&#39;interno dell&#39;organizzazione.
@@ -53,8 +55,6 @@ In Workfront Planning è possibile condividere manualmente i seguenti oggetti:
    * Non è possibile condividere un tipo di record con un livello di autorizzazione superiore a quello dell&#39;utente nell&#39;area di lavoro.
 
   Per ulteriori informazioni, vedere [Condividi tipi di record](/help/quicksilver/planning/access/share-record-types.md).
-
-</div>
 
 
 * Viste
@@ -66,7 +66,7 @@ In Workfront Planning è possibile condividere manualmente i seguenti oggetti:
 
   Per ulteriori informazioni, vedere [Condividi visualizzazioni](/help/quicksilver/planning/access/share-views.md).
 
-Internamente, è possibile condividere un&#39;area di lavoro, una visualizzazione, <span class="preview"> o un tipo di record </span> con le seguenti entità Workfront:
+Internamente, è possibile condividere un&#39;area di lavoro, una vista o un tipo di record con le seguenti entità Workfront:
 
 * Utenti
 * Gruppi
@@ -74,7 +74,7 @@ Internamente, è possibile condividere un&#39;area di lavoro, una visualizzazion
 * Aziende
 * Mansioni
 
-<span class="preview"> Quando si condividono aree di lavoro e tipi di record con altri utenti, il livello di autorizzazione del tipo di record viene ereditato automaticamente dai record e dai campi ad essi associati. </span>
+Quando si condividono aree di lavoro e tipi di record con altri utenti, il livello di autorizzazione del tipo di record viene ereditato automaticamente dai record e dai campi ad essi associati.
 
 >[!IMPORTANT]
 >
@@ -112,7 +112,7 @@ Le tabelle delle sezioni seguenti illustrano il livello di autorizzazioni che è
 >Per informazioni, vedere [Panoramica del tipo di licenza quando si utilizza Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 
-### Autorizzazioni Workspace
+### Autorizzazioni per le aree di lavoro
 
 È necessario concedere agli utenti le autorizzazioni per le aree di lavoro per consentire loro di accedere alle seguenti entità:
 
@@ -123,30 +123,33 @@ Le tabelle delle sezioni seguenti illustrano il livello di autorizzazioni che è
 
 Di seguito sono riportati i livelli di autorizzazione per le aree di lavoro:
 
-|        | Gestire | Contribuisci | Viste |
+|        | Gestisci | Contribuisci | Viste |
 |--------|--------|------------|-------|
 | Modif | ✓ |            |       |
 | Condividi | ✓ |            |       |
 | Elimina | ✓ |            |       |
 | Visualizza | ✓ | ✓ | ✓ |
 
-### Autorizzazioni del tipo di record
+### Autorizzazioni per i tipi di record
 
-Nell’ambiente di produzione, le autorizzazioni Tipo di record vengono sempre ereditate quando si concedono le autorizzazioni all’area di lavoro.
+<!-- old access:
+In the Production environment, Record Type permissions are always inherited when you grant permissions to the workspace.
 
-Di seguito sono riportati i livelli di autorizzazione per i tipi di record:
+The following are the levels of permissions for record types: 
 
 
-|        | Gestire | Contribuisci | Visualizza |
+|        | Manage | Contribute | View  |
 |--------|--------|------------|-------|
-| Crea | ✓ |            |       |
-| Elimina | ✓ |            |       |
-| Modifica | ✓ |            |       |
-| Visualizza | ✓ | ✓ | ✓ |
+| Create | ✓      |            |       |
+| Delete | ✓      |            |       |
+| Edit   | ✓      |            |       |
+| View   | ✓      | ✓          | ✓     |
 
-<div class="preview">
+-->
 
-Nell&#39;ambiente di anteprima è possibile rimuovere le autorizzazioni ereditate del tipo di record ricevute dall&#39;area di lavoro.
+Le autorizzazioni del tipo di record vengono sempre ereditate quando si concedono le autorizzazioni all&#39;area di lavoro.
+
+È possibile rimuovere le autorizzazioni ereditate del tipo di record ricevute dall&#39;area di lavoro.
 
 È possibile assegnare agli utenti autorizzazioni inferiori per il tipo di record rispetto a quelle disponibili nell&#39;area di lavoro.
 
@@ -160,7 +163,7 @@ Esistono i seguenti scenari:
 
 | Autorizzazioni Workspace | Autorizzazioni ereditate automaticamente per un tipo di record | Autorizzazioni possibili per il tipo di record quando le autorizzazioni ereditate sono disattivate (concesse manualmente) |
 |--------|--------|-------------|
-| Gestire | Gestire | Gestisci, Rimuovi autorizzazioni* |
+| Gestisci | Gestisci | Gestisci, Rimuovi autorizzazioni* |
 | Contribuisci | Contribuisci | Autorizzazioni Contribute, View, Remove* |
 | Visualizza | Visualizza | Visualizza, Rimuovi autorizzazioni* |
 
@@ -168,29 +171,27 @@ Esistono i seguenti scenari:
 >
 >*Quando si rimuovono le autorizzazioni da un tipo di record, gli utenti conservano comunque le autorizzazioni di visualizzazione per l&#39;area di lavoro e per tutti i tipi di record, a meno che non si rimuovano le relative autorizzazioni dall&#39;area di lavoro.
 
-</div>
+### Autorizzazioni per i record
 
-### Autorizzazioni record
-
-Le autorizzazioni dei record vengono ereditate da <span class="preview">il tipo di record</span>, quando si concedono le autorizzazioni all&#39;area di lavoro e <span class="preview">il tipo di record</span>.
+Le autorizzazioni dei record vengono ereditate dal tipo di record quando si concedono le autorizzazioni all&#39;area di lavoro e al tipo di record.
 
 Di seguito sono riportati i livelli di autorizzazione per i record:
 
 
-|        | Gestire | Contribuisci | Visualizza |
+|        | Gestisci | Contribuisci | Visualizza |
 |--------|--------|------------|-------|
 | Crea | ✓ | ✓ |       |
 | Elimina | ✓ | ✓ |       |
 | Modifica | ✓ | ✓ |       |
 | Visualizza | ✓ | ✓ | ✓ |
 
-### Autorizzazioni campo
+### Autorizzazioni per registrare i campi
 
-Le autorizzazioni del campo vengono ereditate da <span class="preview">il tipo di record</span>, quando si concedono le autorizzazioni all&#39;area di lavoro e <span class="preview">il tipo di record</span>.
+Le autorizzazioni dei campi vengono ereditate dal tipo di record quando si concedono le autorizzazioni all&#39;area di lavoro e al tipo di record.
 
 Le autorizzazioni seguenti fanno riferimento ai campi stessi e non ai valori associati a ciascun campo. Per modificare i valori dei campi è necessario disporre delle autorizzazioni per la modifica dei record.
 
-|        | Gestire | Contribuisci | Visualizza |
+|        | Gestisci | Contribuisci | Visualizza |
 |--------|--------|------------|-------|
 | Crea | ✓ |            |       |
 | Elimina | ✓ |            |       |
@@ -198,7 +199,7 @@ Le autorizzazioni seguenti fanno riferimento ai campi stessi e non ai valori ass
 | Visualizza | ✓ | ✓ | ✓ |
 
 
-### Visualizza autorizzazioni
+### Autorizzazioni per le visualizzazioni
 
 È necessario concedere autorizzazioni separate alle visualizzazioni record. La concessione delle autorizzazioni all&#39;area di lavoro non consente di concedere le autorizzazioni alle visualizzazioni record nell&#39;area di lavoro.
 

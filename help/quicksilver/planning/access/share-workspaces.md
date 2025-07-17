@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '869'
 ht-degree: 1%
 
 ---
 
 # Condividere le aree di lavoro
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -90,12 +90,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
    <td>  <p>Gestire le autorizzazioni per un’area di lavoro</p>  </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Modello layout</p></td> 
-   <td> <p>Nell’ambiente di produzione, tutti gli utenti, inclusi gli amministratori di sistema, devono essere assegnati a un modello di layout che includa le aree Planning.</p>
-<p><span class="preview">Nell'ambiente di anteprima, gli utenti Standard e gli amministratori di sistema hanno l'area Planning attivata per impostazione predefinita.</span></p></td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -111,12 +107,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 * Non è possibile condividere le aree di lavoro con utenti esterni all’organizzazione.
 * Quando si condivide un&#39;area di lavoro, vengono condivisi anche tutti i tipi di record, i record e i campi associati alle aree di lavoro.
 * Quando si condivide un&#39;area di lavoro, le visualizzazioni non vengono condivise. È necessario condividere le visualizzazioni separatamente.
-
-<div class="preview">
-
 * Le autorizzazioni di Workspace vengono visualizzate come autorizzazioni ereditate per i tipi di record.
-
-</div>
 
 ## Condividere le autorizzazioni per un’area di lavoro
 
@@ -156,10 +147,8 @@ Gli utenti che accedono a un collegamento a un’area di lavoro per la quale non
 1. (Condizionale) Se sei il manager di un’area di lavoro, potresti ricevere una richiesta da un altro utente per accedere alla vista nelle seguenti aree:
 
    * Una notifica in-app
-
      ![Notifica in-app per la richiesta di accesso](assets/in-app-notification-for-access-request.png)
    * Una notifica e-mail
-
      ![Notifica e-mail per la richiesta di accesso](assets/email-notification-for-access-request.png)
 1. (Condizionale) Dall’area di notifica in Workfront, fai clic sulla notifica in-app.
 Oppure
