@@ -27,7 +27,7 @@ Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning,
 >[!NOTE]
 >
 >Anteprima: 10 luglio 2025
->>Produzione per tutti: 10 luglio 2025
+>&#x200B;>Produzione per tutti: 10 luglio 2025
 
 
 È stata aggiornata la scheda Impostazioni avanzate durante la creazione o la modifica di un tipo di record.
@@ -44,7 +44,7 @@ Per ulteriori informazioni, vedere [Creare tipi di record](/help/quicksilver/pla
 >[!NOTE]
 >
 >Anteprima: 10 luglio 2025
->>Produzione per tutti: 10 luglio 2025
+>&#x200B;>Produzione per tutti: 10 luglio 2025
 
 Ora, quando si aggiunge un team a un commento record in Workfront Planning, tutti i membri del team ricevono una notifica in-app e un messaggio e-mail relativo al commento. Prima di questo miglioramento, solo gli utenti aggiunti ai commenti singolarmente ricevevano una notifica .
 
@@ -55,8 +55,8 @@ Per informazioni, vedere Gestire i commenti ai record [Gestire i commenti ai rec
 >[!NOTE]
 >
 >Anteprima: 10 luglio 2025
->>Versione rapida di produzione: 14 agosto 2025
->>Produzione per tutti: 16 ottobre 2025
+>&#x200B;>Versione rapida di produzione: 14 agosto 2025
+>&#x200B;>Produzione per tutti: 16 ottobre 2025
 
 
 Ora, quando si applicano i raggruppamenti a una vista tabella, l&#39;aggiunta di un record alla tabella determina la compilazione automatica dei campi associati ai raggruppamenti a cui si aggiunge il record.
@@ -72,7 +72,7 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 >[!NOTE]
 >
 >Anteprima: 9 luglio 2025
->>Produzione per tutti: 17 luglio 2025
+>&#x200B;>Produzione per tutti: 17 luglio 2025
 
 Ora è possibile condividere una visualizzazione e un tipo di record dallo stesso pulsante nella pagina del tipo di record. Prima di questo miglioramento, era possibile condividere il tipo di record solo dal pulsante Condividi nella pagina del tipo di record e da una vista nella scheda della vista.
 
@@ -336,7 +336,7 @@ Prima di questo miglioramento, gli utenti con tutti i livelli di licenza dovevan
 >[!NOTE]
 >
 >Questa modifica sarà visibile per tutti gli utenti nuovi ed esistenti con una licenza Amministratore di sistema e Standard.
->>Gli utenti esistenti assegnati a un modello di layout continueranno a visualizzare tutto in base alle impostazioni definite nel modello di layout.
+>&#x200B;>Gli utenti esistenti assegnati a un modello di layout continueranno a visualizzare tutto in base alle impostazioni definite nel modello di layout.
 
 Per informazioni, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
