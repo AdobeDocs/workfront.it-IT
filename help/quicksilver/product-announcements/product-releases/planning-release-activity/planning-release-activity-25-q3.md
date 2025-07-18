@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: eb3bace0298ea67deb3d4515da23b9301625bec7
+source-git-commit: 8dd86b364e23089f3ff02c7817807e5219a3ebb4
 workflow-type: tm+mt
-source-wordcount: '2273'
+source-wordcount: '2275'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,11 @@ Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning,
 
 ## Impostazioni avanzate aggiornate durante la creazione e la modifica dei tipi di record
 
-Anteprima e produzione: 10 luglio 2025
+>[!NOTE]
+>
+>Anteprima: 10 luglio 2025
+>>Produzione per tutti: 10 luglio 2025
+
 
 È stata aggiornata la scheda Impostazioni avanzate durante la creazione o la modifica di un tipo di record.
 
@@ -37,8 +41,10 @@ Per ulteriori informazioni, vedere [Creare tipi di record](/help/quicksilver/pla
 
 ## Aggiungere notifiche per gli utenti del team quando il team viene aggiunto a un commento del record
 
-Anteprima: 10 luglio 2025
-Produzione per tutti: 10 luglio 2025
+>[!NOTE]
+>
+>Anteprima: 10 luglio 2025
+>>Produzione per tutti: 10 luglio 2025
 
 Ora, quando si aggiunge un team a un commento record in Workfront Planning, tutti i membri del team ricevono una notifica in-app e un messaggio e-mail relativo al commento. Prima di questo miglioramento, solo gli utenti aggiunti ai commenti singolarmente ricevevano una notifica .
 
@@ -46,9 +52,12 @@ Per informazioni, vedere Gestire i commenti ai record [Gestire i commenti ai rec
 
 ## Compila automaticamente i campi in base ai raggruppamenti applicati
 
-Anteprima: 10 luglio 2025
-Versione rapida di produzione: 14 agosto 2025
-Produzione per tutti: 16 ottobre 2025
+>[!NOTE]
+>
+>Anteprima: 10 luglio 2025
+>>Versione rapida di produzione: 14 agosto 2025
+>>Produzione per tutti: 16 ottobre 2025
+
 
 Ora, quando si applicano i raggruppamenti a una vista tabella, l&#39;aggiunta di un record alla tabella determina la compilazione automatica dei campi associati ai raggruppamenti a cui si aggiunge il record.
 
@@ -62,8 +71,8 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 
 >[!NOTE]
 >
->* Anteprima: 9 luglio 2025
->* Produzione per tutti: 17 luglio 2025
+>Anteprima: 9 luglio 2025
+>>Produzione per tutti: 17 luglio 2025
 
 Ora è possibile condividere una visualizzazione e un tipo di record dallo stesso pulsante nella pagina del tipo di record. Prima di questo miglioramento, era possibile condividere il tipo di record solo dal pulsante Condividi nella pagina del tipo di record e da una vista nella scheda della vista.
 
@@ -109,7 +118,7 @@ Per rendere più sicura e semplice la condivisione di un modulo di richiesta in 
 * Abbiamo rimosso le opzioni di gestione e contribuzione per gli utenti con cui condividi il modulo di richiesta. Ora gli utenti aggiunti possono solo inviare il modulo.
 * Nella scheda Condivisione pubblica vengono ora visualizzati il campo Collegamento e data di scadenza dopo l’abilitazione dell’opzione Crea collegamento pubblico.
 
-Per ulteriori informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](https://experienceleague.adobe.com/it/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Per ulteriori informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Espandere e comprimere tutti i raggruppamenti nella vista tabella
 
@@ -327,7 +336,7 @@ Prima di questo miglioramento, gli utenti con tutti i livelli di licenza dovevan
 >[!NOTE]
 >
 >Questa modifica sarà visibile per tutti gli utenti nuovi ed esistenti con una licenza Amministratore di sistema e Standard.
->&#x200B;>Gli utenti esistenti assegnati a un modello di layout continueranno a visualizzare tutto in base alle impostazioni definite nel modello di layout.
+>>Gli utenti esistenti assegnati a un modello di layout continueranno a visualizzare tutto in base alle impostazioni definite nel modello di layout.
 
 Per informazioni, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 

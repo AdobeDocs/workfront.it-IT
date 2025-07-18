@@ -6,7 +6,8 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 3c61d147d3f3a9851645f21ec1ee1d5ab9b445d8
+exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
+source-git-commit: 8300595f63fab4f4ef6f00c7b8ff8b06120db2cc
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -23,9 +24,12 @@ Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning,
 
 ## Nuovi campi per visualizzare le informazioni sull&#39;approvazione dei record
 
-Anteprima: 17 luglio 2025
-Produzione per rilascio rapido: 14 agosto 2025
-Produzione per tutti: 16 ottobre 2025
+>[!NOTE]
+>
+>Anteprima: 17 luglio 2025
+>>Produzione per rilascio rapido: 14 agosto 2025
+>>Produzione per tutti: 16 ottobre 2025
+
 
 Stiamo introducendo i seguenti campi per acquisire informazioni sull’approvazione per i record creati inviando una richiesta con un’approvazione:
 
@@ -37,9 +41,12 @@ Per informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/crea
 
 ## Compila automaticamente i campi in base ai raggruppamenti applicati
 
-Anteprima: 10 luglio 2025
-Versione rapida di produzione: 14 agosto 2025
-Produzione per tutti: 16 ottobre 2025
+>[!NOTE]
+>
+>Anteprima: 10 luglio 2025
+>>Versione rapida di produzione: 14 agosto 2025
+>>Produzione per tutti: 16 ottobre 2025
+
 
 Ora, quando si applicano i raggruppamenti a una vista tabella, l&#39;aggiunta di un record alla tabella determina la compilazione automatica dei campi associati ai raggruppamenti a cui si aggiunge il record.
 
@@ -61,4 +68,3 @@ To make the approval process more flexible, we've added the ability to add teams
 Previously, only individual users could be assigned as approvers. 
 
 For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).-->
-

@@ -6,9 +6,9 @@ description: È possibile aggiungere ulteriori approvatori o revisori a un docum
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
+source-git-commit: 6da80f55fd4314c661c52bb2327ae8fa6c7e55b6
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '575'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ Con le approvazioni unificate è possibile:
 * Designare un intero team Workfront come revisori o approvatori
 * Imposta una scadenza per la revisione o l’approvazione
 * Creare e riutilizzare modelli di approvazione
-* Utilizzare le nuove versioni per
+* Utilizzare le nuove versioni
 * Visualizzare più indicatori di prestazioni chiave per le approvazioni nei widget della home di Workfront
 * Utilizza i dashboard di Canvas per visualizzare i dettagli di reporting sulle approvazioni unificate
 

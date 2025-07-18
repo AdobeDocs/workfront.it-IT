@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: 53c5c970f2bfd0191c053baec25bd29f11b6272d
+source-git-commit: 6da80f55fd4314c661c52bb2327ae8fa6c7e55b6
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,31 @@ Note: The integration must be enabled for your accounts by the Adobe Product Tea
 For more information, see [Get started with the Adobe Express and Workfront Proof integration](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
 -->
 
+## Rollout graduale delle approvazioni unificate
+
+>[!NOTE]
+>
+>Versione di produzione per i clienti: rollout graduale a partire dal 17 luglio 2025
+
+
+Stiamo attivando le approvazioni unificate, precedentemente note come nuove approvazioni dei documenti, in un rollout graduale. Questa funzionalità verrà abilitata automaticamente nell’istanza di Workfront nei prossimi sei mesi.
+
+Le approvazioni unificate sostituiscono le approvazioni di documenti legacy e forniscono le seguenti funzionalità direttamente su un documento:
+
+* Designare un intero team Workfront come revisori o approvatori
+* Imposta una scadenza per la revisione o l’approvazione
+* Creare e riutilizzare modelli di approvazione
+* Utilizzare le nuove versioni
+* Visualizzare più indicatori di prestazioni chiave per le approvazioni nei widget della home di Workfront
+* Utilizza i dashboard di Canvas per visualizzare i dettagli di reporting sulle approvazioni unificate
+
+Per ulteriori informazioni, vedere [Panoramica delle approvazioni unificate](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+
 ## Aggiornamento visualizzatore bozze desktop
+
+>[!NOTE]
+>
+>* Versione di produzione per tutti i clienti: 16 giugno 2025
 
 Il Visualizzatore bozze desktop è stato aggiornato alla versione 2.1.50.
 
