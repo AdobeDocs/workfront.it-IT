@@ -76,7 +76,7 @@ Produzione: 21 dicembre 2023
 >
 >La tua organizzazione deve acquistare Adobe Workfront Fusion per poter creare connessioni con le funzionalità di pianificazione di Adobe Workfront.
 >
->Per informazioni, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Per informazioni, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 Ora è possibile utilizzare Adobe Workfront Fusion per connettersi alle funzionalità di pianificazione. Con la nuova connessione Fusion, è possibile:
 
@@ -92,7 +92,7 @@ Ora è possibile utilizzare Adobe Workfront Fusion per connettersi alle funziona
 
 * Attiva uno scenario quando viene apportata una modifica alle funzionalità di pianificazione
 
-Per ulteriori informazioni, vedere [Moduli di Adobe Workfront Planning](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules).
+Per ulteriori informazioni, vedere [Moduli di Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules).
 
 ## Settimana dell’11 dicembre 2023
 
@@ -134,13 +134,13 @@ Versione di produzione: 21 dicembre 2023
 >
 >Per poter collegare i record delle funzionalità di Adobe Workfront Planning ad Adobe Experience Manager Assets, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console.
 >
->Se hai domande sull&#39;onboarding in Adobe Admin Console, consulta le [domande frequenti su Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+>Se hai domande sull&#39;onboarding in Adobe Admin Console, consulta le [Domande frequenti su Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 È ora possibile stabilire una connessione tra i tipi di record delle funzionalità di Adobe Workfront Planning e Adobe Experience Manager Assets.
 
 Dopo aver stabilito la connessione, con questo aggiornamento sono disponibili le seguenti funzionalità:
 
-* Puoi collegare risorse e cartelle di Experienci Manager a un record di funzionalità di pianificazione da un archivio specifico in Experience Manager Assets a cui hanno accesso. In questo processo è possibile collegare i campi delle risorse ai campi della funzionalità di pianificazione.
+* Puoi collegare risorse e cartelle Experience Manager a un record di funzionalità di pianificazione da un archivio specifico in Experience Manager Assets a cui hanno accesso. In questo processo è possibile collegare i campi delle risorse ai campi della funzionalità di pianificazione.
 
 * Gli utenti con funzionalità di pianificazione possono visualizzare il nome delle risorse collegate, nonché i valori dei campi connessi nelle funzionalità di pianificazione.
 
@@ -148,7 +148,7 @@ Dopo aver stabilito la connessione, con questo aggiornamento sono disponibili le
 * An Experience Manager Assets record type is automatically created in Planning after you establish the connection. Connected assets are visible in the table and timeline views of this new record type.  
 -->
 
-* È possibile fare clic sul nome del cespite nella vista a tabella del record della funzionalità di pianificazione dal campo record connesso e visualizzare una finestra popup con la miniatura del cespite e diversi campi chiave. Dalla finestra pop-up, puoi passare al visualizzatore di risorse in Experience Manager e visualizzare tutti i dettagli relativi.
+* È possibile fare clic sul nome del cespite nella vista a tabella del record della funzionalità di pianificazione dal campo record connesso e visualizzare una finestra popup con la miniatura del cespite e diversi campi chiave. Dalla finestra a comparsa, puoi passare al visualizzatore di risorse in Experience Manager e visualizzarne tutti i dettagli.
 
 Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
 
@@ -363,7 +363,7 @@ Per ulteriori informazioni, vedere [Gestire la visualizzazione della tabella](/h
 
 Anteprima e produzione: 24 agosto 2023
 
-È ora possibile collegare un record delle funzionalità di pianificazione con i programmi e i portfolio Workfront. È necessario creare una connessione tra un tipo di record delle funzionalità di pianificazione e un programma o un portfolio che crea un campo connesso. È quindi possibile collegare qualsiasi record delle funzionalità di pianificazione di tutti gli altri tipi di record all&#39;interno della stessa area di lavoro a programmi e portafogli specifici che creano un tipo di record Programma di Workfront o Portfolio di Workfront di sola lettura nella stessa area di lavoro. Considera quanto segue:
+È ora possibile collegare un record delle funzionalità di pianificazione con i programmi e i portfolio Workfront. È necessario creare una connessione tra un tipo di record delle funzionalità di pianificazione e un programma o un portfolio che crea un campo connesso. È quindi possibile collegare qualsiasi record delle funzionalità di pianificazione di tutti gli altri tipi di record all&#39;interno della stessa area di lavoro a programmi e portafogli specifici che creano un tipo di record Programma Workfront di sola lettura o Workfront Portfolio nella stessa area di lavoro. Considera quanto segue:
 
 * I tipi di record del connettore Workfront sono univoci per ogni area di lavoro.
 * È possibile collegare più record delle funzionalità di pianificazione allo stesso programma o portfolio Workfront e più programmi e portfolio allo stesso record delle funzionalità di pianificazione.

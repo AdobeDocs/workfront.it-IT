@@ -3,13 +3,13 @@ title: Aggiungi tipi di record in più aree di lavoro
 description: I tipi di record sono i tipi di oggetto di Adobe Workfront Planning. In Workfront Planning è possibile importare un tipo di record esistente da un'altra area di lavoro.
 hidefromtoc: true
 hide: true
-source-git-commit: 459e3883101b644a91d5e2a32288cf5b02a02bd9
+exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
+source-git-commit: ee366e05097518a4618dd11ed5807b8766465d94
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 2%
 
 ---
-
 
 <!-- add these to the metadata, when making this public: 
 
