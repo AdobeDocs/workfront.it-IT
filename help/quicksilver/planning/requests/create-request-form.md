@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
 workflow-type: tm+mt
-source-wordcount: '2242'
+source-wordcount: '2281'
 ht-degree: 1%
 
 ---
@@ -269,6 +269,10 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
    ![Casella di condivisione per il modulo di richiesta](assets/share-box-for-request-form.png)
 
 1. (Facoltativo) Fai clic sul menu a discesa dopo il nome di un&#39;entità, quindi fai clic su **Rimuovi** per rimuoverli dall&#39;elenco e interrompere la condivisione del modulo con loro.
+
+   >[!NOTE]
+   >
+   >Oltre a team, gruppi, aziende e ruoli, puoi condividere solo con gli utenti che sono stati aggiunti al Adobe Admin Console. Non è possibile aggiungere utenti solo Workfront. Per informazioni, vedere [Gestione degli utenti in Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 1. Nella sezione **Chi può inviare richieste tramite questo modulo**, selezionare una delle opzioni seguenti per indicare i tipi di utenti che possono accedere al modulo:
 
