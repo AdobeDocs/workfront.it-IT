@@ -4,9 +4,9 @@ description: I tipi di record sono i tipi di oggetto di Adobe Workfront Planning
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: ee366e05097518a4618dd11ed5807b8766465d94
+source-git-commit: 943c26efa6f6351abf885dbc5f3aa09c0b0fab05
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '591'
 ht-degree: 2%
 
 ---
@@ -36,8 +36,6 @@ Per informazioni, vedere [Configurare le funzionalità tra aree di lavoro divers
 ## Requisiti di accesso
 
 +++ Espandere per visualizzare i requisiti di accesso.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -108,6 +106,32 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    * Record
    * Registra connessioni
 
-## Creare un tipo di record da un tipo di record globale esistente
+* È possibile modificare il tipo di record, inclusi i relativi campi, solo nell&#39;area di lavoro originale. Non è possibile modificarlo dalle aree di lavoro in cui è stato aggiunto.
 
-1. Inizia a creare un tipo di record come descritto nell&#39;articolo [Crea tipi di record](/help/quicksilver/planning/architecture/create-record-types.md), quindi fai clic su **Usa tipo di record globale**. <!--check this - the option might have been renamed in the UI-->
+## Creare un tipo di record da un tipo di record esistente
+
+1. Inizia a creare un tipo di record come descritto nell&#39;articolo [Crea tipi di record](/help/quicksilver/planning/architecture/create-record-types.md), quindi fai clic su **Aggiungi esistente**. <!--check this - the option might have been renamed in the UI-->
+
+   ![Modale per aggiungere il tipo di record con opzione da importare da un&#39;altra area di lavoro](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
+
+1. Fai clic su **Continua**.
+1. Nella casella **Scegli tipo di record**, fai clic sulla scheda del tipo di record che desideri aggiungere da un&#39;area di lavoro esistente, quindi fai clic su **Aggiungi**.
+
+   Il tipo di record viene aggiunto all&#39;area di lavoro selezionata e si verificano gli eventi seguenti:
+
+   * Alla scheda del tipo di record importato è stata aggiunta l&#39;icona **cross-workspace record type** ![Cross-Workspace connection icon](assets/global-icon.png).
+   * Il campo **Workspace** di sola lettura è stato aggiunto al tipo di record importato. Nel campo viene visualizzata l’area di lavoro in cui è stato creato ogni record.
+
+     >[!NOTE]
+     >
+     >* Impossibile modificare il tipo di record importato o i relativi campi. È possibile modificare il tipo di record e i relativi campi dall&#39;area di lavoro originale.
+
+1. (Facoltativo) Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) nella scheda del tipo di record importato o a destra del nome del tipo di record nella relativa pagina, quindi fai clic su **Elimina**.
+1. (Condizionale) Digita **delete** nel campo fornito, quindi fai clic su **Delete** definitivamente.
+
+   Il tipo di record importato verrà rimosso dall&#39;area di lavoro selezionata. Il tipo di record originale e i relativi campi rimangono nell&#39;area di lavoro originale.
+
+   <!--**************************ASK LILIT ON THIS ONE, NOT SURE IF THIS IS TRUE: Any records added in the current workspace are saved in the original workspace.**********-->
+
+
+

@@ -4,9 +4,9 @@ description: È possibile abilitare un tipo di record per l'aggiunta a un'altra 
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
+source-git-commit: 943c26efa6f6351abf885dbc5f3aa09c0b0fab05
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1006'
 ht-degree: 1%
 
 ---
@@ -44,8 +44,6 @@ Per informazioni, vedere uno degli articoli seguenti:
 ## Requisiti di accesso
 
 +++ Espandere per visualizzare i requisiti di accesso.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -117,7 +115,7 @@ Per configurare l&#39;aggiunta di un tipo di record a un&#39;altra area di lavor
 
 {{step1-to-planning}}
 
-1. Fare clic sull&#39;area di lavoro di cui si desidera modificare i tipi di record.
+1. Fare clic sul workspace di cui si desidera modificare i tipi di record.
 
    Viene visualizzata la pagina dell&#39;area di lavoro e i tipi di record.
 1. Esegui una delle operazioni seguenti:
@@ -134,11 +132,11 @@ Oppure
 
    ![Modifica impostazioni avanzate tipo di record con Aggiungi ad altre aree di lavoro abilita](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
 
-1. Nel campo **Selezionare gli utenti che possono aggiungere questo tipo di record alle aree di lavoro che gestiscono**, aggiungere gli utenti che si desidera aggiungere questo tipo di record alle aree di lavoro che gestiscono.
+1. Nel campo **Selezionare gli utenti che possono aggiungere questo tipo di record alle aree di lavoro che gestiscono**, aggiungere gli utenti che si desidera consentire di aggiungere questo tipo di record alle aree di lavoro che gestiscono.
 
    Il tuo nome viene aggiunto automaticamente nel campo.
 
-   È possibile aggiungere singoli utenti o gruppi, team, mansioni o aziende di cui si desidera aggiungere questo tipo di record alle aree di lavoro gestite.
+   È possibile aggiungere singoli utenti o gruppi, team, mansioni o società di cui si desidera consentire l&#39;aggiunta di questo tipo di record alle aree di lavoro che gestiscono.
 
    È possibile modificare questo campo dopo aver salvato il tipo di record.
 1. (Facoltativo) Rimuovi il tuo nome dal campo **Seleziona gli utenti che possono aggiungere questo tipo di record alle aree di lavoro che gestiscono**.
@@ -148,6 +146,11 @@ Oppure
    Si verificano le seguenti situazioni:
 
    * Il tipo di record e i relativi campi sono ora disponibili per essere aggiunti a un&#39;altra area di lavoro dalle persone designate.
+
+   >[!NOTE]
+   >
+   >È possibile modificare il tipo di record e i relativi campi solo dall&#39;area di lavoro originale.
+
    * Nella scheda del tipo di record viene visualizzata un&#39;icona globale ![Icona del tipo di record globale](assets/global-icon.png) per indicare che il tipo di record è disponibile per essere aggiunto a qualsiasi area di lavoro di cui è stato designato il manager nella configurazione.
    * Al tipo di record è stato aggiunto un campo **Workspace** generato dal sistema.
 
@@ -155,7 +158,7 @@ Oppure
 
      Questo campo è di sola lettura e non può essere eliminato.
 
-## Configurare la connessione a un tipo di record in altre aree di lavoro
+## Configurare la connessione a un tipo di record da altre aree di lavoro
 
 È possibile configurare un tipo di record a cui connettersi da altre aree di lavoro quando si crea o si modifica il tipo di record.
 
@@ -175,7 +178,7 @@ Oppure
    ![Altre opzioni di menu dalla scheda del tipo di record](assets/more-menu-options-from-record-type-card.png)
 
 1. Nella casella **Modifica tipo di record** selezionare la scheda **Impostazioni avanzate**.
-1. Abilita l&#39;impostazione **Consenti la connessione a questo tipo di record da altre aree di lavoro**. <!-- check the setting name, this is the suggested UI text to be edited by Lilit and team-->
+1. Abilita l&#39;impostazione **Consenti la connessione a questo tipo di record in altre aree di lavoro**. <!-- check the setting name, I sent this to Lilit to say FROM instead of IN-->
 
    ![Modifica tipo di record Scheda Impostazioni avanzate con connessione da altre aree di lavoro abilitata](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
 
@@ -191,6 +194,11 @@ Oppure
 
    * Il tipo di record e i relativi campi sono ora disponibili per la connessione dalle aree di lavoro specificate.
    * Nella scheda del tipo di record viene visualizzata l&#39;icona di connessione tra più aree di lavoro ![Icona di connessione tra aree di lavoro](assets/connect-from-other-workspaces-icon.png) per indicare che il tipo di record è disponibile per la connessione da qualsiasi area di lavoro designata nella configurazione.
+
+   Il tipo di record diventa disponibile per la connessione dalle aree di lavoro specificate.
+
+
+
 
 
 
