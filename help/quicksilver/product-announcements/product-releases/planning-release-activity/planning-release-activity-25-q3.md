@@ -27,8 +27,8 @@ Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning,
 >[!NOTE]
 >
 >Anteprima: 10 luglio 2025
->>Produzione per tutti: 10 luglio 2025
->>[!BADGE Fuori programma]{type=Neutral}
+>&#x200B;>Produzione per tutti: 10 luglio 2025
+>&#x200B;>[!BADGE Fuori programma]{type=Neutral}
 
 
 È stata aggiornata la scheda Impostazioni avanzate durante la creazione o la modifica di un tipo di record.
@@ -45,8 +45,8 @@ Per ulteriori informazioni, vedere [Creare tipi di record](/help/quicksilver/pla
 >[!NOTE]
 >
 >Anteprima: 10 luglio 2025
->>Produzione per tutti: 10 luglio 2025
->>[!BADGE Fuori programma]{type=Neutral}
+>&#x200B;>Produzione per tutti: 10 luglio 2025
+>&#x200B;>[!BADGE Fuori programma]{type=Neutral}
 
 Ora, quando si aggiunge un team a un commento record in Workfront Planning, tutti i membri del team ricevono una notifica in-app e un messaggio e-mail relativo al commento. Prima di questo miglioramento, solo gli utenti aggiunti ai commenti singolarmente ricevevano una notifica .
 
@@ -57,8 +57,8 @@ Per informazioni, vedere Gestire i commenti ai record [Gestire i commenti ai rec
 >[!NOTE]
 >
 >Anteprima: 10 luglio 2025
->>Versione rapida di produzione: 14 agosto 2025
->>Produzione per tutti: 16 ottobre 2025
+>&#x200B;>Versione rapida di produzione: 14 agosto 2025
+>&#x200B;>Produzione per tutti: 16 ottobre 2025
 
 
 Ora, quando si applicano i raggruppamenti a una vista tabella, l&#39;aggiunta di un record alla tabella determina la compilazione automatica dei campi associati ai raggruppamenti a cui si aggiunge il record.
@@ -74,7 +74,7 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 >[!NOTE]
 >
 >Anteprima: 9 luglio 2025
->>Produzione per tutti: 17 luglio 2025
+>&#x200B;>Produzione per tutti: 17 luglio 2025
 
 Ora è possibile condividere una visualizzazione e un tipo di record dallo stesso pulsante nella pagina del tipo di record. Prima di questo miglioramento, era possibile condividere il tipo di record solo dal pulsante Condividi nella pagina del tipo di record e da una vista nella scheda della vista.
 
@@ -147,7 +147,7 @@ Per informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicks
 >
 >* Anteprima: 26 giugno 2025
 >* Produzione per tutti: 26 giugno 2025
->  >[!BADGE Fuori programma]{type=Neutral}
+>  &#x200B;>[!BADGE Fuori programma]{type=Neutral}
 
 Ora, quando si collegano tipi di record e si inserisce un campo formula come ricerca, è possibile applicare le funzioni di aggregazione (SUM, AVERAGE, MIN, MAX, ecc.) a seconda del formato del campo formula. Se ad esempio il campo formula è numerico, è possibile utilizzare funzioni quali SOMMA o MEDIA. Se il campo formula è formattato come testo, le funzioni di aggregazione come SOMMA non verranno applicate.
 
@@ -183,7 +183,7 @@ Per ulteriori informazioni, vedere [Abilitare i trimestri personalizzati per i p
 >
 >* Anteprima: 12 giugno 2025
 >* Produzione per tutti: 12 giugno 2025
->  >[!BADGE Fuori programma]{type=Neutral}
+>  &#x200B;>[!BADGE Fuori programma]{type=Neutral}
 
 È stato introdotto un miglioramento che aggiorna tutti i campi formula dipendenti l’uno dall’altro contemporaneamente dopo che un campo di riferimento è stato aggiornato manualmente. I campi formula che si trovano a 2, 3 o 4 campi distanti dal campo il cui valore viene modificato manualmente e che si riferiscono gli uni agli altri verranno aggiornati automaticamente allo stesso tempo.
 
@@ -197,7 +197,7 @@ Per informazioni, vedere [Panoramica dei campi formula](/help/quicksilver/planni
 >
 >* Anteprima: 6 giugno 2025
 >* Produzione per tutti i clienti: 6 giugno 2025
->  >[!BADGE Fuori programma]{type=Neutral}
+>  &#x200B;>[!BADGE Fuori programma]{type=Neutral}
 
 Sono state aggiunte le seguenti espressioni ai campi formula:
 
@@ -339,7 +339,7 @@ Prima di questo miglioramento, gli utenti con tutti i livelli di licenza dovevan
 >[!NOTE]
 >
 >Questa modifica sarà visibile per tutti gli utenti nuovi ed esistenti con una licenza Amministratore di sistema e Standard.
->>Gli utenti esistenti assegnati a un modello di layout continueranno a visualizzare tutto in base alle impostazioni definite nel modello di layout.
+>&#x200B;>Gli utenti esistenti assegnati a un modello di layout continueranno a visualizzare tutto in base alle impostazioni definite nel modello di layout.
 
 Per informazioni, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
