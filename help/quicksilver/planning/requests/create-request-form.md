@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: 83b3bd73fd30b5fba931e64783dee67485d98fe9
 workflow-type: tm+mt
-source-wordcount: '2281'
+source-wordcount: '2299'
 ht-degree: 1%
 
 ---
@@ -207,7 +207,7 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
 
 1. (Facoltativo) Fare clic su **Anteprima** per visualizzare la modalità di visualizzazione del modulo per gli altri utenti che lo utilizzeranno per inviare un nuovo record.
 
-1. (Facoltativo) Fai clic sulla scheda **Configurazione**, quindi aggiungi almeno un utente al campo **Approvatori** per approvare nuove richieste per questo modulo record.
+1. (Facoltativo) Fai clic sulla scheda **Configurazione**, quindi aggiungi almeno un utente <span class="preview">o un team</span>al campo **Approvatori** per approvare nuove richieste per questo modulo record.
 
    ![Scheda Configurazione](assets/configuration-tab.png)
 
@@ -217,6 +217,7 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
    * Puoi aggiungere uno o più approvatori a un modulo di richiesta.
    * Se almeno un approvatore rifiuta la richiesta, la richiesta viene rifiutata e il record non viene creato.
    * Tutti gli approvatori devono prendere una decisione prima che una richiesta venga approvata o rifiutata.
+   * <span class="preview">Se un team è impostato come approvatore, è necessaria una sola decisione del team.</span>
 
      Per ulteriori informazioni sull&#39;aggiunta di approvazioni ai moduli di richiesta, vedere [Aggiungere approvazione a un modulo di richiesta](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 

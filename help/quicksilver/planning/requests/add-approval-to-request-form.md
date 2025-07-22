@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 83b3bd73fd30b5fba931e64783dee67485d98fe9
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '782'
 ht-degree: 1%
 
 ---
@@ -123,11 +123,11 @@ Per informazioni sull&#39;invio di una richiesta a un tipo di record per la crea
    Viene visualizzata l&#39;area **Configurazione**.
 
    ![Scheda Configurazione](assets/configuration-tab.png)
-1. Nel campo **Approvatori**, fare clic sull&#39;icona a discesa e selezionare uno o più nomi nell&#39;elenco
+1. Nel campo **Approvatori**, fai clic sull&#39;icona a discesa e seleziona uno o più utenti <span class="preview">o team</span> nell&#39;elenco
 
    Oppure
 
-   Iniziare a digitare il nome di un approvatore, quindi selezionarlo quando viene visualizzato nell&#39;elenco.
+   Inizia a digitare il nome di un utente <span class="preview">o team</span> che desideri impostare come approvatore, quindi selezionalo quando viene visualizzato nell&#39;elenco.
 
    <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -141,6 +141,8 @@ Per informazioni sull&#39;invio di una richiesta a un tipo di record per la crea
    >* Se almeno un approvatore rifiuta la richiesta, la richiesta viene rifiutata e il record non viene creato. La richiesta rimane nella scheda Pianificazione della sezione Inviata nell&#39;area Richieste di Workfront.
    >
    >* Tutti gli approvatori devono prendere una decisione prima che una richiesta venga approvata o rifiutata.
+   >
+   >* <span class="preview">Se un team è impostato come approvatore, è necessaria una sola decisione del team.</span>
 
 
 1. (Facoltativo) Fai clic su **Pubblica** se non hai mai condiviso il modulo di richiesta in precedenza
