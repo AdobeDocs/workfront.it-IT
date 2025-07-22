@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: 428e6a9365c793ce5944941ec5368a674c208c78
+source-git-commit: 7f95df7acfb1afd0974c0138152a68326631d265
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '402'
 ht-degree: 4%
 
 ---
@@ -72,39 +72,21 @@ I tipi di spesa predefiniti in [!DNL Workfront] che non possono essere eliminati
 
 1. Fare clic su **[!UICONTROL Tipi di spesa]**.
 1. Fare clic su **[!UICONTROL Nuovo tipo di spesa]**.
-1. Nella finestra di dialogo **[!UICONTROL Nuovo tipo di spesa]**, specifica le seguenti informazioni:
+1. Nella finestra di dialogo **[!UICONTROL Nuovo tipo di spesa]** immettere le informazioni seguenti:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Name]</td> 
-      <td>Specifica un nome per la spesa.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Descrizione]</td> 
-      <td>Specifica una descrizione della spesa.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Unità Calcolata]</td> 
-      <td> <p>Selezionare l'unità di misura per il tipo di spesa dall'elenco a discesa.</p> <p>Sono disponibili le seguenti unità di misura:</p> 
-       <ul> 
-        <li>Miglia</li> 
-        <li>Chilometro</li> 
-        <li>Chilogrammo</li> 
-        <li>Dollaro</li> 
-        <li>Dollaro</li> 
-        <li>Giorno</li> 
-        <li>Altro - Se si seleziona questa opzione, viene richiesto di denominare l'unità di misura e di definirla in modo che sia familiare all'organizzazione.</li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Tariffa</td> 
-      <td> <p>Specifica il prezzo unitario. Questo campo è formattato come valuta e rappresenta il costo di ogni unità stabilita nel campo <strong>[!UICONTROL Unità calcolata]</strong>. </p> <p>Il tasso può contenere un valore numerico con un massimo di 4 numeri dopo il decimale. Ad esempio, 1,0375</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   * **Nome** - Nome per la spesa.
+   * **Descrizione** - Descrizione della spesa.
+   * **Unità calcolata** - Selezionare l&#39;unità di misura per il tipo di spesa dall&#39;elenco a discesa. Sono disponibili le seguenti unità di misura:
+
+      * Miglia
+      * Chilometro
+      * Chilogrammo
+      * Dollaro
+      * Ora
+      * Giorno
+      * Altro - Se si seleziona questa opzione, viene richiesto di denominare l&#39;unità di misura e di definirla in modo che sia familiare all&#39;organizzazione.
+
+   * **Tariffa** - Prezzo unitario. Questo campo è formattato come valuta e rappresenta il costo di ogni unità stabilita nel campo **Unità calcolata**. Il tasso può contenere un valore numerico con un massimo di 4 numeri dopo il decimale. Ad esempio, 1,0375.
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -115,7 +97,7 @@ I tipi di spesa predefiniti in [!DNL Workfront] che non possono essere eliminati
 {{step-1-to-setup}}
 
 1. Fare clic su **[!UICONTROL Tipi di spesa]**.
-1. Selezionare il tipo di spesa da modificare, quindi fare clic su **[!UICONTROL Modifica]**.
+1. Seleziona il tipo di spesa da modificare, quindi fai clic sull&#39;icona **[!UICONTROL Modifica]** ![Modifica](assets/edit-icon.png).
 
    Viene visualizzata la finestra di dialogo **[!UICONTROL Modifica tipo di spesa]**.
 
