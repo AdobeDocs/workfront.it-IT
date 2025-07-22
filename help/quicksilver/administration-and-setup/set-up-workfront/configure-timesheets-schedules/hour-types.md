@@ -4,14 +4,14 @@ content-type: reference
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Gestisci i Tipi di Ora
-description: È possibile associare i tipi di ore alle ore inserite. I tipi di ore sono etichette utilizzate per definire le ore inserite.
+description: È possibile associare i tipi di ore alle ore inserite. I tipi di ore sono etichette utilizzate per definire le ore inserite. I tipi di ora possono essere per l’ora generale o per l’ora specifica del progetto.
 author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '1134'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ Per informazioni sulle ore di registrazione e sulla loro associazione ai tipi di
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandere per visualizzare i requisiti di accesso.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -129,7 +129,7 @@ Per creare i tipi di lavoro:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Ambito]</td> 
-      <td> <p>Nel menu a discesa <strong>Ambito</strong>, selezionare se il tipo di ora è generale o specifico del progetto.</p> <p>I tipi di lavoro generali sono visibili solo nelle schede orario e non possono essere associati a progetti, attività o problemi.</p> <p><b>IMPORTANTE</b>: se si dispone di un Tipo di Ora personalizzato che è [!UICONTROL Specifico per Progetto] e si modifica tale tipo in [!UICONTROL Generale], tutte le attività, i problemi e le ore di Progetto esistenti vengono impostate sui relativi tipi predefiniti di sistema.</p> </td> 
+      <td> <p>Nel menu a discesa <strong>Ambito</strong>, selezionare se il tipo di ora è generale o specifico del progetto.</p> <p>I tipi di lavoro generali sono visibili solo nelle schede orario e non possono essere associati a progetti, attività o problemi.</p> <p><b>IMPORTANTE</b></p><p> Se si dispone di un Tipo di Ora personalizzato che è [!UICONTROL Specifico Progetto] e si modifica tale Tipo in [!UICONTROL Generale], tutte le Attività, i Problemi e le Ore di Progetto esistenti vengono impostate sui relativi tipi predefiniti di sistema.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Count As Revenue]</td> 
@@ -142,9 +142,65 @@ Per creare i tipi di lavoro:
     </tbody> 
    </table>
 
+   <!-- in the table above, add this for the Count as revenue: <span class="preview">[!UICONTROL Count as Revenue]</span>-->
+
 1. Fai clic su **[!UICONTROL Crea tipo di lavoro].**
 
+   <!--Click  **[!UICONTROL Create Hour Type]** <span class="preview"> or **Save**</span>. -->
+
    Il tipo di ora viene aggiunto al sistema Workfront e attivato per impostazione predefinita.
+
+
+## Modifica tipi di lavoro
+
+In qualità di amministratore [!DNL Workfront], puoi modificare i tipi di lavoro per la tua organizzazione a livello di sistema e di progetto.
+
+>[!NOTE]
+>
+>* Non è possibile modificare i tipi di lavoro predefiniti.
+>* Non è possibile modificare i tipi di lavoro in blocco.
+
+{{step-1-to-setup}}
+
+1. Nel pannello a sinistra, fai clic su **Scheda orario e ore**, quindi fai clic su **Tipi di ore**.
+
+1. Fai clic sul nome di un tipo di ora o seleziona il tipo di ora, quindi fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png) nella parte superiore dell&#39;elenco.
+1. Nella finestra di dialogo **Modifica tipi di lavoro** specificare le informazioni seguenti:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Name]</td> 
+      <td>Immettere un nome di tipo di ora facilmente riconoscibile nel sistema.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Descrizione]</td> 
+      <td>Aggiungi una descrizione per il tipo di ora.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Ambito]</td> 
+      <td> <p>Nel menu a discesa <strong>Ambito</strong>, selezionare se il tipo di ora è generale o specifico del progetto.</p> <p>I tipi di lavoro generali sono visibili solo nelle schede orario e non possono essere associati a progetti, attività o problemi.</p> <p><b>IMPORTANTE</b></p> <p>Se si dispone di un Tipo di Ora personalizzato che è [!UICONTROL Specifico Progetto] e si modifica tale Tipo in [!UICONTROL Generale], tutte le Attività, i Problemi e le Ore di Progetto esistenti vengono impostate sui relativi tipi predefiniti di sistema.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Count As Revenue]</td> 
+      <td><p>Selezionare questa opzione se si desidera che la voce relativa alle ore associata a questo tipo di ore influisca sui calcoli dei ricavi.</p>
+      <p>Il tempo di malattia e il tempo di vacanza non possono essere conteggiati come ricavi.</p>
+      <p><b>NOTA</b></p>
+      <p>Quando i tipi di ore generali vengono conteggiati come ricavi, la tariffa di costo associata al profilo dell’utente che registra l’ora viene associata al costo orario.  
+      </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+   <!-- in the table above, add this for the Count as revenue: <span class="preview">[!UICONTROL Count as Revenue]</span>-->
+
+1. Fai clic su **[!UICONTROL Salva modifiche].**
+
+   <!--Click  **[!UICONTROL Save Changes]** <span class="preview"> or **Save**</span>. -->
+
+   Le modifiche vengono salvate e il tipo di ora viene modificato.
 
 ## Disattiva i tipi di lavoro
 
@@ -152,9 +208,11 @@ Per creare i tipi di lavoro:
 
 >[!NOTE]
 >
->* Non è possibile disattivare i tipi di lavoro incorporati.
+>* Non è possibile disattivare i tipi di lavoro predefiniti.
+>* È possibile disattivare i tipi di lavoro in blocco.
 >* Quando disattivi un Tipo di ora specifico per il progetto, per tutto il tempo registrato per quel tipo viene automaticamente utilizzato il tipo di ora predefinito del progetto. Ad esempio, il tempo registrato per un progetto viene impostato automaticamente sul tipo Ora progetto; il tempo registrato per un&#39;attività viene impostato automaticamente sul tipo Ora attività.
->
+>* Quando si disattiva un tipo di ora generale, l&#39;ora registrata rimane nella scheda orario, ma gli utenti non possono più registrare l&#39;ora per quel tipo di ora in futuro.
+
 
 
 Per disattivare un tipo di ora:
@@ -163,8 +221,7 @@ Per disattivare un tipo di ora:
 
 1. Nel pannello a sinistra, fai clic su **[!UICONTROL Scheda orario e ore]**, quindi fai clic su **[!UICONTROL Tipi di ore]**.
 
-1. Selezionare il tipo di ora che si desidera disattivare.
-
+1. Selezionare il tipo di ora che si desidera disattivare. È possibile selezionare più tipi di ore.
 
 1. Fai clic su **Altro**, quindi su **Disattiva**.
 

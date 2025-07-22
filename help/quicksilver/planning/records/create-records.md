@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
 workflow-type: tm+mt
 source-wordcount: '2388'
 ht-degree: 0%
@@ -26,8 +26,12 @@ In Adobe Workfront Planning, un record è un&#39;istanza di un tipo di record.
 
 È possibile creare record eseguendo una delle operazioni seguenti:
 
-* [Creare record aggiungendoli in linea dalla vista tabella del tipo di record](#create-records-by-adding-them-inline-from-the-record-type-table-view)
 * [Creare record utilizzando il pulsante Nuovo record o Richiedi record da qualsiasi visualizzazione del tipo di record](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
+* [Creare record aggiungendoli in linea dalla vista tabella del tipo di record](#create-records-by-adding-them-inline-from-the-record-type-table-view)
+
+<!--
+* [Create records by adding them in the record type timeline view](#create-records-by-adding-them-in-the-record-type-timeline-view)-->
+
 * [Copiare e incollare un elenco di record da un elenco esterno](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplicare record da una vista tabella](#create-records-by-duplicating-them)
 * [Crea record durante la connessione da altri record](#create-records-as-you-connect-them)
@@ -108,77 +112,6 @@ Per informazioni sulla gestione dei record nelle viste tabella o sequenza tempor
 *Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-## Creare record aggiungendoli in linea dalla vista tabella del tipo di record
-
-È possibile creare record nella vista tabella di una pagina del tipo di record quando vengono aggiunti in linea.
-
-Per informazioni sulla modifica delle informazioni sui record, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
-
-{{step1-to-planning}}
-
-1. Fare clic sull&#39;area di lavoro in cui si desidera aggiungere i record.
-
-   Viene aperto il workspace e i tipi di record vengono visualizzati come schede.
-
-1. Fare clic su una scheda del tipo di record. Per informazioni sulla creazione di un tipo di record, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
-
-   La pagina del tipo di record viene visualizzata nella visualizzazione a cui si è effettuato l&#39;ultimo accesso. Per impostazione predefinita, nella vista tabella viene visualizzata una pagina del tipo di record.
-I record del tipo selezionato vengono visualizzati nella vista.
-
-1. (Condizionale) Nella vista a tabella, effettuate una delle seguenti operazioni:
-
-   * Fare clic su **Nuovo record** nell&#39;ultima riga della tabella o dopo l&#39;ultimo record di un raggruppamento
-
-     >[!TIP]
-     >
-     >Quando si aggiunge un nuovo record dopo l&#39;ultimo record di un raggruppamento o di un sottogruppo, Workfront compila automaticamente i campi inclusi nei raggruppamenti. Se necessario, è possibile modificare manualmente questi campi e i record potrebbero essere rimossi dal raggruppamento.
-
-   * Fai clic su **Maiusc + Invio** sulla tastiera da qualsiasi colonna o riga della tabella. In questo modo viene aggiunta una riga vuota sotto il record iniziale.
-   * Passa il puntatore del mouse sul campo principale di un record, fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del campo, quindi fai clic su **Inserisci record sopra** o **Inserisci record sotto**.
-
-   ![Aggiunta di una nuova campagna nella riga della tabella](assets/adding-a-new-campaign-in-table-row.png)
-
-   Workfront carica automaticamente una miniatura in ogni nuovo record. In seguito sarà possibile modificare queste immagini. Per informazioni, vedere [Aggiungere un&#39;immagine di copertina a un record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
-
-   Nella tabella viene aggiunto un nuovo record.
-
-1. Fare clic sul campo principale del nuovo record
-
-   Oppure
-
-   Fai clic sull&#39;icona **Apri dettagli** ![Apri icona dettagli nel campo nome tabella](assets/open-details-icon-in-table-name-field.png) a sinistra del nome del record.
-
-   Nella tabella viene visualizzata la casella di anteprima.
-
-1. Iniziare a digitare informazioni sul nuovo record nei campi visualizzati nella casella di anteprima.
-
-   >[!NOTE]
-   >
-   >  * Non esistono campi obbligatori per i record. È tuttavia consigliabile aggiungere informazioni per il campo principale di un record, in quanto è utile identificare i record quando si collegano tra loro record. Per ulteriori informazioni sui campi primari, vedere [Gestire la visualizzazione tabella](/help/quicksilver/planning/views/manage-the-table-view.md) e [Panoramica campo primario](/help/quicksilver/planning/fields/primary-field-overview.md).
-   >
-   >  * I campi che fanno riferimento ad altri tipi di record o campi calcolati sono campi di sola lettura.
-
-1. (Condizionale) Quando si aggiungono record nella tabella, prima di aprire la casella di anteprima del record, continuare ad aggiungere informazioni su ogni riga, quindi fare clic su **Invio** sulla tastiera per salvare le modifiche.
-
-   Oppure
-
-   Fare clic sul nome del nuovo record o sull&#39;icona **Apri dettagli** ![Apri icona dettagli nel campo nome tabella](assets/open-details-icon-in-table-name-field.png) a sinistra del nome del record per aprire la casella di anteprima e modificare le informazioni del record nell&#39;area dei dettagli.
-
-   >[!TIP]
-   >
-   >Puoi accedere all&#39;icona **Apri dettagli** solo dal campo del nome del record quando il campo Nome è un campo primario.
-
-1. (Facoltativo) Dalla casella di anteprima del record, fare clic sull&#39;icona **Apri in una nuova scheda** ![Apri i dettagli in una nuova scheda icona](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro per aprire la pagina del record in una nuova scheda. Continuare a modificare il record nella pagina record. Per informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
-
-   Workfront salva automaticamente le modifiche.
-
-1. (Facoltativo) Se si apre la pagina del record, chiudere la casella di anteprima o fare clic sulla freccia indietro a sinistra del nome del record.
-
-1. (Facoltativo) Nella vista tabella, utilizzare le seguenti scelte rapide da tastiera per annullare o ripristinare l&#39;aggiunta di nuovi record o delle relative informazioni durante l&#39;aggiunta nella vista tabella:
-
-   * CTRL + Z (⌘ + Z per Mac) per annullare una modifica
-   * CTRL + MAIUSC + Z (⌘ + MAIUSC + Z per Mac) per ripristinare una modifica
 
 ## Creare record utilizzando il pulsante Nuovo record o Richiedi record da qualsiasi visualizzazione del tipo di record
 
@@ -265,6 +198,136 @@ You can import records from other applications by linking them to existing recor
       For example, if you connect a Planning record type to Workfront project, a read-only record type named "Workfront project" is created in the same workspace. You can access the read-only Workfront record types from the table view of the Planning records you're linking from. 
    
 -->
+
+## Creare record aggiungendoli in linea dalla vista tabella del tipo di record
+
+È possibile creare record nella vista tabella di una pagina del tipo di record quando vengono aggiunti in linea.
+
+Per informazioni sulla modifica delle informazioni sui record, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
+
+{{step1-to-planning}}
+
+1. Fare clic sull&#39;area di lavoro in cui si desidera aggiungere i record.
+
+   Viene aperto il workspace e i tipi di record vengono visualizzati come schede.
+
+1. Fare clic su una scheda del tipo di record. Per informazioni sulla creazione di un tipo di record, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+
+   La pagina del tipo di record viene visualizzata nella visualizzazione a cui si è effettuato l&#39;ultimo accesso. Per impostazione predefinita, nella vista tabella viene visualizzata una pagina del tipo di record.
+I record del tipo selezionato vengono visualizzati nella vista.
+
+1. (Condizionale) Nella vista a tabella, effettuate una delle seguenti operazioni:
+
+   * Fare clic su **Nuovo record** nell&#39;ultima riga della tabella o dopo l&#39;ultimo record di un raggruppamento
+
+     >[!TIP]
+     >
+     >Quando si aggiunge un nuovo record dopo l&#39;ultimo record di un raggruppamento o di un sottogruppo, Workfront compila automaticamente i campi inclusi nei raggruppamenti. Se necessario, è possibile modificare manualmente questi campi e i record potrebbero essere rimossi dal raggruppamento.
+
+   * Fai clic su **Maiusc + Invio** sulla tastiera da qualsiasi colonna o riga della tabella. In questo modo viene aggiunta una riga vuota sotto il record iniziale.
+   * Passa il puntatore del mouse sul campo principale di un record, fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del campo, quindi fai clic su **Inserisci record sopra** o **Inserisci record sotto**.
+
+   ![Aggiunta di una nuova campagna nella riga della tabella](assets/adding-a-new-campaign-in-table-row.png)
+
+   Workfront carica automaticamente una miniatura in ogni nuovo record. In seguito sarà possibile modificare queste immagini. Per informazioni, vedere [Aggiungere un&#39;immagine di copertina a un record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+
+   Nella tabella viene aggiunto un nuovo record.
+
+1. Fare clic sul campo principale del nuovo record
+
+   Oppure
+
+   Fai clic sull&#39;icona **Apri dettagli** ![Apri icona dettagli nel campo nome tabella](assets/open-details-icon-in-table-name-field.png) a sinistra del nome del record.
+
+   Nella tabella viene visualizzata la casella di anteprima.
+
+1. Iniziare a digitare informazioni sul nuovo record nei campi visualizzati nella casella di anteprima.
+
+   >[!NOTE]
+   >
+   >  * Non esistono campi obbligatori per i record. È tuttavia consigliabile aggiungere informazioni per il campo principale di un record, in quanto è utile identificare i record quando si collegano tra loro record. Per ulteriori informazioni sui campi primari, vedere [Gestire la visualizzazione tabella](/help/quicksilver/planning/views/manage-the-table-view.md) e [Panoramica campo primario](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >
+   >  * I campi che fanno riferimento ad altri tipi di record o campi calcolati sono campi di sola lettura.
+
+1. (Condizionale) Quando si aggiungono record nella tabella, prima di aprire la casella di anteprima del record, continuare ad aggiungere informazioni su ogni riga, quindi fare clic su **Invio** sulla tastiera per salvare le modifiche.
+
+   Oppure
+
+   Fare clic sul nome del nuovo record o sull&#39;icona **Apri dettagli** ![Apri icona dettagli nel campo nome tabella](assets/open-details-icon-in-table-name-field.png) a sinistra del nome del record per aprire la casella di anteprima e modificare le informazioni del record nell&#39;area dei dettagli.
+
+   >[!TIP]
+   >
+   >Puoi accedere all&#39;icona **Apri dettagli** solo dal campo del nome del record quando il campo Nome è un campo primario.
+
+1. (Facoltativo) Dalla casella di anteprima del record, fare clic sull&#39;icona **Apri in una nuova scheda** ![Apri i dettagli in una nuova scheda icona](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro per aprire la pagina del record in una nuova scheda. Continuare a modificare il record nella pagina record. Per informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
+
+   Workfront salva automaticamente le modifiche.
+
+1. (Facoltativo) Se si apre la pagina del record, chiudere la casella di anteprima o fare clic sulla freccia indietro a sinistra del nome del record.
+
+1. (Facoltativo) Nella vista tabella, utilizzare le seguenti scelte rapide da tastiera per annullare o ripristinare l&#39;aggiunta di nuovi record o delle relative informazioni durante l&#39;aggiunta nella vista tabella:
+
+   * CTRL + Z (⌘ + Z per Mac) per annullare una modifica
+   * CTRL + MAIUSC + Z (⌘ + MAIUSC + Z per Mac) per ripristinare una modifica
+
+<!--<div class="preview">
+
+## Create records by adding them in the record type timeline view
+
+You can create records in the timeline view of a record type page, by double-clicking in the timeline. 
+
+For information about creating a timeline view, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+{{step1-to-planning}}
+  
+1. Click the workspace where you want to add records.
+
+    The workspace opens and the record types display as cards.
+
+1. Click a record type card. 
+
+    The record type page opens in the view that you last accessed. 
+
+1. Click to open a timeline view, or create a timeline view, first. 
+
+    >[!NOTE]
+    >
+    >You can create a timeline view only if there are at least two date fields associated with the record type.
+1. Double-click anywhere in the timeline. 
+
+    A new record box opens. 
+
+    ![New record box on timeline with unnamed record bar](assets/new-record-small-box-on-timeline.png)
+1. Update the following information:
+
+    * **Name**: Enter the name of the record. If you leave it empty, Workfront names it **Untitled** by default. The name will not be visible in the record bar if left empty. 
+    * **Record date fields**: Update the dates of the record. 
+        
+        The names of the date fields are customized according to the fields selected for the Start and End dates when the timeline view was created.
+
+        By default, date values are preselected depending on how you display the timeline view. The following scenarios exist:
+
+        * By **Year**: The record start and end dates span a month.
+        * By **Quarter**: The record start and end dates span a week. 
+        * By **Month**: The record start and end dates span three days.
+
+1. (Optional) Click one of the following icons: 
+
+    * **Expand** ![Expand icon](assets/expand-icon.png) to open the record details in the preview window. 
+    * **Delete** ![Delete icon](assets/delete-icon.png) to delete the record.
+    * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
+
+    The record is added to the timeline as well as to the table and calendar views immediately, unless you clicked the **Delete** icon. 
+
+1. (Optional) Click the record bar in the timeline to open the record's details window and update its information, delete it, or add comments. 
+
+    >[!TIP]
+    >
+    >By default, Workfront associates the record with a thumbnail and a cover image.
+    >
+    >The thumbnail displays in the timeline view only when it is enabled in the Settings of the view. 
+
+</div>-->
 
 ## Creare record copiandoli e incollandoli da un elenco esterno
 
