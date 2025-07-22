@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6b93cca4a434885e39cddcb4a01a8d753609b220
+source-git-commit: b2fdf8d54adacfa4ab2d665767f2265fdd23da4f
 workflow-type: tm+mt
-source-wordcount: '5280'
+source-wordcount: '5276'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,6 @@ In questa pagina sono elencati gli aggiornamenti dell’interfaccia che stiamo a
 Per tutte le altre modifiche apportate ad Adobe Workfront, vedi [Versioni del prodotto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Amministrazione e configurazione
-
 
 ### Aggiornamenti dell&#39;interfaccia per la pagina Modelli di layout
 
@@ -248,7 +247,7 @@ La nuova esperienza è disponibile quando crei o modifichi Gruppi di argomenti i
 
 ### Aggiornamenti dell’interfaccia per la sezione Progetti associati di un progetto (disponibile solo per clienti specifici)
 
-**Anteprima versione: 12 giugno 2025; Versione di produzione: da annunciare**
+**Anteprima versione: 12 giugno 2025; produzione versione: 19 giugno 2025**
 
 Abbiamo aggiornato la sezione Progetti associati di un progetto con un design più moderno che è coerente con altre aree di Workfront.
 
@@ -256,7 +255,7 @@ Clienti specifici possono visualizzare questa modifica andando alla sezione Prog
 
 ### Nuovo aspetto per la casella &quot;Salva come modello&quot;
 
-**Anteprima versione: 12 giugno 2025; Versione di produzione: da annunciare**
+**Anteprima versione: 12 giugno 2025; produzione versione: 19 giugno 2025**
 
 È stato aggiornato l’aspetto della casella &quot;Salva come modello&quot; che viene visualizzata quando si salva un progetto come modello. Il nuovo design include un’interfaccia semplificata, in cui tutte le sezioni vengono visualizzate in un unico formato coesivo, accessibile tramite i collegamenti presenti nel pannello a sinistra. Il nuovo design corrisponde ad altre aree e ad altri oggetti dell&#39;applicazione.
 

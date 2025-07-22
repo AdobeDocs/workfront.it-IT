@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 8dd86b364e23089f3ff02c7817807e5219a3ebb4
+source-git-commit: 9d5249e5587a4291dc9020d456a320da4cdbb8f1
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: '2267'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,8 @@ Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning,
 >[!NOTE]
 >
 >Anteprima: 10 luglio 2025
->&#x200B;>Produzione per tutti: 10 luglio 2025
+>>Produzione per tutti: 10 luglio 2025
+>>[!BADGE Fuori programma]{type=Neutral}
 
 
 È stata aggiornata la scheda Impostazioni avanzate durante la creazione o la modifica di un tipo di record.
@@ -44,7 +45,8 @@ Per ulteriori informazioni, vedere [Creare tipi di record](/help/quicksilver/pla
 >[!NOTE]
 >
 >Anteprima: 10 luglio 2025
->&#x200B;>Produzione per tutti: 10 luglio 2025
+>>Produzione per tutti: 10 luglio 2025
+>>[!BADGE Fuori programma]{type=Neutral}
 
 Ora, quando si aggiunge un team a un commento record in Workfront Planning, tutti i membri del team ricevono una notifica in-app e un messaggio e-mail relativo al commento. Prima di questo miglioramento, solo gli utenti aggiunti ai commenti singolarmente ricevevano una notifica .
 
@@ -55,8 +57,8 @@ Per informazioni, vedere Gestire i commenti ai record [Gestire i commenti ai rec
 >[!NOTE]
 >
 >Anteprima: 10 luglio 2025
->&#x200B;>Versione rapida di produzione: 14 agosto 2025
->&#x200B;>Produzione per tutti: 16 ottobre 2025
+>>Versione rapida di produzione: 14 agosto 2025
+>>Produzione per tutti: 16 ottobre 2025
 
 
 Ora, quando si applicano i raggruppamenti a una vista tabella, l&#39;aggiunta di un record alla tabella determina la compilazione automatica dei campi associati ai raggruppamenti a cui si aggiunge il record.
@@ -72,7 +74,7 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 >[!NOTE]
 >
 >Anteprima: 9 luglio 2025
->&#x200B;>Produzione per tutti: 17 luglio 2025
+>>Produzione per tutti: 17 luglio 2025
 
 Ora è possibile condividere una visualizzazione e un tipo di record dallo stesso pulsante nella pagina del tipo di record. Prima di questo miglioramento, era possibile condividere il tipo di record solo dal pulsante Condividi nella pagina del tipo di record e da una vista nella scheda della vista.
 
@@ -118,7 +120,7 @@ Per rendere più sicura e semplice la condivisione di un modulo di richiesta in 
 * Abbiamo rimosso le opzioni di gestione e contribuzione per gli utenti con cui condividi il modulo di richiesta. Ora gli utenti aggiunti possono solo inviare il modulo.
 * Nella scheda Condivisione pubblica vengono ora visualizzati il campo Collegamento e data di scadenza dopo l’abilitazione dell’opzione Crea collegamento pubblico.
 
-Per ulteriori informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](https://experienceleague.adobe.com/it/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Per ulteriori informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Espandere e comprimere tutti i raggruppamenti nella vista tabella
 
@@ -145,6 +147,7 @@ Per informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicks
 >
 >* Anteprima: 26 giugno 2025
 >* Produzione per tutti: 26 giugno 2025
+>  >[!BADGE Fuori programma]{type=Neutral}
 
 Ora, quando si collegano tipi di record e si inserisce un campo formula come ricerca, è possibile applicare le funzioni di aggregazione (SUM, AVERAGE, MIN, MAX, ecc.) a seconda del formato del campo formula. Se ad esempio il campo formula è numerico, è possibile utilizzare funzioni quali SOMMA o MEDIA. Se il campo formula è formattato come testo, le funzioni di aggregazione come SOMMA non verranno applicate.
 
@@ -179,8 +182,8 @@ Per ulteriori informazioni, vedere [Abilitare i trimestri personalizzati per i p
 >[!NOTE]
 >
 >* Anteprima: 12 giugno 2025
->* Versione rapida di produzione: 12 giugno 2025
->* Produzione per tutti i clienti: 12 giugno 2025
+>* Produzione per tutti: 12 giugno 2025
+>  >[!BADGE Fuori programma]{type=Neutral}
 
 È stato introdotto un miglioramento che aggiorna tutti i campi formula dipendenti l’uno dall’altro contemporaneamente dopo che un campo di riferimento è stato aggiornato manualmente. I campi formula che si trovano a 2, 3 o 4 campi distanti dal campo il cui valore viene modificato manualmente e che si riferiscono gli uni agli altri verranno aggiornati automaticamente allo stesso tempo.
 
@@ -193,8 +196,8 @@ Per informazioni, vedere [Panoramica dei campi formula](/help/quicksilver/planni
 >[!NOTE]
 >
 >* Anteprima: 6 giugno 2025
->* Versione rapida di produzione: 6 giugno 2025
 >* Produzione per tutti i clienti: 6 giugno 2025
+>  >[!BADGE Fuori programma]{type=Neutral}
 
 Sono state aggiunte le seguenti espressioni ai campi formula:
 
@@ -238,7 +241,7 @@ Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per l
 >
 >* Anteprima: 22 maggio 2025
 >* Versione rapida di produzione: 12 giugno 2025
->* Produzione per tutti i clienti: 17 luglio 2025
+>* Produzione per tutti: 17 luglio 2025
 
 È stata modificata l’esperienza di suddivisione dei record nella visualizzazione timeline ed è stata applicata la visualizzazione Compatta.
 Con il nuovo aggiornamento, quando si definiscono gli oggetti di suddivisione durante la visualizzazione della timeline in modalità Compatta, viene richiesto di passare alla visualizzazione Standard al termine della configurazione delle condizioni di suddivisione.
@@ -255,7 +258,7 @@ Per informazioni, vedere [Gestire la visualizzazione della sequenza temporale](/
 >
 >* Anteprima: 15 maggio 2025
 >* Versione rapida di produzione: 12 giugno 2025
->* Produzione per tutti i clienti: 17 luglio 2025
+>* Produzione per tutti: 17 luglio 2025
 
 È ora possibile formattare l&#39;aspetto delle barre dei record nella visualizzazione timeline per i record del raggruppamento. È possibile aggiornare le seguenti impostazioni per le barre di questi record:
 
@@ -272,7 +275,7 @@ Per informazioni, vedere [Gestire la visualizzazione della sequenza temporale](/
 >
 >* Anteprima: 15 maggio 2025
 >* Versione rapida di produzione: 12 giugno 2025
->* Produzione per tutti i clienti: 17 luglio 2025
+>* Produzione per tutti: 17 luglio 2025
 
 È stata aggiunta una nuova funzionalità a Workfront Planning che consente di esportare le informazioni visibili nella vista a tabella in un file CSV o Excel.  
 
@@ -290,7 +293,7 @@ Per ulteriori informazioni, vedere [Gestire la visualizzazione della tabella](/h
 >
 >* Anteprima: 15 maggio 2025
 >* Versione rapida di produzione: 12 giugno 2025
->* Produzione per tutti i clienti: 17 luglio 2025
+>* Produzione per tutti: 17 luglio 2025
 
 È ora possibile popolare i valori dei campi collegati quando si aggiungono record a un tipo di record utilizzando un file CSV o Excel.  Sono supportati solo i campi dei record di Planning connessi. I campi che visualizzano connessioni ad altre applicazioni non sono supportati.
 
@@ -310,7 +313,7 @@ Per informazioni, vedere i seguenti articoli:
 >
 >* Anteprima: 30 aprile 2025
 >* Versione rapida di produzione: 15 maggio 2025
->* Produzione per tutti i clienti: 17 luglio 2025
+>* Produzione per tutti: 17 luglio 2025
 
 È ora possibile modificare i record nella pagina Record collegati di un record. Con questo aggiornamento, abbiamo introdotto quanto segue:
 
@@ -327,7 +330,7 @@ Per informazioni, vedere [Gestire il layout della pagina record](/help/quicksilv
 >
 >* Anteprima: 30 aprile 2025
 >* Versione rapida di produzione: 15 maggio 2025
->* Produzione per tutti i clienti: 17 luglio 2025
+>* Produzione per tutti: 17 luglio 2025
 
 Gli utenti Standard e System Administrator possono ora trovare l&#39;area Planning nel menu principale per impostazione predefinita, senza essere assegnati a un modello di layout che lo include. Tutti gli altri utenti devono disporre di un modello di layout che includa l&#39;area Planning loro assegnata per poter accedere ad essa.
 
@@ -336,7 +339,7 @@ Prima di questo miglioramento, gli utenti con tutti i livelli di licenza dovevan
 >[!NOTE]
 >
 >Questa modifica sarà visibile per tutti gli utenti nuovi ed esistenti con una licenza Amministratore di sistema e Standard.
->&#x200B;>Gli utenti esistenti assegnati a un modello di layout continueranno a visualizzare tutto in base alle impostazioni definite nel modello di layout.
+>>Gli utenti esistenti assegnati a un modello di layout continueranno a visualizzare tutto in base alle impostazioni definite nel modello di layout.
 
 Per informazioni, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
@@ -346,7 +349,7 @@ Per informazioni, vedere [Panoramica di Adobe Workfront Planning](/help/quicksil
 >
 >* Anteprima: 30 aprile 2025
 >* Versione rapida di produzione: 15 maggio 2025
->* Produzione per tutti i clienti: 17 luglio 2025
+>* Produzione per tutti: 17 luglio 2025
 
 Per una migliore visibilità delle informazioni importanti dei record, è stata introdotta la formattazione del colore a livello di riga per la visualizzazione per tabella. È ora possibile scegliere un colore per ogni riga dopo aver definito le condizioni per ciascuna scelta.  Questa è una nuova funzionalità che non esisteva prima di questo aggiornamento.
 
@@ -358,7 +361,7 @@ Per informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicks
 >
 >* Anteprima: 23 aprile 2025
 >* Versione rapida di produzione: 15 maggio 2025
->* Produzione per tutti i clienti: 17 luglio 2025
+>* Produzione per tutti: 17 luglio 2025
 
 È ora possibile attivare un&#39;impostazione nella scheda Stile barra della casella Impostazioni di una visualizzazione timeline per troncare i nomi dei record più lunghi quando vengono visualizzati nella visualizzazione Standard. L&#39;impostazione è disattivata per impostazione predefinita e può essere attivata solo quando si visualizza la vista timeline in modalità Standard. Poiché questa impostazione è disabilitata, per impostazione predefinita le informazioni sulle barre dei record vengono visualizzate espanse. Prima di questo miglioramento, le informazioni sulle barre dei record venivano troncate per impostazione predefinita.
 
@@ -366,12 +369,11 @@ Per informazioni, vedere [Gestire la visualizzazione della sequenza temporale](/
 
 ## Autorizzazioni di condivisione per i tipi di record
 
-
 >[!NOTE]
 >
 >* Anteprima: 17 aprile 2025
 >* Versione rapida di produzione: 17 luglio 2025
->* Produzione per tutti i clienti: 17 luglio 2025
+>* Produzione per tutti: 17 luglio 2025
 
 Per controllare meglio chi può visualizzare o gestire i record in ogni tipo di record e garantire che solo le persone autorizzate possano gestire le informazioni di ogni tipo di record in base ai loro ruoli e responsabilità, sono state introdotte le autorizzazioni a livello di tipo di record.
 
