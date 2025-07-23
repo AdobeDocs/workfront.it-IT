@@ -7,9 +7,9 @@ description: Nella sezione Aggiornamenti di un oggetto vengono visualizzati i co
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1196'
 ht-degree: 4%
 
 ---
@@ -299,24 +299,33 @@ Nella tabella seguente vengono illustrati gli oggetti i cui commenti vengono vis
 
 Nella sezione Aggiornamenti di un team e quando si immettono aggiornamenti per conto di altri utenti, esistono alcune limitazioni.
 
-### Limitazioni per utenti e team
+### Considerazioni per utenti e team
 
 Quando visualizzi gli aggiornamenti per utenti e team, considera quanto segue:
 
 * Non è possibile aggiungere nuovi commenti nella sezione Aggiornamenti di un team.
-
-* La sezione Aggiornamenti per i team è compilata con gli aggiornamenti immessi sui seguenti oggetti:
-
-   * Utenti
-   * Storie
-   * Schede orario
-   * Iterazioni
 
 * È possibile aggiungere una risposta a un aggiornamento visualizzato in un team. La risposta viene visualizzata nella sezione Aggiornamenti del team e nella sezione Aggiornamenti dell’oggetto a cui appartiene.
 
 * Nella sezione Aggiornamenti per utenti e team, puoi visualizzare gli aggiornamenti immessi negli ultimi 90 giorni.
 
   Se desideri visualizzare tutti gli aggiornamenti effettuati su un utente o su un team, oltre il limite di 90 giorni, puoi creare un rapporto per le note. Il rapporto non deve avere un filtro temporale che visualizzi tutti gli aggiornamenti apportati per utenti o team. Per ulteriori informazioni, vedere [Creare un report personalizzato](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+* La sezione Aggiornamenti per i team è compilata con i commenti aggiunti ai seguenti oggetti:
+
+   * Utenti
+   * Storie
+   * Schede orario
+   * Iterazioni
+
+* La scheda Aggiornamenti di sistema dell&#39;area Aggiornamenti per gli utenti viene compilata con aggiornamenti ad altri oggetti. Di seguito sono riportati gli aggiornamenti che vengono visualizzati nella scheda Aggiornamenti di sistema del profilo dell’utente quando tali campi vengono tracciati nell’area Feed aggiornamenti di Configurazione:
+
+   * Aggiunta, rimozione e altri aggiornamenti di documenti
+   * Aggiunta di ore, rimozione, aggiunta per conto di e altri aggiornamenti delle ore
+   * Note, aggiornamenti ai campi personalizzati
+   * Aggiornamenti del profilo utente (aggiornamenti all’avatar dell’utente, numero di cellulare, informazioni sul campo, titolo)
+   * Aggiunta utente, rimozione, modifica del livello di accesso, modifiche nei campi utente incorporati
+   * Informazioni finanziarie da attività e progetti.
 
 ### Limitazioni nell’inserimento di commenti per conto di un altro utente
 

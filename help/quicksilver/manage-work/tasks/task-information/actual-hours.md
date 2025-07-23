@@ -7,9 +7,9 @@ description: Le ore di accesso agli elementi di lavoro in Adobe Workfront sono c
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
+source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1178'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,7 @@ A seconda dell’area di Workfront da cui accedi alle ore effettive, potrebbe fa
 * Nell’area Dettagli progetto, attività o problema:
 
    * **Ore effettive**: ore registrate per progetti, attività o problemi dopo maggio 2021. Sono archiviati nel database di Workfront in ore e il valore del campo è `actualWorkRequiredDouble`.
+   * **Ore effettive**: quando si accede a tali dati utilizzando un campo personalizzato di riferimento di campo nativo in un modulo personalizzato per un progetto, un&#39;attività o un problema.
 
 ## Ore effettive per attività e problemi rispetto alle ore effettive per i progetti
 
@@ -111,34 +112,40 @@ Per individuare le ore effettive in Dettagli attività:
 1. Passare a un&#39;attività per la quale si desidera esaminare le ore effettive.
 1. Nel pannello a sinistra, fai clic su **Dettagli attività**. Viene visualizzata la sezione **Panoramica**.
 1. Individua il valore **Ore effettive** nella sezione **Orario di lavoro**. Totale delle ore registrate per l&#39;attività.
+1. (Facoltativo e condizionale) Se il riferimento al campo Ore effettive nativo è stato aggiunto a un modulo personalizzato per un progetto, un’attività o un problema, vai al modulo personalizzato e individua le Ore effettive nel campo personalizzato. Totale delle ore registrate per l&#39;oggetto.
 
 ### Ore effettive nella sezione Ore {#actual-hours-in-the-hours-section}
 
 La sezione Ricerca delle ore effettive è identica per progetti, attività e problemi.
 
-Per individuare le ore effettive nella sezione Ore:
+Per individuare le ore effettive nella sezione Ore di un&#39;attività:
 
 1. Passare a un&#39;attività per la quale si desidera esaminare le ore effettive.
 
 1. Nel pannello a sinistra, fai clic su **Ore**. Viene visualizzato un elenco delle ore registrate per l&#39;attività, con la colonna **Ore** che mostra il numero totale di ore effettive per l&#39;attività.
 
 1. Assicurati che la visualizzazione **Standard** e il raggruppamento **Progetto** siano applicati a questo elenco.
+1. Le ore effettive per l&#39;attività vengono visualizzate nella riga di raggruppamento per la colonna **Ore effettive**.
 
-### Ore effettive nei rapporti {#actual-hours-in-reports}
+### Ore effettive e ore effettive legacy nei rapporti
 
-Quando si creano rapporti su attività, problemi o progetti, è possibile visualizzare il valore Ore effettive per ogni attività, problema o progetto nel rapporto.
+Quando si creano rapporti su attività, problemi o progetti, è possibile visualizzare le ore effettive e i valori delle ore effettive legacy per ogni attività, problema o progetto nel rapporto.
 
-Per visualizzare le ore effettive in un rapporto attività:
+Per informazioni sulla differenza tra le ore effettive e le ore effettive precedenti, vedere la sezione [Ore effettive rispetto alle ore effettive precedenti](#actual-hours-vs-legacy-actual-hours) in questo articolo.
+
+Per visualizzare le ore effettive e le ore effettive legacy in un rapporto attività:
 
 {{step1-to-reports}}
 
 1. Nella pagina **Report**, fai clic su **Nuovo report**, quindi scegli **Attività** come oggetto.
 1. Nell&#39;angolo inferiore destro della pagina fare clic su **Aggiungi colonna**.
-1. Nel campo a discesa **Mostra in questa colonna** visualizzato, inizia a digitare **Ore effettive**, quindi seleziona il campo quando viene visualizzato nell&#39;elenco.
+1. Nel campo a discesa **Mostra in questa colonna**, inizia a digitare **Ore effettive**, quindi seleziona il campo quando viene visualizzato nell&#39;elenco.
+1. Ripeti il passaggio precedente per aggiungere al rapporto il campo **Ore effettive legacy**.
 
 1. Nell&#39;angolo inferiore sinistro della pagina fare clic su **Salva + Chiudi** per salvare il report.
 
 1. Nella finestra di dialogo **Denomina il report per salvarlo**, immetti un nuovo nome per il report, quindi fai clic su **Applica**.
+1. Ripeti gli stessi passaggi per un progetto o un rapporto sui problemi.
 
 ### Ore effettive negli strumenti di gestione delle risorse {#actual-hours-in-resource-management-tools}
 
