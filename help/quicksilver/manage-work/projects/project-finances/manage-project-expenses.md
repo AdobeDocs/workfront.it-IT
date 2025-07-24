@@ -6,7 +6,7 @@ description: Il processo di creazione e gestione delle spese è lo stesso sia pe
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: e1884aa7975018a737538d909954319e6feee318
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 1%
@@ -59,7 +59,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. Passare al progetto o all&#39;attività per cui si desidera immettere le spese.
 1. Fai clic su **Spese** nel pannello a sinistra.
 1. Fai clic su **Aggiungi una spesa**. Viene visualizzata la finestra di dialogo **Aggiungi una spesa**.
-1. Aggiorna quanto segue:
+1. Immettere le seguenti informazioni:
 
    * **Descrizione:** Immettere una descrizione della spesa.
    * **Tipo di spesa:** (obbligatorio) Selezionare la categoria che meglio descrive la spesa.
@@ -68,7 +68,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    * **Importo effettivo:** Immettere l&#39;importo del costo effettivo della spesa. Questo incide sul Costo Reale del progetto.
 
-   * **Data pianificata:** Immettere la data prevista per l&#39;esecuzione della spesa. È possibile digitare la data nel campo utilizzando il formato *mm/gg/aa* oppure fare clic sull&#39;icona **Calendario**  ![Icona Calendario](assets/calendar-icon.png) e selezionare la data in modo dinamico.
+   * **Data pianificata:** Immettere la data prevista per l&#39;esecuzione della spesa. È possibile digitare la data nel campo utilizzando il formato *mm/gg/aa* oppure fare clic sull&#39;icona **Calendario** ![Icona Calendario](assets/calendar-icon.png) e selezionare la data in modo dinamico.
 
    * **Data pagamento:** Immettere o selezionare la data di pagamento della spesa.
    * **Fatturabile:** Selezionare questa opzione se si desidera fatturare la spesa. La classificazione di una spesa come fatturabile è importante quando si creano i record di fatturazione.
@@ -80,7 +80,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    >
    >È necessario creare un modulo personalizzato prima di associarlo a una spesa. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per informazioni sulla creazione di moduli personalizzati, vedere l&#39;articolo [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Fai clic su **Salva modifiche**.
+1. Fai clic su **Salva**.
 
 ## Cancella Spese
 
