@@ -6,9 +6,9 @@ description: Per consentire alle modifiche apportate ai profili delle schede ora
 author: Alina
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: c9df676467007a84920073fe06bc3c73b18a89ae
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Per istruzioni sull&#39;eliminazione delle schede orario, vedere [Elimina schede
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
++++ Espandere per visualizzare i requisiti di accesso.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,13 +42,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerazioni sulle schede orario generate manualmente
 
 Quando generi manualmente le schede orario:
 
-* Vengono generati in base ai profili della scheda orario associati ai tuoi utenti. Gli utenti a cui non sono associati profili della scheda orario non ricevono le schede orario. 
+* Vengono generati in base ai profili della scheda orario associati ai tuoi utenti. Gli utenti a cui non sono associati profili della scheda orario non ricevono le schede orario.
 * Vengono generate solo la scheda orario corrente e quella successiva. Workfront non genera due schede orario per lo stesso periodo. Se disponi già di una scheda orario per l’arco temporale corrente, un’altra non verrà generata quando utilizzi il processo manuale per generare le schede orario.
 
 ## Genera manualmente i Timesheets dalla sezione Timesheets &amp; Hours (Schede orario e ore)
@@ -64,7 +66,7 @@ Puoi generare manualmente schede orario a livello di sistema o di gruppo dall’
    Se stai generando schede orario utilizzate da un gruppo specifico, fai clic su **Gruppi**, quindi fai clic sul nome del gruppo.
 
 1. Fare clic su **Profili scheda orario**.
-1. Fai clic sull&#39;icona **Altro** ![Altro icona](assets/more-icon.png) , quindi **Genera schede orario**.
+1. Nella parte superiore dell&#39;elenco dei profili della scheda orario, fare clic sull&#39;icona **Altro** ![Altro icona](assets/more-icon.png) per i profili della scheda orario a livello di sistema oppure **Altro** per i profili della scheda orario di gruppo, quindi fare clic su **Genera schede orario**.
 
    Le nuove schede orario vengono create per un massimo di due periodi di tempo per gli utenti associati ai profili delle schede orario.
 
@@ -76,5 +78,5 @@ Puoi generare manualmente schede orario a livello di sistema o di gruppo dall’
 
 1. Espandere **Sistema**, quindi fare clic su **Diagnostica**.
 
-1. Fare clic su **Esegui diagnostica**. 
+1. Fare clic su **Esegui diagnostica**.
 1. Fai clic su **Genera schede orario**.
