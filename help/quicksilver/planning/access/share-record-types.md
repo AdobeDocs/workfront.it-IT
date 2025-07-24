@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 0%
+source-wordcount: '1540'
+ht-degree: 1%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 # Condividere tipi di record
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Gli utenti con accesso a un&#39;area di lavoro ottengono automaticamente almeno le autorizzazioni di visualizzazione per tutti i tipi di record nell&#39;area di lavoro.
->&#x200B;>La condivisione delle visualizzazioni non concede agli utenti le autorizzazioni per i tipi di record. Solo le aree di lavoro condivise possono concedere agli utenti le autorizzazioni per i tipi di record.
+>>La condivisione delle visualizzazioni non concede agli utenti le autorizzazioni per i tipi di record. Solo le aree di lavoro condivise possono concedere agli utenti le autorizzazioni per i tipi di record.
 >
 >* Per informazioni generali sulla condivisione di oggetti in Workfront Planning, vedere anche [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 >* Per ulteriori informazioni, vedere la sezione [Considerazioni durante la condivisione dei tipi di record](#considerations-when-sharing-record-types) in questo articolo.
@@ -144,22 +144,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Aprire l&#39;area di lavoro di cui si desidera condividere i tipi di record.
 
-<!--when we release Share on the record type card, replace the next 3 steps with this: 
+1. Esegui una delle operazioni seguenti:
 
-1. Do one of the following: 
-
-   * <span class="preview">From the record type card, click the **More** menu > **Share**.</span>
-   * Click a record type card to open the record type's page, then click **Share** > **Share the record type** from any record type view.
-
-   The **Share** box opens.
--->
-
-1. Fare clic su una scheda del tipo di record.
-
-   Viene visualizzata la pagina del tipo di record.
-
-1. Dalla scheda di qualsiasi visualizzazione, fai clic su **Condividi** nell&#39;angolo superiore destro del tipo di record.
-1. Fare clic su **Condividi tipo di record**.
+   * <span class="preview">Dalla scheda del tipo di record, fare clic sul menu **Altro** > **Condividi**.</span>
+   * Fai clic su una scheda del tipo di record per aprire la pagina del tipo di record, quindi fai clic su **Condividi** > **Condividi il tipo di record** da qualsiasi visualizzazione del tipo di record.
 
    Viene visualizzata la casella **Condividi**.
 

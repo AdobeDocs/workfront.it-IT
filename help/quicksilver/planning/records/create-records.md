@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '2388'
+source-wordcount: '2798'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Crea record
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -26,18 +26,21 @@ In Adobe Workfront Planning, un record è un&#39;istanza di un tipo di record.
 
 È possibile creare record eseguendo una delle operazioni seguenti:
 
-* [Creare record utilizzando il pulsante Nuovo record o Richiedi record da qualsiasi visualizzazione del tipo di record](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
-* [Creare record aggiungendoli in linea dalla vista tabella del tipo di record](#create-records-by-adding-them-inline-from-the-record-type-table-view)
+* [Utilizzare il pulsante Nuovo record o Richiedi record da qualsiasi visualizzazione del tipo di record](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
+* [Aggiungerli in linea dalla vista tabella del tipo di record](#create-records-by-adding-them-inline-from-the-record-type-table-view)
 
-<!--
-* [Create records by adding them in the record type timeline view](#create-records-by-adding-them-in-the-record-type-timeline-view)-->
+<div class="preview">
+
+* [Aggiungerli nella visualizzazione timeline del tipo di record](#create-records-by-adding-them-in-the-record-type-timeline-view)
+
+</div>
 
 * [Copiare e incollare un elenco di record da un elenco esterno](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplicare record da una vista tabella](#create-records-by-duplicating-them)
-* [Crea record durante la connessione da altri record](#create-records-as-you-connect-them)
-* [Creare record inviando un modulo di richiesta a un tipo di record](#create-records-by-submitting-a-request-form-to-a-record-type)
-* [Creare record importando informazioni da un file CSV o Excel](#create-records-by-importing-records-from-a-csv-or-excel-file)
-* [Creare record utilizzando le automazioni](#create-records-by-using-automations)
+* [Connettili da altri record](#create-records-as-you-connect-them)
+* [Inviare un modulo di richiesta a un tipo di record](#create-records-by-submitting-a-request-form-to-a-record-type)
+* [Importare informazioni da un file CSV o Excel](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [Utilizzare le automazioni](#create-records-by-using-automations)
 
 Per informazioni sulla gestione dei record nelle viste tabella o sequenza temporale, vedere gli articoli seguenti:
 
@@ -270,64 +273,64 @@ I record del tipo selezionato vengono visualizzati nella vista.
    * CTRL + Z (⌘ + Z per Mac) per annullare una modifica
    * CTRL + MAIUSC + Z (⌘ + MAIUSC + Z per Mac) per ripristinare una modifica
 
-<!--<div class="preview">
+<div class="preview">
 
-## Create records by adding them in the record type timeline view
+## Creare i record aggiungendoli nella visualizzazione timeline del tipo di record
 
-You can create records in the timeline view of a record type page, by double-clicking in the timeline. 
+È possibile creare record nella visualizzazione timeline di una pagina del tipo di record facendo doppio clic sulla timeline.
 
-For information about creating a timeline view, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Per informazioni sulla creazione di una visualizzazione della sequenza temporale, vedere [Gestire la visualizzazione della sequenza temporale](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 {{step1-to-planning}}
-  
-1. Click the workspace where you want to add records.
 
-    The workspace opens and the record types display as cards.
+1. Fare clic sull&#39;area di lavoro in cui si desidera aggiungere i record.
 
-1. Click a record type card. 
+   Viene aperto il workspace e i tipi di record vengono visualizzati come schede.
 
-    The record type page opens in the view that you last accessed. 
+1. Fare clic su una scheda del tipo di record.
 
-1. Click to open a timeline view, or create a timeline view, first. 
+   La pagina del tipo di record viene visualizzata nella visualizzazione a cui si è effettuato l&#39;ultimo accesso.
 
-    >[!NOTE]
-    >
-    >You can create a timeline view only if there are at least two date fields associated with the record type.
-1. Double-click anywhere in the timeline. 
+1. Fate clic su per aprire una vista timeline, oppure create una vista timeline.
 
-    A new record box opens. 
+   >[!NOTE]
+   >
+   >È possibile creare una visualizzazione timeline solo se al tipo di record sono associati almeno due campi data.
+1. Fate doppio clic in un punto qualsiasi della timeline.
 
-    ![New record box on timeline with unnamed record bar](assets/new-record-small-box-on-timeline.png)
-1. Update the following information:
+   Viene visualizzata una nuova casella di record. <!--might need a new screen shot for Production - might add a title etc-->
 
-    * **Name**: Enter the name of the record. If you leave it empty, Workfront names it **Untitled** by default. The name will not be visible in the record bar if left empty. 
-    * **Record date fields**: Update the dates of the record. 
-        
-        The names of the date fields are customized according to the fields selected for the Start and End dates when the timeline view was created.
+   ![Nuova casella record nella sequenza temporale con barra dei record senza nome](assets/new-record-small-box-on-timeline.png)
+1. Aggiorna le seguenti informazioni:
 
-        By default, date values are preselected depending on how you display the timeline view. The following scenarios exist:
+   * **Nome**: immettere il nome del record. Se lo lasci vuoto, per impostazione predefinita Workfront lo nomina **Senza titolo**. Se lasciato vuoto, il nome non sarà visibile nella barra dei record.
+   * **Campi data record**: aggiorna le date del record.
 
-        * By **Year**: The record start and end dates span a month.
-        * By **Quarter**: The record start and end dates span a week. 
-        * By **Month**: The record start and end dates span three days.
+     I nomi dei campi data vengono personalizzati in base ai campi selezionati per le date di inizio e di fine al momento della creazione della visualizzazione della sequenza temporale.
 
-1. (Optional) Click one of the following icons: 
+     Per impostazione predefinita, i valori di data vengono preselezionati a seconda della modalità di visualizzazione della timeline. Esistono i seguenti scenari:
 
-    * **Expand** ![Expand icon](assets/expand-icon.png) to open the record details in the preview window. 
-    * **Delete** ![Delete icon](assets/delete-icon.png) to delete the record.
-    * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
+      * Entro **Anno**: le date di inizio e fine del record si estendono su un mese.
+      * Entro **Trimestre**: le date di inizio e fine del record si estendono su una settimana.
+      * Entro **Mese**: le date di inizio e di fine del record sono di tre giorni.
 
-    The record is added to the timeline as well as to the table and calendar views immediately, unless you clicked the **Delete** icon. 
+1. (Facoltativo) Fai clic su una delle icone seguenti:
 
-1. (Optional) Click the record bar in the timeline to open the record's details window and update its information, delete it, or add comments. 
+   * **Espandi** ![Icona Espandi](assets/expand-icon.png) per aprire i dettagli del record nella finestra di anteprima.
+   * **Elimina** ![Icona Elimina](assets/delete-icon.png) per eliminare il record.
+   * **Chiudi** ![Chiudi icona](assets/close-icon.png) per chiudere la nuova casella del record.
 
-    >[!TIP]
-    >
-    >By default, Workfront associates the record with a thumbnail and a cover image.
-    >
-    >The thumbnail displays in the timeline view only when it is enabled in the Settings of the view. 
+   Il record viene aggiunto immediatamente alla timeline, alla tabella e alle visualizzazioni del calendario, a meno che non si sia fatto clic sull&#39;icona **Elimina**.
 
-</div>-->
+1. (Facoltativo) Fare clic sulla barra dei record nella timeline per aprire la finestra dei dettagli del record e aggiornarne le informazioni, eliminarla o aggiungere commenti.
+
+   >[!TIP]
+   >
+   >Per impostazione predefinita, Workfront associa il record a una miniatura e a una copertina.
+   >
+   >La miniatura viene visualizzata nella vista timeline solo se è attivata in Impostazioni della vista.
+
+</div>
 
 ## Creare record copiandoli e incollandoli da un elenco esterno
 

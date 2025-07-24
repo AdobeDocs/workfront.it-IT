@@ -6,9 +6,9 @@ description: Puoi creare, modificare e assegnare profili di schede orario che ge
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1604'
 ht-degree: 1%
 
 ---
@@ -36,8 +36,6 @@ Per ulteriori informazioni sulla creazione manuale di una scheda orario, vedere 
 ## Requisiti di accesso
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -194,9 +192,17 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >* Quando si aggiunge un gruppo, nella scheda Assegna persone viene visualizzato solo il nome del gruppo e non l&#39;elenco dei membri del gruppo. Se si desidera visualizzare i membri del gruppo elencati, fare clic su Salva modifiche, quindi sul nome del profilo della scheda attività appena creato.
    >* Al termine di questi passaggi, il profilo scheda orario genera le schede orario solo per gli utenti o i membri del gruppo assegnati che non dispongono di schede orario esistenti per il periodo corrente.
 
-1. Fai clic su **Salva modifiche**.
+1. Fai clic su **Salva**.
 
-   La prima volta che il profilo della scheda orario genera schede orario, vengono create 2 schede orario per ogni utente. Successivamente, ogni volta che genera nuove schede orario, viene creata una scheda orario per utente.
+1. Nella parte superiore dell&#39;elenco dei profili della scheda orario, fare clic sull&#39;icona **Altro** ![Altro icona](assets/more-icon.png) per i profili della scheda orario a livello di sistema oppure **Altro** per i profili della scheda orario di gruppo, quindi fare clic su **Genera schede orario**.
+
+   Nella parte inferiore della schermata viene visualizzata una conferma che le schede orario sono state generate correttamente. Le nuove schede orario vengono generate in base ai nuovi profili creati.
+
+   Per ulteriori informazioni, vedere [Generare manualmente le schede orario](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
+
+   La prima volta che il profilo della scheda orario genera schede orario, vengono create 2 schede orario per ogni utente, sia per l’intervallo temporale che include l’ora corrente che per l’intervallo temporale seguente.
+
+   Successivamente, ogni volta che genera nuove schede orario, viene creata una scheda orario per utente.
 
    <!--the content in the table above will need to match the content in the Create timesheets article-->
 
