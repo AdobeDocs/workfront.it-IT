@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: ef33a8bcdec76747434b5c5aaf62a743335fb10f
+source-git-commit: 3563d5e7136d8bd70504a0b7762c4be06e5a9c56
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '957'
 ht-degree: 2%
 
 ---
@@ -18,11 +18,15 @@ ht-degree: 2%
 
 <!-- Audited: 12/2023 -->
 
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
+
 Gli argomenti della coda funzionano insieme alle regole di instradamento per assegnare automaticamente il lavoro in arrivo a un utente, a una mansione, a un team o per inserirlo in un progetto. Argomenti coda definiscono le condizioni necessarie per l&#39;implementazione della regola di routing.
 
 Non esiste alcun limite al numero di argomenti della coda che è possibile assegnare a un gruppo di argomenti o a un progetto. Gli Argomenti coda sono un tipo di oggetto segnalabile.
 
-Una volta creati, non è possibile spostare gli argomenti della coda da un progetto all&#39;altro.
+È possibile creare Argomenti coda per singoli progetti o per modelli di progetto.
+
+Una volta creati, non è possibile spostare gli argomenti della coda da un progetto o modello a un altro.
 
 ## Requisiti di accesso
 
@@ -97,7 +101,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    * [Crea gruppi di argomenti](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
    * [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 
-1. Passare al progetto che si è scelto di abilitare come coda di richieste di aiuto e dove si desidera creare un nuovo argomento della coda.\
+1. Passare al progetto o al modello che si è scelto di attivare come coda di richieste di aiuto e nel punto in cui si desidera creare un nuovo argomento della coda.\
    Per ulteriori informazioni su come designare un progetto come coda di richieste di assistenza, vedere [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
    È possibile organizzare gli argomenti correlati della coda in un gruppo di argomenti. In questo modo il richiedente disporrà di una serie di menu a discesa quando effettua una richiesta.
@@ -171,3 +175,13 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Fai clic su **Salva**.\
    L&#39;argomento Coda è ora disponibile ed è visibile nell&#39;area Richieste di Workfront, dopo aver selezionato una coda di richieste e un gruppo di argomenti.
+
+## Modificare un argomento coda
+
+Per modificare un argomento della coda esistente:
+
+1. Passare al progetto o al modello contenente l&#39;argomento coda che si desidera modificare.
+1. Fai clic su **Argomenti coda** nel pannello a sinistra.
+1. Nell’ambiente di produzione, seleziona l’Argomento coda da modificare. Nella pagina Dettagli visualizzata, fare clic su **Modifica argomento coda**.
+1. <span class="preview">Nell&#39;ambiente di anteprima, selezionare l&#39;argomento della coda che si desidera modificare, quindi fare clic sull&#39;icona Modifica ![icona Modifica](assets/edit-icon.png).</span>
+
