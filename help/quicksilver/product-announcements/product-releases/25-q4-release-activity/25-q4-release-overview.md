@@ -109,7 +109,7 @@ Stiamo aggiornando l’interfaccia in Adobe Workfront per migliorare l’esperie
 
 ### Miglioramenti apportati a Workfront Fusion
 
-Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione di rilascio standard. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione di rilascio standard. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Miglioramenti di Workfront Planning
 
@@ -147,7 +147,7 @@ Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianific
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
 
 ### Aggiornamenti dei corsi di formazione
 
