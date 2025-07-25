@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 83c9f6f36acad5182c63a74aa2f8e286ba1b839d
+source-git-commit: 7d7c7c98eb133ad35a940db2711c579d1f83045b
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '715'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >| Versione mensile | Versione trimestrale |
 >|----|----|
->| <ul><li>25.9 (settembre 2025)</li><li>25.10 (ottobre 2025)</li><li>25.11 (novembre 2025)</li></ul> | <ul><li>25.10 (ottobre 2025)</li></ul> |
+>| <ul><li>25.8 (agosto 2025)</li><li>25.9 (settembre 2025)</li><li>25.10 (ottobre 2025)</li><li>25.11 (novembre 2025)</li></ul> | <ul><li>25.10 (ottobre 2025)</li></ul> |
 >
 >Tieni presente che per la versione finale di ogni trimestre (le 25.10 di questo trimestre), gli utenti che rientrano nella pianificazione del rilascio rapido riceveranno la versione con un giorno di anticipo.
 >
@@ -109,7 +109,7 @@ Stiamo aggiornando l’interfaccia in Adobe Workfront per migliorare l’esperie
 
 ### Miglioramenti apportati a Workfront Fusion
 
-Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione di rilascio standard. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione di rilascio standard. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Miglioramenti di Workfront Planning
 
@@ -147,7 +147,7 @@ Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianific
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Aggiornamenti dei corsi di formazione
 
