@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '312'
 ht-degree: 2%
 
 ---
@@ -81,7 +81,7 @@ La vista viene eliminata per tutti gli utenti che dispongono delle autorizzazion
 <tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
    <td>   <p>Gestire le autorizzazioni per una visualizzazione</p>  
-   <p>Autorizzazioni di visualizzazione a una visualizzazione per modificare temporaneamente le impostazioni di visualizzazione o per duplicarla</p> </td> 
+   </td> 
   </tr> 
 </tbody> 
 </table>

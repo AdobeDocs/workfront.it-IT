@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d8ac4d94-28b5-41d6-acb8-259696897c8a
-source-git-commit: ee366e05097518a4618dd11ed5807b8766465d94
+source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '486'
 ht-degree: 2%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licenza Adobe Workfront*</p></td> 
-   <td><p> Standard </p>
+   <td><p> Chiaro o superiore </p>
    <p>Workfront Planning non è disponibile per le licenze Workfront legacy</p> 
   </td> 
   </tr> 
@@ -77,8 +77,8 @@ ht-degree: 2%
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
-   <td>   <p>Gestire le autorizzazioni per una visualizzazione</p>  
-   <p>Autorizzazioni di visualizzazione per modificare temporaneamente le impostazioni di visualizzazione, duplicarle o esportarle.</p> </td> 
+   <td>   <p>Visualizzare o autorizzazioni superiori per una visualizzazione</p>  
+   </td> 
   </tr> 
 </tbody> 
 </table>

@@ -5,9 +5,9 @@ title: Utilizzo dei fusi orari
 description: Può essere utile capire come [!DNL Adobe Workfront] utilizza i fusi orari per calcolare i campi di tempo per gli oggetti e gli orari in altre aree, ad esempio le e-mail.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 7697bb68e2042291e5290048cfc2f626145979af
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -58,25 +58,36 @@ Il fuso orario per l&#39;istanza [!DNL Workfront] dell&#39;organizzazione è in 
 
 ### Il tuo profilo utente {#your-user-profile}
 
-Il fuso orario nel profilo utente deve essere configurato per la posizione in cui lavori. Questo determina quanto segue:
+Il campo Fuso orario nel profilo dell’utente controlla l’ora visualizzata nei messaggi e-mail in uscita.
+
+Il fuso orario influisce anche su ciò che viene visualizzato in un report di calendario PTO.
+
+Per informazioni sulla configurazione del fuso orario nel profilo utente, vedere [Configurare le impostazioni personali](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+
+Per informazioni su come un amministratore [!DNL Workfront] (o un utente con accesso [!UICONTROL Modifica] agli utenti) può configurare il fuso orario in un profilo utente, vedi [Modifica del profilo di un utente](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
+### Fuso orario del browser
+
+Il fuso orario nel browser deve essere configurato per la posizione in cui lavori. Questo determina quanto segue:
 
 <!--
 * The time shown in your outgoing [!DNL Workfront] email messages
 [NOTE FROM LISA: Saeid that dates/times shown in emails are more complicated than how it is described in the article so we decided to comment out this line.]
 -->
-* Ore per un oggetto su cui si lavora, ad esempio ore di inizio e di fine
+* Gli orari di un oggetto su cui lavori, ad esempio gli orari di inizio e di fine.
 
-  Se a un oggetto vengono assegnati utenti con più fusi orari, [!DNL Workfront] converte gli orari dell&#39;oggetto per tutti gli utenti coinvolti, utilizzando il fuso orario configurato in ciascun profilo utente.
+  Se a un oggetto vengono assegnati utenti con più fusi orari, [!DNL Workfront] converte gli orari dell&#39;oggetto per tutti gli utenti interessati, utilizzando il fuso orario configurato nel browser di ciascun utente.
 
-  **Esempio:** Nella zona dell&#39;ora solare orientale (EST) in cui si lavora, impostare un&#39;attività affinché inizi alle 16:00 e assegnarla agli utenti che lavorano nella zona dell&#39;ora solare del Pacifico (PST). Per tali utenti, l’ora di inizio viene visualizzata come 1:00 PM. Se la visualizzasse alle 16:00, inizierebbe a lavorarci con tre ore di ritardo.
+  **ESEMPIO**
+Nel fuso orario solare orientale (EST) in cui si lavora, è possibile impostare un&#39;attività affinché inizi alle 16:2} e assegnarla agli utenti che lavorano nel fuso orario solare del Pacifico (PST). :00 Per questi utenti, l&#39;ora di inizio viene visualizzata come 1:00 PM. Se fosse visualizzato come 4:00 PM, inizierebbero a lavorarci con tre ore di ritardo.
 
-  Se il creatore dell&#39;oggetto non rileva la differenza tra i fusi orari degli assegnatari e apporta le modifiche necessarie durante l&#39;impostazione degli orari degli oggetti o se gli assegnatari non notano tale differenza, può essere difficile ottenere gli intervalli corretti mentre tutti collaborano all&#39;oggetto.
+  Se il creatore dell&#39;oggetto non conosce la differenza tra i fusi orari degli assegnatari e non apporta le modifiche necessarie durante l&#39;impostazione degli orari degli oggetti o se gli assegnatari non conoscono tale differenza, può essere difficile ottenere gli intervalli corretti mentre tutti collaborano all&#39;oggetto.
 
-  **Esempio:** è possibile configurare un&#39;attività di un giorno affinché inizi alle 9.00 EST, dimenticando che alcuni utenti dell&#39;attività lavorano nella zona PST. Per loro, l&#39;ora di inizio 6:00 AM. Poiché non inizieranno a lavorarci fino alle 9:00 (mezzogiorno del tuo orario), l’attività inizia e termina con tre ore di ritardo.
+  **ESEMPIO**
 
-Per informazioni sulla configurazione del fuso orario nel profilo utente, vedere [Configurare le impostazioni personali](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+  Si configura un&#39;attività di un giorno per iniziare alle 9:00 AM EST, dimenticando che alcuni utenti dell&#39;attività lavorano nella zona PST. Per loro, l&#39;ora di inizio 6:00 AM. Poiché non inizieranno a lavorarci fino alle 9:00 del loro tempo (mezzogiorno del tuo tempo), l&#39;attività inizia e termina con tre ore di ritardo.
 
-Per informazioni su come un amministratore [!DNL Workfront] (o un utente con accesso [!UICONTROL Modifica] agli utenti) può configurare il fuso orario in un profilo utente, vedi [Modifica del profilo di un utente](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+La configurazione del fuso orario varia da browser a browser. Per ulteriori informazioni, consulta la documentazione o la guida di ciascun browser.
 
 ## Come semplificare il lavoro degli utenti in più fusi orari
 
@@ -110,7 +121,7 @@ Gli amministratori di [!DNL Workfront] creano pianificazioni separate per ogni f
 >[!BEGINSHADEBOX]
 
 **ESEMPIO:**
-Un utente EST è assegnato a un&#39;attività di un giorno pianificata per iniziare alle 09:00 PST, che è mezzogiorno EST. Poiché all&#39;utente EST rimangono solo 2 ore lavorative al giorno, la data di completamento dell&#39;attività viene estesa di circa 6 ore al giorno lavorativo successivo.
+Un utente EST è assegnato a un&#39;attività di un giorno pianificata per iniziare alle 9:2} PST, che è mezzogiorno EST. :00 Poiché all&#39;utente EST rimangono solo 2 ore lavorative al giorno, la data di completamento dell&#39;attività viene estesa di circa 6 ore al giorno lavorativo successivo.
 
 
 >[!ENDSHADEBOX]

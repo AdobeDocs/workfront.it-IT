@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 93395934865cdf1d8b7b84a1b3134e69c9ac9c3b
+source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
 workflow-type: tm+mt
-source-wordcount: '5855'
+source-wordcount: '5853'
 ht-degree: 0%
 
 ---
@@ -357,7 +357,7 @@ Clienti specifici possono visualizzare questa modifica andando alla sezione Prog
 
 ### Nuovo aspetto per la casella &quot;Salva come modello&quot;
 
-**Anteprima versione: 12 giugno 2025; Versione di produzione: da annunciare**
+**Versione di anteprima: 12 giugno 2025; Versione di produzione: 19 giugno 2025
 
 È stato aggiornato l’aspetto della casella &quot;Salva come modello&quot; che viene visualizzata quando si salva un progetto come modello. Il nuovo design include un’interfaccia semplificata, in cui tutte le sezioni vengono visualizzate in un unico formato coesivo, accessibile tramite i collegamenti presenti nel pannello a sinistra. Il nuovo design corrisponde ad altre aree e ad altri oggetti dell&#39;applicazione.
 
