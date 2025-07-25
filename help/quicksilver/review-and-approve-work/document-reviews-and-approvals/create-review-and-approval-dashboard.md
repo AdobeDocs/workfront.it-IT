@@ -88,6 +88,7 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
 
    1. Fai clic sul filtro delle condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Stato**.
    1. Lascia l&#39;operatore come **Uguale**, quindi digita _in attesa di revisione_ nella casella di testo.
+
       ![esempio di filtro kpi in sospeso](assets/pending-kpi-filter.png)
 1. Fai clic su **Salva** nell&#39;angolo in alto a destra dello schermo.
 
@@ -133,11 +134,13 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
    1. Selezionare **Fase approvazione** > **Scadenza**.
    1. Cambia l&#39;operatore in **Minore di**.
    1. Attiva **Imposta data relativa** su **ON**, quindi digita _$$TODAY_ nella casella di testo.
+
       ![esempio di filtro kpi scaduto](assets/overdue-kpi-filter.png)
    1. Fai clic su **Aggiungi condizione**.
    1. Fai clic sul filtro delle condizioni vuoto, quindi fai clic su **Scegli un campo**.
    1. Seleziona **Stato**.
    1. Cambia l&#39;operatore in **Non contiene**, quindi digita _approvato_ nella casella di testo.
+
       ![esempio di filtro kpi scaduto 2](assets/overdue-kpi-filter-2.png)
 1. Fai clic su **Salva** nell&#39;angolo in alto a destra dello schermo.
 
@@ -184,12 +187,14 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
    1. Seleziona **Stato**.
 
    1. Cambia l&#39;operatore in **Contains** e digita _approve_ nella casella di testo.
+
       ![esempio di filtro kpi completato](assets/completed-kpi-filter.png)
    1. Fai clic su **Aggiungi condizione**.
    1. Fai clic su **And** per modificarlo in **Or**.
    1. Fai clic sul filtro delle condizioni vuoto, quindi fai clic su **Scegli un campo**.
    1. Seleziona **Stato**.
    1. Cambia l&#39;operatore in **Uguale**, quindi digita _revisionato_ nella casella di testo.
+
       ![esempio di filtro kpi completato](assets/completed-kpi-filter-2.png)
 1. Fai clic su **Salva** nell&#39;angolo in alto a destra dello schermo.
 
@@ -234,12 +239,14 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
    1. Seleziona **Stato**.
 
    1. Cambia l&#39;operatore in **Non contiene** e digita _approvato_ nella casella di testo.
+
       ![esempio di filtro kpi abbandonato](assets/abandoned-kpi-filter.png)
    1. Fai clic su **Aggiungi condizione**.
    1. Fai clic sul filtro delle condizioni vuoto, quindi fai clic su **Scegli un campo**.
    1. Seleziona **Scadenza**.
    1. Cambia l&#39;operatore in **Minore di**, quindi attiva **Imposta data relativa** in **ON**.
    1. Digitare _$$TODAY-2w_ nella casella di testo.
+
       ![esempio di filtro kpi abbandonato](assets/abandoned-kpi-filter-2.png)
 1. Fai clic su **Salva** nell&#39;angolo in alto a destra dello schermo.
 
@@ -269,7 +276,7 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
    1. Nel menu a discesa **Tipo di grafico**, lascia selezionata **Barra**.
    1. Nel menu a discesa **Tipo barra**, lascia selezionato **Semplice**.
    1. Fai clic su **Aggiorna campo** per l&#39;asse **Inferiore (X)**, quindi seleziona **Approvazione documento** > **Stato**.
-   1. Impostare il tipo di aggregazione **** su **Count**.
+   1. Impostare il tipo di aggregazione **&#x200B;**&#x200B;su **Count**.
    1. Fai clic su **Aggiorna campo** per l&#39;asse **Sinistra (Y)**, quindi seleziona **Stato**.
 1. Segui i passaggi seguenti per configurare la sezione **Filtro**:
    1. Nel pannello a sinistra, fai clic sull&#39;icona **Filtro** ![scheda filtro](assets/filter-tab.png).
@@ -277,6 +284,7 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
    1. Fai clic sul filtro delle condizioni vuoto, quindi fai clic su **Scegli un campo**.
    1. Selezionare **Versione documento** > **Versione**.
    1. Cambia l&#39;operatore in **Is Not Null**.
+
       ![esempio filtro](assets/approvals-by-decision-chart-filter.png)
 1. Fai clic su **Salva** nell&#39;angolo in alto a destra dello schermo.
 
@@ -304,7 +312,7 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
    1. Nel menu a discesa **Tipo di grafico**, lascia selezionata **Barra**.
    1. Nel menu a discesa **Tipo barra**, lascia selezionato **Semplice**.
    1. Fai clic su **Aggiorna campo** per l&#39;asse **Inferiore (X)**, quindi seleziona **Approvazione documento** > **Versione documento** > **Versione**.
-   1. Impostare il tipo di aggregazione **** su **Count**.
+   1. Impostare il tipo di aggregazione **&#x200B;**&#x200B;su **Count**.
    1. Fai clic su **Aggiorna campo** per l&#39;asse **Sinistra (Y)**, quindi seleziona **Approvazione documento** > **Versione documento** > **Documento** > **Nome**.
 
 1. Segui i passaggi seguenti per configurare la sezione **Filtro**:
@@ -315,12 +323,14 @@ Per ulteriori informazioni, vedere [Creare un report KPI](/help/quicksilver/repo
    1. Seleziona **Fase di approvazione** > **Partecipanti alla fase di approvazione** > **Data decisione**.
 
    1. Cambia l&#39;operatore in **Is Null**.
+
       ![esempio filtro grafico revisioni](assets/revision-chart-filter.png)
    1. Fai clic su **Aggiungi condizione**.
    1. Fai clic sul filtro delle condizioni vuoto, quindi fai clic su **Scegli un campo**.
    1. Seleziona **Fase di approvazione** > **Scadenza**.
    1. Cambia l&#39;operatore in **Minore di o uguale a**, quindi attiva **Imposta data relativa** in **ON**.
    1. Digitare _$$TODAYem_ nella casella di testo.
+
       ![Esempio di filtro grafico revisioni](assets/revision-chart-filter-2.png)
 1. Fai clic su **Salva** nell&#39;angolo in alto a destra dello schermo.
 
@@ -394,6 +404,7 @@ Per ulteriori informazioni sulla creazione di un report di tabella, vedere [Crea
    1. Fai clic sul filtro delle condizioni vuoto, quindi fai clic su **Scegli un campo**.
    1. Seleziona **Stato**.
    1. Cambia l&#39;operatore in **Equal**, quindi digita _in attesa di approvazione_ nella casella di testo.
+
       ![esempio di filtro della tabella di approvazione in sospeso](assets/pending-approval-table-filter.png)
    1. (Facoltativo) Aggiungi altri filtri come descritto nella sezione **Filtri opzionali** di seguito.
 1. Fai clic su **Salva** nell&#39;angolo in alto a destra dello schermo.
@@ -411,6 +422,7 @@ Per visualizzare informazioni più specifiche a seconda del caso di utilizzo, pu
    1. Fai clic sul filtro delle condizioni vuoto, quindi fai clic su **Scegli un campo**.
    1. Seleziona **Versione documento** > **Documento** > **Progetto** > **Proprietario** > digita _Nome_ nella casella di ricerca.
    1. Cambia l&#39;operatore in **Uguale**, quindi scegli **Me (Utente connesso)** per visualizzare i progetti in Workfront in cui sei contrassegnato come proprietario del progetto.
+
       ![esempio di filtro della tabella di approvazione in sospeso](assets/pending-approvals-my-project-filter.png)
 1. Fai clic su **Salva** nell&#39;angolo in alto a destra dello schermo.
 
@@ -420,6 +432,7 @@ Per visualizzare informazioni più specifiche a seconda del caso di utilizzo, pu
    1. Fare clic sul filtro delle condizioni vuoto, quindi fare clic su **Scegli un campo**.
    1. Selezionare **Fase approvazione** > **Partecipanti fase approvazione** > **Richiedente** > digitare _Nome_ nella casella di ricerca.
    1. Cambia l&#39;operatore in **Uguale**, quindi scegli **Me (Utente connesso)** per visualizzare i progetti in Workfront in cui sei contrassegnato come proprietario del progetto.
+
       ![esempio di filtro della tabella di approvazione in sospeso](assets/pending-approvals-my-project-filter.png)
 1. Fai clic su **Salva** nell&#39;angolo in alto a destra dello schermo.
 
@@ -489,6 +502,7 @@ Per visualizzare informazioni più specifiche a seconda del caso di utilizzo, pu
    1. Selezionare **Fase approvazione** > **Scadenza**.
    1. Cambia l&#39;operatore in **Minore di**, quindi attiva **Imposta data relativa** in **ON**.
    1. Digitare _$$TODAY_ nel campo di testo.
+
       ![esempio di filtro della tabella di approvazione scaduto](assets/overdue-approval.png)
    1. (Facoltativo) Aggiungi altri filtri come descritto nella sezione **Filtri opzionali** di seguito.
 1. Fai clic su **Salva** nell&#39;angolo in alto a destra dello schermo.
@@ -507,6 +521,7 @@ Per visualizzare informazioni più specifiche a seconda del caso di utilizzo, pu
    1. Fare clic sul filtro delle condizioni vuoto, quindi fare clic su **Scegli un campo**.
    1. Seleziona **Versione documento** > **Documento** > **Progetto** > **Proprietario** > digita _Nome_ nella casella di ricerca.
    1. Cambia l&#39;operatore in **Uguale**, quindi scegli **Io (Utente connesso)** per visualizzare i progetti in Workfront in cui sei contrassegnato come proprietario del progetto.
+
       ![esempio di filtro della tabella di approvazione in sospeso](assets/pending-approvals-my-project-filter.png)
 1. Fai clic su **Salva** nell&#39;angolo in alto a destra dello schermo.
 
@@ -516,6 +531,7 @@ Per visualizzare informazioni più specifiche a seconda del caso di utilizzo, pu
    1. Fare clic sul filtro delle condizioni vuoto, quindi fare clic su **Scegli un campo**.
    1. Selezionare **Fase approvazione** > **Partecipanti fase approvazione** > **Richiedente** > digitare _Nome_ nella casella di ricerca.
    1. Cambia l&#39;operatore in **Uguale**, quindi scegli **Io (Utente connesso)** per visualizzare i progetti in Workfront in cui sei contrassegnato come proprietario del progetto.
+
       ![esempio di filtro della tabella di approvazione in sospeso](assets/pending-approvals-my-project-filter.png)
 1. Fai clic su **Salva** nell&#39;angolo in alto a destra dello schermo.
 
@@ -525,6 +541,7 @@ Per visualizzare informazioni più specifiche a seconda del caso di utilizzo, pu
    1. Fare clic sul filtro delle condizioni vuoto, quindi fare clic su **Scegli un campo**.
    1. Selezionare **Fase approvazione** > **Partecipanti fase approvazione** > **Team partecipante** > digitare _Nome_ nella casella di ricerca.
    1. Cambia l&#39;operatore in **Uguale**, quindi scegli **I miei team predefiniti (Utente connesso)** o **I miei altri team (Utente connesso)** per visualizzare i progetti assegnati al tuo team predefinito o ad altri team a cui sei connesso.
+
       ![esempio di filtro della tabella di approvazione in sospeso](assets/approvals-ive-submitted-filter.png)
 1. Fai clic su **Salva** nell&#39;angolo in alto a destra dello schermo.
 +++
