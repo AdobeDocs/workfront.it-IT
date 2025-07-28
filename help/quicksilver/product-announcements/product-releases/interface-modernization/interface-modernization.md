@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
+source-git-commit: d3a5d0c94df449a23e2b36d3e0f6fb816d306ce6
 workflow-type: tm+mt
-source-wordcount: '5853'
+source-wordcount: '5961'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Per tutte le altre modifiche apportate ad Adobe Workfront, vedi [Versioni del pr
 
 ## Aggiornamenti dell&#39;interfaccia per l&#39;elenco Profili scheda orario in un gruppo
 
-**Anteprima versione: 24 luglio 2025; Versione di produzione: da annunciare**
+**Versione di anteprima: 24 luglio 2025; versione di produzione: 28 luglio 2025**
 
 Abbiamo aggiornato l’aspetto dell’elenco Timesheet Profiles (Profili scheda orario) nel pannello a sinistra in un gruppo, in modo che corrisponda ad altre aree dell’applicazione.
 
@@ -50,15 +50,23 @@ Il pulsante di esportazione è stato spostato sul lato destro della pagina.
 
 Per visualizzare questa modifica, vai a Configurazione > Tracciamento delle modifiche > Registri di controllo.
 
-<!--## Interface updates to the Update users for SSO page in Setup
+## Aggiornamenti dell’interfaccia alla pagina Aggiorna utenti per l’SSO in Configurazione
 
-**Preview release: July 22, 2025; Production release: To be annoounced**
+**Anteprima versione: 22 luglio 2025; produzione versione: 28 luglio 2025**
 
-We have updated the Update users for SSO page with a more modern design that is consistent with other areas of Workfront.
+La pagina Aggiornamento utenti per SSO è stata aggiornata con una progettazione più moderna che è coerente con altre aree di Workfront.
 
-To view this change, go to Setup > System > Update Users For SSO-->
+Per visualizzare questa modifica, vai a Configurazione > Sistema > Aggiorna utenti per l’SSO
 
 ## Progetti
+
+## Aggiornamenti dell’interfaccia per la casella Importa file MS Project
+
+**Anteprima versione: 24 luglio 2025; Versione di produzione: da annunciare**
+
+È stato aggiornato l’aspetto della casella Importa file di MS Project durante l’importazione di un progetto da MS Project, in modo che corrisponda al design di altre aree di Workfront.
+
+Per visualizzare questa modifica, vai a Progetti > Nuovo progetto > Importa MS Project.
 
 ## Aggiornamento dell’interfaccia per la casella Aggiungi una spesa di un progetto o di un modello
 
