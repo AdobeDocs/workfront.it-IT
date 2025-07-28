@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: 2ca2361ee96c3940f1f4073274386262f76725ff
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '887'
 ht-degree: 2%
 
 ---
@@ -38,8 +38,32 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Miglioramenti di Adobe Workfront
 
-<!--* [Resource Management enhancements](#resource-management-enhancements)-->
+* [Miglioramenti a documenti e bozze](#document-and-proofing-enhancements)
+  <!--* [Resource Management enhancements](#resource-management-enhancements)-->
 * [Altri miglioramenti](#other-enhancements)
+
+### Miglioramenti di documenti e bozze
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">Nuova integrazione di verifica per Adobe Express</a><p></p>
+            <p>Siamo entusiasti di annunciare una nuova integrazione tra Adobe Express e Workfront Proof.</p>
+            <ul>
+            <li>Semplificazione della collaborazione tra team creativi, legali e di conformità per ridurre i tempi di pubblicazione, mantenendo al contempo la supervisione</li>
+            <li>Eseguire revisioni approfondite utilizzando le annotazioni di disegno, le annotazioni e i commenti con il visualizzatore di bozze di Workfront</li>
+            <li>Conformità agli standard di conformità aziendale con firme elettroniche e registri di audit completi</li>
+            <li>Richiedi approvazione per tutti i file remixati da un modello con marchio Express</li>
+            <li>Mappare un modello Express a un flusso di lavoro di revisione e approvazione in più fasi utilizzando modelli di bozza avanzati</li>
+            </ul>
+        </td>
+        <td>martedì 28 luglio 2025</td>
+        <td>martedì 28 luglio 2025</td>
+        <td>martedì 28 luglio 2025</td>
+    </tr>     
+  </tbody>
+</table>
 
 
 
@@ -109,7 +133,7 @@ Stiamo aggiornando l’interfaccia in Adobe Workfront per migliorare l’esperie
 
 ### Miglioramenti apportati a Workfront Fusion
 
-Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione di rilascio standard. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione di rilascio standard. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Miglioramenti di Workfront Planning
 
@@ -146,11 +170,11 @@ Per offrire integrazioni più stabili e scalabili, stiamo passando a un approcci
 * Workfront per Salesforce.
 
 È consigliabile utilizzare l&#39;automazione e l&#39;integrazione di Workfront per le esigenze di integrazione dell&#39;organizzazione con Google Workspace.
-Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### API versione 20
 
-Workfront API versione 20 è stato rilasciato il 4 maggio 2024. Per API versione 20, abbiamo modificato alcune risorse ed endpoint. Alcune delle modifiche supportano nuove funzionalità, mentre altre semplificano l’utilizzo delle informazioni disponibili tramite l’API.
+Workfront API versione 20 è stato rilasciato il 4 maggio 2025. Per API versione 20, abbiamo modificato alcune risorse ed endpoint. Alcune delle modifiche supportano nuove funzionalità, mentre altre semplificano l’utilizzo delle informazioni disponibili tramite l’API.
 
 Per informazioni sulle novità e sugli aggiornamenti, vedere [Novità della versione API 20](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
@@ -158,7 +182,7 @@ Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianific
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Aggiornamenti dei corsi di formazione
 

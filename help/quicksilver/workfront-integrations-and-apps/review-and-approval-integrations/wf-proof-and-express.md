@@ -7,12 +7,10 @@ description: Guida introduttiva alla verifica e a Creative Cloud Express
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: ca9625b1cb3c51f208bad28792e9090802521dfa
+source-git-commit: dce2d9413b3a363d6508cabec0147c260817ed98
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -80,7 +78,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Impostare i flussi di lavoro di approvazione in Workfront
 
-Prima che gli utenti possano aggiungere un flusso di lavoro di approvazione su un modello Express, un amministratore di Proof deve creare un flusso di lavoro di approvazione in Workfront.
+Prima che gli utenti possano aggiungere un flusso di lavoro di approvazione su un modello Express, un amministratore di Proof con una licenza Standard deve creare un flusso di lavoro di approvazione in Workfront.
 
 Per ulteriori informazioni, vedere [Creare e gestire modelli di flussi di lavoro automatizzati](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md).
 
@@ -90,7 +88,9 @@ Dopo aver creato un modello di flusso di lavoro di approvazione in Workfront, i 
 
 Quando viene eseguito il remixaggio di un modello Express, prima di pubblicarlo è necessaria un’approvazione che attiva automaticamente il flusso di lavoro di approvazione preconfigurato.
 
-Scopri come aggiungere flussi di lavoro di revisione e approvazione ai modelli condivisibili. <!--need link to help article-->
+Per richiedere l’approvazione da Adobe Express, gli utenti devono disporre di una licenza Workfront standard.
+
+Scopri come [ottenere l&#39;approvazione per le progettazioni](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Remixare i modelli Express e inviarli per revisione e approvazione
@@ -104,8 +104,8 @@ Durante il processo di produzione, revisione e approvazione dei contenuti, gli u
 * Leggi commenti
 * e altro ancora
 
-Scopri come ottenere l’approvazione per i progetti.\
-<!--need link to help article-->
+<!--Learn how to get approval on designs.   
+need link to help article-->
 
 ## Revisione e approvazione del file Express remixato
 
@@ -113,8 +113,4 @@ Le parti interessate possono fornire un feedback pertinente alla loro area di co
 
 Sono anche responsabili di prendere decisioni finali per approvare il contenuto in modo che possa essere pubblicato.
 
-Ulteriori informazioni su come rivedere e approvare le progettazioni in Workfront.
-
-
-Licenza di Workfront Collaborator: come risolvere il problema in—
-
+Gli utenti devono disporre almeno della licenza Collaborator Workfront per rivedere e prendere una decisione.

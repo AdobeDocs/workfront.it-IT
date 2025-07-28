@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 6da80f55fd4314c661c52bb2327ae8fa6c7e55b6
+source-git-commit: 401d6a25cb23ebd28960ea866e7308142107a891
 workflow-type: tm+mt
 source-wordcount: '1866'
 ht-degree: 3%
@@ -343,7 +343,7 @@ Stiamo aggiornando l’interfaccia in Adobe Workfront per migliorare l’esperie
 
 ### Miglioramenti apportati a Workfront Fusion
 
-Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione di rilascio standard. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza al di fuori della pianificazione di rilascio standard. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Miglioramenti di Workfront Planning
 
@@ -373,7 +373,7 @@ Come parte di questa modifica, Microsoft ha deciso di cambiare il modo in cui i 
 
 ### API versione 20
 
-Workfront API versione 20 è stato rilasciato il 4 maggio 2024. Per API versione 20, abbiamo modificato alcune risorse ed endpoint. Alcune delle modifiche supportano nuove funzionalità, mentre altre semplificano l’utilizzo delle informazioni disponibili tramite l’API.
+Workfront API versione 20 è stato rilasciato il 4 maggio 2025. Per API versione 20, abbiamo modificato alcune risorse ed endpoint. Alcune delle modifiche supportano nuove funzionalità, mentre altre semplificano l’utilizzo delle informazioni disponibili tramite l’API.
 
 Per informazioni sulle novità e sugli aggiornamenti, vedere [Novità della versione API 20](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
@@ -381,7 +381,7 @@ Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianific
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Aggiornamenti dei corsi di formazione
 
