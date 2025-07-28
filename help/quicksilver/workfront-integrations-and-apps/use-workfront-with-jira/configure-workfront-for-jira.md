@@ -6,9 +6,9 @@ description: Puoi utilizzare  [!DNL Adobe Workfront for Jira] per integrare i tu
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '2384'
+source-wordcount: '2508'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,18 @@ ht-degree: 0%
 # Configura [!DNL Adobe Workfront for Jira]
 
 <!-- Audited: 12/2023 -->
+
+>[!IMPORTANT]
+>
+>Per offrire integrazioni più stabili e scalabili, stiamo passando a un approccio di integrazione moderno e flessibile che utilizza l’automazione e l’integrazione di Workfront (Fusion). Nell&#39;ambito di questo processo di transizione, l&#39;integrazione Workfront for Jira non sarà disponibile dopo il **28 febbraio 2026**.
+>
+>È consigliabile utilizzare l’automazione e l’integrazione di Workfront per le esigenze di integrazione della tua organizzazione con Jira.
+>
+>Entro agosto saranno disponibili otto modelli di automazione e integrazione Workfront pronti all’uso per Jira, per consentire la replica dei flussi di lavoro comuni e accelerare l’implementazione. I modelli sono completamente personalizzabili per soddisfare specifiche esigenze aziendali e possono essere estesi in base all&#39;evoluzione dei requisiti.
+> 
+>Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Per informazioni sulle funzionalità specifiche dei moduli di automazione e integrazione di Workfront per Jira, vedere [Moduli software Jira](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules).
 
 È possibile utilizzare [!DNL Adobe Workfront for Jira] per integrare i sistemi [!DNL Jira] e [!DNL Workfront].
 
@@ -25,7 +37,7 @@ Tutti gli utenti in [!DNL Workfront] e [!DNL Jira] possono beneficiare di questa
 
 Questo componente aggiuntivo è disponibile per entrambe le versioni [!UICONTROL Server] e [!UICONTROL OnDemand] (o [!UICONTROL Cloud]) del software [!DNL Jira].
 
-Per un elenco di [!DNL Jira] versioni attualmente supportate da [!DNL Workfront for Jira], vedere [[!DNL Workfront for Jira]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview) in [!DNL Atlassian Marketplace].
+Per un elenco di [!DNL Jira] versioni attualmente supportate da [!DNL Workfront for Jira], vedere [[!DNL Workfront for Jira]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) in [!DNL Atlassian Marketplace].
 
 ## Requisiti di accesso
 
@@ -134,7 +146,7 @@ In qualità di amministratore di sistema [!DNL Jira], puoi definire trigger che 
 
 Quando si configura l&#39;attivazione della creazione di [!DNL Jira] elementi durante la creazione di [!DNL Workfront] elementi, tenere presente quanto segue:
 
-* L&#39;integrazione è unidirezionale: è possibile attivare solo gli elementi creati in [!DNL Workfront] per la creazione automatica in [!DNL Jira]. Impossibile attivare la creazione automatica in [!DNL Workfront] degli elementi creati in [!DNL Jira].
+* L&#39;integrazione è unidirezionale: è possibile attivare solo gli elementi creati in [!DNL Workfront] per la creazione automatica in [!DNL Jira]. Impossibile attivare la creazione automatica in [!DNL Jira] degli elementi creati in [!DNL Workfront].
 * Non esiste alcun limite al numero di attivatori che è possibile avere.
 * Se un elemento creato in [!DNL Workfront] corrisponde a più di uno dei trigger, in [!DNL Jira] verrà creato un solo elemento. L&#39;elemento viene creato in [!DNL Jira] in base al primo trigger (nell&#39;ordine in cui sono stati definiti in [!DNL Jira]). Tutti gli altri trigger vengono ignorati.
 * È possibile collegare un solo elemento in [!DNL Workfront] a un elemento in Jira. Non puoi collegare un elemento [!DNL Workfront] a più problemi [!DNL Jira] o un problema [!DNL Jira] a più elementi [!DNL Workfront].
@@ -260,7 +272,7 @@ Per definire i campi da sincronizzare automaticamente sugli elementi collegati t
        <tbody>
         <tr>
          <td role="rowheader">[!UICONTROL Stato]</td>
-         <td>Lo stato  di un problema in [!DNL Jira] diventa lo stato  dell'attività o del problema a cui è collegato in [!DNL Workfront].<br>Per ulteriori informazioni sugli stati [!DNL Workfront], vedere <a href="../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Creare o modificare uno stato</a>.</td>
+         <td>Lo stato [!UICONTROL] di un problema in [!DNL Jira] diventa lo stato [!UICONTROL] dell'attività o del problema a cui è collegato in [!DNL Workfront].<br>Per ulteriori informazioni sugli stati [!DNL Workfront], vedere <a href="../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Creare o modificare uno stato</a>.</td>
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL assegnatario]</td>

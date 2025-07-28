@@ -7,18 +7,28 @@ description: Puoi accedere al contenuto della tua  [!DNL Adobe Workfront] Home, 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
 
 # Accedi a [!DNL Adobe Workfront] [!UICONTROL Home] contenuto da [!DNL Google Workspace]
 
->[!NOTE]
+>[!IMPORTANT]
 >
->La versione più recente del plug-in Adobe Workfront per Google è stata rilasciata il 26 giugno 2023.
+>Per offrire integrazioni più stabili e scalabili, stiamo passando a un approccio di integrazione moderno e flessibile che utilizza l’automazione e l’integrazione di Workfront (Fusion). Nell&#39;ambito di questo processo di transizione, le seguenti funzionalità di Workfront per Google Workspace non saranno disponibili dopo il **28 febbraio 2026**:
+>
+>* Accesso alle funzionalità di Google Workspace da Workfront
+>
+>* Visualizzazione e gestione delle attività di Workfront da Gmail o dal pannello del sito Calendario di Google
+>
+>È consigliabile utilizzare l&#39;automazione e l&#39;integrazione di Workfront per le esigenze di integrazione dell&#39;organizzazione con Google Workspace.
+>
+>Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Per informazioni sulle funzionalità specifiche dei moduli di automazione e integrazione di Workfront per Google Workspace, vedere [Moduli Gmail](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) e [Moduli calendario Google](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 Puoi accedere al contenuto della [!DNL Adobe Workfront] [!UICONTROL Home], incluse tutte le attività, i problemi, le approvazioni e le richieste di accesso assegnate, senza uscire da Google Workspace.
 

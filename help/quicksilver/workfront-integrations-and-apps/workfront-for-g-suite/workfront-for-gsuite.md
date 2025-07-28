@@ -9,18 +9,28 @@ author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: dfced3e9-0338-446e-bf70-fa5d07f3ac1f
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront for Google Workspace]
 
->[!NOTE]
+>[!IMPORTANT]
 >
->La versione più recente del plug-in Adobe Workfront per Google è stata rilasciata il 26 giugno 2023.
+>Per offrire integrazioni più stabili e scalabili, stiamo passando a un approccio di integrazione moderno e flessibile che utilizza l’automazione e l’integrazione di Workfront (Fusion). Nell&#39;ambito di questo processo di transizione, le seguenti funzionalità di Workfront per Google Workspace non saranno disponibili dopo il **28 febbraio 2026**:
+>
+>* Accesso alle funzionalità di Google Workspace da Workfront
+>
+>* Visualizzazione e gestione delle attività di Workfront da Gmail o dal pannello del sito Calendario di Google
+>
+>È consigliabile utilizzare l&#39;automazione e l&#39;integrazione di Workfront per le esigenze di integrazione dell&#39;organizzazione con Google Workspace.
+>
+>Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Per informazioni sulle funzionalità specifiche dei moduli di automazione e integrazione di Workfront per Google Workspace, vedere [Moduli Gmail](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) e [Moduli calendario Google](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 [!DNL Adobe Workfront for Google Workspace] ti connette al tuo lavoro più importante e ti consente di collaborare con altri rimanendo all&#39;interno di [!DNL Gmail], [!DNL Google Calendar] e [!DNL Google Drive]. Senza uscire da queste applicazioni, è possibile acquisire le richieste e-mail o gli aggiornamenti di lavoro e aggiungerli a [!DNL Workfront]. È possibile controllare ciò che accade in [!DNL Workfront], incluse le date di scadenza, la priorità, i documenti, gli aggiornamenti e il contesto aggiuntivo, senza uscire dalla casella in entrata. È possibile prendere decisioni di approvazione, rispondere ai commenti o accettare nuove richieste di lavoro. È inoltre possibile convertire le e-mail in attività personali del progetto o assegnare il lavoro e la priorità ad altri.
 

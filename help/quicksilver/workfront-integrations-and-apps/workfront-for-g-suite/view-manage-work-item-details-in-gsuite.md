@@ -7,18 +7,28 @@ description: È possibile visualizzare e gestire i dettagli di un elemento di la
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
 
 # Visualizza e gestisci i dettagli dell&#39;oggetto [!DNL Adobe Workfront] da [!DNL Google Workspace]
 
->[!NOTE]
+>[!IMPORTANT]
 >
->La versione più recente del plug-in Adobe Workfront per Google è stata rilasciata il 26 giugno 2023.
+>Per offrire integrazioni più stabili e scalabili, stiamo passando a un approccio di integrazione moderno e flessibile che utilizza l’automazione e l’integrazione di Workfront (Fusion). Nell&#39;ambito di questo processo di transizione, le seguenti funzionalità di Workfront per Google Workspace non saranno disponibili dopo il **28 febbraio 2026**:
+>
+>* Accesso alle funzionalità di Google Workspace da Workfront
+>
+>* Visualizzazione e gestione delle attività di Workfront da Gmail o dal pannello del sito Calendario di Google
+>
+>È consigliabile utilizzare l&#39;automazione e l&#39;integrazione di Workfront per le esigenze di integrazione dell&#39;organizzazione con Google Workspace.
+>
+>Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Per informazioni sulle funzionalità specifiche dei moduli di automazione e integrazione di Workfront per Google Workspace, vedere [Moduli Gmail](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) e [Moduli calendario Google](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 È possibile visualizzare e gestire i dettagli di un elemento di lavoro senza uscire da [!DNL Google Workspace]. È ad esempio possibile leggere la descrizione di un&#39;attività, visualizzarne l&#39;oggetto padre, modificarne lo stato e contrassegnarla come completata, il tutto all&#39;interno di [!DNL Adobe Workfront for Google Workspace].
 

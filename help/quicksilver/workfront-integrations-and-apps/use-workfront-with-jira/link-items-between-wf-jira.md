@@ -6,9 +6,9 @@ description: Puoi collegare [!DNL Jira] problemi alle [!DNL Adobe Workfront] att
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1362'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,18 @@ ht-degree: 0%
 # Collega elementi tra [!DNL Adobe Workfront] e [!DNL Jira]
 
 <!-- Audited: 5/2025 -->
+
+>[!IMPORTANT]
+>
+>Per offrire integrazioni più stabili e scalabili, stiamo passando a un approccio di integrazione moderno e flessibile che utilizza l’automazione e l’integrazione di Workfront (Fusion). Nell&#39;ambito di questo processo di transizione, l&#39;integrazione Workfront for Jira non sarà disponibile dopo il **28 febbraio 2026**.
+>
+>È consigliabile utilizzare l’automazione e l’integrazione di Workfront per le esigenze di integrazione della tua organizzazione con Jira.
+>
+>Entro agosto saranno disponibili otto modelli di automazione e integrazione Workfront pronti all’uso per Jira, per consentire la replica dei flussi di lavoro comuni e accelerare l’implementazione. I modelli sono completamente personalizzabili per soddisfare specifiche esigenze aziendali e possono essere estesi in base all&#39;evoluzione dei requisiti.
+> 
+>Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Per informazioni sulle funzionalità specifiche dei moduli di automazione e integrazione di Workfront per Jira, vedere [Moduli software Jira](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules).
 
 È possibile collegare [!DNL Jira] problemi ad attività o problemi [!DNL Adobe Workfront] in modo automatico o manuale.
 
@@ -103,6 +115,7 @@ Per collegare automaticamente un&#39;attività [!DNL Workfront] a un problema [!
 1. Nel pannello sinistro del progetto, seleziona **[!UICONTROL Attività]**.
 
 1. Fare clic su **+ Nuova attività**.
+
    >[!NOTE]
    >
    >Per collegare un elemento di Workfront esistente a un problema Jira, seleziona **Modifica** dal menu dell&#39;elemento **Altro** ![Icona altro](assets/more-icon.png).

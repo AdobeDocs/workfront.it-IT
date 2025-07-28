@@ -6,9 +6,9 @@ description: Il lavoro pianificato è rappresentato in Adobe Workfront dai proge
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 7c7697936da90d17599d90b69265f62221185569
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '2803'
+source-wordcount: '2765'
 ht-degree: 1%
 
 ---
@@ -16,14 +16,6 @@ ht-degree: 1%
 # Creare e inviare richieste
 
 <!--Audited: 12/2023-->
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE: Linked to the UI - do not change/ remove; THIS IS NOW SPLIT IN THREE ARTICLES>> MAKE SURE THE TRANSITION TO THE OTHER TWO IS CLEAR SINCE THIS IS LINKED TO UI)</p>
-<p>(NOTE: If they come out with templates AND drafts, consider splitting this article to keep Create in one and Working with Drafts and Requests in another??)</p>
-<p>(NOTE: this article is linked from Submitting Workfront Requests from Salesforce) </p>
-</div>
--->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -383,9 +375,6 @@ Puoi inviare richieste utilizzando qualsiasi applicazione integrata con Workfron
 
 * Puoi creare un’integrazione personalizzata tra Workfront e un’altra applicazione che ti consenta di inviare richieste a Workfront dall’altra applicazione.\
   Per ulteriori informazioni sulle integrazioni Workfront personalizzate, vedere l&#39;articolo [Integrazioni Adobe Workfront](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md).
-
-* Puoi inviare richieste da Salesforce se hai installato l’app Workfront per Salesforce.\
-  Per informazioni sull&#39;invio di richieste da Salesforce tramite la nostra app Workfront per Salesforce, vedi l&#39;articolo [Inviare richieste Adobe Workfront da oggetti Salesforce](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
 
 ## Creare richieste utilizzando un modulo di richiesta Workfront Planning
 

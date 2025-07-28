@@ -7,18 +7,28 @@ description: È possibile convertire un'e-mail esterna (non generata da Adobe [!
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 6bbb4301-2791-4d72-bad8-fef63d6e892a
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
 
 # Crea un&#39;attività [!DNL Adobe Workfront] in [!DNL Google Workspace] utilizzando il contenuto e-mail
 
->[!NOTE]
+>[!IMPORTANT]
 >
->La versione più recente del plug-in Adobe Workfront per Google è stata rilasciata il 26 giugno 2023.
+>Per offrire integrazioni più stabili e scalabili, stiamo passando a un approccio di integrazione moderno e flessibile che utilizza l’automazione e l’integrazione di Workfront (Fusion). Nell&#39;ambito di questo processo di transizione, le seguenti funzionalità di Workfront per Google Workspace non saranno disponibili dopo il **28 febbraio 2026**:
+>
+>* Accesso alle funzionalità di Google Workspace da Workfront
+>
+>* Visualizzazione e gestione delle attività di Workfront da Gmail o dal pannello del sito Calendario di Google
+>
+>È consigliabile utilizzare l&#39;automazione e l&#39;integrazione di Workfront per le esigenze di integrazione dell&#39;organizzazione con Google Workspace.
+>
+>Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Per informazioni sulle funzionalità specifiche dei moduli di automazione e integrazione di Workfront per Google Workspace, vedere [Moduli Gmail](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) e [Moduli calendario Google](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 È possibile convertire un&#39;e-mail esterna (non generata da [!DNL Adobe Workfront]) in un&#39;attività [!DNL Workfront].
 
@@ -84,7 +94,7 @@ Prima di poter creare un&#39;attività [!DNL Workfront] in [!DNL Google Workspac
       <td> <p>Fai clic su <strong>[!UICONTROL Planned duration]</strong> (Durata pianificata), quindi digita il numero di giorni desiderati per l'attività. </p> <p>Nota: questa opzione può essere configurata per la tua organizzazione in modi diversi. Ad esempio, per la tua organizzazione, potrebbe essere necessario digitare un numero di ore invece di giorni. Per ulteriori informazioni, contattare l'amministratore [!DNL Workfront]. Se si desidera specificare un periodo di tempo diverso da quello predefinito configurato, digitare <strong>m</strong>, <strong>h</strong>, <strong>d</strong>, <strong>w</strong> o <strong>mo</strong> dopo il numero per indicare minuti, ore, giorni, settimane o mesi.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">Priorità </td> 
+      <td role="rowheader">Priorità [!UICONTROL]</td> 
       <td>Fare clic sulla freccia dell'elenco a discesa, quindi selezionare la priorità desiderata per l'attività.</td> 
      </tr> 
      <tr data-mc-conditions=""> 

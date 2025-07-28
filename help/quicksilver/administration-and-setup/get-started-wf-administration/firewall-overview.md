@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 1%
+source-wordcount: '717'
+ht-degree: 0%
 
 ---
 
@@ -75,11 +75,8 @@ Fornire all&#39;amministratore di rete le informazioni seguenti:
    <td role="rowheader">Integrazioni Adobe Workfront</td> 
    <td>Informare l'amministratore di rete se si utilizza uno dei seguenti elementi:
     <ul>
-     <li><p>Workfront per Jira</p></li>
-     <li><p>Workfront per Google Workspace</p></li>
      <li><p>Workfront per Microsoft Teams</p></li>
      <li><p>Workfront per Outlook</p></li>
-     <li><p>Workfront per Salesforce</p></li>
     </ul></td> 
   </tr> 
   <tr> 

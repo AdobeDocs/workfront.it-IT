@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '578'
 ht-degree: 1%
 
 ---
@@ -63,7 +63,7 @@ L’accesso a Workfront può essere considerato come un accesso a Workfront in u
 
 * Applicazione Web Workfront
 * App mobili Workfront (dispositivi iOS o Android)
-* Qualsiasi integrazione Workfront supportata con un’altra applicazione di terze parti (Slack, Jira)
+* Qualsiasi integrazione Workfront supportata con un’altra applicazione di terze parti (ad esempio Slack)
 * Qualsiasi integrazione personalizzata tra Workfront e un’altra applicazione di terze parti.
 * API di Workfront
 

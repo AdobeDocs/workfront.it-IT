@@ -7,18 +7,28 @@ description: Puoi convertire un'e-mail esterna (non generata da [!DNL Adobe Work
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7a15f557-67d8-4be8-8538-4bce06536c0a
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
 
 # Crea un problema [!DNL Adobe Workfront] in [!DNL Google Workspace] utilizzando il contenuto dell&#39;e-mail
 
->[!NOTE]
+>[!IMPORTANT]
 >
->La versione più recente del plug-in Adobe Workfront per Google è stata rilasciata il 26 giugno 2023.
+>Per offrire integrazioni più stabili e scalabili, stiamo passando a un approccio di integrazione moderno e flessibile che utilizza l’automazione e l’integrazione di Workfront (Fusion). Nell&#39;ambito di questo processo di transizione, le seguenti funzionalità di Workfront per Google Workspace non saranno disponibili dopo il **28 febbraio 2026**:
+>
+>* Accesso alle funzionalità di Google Workspace da Workfront
+>
+>* Visualizzazione e gestione delle attività di Workfront da Gmail o dal pannello del sito Calendario di Google
+>
+>È consigliabile utilizzare l&#39;automazione e l&#39;integrazione di Workfront per le esigenze di integrazione dell&#39;organizzazione con Google Workspace.
+>
+>Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Per informazioni sulle funzionalità specifiche dei moduli di automazione e integrazione di Workfront per Google Workspace, vedere [Moduli Gmail](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) e [Moduli calendario Google](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 È possibile convertire un&#39;e-mail esterna (non generata da [!DNL Adobe Workfront]) in un problema [!DNL Workfront].
 
@@ -81,7 +91,7 @@ Prima di poter creare un problema da [!DNL Google Workspace], è necessario
       <td>Fare clic su <strong>[!UICONTROL Assegna a]</strong>, fare clic sull'opzione <strong>[!UICONTROL Assegna a]</strong> visualizzata, quindi iniziare a digitare il nome della persona e fare clic su di esso quando viene visualizzato nell'elenco seguente. Ripetere l'operazione per ogni persona che si desidera aggiungere, quindi fare clic su <strong>[!UICONTROL Salva]</strong>.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">Priorità </td> 
+      <td role="rowheader">Priorità [!UICONTROL]</td> 
       <td>Fai clic sulla freccia a discesa, quindi fai clic sulla priorità desiderata per il problema.</td> 
      </tr> 
      <tr data-mc-conditions=""> 

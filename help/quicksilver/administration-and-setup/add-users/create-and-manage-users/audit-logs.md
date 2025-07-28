@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1523'
 ht-degree: 3%
 
 ---
@@ -65,7 +65,7 @@ In ogni voce del registro di controllo vengono registrati i campi riportati di s
 ## Tipi di registro di controllo e azioni che li attivano
 
 * [Livello d&#39;Accesso](#access-level)
-* [Regole aziendali](#business-rules)
+* [Regole di business](#business-rules)
 * [Società](#company)
 * [Condizione](#condition)
 * [Campo personalizzato](#custom-field)
@@ -91,7 +91,7 @@ Il sistema genera una voce di registro del livello di accesso quando un utente e
 * Modifica un livello di accesso:
 
    * Modifica il tipo di licenza
-   * Modifica le autorizzazioni per progetti, attività, problemi, Portfoli, programmi, report, documenti, utenti o modelli
+   * Modifica le autorizzazioni per progetti, attività, problemi, portafogli, programmi, report, documenti, utenti o modelli
 
      >[!NOTE]
      >
@@ -99,9 +99,9 @@ Il sistema genera una voce di registro del livello di accesso quando un utente e
      >
      >Ad esempio, se un utente modifica il tipo di accesso Planner da Vista a Modifica, il sistema non visualizza le informazioni contenute nel menu a discesa Ottimizza impostazioni.
 
-### Regole aziendali
+### Regole di business
 
-Le regole business sono disponibili solo per i clienti che hanno acquistato un piano Workfront Ultimate. Per ulteriori informazioni, vedere [Creare e modificare le regole business](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+Le regole business sono disponibili solo per i clienti che hanno acquistato un piano Workfront di Ultimate. Per ulteriori informazioni, vedere [Creare e modificare le regole business](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
 
 Il sistema genera una voce del registro di controllo Regola aziendale quando un utente esegue una delle operazioni seguenti:
 
@@ -257,7 +257,7 @@ Per ulteriori informazioni sulla configurazione dei ruoli, vedere [Creare e gest
 Il sistema genera una voce del registro di controllo Tentativo di accesso quando un utente esegue una delle seguenti operazioni:
 
 * Effettua l’accesso, esce o non riesce dopo un tentativo di accesso in Workfront (in un browser e nell’app mobile).
-* Effettua l’accesso, si disconnette o non riesce dopo un tentativo di accesso nell’integrazione con Workfront (ad esempio Workfront per Slack e Workfront per Salesforce).
+* Effettua l’accesso, si disconnette o non riesce dopo un tentativo di accesso nell’integrazione con Workfront (ad esempio, Workfront per Slack)
 * Accedi o esce dall’API Workfront
 
 I registri dei tentativi di accesso non vengono registrati quando un amministratore di Workfront utilizza la funzione Accedi come.

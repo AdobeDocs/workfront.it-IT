@@ -7,7 +7,7 @@ description: Per poter attivare un obiettivo, devi aggiungere risultati, attivit
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
@@ -67,10 +67,6 @@ Quando si lavora con i risultati, considera quanto segue:
 
 * Rispondono alla domanda: &quot;Come faccio a sapere quando il mio obiettivo è completo?&quot;
 * Sono indicatori di metrica. È possibile scegliere tra le seguenti opzioni per indicare un avanzamento per il risultato:
-
-  <!--
-  this might change (jira, Salesforce, etc))
-  -->
 
    * Valuta
    * Numero
