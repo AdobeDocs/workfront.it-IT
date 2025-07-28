@@ -113,7 +113,7 @@ Sappiamo che le integrazioni integrate (native) disponibili potrebbero non soddi
      <li>After Effects </li>
      </ul>
      <li><p>Scarica/installa da <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
-     <p>Per informazioni e istruzioni, vedere <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Installare il plug-in [!DNL Adobe Workfront] per [!DNL Creative Cloud] applicazioni</a></p> 
+     <p>Per informazioni e istruzioni, vedere <a href="https://experienceleague.adobe.com/it/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Installare il plug-in [!DNL Adobe Workfront] per [!DNL Creative Cloud] applicazioni</a></p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
@@ -264,7 +264,7 @@ Sappiamo che le integrazioni integrate (native) disponibili potrebbero non soddi
 
   [!DNL Adobe Workfront Fusion] collega azioni all&#39;interno e tra app e servizi per creare uno scenario che trasferisce e trasforma automaticamente i dati. Dispone di connettori dedicati per molte app, ma può connettersi a qualsiasi applicazione con un’API pubblica.
 
-  Per ulteriori informazioni, vedere [[!DNL Adobe Workfront Fusion] panoramica](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+  Per ulteriori informazioni, vedere [[!DNL Adobe Workfront Fusion] panoramica](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan] (Richiede [!DNL Workfront Fusion])
