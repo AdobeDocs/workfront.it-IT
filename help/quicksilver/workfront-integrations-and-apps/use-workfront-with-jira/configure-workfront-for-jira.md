@@ -272,7 +272,7 @@ Per definire i campi da sincronizzare automaticamente sugli elementi collegati t
        <tbody>
         <tr>
          <td role="rowheader">[!UICONTROL Stato]</td>
-         <td>Lo stato [!UICONTROL] di un problema in [!DNL Jira] diventa lo stato [!UICONTROL] dell'attività o del problema a cui è collegato in [!DNL Workfront].<br>Per ulteriori informazioni sugli stati [!DNL Workfront], vedere <a href="../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Creare o modificare uno stato</a>.</td>
+         <td>Lo stato  di un problema in [!DNL Jira] diventa lo stato  dell'attività o del problema a cui è collegato in [!DNL Workfront].<br>Per ulteriori informazioni sugli stati [!DNL Workfront], vedere <a href="../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Creare o modificare uno stato</a>.</td>
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL assegnatario]</td>

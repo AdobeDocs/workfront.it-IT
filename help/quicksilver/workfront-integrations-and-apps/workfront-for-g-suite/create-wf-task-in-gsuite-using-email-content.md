@@ -94,7 +94,7 @@ Prima di poter creare un&#39;attività [!DNL Workfront] in [!DNL Google Workspac
       <td> <p>Fai clic su <strong>[!UICONTROL Planned duration]</strong> (Durata pianificata), quindi digita il numero di giorni desiderati per l'attività. </p> <p>Nota: questa opzione può essere configurata per la tua organizzazione in modi diversi. Ad esempio, per la tua organizzazione, potrebbe essere necessario digitare un numero di ore invece di giorni. Per ulteriori informazioni, contattare l'amministratore [!DNL Workfront]. Se si desidera specificare un periodo di tempo diverso da quello predefinito configurato, digitare <strong>m</strong>, <strong>h</strong>, <strong>d</strong>, <strong>w</strong> o <strong>mo</strong> dopo il numero per indicare minuti, ore, giorni, settimane o mesi.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">Priorità [!UICONTROL]</td> 
+      <td role="rowheader">Priorità </td> 
       <td>Fare clic sulla freccia dell'elenco a discesa, quindi selezionare la priorità desiderata per l'attività.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
