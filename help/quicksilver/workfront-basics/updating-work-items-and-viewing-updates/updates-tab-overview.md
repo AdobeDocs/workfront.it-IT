@@ -7,9 +7,9 @@ description: Nella sezione Aggiornamenti di un oggetto vengono visualizzati i co
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
+source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1195'
 ht-degree: 4%
 
 ---
@@ -322,7 +322,7 @@ Quando visualizzi gli aggiornamenti per utenti e team, considera quanto segue:
 
    * Aggiunta, rimozione e altri aggiornamenti di documenti
    * Aggiunta di ore, rimozione, aggiunta per conto di e altri aggiornamenti delle ore
-   * Note, aggiornamenti ai campi personalizzati
+   * Aggiornamenti ai campi personalizzati
    * Aggiornamenti del profilo utente (aggiornamenti all’avatar dell’utente, numero di cellulare, informazioni sul campo, titolo)
    * Aggiunta utente, rimozione, modifica del livello di accesso, modifiche nei campi utente incorporati
    * Informazioni finanziarie da attività e progetti.

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: f4ea19368b664d0b3a47f93c70fd489685791538
 workflow-type: tm+mt
 source-wordcount: '5201'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=it ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -35,12 +35,12 @@ In Adobe Workfront Planning è possibile creare campi personalizzati per i tipi 
 
 In Workfront Planning è possibile creare i campi nei modi seguenti:
 
-* Da zero
-* Collegando i tipi di record
-* Creazione di un tipo di record
-* Creazione di un&#39;area di lavoro da un modello
-* Importando i tipi di record utilizzando un file Excel o CSV
-* Importando copie dei campi Workfront esistenti
+* [Da zero](#create-fields-from-scratch)
+* [Collegando i tipi di record](#create-fields-from-scratch)
+* [Creazione di un tipo di record](#create-fields-by-creating-a-record-type)
+* [Creazione di un&#39;area di lavoro da un modello](#create-fields-by-creating-a-workspace-from-a-template)
+* [Importando i tipi di record utilizzando un file Excel o CSV](#create-fields-when-importing-record-types-from-a-csv-or-excel-file)
+* [Importando copie dei campi Workfront esistenti](#create-fields-by-importing-them-from-workfront)
 
 Per ulteriori informazioni sui campi di Workfront Planning, vedere [Panoramica campo](/help/quicksilver/planning/fields/fields-overview.md).
 
@@ -109,6 +109,45 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 *Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Creare i campi collegando i tipi di record
+
+È possibile creare campi record collegati quando si aggiunge una nuova connessione tra due tipi di record o un tipo di record e un tipo di oggetto di altre applicazioni.
+
+Per informazioni sulla connessione dei tipi di record di Workfront Planning, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+<!--## Create fields by importing record types using an Excel or CSV file
+
+For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
+
+## Creare campi creando un tipo di record
+
+Quando si crea un tipo di record, per impostazione predefinita vengono creati anche diversi campi associati al nuovo tipo di record. Per ulteriori informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+
+## Creare campi creando un’area di lavoro da un modello
+
+Adobe Workfront Planning crea campi per i tipi di record quando si crea un&#39;area di lavoro da un modello.
+
+Per informazioni, vedere [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
+
+
+
+## Creare campi durante l’importazione di tipi di record da un file CSV o Excel
+
+È possibile importare i campi quando si importano tipi di record utilizzando un file CSV o Excel.
+
+Per informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+
+## Creare campi importandoli da Workfront
+
+Puoi importare copie dei campi Workfront esistenti.
+
+L&#39;importazione di campi da Workfront crea una copia di ogni campo per un tipo di record di Workfront Planning.
+
+Dopo aver copiato i campi, questi sono indipendenti l&#39;uno dall&#39;altro e non si scambiano informazioni.
+
+Per informazioni, vedere [Importare campi da Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
+
 
 ## Crea campi da zero {#create-fields-from-scratch}
 
@@ -319,7 +358,7 @@ I tipi di campo numerico acquisiscono informazioni in formato numerico.
 >I campi numerici vengono visualizzati come tipo di campo di testo a riga singola in un generatore di moduli di richiesta.
 >
 >Tuttavia, il formato del campo viene mantenuto e i valori di questi campi vengono visualizzati come numeri dopo l’invio della richiesta, nel tipo di record e nella pagina dei dettagli della richiesta.
->&#x200B;>Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Inizia a creare un campo come descritto nella sezione [Crea campi da zero](#create-fields-from-scratch) in questo articolo, quindi seleziona il tipo di campo **Numero**.
@@ -349,7 +388,7 @@ I tipi di campo Percentuale acquisiscono le informazioni in un formato numerico 
 >I campi percentuali vengono visualizzati come tipo di campo di testo a riga singola nel generatore di moduli di richiesta.
 >
 >Tuttavia, il formato del campo viene mantenuto e i valori di questi campi vengono visualizzati come percentuali dopo l’invio della richiesta, nel tipo di record e nella pagina dei dettagli della richiesta.
->&#x200B;>Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Inizia a creare un campo come descritto nella sezione [Crea campi da zero](#create-fields-from-scratch) in questo articolo, quindi seleziona il tipo di campo **Percentuale**.
@@ -389,7 +428,7 @@ I tipi di campo Valuta acquisiscono le informazioni in un formato numerico prece
 >I campi Valuta vengono visualizzati come tipo di campo di testo a riga singola in un generatore di moduli di richiesta.
 >
 >Tuttavia, il formato del campo viene mantenuto e i valori di questi campi vengono visualizzati come valuta dopo l’invio della richiesta, nel tipo di record e nella pagina dei dettagli della richiesta.
->&#x200B;>Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Inizia a creare un campo come descritto nella sezione [Crea campi da zero](#create-fields-from-scratch) in questo articolo, quindi seleziona il tipo di campo **Valuta**.
 
@@ -443,6 +482,8 @@ Per ulteriori informazioni, vedere [Panoramica dei campi formula](/help/quicksil
 
 1. Fai clic sull’espressione selezionata per visualizzarne la definizione e la formattazione.
 
+   <!--update screen shot for Maximize button-->
+
    ![Descrizione dell&#39;espressione della formula](assets/description-of-formula-expression.png)
 
    Per ulteriori informazioni sulle espressioni supportate, vedere [Panoramica dei campi formula](/help/quicksilver/planning/fields/formula-fields.md).
@@ -466,6 +507,12 @@ Per ulteriori informazioni, vedere [Panoramica dei campi formula](/help/quicksil
    >
    >![Esempio di formula budget progetto quattro campi rimossi ](assets/formula-example-project-budget-four-fields-removed.png)
    >
+
+   <!--
+    1. <span class="preview">(Optional) Click **Maximize** to open the Formula box in a larger area. </span>
+           <span class="preview">The Formula box opens in a larger window. </span>
+    1. <span class="preview">(Optional and conditional) If you opened the Formula box in a larger area,click **Minimize** to return to the original formula field box.</span> 
+    -->
 
 1. Nel campo **Formato**, selezionare una delle seguenti opzioni per identificare il formato del risultato visualizzato nel campo di tipo formula:
 
@@ -735,42 +782,6 @@ Create an Object field:
 
 -->
 
-## Creare i campi collegando i tipi di record
 
-È possibile creare campi record collegati quando si aggiunge una nuova connessione tra due tipi di record o un tipo di record e un tipo di oggetto di altre applicazioni.
-
-Per informazioni sulla connessione dei tipi di record di Workfront Planning, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
-
-<!--## Create fields by importing record types using an Excel or CSV file
-
-For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
-
-## Creare campi creando un tipo di record
-
-Quando si crea un tipo di record, per impostazione predefinita vengono creati anche diversi campi associati al nuovo tipo di record. Per ulteriori informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
-
-## Creare campi creando un’area di lavoro da un modello
-
-Adobe Workfront Planning crea campi per i tipi di record quando si crea un&#39;area di lavoro da un modello.
-
-Per informazioni, vedere [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
-
-
-
-## Creare campi durante l’importazione di tipi di record da un file CSV o Excel
-
-È possibile importare i campi quando si importano tipi di record utilizzando un file CSV o Excel.
-
-Per informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
-
-## Creare campi importandoli da Workfront
-
-Puoi importare copie dei campi Workfront esistenti.
-
-L&#39;importazione di campi da Workfront crea una copia di ogni campo per un tipo di record di Workfront Planning.
-
-Dopo aver copiato i campi, questi sono indipendenti l&#39;uno dall&#39;altro e non si scambiano informazioni.
-
-Per informazioni, vedere [Importare campi da Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
 
 
