@@ -5,9 +5,9 @@ description: Puoi utilizzare l’intelligenza artificiale per compilare automati
 author: Becky
 feature: Get Started with Workfront
 exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
-source-git-commit: a3e93311277bc5b68063e0ec1cbdcce3a40eb3dd
+source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '961'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Questa funzionalità fa attualmente parte di una versione beta chiusa. Per abilitare questa funzionalità, contatta sargism@adobe.com.
+>Questa funzionalità fa attualmente parte di una versione beta chiusa. Per abilitare questa funzionalità, contattare `sargism@adobe.com`.
 >
 >Per qualificarsi per la versione beta chiusa, l’organizzazione deve soddisfare i requisiti per utilizzare l’Assistente di intelligenza artificiale di Workfront. Per informazioni dettagliate, vedere [Prerequisiti per l&#39;Assistente IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
@@ -25,6 +25,8 @@ L’intelligenza artificiale può aiutarti a compilare automaticamente i campi d
 Puoi approvare o rifiutare questi suggerimenti prima di inviare la richiesta.
 
 La funzione di riempimento automatico non sovrascrive i campi già compilati.
+
+Gli utenti non ricevono suggerimenti di dati a cui non hanno altrimenti accesso.
 
 ## Ottieni suggerimenti durante la compilazione del modulo
 
@@ -162,4 +164,12 @@ Quando si carica un documento per la richiesta di compilazione automatica, consi
    Oppure
 
    Selezionare **Accetta tutti** o **Rifiuta tutti** nella parte superiore della pagina per accettare o rifiutare tutti i suggerimenti.
+
+## Risoluzione dei problemi
+
+Se non ricevi i suggerimenti previsti, la causa potrebbe essere una delle seguenti:
+
+* È necessario disporre di almeno un mese di dati della richiesta nel sistema prima che possa suggerire valori di campo da richieste precedenti.
+* Un elemento di dati della richiesta deve trovarsi nel sistema da più di 24 ore prima di poter essere suggerito in un’altra richiesta.
+* Potresti non aver seguito i guardrail di caricamento del documento durante il caricamento di un documento da cui estrarre i suggerimenti. Per ulteriori informazioni, vedi [Guardrail di caricamento documenti](#document-upload-guardrails) in questo articolo.
 
