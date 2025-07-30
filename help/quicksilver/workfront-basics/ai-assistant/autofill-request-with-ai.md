@@ -5,9 +5,9 @@ description: Puoi utilizzare l’intelligenza artificiale per compilare automati
 author: Becky
 feature: Get Started with Workfront
 exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
-source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
+source-git-commit: b0454d5fe3d866b30513cdea67d22c06c5efbfb3
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '937'
 ht-degree: 1%
 
 ---
@@ -170,6 +170,5 @@ Quando si carica un documento per la richiesta di compilazione automatica, consi
 Se non ricevi i suggerimenti previsti, la causa potrebbe essere una delle seguenti:
 
 * È necessario disporre di almeno un mese di dati della richiesta nel sistema prima che possa suggerire valori di campo da richieste precedenti.
-* Un elemento di dati della richiesta deve trovarsi nel sistema da più di 24 ore prima di poter essere suggerito in un’altra richiesta.
 * Potresti non aver seguito i guardrail di caricamento del documento durante il caricamento di un documento da cui estrarre i suggerimenti. Per ulteriori informazioni, vedi [Guardrail di caricamento documenti](#document-upload-guardrails) in questo articolo.
 
