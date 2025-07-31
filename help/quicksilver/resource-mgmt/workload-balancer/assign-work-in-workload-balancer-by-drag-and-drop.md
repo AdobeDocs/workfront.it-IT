@@ -6,14 +6,16 @@ description: È possibile assegnare gli elementi di lavoro utilizzando il Bilanc
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 69ac06c36440d9fbbf0c8c9f3e019374da2e2f91
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '991'
 ht-degree: 0%
 
 ---
 
 # Assegnare il lavoro nel Bilanciatore dei carichi di lavoro trascinandolo
+
+{{preview-fast-release-general}}
 
 È possibile assegnare gli elementi di lavoro utilizzando il Bilanciatore dei carichi di lavoro di Adobe Workfront trascinandoli per gli utenti corretti.
 
@@ -70,11 +72,15 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    È possibile assegnare il lavoro agli utenti utilizzando il Bilanciatore dei carichi di lavoro nell&#39;area Risorse, a livello di progetto o di team. Per ulteriori informazioni sulla posizione del Bilanciatore dei carichi di lavoro in Workfront, vedere [Individuare il Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-1. (Facoltativo) Vai all&#39;area **Lavoro non assegnato** e applica un filtro per visualizzare le attività e i problemi non assegnati agli utenti
+1. (Facoltativo) Vai all&#39;area **Lavoro non assegnato** e applica un filtro per visualizzare le attività, i problemi, <span class="preview">e le assegnazioni di ruolo</span> non assegnati agli utenti
 
    Oppure
 
    Passare all&#39;area **Lavoro assegnato** ed espandere il nome di un utente per visualizzare gli elementi di lavoro assegnati, se si desidera riassegnare i relativi elementi.
+
+   >[!NOTE]
+   >
+   ><span class="preview">Le assegnazioni di ruolo vengono visualizzate in elementi di lavoro nell&#39;area Lavoro non assegnato quando l&#39;impostazione Mostra assegnazioni di ruolo è abilitata. Per ulteriori informazioni, vedere [Personalizzare la visualizzazione](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) in [Navigare nel Bilanciatore dei carichi di lavoro](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).</span>
 
 1. (Condizionale) Nel Bilanciatore dei carichi di lavoro di un progetto, fai clic sull&#39;icona **Mostra tutti gli utenti** ![Mostra tutti gli utenti](assets/show-all-users-icon-project-workload-balancer.png) per visualizzare tutti gli utenti di Workfront.
 
@@ -84,27 +90,30 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    ![Utente nel progetto](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)
 
-
    >[!TIP]
    >
    >* L’opzione Mostra tutti gli utenti è disponibile solo nel Bilanciatore dei carichi di lavoro di un progetto.
    >* Utilizza i filtri per visualizzare solo gli utenti che ti interessano. Ad esempio, utilizza un filtro per visualizzare solo gli utenti dei tuoi team o gruppi.
 
-
-
-1. Fare clic sulla barra di un elemento di lavoro che indica la sequenza temporale pianificata o prevista e trascinarla sul nome di un utente nell&#39;area **Assegnato**.
+1. Fare clic sulla barra di un elemento di lavoro <span class="preview">o di un&#39;assegnazione di ruolo</span> che indica la sequenza temporale pianificata o prevista e trascinarla sul nome di un utente nell&#39;area **Assegnato**.
 
    L’utente su cui passi il cursore del mouse per rilasciare l’elemento di lavoro viene evidenziato.
+
+   <span class="preview">Quando si trascinano e si rilasciano assegnazioni di ruolo, l&#39;utente viene evidenziato in arancione se il ruolo corrente non corrisponde all&#39;assegnazione di ruolo. È comunque possibile assegnare il lavoro all&#39;utente quando i ruoli non corrispondono.</span>
 
    >[!TIP]
    >
    >Le ore pianificate per l’utente che stai passando il cursore vengono aggiornate in tempo reale con il numero di ore pianificate giornaliere dall’elemento di lavoro, per indicare quale potrebbe essere l’impatto dell’aggiunta di un nuovo elemento sulla loro allocazione complessiva.
 
-   ![Elimina elemento a assegnato](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
+   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
+   ![Elimina elemento da assegnare a un utente](assets/wb-drag-drop-role-or-task-to-user.png)
 
-1. Quando si è pronti, rilasciare l&#39;elemento di lavoro selezionato nella stessa riga del nome dell&#39;utente nell&#39;area assegnata. L&#39;articolo viene assegnato e le ore pianificate allocate vengono aggiornate per l&#39;utente con le nuove ore dell&#39;elemento di lavoro.
+   Immagine di esempio nell’ambiente di produzione:
+   ![Elimina elemento da assegnare a un utente](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
 
-   Se l&#39;elemento è stato assegnato a una mansione che l&#39;utente non può svolgere, l&#39;elemento viene visualizzato sotto il nome dell&#39;utente nell&#39;area Lavoro assegnato e rimane anche nell&#39;area Lavoro non assegnato per indicare che la mansione associata non è stata ancora sostituita da un utente.
+1. Quando sei pronto, rilascia l&#39;elemento di lavoro selezionato <span class="preview">o l&#39;assegnazione di ruolo</span> nella stessa riga del nome dell&#39;utente nell&#39;area assegnata. L&#39;articolo viene assegnato e le ore pianificate allocate vengono aggiornate per l&#39;utente con le nuove ore dell&#39;elemento di lavoro.
+
+   <span class="preview">Se l&#39;impostazione Mostra assegnazioni ruolo non è abilitata</span> e l&#39;elemento di lavoro è stato assegnato a una mansione che l&#39;utente non può svolgere, l&#39;elemento viene visualizzato sotto il nome dell&#39;utente nell&#39;area Lavoro assegnato. Inoltre, rimane nell’area Lavoro non assegnato per indicare che il ruolo lavorativo associato non è stato ancora sostituito da un utente.
 
    >[!TIP]
    >
