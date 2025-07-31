@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
+source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
 workflow-type: tm+mt
-source-wordcount: '2133'
+source-wordcount: '2241'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Gestire il layout della pagina record
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -264,11 +264,16 @@ Quando si aggiunge una pagina Record connessi a un record, tenere presente quant
 
 * È possibile aggiungere una pagina Record collegati a un record dopo aver connesso tipi di record o di oggetti al tipo di record dalla vista tabella di un tipo di record.
 
-* Non è possibile aggiungere una pagina Record connessi all&#39;area di anteprima di un record. <!--take this out when we release connected record pages to the record preview area-->
+* Nell&#39;ambiente di produzione non è possibile aggiungere una pagina Record connessi all&#39;area di anteprima di un record.
+
+  <span class="preview">È possibile aggiungere una pagina Record connessi all&#39;area di anteprima di un record nell&#39;ambiente di anteprima.</span>
 
 * Nelle pagine Record collegati vengono visualizzati solo gli oggetti o i record collegati di un oggetto o di un tipo di record in una visualizzazione tabella. La pagina non visualizza tutti i record di quel tipo nella vista tabella.
 
-* Dopo aver aggiunto una pagina Record connessi a un record, la scheda della pagina è visibile dall&#39;area di anteprima del record, ma è vuota. È necessario passare alla pagina intera per visualizzare la vista tabella per il record connesso. &lt;!—questo cambierà con il rilascio delle pagine collegate all&#39;area di anteprima— controllare e togliere la liberatoria—>
+* A seconda dell’ambiente utilizzato, potresti notare quanto segue:
+
+   * Nell&#39;ambiente di produzione, dopo aver aggiunto una pagina Record connessi a un record, la scheda della pagina è visibile dall&#39;area di anteprima del record, ma è vuota. È necessario passare alla pagina intera per visualizzare la vista tabella per il record connesso.
+   * <span class="preview">Nell&#39;ambiente di anteprima, la pagina Record connessi è visibile sia dall&#39;area di anteprima del record che dalla scheda separata del browser.</span>
 
 * È possibile aggiungere pagine Record collegati per i tipi di oggetto o record connessi seguenti:
 
@@ -281,18 +286,11 @@ Quando si aggiunge una pagina Record connessi a un record, tenere presente quant
 
 Per aggiungere una pagina Record connessi:
 
-<!--replace the first 2 steps with these steps when we release connected record page to the record preview area, if this goes both to Preview and Prod: 
+1. Fare clic sul nome del record per aprirlo.
+1. Fare clic su **Aggiungi pagina** da una delle seguenti aree:
 
-1. Click the name of the record to open it. 
-1. Click **Add page** from one of the following areas: 
-
-   * The record's preview window
-   * The record's details page, after clicking the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.  
-
--->
-
-1. Nella visualizzazione della pagina di un record fare clic sul nome di un record per aprirlo, quindi fare clic sull&#39;icona **Apri in una nuova scheda** ![Apri i dettagli in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro della pagina di anteprima.
-1. Fare clic su **Aggiungi pagina**.
+   * <span class="preview">Finestra di anteprima del record</span>
+   * Pagina dei dettagli del record, dopo aver fatto clic sull&#39;icona **Apri in una nuova scheda** ![Apri i dettagli in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro della pagina di anteprima.
 
    Viene visualizzata la casella **Crea pagina**.
 
@@ -306,8 +304,6 @@ La visualizzazione tabella del tipo di record selezionato viene visualizzata nel
 Tutti i campi del record connesso vengono visualizzati nella vista a tabella della scheda del record connesso.
 
    Per impostazione predefinita, vengono visualizzati i primi cinque campi della tabella record connessa. Per impostazione predefinita, non viene visualizzato alcun campo di ricerca.
-
-   <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
    ![Visualizzazione tabella connessa al pubblico nei dettagli della campagna](assets/audience-connected-table-view-under-campaign-details-page.png)
 
