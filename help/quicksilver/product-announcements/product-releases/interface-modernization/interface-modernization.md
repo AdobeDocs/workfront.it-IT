@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
+source-git-commit: db0a8e78454ffb5b85865265a273e21e99022f9f
 workflow-type: tm+mt
-source-wordcount: '6162'
+source-wordcount: '6262'
 ht-degree: 0%
 
 ---
@@ -84,15 +84,15 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 Per informazioni, vedere [Gestione del team di progetto](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
 
-<!--## Updated experience when editing a Queue Topic in a project or template
+## Esperienza aggiornata durante la modifica di un argomento coda in un progetto o modello
 
-**Preview release: July 31, 2025; Production release: August 7, 2025**
+**Versione di anteprima: 31 luglio 2025; versione di produzione: 31 luglio 2025**
 
-We have updated the look and feel of a Queue Topic when editing it on a template. The Queue Topic editing page now matches the design of other areas of Workfront.
+È stato aggiornato l’aspetto di un argomento della coda quando lo si modifica su un modello. La pagina di modifica Argomento coda ora corrisponde alla progettazione di altre aree di Workfront.
 
-A small functionality change has been applied to the Routing Rules list. To edit A Queue Topic, select the Queue Topic from the list and click the Edit icon. You are no longer directed to the Queue Topic details page before you can edit.
+Una piccola modifica della funzionalità è stata applicata all&#39;elenco Regole di instradamento. Per modificare un argomento della coda, selezionare l&#39;argomento dalla lista e fare clic sull&#39;icona Modifica. Non si viene più indirizzati alla pagina dei dettagli Argomento coda prima di poter modificare.
 
-For more information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).-->
+Per ulteriori informazioni, vedere [Creare argomenti coda](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 ## Aggiornamenti dell’interfaccia per i record fatturazione
 
