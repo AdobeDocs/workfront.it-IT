@@ -5,7 +5,7 @@ description: Oltre a impostare le entrate e a tenere traccia delle spese, è pos
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: fc82ce4b5abb2cd7411d62ac8bb428bc5337386f
+source-git-commit: ec6ddb50d6b9137837c8031b22f213cd6ada70ff
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 1%
@@ -121,7 +121,7 @@ Quando si pianifica l&#39;utilizzo dei record di fatturazione, tenere presente q
 
 Puoi includere le ore registrate per attività, problemi o il progetto nei record di fatturazione.
 
-Se l’utente che registra le ore o la sua mansione principale è associato a una tariffa di fatturazione per ora, i ricavi derivanti da queste ore vengono aggiunti al record di fatturazione.
+Se l’utente che registra le ore o il suo ruolo lavorativo principale è associato a una tariffa di fatturazione ad ore, i ricavi derivanti da queste ore vengono aggiunti al record di fatturazione.
 
 * [Quali ore possono essere aggiunte a un record di fatturazione](#what-hours-can-be-added-to-a-billing-record)
 * [Aggiungi ore a un record fatturazione](#add-hours-to-a-billing-record)
@@ -135,17 +135,17 @@ Puoi aggiungere ore a una fatturazione quando sono soddisfatte le seguenti condi
 
   Per ulteriori informazioni, vedere l&#39;articolo [Gestione dei tipi di lavoro](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
-* Tutte le ore registrate per i problemi o il progetto possono essere aggiunte a una fatturazione se all&#39;utente che registra l&#39;ora è associata una tariffa di fatturazione ad ore o la sua mansione principale.
+* Tutte le ore registrate per i problemi o il progetto possono essere aggiunte a una fatturazione se all&#39;utente che registra l&#39;ora è associata una tariffa Fatturazione ad Ore o la sua mansione principale.
 * Se le ore sono registrate su un&#39;attività, l&#39;attività deve avere il seguente Tipo di Reddito:
 
    * Il Tipo di Reddito non può essere impostato su Non Fatturabile.
    * Se il tipo di retribuzione è impostato su Ore utente, l’utente che registra l’ora deve avere una tariffa di fatturazione ad ore impostata nel proprio profilo.
-   * Se il Tipo di Reddito è impostato su Ore Ruolo, il Ruolo Principale dell&#39;utente che registra l&#39;ora deve avere una tariffa di Fatturazione ad Ore.
+   * Se il Tipo di Reddito è impostato su Ore Ruolo, il ruolo principale dell&#39;utente che registra l&#39;ora deve avere una tariffa Fatturazione ad Ore.
 
      >[!NOTE]
      >
      >È possibile sostituire le tariffe di fatturazione per le mansioni a livello di progetto.\
-     >Per ulteriori informazioni, vedere la sezione Ignorare le tariffe di fatturazione dei ruoli a livello di progetto nell&#39;articolo [Panoramica sull&#39;override delle tariffe di fatturazione dei ruoli e sul calcolo dei ricavi in un progetto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+     >Per ulteriori informazioni, vedere la sezione &quot;Override delle tariffe di fatturazione dei ruoli a livello di progetto&quot; nell&#39;articolo [Panoramica dell&#39;override delle tariffe di fatturazione dei ruoli e del calcolo dei ricavi su un progetto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 * Se l&#39;opzione Richiedi l&#39;approvazione del tempo per questo progetto è selezionata in Impostazioni progetto, il proprietario del progetto deve approvare le ore registrate.\
   Per ulteriori informazioni, vedere [Richiedere l&#39;approvazione del tempo per un progetto](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md).
@@ -168,7 +168,7 @@ Puoi aggiungere ore a una fatturazione quando sono soddisfatte le seguenti condi
 
 1. (Facoltativo) Fai clic su **Dettagli record fatturazione** per esaminare gli importi di **Ore fatturabili** e **Totale record fatturazione** e il totale dei record fatturazione nell&#39;intestazione dei record fatturazione.
 
-### Includi spese fatturabili in un record di fatturazione {#include-billable-expenses-in-a-billing-record}
+### Includi spese fatturabili in un record fatturazione {#include-billable-expenses-in-a-billing-record}
 
 Se si aggiungono spese fatturabili al record fatturazione, assicurarsi che le spese relative alle attività e al progetto siano contrassegnate come fatturabili. Le spese non contrassegnate come fatturabili non sono disponibili per l&#39;aggiunta in un record di fatturazione. Per ulteriori informazioni sull&#39;aggiunta delle spese, vedere l&#39;articolo [Gestione delle spese del progetto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
@@ -190,9 +190,9 @@ Per aggiungere spese fatturabili a un record fatturazione:
 
 1. (Facoltativo) Fai clic su **Dettagli record fatturazione** per esaminare gli importi **Spese fatturabili** e **Totale record fatturazione** e il totale dei record fatturazione nell&#39;intestazione dei record fatturazione.
 
-### Includi retribuzioni fisse in un record di fatturazione {#include-fixed-revenues-in-a-billing-record}
+### Includi i ricavi fissi in un record di fatturazione {#include-fixed-revenues-in-a-billing-record}
 
-È possibile aggiungere i Redditi Fissi ai record di fatturazione se sono disponibili attività con questo tipo di retribuzione. Nessun altro tipo di attività o di ricavi progetto è disponibile per l&#39;aggiunta in un record di fatturazione. Per ulteriori informazioni sui tipi di ricavi, vedere la sezione Panoramica fatturazione e ricavi nell&#39;articolo [Panoramica su fatturazione e ricavi](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+È possibile aggiungere i ricavi fissi ai record di fatturazione se sono disponibili attività con ricavi fissi. Nessun altro tipo di attività o di ricavi progetto è disponibile per l&#39;aggiunta in un record di fatturazione. Per ulteriori informazioni sui tipi di ricavi, vedere la sezione &quot;Panoramica sulla fatturazione e sui ricavi&quot; nell&#39;articolo [Panoramica sulla fatturazione e sui ricavi](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 {{step1-to-projects}}
 
@@ -204,7 +204,7 @@ Per aggiungere spese fatturabili a un record fatturazione:
 
    >[!NOTE]
    >
-   >Se le attività contengono importi di ricavi ma non sono contrassegnati come Fissi, il pulsante **Aggiungi retribuzione fissa** non verrà visualizzato.
+   >Se le attività contengono importi di ricavi ma non sono contrassegnati come fissi, il pulsante **Aggiungi ricavi fissi** non verrà visualizzato.
 
 1. Selezionare le attività di cui si desidera includere i ricavi fissi nel record fatturazione, quindi fare clic su **Aggiungi attività**.  L&#39;importo di **retribuzione fissa** delle attività viene aggiunto come importo di **retribuzione fatturabile** al **totale record fatturazione**.
 
@@ -238,11 +238,11 @@ Dopo aver creato un record di fatturazione e aver aggiunto ad esso ore, spese e 
 
    I campi seguenti non sono disponibili per la modifica:
 
-   * **Ore fatturabili:** il totale delle retribuzioni effettive delle ore incluse nel record di fatturazione. Per ulteriori informazioni, vedere la seguente sezione in questo articolo: [Includere le ore fatturabili in un record di fatturazione](#include-billable-hours-in-a-billing-record).
+   * **Ore fatturabili:** il totale delle retribuzioni effettive delle ore incluse nel record di fatturazione. Per ulteriori informazioni, vedere la seguente sezione in questo articolo: [Includere ore fatturabili in un record di fatturazione](#include-billable-hours-in-a-billing-record).
 
    * **Spese fatturabili**: il totale dell&#39;importo effettivo delle spese fatturabili incluse nel record di fatturazione. Per ulteriori informazioni, vedere la seguente sezione in questo articolo: [Includere le spese fatturabili in un record di fatturazione](#include-billable-expenses-in-a-billing-record).
 
-   * **Retribuzioni fatturabili**: il totale delle retribuzioni fisse delle attività incluse nel record di fatturazione. Per ulteriori informazioni, vedere la sezione seguente in questo articolo: [Includere i ricavi fissi in un record di fatturazione](#include-fixed-revenues-in-a-billing-record).
+   * **Retribuzioni fatturabili**: il totale delle retribuzioni fisse delle attività incluse nel record di fatturazione. Per ulteriori informazioni, vedere la seguente sezione in questo articolo: [Includere i ricavi fissi in un record di fatturazione](#include-fixed-revenues-in-a-billing-record).
 
    * **Totale record fatturazione**: il totale di tutti gli importi fatturabili. Viene calcolata con la seguente formula:
 
