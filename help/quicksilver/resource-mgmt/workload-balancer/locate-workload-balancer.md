@@ -3,18 +3,20 @@ product-area: resource-management
 keywords: lavoro,team,personale,risorse
 navigation-topic: the-workload-balancer
 title: Individuare il Bilanciatore dei carichi di lavoro
-description: È possibile utilizzare il Bilanciatore dei carichi di lavoro per pianificare le risorse per il lavoro o esaminarne la disponibilità e le allocazioni correnti.
+description: Il Bilanciatore dei carichi di lavoro è disponibile per più progetti nell’area Risorse, per un team, per un progetto e per un utente.
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: a63c53652491a25b909b7563990d4375d8f5885f
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 1%
+source-wordcount: '841'
+ht-degree: 0%
 
 ---
 
 # Individuare il Bilanciatore dei carichi di lavoro
+
+{{preview-fast-release-general}}
 
 È possibile utilizzare il Bilanciatore dei carichi di lavoro per pianificare le risorse per il lavoro o esaminarne la disponibilità e le allocazioni correnti.
 
@@ -55,7 +57,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td><p>Nuovo: Standard</p>
        <p>oppure</p>
        <p>Corrente: piano, quando si utilizza il Bilanciatore dei carichi di lavoro nell'area Risorse;</br>
-       Utilizzare il Bilanciatore dei carichi di lavoro di un team o di un progetto</p></td>
+       Utilizzare il Bilanciatore dei carichi di lavoro di un team o di un progetto</p>
+       <p><span class="preview">Nota: tutti gli utenti possono accedere al Bilanciatore dei carichi di lavoro nei propri profili utente, senza alcun requisito di licenza.</span></p></td>
   </tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Accesso di visualizzazione o superiore ai seguenti elementi:</p> 
@@ -137,6 +140,27 @@ Viene visualizzata la pagina del team predefinito.
      >
      >Per visualizzare tutti gli utenti nel sistema anziché solo quelli del progetto (nell’area Lavoro assegnato), abilita l’opzione Mostra tutti gli utenti. Per informazioni, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../workload-balancer/navigate-the-workload-balancer.md).
 
+<div class="preview">
+
+### Accedere al Bilanciatore dei carichi di lavoro per un utente
+
+Tutti gli utenti possono visualizzare il Bilanciatore dei carichi di lavoro sui propri profili. I dati del Bilanciatore dei carichi di lavoro per un utente sono di sola lettura. Non è possibile assegnare lavoro, annullare l&#39;assegnazione del lavoro o adeguare le allocazioni a livello di utente.
+
+Tutte le impostazioni di visualizzazione sono disponibili per il Bilanciatore dei carichi di lavoro di un utente. Per ulteriori informazioni, vedere [Navigare nel Bilanciatore dei carichi di lavoro](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+
+{{step1-click-profile-pic}}
+
+1. Fai clic su **Bilanciatore dei carichi di lavoro** nel pannello a sinistra.
+
+   Viene visualizzato il Bilanciatore dei carichi di lavoro per l’utente.
+
+   ![Bilanciatore dei carichi di lavoro per un utente](assets/workload-balancer-user.png)
+
+   Il Bilanciatore dei carichi di lavoro di un utente visualizza quanto segue per impostazione predefinita:
+
+   * **Lavoro assegnato**: le attività e i problemi assegnati all&#39;utente specifico.
+
+</div>
 
 ## Aggiungere il Bilanciatore dei carichi di lavoro a una sezione personalizzata
 

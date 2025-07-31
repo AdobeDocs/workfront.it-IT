@@ -6,14 +6,16 @@ description: Senza l'accesso o le autorizzazioni corrette, potrebbe non essere p
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 78d73d0d7bd0ffc00ae1afed0adb324501e0c310
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
 
 # Accesso necessario per gestire le risorse nel Bilanciatore dei carichi di lavoro
+
+{{preview-fast-release-general}}
 
 Senza l&#39;accesso o le autorizzazioni corrette, potrebbe non essere possibile visualizzare o gestire le assegnazioni di lavoro nel Bilanciatore dei carichi di lavoro.
 
@@ -81,6 +83,8 @@ Per visualizzare il Bilanciatore dei carichi di lavoro è necessario disporre de
 </table>
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+<span class="preview">Tutti gli utenti hanno accesso alla visualizzazione del Bilanciatore dei carichi di lavoro sui propri profili. Questo non è limitato dalla licenza o dal livello di accesso. Il Bilanciatore dei carichi di lavoro in un profilo utente è di sola lettura e non è possibile modificare assegnazioni e allocazioni.</span>
 
 ## Accesso necessario per gestire le assegnazioni nel Bilanciatore dei carichi di lavoro
 
