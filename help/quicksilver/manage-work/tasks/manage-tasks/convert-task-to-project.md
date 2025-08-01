@@ -6,9 +6,9 @@ description: Quando il completamento di un'attività di un progetto richiede una
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
+source-git-commit: 0c45c768be1dda579e507f5f6ff4b127021a5f73
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1148'
 ht-degree: 2%
 
 ---
@@ -53,7 +53,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 * Tutte le sotto-attività, le Issues e le Note vengono riportate nel nuovo progetto.
 * Documenti, versioni dei documenti e bozze vengono spostati nel nuovo progetto.
 * Vengono mantenuti lo stato e la percentuale di completamento di tutte le attività secondarie e dei problemi.
-* Gli utenti condivisi dell’attività diventano utenti condivisi nel progetto.
+* Gli assegnatari delle attività e l’utente che converte l’attività nel progetto diventano utenti condivisi nel progetto.
 * La data di inizio del progetto viene impostata sulla data di inizio dell&#39;attività.
 * Nella tabella seguente sono elencate le informazioni relative al progetto e l&#39;eventuale trasferimento dal modello o dall&#39;attività:
 

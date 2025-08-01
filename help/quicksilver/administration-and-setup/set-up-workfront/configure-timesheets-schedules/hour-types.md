@@ -9,9 +9,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 0c45c768be1dda579e507f5f6ff4b127021a5f73
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1129'
 ht-degree: 1%
 
 ---
@@ -23,13 +23,13 @@ ht-degree: 1%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 **Linked to Creating Billing Record-->
 
-<div class="preview">
+<!--<div class="preview">
 
-Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti dopo una settimana dalla versione di anteprima.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
-Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
-</div>
+</div>-->
 
 I tipi di ore sono etichette utilizzate per definire le ore inserite. È possibile associare i tipi di ore alle ore inserite.
 
@@ -69,9 +69,8 @@ Per informazioni sulle ore di registrazione e sulla loro associazione ai tipi di
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Nuovo: Standard</p>
-   <p>Oppure</p>
-   <p>Corrente: Piano</p></td> 
+   <td> <p>Standard o piano</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Livello di accesso</td> 
@@ -131,7 +130,7 @@ Per creare i tipi di lavoro:
       <td> <p>Nel menu a discesa <strong>Ambito</strong>, selezionare se il tipo di ora è generale o specifico del progetto.</p> <p>I tipi di lavoro generali sono visibili solo nelle schede orario e non possono essere associati a progetti, attività o problemi.</p> <p><b>IMPORTANTE</b></p><p> Se si dispone di un Tipo di Ora personalizzato che è [!UICONTROL Specifico Progetto] e si modifica tale Tipo in [!UICONTROL Generale], tutte le Attività, i Problemi e le Ore di Progetto esistenti vengono impostate sui relativi tipi predefiniti di sistema.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="preview">[!UICONTROL Count as Revenue]</span></td> 
+      <td role="rowheader">[!UICONTROL Count as Revenue]</td> 
       <td><p>Selezionare questa opzione se si desidera che la voce relativa alle ore associata a questo tipo di ore influisca sui calcoli dei ricavi.</p>
       <p>Il tempo di malattia e il tempo di vacanza non possono essere conteggiati come ricavi.</p>
       <p><b>NOTA</b></p>
@@ -141,7 +140,7 @@ Per creare i tipi di lavoro:
     </tbody> 
    </table>
 
-1. Fai clic su **[!UICONTROL Crea tipo di lavoro]** <span class="preview"> o **Salva**. </span>
+1. Fai clic su **Salva**.
 
    Il tipo di ora viene aggiunto al sistema Workfront e attivato per impostazione predefinita.
 
@@ -178,7 +177,7 @@ In qualità di amministratore [!DNL Workfront], puoi modificare i tipi di lavoro
       <td> <p>Nel menu a discesa <strong>Ambito</strong>, selezionare se il tipo di ora è generale o specifico del progetto.</p> <p>I tipi di lavoro generali sono visibili solo nelle schede orario e non possono essere associati a progetti, attività o problemi.</p> <p><b>IMPORTANTE</b></p> <p>Se si dispone di un Tipo di Ora personalizzato che è [!UICONTROL Specifico Progetto] e si modifica tale Tipo in [!UICONTROL Generale], tutte le Attività, i Problemi e le Ore di Progetto esistenti vengono impostate sui relativi tipi predefiniti di sistema.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="preview">[!UICONTROL Count as Revenue]</span></td> 
+      <td role="rowheader">[!UICONTROL Count as Revenue]</td> 
       <td><p>Selezionare questa opzione se si desidera che la voce relativa alle ore associata a questo tipo di ore influisca sui calcoli dei ricavi.</p>
       <p>Il tempo di malattia e il tempo di vacanza non possono essere conteggiati come ricavi.</p>
       <p><b>NOTA</b></p>
@@ -189,7 +188,7 @@ In qualità di amministratore [!DNL Workfront], puoi modificare i tipi di lavoro
    </table>
 
 
-1. Fai clic su **[!UICONTROL Salva modifiche]** <span class="preview"> o **Salva**. </span>
+1. Fai clic su **Salva**.
 
    Le modifiche vengono salvate e il tipo di ora viene modificato.
 
