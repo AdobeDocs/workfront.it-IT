@@ -5,10 +5,10 @@ description: È possibile riepilogare rapidamente gli elementi di lavoro e i doc
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
-source-git-commit: 1b11eb212f8eb980361cfd22a07ac17be71d4472
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 1%
+source-wordcount: '182'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ L’Assistente AI può aiutarti a individuare progetti, attività e problemi in 
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,13 +28,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr> 
    <td role="rowheader">piano Adobe Workfront</td> 
    <td><p>Nuovo: Qualsiasi</p>
-       <p>oppure</p>
        <p>Corrente: non disponibile</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td><p>Nuovo: Standard</p>
-       <p>oppure</p>
        <p>Corrente: non disponibile</p></td>
   </tr> 
  </tbody> 
@@ -42,20 +40,23 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-
++++
 
 ## Individua elementi di lavoro
 
 1. Fai clic sull&#39;icona **Assistente AI** ![Icona Assistente AI](assets/ai-assistant-icon.png) nell&#39;angolo superiore destro dello schermo.
-1. Immetti un prompt come
+1. Immetti un prompt come:
 
-   * Trova le mie attività in scadenza questa settimana
-   * Quali sono i problemi nel progetto &quot;Campagna di primavera&quot;
-   * Trova progetti nello stato Attuale
+   * *Trova le mie attività in scadenza questa settimana*
+   * *Quali problemi si verificano nel progetto &quot;Campagna primaverile&quot;*
+   * *Trova progetti nello stato corrente*
 
-   L’Assistente AI può impiegare alcuni minuti per individuare le informazioni, a seconda delle dimensioni o della complessità della richiesta e del numero di record da cercare.
-1. Visualizza la risposta nel pannello Assistente AI.
-1. (Facoltativo) Per passare all’elemento di lavoro, fai clic sul collegamento nel pannello Assistente IA.
+   >[!NOTE]
+   >
+   > L’Assistente AI può impiegare alcuni minuti per individuare le informazioni, a seconda delle dimensioni o della complessità della richiesta e del numero di record da cercare.
+1. Visualizza la risposta nel pannello **Assistente AI**.
+1. (Facoltativo) Per passare all&#39;elemento di lavoro, fare clic sul collegamento nel pannello **Assistente AI**.
+
 
 <!--
 

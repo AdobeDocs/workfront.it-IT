@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Modificare un rapporto
+title: Modificare un rapporto in un dashboard di Canvas
 description: Puoi modificare un rapporto del dashboard Area di lavoro dopo averlo creato.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
 
-# Modificare un rapporto
+# Modificare un rapporto in un dashboard di Canvas
 
 >[!IMPORTANT]
 >
 >La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Per ulteriori informazioni, vedere [Informazioni sulla versione beta delle dashboard di Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-Dopo aver aggiunto i rapporti a una dashboard, è possibile modificare le informazioni del rapporto per modificare i dati visualizzati nella dashboard.
+Dopo aver aggiunto i rapporti a un dashboard di Canvas, puoi modificare le informazioni del rapporto per modificare i dati visualizzati nel dashboard.
 
 Eventuali modifiche apportate a un rapporto avranno un impatto su tutti gli utenti che hanno accesso al dashboard che lo contiene.
 

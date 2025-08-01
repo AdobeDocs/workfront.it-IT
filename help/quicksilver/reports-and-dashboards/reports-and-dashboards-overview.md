@@ -8,7 +8,7 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 618c9dda-ad7d-4a05-960b-3ad14c14d605
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 4%
@@ -24,6 +24,7 @@ Puoi organizzare le informazioni nei rapporti in Adobe Workfront. Puoi inserire 
 
 Per ulteriori informazioni sui rapporti e sulle dashboard, vedi gli articoli nelle seguenti sottosezioni:
 
+* [Dashboard dell’area di lavoro](../reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
 * [Rapporti](../reports-and-dashboards/reports/reports-overview.md)
 * [Dashboard](../reports-and-dashboards/dashboards/dashboards-overview.md)
-* [Dashboard dell’area di lavoro](../reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+

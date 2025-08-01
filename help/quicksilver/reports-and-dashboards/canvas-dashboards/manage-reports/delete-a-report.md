@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Eliminare un rapporto
+title: Eliminare un rapporto in un dashboard Canvas
 description: Puoi eliminare un rapporto da un dashboard di Canvas.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
 
-# Eliminare un rapporto
+# Eliminare un rapporto in un dashboard Canvas
 
 >[!IMPORTANT]
 >
 >La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Per ulteriori informazioni, vedere [Informazioni sulla versione beta delle dashboard di Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-Dopo aver creato una dashboard e avervi aggiunto i rapporti, puoi eliminare i rapporti meno recenti che non sono più applicabili a quella dashboard specifica.
+Dopo aver creato un dashboard di Canvas e aver aggiunto i relativi rapporti, puoi eliminare i rapporti meno recenti che non sono più applicabili per quel dashboard specifico.
 
 L’eliminazione di un rapporto è permanente. Se devi aggiungere nuovamente un rapporto dopo che è stato eliminato, dovrai ricrearlo.
 

@@ -1,26 +1,26 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Modificare i filtri dei rapporti
-description: Puoi modificare i filtri dei rapporti dopo averli applicati a una dashboard Area di lavoro.
+title: Modificare i filtri dei rapporti in un dashboard di Canvas
+description: Puoi modificare i filtri dei rapporti dopo averli applicati a un dashboard Area di lavoro.
 author: Courtney and Jenny
 feature: Reports and Dashboards
 hidefromtoc: true
 hide: true
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '244'
 ht-degree: 1%
 
 ---
 
-# Modificare i filtri dei rapporti
+# Modificare i filtri dei rapporti in un dashboard di Canvas
 
 >[!IMPORTANT]
 >
 >La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Per ulteriori informazioni, vedere [Informazioni sulla versione beta delle dashboard di Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-Puoi modificare i filtri dei rapporti una volta applicati a un dashboard Area di lavoro per aggiornare i dati visualizzati durante l’avanzamento di un progetto.
+Puoi modificare i filtri dei rapporti una volta applicati a un dashboard di Canvas per aggiornare i dati visualizzati durante l’avanzamento di un progetto.
 
 +++ Espandere per visualizzare i requisiti di accesso.
 

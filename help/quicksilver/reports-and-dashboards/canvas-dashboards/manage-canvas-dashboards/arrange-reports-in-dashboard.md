@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Disporre i rapporti in un dashboard
+title: Disporre i rapporti in un dashboard Area di lavoro
 description: Puoi organizzare la visualizzazione dei rapporti in un dashboard di Canvas dopo che sono stati aggiunti a uno.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
 
-# Disporre i rapporti in un dashboard
+# Disporre i rapporti in un dashboard Area di lavoro
 
 >[!IMPORTANT]
 >
 >La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Per ulteriori informazioni, vedere [Informazioni sulla versione beta delle dashboard di Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-Una volta aggiunto un rapporto a una dashboard, questo viene visualizzato come widget del rapporto nella dashboard in modo da poter visualizzare rapidamente i dati a colpo d’occhio. Dopo aver aggiunto più rapporti, si consiglia di ridisporre le dimensioni e l’ordine di ciascun widget per visualizzare i dati della dashboard in modo più efficiente.
+Una volta aggiunto un rapporto a un dashboard di Canvas, questo viene visualizzato come widget di rapporto nel dashboard in modo da poterne visualizzare rapidamente i dati. Dopo aver aggiunto più rapporti, si consiglia di ridisporre le dimensioni e l’ordine di ciascun widget per visualizzare i dati della dashboard in modo più efficiente.
 
 +++ Espandere per visualizzare i requisiti di accesso.
 

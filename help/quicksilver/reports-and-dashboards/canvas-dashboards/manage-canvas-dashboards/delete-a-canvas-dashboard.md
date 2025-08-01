@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Eliminare una dashboard
+title: Eliminare un dashboard Canvas
 description: Puoi organizzare la visualizzazione dei rapporti in un dashboard di Canvas dopo che sono stati aggiunti a uno.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
 
-# Eliminare una dashboard
+# Eliminare un dashboard Canvas
 
 >[!IMPORTANT]
 >
 >La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Per ulteriori informazioni, vedere [Informazioni sulla versione beta delle dashboard di Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-Una volta che non hai più bisogno di un dashboard Canvas, puoi rimuoverlo da Adobe Workfront.
+Una volta che non è più necessario un dashboard Canvas, puoi rimuoverlo da Adobe Workfront.
 
 
 +++ Espandere per visualizzare i requisiti di accesso.
