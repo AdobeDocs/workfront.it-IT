@@ -5,9 +5,9 @@ description: Puoi utilizzare una scorecard per misurare il livello di allineamen
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1208'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Per applicare una scorecard a un progetto:
 
 1. Seleziona una scorecard dal menu a discesa.
 
-   ![Nuova scorecard](assets/new-scorecard.png)
+   <!--![New scorecard](assets/new-scorecard.png)-->
 
 1. Immetti una risposta per tutte le domande nella scorecard.
 
@@ -164,7 +164,7 @@ Se si dispone dei diritti di Contribuisci al progetto, è possibile visualizzare
 
    Il punteggio di allineamento si trova nel Riepilogo caso di business, nel valore **Allineato**.
 
-   ![Punteggio di allineamento in un progetto](assets/alignment-score-on-a-project.png)
+   <!--![Alignment score on a project](assets/alignment-score-on-a-project.png)-->
 
 ### Visualizzare i punteggi di allineamento del progetto e del portfolio in Portfolio Optimizer
 
@@ -175,7 +175,7 @@ Per ulteriori informazioni sulle informazioni visualizzate in Portfolio Optimize
 * [Individua il punteggio di allineamento del progetto in Portfolio Optimizer](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
 * [Individuare il punteggio di allineamento del portfolio in Portfolio Optimizer](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
-  ![Punteggio di allineamento in Portfolio Optimizer](assets/alignment-score-in-portfolio-optimizer.png)
+  <!--![Alignment score in Portfolio Optimizer](assets/alignment-score-in-portfolio-optimizer.png)-->
 
 #### Individua il punteggio di allineamento del progetto in Portfolio Optimizer {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 

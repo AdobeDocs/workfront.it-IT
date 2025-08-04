@@ -5,9 +5,9 @@ description: Come parte della pianificazione delle risorse, è possibile utilizz
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,7 @@ Prima di iniziare, è necessario effettuare le seguenti operazioni:
 
    * Se hai appena pubblicato le informazioni dalla Pianificazione scenario, seleziona Pianificazione scenario in **Scegli le ore da utilizzare per calcolare il costo della manodopera preventivato del progetto** nel campo Budget risorse, quindi fai clic su **Scegli**.
 
-     ![Caso di studio in Pianificazione risorse con pulsante Scegli](assets/business-case-sp-selected-with-choose-button-350x121.png)
+     <!--![Business case in Resource Planner with Choose button](assets/business-case-sp-selected-with-choose-button-350x121.png)-->
 
    * Se la Programmazione delle risorse è stata precedentemente selezionata per la definizione del budget delle risorse per il progetto, fare clic su **Modifica** > **Pianificazione scenario** > **Scegli**.
 

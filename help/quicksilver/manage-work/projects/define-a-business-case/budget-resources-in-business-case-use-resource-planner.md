@@ -5,9 +5,9 @@ description: Come parte della pianificazione delle risorse, è possibile utilizz
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1229'
 ht-degree: 0%
 
 ---
@@ -108,11 +108,11 @@ Per applicare i gruppi di risorse e le risorse del progetto di budget nel Busine
 
    * Selezionare Pianificazione risorse nel campo **Scegliere le ore da utilizzare per calcolare il costo manodopera preventivato del progetto**, quindi fare clic su **Scegli > Modifica budget risorse**.
 
-     ![Caso di business in Pianificazione risorse](assets/business-case-rp-selected-with-choose-button-350x120.png)
+     <!--![Business case in Resource Planner](assets/business-case-rp-selected-with-choose-button-350x120.png)-->
 
    * Se la Pianificazione scenario è stata selezionata per la definizione del budget delle risorse per il progetto, fare clic su **Modifica** > **Modifica budget risorse**.
 
-     ![Caso di business in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
+     <!--![Business case in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)-->
 
    In questo modo vengono utilizzate le ore preventivate del progetto per calcolare il costo manodopera preventivato per il progetto.
 
@@ -138,7 +138,7 @@ Per applicare i gruppi di risorse e le risorse del progetto di budget nel Busine
 
    Per ulteriori informazioni sulla Programmazione delle risorse, vedere [Panoramica sulla programmazione delle risorse](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-   ![BC_resource_budgeting_area.png](assets/bc-resource-budgeting-area-350x276.png)
+   <!--![BC_resource_budgeting_area.png](assets/bc-resource-budgeting-area-350x276.png)-->
 
 1. (Facoltativo e condizionale) Espandere i ruoli per visualizzare gli utenti associati.
 

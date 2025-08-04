@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: db0a8e78454ffb5b85865265a273e21e99022f9f
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '6262'
+source-wordcount: '6319'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,16 @@ La pagina Aggiornamento utenti per SSO è stata aggiornata con una progettazione
 Per visualizzare questa modifica, vai a Configurazione > Sistema > Aggiorna utenti per l’SSO
 
 ## Progetti
+
+## Aggiornamenti dell’interfaccia per un caso di business di progetto
+
+**Anteprima versione: 4 agosto 2025; produzione versione: da annunciare**
+
+Abbiamo aggiornato l&#39;aspetto del Business Case del progetto per adattarlo ad altre aree dell&#39;applicazione.
+
+Per visualizzare questa modifica, vai a Progetti > Seleziona un progetto > Caso di business.
+
+Per ulteriori informazioni, vedere [Creare un caso di business per un progetto](/help/quicksilver/manage-work/projects/define-a-business-case/create-business-case.md).
 
 ## Nuovo aspetto della sezione Dettagli coda di un modello
 

@@ -6,9 +6,9 @@ description: Questo articolo descrive le aree del Business Case di un progetto.
 author: Alina
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
-source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1553'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ Le ore preventivate per le risorse del progetto vengono visualizzate nell&#39;ar
 
 Per ulteriori informazioni sulle risorse di budget per il progetto nel Business Case, vedere [Risorse di budget nel Business Case](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-![Impostazione budget risorse caso di business](assets/business-case-sp-selected-with-choose-button-350x121.png)
+<!--![Business case resource budgeting](assets/business-case-sp-selected-with-choose-button-350x121.png)-->
 
 Quando si visualizza la sezione Budget risorse del caso aziendale, tenere presente quanto segue:
 
