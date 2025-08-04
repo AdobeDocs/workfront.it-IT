@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '4065'
+source-wordcount: '4064'
 ht-degree: 0%
 
 ---
@@ -50,12 +50,13 @@ Per ulteriori informazioni sul tipo di ore che è possibile accedere a Workfront
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Nuovo:</p>
+   <td> 
    <ul><li> Chiaro o superiore per registrare le ore per un'attività, un problema o le ore generali su una scheda orario</li>
    <li>Standard per registrare le ore nei progetti</li></ul>
 
-<p>Corrente: 
-   <ul><li>Revisione o successiva per registrare le ore generali in una scheda orario</li>
+<p>Oppure: </p>
+
+<ul><li>Revisione o successiva per registrare le ore generali in una scheda orario</li>
    <li>Lavoro o superiore per registrare le ore su un progetto, attività o problema</li></ul> </td> 
   </tr> 
   <tr> 

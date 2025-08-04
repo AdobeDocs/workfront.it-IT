@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 1%
+source-wordcount: '1041'
+ht-degree: 0%
 
 ---
 
@@ -48,7 +48,7 @@ Questo articolo descrive come creare attività da zero e come spostare attività
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandere per visualizzare i requisiti di accesso.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,9 +60,9 @@ Questo articolo descrive come creare attività da zero e come spostare attività
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Licenza Adobe Workfront</p> </td> 
-   <td><p>Corrente: Lavoro o versione successiva</p> 
-   Oppure
-   <p>Nuovo: Standard</p> </td> 
+   <td><p>Standard</p> 
+   <p>Lavoro o superiore</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
@@ -70,7 +70,7 @@ Questo articolo descrive come creare attività da zero e come spostare attività
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Autorizzazioni di Contribute per il progetto con la possibilità di aggiungere attività o versione successiva</p> <p>Quando crei un’attività, ricevi automaticamente le autorizzazioni di gestione per l’attività</p> <p> Per informazioni sulle autorizzazioni per l'attività, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Condividere un'attività </a>. </p> <p>Per informazioni sulla richiesta di autorizzazioni aggiuntive, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Autorizzazioni di Contribute per il progetto con la possibilità di aggiungere attività o versione successiva</p> <p>Quando crei un’attività, ricevi automaticamente le autorizzazioni di gestione per l’attività</p> <p> Per informazioni sulle autorizzazioni per l'attività, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Condividere un'attività </a>. </p> <p>Per informazioni sulla richiesta di autorizzazioni aggiuntive, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti. </a></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,10 +81,14 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Creare attività in un progetto
 
+La creazione di attività in un progetto è simile alla creazione di attività in un modello. È possibile seguire i passaggi descritti di seguito quando si aggiungono attività modello a un modello.
+
+Per creare attività su un progetto:
+
 1. Vai al progetto in cui desideri creare un’attività.
 1. Fai clic su **Attività** nel pannello a sinistra.
 1. (Condizionale) Se l&#39;elenco delle attività è attualmente visualizzato in una visualizzazione agile, fare clic sull&#39;icona **Visualizzazione elenco** ![](assets/list-view-in-agile-view-for-tasks.png) nell&#39;angolo superiore destro per visualizzare l&#39;elenco delle attività.
-1. (Facoltativo) Fai clic sull&#39;icona ![](assets/nwe-plan-mode-icon-task-list.png) della **Modalità pianificazione** e seleziona **Salvataggio manuale**, quindi seleziona **Standard** o **Pianificazione sequenza temporale**. In questo modo viene disabilitata l&#39;opzione **Salvataggio automatico** abilitata per impostazione predefinita.
+1. (Facoltativo) Fai clic sull&#39;icona **della** Modalità pianificazione![](assets/nwe-plan-mode-icon-task-list.png) e seleziona **Salvataggio manuale**, quindi seleziona **Standard** o **Pianificazione sequenza temporale**. In questo modo viene disabilitata l&#39;opzione **Salvataggio automatico** abilitata per impostazione predefinita.
 
    ![Seleziona salvataggio manuale](assets/manual-save-option.png)
 
@@ -113,7 +117,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
       ![](assets/create-task-larger-box-nwe-350x244.png)
 
-       
 
       >[!NOTE]
       >
@@ -162,13 +165,15 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
          In questo modo la nuova attività diventa un&#39;attività secondaria o secondaria dell&#39;attività precedente.
 
-         Per ulteriori informazioni sulle attività figlio, vedere [Creare sottoattività](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
+         Per ulteriori informazioni sulle attività secondarie, vedere la sezione &quot;Creare sottoattività dalla sezione Attività secondarie&quot; nell&#39;articolo [Creare sottoattività](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
       1. (Condizionale) Se hai disabilitato l&#39;opzione **Salvataggio automatico** dopo aver premuto **Aggiungi altre attività**, puoi effettuare le seguenti operazioni:
 
          * Fai clic su **Annulla** in qualsiasi momento per annullare l&#39;ultima modifica oppure su **Annulla** per annullare tutte le modifiche apportate all&#39;elenco attività.
          * Se in precedenza hai fatto clic su **Annulla**, fai clic su **Ripristina** per applicare nuovamente l&#39;ultima modifica annullata.
          * Fai clic su **Salva** per salvare le modifiche apportate all&#39;elenco delle attività.
+   1. (Facoltativo) In un elenco di attività, fai clic sulla sezione **Predecessore** per aggiungere predecessori all&#39;attività. Per ulteriori informazioni, vedere [Creare una relazione predecessore utilizzando l&#39;area Predecessori](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
+   1. (Facoltativo) In un elenco di attività, fai clic sulla sezione **Attività secondarie** per aggiungere attività secondarie. Per ulteriori informazioni, vedere [Creare sottoattività](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
 ## Creare attività spostando un’attività personale in un progetto
 

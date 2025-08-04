@@ -7,9 +7,9 @@ description: Dopo aver creato un modello, è possibile modificare le informazion
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '2420'
+source-wordcount: '2493'
 ht-degree: 4%
 
 ---
@@ -31,9 +31,7 @@ Per informazioni sulla creazione di un modello, vedere [Creare un modello di pro
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandere per visualizzare i requisiti di accesso.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,8 +43,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Nuovo: Standard </p>
-   <p>Corrente: Piano </p> </td> 
+   <td> <p>Standard </p>
+   <p>Piano </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Livello di accesso</td> 
@@ -80,7 +78,9 @@ Prima di iniziare, è necessario
 1. Fare clic sul nome di un modello per aprirlo.
 1. Fai clic su **Attività modello** nel pannello a sinistra.
 1. Fare clic sul nome di un&#39;attività modello nell&#39;elenco per aprirla.
-1. (Facoltativo) Per modificare più attività modello in blocco, seleziona più attività modello, quindi fai clic su **Modifica** nella parte superiore dell&#39;elenco dei modelli.
+1. (Facoltativo) Fai clic sulla sezione **Predecessori** nel pannello a sinistra per aggiungere predecessori per le attività modello. L’aggiunta di predecessori di attività modello è simile all’aggiunta di predecessori di attività progetto. Per informazioni, vedere [Creare una relazione predecessore utilizzando l&#39;area Predecessori](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
+1. (Facoltativo) Fai clic sulla sezione **Sottoattività** nel pannello a sinistra per aggiungere elementi secondari per l&#39;attività modello. L&#39;aggiunta di sottoattività per le attività modello è simile all&#39;aggiunta di sottoattività per le attività del progetto. Per informazioni, vedere la sezione &quot;Creare sottoattività dalla sezione Attività secondarie&quot; nell&#39;articolo [Creare sottoattività](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
+
 1. (Condizionale) Per modificare informazioni limitate su un&#39;attività modello, fai clic su **Dettagli attività modello** nel pannello a sinistra, quindi vai alle aree della sezione Dettagli per modificare le informazioni per ogni area.
 1. (Facoltativo) Fai clic sull&#39;icona **Comprimi tutto** ![Comprimi tutto](assets/collapse-all-icon.png) per comprimere tutte le aree.
 1. Per modificare le informazioni nella sezione Dettagli, fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png), quindi seleziona una delle aree seguenti oppure fai clic su **Modifica tutto** per modificare le informazioni in tutte le aree:
@@ -95,8 +95,8 @@ Prima di iniziare, è necessario
    >[!TIP]
    >
    >Per informazioni su tutti i campi visualizzati nell&#39;area Dettagli, continuare a modificare tutti i campi utilizzando la casella Modifica attività modello, come descritto di seguito.
-
-1. (Condizionale) Per modificare tutte le informazioni sull&#39;attività modello, fai clic sul menu **Altro** ![Altro](assets/qs-more-icon-on-an-object.png) accanto al nome dell&#39;attività modello, quindi fai clic su **Modifica**.
+1. (Facoltativo) Per modificare più attività modello in blocco, seleziona più attività modello, quindi fai clic su **Modifica** nella parte superiore dell&#39;elenco dei modelli.
+1. (Condizionale) Per modificare tutte le informazioni sull&#39;attività modello o su più attività contemporaneamente, fai clic su per selezionarle da un elenco, quindi fai clic sull&#39;icona **Modifica** ![Icona Modifica](assets/edit-icon.png) nella parte superiore dell&#39;elenco.
 
    Viene visualizzata la casella **Modifica attività modello**.
 
@@ -201,9 +201,9 @@ Prima di iniziare, è necessario
       <td role="rowheader"><strong>Giorno di completamento</strong><span style="font-weight: normal;"> (facoltativo e condizionale)</span> </td> 
       <td> <p> È possibile specificare il giorno di completamento di un'attività modello solo quando il vincolo attività è uno dei seguenti:</p> 
        <ul style="list-style-type: circle;"> 
-        <li>Deve Finire al</li> 
-        <li>Finire non Prima di</li> 
-        <li>Termina entro e non oltre</li> 
+        <li>Deve essere completato il</li> 
+        <li>Completa non prima di</li> 
+        <li>Completa entro e non oltre</li> 
         <li>Dati Fissi</li> 
        </ul> <p>Corrisponde alla data di completamento dell'attività nella sequenza temporale del progetto futuro. Per tutti gli altri vincoli, Workfront calcola il giorno di completamento in base alla durata e alla dipendenza predecessore. </p> </td> 
      </tr> 

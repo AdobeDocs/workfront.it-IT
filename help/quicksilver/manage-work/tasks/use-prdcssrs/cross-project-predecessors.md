@@ -6,9 +6,9 @@ description: Un predecessore di Progetto Incrociato è un'attività da cui dipen
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Per ulteriori informazioni sulle relazioni con i predecessori, vedere [Panoramic
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandere per visualizzare i requisiti di accesso.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -49,9 +49,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Nuovo: Standard </p> 
-   Oppure
-   <p>Corrente: Piano </p>
+   <td> <p>Standard </p>
+
+<p>Piano </p>
    </td> 
   </tr> 
   <tr> 
@@ -70,6 +70,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 +++
 
 ## Creare un predecessore per più progetti
+
+>[!TIP]
+>
+>Sebbene la creazione dei predecessori delle attività modello sia simile alla creazione dei predecessori delle attività progetto, non è possibile creare predecessori tra modelli per le attività modello.
+
 
 1. Vai all’attività che sarà il tuo successore (attività dipendente).
 1. Fai clic su **Predecessori** nel pannello a sinistra.

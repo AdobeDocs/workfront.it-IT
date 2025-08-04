@@ -6,9 +6,9 @@ description: È possibile utilizzare le attività predecessore (o solo i predece
 author: Alina
 feature: Work Management
 exl-id: a84d88ac-8dd4-4952-b83f-02fafa61e68b
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Per ulteriori informazioni, vedere [Panoramica sui predecessori delle attività]
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandere per visualizzare i requisiti di accesso.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +43,7 @@ Per ulteriori informazioni, vedere [Panoramica sui predecessori delle attività]
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Nuovo: Standard </p><p>Corrente: Piano </p> </td> 
+   <td> <p>Standard </p><p>Piano </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -78,7 +78,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    >
    >1. Fare clic sull&#39;icona **Modalità pianificazione** e scegliere **Salvataggio automatico**.
    >
-   >1. Digita il Numero di riferimento del progetto del predecessore seguito da due punti e dal numero dell’attività. Digitare ad esempio in *765021:12* indica che il numero di riferimento del progetto del predecessore è 765021 e che il predecessore è l&#39;attività numero 12 nel progetto.
+   >1. Digita il Numero di riferimento del progetto del predecessore seguito da due punti e dal numero dell’attività. Digitare ad esempio *765021:12* indica che il numero di riferimento del progetto del predecessore è 765021 e che il predecessore è l&#39;attività numero 12 nel progetto.
    >
    >1. Aggiungi il tipo di dipendenza per questo predecessore. Per ulteriori informazioni, consulta [Creare predecessori per più progetti](/help/quicksilver/manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
    >

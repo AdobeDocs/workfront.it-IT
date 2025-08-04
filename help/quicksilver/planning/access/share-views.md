@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '1871'
+source-wordcount: '1869'
 ht-degree: 0%
 
 ---
@@ -259,7 +259,7 @@ Questa sezione descrive come condividere una vista internamente.
 1. Nella scheda di una vista effettuare una delle seguenti operazioni:
 
    * Passa il puntatore del mouse sulla scheda della visualizzazione che desideri condividere e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Condividi** > **Copia collegamento** nella casella **Condividi visualizzazione**.
-   * Fai clic su **Condividi** > **Copia collegamento visualizzazione** > **Copia collegamento** nella casella **Condividi visualizzazione**.
+   * Fai clic su **Condividi** > **Copia il collegamento di visualizzazione** dalla pagina del tipo di record.
 
    Un collegamento alla visualizzazione viene copiato negli Appunti e si riceve una conferma nella parte inferiore dello schermo.
 
@@ -272,10 +272,8 @@ Gli utenti che accedono a un collegamento a una visualizzazione per la quale non
 1. (Condizionale) Se sei il manager di una visualizzazione, potresti ricevere una richiesta da un altro utente per accedere alla visualizzazione nelle seguenti aree:
 
    * Una notifica in-app
-
      ![Notifica in-app per la richiesta di accesso per la visualizzazione](assets/in-app-notification-for-access-request-for-view.png)
    * Una notifica e-mail
-
      ![Notifica in-app per la richiesta di accesso per la visualizzazione](assets/in-app-notification-for-access-request-for-view.png)
 1. (Condizionale) Dall’area di notifica in Workfront, fai clic sulla notifica in-app.
 Oppure

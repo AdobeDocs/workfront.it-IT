@@ -6,9 +6,9 @@ description: È possibile utilizzare le attività predecessore (o solo i predece
 author: Alina
 feature: Work Management
 exl-id: 68774286-da24-409a-bbd8-eb18dfe75063
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,7 @@ Per informazioni sui predecessori, vedere [Panoramica sui predecessori delle att
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandere per visualizzare i requisiti di accesso.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,9 +46,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> 
-   <p>Nuovo: Standard </p>
-   <p>Oppure </p>
-   <p>Corrente: Piano </p> </td> 
+   <p>Standard </p>
+    <p>Piano </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -69,15 +66,24 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Creare un predecessore per un&#39;attività
 
+La creazione di un predecessore per un&#39;attività di progetto mediante l&#39;area Predecessori è simile alla creazione di predecessori per le attività di un modello.
+
+Per creare un&#39;attività predecessore per un&#39;attività di progetto:
+
 1. Passare all&#39;attività che si desidera designare come attività dipendente.
 
 1. Nel pannello a sinistra, fai clic su **Predecessori**.
 
-1. Nella sezione **Predecessori**, fai clic su **+Aggiungi predecessore**. Viene visualizzata la finestra di dialogo **Aggiungi predecessore**.
+1. Nella sezione **Predecessori**, fai clic su **Aggiungi predecessore**. Viene visualizzata la finestra di dialogo **Aggiungi predecessore**.
 
 1. (Facoltativo) Per aggiungere un predecessore per più progetti, sostituisci il nome del progetto nel campo **Progetto principale** con un altro progetto.
 
    Per informazioni, consulta [Creare predecessori per più progetti](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
+
+   >[!TIP]
+   >
+   >Non è possibile creare predecessori tra modelli per le attività modello.
+
 
 1. Nel campo **Attività** digitare il nome dell&#39;attività o delle attività che si desidera designare come predecessori, quindi selezionarle quando vengono visualizzate nel menu a discesa.
 
@@ -96,3 +102,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    Per informazioni, vedere [Imponi predecessori](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
 1. Fai clic su **Salva**.
+
+1. (Facoltativo) Per rimuovere un predecessore, selezionalo dall&#39;elenco dei predecessori, quindi fai clic sull&#39;icona **Rimuovi** ![Rimuovi icona](assets/remove-or-delete-icon.png).
+
+   Il predecessore viene rimosso dall’elenco. L&#39;attività predecessore non viene eliminata dal relativo progetto.
