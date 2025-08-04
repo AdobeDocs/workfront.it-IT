@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 5b984451d19ed0381c75c4fa19f3eba16804fbf5
+source-git-commit: 1c6a1238e9ea1ca843dcb296db7a552ff354c50a
 workflow-type: tm+mt
 source-wordcount: '2666'
 ht-degree: 3%
@@ -77,7 +77,9 @@ I seguenti oggetti Workfront sono supportati dalle sottoscrizioni di eventi.
 * Utente
 * Area di lavoro
 
-Per un elenco dei campi supportati dagli oggetti di sottoscrizione degli eventi, vedere [Campi delle risorse di sottoscrizione degli eventi](../../wf-api/api/event-sub-resource-fields.md).
+>[!NOTE]
+>
+>Per un elenco dei campi supportati dagli oggetti di sottoscrizione degli eventi, vedere [Campi delle risorse di sottoscrizione degli eventi](../../wf-api/api/event-sub-resource-fields.md).
 
 ## Autenticazione sottoscrizione eventi
 
@@ -810,7 +812,7 @@ Questo connettore applica il filtro al nuovo stato o al vecchio stato dell’ogg
 >[!NOTE]
 >
 >La sottoscrizione seguente con il filtro specificato restituirà solo i messaggi in cui il nome dell&#39;attività contiene `again` per `oldState`, ovvero ciò che si trovava prima di un aggiornamento dell&#39;attività.
->&#x200B;>Un caso d’uso per questo potrebbe essere quello di trovare i messaggi objCode che sono cambiati da una cosa all’altra. Ad esempio, per individuare tutte le attività che sono cambiate da &quot;Cerca nome&quot; a &quot;Cerca nome team&quot;
+>>Un caso d’uso per questo potrebbe essere quello di trovare i messaggi objCode che sono cambiati da una cosa all’altra. Ad esempio, per individuare tutte le attività che sono cambiate da &quot;Cerca nome&quot; a &quot;Cerca nome team&quot;
 
 ```
 {

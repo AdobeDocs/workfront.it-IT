@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 1e8b25a0e6ff5c402bb662ef4b1831056e08c58b
+source-git-commit: 1c6a1238e9ea1ca843dcb296db7a552ff354c50a
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 10%
+source-wordcount: '873'
+ht-degree: 9%
 
 ---
 
@@ -24,7 +24,8 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
 
 >[!NOTE]
 >
->Alcuni oggetti sono disponibili solo in Sottoscrizioni eventi versione 2. Questi oggetti sono indicati nella tabella.
+>* Alcuni oggetti sono disponibili solo in Sottoscrizioni eventi versione 2. Questi oggetti sono indicati nella tabella.
+>* I campi elencati in questa pagina saranno sempre presenti nell’evento consegnato, anche se il valore di tale campo è nullo.
 
 <table style="table-layout:auto"> 
  <col> 
