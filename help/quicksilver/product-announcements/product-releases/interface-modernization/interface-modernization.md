@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 4ecb9141054c2f927a936f498941cc41108cbe45
 workflow-type: tm+mt
 source-wordcount: '6319'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Per ulteriori informazioni, vedere [Creare un caso di business per un progetto](
 
 ## Nuovo aspetto della sezione Dettagli coda di un modello
 
-**Versione di anteprima: 31 luglio 2025; versione di produzione: 7 agosto 2025**
+**Versione di anteprima: 31 luglio 2025; versione di produzione: 14 agosto 2025**
 
 È stato aggiornato l’aspetto della sezione Dettagli coda di un modello. L’aspetto della sezione Dettagli coda ora corrisponde ad altre aree di Workfront.
 
