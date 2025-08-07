@@ -7,14 +7,16 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
 
 # Crea assegnazioni avanzate
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 07/2024-->
 
@@ -84,7 +86,10 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    >[!TIP]
    >
-   >Se sono presenti due o più persone assegnate, è possibile effettuare assegnazioni avanzate direttamente nell&#39;elenco delle attività o dei problemi. Fai clic all&#39;interno del campo **Assegnazioni** sulla stessa riga dell&#39;attività o del problema, quindi fai clic sull&#39;icona **Persone** per aprire la finestra Assegnazioni avanzate. Passare al passaggio 5 per continuare la creazione di assegnazioni avanzate.\
+   >Puoi effettuare assegnazioni avanzate direttamente nell’elenco delle attività o dei problemi. Fai clic all&#39;interno del campo **Assegnazioni** sulla stessa riga dell&#39;attività o del problema, quindi fai clic su <span class="preview">**Avanzate**</span> o sull&#39;icona **Persone** per aprire la finestra Assegnazioni avanzate. Passare al passaggio 5 per continuare la creazione di assegnazioni avanzate.
+   ><span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
+   >![Fare clic su Avanzate o sull&#39;icona Persone](assets/access-aa-from-lists.png)
+   >Immagine di esempio nell’ambiente di produzione:
    >![Fare clic sull&#39;icona Persone](assets/nwe-advanced-assignments-350x55.png)
 
 1. Fai clic su **Assegna a** nel campo **Assegnazioni** nell&#39;intestazione dell&#39;attività o del problema
@@ -95,7 +100,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Fare clic su **Avanzate**.
 
-   ![Fare clic su Avanzate](assets/assignments-box-in-task-header.png)
+   ![Fare clic su Avanzate](assets/assignments-from-task-header-0825.png)
 
 1. Nel campo **Cerca persone, mansione e team**, inizia a digitare il nome di un utente, una mansione o un team, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 

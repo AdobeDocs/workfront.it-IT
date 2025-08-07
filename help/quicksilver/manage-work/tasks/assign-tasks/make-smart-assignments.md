@@ -6,9 +6,9 @@ description: È possibile utilizzare le assegnazioni avanzate per identificare l
 author: Lisa
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,6 @@ ht-degree: 0%
 # Effettua assegnazioni intelligenti
 
 <!--Audited: 07/2024-->
-
-<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
-
-<span class="preview">Le informazioni evidenziate in questa pagina fanno riferimento alle funzionalità disponibili solo nell&#39;ambiente di anteprima.</span>
-
-<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview"> This functionality will be removed from the Production environment for customers who enabled fast release with the 25.1 release in January 2025. For information about the 25.1 release, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md). -->
 
 È possibile utilizzare le assegnazioni avanzate per identificare l&#39;utente migliore per completare il lavoro.
 
@@ -90,7 +82,7 @@ Le assegnazioni intelligenti sono disponibili nella maggior parte delle posizion
    Le assegnazioni Smart vengono visualizzate nelle sezioni seguenti<!--, depending on which phase of the algorithm's calculation identified the assignments-->:
 
    <!--* <span class="preview">**Suggested assignments**: Displays assignments identified in the first phase of the task smart assignment algorithm.</span> -->
-   * **Utenti e team**, **Ruoli** o <span class="preview">**Ruoli con schede di valutazione**</span>: <!--Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
+   * **Utenti e team** o **Ruoli** <!--or **Rate card job roles**: Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
 
    ![Esempio di assegnazioni avanzate nell&#39;elenco attività](assets/smart-assignments-task-list.png)
 
