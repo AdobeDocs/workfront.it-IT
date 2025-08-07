@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 832b4044feaea902b807c12b5fad072c6dd04fc8
+source-git-commit: e8178ef6b746057e9f1b3991c1d87c89c08dddd8
 workflow-type: tm+mt
-source-wordcount: '6584'
+source-wordcount: '6617'
 ht-degree: 0%
 
 ---
@@ -106,13 +106,24 @@ We have updated the look and feel of the Edit templates box when editing templat
 
 For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
 
-### Aggiornamenti dell’interfaccia per la casella Invia aggiornamento all’utente su un modello
+### Aggiornamenti dell’interfaccia per la casella Invia aggiornamento all’utente su diversi oggetti
 
-**Versione di anteprima: 31 luglio 2025; versione di produzione: da definire, 2025**
+**Versione di anteprima: 31 luglio 2025; versione di produzione: 7 agosto 2025**
 
-È stato aggiornato l’aspetto della casella Invia aggiornamento all’utente quando vi si accede dalla scheda Persone di un modello. La casella Send update to user (Invia aggiornamento a utente) ora corrisponde ad altre aree di Workfront quando si invia un aggiornamento a uno o più utenti.
+È stato aggiornato l’aspetto della casella Send update to user (Invia aggiornamento all’utente) quando vi si accede dalle seguenti aree:
 
-Per informazioni, vedere [Gestione del team di progetto](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
+* La sezione Persone su un modello
+* La sezione Persone in un progetto
+* Un elenco utenti su un’azienda
+* Elenco utenti nell&#39;area Utenti
+
+La casella Send update to user (Invia aggiornamento a utente) ora corrisponde ad altre aree di Workfront quando si invia un aggiornamento a uno o più utenti.
+
+Per informazioni, vedere i seguenti articoli:
+
+* [Inviare messaggi diretti ad altri utenti](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)
+* [Gestione del team di progetto](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)
+* [Gestire le appartenenze a società](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
 
 ### Esperienza aggiornata durante la modifica di un argomento coda in un progetto o modello
 
