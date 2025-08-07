@@ -4,12 +4,12 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Dizionario dati Workfront Data Connect
 description: Questa pagina contiene informazioni sulla struttura e sul contenuto dei dati in Workfront Data Connect.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 44342db0a473eac70212d08cedf9ac0f571cda0b
+source-git-commit: 5a7f61b9b5237e282c1a61fb49b85533497836e3
 workflow-type: tm+mt
-source-wordcount: '8129'
+source-wordcount: '8114'
 ht-degree: 7%
 
 ---
@@ -24,7 +24,7 @@ Questa pagina contiene informazioni sulla struttura e sul contenuto dei dati in 
 
 ## Tipi di tabella
 
-Esistono diversi tipi di tabelle che è possibile utilizzare in Data Connect per visualizzare i dati di Workfront in modo da fornire la maggior parte delle informazioni.
+Esistono diversi tipi di tabelle che è possibile utilizzare in Data Connect per visualizzare i dati di Workfront in modo da fornire il maggior numero di insight.
 
 * **Tabella corrente**
 
@@ -54,7 +54,7 @@ Gli oggetti in Workfront (e, pertanto, nel data lake di Data Connect) sono defin
 
 Esistono diversi oggetti data che forniscono informazioni su quando si verificano eventi specifici.
 
-* `DL_LOAD_TIMESTAMP`: questa data viene utilizzata come riferimento interno e indica quando i dati sono stati caricati nella tabella Cronologia corrente, evento o giornaliera. Questa data non deve essere utilizzata per l’analisi dei dati e deve essere rimossa durante la fase beta del data lake di Workfront.
+* `DL_LOAD_TIMESTAMP`: questa data viene aggiornata dopo il completamento di un aggiornamento dei dati riuscito e include la marca temporale dell&#39;inizio del processo di aggiornamento che ha fornito la versione più recente di un record.
 * `CALENDAR_DATE`: data presente solo nella tabella Cronologia giornaliera. Questa tabella fornisce un record dell&#39;aspetto dei dati alle 11:59 UTC per ogni data specificata in `CALENDAR_DATE`.
 * `BEGIN_EFFECTIVE_TIMESTAMP`: questa data è presente nelle tabelle Event e Daily History e registra esattamente quando un record ha cambiato _in_ il valore presente nella riga corrente.
 * `END_EFFECTIVE_TIMESTAMP`: questa data è presente nelle tabelle Event e Daily History e registra esattamente quando un record ha cambiato _da_ il valore nella riga corrente a un valore in un&#39;altra riga. Per consentire l&#39;esecuzione di query tra `BEGIN_EFFECTIVE_TIMESTAMP` e `END_EFFECTIVE_TIMESTAMP`, questo valore non è mai nullo, anche se non è presente un nuovo valore. Se un record è ancora valido (ovvero se il valore non è stato modificato), `END_EFFECTIVE_TIMESTAMP` avrà il valore 2300-01-01.
