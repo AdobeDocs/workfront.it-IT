@@ -7,9 +7,9 @@ description: Gli utenti associati a un progetto in una certa capacità costituis
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
+source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '476'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,14 @@ ht-degree: 1%
 
 <!-- Audited: 6/2025 -->
 
-Un team di progetto è costituito da utenti associati a un progetto con una certa capacità. Gli utenti elencati nell’area Persone di un progetto costituiscono il team del progetto. Ad esempio, gli utenti assegnati a lavorare sul progetto o il proprietario del progetto fanno parte del team del progetto.
+Un team di progetto è costituito da utenti associati a un progetto con una certa capacità. Gli utenti elencati nella sezione Persone di un progetto costituiscono il team del progetto. Ad esempio, gli utenti assegnati a lavorare sul progetto o il proprietario del progetto fanno parte del team del progetto.
 
-Gli utenti associati al lavoro su un modello di progetto o che sono proprietari del modello o sponsor fanno parte del team di progetto futuro dopo che il progetto è stato creato utilizzando il modello.
+I seguenti utenti in un modello di progetto fanno parte del team di progetto futuro dopo la creazione del progetto utilizzando il modello:
+
+* Utenti assegnati a lavorare (attività e problemi) sul modello.
+* Proprietario o sponsor del modello.
+
+Gli utenti che fanno parte del futuro team di progetto in un modello vengono visualizzati nella sezione Persone del modello.
 
 ## Membri team progetto
 

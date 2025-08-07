@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
+source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1183'
 ht-degree: 1%
 
 ---
@@ -18,13 +18,15 @@ ht-degree: 1%
 
 <!--take preview and production references out at production - August 7-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti dopo una settimana dalla versione di anteprima.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
 
-Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
 </div>
+
+-->
 
 Il team del progetto è costituito da utenti associati al progetto. Per ulteriori informazioni, vedere [Panoramica team di progetto](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
 
@@ -57,8 +59,8 @@ Puoi gestire gli utenti del progetto e i team del modello aggiungendoli (solo pe
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Nuovo: Standard </p>
-    <p>Corrente: Piano </p>
+   <td> <p>Standard </p>
+    <p>Piano </p>
     </td> 
   </tr> 
   <tr> 
@@ -197,7 +199,12 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    Selezionare uno o più utenti nell&#39;elenco, quindi fare clic su **Invia aggiornamento all&#39;utente**.
 
-   ![Invia aggiornamento all&#39;utente in un progetto](assets/send-update-to-user-on-project-box.png)
+   <!--update screen shot when they fix the bug - the text above the box needs to match the OLD box, below-->
+
+   ![Casella Invia aggiornamento all&#39;utente nel progetto](assets/send-update-to-user-on-project-box-2025.png)
+
+   <!--Old UI for projects but the text above the comment box is right and matches the functionality):
+   ![OLD Send update to user on a project](assets/send-update-to-user-on-project-box.png)-->
 
    Viene visualizzata la casella **Invia aggiornamento all&#39;utente**.
 
@@ -250,23 +257,10 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 1. Effettua le seguenti operazioni:
 
-   * Nell’ambiente di produzione:
-
-      * Aggiungi un aggiornamento per gli utenti selezionati.
-      * Fai clic sull’icona persone per assegnare un tag ad altri utenti per ricevere lo stesso aggiornamento.
-      * Fai clic sull’icona del lucchetto per rendere l’aggiornamento privato per gli utenti della tua azienda.
-      * Fai clic su **Invia**.
-
-   * <span class="preview">Nell&#39;ambiente di anteprima: </span>
-
-   <div class="preview">
-
    * Aggiungi un aggiornamento per gli utenti selezionati.
    * Fai clic su **Assegna tag a persone** per assegnare tag ad altri utenti per ricevere lo stesso aggiornamento.
    * Seleziona l&#39;opzione **Privato per la mia azienda** per rendere l&#39;aggiornamento privato per gli utenti della tua azienda.
    * Fai clic su **Invia**.
-
-   </div>
 
    L&#39;aggiornamento viene aggiunto alla sezione **Aggiornamenti** del profilo di ciascun utente taggato.
 
