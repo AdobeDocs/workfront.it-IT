@@ -7,7 +7,7 @@ description: Puoi utilizzare le espressioni di dati per definire campi di dati p
 author: Courtney, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
+source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
 workflow-type: tm+mt
 source-wordcount: '2551'
 ht-degree: 2%
@@ -374,7 +374,7 @@ Puoi creare un campo personalizzato calcolato per la data o l’ora utilizzando 
 
 È possibile creare un campo personalizzato calcolato che visualizzi un valore in formato testo utilizzando le seguenti espressioni:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto:fixed"> 
  <col> 
  <col> 
  <thead> 
@@ -555,7 +555,7 @@ Puoi creare un campo personalizzato calcolato per la data o l’ora utilizzando 
    <td> <p>Sostituisce le corrispondenze del pattern specificato con la stringa di sostituzione. </p> 
    <p>L’espressione viene formattata come segue:</p>
    <p><code>REPLACEPATTERN (string, pattern, replacement string)</code></p> 
-   <p>Ad esempio, REPLACEPATTERN("foo123bar", "\d+", "_") genera la stringa "foo_bar". 
+   <p>Ad esempio, REPLACEPATTERN("foo123bar", "\d+", "_") genera la stringa "foo_bar".
    </td> 
   </tr> 
   <tr> 
