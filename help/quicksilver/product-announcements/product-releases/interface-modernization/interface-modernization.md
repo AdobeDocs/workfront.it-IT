@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 4ecb9141054c2f927a936f498941cc41108cbe45
+source-git-commit: 832b4044feaea902b807c12b5fad072c6dd04fc8
 workflow-type: tm+mt
-source-wordcount: '6319'
+source-wordcount: '6584'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,19 @@ Per tutte le altre modifiche apportate ad Adobe Workfront, vedi [Versioni del pr
 
 ## Amministrazione e configurazione
 
-## Aggiornamenti dell&#39;interfaccia per l&#39;elenco Profili scheda orario in un gruppo
+## Aggiornamenti dell’interfaccia per l’area Condizioni in Configurazione
+
+**Anteprima versione: 7 agosto 2025; produzione versione: 18 agosto 2025**
+
+La pagina Condizioni è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront.
+
+Un miglioramento visibile nell&#39;interfaccia è che ora viene visualizzato un pulsante **Modifica** accanto alle condizioni che è possibile modificare e non è più necessario passare il cursore sopra una condizione per trovare l&#39;icona Modifica.
+
+Per visualizzare queste modifiche, vai a Configurazione > Preferenze progetto > Condizioni.
+
+Per ulteriori informazioni, vedere [Creare o modificare una condizione personalizzata](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+
+### Aggiornamenti dell&#39;interfaccia per l&#39;elenco Profili scheda orario in un gruppo
 
 **Versione di anteprima: 24 luglio 2025; versione di produzione: 28 luglio 2025**
 
@@ -32,7 +44,7 @@ Abbiamo aggiornato l’aspetto dell’elenco Timesheet Profiles (Profili scheda 
 
 Per visualizzare queste modifiche, vai a Configurazione > Gruppi > seleziona un gruppo > Profili scheda orario.
 
-## Modifiche all&#39;interfaccia per le caselle Nuovo e Modifica tipo di ora
+### Modifiche all&#39;interfaccia per le caselle Nuovo e Modifica tipo di ora
 
 **Versione di anteprima: 24 luglio 2025; versione di produzione: 31 luglio 2025**
 
@@ -40,7 +52,7 @@ Per visualizzare queste modifiche, vai a Configurazione > Gruppi > seleziona un 
 
 Per informazioni, vedere [Gestione tipi di lavoro](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
-## Aggiornamenti dell’interfaccia alla pagina Registri di controllo in Configurazione
+### Aggiornamenti dell’interfaccia alla pagina Registri di controllo in Configurazione
 
 **Anteprima versione: 22 luglio 2025; produzione versione: da annunciare**
 
@@ -50,7 +62,7 @@ Il pulsante di esportazione è stato spostato sul lato destro della pagina.
 
 Per visualizzare questa modifica, vai a Configurazione > Tracciamento delle modifiche > Registri di controllo.
 
-## Aggiornamenti dell’interfaccia alla pagina Aggiorna utenti per l’SSO in Configurazione
+### Aggiornamenti dell’interfaccia alla pagina Aggiorna utenti per l’SSO in Configurazione
 
 **Anteprima versione: 22 luglio 2025; produzione versione: 28 luglio 2025**
 
@@ -60,9 +72,17 @@ Per visualizzare questa modifica, vai a Configurazione > Sistema > Aggiorna uten
 
 ## Progetti
 
-## Aggiornamenti dell’interfaccia per un caso di business di progetto
+### Aggiornamenti dell’interfaccia per registrare il tempo su un progetto, un’attività o un problema nella scheda Ore
 
-**Anteprima versione: 4 agosto 2025; produzione versione: da annunciare**
+**Anteprima versione: 7 agosto 2025; produzione versione: 14 agosto 2025**
+
+Nella scheda Ore è stato aggiornato l’aspetto della casella Registra ora nel momento in cui si registra l’ora per un progetto, un’attività o un problema, in modo che corrisponda alla progettazione di altre aree di Workfront.
+
+Per informazioni, vedere [Tempo di connessione](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+
+### Aggiornamenti dell’interfaccia per un caso di business di progetto
+
+**Anteprima versione: 4 agosto 2025; produzione versione: 18** agosto
 
 Abbiamo aggiornato l&#39;aspetto del Business Case del progetto per adattarlo ad altre aree dell&#39;applicazione.
 
@@ -70,7 +90,7 @@ Per visualizzare questa modifica, vai a Progetti > Seleziona un progetto > Caso 
 
 Per ulteriori informazioni, vedere [Creare un caso di business per un progetto](/help/quicksilver/manage-work/projects/define-a-business-case/create-business-case.md).
 
-## Nuovo aspetto della sezione Dettagli coda di un modello
+### Nuovo aspetto della sezione Dettagli coda di un modello
 
 **Versione di anteprima: 31 luglio 2025; versione di produzione: 14 agosto 2025**
 
@@ -78,7 +98,7 @@ Per ulteriori informazioni, vedere [Creare un caso di business per un progetto](
 
 Per informazioni, vedere [Creare una coda di richieste](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-<!--## Interface updates when bulk editing templates
+<!--### Interface updates when bulk editing templates
 
 **Preview release: July 31, 2025; Production release: August 7, 2025**
 
@@ -86,15 +106,15 @@ We have updated the look and feel of the Edit templates box when editing templat
 
 For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
 
-## Aggiornamenti dell’interfaccia per la casella Invia aggiornamento all’utente su un modello
+### Aggiornamenti dell’interfaccia per la casella Invia aggiornamento all’utente su un modello
 
-**Versione di anteprima: 31 luglio 2025; versione di produzione: 7 agosto 2025**
+**Versione di anteprima: 31 luglio 2025; versione di produzione: da definire, 2025**
 
 È stato aggiornato l’aspetto della casella Invia aggiornamento all’utente quando vi si accede dalla scheda Persone di un modello. La casella Send update to user (Invia aggiornamento a utente) ora corrisponde ad altre aree di Workfront quando si invia un aggiornamento a uno o più utenti.
 
 Per informazioni, vedere [Gestione del team di progetto](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
 
-## Esperienza aggiornata durante la modifica di un argomento coda in un progetto o modello
+### Esperienza aggiornata durante la modifica di un argomento coda in un progetto o modello
 
 **Versione di anteprima: 31 luglio 2025; versione di produzione: 31 luglio 2025**
 
@@ -104,7 +124,7 @@ Una piccola modifica della funzionalità è stata applicata all&#39;elenco Regol
 
 Per ulteriori informazioni, vedere [Creare argomenti coda](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-## Aggiornamenti dell’interfaccia per i record fatturazione
+### Aggiornamenti dell’interfaccia per i record fatturazione
 
 **Versione di anteprima: 31 luglio 2025; versione di produzione: 7 agosto 2025**
 
@@ -114,7 +134,7 @@ Per visualizzare queste modifiche, passare a un progetto > Record fatturazione >
 
 Per informazioni, vedere [Creare record fatturazione](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md).
 
-## Aggiornamenti dell’interfaccia per la casella Importa file MS Project
+### Aggiornamenti dell’interfaccia per la casella Importa file MS Project
 
 **Anteprima versione: 24 luglio 2025; Versione di produzione: da annunciare**
 
@@ -122,7 +142,7 @@ Per informazioni, vedere [Creare record fatturazione](/help/quicksilver/manage-w
 
 Per visualizzare questa modifica, vai a Progetti > Nuovo progetto > Importa MS Project.
 
-## Aggiornamento dell’interfaccia per la casella Aggiungi una spesa di un progetto o di un modello
+### Aggiornamento dell’interfaccia per la casella Aggiungi una spesa di un progetto o di un modello
 
 **Versione di anteprima: 24 luglio 2025; versione di produzione: 31 luglio 2025**
 
@@ -132,7 +152,15 @@ Per informazioni, consulta [Gestione spese progetto](/help/quicksilver/manage-wo
 
 ## Modelli
 
-## Modifiche all&#39;interfaccia durante la modifica di una Regola di instradamento per un modello
+### Aggiornamenti dell’interfaccia per l’elenco Predecessori su un modello
+
+**Anteprima versione: 7 agosto 2025; produzione versione: 14 agosto 2025**
+
+Abbiamo aggiornato l’aspetto degli elenchi dei Predecessori su un modello, per uniformarli al design di altre aree di Workfront.
+
+L&#39;aggiunta di predecessori a un&#39;attività modello è simile all&#39;aggiunta di predecessori a un&#39;attività progetto. Per informazioni, vedere [Creare una relazione predecessore utilizzando l&#39;area Predecessori](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
+
+### Modifiche all&#39;interfaccia durante la modifica di una Regola di instradamento per un modello
 
 **Versione di anteprima: 24 luglio 2025; versione di produzione: 31 luglio 2025**
 
@@ -142,7 +170,7 @@ Per modificare la Regola di instradamento, selezionare la Regola di instradament
 
 Per informazioni, vedere [Creare regole di routing](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
-## Modifiche dell’interfaccia alle aree di gestione della coda di richieste di un modello
+### Modifiche dell’interfaccia alle aree di gestione della coda di richieste di un modello
 
 **Versione di anteprima: 24 luglio 2025; versione di produzione: 31 luglio 2025**
 
@@ -160,6 +188,18 @@ Per ulteriori informazioni, consulta
 * [Crea gruppi di argomenti](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 * [Crea regole di routing](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
+## Utenti
+
+### Aggiornamenti dell’interfaccia alla finestra di dialogo Importa utenti
+
+**Versione di anteprima: 7 agosto 2025; versione di produzione per tutti i clienti: 14 agosto 2025**
+
+È stata aggiornata la finestra di dialogo per l’importazione di nuovi utenti tramite un file foglio di calcolo, in modo che corrisponda ad altre aree dell’applicazione.
+
+Per visualizzare questa modifica, vai a Utenti > Nuovo utente > Importa utenti.
+
+Per informazioni, vedere [Importa utenti](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/import-users.md).
+
 ## Aggiornamenti dell’interfaccia effettuati nel terzo trimestre
 
 ### Amministrazione e configurazione
@@ -168,7 +208,7 @@ Per ulteriori informazioni, consulta
 
 ### Aggiornamenti dell&#39;interfaccia per la pagina Modelli di layout
 
-**Anteprima versione: 17 luglio 2025; produzione versione: 24 luglio 2025**
+**Anteprima versione: 17 luglio 2025; produzione versione: da definire**
 
 La pagina Modelli di layout è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront.
 
