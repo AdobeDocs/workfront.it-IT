@@ -6,9 +6,9 @@ description: Per impostazione predefinita, le informazioni visualizzate nell'app
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '680'
 ht-degree: 1%
 
 ---
@@ -37,6 +37,7 @@ Nella tabella seguente sono elencate tutte le aree e gli oggetti [!DNL Workfront
 | [!UICONTROL Problema] |  ✓ |  ✓ |
 | [!UICONTROL Utente] |  ✓ |  ✓ |
 | [!UICONTROL Documento] |  ✓ |  ✓ |
+| [!UICONTROL Area risorse] | ✓ | ✓ |
 
 {style="table-layout:auto"}
 
@@ -51,19 +52,19 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] piano*</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
    <td> <p>[!UICONTROL Review] o versione successiva</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
    <td>[!UICONTROL Reviewer] o versione successiva</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
+   <td role="rowheader">Autorizzazioni oggetto</td> 
    <td>Accesso di visualizzazione al tipo di oggetto</td> 
   </tr> 
  </tbody> 

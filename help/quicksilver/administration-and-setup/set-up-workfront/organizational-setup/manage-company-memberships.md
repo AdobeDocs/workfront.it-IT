@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: organization-setup
 title: Gestire le iscrizioni aziendali
 description: Nell'area [!UICONTROL Aziende] in Configurazione è possibile aggiungere e rimuovere i membri di un'azienda. Puoi anche modificare i profili utente, ricordargli di registrarsi nel sistema  [!DNL Workfront], deactivate them in [!DNL Workfront], and remove them from the [!DNL Workfront] .
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f0efd985-76e3-435e-bf19-87008f6a5e9d
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '879'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Fai clic su **[!UICONTROL Aziende]**.
 1. Fai clic sul nome dell’azienda.
-1. Con la sezione **[!UICONTROL Membri società]** selezionata nel pannello a sinistra, eseguire una delle operazioni seguenti:
+1. Fai clic su **[!UICONTROL Membri società]** nel pannello a sinistra.
+1. Effettua una delle seguenti operazioni:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -125,9 +126,10 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <td role="rowheader">Invia un commento agli utenti e alle loro aree [!UICONTROL Updates]</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Seleziona almeno un utente, quindi fai clic sull'icona [!UICONTROL Comment] <img src="assets/comment-icon.png"> nella barra degli strumenti.</p> </li> 
+        <li value="1"> <p>Selezionare almeno un utente, quindi fare clic su <b>Invia aggiornamento all'utente</b> nella barra degli strumenti.</p> </li> 
         <li value="2"> <p>Digitare il commento che si desidera inviare agli utenti e all'area [!UICONTROL Aggiornamenti] dei relativi profili utente.</p> </li> 
-       </ol> </td> 
+       </ol>
+       <p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">Inviare messaggi diretti ad altri utenti</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Esporta l'elenco dei membri della società</td> 

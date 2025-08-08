@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1c3c82db8c1320130aa3eec9d5ad1fe31340e2e9
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 2%
+source-wordcount: '635'
+ht-degree: 1%
 
 ---
 
 # Creare o modificare una condizione personalizzata
+
+{{highlighted-preview}}
 
 In qualità di amministratore di Adobe Workfront, puoi creare o modificare una condizione personalizzata per progetti, attività e problemi in base alle esigenze della tua organizzazione.
 
@@ -64,8 +66,12 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Oppure
 
-   Per modificare una condizione esistente, passa il cursore del mouse sulla condizione da modificare, quindi fai clic sull&#39;icona **Modifica** visualizzata all&#39;estrema destra.
+   Per modificare una condizione esistente, fai clic su <span class="preview">**Modifica** accanto al nome della condizione</span> oppure passa il puntatore del mouse sulla condizione da modificare, quindi fai clic sull&#39;icona **Modifica** visualizzata all&#39;estrema destra.
 
+   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
+   ![Modifica condizione personalizzata](assets/custom-conditions-0825.png)
+
+   Immagine di esempio nell’ambiente di produzione:
    ![Condizione personalizzata](assets/custom-condition-edit-nwe.jpg)
 
 1. Configura la condizione personalizzata utilizzando le seguenti opzioni:
@@ -116,15 +122,17 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    * Quando un utente modifica un progetto
 
-     ![Modifica condizione durante la modifica del progetto](assets/change-condition-edit-project.png)
+     ![Modifica condizione durante la modifica del progetto](assets/change-condition-edit-project-0825.png)
 
-   * Quando un utente modifica la condizione per un’attività o un problema nella scheda Aggiornamenti:
+<!-- 
+   * When a user is changing the condition for a task or issue on the Updates tab:
 
-     ![Modifica condizione durante l&#39;aggiornamento del commento](assets/change-condition-update-comment.png)
+     ![Change condition when updating comment](assets/change-condition-update-comment.png)
+-->
 
-   * Quando un utente modifica la condizione di un’attività o di un problema in una vista a elenco:
+* Quando un utente modifica la condizione di un’attività o di un problema in una vista a elenco:
 
-     ![Modifica condizione nell&#39;elenco](assets/change-conditions-list-dropdown-only.png)
+  ![Modifica condizione nell&#39;elenco](assets/change-conditions-list-dropdown-only.png)
 
 1. Fai clic su **Salva**.
 
