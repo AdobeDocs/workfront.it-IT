@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: 1c3c82db8c1320130aa3eec9d5ad1fe31340e2e9
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 1%
@@ -124,15 +124,15 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
      ![Modifica condizione durante la modifica del progetto](assets/change-condition-edit-project-0825.png)
 
-<!-- 
+   <!-- 
    * When a user is changing the condition for a task or issue on the Updates tab:
 
      ![Change condition when updating comment](assets/change-condition-update-comment.png)
--->
+   -->
 
-* Quando un utente modifica la condizione di un’attività o di un problema in una vista a elenco:
+   * Quando un utente modifica la condizione di un’attività o di un problema in una vista a elenco:
 
-  ![Modifica condizione nell&#39;elenco](assets/change-conditions-list-dropdown-only.png)
+     ![Modifica condizione nell&#39;elenco](assets/change-conditions-list-dropdown-only.png)
 
 1. Fai clic su **Salva**.
 

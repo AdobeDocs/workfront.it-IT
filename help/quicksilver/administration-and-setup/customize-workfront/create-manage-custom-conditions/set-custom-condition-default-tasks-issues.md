@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 40b426f4-0a9c-49a6-91c7-b5f8aa48bd37
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -70,8 +70,5 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 >
 >* Un utente che è assegnato a un’attività o a un problema, o che dispone delle autorizzazioni di gestione su di esso, può modificare manualmente la propria condizione. Per ulteriori informazioni, vedere [Aggiorna condizione per attività e problemi](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
 >* Le tre condizioni predefinite per le attività e i problemi forniti con Workfront procedono senza intoppi, con alcuni problemi e importanti ostacoli. Non è possibile nascondere o eliminare queste condizioni, ma è possibile modificarne nomi e colori. Oppure puoi crearne di nuovi da utilizzare, come descritto in [Creare o modificare una condizione personalizzata](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
->
 
 Per informazioni sulla configurazione di una condizione personalizzata come condizione predefinita per i progetti, vedere [Impostare una condizione personalizzata come predefinita per i progetti](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md).
-
-Per informazioni sulle condizioni personalizzate, vedere [Condizioni personalizzate](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).

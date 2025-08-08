@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 * Quando un utente modifica un progetto
 
-  ![Modifica condizione durante la modifica del progetto](assets/change-condition-edit-project.png)
+  ![Modifica condizione durante la modifica del progetto](assets/change-condition-edit-project-0825.png)
 
 * Quando un utente modifica la condizione di un’attività o di un problema
 
@@ -66,7 +66,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Fai clic su **Preferenze progetto** > **Condizioni**.
 
-1. Seleziona la scheda **Progetti**,**Attività** o **Problemi**.
+1. Selezionare la scheda **Progetti**, **Attività** o **Problemi**.
 
 1. Trascina ![Icona Sposta](assets/move-icon---dots.png) Condizioni per modificarne l&#39;ordine.
 

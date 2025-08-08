@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 46cb91855937742ee681b3d2412941b2d3831086
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
-source-wordcount: '6618'
+source-wordcount: '6622'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Per tutte le altre modifiche apportate ad Adobe Workfront, vedi [Versioni del pr
 
 La pagina Condizioni è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront.
 
-Un miglioramento visibile nell&#39;interfaccia è che ora viene visualizzato un pulsante **Modifica** accanto alle condizioni che è possibile modificare e non è più necessario passare il cursore sopra una condizione per trovare l&#39;icona Modifica.
+Un miglioramento visibile nell&#39;interfaccia è che i pulsanti **Modifica** e **Elimina** ora vengono visualizzati accanto alle condizioni che è possibile modificare e non è più necessario passare il cursore sopra una condizione per trovare le icone Modifica ed Elimina.
 
 Per visualizzare queste modifiche, vai a Configurazione > Preferenze progetto > Condizioni.
 

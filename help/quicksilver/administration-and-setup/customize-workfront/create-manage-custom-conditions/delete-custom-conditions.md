@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
 
 # Eliminare una condizione personalizzata
+
+{{highlighted-preview}}
 
 Se una condizione personalizzata non è più necessaria, è possibile eliminarla.
 
@@ -58,16 +60,11 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Fai clic su **Preferenze progetto** > **Condizioni**.
 
-   <!--
-   <span data-mc-conditions="QuicksilverOrClassic.Draft mode">Make sure it's this way also in QS</span>
-   -->
-
 1. Selezionare la scheda del tipo di oggetto (**Progetto**, **Attività** o **Problema**) in cui si trova la condizione che si desidera eliminare.
 
-1. Passa il puntatore del mouse sulla condizione da eliminare, quindi fai clic sull&#39;icona **Elimina** ![Elimina](assets/delete.png) visualizzata all&#39;estrema destra.
-1. Nel messaggio di conferma visualizzato, fare clic su **Elimina condizione**.
+1. Fai clic su <span class="preview">**Elimina** accanto al nome della condizione</span> che desideri eliminare oppure passa il puntatore del mouse sulla condizione e fai clic sull&#39;icona **Elimina** ![Elimina](assets/delete.png) visualizzata all&#39;estrema destra.
 
-1. Nella casella **Elimina condizione** visualizzata, selezionare una nuova condizione nell&#39;elenco a discesa per tutti i progetti che utilizzano la condizione che si sta eliminando.
+1. Nella casella **Elimina condizione** visualizzata, selezionare una nuova condizione nell&#39;elenco a discesa per tutti i progetti, le attività o i problemi che utilizzano la condizione che si sta eliminando.
 
    Le condizioni personalizzate sono disponibili nell’elenco a discesa solo se equivalgono alla stessa condizione incorporata di quella che si sta eliminando. Ad esempio, se elimini una condizione che equivale a A rischio, la selezione sarà possibile solo per le condizioni personalizzate che equivalgono anche a A rischio.
 
@@ -76,5 +73,5 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 >[!NOTE]
 >
 >Non è possibile eliminare le condizioni incorporate, che sono On Target, At Risk e In Trouble. Tuttavia, è possibile modificarne i nomi e i colori.
-
-Per informazioni sulle condizioni personalizzate, vedere [Condizioni personalizzate](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+>
+>Per informazioni sulla modifica delle condizioni personalizzate, vedere [Creare o modificare una condizione personalizzata](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
