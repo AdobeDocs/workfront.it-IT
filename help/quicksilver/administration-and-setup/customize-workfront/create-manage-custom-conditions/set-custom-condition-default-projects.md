@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dba052ed-83a2-44d2-b025-d970783c4151
-source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
+source-git-commit: 183bdced08da75cfb15fe2cc0f0804dec7f07f23
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # Impostare una condizione personalizzata come predefinita per i progetti
-
-{{highlighted-preview}}
 
 Se il tipo di condizione di un progetto è impostato su Stato di avanzamento invece di Manuale, Adobe Workfront visualizza automaticamente una delle tre condizioni predefinite incorporate nel progetto (Su destinazione, A rischio o In difficoltà) durante l&#39;avanzamento, come spiegato in [Panoramica sulla condizione e sul tipo di condizione del progetto](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
