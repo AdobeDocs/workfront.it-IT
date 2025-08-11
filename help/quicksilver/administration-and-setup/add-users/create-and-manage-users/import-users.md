@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3dd99d01-a32f-4af8-90e3-f8c0e9027651
-source-git-commit: a8faf4aa1a0a1b60f61c0c981c3be1b0d9d033a4
+source-git-commit: 0239cad2d9173da20770934e6132b29301117cdf
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Add users" in the article [Bulk Upload Users](https://helpx.adobe.com/it/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Add users" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -100,13 +100,17 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. Fare clic su **Scegli file** nella casella **Importa utenti**.
 
 1. Individua e seleziona il file salvato.
-1. (Facoltativo) Selezionare l&#39;opzione **Invia un&#39;e-mail di invito a questo utente** per inviare un invito e-mail all&#39;utente, avvisandolo che è stato creato un account Workfront e richiedendo di impostare la password.
 
-   Deselezionare questa opzione se si desidera impostare la password per l&#39;utente.
+<!--
+1. (Optional) Select the **Send an invite email to this user** option to send an email invitation to the user, notifying them that a Workfront account has been created and prompting them to set their password.
+
+   Deselect this option if you want to set the password for the user.
+
+-->
 
 1. Fai clic su **Importa**.
 
-   Nella parte superiore della schermata viene visualizzato un messaggio di conferma che indica che l’importazione dell’utente è avvenuta correttamente.
+   Nella parte superiore della schermata viene visualizzato un messaggio di conferma che indica che gli utenti sono stati importati correttamente.
 
 >[!NOTE]
 >
@@ -114,4 +118,4 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 > 
 >Se un utente non esce dallo stato Disattivato e In attesa di approvazione entro pochi minuti e un aggiornamento della schermata non rimuove il badge In attesa di approvazione, puoi aggiungere direttamente il batch di utenti a Adobe Admin Console.
 >
->Per istruzioni, vedere [Gestione di più utenti | Caricamento CSV in blocco](https://helpx.adobe.com/it/enterprise/using/bulk-upload-users.html) nella documentazione di Adobe.
+>Per istruzioni, vedere [Gestione di più utenti | Caricamento CSV in blocco](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) nella documentazione di Adobe.
