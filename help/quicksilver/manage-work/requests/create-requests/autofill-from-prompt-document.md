@@ -4,9 +4,10 @@ content-type: reference
 description: È possibile utilizzare l’intelligenza artificiale per compilare automaticamente i campi della richiesta immettendo un prompt o fornendo un documento.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: cf2ae77ed27b1dd30144f6de31bec474f53f1efb
+exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
+source-git-commit: fd42ac97be05df9499ea3214642099738ccc69b1
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1093'
 ht-degree: 2%
 
 ---
@@ -62,6 +63,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Prerequisiti
 
 Per compilare automaticamente le richieste utilizzando un prompt o un documento, **all** dei seguenti elementi devono essere applicati:
@@ -72,6 +75,9 @@ Per compilare automaticamente le richieste utilizzando un prompt o un documento,
 * Adobe deve disporre di un accordo Adobe Gen AI firmato su file
 
   Per ulteriori informazioni sulla firma del contratto, consulta [Firmare il contratto di Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) nell&#39;articolo Panoramica dell&#39;Assistente AI.
+* L&#39;Assistente AI deve essere abilitato nelle impostazioni di sistema dell&#39;organizzazione. Questa funzione è gestita dall’amministratore di Workfront.
+
+  Per ulteriori informazioni sull&#39;abilitazione dell&#39;Assistente di intelligenza artificiale nelle impostazioni di sistema, vedere [Attivare o disattivare l&#39;Assistente di intelligenza artificiale](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 ## Ottieni suggerimenti da un prompt di testo
 
@@ -252,4 +258,3 @@ Se non ricevi i suggerimenti previsti, la causa potrebbe essere una delle seguen
 
 * È necessario disporre di almeno un mese di dati della richiesta nel sistema prima che possa suggerire valori di campo da richieste precedenti.
 * Potresti non aver seguito i guardrail di caricamento del documento durante il caricamento di un documento da cui estrarre i suggerimenti. Per ulteriori informazioni, vedi [Guardrail di caricamento documenti](#document-upload-guardrails) in questo articolo.
-
