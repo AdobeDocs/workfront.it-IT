@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: exchange-rates
 title: Impostare i tassi di cambio
-description: In qualità di amministratore di Adobe Workfront, puoi impostare i tassi di cambio in Workfront.
+description: I tassi di cambio influiscono su tutti gli elementi finanziari di Workfront. La valuta di base è la valuta predefinita per tutti i progetti nel sistema.
 feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: cb12c715d6b20dd4737e2d2e29d9849f08ce67e9
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '634'
 ht-degree: 2%
 
 ---
@@ -27,9 +27,9 @@ In qualità di amministratore di Adobe Workfront, puoi impostare i tassi di camb
 * Aggiornamento dei tassi di cambio in Workfront per far corrispondere i tassi di cambio correnti
 * La configurazione dei tassi di cambio per più valute (consentendo agli utenti di scegliere una valuta predefinita per i singoli progetti)
 
-I tassi di cambio influiscono su tutti gli elementi finanziari di Workfront. La valuta di base è la valuta predefinita per tutti i progetti nel sistema, a meno che non venga sostituita per un determinato progetto o mansione. È inoltre possibile scegliere di visualizzare le informazioni finanziarie in valute disponibili nel sistema diverse dalla valuta di base o da quella del progetto quando vengono visualizzate in un report o in un elenco. Per ulteriori informazioni, vedere [Creare report di dati finanziari con tassi di cambio univoci](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
+I tassi di cambio influiscono su tutti gli elementi finanziari di Workfront. La valuta di base è la valuta predefinita per tutti i progetti nel sistema, a meno che non venga sostituita per un determinato progetto o mansione. La valuta di base o predefinita corrente è indicata dall&#39;icona ![icona valuta predefinita](assets/default-icon.png) nell&#39;elenco. È inoltre possibile scegliere di visualizzare le informazioni finanziarie in valute disponibili nel sistema diverse dalla valuta di base o da quella del progetto quando vengono visualizzate in un report o in un elenco. Per ulteriori informazioni, vedere [Creare report di dati finanziari con tassi di cambio univoci](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
-Per ulteriori informazioni sull&#39;override della valuta di base in Workfront per i progetti e le mansioni, vedere gli articoli seguenti:
+Per ulteriori informazioni sull’override della valuta di base in Workfront per progetti e ruoli, vedi i seguenti articoli:
 
 * [Cambia la valuta del progetto](../../../manage-work/projects/project-finances/change-project-currency.md)
 * [Creare e gestire le mansioni](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
@@ -77,23 +77,26 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 {{step-1-to-setup}}
 
-1. Fai clic su **Preferenze progetto** > **Tassi di cambio.**
+1. Fai clic su **Preferenze progetto** > **Tassi di cambio**.
 
-1. Fare clic su **Aggiungi valuta.**
-1. Inizia a digitare il nome della valuta, quindi fai clic su di essa quando viene visualizzato nell’elenco a discesa.
+1. Fare clic su **Aggiungi valuta**.
+1. Nella casella **Aggiungi valuta**, iniziare a digitare il nome della valuta, quindi fare clic su di essa quando viene visualizzata nell&#39;elenco a discesa.
+1. Nel campo **Tasso di cambio** immettere il tasso per la valuta selezionata, confrontato con la valuta impostata come valuta di base nel sistema.
+1. Fai clic su **Aggiungi** per aggiungere la nuova valuta e il relativo tasso di cambio.
+1. (Facoltativo) Per modificare la valuta di base (predefinita), effettuare una delle seguenti operazioni:
 
-1. Nel campo fornito, specifica il tasso per la valuta selezionata, in quanto si riferisce alla valuta impostata come valuta di base nel sistema.
-1. (Facoltativo) Imposta la valuta come valuta di base (predefinita) per Workfront.
+   * Selezionare la casella di controllo accanto al nome della valuta e selezionare **Rendi predefinito** nella barra delle azioni nella parte inferiore dello schermo.
+   * Passa il puntatore del mouse sul nome della valuta e fai clic sul menu **Altro** visualizzato. Quindi, selezionare **Rendi predefinito**.
 
-   Questa è la valuta utilizzata come predefinita per tutti i progetti e i report in tutto il sistema.
+     La nuova valuta predefinita viene aggiornata con l’icona.
 
-1. Fai clic su **Salva** per salvare le modifiche.
+1. (Facoltativo) Per eliminare una valuta, seleziona la casella di controllo accanto al nome della valuta e seleziona **Elimina** nella barra delle azioni nella parte inferiore della schermata. Impossibile eliminare la valuta predefinita.
 
 ## Consenti agli utenti di modificare la valuta predefinita per un progetto
 
 Gli utenti possono modificare la valuta predefinita per un progetto quando sono soddisfatte le seguenti condizioni:
 
-* L&#39;utente dispone di una licenza Pianificazione con accesso amministrativo a Tassi di cambio.
+* L&#39;utente dispone di una licenza Standard o Plan con accesso amministrativo ai tassi di cambio.
 
   Per ulteriori informazioni, vedere [Concedere agli utenti l&#39;accesso amministrativo ad alcune aree](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
@@ -105,10 +108,13 @@ Per informazioni su come gli utenti possono modificare la valuta predefinita in 
 
 Gli utenti possono modificare la valuta per una mansione quando sono soddisfatte le seguenti condizioni:
 
-* L’utente dispone di una licenza Pianificazione con accesso amministrativo ai Ruoli.
+* L’utente dispone di una licenza Standard o Full con accesso amministrativo ai Ruoli.
 
   Per ulteriori informazioni, vedere [Concedere agli utenti l&#39;accesso amministrativo ad alcune aree](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 * Nel sistema Workfront è abilitata più di una valuta.
 
 Per informazioni su come gli utenti possono modificare la valuta predefinita per una determinata mansione, vedere [Creare e gestire le mansioni](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+
+
+<!--The default currency is the currency that is used as the default for all projects and reports throughout the system. The current default is indicated with an icon ![Default currency icon](assets/default-icon.png).-->
