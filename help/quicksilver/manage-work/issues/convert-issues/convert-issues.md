@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
+source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1506'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ Per informazioni sulla conversione dei problemi in progetti, vedere [Convertire 
    * Versioni
    * Le bozze sono incluse solo quando l&#39;opzione **Mantieni il problema originale e collegane la risoluzione a questa attività** non è selezionata.
    * Le approvazioni dei documenti non vengono incluse quando si converte un problema a cui sono allegati documenti e collegamenti ai documenti.
-
+* Durante la conversione di un problema, è previsto un limite di elaborazione di 5 minuti. Se al problema è allegato un numero elevato di documenti e la conversione non riesce, potrebbe essere necessario rimuovere alcuni documenti e riprovare.
 * Se si è deciso di mantenere il problema nella conversione e sono allegati dei documenti, il documento e le relative versioni vengono copiati nel progetto o nell&#39;attività. Le bozze e le approvazioni del documento non vengono copiate nel progetto o nell&#39;attività.
 * Se si è deciso di non mantenere il problema nella conversione e sono allegati documenti, il documento, le relative versioni e le bozze vengono trasferiti al progetto o all&#39;attività. Le approvazioni dei documenti non verranno trasferite al progetto o all&#39;attività.
 * Se si dispone di documenti e cartelle collegati al problema originale da servizi di terze parti, come Google Drive, indipendentemente dal fatto che il problema venga mantenuto o meno durante la conversione, tali collegamenti verranno copiati nel nuovo oggetto.

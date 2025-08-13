@@ -6,9 +6,9 @@ description: Convertire un problema in un progetto in Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 71ddeb83543c3c1491a412ac18deaa3ce1077c21
 workflow-type: tm+mt
-source-wordcount: '1975'
+source-wordcount: '2017'
 ht-degree: 1%
 
 ---
@@ -19,17 +19,17 @@ ht-degree: 1%
 
 Se è necessario fare di più per completare un problema dopo l’invio del problema, puoi convertire il problema in un progetto.
 
-È possibile convertire un problema in un nuovo progetto oppure convertirlo in un progetto utilizzando un modello. Questo articolo descrive entrambi i modi per convertire i problemi in progetti.
+È possibile convertire un problema in un nuovo progetto oppure convertirlo in un progetto utilizzando un modello. In questo articolo vengono descritti entrambi i modi per convertire i problemi in progetti.
 
 >[!IMPORTANT]
 >
->Per informazioni generali sulla conversione dei problemi, si consiglia di leggere anche l&#39;articolo [Panoramica sulla conversione dei problemi in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+>Per informazioni generali sui problemi di conversione, si consiglia di leggere anche l&#39;articolo [Panoramica dei problemi di conversione in Adobe Systems Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-Durante la creazione di un progetto a partire da un problema, alcuni campi del progetto si popolano da altri oggetti. Per ulteriori informazioni, vedere la sezione &quot;Impostazioni predefinite nuovo progetto&quot; nell&#39;articolo [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md).
+Quando si crea un progetto da un problema, alcuni campi del progetto vengono popolati da altri oggetti. Per ulteriori informazioni, vedere la sezione &quot;Nuovo impostazioni predefinite del progetto&quot; nell&#39;articolo [Crea un progetto](../../../manage-work/projects/create-projects/create-project.md).
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandere per visualizzare accesso requisiti per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -62,6 +62,10 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 +++
 
+## Considerazioni
+
+* Quando si converte un problema in un progetto, è previsto un limite di elaborazione di 5 minuti. Se al problema è allegato un numero elevato di documenti e la conversione non riesce, potrebbe essere necessario rimuovere alcuni documenti e riprovare.
+
 ## Convertire un problema in un progetto
 
 È possibile convertire un problema in un progetto vuoto.
@@ -90,7 +94,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
      >[!TIP]
      >
-     >Se il problema è associato a un processo di approvazione o è già associato a un oggetto di risoluzione, Workfront visualizza un avviso nella parte superiore della casella Converti in progetto per avvisarti che l’approvazione verrà rimossa o che l’oggetto di risoluzione verrà sovrascritto durante la conversione. Per ulteriori informazioni, vedere [Panoramica sulla conversione dei problemi in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+     >Se il problema è associato a un processo di approvazione o è già associato a un oggetto di risoluzione, Workfront visualizza un avviso nella parte superiore della casella Converti in progetto per notificare che l&#39;approvazione verrà rimossa o che l&#39;oggetto di risoluzione verrà sovrascritto durante la conversione. Per ulteriori informazioni, vedere [Panoramica sulla conversione dei problemi in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 1. (Facoltativo e condizionale) Fai clic su [!UICONTROL **Opzioni**] nel pannello a sinistra, quindi seleziona una delle opzioni disponibili:
 
@@ -102,7 +106,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      >
      >Gli utenti che non dispongono dell’accesso o delle autorizzazioni necessarie per eliminare un problema non potranno eliminarlo mentre lo stanno convertendo, indipendentemente dallo stato di questa impostazione. Per informazioni sull’accesso e le autorizzazioni per i problemi, consulta:
      >
-     >* [Concedi l&#39;accesso ai problemi](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
+     >* [Concedere accesso alle emissioni](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
      > 
      >* [Condividi un problema](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
 
@@ -115,7 +119,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      >Le opzioni disponibili dipendono dal modo in cui l’amministratore di Workfront le ha configurate per tutti gli utenti del sistema o per il gruppo. Per ulteriori informazioni, consulta [Configurare le preferenze per attività e problemi a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
      >
      >
-     >Oppure, se i gruppi di livello superiore dell’organizzazione li hanno configurati separatamente, le opzioni disponibili dipendono dal gruppo selezionato per il nuovo progetto al passaggio 6. Per ulteriori informazioni, consulta [Configurare le preferenze per attività e problemi per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+     >In alternativa, se i gruppi principali dell&#39;organizzazione li hanno configurati separatamente, le opzioni disponibili dipendono dal gruppo selezionato per il nuovo progetto nel passaggio 6. Per ulteriori informazioni, consulta [Configurare le preferenze per attività e problemi per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
 1. Fare clic su [!UICONTROL **Forms personalizzato**] ed eseguire una delle operazioni seguenti:
 
@@ -129,7 +133,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      >[!TIP]
      >
      >* Se un modulo personalizzato con più oggetti allegato al problema è configurato per l’utilizzo sia con problemi che con progetti, tutte le informazioni salvate nel modulo vengono mantenute quando si effettua la conversione, se i campi sono presenti sia sul problema che nei moduli personalizzati del progetto.
-     >* Se al problema e al progetto è allegato un modulo personalizzato con più oggetti con un campo calcolato, il problema e il progetto devono essere compatibili con tutti i campi a cui si fa riferimento nei campi personalizzati calcolati del modulo. In caso di incompatibilità, un messaggio ti avvisa di apportare le modifiche necessarie. Per ulteriori informazioni, vedere la sezione &quot;Campi personalizzati calcolati nei moduli personalizzati con più oggetti&quot; in [Aggiungere campi calcolati a un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+     >* Se al problema e al progetto è allegato un modulo personalizzato con più oggetti con un campo calcolato, il problema e il progetto devono essere compatibili con tutti i campi a cui si fa riferimento nei campi personalizzati calcolati del modulo. In caso di incompatibilità, un messaggio ti avvisa di apportare le modifiche necessarie. Per ulteriori informazioni, vedere la sezione &quot;Campi personalizzati calcolati in moduli personalizzati multi-oggetto&quot; in [Aggiunta di campi calcolati a un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 1. Fare clic su [!UICONTROL **Converti in progetto**].
 
@@ -141,12 +145,12 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    >  
    >Se hai deciso di mantenere il problema originale, questo ora è collegato al nuovo progetto e verrà completato al termine del progetto.
    >
-   >Le informazioni in alcuni campi del problema vengono trasferite al progetto, se non sono state modificate durante la conversione.
+   >Le informazioni in alcuni campi problematici vengono trasferite al progetto, se non sono state modificate durante la conversione.
 
-1. (Facoltativo) Se necessario, imposta ulteriori dettagli &#x200B; progetto (proprietario del progetto, date del progetto) e attività.
-1. Fare clic su [!UICONTROL **Converti in progetto**].
+1. (Facoltativo) Imposta eventuali ulteriori dettagli del progetto (proprietario del progetto, date del progetto) e le attività in base alle esigenze.
+1. Fai clic su [!UICONTROL **Converti in progetto**].
 
-   Il problema ora viene convertito in un progetto. Viene visualizzata la pagina del progetto.
+   Il problema è stato convertito in progetto. Viene visualizzata la pagina del progetto.
 
 ## Convertire un problema in un progetto utilizzando un modello
 
@@ -198,7 +202,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    >
    >* L&#39;amministratore del sistema o del gruppo può aggiungere o rimuovere campi nella casella [!UICONTROL Converti in progetto] aggiornando le informazioni dei dettagli del progetto nel [!UICONTROL modello di layout].
    >
-   >* Per aggiornare i campi nella sezione [!UICONTROL Finanza] della casella [!UICONTROL Converti in progetto] è necessario disporre dell&#39;accesso [!UICONTROL Modifica] a [!UICONTROL Dati finanziari] nel proprio livello di accesso. Se disponi dell&#39;accesso [!UICONTROL Visualizzazione] a [!UICONTROL Dati finanziari] nel tuo livello di accesso, tutte le informazioni finanziarie dal modello vengono trasferite al nuovo progetto e non puoi modificarle mentre converti il problema. Per informazioni, vedere [Concedere l&#39;accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) e [Condividere un modello](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+   >* Per aggiornare i campi della [!UICONTROL sezione Finanza] nella [!UICONTROL casella Converti in progetto] , è necessario disporre [!UICONTROL di Modifica] accesso a [!UICONTROL Dati] finanziari nel proprio livello di accesso. Se disponi dell&#39;accesso [!UICONTROL Visualizzazione] a [!UICONTROL Dati finanziari] nel tuo livello di accesso, tutte le informazioni finanziarie dal modello vengono trasferite al nuovo progetto e non puoi modificarle mentre converti il problema. Per informazioni, vedere [Concedere accesso ai dati](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) finanziari e [Condividere un modello](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
 1. (Facoltativo e condizionale) Fai clic su [!UICONTROL **Opzioni**] nel pannello a sinistra, quindi seleziona una delle opzioni disponibili:
 
@@ -238,7 +242,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
         >
         >* Se un modulo personalizzato con più oggetti allegato al problema è configurato per l’utilizzo sia con problemi che con progetti, tutte le informazioni salvate nel modulo vengono mantenute quando si effettua la conversione, se i campi sono presenti sia sul problema che nei moduli personalizzati del progetto.
         >* Se al problema e al progetto è allegato un modulo personalizzato con più oggetti con un campo calcolato, il problema e il progetto devono essere compatibili con tutti i campi a cui si fa riferimento nei campi personalizzati calcolati del modulo. In caso di incompatibilità, un messaggio ti avvisa di apportare le modifiche necessarie. Per ulteriori informazioni, vedere [Aggiungere campi calcolati a un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
-        >* Se un modulo personalizzato allegato al modello contiene un campo personalizzato che si trova anche in un modulo personalizzato allegato al problema, per il nuovo progetto viene utilizzato il valore del campo del problema. Tuttavia, se il campo personalizzato è vuoto nel problema, viene utilizzato il valore del modello.
+        >* Se un modulo personalizzato allegato al modello contiene un campo personalizzato presente anche in un modulo personalizzato allegato al problema, il valore del campo del problema viene utilizzato per il nuovo progetto. Tuttavia, se il campo personalizzato è vuoto nel problema, viene utilizzato il valore del modello.
 
 1. (Facoltativo) Se necessario, imposta ulteriori dettagli &#x200B; progetto (proprietario del progetto, date del progetto) e attività.
 
@@ -250,8 +254,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       >   
       >Oppure
       >  
-      >Se hai deciso di mantenere il problema originale, questo ora è collegato al nuovo progetto e verrà completato al termine del progetto.
+      >Se hai deciso di mantenere il problema originale, il problema è ora collegato al nuovo progetto e verrà completato al completamento del progetto.
       >
-      >Alcuni campi dei problemi vengono trasferiti al progetto. La maggior parte dei campi definiti nel modello viene trasferita automaticamente al nuovo progetto creato se non sono stati modificati nei passaggi precedenti. Per informazioni, vedere [Panoramica sulla conversione dei problemi in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+      >Alcuni campi problema vengono trasferiti al progetto. La maggior parte dei campi definiti nel modello viene trasferita automaticamente al progetto appena creato, se non sono stati modificati nei passaggi precedenti. Per informazioni, vedere [Panoramica dei problemi di conversione in Adobe Systems Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-   Il problema ora viene convertito in un progetto. Viene visualizzata la pagina del progetto.
+   Il problema è stato convertito in progetto. Viene visualizzata la pagina del progetto.

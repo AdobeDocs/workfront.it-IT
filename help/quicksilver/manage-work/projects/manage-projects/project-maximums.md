@@ -7,9 +7,9 @@ description: Adobe Workfront prevede dei limiti per il numero di oggetti che pos
 author: Alina
 feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 71ddeb83543c3c1491a412ac18deaa3ce1077c21
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,10 @@ Di seguito sono riportati alcuni esempi di relazioni tra attività che possono i
   <tr> 
    <td role="rowheader"><p>Calcoli della sequenza temporale</p></td> 
    <td>Workfront non esegue calcoli automatici della sequenza temporale per i progetti che non vengono aggiornati da 6 mesi e non riprenderanno finché non viene effettuato un aggiornamento.<p>Per i progetti che non vengono aggiornati da tre mesi, Workfront esegue calcoli della sequenza temporale settimanalmente anziché ogni notte.</p><p>Per informazioni sul calcolo della sequenza temporale del progetto, vedere <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Ricalcolare le sequenze temporali del progetto</a>. </p></td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader"><p>Converti oggetti </p></td> 
+   <td>Workfront ha un limite di elaborazione di 5 minuti per la conversione degli oggetti. Se all'oggetto è associato un numero elevato di documenti, la conversione potrebbe non riuscire entro il limite di 5 minuti. Potrebbe essere necessario rimuovere alcuni documenti e riprovare.</td> 
   </tr> 
  </tbody> 
 </table>

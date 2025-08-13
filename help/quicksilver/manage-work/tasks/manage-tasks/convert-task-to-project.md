@@ -6,9 +6,9 @@ description: Quando il completamento di un'attività di un progetto richiede una
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: 0c45c768be1dda579e507f5f6ff4b127021a5f73
+source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1189'
 ht-degree: 2%
 
 ---
@@ -52,6 +52,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 * L&#39;attività originale viene eliminata.
 * Tutte le sotto-attività, le Issues e le Note vengono riportate nel nuovo progetto.
 * Documenti, versioni dei documenti e bozze vengono spostati nel nuovo progetto.
+* Durante la conversione di un’attività in un progetto, è previsto un limite di elaborazione di 5 minuti. Se all&#39;attività è associato un numero elevato di documenti e la conversione non riesce, potrebbe essere necessario rimuovere alcuni documenti e riprovare.
 * Vengono mantenuti lo stato e la percentuale di completamento di tutte le attività secondarie e dei problemi.
 * Gli assegnatari delle attività e l’utente che converte l’attività nel progetto diventano utenti condivisi nel progetto.
 * La data di inizio del progetto viene impostata sulla data di inizio dell&#39;attività.
