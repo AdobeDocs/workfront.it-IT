@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 7%
+source-wordcount: '736'
+ht-degree: 6%
 
 ---
 
@@ -29,7 +29,7 @@ Per informazioni, vedere la sezione &quot;Formula&quot; nell&#39;articolo [Crear
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.
++++ Espandere per visualizzare i requisiti di accesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -90,7 +90,7 @@ Per informazioni, vedere la sezione &quot;Formula&quot; nell&#39;articolo [Crear
 
 *Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Considerazioni sui campi formula
 
@@ -112,6 +112,10 @@ Per informazioni, vedere la sezione &quot;Formula&quot; nell&#39;articolo [Crear
 
   Per ulteriori informazioni, vedere la sezione &quot;Formula&quot; nell&#39;articolo [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).
 * È possibile fare riferimento ai campi formula nelle nuove formule. Una volta aggiornato il valore in un campo a cui si fa riferimento in un campo formula, tutti i campi successivi che fanno riferimento a tale campo o ai campi formula che contengono tale campo verranno aggiornati automaticamente.
+* I campi formula potrebbero essere visualizzati come `#ERROR!` nei casi seguenti:
+   * Quando un campo utilizzato in una formula viene eliminato.
+   * Quando un campo utilizzato in un campo di ricerca aggregato viene visualizzato come `#ERROR!`.
+Ad esempio, se si visualizza un campo di ricerca contenente campi formula di ricerca aggregati e uno dei campi formula di riferimento viene visualizzato come `#ERROR!`.
 
 ## Formule supportate
 

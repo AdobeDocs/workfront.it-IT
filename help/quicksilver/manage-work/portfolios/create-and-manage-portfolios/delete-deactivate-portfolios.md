@@ -6,10 +6,10 @@ description: I portafogli sono raccolte di progetti o programmi in Adobe Workfro
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 0%
+source-wordcount: '441'
+ht-degree: 1%
 
 ---
 
@@ -23,9 +23,7 @@ Consigliamo di disattivare un portfolio che non deve più essere associato a pro
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandere per visualizzare i requisiti di accesso.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,8 +35,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
-   <td> <p>Nuovo: [!UICONTROL Standard] </p>
-   <p>Corrente: [!UICONTROL Plan] </p> </td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -68,6 +66,7 @@ Quando decidi se eliminare o disattivare i portfolio, considera quanto segue:
 * L’eliminazione di un portfolio non comporta l’eliminazione dei relativi progetti.
 * Non puoi recuperare i portfolio eliminati.
 * La disattivazione di un portfolio assicura che il nome del portfolio e dei relativi programmi non possano più essere assegnati ai progetti durante la creazione di un progetto.
+* La disattivazione di un portfolio già associato a un progetto non ne comporta la rimozione dal progetto. Se rimuovi un portfolio disattivato da un progetto, devi riattivarlo prima di poterlo ricollegare al progetto.
 
 ## Disattivare un portfolio
 
@@ -82,11 +81,17 @@ Quando disattivi un portfolio, puoi comunque accedervi dall&#39;area [!UICONTROL
 1. Fare clic su **[!UICONTROL Portfolio]**.
 1. Fai clic sul nome del portfolio.
 1. Fai clic sul menu **Altro** ![Altro menu](assets/more-icon.png) a destra del nome del portfolio, quindi fai clic su **[!UICONTROL Disattiva Portfolio]**.
+Il portfolio viene immediatamente disattivato.
+1. (Facoltativo) Fai clic sul menu **Altro** ![Altro menu](assets/more-icon.png) a destra del nome del portfolio, quindi fai clic su **[!UICONTROL Attiva Portfolio]** per riattivarlo.
 
 ## Eliminare un portfolio
 
-{{step1-click-main-menu}}
+{{step1-to-portfolios}}
 
-1. Fare clic su **[!UICONTROL Portfolio]**.
-1. Seleziona il portfolio, quindi fai clic su **[!UICONTROL Elimina]**&#x200B;icona [!UICONTROL Elimina] ![Icona Elimina](assets/delete.png).
+1. Esegui una delle operazioni seguenti:
+
+   * Seleziona il portfolio nell&#39;elenco, quindi fai clic sull&#39;icona **[!UICONTROL Elimina]** ![Elimina](assets/delete.png).
+   * Fai clic sul portfolio per aprirlo, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-icon.png) a destra del nome del portfolio, quindi **Elimina Portfolio**.
 1. Fai clic su **[!UICONTROL Sì, elimina]** per confermare.
+
+   Il portfolio viene eliminato e non può essere recuperato.

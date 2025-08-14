@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
+source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
 workflow-type: tm+mt
-source-wordcount: '4160'
+source-wordcount: '4075'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,13 @@ ht-degree: 0%
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
 
-<div class="preview">
+<!--<div class="preview">
 
-Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti dopo una settimana dalla versione di anteprima.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
-Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
-</div>
+</div>-->
 
 È possibile registrare il tempo degli elementi di lavoro in Adobe Workfront per indicare il numero di ore dedicate al loro lavoro. È inoltre possibile registrare il tempo non correlato al lavoro, ad esempio ferie, malattia o riunioni. L&#39;ora registrata viene visualizzata nella scheda orario.
 
@@ -452,13 +452,9 @@ Per registrare il tempo nella sezione Ore di un progetto, attività o problema:
 1. Nel pannello a sinistra, fai clic su **Ore**.
 1. Fare clic su **Tempo di registrazione**.
 
-   <span class="preview">Viene visualizzata la casella **Log time**.</span>
-
-   <div class="preview">
+   Viene visualizzata la casella **Log time** (Tempo di registrazione).
 
    ![Registra tempo nella sezione Ore di un&#39;attività](assets/log-time-box-in-hours-section-on-task.png)
-
-   </div>
 
 1. Specifica le seguenti informazioni:
 
@@ -472,7 +468,7 @@ Per registrare il tempo nella sezione Ore di un progetto, attività o problema:
      Per ulteriori informazioni sulla configurazione dei tipi di lavoro, vedere [Definire i tipi di lavoro e la disponibilità](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **Ruolo**: (Condizionale) Se l&#39;amministratore del Workfront o del gruppo ha abilitato l&#39;impostazione **Assegna mansioni alle voci orarie manualmente**, seleziona una **Mansione** dal menu a discesa. Il Ruolo specificato quando si è assegnati all&#39;oggetto viene visualizzato per impostazione predefinita. Se all&#39;utente non è stato assegnato un Ruolo nell&#39;oggetto, il Ruolo principale viene visualizzato come impostazione predefinita. Per ulteriori informazioni su questa impostazione, vedere l&#39;articolo [Configurare le preferenze relative alle ore e alle schede orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-   * **Ore** o <span class="preview">il calendario settimanale</span>: immettere il numero di ore per il progetto, l&#39;attività o il problema. <span class="preview">Nel calendario settimanale, immettere il numero di ore per il progetto, l&#39;attività o il problema.</span> Il calendario settimanale viene visualizzato nell&#39;area **Hours** della casella **Log Time** nell&#39;ambiente di produzione.
+   * **Calendario settimanale**: immettere il numero di ore per il progetto, l&#39;attività o il problema.
    * **Nota**: aggiungi una nota per spiegare a cosa servono le ore. Questa è stata salvata come **Nota ore** o come **Descrizione ore**.
 
 1. Fare clic su **Tempo di registrazione**.

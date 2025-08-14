@@ -4,9 +4,9 @@ description: I tipi di record sono i tipi di oggetto di Adobe Workfront Planning
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 943c26efa6f6351abf885dbc5f3aa09c0b0fab05
+source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '599'
 ht-degree: 2%
 
 ---
@@ -27,15 +27,15 @@ recommendations: noDisplay, noCatalog
 
 In qualità di responsabile dell&#39;area di lavoro, è possibile importare o aggiungere un tipo di record esistente a un&#39;altra area di lavoro.
 
-Prima di poter essere importato in altre aree di lavoro, i responsabili dell&#39;area di lavoro devono definire le funzionalità di un tipo di record in più aree di lavoro.
+È necessario innanzitutto designare un tipo di record come centralizzato prima che i responsabili dell&#39;area di lavoro possano importarlo in altre aree di lavoro.
 
-Quando si crea o si modifica un tipo di record, è possibile definire le funzionalità di un tipo di record in più aree di lavoro.
+È possibile impostare un tipo di record come centralizzato quando lo si crea o lo si modifica, mentre si definiscono le relative impostazioni per più aree di lavoro.
 
 Per informazioni, vedere [Configurare le funzionalità tra aree di lavoro diverse per i tipi di record](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.
++++ Espandere per visualizzare i requisiti di accesso.  
 
 <table style="table-layout:auto"> 
 <col> 
@@ -95,9 +95,11 @@ Per informazioni, vedere [Configurare le funzionalità tra aree di lavoro divers
 
 *Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
-## Considerazioni durante l&#39;aggiunta di tipi di record esistenti da un&#39;altra area di lavoro
+## Panoramica dei tipi di record centralizzati
+
+Considerazioni durante l&#39;aggiunta di tipi di record esistenti da un&#39;altra area di lavoro
 
 * Quando non sono presenti tipi di record configurati per l&#39;aggiunta a un&#39;altra area di lavoro, l&#39;opzione per importarli da un&#39;altra area di lavoro non viene visualizzata durante la creazione di un tipo di record. <!--add this a tip in the steps below, and/ or add a Conditional step that this is possible only when these record types are first enabled-->
 * Dopo l&#39;aggiunta del tipo di record da un&#39;altra area di lavoro, vengono aggiunte anche le seguenti informazioni dal tipo di record esistente:

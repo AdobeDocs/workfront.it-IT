@@ -6,9 +6,9 @@ description: In qualità di cliente di Adobe Workfront, puoi contattare il team 
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 008f96d52632f5f05554d63ae1c38cc37d21544b
+source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,7 @@ In qualità di cliente [!DNL Adobe Workfront], puoi contattare il team di Assist
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandere per visualizzare i requisiti di accesso.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,9 +42,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td><p>Nuovo: Standard</p>
-       <p>Oppure</p>
-       <p>Corrente: Piano</p></td>
+   <td><p>Standard</p>
+       <p>Piano</p></td>
   </tr> 
   </tr> 
   <tr> 
@@ -85,13 +82,15 @@ Puoi contattare [!DNL Workfront Customer Support] 7 giorni alla settimana, 24 or
 >Solo i contatti autorizzati del supporto (o gli utenti autorizzati al supporto) possono inviare ticket di supporto online.
 
 
-1. Dal sito Web [[!DNL Experience League]](https://experienceleague.adobe.com/it), fare clic su **[!UICONTROL Supporto]** nella parte superiore della pagina.
+1. Dal sito Web [[!DNL Experience League]](https://experienceleague.adobe.com), fare clic su **[!UICONTROL Supporto]** nella parte superiore della pagina.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
    Verrà aperta la pagina [!UICONTROL Supporto].
 
    Dalla home page del [!UICONTROL Supporto], puoi passare ai tuoi casi di supporto aperti, registrare un nuovo caso, visualizzare i primi [!UICONTROL Articoli di supporto] o accedere ad altre origini di apprendimento.
+
+   Per ulteriori informazioni sull&#39;apprendimento di Workfront, vedere [Centro assistenza](https://learning.adobe.com/resources/help-center.html).
 
 <!--1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.-->
 
