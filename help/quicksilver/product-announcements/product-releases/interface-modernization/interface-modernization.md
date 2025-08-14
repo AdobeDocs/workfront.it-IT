@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: c8f552a4f4da2365f793e9111ee12a9905516134
+source-git-commit: 343ffcc5ba894f389e4ca00e12ea31009eb6c76a
 workflow-type: tm+mt
-source-wordcount: '6622'
+source-wordcount: '6687'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,16 @@ In questa pagina sono elencati gli aggiornamenti dell’interfaccia che stiamo a
 Per tutte le altre modifiche apportate ad Adobe Workfront, vedi [Versioni del prodotto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Amministrazione e configurazione
+
+### Aggiornamenti dell’interfaccia agli elementi eliminati di recente
+
+**Versione di anteprima: 14 agosto 2025; versione di produzione: 21 agosto 2025**
+
+Abbiamo aggiornato l’aspetto degli elementi eliminati di recente nell’area Configura, per adattarli al design di altre aree di Workfront. Nessuna funzionalità è stata modificata per i progetti, le attività, le richieste, i documenti o i modelli eliminati di recente.
+
+Per visualizzare questa modifica, vai a Configurazione > Cestino > Eliminato di recente.
+
+Per informazioni, vedere [Ripristinare gli elementi eliminati](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ### Aggiornamenti dell’interfaccia per l’area Condizioni in Configurazione
 
@@ -82,7 +92,7 @@ Per informazioni, vedere [Tempo di connessione](/help/quicksilver/timesheets/cre
 
 ### Aggiornamenti dell’interfaccia per un caso di business di progetto
 
-**Anteprima versione: 4 agosto 2025; produzione versione: 18** agosto
+**Anteprima versione: 4 agosto 2025; produzione versione: 13 agosto 2025**
 
 Abbiamo aggiornato l&#39;aspetto del Business Case del progetto per adattarlo ad altre aree dell&#39;applicazione.
 
@@ -125,15 +135,14 @@ Per informazioni, vedere i seguenti articoli:
 * [Gestione del team di progetto](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)
 * [Gestire le appartenenze a società](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
 
-### Esperienza aggiornata durante la modifica di un argomento coda in un progetto o modello
+### Esperienza aggiornata durante la modifica di un Gruppo di argomenti in un progetto o modello
 
 **Versione di anteprima: 31 luglio 2025; versione di produzione: 31 luglio 2025**
 
-È stato aggiornato l’aspetto di un argomento della coda quando lo si modifica su un modello. La pagina di modifica Argomento coda ora corrisponde alla progettazione di altre aree di Workfront.
+È stato aggiornato l&#39;aspetto di un Topic Group quando lo si modifica su un modello. La pagina di modifica Gruppo di argomenti ora corrisponde alla progettazione di altre aree di Workfront.
+È stata applicata una piccola modifica alla funzionalità del Gruppo di argomenti. Per modificare un Gruppo di argomenti, selezionare il Gruppo di argomenti dall&#39;elenco e fare clic sull&#39;icona Modifica. Non si viene più indirizzati alla pagina dei dettagli Gruppo di argomenti prima di poter modificare.
 
-Una piccola modifica della funzionalità è stata applicata all&#39;elenco Regole di instradamento. Per modificare un argomento della coda, selezionare l&#39;argomento dalla lista e fare clic sull&#39;icona Modifica. Non si viene più indirizzati alla pagina dei dettagli Argomento coda prima di poter modificare.
-
-Per ulteriori informazioni, vedere [Creare argomenti coda](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+Per ulteriori informazioni, vedere [Creare gruppi di argomenti](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
 ### Aggiornamenti dell’interfaccia per i record fatturazione
 
@@ -219,7 +228,7 @@ Per informazioni, vedere [Importa utenti](/help/quicksilver/administration-and-s
 
 ### Aggiornamenti dell&#39;interfaccia per la pagina Modelli di layout
 
-**Anteprima versione: 17 luglio 2025; produzione versione: da definire**
+**Anteprima versione: 17 luglio 2025; produzione versione: 14 agosto 2025**
 
 La pagina Modelli di layout è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront.
 
@@ -891,7 +900,7 @@ Per visualizzare questa modifica, vai a Team > scegli un team > Backlog, quindi 
 
 ### Documenti
 
-+++Espandere per visualizzare gli aggiornamenti all&#39;interfaccia Documenti eseguiti nel secondo trimestre
++++Espandi per visualizzare gli aggiornamenti dell’interfaccia Documenti effettuati nel secondo trimestre
 
 ### Aggiornamenti dell’interfaccia durante la richiesta di un documento
 
@@ -1095,7 +1104,7 @@ Questi aggiornamenti includono modifiche visive all’area. Nessuna funzionalit�
 
 ### Aggiornamenti e commenti
 
-+++Espandere per visualizzare gli aggiornamenti dell&#39;interfaccia Aggiornamenti e commenti effettuati nel secondo trimestre
++++Espandi per visualizzare gli aggiornamenti dell’interfaccia Aggiornamenti e commenti effettuati nel secondo trimestre
 
 ### Aggiornamento dell’interfaccia per le opzioni del menu Altro relative ai commenti
 
