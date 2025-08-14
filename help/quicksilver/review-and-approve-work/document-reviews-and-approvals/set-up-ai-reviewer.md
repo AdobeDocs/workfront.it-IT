@@ -57,7 +57,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 Prima di iniziare, è necessario impostare le linee guida per il marchio immagine in GenStudio Foundations.
 
-Per ulteriori informazioni sulle linee guida per il brand di immagini, consulta [Introduzione ad Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Per ulteriori informazioni sulle linee guida per il brand di immagini, consulta [Introduzione ad Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 ## Aggiungere un revisore di IA
 
