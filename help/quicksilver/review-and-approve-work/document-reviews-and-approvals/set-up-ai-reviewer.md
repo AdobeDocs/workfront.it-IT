@@ -6,17 +6,19 @@ description: Dopo aver configurato almeno un marchio in GenStudio Foundations, p
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: da980cee8710570f52c724053d1e0f359c6a9fe1
+exl-id: 4673049e-119e-4315-95f0-f10d8b286856
+source-git-commit: 7d7291539d4436f0c4700363b7800a5cc6ac4096
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '250'
 ht-degree: 1%
 
 ---
 
-
 # Crea revisori AI
+
+>[!NOTE]
+>
+>Questa funzione è attualmente in versione beta.
 
 Dopo aver configurato almeno un marchio in GenStudio Foundations, puoi creare più revisori AI da assegnare ai modelli di approvazione e alle singole richieste di revisione e approvazione.
 
@@ -53,12 +55,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Prerequisiti
 
-Prima di iniziare, è necessario impostare le linee guida del marchio in GenStuido Foundations.
+Prima di iniziare, è necessario impostare le linee guida per il marchio immagine in GenStudio Foundations.
 
-Per ulteriori informazioni sulle linee guida per i marchi, consulta
-
-* [Marchi GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [Aggiungi linee guida](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+Per ulteriori informazioni sulle linee guida per il brand di immagini, consulta [Introduzione ad Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 ## Aggiungere un revisore di IA
 
@@ -77,4 +76,3 @@ Per ulteriori informazioni sulle linee guida per i marchi, consulta
 
    * [Creare un modello di approvazione per risorse e documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
    * [Creare una richiesta di revisione o approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
-

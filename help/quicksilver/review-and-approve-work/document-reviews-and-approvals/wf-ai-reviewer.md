@@ -6,19 +6,21 @@ description: Revisore Workfront AI
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: da980cee8710570f52c724053d1e0f359c6a9fe1
+source-git-commit: cfa948baf31891d389ca38fc35d546b77e599c5e
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 5%
+source-wordcount: '620'
+ht-degree: 4%
 
 ---
 
 # Guida introduttiva a Workfront AI Reviewer
 
-Con Workfront AI Reviewer, puoi velocizzare la velocità dei contenuti e ottimizzare la conformità del brand nel flusso di lavoro di revisione e approvazione. È possibile aggiungere i revisori AI modelli di approvazione o alle singole richieste di revisione e approvazione in Workfront.
+>[!NOTE]
+>
+>Questa funzione è attualmente in versione beta.
+
+Con Workfront AI Reviewer, puoi velocizzare la velocità dei contenuti e ottimizzare la conformità del brand nel flusso di lavoro di revisione e approvazione. Puoi aggiungere i revisori AI modelli di approvazione o alle singole richieste di revisione e approvazione in Workfront.
 
 ## Requisiti di accesso
 
@@ -51,17 +53,12 @@ Il revisore IA può esaminare i seguenti tipi di file:
 
 ## Impostare le linee guida per il marchio
 
-Durante la revisione dei contenuti, Workfront AI Reviewer utilizza le linee guida del brand impostate in Genstudio Foundations.
-
-Per ulteriori informazioni sulle linee guida per i marchi, consulta
-
-* [Marchi GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [Aggiungi linee guida](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+Durante la revisione dei contenuti, Workfront AI Reviewer utilizza le linee guida per il marchio definite in Genstudio per il marketing delle prestazioni. Attualmente, è possibile impostare solo le linee guida del brand per le immagini. Per ulteriori informazioni, vedere [Introduzione ad Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## Crea revisori AI
 
-Una volta configurato almeno un marchio in GenStudio Foundations, gli amministratori di Workfront possono iniziare a creare i revisori di IA nell’area Setup (Configurazione). Tali revisori AI possono quindi essere assegnati a modelli di approvazione e singole richieste di revisione e approvazione.
+Una volta configurato almeno un marchio in GenStudio Foundations, gli amministratori di Workfront possono iniziare a creare i revisori di IA nell’area Setup (Configurazione). Tali revisori AI possono quindi essere assegnati a modelli di approvazione e singole richieste di revisione e approvazione. Al momento, i revisori di IA possono solo rivedere rispetto alle linee guida per il brand delle immagini.
 
 Per ulteriori informazioni, consulta [Creare i revisori AI](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md).
 
@@ -77,7 +74,7 @@ Gli utenti possono aggiungere i revisori AI modelli di approvazione per verifica
 
 Una volta creati, i modelli di approvazione possono essere applicati alle risorse nell’area Documenti di un progetto, un’attività o un problema.
 
-Per ulteriori informazioni, consulta [Creare un modello di approvazione per risorse e documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+Per ulteriori informazioni, consulta [Creare un modello di approvazione per risorse e documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 ![elenco di modelli che mostra i revisori AI](assets/ai-review-templates.png)
 
@@ -85,7 +82,7 @@ Per ulteriori informazioni, consulta [Creare un modello di approvazione per riso
 
 Quando gli utenti creano richieste di revisione e approvazione individuali, possono aggiungere un revisore di IA con altri partecipanti oppure possono creare una singola richiesta con solo il revisore di IA per verificare la conformità del brand.
 
-Per ulteriori informazioni, vedere [Creare una richiesta di revisione o approvazione del documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+Per ulteriori informazioni, vedere [Creare una richiesta di revisione o approvazione del documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 
 ![Revisore IA aggiunto alla richiesta di approvazione individuale](assets/ad-ai-reviewer-to-request.png)
@@ -98,7 +95,7 @@ Anche i proprietari delle approvazioni ricevono un’e-mail di notifica del comp
 
 Il revisore di IA non è progettato per essere un decision-maker nel flusso di lavoro di revisione e approvazione. Fornisce solo un punteggio e consigli per allineare la risorsa ai requisiti del brand specificati.
 
-Se l’immagine soddisfa a lungo le regole del marchio, il creativo può caricare una nuova versione e il proprietario dell’approvazione può creare una seconda richiesta di revisione e approvazione con il revisore AI, che consente di passare da una versione all’altra e confrontare il feedback.
+Se l’immagine soddisfa a lungo le linee guida del marchio, il creativo può caricare una nuova versione e il proprietario dell’approvazione può creare una seconda richiesta di revisione e approvazione con il revisore AI, che consente di passare da una versione all’altra e confrontare il feedback.
 
 Per ulteriori informazioni sulla visualizzazione di punteggi e feedback, consulta [Visualizzare il punteggio e il feedback del revisore di IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md).
 
