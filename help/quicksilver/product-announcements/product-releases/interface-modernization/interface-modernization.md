@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 343ffcc5ba894f389e4ca00e12ea31009eb6c76a
+source-git-commit: a7a4ef39cf5e50d487ec2053e6b02cb2bb06c3f5
 workflow-type: tm+mt
-source-wordcount: '6687'
+source-wordcount: '6776'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,16 @@ In questa pagina sono elencati gli aggiornamenti dell’interfaccia che stiamo a
 Per tutte le altre modifiche apportate ad Adobe Workfront, vedi [Versioni del prodotto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Amministrazione e configurazione
+
+### Aggiornamenti dell’interfaccia per la casella Invia aggiornamento all’utente sui gruppi
+
+**Versione di anteprima: 14 agosto 2025; versione di produzione: 14 agosto 2025**
+
+È stato aggiornato l’aspetto della casella Invia aggiornamento all’utente quando vi si accede dall’elenco dei membri del gruppo e dall’elenco dei membri del sottogruppo.
+
+La casella Send update to user (Invia aggiornamento a utente) ora corrisponde ad altre aree di Workfront quando si invia un aggiornamento a uno o più utenti.
+
+Per informazioni, vedere [Visualizzare e gestire le appartenenze di un gruppo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md) e [Visualizzare e gestire i membri del sottogruppo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
 
 ### Aggiornamenti dell’interfaccia agli elementi eliminati di recente
 
@@ -85,6 +95,10 @@ Per visualizzare questa modifica, vai a Configurazione > Sistema > Aggiorna uten
 ### Aggiornamenti dell’interfaccia per registrare il tempo su un progetto, un’attività o un problema nella sezione Ore
 
 **Anteprima versione: 7 agosto 2025; produzione versione: 14 agosto 2025**
+
+>[!NOTE]
+>
+>Rimozione temporanea da anteprima e produzione
 
 Abbiamo aggiornato l’aspetto della casella Registra ora durante la registrazione dell’ora per un progetto, un’attività o un problema nella sezione Ore, in modo che corrisponda alla progettazione di altre aree di Workfront.
 
