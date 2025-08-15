@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -35,10 +35,8 @@ Per eseguire i passaggi descritti in questo articolo e registrare le ore specifi
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Nuovo: </p>
-   <p>Spia o superiore per registrare le ore su un'attività o un problema</p>
-   <p>Corrente: 
-   <p>Lavoro o superiore per registrare le ore per un'attività o un problema</p> </td> 
+   <td> <p>Nuovo: Light o superiore per registrare le ore su un'attività o un problema</p>
+   <p>Corrente: Lavoro o superiore per registrare le ore per un’attività o un problema</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -61,7 +59,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 {{step1-to-priorities}}
 
-1. Passa il puntatore del mouse sul nome, quindi fai clic su **Registra ora**.
+1. Passa il puntatore del mouse sul nome, quindi fai clic sull&#39;icona **Altro** ![Altro](assets/more-icon.png).
+1. Seleziona **Registra ora**.
    ![Aggiorna, registra ora e carica](assets/update-log-upload.png)
 1. Nel menu a discesa **Tipo di ora**, seleziona il tipo di ora appropriato. I tipi di ore sono disponibili a seconda di ciò che è stato definito a livello di sistema, progetto e utente, come descritto in Definire i tipi di ore e la disponibilità.
 
@@ -77,7 +76,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 {{step1-to-priorities}}
 
-1. Fare clic sul nome di un elemento di lavoro per aprire la pagina Panoramica.
+1. Fare clic sul nome di un elemento di lavoro per aprire la pagina **Panoramica**.
 1. Nella sezione **Azioni rapide**, fai clic su **Registra ora**.
 1. Nel menu a discesa **Tipo di ora**, seleziona il tipo di ora appropriato. I tipi di ore sono disponibili a seconda di ciò che è stato definito a livello di sistema, progetto e utente, come descritto in Definire i tipi di ore e la disponibilità.
 1. (Condizionale) Se l’amministratore del Workfront o del gruppo ha abilitato l’impostazione Assegna ruoli alle voci orarie manualmente, seleziona un ruolo dal menu a discesa. Il ruolo specificato quando si è assegnati all&#39;elemento di lavoro viene visualizzato per impostazione predefinita. Se all&#39;utente non è stato assegnato un ruolo sull&#39;oggetto, il Ruolo principale viene visualizzato come predefinito. Se non ti è stato assegnato un Ruolo principale, non viene visualizzato alcun Ruolo.

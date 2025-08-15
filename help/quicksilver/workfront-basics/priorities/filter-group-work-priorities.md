@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '653'
 ht-degree: 4%
 
 ---
@@ -64,8 +64,7 @@ Puoi filtrare le attività e i problemi assegnati.
 {{step1-to-priorities}}
 
 1. Fai clic su **Filtri** in alto a sinistra nell&#39;elenco lavori.
-1. Fare clic su **Filtri standard**.
-1. Selezionare uno o più filtri per limitare gli elementi di lavoro.
+1. Nella sezione **Filtri standard**, seleziona uno o più filtri per limitare gli elementi di lavoro.
    ![Filtro](assets/filter-new.png)
 
 +++Espandi per visualizzare informazioni dettagliate sui filtri disponibili
@@ -116,12 +115,12 @@ Puoi filtrare le attività e i problemi assegnati.
     <td>Visualizza il lavoro per data di completamento pianificata</td>
     </tr>
     <tr>
-    <td>Stato</td>
-    <td>Visualizza le attività o i problemi in stato Nuovo, In corso e Completato</td>
+    <td>Il mio focus</td>
+    <td>Visualizza le attività o i problemi a cui sono stati assegnati livelli di attivazione. I livelli di attivazione vengono assegnati e gestiti dal singolo utente.</td>
     </tr>
     <tr>
-    <td>Il mio focus</td>
-    <td>Visualizza le attività o i problemi in cui sono stati assegnati livelli di attivazione. I livelli di attivazione vengono assegnati e gestiti dal singolo utente.</td>
+    <td>Stato</td>
+    <td>Visualizza le attività o i problemi in stato Nuovo, In corso e Completato.</td>
     </tr>
   </tbody>
 </table>
@@ -136,7 +135,7 @@ Utilizza il linguaggio naturale per filtrare rapidamente il lavoro.
 
 >[!NOTE]
 >
->Questa funzione è disponibile solo per i clienti dell’esperienza Unified Adobe che utilizzano l’Assistente AI. Per ulteriori informazioni sull&#39;Assistente di IA, vedere [Panoramica dell&#39;Assistente di IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>Questa funzione è disponibile solo per i clienti dell’esperienza Unified Adobe che utilizzano l’Assistente all’intelligenza artificiale. Per ulteriori informazioni sull&#39;Assistente di IA, vedere [Panoramica dell&#39;Assistente di IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 {{step1-to-priorities}}
 
@@ -146,18 +145,16 @@ Utilizza il linguaggio naturale per filtrare rapidamente il lavoro.
 
    Puoi digitare:
 
-   * Mostra attività in ritardo
-   * Mostra le mie priorità principali
-   * Mostra lavoro in scadenza oggi
-
-</div>
+   * *Mostra attività in ritardo*
+   * *Mostra le mie priorità principali*
+   * *Mostra lavoro in scadenza oggi*
 
 ## Raggruppare il lavoro
 
 {{step1-to-priorities}}
 
 1. Fai clic su **Gruppi** in alto a sinistra nell&#39;elenco lavori.
-1. Selezionare un gruppo per organizzare l&#39;elenco di lavoro
+1. Selezionare un gruppo per organizzare l&#39;elenco lavori.
    ![Gruppi](assets/groups-new.png)
 
 +++Espandi per visualizzare informazioni dettagliate sui gruppi disponibili
@@ -165,9 +162,9 @@ Utilizza il linguaggio naturale per filtrare rapidamente il lavoro.
 | Gruppo | Descrizione |
 |-----------|-------------|
 | Progetto | Raggruppa gli elementi per progetto. |
+| Data di scadenza | In questo modo gli elementi vengono raggruppati in base alla data di scadenza. Le date di scadenza sono determinate dalla data di completamento pianificata. |
 | Il mio focus | Raggruppa gli elementi in base al livello di attivazione assegnato. |
-| Settimana di scadenza | Raggruppa le voci in base alla settimana di scadenza. Le date di scadenza sono determinate dalla data di completamento pianificata. |
-| Stato | Gli elementi vengono raggruppati in base ai seguenti stati: Nuovo, In corso, Completo. <br>Nota: al momento non è possibile utilizzare gli stati personalizzati nelle priorità. |
+| Stato | Gli elementi vengono raggruppati in base ai seguenti stati: Nuovo, In corso, Completo. <br><b>Nota</b>: al momento non è possibile utilizzare gli stati personalizzati nelle priorità. |
 
 +++
 
@@ -176,14 +173,14 @@ Utilizza il linguaggio naturale per filtrare rapidamente il lavoro.
 È possibile trascinare singoli elementi di lavoro da una categoria all&#39;altra quando si esegue il raggruppamento in base a Mia priorità o Stato.
 
 1. Raggruppa il tuo lavoro per **Stato** o **Mia priorità**.
-2. Passa il cursore del mouse sull’elemento di lavoro per trovare l’icona Sposta e trascinala nella categoria desiderata.
+2. Passa il puntatore del mouse sull&#39;elemento di lavoro per fare clic sull&#39;icona **Trascina** e spostarlo nella categoria desiderata.
    ![icona di trascinamento](assets/drag-and-drop.png)
 
 ## Ordinare il lavoro
 
 ### Ordina in gruppi
 
-Per ordinare il lavoro all&#39;interno di un gruppo, apri **Gruppo** e fai clic su **Ordine crescente** o **Ordine decrescente**.
+Per ordinare il lavoro all&#39;interno di un gruppo, apri **Gruppo** e seleziona se desideri ordinare in ordine crescente o decrescente.
 
 ![Ordina in gruppi](assets/sort-in-groups.png)
 

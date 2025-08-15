@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 1%
@@ -74,7 +74,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    * Visualizzare e aggiungere commenti al progetto
    * Registra ore
    * Aggiungi un file
-   * <span class="preview">Vai direttamente al progetto</span>
+   * Vai direttamente al progetto
 
    ![dettagli progetto](assets/project-details-new.png)
 
@@ -101,7 +101,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Nell&#39;elenco lavori, passa il puntatore sul nome del lavoro, quindi fai clic sull&#39;icona **Riepilogo** ![apri icona riepilogo](assets/summary-icon.png).
 
-1. La Issue è selezionata per impostazione predefinita. Qui è possibile
+1. La Issue è selezionata per impostazione predefinita. Qui è possibile:
    * Visualizzare e modificare i dettagli e la descrizione del progetto e del problema
    * Visualizzare e aggiungere commenti al progetto
    * Visualizzare e aggiungere documenti
@@ -116,7 +116,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 Puoi visualizzare gli aggiornamenti in tempo reale nella pagina Dettagli di un’attività o di un problema. Puoi anche verificare se altri utenti visualizzano la pagina contemporaneamente a te con gli indicatori di presenza in tempo reale.
 
-## Visualizza dettagli elemento di lavoro
+### Visualizza dettagli elemento di lavoro
 
 {{step1-to-priorities}}
 

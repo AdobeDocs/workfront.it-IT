@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,6 @@ In Priorità vengono visualizzati gli elementi di lavoro assegnati all&#39;utent
 ## Requisiti di accesso
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,35 +55,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-## Personalizzare le colonne dell’elenco delle priorità in Produzione
-
-### Attiva o disattiva colonne
-
-{{step1-to-priorities}}
-
-1. Fai clic su **Colonne** sul lato destro dello schermo.
-   ![Colonne](assets/columns.png)
-1. Utilizzare gli interruttori per attivare o disattivare le colonne nell&#39;elenco lavori.
-
-### Riordinare le colonne
-
-{{step1-to-priorities}}
-
-1. Fai clic su **Colonne** sul lato destro dello schermo.
-1. Fai clic sull&#39;icona **Trascina** e sposta la colonna nella posizione desiderata. Spostamento automatico degli aggiornamenti delle colonne nell&#39;elenco lavori.
-   ![Riordina colonne](assets/reorder-columns.png)
-
-### Reimposta larghezze colonne
-
-{{step1-to-priorities}}
-
-1. Fai clic su **Colonne** sul lato destro dello schermo.
-1. Fai clic sull&#39;icona **Altro** ![Altro icona](assets/more-icon.png) e scegli **Reimposta larghezza colonne**.
-   ![Colonne](assets/columns.png)
 
 ## Personalizzare le colonne dell’elenco di lavoro Priorità
 

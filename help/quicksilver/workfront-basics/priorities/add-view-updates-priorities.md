@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: a7237746-0a18-408b-b932-8a608fd72eee
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -87,9 +87,9 @@ Per informazioni più dettagliate sull&#39;aggiunta di aggiornamenti, vedere [Ag
 
 1. Fare clic sul nome di un elemento di lavoro per aprire la pagina **Panoramica**.
 1. Individua l&#39;area **Aggiornamenti** nell&#39;angolo in basso a destra dello schermo.
-1. (Facoltativo) Utilizzare la scheda **Commenti** per aggiornare altri utenti che hanno effettuato sull&#39;elemento di lavoro.
+1. (Facoltativo) Utilizzare la scheda **Commenti** per visualizzare gli aggiornamenti effettuati da altri utenti sull&#39;elemento di lavoro.
 1. (Facoltativo) Utilizzare la scheda **Attività di sistema** per visualizzare l&#39;attività di sistema correlata all&#39;elemento di lavoro.
-1. (Facoltativo) Per aggiungere un commento, vai alla scheda **Commento** e inizia a digitare nella casella Nuovo commento. Al termine, fai clic su **Invia**.
+1. (Facoltativo) Per aggiungere un commento, vai alla scheda **Commento** e inizia a digitare nella casella **Nuovo commento**. Al termine, fai clic su **Invia**.
    ![Area aggiornamenti](assets/updates-area-in-overview.png)
 
 ## Rispondi a un commento
@@ -101,12 +101,12 @@ Per informazioni più dettagliate sull&#39;aggiunta di aggiornamenti, vedere [Ag
 1. Fare clic sul nome di un elemento di lavoro per aprire la pagina **Panoramica**.
 1. Individua l&#39;area **Aggiornamenti** nell&#39;angolo in basso a destra dello schermo.
 1. Nella scheda **Commenti**, individua il commento a cui desideri rispondere, quindi fai clic su **Rispondi**.
-1. (Condizionale) Se desideri rispondere per inserire il contenuto di un messaggio nella risposta, fai clic sull&#39;icona del menu **Altro** ![Altro menu](assets/more-icon.png) accanto al corpo del messaggio e scegli **Risposta preventivo**.
+1. (Condizionale) Se desideri inserire il contenuto di un messaggio nella risposta, fai clic sull&#39;icona del menu **Altro** ![Altro menu](assets/more-icon.png) accanto al corpo del messaggio e scegli **Risposta preventivo**.
 
 1. Digita la tua risposta, quindi fai clic su **Invia**.
 
    >[!IMPORTANT]
    >
-   >È possibile modificare il commento solo entro 15 minuti dall&#39;invio. Per modificare un commento, fai clic sul menu Altro nell’angolo superiore destro del commento, quindi fai clic su Modifica.
+   >È possibile modificare il commento solo entro 15 minuti dall&#39;invio. Per modificare un commento, fai clic sul menu **Altro** nell&#39;angolo superiore destro del commento, quindi fai clic su **Modifica**.
 
    ![Risposta al commento](assets/reply-to-comment.png)

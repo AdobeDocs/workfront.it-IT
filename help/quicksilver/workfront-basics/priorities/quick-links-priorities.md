@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 {{step1-to-priorities}}
 
-1. Fare clic sul nome di un elemento di lavoro per aprire la pagina Panoramica.
+1. Fare clic sul nome di un elemento di lavoro per aprire la pagina **Panoramica**.
 1. Nella sezione **Collegamenti rapidi**, fare clic su **Aggiungi collegamento**.
 1. Incolla l&#39;URL nella casella **Aggiungi collegamento**.
 1. Fai clic su **Salva**.
@@ -71,16 +71,16 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 {{step1-to-priorities}}
 
-1. Fare clic sul nome di un elemento di lavoro per aprire la pagina Panoramica.
+1. Fare clic sul nome di un elemento di lavoro per aprire la pagina **Panoramica**.
 1. Nella sezione **Collegamenti rapidi**, individua il collegamento da copiare.
-1. Fai clic sull&#39;icona Copia ![icona Copia](assets/copy-icon.png).
+1. Fai clic sull&#39;icona **Copia**![ Copia](assets/copy-icon.png).
    ![Copia collegamento](assets/copy-link.png)
 
 ## Aprire un collegamento rapido
 
 {{step1-to-priorities}}
 
-1. Fare clic sul nome di un elemento di lavoro per aprire la pagina Panoramica.
+1. Fare clic sul nome di un elemento di lavoro per aprire la pagina **Panoramica**.
 1. Nella sezione **Collegamenti rapidi** trovare il collegamento che si desidera aprire.
 1. Fai clic sul collegamento. Il collegamento viene aperto in una nuova scheda.
    ![Apri collegamento](assets/open-link.png)
@@ -89,7 +89,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 {{step1-to-priorities}}
 
-1. Fare clic sul nome di un elemento di lavoro per aprire la pagina Panoramica.
+1. Fare clic sul nome di un elemento di lavoro per aprire la pagina **Panoramica**.
 1. Fai clic su **Modifica dettagli** nell&#39;angolo superiore destro della schermata.
    ![Modifica dettagli](assets/edit-details.png)
-1. Individuare il collegamento da rimuovere, quindi fare clic sull&#39;icona Elimina ![icona Elimina](assets/delete-icon.png).
+1. Trova il collegamento da rimuovere, quindi fai clic sull&#39;icona **Elimina** ![Elimina](assets/delete-icon.png).

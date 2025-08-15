@@ -6,16 +6,16 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c3ff90cc-2a9b-472e-ac6c-88b8ec93c8fb
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 6%
+source-wordcount: '186'
+ht-degree: 4%
 
 ---
 
 # Recuperare il lavoro in Priorità
 
-Catch me up (Rispondi a me), con tecnologia di Workfront AI Assistant, riepiloga aggiornamenti, documenti caricati e altre modifiche di rilievo apportate ai tuoi progetti entro i seguenti intervalli di tempo: 24 ore, 3 giorni, 7 giorni, riducendo il tempo necessario per cercare informazioni sui progetti attivi.
+Catch me up (recupera informazioni), con tecnologia di Workfront AI Assistant, riassume gli aggiornamenti, i documenti caricati e altre modifiche di rilievo apportate ai progetti entro i seguenti intervalli di tempo: 24 ore, 3 giorni, 7 giorni. Questo consente di ridurre il tempo necessario per cercare informazioni sui progetti attivi.
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ Catch me up (Rispondi a me), con tecnologia di Workfront AI Assistant, riepiloga
 
 ## Requisiti di accesso
 
-+++Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,9 +55,12 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Nella parte superiore della pagina, fai clic su **Recuperami**.
    ![pulsante Recuperami](assets/catch-me-up-button.png)
-1. Scegli l’intervallo temporale da riepilogare:
-   1. 24 ore
-   1. 3 giorni
-   1. 7 giorni
+1. Seleziona l’intervallo temporale desiderato:
+   * **Riepiloga le ultime 24 ore**
+   * **Riepiloga gli ultimi 3 giorni**
+   * **Riepiloga gli ultimi 7 giorni**
 
-   Se non riesci a interagire con questo pannello, la tua organizzazione non dispone di un accordo Adobe Gen AI firmato su file.
+   >[!NOTE]
+   >
+   > Se non riesci a interagire con questo pannello, la tua organizzazione non dispone di un accordo Adobe Gen AI firmato su file.
+
