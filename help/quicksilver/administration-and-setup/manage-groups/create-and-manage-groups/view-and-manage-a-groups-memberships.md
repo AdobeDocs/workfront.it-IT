@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: c23b3967cf06aaff1bcd7465ce6c7a0c7b7fe9af
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 1%
+source-wordcount: '750'
+ht-degree: 0%
 
 ---
 
@@ -73,18 +73,18 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      <tr> 
       <td role="rowheader">Aggiungere un utente al gruppo</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Fare clic su <strong>Aggiungi membri</strong> <img src="assets/add-icon-plus-in-circle.png">, iniziare a digitare il nome dell'utente, quindi selezionarlo quando viene visualizzato.</li> 
-        <li value="2"> <p>Ripetere l'operazione per tutti gli altri utenti che si desidera aggiungere.</p> <p>Se si decide di non aggiungere un utente, è possibile fare clic sulla X a destra di un nome.</p> </li> 
-        <li value="3">Al termine, fai clic su <strong>Fine</strong>.</li> 
+       <ol> 
+        <li>Fare clic su <strong>Aggiungi membri</strong> <img src="assets/add-icon-plus-in-circle.png">, iniziare a digitare il nome dell'utente, quindi selezionarlo quando viene visualizzato.</li>
+        <li> <p>Ripetere l'operazione per tutti gli altri utenti che si desidera aggiungere.</p> <p>Se si decide di non aggiungere un utente, è possibile fare clic sulla X a destra di un nome.</p> </li>
+        <li>Al termine, fai clic su <strong>Fine</strong>.</li>
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Rimuovere un utente dal gruppo</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Selezionare uno o più nomi utente, quindi fare clic su <strong>Rimuovi membro</strong><img src="assets/remove-icon---x-in-circle.png">.</li> 
-        <li value="2"> <p>Fare clic su <strong>Rimuovi</strong> nel messaggio di avviso visualizzato.</p> <p>Per trovare un utente da rimuovere dall'elenco, fare clic su <strong>Cerca persone e gruppi nell'elenco</strong>, digitarne il nome nella casella e fare clic sul nome quando viene visualizzato.</p> <p><b>NOTA</b>:  
+       <ol> 
+        <li>Selezionare uno o più nomi utente, quindi fare clic su <strong>Rimuovi membro</strong><img src="assets/remove-icon---x-in-circle.png">.</li> 
+        <li> <p>Fare clic su <strong>Rimuovi</strong> nel messaggio di avviso visualizzato.</p> <p>Per trovare un utente da rimuovere dall'elenco, fare clic su <strong>Cerca persone e gruppi nell'elenco</strong>, digitarne il nome nella casella e fare clic sul nome quando viene visualizzato.</p> <p><b>NOTA</b>:  
           <ul> 
            <li>Se questo è il Gruppo Predefinito per un utente che si desidera rimuovere, è necessario innanzitutto assegnare un altro Gruppo Predefinito nel profilo dell'utente. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/manage-groups/groups-overview/home-groups.md" class="MCXref xref">Panoramica sui gruppi principali</a> e <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modifica il profilo di un utente</a>.</li> 
            <li>Se il gruppo ha un solo amministratore e devi rimuoverlo dal gruppo, devi prima assegnare al gruppo un altro amministratore.</li> 
@@ -95,17 +95,17 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      <tr> 
       <td role="rowheader">Modificare le informazioni del profilo di un utente</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Seleziona uno o più nomi utente, quindi fai clic su <strong>Modifica</strong> <img src="assets/edit-icon.png">.</li> 
-        <li value="2"> <p>Modifica le informazioni sul profilo dell’utente.</p> <p>Per informazioni sulle modifiche che è possibile apportare, vedere <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modificare il profilo di un utente</a>.</p> </li> 
+       <ol> 
+        <li>Seleziona uno o più nomi utente, quindi fai clic su <strong>Modifica</strong> <img src="assets/edit-icon.png">.</li> 
+        <li> <p>Modifica le informazioni sul profilo dell’utente.</p> <p>Per informazioni sulle modifiche che è possibile apportare, vedere <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modificare il profilo di un utente</a>.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Esporta dati di iscrizione utente</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Seleziona uno o più nomi utente, quindi fai clic su <strong>Esporta</strong> <img src="assets/export.png">.</li> 
-        <li value="2"> <p>Esporta i dati come file PDF, Excel o delimitato da tabulazioni.</p> <p>Per ulteriori informazioni sull'esportazione dei dati, vedere <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Esporta dati</a>.</p> </li> 
+       <ol> 
+        <li>Seleziona uno o più nomi utente, quindi fai clic su <strong>Esporta</strong> <img src="assets/export.png">.</li> 
+        <li> <p>Esporta i dati come file delimitato da tabulazioni, PDF o Excel.</p> <p>Per ulteriori informazioni sull'esportazione dei dati, vedere <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Esporta dati</a>.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
@@ -115,9 +115,10 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      <tr> 
       <td role="rowheader">Invia un commento ai membri del gruppo</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Seleziona uno o più nomi utente, quindi fai clic su <strong>Aggiorna</strong> <img src="assets/comment-icon.png">.</li> 
-        <li value="2">Digita il commento.</li> 
+       <ol> 
+        <li>Selezionare almeno un membro del gruppo, quindi fare clic su <strong>Invia aggiornamento all'utente</strong> nella barra degli strumenti.</li> 
+        <li><p>Digita il commento da inviare agli utenti e alla sezione Aggiornamenti dei loro profili utente.</p>
+        <p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">Inviare messaggi diretti ad altri utenti</a>.</p></li> 
        </ol> </td> 
      </tr> 
      <tr> 
