@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 629e7943e7f14e555bf658d6b5c04c2b647b6f83
 workflow-type: tm+mt
-source-wordcount: '13424'
+source-wordcount: '13427'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 * [Documentazione di Workfront](home.md)
 * Annunci sui prodotti {#product-announcements}
    * [Annunci sui prodotti](product-announcements/product-announcements.md)
-   * Rilasci di prodotti {#product-releases}
+   * Versioni dei prodotti {#product-releases}
       * [Panoramica delle versioni di prodotto](product-announcements/product-releases/product-releases.md)
       * [Pianificazione e processo della versione di Adobe Workfront](product-announcements/product-releases/workfront-release-schedule.md)
       * [Prepararsi per una versione trimestrale di Adobe Workfront](product-announcements/product-releases/release-readiness.md)
@@ -118,7 +118,7 @@ ht-degree: 2%
          * [23.3 Altri miglioramenti](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
          * [Aggiornamenti look and feel durante il periodo di rilascio della versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * Versione 23.2 {#release-23-2}
-         * [Panoramica sulla versione di 23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
+         * Panoramica sulla versione di [23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 Miglioramenti per gli amministratori](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
          * [23.2 Miglioramenti di Agile](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
          * [23.2 Miglioramenti alla gestione dei progetti](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
@@ -375,8 +375,8 @@ ht-degree: 2%
             * [Anteprima R1 4](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md)
             * [Anteprima R1 5](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md)
             * [Webinar sulla versione di R1](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md)
-   * Notifiche {#announcements}
-      * [Notifiche](product-announcements/announcements/announcements.md)
+   * Annunci {#announcements}
+      * [Annunci](product-announcements/announcements/announcements.md)
       * [Pianificazione delle funzioni non più supportate](product-announcements/announcements/feature-removal-timeline.md)
       * [Guida all’obsolescenza di Enhanced Analytics](product-announcements/announcements/enhanced-analytics-deprecation.md)
       * [Domande frequenti sulla finestra di manutenzione](product-announcements/announcements/maintenance-window-faq.md)
@@ -682,8 +682,8 @@ ht-degree: 2%
          * [Visualizzare elementi ripristinati](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
          * [Effetti degli oggetti eliminati sulle ore](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
          * [Ripristino di singoli oggetti figlio](administration-and-setup/manage-workfront/manage-deleted-items/restoring-individual-child-objects.md)
-      * Diagnostiche {#diagnostics}
-         * [Diagnostiche](administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)
+      * Diagnostica {#diagnostics}
+         * [Diagnostica](administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)
          * [Utilizza la diagnostica per attivare le automazioni](administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md)
       * Kick-Start {#kick-starts}
          * [Kick-Start](administration-and-setup/manage-workfront/using-kick-starts/kick-starts.md)
@@ -885,6 +885,7 @@ ht-degree: 2%
       * [Utilizzare l’Assistente AI per lavorare con progetti, attività e problemi](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)
       * [Attivare o disattivare l&#39;Assistente AI](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
       * [Compilazione automatica di una richiesta tramite IA](/help/quicksilver/workfront-basics/ai-assistant/autofill-request-with-ai.md)
+      * [Panoramica sullo stato del progetto](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md)
    * Aggiorna elementi di lavoro e visualizza aggiornamenti {#update-work-items-view-updates}
       * [Aggiorna elementi di lavoro e visualizza aggiornamenti: indice articolo](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [Panoramica della sezione Aggiornamenti](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -1504,7 +1505,7 @@ ht-degree: 2%
    * Suggerimenti, trucchi e risoluzione dei problemi per team e gruppi {#tips-tricks-people-teams-groups}
       * [Suggerimenti, trucchi e risoluzione dei problemi per team e gruppi](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
       * [Nome utente già in uso](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
-* Reporting {#reporting}
+* Generazione dei rapporti {#reporting}
    * [Report e dashboard: indice degli articoli](reports-and-dashboards/reports-and-dashboards-overview.md)
    * Dashboard dell’area di lavoro {#canvas-dashboards}
       * [Panoramica delle dashboard di Canvas](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
@@ -1799,7 +1800,7 @@ ht-degree: 2%
    * [Documento limitato e decisione sulla bozza per utenti non pagati - Panoramica](review-and-approve-work/proof-doc-decision-limits.md)
    * Approvazioni lavoro {#work-approvals}
       * [Approvazioni lavoro](review-and-approve-work/manage-approvals/manage-approvals.md)
-      * [Panoramica del processo di approvazione](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
+      * [Panoramica sul processo di approvazione](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
       * [Richiedere le approvazioni dei documenti](review-and-approve-work/manage-approvals/request-document-approvals.md)
       * [Approvazione del lavoro](review-and-approve-work/manage-approvals/approving-work.md)
       * [Visualizza approvazioni](review-and-approve-work/manage-approvals/view-approvals.md)
@@ -2497,7 +2498,7 @@ ht-degree: 2%
       * [Configura e utilizza le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso PKCE](wf-api/api/oauth-app-pkce-flow.md)
       * [Obsolescenza di API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Novità dell&#39;API versione 20](wf-api/api/new-api-version-20.md)
-      * [Novità della versione 19 dell&#39;API](wf-api/api/new-api-version-19.md)
+      * [Novità della versione 19](wf-api/api/new-api-version-19.md) dell&#39;API
       * [Novità della versione 18 dell’API](wf-api/api/new-api-version-18.md)
       * [Novità della versione 17 dell’API](wf-api/api/new-api-version-17.md)
       * [Novità della versione 16 dell’API](wf-api/api/new-api-version-16.md)
