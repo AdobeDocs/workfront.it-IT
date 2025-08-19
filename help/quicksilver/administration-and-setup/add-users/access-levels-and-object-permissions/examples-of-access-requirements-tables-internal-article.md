@@ -215,7 +215,7 @@ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo a
    <td> 
 <p>Qualsiasi pacchetto di Adobe Workfront Workflow e qualsiasi pacchetto di Adobe Workfront Planning</p> 
    </td> </tr>
-<td role="rowheader"><p>Piattaforma Adobe Workfront (****richiamarlo o inserirlo nell’articolo collegato in basso???*****)</p></td> 
+<td role="rowheader"><p>Piattaforma Adobe Workfront (**&#x200B;**&#x200B;richiamarlo o inserirlo nell’articolo collegato in basso???**&#x200B;***)</p></td> 
    <td> 
 <p>Per poter accedere a Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
 <p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata Adobe per Workfront</a>. </p> 
