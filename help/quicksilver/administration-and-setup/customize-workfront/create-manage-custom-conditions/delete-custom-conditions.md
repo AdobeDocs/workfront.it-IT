@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
-source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
+source-git-commit: f62d8f681fa75d2b18d78d7918df46734fa61e2e
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
 
 # Eliminare una condizione personalizzata
-
-{{highlighted-preview}}
 
 Se una condizione personalizzata non è più necessaria, è possibile eliminarla.
 
@@ -62,8 +60,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Selezionare la scheda del tipo di oggetto (**Progetto**, **Attività** o **Problema**) in cui si trova la condizione che si desidera eliminare.
 
-1. Fai clic su <span class="preview">**Elimina** accanto al nome della condizione</span> che desideri eliminare oppure passa il puntatore del mouse sulla condizione e fai clic sull&#39;icona **Elimina** ![Elimina](assets/delete.png) visualizzata all&#39;estrema destra.
-
+1. Fai clic su **Elimina** accanto al nome della condizione che desideri eliminare.
 1. Nella casella **Elimina condizione** visualizzata, selezionare una nuova condizione nell&#39;elenco a discesa per tutti i progetti, le attività o i problemi che utilizzano la condizione che si sta eliminando.
 
    Le condizioni personalizzate sono disponibili nell’elenco a discesa solo se equivalgono alla stessa condizione incorporata di quella che si sta eliminando. Ad esempio, se elimini una condizione che equivale a A rischio, la selezione sarà possibile solo per le condizioni personalizzate che equivalgono anche a A rischio.

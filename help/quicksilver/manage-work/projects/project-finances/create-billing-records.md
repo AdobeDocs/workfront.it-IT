@@ -5,7 +5,7 @@ description: Oltre a impostare le entrate e a tenere traccia delle spese, è pos
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: ec6ddb50d6b9137837c8031b22f213cd6ada70ff
+source-git-commit: 4805b93be7ce3dc098c7e160cdb872446f80ecbd
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 1%
@@ -76,7 +76,7 @@ Quando si pianifica l&#39;utilizzo dei record di fatturazione, tenere presente q
 1. Nella pagina **Progetti**, seleziona un progetto.
 1. Fai clic su **Record fatturazione** nel pannello a sinistra.
 1. Fare clic su **Nuovo record fatturazione**.
-1. Nella casella **Nuovo record fatturazione** visualizzata, specificare le informazioni seguenti:
+1. Nella casella **Nuovo record fatturazione** visualizzata immettere le informazioni seguenti:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -87,7 +87,7 @@ Quando si pianifica l&#39;utilizzo dei record di fatturazione, tenere presente q
       <td>(Obbligatorio) Inserire una descrizione per il record fatturazione.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Stato di Fatturazione</td> 
+      <td role="rowheader">Stato fatturazione</td> 
       <td> <p>Seleziona <strong>Non fatturato</strong> se questo record non è ancora stato fatturato.</p> <p>Seleziona <strong>Fatturato</strong> se il record di fatturazione è stato fatturato.</p> </td> 
      </tr> 
      <tr> 
@@ -124,7 +124,7 @@ Puoi includere le ore registrate per attività, problemi o il progetto nei recor
 Se l’utente che registra le ore o il suo ruolo lavorativo principale è associato a una tariffa di fatturazione ad ore, i ricavi derivanti da queste ore vengono aggiunti al record di fatturazione.
 
 * [Quali ore possono essere aggiunte a un record di fatturazione](#what-hours-can-be-added-to-a-billing-record)
-* [Aggiungi ore a un record fatturazione](#add-hours-to-a-billing-record)
+* [Aggiungere ore a un record fatturazione](#add-hours-to-a-billing-record)
 
 #### Quali ore possono essere aggiunte a una fatturazione {#what-hours-can-be-added-to-a-billing-record}
 

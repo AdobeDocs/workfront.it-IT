@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: a7a4ef39cf5e50d487ec2053e6b02cb2bb06c3f5
+source-git-commit: 8cfb8a6c9a5c512b5722dc6d66840faaeba08c67
 workflow-type: tm+mt
-source-wordcount: '6776'
+source-wordcount: '6894'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,24 @@ In questa pagina sono elencati gli aggiornamenti dell’interfaccia che stiamo a
 Per tutte le altre modifiche apportate ad Adobe Workfront, vedi [Versioni del prodotto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Amministrazione e configurazione
+
+### Aggiornamenti dell’interfaccia per la pagina delle notifiche di revisione e approvazione in Configurazione
+
+**Versione di anteprima: 18 agosto 2025; versione di produzione: 18 agosto 2025**
+
+La pagina delle notifiche di revisione e approvazione è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront.
+
+Per visualizzare queste modifiche, passa a Configurazione > E-mail > Revisione e approvazione.
+
+### Aggiornamenti dell’interfaccia per le finestre di dialogo Aggiungi e Modifica record fatturazione
+
+**Versione di anteprima: 14 agosto 2025; versione di produzione: 18 agosto 2025**
+
+Sono state aggiornate le finestre di dialogo per l’aggiunta e la modifica dei record di fatturazione con una progettazione più moderna che è coerente con altre aree di Workfront.
+
+Per visualizzare queste modifiche, vai a Progetti > Seleziona un progetto > Record fatturazione > Aggiungi un record fatturazione o modifica un record fatturazione
+
+Per informazioni, vedere [Creare record fatturazione](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md).
 
 ### Aggiornamenti dell’interfaccia per la casella Invia aggiornamento all’utente sui gruppi
 
@@ -43,6 +61,7 @@ Abbiamo aggiornato l’aspetto degli elementi eliminati di recente nell’area C
 Per visualizzare questa modifica, vai a Configurazione > Cestino > Eliminato di recente.
 
 Per informazioni, vedere [Ripristinare gli elementi eliminati](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+
 
 ### Aggiornamenti dell’interfaccia per l’area Condizioni in Configurazione
 
@@ -84,7 +103,7 @@ Per visualizzare questa modifica, vai a Configurazione > Tracciamento delle modi
 
 ### Aggiornamenti dell’interfaccia alla pagina Aggiorna utenti per l’SSO in Configurazione
 
-**Anteprima versione: 22 luglio 2025; produzione versione: 28 luglio 2025**
+**Versione di anteprima: 22 luglio 2025; versione di produzione: 18 agosto 2025**
 
 La pagina Aggiornamento utenti per SSO è stata aggiornata con una progettazione più moderna che è coerente con altre aree di Workfront.
 
