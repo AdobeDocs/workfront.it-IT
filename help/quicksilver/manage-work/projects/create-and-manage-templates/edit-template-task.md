@@ -7,9 +7,9 @@ description: Dopo aver creato un modello, è possibile modificare le informazion
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: 5bdf1bd285023d29ee6c61f16a4bd6a622d964d8
 workflow-type: tm+mt
-source-wordcount: '2493'
+source-wordcount: '2491'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ Per informazioni sulla creazione di un modello, vedere [Creare un modello di pro
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.
++++ Espandere per visualizzare i requisiti di accesso. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,7 +52,7 @@ Per informazioni sulla creazione di un modello, vedere [Creare un modello di pro
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto </td> 
-   <td> <p>Consente di gestire le autorizzazioni per un modello. </p> <p>Autorizzazioni di Contribute o superiori per l'attività modello.</p> </td> 
+   <td> <p>Consente di gestire le autorizzazioni per un modello. </p> <p>Impossibile condividere un'attività modello. </p> </td> 
   </tr> 
  </tbody> 
 </table>

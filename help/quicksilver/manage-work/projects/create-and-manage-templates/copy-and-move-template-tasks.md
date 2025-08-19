@@ -6,9 +6,9 @@ description: È possibile copiare o spostare un'attività modello nello stesso m
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bdf1bd285023d29ee6c61f16a4bd6a622d964d8
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2091'
 ht-degree: 3%
 
 ---
@@ -35,13 +35,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modificare l’accesso ai modelli</p> <p><b>NOTA</b>
-
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
-</tr> 
+   <td> <p>Modificare l’accesso ai modelli</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un modello e per l’attività modello </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un modello.</p> <p>Impossibile condividere un'attività modello.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,7 +85,7 @@ Quando si spostano le attività modello, considera quanto segue:
 1. Esegui una delle operazioni seguenti:
    * Fare clic sul nome di un&#39;attività modello per aprirla.
    * Selezionare una o più attività modello nell&#39;elenco.
-1. (Condizionale) Fai clic sull&#39;icona ![Altro **del menu** Altro](assets/more-icon.png) nella parte superiore dell&#39;elenco delle attività modello o a destra del nome dell&#39;attività modello se hai aperto l&#39;attività, quindi fai clic su **Copia in** o **Copia**, a seconda di dove accedi all&#39;opzione Copia da.
+1. (Condizionale) Fai clic sull&#39;icona **Altro** del menu ![Altro](assets/more-icon.png) nella parte superiore dell&#39;elenco delle attività modello o a destra del nome dell&#39;attività modello se hai aperto l&#39;attività, quindi fai clic su **Copia in** o **Copia**, a seconda di dove accedi all&#39;opzione Copia da.
 Viene visualizzata la casella Copia attività modello (Copy Template Task).
    ![Casella attività modello Copu](assets/copy-template-task-box-unshimmed.png)
 1. (Facoltativo) Rinomina l&#39;attività modello nel campo **Nome attività modello**.
@@ -133,7 +131,7 @@ Viene visualizzata la casella Copia attività modello (Copy Template Task).
    Di seguito sono riportati alcuni esempi di vincoli specifici per data:
    <ul>
       <li> Deve ininziare al</li>
-      <li> Deve Finire al</li>
+      <li> Deve essere completato il</li>
       <li> Iniziare non Prima di</li>
       <li> Iniziare non Dopo di</li>
       </ul>
@@ -210,7 +208,7 @@ Viene visualizzata la casella Copia attività modello (Copy Template Task).
 1. Esegui una delle operazioni seguenti:
    * Fare clic sul nome di un&#39;attività modello per aprirla.
    * Selezionare una o più attività modello nell&#39;elenco.
-1. (Facoltativo) Fai clic sull&#39;icona ![Altro **del menu** Altro](assets/more-icon.png) nella parte superiore dell&#39;elenco delle attività modello o a destra del nome dell&#39;attività modello se hai aperto l&#39;attività, quindi fai clic su **Sposta in** o **Sposta**, a seconda di dove accedi all&#39;opzione Sposta da.
+1. (Facoltativo) Fai clic sull&#39;icona **Altro** del menu ![Altro](assets/more-icon.png) nella parte superiore dell&#39;elenco delle attività modello o a destra del nome dell&#39;attività modello se hai aperto l&#39;attività, quindi fai clic su **Sposta in** o **Sposta**, a seconda di dove accedi all&#39;opzione Sposta da.
 Viene visualizzata la casella Sposta attività modello (Move Template Task).
    ![Sposta casella attività modello](assets/move-template-task-box-unshimmed.png)
 
@@ -257,7 +255,7 @@ Viene visualizzata la casella Sposta attività modello (Move Template Task).
    Di seguito sono riportati alcuni esempi di vincoli specifici per data:
    <ul>
       <li> Inizia il</li>
-      <li> Deve Finire al</li>
+      <li> Deve essere completato il</li>
       <li> Iniziare non Prima di</li>
       <li> Iniziare non Dopo di</li>
       </ul>
