@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 994518f7abe519180fa6c3eab6b29165475ab4fc
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    >
    >Le opzioni nel menu a discesa Tipo di azione variano a seconda del registro di controllo selezionato.
 
-   ![Registri di controllo](assets/audit-logs.jpg)
+   ![Registri di controllo](assets/audit-logs.png)
 
 1. Fare clic su **Applica**.
 1. (Facoltativo) Fai clic su **Cancella filtri** per reimpostare le modifiche apportate ai filtri.
@@ -86,7 +86,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 {{step-1-to-setup}}
 
-1. Nel pannello a sinistra, fai clic su **Sistema > Registri di controllo**.
+1. Nel pannello a sinistra, fai clic su **Sistema > Tracciamento delle modifiche > Registri di controllo**.
 
 1. Nel menu a discesa **Log Type**, selezionare un log di controllo.
 
