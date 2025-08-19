@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8f7b0183-6035-4dd4-8e42-fd65485449bf
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 2096cfa0fd4d0e7eeb85dbf00668dc1dd7fb1d99
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -77,9 +77,11 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
      Per ulteriori informazioni, vedere [Modificare il profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) o [Modificare i profili utente in blocco](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md).
 
-   * Seleziona un numero qualsiasi di membri nell&#39;elenco, quindi fai clic su Aggiorna ![icona Commento](assets/comment-icon.png) per aggiungere un commento ai loro profili utente.
+   * Selezionare un numero qualsiasi di membri del sottogruppo nell&#39;elenco, quindi fare clic su **Invia aggiornamento all&#39;utente** per aggiungere un commento ai profili utente.
 
      L’utente o gli utenti ricevono una notifica in-app e una notifica e-mail con il commento. Il commento viene visualizzato nell’area Aggiornamenti del profilo dell’utente.
+
+     Per ulteriori informazioni, vedere [Inviare messaggi diretti ad altri utenti](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md).
 
    * Selezionare un numero qualsiasi di membri nell&#39;elenco, quindi fare clic su Disattiva ![Disattiva utente](assets/deactivate-user.png) o Attiva ![Attiva utente](assets/activate-user.png).
 
