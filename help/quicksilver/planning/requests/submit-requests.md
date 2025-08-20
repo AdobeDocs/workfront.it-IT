@@ -256,7 +256,7 @@ L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi
    >
    >* Se il modulo di richiesta è associato a un’approvazione, questa deve essere concessa prima di poter accedere al record dalla pagina della richiesta.
 
-1. (Facoltativo) Fare clic sul nome del tipo di record ****.
+1. (Facoltativo) Fare clic sul nome del tipo di record **&#x200B;**.
 
    La pagina del tipo di record viene visualizzata in Workfront Planning.
 
@@ -319,7 +319,7 @@ L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi
    >
    >* Se il modulo di richiesta è associato a un’approvazione, questa deve essere concessa prima di poter accedere al record dalla pagina della richiesta.
 
-1. (Facoltativo) Fare clic sul nome del tipo di record ****.
+1. (Facoltativo) Fare clic sul nome del tipo di record **&#x200B;**.
 
    La pagina del tipo di record viene visualizzata in Workfront Planning.
 
