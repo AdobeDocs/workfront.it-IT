@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: ce611ec0c91b114f1a10977970e42fa753f62f22
 workflow-type: tm+mt
-source-wordcount: '2845'
+source-wordcount: '2868'
 ht-degree: 2%
 
 ---
@@ -47,6 +47,8 @@ Per impostare un progetto o un modello come coda di richieste, è necessario mod
 Questo articolo descrive come configurare un progetto come coda di richieste in cui gli utenti possono inviare le richieste. L’impostazione dei dettagli della coda per un modello è simile all’impostazione nel progetto.
 
 Per informazioni su come inviare una nuova richiesta a una coda di richieste, vedere [Copia e invia richieste](../create-requests/copy-and-submit-requests.md).
+
+Per informazioni su come configurare un modulo di richiesta in Workfront Planning, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Requisiti di accesso
 
@@ -443,10 +445,10 @@ Per creare una coda di richieste:
 
    * **Durata predefinita:** Immettere un numero per la durata, quindi selezionare dal menu a discesa una delle seguenti unità di durata:
 
-      * Giorni
+      * Days
       * Ore
-      * Minuti
-      * Settimane
+      * Minutes
+      * Weeks
 
    La durata predefinita è il tempo necessario in genere per completare un problema inviato a questa coda di richieste. Questa impostazione diventa predefinita per tutti i problemi in arrivo e può essere modificata manualmente.
 La durata predefinita di un problema è la stessa delle ore pianificate sul problema. La Data di completamento pianificata del problema viene calcolata in base a questo campo.\

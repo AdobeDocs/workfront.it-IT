@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 4f8a8c263f53ff30f99062dedc10d674b867b0b7
+source-git-commit: 359131cef04fdb46def64428a7a693c3f00b2cd4
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2568'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-È possibile creare un modulo di richiesta e associarlo a un tipo di record in Adobe Workfront Planning. È quindi possibile condividere il modulo con altri utenti, che possono inviare richieste per la creazione di record.
+È possibile creare un modulo di richiesta e associarlo a un tipo di record in Adobe Workfront Planning. È quindi possibile condividere il modulo con altri utenti, che possono inviare richieste per creare record di quel tipo.
 
 In questo articolo viene descritto come un manager area di lavoro può creare un modulo di richiesta associato a un tipo di record.
 
@@ -34,7 +34,7 @@ Per informazioni sull&#39;invio di una richiesta a un tipo di record per la crea
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.
++++ Espandere per visualizzare i requisiti di accesso. 
 
 <table style="table-layout:auto">
  <col>
@@ -135,7 +135,11 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
    * I campi formula che fanno riferimento ai campi Valuta visualizzano i valori senza tenere conto dei tassi di cambio.
    * I valori dei campi Paragrafo visualizzano un valore &quot;N/A&quot; nel modulo di richiesta e visualizzano tag HTML invece del testo formattato nella pagina dei dettagli della richiesta.
 
-## Creare un modulo di richiesta per un tipo di record
+## Inizia a creare un modulo di richiesta
+
+È possibile creare un modulo di richiesta dal tipo di record associato al modulo, <span class="preview">o dall&#39;area Richieste di Workfront.</span>
+
+### Creare un modulo di richiesta da un tipo di record
 
 {{step1-to-planning}}
 
@@ -149,12 +153,51 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
 
 1. Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record nell&#39;intestazione della pagina, quindi fai clic su **Crea modulo di richiesta** o **Gestisci moduli di richiesta**, se disponi già di un modulo e desideri crearne di nuovi.
 1. (Condizionale) Se si desidera aggiungere un altro modulo, fare clic su **Nuovo modulo di richiesta**.
-1. Aggiorna il nome del modulo di richiesta. Per impostazione predefinita, il nome del modulo è **Modulo senza titolo**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
+
+   Viene visualizzata la casella Crea modulo di richiesta (Create request form).
+
+1. Nella casella Crea modulo di richiesta aggiornare il nome del modulo. Per impostazione predefinita, il nome del modulo è **Modulo senza titolo**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Facoltativo) Aggiungi una **Descrizione** per il modulo di richiesta.
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. Fai clic su **Crea**. Il modulo di richiesta per il tipo di record selezionato viene aperto nella scheda Modulo.
+1. Fai clic su **Crea**.
+
+   Il modulo di richiesta per il tipo di record selezionato viene aperto nella scheda Modulo.
+1. Continua con [Configurare il modulo](#configure-the-form).
+
+<div class="preview">
+
+### Creare un modulo di richiesta dall’area Richieste di Workfront
+
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Requests**.
+1. Nell&#39;angolo superiore destro della schermata, fare clic su **Moduli di richiesta**.
+1. (Condizionale) Se stai modificando un modulo di richiesta esistente, selezionalo dall&#39;elenco, quindi continua con [Configurare il modulo](#confgure-the-form).
+1. Se stai creando un nuovo modulo di richiesta, fai clic su **Nuovo modulo di richiesta** nell&#39;angolo superiore destro della schermata.
+
+   Viene visualizzata la casella Crea modulo richiesta (Create request form)
+
+1. Nella casella Crea modulo di richiesta aggiornare il nome del modulo. Per impostazione predefinita, il nome del modulo è **Modulo senza titolo**.
+1. Nel campo Tipi di oggetto selezionare il tipo di record a cui verrà associato il modulo di richiesta. I tipi di record vengono raggruppati nell&#39;area di lavoro in cui sono presenti.
+1. (Facoltativo) Aggiungi una **Descrizione** per il modulo di richiesta.
+
+   <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
+
+1. Fai clic su **Crea**.
+
+   Il modulo di richiesta per il tipo di record selezionato viene aperto nella scheda Modulo.
+1. Continua con [Configurare il modulo](#configure-the-form).
+
+</div>
+
+## Configurare il modulo
+
+1. Inizia a creare o modificare un modulo di richiesta, come descritto in una delle sezioni seguenti:
+
+   * [Creare un modulo di richiesta da un tipo di record](#create-a-request-form-from-a-record-type)
+   * <span class="preview">[Crea un modulo di richiesta dall&#39;area Richieste di Workfront](#create-a-request-form-from-the-requests-area-of-workfront)</span>
+
+   Il modulo di richiesta per il tipo di record selezionato viene aperto nella scheda Modulo.
 
    ![Modalità di modifica modulo richiesta campagne](assets/campaigns-request-form-edit-mode.png)
 
@@ -291,7 +334,7 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
    >* Un modulo contenente i seguenti tipi di campi non può essere condiviso pubblicamente:
    >
    >     * Connessioni Workfront o AEM Assets
-   >     * Persone
+   >     * People
    >
 
 1. Scegli una **data di scadenza collegamento**.
