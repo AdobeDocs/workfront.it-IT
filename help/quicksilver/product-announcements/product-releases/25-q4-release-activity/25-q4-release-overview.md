@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: ff0567aabcf885d3bee6c1808302a9cd9445ed04
+source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
 workflow-type: tm+mt
-source-wordcount: '1425'
-ht-degree: 3%
+source-wordcount: '1573'
+ht-degree: 4%
 
 ---
 
@@ -39,10 +39,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Miglioramenti di Adobe Workfront
 
 * [Miglioramenti per gli amministratori](#administrator-enhancements)
-* [Miglioramenti a documenti e bozze](#document-and-proofing-enhancements)
-  <!--* [Home enhancements](#home-enhancements)-->
+* [Miglioramenti di documenti e bozze](#document-and-proofing-enhancements)
+* [Miglioramenti Home](#home-enhancements)
 * [Miglioramenti al progetto](#project-enhancements)
-  <!--* [Requests enhancements](#requests-enhancements)-->
+* [Richieste di miglioramenti](#requests-enhancements)
 * [Miglioramenti alla gestione delle risorse](#resource-management-enhancements)
 * [Altri miglioramenti](#other-enhancements)
 
@@ -112,64 +112,64 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
-<!--### Home enhancements
+### Miglioramenti Home
 
 <table style="table-layout:auto">
   <tbody>
    <tr>
-        <td><strong>Feature</strong>
+        <td><strong>Funzionalità</strong>
         </td>
-        <td><strong>Preview</strong></td>
-        <td><strong>Fast release</strong></td>
-        <td><strong>Quarterly</strong></td>
+        <td><strong>Anteprima</strong></td>
+        <td><strong>Rilascio rapido</strong></td>
+        <td><strong>Ogni trimestre</strong></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-home.md" class="MCXref xref" xrefformat="{para}">Updates to the My Requests widget in Home</a><p></p>
-            <p>To create a more seamless experience between Workfront and Workfront Planning, we've redesigned the My Requests widget in Home. The new widget features the following changes:
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-home.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti al widget Richieste personali nella Home</a><p></p>
+            <p>Per creare un'esperienza più fluida tra Workfront e Workfront Planning, abbiamo riprogettato il widget Richieste personali in Home. Il nuovo widget presenta le seguenti modifiche:
             <ul>
-                <li>Improved layout and organization of request information</li>
-                <li>Enhanced filtering and sorting options</li>
-                <li>Integration with Workfront Planning for better visibility into resource allocation</li>
+                <li>Miglioramento del layout e dell'organizzazione delle informazioni sulle richieste</li>
+                <li>Opzioni di filtro e ordinamento migliorate</li>
+                <li>Integrazione con Workfront Planning per una migliore visibilità nell’allocazione delle risorse</li>
             </ul>
             </p>
         </td>
-        <td>July 31, 2025</td>
-        <td>August 14, 2025</td>
-        <td>October 16, 2025</td>
+        <td>venerdì 21 agosto 2025</td>
+        <td>venerdì 11 settembre 2025</td>
+        <td>venerdì 16 ottobre 2025</td>
     </tr>     
   </tbody>
-</table> 
+</table>
 
-### Requests enhancements
+### Richieste di miglioramenti
 
 <table style="table-layout:auto">
   <tbody>
    <tr>
-        <td><strong>Feature</strong>
+        <td><strong>Funzionalità</strong>
         </td>
-        <td><strong>Preview</strong></td>
-        <td><strong>Fast release</strong></td>
-        <td><strong>Quarterly</strong></td>
+        <td><strong>Anteprima</strong></td>
+        <td><strong>Rilascio rapido</strong></td>
+        <td><strong>Ogni trimestre</strong></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Updates to Requesting experience</a><p></p>
-            <p>To create a better user experience when making requests in Workfront and Workfront Planning, we've updated the requesting experience. Now you can:
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti all'esperienza richiedente</a><p></p>
+            <p>Per migliorare l’esperienza utente nell’esecuzione delle richieste in Workfront e Workfront Planning, è stata aggiornata la sezione delle richieste. Ora è possibile:
             <ul>
-                <li>View Workfront and Workfront Planning requests in a single list.</li>
-                <li>Filter submitted requests based on criteria you specify.</li>
-                <li>Search for and select Workfront request queues and Workfront Planning forms in a consolidated experience.</li>
-                <li>Hide and reorder columns in the submitted requests list.</li>
+                <li>Visualizzare le richieste di Workfront e Workfront Planning in un unico elenco.</li>
+                <li>Filtra le richieste inviate in base ai criteri specificati.</li>
+                <li>Cerca e seleziona le code di richieste di Workfront e i moduli di Workfront Planning in un’esperienza consolidata.</li>
+                <li>Nascondi e riordina le colonne nell’elenco delle richieste inviate.</li>
             </ul>
             </p>
         </td>
-        <td>July 31, 2025</td>
-        <td>August 14, 2025</td>
-        <td>October 16, 2025</td>
+        <td>venerdì 21 agosto 2025</td>
+        <td>venerdì 11 settembre 2025</td>
+        <td>venerdì 16 ottobre 2025</td>
     </tr>     
   </tbody>
-</table> -->
+</table>
 
 ### Miglioramenti al progetto
 
@@ -182,6 +182,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Rilascio rapido</strong></td>
         <td><strong>Ogni trimestre</strong></td>
     </tr>
+      <!--<tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Create project intake forms in Workfront</a>
+            <p>To make it easier to create requested projects without converting from issues, we've created Project intake forms. You can configure these intake forms with specific fields, templates, and custom forms, and set approvers for project creation. Then, when a user uses this form, the project is configured to your specifications and sent for approval.</p>
+        </td>
+        <td>August 21, 2025</td>
+        <td>September 11, 2025</td>
+        <td>October 16, 2025</td>
+    </tr> -->
   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Nuove espressioni aggiunte ai campi formula in Planning e campi personalizzati calcolati in Workfront</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
@@ -340,7 +349,7 @@ Per offrire integrazioni più stabili e scalabili, stiamo passando a un approcci
 * Workfront per Salesforce.
 
 È consigliabile utilizzare l&#39;automazione e l&#39;integrazione di Workfront per le esigenze di integrazione dell&#39;organizzazione con Google Workspace.
-Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### API versione 20
 
@@ -352,7 +361,7 @@ Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianific
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Aggiornamenti dei corsi di formazione
 

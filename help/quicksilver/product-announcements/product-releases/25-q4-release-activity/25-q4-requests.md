@@ -3,10 +3,9 @@ title: Richieste di miglioramenti per il quarto trimestre 2025
 description: Richieste di miglioramenti per il quarto trimestre 2025
 author: Courtney
 feature: Product Announcements
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
+exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
+source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -23,8 +22,8 @@ Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rila
 
 >[!NOTE]
 >
->* Anteprima: 31 luglio 2025
->* Versione rapida di produzione: 14 agosto 2025
+>* Anteprima: 21 agosto 2025
+>* Versione rapida di produzione: 11 settembre 2025
 >* Produzione per tutti i clienti: 16 ottobre 2025
 
 Per migliorare l’esperienza utente nell’esecuzione delle richieste in Workfront e Workfront Planning, è stata aggiornata la sezione delle richieste. Ora è possibile:
