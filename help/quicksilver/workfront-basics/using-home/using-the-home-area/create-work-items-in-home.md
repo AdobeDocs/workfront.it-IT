@@ -6,9 +6,9 @@ description: È possibile creare elementi di lavoro e progetti dall'area [!UICON
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 04a9524c4ee9066e7b8d3b47712d70fcfc119b32
+source-git-commit: e3e297bc548338032bc8f321ad3e1214be9cdee4
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '878'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Da Home, puoi
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -51,6 +51,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
    <td> <p>Accesso a [!UICONTROL Edit] o versione successiva per le attività</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>[!DNL Product]</strong></td> 
+   <td> <ul><li>Adobe Workfront</li><li>È necessario disporre di Adobe Workfront Planning per visualizzare le richieste o i moduli di richiesta di Planning</td> 
   </tr> 
  </tbody> 
 </table>
@@ -130,17 +134,17 @@ Puoi aggiungere un problema a un progetto esistente direttamente dall’area Hom
 Puoi creare una richiesta direttamente dall’area Home:
 
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
-1. (Condizionale) Aggiungi il widget **Richieste personali** alla schermata iniziale. Fai clic su **Personalizza** e trova **Le mie richieste**.
+1. (Condizionale) Per aggiungere il widget **Richieste personali** alla schermata iniziale. Fai clic su **Personalizza** e trova **Le mie richieste**.
 1. Vai al widget **Richieste personali**, quindi fai clic su **Nuove**.
-   ![Crea nuova richiesta](assets/create-new-request.png)
+   ![Crea nuova richiesta](assets/create-new-request-new.png)
 
-1. Nella finestra di dialogo **Nuova richiesta**, inizia a digitare il nome della coda di richieste.
+1. Nella finestra di dialogo **Nuova richiesta**, iniziare a digitare il nome della coda di richieste di Workfront o del modulo di richiesta di Workfront Planning nella barra di ricerca, quindi selezionarlo quando viene visualizzato.
 1. Compila i campi pertinenti.
 1. Fai clic su **Invia**.
 
 Per ulteriori informazioni sull&#39;invio di richieste, vedere [Creare e inviare richieste](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-## Crea un Progetto
+## Creare un progetto
 
 Puoi creare un progetto direttamente dall’area Home:
 

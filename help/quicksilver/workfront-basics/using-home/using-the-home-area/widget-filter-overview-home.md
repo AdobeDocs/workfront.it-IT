@@ -6,14 +6,18 @@ description: È possibile scegliere tra diversi widget per personalizzare il con
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
+source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 12%
+source-wordcount: '1092'
+ht-degree: 11%
 
 ---
 
 # Panoramica dei filtri dei widget Home
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 Per trovare e organizzare il lavoro, potete utilizzare i filtri dei seguenti widget:
 
@@ -35,7 +39,7 @@ Potete usare i seguenti filtri nel widget Progetti personali:
 
 <table>
   <tr>
-    <td>Attiva</td>
+    <td>Attivo</td>
     <td>Visualizza i progetti con i seguenti stati: Attuale, Pianificato e Approvato </td>
   </tr>
   <tr>
@@ -43,7 +47,7 @@ Potete usare i seguenti filtri nel widget Progetti personali:
     <td>Visualizza i progetti in Stato A rischio </td>
   </tr>
   <tr>
-    <td>Progetti indietro rispetto allo Schedule</td>
+    <td>Progetti in ritardo rispetto alla pianificazione</td>
     <td>Visualizza i progetti nello stato Indietro</td>
   </tr>
   <tr>
@@ -227,7 +231,7 @@ Puoi utilizzare i seguenti filtri nel widget Problemi personali:
     <td>Visualizza i problemi di mia proprietà</td>
   </tr>
   <tr>
-    <td>Aperti</td>
+    <td>Open</td>
     <td>Visualizza i problemi che non hanno una data di completamento</td>
   </tr>
   <tr>
@@ -242,16 +246,18 @@ Puoi utilizzare i seguenti filtri nel widget Problemi personali:
 
 ## Le mie richieste
 
+Nell’ambiente di produzione:
+
 <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Tutti</td> 
+      <td role="rowheader">Tutto</td> 
       <td>Visualizza tutte le richieste inviate, indipendentemente dallo stato o da chi le ha inviate.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Aperti</td> 
+      <td role="rowheader">Open</td> 
       <td> <p>Visualizza tutte le richieste inviate 
       <ul>
       <li>Attualmente aperte, indipendentemente da chi le ha inviate. Solo le richieste per le quali disponi almeno delle autorizzazioni di visualizzazione vengono visualizzate qui se non le hai inviate personalmente.</li>
@@ -277,6 +283,16 @@ Puoi utilizzare i seguenti filtri nel widget Problemi personali:
      </tr> 
     </tbody> 
    </table>
+
+<div class="preview">
+
+Nell’ambiente di anteprima:
+
+Il widget Richieste personali dispone di un filtro personalizzabile che consente di controllare quali richieste vengono visualizzate nel widget. Puoi configurare questo filtro per campi e valori diversi e sovrapporre le condizioni utilizzando gli operatori AND e OR.
+
+Per istruzioni sulla configurazione del filtro nel widget Richieste personali, vedere [Filtrare le richieste](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md#filter-requests) nell&#39;articolo Utilizzare il widget Richieste personali.
+
+</div>
 
 ## Il mio lavoro
 

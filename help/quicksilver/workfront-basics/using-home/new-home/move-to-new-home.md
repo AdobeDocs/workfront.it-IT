@@ -7,13 +7,13 @@ author: Courtney
 hide: true
 hidefromtoc: true
 feature: Get Started with Workfront
-source-git-commit: 28bb652f371d3168ffe03c39fc33e29d710605db
+exl-id: cfb3de96-0710-44e9-a934-05877fa75b51
+source-git-commit: f5ffb83d2a9cab48a4ce623088e11e3e13d8f744
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1632'
 ht-degree: 5%
 
 ---
-
 
 # Passa dalla home legacy alla nuova home
 
@@ -163,6 +163,8 @@ Di seguito sono riportati gli 11 widget attualmente disponibili tra cui sceglier
 * **Richieste personali**\
     Visualizza tutte le richieste inviate, un filtro per visualizzare solo le richieste aperte e un pulsante che apre il pannello di riepilogo di una richiesta.
 
+  <span class="preview">Nell&#39;ambiente di anteprima questo widget visualizza tutte le richieste inviate, un filtro per visualizzare solo le richieste che soddisfano i criteri specificati e un pulsante che consente di ridisporre le colonne nel widget.</span>
+
 * **Richieste team**\
     Mostra tutte le richieste in sospeso per i team di cui fai parte, ordinate per team, nonché i pulsanti per assegnare direttamente una richiesta a un utente o per lavorarci di persona.
 
@@ -227,7 +229,7 @@ Per impostazione predefinita, la home page è compilata con alcuni widget specif
         <td>Il mio lavoro, le mie menzioni, le mie cose da fare</td>
     </tr>
     <tr>
-        <td>Revisiona</td>
+        <td>Rivedi</td>
         <td>Il mio lavoro, menzioni</td>
     </tr>
     <tr>
@@ -268,9 +270,9 @@ Procedendo in questo modo, gli utenti avranno il tempo di adattarsi alla nuova e
 
 * [Gestisci il tuo lavoro con il widget Il mio lavoro]
 
-**Corso di formazione**
+**Formazione**
 
-* [Rimuovi, aggiungi e ridisponi i widget nell&#39;esercitazione Home](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
+* [Rimuovi, aggiungi e ridisponi i widget nell&#39;esercitazione Home](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * [Nozioni di base sui lavoratori in Adobe Workfront](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]

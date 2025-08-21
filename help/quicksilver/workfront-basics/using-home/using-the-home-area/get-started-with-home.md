@@ -6,9 +6,9 @@ description: Home ti aiuta a gestire il tuo lavoro. Puoi personalizzare questo s
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
+source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1093'
 ht-degree: 4%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 4%
 >[!IMPORTANT]
 >
 >Il contenuto di questo articolo è stato sostituito dal contenuto dell’articolo Introduzione alla nuova Home. La nuova Home verrà ora indicata come Home.
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
 La nuova esperienza Home in Adobe Workfront mira a migliorare l’esperienza Home corrente e al contempo a fornire un modo più flessibile per concentrarti sul lavoro giusto.
 
@@ -54,6 +56,9 @@ Di seguito sono riportati gli 11 widget attualmente disponibili tra cui sceglier
 
 * **Richieste personali**\
     Visualizza tutte le richieste inviate, un filtro per visualizzare solo le richieste aperte e un pulsante che apre il pannello di riepilogo di una richiesta.
+
+  <span class="preview">Nell&#39;ambiente di anteprima questo widget visualizza tutte le richieste inviate, un filtro per visualizzare solo le richieste che soddisfano i criteri specificati e un pulsante che consente di ridisporre le colonne nel widget.</span>
+
 
 * **Richieste team**\
     Mostra tutte le richieste in sospeso per i team di cui fai parte, ordinate per team, nonché i pulsanti per assegnare direttamente una richiesta a un utente o per lavorarci di persona.
@@ -113,7 +118,7 @@ Per impostazione predefinita, la home page è compilata con alcuni widget specif
         <td>Il mio lavoro, le mie menzioni, le mie cose da fare</td>
     </tr>
     <tr>
-        <td>Revisiona</td>
+        <td>Rivedi</td>
         <td>Il mio lavoro, menzioni</td>
     </tr>
     <tr>
