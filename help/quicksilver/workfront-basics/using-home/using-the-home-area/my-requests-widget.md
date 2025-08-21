@@ -5,13 +5,13 @@ title: Utilizzare il widget Richieste personali
 description: È possibile inviare richieste nel widget Richieste personali. Puoi anche personalizzare il widget con filtri e colonne.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 68379a6c41db1b694e2968d93de259cb7b0d8bc4
+exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
+source-git-commit: 2fe55f61bd24ebb3ecfe09fff29c4aad2ca33608
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '825'
 ht-degree: 3%
 
 ---
-
 
 # Utilizzare il widget Richieste personali
 
@@ -19,11 +19,16 @@ ht-degree: 3%
 
 <span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
+>[!IMPORTANT]
+>
+>Questo articolo descrive il nuovo widget Richieste personali. Per visualizzare il nuovo widget, è necessario che sia abilitata la nuova esperienza di richiesta.
+>>Puoi abilitare la nuova esperienza di richiesta nell’area Richieste.
+
 Il widget Richieste personali visualizza le richieste inviate all&#39;organizzazione. Puoi filtrare le richieste, cercare richieste specifiche o regolare l’ordine e la visibilità delle colonne. Puoi anche creare una nuova richiesta dal widget Richieste personali.
 
 >[!NOTE]
 >
->Quando viene caricato, il widget Richieste personali visualizza fino a 50 richieste. Per visualizzare altre richieste, scorri l’elenco verso il basso.
+>* Quando viene caricato, il widget Richieste personali visualizza fino a 50 richieste. Per visualizzare altre richieste, scorri l’elenco verso il basso.
 
 ## Requisiti di accesso
 
@@ -137,8 +142,3 @@ Per cercare richieste specifiche nel widget Richieste personali:
    Le richieste che contengono il termine vengono evidenziate in arancione.
 
 1. (Facoltativo) Per passare alle richieste evidenziate, fai clic sulle frecce su o giù nella barra di ricerca.
-
-
-
-
-

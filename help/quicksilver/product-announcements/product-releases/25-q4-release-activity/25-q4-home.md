@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2d8c5d2b-a026-4741-b907-aac4c0eac98f
-source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
+source-git-commit: 2fe55f61bd24ebb3ecfe09fff29c4aad2ca33608
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -31,5 +31,7 @@ Per creare un&#39;esperienza più fluida tra Workfront e Workfront Planning, abb
 * Nel widget vengono visualizzate sia le richieste di Workfront che quelle di Workfront Planning.
 * Il filtro è ora più personalizzabile. Ora è possibile filtrare per valori di campo specifici utilizzando le regole And e Or.
 * Potete nascondere o ridisporre le colonne nel widget.
+
+Per visualizzare il nuovo widget, è necessario che sia abilitata la nuova esperienza di richiesta. Puoi abilitare la nuova esperienza di richiesta nell’area Richieste.
 
 Per ulteriori informazioni sul nuovo widget Richieste personali, vedere [Utilizzare il widget Richieste personali](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
