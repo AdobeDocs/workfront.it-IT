@@ -272,7 +272,7 @@ Procedendo in questo modo, gli utenti avranno il tempo di adattarsi alla nuova e
 
 **Formazione**
 
-* [Rimuovi, aggiungi e ridisponi i widget nell&#39;esercitazione Home](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
+* [Rimuovi, aggiungi e ridisponi i widget nell&#39;esercitazione Home](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * [Nozioni di base sui lavoratori in Adobe Workfront](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]
