@@ -1,13 +1,13 @@
 ---
-title: Aggiungi tipi di record in più aree di lavoro
+title: Aggiungi tipi di record esistenti
 description: I tipi di record sono i tipi di oggetto di Adobe Workfront Planning. In Workfront Planning è possibile importare un tipo di record esistente da un'altra area di lavoro.
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 2%
+source-wordcount: '635'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ author: Alina
 recommendations: noDisplay, noCatalog
 -->
 
-# Aggiungi tipi di record per più aree di lavoro
+# Aggiungi tipi di record esistenti
 
 <span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
@@ -35,7 +35,7 @@ Per informazioni, vedere [Configurare le funzionalità tra aree di lavoro divers
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.  
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -109,6 +109,7 @@ Considerazioni durante l&#39;aggiunta di tipi di record esistenti da un&#39;altr
    * Registra connessioni
 
 * È possibile modificare il tipo di record, inclusi i relativi campi, solo nell&#39;area di lavoro originale. Non è possibile modificarlo dalle aree di lavoro in cui è stato aggiunto.
+* I record aggiunti da tutte le aree di lavoro saranno visibili a tutti gli utenti che vi accedono da tutte le aree di lavoro, anche se vengono creati in un&#39;area di lavoro in cui non dispongono di autorizzazioni.
 
 ## Creare un tipo di record da un tipo di record esistente
 

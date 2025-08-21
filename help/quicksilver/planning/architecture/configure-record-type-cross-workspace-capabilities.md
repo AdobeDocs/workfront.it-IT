@@ -4,9 +4,9 @@ description: È possibile abilitare un tipo di record per l'aggiunta a un'altra 
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1021'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 # Configurare le funzionalità tra aree di lavoro diverse per i tipi di record
 
-<!--this is linked to the UI in the info icon of when you create a record type from a global record type-->
+<!--this is linked to the UI in the info icon when you enable a record to be either centralized or connectable-->
 
 <span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
@@ -127,7 +127,9 @@ Per informazioni, vedere uno degli articoli seguenti:
 
 +++   
 
-## Configurare l’aggiunta di un tipo di record ad altre aree di lavoro
+## Configurare tipi di record centralizzati
+
+<!--this is a UI term; don't change the title of this section-->
 
 In qualità di responsabile del workspace, è possibile configurare un tipo di record da aggiungere ad altre aree di lavoro quando si crea o si modifica un tipo di record.
 
@@ -180,7 +182,9 @@ Oppure
 
      Questo campo è di sola lettura e non può essere eliminato.
 
-## Configurare la connessione a un tipo di record da altre aree di lavoro
+## Configura tipi di record collegabili
+
+<!--this is a UI term; don't change the title of this section-->
 
 È possibile configurare un tipo di record a cui connettersi da altre aree di lavoro quando si crea o si modifica il tipo di record.
 

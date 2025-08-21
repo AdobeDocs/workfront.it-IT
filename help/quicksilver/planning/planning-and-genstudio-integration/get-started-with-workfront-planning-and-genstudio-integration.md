@@ -4,16 +4,12 @@ description: L’area di lavoro GenStudio for Performance Marketing è disponibi
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '1359'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
-
-# Guida introduttiva all’integrazione di Adobe Workfront Planning ed Adobe GenStudio for Performance Marketing
-
-<!--update the text in the title everywhere this article is linked from - it changed a few times-->
 
 <!--Better metadata, at publishing:
 ---
@@ -29,13 +25,22 @@ recommendations: noDisplay, noCatalog
 
 <!--use this article to make this one similar to it: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/review-approval-integrations/wf-proof-and-genstudio-->
 
+
+# Guida introduttiva all’integrazione di Adobe Workfront Planning ed Adobe GenStudio for Performance Marketing
+
+<!--update the text in the title everywhere this article is linked from - it changed a few times-->
+
+<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 Le organizzazioni che utilizzano sia Adobe Workfront Planning che Adobe GenStudio for Performance Marketing spesso definiscono concetti di marketing come Campagne, Prodotti e Personas in modo più dettagliato rispetto a quanto supportato da GenStudio per impostazione predefinita.
 
 Esiste un&#39;integrazione nativa tra GenStudio for Performance Marketing e Workfront Planning. Questa integrazione consente agli utenti di Workfront Planning di gestire Campagne, Prodotti, Utenti tipo, Attivazioni, Canali e Aree geografiche utilizzati in GenStudio. Consente inoltre di configurare GenStudio per fare riferimento ai tipi di record esistenti di Workfront Planning, creando un flusso di lavoro di marketing più connesso e coerente.
 
-Questa integrazione consente di evitare l’immissione di dati duplicati, mantenere l’allineamento tra le attività di pianificazione e attivazione e supporta il sistema di record di marketing.
-
 L’area di lavoro GenStudio for Performance Marketing è disponibile in Adobe Workfront Planning quando la tua azienda ha acquistato entrambi i prodotti.
+
+## Vantaggi dell’integrazione
 
 Con l&#39;integrazione tra Workfront Planning e GenStudio for Performance Marketing, è possibile:
 
@@ -44,6 +49,8 @@ Con l&#39;integrazione tra Workfront Planning e GenStudio for Performance Market
 * Visualizzare l&#39;area di lavoro di GenStudio in Workfront Planning.
 * Modificare le campagne in GenStudio e aggiornare le stesse informazioni in tempo reale in Workfront Planning.
 * Modifica le campagne in Workfront Planning e aggiorna le stesse informazioni in tempo reale in GenStudio.
+* Evita la duplicazione dei dati.
+* Mantenere l&#39;allineamento tra le attività di pianificazione e attivazione.
 
 ## Requisiti di integrazione
 
@@ -70,25 +77,16 @@ Con l&#39;integrazione tra Workfront Planning e GenStudio for Performance Market
 </col> 
 <tbody> 
     <tr> 
-<tr> 
-<td> 
-   <p> Prodotti</p> </td> 
+    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe GenStudio for Performance Marketing</p></li>
-   </ul></td> 
-  </tr>   
-<tr> 
-   <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
-   <td> 
-<p>Qualsiasi pacchetto di flusso di lavoro Workfront</p>  
-<p>Qualsiasi pacchetto di Workfront Planning</p>
-   </td> </tr>
+<p>Qualsiasi pacchetto di flusso di lavoro Adobe Workfront</p>
+<p>Qualsiasi pacchetto di Adobe Workfront Planning</p>
 
+</td> </tr>
 <tr> 
    <td role="rowheader"><p>Pacchetto Adobe GenStudio</p></td> 
    <td> 
-<p>???</p>
+<p>??? GEN STUDIO HA UN PACCHETTO CHE SUPPORTA QUESTO???</p>
 
 </td> </tr>
 
@@ -102,22 +100,28 @@ Con l&#39;integrazione tra Workfront Planning e GenStudio for Performance Market
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
-   <td><p> Amministratore di sistema</p>
+   <td><p> Standard</p>
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licenza Adobe GenStudio</p></td> 
-   <td><p> ???</p>
+   <td><p> ??? GEN STUDIO RICHIEDE UNA LICENZA SPECIFICA CHE SUPPORTI QUESTO???</p>
   </td> 
   </tr> 
   <tr> 
+<td> 
+   <p> Prodotti aggiuntivi</p> </td> 
+   <td> 
+   <p> Adobe GenStudio for Performance Marketing</p></td> 
+  </tr>   
+  <tr> 
    <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
    <td> <p>Nessun controllo del livello di accesso per Adobe Workfront Planning</p>  
-   <p>Configurazione per GenStudio: ???</p> 
+   <p>Configurazione per GenStudio: ???QUAL È IL LIVELLO DI ACCESSO NECESSARIO PER GENS???</p> 
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni oggetto*</p></td> 
    <td>  
    <p>In Workfront Planning: </p>
    <ul>
@@ -161,23 +165,25 @@ Le sezioni seguenti descrivono quanto segue:
 
 ### Tipi di record
 
-* È possibile modificare le informazioni sui tipi di record, ad esempio l&#39;aspetto, da GenStudio in Workfront Planning.
+* È possibile modificare le informazioni sui tipi di record di GenStudio, ad esempio l&#39;aspetto, da Workfront Planning.
 * È possibile condividere i tipi di record di GenStudio con altri utenti in Planning.
 * È possibile creare tipi di record da Planning nell&#39;area di lavoro di GenStudio. Questi tipi di record rimangono solo in Planning. Non vengono visualizzati in GenStudio.
 * I tipi di record sincronizzati con GenStudio visualizzano un indicatore visivo in Workfront Planning che indica chiaramente che i tipi di record vengono importati da GenStudio.
 
 ### Record
 
+Per i record che appartengono a tipi di record GenStudio visualizzati sia in GenStudio che in Workfront Planning, è possibile effettuare le operazioni riportate di seguito.
+
 * È possibile aggiungere o eliminare record in GenStudio in modo che diventino visibili o vengano rimossi da Workfront Planning.
 * È possibile aggiungere o eliminare record in Workfront Planning in modo che diventino visibili o vengano rimossi da GenStudio.
-* Quando si eliminano record da Workfront Planning o GenStudio, questi vengono inseriti nel contenitore Eliminato di recente per 30 giorni. GenStudio non dispone di un raccoglitore eliminato di recente.
+* Quando si eliminano record da Workfront Planning o GenStudio, questi vengono inseriti nel contenitore Eliminazione recente di Workfront Planning per 30 giorni. GenStudio non dispone di un raccoglitore eliminato di recente.
 * Il ripristino di un record dal raccoglitore Eliminato di recente lo riporta in Workfront Planning e GenStudio.
 * È possibile aggiungere record da Workfront Planning nei modi seguenti:
 
    * Manualmente, da zero, da qualsiasi vista utilizzando il pulsante Nuovo record
    * Importandoli utilizzando un file CSV o Excel
    * Manualmente, in linea, nella vista a tabella
-   * Manualmente, direttamente nella vista timeline
+   * Manualmente, direttamente nella visualizzazione Timeline o Calendario <!--ensure the calendar is released when this releases-->
 
   Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
 * Non è possibile creare o eliminare record di attivazione da Workfront Planning.
@@ -189,7 +195,7 @@ Le sezioni seguenti descrivono quanto segue:
 
 ### Campi
 
-* I campi record vengono importati da GenStudio. È possibile modificare le impostazioni dei campi in Workfront Planning.
+* I campi record vengono importati da GenStudio. È possibile modificare le impostazioni dei campi di GenStudio da Workfront Planning.
 * È possibile creare campi per i tipi di record GenStudio in Workfront Planning se si dispone dell&#39;accesso Gestisci in Gen Studio.
 * Quando si creano campi per i tipi di record di GenStudio in Planning, questi sono visibili dalle seguenti aree:
    * Visualizzazioni di pianificazione
@@ -204,13 +210,12 @@ Le sezioni seguenti descrivono quanto segue:
 * Non è possibile eliminare i campi importati da GenStudio da Workfront Planning.
 * È possibile eliminare i campi creati in Workfront Planning per i tipi di record di GenStudio da Workfront Planning.
 
-
 ### I campi Creato da e Approvato da
 
 * È possibile aggiungere i campi Creato da e Approvato da per i tipi di record GenStudio in Workfront Planning da Workfront Planning.
 * I record visualizzati nei tipi di record Canale e Regione visualizzeranno &quot;Sistema&quot; come Creato dall’utente. Questi record vengono creati automaticamente quando l&#39;area di lavoro di GenStudio viene creata in Workfront Planning.
 * Nei record creati in GenStudio dopo la disponibilità dell&#39;area di lavoro in Workfront Planning verrà visualizzato il nome dell&#39;utente IMS che ha creato il record nel campo Creato da, anche se l&#39;utente ha creato i record in GenStudio e non è un utente di Workfront.
-* Nel campo Approvato da viene visualizzato il nome dell&#39;approvatore quando viene inviato un modulo di richiesta per creare un record.
+* Nel campo Approvato da viene visualizzato il nome dell&#39;approvatore quando viene sottomesso un modulo di richiesta per creare un record nel tipo di record GenStudio in Workfront Planning.
 
 ### Viste
 
@@ -218,7 +223,7 @@ Le sezioni seguenti descrivono quanto segue:
 
   Per informazioni, vedere [Gestire le visualizzazioni dei record](/help/quicksilver/planning/views/manage-record-views.md).
 
-* È possibile condividere la vista di un tipo di record di GenStudio come si condivide una vista per un tipo di record di Planning.
+* La condivisione della visualizzazione di un tipo di record di GenStudio è identica alla condivisione di una visualizzazione per un tipo di record di Planning.
 * Non è possibile creare più viste in GenStudio.
 
 ### Connessioni
@@ -233,7 +238,8 @@ Le sezioni seguenti descrivono quanto segue:
 
 ### Moduli di richiesta e automazioni
 
-* In Workfront Planning è possibile aggiungere moduli di richiesta e automazioni a un tipo di record GenStudio.
+* È possibile aggiungere moduli di richiesta a un tipo di record GenStudio in Workfront Planning.
+* In Workfront Planning è possibile configurare le automazioni per un tipo di record GenStudio.
 
 ### Ambiente di anteprima
 

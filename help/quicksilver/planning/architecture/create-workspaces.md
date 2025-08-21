@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '694'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Per informazioni generali sulle aree di lavoro, vedere [Panoramica delle aree di
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.
++++ Espandere per visualizzare i requisiti di accesso. 
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -92,7 +92,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 *Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Crea un’area di lavoro
 
@@ -154,5 +154,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    Per informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
    Per ulteriori informazioni sulla modifica e l&#39;eliminazione di tipi di record in un&#39;area di lavoro, vedere [Modifica aree di lavoro](/help/quicksilver/planning/architecture/edit-workspaces.md).
+
+1. (Facoltativo) Fare clic sulla freccia indietro a sinistra della nuova area di lavoro per aprire la pagina principale di Planning. Viene creata una nuova scheda dell&#39;area di lavoro per la nuova area di lavoro nella scheda **Aree di lavoro attive**.
+
+   Il nome dell’utente che ha creato l’area di lavoro viene salvato nella scheda dell’area di lavoro come Proprietario.
+
+   >[!NOTE]
+   >
+   >Per gli utenti attualmente sottoposti a transizione ad Adobe Identity Management System (IMS), le aree di lavoro create da utenti solo di Workfront che non sono utenti IMS vengono visualizzate come create da **System**.
+   >
+   >Per informazioni su IMS, consulta [Esperienza unificata Adobe per Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 

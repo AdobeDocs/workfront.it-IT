@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
 source-wordcount: '1624'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -27,7 +27,7 @@ Per informazioni sulle visualizzazioni di Adobe Workfront Planning e su come ges
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.
++++ Espandere per visualizzare i requisiti di accesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -94,7 +94,7 @@ Per informazioni sulle visualizzazioni di Adobe Workfront Planning e su come ges
 
 *Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Gestire una visualizzazione calendario {#manage-a-calendar-view}
 
@@ -110,6 +110,14 @@ Considera quanto segue:
    * Se le date di inizio e di fine non contengono valori, i record non vengono visualizzati nel calendario
    * Quando le date di inizio o fine non hanno un valore, il record viene visualizzato come evento di un giorno
    * Se la data di inizio è successiva alla data di fine, il record non viene visualizzato nel calendario.
+
+<!--
+<div class="preview">
+
+* You can create and edit records in the calendar view. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+
+</div>
+-->
 
 Per gestire una vista calendario:
 
