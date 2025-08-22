@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
+source-git-commit: bb2479b936a9064a4df34ac3e840dd78cae297b6
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 1%
+source-wordcount: '1193'
+ht-degree: 2%
 
 ---
 
@@ -47,7 +47,7 @@ Puoi gestire gli utenti del progetto e i team del modello aggiungendoli (solo pe
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.
++++ Espandere per visualizzare i requisiti di accesso. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -176,7 +176,7 @@ If users that don't fulfill any role on the project want to be notified about ce
    >
    >  Per consentire agli utenti di visualizzare le e-mail degli utenti, nel proprio livello di accesso deve essere abilitata l’impostazione Visualizza informazioni di contatto. Per informazioni, vedere [Concedere l&#39;accesso agli utenti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-1. Fare clic su **Aggiungi**.
+1. Fai clic su **Aggiungi**.
 
    Gli utenti ottengono le autorizzazioni di visualizzazione per il progetto e ricevono notifiche sul progetto come parte del team del progetto.
 
@@ -193,7 +193,7 @@ If users that don't fulfill any role on the project want to be notified about ce
    Gli utenti vengono rimossi e non assegnati a elementi di lavoro incompleti.
 
    Per ulteriori informazioni, vedere la sezione [Considerazioni per la rimozione di utenti da un team di progetto](#considerations-for-removing-users-from-a-project-team) in questo articolo.
-1. (Facoltativo) Per inviare un aggiornamento per questo progetto agli utenti, fai clic su Aggiorna tutto per inviare l’aggiornamento a tutti gli utenti del team
+1. (Facoltativo) Per inviare un aggiornamento per questo progetto agli utenti, fai clic su **Aggiorna tutto** per inviare l&#39;aggiornamento a tutti gli utenti del team
 
    Oppure
 
@@ -235,7 +235,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 1. Fai clic su **Persone** nel pannello a sinistra.
 
-1. Seleziona uno o più utenti nell&#39;elenco, quindi fai clic su **Rimuovi** per rimuoverli dal team.
+1. Seleziona uno o più utenti nell&#39;elenco, quindi fai clic sull&#39;icona **Rimuovi** per rimuoverli dal team.
 
 1. Fare clic su **Sì, Rimuovi utenti selezionati** per confermare e rimuovere gli utenti.
 
@@ -243,11 +243,11 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    Per ulteriori informazioni, vedere la sezione [Considerazioni per la rimozione di utenti da un team di progetto](#considerations-for-removing-users-from-a-project-team) in questo articolo.
 
-1. (Facoltativo) Per inviare un aggiornamento agli utenti, fare clic su Aggiorna tutto per inviare l&#39;aggiornamento a tutti gli utenti nell&#39;elenco
+1. (Facoltativo) Per inviare un aggiornamento agli utenti, fare clic su **Aggiorna tutti** per inviare l&#39;aggiornamento a tutti gli utenti dell&#39;elenco
 
    Oppure
 
-   Selezionare uno o più utenti nell&#39;elenco, quindi fare clic su **Aggiorna**.
+   Selezionare uno o più utenti nell&#39;elenco, quindi fare clic su **Invia aggiornamento all&#39;utente**.
 
    <!--update screen shot for unshim production, notice the text above the box - it needs to say "Post an update to each person's profile"-->
 
@@ -266,11 +266,11 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    Gli utenti possono ricevere una notifica e-mail, se sono abilitati per loro, e una notifica in-app sul nuovo aggiornamento.
 
-1. (Facoltativo) Fai clic su **Esporta** per esportare l&#39;elenco degli utenti in un file
+1. Fai clic sull&#39;icona **Esporta** ![Icona Esporta](assets/export-icon.png) per esportare l&#39;elenco degli utenti in un file
 
    Oppure
 
-   Seleziona gli utenti, quindi fai clic su **Esporta** per esportare solo utenti specifici.
+   Seleziona gli utenti, quindi fai clic sull&#39;icona **Esporta** per esportare solo utenti specifici.
 
 ## Considerazioni per la rimozione di utenti da un team di progetto
 
