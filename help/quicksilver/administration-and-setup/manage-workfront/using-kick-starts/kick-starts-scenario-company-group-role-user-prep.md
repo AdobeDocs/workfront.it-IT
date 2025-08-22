@@ -307,4 +307,4 @@ Nelle tabelle seguenti vengono visualizzati gli utenti da importare e diversi at
 > 
 >Se un utente non esce dallo stato Disattivato e In attesa di approvazione entro pochi minuti, puoi aggiungere direttamente il batch di utenti a Adobe Admin Console.
 >
->Per istruzioni, vedere [Gestione di più utenti | Caricamento CSV in blocco](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) nella documentazione di Adobe.
+>Per istruzioni, vedere [Gestione di più utenti | Caricamento CSV in blocco](https://helpx.adobe.com/it/enterprise/using/bulk-upload-users.html) nella documentazione di Adobe.
