@@ -28,7 +28,7 @@ ht-degree: 1%
 >   Gli amministratori di gruppi possono utilizzare questa procedura per creare utenti e inviare l’utente per l’approvazione dell’amministratore.
 >
 >* **Se l&#39;organizzazione utilizza il Single Sign-On (SSO)**, è consigliabile creare utenti e assegnarli a Workfront in Adobe Admin Console. La creazione di questi utenti in Workfront è possibile, ma potrebbero verificarsi problemi durante il trasferimento di tali informazioni a Adobe Admin Console, in base alla configurazione di Admin Console dell’organizzazione.
->  >   Dopo aver creato l’utente in Adobe Admin Console, puoi configurare le relative informazioni in Workfront, ad esempio assegnando ruoli, gruppi, team e livelli di accesso.
+>  &#x200B;>   Dopo aver creato l’utente in Adobe Admin Console, puoi configurare le relative informazioni in Workfront, ad esempio assegnando ruoli, gruppi, team e livelli di accesso.
 >* **Se l&#39;organizzazione non utilizza il Single Sign-On (SSO)**, è possibile aggiungere utenti non amministratori di sistema direttamente in Workfront. È possibile aggiungere utenti in Adobe Admin Console, ma aggiungerli in Workfront consente di impostarne il livello di accesso durante la creazione, con un conseguente risparmio di tempo.
 
 
