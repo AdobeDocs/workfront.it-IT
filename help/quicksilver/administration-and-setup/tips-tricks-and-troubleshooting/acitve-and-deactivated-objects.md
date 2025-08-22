@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: d2dd148c8b7a08f4ea9a13e325a33f753eea2d7d
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '687'
 ht-degree: 2%
 
 ---
@@ -96,17 +96,9 @@ Per informazioni, vedere [Creare e modificare società](../../administration-and
 
 Un utente deve essere attivo per essere visualizzato in qualsiasi campo di completamento di tutti gli altri oggetti quando esegue assegnazioni o li condivide.
 
-Puoi disattivare gli utenti dalla pagina utente o durante la modifica di un utente.
+È necessario disattivare gli utenti tramite [!UICONTROL Adobe Admin Console].
 
-Per informazioni sulla disattivazione degli utenti, vedere [Disattivare o riattivare un utente](../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
-
->[!IMPORTANT]
->
->Se la tua organizzazione è stata integrata in [!DNL Adobe Business Platform], devi disattivare gli utenti tramite [!UICONTROL Adobe Admin Console].
->
->Per istruzioni sulla disattivazione di un utente in [!UICONTROL Adobe Admin Console], vedere la sezione &quot;Rimuovi utenti&quot; nell&#39;articolo [Gestisci gli utenti singolarmente](https://helpx.adobe.com/it/enterprise/using/manage-users-individually.html) o contattare l&#39;amministratore [!UICONTROL Adobe Admin Console].
->
->Per un elenco delle procedure che differiscono a seconda che l&#39;organizzazione sia stata integrata in [!DNL Adobe Business Platform], vedere [Differenze di amministrazione basate su Platform (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+Per istruzioni sulla disattivazione di un utente in [!UICONTROL Adobe Admin Console], vedere la sezione &quot;Rimuovi utenti&quot; nell&#39;articolo [Gestisci gli utenti singolarmente](https://helpx.adobe.com/it/enterprise/using/manage-users-individually.html) o contattare l&#39;amministratore [!UICONTROL Adobe Admin Console].
 
 ## Team
 

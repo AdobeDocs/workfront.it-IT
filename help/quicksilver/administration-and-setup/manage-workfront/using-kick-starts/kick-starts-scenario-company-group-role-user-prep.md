@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 59431354076a0909fb1878d68cf266f08d2114b3
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 3%
+source-wordcount: '1206'
+ht-degree: 4%
 
 ---
 
@@ -74,7 +74,7 @@ Nelle tabelle seguenti vengono visualizzati gli utenti da importare e diversi at
 | **Cognome** | Manning |
 | **Nome utente/E-mail** | mailto:cmanning@foo.com |
 | **Password** | updateMe |
-| **Accesso** | Membro team |
+| **Accedere ad** | Membro team |
 | **Società** | &lt;*Società>* |
 | **Gruppo Predefinito** | Marketing |
 | **Mansione** | Analista aziendale |
@@ -89,7 +89,7 @@ Nelle tabelle seguenti vengono visualizzati gli utenti da importare e diversi at
 | **Cognome** | Campbell |
 | **Nome utente/E-mail** | jcampbell@foo.com |
 | **Password** | updateMe |
-| **Accesso** | Project Manager |
+| **Accedere ad** | Project Manager |
 | **Società** | &lt;*Società>* |
 | **Gruppo Predefinito** | Marketing |
 | **Mansione** | Project Manager |
@@ -104,7 +104,7 @@ Nelle tabelle seguenti vengono visualizzati gli utenti da importare e diversi at
 | **Cognome** | Sullivan |
 | **Nome utente/E-mail** | jsullivan@foo.com |
 | **Password** | updateMe |
-| **Accesso** | Help Desk |
+| **Accedere ad** | Help Desk |
 | **Società** | &lt;*Società>* |
 | **Gruppo Predefinito** | Vendite |
 | **Mansione** | Agente di vendita |
@@ -119,7 +119,7 @@ Nelle tabelle seguenti vengono visualizzati gli utenti da importare e diversi at
 | **Cognome** | Lewis |
 | **Nome utente/E-mail** | mlewis@foo.com |
 | **Password** | updateMe |
-| **Accesso** | Manager portfolio |
+| **Accedere ad** | Manager portfolio |
 | **Società** | &lt;*Società>* |
 | **Gruppo Predefinito** | Finanz |
 | **Mansione** | Controller |
@@ -134,7 +134,7 @@ Nelle tabelle seguenti vengono visualizzati gli utenti da importare e diversi at
 | **Cognome** | Reynolds |
 | **Nome utente/E-mail** | preynolds@foo.com |
 | **Password** | updateMe |
-| **Accesso** | Project Manager |
+| **Accedere ad** | Project Manager |
 | **Società** | *Società>* |
 | **Gruppo Predefinito** | Marketing |
 | **Mansione** | IT |
@@ -149,10 +149,10 @@ Nelle tabelle seguenti vengono visualizzati gli utenti da importare e diversi at
 | **Cognome** | Andrews |
 | **Nome utente/E-mail** | randrews@foo.com |
 | **Password** | updateMe |
-| **Accesso** | Amministratore |
+| **Accedere ad** | Amministratore |
 | **Società** | *Società>* |
 | **Gruppo Predefinito** | Responsabile risorse |
-| **Mansione** | nessuno |
+| **Mansione** | Nessuno |
 
 {style="table-layout:auto"}
 
@@ -305,6 +305,6 @@ Nelle tabelle seguenti vengono visualizzati gli utenti da importare e diversi at
 >
 >Gli utenti importati in Workfront vengono creati con lo stato Disattivato e In attesa di approvazione.
 > 
->Se la tua organizzazione è stata migrata a Adobe Admin Console e un utente non esce dallo stato Disattivato e In attesa di approvazione entro pochi minuti, puoi aggiungere direttamente il batch di utenti a Adobe Admin Console.
+>Se un utente non esce dallo stato Disattivato e In attesa di approvazione entro pochi minuti, puoi aggiungere direttamente il batch di utenti a Adobe Admin Console.
 >
->Per istruzioni, vedere [Gestione di più utenti | Caricamento CSV in blocco](https://helpx.adobe.com/it/enterprise/using/bulk-upload-users.html) nella documentazione di Adobe.
+>Per istruzioni, vedere [Gestione di più utenti | Caricamento CSV in blocco](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) nella documentazione di Adobe.

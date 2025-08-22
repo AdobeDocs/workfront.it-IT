@@ -1,7 +1,7 @@
 ---
-source-git-commit: 4e7aa16333c7a24ee2ef67fb964be70ed45cd369
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '2648'
+source-wordcount: '2645'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
-## Anteprima evidenziata per l'articolo completo {#highlighted-preview-article-level}
+## Anteprima evidenziata per l&#39;articolo completo {#highlighted-preview-article-level}
 
 <span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
@@ -92,9 +92,9 @@ Per assicurarsi di associare il gruppo corretto al team, posizionare il puntator
 
 >[!IMPORTANT]
 >
->La procedura descritta in questa pagina si applica solo alle organizzazioni che non hanno ancora effettuato l’onboarding in Adobe Admin Console.
+>La procedura descritta in questa pagina è stata rimossa perché si applicava solo alle organizzazioni che non erano ancora state caricate in Adobe Admin Console.
 >
->Se la tua organizzazione è stata integrata in Adobe Admin Console, consulta [Differenze di amministrazione basate su Platform (Adobe Workfront/Adobe Business Platform)](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Tutte le organizzazioni Workfront ora sono state integrate in Adobe Admin Console.
 
 ## Passaggio 1 - Accesso agli utenti {#step-1-to-users}
 

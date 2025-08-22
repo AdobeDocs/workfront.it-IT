@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 1%
+source-wordcount: '19'
+ht-degree: 26%
 
 ---
 
@@ -21,130 +21,132 @@ ht-degree: 1%
 
 {{important-admin-console-onboard}}
 
-Quando l&#39;accesso Single Sign-On (SSO) è abilitato nell&#39;istanza Adobe Workfront, gli utenti possono accedere a Workfront con le credenziali SSO.
+<!--REMOVE ME MARCH 2026-->
 
-Se disponi di un sistema esistente già popolato con utenti associati a credenziali SSO, puoi importare gli ID degli utenti in Workfront importando un file con valori delimitati da virgole (CSV) in Workfront.
+<!--When single sign-on (SSO) is enabled in your Adobe Workfront instance, your users can log into Workfront with their SSO credentials.
 
-Per ulteriori informazioni sull&#39;integrazione di Workfront con un sistema SSO, vedere [Panoramica del single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+If you have an existing system that is already populated with users associated with SSO credentials, you can import the users' IDs into Workfront by importing a comma-separated values (CSV) file into Workfront.
+
+For more information about integrating Workfront with an SSO system, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 
-## Requisiti di accesso
+## Access requirements
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Expand to view access requirements for the functionality in this article.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td>Qualsiasi</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td><p>Nuovo: Standard</p><p>Oppure</p><p>Corrente: Piano</p></td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p><p>Or</p><p>Current: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Devi essere un amministratore di Workfront.</p>  </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Nomi utenti SSO
+## SSO usernames
 
-A seconda della soluzione SSO utilizzata, il nome utente nell’ambiente SSO può essere chiamato in uno dei seguenti modi:
+Depending on what SSO solution you use, the username in your SSO environment can be called any of the following:
 
-* Nome utente SSO
-* ID federazione
-* Nome utente federazione
+* SSO Username
+* Federation ID 
+* Federation Username
 
-Indipendentemente dalla chiamata del nome utente nell&#39;ambiente SSO, il valore del campo viene memorizzato nel campo Nome utente SSO dell&#39;oggetto Utente.
+Regardless of what the username is called in your SSO environment, the value of the field is stored in the SSO Username field, on the User object.
 
-Affinché gli utenti possano utilizzare le credenziali SSO per accedere a Workfront, è necessario aggiornare il profilo in modo che includa il nome utente SSO, oltre al nome utente Workfront.
+In order for your users to be able to use their SSO credentials to log in to Workfront, you must update their profile to include their SSO Username, in addition to their Workfront username.
 
-In qualità di amministratore di Workfront, puoi aggiornare in blocco il campo Nome utente SSO per gli utenti di Workfront importando un elenco di nomi utente in Workfront. Tale elenco deve:
+As a Workfront administrator, you can bulk update the SSO Username field for your Workfront users by importing a list of usernames into Workfront. This list must:
 
-* Contengono il GUID (Workfront User ID) e il nome utente SSO corrispondente per ogni utente
-* Essere salvato come file CSV o TSV.
+* Contain the Workfront User ID (GUID) as well as the corresponding SSO Username for each user
+* Be saved as a CSV or a TSV file. 
 
-Questo processo aggiorna i nomi utente SSO esistenti in Workfront oppure, se ne manca uno per gli utenti, ne aggiunge uno nuovo.
+This process either updates existing SSO Usernames in Workfront, or adds a new SSO Username, if one is missing for users.
 
-## Preparare il file di importazione {#prepare-the-import-file}
+## Prepare the import file {#prepare-the-import-file}
 
-È possibile iniziare a preparare il file di importazione creando un report di tutti gli utenti in Workfront che devono avere i campi Nome utente SSO aggiornati.
+You can start preparing your import file by building a report of all users in Workfront that must have their SSO Username fields updated.
 
-1. Creare un rapporto utente in Workfront.
+1. Build a user report in Workfront.
 
-   Per istruzioni sulla creazione di report utente in Workfront, vedere [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   For instructions on building user reports in Workfront, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). 
 
-1. Seleziona i campi seguenti nel rapporto:
+1. Select the following fields in your report:
 
-   | Campo | Spiegazione |
+   |Field|Explanation|
    |---|---|
-   | Nome | Il nome completo dell’utente di Workfront. |
-   | ID | L&#39;ID è il GUID alfanumerico di Workfront. |
-   | Nome utente SSO | Aggiunta del campo Nome utente SSO per garantire che non siano presenti nomi utente sovrascritti con l&#39;importazione. Questo campo deve essere vuoto per tutti gli utenti, se gli utenti non sono ancora stati aggiornati per l&#39;SSO. |
+   | Name |The full name of the Workfront user. |
+   | ID |The ID is the Workfront alphanumeric GUID. |
+   | SSO Username |Adding the SSO Username field to ensures that are no usernames you are overwriting with your import. This field should be blank for all users, if your users have not yet been updated for SSO. |
 
-   ![Utenti con nome utente SSO ma senza accesso](assets/users-with-sso-username-and-no-sso-access-only-field.png)
+   ![Users with SSO username but no access](assets/users-with-sso-username-and-no-sso-access-only-field.png)
 
-1. Salva il rapporto.
-1. Fai clic su **Esporta** nella parte superiore del report ed esporta il report in Excel.
-1. Aprire il file Excel esportato e aggiungere i nomi utente SSO per ogni utente nel report nella colonna Nome utente SSO.
+1. Save the report. 
+1. Click **Export** at the top of the report and export the report to Excel. 
+1. Open the exported Excel file, and add your SSO Usernames for each user in the report in the SSO Username column.
 
    >[!IMPORTANT]
    >
-   >I nomi utente SSO fanno distinzione tra maiuscole e minuscole.
+   >SSO usernames are case-sensitive.
 
-1. Elimina tutte le colonne nel file di Excel, ad eccezione delle colonne **ID** e **Nome utente SSO**.
+1. Delete all columns in the Excel file, except  the **ID** and the **SSO Username** columns. 
 
-1. Elimina le intestazioni di colonna e accertati che non vi siano righe vuote nella parte superiore del rapporto.
+1. Delete the column headers and ensure there are no blank rows at the top of the report.
 
-   Il file utilizzato per aggiornare gli utenti Workfront con i nomi utente SSO **deve** contenere solo 2 colonne, nell&#39;ordine seguente:
+   The file you are using for updating your Workfront users with the SSO usernames **must** contain just 2 columns, in this order:
 
-   * Nella prima colonna deve essere visualizzato l&#39;ID utente di Workfront (il GUID utente trovato in Workfront).
-   * La seconda colonna deve contenere il nome utente SSO visualizzato nel sistema SSO.
-   * Le colonne non devono avere intestazioni e non devono essere presenti righe vuote nella parte superiore dell’elenco dei nomi.
+   * The first column must display the Workfront user ID (the user GUID as found in Workfront).
+   * The second column must contain the SSO Username, as it displays in your SSO system.
+   * The columns must have no headers, and there must not be any empty rows at the top of the list of names.
 
-     ![Aggiorna CSV utenti](assets/update-users-for-sso-csv-file-for-import.png)
+     ![Update users CSV](assets/update-users-for-sso-csv-file-for-import.png)
 
-1. Salva il rapporto come file CSV o TSV sul computer.
+1. Save the report as a CSV or TSV file on your computer.
 
-## Aggiornare gli utenti per l&#39;SSO {#update-your-users-for-sso}
+## Update your users for SSO {#update-your-users-for-sso}
 
-Il processo di aggiornamento degli utenti per l&#39;SSO aggiunge il campo Nome utente SSO agli utenti di Workfront, se non ne è presente uno, oppure aggiorna il valore in tale campo se è già presente un valore associato agli utenti.
+The process of updating users for SSO either adds the SSO Username field to your Workfront users if one is not present, or updates the value in that field if there is a value already associated with the users.
 
 {{step-1-to-setup}}
 
-1. Fai clic su **Sistema**, quindi seleziona **Aggiorna utenti per SSO**.
+1. Click **System**, then select **Update Users For SSO**.
 
-1. Fare clic su **Scegli file** per cercare il file preparato.
+1. Click **Choose File** to browse for the file you prepared.
 
-   Per ulteriori informazioni su come preparare il file, vedere [Preparare il file di importazione](#prepare-the-import-file).
+   For more information about how to prepare this file, see [Prepare the import file](#prepare-the-import-file).
 
-1. Seleziona il file dal punto in cui è stato salvato nel computer, quindi fai clic su **Apri**.
+1. Select the file from where it is saved on your computer, then click **Open**.
 
-   In questo modo vengono inserite le credenziali SSO in Workfront, consentendo a tutti gli utenti di accedere a Workfront utilizzando le proprie credenziali SSO.
+   This inserts the SSO credentials to Workfront, enabling all users to log in to Workfront using their SSO credentials.
 
-   L&#39;impostazione **Consenti solo autenticazione `<SSO Configuration>`** è abilitata per tutti gli utenti inclusi nel file CSV. In questo modo gli utenti devono effettuare l&#39;accesso tramite SSO.
+   The **Only Allow `<SSO Configuration>` Authentication** setting is enabled for all users included in the CSV. This ensures that users must log in through SSO.
 
-## Verifica l&#39;SSO in base ai nomi utente Workfront degli utenti
+## Verify SSO against your users' Workfront usernames
 
-Per istruzioni sulla creazione di un report utente contenente informazioni sul nome utente SSO, vedere [Preparare il file di importazione](#prepare-the-import-file).
+For instructions on building a user report containing SSO Username information, see [Prepare the import file](#prepare-the-import-file).
 
-1. Eseguire un report utente contenente informazioni sul nome utente SSO.
+1. Run a user report containing SSO Username information.
 
-   La colonna Nome utente SSO viene compilata per ogni utente.
+   Notice that the SSO Username column is populated for each user.
 
-1. Verificare che i valori della colonna Nome utente SSO corrispondano al nome utente SSO nel server SSO.
-1. Se la colonna Nome utente SSO è vuota, aggiorna i nomi utente SSO degli utenti.
+1. Ensure that the values for the SSO Username column match the SSO Username on your SSO server.
+1. If the SSO Username column is blank, update your users' SSO Usernames.
 
-   ![Utenti con campo SSO](assets/users-with-sso-field-updated.png)
+   ![Users with SSO field](assets/users-with-sso-field-updated.png)
 
-   Per istruzioni sull&#39;aggiornamento degli utenti per l&#39;SSO, vedere [Aggiornare gli utenti per l&#39;SSO](#update-your-users-for-sso).
+   For instructions on updating your users for SSO, see [Update your users for SSO](#update-your-users-for-sso).-->

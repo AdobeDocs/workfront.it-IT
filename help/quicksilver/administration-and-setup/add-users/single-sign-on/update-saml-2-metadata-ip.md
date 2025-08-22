@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '26'
 ht-degree: 0%
 
 ---
@@ -19,141 +19,143 @@ ht-degree: 0%
 
 {{important-admin-console-onboard}}
 
-Nelle sezioni seguenti viene descritto come aggiornare i metadati SAML (Security Assertion Markup Language) 2.0 quando si utilizza Active Directory Federation Services (ADFS) come provider di identità.
+<!--REMOVE ME MARCH 2026-->
 
-## Requisiti di accesso
+<!--The following sections describe how to update your Security Assertion Markup Language (SAML) 2.0 metadata when using Active Directory Federation Services (ADFS) as your identity provider.
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+## Access requirements
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td>Qualsiasi</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td>Piano</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Devi essere un amministratore di Workfront.</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## Utilizzare ADFS come provider di identità
+## Use ADFS as your identity provider
 
-È possibile aggiornare i metadati ADFS prima di Adobe Workfront, aggiornando il certificato SAML 2.0 o dopo. Se scegli di aggiornare i metadati ADFS prima di Workfront che aggiorni il certificato SAML 2.0, sono necessari passaggi aggiuntivi.
+You can update your ADFS metadata prior to Adobe Workfront updating the SAML 2.0 certificate or after. If you choose to update the ADFS metadata prior to Workfront updating the SAML 2.0 certificate, additional steps are required.
 
-* [Aggiorna i metadati ADFS](#update-your-adfs-metadata)
-* [Forza l&#39;aggiornamento dei metadati ADFS](#force-your-adfs-metadata-to-update)
+* [Update your ADFS metadata](#update-your-adfs-metadata) 
+* [Force your ADFS metadata to update](#force-your-adfs-metadata-to-update)
 
-### Aggiornare i metadati ADFS {#update-your-adfs-metadata}
+### Update your ADFS metadata {#update-your-adfs-metadata}
 
-Per impostare l&#39;aggiornamento automatico dei metadati ADFS, completare i passaggi descritti in questa sezione.
+To set your ADFS metadata to update automatically, complete the steps in this section.
 
-Per impostazione predefinita, ADFS è configurato per verificare automaticamente la disponibilità di aggiornamenti per tutti i metadati di attendibilità del componente. Tuttavia, l&#39;impostazione predefinita è impostata per il polling solo ogni 24 ore. È possibile modificare questo valore con i comandi di powershell.
+By default, ADFS is configured to automatically check for updates to all of its relying party trust metadata; however, the default is set to poll only every 24 hours. You can change this value with powershell commands.
 
-1. Accedere al server ADFS e aprire ADFS Management Console.
-1. Nel pannello a sinistra, espandi **ADFS 2.0,**, quindi espandi **Relazioni di attendibilità.**
+1. Log in to the ADFS server and open the ADFS Management Console. 
+1. In the left-hand panel, expand **ADFS 2.0,** then expand **Trust Relationships.**
 
-1. Fare clic sulla cartella **Trust relying party**.
-1. Selezionare l&#39;attendibilità del componente precedentemente configurato per l&#39;utilizzo con Workfront, quindi nel pannello di destra fare clic su **Aggiorna da metadati federativi**.
-1. (Condizionale) Se questa opzione è disabilitata (il che significa che l&#39;attendibilità del componente è stata configurata in precedenza utilizzando un file di metadati), completare le operazioni seguenti.
+1. Click the **Relying Party Trusts** folder.
+1. Select the relying party trust that you previously configured to be used with Workfront, then in the right-hand panel, click**Update from Federation Metadata**.
+1. (Conditional) If this option is dimmed (which means that the relying party trust was previously configured using a metadata file), complete the following.
 
-   1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic sull&#39;icona **Setup** ![Gear settings](assets/gear-icon-settings.png).
-
-   1. Fare clic su **Sistema** > **Single Sign On (SSO)**.
-
-   1. Fare clic su **Modifica impostazioni.**
-   1. Fai clic su **Modifica configurazione**, quindi seleziona **SAML 2.0** nell&#39;elenco a discesa **Tipo**.
-
-   1. Copia l&#39;**URL metadati**, che deve essere simile al seguente:
+   1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).
+   
+   1. Click **System** > **Single Sign On (SSO)**.
+   
+   1. Click **Edit Settings.** 
+   1. Click **Edit Configuration**, then select **SAML 2.0** in the **Type** drop-down list. 
+   
+   1. Copy the **Metadata URL**, which should be similar to the following:
 
       `https://<yourdomain>.my.workfront.com/sso/downloadSAML2MetaData`
+   
+   1. On the ADFS server, right-click on the relying party trust that you previously configured, then click **Properties.**
+   1. Click the **Monitoring** tab, then paste the URL that you copied from Workfront into the **Relying party's federation metadata URL** field.
+   
+   1. Check the options to **Monitor relying party** and **Automatically update relying party**.
+   
+   1. Click **OK.**
+   1. Select the relying party trust that you previously configured to be used with Workfront; then, in the right-hand panel, click **Update from Federation Metadata.**
 
-   1. Nel server ADFS fare clic con il pulsante destro del mouse sull&#39;attendibilità del componente configurata in precedenza, quindi scegliere **Proprietà.**
-   1. Fare clic sulla scheda **Monitoraggio**, quindi incollare l&#39;URL copiato da Workfront nel campo **URL metadati federazione del componente**.
-
-   1. Selezionare le opzioni per **Monitorare componente** e **Aggiornare automaticamente componente**.
-
-   1. Fare clic su **OK.**
-   1. Selezionare l&#39;attendibilità del componente precedentemente configurato per l&#39;utilizzo con Workfront, quindi nel pannello di destra fare clic su **Aggiorna da metadati federativi.**
-
-1. Fare clic su **OK** per ignorare il messaggio relativo ad alcuni contenuti dei metadati federativi non supportati da ADFS 2.0.
-1. Aprire **Moduli Windows Powershell.**
-1. Dopo il caricamento di tutti i moduli, eseguire il comando seguente in PowerShell:
+1. Click **OK** to ignore the message about some of the content in the federation metadata not being supported by ADFS 2.0.
+1. Open **Windows Powershell Modules.**
+1. After all the modules load, run the following command in powershell:
 
    `Get-ADFSProperties`
 
-1. Cerca il valore accanto a **Intervallo di monitoraggio.**
+1. Look for the value next to **Monitoring Interval.**
 
-   Sarà un numero che rappresenta il numero di minuti tra un sondaggio e l&#39;altro. Il valore predefinito è 1440 (1440 minuti = 24 ore).
+   It will be a number that represents the number of minutes between polls. The default should be 1440 (1440 minutes = 24 hours).
 
-1. Impostare un nuovo valore eseguendo il comando seguente in powershell:
+1. Set a new value by running the following command in powershell:
 
    `Set-ADFSProperties -MonitoringInterval 1`
+   
+   This changes the monitoring interval from every 24 hours to every minute. You can change the 1 to another larger value if you want it to poll less frequently.
 
-   L&#39;intervallo di monitoraggio cambia da 24 ore a ogni minuto. Puoi modificare il valore 1 con un altro più grande se desideri che venga eseguito il polling meno frequentemente.
+1. To verify that this is working correctly, use the **Event Viewer** to look for the following information in the ADFS2.0 logs:
 
-1. Per verificare il corretto funzionamento, utilizzare il **Visualizzatore eventi** per cercare le informazioni seguenti nei registri ADFS2.0:
+   **Event ID 156 and 157**
 
-   **ID evento 156 e 157**
+### Force your ADFS metadata to update {#force-your-adfs-metadata-to-update}
 
-### Forza l&#39;aggiornamento dei metadati ADFS {#force-your-adfs-metadata-to-update}
+To update your ADFS metadata complete the steps in the following section.
 
-Per aggiornare i metadati ADFS, completare i passaggi descritti nella sezione seguente.
-
-Per forzare lo scambio di metadati tra Workfront e il provider SAML 2.0 quando si utilizza Active Directory Federation Services (ADFS):
+To force metadata to be exchanged between Workfront and your SAML 2.0 provider when using Active Directory Federation Services (ADFS):
 
 >[!NOTE]
 >
->Alcune di queste modifiche potrebbero dover essere effettuate dal reparto IT.
+>Some of these changes might need to be done by your IT department.
 
-1. Accedere al server ADFS e aprire **ADFS Management Console**.
-1. Nel pannello a sinistra, espandi **ADFS 2.0**, quindi espandi **Relazioni di attendibilità**.
+1. Log in to the ADFS server and open the **ADFS Management Console**.
+1. In the left-hand panel, expand **ADFS 2.0**, then expand **Trust Relationships**.
 
-1. Fare clic sulla cartella **Trust relying party**.
-1. Selezionare l&#39;attendibilità del componente precedentemente configurato per l&#39;utilizzo con Workfront, quindi nel pannello di destra fare clic su **Aggiorna da metadati federativi**.
+1. Click the **Relying Party Trusts** folder.
+1. Select the relying party trust that you previously configured to be used with Workfront, then in the right-hand panel, click **Update from Federation Metadata**.
 
-   Se questa opzione è disattivata e non può essere selezionata, completare le operazioni seguenti:
+   If this option is dimmed and cannot be selected, complete the following:
 
-   L&#39;opzione è disattivata solo quando l&#39;attendibilità del componente è stata configurata in precedenza utilizzando un file di metadati.
+   (The option is dimmed only when the relying party trust was previously configured using a metadata file.)
 
-   1. In Workfront, nell&#39;area Configurazione, copiare l&#39;**URL metadati** dalla schermata di installazione di Workfront Single Sign-On.
+   1. In Workfront, in the Setup area, copy the **Metadata URL** from your Workfront Single Sign-On setup screen.
 
-      Per accedere alle informazioni per l&#39;**URL metadati**:
+      To access the information for the **Metadata URL**:
 
-      1. Fai clic su **Configurazione** nell&#39;angolo superiore destro di Adobe Workfront nella barra di navigazione globale.
-      1. Fare clic su > **Sistema** > **Single Sign On (SSO)**.
-      1. Fare clic su **Modifica impostazioni.**
-      1. Fai clic su **Modifica configurazione**, quindi seleziona **SAML 2.0** nell&#39;elenco a discesa **Tipo**.
-      1. Copia l&#39;**URL metadati**, che deve essere simile al seguente:
+      1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+      1. Click > **System** > **Single Sign On (SSO)**.
+      1. Click **Edit Settings.**
+      1. Click **Edit Configuration**, then select **SAML 2.0** in the **Type** drop-down list.
+      1. Copy the **Metadata URL**, which should be similar to the following:
 
          `https://<yourdomain>.my.workfront.com/sso/downloadSAML2MetaData`
 
-   1. Nel server ADFS fare clic con il pulsante destro del mouse sull&#39;attendibilità del componente configurata in precedenza, quindi scegliere **Proprietà.**
-   1. Fare clic sulla scheda **Monitoraggio**, quindi incollare l&#39;URL copiato da Workfront nel campo **URL metadati federazione del componente**.
-   1. Selezionare le opzioni per **Monitorare componente** e **Aggiornare automaticamente componente**.
-   1. Fare clic su **OK**.
-   1. Selezionare l&#39;attendibilità del componente precedentemente configurato per l&#39;utilizzo con Workfront, quindi nel pannello di destra fare clic su **Aggiorna da metadati federativi.**
+   1. On the ADFS server, right-click on the relying party trust that you previously configured, then click **Properties.**
+   1. Click the **Monitoring** tab, then paste the URL that you copied from Workfront into the **Relying party's federation metadata URL** field.
+   1. Check the options to **Monitor relying party** and **Automatically update relying party**.
+   1. Click **OK**.
+   1. Select the relying party trust that you previously configured to be used with Workfront, then in the right-hand panel, click **Update from Federation Metadata.**
 
-1. Fare clic su **OK** per ignorare il messaggio relativo ad alcuni contenuti dei metadati federativi non supportati da ADFS 2.0.
-1. Fai clic su **Aggiorna** per completare l&#39;aggiornamento dei metadati federativi.
+1. Click **OK** to ignore the message about some of the content in the federation metadata not being supported by ADFS 2.0.
+1. Click **Update** to complete updating your federation metadata.
 
-Gli utenti autorizzati ad accedere a Workfront tramite la schermata di accesso nativa utilizzando le credenziali di accesso di Workfront (configurabili dalla pagina del profilo di ciascun utente nella sezione **Access**) possono accedere utilizzando il nome utente e la password di Workfront passando al seguente URL: `https://<yourdomain>.my.workfront.com/Workfront/login.cmd`.
+Users who are allowed to access Workfront via the native login screen using Workfront login credentials (this can be configured from each user's profile page in the **Access** section) can log in using their Workfront user name and password by navigating to the following URL: `https://<yourdomain>.my.workfront.com/Workfront/login.cmd`.
 
-## Utilizzo di altri provider di identità
+## Using other identity providers
 
-Quando utilizzi provider di identità diversi da ADFS (ad esempio Ping, Okta o Centrify), devi ricaricare i metadati di Workfront nel provider di identità.
+When using identity providers other than ADFS (such as Ping, Okta, or Centrify), you must re-upload the Workfront metadata to your identity provider.
 
-Per ulteriori informazioni su come ottenere un nuovo URL di metadati di Workfront, vedere [Aggiornare i metadati ADFS](#update-your-adfs-metadata).
+For more information about how to obtain a new Workfront Metadata URL, see [Update your ADFS metadata](#update-your-adfs-metadata).
 
-Per ulteriori informazioni sull&#39;utilizzo di Active Directory Federation Services (ADFS) con SAML 2.0 in Workfront, vedere [Configurare Adobe Workfront con SAML 2.0 utilizzando ADFS](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md).
+For additional information about using Active Directory Federation Services (ADFS) with SAML 2.0 in Workfront, see [Configure Adobe Workfront with SAML 2.0 using ADFS](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md).-->
