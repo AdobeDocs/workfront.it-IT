@@ -6,9 +6,9 @@ description: È possibile aggiungere a un dashboard Canvas un rapporto KPI che v
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: 72344e5c1607ba6b4dd2a1e71a462bba93369b27
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Puoi generare e aggiungere un rapporto KPI a un dashboard di Canvas che rapprese
 
 ![Esempio di report KPI](assets/kpi-example-main.png)
 
-+++ Espandere per visualizzare i requisiti di accesso.
++++ Espandere per visualizzare i requisiti di accesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -122,5 +122,57 @@ Sono disponibili molte opzioni di configurazione per la creazione di un rapporto
    1. Fare clic sul pulsante **Aggiungi raggruppamento** e quindi selezionare il campo da creare come raggruppamento.
 
 1. Fai clic su **Salva** per creare il report e aggiungerlo al dashboard.
+
+## Creare un esempio di rapporto KPI
+
+In questa sezione verranno descritti i passaggi necessari per creare un report KPI che visualizzi le approvazioni di documenti in sospeso.
+
+Per ulteriori informazioni sugli esempi di report KPI, vedere [Creare un dashboard di report per la revisione e le approvazioni](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
+
+{{step1-to-dashboards}}
+
+1. Nel pannello a sinistra, fai clic su **Dashboard Canvas**.
+
+1. Fai clic su **Nuovo dashboard** nell&#39;angolo superiore destro.
+
+1. Nella casella **Crea dashboard** immettere il **Nome** e la **Descrizione** del dashboard.
+
+1. Fai clic su **Crea**.
+
+1. Nella casella **Aggiungi report** selezionare **Crea report**.
+
+1. Sul lato sinistro, selezionare **KPI**.
+
+1. Nell&#39;angolo superiore destro fare clic su **Crea report**.
+
+1. Segui i passaggi seguenti per configurare la sezione **Dettagli**:
+
+   1. Digitare *In sospeso* nel campo **Nome**.
+   1. Digitare *Approvazioni in sospeso* nel campo **Descrizione**. Viene visualizzata come didascalia sotto il valore dell&#39;indicatore KPI.
+
+1. Segui i passaggi seguenti per configurare la sezione **Genera KPI**:
+
+   1. Nel pannello a sinistra, fai clic sull&#39;icona **Genera KPI** ![Genera KPI](assets/build-kpi-icon.png).
+
+   1. Fare clic su **Seleziona campo**.
+
+   1. Individua e seleziona la cartella **Approvazione documento**.
+
+   1. Seleziona **Stato**.
+
+   1. Nel menu a discesa **Tipo di aggregazione**, selezionare **Conteggio**.
+
+1. Segui i passaggi seguenti per configurare la sezione **Filtro**:
+
+   1. Nel pannello a sinistra, fai clic sull&#39;icona **Filtro** ![Filtro](assets/filter-icon.png).
+
+   1. Selezionare **Modifica filtro**.
+
+   1. Fai clic su **Aggiungi condizione**.
+
+   1. Fai clic sul filtro delle condizioni vuoto, fai clic su **Scegli un campo**, quindi scegli **Stato**.
+   1. Lascia l&#39;operatore come **Uguale**, quindi digita _in attesa di revisione_ nella casella di testo.
+      ![Esempio di filtro KPI in sospeso](assets/pending-kpi-filter.png)
+1. Fai clic su **Salva** nell&#39;angolo in alto a destra dello schermo.
 
 

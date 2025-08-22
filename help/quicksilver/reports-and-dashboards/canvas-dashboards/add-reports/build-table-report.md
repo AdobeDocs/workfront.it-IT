@@ -6,10 +6,10 @@ description: Puoi aggiungere un rapporto di tabella a un dashboard di Canvas per
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: 72344e5c1607ba6b4dd2a1e71a462bba93369b27
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 0%
+source-wordcount: '761'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ Puoi aggiungere un rapporto di tabella a un dashboard di Canvas per visualizzare
 
 ![Esempio di report tabella](assets/table-example-main.png)
 
-+++ Espandere per visualizzare i requisiti di accesso.
++++ Espandere per visualizzare i requisiti di accesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -111,3 +111,82 @@ Sono disponibili molte opzioni di configurazione per la creazione di un rapporto
    1. Fare clic sul pulsante **Aggiungi raggruppamento** e quindi selezionare il campo da creare come raggruppamento. La colonna di raggruppamento viene visualizzata nella sezione di anteprima a destra.
 
 1. Fai clic su **Salva** per creare il report e aggiungerlo al dashboard.
+
+## Creare un esempio di rapporto di tabella
+
+In questa sezione verranno descritti i passaggi necessari per creare un report di tabella che visualizzi le approvazioni di documenti in sospeso.
+
+Per ulteriori informazioni sugli esempi di report di tabella, vedere [Creare un dashboard di report per la revisione e le approvazioni](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
+
+{{step1-to-dashboards}}
+
+1. Nel pannello a sinistra, fai clic su **Dashboard Canvas**.
+
+1. Fai clic su **Nuovo dashboard** nell&#39;angolo superiore destro.
+
+1. Nella casella **Crea dashboard** immettere il **Nome** e la **Descrizione** del dashboard.
+
+1. Fai clic su **Crea**.
+
+1. Nella casella **Aggiungi report** selezionare **Crea report**.
+
+1. Sul lato sinistro, selezionare **Tabella**.
+
+1. Nell&#39;angolo superiore destro fare clic su **Crea report**.
+
+1. Segui i passaggi seguenti per configurare la sezione **Dettagli**:
+
+   1. Digitare _Approvazioni in sospeso_ nel campo **Nome**.
+   1. Digitare una descrizione nel campo **Descrizione**. Questo testo viene visualizzato come descrizione accanto al nome del grafico.
+
+1. Segui i passaggi seguenti per configurare la sezione **Tabella di compilazione**:
+
+   1. Nel pannello a sinistra, fai clic sull&#39;icona **Colonne tabella** ![Colonne tabella](assets/drilldown-column.png).
+   1. Fare clic su **Aggiungi colonna**.
+   1. Scorri verso il basso e seleziona **Approvazioni documenti** > **Stato**.
+   1. Aggiungi le seguenti colonne:
+
+   <table>
+    <tr>
+    <td><strong>Nome progetto</strong></td>
+    <td>Versione documento &gt; Documento &gt; Progetto &gt; Nome</td>
+    </tr>
+    <tr>
+    <td><strong>Nome documento</strong></td>
+    <td>Document Version &gt; Document &gt; type <em>Name</em> nella casella di ricerca.</td>
+    </tr>
+    <tr>
+    <td><strong>Versione documento</strong></td>
+    <td>Versione documento &gt; Documento &gt; Versione</td>
+    </tr>
+    <tr>
+    <td><strong>Scadenza</strong></td>
+    <td>Approvazione documento &gt; Fase approvazione &gt; Scadenza</td>
+    </tr>
+    <tr>
+    <td><strong>Richiesta di</strong></td>
+    <td>Approvazione documento &gt; Fase approvazione &gt; Partecipanti fase approvazione* &gt; Richiedente &gt; digita <em>Nome</em> nella casella di ricerca.</td>
+    </tr>
+    <tr>
+    <td><strong>Data richiesta</strong></td>
+    <td>Documento Approvazione &gt; Fase di approvazione &gt; Partecipanti fase di approvazione* &gt; Creato in</td>
+    </tr>
+    <tr>
+    <td><strong>Approvatore</strong></td>
+    <td>Approvazione documento &gt; Fase approvazione &gt; Partecipanti fase approvazione* &gt; Utente partecipante &gt; digitare <em>Nome</em> nella casella di ricerca.</td>
+    </tr>
+    </table>
+
+
+   *I partecipanti alla fase di approvazione sono troncati a _Pa fase di approvazione_
+
+
+1. Segui i passaggi seguenti per configurare la sezione **Filtro**:
+   1. Nel pannello a sinistra, fai clic sull&#39;icona **Filtro** ![scheda filtro](assets/filter-tab.png).
+   1. Fai clic su **Modifica filtro**, quindi su **Aggiungi condizione**.
+   1. Fai clic sul filtro delle condizioni vuoto, quindi fai clic su **Scegli un campo**.
+   1. Seleziona **Stato**.
+   1. Cambia l&#39;operatore in **Equal**, quindi digita _in attesa di approvazione_ nella casella di testo.
+      ![esempio di filtro della tabella di approvazione in sospeso](assets/pending-approval-table-filter.png)
+   1. (Facoltativo) Aggiungi altri filtri come descritto nella sezione **Filtri opzionali** di seguito.
+1. Fai clic su **Salva** nell&#39;angolo in alto a destra dello schermo.
