@@ -4,7 +4,7 @@ description: Questo è un articolo interno del nostro team per tenere un inventa
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 15eba2f627e31661c5fde60e989dfc68a9f4cd15
+source-git-commit: 5fd51b6fad81eb54696784745989efee06b79c94
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 2%
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 ## Requisiti di accesso (questo è un esempio quando il pacchetto rimane invariato e viene aggiornata la riga delle licenze)
 
-Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo
+Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,7 +56,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ## Requisiti di accesso
 
-Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo
+Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,7 +86,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ## Requisiti di accesso (disponibile solo per i nuovi clienti)
 
-Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo
+Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -117,7 +117,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ## Requisiti di accesso (questo è un esempio in cui la nuova funzione esiste solo nei pacchetti 2023/2025)
 
-Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo
+Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table>
   <tr>
@@ -145,7 +145,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Requisiti di accesso (questo è un esempio in cui è necessario disporre di altri prodotti)
 
-Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo
+Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table>
   <tr>
@@ -220,7 +220,7 @@ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo a
    <td> 
 <p>Qualsiasi pacchetto di Adobe Workfront Workflow e qualsiasi pacchetto di Adobe Workfront Planning</p> 
    </td> </tr>
-<td role="rowheader"><p>Piattaforma Adobe Workfront (**&#x200B;**&#x200B;richiamarlo o inserirlo nell’articolo collegato in basso???**&#x200B;***)</p></td> 
+<td role="rowheader"><p>Piattaforma Adobe Workfront (****richiamarlo o inserirlo nell’articolo collegato in basso???*****)</p></td> 
    <td> 
 <p>Per poter accedere a Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
 <p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata Adobe per Workfront</a>. </p> 
