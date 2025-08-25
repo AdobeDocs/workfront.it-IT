@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '767'
 ht-degree: 1%
 
 ---
@@ -79,17 +79,16 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     <col> 
     <col> 
     <tbody> 
-    <!--DELETE THIS SECTION MARCH 2026-->
-     <!-- <tr> 
-     <td role="rowheader"><strong>Create</strong> </td> 
-      <td> <p>Allows users to create users.<br>This option is enabled by default.</p> 
-     <p><b>NOTE</b>: This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.</p>
+     <tr> 
+      <td role="rowheader"><strong>Crea</strong> </td> 
+      <td> <p>Consente agli utenti di creare utenti.<br>Questa opzione è attivata per impostazione predefinita.</p> 
+     <p><b>NOTA</b>: questa opzione non è disponibile se l'organizzazione è stata integrata in Adobe Admin Console. Per ulteriori informazioni, rivolgersi all'amministratore di rete o IT.</p>
         </td>  
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Delete</strong> </td> 
-      <td> <p> Allows users to delete the users they have created themselves.<br>This option is enabled by default.</p> <p><b>NOTE</b>: This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.</p> </td> 
-     </tr> -->
+      <td role="rowheader"><strong>Elimina</strong> </td> 
+      <td> <p> Consente agli utenti di eliminare gli utenti che hanno creato personalmente.<br>Questa opzione è attivata per impostazione predefinita.</p> <p><b>NOTA</b>: questa opzione non è disponibile se l'organizzazione è stata integrata in Adobe Admin Console. Per ulteriori informazioni, rivolgersi all'amministratore di rete o IT.</p> </td> 
+     </tr> 
      <tr> 
       <td role="rowheader"><strong>Amministratore utenti (tutti gli utenti)</strong> </td> 
       <td> <p>Consente agli utenti di effettuare le seguenti operazioni per qualsiasi utente in Workfront:</p> 

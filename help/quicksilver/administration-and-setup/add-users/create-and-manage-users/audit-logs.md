@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 5a2df341a54d305807a1c9f175baf60b9007ffa2
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1523'
 ht-degree: 3%
 
 ---
@@ -252,24 +252,19 @@ Il sistema genera una voce del registro di controllo Ruoli processo quando un ut
 
 Per ulteriori informazioni sulla configurazione dei ruoli, vedere [Creare e gestire i ruoli](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-<!--DELETE THIS SECTION MARCH 2026-->
+### Tentativo di accesso {#login-attempt}
 
-<!--
-### Login Attempt {#login-attempt}
+Il sistema genera una voce del registro di controllo Tentativo di accesso quando un utente esegue una delle seguenti operazioni:
 
-The system generates a Login Attempt audit log entry when a user does one of the following actions:
+* Effettua l’accesso, esce o non riesce dopo un tentativo di accesso in Workfront (in un browser e nell’app mobile).
+* Effettua l’accesso, si disconnette o non riesce dopo un tentativo di accesso nell’integrazione con Workfront (ad esempio, Workfront per Slack)
+* Accedi o esce dall’API Workfront
 
-* Logs in, logs out, or fails a login attempt in Workfront (in a browser and in the mobile app)
-* Logs in, logs out, or fails a login attempt in any Workfront integration (such as Workfront for Slack)
-* Logs in or logs out of the Workfront API
-
-Login Attempt Logs do not record when a Workfront administrator uses the Log In As feature.
+I registri dei tentativi di accesso non vengono registrati quando un amministratore di Workfront utilizza la funzione Accedi come.
 
 >[!NOTE]
 >
->This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.
-
--->
+>Questa opzione non è disponibile se l’organizzazione è stata integrata in Adobe Admin Console. Per ulteriori informazioni, rivolgersi all&#39;amministratore di rete o IT.
 
 ### Priorità {#priority}
 
@@ -350,17 +345,21 @@ Per ulteriori informazioni sulle preferenze per attività e problemi, vedere [Co
 
 ### Utente {#user}
 
-<!--DELETE THIS SECTION MARCH 2026-->
-<!--
-The system generates a User audit log entry when a user does one of the following actions:
+Il sistema genera una voce del registro di controllo utente quando un utente esegue una delle seguenti operazioni:
 
-* Creates a user
+* Crea un utente
+
+  <!--
+  DRAFTED IN FLARE:
+  Gevorg checking with Jonah on whether this note should be here:
+  
+  -->
 
   >[!NOTE]
   >
-  >This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.
+  >Questa opzione non è disponibile se l’organizzazione è stata integrata in Adobe Admin Console. Per ulteriori informazioni, rivolgersi all&#39;amministratore di rete o IT.
 
-* Deletes a user
-* Changes a user's access level, company, team, or group
-* Activates a user
-* Deactivates a user-->
+* Elimina un utente
+* Modifica il livello di accesso, la società, il team o il gruppo di un utente
+* Attiva un utente
+* Disattiva un utente
