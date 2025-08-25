@@ -6,7 +6,7 @@ description: È possibile utilizzare le attività predecessore (o solo i predece
 author: Alina
 feature: Work Management
 exl-id: 68774286-da24-409a-bbd8-eb18dfe75063
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -66,7 +66,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Creare un predecessore per un&#39;attività
 
-La creazione di un predecessore per un&#39;attività di progetto mediante l&#39;area Predecessori è simile alla creazione di predecessori per le attività di un modello.
+La creazione di un predecessore per un&#39;attività di progetto tramite l&#39;area Predecessori è simile alla creazione di predecessori per un&#39;attività modello su un modello.
 
 Per creare un&#39;attività predecessore per un&#39;attività di progetto:
 

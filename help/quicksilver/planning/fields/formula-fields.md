@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '791'
 ht-degree: 6%
 
 ---
@@ -115,7 +115,11 @@ Per informazioni, vedere la sezione &quot;Formula&quot; nell&#39;articolo [Crear
 * I campi formula potrebbero essere visualizzati come `#ERROR!` nei casi seguenti:
    * Quando un campo utilizzato in una formula viene eliminato.
    * Quando un campo utilizzato in un campo di ricerca aggregato viene visualizzato come `#ERROR!`.
-Ad esempio, se si visualizza un campo di ricerca contenente campi formula di ricerca aggregati e uno dei campi formula di riferimento viene visualizzato come `#ERROR!`.
+
+     Ad esempio, se si visualizza un campo di ricerca contenente campi formula di ricerca aggregati e uno dei campi formula di riferimento viene visualizzato come `#ERROR!`.
+   * Quando non è possibile visualizzare un valore di formula nel formato selezionato.
+
+     Se ad esempio si seleziona Numero per il formato di un campo formula e i campi utilizzati nella formula sono campi di testo che visualizzano solo valori di testo non numerici, il risultato della formula verrà visualizzato come `#ERROR!`, perché non è possibile analizzare il testo in un numero.
 
 ## Formule supportate
 

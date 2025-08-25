@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Nell’area Registri di controllo, ora puoi tenere traccia e risolvere i problem
 * Modifica le preferenze di un progetto o crea o elimina un trimestre personalizzato
 * Modifica un&#39;attività e una preferenza per il problema
 
-Per ulteriori informazioni, vedere [Registri di controllo](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+Per ulteriori informazioni, vedere [Panoramica dei registri di controllo](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
 Questa funzionalità è ora inclusa in [Nozioni di base dell&#39;amministratore per la nuova esperienza Workfront, Parte 2: Percorso di apprendimento della configurazione del progetto](https://experienceleague.adobe.com/it/docs/workfront-learn/tutorials-workfront/home) in Workfront One.
 

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '426'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Puoi visualizzare tutti i registri di audit nel sistema o quelli che soddisfano 
 
 I registri di controllo elencano le modifiche utente attivate nel sistema negli ultimi 90 giorni.
 
-Per informazioni su tutti i tipi di log di controllo e su ciò che li genera, vedere [Log di controllo](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+Per informazioni su tutti i tipi di log di controllo e su cosa li genera, vedere [Panoramica dei log di controllo](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
 ## Requisiti di accesso
 
@@ -74,7 +74,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    **Tutti i tipi di registro** sono selezionati per impostazione predefinita.
 
-   Per un elenco di tutti i tipi di log di controllo visualizzabili e delle informazioni che includono, vedere [Log di controllo](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+   Per un elenco di tutti i tipi di log di controllo visualizzabili e delle informazioni che includono, vedere [Panoramica dei log di controllo](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
 1. (Facoltativo) Imposta uno dei filtri disponibili per i campi seguenti:
 

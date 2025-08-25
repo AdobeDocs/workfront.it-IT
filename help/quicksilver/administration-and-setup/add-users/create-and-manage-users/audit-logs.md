@@ -1,5 +1,5 @@
 ---
-title: Registri di audit
+title: Panoramica dei registri di controllo
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -8,14 +8,14 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: aeb55124fa76192a5c39b504964fe9acc16c31d8
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1522'
 ht-degree: 3%
 
 ---
 
-# Registri di audit
+# Panoramica dei registri di audit
 
 <!--Audited: 01/2024-->
 
@@ -73,14 +73,14 @@ In ogni voce del registro di controllo vengono registrati i campi riportati di s
 * [Sezione personalizzata](#custom-section)
 * [Tasso di cambio](#exchange-rate)
 * [Gruppo](#group)
-* [Ruoli](#job-roles)
-* [Tentativo di accesso](#login-attempt)
+* [Mansione](#job-role)
 * [Priorità](#priority)
 * [Preferenza progetto](#project-preference)
 * [Gravità](#severity)
 * [Stato](#status)
 * [Preferenze attività e problemi](#tasks-issues-preferences)
 * [Utente](#user)
+<!--* [Login Attempt](#login-attempt) -->
 
 ### Livello di accesso {#access-level}
 
@@ -236,7 +236,7 @@ Il sistema genera una voce del registro di controllo Gruppo quando un utente ese
    * Aggiunge o rimuove utenti
    * Aggiunge o rimuove sottogruppi
 
-### Ruoli {#job-roles}
+### s {#job-role}
 
 Il sistema genera una voce del registro di controllo Ruoli processo quando un utente esegue una delle seguenti operazioni:
 

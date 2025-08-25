@@ -8,9 +8,9 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 9905a522-9913-49c0-8c80-a8b46221fcbb
-source-git-commit: 4b0ba0112138b91b12e10f4770ecab3db4e3fddb
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ L&#39;integrazione tra GenStudio for Performance Marketing e Workfront Proof con
 
 * Visualizzare le decisioni di revisione in GenStudio for Performance Marketing per l’approvazione e la pubblicazione finali
 
-Per ulteriori informazioni sulla revisione e l&#39;approvazione in GenStudio for Performance Marketing, vedere [Integrazione di Workfront Proof con GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
+Per ulteriori informazioni sulla revisione e l&#39;approvazione in GenStudio for Performance Marketing, vedere [Integrazione di Workfront Proof con GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
 
 
 ## Requisiti di accesso
@@ -67,7 +67,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Requisiti di integrazione
 
-* Workfront e GenStudio for Performance Marketing devono essere distribuiti nella stessa organizzazione IMS.
+* Workfront e GenStudio for Performance Marketing devono essere distribuiti nella stessa organizzazione Identity Management System (IMS).
 
 * Gli utenti possono appartenere a una sola istanza di Workfront all’interno dell’organizzazione IMS.
 
@@ -102,7 +102,7 @@ Per ulteriori informazioni sulla creazione di flussi di lavoro e modelli automat
 
 Quando un utente avvia una revisione in GenStudio for Performance Marketing, si limita a scegliere il modello necessario. Gli utenti possono modificare facilmente qualsiasi modello di flusso di lavoro della bozza, aggiungendo o rimuovendo revisori e fasi in qualsiasi momento.
 
-Per ulteriori informazioni, vedere [Richiedi revisione e approvazione](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+Per ulteriori informazioni, vedere [Richiedi revisione e approvazione](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
 
 ## Rivedere e approvare il contenuto della bozza di GenStudio for Performance Marketing nel visualizzatore di bozze di Workfront
 
@@ -114,7 +114,7 @@ Con il visualizzatore di bozze è possibile:
 * Bozza di ricarico per mostrare cosa è necessario modificare
 * Prendi una decisione
 
-Per ulteriori informazioni, vedere [Rivedere e modificare il contenuto](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit).
+Per ulteriori informazioni, vedere [Rivedere e modificare il contenuto](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit).
 
 
 >[!IMPORTANT]
@@ -126,4 +126,4 @@ Per ulteriori informazioni, vedere [Rivedere e modificare il contenuto](https://
 
 Una volta che la risorsa è stata sottoposta al processo di revisione e approvazione, puoi visualizzare la decisione di revisione e pubblicare il contenuto direttamente da GenStudio for Performance Marketing.
 
-Per ulteriori informazioni, vedere [Pubblicare contenuti approvati](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
+Per ulteriori informazioni, vedere [Pubblicare contenuti approvati](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).

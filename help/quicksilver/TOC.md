@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: cfec7f1b3001b0fe78534c33c3a10c70f5f64c3f
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '13445'
+source-wordcount: '13449'
 ht-degree: 2%
 
 ---
@@ -118,7 +118,7 @@ ht-degree: 2%
          * [23.3 Altri miglioramenti](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
          * [Aggiornamenti look and feel durante il periodo di rilascio della versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * Versione 23.2 {#release-23-2}
-         * [Panoramica sulla versione di 23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
+         * Panoramica sulla versione di [23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 Miglioramenti per gli amministratori](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
          * [23.2 Miglioramenti di Agile](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
          * [23.2 Miglioramenti alla gestione dei progetti](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
@@ -489,7 +489,7 @@ ht-degree: 2%
          * [Mappare gli attributi utente](administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)
          * [Disattivare un utente](administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)
          * [Elimina utenti](administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
-         * [Registri di audit](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+         * [Panoramica dei registri di audit](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
          * [Visualizzare ed esportare i registri di audit](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [Visualizza informazioni di accesso utente](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [Gestione degli utenti in Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
@@ -2069,6 +2069,7 @@ ht-degree: 2%
       * [Architettura: indice degli articoli](planning/architecture/architecture-information.md)
       * [Panoramica delle aree di lavoro](planning/architecture/workspaces-overview.md)
       * [Creare aree di lavoro](planning/architecture/create-workspaces.md)
+      * [Creare gerarchie area di lavoro](planning/architecture/create-workspace-hierarchies.md)
       * [Panoramica sui tipi di record](planning/architecture/overview-of-record-types.md)
       * [Crea tipi di record](planning/architecture/create-record-types.md)
       * [Creare tipi di record importando informazioni da un file CSV o Excel](planning/architecture/import-file-to-create-record-types.md)
@@ -2502,7 +2503,7 @@ ht-degree: 2%
       * [Configura e utilizza le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso PKCE](wf-api/api/oauth-app-pkce-flow.md)
       * [Obsolescenza di API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Novità dell&#39;API versione 20](wf-api/api/new-api-version-20.md)
-      * [Novità della versione 19 dell&#39;API](wf-api/api/new-api-version-19.md)
+      * [Novità della versione 19](wf-api/api/new-api-version-19.md) dell&#39;API
       * [Novità della versione 18 dell’API](wf-api/api/new-api-version-18.md)
       * [Novità della versione 17 dell’API](wf-api/api/new-api-version-17.md)
       * [Novità della versione 16 dell’API](wf-api/api/new-api-version-16.md)
