@@ -4,18 +4,15 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Più schede del browser causano la disconnessione di Workfront
 description: Quando un utente ha più schede del browser aperte, Workfront potrebbe disconnettersi automaticamente.
 feature: Get Started with Workfront
-source-git-commit: ef85b267b3417dddd0c9cc4a2b916b83dc416e14
+exl-id: 1cc8bf6c-0eda-41ef-8efd-bba3a5f33b08
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 7%
+source-wordcount: '164'
+ht-degree: 32%
 
 ---
 
 # Più schede del browser causano la disconnessione di Workfront
-
->[!IMPORTANT]
->
->Questo problema è presente solo per le organizzazioni che sono state caricate in Adobe IMS.
 
 ## Problema
 
@@ -34,6 +31,6 @@ Questo comportamento è dovuto all’autenticazione basata su criteri (PBA, Poli
 
 La soluzione dipende dal fatto che tu sia stato attivo o meno in un’altra scheda che ha effettuato l’accesso a Workfront.
 
-* Se è aperta una scheda Workfront attiva, ricaricare la scheda scaduta. Tornerà alla pagina aperta prima della scadenza.
+* Se una scheda Workfront attiva è aperta, ricarica la scheda scaduta. Tornerà alla pagina aperta prima della scadenza.
 
-* Se non hai una scheda Workfront attiva aperta, accedi di nuovo a Workfront.
+* Se non hai una scheda Workfront attiva aperta, accedi nuovamente a Workfront.

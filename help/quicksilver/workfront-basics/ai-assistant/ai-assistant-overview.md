@@ -5,9 +5,9 @@ description: Panoramica dell’Assistente AI
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: a4e403abadc0268b919ce8105989ef6c912f33a4
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '807'
 ht-degree: 1%
 
 ---
@@ -49,8 +49,10 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 Per abilitare l&#39;Assistente IA per la tua organizzazione, **tutti** i seguenti elementi devono essere applicati:
 
-* La tua organizzazione deve aver eseguito la migrazione ad Adobe IMS (Identity Management System)
-* L’esperienza unificata di Adobe deve essere abilitata
+<!--DELETE THIS SECTION MARCH 2026-->
+
+<!--* Your organization must have migrated to Adobe IMS (Identity Management System)
+* The Adobe Unified Experience must be enabled-->
 * La tua organizzazione deve disporre di un piano Select, Prime o Ultimate Workfront
 * Adobe deve disporre di un accordo Adobe Gen AI firmato su file
 
@@ -113,7 +115,7 @@ L’assistente IA può eseguire query sui dati associati ai seguenti tipi di ogg
 * Record di Workfront Planning
 
 
-## Accedi all’Assistente di AI
+## Accedere all’Assistente IA
 
 1. Nella parte superiore di qualsiasi pagina di Workfront, fai clic sull&#39;icona Assistente IA ![icona Assistente IA](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
 1. Digita la domanda o il prompt nel pannello a destra della schermata.

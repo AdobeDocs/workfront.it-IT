@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: bcf9e3eb987bf4c33b994d68276cb04b817c484d
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '611'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,9 @@ Qualsiasi utente può aggiungere il revisore IA a una richiesta di revisione e a
 
 ## Prerequisiti
 
-* La tua organizzazione deve aver eseguito la migrazione ad Adobe IMS (Identity Management System).
+<!--DELETE THIS SECTION MARCH 2026-->
+
+<!--* Your organization must have migrated to Adobe IMS (Identity Management System).-->
 * L&#39;istanza di Workfront deve avere le approvazioni unificate abilitate.
 * Adobe deve disporre di un accordo Adobe Gen AI firmato su file.
 Per ulteriori informazioni sulla firma del contratto, consulta [Firmare il contratto di Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
@@ -53,7 +55,7 @@ Il revisore IA può esaminare i seguenti tipi di file:
 
 ## Impostare le linee guida per il marchio
 
-Durante la revisione dei contenuti, Workfront AI Reviewer utilizza le linee guida per il marchio definite in Genstudio per il marketing delle prestazioni. Attualmente, è possibile impostare solo le linee guida del brand per le immagini. Per ulteriori informazioni, vedere [Introduzione ad Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Durante la revisione dei contenuti, Workfront AI Reviewer utilizza le linee guida per il marchio definite in Genstudio per il marketing delle prestazioni. Attualmente, è possibile impostare solo le linee guida del brand per le immagini. Per ulteriori informazioni, vedere [Introduzione ad Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## Crea revisori AI

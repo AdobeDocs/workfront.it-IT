@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 7549c9699a86b6f87e5562efd7e586be282c5619
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '1763'
+source-wordcount: '1669'
 ht-degree: 0%
 
 ---
@@ -190,15 +190,22 @@ Per pianificare l’aggiornamento della sandbox di aggiornamento del cliente:
 
 ## Configurare il Single Sign-On nella sandbox di aggiornamento personalizzata
 
-Se desideri configurare la sandbox di aggiornamento personalizzata in modo che funzioni con una soluzione Single Sign-On, puoi farlo configurandola separatamente dall’ambiente di produzione. La configurazione SSO nella Sandbox di aggiornamento personalizzata è indipendente dalla configurazione SSO nell’ambiente di produzione.\
-Quando aggiorni la Sandbox di aggiornamento personalizzata, le informazioni SSO non vengono copiate dall’ambiente di produzione per sovrascrivere la configurazione Sandbox di aggiornamento personalizzata.
+>[!IMPORTANT]
+>
+>La procedura descritta in questa sezione è stata rimossa perché si applicava solo alle organizzazioni che non erano ancora state caricate in Adobe Admin Console.
+>
+>Tutte le organizzazioni Workfront ora sono state integrate in Adobe Admin Console.
 
-I passaggi per configurare il single sign-on nella Sandbox di aggiornamento personalizzata sono simili a quelli per la configurazione nell’ambiente di produzione.\
-Per ulteriori informazioni sulla configurazione di [!DNL Workfront] con SSO, vedere [Panoramica del single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+<!--If you want to configure your Custom Refresh Sandbox to work with a Single Sign-On solution, you can do so by configuring it separately from your Production environment. The SSO configuration in the Custom Refresh Sandbox is independent from your SSO configuration in the Production environment.\
+When you refresh your Custom Refresh Sandbox, the SSO information is not copied from your Production environment to overwrite the Custom Refresh Sandbox configuration.
+
+The steps for configuring single sign-on in the Custom Refresh Sandbox are similar to those for configuring it in the Production environment.\
+For more information about configuring [!DNL Workfront] with SSO, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 >[!NOTE]
 >
->Non è disponibile se l&#39;istanza [!DNL Workfront] dell&#39;organizzazione è abilitata con Adobe IMS. Per ulteriori informazioni, rivolgersi all&#39;amministratore di rete o IT.
+>This is not available if your organization's [!DNL Workfront] instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+-->
 
 ## Ricalcolo automatico delle sequenze temporali del progetto
 

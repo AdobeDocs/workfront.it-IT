@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 8934c3f5681c09c00769442900013844ee7a80ef
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1207'
 ht-degree: 2%
 
 ---
@@ -92,40 +92,47 @@ Puoi generare, reimpostare o rimuovere la chiave API per l’account utente ammi
 
    Per rimuovere la chiave API: nella sezione **Impostazioni chiave API**, fare clic su **Rimuovi**, quindi su **Rimuovi**.
 
-## Generare una chiave API per gli utenti non amministratori
+## Generare una chiave API per gli utenti non amministratori—>
 
-Puoi generare e gestire le chiavi API per gli utenti con ruoli diversi da Amministratore Workfront.
+<!--DELETE THIS SECTION MARCH 2026-->
+
+>[!IMPORTANT]
+>
+>La procedura descritta in questa sezione è stata rimossa perché si applicava solo alle organizzazioni che non erano ancora state caricate in Adobe Admin Console.
+>
+>Tutte le organizzazioni Workfront ora sono state integrate in Adobe Admin Console.
+
+<!--You can generate and manage API Keys for users in roles other than Workfront administrator.
 
 >[!NOTE]
 >
->Questa opzione non è disponibile se l’istanza Workfront della tua organizzazione è abilitata con Adobe IMS. Per ulteriori informazioni, rivolgersi all&#39;amministratore di rete o IT.
+>This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
-1. (Condizionale) Se l’organizzazione utilizza la gestione degli accessi Single Sign-On (SSO), disabilita temporaneamente l’opzione che richiede l’autenticazione SSO.
+1. (Conditional) If your organization uses Single Sign-On (SSO) access management, temporarily disable the option requiring SSO authentication.
+
+   {{step-1-to-setup}} 
+   
+   1. Expand **System**, then click **Single Sign-on (SSO)**. 
+   1. In the **Type** field, select the type of SSO your organization uses.
+   1. With the type selected, scroll down and clear the **Enable** checkbox. 
+      ![Enable SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)  
+   1. Click **Save**.
+
+
+1. In the address bar of a browser, enter the following API call:
+
+   `<domain>`.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&username=**username**&password=**password**&method=PUT
+
+   Replace `<domain>` with your Workfront domain name, and username and password with the user's Workfront credentials.
+
+1. (Conditional) Enable the option requiring SSO authentication if you disabled it in Step 1.
 
    {{step-1-to-setup}}
-
-   1. Espandere **Sistema**, quindi fare clic su **Single Sign-on (SSO)**.
-   1. Nel campo **Tipo**, seleziona il tipo di SSO utilizzato dalla tua organizzazione.
-   1. Con il tipo selezionato, scorri verso il basso e deseleziona la casella di controllo **Abilita**.
-
-      ![Abilita SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)
-   1. Fai clic su **Salva**.
-
-
-1. Nella barra degli indirizzi di un browser, immetti la seguente chiamata API:
-
-   `<domain>`.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**nomeutente**&amp;password=**password**&amp;method=PUT
-
-   Sostituisci `<domain>` con il tuo nome di dominio Workfront e nome utente e password con le credenziali Workfront dell&#39;utente.
-
-1. (Condizionale) Abilita l&#39;opzione che richiede l&#39;autenticazione SSO se l&#39;hai disabilitata nel passaggio 1.
-
-   {{step-1-to-setup}}
-
-   1. Espandere **Sistema**, quindi fare clic su **Single Sign-on (SSO)**.
-
-   1. Selezionare il metodo SSO nel menu a discesa **Tipo**.
-   1. Selezionare la casella di controllo che richiede l&#39;autenticazione SSO.
+   
+   1. Expand **System**, then click **Single Sign-on (SSO)**.
+   
+   1. Select your SSO method in the **Type** drop down menu.
+   1. Check the checkbox requiring SSO authentication.-->
 
 ## Configurare quando scadono le chiavi API
 
