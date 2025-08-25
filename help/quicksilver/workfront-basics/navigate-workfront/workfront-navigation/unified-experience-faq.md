@@ -6,20 +6,14 @@ description: Alcune funzionalità sono diverse tra  [!DNL Workfront]  e Adobe Ex
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
+source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1397'
 ht-degree: 0%
 
 ---
 
 # Domande frequenti su [!DNL Adobe Unified Experience]
-
->[!IMPORTANT]
->
->Poiché tutte le organizzazioni Workfront sono state migrate a Adobe Admin Console, questo articolo verrà rimosso nel prossimo futuro.
-
-<!--DELETE ME MARCH 2026-->
 
 [!DNL Adobe Unified Experience] per [!DNL Workfront] consente di gestire tutte le applicazioni di [!DNL Adobe] in un&#39;unica posizione con un unico accesso. L&#39;area di navigazione [!DNL Adobe] è integrata direttamente con [!DNL Workfront]. Alcune funzionalità sono diverse e potresti avere alcune domande quando la tua istanza di [!DNL Workfront] verrà migrata all&#39;esperienza unificata.
 
@@ -67,9 +61,9 @@ Per informazioni su [!DNL Admin Console], esaminare gli articoli seguenti:
 
 I clienti esistenti verranno contattati per pianificare le migrazioni. I colleghi del team di supporto per la migrazione assisteranno i clienti durante il processo, forniranno consigli sulla configurazione di [!DNL Admin Console] e forniranno i collegamenti alla documentazione necessaria per rendere la migrazione il più semplice e semplice possibile.
 
-* [[!DNL Adobe Workfront] Panoramica del supporto](https://experienceleague.adobe.com/it/docs/customer-one/using/workfront/overview)
-* [[!DNL Workfront Admin Console] informazioni](https://experienceleague.adobe.com/it/docs/customer-one/using/workfront/landing)
-* [[!DNL Adobe Business Platform] e [!DNL Admin Console] Domande frequenti](https://experienceleague.adobe.com/it/docs/customer-one/using/workfront/faq)
+* [[!DNL Adobe Workfront] Panoramica del supporto](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/overview)
+* [[!DNL Workfront Admin Console] informazioni](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/landing)
+* [[!DNL Adobe Business Platform] e [!DNL Admin Console] Domande frequenti](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/faq)
 
 ### In che modo gestisci [!DNL Adobe Admin Console] per le aziende che hanno già abilitato questo per i Federated ID in modo diverso rispetto a [!DNL Workfront] SSO configurato?
 

@@ -9,22 +9,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4b481215-36a1-4945-828a-1598502529d8
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
 
 # Rinnovare il certificato di metadati SAML 2.0 di Adobe Workfront
-
->[!IMPORTANT]
->
->La procedura descritta in questa pagina è stata rimossa perché si applicava solo alle organizzazioni che non erano ancora state caricate in Adobe Admin Console. Questa procedura non è necessaria per le organizzazioni che utilizzano Adobe Admin Console.
->
->Poiché tutte le organizzazioni Workfront sono ora state integrate in Adobe Admin Console, questo articolo verrà rimosso nel prossimo futuro.
-
-<!--DELETE ME MARCH 2026-->
 
 >[!IMPORTANT]
 >
