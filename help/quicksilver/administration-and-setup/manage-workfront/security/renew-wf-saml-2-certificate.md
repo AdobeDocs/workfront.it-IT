@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4b481215-36a1-4945-828a-1598502529d8
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,15 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->La procedura descritta in questa pagina si applica solo alle organizzazioni che non hanno ancora effettuato l’onboarding nell’Admin Console. Se la tua organizzazione è stata integrata in Adobe Admin Console, non è necessaria alcuna azione.
+>La procedura descritta in questa pagina è stata rimossa perché si applicava solo alle organizzazioni che non erano ancora state caricate in Adobe Admin Console. Questa procedura non è necessaria per le organizzazioni che utilizzano Adobe Admin Console.
+>
+>Poiché tutte le organizzazioni Workfront sono ora state integrate in Adobe Admin Console, questo articolo verrà rimosso nel prossimo futuro.
+
+<!--DELETE ME MARCH 2026-->
+
+>[!IMPORTANT]
+>
+>La procedura descritta in questa pagina si applica solo alle organizzazioni che non hanno ancora effettuato l’onboarding in Admin Console. Se la tua organizzazione è stata integrata in Adobe Admin Console, non è necessaria alcuna azione.
 >
 >Per un elenco delle procedure che differiscono a seconda che l&#39;organizzazione sia stata integrata in Adobe Admin Console, consulta [Differenze di amministrazione basate su Platform (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 

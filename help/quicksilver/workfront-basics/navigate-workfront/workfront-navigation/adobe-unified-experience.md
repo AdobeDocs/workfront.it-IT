@@ -6,9 +6,9 @@ description: L'accesso a  [!DNL Workfront]  tramite Adobe Experience Cloud offre
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: bd34fe3404e590e74ecd666c039f78c0cc0d72e7
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '673'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Se l&#39;organizzazione utilizza Adobe Unified Experience, l&#39;URL utilizzato 
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -52,11 +52,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 +++
 
-## Prerequisiti
+<!--DELETE THIS SECTION MARCH 2026-->
 
-L&#39;istanza di [!DNL Workfront] della tua organizzazione deve essere integrata in [!DNL Adobe Business Platform] o [!DNL Adobe Admin Console].
+<!--## Prerequisites
 
-Se hai domande sull&#39;onboarding in [!DNL Adobe Admin Console], consulta le [[!DNL Adobe Unified Experience] domande frequenti](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/).
+Your organization's instance of [!DNL Workfront] must be onboarded to the [!DNL Adobe Business Platform] or the [!DNL Adobe Admin Console].
+
+If you have questions about onboarding to the [!DNL Adobe Admin Console], see the [[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/).-->
 
 ## Sistema Adobe Identity Management (IMS)
 
@@ -66,7 +68,7 @@ Per informazioni sull&#39;accesso a Workfront in Adobe Unified Experience, veder
 
 Per informazioni sulla gestione degli utenti in Adobe Admin Console, vedere l&#39;articolo [Gestione degli utenti in Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
-## Accedi a [!DNL Adobe Experience Cloud]
+## Accedere a [!DNL Adobe Experience Cloud]
 
 1. Aprire una finestra del browser e passare a <https://experience.adobe.com>.
 1. Nella schermata [!UICONTROL **Accedi**], digita il tuo indirizzo e-mail e fai clic su **[!UICONTROL Continua]**.

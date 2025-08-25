@@ -2,39 +2,48 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Migrare dal connettore legacy o avanzato a Workfront per l’integrazione con Adobe Experience Manager as a Cloud Service
-description: Le informazioni contenute in questa pagina illustrano le best practice per passare da Workfront, ad Experience Cloud connettori avanzati o legacy, all’integrazione nativa più recente che collega Workfront e Adobe Experience Manager Assets as a Cloud Service.
+description: Le informazioni contenute in questa pagina illustrano le best practice per passare dai connettori avanzati o legacy di Workfront for Experience Cloud all’integrazione nativa più recente che collega Workfront e Adobe Experience Manager Assets as a Cloud Service.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: af14f408-df39-473c-9e18-bb88022c96ed
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
 
 # Migrare dal connettore legacy o avanzato a Workfront per l’integrazione con Adobe Experience Manager as a Cloud Service
 
-Le informazioni contenute in questa pagina illustrano le best practice per passare da Workfront, ad Experience Cloud connettori avanzati o legacy, all’integrazione nativa più recente che collega Workfront e Adobe Experience Manager Assets as a Cloud Service.
+Le informazioni contenute in questa pagina illustrano le best practice per passare dai connettori avanzati o legacy di Workfront for Experience Cloud all’integrazione nativa più recente che collega Workfront e Adobe Experience Manager Assets as a Cloud Service.
 
 >[!IMPORTANT]
 >
 >Queste informazioni non sono applicabili ai clienti che utilizzano ambienti Adobe Experience Manager Assets On-Premise o Managed Services.
 
-## Sposta l’istanza Workfront nell’Admin Console
+## Spostare l’istanza Workfront in Admin Console
 
-I clienti che intendono utilizzare la nuova integrazione nativa tra Workfront e Adobe Experience Manager Assets as a Cloud Service devono assicurarsi che il proprio ambiente Workfront sia associato a un Adobe Admin Console. Per gli ambienti Workfront esistenti, questo richiederà probabilmente una migrazione dell’ambiente a un Adobe Admin Console connesso. Per ulteriori dettagli su questa migrazione e sull&#39;elenco di controllo associato, vedere [Preparare l&#39;onboarding dell&#39;organizzazione in Adobe Admin Console](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md).
+>[!IMPORTANT]
+>
+>Poiché tutte le organizzazioni Workfront sono state migrate a Adobe Admin Console, questa sezione verrà rimossa nel prossimo futuro.
 
-L&#39;Adobe deve contribuire a realizzare questa migrazione. Per richiedere assistenza, eseguire una delle operazioni seguenti:
+<!--DELETE THIS SECTION MARCH 2026-->
 
-* Se disponi dell&#39;accesso Hub Workfront, invia la tua richiesta a [Migrazione Workfront a Adobe Admin Console](https://hub.workfront.com/requests/new?activeTab=tab-new-helpRequest&amp;projectID=629674d500054a38133cf26e01d06a97&amp;path=).
-* Se non disponi dell&#39;accesso a Workfront Hub, puoi inviare la tua richiesta alla [Coda richieste di migrazione anticipata da Workfront a Adobe Admin Console](https://workfront.az1.qualtrics.com/jfe/form/SV_9T5LuHf05JUOPAi).
+<!--
+Customers that intend to use the new native integration between Workfront and Adobe Experience Manager Assets as a Cloud Service must ensure their Workfront environment is tied to an Adobe Admin Console. For existing Workfront environments, this will likely require a migration of the environment to a connected Adobe Admin Console. For more details regarding this migration and the associated checklist, see [Prepare to onboard your organization to the Adobe Admin Console](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md). 
 
-## Configurare la nuova integrazione di Workfront for Adobe Experience Manager as a Cloud Service assets
+ Adobe must help carry out this migration. To request help, do one of the following:
 
-Dopo la migrazione dell’ambiente Workfront a un Adobe Admin Console, gli amministratori di Workfront possono configurare la nuova integrazione nativa. Per informazioni sulla configurazione, vedere [Configurare l&#39;integrazione as a Cloud Service di Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+* If you have Workfront Hub access, submit your request to the [Workfront Migration to Adobe Admin Console](https://hub.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=629674d500054a38133cf26e01d06a97&path=).
+* If you do not have Workfront Hub access, you can submit your request to the [Workfront to Adobe Admin Console Early Migration Request Queue](https://workfront.az1.qualtrics.com/jfe/form/SV_9T5LuHf05JUOPAi).
 
-## Spostare le risorse esistenti nell’integrazione di Workfront for Adobe Experience Manager assets as a Cloud Service
+-->
+
+## Configurare la nuova integrazione Workfront for Adobe Experience Manager assets as a Cloud Service
+
+Dopo la migrazione dell’ambiente Workfront a un Adobe Admin Console, gli amministratori di Workfront possono configurare la nuova integrazione nativa. Per informazioni sulla configurazione, vedere [Configurare l&#39;integrazione Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+
+## Spostare le risorse esistenti nell’integrazione Workfront for Adobe Experience Manager assets as a Cloud Service
 
 Dopo aver configurato l’ambiente, puoi spostare le risorse e le cartelle collegate esistenti in Adobe Experience Manager. Questo passaggio è facoltativo, ma assicurerà che le cartelle e le risorse collegate in precedenza tramite il connettore legacy o avanzato siano ancora accessibili dopo la disinstallazione di tali connettori.
 

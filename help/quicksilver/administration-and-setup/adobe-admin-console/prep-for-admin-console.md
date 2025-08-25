@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d9b5e4a1-069e-48be-80d0-84f4bf8aea8b
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,12 @@ ht-degree: 0%
 # Prepara l’onboarding della tua organizzazione in Adobe Admin Console
 
 <!-- Audited: 12/2023 -->
+
+<!--DELETE ME MARCH 2026-->
+
+>[!IMPORTANT]
+>
+>Poiché ora tutte le organizzazioni sono state migrate a Adobe Admin Console, questo articolo verrà rimosso nel prossimo futuro.
 
 Poiché Adobe Workfront è un prodotto Adobe, puoi accedervi tramite Adobe Admin Console. Questo consente di gestire Workfront insieme ad altri account e prodotti Adobe per i tuoi utenti da una posizione centrale.
 
@@ -35,7 +41,7 @@ Per garantire che la tua organizzazione possa migrare al Adobe Admin Console, de
 
    * Se la tua organizzazione non dispone di un Adobe Admin Console esistente o se non desideri utilizzare un Adobe Admin Console esistente, il supporto Workfront può aiutarti a crearne uno nuovo.
 
-   * Adobe Se disponi di più Admin Console e non sai quale sia più appropriato aggiungere Workfront a, contatta il supporto Workfront.
+   * Se disponi di più istanze di Adobe Admin Console e non sai quale sia la più appropriata per aggiungere Workfront a, contatta il supporto Workfront.
 
 1. Confermare con il Supporto Workfront che si desidera utilizzare un Adobe Admin Console esistente o crearne uno nuovo.
 
@@ -45,7 +51,7 @@ Per garantire che la tua organizzazione possa migrare al Adobe Admin Console, de
    >
    >Preparati a parlare con il supporto Workfront e il tuo team IT in merito alle preferenze di autenticazione, ad esempio Single Sign-on (SSO) o non SSO.
 
-   Per istruzioni, vedere la sezione Identity Management della [Guida alla distribuzione per Adobe Admin Console](https://helpx.adobe.com/it/enterprise/using/deployment-planning.html).
+   Per istruzioni, vedere la sezione Identity Management della [Guida alla distribuzione per Adobe Admin Console](https://helpx.adobe.com/enterprise/using/deployment-planning.html).
 
 1. (Condizionale) Se utilizzi il Single Sign-On, connetti il nuovo Adobe Admin Console al provider SSO esistente.
 

@@ -6,7 +6,7 @@ description: È possibile modificare i modelli di progetto per riflettere le mod
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: f4ea19368b664d0b3a47f93c70fd489685791538
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
 source-wordcount: '5045'
 ht-degree: 2%
@@ -108,7 +108,7 @@ Le modifiche apportate al modello non vengono applicate ai progetti che utilizza
    * [Impostazioni modello](#template-settings)
    * [Impostazioni attività](#task-settings)
    * [Impostazioni problema](#issue-settings)
-   * [Accesso](#access-preview)
+   * [Accedere ad](#access-preview)
    * [Commento](#comment)
    <!--* [Linked folders](#linked-folders-conditional-availability) -->
 
@@ -468,7 +468,7 @@ Per informazioni sull&#39;effetto di queste impostazioni sulla creazione di nuov
    | Livello di impegno di lavoro | Valore percentuale |
    |---|---|
    | Piccola | 25% |
-   | Media | 50% |
+   | Canale | 50% |
    | Grande | 75% |
 
    Per informazioni sull&#39;utilizzo di Impegno di lavoro per gestire le attività sui progetti, vedere [Panoramica impegno di lavoro](../../../manage-work/tasks/task-information/work-effort.md).
@@ -488,7 +488,7 @@ Modificando le impostazioni dei problemi, puoi impedire agli utenti di aggiunger
 
    ![Sezione Impostazioni problemi della casella del modello](assets/edit-template-box-issue-settings-section.png)
 
-1. (Facoltativo) Deseleziona l&#39;opzione **Consenti agli utenti di aggiungere problemi in linea**. È attivata per impostazione predefinita.
+1. (Facoltativo) Deseleziona l&#39;opzione **Consenti agli utenti di aggiungere problemi in linea**. Questa opzione è abilitata per impostazione predefinita.
 
    Quando si disabilita questa opzione, gli utenti non possono aggiungere problemi in linea al progetto o alle attività nella sezione Problemi quando il progetto viene creato dal modello.
 
@@ -577,7 +577,6 @@ Linked folder functionality automatically creates folders in Adobe Experience Ma
 
 This section appears only if all of the following apply:
 
-* Your organization has been migrated to the Adobe Admin Console
 * Your organization has enabled and configured an integration with Adobe Experience Manager
 * The template has enabled and configured linked folders.
 
