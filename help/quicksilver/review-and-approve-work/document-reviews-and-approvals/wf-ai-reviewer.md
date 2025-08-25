@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: 619bc09a226c6023ff653557dc6e049b2d177722
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '620'
 ht-degree: 4%
 
 ---
@@ -31,9 +31,7 @@ Qualsiasi utente può aggiungere il revisore IA a una richiesta di revisione e a
 
 ## Prerequisiti
 
-<!--DELETE THIS SECTION MARCH 2026-->
-
-<!--* Your organization must have migrated to Adobe IMS (Identity Management System).-->
+* La tua organizzazione deve aver eseguito la migrazione ad Adobe IMS (Identity Management System).
 * L&#39;istanza di Workfront deve avere le approvazioni unificate abilitate.
 * Adobe deve disporre di un accordo Adobe Gen AI firmato su file.
 Per ulteriori informazioni sulla firma del contratto, consulta [Firmare il contratto di Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
@@ -55,7 +53,7 @@ Il revisore IA può esaminare i seguenti tipi di file:
 
 ## Impostare le linee guida per il marchio
 
-Durante la revisione dei contenuti, Workfront AI Reviewer utilizza le linee guida del brand impostate in Genstudio Foundations. Attualmente, è possibile impostare solo le linee guida del brand per le immagini. Per ulteriori informazioni, vedere [Introduzione ad Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Durante la revisione dei contenuti, Workfront AI Reviewer utilizza le linee guida del brand impostate in Genstudio Foundations. Attualmente, è possibile impostare solo le linee guida del brand per le immagini. Per ulteriori informazioni, vedere [Introduzione ad Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## Crea revisori AI

@@ -5,9 +5,9 @@ description: Panoramica dell’Assistente AI
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '825'
 ht-degree: 1%
 
 ---
@@ -49,10 +49,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 Per abilitare l&#39;Assistente IA per la tua organizzazione, **tutti** i seguenti elementi devono essere applicati:
 
-<!--DELETE THIS SECTION MARCH 2026-->
-
-<!--* Your organization must have migrated to Adobe IMS (Identity Management System)
-* The Adobe Unified Experience must be enabled-->
+* La tua organizzazione deve aver eseguito la migrazione ad Adobe IMS (Identity Management System)
+* L’esperienza unificata di Adobe deve essere abilitata
 * La tua organizzazione deve disporre di un piano Select, Prime o Ultimate Workfront
 * Adobe deve disporre di un accordo Adobe Gen AI firmato su file
 

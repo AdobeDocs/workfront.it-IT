@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
-source-git-commit: 9fa4f85c914121adddcba4189af1398021544776
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%
@@ -25,16 +25,15 @@ ht-degree: 0%
 >
 >Come parte di questa modifica, Microsoft ha deciso di cambiare il modo in cui i token vengono riabilitati. Dopo il **30 giugno 2025**, gli amministratori non saranno più in grado di riabilitare i token personalmente. Solo il supporto Microsoft può concedere eccezioni. **Il 1° ottobre 2025, i token legacy verranno disattivati per tutti i tenant. Le eccezioni non verranno concesse.**
 
-<!--DELETE ME MARCH 2026-->
-
 Se si attiva l&#39;autenticazione SAML 2.0 e si desidera consentire agli utenti di accedere a Workfront da Microsoft Outlook utilizzando le credenziali SAML 2.0, è necessario abilitare SAML 2.0 per l&#39;autenticazione nei componenti aggiuntivi di Office.
 
 >[!NOTE]
 >
->Questa opzione non è disponibile se l’istanza Workfront dell’organizzazione utilizza un portale SSO personalizzato.
->&#x200B;>Per ulteriori informazioni, rivolgersi all&#39;amministratore di rete o IT.
-<!--
-or is enabled with Adobe IMS-->
+>Questa opzione non è disponibile se l’istanza Workfront dell’organizzazione utilizza un portale SSO personalizzato.>
+><!--
+>or is enabled with Adobe IMS>
+>-->
+>Per ulteriori informazioni, rivolgersi all&#39;amministratore di rete o IT.
 
 ## Requisiti di accesso
 

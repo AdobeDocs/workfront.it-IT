@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 3%
+source-wordcount: '951'
+ht-degree: 5%
 
 ---
 
@@ -110,32 +110,32 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      <tr> 
       <td role="rowheader">Richiedi agli utenti esterni di registrarsi con una password</td> 
       <td> <p>Richiede agli utenti esterni di registrarsi prima di poter visualizzare gli elementi in Workfront. Per impostazione predefinita, questa opzione è disabilitata. Quando abiliti questa opzione, alle persone senza un account Workfront incluse in alcuni aggiornamenti in base al loro indirizzo e-mail verrà richiesto di creare un account prima di poter visualizzare l’elemento in cui sono incluse. In questo modo viene creato un account utente esterno.</p> <p>Questa opzione è disabilitata per impostazione predefinita.</p> </td> 
-     </tr>
-<!-- DELETE THIS SECTION MARCH 2026   <tr> 
-      <td role="rowheader">Automatically log users out after</td> 
-      <td> Lets you specify when a user is logged out of Workfront, after a period of inactivity. By default, users are logged out after 8 hours of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p> <p>This setting is not available to organizations that have been migrated to Adobe IMS.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Disconnetti automaticamente gli utenti dopo</td> 
+      <td> Consente di specificare quando un utente viene disconnesso da Workfront dopo un periodo di inattività. Per impostazione predefinita, gli utenti vengono disconnessi dopo 8 ore di inattività. <p>Questa opzione interessa anche i clienti Workfront che utilizzano una soluzione single sign-on.</p> <p>Questa impostazione non è disponibile per le organizzazioni che sono state migrate ad Adobe IMS.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Disconnetti automaticamente gli utenti mobili dopo </td> 
+      <td>Consente di specificare quando un utente viene disconnesso dall’applicazione Workfront dopo un periodo di inattività. Per impostazione predefinita, gli utenti vengono disconnessi dopo 7 giorni di inattività. <p>Questa opzione interessa anche i clienti Workfront che utilizzano una soluzione single sign-on.</p> <p>Questa impostazione non è disponibile per le organizzazioni che sono state migrate ad Adobe IMS.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Help URL</td> 
+      <td>Consente di definire un sito di assistenza personalizzato interno in cui l’icona Help (Guida) del Main Menu (Menu principale) può essere visualizzata. Per ulteriori informazioni, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md">Configurare un URL della Guida personalizzato</a>.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Automatically log mobile users out after </td> 
-      <td>Lets you specify when a user is logged out of the Workfront application, after a period of inactivity. By default, users are logged out after 7 days of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p> <p>This setting is not available to organizations that have been migrated to Adobe IMS.</p></td> 
-     </tr>  -->
-    &lt;tr>
-    &lt;td role=&quot;rowheader&quot;>URL della Guida personalizzato&lt;/td>
-    &lt;td>Consente di definire un sito della Guida personalizzato interno in cui passare l&#39;icona della Guida del menu principale. Per ulteriori informazioni, consulta &lt;a href=&quot;/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md&quot;>Configurare un URL guida personalizzato&lt;/a>.&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td role=&quot;rowheader&quot;>Per impostazione predefinita, gli utenti del sistema visualizzeranno la nuova esperienza Home &lt;/td>
-    &lt;td>Consente di specificare se gli utenti visualizzeranno la nuova esperienza Home. Quando questa opzione è attivata, gli utenti vedranno l’esperienza Nuova home per impostazione predefinita, ma potranno comunque scegliere di abilitare o disabilitare la nuova home su base individuale. Se questa opzione è disattivata, gli utenti non visualizzeranno il banner che consente loro di passare alla nuova home. Tuttavia, possono comunque passare alla nuova home page immettendo manualmente &lt;code>/home/workspaces&lt;/code> alla fine dell’URL dell’istanza. Questa impostazione è attivata per impostazione predefinita.&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td role=&quot;rowheader&quot;>Abilita elenco lavori Priorities &lt;/td>
-    &lt;td>Consente di abilitare o disabilitare l&#39;esperienza elenco lavori Priorities per i tuoi utenti. Gli utenti continueranno a visualizzare le icone Priorità in Workfront, ma non avranno accesso alla funzionalità. Per ulteriori informazioni sulle priorità, consulta &lt;a href=&quot;/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md&quot;>Introduzione alle priorità&lt;/a>.&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td role=&quot;rowheader&quot;>Ambienti di test&lt;/td>
-    &lt;td>Consente di accedere agli ambienti di test di Workfront. Per ulteriori informazioni, consulta &lt;a href=&quot;/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md&quot;>Ambiente sandbox di anteprima di Adobe Workfront&lt;/a>.&lt;/p>&lt;/td>
-    &lt;/tbody>
-</table>
+      <td role="rowheader">Gli utenti nel sistema visualizzeranno per impostazione predefinita la nuova esperienza Home </td> 
+      <td>Consente di specificare se gli utenti visualizzeranno la nuova esperienza Home per impostazione predefinita. Quando questa opzione è attivata, gli utenti vedranno l’esperienza Nuova home per impostazione predefinita, ma potranno comunque scegliere di abilitare o disabilitare la nuova home su base individuale. Se l'opzione è disabilitata, gli utenti non visualizzeranno il banner che consente loro di passare alla nuova home. Tuttavia, possono comunque passare alla nuova home page immettendo manualmente <code>/home/workspaces</code> alla fine dell'URL dell'istanza. Questa impostazione è attivata per impostazione predefinita.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Abilitare l’elenco di lavoro Priorità </td> 
+      <td>Consente di abilitare o disabilitare l’esperienza dell’elenco di lavoro Priorità per i tuoi utenti. Gli utenti continueranno a visualizzare le icone Priorità in Workfront, ma non avranno accesso alla funzionalità. Per ulteriori informazioni sulle priorità, vedere <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Introduzione alle priorità</a>.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Ambienti di prova</td> 
+      <td>Consente di accedere agli ambienti di test di Workfront. Per ulteriori informazioni, consulta <a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md">Ambiente Sandbox di anteprima di Adobe Workfront</a>.</p></td> 
+    </tbody> 
+   </table>
 
 1. Fai clic su **Salva**.
 
