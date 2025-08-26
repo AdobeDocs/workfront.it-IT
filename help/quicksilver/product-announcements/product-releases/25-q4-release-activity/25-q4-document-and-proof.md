@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f4615994-8a56-482c-b033-62e719be152e
-source-git-commit: bcf9e3eb987bf4c33b994d68276cb04b817c484d
+source-git-commit: f4493666ce8053f98490b87a6cfd76d759393d8c
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,26 @@ ht-degree: 0%
 Questa pagina descrive i miglioramenti relativi a documenti e bozze apportati con la versione del quarto trimestre 2025 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del quarto trimestre 2025, consulta [Panoramica sulla versione del quarto trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Rollout graduale delle approvazioni unificate
+
+>[!NOTE]
+>
+>Versione di produzione per i clienti: rollout graduale a partire dal 17 luglio 2025
+
+
+Stiamo attivando le approvazioni unificate, precedentemente note come nuove approvazioni dei documenti, in un rollout graduale. Questa funzionalità verrà abilitata automaticamente nell’istanza di Workfront nei prossimi sei mesi.
+
+Le approvazioni unificate sostituiscono le approvazioni di documenti legacy e forniscono le seguenti funzionalità direttamente su un documento:
+
+* Designare un intero team Workfront come revisori o approvatori
+* Imposta una scadenza per la revisione o l’approvazione
+* Creare e riutilizzare modelli di approvazione
+* Utilizzare le nuove versioni
+* Visualizzare più indicatori di prestazioni chiave per le approvazioni nei widget della home di Workfront
+* Utilizza i dashboard di Canvas per visualizzare i dettagli di reporting sulle approvazioni unificate
+
+Per ulteriori informazioni, vedere [Panoramica delle approvazioni unificate](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
 ## Nuovo revisore di Workfront AI
 
