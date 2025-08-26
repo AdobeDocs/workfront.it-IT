@@ -6,10 +6,10 @@ description: È possibile scegliere tra diversi widget per personalizzare il con
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
-source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
+source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 6%
+source-wordcount: '1111'
+ht-degree: 4%
 
 ---
 
@@ -63,7 +63,7 @@ Per impostazione predefinita, la home page è compilata con widget specifici in 
         <td>Il mio lavoro, le mie menzioni, le mie cose da fare</td>
     </tr>
     <tr>
-        <td>Revisiona</td>
+        <td>Rivedi</td>
         <td>Il mio lavoro, menzioni</td>
     </tr>
     <tr>
@@ -95,7 +95,7 @@ Per aggiungere un widget:
    ![Pulsante Personalizza](assets/customize-button.png)
 1. Scorri fino alla sezione **Widget**, quindi seleziona i widget che desideri aggiungere.
 
-+++ Espandere per visualizzare un elenco dettagliato dei widget disponibili
+   +++ Espandere per visualizzare un elenco dettagliato dei widget disponibili
 
    * **Il mio lavoro**\
        Visualizza tutte le attività, i problemi e le richieste assegnati in un&#39;unica posizione. È possibile fare clic sul pulsante Lavoraci per iniziare a lavorare su un elemento oppure sul pulsante Fine per contrassegnarli come completati. È inoltre possibile aggiornare le informazioni (Stato, Condizione, Percentuale di completamento) relative alle attività e ai problemi, registrare i tempi e aggiungere aggiornamenti dal widget Il mio lavoro.
@@ -119,7 +119,10 @@ Per aggiungere un widget:
        Mostra tutte le richieste in sospeso per i team di cui fai parte, ordinate per team, nonché i pulsanti per assegnare direttamente una richiesta a un utente o per lavorarci di persona.
 
    * **Le mie approvazioni**\
-       Mostra tutte le approvazioni assegnate o delegate in attesa, un pulsante per delegare le approvazioni e pulsanti per prendere decisioni di approvazione direttamente all’interno del widget.
+       Visualizza tutte le approvazioni assegnate o delegate in sospeso, un pulsante per delegare le approvazioni e pulsanti per prendere decisioni di approvazione direttamente all&#39;interno del widget. Le approvazioni vengono ordinate come segue:
+      * Scadenze
+      * Prossime scadenze
+      * Articoli senza scadenza
 
    * **Metriche di approvazione documento**\
            Visualizza 2 grafici con informazioni sul tempo medio di approvazione e sulle decisioni, nonché visualizzazioni elenco delle approvazioni in sospeso e in ritardo. Per utilizzare questo widget è necessario che siano abilitate [Approvazioni unificate](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
@@ -134,7 +137,7 @@ Per aggiungere un widget:
      >
      >È necessario disporre dell&#39;autorizzazione per creare le attività per poter creare le attività da fare nel widget Attività. Verranno visualizzate solo le attività personali immesse dall&#39;utente corrente.
 
-+++
+   +++
 
 1. Fare clic su **Aggiungi widget**.
 

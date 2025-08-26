@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '844'
 ht-degree: 1%
 
 ---
@@ -127,17 +127,15 @@ Per personalizzare la Home tramite un modello di layout:
         <li>I miei problemi</li>
       </ul>
       <p>Dopo aver selezionato il widget da modificare, seleziona i <b>Filtri</b>, <b>Colonne</b> e <b>Gruppi</b> che desideri rendere disponibili per la Home a destra.</p>
-      <p> È possibile:</p>
+      <p> Puoi eseguire le seguenti operazioni:</p>
       <ul>
       <li><p>Seleziona e ordina i Filtri, le Colonne o i Gruppi disponibili per gli utenti selezionando la casella accanto alle opzioni nell’elenco. Le opzioni non selezionate non vengono visualizzate per gli utenti.</p></li>
-      <li> <p>Trascina le opzioni nell’elenco per impostare un ordine.</p></li>
       <p>
 
    >[!IMPORTANT]
    >
    >* Le opzioni Filtro, Colonne e Gruppo sono collegate alle opzioni di personalizzazione elenco nel modello di layout. Le modifiche apportate qui verranno applicate anche a queste impostazioni.
    >* Gli utenti devono disporre almeno dell&#39;accesso Crea alle visualizzazioni per consentire la corretta applicazione della configurazione della colonna Amministratore alle proprie home page.
-
    </p>
       <li><p>Impostare un filtro o un gruppo predefinito per il widget passando il mouse su un'opzione e facendo clic su <b>Imposta come predefinito</b>. Il valore predefinito corrente visualizza un contrassegno blu <b>Predefinito</b> a destra.</p></li>
       <li><p>Aggiungere un filtro, una colonna o un gruppo esistente all'elenco delle opzioni disponibili facendo clic sul pulsante del segno più nella parte inferiore di ogni elenco per aggiungere un'opzione all'elenco. Solo i filtri, i campi (per le colonne) o i gruppi esistenti possono essere aggiunti in questo modo.</p></li>

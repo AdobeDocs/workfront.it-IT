@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 401d6a25cb23ebd28960ea866e7308142107a891
+source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '1866'
+source-wordcount: '1879'
 ht-degree: 3%
 
 ---
@@ -160,7 +160,13 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Il widget delle mie approvazioni ora ordina automaticamente per scadenza </a><p></p>
-            <p>Il widget Le mie approvazioni è stato aggiornato nella home per ordinare per scadenza (decrescente) per impostazione predefinita. Questo consente di visualizzare le approvazioni più urgenti nella parte superiore dell'elenco. </p><p><b>Nota:</b> attualmente, solo le approvazioni di bozze possono essere ordinate in base alla scadenza nel widget Approvazioni personali.</p>
+            <p>Il widget Le mie approvazioni è stato aggiornato nella home per ordinare per scadenza (crescente) per impostazione predefinita. Questo consente di visualizzare le approvazioni più urgenti nella parte superiore dell'elenco. Le approvazioni vengono ordinate come segue:</p>
+            <ul>
+                <li>Scadenze</li>
+                <li>Prossime scadenze</li>
+                <li>Articoli senza scadenza</li>
+            </ul>
+            <p><b>Nota:</b> attualmente, solo le approvazioni di bozze possono essere ordinate in base alla scadenza nel widget Approvazioni personali.</p>
         </td>
         <td>venerdì 29 maggio 2025</td>
         <td>venerdì 12 giugno 2025</td>
@@ -355,7 +361,7 @@ A questo punto della versione non sono presenti aggiornamenti per i seguenti ele
 * Bozza
 * Obiettivi
 
-## Notifiche
+## Annunci
 
 ### Nuova versione di Workfront per Microsoft Teams
 
@@ -381,7 +387,7 @@ Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianific
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Aggiornamenti dei corsi di formazione
 
