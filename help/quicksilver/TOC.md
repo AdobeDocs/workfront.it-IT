@@ -3,7 +3,7 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: fcce7c6b9a2d10069a4b6c50b7b7a244ac538a33
+source-git-commit: b5899500cad1ac32345d39f76eea7f643f1cd0ea
 workflow-type: tm+mt
 source-wordcount: '13461'
 ht-degree: 2%
@@ -113,12 +113,12 @@ ht-degree: 2%
          * [23.3 Miglioramenti di Agile](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md)
          * [23.3 Miglioramenti apportati alla gestione finanziaria](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md)
          * [23.3 Miglioramenti dell’integrazione](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md)
-         * [23.3 Miglioramenti al progetto](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md)
+         * [23.3 Miglioramenti del progetto](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md)
          * [23.3 Miglioramenti per dispositivi mobili](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md)
          * [23.3 Altri miglioramenti](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
          * [Aggiornamenti look and feel durante il periodo di rilascio della versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * Versione 23.2 {#release-23-2}
-         * [Panoramica sulla versione di 23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
+         * Panoramica sulla versione di [23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 Miglioramenti per gli amministratori](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
          * [23.2 Miglioramenti di Agile](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
          * [23.2 Miglioramenti alla gestione dei progetti](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
@@ -354,8 +354,8 @@ ht-degree: 2%
             * [Attività sulla versione 2017.3 di Beta 1](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md)
             * [Attività sulla versione 2017.3 di Beta 2](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md)
             * [Attività sulla versione 2017.3 di Beta 3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-3-release-activity.md)
-            * [Attività sulla versione 2017.3 di Beta 4](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md)
-            * [Attività sulla versione finale 2017.3 di Beta](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md)
+            * [Attività di rilascio di Beta 4 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md)
+            * [2017.3 Beta Attività di rilascio finale](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md)
             * [Webinar sulla versione 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-webinars.md)
          * Versione 2017.2 {#release-17-2}
             * [Attività sulla versione 2017.2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity.md)
@@ -778,8 +778,8 @@ ht-degree: 2%
       * [Azioni da intraprendere dopo l’installazione di una blueprint](administration-and-setup/blueprints/best-next-actions-after-install.md)
       * [Elenco dei blueprint disponibili](administration-and-setup/blueprints/list-of-available-blueprints.md)
    * Amministrazione in Adobe Admin Console {#admin-in-admin-console}
-      * [Amministrazione di Workfront in Adobe Admin Console](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
-      * [Preparazione per Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
+      * [Amministrazione del fronte di lavoro nel Adobe Admin Console](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
+      * [Prepararsi per il Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
       * [Informazioni sulla migrazione di Workfront a Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
    * Suggerimenti, trucchi e risoluzione dei problemi per l’amministrazione e la configurazione {#admin-setup-tips}
       * [Suggerimenti, trucchi e risoluzione dei problemi](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
@@ -963,11 +963,11 @@ ht-degree: 2%
       * [App mobili](workfront-basics/mobile-apps/mobile-apps.md)
       * Utilizzare le app mobili di Adobe Workfront {#use-workfront-mobile-app}
          * [Utilizzare l’app mobile di Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
-         * [Adobe Workfront per Android](workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
-         * [Essere un beta tester di Android](workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
-         * [Adobe Workfront per iOS](workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
-         * [Essere un beta tester di iOS](workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
-         * [Widget area Home](workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)
+         * [Adobe Systems Workfront per Android](workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
+         * [Diventa un beta tester Android](workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
+         * [Adobe Systems Workfront per iOS](workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
+         * [Diventa un beta tester iOS](workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
+         * [Widget area home](workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)
          * [Sezione Il mio lavoro nell’app mobile](workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)
          * [Schede madri Adobe Workfront per dispositivi mobili](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)
          * [Rivedi e prendi decisioni sulle bozze nell’app mobile di Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)
@@ -1527,7 +1527,7 @@ ht-degree: 2%
          * [Filtrare un dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
          * [Modificare il nome o la descrizione di un dashboard Area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
          * [Eliminare un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
-         * [Aggiungere un dashboard Area di lavoro a un modello di layout](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template)
+         * [Aggiungere un dashboard Area di lavoro a un modello di layout](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template.md)
       * Gestione dei rapporti {#manage-reports}
          * [Gestisci rapporti: indice articoli](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/manage-reports-article-index.md)
          * [Modificare un rapporto in un dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
@@ -1868,7 +1868,7 @@ ht-degree: 2%
             * [Eliminare una bozza](review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md)
             * [Ripristinare una bozza archiviata](review-and-approve-work/proofing/managing-proofs-within-workfront/restore-archived-proof.md)
             * [Visualizzare l’attività su una bozza in Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/view-activity-on-proof-in-wf.md)
-            * [Utilizzare il rapporto di approvazione della bozza](review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
+            * [Utilizzare il rapporto di approvazione della prova](review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
             * [Accedere a Workfront Proof da Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
          * Gestire le versioni delle bozze {#manage-proof-versions}
             * [Gestione versioni bozza: indice articolo](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
@@ -2103,10 +2103,10 @@ ht-degree: 2%
       * [Condividere le visualizzazioni](planning/access/share-views.md)
       * [Richiedere le autorizzazioni per una visualizzazione o un’area di lavoro](planning/access/request-permissions.md)
    * Record di Adobe Workfront Planning {#adobe-workfront-planning-records}
-      * [Record: indice articolo](planning/records/records-information.md)
+      * [Record: indice degli articoli](planning/records/records-information.md)
       * [Crea record](planning/records/create-records.md)
-      * [Creare record importando informazioni da un file CSV o Excel](planning/records/import-file-to-create-records.md)
-      * [Panoramica sui record collegati](planning/records/connected-records-overview.md)
+      * [Crea record importando informazioni da un file CSV o Excel](planning/records/import-file-to-create-records.md)
+      * [Panoramica dei record connessi](planning/records/connected-records-overview.md)
       * [Connetti record](planning/records/connect-records.md)
       * [Modifica record](planning/records/edit-records.md)
       * [Elimina record](planning/records/delete-records.md)
@@ -2504,7 +2504,7 @@ ht-degree: 2%
       * [Configura e utilizza le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso PKCE](wf-api/api/oauth-app-pkce-flow.md)
       * [Obsolescenza di API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Novità dell&#39;API versione 20](wf-api/api/new-api-version-20.md)
-      * [Novità della versione 19 dell&#39;API](wf-api/api/new-api-version-19.md)
+      * [Novità della versione 19](wf-api/api/new-api-version-19.md) dell&#39;API
       * [Novità della versione 18 dell’API](wf-api/api/new-api-version-18.md)
       * [Novità della versione 17 dell’API](wf-api/api/new-api-version-17.md)
       * [Novità della versione 16 dell’API](wf-api/api/new-api-version-16.md)
@@ -2527,17 +2527,17 @@ ht-degree: 2%
       * [API Explorer](wf-api/general/api-explorer.md)
       * [Utilizzo di API Explorer](wf-api/general/using-api-explorer.md)
       * [Campi Rich Text nell’API di Adobe Workfront](wf-api/general/rich-text-field-api.md)
-      * [Esempi di script API](wf-api/general/api-example-scripts.md)
-      * [Utilizzo dell’API per sincronizzare i dati per programmi e servizi](wf-api/general/api-sync-data.md)
-      * [Disattivare un utente tramite l’API](wf-api/general/deactivate-user-api.md)
-   * Abbonamenti eventi {#event-subscriptions}
-      * [Abbonamenti eventi](wf-api/api/event-subscriptions.md)
-      * [API di abbonamento agli eventi](wf-api/general/event-subs-api.md)
+      * [Script di esempio per API](wf-api/general/api-example-scripts.md)
+      * [Utilizzo dell&#39;API per Sincronizzazione i dati per programmi e servizi](wf-api/general/api-sync-data.md)
+      * [Disattivare un utente tramite l&#39;API](wf-api/general/deactivate-user-api.md)
+   * Iscrizioni agli eventi {#event-subscriptions}
+      * [Iscrizioni agli eventi](wf-api/api/event-subscriptions.md)
+      * [API di sottoscrizione evento](wf-api/general/event-subs-api.md)
       * [Best practice per l’abbonamento agli eventi](wf-api/general/event-sub-best-practice.md)
       * [Requisiti di consegna dell’abbonamento agli eventi](wf-api/general/setup-event-sub-endpoint.md)
       * [Nuovi tentativi di abbonamento agli eventi](wf-api/api/event-sub-retries.md)
-      * [Controllo delle versioni delle sottoscrizioni agli eventi](/help/quicksilver/wf-api/general/event-subs-versioning.md)
-      * [Formato dei messaggi in uscita per le sottoscrizioni di eventi](wf-api/api/message-format-event-subs.md)
+      * [controllo delle versioni iscrizione all&#39;evento](/help/quicksilver/wf-api/general/event-subs-versioning.md)
+      * [Formato dei messaggi in uscita per le sottoscrizioni agli eventi](wf-api/api/message-format-event-subs.md)
       * [Domande frequenti - Abbonamenti agli eventi](wf-api/general/event-subs-faq.md)
    * API dei webhook dei documenti {#document-webhooks-api}
       * [API Document Webhooks: indice dell’articolo](wf-api/doc-wbhks-api/document-webhooks-api.md)
