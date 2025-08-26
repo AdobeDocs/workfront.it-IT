@@ -5,11 +5,9 @@ title: Filtrare un dashboard di Canvas
 description: Puoi applicare un filtro a un dashboard di Canvas dopo averlo creato.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: fcce7c6b9a2d10069a4b6c50b7b7a244ac538a33
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '806'
 ht-degree: 0%
 
 ---
@@ -20,9 +18,9 @@ ht-degree: 0%
 >
 >La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Per ulteriori informazioni, vedere [Informazioni sulla versione beta delle dashboard di Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-È possibile applicare un filtro al dashboard contenente i prompt __________
+Puoi applicare un filtro a un dashboard di Canvas contenente prompt. Un prompt funziona da modificatore di filtro che applica criteri di filtro aggiuntivi in modo da poter limitare ulteriormente i risultati. Questi prompt possono essere modificati ogni volta che si applica il filtro, consentendo di regolare i risultati visualizzati senza dover modificare i criteri di filtro principali del dashboard o di ogni singolo rapporto.
 
-+++ Espandere per visualizzare i requisiti di accesso.
++++ Espandere per visualizzare i requisiti di accesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -69,6 +67,26 @@ Per ulteriori informazioni, vedere [Creare un dashboard Canvas](/help/quicksilve
 
 ## Filtrare un dashboard
 
+Per filtrare un dashboard, effettua le seguenti operazioni nell’ordine elencato:
+
+* [Parte 1: Creare un filtro del dashboard](#part-1-create-a-dashboard-filter)
+* [Parte 2: creazione di un prompt del dashboard](#part-2-define-a-dashboard-prompt)
+* [Parte 3: Applicare un prompt del dashboard](#step-3-apply-a-dashboard-prompt)
+
+>[!NOTE]
+>
+>Il filtro del dashboard verrà applicato a tutti i rapporti in cui i filtri a livello di dashboard non sono disabilitati.  È possibile escludere singoli report dall&#39;applicazione di filtri a livello di dashboard espandendo il menu delle azioni per ogni report e selezionando l&#39;opzione **Disattiva filtri**.
+
+
+### Parte 1: Creare un filtro del dashboard
+
+Con un filtro dashboard, puoi applicare un filtro comune a tutti i rapporti disponibili in un dashboard senza dover modificare i filtri per ogni singolo rapporto.
+
+>[!NOTE]
+>
+>Questi filtri possono essere configurati solo da un utente con accesso Gestisci al dashboard.
+
+
 {{step1-to-dashboards}}
 
 1. Nel pannello a sinistra, fai clic su **Dashboard Canvas**.
@@ -85,9 +103,22 @@ Per ulteriori informazioni, vedere [Creare un dashboard Canvas](/help/quicksilve
 
       ![Icona Modifica](assets/edit-icon.png)
 
-   1. Fare clic su **Aggiungi condizione** e quindi specificare il campo in base al quale si desidera filtrare e il modificatore che definisce il tipo di condizione che il campo deve soddisfare.
+   1. Fare clic su **Aggiungi condizione** e quindi aggiungere le seguenti informazioni:
+      * Seleziona un campo in base al quale filtrare.
+      * Seleziona un’opzione (o un modificatore di filtro) per definire il tipo di condizione che il campo deve soddisfare.
 
    1. (Facoltativo) Fai clic su **Aggiungi gruppo di filtri** per aggiungere un altro set di criteri di filtro. L&#39;operatore di default tra i set è AND. Fai clic sull’operatore per modificarlo in O.
+
+1. Procedi a [Parte 2: crea un prompt del dashboard](#part-2-define-a-dashboard-prompt).
+
+
+### Parte 2: definire un prompt del dashboard
+
+Un prompt del dashboard consente agli utenti di applicare filtri personalizzati aggiuntivi ai rapporti disponibili nel dashboard.
+
+>[!NOTE]
+>
+>Le opzioni del prompt del dashboard possono essere configurate solo da un utente con accesso Gestisci al dashboard.
 
 1. Per aggiungere una richiesta, effettua le seguenti operazioni:
 
@@ -95,7 +126,7 @@ Per ulteriori informazioni, vedere [Creare un dashboard Canvas](/help/quicksilve
 
    1. Immettere un&#39;etichetta nel campo **Personalizza etichetta**.
 
-   1. Fai clic su **Seleziona campo**, quindi specifica il campo da ________.
+   1. Selezionare il campo su cui si desidera basare il prompt digitando il nome del campo e selezionandolo quando viene visualizzato nell&#39;elenco. 
 
 1. Per aggiungere un prompt personalizzato, effettua le seguenti operazioni:
 
@@ -105,10 +136,34 @@ Per ulteriori informazioni, vedere [Creare un dashboard Canvas](/help/quicksilve
 
    1. Fare clic su **Aggiungi nuova opzione**.
 
-   1. Immettere _____ nel campo **Valore opzione**.
+   1. Immettere il nome del prompt nel campo **Valore opzione**.
 
    1. Fare clic su **Aggiungi condizione** e quindi specificare il campo in base al quale si desidera filtrare e il modificatore che definisce il tipo di condizione che il campo deve soddisfare.
+
+      >[!NOTE]
+      >
+      >La condizione di un prompt personalizzato può essere modificata solo utilizzando la modalità testo. Questo consente di applicare più condizioni in un singolo campo.
+
 
    1. (Facoltativo) Fai clic su **Aggiungi gruppo di filtri** per aggiungere un altro set di criteri di filtro. L&#39;operatore di default tra i set è AND. Fai clic sull’operatore per modificarlo in O.
 
 1. Fai clic su **Salva** per applicare il filtro al dashboard.
+
+1. Procedi a [Parte 3: Applica un prompt del dashboard](#step-3-apply-a-dashboard-prompt).
+
+### Passaggio 3: applicare un prompt del dashboard
+
+Tutti gli utenti con accesso a un dashboard possono applicare un prompt del dashboard a un dashboard di Canvas una volta creati il filtro e i prompt.
+
+{{step1-to-dashboards}}
+
+1. Nel pannello a sinistra, fai clic su **Dashboard Canvas**.
+
+1. Nella pagina **Dashboard area di lavoro** selezionare il dashboard a cui si desidera applicare il prompt.
+
+1. Nell&#39;angolo superiore sinistro della pagina dei dettagli del dashboard, fare clic su **Filtri**. Viene visualizzato il pannello laterale dei filtri.
+
+1. Nella sezione **Mostra record in cui...** scegliere una condizione per uno o tutti i prompt visualizzati. Viene applicato il prompt e nell&#39;angolo del widget del report viene visualizzato un tag **Filtri dashboard applicati**.
+   ![Seleziona condizione](assets/prompts-list.png)
+
+1. Fai clic sull&#39;icona **Chiudi** ![Chiudi](assets/close-icon.png) nell&#39;angolo superiore destro per nascondere il pannello.
