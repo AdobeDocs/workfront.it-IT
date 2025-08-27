@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: c3e3dfdb0a1819954c97168cbabddfc8dc5863a0
+source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
 workflow-type: tm+mt
-source-wordcount: '2005'
+source-wordcount: '2047'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,10 @@ Dopo che un responsabile dell&#39;area di lavoro crea un modulo di richiesta per
 
 * Dall’area Richieste di Workfront.
 * Da un collegamento diretto al modulo di richiesta condiviso.
-
-  Questo articolo descrive come inviare una richiesta per aggiungere nuovi record a un tipo di record dall’area Richieste di Workfront o da un collegamento condiviso.
 * Dalla pagina del tipo di record, quando si aggiunge o si richiede un nuovo record. Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
+
+Questo articolo descrive come inviare una richiesta per aggiungere nuovi record a un tipo di record dall’area Richieste di Workfront o da un collegamento condiviso.
+
 
 Gli utenti Workfront e gli utenti esterni possono inviare richieste ai tipi di record Planning e creare record. <!--double check on the external users-->
 
@@ -160,7 +161,9 @@ L&#39;abilitazione di questa impostazione rende disponibili i moduli di richiest
    >* Puoi accedere alla visualizzazione di almeno un’area di lavoro.
    >
 
-1. Fai clic su **Nuova richiesta**.
+<!--Production-->
+
+1. Nell&#39;ambiente di produzione, fare clic su **Nuova richiesta**.
 
    <!--![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png-->
 
@@ -169,12 +172,15 @@ L&#39;abilitazione di questa impostazione rende disponibili i moduli di richiest
    * Le 6 code di richieste Workfront e i moduli di richiesta Planning utilizzati più di recente vengono visualizzati nella sezione Recenti.
    * Nella sezione **Tutti i moduli di richiesta** vengono visualizzate in ordine alfabetico 50 code di richiesta Workfront e moduli di richiesta Planning aggiuntivi. Puoi cercare una coda di richieste che non viene visualizzata per impostazione predefinita.
 
-1. Esegui una delle operazioni seguenti:
+1. Nell’ambiente di produzione, effettua una delle seguenti operazioni:
 
    * Selezionare i moduli di richiesta Planning nelle sezioni Moduli di richiesta recenti o Tutti
    * Inizia a digitare il nome di un modulo di richiesta Planning nella casella di ricerca, quindi fai clic sulla scheda quando viene visualizzata nell’elenco.
 
    Viene aperto il modulo di richiesta.
+
+<!-- Put preview section here-->
+1. <span class="preview">Nell&#39;ambiente di anteprima, selezionare un modulo di richiesta o una coda dall&#39;area Moduli di richiesta utilizzati di recente oppure iniziare a digitare il nome del modulo o della coda nell&#39;elenco, quindi selezionarlo quando viene visualizzato.
 
 1. Aggiorna i campi disponibili nel modulo di richiesta. I campi con un asterisco rosso sono obbligatori.
 1. Fai clic su **Invia**.
@@ -256,7 +262,7 @@ L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi
    >
    >* Se il modulo di richiesta è associato a un’approvazione, questa deve essere concessa prima di poter accedere al record dalla pagina della richiesta.
 
-1. (Facoltativo) Fare clic sul nome del tipo di record **&#x200B;**.
+1. (Facoltativo) Fare clic sul nome del tipo di record ****.
 
    La pagina del tipo di record viene visualizzata in Workfront Planning.
 
@@ -319,7 +325,7 @@ L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi
    >
    >* Se il modulo di richiesta è associato a un’approvazione, questa deve essere concessa prima di poter accedere al record dalla pagina della richiesta.
 
-1. (Facoltativo) Fare clic sul nome del tipo di record **&#x200B;**.
+1. (Facoltativo) Fare clic sul nome del tipo di record ****.
 
    La pagina del tipo di record viene visualizzata in Workfront Planning.
 

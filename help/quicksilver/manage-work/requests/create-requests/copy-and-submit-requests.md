@@ -6,10 +6,10 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 1%
+source-wordcount: '1361'
+ht-degree: 2%
 
 ---
 
@@ -80,10 +80,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modifica l'accesso alle Issues</p>  </td> 
   </tr> 
+  <tr>
    <td role="rowheader">Autorizzazioni oggetto</td> 
    <td><p>Accesso per aggiungere richieste a una coda di richieste</p> <p>Visualizza o autorizzazioni superiori per la richiesta esistente</p> <p>Per informazioni sulla configurazione di una coda richieste, vedere <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Creare una coda richieste</a>. </p> </td> 
-  <tr>
   </tr>
+  <tr> 
+   <td role="rowheader"> Prodotto</td> 
+   <td> <ul><li>Adobe Workfront</li><li>È necessario disporre di Adobe Workfront Planning per visualizzare le richieste o i moduli di richiesta di Planning</td> 
+  </tr> 
  </tbody> 
 </table>
 

@@ -8,10 +8,10 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 7815fd0f84170cb92eef1bafa8aa90abe5365c04
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 1%
+source-wordcount: '978'
+ht-degree: 2%
 
 ---
 
@@ -65,6 +65,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr>
    <td role="rowheader">Autorizzazioni oggetto</td> 
    <td><p>Visualizza autorizzazioni o versioni successive nelle richieste</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> Prodotto</td> 
+   <td> <ul><li>Adobe Workfront</li><li>È necessario disporre di Adobe Workfront Planning per visualizzare le richieste o i moduli di richiesta di Planning</td> 
   </tr> 
  </tbody> 
 </table>
@@ -153,11 +157,11 @@ Per individuare le richieste inviate da te o da altri utenti:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Tutti</td> 
+      <td role="rowheader">Tutto</td> 
       <td>Tutte le richieste inviate, indipendentemente dallo stato o da chi le ha inviate.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Aperti</td> 
+      <td role="rowheader">Open</td> 
       <td> <p>Tutte le richieste inviate che sono attualmente aperte, indipendentemente da chi le ha inviate. Solo le richieste per le quali disponi almeno delle autorizzazioni di visualizzazione vengono visualizzate qui se non le hai inviate personalmente. </p> <p>Le richieste senza una data di completamento effettiva o il cui oggetto di risoluzione non dispone di una data di completamento effettiva sono elencate nella scheda secondaria Apri.</p> <p><b>SUGGERIMENTO</b>
 
    Le richieste con uno stato diverso da Chiuso vengono considerate aperte.</p> </td>

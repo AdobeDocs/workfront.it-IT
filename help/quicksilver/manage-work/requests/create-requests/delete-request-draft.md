@@ -6,10 +6,10 @@ description: È possibile eliminare le bozze di richiesta durante la creazione e
 author: Alina
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 0%
+source-wordcount: '271'
+ht-degree: 1%
 
 ---
 
@@ -48,6 +48,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modifica l'accesso alle Issues</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> Prodotto</td> 
+   <td> <ul><li>Adobe Workfront</li><li>È necessario disporre di Adobe Workfront Planning per visualizzare le richieste o i moduli di richiesta di Planning</td> 
   </tr> 
  </tbody> 
 </table>

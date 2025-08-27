@@ -6,9 +6,9 @@ description: Puoi configurare un progetto per consentire agli utenti di aggiunge
 author: Alina, Courtney
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modifica l'accesso alle Issues</p>  </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"> Prodotto</td> 
+   <td> <ul><li>Adobe Workfront</li><li>È necessario disporre di Adobe Workfront Planning per visualizzare le richieste o i moduli di richiesta di Planning</td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -75,7 +79,7 @@ Per configurare un progetto in modo che gli utenti possano aggiungere problemi a
 >* Workfront consente di inviare un messaggio e-mail univoco per ogni coda di richieste in tutti i cluster. Se scegli di disabilitare la coda di richieste, mantieni l’indirizzo e-mail creato finché è ancora nella casella Indirizzo e-mail di assegnazione. Se scegli di interrompere l’uso dell’e-mail di assegnazione, devi eliminarla dal campo E-mail di assegnazione in modo che possa essere utilizzata in futuro.
 >
 >* Se la coda di richieste ha più argomenti della coda o gruppi di argomenti, Workfront selezionerà in modo casuale l’argomento della coda a cui andranno le richieste inviate via e-mail, rendendo difficile la gestione di queste ultime.
->È consigliabile che il progetto configurato per la ricezione di richieste tramite e-mail non contenga più di un argomento della coda. Se le richieste inviate sono destinate a risorse o progetti diversi, è necessario indirizzarle o spostarle manualmente, dopo l’invio.
+>  >È consigliabile che il progetto configurato per la ricezione di richieste tramite e-mail non contenga più di un argomento della coda. Se le richieste inviate sono destinate a risorse o progetti diversi, è necessario indirizzarle o spostarle manualmente, dopo l’invio.
 
 1. Vai al progetto che desideri abilitare per ricevere i problemi tramite e-mail.
 1. Fai clic su **Dettagli coda** nel pannello a sinistra.

@@ -6,9 +6,9 @@ description: Il lavoro pianificato è rappresentato in Adobe Workfront dai proge
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
 workflow-type: tm+mt
-source-wordcount: '2765'
+source-wordcount: '2841'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,17 @@ ht-degree: 1%
 
 <!--Audited: 12/2023-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: Linked to the UI - do not change/ remove; THIS IS NOW SPLIT IN THREE ARTICLES>> MAKE SURE THE TRANSITION TO THE OTHER TWO IS CLEAR SINCE THIS IS LINKED TO UI)</p>
+<p>(NOTE: If they come out with templates AND drafts, consider splitting this article to keep Create in one and Working with Drafts and Requests in another??)</p>
+<p>(NOTE: this article is linked from Submitting Workfront Requests from Salesforce) </p>
+</div>
+-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Il lavoro pianificato è rappresentato in Adobe Workfront dai progetti e dalle attività. Tuttavia, puoi lavorare in un ambiente in cui è possibile inserire lavoro non pianificato, sotto forma di richieste, in qualsiasi momento. Workfront fornisce un flusso di lavoro per questo tipo di ambiente tramite l’utilizzo di Code di richieste.
 
@@ -50,6 +58,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <col> 
  <tbody> 
+ <tbody> 
   <tr> 
    <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi </p> </td> 
@@ -64,6 +73,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modifica l'accesso alle Issues</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> Prodotto</td> 
+   <td> <ul><li>Adobe Workfront</li><li>È necessario disporre di Adobe Workfront Planning per visualizzare le richieste o i moduli di richiesta di Planning</td> 
   </tr> 
  </tbody> 
 </table>
@@ -136,18 +149,20 @@ Per creare una richiesta nell’app web Workfront:
 
 1. (Condizionale) Se si è passati alla nuova esperienza che include Workfront Planning e si trova nell&#39;ambiente di produzione, nella casella **Nuova richiesta** viene visualizzato quanto segue:</span>
 
-   * Le 6 code di richieste Workfront e i moduli di richiesta Planning utilizzati più di recente vengono visualizzati nella sezione Recenti.
-   * Nella sezione **Tutti i moduli di richiesta** vengono visualizzate in ordine alfabetico 50 code di richiesta Workfront e moduli di richiesta Planning aggiuntivi. Puoi cercare una coda di richieste che non viene visualizzata per impostazione predefinita.
-
-   ![Nuova casella di richiesta con flusso di lavoro unificato per le richieste di pianificazione](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
-
-   Fai clic su una delle schede della coda di richieste di Workfront o cercalo, quindi fai clic su di essa quando viene visualizzata nell’elenco.
-1. (Condizionale) Se si è passati alla nuova esperienza che include Workfront Planning e si trova nell&#39;ambiente di anteprima, nella casella **Nuova richiesta** viene visualizzato quanto segue:
-
    <ul><li>Le 6 code di richieste Workfront e i moduli di richiesta Planning utilizzati più di recente vengono visualizzati nella sezione Recenti. </li>
     <li>Tutti i moduli di richiesta aggiuntivi di Workfront e Planning <b>Sezione Tutti i moduli di richiesta</b>. È possibile cercare moduli di richiesta non visualizzati per impostazione predefinita. </li>
     <li>Tutti i percorsi aggiuntivi della coda richieste di Workfront e Planning vengono visualizzati nella sezione <b>Tutti i percorsi richieste</b>. Puoi cercare una coda di richieste che non viene visualizzata per impostazione predefinita.</li></ul>
    Fai clic su uno dei percorsi o moduli della coda di richieste di Workfront oppure cercalo, quindi fai clic su di esso quando viene visualizzato nell’elenco.
+1. <span class="preview">(Condizionale) Se si è passati alla nuova esperienza che include Workfront Planning, selezionare uno dei percorsi o moduli della coda di richieste Workfront oppure fare clic sulla barra di ricerca. </span>
+
+   <span class="preview">Quando si fa clic sulla barra di ricerca, viene visualizzato un elenco a discesa che mostra le code e i moduli utilizzati più di recente. Selezionarne uno dall&#39;elenco oppure iniziare a digitare e selezionare la coda o l&#39;elenco quando viene visualizzato.</span>
+
+   >[!NOTE]
+   >
+   ><span class="preview">Considera quanto segue per quanto riguarda la nuova esperienza di richiesta attualmente disponibile in Anteprima:</span>
+   >* <span class="preview">L&#39;elenco include sia le code di richiesta di Workfront che i moduli di richiesta di Workfront Planning.</span>
+   >* <span class="preview">È possibile filtrare l&#39;elenco per tipo di oggetto.</span>
+   >* <span class="preview">Per visualizzare solo le code di richieste di Workfront, filtrare per `Issue` tipi di oggetto.</span>
 
 1. (Condizionale) Se si è passati alla nuova esperienza che include Workfront Planning, selezionare i gruppi di argomenti e gli argomenti della coda e continuare ad aggiornare il modulo.
 
