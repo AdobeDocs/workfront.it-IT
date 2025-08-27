@@ -6,14 +6,23 @@ description: Quando il completamento di un'attività di un progetto richiede una
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
+source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1198'
 ht-degree: 2%
 
 ---
 
 # Convertire un’attività in un progetto
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div>-->
 
 Quando il completamento di un&#39;attività di un progetto richiede una quantità di lavoro maggiore di quella pianificata in origine, è possibile convertirla in un progetto.
 
@@ -166,7 +175,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Fai clic sull&#39;icona **Altro** ![](assets/more-icon.png), quindi **Converti in progetto**.
 1. Scegliere una delle seguenti opzioni:
 
-   * **Nuovo progetto**
+   * **Nuovo progetto**, per creare un progetto senza utilizzare un modello
    * Un modello nella sezione **Seleziona da modelli**
 
      ![](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
@@ -174,15 +183,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Fai clic su **Continua** nella notifica visualizzata.
 1. Nella casella **Converti in progetto** specificare quanto segue:
 
-   * **Nome**: assegna un nome al progetto. Il nome predefinito è il nome dell&#39;attività.
-   * (Facoltativo) **Descrizione**: descrivi lo scopo del progetto.
-   * (Facoltativo e condizionale) Se hai selezionato di creare un progetto da un modello, aggiorna i campi disponibili nella finestra di dialogo **Converti in progetto**.
+   * **Nome**: assegna un nome al progetto. Il nome predefinito è il nome dell&#39;attività. Questo è un campo obbligatorio.
+   * **Descrizione**: descrivere lo scopo del progetto.
+   * (Condizionale) Se hai selezionato di creare un progetto da un modello, aggiorna i campi disponibili nella casella **Converti in progetto**.
 
      Per ulteriori informazioni sulla modifica dei campi nei progetti, vedere [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 
      >[!TIP]
      >
-     >Per aggiornare i campi nella sezione Dati finanziari della casella Converti in progetto, è necessario disporre dell&#39;accesso di modifica ai dati finanziari nel proprio livello di accesso. Se si dispone dell&#39;accesso di visualizzazione ai dati finanziari nel proprio livello di accesso, tutte le informazioni finanziarie del modello vengono trasferite al nuovo progetto e non è possibile modificarle durante la conversione del problema. Per informazioni, vedere [Concedere l&#39;accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) e [Condividere un modello](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+     >Per aggiornare i campi nella sezione Dati finanziari della casella Converti in progetto, è necessario disporre dell&#39;accesso di modifica ai dati finanziari nel proprio livello di accesso. Se si dispone dell&#39;accesso di visualizzazione ai dati finanziari nel proprio livello di accesso, tutte le informazioni finanziarie del modello vengono trasferite al nuovo progetto e non è possibile modificarle durante la conversione del problema. Per informazioni, vedere [Concedere l&#39;accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) e [Condividere un modello](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
    * (Facoltativo) Aggiungi **Forms personalizzato** al nuovo progetto.
 
@@ -193,4 +202,4 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      >
      >Se utilizzi un modello per la conversione e un modulo personalizzato allegato al modello contiene un campo personalizzato che si trova anche in un modulo personalizzato allegato all’attività, per il nuovo progetto viene utilizzato il valore del campo dell’attività. Tuttavia, se il campo personalizzato è vuoto nell’attività, viene utilizzato il valore del modello.
 
-1. Fai clic su **Salva modifiche**.
+1. Fai clic su **Salva modifiche** <!--<span class="preview">or **Convert to Project**</span>-->.
