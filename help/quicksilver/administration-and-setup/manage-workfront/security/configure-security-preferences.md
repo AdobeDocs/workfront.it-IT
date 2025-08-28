@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: cb9a6536c4995080887032aa84539eff040338f8
+source-git-commit: 6b93a6d7830d644520c38aa6010cd7df18c5a667
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 4%
@@ -132,16 +132,16 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <td>Consente di abilitare o disabilitare l’esperienza dell’elenco di lavoro Priorità per i tuoi utenti. Gli utenti continueranno a visualizzare le icone Priorità in Workfront, ma non avranno accesso alla funzionalità. Per ulteriori informazioni sulle priorità, vedere <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Introduzione alle priorità</a>.</td> 
      </tr>
      <tr> 
-      <td role="rowheader">Abilita IA </td> 
-      <td>Consente di scegliere di abilitare l’intelligenza artificiale, incluso l’Assistente IA. <p><b>Nota</b>: la tua organizzazione deve soddisfare requisiti specifici per abilitare l'intelligenza artificiale. Per ulteriori informazioni sull'intelligenza artificiale, inclusi i requisiti, vedere <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">Panoramica dell'Assistente intelligenza artificiale</a>.</p></td> 
+      <td role="rowheader"><span class="preview">Abilita IA</span> </td> 
+      <td><span class="preview">Consente di scegliere di abilitare l’intelligenza artificiale, incluso l’Assistente IA. <p><b>Nota</b>: la tua organizzazione deve soddisfare requisiti specifici per abilitare l'intelligenza artificiale. Per ulteriori informazioni sull'intelligenza artificiale, inclusi i requisiti, vedere <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">Panoramica dell'Assistente intelligenza artificiale</a>.</p></span></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Completamento automatico modulo </td> 
-      <td>Consente di abilitare la possibilità di completare automaticamente i moduli di richiesta in base ai dati di richiesta precedenti. Per ulteriori informazioni sul completamento automatico del modulo, vedere <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Compilazione automatica di una richiesta dai dati precedenti</a>.</td> 
+      <td role="rowheader"><span class="preview">Completamento automatico modulo </span></td> 
+      <td><span class="preview">Consente di abilitare la possibilità di completare automaticamente i moduli di richiesta in base ai dati di richiesta precedenti. Per ulteriori informazioni sul completamento automatico del modulo, vedere <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Compilazione automatica di una richiesta dai dati precedenti</a>.</span></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Consenso ai beta di IA </td> 
-      <td>Consente di abilitare le funzioni di intelligenza artificiale attualmente in Beta. Se abiliti questa opzione, puoi quindi selezionare le funzioni di AI Beta da abilitare. Per ulteriori informazioni su ciascuna funzione di AI Beta, fai clic sull'icona delle informazioni accanto a tale funzione.</td> 
+      <td role="rowheader"><span class="preview">Consenso ai beta di IA </span></td> 
+      <td><span class="preview">Consente di abilitare le funzioni di intelligenza artificiale attualmente in Beta. Se abiliti questa opzione, puoi quindi selezionare le funzioni di AI Beta da abilitare. Per ulteriori informazioni su ciascuna funzione di AI Beta, fai clic sull'icona delle informazioni accanto a tale funzione.</span></td> 
      </tr>
      <tr> 
       <td role="rowheader">Ambienti di prova</td> 
