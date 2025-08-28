@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 909236983b7eefa25ea7961a2f760d87cae23132
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -70,15 +70,15 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
      Oppure
 
-     Per creare un nuovo modello per il gruppo basato su uno esistente, selezionare il modello esistente, quindi fare clic su **Copia**.
+     Per creare un nuovo modello per il gruppo basato su uno esistente, seleziona il modello esistente, quindi fai clic sull&#39;icona **Copia** ![Copia icona](assets/copy-icon.png).
 
      Per informazioni sulla creazione di un modello di layout, vedere [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
      Per informazioni sulla copia di un modello layout per crearne uno nuovo, vedere [Copiare un modello layout](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
 
-   * Per modificare un modello di layout gruppo esistente, selezionarlo, quindi fare clic su **Modifica**.
+   * Per modificare un modello di layout gruppo esistente, selezionarlo, quindi fare clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png).
 
      Per informazioni sulla modifica di un modello di layout, vedere [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-   * Per eliminare uno o più modelli di layout, selezionarli e fare clic su **Elimina**.
-   * **Esporta** l&#39;elenco dei modelli di layout.
+   * Per eliminare uno o più modelli di layout, selezionarli e fare clic sull&#39;icona **Elimina** ![Elimina](assets/delete.png).
+   * Per esportare l&#39;elenco dei modelli di layout, fare clic sull&#39;icona **Esporta** ![Icona Esporta](assets/export-icon.png).
