@@ -5,12 +5,12 @@ content-type: reference
 product-area: system-administration;projects
 navigation-topic: customize-workfront
 description: È possibile creare un processo di approvazione che gli utenti possono allegare a un elemento di lavoro, un documento o una bozza. Puoi anche creare percorsi milestone che possono essere applicati a qualsiasi progetto nel sistema.
-author: Alina, Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 5719f8ce-0b30-42a1-9b88-1466630401f2
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 5%

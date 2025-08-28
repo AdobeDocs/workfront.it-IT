@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 7%
+source-wordcount: '889'
+ht-degree: 5%
 
 ---
 
 # Panoramica sui campi formula
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -114,30 +114,26 @@ Per informazioni, vedere la sezione &quot;Formula&quot; nell&#39;articolo [Crear
 * È possibile fare riferimento ai campi formula nelle nuove formule. Una volta aggiornato il valore in un campo a cui si fa riferimento in un campo formula, tutti i campi successivi che fanno riferimento a tale campo o ai campi formula che contengono tale campo verranno aggiornati automaticamente.
 
 
-<!--
-
 <div class="preview">
 
-## Limitations of formula fields
+## Limitazioni dei campi formula
 
-* You can add a maximum of 20 formula fields for one record type. 
+* È possibile aggiungere un massimo di 20 campi formula per un tipo di record.
 
-   Formula lookup fields added from connected record types do not count against this limit. 
+  I campi di ricerca delle formule aggiunti dai tipi di record collegati non vengono conteggiati in base a questo limite.
 
-* The formula expression cannot exceed 50,000 characters. 
+* L&#39;espressione della formula non può superare i 50.000 caratteri.
 
-* Formula fields might display as `#ERROR!` in the following cases:
-   * When a field used in a formula is deleted.
-   * When a field used in an aggregated lookup field displays as `#ERROR!`. 
-   
-      For example, if you display a lookup field that contains aggregated lookup formula fields and one of the referenced formula fields  displays as `#ERROR!`. 
-   *  When a formula value cannot be displayed in the selected format. 
-   
-      For example, if I select Number for the Format of a formula field, and the fields used in the formula are text fields that display only non-numeric text values, the formula result will display as `#ERROR!`, because it cannot parse the text into a number.
- 
- </div>
- 
- -->
+* I campi formula potrebbero essere visualizzati come `#ERROR!` nei casi seguenti:
+   * Quando un campo utilizzato in una formula viene eliminato.
+   * Quando un campo utilizzato in un campo di ricerca aggregato viene visualizzato come `#ERROR!`.
+
+     Ad esempio, se si visualizza un campo di ricerca contenente campi formula di ricerca aggregati e uno dei campi formula di riferimento viene visualizzato come `#ERROR!`.
+   * Quando non è possibile visualizzare un valore di formula nel formato selezionato.
+
+     Se ad esempio si seleziona Numero per il formato di un campo formula e i campi utilizzati nella formula sono campi di testo che visualizzano solo valori di testo non numerici, il risultato della formula verrà visualizzato come `#ERROR!`, perché non è possibile analizzare il testo in un numero.
+
+</div>
 
 ## Formule supportate
 
