@@ -8,7 +8,7 @@ description: In qualità di  [!DNL Workfront Proof] amministratore, puoi sceglie
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca585494-5cda-4c41-b9b2-908e24d210d6
-source-git-commit: bf6c6c497d98d91ca78f892606a52f82ee4b5666
+source-git-commit: 3a938714a948ca7681dfd7deaf924af6453dee58
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 2%
@@ -28,7 +28,7 @@ In qualità di amministratore di [!DNL Workfront Proof], puoi scegliere la lingu
 [!DNL Workfront Proof] è disponibile nelle seguenti lingue:
 
 * Inglese (Stati Uniti / Regno Unito)
-* Brasiliano (Portoghese)
+* Portoghese brasiliano
 * Cinese
 * Olandese
 * Francese
@@ -46,7 +46,7 @@ Per cambiare la lingua predefinita del tuo account, segui i passaggi indicati di
 
 1. Nella sezione **[!UICONTROL Dettagli account]**, fai clic su **[!UICONTROL Modifica]** per le impostazioni di **[!UICONTROL Lingua predefinita]**.
 
-1. Nel menu a discesa, seleziona la lingua predefinita.\
+1. Nel menu a discesa, seleziona la lingua predefinita.
    ![impostazione_lingua_account.png](assets/account-language-setting-350x230.png)
 
 1. Fai clic su **[!UICONTROL Salva].**

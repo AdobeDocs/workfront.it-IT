@@ -6,9 +6,9 @@ description: Puoi modificare la lingua in cui vengono visualizzati Adobe Workfro
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 0ae0e2d3c4e47a1f7344acf18068bba9cbbab597
+source-git-commit: 046c1eada53631c9ab50bb0c8233adb012223bb3
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1156'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ Puoi affidare a terzi la traduzione in altre lingue dell’interfaccia Workfront
 >   * Nomi Portfolio
 >   * Nomi di programmi
 >   * Nomi di approvazione
->   * Descrizione
+>   * Descrizioni
 >   * Nomi moduli personalizzati
 >   * Nomi Tipi di Ora
 >   * Tipi di spesa
@@ -72,9 +72,8 @@ Il Visualizzatore bozze web di Workfront supporta la maggior parte delle lingue 
 
 Le lingue seguenti non sono supportate nello strumento di correzione:
 
-* Cinese - semplificato (zh-CN)
 * Cinese - Tradizionale (zh-TW)
-* Portoghese (pt-BR)
+* Coreano (ko-KR)
 
 Per accedere al visualizzatore bozze Web, l&#39;azienda deve acquistare una licenza di bozza.
 
@@ -93,7 +92,7 @@ Attualmente, Workfront Fusion supporta solo l’inglese.
 * Workfront Fusion non supporta l&#39;utilizzo di caratteri di testo non inglesi nei campi immessi dall&#39;utente.
 
 Per poter accedere a Workfront Fusion, l’azienda deve acquistare una licenza Workfront Fusion.\
-Per ulteriori informazioni su Workfront Fusion, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Per ulteriori informazioni su Workfront Fusion, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ## Modificare la lingua
 
@@ -165,7 +164,7 @@ Quando modifichi le impostazioni internazionali dell’e-mail utente, puoi modif
 
 Per modificare le impostazioni internazionali dell&#39;e-mail utente:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic sull&#39;immagine del tuo profilo utente.
+1. Fai clic sull&#39;icona **del** menu principale![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic sull&#39;immagine del tuo profilo utente.
 
 1. Fai clic sul menu Altro ![](assets/more-icon.png), quindi fai clic su **Modifica**.
 
