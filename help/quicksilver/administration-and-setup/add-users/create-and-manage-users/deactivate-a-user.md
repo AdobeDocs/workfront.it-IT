@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: b235945deb3254feaf671083fc992786851a3286
+source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1116'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 2%
 >title="Disattivare un utente"
 >abstract="La disattivazione di un utente fa sì che venga rimosso da Workfront e Frame.io. Gli utenti disattivati possono essere riattivati in un secondo momento."
 
+{{highlighted-preview}}
+
 <!--Audited 5/2025-->
 
 <!--
@@ -30,7 +32,7 @@ ht-degree: 2%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/it/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -88,7 +90,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 Prima di disattivare un utente con licenza Amministratore Workfront o Standard o Piano, è necessario associare i relativi oggetti e attività a un altro utente.
 
-Per ulteriori informazioni, vedere [Informazioni sulla disattivazione degli amministratori di Workfront e sugli utenti con licenza Pianificazione](#about-deactivating-workfront-administrators-and-plan-license-users) in questo articolo.
+Per ulteriori informazioni, vedere [Informazioni sulla disattivazione degli amministratori di Workfront e degli utenti con licenza Standard o Plan](#about-deactivating-workfront-administrators-and-plan-license-users) in questo articolo.
 
 ## Disattivare un utente
 
@@ -127,17 +129,17 @@ Per pianificare la disattivazione di un utente:
 
 1. Fai clic sull&#39;icona **Modifica** ![Modifica](assets/edit-icon.png).
 1. Nel pannello a sinistra della casella **Modifica utente**, fare clic su **Pianificazione risorse**.
-1. Selezionare la casella di controllo **Pianifica disattivazione**.
+1. Selezionare la casella di controllo **Pianifica disattivazione**, <span class="preview"> o fare clic su **Imposta data disattivazione**</span>.
 
-1. Selezionare la data e l&#39;ora per la **Data disattivazione pianificata**.
+1. Selezionare la data e l&#39;ora per la **Data disattivazione pianificata** / <span class="preview">**Data disattivazione**</span>.
 
    >[!NOTE]
    >
    >* Nella casella ora è possibile selezionare solo incrementi di un&#39;ora intera, non di minuti.
-   >* Se selezioni un orario per il giorno corrente che è passato, Workfront pianificherà la disattivazione per il giorno successivo alle 00:00.
+   >* Se si seleziona un orario per il giorno corrente che è passato, Workfront pianificherà la disattivazione per il giorno successivo alle ore 00:00.:00
    >* L&#39;ora selezionata corrisponde al fuso orario del computer dell&#39;utente che sta pianificando la disattivazione.
 
-1. Fai clic su **Salva modifiche**.
+1. Fai clic su **Salva modifiche** <span class="preview">o **Salva**</span>.
 
 L’utente viene disattivato nel giorno selezionato qualche volta dopo l’ora selezionata. Se hai selezionato più utenti da disattivare in blocco, tutti gli utenti selezionati vengono disattivati nel giorno selezionato qualche volta dopo l’ora selezionata.
 

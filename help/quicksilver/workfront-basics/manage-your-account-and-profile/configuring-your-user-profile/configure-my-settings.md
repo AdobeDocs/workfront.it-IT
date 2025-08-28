@@ -3,22 +3,24 @@ product-area: user-management;setup
 navigation-topic: configure-your-user-profile
 title: Configura le mie impostazioni
 description: Il tuo profilo  [!DNL Adobe Workfront]  contiene informazioni su di te (ad esempio nome, indirizzo e-mail, indirizzo, numero di telefono, titolo, ecc.). Contiene inoltre informazioni sulle tue interazioni con  [!DNL Workfront]  e altri utenti della tua azienda.
-author: Courtney
+author: Lisa, Courtney
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: eda5a2b283d87bccbbff1edff6744556f25ac6e0
 workflow-type: tm+mt
-source-wordcount: '3303'
+source-wordcount: '3288'
 ht-degree: 1%
 
 ---
 
 # Configura le mie impostazioni
 
+{{highlighted-preview}}
+
 <!-- Audited: 01/2024 -->
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Edit the job role FTE percentage allocation blurbs when more functionality is released: now, it says that the % is that of the user's schedule, but it will be either the user's schedule or the system schedule.</p>
+<p>Edit the job role FTE percentage allocation blurbs when more functionality is released: now, it says that the % is that of the user's schedule, but it will be either the user's schedule or the system schedule.</p>
 -->
 
 Il tuo profilo di [!DNL Adobe Workfront] contiene informazioni su di te (ad esempio nome, indirizzo e-mail, indirizzo, numero di telefono, titolo, ecc.). Contiene inoltre informazioni sulle interazioni con [!DNL Workfront] e altri utenti della società (ad esempio le impostazioni delle notifiche, le schede che si desidera visualizzare in [!DNL Workfront] o la mansione, il manager e le appartenenze a gruppi e team).
@@ -246,7 +248,7 @@ Queste informazioni devono essere già configurate dall&#39;amministratore [!DNL
    <td> Aggiorna il tuo indirizzo email. Questo campo è obbligatorio. Il tuo indirizzo e-mail è anche il tuo nome utente per [!DNL Workfront].</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Reimposta password]</strong></td> 
+   <td role="rowheader"><strong>[!UICONTROL Reimposta password]</strong> / <span class="preview"><strong>Cambia password</strong></span></td> 
    <td>Reimposta la password in questa sezione. Per ulteriori informazioni sul ripristino della password, vedere <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">Reimpostare la password</a>.</td> 
   </tr> 
   <tr> 
@@ -285,7 +287,7 @@ Queste informazioni devono essere già configurate dall&#39;amministratore [!DNL
         <td> </td>
     </tr>
     <tr>
-        <td><strong>Estensione </strong></td>
+        <td><strong>Estensione [!UICONTROL]</strong></td>
         <td> </td>
     </tr>
     <tr>
@@ -313,8 +315,8 @@ Queste informazioni devono essere già configurate dall&#39;amministratore [!DNL
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Profile Picture]</strong></td>
-        <td>L'immagine del tuo profilo diventa il tuo avatar ed è visibile in tutto il sistema [!DNL Workfront], ovunque venga visualizzato il tuo nome.</td>
+        <td><strong>[!UICONTROL Profile photo]</strong></td>
+        <td>La foto del tuo profilo diventa il tuo avatar ed è visibile in tutto il sistema [!DNL Workfront], ovunque venga visualizzato il tuo nome.</td>
     </tr>
 </table>
 
@@ -340,13 +342,8 @@ Specificare gli elementi da visualizzare nell&#39;interfaccia [!DNL Workfront] i
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL E-Mail Locale]</strong> </td> 
    <td><p>Specificare qui la lingua preferita. Questa controlla la lingua, la data e il formato numerico utilizzati nei messaggi e-mail in uscita.</p>
-   <p><strong>NOTA:</strong> quando la tua organizzazione si trova nell'esperienza unificata di Adobe, le preferenze della lingua vengono memorizzate nel tuo profilo di Adobe e le impostazioni locali dell'e-mail non vengono utilizzate. Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Modificare la lingua di Adobe Experience Cloud</a> nell'articolo <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Lingue supportate in Adobe Workfront</a>.</p></td> 
+   <p><strong>NOTA:</strong> quando la tua organizzazione si trova nell'esperienza unificata di Adobe, le preferenze della lingua vengono memorizzate nel tuo profilo Adobe e le impostazioni locali dell'e-mail non vengono utilizzate. Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Modificare la lingua di Adobe Experience Cloud</a> nell'articolo <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Lingue supportate in Adobe Workfront</a>.</p></td> 
   </tr>
-
-<tr> 
-   <td role="rowheader"><strong>[!UICONTROL Invia il lavoro assegnato a me stesso alla mia scheda Lavori in corso]</strong> </td> 
-   <td>Questo campo fa riferimento a una funzionalità obsoleta che è stata rimossa da [!DNL Workfront].</td> 
-  </tr> 
   <tr> 
    <td role="rowheader"><strong>(Condizionale) Genera automaticamente delle bozze durante il caricamento dei documenti</strong></td> 
    <td>Selezionare questo campo per iniziare a generare una bozza immediatamente dopo il caricamento del documento in [!DNL Workfront]. Questo campo è disabilitato per impostazione predefinita e può essere aggiornato solo da un amministratore Workfront.<br>Questo campo è disponibile solo se la società ha acquistato il componente Workfront Proof per Workfront e se l'utente è abilitato come utente di bozza. Per ulteriori informazioni su Workfront Proof, vedi <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Gestione delle bozze in Adobe Workfront</a>.
@@ -359,7 +356,7 @@ Specificare gli elementi da visualizzare nell&#39;interfaccia [!DNL Workfront] i
 
 Specificare le notifiche che si desidera ricevere da [!DNL Workfront]. Per ulteriori informazioni sulla configurazione delle notifiche, vedere [Modificare le proprie notifiche e-mail](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-### [!UICONTROL Accesso]
+### [!UICONTROL Accedere ad]
 
 L&#39;accesso e gli altri componenti ad esso associati sono configurati dall&#39;amministratore [!DNL Workfront], quando l&#39;account è configurato.
 
@@ -373,7 +370,7 @@ Solo un amministratore [!DNL Workfront] può visualizzare e modificare tutti i c
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Attivo]</strong> </td> 
-   <td>Questo campo è visibile solo a un utente che è anche un amministratore [!DNL Workfront] e deve essere selezionato per impostazione predefinita. Ciò significa che l’utente è attivo e può accedere a [!DNL Workfront]</td> 
+   <td>Questo campo è visibile solo a un utente che è anche un amministratore [!DNL Workfront] e deve essere abilitato per impostazione predefinita. Ciò significa che l’utente è attivo e può accedere a [!DNL Workfront]</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Livello d'Accesso]</strong> </td> 
@@ -439,7 +436,7 @@ Queste informazioni vengono in genere configurate dall&#39;amministratore [!DNL 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Gruppo Predefinito]</strong> </td> 
-   <td> <p>Selezionare un gruppo predefinito <strong></strong> dal menu a discesa.</p> <p>Nota: questo campo è obbligatorio. Non è possibile associare un utente a un gruppo.<br></p> <p>Questo campo è visibile agli utenti con livello [!UICONTROL Standard], [!UICONTROL Plan] o [!UICONTROL System Administrator]. Per ulteriori informazioni su chi può modificare il campo <strong>[!UICONTROL Gruppo Predefinito]</strong>, vedere <a href="/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md"class="MCXref xref">Modificare il profilo di un utente</a>. Il <strong>[!UICONTROL Gruppo Predefinito]</strong> è il gruppo predefinito per tutti i progetti e il <strong>[!UICONTROL Gruppo Predefinito]</strong> per tutti i nuovi utenti creati. Tutti i moduli personalizzati creati vengono condivisi con il <strong>[!UICONTROL Home Group]</strong> per impostazione predefinita.</p> <p>Per ulteriori informazioni sui gruppi, vedere <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Panoramica sui gruppi</a>.</p> </td> 
+   <td> <p>Selezionare un gruppo predefinito <strong>[!UICONTROL]</strong> dal menu a discesa.</p> <p>Nota: questo campo è obbligatorio. Non è possibile associare un utente a un gruppo.<br></p> <p>Questo campo è visibile agli utenti con livello [!UICONTROL Standard], [!UICONTROL Plan] o [!UICONTROL System Administrator]. Per ulteriori informazioni su chi può modificare il campo <strong>[!UICONTROL Gruppo Predefinito]</strong>, vedere <a href="/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md"class="MCXref xref">Modificare il profilo di un utente</a>. Il <strong>[!UICONTROL Gruppo Predefinito]</strong> è il gruppo predefinito per tutti i progetti e il <strong>[!UICONTROL Gruppo Predefinito]</strong> per tutti i nuovi utenti creati. Tutti i moduli personalizzati creati vengono condivisi con il <strong>[!UICONTROL Home Group]</strong> per impostazione predefinita.</p> <p>Per ulteriori informazioni sui gruppi, vedere <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Panoramica sui gruppi</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Altri Gruppi]</strong> </td> 
@@ -459,15 +456,15 @@ Utilizzare una delle seguenti opzioni in questa sezione:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL - Disattivazione pianificazione]</strong></td> 
-   <td>Seleziona questa casella se desideri pianificare la disattivazione dell’account dopo un certo periodo di tempo. In <p><strong>[!UICONTROL Data disattivazione pianificata]</strong> visualizzata. Specificare la data dopo la quale l'account verrà disattivato. Per informazioni sulla disattivazione degli utenti, vedere <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">Pianificare la disattivazione degli utenti</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Disattivare o riattivare un utente</a>. </p><p>È possibile modificare i campi di disattivazione dell'account se si dispone di una licenza di [!UICONTROL Standard] o [!UICONTROL Plan] oppure se si è l'amministratore [!DNL Workfront]. </p></td> 
+   <td role="rowheader"><strong>[!UICONTROL Pianifica la disattivazione]</strong> / <span class="preview"><strong>Imposta la data di disattivazione</strong></span></td> 
+   <td><p>Seleziona questa casella / <span class="preview">fai clic su questo pulsante</span> se desideri pianificare la disattivazione dell'account dopo un certo periodo di tempo. In <strong>[!UICONTROL Data disattivazione pianificata]</strong> visualizzato, specifica la data dopo la quale l'account viene disattivato. Per informazioni sulla disattivazione degli utenti, vedere <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">Pianificare la disattivazione degli utenti</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Disattivare o riattivare un utente</a>. </p><p>È possibile modificare i campi di disattivazione dell'account se si dispone di una licenza di [!UICONTROL Standard] o [!UICONTROL Plan] oppure se si è l'amministratore [!DNL Workfront]. </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Ruolo principale]</strong></td> 
    <td> <p>Questo è il ruolo principale che puoi svolgere in Workfront. Per impostazione predefinita, a questa mansione vengono assegnate anche tutte le attività e tutti i problemi a cui sei assegnato. I ruoli sono essenziali nella gestione delle risorse. Per ulteriori informazioni sulle mansioni, vedere <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Creare e gestire le mansioni</a>.</p> <p>È possibile aggiornare questo campo solo se si dispone di una licenza [!UICONTROL Standard] o [!UICONTROL Plan] con accesso utente amministratore oppure se si è un amministratore [!DNL Workfront]. Per ulteriori informazioni sulla configurazione degli utenti con accesso amministrativo, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">Configurare l'accesso degli utenti per la modifica degli utenti utilizzando un livello di accesso personalizzato</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l'accesso agli utenti</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>(Condizionale) Se hai selezionato un ruolo primario di , viene visualizzato il campo [!UICONTROL Percentuale di disponibilità FTE].</strong></td> 
+   <td role="rowheader"><strong>(Condizionale) Se hai selezionato un ruolo primario di [!UICONTROL], viene visualizzato il campo [!UICONTROL Percentuale di disponibilità FTE].</strong></td> 
    <td>Specifica la percentuale di tempo pianificato allocata a questa mansione. Il valore predefinito per [!UICONTROL Percentuale di disponibilità FTE] per il ruolo primario è 100%.</td> 
   </tr> 
   <tr> 
@@ -479,7 +476,7 @@ Utilizzare una delle seguenti opzioni in questa sezione:
    <td> <p>Specifica la percentuale di tempo pianificato allocata a ogni mansione. Il valore predefinito per [!UICONTROL Percentuale di disponibilità FTE] per [!UICONTROL Altri ruoli] è 0%.</p> <p> <img src="assets/user-settings-roles-and-dte-boxes-rp-story--1--350x224.png" alt="user_settings_roles_and_dte_boxes_rp_story__1_.png" style="width: 350;height: 224;"> </p> <p>Nota:  
      <ul> 
       <li>Se [!UICONTROL Altri ruoli] hanno una disponibilità FTE dello 0%, non vengono visualizzati in [!UICONTROL Resource Planner], a meno che gli utenti non siano assegnati ad attività in questi ruoli.</li> 
-      <li> <p>La somma di tutte le <strong>[!UICONTROL Percentages of FTE Availability]</strong> per tutti i ruoli deve essere uguale a 100%. Ogni [!UICONTROL Percentuale di disponibilità FTE] calcola [!UICONTROL Ore disponibili] per ogni ruolo per utente nella pianificazione risorse . </p> <p>L'[!UICONTROL Available Hours] per ogni ruolo per utente dipende dal tempo disponibile per l'utente. Il tempo disponibile per l'utente viene calcolato da [!DNL Workfront] in base al metodo selezionato dall'amministratore [!DNL Workfront] per calcolare l'FTE nelle [!UICONTROL Resource Management Preferences]. Per ulteriori informazioni sul calcolo della disponibilità per l'utente, vedere <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Panoramica sul calcolo delle ore e dell'FTE per gli utenti e i ruoli nella Programmazione delle risorse</a>. Per ulteriori informazioni sulla configurazione delle preferenze di Gestione risorse, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurare le preferenze di Gestione risorse</a>.</p> </li> 
+      <li> <p>La somma di tutte le <strong>[!UICONTROL Percentages of FTE Availability]</strong> per tutti i ruoli deve essere uguale a 100%. Ogni [!UICONTROL Percentuale di disponibilità FTE] calcola [!UICONTROL Ore disponibili] per ogni ruolo per utente nella pianificazione risorse [!UICONTROL]. </p> <p>L'[!UICONTROL Available Hours] per ogni ruolo per utente dipende dal tempo disponibile per l'utente. Il tempo disponibile per l'utente viene calcolato da [!DNL Workfront] in base al metodo selezionato dall'amministratore [!DNL Workfront] per calcolare l'FTE nelle [!UICONTROL Resource Management Preferences]. Per ulteriori informazioni sul calcolo della disponibilità per l'utente, vedere <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Panoramica sul calcolo delle ore e dell'FTE per gli utenti e i ruoli nella Programmazione delle risorse</a>. Per ulteriori informazioni sulla configurazione delle preferenze di Gestione risorse, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurare le preferenze di Gestione risorse</a>.</p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -500,7 +497,7 @@ Utilizzare una delle seguenti opzioni in questa sezione:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL FTE]</strong> </td> 
-   <td> <p>Il numero specificato viene preso in considerazione per calcolare la disponibilità in base alla pianificazione predefinita solo quando [!UICONTROL Resource Management Preferences] a livello di sistema è impostato su <strong>[!UICONTROL The Default Schedule]</strong>.</p> <p>Ad esempio, se il valore FTE è 0,5 e la pianificazione predefinita di  è 40 ore, puoi lavorare 20 ore alla settimana.</p> <p>Se le [!UICONTROL Resource Management Preferences] a livello di sistema sono impostate su <strong>[!UICONTROL The User's Schedule]</strong>, il valore specificato in questo campo verrà ignorato e sarà possibile lavorare in base a quanto specificato nella pianificazione. In questo caso, l'FTE per [!UICONTROL Resource Planner] viene calcolato con la seguente formula: </p> <p><code style="font-style: normal;">[!UICONTROL User Available FTE] = [!UICONTROL Hours from the Schedule of the User/ Default Schedule Hours]</code> </p> <p>Per ulteriori informazioni sul calcolo dell'FTE utente, vedere <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Panoramica sul calcolo delle ore e dell'FTE per utenti e ruoli nella Programmazione delle risorse</a>.</p> <p>Per ulteriori informazioni sulla creazione di pianificazioni in [!DNL Workfront], vedere <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Creare una pianificazione</a>.</p> <p>Per ulteriori informazioni sulla configurazione delle preferenze di Gestione risorse, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurare le preferenze di Gestione risorse</a>.</p> </td> 
+   <td> <p>Il numero specificato viene preso in considerazione per calcolare la disponibilità in base alla pianificazione predefinita solo quando [!UICONTROL Resource Management Preferences] a livello di sistema è impostato su <strong>[!UICONTROL The Default Schedule]</strong>.</p> <p>Ad esempio, se il valore FTE è 0,5 e la pianificazione predefinita di [!UICONTROL] è 40 ore, puoi lavorare 20 ore alla settimana.</p> <p>Se le [!UICONTROL Resource Management Preferences] a livello di sistema sono impostate su <strong>[!UICONTROL The User's Schedule]</strong>, il valore specificato in questo campo verrà ignorato e sarà possibile lavorare in base a quanto specificato nella pianificazione. In questo caso, l'FTE per [!UICONTROL Resource Planner] viene calcolato con la seguente formula: </p> <p><code style="font-style: normal;">[!UICONTROL User Available FTE] = [!UICONTROL Hours from the Schedule of the User/ Default Schedule Hours]</code> </p> <p>Per ulteriori informazioni sul calcolo dell'FTE utente, vedere <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Panoramica sul calcolo delle ore e dell'FTE per utenti e ruoli nella Programmazione delle risorse</a>.</p> <p>Per ulteriori informazioni sulla creazione di pianificazioni in [!DNL Workfront], vedere <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Creare una pianificazione</a>.</p> <p>Per ulteriori informazioni sulla configurazione delle preferenze di Gestione risorse, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurare le preferenze di Gestione risorse</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Costo orario]</strong> </td> 
