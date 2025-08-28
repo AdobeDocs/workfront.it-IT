@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: f4493666ce8053f98490b87a6cfd76d759393d8c
+source-git-commit: a4aa7a6f8909dc3f7212f78391f28068d50a2786
 workflow-type: tm+mt
-source-wordcount: '1638'
-ht-degree: 3%
+source-wordcount: '1871'
+ht-degree: 4%
 
 ---
 
@@ -57,6 +57,29 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Rilascio rapido</strong></td>
         <td><strong>Ogni trimestre</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Abilitare le funzionalità di AI Beta per la tua organizzazione</a><p></p>
+            <p>Per semplificarti la visualizzazione e l’influenza delle prossime funzioni di intelligenza artificiale, ti abbiamo reso possibile abilitare i Beta per tali funzioni per la tua organizzazione. Ora puoi scegliere di abilitare una o più delle funzioni di AI Beta attualmente disponibili nelle Preferenze di sistema.</p>
+        </td>
+        <td>venerdì 28 agosto 2025</td>
+        <td>venerdì 11 settembre 2025</td>
+        <td>venerdì 16 ottobre 2025</td>
+    </tr>     
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti al profilo utente di Workfront</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>Il profilo utente di Workfront è stato aggiornato a un design moderno, coerente con le altre aree di Workfront. Questi aggiornamenti si applicano sia a un amministratore che modifica un singolo profilo o che modifica in blocco più profili, sia a un utente che modifica il proprio profilo.</p>
+            <p>Esistono alcune piccole differenze di funzionalità rispetto al profilo utente corrente, tra cui:</p>
+            <ul>
+                <li>Alcune caselle di controllo, ad esempio per contrassegnare l'utente come attivo, sono state modificate in interruttori o pulsanti.</li>
+                <li>L’opzione "Invia il lavoro che assegno a me stesso nella scheda Lavori in corso" in Preferenze è stata rimossa perché fa riferimento a una funzione obsoleta.</li>
+            </ul>
+        </td>
+        <td>venerdì 28 agosto 2025</td>
+        <td>venerdì 4 settembre 2025</td>
+        <td>venerdì 4 settembre 2025</td>
+    </tr>  
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Aggiungere più opzioni di valore da un'API esterna a un modulo personalizzato</a><p></p>
@@ -266,30 +289,36 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table>
             <col style="width: 50%;" />
-            <col style="width: 50%;" />
+            <col style="width: 25%;" />
             <tbody>
-                <tr>
-                    <td>
-                        <p><span class="bold">Funzionalità</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Date di rilascio</span>
-                        </p>
-                    </td>
-                </tr>
+               <tr>
+        <td><strong>Funzionalità</strong>
+        </td>
+        <td><strong>Anteprima</strong></td>
+        <td><strong>Rilascio rapido</strong></td>
+        <td><strong>Ogni trimestre</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti agli elenchi avanzati</a><p></p>
+            <p>Con il layout avanzato degli elenchi, puoi utilizzare filtri e raggruppamenti per visualizzare i tuoi lavori e mantenerli meglio organizzati. Ora viene visualizzato un indicatore a punti blu sopra un widget per indicare quando è stato applicato un filtro o un raggruppamento a un elenco nelle seguenti aree:</p>
+            <ul>
+                <li>Tassi di cambio in configurazione</li>
+                <li>Widget Richieste personali</li>
+                <li>Priorità</li>
+            </ul>
+        </td>
+        <td>venerdì 28 agosto 2025</td>
+        <td>venerdì 11 settembre 2025</td>
+        <td>venerdì 16 ottobre 2025</td>
+    </tr>     
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti look-and-feel durante il periodo di rilascio della versione del quarto trimestre 2025</a></p>
                         <p>Aggiornamenti minori al look and feel di varie aree dell’applicazione Adobe Workfront vengono effettuati entro l’arco temporale del rilascio del quarto trimestre 2025. </p>
                     </td>
-                    <td><p><b>Disponibile in queste date:</b></p>
-                        <ul>
-                            <li>
-                                <p>Versione di anteprima: nell’arco temporale di rilascio del quarto trimestre 2025<br /></p>
-                            </li>
-                            <li>
-                                <p>Versione di produzione: almeno 2 settimane dopo il rilascio in anteprima (se non diversamente specificato)</p>
+                    <td><p>Nell’arco temporale di rilascio del quarto trimestre 2025<br /></p>
+                    <td colspan="2"><p>Rilascio rapido: almeno 1 settimana dopo il rilascio in anteprima (se non diversamente specificato)</p>
                             </li>
                         </ul>
                     </td>
@@ -360,7 +389,7 @@ Per offrire integrazioni più stabili e scalabili, stiamo passando a un approcci
 * Workfront per Salesforce.
 
 È consigliabile utilizzare l&#39;automazione e l&#39;integrazione di Workfront per le esigenze di integrazione dell&#39;organizzazione con Google Workspace.
-Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### API versione 20
 
@@ -372,7 +401,7 @@ Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianific
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Aggiornamenti dei corsi di formazione
 
