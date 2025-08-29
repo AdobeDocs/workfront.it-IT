@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
+source-git-commit: c7c958b09caf7e15f128a729f6b327f6c3fa21e8
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,21 @@ ht-degree: 0%
 Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima alle richieste con la versione del quarto trimestre 2025. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del quarto trimestre 2025, consulta [Panoramica sulla versione del quarto trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Nuova colonna di stato combinata nell’elenco delle richieste unificate
+
+>[!NOTE]
+>
+>* Anteprima: 28 agosto 2025
+>* Versione rapida di produzione: 11 settembre 2025
+>* Produzione per tutti i clienti: 16 ottobre 2025
+
+Per semplificare l’esperienza di richiesta unificata, la colonna Stato ora visualizza sia lo stato della richiesta che lo stato di approvazione, a seconda di quale sia il valore applicato a una determinata richiesta.
+
+Per ulteriori informazioni sulla creazione delle richieste, consulta:
+
+* Per Workfront: [Crea e invia richieste](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
+* Per Workfront Planning: [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md)
 
 ## Aggiornamenti alla richiesta di esperienza
 

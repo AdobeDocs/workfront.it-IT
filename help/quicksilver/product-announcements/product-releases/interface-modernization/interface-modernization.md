@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: ae5cc55bcd1d9db4484b5c5447a483456015f9fe
+source-git-commit: 31cc110fb4fba38a530406acc1f42a89159e029b
 workflow-type: tm+mt
-source-wordcount: '7449'
+source-wordcount: '7469'
 ht-degree: 0%
 
 ---
@@ -180,6 +180,10 @@ Per informazioni, vedere i seguenti articoli:
 
 **Versione di anteprima: 21 agosto 2025; versione di produzione: 28 agosto 2025**
 
+>[!NOTE]
+>
+>Questa funzione è stata temporaneamente rimossa dall’ambiente di produzione.
+
 È stato aggiornato l&#39;aspetto della casella Nuovo argomento coda quando si aggiunge un nuovo argomento di coda a un progetto o a un modello, in modo che corrisponda alla progettazione di altre aree di Workfront.
 
 Per informazioni, vedere [Creare argomenti coda](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
@@ -187,6 +191,10 @@ Per informazioni, vedere [Creare argomenti coda](/help/quicksilver/manage-work/r
 ### Aggiornamenti dell’interfaccia durante la modifica di un Argomento coda in un progetto o modello
 
 **Versione di anteprima: 21 agosto 2025; versione di produzione: 28 agosto 2025**
+
+>[!NOTE]
+>
+>Questa funzione è stata temporaneamente rimossa dall’ambiente di produzione.
 
 L’esperienza durante la modifica di un Argomento coda in progetti e modelli è stata aggiornata per corrispondere ad altre aree di Workfront.
 
