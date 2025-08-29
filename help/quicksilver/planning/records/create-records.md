@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: b291525db0105081b5ff3dd65d9d2b3267a2f60c
 workflow-type: tm+mt
 source-wordcount: '2814'
 ht-degree: 0%
@@ -335,7 +335,7 @@ Per informazioni sulla creazione di una visualizzazione della sequenza temporale
    * **Chiudi** ![Chiudi icona](assets/close-icon.png) per chiudere la nuova casella del record.
 
    Il record viene aggiunto immediatamente alla timeline, alla tabella e alle visualizzazioni del calendario, a meno che non si sia fatto clic sull&#39;icona **Elimina**.
-
+   <!--1. (Optional) Hover over the record's bar in the timeline and drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record.-->
 1. (Facoltativo) Fare clic sulla barra dei record nella timeline per aprire la finestra dei dettagli del record e aggiornarne le informazioni, eliminarla o aggiungere commenti.
 
    >[!TIP]
@@ -387,9 +387,9 @@ For information about creating a calendar view, see [Manage the calendar view](/
 
     * **Record date fields**: Update the dates of the record. 
         
-        The names of the date fields are customized according to the fields selected for the Start and End dates when the timeline view was created.
+        The names of the date fields are customized according to the fields selected for the Start and End dates when the calendar view was created.
 
-        By default, date values are preselected depending on how you display the timeline view. The following scenarios exist:
+        By default, date values are preselected depending on how you display the calendar view. The following scenarios exist:
 
         * By **Month**: The record start and end dates span one day.
         * By **Week**: The record start and end dates span two days.

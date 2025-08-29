@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: b291525db0105081b5ff3dd65d9d2b3267a2f60c
 workflow-type: tm+mt
-source-wordcount: '2566'
+source-wordcount: '2618'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Puoi modificare un singolo problema oppure i problemi in un elenco. Per informaz
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -163,11 +163,9 @@ Esistono alcune limitazioni che potrebbero impedire la modifica dei problemi.
      <tr> 
       <td role="rowheader">Descrizione</td> 
       <td> <p>Aggiungi ulteriori informazioni sul problema.</p> </td> 
-     </tr> 
-     <tr> 
-      <td colspan="2" role="rowheader">Sezione Informazioni di base</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Stato</td> 
       <td> <p>Seleziona lo stato del problema. Per ulteriori informazioni sugli stati dei problemi, vedere <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Accedere all'elenco degli stati dei problemi di sistema</a>. </p> </td> 
      </tr> 
@@ -192,8 +190,24 @@ Esistono alcune limitazioni che potrebbero impedire la modifica dei problemi.
         <li> <p style="font-weight: bold;">Bug senza workaround</p> </li> 
         <li> <p style="font-weight: bold;">Errore Fatale</p> </li> 
        </ul> <p>A seconda delle Preferenze di progetto selezionate dall'amministratore di Workfront, i nomi delle gravità potrebbero essere diversi per te. Per ulteriori informazioni sulla modifica delle gravità, vedere <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md" class="MCXref xref">Creare o personalizzare le gravità dei problemi</a>.</p> </td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
+   <td role="rowheader">Condizione problema</td> 
+   <td> <p>La Condizione di un problema è un flag applicato a tale problema per indicarne le modalità.</p> 
+   <p>È possibile impostare la condizione di un'attività o di un problema in modo automatico o manuale.</p>
+   <p>Devi essere assegnato al problema per modificarne la condizione.</p>
+   <p>Selezionare una delle opzioni seguenti:</p> 
+      <ul> 
+   <li> <p style="font-weight: bold;">Senza problemi</p> </li> 
+   <li> <p style="font-weight: bold;">Qualche dubbio</p> </li> 
+   <li> <p style="font-weight: bold;">Problemi notevoli</p> </li> 
+   </ul> </td> 
+     </tr>
+
+
+
+   <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>Digita un collegamento web relativo alle informazioni sul problema.</p> </td> 
      </tr> 

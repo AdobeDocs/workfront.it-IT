@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
+source-git-commit: b291525db0105081b5ff3dd65d9d2b3267a2f60c
 workflow-type: tm+mt
 source-wordcount: '2192'
 ht-degree: 0%
@@ -95,7 +95,7 @@ Per informazioni sulla creazione di record, vedere [Crea record](/help/quicksilv
 
 *Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 
 ## Considerazioni sulla modifica dei record
@@ -106,6 +106,10 @@ Per informazioni sulla creazione di record, vedere [Crea record](/help/quicksilv
    * Anteprima del record in una visualizzazione record
    * Pagina dettagli record
    * In linea, in una vista a tabella.
+<!--* You can edit a record's dates from the following areas:
+    * All areas listed above
+    * <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record in the timeline</span>
+        For information, see [Create records](/help/quicksilver/planning/records/create-records.md). -->
 
 * Quando un utente modifica un record in una visualizzazione, le modifiche sono immediatamente visibili in tutte le visualizzazioni e le pagine dei record a tutti gli altri utenti.
 
@@ -162,9 +166,9 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 
 1. (Facoltativo e condizionale) Quando modifichi un campo di tipo Paragrafo, utilizza le seguenti **opzioni di formattazione Rich Text**:
 
-   * Bold
-   * Italic
-   * Sottolinea
+   * Grassetto
+   * Corsivo
+   * Sottolineato
    * Aggiungi un collegamento
    * Aggiungere un elenco puntato
    * Aggiungere un elenco numerato
