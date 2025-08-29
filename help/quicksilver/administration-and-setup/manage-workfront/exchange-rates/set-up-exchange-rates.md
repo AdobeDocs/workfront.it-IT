@@ -8,9 +8,9 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: cb12c715d6b20dd4737e2d2e29d9849f08ce67e9
+source-git-commit: dc820b4012fec494ce5ebb1baefb4ee0df214916
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '650'
 ht-degree: 2%
 
 ---
@@ -89,6 +89,10 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    * Passa il puntatore del mouse sul nome della valuta e fai clic sul menu **Altro** visualizzato. Quindi, selezionare **Rendi predefinito**.
 
      La nuova valuta predefinita viene aggiornata con l’icona.
+
+     >[!NOTE]
+     >
+     >La valuta predefinita viene sempre visualizzata per prima nell&#39;elenco, indipendentemente dall&#39;ordinamento dell&#39;elenco.
 
 1. (Facoltativo) Per eliminare una valuta, seleziona la casella di controllo accanto al nome della valuta e seleziona **Elimina** nella barra delle azioni nella parte inferiore della schermata. Impossibile eliminare la valuta predefinita.
 

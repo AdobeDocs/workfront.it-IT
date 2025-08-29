@@ -4,10 +4,11 @@ title: Usa elenchi avanzati
 description: Gli elenchi avanzati utilizzano un formato tabella per la visualizzazione delle voci di elenco e hanno un aspetto diverso rispetto agli elenchi standard
 author: Lisa
 feature: Get Started with Workfront
-source-git-commit: 8e88db186c574ea57dd609301b816d57636b125b
+exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
+source-git-commit: dc820b4012fec494ce5ebb1baefb4ee0df214916
 workflow-type: tm+mt
-source-wordcount: '1038'
-ht-degree: 0%
+source-wordcount: '1124'
+ht-degree: 1%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 {{preview-fast-release-general}}
 
-In alcune aree di Adobe Workfront sono disponibili elenchi avanzati. Questi elenchi utilizzano un formato tabella per la visualizzazione delle voci di elenco e hanno un aspetto diverso rispetto agli elenchi standard.
+In alcune aree di Adobe Workfront sono disponibili elenchi avanzati. Questi elenchi utilizzano un formato tabella per la visualizzazione delle voci di elenco e hanno un aspetto diverso rispetto agli elenchi standard. È stata migliorata anche la gestione delle viste, inclusi filtri, raggruppamenti, gestione delle colonne e ricerca.
 
 Per informazioni sugli elenchi standard, vedere [Introduzione agli elenchi in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
@@ -67,7 +68,22 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti di Workfront che uti
 A seconda della configurazione dell’elenco avanzato, ci possono essere due modi per aggiungere un elemento all’elenco:
 
 * Fai clic su un pulsante sopra l’elenco. Questa opzione consente di aprire una finestra di dialogo in cui immettere le informazioni e salvarle.
-* Fai clic su **Nuova riga** in fondo all&#39;elenco. Questa opzione consente di aggiungere una nuova riga alla tabella e di immettere le informazioni in ogni cella. Se una cella è limitata a un set di dati specifico, ad esempio il nome di una valuta, è possibile che venga richiesto di scegliere da un elenco o di cercare il nome.
+* Fai clic su **Nuova riga** in fondo all&#39;elenco. Questa opzione consente di aggiungere una nuova riga alla tabella e di immettere le informazioni in ogni cella.
+
+  Gli elenchi avanzati supportano i seguenti tipi di campi:
+
+   * Testo
+   * Numero
+   * Valuta
+   * Data
+   * Data e ora
+   * Menu a discesa a selezione singola/multipla
+   * Automatico
+   * Paragrafo
+   * Assegnatario (uno o più)
+   * Selettore colore
+
+  Quando si modifica una cella, ogni tipo di campo ha le proprie opzioni di modifica.
 
 Per modificare un elemento nell&#39;elenco, fare doppio clic nella cella che si desidera modificare e digitare le informazioni. Alcune celle possono essere di sola lettura.
 
@@ -77,13 +93,19 @@ Per modificare un elemento nell&#39;elenco, fare doppio clic nella cella che si 
 
 Quando si seleziona la casella di controllo accanto a un elemento nell&#39;elenco avanzato, la barra delle azioni viene visualizzata nella parte inferiore dello schermo e mostra le azioni che è possibile eseguire sull&#39;elemento. Alcune azioni possono essere specifiche per tale elenco e non vengono visualizzate in nessun altro elenco.
 
-Fare clic su un pulsante sulla barra delle azioni per eseguire tale azione, ad esempio visualizzare la voce di elenco, eliminare la voce o impostarla come predefinita.
+>[!NOTE]
+>
+>Vari elenchi avanzati potrebbero consentire la selezione di un singolo elemento, la modifica in serie (selezione di più elementi) o la selezione di nessun elemento.
+
+Fare clic su un pulsante sulla barra delle azioni per eseguire tale azione, ad esempio visualizzare la voce di elenco, eliminare la voce o modificarla.
 
 Se non è disponibile alcuna azione per l&#39;elemento selezionato, la barra delle azioni indica &quot;Nessuna azione disponibile&quot;.
 
 ![Esempio di barra delle azioni](assets/glist-action-bar-exchange-rates.png)
 
-Il menu **Altro** è il menu a tre punti che viene visualizzato accanto a una voce di elenco quando si passa il puntatore del mouse su di essa. Fai clic sul menu per visualizzare le azioni aggiuntive per l’elemento. Alcune azioni possono essere specifiche per tale elenco e non vengono visualizzate in nessun altro elenco.
+Il menu **Altro** è il menu a tre punti visualizzato accanto a un campo primario in una voce di elenco quando lo si passa con il mouse. Il campo principale è la colonna più a sinistra della tabella.
+
+Fai clic sul menu per visualizzare le azioni aggiuntive per l’elemento. Alcune azioni possono essere specifiche per tale elenco e non vengono visualizzate in nessun altro elenco.
 
 ![Altro esempio di menu](assets/glist-more-menu-exchange-rates.png)
 
@@ -100,7 +122,9 @@ Alcuni elenchi avanzati consentono di nascondere e visualizzare le colonne e di 
 
    >[!NOTE]
    >
-   >Un campo può essere sempre visualizzato o corretto nella prima posizione e non è possibile modificarne la colonna.
+   >Il campo principale è la colonna più a sinistra della tabella. È fisso nella prima posizione e non è possibile modificarne la colonna. Se il numero di colonne è elevato, il campo principale viene bloccato a sinistra e quando scorri orizzontalmente lo visualizzerai sempre.
+   >
+   >L&#39;icona accanto al nome di un campo mostra il tipo di campo, ad esempio testo o campo data.
 
    <span class="preview">Sul pulsante **Colonne** viene visualizzato un indicatore quando le colonne sono nascoste. L&#39;indicatore non viene visualizzato quando si riordinano le colonne.</span>
 
@@ -150,7 +174,7 @@ Per ordinare le singole colonne, passare alla colonna e fare clic sulla freccia 
 
 >[!NOTE]
 >
->Se all&#39;elenco è associata una voce predefinita, tale voce sarà sempre la prima dell&#39;elenco, indipendentemente dall&#39;ordinamento dell&#39;elenco.
+>Alcune colonne potrebbero non essere ordinabili.
 
 ![Ordina per colonna](assets/glist-sort-by-column.png)
 
