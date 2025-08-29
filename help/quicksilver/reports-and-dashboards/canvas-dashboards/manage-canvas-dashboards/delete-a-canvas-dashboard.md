@@ -5,10 +5,11 @@ title: Eliminare un dashboard Canvas
 description: Puoi organizzare la visualizzazione dei rapporti in un dashboard di Canvas dopo che sono stati aggiunti a uno.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: 075df18c-08b8-467d-a0e4-60cd3abd5807
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 0%
+source-wordcount: '282'
+ht-degree: 2%
 
 ---
 
@@ -16,12 +17,19 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Per ulteriori informazioni, vedere [Informazioni sulla versione beta delle dashboard di Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica della versione beta di Canvas Dashboards.<br>
+>>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
+>
+>* Porta la tua chiave per Amazon Web Services
+>* Azure
+>* Piattaforma Google Cloud
+
 
 Una volta che non è più necessario un dashboard Canvas, puoi rimuoverlo da Adobe Workfront.
 
+## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.
++++ Espandere per visualizzare i requisiti di accesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,7 +78,8 @@ Per ulteriori informazioni, vedere [Creare un dashboard Canvas](/help/quicksilve
 
 >[!WARNING]
 >
->Una volta eliminato, il dashboard non può essere recuperato.
+> Una volta eliminato un dashboard, non sarà più possibile ripristinarlo insieme a tutti i report e/o visualizzazioni personalizzati.<br>
+> > Se elimini una dashboard contenente un report classico, il report classico non verrà eliminato.
 
 {{step1-to-dashboards}}
 
@@ -83,4 +92,4 @@ Per ulteriori informazioni, vedere [Creare un dashboard Canvas](/help/quicksilve
 
 1. Nella finestra di dialogo **Elimina dashboard** selezionare la casella di controllo **Confermo di voler eliminare questo dashboard**.
 
-1. Fare clic su **Elimina**.
+1. Fai clic su **Elimina**.

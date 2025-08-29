@@ -6,9 +6,9 @@ description: È possibile aggiungere a un dashboard di Canvas un report di grafi
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1352'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,20 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Per ulteriori informazioni, vedere [Informazioni sulla versione beta delle dashboard di Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica della versione beta di Canvas Dashboards.<br>
+>>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
+>
+>* Porta la tua chiave per Amazon Web Services
+>* Azure
+>* Piattaforma Google Cloud
 
 Puoi generare e aggiungere un rapporto di grafico a un dashboard di Canvas per visualizzare i dati come grafico a barre, a colonne, a linee o a torta.
 
 ![Report grafico](assets/chart-report-main.png)
 
-+++ Espandere per visualizzare i requisiti di accesso.
+## Requisiti di accesso
+
++++ Espandere per visualizzare i requisiti di accesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -90,7 +97,7 @@ Sono disponibili molte opzioni di configurazione per la creazione di un rapporto
 
       >[!NOTE]
       >
-      >Esiste un numero massimo di serie che è possibile visualizzare in un grafico. Se questa casella è selezionata, tutte le serie al di sopra del limite vengono consolidate in un raggruppamento **Altro** nel grafico.
+      >È possibile visualizzare in un grafico un massimo di 60 serie. Se questa casella è selezionata, tutte le serie al di sopra del limite vengono consolidate in un raggruppamento **Altro** nel grafico.
 
 1. Segui i passaggi seguenti per configurare la sezione **Genera grafico**:
 
@@ -100,7 +107,7 @@ Sono disponibili molte opzioni di configurazione per la creazione di un rapporto
 
       * **Barra**
       * **Colonna**
-      * **Riga**
+      * **Line**
       * **Torta**
 
    1. Nell&#39;elenco a discesa **Tipo colonna** selezionare il tipo di colonna:
@@ -204,6 +211,8 @@ In questa sezione verranno descritti i passaggi necessari per creare un istogram
 
    1. Immetti *$$TODAY* nel campo valutatore.
 
+      Per ulteriori informazioni sui caratteri jolly, vedere la sezione Variabili di filtro per i caratteri jolly basati sulla data nell&#39;articolo [Modifica filtri di report in un dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md).
+
       ![Campo valutatore](assets/add-condition.png)
 
 1. Segui i passaggi seguenti per configurare la sezione **Impostazioni colonna di espansione**:
@@ -227,3 +236,35 @@ In questa sezione verranno descritti i passaggi necessari per creare un istogram
    1. Fai clic sul pulsante **Aggiungi raggruppamento**, quindi seleziona il campo **Progetto** > **Nome**.
 
 1. Fai clic su **Salva** per creare il report e aggiungerlo al dashboard.
+
+## Considerazioni durante la creazione di un rapporto grafico
+
+### Utilizzo del selettore di campo
+
+L&#39;elenco a discesa **Sezioni** nella sezione **Genera grafico** è progettato per limitare le scelte in un selettore di campi in modo da semplificare la ricerca di un oggetto durante la creazione di un report di tabella. Per iniziare, selezionate un oggetto entità di base.
+
+* **Tutte le sezioni**: tutti i tipi di oggetto in Workfront Workflow e Workfront Planning.
+* **Oggetti Workfront**: oggetti flusso di lavoro Workfront nativi.
+* **Tipi di record di pianificazione**: tipi di record personalizzati definiti in Workfront Planning.
+
+![Elenco a discesa delle sezioni](assets/sections-dropdown.png)
+
+Una volta selezionato l&#39;oggetto entità di base, l&#39;elenco a discesa **Sezioni** viene aggiornato con le opzioni del tipo di campo applicabili tra cui scegliere.
+
+* **Tutte le sezioni**: campi nativi, campi personalizzati e oggetti correlati.
+* **Tutti i campi**: campi nativi e personalizzati (escluse le relazioni).
+* **Campi personalizzati**: campi definiti dal cliente in un modulo personalizzato o in un record Planning.
+* **Campi Workfront**: solo campi nativi.
+* **Relazioni**: record connessi.
+
+![Selezione di oggetti segnalabili](assets/reportable-objects-selection.png)
+
+### Riferimento a oggetti figlio
+
+Le relazioni disponibili per colonne aggiuntive, opzioni di filtro e attributi di raggruppamento sono in genere limitate agli oggetti più in alto nella gerarchia degli oggetti di Workfront oppure dispongono di una singola selezione sull&#39;oggetto dell&#39;entità di base del report. Esistono alcune eccezioni a questo, tra cui:
+
+* Progetto > Attività
+* Approvazione documento > Fasi di approvazione documento
+* Fasi di approvazione documento > Partecipanti fase di approvazione documento
+
+Quando si utilizza una delle relazioni padre-figlio elencate sopra, nella tabella viene visualizzata una riga per ogni record figlio connesso all&#39;oggetto padre.

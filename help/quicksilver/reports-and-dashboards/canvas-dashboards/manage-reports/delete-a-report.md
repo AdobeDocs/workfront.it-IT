@@ -5,10 +5,11 @@ title: Eliminare un rapporto in un dashboard Canvas
 description: Puoi eliminare un rapporto da un dashboard di Canvas.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: 98d26160-a097-473d-8d66-e6d619cb2908
+source-git-commit: 68a4a9d1c3980fd947b5fefef19cdfa09591e849
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 0%
+source-wordcount: '292'
+ht-degree: 1%
 
 ---
 
@@ -16,14 +17,20 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Per ulteriori informazioni, vedere [Informazioni sulla versione beta delle dashboard di Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica della versione beta di Canvas Dashboards.<br>
+>>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
+>
+>* Porta la tua chiave per Amazon Web Services
+>* Azure
+>* Piattaforma Google Cloud
 
 Dopo aver creato un dashboard di Canvas e aver aggiunto i relativi rapporti, puoi eliminare i rapporti meno recenti che non sono più applicabili per quel dashboard specifico.
 
 L’eliminazione di un rapporto è permanente. Se devi aggiungere nuovamente un rapporto dopo che è stato eliminato, dovrai ricrearlo.
 
+## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.
++++ Espandere per visualizzare i requisiti di accesso. 
 
 <table style="table-layout:auto"> 
 <col> 

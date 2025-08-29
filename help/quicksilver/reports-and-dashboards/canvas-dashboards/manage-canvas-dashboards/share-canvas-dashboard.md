@@ -6,9 +6,9 @@ description: Puoi condividere un dashboard Canvas con altri utenti di Adobe Work
 author: Jenny
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: b8f25d9490173f8f23a0ba545486c99202f05a69
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,18 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Per ulteriori informazioni, vedere [Informazioni sulla versione beta delle dashboard di Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica della versione beta di Canvas Dashboards.<br>
+>>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
+>
+>* Porta la tua chiave per Amazon Web Services
+>* Azure
+>* Piattaforma Google Cloud
 
 Puoi condividere un dashboard Canvas con altri utenti di Adobe Workfront in modo che possano visualizzarlo o modificarlo.
 
-+++ Espandere per visualizzare i requisiti di accesso.
+## Requisiti di accesso
+
++++ Espandere per visualizzare i requisiti di accesso. 
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -44,13 +51,14 @@ Puoi condividere un dashboard Canvas con altri utenti di Adobe Workfront in modo
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configurazioni del livello di accesso</p></td> 
-   <td><p>Modificare l’accesso a rapporti, dashboard e calendari</p>
+   <td><p>Accesso a report, dashboard e calendari</p>
   </td> 
   </tr>  
     </tr>  
         <tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
-   <td><p>Gestire le autorizzazioni per il dashboard</p>
+   <td><p>Visualizzare le autorizzazioni per la dashboard per condividere la dashboard</p>
+   <p>Gestisci le autorizzazioni per il dashboard per assegnare le autorizzazioni del dashboard</p>
   </td> 
   </tr>
 </tbody> 
@@ -61,13 +69,17 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Considerazioni sulla condivisione delle dashboard
 
-* Per impostazione predefinita, l’autore di un dashboard dispone delle autorizzazioni di gestione per tale dashboard.
+* Le dashboard possono essere condivise con le risorse dell’utente, del team, del gruppo, della mansione o dell’azienda.
 
-* Puoi condividere dashboard che hai creato con altri singoli utenti, team, gruppi, mansioni o aziende. Puoi anche condividere con te dashboard creati da altri utenti e condivisi in precedenza.
+* Per impostazione predefinita, l’autore di un dashboard dispone delle autorizzazioni di gestione per il dashboard.
 
-* Per impostazione predefinita, quando si condivide un dashboard, gli utenti ereditano le autorizzazioni di visualizzazione da tutti gli oggetti report nel dashboard a meno che l&#39;autorizzazione non venga aggiornata prima della condivisione.
+* Gli amministratori di sistema e gli utenti con l’autorizzazione Gestione possono concedere l’accesso Visualizzazione o Gestione a un dashboard.
 
-* Se disponi delle autorizzazioni di visualizzazione per un dashboard, puoi comunque condividere il dashboard ma non puoi assegnare ai destinatari un’autorizzazione superiore a Visualizza.
+* Gli utenti con l’autorizzazione Visualizzazione di un dashboard possono concedere l’accesso Visualizzazione a un dashboard.
+
+* Quando condividi un dashboard, le risorse con cui è condiviso ereditano le autorizzazioni per i report visualizzati nel dashboard.
+
+* Quando un dashboard viene distribuito tramite un modello di layout, a tutte le risorse assegnate al modello di layout viene concessa un’autorizzazione di visualizzazione automatica per il dashboard (e i relativi report).
 
 
 ## Condividere un dashboard Canvas
@@ -83,16 +95,18 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Nel campo **Concedi l&#39;accesso a**, inizia a digitare il nome di un utente, un team, una mansione, un gruppo o un&#39;azienda con cui vuoi condividere il dashboard di Canvas, quindi selezionalo quando viene visualizzato nell&#39;elenco a discesa.
 
-1. (Facoltativo) Per modificare l&#39;accesso di un utente al dashboard, fai clic su **Visualizza** accanto al nome, quindi seleziona **Gestisci** nell&#39;elenco a discesa visualizzato.
+1. (Facoltativo) Per modificare l&#39;accesso di una risorsa al dashboard, fai clic su **Visualizza** accanto al nome, quindi seleziona **Gestisci** nell&#39;elenco a discesa visualizzato.
 
    >[!NOTE]
    >
-   >Alcuni utenti non possono modificare il proprio livello di accesso (ad esempio, gli amministratori).
+   > Se gli utenti non dispongono delle autorizzazioni di modifica per un dashboard assegnato tramite il proprio livello di accesso, non è possibile assegnare loro le autorizzazioni di gestione per un dashboard.
 
-1. Ripeti i passaggi 5-6 per ogni utente con cui desideri condividere il dashboard.
+1. Ripeti i passaggi 5-6 per ogni risorsa con cui desideri condividere il dashboard.
 
 1. Fai clic sul pulsante **Condividi**. I destinatari ricevono una notifica e-mail con la quale vengono informati che il dashboard è stato condiviso con loro. È ora possibile accedervi da **Dashboard** > **Dashboard canvas** > **Dashboard condivisi**.
 
    >[!NOTE]
    >
-   >Possono essere applicate le preferenze dei singoli utenti e le esclusioni di sistema per le notifiche e-mail.
+   > Possono essere applicate le preferenze dei singoli utenti e le esclusioni di sistema per le notifiche e-mail. <br>
+   > Le notifiche vengono inviate solo se condivise direttamente con un utente. La condivisione con gruppi, ruoli, società e team non genera notifiche e-mail.<br>
+   > Le autorizzazioni ereditate da un modello di layout non generano una notifica e-mail sull’accesso al dashboard.

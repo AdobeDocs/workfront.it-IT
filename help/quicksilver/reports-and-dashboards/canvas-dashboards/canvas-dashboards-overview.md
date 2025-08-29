@@ -7,10 +7,10 @@ author: Courtney and Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 1%
+source-wordcount: '497'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,12 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Per ulteriori informazioni, vedere [Informazioni sulla versione beta delle dashboard di Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica della versione beta di Canvas Dashboards.<br>
+>>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
+>
+>* Porta la tua chiave per Amazon Web Services
+>* Azure
+>* Piattaforma Google Cloud
 
 I dashboard di Canvas consentono di visualizzare facilmente i dati di Adobe Workfront aggiungendo tipi di rapporti a un’area di lavoro che offre diverse opzioni di layout flessibili, tra cui ridimensionamento, trascinamento e rilascio di altri elementi.
 
@@ -32,6 +37,29 @@ Con i dashboard di Canvas è possibile creare rapporti sulle nuove funzioni di W
 * Per creare un dashboard Area di lavoro è necessario disporre di una licenza Pianificazione (licenze correnti) o Standard (nuove licenze). Per informazioni sui tipi di licenze di Workfront, vedere [Panoramica licenze](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) o [Panoramica nuove licenze](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
 * L’amministratore di Workfront deve consentire l’accesso in modifica alle dashboard nel livello di accesso per creare o modificare una dashboard di Canvas. Per informazioni sulla concessione dell&#39;accesso in modifica, vedere [Concedere l&#39;accesso a report, dashboard e calendari](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+
+## Articoli del dashboard Canvas
+
+* Dashboard Canvas versione beta
+   * [Informazioni sulla versione beta delle dashboard di Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+* Creare dashboard
+   * [Creare un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)
+* Aggiungere rapporti
+   * [Aggiungere un rapporto esistente a un dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
+   * [Creare un rapporto KPI in un dashboard Area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
+   * [Creare un rapporto di grafico in un dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
+   * [Creare un rapporto di tabella in un dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
+* Gestisci dashboard area di lavoro
+   * [Condividere un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
+   * [Disporre i rapporti in un dashboard Area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/arrange-reports-in-dashboard.md)
+   * [Filtrare un dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
+   * [Modificare il nome o la descrizione di un dashboard Area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
+   * [Eliminare un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
+   * [Aggiungere un dashboard Area di lavoro a un modello di layout](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template.md)
+* Gestione dei rapporti
+   * [Modificare un rapporto in un dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
+   * [Modificare i filtri dei rapporti in un dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
+   * [Eliminare un rapporto in un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
 
 ## Funzioni correnti e pianificate
 
@@ -67,6 +95,10 @@ Di seguito è riportato un elenco dei tipi di rapporto attualmente supportati ne
 * Ottimizzazione delle prestazioni
 
 ### Funzioni future della roadmap
+
+>[!NOTE]
+>
+>Le priorità della roadmap elencate di seguito si adegueranno in base al feedback ricevuto durante il periodo beta.
 
 * Visualizzazioni web incorporate
 * Calendari

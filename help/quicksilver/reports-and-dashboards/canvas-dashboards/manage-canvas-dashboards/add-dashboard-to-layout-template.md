@@ -5,10 +5,11 @@ title: Aggiungere un dashboard Area di lavoro a un modello di layout
 description: È possibile aggiungere un quadro comandi Area di lavoro a un modello di layout in modo che sostituisca la pagina di destinazione Home, venga visualizzato nel pannello sinistro di un oggetto o venga fissato alla barra superiore.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: b5899500cad1ac32345d39f76eea7f643f1cd0ea
+exl-id: 91ebcec5-99a4-4096-8d4e-b4ea31755d75
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 1%
+source-wordcount: '547'
+ht-degree: 2%
 
 ---
 
@@ -16,11 +17,18 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Per ulteriori informazioni, vedere [Informazioni sulla versione beta delle dashboard di Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica della versione beta di Canvas Dashboards.<br>
+>>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
+>
+>* Porta la tua chiave per Amazon Web Services
+>* Azure
+>* Piattaforma Google Cloud
 
 Puoi aggiungere un quadro comandi Canvas a un modello di layout in modo che sostituisca la pagina di destinazione Home, venga visualizzata nel pannello sinistro di un oggetto o venga bloccata sulla barra superiore in Adobe Workfront.
 
 ![Pannello sinistro](assets/left-panel.png)
+
+## Requisiti di accesso
 
 +++ Espandere per visualizzare i requisiti di accesso. 
 

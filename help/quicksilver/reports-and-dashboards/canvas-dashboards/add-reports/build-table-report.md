@@ -6,9 +6,9 @@ description: Puoi aggiungere un rapporto di tabella a un dashboard di Canvas per
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 72344e5c1607ba6b4dd2a1e71a462bba93369b27
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '1045'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,18 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Per ulteriori informazioni, vedere [Informazioni sulla versione beta delle dashboard di Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica della versione beta di Canvas Dashboards.<br>
+>>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
+>
+>* Porta la tua chiave per Amazon Web Services
+>* Azure
+>* Piattaforma Google Cloud
 
 Puoi aggiungere un rapporto di tabella a un dashboard di Canvas per visualizzare i dati in formato tabella.
 
 ![Esempio di report tabella](assets/table-example-main.png)
+
+## Requisiti di accesso
 
 +++ Espandere per visualizzare i requisiti di accesso. 
 
@@ -60,6 +67,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 È necessario creare un dashboard prima di creare un rapporto di tabella.
 
+
 ## Creare un rapporto di tabella in un dashboard di Canvas
 
 Sono disponibili molte opzioni di configurazione per la creazione di un rapporto di tabella. In questa sezione ti guideremo attraverso il processo generale di creazione di un elemento.
@@ -91,6 +99,8 @@ Sono disponibili molte opzioni di configurazione per la creazione di un rapporto
    1. Nel pannello a sinistra, fai clic sull&#39;icona **Colonne tabella** ![Icona Genera tabella](assets/drilldown-column.png).
 
    1. Fare clic su **Aggiungi colonna** e quindi selezionare il campo che si desidera visualizzare come colonna nella tabella. La colonna viene visualizzata nella sezione di anteprima a destra.
+
+
 
    1. Ripetere il passaggio precedente per ogni colonna da aggiungere.
 
@@ -190,3 +200,35 @@ Per ulteriori informazioni sugli esempi di report di tabella, vedere [Creare un 
       ![esempio di filtro della tabella di approvazione in sospeso](assets/pending-approval-table-filter.png)
    1. (Facoltativo) Aggiungi altri filtri come descritto nella sezione **Filtri opzionali** di seguito.
 1. Fai clic su **Salva** nell&#39;angolo in alto a destra dello schermo.
+
+## Considerazioni durante la creazione di un rapporto di tabella
+
+### Utilizzo del selettore di campo
+
+L&#39;elenco a discesa **Sezioni** nella sezione **Tabella di compilazione** è progettato per limitare le scelte in un selettore di campi in modo da semplificare la ricerca di un oggetto durante la creazione di un report di tabella. Per iniziare, selezionate un oggetto entità di base.
+
+* **Tutte le sezioni**: tutti i tipi di oggetto in Workfront Workflow e Workfront Planning.
+* **Oggetti Workfront**: oggetti flusso di lavoro Workfront nativi.
+* **Tipi di record di pianificazione**: tipi di record personalizzati definiti in Workfront Planning.
+
+![Elenco a discesa delle sezioni](assets/sections-dropdown.png)
+
+Una volta selezionato l&#39;oggetto entità di base, l&#39;elenco a discesa **Sezioni** viene aggiornato con le opzioni del tipo di campo applicabili tra cui scegliere.
+
+* **Tutte le sezioni**: campi nativi, campi personalizzati e oggetti correlati.
+* **Tutti i campi**: campi nativi e personalizzati (escluse le relazioni).
+* **Campi personalizzati**: campi definiti dal cliente in un modulo personalizzato o in un record Planning.
+* **Campi Workfront**: solo campi nativi.
+* **Relazioni**: record connessi.
+
+![Selezione di oggetti segnalabili](assets/reportable-objects-selection.png)
+
+### Riferimento a oggetti figlio
+
+Le relazioni disponibili per colonne aggiuntive, opzioni di filtro e attributi di raggruppamento sono in genere limitate agli oggetti più in alto nella gerarchia degli oggetti di Workfront oppure dispongono di una singola selezione sull&#39;oggetto dell&#39;entità di base del report. Esistono alcune eccezioni a questo, tra cui:
+
+* Progetto > Attività
+* Approvazione documento > Fasi di approvazione documento
+* Fasi di approvazione documento > Partecipanti fase di approvazione documento
+
+Quando si utilizza una delle relazioni padre-figlio elencate sopra, nella tabella viene visualizzata una riga per ogni record figlio connesso all&#39;oggetto padre.

@@ -6,9 +6,9 @@ description: È possibile aggiungere a un dashboard Canvas un rapporto KPI che v
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: 72344e5c1607ba6b4dd2a1e71a462bba93369b27
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '1106'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,18 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Per ulteriori informazioni, vedere [Informazioni sulla versione beta delle dashboard di Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica della versione beta di Canvas Dashboards.<br>
+>>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
+>
+>* Porta la tua chiave per Amazon Web Services
+>* Azure
+>* Piattaforma Google Cloud
 
 Puoi generare e aggiungere un rapporto KPI a un dashboard di Canvas che rappresenti visivamente i dati chiave degli indicatori di prestazioni sotto forma di numero, da utilizzare per visualizzare le prestazioni dei progetti e dei team.
 
 ![Esempio di report KPI](assets/kpi-example-main.png)
+
+## Requisiti di accesso
 
 +++ Espandere per visualizzare i requisiti di accesso. 
 
@@ -107,6 +114,8 @@ Sono disponibili molte opzioni di configurazione per la creazione di un rapporto
 
    1. (Facoltativo) Fai clic su **Aggiungi gruppo di filtri** per aggiungere un altro set di criteri di filtro. L&#39;operatore di default tra i set è AND. Fai clic sull’operatore per modificarlo in O.
 
+      Per ulteriori informazioni sui filtri, vedere [Modificare i filtri dei report in un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md).
+
 1. Segui i passaggi seguenti per configurare la sezione **Impostazioni colonna di espansione**:
 
    1. Nel pannello a sinistra, fai clic sull&#39;icona **Colonne espansione** ![Colonne espansione](assets/drilldown-column.png). I campi del grafico vengono visualizzati automaticamente come colonne nella sezione di anteprima a destra.
@@ -174,5 +183,37 @@ Per ulteriori informazioni sugli esempi di report KPI, vedere [Creare un dashboa
    1. Lascia l&#39;operatore come **Uguale**, quindi digita _in attesa di revisione_ nella casella di testo.
       ![Esempio di filtro KPI in sospeso](assets/pending-kpi-filter.png)
 1. Fai clic su **Salva** nell&#39;angolo in alto a destra dello schermo.
+
+## Considerazioni durante la creazione di un rapporto KPI
+
+### Utilizzo del selettore di campo
+
+L&#39;elenco a discesa **Sezioni** nella sezione **Genera KPI** è progettato per limitare le scelte in un selettore di campi in modo da semplificare la ricerca di un oggetto durante la creazione di un report di tabella. Per iniziare, selezionate un oggetto entità di base.
+
+* **Tutte le sezioni**: tutti i tipi di oggetto in Workfront Workflow e Workfront Planning.
+* **Oggetti Workfront**: oggetti flusso di lavoro Workfront nativi.
+* **Tipi di record di pianificazione**: tipi di record personalizzati definiti in Workfront Planning.
+
+![Elenco a discesa delle sezioni](assets/sections-dropdown.png)
+
+Una volta selezionato l&#39;oggetto entità di base, l&#39;elenco a discesa **Sezioni** viene aggiornato con le opzioni del tipo di campo applicabili tra cui scegliere.
+
+* **Tutte le sezioni**: campi nativi, campi personalizzati e oggetti correlati.
+* **Tutti i campi**: campi nativi e personalizzati (escluse le relazioni).
+* **Campi personalizzati**: campi definiti dal cliente in un modulo personalizzato o in un record Planning.
+* **Campi Workfront**: solo campi nativi.
+* **Relazioni**: record connessi.
+
+![Selezione di oggetti segnalabili](assets/reportable-objects-selection.png)
+
+### Riferimento a oggetti figlio
+
+Le relazioni disponibili per colonne aggiuntive, opzioni di filtro e attributi di raggruppamento sono in genere limitate agli oggetti più in alto nella gerarchia degli oggetti di Workfront oppure dispongono di una singola selezione sull&#39;oggetto dell&#39;entità di base del report. Esistono alcune eccezioni a questo, tra cui:
+
+* Progetto > Attività
+* Approvazione documento > Fasi di approvazione documento
+* Fasi di approvazione documento > Partecipanti fase di approvazione documento
+
+Quando si utilizza una delle relazioni padre-figlio elencate sopra, nella tabella viene visualizzata una riga per ogni record figlio connesso all&#39;oggetto padre.
 
 

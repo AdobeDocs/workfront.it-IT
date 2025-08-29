@@ -6,10 +6,10 @@ description: I rapporti creati tramite lo strumento Rapporti di Adobe Workfront 
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 0%
+source-wordcount: '349'
+ht-degree: 1%
 
 ---
 
@@ -17,11 +17,18 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Per ulteriori informazioni, vedere [Informazioni sulla versione beta delle dashboard di Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica della versione beta di Canvas Dashboards.<br>
+>>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
+>
+>* Porta la tua chiave per Amazon Web Services
+>* Azure
+>* Piattaforma Google Cloud
 
 I rapporti creati tramite lo strumento Rapporti di Adobe Workfront possono essere aggiunti a un dashboard di Canvas. Per ulteriori informazioni sulla creazione di report, vedere [Introduzione ai report](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
-+++ Espandere per visualizzare i requisiti di accesso.
+## Requisiti di accesso
+
++++ Espandere per visualizzare i requisiti di accesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -56,6 +63,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Aggiungere un rapporto esistente a un dashboard di Canvas
 
+
 {{step1-to-dashboards}}
 
 1. Nel pannello a sinistra, fai clic su **Dashboard Canvas**.
@@ -76,9 +84,15 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
      >[!NOTE]
      >
-     > A questo punto della fase beta, il widget principale **Tutte le approvazioni** è l&#39;unico widget disponibile. Questo elenco si espanderà con l’avanzare della fase beta.
+     > A questo punto della fase beta, il widget principale **Document approvals metrics** è l&#39;unico widget disponibile. Questo elenco si espanderà con l’avanzare della fase beta.
 
 1. (Facoltativo) Per visualizzare i dettagli di un report prima di aggiungerlo al dashboard, fare clic su **Visualizza** in linea con il report desiderato.
 
 1. Fare clic su **Aggiungi** in linea con il report che si desidera aggiungere.
+
+   >[!NOTE]
+   >
+   > Se si desidera aggiungere un altro report esistente a un dashboard dopo averlo creato, fare clic sul pulsante **Aggiungi report** nell&#39;angolo superiore destro della pagina dei dettagli del dashboard, quindi ripetere i passaggi 6-9.
+
+
 

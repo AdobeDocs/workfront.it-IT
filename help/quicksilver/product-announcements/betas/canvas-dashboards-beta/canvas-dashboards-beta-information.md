@@ -3,30 +3,35 @@ product-area: Canvas Dashboards
 navigation-topic: canvas-dashboards-beta
 title: Informazioni sulla versione beta delle dashboard di Canvas
 description: Informazioni generali sulla versione beta di Canvas Dashboards
-author: Courtney
+author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 0%
+source-wordcount: '467'
+ht-degree: 1%
 
 ---
 
 # Informazioni sulla versione beta delle dashboard di Canvas
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Canvas Dashboards è attualmente in fase di test beta chiuso ed è pertanto soggetto a frequenti modifiche.
+>La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Fornisci feedback](#provide-feedback) di seguito.<br>
+>>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
+>
+>* Porta la tua chiave per Amazon Web Services
+>* Azure
+>* Piattaforma Google Cloud
 
-Le dashboard di Canvas sono una funzione attualmente in fase di sviluppo che consente di visualizzare facilmente i dati di Adobe Workfront aggiungendo vari tipi di rapporti a un’area di lavoro personalizzabile.
+I dashboard di Canvas sono una funzione attualmente in fase di sviluppo che consente di visualizzare facilmente i dati di Adobe Workfront aggiungendo vari tipi di rapporti a un’area di lavoro che offre diverse opzioni di layout flessibili, tra cui ridimensionamento, trascinamento e rilascio di e altro ancora.
 
-Tieni presente che, nonostante la tua partecipazione durante la fase di test della versione beta, alcune parti della funzione potrebbero non essere complete o non funzionare come previsto. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Fornisci feedback](#provide-feedback) di seguito.
+Per ulteriori informazioni, vedere [Panoramica dei dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.
++++ Espandere per visualizzare i requisiti di accesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -64,15 +69,15 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Dashboards**.
 
-1. Nell&#39;angolo in alto a destra della pagina, fai clic sul pulsante **Partecipa alla versione beta dei dashboard di Canvas**.
+1. Nell&#39;angolo superiore destro della pagina fare clic sul pulsante **Partecipa alla versione beta** dei dashboard di Canvas.
 
    >[!NOTE]
    >
-   > Il pulsante **Partecipa alla versione beta** di Canvas Dashboards sarà disponibile solo se l&#39;organizzazione è stata invitata alla versione beta chiusa.
+   > Il pulsante **Partecipa alla versione beta dei dashboard di Canvas** sarà disponibile solo se l&#39;organizzazione è stata invitata alla versione beta.
 
 1. Rivedi i termini nella casella **Contratto Beta**, quindi fai clic su **Contratto**. Ora sei iscritto alla versione beta. Tieni presente che potrebbero essere necessari alcuni minuti perché i dati Workfront diventino completamente accessibili nelle dashboard di Canvas.
 
-## Fornisci feedback
+## Fornire feedback
 
 Il feedback è apprezzato durante lo sviluppo di questo strumento nel corso della versione beta. Segui le istruzioni qui sotto per condividere la tua esperienza con noi.
 
@@ -80,7 +85,22 @@ Il feedback è apprezzato durante lo sviluppo di questo strumento nel corso dell
 
 1. Nel pannello a sinistra, fai clic su **Dashboard Canvas**.
 
-1. Fai clic sul pulsante **Invia feedback** nell&#39;angolo inferiore destro della pagina, quindi inserisci il tuo feedback nel modulo visualizzato.
+1. Fai clic sul pulsante **Lascia un feedback** nell&#39;intestazione della pagina.
+
+1. Nella pagina **Feedback Beta** dei dashboard dell&#39;area di lavoro immettere un **oggetto del feedback** e una **descrizione del feedback**.
+
+1. (Facoltativo) Nella sezione **Altri dettagli**, seleziona il tipo di attività correlata al tuo feedback nel menu a discesa **Attività di reporting**.
+
+1. (Facoltativo) Seleziona il tipo di oggetto per il quale vuoi lasciare un feedback nell&#39;elenco a discesa **Tipo di oggetto report**.
+
+1. (Facoltativo) Se sono presenti dati mancanti, selezionare la casella di controllo **Dati previsti mancanti**, quindi descrivere i dati mancanti nella casella di testo visualizzata.
+
+1. (Facoltativo) Se il tuo feedback è relativo a una richiesta di documentazione, seleziona la casella di controllo **Richiesta di documentazione**.
+
+1. (Facoltativo) Nella sezione **Informazioni su di te**, specifica le informazioni per i campi seguenti:
+   * **Nome cliente**
+   * **Nome**
+   * **Ruolo di reporting**
 
 1. Fai clic su **Invia**.
 
