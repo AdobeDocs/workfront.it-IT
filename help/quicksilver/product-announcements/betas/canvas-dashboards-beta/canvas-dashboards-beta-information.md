@@ -7,7 +7,7 @@ author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
+source-git-commit: 8fdf48c5b17a17e4dd1ef2e441659155ae0b9905
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Fornisci feedback](#provide-feedback) di seguito.<br>
->&#x200B;>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
+>>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
 >
 >* Porta la tua chiave per Amazon Web Services
 >* Azure
@@ -89,7 +89,7 @@ Il feedback è apprezzato durante lo sviluppo di questo strumento nel corso dell
 
 1. Nella pagina **Feedback Beta** dei dashboard dell&#39;area di lavoro immettere un **oggetto del feedback** e una **descrizione del feedback**.
 
-1. (Facoltativo) Nella sezione **Altri dettagli**, seleziona il tipo di attività correlata al tuo feedback nel menu a discesa **Attività di reporting**.
+1. (Facoltativo) Nella sezione **Altri dettagli**, seleziona il tipo di attività correlata al tuo feedback nell&#39;elenco a discesa **Attività di reporting**.
 
 1. (Facoltativo) Seleziona il tipo di oggetto per il quale vuoi lasciare un feedback nell&#39;elenco a discesa **Tipo di oggetto report**.
 
