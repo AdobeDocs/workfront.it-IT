@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 00ec13dfb082ecd9b087d79b385a4eea677cf55d
+source-git-commit: f9455b5aa57585a0e037f024807c19d48296d518
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '681'
 ht-degree: 3%
 
 ---
@@ -87,7 +87,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    * Dashboard
    * Calendari
    * Gestione risorse
-   * Scenari
+   * Situazioni che potrebbero verificarsi con
 
      >[!NOTE]
      >
@@ -104,7 +104,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    * Schede orario
    * Documenti
    * Modelli
-   * Verifica
    * Obiettivi
 
      >[!NOTE]
