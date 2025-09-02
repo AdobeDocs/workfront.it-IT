@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 1c6a1238e9ea1ca843dcb296db7a552ff354c50a
+source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
 workflow-type: tm+mt
-source-wordcount: '2666'
+source-wordcount: '2739'
 ht-degree: 3%
 
 ---
@@ -54,15 +54,15 @@ I seguenti argomenti supportano l’API di abbonamento agli eventi:
 I seguenti oggetti Workfront sono supportati dalle sottoscrizioni di eventi.
 
 * Approvazione
-* Fase di approv.
+* Fase di approvazione
 * Partecipante fase di approvazione
 * Assegnazione
 * Azienda
-* Dashboard
+* Dashboard di
 * Documento
 * Spesa
 * Campo
-* Ora
+* Hour
 * Problema
 * Nota
 * Portfolio
@@ -89,6 +89,10 @@ Per creare, eseguire query o eliminare un abbonamento a un evento, l’utente di
 * È necessaria un&#39;intestazione `sessionID` per utilizzare l&#39;API sottoscrizioni eventi
 
   Per ulteriori informazioni, vedere [Autenticazione](api-basics.md#authentication) in [Nozioni di base sulle API](api-basics.md).
+
+## Evita di sovraccaricare le sottoscrizioni di eventi
+
+Il servizio di abbonamento agli eventi è progettato per fornire una consegna affidabile di eventi per tutti gli utenti. A tal fine, sono state introdotte misure di salvaguardia per impedire la produzione di eventi eccessivi da parte di un singolo utente, che potrebbero causare potenziali problemi di qualità del servizio per tutti gli utenti. Di conseguenza, un utente che produce troppi eventi a una velocità elevata in un breve arco di tempo può riscontrare ritardi nella sandboxing e nella consegna degli eventi.
 
 ## Formazione della risorsa abbonamento
 
@@ -117,7 +121,7 @@ La risorsa abbonamento contiene i campi seguenti.
         <td scope="col"><p>approvazione</p></td> 
        </tr> 
        <tr> 
-        <td scope="col">Fase di approv.</td> 
+        <td scope="col">Fase di approvazione</td> 
         <td scope="col"><p>fase_approvazione</p></td> 
        </tr> 
        <tr> 
@@ -133,7 +137,7 @@ La risorsa abbonamento contiene i campi seguenti.
         <td scope="col"><p>AZIENDA</p></td> 
        </tr> 
        <tr> 
-        <td scope="col">Dashboard</td> 
+        <td scope="col">Dashboard di</td> 
         <td scope="col">PTLTAB</td> 
        </tr> 
        <tr> 
@@ -149,7 +153,7 @@ La risorsa abbonamento contiene i campi seguenti.
         <td scope="col"><p>CAMPO</p></td> 
        </tr> 
       <tr> 
-        <td scope="col"><p>Ora</p></td> 
+        <td scope="col"><p>Hour</p></td> 
         <td scope="col">HOUR</td> 
        </tr> 
        <tr> 
@@ -804,7 +808,7 @@ Questo filtro consente la trasmissione dei messaggi solo se nel campo specificat
 }
 ```
 
-#### stato
+#### Stato
 
 Questo connettore applica il filtro al nuovo stato o al vecchio stato dell’oggetto creato o aggiornato. Questa funzione è utile quando si desidera sapere dove è stata apportata una modifica da un elemento all’altro.
 `oldState` non è possibile in CREATE `eventTypes`.
@@ -812,7 +816,7 @@ Questo connettore applica il filtro al nuovo stato o al vecchio stato dell’ogg
 >[!NOTE]
 >
 >La sottoscrizione seguente con il filtro specificato restituirà solo i messaggi in cui il nome dell&#39;attività contiene `again` per `oldState`, ovvero ciò che si trovava prima di un aggiornamento dell&#39;attività.
->&#x200B;>Un caso d’uso per questo potrebbe essere quello di trovare i messaggi objCode che sono cambiati da una cosa all’altra. Ad esempio, per individuare tutte le attività che sono cambiate da &quot;Cerca nome&quot; a &quot;Cerca nome team&quot;
+>>Un caso d’uso per questo potrebbe essere quello di trovare i messaggi objCode che sono cambiati da una cosa all’altra. Ad esempio, per individuare tutte le attività che sono cambiate da &quot;Cerca nome&quot; a &quot;Cerca nome team&quot;
 
 ```
 {

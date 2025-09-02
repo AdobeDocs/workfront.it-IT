@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 19e0b792bc49ede0504af479952fdbdf384dc73c
+source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,10 @@ Assicurati che tutti i campi obbligatori del corpo della richiesta siano forniti
 ## Evita di includere campi corpo aggiuntivi
 
 Non includere campi corpo aggiuntivi nella richiesta, in quanto l’API non sarà in grado di creare una sottoscrizione.
+
+## Evita di sovraccaricare le sottoscrizioni di eventi
+
+Il servizio di abbonamento agli eventi è progettato per fornire una consegna affidabile di eventi per tutti gli utenti. A tal fine, sono state introdotte misure di salvaguardia per impedire la produzione di eventi eccessivi da parte di un singolo utente, che potrebbero causare potenziali problemi di qualità del servizio per tutti gli utenti. Di conseguenza, un utente che produce troppi eventi a una velocità elevata in un breve arco di tempo può riscontrare ritardi nella sandboxing e nella consegna degli eventi.
 
 ## Completa il test entro il periodo di tolleranza
 
