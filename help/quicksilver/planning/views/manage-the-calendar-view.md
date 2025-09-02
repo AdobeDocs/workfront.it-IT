@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1620'
 ht-degree: 5%
 
 ---
@@ -145,9 +145,11 @@ Per gestire una vista calendario:
 
 1. Aggiornate i seguenti elementi della vista come descritto nelle sottosezioni seguenti:
    * [Filtri](#add-filters)
+     <!--<span class="preview">[Row height](#modify-row-height)</span>-->
    * [Impostazioni](#edit-the-calendar-view-settings)
-     <!--* [Grouping](#add-grouping)-->
-     <!--* [Sort](#add-sort) not sure if this is present in calendar views?!; also check the anchor and make sure it's correct-->
+
+   <!--* [Grouping](#add-grouping)-->
+   <!--* [Sort](#add-sort) not sure if this is present in calendar views?!; also check the anchor and make sure it's correct-->
 
 ### Aggiungere filtri
 
@@ -174,7 +176,7 @@ Quando si lavora con i filtri nella vista calendario, considera quanto segue:
 Per aggiungere un filtro a una vista calendario:
 
 1. Creare una visualizzazione calendario per una pagina del tipo di record, come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
-1. Seleziona una vista calendario, quindi fai clic su **Filtri** nell&#39;angolo superiore destro della tabella.
+1. Seleziona una vista calendario, quindi fai clic su **Filtri** nella barra degli strumenti del calendario.
 1. Fai clic su **Aggiungi condizione** e aggiungi le seguenti informazioni:
 
    * **Selezionare un campo** da filtrare per <!-- the tip below might change-->
@@ -266,6 +268,76 @@ Per aggiungere un filtro a una vista calendario:
 
 1. (Facoltativo) Fai clic sull&#39;icona **x** per rimuovere una condizione di filtro.
 1. (Facoltativo) Fai clic su **Filtri** per chiudere la casella dei filtri. <!--right now you cannot "clear all" for filters, but this might come later-->
+
+<!--
+<span class="preview">
+
+### Modify row height
+
+You can modify the row height of a calendar cell to increase or decrease the number of record bars you display in each cell. 
+
+The number of records displayed in the calendar varies depending on how many fields you display on the records' bars. 
+
+1. Create a calendar view for a record type page, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
+1. Select a calendar view, then click **Row height** in the calendar's toolbar.    
+1. Choose from the following options: 
+
+<table>
+<thead>
+<tr>
+    <th><b>Row height option</b></th>
+    <th><b>Number of records</b></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td>Short</td>
+    <td><p>Contains:</p>
+
+<ul><li>2 records displaying 1 field</li>
+<li>1 record displaying more than 1 field</li></ul>
+    </td>
+</tr>
+<tr><td>Standard</td>
+    <td><p>Contains:</p>
+
+<ul><li>4 records displaying 1 field</li>
+<li>2 record displaying more than 1 field</li></ul>
+    </td>
+</tr>
+<tr>
+    <td>Medium</td>
+    <td><p>Contains:</p>
+
+<ul><li>8 records displaying 1 field</li>
+<li>4 record displaying more than 1 field</li></ul>
+    </td>
+</tr>
+<tr>
+    <td>Tall</td>
+    <td><p>Contains:</p>
+
+<ul><li>12 records displaying 1 field</li>
+<li>6 record displaying more than 1 field</li></ul>
+    </td>
+</tr>
+<tr>
+    <td>Fit to content</td>
+    <td><p>All records are visible, up to 500 records</p></td>
+</tr>
+</tbody>
+</table> 
+
+1. (Optional) Click **Show more** if there are records that are not visible in the calendar. 
+
+    >[!TIP]
+    >
+    >The **Show more** option displays when you choose Fit to content and there are are more than 500 records in one time frame.
+
+
+</span>
+
+-->
 
 ### Modificare le impostazioni della vista calendario
 

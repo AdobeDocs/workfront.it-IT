@@ -4,9 +4,9 @@ description: I tipi di record sono i tipi di oggetto di Adobe Workfront Planning
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '584'
 ht-degree: 1%
 
 ---
@@ -44,48 +44,28 @@ Per informazioni, vedere [Configurare le funzionalità tra aree di lavoro divers
 </col> 
 <tbody> 
     <tr> 
+<tr>
+
+</tr>   
 <tr> 
-<td> 
-   <p> Prodotti</p> </td> 
+   <td role="rowheader"><p>Pacchetto Adobe Workfront*</p></td> 
    <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
-  </tr>   
-<tr> 
-   <td role="rowheader"><p>Piano Adobe Workfront*</p></td> 
-   <td> 
-<p>Uno dei seguenti piani di Workfront:</p> 
-<ul><li>Seleziona</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning non è disponibile per i piani Workfront legacy</p> 
-   </td> 
-<tr> 
-   <td role="rowheader"><p>Pacchetto Adobe Workfront Planning*</p></td> 
-   <td> 
-<p>Qualsiasi </p> 
+<ul><li><p>Qualsiasi pacchetto Workfront</p></li>
+E
+<li><p>Pacchetto Planning Plus</p></li></ul>
+Oppure:
+<ul><li><p>Qualsiasi pacchetto flusso di lavoro</p> </li>
+E
+<li><p>Pacchetto Planning Prime o Ultimate</p></li></ul>
 <p>Per ulteriori informazioni su quanto incluso in ogni piano di Workfront Planning, contattare l'account manager Workfront. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td> 
-   <td> 
-<p>Per poter accedere a Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
-<p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata Adobe per Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront*</p></td> 
-   <td><p> Standard</p>
-   <p>Workfront Planning non è disponibile per le licenze Workfront legacy</p> 
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
-   <td> <p>Nessun controllo del livello di accesso per Adobe Workfront Planning</p>   
-</td> 
-  </tr> 
+   </td>
+
 <tr> 
+   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
    <td>   <p>Gestione delle autorizzazioni per un'area di lavoro</a> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  </td> 
@@ -105,8 +85,9 @@ Considerazioni durante l&#39;aggiunta di tipi di record esistenti da un&#39;altr
 * Dopo l&#39;aggiunta del tipo di record da un&#39;altra area di lavoro, vengono aggiunte anche le seguenti informazioni dal tipo di record esistente:
 
    * Campi
-   * Record
    * Registra connessioni
+
+* È possibile visualizzare i record aggiunti da altre aree di lavoro solo se si dispone delle autorizzazioni per tali aree.
 
 * È possibile modificare il tipo di record, inclusi i relativi campi, solo nell&#39;area di lavoro originale. Non è possibile modificarlo dalle aree di lavoro in cui è stato aggiunto.
 * I record aggiunti da tutte le aree di lavoro saranno visibili a tutti gli utenti che vi accedono da tutte le aree di lavoro, anche se vengono creati in un&#39;area di lavoro in cui non dispongono di autorizzazioni.

@@ -4,9 +4,9 @@ description: È possibile abilitare un tipo di record per l'aggiunta a un'altra 
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1052'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ Per informazioni, vedere uno degli articoli seguenti:
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.  
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -74,52 +74,32 @@ Per informazioni, vedere uno degli articoli seguenti:
 </col> 
 <tbody> 
     <tr> 
+<tr>
+
+</tr>   
 <tr> 
-<td> 
-   <p> Prodotti</p> </td> 
+   <td role="rowheader"><p>Pacchetto Adobe Workfront*</p></td> 
    <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
-  </tr>   
-<tr> 
-   <td role="rowheader"><p>Piano Adobe Workfront*</p></td> 
-   <td> 
-<p>Uno dei seguenti piani di Workfront:</p> 
-<ul><li>Seleziona</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning non è disponibile per i piani Workfront legacy</p> 
-   </td> 
-<tr> 
-   <td role="rowheader"><p>Pacchetto Adobe Workfront Planning*</p></td> 
-   <td> 
-<p>Qualsiasi </p> 
+<ul><li><p>Qualsiasi pacchetto Workfront</p></li>
+E
+<li><p>Pacchetto Planning Plus</p></li></ul>
+Oppure:
+<ul><li><p>Qualsiasi pacchetto flusso di lavoro</p> </li>
+E
+<li><p>Pacchetto Planning Prime o Ultimate</p></li></ul>
 <p>Per ulteriori informazioni su quanto incluso in ogni piano di Workfront Planning, contattare l'account manager Workfront. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td> 
-   <td> 
-<p>Per poter accedere a Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
-<p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata Adobe per Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront*</p></td> 
-   <td><p> Standard</p>
-   <p>Workfront Planning non è disponibile per le licenze Workfront legacy</p> 
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
-   <td> <p>Nessun controllo del livello di accesso per Adobe Workfront Planning</p>   
-</td> 
-  </tr> 
+   </td>
+
 <tr> 
+   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
    <td>   <p>Gestione delle autorizzazioni per un'area di lavoro</a> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  </td> 
-  </tr> 
+  </tr>  
 </tbody> 
 </table>
 
@@ -130,12 +110,15 @@ Per informazioni, vedere uno degli articoli seguenti:
 ## Configurare tipi di record centralizzati
 
 <!--this is a UI term; don't change the title of this section-->
+<!--IMPORTANT: not sure if we can call these centralized yet - checking with Lilit as of Sept 2; you might need to revert this to what the screen shot shows below?????-->
 
-In qualità di responsabile del workspace, è possibile configurare un tipo di record da aggiungere ad altre aree di lavoro quando si crea o si modifica un tipo di record.
+In qualità di responsabile dell&#39;area di lavoro, è possibile configurare un tipo di record come tipo di record centralizzato. È possibile aggiungere un tipo di record centralizzato ad altre aree di lavoro.
 
-Quando si configura l&#39;aggiunta di un tipo di record ad altre aree di lavoro, un manager area di lavoro può importare il tipo di record e tutte le relative informazioni in una delle aree di lavoro gestite.
+Un responsabile dell&#39;area di lavoro può aggiungere un tipo di record centralizzato a un&#39;area di lavoro gestita. Vengono aggiunti anche i campi originali del tipo di record.
 
-Per configurare l&#39;aggiunta di un tipo di record a un&#39;altra area di lavoro quando si modifica il tipo di record:
+Gli utenti possono aggiungere record a un tipo di record centralizzato da qualsiasi area di lavoro a cui hanno accesso per contribuire in cui viene aggiunto il tipo di record, inclusa l’area di lavoro principale. Possono visualizzare solo i record dell’area di lavoro per i quali dispongono delle autorizzazioni di visualizzazione.
+
+Per configurare l&#39;aggiunta di un tipo di record come tipo di record centralizzato:
 
 {{step1-to-planning}}
 
@@ -181,12 +164,15 @@ Oppure
      Nel campo Workspace viene visualizzata l&#39;area di lavoro da cui è stato creato ogni record.
 
      Questo campo è di sola lettura e non può essere eliminato.
+1. (Facoltativo) Passare a un&#39;altra area di lavoro e creare un tipo di record utilizzando un tipo di record esistente. Selezionare il tipo di record abilitato nei passaggi precedenti.
+
+   Per informazioni, vedere [Aggiungere tipi di record esistenti](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md).
 
 ## Configura tipi di record collegabili
 
 <!--this is a UI term; don't change the title of this section-->
 
-È possibile configurare un tipo di record a cui connettersi da altre aree di lavoro quando si crea o si modifica il tipo di record.
+È possibile configurare un tipo di record per la connessione da altre aree di lavoro quando si crea o si modifica il tipo di record.
 
 Per configurare un tipo di record a cui connettersi da altre aree di lavoro quando si modifica il tipo di record:
 
@@ -222,6 +208,9 @@ Oppure
    * Nella scheda del tipo di record viene visualizzata l&#39;icona di connessione tra più aree di lavoro ![Icona di connessione tra aree di lavoro](assets/connect-from-other-workspaces-icon.png) per indicare che il tipo di record è disponibile per la connessione da qualsiasi area di lavoro designata nella configurazione.
 
    Il tipo di record diventa disponibile per la connessione dalle aree di lavoro specificate.
+1. (Facoltativo) Vai a un’altra area di lavoro e aggiungi una connessione al tipo di record abilitato per la connessione tra aree di lavoro diverse nei passaggi precedenti.
+
+   Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 
 

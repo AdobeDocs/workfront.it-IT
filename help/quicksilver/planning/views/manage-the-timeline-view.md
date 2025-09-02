@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
 source-wordcount: '3872'
 ht-degree: 2%
@@ -27,7 +27,7 @@ Per informazioni sulle visualizzazioni record, vedere [Gestione visualizzazioni 
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.
++++ Espandere per visualizzare i requisiti di accesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -93,7 +93,7 @@ Per informazioni sulle visualizzazioni record, vedere [Gestione visualizzazioni 
 
 *Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++     
 
 ## Gestire una vista timeline {#manage-a-timeline-view}
 
@@ -119,6 +119,12 @@ Considera quanto segue:
 * È possibile creare e modificare i record nella vista timeline. Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
 
 </div>
+
+<!--move this bullet under the same div as above OR add a span or another div tag?? ??
+
+* You can resize the records' bars in the timeline view. Resizing the records' bars updates their start and end dates immediately. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
+
+-->
 
 Per gestire una vista timeline:
 
