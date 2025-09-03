@@ -3,7 +3,7 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 9b09452cbde87f0903283eca2021e9aef4b67e59
+source-git-commit: ae8ef9f24b8c641f4e4f456d4a05107a10dd7cb1
 workflow-type: tm+mt
 source-wordcount: '13469'
 ht-degree: 2%
@@ -119,7 +119,7 @@ ht-degree: 2%
          * [23.3 Altri miglioramenti](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
          * [Aggiornamenti look and feel durante il periodo di rilascio della versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * Versione 23.2 {#release-23-2}
-         * [Panoramica sulla versione di 23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
+         * Panoramica sulla versione di [23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 Miglioramenti per gli amministratori](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
          * [23.2 Miglioramenti di Agile](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
          * [23.2 Miglioramenti alla gestione dei progetti](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
@@ -1952,10 +1952,10 @@ ht-degree: 2%
          * [Prova di un PowerPoint con un video incorporato](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
          * [Non è possibile scaricare o visualizzare in anteprima le versioni di una bozza quando si aggiunge una bozza interattiva come nuova versione](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
    * Integrazioni native {#native-integrations}
-   * [Revisione e approvazione delle integrazioni native: indice degli articoli](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
-   * [Guida introduttiva all’integrazione di proof e GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
-   * [Guida introduttiva alla verifica e a Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
-   * [Introduzione all’integrazione Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
+      * [Revisione e approvazione delle integrazioni native: indice degli articoli](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
+      * [Guida introduttiva all’integrazione di proof e GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
+      * [Guida introduttiva alla verifica e a Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
+      * [Introduzione all’integrazione Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
    * Suggerimenti, trucchi e risoluzione dei problemi per le approvazioni {#ttt-approvals}
       * [Suggerimenti, trucchi e risoluzione dei problemi per le approvazioni: indice degli articoli](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Visualizza il numero di decisioni su bozze e documenti per tutti gli utenti](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
@@ -2506,7 +2506,7 @@ ht-degree: 2%
       * [Configura e utilizza le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso PKCE](wf-api/api/oauth-app-pkce-flow.md)
       * [Obsolescenza di API-Internal](wf-api/api/deprecation-api-internal.md)
       * [Novità dell&#39;API versione 20](wf-api/api/new-api-version-20.md)
-      * [Novità della versione 19 dell&#39;API](wf-api/api/new-api-version-19.md)
+      * [Novità della versione 19](wf-api/api/new-api-version-19.md) dell&#39;API
       * [Novità della versione 18 dell’API](wf-api/api/new-api-version-18.md)
       * [Novità della versione 17 dell’API](wf-api/api/new-api-version-17.md)
       * [Novità della versione 16 dell’API](wf-api/api/new-api-version-16.md)
