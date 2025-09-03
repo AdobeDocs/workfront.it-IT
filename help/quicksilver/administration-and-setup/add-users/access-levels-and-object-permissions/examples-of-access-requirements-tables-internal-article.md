@@ -4,9 +4,9 @@ description: Questo è un articolo interno del nostro team per tenere un inventa
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: faefa0fef0a0fd65f9eda91f52b8eea57353b5a7
+source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '827'
 ht-degree: 2%
 
 ---
@@ -249,9 +249,13 @@ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo a
    <td role="rowheader"><p>Pacchetti Adobe Workfront</p></td> 
    <td>
 
-<ul><li><p>Qualsiasi pacchetto Workfront o flusso di lavoro</p></li>
-E
-<li><p>Un pacchetto Prime o Ultimate Planning</p></li></ul>
+<ul><li><p>Qualsiasi pacchetto Workfront</p></li>
+  E
+  <li><p>Pacchetto Planning Plus</p></li></ul>
+  Oppure:
+  <ul><li><p>Qualsiasi pacchetto flusso di lavoro</p> </li>
+  E
+  <li><p>Pacchetto Planning Prime o Ultimate</p></li></ul>
    </td> </tr>
 
 </tr> 

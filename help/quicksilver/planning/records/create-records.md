@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
+source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
 workflow-type: tm+mt
 source-wordcount: '2814'
 ht-degree: 0%
@@ -335,7 +335,9 @@ Per informazioni sulla creazione di una visualizzazione della sequenza temporale
    * **Chiudi** ![Chiudi icona](assets/close-icon.png) per chiudere la nuova casella del record.
 
    Il record viene aggiunto immediatamente alla timeline, alla tabella e alle visualizzazioni del calendario, a meno che non si sia fatto clic sull&#39;icona **Elimina**.
-   <!--1. (Optional) Hover over the record's bar in the timeline and drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).-->
+   <!--1. (Optional) Hover over one of the record bar's margins in the timeline, then drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record. 
+    For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).-->
+
 1. (Facoltativo) Fare clic sulla barra dei record nella timeline per aprire la finestra dei dettagli del record e aggiornarne le informazioni, eliminarla o aggiungere commenti.
 
    >[!TIP]
@@ -401,7 +403,9 @@ For information about creating a calendar view, see [Manage the calendar view](/
     * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
 
     The record is added to the calendar as well as to the table and timeline views immediately, unless you clicked the **Delete** icon. 
+1. (Optional and conditional) Choose **Month** from the upper-corner dropdown menu, hover over one of the record bar's margins in the calendar, then drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record. 
 
+    For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
 1. (Optional) Click the record bar in the calendar to open the record's details window and update its information, delete it, or add comments. 
 
     >[!TIP]
@@ -412,9 +416,8 @@ For information about creating a calendar view, see [Manage the calendar view](/
 
     (*********when this is available in both monthly and weekly, add more steps to show resizing the timeline and dragging and dropping the record in the calendar*******)
 
-</div>
+    </div> -->
 
--->
 
 ## Creare record copiandoli e incollandoli da un elenco esterno
 

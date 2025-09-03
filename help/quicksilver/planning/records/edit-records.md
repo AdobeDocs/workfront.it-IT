@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
+source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
 workflow-type: tm+mt
-source-wordcount: '2192'
+source-wordcount: '2332'
 ht-degree: 0%
 
 ---
@@ -108,8 +108,16 @@ Per informazioni sulla creazione di record, vedere [Crea record](/help/quicksilv
    * In linea, in una vista a tabella.
 <!--* You can edit a record's dates from the following areas:
         * All areas listed above
-        * <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record in the timeline</span>
+        * <span class="preview">In a timeline view, by resizing the record bars</span>
+         * <span class="preview">In a calendar monthly view, by resizing the record bars</span>
         For information, see [Create records](/help/quicksilver/planning/records/create-records.md). -->
+
+<!-- when drag and drop is available replace the last 2 points with this:
+
+* <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record bars in a new position</span>
+* <span class="preview">In a calendar view, by resizing the record bars when viewing it by month, or by dragging and dropping the record bars in a new position</span>
+    For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+-->
 
 * Quando un utente modifica un record in una visualizzazione, le modifiche sono immediatamente visibili in tutte le visualizzazioni e le pagine dei record a tutti gli altri utenti.
 
@@ -127,10 +135,16 @@ Per informazioni sulla creazione di record, vedere [Crea record](/help/quicksilv
 
 È possibile modificare un record dalle seguenti aree:
 
-* [Visualizzazione tabella di un tipo di record](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [Vista tabella](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [Vista timeline](#edit-a-record-in-the-timeline-view-of-a-record-type)
+* [Vista calendario](#edit-a-record-in-the-calendar-view-of-a-record-type)
 * [Anteprima del record in una visualizzazione](#edit-a-record-from-the-records-preview-in-a-view)
 * [Pagina del record](#edit-a-record-from-the-records-page)
 * [Un oggetto Workfront nella sezione Planning](#edit-a-record-from-a-workfront-object-in-the-planning-section)
+
+Per modificare le date dei record, eseguire le operazioni seguenti:
+
+* [Ridimensionare le barre dei record nella visualizzazione Timeline e Calendario]
 
 ### Modificare un record in linea nella vista tabella di un tipo di record
 
@@ -221,6 +235,39 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
    >    È possibile utilizzare più volte le scelte rapide da tastiera in una riga per annullare più modifiche.
 
 1. (Facoltativo) Aggiungi una miniatura a un record. Per informazioni, vedere [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+
+
+### Modificare un record nella visualizzazione timeline di un tipo di record
+
+<!--add another step about drag and drop here when that is available-->
+
+1. Aprire la pagina del tipo di record in una visualizzazione timeline. Per informazioni, vedere [Gestire la visualizzazione della sequenza temporale](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+<!--
+1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
+
+    <span class="preview">![Left-end bar on timeline view to resize](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+
+-->
+
+1. Fare clic sulla barra di un record per aprire l&#39;area dei dettagli e modificare tutti i campi.
+
+   Per informazioni, vedere la sezione [Modificare un record dall&#39;anteprima del record in una visualizzazione](#edit-a-record-from-the-records-preview-in-a-view) in questo articolo.
+
+### Modificare un record nella vista calendario di un tipo di record
+
+<!--add another step about drag and drop here when that is available-->
+
+1. Aprire la pagina del tipo di record in una visualizzazione calendario. Per informazioni, vedere [Gestire la visualizzazione del calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+<!--
+1. (Conditional) Select **Month** in the upper-right dropdown menu.
+1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
+
+    <span class="preview">![Left-end bar on calendar view to resize](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
+-->
+
+1. Fare clic sulla barra di un record per aprire l&#39;area dei dettagli e modificare tutti i campi.
+
+   Per informazioni, vedere la sezione [Modificare un record dall&#39;anteprima del record in una visualizzazione](#edit-a-record-from-the-records-preview-in-a-view) in questo articolo.
 
 ### Modificare un record dall&#39;anteprima del record in una visualizzazione
 
