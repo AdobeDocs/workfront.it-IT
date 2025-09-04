@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 31cc110fb4fba38a530406acc1f42a89159e029b
+source-git-commit: 09c41ed117660c67c3890ebbaabae73c60cd4a9a
 workflow-type: tm+mt
-source-wordcount: '7469'
+source-wordcount: '7542'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,13 @@ In questa pagina sono elencati gli aggiornamenti dell’interfaccia che stiamo a
 Per tutte le altre modifiche apportate ad Adobe Workfront, vedi [Versioni del prodotto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Amministrazione e configurazione
+
+### Aggiornamenti dell’interfaccia per le caselle Nuova e Copia scorecard
+
+**Versione di anteprima: 4 settembre 2025; versione di produzione: 11 settembre 2025**
+
+Abbiamo aggiornato l’aspetto delle caselle Nuova e Copia scorecard in modo che corrispondano al design in altre aree dell’applicazione. Puoi visualizzare la progettazione aggiornata durante la creazione o la copia di una scorecard nell’area Configurazione di Workfront.\
+Per informazioni, vedere [Creare una scorecard](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 ### Aggiornamenti dell’interfaccia per l’elenco dei modelli di layout in un gruppo
 
@@ -217,7 +224,7 @@ Per informazioni, consulta [Gestione spese progetto](/help/quicksilver/manage-wo
 
 >[!NOTE]
 >
->Rimozione temporanea da anteprima e produzione
+>Disponibile in Anteprima e sarà disponibile in Produzione a partire dal 4 settembre 2025 con un rollout graduale.
 
 Abbiamo aggiornato l’aspetto della casella Registra ora durante la registrazione dell’ora per un progetto, un’attività o un problema nella sezione Ore, in modo che corrisponda alla progettazione di altre aree di Workfront.
 
