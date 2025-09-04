@@ -184,8 +184,8 @@ Per informazioni, vedere [Panoramica dei campi formula](/help/quicksilver/planni
 >[!NOTE]
 >
 >Anteprima: 7 agosto 2025
->>Produzione per tutti i clienti:August, 2025
->>[!BADGE Fuori programma]{type=Neutral}
+>&#x200B;>Produzione per tutti i clienti:August, 2025
+>&#x200B;>[!BADGE Fuori programma]{type=Neutral}
 
 Sono state aggiunte nuove espressioni con il seguente utilizzo ai campi formula in Workfront Planning e ai campi personalizzati calcolati in Workfront:
 
@@ -200,8 +200,8 @@ Per ulteriori informazioni, vedere [Panoramica delle espressioni di dati calcola
 >[!NOTE]
 >
 >Anteprima: 31 luglio 2025
->>Produzione per tutti i clienti: 31 luglio 2025
->>[!BADGE Fuori programma]{type=Neutral}
+>&#x200B;>Produzione per tutti i clienti: 31 luglio 2025
+>&#x200B;>[!BADGE Fuori programma]{type=Neutral}
 
 È stato aggiunto un pulsante Ingrandisci per ingrandire il campo Formula durante la creazione o la modifica del campo in una visualizzazione della tabella record. Inoltre, nella nuova finestra ingrandita è stato aggiunto un pulsante Riduci a icona per ripristinare la casella di creazione del campo.
 
@@ -250,8 +250,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >Anteprima: 24 luglio 2025
->>Versione rapida di produzione: 14 agosto 2025
->>Produzione per tutti i clienti: 16 ottobre 2025
+>&#x200B;>Versione rapida di produzione: 14 agosto 2025
+>&#x200B;>Produzione per tutti i clienti: 16 ottobre 2025
 
 È ora possibile creare record nella visualizzazione timeline di un tipo di record facendo doppio clic in un punto qualsiasi della timeline.
 
@@ -266,8 +266,8 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 >[!NOTE]
 >
 >Anteprima: 24 luglio 2025
->>Versione rapida di produzione: 14 agosto 2025
->>Produzione per tutti i clienti: 16 ottobre 2025
+>&#x200B;>Versione rapida di produzione: 14 agosto 2025
+>&#x200B;>Produzione per tutti i clienti: 16 ottobre 2025
 
 È ora possibile condividere un tipo di record dal menu Altro della scheda del tipo di record nella pagina dell&#39;area di lavoro. Prima di questo miglioramento, l’opzione Condividi era disponibile solo all’interno della pagina del tipo di record.
 
@@ -278,8 +278,8 @@ Per informazioni, vedere [Condividi tipi di record](/help/quicksilver/planning/a
 >[!NOTE]
 >
 >Anteprima: 24 luglio 2025
->>Versione rapida di produzione: 14 agosto 2025
->>Produzione per tutti i clienti: 16 ottobre 2025
+>&#x200B;>Versione rapida di produzione: 14 agosto 2025
+>&#x200B;>Produzione per tutti i clienti: 16 ottobre 2025
 
 È ora possibile visualizzare tutte le visualizzazioni di Workfront Planning (tabella, sequenza temporale e calendario) in modalità a schermo intero. La funzionalità di visualizzazione viene mantenuta ed è possibile modificare la visualizzazione anche a schermo intero.
 
@@ -292,8 +292,8 @@ Per informazioni, vedere [Gestire le visualizzazioni dei record](/help/quicksilv
 >[!NOTE]
 >
 >Anteprima: 22 luglio 2025
->>Produzione per rilascio rapido: 14 agosto 2025
->>Produzione per tutti i clienti: 16 ottobre 2025
+>&#x200B;>Produzione per rilascio rapido: 14 agosto 2025
+>&#x200B;>Produzione per tutti i clienti: 16 ottobre 2025
 
 Per rendere più flessibile il processo di approvazione, è stata aggiunta la possibilità di aggiungere team come approvatori nei moduli di richiesta Planning. Ora è possibile immettere e selezionare i nomi dei team quando si impostano gli approvatori. Qualsiasi membro del team può prendere una decisione, che conta come decisione di approvazione per l’intero team.
 
@@ -306,8 +306,8 @@ Per ulteriori informazioni, vedere [Aggiungere un&#39;approvazione a un modulo d
 >[!NOTE]
 >
 >Anteprima: 17 luglio 2025
->>Produzione per rilascio rapido: 14 agosto 2025
->>Produzione per tutti i clienti: 16 ottobre 2025
+>&#x200B;>Produzione per rilascio rapido: 14 agosto 2025
+>&#x200B;>Produzione per tutti i clienti: 16 ottobre 2025
 
 Stiamo introducendo i seguenti campi per acquisire informazioni sull’approvazione per i record creati inviando una richiesta con un’approvazione:
 
@@ -321,8 +321,8 @@ Per informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/crea
 >[!NOTE]
 >
 >Anteprima: 10 luglio 2025
->>Versione rapida di produzione: 14 agosto 2025
->>Produzione per tutti i clienti: 16 ottobre 2025
+>&#x200B;>Versione rapida di produzione: 14 agosto 2025
+>&#x200B;>Produzione per tutti i clienti: 16 ottobre 2025
 
 
 Ora, quando si applicano i raggruppamenti a una vista tabella, l&#39;aggiunta di un record alla tabella determina la compilazione automatica dei campi associati ai raggruppamenti a cui si aggiunge il record.
