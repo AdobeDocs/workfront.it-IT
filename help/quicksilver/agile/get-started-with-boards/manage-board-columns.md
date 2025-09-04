@@ -6,9 +6,9 @@ description: Per impostazione predefinita, una nuova bacheca contiene tre colonn
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 97b2118b1897f75dea0e45758e3d7f7c3409b234
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
@@ -120,12 +120,6 @@ Il criterio per l’aggiornamento dello stato funziona automaticamente sia per l
 * Quando lo stato di una scheda ad hoc o connessa viene aggiornato sulla scheda in modo che corrisponda allo stato della colonna nel criterio o lo stato di una scheda connessa viene aggiornato in un’altra posizione in Workfront, la scheda viene automaticamente spostata in tale colonna. Inoltre, se uno stato personalizzato di una scheda corrisponde allo stato di sistema assegnato alla colonna, la scheda viene spostata in tale colonna.
 
 Una scheda rimarrà in una colonna in cui viene posizionata se lo stato della scheda non corrisponde a nessuno stato impostato nei criteri di colonna esistenti.
-
->[!NOTE]
->
->Le bacheche dinamiche inseriscono sempre le schede nella colonna che corrisponde al loro stato, indipendentemente dal fatto che i criteri delle colonne siano abilitati o disabilitati. Le schede torneranno alle colonne assegnate quando aggiorni la bacheca.
-> 
->Inoltre, per tutti i tipi di bacheca, se si sposta una scheda da una colonna a un&#39;altra con lo stesso stato, la scheda tornerà alla colonna originale quando si aggiorna la bacheca.
 
 1. Accedi alla bacheca.
 1. Fai clic sul menu **[!UICONTROL Altro]** ![Altro menu](assets/more-icon-spectrum.png) nella colonna e seleziona **[!UICONTROL Modifica]**.

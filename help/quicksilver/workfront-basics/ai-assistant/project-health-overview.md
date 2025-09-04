@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
 hide: true
 hidefromtoc: true
-source-git-commit: 420ddfa1f12f21332f460f9dc5fd1393cfc6e435
+source-git-commit: 97b2118b1897f75dea0e45758e3d7f7c3409b234
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1862'
 ht-degree: 0%
 
 ---
@@ -68,14 +68,18 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 Per utilizzare Project Health (Integrità del progetto), l’organizzazione deve avere l’Assistente AI abilitato.
 
-Per abilitare l&#39;Assistente IA per la tua organizzazione, devono essere applicate tutte le seguenti condizioni:
+Per abilitare l’Assistente AI e l’integrità del progetto per la tua organizzazione, devono essere applicate tutte le seguenti condizioni:
 
 * La tua organizzazione deve aver eseguito la migrazione ad Adobe IMS (Identity Management System).
+* La tua organizzazione deve disporre di un piano Select, Prime o Ultimate Workfront
 * L’esperienza unificata di Adobe deve essere abilitata.
 * Adobe deve disporre di un accordo Adobe Gen AI firmato su file.
 * L’amministratore di Workfront deve abilitare l’Assistente IA per gli utenti dell’organizzazione. L’Assistente AI è abilitato tramite i livelli di accesso.
+* Entrambe le opzioni Abilita AI e Integrità progetto devono essere selezionate nella sezione Preferenze AI in Configurazione > Preferenze.
 
-Per ulteriori informazioni, vedere [Panoramica dell&#39;Assistente AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+  ![Sezione Preferenze AI](assets/ai-preferences.png)
+
+Per ulteriori informazioni, vedere [Panoramica dell&#39;Assistente AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md) e [Configurare le preferenze di sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 ## Elenco dei prompt dell&#39;Assistente AI
 
