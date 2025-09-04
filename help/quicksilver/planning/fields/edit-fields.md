@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 1%
+source-wordcount: '960'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ In questo articolo viene descritto come modificare le impostazioni per i campi d
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.
++++ Espandere per visualizzare i requisiti di accesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -90,7 +90,7 @@ In questo articolo viene descritto come modificare le impostazioni per i campi d
 
 *Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 
 ## Considerazioni sulla modifica delle impostazioni dei campi
@@ -98,7 +98,7 @@ In questo articolo viene descritto come modificare le impostazioni per i campi d
 Prima di apportare modifiche alla configurazione di un campo, è necessario considerare quanto segue:
 
 * È possibile modificare le impostazioni dei campi solo dalla tabella del tipo di record.
-* Non è possibile modificare un campo nella pagina record o in un&#39;altra visualizzazione, all&#39;esterno della visualizzazione tabella.
+* Non è possibile modificare le impostazioni di un campo nella pagina record o in un&#39;altra visualizzazione, all&#39;esterno della visualizzazione tabella.
 * Non è possibile modificare il tipo di campo dopo il salvataggio del campo.
 * Non è possibile deselezionare l&#39;impostazione Consenti numeri negativi precedentemente selezionata per un campo Numerico, Percentuale o Valuta se sono già presenti valori negativi memorizzati nei record a cui è associato.
 * Dopo aver salvato il campo, puoi modificare la configurazione dei seguenti elementi di campo:
@@ -116,6 +116,7 @@ Prima di apportare modifiche alla configurazione di un campo, è necessario cons
   >Non viene inviata alcuna notifica agli altri utenti circa la modifica della configurazione del campo.
 
 * È possibile modificare i campi di ricerca esistenti dai record connessi.
+* Oltre a modificare il campo come descritto nella sezione [Modifica impostazioni campo](#edit-field-settings-1) di questo articolo, <span class="preview">è possibile modificare le scelte di un campo a selezione singola o multipla quando si modifica un record nella vista tabella, mentre si aggiornano i valori dei campi. Per informazioni, vedere la sezione [Aggiungere nuove scelte a un campo di selezione esistente durante la modifica dei record nella vista tabella](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view) in questo articolo.</span>
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
@@ -163,3 +164,36 @@ Prima di apportare modifiche alla configurazione di un campo, è necessario cons
 1. (Condizionale) Per i campi record connessi, fare clic su **Modifica campi di ricerca** e aggiungere o rimuovere i campi di ricerca dal tipo di record connesso.
 
    Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+
+<div class="preview">
+
+## Aggiungere nuove scelte a un campo di selezione esistente durante la modifica di record nella vista tabella
+
+<!--some of this information is also available in Edit records article - update both when necessary-->
+
+È possibile aggiungere nuove scelte a un campo a selezione singola o multipla esistente durante la modifica di record nella vista tabella.
+
+>[!IMPORTANT]
+>
+>La funzionalità descritta in questa sezione è disponibile solo nella vista tabella. Non è disponibile in altre aree in cui vengono visualizzati campi a selezione singola o multipla.
+
+**ESEMPIO**
+
+È possibile che sia presente un campo a selezione singola denominato Stato con le opzioni Nuovo e Chiuso e che si desideri aggiungere una scelta per uno stato In corso. È possibile aggiungere la scelta eseguendo una delle operazioni seguenti:
+
+* Modifica del campo. Per informazioni, vedere la sezione [Modifica impostazioni campo](#edit-field-settings-1) in questo articolo.
+* Aggiunta di una nuova opzione durante la modifica del record nella vista tabella, come descritto di seguito.
+
+Per aggiungere una nuova scelta a un campo di selezione esistente durante la modifica di un record:
+
+1. Passare a una pagina del tipo di record e aprire la visualizzazione tabella.
+1. Aggiungere come nuova colonna il campo a selezione singola o multipla a cui si desidera aggiungere una scelta nella vista a tabella. Per informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).
+1. Inizia a modificare il campo in linea facendo doppio clic sulla cella del campo.
+1. Digitare il nome della scelta che si desidera aggiungere, quindi fare clic su **Aggiungi scelta**.
+
+   ![Aggiungi la scelta nel campo a selezione singola nella vista tabella](assets/add-choice-in-table-view-for-single-select-field.png)
+
+   La nuova scelta viene aggiunta immediatamente al campo a selezione singola.
+
+</div>

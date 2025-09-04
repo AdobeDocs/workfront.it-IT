@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '3872'
+source-wordcount: '3910'
 ht-degree: 2%
 
 ---
@@ -117,14 +117,9 @@ Considera quanto segue:
 <div class="preview">
 
 * È possibile creare e modificare i record nella vista timeline. Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
+* È possibile ridimensionare le barre dei record nella visualizzazione timeline facendo clic su, quindi trascinando e rilasciando i margini in una nuova posizione. Il ridimensionamento delle barre dei record ne aggiorna immediatamente le date di inizio e di fine. Per informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
 
 </div>
-
-<!--move this bullet under the same div as above OR add a span or another div tag?? ??
-
-* You can resize the records' bars in the timeline view by clicking, then dragging and dropping their margins in a new position. Resizing the records' bars updates their start and end dates immediately. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
-
--->
 
 Per gestire una vista timeline:
 

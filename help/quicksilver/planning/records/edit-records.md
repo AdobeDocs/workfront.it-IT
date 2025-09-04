@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '2332'
+source-wordcount: '2688'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Modifica record
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -242,12 +242,10 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 <!--add another step about drag and drop here when that is available-->
 
 1. Aprire la pagina del tipo di record in una visualizzazione timeline. Per informazioni, vedere [Gestire la visualizzazione della sequenza temporale](/help/quicksilver/planning/views/manage-the-timeline-view.md).
-<!--
-1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
 
-    <span class="preview">![Left-end bar on timeline view to resize](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+1. <span class="preview">Posizionare il puntatore del mouse sulle estremità della barra di un record, quindi fare clic e trascinare il margine fino a un&#39;altra data. Questa operazione aggiorna automaticamente la data di inizio o di fine del record.</span>
 
--->
+   <span class="preview">![Barra a sinistra nella visualizzazione della sequenza temporale da ridimensionare](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
 
 1. Fare clic sulla barra di un record per aprire l&#39;area dei dettagli e modificare tutti i campi.
 
@@ -258,12 +256,10 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 <!--add another step about drag and drop here when that is available-->
 
 1. Aprire la pagina del tipo di record in una visualizzazione calendario. Per informazioni, vedere [Gestire la visualizzazione del calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md).
-<!--
-1. (Conditional) Select **Month** in the upper-right dropdown menu.
-1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
+1. (Condizionale) Seleziona **Mese** nel menu a discesa in alto a destra.
+1. <span class="preview">Posizionare il puntatore del mouse sulle estremità della barra di un record, fare clic, trascinare i margini fino a un&#39;altra data. Questa operazione aggiorna automaticamente la data di inizio o di fine del record.</span>
 
-    <span class="preview">![Left-end bar on calendar view to resize](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
--->
+   <span class="preview">![Barra a sinistra nella visualizzazione calendario per ridimensionare](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
 
 1. Fare clic sulla barra di un record per aprire l&#39;area dei dettagli e modificare tutti i campi.
 
@@ -389,39 +385,34 @@ Dopo aver collegato i record agli oggetti di Workfront, è possibile modificare 
 
 Per ulteriori informazioni, vedere [Gestire le connessioni record dagli oggetti Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
-
-<!--
-
 <div class="preview">
 
-## Add new choices to an existing select field when editing records in the table view
+## Modificare le informazioni su campi a selezione singola o multipla
 
-You can add new choices to an existing single- or multi-select field when editing records in the table view. 
+<!--some of this information is also available in Edit fields article - update both when necessary-->
+
+Quando si modificano le informazioni in un campo a selezione singola o multipla, è possibile aggiungere nuove scelte al campo senza dover modificare il campo.
 
 >[!IMPORTANT]
 >
->The functionality described in this section is available only in the table view. It is not available in any other areas where single- or multi-select fields display.
+>La funzionalità descritta in questa sezione è disponibile solo nella vista tabella. Non è disponibile in altre aree in cui vengono visualizzati campi a selezione singola o multipla.
 
+**ESEMPIO**
 
-**EXAMPLE**
+È possibile che sia presente un campo a selezione singola denominato Stato con le opzioni Nuovo e Chiuso e che si desideri aggiungere una scelta per uno stato In corso. È possibile aggiungere la scelta eseguendo una delle operazioni seguenti:
 
-You might have a single-select field called Status that has the choices New and Closed, and you want to add a choice for an In progress status. You can add the choice by doing one of the following things:
+* Modifica del campo. Per informazioni, vedere [Modifica campi](/help/quicksilver/planning/fields/edit-fields.md)
+* Aggiunta di una nuova opzione durante la modifica del record nella vista tabella, come descritto di seguito.
 
-* Editing the field. For information, see [Edit fields](/help/quicksilver/planning/fields/edit-fields.md)
-* Adding a new option while editing the record in the table view, as described below. 
+Per aggiungere una nuova scelta a un campo di selezione esistente durante la modifica di un record:
 
+1. Passare a una pagina del tipo di record e aprire la visualizzazione tabella.
+1. Aggiungere come nuova colonna il campo a selezione singola o multipla a cui si desidera aggiungere una scelta nella vista a tabella. Per informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).
+1. Inizia a modificare il campo in linea facendo doppio clic sulla cella del campo.
+1. Digitare il nome della scelta che si desidera aggiungere, quindi fare clic su **Aggiungi scelta**.
 
-To add a new choice to an existing select field when editing a record: 
+   ![Aggiungi la scelta nel campo a selezione singola nella vista tabella](assets/add-choice-in-table-view-for-single-select-field.png)
 
-1. Go to a record type page and open the table view. 
-1. Add the single- or multi-select field that you would like to add a choice to in the table view as a new column. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
-1. Start editing the field inline by double-clicking the cell for the field. 
-1. Type the name of the choice you want to add, then click **Add choice**.
-
-    ![Add choice in single-select field in table view](assets/add-choice-in-table-view-for-single-select-field.png)
-
-    The new choice is added immediately to the single-select field. 
+   La nuova scelta viene aggiunta immediatamente al campo a selezione singola.
 
 </div>
-
--->

@@ -6,22 +6,22 @@ description: Quando il completamento di un'attività di un progetto richiede una
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1190'
 ht-degree: 2%
 
 ---
 
 # Convertire un’attività in un progetto
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti dopo una settimana dalla versione di anteprima.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
 
-Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div>-->
 
 Quando il completamento di un&#39;attività di un progetto richiede una quantità di lavoro maggiore di quella pianificata in origine, è possibile convertirla in un progetto.
 
@@ -203,4 +203,4 @@ Quando il completamento di un&#39;attività di un progetto richiede una quantit�
      >
      >Se utilizzi un modello per la conversione e un modulo personalizzato allegato al modello contiene un campo personalizzato che si trova anche in un modulo personalizzato allegato all’attività, per il nuovo progetto viene utilizzato il valore del campo dell’attività. Tuttavia, se il campo personalizzato è vuoto nell’attività, viene utilizzato il valore del modello.
 
-1. Fai clic su **Salva modifiche** <span class="preview">o **Converti in progetto**.</span>
+1. Fare clic su **Converti in progetto**.

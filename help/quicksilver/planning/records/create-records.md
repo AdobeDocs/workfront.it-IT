@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '2814'
+source-wordcount: '3278'
 ht-degree: 0%
 
 ---
@@ -32,16 +32,9 @@ In Adobe Workfront Planning, un record è un&#39;istanza di un tipo di record.
 <div class="preview">
 
 * [Aggiungerli nella visualizzazione timeline del tipo di record](#create-records-by-adding-them-in-the-record-type-timeline-view)
+* [Aggiungerli nella visualizzazione calendario del tipo di record](#create-records-by-adding-them-in-the-record-type-calendar-view)
 
 </div>
-
-<!--
-<div class="preview">
-
-* [Add them in the record type calendar view](#create-records-by-adding-them-in-the-record-type-calendar-view)
-
-</div>
--->
 
 * [Copiare e incollare un elenco di record da un elenco esterno](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplicare record da una vista tabella](#create-records-by-duplicating-them)
@@ -307,7 +300,7 @@ Per informazioni sulla creazione di una visualizzazione della sequenza temporale
    >È possibile creare una visualizzazione timeline solo se al tipo di record sono associati almeno due campi data.
 1. Fate doppio clic in un punto qualsiasi della timeline.
 
-   Viene visualizzata una nuova casella di record. <!--might need a new screen shot for Production - might add a title etc-->
+   Viene visualizzata la casella **Nuovo record**. <!--might need a new screen shot for Production - might add a title etc-->
 
    ![Nuova casella record nella sequenza temporale con barra dei record senza nome](assets/new-record-small-box-on-timeline.png)
 1. Aggiorna le seguenti informazioni:
@@ -335,8 +328,10 @@ Per informazioni sulla creazione di una visualizzazione della sequenza temporale
    * **Chiudi** ![Chiudi icona](assets/close-icon.png) per chiudere la nuova casella del record.
 
    Il record viene aggiunto immediatamente alla timeline, alla tabella e alle visualizzazioni del calendario, a meno che non si sia fatto clic sull&#39;icona **Elimina**.
-   <!--1. (Optional) Hover over one of the record bar's margins in the timeline, then drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record. 
-    For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).-->
+
+1. (Facoltativo) Passa il puntatore del mouse su uno dei margini della barra dei record nella timeline, quindi trascina le estremità della barra su una data diversa. In questo modo vengono automaticamente modificate le date di inizio e di fine del record.
+
+   Per informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
 
 1. (Facoltativo) Fare clic sulla barra dei record nella timeline per aprire la finestra dei dettagli del record e aggiornarne le informazioni, eliminarla o aggiungere commenti.
 
@@ -348,75 +343,73 @@ Per informazioni sulla creazione di una visualizzazione della sequenza temporale
 
 </div>
 
-<!--
-
 <div class="preview">
 
-## Create records by adding them in the record type calendar view
+## Creare record aggiungendoli nella visualizzazione calendario del tipo di record
 
-You can create records in the calendar view of a record type page, by double-clicking anywhere on the calendar. 
+È possibile creare record nella visualizzazione calendario di una pagina del tipo di record facendo doppio clic in un punto qualsiasi del calendario.
 
-For information about creating a calendar view, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+Per informazioni sulla creazione di una visualizzazione calendario, vedere [Gestire la visualizzazione calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
 {{step1-to-planning}}
-  
-1. Click the workspace where you want to add records.
 
-    The workspace opens and the record types display as cards.
+1. Fare clic sull&#39;area di lavoro in cui si desidera aggiungere i record.
 
-1. Click a record type card. 
+   Viene aperto il workspace e i tipi di record vengono visualizzati come schede.
 
-    The record type page opens in the view that you last accessed. 
+1. Fare clic su una scheda del tipo di record.
 
-1. Click to open a calendar view, or create a calendar view.
+   La pagina del tipo di record viene visualizzata nella visualizzazione a cui si è effettuato l&#39;ultimo accesso.
 
-    >[!NOTE]
-    >
-    >You can create a calendar view only if there are at least two date fields associated with the record type.
-1. Double-click anywhere on the calendar. 
+1. Fare clic per aprire una visualizzazione calendario o creare una visualizzazione calendario.
 
-    A new record box opens. (********might need a new screen shot for Production - might add a title etc*********ALSO CHECK IF THE SAME ONE NEEDS REPLACING FOR TIMELINE?????)
+   >[!NOTE]
+   >
+   >È possibile creare una visualizzazione calendario solo se al tipo di record sono associati almeno due campi data.
+1. Fare doppio clic in un punto qualsiasi del calendario.
 
-    ![New record box on calendar with unnamed record bar](assets/new-record-small-box-on-calendar.png)
+   Viene visualizzata la casella **Nuovo record**. <!--(********might need a new screen shot for Production - might add a title etc*********ALSO CHECK IF THE SAME ONE NEEDS REPLACING FOR TIMELINE?????)-->
 
-1. Update the following information:
+   ![Nuova casella record nel calendario con barra record senza nome](assets/new-record-small-box-on-calendar.png)
 
-    * **Name**: Enter the name of the record. If you leave it empty, Workfront names it **Untitled** by default. 
-    
-        >[!TIP]
-        >
-        >If you display the Name of the record in the record bars according to the calendar settings, the name is not visible in the record bar if left empty. 
+1. Aggiorna le seguenti informazioni:
 
-    * **Record date fields**: Update the dates of the record. 
-        
-        The names of the date fields are customized according to the fields selected for the Start and End dates when the calendar view was created.
+   * **Nome**: immettere il nome del record. Se lo lasci vuoto, per impostazione predefinita Workfront lo nomina **Senza titolo**.
 
-        By default, date values are preselected depending on how you display the calendar view. The following scenarios exist:
+     >[!TIP]
+     >
+     >Se si visualizza il nome del record nelle barre dei record in base alle impostazioni del calendario, il nome non sarà visibile nella barra dei record se lasciato vuoto.
 
-        * By **Month**: The record start and end dates span one day.
-        * By **Week**: The record start and end dates span two days.
+   * **Campi data record**: aggiorna le date del record.
 
-1. (Optional) Click one of the following icons: 
+     I nomi dei campi data vengono personalizzati in base ai campi selezionati per le date di inizio e di fine al momento della creazione della visualizzazione Calendario.
 
-    * **Expand** ![Expand icon](assets/expand-icon.png) to open the record details in the preview window. 
-    * **Delete** ![Delete icon](assets/delete-icon.png) to delete the record.
-    * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
+     Per impostazione predefinita, i valori di data vengono preselezionati a seconda della modalità di visualizzazione del calendario. Esistono i seguenti scenari:
 
-    The record is added to the calendar as well as to the table and timeline views immediately, unless you clicked the **Delete** icon. 
-1. (Optional and conditional) Choose **Month** from the upper-corner dropdown menu, hover over one of the record bar's margins in the calendar, then drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record. 
+      * Entro **Mese**: le date di inizio e fine del record si estendono su un giorno.
+      * Entro **Settimana**: le date di inizio e di fine del record sono di due giorni.
 
-    For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
-1. (Optional) Click the record bar in the calendar to open the record's details window and update its information, delete it, or add comments. 
+1. (Facoltativo) Fai clic su una delle icone seguenti:
 
-    >[!TIP]
-    >
-    >By default, Workfront associates the record with a thumbnail and a cover image.
-    >
-    >The thumbnail displays in the calendar view only when it is enabled in the Settings of the view. 
+   * **Espandi** ![Icona Espandi](assets/expand-icon.png) per aprire i dettagli del record nella finestra di anteprima.
+   * **Elimina** ![Icona Elimina](assets/delete-icon.png) per eliminare il record.
+   * **Chiudi** ![Chiudi icona](assets/close-icon.png) per chiudere la nuova casella del record.
 
-    (*********when this is available in both monthly and weekly, add more steps to show resizing the timeline and dragging and dropping the record in the calendar*******)
+   Il record viene aggiunto immediatamente al calendario, alla tabella e alle visualizzazioni della sequenza temporale, a meno che non si sia fatto clic sull&#39;icona **Elimina**.
+1. (Facoltativo e condizionale) Scegliere **Mese** dal menu a discesa nell&#39;angolo superiore, passare il puntatore del mouse su uno dei margini della barra dei record nel calendario, quindi trascinare e rilasciare le estremità della barra su una data diversa. In questo modo vengono automaticamente modificate le date di inizio e di fine del record.
 
-    </div> -->
+   Per informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
+1. (Facoltativo) Fare clic sulla barra dei record nel calendario per aprire la finestra dei dettagli del record e aggiornarne le informazioni, eliminarla o aggiungere commenti.
+
+   >[!TIP]
+   >
+   >Per impostazione predefinita, Workfront associa il record a una miniatura e a una copertina.
+   >
+   >La miniatura viene visualizzata nella vista calendario solo se è attivata in Impostazioni della vista.
+
+   <!--(*********when this is available in both monthly and weekly, add more steps to show resizing the timeline and dragging and dropping the record in the calendar*******)-->
+
+   </div>
 
 
 ## Creare record copiandoli e incollandoli da un elenco esterno

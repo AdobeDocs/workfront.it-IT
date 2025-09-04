@@ -6,9 +6,9 @@ description: Il nome di un problema viene visualizzato come opTask nel database 
 author: Alina
 feature: Work Management
 exl-id: 91107c04-616c-49b2-aa78-10e373d11f6b
-source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Il nome di un problema viene visualizzato come `opTask` nel database di Adobe Wo
 
 Per ulteriori informazioni sull&#39;aspetto degli oggetti nel database di Workfront, vedere [API Explorer](https://developer.adobe.com/workfront/api-explorer/).
 
-## Nome file `opTask`
+## Nome campo `opTask`
 
 Utilizza il nome del campo `opTask` quando si fa riferimento a problemi nei seguenti contesti:
 
