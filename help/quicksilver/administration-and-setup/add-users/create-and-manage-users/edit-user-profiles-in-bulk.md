@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
+source-git-commit: 1a81c1becfc0866b92dbd1358af23671e5302266
 workflow-type: tm+mt
-source-wordcount: '2625'
+source-wordcount: '2610'
 ht-degree: 0%
 
 ---
 
 # Modificare i profili utente in blocco
-
-{{highlighted-preview}}
 
 <!--
 
@@ -25,7 +23,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/it/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -77,7 +75,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Seleziona più di un utente, quindi fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png).
 
-1. Nella casella **Modifica utente**, modifica le informazioni in una delle sezioni e fai clic su **Salva modifiche** <span class="preview">o **Salva**</span> in qualsiasi momento.
+1. Nella casella **Modifica utente**, modifica le informazioni in una delle sezioni e fai clic su **Salva** in qualsiasi momento.
 
 ### Preferenze
 
@@ -101,7 +99,7 @@ Per ulteriori informazioni, vedere [Configurare le notifiche degli eventi per tu
 
 ### Accesso
 
-* **È attivo** / <span class="preview">**L&#39;utente è attivo**</span>: abilitare questa opzione per indicare che gli utenti sono attivi. Gli utenti attivi utilizzano una licenza di Workfront. La disattivazione del campo disattiva gli utenti e impedisce loro di accedere a Workfront.
+* **Utente attivo**: abilitare questa opzione per indicare che gli utenti sono attivi. Gli utenti attivi utilizzano una licenza di Workfront. La disattivazione del campo disattiva gli utenti e impedisce loro di accedere a Workfront.
 
 * **Livello di accesso**: selezionare il livello di accesso da assegnare a questi utenti. Tutti gli utenti selezionati avranno lo stesso livello di accesso.
 
@@ -136,7 +134,7 @@ Per ulteriori informazioni, vedere [Configurare le notifiche degli eventi per tu
 * **Società**: la società degli utenti. Gli utenti possono essere associati a una sola azienda. È necessario creare un&#39;azienda prima di associarla a un utente. Nell&#39;elenco vengono visualizzate solo le società attive. Per informazioni sulla creazione di società, vedere [Creare e modificare società](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 * **Team predefinito**: specificare il team predefinito per gli utenti. Gli utenti possono avere un solo team principale.
 * **Altri team**: gli utenti possono appartenere a più team.
-* **Gruppo predefinito** / <span class="preview">**Gruppo predefinito corrente**</span>: selezionare un gruppo appropriato per assegnare gli utenti. In questo modo gli utenti possono accedere agli oggetti condivisi con il gruppo. È inoltre possibile condividere i modelli di layout con un gruppo predefinito.
+* **Gruppo predefinito corrente**: selezionare un gruppo appropriato per assegnare gli utenti. In questo modo gli utenti possono accedere agli oggetti condivisi con il gruppo. È inoltre possibile condividere i modelli di layout con un gruppo predefinito.
 
   Questo campo è obbligatorio. Ogni utente deve essere associato a un gruppo predefinito. Se non ne selezioni uno, il Gruppo predefinito viene assegnato come Gruppo predefinito.
 
@@ -174,8 +172,8 @@ Per ulteriori informazioni, vedere [Configurare le notifiche degli eventi per tu
   >
   >Impostare il valore Tempo di lavoro su 1 per indicare che l&#39;utente è disponibile per il lavoro correlato al progetto per l&#39;intero equivalente a tempo pieno.
 
-* **Pianifica disattivazione** / <span class="preview">**Imposta data di disattivazione**</span>: seleziona questa casella / <span class="preview">fai clic su questo pulsante</span> per pianificare la disattivazione di questi utenti in una data e in un&#39;ora specifiche.
-* **Data disattivazione pianificata** / <span class="preview">**Data disattivazione**</span>: la data e l&#39;ora in cui gli utenti vengono disattivati. Per informazioni sulla pianificazione della disattivazione degli utenti, vedere [Pianificare la disattivazione degli utenti](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) in [Disattivare o riattivare un utente](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+* **Imposta data di disattivazione**: fare clic su questo pulsante se si desidera pianificare la disattivazione di questi utenti in una determinata data e a un&#39;ora.
+* **Data di disattivazione**: la data e l&#39;ora in cui gli utenti vengono disattivati. Per informazioni sulla pianificazione della disattivazione degli utenti, vedere [Pianificare la disattivazione degli utenti](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) in [Disattivare o riattivare un utente](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 * **Ruolo principale**: è il ruolo principale che gli utenti possono svolgere in Workfront. A ogni attività e problema assegnato agli utenti viene assegnata questa mansione. I ruoli sono essenziali nella gestione delle risorse. È possibile aggiornare questo campo solo se si dispone di una licenza Standard o Full con accesso utente amministrativo o se si è un amministratore Workfront. Per ulteriori informazioni sulla configurazione degli utenti con accesso amministrativo, vedere [Concedere l&#39;accesso agli utenti](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
   Nell&#39;elenco vengono visualizzati solo i ruoli di lavoro attivi.

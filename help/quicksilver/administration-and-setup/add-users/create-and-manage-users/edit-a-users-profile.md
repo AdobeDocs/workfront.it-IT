@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
+source-git-commit: 50c3cddbd11f2fe9d9bb30f66d8e690f88390f33
 workflow-type: tm+mt
-source-wordcount: '3430'
+source-wordcount: '3425'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/it/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -75,7 +75,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Viene visualizzata la casella Modifica utente.
 
-1. Nella casella **Modifica utente**, modifica le informazioni in una delle sezioni e fai clic su **Salva modifiche** <span class="preview">o **Salva**</span> in qualsiasi momento.
+1. Nella casella **Modifica utente**, modifica le informazioni in una delle sezioni e fai clic su **Salva** in qualsiasi momento.
 
 ### Informazioni personali
 
@@ -94,7 +94,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
   Se la tua organizzazione è stata migrata a Adobe Admin Console, non puoi modificare l’indirizzo e-mail di un utente in Workfront. L’indirizzo e-mail dell’utente è impostato in Adobe Admin Console.
 
-* **Reimposta password** / <span class="preview">**Cambia password**</span>: fare clic su questo collegamento per reimpostare la password dell&#39;utente. È necessario immettere la propria password prima di reimpostare quella di un altro utente.
+* **Modifica password**: fare clic su questo pulsante per reimpostare la password dell&#39;utente. È necessario immettere la propria password prima di reimpostare quella di un altro utente.
 
   Per reimpostare la password di un altro utente, è necessario essere un amministratore di Workfront o un amministratore di gruppo.
 
@@ -121,7 +121,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
   >
   >Se sei un amministratore gruppo e nel tuo livello di accesso hai abilitato l&#39;autorizzazione Amministratore utenti (tutti gli utenti), puoi modificare i campi &lt;Configurazione SSO> per tutti gli utenti.
 
-* **Foto profilo**: fare clic su **Carica foto** / <span class="preview">**Carica nuova**</span> per caricare l&#39;immagine profilo dell&#39;utente. Puoi caricare un file JPG, GIF o PNG. La dimensione massima del file è di 4 MB.
+* **Foto profilo**: fare clic su **Carica nuovo** per caricare l&#39;immagine profilo dell&#39;utente. Puoi caricare un file JPG, GIF o PNG. La dimensione massima del file è di 4 MB.
 
   L&#39;immagine del profilo diventa l&#39;avatar dell&#39;utente ed è visibile ovunque venga visualizzato il nome dell&#39;utente Workfront.
 
@@ -148,7 +148,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
   >
   >Questa opzione è disponibile solo negli ambienti di anteprima e sandbox. Per impostazione predefinita, le notifiche e-mail sono abilitate nell’ambiente di produzione.
 
-<!--* **Send work I assign to myself to my Working On tab**: This setting refers to a deprecated feature that has been removed from Workfront.-->
+* **Invia il lavoro che assegno a me stesso alla mia scheda Lavori in corso**: quando questa opzione è selezionata, il lavoro che l&#39;utente si autoassegna viene automaticamente impostato sullo stato In corso invece che Nuovo. <!--This setting refers to a deprecated feature that has been removed from Workfront.-->
 
 * **Genera automaticamente le bozze durante il caricamento dei documenti**: seleziona questa opzione se desideri che i documenti caricati dall&#39;utente generino immediatamente una bozza.
 
@@ -162,7 +162,7 @@ Per ulteriori informazioni, vedere [Configurare le notifiche degli eventi per tu
 
 ### Accesso
 
-* **È attivo** / <span class="preview">**L&#39;utente è attivo**</span>: abilitare questa opzione per indicare che l&#39;utente è attivo. Gli utenti attivi utilizzano una licenza di Workfront. La disattivazione del campo disattiva l’utente e impedisce l’accesso a Workfront.
+* **Utente attivo**: abilitare questa opzione per indicare che l&#39;utente è attivo. Gli utenti attivi utilizzano una licenza di Workfront. La disattivazione del campo disattiva l’utente e impedisce l’accesso a Workfront.
 
 * **Livello di accesso**: selezionare il livello di accesso da assegnare a questo utente.
 
@@ -199,7 +199,7 @@ Per ulteriori informazioni, vedere [Configurare le notifiche degli eventi per tu
 * **Report diretti**: se è stata specificata una società per l&#39;utente, è possibile specificare anche i report diretti dell&#39;utente. Un utente può avere più referenti diretti. Questo campo non viene visualizzato se l’utente non è prima associato a una società.
 * **Team predefinito**: specificare il team predefinito dell&#39;utente. Gli utenti possono avere un solo team principale. Il team predefinito è importante quando si assegna un modello di layout o quando si definisce il pulsante Lavoraci per le attività e i problemi assegnati all’utente.
 * **Altri team**: gli utenti possono appartenere a più team. Un utente può visualizzare gli elementi di lavoro assegnati a qualsiasi team nella propria area Home.
-* **Gruppo predefinito** / <span class="preview">**Gruppo predefinito corrente**</span>: selezionare un gruppo appropriato per assegnare l&#39;utente. In questo modo l&#39;utente può accedere agli oggetti condivisi con il gruppo. È inoltre possibile condividere i modelli di layout con il Gruppo predefinito dell&#39;utente.
+* **Gruppo predefinito corrente**: selezionare un gruppo appropriato per assegnare l&#39;utente. In questo modo l&#39;utente può accedere agli oggetti condivisi con il gruppo. È inoltre possibile condividere i modelli di layout con il Gruppo predefinito dell&#39;utente.
 
   Questo campo è obbligatorio. Ogni utente deve essere associato a un gruppo predefinito. Se non ne selezioni uno, il Gruppo predefinito viene assegnato come Gruppo predefinito del nuovo utente.
 
@@ -237,8 +237,8 @@ Per ulteriori informazioni, vedere [Configurare le notifiche degli eventi per tu
   >
   >Impostare il valore Tempo di lavoro su 1 per indicare che l&#39;utente è disponibile per il lavoro correlato al progetto per l&#39;intero equivalente a tempo pieno.
 
-* **Pianifica disattivazione** / <span class="preview">**Imposta data di disattivazione**</span>: seleziona questa casella / <span class="preview">fai clic su questo pulsante</span> per pianificare la disattivazione dell&#39;utente in una data e in un&#39;ora specifiche.
-* **Data disattivazione pianificata** / <span class="preview">**Data disattivazione**</span>: la data e l&#39;ora in cui l&#39;utente viene disattivato. Per informazioni sulla pianificazione della disattivazione degli utenti, vedere [Pianificare la disattivazione degli utenti](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) in [Disattivare o riattivare un utente](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+* **Imposta data di disattivazione**: fare clic su questo pulsante se si desidera pianificare la disattivazione dell&#39;utente in una data e in un&#39;ora specifiche.
+* **Data disattivazione**: la data e l&#39;ora in cui l&#39;utente viene disattivato. Per informazioni sulla pianificazione della disattivazione degli utenti, vedere [Pianificare la disattivazione degli utenti](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) in [Disattivare o riattivare un utente](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 * **Ruolo principale**: questa è la mansione principale che l&#39;utente può svolgere in Workfront. A questa mansione vengono assegnate anche tutte le attività e tutti i problemi a cui è assegnato l’utente. I ruoli sono essenziali nella gestione delle risorse. È possibile aggiornare questo campo solo se si dispone di una licenza Standard o Full con accesso utente amministrativo o se si è un amministratore Workfront. Per ulteriori informazioni sulla configurazione degli utenti con accesso amministrativo, vedere [Concedere l&#39;accesso agli utenti](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
   Nell&#39;elenco vengono visualizzati solo i ruoli di lavoro attivi.
@@ -256,11 +256,7 @@ Per ulteriori informazioni, vedere [Configurare le notifiche degli eventi per tu
 
   Se Altri ruoli hanno una disponibilità FTE pari a 0%, non vengono visualizzati nella Programmazione delle risorse, a meno che gli utenti non siano assegnati ad attività in questi ruoli.
 
-  <span class="preview">In anteprima:</span>
   ![Ruoli utente e FTE](assets/user-roles-fte-2025.png)
-
-  In produzione:
-  ![Ruoli utente e FTE](assets/user-settings-roles-and-dte-boxes-rp-story.png)
 
   La somma di tutte le **percentuali di disponibilità FTE** per tutti i ruoli deve essere uguale al 100%. Ogni percentuale di disponibilità FTE calcola le ore disponibili per ogni ruolo per utente nella Programmazione delle risorse. Le ore disponibili per ogni ruolo per utente dipendono dal tempo disponibile per l’utente.
 
@@ -328,11 +324,7 @@ Per ulteriori informazioni, vedere [Configurare le notifiche degli eventi per tu
 
   Alcune date vengono aggiunte automaticamente. Ad esempio, se la Tariffa di fatturazione 1 non ha una data di fine e aggiungi un secondo con una data di inizio del 1° maggio 2023, alla Tariffa di fatturazione 1 viene aggiunta una data di fine del 30 aprile 2023 in modo che non esistano spazi vuoti.
 
-  <span class="preview">In anteprima:</span>
   ![Costo utente e tariffe di fatturazione](assets/user-cost-billing-rates-2025.png)
-
-  In produzione:
-  ![Costo utente e tariffe di fatturazione](assets/edit-user-cost-billing-rate-2.png)
 
 ### Moduli personalizzati
 
