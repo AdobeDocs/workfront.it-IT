@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 4745b93e02c9de087afbee752e0303280e52d688
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '692'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 2%
 >
 >Le informazioni contenute in questo articolo si riferiscono ad Adobe Workfront Planning, una funzionalità aggiuntiva di Adobe Workfront.
 >
->La società deve acquistare una licenza aggiuntiva per consentire a Workfront Planning di accedere alle sue funzionalità.
+>La società deve acquistare un pacchetto aggiuntivo per consentire a Workfront Planning di accedere alle sue funzionalità.
 >
 >Per ulteriori informazioni, contatta il tuo account manager
 >
@@ -51,44 +51,27 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti diritti d
  </col>
  <tbody>
     <tr>
-<tr>
-<td>
-   <p> Prodotti</p> </td>
-   <td>
-   <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Adobe Workfront Planning<p></li></ul></td>
-  </tr>  
  <tr>
-   <td role="rowheader"><p>Piano Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td>
    <td>
-<p>Uno dei seguenti piani di Workfront:</p>
+<p>Uno dei seguenti pacchetti Workfront:</p>
 <ul><li>Seleziona</li>
 <li>Prime</li>
 <li>Ultimate</li></ul>
-<p>Workfront Planning non è disponibile per i piani Workfront legacy</p>
-   </td>
-
-<tr>
-   <td role="rowheader"><p>Pacchetto Adobe Workfront Planning*</p></td>
-   <td>
-<p>Uno dei seguenti piani di Workfront Planning:</p>
-<ul><li>In Pianificazione</li>
-<li>Planning Plus</li>
-</ul>
+<p>Workfront Planning non è disponibile per i pacchetti Workfront legacy</p>
+<ul><li><p>Qualsiasi pacchetto Planning</p></li></ul>
 <p>Per ulteriori informazioni su quanto incluso in ogni piano di Workfront Planning, contattare l'account manager Workfront. </p>
    </td>
-
 <tr>
    <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td>
    <td>
 <p>Per poter accedere a Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p>
 <p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata Adobe per Workfront</a>. </p>
    </td>
-
-</tr>
+  </tr>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licenza Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Licenza Adobe Workfront</p></td>
    <td>
    <ul><li><p>Standard, Light o Contributor per visualizzare le informazioni di Workfront Planning</p></li>
    <li><p>Standard, per creare aree di lavoro e viste</p></li></ul>
@@ -96,7 +79,7 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti diritti d
   </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Configurazione del livello di accesso</p></td>
+   <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
    <td> <p>Nessun controllo del livello di accesso per Adobe Workfront Planning</p>  
 </td>
   </tr>
@@ -121,32 +104,32 @@ Per accedere a Workfront Planning, è necessario disporre dei seguenti diritti d
 <p> Agli utenti con una licenza Light o Contributor deve essere assegnato un modello di layout che includa l’opzione Planning nelle seguenti aree:</p>
    <ul><li>Menu principale</li>
    <li>Pannello a sinistra di progetti, portfolio e programmi</li>
-   </ul>
-   <p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Creare e gestire modelli di layout</a>.</p>
-
+   </ul>   
 </td>
   </tr>
  </tbody>
 </table>
 
-*Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Condividere l&#39;area Planning utilizzando un modello di layout
 
 <!--First, contact your account manager to obtain access to the current Workfront Planning program.-->
 
-Dopo che l&#39;organizzazione ha acquistato una licenza Workfront Planning aggiuntiva, l&#39;amministratore di sistema può aggiungere l&#39;opzione Planning alle seguenti aree modificando e assegnando l&#39;utente a un modello di layout:
+Per impostazione predefinita, le aree Pianificazione sono attivate dagli utenti standard e dagli amministratori di sistema nelle seguenti aree:
+
+* Menu principale
+* Pannello a sinistra di progetti, portfolio o programmi
+
+Se si dispone di un&#39;altra licenza Workfront e si desidera contribuire al lavoro di Workfront Planning, è necessario che l&#39;amministratore di sistema aggiunga le aree Pianificazione.
+
+L&#39;amministratore può aggiungere l&#39;opzione Pianificazione alle seguenti aree modificando e assegnando l&#39;utente a un modello di layout:
 
 * Menu principale
 * Pagina di destinazione
 * Pannello a sinistra per progetti, portfolio e programmi
 * Pin
-
-Per impostazione predefinita, le aree Pianificazione sono attivate dagli utenti standard e dagli amministratori di sistema nelle seguenti aree:
-
-* Menu principale
-* Pannello a sinistra di progetti, portfolio o programmi
 
 Per aggiungere o rimuovere aree di Workfront Planning dagli utenti dell&#39;istanza di Workfront:
 
@@ -174,7 +157,11 @@ Gli utenti con qualsiasi tipo di licenza Workfront possono accedere a Workfront 
 
 ## Concedere le autorizzazioni
 
-È necessario concedere agli utenti le autorizzazioni per le aree di lavoro e le viste di Workfront Planning create per consentire loro di accedervi.
+In Workfront Planning è possibile concedere autorizzazioni alle seguenti entità:
+
+* Aree di lavoro
+* Tipi di record
+* Viste
 
 Per ulteriori informazioni, vedere [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 

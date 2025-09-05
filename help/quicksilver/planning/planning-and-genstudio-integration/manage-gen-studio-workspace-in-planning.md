@@ -4,10 +4,10 @@ description: L’area di lavoro GenStudio for Performance Marketing è disponibi
 hide: true
 hidefromtoc: true
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 4745b93e02c9de087afbee752e0303280e52d688
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 1%
+source-wordcount: '1319'
+ht-degree: 0%
 
 ---
 
@@ -27,9 +27,9 @@ recommendations: noDisplay, noCatalog
 
 # Gestire l’area di lavoro di GenStudio in Adobe Workfront Planning
 
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 L’area di lavoro Adobe GenStudio for Performance Marketing è disponibile in Adobe Workfront Planning quando la tua azienda ha acquistato entrambi i prodotti e l’istanza di Workfront è integrata con l’istanza aziendale di GenStudio.
 
@@ -38,6 +38,13 @@ L’area di lavoro Adobe GenStudio for Performance Marketing è disponibile in A
 Per informazioni sull&#39;utilizzo e la gestione dell&#39;area di lavoro di GenStudio da GenStudio Performance Marketing, vedere [Guida utente di Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/home).
 
 Per informazioni generali sull&#39;integrazione tra GenStudio e Workfront Planning, vedere [Introduzione all&#39;integrazione tra Adobe Workfront Planning e Adobe GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
+
+>[!IMPORTANT]
+>
+>I passaggi descritti in questo articolo illustrano come aggiornare l&#39;area di lavoro di GenStudio da Workfront Planning quando si dispone delle autorizzazioni di gestione.
+>> Non tutte le funzionalità sono disponibili quando si dispone delle autorizzazioni Contribute per l&#39;area di lavoro di GenStudio.
+>
+>Se la società dispone di più istanze di Workfront, tutti gli utenti ottengono le autorizzazioni Contribute nell&#39;area di lavoro di GenStudio in Workfront Planning.
 
 ## Requisiti di accesso
 
@@ -52,54 +59,37 @@ Per informazioni generali sull&#39;integrazione tra GenStudio e Workfront Planni
     <tr> 
     <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<p>Qualsiasi pacchetto di flusso di lavoro Adobe Workfront</p>
-<p>Qualsiasi pacchetto di Adobe Workfront Planning</p>
+<p>Qualsiasi pacchetto Workfront</p>
+<p>Qualsiasi pacchetto Planning</p>
 
 </td> </tr>
-<tr> 
-   <td role="rowheader"><p>Pacchetto Adobe GenStudio</p></td> 
-   <td> 
-<p>??? GEN STUDIO HA UN PACCHETTO CHE SUPPORTA QUESTO???</p>
-
-</td> </tr>
-
-<tr> 
-   <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td> 
-   <td> 
-<p>Per poter accedere a Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
-<p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata Adobe per Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
-   <td><p> Standard</p>
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Licenza Adobe GenStudio</p></td> 
-   <td><p> ??? GEN STUDIO RICHIEDE UNA LICENZA SPECIFICA CHE SUPPORTI QUESTO???</p>
-  </td> 
-  </tr> 
-  <tr> 
+   <tr> 
 <td> 
    <p> Prodotti aggiuntivi</p> </td> 
    <td> 
    <p> Adobe GenStudio for Performance Marketing</p></td> 
-  </tr>   
+  </tr>
   <tr> 
-   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
-   <td> <p>Nessun controllo del livello di accesso per Adobe Workfront Planning</p>  
-   <p>Configurazione per GenStudio: ???QUAL È IL LIVELLO DI ACCESSO NECESSARIO PER GENS???</p> 
-</td> 
-  </tr> 
+   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td><p> Standard</p>
+  </td> 
+  </tr>
+
 <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto*</p></td> 
+   <td role="rowheader"><p>Ruoli utente di Adobe GenStudio for Performance Marketing</p></td> 
+   <td><p><ul><li>Qualsiasi ruolo utente di GenStudio per accedere a Campagne, Prodotti e Utenti tipo</li>
+   <li>GenSudio System Manager per accedere ad attivazioni ed eventi</li></ul>
+   Per informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Ruoli utente e autorizzazioni</a>. 
+   </p>
+  </td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
    <td>  
    <p>In Workfront Planning: </p>
    <ul>
-   <li><p>Contribuire o concedere autorizzazioni superiori a un’area di lavoro e a un tipo di record  </p> </li> 
-   <li><p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p></li>
+   <li><p>Gestisci le autorizzazioni per l’area di lavoro di GenStudio per modificare l’architettura dell’area di lavoro, i tipi di record e i campi</p></li>
+   <li><p>Autorizzazioni di Contribute all'area di lavoro di GenStudio per aggiungere, aggiornare o eliminare record nello spazio record di GenStudio</p> </li> 
    </ul>
    <p>In Adobe GenStudio for Performance Marketing: <p>
    <ul>
@@ -110,10 +100,80 @@ Per informazioni generali sull&#39;integrazione tra GenStudio e Workfront Planni
 </tbody> 
 </table>
 
-*Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-*Per ulteriori informazioni su Adobe GenStudio for Performance Marketing, consulta [Guida utente di Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/home).
+Per informazioni sull&#39;accesso ad Adobe Workfront Planning, vedere [Panoramica dell&#39;accesso ad Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+
+Per ulteriori informazioni su Adobe GenStudio for Performance Marketing, consulta [Guida utente di Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/home).
 
 +++   
+
+<!--Old/ original table:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+    <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<p>Any Adobe Workfront Workflow package</p>
+<p>Any Adobe Workfront Planning package</p>  
+
+   </td> </tr>
+<tr> 
+   <td role="rowheader"><p>Adobe GenStudio package</p></td> 
+   <td> 
+<p>??? DOES GEN STUDIO HAVE A PACKAGE THAT SUPPORTS THIS???</p>  
+
+   </td> </tr>
+ 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p> Standard</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe GenStudio license</p></td> 
+   <td><p> ??? DOES GEN STUDIO REQUIRE A SPECIFIC LICENSE THAT SUPPORTS THIS???</p>
+  </td> 
+  </tr> 
+  <tr> 
+<td> 
+   <p> Additional products</p> </td> 
+   <td> 
+   <p> Adobe GenStudio for Performance Marketing</p></td> 
+  </tr>   
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
+   <p>Configuration for GenStudio: ???WHAT IS THE ACCESS LEVEL NEED FOR GENS???</p> 
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions*</p></td> 
+   <td>  
+   <p>In Workfront Planning: </p>
+   <ul>
+   <li><p>Contribute or higher permissions to a workspace and record type  </p> </li> 
+   <li><p>System Administrators have permissions to all workspaces, including the ones they did not create</p></li>
+   </ul>
+   <p>In Adobe GenStudio for Performance Marketing: <p>
+   <ul>
+   <li><p> Any permissions in Adobe GenStudio for Performance Marketing</p></li>
+   <li><p> Create permissions in Adobe GenStudio for Performance Marketing to create items</p></li></ul>
+   </td> 
+  </tr> 
+</tbody> 
+</table> -->
 
 ## Considerazioni sulla gestione di un&#39;area di lavoro GenStudio in Workfront Planning
 
@@ -121,13 +181,32 @@ Per informazioni generali sull&#39;integrazione tra GenStudio e Workfront Planni
 
 * Gli utenti di Workfront devono avere accesso a GenStudio per poter visualizzare l&#39;area di lavoro di GenStudio in Workfront Planning.
 
-* È possibile aggiornare le seguenti informazioni di un&#39;area di lavoro di GenStudio da Workfront Planning:
+* A seconda del numero di istanze di Workfront dell&#39;organizzazione, si dispone automaticamente delle seguenti autorizzazioni per l&#39;area di lavoro di GenStudio in Planning:
 
-   * Modifica impostazioni area di lavoro <!--check to see if this is correct? is this editable or read only from Planning??-->
-   * Modifica i tipi di record e i relativi campi <!--check on this-->
-   * Condividere, modificare e aggiungere visualizzazioni
-   * Aggiungi nuovi tipi di record
-   * Modificare, aggiungere o eliminare record
+  <!--this table is also in the Get started article-->
+
+  <table style="table-layout:auto"> 
+   <col> 
+   </col> 
+   <col> 
+   </col> 
+   <tbody> 
+      <tr> 
+      <td role="rowheader"><p>Un’istanza di Workfront</p></td> 
+      <td> 
+   <p>In Workfront Planning è disponibile un'area di lavoro GenStudio</p>
+   <p>Tutti gli utenti con accesso a GenStudio e Workfront Planning dispongono delle autorizzazioni Gestione nell'area di lavoro di GenStudio</p> 
+   </td> </tr>
+      <tr> 
+   <td> 
+      <p> Più istanze di Workfront</p> </td> 
+      <td> 
+      <p>In ogni istanza di Workfront Planning è disponibile un'area di lavoro di GenStudio</p>
+   <p>Tutti gli utenti con accesso a GenStudio e Workfront Planning dispongono delle autorizzazioni Contribute nell'area di lavoro GenStudio di ogni istanza</p> </td> 
+   </tr>
+
+  </tbody> 
+   </table>
 
 * L&#39;aggiornamento della configurazione dell&#39;area di lavoro, dei tipi di record, delle visualizzazioni e dei campi per un&#39;area di lavoro di GenStudio è identico all&#39;aggiornamento di un&#39;area di lavoro di Workfront Planning con i relativi elementi.
 
@@ -139,11 +218,12 @@ CAN YOU DO THIS??
 - OPTIONS FROM THE MORE MENU ON A WORKSPACE ??
 -->
 
-## Gestione dei tipi di record GenStudio da Workfront Planning
+## Gestione dell&#39;area di lavoro di GenStudio da Workfront Planning
 
 >[!NOTE]
 >
->Prima di gestire l&#39;area di lavoro di GenStudio, vedere l&#39;articolo [Introduzione all&#39;integrazione di Workfront Planning e GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
+>Prima di gestire l&#39;area di lavoro di GenStudio, vedere l&#39;articolo [Introduzione all&#39;integrazione di Workfront Planning e GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) per ulteriori informazioni.
+>
 
 1. Accedi a Workfront come utente che ha anche accesso a GenStudio.
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Planning]**.
@@ -159,6 +239,7 @@ CAN YOU DO THIS??
 
    * Campagne
    * Prodotti
+   * Persone
    * Attivazioni
    * Canali
    * Aree geografiche
@@ -169,14 +250,60 @@ CAN YOU DO THIS??
 
    ![scheda del tipo di record GenStudio con tag](assets/genstudio-record-type-with-tag-and-tooltip-highlighted.png)
 
+1. Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome dell&#39;area di lavoro, quindi fai clic su una delle seguenti opzioni:
+
+   * **Modifica**
+
+     Per informazioni, vedere [Modifica aree di lavoro](/help/quicksilver/planning/architecture/edit-workspaces.md).
+     <!--* **Delete** - this will generate an error message, per Iskuhi, so don't document as an option/ possibility-->
+
+     <!--For information, see [Delete workspaces](/help/quicksilver/planning/architecture/delete-workspaces.md). -->
+
+1. Fai clic su **Condividi** nell&#39;angolo superiore destro per condividere l&#39;area di lavoro con altri.
+
+   Per informazioni, vedere [Condividi aree di lavoro](/help/quicksilver/planning/access/share-workspaces.md)
+
 1. Fare clic su una delle schede dei tipi di record per visualizzare i record di quel tipo.
 
-1. Esegui una delle operazioni seguenti:
+   Per gestire il tipo di record, le visualizzazioni e i campi, vedere la sezione [Gestione dei tipi di record di GenStudio da Workfront Planning](#manage-genstudio-record-types-from-workfront-planning) in questo articolo.
+
+
+## Gestire tipi di record, visualizzazioni e record dall&#39;area di lavoro di GenStudio in Workfront Planning
+
+>[!NOTE]
+>
+>Prima di gestire l&#39;area di lavoro di GenStudio, vedere l&#39;articolo [Introduzione all&#39;integrazione di Workfront Planning e GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) per ulteriori informazioni.
+>
+
+1. Passare all&#39;area di lavoro di GenStudio in Workfront Planning e aprire una pagina del tipo di record, come descritto nella sezione [Gestione dell&#39;area di lavoro di GenStudio da Workfront Planning](#manage-the-genstudio-workspace-from-workfront-planning) in questo articolo.
+
+1. Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record, quindi fai clic su una delle seguenti opzioni:
+
+   * **Modifica**
+
+     Per informazioni, vedere [Modifica tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md).
+   * **Gestione automazioni**
+
+     Per informazioni, vedere [Configurare le automazioni di Adobe Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+   * **Gestire i moduli di richiesta**
+
+     Puoi creare più moduli di richiesta. I moduli di richiesta saranno disponibili nell’area Richieste di Workfront e puoi anche condividerli pubblicamente o con un collegamento.
+
+     Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+1. Per gestire la visualizzazione e il tipo di record, effettuare le seguenti operazioni:
 
    * Fai clic su **Condividi** nell&#39;angolo superiore destro della pagina del tipo di record, quindi fai clic su una delle seguenti opzioni:
-      * **Copia il collegamento di visualizzazione** per condividere un collegamento al tipo di record
-      * **Esporta la visualizzazione corrente** per esportarla in un file CSV o Excel.
-È possibile esportare solo la vista tabella. <!--check on this later; is this true or are there more options in the Share button-->
+      * **Condividi il tipo di record**
+Per informazioni, vedere [Condividi tipi di record](/help/quicksilver/planning/access/share-record-types.md).
+      * **Condividi la visualizzazione corrente**
+Per informazioni, vedere [Condividi visualizzazioni](/help/quicksilver/planning/access/share-views.md).
+      * **Copia collegamento visualizzazione**
+Un collegamento alla visualizzazione viene copiato negli Appunti.
+      * **Esporta la visualizzazione corrente**
+Per informazioni, vedere [Esportare i record dalla vista tabella](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
+
+1. Per gestire le visualizzazioni del tipo di record, effettuare le seguenti operazioni:
 
    * Fare clic su **+ Visualizza** per creare una visualizzazione per il tipo di record GenStudio.
 
@@ -190,28 +317,70 @@ CAN YOU DO THIS??
 
      Per informazioni, vedere [Gestire le visualizzazioni dei record](/help/quicksilver/planning/views/manage-record-views.md).
 
-   * Aggiungere record nella tabella o nella vista timeline.
+1. Per aggiungere record, eseguire una delle operazioni seguenti:
 
-     È possibile creare record solo da zero o importando un file CSV o Excel.
+   * Fai clic su **Nuovo record** da qualsiasi visualizzazione per creare record da zero
+
+   * Importare record utilizzando un file Excel o CSV nella vista a tabella
+
+   * Per aggiungere record, fai clic in un punto qualsiasi della timeline o delle visualizzazioni del calendario.
 
      Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
 
      I record sono visibili sia da Workfront che da GenStudio.
 
-   * Modificare i record in linea dalla vista tabella oppure fare clic su un record per aprire la relativa pagina dei dettagli.
+1. Per modificare i record, effettuare una delle seguenti operazioni:
+
+   * Modifica record in linea dalla vista tabella
+
+   * Fare clic su un record da qualsiasi visualizzazione per aprire la relativa pagina dei dettagli.
 
      Per informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
 
-   * Eliminare i record nella vista tabella.
+     Le modifiche apportate dall&#39;area di lavoro di GenStudio in Planning sono immediatamente visibili da GenStudio.
 
-     Per informazioni, vedere [Elimina record](/help/quicksilver/planning/records/delete-records.md).
+1. Selezionare un record nella vista tabella, quindi fare clic su **Elimina**.
 
-     I record eliminati possono essere recuperati dal cestino della vista tabella in Workfront Planning, se vengono eliminati da Workfront.
+   Per informazioni, vedere [Elimina record](/help/quicksilver/planning/records/delete-records.md).
 
-     Per informazioni, vedere [Ripristinare i record eliminati](/help/quicksilver/planning/records/restore-deleted-records.md)
+   I record eliminati vengono rimossi immediatamente da GenStudio.
 
-   * Posizionare il puntatore del mouse su un campo nella visualizzazione per tabella per ordinare o nascondere il campo.
+   >[!TIP]
+   >
+   >I record eliminati possono essere recuperati dalla vista tabella Cestino eliminato di recente in Workfront Planning. I record eliminati da GenStudio possono essere recuperati anche dal contenitore Eliminato di recente in Workfront Planning.
+
+   Per informazioni, vedere [Ripristinare i record eliminati](/help/quicksilver/planning/records/restore-deleted-records.md)
+
+1. Fai clic sull’icona + nell’angolo superiore destro della vista tabella per creare quanto segue:
+
+   * Campi record
+
+     Per informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/create-fields.md)
+
+   * Registra connessioni
+
+     Per informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md)
+
+     I campi creati dall’area di lavoro di GenStudio sono visibili nelle seguenti aree:
+
+      * Visualizzazioni di Workfront Planning
+      * Dettagli record di Workfront Planning
+      * Dettagli record GenStudio
+
+     >[!TIP]
+     >
+     >I campi creati in Workfront Planning non sono visibili nella vista a elenco in GenStudio.
+
+1. Passa il puntatore del mouse su un campo nella vista a tabella, quindi fai clic sul menu a discesa per effettuare una delle seguenti operazioni:
+
+   * Ordina per
+   * Nascondi
+   * Modifica le impostazioni
+     <!--* Delete it - not possible now, per Iskuhi; the link is there but it will generate an error-->
+
+     <!--GenStudio-native fields are note removed from GenStudio. -->
 
      >[!NOTE]
      >
-     >Puoi modificare la configurazione di un campo e aggiungere altri campi solo se disponi delle autorizzazioni di gestione in GenStudio. <!--check to see if this is true??-->
+     >Puoi modificare la configurazione di un campo e aggiungere altri campi solo se disponi delle autorizzazioni di gestione in GenStudio.
+
