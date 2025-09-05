@@ -3,10 +3,10 @@ title: '[!DNL Adobe Workfront] documentazione'
 description: Documentazione per  [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 4558180667d3812f3b4089b7d599158327a683bf
+source-git-commit: 0a90da6978fc9b380d237dab74af1f14eabb857a
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 1%
+source-wordcount: '426'
+ht-degree: 3%
 
 ---
 
@@ -51,7 +51,7 @@ Ti diamo il benvenuto nella pagina principale del prodotto Adobe Workfront e del
 
 >[!TAB Problemi noti]
 
-* [Problemi noti](https://experienceleague.adobe.com/it/docs/workfront-known-issues/issues/overview)
+* [Problemi noti](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/overview)
 
 
 >[!ENDTABS]
@@ -70,7 +70,8 @@ Ti diamo il benvenuto nella pagina principale del prodotto Adobe Workfront e del
     <td>
     <ul>
     <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">Introduzione all’amministrazione di Workfront</a></li>
-    <li><a href="https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Introduzione a Workfront Fusion</li>
+    <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Introduzione a Workfront Fusion</li>
+    <li><a href="/help/quicksilver/app-builder/install-apps-on-exchange.md">Acquisire e installare app da Adobe Exchange</a></li>
     </ul>
  </td>
     <td>
@@ -91,6 +92,7 @@ Ti diamo il benvenuto nella pagina principale del prodotto Adobe Workfront e del
         <li><a href="/help/quicksilver/wf-api/general/api-basics.md">Nozioni di base sulle API</a></li>
         <li><a href="https://developer.adobe.com/workfront/api-explorer/">API Explorer</a></li>
         <li><a href="/help/quicksilver/workfront-integrations-and-apps/workfront-integrations.md">Integrazioni Workfront</a></li>
+        <li><a href="/help/quicksilver/app-builder/app-builder.md">Creare applicazioni personalizzate per Workfront con Adobe App Builder</a></li>
         </ul></td>
   </tr>
 </table>
@@ -108,8 +110,8 @@ La ricerca della documentazione può essere più efficiente con alcuni approcci 
 
 ### Esplora le sezioni di apprendimento e formazione
 
-* **Materiale per la formazione**: vai alla pagina [Formazione Workfront](https://experienceleague.adobe.com/it/browse/workfront) per una libreria di video e articoli di formazione progettati per aiutarti a comprendere meglio le funzioni e le impostazioni di Workfront. Puoi anche accedere ai materiali a pagamento per la formazione all&#39;indirizzo [learning.adobe.com](https://learning.adobe.com/).
-* **Corsi**: trova [corsi di apprendimento strutturati](https://experienceleague.adobe.com/home?lang=it&Solution=Workfront#courses) che ti guidano attraverso l&#39;utilizzo di varie funzioni di Workfront in una sequenza logica.
+* **Materiale per la formazione**: vai alla pagina [Formazione Workfront](https://experienceleague.adobe.com/en/browse/workfront) per una libreria di video e articoli di formazione progettati per aiutarti a comprendere meglio le funzioni e le impostazioni di Workfront. Puoi anche accedere ai materiali a pagamento per la formazione all&#39;indirizzo [learning.adobe.com](https://learning.adobe.com/).
+* **Corsi**: trova [corsi di apprendimento strutturati](https://experienceleague.adobe.com/home?Solution=Workfront#courses) che ti guidano attraverso l&#39;utilizzo di varie funzioni di Workfront in una sequenza logica.
 
 ### Trova risposte nei forum della community
 
