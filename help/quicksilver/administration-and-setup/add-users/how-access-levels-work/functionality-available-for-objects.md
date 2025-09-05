@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: edbd33cbb343f8c9f3ebd09ebb067444dd9efcf5
+source-git-commit: db9db8d03c8caeef95fb7cf873ee242f29b00efa
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 11%
+source-wordcount: '1313'
+ht-degree: 14%
 
 ---
 
@@ -34,12 +34,12 @@ Indica inoltre le azioni che gli amministratori di Workfront possono disabilitar
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
 |------------------------------|----------|--------|-------------|---------------|
-| Crea | ✓&#42; |   |   |   |
+| Creare | ✓&#42; |   |   |   |
 | Copia | ✓&#42; |   |   |   |
 | Elimina | ✓&#42; |   |   |   |
 | Condividi | ✓&#42; |   |   |   |
 | Condividi a livello di sistema | ✓&#42; |   |   |   |
-| Visualizza | ✓&#42; | ✓&#42; | ✓&#42; |   |
+| Visualizzazione | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Aggiungere un modulo personalizzato | ✓ |   |   |   |
 | Aggiornare i campi personalizzati | ✓ |   |   |   |
 | Aggiungere un processo di approvazione | ✓ |   |   |   |
@@ -49,7 +49,7 @@ Indica inoltre le azioni che gli amministratori di Workfront possono disabilitar
 | Aggiungi attività | ✓ |   |   |   |
 | Assegna aggiornamenti/commenti | ✓ | ✓ | ✓ |   |
 | Modifica stato | ✓ |   |   |   |
-| Registra ore | ✓ | ✓ |   |   |
+| Registra ore | ✓ |   |   |   |
 | Modifica assegnazioni | ✓ |   |   |   |
 | Gestire una baseline | ✓ |   |   |   |
 | Gestire i rischi | ✓ |   |   |   |
@@ -72,11 +72,11 @@ Indica inoltre le azioni che gli amministratori di Workfront possono disabilitar
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
 |--------------------------------|----------|--------|-------------|---------------|
-| Crea | ✓&#42; |   |   |   |
+| Creare | ✓&#42; |   |   |   |
 | Elimina | ✓&#42; |   |   |   |
 | Condividi | ✓&#42; |   |   |   |
 | Condividi a livello di sistema | ✓&#42; |   |   |   |
-| Visualizza | ✓&#42; | ✓&#42; | ✓&#42; |   |
+| Visualizzazione | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Aggiungi predecessori | ✓ |   |   |   |
 | Aggiungi problemi | ✓ | ✓ |   |   |
 | Modificare un’attività (escluso lo stato) | ✓ |   |   |   |
@@ -87,7 +87,7 @@ Indica inoltre le azioni che gli amministratori di Workfront possono disabilitar
 | Registra ore | ✓ | ✓ |   |   |
 | Accetta un&#39;assegnazione | ✓ |   |   |   |
 | Assegnazione | ✓ | ✓ |   |   |
-| Allegare un modulo personalizzato | ✓ |   |   |   |
+| Allega un modulo personalizzato | ✓ |   |   |   |
 | Modifica campi personalizzati | ✓ |   |   |   |
 | Creare un processo di approvazione | ✓ |   |   |   |
 | Approvare un’attività | ✓ | ✓ | ✓ |   |
@@ -104,12 +104,12 @@ Indica inoltre le azioni che gli amministratori di Workfront possono disabilitar
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
 |-------------------------------|----------|--------|-------------|---------------|
-| Crea | ✓&#42; | ✓&#42; | ✓&#42; |   |
+| Creare | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Modifica | ✓ | ✓ | ✓ |   |
 | Elimina | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Condividi | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Condividi a livello di sistema | ✓&#42; |   |   |   |
-| Visualizza | ✓&#42; | ✓&#42; | ✓&#42; |   |
+| Visualizzazione | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Allegare moduli personalizzati | ✓ | ✓ | ✓ |   |
 | Modifica campi personalizzati | ✓ | ✓ | ✓ |   |
 | Approva problemi | ✓ | ✓ | ✓ |   |
@@ -134,17 +134,17 @@ Solo gli utenti con una licenza Standard possono avere accesso completo ai portf
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
 |--------------------------|----------|--------|-------------|---------------|
-| Crea | ✓&#42; |   |   |   |
+| Creare | ✓&#42; |   |   |   |
 | Elimina | ✓&#42; |   |   |   |
 | Condividi | ✓&#42; |   |   |   |
 | Condividi a livello di sistema | ✓&#42; |   |   |   |
-| Visualizza | ✓&#42; | ✓&#42; | ✓&#42; |   |
+| Visualizzazione | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Modifica dettagli | ✓ |   |   |   |
 | Allegare moduli personalizzati | ✓ |   |   |   |
 | Modifica campi personalizzati | ✓ |   |   |   |
 | Aggiungere e rimuovere progetti | ✓ |   |   |   |
 | Approva progetti | ✓ |   |   |   |
-| Ottimizzazione del Portfolio | ✓ |   |   |   |
+| Ottimizzazione Portfolio | ✓ |   |   |   |
 | Agguingere documenti | ✓ | ✓ |   |   |
 | Aggiungere aggiornamenti e commenti | ✓ | ✓ |   |   |
 
@@ -158,11 +158,11 @@ Solo gli utenti con una licenza Standard possono avere accesso completo ai progr
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
 |------------------------------|----------|--------|-------------|---------------|
-| Crea | ✓&#42; |   |   |   |
+| Creare | ✓&#42; |   |   |   |
 | Elimina | ✓&#42; |   |   |   |
 | Condividi | ✓&#42; |   |   |   |
 | Condividi a livello di sistema | ✓&#42; |   |   |   |
-| Visualizza | ✓&#42; | ✓&#42; | ✓&#42; |   |
+| Visualizzazione | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Modifica dettagli | ✓ |   |   |   |
 | Allegare moduli personalizzati | ✓ |   |   |   |
 | Modifica campi personalizzati | ✓ |   |   |   |
@@ -182,13 +182,13 @@ Gli utenti con una licenza Standard possono avere accesso completo ai rapporti. 
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
 |--------------------------------------|----------|--------|-------------|---------------|
-| Crea | ✓&#42; |   |   |   |
+| Creare | ✓&#42; |   |   |   |
 | Elimina | ✓&#42; |   |   |   |
 | Visualizzare rapporti incorporati | ✓&#42; |   |   |   |
 | Condividi | ✓&#42; | ✓ |   |   |
 | Condividere calendari e report pubblicamente | ✓&#42; |   |   |   |
 | Condividi a livello di sistema | ✓&#42; |   |   |   |
-| Visualizza | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
+| Visualizzazione | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
 | Modifica | ✓ |   |   |   |
 | Copia | ✓ |   |   |   |
 
@@ -204,11 +204,11 @@ Gli utenti con una licenza Standard possono avere accesso completo ai rapporti. 
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
 |-------------------|------------|---------|---------------|---------------|
-| Crea | ✓* | ✓* | ✓* |   |
+| Creare | ✓* | ✓* | ✓* |   |
 | Elimina | ✓* | ✓* | ✓* |   |
 | Condividi | ✓* | ✓* | ✓* |   |
 | Condividi a livello di sistema | ✓* | ✓* | ✓* |   |
-| Visualizza | ✓ | ✓ | ✓ |   |
+| Visualizzazione | ✓ | ✓ | ✓ |   |
 | Modifica | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}
@@ -219,12 +219,12 @@ Gli utenti con una licenza Standard possono avere accesso completo ai rapporti. 
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
 |--------------------------------|----------|--------|-------------|---------------|
-| Crea | ✓&#42; | ✓&#42; | ✓&#42; |   |
+| Creare | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Elimina (documenti e cartelle) | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Condividi | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Condividi pubblicamente (esternamente) | ✓&#42; |   |   |   |
 | Condividi a livello di sistema | ✓&#42; |   |   |   |
-| Visualizza | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
+| Visualizzazione | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
 | Modifica dettagli | ✓ | ✓ | ✓ |   |
 | Scarica | ✓ | ✓ | ✓ | ✓ |
 | Pagamento | ✓ | ✓ | ✓ |   |
@@ -254,7 +254,7 @@ Gli utenti con una licenza Standard possono avere accesso completo ai rapporti. 
 
 | Azione | Standard | Light | Collaboratore | Utente esterno** |
 |----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
-| Crea | ✓* |   |   |   |
+| Creare | ✓* |   |   |   |
 | Elimina | ✓* |   |   |   |
 | Modifica, elimina, disattiva, accedi come o reimposta la password per qualsiasi utente | ✓* |   |   |   |
 | Modifica, elimina, disattiva, accedi come o reimposta la password per tutti gli utenti di un gruppo che amministrano | ✓* |   |   |   |
@@ -271,7 +271,7 @@ Gli utenti con una licenza Standard possono avere accesso completo ai rapporti. 
 
 | Azione | Standard | Light | Collaboratore | Utente esterno* |
 |-----------------------------------------|-----------|------------|-------------|------------------|
-| Crea | ✓* |   |   |   |
+| Creare | ✓* |   |   |   |
 | Elimina | ✓* |   |   |   |
 | Modifica i team a cui appartengono | ✓* |   |   |   |
 | Modificare i team nei gruppi da loro gestiti | ✓* |   |   |   |
@@ -286,11 +286,11 @@ Gli utenti con una licenza Standard possono avere accesso completo ai rapporti. 
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
 |-----------------------|----------|--------|-------------|---------------|
-| Crea | ✓&#42; |   |   |   |
+| Creare | ✓&#42; |   |   |   |
 | Elimina | ✓&#42; |   |   |   |
 | Condividi | ✓&#42; |   |   |   |
 | Condividi a livello di sistema | ✓&#42; |   |   |   |
-| Visualizza | ✓&#42; |   |   |   |
+| Visualizzazione | ✓&#42; |   |   |   |
 | Copia | ✓ |   |   |   |
 | Modifica dettagli modello | ✓ |   |   |   |
 
@@ -308,7 +308,7 @@ Solo gli utenti con una licenza Standard possono avere accesso completo ai dati 
 | Modifica fatturazione utente e tariffe | ✓&#42; |   |   |   |
 | Visualizza fatturazione mansioni e tassi di costo | ✓&#42; |   |   |   |
 | Visualizza fatturazione utente e tariffe di costo | ✓&#42; |   |   |   |
-| Gestire record fatturazione | ✓ |   |   |   |
+| Gestire i record di fatturazione | ✓ |   |   |   |
 | Gestire le spese | ✓ |   |   |   |
 | Visualizza dati finanziari | ✓&#42; | ✓&#42; |   |   |
 | <span class="preview">Gestione schede tariffarie</span> | ✓ |   |   |   |
@@ -343,7 +343,7 @@ Solo gli utenti con una licenza Standard possono avere accesso completo alla ges
 
 &#42;&#42;Richiede l&#39;accesso aggiuntivo ai dati finanziari e le autorizzazioni per i dati finanziari del progetto. Se si concede l&#39;accesso Gestione risorse a un utente di Planner che non ha accesso ai dati finanziari, l&#39;utente potrà comunque visualizzare le allocazioni orarie nella Programmazione risorse, ma non potrà passare alla visualizzazione Costo o al Business Case. Per ulteriori informazioni, vedere [Concedere l&#39;accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) e [Condividere le autorizzazioni finanziarie su un oggetto](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
-&#42;&#42;&#42;Richiede l&#39;autorizzazione di Contribute per l&#39;oggetto, con l&#39;opzione Rendi assegnazioni abilitata in Impostazioni avanzate. Per informazioni, vedere la sezione [Comprendere le autorizzazioni ereditate e la gerarchia degli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) nell&#39;articolo [Panoramica delle autorizzazioni di condivisione sugli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+&#42;&#42;&#42;Richiede l&#39;autorizzazione per contribuire all&#39;oggetto, con l&#39;opzione Crea assegnazioni abilitata in Impostazioni avanzate. Per informazioni, vedere la sezione [Comprendere le autorizzazioni ereditate e la gerarchia degli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) nell&#39;articolo [Panoramica delle autorizzazioni di condivisione sugli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 ## Area Pianificazione scenario
 
@@ -368,9 +368,9 @@ Solo gli utenti con una licenza Standard possono avere accesso completo alla ges
 
 <!-- ask Alina about this section -->
 
-| Azioni | Viste | Modif |
+| Azioni | Visualizzazione | Modifica |
 |---|---|---|
-| Crea |   | ✓ |
+| Creare |   | ✓ |
 | Modifica/elimina tutti gli obiettivi |   | ✓ |
 | Visualizza obiettivi nel menu principale | ✓ | ✓ |
 | Visualizzare l’area Obiettivi da un collegamento condiviso | ✓ | ✓ |
