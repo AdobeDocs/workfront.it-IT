@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
-source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,11 @@ ht-degree: 0%
 
 * Quando un utente modifica la condizione di un’attività o di un problema
 
-  ![Modifica condizione nell&#39;elenco](assets/change-conditions-list-dropdown-only.png)
+  ![Modifica condizione nell&#39;elenco](assets/change-conditions-list-dropdown-0925.png)
+
+  >[!NOTE]
+  >
+  >Nella visualizzazione Condizione predefinita, il campo **Condizione** è un tipo di campo che non può essere modificato in linea. Il campo **Condizione** aggiunto separatamente a una visualizzazione può essere modificato. Per informazioni sulla modifica in linea, vedere [Elementi di modifica in linea in un elenco in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
 ## Requisiti di accesso
 
@@ -68,8 +72,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Selezionare la scheda **Progetti**, **Attività** o **Problemi**.
 
-1. Trascina ![Icona Sposta](assets/move-icon---dots.png) Condizioni per modificarne l&#39;ordine.
+1. Trascina ![Icona Sposta](assets/move-icon---dots.png) le condizioni per modificarne l&#39;ordine.
 
    Il nuovo ordine viene salvato automaticamente.
 
-Per ulteriori informazioni sulla personalizzazione delle Condizioni, vedere [Condizioni personalizzate](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+Per ulteriori informazioni sulla personalizzazione delle condizioni, vedere [Condizioni personalizzate](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).

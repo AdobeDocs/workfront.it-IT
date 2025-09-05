@@ -6,9 +6,9 @@ description: La condizione di un’attività o di un problema è un flag applica
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1060'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ I valori di Condizione a cui si fa riferimento in questo articolo sono disponibi
 
 ## Requisiti di accesso {#access-requirements}
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,7 +44,7 @@ I valori di Condizione a cui si fa riferimento in questo articolo sono disponibi
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
    <td> 
-   Nuovo:
+   Novità:
    <ul><li><p>Standard per le attività</p></li>
    <li><p>Collaboratore o versione successiva per i problemi</p></li></ul>
    Corrente:
@@ -59,7 +59,7 @@ I valori di Condizione a cui si fa riferimento in questo articolo sono disponibi
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
    <td> <p>Visualizza o autorizzazioni superiori per attività e problemi per visualizzarne la condizione</p>
-   <p>Autorizzazioni di Contribute per attività e problemi per aggiornare la condizione</p>
+   <p>Autorizzazioni di Contribute su attività e problemi per aggiornare la condizione</p>
   </td> 
   </tr> 
  </tbody> 
@@ -134,8 +134,9 @@ Puoi aggiornare manualmente la Condizione delle attività e dei problemi in vari
    * Qualche dubbio
    * Problemi notevoli
 
-   ![](assets/condition-in-task-header.png)
-1. Fai clic su Invio per salvare la condizione.
+   ![](assets/condition-in-task-header-0925.png)
+
+<!--1. Click Enter to save the Condition.-->
 
 ### Aggiornare la condizione di un’attività o di un problema nella sezione Dettagli attività o problema
 
@@ -151,14 +152,17 @@ Puoi aggiornare manualmente la Condizione delle attività e dei problemi in vari
 
 1. Aggiorna la **condizione** del problema o dell&#39;attività in linea facendo doppio clic sulla condizione esistente e selezionando un nuovo valore dal menu a discesa.
 
-   ![](assets/condition-drop-down-values-in-task-list.png)
+   ![](assets/condition-values-in-task-list-0925.png)
 
    >[!NOTE]
    >
    >Le condizioni possono essere personalizzate per il tuo ambiente, per cui potresti trovare più di tre opzioni per Condizione nel tuo ambiente. I nomi delle Condizioni potrebbero essere diversi da quelli elencati sopra. Per informazioni sulla personalizzazione delle Condizioni in Workfront, vedere [Creare o modificare una condizione personalizzata](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
-
 1. Premi **Invio** sulla tastiera o fai clic all&#39;esterno del campo Condizione per salvare la nuova attività o la condizione del problema.
+
+   >[!NOTE]
+   >
+   >Nella visualizzazione Condizione predefinita, il campo **Condizione** è un tipo di campo che non può essere modificato in linea. Il campo **Condizione** aggiunto separatamente a una visualizzazione può essere modificato. Per informazioni sulla modifica in linea, vedere [Elementi di modifica in linea in un elenco in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
 <!--   
 <li><p>(NOTE: drafted because I can't do this anymore)</p><p>If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the <strong>Condition</strong> column to any view you use in a task or issue list, then set the <strong>Condition</strong> in inline edit and press Enter.</p><p><img src="assets/change-condition-in-list-view-350x142.png" style="width: 350;height: 142;"></p><p>For information about adding a column to a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md">Views overview in Adobe Workfront</a>.</p></li>   
