@@ -55,7 +55,7 @@ Se carichi un tipo di file non supportato, l’opzione Revisore IA non viene vis
 
 ## Impostare le linee guida per il marchio
 
-Durante la revisione dei contenuti, Workfront AI Reviewer utilizza le linee guida del brand impostate in Genstudio Foundations. Attualmente, è possibile impostare solo le linee guida del brand per le immagini. Per ulteriori informazioni, vedere [Introduzione ad Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Durante la revisione dei contenuti, Workfront AI Reviewer utilizza le linee guida del brand impostate in Genstudio Foundations. Attualmente, è possibile impostare solo le linee guida del brand per le immagini. Per ulteriori informazioni, vedere [Introduzione ad Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## Crea revisori AI
