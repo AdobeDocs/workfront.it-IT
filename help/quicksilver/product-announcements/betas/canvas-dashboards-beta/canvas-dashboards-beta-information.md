@@ -7,9 +7,9 @@ author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 8fdf48c5b17a17e4dd1ef2e441659155ae0b9905
+source-git-commit: db08403c62cc85d6ccb705bb84c9c277e94f8635
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '538'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Fornisci feedback](#provide-feedback) di seguito.<br>
->&#x200B;>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
+>>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
 >
 >* Porta la tua chiave per Amazon Web Services
 >* Azure
@@ -55,7 +55,7 @@ Per ulteriori informazioni, vedere [Panoramica dei dashboard di Canvas](/help/qu
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configurazioni del livello di accesso</p></td> 
-   <td><p>Modificare l’accesso a rapporti, dashboard e calendari</p>
+   <td><p>Accesso amministratore di sistema per abilitare i dashboard di Canvas</p>
   </td> 
   </tr>  
 </tbody> 
@@ -73,9 +73,15 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    >[!NOTE]
    >
-   > Il pulsante **Partecipa alla versione beta dei dashboard di Canvas** sarà disponibile solo se l&#39;organizzazione è stata invitata alla versione beta.
+   > Il pulsante **Partecipa a Canvas Dashboards beta** è accessibile solo agli amministratori di sistema. Tutti gli altri utenti visualizzeranno questo pulsante in uno stato disattivato.
 
 1. Rivedi i termini nella casella **Contratto Beta**, quindi fai clic su **Contratto**. Ora sei iscritto alla versione beta. Tieni presente che potrebbero essere necessari alcuni minuti perché i dati Workfront diventino completamente accessibili nelle dashboard di Canvas.
+
+   >[!NOTE]
+   >
+   >Una volta accettati i termini beta, le funzionalità del dashboard Canvas vengono abilitate per tutti gli utenti nell’ambiente Workfront. Tutti gli utenti con l&#39;accesso Visualizza e Gestisci ai dashboard potranno visualizzare e modificare i dashboard di Canvas in base al proprio livello di accesso.<br>
+   >La visibilità della pagina di destinazione delle dashboard di Canvas è controllata tramite il modello di layout assegnato dall’utente. Per ulteriori informazioni, vedere [Creare e gestire modelli di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
 
 ## Fornire feedback
 
