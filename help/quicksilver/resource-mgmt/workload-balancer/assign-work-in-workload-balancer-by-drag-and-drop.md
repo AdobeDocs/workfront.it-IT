@@ -6,7 +6,7 @@ description: È possibile assegnare gli elementi di lavoro utilizzando il Bilanc
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: 69ac06c36440d9fbbf0c8c9f3e019374da2e2f91
+source-git-commit: bf1a8e4384360554c6245b455650f30976e82ce1
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Per informazioni generali sull&#39;assegnazione del lavoro agli utenti che utili
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -95,7 +95,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    >* L’opzione Mostra tutti gli utenti è disponibile solo nel Bilanciatore dei carichi di lavoro di un progetto.
    >* Utilizza i filtri per visualizzare solo gli utenti che ti interessano. Ad esempio, utilizza un filtro per visualizzare solo gli utenti dei tuoi team o gruppi.
 
-1. Fare clic sulla barra di un elemento di lavoro <span class="preview">o di un&#39;assegnazione di ruolo</span> che indica la sequenza temporale pianificata o prevista e trascinarla sul nome di un utente nell&#39;area **Assegnato**.
+1. Fare clic sulla barra di un elemento di lavoro <span class="preview">o di un&#39;assegnazione di ruolo</span> che indica la sequenza temporale pianificata o prevista e trascinarla sulle ore per un utente nell&#39;area **Assegnato**.
 
    L’utente su cui passi il cursore del mouse per rilasciare l’elemento di lavoro viene evidenziato.
 
