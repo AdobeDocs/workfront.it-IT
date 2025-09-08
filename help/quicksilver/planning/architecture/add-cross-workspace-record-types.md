@@ -4,10 +4,10 @@ description: I tipi di record sono i tipi di oggetto di Adobe Workfront Planning
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
+source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 1%
+source-wordcount: '651'
+ht-degree: 0%
 
 ---
 
@@ -33,6 +33,8 @@ In qualità di responsabile dell&#39;area di lavoro, è possibile importare o ag
 
 Per informazioni, vedere [Configurare le funzionalità tra aree di lavoro diverse per i tipi di record](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
+Prima di aggiungere record a un&#39;area di lavoro da un tipo di record centralizzato, vedere l&#39;articolo [Panoramica sui tipi di record centralizzati](/help/quicksilver/planning/architecture/centralized-record-types-overview.md).
+
 ## Requisiti di accesso
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
@@ -48,7 +50,7 @@ Per informazioni, vedere [Configurare le funzionalità tra aree di lavoro divers
 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Pacchetto Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
 <ul><li><p>Qualsiasi pacchetto Workfront</p></li>
 E
@@ -73,24 +75,9 @@ E
 </tbody> 
 </table>
 
-*Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
-
-## Panoramica dei tipi di record centralizzati
-
-Considerazioni durante l&#39;aggiunta di tipi di record esistenti da un&#39;altra area di lavoro
-
-* Quando non sono presenti tipi di record configurati per l&#39;aggiunta a un&#39;altra area di lavoro, l&#39;opzione per importarli da un&#39;altra area di lavoro non viene visualizzata durante la creazione di un tipo di record. <!--add this a tip in the steps below, and/ or add a Conditional step that this is possible only when these record types are first enabled-->
-* Dopo l&#39;aggiunta del tipo di record da un&#39;altra area di lavoro, vengono aggiunte anche le seguenti informazioni dal tipo di record esistente:
-
-   * Campi
-   * Registra connessioni
-
-* È possibile visualizzare i record aggiunti da altre aree di lavoro solo se si dispone delle autorizzazioni per tali aree.
-
-* È possibile modificare il tipo di record, inclusi i relativi campi, solo nell&#39;area di lavoro originale. Non è possibile modificarlo dalle aree di lavoro in cui è stato aggiunto.
-* I record aggiunti da tutte le aree di lavoro saranno visibili a tutti gli utenti che vi accedono da tutte le aree di lavoro, anche se vengono creati in un&#39;area di lavoro in cui non dispongono di autorizzazioni.
 
 ## Creare un tipo di record da un tipo di record esistente
 
@@ -101,21 +88,41 @@ Considerazioni durante l&#39;aggiunta di tipi di record esistenti da un&#39;altr
 1. Fai clic su **Continua**.
 1. Nella casella **Scegli tipo di record**, fai clic sulla scheda del tipo di record che desideri aggiungere da un&#39;area di lavoro esistente, quindi fai clic su **Aggiungi**.
 
-   Il tipo di record viene aggiunto all&#39;area di lavoro selezionata e si verificano gli eventi seguenti:
+   Il tipo di record viene aggiunto all&#39;area di lavoro selezionata.
 
-   * Alla scheda del tipo di record importato è stata aggiunta l&#39;icona **cross-workspace record type** ![Cross-Workspace connection icon](assets/global-icon.png).
-   * Il campo **Workspace** di sola lettura è stato aggiunto al tipo di record importato. Nel campo viene visualizzata l’area di lavoro in cui è stato creato ogni record.
+   >[!TIP]
+   >
+   >Quando non sono presenti tipi di record configurati per l&#39;aggiunta a un&#39;altra area di lavoro, l&#39;opzione per importarli da un&#39;altra area di lavoro non viene visualizzata durante la creazione di un tipo di record.
+
+   Si verificano le seguenti situazioni:
+
+   * Vengono aggiunte anche le seguenti informazioni dal tipo di record centralizzato esistente:
+
+      * Tutti i campi originali
+      * Tutte le connessioni record
+   * È possibile visualizzare i record aggiunti da altre aree di lavoro solo se si dispone almeno delle autorizzazioni di visualizzazione per tali aree di lavoro.
+   * Alla scheda del tipo di record importato viene aggiunta l&#39;icona **tipo di record centralizzato** ![icona tipo di record centralizzato](assets/global-icon.png).
+   * Il campo **Workspace** di sola lettura è stato aggiunto alla visualizzazione della tabella dei tipi di record importati. Nel campo viene visualizzata l’area di lavoro in cui è stato creato ogni record.
 
      >[!NOTE]
      >
-     >* Impossibile modificare il tipo di record importato o i relativi campi. È possibile modificare il tipo di record e i relativi campi dall&#39;area di lavoro originale.
+     >* Non è possibile modificare l&#39;aspetto del tipo di record importato, le impostazioni avanzate o i campi originali. È possibile modificare il tipo di record e tutti i campi e le impostazioni originali solo dall&#39;area di lavoro originale.
+
+1. (Facoltativo) Fai clic su, quindi trascina e rilascia il nuovo tipo di record aggiunto in una sezione all’interno dell’area di lavoro.
+
+1. (Facoltativo) Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) nella scheda del tipo di record importato o a destra del nome del tipo di record nella relativa pagina, quindi fai clic su **Condividi** per condividerlo con altri utenti nella stessa area di lavoro.
 
 1. (Facoltativo) Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) nella scheda del tipo di record importato o a destra del nome del tipo di record nella relativa pagina, quindi fai clic su **Elimina**.
 1. (Condizionale) Digita **delete** nel campo fornito, quindi fai clic su **Delete** definitivamente.
 
-   Il tipo di record importato verrà rimosso dall&#39;area di lavoro selezionata. Il tipo di record originale e i relativi campi rimangono nell&#39;area di lavoro originale.
+   Si verificano le seguenti situazioni:
 
-   <!--**************************ASK LILIT ON THIS ONE, NOT SURE IF THIS IS TRUE: Any records added in the current workspace are saved in the original workspace.**********-->
+   * Il tipo di record creato da un tipo di record centralizzato viene rimosso dall&#39;area di lavoro selezionata.
+   * Il tipo di record originale e i relativi campi rimangono nell&#39;area di lavoro originale.
+   * Tutti gli altri tipi di record importati dallo stesso record centralizzato rimangono nelle aree di lavoro.
+   * I record aggiunti al tipo di record dall&#39;area di lavoro corrente vengono eliminati. Tutti gli altri record aggiunti da aree di lavoro aggiuntive in cui è stato aggiunto il tipo di record centralizzato vengono conservati.
+
+
 
 
 

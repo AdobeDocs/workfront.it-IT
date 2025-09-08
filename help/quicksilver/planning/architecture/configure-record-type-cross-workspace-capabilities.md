@@ -4,9 +4,9 @@ description: È possibile abilitare un tipo di record per l'aggiunta a un'altra 
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
+source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1131'
 ht-degree: 1%
 
 ---
@@ -78,7 +78,7 @@ Per informazioni, vedere uno degli articoli seguenti:
 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Pacchetto Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
 <ul><li><p>Qualsiasi pacchetto Workfront</p></li>
 E
@@ -103,7 +103,7 @@ E
 </tbody> 
 </table>
 
-*Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -116,7 +116,9 @@ In qualità di responsabile dell&#39;area di lavoro, è possibile configurare un
 
 Un responsabile dell&#39;area di lavoro può aggiungere un tipo di record centralizzato a un&#39;area di lavoro gestita. Vengono aggiunti anche i campi originali del tipo di record.
 
-Gli utenti possono aggiungere record a un tipo di record centralizzato da qualsiasi area di lavoro a cui hanno accesso per contribuire in cui viene aggiunto il tipo di record, inclusa l’area di lavoro principale. Possono visualizzare solo i record dell’area di lavoro per i quali dispongono delle autorizzazioni di visualizzazione.
+Gli utenti possono aggiungere record a un tipo di record centralizzato da qualsiasi area di lavoro per cui dispongono delle autorizzazioni Contribute e in cui viene aggiunto il tipo di record centralizzato, inclusa l&#39;area di lavoro originale. Possono visualizzare i record dall’area di lavoro a cui dispongono solo delle autorizzazioni di visualizzazione.
+
+Per ulteriori informazioni, vedere [Panoramica sui tipi di record centralizzati](/help/quicksilver/planning/architecture/centralized-record-types-overview.md)
 
 Per configurare l&#39;aggiunta di un tipo di record come tipo di record centralizzato:
 
@@ -134,18 +136,29 @@ Oppure
 
    ![Altre opzioni di menu dalla scheda del tipo di record](assets/more-menu-options-from-record-type-card.png)
 
+   >[!TIP]
+   >
+   >Se un tipo di record è già stato designato come tipo di record centralizzato e viene aggiunto ad altre aree di lavoro, l&#39;opzione Modifica non è disponibile.
+
 1. Nella casella **Modifica tipo di record** selezionare la scheda **Impostazioni avanzate**.
 1. Abilita l&#39;impostazione **Consenti l&#39;aggiunta di questo tipo di record ad altre aree di lavoro**.
 
    ![Modifica impostazioni avanzate tipo di record con Aggiungi ad altre aree di lavoro abilita](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
 
-1. Nel campo **Selezionare gli utenti che possono aggiungere questo tipo di record alle aree di lavoro che gestiscono**, aggiungere gli utenti che si desidera consentire di aggiungere questo tipo di record alle aree di lavoro che gestiscono.
+   >[!TIP]
+   >
+   >Dopo aver aggiunto un tipo di record centralizzato a un&#39;altra area di lavoro, questa impostazione non può più essere disabilitata.
+
+1. Nel campo **Selezionare gli utenti che possono aggiungere questo tipo di record alle aree di lavoro che gestiscono**, aggiungere le entità che si desidera consentire di aggiungere questo tipo di record alle aree di lavoro che gestiscono.
 
    Il tuo nome viene aggiunto automaticamente nel campo.
 
    È possibile aggiungere singoli utenti o gruppi, team, mansioni o società di cui si desidera consentire l&#39;aggiunta di questo tipo di record alle aree di lavoro che gestiscono.
 
+   È necessario designare almeno un&#39;entità (utente, team, gruppo, mansione o società) per abilitare questa impostazione.
+
    È possibile modificare questo campo dopo aver salvato il tipo di record.
+
 1. (Facoltativo) Rimuovi il tuo nome dal campo **Seleziona gli utenti che possono aggiungere questo tipo di record alle aree di lavoro che gestiscono**.
 
 1. Fai clic su **Salva**.
@@ -156,12 +169,12 @@ Oppure
 
    >[!NOTE]
    >
-   >È possibile modificare il tipo di record e i relativi campi solo dall&#39;area di lavoro originale.
+   >È possibile modificare l&#39;aspetto e le impostazioni del tipo di record e i relativi campi originali solo dall&#39;area di lavoro originale.
 
-   * Nella scheda del tipo di record viene visualizzata un&#39;icona globale ![Icona del tipo di record globale](assets/global-icon.png) per indicare che il tipo di record è disponibile per essere aggiunto a qualsiasi area di lavoro di cui è stato designato il manager nella configurazione.
-   * Al tipo di record è stato aggiunto un campo **Workspace** generato dal sistema.
+   * Nella scheda del tipo di record viene visualizzata un&#39;icona centralizzata ![icona del tipo di record centralizzato](assets/global-icon.png) per indicare che il tipo di record è disponibile per l&#39;aggiunta ad altre aree di lavoro.
+   * Un campo **Workspace** generato dal sistema viene aggiunto alla vista tabella del tipo di record e dei relativi dettagli.
 
-     Nel campo Workspace viene visualizzata l&#39;area di lavoro da cui è stato creato ogni record.
+     Nel campo Workspace viene visualizzata l&#39;area di lavoro da cui viene creato ogni record.
 
      Questo campo è di sola lettura e non può essere eliminato.
 1. (Facoltativo) Passare a un&#39;altra area di lavoro e creare un tipo di record utilizzando un tipo di record esistente. Selezionare il tipo di record abilitato nei passaggi precedenti.
@@ -178,7 +191,7 @@ Per configurare un tipo di record a cui connettersi da altre aree di lavoro quan
 
 {{step1-to-planning}}
 
-1. Fare clic sull&#39;area di lavoro di cui si desidera modificare i tipi di record.
+1. Fare clic sul workspace di cui si desidera modificare i tipi di record.
 
    Viene visualizzata la pagina dell&#39;area di lavoro e i tipi di record.
 1. Esegui una delle operazioni seguenti:
@@ -194,20 +207,20 @@ Oppure
 
    ![Modifica tipo di record Scheda Impostazioni avanzate con connessione da altre aree di lavoro abilitata](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
 
-   Se attivato, il tipo di record è accessibile e può essere connesso da altre aree di lavoro.
+   Se attivato, il tipo di record è accessibile e può essere connesso ad altre aree di lavoro.
 
 1. Scegliere le aree di lavoro da cui è possibile accedere al tipo di record. Scegli una delle seguenti opzioni:
 
-   * **A livello di sistema**: gli utenti possono connettersi a questo tipo di record da tutte le aree di lavoro in cui dispongono di autorizzazioni di gestione.
+   * **A livello di sistema**: gli utenti possono connettersi a questo tipo di record da tutte le aree di lavoro per le quali dispongono delle autorizzazioni di gestione.
    * **Aree di lavoro specifiche**: aggiungere i nomi delle aree di lavoro a cui i responsabili area di lavoro possono connettersi a questo tipo di record.
-1. Fai clic su **Modifica**.
+1. Fai clic su **Salva**.
 
    Si verificano le seguenti situazioni:
 
-   * Il tipo di record e i relativi campi sono ora disponibili per la connessione dalle aree di lavoro specificate.
+   * Il tipo di record e i relativi campi sono ora disponibili per la connessione alle aree di lavoro specificate.
    * Nella scheda del tipo di record viene visualizzata l&#39;icona di connessione tra più aree di lavoro ![Icona di connessione tra aree di lavoro](assets/connect-from-other-workspaces-icon.png) per indicare che il tipo di record è disponibile per la connessione da qualsiasi area di lavoro designata nella configurazione.
 
-   Il tipo di record diventa disponibile per la connessione dalle aree di lavoro specificate.
+   Il tipo di record diventa disponibile per la connessione alle aree di lavoro specificate.
 1. (Facoltativo) Vai a un’altra area di lavoro e aggiungi una connessione al tipo di record abilitato per la connessione tra aree di lavoro diverse nei passaggi precedenti.
 
    Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).

@@ -3,9 +3,9 @@ title: Panoramica dei tipi di record centralizzati
 description: I tipi di record centralizzati possono essere aggiunti a più aree di lavoro da un'area di lavoro centrale o principale in Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -20,120 +20,109 @@ recommendations: noDisplay, noCatalog
 
 # Panoramica sui tipi di record centralizzati
 
-
 I tipi di record centralizzati possono essere aggiunti a più aree di lavoro da un&#39;area di lavoro centrale o principale in Adobe Workfront Planning.
 
 ## Panoramica dei tipi di record centralizzati
 
 Quando si implementa Workfront Planning per un’organizzazione con più team e flussi di lavoro comuni, potrebbe essere necessario definire una struttura coesa e i metadati per i tipi di record chiave (come Campagne o Deliverable) che possono essere aggiunti alle aree di lavoro di ciascun team per acquisire e gestire il proprio lavoro.
 
-Inoltre, potrebbe essere necessario il lavoro di ogni team per passare a un livello centrale e più globale.
+Inoltre, potrebbe essere necessario il lavoro di ogni team per raggiungere un livello centrale.
 
-In questo flusso di lavoro, puoi fare in modo che i team acquisiscano il proprio lavoro in modo coerente sbloccando la visibilità tra i team, senza la necessità di aggiungere tutti gli utenti dell’organizzazione a un’unica area di lavoro.
+In un flusso di lavoro di questo tipo, puoi fare in modo che i team acquisiscano il proprio lavoro in modo coerente sbloccando la visibilità tra i team, senza dover aggiungere tutto a un’area di lavoro o tutti gli utenti dell’organizzazione a ogni area di lavoro. A tale scopo è possibile utilizzare tipi di record centralizzati.
 
 Per utilizzare i tipi di record centralizzati, eseguire le operazioni seguenti:
 
-1. Configurare un tipo di record da centralizzare.
+1. Configurare un tipo di record da centralizzare in un workspace specifico.
+
+   Un responsabile dell&#39;area di lavoro può selezionare gli utenti con una licenza Standard, i team, i gruppi, i ruoli o le società per aggiungere un tipo di record scelto alle aree di lavoro che gestisce.
+
+   Il tipo di record originale sarà presente nell&#39;area di lavoro originale ma sarà reso visibile da tutte le altre aree di lavoro.
 
    Per informazioni, vedere [Configurare le funzionalità tra aree di lavoro diverse per i tipi di record](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
-1. Aggiungere un tipo di record esistente da uno centralizzato.
+1. Aggiungere all&#39;area di lavoro di un team un tipo di record esistente configurato come record centralizzato.
+
+   Il tipo di record esiste nelle aree di lavoro seguenti:
+
+   * Area di lavoro originale in cui è stato designato come tipo di record centralizzato.
+   * Area di lavoro del team.
 
    Per informazioni, vedere [Aggiungere tipi di record esistenti](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md).
 
+   Nelle sezioni seguenti vengono descritte considerazioni sui tipi di record centralizzati nelle aree di lavoro originali o dopo che sono stati aggiunti alle aree di lavoro di un team.
 
+## Considerazioni sui tipi di record centralizzati nell&#39;area di lavoro originale
 
+Il tipo di record configurato per essere centralizzato ha le seguenti proprietà:
 
-· In Impostazioni avanzate per i tipi di record è disponibile la nuova impostazione &quot;Consenti l’aggiunta del tipo di record in altre aree di lavoro&quot;.
+* Tutte le relative informazioni possono essere modificate solo nell&#39;area di lavoro originale.
 
-· Se questa opzione è abilitata, il manager dell&#39;area di lavoro può selezionare gli utenti con licenza Standard, i team, i gruppi, i ruoli o le aziende che possono aggiungere il tipo di record nelle aree di lavoro che gestiscono.
+* È possibile eseguire le azioni seguenti sul tipo di record centralizzato dall&#39;area di lavoro originale di un tipo di record centralizzato:
 
-· Per impostazione predefinita, il manager dell&#39;area di lavoro che sta modificando l&#39;impostazione viene aggiunto automaticamente all&#39;elenco degli utenti selezionati
+   * Modifica
 
-o Il manager dell&#39;area di lavoro può rimuovere il proprio nome dopo aver aggiunto almeno un&#39;altra entità
+     La modifica di un tipo di record centralizzato include la modifica dell&#39;aspetto, delle funzionalità per più aree di lavoro e di tutti i campi creati nell&#39;area di lavoro originale.
+   * Creare moduli di richiesta
+   * Gestisci i moduli di richiesta
 
-o Per salvare l&#39;impostazione è necessario selezionare almeno un utente/team/...
+* È possibile eliminare un tipo di record centralizzato solo se non è stato aggiunto a un&#39;area di lavoro del team. Dopo essere stato aggiunto all’area di lavoro di un team, se provi a eliminarlo dall’area di lavoro originale viene generato un errore.
 
-o Una volta aggiunto il tipo di record in almeno un&#39;altra area di lavoro, è possibile rimuovere tutti gli utenti selezionati
+  In questo modo il tipo di record centralizzato può rimanere nelle aree di lavoro in cui è già stato aggiunto.
+* I record aggiunti a un tipo di record centralizzato sono visibili solo agli utenti che dispongono delle autorizzazioni di visualizzazione per l&#39;area di lavoro originale.
+* I record aggiunti dall&#39;area di lavoro del team vengono visualizzati nell&#39;area di lavoro originale. Tutti i membri dell&#39;area di lavoro originale ottengono le autorizzazioni di visualizzazione.
 
-§ Questa operazione consente di impedire l&#39;aggiunta del tipo di record globale in nuove aree di lavoro, ma di mantenerlo in quelle già in uso.
+* I tipi di record connessi di un tipo di record centralizzato saranno disponibili per la connessione dalle aree di lavoro in cui viene aggiunto questo tipo di record.
 
-· Nella fase 1, tutti i record dei tipi di record collegati vengono condivisi automaticamente con qualsiasi area di lavoro in cui è stato aggiunto il tipo di record.
+* I campi creati per un tipo di record centralizzato dall&#39;area di lavoro originale sono visibili da tutte le aree di lavoro in cui viene aggiunto il tipo di record.
 
-· Una volta abilitato il tipo di record come cross-workspace, al tipo di record viene aggiunto un campo &quot;Workspace&quot; generato dal sistema
+## Considerazioni sui tipi di record centralizzati dopo averli aggiunti all&#39;area di lavoro di un team
 
-o Visualizza l&#39;area di lavoro da cui è stato creato ogni record.
+* I collaboratori dell&#39;area di lavoro del team ottengono l&#39;autorizzazione Contribute per il tipo di record centralizzato nell&#39;area di lavoro del team. Possono aggiungere e gestire i record al suo interno.
 
-o Questo campo è di sola lettura e non può essere eliminato.
+* I visualizzatori dell&#39;area di lavoro del team ottengono l&#39;autorizzazione di visualizzazione per il tipo di record centralizzato nell&#39;area di lavoro del team. Non possono aggiungere e gestire record in.
 
-o Può essere nascosto nei campi di visualizzazione.
+* I responsabili dell&#39;area di lavoro del team possono eseguire le azioni seguenti sul tipo di record aggiunto da un tipo di record centralizzato nell&#39;area di lavoro di un team:
 
-o Il campo dell&#39;area di lavoro può essere utilizzato per filtrare, raggruppare e ordinare, nonché in qualsiasi impostazione di visualizzazione, come in altri campi.
+   * Aggiungi nuovi campi
 
+     I campi aggiunti a un record centralizzato da un&#39;area di lavoro del team sono visibili solo dall&#39;area di lavoro del team.
+   * Condividi
+   * Eliminalo.
 
-Tipi di record cross-Workspace nelle aree di lavoro locali
+     Se si elimina il tipo di record dall&#39;area di lavoro di un team, questo viene rimosso solo dall&#39;area di lavoro del team. Vengono eliminati anche i record aggiunti al gruppo dall&#39;area di lavoro del team. Il tipo di record non viene eliminato dall&#39;area di lavoro originale o da altre aree di lavoro del team in cui è stato aggiunto.
 
-· Quando si tenta di aggiungere un nuovo tipo di record all&#39;area di lavoro, i responsabili dell&#39;area di lavoro locale visualizzano un&#39;opzione per selezionare dall&#39;elenco dei tipi di record globali disponibili
+     Questa operazione consente di mantenere il tipo di record centralizzato già aggiunto nelle aree di lavoro che lo utilizzano già.
 
-· Quando viene selezionato uno dei tipi di record globali, questo viene aggiunto immediatamente all&#39;area di lavoro
+* Non è possibile eseguire le azioni seguenti sul tipo di record aggiunto da un tipo di record centralizzato nell&#39;area di lavoro di un team:
 
-· È possibile spostare il tipo di record globale in qualsiasi sezione e posizione all&#39;interno dell&#39;area di lavoro locale
+   * Modifica
 
+     Non è possibile modificarne l&#39;aspetto, le funzionalità tra aree di lavoro o i campi importati dall&#39;area di lavoro originale.
+   * Creare moduli di richiesta
+   * Gestisci i moduli di richiesta
 
-Autorizzazioni per il tipo di record globale nelle aree di lavoro locali
+* I record aggiunti nelle aree di lavoro di un team sono visibili dalle aree di lavoro seguenti, se si dispone delle autorizzazioni di visualizzazione o di livello superiore per tali aree di lavoro:
 
-All&#39;interno delle aree di lavoro locali, i membri possono accedere al tipo di record globale nel modo seguente:
+   * L’area di lavoro del team in cui vengono aggiunti.
+   * Area di lavoro originale del tipo di record centralizzato.
+   * Tutte le altre aree di lavoro in cui viene aggiunto il workspace centralizzato.
 
-· Nella fase 1, i responsabili locali dell&#39;area di lavoro ottengono l&#39;autorizzazione Contribute. Ciò significa che:
+* Esistono i seguenti scenari per i record creati nelle aree di lavoro dei team:
 
-o I responsabili dell&#39;area di lavoro locale possono:
+   * Se si dispone delle autorizzazioni Gestione per l&#39;area di lavoro originale e non si dispone delle autorizzazioni per le aree di lavoro dei team, è possibile visualizzare i record aggiunti dalle aree di lavoro del team nell&#39;area di lavoro originale, ma non è possibile gestirli dall&#39;area di lavoro originale.
+   * Se si dispone delle autorizzazioni Gestione nell&#39;area di lavoro del team, è possibile gestire i record nell&#39;area di lavoro originale del tipo di record centralizzato o dall&#39;area di lavoro in cui sono stati aggiunti.
 
-§ Aggiungere il tipo di record globale
+     È possibile visualizzare i record in altre aree di lavoro del team in cui il tipo di record centralizzato viene aggiunto solo se si dispone delle autorizzazioni di visualizzazione per tali aree di lavoro.
 
-§ Aggiungere, modificare o eliminare record nel tipo di record globale, indipendentemente dall&#39;area di lavoro da cui è stato aggiunto il record.
+## Accesso alle connessioni
 
-§ Eliminare il tipo di record globale dall&#39;area di lavoro locale
+I tipi di record connessi al tipo di record centralizzato nell&#39;area di lavoro originale diventano visibili per le aree di lavoro del team in cui viene aggiunto il tipo di record centralizzato.
 
-o I responsabili dell&#39;area di lavoro locale non possono:
+## Comportamento API
 
-§ Aggiungere, modificare, eliminare campi
+Quando si aggiungono record a un tipo di record centralizzato da un&#39;area di lavoro del team utilizzando l&#39;API di Workfront Planning, il sistema controlla se l&#39;utente ha accesso alla creazione di record nell&#39;area di lavoro originale del tipo di record centralizzato.
 
-§ Aggiornare l&#39;aspetto e l&#39;etichetta del tipo di record
+Esistono i seguenti casi:
 
-§ Vedere impostazioni avanzate per il tipo di record
+* Se l&#39;utente dispone dell&#39;accesso, il record viene creato nell&#39;area di lavoro originale dei tipi di record centralizzati.
 
-Automazioni di § Manage
-
-§ Gestire i moduli di richiesta
-
-§ Regolare la condivisione del tipo di record per l&#39;ambito dell&#39;area di lavoro
-
-§ Disattivare l&#39;impostazione del tipo di record globale nelle impostazioni avanzate.
-
-· I collaboratori dell&#39;area di lavoro locale ottengono l&#39;autorizzazione Contribute per il tipo di record globale e possono aggiungere e gestire record al suo interno
-
-· I visualizzatori dell&#39;area di lavoro locale ottengono l&#39;autorizzazione di visualizzazione per il tipo di record globale
-
-· Non appena un record viene aggiunto al tipo di record globale da una delle aree di lavoro locali, il campo Workspace mostra tale nome dell’area di lavoro
-
-o Per il momento non è possibile modificare il campo dell&#39;area di lavoro
-
-· I record aggiunti alle aree di lavoro locali vengono tutti aggregati e visualizzati nell&#39;area di lavoro principale e tutti i membri dell&#39;area di lavoro principale vi accedono.
-
-· I record aggiunti nelle aree di lavoro locali non vengono visualizzati in altre aree di lavoro locali che utilizzano lo stesso tipo di record globale e i relativi membri non hanno accesso ai record.
-
-
-
-Accesso alle connessioni:
-
-· Ambito MVP
-
-o I tipi di record connessi al tipo di record globale diventeranno visibili per le aree di lavoro locali in cui viene aggiunto il tipo di record globale, in modo che possano utilizzare i campi di connessione per assegnare tag
-
-
-Comportamento API
-
-Se l’utente tenta di creare record in un tipo di record globale tramite API senza fornire l’ID dell’area di lavoro, il sistema controlla se l’utente ha accesso alla creazione di record nell’area di lavoro principale (dove viene creato il tipo di record globale)
-
-· In caso affermativo, il record viene creato nell&#39;area di lavoro principale
-
-· In caso contrario, l’utente riceve un errore di convalida a causa del quale non ha accesso all’area di lavoro principale e deve fornire l’ID dell’area di lavoro in cui può creare.
+* Se l&#39;utente non dispone dell&#39;accesso, riceve un errore che indica che non ha accesso all&#39;area di lavoro originale del tipo di record centralizzato e che deve fornire l&#39;ID area di lavoro in cui ha accesso per creare i record.
