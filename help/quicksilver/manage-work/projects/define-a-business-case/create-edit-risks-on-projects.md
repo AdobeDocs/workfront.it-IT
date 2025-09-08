@@ -6,9 +6,9 @@ description: I rischi sono eventi o fattori possibili che impediscono a un proge
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1103'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ I rischi possono essere associati ai costi, ma il costo rischio effettivo non in
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,18 +86,18 @@ Per creare o modificare un rischio nel Business Case:
 1. Nella sezione **Rischi** fare clic su **Modifica rischi**.
 1. Immettere o modificare le informazioni seguenti:
 
-   * **Descrizione:** descrivere il rischio.
+   * **Descrizione:** Descrivere il rischio.
 
-   * **Costo potenziale**: indicare il costo stimato nel caso in cui si verifichi il rischio.
+   * **Costo potenziale**: immettere il costo stimato se il rischio dovrebbe verificarsi.
 
-   * **Probabilità**: indicare la probabilità che il rischio si verifichi come valore percentuale.
+   * **Probabilità**: immettere la probabilità che il rischio si verifichi come valore percentuale.
 
-   * **Tipo:** indicare la categoria in cui rientra il rischio.
+   * **Tipo:** Selezionare la categoria di appartenenza del rischio.
    * **Piano di mitigazione**: aggiornare la descrizione del piano per mitigare il rischio.
 
-   * **Costo di mitigazione**: indicare il costo del piano di mitigazione che è necessario implementare per evitare che si verifichi il rischio.
+   * **Costo di mitigazione**: immettere il costo del piano di mitigazione che è necessario implementare per evitare che si verifichi il rischio.
 
-   <!--![Risks](assets/crp1-350x117.png)-->
+   ![Rischi](assets/edit-risk.png)
 
 1. (Facoltativo) Fai clic su **Aggiungi un altro rischio** per aggiungere altri rischi.
 1. Fai clic su **Salva**.
@@ -115,13 +115,11 @@ Oltre a creare e modificare i rischi nel caso di business, puoi farlo utilizzand
 
    ![Sezione Rischi dell&#39;attività](assets/risks-section-on-project-2022.png)
 
-1. Fai clic su **Inizia ad aggiungere rischi** e crea rischi modificando le informazioni in linea. **Descrizione** è un campo obbligatorio
+1. Fai clic su **Inizia ad aggiungere rischi** e crea rischi modificando le informazioni in linea.
 
    Oppure
 
-   Fai clic su **Nuovo rischio**.
-
-   Viene visualizzata la casella **Nuovo rischio**.
+   Fare clic su **Nuovo rischio** per aprire la casella **Nuovo rischio**.
 
    ![Nuova casella rischi](assets/new-risk-box.png)
 
@@ -149,9 +147,9 @@ Oltre a creare e modificare i rischi nel caso di business, puoi farlo utilizzand
 
 ### Modifica rischi nell&#39;area Rischi {#edit-risks-in-the-risks-area}
 
-È possibile modificare i rischi durante il ciclo di vita di un progetto, ad esempio quando si verificano modifiche nella probabilità, nel costo potenziale o nel relativo stato.
+È possibile modificare i rischi durante il ciclo di vita di un progetto o quando si verificano modifiche (ad esempio, una modifica della probabilità, del costo potenziale o dello stato).
 
-È possibile modificare un rischio alla volta oppure più rischi in blocco.
+È possibile modificare un rischio alla volta o più rischi in blocco.
 
 Per modificare i rischi:
 
@@ -172,7 +170,7 @@ Per modificare i rischi:
    Prendi in considerazione la modifica dei seguenti campi:
 
    * **Descrizione**: modificare la descrizione del rischio.
-   * **Tipo di rischio**: indicare la categoria di appartenenza del rischio.
+   * **Tipo di rischio**: aggiorna la categoria in cui rientra il rischio.
    * **Probabilità**: indicare la probabilità che il rischio si verifichi come valore percentuale.
    * **Costo potenziale**: indicare il costo stimato nel caso in cui si verifichi il rischio.
    * **Costo di mitigazione**: indicare il costo del piano di mitigazione che è necessario implementare per evitare che si verifichi il rischio.

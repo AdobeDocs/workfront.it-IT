@@ -5,9 +5,9 @@ description: Dopo aver completato e sottomesso il Business Case per una richiest
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -80,15 +80,15 @@ Per creare un report per i progetti in attesa di approvazione dei relativi casi 
 
 1. Seleziona la scheda **Visualizza** del report, quindi fai clic su **Aggiungi colonna**.
 
-1. Inizia a digitare &quot;Status&quot; nel campo **Mostra in questa colonna** e seleziona questo campo quando viene visualizzato nell&#39;elenco.
+1. Inizia a digitare *Stato* nel campo **Mostra in questa colonna** e seleziona questo campo quando viene visualizzato nell&#39;elenco.
 
    In questa colonna verrà visualizzato lo stato dei progetti.
 
 1. Seleziona la scheda **Filtri** del rapporto, quindi fai clic su **Aggiungi una regola filtro**.
 
-1. Inizia a digitare &quot;Status&quot; in **Mostra solo i progetti in cui il campo ...** e selezionalo quando viene visualizzato nell&#39;elenco.
+1. Inizia a digitare *Stato* in **Mostra solo i progetti in cui è presente il campo ...** e selezionalo quando viene visualizzato nell&#39;elenco.
 1. Seleziona **Uguale** per il modificatore di filtro.
-1. Inizia a digitare &quot;Richiesto&quot; nel campo disponibile.
+1. Inizia a digitare *Richiesto* nel campo disponibile.
 
    In questo modo, il rapporto include solo i progetti nello stato Richiesto.
 
@@ -126,15 +126,15 @@ Per creare un report per i progetti in attesa di approvazione dei relativi casi 
 1. Fai clic su **Business Case** nel pannello a sinistra.
 1. Fare clic su **Approva** o **Rifiuta** nell&#39;area Riepilogo caso di business per approvare o rifiutare il caso di business.
 
-   &lt;!—![Caso di business](assets/business-case-summary-with-rp-information--1-.png)—>
+<!-- ![Business case](assets/business-case-summary-with-rp-information--1-.png) -->
 
-   Lo stato del progetto viene modificato in **Approvato** se il Business Case viene approvato.
+Lo stato del progetto viene modificato in **Approvato** se il Business Case viene approvato.
 
-   Lo stato del progetto viene modificato in **Rifiutato** se il caso aziendale viene rifiutato.
+Lo stato del progetto viene modificato in **Rifiutato** se il caso aziendale viene rifiutato.
 
-   >[!NOTE]
-   >
-   >Non vi sono notifiche che avvisano l’utente che ha inviato l’approvazione del business case se la richiesta di progetto è stata approvata o rifiutata.
+>[!NOTE]
+>
+>Non vi sono notifiche che avvisano l’utente che ha inviato l’approvazione del business case se la richiesta di progetto è stata approvata o rifiutata.
 
 ## Approvare il Business Case accedendo ai progetti richiesti in un portfolio
 

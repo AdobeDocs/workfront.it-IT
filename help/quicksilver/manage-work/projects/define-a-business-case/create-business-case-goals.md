@@ -5,9 +5,9 @@ description: Durante la creazione di un caso di business, puoi creare una serie 
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '445'
 ht-degree: 1%
 
 ---
@@ -81,9 +81,10 @@ Quando crei gli obiettivi del caso di business per i tuoi progetti, tieni presen
 {{step1-to-projects}}
 
 1. Nell&#39;elenco dei progetti selezionare il progetto per il quale si desidera definire gli obiettivi del Business Case.
+
 1. Nel pannello a sinistra, fai clic su **Business Case**. Viene visualizzata la sezione **Business Case**.
 
-   <!--![Business case info](assets/business-case-page-info-goals-expenses-nwe-350x123.png)-->
+   ![Informazioni sul caso di business](assets/business-case-info.png)
 
 1. Nella sezione **Obiettivi**, fai clic su **Modifica obiettivi**.
 
@@ -93,15 +94,15 @@ Quando crei gli obiettivi del caso di business per i tuoi progetti, tieni presen
 
    * Il più alto
    * Alta
-   * Media
+   * Canale
    * Basso
    * Il più basso
 
-     <!--![Importance](assets/g1-350x76.png)-->
+   ![Importanza](assets/goals-section.png)
 
-     >[!NOTE]
-     >
-     >Non puoi personalizzare i livelli di importanza degli obiettivi.
+   >[!NOTE]
+   >
+   >Non puoi personalizzare i livelli di importanza degli obiettivi.
 
 1. (Facoltativo) Per aggiungere un altro obiettivo, fare clic su **Aggiungi un altro obiettivo** e ripetere i passaggi 5-6.
 

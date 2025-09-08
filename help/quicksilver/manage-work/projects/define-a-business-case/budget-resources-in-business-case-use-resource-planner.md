@@ -5,9 +5,9 @@ description: Come parte della pianificazione delle risorse, è possibile utilizz
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1224'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Puoi anche preventivare le risorse nel caso di business utilizzando Adobe Workfr
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -106,13 +106,13 @@ Per applicare i gruppi di risorse e le risorse del progetto di budget nel Busine
 
 1. (Facoltativo e condizionale) Se le informazioni sul progetto sono state pubblicate da un&#39;iniziativa nella Pianificazione scenario, effettuate una delle seguenti operazioni:
 
-   * Selezionare Pianificazione risorse nel campo **Scegliere le ore da utilizzare per calcolare il costo manodopera preventivato del progetto**, quindi fare clic su **Scegli > Modifica budget risorse**.
+   * Selezionare Pianificazione risorse nel campo **Scegli le ore da utilizzare per calcolare il costo preventivato della manodopera del progetto**, quindi fai clic su **Scegli** > **Modifica budget risorse**.
 
-     <!--![Business case in Resource Planner](assets/business-case-rp-selected-with-choose-button-350x120.png)-->
+   <!-- ![Business case in Resource Planner](assets/business-case-rp-selected-with-choose-button-350x120.png)-->
 
    * Se la Pianificazione scenario è stata selezionata per la definizione del budget delle risorse per il progetto, fare clic su **Modifica** > **Modifica budget risorse**.
 
-     <!--![Business case in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)-->
+     <!-- ![Business case in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)-->
 
    In questo modo vengono utilizzate le ore preventivate del progetto per calcolare il costo manodopera preventivato per il progetto.
 
@@ -157,8 +157,8 @@ Per applicare i gruppi di risorse e le risorse del progetto di budget nel Busine
     
 
 1. Fai clic su **Oggi** per tornare all&#39;intervallo di tempo odierno.
-1. (Facoltativo) Fai clic su **Settimana**, **Mese** o **Trimestre** per visualizzare le informazioni per il progetto in diversi intervalli di tempo.
-1. (Facoltativo) Fai clic sul menu a discesa **Ore** e seleziona **Ore**,**FTE** o **Costo** per modificare la modalità di visualizzazione delle informazioni nella Programmazione delle risorse. Le ore vengono visualizzate per impostazione predefinita.
+1. (Facoltativo) Fai clic su **Settimana**, **Mese** o **Trimestre** per visualizzare le informazioni per il progetto in intervalli di tempo diversi.
+1. (Facoltativo) Fai clic sul menu a discesa **Ore** e seleziona **Ore**, **FTE** o **Costo** per modificare la modalità di visualizzazione delle informazioni nella Programmazione delle risorse. Le ore vengono visualizzate per impostazione predefinita.
 
 1. (Facoltativo) Fai clic su **Esporta** per esportare la Programmazione delle risorse in un file Excel.
 
@@ -172,7 +172,7 @@ Per applicare i gruppi di risorse e le risorse del progetto di budget nel Busine
 
    * Stimare manualmente la quantità di ore, FTE o valori di costo per ruoli, utenti o progetto.
 
-     Oppure
+     oppure
 
    * Fai clic sull&#39;icona **Opzioni** per il progetto o le mansioni e seleziona un&#39;opzione per preventivare automaticamente le ore per ruoli, utenti o progetto.
 
@@ -180,9 +180,9 @@ Per applicare i gruppi di risorse e le risorse del progetto di budget nel Busine
 
    >[!NOTE]
    >
-   >È possibile preventivare ore, FTE o costi per le risorse per qualsiasi intervallo di tempo visualizzato nell&#39;area Budget risorse, indipendentemente dalla sequenza temporale del progetto. Ad esempio, se vuoi indicare che le risorse potrebbero non essere disponibili durante la timeline del progetto (dove sono associate alle ore pianificate), ma potrebbero essere disponibili in un altro momento, puoi preventivarle per intervalli di tempo in cui le ore pianificate sono zero, se questo è il momento in cui diventano disponibili per lavorare.
+   >È possibile preventivare ore, FTE o costi per le risorse per qualsiasi intervallo di tempo visualizzato nell&#39;area Budget risorse, indipendentemente dalla sequenza temporale del progetto. Ad esempio, se vuoi indicare che le risorse potrebbero non essere disponibili durante la timeline del progetto (dove sono associate alle ore pianificate), ma potrebbero essere disponibili in un altro momento, puoi preventivarle per intervalli temporali in cui le ore pianificate sono zero, se questo è il momento in cui diventano disponibili per lavorare.
 
-1. (Facoltativo) Per capire se è possibile spostare le ore, gli FTE o i costi preventivati in un altro intervallo di tempo, fai clic sull&#39;icona **Opzioni**, quindi **Adegua date budget**.
+1. (Facoltativo) Per capire se è possibile spostare le ore, gli FTE o i costi preventivati in un altro arco temporale, fai clic sull&#39;icona **Opzioni**, quindi **Adegua date budget**.
 
    Per ulteriori informazioni sull&#39;adeguamento delle date preventivate, vedere [Adeguare le date preventivate in Pianificazione risorse](../../../resource-mgmt/resource-planning/adjust-budgeting-dates.md).
 

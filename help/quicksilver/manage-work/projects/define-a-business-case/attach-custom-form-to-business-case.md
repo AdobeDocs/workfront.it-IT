@@ -5,9 +5,9 @@ description: I Forms personalizzati vengono utilizzati per raccogliere informazi
 author: Alina
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -70,19 +70,19 @@ Per informazioni sull&#39;associazione di moduli personalizzati agli oggetti, ve
 
 ## Allegare un Forms personalizzato al caso di business
 
-Per aggiungere un oggetto personalizzato da a un caso di business, l’amministratore di Workfront deve selezionare questa opzione in Configurazione. Per ulteriori informazioni sull&#39;abilitazione dei moduli personalizzati in Configurazione, vedere la sezione [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) nell&#39;articolo [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Per aggiungere un oggetto personalizzato da a un caso di business, l’amministratore di Workfront deve selezionare questa opzione in Configurazione. Per ulteriori informazioni sull&#39;abilitazione dei moduli personalizzati in Configurazione, vedere [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 Per allegare un modulo personalizzato:
 
-1. Vai al progetto a cui vuoi allegare il modulo, quindi fai clic su **Business Case** nel pannello a sinistra.
+1. Vai al progetto a cui vuoi allegare il modulo, quindi fai clic su **Business Case** nel pannello a sinistra. Viene visualizzato il Business Case (Caso di business).
 
-   Viene visualizzato il Business Case (Caso di business).
+1. Nella sezione **Modulo personalizzato** selezionare il modulo personalizzato che si desidera allegare dal menu a discesa. Il modulo personalizzato viene visualizzato nella sezione **Moduli aggiunti** di seguito.
 
-1. Nella sezione **Modulo personalizzato** selezionare il modulo personalizzato che si desidera allegare dal menu a discesa.
+1. (Facoltativo) Per espandere i dettagli del modulo personalizzato, fai clic sulla freccia a sinistra del nome del modulo personalizzato.
 
-   <!--![Custom forms dropdown](assets/custom-forms-drop-down-menu.png)-->
+   ![Espandi dettagli modulo personalizzato](assets/expand-custom-form-details.png)
 
-1. (Facoltativo) Seleziona **Modifica Modulo Personalizzato**.\
-   <!--![Edit custom form](assets/acf1-350x122.png)-->
+<!--1. (Optional) Select&nbsp;**Edit Custom Form**.  
+  ![Edit custom form](assets/acf1-350x122.png)
 
-1. (Facoltativo) Specifica le informazioni nei campi del modulo personalizzato, quindi fai clic su **Salva** .
+1. (Optional) Specify information in the fields of the custom form, then click&nbsp;**Save** . -->
