@@ -5,9 +5,9 @@ description: È possibile utilizzare l’intelligenza artificiale per compilare 
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: b8c29ecb30dda449bc604f585a06b5a6663994f9
+source-git-commit: 3351a928ba20d1509f99a63c98b3e106c58fb43f
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1336'
 ht-degree: 2%
 
 ---
@@ -121,41 +121,54 @@ Per utilizzare i suggerimenti basati su un prompt di testo incollato:
 
 Questi esempi mostrano i prompt per vari modi in cui l’intelligenza artificiale può fare riferimento ad altri progetti.
 
-* Riferimento a una campagna cliente passata
+#### Riferimento a una campagna cliente passata
 
-  ```
-  Create a similar campaign request as we did for (Client Company)'s Q2 launch, but this time for their Automotive division. Keep the same deliverable set and audience profile.
-  ```
+>[!BEGINSHADEBOX]
 
-* Basato su un progetto esistente
+Crea una richiesta di campagna simile a quella fatta per il lancio di (Client Company) nel secondo trimestre, ma questa volta per la loro divisione Automotive. Mantenere lo stesso set di risultati finali e lo stesso profilo di pubblico.
 
-  ```
-  Use the same setup we had in the (Client Company) project kickoff last spring. I want to run a digital ad campaign targeting the same executive audience, but with updated dates for this quarter.
-  ```
+>[!ENDSHADEBOX]
 
-* Riutilizzo di uno stile da un risultato finale passato
+#### Basato su un progetto esistente
 
-  ```
-  Prepare a request similar to the (Client Company) summer promotion campaign we ran last year. Focus on social media assets, keep Spanish as the primary language, and adjust the budget to $75,000.
-  ```
+>[!BEGINSHADEBOX]
 
-* Espansione su un tipo di campagna precedente
+Utilizza la stessa configurazione adottata nell’avvio del progetto (Società cliente) la scorsa primavera. Voglio eseguire una campagna pubblicitaria digitale indirizzata allo stesso pubblico esecutivo, ma con date aggiornate per questo trimestre.
 
-  ```
-  Take the (Client Company) webinar series campaign from Q1 as a reference. I want the same registration workflow and assets, but this time the topic is 'AI in Financial Planning' and the audience is young professionals.
-  ```
+>[!ENDSHADEBOX]
 
-* Ripetizione di una richiesta per un prodotto diverso
+#### Riutilizzo di uno stile da un risultato finale passato
 
-  ```
-  Set up a campaign request just like the (Client Company) rebranding project we handled, but replace with (New Client Company) as the client. Keep all deliverables aligned to corporate branding.
-  ```
+>[!BEGINSHADEBOX]
 
-* Stile narrativo con riferimenti impliciti
+Prepara una richiesta simile alla campagna di promozione estiva (Azienda cliente) che abbiamo eseguito l’anno scorso. Concentrati sugli asset dei social media, mantieni lo spagnolo come lingua principale e regola il budget a 75.000 dollari.
 
-  ```
-  We're planning a campaign similar to the holiday social ads we ran last year. Budget should be about 50k, goal is lead generation, and deliverables should include Instagram and TikTok assets.
-  ```
+>[!ENDSHADEBOX]
+
+#### Espansione su un tipo di campagna precedente
+
+>[!BEGINSHADEBOX]
+
+Prendi come riferimento la campagna della serie di webinar (Azienda cliente) dal primo trimestre. Voglio lo stesso flusso di lavoro di registrazione e le stesse risorse, ma questa volta l&#39;argomento è &quot;IA in Financial Planning&quot; e il pubblico è composto da giovani professionisti.
+
+>[!ENDSHADEBOX]
+
+#### Ripetizione di una richiesta per un prodotto diverso
+
+>[!BEGINSHADEBOX]
+
+Imposta una richiesta di campagna come il progetto di rebranding (Società cliente) gestito da, ma sostituisci con (Nuova società cliente) come cliente. Mantenere tutti i servizi forniti allineati al branding aziendale.
+
+>[!ENDSHADEBOX]
+
+#### Stile narrativo con riferimenti impliciti
+
+>[!BEGINSHADEBOX]
+
+Stiamo pianificando una campagna simile agli annunci sociali per le feste che abbiamo fatto l&#39;anno scorso. Il budget dovrebbe essere di circa 50.000, l’obiettivo è la generazione di lead e i risultati finali dovrebbero includere le risorse Instagram e TikTok.
+
+>[!ENDSHADEBOX]
+
 
 ## Ottieni suggerimenti in base a un documento caricato
 
