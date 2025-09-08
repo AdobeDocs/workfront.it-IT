@@ -4,9 +4,10 @@ description: Altri miglioramenti durante il periodo di rilascio del quarto trime
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f7dcae5e6bcc8674ef37ef94282c50dc9ffe951d
+exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
+source-git-commit: e3c69f893785a1a09aaca3743f8538525e900d5d
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -25,9 +26,8 @@ Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rila
 >* Versione rapida di produzione: 11 settembre 2025
 >* Produzione per tutti i clienti: 16 ottobre 2025
 
-Con il layout avanzato degli elenchi, puoi utilizzare filtri e raggruppamenti per visualizzare i tuoi lavori e mantenerli meglio organizzati. Ora viene visualizzato un indicatore a punti blu sopra un widget per indicare quando è stato applicato un filtro o un raggruppamento a un elenco nelle seguenti aree:
+Con il layout avanzato degli elenchi, puoi utilizzare filtri e raggruppamenti per visualizzare i tuoi lavori e mantenerli meglio organizzati. Ora viene visualizzato un indicatore a punti blu sopra un widget per comunicare quando un filtro o un raggruppamento è stato applicato a un elenco nelle seguenti aree:
 
-* Tassi di cambio in configurazione
 * Widget Richieste personali
 * Priorità
 
