@@ -4,10 +4,10 @@ description: Questo è un articolo interno del nostro team per tenere un inventa
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 4745b93e02c9de087afbee752e0303280e52d688
+source-git-commit: 12b7638472b2138896a283283d368b4092a1e67b
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 1%
+source-wordcount: '1138'
+ht-degree: 2%
 
 ---
 
@@ -420,10 +420,10 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
 
 
-Per informazioni sulle licenze di Adobe Workfront Fusion, vedere [Licenze di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Per informazioni sulle licenze di Adobe Workfront Fusion, vedere [Licenze di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 ## Controlli Enterprise avanzati
 
@@ -450,3 +450,37 @@ Controlli Enterprise avanzati:
 * Assegna amministratori di gruppi ai sottogruppi
 * Consenti agli amministratori dei gruppi di creare sottogruppi
 
+## Requisiti di accesso per la verifica
+
+## Requisiti di accesso
+
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
+   <td> <p>Qualsiasi</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td>  <p>Standard</p>
+   <p>Lavoro o piano</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Profilo autorizzazione bozza </td> 
+   <td>Manager o superiore</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Ruolo bozza</td> 
+   <td>Revisore, Revisore e Approvatore, Moderatore, Autore</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modifica accesso ai documenti</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
