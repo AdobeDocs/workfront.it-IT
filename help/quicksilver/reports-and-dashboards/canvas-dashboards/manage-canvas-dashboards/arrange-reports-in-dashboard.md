@@ -6,9 +6,9 @@ description: Puoi organizzare la visualizzazione dei rapporti in un dashboard di
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 60f68ebd-6b98-476d-84b6-a6a2dce90d93
-source-git-commit: 8fdf48c5b17a17e4dd1ef2e441659155ae0b9905
+source-git-commit: 56d0b9281387cc7b35055461e7868c7e4a194f81
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '355'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,8 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica della versione beta di Canvas Dashboards.<br>
->&#x200B;>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
+>>In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
 >
 >* Porta la tua chiave per Amazon Web Services
 >* Azure
