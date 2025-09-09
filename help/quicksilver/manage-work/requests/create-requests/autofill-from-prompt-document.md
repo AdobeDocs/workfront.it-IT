@@ -5,7 +5,7 @@ description: È possibile utilizzare l’intelligenza artificiale per compilare 
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 3351a928ba20d1509f99a63c98b3e106c58fb43f
+source-git-commit: 6aab36ee2839fdf32f5606d2070d1e52d7f44753
 workflow-type: tm+mt
 source-wordcount: '1336'
 ht-degree: 2%
@@ -125,7 +125,7 @@ Questi esempi mostrano i prompt per vari modi in cui l’intelligenza artificial
 
 >[!BEGINSHADEBOX]
 
-Crea una richiesta di campagna simile a quella fatta per il lancio di (Client Company) nel secondo trimestre, ma questa volta per la loro divisione Automotive. Mantenere lo stesso set di risultati finali e lo stesso profilo di pubblico.
+Crea una richiesta di campagna simile a quella fatta per il lancio del secondo trimestre (società cliente), ma questa volta per la divisione Automotive. Mantenere lo stesso set di risultati finali e lo stesso profilo di pubblico.
 
 >[!ENDSHADEBOX]
 
@@ -133,7 +133,7 @@ Crea una richiesta di campagna simile a quella fatta per il lancio di (Client Co
 
 >[!BEGINSHADEBOX]
 
-Utilizza la stessa configurazione adottata nell’avvio del progetto (Società cliente) la scorsa primavera. Voglio eseguire una campagna pubblicitaria digitale indirizzata allo stesso pubblico esecutivo, ma con date aggiornate per questo trimestre.
+Utilizza la stessa configurazione adottata per l’avvio del progetto (nome progetto) la scorsa primavera. Voglio eseguire una campagna pubblicitaria digitale indirizzata allo stesso pubblico esecutivo, ma con date aggiornate per questo trimestre.
 
 >[!ENDSHADEBOX]
 
@@ -141,7 +141,7 @@ Utilizza la stessa configurazione adottata nell’avvio del progetto (Società c
 
 >[!BEGINSHADEBOX]
 
-Prepara una richiesta simile alla campagna di promozione estiva (Azienda cliente) che abbiamo eseguito l’anno scorso. Concentrati sugli asset dei social media, mantieni lo spagnolo come lingua principale e regola il budget a 75.000 dollari.
+Prepara una richiesta simile alla campagna di promozione estiva (società cliente) che abbiamo eseguito l’anno scorso. Concentrati sugli asset dei social media, mantieni lo spagnolo come lingua principale e regola il budget a 75.000 dollari.
 
 >[!ENDSHADEBOX]
 
@@ -149,7 +149,7 @@ Prepara una richiesta simile alla campagna di promozione estiva (Azienda cliente
 
 >[!BEGINSHADEBOX]
 
-Prendi come riferimento la campagna della serie di webinar (Azienda cliente) dal primo trimestre. Voglio lo stesso flusso di lavoro di registrazione e le stesse risorse, ma questa volta l&#39;argomento è &quot;IA in Financial Planning&quot; e il pubblico è composto da giovani professionisti.
+Prendi come riferimento la campagna della serie di webinar (nome della campagna) dal primo trimestre. Voglio lo stesso flusso di lavoro di registrazione e le stesse risorse, ma questa volta l&#39;argomento è &quot;IA in Financial Planning&quot; e il pubblico è composto da giovani professionisti.
 
 >[!ENDSHADEBOX]
 
@@ -157,7 +157,7 @@ Prendi come riferimento la campagna della serie di webinar (Azienda cliente) dal
 
 >[!BEGINSHADEBOX]
 
-Imposta una richiesta di campagna come il progetto di rebranding (Società cliente) gestito da, ma sostituisci con (Nuova società cliente) come cliente. Mantenere tutti i servizi forniti allineati al branding aziendale.
+Imposta una richiesta di campagna come il progetto di rebranding (società cliente) gestito da, ma sostituisci con (nuova società cliente) come cliente. Mantenere tutti i servizi forniti allineati al branding aziendale.
 
 >[!ENDSHADEBOX]
 
