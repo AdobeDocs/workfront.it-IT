@@ -5,9 +5,9 @@ description: Puoi controllare quali livelli di accesso nell’organizzazione han
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: d5693657695b2c0e89a69afc8cf90b34d2036f3e
+source-git-commit: d929599ccdbfb90d731a3dfb9d83d3eb54d345ea
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '218'
 ht-degree: 1%
 
 ---
@@ -60,6 +60,3 @@ Per abilitare l&#39;Assistente AI per un determinato livello di accesso:
 1. Fai clic su **Salva**.
 1. Ripeti i passaggi 3-5 per ogni livello di accesso per il quale desideri abilitare l’Assistente AI.
 
->[!NOTE]
->
->Man mano che le funzioni di intelligenza artificiale vengono aggiunte a Workfront, alcune di esse diventeranno fondamentali per il funzionamento di Workfront. La possibilità di disattivare tutte le funzioni di intelligenza artificiale diventerà probabilmente obsoleta nel prossimo futuro.
