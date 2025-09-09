@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: c7c958b09caf7e15f128a729f6b327f6c3fa21e8
+source-git-commit: 9be63f4242db71b2e08ae528f39d639f8f59c75c
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rila
 >* Versione rapida di produzione: 11 settembre 2025
 >* Produzione per tutti i clienti: 16 ottobre 2025
 
-Per semplificare l’esperienza di richiesta unificata, la colonna Stato ora visualizza sia lo stato della richiesta che lo stato di approvazione, a seconda di quale sia il valore applicato a una determinata richiesta.
+Per semplificare l’esperienza di richiesta unificata, la colonna Stato visualizza ora sia lo stato della richiesta che lo stato di approvazione, a seconda di quale sia il valore applicato a una determinata richiesta.
 
 Per ulteriori informazioni sulla creazione delle richieste, consulta:
 
