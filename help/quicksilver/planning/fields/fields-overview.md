@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '481'
 ht-degree: 2%
 
 ---
@@ -69,7 +69,7 @@ In Adobe Workfront Planning è possibile aggiungere nuovi campi che riflettono i
          * Stato. I valori predefiniti per gli stati dei record sono:
             * Sviluppo
             * Pianificato
-            * Attiva
+            * Attivo
             * Completato
             * In sospeso
 
@@ -94,3 +94,5 @@ In Adobe Workfront Planning è possibile aggiungere nuovi campi che riflettono i
 * I nomi dei campi possono contenere fino a 250 caratteri.
 
 * Durante l’eliminazione di un tipo di record o di un’area di lavoro, vengono eliminati anche tutti i campi ad essi associati e i relativi valori, che non possono essere recuperati. <!-- this might change with a possible recycle bin solution?!-->
+* Quando si eliminano campi che fanno parte di un&#39;espressione di formula, il campo della formula cambia.
+* Quando si modifica un&#39;espressione di formula e tale campo viene utilizzato come riferimento in altri campi formula, vengono interessate anche le formule aggiuntive.

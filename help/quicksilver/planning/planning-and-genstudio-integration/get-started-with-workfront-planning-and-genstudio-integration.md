@@ -4,9 +4,9 @@ description: L’area di lavoro GenStudio for Performance Marketing è disponibi
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
+source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1899'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Affinché l&#39;integrazione tra Workfront Planning e GenStudio for Performance 
    <td role="rowheader"><p>Ruoli utente di Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Qualsiasi ruolo utente di GenStudio per accedere a Campagne, Prodotti e Utenti tipo</li>
    <li>GenSudio System Manager per accedere ad attivazioni ed eventi</li></ul>
-   Per informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Ruoli utente e autorizzazioni</a>. 
+   Per informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Ruoli utente e autorizzazioni</a>. 
    </p>
   </td> 
   </tr>   
@@ -146,15 +146,18 @@ A seconda del numero di istanze di Workfront dell&#39;organizzazione, si dispone
     <td role="rowheader"><p>Un’istanza di Workfront</p></td> 
    <td> 
 <p>L'area di lavoro di GenStudio è visibile nell'istanza di Workfront Planning</p>
-<p>Gli amministratori di Workfront dispongono delle autorizzazioni di gestione per l'area di lavoro di GenStudio in Planning</p>
-<p>Tutti gli altri utenti dispongono dell'accesso Contribute all'area di lavoro di GenStudio in Planning</p>
+<p>Per impostazione predefinita, tutti gli utenti, inclusi gli amministratori di Workfront, hanno accesso all'area di lavoro di GenStudio in Planning</p>
+<p>Gli amministratori di Workfront possono modificare e concedere a chiunque le autorizzazioni Gestione nell’area di lavoro di GenStudio</p>
 </td> </tr>
    <tr> 
 <td> 
    <p> Più istanze di Workfront</p> </td> 
    <td> 
    <p>L’area di lavoro di GenStudio è visibile da tutte le istanze di Workfront</p>
-<p>Tutti gli utenti con accesso a GenStudio for Performance Marketing e Workfront Planning dispongono delle autorizzazioni Contribute per GenStudio in Planning</p> </td> 
+<p>Per impostazione predefinita, tutti gli utenti con accesso a GenStudio for Performance Marketing e Workfront Planning dispongono delle autorizzazioni Contribute per GenStudio in Planning</p> 
+<p>Gli amministratori di Workfront non possono concedere a nessuno le autorizzazioni di gestione per l’area di lavoro di GenStudio</p>
+
+</td> 
   </tr>
    </tbody> 
 </table>
@@ -199,6 +202,8 @@ Le sezioni seguenti descrivono:
    * Modificare le informazioni sui tipi di record di GenStudio (aspetto e impostazioni avanzate).
    * Condividere tipi di record GenStudio con altri utenti.
    * Creare tipi di record. Questi tipi di record rimangono solo in Workfront Planning. Non vengono visualizzati in GenStudio.
+   * Consente ai record dell&#39;area di lavoro di GenStudio di connettersi da altre aree di lavoro.
+   * Consente di aggiungere record dall&#39;area di lavoro di GenStudio ad altre aree di lavoro.
 * Se si dispone delle autorizzazioni Contribute per l&#39;area di lavoro di GenStudio in Planning, non è possibile modificare i tipi di record di GenStudio da Planning.
 
 ### Record nell’area di lavoro di GenStudio
