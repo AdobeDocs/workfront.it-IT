@@ -182,7 +182,7 @@ Per ulteriori informazioni sulla creazione manuale di una scheda orario, vedere 
     </tbody> 
     </table>
 
-1. <!--In the Production environment, or when creating group-level timesheet profiles,--> Fare clic sulla scheda **Assegna persone** per associare il profilo scheda orario a utenti, gruppi o team specifici (se si è un amministratore Workfront). <!--Keep the reference to the group upon release to Prod-->
+1. &#x200B;<!--In the Production environment, or when creating group-level timesheet profiles,--> Fare clic sulla scheda **Assegna persone** per associare il profilo scheda orario a utenti, gruppi o team specifici (se si è un amministratore Workfront). <!--Keep the reference to the group upon release to Prod-->
 
    <!--<span class="preview">In the Preview environment when creating timesheet profiles for the system, scroll towards the bottom of the page to find the Assign People section.</span>--> <!--Keep the reference to the system when releasing to Prod-->
 
