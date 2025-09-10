@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: f9e1bfc5670754a8fc4aafb360b41c2721de4154
+source-git-commit: a6aa03157d44da8267faaa77bed83f07a03a24b3
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Questo aggiornamento presenta anche modifiche all’aspetto della pagina.
 
 Quando utilizzi la nuova esperienza di richiesta, tieni presente quanto segue:
 
-* Le bozze si trovano ora nello stesso elenco delle richieste inviate
+* Al momento è possibile trovare le bozze solo nell’esperienza di richiesta legacy. Nella nuova esperienza è possibile visualizzare le bozze solo quando si trova in una coda di flusso di lavoro, se si dispone di una bozza nello stesso percorso.
 * La nuova esperienza mostra attualmente solo le richieste create negli ultimi 1,5 mesi. Per visualizzare le richieste meno recenti, puoi disabilitare temporaneamente la nuova esperienza e accedere alle richieste meno recenti tramite la vecchia esperienza.
 
 In precedenza, le richieste di Workfront e Workfront Planning si trovavano in schede separate e i filtri non erano personalizzabili.
