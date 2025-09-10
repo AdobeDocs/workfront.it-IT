@@ -7,10 +7,10 @@ feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
 hide: true
 hidefromtoc: true
-source-git-commit: 97b2118b1897f75dea0e45758e3d7f7c3409b234
+source-git-commit: 16e8213197e881d4d7b1a4b1bf8d3a43438ab938
 workflow-type: tm+mt
-source-wordcount: '1862'
-ht-degree: 0%
+source-wordcount: '1488'
+ht-degree: 2%
 
 ---
 
@@ -121,18 +121,47 @@ Di seguito sono riportate le condizioni disponibili che l&#39;Assistente IA asse
     <tr>
         <td><b>Condizione progetto</b></td>
         <td><b>Stato avanzamento progetto</b></td>
+        <td><b>Fattori condizione progetto</b></td>
     </tr>
     <tr>
         <td>Puntuale</td>
-        <td>Quando lo stato di avanzamento del progetto è Puntuale, la condizione del progetto è Puntuale.</td>
+        <td>Questa analisi viene assegnata quando il livello di rischio medio per i seguenti fattori rientra nella soglia valida.
+        </td>
+        <td> 
+        <ul><li>Scope creep</li>
+        <li>Campi mancante</li>
+        <li>Pianifica modifiche</li>
+        <li>Lavoro sottovalutato</li>
+        <li>Avanzamento del progetto</li>
+        <li>Attività scadute</li>
+        <li>Budget</li>
+        </ul></td>
     </tr>
     <tr>
         <td>A Rischio</td>
-        <td>Quando lo stato di avanzamento del progetto è In ritardo o A rischio, la condizione del progetto è A rischio.</td>
+        <td>Questa analisi viene assegnata quando il livello di rischio medio per i seguenti fattori scende appena al di sotto della soglia valida.</td>
+        <td>
+        <ul><li>Scope creep</li>
+        <li>Campi mancante</li>
+        <li>Pianifica modifiche</li>
+        <li>Lavoro sottovalutato</li>
+        <li>Avanzamento del progetto</li>
+        <li>Attività scadute</li>
+        <li>Budget</li>
+        </ul></td>
     </tr>
     <tr>
         <td>In difficoltà</td>
-        <td>Quando lo stato di avanzamento del progetto è In ritardo, la condizione del progetto è A rischio.</td>
+        <td>Questa analisi viene assegnata quando il livello di rischio medio per i seguenti fattori scende al di sotto della soglia valida.</td>
+        <td>
+        <ul><li>Scope creep</li>
+        <li>Campi mancante</li>
+        <li>Pianifica modifiche</li>
+        <li>Lavoro sottovalutato</li>
+        <li>Avanzamento del progetto</li>
+        <li>Attività scadute</li>
+        <li>Budget</li>
+        </ul></td>
     </tr>
     </tr>
    </table>
@@ -264,57 +293,60 @@ Un progetto verrà incluso nella valutazione combinata dello stato del progetto 
 
 1. Dopo aver esaminato i dettagli di integrità dei progetti, fai clic sull&#39;icona **Chiudi** ![Chiudi](assets/close-icon.png) nell&#39;angolo superiore destro dell&#39;Assistente IA per chiuderlo.
 
+<!--
 
-## Creare un report di tabella di stato del progetto in un dashboard Area di lavoro
+## Build a Project Health table report in a Canvas Dashboard
 
 >[!IMPORTANT]
 >
->La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Per ulteriori informazioni, vedere [Informazioni sulla versione beta delle dashboard di Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>The Canvas Dashboards feature is currently only available for users participating in the beta stage. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md). 
 
-Puoi aggiungere un rapporto di tabella a un dashboard di Canvas per visualizzare facilmente i dati di Project Health in formato tabella.
+You can add a table report to a Canvas Dashboard in order to easily visualize your Project Health data in a table format.  
 
-### Prerequisiti
+### Prerequisites 
 
-È necessario creare un dashboard prima di creare un rapporto di tabella.
+You must create a dashboard before you can build a table report. 
 
-Per ulteriori informazioni, vedere [Creare un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
+For more, see [Create a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
-### Creare un report di tabella di stato del progetto
+### Build a Project Health table report 
 
-Sono disponibili molte opzioni di configurazione per la creazione di un report della tabella Integrità progetto. In questa sezione ti guideremo nel processo di creazione di un sito che visualizzi le seguenti colonne:
+There are many configuration options available for building a Project Health table report. In this section, we'll walk you through the process of creating one that displays the following columns: 
 
-* **Nome**: contiene il nome del progetto.
-* **Analisi integrità progetto**: contiene un riepilogo della valutazione dell&#39;integrità del progetto.
-* **Integrità del progetto creata alle**: contiene la data/ora dell&#39;ultima generazione della valutazione dell&#39;integrità del progetto.
-* **Etichetta integrità progetto**: contiene l&#39;etichetta del progetto (ad esempio Su Target, A Rischio, O In Difficoltà).
+* **Name**: Contains the project name. 
+* **Project Health Analysis**: Contains a summary of the Project Health assessment. 
+* **Project Health Created At**: Contains the date/time when the Project Health assessment was last generated. 
+* **Project Health Label**: Contains the project's label (e.g. On Target, At Risk, or In Trouble).
 
 {{step1-to-dashboards}}
 
-1. Nel pannello a sinistra, fai clic su **Dashboard Canvas**.
-1. Nell&#39;angolo superiore destro fare clic su **Nuovo dashboard**.
-1. Nella casella **Crea dashboard** immettere il **Nome** e la **Descrizione** del dashboard.
-1. Fai clic su **Crea**.
-1. Nella casella **Aggiungi report** selezionare **Crea report**.
-1. Sul lato sinistro, selezionare **Tabella**.
-1. Nell&#39;angolo superiore destro fare clic su **Crea report**.
-1. (Facoltativo) Segui i passaggi seguenti per configurare la sezione **Dettagli** ![Icona Dettagli](assets/details-icon.png):
-   1. Immetti un rapporto **Nome**.
-   1. Immetti un rapporto **Descrizione**.
-1. Segui i passaggi seguenti per configurare la sezione **Tabella di compilazione** ![Icona tabella di compilazione](assets/drilldown-column.png):
-   1. Nel pannello a sinistra, fai clic sull&#39;icona **Colonne tabella**.
-   1. Fai clic su **Aggiungi colonna**, quindi seleziona **Progetto** > **Nome**.
-   1. Fai clic su **Aggiungi colonna**, quindi seleziona **Progetto** > **Integrità progetto** > **Analisi integrità**.
-   1. Fai clic su **Aggiungi colonna**, quindi seleziona **Progetto** > **Integrità progetto** > **Creato alle**.
-   1. Fai clic su **Aggiungi colonna**, quindi seleziona **Progetto** > **Integrità progetto** > **Etichetta integrità**.
+1. In the left panel, click **Canvas Dashboards**. 
+1. In the upper-right corner, click **New Dashboard**. 
+1. In the **Create dashboard** box, enter the dashboard's **Name** and **Description**. 
+1. Click **Create**. 
+1. In the **Add report** box, select **Create report**. 
+1. On the left side, select **Table**. 
+1. In the upper-right corner, click **Create report**. 
+1. (Optional) Follow the steps below to configure the **Details** ![Details icon](assets/details-icon.png) section: 
+    1. Enter a report **Name**. 
+    1. Enter a report **Description**. 
+1. Follow the steps below to configure the **Build table** ![Build table icon](assets/drilldown-column.png) section: 
+    1. In the left panel, click the **Table columns** icon. 
+    1. Click **Add column**, then select **Project** > **Name**. 
+    1. Click **Add column**, then select **Project** > **Project Health** > **Health Analysis**. 
+    1. Click **Add column**, then select **Project** > **Project Health** > **Created At**. 
+    1. Click **Add column**, then select **Project** > **Project Health** > **Health Label**. 
 
-1. Segui i passaggi seguenti per configurare la sezione **Filtro** ![Icona filtro](assets/filter-icon.png):
-   1. Nel pannello a sinistra, fai clic sull&#39;icona **Filtro**.
-   1. Selezionare **Modifica filtro**.
-   1. Fare clic su **Aggiungi condizione** e quindi specificare il campo in base al quale si desidera filtrare e il modificatore che definisce il tipo di condizione che il campo deve soddisfare. La colonna viene visualizzata nella sezione di anteprima a destra.
-   1. (Facoltativo) Fai clic su **Aggiungi gruppo di filtri** per aggiungere un altro set di criteri di filtro. L&#39;operatore di default tra i set è AND. Fai clic sull’operatore per modificarlo in O.
+1. Follow the steps below to configure the **Filter** ![Filter icon](assets/filter-icon.png) section: 
+    1. In the left panel, click the **Filter** icon. 
+    1. Select **Edit filter**. 
+    1. Click **Add condition** and then specify the field you want to filter by and the modifier that defines what kind of condition the field must meet. The column appears in the preview section on the right.
+    1. (Optional) Click **Add filter group** to add another set of filtering criteria. The default operator between the sets is AND. Click the operator to change it to OR. 
 
-1. Segui i passaggi seguenti per configurare la sezione **Impostazioni gruppo di espansione** ![Impostazioni gruppo](assets/drilldown-group-icon.png):
-   1. Nel pannello a sinistra, fai clic sull&#39;icona **Impostazioni gruppo**.
-   1. Fare clic sul pulsante **Aggiungi raggruppamento** e quindi selezionare il campo da creare come raggruppamento. La colonna di raggruppamento viene visualizzata nella sezione di anteprima a destra.
+1. Follow the steps below to configure the **Drilldown Group Settings** ![Group settings](assets/drilldown-group-icon.png) section: 
+    1. In the left panel, click the **Group Settings** icon. 
+    1. Click the **Add grouping** button and then select the field you want to create as a grouping. The grouping column appears in the preview section on the right. 
 
-1. Fai clic su **Salva** per creare il report.
+1. Click **Save** to create the report.
+
+-->
