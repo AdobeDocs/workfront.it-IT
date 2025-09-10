@@ -6,14 +6,16 @@ description: Oltre a utilizzare le bozze disponibili suggerite da Workfront quan
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
+source-git-commit: 2c2ccbadd6470773808bbd5a205310fbb1e1944e
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 2%
+source-wordcount: '687'
+ht-degree: 1%
 
 ---
 
 # Creare richieste da bozze
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
 Oltre a utilizzare le bozze disponibili suggerite da Workfront quando si immette una nuova richiesta, è possibile accedere a una bozza di richiesta dalla sezione Bozze e completare l&#39;invio da tale sezione.
 
@@ -105,3 +107,9 @@ Prima di creare una richiesta da una bozza, è necessario effettuare le seguenti
      ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
      Quando si invia la richiesta, la bozza viene eliminata e non può essere ripristinata.
+
+   >[!NOTE]
+   >
+   >* <span class="preview">Nella nuova esperienza di richiesta, le bozze si trovano nello stesso elenco delle richieste inviate.</span>
+   ><span class="preview">Per ulteriori informazioni sulla creazione di richieste nella nuova esperienza, vedere [Creare richieste e generare bozze nell&#39;app Web Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) nell&#39;articolo Creare e inviare richieste.</span>
+

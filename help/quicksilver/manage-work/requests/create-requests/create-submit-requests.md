@@ -6,9 +6,9 @@ description: Il lavoro pianificato è rappresentato in Adobe Workfront dai proge
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
+source-git-commit: 2c2ccbadd6470773808bbd5a205310fbb1e1944e
 workflow-type: tm+mt
-source-wordcount: '2841'
+source-wordcount: '2856'
 ht-degree: 1%
 
 ---
@@ -163,6 +163,7 @@ Per creare una richiesta nell’app web Workfront:
    >* <span class="preview">L&#39;elenco include sia le code di richiesta di Workfront che i moduli di richiesta di Workfront Planning.</span>
    >* <span class="preview">È possibile filtrare l&#39;elenco per tipo di oggetto.</span>
    >* <span class="preview">Per visualizzare solo le code di richieste di Workfront, filtrare per `Issue` tipi di oggetto.</span>
+   >* <span class="preview">Nella nuova esperienza di richiesta, le bozze si trovano nello stesso elenco delle richieste inviate.</span>
 
 1. (Condizionale) Se si è passati alla nuova esperienza che include Workfront Planning, selezionare i gruppi di argomenti e gli argomenti della coda e continuare ad aggiornare il modulo.
 
