@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: 9be63f4242db71b2e08ae528f39d639f8f59c75c
+source-git-commit: f9e1bfc5670754a8fc4aafb360b41c2721de4154
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,11 @@ Per migliorare l’esperienza utente nell’esecuzione delle richieste in Workfr
 * Nascondi e riordina le colonne nell’elenco delle richieste inviate.
 
 Questo aggiornamento presenta anche modifiche all’aspetto della pagina.
+
+Quando utilizzi la nuova esperienza di richiesta, tieni presente quanto segue:
+
+* Le bozze si trovano ora nello stesso elenco delle richieste inviate
+* La nuova esperienza mostra attualmente solo le richieste create negli ultimi 1,5 mesi. Per visualizzare le richieste meno recenti, puoi disabilitare temporaneamente la nuova esperienza e accedere alle richieste meno recenti tramite la vecchia esperienza.
 
 In precedenza, le richieste di Workfront e Workfront Planning si trovavano in schede separate e i filtri non erano personalizzabili.
 
