@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '3910'
+source-wordcount: '3920'
 ht-degree: 2%
 
 ---
@@ -114,13 +114,6 @@ Considera quanto segue:
    * Quando le date di inizio o fine non hanno valore
    * Quando la data di inizio è successiva alla data di fine
 
-<div class="preview">
-
-* È possibile creare e modificare i record nella vista timeline. Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
-* È possibile ridimensionare le barre dei record nella visualizzazione timeline facendo clic su, quindi trascinando e rilasciando i margini in una nuova posizione. Il ridimensionamento delle barre dei record ne aggiorna immediatamente le date di inizio e di fine. Per informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
-
-</div>
-
 Per gestire una vista timeline:
 
 1. Passare alla pagina del tipo di record per la quale si desidera visualizzare la sequenza temporale.
@@ -203,6 +196,20 @@ Per gestire una vista timeline:
 1. (Facoltativo) Fai clic su **Raggruppamento** per visualizzare i record connessi nella timeline.
 
    Per informazioni, vedere la sezione [Utilizzare la funzionalità di raggruppamento per visualizzare i record connessi nella visualizzazione della sequenza temporale](#break-down-connected-records-in-the-timeline-view) in questo articolo.
+1. <span class="preview">Per creare record nella visualizzazione della sequenza temporale o modificarne le date, eseguire una delle operazioni seguenti:</span>
+
+   * <span class="preview">Fare doppio clic in un punto qualsiasi della sequenza temporale per creare un record. </span>
+
+     <span class="preview">Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).</span>
+
+   * <span class="preview">Fare clic alla fine della barra dei record, quindi trascinarla e rilasciarla in una nuova posizione. Il ridimensionamento delle barre dei record ne aggiorna immediatamente le date di inizio e di fine. </span>
+
+     <span class="preview">Per informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).</span>
+
+   <!--* <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
+        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
+
+
 
 ### Aggiungere filtri
 

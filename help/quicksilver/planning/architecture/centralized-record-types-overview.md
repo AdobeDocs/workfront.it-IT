@@ -3,7 +3,7 @@ title: Panoramica dei tipi di record centralizzati
 description: I tipi di record centralizzati possono essere aggiunti a più aree di lavoro da un'area di lavoro centrale o principale in Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
-source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%
@@ -96,7 +96,7 @@ Il tipo di record configurato per essere centralizzato ha le seguenti proprietà
 
    * Modifica
 
-     Non è possibile modificarne l&#39;aspetto, le funzionalità tra aree di lavoro o i campi importati dall&#39;area di lavoro originale.
+     Non è possibile modificarne l’aspetto, le funzionalità tra aree di lavoro diverse o i campi aggiunti dall’area di lavoro originale.
    * Creare moduli di richiesta
    * Gestisci i moduli di richiesta
 

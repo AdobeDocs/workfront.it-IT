@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '1211'
-ht-degree: 1%
+source-wordcount: '1216'
+ht-degree: 2%
 
 ---
 
@@ -52,7 +52,7 @@ Per ulteriori informazioni sulla gestione delle visualizzazioni record di Workfr
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.
++++ Espandere per visualizzare i requisiti di accesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -119,7 +119,7 @@ Per ulteriori informazioni sulla gestione delle visualizzazioni record di Workfr
 
 *Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Considerazioni durante l&#39;utilizzo delle visualizzazioni record
 
@@ -146,7 +146,7 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
 
 <!--some of these are NOT available right now; if you make this public, comment out the ones not there-->
 
-| Funzionalità | Vista tabella | Vista timeline | Vista calendario |
+| Funzione | Vista tabella | Vista timeline | Vista calendario |
 |-----------------------------------------------------------------------|------------|---------------|--------------|
 | Visualizzare i record in un elenco o in una tabella | ✓ |              | |
 | Visualizza tutti i campi come colonne nella tabella per impostazione predefinita | ✓ |              |    |
@@ -170,6 +170,7 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
 | Visualizza record per settimana |           |               | ✓ |
 | Esportare informazioni da una vista | ✓ |               |    |
 | <span class="preview">Visualizzazione a schermo intero</span> | ✓ | ✓ | ✓ |
+| <span class="preview">Crea record nella visualizzazione</span> | ✓ | ✓ | ✓ |
 
 ## Creare o modificare le viste {#create-or-edit-views}
 
@@ -187,6 +188,12 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
    Per impostazione predefinita, tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
 
 1. Fare clic su **+ Visualizzazione** per aggiungere una nuova visualizzazione.
+
+   <!--at preview release, replace the step above with this one: 
+    1. Depending on which environment you use, do the following: 
+    * In the Production environment, click the **+View** tab. 
+    * <span class="preview">In the Preview environment, click the drop-down icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, then click **+New view**.</span>-->
+
 1. Selezionate uno dei seguenti tipi di vista:
 
    * Tabella
@@ -206,6 +213,8 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
 >
 >In caso contrario, le opzioni Timeline (Timeline) e Calendario (Calendar) vengono disattivate.
 >
+
+<!-- replace screen shot at production??-->
 
 ![Elenco a discesa dei tipi di visualizzazione dall&#39;elenco dei tipi di record](assets/view-types-drop-down-from-record-type-list.png)
 

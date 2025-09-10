@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
 source-wordcount: '2688'
 ht-degree: 0%
@@ -246,6 +246,8 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 1. <span class="preview">Posizionare il puntatore del mouse sulle estremità della barra di un record, quindi fare clic e trascinare il margine fino a un&#39;altra data. Questa operazione aggiorna automaticamente la data di inizio o di fine del record.</span>
 
    <span class="preview">![Barra a sinistra nella visualizzazione della sequenza temporale da ridimensionare](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+
+<!--1. <span class="preview">Click a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>-->
 
 1. Fare clic sulla barra di un record per aprire l&#39;area dei dettagli e modificare tutti i campi.
 

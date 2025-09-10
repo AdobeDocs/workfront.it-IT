@@ -6,7 +6,7 @@ description: Puoi applicare la vista Milestone (Attività cardine) a un elenco o
 author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 5590477efa2beb6590581ce9e5e33e264fb95390
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
 source-wordcount: '1420'
 ht-degree: 1%
@@ -106,7 +106,7 @@ La vista Milestone (Attività cardine) è disponibile negli elenchi dei progetti
 
 Per informazioni su come passare alla vista Milestone, vedere la sezione [Passare alla vista Milestone](#switch-to-the-milestone-view) in questo articolo.
 
-<!--add new screen shot-->
+<!--add new screen shot for preview or prod release-->
 
 ![Progetto con vista milestone](assets/project-with-milestone-view-with-complete.png)
 
@@ -145,7 +145,7 @@ Quando si visualizza l’elenco o il rapporto di un progetto nella vista Milesto
 
   Puoi regolare la percentuale di completamento direttamente dalla vista Milestone, come descritto nella sezione [Regola percentuale di completamento per le attività nella vista Milestone](#adjust-percent-complete-for-tasks-in-the-milestone-view) in questo articolo.
 
-* **Icone di stato avanzamento attività:** Accanto a ogni progetto e attività nella visualizzazione Milestone viene visualizzata un&#39;icona di stato. <!--get new screen shots or hide them - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
+* **Icone di stato avanzamento attività:** Accanto a ogni progetto e attività nella visualizzazione Milestone viene visualizzata un&#39;icona di stato. <!--get new screen shots or hide them for preview or prod - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
 
   <!--A progress status icon in the shape of a colored circle displays next to each project and task in the Milestone view. The possible statuses and circle colors are: 
    * On Time - green
@@ -200,7 +200,7 @@ Quando si visualizza l’elenco o il rapporto di un progetto nella vista Milesto
 
    * Alle colonne Inizio e Completamento non viene assegnata alcuna ombreggiatura colore quando le attività hanno lo stato Avanzamento A rischio o Indietro.
 
-  <!--add new screen shot-->
+  <!--add new screen shot for preview or prod release-->
 
   ![Vista milestone con sfondo](assets/milestone-view-with-shading.png)
 
@@ -240,7 +240,7 @@ Per configurare la visualizzazione delle icone di stato del progetto e della per
 1. Fai clic sul menu a discesa **Visualizza**, quindi fai clic su **Milestone**.
    <!--No longer available: If you are viewing a list of projects inside a Portfolio or a Program, select the **Milestone** subtab.  -->
 
-1. &#x200B;<!--In the Production environment,--> Fai clic su **Opzioni** nell&#39;angolo superiore destro della visualizzazione Milestone.
+1. <!--In the Production environment,--> Fai clic su **Opzioni** nell&#39;angolo superiore destro della visualizzazione Milestone.
 
    <!--<div class="preview">In the Preview environment, select from the options in the next step, from the upper-right corner of the Milestone view.</div>-->
 
@@ -277,6 +277,6 @@ Per regolare la percentuale di completamento di un&#39;attività nella vista Mil
 
 1. (Condizionale) Se le percentuali di completamento non sono visualizzate nella visualizzazione Milestone, abilita la visualizzazione della percentuale di completamento di attività e progetti, come descritto nella sezione [Configura le informazioni visualizzate nella visualizzazione Milestone](#configure-what-information-displays-in-the-milestone-view) in questo articolo.
 
-1. &#x200B;<!--In the Production environment,--> Fare clic sulla percentuale di completamento al di sotto di un&#39;attività, specificare una nuova percentuale, quindi premere Invio.
+1. <!--In the Production environment,--> Fare clic sulla percentuale di completamento al di sotto di un&#39;attività, specificare una nuova percentuale, quindi premere Invio.
 
    <!--<div class="preview">In the Preview environment, move the Percent Complete slide to the new percent complete to update it. </div>-->
