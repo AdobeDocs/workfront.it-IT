@@ -4,9 +4,9 @@ description: È possibile abilitare un tipo di record per l'aggiunta a un'altra 
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 38c397594449856a0f1404848a527b86083654b8
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1134'
 ht-degree: 1%
 
 ---
@@ -118,7 +118,7 @@ Un responsabile dell&#39;area di lavoro può aggiungere un tipo di record centra
 
 Gli utenti possono aggiungere record a un tipo di record centralizzato da qualsiasi area di lavoro per cui dispongono delle autorizzazioni Contribute e in cui viene aggiunto il tipo di record centralizzato, inclusa l&#39;area di lavoro originale. Possono visualizzare i record dall’area di lavoro a cui dispongono solo delle autorizzazioni di visualizzazione.
 
-Per ulteriori informazioni, vedere [Panoramica sui tipi di record centralizzati](/help/quicksilver/planning/architecture/centralized-record-types-overview.md)
+Per ulteriori informazioni, vedere [Panoramica sui tipi di record tra aree di lavoro](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 
 Per configurare l&#39;aggiunta di un tipo di record come tipo di record centralizzato:
 
@@ -179,7 +179,7 @@ Oppure
      Questo campo è di sola lettura e non può essere eliminato.
 1. (Facoltativo) Passare a un&#39;altra area di lavoro e creare un tipo di record utilizzando un tipo di record esistente. Selezionare il tipo di record abilitato nei passaggi precedenti.
 
-   Per informazioni, vedere [Aggiungere tipi di record esistenti](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md).
+   Per informazioni, vedere [Aggiungere tipi di record esistenti da un&#39;altra area di lavoro](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
 ## Configura tipi di record collegabili
 

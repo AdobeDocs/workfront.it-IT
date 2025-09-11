@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
-source-wordcount: '1860'
+source-wordcount: '1874'
 ht-degree: 4%
 
 ---
@@ -111,13 +111,6 @@ Considera quanto segue:
    * Quando le date di inizio o fine non hanno un valore, il record viene visualizzato come evento di un giorno
    * Se la data di inizio è successiva alla data di fine, il record non viene visualizzato nel calendario.
 
-<div class="preview">
-
-* È possibile creare e modificare i record nella vista calendario. Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
-* È possibile ridimensionare le barre dei record nella visualizzazione mensile del calendario facendo clic su, quindi trascinando i margini in una nuova posizione. Il ridimensionamento delle barre dei record ne aggiorna immediatamente le date di inizio e di fine. Per informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
-
-</div>
-
 Per gestire una vista calendario:
 
 1. Passare alla pagina del tipo di record per la quale si desidera visualizzare il calendario.
@@ -141,6 +134,25 @@ Per gestire una vista calendario:
          * I record che durano un giorno o meno vengono visualizzati nella metà inferiore della visualizzazione calendario. Se si è scelto di visualizzare l&#39;ora delle date di inizio e di fine, il record viene visualizzato all&#39;ora appropriata all&#39;interno del giorno in cui si verifica.
 
 1. <span class="preview">(Facoltativo) Fai clic sull&#39;icona **Schermo intero** ![Icona Apri schermo intero](assets/open-full-screen-icon.png) per aprire la visualizzazione a schermo intero, quindi sull&#39;icona **Esci da schermo intero** ![Icona Esci da schermo intero](assets/exit-full-screen-icon.png) o su Esc sulla tastiera per uscire dallo schermo intero.  </span>
+
+1. <span class="preview">Per creare record nella visualizzazione calendario o modificarne le date, eseguire una delle operazioni seguenti:</span>
+
+   * <span class="preview">Fare doppio clic in un punto qualsiasi del calendario per creare un record. </span>
+
+     <span class="preview">Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).</span>
+
+   * <span class="preview">Nella visualizzazione mensile del calendario, fare clic all&#39;estremità di una barra dei record, quindi trascinarla e rilasciarla in una nuova posizione. Il ridimensionamento delle barre dei record ne aggiorna immediatamente le date di inizio e di fine. </span> <!--when resizing in the calendar weekly view is released, modify the sentence above to take out 'monthly', since it will be available in both-->
+
+     <span class="preview">Per informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).</span>
+
+   <!--ADD ONE OF THE FOLLOWING DEPENDING ON WHAT RELEASES: 
+    Scenario 1: drag and drop in the calendar weekly view: 
+    * <span class="preview">In the weekly calendar view, drag and drop records to update their position and dates in the timeline.</span>
+    Scenario 2: drag and drop in the calendar monthly view: 
+    * <span class="preview">In the monthly calendar view, drag and drop records to update their position and dates in the timeline.</span>
+    Scenario 3: drag and drop in the calendar view (both weekly and monthly are supported): 
+    * <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
+        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
 
 1. Aggiornate i seguenti elementi della vista come descritto nelle sottosezioni seguenti:
    * [Filtri](#add-filters)

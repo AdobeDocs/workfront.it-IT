@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 38c397594449856a0f1404848a527b86083654b8
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
 source-wordcount: '3920'
 ht-degree: 2%
@@ -187,12 +187,6 @@ Per gestire una vista timeline:
 
    1. <span class="preview">(Facoltativo) Fai clic sull&#39;icona **Schermo intero** ![Icona Apri schermo intero](assets/open-full-screen-icon.png) per aprire la visualizzazione a schermo intero, quindi sull&#39;icona **Esci da schermo intero** ![Icona Esci da schermo intero](assets/exit-full-screen-icon.png) o su Esc sulla tastiera per uscire dallo schermo intero.  </span>
 
-1. Aggiornate i seguenti elementi della vista come descritto nelle sottosezioni seguenti:
-   * [Filtri](#add-filters)
-   * [Raggruppamento](#add-grouping)
-   * [Impostazioni](#edit-the-timeline-view-settings)
-     <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
-
 1. (Facoltativo) Fai clic su **Raggruppamento** per visualizzare i record connessi nella timeline.
 
    Per informazioni, vedere la sezione [Utilizzare la funzionalità di raggruppamento per visualizzare i record connessi nella visualizzazione della sequenza temporale](#break-down-connected-records-in-the-timeline-view) in questo articolo.
@@ -209,7 +203,11 @@ Per gestire una vista timeline:
    <!--* <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
         <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
 
-
+1. Aggiornate i seguenti elementi della vista come descritto nelle sottosezioni seguenti:
+   * [Filtri](#add-filters)
+   * [Raggruppamento](#add-grouping)
+   * [Impostazioni](#edit-the-timeline-view-settings)
+     <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 
 ### Aggiungere filtri
 
