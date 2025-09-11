@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 2bcba734ebfa8efbef8f401394a576c59ae22d5d
+source-git-commit: dcdd74e8293a5e695600f08536c8fc2ad36c3a31
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,18 @@ ht-degree: 0%
 Questa pagina descrive i miglioramenti per gli amministratori apportati con la versione del quarto trimestre 2025 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del quarto trimestre 2025, consulta [Panoramica sulla versione del quarto trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Visualizzazione amministrazione nuove bacheche
+
+>[!NOTE]
+>
+>* Anteprima: 11 settembre 2025
+>* Versione rapida di produzione: 15 ottobre 2025
+>* Produzione per tutti i clienti: 16 ottobre 2025
+
+La Vista di amministrazione delle bacheche contiene un elenco di tutte le bacheche nel tuo account che gli amministratori di sistema possono utilizzare per ottenere un’istantanea rapida dei dettagli complessivi delle bacheche, tra cui quando sono state aggiornate l’ultima volta, quante schede ciascuna e altro ancora.
+
+Per ulteriori informazioni, consulta [Gestione della visualizzazione di amministrazione delle bacheche](/help/quicksilver/agile/get-started-with-boards/manage-boards-admin-view.md).
 
 ## Abilitare le funzioni di AI Beta per la tua organizzazione
 

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 65012e89-3e3e-42b7-94af-8fa3687501ed
-source-git-commit: 0937f9b1246b92aa080349f0293674455d21ed70
+source-git-commit: 1dc8591dd0da3c3b6030bd643bf80dbe1ee97ea9
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,21 @@ ht-degree: 0%
 Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con la versione del quarto trimestre 2025. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del quarto trimestre 2025, consulta [Panoramica sulla versione del quarto trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Nuova versione beta per l’integrità del progetto
+
+>[!NOTE]
+>
+>* Anteprima: 11 settembre 2025
+>* Produzione per tutti i clienti: 11 settembre 2025
+
+La nuova funzione Project Health utilizza la potenza di AI Assistant per fornire immediatamente una valutazione delle prestazioni dei progetti e delle aree che richiedono la tua attenzione.
+
+L’Assistente AI può generare una valutazione dello stato del progetto per un progetto, un programma e più progetti.
+
+Per ulteriori informazioni, vedere [Panoramica integrità progetto](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
+
+Questa funzione è attualmente in versione beta.
 
 <!--
 ## Create project intake forms in Workfront

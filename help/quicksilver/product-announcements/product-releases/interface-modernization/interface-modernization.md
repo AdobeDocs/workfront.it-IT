@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 09c41ed117660c67c3890ebbaabae73c60cd4a9a
+source-git-commit: abe76998e8d98bf47e45e01ff6b27610955177c5
 workflow-type: tm+mt
-source-wordcount: '7542'
+source-wordcount: '7673'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,16 @@ In questa pagina sono elencati gli aggiornamenti dell’interfaccia che stiamo a
 Per tutte le altre modifiche apportate ad Adobe Workfront, vedi [Versioni del prodotto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Amministrazione e configurazione
+
+### Aggiornamenti dell’interfaccia durante l’aggiunta o la modifica del profilo della scheda orario nell’area Configura
+
+**Versione di anteprima: 11 settembre 2025; versione di produzione: 18 settembre 2025**
+
+È stato aggiornato l’aspetto della pagina Timesheet Ricorrente durante la modifica o l’aggiunta di un Timesheet Ricorrente a livello di sistema.
+
+Per visualizzare queste modifiche, vai a Configurazione > Scheda orario e ore > Profili scheda orario e aggiungi un nuovo profilo o modificane uno esistente.
+
+Per ulteriori informazioni, vedere [Creare, modificare e assegnare profili scheda orario](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ### Aggiornamenti dell’interfaccia per le caselle Nuova e Copia scorecard
 
@@ -153,6 +163,14 @@ Sono stati introdotti aggiornamenti dell’interfaccia durante la modifica dei p
 Per informazioni, vedere [Modifica portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md).
 
 ## Progetti
+
+### Aggiornamenti dell’interfaccia per un elenco o un rapporto di progetto quando si applica la vista Milestone
+
+**Versione di anteprima: 11 settembre 2025; versione di produzione: 18 settembre 2025**
+
+Abbiamo aggiornato l’aspetto di un elenco di progetti o di un rapporto quando applichi loro la vista Milestone.
+
+L’elenco o il rapporto dei progetti ora corrisponde alla progettazione di altre aree di Workfront. Per informazioni, vedere [Utilizzare la vista Milestone](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
 ### Modifiche all&#39;interfaccia per Convertire un&#39;attività in un progetto senza modello
 
@@ -357,6 +375,18 @@ Per ulteriori informazioni, consulta
 * [Crea regole di routing](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
 ## Utenti
+
+<!--
+### Interface updates for the New User dialog
+
+**Preview release: September 11, 2025; Production release: September 18, 2025**
+
+We have updated the look and feel of the New User dialog to match the design in other areas of the application.
+
+To view this change, go to Users > New User > New User.
+
+For information, see [Add users](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) and [Updates to the Workfront user profile](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile) on the [Fourth Quarter 2025 Administrator enhancements page](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
+-->
 
 ### Aggiornamenti dell’interfaccia alla finestra di dialogo Importa utenti
 
