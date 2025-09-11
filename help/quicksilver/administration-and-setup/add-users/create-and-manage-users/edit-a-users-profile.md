@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 5ecf925ce1fdf5da75b0736d226b11ce6cbaf3fd
+source-git-commit: de7432c66d9d71a4c1b0b4b6c43b306d0fae9fef
 workflow-type: tm+mt
-source-wordcount: '3185'
+source-wordcount: '3425'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/it/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -106,22 +106,20 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
   Non è possibile reimpostare la password di un amministratore Workfront.
 
-<!--
-* **&lt;SSO Configuration&gt; Username**: If your Workfront administrator enabled an SSO integration with Workfront, the SSO Username displays in this field. The type of SSO configuration enabled for your Workfront instance is visible in this field.
-* **OnlyAllow &lt;SSO Configuration&gt; Authentication**: If your Workfront administrator enabled an SSO integration with Workfront and has updated all users for SSO, this field is selected by default. The type of SSO configuration enabled for your Workfront instance is visible in this field.
-  
-  When this field is selected, the user is required to log into Workfront with their SSO credentials. Unchecking it will allow them to log in to Workfront with their Workfront credentials.
+* **&lt;Configurazione SSO> Nome utente**: se l&#39;amministratore di Workfront ha abilitato un&#39;integrazione SSO con Workfront, il nome utente SSO viene visualizzato in questo campo. In questo campo è visibile il tipo di configurazione SSO abilitata per l’istanza di Workfront.
+* **Consenti solo autenticazione &lt;Configurazione SSO>**: se l&#39;amministratore di Workfront ha abilitato un&#39;integrazione SSO con Workfront e ha aggiornato tutti gli utenti per l&#39;autenticazione SSO, questo campo è selezionato per impostazione predefinita. In questo campo è visibile il tipo di configurazione SSO abilitata per l’istanza di Workfront.
 
-  For more information about configuring Workfront with an SSO solution, see [Overview of single sign-on in Adobe Workfront](/help/quicksilver/administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+  Quando questo campo è selezionato, l’utente deve accedere a Workfront con le proprie credenziali SSO. Deselezionando questa opzione, gli utenti potranno accedere a Workfront con le credenziali Workfront.
 
-  For more information about updating users for SSO, see [Update users for single sign-on](/help/quicksilver/administration-and-setup/add-users/single-sign-on/update-users-sso.md).
+  Per ulteriori informazioni sulla configurazione di Workfront con una soluzione SSO, vedere [Panoramica del single sign-on in Adobe Workfront](/help/quicksilver/administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+
+  Per ulteriori informazioni sull&#39;aggiornamento degli utenti per l&#39;SSO, vedere [Aggiornare gli utenti per il Single Sign-On](/help/quicksilver/administration-and-setup/add-users/single-sign-on/update-users-sso.md).
 
   >[!NOTE]
   >
-  >If you are a group administrator, you can edit the &lt;SSO Configuration&gt; fields only for users in the groups where you are designated as such. Also, the User Admin (Group Users) permission must be enabled in your access level.
+  >Gli amministratori di gruppi possono modificare i campi &lt;Configurazione SSO> solo per gli utenti dei gruppi in cui sono stati designati come tali. Inoltre, l’autorizzazione Amministratore utenti (utenti gruppo) deve essere abilitata nel tuo livello di accesso.
   >
-  >If you are a group administrator and you have the User Admin (All Users) permission enabled in your access level, you can edit the &lt;SSO Configuration&gt; fields for all users.
--->
+  >Se sei un amministratore gruppo e nel tuo livello di accesso hai abilitato l&#39;autorizzazione Amministratore utenti (tutti gli utenti), puoi modificare i campi &lt;Configurazione SSO> per tutti gli utenti.
 
 * **Foto profilo**: fare clic su **Carica nuovo** per caricare l&#39;immagine profilo dell&#39;utente. Puoi caricare un file JPG, GIF o PNG. La dimensione massima del file è di 4 MB.
 
@@ -152,7 +150,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 <!--* **Automatically set the task status to In Progress when tasks are self-assigned**: When this option is selected, work that the user self-assigns is automatically set to In Progress status instead of New.-->
 
-<!--**Send work I assign to myself to my Working On tab**: This setting refers to a deprecated feature that has been removed from Workfront.-->
+* **Invia il lavoro che assegno a me stesso alla mia scheda Lavori in corso**: quando questa opzione è selezionata, il lavoro che l&#39;utente si autoassegna viene automaticamente impostato sullo stato In corso invece che Nuovo. <!--This setting refers to a deprecated feature that has been removed from Workfront.-->
 
 * **Genera automaticamente le bozze durante il caricamento dei documenti**: seleziona questa opzione se desideri che i documenti caricati dall&#39;utente generino immediatamente una bozza.
 
