@@ -7,9 +7,9 @@ description: È possibile condividere e rivedere vari tipi di file con i revisor
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 1df1eff727ff2044eee0f5c0e79794c109d16c7a
+source-git-commit: 52b0389e9f5d8618106d9b511591afb0b6eb216f
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1101'
 ht-degree: 0%
 
 ---
@@ -133,6 +133,12 @@ Workfront ha i seguenti limiti:
 * PNM - Utilità bitmap portatili
 * PPM - Utilità bitmap portatili
 * PPT - Presentazione di PowerPoint
+
+  >[!NOTE]
+  >
+  >Si è verificato un problema noto a causa del quale al momento non è possibile caricare i file di presentazione di PowerPoint. Se riscontri questo problema, converti il file in PDF e carica il PDF. Per ulteriori informazioni, vedere [Bozze: impossibile generare una bozza da un file di PowerPoint](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx).
+
+
 * PPTX - Presentazione PowerPoint 2007 PS - File PostScript
 * PSD - PHOTOSHOP
 * PSP - Paint Shop Pro
