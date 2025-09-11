@@ -240,7 +240,7 @@ Per configurare la visualizzazione delle icone di stato del progetto e della per
 1. Fai clic sul menu a discesa **Visualizza**, quindi fai clic su **Milestone**.
    <!--No longer available: If you are viewing a list of projects inside a Portfolio or a Program, select the **Milestone** subtab.  -->
 
-1. <!--In the Production environment,--> Fai clic su **Opzioni** nell&#39;angolo superiore destro della visualizzazione Milestone.
+1. &#x200B;<!--In the Production environment,--> Fai clic su **Opzioni** nell&#39;angolo superiore destro della visualizzazione Milestone.
 
    <!--<div class="preview">In the Preview environment, select from the options in the next step, from the upper-right corner of the Milestone view.</div>-->
 
@@ -277,6 +277,6 @@ Per regolare la percentuale di completamento di un&#39;attività nella vista Mil
 
 1. (Condizionale) Se le percentuali di completamento non sono visualizzate nella visualizzazione Milestone, abilita la visualizzazione della percentuale di completamento di attività e progetti, come descritto nella sezione [Configura le informazioni visualizzate nella visualizzazione Milestone](#configure-what-information-displays-in-the-milestone-view) in questo articolo.
 
-1. <!--In the Production environment,--> Fare clic sulla percentuale di completamento al di sotto di un&#39;attività, specificare una nuova percentuale, quindi premere Invio.
+1. &#x200B;<!--In the Production environment,--> Fare clic sulla percentuale di completamento al di sotto di un&#39;attività, specificare una nuova percentuale, quindi premere Invio.
 
    <!--<div class="preview">In the Preview environment, move the Percent Complete slide to the new percent complete to update it. </div>-->
