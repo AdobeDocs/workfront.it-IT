@@ -8,16 +8,16 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
-source-git-commit: fec9f895113600ff6ccc795a94019a473793a226
+source-git-commit: 49a8f32b45aaf9de0274617714ad7cd45b4e7e74
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
 
 # Panoramica di Workfront Data Connect
 
-Workfront Data Connect offre un accesso senza precedenti ai dati Workfront utilizzando la tecnologia di Snowflake, consentendo di rispondere alle domande critiche e di misurare il valore dei processi. Questa funzionalità consente ai clienti aziendali di interrogare i propri dati utilizzando strumenti di visualizzazione dei dati direttamente da un data lake di Workfront o di esportare i dati Workfront in data warehouse di proprietà del cliente.
+Workfront Data Connect consente di accedere ai dati Workfront utilizzando la tecnologia Snowflake, consentendo di rispondere a domande critiche e di misurare il valore dei processi. Questa funzionalità consente ai clienti aziendali di analizzare i propri dati utilizzando strumenti di visualizzazione dati direttamente da un data lake di Workfront o di esportare i dati Workfront in data warehouse di proprietà del cliente.
 
 Gli abbonati saranno in grado di collegare il loro strumento di business intelligence di scelta (Tableau, Power BI, Domo, Looker, ecc.) a Data Connect per creare visualizzazioni di dati con i seguenti tipi di dati:
 
@@ -29,7 +29,7 @@ Gli abbonati saranno in grado di collegare il loro strumento di business intelli
 
 Per ulteriori informazioni su Data Connect, vedere gli articoli seguenti:
 
-* [Creazione di un account lettore o di una connessione per il Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
+* [Creare un account o una connessione di lettura per Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
 * [Stabilire una connessione a Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 * [Dizionario dati Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)
 * [Esempi di query Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md)
