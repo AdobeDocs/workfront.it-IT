@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1553'
 ht-degree: 1%
 
 ---
@@ -29,8 +29,11 @@ Per informazioni sulla connessione dei tipi di record, vedere [Connetti tipi di 
 
 In Workfront Planning sono disponibili due passaggi per le connessioni:
 
-1. Innanzitutto, è necessario stabilire una connessione tra due tipi di record o un tipo di record e un tipo di oggetto da un&#39;altra applicazione. Per informazioni su come connettere i tipi di record, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
-1. In secondo luogo, è possibile collegare singoli record di un tipo a record di un altro tipo dopo aver connesso i due tipi di record. Per informazioni sulla connessione dei record, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
+1. Stabilire una connessione tra due tipi di record o un tipo di record e un tipo di oggetto da un&#39;altra applicazione.
+
+   Per informazioni su come connettere i tipi di record, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+1. Collegare un singolo record di un tipo a record di un altro tipo dopo aver connesso i due tipi di record. Per informazioni sulla connessione dei record, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
 
 Considerare le seguenti informazioni sulla connessione dei tipi di record:
 
@@ -62,13 +65,24 @@ Considerare le seguenti informazioni sulla connessione dei tipi di record:
      >
      >Se hai domande sull&#39;onboarding in Adobe Admin Console, consulta le [Domande frequenti su Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-* Dopo aver creato i record per i tipi di record connessi, è possibile collegarli tra loro tramite il campo record connesso.  Per informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
+* Dopo aver creato i record per i tipi di record, è possibile collegarli tra loro tramite il campo record connesso.
+
+  Per informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
 
 * Dopo aver collegato un tipo di record a un altro tipo di record o a un tipo di oggetto di un&#39;altra applicazione, si verificano i seguenti scenari:
 
-   * **Quando si connettono due tipi di record di Planning**: viene creato un campo record collegato nel tipo di record da cui si sta effettuando la connessione. Un campo record collegato simile viene creato nel tipo di record a cui ci si connette.
+   * **Quando si connettono due tipi di record di Planning**: viene creato un campo record collegato nel tipo di record da cui si sta effettuando la connessione. Un campo record collegato simile viene creato nel tipo di record a cui ci si connette <!--<span class="preview">, only when you enable the Create corresponding field on linked record type setting on the New connection tab.</span>-->.
 
      Ad esempio, se colleghi il tipo di record &quot;Campagna&quot; al tipo di record &quot;Prodotto&quot;, nel tipo di record Campagna viene creato un campo record collegato (campo connessione) denominato &quot;Prodotto collegato&quot;. Nel tipo di record Prodotto viene creato automaticamente un tipo di record collegato denominato &quot;Campaign&quot;.
+
+     <!--<div class="preview">
+        
+        For example, the following scenarios exist: 
+        * When you enable the Create corresponding field on linked record type setting and you connect the "Campaign" record type with the "Product" record type, a linked record field (connection field) that you name "Linked Product" is created on the Campaign record type. A linked record type automatically named "Campaign" is created on the Product record type.
+        * When you disable the Create corresponding field on linked record type setting and you connect the "Campaign" record type with the "Product" record type, a linked record field (connection field) that you name "Linked Product" is created on the Campaign record type. A linked record type automatically named "Campaign" is not created on the Product record type.
+        </div>-->
+
+     Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
 
    * **Quando si connette un tipo di record con un tipo di oggetto di un&#39;altra applicazione**:
 
@@ -76,7 +90,7 @@ Considerare le seguenti informazioni sulla connessione dei tipi di record:
       * I campi dei record di Planning non sono accessibili dagli oggetti di Workfront.
       * I record di Planning sono visibili dalla scheda Planning dell&#39;oggetto Workfront. Per informazioni, vedere [Gestire le connessioni record dagli oggetti Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * È possibile creare un campo personalizzato della connessione Planning e allegarlo al modulo personalizzato di un oggetto Workfront. Per informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-      * I campi del record di pianificazione sono accessibili dalle risorse di Experience Manager quando l’amministratore Workfront configura la mappatura dei metadati tramite l’integrazione tra Workfront e Adobe Experience Manager Assets. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+      * I campi del record di pianificazione sono accessibili dalle risorse di Experience Manager quando l’amministratore Workfront configura la mappatura dei metadati tramite l’integrazione tra Workfront e Adobe Experience Manager Assets. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
    * **Quando si aggiungono campi di ricerca dal record o dall&#39;oggetto a cui ci si connette**: oltre a creare un campo record collegato, è anche possibile connettersi ai campi del record o del tipo di oggetto connesso denominati campi di ricerca. Un campo di ricerca collegato con le informazioni del record a cui ci si connette viene visualizzato nel record da cui ci si connette.
@@ -108,13 +122,6 @@ Considerare le seguenti informazioni sulla connessione dei tipi di record:
 
 Dopo aver stabilito una connessione tra due tipi di record o tra un record e un tipo di oggetto da un&#39;altra applicazione, è possibile aggiungere record nei campi dei record connessi.
 
-A seconda del numero di record che è possibile aggiungere a un campo record connesso, i tipi di connessione disponibili per la connessione dei tipi di record sono i seguenti:
-
-* [Da molti a molti](#many-to-many-connection-type)
-* [Da uno a molti](#one-to-many-connection-type)
-* [Da molti a uno](#many-to-one-connection-type)
-* [Da uno a uno](#many-to-one-connection-type)
-
 >[!WARNING]
 >
 >Queste opzioni non sono disponibili quando si collegano i seguenti elementi:
@@ -122,6 +129,69 @@ A seconda del numero di record che è possibile aggiungere a un campo record con
 >* Due record da aree di lavoro diverse
 >
 >* Un tipo di record e risorse Experience Manager
+
+È possibile scegliere se collegare un record a più record alla volta oppure un record alla volta tra di loro.
+
+A seconda del numero di record che è possibile aggiungere a un campo record connesso <!--and the environment you use to create the connected fields-->, i tipi di connessione disponibili per la connessione dei tipi di record sono i seguenti:
+
+<!--replace the list of 4 connection types at the bottom of this commented-out section with this entire section, whenw e release to preview: 
+
+<div class="preview">
+
+* In the Preview environment: 
+
+    * When the Create corresponding field on linked record type setting is disabled, you can choose from: 
+
+        * [Multi-select](#multi-select-connection-type)
+        * [Single-select](#single-select-connection-type)
+
+</div>
+
+* <span class="preview">In the Preview environment, when the Create corresponding field on linked record type setting is enabled,</span> or in the Production environment, you can choose from:
+
+    * [Many to many](#many-to-many-connection-type)
+    * [One to many](#one-to-many-connection-type)
+    * [Many to one](#many-to-one-connection-type)
+    * [One to one](#many-to-one-connection-type) 
+
+<div class="preview">
+
+### Multi-select connection type
+
+![Multi-select connection type](assets/multi-select-connection-picker.png)
+
+When you create a multi-select connection between record types, you can then select multiple connected records in the connection field from the original record type. 
+
+For example, if you create a multi-select connection between campaigns and projects, you can select multiple projects for one campaign. A Campaign connected record type is not created for the Project object type.
+
+After you select this connection type, you cannot change the connection type after you save it to any of the following types:
+
+    * Single-select
+    * One to many
+    * Many to one
+    * One to one
+
+### Single-select connection type
+
+![Single select connection type](assets/single-select-connection-picker.png)
+
+When you create a single-select connection between record types, you can then select one record in the connection field from the original record type. 
+
+For example, if you create a single-select connection between campaigns and companies, you can select one company for one campaign. A Campaign connected record type is not created for the Company object type.
+
+After you select this connection type, you cannot change the connection type after you save it to any of the following:
+
+    * One to many
+    * One to one
+
+</div>
+
+-->
+
+* [Da molti a molti](#many-to-many-connection-type)
+* [Da uno a molti](#one-to-many-connection-type)
+* [Da molti a uno](#many-to-one-connection-type)
+* [Da uno a uno](#many-to-one-connection-type)
 
 ### Tipo di connessione da molti-a-molti
 

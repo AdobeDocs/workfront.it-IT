@@ -3,9 +3,9 @@ title: Panoramica dei tipi di record in più aree di lavoro
 description: I tipi di record centralizzati possono essere aggiunti a più aree di lavoro da un'area di lavoro centrale o principale in Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1356'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,13 @@ In Adobe Workfront Planning è possibile abilitare le funzionalità tra aree di 
 Di seguito sono riportate le funzionalità dei tipi di record in più aree di lavoro:
 
 * È possibile designare un tipo di record come centralizzato. Gli utenti possono aggiungere tipi di record centralizzati ad altre aree di lavoro che possono gestire.
+
+  >[!IMPORTANT]
+  >
+  >Per utilizzare i tipi di record centralizzati è necessario disporre di un pacchetto Workfront Planning Plus, oltre a un pacchetto Workfront.
+  >
+  >Per ulteriori informazioni su ciò che è incluso in ogni pacchetto di Workfront Planning, contattare l&#39;account manager Workfront.
+
 * È possibile designare un tipo di record come collegabile. Gli utenti possono connettersi a questo tipo di record da altre aree di lavoro.
 
 Questo articolo offre una panoramica dei tipi di record tra aree di lavoro diverse. Per informazioni sulla definizione delle funzionalità tra aree di lavoro di un tipo di record, vedere [Configurare le funzionalità tra aree di lavoro diverse per i tipi di record](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).

@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 2%
@@ -28,7 +28,7 @@ La vista viene eliminata per tutti gli utenti che dispongono delle autorizzazion
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.
++++ Espandere per visualizzare i requisiti di accesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -88,7 +88,7 @@ La vista viene eliminata per tutti gli utenti che dispongono delle autorizzazion
 
 *Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Eliminare una visualizzazione record
 
@@ -112,6 +112,10 @@ La vista viene eliminata per tutti gli utenti che dispongono delle autorizzazion
    >
    >Per trovare la visualizzazione da eliminare, potrebbe essere necessario fare clic su **Altro** a destra dell&#39;ultima scheda.
 
+   <!--at preview release, replace the step above with this one: 
+    1. Depending on which environment you use, do the following: 
+    * In the Production environment, hover over one the of the view's names in the view tab, then click **More** ![More menu](assets/more-menu.png) to the left of the view name, then click **Delete**. 
+    * <span class="preview">In the Preview environment, click the dropdown icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, hover over the name of a view, click **More**, then **Delete**.</span>-->
 
 1. Fai clic su **Elimina** per confermare. <!--ensure there is not another saving step here?!-->
 

@@ -4,9 +4,9 @@ description: È possibile abilitare un tipo di record per l'aggiunta a un'altra 
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1124'
 ht-degree: 1%
 
 ---
@@ -83,11 +83,11 @@ Per informazioni, vedere uno degli articoli seguenti:
 <ul><li><p>Qualsiasi pacchetto Workfront</p></li>
 E
 <li><p>Pacchetto Planning Plus</p></li></ul>
-Oppure:
-<ul><li><p>Qualsiasi pacchetto flusso di lavoro</p> </li>
-E
-<li><p>Pacchetto Planning Prime o Ultimate</p></li></ul>
-<p>Per ulteriori informazioni su quanto incluso in ogni piano di Workfront Planning, contattare l'account manager Workfront. </p> 
+<!--Or:
+<ul><li><p>Any Workflow package</p> </li>
+And
+<li><p>Planning Prime or Ultimate package</p></li></ul>-->
+<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto di Workfront Planning, contattare l'account manager Workfront. </p> 
    </td>
 
 <tr> 

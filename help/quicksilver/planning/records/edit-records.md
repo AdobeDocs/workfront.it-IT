@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
 source-wordcount: '2701'
 ht-degree: 0%
@@ -246,7 +246,7 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 <!--add another step about drag and drop here when that is available-->
 
 1. Aprire la pagina del tipo di record in una visualizzazione calendario. Per informazioni, vedere [Gestire la visualizzazione del calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md).
-1. <span class="preview">(Condizionale) Passare il puntatore del mouse sulle estremità della barra di un record nella visualizzazione mensile del calendario, quindi fare clic e trascinare i margini fino a un&#39;altra data. Questa operazione aggiorna automaticamente la data di inizio o di fine del record.</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above-->
+1. <span class="preview">(Condizionale) Passare il puntatore del mouse sulle estremità della barra di un record nella visualizzazione mensile del calendario, quindi fare clic e trascinare i margini fino a un&#39;altra data. Questa operazione aggiorna automaticamente la data di inizio o di fine del record.</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above, at preview release-->
 
    <span class="preview">![Barra a sinistra nella visualizzazione calendario per ridimensionare](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
 

@@ -4,9 +4,9 @@ description: I tipi di record sono i tipi di oggetto di Adobe Workfront Planning
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -55,11 +55,11 @@ Prima di aggiungere record a un&#39;area di lavoro da un tipo di record centrali
 <ul><li><p>Qualsiasi pacchetto Workfront</p></li>
 E
 <li><p>Pacchetto Planning Plus</p></li></ul>
-Oppure:
-<ul><li><p>Qualsiasi pacchetto flusso di lavoro</p> </li>
-E
-<li><p>Pacchetto Planning Prime o Ultimate</p></li></ul>
-<p>Per ulteriori informazioni su quanto incluso in ogni piano di Workfront Planning, contattare l'account manager Workfront. </p> 
+<!--Or:
+<ul><li><p>Any Workflow package</p> </li>
+And
+<li><p>Planning Prime or Ultimate package</p></li></ul>-->
+<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto di Workfront Planning, contattare l'account manager Workfront. </p> 
    </td>
 
 <tr> 
