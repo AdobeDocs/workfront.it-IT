@@ -1,18 +1,18 @@
 ---
-title: Compilazione automatica di una richiesta da dati precedenti
+title: Completamento automatico di una richiesta con i dati di richieste precedenti
 content-type: reference
-description: Puoi utilizzare l’intelligenza artificiale per compilare automaticamente i campi della richiesta utilizzando i dati di richieste precedenti.
+description: Puoi utilizzare l’intelligenza artificiale per completare automaticamente i campi della richiesta utilizzando i dati di richieste precedenti.
 author: Becky
 feature: Get Started with Workfront
 exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
-source-git-commit: fd42ac97be05df9499ea3214642099738ccc69b1
+source-git-commit: 1c2e382908ed8fead7c2222e8d46988656df29c4
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
 
-# Compilazione automatica di una richiesta da dati precedenti
+# Completamento automatico di una richiesta con i dati di richieste precedenti
 
 >[!NOTE]
 >
@@ -21,9 +21,9 @@ ht-degree: 0%
 >   * Versione mensile: 11 settembre 2025
 >   * Versione trimestrale: 16 ottobre 2025
 
-L’intelligenza artificiale può aiutarti a compilare automaticamente i campi della richiesta in base alle richieste precedenti. Puoi approvare o rifiutare questi suggerimenti prima di inviare la richiesta.
+L’intelligenza artificiale può aiutarti a completare automaticamente i campi della richiesta in base alle richieste precedenti. Puoi approvare o rifiutare questi suggerimenti prima di inviare la richiesta.
 
-La funzione di riempimento automatico non sovrascrive i campi già compilati.
+Il completamento automatico non sovrascrive i campi già compilati.
 
 Gli utenti non ricevono suggerimenti di dati a cui non hanno altrimenti accesso.
 
@@ -65,7 +65,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Ottieni suggerimenti durante la compilazione del modulo
 
-La compilazione automatica può suggerire i valori dei campi durante la compilazione del modulo. Quando si immettono valori nei campi della richiesta, Workfront li confronta con le richieste precedenti. Se il valore immesso è strettamente correlato con altri valori di campo in contesti simili in richieste precedenti, Workfront consiglia tali valori.
+Il completamento automatico può suggerire i valori dei campi durante la compilazione del modulo. Quando si immettono valori nei campi della richiesta, Workfront li confronta con le richieste precedenti. Se il valore immesso è strettamente correlato con altri valori di campo in contesti simili in richieste precedenti, Workfront consiglia tali valori.
 
 Ad esempio, se una clinica utilizza sempre lo stesso codice di fatturazione, Workfront suggerisce che il codice di fatturazione venga inserito nel campo appropriato quando viene inserito il nome della clinica.
 

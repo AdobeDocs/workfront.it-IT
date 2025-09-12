@@ -1,18 +1,18 @@
 ---
-title: Compilazione automatica di una richiesta tramite prompt o documenti
+title: Utilizzare il riempimento modulo AI per compilare una richiesta utilizzando prompt o documenti
 content-type: reference
 description: È possibile utilizzare l’intelligenza artificiale per compilare automaticamente i campi della richiesta immettendo un prompt o fornendo un documento.
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 6aab36ee2839fdf32f5606d2070d1e52d7f44753
+source-git-commit: 2c46145ef24c6870239edc1e5fa96f88f4cb2fd7
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1368'
 ht-degree: 2%
 
 ---
 
-# Compilazione automatica di una richiesta tramite prompt o documenti
+# Utilizzare il riempimento modulo AI per compilare una richiesta utilizzando prompt o documenti
 
 >[!NOTE]
 >
@@ -23,9 +23,9 @@ ht-degree: 2%
 >
 >* Per utilizzare questa funzionalità, l’organizzazione deve soddisfare i requisiti per utilizzare l’Assistente di intelligenza artificiale di Workfront. Per informazioni dettagliate, vedere [Prerequisiti per l&#39;Assistente IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
-L’intelligenza artificiale può aiutarti a compilare automaticamente i campi della richiesta in base a un prompt inserito. Può anche riempire i campi in base a testo come le e-mail o i documenti caricati. Puoi approvare o rifiutare questi suggerimenti prima di inviare la richiesta.
+Il riempimento del modulo AI può essere utile per compilare automaticamente i campi della richiesta in base a un prompt inserito. Può anche riempire i campi in base a testo come le e-mail o i documenti caricati. Puoi approvare o rifiutare questi suggerimenti prima di inviare la richiesta.
 
-La funzione di riempimento automatico non sovrascrive i campi già compilati.
+Il riempimento del modulo AI non sovrascrive i campi già compilati.
 
 Gli utenti non ricevono suggerimenti di dati a cui non hanno altrimenti accesso.
 
@@ -67,7 +67,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Prerequisiti
 
-Per compilare automaticamente le richieste utilizzando un prompt o un documento, **all** dei seguenti elementi devono essere applicati:
+Per utilizzare il riempimento modulo AI per compilare le richieste utilizzando un prompt o un documento, **tutti** i seguenti elementi devono essere applicati:
 
 * La tua organizzazione deve aver eseguito la migrazione ad Adobe IMS (Identity Management System)
 * L’esperienza unificata di Adobe deve essere abilitata
@@ -81,11 +81,11 @@ Per compilare automaticamente le richieste utilizzando un prompt o un documento,
 
 ## Ottieni suggerimenti da un prompt di testo
 
-La funzione di riempimento automatico può suggerire i valori dei campi in base al testo, ad esempio le e-mail. Si incolla in un blocco di testo e Workfront elabora il testo per suggerire i valori dei campi in base al testo.
+Il riempimento del modulo AI può suggerire valori di campo in base a testo come le e-mail. Si incolla in un blocco di testo e Workfront elabora il testo per suggerire i valori dei campi in base al testo.
 
-Ad esempio, se l’e-mail include &quot;Scadenza 1 giugno&quot; e il modulo di richiesta ha un campo per la data di scadenza, Workfront consiglia 1 giugno per tale valore di campo.
+Ad esempio, se l’e-mail include &quot;Questa è in scadenza il 1° giugno&quot; e il modulo di richiesta ha un campo per la data di scadenza, il campo Compilazione modulo AI consiglierebbe 1 giugno per tale valore di campo.
 
-Questo tipo di suggerimento controlla anche le richieste precedenti per contesti simili. Ad esempio, se il prompt indica che la richiesta è per un determinato client, Workfront può individuare e immettere automaticamente l’indirizzo di fatturazione per tale client, in base alle richieste precedenti.
+Durante la compilazione di un modulo, Workfront controlla anche le richieste precedenti per contesti simili. Ad esempio, se il prompt indica che la richiesta è per un determinato client, Workfront può individuare e immettere automaticamente l’indirizzo di fatturazione per tale client, in base alle richieste precedenti.
 
 È possibile incollare il testo da applicare all&#39;intero modulo o a una singola sezione del modulo.
 
@@ -263,11 +263,11 @@ I tipi di campo di Workfront determinano se un determinato campo può essere com
 
 #### Altre best practice
 
-Quando si carica un documento per la richiesta di compilazione automatica, considera quanto segue:
+Quando si carica un documento in AI Form Fill (Compila modulo IA), considera quanto segue:
 
-* Il riempimento automatico è attualmente ottimizzato per l&#39;alfabeto latino.
+* Il riempimento del modulo AI è attualmente ottimizzato per l’alfabeto latino.
 * È consigliabile utilizzare una dimensione di testo di 8 punti o superiore.
-* La funzione di riempimento automatico può avere difficoltà con le immagini del documento, ad esempio immagini ruotate o distorte, grafici e il conteggio o l&#39;utilizzo di motivi spaziali sugli oggetti nelle immagini.
+* Il riempimento del modulo AI può presentare difficoltà con le immagini del documento, ad esempio immagini ruotate o distorte, grafici e conteggio o utilizzo di motivi spaziali sugli oggetti nelle immagini.
 * Come sempre, si consiglia di verificare la precisione dei risultati prima di inviare la richiesta.
 
 ### Caricare un documento per compilare automaticamente una richiesta
