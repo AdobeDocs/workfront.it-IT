@@ -5,10 +5,10 @@ title: Gestire la visualizzazione Amministratore delle bacheche
 description: La Vista di amministrazione delle bacheche contiene un elenco di tutte le bacheche del tuo account che gli amministratori di sistema possono utilizzare per ottenere un’istantanea rapida dei dettagli complessivi delle bacheche.
 author: Jenny
 feature: Agile
-source-git-commit: 464700fc84ee3d687d903a0c1f677ebbef11be60
+source-git-commit: 56263c3f868e7abdaf973c5c03411a2e63ba645d
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 0%
+source-wordcount: '618'
+ht-degree: 1%
 
 ---
 
@@ -38,8 +38,13 @@ Da quest’area, puoi eseguire le seguenti azioni:
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Collaboratore o versione successiva </p>
-        <p> Richiedi o superiore </p></td> 
+   <td> <p>Standard</p>
+        <p> Piano </p></td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Amministratore di Sistema </p>
+        </td> 
   </tr> 
  </tbody> 
 </table>
