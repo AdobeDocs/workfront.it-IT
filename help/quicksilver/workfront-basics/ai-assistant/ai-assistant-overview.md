@@ -1,18 +1,18 @@
 ---
-title: Panoramica dell’Assistente AI
+title: Assistente AI in Workfront
 content-type: reference
-description: Panoramica dell’Assistente AI
+description: Scopri l’Assistente IA in Adobe Workfront
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: 657c2aa75d088f87f8e05b5089fccae2577842ee
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '831'
 ht-degree: 1%
 
 ---
 
-# Panoramica dell’Assistente AI
+# Assistente AI in Workfront
 
 L’Assistente AI di Workfront ti aiuta a svolgere il tuo lavoro offrendo informazioni e suggerimenti in-app in una conversazione in linguaggio naturale. L’Assistente AI può offrirti un’esperienza di lavoro più fluida grazie a
 
