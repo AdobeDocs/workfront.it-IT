@@ -6,7 +6,7 @@ description: Puoi richiedere l’approvazione di altri utenti per un documento i
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: 3fc3b1421882261a58a1984c9df410896d596062
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
@@ -59,7 +59,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Passa il puntatore del mouse sul documento, quindi fai clic su Dettagli documento.
    ![Dettagli documento](assets/doc-details.png)
-
 
 1. Accanto al nome del documento, seleziona la versione del documento per cui desideri creare un’approvazione nel menu a discesa della versione. Per impostazione predefinita, viene selezionata la versione più recente.
 

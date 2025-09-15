@@ -2,20 +2,20 @@
 content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: "Bozza: indice articolo"
+title: 'Strumenti di correzione: indice articolo'
 description: Rivedi e commenta lo stesso documento in cui lavorano i team creativi. Con Workfront Proofing è possibile richiedere feedback, vedere commenti e ricevere notifiche per le approvazioni in sospeso e completate, mantenendo al contempo un audit trail di commenti e versioni.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 34814016-e030-4e21-a597-686c4107eff4
-source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
+source-git-commit: b8b01b0431390d5a8a53dd3e3b56bae980501955
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
 
-# Strumenti di correzione: indice articolo
+# Approvazioni bozza: indice articolo
 
 <!-- Audited: 12/2023 -->
 

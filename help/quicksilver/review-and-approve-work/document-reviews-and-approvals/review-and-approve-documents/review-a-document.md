@@ -6,7 +6,7 @@ description: In qualità di revisore, puoi visualizzare in anteprima un document
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: da00226448e0969cec57bf9d525686129d53430e
+source-git-commit: 19003988a8e164db225f8511f567d38e6eeaf627
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -69,7 +69,7 @@ Add once functionality is added
 
    Fare clic su **Anteprima** per aprire una versione di sola lettura del documento in una nuova finestra.
 
-   OPPURE
+   O
 
    Fai clic su **Scarica** per scaricare una copia locale del documento sul dispositivo.
 
@@ -88,7 +88,7 @@ Add once functionality is added
 
    Fare clic su **Anteprima** per aprire una versione di sola lettura del documento in una nuova finestra.
 
-   OPPURE
+   O
 
    Fai clic su **Scarica** per scaricare una copia locale del documento sul dispositivo.
 
@@ -109,3 +109,6 @@ Per rivedere un documento:
 
 1. Per registrare che hai completato la revisione, fai clic su **Completa revisione**.
 
+<!--## Review a document from the Frame.io viewer
+
+To review a document from the Frame.io viewer, your Workfront instance must be integrated with Frame.io. For more information, see the [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).-->

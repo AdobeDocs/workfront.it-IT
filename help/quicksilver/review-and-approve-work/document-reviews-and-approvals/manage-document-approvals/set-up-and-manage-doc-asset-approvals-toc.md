@@ -2,20 +2,20 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: 'Impostare e gestire le approvazioni di risorse e documenti: indice articoli'
-description: Questa sezione contiene articoli sulla gestione delle approvazioni di risorse e documenti in Workfront.
+title: 'Impostare e gestire le approvazioni unificate: indice articolo'
+description: Questa sezione contiene articoli sulla gestione delle approvazioni unificate in Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 242910b9-f251-49c3-a6ad-de3039bdd2f5
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: 9cdd3f9b46b36728a8825713fe50f3f2fe1ef90b
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
 
-# Impostare e gestire le approvazioni di risorse e documenti: indice articoli
+# Impostare e gestire le approvazioni unificate: indice articolo
 
 Questa sezione contiene i seguenti articoli:
 

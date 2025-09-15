@@ -6,9 +6,9 @@ description: Puoi caricare una nuova versione del documento e richiedere l’app
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: 42fbb40cb8a0f3c70e22fd04bd3d0ce625f58fec
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -23,12 +23,9 @@ Quando si aggiunge una nuova versione a un documento con approvazioni in sospeso
 
 Se la versione più recente del documento viene eliminata, le versioni precedenti rimangono bloccate. Se devi modificare una versione precedente, devi sbloccarla manualmente.
 
-
 ## Requisiti di accesso
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
-Devi avere i seguenti:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,17 +34,16 @@ Devi avere i seguenti:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p> Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenze Adobe Workfront*</td> 
-   <td> <p>Corrente: richiesta o successiva</p>
-   oppure
-   <p>Nuovo: Collaboratore o versione successiva</p> </td> 
+   <td> <p>Richiedi o superiore</p>
+   <p>Collaboratore o versione successiva</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modifica accesso ai documenti</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -57,7 +53,7 @@ Devi avere i seguenti:
  </tbody> 
 </table>
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,26 +63,36 @@ Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, co
 >
 >Il trascinamento della selezione non funziona con Internet Explorer.
 
-1. Passare all&#39;area Documenti in cui viene caricato il documento.
-1. Dal desktop o da una scheda del browser separata, trascinare la nuova versione del documento sopra la versione esistente in Workfront.
 
-   Mentre si trascina la nuova versione, è possibile passare il cursore su una cartella di documenti Workfront per aprirla. Puoi quindi scorrere verso l’alto o il basso trascinando i file nella parte superiore o inferiore dello schermo.
+Se è necessario eseguire un altro ciclo di revisione e approvazione su un documento, è possibile creare una nuova versione del documento in Workfront.
 
-1. Rilascia la nuova versione sopra il file esistente nella scheda **Documenti**.
+È possibile aggiungere i partecipanti precedenti, nuovi partecipanti o una combinazione di entrambi. È possibile visualizzare informazioni sulle versioni precedenti e sui partecipanti nella pagina Dettagli documento.
 
-1. Una volta caricato il documento, fai clic su di esso e apri il pannello Riepilogo del documento.
+Per aggiungere una nuova versione:
 
-1. Scorri verso il basso fino alla sezione **Approvazioni** nel riquadro Riepilogo documento, quindi fai clic su **Aggiungi**.
+1. Passare al documento in Workfront.
+1. Trascinare il nuovo file sopra il documento precedente. Viene creata automaticamente una nuova versione.
 
-![Aggiungi approvatori nel riepilogo documenti](assets/doc-summary-add-approvers.png)
+1. Al termine del caricamento del documento, selezionarlo e fare clic su **Dettagli documento**.
+   ![Aprire la pagina dei dettagli del documento](assets/open-doc-details.png)
+
+
+1. Nel pannello a sinistra, fai clic su **Approvazioni**, quindi su **Aggiungi**.
+
+1. Per aggiungere tutti i partecipanti precedenti, fare clic su **Aggiungi tutti**. È inoltre possibile aggiungere nuovi partecipanti o rimuovere i partecipanti precedenti in base alle esigenze.
+
+
+1. Per aggiungere un modello di approvazione esistente, fai clic sul pulsante Modello e inizia a digitare il nome di un modello.
+
+   >[!TIP]
+   >
+   >   Gli utenti con una licenza Standard possono creare modelli di approvazione riutilizzabili dall’area Configurazione. Per ulteriori informazioni, consulta [Creare un modello di approvazione per risorse e documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+
 
 1. (Facoltativo) Imposta una scadenza per l’approvazione. Gli utenti e i team ricevono una notifica via e-mail 72 ore e in seguito 24 ore prima della scadenza specificata.
 
-1. Per aggiungere rapidamente revisori e approvatori della versione precedente, fare clic sul pulsante di aggiunta accanto ai nomi elencati di seguito.
-   <!--need screenshot when working-->
+1. Dopo aver aggiunto tutti i revisori e gli approvatori, fare clic su **Invia richiesta**. I partecipanti vengono informati via e-mail.
 
-1. (Facoltativo) cambia ruolo da approvatore/revisore.
+   ![invia nuova versione per l&#39;approvazione](assets/add-previous-participants.png)
 
-1. Per aggiungere nuovi approvatori e revisori, fare clic su **Revisore** o **Approvatore** e iniziare a digitare l&#39;utente o il team.
 
-   ![Aggiungi approvatore e scadenza](assets/add-approver-and-deadline.png)
