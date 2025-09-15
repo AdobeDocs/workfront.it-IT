@@ -7,9 +7,9 @@ description: È possibile condividere e rivedere vari tipi di file con i revisor
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 52b0389e9f5d8618106d9b511591afb0b6eb216f
+source-git-commit: e9fd96e32cabb1a99bb2170261577ec05c35ff6f
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -133,13 +133,13 @@ Workfront ha i seguenti limiti:
 * PNM - Utilità bitmap portatili
 * PPM - Utilità bitmap portatili
 * PPT - Presentazione di PowerPoint
+* PPTX - Presentazione PowerPoint 2007
 
   >[!NOTE]
   >
-  >Si è verificato un problema noto a causa del quale al momento non è possibile caricare i file di presentazione di PowerPoint. Se riscontri questo problema, converti il file in PDF e carica il PDF. Per ulteriori informazioni, vedere [Bozze: impossibile generare una bozza da un file di PowerPoint](https://experienceleague.adobe.com/it/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx).
+  >Si è verificato un problema noto a causa del quale al momento non è possibile caricare i file di presentazione di PowerPoint. Se riscontri questo problema, converti il file in PDF e carica il PDF. Per ulteriori informazioni, vedere [Bozze: impossibile generare una bozza da un file di PowerPoint](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx).
 
-
-* PPTX - Presentazione PowerPoint 2007 PS - File PostScript
+* PS - File PostScript
 * PSD - PHOTOSHOP
 * PSP - Paint Shop Pro
 * PTK - PTOCA
