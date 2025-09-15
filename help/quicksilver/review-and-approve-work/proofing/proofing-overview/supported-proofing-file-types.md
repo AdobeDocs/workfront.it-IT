@@ -137,7 +137,7 @@ Workfront ha i seguenti limiti:
 
   >[!NOTE]
   >
-  >Si è verificato un problema noto a causa del quale al momento non è possibile caricare i file di presentazione di PowerPoint. Se riscontri questo problema, converti il file in PDF e carica il PDF. Per ulteriori informazioni, vedere [Bozze: impossibile generare una bozza da un file di PowerPoint](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx).
+  >Si è verificato un problema noto a causa del quale al momento non è possibile caricare i file di presentazione di PowerPoint. Se riscontri questo problema, converti il file in PDF e carica il PDF. Per ulteriori informazioni, vedere [Bozze: impossibile generare una bozza da un file di PowerPoint](https://experienceleague.adobe.com/it/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx).
 
 * PS - File PostScript
 * PSD - PHOTOSHOP
