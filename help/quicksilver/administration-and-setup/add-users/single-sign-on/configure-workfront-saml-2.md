@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cf09859c-7d6f-4bf0-9b7f-c57096233c94
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: 93f4c1691210d88531fcc269bd40ee7ed8633309
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1061'
 ht-degree: 7%
 
 ---
@@ -23,7 +23,13 @@ ht-degree: 7%
 
 <!-- Audited: 12/2023 -->
 
-{{important-admin-console-onboard}}
+
+
+>[!IMPORTANT]
+>
+>La procedura descritta in questa pagina si applica solo alle organizzazioni che non hanno ancora effettuato l’onboarding in Adobe Admin Console.
+>
+>Per mappare gli attributi utente nelle organizzazioni che hanno effettuato l&#39;onboarding in Adobe Admin Console, consulta [Mappare gli attributi utente nell&#39;esperienza unificata di Adobe](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) nell&#39;articolo Mappare gli attributi utente.
 
 In qualità di amministratore di Adobe Workfront, puoi configurare le applicazioni web e mobili Workfront per l’integrazione con una soluzione SAML (Security Assertion Markup Language) 2.0 per il Single Sign-On (SSO).
 
@@ -142,15 +148,15 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <li> <p>Indirizzo email</p> </li> 
       <li> <p>Estensione</p> </li> 
       <li> <p>Nome</p> </li> 
-      <li> <p>Gruppo Predefinito</p> </li> 
+      <li> <p>Gruppo Home</p> </li> 
       <li> <p>Team predefinito</p> </li> 
       <li> <p>Ruolo</p> </li> 
       <li> <p>Cognome</p> </li> 
-      <li> <p>Modello di layout</p> </li> 
+      <li> <p>Modello layout</p> </li> 
       <li> <p>Manager</p> </li> 
       <li> <p>Cellulare</p> </li> 
       <li> <p>Numero di telefono</p> </li> 
-      <li> <p>Codice postale</p> </li> 
+      <li> <p>Codice di avviamento postale</p> </li> 
       <li> <p>Pianificazione</p> </li> 
       <li> <p>Stato</p> </li> 
       <li> <p>Profilo scheda orario</p> </li> 
