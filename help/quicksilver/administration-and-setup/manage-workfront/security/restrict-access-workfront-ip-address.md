@@ -8,18 +8,19 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 65121fae364683373d2bc9abbe6672755d0cd09c
+source-git-commit: 03c17f2a09f4b2e00a4a03a177ce241b38b9ea7e
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 1%
+source-wordcount: '447'
+ht-degree: 2%
 
 ---
 
 # Limita l’accesso ad Adobe Workfront per indirizzo IP
 
+<!--
 >[!IMPORTANT]
 >
->Questa funzionalità non è attualmente disponibile per le organizzazioni che hanno effettuato l’onboarding in Adobe Admin Console. Sarà disponibile in Adobe Admin Console in una versione futura.
+>This functionality is not currently available to organizations that have been onboarded to the Adobe Admin Console. It will be available in the Adobe Admin Console in a future release. -->
 
 È possibile configurare un Adobe Workfront di di inserire nell&#39;elenco Consentiti che limiti l’accesso a Workfront a 75 indirizzi IP o intervalli di indirizzi IP specificati. Questo fornisce un ulteriore livello di sicurezza per l’applicazione Workfront.
 
@@ -45,7 +46,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Devi essere un amministratore di Workfront.</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Devi essere un amministratore di Workfront.</p> <p><b>Nota</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
