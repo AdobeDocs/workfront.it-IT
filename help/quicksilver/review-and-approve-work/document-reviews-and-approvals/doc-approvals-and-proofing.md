@@ -6,9 +6,9 @@ description: Puoi utilizzare le Approvazioni unificate con la verifica.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
+source-git-commit: 601285fdbf26365dcaea14f990904d049816af21
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -97,8 +97,6 @@ Per aggiungere una nuova versione:
 ## Verifica la bozza e prendi una decisione
 
 Il documento non passa a uno stato approvato finché tutti gli approvatori assegnati non scelgono &quot;approvato&quot;.
-
-Se un approvatore sceglie &quot;lavoro necessario&quot;, lo stato del documento cambia immediatamente in Lavoro necessario. Il documento deve essere rivisto e caricato come nuova versione con un nuovo flusso di lavoro di approvazione.
 
 Per rivedere e approvare un documento:
 

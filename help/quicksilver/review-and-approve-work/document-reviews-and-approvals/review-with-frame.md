@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 19003988a8e164db225f8511f567d38e6eeaf627
+source-git-commit: 601285fdbf26365dcaea14f990904d049816af21
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -81,8 +81,6 @@ I commenti e il markup delle risorse sono visibili solo nel visualizzatore Frame
 In qualità di approvatore, puoi aggiungere commenti e contrassegnare le risorse. È necessario decidere se portare avanti il processo di approvazione.
 
 Il documento non passa a uno stato approvato finché tutti gli approvatori assegnati non scelgono &quot;approvato&quot;.
-
-Se un approvatore sceglie &quot;Necessità di lavoro&quot;, lo stato del documento cambia immediatamente in Necessità di lavoro. Il documento deve essere rivisto e caricato come nuova versione con un nuovo flusso di lavoro di approvazione.
 
 Per prendere una decisione su un documento:
 
