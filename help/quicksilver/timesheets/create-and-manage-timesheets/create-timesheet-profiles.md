@@ -6,9 +6,9 @@ description: Puoi creare, modificare e assegnare profili di schede orario che ge
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
+source-git-commit: 764200970aeb8d121cd99a8d4239e0b9853670a9
 workflow-type: tm+mt
-source-wordcount: '1695'
+source-wordcount: '1635'
 ht-degree: 2%
 
 ---
@@ -16,16 +16,6 @@ ht-degree: 2%
 # Creare, modificare e assegnare profili della scheda orario
 
 <!--Audited: 06/2025-->
-
-<!--at the Prod release, remove the Production and Preview references from this article-->
-
-<div class="preview">
-
-Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti dopo una settimana dalla versione di anteprima.
-
-Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
-
-</div>
 
 Puoi creare, modificare e assegnare profili di schede orario che generino schede orario ricorrenti per gli utenti senza ulteriori interventi da parte tua. In questo modo si risparmia tempo e si assicura che le seguenti operazioni siano coerenti tra gli utenti:
 
@@ -182,9 +172,9 @@ Per ulteriori informazioni sulla creazione manuale di una scheda orario, vedere 
     </tbody> 
     </table>
 
-1. Nell&#39;ambiente di produzione o durante la creazione di profili di schede orario a livello di gruppo, fare clic sulla scheda **Assegna persone** per associare il profilo della scheda orario a utenti, gruppi o team specifici (se si è un amministratore Workfront). <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
+1. Durante la creazione di profili di schede orario a livello di gruppo, fare clic sulla scheda **Assegna persone** per associare il profilo della scheda orario a utenti, gruppi o team specifici (se si è un amministratore Workfront). <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
 
-   <span class="preview">Nell&#39;ambiente di anteprima durante la creazione dei profili delle schede orario per il sistema, scorrere verso il fondo della pagina e trovare la sezione **Assegna persone**.</span> <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
+   Durante la creazione dei profili della scheda orario per il sistema, scorri verso il fondo della pagina e trova la sezione **Assegna persone**. <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
 
    Iniziare a digitare il nome dell&#39;utente, del gruppo o del team, quindi fare clic su di esso quando viene visualizzato nell&#39;elenco a discesa.
 
