@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: 9bdc36a76393acd2f0617cc5796cfd7279b2c97a
 workflow-type: tm+mt
-source-wordcount: '2512'
+source-wordcount: '2752'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Connetti tipi di record
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -172,50 +172,45 @@ Per un esempio di connessione di tipi di record e record, vedere [Esempio di con
 
    ![Nuova connessione per consentire più record, casella](assets/new-connection-allow-multiple-records-box.png)
 
-1. (Condizionale) Quando si connettono tipi di record della stessa area di lavoro o un tipo di record Planning con un tipo di oggetto Workfront, selezionare una delle seguenti opzioni del tipo di connessione **Tipo di connessione** per indicare il numero di record a cui gli utenti possono connettersi e da:
+1. (Facoltativo) Quando si connettono tipi di record della stessa area di lavoro o un tipo di record Planning con un tipo di oggetto Workfront, eseguire una delle operazioni seguenti, a seconda dell&#39;ambiente in uso:
 
-   * Da molti a molti
-   * Da uno a molti
-   * Da molti a uno
-   * Da uno a uno
+   * Nell&#39;ambiente di produzione, selezionare una delle seguenti opzioni **Tipo di connessione** per indicare il numero di record a cui gli utenti possono connettersi e da:
 
-   ![Selezione connessioni molti a molti](assets/many-to-many-connection-picker.png)
+      * Da molti a molti
+      * Da uno a molti
+      * Da molti a uno
+      * Da uno a uno
 
-   Per ulteriori informazioni sui tipi di connessione, vedere [Panoramica sui tipi di record connessi](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+     ![Selezione connessioni molti a molti](assets/many-to-many-connection-picker.png)
 
-   >[!NOTE]
-   >
-   > Se si seleziona Da uno a molti o Da uno a uno per il tipo di connessione e successivamente si desidera connettere un record o un oggetto già connesso altrove, verrà visualizzato un messaggio di avviso che segnala che la connessione di nuovo lo rimuoverà dalla connessione originale. È possibile consentire la rimozione o selezionare un altro record.
+   <div class="preview">
 
+   * Nell’ambiente di anteprima, effettua le seguenti operazioni:
+      1. Seleziona una delle seguenti opzioni:
 
-   <!-- 
-        at the release to preview, replace the step above with this step; be careful with the numbering and ensure it keeps the correct step number in the preview window in MKD; there are spaces to be added between paragraphs too, when you make this live: 
-    1. (Conditional) When you connect record types from the same workspace, or a Planning record type with a Workfront object type, do one of the following, depending on which environment you are using: 
-        * In the Production environment, select one of the following **Connection type** options to indicate how many records users can connect to and from:
-            * Many to many
-            * One to many
-            * Many to one
-            * One to one      
-            ![Many to many connection picker](assets/many-to-many-connection-picker.png)
-        <div class="preview">
-        * In the Preview environment, do the following: 
-            1. Select one of the following:
-                * **Multi-select**: Select this to allow one record from the current record type to connect with multiple records from the connection record type.
-                * **Single-select**: Select this to allow one record from the current record type to connect with one record from the connection record type.
-            2. Enable the **Create corresponding field on linked record type**. When enabled, a connection field is created on the record type you are connected to, in addition to the connection field added to the current record type. This is disabled by default.
-                    >[!TIP]
-                    >
-                    >There is a limit of 500 connections for one record type. We recommend to keep this setting off, especially for taxonomical record types, to avoid reaching this limit. 
-            3. (Conditional) If you enabled **Create corresponding field on linked record type**, choose from the following options to indicate how many records users can connect to and from:
-                * Many to many
-                * One to many
-                * Many to one
-                * One to one  
-            </div>       
-             For more information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-                >[!NOTE]
-                >
-                >If you select One to many or One to one for the Connection type and you later want to connect a record or an object that is already connected elsewhere, you will receive a warning that connecting it again will remove it from the original connection. You can allow the removal or select another record.-->
+         * **Selezione multipla**: selezionare questa opzione per consentire a un record del tipo di record corrente di connettersi a più record del tipo di record connessione.
+         * **Selezione singola**: selezionare questa opzione per consentire a un record del tipo di record corrente di connettersi a un record del tipo di record connessione.
+
+      2. Abilita **Crea campo corrispondente nel tipo di record collegato**. Quando questa opzione è attivata, viene creato un campo connessione nel tipo di record a cui si è connessi, oltre al campo connessione aggiunto al tipo di record corrente. Questa funzione è disabilitata per impostazione predefinita.
+
+         >[!TIP]
+         >
+         >Per un tipo di record è previsto un limite di 500 connessioni. Per evitare di raggiungere questo limite, è consigliabile mantenere questa impostazione disattivata, in particolare per i tipi di record tassonomici.
+
+      3. (Condizionale) Se hai abilitato **Crea campo corrispondente nel tipo di record collegato**, scegli una delle seguenti opzioni per indicare a quanti record gli utenti possono connettersi e da:
+
+         * Da molti a molti
+         * Da uno a molti
+         * Da molti a uno
+         * Da uno a uno
+
+     </div>
+
+     Per ulteriori informazioni sui tipi di connessione, vedere [Panoramica sui tipi di record connessi](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+
+     >[!NOTE]
+     >
+     >Se si seleziona Da uno a molti o Da uno a uno per il tipo di connessione e successivamente si desidera connettere un record o un oggetto già connesso altrove, verrà visualizzato un messaggio di avviso che segnala che la connessione di nuovo lo rimuoverà dalla connessione originale. È possibile consentire la rimozione o selezionare un altro record.
 
 1. (Condizionale e facoltativo) Quando si seleziona di connettere un oggetto Workfront, scegliere un **modulo personalizzato** dalla sezione **Collega solo gli oggetti che soddisfano questi criteri**. Solo gli oggetti a cui sono allegati i moduli personalizzati selezionati possono essere collegati al tipo di record selezionato. È possibile selezionare più moduli.
 
@@ -227,7 +222,7 @@ Per un esempio di connessione di tipi di record e record, vedere [Esempio di con
 
    >[!NOTE]
    >
-   >L&#39;amministratore di Workfront può mappare i campi di Workfront Planning sui campi di Experience Manager Assets tramite la mappatura dei metadati in Workfront. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >L&#39;amministratore di Workfront può mappare i campi di Workfront Planning sui campi di Experience Manager Assets tramite la mappatura dei metadati in Workfront. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Condizionale) Quando si sceglie di connettersi a Experience Manager Assets o a un tipo di record di Workfront Planning, scegliere una delle opzioni seguenti nell&#39;area **Aspetto record**:
