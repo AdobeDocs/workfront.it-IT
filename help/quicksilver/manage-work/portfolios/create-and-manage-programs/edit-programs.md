@@ -6,14 +6,16 @@ description: È possibile modificare le informazioni relative ai programmi creat
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 5edda5b6d084c6c4df62f21e430ce9cd0c1cc8a4
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 0%
+source-wordcount: '1059'
+ht-degree: 1%
 
 ---
 
 # Modifica programmi
+
+{{highlighted-preview}}
 
 È possibile modificare le informazioni relative ai programmi creati dall&#39;utente o da altri utenti se questi li hanno condivisi con l&#39;utente.
 
@@ -104,6 +106,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Viene visualizzata la finestra di dialogo **[!UICONTROL Modifica programma]**.
 
+   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
+   ![Modifica la casella del programma](assets/edit-program-0925.png)
+
+   Immagine di esempio nell’ambiente di produzione:
    ![Modifica la casella del programma](assets/edit-program-box-nwe-350x236.png)
 
    Tutti i campi del programma sono disponibili nella casella [!UICONTROL Modifica programma] e sono raggruppati per le aree elencate nel pannello sinistro.
@@ -157,7 +163,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     </tbody> 
    </table>
 
-1. Fai clic su **[!UICONTROL Salva modifiche]** o continua a modificare le sezioni seguenti.
+1. Fai clic su <span class="preview">**Salva**</span> o **[!UICONTROL Salva modifiche]** oppure continua a modificare le sezioni seguenti.
 
 ### [!UICONTROL Moduli personalizzati]
 
@@ -170,17 +176,17 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
    >A seconda di come l&#39;amministratore di [!DNL Workfront] ha impostato le autorizzazioni per le sezioni nel modulo personalizzato, non tutti possono visualizzare o modificare gli stessi campi in un determinato modulo personalizzato. Le autorizzazioni per modificare i campi all’interno di una sezione di un modulo personalizzato dipendono dalle autorizzazioni di cui disponi per il programma stesso. Per informazioni sull&#39;impostazione delle autorizzazioni per le sezioni di un modulo personalizzato, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Aggiorna i campi nei moduli personalizzati, quindi fai clic su **[!UICONTROL Salva modifiche]** o continua con la sezione seguente.
+1. Aggiorna i campi nei moduli personalizzati, quindi fai clic su <span class="preview">**Salva**</span> o **[!UICONTROL Salva modifiche]** oppure continua con la sezione seguente.
 
 ### [!UICONTROL Commento] {#comment}
 
 1. Inizia a modificare un programma come descritto in precedenza.
 1. Fai clic su **[!UICONTROL Commento]**.
-
-   ![Casella Commento nella casella Modifica programma](assets/comment-box-in-program-edit-box-classic-350x195.png)
-
-1. Aggiungi un commento nel campo **[!UICONTROL Pubblica un aggiornamento al programma]**.
+1. Aggiungi un commento in **[!UICONTROL Pubblica un aggiornamento al programma]** / <span class="preview">**Aggiungi un aggiornamento a ciascun campo del programma**</span>.
 1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Persone]** per aggiungere un utente o un team al commento.
-1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Blocca]** per bloccare il commento e renderlo privato solo per gli utenti della tua azienda.
+1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Blocca]** <span class="preview">o seleziona [!UICONTROL **Privato per la mia azienda**]</span> per bloccare il commento e renderlo privato solo per gli utenti della tua azienda.
 
    Dopo aver salvato le modifiche, il commento aggiunto viene visualizzato nella scheda [!UICONTROL Aggiornamenti] del programma e invia un&#39;e-mail agli utenti inclusi nel programma.
+
+
+   <!--THIS IMAGE GOES AFTER "CLICK COMMENT." I had to move it to get rid of blank lines. Lisa ![Comment box in edit program box](assets/comment-box-in-program-edit-box-classic-350x195.png)-->

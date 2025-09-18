@@ -6,14 +6,16 @@ description: È possibile modificare i modelli di progetto per riflettere le mod
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+source-git-commit: 5edda5b6d084c6c4df62f21e430ce9cd0c1cc8a4
 workflow-type: tm+mt
-source-wordcount: '5045'
+source-wordcount: '5161'
 ht-degree: 2%
 
 ---
 
 # Modificare i modelli di progetto
+
+{{highlighted-preview}}
 
 <!-- Audited: 7/2025 -->
 
@@ -112,7 +114,6 @@ Le modifiche apportate al modello non vengono applicate ai progetti che utilizza
    * [Commento](#comment)
    <!--* [Linked folders](#linked-folders-conditional-availability) -->
 
-
 ### Nome Modello{#template-name}
 
 1. Inizia a modificare il modello come descritto in precedenza.
@@ -134,33 +135,33 @@ Le modifiche apportate al modello non vengono applicate ai progetti che utilizza
 1. Aggiorna i campi seguenti:
 
    <table style="table-layout:auto"> 
-       <col> 
-       <col> 
-       <tbody> 
-         <tr> 
-         <td role="rowheader"><strong>Descrizione</strong></td> 
-         <td>Aggiungi ulteriori informazioni sul modello.</td> 
-       </tr> 
-         <tr> 
-         <td role="rowheader"><strong>Priorità</strong></td> 
-         <td><p>Questo è solo un flag visivo per te che ti consente di assegnare la priorità ai tuoi progetti futuri. Selezionare una delle opzioni seguenti:</p> 
-         <ul> 
-         <li><p><strong>Nessuno</strong></p></li> 
-         <li><p><strong>Basso</strong></p></li> 
-         <li><p><strong>Normal</strong></p></li> 
-         <li><p><strong>Alta</strong></p></li> 
-         <li><p><strong>Urgente</strong></p></li> 
-         </ul><p><p>A seconda delle Preferenze di progetto selezionate dall'amministratore di Workfront, i nomi delle priorità potrebbero essere diversi. Per ulteriori informazioni sulla modifica delle priorità, vedere <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Creare e personalizzare le priorità</a>.</p></p></td> 
+    <col> 
+    <col> 
+    <tbody> 
+      <tr> 
+      <td role="rowheader"><strong>Descrizione</strong></td> 
+      <td>Aggiungi ulteriori informazioni sul modello.</td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Priorità</strong></td> 
+      <td><p>Questo è solo un flag visivo per te che ti consente di assegnare la priorità ai tuoi progetti futuri. Selezionare una delle opzioni seguenti:</p> 
+      <ul> 
+      <li><p><strong>Nessuno</strong></p></li> 
+      <li><p><strong>Basso</strong></p></li> 
+      <li><p><strong>Normal</strong></p></li> 
+      <li><p><strong>Alta</strong></p></li> 
+      <li><p><strong>Urgente</strong></p></li> 
+      </ul><p><p>A seconda delle Preferenze di progetto selezionate dall'amministratore di Workfront, i nomi delle priorità potrebbero essere diversi. Per ulteriori informazioni sulla modifica delle priorità, vedere <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Creare e personalizzare le priorità</a>.</p></p></td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>URL</strong></td> 
          <td>Specificare un collegamento Web relativo alle informazioni su questo modello.</td> 
        </tr>
-<tr> 
+   <tr> 
       <td role="rowheader"><strong>È attivo</strong></td> 
       <td><p>Attivate questa opzione se desiderate che il modello sia attivo. Altri utenti possono trovare questo modello e allegarlo ai progetti durante la creazione degli stessi. Disattiva l’opzione se desideri disattivare i modelli non più utilizzati. I modelli disattivati non possono essere allegati ai progetti. Questa opzione è attivata per impostazione predefinita. </p><p><b>SUGGERIMENTO</b></p>
 
-<p>Puoi disattivare un modello dall’intestazione del modello come descritto nella sezione "Attivare o disattivare un modello" in questo articolo.</p></td> 
+   <p>Puoi disattivare un modello dall’intestazione del modello come descritto nella sezione "Attivare o disattivare un modello" in questo articolo.</p></td> 
      </tr>
 
 <tr> 
@@ -251,33 +252,33 @@ Le modifiche apportate al modello non vengono applicate ai progetti che utilizza
        <td><p>Specifica un budget per i progetti creati da questo modello.</p></td> 
        </tr>  
        <tr> 
-         <td role="rowheader"><strong>Metodo indice prestazioni</strong></td> 
-         <td><p>Scegli come Workfront calcolerà le metriche del Valore Guadagnato del progetto futuro. Scegli una delle seguenti opzioni:
-         <ul>
-         <li>Basato su Ore</li>
-         <li>Basato su Costo</li>
-         </ul>
+       <td role="rowheader"><strong>Metodo indice prestazioni</strong></td> 
+       <td><p>Scegli come Workfront calcolerà le metriche del Valore Guadagnato del progetto futuro. Scegli una delle seguenti opzioni:
+       <ul>
+       <li>Basato su Ore</li>
+       <li>Basato su Costo</li>
+       </ul>
 
-   Per ulteriori informazioni sul metodo dell&#39;indice delle prestazioni, vedere <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Impostare il metodo dell&#39;indice delle prestazioni (PIM)</a>. </p></td>
-   </tr> 
-         <tr> 
-         <td role="rowheader"><strong>Benef Pian</strong></td> 
-         <td><p>Specifica il beneficio pianificato dei progetti creati da questo modello. Il beneficio pianificato viene utilizzato nel caso aziendale del progetto e in Portfolio Optimizer. </p><p>Per ulteriori informazioni sul beneficio pianificato di un progetto, vedere <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Panoramica del beneficio pianificato del progetto</a>. Il beneficio pianificato di un progetto viene preso in considerazione quando viene calcolato il valore netto di un progetto. </p><p>Per ulteriori informazioni sull'utilizzo di Portfolio Optimizer, vedere <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Gestione dei progetti in Portfolio Optimizer</a> </p></td> 
-       </tr> 
-       <tr> 
-         <td role="rowheader"><strong>Costi fissi</strong></td> 
-         <td><p>Specificare il Costo fisso per i progetti creati da questo modello. Questo valore è diverso dal costo manodopera che deriva dalle ore del progetto e dal costo spesa che deriva dall'importo delle spese del progetto. Il Costo Fisso di un progetto viene preso in considerazione nel calcolo del Valore Netto di un progetto e fa parte del Costo Preventivato.</p></td> 
-       </tr> 
-       <tr> 
-       <td role="rowheader"><strong>Reddito Fisso</strong></td> 
-       <td><p>Specifica il Reddito Fisso per i progetti creati da questo modello.</p></td> 
-       </tr> 
-       <tr> 
-       <td role="rowheader"><strong>Richiede l'approvazione del tempo per questo progetto</strong></td> 
-       <td><p>Selezionare questa opzione per richiedere al proprietario del progetto futuro creato da questo modello di approvare l'ora registrata sul progetto. Se si utilizzano le Fatturazioni e si seleziona questa opzione, solo le ore approvate nel progetto vengono visualizzate come ore fatturabili disponibili per le Fatturazioni. L'approvazione del tempo sul progetto è indipendente dall'approvazione delle schede orario. Per ulteriori informazioni sulla richiesta di approvazione del tempo per un progetto, vedere <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Richiedere l'approvazione del tempo per un progetto</a>.</p></td> 
-       </tr> 
-       </tbody> 
-      </table>
+       Per ulteriori informazioni sul metodo dell&#39;indice delle prestazioni, vedere &lt;a href=&quot;../../../manage-work/projects/project-finances/set-pim.md&quot; class=&quot;MCXref xref&quot;>Impostare il metodo dell&#39;indice delle prestazioni (PIM)&lt;/a>. &lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;tr>
+       &lt;td role=&quot;rowheader&quot;>&lt;strong>Vantaggio pianificato&lt;/strong>&lt;/td>
+       &lt;td>&lt;p>Specifica il beneficio pianificato dei progetti creati da questo modello. Il beneficio pianificato viene utilizzato nel caso aziendale del progetto e in Portfolio Optimizer. &lt;/p>&lt;p>Per ulteriori informazioni sui vantaggi pianificati di un progetto, consultate &lt;a href=&quot;../../../manage-work/projects/project-finances/project-planned-benefit.md&quot; class=&quot;MCXref xref&quot;>Panoramica dei vantaggi pianificati del progetto&lt;/a>. Il beneficio pianificato di un progetto viene preso in considerazione quando viene calcolato il valore netto di un progetto. &lt;/p>&lt;p>Per ulteriori informazioni sull&#39;utilizzo di Portfolio Optimizer, consulta &lt;a href=&quot;../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md&quot; class=&quot;MCXref xref&quot;>Gestire progetti in Portfolio Optimizer&lt;/a> &lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;tr>
+       &lt;td role=&quot;rowheader&quot;>&lt;strong>Costo fisso&lt;/strong>&lt;/td>
+       &lt;td>&lt;p>Specifica il costo fisso per i progetti creati da questo modello. Questo valore è diverso dal costo manodopera che deriva dalle ore del progetto e dal costo spesa che deriva dall&#39;importo delle spese del progetto. Il Costo Fisso di un progetto viene preso in considerazione nel calcolo del Valore Netto di un progetto e fa parte del Costo Preventivato.&lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;tr>
+       &lt;td role=&quot;rowheader&quot;>&lt;strong>Reddito Fisso&lt;/strong>&lt;/td>
+       &lt;td>&lt;p>Specifica i ricavi fissi per i progetti creati da questo modello.&lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;tr>
+       &lt;td role=&quot;rowheader&quot;>&lt;strong>Richiedi l&#39;approvazione del tempo per questo progetto&lt;/strong>&lt;/td>
+       &lt;td>&lt;p>Selezionare questa opzione per richiedere al proprietario del progetto futuro creato da questo modello di approvare l&#39;ora registrata sul progetto. Se si utilizzano le Fatturazioni e si seleziona questa opzione, solo le ore approvate nel progetto vengono visualizzate come ore fatturabili disponibili per le Fatturazioni. L&#39;approvazione del tempo sul progetto è indipendente dall&#39;approvazione delle schede orario. Per ulteriori informazioni su come richiedere l&#39;approvazione del tempo per un progetto, consulta &lt;a href=&quot;../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md&quot; class=&quot;MCXref xref&quot;>Richiedere l&#39;approvazione del tempo per un progetto&lt;/a>.&lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;/tbody>
+   </table>
 
 1. (Facoltativo) Continua a modificare le sezioni seguenti, a seconda delle informazioni che desideri modificare.
 
@@ -330,12 +331,12 @@ Le modifiche apportate al modello non vengono applicate ai progetti che utilizza
        <td> <p>Seleziona un Percorso milestone per il modello. Nell'elenco vengono visualizzati solo i percorsi milestone attivi.<br>Per ulteriori informazioni sui percorsi delle milestone, vedere <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Creare un percorso delle milestone</a>.</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Modalità di completamento</strong> </td> 
-         <td> <p>Controlla come il progetto futuro verrà contrassegnato come Completato. <br>Selezionare una delle opzioni seguenti:</p> 
-         <ul> 
-         <li> <p><strong>Automatico</strong>: il progetto viene contrassegnato come Completato al completamento di tutte le attività e i problemi.</p> </li> 
-         <li> <p><strong>Manuale</strong>: è necessario selezionare manualmente lo stato Completato per il progetto, quando tutte le attività e i problemi sono stati completati. </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>Modalità di completamento</strong> </td> 
+       <td> <p>Controlla come il progetto futuro verrà contrassegnato come Completato. <br>Selezionare una delle opzioni seguenti:</p> 
+       <ul> 
+       <li> <p><strong>Automatico</strong>: il progetto viene contrassegnato come Completato al completamento di tutte le attività e i problemi.</p> </li> 
+       <li> <p><strong>Manuale</strong>: è necessario selezionare manualmente lo stato Completato per il progetto, quando tutte le attività e i problemi sono stati completati. </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>Modalità di completamento riepilogo</strong> </td> 
@@ -346,72 +347,72 @@ Le modifiche apportate al modello non vengono applicate ai progetti che utilizza
        </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Tipo aggiornamento</strong> </td> 
-         <td> <p>Controlla quando le modifiche apportate alla sequenza temporale del progetto futuro vengono salvate nel progetto. </p> 
-         <b>ESEMPIO </b> 
-         <p>Le seguenti modifiche al progetto attivano un aggiornamento della timeline del progetto:</p> 
-         <ul> 
-         <li> <p>aggiornare le date delle attività</p> </li> 
-         <li> <p>modificare le relazioni dei predecessori<br></p> </li> 
-         <li> <p>modificare le relazioni padre-figlio</p> </li> 
-         <li> <p>aggiungere o rimuovere assegnazioni oltre a modificare il vincolo attività o il tipo di durata.</p> </li> 
-         </ul> 
-         </div> <p>Selezionare una delle opzioni seguenti:<br></p> 
-         <ul> 
-         <li> <p><strong>Automatico e al momento della modifica</strong> (impostazione predefinita): la sequenza temporale del progetto futuro viene aggiornata ogni volta che si verifica una modifica nel progetto o in un altro progetto da cui dipende la sequenza temporale (al momento della modifica). Anche la timeline del progetto viene aggiornata ogni notte (Automatico).<br>Questa è l'impostazione consigliata per questo campo in quanto garantisce che la sequenza temporale del progetto sia sempre aggiornata.<br>Quando si esegue un'azione su un'attività o un progetto che attiva un ricalcolo della sequenza temporale, tutte le date disponibili vengono visualizzate immediatamente, consentendo di continuare a lavorare. Nei progetti con più di 100 attività, le date che richiedono calcoli più lunghi vengono visualizzate brevemente come punto interrogativo (tra 1 e 5 secondi o fino a un minuto per i progetti di grandi dimensioni). Questo indica che il ricalcolo non è ancora terminato e che le date sono soggette a modifiche.<br></p> </li> 
-         </ul> 
-         <ul> 
-         <li> <p><strong>Solo modifica</strong>: la sequenza temporale del progetto viene aggiornata ogni volta che si verifica una modifica nel progetto o in un altro progetto da cui dipende la sequenza temporale. È possibile selezionare questa opzione se le modifiche si verificano raramente nel progetto o in altri progetti da cui dipende la sequenza temporale.<br></p> </li> 
-         </ul> 
-         <ul> 
-         <li> <p><strong>Solo automatico</strong>: la sequenza temporale del progetto viene aggiornata ogni notte e non viene aggiornata immediatamente dopo le modifiche apportate.<br>Selezionare questa opzione se ogni giorno nel progetto o in altri progetti da cui dipende la sequenza temporale si verificano molte modifiche. Tuttavia, tieni presente che hai scelto questa impostazione, in quanto il progetto non verrà aggiornato contemporaneamente alle modifiche apportate.<br></p> </li> 
-         </ul> 
-         <ul> 
-         <li> <p><strong>Solo manuale</strong>: la sequenza temporale del progetto viene aggiornata solo quando si seleziona l'opzione Ricalcola sequenze temporali, come descritto in <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Ricalcola sequenze temporali del progetto</a>.<br></p> </li> 
-         </ul> <p>È possibile selezionare questa opzione se si apportano contemporaneamente molte modifiche al progetto e si desidera che il ricalcolo della sequenza temporale venga eseguito dopo che tutte le modifiche sono state apportate (anziché dopo ogni singola modifica).</p> </td> 
+       <td role="rowheader"><strong>Tipo aggiornamento</strong> </td> 
+       <td> <p>Controlla quando le modifiche apportate alla sequenza temporale del progetto futuro vengono salvate nel progetto. </p> 
+       <b>ESEMPIO </b> 
+       <p>Le seguenti modifiche al progetto attivano un aggiornamento della timeline del progetto:</p> 
+       <ul> 
+       <li> <p>aggiornare le date delle attività</p> </li> 
+       <li> <p>modificare le relazioni dei predecessori<br></p> </li> 
+       <li> <p>modificare le relazioni padre-figlio</p> </li> 
+       <li> <p>aggiungere o rimuovere assegnazioni oltre a modificare il vincolo attività o il tipo di durata.</p> </li> 
+       </ul> 
+       </div> <p>Selezionare una delle opzioni seguenti:<br></p> 
+       <ul> 
+       <li> <p><strong>Automatico e al momento della modifica</strong> (impostazione predefinita): la sequenza temporale del progetto futuro viene aggiornata ogni volta che si verifica una modifica nel progetto o in un altro progetto da cui dipende la sequenza temporale (al momento della modifica). Anche la timeline del progetto viene aggiornata ogni notte (Automatico).<br>Questa è l'impostazione consigliata per questo campo in quanto garantisce che la sequenza temporale del progetto sia sempre aggiornata.<br>Quando si esegue un'azione su un'attività o un progetto che attiva un ricalcolo della sequenza temporale, tutte le date disponibili vengono visualizzate immediatamente, consentendo di continuare a lavorare. Nei progetti con più di 100 attività, le date che richiedono calcoli più lunghi vengono visualizzate brevemente come punto interrogativo (tra 1 e 5 secondi o fino a un minuto per i progetti di grandi dimensioni). Questo indica che il ricalcolo non è ancora terminato e che le date sono soggette a modifiche.<br></p> </li> 
+       </ul> 
+       <ul> 
+       <li> <p><strong>Solo modifica</strong>: la sequenza temporale del progetto viene aggiornata ogni volta che si verifica una modifica nel progetto o in un altro progetto da cui dipende la sequenza temporale. È possibile selezionare questa opzione se le modifiche si verificano raramente nel progetto o in altri progetti da cui dipende la sequenza temporale.<br></p> </li> 
+       </ul> 
+       <ul> 
+       <li> <p><strong>Solo automatico</strong>: la sequenza temporale del progetto viene aggiornata ogni notte e non viene aggiornata immediatamente dopo le modifiche apportate.<br>Selezionare questa opzione se ogni giorno nel progetto o in altri progetti da cui dipende la sequenza temporale si verificano molte modifiche. Tuttavia, tieni presente che hai scelto questa impostazione, in quanto il progetto non verrà aggiornato contemporaneamente alle modifiche apportate.<br></p> </li> 
+       </ul> 
+       <ul> 
+       <li> <p><strong>Solo manuale</strong>: la sequenza temporale del progetto viene aggiornata solo quando si seleziona l'opzione Ricalcola sequenze temporali, come descritto in <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Ricalcola sequenze temporali del progetto</a>.<br></p> </li> 
+       </ul> <p>È possibile selezionare questa opzione se si apportano contemporaneamente molte modifiche al progetto e si desidera che il ricalcolo della sequenza temporale venga eseguito dopo che tutte le modifiche sono state apportate (anziché dopo ogni singola modifica).</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Pianificazione</strong> </td> 
-         <td> <p>Seleziona una pianificazione per il modello. Questa diventerà la pianificazione del progetto creato da questo modello. Questa deve essere la stessa pianificazione assegnata alla maggior parte delle persone che lavorano sul progetto. È necessario creare una pianificazione prima di assegnarla a un modello.<br>Per ulteriori informazioni sulla creazione di pianificazioni, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Creare una pianificazione</a>. <br>Se non sono state create pianificazioni personalizzate nel sistema, viene selezionata la pianificazione predefinita. </p> </td> 
+       <td role="rowheader"><strong>Pianificazione</strong> </td> 
+       <td> <p>Seleziona una pianificazione per il modello. Questa diventerà la pianificazione del progetto creato da questo modello. Questa deve essere la stessa pianificazione assegnata alla maggior parte delle persone che lavorano sul progetto. È necessario creare una pianificazione prima di assegnarla a un modello.<br>Per ulteriori informazioni sulla creazione di pianificazioni, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Creare una pianificazione</a>. <br>Se non sono state create pianificazioni personalizzate nel sistema, viene selezionata la pianificazione predefinita. </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Indisponibilità utente</strong> </td> 
-         <td> <p>Determina se l'indisponibilità dell'assegnatario principale di un'attività determina l'adeguamento delle date pianificate dell'attività. Quando alleghi il modello a un progetto esistente e il modello ha un’impostazione diversa per questo campo rispetto al progetto, l’impostazione sul progetto rimane invariata. L'opzione predefinita per questa impostazione per un nuovo modello è la stessa della preferenza di progetto a livello di sistema. </p> <p>Per informazioni sulle preferenze del progetto a livello di sistema, consulta <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze del progetto a livello di sistema</a>. </p> <p>Per informazioni sull'effetto di questa impostazione sulle date delle attività in un progetto, vedere <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Modifica progetti</a>.<br>Selezionare una delle opzioni seguenti:<br></p> 
-         <ul> 
-         <li> <p><strong>Considerare l'indisponibilità dell'utente durante l'attività</strong>: quando si seleziona questa opzione, le date pianificate delle attività nel progetto creato da questo modello vengono modificate in base all'indisponibilità dell'assegnatario principale dell'attività, se questa si verifica durante la durata dell'attività. </p> </li> 
-         <li> <p><strong>Ignora indisponibilità utente nelle durate dell'attività</strong>: quando si seleziona questa opzione, le date pianificate delle attività nel progetto create da questo modello rimangono invariate rispetto a quelle pianificate in origine, anche se l'assegnatario principale dell'attività presenta un'indisponibilità durante la durata dell'attività. </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>Indisponibilità utente</strong> </td> 
+       <td> <p>Determina se l'indisponibilità dell'assegnatario principale di un'attività determina l'adeguamento delle date pianificate dell'attività. Quando alleghi il modello a un progetto esistente e il modello ha un’impostazione diversa per questo campo rispetto al progetto, l’impostazione sul progetto rimane invariata. L'opzione predefinita per questa impostazione per un nuovo modello è la stessa della preferenza di progetto a livello di sistema. </p> <p>Per informazioni sulle preferenze del progetto a livello di sistema, consulta <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze del progetto a livello di sistema</a>. </p> <p>Per informazioni sull'effetto di questa impostazione sulle date delle attività in un progetto, vedere <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Modifica progetti</a>.<br>Selezionare una delle opzioni seguenti:<br></p> 
+       <ul> 
+       <li> <p><strong>Considerare l'indisponibilità dell'utente durante l'attività</strong>: quando si seleziona questa opzione, le date pianificate delle attività nel progetto creato da questo modello vengono modificate in base all'indisponibilità dell'assegnatario principale dell'attività, se questa si verifica durante la durata dell'attività. </p> </li> 
+       <li> <p><strong>Ignora indisponibilità utente nelle durate dell'attività</strong>: quando si seleziona questa opzione, le date pianificate delle attività nel progetto create da questo modello rimangono invariate rispetto a quelle pianificate in origine, anche se l'assegnatario principale dell'attività presenta un'indisponibilità durante la durata dell'attività. </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Modalità livellamento risorse</strong> </td> 
-         <td> <p>Selezionare una delle opzioni seguenti:<br></p> 
-         <ul> 
-         <li> <p><strong>Manuale</strong>: è necessario livellare manualmente le risorse nel progetto creato da questo modello (impostazione predefinita)</p> </li> 
-         <li> <p><strong>Automatico:</strong> Workfront livella le risorse sul progetto futuro. <br>Per ulteriori informazioni sul livellamento delle risorse, vedere <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Livellare le risorse nel Diagramma di Gantt </a>. </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>Modalità livellamento risorse</strong> </td> 
+       <td> <p>Selezionare una delle opzioni seguenti:<br></p> 
+       <ul> 
+       <li> <p><strong>Manuale</strong>: è necessario livellare manualmente le risorse nel progetto creato da questo modello (impostazione predefinita)</p> </li> 
+       <li> <p><strong>Automatico:</strong> Workfront livella le risorse sul progetto futuro. <br>Per ulteriori informazioni sul livellamento delle risorse, vedere <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Livellare le risorse nel Diagramma di Gantt </a>. </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Rischio</strong> </td> 
-         <td> <p>Definisci il livello di rischio dei progetti creati da questo modello. Il rischio è solo un indicatore di quanto un progetto possa essere rischioso. Puoi assegnare la priorità all’esecuzione dei progetti in base al livello di rischio.<br>Scegliere tra i seguenti livelli di rischio:<br></p> 
-         <ul> 
-         <li> <p><strong>Molto bassa</strong> </p> </li> 
-         <li> <p><strong>Basso</strong> </p> </li> 
-         <li> <p><strong>Medium</strong> </p> </li> 
-         <li> <p><strong>Alta</strong> </p> </li> 
-         <li> <p><strong>Altissimo</strong> </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>Rischio</strong> </td> 
+       <td> <p>Definisci il livello di rischio dei progetti creati da questo modello. Il rischio è solo un indicatore di quanto un progetto possa essere rischioso. Puoi assegnare la priorità all’esecuzione dei progetti in base al livello di rischio.<br>Scegliere tra i seguenti livelli di rischio:<br></p> 
+       <ul> 
+       <li> <p><strong>Molto bassa</strong> </p> </li> 
+       <li> <p><strong>Basso</strong> </p> </li> 
+       <li> <p><strong>Medium</strong> </p> </li> 
+       <li> <p><strong>Alta</strong> </p> </li> 
+       <li> <p><strong>Altissimo</strong> </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Gruppi di risorse</strong> </td> 
-         <td> <p>Specifica i pool di risorse associati al modello. I pool di risorse sono insiemi di utenti necessari contemporaneamente per il completamento di un progetto. Per ulteriori informazioni sui pool di risorse, vedere <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Panoramica sui pool di risorse </a>.</p> <p> <p><b>NOTA</b>
+       <td role="rowheader"><strong>Gruppi di risorse</strong> </td> 
+       <td> <p>Specifica i pool di risorse associati al modello. I pool di risorse sono insiemi di utenti necessari contemporaneamente per il completamento di un progetto. Per ulteriori informazioni sui pool di risorse, vedere <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Panoramica sui pool di risorse </a>.</p> <p> <p><b>NOTA</b>
 
-   Quando si modificano i modelli in blocco, in questo campo vengono visualizzati solo i pool di risorse comuni a tutti i modelli selezionati. Se i modelli selezionati non hanno pool di risorse condivisi, questo campo sarà vuoto. I pool di risorse specificati in questo campo sovrascriveranno i singoli pool di risorse dei modelli.</p> </p> </td>
-   </tr>
-
+       Quando si modificano i modelli in blocco, in questo campo vengono visualizzati solo i pool di risorse comuni a tutti i modelli selezionati. Se i modelli selezionati non hanno pool di risorse condivisi, questo campo sarà vuoto. I pool di risorse specificati in questo campo sovrascriveranno i singoli pool di risorse dei modelli.&lt;/p> &lt;/p> &lt;/td>
+       &lt;/tr>
+   
    <tr> 
       <td role="rowheader"><strong>Richiede l'approvazione del tempo per questo progetto</strong></td>
 
-<td><p>Selezionare questa opzione per richiedere al futuro proprietario del progetto creato da questo modello di approvare l'ora registrata sul progetto.</p> 
+   <td><p>Selezionare questa opzione per richiedere al futuro proprietario del progetto creato da questo modello di approvare l'ora registrata sul progetto.</p> 
    <p>Se si utilizzano le Fatturazioni e si seleziona questa opzione, solo le ore approvate nel progetto vengono visualizzate come ore fatturabili disponibili per le Fatturazioni. </p>
    <p>L'approvazione del tempo sul progetto è indipendente dall'approvazione delle schede orario. Per ulteriori informazioni sulla richiesta di approvazione del tempo per un progetto, vedere <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Richiedere l'approvazione del tempo per un progetto</a>.</p>
    </td> 
@@ -431,8 +432,8 @@ Le modifiche apportate al modello non vengono applicate ai progetti che utilizza
    <li>Nell'elenco vengono visualizzati solo i processi di approvazione attivi. </li> 
    <li> <p>I processi di approvazione a livello di sistema e di gruppo vengono visualizzati nell’elenco. Un processo di approvazione associato a un gruppo diverso da quello del modello non viene visualizzato nell’elenco.</p> <p><b>IMPORTANTE</b>
 
-Se il gruppo associato al modello cambia, il processo di approvazione specifico del gruppo diventa un processo di approvazione a utente singolo. Per ulteriori informazioni su come le modifiche al gruppo del progetto o le modifiche al processo di approvazione influiscono sulle impostazioni di approvazione, vedere <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Come le modifiche al gruppo e al processo di approvazione influiscono sui processi di approvazione assegnati</a>. </p> </li>
-<li> <p>Se hai aggiunto un processo di approvazione a utente singolo, in questo campo viene visualizzato come "Personalizzato". Per informazioni, vedere <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associa un processo di approvazione nuovo o esistente a un lavoro</a>. </p> 
+   Se il gruppo associato al modello cambia, il processo di approvazione specifico del gruppo diventa un processo di approvazione a utente singolo. Per ulteriori informazioni su come le modifiche al gruppo del progetto o le modifiche al processo di approvazione influiscono sulle impostazioni di approvazione, vedere <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Come le modifiche al gruppo e al processo di approvazione influiscono sui processi di approvazione assegnati</a>. </p> </li>
+   <li> <p>Se hai aggiunto un processo di approvazione a utente singolo, in questo campo viene visualizzato come "Personalizzato". Per informazioni, vedere <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associa un processo di approvazione nuovo o esistente a un lavoro</a>. </p> 
       </li> 
       <li> <p>Quando si modificano i modelli in blocco, si verificano i seguenti scenari:</p> 
       <ul> 
@@ -613,6 +614,10 @@ Per modificare i modelli in blocco:
 
    Viene visualizzata la finestra di dialogo **Modifica modelli**.
 
+   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
+   ![Modifica modelli](assets/bulk-edit-templates-0925.png)
+
+   Immagine di esempio nell’ambiente di produzione:
    ![Modifica modelli](assets/edit-templates-in-bulk-box-nwe-350x327.png)
 
 1. Fai clic sulle sezioni a sinistra per modificare tutti i modelli selezionati.
@@ -631,7 +636,7 @@ Per modificare i modelli in blocco:
    * Problemi
    * Commento
 
-1. Fai clic su **Salva modifiche**.
+1. Fai clic su <span class="preview">**Salva**</span> o **Salva modifiche**.
 
    Tutte le modifiche apportate sono ora visibili in tutti i modelli selezionati.
 
