@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 30e5358549291e5d04d42ab470dccd444521ecb8
+source-git-commit: a7b220017e0dc42e91a0b518b4eadcae8bb9fb8a
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rila
 >[!NOTE]
 >
 >* Anteprima: 28 agosto 2025
->* Produzione per tutti i clienti: rollout graduale a partire dal 18 settembre 2025
+>* Produzione per tutti i clienti: rollout graduale a partire dal 25 settembre 2025
 
 Il profilo utente di Workfront è stato aggiornato a un design moderno, coerente con le altre aree di Workfront. Questi aggiornamenti si applicano sia a un amministratore che modifica un singolo profilo o che modifica in blocco più profili, sia a un utente che modifica il proprio profilo.
 
