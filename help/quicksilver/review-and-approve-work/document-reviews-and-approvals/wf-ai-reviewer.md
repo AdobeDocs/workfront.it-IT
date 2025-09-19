@@ -7,7 +7,7 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: e20e26ef11046ed252725f8c5431469642845b52
+source-git-commit: d088b40cd8d46a986998fde2176646aa1660cb6b
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 4%
@@ -55,12 +55,12 @@ Se carichi un tipo di file non supportato, l’opzione Revisore IA non viene vis
 
 ## Impostare le linee guida per il marchio
 
-Durante la revisione dei contenuti, Workfront AI Reviewer utilizza le linee guida del brand impostate in Genstudio Foundations. Attualmente, è possibile impostare solo le linee guida del brand per le immagini. Per ulteriori informazioni, vedere [Introduzione ad Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Durante la revisione dei contenuti, Workfront AI Reviewer utilizza le linee guida per il brand definite in Genstudio Foundation. Attualmente, è possibile impostare solo le linee guida del brand per le immagini. Per ulteriori informazioni, vedere [Introduzione ad Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## Crea revisori AI
 
-Una volta configurato almeno un marchio in GenStudio Foundations, gli amministratori di Workfront possono iniziare a creare i revisori di IA nell’area Setup (Configurazione). Tali revisori AI possono quindi essere assegnati a modelli di approvazione e singole richieste di revisione e approvazione. Al momento, i revisori di IA possono solo rivedere rispetto alle linee guida per il brand delle immagini.
+Una volta configurato almeno un marchio in GenStudio Foundation, gli amministratori di Workfront possono iniziare a creare i revisori di IA nell’area Configurazione. Tali revisori AI possono quindi essere assegnati a modelli di approvazione e singole richieste di revisione e approvazione. Al momento, i revisori di IA possono solo rivedere rispetto alle linee guida per il brand delle immagini.
 
 Per ulteriori informazioni, consulta [Creare i revisori AI](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md).
 

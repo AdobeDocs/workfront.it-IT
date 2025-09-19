@@ -2,15 +2,15 @@
 product-area: documents
 navigation-topic: approvals
 title: Crea revisori AI
-description: Dopo aver configurato almeno un marchio in GenStudio Foundations, puoi creare più revisori AI da assegnare ai modelli di approvazione e alle singole richieste di revisione e approvazione.
+description: Dopo aver configurato almeno un marchio in GenStudio Foundation, puoi creare più revisori AI che puoi quindi assegnare ai modelli di approvazione e alle singole richieste di revisione e approvazione.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
-source-git-commit: 7d7291539d4436f0c4700363b7800a5cc6ac4096
+source-git-commit: d088b40cd8d46a986998fde2176646aa1660cb6b
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 >
 >Questa funzione è attualmente in versione beta.
 
-Dopo aver configurato almeno un marchio in GenStudio Foundations, puoi creare più revisori AI da assegnare ai modelli di approvazione e alle singole richieste di revisione e approvazione.
+Dopo aver configurato almeno un marchio in GenStudio Foundation, puoi creare più revisori AI che puoi quindi assegnare ai modelli di approvazione e alle singole richieste di revisione e approvazione.
 
 >[!NOTE]
 >
@@ -55,9 +55,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Prerequisiti
 
-Prima di iniziare, è necessario impostare le linee guida per il marchio immagine in GenStudio Foundations.
+Prima di iniziare, è necessario impostare le linee guida per il marchio immagine in GenStudio Foundation.
 
-Per ulteriori informazioni sulle linee guida per il brand di immagini, consulta [Introduzione ad Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Per ulteriori informazioni sulle linee guida per il brand di immagini, consulta [Introduzione ad Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 ## Aggiungere un revisore di IA
 
@@ -72,7 +72,7 @@ Per ulteriori informazioni sulle linee guida per il brand di immagini, consulta 
 
    Una volta creato il revisore IA, gli utenti possono aggiungere il revisore AI modelli di approvazione o alle singole approvazioni.
 
-   Per ulteriori informazioni, consulta
+   Per ulteriori informazioni, vedi  
 
    * [Creare un modello di approvazione per risorse e documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
    * [Creare una richiesta di revisione o approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
