@@ -6,7 +6,7 @@ description: Con Data Connect, gli amministratori di Workfront possono accedere 
 author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 79e8b2b1dd3b7374173c2a930abdf8a0bca2cda6
+source-git-commit: 05cf34fe6659c50da76d2478c6e79352346dc9a5
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Nella visualizzazione Cronologia job, gli amministratori di Workfront possono accedere ai record dettagliati di ciascun job di aggiornamento dei dati. Questi record forniscono ad insight importanti funzionalità per i processi che consentono di mantenere aggiornati i dati e di stabilire i tempi ideali per l’esecuzione dei processi e l’aggiornamento delle visualizzazioni aziendali.
 
-![Visualizzazione cronologia processo](assets/job-history-tab.png)
+![Visualizzazione cronologia processo](assets/job-history-overview.png)
 
 Le colonne della vista Cronologia processo contengono le seguenti informazioni:
 
