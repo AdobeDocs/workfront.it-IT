@@ -6,9 +6,9 @@ description: In qualità di utente con una licenza Pianificazione, puoi configur
 author: Alina
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
-source-git-commit: b4ab350af22afa44774f06d82daf1c3fb266d2b9
+source-git-commit: 106ef838bfee5e496cae864eca5c19fd12fdd18e
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '455'
 ht-degree: 1%
 
 ---
@@ -50,13 +50,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Effettua una delle seguenti operazioni, a seconda dell’obiettivo e del livello di accesso nel sistema:
 
-   * **Utente Planner che configura autonomamente la registrazione dell&#39;ora:** Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic sul nome utente accanto all&#39;immagine del tuo profilo. Fai clic sull&#39;icona **Altro** accanto al tuo nome e seleziona **Modifica**.
+   * **Utente Planner che configura autonomamente la registrazione dell&#39;ora:** Fai clic sull&#39;icona **del** menu principale![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic sul nome utente accanto all&#39;immagine del tuo profilo. Fai clic sull&#39;icona **Altro** accanto al tuo nome e seleziona **Modifica**.
 
    * **L&#39;amministratore di sistema configura la registrazione ore per altri utenti:** Inizia a modificare uno o più account utente, come descritto in [Modifica il profilo di un utente](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-1. Nella finestra di dialogo risultante, nella sezione **Pianificazione risorse**, individua l&#39;opzione **Registra tempo in**.
+1. Nella finestra di dialogo risultante, nella sezione **Pianificazione risorse**, individuare l&#39;opzione **Registra tempo in**.
 
-   ![](assets/new-timesheet-log-hours-350x249.png)
+   ![Tempo di connessione nelle opzioni](assets/user-profile-log-time-options.png)
 
 1. (Condizionale) Se sei un amministratore di sistema che modifica più utenti contemporaneamente, seleziona **Registra ora in**.
 1. Selezionare una delle seguenti opzioni per la registrazione dell&#39;ora:
