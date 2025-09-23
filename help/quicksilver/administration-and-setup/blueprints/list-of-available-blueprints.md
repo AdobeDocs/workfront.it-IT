@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: bea983292d33a50bbe27bd116a74aba33e4c69dd
+source-git-commit: 2e6efb8fd15113eba6a20514791a8e9a57742e58
 workflow-type: tm+mt
 source-wordcount: '2082'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 I seguenti [!DNL Adobe Workfront] blueprint sono disponibili per l&#39;installazione per gli amministratori di sistema. Per ulteriori informazioni sui blueprint, consulta [Panoramica sui blueprint](/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md).
 
-**Active User Analysis Reports (NEW)** Questo blueprint contiene un dashboard che consente agli amministratori di convalidare la configurazione dell&#39;utente, identificare i disallineamenti e assicurarsi che le configurazioni supportino l&#39;utilizzo previsto dell&#39;applicazione&#x200B;
+**[!BADGE Novità]{type=Informative} report di analisi degli utenti attivi** Questo blueprint contiene un dashboard che consente agli amministratori di convalidare la configurazione degli utenti, identificare i disallineamenti e garantire che le configurazioni supportino l&#39;utilizzo previsto dell&#39;applicazione&#x200B;
 
 **[!UICONTROL Aggiungi nuovo elenco di controllo IT dipendente]**
 Questo blueprint contiene un modello che l&#39;organizzazione dei servizi professionali [!DNL Workfront] ha utilizzato per anni durante gli impegni di implementazione con i team IT aziendali per organizzare nuove attività di onboarding dei dipendenti. L&#39;utilizzo di questo modello consente ai team IT di operare in modo efficiente, garantendo un&#39;esperienza positiva per i nuovi dipendenti e una maggiore produttività.
