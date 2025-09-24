@@ -2,13 +2,13 @@
 product-area: projects;templates
 navigation-topic: manage-projects
 title: Salvare un progetto come modello
-description: Salva un progetto come modelloSalva come modello" a livello di progetto, in modo che gli utenti possano visualizzarlo nell’interfaccia utente; esiste un altro articolo a cui si collega più approfonditamente (passo dopo passo). Questa funzionalità deve essere disponibile sia nell'area Progetti che in quella Modelli.)"
+description: Puoi salvare un progetto come modello a livello di progetto, in modo che gli utenti possano visualizzarlo nell’interfaccia utente; esiste un altro articolo a cui è possibile fare collegamento più approfondito (passo dopo passo). Questa funzionalità deve essere disponibile sia nell'area Progetti che in quella Modelli.)
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
+source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '487'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Se decidi che un progetto si ripeterà in un secondo momento, puoi creare un mod
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 

@@ -3,11 +3,11 @@ content-type: reference
 product-area: projects
 navigation-topic: financials
 title: Calcola costo preventivato
-description: Calcola lo stato di avanzamento del progetto di traccia dei costi preventivati con un rapporto Utilizzo""
+description: Calcola lo stato di avanzamento del progetto di registrazione dei costi preventivati con un report Utilizzo
 author: Lisa
 feature: Work Management
 exl-id: e96fe38f-58c2-4938-9d2d-81d1109123fa
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 2%
@@ -71,7 +71,7 @@ Il Costo preventivato riportato nell&#39;area Budget risorse del Business Case o
     </tr> 
     <tr> 
      <td>Costo</td> 
-     <td> <p>Ottimizzatore Portfolio</p> <p>Suggerimento: il totale di tutti i valori di Costo preventivato progetto è il Costo preventivato del portfolio.</p> </td> 
+     <td> <p>Portfolio Optimizer</p> <p>Suggerimento: il totale di tutti i valori di Costo preventivato progetto è il Costo preventivato del portfolio.</p> </td> 
     </tr> 
     <tr> 
      <td>Costo preventivato progetto</td> 

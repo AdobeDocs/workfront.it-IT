@@ -3,11 +3,11 @@ content-type: reference
 product-area: resource-management;user-management
 navigation-topic: resource-planning
 title: Visualizzare le ore disponibili, pianificate ed effettive o l'FTE nella Programmazione delle risorse quando si utilizza la Vista utente
-description: Visualizzare le ore disponibili, pianificate ed effettive o FTE nella pianificazione risorse quando si utilizza la vista Utente "Pianificazione" nell’RP", ad esempio "Budget delle risorse nell’RP" o "Gestione delle risorse nell’RP". ecc... - o potrebbe essere necessario riutilizzarlo da un altro POV?!)"
+description: Visualizzare le ore disponibili, pianificate ed effettive o FTE nella pianificazione risorse quando si utilizza la vista UtentePianificazione nell'RP, ad esempio "budgeting delle risorse nell'RP" o "Gestione delle risorse nell'RP". ecc... - o potrebbe essere necessario riutilizzarlo da un altro POV?!)
 author: LIsa
 feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
 workflow-type: tm+mt
 source-wordcount: '1739'
 ht-degree: 1%
@@ -64,7 +64,7 @@ Per informazioni sulle informazioni visualizzate nella visualizzazione Utente de
 * [Colonna DIF (Differenza)](#the-dif-difference-column)
 * [Colonna % (percentuale allocazione ore pianificate)](#the-planned-hours-allocation-percentage-column)
 
-### Colonna AVL (disponibile) {#the-avl-available-column}
+### Colonna AVL (Disponibile) {#the-avl-available-column}
 
 <table style="table-layout:auto"> 
  <col> 
