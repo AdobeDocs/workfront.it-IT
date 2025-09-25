@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: a7b220017e0dc42e91a0b518b4eadcae8bb9fb8a
+source-git-commit: aec301a72ce0864faaf61754552ab8b4ba9bfb49
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,20 @@ ht-degree: 0%
 Questa pagina descrive i miglioramenti per gli amministratori apportati con la versione del quarto trimestre 2025 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del quarto trimestre 2025, consulta [Panoramica sulla versione del quarto trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Conferma durante la rimozione di un modulo personalizzato da un oggetto
+
+>[!NOTE]
+>
+>* Anteprima: 25 settembre 2025
+>* Versione rapida di produzione: 15 ottobre 2025
+>* Produzione per tutti i clienti: 16 ottobre 2025
+
+Per garantire il mantenimento dell’accesso ai dati necessari, è stata aggiunta una finestra di dialogo di conferma durante la rimozione di un modulo personalizzato da un oggetto. Se si rimuove un modulo personalizzato da un oggetto, i dati contenuti in tale modulo vengono rimossi definitivamente dall’oggetto. Ora, la finestra di dialogo ti consente di confermare che comprendi che questi dati verranno rimossi, assicurandoti di non rimuovere i dati necessari.
+
+In precedenza, l’unico avviso relativo alla rimozione dei dati era il testo accanto all’opzione di rimozione.
+
+Per ulteriori informazioni sulla rimozione di un modulo personalizzato, vedere [Rimuovere un modulo personalizzato da un oggetto](/help/quicksilver/workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md#remove-a-custom-form-from-an-object) nell&#39;articolo Gestire i moduli personalizzati allegati agli oggetti.
 
 ## Aggiornamenti al profilo utente di Workfront
 
