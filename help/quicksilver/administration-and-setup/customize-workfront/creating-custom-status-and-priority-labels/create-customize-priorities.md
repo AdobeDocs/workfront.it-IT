@@ -5,14 +5,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 7db80f5bacf52b7bbe540f4e38e88853af86a5e2
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 2%
+source-wordcount: '761'
+ht-degree: 1%
 
 ---
 
 # Creare e personalizzare le priorità
+
+{{highlighted-preview}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -60,11 +62,11 @@ In qualità di amministratore di Workfront, puoi apportare le seguenti modifiche
 * Rinominare le priorità.
 * Riordina le priorità.
 
-  Per ulteriori informazioni su come riordinare le priorità, vedere [Creare una priorità per un&#39;attività di progetto o un problema](#create-a-priority-for-a-project-task-or-issue).
+  Per ulteriori informazioni su come riordinare le priorità, vedere [Creare una priorità per un progetto, attività o problema](#create-a-priority-for-a-project-task-or-issue).
 
 * Modifica la priorità predefinita.
 
-  Per ulteriori informazioni sulla funzionalità di modifica della priorità predefinita, vedere [Creare una priorità per un&#39;attività o un problema di progetto](#create-a-priority-for-a-project-task-or-issue).
+  Per ulteriori informazioni sulla funzionalità di modifica della priorità predefinita, vedere [Creare una priorità per un progetto, attività o problema](#create-a-priority-for-a-project-task-or-issue).
 
 * Modifica la descrizione delle priorità.
 * Imposta un colore per ogni priorità.
@@ -79,7 +81,7 @@ In qualità di amministratore di Workfront, puoi apportare le seguenti modifiche
 
 * Nascondi le priorità.
 
-  Per ulteriori informazioni sulla funzionalità di nascondere le priorità, vedere [Creare una priorità per un&#39;attività o un problema di progetto](#create-a-priority-for-a-project-task-or-issue).
+  Per ulteriori informazioni sulla funzionalità di nascondere le priorità, vedere [Creare una priorità per un progetto, attività o problema](#create-a-priority-for-a-project-task-or-issue).
 
   >[!NOTE]
   >
@@ -93,7 +95,7 @@ Le priorità fornite per impostazione predefinita per ciascun tipo di oggetto (p
 * Alta
 * Urgente
 
-## Creare una priorità per un’attività o un problema di progetto {#create-a-priority-for-a-project-task-or-issue}
+## Creare una priorità per un progetto, un’attività o un problema {#create-a-priority-for-a-project-task-or-issue}
 
 Oltre alle priorità predefinite fornite in Workfront, puoi aggiungere altre priorità per riflettere le esigenze della tua organizzazione.
 
@@ -102,41 +104,49 @@ Oltre alle priorità predefinite fornite in Workfront, puoi aggiungere altre pri
 1. Nel pannello a sinistra, fai clic su **Preferenze progetto** > **Priorità**.
 
 1. Fare clic sulla scheda relativa al tipo di oggetto per cui si desidera creare una priorità per (**Progetto**, **Attività** o **Problema**).
-1. Fare clic su **Aggiungi nuova priorità**.
-1. Specifica le seguenti informazioni per la nuova priorità:
+1. Fai clic su <span class="preview">**Nuova riga** nella parte inferiore della tabella</span> oppure su **Aggiungi nuova priorità**.
+1. Configura le seguenti opzioni per la priorità:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Nome priorità</td> 
-      <td>Digita un nome per la priorità.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Importanza</td> 
-      <td> <p>Quando si aggiunge una nuova priorità, viene assegnato un numero per impostazione predefinita. Modifica questo numero, se non corrisponde alle tue esigenze.</p> <p>Il numero <strong>Importance</strong> per ogni priorità deve essere univoco per l'oggetto selezionato.<br>Il numero di priorità riflette l'importanza del progetto, dell'attività o del problema: il numero più alto corrisponde alla priorità più alta.</p> <p><b>NOTA</b>: non è possibile modificare il numero di importanza dopo aver salvato la priorità. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Colore</td> 
-      <td> <p>Scegli un colore per la tua priorità.</p> <p>Il colore della priorità viene utilizzato nei rapporti grafico e nelle impostazioni del team Agile. Per ulteriori informazioni sui report grafico, vedere <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Aggiungere un grafico a un report</a>.</p> <p>Per ulteriori informazioni sulle impostazioni del team Agile, consulta in .</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Priorità predefinita</td> 
-      <td> <p>Per decidere se questa deve essere o meno una priorità predefinita, seleziona il pulsante di opzione.</p> <p>Se una priorità è designata come <strong>Priorità predefinita</strong>, viene selezionata automaticamente per tutti i progetti, le attività o i problemi in Workfront. <strong>Normale</strong> è la priorità predefinita per tutti gli oggetti in Workfront.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Descrizione</td> 
-      <td>Aggiungi una descrizione della priorità per spiegarne la funzione.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Nascondi</td> 
-      <td> <p>Selezionare questa casella per nascondere la priorità.</p><p>Quando selezioni l'opzione <b>Nascondi</b>, la priorità non viene visualizzata in alcun punto di Workfront e gli utenti non possono sceglierla per i loro progetti, attività e problemi.</p> 
-      <p><b>IMPORTANTE</b>: è consigliabile nascondere le priorità che non si desidera più utilizzare, anziché eliminarle. Nascondendoli, conservi comunque tutti i tuoi dati storici, degli oggetti che sono stati completati con questa priorità, impedendo al contempo alle persone di scegliere questa priorità in futuro. </p>
-      <p>Se necessario, puoi modificare l’ordine di visualizzazione delle priorità trascinandole e rilasciandole nell’ordine desiderato. Questo cambia l’ordine in cui vengono visualizzate per i progetti, le attività e i problemi. Il numero <b>Importance</b> non viene modificato. </p></td> 
-     </tr> 
-    </tbody> 
-   </table>
+   * **Nome priorità**: digitare un nome per la priorità.
+   * **Importanza**: quando si aggiunge una nuova priorità, viene assegnato un numero per impostazione predefinita. Modifica questo numero, se non corrisponde alle tue esigenze.
+
+     Il numero di importanza per ogni priorità deve essere univoco. Il numero di priorità riflette l&#39;importanza del progetto, dell&#39;attività o del problema: il numero più alto corrisponde alla priorità più alta.
+
+     Impossibile modificare questo numero dopo aver salvato la priorità.
+
+   * **Colore**: scegliere un colore per la priorità.
+
+     Il colore della priorità viene utilizzato nei rapporti grafico e nelle impostazioni del team Agile. Per informazioni sui report grafico, vedere [Aggiungere un grafico a un report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md). Per informazioni sulle impostazioni del team Agile, consulta [Creare un team Agile](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+
+   * **Priorità predefinita**: selezionare la priorità che si desidera applicare automaticamente a tutti i nuovi progetti, attività o problemi creati da Workfront.
+
+     **Normale** è la priorità predefinita per tutti gli oggetti in Workfront.
+
+     Non è possibile impostare una priorità nascosta come predefinita.
+
+     <div class="preview">
+
+     La priorità predefinita è indicata da un&#39;icona ![Icona di priorità predefinita](assets/default-icon.png). Per scegliere un nuovo valore predefinito, effettuare una delle seguenti operazioni:
+
+      * Selezionare la casella di controllo accanto al nome della priorità e selezionare **Rendi predefinito** nella barra delle azioni nella parte inferiore dello schermo.
+      * Passa il puntatore del mouse sul nome della priorità e fai clic sul menu **Altro** visualizzato. Quindi, selezionare **Rendi predefinito**.
+
+        La nuova priorità predefinita è etichettata con l’icona.
+
+     </div>
+
+   * **Descrizione**: digitare una descrizione della priorità per spiegarne la funzione.
+   * <span class="preview">**Nascondi scelta**</span> o **Nascondi**: <span class="preview">Scegli **Sì**</span> o seleziona la casella di controllo per nascondere una priorità non più necessaria.
+
+     Una priorità nascosta non viene visualizzata in alcun punto di Workfront, pertanto gli utenti non possono sceglierla per i loro progetti, attività o problemi.
+
+     >[!IMPORTANT]
+     >
+     >Invece di eliminare le priorità che non desideri più utilizzare, ti consigliamo di nasconderle. In questo modo, puoi conservare tutti i dati storici sugli oggetti già completati con la priorità, impedendo alle persone di utilizzare la priorità in futuro.
+
+1. (Facoltativo) Modifica l’ordine di visualizzazione delle priorità trascinandole e rilasciandole nell’ordine desiderato.
+
+   Questo cambia l’ordine in cui vengono visualizzate per i progetti, le attività o i problemi. Il numero **Importance** non viene modificato.
 
 1. Fai clic su **Salva**.
 

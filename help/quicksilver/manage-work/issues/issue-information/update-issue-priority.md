@@ -6,7 +6,7 @@ description: È possibile definire una priorità per un problema per indicare l'
 author: Alina
 feature: Work Management
 exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 7db80f5bacf52b7bbe540f4e38e88853af86a5e2
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 3%
@@ -15,9 +15,9 @@ ht-degree: 3%
 
 # Aggiorna la priorità del problema
 
-È possibile definire una priorità per un problema  per indicare l&#39;importanza del problema.
+È possibile definire una priorità per un problema per indicare l&#39;importanza del problema.
 
-Per modificare la priorità del problema, è necessario disporre delle autorizzazioni di gestione.  [Aggiorna la priorità di un problema](#update-the-priority-of-an-issue).
+Per modificare la priorità del problema, è necessario disporre delle autorizzazioni di gestione. [Aggiorna la priorità di un problema](#update-the-priority-of-an-issue).
 
 ## Requisiti di accesso
 
@@ -103,7 +103,7 @@ Per informazioni su ciascuna etichetta di priorità predefinita e sul relativo n
 
 1. Fare clic sul campo **Priorità** nell&#39;area **Informazioni di base**.
 
-   ![Priorità problema](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
+   ![Priorità problema](assets/issue-priority-field.png)
 
 1. Selezionare un valore per il campo **Priorità**.
 
