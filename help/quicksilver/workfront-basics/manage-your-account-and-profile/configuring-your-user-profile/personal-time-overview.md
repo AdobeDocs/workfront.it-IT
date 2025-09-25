@@ -4,17 +4,19 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: Configurare l’indisponibilità personale
 description: È importante indicare in Adobe Workfront quando si verifica l’assenza approvata, perché influisce sulla pianificazione e sulle date di completamento pianificate delle attività a cui sei assegnato.
-author: Courtney
+author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: fa5a59c15395f825ad73d889d4d877224a676891
+source-git-commit: e0f6078cfab1b325302dbda8a656d2a65ee0b95c
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
 
 # Configurare l’indisponibilità personale
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -70,14 +72,17 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 >[!NOTE]
 >
->Se ti trovi in Adobe Unified Experience, puoi accedere al tuo profilo Workfront facendo clic sul menu dell’account Adobe (immagine del tuo profilo) nell’area di navigazione superiore, quindi scegliendo Profilo Workfront.
+>Se ti trovi nell’esperienza unificata di Adobe, per accedere al tuo profilo Workfront fai clic sul menu dell’account Adobe (immagine del tuo profilo) nell’area di navigazione superiore, quindi scegli Profilo Workfront.
 >
 >![profilo Workfront](assets/aue-profile.png)
-
 
 1. Nel pannello a sinistra, fai clic su **[!UICONTROL Indisponibilità]**.
 1. Seleziona la data desiderata per il tuo tempo libero personale.
 
+   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
+   ![Calendario personale per ferie](assets/personal-time-off-calendar-0925.png)
+
+   Immagine di esempio nell’ambiente di produzione:
    ![Calendario personale per ferie](assets/personal-time-off-calendar.png)
 
 1. Seleziona **[!UICONTROL Tutto il giorno]** se stai prendendo una giornata libera.

@@ -6,7 +6,7 @@ description: La delega delle richieste di approvazione ti consente di assegnare 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: e0f6078cfab1b325302dbda8a656d2a65ee0b95c
 workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 0%
@@ -117,10 +117,10 @@ Per delegare le approvazioni a un altro utente:
 1. Specifica le seguenti informazioni nella sezione Delegate My Approvals (Delega le mie approvazioni):
 
    * **Nome**: inizia a digitare il nome dell&#39;utente a cui desideri delegare le approvazioni, quindi fai clic sul nome quando viene visualizzato nel menu a discesa.
-   * **Data inizio**: seleziona la data in cui le approvazioni iniziano a essere inoltrate. L’inoltro inizia alle 00:00 del mattino successivo alla data selezionata.\
+   * **Data inizio**: seleziona la data in cui le approvazioni iniziano a essere inoltrate. L&#39;inoltro inizia alle 12:00 del mattino alla data selezionata.\
      La data di inizio deve essere la data corrente o una data futura.
    * **Data di fine**: eseguire una delle operazioni seguenti:
-      * Seleziona la data in cui le approvazioni non verranno più inoltrate. L’inoltro termina alle 23:59 della data selezionata.
+      * Seleziona la data in cui le approvazioni non verranno più inoltrate. L’inoltro termina alle 23:00 della data selezionata.:59
       * Seleziona **Nessuna data di fine** per configurare Workfront in modo da delegare le approvazioni a tempo indefinito.
 
 1. Fai clic su **Salva**.
@@ -133,13 +133,14 @@ Per delegare le approvazioni a un altro utente:
    >[!NOTE]
    >
    >Gli amministratori di Workfront possono disattivare le deleghe di approvazione dall’area di configurazione. Se le deleghe di approvazione sono disattivate, il pulsante Delega approvazioni non viene visualizzato.
+
 1. Specifica le seguenti informazioni nella sezione Delegate My Approvals (Delega le mie approvazioni):
 
    * **Nome**: inizia a digitare il nome dell&#39;utente a cui desideri delegare le approvazioni, quindi fai clic sul nome quando viene visualizzato nel menu a discesa.
-   * **Data inizio**: seleziona la data in cui le approvazioni iniziano a essere inoltrate. L’inoltro inizia alle 00:00 del mattino successivo alla data selezionata.\
+   * **Data inizio**: seleziona la data in cui le approvazioni iniziano a essere inoltrate. L&#39;inoltro inizia alle 12:00 del mattino alla data selezionata.\
      La data di inizio deve essere la data corrente o una data futura.
    * **Data di fine**: eseguire una delle operazioni seguenti:
-      * Seleziona la data in cui le approvazioni non verranno più inoltrate. L’inoltro termina alle 23:59 della data selezionata.
+      * Seleziona la data in cui le approvazioni non verranno più inoltrate. L’inoltro termina alle 23:00 della data selezionata.:59
       * Seleziona **Nessuna data di fine** per configurare Workfront in modo da delegare le approvazioni a tempo indefinito.
 
 ## Aggiornare o interrompere una delega di approvazione {#update-or-stop-an-approval-delegation}
