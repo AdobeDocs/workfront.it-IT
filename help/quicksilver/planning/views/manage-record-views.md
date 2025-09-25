@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: f32b2f9e5a511b83e5793299e47b9c1c12857bd8
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 2%
+source-wordcount: '1260'
+ht-degree: 1%
 
 ---
 
@@ -187,13 +187,12 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
 
    Per impostazione predefinita, tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
 
-1. Fare clic su **+ Visualizzazione** per aggiungere una nuova visualizzazione.
+1. A seconda dell’ambiente utilizzato, effettua le seguenti operazioni:
 
-   <!--at preview release, replace the step above with this one: 
-    1. Depending on which environment you use, do the following: 
-    * In the Production environment, click the **+View** tab. 
-    * <span class="preview">In the Preview environment, click the drop-down icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, then click **+New view**.</span>-->
-   <!--1. <span class="preview">From the view dropdown menu, drag and drop views in order of your preference.</span>-->
+   * Nell&#39;ambiente di produzione, fare clic sulla scheda **+Visualizza**.
+   * <span class="preview">Nell&#39;ambiente di anteprima, fare clic sull&#39;icona a discesa ![Icona a discesa](assets/drop-down-icon.png) accanto al nome della visualizzazione corrente, quindi fare clic su **+Nuova visualizzazione**.</span>
+
+1. <span class="preview">Trascinare le visualizzazioni dal menu a discesa delle visualizzazioni in base alle proprie preferenze.</span>
 1. Selezionate uno dei seguenti tipi di vista:
 
    * Tabella
