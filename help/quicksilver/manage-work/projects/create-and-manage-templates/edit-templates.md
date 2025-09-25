@@ -6,16 +6,14 @@ description: È possibile modificare i modelli di progetto per riflettere le mod
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 5edda5b6d084c6c4df62f21e430ce9cd0c1cc8a4
+source-git-commit: 221113266624a94fbecd04af46a5c602a4d33334
 workflow-type: tm+mt
-source-wordcount: '5161'
+source-wordcount: '5658'
 ht-degree: 2%
 
 ---
 
 # Modificare i modelli di progetto
-
-{{highlighted-preview}}
 
 <!-- Audited: 7/2025 -->
 
@@ -135,23 +133,23 @@ Le modifiche apportate al modello non vengono applicate ai progetti che utilizza
 1. Aggiorna i campi seguenti:
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-      <tr> 
-      <td role="rowheader"><strong>Descrizione</strong></td> 
-      <td>Aggiungi ulteriori informazioni sul modello.</td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Priorità</strong></td> 
-      <td><p>Questo è solo un flag visivo per te che ti consente di assegnare la priorità ai tuoi progetti futuri. Selezionare una delle opzioni seguenti:</p> 
-      <ul> 
-      <li><p><strong>Nessuno</strong></p></li> 
-      <li><p><strong>Basso</strong></p></li> 
-      <li><p><strong>Normal</strong></p></li> 
-      <li><p><strong>Alta</strong></p></li> 
-      <li><p><strong>Urgente</strong></p></li> 
-      </ul><p><p>A seconda delle Preferenze di progetto selezionate dall'amministratore di Workfront, i nomi delle priorità potrebbero essere diversi. Per ulteriori informazioni sulla modifica delle priorità, vedere <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Creare e personalizzare le priorità</a>.</p></p></td> 
+       <col> 
+       <col> 
+       <tbody> 
+         <tr> 
+         <td role="rowheader"><strong>Descrizione</strong></td> 
+         <td>Aggiungi ulteriori informazioni sul modello.</td> 
+       </tr> 
+         <tr> 
+         <td role="rowheader"><strong>Priorità</strong></td> 
+         <td><p>Questo è solo un flag visivo per te che ti consente di assegnare la priorità ai tuoi progetti futuri. Selezionare una delle opzioni seguenti:</p> 
+         <ul> 
+         <li><p><strong>Nessuno</strong></p></li> 
+         <li><p><strong>Basso</strong></p></li> 
+         <li><p><strong>Normal</strong></p></li> 
+         <li><p><strong>Alta</strong></p></li> 
+         <li><p><strong>Urgente</strong></p></li> 
+         </ul><p><p>A seconda delle Preferenze di progetto selezionate dall'amministratore di Workfront, i nomi delle priorità potrebbero essere diversi. Per ulteriori informazioni sulla modifica delle priorità, vedere <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Creare e personalizzare le priorità</a>.</p></p></td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>URL</strong></td> 
@@ -242,43 +240,92 @@ Le modifiche apportate al modello non vengono applicate ai progetti che utilizza
    <table style="table-layout:auto"> 
        <col> 
        <col> 
-       <tbody>
+       <tbody> 
+         <tr> 
+         <td role="rowheader"><strong>Descrizione</strong></td> 
+         <td>Aggiungi ulteriori informazioni sul modello.</td> 
+       </tr> 
+         <tr> 
+         <td role="rowheader"><strong>Priorità</strong></td> 
+         <td><p>Questo è solo un flag visivo per te che ti consente di assegnare la priorità ai tuoi progetti futuri. Selezionare una delle opzioni seguenti:</p> 
+         <ul> 
+         <li><p><strong>Nessuno</strong></p></li> 
+         <li><p><strong>Basso</strong></p></li> 
+         <li><p><strong>Normal</strong></p></li> 
+         <li><p><strong>Alta</strong></p></li> 
+         <li><p><strong>Urgente</strong></p></li> 
+         </ul><p><p>A seconda delle Preferenze di progetto selezionate dall'amministratore di Workfront, i nomi delle priorità potrebbero essere diversi. Per ulteriori informazioni sulla modifica delle priorità, vedere <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Creare e personalizzare le priorità</a>.</p></p></td> 
+       </tr> 
        <tr> 
-         <td role="rowheader"><strong> Valuta</strong></td> 
-         <td><p>Specifica la valuta per il progetto futuro, se è diversa da quella predefinita del sistema. Questo campo non è visibile se nel sistema è presente solo la valuta predefinita.<br>Per ulteriori informazioni sulla valuta, vedere <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Impostare i tassi di cambio</a>.</p></td> 
+       <td role="rowheader"><strong>URL</strong></td> 
+         <td>Specificare un collegamento Web relativo alle informazioni su questo modello.</td> 
        </tr>
-       <tr> 
-       <td role="rowheader"><strong>Budget</strong></td> 
-       <td><p>Specifica un budget per i progetti creati da questo modello.</p></td> 
-       </tr>  
-       <tr> 
-       <td role="rowheader"><strong>Metodo indice prestazioni</strong></td> 
-       <td><p>Scegli come Workfront calcolerà le metriche del Valore Guadagnato del progetto futuro. Scegli una delle seguenti opzioni:
-       <ul>
-       <li>Basato su Ore</li>
-       <li>Basato su Costo</li>
-       </ul>
+   <tr> 
+      <td role="rowheader"><strong>È attivo</strong></td> 
+      <td><p>Attivate questa opzione se desiderate che il modello sia attivo. Altri utenti possono trovare questo modello e allegarlo ai progetti durante la creazione degli stessi. Disattiva l’opzione se desideri disattivare i modelli non più utilizzati. I modelli disattivati non possono essere allegati ai progetti. Questa opzione è attivata per impostazione predefinita. </p><p><b>SUGGERIMENTO</b></p>
 
-       Per ulteriori informazioni sul metodo dell&#39;indice delle prestazioni, vedere &lt;a href=&quot;../../../manage-work/projects/project-finances/set-pim.md&quot; class=&quot;MCXref xref&quot;>Impostare il metodo dell&#39;indice delle prestazioni (PIM)&lt;/a>. &lt;/p>&lt;/td>
-       &lt;/tr>
-       &lt;tr>
-       &lt;td role=&quot;rowheader&quot;>&lt;strong>Vantaggio pianificato&lt;/strong>&lt;/td>
-       &lt;td>&lt;p>Specifica il beneficio pianificato dei progetti creati da questo modello. Il beneficio pianificato viene utilizzato nel caso aziendale del progetto e in Portfolio Optimizer. &lt;/p>&lt;p>Per ulteriori informazioni sui vantaggi pianificati di un progetto, consultate &lt;a href=&quot;../../../manage-work/projects/project-finances/project-planned-benefit.md&quot; class=&quot;MCXref xref&quot;>Panoramica dei vantaggi pianificati del progetto&lt;/a>. Il beneficio pianificato di un progetto viene preso in considerazione quando viene calcolato il valore netto di un progetto. &lt;/p>&lt;p>Per ulteriori informazioni sull&#39;utilizzo di Portfolio Optimizer, consulta &lt;a href=&quot;../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md&quot; class=&quot;MCXref xref&quot;>Gestire progetti in Portfolio Optimizer&lt;/a> &lt;/p>&lt;/td>
-       &lt;/tr>
-       &lt;tr>
-       &lt;td role=&quot;rowheader&quot;>&lt;strong>Costo fisso&lt;/strong>&lt;/td>
-       &lt;td>&lt;p>Specifica il costo fisso per i progetti creati da questo modello. Questo valore è diverso dal costo manodopera che deriva dalle ore del progetto e dal costo spesa che deriva dall&#39;importo delle spese del progetto. Il Costo Fisso di un progetto viene preso in considerazione nel calcolo del Valore Netto di un progetto e fa parte del Costo Preventivato.&lt;/p>&lt;/td>
-       &lt;/tr>
-       &lt;tr>
-       &lt;td role=&quot;rowheader&quot;>&lt;strong>Reddito Fisso&lt;/strong>&lt;/td>
-       &lt;td>&lt;p>Specifica i ricavi fissi per i progetti creati da questo modello.&lt;/p>&lt;/td>
-       &lt;/tr>
-       &lt;tr>
-       &lt;td role=&quot;rowheader&quot;>&lt;strong>Richiedi l&#39;approvazione del tempo per questo progetto&lt;/strong>&lt;/td>
-       &lt;td>&lt;p>Selezionare questa opzione per richiedere al proprietario del progetto futuro creato da questo modello di approvare l&#39;ora registrata sul progetto. Se si utilizzano le Fatturazioni e si seleziona questa opzione, solo le ore approvate nel progetto vengono visualizzate come ore fatturabili disponibili per le Fatturazioni. L&#39;approvazione del tempo sul progetto è indipendente dall&#39;approvazione delle schede orario. Per ulteriori informazioni su come richiedere l&#39;approvazione del tempo per un progetto, consulta &lt;a href=&quot;../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md&quot; class=&quot;MCXref xref&quot;>Richiedere l&#39;approvazione del tempo per un progetto&lt;/a>.&lt;/p>&lt;/td>
-       &lt;/tr>
-       &lt;/tbody>
-   </table>
+   <p>Puoi disattivare un modello dall’intestazione del modello come descritto nella sezione "Attivare o disattivare un modello" in questo articolo.</p></td> 
+     </tr>
+
+<tr> 
+<td role="rowheader"><strong>Tipo di condizione</strong></td> 
+   <td><p>Seleziona uno dei seguenti tipi di condizioni:</p> 
+   <ul> 
+   <li><strong>Manuale:</strong> il proprietario del progetto imposta manualmente la condizione del progetto. <strong></strong></li> 
+   <li><strong>Stato avanzamento:</strong> Workfront imposta automaticamente la condizione del progetto futuro in base allo stato di avanzamento delle attività nel percorso critico. Per ulteriori informazioni sullo stato di avanzamento, vedere <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Panoramica sullo stato di avanzamento dell'attività</a>.</li> 
+   </ul>
+   </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>Modalità pianificazione</strong></td> 
+   <td><p>Specifica se il progetto che utilizza questo modello è pianificato dalla <strong>Data inizio</strong> o dalla <strong>Data completamento</strong>. Questa selezione determina le date pianificate delle attività future del progetto che utilizzano questo modello. </p><p>Selezionare una delle opzioni seguenti: </p> 
+   <ul> 
+   <li><p><strong>Pianifica da data di inizio</strong>: la data di inizio del modello corrisponde effettivamente al giorno di inizio. Quando si pianifica un modello a partire dalla data di inizio, Adobe Workfront calcola il giorno di completamento del modello in base alla durata di tutte le attività del modello. Il giorno di inizio del modello diventa la data di inizio pianificata del progetto futuro.</p></li> 
+   <li><p><strong>Pianifica da data di completamento</strong>: la data di completamento del modello corrisponde effettivamente al giorno di completamento. Quando si pianifica un modello a partire dalla data di completamento, Workfront calcola il giorno di inizio del modello in base alla durata di tutte le attività del modello. Il giorno di completamento del modello diventa la data di completamento pianificata del progetto futuro. </p></li> 
+   </ul><p>Per ulteriori informazioni sui giorni di inizio e completamento delle attività modello, vedere <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Panoramica sui giorni di inizio e completamento in un modello</a>. </p><p>L’impostazione Pianifica da per i modelli è simile a quella dei progetti. L’amministratore di Workfront seleziona l’impostazione predefinita Pianifica da per i progetti nel sistema. Per informazioni sull'impostazione delle impostazioni predefinite del progetto, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze del progetto a livello di sistema</a>.</p></td> 
+   </tr>
+
+<tr> 
+   <td role="rowheader"><strong>Portfolio</strong></td> 
+   <td><p>Specificare un Portfolio per i progetti creati da questo modello. È necessario creare un Portfolio prima di visualizzarlo nell'elenco a discesa. </p><p>Nell’elenco vengono visualizzati solo i portfolio attivi. Per ulteriori informazioni sulla creazione di portfolio, vedere <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Creare un portfolio </a>.</p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>Programma</strong></td> 
+   <td><p>Se hai selezionato un Portfolio per il modello, specifica un <strong>Programma</strong> per il progetto futuro. Alcuni portafogli potrebbero non disporre di programmi. È innanzitutto necessario creare un programma prima che venga visualizzato in questo elenco a discesa. Nell'elenco vengono visualizzati solo i programmi attivi.</p><p>Per ulteriori informazioni sulla creazione di programmi, vedere <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Creare un programma</a>.</p></td> 
+   </tr>  
+   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+   <td role="rowheader"><strong>Gruppo</strong></td> 
+   <td><p>Nell’elenco a discesa, seleziona il gruppo che desideri associare ai progetti creati dal modello. Può essere un gruppo di qualsiasi livello. </p><p>Per assicurarsi di selezionare il gruppo corretto, passare il puntatore del mouse su di esso e fare clic sull'icona delle informazioni <img src="assets/info-icon.png"> visualizzata accanto ad esso. In questo modo viene visualizzata una descrizione del gruppo contenente informazioni sul gruppo stesso, ad esempio la gerarchia dei gruppi al di sopra del gruppo e i relativi amministratori.</p> <p><b>NOTE</b>
+
+<ul> 
+   <li><p>Nell'area Progetti (Projects) della pagina di un gruppo, quando un utente crea un progetto utilizzando un modello per il quale non è stato selezionato un gruppo, il sistema associa il gruppo aperto al progetto.</p><p>Si tratta di una procedura diversa dalle altre aree in cui il sistema associa il Gruppo Predefinito di un utente al progetto quando l'utente crea il progetto utilizzando un modello in cui non è selezionato alcun gruppo.</p></li> 
+   <li><p>Se un utente seleziona un modello in cui è selezionato un gruppo durante la creazione di un progetto o durante la conversione di un’attività o di un problema in un progetto, può scegliere un gruppo diverso per il progetto.</p></li> 
+   <li>Anche se questo campo è disponibile nei modelli solo nella nuova esperienza Adobe Workfront, è possibile visualizzarlo in elenchi e rapporti sia lì che in Adobe Workfront Classic. </li> 
+   </ul> </p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>Azienda</strong></td> 
+   <td><p>Specifica la società da associare al modello. Nell'elenco vengono visualizzate solo le società attive.</p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>Proprietario del modello</strong></td> 
+   <td><p>L'utente designato come proprietario del modello deve essere un utente attivo di Workfront. </p><p>Considera quanto segue sull’utente designato come proprietario del modello: </p> 
+   <ul> 
+   <li>Vengono automaticamente assegnate loro le autorizzazioni di gestione per il modello. </li> 
+   <li>Vengono aggiunti alla squadra del progetto e ricevono automaticamente le autorizzazioni di gestione per il progetto creato dal modello. </li> 
+   <li>Diventano il Proprietario del progetto quando il progetto viene creato da questo modello. </li> 
+   <li> Se l’utente designato come proprietario del modello ha accesso limitato a modelli o progetti dal proprio livello di accesso, le autorizzazioni di gestione sul modello e sui progetti saranno limitate. Ad esempio, se dispongono solo dell’accesso di visualizzazione per i modelli o i progetti nel loro livello di accesso, riceveranno automaticamente le autorizzazioni di visualizzazione sul modello e sul progetto quando saranno designati come proprietario del modello.</li>
+   </ul></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>Sponsor modello</strong></td> 
+   <td><p>L’utente specificato in questo campo diventa sponsor del progetto quando il modello viene aggiunto al progetto. Questo utente viene aggiunto al team del progetto e riceve automaticamente le autorizzazioni di visualizzazione per il progetto. L'utente designato come sponsor del modello deve essere un utente attivo di Workfront. </p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>Responsabile risorse</strong></td> 
+   <td><p>Gli utenti specificati ricevono automaticamente le autorizzazioni di gestione per i progetti futuri e possono assegnare risorse alle attività e ai problemi dei progetti. È possibile specificare più di un Responsabile risorse. </p></td> 
+   </tr> 
+</table>
 
 1. (Facoltativo) Continua a modificare le sezioni seguenti, a seconda delle informazioni che desideri modificare.
 
@@ -614,11 +661,7 @@ Per modificare i modelli in blocco:
 
    Viene visualizzata la finestra di dialogo **Modifica modelli**.
 
-   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
    ![Modifica modelli](assets/bulk-edit-templates-0925.png)
-
-   Immagine di esempio nell’ambiente di produzione:
-   ![Modifica modelli](assets/edit-templates-in-bulk-box-nwe-350x327.png)
 
 1. Fai clic sulle sezioni a sinistra per modificare tutti i modelli selezionati.
 
@@ -636,7 +679,7 @@ Per modificare i modelli in blocco:
    * Problemi
    * Commento
 
-1. Fai clic su <span class="preview">**Salva**</span> o **Salva modifiche**.
+1. Fai clic su **Salva**.
 
    Tutte le modifiche apportate sono ora visibili in tutti i modelli selezionati.
 
