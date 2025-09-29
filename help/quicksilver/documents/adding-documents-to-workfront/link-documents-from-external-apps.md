@@ -6,9 +6,9 @@ description: Puoi collegare documenti e cartelle ad Adobe Workfront da origini e
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: a005c7114388e1c20a4847b3da3229667be0ded7
 workflow-type: tm+mt
-source-wordcount: '2620'
+source-wordcount: '2568'
 ht-degree: 0%
 
 ---
@@ -39,19 +39,16 @@ Puoi collegare documenti e cartelle ad Adobe Workfront dalle seguenti origini:
   </tr> 
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
-   <td>In Workfront è possibile rendere disponibili le bozze create originariamente in Workfront Proof. Per utilizzare questa funzione, è necessario un piano Pro Workfront o superiore per le licenze correnti. Per le nuove licenze, tutti i piani includono questa funzione. Per ulteriori informazioni sui vari piani disponibili, vedere <a href="https://business.adobe.com/products/workfront/pricing.html">Piani Workfront</a>.</td> 
+   <td>In Workfront è possibile rendere disponibili le bozze create originariamente in Workfront Proof.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
    <td>Puoi collegare documenti a Workfront da Experience Manager Assets Essentials. Per ulteriori informazioni, vedere <a href="../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md" class="MCXref xref"> Adobe Workfront per Experience Manager Assets Essentials</a>.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Workfront DAM </td> 
-   <td>Questo richiede un acquisto aggiuntivo. </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
    <td role="rowheader">Altri provider di documenti (tramite integrazioni di documenti personalizzate)</td> 
-   <td> <p class="workfront_plans">Per utilizzare questa funzione, è necessario un piano Pro Workfront o superiore per le licenze correnti. Per le nuove licenze, tutti i piani includono questa funzione. Per ulteriori informazioni sui vari piani disponibili, vedere <a href="https://business.adobe.com/products/workfront/pricing.html">Piani Workfront</a>.</p> </td>
+   <td> <p class="workfront_plans">Queste integrazioni possono essere configurate nell’area Configurazione.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -99,6 +96,13 @@ Si applicano le seguenti eccezioni:
 
 * Se fornite dal servizio Document, le miniature e le immagini di anteprima potrebbero essere memorizzate sui server Workfront.
 * Quando si utilizza la verifica in Workfront, il documento viene copiato e aggiunto ai server di verifica.
+
+## Limiti dimensioni file
+
+Provider cloud di terze parti:
+
+* File singolo: 5 GB o meno
+* File multipli: 1 GB o meno (totale di tutti i file)
 
 ## Collegare un documento da un’applicazione esterna a Workfront
 
