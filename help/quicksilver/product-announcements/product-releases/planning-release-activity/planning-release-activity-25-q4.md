@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: 2fd35bef86be0728b346cb116f8f37662f84bc77
+source-git-commit: 4146dd1d11b54155ad5510625c761d66dd649245
 workflow-type: tm+mt
-source-wordcount: '2076'
+source-wordcount: '2235'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,8 @@ Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning,
 >[!NOTE]
 >
 >Anteprima: 25 settembre 2025
->&#x200B;>Versione rapida di produzione: 15 ottobre 2025
->&#x200B;>Produzione totale: 16 ottobre 2025
+>>Versione rapida di produzione: 15 ottobre 2025
+>>Produzione totale: 16 ottobre 2025
 
 È ora possibile modificare in linea gli oggetti connessi a Workfront nella pagina Record collegati. È inoltre possibile modificare l&#39;ordine degli oggetti connessi, copiare e incollare righe e altre funzioni di una vista tabella.
 
@@ -101,6 +101,30 @@ Questa funzionalità esiste già nella visualizzazione mensile del calendario.
 
 Per ulteriori informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
 
+## Nuova impostazione per impedire la creazione di una connessione bidirezionale da un tipo di record
+
+>[!NOTE]
+>
+>* Anteprima: 18 settembre 2025
+>* Versione rapida di produzione: 15 ottobre 2025
+>* Produzione totale: 16 ottobre 2025
+
+Per evitare che vengano creati troppi campi di connessione e che ciò possa influire sulle prestazioni, è stata introdotta una nuova impostazione che consente ai responsabili dell’area di lavoro di creare facoltativamente i campi di connessione corrispondenti su un tipo di record connesso. Se abilitate, le connessioni contano su entrambi i record, il che aumenterà le possibilità di raggiungere il limite di 500 connessioni. Per evitare questo problema, si consiglia di mantenere questa impostazione disattivata, soprattutto quando si effettua il collegamento a tipi di record tassonomici.
+
+Le seguenti funzionalità fanno parte di questo miglioramento:
+
+* Nella scheda Nuova connessione è stata aggiunta una nuova impostazione per &quot;Crea campo corrispondente sul tipo di record collegato&quot;.
+
+* L’area Tipo di connessione della scheda Nuova connessione è stata riprogettata.
+
+* Per ogni tipo di record è previsto un limite di 500 connessioni.
+
+* La nuova impostazione può essere modificata dopo la creazione e il salvataggio di una nuova connessione.
+
+
+
+Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+
 ## Quando si modifica o si elimina un campo viene visualizzata una nuova casella di informazioni
 
 >[!NOTE]
@@ -122,8 +146,8 @@ Per informazioni, vedere [Panoramica dei campi formula](/help/quicksilver/planni
 >[!NOTE]
 >
 >Anteprima: 11 settembre 2025
->&#x200B;>Produzione per tutti i clienti: 11 settembre 2025
->&#x200B;>[!BADGE Fuori programma]{type=Neutral}
+>>Produzione per tutti i clienti: 11 settembre 2025
+>>[!BADGE Fuori programma]{type=Neutral}
 
 Se la tua organizzazione utilizza sia Adobe Workfront Planning che Adobe GenStudio for Performance Marketing, potrebbe essere utile definire concetti di marketing come Campagne, Prodotti e Personas in modo più dettagliato rispetto a quanto supportato da GenStudio per impostazione predefinita.
 
@@ -288,8 +312,8 @@ Per informazioni, vedere [Panoramica dei campi formula](/help/quicksilver/planni
 >[!NOTE]
 >
 >Anteprima: 7 agosto 2025
->&#x200B;>Produzione per tutti i clienti: agosto 2025
->&#x200B;>[!BADGE Fuori programma]{type=Neutral}
+>>Produzione per tutti i clienti: agosto 2025
+>>[!BADGE Fuori programma]{type=Neutral}
 
 Sono state aggiunte nuove espressioni con il seguente utilizzo ai campi formula in Workfront Planning e ai campi personalizzati calcolati in Workfront:
 
@@ -304,8 +328,8 @@ Per ulteriori informazioni, vedere [Panoramica delle espressioni di dati calcola
 >[!NOTE]
 >
 >Anteprima: 31 luglio 2025
->&#x200B;>Produzione per tutti i clienti: 31 luglio 2025
->&#x200B;>[!BADGE Fuori programma]{type=Neutral}
+>>Produzione per tutti i clienti: 31 luglio 2025
+>>[!BADGE Fuori programma]{type=Neutral}
 
 È stato aggiunto un pulsante Ingrandisci per ingrandire il campo Formula durante la creazione o la modifica del campo in una visualizzazione della tabella record. Inoltre, nella nuova finestra ingrandita è stato aggiunto un pulsante Riduci a icona per ripristinare la casella di creazione del campo.
 
@@ -354,8 +378,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >Anteprima: 24 luglio 2025
->&#x200B;>Versione rapida di produzione: 14 agosto 2025
->&#x200B;>Produzione per tutti i clienti: 16 ottobre 2025
+>>Versione rapida di produzione: 14 agosto 2025
+>>Produzione per tutti i clienti: 16 ottobre 2025
 
 È ora possibile creare record nella visualizzazione timeline di un tipo di record facendo doppio clic in un punto qualsiasi della timeline.
 
@@ -370,8 +394,8 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 >[!NOTE]
 >
 >Anteprima: 24 luglio 2025
->&#x200B;>Versione rapida di produzione: 14 agosto 2025
->&#x200B;>Produzione per tutti i clienti: 16 ottobre 2025
+>>Versione rapida di produzione: 14 agosto 2025
+>>Produzione per tutti i clienti: 16 ottobre 2025
 
 È ora possibile condividere un tipo di record dal menu Altro della scheda del tipo di record nella pagina dell&#39;area di lavoro. Prima di questo miglioramento, l’opzione Condividi era disponibile solo all’interno della pagina del tipo di record.
 
@@ -382,8 +406,8 @@ Per informazioni, vedere [Condividi tipi di record](/help/quicksilver/planning/a
 >[!NOTE]
 >
 >Anteprima: 24 luglio 2025
->&#x200B;>Versione rapida di produzione: 14 agosto 2025
->&#x200B;>Produzione per tutti i clienti: 16 ottobre 2025
+>>Versione rapida di produzione: 14 agosto 2025
+>>Produzione per tutti i clienti: 16 ottobre 2025
 
 È ora possibile visualizzare tutte le visualizzazioni di Workfront Planning (tabella, sequenza temporale e calendario) in modalità a schermo intero. La funzionalità di visualizzazione viene mantenuta ed è possibile modificare la visualizzazione anche a schermo intero.
 
@@ -396,8 +420,8 @@ Per informazioni, vedere [Gestire le visualizzazioni dei record](/help/quicksilv
 >[!NOTE]
 >
 >Anteprima: 22 luglio 2025
->&#x200B;>Produzione per rilascio rapido: 14 agosto 2025
->&#x200B;>Produzione per tutti i clienti: 16 ottobre 2025
+>>Produzione per rilascio rapido: 14 agosto 2025
+>>Produzione per tutti i clienti: 16 ottobre 2025
 
 Per rendere più flessibile il processo di approvazione, è stata aggiunta la possibilità di aggiungere team come approvatori nei moduli di richiesta Planning. Ora è possibile immettere e selezionare i nomi dei team quando si impostano gli approvatori. Qualsiasi membro del team può prendere una decisione, che conta come decisione di approvazione per l’intero team.
 
@@ -410,8 +434,8 @@ Per ulteriori informazioni, vedere [Aggiungere un&#39;approvazione a un modulo d
 >[!NOTE]
 >
 >Anteprima: 17 luglio 2025
->&#x200B;>Produzione per rilascio rapido: 14 agosto 2025
->&#x200B;>Produzione per tutti i clienti: 16 ottobre 2025
+>>Produzione per rilascio rapido: 14 agosto 2025
+>>Produzione per tutti i clienti: 16 ottobre 2025
 
 Stiamo introducendo i seguenti campi per acquisire informazioni sull’approvazione per i record creati inviando una richiesta con un’approvazione:
 
@@ -425,8 +449,8 @@ Per informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/crea
 >[!NOTE]
 >
 >Anteprima: 10 luglio 2025
->&#x200B;>Versione rapida di produzione: 14 agosto 2025
->&#x200B;>Produzione per tutti i clienti: 16 ottobre 2025
+>>Versione rapida di produzione: 14 agosto 2025
+>>Produzione per tutti i clienti: 16 ottobre 2025
 
 
 Ora, quando si applicano i raggruppamenti a una vista tabella, l&#39;aggiunta di un record alla tabella determina la compilazione automatica dei campi associati ai raggruppamenti a cui si aggiunge il record.
