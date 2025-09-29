@@ -4,17 +4,19 @@ description: Puoi utilizzare un file modello per creare le schede tariffa in Exc
 author: Lisa
 hide: true
 hidefromtoc: true
-source-git-commit: 1deb72953599c24fa40eb7a5d77214f6576fec1e
+exl-id: debe90e7-08c2-4385-96fb-8d349dec6741
+source-git-commit: e94cbfd9c503936539dbe011e787533222896202
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1168'
 ht-degree: 0%
 
 ---
 
-
 # Importare schede di tariffa da un modello
 
 Puoi utilizzare un file modello per creare le schede dei tassi in Excel e importarle in Adobe Workfront, invece di aggiungere manualmente tutti i ruoli e i tassi.
+
+Per visualizzare le schede di frequenza di esempio descritte in questo articolo, scarica il [file di esempio](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/import-rate-cards/assets/rate-cards-sample.zip).
 
 ## Regole importanti per l’utilizzo del file modello
 
@@ -179,6 +181,3 @@ Seguendo questi passaggi si eviteranno problemi inutili e si garantirà un&#39;i
 1. Se il file contiene problemi, viene visualizzato un messaggio di errore. Fai clic su **Visualizza problemi** per visualizzare i problemi in una schermata separata.
 
    È necessario correggere i problemi nel file Excel e importarlo nuovamente prima che le schede di frequenza esistano in Workfront.
-
-
-
