@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: bfece1075b137f9fcbaf6046e626952b5f2bde2f
+source-git-commit: 681d83661aff2c0484521ee11c8899dca14e65ed
 workflow-type: tm+mt
-source-wordcount: '8092'
+source-wordcount: '8031'
 ht-degree: 0%
 
 ---
@@ -216,13 +216,13 @@ Per informazioni, vedere [Modifica programmi](/help/quicksilver/manage-work/port
 
 Per informazioni, vedere [Modifica modelli di progetto](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-### Aggiornamenti dell’interfaccia per un elenco o un rapporto di progetto quando si applica la vista Milestone
+<!--### Interface updates for a project list or report when applying the Milestone view
 
-**Versione di anteprima: 11 settembre 2025; versione di produzione: 18 settembre 2025**
+**Preview release: September 11, 2025; Production release: September 18, 2025**
 
-Abbiamo aggiornato l’aspetto di un elenco di progetti o di un rapporto quando applichi loro la vista Milestone.
+We have updated the look and feel of a project list or report when you apply the Milestone view to them.
 
-L’elenco o il rapporto dei progetti ora corrisponde alla progettazione di altre aree di Workfront. Per informazioni, vedere [Utilizzare la vista Milestone](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+The project list or report now matches the design of other areas of Workfront. For information, see [Use the Milestone view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).-->
 
 ### Modifiche all&#39;interfaccia per Convertire un&#39;attività in un progetto senza modello
 
