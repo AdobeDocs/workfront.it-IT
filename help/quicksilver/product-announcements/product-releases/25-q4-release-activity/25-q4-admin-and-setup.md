@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: aec301a72ce0864faaf61754552ab8b4ba9bfb49
+source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Il profilo utente di Workfront è stato aggiornato a un design moderno, coerente
 Esistono alcune piccole differenze di funzionalità rispetto al profilo utente corrente, tra cui:
 
 * Alcune caselle di controllo, ad esempio per contrassegnare l&#39;utente come attivo, sono state modificate in interruttori o pulsanti.
-* L’opzione &quot;Invia il lavoro che assegno a me stesso nella scheda Lavori in corso&quot; in Preferenze è stata rimossa perché fa riferimento a una funzione obsoleta.
+* L&#39;opzione &quot;Invia lavoro assegnato a me stesso alla scheda Lavori in corso&quot; in Preferenze è stata rinominata &quot;Imposta automaticamente lo stato dell&#39;attività su In corso quando le attività vengono assegnate autonomamente&quot; per rispecchiare lo scopo.
 
 Per ulteriori informazioni, vedere [Modificare il profilo di un utente](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
