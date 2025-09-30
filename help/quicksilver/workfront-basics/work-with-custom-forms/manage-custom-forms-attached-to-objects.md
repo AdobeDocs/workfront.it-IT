@@ -6,16 +6,16 @@ description: È possibile aggiornare l'ordine di visualizzazione dei moduli pers
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b3534cccd4a06b8c5b8b7e742f63eeb898bd5b99
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
 
 # Gestire i moduli personalizzati allegati agli oggetti
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile per tutti i clienti nell&#39;ambiente di anteprima e per un gruppo selezionato di clienti nell&#39;ambiente di produzione.</span>
 
 È possibile aggiornare l&#39;ordine di visualizzazione dei moduli personalizzati allegati a un oggetto, rimuoverli o modificare in blocco la modalità di visualizzazione dei moduli personalizzati su più oggetti.
 
@@ -81,6 +81,8 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
 1. Per progetti, attività e problemi di moduli personalizzati, fai clic sull&#39;icona **X** a destra di un modulo per rimuoverlo dall&#39;oggetto.
 
    Per tutti gli altri oggetti, fare clic su **Gestisci Forms**, quindi fare clic sull&#39;icona **X** a destra di un modulo per rimuoverlo dall&#39;oggetto.
+
+1. <span class="preview">Nella finestra di dialogo visualizzata, fare clic su **Rimuovi**.</span>
 
 1. Fai clic su **Salva**.
 
