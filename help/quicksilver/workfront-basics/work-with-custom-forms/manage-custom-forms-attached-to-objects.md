@@ -6,9 +6,9 @@ description: È possibile aggiornare l'ordine di visualizzazione dei moduli pers
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: b3534cccd4a06b8c5b8b7e742f63eeb898bd5b99
+source-git-commit: 322257a21f5d415b0ac04e6944c4aaa53fc3ab3b
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -28,25 +28,25 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Richiedi o superiore</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modificare l’accesso agli oggetti per i quali si gestiscono i moduli personalizzati</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modificare l’accesso agli oggetti per i quali si gestiscono i moduli personalizzati</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Autorizzazioni di Contribute o superiori per gli oggetti per i quali si gestiscono i moduli personalizzati</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Autorizzazioni di Contribute o superiori per gli oggetti per i quali si gestiscono i moduli personalizzati</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Prerequisiti
 
@@ -73,18 +73,13 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
 >
 >Quando si rimuove un modulo personalizzato da un oggetto, tutte le informazioni acquisite nei campi personalizzati del modulo vengono perse e non possono essere recuperate.
 
-1. Passare all&#39;oggetto in cui si desidera rimuovere il modulo personalizzato e iniziare a modificare l&#39;oggetto.
+1. Vai all&#39;oggetto in cui vuoi rimuovere il modulo personalizzato, quindi fai clic sulla sezione **Dettagli** nel pannello a sinistra per l&#39;oggetto.
 
-   Ad esempio, vai a un progetto, fai clic sul menu **Altro** ![](assets/more-icon.png), quindi fai clic su **Modifica** .
+   Ad esempio, vai a un progetto, fai clic sulla sezione **Dettagli progetto**.
 
-1. Fare clic su **Forms personalizzato**.
-1. Per progetti, attività e problemi di moduli personalizzati, fai clic sull&#39;icona **X** a destra di un modulo per rimuoverlo dall&#39;oggetto.
-
-   Per tutti gli altri oggetti, fare clic su **Gestisci Forms**, quindi fare clic sull&#39;icona **X** a destra di un modulo per rimuoverlo dall&#39;oggetto.
-
-1. <span class="preview">Nella finestra di dialogo visualizzata, fare clic su **Rimuovi**.</span>
-
-1. Fai clic su **Salva**.
+1. Fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png) nell&#39;angolo superiore destro della pagina dell&#39;oggetto, quindi fai clic su **Modifica tutto**.
+1. Fai clic sull&#39;icona **Elimina** ![](assets/delete-icon.png) a destra del nome di un modulo personalizzato, quindi fai clic su **Elimina** per confermare e rimuovere il modulo dall&#39;oggetto oppure su **Annulla** per impedirne la rimozione.
+1. Fai clic su **Salva modifiche**.
 
 ## Gestire più moduli personalizzati contenenti gli stessi campi personalizzati
 

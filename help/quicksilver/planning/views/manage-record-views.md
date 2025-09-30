@@ -6,15 +6,17 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: f32b2f9e5a511b83e5793299e47b9c1c12857bd8
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1287'
 ht-degree: 1%
 
 ---
 
 
 # Gestire le visualizzazioni record
+
+<!-- take preview and production references out at production-->
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
@@ -192,30 +194,32 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
    * Nell&#39;ambiente di produzione, fare clic sulla scheda **+Visualizza**.
    * <span class="preview">Nell&#39;ambiente di anteprima, fare clic sull&#39;icona a discesa ![Icona a discesa](assets/drop-down-icon.png) accanto al nome della visualizzazione corrente, quindi fare clic su **+Nuova visualizzazione**.</span>
 
-1. <span class="preview">Trascinare le visualizzazioni dal menu a discesa delle visualizzazioni in base alle proprie preferenze.</span>
 1. Selezionate uno dei seguenti tipi di vista:
 
    * Tabella
    * Timeline
    * Calendario
 
-   Viene creata una nuova scheda con la vista selezionata.
+   Nell’ambiente di produzione viene creata una nuova scheda con la vista selezionata.
 
    A seconda della larghezza dello schermo, nel menu **Altro** ![Altro](assets/more-menu.png) potrebbero essere visualizzate altre visualizzazioni.
 
+   >[!TIP]
+   >
+   >Quando si crea un tipo di record, per impostazione predefinita viene creata anche la vista tabella.
+   >
+   >Per creare una visualizzazione timeline o calendario, il tipo di record per il quale viene creata la visualizzazione deve avere almeno due campi data.
+   >
+   >In caso contrario, le opzioni Timeline (Timeline) e Calendario (Calendar) vengono disattivate.
+   >
 
->[!TIP]
->
->Quando si crea un tipo di record, per impostazione predefinita viene creata anche la vista tabella.
->
->Per creare una visualizzazione timeline o calendario, il tipo di record per il quale viene creata la visualizzazione deve avere almeno due campi data.
->
->In caso contrario, le opzioni Timeline (Timeline) e Calendario (Calendar) vengono disattivate.
->
+   <span class="preview">Nell&#39;ambiente di anteprima, scegliere un tipo di visualizzazione, quindi fare clic su **Crea**. Viene aggiunta una nuova vista al menu a discesa. </span>
 
-<!-- replace screen shot at production??-->
+   <span class="preview">![Crea riquadro di visualizzazione](assets/create-view-box.png)</span>
 
-![Elenco a discesa dei tipi di visualizzazione dall&#39;elenco dei tipi di record](assets/view-types-drop-down-from-record-type-list.png)
+1. <span class="preview">Trascinare le visualizzazioni dal menu a discesa delle visualizzazioni in base alle proprie preferenze.</span>
+
+   <span class="preview">![Elenco a discesa dei tipi di visualizzazione dall&#39;elenco dei tipi di record](assets/view-types-drop-down-from-record-type-list.png)</span>
 
 1. (Condizionale) Fai clic su **Avanti** durante la creazione di una visualizzazione calendario o sequenza temporale.
 

@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
 source-wordcount: '3494'
 ht-degree: 2%
@@ -34,7 +34,7 @@ Per informazioni sull&#39;esportazione della vista tabella in un file Excel o CS
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.
++++ Espandere per visualizzare i requisiti di accesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -100,7 +100,7 @@ Per informazioni sull&#39;esportazione della vista tabella in un file Excel o CS
 
 *Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Modificare i record utilizzando la vista tabella
 
@@ -114,14 +114,14 @@ Durante la creazione di una vista tabella, tutti i record del tipo selezionato v
 
 Per gestire una vista tabella:
 
-1. Creare una visualizzazione tabella come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
+1. <span class="preview">Creare una vista tabella, come descritto nell&#39;articolo [Gestire le viste record](/help/quicksilver/planning/views/manage-record-views.md).</span>
 
-   ![Esempio di visualizzazione tabella](assets/table-view-example.png)
+   <span class="preview">![Esempio di visualizzazione tabella](assets/table-view-example.png)</span>
 
 1. (Facoltativo) Fai clic su **Altezza riga**, quindi seleziona una delle seguenti opzioni per modificare l&#39;altezza delle righe della tabella:
-   * Piccolo
-   * Medio
-   * Alto
+   * Piccola
+   * Canale
+   * Alta
 
 1. <span class="preview">(Facoltativo) Fai clic sull&#39;icona **Schermo intero** ![Icona Apri schermo intero](assets/open-full-screen-icon.png) per aprire la visualizzazione a schermo intero, quindi sull&#39;icona **Esci da schermo intero** ![Icona Esci da schermo intero](assets/exit-full-screen-icon.png) o su Esc sulla tastiera per uscire dallo schermo intero.  </span>
 
@@ -159,7 +159,11 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
 
    * Fai clic su **Campi** nella barra degli strumenti della tabella, trascina i campi nell&#39;ordine desiderato, quindi fai clic all&#39;esterno della casella **Visibilità campi e ordine** per chiuderla.
 
+     <div class="preview">
+
      ![Barra degli strumenti di visualizzazione tabella dei campi espansa](assets/fields-setting-table-view-toolbar-expanded.png)
+
+     </div>
 
 
      >[!TIP]
@@ -203,9 +207,9 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
 
 1. Per trovare rapidamente i record che corrispondono a una parola chiave, eseguire le operazioni seguenti:
 
-   1. Fai clic sull&#39;icona **Ricerca** ![Icona Ricerca](assets/search-icon.png) e inizia a digitare una parola chiave associata a qualsiasi campo di un record visualizzato sullo schermo. Accanto all’elemento da cercare viene visualizzato il numero di corrispondenze corrette e viene evidenziato il campo con la corrispondenza corretta.
+   1. <span class="preview">Nella casella **Cerca** ![Cerca icona](assets/search-icon.png) e inizia a digitare una parola chiave associata a qualsiasi campo di un record visualizzato sullo schermo.</span> Il numero di corrispondenze corrette viene visualizzato accanto all&#39;elemento di ricerca e il campo con la corrispondenza corretta viene evidenziato.
 
-      ![Casella di ricerca con struttura blu dei risultati nella vista tabella](assets/search-box-with-results-blue-outline-table-view.png)
+      <span class="preview">![Casella di ricerca con struttura blu dei risultati nella vista tabella](assets/search-box-with-results-blue-outline-table-view.png)</span>
 
       È possibile utilizzare qualsiasi parola o carattere speciale visibile sullo schermo.
 
@@ -459,9 +463,13 @@ Per aggiungere un raggruppamento:
 
 1. (Facoltativo) Fai clic su **Aggiungi condizione** e ripeti i passaggi precedenti per aggiungere fino a 3 raggruppamenti.
 
+   <div class="preview">
+
    Il numero di campi selezionati per il raggruppamento viene visualizzato accanto all’icona Raggruppamento.
 
    ![Raggruppamento applicato nella vista tabella](assets/grouping-applied-in-table-view.png)
+
+   </div>
 
 1. (Facoltativo) Nella casella **Raggruppa record per**, fai clic sull&#39;icona **x** a destra di un campo selezionato per il raggruppamento per rimuovere il raggruppamento
 

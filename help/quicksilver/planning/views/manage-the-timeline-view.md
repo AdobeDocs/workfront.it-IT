@@ -6,14 +6,16 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '3920'
+source-wordcount: '3935'
 ht-degree: 2%
 
 ---
 
 # Gestire la visualizzazione della timeline
+
+<!--remove preview and production references at production-->
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
@@ -117,9 +119,9 @@ Considera quanto segue:
 Per gestire una vista timeline:
 
 1. Passare alla pagina del tipo di record per la quale si desidera visualizzare la sequenza temporale.
-1. Creare una visualizzazione timeline come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
+1. <span class="preview">Creare una visualizzazione della sequenza temporale, come descritto nell&#39;articolo [Gestire le visualizzazioni dei record](/help/quicksilver/planning/views/manage-record-views.md). </span>
 
-   ![Esempio di visualizzazione della sequenza temporale](assets/timeline-view-example.png)
+   <span class="preview">![Esempio di visualizzazione della sequenza temporale](assets/timeline-view-example.png)</span>
 
    Per impostazione predefinita, i record associati al tipo di record selezionato vengono visualizzati come barre in un indicatore cronologico e ordinati in ordine cronologico rispetto alla data di inizio.
 
@@ -173,9 +175,9 @@ Per gestire una vista timeline:
 
 1. Per trovare rapidamente i record che corrispondono a una parola chiave, eseguire le operazioni seguenti:
 
-   1. Fai clic sull&#39;icona **Ricerca** ![Icona Ricerca](assets/search-icon.png) e inizia a digitare una parola chiave associata a qualsiasi campo di un record visualizzato sullo schermo. Il numero di corrispondenze corrette viene visualizzato accanto all’elemento di ricerca e viene evidenziato il record con la corrispondenza corretta.
+   1. <span class="preview">Fai clic sull&#39;icona **Cerca** ![Icona Cerca](assets/search-icon.png) e inizia a digitare una parola chiave associata a qualsiasi campo di un record visualizzato sullo schermo. Il numero di corrispondenze corrette viene visualizzato accanto all’elemento di ricerca e viene evidenziato il record con la corrispondenza corretta. </span>
 
-      ![Casella di ricerca e visualizzazione della sequenza temporale dei risultati](assets/search-box-and-results-timeline-view.png)
+      <span class="preview">![Casella di ricerca e visualizzazione della sequenza temporale dei risultati](assets/search-box-and-results-timeline-view.png)</span>
 
       È possibile utilizzare qualsiasi parola o carattere speciale visibile sullo schermo.
 
@@ -353,23 +355,21 @@ Quando si lavora con i raggruppamenti nella vista timeline, tenete presente quan
 Per aggiungere un raggruppamento nella vista timeline:
 
 1. Creare una visualizzazione timeline per un tipo di record, come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
-1. Fai clic su **Raggruppamento** nell&#39;angolo superiore destro della visualizzazione della timeline.
+1. <span class="preview">Fai clic su **Raggruppamento** nell&#39;angolo superiore destro della visualizzazione della sequenza temporale.</span>
 
-   ![Raggruppamento della visualizzazione timeline dell&#39;interfaccia utente con campi collegati](assets/grouping-ui-timeline-view-with-linked-fields.png)
+   <span class="preview">![Raggruppamento della visualizzazione timeline dell&#39;interfaccia utente con campi collegati](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
 
 1. Fare clic su uno dei campi suggeriti oppure fare clic su **Scegli un campo diverso**, cerca un campo diverso e quindi fare clic su di esso quando viene visualizzato nell&#39;elenco.
 
    Il raggruppamento viene applicato automaticamente alla timeline e i record vengono visualizzati nella casella di raggruppamento.
 
-   <!-- add a step that you can rearrange the groupings here, when this will be possible-->
-
 1. (Facoltativo) Ripeti i passaggi precedenti per aggiungere fino a 3 raggruppamenti.
 
-   Il numero di campi selezionati per il raggruppamento viene visualizzato accanto all’icona Raggruppamento.
+   <span class="preview">Il numero di campi selezionati per il raggruppamento viene visualizzato accanto all&#39;icona Raggruppamento.</span>
 
-   <!-- update screen shot with view redesign-->
+   <span class="preview">![Raggruppamento applicato nella vista timeline](assets/grouping-applied-in-timeline-view.png)</span>
 
-   ![Il raggruppamento si applica nella vista timeline](assets/grouping-applied-in-timeline-view.png)
+1. Nella casella **Raggruppa record per** trascinare i raggruppamenti nell&#39;ordine corretto.
 
 1. (Facoltativo) Nella casella **Raggruppa record per**, fai clic sull&#39;icona **x** a destra di un campo selezionato per il raggruppamento per rimuovere il raggruppamento
 
@@ -530,7 +530,11 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
 1. Dalle modalità **Standard** o **Compatta**, fai clic su **Suddivisione** nell&#39;angolo superiore destro della visualizzazione della sequenza temporale.
 1. Espandere la casella **Selezionare un tipo di record collegato** e selezionare un tipo di record connesso. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
+   <div class="preview">
+
    ![Selettore e pulsante di suddivisione nella visualizzazione della sequenza temporale](assets/breakdown-picker-and-button-on-timeline.png)
+
+   </div>
 
    >[!TIP]
    >
@@ -543,7 +547,7 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
    >    Le date di inizio e di fine devono essere sequenziali. Se la data di fine è precedente alla data di inizio, nella sequenza temporale non verrà visualizzato alcun record.
 
    Una freccia rivolta a destra viene visualizzata sulla barra del record selezionato nella timeline, se sono collegati ad altri record.
-1. Fare clic sulla freccia rivolta a destra per espandere un tipo di record e visualizzarne le connessioni.
+1. Fare clic sulla freccia rivolta a destra per espandere un tipo di record e visualizzarne le connessioni. <!--update screen shot at production-->
 
    ![Campagne suddivise per programmi nella visualizzazione Timeline](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
 

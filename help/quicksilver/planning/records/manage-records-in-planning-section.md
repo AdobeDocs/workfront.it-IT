@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '1734'
+source-wordcount: '1878'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 # Gestire le connessioni record dagli oggetti Workfront
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 {{planning-important-intro}}
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.
++++ Espandere per visualizzare i requisiti di accesso. 
 
 <table style="table-layout:auto">
  <col>
@@ -127,6 +127,9 @@ Quando si visualizzano i record di Workfront Planning dalla sezione Planning di 
    * [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [Connetti record](/help/quicksilver/planning/records/connect-records.md)
 * È possibile visualizzare la sezione Planning da un oggetto Workfront, anche quando non vi sono record associati all&#39;oggetto Workfront.
+* <span class="preview">Un tipo di record viene visualizzato nell&#39;area di pianificazione di un oggetto Workfront solo quando si abilita l&#39;impostazione Crea campo corrispondente nell&#39;impostazione del tipo di record collegato durante la creazione della connessione tra due tipi di record.</span>
+
+  Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Gestire le connessioni ai record dalla sezione Planning
 
@@ -214,6 +217,9 @@ Quando si visualizzano i record di Workfront Planning da un campo di connessione
 
   È possibile, ad esempio, allegare ai task un modulo personalizzato con un campo di connessione Planning, ma non collegare oggetti di Workfront Planning ai task.
 * Non è possibile modificare un campo di connessione di Planning quando si modificano in blocco oggetti di Workfront.
+* <span class="preview">Un tipo di record viene visualizzato in un campo personalizzato della connessione Planning di un oggetto Workfront solo quando si abilita l&#39;impostazione Crea campo corrispondente nel tipo di record collegato durante la creazione della connessione tra due tipi di record.</span>
+
+  Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Gestire le connessioni record dal tipo di campo Connessione Planning
 
