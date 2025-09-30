@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
+source-git-commit: e32f759218a3addf63dad7aa207ccdde8acb1975
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,8 @@ Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rila
 
 >[!NOTE]
 >
->* Anteprima: 25 settembre 2025
->* Versione rapida di produzione: 15 ottobre 2025
->* Produzione per tutti i clienti: 16 ottobre 2025
+>* Anteprima: 24 settembre 2025
+>* Produzione per tutti i clienti: 25 settembre 2025
 
 Per garantire il mantenimento dell’accesso ai dati necessari, è stata aggiunta una finestra di dialogo di conferma durante la rimozione di un modulo personalizzato da un oggetto. Se si rimuove un modulo personalizzato da un oggetto, i dati contenuti in tale modulo vengono rimossi definitivamente dall’oggetto. Ora, la finestra di dialogo ti consente di confermare che comprendi che questi dati verranno rimossi, assicurandoti di non rimuovere i dati necessari.
 
