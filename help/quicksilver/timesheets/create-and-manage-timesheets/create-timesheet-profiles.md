@@ -6,14 +6,16 @@ description: Puoi creare, modificare e assegnare profili di schede orario che ge
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 764200970aeb8d121cd99a8d4239e0b9853670a9
+source-git-commit: 939407f56b39617441f669d11b9439e445ceaf6e
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1641'
 ht-degree: 2%
 
 ---
 
 # Creare, modificare e assegnare profili della scheda orario
+
+{{highlighted-preview}}
 
 <!--Audited: 06/2025-->
 
@@ -85,8 +87,7 @@ Per ulteriori informazioni sulla creazione manuale di una scheda orario, vedere 
 
    Viene visualizzata la pagina del profilo della scheda orario nuova o esistente.
 
-
-1. Fai clic sulla scheda **Imposta dettagli**, quindi aggiorna le seguenti informazioni: <!-- at the Production release, change the order of some of these rows, as they changed in the unshimmed UI-->
+1. Aggiorna le seguenti informazioni:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -112,7 +113,7 @@ Per ulteriori informazioni sulla creazione manuale di una scheda orario, vedere 
      <ul> 
       <li> <p>Se stai creando un profilo di scheda orario per un gruppo che amministri, identifica il gruppo qui.</p> <p>Questo non assegna il profilo della scheda orario agli utenti del gruppo, ma consente solo agli amministratori del gruppo di modificare il profilo della scheda orario. Assegnerai il profilo agli utenti nel passaggio 6.</p>
 
-   <p><b>NOTA</b>: quando utenti esterni al gruppo allegano profili di schede orario a un altro utente, non potranno vedere o allegare questo profilo di schede orario.</p> </li> 
+   <p><b>NOTA</b>: quando utenti esterni al gruppo allegano profili di schede orario ad altri utenti, non potranno vedere o allegare questo profilo di schede orario.</p> </li> 
       </ul> </p> </td> 
      </tr> 
      <tr> 
@@ -155,6 +156,10 @@ Per ulteriori informazioni sulla creazione manuale di una scheda orario, vedere 
    <b>NOTA</b>: dopo aver inviato una scheda orario per l&#39;approvazione, non è più possibile modificare le ore. Per ripristinare lo stato modificabile di una scheda orario inviata, richiamarla o richiedere all&#39;approvatore di rifiutarla. Per ulteriori informazioni, vedere <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Inviare una scheda orario per l&#39;approvazione</a> e<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Approvare una scheda orario</a>.</p> </p> </td>
    </tr> 
      <tr> 
+      <td role="rowheader"><strong>Straordinari</strong> </td> 
+      <td>È possibile scegliere di nascondere la casella Straordinari nelle schede orario. Questa opzione è disabilitata per impostazione predefinita.</td> 
+     </tr> 
+     <tr> 
       <td role="rowheader"><strong>Tipi di lavoro disponibili</strong> </td> 
       <td><p>Questa impostazione si riferisce solo ai Tipi di Ora generali e non ai Tipi di Ora specifici del progetto. </p>
       <p>Per impostazione predefinita, gli utenti visualizzano tutte le ore generali su una scheda orario. Tuttavia, se la tua organizzazione desidera che vengano visualizzate solo ore generali specifiche per un particolare gruppo di utenti, puoi selezionare le ore generali da visualizzare nelle schede orario selezionandole nel loro profilo Scheda orario in questo campo. Se vuoi disattivare tutte le ore generali, deseleziona tutti i tipi di ore per generare la scheda orario senza una sezione per le ore generali.</p></td> 
@@ -165,14 +170,9 @@ Per ulteriori informazioni sulla creazione manuale di una scheda orario, vedere 
       <td> <p> Aggiungi una notifica di promemoria. Workfront invierà dei promemoria agli utenti per chiedere loro di completare o approvare le schede orario. È necessario creare notifiche promemoria prima di associarle a un profilo scheda orario.  </p> </td> 
      </tr>
 
-   <tr data-mc-conditions=""> 
-      <td role="rowheader"><span style="font-weight: bold;">Straordinari</span> </td> 
-      <td>È possibile scegliere di nascondere la casella Straordinari nelle schede orario. Questa opzione è disabilitata per impostazione predefinita.</td> 
-     </tr> 
-    </tbody> 
-    </table>
+1. Durante la creazione di profili di schede orario a livello di gruppo in Produzione, fare clic sulla scheda **Assegna persone** per associare il profilo della scheda orario a utenti, gruppi o team specifici (se si è un amministratore Workfront). <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
 
-1. Durante la creazione di profili di schede orario a livello di gruppo, fare clic sulla scheda **Assegna persone** per associare il profilo della scheda orario a utenti, gruppi o team specifici (se si è un amministratore Workfront). <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
+   <span class="preview">Quando si creano profili di schede attività a livello di gruppo in Anteprima, scorrere verso il fondo della pagina e trovare la sezione **Assegna persone**.</span>
 
    Durante la creazione dei profili della scheda orario per il sistema, scorri verso il fondo della pagina e trova la sezione **Assegna persone**. <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
 
@@ -188,13 +188,13 @@ Per ulteriori informazioni sulla creazione manuale di una scheda orario, vedere 
 
 1. Fai clic su **Salva**.
 
-1. Nella parte superiore dell&#39;elenco dei profili della scheda orario, fare clic sull&#39;icona **Altro** ![Altro icona](assets/more-icon.png) per i profili della scheda orario a livello di sistema oppure **Altro** per i profili della scheda orario di gruppo, quindi fare clic su **Genera schede orario**.
+1. Nella parte superiore dell&#39;elenco dei profili della scheda orario, fai clic sull&#39;icona **Altro** ![Altro](assets/more-icon.png), quindi fai clic su **Genera schede orario**.
 
    Nella parte inferiore della schermata viene visualizzata una conferma che le schede orario sono state generate correttamente. Le nuove schede orario vengono generate in base ai nuovi profili creati.
 
    Per ulteriori informazioni, vedere [Generare manualmente le schede orario](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
-   La prima volta che il profilo della scheda orario genera schede orario, vengono create 2 schede orario per ogni utente, sia per l’intervallo temporale che include l’ora corrente che per l’intervallo temporale seguente.
+   La prima volta che il profilo della scheda orario genera le schede orario, vengono create due schede orario per ogni utente, sia per l’intervallo temporale che include l’ora corrente che per l’intervallo temporale seguente.
 
    Successivamente, ogni volta che genera nuove schede orario, viene creata una scheda orario per utente.
 
