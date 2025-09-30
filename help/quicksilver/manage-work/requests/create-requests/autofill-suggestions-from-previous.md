@@ -5,21 +5,14 @@ description: Puoi utilizzare l’intelligenza artificiale per completare automat
 author: Becky
 feature: Get Started with Workfront
 exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
-source-git-commit: 1c2e382908ed8fead7c2222e8d46988656df29c4
+source-git-commit: 21039f9ab14529b56935d65e0261dc1ce068918c
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
 
 # Completamento automatico di una richiesta con i dati di richieste precedenti
-
->[!NOTE]
->
->* Questa funzionalità sarà disponibile come versione open beta con la seguente pianificazione:
->
->   * Versione mensile: 11 settembre 2025
->   * Versione trimestrale: 16 ottobre 2025
 
 L’intelligenza artificiale può aiutarti a completare automaticamente i campi della richiesta in base alle richieste precedenti. Puoi approvare o rifiutare questi suggerimenti prima di inviare la richiesta.
 
