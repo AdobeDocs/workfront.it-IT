@@ -6,9 +6,9 @@ description: Il lavoro pianificato è rappresentato in Adobe Workfront dai proge
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 2c2ccbadd6470773808bbd5a205310fbb1e1944e
+source-git-commit: 71149623643b1f08b88fdf8f5aaeb5d9b284d53f
 workflow-type: tm+mt
-source-wordcount: '2856'
+source-wordcount: '2840'
 ht-degree: 1%
 
 ---
@@ -147,13 +147,13 @@ Per creare una richiesta nell’app web Workfront:
 
    Viene visualizzata la casella **Nuova richiesta**.
 
-1. (Condizionale) Se si è passati alla nuova esperienza che include Workfront Planning e si trova nell&#39;ambiente di produzione, nella casella **Nuova richiesta** viene visualizzato quanto segue:</span>
+1. (Condizionale) Se sei passato alla nuova esperienza e ti trovi nell&#39;ambiente di produzione, nella casella **Nuova richiesta** viene visualizzato quanto segue:</span>
 
    <ul><li>Le 6 code di richieste Workfront e i moduli di richiesta Planning utilizzati più di recente vengono visualizzati nella sezione Recenti. </li>
     <li>Tutti i moduli di richiesta aggiuntivi di Workfront e Planning <b>Sezione Tutti i moduli di richiesta</b>. È possibile cercare moduli di richiesta non visualizzati per impostazione predefinita. </li>
     <li>Tutti i percorsi aggiuntivi della coda richieste di Workfront e Planning vengono visualizzati nella sezione <b>Tutti i percorsi richieste</b>. Puoi cercare una coda di richieste che non viene visualizzata per impostazione predefinita.</li></ul>
    Fai clic su uno dei percorsi o moduli della coda di richieste di Workfront oppure cercalo, quindi fai clic su di esso quando viene visualizzato nell’elenco.
-1. <span class="preview">(Condizionale) Se si è passati alla nuova esperienza che include Workfront Planning, selezionare uno dei percorsi o moduli della coda di richieste Workfront oppure fare clic sulla barra di ricerca. </span>
+1. <span class="preview">(Condizionale) Se si è passati alla nuova esperienza, selezionare uno dei percorsi o moduli della coda di richieste di Workfront oppure fare clic sulla barra di ricerca. </span>
 
    <span class="preview">Quando si fa clic sulla barra di ricerca, viene visualizzato un elenco a discesa che mostra le code e i moduli utilizzati più di recente. Selezionarne uno dall&#39;elenco oppure iniziare a digitare e selezionare la coda o l&#39;elenco quando viene visualizzato.</span>
 
@@ -165,7 +165,7 @@ Per creare una richiesta nell’app web Workfront:
    >* <span class="preview">Per visualizzare solo le code di richieste di Workfront, filtrare per `Issue` tipi di oggetto.</span>
    >* <span class="preview">Nella nuova esperienza di richiesta, le bozze si trovano nello stesso elenco delle richieste inviate.</span>
 
-1. (Condizionale) Se si è passati alla nuova esperienza che include Workfront Planning, selezionare i gruppi di argomenti e gli argomenti della coda e continuare ad aggiornare il modulo.
+1. (Condizionale) Se hai scelto la nuova esperienza, seleziona i gruppi di argomenti e gli argomenti della coda e continua ad aggiornare il modulo.
 
    In caso contrario, fare clic all&#39;interno del campo **Tipo di richiesta** ed eseguire una delle operazioni seguenti:
 
@@ -348,7 +348,7 @@ Per creare una richiesta nell’app web Workfront:
 
    Quando inviate la richiesta, la bozza viene eliminata automaticamente e non può essere ripristinata.
 
-   Le richieste inviate sono elencate nella sezione **Inviate** dell&#39;area Richieste. Se si utilizza la nuova esperienza che include Workfront Planning, le richieste inviate da Workfront verranno visualizzate nella scheda **Workfront** dell&#39;area Richieste.
+   Le richieste inviate sono elencate nella sezione **Inviate** dell&#39;area Richieste. Se utilizzi la nuova esperienza, le richieste inviate da Workfront vengono visualizzate nella scheda **Workfront** dell&#39;area Richieste.
 
    Per informazioni sulla gestione delle richieste in arrivo, vedere l&#39;articolo [Gestione delle richieste del team e del lavoro](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
