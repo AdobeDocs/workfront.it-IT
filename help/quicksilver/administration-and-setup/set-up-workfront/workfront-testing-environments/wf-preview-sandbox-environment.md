@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 8df1889997937b2a4238862eb2f86aeda84ed104
+source-git-commit: 6aa0aa5b8ffd088e3d79e7d1be66373a7f753f99
 workflow-type: tm+mt
 source-wordcount: '1310'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Esistono due ambienti di test per [!DNL Workfront] che sono repliche dell&#39;am
 
 * Sandbox di aggiornamento personalizzata
 
-  La sandbox di aggiornamento personalizzata è un ambiente di test separato che viene aggiornato manualmente dall’utente. Per ottenere la Sandbox di aggiornamento personalizzata è necessario un costo aggiuntivo. Per ulteriori informazioni su questo ambiente, vedere [L&#39;ambiente Sandbox di aggiornamento personalizzato [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
+  La sandbox di aggiornamento personalizzata è un ambiente di test separato che viene aggiornato manualmente dall’utente. Per ottenere la Sandbox di aggiornamento personalizzata è necessario un costo aggiuntivo. Per ulteriori informazioni su questo ambiente, vedere [L&#39;ambiente Sandbox di aggiornamento personalizzato [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -192,4 +192,4 @@ Per l’ambiente di anteprima, il ricalcolo notturno è disattivato e le timelin
 
 * Eventuali interruzioni di un ambiente di anteprima [!DNL Workfront] nei fine settimana (sabato e domenica) verranno risolte in modo che l&#39;ambiente sia in esecuzione per l&#39;orario di lavoro di lunedì.
 
-* La bozza non è disponibile negli ambienti di anteprima.
+* La bozza non è disponibile nell’ambiente di anteprima.
