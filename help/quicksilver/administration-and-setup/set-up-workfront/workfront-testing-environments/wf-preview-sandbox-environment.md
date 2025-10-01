@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 8df1889997937b2a4238862eb2f86aeda84ed104
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1310'
 ht-degree: 0%
 
 ---
@@ -191,3 +191,5 @@ Per l’ambiente di anteprima, il ricalcolo notturno è disattivato e le timelin
 * Qualsiasi interruzione in un ambiente di anteprima [!DNL Workfront] durante il normale orario di lavoro sarà una priorità assoluta subito dopo la risoluzione di eventuali problemi di produzione.
 
 * Eventuali interruzioni di un ambiente di anteprima [!DNL Workfront] nei fine settimana (sabato e domenica) verranno risolte in modo che l&#39;ambiente sia in esecuzione per l&#39;orario di lavoro di lunedì.
+
+* La bozza non è disponibile negli ambienti di anteprima.
