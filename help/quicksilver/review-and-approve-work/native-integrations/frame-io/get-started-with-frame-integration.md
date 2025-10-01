@@ -6,12 +6,10 @@ description: Introduzione all’integrazione Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: 19003988a8e164db225f8511f567d38e6eeaf627
+source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -41,8 +39,8 @@ Dopo aver creato il flusso di lavoro di approvazione, i revisori e gli approvato
 
 Per ulteriori informazioni sulla configurazione dei progetti, consulta
 
-* [Crea un progetto](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
-  <!--* [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)-->
+* [Creare un progetto](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
+* [Panoramica dell’integrazione Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
 
 ### Avviare revisioni e approvazioni formali in Workfront
 
@@ -72,7 +70,7 @@ Revisori e approvatori possono essere aggiunti a un flusso di lavoro di approvaz
 
 Una volta avviato il flusso di lavoro di revisione e approvazione in Workfront, i revisori e gli approvatori possono accedere al visualizzatore Frame.io per aggiungere commenti, contrassegnare la risorsa e prendere una decisione.
 
-<!--For more information, see [Review and approve with the Frame.io viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md).-->
+Per ulteriori informazioni, vedere [Rivedere e approvare con il visualizzatore Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md).
 
 #### Accedere al visualizzatore Frame.io
 
@@ -83,7 +81,7 @@ Gli utenti possono accedere al visualizzatore Frame.io nei modi seguenti:
 
 >[!NOTE]
 >
->Gli utenti esterni di Workfront ricevono una notifica tramite e-mail e viene richiesto di creare un accesso Frame.io per rivedere e approvare le risorse. <!--is this still accurate?-->
+>Gli utenti esterni di Workfront ricevono una notifica tramite e-mail e viene richiesto di creare un accesso Frame.io per rivedere e approvare le risorse.
 
 ![apri il visualizzatore di frame dalla Home](assets/open-fio-viewwer.png)
 

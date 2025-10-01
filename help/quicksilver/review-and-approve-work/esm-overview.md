@@ -5,16 +5,14 @@ title: Panoramica sullo storage aziendale Adobe
 description: Panoramica sullo storage aziendale Adobe
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d24773df7eede3140eeecdea7f1c33b8466e887a
+exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
+source-git-commit: e908d0ffd1a3397dead5909942b2b0bedb91ae1c
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
-
 
 # Panoramica sullo storage aziendale Adobe
 
@@ -40,4 +38,4 @@ Questo spiana la strada anche per future integrazioni di gestione delle risorse 
 
 L&#39;integrazione Workfront e Frame.io sfrutta lo storage aziendale Adobe per fornire un&#39;esperienza di revisione e approvazione unificata. Questa integrazione consente ai coordinatori dei progetti di gestire i progetti e pianificare il lavoro in Workfront, mentre i creativi, gli esperti di marketing e le parti interessate possono rivedere e approvare le risorse in Frame.io. In questo modo tutte le parti interessate possono accedere alle versioni più recenti delle risorse e il feedback è centralizzato in un’unica posizione.
 
-<!--For more information about the Workfront and Frame.io integration, see [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).-->
+Per ulteriori informazioni sull&#39;integrazione di Workfront e Frame.io, vedere [Panoramica sull&#39;integrazione di Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).
