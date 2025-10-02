@@ -3,9 +3,10 @@ title: Panoramica dei tipi di record in più aree di lavoro
 description: I tipi di record centralizzati possono essere aggiunti a più aree di lavoro da un'area di lavoro centrale o principale in Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ In Adobe Workfront Planning è possibile abilitare le funzionalità tra aree di 
 
 Di seguito sono riportate le funzionalità dei tipi di record in più aree di lavoro:
 
-* È possibile designare un tipo di record come centralizzato. Gli utenti possono aggiungere tipi di record centralizzati ad altre aree di lavoro che possono gestire.
+* È possibile designare un tipo di record come centralizzato. Gli utenti possono aggiungere tipi di record centralizzati ad altre aree di lavoro che gestiscono.
 
   >[!IMPORTANT]
   >
@@ -39,7 +40,7 @@ Questo articolo offre una panoramica dei tipi di record tra aree di lavoro diver
 
 ## Panoramica dei tipi di record centralizzati
 
-I tipi di record centralizzati possono essere aggiunti a più aree di lavoro da un&#39;area di lavoro centrale o principale in Adobe Workfront Planning.
+I tipi di record centralizzati possono essere aggiunti a più aree di lavoro da un&#39;area di lavoro centrale o principale in Workfront Planning.
 
 Quando si implementa Workfront Planning per un’organizzazione con più team e flussi di lavoro comuni, potrebbe essere necessario definire una struttura coesa e i metadati per i tipi di record chiave (come Campagne o Deliverable) che possono essere aggiunti alle aree di lavoro di ciascun team per acquisire e gestire il proprio lavoro.
 
@@ -51,12 +52,12 @@ Per utilizzare i tipi di record centralizzati, eseguire le operazioni seguenti:
 
 1. Configurare un tipo di record da centralizzare in un workspace specifico.
 
-   Un responsabile dell&#39;area di lavoro può selezionare gli utenti con una licenza Standard, i team, i gruppi, i ruoli o le società per aggiungere un tipo di record scelto alle aree di lavoro che gestisce.
+   Un manager dell&#39;area di lavoro può concedere autorizzazioni agli utenti con una licenza Standard oppure ai team, ai gruppi, ai ruoli e alle società per aggiungere un tipo di record scelto alle aree di lavoro che gestiscono.
 
-   Il tipo di record originale sarà presente nell&#39;area di lavoro originale ma sarà reso visibile da tutte le altre aree di lavoro.
+   Il tipo di record originale sarà presente nell&#39;area di lavoro originale ma sarà reso visibile in altre aree di lavoro.
 
    Per informazioni, vedere [Configurare le funzionalità tra aree di lavoro diverse per i tipi di record](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
-1. Aggiungere a un&#39;area di lavoro secondaria un tipo di record esistente configurato come tipo di record centralizzato.
+1. Aggiungere un tipo di record a un&#39;area di lavoro secondaria da un&#39;area di lavoro esistente configurata come tipo di record centralizzato.
 
    Il tipo di record esiste nelle aree di lavoro seguenti:
 
@@ -71,7 +72,7 @@ Per utilizzare i tipi di record centralizzati, eseguire le operazioni seguenti:
 
 Il tipo di record configurato per essere centralizzato ha le seguenti proprietà:
 
-* Tutte le relative informazioni possono essere modificate solo nell&#39;area di lavoro originale.
+* Tutte le relative informazioni (aspetto, campi originali) possono essere modificate solo nell&#39;area di lavoro originale.
 
 * È possibile eseguire le azioni seguenti sul tipo di record centralizzato dall&#39;area di lavoro originale di un tipo di record centralizzato:
 
@@ -85,21 +86,21 @@ Il tipo di record configurato per essere centralizzato ha le seguenti proprietà
 
   In questo modo il tipo di record centralizzato può rimanere nelle aree di lavoro in cui è già stato aggiunto.
 * I record aggiunti a un tipo di record centralizzato sono visibili solo agli utenti che dispongono delle autorizzazioni di visualizzazione per l&#39;area di lavoro in cui sono stati aggiunti.
-* I record aggiunti da un workspace secondario vengono aggregati e visualizzati nel workspace originale. Tutti i membri dell&#39;area di lavoro originale ottengono le autorizzazioni di visualizzazione.
+* I record aggiunti da un workspace secondario vengono aggregati e visualizzati nel workspace originale. Tutti i membri dell&#39;area di lavoro originale ottengono le relative autorizzazioni di visualizzazione.
 
 * I tipi di record connessi di un tipo di record centralizzato saranno disponibili per la connessione dalle aree di lavoro in cui viene aggiunto questo tipo di record.
 
   Ad esempio, se disponi di un tipo di record Campaign con una connessione con il tipo di record Aree geografiche e aggiungi il tipo di record Campaign a un’area di lavoro secondaria, Aree geografiche diventeranno collegabili tra aree di lavoro diverse per l’area di lavoro secondaria. I membri dell’area di lavoro secondaria possono ora creare campagne e collegarle alle aree geografiche.
 
-* I campi creati per un tipo di record centralizzato dall&#39;area di lavoro originale sono visibili da tutte le aree di lavoro in cui viene aggiunto il tipo di record. I campi di un workspace originale sono di sola lettura nelle aree di lavoro secondarie.
+* I campi creati per un tipo di record centralizzato dall&#39;area di lavoro originale sono visibili da tutte le aree di lavoro in cui viene aggiunto il tipo di record. Le impostazioni dei campi da un workspace originale sono di sola lettura nelle aree di lavoro secondarie.
 
 ### Considerazioni sui tipi di record centralizzati dopo averli aggiunti a un workspace secondario
 
-* I collaboratori dell&#39;area di lavoro secondaria ottengono l&#39;autorizzazione Contribute per il tipo di record centralizzato nell&#39;area di lavoro del proprio team. Possono aggiungere e gestire i record al suo interno.
+* I collaboratori dell&#39;area di lavoro secondaria ottengono l&#39;autorizzazione Contribute per il tipo di record centralizzato nell&#39;area di lavoro del proprio team. Possono aggiungere e gestire i record in esso contenuti dall’area di lavoro secondaria.
 
-* I visualizzatori dell&#39;area di lavoro secondaria ottengono l&#39;autorizzazione di visualizzazione per il tipo di record centralizzato nell&#39;area di lavoro del team. Non possono aggiungere e gestire record in.
+* I visualizzatori dell&#39;area di lavoro secondaria ottengono l&#39;autorizzazione di visualizzazione per il tipo di record centralizzato nell&#39;area di lavoro del team. Non possono aggiungere e gestire record al suo interno.
 
-* I responsabili dell&#39;area di lavoro secondaria possono eseguire le azioni seguenti sul tipo di record aggiunto da un tipo di record centralizzato in un&#39;area di lavoro secondaria:
+* I responsabili dell&#39;area di lavoro secondaria possono eseguire le seguenti azioni aggiuntive sul tipo di record aggiunto da un tipo di record centralizzato in un&#39;area di lavoro secondaria:
 
    * Eliminalo.
 
@@ -110,26 +111,25 @@ Il tipo di record configurato per essere centralizzato ha le seguenti proprietà
         Fields added to a centralized record from a secondary workspace are visible only from the secondary workspace. 
     * Share it-->
 
-* Non è possibile eseguire le azioni seguenti sul tipo di record aggiunto da un tipo di record centralizzato in un&#39;area di lavoro secondaria:
+* Nessun utente può eseguire le azioni seguenti sul tipo di record aggiunto da un tipo di record centralizzato in un&#39;area di lavoro secondaria:
 
    * Modifica
 
      Non è possibile modificarne l’aspetto, le funzionalità tra aree di lavoro diverse o i campi aggiunti dall’area di lavoro originale.
    * Creare e gestire i moduli di richiesta
-   * Creare e gestire i moduli di richiesta
+   * Creazione e gestione di automazioni
 
-* I record aggiunti in un&#39;area di lavoro secondaria sono visibili dalle aree di lavoro seguenti, se si dispone delle autorizzazioni di visualizzazione o di livello superiore per tali aree di lavoro:
+* I record aggiunti in un&#39;area di lavoro secondaria sono visibili dalle aree di lavoro seguenti solo se si dispone delle autorizzazioni di visualizzazione o di livello superiore per tali aree di lavoro:
 
    * L’area di lavoro secondaria in cui vengono aggiunti.
    * Area di lavoro originale del tipo di record centralizzato.
    * Tutte le altre aree di lavoro in cui viene aggiunto il workspace centralizzato.
 
-* Esistono i seguenti scenari per i record creati nelle aree di lavoro dei team:
+* Esistono i seguenti scenari per i record creati nelle aree di lavoro secondarie:
 
    * Se si dispone delle autorizzazioni Gestione per l&#39;area di lavoro originale e non si dispone delle autorizzazioni per le aree di lavoro secondarie, è possibile visualizzare i record aggiunti dalle aree di lavoro secondarie nell&#39;area di lavoro originale, ma non è possibile gestirli dall&#39;area di lavoro originale.
    * Se si dispone delle autorizzazioni Gestione nell&#39;area di lavoro secondaria, è possibile gestire i record nell&#39;area di lavoro originale del tipo di record centralizzato o dall&#39;area di lavoro in cui sono stati aggiunti.
-
-     È possibile visualizzare i record in aree di lavoro secondarie aggiuntive in cui il tipo di record centralizzato viene aggiunto solo se si dispone delle autorizzazioni di visualizzazione per tali aree di lavoro.
+   * È possibile visualizzare i record in aree di lavoro secondarie aggiuntive in cui il tipo di record centralizzato viene aggiunto solo se si dispone delle autorizzazioni di visualizzazione per tali aree di lavoro.
 
 ### Accesso alle connessioni di un record centralizzato
 
@@ -155,7 +155,7 @@ Per utilizzare i tipi di record collegabili, effettuare le seguenti operazioni:
 
 1. Configurare un tipo di record in modo che sia collegabile in un&#39;area di lavoro specifica.
 
-   Un workspace manager può selezionare le aree di lavoro a cui è disponibile un determinato tipo di record.
+   Un workspace manager può selezionare le aree di lavoro a cui è disponibile un determinato tipo di record da connettere da altre aree di lavoro.
 
    Il tipo di record originale sarà presente nell&#39;area di lavoro originale e verrà aggiunto come tipo di record connesso a un&#39;altra area di lavoro.
 
@@ -163,5 +163,3 @@ Per utilizzare i tipi di record collegabili, effettuare le seguenti operazioni:
 1. Connettersi a un tipo di record designato come collegabile da un&#39;altra area di lavoro gestita.
 
    Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
-
-   Nelle sezioni seguenti vengono descritte considerazioni sui tipi di record centralizzati e sul loro funzionamento nelle aree di lavoro originali o secondarie.

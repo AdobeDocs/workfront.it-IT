@@ -6,16 +6,16 @@ description: È possibile aggiornare l'ordine di visualizzazione dei moduli pers
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 322257a21f5d415b0ac04e6944c4aaa53fc3ab3b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
 
 # Gestire i moduli personalizzati allegati agli oggetti
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile per tutti i clienti nell&#39;ambiente di anteprima e per un gruppo selezionato di clienti nell&#39;ambiente di produzione.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 È possibile aggiornare l&#39;ordine di visualizzazione dei moduli personalizzati allegati a un oggetto, rimuoverli o modificare in blocco la modalità di visualizzazione dei moduli personalizzati su più oggetti.
 

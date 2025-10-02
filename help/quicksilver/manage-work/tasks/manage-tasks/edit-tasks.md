@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '3723'
+source-wordcount: '3810'
 ht-degree: 4%
 
 ---
@@ -26,12 +26,22 @@ ht-degree: 4%
 </div>
 -->
 
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
+
 
 Potete modificare le informazioni sulle attività create o sulle quali disponete delle autorizzazioni Contribute o Manage.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,8 +53,8 @@ Potete modificare le informazioni sulle attività create o sulle quali disponete
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Nuovo: Standard</p>
-   <p>Corrente: Lavoro o versione successiva</p> </td> 
+   <td> <p>Standard</p>
+   <p>Lavoro o superiore</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Livello di accesso</td> 
@@ -183,6 +193,7 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
    * [Moduli personalizzati](#Custom%C2%A0F)
    * [Finanza](#finance)
    * [Impostazioni](#settings)
+   * [Commento](#comment)
 
    >[!NOTE]
    >
@@ -399,7 +410,7 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
       <td>Abbreviazione</td> 
       </tr> 
       <tr> 
-      <td>Minuti</td> 
+      <td>Minutes</td> 
       <td>M</td> 
       </tr> 
       <tr> 
@@ -411,12 +422,12 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
       <td>Dsbld</td> 
       </tr> 
       <tr> 
-      <td>Settimane</td> 
+      <td>Weeks</td> 
       <td>M</td> 
       </tr> 
       <tr> 
-      <td>Mesi</td> 
-      <td>G</td> 
+      <td>Months</td> 
+      <td>T</td> 
       </tr> 
       <tr> 
       <td>Minuti trascorsi</td> 
@@ -524,7 +535,7 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
        </ul> <p>Per ulteriori informazioni sul tracciamento dei costi, vedere <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Tracciare i costi</a> . L'amministratore di Workfront o un amministratore di gruppo seleziona l'impostazione Tipo di costo predefinita per le attività del sistema o del gruppo. Per informazioni sull'impostazione delle impostazioni predefinite del progetto, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze del progetto a livello di sistema</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Tipo di Reddito</td> 
+      <td role="rowheader">Tipo di entrate</td> 
       <td> <p>Specificare il tipo di retribuzione per l'attività. Questo determinerà il modo in cui vengono calcolati i Ricavi sull'attività, in base al numero di ore sulle attività. </p> <p>Selezionare una delle opzioni seguenti: </p> 
        <ul> 
       <li> <p> Non Fatturabile </p> </li> 
@@ -605,9 +616,23 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
    </table>
     </li>
 
-1. Fai clic su **Salva**.
+1. Fai clic su **Salva** o continua con la sezione seguente.
 
 <!--notes from the table: <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)</p>       -->
+
+### Commento
+
+1. Inizia a modificare l&#39;attività come descritto nella sezione [Modifica attività](#Edit2) in questo articolo.
+1. Fai clic su **Commento** nel pannello a sinistra.
+
+   ![Sezione commenti sulla casella dell&#39;attività di modifica](assets/comment-section-on-edit-task-box.png)
+
+1. Aggiungi un aggiornamento nello spazio fornito.
+1. (Facoltativo) Aggiungi una delle seguenti opzioni all’aggiornamento:
+
+   * Aggiungi utenti o team all&#39;aggiornamento nell&#39;area **Assegna tag a persone** o utilizza @ per includerli nell&#39;aggiornamento.
+   * Seleziona la casella di controllo **Privato per la mia azienda** per mantenere l&#39;aggiornamento privato per gli utenti della tua azienda.
+1. Fai clic su **Salva**.
 
 ## Modificare un’attività nell’intestazione dell’attività (limitato)
 

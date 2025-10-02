@@ -4,9 +4,9 @@ description: È possibile abilitare un tipo di record per l'aggiunta a un'altra 
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1143'
 ht-degree: 1%
 
 ---
@@ -49,6 +49,8 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 <span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
+È possibile configurare i tipi di record in modo che funzionino in più aree di lavoro.
+
 Di seguito sono riportate le funzionalità dei tipi di record in più aree di lavoro:
 
 * È possibile designare un tipo di record come centralizzato. Gli utenti possono aggiungere tipi di record centralizzati ad altre aree di lavoro che possono gestire.
@@ -81,8 +83,10 @@ Per informazioni, vedere uno degli articoli seguenti:
    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
 <ul><li><p>Qualsiasi pacchetto Workfront</p></li>
-E
-<li><p>Pacchetto Planning Plus</p></li></ul>
+<p>E</p>
+<li><p>Qualsiasi pacchetto Planning per la creazione di tipi di record collegabili</p></li>
+<li><p>Pacchetto Planning Plus per creare tipi di record centralizzati</p></li>
+</ul>
 <!--Or:
 <ul><li><p>Any Workflow package</p> </li>
 And
@@ -118,19 +122,18 @@ Un responsabile dell&#39;area di lavoro può aggiungere un tipo di record centra
 
 Gli utenti possono aggiungere record a un tipo di record centralizzato da qualsiasi area di lavoro per cui dispongono delle autorizzazioni Contribute e in cui viene aggiunto il tipo di record centralizzato, inclusa l&#39;area di lavoro originale. Possono visualizzare i record dall’area di lavoro a cui dispongono solo delle autorizzazioni di visualizzazione.
 
-Per ulteriori informazioni, vedere [Panoramica sui tipi di record tra aree di lavoro](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
+Per ulteriori informazioni, vedere [Panoramica sui tipi di record tra aree di lavoro](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
-Per configurare l&#39;aggiunta di un tipo di record come tipo di record centralizzato:
+Per configurare un tipo di record come centralizzato:
 
 {{step1-to-planning}}
 
-1. Fare clic sul workspace di cui si desidera modificare i tipi di record.
+1. Fare clic sull&#39;area di lavoro di cui si desidera configurare i tipi di record come centralizzati.
 
    Viene visualizzata la pagina dell&#39;area di lavoro e i tipi di record.
 1. Esegui una delle operazioni seguenti:
 
    * Passa il puntatore del mouse sulla scheda di un tipo di record e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) nell&#39;angolo superiore destro della scheda del tipo di record
-Oppure
    * Fai clic su una scheda del tipo di record per aprire la pagina del tipo di record, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record.
 1. Fai clic su **Modifica**.
 
@@ -140,7 +143,7 @@ Oppure
    >
    >Se un tipo di record è già stato designato come tipo di record centralizzato e viene aggiunto ad altre aree di lavoro, l&#39;opzione Modifica non è disponibile.
 
-1. Nella casella **Modifica tipo di record** selezionare la scheda **Impostazioni avanzate**.
+1. Nella casella **Modifica tipo di record** fare clic sulla scheda **Impostazioni avanzate**.
 1. Abilita l&#39;impostazione **Consenti l&#39;aggiunta di questo tipo di record ad altre aree di lavoro**.
 
    ![Modifica impostazioni avanzate tipo di record con Aggiungi ad altre aree di lavoro abilita](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
@@ -197,12 +200,11 @@ Per configurare un tipo di record a cui connettersi da altre aree di lavoro quan
 1. Esegui una delle operazioni seguenti:
 
    * Passa il puntatore del mouse sulla scheda di un tipo di record e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) nell&#39;angolo superiore destro della scheda del tipo di record, quindi fai clic su **Modifica**
-Oppure
    * Fai clic su una scheda del tipo di record per aprire la pagina del tipo di record, fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record, quindi fai clic su **Modifica**.
 
    ![Altre opzioni di menu dalla scheda del tipo di record](assets/more-menu-options-from-record-type-card.png)
 
-1. Nella casella **Modifica tipo di record** selezionare la scheda **Impostazioni avanzate**.
+1. Nella casella **Modifica tipo di record** fare clic sulla scheda **Impostazioni avanzate**.
 1. Abilita l&#39;impostazione **Consenti la connessione a questo tipo di record in altre aree di lavoro**. <!-- check the setting name, I sent this to Lilit to say FROM instead of IN-->
 
    ![Modifica tipo di record Scheda Impostazioni avanzate con connessione da altre aree di lavoro abilitata](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)

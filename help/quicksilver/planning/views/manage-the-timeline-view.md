@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '3935'
+source-wordcount: '3962'
 ht-degree: 2%
 
 ---
@@ -198,12 +198,10 @@ Per gestire una vista timeline:
 
      <span class="preview">Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).</span>
 
-   * <span class="preview">Fare clic alla fine della barra dei record, quindi trascinarla e rilasciarla in una nuova posizione. Il ridimensionamento delle barre dei record ne aggiorna immediatamente le date di inizio e di fine. </span>
+   * <span class="preview">Fare clic sul margine sinistro o destro di una barra dei record, quindi trascinarlo e rilasciarlo in una nuova posizione. Se si ridimensionano le barre dei record, le date di inizio o di fine vengono aggiornate immediatamente. </span>
 
+   * <span class="preview">Trascinare i record per aggiornarne la posizione e le date nella sequenza temporale. Lo spostamento delle barre dei record ne aggiorna immediatamente le date di inizio e di fine.</span>
      <span class="preview">Per informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).</span>
-
-   <!--* <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
-        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
 
 1. Aggiornate i seguenti elementi della vista come descritto nelle sottosezioni seguenti:
    * [Filtri](#add-filters)

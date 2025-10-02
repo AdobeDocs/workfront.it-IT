@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '1380'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 2%
 <!-- update the title (and all the links to this article) at preview, to be this: Create Workfront objects from Workfront Planning as you connect them to records-->
 <!-- remove preview and production at release time-->
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -35,30 +35,44 @@ ht-degree: 2%
 
   Per informazioni sulla creazione di oggetti Workfront tramite automazioni, vedere [Creare oggetti tramite automazioni record di Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
-È possibile creare i seguenti tipi di oggetti Workfront da Workfront Planning quando si collega un record di Workfront Planning ai seguenti tipi di oggetti Workfront:
-
-* Progetti
-* Portfolio
-* Programmi
-
 >[!IMPORTANT]
 >
->* In Workfront è possibile creare solo progetti, portfolio e programmi quando si collegano da un record.
+>È possibile creare i seguenti oggetti di Workfront da Workfront Planning quando vengono collegati ai record di Planning:
 >
->* Non è possibile creare gruppi o società quando si collegano da un record in Workfront Planning.
+>* Progetti
+>* Portfolio
+>* Programmi
+>
+>È possibile connettere i seguenti oggetti Workfront con i record di Planning, ma non è possibile crearli nel processo di connessione:
+>
+>* Gruppi
+>* Aziende
 >
 
-È possibile collegare progetti, portfolio e programmi da un campo di connessione nelle seguenti aree di Workfront Planning:
+Durante la connessione e la creazione di oggetti Workfront ai record di Workfront Planning, tenere presente quanto segue:
 
-* Visualizzazione tabella di un tipo di record
-* Pagina Dettagli o casella di anteprima di un record
-* Scheda Connessioni di un record
+* È possibile collegare progetti, portfolio, programmi, gruppi e società Workfront da un campo di connessione dalle seguenti aree di Workfront Planning:
+
+   * Visualizzazione tabella di un tipo di record
+   * Pagina Dettagli o casella di anteprima di un record
+   * Scheda Connessioni di un record
+
+* È possibile creare progetti dalle seguenti aree di Workfront Planning:
+
+   * Visualizzazione tabella di un tipo di record
+   * Area Dettagli di un record nel campo connessione
+   * <span class="preview">Pagina Record connesso di un record nell&#39;area Dettagli</span>
+
+* È possibile creare portfolio e programmi dalle seguenti aree di Workfront Planning:
+
+   * Visualizzazione tabella di un tipo di record
+   * Area Dettagli di un record nel campo connessione
 
 Per informazioni sulla connessione dei record di Planning con gli oggetti di Workfront, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.
++++ Espandere per visualizzare i requisiti di accesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -128,10 +142,17 @@ Per informazioni sulla connessione dei record di Planning con gli oggetti di Wor
 Prima di poter aggiungere nuovi progetti o portfolio collegandoli da record esistenti, è necessario disporre dei seguenti elementi:
 
 * Tipi di record connessi a progetti, portfolio o programmi Workfront. Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
-* Record. Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
+* Record per i tipi di record connessi a oggetti Workfront. Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
 * L&#39;accesso e le autorizzazioni corretti in Workfront Planning e Workfront, come descritto nella sezione [Requisiti di accesso](#access-requirements) in questo articolo.
 
 ## Creazione di progetti durante la connessione con i record di Workfront Planning
+
+È possibile creare progetti quando si collegano a record in Workfront Planning nelle seguenti aree di Workfront Planning:
+
+* Visualizzazione tabella di un tipo di record o area Dettagli di un record nel campo connessione
+* <span class="preview">Pagina Record connesso di un record nell&#39;area Dettagli di un record </span>
+
+### Creare progetti dall&#39;area Dettagli di un record o dalla vista tabella di un tipo di record
 
 Per creare progetti mentre li si connette da altri record:
 
@@ -154,7 +175,34 @@ Inizia a digitare il nome di un progetto, quindi fai clic su **Aggiungi progetto
 
 1. (Facoltativo) Fare clic sul nome del nuovo progetto da Workfront Planning per aprire la pagina del progetto in Workfront e apportare ulteriori aggiornamenti al progetto.
 
+<div class="preview">
+
+### Creare progetti dalla pagina Record connessi di un record
+
+1. Connettere il tipo di oggetto Project a un tipo di record di Workfront Planning nella vista tabella.
+
+   Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+1. Fare clic sul nome di un record in qualsiasi visualizzazione. Viene visualizzata la casella di anteprima Dettagli (Details).
+
+1. Aggiungi **Pagina record connessi** per i progetti.
+
+   Per informazioni, vedere la sezione &quot;Aggiungere una pagina di record connessi a un record&quot; nell&#39;articolo [Gestire il layout della pagina di record](/help/quicksilver/planning/records/manage-the-record-page.md).
+
+   La pagina Record collegati viene visualizzata nella vista Tabella. I progetti connessi vengono visualizzati nella tabella.
+
+   ![Visualizzazione tabella progetti nella pagina dei record connessi](assets/projects-connected-records-page-table.png)
+
+1. Fare clic su **Nuova riga** nella tabella dei progetti per aggiungere un progetto.
+
+   In quest’area è possibile aggiungere solo un progetto vuoto. Non è possibile aggiungere un progetto utilizzando un modello.
+1. (Facoltativo) Fai clic sul nome del progetto nella vista a tabella per aprirlo in Workfront e aggiungere ulteriori informazioni.
+
+</div>
+
 ## Creazione di portfolio durante la connessione con i record di Workfront Planning
+
+È possibile creare i portfolio dalla vista tabella di un tipo di record o dalla pagina Dettagli di un record.
 
 Per creare i portfolio durante la connessione dai record di Planning:
 
@@ -173,6 +221,8 @@ Per creare i portfolio durante la connessione dai record di Planning:
 1. (Facoltativo) Fare clic sul nome del nuovo portfolio da Workfront Planning per aprire la pagina del portfolio in Workfront e apportare ulteriori aggiornamenti al portfolio.
 
 ## Creazione di programmi durante la connessione con i record di Workfront Planning
+
+È possibile creare programmi dalla vista tabella di un tipo di record o dalla pagina Dettagli di un record.
 
 Per creare i programmi mentre li si connette dai record di Planning, procedere come segue.
 

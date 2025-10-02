@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '2752'
+source-wordcount: '2764'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,12 @@ La connessione dei tipi di record è utile quando si dispone di diversi tipi di 
 
 Questo articolo descrive come collegare due tipi di record di Workfront Planning o un tipo di record di Workfront Planning a un oggetto di un&#39;altra applicazione.
 
-Dopo aver stabilito la connessione tra i record o i tipi di oggetto, è possibile collegare tra loro singoli record e visualizzare i campi del record o dei tipi di oggetto collegati in un record di Workfront Planning.
+Dopo aver stabilito la connessione tra record o tipi di oggetto, viene aggiunto un campo di connessione a un tipo di record Planning. Nel campo connessione è possibile connettere singoli record e visualizzare i campi del record o dei tipi di oggetto collegati in un record di Workfront Planning.
+
+<!--
+>[!CAUTION]
+>
+><span class="preview">One record type can have up to 30 connection fields.</span>-->
 
 Per informazioni generali sui tipi di connessione, vedere [Panoramica sui tipi di record connessi](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -126,19 +131,18 @@ Per un esempio di connessione di tipi di record e record, vedere [Esempio di con
 1. Fare clic sulla scheda di un tipo di record per aprire la pagina del tipo di record.
 1. Fai clic sull&#39;icona **+** nell&#39;angolo superiore destro della visualizzazione tabella, quindi fai clic sulla scheda **Nuova connessione**.
 
-   ![Nuova scheda di connessione con le opzioni di Workfront AEM](assets/new-connection-tab-with-workfront-aem-options.png)
+   ![Nuova scheda di connessione con le opzioni di Workfront AEM](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
 
-1. Nel campo **Tipo di record**, cercare un tipo di record oppure selezionare uno dei tipi seguenti:
+1. Cercare un tipo di record oppure selezionare una delle opzioni seguenti:
 
-   * Un altro tipo di record dell&#39;area di lavoro corrente
+   * <span class="preview">Tipo di record dall&#39;area di lavoro corrente</span>
 
-     ![Selezione connessioni molti a molti](assets/many-to-many-connection-picker.png)
+     <span class="preview">![Selezione connessione a selezione multipla per lo stesso tipo di record dell&#39;area di lavoro](assets/multi-select-connection-picker-record-type.png)</span>
 
      >[!TIP]
      >
      > 
      >Se nell&#39;area di lavoro selezionata non sono presenti altri tipi di record, la sezione area di lavoro non viene visualizzata.
-
 
    * Tipo di record di un&#39;altra area di lavoro configurata per la connessione da altre aree di lavoro.
 
@@ -149,13 +153,13 @@ Per un esempio di connessione di tipi di record e record, vedere [Esempio di con
 
      Per informazioni, vedere [Modifica tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-     ![Nuova connessione per consentire più record, casella](assets/new-connection-allow-multiple-records-box.png)
+     ![Nuova connessione per consentire più record, casella](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
 
-   * **Progetto, Portfolio, Programma, Società** o **Gruppo** dalla sezione **Tipi di oggetti di Workfront**.
+   * <span class="preview">Un **Progetto, Portfolio, Programma, Società** o **Gruppo** dalla sezione **Tipi di oggetto Workfront**.</span>
 
-     ![Selezione connessione progetto Workfront](assets/workfront-project-connection-selection.png)
+     <span class="preview">![Selezione connessione progetto Workfront](assets/multi-select-connection-picker-project.png)</span>
 
-   * **Experience Manager Assets** dalla sezione **Applicazioni Adobe**.
+   * **Experience Manager Assets** dalla sezione **Applicazioni Adobe**. <!--update screen shot??-->
 
      ![Selezione connessione AEM Assets](assets/aem-assets-connection-selection.png)
 
@@ -170,7 +174,7 @@ Per un esempio di connessione di tipi di record e record, vedere [Esempio di con
 1. Aggiorna il campo **Descrizione** aggiungendo informazioni sul campo record connesso. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
 1. (Condizionale) Quando si collegano tipi di record da due aree di lavoro diverse o da un record e un oggetto risorsa di Adobe Experience Manager, selezionare **Consenti più record**. Selezionandolo, si indica che si consente agli utenti di aggiungere più record quando il campo del tipo di record connesso viene visualizzato nei record originali. Questa opzione è selezionata per impostazione predefinita.
 
-   ![Nuova connessione per consentire più record, casella](assets/new-connection-allow-multiple-records-box.png)
+   ![Nuova connessione al tipo di record da un&#39;altra area di lavoro](assets/new-connection-allow-multiple-records-box.png)
 
 1. (Facoltativo) Quando si connettono tipi di record della stessa area di lavoro o un tipo di record Planning con un tipo di oggetto Workfront, eseguire una delle operazioni seguenti, a seconda dell&#39;ambiente in uso:
 
@@ -197,6 +201,8 @@ Per un esempio di connessione di tipi di record e record, vedere [Esempio di con
          >
          >Per un tipo di record è previsto un limite di 500 campi. Per evitare di raggiungere questo limite, è consigliabile mantenere questa impostazione disattivata, in particolare per i tipi di record tassonomici.
 
+         <!--<span class="preview">There is a limit of 30 connected fields for a record type.</span>-->
+
       3. (Condizionale) Se hai abilitato **Crea campo corrispondente nel tipo di record collegato**, scegli una delle seguenti opzioni per indicare a quanti record gli utenti possono connettersi e da:
 
          * Da molti a molti
@@ -222,7 +228,7 @@ Per un esempio di connessione di tipi di record e record, vedere [Esempio di con
 
    >[!NOTE]
    >
-   >L&#39;amministratore di Workfront può mappare i campi di Workfront Planning sui campi di Experience Manager Assets tramite la mappatura dei metadati in Workfront. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >L&#39;amministratore di Workfront può mappare i campi di Workfront Planning sui campi di Experience Manager Assets tramite la mappatura dei metadati in Workfront. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Condizionale) Quando si sceglie di connettersi a Experience Manager Assets o a un tipo di record di Workfront Planning, scegliere una delle opzioni seguenti nell&#39;area **Aspetto record**:

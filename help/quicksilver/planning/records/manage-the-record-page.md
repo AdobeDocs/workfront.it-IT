@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '2308'
+source-wordcount: '2434'
 ht-degree: 1%
 
 ---
@@ -332,7 +332,22 @@ Tutti i campi del record connesso vengono visualizzati nella vista a tabella del
 
      Per informazioni sulla modifica dei record nella vista tabella, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
 
-   * Modifica in linea qualsiasi record della tabella nella pagina Record connessi. Nell’ambiente di produzione, tutti gli oggetti Workfront vengono visualizzati in una vista a tabella di sola lettura e non è possibile modificarli. <span class="preview">È possibile modificare i progetti Workfront in linea nell&#39;ambiente di anteprima.</span>
+   * Modifica in linea qualsiasi record della tabella nella pagina Record connessi.
+
+     Nell’ambiente di produzione, tutti gli oggetti Workfront vengono visualizzati in una vista a tabella di sola lettura e non è possibile modificarli.
+
+     <span class="preview">Nell&#39;ambiente di anteprima è possibile modificare i progetti in linea nella pagina dei record connessi.</span>
+
+1. <span class="preview">(Condizionale) Quando si visualizza un elenco di progetti connessi, eseguire una delle operazioni seguenti:</span>
+
+   * <span class="preview">Fare clic su **Connetti record** nell&#39;angolo superiore destro della pagina dei record connessi per connettere i progetti esistenti.</span>
+   * <span class="preview">Modifica informazioni progetto in linea nella tabella.</span>
+   * <span class="preview">Fai clic su **Nuova riga** per creare un progetto senza modello.</span>
+
+     Per ulteriori informazioni, vedere [Creare oggetti Workfront da Workfront Planning durante la connessione ai record](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+   * <span class="preview">Passa il puntatore del mouse su un progetto e fai clic sul menu **Altro** [Altro menu](assets/more-menu.png), quindi fai clic su uno dei seguenti elementi:</span>
+      * <span class="preview">**Elimina** per eliminare il progetto. Quando si elimina un progetto, questo viene disconnesso dal record e spostato nel Cestino di Workfront. </span>
+      * <span class="preview">**Disconnetti** per disconnettere il progetto dal record. Disconnessione di un progetto</span>
 
 1. (Facoltativo) Fare doppio clic sul nome della scheda della pagina Record collegati
 
@@ -356,7 +371,7 @@ Tutti i campi del record connesso vengono visualizzati nella vista a tabella del
 1. (Condizionale) Per collegare più record o oggetti, effettuare una delle seguenti operazioni:
 
    * Fare clic su **Connetti** nella parte inferiore della tabella per aggiungere o rimuovere record o qualsiasi oggetto Workfront <span class="preview">ad eccezione dei progetti.</span>
-   * <span class="preview">Nell&#39;ambiente di anteprima, fare clic su **Connetti record** nell&#39;angolo superiore destro della pagina dei record connessi oppure su **Nuova riga** nella parte inferiore della tabella per aggiungere o rimuovere progetti.</span>
+   * <span class="preview">Nell&#39;ambiente di anteprima, fare clic su **Connetti record** nell&#39;angolo superiore destro della pagina dei record connessi per connettere progetti esistenti oppure fare clic su **Nuova riga** nella parte inferiore della tabella per creare progetti e collegarli automaticamente al record corrente.</span>
 
    Per informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
 1. (Facoltativo) Passa il puntatore del mouse sul nome della scheda della pagina Record connessi, fai clic su **Altro** ![Altro menu](assets/more-menu.png), quindi fai clic su **Elimina** per rimuoverlo dalla scheda.

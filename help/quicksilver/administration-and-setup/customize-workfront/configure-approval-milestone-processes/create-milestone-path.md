@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '889'
 ht-degree: 3%
 
 ---
@@ -26,6 +26,14 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+
+<div class="preview">
+
+Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti a partire da una settimana dalla versione di anteprima.
+
+Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+</div>
 
 In qualità di amministratore di Adobe Workfront, puoi creare percorsi milestone che possono quindi essere applicati a qualsiasi progetto del sistema. Le modifiche apportate ai percorsi milestone in quest&#39;area hanno effetto sull&#39;intero sistema Workfront.
 
@@ -45,14 +53,18 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td>Piano</td> 
+   <td><p>Standard</p>
+   <p>Piano</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Devi essere un amministratore di Workfront.</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Devi essere un amministratore di Workfront.</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,7 +84,18 @@ Per ulteriori informazioni su come associare un percorso milestone a un progetto
 
 1. Fai clic su **Processi** > **Percorsi milestone**.
 1. Fai clic su **Nuovo percorso milestone.**
-1. Specificare le informazioni seguenti nell&#39;area **Informazioni di base**:
+
+   <div class="preview">
+
+   Viene visualizzata la casella Nuovo percorso milestone (New Milestone Path).
+
+   ![Nuova casella percorso milestone](assets/new-milestone-path-box.png)
+
+   </div>
+
+1. Fai clic su **Informazioni di base** nel pannello a sinistra.
+
+   Aggiorna le seguenti informazioni:
 
    <table style="table-layout:auto">
     <tr>
@@ -93,7 +116,10 @@ Per ulteriori informazioni su come associare un percorso milestone a un progetto
     </tr>
    </table>
 
-1. Specifica le seguenti informazioni nell&#39;area **Milestones**:
+1. Fai clic su **Milestones** nel pannello a sinistra.
+1.Nell&#39;ambiente di produzione, fare clic su **Aggiungi milestone** per aggiungere le milestone al percorso.
+   <span class="preview">Nell&#39;ambiente di anteprima, fare clic su **Nuova riga** per aggiungere le milestone al percorso.</span>
+1. Aggiorna le seguenti informazioni:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -114,15 +140,14 @@ Per ulteriori informazioni su come associare un percorso milestone a un progetto
     </tbody> 
    </table>
 
-1. Fai clic su **Aggiungi milestone** e continua ad aggiungere le milestone necessarie fino al completamento del percorso.
-
+1. (Facoltativo) Trascina e rilascia ciascuna milestone per riordinarle.
 1. Fai clic su **Crea percorso milestone** per salvare le modifiche.
 
    Il percorso milestone è pronto per essere associato a un progetto.
 
    Per ulteriori informazioni su come associare percorsi milestone a progetti e milestone ad attività, vedere [Associare milestone ad attività](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
-
+1. (Facoltativo) Dall&#39;elenco Percorsi milestone, selezionare una milestone, quindi fare clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png) per aprire il percorso milestone e modificarne le informazioni.
 1. (Facoltativo) Fai clic sull&#39;icona **Esporta** ![Icona Esporta](assets/export-icon.png), quindi seleziona uno dei seguenti formati per esportare l&#39;elenco dei percorsi delle milestone in un file:
 
    * PDF
@@ -130,10 +155,12 @@ Per ulteriori informazioni su come associare un percorso milestone a un progetto
    * Excel (xlsx)
    * Delimitato in tabella
 
-1. (Facoltativo) Seleziona una milestone nell&#39;elenco, quindi fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png) per modificare le informazioni sulla milestone.
-1. (Facoltativo) Seleziona una milestone nell&#39;elenco delle milestone, quindi fai clic sull&#39;icona **Elimina** ![Elimina icona](assets/delete-icon.png) per eliminarla.
+1. (Facoltativo) Seleziona una o più milestone nell&#39;elenco, quindi fai clic sull&#39;icona **Elimina** ![Elimina icona](assets/delete-icon.png) per eliminarla.
 1. Fai clic su **Sì, elimina**.
-La milestone viene eliminata e non può essere recuperata. Vengono eliminate anche tutte le informazioni sul progetto associate alla fase cardine e tutte le informazioni sull&#39;attività associate ai percorsi delle fasi cardine.
+
+   La milestone viene eliminata e non può essere recuperata. Il percorso milestone viene rimosso da qualsiasi progetto precedentemente associato a esso e tutte le milestone vengono rimosse dalle attività associate.
+
+   Non è possibile recuperare le milestone eliminate.
 
 
 ## Visualizzare i dettagli del percorso milestone in un rapporto del progetto
