@@ -7,28 +7,32 @@ description: L'amministratore di Adobe Workfront consente agli utenti di visuali
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: eb4bf18407562b88bf0c946c905b202e5b62a5fe
+source-git-commit: 48c0f5c617f41a4ce51ea45c17817aa869ba5adb
 workflow-type: tm+mt
-source-wordcount: '1247'
-ht-degree: 1%
+source-wordcount: '1392'
+ht-degree: 3%
 
 ---
 
 # Condividere un documento
 
-L&#39;amministratore di Adobe Workfront consente agli utenti di visualizzare o modificare i documenti quando assegnano i livelli di accesso, come spiegato in [Concedere l&#39;accesso ai documenti](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
+L’amministratore di Workfront controlla chi può visualizzare o modificare i documenti nell’area Livelli di accesso in Configurazione. Per ulteriori informazioni, vedere [Concedere l&#39;accesso ai documenti](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 
-Il livello di accesso concesso dall&#39;amministratore di Workfront agli utenti consente loro di visualizzare o modificare i documenti. Inoltre, altri utenti possono concedere ad altri utenti le autorizzazioni per visualizzare o gestire documenti specifici che hanno caricato personalmente o che possono condividere.
+Gli utenti possono anche condividere documenti che hanno caricato o a cui hanno accesso, concedendo ad altri l&#39;autorizzazione per visualizzarli o gestirli.
 
-Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono quali azioni è possibile eseguire su tale elemento. Per informazioni sulle autorizzazioni per gli oggetti, vedere [Panoramica sulle autorizzazioni di condivisione per gli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+* Le autorizzazioni si applicano ai singoli elementi e definiscono quali azioni possono essere intraprese.
+* La persona che carica automaticamente un documento ottiene il controllo completo (Gestione autorizzazioni).
+* Per condividere un&#39;intera cartella, vedere [Condividere una cartella di documenti](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
-Per impostazione predefinita, l’utente che carica un documento in Workfront dispone delle autorizzazioni di gestione per tale documento.
+>[!NOTE]
+>
+>Se l&#39;istanza di Workfront utilizza Adobe Enterprise Storage, non è possibile condividere singoli documenti. Invece, puoi accedere a livello di progetto. Tieni presente che la condivisione del progetto può consentire l’accesso a informazioni sensibili sul progetto, come quelle finanziarie, a seconda del livello di autorizzazione scelto.
 
-Per informazioni sulla condivisione di un&#39;intera cartella documenti, vedere [Condividere una cartella documenti](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
 
@@ -62,39 +66,11 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 +++
 
-## Considerazioni sulla condivisione di documenti
 
-Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle autorizzazioni di condivisione per gli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-
->[!NOTE]
->
->Un amministratore di Workfront può aggiungere o rimuovere autorizzazioni per qualsiasi elemento del sistema, per tutti gli utenti, senza esserne il proprietario.
-
-* La condivisione di un documento è simile alla condivisione di qualsiasi altro oggetto in Workfront. Per informazioni sulla condivisione di documenti in Workfront, vedere [Condividere un oggetto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
-* È possibile concedere le seguenti autorizzazioni ai documenti:
-
-   * Visualizza
-   * Gestire
-
-* È inoltre possibile condividere un documento pubblicamente o a livello di sistema.
-
-  >[!CAUTION]
-  >
-  >Si consiglia di usare cautela quando si condivide con utenti esterni un oggetto contenente informazioni riservate. Questo consente loro di visualizzare le informazioni senza essere utenti di Workfront o parte dell’organizzazione.
-
-* È possibile condividere un documento con un utente che non dispone di un account Workfront aggiungendo il proprio indirizzo di posta elettronica nel campo Concedi accesso al documento.
-* Quando si condivide un documento, gli utenti hanno lo stesso accesso a tutte le versioni del documento e a tutte le bozze del documento.\
-  Per ulteriori informazioni sulla verifica in Workfront, vedere la sezione [Verifica](../../review-and-approve-work/proofing/proofing.md).
-
-* È possibile ereditare le autorizzazioni per i documenti dagli oggetti a cui sono associati. L&#39;amministratore di Workfront può limitare l&#39;ereditarietà delle autorizzazioni per i documenti nel proprio livello di accesso.
-
-  Per ulteriori informazioni sulla limitazione delle autorizzazioni ereditate sui documenti, vedere [Creare o modificare livelli di accesso personalizzati](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-
-  È possibile rimuovere manualmente le autorizzazioni ereditate dai documenti. Per ulteriori informazioni, vedere [Rimuovere le autorizzazioni dagli oggetti](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
-
-* Un documento allegato eredita le autorizzazioni solo dall&#39;oggetto a cui è stato associato. Se si crea una cartella sull&#39;oggetto e si sposta il documento nella cartella, questa eredita le autorizzazioni della cartella. Tuttavia, se si crea una cartella su un oggetto padre o padre e si sposta il documento in tale cartella, questa non eredita le autorizzazioni della cartella.
 
 ## Condividere un documento
+
+Per impostazione predefinita, l’utente che carica un documento in Workfront dispone delle autorizzazioni di gestione per tale documento.
 
 {{step1-to-documents}}
 
@@ -172,8 +148,21 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 
 1. Fai clic su **Salva**.
 
+## Condivisione di documenti con lo storage aziendale Adobe
+
+Workfront sta passando alla soluzione di storage aziendale Adobe per offrire una maggiore connettività con i prodotti Adobe Creative Cloud. I clienti esistenti verranno spostati al nuovo modello in più fasi. Per ulteriori informazioni sui vantaggi dello storage aziendale Adobe, visitare la pagina [Panoramica dello storage aziendale Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Se la tua istanza di Workfront utilizza lo storage aziendale Adobe, non puoi condividere direttamente singoli documenti. Devi invece concedere l’accesso a livello di progetto.
+
+>[!IMPORTANT]
+>
+>La condivisione di un progetto può inoltre consentire agli utenti di accedere a informazioni riservate sul progetto, ad esempio di carattere finanziario, a seconda del livello di autorizzazione scelto.
+>
+>Verificare attentamente le impostazioni delle autorizzazioni prima di condividere.
 
 ## Autorizzazioni documento
+
+Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono quali azioni è possibile eseguire su tale elemento. Per informazioni sulle autorizzazioni per gli oggetti, vedere [Panoramica sulle autorizzazioni di condivisione per gli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 Nella tabella seguente vengono indicate le autorizzazioni che è possibile concedere agli utenti quando si consente loro di visualizzare o gestire documenti:
 
@@ -190,7 +179,7 @@ Nella tabella seguente vengono indicate le autorizzazioni che è possibile conce
  </thead> 
  <tbody> 
   <tr> 
-   <td scope="row">Crea</td> 
+   <td scope="row">Creare</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -330,3 +319,35 @@ Nella tabella seguente vengono indicate le autorizzazioni che è possibile conce
 L&#39;azione &#42; è condivisa sia da Cartelle documenti che da Cartelle documenti.
 
 &#42;&#42; Per eseguire la verifica dei documenti è necessario disporre di una licenza di verifica separata associata al proprio account Workfront. Contatta il tuo account manager per ottenere una licenza di verifica. Per ulteriori informazioni sulla verifica in Workfront, vedere [Verifica](../../review-and-approve-work/proofing/proofing.md).
+
+## Considerazioni sulla condivisione di documenti
+
+Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle autorizzazioni di condivisione per gli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+
+>[!NOTE]
+>
+>Un amministratore di Workfront può aggiungere o rimuovere autorizzazioni per qualsiasi elemento del sistema, per tutti gli utenti, senza esserne il proprietario.
+
+* La condivisione di un documento è simile alla condivisione di qualsiasi altro oggetto in Workfront. Per informazioni sulla condivisione di documenti in Workfront, vedere [Condividere un oggetto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* È possibile concedere le seguenti autorizzazioni ai documenti:
+
+   * Visualizzazione
+   * Gestisci
+
+* È inoltre possibile condividere un documento pubblicamente o a livello di sistema.
+
+  >[!CAUTION]
+  >
+  >Si consiglia di usare cautela quando si condivide con utenti esterni un oggetto contenente informazioni riservate. Questo consente loro di visualizzare le informazioni senza essere utenti di Workfront o parte dell’organizzazione.
+
+* È possibile condividere un documento con un utente che non dispone di un account Workfront aggiungendo il proprio indirizzo di posta elettronica nel campo Concedi accesso al documento.
+* Quando si condivide un documento, gli utenti hanno lo stesso accesso a tutte le versioni del documento e a tutte le bozze del documento.\
+  Per ulteriori informazioni sulla verifica in Workfront, vedere la sezione [Verifica](../../review-and-approve-work/proofing/proofing.md).
+
+* È possibile ereditare le autorizzazioni per i documenti dagli oggetti a cui sono associati. L&#39;amministratore di Workfront può limitare l&#39;ereditarietà delle autorizzazioni per i documenti nel proprio livello di accesso.
+
+  Per ulteriori informazioni sulla limitazione delle autorizzazioni ereditate sui documenti, vedere [Creare o modificare livelli di accesso personalizzati](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
+  È possibile rimuovere manualmente le autorizzazioni ereditate dai documenti. Per ulteriori informazioni, vedere [Rimuovere le autorizzazioni dagli oggetti](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
+
+* Un documento allegato eredita le autorizzazioni solo dall&#39;oggetto a cui è stato associato. Se si crea una cartella sull&#39;oggetto e si sposta il documento nella cartella, questa eredita le autorizzazioni della cartella. Tuttavia, se si crea una cartella su un oggetto padre o padre e si sposta il documento in tale cartella, questa non eredita le autorizzazioni della cartella.
