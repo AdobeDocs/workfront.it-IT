@@ -6,14 +6,16 @@ description: In qualità di project manager, puoi specificare la tariffa di fatt
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: 5e2c2a29c822150377882006bd6bc15068ff8702
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
 
 # Sostituisci tariffe di fatturazione mansione a livello di progetto
+
+{{highlighted-preview}}
 
 In qualità di project manager, puoi specificare la tariffa di fatturazione per una mansione in un progetto specifico. Questa tariffa di fatturazione a livello di progetto sostituisce la tariffa di fatturazione a livello di sistema per questa mansione. Per calcolare i ricavi, Workfront utilizza la tariffa di fatturazione a livello di progetto della mansione, anziché la tariffa di fatturazione a livello di sistema.
 
@@ -89,8 +91,6 @@ Per sostituire una tariffa di fatturazione per un progetto:
 
 1. Nel campo **Mansione**, selezionare la mansione per la quale si desidera modificare la tariffa di fatturazione.
 
-   ![Sostituisci tariffa di fatturazione nel progetto](assets/override-billing-rate-on-project-nwe-350x310.png)
-
    Nel campo **Tariffa di fatturazione predefinita** viene visualizzata la tariffa a livello di sistema per questa mansione.
 
 1. Nel campo **Tariffe di fatturazione 1**, inserisci la sostituzione della tariffa di fatturazione una tantum, quindi fai clic su **Salva** per sostituire la tariffa di fatturazione una volta
@@ -105,7 +105,11 @@ Per sostituire una tariffa di fatturazione per un progetto:
    * **Data inizio**: è la data in cui termina la tariffa predefinita.
    * **Data di fine**: la data in cui termina la nuova sostituzione della tariffa di fatturazione.
 
-   ![new_billing_rate_with_adjustment_dates.png](assets/new-billing-rate-with-adjustment-dates-350x266.png)
+   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
+   ![Tariffe di fatturazione con date di sostituzione](assets/billing-rates-093025.png)
+
+   Immagine di esempio nell’ambiente di produzione:
+   ![Tariffe di fatturazione con date di sostituzione](assets/new-billing-rate-with-adjustment-dates-350x266.png)
 
 1. Il fuso orario per le date selezionate viene visualizzato nella parte inferiore della casella Nuova tariffa di fatturazione. Si tratta del fuso orario associato all’istanza Workfront, come mostrato nell’area Informazioni cliente di Configura. Per informazioni, vedere [Configurare le informazioni di base per il sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 1. Workfront applica il tasso di ruolo di sostituzione alle ore che si verificano durante gli intervalli di tempo specificati durante il calcolo dei ricavi sul progetto.
