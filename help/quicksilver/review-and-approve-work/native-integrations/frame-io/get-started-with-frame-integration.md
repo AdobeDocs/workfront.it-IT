@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
+source-git-commit: a3edfadc447a763c638cc926b386272890697f81
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,18 @@ ht-degree: 0%
 L&#39;integrazione Workfront e Frame.io assicura l&#39;allineamento di creativi, addetti al marketing e stakeholder con un flusso di lavoro omogeneo. Accedi agli aggiornamenti in tempo reale, evita il lavoro duplicato e assicurati che le risorse siano approvate prima del lancio.
 
 Per ulteriori informazioni su Frame.io, vedere [Guida introduttiva a Frame.io](https://support.frame.io/en/collections/49298-getting-started).
+
+È necessario che nell’istanza di Workfront siano configurate l’integrazione Workfront e Frame.io. Per ulteriori informazioni, vedere [Panoramica dell&#39;integrazione Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md#integration-requirements).
+
+<!--## Integration requirements
+
+* Workfront and Frame.io must be deployed to the same Identity Management system (IMS) organization.
+
+* Users can belong to only one Workfront instance within the IMS organization.
+
+* The Workfront instance must be enabled on the Adobe Unified Experience.
+
+* The integration is configured by Adobe Professional Services. -->
 
 ## Avvio e pianificazione del lavoro in Workfront
 

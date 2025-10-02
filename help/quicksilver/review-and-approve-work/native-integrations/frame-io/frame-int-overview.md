@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
+source-git-commit: f8d81996846f7b719bf3e5e8aaa2ad9ba1805cff
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,20 @@ ht-degree: 0%
 # Panoramica dell’integrazione Frame.io
 
 L’integrazione Workfront e Frame.io consente ai coordinatori dei progetti di gestire i progetti e pianificare il lavoro in Workfront, mentre i creativi, gli esperti di marketing e le parti interessate possono rivedere e approvare le risorse in Frame.io.
+
+## Requisiti di integrazione
+
+Adobe Professional Services deve abilitare l&#39;integrazione di Workfront e Frame.io.
+
+<!--
+* Workfront and Frame.io must be deployed to the same Identity Management system (IMS) organization.
+
+* Users can belong to only one Workfront instance within the IMS organization.
+
+* The Workfront instance must be enabled on the Adobe Unified Experience.
+
+* The integration is configured by Adobe Professional Services. 
+-->
 
 ## Basato sullo storage aziendale Adobe
 
