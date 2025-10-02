@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: 1fa62033f83a96ea5c1036598b832dd2ebfa19c4
+source-git-commit: 7cb1eed72b0f5ce4abd83013b7a2f224dbb2c229
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 3%
@@ -134,7 +134,7 @@ In qualità di amministratore di Workfront, puoi creare e modificare le gravità
      </div>
 
    * **Descrizione**: digitare una descrizione della gravità per spiegarne la funzione.
-   * <span class="preview">**Nascondi scelta**</span> o **Nascondi**: <span class="preview">Scegli **Sì**</span> o seleziona la casella di controllo per nascondere una gravità non più necessaria.
+   * <span class="preview">**Nascondi scelta**</span> o **Nascondi**: <span class="preview">Selezionare **Sì**</span> o selezionare la casella di controllo per nascondere una gravità non più necessaria.
 
      Una gravità nascosta non viene visualizzata in alcun punto di Workfront, pertanto gli utenti non possono sceglierla per i problemi.
 

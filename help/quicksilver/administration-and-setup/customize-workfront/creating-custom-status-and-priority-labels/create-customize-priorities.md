@@ -5,7 +5,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: 7db80f5bacf52b7bbe540f4e38e88853af86a5e2
+source-git-commit: 7cb1eed72b0f5ce4abd83013b7a2f224dbb2c229
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 1%
@@ -136,7 +136,7 @@ Oltre alle priorità predefinite fornite in Workfront, puoi aggiungere altre pri
      </div>
 
    * **Descrizione**: digitare una descrizione della priorità per spiegarne la funzione.
-   * <span class="preview">**Nascondi scelta**</span> o **Nascondi**: <span class="preview">Scegli **Sì**</span> o seleziona la casella di controllo per nascondere una priorità non più necessaria.
+   * <span class="preview">**Nascondi scelta**</span> o **Nascondi**: <span class="preview">Seleziona **Sì**</span> o seleziona la casella di controllo per nascondere una priorità non più necessaria.
 
      Una priorità nascosta non viene visualizzata in alcun punto di Workfront, pertanto gli utenti non possono sceglierla per i loro progetti, attività o problemi.
 

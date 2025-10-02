@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: Creare sezioni personalizzate
 description: Per impostazione predefinita, le informazioni visualizzate nell'applicazione Web  [!DNL Workfront]  vengono spesso visualizzate nelle sezioni nel pannello sinistro. Ogni sezione contiene informazioni diverse su un'area o un oggetto  [!DNL Workfront] .
-author: Courtney
+author: Becky
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
+source-git-commit: ccaf637601c53e5d92dd3357fb07e84b5fd69166
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 1%
@@ -87,7 +87,7 @@ Dopo aver generato il dashboard o la pagina esterna, puoi aggiungerli al pannell
 1. Fai clic su **[!UICONTROL Aggiungi dashboard]** nel pannello a sinistra.
 1. Digitare un nome per il dashboard nel campo **[!UICONTROL Nome collegamento rapido]**. Questo è visibile solo a te.
 1. Inizia a digitare il nome di un dashboard o di una pagina esterna esistente nel campo **[!UICONTROL Scegli un dashboard]**, quindi seleziona il dashboard quando viene visualizzato nell&#39;elenco.
-1. Fare clic su **[!UICONTROL Aggiungi]**.
+1. Fai clic su **[!UICONTROL Aggiungi]**.
 1. (Facoltativo) Trascina le sezioni nell’ordine in cui desideri visualizzarle.
 
    La sezione superiore è la sezione predefinita della pagina.
