@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
+source-git-commit: 3942ba8d626a854344624bc5b7ea3ad01e8ad7fb
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2075'
 ht-degree: 0%
 
 ---
@@ -251,7 +251,14 @@ L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi
 
    ![Pagina dettagli richiesta](assets/request-details-page.png)
 
+   <div class="preview">
+      In anteprima:
 
+   ![Pagina di richiesta con commento](assets/new-request-page-with-comment.png)
+
+   </div>
+
+1. <span class="preview">(Facoltativo) Immettere un commento nell&#39;area Commenti.
 1. (Condizionale) Se il modulo di richiesta non è associato a un&#39;approvazione o se la richiesta è stata approvata, fare clic sul nome della richiesta, quindi sul nome del record nel campo **Record**.
 
    La pagina del record viene visualizzata in Workfront Planning.
@@ -262,7 +269,7 @@ L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi
    >
    >* Se il modulo di richiesta è associato a un’approvazione, questa deve essere concessa prima di poter accedere al record dalla pagina della richiesta.
 
-1. (Facoltativo) Fare clic sul nome del tipo di record **&#x200B;**.
+1. (Facoltativo) Fare clic sul nome del tipo di record ****.
 
    La pagina del tipo di record viene visualizzata in Workfront Planning.
 
@@ -315,6 +322,14 @@ L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi
 
    ![Pagina dettagli richiesta](assets/request-details-page.png)
 
+   <div class="preview">
+   In anteprima:
+
+   ![Pagina di richiesta con commento](assets/new-request-page-with-comment.png)
+
+   </div>
+
+1. <span class="preview">(Facoltativo) Immettere un commento nell&#39;area Commenti.
 1. (Condizionale) Se il modulo di richiesta non è associato a un&#39;approvazione o se la richiesta è stata approvata, fare clic sul nome della richiesta, quindi sul nome del record nel campo **Record**.
 
    La pagina del record viene visualizzata in Workfront Planning.
@@ -325,7 +340,7 @@ L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi
    >
    >* Se il modulo di richiesta è associato a un’approvazione, questa deve essere concessa prima di poter accedere al record dalla pagina della richiesta.
 
-1. (Facoltativo) Fare clic sul nome del tipo di record **&#x200B;**.
+1. (Facoltativo) Fare clic sul nome del tipo di record ****.
 
    La pagina del tipo di record viene visualizzata in Workfront Planning.
 
