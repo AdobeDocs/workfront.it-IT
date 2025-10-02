@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 359131cef04fdb46def64428a7a693c3f00b2cd4
+source-git-commit: de42feb0d5a349e6b4b403b790b4759f693f7f4c
 workflow-type: tm+mt
-source-wordcount: '2568'
+source-wordcount: '3138'
 ht-degree: 1%
 
 ---
@@ -135,11 +135,15 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
    * I campi formula che fanno riferimento ai campi Valuta visualizzano i valori senza tenere conto dei tassi di cambio.
    * I valori dei campi Paragrafo visualizzano un valore &quot;N/A&quot; nel modulo di richiesta e visualizzano tag HTML invece del testo formattato nella pagina dei dettagli della richiesta.
 
-## Inizia a creare un modulo di richiesta
+## Creare un modulo di richiesta
+
+Per creare un modulo di richiesta, è necessario iniziare a creare il modulo, impostare i dettagli del modulo e terminare con la pubblicazione e la condivisione del modulo.
+
+### Inizia a creare un modulo di richiesta
 
 È possibile creare un modulo di richiesta dal tipo di record associato al modulo, <span class="preview">o dall&#39;area Richieste di Workfront.</span>
 
-### Creare un modulo di richiesta da un tipo di record
+#### Creare un modulo di richiesta da un tipo di record
 
 {{step1-to-planning}}
 
@@ -168,7 +172,7 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
 
 <div class="preview">
 
-### Creare un modulo di richiesta dall’area Richieste di Workfront
+#### Creare un modulo di richiesta dall’area Richieste di Workfront
 
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Requests**.
 1. Nell&#39;angolo superiore destro della schermata, fare clic su **Moduli di richiesta**.
@@ -186,16 +190,21 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
 1. Fai clic su **Crea**.
 
    Il modulo di richiesta per il tipo di record selezionato viene aperto nella scheda Modulo.
-1. Continua con [Configurare il modulo](#configure-the-form).
+1. Continua con [Imposta i dettagli per il modulo di richiesta](#set-up-details-for-the-request-form).
 
 </div>
 
-## Configurare il modulo
+### Imposta i dettagli per il modulo di richiesta
 
-1. Inizia a creare o modificare un modulo di richiesta, come descritto in una delle sezioni seguenti:
+I dettagli del modulo sono suddivisi in schede.
 
-   * [Creare un modulo di richiesta da un tipo di record](#create-a-request-form-from-a-record-type)
-   * <span class="preview">[Crea un modulo di richiesta dall&#39;area Richieste di Workfront](#create-a-request-form-from-the-requests-area-of-workfront)</span>
+* La scheda **Modulo** consente di aggiungere campi ed elementi di contenuto al modulo
+* La scheda **Configurazione** consente di impostare un processo di approvazione per il modulo <span class="preview">e di impostare le opzioni di completamento della richiesta</span>.
+* <span class="preview">La scheda **Automazioni** consente di automatizzare ciò che si verificherà in base alle caratteristiche della richiesta effettuata con il modulo.</span>
+
+#### Imposta dettagli modulo
+
+1. Inizia a creare o modificare un modulo di richiesta, come descritto nella sezione [Inizia a creare un modulo di richiesta](#begin-creating-a-request-form).
 
    Il modulo di richiesta per il tipo di record selezionato viene aperto nella scheda Modulo.
 
@@ -248,6 +257,16 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
    Per ulteriori informazioni sulla creazione di un modulo personalizzato, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. (Facoltativo) Fare clic su **Anteprima** per visualizzare la modalità di visualizzazione del modulo per gli altri utenti che lo utilizzeranno per inviare un nuovo record.
+1. Passa a [Imposta dettagli configurazione](#set-up-configuration-details) se desideri configurare ulteriori dettagli per il modulo o passa a [Completa creazione modulo richiesta](#complete-request-form-creation).
+
+#### Configurare i dettagli della configurazione
+
+Nella scheda Configurazione è possibile impostare il processo di approvazione <span class="preview"> e configurare quando una richiesta creata da questo modulo verrà contrassegnata come Completata</span>.
+
+1. Inizia a creare o modificare un modulo di richiesta, come descritto nella sezione [Inizia a creare un modulo di richiesta](#begin-creating-a-request-form).
+
+   Il modulo di richiesta per il tipo di record selezionato viene aperto nella scheda Modulo.
+1. (Facoltativo) Configura i dettagli del modulo come descritto in [Configura dettagli modulo](#set-up-form-details).
 
 1. (Facoltativo) Fai clic sulla scheda **Configurazione**, quindi aggiungi almeno un utente <span class="preview">o un team</span>al campo **Approvatori** per approvare nuove richieste per questo modulo record.
 
@@ -263,6 +282,39 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
 
      Per ulteriori informazioni sull&#39;aggiunta di approvazioni ai moduli di richiesta, vedere [Aggiungere approvazione a un modulo di richiesta](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
+1. <span class="preview">(Condizionale) Se si desidera che il record venga creato dopo l&#39;approvazione di uno qualsiasi degli approvatori, selezionare la casella di controllo **È necessaria una sola decisione**.</span>
+
+1. <span class="preview">Specificare se si desidera che una richiesta creata da questo modulo venga contrassegnata come completata al momento della creazione dell&#39;oggetto richiesto o quando l&#39;oggetto richiesto viene completato.</span>
+1. <span class="preview">(Condizionale) Se si è selezionato per contrassegnare la richiesta come completata quando l&#39;oggetto richiesto è completato, selezionare il campo e il valore che indicano quando l&#39;oggetto è completo. Ad esempio, è possibile selezionare il campo Stato e il valore Completo per completare la richiesta quando lo stato dell&#39;oggetto creato è impostato su Completo.</span>
+1. Passa a [Imposta dettagli automazione](#set-up-configuration-details) se desideri configurare ulteriori dettagli per il modulo o passa a [Completa creazione modulo richiesta](#complete-request-form-creation).
+
+<div class="preview">
+
+#### Configurare le automazioni
+
+È possibile configurare le automazioni in Adobe Workfront Planning che, se attivate, creano oggetti in Workfront o record in Workfront Planning quando attivate da un record Planning.
+
+Per informazioni sulla creazione di automazioni in altre aree di Workfront Planning, vedere [Configurare le automazioni di Adobe Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+
+1. Nella pagina dei dettagli dell&#39;automazione, aggiorna i campi seguenti nella sezione **Triggers**:
+
+   * **Trigger**: selezionare l&#39;azione che attiverà l&#39;automazione. Attualmente, l&#39;unico trigger disponibile per l&#39;automazione del modulo di richiesta è `When request object status equals pending creation`.
+
+1. Aggiorna i campi seguenti nella sezione **Azioni**: <!--submitted bugs for these fields - see if they need changing here-->
+   * **Azioni**: selezionare l&#39;azione che si desidera venga eseguita da Workfront quando si attiva l&#39;automazione. Questo campo è obbligatorio.
+Attualmente, l&#39;unica azione disponibile per l&#39;automazione del modulo di richiesta è `Create record`.
+
+     >[!TIP]
+     >
+     >Dopo aver salvato l’automazione, non puoi più modificare l’azione selezionata in questo campo.
+1. Passa a [Creazione modulo di richiesta completata](#complete-request-form-creation).
+
+
+</div>
+
+### Creazione modulo di richiesta completa
+
+1. Creare e configurare il modulo come descritto in [Iniziare a creare un modulo di richiesta](#begin-creating-a-request-form) e [Configurare i dettagli per il modulo di richiesta](#set-up-details-for-the-request-form).
 1. (Facoltativo) Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del modulo nell&#39;intestazione, quindi fai clic su **Modifica** per aggiornare il nome del modulo.
 
 1. Fai clic su **Pubblica** per pubblicare il modulo e ottenere un collegamento univoco.
@@ -280,6 +332,21 @@ Per informazioni sull&#39;invio di richieste Workfront Planning, vedere [Inviare
 1. Fare clic sulla freccia rivolta a sinistra a sinistra del nome della maschera nell&#39;intestazione per chiudere la maschera.
 
    Viene aperta la vista tabella **Moduli di richiesta** alla quale viene aggiunto il modulo.
+
+## Gestire i moduli di richiesta esistenti
+
+
+1. Fare clic sull&#39;area di lavoro in cui si desidera gestire i moduli di richiesta.
+
+   Viene aperto il workspace e i tipi di record vengono visualizzati come schede.
+
+1. Fare clic su una scheda del tipo di record. Per informazioni sulla creazione di un tipo di record, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+
+   La pagina del tipo di record viene visualizzata nella visualizzazione a cui si è effettuato l&#39;ultimo accesso. Per impostazione predefinita, nella vista tabella viene visualizzata una pagina del tipo di record.
+
+1. Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record nell&#39;intestazione della pagina, quindi fai clic su **Gestisci moduli di richiesta**.
+
+   Tutte le maschere di richiesta associate al tipo di record vengono visualizzate in una vista tabella.
 
 1. (Facoltativo) Passa il puntatore del mouse sul nome di un modulo di richiesta nella visualizzazione tabella, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del modulo e fai clic su una delle seguenti opzioni:
 

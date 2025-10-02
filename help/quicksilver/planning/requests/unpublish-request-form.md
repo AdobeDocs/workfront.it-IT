@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 793a856a963060cbade33a1c29f002cecf7f7e47
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '864'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Puoi annullare la pubblicazione di un modulo di richiesta se non è più necessa
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.
++++ Espandere per visualizzare i requisiti di accesso. 
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -117,7 +117,7 @@ Per modificare la condivisione di un modulo di richiesta:
 
 {{step1-to-planning}}
 
-1. Fare clic sull&#39;area di lavoro in cui si desidera aggiungere i record.
+1. Fare clic sull&#39;area di lavoro in cui si desidera condividere un modulo.
 
    Viene aperto il workspace e i tipi di record vengono visualizzati come schede.
 
