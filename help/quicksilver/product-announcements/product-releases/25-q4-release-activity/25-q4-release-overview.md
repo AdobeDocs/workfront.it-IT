@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: e32f759218a3addf63dad7aa207ccdde8acb1975
+source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
 workflow-type: tm+mt
-source-wordcount: '2219'
+source-wordcount: '2245'
 ht-degree: 4%
 
 ---
@@ -317,15 +317,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Rilascio rapido</strong></td>
         <td><strong>Ogni trimestre</strong></td>
     </tr>
-    <tr>
+     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Nuova colonna di stato combinata nell'elenco di richieste unificato</a><p></p>
-            <p>Per semplificare l’esperienza di richiesta unificata, la colonna Stato visualizza ora sia lo stato della richiesta che lo stato di approvazione, a seconda di quale sia il valore applicato a una determinata richiesta.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Creare e salvare le visualizzazioni nell'area Richieste</a><p></p>
+            <p>Per visualizzare più facilmente le informazioni necessarie, è stata aggiunta la possibilità di creare e salvare viste nell’area Richieste. Ora puoi salvare una vista, inclusi i filtri e le configurazioni di colonna, e passare da una vista all’altra. Un amministratore di Workfront può aggiungere la nuova visualizzazione ai modelli di layout.</p>
         </td>
-        <td>venerdì 28 agosto 2025</td>
-        <td>venerdì 11 settembre 2025</td>
+        <td>venerdì 2 ottobre 2025</td>
+        <td>giovedì 15 ottobre 2025</td>
         <td>venerdì 16 ottobre 2025</td>
-    </tr>     
+    </tr> 
+    <!--<tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">New combined Status column in unified Request list</a><p></p>
+            <p>To simplify the unified request experience, the Status column now displays both Request Status and Approval Status, whichever applies to a given request.</p>
+        </td>
+        <td>August 28, 2025</td>
+        <td>September 11, 2025</td>
+        <td>October 16, 2025</td>
+    </tr>  -->   
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti all'esperienza richiedente</a><p></p>
@@ -456,7 +465,7 @@ Per offrire integrazioni più stabili e scalabili, stiamo passando a un approcci
 * Workfront per Salesforce.
 
 È consigliabile utilizzare l&#39;automazione e l&#39;integrazione di Workfront per le esigenze di integrazione dell&#39;organizzazione con Google Workspace.
-Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### API versione 20
 
@@ -468,7 +477,7 @@ Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianific
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Aggiornamenti dei corsi di formazione
 
