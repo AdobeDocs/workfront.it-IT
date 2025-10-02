@@ -23,8 +23,8 @@ Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rila
 >[!NOTE]
 >
 >Anteprima: 2 ottobre 2025
->>Versione rapida di produzione: 15 ottobre 2025
->>Produzione per tutti: 16 ottobre 2025
+>&#x200B;>Versione rapida di produzione: 15 ottobre 2025
+>&#x200B;>Produzione per tutti: 16 ottobre 2025
 
 Per visualizzare più facilmente le informazioni necessarie, è stata aggiunta la possibilità di creare e salvare viste nell’area Richieste. Ora puoi salvare una vista, inclusi i filtri e le configurazioni di colonna, e passare da una vista all’altra. Un amministratore di Workfront può aggiungere la nuova visualizzazione ai modelli di layout.
 
