@@ -6,18 +6,20 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 441a53d1-ad39-41b7-93fe-2ae1836476c9
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '454'
 ht-degree: 1%
 
 ---
 
 # Visualizzazioni record duplicate
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--remove preview and production references-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -107,12 +109,11 @@ La duplicazione delle viste è identica per tutti i tipi di viste in Workfront P
    Viene visualizzata la pagina del tipo di record.
 Per impostazione predefinita, tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
 
-1. Passa il puntatore del mouse sulla scheda della visualizzazione da duplicare e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Duplica**.
+1. A seconda dell’ambiente utilizzato, effettua le seguenti operazioni:
 
-   ![Visualizza altro menu in una visualizzazione record](assets/view-more-menu-with-duplicate-option.png)
+   * Nell&#39;ambiente di produzione, passa il cursore su uno dei nomi della visualizzazione nella scheda della visualizzazione, quindi fai clic su **Altro** ![Altro menu](assets/more-menu.png) a sinistra del nome della visualizzazione, quindi fai clic su **Duplica**.
+   * <span class="preview">Nell&#39;ambiente di anteprima, fare clic sull&#39;icona a discesa ![Icona a discesa](assets/drop-down-icon.png) accanto al nome della visualizzazione corrente, passare il puntatore sul nome di una visualizzazione, fare clic su **Altro**, quindi su **Duplica**.</span>
 
-   <!--at preview release, replace the step above with this one: 
-    1. Depending on which environment you use, do the following: 
-    * In the Production environment, hover over one the of the view's names in the view tab, then click **More** ![More menu](assets/more-menu.png) to the left of the view name, then click **Duplicate**. 
-    * <span class="preview">In the Preview environment, click the dropdown icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, hover over the name of a view, click **More**, then **Duplicate**.</span>-->
-   La visualizzazione è duplicata e il nome della nuova visualizzazione segue il seguente schema: `Original view's name (Copy)`. La nuova scheda vista viene visualizzata alla fine di tutte le schede vista.
+     ![Altro menu sulla visualizzazione con opzioni](assets/more-menu-for-views-expanded-with-delete-option.png)
+
+     La visualizzazione è duplicata e il nome della nuova visualizzazione segue il seguente schema: `Original view's name (Copy)`. La nuova scheda vista viene visualizzata alla fine di tutte le schede vista.

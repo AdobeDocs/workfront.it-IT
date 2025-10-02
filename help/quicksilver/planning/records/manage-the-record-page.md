@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2458'
 ht-degree: 1%
 
 ---
@@ -342,12 +342,12 @@ Tutti i campi del record connesso vengono visualizzati nella vista a tabella del
 
    * <span class="preview">Fare clic su **Connetti record** nell&#39;angolo superiore destro della pagina dei record connessi per connettere i progetti esistenti.</span>
    * <span class="preview">Modifica informazioni progetto in linea nella tabella.</span>
-   * <span class="preview">Fai clic su **Nuova riga** per creare un progetto senza modello.</span>
+   * <span class="preview">Fare clic su **Nuova riga** per creare un progetto senza modello. Il nuovo progetto è immediatamente connesso al record corrente.</span>
 
      Per ulteriori informazioni, vedere [Creare oggetti Workfront da Workfront Planning durante la connessione ai record](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
    * <span class="preview">Passa il puntatore del mouse su un progetto e fai clic sul menu **Altro** [Altro menu](assets/more-menu.png), quindi fai clic su uno dei seguenti elementi:</span>
       * <span class="preview">**Elimina** per eliminare il progetto. Quando si elimina un progetto, questo viene disconnesso dal record e spostato nel Cestino di Workfront. </span>
-      * <span class="preview">**Disconnetti** per disconnettere il progetto dal record. Disconnessione di un progetto</span>
+      * <span class="preview">**Disconnetti** per disconnettere il progetto dal record. Se si disconnette un progetto, verranno rimossi anche tutti i valori dei campi di ricerca dal record corrente. </span>
 
 1. (Facoltativo) Fare doppio clic sul nome della scheda della pagina Record collegati
 

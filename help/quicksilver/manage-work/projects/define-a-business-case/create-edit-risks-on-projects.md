@@ -6,9 +6,9 @@ description: I rischi sono eventi o fattori possibili che impediscono a un proge
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1080'
 ht-degree: 1%
 
 ---
@@ -115,7 +115,7 @@ Oltre a creare e modificare i rischi nel caso di business, puoi farlo utilizzand
 
    ![Sezione Rischi dell&#39;attività](assets/risks-section-on-project-2022.png)
 
-1. Fai clic su **Inizia ad aggiungere rischi** e crea rischi modificando le informazioni in linea.
+1. Fai clic su **Aggiungi altri rischi** e crea rischi modificando le informazioni in linea.
 
    Oppure
 
@@ -131,15 +131,11 @@ Oltre a creare e modificare i rischi nel caso di business, puoi farlo utilizzand
 
    * **Probabilità**: indicare la probabilità che il rischio si verifichi come valore percentuale.
    * **Costo potenziale**: indicare il costo stimato nel caso in cui si verifichi il rischio.
-   * **Costo di mitigazione**: indicare il costo del piano di mitigazione che è necessario implementare per evitare che si verifichi il rischio.
    * **Costo effettivo**: indicare il costo effettivo del rischio se si è verificato il rischio.
+   * **Costo di mitigazione**: indicare il costo del piano di mitigazione che è necessario implementare per evitare che si verifichi il rischio.
    * **Piano di mitigazione**: aggiornare la descrizione del piano per mitigare il rischio.
 
-1. (Condizionale) Fai clic su **Invio** se stai creando il rischio in linea.
-
-   Oppure
-
-   Fai clic su **Salva** se stai modificando le informazioni nella casella **Nuovo rischio**.
+1. Fai clic su **Salva**.
 
 1. (Facoltativo) Selezionare un altro **Stato** per il rischio, nel menu a discesa **Stato**, quando si applica la visualizzazione **Standard** per l&#39;elenco dei rischi.
 
@@ -167,14 +163,14 @@ Per modificare i rischi:
 
 1. Se hai fatto clic su **Modifica**, verrà visualizzata la casella **Modifica rischio** o **Modifica rischi**.
 
-   Prendi in considerazione la modifica dei seguenti campi:
+   Aggiorna i campi seguenti:
 
    * **Descrizione**: modificare la descrizione del rischio.
    * **Tipo di rischio**: aggiorna la categoria in cui rientra il rischio.
    * **Probabilità**: indicare la probabilità che il rischio si verifichi come valore percentuale.
    * **Costo potenziale**: indicare il costo stimato nel caso in cui si verifichi il rischio.
-   * **Costo di mitigazione**: indicare il costo del piano di mitigazione che è necessario implementare per evitare che si verifichi il rischio.
    * **Costo effettivo**: indicare il costo effettivo del rischio se si è verificato il rischio.
+   * **Costo di mitigazione**: indicare il costo del piano di mitigazione che è necessario implementare per evitare che si verifichi il rischio.
    * **Piano di mitigazione**: aggiornare la descrizione del piano per mitigare il rischio.
 
 1. Fai clic su **Salva**.

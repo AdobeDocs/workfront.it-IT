@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2764'
 ht-degree: 0%
 
 ---
@@ -235,7 +235,7 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 
    <span class="preview">![Barra a sinistra nella visualizzazione della sequenza temporale da ridimensionare](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
 
-1. <span class="preview">Fare clic su una barra dei record, quindi trascinarla e rilasciarla in un&#39;altra posizione per aggiornare la cronologia e le date. Le date di inizio e fine del record vengono aggiornate automaticamente.</span>
+1. <span class="preview">Fare clic su una barra dei record, quindi trascinarla in un&#39;altra posizione per aggiornarne la cronologia e le date. Le date di inizio e fine del record vengono aggiornate automaticamente.</span>
 
 1. Fare clic sulla barra di un record per aprire l&#39;area dei dettagli e modificare tutti i campi.
 
@@ -250,7 +250,7 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 
    <span class="preview">![Barra a sinistra nella visualizzazione calendario per ridimensionare](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
 
-1. <span class="preview">Fare clic su una barra dei record, quindi trascinarla e rilasciarla in un&#39;altra posizione per aggiornare la cronologia e le date. Le date di inizio e fine del record vengono aggiornate automaticamente.</span>
+1. <span class="preview">Fare clic su una barra dei record, quindi trascinarla in un&#39;altra posizione per aggiornarne la cronologia e le date. Le date di inizio e fine del record vengono aggiornate automaticamente.</span>
 
 1. Fare clic sulla barra di un record per aprire l&#39;area dei dettagli e modificare tutti i campi.
 
@@ -378,11 +378,11 @@ Per ulteriori informazioni, vedere [Gestire le connessioni record dagli oggetti 
 
 <div class="preview">
 
-## Modificare le informazioni su campi a selezione singola o multipla
+## Modifica le impostazioni dei campi a selezione singola o multipla durante l’aggiornamento dei relativi valori
 
 <!--some of this information is also available in Edit fields article - update both when necessary-->
 
-Quando si modificano le informazioni in un campo a selezione singola o multipla, è possibile aggiungere nuove scelte al campo senza dover modificare il campo.
+Quando si aggiornano le informazioni in un campo a selezione singola o multipla, è possibile aggiungere nuove scelte al campo senza dover modificare il campo.
 
 >[!IMPORTANT]
 >

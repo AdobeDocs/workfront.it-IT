@@ -6,9 +6,9 @@ description: È possibile modificare le informazioni relative ai programmi creat
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1070'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 È possibile modificare le informazioni relative ai programmi creati dall&#39;utente o da altri utenti se questi li hanno condivisi con l&#39;utente.
 
-È possibile modificare un programma nella pagina del programma oppure modificare i programmi in un elenco.
+È possibile modificare un programma nella pagina del programma oppure modificare uno o più programmi in blocco in un elenco.
 
 ## Requisiti di accesso
 
@@ -36,7 +36,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
-   <td> <p>Nuovo: [!UICONTROL Standard] </p><p>Oppure </p><p>Corrente: [!UICONTROL Plan] </p> </td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Livello di accesso</td> 
@@ -188,4 +189,21 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Dopo aver salvato le modifiche, il commento aggiunto viene visualizzato nella scheda [!UICONTROL Aggiornamenti] del programma e invia un&#39;e-mail agli utenti inclusi nel programma.
 1. Fai clic su **[!UICONTROL Salva]**
+
+
+## Modificare i programmi in blocco
+
+Quando si modificano programmi in blocco, tutte le informazioni aggiornate vengono applicate a tutti i programmi selezionati, ignorando le informazioni originali di ciascun programma.
+
+1. Passare a un elenco di programmi e selezionare diversi programmi.
+1. Fai clic sull&#39;icona **Modifica** ![Modifica](assets/edit-icon.png) nella parte superiore dell&#39;elenco.
+
+   Viene visualizzata la casella **Modifica programmi**.
+1. Aggiornare le informazioni nelle sezioni seguenti:
+
+   * Panoramica
+   * Moduli personalizzati
+   * Commento
+
+   Per ulteriori informazioni, vedere la sezione [Modifica programmi](#edit-programs-1) in questo articolo, a partire dal passaggio 4. <!--ensure this stays accurate-->
 

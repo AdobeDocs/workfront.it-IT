@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1971'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,11 @@ ht-degree: 0%
 
 # Condividere le visualizzazioni
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--take out preview and production references at production-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -38,7 +40,7 @@ This article describes how you can share a view with others. For information abo
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.
++++ Espandere per visualizzare i requisiti di accesso. 
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
@@ -141,9 +143,13 @@ This article describes how you can share a view with others. For information abo
 
    Verrà aperta la pagina del tipo di record.
 
-1. Nella scheda Visualizza eseguire una delle operazioni seguenti:
+1. Dalla scheda della vista, effettuare una delle seguenti operazioni:
 
-   * Passa il puntatore del mouse sul nome della scheda della visualizzazione che desideri condividere e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Condividi**.
+   * A seconda dell’ambiente da cui accedi alla vista, effettua le seguenti operazioni:
+
+      * Nell&#39;ambiente di produzione, passa il puntatore del mouse sul nome della scheda della visualizzazione che desideri condividere e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Condividi**.
+
+      * <span class="preview"> Nell&#39;ambiente di anteprima, fare clic sulla scheda della visualizzazione, passare il puntatore del mouse sulla visualizzazione nel menu a discesa, fare clic sul menu **Altro** ![Altro menu](assets/more-menu.png), quindi fare clic su **Condividi**.</span>
 
      ![Altro menu per una visualizzazione](assets/more-menu-for-views-expanded-with-share-option.png)
 
@@ -169,7 +175,7 @@ This article describes how you can share a view with others. For information abo
    ![Condivisione di una visualizzazione con gruppi](assets/sharing-a-view-ui-with-groups.png)
 
 1. Seleziona uno dei seguenti livelli di autorizzazione dal menu a discesa:
-   * Visualizza
+   * Visualizzazione
    * Gestisci
 
      Per informazioni sui livelli di autorizzazione e sulle azioni che gli utenti possono eseguire per ogni livello, vedere [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
@@ -272,10 +278,8 @@ Gli utenti che accedono a un collegamento a una visualizzazione per la quale non
 1. (Condizionale) Se sei il manager di una visualizzazione, potresti ricevere una richiesta da un altro utente per accedere alla visualizzazione nelle seguenti aree:
 
    * Una notifica in-app
-
      ![Notifica in-app per la richiesta di accesso per la visualizzazione](assets/in-app-notification-for-access-request-for-view.png)
    * Una notifica e-mail
-
      ![Notifica in-app per la richiesta di accesso per la visualizzazione](assets/in-app-notification-for-access-request-for-view.png)
 1. (Condizionale) Dall’area di notifica in Workfront, fai clic sulla notifica in-app.
 Oppure

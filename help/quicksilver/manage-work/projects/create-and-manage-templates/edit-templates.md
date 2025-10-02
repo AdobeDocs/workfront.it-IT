@@ -6,9 +6,9 @@ description: È possibile modificare i modelli di progetto per riflettere le mod
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 221113266624a94fbecd04af46a5c602a4d33334
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '5658'
+source-wordcount: '5655'
 ht-degree: 2%
 
 ---
@@ -652,8 +652,6 @@ Editing templates in bulk differs depending on which environment you are using.
 
 *****************and hide the first line below************ -->
 
-Per modificare i modelli in blocco:
-
 {{step1-to-templates}}
 
 1. Seleziona diversi modelli nell’elenco.
@@ -671,12 +669,11 @@ Per modificare i modelli in blocco:
 
    * Panoramica
    * Finanz
-   * Portfolio
-   * Impostazioni
-   * Accesso
    * Moduli personalizzati
-   * Attività
-   * Problemi
+   * Impostazioni modello
+   * Impostazioni attività
+   * Impostazioni problema
+   * Accesso
    * Commento
 
 1. Fai clic su **Salva**.

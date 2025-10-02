@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 3%
@@ -117,7 +117,8 @@ Per ulteriori informazioni su come associare un percorso milestone a un progetto
    </table>
 
 1. Fai clic su **Milestones** nel pannello a sinistra.
-1.Nell&#39;ambiente di produzione, fare clic su **Aggiungi milestone** per aggiungere le milestone al percorso.
+
+1. Nell&#39;ambiente di produzione, fare clic su **Aggiungi milestone** per aggiungere le milestone al percorso.
    <span class="preview">Nell&#39;ambiente di anteprima, fare clic su **Nuova riga** per aggiungere le milestone al percorso.</span>
 1. Aggiorna le seguenti informazioni:
 
