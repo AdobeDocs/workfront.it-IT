@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: de161674-5b61-4853-a16a-c70db10a1c95
-source-git-commit: 7eb5b40c92ed743a665f6c38ce6d09db7d9a2ddb
+source-git-commit: 8c5f98bc48b644d8d15c320b2a6ca709eda775b7
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -40,3 +40,4 @@ Per ulteriori informazioni su come creare, inviare o inviare richieste tramite e
 * [Eliminare una bozza di richiesta](../../../manage-work/requests/create-requests/delete-request-draft.md)
 * [Compilazione automatica di una richiesta da dati precedenti](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
 * [Compilazione automatica di una richiesta tramite prompt o documenti](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
+* [Creare viste nell’area Richieste](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)

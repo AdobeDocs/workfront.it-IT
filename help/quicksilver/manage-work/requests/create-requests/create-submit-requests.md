@@ -6,7 +6,7 @@ description: Il lavoro pianificato è rappresentato in Adobe Workfront dai proge
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 71149623643b1f08b88fdf8f5aaeb5d9b284d53f
+source-git-commit: 70f6200fc94bc923c651d614dfd0aba68ceda334
 workflow-type: tm+mt
 source-wordcount: '2840'
 ht-degree: 1%
@@ -155,7 +155,7 @@ Per creare una richiesta nell’app web Workfront:
    Fai clic su uno dei percorsi o moduli della coda di richieste di Workfront oppure cercalo, quindi fai clic su di esso quando viene visualizzato nell’elenco.
 1. <span class="preview">(Condizionale) Se si è passati alla nuova esperienza, selezionare uno dei percorsi o moduli della coda di richieste di Workfront oppure fare clic sulla barra di ricerca. </span>
 
-   <span class="preview">Quando si fa clic sulla barra di ricerca, viene visualizzato un elenco a discesa che mostra le code e i moduli utilizzati più di recente. Selezionarne uno dall&#39;elenco oppure iniziare a digitare e selezionare la coda o l&#39;elenco quando viene visualizzato.</span>
+   <span class="preview">Quando si fa clic sulla barra di ricerca, viene visualizzato un elenco a discesa che mostra le code e i moduli utilizzati più di recente. Selezionarne uno dall&#39;elenco oppure iniziare a digitare e selezionare la coda o il modulo quando viene visualizzato.</span>
 
    >[!NOTE]
    >
