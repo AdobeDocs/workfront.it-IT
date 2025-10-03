@@ -6,9 +6,9 @@ description: È possibile modificare le informazioni relative ai programmi creat
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1089'
 ht-degree: 1%
 
 ---
@@ -186,6 +186,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Aggiungi un commento nel campo **[!UICONTROL Aggiungi un aggiornamento a ciascun programma]**.
 1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Persone]** per aggiungere un utente o un team al commento.
 1. (Facoltativo) Seleziona [!UICONTROL **Privato per la mia azienda**] per bloccare il commento e renderlo privato solo per gli utenti della tua azienda.
+
+   >[!TIP]
+   >
+   >L&#39;impostazione **Privato per la mia società** è disponibile solo quando il tuo profilo Workfront è associato a una società.
+
 
    Dopo aver salvato le modifiche, il commento aggiunto viene visualizzato nella scheda [!UICONTROL Aggiornamenti] del programma e invia un&#39;e-mail agli utenti inclusi nel programma.
 1. Fai clic su **[!UICONTROL Salva]**

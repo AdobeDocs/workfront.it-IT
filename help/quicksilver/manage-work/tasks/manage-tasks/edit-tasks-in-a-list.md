@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Modificare le attività in un elenco
-description: È possibile modificare le informazioni sulle attività in un elenco di attività modificando i campi visualizzati nell'elenco.
+description: È possibile modificare le informazioni sulle attività in un elenco di attività modificando i campi visualizzati nell'elenco. È necessario definire la Modalità pianificazione in un elenco di attività per indicare come si desidera salvare le modifiche in Workfront. È possibile salvare le modifiche manualmente o automaticamente.
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 42243c1f09b9d7eaa6705a0722fd3650bbc95266
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2822'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 2%
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++ 
 
 ## Considerazioni sulla modifica delle attività in un elenco {#considerations-about-editing-tasks-in-a-list}
 
@@ -84,15 +84,20 @@ Quando si modificano attività in un elenco, tenere presente quanto segue:
      >
      >Per impostazione predefinita, Workfront salva automaticamente le modifiche apportate alle attività nella sezione Attività secondarie o in un report attività.
 
-* È possibile controllare quando Workfront salva le modifiche apportate alle attività in un elenco. Le modifiche possono essere salvate automaticamente o manualmente.
+* È possibile controllare quando Workfront salva le modifiche apportate alle attività in un elenco definendo la Modalità pianificazione prima di iniziare a modificare le attività.
 
-  Per informazioni sulla configurazione del salvataggio delle modifiche apportate alle attività in un elenco da parte di Workfront, vedere la sezione [Selezionare un&#39;opzione di salvataggio durante la modifica delle attività in un elenco](#select-a-save-option-when-editing-tasks-in-a-list) in questo articolo.
+  Puoi scegliere se salvare le modifiche apportate da Workfront nel modo seguente:
+
+      * Automaticamente, dopo ogni modifica
+     * Manualmente, solo dopo aver fatto clic su Salva.
+  
+  Per informazioni su come configurare quando Workfront salva le modifiche apportate alle attività in un elenco, vedere la sezione [Modifica modalità pianificazione prima di modificare le attività in un elenco](#modify-plan-mode-before-editing-tasks-in-a-list) in questo articolo.
 
 * Gli altri utenti devono aggiornare le proprie pagine prima di poter visualizzare gli aggiornamenti apportati a un&#39;attività.
 
-## Selezionare un&#39;opzione di salvataggio durante la modifica delle attività in un elenco {#select-a-save-option-when-editing-tasks-in-a-list}
+## Modifica modalità pianificazione prima di modificare le attività in un elenco
 
-È possibile decidere se le modifiche apportate alle attività in un elenco vengono salvate automaticamente quando si verificano oppure se si desidera salvare manualmente ogni modifica.
+È possibile decidere se le modifiche apportate alle attività in un elenco vengono salvate automaticamente quando si verificano oppure se si desidera salvare manualmente ogni modifica. A tale scopo, è necessario modificare la Modalità pianificazione in un elenco di attività prima di modificare le attività.
 
 >[!IMPORTANT]
 >
@@ -100,17 +105,17 @@ Quando si modificano attività in un elenco, tenere presente quanto segue:
 
 Quando si salvano le modifiche in un elenco per un progetto il cui Tipo di aggiornamento è selezionato Automatico o Automatico e Al momento della modifica, Workfront aggiorna la sequenza temporale del progetto, insieme a tutte le dipendenze all&#39;interno del progetto e tra progetti. I calcoli della sequenza temporale possono richiedere molto tempo se il progetto è di grandi dimensioni o se vi sono molte dipendenze. Alcuni metodi di modifica di un elenco di attività possono essere più veloci di altri, a seconda del metodo selezionato per salvare le modifiche.
 
-È possibile controllare quando Workfront salva le modifiche apportate alle attività in un elenco. Esistono i seguenti scenari: 
+È possibile controllare quando Workfront salva le modifiche apportate alle attività in un elenco. Esistono i seguenti scenari:
 
 * Workfront può salvare automaticamente le modifiche dopo ogni aggiornamento.
 
-  Per informazioni, vedere la sezione [Modificare le attività in un elenco e salvare automaticamente le modifiche](#edit-tasks-in-a-list-and-automatically-save-changes) in questo articolo.
+  Per informazioni, vedere la sezione [Impostare la modalità di pianificazione per salvare automaticamente le modifiche](#set-the-plan-mode-to-automatically-save-changes) in questo articolo.
 
 * È possibile controllare quando si applicano più modifiche contemporaneamente utilizzando manualmente un pulsante Salva.
 
-  Per informazioni, vedere la sezione [Modificare le attività in un elenco e salvare manualmente le modifiche](#edit-tasks-in-a-list-and-manually-save-changes) in questo articolo.
+  Per informazioni, vedere la sezione [Impostare la modalità di pianificazione per salvare manualmente le modifiche](#set-the-plan-mode-to-manually-save-changes) in questo articolo.
 
-### Modifica le attività in un elenco e salva automaticamente le modifiche {#edit-tasks-in-a-list-and-automatically-save-changes}
+### Imposta la modalità pianificazione per salvare automaticamente le modifiche
 
 >[!TIP]
 >
@@ -192,7 +197,7 @@ Per modificare le attività in un elenco e salvare automaticamente le modifiche:
     </tbody> 
    </table>
 
-### Modificare le attività in un elenco e salvare manualmente le modifiche {#edit-tasks-in-a-list-and-manually-save-changes}
+### Imposta la modalità pianificazione per salvare manualmente le modifiche {#edit-tasks-in-a-list-and-manually-save-changes}
 
 È possibile salvare manualmente le modifiche apportate alle attività in un elenco. Quando si salvano le modifiche in questo modo, è possibile annullarle prima di salvarle.
 

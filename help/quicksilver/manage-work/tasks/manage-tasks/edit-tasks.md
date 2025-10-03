@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '3810'
+source-wordcount: '3829'
 ht-degree: 4%
 
 ---
@@ -632,6 +632,10 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
 
    * Aggiungi utenti o team all&#39;aggiornamento nell&#39;area **Assegna tag a persone** o utilizza @ per includerli nell&#39;aggiornamento.
    * Seleziona la casella di controllo **Privato per la mia azienda** per mantenere l&#39;aggiornamento privato per gli utenti della tua azienda.
+
+     >[!TIP]
+     >
+     >L&#39;impostazione **Privato per la mia società** è disponibile solo quando il tuo profilo Workfront è associato a una società.
 1. Fai clic su **Salva**.
 
 ## Modificare un’attività nell’intestazione dell’attività (limitato)

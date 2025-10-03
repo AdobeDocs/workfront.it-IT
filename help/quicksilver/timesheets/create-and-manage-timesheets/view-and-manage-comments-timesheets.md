@@ -6,9 +6,9 @@ description: È possibile aggiungere commenti alle schede orario, agli elementi 
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -96,6 +96,10 @@ Puoi fare commenti generali sulla scheda orario. Commentare la scheda attività 
 1. Inizia ad aggiungere nuovi commenti o rispondi a quelli esistenti, come descritto in [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Facoltativo) Aggiungi persone o team nel campo **Assegna tag a persone o team** per includerne altri nell&#39;aggiornamento. Per ulteriori informazioni, consulta [Assegnare tag ad altri in occasione di aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 1. (Facoltativo) Seleziona l&#39;opzione **Privato per la mia azienda** se desideri che solo le persone della tua azienda visualizzino l&#39;aggiornamento.
+
+   >[!TIP]
+   >
+   >L&#39;impostazione **Privato per la mia società** è disponibile solo quando il tuo profilo Workfront è associato a una società.
 1. Digita il commento, quindi fai clic su **Invia**.
 
    Il commento viene visualizzato nella sezione [!UICONTROL Aggiornamenti] della scheda orario, nella scheda Commenti.

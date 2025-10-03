@@ -7,9 +7,9 @@ description: Adobe Workfront consente di inviare in modo rapido e semplice messa
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: d16495a0686ae5e54d16b108c69645f8666b46bd
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,10 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. (Facoltativo) Seleziona **[!UICONTROL Privato per la mia azienda]** per rendere questo messaggio visibile solo agli altri utenti della tua azienda.
 
+   >[!TIP]
+   >
+   >L&#39;impostazione [!UICONTROL **Privato per la mia società**] è disponibile solo quando il tuo profilo Workfront è associato a una società.
+
 1. Fai clic su **[!UICONTROL Aggiorna].**
 Il messaggio viene pubblicato nella parte superiore dell&#39;elenco dei messaggi nella scheda **[!UICONTROL Aggiornamenti]** della pagina del profilo dell&#39;utente.
 
@@ -89,5 +93,9 @@ Questa opzione è disponibile solo se si dispone di una licenza Standard, Pianif
 
 1. (Facoltativo) Fai clic su **Assegna tag a persone** per assegnare tag ad altri utenti nel messaggio. Per ulteriori informazioni, consulta [Assegnare tag ad altri in occasione di aggiornamenti](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 1. (Facoltativo) Seleziona **[!UICONTROL Privato per la mia azienda]** per rendere questo messaggio visibile solo agli altri utenti della tua azienda.
+
+   >[!TIP]
+   >
+   >L&#39;impostazione [!UICONTROL **Privato per la mia società**] è disponibile solo quando il tuo profilo Workfront è associato a una società.
 1. Fai clic su [!UICONTROL **Invia**].
 Il messaggio viene pubblicato nella parte superiore dell&#39;elenco dei messaggi nella scheda **[!UICONTROL Aggiornamenti]** della pagina del profilo di ogni utente taggato.
