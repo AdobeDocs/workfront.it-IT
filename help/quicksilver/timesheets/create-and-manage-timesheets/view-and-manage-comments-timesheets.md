@@ -6,7 +6,7 @@ description: È possibile aggiungere commenti alle schede orario, agli elementi 
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: ea0ae13abe9373bef7a1d146ca1951c8c383f994
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 0%
@@ -100,6 +100,7 @@ Puoi fare commenti generali sulla scheda orario. Commentare la scheda attività 
    >[!TIP]
    >
    >L&#39;impostazione **Privato per la mia società** è disponibile solo quando il tuo profilo Workfront è associato a una società.
+
 1. Digita il commento, quindi fai clic su **Invia**.
 
    Il commento viene visualizzato nella sezione [!UICONTROL Aggiornamenti] della scheda orario, nella scheda Commenti.
