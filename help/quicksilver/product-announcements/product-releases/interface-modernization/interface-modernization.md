@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
+source-git-commit: 2d7022eae32d3266966ef6f424b1cff176622f86
 workflow-type: tm+mt
 source-wordcount: '8402'
 ht-degree: 0%
@@ -240,7 +240,7 @@ Per informazioni, vedere [Sostituire le tariffe di fatturazione dei ruoli a live
 
 ### Aggiornamenti dell’interfaccia per un elenco o un rapporto di progetto quando si applica la vista Milestone
 
-**Versione di anteprima: 2 ottobre 2025; versione di produzione: a partire dalla settimana del 9 ottobre 2025**
+**Versione di anteprima: 2 ottobre 2025; versione di produzione: a partire dalla settimana del 6 ottobre 2025**
 
 Abbiamo aggiornato l’aspetto di un elenco di progetti o di un rapporto quando applichi loro la vista Milestone.
 
