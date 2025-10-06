@@ -6,9 +6,9 @@ description: Puoi configurare un progetto per consentire agli utenti di aggiunge
 author: Alina, Courtney
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
+source-git-commit: bca543ad2ee8ead26cfa662900eb513af36f743c
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '812'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Per configurare un progetto in modo che gli utenti possano aggiungere problemi a
 >* Workfront consente di inviare un messaggio e-mail univoco per ogni coda di richieste in tutti i cluster. Se scegli di disabilitare la coda di richieste, mantieni l’indirizzo e-mail creato finché è ancora nella casella Indirizzo e-mail di assegnazione. Se scegli di interrompere l’uso dell’e-mail di assegnazione, devi eliminarla dal campo E-mail di assegnazione in modo che possa essere utilizzata in futuro.
 >
 >* Se la coda di richieste ha più argomenti della coda o gruppi di argomenti, Workfront selezionerà in modo casuale l’argomento della coda a cui andranno le richieste inviate via e-mail, rendendo difficile la gestione di queste ultime.
->  &#x200B;>È consigliabile che il progetto configurato per la ricezione di richieste tramite e-mail non contenga più di un argomento della coda. Se le richieste inviate sono destinate a risorse o progetti diversi, è necessario indirizzarle o spostarle manualmente, dopo l’invio.
+>  >È consigliabile che il progetto configurato per la ricezione di richieste tramite e-mail non contenga più di un argomento della coda. Se le richieste inviate sono destinate a risorse o progetti diversi, è necessario indirizzarle o spostarle manualmente, dopo l’invio.
 
 1. Vai al progetto che desideri abilitare per ricevere i problemi tramite e-mail.
 1. Fai clic su **Dettagli coda** nel pannello a sinistra.
@@ -119,6 +119,11 @@ Quando un utente di Workfront invia un’e-mail a Workfront, si verificano le se
 * La riga Oggetto dell’e-mail diventa il Nome del problema.
 * Il corpo dell’e-mail diventa la Descrizione del problema.
 * Se all’e-mail sono allegati dei documenti, questi saranno allegati al problema in Workfront.
+
+  >[!NOTE]
+  >
+  > I file MSG non sono supportati e non verranno allegati al problema in Workfront.
+
 * L’utente che invia l’e-mail diventa il contatto principale del nuovo problema in Workfront.
 * Il corpo del testo dell’e-mail non può superare i 4.000 caratteri.
 * Gli allegati e-mail non possono superare i 7 MB in totale.
