@@ -79,7 +79,7 @@ Per configurare un progetto in modo che gli utenti possano aggiungere problemi a
 >* Workfront consente di inviare un messaggio e-mail univoco per ogni coda di richieste in tutti i cluster. Se scegli di disabilitare la coda di richieste, mantieni l’indirizzo e-mail creato finché è ancora nella casella Indirizzo e-mail di assegnazione. Se scegli di interrompere l’uso dell’e-mail di assegnazione, devi eliminarla dal campo E-mail di assegnazione in modo che possa essere utilizzata in futuro.
 >
 >* Se la coda di richieste ha più argomenti della coda o gruppi di argomenti, Workfront selezionerà in modo casuale l’argomento della coda a cui andranno le richieste inviate via e-mail, rendendo difficile la gestione di queste ultime.
->  >È consigliabile che il progetto configurato per la ricezione di richieste tramite e-mail non contenga più di un argomento della coda. Se le richieste inviate sono destinate a risorse o progetti diversi, è necessario indirizzarle o spostarle manualmente, dopo l’invio.
+>  &#x200B;>È consigliabile che il progetto configurato per la ricezione di richieste tramite e-mail non contenga più di un argomento della coda. Se le richieste inviate sono destinate a risorse o progetti diversi, è necessario indirizzarle o spostarle manualmente, dopo l’invio.
 
 1. Vai al progetto che desideri abilitare per ricevere i problemi tramite e-mail.
 1. Fai clic su **Dettagli coda** nel pannello a sinistra.
