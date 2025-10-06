@@ -6,9 +6,9 @@ description: È possibile aggiornare un progetto, un'attività o un problema esi
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 297eb1c4-ee9f-4bb3-a412-18f23c74b0eb
-source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
+source-git-commit: 793c8c940c8cb7ac53169edf21ddf28af2554120
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Microsoft [È in corso la disabilitazione del supporto per i token online di Exchange legacy](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), attualmente utilizzati dal componente aggiuntivo di Workfront Outlook per l&#39;autenticazione. Questa modifica di Microsoft ha già iniziato a interessare i clienti e continuerà a essere implementata in più fasi fino a ottobre 2025.
+>[Microsoft ha disabilitato il supporto per i token online di Exchange legacy](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), utilizzati dal componente aggiuntivo di Workfront Outlook per l&#39;autenticazione. Questa modifica apportata da Microsoft è stata implementata in più fasi ed è stata completata il 1° ottobre 2025.
 >
->* **Dopo la completa disattivazione di questi token da parte di Microsoft, l&#39;integrazione di Workfront per Microsoft Outlook non funzionerà più.**
->
->Come parte di questa modifica, Microsoft ha deciso di cambiare il modo in cui i token vengono riabilitati. Dopo il **30 giugno 2025**, gli amministratori non saranno più in grado di riabilitare i token personalmente. Solo il supporto Microsoft può concedere eccezioni. **Il 1° ottobre 2025, i token legacy verranno disattivati per tutti i tenant. Le eccezioni non verranno concesse.**
+>**Poiché Microsoft ha disabilitato questi token, l&#39;integrazione di Workfront per Microsoft Outlook non funziona più.**
 
 È possibile aggiornare un progetto, un&#39;attività o un problema esistente con le informazioni di un&#39;e-mail di [!DNL Outlook].
 
