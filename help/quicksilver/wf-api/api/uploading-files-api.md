@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 4e0b73b6-0d6d-4971-a87a-dfec85fb031a
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 2a30a58f4206d5a4455ed5939c9f3fb54cce6d29
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 0%
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 Puoi caricare i file utilizzando le API di Workfront con strumenti API, come Postman, o con semplici comandi cURL.
 
-Per caricare i documenti, vedere le istruzioni per il **caricamento di documenti** in Workfront [Comportamento Post](/help/quicksilver/wf-api/general/api-basics.md#post-behavior). Puoi inoltre utilizzare queste stesse istruzioni per le richieste cURL.
+Per caricare i documenti, vedere le istruzioni per il **caricamento di documenti** in Workfront [Comportamento post](/help/quicksilver/wf-api/general/api-basics.md#post-behavior). Puoi inoltre utilizzare queste stesse istruzioni per le richieste cURL.
 
 **Quando si utilizzano gli strumenti API per caricare i file, seguire le seguenti linee guida:**
 
 * Utilizza l’opzione dello strumento API per caricare il file. Nella schermata della richiesta è spesso presente il pulsante **Scegli file**.
 
-* Utilizza il metodo HTTP POST per effettuare la richiesta di caricamento del file.
+* Utilizza il metodo POST HTTP per effettuare la richiesta di caricamento del file.
 
 * La richiesta deve tradursi in una risposta che includa un valore per il relativo handle.
 
