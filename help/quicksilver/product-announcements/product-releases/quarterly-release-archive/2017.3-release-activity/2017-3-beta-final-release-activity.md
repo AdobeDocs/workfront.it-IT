@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 880828f4-3908-4ef0-ab1f-774f8dee72b6
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '3821'
+source-wordcount: '3791'
 ht-degree: 0%
 
 ---
@@ -207,7 +207,7 @@ Per ulteriori informazioni sull&#39;esecuzione di un report Utilizzo, vedere [Pa
 
 ## Miglioramenti dei documenti: interfaccia semplificata {#document-enhancements-streamlined-interface}
 
-L’esperienza utente per aggiungere documenti a Workfront è ora più semplice e intuitiva. Ora puoi caricare un documento dal file system, richiedere un documento o collegare un file da un’applicazione di terze parti (ad esempio Google o Dropbox), il tutto da un semplice menu a discesa. 
+L’esperienza utente per aggiungere documenti a Workfront è ora più semplice e intuitiva. Ora puoi caricare un documento dal file system, richiedere un documento o collegare un file da un’applicazione di terze parti (come Google o Dropbox), il tutto da un semplice menu a discesa. 
 
 In precedenza, queste opzioni erano disponibili avviando la finestra di dialogo Aggiungi documenti. 
 
@@ -267,10 +267,10 @@ Questo è il ruolo predefinito a cui vengono assegnati gli utenti su una bozza q
 
 ## Miglioramenti delle bozze in Workfront Proof e Workfront {#proofing-enhancements-within-both-workfront-proof-and-workfront}
 
-* [Riavvia e salta il visualizzatore di verifica video di HTML5 (scelte rapide da tastiera)](#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts)
+* [Riavvia e salta nel visualizzatore di bozze video di HTML5 (scelte rapide da tastiera)](#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts)
 * [Aggiornamenti del visualizzatore di bozze di HTML5](#html5-proofing-viewer-updates)
 
-### Riavvia e salta nel visualizzatore di verifica video di HTML5 (scelte rapide da tastiera) {#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts}
+### Riavvia e salta nel visualizzatore di verifica video HTML5 (scelte rapide da tastiera) {#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts}
 
 Nel visualizzatore di bozze di HTML5 per i video sono ora disponibili scelte rapide da tastiera che consentono di riavviare il video dall’inizio e passare alla fine.
 
@@ -278,11 +278,11 @@ Per ulteriori informazioni sulle scelte rapide da tastiera disponibili, vedere [
 
 ### Aggiornamenti del visualizzatore di bozze di HTML5 {#html5-proofing-viewer-updates}
 
-Il visualizzatore di HTML5 ora supporta le bozze statiche.
+Il visualizzatore HTML5 ora supporta le bozze statiche.
 
-Prima di questa modifica, il visualizzatore di HTML5 supportava solo bozze video. 
+Prima di questa modifica, il visualizzatore HTML5 supportava solo bozze video. 
 
-Il visualizzatore di HTML include le seguenti nuove funzionalità per la verifica del contenuto statico:
+Il visualizzatore HTML include le seguenti nuove funzionalità durante la verifica del contenuto statico:
 
 * Creare un singolo commento con markup su più pagine in visualizzazione Singola
 
@@ -297,7 +297,7 @@ Il visualizzatore di HTML include le seguenti nuove funzionalità per la verific
 * Specificare valori personalizzati nello strumento di misurazione
 * Quando si annota del testo all’interno di una bozza nel visualizzatore di bozze di Workfront Proof, è possibile includere opzioni per indicare che il testo deve essere in grassetto, in corsivo e sottolineato.
 
-Il visualizzatore di HTML5 non supporta ancora tutte le funzionalità attualmente disponibili nel visualizzatore di Flash esistente. Le seguenti funzionalità non sono attualmente disponibili ma saranno incluse in una versione futura:
+Il visualizzatore HTML5 non supporta ancora tutte le funzionalità attualmente disponibili nel visualizzatore Flash esistente. Le seguenti funzionalità non sono attualmente disponibili ma saranno incluse in una versione futura:
 
 * Supporto di file rich media
 * Modalità di confronto (video e statica)
@@ -307,9 +307,9 @@ Il visualizzatore di HTML5 non supporta ancora tutte le funzionalità attualment
 * Indicatore di presenza che mostra gli utenti che stanno attualmente lavorando sulla bozza
 * Condividi bozze
 
-Per ulteriori informazioni sulla verifica delle bozze statiche nel visualizzatore di HTML 5, consulta .
+Per ulteriori informazioni sulla verifica delle bozze statiche nel visualizzatore HTML5, consulta .
 
-In qualità di amministratore di Workfront in Workfront Proof, puoi determinare se gli utenti dell’organizzazione hanno accesso al nuovo visualizzatore di bozze HTML 5 per le bozze video.
+In qualità di amministratore di Workfront in Workfront Proof, puoi determinare se gli utenti dell’organizzazione hanno accesso al nuovo visualizzatore di bozze di HTML5 per le bozze video.
 
 ## Nuova riprogettazione del diagramma di Gantt {#new-gantt-chart-redesign}
 
@@ -431,9 +431,9 @@ Puoi installare questa funzionalità quando aggiorni l’app mobile Workfront. L
 
 >[!NOTE]
 >
->L’integrazione dello Slack non è attualmente disponibile. Sarà disponibile per l’utilizzo con il tuo ambiente di produzione a novembre 2017.
+>L’integrazione con Slack non è attualmente disponibile. Sarà disponibile per l’utilizzo con il tuo ambiente di produzione a novembre 2017.
 
-Stiamo lanciando una nuova integrazione tra Workfront e Slack. Se la tua organizzazione ha già utilizzato Slack per le comunicazioni, ora puoi integrarlo con Workfront ed eseguire azioni comuni di Workfront senza uscire dai canali di comunicazione di Slack. Ora puoi eseguire le seguenti azioni dall’account di Slack:
+Stiamo lanciando una nuova integrazione tra Workfront e Slack. Se la tua organizzazione ha già utilizzato Slack per le comunicazioni, ora puoi integrarlo con Workfront ed eseguire azioni comuni di Workfront senza uscire dai canali di comunicazione in Slack. Ora puoi eseguire le seguenti azioni dal tuo account Slack:
 
 * Cerca un elemento in Workfront
 * Accedere agli elenchi di lavoro e di approvazione
@@ -452,8 +452,6 @@ Sono stati apportati i seguenti miglioramenti al componente aggiuntivo Workfront
 
 * Aggiungere un’attività o un problema a un progetto in Workfront: ora è possibile convertire un’e-mail in un’attività o un problema in Workfront utilizzando il componente aggiuntivo Outlook 365. In questo processo, puoi specificare un progetto a cui desideri aggiungere l’attività o il problema, nonché un assegnatario e una data di scadenza. Prima di questo miglioramento, era possibile inviare una richiesta solo a una coda di richieste o aggiungere un’attività personale all’elenco Lavori in Outlook 365. 
 * Mantenere un collegamento agli oggetti di Workfront nell&#39;e-mail originale convertito in attività, problemi o richieste: quando si converte un messaggio e-mail da Outlook 365 a un&#39;attività, un problema o una richiesta, Outlook 365 mantiene un collegamento all&#39;attività o al problema convertito da tale messaggio e-mail nell&#39;e-mail originale. Prima di questa modifica, in Outlook non era indicato se un messaggio e-mail fosse stato convertito in un’attività o inviato come richiesta. 
-
-  Per ulteriori informazioni sulla conversione di un messaggio e-mail in un&#39;attività o un problema da Outlook 365, vedere [Aggiungere un messaggio e-mail di Outlook a un progetto come attività o problema](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md).
 
 ## Modifiche API {#api-changes}
 

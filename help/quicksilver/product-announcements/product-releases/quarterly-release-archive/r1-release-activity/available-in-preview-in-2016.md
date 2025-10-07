@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,6 @@ Per ulteriori informazioni sulla configurazione del modello di layout, vedere [C
 
 È possibile utilizzare Workfront da Outlook per Office 365, come descritto nelle sezioni seguenti:
 
-* [Configura Adobe Workfront per Outlook](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
 * &quot;Aggiornamento di un elemento esistente da un messaggio e-mail con Outlook 365&quot;
 
 ## Riordinare le colonne in qualsiasi elenco mediante trascinamento della selezione
@@ -98,4 +97,4 @@ Prima di questa modifica, era possibile concedere l’accesso solo ai gruppi.
 
 **Componente aggiuntivo disponibile per il download: aprile 2016**
 
-L’estensione Workfront per Adobe Creative Cloud è progettata per consentire il salvataggio e l’esportazione delle risorse create nella Creative Cloud in Workfront, velocizzando in tal modo il processo di approvazione e revisione.
+L’estensione Workfront per Adobe Creative Cloud è progettata per consentire di salvare ed esportare in Workfront le risorse create in Creative Cloud, velocizzando così il processo di approvazione e revisione.

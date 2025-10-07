@@ -4,9 +4,10 @@ description: Miglioramenti dell’integrazione per il quarto trimestre 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f5db7d32242ca11bf9e13dcd49b7e93369c03cab
+exl-id: 1559312e-2e51-4075-b9a9-923211abd125
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -24,5 +25,3 @@ Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rila
 >Versione di anteprima: 6 agosto 2024; versione di produzione: 6 agosto 2024
 
 L’esperienza di accesso per l’integrazione con Outlook è stata semplificata: tutti i clienti possono visualizzare lo stesso pulsante per accedere a Workfront, indipendentemente dal fatto che siano abilitati IMS. I passaggi di accesso successivi rimangono diversi per le istanze IMS e non IMS, ma la pagina iniziale è la stessa per tutti gli utenti.
-
-Per informazioni, vedere [Configurazione di Adobe Workfront per Outlook](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md).

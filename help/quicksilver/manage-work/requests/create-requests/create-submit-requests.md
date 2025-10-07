@@ -6,9 +6,9 @@ description: Il lavoro pianificato è rappresentato in Adobe Workfront dai proge
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 70f6200fc94bc923c651d614dfd0aba68ceda334
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '2840'
+source-wordcount: '2790'
 ht-degree: 1%
 
 ---
@@ -369,12 +369,6 @@ Il corpo del testo dell’e-mail viene aggiunto come descrizione della richiesta
 >La formattazione di HTML viene rimossa quando la richiesta entra in Workfront, ma le firme e il contenuto del thread di risposta esistente non vengono rimossi e vengono visualizzati nella descrizione della richiesta.
 
 Per informazioni su come consentire a una coda richieste di ricevere richieste tramite e-mail, vedere [Consentire agli utenti di inviare un problema tramite e-mail a un progetto della coda richieste](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
-
-## Creare richieste utilizzando il client di Outlook
-
-È possibile inviare richieste utilizzando il client di Outlook. Puoi creare una nuova richiesta oppure convertire un’e-mail in una richiesta.
-
-Per informazioni sull&#39;invio di richieste tramite il client Outlook, vedere l&#39;articolo [Creare una richiesta Adobe Workfront da un messaggio di posta elettronica di Outlook](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
 
 ## Creare richieste tramite l’app mobile di Workfront
 
