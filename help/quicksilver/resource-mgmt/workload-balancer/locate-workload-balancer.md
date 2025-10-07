@@ -7,9 +7,9 @@ description: Il Bilanciatore dei carichi di lavoro è disponibile per più proge
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: a63c53652491a25b909b7563990d4375d8f5885f
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 Puoi accedere al Bilanciatore dei carichi di lavoro nei seguenti modi:
 
 * Da diverse aree predefinite di Adobe Workfront
-* Aggiungendolo a una sezione personalizzata
+* Aggiungendolo al pannello sinistro come dashboard
 
 Questo articolo descrive le aree in cui è possibile accedere al Bilanciatore dei carichi di lavoro.
 
@@ -162,11 +162,11 @@ Tutte le impostazioni di visualizzazione sono disponibili per il Bilanciatore de
 
 </div>
 
-## Aggiungere il Bilanciatore dei carichi di lavoro a una sezione personalizzata
+## Aggiungere il Bilanciatore dei carichi di lavoro al pannello di sinistra come dashboard
 
-Puoi aggiungere il Bilanciatore dei carichi di lavoro a qualsiasi sezione personalizzata.
+Puoi aggiungere il Bilanciatore dei carichi di lavoro come dashboard al pannello sinistro degli oggetti che consentono la personalizzazione.
 
-La maggior parte delle personalizzazioni già applicate al Bilanciatore dei carichi di lavoro viene mantenuta quando viene aggiunta a una sezione personalizzata.
+La maggior parte delle personalizzazioni già applicate al Bilanciatore dei carichi di lavoro viene mantenuta quando lo si aggiunge al pannello sinistro.
 
 1. Accedi al Bilanciatore dei carichi di lavoro scegliendo una delle seguenti aree:
 
@@ -181,15 +181,15 @@ La maggior parte delle personalizzazioni già applicate al Bilanciatore dei cari
       (NOTE: ensure this stays correct)
       -->
 
-1. Creare una sezione personalizzata come descritto in [Creare schede o sezioni personalizzate](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) per inserire il dashboard nella scheda personalizzata.
+1. Aggiungere un dashboard al pannello di navigazione sinistro di un oggetto, come descritto in [Aggiungere un dashboard nel pannello sinistro di un oggetto o di un&#39;area di Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) per posizionare il dashboard nella scheda personalizzata.
 
-   Quando si accede al Bilanciatore dei carichi di lavoro dalla sezione personalizzata, è possibile visualizzarlo come se si stesse accedendo direttamente da una delle aree originali elencate nel passaggio 1.
+   Quando si accede al Bilanciatore dei carichi di lavoro dal dashboard, è possibile visualizzarlo come se si stesse accedendo direttamente da una delle aree originali elencate nel passaggio 1.
 
    <!--
       (NOTE: ensure this stays correct)
      -->
 
-1. (Facoltativo) Condividere la scheda personalizzata in un modello di layout come descritto in [Personalizzare il pannello sinistro utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) .
+1. (Facoltativo) Condividi il dashboard in un modello di layout come descritto in [Personalizza il pannello sinistro utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) .
 
 
 <!--

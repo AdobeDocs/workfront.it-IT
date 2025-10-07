@@ -6,7 +6,7 @@ description: È possibile condividere il Bilanciatore dei carichi di lavoro con 
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 1%
@@ -130,10 +130,10 @@ Per visualizzare le informazioni nel Bilanciatore dei carichi di lavoro da un co
 1. Effettua una delle seguenti operazioni per condividere il collegamento con altri utenti:
 
    * Incollalo in un messaggio di posta elettronica, in un messaggio di chat o in qualsiasi altra applicazione e condividilo con altri utenti.
-   * Aggiungilo a una sezione personalizzata come pagina esterna, aggiungi la sezione personalizzata al profilo di un utente o a un modello di layout, quindi condividi il modello di layout con utenti, team, mansioni o gruppi.
+   * Aggiungilo a una dashboard come pagina esterna, aggiungi la dashboard al profilo di un utente o a un modello di layout, quindi condividi il modello di layout con utenti, team, mansioni o gruppi.
 
-     Per informazioni sulla creazione di una pagina esterna, vedere [Incorporare una pagina Web esterna in un dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Per informazioni sull&#39;aggiunta di sezioni personalizzate a un modello di layout, vedere [Personalizzare il pannello sinistro utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+     Per informazioni sulla creazione di una pagina esterna, vedere [Incorporare una pagina Web esterna in un dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Per informazioni sull&#39;aggiunta di dashboard a un modello layout, vedere [Personalizzare il pannello sinistro utilizzando un modello layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
      >[!IMPORTANT]
      >
-     >Quando si aggiunge il Bilanciatore dei carichi di lavoro alla sezione personalizzata di un oggetto, le informazioni nel Bilanciatore dei carichi di lavoro non vengono filtrate dall’oggetto. Il Bilanciatore dei carichi di lavoro visualizza le informazioni filtrate dai filtri applicati originariamente.
+     >Quando aggiungi il Bilanciatore dei carichi di lavoro come dashboard al pannello sinistro di un oggetto, le informazioni nel Bilanciatore dei carichi di lavoro non vengono filtrate dall’oggetto. Il Bilanciatore dei carichi di lavoro visualizza le informazioni filtrate dai filtri applicati originariamente.

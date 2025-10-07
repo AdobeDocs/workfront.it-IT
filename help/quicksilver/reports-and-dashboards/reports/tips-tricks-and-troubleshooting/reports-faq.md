@@ -7,9 +7,9 @@ description: Domande frequenti sui rapporti
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 957c6e6955a828aa40ac996490d66e9c46f594bc
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Di seguito sono riportate le domande frequenti sui rapporti.
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.
++++ Espandere per visualizzare i requisiti di accesso. 
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -210,8 +210,7 @@ Per ulteriori informazioni sul campo **Esegui il report con i diritti di accesso
 
 Quando elimini un utente, puoi comunque accedere a tutti i rapporti creati, ma vengono eliminati anche tutti i dashboard che includevano il rapporto. Ciò significa che non è più possibile accedere ai seguenti elementi:
 
-* Dashboard contenente il report
-* Una sezione personalizzata che contiene una dashboard del report
+* Un dashboard che contiene il report, inclusi i dashboard nel pannello sinistro di un oggetto
 
 Per ulteriori informazioni sulle implicazioni dell&#39;eliminazione di un utente, vedere [Elimina utenti](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 

@@ -3,12 +3,12 @@ content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Navigazione a sinistra in [!DNL Adobe Workfront]
 description: Il pannello di navigazione sinistro in [!DNL Workfront] semplifica la navigazione nel sistema.
-author: Courtney
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 297a8bc1a59fab42d96ec3479451c2f82f5c3dc1
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1375'
 ht-degree: 1%
 
 ---
@@ -74,8 +74,8 @@ Il pannello sinistro è disponibile per i seguenti oggetti:
 
 >[!IMPORTANT]
 >
->Se nel pannello sinistro viene visualizzata una sola sezione per impostazione predefinita, ad esempio **[!UICONTROL Tutti i progetti]** nell&#39;area **[!UICONTROL Progetti]**, un amministratore di [!DNL Workfront] deve aggiungere almeno una sezione personalizzata a quest&#39;area durante la creazione di un modello di layout e assegnare l&#39;utente a tale modello prima che il pannello sinistro venga visualizzato in tale area.\
->Per informazioni su come un amministratore di [!DNL Workfront] personalizza il pannello sinistro in un modello di layout, vedere [Personalizzare il pannello sinistro utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+>Se nel pannello sinistro viene visualizzata una sola sezione per impostazione predefinita, ad esempio **[!UICONTROL Tutti i progetti]** nell&#39;area **[!UICONTROL Progetti]**, un amministratore di [!DNL Workfront] deve aggiungere almeno un dashboard a quest&#39;area durante la creazione di un modello di layout e assegnare l&#39;utente a tale modello prima che il pannello sinistro venga visualizzato in tale area.
+>>Per informazioni su come un amministratore di [!DNL Workfront] personalizza il pannello sinistro in un modello di layout, vedere [Personalizzare il pannello sinistro utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 Il pannello a sinistra è disponibile per le seguenti aree:
 
@@ -163,8 +163,8 @@ Le sezioni seguenti vengono visualizzate nel pannello a sinistra per l&#39;area 
         <td>Visualizza tutti i progetti a cui è possibile accedere. Utilizza il menu a discesa [!UICONTROL Filter] per modificare i progetti da visualizzare</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Sezioni personalizzate]</strong></td>
-        <td>È possibile visualizzare tutte le sezioni personalizzate aggiunte dall'amministratore [!DNL Workfront] al pannello sinistro per l'area [!UICONTROL Projects] nel modello di layout. Le sezioni personalizzate presentano nomi personalizzati per il tuo ambiente.</td>
+        <td><strong>[!UICONTROL Dashboards]</strong></td>
+        <td>È possibile visualizzare tutte le dashboard aggiunte dall'amministratore [!DNL Workfront] al pannello sinistro per l'area [!UICONTROL Projects] nel modello di layout. Questi dashboard hanno nomi personalizzati per il tuo ambiente.</td>
     </tr>
 </table>
 
@@ -239,14 +239,16 @@ Trovare e modificare le informazioni nel pannello a sinistra è simile per quest
 
 Per informazioni sulle sezioni disponibili per aree specifiche, vedere [[!UICONTROL Sezioni predefinite] nel pannello di navigazione a sinistra](#default-sections-in-the-left-navigation-panel).
 
-1. Fai clic sull&#39;icona **[!UICONTROL del]** menu principale![](assets/main-menu-icon-16x12.png), quindi fai clic sul nome di un oggetto per accedervi.
+{{step1-click-main-menu}}
+
+1. Fare clic sul nome di un oggetto per accedervi.
 
    Viene visualizzata la pagina oggetto.
 
 1. (Condizionale) Se hai selezionato un&#39;area contenente un elenco di oggetti, ad esempio **[!UICONTROL Progetti]** o **[!UICONTROL Portfolio]**, per accedere alla navigazione nel pannello sinistro devi effettuare le seguenti operazioni:
 
    1. Selezionare un oggetto nell&#39;elenco.
-   1. (Facoltativo) Nel pannello di navigazione a sinistra, puoi selezionare un altro oggetto, ad esempio **[!UICONTROL Attività]** o **[!UICONTROL Problemi]** all&#39;interno di un progetto, nel pannello a sinistra per accedere a un elenco di oggetti, quindi fare clic sul nome dell&#39;oggetto specifico.\
+   1. (Facoltativo) Nel pannello di navigazione a sinistra, puoi selezionare un altro oggetto, ad esempio **[!UICONTROL Attività]** o **[!UICONTROL Problemi]** all&#39;interno di un progetto, nel pannello a sinistra per accedere a un elenco di oggetti, quindi fare clic sul nome dell&#39;oggetto specifico.
 
       Viene visualizzata la pagina oggetto.
 
@@ -254,7 +256,7 @@ Per informazioni sulle sezioni disponibili per aree specifiche, vedere [[!UICONT
 
    Prima di poter modificare le informazioni, è necessario disporre delle autorizzazioni necessarie per modificare l&#39;oggetto.
 
-   ![Sezioni del pannello sinistro](assets/NWE-left-navigation-panel.png)
+   ![Sezioni del pannello sinistro](assets/left-navigation-panel.png)
 
 1. (Facoltativo) Per aggiungere un collegamento rapido al dashboard, fai clic su **[!UICONTROL Aggiungi dashboard]** nella parte inferiore del pannello sinistro, quindi effettua le seguenti operazioni:
 
@@ -267,9 +269,9 @@ Per informazioni sulle sezioni disponibili per aree specifiche, vedere [[!UICONT
 
 1. (Facoltativo) Per rimuovere un collegamento rapido a un dashboard, passa il cursore del mouse sul dashboard nell&#39;area di navigazione a sinistra, quindi fai clic sull&#39;icona **Rimuovi** ![Rimuovi icona](assets/remove-dashboard-from-left.png) quando viene visualizzata.
 
-1. (Facoltativo) Per modificare l&#39;ordine di una sezione nel pannello di sinistra, fare clic sull&#39;icona **[!UICONTROL Trascina]** ![](assets/drag-icon.png) a destra di una sezione e trascinarla verso l&#39;alto o verso il basso.
+1. (Facoltativo) Per modificare l&#39;ordine di una sezione nel pannello di sinistra, fai clic sull&#39;icona **[!UICONTROL Trascina]** ![](assets/drag-icon.png) accanto a una sezione e trascinala verso l&#39;alto o il basso.
 
-   ![Trascina una sezione](assets/drag-section-right.png)
+   ![Trascina una sezione](assets/drag-section.png)
 
 1. (Facoltativo) Per chiudere il pannello sinistro, fare clic sull&#39;icona **[!UICONTROL Comprimi]** ![](assets/left-panel-collapse-icon.png).
 

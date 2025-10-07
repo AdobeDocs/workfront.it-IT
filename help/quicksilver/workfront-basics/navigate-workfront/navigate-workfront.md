@@ -1,15 +1,15 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: "Navigate [!DNL Adobe Workfront]: indice articolo"
+title: 'Navigate [!DNL Adobe Workfront]: indice articolo'
 description: Leggi questi articoli per scoprire come navigare in Adobe Workfront e imparare la terminologia di Workfront.
 feature: Get Started with Workfront
 author: Lisa
 recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
-source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Questa sezione contiene le seguenti sottosezioni e articoli:
 * [Panoramica delle intestazioni degli oggetti](../../workfront-basics/the-new-workfront-experience/new-object-headers.md)
 * [Fissa pagine per personalizzare l’area di lavoro](../../workfront-basics/the-new-workfront-experience/pin-pages.md)
 * [Elenchi in [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/use-lists/lists.md)
-* [Creare sezioni personalizzate](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
+* [Aggiungere un dashboard nel pannello sinistro di un oggetto o di un&#39;area Workfront](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
 * [Guida di Access [!DNL Adobe Workfront] ](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
 * [Panoramica delle date di Progetto, Attività e Problema in [!DNL Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
 * [Comprendere la navigazione per un utente con licenza [!UICONTROL Lavoro]](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)

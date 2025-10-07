@@ -7,9 +7,9 @@ description: Lo scopo di una dashboard è quello di fornire un accesso rapido al
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Devi avere i seguenti:
   <tr> 
    <td> <p><strong>Licenza Adobe Workfront</strong></p> </td> 
       <td> 
-      <p>Nuovo:</p>
+      <p>Novità:</p>
          <ul>
          <li><p>Collaboratore o versione successiva</p></li>
          </ul>
@@ -68,7 +68,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 In Adobe Workfront è possibile popolare un dashboard con un massimo di 25 dei seguenti elementi:
 
-* Report\
+* Rapporti\
   Per ulteriori informazioni sulla creazione di report, vedere [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 * Calendari\
@@ -86,8 +86,8 @@ Per ulteriori informazioni sulla creazione di un dashboard, vedere [Creare un da
 * Condivisione su base individuale.\
   Per ulteriori informazioni sulla condivisione delle dashboard, vedere [Condividere report, dashboard e calendari](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) e [Condividere una dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).
 
-* Aggiungi un dashboard a qualsiasi area o oggetto in Workfront con una sezione personalizzata.\
-  Per ulteriori informazioni sulla creazione di sezioni personalizzate, vedere [Navigazione a sinistra in Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
+* Aggiungi un dashboard a qualsiasi area o oggetto in Workfront nel pannello a sinistra.\
+  Per ulteriori informazioni sull&#39;aggiunta di dashboard al pannello sinistro, vedere [Navigazione a sinistra in Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
 * Posiziona le dashboard nei modelli di layout, che puoi condividere con gli utenti.\
   Per ulteriori informazioni sulla condivisione dei dashboard tramite i modelli di layout, vedere [Personalizzare il pannello sinistro utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
@@ -95,7 +95,7 @@ Per ulteriori informazioni sulla creazione di un dashboard, vedere [Creare un da
 * Stamparne una copia cartacea da condividere con gli utenti.\
   Per ulteriori informazioni sulla stampa dei dashboard, vedere [Stampare un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md).
 
-* Esportali come file PDF in modo da poterli inviare agli utenti tramite e-mail.\
+* Esportateli come file PDF in modo da poterli inviare agli utenti via e-mail.\
   Per ulteriori informazioni sull&#39;esportazione di un dashboard in un file PDF, vedere [Esportare un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
 Quando si condivide un dashboard con gli utenti, per impostazione predefinita vengono condivisi con gli stessi utenti anche tutti i report, i calendari e le pagine esterne presenti nel dashboard.
@@ -108,8 +108,8 @@ Quando si condivide un dashboard con gli utenti, per impostazione predefinita ve
 
 È possibile visualizzare un dashboard nei modi seguenti:
 
-* Accedi alla sezione personalizzata in cui è posizionato il dashboard.\
-  Per ulteriori informazioni sul posizionamento dei dashboard nelle sezioni personalizzate, vedere [Navigazione a sinistra in Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
+* Accedi al dashboard dal pannello a sinistra di un oggetto.
+Per ulteriori informazioni sul posizionamento delle dashboard nel pannello sinistro, consulta [Navigazione a sinistra in Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
 * Cerca e accedi manualmente al dashboard.
 

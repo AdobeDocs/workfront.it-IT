@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 In un modello di layout è possibile personalizzare gli elementi visualizzati dagli utenti nell&#39;area del pannello sinistro in [!DNL Adobe Workfront].
 
-Ad esempio, puoi determinare quali dei seguenti elementi vengono visualizzati dagli utenti nel pannello a sinistra quando visualizzano un’attività:
+Ad esempio, puoi determinare quali dei seguenti elementi vengono visualizzati dagli utenti nel pannello a sinistra durante la visualizzazione di un progetto:
 
-![Pannello sinistro marchio](assets/left-panel-adobe-branding.png)
+![Pannello sinistro di un progetto](assets/left-panel-in-project.png)
 
 >[!IMPORTANT]
 >
@@ -88,7 +88,7 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
     </thead> 
     <tbody> 
      <tr> 
-      <td>Progetto </td> 
+      <td>Progetto [!UICONTROL]</td> 
       <td>Nome di un progetto</td> 
       <td>[!UICONTROL Tasks], [!UICONTROL Project Details], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issues], [!UICONTROL Risks], [!UICONTROL Approvals], [!UICONTROL Baselines], [!UICONTROL Billing Rates], [!UICONTROL Billing Records], [!UICONTROL Expenses], [!UICONTROL Hours], [!UICONTROL Bilanciatore dei carichi di lavoro], [!UICONTROL People], [!UICONTROL Utilization], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics], [!UICONTROL Planning]*, [!UICONTROL Custom Application]**</td> 
      </tr> 
@@ -113,7 +113,7 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
       <td>[!UICONTROL Projects], [!UICONTROL Program Details], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Planning]*, [!UICONTROL Custom application]**</td> 
      </tr> 
      <tr> 
-      <td>Modello </td> 
+      <td>Modello [!UICONTROL]</td> 
       <td>Nome di un modello di progetto</td> 
       <td>[!UICONTROL Template Tasks], [!UICONTROL Template Details], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Risks], [!UICONTROL Expenses], [!UICONTROL People], [!UICONTROL Approvals], [!UICONTROL Billing Rates], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Gruppo]</td> 
      </tr> 
@@ -136,7 +136,7 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
      </tr> 
      <tr> 
       <td>[!UICONTROL Progetti]</td> 
-      <td>Progetta <img src="assets/projects-in-main-menu.png"> nel menu principale  <img src="assets/main-menu-icon.png"></td> 
+      <td>Progetta <img src="assets/projects-in-main-menu.png"> nel menu principale [!UICONTROL] <img src="assets/main-menu-icon.png"></td> 
       <td>[!UICONTROL Progetti]</td> 
      </tr> 
      <tr> 
@@ -147,7 +147,7 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
      <tr> 
       <td>[!UICONTROL Dashboards]</td> 
       <td>Nome di un dashboard</td> 
-      <td>[!UICONTROL I Miei Dashboard], [!UICONTROL Dashboard Condivisi], [!UICONTROL Tutti I Dashboard]<p><b>NOTA</b>: se hai creato schede personalizzate per l'area [!UICONTROL Reports] utilizzando un modello di layout in [!DNL Adobe Workfront Classic], vengono visualizzate in fondo a questo elenco. Per gli utenti, vengono visualizzate nella parte inferiore del pannello sinistro nell'area [!UICONTROL Dashboards].</p> </td> 
+      <td>[!UICONTROL I Miei Dashboard], [!UICONTROL Dashboard Condivisi], [!UICONTROL Tutti I Dashboard]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Team Scrum]</td> 
@@ -227,13 +227,15 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
    >* [Brand Adobe [!DNL Workfront] utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
-1. (Facoltativo) Se desideri aggiungere un elemento del pannello sinistro collegato a uno dei dashboard dell&#39;organizzazione, fai clic su **[!UICONTROL Aggiungi sezione personalizzata]**, digita un **[!UICONTROL Titolo sezione personalizzata]** per l&#39;elemento, quindi aggiungi il dashboard.
+1. (Facoltativo) Se desideri aggiungere un elemento del pannello sinistro collegato a uno dei dashboard dell&#39;organizzazione, fai clic su **[!UICONTROL Aggiungi dashboard]**, digita il **[!UICONTROL Nome collegamento rapido]** per l&#39;elemento, quindi scegli il dashboard.
 
-   Gli elementi del dashboard vengono visualizzati nella parte inferiore del pannello sinistro. Gli utenti visualizzano il titolo della sezione Personalizzata digitato accanto all’elemento del dashboard quando lo passano con il mouse sul pannello sinistro.
+   È necessario creare il dashboard prima che venga visualizzato nell&#39;elenco.
+
+   Gli elementi del dashboard vengono visualizzati nella parte inferiore del pannello sinistro.
 
    >[!NOTE]
    >
-   >Gli utenti possono aggiungere elementi del dashboard personalizzati al proprio pannello sinistro. Quando si aggiungono elementi del dashboard personalizzati in un modello di layout, gli elementi vengono visualizzati in aggiunta a quelli aggiunti, senza sovrascriverli o reimpostarli. Ciò si verifica anche se si assegnano gli utenti a un nuovo modello di layout con elementi del dashboard personalizzati. Per informazioni su come personalizzare il pannello sinistro, vedere [Creare schede o sezioni personalizzate](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+   >Gli utenti possono aggiungere elementi del dashboard personalizzati al proprio pannello sinistro. Quando si aggiungono elementi del dashboard personalizzati in un modello di layout, gli elementi vengono visualizzati in aggiunta a quelli aggiunti, senza sovrascriverli o reimpostarli. Ciò si verifica anche se si assegnano gli utenti a un nuovo modello di layout con elementi del dashboard personalizzati. Per informazioni su come personalizzare il pannello sinistro, vedere [Aggiungere un dashboard nel pannello sinistro di un oggetto o di un&#39;area di Workfront](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
    >
    >Per informazioni sulle dashboard, vedere [Dashboard](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
