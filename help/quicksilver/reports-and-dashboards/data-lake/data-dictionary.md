@@ -66,7 +66,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
 >[!NOTE]
 >
 >È possibile aggiungere nuovi campi alle visualizzazioni oggetti senza preavviso per supportare le esigenze di dati in continua evoluzione dell’applicazione Workfront. Si consiglia di non utilizzare query &quot;SELECT&quot; in cui il destinatario dei dati downstream non è preparato a gestire colonne aggiuntive durante l&#39;aggiunta.<br>
->>Se è necessario rinominare o rimuovere una colonna, avviseremo anticipatamente di queste modifiche.
+>&#x200B;>Se è necessario rinominare o rimuovere una colonna, avviseremo anticipatamente di queste modifiche.
 
 ### Livello di accesso
 
