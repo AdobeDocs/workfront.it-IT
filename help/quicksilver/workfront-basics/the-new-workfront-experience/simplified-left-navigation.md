@@ -75,7 +75,7 @@ Il pannello sinistro è disponibile per i seguenti oggetti:
 >[!IMPORTANT]
 >
 >Se nel pannello sinistro viene visualizzata una sola sezione per impostazione predefinita, ad esempio **[!UICONTROL Tutti i progetti]** nell&#39;area **[!UICONTROL Progetti]**, un amministratore di [!DNL Workfront] deve aggiungere almeno un dashboard a quest&#39;area durante la creazione di un modello di layout e assegnare l&#39;utente a tale modello prima che il pannello sinistro venga visualizzato in tale area.
->>Per informazioni su come un amministratore di [!DNL Workfront] personalizza il pannello sinistro in un modello di layout, vedere [Personalizzare il pannello sinistro utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+>&#x200B;>Per informazioni su come un amministratore di [!DNL Workfront] personalizza il pannello sinistro in un modello di layout, vedere [Personalizzare il pannello sinistro utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 Il pannello a sinistra è disponibile per le seguenti aree:
 
@@ -84,7 +84,7 @@ Il pannello a sinistra è disponibile per le seguenti aree:
 * [Sezioni predefinite nell&#39;area [!UICONTROL Risorse]](#default-sections-in-the-resourcing-area)
 * [Sezioni predefinite nell&#39;area [!UICONTROL Progetti]](#default-sections-in-the-projects-area)
 * [Sezioni predefinite nell&#39;area [!UICONTROL Schede orario]](#default-sections-in-the-timesheets-area)
-* [Sezioni predefinite nell&#39;area  [!DNL Goals] ](#default-sections-in-the-goals-area)
+* [Sezioni predefinite nell&#39;area  [!DNL Goals] &#x200B;](#default-sections-in-the-goals-area)
 
 ### Sezioni predefinite nell&#39;area [!UICONTROL Dashboard]
 
