@@ -7,9 +7,9 @@ description: Le ore di accesso agli elementi di lavoro in Adobe Workfront sono c
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
+source-git-commit: d577fb1f84c2a91c7b4a37be271235ffa338c9fd
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1253'
 ht-degree: 0%
 
 ---
@@ -75,11 +75,14 @@ A seconda dell’area di Workfront da cui accedi alle ore effettive, potrebbe fa
      >
      >Il costo effettivo del progetto utilizza le ore effettive legacy per il calcolo.
 
+* Nell’area Dettagli progetto, attività o problema, le ore effettive potrebbero essere visualizzate nei campi seguenti:
 
-* Nell’area Dettagli progetto, attività o problema:
+   * **Ore effettive**: nella scheda Dettagli sono le ore registrate per progetti, attività o problemi dopo maggio 2021. Sono archiviati nel database di Workfront in ore e il valore del campo è `actualWorkRequiredDouble`.
+   * **Ore effettive**: in un modulo personalizzato per progetto, attività o problema, quando si accede a tali moduli utilizzando un campo personalizzato di riferimento del campo nativo che fa riferimento al campo nativo Ore effettive. Si tratta delle ore registrate per progetti, attività o problemi dopo maggio 2021. Sono archiviati nel database di Workfront in ore e il valore del campo è `actualWorkRequiredDouble`.
 
-   * **Ore effettive**: ore registrate per progetti, attività o problemi dopo maggio 2021. Sono archiviati nel database di Workfront in ore e il valore del campo è `actualWorkRequiredDouble`.
-   * **Ore effettive**: quando si accede a tali dati utilizzando un campo personalizzato di riferimento di campo nativo in un modulo personalizzato per un progetto, un&#39;attività o un problema.
+>[!NOTE]
+>
+>Si consiglia di utilizzare il campo Ore effettive quando possibile, perché il campo Ore effettive legacy potrebbe visualizzare ore non accurate a causa del modo in cui gli incrementi vengono arrotondati.
 
 ## Ore effettive per attività e problemi rispetto alle ore effettive per i progetti
 
