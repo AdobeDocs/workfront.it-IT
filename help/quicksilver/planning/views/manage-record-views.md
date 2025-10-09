@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1308'
 ht-degree: 1%
 
 ---
@@ -217,6 +217,7 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
 
    <span class="preview">![Crea riquadro di visualizzazione](assets/create-view-box.png)</span>
 
+1. <span class="preview">Per modificare una visualizzazione esistente, digitare il nome di una visualizzazione nel campo **Cerca** e premere Invio sulla tastiera.</span>
 1. <span class="preview">Trascinare le visualizzazioni dal menu a discesa delle visualizzazioni in base alle proprie preferenze.</span>
 
    <span class="preview">![Elenco a discesa dei tipi di visualizzazione dall&#39;elenco dei tipi di record](assets/view-types-drop-down-from-record-type-list.png)</span>

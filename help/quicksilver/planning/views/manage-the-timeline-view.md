@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '3962'
+source-wordcount: '3985'
 ht-degree: 2%
 
 ---
@@ -198,10 +198,19 @@ Per gestire una vista timeline:
 
      <span class="preview">Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).</span>
 
+   <!--Andrea verifying>[!TIP]
+    >
+    ><span class="preview">Double-clicking to create records in the timeline is not possible inside of a grouping.</span>-->
+
    * <span class="preview">Fare clic sul margine sinistro o destro di una barra dei record, quindi trascinarlo e rilasciarlo in una nuova posizione. Se si ridimensionano le barre dei record, le date di inizio o di fine vengono aggiornate immediatamente. </span>
 
    * <span class="preview">Trascinare i record per aggiornarne la posizione e le date nella sequenza temporale. Lo spostamento delle barre dei record ne aggiorna immediatamente le date di inizio e di fine.</span>
      <span class="preview">Per informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).</span>
+
+   >[!TIP]
+   >
+   ><span class="preview"> Non è possibile ridimensionare e trascinare i record nella sequenza temporale per i tipi di oggetto Workfront e AEM Assets visualizzati nella suddivisione.</span>
+
 
 1. Aggiornate i seguenti elementi della vista come descritto nelle sottosezioni seguenti:
    * [Filtri](#add-filters)
