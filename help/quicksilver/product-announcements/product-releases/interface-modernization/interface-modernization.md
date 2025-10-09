@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 2d7022eae32d3266966ef6f424b1cff176622f86
+source-git-commit: d7f91e17294981c2c31681ca7f4732f9a79d4c61
 workflow-type: tm+mt
-source-wordcount: '8402'
+source-wordcount: '8483'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,14 @@ In questa pagina sono elencati gli aggiornamenti dell’interfaccia che stiamo a
 Per tutte le altre modifiche apportate ad Adobe Workfront, vedi [Versioni del prodotto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Amministrazione e configurazione
+
+### Aggiornamenti dell’interfaccia alla finestra di dialogo Importa utenti sulle società
+
+**Versione di anteprima: 9 ottobre 2025; versione di produzione per tutti i clienti: a partire dalla settimana del 16 ottobre 2025**
+
+È stata aggiornata la finestra di dialogo per l’importazione di nuovi utenti su un’azienda tramite un file foglio di calcolo, in modo che corrisponda ad altre aree dell’applicazione.
+
+Per visualizzare questa modifica, vai a Configurazione > Società > seleziona una società > Membri società > Aggiungi membro > Importa utenti.
 
 ### Nuova interfaccia e funzionalità per le caselle Nuovo e Modifica percorso milestone
 
@@ -56,7 +64,7 @@ Questo aggiornamento riguarda:
 
 ### Aggiornamenti dell’interfaccia per l’area Gravità in Configurazione
 
-**Versione di anteprima: 25 settembre 2025; versione di produzione: 9 ottobre 2025**
+**Anteprima versione: 25 settembre 2025; Versione di produzione: da annunciare**
 
 La pagina Gravità è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront.
 
@@ -68,7 +76,7 @@ Per ulteriori informazioni, vedere [Creare o personalizzare le gravità dei prob
 
 ### Aggiornamenti dell’interfaccia per l’area Priorità in Configurazione
 
-**Versione di anteprima: 25 settembre 2025; versione di produzione: 9 ottobre 2025**
+**Anteprima versione: 25 settembre 2025; Versione di produzione: da annunciare**
 
 La pagina Priorità è stata aggiornata con un design più moderno, coerente con le altre aree di Workfront.
 
@@ -484,6 +492,11 @@ Per visualizzare la progettazione aggiornata, vai a Utenti, seleziona un utente 
 ### Aggiornamenti dell’interfaccia per ferie personali
 
 **Versione di anteprima: 25 settembre 2025; versione di produzione: 2 ottobre 2025**
+
+>[!NOTE]
+>
+>Questa funzione è stata temporaneamente rimossa dagli ambienti di anteprima e produzione il 9 ottobre 2025.
+
 
 Abbiamo aggiornato l’aspetto del calendario personale delle ferie, inclusa la possibilità di delegare le approvazioni, in modo che corrisponda ad altre aree dell’applicazione.
 
