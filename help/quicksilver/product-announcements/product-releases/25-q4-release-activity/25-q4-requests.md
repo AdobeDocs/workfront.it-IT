@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
+source-git-commit: 94e81f50ca38ab8139684887c58e0f00353587d7
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rila
 >[!NOTE]
 >
 >Anteprima: 2 ottobre 2025
->&#x200B;>Versione rapida di produzione: 15 ottobre 2025
->&#x200B;>Produzione per tutti: 16 ottobre 2025
+>>Versione rapida di produzione: 15 ottobre 2025
+>>Produzione per tutti: 16 ottobre 2025
 
 Per visualizzare più facilmente le informazioni necessarie, è stata aggiunta la possibilità di creare e salvare viste nell’area Richieste. Ora puoi salvare una vista, inclusi i filtri e le configurazioni di colonna, e passare da una vista all’altra. Un amministratore di Workfront può aggiungere la nuova visualizzazione ai modelli di layout.
 
@@ -71,7 +71,7 @@ Questo aggiornamento presenta anche modifiche all’aspetto della pagina.
 Quando utilizzi la nuova esperienza di richiesta, tieni presente quanto segue:
 
 * Al momento è possibile trovare le bozze solo nell’esperienza di richiesta legacy. Nella nuova esperienza è possibile visualizzare le bozze solo quando si trova in una coda di flusso di lavoro, se si dispone di una bozza nello stesso percorso.
-* La nuova esperienza mostra attualmente solo le richieste create negli ultimi 1,5 mesi. Per visualizzare le richieste meno recenti, puoi disabilitare temporaneamente la nuova esperienza e accedere alle richieste meno recenti tramite la vecchia esperienza.
+* Al momento la nuova esperienza mostra solo le richieste create dopo luglio 2025. Per visualizzare le richieste meno recenti, puoi disabilitare temporaneamente la nuova esperienza e accedere alle richieste meno recenti tramite la vecchia esperienza.
 
 In precedenza, le richieste di Workfront e Workfront Planning si trovavano in schede separate e i filtri non erano personalizzabili.
 
