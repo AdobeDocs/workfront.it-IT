@@ -6,9 +6,9 @@ description: Home ti aiuta a gestire il tuo lavoro. Puoi personalizzare questo s
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
+source-git-commit: 1cb165e826ee57483989474c095553a08e33bc9a
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1106'
 ht-degree: 4%
 
 ---
@@ -57,7 +57,7 @@ Di seguito sono riportati gli 11 widget attualmente disponibili tra cui sceglier
 * **Richieste personali**\
     Visualizza tutte le richieste inviate, un filtro per visualizzare solo le richieste aperte e un pulsante che apre il pannello di riepilogo di una richiesta.
 
-  <span class="preview">Nell&#39;ambiente di anteprima questo widget visualizza tutte le richieste inviate, un filtro per visualizzare solo le richieste che soddisfano i criteri specificati e un pulsante che consente di ridisporre le colonne nel widget.</span>
+  <span class="preview">Nell&#39;ambiente di anteprima questo widget visualizza tutte le richieste inviate, un filtro per visualizzare solo le richieste che soddisfano i criteri specificati e un pulsante che consente di ridisporre le colonne nel widget. Se si dispone dell&#39;accesso a Workfront Planning, le richieste Planning verranno visualizzate anche qui.</span>
 
 
 * **Richieste team**\
