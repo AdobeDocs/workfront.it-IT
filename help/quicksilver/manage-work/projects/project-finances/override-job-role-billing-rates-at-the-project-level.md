@@ -6,16 +6,16 @@ description: In qualità di project manager, puoi specificare la tariffa di fatt
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: 5e2c2a29c822150377882006bd6bc15068ff8702
+source-git-commit: 4b2bf1205951de13cb09d31f54f890a74bdf7d98
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
 
 # Sostituisci tariffe di fatturazione mansione a livello di progetto
 
-{{highlighted-preview}}
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima ed è in fase di rilascio in un rollout graduale in produzione.</span>
 
 In qualità di project manager, puoi specificare la tariffa di fatturazione per una mansione in un progetto specifico. Questa tariffa di fatturazione a livello di progetto sostituisce la tariffa di fatturazione a livello di sistema per questa mansione. Per calcolare i ricavi, Workfront utilizza la tariffa di fatturazione a livello di progetto della mansione, anziché la tariffa di fatturazione a livello di sistema.
 
