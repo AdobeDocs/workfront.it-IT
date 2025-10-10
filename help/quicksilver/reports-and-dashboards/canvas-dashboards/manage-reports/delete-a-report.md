@@ -6,9 +6,9 @@ description: Puoi eliminare un rapporto da un dashboard di Canvas.
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 98d26160-a097-473d-8d66-e6d619cb2908
-source-git-commit: 46fdc768adade4872d636014c0e215c5f129d1de
+source-git-commit: fb8b9a10aac45868e085fb5154ef02ce989b599d
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '339'
 ht-degree: 1%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica della versione beta di Canvas Dashboards.<br>
->&#x200B;>In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
+>>In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
 >
 >* Porta la tua chiave per Amazon Web Services
 >* Azure
@@ -80,7 +80,7 @@ Per ulteriori informazioni, vedere [Creare un dashboard Canvas](/help/quicksilve
 >[!WARNING]
 >
 >Una volta eliminato, il report non può essere recuperato. <br>
->&#x200B;>Se hai aggiunto un rapporto esistente a un dashboard Area di lavoro, la sua eliminazione dal dashboard non comporta l’eliminazione del rapporto originale.
+>>Se hai aggiunto un rapporto classico esistente a un dashboard di Canvas, eliminarlo dal dashboard non comporta l’eliminazione del rapporto originale.
 
 {{step1-to-dashboards}}
 
