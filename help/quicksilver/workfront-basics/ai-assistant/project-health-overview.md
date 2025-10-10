@@ -5,9 +5,9 @@ description: La funzione Integrità del progetto utilizza la potenza di AI Assis
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: 81f2787a5a9dd4f3737f3494c824502fe4abe59d
+source-git-commit: d1ded406b8c4da975e2ff4d6825954cabd483ed2
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1488'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ Per abilitare l’Assistente AI e l’integrità del progetto per la tua organiz
 * L’esperienza unificata di Adobe deve essere abilitata.
 * Adobe deve disporre di un accordo Adobe Gen AI firmato su file.
 * L’amministratore di Workfront deve abilitare l’Assistente IA per gli utenti dell’organizzazione. L’Assistente AI è abilitato tramite i livelli di accesso.
-* Entrambe le opzioni Abilita AI e Integrità progetto devono essere selezionate nella sezione Preferenze AI in Configurazione > Preferenze.
+* Entrambe le opzioni Abilita AI e Integrità progetto devono essere selezionate nella sezione Preferenze AI in Configurazione > Sistema > Preferenze.
 
   ![Sezione Preferenze AI](assets/ai-preferences.png)
 
