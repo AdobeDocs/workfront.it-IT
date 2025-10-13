@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: d088b40cd8d46a986998fde2176646aa1660cb6b
+source-git-commit: 0e6b43d0d9ca416fdd67907457e3b0afec66db63
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '657'
 ht-degree: 4%
 
 ---
@@ -36,6 +36,10 @@ Qualsiasi utente può aggiungere il revisore IA a una richiesta di revisione e a
 * Adobe deve disporre di un accordo Adobe Gen AI firmato su file.
 Per ulteriori informazioni sulla firma del contratto, consulta [Firmare il contratto di Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
+## Partecipa alla versione beta
+
+Per partecipare alla versione beta, vai a **Configurazione** > **Revisione e approvazione** > **Revisori AI** e fai clic su **Accetta termini**.
+
 
 ## Tipi di file supportati {#supported-file-types-ai-reviewer}
 
@@ -55,7 +59,7 @@ Se carichi un tipo di file non supportato, l’opzione Revisore IA non viene vis
 
 ## Impostare le linee guida per il marchio
 
-Durante la revisione dei contenuti, Workfront AI Reviewer utilizza le linee guida per il brand definite in Genstudio Foundation. Attualmente, è possibile impostare solo le linee guida del brand per le immagini. Per ulteriori informazioni, vedere [Introduzione ad Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Durante la revisione dei contenuti, Workfront AI Reviewer utilizza le linee guida per il brand definite in Genstudio Foundation. Attualmente, è possibile impostare solo le linee guida del brand per le immagini. Per ulteriori informazioni, vedere [Introduzione ad Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## Crea revisori AI
