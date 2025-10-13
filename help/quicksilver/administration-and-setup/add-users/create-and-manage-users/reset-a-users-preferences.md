@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: 4a7362ae663b73ce48f049556145b4de3e6a6ac9
+source-git-commit: 7dd278fdf07824edd3336597d20209e25cad88d8
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 2%
@@ -146,7 +146,7 @@ Quando si reimpostano le preferenze utente, alcune vengono ripristinate ai valor
 1. Premere **Invio**.
 1. Per reimpostare tutte le preferenze utente, selezionare **Reimposta**.
 
-<!--When this is unshimmed, adjust the comment tags to hide these last two lines, because the Reset Tabs button is going away.-->
+   <!--When this is unshimmed, adjust the comment tags to hide these last two lines, because the Reset Tabs button is going away.-->
 Oppure
 
-Per reimpostare solo le schede personalizzate, selezionare **Reimposta schede**.
+   Per reimpostare solo le schede personalizzate, selezionare **Reimposta schede**.
