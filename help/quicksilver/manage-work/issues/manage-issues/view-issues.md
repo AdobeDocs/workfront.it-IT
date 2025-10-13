@@ -6,14 +6,16 @@ description: È possibile visualizzare i problemi associati a un progetto, un'at
 author: Alina
 feature: Work Management
 exl-id: b6791c8f-b356-4235-8b0e-952e29a88952
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
 
 # Visualizza i problemi
+
+<!--Audited: 10/2025-->
 
 È possibile visualizzare i problemi associati a un progetto, un&#39;attività o un&#39;iterazione.
 
@@ -78,9 +80,9 @@ Per accedere a un problema e visualizzarne le informazioni:
 
    Selezionare una delle opzioni seguenti:
 
-   * Aperti
+   * Open
    * Completato
-   * Tutti
+   * Tutto
 
 1. Fai clic sul nome di un problema.
 
@@ -138,11 +140,14 @@ Per accedere a un problema e visualizzarne le informazioni:
 
 ## Visualizza i progetti e le attività con problemi
 
-È possibile aggiungere icone nella visualizzazione di un progetto, di un report attività o di un elenco per indicare se sono presenti problemi allegati. L&#39;aggiunta di icone alla visualizzazione di un report o di un elenco è simile per i progetti e le attività.
+È possibile aggiungere icone nella visualizzazione di un progetto, di un report attività o di un elenco per indicare se sono presenti problemi allegati.
+
+L&#39;aggiunta di icone alla visualizzazione di un report o di un elenco è simile per i progetti e le attività.
 
 Per aggiungere icone che mostrano se un progetto presenta problemi in un report di progetto:
 
-1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront.
+{{step1-click-main-menu}}
+
 1. Fai clic su **Generazione rapporti** > **Nuovo rapporto** > **Rapporto progetto**.
 1. Nel campo **Mostra in questa colonna**, inizia a digitare **Icone di stato**, quindi selezionala quando viene visualizzata nell&#39;elenco.
 
@@ -150,4 +155,4 @@ Per aggiungere icone che mostrano se un progetto presenta problemi in un report 
 
    Le icone dei problemi vengono visualizzate nei progetti che presentano problemi nella colonna **Icone di stato**.
 
-   ![elenco_progetti_con_icona_problema.png](assets/project-list-with-issue-icon-350x132.png)
+   ![Elenco progetti con icona problema](assets/project-list-with-issue-icon-350x132.png)

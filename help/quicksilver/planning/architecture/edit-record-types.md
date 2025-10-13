@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 2%
@@ -26,7 +26,7 @@ I tipi di record sono i tipi di oggetto di Adobe Workfront Planning. È possibil
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.
++++ Espandere per visualizzare i requisiti di accesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -88,13 +88,13 @@ I tipi di record sono i tipi di oggetto di Adobe Workfront Planning. È possibil
 
 *Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Modifica tipi di record
 
 {{step1-to-planning}}
 
-1. Fare clic sull&#39;area di lavoro di cui si desidera modificare i tipi di record.
+1. Fare clic sul workspace di cui si desidera modificare i tipi di record.
 
    Viene visualizzata la pagina dell&#39;area di lavoro e i tipi di record.
 1. Esegui una delle operazioni seguenti:
@@ -127,7 +127,7 @@ Oppure
          * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type.-->
 
 
-1. (Facoltativo e condizionale) Se sei un amministratore di sistema, fai clic su **Impostazioni avanzate** e aggiorna le seguenti informazioni nella sezione **Funzionalità per più aree di lavoro**: <!--the info here is duplicated in the Create record types article-->
+1. (Facoltativo e condizionale) Se sei un amministratore di sistema, fai clic su **Impostazioni avanzate** e aggiorna le seguenti informazioni nella sezione **Funzionalità per più aree di lavoro**: <!--take this info out and replace it with a link to this article: help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md-->
    * Abilita l&#39;impostazione **Consenti connessione a questo tipo di record in altre aree di lavoro**: consente ai manager delle aree di lavoro di connettersi a questo tipo di record da altre aree di lavoro.\
      È possibile specificare le aree di lavoro da cui è possibile collegare questo tipo di record. È possibile renderlo disponibile per tutte le aree di lavoro o designarne di specifiche in cui è possibile importarlo.
 Per ulteriori informazioni, vedere [Configurare le funzionalità tra aree di lavoro diverse per i tipi di record](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).

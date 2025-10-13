@@ -4,7 +4,7 @@ description: I tipi di record sono i tipi di oggetto di Adobe Workfront Planning
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
+source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 0%
@@ -29,13 +29,13 @@ In qualità di responsabile dell&#39;area di lavoro, è possibile aggiungere un 
 
 In questo articolo viene descritto come aggiungere un tipo di record da un record esistente e come eliminarlo, se non è più necessario.
 
-Un gestore dell&#39;area di lavoro deve innanzitutto designare un tipo di record come centralizzato prima di poterlo aggiungere alle aree di lavoro gestite come tipo di record esistente.
+Un gestore dell&#39;area di lavoro deve innanzitutto designare un tipo di record come globale prima di poterlo aggiungere alle aree di lavoro gestite come tipo di record esistente.
 
-È possibile impostare un tipo di record come centralizzato quando lo si crea o lo si modifica, mentre si definiscono le relative impostazioni avanzate.
+È possibile designare un tipo di record come globale quando lo si crea o lo si modifica, mentre si definiscono le relative impostazioni per più aree di lavoro.
 
 Per informazioni, vedere [Configurare le funzionalità tra aree di lavoro diverse per i tipi di record](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
-Prima di aggiungere record a un&#39;area di lavoro da un tipo di record centralizzato, vedere l&#39;articolo [Panoramica sui tipi di record tra aree di lavoro](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+Prima di aggiungere record a un&#39;area di lavoro da un tipo di record globale, vedere l&#39;articolo [Panoramica sui tipi di record tra aree di lavoro](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 
 ## Requisiti di accesso
@@ -58,7 +58,7 @@ Prima di aggiungere record a un&#39;area di lavoro da un tipo di record centrali
 <ul><li><p>Qualsiasi pacchetto Workfront</p></li>
 <p>E</p>
 <li><p>Qualsiasi pacchetto Planning per la creazione di tipi di record collegabili</p></li>
-<li><p>Pacchetto Planning Plus per creare tipi di record centralizzati</p></li>
+<li><p>Pacchetto Planning Plus per la creazione di tipi di record globali</p></li>
 </ul>
 <!--Or:
 <ul><li><p>Any Workflow package</p> </li>
@@ -101,39 +101,39 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
    Si verificano le seguenti situazioni:
 
-   * Vengono aggiunte anche le seguenti informazioni dal tipo di record centralizzato esistente:
+   * Vengono aggiunte anche le seguenti informazioni dal tipo di record globale esistente:
 
       * Tutti i campi originali
       * Tutte le connessioni record
-   * È possibile visualizzare i record aggiunti da altre aree di lavoro che utilizzano lo stesso tipo di record centralizzato solo se si dispone almeno delle autorizzazioni di visualizzazione per tali aree di lavoro.
-   * Alla scheda del nuovo tipo di record viene aggiunta l&#39;icona **tipo di record centralizzato** ![icona tipo di record centralizzato](assets/global-icon.png).
+   * È possibile visualizzare i record aggiunti da altre aree di lavoro che utilizzano lo stesso tipo di record globale solo se si dispone almeno delle autorizzazioni di visualizzazione per tali aree di lavoro.
+   * Alla scheda del nuovo tipo di record viene aggiunta l&#39;icona **tipo di record globale** ![icona tipo di record globale](assets/global-icon.png).
    * Il campo **Workspace** di sola lettura è stato aggiunto alla nuova visualizzazione della tabella del tipo di record. Nel campo viene visualizzata l’area di lavoro in cui è stato creato ogni record.
 
      >[!NOTE]
      >
-     >Non è possibile modificare l&#39;aspetto del nuovo tipo di record, le impostazioni avanzate o i campi originali. È possibile modificare il tipo di record e tutti i campi e le impostazioni originali solo dall&#39;area di lavoro originale.
+     >Non è possibile modificare l&#39;aspetto del nuovo tipo di record, le impostazioni aggiuntive o i campi originali. È possibile modificare il tipo di record e tutti i campi e le impostazioni originali solo dall&#39;area di lavoro originale.
 
 1. (Facoltativo) Fai clic su, quindi trascina e rilascia il nuovo tipo di record aggiunto in una sezione all’interno dell’area di lavoro.
 
 <!--This will be released later with another epic: 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) in the new record type's card, or to the right of the record type's name on its page, then click **Share** to share it with other users in the same workspace, or adjust their permissions to the record type.-->
 
-## Eliminare un tipo di record centralizzato da un workspace secondario
+## Eliminare un tipo di record globale da un workspace secondario
 
 Se non è più necessario, è possibile eliminare un tipo di record aggiunto da un&#39;altra area di lavoro. Se si elimina, il record verrà rimosso solo dall&#39;area di lavoro secondaria e verranno eliminati i record aggiunti da tale area di lavoro. Il tipo di record originale rimane nell&#39;area di lavoro originale e in altre aree di lavoro in cui è stato aggiunto.
 
-Per eliminare un tipo di record centralizzato da un workspace secondario:
+Per eliminare un tipo di record globale da un&#39;area di lavoro secondaria:
 
-1. Passare al tipo di record centralizzato nell&#39;area di lavoro secondaria.
+1. Passare al tipo di record globale nell&#39;area di lavoro secondaria.
 
 1. (Facoltativo) Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) sulla scheda del tipo di record o a destra del nome del tipo di record nella relativa pagina, quindi fai clic su **Elimina**.
 1. (Condizionale) Digita **delete** nel campo fornito, quindi fai clic su **Delete** definitivamente.
 
    Si verificano le seguenti situazioni:
 
-   * Il tipo di record creato da un tipo di record centralizzato viene rimosso dall&#39;area di lavoro selezionata.
+   * Il tipo di record creato da un tipo di record globale viene rimosso dall&#39;area di lavoro selezionata.
    * Il tipo di record originale e i relativi campi rimangono nell&#39;area di lavoro originale.
    * Il tipo di record rimane in tutte le altre aree di lavoro in cui è stato aggiunto.
-   * I record aggiunti al tipo di record dall&#39;area di lavoro corrente vengono eliminati. Tutti gli altri record aggiunti da aree di lavoro aggiuntive in cui è stato aggiunto il tipo di record centralizzato vengono conservati.
+   * I record aggiunti al tipo di record dall&#39;area di lavoro corrente vengono eliminati. Tutti gli altri record aggiunti da aree di lavoro aggiuntive in cui è stato aggiunto il tipo di record globale vengono conservati.
 
 
 
