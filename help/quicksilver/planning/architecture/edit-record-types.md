@@ -108,7 +108,7 @@ Oppure
 
 1. Nella casella **Modifica tipo di record**, per impostazione predefinita viene aperta la scheda **Aspetto**. <!--update screen shot below at preview-->
 
-   ![Modifica la scheda dell&#39;aspetto della casella del tipo di record ](assets/edit-record-type-box-appearance-tab.png)
+   ![Modifica la scheda dell&#39;aspetto della casella del tipo di record &#x200B;](assets/edit-record-type-box-appearance-tab.png)
 
    Aggiorna le seguenti informazioni nella scheda **Aspetto**:
 
