@@ -27,17 +27,17 @@ L&#39;integrazione di [!DNL Adobe Workfront] con [!DNL Anaplan] offre i seguenti
 
 * [Invia aggiornamenti di  [!DNL Adobe Workfront] progetto a una [!DNL Anaplan] voce di elenco](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
 * [Invia [!DNL Adobe Workfront] spese a una [!DNL Anaplan] voce di elenco](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
-* [Invia  [!DNL Adobe Workfront] aggiornamenti ore effettive a una voce di elenco  [!DNL Anaplan] ](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [Invia  [!DNL Adobe Workfront] aggiornamenti ore effettive a una voce di elenco  [!DNL Anaplan] &#x200B;](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
 
 ### Flussi di lavoro per collegare le richieste di budget
 
-* [Crea una voce di elenco  [!DNL Anaplan]  da una richiesta budget  [!DNL Adobe Workfront] ](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
-* [Applica un&#39;allocazione di budget di  [!DNL Anaplan]  a un progetto di  [!DNL Adobe Workfront] ](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
+* [Crea una voce di elenco  [!DNL Anaplan]  da una richiesta budget  [!DNL Adobe Workfront] &#x200B;](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
+* [Applica un&#39;allocazione di budget di  [!DNL Anaplan]  a un progetto di  [!DNL Adobe Workfront] &#x200B;](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 ### Flussi di lavoro per collegare le richieste delle campagne
 
-* [Crea un elemento di elenco  [!DNL Anaplan]  da una richiesta di campagna  [!DNL Adobe Workfront] ](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
-* [Applica un&#39;allocazione di budget di  [!DNL Anaplan]  a una richiesta o a un progetto di campagna di  [!DNL Adobe Workfront] ](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+* [Crea un elemento di elenco  [!DNL Anaplan]  da una richiesta di campagna  [!DNL Adobe Workfront] &#x200B;](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
+* [Applica un&#39;allocazione di budget di  [!DNL Anaplan]  a una richiesta o a un progetto di campagna di  [!DNL Adobe Workfront] &#x200B;](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
 
 ## Adobe Workfront con [!DNL Anaplan] domande frequenti
 

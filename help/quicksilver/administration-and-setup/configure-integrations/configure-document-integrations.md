@@ -78,7 +78,7 @@ Puoi configurare le seguenti integrazioni per la gestione dei documenti:
 
 * [!DNL Microsoft SharePoint]
 
-  Per informazioni sull&#39;integrazione con [!DNL SharePoint], vedere [Configurare l&#39;integrazione [!DNL SharePoint] ](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
+  Per informazioni sull&#39;integrazione con [!DNL SharePoint], vedere [Configurare l&#39;integrazione [!DNL SharePoint] &#x200B;](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
 
 * Provider di documenti cloud di terze parti:
 

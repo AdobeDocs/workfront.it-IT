@@ -76,7 +76,7 @@ Per ulteriori informazioni su questi profili e autorizzazioni, vedere [Profili a
 1. In una vista a elenco o nel dashboard, selezionare l&#39;elemento o gli elementi per i quali si desidera creare o gestire i tag.
 1. Fai clic su **[!UICONTROL Tag]** > **[!UICONTROL Gestisci tag]** immediatamente sopra l&#39;elenco.
 
-1. Nella scheda [!UICONTROL Tag] visualizzata, gestire i tag come descritto in precedenza in [Creazione, modifica o eliminazione di una scheda.](https://support.workfront.com/knowledge/articles/115004379508/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004379508#CreatingEditingDeletingTag)\
+1. Nella scheda [!UICONTROL Tag] visualizzata, gestire i tag come descritto in precedenza in [Creazione, modifica o eliminazione di una scheda.](https://support.workfront.com/knowledge/articles/115004379508/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004379508#CreatingEditingDeletingTag)\
    Un tag viene applicato a tutti gli elementi selezionati quando la casella di controllo accanto al tag è grigia. Se è grigio chiaro, solo alcuni degli elementi di un batch selezionato vengono taggati con esso. Se vuoi rimuovere un tag da tutti gli elementi selezionati, accertati che la casella di spunta accanto al tag sia vuota.\
    ![Menu_Tag_-_Scuro_e_Chiaro_Controlli.png](assets/tags-menu---dark-and-light-checks-350x217.png)
 

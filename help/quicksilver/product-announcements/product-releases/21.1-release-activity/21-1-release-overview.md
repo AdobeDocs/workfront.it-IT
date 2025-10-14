@@ -392,7 +392,7 @@ Per ulteriori informazioni sulle soluzioni sostitutive per ogni specifico strume
 
 ### Webinar sulla versione 21.1 {#21-1-release-webinar}
 
-Il webinar sulla versione di Workfront 21.1 verrà presentato il 3 febbraio alle 11:00 EDT / 16:00 BST. Registrati al webinar [qui](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=ac&amp;eventid=2934272&amp;sessionid=1&amp;key=5C231B3385686D1E224A49EBE0BF0E37&amp;regTag=&amp;V2=false&amp;sourcepage=register).
+Il webinar sulla versione di Workfront 21.1 verrà presentato il 3 febbraio alle 11:00 EDT / 16:00 BST. Registrati al webinar [qui](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=ac&eventid=2934272&sessionid=1&key=5C231B3385686D1E224A49EBE0BF0E37&regTag=&V2=false&sourcepage=register).
 
 ### Modifica della frequenza di rilascio dell’anteprima {#change-in-preview-release-cadence}
 

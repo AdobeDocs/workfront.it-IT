@@ -73,7 +73,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Fare clic sul nome di un elemento di lavoro per aprire la pagina **Panoramica**.
 1. Nella sezione **Collegamenti rapidi**, individua il collegamento da copiare.
-1. Fai clic sull&#39;icona **Copia**![ Copia](assets/copy-icon.png).
+1. Fai clic sull&#39;icona **Copia**![&#x200B; Copia](assets/copy-icon.png).
    ![Copia collegamento](assets/copy-link.png)
 
 ## Aprire un collegamento rapido

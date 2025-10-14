@@ -239,7 +239,7 @@ Oltre a spostare le attività da un elenco di attività, è possibile spostare u
 
    L’attività viene visualizzata nell’elenco.
 
-   ![Selezionare l&#39;attività padre durante lo spostamento di un&#39;attività con funzionalità di ricerca ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Selezionare l&#39;attività padre durante lo spostamento di un&#39;attività con funzionalità di ricerca &#x200B;](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
    >[!NOTE]
    >

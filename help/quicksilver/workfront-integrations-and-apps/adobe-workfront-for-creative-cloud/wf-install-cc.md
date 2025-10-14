@@ -82,7 +82,7 @@ Gli amministratori di [!DNL Adobe Admin Console] possono anche creare pacchetti 
 
 È possibile installare [!DNL Adobe Workfront for design and video] da [!DNL Adobe Exchange].
 
-1. Vai alla [pagina di installazione di Adobe Workfront for Design and Video](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) in Adobe Exchange.
+1. Vai alla [pagina di installazione di Adobe Workfront for Design and Video](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&workflow=share) in Adobe Exchange.
 1. Nella finestra di dialogo visualizzata, fai clic su **Apri [!DNL Adobe Creative Cloud] app desktop**.
 1. Una volta aperto Gestione plug-in [!DNL Adobe Creative Cloud], fare clic su **[!UICONTROL Installa]**.
 1. Leggere le informazioni nella finestra di dialogo, quindi fare clic su **[!UICONTROL OK]**.

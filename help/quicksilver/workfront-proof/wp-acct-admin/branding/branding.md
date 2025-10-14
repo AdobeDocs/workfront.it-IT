@@ -25,4 +25,4 @@ ht-degree: 0%
 Questa sezione contiene i seguenti articoli:
 
 * [Personalizza il sito  [!DNL Workfront Proof]  - avanzato](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)
-* [Personalizza il sito  [!DNL Workfront Proof] ](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)
+* [Personalizza il sito  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)

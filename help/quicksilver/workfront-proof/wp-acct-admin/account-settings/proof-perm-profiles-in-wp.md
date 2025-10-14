@@ -78,7 +78,7 @@ Gli amministratori fatturazione hanno accesso alle [impostazioni account in [!DN
 
 ![Segno di spunta](assets/cleaner2.png)Può essere impostato come proprietario di Dropzone. Per ulteriori informazioni, vedere [Configurare la zona di rilascio in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![Segno di spunta](assets/cleaner2.png)Può accedere alla pagina di fatturazione e modificare i dettagli di fatturazione. Per ulteriori informazioni, vedere [Pagina fatturazione [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+![Segno di spunta](assets/cleaner2.png)Può accedere alla pagina di fatturazione e modificare i dettagli di fatturazione. Per ulteriori informazioni, vedere [Pagina fatturazione [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
 ![Segno di spunta](assets/cleaner2.png)Consente di accedere alla pagina Impostazioni account e modificare i dettagli dell&#39;account. Per ulteriori informazioni, vedere [Impostazioni account in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
@@ -132,7 +132,7 @@ Gli amministratori hanno accesso a [Impostazioni account](https://support.workfr
 
 ![X](assets/no2.png)Rosso: impossibile eliminare le cartelle private di altri utenti. Per ulteriori informazioni, vedere [Gestione cartelle in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![Rosso X](assets/no2.png)Impossibile accedere alla pagina Fatturazione o modificare i dettagli di fatturazione. Per ulteriori informazioni, vedere [Pagina fatturazione [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+![Rosso X](assets/no2.png)Impossibile accedere alla pagina Fatturazione o modificare i dettagli di fatturazione. Per ulteriori informazioni, vedere [Pagina fatturazione [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
 ### Supervisore {#supervisor}
 

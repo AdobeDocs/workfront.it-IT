@@ -128,7 +128,7 @@ Se hai bisogno di più bozze, risorse di archiviazione o utenti, puoi aggiornare
 
 Questa sezione mostra l’attività per qualsiasi periodo di fatturazione recente. È inoltre possibile scaricare le fatture da questa sezione.
 
-Per ulteriori informazioni, vedere &quot; [Download della fattura [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md) in corso.&quot;
+Per ulteriori informazioni, vedere &quot; [Download della fattura [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md) in corso.&quot;
 
 ## [!UICONTROL Attività fatturazione]
 

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Questa sezione contiene i seguenti articoli:
 
-* [Panoramica [!DNL Scenario Planner] ](../scenario-planner/scenario-planner-overview.md)
+* [Panoramica [!DNL Scenario Planner] &#x200B;](../scenario-planner/scenario-planner-overview.md)
 * [Introduzione a  [!DNL Scenario Planner]](../scenario-planner/get-started-with-scenario-planning.md)
 * [Accesso necessario per utilizzare  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)
 * [Panoramica dei piani in [!DNL Scenario Planner]](../scenario-planner/plans-overview.md)

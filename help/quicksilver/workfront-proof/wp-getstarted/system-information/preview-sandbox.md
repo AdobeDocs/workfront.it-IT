@@ -35,8 +35,8 @@ La sandbox di anteprima contiene i dati di produzione effettivi. I dati scorrono
 
 Per impostazione predefinita, in qualità di amministratore di sistema, hai accesso all’ambiente Sandbox di anteprima. Se non riesci ad accedere all&#39;ambiente Sandbox di anteprima come descritto in questa sezione, contatta l&#39;amministratore di [!DNL Workfront] o il nostro team di supporto.
 
-* [Accesso alla sandbox di anteprima come cliente autonomo [!DNL Workfront Proof] ](#accessing-the-preview-sandbox-as-a-stand-alone-workfront-proof-customer)
-* [Accesso alla sandbox di anteprima come cliente  [!DNL Workfront]+[!DNL Workfront Proof] ](#accessing-the-preview-sandbox-as-a-workfrontworkfront-proof-customer)
+* [Accesso alla sandbox di anteprima come cliente autonomo [!DNL Workfront Proof] &#x200B;](#accessing-the-preview-sandbox-as-a-stand-alone-workfront-proof-customer)
+* [Accesso alla sandbox di anteprima come cliente  [!DNL Workfront]+[!DNL Workfront Proof] &#x200B;](#accessing-the-preview-sandbox-as-a-workfrontworkfront-proof-customer)
 
 ### Accesso alla sandbox di anteprima come cliente [!DNL Workfront Proof] autonomo
 

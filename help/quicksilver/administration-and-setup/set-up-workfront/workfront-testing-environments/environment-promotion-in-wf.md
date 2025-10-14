@@ -29,7 +29,7 @@ Questo processo viene definito &quot;promozione dell&#39;ambiente&quot;.
    * [Creare o modificare un pacchetto di promozione dell’ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
    * [Installare un pacchetto di promozione dell’ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
-* Per istruzioni sull&#39;esecuzione di questo processo tramite l&#39;API Workfront, vedere [Spostare oggetti tra [!DNL Workfront] ambienti utilizzando l&#39;API [!DNL Workfront] ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md).
+* Per istruzioni sull&#39;esecuzione di questo processo tramite l&#39;API Workfront, vedere [Spostare oggetti tra [!DNL Workfront] ambienti utilizzando l&#39;API [!DNL Workfront] &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md).
 
 [Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3429735/){target=_blank}
 

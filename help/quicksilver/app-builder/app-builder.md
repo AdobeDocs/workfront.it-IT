@@ -180,7 +180,7 @@ Nella funzione ExtensionRegistration dovrebbe essere visualizzato il seguente co
     &quot;
 
 1. Aggiungi il seguente frammento di codice:
-   ![frammento di codice ](assets/7-extension-registration-step1-from-sam.png)
+   ![frammento di codice &#x200B;](assets/7-extension-registration-step1-from-sam.png)
 Questo esempio mostra una voce del menu principale. È necessario aggiornare ID, etichetta, icona e URL ai nomi corretti per l&#39;applicazione. Quando aggiungi più elementi, accertati che l’ID sia univoco.
 
 1. Salvare i dati.

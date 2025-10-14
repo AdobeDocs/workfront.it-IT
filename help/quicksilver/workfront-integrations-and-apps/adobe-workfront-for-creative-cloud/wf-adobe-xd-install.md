@@ -75,7 +75,7 @@ Gli amministratori di [!DNL Adobe Admin Console] possono anche creare pacchetti 
 
 È possibile installare il plug-in [!DNL Adobe Workfront for XD] da [!DNL Adobe Exchange].
 
-1. Vai alla [pagina di installazione di Adobe Workfront for XD](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share) in Adobe Exchange.
+1. Vai alla [pagina di installazione di Adobe Workfront for XD](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&workflow=share) in Adobe Exchange.
 1. Nella finestra di dialogo visualizzata, fai clic su **Apri [!DNL Adobe Creative Cloud] app desktop**.
 1. Una volta aperto Gestione plug-in [!DNL Adobe XD], fare clic su **[!UICONTROL Installa]**.
 1. Leggere le informazioni nella finestra di dialogo, quindi fare clic su **[!UICONTROL OK]**.

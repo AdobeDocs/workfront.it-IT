@@ -24,7 +24,7 @@ ht-degree: 4%
 
 Questa sezione contiene i seguenti articoli:
 
-* [Introduzione all&#39;integrazione  [!DNL Workfront Proof] e [!DNL Box] ](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
-* [Crea una bozza tramite l&#39;account  [!DNL Box] ](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
+* [Introduzione all&#39;integrazione  [!DNL Workfront Proof] e [!DNL Box] &#x200B;](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
+* [Crea una bozza tramite l&#39;account  [!DNL Box] &#x200B;](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
 * [Sincronizza [!DNL Box] Cartelle Con [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md)
 * [Visualizza il file originale di una bozza in [!DNL Box]](../../../workfront-proof/wp-integrations/box/view-proof-original-file-box.md)

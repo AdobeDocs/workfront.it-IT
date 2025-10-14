@@ -240,7 +240,7 @@ Oltre a copiare le attività in un elenco di attività, è possibile copiare un&
 
    L’attività viene visualizzata nell’elenco.
 
-   ![Selezionare l&#39;attività padre durante lo spostamento di un&#39;attività con funzionalità di ricerca ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Selezionare l&#39;attività padre durante lo spostamento di un&#39;attività con funzionalità di ricerca &#x200B;](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. Dopo averlo trovato, seleziona il pulsante di opzione relativo al genitore.
 

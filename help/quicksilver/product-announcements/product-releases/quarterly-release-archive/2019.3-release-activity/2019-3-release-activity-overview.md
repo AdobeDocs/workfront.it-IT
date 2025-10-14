@@ -467,4 +467,4 @@ Di seguito è riportata la timeline di rimozione per queste opzioni SSO:
 
 ### Webinar Q3 sulla roadmap dei prodotti {#q3-product-roadmap-webinar}
 
-Ulteriori informazioni su cosa verrà presentato durante il webinar [Q3 Roadmap](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=Product&amp;eventid=2040896&amp;sessionid=1&amp;key=EFBB434E2FDF446E010DA62D1C27E9E5&amp;regTag=&amp;sourcepage=register) il 1° agosto alle 9:00. MST
+Ulteriori informazioni su cosa verrà presentato durante il webinar [Q3 Roadmap](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=Product&eventid=2040896&sessionid=1&key=EFBB434E2FDF446E010DA62D1C27E9E5&regTag=&sourcepage=register) il 1° agosto alle 9:00. MST

@@ -33,7 +33,7 @@ Se sei un amministratore di [!DNL Workfront] Proof e hai uno o più account sate
 1. Selezionare un account di destinazione dall&#39;elenco degli account connessi (2).
 1. Assegna l’autorizzazione profilo (3) che questo utente deve avere sul nuovo account.
 1. Seleziona un utente (4) che dovrebbe diventare proprietario degli elementi che non verranno spostati.
-Ciò include gli elementi che deciderai di lasciare sul vecchio account e quelli che non puoi spostare (vedi [Elementi che non possono essere spostati](https://support.workfront.com/knowledge/articles/115004087708/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can&#39;t-be-moved) di seguito).
+Ciò include gli elementi che deciderai di lasciare sul vecchio account e quelli che non puoi spostare (vedi [Elementi che non possono essere spostati](https://support.workfront.com/knowledge/articles/115004087708/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can&#39;t-be-moved) di seguito).
 
 1. Seleziona le caselle di controllo se desideri spostare le bozze (5) e i file (6) insieme all’utente.
 1. Crea un nome per la cartella (7) in cui tutti gli elementi spostati verranno inseriti nel nuovo account.

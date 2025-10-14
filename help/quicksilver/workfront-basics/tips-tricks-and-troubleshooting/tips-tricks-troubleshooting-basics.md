@@ -20,8 +20,8 @@ Scopri suggerimenti per la risoluzione dei problemi e risposte alle domande freq
 
 * [La tua guida rapida per trovare aiuto in [!DNL Adobe Workfront]](../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
 * [Contatta l’Assistenza clienti](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
-* [Community  [!DNL Adobe Workfront] ](../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md)
-* [Sito di stato  [!DNL Adobe Workfront] ](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)
+* [Community  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md)
+* [Sito di stato  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)
 * [Il [!UICONTROL Laboratorio di innovazione]](../../workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md)
 * [Utilizzo dei fusi orari](../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md)
 * [[!DNL Workfront] [!UICONTROL Risoluzione dei problemi relativi alle autorizzazioni di Gestione bozze]](../../workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)

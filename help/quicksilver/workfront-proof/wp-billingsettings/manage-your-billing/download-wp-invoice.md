@@ -57,7 +57,7 @@ Per impostazione predefinita, emettiamo tutte le nostre fatture automatiche per 
 
 ## Collegamenti utili {#useful-links}
 
-Per modificare le informazioni di fatturazione sul tuo account, vai alla sezione Contatto fatturazione e indirizzo della pagina Fatturazione. Vedi [Pagina Fatturazione bozza [!DNL Workfront] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+Per modificare le informazioni di fatturazione sul tuo account, vai alla sezione Contatto fatturazione e indirizzo della pagina Fatturazione. Vedi [Pagina Fatturazione bozza [!DNL Workfront] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
 Per informazioni su come modificare i dettagli della carta di credito sul tuo account, consulta [Scelta del metodo di pagamento in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md).
 

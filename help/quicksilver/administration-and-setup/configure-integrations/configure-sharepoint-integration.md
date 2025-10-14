@@ -158,8 +158,8 @@ Se una risorsa è stata caricata per la prima volta in [!DNL Workfront] e quindi
 
 Per garantire agli utenti un accesso continuo ai documenti collegati a Workfront tramite l&#39;integrazione legacy di [!DNL SharePoint], è necessario riconfigurare l&#39;accesso all&#39;integrazione legacy di [!DNL SharePoint] e mantenere aggiornato il segreto client di SharePoint.
 
-* [Riconfigura l&#39;accesso all&#39;integrazione legacy [!DNL SharePoint] ](#reconfigure-access-to-the-legacy-sharepoint-integration)
-* [Configura il segreto client per l&#39;accesso continuo all&#39;integrazione legacy [!DNL SharePoint] ](#configure-the-client-secret-for-continued-access-to-the-legacy-sharepoint-integration)
+* [Riconfigura l&#39;accesso all&#39;integrazione legacy [!DNL SharePoint] &#x200B;](#reconfigure-access-to-the-legacy-sharepoint-integration)
+* [Configura il segreto client per l&#39;accesso continuo all&#39;integrazione legacy [!DNL SharePoint] &#x200B;](#configure-the-client-secret-for-continued-access-to-the-legacy-sharepoint-integration)
 
 ### Riconfigura l&#39;accesso all&#39;integrazione legacy di [!DNL SharePoint]
 

@@ -31,7 +31,7 @@ Puoi creare istruzioni &quot;IF&quot; per i seguenti elementi di Workfront:
 * Campi personalizzati calcolati
 * Regole di business
 
-Per ulteriori informazioni sulla compilazione delle istruzioni &quot;IF&quot;, vedere [ Panoramica delle istruzioni &quot;IF&quot;](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
+Per ulteriori informazioni sulla compilazione delle istruzioni &quot;IF&quot;, vedere [&#x200B; Panoramica delle istruzioni &quot;IF&quot;](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
 
 Gli esempi in questa guida illustrano l’utilizzo degli operatori condizione nei campi personalizzati calcolati. Puoi utilizzarli anche in colonne o raggruppamenti personalizzati calcolati, seguendo la sintassi corretta per i campi personalizzati calcolati nei rapporti.
 

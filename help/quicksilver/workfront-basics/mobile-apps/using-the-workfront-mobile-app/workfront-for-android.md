@@ -113,9 +113,9 @@ L&#39;area [!UICONTROL Approvazioni] consente di visualizzare e approvare le app
  </tbody>
 </table>
 
-Per ulteriori informazioni sulle approvazioni, consulta [Approvazioni nell&#39;app mobile [!DNL Adobe Workfront] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
+Per ulteriori informazioni sulle approvazioni, consulta [Approvazioni nell&#39;app mobile [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
 
-Per informazioni sulla revisione e l&#39;approvazione delle bozze, consulta [Rivedi e prendi decisioni sulle bozze nell&#39;app mobile [!DNL Adobe Workfront] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+Per informazioni sulla revisione e l&#39;approvazione delle bozze, consulta [Rivedi e prendi decisioni sulle bozze nell&#39;app mobile [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
 ![Elenco approvazioni nell&#39;app mobile](assets/mobile-approvals-adobe-350x574.png)
 

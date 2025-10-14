@@ -24,4 +24,4 @@ ht-degree: 0%
 
 Questa sezione contiene i seguenti articoli:
 
-* [L&#39;API  [!DNL Workfront Proof] ](../../../workfront-proof/wp-integrations/api/workfront-proof-api.md)
+* [L&#39;API  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-integrations/api/workfront-proof-api.md)

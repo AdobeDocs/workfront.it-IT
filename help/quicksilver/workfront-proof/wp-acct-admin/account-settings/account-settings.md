@@ -37,5 +37,5 @@ Questa sezione contiene i seguenti articoli:
 * [Visualizza registri di autenticazione in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/view-auth-logs-in-wp.md)
 * [Visualizza e modifica i dettagli dell&#39;account  [!DNL Workfront Proof]  della tua organizzazione](../../../workfront-proof/wp-acct-admin/account-settings/view-edit-org-wp-acct-details.md)
 * [Visualizza la cronologia degli account dell&#39;amministratore  [!DNL Workfront Proof]  della tua organizzazione](../../../workfront-proof/wp-acct-admin/account-settings/view-org-wp-acct-history.md)
-* [Controlla l&#39;archivio  [!DNL Workfront Proof] ](../../../workfront-proof/wp-acct-admin/account-settings/check-workfront-proof-storage.md)
+* [Controlla l&#39;archivio  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-acct-admin/account-settings/check-workfront-proof-storage.md)
 * [Richiedi un nuovo backup dei dati in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/request-new-data-backup-in-wp.md)
