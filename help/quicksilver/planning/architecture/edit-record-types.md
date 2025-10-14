@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '686'
 ht-degree: 2%
 
 ---
@@ -100,14 +100,15 @@ I tipi di record sono i tipi di oggetto di Adobe Workfront Planning. È possibil
 1. Esegui una delle operazioni seguenti:
 
    * Passa il puntatore del mouse sulla scheda di un tipo di record e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) nell&#39;angolo superiore destro della scheda del tipo di record, quindi fai clic su **Modifica**
+     <!--<span class="preview">or **Settings**</span>-->
 Oppure
-   * <span class="preview">Fare clic su una scheda del tipo di record per aprire la pagina del tipo di record, fare clic sul menu **Altro** ![Altro](assets/more-menu.png) a destra del nome del tipo di record, quindi fare clic su **Modifica**. </span>
+   * <span class="preview">Fare clic su una scheda del tipo di record per aprire la pagina del tipo di record, fare clic sul menu **Altro** ![Altro](assets/more-menu.png) a destra del nome del tipo di record, quindi fare clic su **Modifica**<!--<span class="preview">or **Settings**</span>. </span>-->
 
-   <span class="preview">![Altre opzioni di menu dalla scheda del tipo di record](assets/more-menu-options-from-record-type-card.png)</span>
+   <!--<span class="preview">![More menu options from record type card](assets/more-menu-options-from-record-type-card.png)</span>-->
 
-1. Nella casella **Modifica tipo di record**, per impostazione predefinita viene aperta la scheda **Aspetto**.
+1. Nella casella **Modifica tipo di record**, per impostazione predefinita viene aperta la scheda **Aspetto**. <!--update screen shot below at preview-->
 
-   ![Modifica la scheda dell&#39;aspetto della casella del tipo di record &#x200B;](assets/edit-record-type-box-appearance-tab.png)
+   ![Modifica la scheda dell&#39;aspetto della casella del tipo di record ](assets/edit-record-type-box-appearance-tab.png)
 
    Aggiorna le seguenti informazioni nella scheda **Aspetto**:
 
@@ -117,37 +118,26 @@ Oppure
       * Selezionare un colore per identificare il tipo di record. Colore dell&#39;icona del tipo di record.
       * Seleziona un’icona dall’elenco, oppure inizia a digitare il nome di un’icona per descrivere ciò che rappresenta, quindi selezionala quando viene visualizzata. Icona del tipo di record. Per impostazione predefinita, viene selezionata un&#39;icona di file.
 
-   <!--old info: 
-   1. (Conditional) If you are a system administrator, click the **Advanced settings** tab in the **Edit record type** box. 
-      ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
-   1. (Conditional) Update the following information in the **Advanced settings** tab: 
-      * Enable the **Connect from other workspace** setting. When enabled, the record type is accessible and can be connected from other workspaces. 
-      * Choose from which workspaces the record type can be accessed. Choose from the following options:
-         * **System wide**: Users can connect to this record type from all workspaces where they have manage permissions. 
-         * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type.-->
 
-
-1. (Facoltativo e condizionale) Se sei un amministratore di sistema, fai clic su **Impostazioni avanzate** e aggiorna le seguenti informazioni nella sezione **Funzionalità per più aree di lavoro**: <!--take this info out and replace it with a link to this article: help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md-->
+1. (Facoltativo e condizionale) Se sei un amministratore di sistema, fai clic su **Impostazioni avanzate** e aggiorna le seguenti informazioni nella sezione **Funzionalità per più aree di lavoro**: <!--the info here is duplicated in the Create record types article-->
    * Abilita l&#39;impostazione **Consenti connessione a questo tipo di record in altre aree di lavoro**: consente ai manager delle aree di lavoro di connettersi a questo tipo di record da altre aree di lavoro.\
      È possibile specificare le aree di lavoro da cui è possibile collegare questo tipo di record. È possibile renderlo disponibile per tutte le aree di lavoro o designarne di specifiche in cui è possibile importarlo.
 Per ulteriori informazioni, vedere [Configurare le funzionalità tra aree di lavoro diverse per i tipi di record](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
-   ![Scheda Impostazioni avanzate della casella Modifica tipo di record](assets/edit-record-type-box-advanced-settings-tab.png)
 
-   <!--replace last point with this when we release dynamic record types:
-      1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: **** the info here is duplicated in the Edit record types article ***
-         * Enable the **Allow adding this record type to other workspaces** setting: This allows workspace managers to add this record type to other workspaces. 
-               You can designate specific users who can add this record type to other workspaces. 
-         * Enable the **Allow connecting to this record type in other workspaces** setting: This allows workspace managers to connect to this record type from other workspaces.  
-               You can designate which workspaces this record type can be connected from. You can make it available for all workspaces or designate specific ones where you can import it.
-         For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).  
-         ******** replace screen shot below **********
-         ![Create record type box on advanced settings tab](assets/create-record-type-box-advanced-settings-tab.png) 
-      -->
+   ![Casella Crea tipo di record nella scheda Impostazioni avanzate](assets/create-record-type-box-advanced-settings-tab.png)
+
+   <!--replace last point with this when we release global record types; the preview tags might need to be edited, too:
+    1. <span class="preview">(Optional and conditional) If you are a system administrator, update the information in the **Cross-workspace settings** tab.</span>
+    <span class="preview">For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).</span>
+    ***********Add screenshot***********
+    -->
 
 1. Fai clic su **Salva**.
 
    La scheda del tipo di record nell&#39;area di lavoro visualizza un&#39;icona di connettività ![Connetti da altre aree di lavoro](assets/connect-from-other-workspaces-icon.png) nell&#39;angolo superiore destro per indicare che il record è ora accessibile da altre aree di lavoro.
+
+   <!--replace the blurb above after "Save" with this: <span class="preview">If you configured the cross-workspace capabilities for the record, the **connectable record type** icon ![Connectable record type icon](assets/connect-from-other-workspaces-icon.png) and the **global record type** icon ![Global record type icon](assets/global-icon.png) also display on the card. </span>-->
 
 1. (Facoltativo) Fai clic sulla scheda del tipo di record nell’area di lavoro per aprire la pagina del tipo di record, quindi rinomina il tipo di record nell’intestazione.
 

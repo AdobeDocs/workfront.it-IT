@@ -6,13 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 2%
 
 ---
 
+
+<!--keep the global record type reference in yellow till January 2026-->
 
 # Elimina tipi di record
 
@@ -32,7 +34,7 @@ Per informazioni sui tipi di record, vedere [Panoramica sui tipi di record](/hel
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.
++++ Espandere per visualizzare i requisiti di accesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -92,7 +94,7 @@ Per informazioni sui tipi di record, vedere [Panoramica sui tipi di record](/hel
 
 *Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 
 ## Considerazioni durante l’eliminazione dei tipi di record
@@ -108,6 +110,21 @@ Per informazioni sui tipi di record, vedere [Panoramica sui tipi di record](/hel
 * Il tipo di record viene rimosso da tutti gli utenti che accedono all’area di lavoro.
 * Non è possibile recuperare i tipi di record eliminati o le relative informazioni.
 * È consigliabile ricreare i campi e i record associati al tipo di record che si desidera eliminare in un altro tipo di record prima di eliminarli.
+
+<!--
+
+<div class="preview">
+
+* You cannot delete a global record type that has been added to other workspaces. 
+   
+   You must first delete it from the secondary workspaces where it's been added, before you can delete it from its original workspace. 
+
+   Deleting a global record type from their secondary workspaces only remove them, their records, and that workspace's fields from the secondary workspace. It does not delete the global record type from its original workspace.
+
+   For information, see the section "Delete a global record type from a secondary workspace" in the article [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). 
+
+</div>
+-->
 
 ## Elimina tipi di record
 
@@ -127,6 +144,13 @@ Per informazioni sui tipi di record, vedere [Panoramica sui tipi di record](/hel
 
    ![Conferma eliminazione definitiva tipo di record](assets/permanently-delete-record-type-confirmation.png)
 
+   <!--[!TIP]
+   >
+   ><span class="preview">You cannot delete global record types added to other workspaces. First, delete the global record types form their secondary workspaces before deleting them from the original workspace.</span>-->
+
+
 1. Digita **delete** nella casella di conferma, quindi fai clic su **Delete** definitivamente. Non fa distinzione tra maiuscole e minuscole.
 
    Il tipo di record selezionato, insieme ai relativi campi, record associati e viste, viene eliminato e non può essere recuperato.
+
+

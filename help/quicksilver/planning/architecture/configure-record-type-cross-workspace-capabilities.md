@@ -1,12 +1,12 @@
 ---
 title: Configurare le funzionalità tra aree di lavoro diverse per i tipi di record
-description: È possibile abilitare un tipo di record per l'aggiunta a un'altra area di lavoro o per la connessione da un'altra area di lavoro.
+description: È possibile abilitare un tipo di record per l'aggiunta a un'altra area di lavoro o per la connessione da un'altra area di lavoro in Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1329'
 ht-degree: 0%
 
 ---
@@ -20,28 +20,18 @@ recommendations: noDisplay, noCatalog
 
 -->
 
-<!--*******************REPLACE THE "ADVANCED SETTINGS" SECTION IN THE "EDIT RECORD TYPES" ARTICLE WITH A LINK TO THIS ARTILE INSTEAD AND REMOVE THE STEPS FROM THE "EDIT RECORD TYPES" ARTICLE ON HOW TO ALLOW CROSS-WORKSPACE SETTINGS FOR RECORD TYPES*************-->
+<!--*******************REPLACE THE "ADVANCED SETTINGS" SECTION IN THE "EDIT RECORD TYPES" ARTICLE WITH A LINK TO THIS ARTICLE INSTEAD AND REMOVE THE STEPS FROM THE "EDIT RECORD TYPES" ARTICLE ON HOW TO ALLOW CROSS-WORKSPACE SETTINGS FOR RECORD TYPES*************-->
 
 
 <!--this article is linked to the UI - do not delete or change the URL-->
 
-<!--THIS MIGHT ALREADY BE ADDED TO THE "OVERVIEW" ARTICLE, BUT CHECK: add more info here about permissions, how users gain permissions from the original record type, per Lilit: users who add this to another space gain View permissions on that space when they add records to this added record type - this info is in the UI - this is what she sent in figma:
-
-Hey, Alina, Lusine. As this page contains not only the "global record types" but also cross-workspace connectivity setting, we shouldn't have this message that's highlighting only the global rt features. I think we should have explanation for each setting both in enabled and disabled states. 
-
-So we'd have the "Allow adding this record type to other workspaces" setting in enabled or disabled state, and display an explanation text below it explaining the capability, as well as a link to help articles for more context. I'd like to include the following key points in the message:  
-
-Once enabled, this record type can be added in other workspaces by designated people 
-
-Members of those workspaces can create and manage records in scope of their workspace 
-
-Any records added by other workspace members will be rolled up to this workspace with view access so members of the current workspace can create views for cross-workspace records.  
-
-Then for the second setting for cross-workspace connections, we'll need a similar explanation text would highlight that the other workspaces can create connections and gain view access to the records in this record type, but will not see the record type in their workspace. (not sure what she means by this last bit, asking in figma also)
+<!--THIS MIGHT ALREADY BE ADDED TO THE "OVERVIEW" ARTICLE, BUT CHECK: add more info here about permissions, how users gain permissions from the original record type, per Lilit: users who add this to another space gain View permissions on that space when they add records to this added record type.
 
 -->
 
 # Configurare le funzionalità tra aree di lavoro diverse per i tipi di record
+
+{{planning-important-intro}}
 
 <!--this is linked to the UI in the info icon when you enable a record to be either global or connectable-->
 
@@ -49,14 +39,14 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 <span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-È possibile configurare i tipi di record in modo che funzionino in più aree di lavoro.
+In Adobe Workfront Planning è possibile configurare i tipi di record in modo che funzionino in più aree di lavoro.
 
-Di seguito sono riportate le funzionalità dei tipi di record in più aree di lavoro:
+È possibile designare un tipo di record come uno dei seguenti:
 
-* È possibile designare un tipo di record come globale. Gli utenti possono aggiungere tipi di record globali ad altre aree di lavoro che possono gestire.
-* È possibile designare un tipo di record come collegabile. Gli utenti possono connettersi a questo tipo di record da altre aree di lavoro.
+* **Tipo di record globale**: gli utenti possono aggiungere tipi di record globali ad altre aree di lavoro gestibili.
+* **Tipo di record collegabile**: gli utenti possono connettersi a questo tipo di record da altre aree di lavoro.
 
-È necessario innanzitutto definire le funzionalità di un tipo di record in più aree di lavoro prima che i responsabili dell&#39;area di lavoro possano collegarlo o aggiungerlo ad altre aree di lavoro.
+È necessario innanzitutto definire le funzionalità di un tipo di record in più aree di lavoro prima che i responsabili dell&#39;area di lavoro possano aggiungerlo o collegarlo da altre aree di lavoro.
 
 Quando si crea o si modifica un tipo di record, è possibile definire le funzionalità di un tipo di record in più aree di lavoro.
 
@@ -87,21 +77,20 @@ Per informazioni, vedere uno degli articoli seguenti:
 <li><p>Qualsiasi pacchetto Planning per la creazione di tipi di record collegabili</p></li>
 <li><p>Pacchetto Planning Plus per la creazione di tipi di record globali</p></li>
 </ul>
-<!--Or:
-<ul><li><p>Any Workflow package</p> </li>
-And
-<li><p>Planning Prime or Ultimate package</p></li></ul>-->
+Oppure:
+<ul><li><p>Un pacchetto Workflow Prime o Ultimate</p> </li>
+E
+<li><p>Un pacchetto Planning Prime o Ultimate</p></li></ul>
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto di Workfront Planning, contattare l'account manager Workfront. </p> 
-   </td>
-
-<tr> 
+   </td> 
+  <tr> 
    <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
-   <td>   <p>Gestione delle autorizzazioni per un'area di lavoro</a> </p>  
+   <td>   <p>Gestione delle autorizzazioni per un'area di lavoro e per il tipo di record</a> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  </td> 
   </tr>  
 </tbody> 
@@ -117,9 +106,9 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 In qualità di responsabile dell&#39;area di lavoro, è possibile configurare un tipo di record come tipo di record globale. È possibile aggiungere un tipo di record globale ad altre aree di lavoro.
 
-Un gestore dell&#39;area di lavoro può aggiungere un tipo di record globale a un&#39;area di lavoro gestita. Vengono aggiunti anche i campi originali del tipo di record.
+Un gestore dell&#39;area di lavoro può aggiungere un tipo di record globale a un&#39;area di lavoro gestita. I campi originali del tipo di record vengono aggiunti anche all&#39;area di lavoro secondaria.
 
-Gli utenti possono aggiungere record a un tipo di record globale da qualsiasi area di lavoro per cui dispongono delle autorizzazioni Contribute e in cui viene aggiunto il tipo di record globale, inclusa l&#39;area di lavoro originale. Possono visualizzare i record dall’area di lavoro a cui dispongono solo delle autorizzazioni di visualizzazione.
+Gli utenti possono aggiungere record a un tipo di record globale da qualsiasi area di lavoro in cui dispongono delle autorizzazioni Contribute e in cui viene aggiunto il tipo di record globale, inclusa l&#39;area di lavoro originale. Possono visualizzare i record dalle aree di lavoro a cui dispongono solo delle autorizzazioni di visualizzazione.
 
 Per ulteriori informazioni, vedere [Panoramica sui tipi di record tra aree di lavoro](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
@@ -145,7 +134,7 @@ Per configurare un tipo di record come globale:
 
 1. (Condizionale) Se hai fatto clic su **Modifica**, nella casella **Modifica tipo di record**, fai clic sulla scheda **Impostazioni per più aree di lavoro**
 
-   Oppure, se hai fatto clic su **Impostazioni**, vai alla sezione **Impostazioni per più aree di lavoro** nel pannello a sinistra.
+   Oppure, se hai fatto clic su **Impostazioni**, fai clic sulla sezione **Impostazioni per più aree di lavoro** nel pannello a sinistra.
 1. Abilita l&#39;impostazione **Consenti l&#39;aggiunta di questo tipo di record ad altre aree di lavoro**.
 
    ![Modifica impostazioni tra aree di lavoro del tipo di record con l&#39;opzione Aggiungi ad altre aree di lavoro abilitata](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
@@ -158,7 +147,7 @@ Per configurare un tipo di record come globale:
 
    Il tuo nome viene aggiunto automaticamente nel campo.
 
-   È possibile aggiungere singoli utenti o gruppi, team, mansioni o società di cui si desidera consentire l&#39;aggiunta di questo tipo di record alle aree di lavoro che gestiscono.
+   È possibile aggiungere singoli utenti, gruppi, team, mansioni o società di cui si desidera consentire l&#39;aggiunta di questo tipo di record alle aree di lavoro che gestiscono.
 
    È possibile modificare questo campo dopo aver salvato il tipo di record.
 
@@ -167,7 +156,6 @@ Per configurare un tipo di record come globale:
    >[!TIP]
    >
    >È necessario designare almeno un&#39;entità (utente, team, gruppo, mansione o società) per abilitare questa impostazione.
-
 
 1. (Condizionale) Fai clic su **Salva** nella casella **Modifica tipo di record** oppure fai clic sulla freccia indietro a sinistra di **Impostazioni** nell&#39;intestazione della pagina per salvare le modifiche.
 
@@ -179,7 +167,7 @@ Per configurare un tipo di record come globale:
    >
    >È possibile modificare l&#39;aspetto e le impostazioni del tipo di record e i relativi campi originali solo dall&#39;area di lavoro originale.
 
-   * Nella scheda del tipo di record viene visualizzata l&#39;icona globale ![Icona del tipo di record globale](assets/global-icon.png) per indicare che il tipo di record è disponibile per l&#39;aggiunta ad altre aree di lavoro.
+   * Nella scheda del tipo di record viene visualizzata l&#39;icona **tipo di record globale** ![Tipo di record globale](assets/global-icon.png) per indicare che il tipo di record è disponibile per l&#39;aggiunta ad altre aree di lavoro.
    * Un campo **Workspace** generato dal sistema viene aggiunto alla vista tabella del tipo di record e dei relativi dettagli.
 
      Nel campo Workspace viene visualizzata l&#39;area di lavoro da cui viene creato ogni record.
@@ -188,6 +176,13 @@ Per configurare un tipo di record come globale:
 1. (Facoltativo) Passare a un&#39;altra area di lavoro e creare un tipo di record utilizzando un tipo di record esistente. Selezionare il tipo di record abilitato nei passaggi precedenti.
 
    Per informazioni, vedere [Aggiungere tipi di record esistenti da un&#39;altra area di lavoro](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
+
+   Il tipo di record aggiunto da un tipo di record globale nell&#39;area di lavoro secondaria visualizza anche un&#39;icona **tipo di record globale** ![icona tipo di record globale](assets/global-icon.png).
+1. (Facoltativo) Tornare all&#39;area di lavoro originale in cui è stato creato il tipo di record globale e modificare il tipo di record seguendo i passaggi da 1 a 4 sopra <!--ensure this stays accurate-->
+1. (Facoltativo) Esaminare l&#39;elenco delle aree di lavoro in cui il record globale è stato aggiunto nelle **aree di lavoro in cui viene utilizzato questo tipo di record, sezione**.
+
+   ![Aree di lavoro in cui viene utilizzato questo tipo di record](assets/workspaces-where-this-record-type-is-used.png)
+
 
 ## Configura tipi di record collegabili
 
@@ -213,9 +208,11 @@ Per configurare un tipo di record come collegabile:
 
 1. (Condizionale) Se hai fatto clic su **Modifica**, nella casella **Modifica tipo di record**, fai clic sulla scheda **Impostazioni per più aree di lavoro**
 
-   Oppure, se hai fatto clic su **Impostazioni**, vai alla sezione **Impostazioni per più aree di lavoro** nel pannello a sinistra.
+   Oppure, se hai fatto clic su **Impostazioni**, fai clic sulla sezione **Impostazioni per più aree di lavoro** nel pannello a sinistra.
 
 1. Abilita l&#39;impostazione **Consenti la connessione a questo tipo di record in altre aree di lavoro**. <!-- check the setting name, I sent this to Lilit to say FROM instead of IN-->
+
+   <!-- add new screen shot with new tab name-->
 
    ![Modifica tipo di record Scheda Impostazioni area di lavoro incrociata con connessione da altre aree di lavoro abilitata](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
 
@@ -223,16 +220,17 @@ Per configurare un tipo di record come collegabile:
 
 1. Scegliere le aree di lavoro da cui è possibile accedere al tipo di record. Scegli una delle seguenti opzioni:
 
-   * **A livello di sistema**: gli utenti possono connettersi a questo tipo di record da tutte le aree di lavoro per le quali dispongono delle autorizzazioni di gestione.
-   * **Aree di lavoro specifiche**: aggiungere i nomi delle aree di lavoro a cui i responsabili area di lavoro possono connettersi a questo tipo di record.
+   <!--check names of the setting: System wide?? OR All workspaces??-->
+
+   * **Tutte le aree di lavoro**: gli utenti possono connettersi a questo tipo di record da tutte le aree di lavoro per le quali dispongono delle autorizzazioni di gestione.
+   * **Aree di lavoro specifiche**: aggiungere dal menu a discesa i nomi delle aree di lavoro a cui i responsabili dell&#39;area di lavoro possono connettersi a questo tipo di record.
 1. (Condizionale) Fai clic su **Salva** nella casella **Modifica tipo di record** oppure fai clic sulla freccia indietro a sinistra di **Impostazioni** nell&#39;intestazione della pagina per salvare le modifiche.
 
    Si verificano le seguenti situazioni:
 
    * Il tipo di record e i relativi campi sono ora disponibili per la connessione alle aree di lavoro specificate.
-   * Nella scheda del tipo di record viene visualizzata l&#39;icona di connessione tra più aree di lavoro ![Icona di connessione tra aree di lavoro](assets/connect-from-other-workspaces-icon.png) per indicare che il tipo di record è disponibile per la connessione da qualsiasi area di lavoro designata nella configurazione.
+   * Nella scheda del tipo di record viene visualizzata l&#39;icona del tipo di record collegabile ![Icona del tipo di record collegabile](assets/connect-from-other-workspaces-icon.png) per indicare che il tipo di record è disponibile per la connessione da qualsiasi area di lavoro designata nella configurazione.
 
-   Il tipo di record diventa disponibile per la connessione alle aree di lavoro specificate.
 1. (Facoltativo) Vai a un’altra area di lavoro e aggiungi una connessione al tipo di record abilitato per la connessione tra aree di lavoro diverse nei passaggi precedenti.
 
    Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).

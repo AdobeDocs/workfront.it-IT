@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
 source-wordcount: '2764'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 
 
 # Modifica record
+
+<!--keep the choice values information in yellow till Jan 2026-->
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
@@ -405,5 +407,7 @@ Per aggiungere una nuova scelta a un campo di selezione esistente durante la mod
    ![Aggiungi la scelta nel campo a selezione singola nella vista tabella](assets/add-choice-in-table-view-for-single-select-field.png)
 
    La nuova scelta viene aggiunta immediatamente al campo a selezione singola.
+
+   <!--<span class="preview">A new choice value is also added to each choice. You can use the choice values in API calls or other integrations. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). </span>-->
 
 </div>

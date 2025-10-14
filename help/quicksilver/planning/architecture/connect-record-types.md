@@ -6,13 +6,15 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
-source-wordcount: '2764'
+source-wordcount: '2817'
 ht-degree: 1%
 
 ---
 
+
+<!--keep the 30 fields limit in yellow till Jan 2026; also the global record type cross-workspace capability information-->
 
 # Connetti tipi di record
 
@@ -28,16 +30,20 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 È possibile connettere tipi di record tra loro o collegare tipi di record con tipi di oggetti di altre applicazioni.
 
-La connessione dei tipi di record è utile quando si dispone di diversi tipi di oggetti di lavoro che influiscono l&#39;uno sull&#39;altro. Ad esempio, puoi utilizzare le campagne e ogni campagna può gestire più marchi. Per indicare questa relazione, puoi collegare le campagne ai brand. Inoltre, il lavoro per ogni campagna potrebbe essere pianificato in più progetti in Workfront. Per indicare questo, puoi collegare le campagne ai relativi progetti. La connessione di tipi di record e la successiva connessione di singoli record consente di ottenere questa relazione in Workfront Planning.
+La connessione dei tipi di record è utile quando si dispone di diversi tipi di oggetti di lavoro che influiscono l&#39;uno sull&#39;altro. Ad esempio, puoi utilizzare le campagne e ogni campagna può gestire più marchi. Per indicare questa relazione, puoi collegare le campagne ai brand. In questo modo viene creato un campo di connessione per i marchi nel record Campaign.
+
+Inoltre, il lavoro per ogni campagna potrebbe essere pianificato in più progetti in Workfront. Per indicare questo, puoi collegare le campagne ai relativi progetti. In questo modo viene creato un campo di connessione per i progetti nel record Campaign.
+
+Dopo aver creato i campi di connessione, è possibile collegare singoli record tra i due tipi di record o di oggetti.
+
+<!--
+>[!NOTE]
+>
+><span class="preview">You can have up to 30 connection fields for one record type.</span>-->
 
 Questo articolo descrive come collegare due tipi di record di Workfront Planning o un tipo di record di Workfront Planning a un oggetto di un&#39;altra applicazione.
 
 Dopo aver stabilito la connessione tra record o tipi di oggetto, viene aggiunto un campo di connessione a un tipo di record Planning. Nel campo connessione è possibile connettere singoli record e visualizzare i campi del record o dei tipi di oggetto collegati in un record di Workfront Planning.
-
-<!--
->[!CAUTION]
->
-><span class="preview">One record type can have up to 30 connection fields.</span>-->
 
 Per informazioni generali sui tipi di connessione, vedere [Panoramica sui tipi di record connessi](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -46,6 +52,7 @@ Per informazioni sulla connessione di record o record con oggetti di altre appli
 Per un esempio di connessione di tipi di record e record, vedere [Esempio di connessione di tipi di record e record](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md).
 
 <!--ensure this last linked article is right; the title and the link should have changed-->
+
 
 ## Requisiti di accesso
 
@@ -146,6 +153,13 @@ Per un esempio di connessione di tipi di record e record, vedere [Esempio di con
 
    * Tipo di record di un&#39;altra area di lavoro configurata per la connessione da altre aree di lavoro.
 
+     <!--replace the tip below with this at the preview release for global RTs and replace screen shot in the tip:
+        >[!TIP]
+        >
+        >The **Allow connecting to this record type in other workspaces** setting must be enabled for a record type in the <span class="preview">**Cross-workspace settings**</span> tab of the **Edit record type** box, for a record type to be accessible from other workspaces. If there are no record types that are configured to connect from other workspaces, the workspace section does not display. 
+        >
+        >For information, see [Configure cross-workspace capabilities for record type](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).-->
+
      >[!TIP]
      >
      >L&#39;impostazione **Consenti connessione a questo tipo di record in altre aree di lavoro** deve essere abilitata per un tipo di record nella scheda **Impostazioni avanzate** della casella **Modifica tipo di record** affinché un tipo di record sia accessibile da altre aree di lavoro. Se non sono presenti tipi di record configurati per la connessione da altre aree di lavoro, la sezione area di lavoro non viene visualizzata.
@@ -228,7 +242,7 @@ Per un esempio di connessione di tipi di record e record, vedere [Esempio di con
 
    >[!NOTE]
    >
-   >L&#39;amministratore di Workfront può mappare i campi di Workfront Planning sui campi di Experience Manager Assets tramite la mappatura dei metadati in Workfront. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >L&#39;amministratore di Workfront può mappare i campi di Workfront Planning sui campi di Experience Manager Assets tramite la mappatura dei metadati in Workfront. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Condizionale) Quando si sceglie di connettersi a Experience Manager Assets o a un tipo di record di Workfront Planning, scegliere una delle opzioni seguenti nell&#39;area **Aspetto record**:
@@ -346,13 +360,13 @@ Per un esempio di connessione di tipi di record e record, vedere [Esempio di con
 
      Ad esempio, se hai collegato un tipo di record Campaign con un tipo di record Programma e denomini il campo del record collegato al Programma &quot;Informazioni sul programma&quot;, selezionato per visualizzare anche il campo Budget del programma nella vista tabella della campagna, il campo collegato viene automaticamente denominato `Budget (from Program information)` nella vista tabella della campagna.
 
-   * Quando si collegano tipi di record tra loro, viene aggiunto anche un campo record collegato al tipo di record a cui si sta effettuando il collegamento: <!--<span class="preview">only when you enable the Create corresponding field on linked record type setting.</span>--> Il nome del campo record collegato nel tipo di record collegato è il nome del tipo di record da cui si effettua il collegamento.
+   * Quando si collegano tipi di record tra loro, viene aggiunto anche un campo record collegato al tipo di record a cui si sta effettuando il collegamento, <span class="preview">solo se si abilita l&#39;impostazione Crea campo corrispondente sul tipo di record collegato.</span> Il nome del campo del record collegato nel tipo di record collegato è il nome del tipo di record da cui si effettua il collegamento.
 
      Ad esempio, se colleghi il tipo di record &quot;Prodotto&quot; dal tipo di record &quot;Campagna&quot; e hai denominato il campo connesso della campagna &quot;Prodotto collegato&quot;, viene creato un campo di record collegato &quot;Campagna&quot; per il tipo di record Prodotto.
 
      >[!TIP]
      >
-     > Non viene creato un campo record collegato per gli oggetti di un&#39;altra applicazione al tipo di record da cui si esegue il collegamento in Workfront Planning. <!--<span class="preview">We recommend not creating links on taxonomical record types, as there is a limit of 500 fields for every record type.</span>-->
+     > Non viene creato un campo record collegato per gli oggetti di un&#39;altra applicazione nelle rispettive applicazioni. <span class="preview">È consigliabile non creare collegamenti sui tipi di record tassonomici, in quanto esiste un limite di 500 campi <!--<span class="preview">and a limit of 30 connected fields</span>--> per ogni tipo di record.</span>
 
    <!--see the span preview text in the TIP above; it might not show up in green-->
 
