@@ -74,7 +74,7 @@ Puoi configurare le seguenti integrazioni per la gestione dei documenti:
 
 * [!DNL Workfront Proof]
 
-  Il collegamento delle bozze da [!DNL Workfront Proof] consente di rendere disponibili in [!DNL Workfront] le bozze create in origine in [!DNL Workfront Proof]. Per i piani correnti, è necessario un piano [!UICONTROL Pro] [!DNL Workfront] o superiore per utilizzare questa funzione. Per i nuovi piani, questa funzione è disponibile con tutti i piani. Per ulteriori informazioni sui vari piani disponibili, vedere [Piani Workfront](https://business.adobe.com/products/workfront/pricing.html).
+  Il collegamento delle bozze da [!DNL Workfront Proof] consente di rendere disponibili in [!DNL Workfront] le bozze create in origine in [!DNL Workfront Proof]. Per i piani correnti, è necessario un piano [!UICONTROL Pro] [!DNL Workfront] o superiore per utilizzare questa funzione. Per i nuovi piani, questa funzione è disponibile con tutti i piani. Per ulteriori informazioni sui vari piani disponibili, vedere [Piani Workfront](https://business.adobe.com/it/products/workfront/pricing.html).
 
 * [!DNL Microsoft SharePoint]
 
@@ -97,7 +97,7 @@ Puoi configurare le seguenti integrazioni per la gestione dei documenti:
 
 * Altri provider di documenti (tramite integrazioni di documenti personalizzate).
 
-  Per i piani correnti, è necessario un piano [!UICONTROL Pro] [!DNL Workfront] o superiore per utilizzare questa funzione. Per i nuovi piani, questa funzione è disponibile con tutti i piani. Per ulteriori informazioni sui vari piani disponibili, vedere [Piani Workfront](https://business.adobe.com/products/workfront/pricing.html).
+  Per i piani correnti, è necessario un piano [!UICONTROL Pro] [!DNL Workfront] o superiore per utilizzare questa funzione. Per i nuovi piani, questa funzione è disponibile con tutti i piani. Per ulteriori informazioni sui vari piani disponibili, vedere [Piani Workfront](https://business.adobe.com/it/products/workfront/pricing.html).
 
 Inoltre, è possibile migliorare l&#39;esperienza dei documenti [!DNL Workfront] con integrazioni DAM di terze parti. Gli amministratori devono abilitare queste funzionalità affinché gli utenti possano collegare il servizio al proprio account [!DNL Workfront].
 

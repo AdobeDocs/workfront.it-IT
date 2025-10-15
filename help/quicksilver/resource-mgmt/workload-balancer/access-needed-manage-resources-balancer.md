@@ -52,7 +52,7 @@ La tabella seguente illustra la connessione tra il piano Workfront di cui dispon
  </tbody> 
 </table>
 
-Per informazioni sui piani di Workfront, vedere [I nostri piani](https://business.adobe.com/products/workfront/pricing.html).
+Per informazioni sui piani di Workfront, vedere [I nostri piani](https://business.adobe.com/it/products/workfront/pricing.html).
 
 Per informazioni su dove è possibile individuare il Bilanciatore dei carichi di lavoro in Workfront, vedere [Individuare il Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 

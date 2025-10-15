@@ -38,7 +38,7 @@ Per ulteriori informazioni sulla configurazione della sezione [!DNL Workfront] i
 
 >[!NOTE]
 >
->Per utilizzare questa funzionalità è necessario un piano [!UICONTROL Pro] [!DNL Workfront]. Per ulteriori informazioni sui vari piani disponibili, vedere [[!DNL Workfront] Piani.](https://business.adobe.com/products/workfront/pricing.html)
+>Per utilizzare questa funzionalità è necessario un piano [!UICONTROL Pro] [!DNL Workfront]. Per ulteriori informazioni sui vari piani disponibili, vedere [[!DNL Workfront] Piani.](https://business.adobe.com/it/products/workfront/pricing.html)
 
 ## Requisiti di accesso
 

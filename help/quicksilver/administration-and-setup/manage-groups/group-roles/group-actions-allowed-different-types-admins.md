@@ -230,7 +230,7 @@ In questa tabella sono elencate le attività di amministrazione disponibili per:
 
 &#42;&#42; Nel livello di accesso dell&#39;amministratore del gruppo, l&#39;accesso a questa azione deve essere abilitato. Per ulteriori informazioni, vedere [Concedere agli utenti l&#39;accesso amministrativo ad alcune aree](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-&#42;&#42;&#42; Le seguenti attività fanno parte di Advanced Enterprise Controls e non sono disponibili per il piano Select. Solo le organizzazioni che hanno acquistato i piani di Prime o Ultimate possono accedere a queste funzionalità.  Per ulteriori informazioni sui piani, vedere la [pagina di determinazione prezzi e creazione pacchetti di Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html). Per le organizzazioni che utilizzano i piani legacy, la tabella precedente mostra le attività per gli amministratori di gruppi e sottogruppi.
+&#42;&#42;&#42; Le seguenti attività fanno parte di Advanced Enterprise Controls e non sono disponibili per il piano Select. Solo le organizzazioni che hanno acquistato i piani di Prime o Ultimate possono accedere a queste funzionalità.  Per ulteriori informazioni sui piani, vedere la [pagina di determinazione prezzi e creazione pacchetti di Adobe Workfront](https://business.adobe.com/it/products/workfront/pricing.html). Per le organizzazioni che utilizzano i piani legacy, la tabella precedente mostra le attività per gli amministratori di gruppi e sottogruppi.
 
 * Configurare le preferenze di progetto, attività e problema a livello di gruppo
 * Configurare le preferenze di orario e scheda orario a livello di gruppo

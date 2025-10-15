@@ -28,7 +28,7 @@ Devi avere i seguenti:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Piano Workfront</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/it/products/workfront/pricing.html" target="_blank">Piano Workfront</a>*</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 

@@ -56,7 +56,7 @@ Devi avere i seguenti:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL Adobe Workfront] piano</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/it/products/workfront/pricing.html" target="_blank">[!DNL Adobe Workfront] piano</a>*</td> 
    <td> <p>[!UICONTROL Pro] o versione successiva</p> </td> 
   </tr> 
   <tr> 

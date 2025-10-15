@@ -25,7 +25,7 @@ ht-degree: 1%
 >
 >Per informazioni sulle funzionalità specifiche dei moduli di automazione e integrazione di Workfront per Salesforce, vedere [Moduli Salesforce](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
-Per utilizzare questa funzionalità è necessario un piano [!UICONTROL Pro] [!DNL Workfront]. Per ulteriori informazioni sui vari piani disponibili, vedere [[!DNL Workfront] Piani.](https://business.adobe.com/products/workfront/pricing.html)
+Per utilizzare questa funzionalità è necessario un piano [!UICONTROL Pro] [!DNL Workfront]. Per ulteriori informazioni sui vari piani disponibili, vedere [[!DNL Workfront] Piani.](https://business.adobe.com/it/products/workfront/pricing.html)
 
 Dopo aver installato [!DNL Adobe Workfront] per [!DNL Salesforce] come amministratore [!DNL Workfront], puoi renderla disponibile agli utenti aggiungendola in una nuova sezione alle loro [!UICONTROL opportunità] e [!UICONTROL account]
 layout di pagina in [!UICONTROL Salesforce].

@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## Come si apre un nuovo account [!DNL Workfront Proof]?
 
-Per aprire un nuovo account, passare alla [pagina di iscrizione di prova](https://business.adobe.com/products/workfront/proofing-approvals.html) e aprire un account di prova. Un membro del nostro team ti contatterà per aiutarti a iniziare a utilizzare [!DNL Workfront Proof].
+Per aprire un nuovo account, passare alla [pagina di iscrizione di prova](https://business.adobe.com/it/products/workfront/proofing-approvals.html) e aprire un account di prova. Un membro del nostro team ti contatterà per aiutarti a iniziare a utilizzare [!DNL Workfront Proof].
 
 Se conosci già il sistema e desideri iscriverti a un piano a pagamento, vai a *[!UICONTROL Impostazioni]* *>* *[!UICONTROL Fatturazione]* e aggiorna il tuo account a uno dei nostri piani a pagamento.
 

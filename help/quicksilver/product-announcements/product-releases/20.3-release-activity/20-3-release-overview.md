@@ -118,7 +118,7 @@ La versione 2020.3 contiene i seguenti miglioramenti per tutti gli utenti:
 >
 >Per utilizzare le funzionalità descritte in questo articolo, l’organizzazione deve disporre dei seguenti elementi:
 >
->* Un piano Pro o superiore [Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
+>* Un piano Pro o superiore [Adobe Workfront](https://business.adobe.com/it/products/workfront/pricing.html).
 >* Una licenza Adobe Workfront Goals oltre a una licenza Workfront.
 >
 >  Contatta il tuo account manager Workfront per saperne di più su una licenza Workfront Goals.
@@ -154,7 +154,7 @@ La versione 2020.3 contiene i seguenti miglioramenti per tutti gli utenti:
 >&gt; <col> 
 >&gt; <tbody> 
 >&gt;  <tr> 
->&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Piano Workfront</a>*</p> </td> 
+>&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/it/products/workfront/pricing.html" target="_blank">Piano Workfront</a>*</p> </td> 
 >&gt;   <td>Business o superiore</td> 
 >&gt;  </tr> 
 >&gt;  <tr> 
@@ -450,7 +450,7 @@ Per ulteriori informazioni, vedere [Configurare il inserisco nell&#39;elenco Con
 
 Con Workfront One, potrai scoprire i contenuti, le risorse e le notizie più importanti da Workfront, il tutto in un&#39;unica posizione, con un unico accesso. Abbiamo unificato i siti Esperienza, Community e Formazione per facilitare la ricerca delle tue esigenze.
 
-[Ulteriori informazioni su Workfront One](https://business.adobe.com/products/workfront.html).
+[Ulteriori informazioni su Workfront One](https://business.adobe.com/it/products/workfront.html).
 
 ### Webinar sulla versione 20.3 {#20-3-release-webinar}
 

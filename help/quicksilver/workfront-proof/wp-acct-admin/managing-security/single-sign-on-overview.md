@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
-Per utilizzare questa funzionalità è necessario un piano [!UICONTROL Enterprise] [!DNL Workfront]. Per ulteriori informazioni sui vari piani disponibili, vedere [Piani Workfront](https://business.adobe.com/products/workfront/pricing.html).
+Per utilizzare questa funzionalità è necessario un piano [!UICONTROL Enterprise] [!DNL Workfront]. Per ulteriori informazioni sui vari piani disponibili, vedere [Piani Workfront](https://business.adobe.com/it/products/workfront/pricing.html).
 
 Single Sign-On (SSO) consente agli utenti di accedere a [!DNL Workfront Proof] utilizzando il nome utente e la password esistenti dell&#39;organizzazione.
 

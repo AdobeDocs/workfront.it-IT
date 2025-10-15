@@ -404,4 +404,4 @@ Per ulteriori informazioni, consulta [Domande frequenti sulla modifica della cad
 
 Con Workfront One, potrai scoprire i contenuti, le risorse e le notizie più importanti da Workfront, il tutto in un&#39;unica posizione, con un unico accesso. Abbiamo unificato i siti Esperienza, Community e Formazione per facilitare la ricerca delle tue esigenze.
 
-[Ulteriori informazioni su Workfront One](https://business.adobe.com/products/workfront.html).
+[Ulteriori informazioni su Workfront One](https://business.adobe.com/it/products/workfront.html).

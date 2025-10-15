@@ -38,7 +38,7 @@ Per completare i passaggi descritti in questo articolo, è necessario disporre d
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Piano Adobe Workfront</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/it/products/workfront/pricing.html" target="_blank">Piano Adobe Workfront</a>*</td> 
    <td> <p> Qualsiasi</p> </td> 
   </tr> 
   <tr> 

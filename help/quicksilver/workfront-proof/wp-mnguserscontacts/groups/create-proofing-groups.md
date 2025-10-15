@@ -20,7 +20,7 @@ ht-degree: 1%
 >
 >Questo articolo fa riferimento alle funzionalità nel prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulla verifica all&#39;interno di [!DNL Adobe Workfront], vedere [Verifica](../../../review-and-approve-work/proofing/proofing.md).
 
-Per utilizzare questa funzione è necessario un piano Select o Premium. Per ulteriori informazioni sui vari piani disponibili, vedere [[!DNL Workfront] Piani](https://business.adobe.com/products/workfront/pricing.html).
+Per utilizzare questa funzione è necessario un piano Select o Premium. Per ulteriori informazioni sui vari piani disponibili, vedere [[!DNL Workfront] Piani](https://business.adobe.com/it/products/workfront/pricing.html).
 
 Puoi creare gruppi di utenti che puoi aggiungere come revisori su più bozze. Questa funzione è utile se invii contenuti agli stessi utenti regolarmente.
 
