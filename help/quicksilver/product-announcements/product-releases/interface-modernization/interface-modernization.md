@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: d7f91e17294981c2c31681ca7f4732f9a79d4c61
+source-git-commit: 21293cdd7a1c8f76149ee2e224fa8701e25e970e
 workflow-type: tm+mt
-source-wordcount: '8483'
+source-wordcount: '8497'
 ht-degree: 0%
 
 ---
@@ -334,6 +334,10 @@ Per informazioni, vedere [Creare argomenti coda](/help/quicksilver/manage-work/r
 ### Aggiornamento interfaccia per la casella Modifica spesa di un progetto
 
 **Versione di anteprima: 28 agosto 2025; versione di produzione: 4 settembre 2025**
+
+>[!NOTE]
+>
+>Questa funzione è stata temporaneamente rimossa dagli ambienti di anteprima e produzione il 15 ottobre 2025.
 
 È stata aggiornata la finestra di dialogo per la modifica delle spese di un progetto, in modo che corrisponda ad altre aree dell’applicazione. La finestra di dialogo aggiornata è disponibile quando si modificano le spese in progetti o modelli.
 
