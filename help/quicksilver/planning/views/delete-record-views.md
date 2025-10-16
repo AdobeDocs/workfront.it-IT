@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
 
 # Eliminare le visualizzazioni record
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -42,11 +42,10 @@ La vista viene eliminata per tutti gli utenti che dispongono delle autorizzazion
 <tr> 
    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<ul> 
-<li><p>Qualsiasi pacchetto Workfront e Planning</p></li>
-Oppure
-<li><p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p></li></ul>
-<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
+   <p>Qualsiasi pacchetto Workfront e Planning</p>
+
+<p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p>
+   <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
@@ -139,20 +138,10 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    Per impostazione predefinita, tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
 
 
-1. Dalla scheda della vista, effettuare una delle seguenti operazioni:
+1. Dalla scheda della visualizzazione, fai clic sulla scheda della visualizzazione, passa il puntatore del mouse sulla visualizzazione nel menu a discesa, fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png), quindi fai clic su **Elimina**.</span>
 
-   * A seconda dell’ambiente da cui accedi alla vista, effettua le seguenti operazioni:
+   ![Altro menu con opzioni](assets/more-menu-for-views-expanded-with-delete-option.png)
 
-      * Nell&#39;ambiente di produzione, passa il puntatore del mouse sul nome della scheda della visualizzazione che desideri condividere e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Elimina**.
-
-     >[!TIP]
-     >
-     >Per trovare la visualizzazione da eliminare, potrebbe essere necessario fare clic su **Altro** a destra dell&#39;ultima scheda.
-
-      * <span class="preview"> Nell&#39;ambiente di anteprima, fare clic sulla scheda della visualizzazione, passare il puntatore del mouse sulla visualizzazione nel menu a discesa, fare clic sul menu **Altro** ![Altro menu](assets/more-menu.png), quindi fare clic su **Elimina**.</span>
-
-     ![Altro menu con opzioni](assets/more-menu-for-views-expanded-with-delete-option.png)
-
-1. Fai clic su **Elimina** per confermare. <!--ensure there is not another saving step here?!-->
+1. Fai clic su **Elimina** per confermare.
 
    La vista viene eliminata per tutti gli utenti che possono accedere all&#39;area record.

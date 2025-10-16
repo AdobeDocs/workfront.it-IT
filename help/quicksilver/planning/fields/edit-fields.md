@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -46,10 +46,7 @@ In questo articolo viene descritto come modificare le impostazioni per i campi d
 <tr> 
    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<ul> 
-<li><p>Qualsiasi pacchetto Workfront e Planning</p></li>
-Oppure
-<li><p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p></li></ul>
+<p>Qualsiasi pacchetto Workfront e Planning</p> <p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p>
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
   <tr> 
@@ -150,7 +147,7 @@ Prima di apportare modifiche alla configurazione di un campo, è necessario cons
   >Non viene inviata alcuna notifica agli altri utenti circa la modifica della configurazione del campo.
 
 * È possibile modificare i campi di ricerca esistenti dai record connessi.
-* Oltre a modificare il campo come descritto nella sezione [Modifica impostazioni campo](#edit-field-settings-1) di questo articolo, <span class="preview">è possibile modificare le scelte di un campo a selezione singola o multipla quando si modifica un record nella vista tabella, mentre si aggiornano i valori dei campi. Per informazioni, vedere la sezione [Aggiungere nuove scelte a un campo di selezione esistente durante la modifica dei record nella vista tabella](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view) in questo articolo.</span>
+* Oltre a modificare il campo come descritto nella sezione [Modifica impostazioni campo](#edit-field-settings-1) di questo articolo, è possibile modificare le scelte di un campo a selezione singola o multipla quando si modifica un record nella vista tabella, mentre si aggiornano i valori dei campi. Per informazioni, vedere la sezione [Aggiungere nuove scelte a un campo di selezione esistente durante la modifica dei record nella vista tabella](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view) in questo articolo.
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 

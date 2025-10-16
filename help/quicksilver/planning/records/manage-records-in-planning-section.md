@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1767'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 # Gestire le connessioni record dagli oggetti Workfront
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 {{planning-important-intro}}
 
@@ -45,10 +45,8 @@ ht-degree: 0%
 <tr> 
    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<ul> 
-<li><p>Qualsiasi pacchetto Workfront e Planning</p></li>
-Oppure
-<li><p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p></li></ul>
+<p>Qualsiasi pacchetto Workfront e Planning</p>
+<p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p>
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
   <tr> 
@@ -172,7 +170,7 @@ Quando si visualizzano i record di Workfront Planning dalla sezione Planning di 
    * [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [Connetti record](/help/quicksilver/planning/records/connect-records.md)
 * È possibile visualizzare la sezione Planning da un oggetto Workfront, anche quando non vi sono record associati all&#39;oggetto Workfront.
-* <span class="preview">Un tipo di record viene visualizzato nell&#39;area di pianificazione di un oggetto Workfront solo quando si abilita l&#39;impostazione Crea campo corrispondente nell&#39;impostazione del tipo di record collegato durante la creazione della connessione tra due tipi di record.</span>
+* Un tipo di record viene visualizzato nell&#39;area di pianificazione di un oggetto Workfront solo quando si abilita il campo Crea corrispondente nell&#39;impostazione del tipo di record collegato durante la creazione della connessione tra due tipi di record.
 
   Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
 
@@ -262,7 +260,7 @@ Quando si visualizzano i record di Workfront Planning da un campo di connessione
 
   È possibile, ad esempio, allegare ai task un modulo personalizzato con un campo di connessione Planning, ma non collegare oggetti di Workfront Planning ai task.
 * Non è possibile modificare un campo di connessione di Planning quando si modificano in blocco oggetti di Workfront.
-* <span class="preview">Un tipo di record viene visualizzato in un campo personalizzato della connessione Planning di un oggetto Workfront solo quando si abilita l&#39;impostazione Crea campo corrispondente nel tipo di record collegato durante la creazione della connessione tra due tipi di record.</span>
+* Un tipo di record viene visualizzato in un campo personalizzato della connessione Planning di un oggetto Workfront solo quando si attiva l&#39;impostazione Crea campo corrispondente nel tipo di record collegato durante la creazione della connessione tra due tipi di record.
 
   Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
 
