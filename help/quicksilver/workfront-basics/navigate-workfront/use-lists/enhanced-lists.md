@@ -5,7 +5,7 @@ description: Gli elenchi avanzati utilizzano un formato tabella per la visualizz
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: dc820b4012fec494ce5ebb1baefb4ee0df214916
+source-git-commit: ad9739ac670f723203f1e5e9148c446b6356c126
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 1%
@@ -13,8 +13,6 @@ ht-degree: 1%
 ---
 
 # Usa elenchi avanzati
-
-{{preview-fast-release-general}}
 
 In alcune aree di Adobe Workfront sono disponibili elenchi avanzati. Questi elenchi utilizzano un formato tabella per la visualizzazione delle voci di elenco e hanno un aspetto diverso rispetto agli elenchi standard. È stata migliorata anche la gestione delle viste, inclusi filtri, raggruppamenti, gestione delle colonne e ricerca.
 
@@ -126,7 +124,7 @@ Alcuni elenchi avanzati consentono di nascondere e visualizzare le colonne e di 
    >
    >L&#39;icona accanto al nome di un campo mostra il tipo di campo, ad esempio testo o campo data.
 
-   <span class="preview">Sul pulsante **Colonne** viene visualizzato un indicatore quando le colonne sono nascoste. L&#39;indicatore non viene visualizzato quando si riordinano le colonne.</span>
+   Un indicatore viene visualizzato sul pulsante **Colonne** quando le colonne sono nascoste. L&#39;indicatore non viene visualizzato quando si riordinano le colonne.
 
    ![Indicatore per colonne nascoste](assets/glist-columns-hidden-indicator.png)
 
@@ -149,7 +147,7 @@ I filtri consentono di ridurre la quantità di informazioni visualizzate nell’
 1. Fare clic su **Aggiungi condizione** per aggiungere un&#39;altra condizione al filtro come istruzione OR.
 1. Quando il filtro viene applicato, è possibile aprire nuovamente le opzioni **Filtro** per modificare le opzioni del filtro o cancellare tutti i filtri.
 
-   <span class="preview">Viene visualizzato un indicatore sul pulsante **Filtro** quando viene applicato un filtro all&#39;elenco.</span>
+   Un indicatore viene visualizzato sul pulsante **Filtro** quando si applica un filtro all&#39;elenco.
 
    ![Indicatore filtro applicato](assets/glist-filter-applied-indicator.png)
 
@@ -164,7 +162,7 @@ I filtri consentono di ridurre la quantità di informazioni visualizzate nell’
 
    ![Raggruppamento in elenchi avanzati](assets/glist-group-by-due-date-priorities.png)
 
-   <span class="preview">Viene visualizzato un indicatore sul pulsante **Gruppo** quando viene applicato un raggruppamento all&#39;elenco.</span>
+   Un indicatore viene visualizzato sul pulsante **Gruppo** quando si applica un raggruppamento all&#39;elenco.
 
    ![Indicatore di raggruppamento applicato](assets/glist-grouping-applied-indicator.png)
 

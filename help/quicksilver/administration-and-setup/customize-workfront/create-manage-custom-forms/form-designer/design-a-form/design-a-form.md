@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
 source-wordcount: '6583'
 ht-degree: 5%
@@ -16,8 +16,6 @@ ht-degree: 5%
 ---
 
 # Creare un modulo personalizzato
-
-{{highlighted-preview}}
 
 <!-- Audited: 6/2025 -->
 
@@ -131,7 +129,7 @@ Ogni nome di campo personalizzato deve essere univoco nell’istanza Workfront d
 >[!NOTE]
 >
 >Sebbene sia possibile farlo, si consiglia di non modificare questo nome dopo che l&#39;utente o altri utenti hanno iniziato a utilizzare il modulo personalizzato in Workfront. In questo caso, il sistema non riconoscerà più il campo personalizzato a cui potrebbe ora fare riferimento in altre aree di Workfront.
->&#x200B;>Ad esempio, se aggiungi il campo personalizzato a un rapporto e successivamente ne modifichi il nome, Workfront non lo riconosce nel rapporto e non funzionerà più correttamente a meno che non lo aggiungi nuovamente al rapporto utilizzando il nuovo nome.
+>>Ad esempio, se aggiungi il campo personalizzato a un rapporto e successivamente ne modifichi il nome, Workfront non lo riconosce nel rapporto e non funzionerà più correttamente a meno che non lo aggiungi nuovamente al rapporto utilizzando il nuovo nome.
 >
 >È consigliabile non digitare un nome già utilizzato per i campi Workfront incorporati.
 >
@@ -581,7 +579,7 @@ Per esempi di utilizzo del campo di ricerca esterna per chiamare la stessa istan
 
 Per aggiungere una ricerca esterna:
 
-1. Nella scheda **Nuovo campo** sul lato sinistro dello schermo, individua **Ricerca esterna** o <span class="preview">**Ricerca esterna a selezione multipla**</span> e trascinala in una sezione dell&#39;area di lavoro.
+1. Nella scheda **Nuovo campo** sul lato sinistro dello schermo, individua **Ricerca esterna** o **Ricerca esterna a selezione multipla** e trascinala in una sezione dell&#39;area di lavoro.
 1. Sul lato destro della schermata, configura le opzioni per il campo personalizzato:
 
    <table style="table-layout:auto"> 
@@ -630,12 +628,12 @@ Per aggiungere una ricerca esterna:
       <td role="rowheader">Percorso JSON</td>
       <td><p>Digita o incolla il percorso JSON per l’API.</p> <p>Questa opzione consente di estrarre i dati dal JSON restituito dall’URL API. Serve come modo per selezionare quali valori dall’interno del JSON appariranno nelle opzioni a discesa.</p><p>Ad esempio, se l'URL API restituisce JSON nel seguente formato, puoi utilizzare "$.data[*].name" per selezionare Stati Uniti e Canada come opzioni a discesa:</br>
       <pre>
-      &lbrace;
-       dati: &lbrace;
+      {
+       dati: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Per ulteriori informazioni sul percorso JSON e sulla verifica della scrittura del percorso JSON corretto, fare riferimento a <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -645,8 +643,8 @@ Per aggiungere una ricerca esterna:
       <td><p>Fai clic su <strong>Aggiungi intestazione</strong>, quindi digita o incolla la coppia chiave-valore richiesta per l'autenticazione con l'API.</p><p><strong>Nota:</strong> i campi Intestazione non sono un luogo sicuro in cui archiviare le credenziali. È necessario prestare attenzione a ciò che si immette e si salva.</p></td>
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Elenco a discesa multi-selezione</span></td>
-      <td><p><span class="preview">Seleziona questa opzione per consentire all’utente di selezionare più di un valore nel menu a discesa.</span></p></td>
+      <td role="rowheader">Elenco a discesa multi-selezione</td>
+      <td><p>Seleziona questa opzione per consentire all’utente di selezionare più di un valore nel menu a discesa.</p></td>
      </tr>
      </tr>
      <tr> 

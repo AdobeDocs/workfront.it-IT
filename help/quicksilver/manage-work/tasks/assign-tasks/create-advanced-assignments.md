@@ -7,16 +7,14 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
 
 # Crea assegnazioni avanzate
-
-{{preview-fast-release-general}}
 
 <!-- Audited: 07/2024-->
 
@@ -85,11 +83,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    >[!TIP]
    >
-   >Puoi effettuare assegnazioni avanzate direttamente nell’elenco delle attività o dei problemi. Fai clic all&#39;interno del campo **Assegnazioni** sulla stessa riga dell&#39;attività o del problema, quindi fai clic su <span class="preview">**Avanzate**</span> o sull&#39;icona **Persone** per aprire la finestra Assegnazioni avanzate. Passare al passaggio 5 per continuare la creazione di assegnazioni avanzate.
-   ><span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
+   >Puoi effettuare assegnazioni avanzate direttamente nell’elenco delle attività o dei problemi. Fai clic all&#39;interno del campo **Assegnazioni** sulla stessa riga dell&#39;attività o del problema, quindi fai clic su **Avanzate** nella parte inferiore dell&#39;elenco oppure sull&#39;icona **Persone** nell&#39;angolo superiore destro della casella Assegnazioni per aprire la finestra Assegnazioni avanzate. Passare al passaggio 5 per continuare la creazione di assegnazioni avanzate.
    >![Fare clic su Avanzate o sull&#39;icona Persone](assets/access-aa-from-lists.png)
-   >Immagine di esempio nell’ambiente di produzione:
-   >![Fare clic sull&#39;icona Persone](assets/nwe-advanced-assignments-350x55.png)
 
 1. Fai clic su **Assegna a** nel campo **Assegnazioni** nell&#39;intestazione dell&#39;attività o del problema
 

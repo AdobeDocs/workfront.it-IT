@@ -6,7 +6,7 @@ description: In qualità di responsabile delle risorse, puoi utilizzare il Bilan
 author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 6db33763294bc9fa343bb010b318fbcceccfff4c
+source-git-commit: ad9739ac670f723203f1e5e9148c446b6356c126
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 1%
@@ -14,8 +14,6 @@ ht-degree: 1%
 ---
 
 # Panoramica sull’assegnazione del lavoro nel Bilanciatore dei carichi di lavoro
-
-{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -146,7 +144,7 @@ Nella tabella seguente vengono descritti gli elementi da visualizzare in ogni ar
  </tbody> 
 </table>
 
-&#42;Quando un elemento di lavoro viene assegnato a un utente e a un ruolo, viene visualizzato nell&#39;area Lavoro non assegnato solo quando il ruolo è l&#39;assegnatario principale. <span class="preview">Le assegnazioni di ruolo vengono visualizzate negli elementi di lavoro nell&#39;area Lavoro non assegnato quando l&#39;impostazione **Mostra assegnazioni di ruolo** è abilitata.</span>
+&#42;Quando un elemento di lavoro viene assegnato a un utente e a un ruolo, viene visualizzato nell&#39;area Lavoro non assegnato solo quando il ruolo è l&#39;assegnatario principale. Le assegnazioni di ruolo vengono visualizzate in elementi di lavoro nell&#39;area Lavoro non assegnato quando l&#39;impostazione **Mostra assegnazioni di ruolo** è abilitata.
 
 &#42;&#42;Quando un elemento di lavoro viene assegnato a un utente e a un&#39;altra entità, viene visualizzato nell&#39;area Lavoro assegnato solo quando l&#39;utente è l&#39;assegnatario principale.
 

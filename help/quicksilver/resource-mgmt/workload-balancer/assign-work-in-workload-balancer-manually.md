@@ -7,7 +7,7 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 1%
@@ -15,8 +15,6 @@ ht-degree: 1%
 ---
 
 # Assegnare il lavoro manualmente utilizzando il Bilanciatore dei carichi di lavoro
-
-{{preview-fast-release-general}}
 
 È possibile assegnare manualmente gli elementi di lavoro agli utenti utilizzando il Bilanciatore dei carichi di lavoro di Adobe Workfront.
 
@@ -69,7 +67,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    È possibile assegnare il lavoro agli utenti utilizzando il Bilanciatore dei carichi di lavoro nell&#39;area Risorse, a livello di progetto o di team. Per ulteriori informazioni sulla posizione del Bilanciatore dei carichi di lavoro in Workfront, vedere [Individuare il Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-1. (Facoltativo) Vai all&#39;area **Lavoro non assegnato** e applica un filtro per visualizzare attività, problemi, <span class="preview">o assegnazioni di ruoli</span>.
+1. (Facoltativo) Vai all&#39;area **Lavoro non assegnato** e applica un filtro per visualizzare attività, problemi o assegnazioni di ruoli.
 
    Oppure
 
@@ -77,9 +75,9 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    >[!NOTE]
    >
-   ><span class="preview">Le assegnazioni di ruolo vengono visualizzate in elementi di lavoro nell&#39;area Lavoro non assegnato quando l&#39;impostazione Mostra assegnazioni di ruolo è abilitata. Per ulteriori informazioni, vedere [Personalizzare la visualizzazione](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) in [Navigare nel Bilanciatore dei carichi di lavoro](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).</span>
+   >Le assegnazioni di ruolo vengono visualizzate in elementi di lavoro nell&#39;area Lavoro non assegnato quando l&#39;impostazione Mostra assegnazioni di ruolo è abilitata. Per ulteriori informazioni, vedere [Personalizzare la visualizzazione](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) in [Navigare nel Bilanciatore dei carichi di lavoro](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Fai clic sul **Altro menu** ![Altro menu](assets/qs-more-menu.png) a sinistra del nome di un elemento di lavoro <span class="preview">o dell&#39;assegnazione di un ruolo</span>, quindi fai clic su **Assegna a**.
+1. Fai clic sul **Altro menu** ![Altro menu](assets/qs-more-menu.png) a sinistra del nome di un elemento di lavoro o dell&#39;assegnazione di un ruolo, quindi fai clic su **Assegna a**.
 
    ![Assegna a](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 

@@ -7,7 +7,7 @@ description: Il Bilanciatore dei carichi di lavoro è disponibile per più proge
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # Individuare il Bilanciatore dei carichi di lavoro
-
-{{preview-fast-release-general}}
 
 È possibile utilizzare il Bilanciatore dei carichi di lavoro per pianificare le risorse per il lavoro o esaminarne la disponibilità e le allocazioni correnti.
 
@@ -136,8 +134,6 @@ Viene visualizzata la pagina del team predefinito.
      >
      >Per visualizzare tutti gli utenti nel sistema anziché solo quelli del progetto (nell’area Lavoro assegnato), abilita l’opzione Mostra tutti gli utenti. Per informazioni, vedere [Navigare nel Bilanciatore dei carichi di lavoro](../workload-balancer/navigate-the-workload-balancer.md).
 
-<div class="preview">
-
 ### Accedere al Bilanciatore dei carichi di lavoro per un utente
 
 Tutti gli utenti possono visualizzare il Bilanciatore dei carichi di lavoro sui propri profili. I dati del Bilanciatore dei carichi di lavoro per un utente sono di sola lettura. Non è possibile assegnare lavoro, annullare l&#39;assegnazione del lavoro o adeguare le allocazioni a livello di utente.
@@ -155,8 +151,6 @@ Tutte le impostazioni di visualizzazione sono disponibili per il Bilanciatore de
    Il Bilanciatore dei carichi di lavoro di un utente visualizza quanto segue per impostazione predefinita:
 
    * **Lavoro assegnato**: le attività e i problemi assegnati all&#39;utente specifico.
-
-</div>
 
 ## Aggiungere il Bilanciatore dei carichi di lavoro al pannello di sinistra come dashboard
 
