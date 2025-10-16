@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 479dfb9d-0e47-4790-a33a-336b415fbf6e
-source-git-commit: 30b61b32add4c6d062b5b524773d309008c9563d
+source-git-commit: 8fb17d1008b00bc0701ce6e2f06c59d020510e90
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 1%
@@ -44,7 +44,7 @@ Puoi disattivare una società che non utilizzi più conservando tutti i dati sto
     <ul> 
      <li> <p>Il livello di accesso [!UICONTROL Amministratore di sistema], che consente di modificare qualsiasi società del sistema.</p> </li> 
      <li> <p>Accesso amministrativo per gestire le società, che consente di modificare qualsiasi società nel sistema.</p> </li> 
-    </ul> <p><b>NOTA</b>:  
+    </ul> <p><b>NOTA</b>:
      <ul> 
       <li> <p>Puoi anche gestire le aziende associate a qualsiasi gruppo a cui sei assegnato come amministratore di gruppo.</p> </li> 
       <li> <p>Per aggiungere e rimuovere utenti dal sistema [!DNL Workfront], è necessario disporre di uno dei seguenti elementi:</p> 
@@ -70,7 +70,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 1. Seleziona una o più società da disattivare o riattivare.
 1. Fai clic su **[!UICONTROL Modifica]**.<!--MAKE THIS A SEPARATE NUMBERED LINE<span class="preview">In the Preview environment, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.</span>-->
-1. &#x200B;<!--In the Production environment, -->Per una singola azienda, disabilitare l&#39;opzione **[!UICONTROL È attivo]** per disattivarla o abilitare l&#39;opzione per attivarla.
+1. Per una singola azienda, disabilitare l&#39;opzione **[!UICONTROL È attivo]** per disattivarla o abilitare l&#39;opzione per attivarla. <!--ADD TO THE FRONT OF THIS SENTENCE In the Production environment, -->
 
    Oppure
 

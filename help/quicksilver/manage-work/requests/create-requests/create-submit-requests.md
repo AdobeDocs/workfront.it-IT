@@ -6,9 +6,9 @@ description: Il lavoro pianificato è rappresentato in Adobe Workfront dai proge
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '2767'
+source-wordcount: '2580'
 ht-degree: 1%
 
 ---
@@ -25,9 +25,6 @@ ht-degree: 1%
 </div>
 -->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
-
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Il lavoro pianificato è rappresentato in Adobe Workfront dai progetti e dalle attività. Tuttavia, puoi lavorare in un ambiente in cui è possibile inserire lavoro non pianificato, sotto forma di richieste, in qualsiasi momento. Workfront fornisce un flusso di lavoro per questo tipo di ambiente tramite l’utilizzo di Code di richieste.
 
@@ -144,23 +141,16 @@ Per creare una richiesta nell’app web Workfront:
 
    Viene visualizzata la casella **Nuova richiesta**.
 
-1. (Condizionale) Se sei passato alla nuova esperienza e ti trovi nell&#39;ambiente di produzione, nella casella **Nuova richiesta** viene visualizzato quanto segue:</span>
+1. (Condizionale) Se hai scelto la nuova esperienza, seleziona uno dei percorsi o moduli della coda di richieste di Workfront oppure fai clic sulla barra di ricerca.
 
-   <ul><li>Le 6 code di richieste Workfront e i moduli di richiesta Planning utilizzati più di recente vengono visualizzati nella sezione Recenti. </li>
-    <li>Tutti i moduli di richiesta aggiuntivi di Workfront e Planning <b>Sezione Tutti i moduli di richiesta</b>. È possibile cercare moduli di richiesta non visualizzati per impostazione predefinita. </li>
-    <li>Tutti i percorsi aggiuntivi della coda richieste di Workfront e Planning vengono visualizzati nella sezione <b>Tutti i percorsi richieste</b>. Puoi cercare una coda di richieste che non viene visualizzata per impostazione predefinita.</li></ul>
-   Fai clic su uno dei percorsi o moduli della coda di richieste di Workfront oppure cercalo, quindi fai clic su di esso quando viene visualizzato nell’elenco.
-1. <span class="preview">(Condizionale) Se si è passati alla nuova esperienza, selezionare uno dei percorsi o moduli della coda di richieste di Workfront oppure fare clic sulla barra di ricerca. </span>
-
-   <span class="preview">Quando si fa clic sulla barra di ricerca, viene visualizzato un elenco a discesa che mostra le code e i moduli utilizzati più di recente. Selezionarne uno dall&#39;elenco oppure iniziare a digitare e selezionare la coda o il modulo quando viene visualizzato.</span>
+   Quando si fa clic sulla barra di ricerca, viene visualizzato un menu a discesa che mostra le code e i moduli utilizzati più di recente. Selezionane uno dall’elenco oppure inizia a digitare e seleziona la coda o il modulo quando viene visualizzato.
 
    >[!NOTE]
    >
-   ><span class="preview">Considera quanto segue per quanto riguarda la nuova esperienza di richiesta attualmente disponibile in Anteprima:</span>
-   >* <span class="preview">L&#39;elenco include sia le code di richiesta di Workfront che i moduli di richiesta di Workfront Planning.</span>
-   >* <span class="preview">È possibile filtrare l&#39;elenco per tipo di oggetto.</span>
-   >* <span class="preview">Per visualizzare solo le code di richieste di Workfront, filtrare per `Issue` tipi di oggetto.</span>
-   >* <span class="preview">Nella nuova esperienza di richiesta, le bozze si trovano nello stesso elenco delle richieste inviate.</span>
+   >Per quanto riguarda la nuova esperienza di richiesta, considera quanto segue:
+   >* L&#39;elenco include sia le code di richieste di Workfront che i moduli di richiesta di Workfront Planning.
+   >* È possibile filtrare l&#39;elenco per tipo di oggetto.
+   >* Nella nuova esperienza di richiesta, le bozze si trovano nello stesso elenco delle richieste inviate.
 
 1. (Condizionale) Se hai scelto la nuova esperienza, seleziona i gruppi di argomenti e gli argomenti della coda e continua ad aggiornare il modulo.
 

@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '735'
 ht-degree: 5%
 
 ---
@@ -22,10 +22,6 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 -->
 
 <!--Audited: 05/2024-->
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
-
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{important-admin-console-onboard}}
 
@@ -128,16 +124,16 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
       <td>Consente di abilitare o disabilitare l’esperienza dell’elenco di lavoro Priorità per i tuoi utenti. Gli utenti continueranno a visualizzare le icone Priorità in Workfront, ma non avranno accesso alla funzionalità. Per ulteriori informazioni sulle priorità, vedere <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Introduzione alle priorità</a>.</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Abilita IA</span> </td> 
-      <td><span class="preview">Consente di scegliere di abilitare l’intelligenza artificiale, incluso l’Assistente IA. <p><b>Nota</b>: la tua organizzazione deve soddisfare requisiti specifici per abilitare l'intelligenza artificiale. Per ulteriori informazioni sull'intelligenza artificiale, inclusi i requisiti, vedere <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">Panoramica dell'Assistente intelligenza artificiale</a>.</p></span></td> 
+      <td role="rowheader">Abilita IA </td> 
+      <td>Consente di scegliere di abilitare l’intelligenza artificiale, incluso l’Assistente IA. <p><b>Nota</b>: la tua organizzazione deve soddisfare requisiti specifici per abilitare l'intelligenza artificiale. Per ulteriori informazioni sull'intelligenza artificiale, inclusi i requisiti, vedere <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">Panoramica dell'Assistente intelligenza artificiale</a>.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Completamento automatico modulo </span></td> 
-      <td><span class="preview">Consente di abilitare la possibilità di completare automaticamente i moduli di richiesta in base ai dati di richiesta precedenti. Per ulteriori informazioni sul completamento automatico del modulo, vedere <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Compilazione automatica di una richiesta dai dati precedenti</a>.</span></td> 
+      <td role="rowheader">Completamento automatico modulo </td> 
+      <td>Consente di abilitare la possibilità di completare automaticamente i moduli di richiesta in base ai dati di richiesta precedenti. Per ulteriori informazioni sul completamento automatico del modulo, vedere <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Compilazione automatica di una richiesta dai dati precedenti</a>.</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Consenso alle versioni Beta dell’IA </span></td> 
-      <td><span class="preview">Consente di abilitare le funzioni di intelligenza artificiale attualmente in Beta. Se abiliti questa opzione, puoi quindi selezionare le funzioni di AI Beta da abilitare. Per ulteriori informazioni su ciascuna funzione di AI Beta, fai clic sull'icona delle informazioni accanto a tale funzione.</span></td> 
+      <td role="rowheader">Consenso alle versioni Beta dell’IA </td> 
+      <td>&gt;Consente di abilitare le funzioni di intelligenza artificiale attualmente in Beta. Se abiliti questa opzione, puoi quindi selezionare le funzioni di AI Beta da abilitare. Per ulteriori informazioni su ciascuna funzione di AI Beta, fai clic sull'icona delle informazioni accanto a tale funzione.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Ambienti di prova</td> 

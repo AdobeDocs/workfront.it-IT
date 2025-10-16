@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '3046'
+source-wordcount: '2686'
 ht-degree: 1%
 
 ---
@@ -107,7 +107,7 @@ Per creare un modulo di richiesta, è necessario iniziare a creare il modulo, im
 
 ### Inizia a creare un modulo di richiesta
 
-È possibile creare un modulo di richiesta dal tipo di record associato al modulo, <span class="preview">o dall&#39;area Richieste di Workfront.</span>
+È possibile creare un modulo di richiesta dal tipo di record associato al modulo<!--span class="preview">, or from the Requests area of Workfront.</span>-->.
 
 #### Creare un modulo di richiesta da un tipo di record
 
@@ -136,37 +136,41 @@ Per creare un modulo di richiesta, è necessario iniziare a creare il modulo, im
    Il modulo di richiesta per il tipo di record selezionato viene aperto nella scheda Modulo.
 1. Continua con [Configurare il modulo](#configure-the-form).
 
+<!--
+
 <div class="preview">
 
-#### Creare un modulo di richiesta dall’area Richieste di Workfront
+#### Create a request form from the Requests area of Workfront
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Requests**.
-1. Nell&#39;angolo superiore destro della schermata, fare clic su **Moduli di richiesta**.
-1. (Condizionale) Se stai modificando un modulo di richiesta esistente, selezionalo dall&#39;elenco, quindi continua con [Configurare il modulo](#confgure-the-form).
-1. Se stai creando un nuovo modulo di richiesta, fai clic su **Nuovo modulo di richiesta** nell&#39;angolo superiore destro della schermata.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Requests**.
+1. In the upper-right corner of the screen, click **Request forms**.
+1. (Conditional) If you are editing an existing request form, select it from the list, then continue to [Configure the form](#confgure-the-form).
+1. If you are creating a new request form, in the upper-right corner of the screen, click **New request form**.
 
-   Viene visualizzata la casella Crea modulo richiesta (Create request form)
+   The Create request form box opens
 
-1. Nella casella Crea modulo di richiesta aggiornare il nome del modulo. Per impostazione predefinita, il nome del modulo è **Modulo senza titolo**.
-1. Nel campo Tipi di oggetto selezionare il tipo di record a cui verrà associato il modulo di richiesta. I tipi di record vengono raggruppati nell&#39;area di lavoro in cui sono presenti.
-1. (Facoltativo) Aggiungi una **Descrizione** per il modulo di richiesta.
+1. In the Create request form box, update the name of the request form. By default, the name of the form is **Untitled form**. 
+1. In the Object types field, select the record type that the request form will be associated with. Record types are grouped into the workspace that they exist within.
+1. (Optional) Add a **Description** for the request form. 
 
-   <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
+1. Click **Create**. 
 
-1. Fai clic su **Crea**.
+   The request form for the selected record type opens in the Form tab.
+1. Continue to [Set up details for the request form](#set-up-details-for-the-request-form).
 
-   Il modulo di richiesta per il tipo di record selezionato viene aperto nella scheda Modulo.
-1. Continua con [Imposta i dettagli per il modulo di richiesta](#set-up-details-for-the-request-form).
+
 
 </div>
+
+-->
 
 ### Imposta i dettagli per il modulo di richiesta
 
 I dettagli del modulo sono suddivisi in schede.
 
 * La scheda **Modulo** consente di aggiungere campi ed elementi di contenuto al modulo
-* La scheda **Configurazione** consente di impostare un processo di approvazione per il modulo <span class="preview">e di impostare le opzioni di completamento della richiesta</span>.
-* <span class="preview">La scheda **Automazioni** consente di automatizzare ciò che si verificherà in base alle caratteristiche della richiesta effettuata con il modulo.</span>
+* La scheda **Configurazione** consente di impostare un processo di approvazione per il modulo e di impostare le opzioni di completamento richieste&lt;.
+  <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### Imposta dettagli modulo
 
@@ -227,14 +231,14 @@ I dettagli del modulo sono suddivisi in schede.
 
 #### Configurare i dettagli della configurazione
 
-Nella scheda Configurazione è possibile impostare il processo di approvazione <span class="preview"> e configurare quando una richiesta creata da questo modulo verrà contrassegnata come Completata</span>.
+Nella scheda Configurazione puoi impostare il processo di approvazione e configurare quando una richiesta creata da questo modulo verrà contrassegnata come Completata.
 
 1. Inizia a creare o modificare un modulo di richiesta, come descritto nella sezione [Inizia a creare un modulo di richiesta](#begin-creating-a-request-form).
 
    Il modulo di richiesta per il tipo di record selezionato viene aperto nella scheda Modulo.
 1. (Facoltativo) Configura i dettagli del modulo come descritto in [Configura dettagli modulo](#set-up-form-details).
 
-1. (Facoltativo) Fai clic sulla scheda **Configurazione**, quindi aggiungi almeno un utente <span class="preview">o un team</span>al campo **Approvatori** per approvare nuove richieste per questo modulo record.
+1. (Facoltativo) Fai clic sulla scheda **Configurazione**, quindi aggiungi almeno un utente o un team al campo **Approvatori** per approvare nuove richieste per questo modulo record.
 
    ![Scheda Configurazione](assets/configuration-tab.png)
 
@@ -244,39 +248,44 @@ Nella scheda Configurazione è possibile impostare il processo di approvazione <
    * Puoi aggiungere uno o più approvatori a un modulo di richiesta.
    * Se almeno un approvatore rifiuta la richiesta, la richiesta viene rifiutata e il record non viene creato.
    * Tutti gli approvatori devono prendere una decisione prima che una richiesta venga approvata o rifiutata.
-   * <span class="preview">Se un team è impostato come approvatore, è necessaria una sola decisione del team.</span>
+   * Se un team è impostato come approvatore, è necessaria una sola decisione del team.
 
      Per ulteriori informazioni sull&#39;aggiunta di approvazioni ai moduli di richiesta, vedere [Aggiungere approvazione a un modulo di richiesta](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-1. <span class="preview">(Condizionale) Se si desidera che il record venga creato dopo l&#39;approvazione di uno qualsiasi degli approvatori, selezionare la casella di controllo **È necessaria una sola decisione**.</span>
+1. (Condizionale) Se desideri che il record venga creato dopo l&#39;approvazione di uno qualsiasi degli approvatori, seleziona la casella di controllo **È necessaria una sola decisione**.
 
-1. <span class="preview">Specificare se si desidera che una richiesta creata da questo modulo venga contrassegnata come completata al momento della creazione dell&#39;oggetto richiesto o quando l&#39;oggetto richiesto viene completato.</span>
-1. <span class="preview">(Condizionale) Se si è selezionato per contrassegnare la richiesta come completata quando l&#39;oggetto richiesto è completato, selezionare il campo e il valore che indicano quando l&#39;oggetto è completo. Ad esempio, è possibile selezionare il campo Stato e il valore Completo per completare la richiesta quando lo stato dell&#39;oggetto creato è impostato su Completo.</span>
-1. Passa a [Imposta dettagli automazione](#set-up-configuration-details) se desideri configurare ulteriori dettagli per il modulo o passa a [Completa creazione modulo richiesta](#complete-request-form-creation).
+1. Specificare se si desidera che una richiesta creata da questo modulo venga contrassegnata come completata al momento della creazione dell&#39;oggetto richiesto o quando l&#39;oggetto richiesto viene completato.
+1. (Condizionale) Se hai selezionato la richiesta da contrassegnare come completata quando l’oggetto richiesto è completato, seleziona il campo e il valore che indicano quando l’oggetto è completo. Ad esempio, è possibile selezionare il campo Stato e il valore Completo per completare la richiesta quando lo stato dell&#39;oggetto creato è impostato su Completo.
+1. Passa a <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[Creazione modulo di richiesta completata](#complete-request-form-creation).
 
+<!--
+ 
 <div class="preview">
 
-#### Configurare le automazioni
+#### Set up Automations
 
-È possibile configurare le automazioni in Adobe Workfront Planning che, se attivate, creano oggetti in Workfront o record in Workfront Planning quando attivate da un record Planning.
+You can configure automations in Adobe Workfront Planning that, when activated, create objects in Workfront or records in Workfront Planning when triggered from a Planning record. 
 
-Per informazioni sulla creazione di automazioni in altre aree di Workfront Planning, vedere [Configurare le automazioni di Adobe Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+For information on creating automations in other areas of Workfront Planning, see [Configure Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
 
-1. Nella pagina dei dettagli dell&#39;automazione, aggiorna i campi seguenti nella sezione **Triggers**:
+1. On the automation's details page, update the following fields in the **Triggers** section: 
 
-   * **Trigger**: selezionare l&#39;azione che attiverà l&#39;automazione. Attualmente, l&#39;unico trigger disponibile per l&#39;automazione del modulo di richiesta è `When request object status equals pending creation`.
+   * **Trigger**: Select the action that will trigger the automation. Currently, the only available trigger for request form automation is `When request object status equals pending creation`.
 
-1. Aggiorna i campi seguenti nella sezione **Azioni**: <!--submitted bugs for these fields - see if they need changing here-->
-   * **Azioni**: selezionare l&#39;azione che si desidera venga eseguita da Workfront quando si attiva l&#39;automazione. Questo campo è obbligatorio.
-Attualmente, l&#39;unica azione disponibile per l&#39;automazione del modulo di richiesta è `Create record`.
+1. Update the following fields in the **Actions** section: 
+
+   * **Actions**: Select the action that you want Workfront to perform when triggering the automation. This is a required field. 
+   Currently, the only available Action for request form automation is `Create record`.
 
      >[!TIP]
      >
-     >Dopo aver salvato l’automazione, non puoi più modificare l’azione selezionata in questo campo.
-1. Passa a [Creazione modulo di richiesta completata](#complete-request-form-creation).
+     >After you saved the automation, you can no longer change the action selected in this field.
+1. Continue to  [Complete request form creation](#complete-request-form-creation).
 
 
 </div>
+
+-->
 
 ### Creazione modulo di richiesta completa
 

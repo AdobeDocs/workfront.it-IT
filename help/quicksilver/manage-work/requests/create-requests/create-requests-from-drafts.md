@@ -6,16 +6,14 @@ description: Oltre a utilizzare le bozze disponibili suggerite da Workfront quan
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '618'
 ht-degree: 1%
 
 ---
 
 # Creare richieste da bozze
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
 Oltre a utilizzare le bozze disponibili suggerite da Workfront quando si immette una nuova richiesta, è possibile accedere a una bozza di richiesta dalla sezione Bozze e completare l&#39;invio da tale sezione.
 
@@ -107,6 +105,6 @@ Prima di creare una richiesta da una bozza, è necessario effettuare le seguenti
 
    >[!NOTE]
    >
-   >* <span class="preview">Nella nuova esperienza di richiesta, le bozze si trovano nello stesso elenco delle richieste inviate.</span>
-   ><span class="preview">Per ulteriori informazioni sulla creazione di richieste nella nuova esperienza, vedere [Creare richieste e generare bozze nell&#39;app Web Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) nell&#39;articolo Creare e inviare richieste.</span>
+   >Nella nuova esperienza di richiesta, le bozze si trovano nello stesso elenco delle richieste inviate.
+   >Per ulteriori informazioni sulla creazione di richieste nella nuova esperienza, consulta [Creare richieste e generare bozze nell&#39;app Web Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) nell&#39;articolo Creare e inviare richieste.
 

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: e69209f449ba1643667135c3a0137b93c6171ef8
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -90,11 +90,11 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    Viene visualizzata l&#39;area **Configurazione**.
 
    ![Scheda Configurazione](assets/configuration-tab.png)
-1. Nel campo **Approvatori**, fai clic sull&#39;icona a discesa e seleziona uno o più utenti <span class="preview">o team</span> nell&#39;elenco
+1. Nel campo **Approvatori**, fai clic sull&#39;icona a discesa e seleziona uno o più utenti o team nell&#39;elenco
 
    Oppure
 
-   Inizia a digitare il nome di un utente <span class="preview">o team</span> che desideri impostare come approvatore, quindi selezionalo quando viene visualizzato nell&#39;elenco.
+   Iniziare a digitare il nome di un utente o team che si desidera impostare come approvatore, quindi selezionarlo quando viene visualizzato nell&#39;elenco.
 
    <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -109,7 +109,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    >
    >* Tutti gli approvatori devono prendere una decisione prima che una richiesta venga approvata o rifiutata.
    >
-   >* <span class="preview">Se un team è impostato come approvatore, è necessaria una sola decisione del team.</span>
+   >* Se un team è impostato come approvatore, è necessaria una sola decisione del team.
 
 
 1. (Facoltativo) Fai clic su **Pubblica** se non hai mai condiviso il modulo di richiesta in precedenza

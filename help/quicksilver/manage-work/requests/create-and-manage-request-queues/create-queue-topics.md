@@ -7,9 +7,9 @@ author: Becky
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 4a0cb96f5888819747f63472712f91c685621cf1
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '964'
 ht-degree: 2%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 2%
 # Crea argomenti coda
 
 <!-- Audited: 12/2023 -->
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 Gli argomenti della coda funzionano insieme alle regole di instradamento per assegnare automaticamente il lavoro in arrivo a un utente, a una mansione, a un team o per inserirlo in un progetto. Argomenti coda definiscono le condizioni necessarie per l&#39;implementazione della regola di routing.
 
@@ -179,8 +177,7 @@ Per modificare un argomento della coda esistente:
 
 1. Passare al progetto o al modello contenente l&#39;argomento coda che si desidera modificare.
 1. Fai clic su **Argomenti coda** nel pannello a sinistra.
-1. Nell’ambiente di produzione, seleziona l’Argomento coda da modificare. Nella pagina Dettagli visualizzata, fare clic su **Modifica argomento coda**.
-1. <span class="preview">Nell&#39;ambiente di anteprima fare clic sull&#39;argomento della coda che si desidera modificare.
+1. Fare clic sull&#39;argomento della coda che si desidera modificare.
 
 Per informazioni sulle opzioni di modifica disponibili, vedere [Creare un argomento coda](#create-a-queue-topic) in questo articolo.
 

@@ -6,9 +6,9 @@ description: Home ti aiuta a gestire il tuo lavoro. Puoi personalizzare questo s
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 1cb165e826ee57483989474c095553a08e33bc9a
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1030'
 ht-degree: 4%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 4%
 >[!IMPORTANT]
 >
 >Il contenuto di questo articolo è stato sostituito dal contenuto dell’articolo Introduzione alla nuova Home. La nuova Home verrà ora indicata come Home.
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
 La nuova esperienza Home in Adobe Workfront mira a migliorare l’esperienza Home corrente e al contempo a fornire un modo più flessibile per concentrarti sul lavoro giusto.
 
@@ -55,9 +53,7 @@ Di seguito sono riportati gli 11 widget attualmente disponibili tra cui sceglier
     Visualizza i problemi assegnati all&#39;utente in un elenco. Puoi utilizzare i filtri, le viste o i raggruppamenti esistenti per personalizzare l’elenco, oppure puoi creare un problema direttamente dal widget. Questo widget include solo i problemi i cui progetti associati sono impostati su Corrente e non include i progetti completati. Puoi anche delegare i tuoi problemi mentre sei lontano dall&#39;ufficio.
 
 * **Richieste personali**\
-    Visualizza tutte le richieste inviate, un filtro per visualizzare solo le richieste aperte e un pulsante che apre il pannello di riepilogo di una richiesta.
-
-  <span class="preview">Nell&#39;ambiente di anteprima questo widget visualizza tutte le richieste inviate, un filtro per visualizzare solo le richieste che soddisfano i criteri specificati e un pulsante che consente di ridisporre le colonne nel widget. Se si dispone dell&#39;accesso a Workfront Planning, le richieste Planning verranno visualizzate anche qui.</span>
+    Visualizza tutte le richieste inviate, un filtro per visualizzare solo le richieste che soddisfano i criteri specificati e un pulsante che consente di ridisporre le colonne nel widget. Se si dispone dell&#39;accesso a Workfront Planning, anche le richieste Planning verranno visualizzate qui.
 
 
 * **Richieste team**\
