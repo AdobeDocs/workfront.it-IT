@@ -44,7 +44,7 @@ Per informazioni generali sull&#39;integrazione tra GenStudio e Workfront Planni
 >[!IMPORTANT]
 >
 >I passaggi descritti in questo articolo illustrano come aggiornare l&#39;area di lavoro di GenStudio da Workfront Planning quando si dispone delle autorizzazioni di gestione.
->> Non tutte le funzionalità sono disponibili quando si dispone delle autorizzazioni Contribute per l&#39;area di lavoro di GenStudio.
+>&#x200B;> Non tutte le funzionalità sono disponibili quando si dispone delle autorizzazioni Contribute per l&#39;area di lavoro di GenStudio.
 >
 >Se la società dispone di più istanze di Workfront, tutti gli utenti ottengono le autorizzazioni Contribute nell&#39;area di lavoro di GenStudio in Workfront Planning.
 
