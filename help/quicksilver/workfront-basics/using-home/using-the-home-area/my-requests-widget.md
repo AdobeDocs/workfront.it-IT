@@ -19,7 +19,7 @@ ht-degree: 3%
 >[!IMPORTANT]
 >
 >Questo articolo descrive il nuovo widget Richieste personali. Per visualizzare il nuovo widget, è necessario che sia abilitata la nuova esperienza di richiesta.
->>Puoi abilitare la nuova esperienza di richiesta nell’area Richieste.
+>&#x200B;>Puoi abilitare la nuova esperienza di richiesta nell’area Richieste.
 
 Il widget Richieste personali visualizza le richieste inviate all&#39;organizzazione. Puoi filtrare le richieste, cercare richieste specifiche o regolare l’ordine e la visibilità delle colonne. Puoi anche creare una nuova richiesta dal widget Richieste personali.
 
