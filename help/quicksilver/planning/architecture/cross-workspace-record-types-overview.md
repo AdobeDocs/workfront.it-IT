@@ -1,25 +1,24 @@
 ---
 title: Panoramica del tipo di record in più aree di lavoro
-description: I tipi di record globali possono essere aggiunti a più aree di lavoro da un'area di lavoro centrale o principale in Adobe Workfront Planning.
-hidefromtoc: true
-hide: true
-exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 95474ea813f4ea575942eea733caf2952b2daa75
-workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 0%
-
----
-
-<!-- add these to the metadata, when making this public: 
-
+description: È possibile abilitare i tipi di record affinché siano globali o collegabili. I tipi di record globali possono essere aggiunti a più aree di lavoro da un'area di lavoro centrale o principale in Adobe Workfront Planning, mentre i tipi di record collegabili possono essere collegati a da altre aree di lavoro diverse dalla propria.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
--->
+exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+workflow-type: tm+mt
+source-wordcount: '1534'
+ht-degree: 0%
+
+---
+
 
 # Panoramica del tipo di record in più aree di lavoro
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 {{planning-important-intro}}
 
@@ -32,11 +31,13 @@ In Adobe Workfront Planning è possibile abilitare le funzionalità tra aree di 
 
 Di seguito sono riportate le funzionalità dei tipi di record in più aree di lavoro:
 
-* **Tipi di record globali**: gli utenti possono aggiungere tipi di record globali ad altre aree di lavoro che gestiscono.
+* <span class="preview">**Tipi di record globali**: gli utenti possono aggiungere tipi di record globali ad altre aree di lavoro che gestiscono.</span>
 
 * **Tipi di record collegabili**: gli utenti possono connettersi a questo tipo di record da altre aree di lavoro.
 
 Questo articolo offre una panoramica dei tipi di record tra aree di lavoro diverse. Per informazioni sulla definizione delle funzionalità tra aree di lavoro di un tipo di record, vedere [Configurare le funzionalità tra aree di lavoro diverse per i tipi di record](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
+
+<div class="preview">
 
 ## Panoramica dei tipi di record globali
 
@@ -118,11 +119,12 @@ Il tipo di record configurato come globale presenta le seguenti proprietà:
     * Add request forms to it
     * Add automations to it-->
 
-* Nessun utente può eseguire le azioni seguenti sul tipo di record aggiunto da un tipo di record globale in un&#39;area di lavoro secondaria:
+* Nessun utente può eseguire le azioni seguenti su un tipo di record globale in un&#39;area di lavoro secondaria:
 
    * Modifica
 
      Non è possibile modificarne l’aspetto, le funzionalità tra aree di lavoro diverse o i campi aggiunti dall’area di lavoro originale.
+   * Condividi
    * Creare e gestire i moduli di richiesta
    * Creare e gestire le automazioni
 
@@ -151,6 +153,8 @@ Esistono i seguenti casi:
 * Se l&#39;utente dispone dell&#39;accesso, il record viene creato nell&#39;area di lavoro originale dei tipi di record globali.
 
 * Se l&#39;utente non dispone dell&#39;accesso, riceve un errore che indica che non ha accesso all&#39;area di lavoro originale del tipo di record globale e che deve fornire l&#39;ID dell&#39;area di lavoro a cui ha accesso per creare i record.
+
+</div>
 
 ## Panoramica dei tipi di record collegabili
 

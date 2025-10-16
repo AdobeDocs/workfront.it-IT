@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '5253'
+source-wordcount: '5463'
 ht-degree: 1%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=it ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -238,8 +238,8 @@ Per informazioni, vedere [Importare campi da Workfront](/help/quicksilver/planni
    * [Data di creazione](#created-date)
    * [Ultima modifica eseguita da](#last-modified-by)
    * [Data ultima modifica](#last-modified-date)
-   * <span class="preview">[Data di approvazione](#approved-date)</span>
-   * <span class="preview">[Approvato da](#approved-by)</span>
+   * [Data di approvazione](#approved-date)
+   * [Approvato da](#approved-by)
      <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
@@ -299,7 +299,7 @@ I campi Paragrafo acquisiscono informazioni alfanumeriche aggiuntive su un recor
 
 >[!NOTE]
 >
-><span class="preview">Oltre alle funzionalità descritte in questa sezione, è possibile aggiungere nuove scelte quando si modifica il valore di campo a selezione multipla di un record in linea, nella vista tabella. Per ulteriori informazioni, vedere la sezione &quot;Modifica informazioni su campi a selezione singola o multipla&quot; nell&#39;articolo [Modifica record](/help/quicksilver/planning/records/edit-records.md).</span>
+>Oltre alle funzionalità descritte in questa sezione, è possibile aggiungere nuove scelte quando si modifica il valore di campo a selezione multipla di un record in linea, nella vista tabella. Per ulteriori informazioni, vedere la sezione &quot;Modifica informazioni su campi a selezione singola o multipla&quot; nell&#39;articolo [Modifica record](/help/quicksilver/planning/records/edit-records.md).
 >
 
 1. Inizia a creare un campo come descritto nella sezione [Creare campi da zero](#create-fields-from-scratch) in questo articolo, quindi seleziona il tipo di campo **Selezione multipla**.
@@ -327,23 +327,20 @@ I campi Paragrafo acquisiscono informazioni alfanumeriche aggiuntive su un recor
 
    Il nuovo campo a selezione multipla viene aggiunto come colonna al tipo di record e i relativi valori possono essere associati ai record.
 
-<!--
-1. <span class="preview">(Optional) Hover over the field name in the table view, click the drop-down menu to the right of the field name, then click **Edit field**.</span>
-1. <span class="preview">Turn on the **Show values** setting to display the values for each choice. The values are the names of each choice, as they appear in the Workfront database. </span>
+1. <span class="preview">(Facoltativo) Passare il puntatore del mouse sul nome del campo nella visualizzazione tabella, fare clic sul menu a discesa a destra del nome del campo, quindi fare clic su **Modifica campo**.</span>
+1. <span class="preview">Attiva l&#39;impostazione **Mostra valori** per visualizzare i valori per ogni scelta. I valori sono i nomi di ciascuna scelta, così come vengono visualizzati nel database di Workfront. </span>
 
-    >[!NOTE]
-    >
-    >* <span class="preview">Workfront assigns unique values for each choice. </span>
-    >
-    >* <span class="preview">Values match the choice name in lowercase format. Multiple words are separated by an underscore. </span>
-    >
-    >* <span class="preview">Values can be repeated between multiple fields, but they must be unique for one field.</span>
-    >
-    ><span class="preview"> ![Show value toggle](assets/show-values-toggle-and-choices-with-values.png)</span>
+   >[!NOTE]
+   >
+   >* <span class="preview">Workfront assegna valori univoci per ogni scelta. </span>
+   >
+   >* <span class="preview">I valori corrispondono al nome scelto in formato minuscolo. Più parole sono separate da un carattere di sottolineatura. </span>
+   >
+   >* <span class="preview">I valori possono essere ripetuti tra più campi, ma devono essere univoci per un campo.</span>
+   >
+   ><span class="preview"> ![Mostra/Nascondi valore](assets/show-values-toggle-and-choices-with-values.png)</span>
 
-1. <span class="preview">(Optional) Use the choice values in your API calls and other integrations. </span> 
-
--->
+1. <span class="preview">(Facoltativo) Utilizza i valori di scelta nelle chiamate API e in altre integrazioni. </span>
 
 ### Selezione singola {#single-select}
 
@@ -351,13 +348,12 @@ I campi a selezione singola acquisiscono informazioni aggiuntive in qualsiasi fo
 
 >[!NOTE]
 >
-><span class="preview">Oltre alle funzionalità descritte in questa sezione, è possibile aggiungere nuove scelte quando si modifica il valore del campo a selezione singola di un record in linea, nella vista tabella. Per ulteriori informazioni, vedere la sezione &quot;Modifica informazioni su campi a selezione singola o multipla&quot; nell&#39;articolo [Modifica record](/help/quicksilver/planning/records/edit-records.md).</span>
+>Oltre alle funzionalità descritte in questa sezione, è possibile aggiungere nuove scelte quando si modifica il valore di campo a selezione singola di un record in linea, nella vista tabella. Per ulteriori informazioni, vedere la sezione &quot;Modifica informazioni su campi a selezione singola o multipla&quot; nell&#39;articolo [Modifica record](/help/quicksilver/planning/records/edit-records.md).
 >
 
 1. Inizia a creare un campo come descritto nella sezione [Creare campi da zero](#create-fields-from-scratch) in questo articolo, quindi seleziona il tipo di campo **Selezione singola**.
 
    ![Tipo di campo a selezione singola](assets/single-select-field-type.png)
-
 
 1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
    * **Nome**: il nome del campo, come verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -379,24 +375,20 @@ I campi a selezione singola acquisiscono informazioni aggiuntive in qualsiasi fo
 
    Il nuovo campo a selezione singola viene aggiunto come colonna al tipo di record e i relativi valori possono essere associati ai record.
 
-<!--
+1. <span class="preview">(Facoltativo) Passare il puntatore del mouse sul nome del campo nella visualizzazione tabella, fare clic sul menu a discesa a destra del nome del campo, quindi fare clic su **Modifica campo**.</span>
+1. <span class="preview">Attiva l&#39;impostazione **Mostra valori** per visualizzare i valori per ogni scelta. I valori sono i nomi di ciascuna scelta, così come vengono visualizzati nel database di Workfront. </span>
 
-1. <span class="preview">(Optional) Hover over the field name in the table view, click the drop-down menu to the right of the field name, then click **Edit field**.</span>
-1. <span class="preview">Turn on the **Show values** setting to display the values for each choice. The values are the names of each choice, as they appear in the Workfront database. </span>
+   >[!NOTE]
+   >
+   >* <span class="preview">Workfront assegna valori univoci per ogni scelta. </span>
+   >
+   >* <span class="preview">I valori corrispondono al nome scelto in formato minuscolo. Più parole sono separate da un carattere di sottolineatura. </span>
+   >
+   >* <span class="preview">I valori possono essere ripetuti tra più campi, ma devono essere univoci per un campo.</span>
+   >
+   ><span class="preview"> ![Mostra/Nascondi valore](assets/show-values-toggle-and-choices-with-values.png)</span>
 
-    >[!NOTE]
-    >
-    >* <span class="preview">Workfront assigns unique values for each choice. </span>
-    >
-    >* <span class="preview">Values match the choice name in lowercase format. Multiple words are separated by an underscore. </span>
-    >
-    >* <span class="preview">Values can be repeated between multiple fields, but they must be unique for one field.</span>
-    >
-    ><span class="preview"> ![Show value toggle](assets/show-values-toggle-and-choices-with-values.png)</span>
-
-1. <span class="preview">(Optional) Use the choice values in your API calls and other integrations. </span>
-
--->
+1. <span class="preview">(Facoltativo) Utilizza i valori di scelta nelle chiamate API e in altre integrazioni. </span>
 
 ### Data {#date}
 
@@ -438,7 +430,7 @@ I tipi di campo numerico acquisiscono informazioni in formato numerico.
 >I campi numerici vengono visualizzati come tipo di campo di testo a riga singola in un generatore di moduli di richiesta.
 >
 >Tuttavia, il formato del campo viene mantenuto e i valori di questi campi vengono visualizzati come numeri dopo l’invio della richiesta, nel tipo di record e nella pagina dei dettagli della richiesta.
->&#x200B;>Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Inizia a creare un campo come descritto nella sezione [Crea campi da zero](#create-fields-from-scratch) in questo articolo, quindi seleziona il tipo di campo **Numero**.
@@ -468,7 +460,7 @@ I tipi di campo Percentuale acquisiscono le informazioni in un formato numerico 
 >I campi percentuali vengono visualizzati come tipo di campo di testo a riga singola nel generatore di moduli di richiesta.
 >
 >Tuttavia, il formato del campo viene mantenuto e i valori di questi campi vengono visualizzati come percentuali dopo l’invio della richiesta, nel tipo di record e nella pagina dei dettagli della richiesta.
->&#x200B;>Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Inizia a creare un campo come descritto nella sezione [Crea campi da zero](#create-fields-from-scratch) in questo articolo, quindi seleziona il tipo di campo **Percentuale**.
@@ -508,7 +500,7 @@ I tipi di campo Valuta acquisiscono le informazioni in un formato numerico prece
 >I campi Valuta vengono visualizzati come tipo di campo di testo a riga singola in un generatore di moduli di richiesta.
 >
 >Tuttavia, il formato del campo viene mantenuto e i valori di questi campi vengono visualizzati come valuta dopo l’invio della richiesta, nel tipo di record e nella pagina dei dettagli della richiesta.
->&#x200B;>Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Inizia a creare un campo come descritto nella sezione [Crea campi da zero](#create-fields-from-scratch) in questo articolo, quindi seleziona il tipo di campo **Valuta**.
 
@@ -583,7 +575,7 @@ Per ulteriori informazioni, vedere [Panoramica dei campi formula](/help/quicksil
    >
    >* È possibile fare riferimento a un campo che si trova a una distanza massima di 4 campi (e oggetti) dal tipo di record corrente. Ad esempio, se si crea un campo formula per un tipo di record Attività (1) e l&#39;Attività è connessa al tipo di record Campagna (2) che è connesso a un progetto Workfront (3), è possibile fare riferimento al campo Budget del progetto (4) nella formula che si sta creando per il tipo di record Attività.
    >
-   >![Esempio di formula budget progetto quattro campi rimossi &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Esempio di formula budget progetto quattro campi rimossi ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Facoltativo) Fare clic su **Ingrandisci** per aprire la casella Formula in un&#39;area più ampia.
@@ -696,7 +688,6 @@ Utilizzare il tipo di campo Persone per aggiungere un utente <!--, job role, or 
 
    Il nuovo campo Data creazione viene aggiunto come colonna al tipo di record e i relativi valori vengono precompilati con la data (o la data e l’ora) di creazione del record.
 
-
 ### Ultima modifica eseguita da
 
 È possibile utilizzare il tipo di campo Ultima modifica per per aggiungere a un record l&#39;ultimo utente che ha modificato il record. Questo campo è di sola lettura e viene compilato automaticamente con il nome dell&#39;utente che ha eseguito l&#39;accesso l&#39;ultimo aggiornamento del record.
@@ -713,7 +704,6 @@ Utilizzare il tipo di campo Persone per aggiungere un utente <!--, job role, or 
 1. Fai clic su **Crea**.
 
    Il nuovo campo Ultima modifica per tipo viene aggiunto come colonna al tipo di record e i relativi valori vengono precompilati con il nome dell’ultimo utente che ha modificato ogni record.
-
 
 ### Data ultima modifica
 
@@ -748,8 +738,6 @@ Utilizzare il tipo di campo Persone per aggiungere un utente <!--, job role, or 
 
    Il nuovo campo Ultima modifica del tipo di data viene aggiunto come colonna al tipo di record e i relativi valori vengono precompilati con la data (o data e ora) dell’ultima modifica apportata al record.
 
-<div class="preview">
-
 ### Data di approvazione
 
 È possibile utilizzare il tipo di campo Data approvata per aggiungere la data in cui una richiesta è stata approvata e ha determinato la creazione del record. Questo campo è di sola lettura e viene compilato automaticamente con la data (e facoltativamente con l’ora) in cui la richiesta è stata approvata dall’ultimo approvatore. In questo caso, la data di approvazione deve coincidere con la data di creazione del record.
@@ -759,7 +747,6 @@ Utilizzare il tipo di campo Persone per aggiungere un utente <!--, job role, or 
 >Il campo Data approvata viene compilato con informazioni solo per i record creati inviando un modulo di richiesta associato agli approvatori.
 >
 >Se il modulo è associato a più approvatori, nel campo Data approvazione viene registrata solo la data dell&#39;ultima decisione di approvazione.
-
 
 1. Inizia a creare un campo come descritto nella sezione [Crea campi da zero](#create-fields-from-scratch) in questo articolo, quindi seleziona il tipo di campo **Data di creazione**.
 
@@ -810,8 +797,6 @@ Puoi utilizzare il tipo di campo Approvato da per aggiungere l’ultimo utente c
 1. Fai clic su **Crea**.
 
    Il nuovo campo Approvato per tipo viene aggiunto come colonna al tipo di record e i relativi valori vengono precompilati con il nome dell’ultimo utente che ha modificato ogni record.
-
-</div>
 
 <!--
 

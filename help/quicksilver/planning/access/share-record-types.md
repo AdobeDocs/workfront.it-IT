@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1513'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Gli utenti con accesso a un&#39;area di lavoro ottengono automaticamente almeno le autorizzazioni di visualizzazione per tutti i tipi di record nell&#39;area di lavoro.
->&#x200B;>La condivisione delle visualizzazioni non concede agli utenti le autorizzazioni per i tipi di record. Solo le aree di lavoro condivise possono concedere agli utenti le autorizzazioni per i tipi di record.
+>>La condivisione delle visualizzazioni non concede agli utenti le autorizzazioni per i tipi di record. Solo le aree di lavoro condivise possono concedere agli utenti le autorizzazioni per i tipi di record.
 >
 >* Per informazioni generali sulla condivisione di oggetti in Workfront Planning, vedere anche [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 >* Per ulteriori informazioni, vedere la sezione [Considerazioni durante la condivisione dei tipi di record](#considerations-when-sharing-record-types) in questo articolo.
@@ -181,6 +181,17 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 * Non è possibile condividere tipi di record esternamente con utenti esterni a Workfront.
 * Per assegnare a un tipo di record un utente che non dispone di autorizzazioni di area di lavoro superiori alle autorizzazioni di visualizzazione, è necessario innanzitutto condividere l&#39;area di lavoro con l&#39;utente con un&#39;autorizzazione superiore a quella di visualizzazione. Le autorizzazioni più elevate per l’area di lavoro verranno quindi applicate ai tipi di record.
 
+<div class="preview">
+
+* Durante la condivisione dei tipi di record globali sono presenti i seguenti scenari:
+
+   * È possibile condividere i tipi di record globali dalla relativa area di lavoro originale.
+   * Non è possibile condividere tipi di record globali dopo che sono stati aggiunti a un&#39;area di lavoro secondaria.
+
+  Per informazioni, vedere [Panoramica del tipo di record tra aree di lavoro](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+
+</div>
+
 ## Condivisione delle autorizzazioni per un tipo di record
 
 È possibile modificare le autorizzazioni per i singoli tipi di record di un&#39;area di lavoro se si dispone dell&#39;autorizzazione Gestione per l&#39;area di lavoro.
@@ -191,7 +202,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 1. Esegui una delle operazioni seguenti:
 
-   * <span class="preview">Dalla scheda del tipo di record, fare clic sul menu **Altro** > **Condividi**.</span>
+   * Dalla scheda del tipo di record, fai clic sul menu **Altro** > **Condividi**.
    * Fai clic su una scheda del tipo di record per aprire la pagina del tipo di record, quindi fai clic su **Condividi** > **Condividi il tipo di record** da qualsiasi visualizzazione del tipo di record.
 
    Viene visualizzata la casella **Condividi**.

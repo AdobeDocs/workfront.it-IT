@@ -1,23 +1,18 @@
 ---
 title: Aggiungi tipi di record esistenti da un altro Workspace
 description: I tipi di record sono i tipi di oggetto di Adobe Workfront Planning. In Workfront Planning è possibile aggiungere un tipo di record esistente creato in un'altra area di lavoro.
-hidefromtoc: true
-hide: true
-exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
-workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 0%
-
----
-
-<!-- add these to the metadata, when making this public: 
-
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
--->
+exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+workflow-type: tm+mt
+source-wordcount: '630'
+ht-degree: 0%
+
+---
+
 
 # Aggiungere tipi di record esistenti da un&#39;altra area di lavoro
 
@@ -56,7 +51,7 @@ Prima di aggiungere record a un&#39;area di lavoro da un tipo di record globale,
    <td> 
 <ul><li><p>Qualsiasi pacchetto Workfront e un pacchetto Planning Plus</p></li>
 <p>Oppure</p>
-<li><p>Pacchetti Prime e Ultimate per Workflow e Planning</p></p></li></ul>
+<li><p>Qualsiasi flusso di lavoro e un pacchetto Planning Prime o Ultimate</p></p></li></ul>
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
   <tr> 
@@ -120,6 +115,8 @@ And
 >[!NOTE]
 >
 >Verificare che almeno un tipo di record sia designato come globale in almeno un&#39;altra area di lavoro.
+>
+>Per informazioni, vedere [Configurare le funzionalità tra aree di lavoro diverse per i tipi di record](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
 1. Inizia a creare un tipo di record come descritto nell&#39;articolo [Crea tipi di record](/help/quicksilver/planning/architecture/create-record-types.md), quindi fai clic su **Aggiungi esistente**. <!--check this - the option might have been renamed in the UI-->
 

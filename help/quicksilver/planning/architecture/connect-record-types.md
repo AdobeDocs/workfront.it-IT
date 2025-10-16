@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '2782'
-ht-degree: 1%
+source-wordcount: '2766'
+ht-degree: 0%
 
 ---
 
@@ -36,10 +36,9 @@ Inoltre, il lavoro per ogni campagna potrebbe essere pianificato in più progett
 
 Dopo aver creato i campi di connessione, è possibile collegare singoli record tra i due tipi di record o di oggetti.
 
-<!--
 >[!NOTE]
 >
-><span class="preview">You can have up to 30 connection fields for one record type.</span>-->
+><span class="preview">È possibile avere fino a 30 campi di connessione per un tipo di record.</span>
 
 Questo articolo descrive come collegare due tipi di record di Workfront Planning o un tipo di record di Workfront Planning a un oggetto di un&#39;altra applicazione.
 
@@ -74,14 +73,14 @@ Per un esempio di connessione di tipi di record e record, vedere [Esempio di con
 <ul> 
 <li><p>Qualsiasi pacchetto Workfront e Planning</p></li>
 <p>Oppure</p>
-<li><p>Qualsiasi pacchetto di Workflow e Planning</li></ul>
+<li><p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</li></ul>
 
 <p>Per connettere tipi di record da aree di lavoro diverse:</p>
 
 <ul> 
 <li><p>Qualsiasi pacchetto Workfront e Planning</p></li>
 <p>Oppure</p>
-<li><p>Pacchetti Prime e Ultimate per Workflow e Planning</p></li></ul>
+<li><p>Qualsiasi flusso di lavoro e un pacchetto Planning Prime o Ultimate</p></li></ul>
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
 <tr> 
@@ -191,9 +190,9 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 1. Cercare un tipo di record oppure selezionare una delle opzioni seguenti:
 
-   * <span class="preview">Tipo di record dall&#39;area di lavoro corrente</span>
+   * Tipo di record dell&#39;area di lavoro corrente
 
-     <span class="preview">![Selezione connessione a selezione multipla per lo stesso tipo di record dell&#39;area di lavoro](assets/multi-select-connection-picker-record-type.png)</span>
+     ![Selezione connessione a selezione multipla per lo stesso tipo di record dell&#39;area di lavoro](assets/multi-select-connection-picker-record-type.png)
 
      >[!TIP]
      >
@@ -202,27 +201,27 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
    * Tipo di record di un&#39;altra area di lavoro configurata per la connessione da altre aree di lavoro.
 
-     <!--replace the tip below with this at the preview release for global RTs and replace screen shot in the tip:
-        >[!TIP]
-        >
-        >The **Allow connecting to this record type in other workspaces** setting must be enabled for a record type in the <span class="preview">**Cross-workspace settings**</span> tab of the **Edit record type** box, for a record type to be accessible from other workspaces. If there are no record types that are configured to connect from other workspaces, the workspace section does not display. 
-        >
-        >For information, see [Configure cross-workspace capabilities for record type](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).-->
-
      >[!TIP]
      >
-     >L&#39;impostazione **Consenti connessione a questo tipo di record in altre aree di lavoro** deve essere abilitata per un tipo di record nella scheda **Impostazioni avanzate** della casella **Modifica tipo di record** affinché un tipo di record sia accessibile da altre aree di lavoro. Se non sono presenti tipi di record configurati per la connessione da altre aree di lavoro, la sezione area di lavoro non viene visualizzata.
-     > ![Scheda Impostazioni avanzate della casella Modifica tipo di record](assets/edit-record-type-box-advanced-settings-tab.png)
+     >L&#39;impostazione **Consenti connessione a questo tipo di record in altre aree di lavoro** deve essere abilitata per un tipo di record nella scheda **Impostazioni avanzate** <span class="preview">o **Impostazioni area di lavoro incrociata**</span> della casella **Modifica tipo di record**, affinché un tipo di record sia accessibile da altre aree di lavoro. Se non sono presenti tipi di record configurati per la connessione da altre aree di lavoro, la sezione area di lavoro non viene visualizzata.
+     >
+     >Per informazioni, vedere [Configurare le funzionalità tra aree di lavoro diverse per i tipi di record](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). <!--update screen shot at production-->
+     >
+     >![Scheda Impostazioni avanzate della casella Modifica tipo di record](assets/edit-record-type-box-advanced-settings-tab.png)
 
-     Per informazioni, vedere [Modifica tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md).
+     <!--Old:
+        [!TIP]
+        The **Allow connecting to this record type in other workspaces** setting must be enabled for a record type in the **Advanced settings** tab of the **Edit record type** box, for a record type to be accessible from other workspaces. If there are no record types that are configured to connect from other workspaces, the workspace section does not display.
+        ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
+        -->
 
-     ![Nuova connessione per consentire più record, casella](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
+   Per informazioni, vedere [Modifica tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-   * <span class="preview">Un **Progetto, Portfolio, Programma, Società** o **Gruppo** dalla sezione **Tipi di oggetto Workfront**.</span>
+   * **Progetto, Portfolio, Programma, Società** o **Gruppo** dalla sezione **Tipi di oggetti di Workfront**.
 
-     <span class="preview">![Selezione connessione progetto Workfront](assets/multi-select-connection-picker-project.png)</span>
+     ![Selezione connessione progetto Workfront](assets/multi-select-connection-picker-project.png)
 
-   * **Experience Manager Assets** dalla sezione **Applicazioni Adobe**. <!--update screen shot??-->
+   * **Experience Manager Assets** dalla sezione **Applicazioni Adobe**.
 
      ![Selezione connessione AEM Assets](assets/aem-assets-connection-selection.png)
 
@@ -239,47 +238,30 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
    ![Nuova connessione al tipo di record da un&#39;altra area di lavoro](assets/new-connection-allow-multiple-records-box.png)
 
-1. (Facoltativo) Quando si connettono tipi di record della stessa area di lavoro o un tipo di record Planning con un tipo di oggetto Workfront, eseguire una delle operazioni seguenti, a seconda dell&#39;ambiente in uso:
+1. (Condizionale) Quando si collegano tipi di record della stessa area di lavoro o un tipo di record Planning con un tipo di oggetto Workfront, selezionare una delle opzioni seguenti:
 
-   * Nell&#39;ambiente di produzione, selezionare una delle seguenti opzioni **Tipo di connessione** per indicare il numero di record a cui gli utenti possono connettersi e da:
+   * **Selezione multipla**: selezionare questa opzione per consentire a un record del tipo di record corrente di connettersi a più record del tipo di record connessione.
+   * **Selezione singola**: selezionare questa opzione per consentire a un record del tipo di record corrente di connettersi a un record del tipo di record connessione.
 
-      * Da molti a molti
-      * Da uno a molti
-      * Da molti a uno
-      * Da uno a uno
+1. Selezionare **Crea campo corrispondente nel tipo di record collegato**. Se questa opzione è selezionata, viene creato un campo connessione nel tipo di record a cui si è connessi, oltre al campo connessione aggiunto al tipo di record corrente. Questa funzione è disabilitata per impostazione predefinita.
 
-     ![Selezione connessioni molti a molti](assets/many-to-many-connection-picker.png)
+   >[!TIP]
+   >
+   >Oltre a <span class="preview">il limite di 30 campi di connessione per un tipo di record</span>, esiste un limite di 500 campi per un tipo di record. Per evitare di raggiungere questo limite, è consigliabile mantenere questa impostazione disattivata, in particolare per i tipi di record tassonomici.
+   >
 
-   <div class="preview">
+1. (Condizionale) Se hai abilitato **Crea campo corrispondente nel tipo di record collegato**, scegli una delle seguenti opzioni per indicare a quanti record gli utenti possono connettersi e da:
 
-   * Nell’ambiente di anteprima, effettua le seguenti operazioni:
-      1. Seleziona una delle seguenti opzioni:
+   * Da molti a molti
+   * Da uno a molti
+   * Da molti a uno
+   * Da uno a uno
 
-         * **Selezione multipla**: selezionare questa opzione per consentire a un record del tipo di record corrente di connettersi a più record del tipo di record connessione.
-         * **Selezione singola**: selezionare questa opzione per consentire a un record del tipo di record corrente di connettersi a un record del tipo di record connessione.
+   Per ulteriori informazioni sui tipi di connessione, vedere [Panoramica sui tipi di record connessi](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
-      2. Abilita **Crea campo corrispondente nel tipo di record collegato**. Quando questa opzione è attivata, viene creato un campo connessione nel tipo di record a cui si è connessi, oltre al campo connessione aggiunto al tipo di record corrente. Questa funzione è disabilitata per impostazione predefinita.
-
-         >[!TIP]
-         >
-         >Per un tipo di record è previsto un limite di 500 campi. Per evitare di raggiungere questo limite, è consigliabile mantenere questa impostazione disattivata, in particolare per i tipi di record tassonomici.
-
-         <!--<span class="preview">There is a limit of 30 connected fields for a record type.</span>-->
-
-      3. (Condizionale) Se hai abilitato **Crea campo corrispondente nel tipo di record collegato**, scegli una delle seguenti opzioni per indicare a quanti record gli utenti possono connettersi e da:
-
-         * Da molti a molti
-         * Da uno a molti
-         * Da molti a uno
-         * Da uno a uno
-
-     </div>
-
-     Per ulteriori informazioni sui tipi di connessione, vedere [Panoramica sui tipi di record connessi](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-
-     >[!NOTE]
-     >
-     >Se si seleziona Da uno a molti o Da uno a uno per il tipo di connessione e successivamente si desidera connettere un record o un oggetto già connesso altrove, verrà visualizzato un messaggio di avviso che segnala che la connessione di nuovo lo rimuoverà dalla connessione originale. È possibile consentire la rimozione o selezionare un altro record.
+   >[!NOTE]
+   >
+   >Se si seleziona Da uno a molti o Da uno a uno per il tipo di connessione e successivamente si desidera connettere un record o un oggetto già connesso altrove, verrà visualizzato un messaggio di avviso che segnala che la connessione di nuovo lo rimuoverà dalla connessione originale. È possibile consentire la rimozione o selezionare un altro record.
 
 1. (Condizionale e facoltativo) Quando si seleziona di connettere un oggetto Workfront, scegliere un **modulo personalizzato** dalla sezione **Collega solo gli oggetti che soddisfano questi criteri**. Solo gli oggetti a cui sono allegati i moduli personalizzati selezionati possono essere collegati al tipo di record selezionato. È possibile selezionare più moduli.
 
@@ -291,7 +273,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
    >[!NOTE]
    >
-   >L&#39;amministratore di Workfront può mappare i campi di Workfront Planning sui campi di Experience Manager Assets tramite la mappatura dei metadati in Workfront. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >L&#39;amministratore di Workfront può mappare i campi di Workfront Planning sui campi di Experience Manager Assets tramite la mappatura dei metadati in Workfront. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Condizionale) Quando si sceglie di connettersi a Experience Manager Assets o a un tipo di record di Workfront Planning, scegliere una delle opzioni seguenti nell&#39;area **Aspetto record**:
@@ -409,13 +391,14 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
      Ad esempio, se hai collegato un tipo di record Campaign con un tipo di record Programma e denomini il campo del record collegato al Programma &quot;Informazioni sul programma&quot;, selezionato per visualizzare anche il campo Budget del programma nella vista tabella della campagna, il campo collegato viene automaticamente denominato `Budget (from Program information)` nella vista tabella della campagna.
 
-   * Quando si collegano tipi di record tra loro, viene aggiunto anche un campo record collegato al tipo di record a cui si sta effettuando il collegamento, <span class="preview">solo se si abilita l&#39;impostazione Crea campo corrispondente sul tipo di record collegato.</span> Il nome del campo del record collegato nel tipo di record collegato è il nome del tipo di record da cui si effettua il collegamento.
+   * Quando si collegano tipi di record tra loro, viene aggiunto anche un campo record collegato al tipo di record a cui si sta effettuando il collegamento, solo se si abilita l&#39;impostazione **Crea campo corrispondente nel tipo di record collegato**. Il nome del campo record collegato nel tipo di record collegato è il nome del tipo di record da cui si esegue il collegamento.
 
      Ad esempio, se colleghi il tipo di record &quot;Prodotto&quot; dal tipo di record &quot;Campagna&quot; e hai denominato il campo connesso della campagna &quot;Prodotto collegato&quot;, viene creato un campo di record collegato &quot;Campagna&quot; per il tipo di record Prodotto.
 
      >[!TIP]
      >
-     > Non viene creato un campo record collegato per gli oggetti di un&#39;altra applicazione nelle rispettive applicazioni. <span class="preview">È consigliabile non creare collegamenti sui tipi di record tassonomici, in quanto esiste un limite di 500 campi <!--<span class="preview">and a limit of 30 connected fields</span>--> per ogni tipo di record.</span>
+     > Non viene creato un campo record collegato per gli oggetti di un&#39;altra applicazione nelle rispettive applicazioni.
+     >È consigliabile non creare collegamenti a tipi di record tassonomici, in quanto esiste un limite di 500 campi, <span class="preview"> oltre al limite di 30 campi connessi</span> per ogni tipo di record.
 
    <!--see the span preview text in the TIP above; it might not show up in green-->
 

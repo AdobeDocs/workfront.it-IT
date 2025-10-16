@@ -1,26 +1,17 @@
 ---
 title: Configurare l’area Impostazioni di un tipo di record
-description: È possibile modificare i tipi di record dopo averli salvati nella pagina Impostazioni.
-hide: true
-hidefromtoc: true
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
-workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 1%
-
----
-
-
-<!--add better metadata at release:
-
-title: Configure Record Type Settings
-description: You can edit record types after they have been saved in the Settings page. 
+description: Oltre a modificare un tipo di record nella casella Modifica tipo di record, è possibile modificare anche i tipi di record nella pagina Impostazioni.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
-recommendations: noDisplay, noCatalog 
+recommendations: noDisplay, noCatalog
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+workflow-type: tm+mt
+source-wordcount: '483'
+ht-degree: 2%
 
--->
+---
+
 
 # Configurare l’area Impostazioni di un tipo di record
 
@@ -46,7 +37,7 @@ A seconda delle funzionalità che si desidera definire per un tipo di record, è
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -55,30 +46,36 @@ A seconda delle funzionalità che si desidera definire per un tipo di record, è
 </col> 
 <tbody> 
     <tr> 
-<tr>
-
+<tr> 
 </tr>   
 <tr> 
    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<ul><li><p>Qualsiasi pacchetto Workfront</p></li>
-<p>E</p>
-<li><p>Qualsiasi pacchetto Planning per la creazione di tipi di record collegabili</p></li>
-<li><p>Pacchetto Planning Plus per creare tipi di record centralizzati</p></li>
-</ul>
-<p>Oppure:</p>
-<ul><li><p>Un pacchetto Workflow e Planning Prime o Ultimate</p> </li></ul>
-<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto di Workfront Planning, contattare l'account manager Workfront. </p> 
-   </td>
+<p>Qualsiasi pacchetto Workfront e Planning</p>
+<p>Qualsiasi pacchetto Workfront e Planning</p>
+<p><b>NOTA</b></p>
+<p>Per configurare i tipi di record collegabili: </p>
+<ul> 
+<li><p>Qualsiasi pacchetto Workfront e qualsiasi pacchetto Planning</p></li>
+<p>Oppure</p>
+<li><p>Qualsiasi flusso di lavoro e un pacchetto Planning Prime o Ultimate</p></li></ul>
 
-<tr> 
+<p>Per configurare i tipi di record globali:</p>
+
+<ul> 
+<li><p>Qualsiasi pacchetto Workfront e un pacchetto Planning Plus</p></li>
+<p>Oppure</p>
+<li><p>Qualsiasi flusso di lavoro e un pacchetto Planning Prime o Ultimate</p></li></ul>
+<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p>
+   </td> </tr>
+  <tr> 
    <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
-   <td>   <p>Gestione delle autorizzazioni per un'area di lavoro</a> </p>  
+   <td>   <p>Gestire le autorizzazioni per un’area di lavoro</p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  </td> 
   </tr>  
 </tbody> 
@@ -86,7 +83,7 @@ A seconda delle funzionalità che si desidera definire per un tipo di record, è
 
 Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++   
++++    
 
 <!--Old:
 
@@ -164,12 +161,16 @@ Puoi definire le funzionalità tra aree di lavoro diverse per un tipo di record 
 1. Esegui una delle operazioni seguenti:
 
    * Passa il puntatore del mouse sulla scheda di un tipo di record e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) nell&#39;angolo superiore destro della scheda del tipo di record, quindi fai clic su **Impostazioni**
-Oppure
+
+     ![Altre opzioni di menu dalla scheda del tipo di record](assets/more-menu-options-from-record-type-card-with-settings-link.png)
+
+     Oppure
+
    * Fai clic su una scheda del tipo di record per aprire la pagina del tipo di record, fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record, quindi fai clic su **Impostazioni**.
 
-   <!--update screen shot at release-->
+   <!--update screen shot at prod??-->
 
-   ![Altre opzioni di menu dalla scheda del tipo di record](assets/more-menu-options-from-record-type-card.png)
+   ![Impostazioni per più aree di lavoro nella pagina Impostazioni](assets/settings-page-cross-workspace-settings.png)
 
 1. La sezione **Impostazioni tra aree di lavoro** è selezionata per impostazione predefinita.
 1. Attiva o disattiva una delle seguenti impostazioni:
@@ -179,4 +180,4 @@ Oppure
 
    Le impostazioni sono disattivate per impostazione predefinita.
 
-   Per informazioni, vedere [Configurare le funzionalità tra aree di lavoro diverse per i tipi di record](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+   Per ulteriori informazioni, vedere [Configurare le funzionalità tra aree di lavoro diverse per i tipi di record](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)

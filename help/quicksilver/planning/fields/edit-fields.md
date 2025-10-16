@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
@@ -200,8 +200,6 @@ Prima di apportare modifiche alla configurazione di un campo, è necessario cons
    Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 
-<div class="preview">
-
 ## Aggiungere nuove scelte a un campo di selezione esistente durante la modifica di record nella vista tabella
 
 <!--some of this information is also available in Edit records article - update both when necessary-->
@@ -230,6 +228,5 @@ Per aggiungere una nuova scelta a un campo di selezione esistente durante la mod
 
    La nuova scelta viene aggiunta immediatamente al campo a selezione singola.
 
-   <!--<span class="preview">A new choice value is also added to each choice. You can use the choice values in API calls or other integrations. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). </span>-->
+   <span class="preview">A ogni scelta viene aggiunto un nuovo valore. Puoi utilizzare i valori di scelta nelle chiamate API o in altre integrazioni. Per informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).</span>
 
-</div>

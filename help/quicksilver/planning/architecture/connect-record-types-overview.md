@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1973'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ In Workfront Planning sono disponibili due passaggi per le connessioni:
 
 Considerare le seguenti informazioni sulla connessione dei tipi di record:
 
-<!--* <span class="preview">You can have up to 30 connected fields for one record type in Workfront Planning.</span>-->
+* <span class="preview">In Workfront Planning è possibile avere fino a 30 campi connessi per un tipo di record.</span>
 
 * È possibile connettere le seguenti entità in Adobe Workfront Planning:
 
@@ -76,16 +76,14 @@ Considerare le seguenti informazioni sulla connessione dei tipi di record:
 
 * Dopo aver collegato un tipo di record a un altro tipo di record o a un tipo di oggetto di un&#39;altra applicazione, si verificano i seguenti scenari:
 
-   * **Quando si connettono due tipi di record di Planning**: viene creato un campo record collegato nel tipo di record da cui si sta effettuando la connessione. Un campo record collegato simile viene creato nel tipo di record a cui ci si connette <!--<span class="preview">, only when you enable the Create corresponding field on linked record type setting on the New connection tab.</span>-->.
+   * **Quando si connettono due tipi di record di Planning**: viene creato un campo record collegato nel tipo di record da cui si sta effettuando la connessione. Un campo record collegato simile viene creato nel tipo di record a cui ci si connette solo quando si abilita l&#39;impostazione Crea campo corrispondente nel tipo di record collegato nella scheda Nuova connessione.
 
      Ad esempio, se colleghi il tipo di record &quot;Campagna&quot; al tipo di record &quot;Prodotto&quot;, nel tipo di record Campagna viene creato un campo record collegato (campo connessione) denominato &quot;Prodotto collegato&quot;. Nel tipo di record Prodotto viene creato automaticamente un tipo di record collegato denominato &quot;Campaign&quot;.
 
-     <div class="preview">
-
      Esistono, ad esempio, i seguenti scenari:
+
       * Quando si abilita l&#39;impostazione Crea campo corrispondente nel tipo di record collegato e si collega il tipo di record &quot;Campagna&quot; al tipo di record &quot;Prodotto&quot;, nel tipo di record Campagna viene creato un campo di record collegato (campo di connessione) denominato &quot;Prodotto collegato&quot;. Nel tipo di record Prodotto viene creato automaticamente un tipo di record collegato denominato &quot;Campaign&quot;.
       * Quando si disattiva l&#39;impostazione Crea campo corrispondente nel tipo di record collegato e si collega il tipo di record &quot;Campagna&quot; al tipo di record &quot;Prodotto&quot;, nel tipo di record Campagna viene creato un campo di record collegato (campo di connessione) denominato &quot;Prodotto collegato&quot;. Nel tipo di record Prodotto non viene creato un tipo di record collegato denominato automaticamente &quot;Campaign&quot;.
-     </div>
 
      Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
 
@@ -95,7 +93,7 @@ Considerare le seguenti informazioni sulla connessione dei tipi di record:
       * I campi dei record di Planning non sono accessibili dagli oggetti di Workfront.
       * I record di Planning sono visibili dalla scheda Planning dell&#39;oggetto Workfront. Per informazioni, vedere [Gestire le connessioni record dagli oggetti Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * È possibile creare un campo personalizzato della connessione Planning e allegarlo al modulo personalizzato di un oggetto Workfront. Per informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-      * I campi del record di pianificazione sono accessibili dalle risorse di Experience Manager quando l’amministratore Workfront configura la mappatura dei metadati tramite l’integrazione tra Workfront e Adobe Experience Manager Assets. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+      * I campi del record di pianificazione sono accessibili dalle risorse di Experience Manager quando l’amministratore Workfront configura la mappatura dei metadati tramite l’integrazione tra Workfront e Adobe Experience Manager Assets. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
    * **Quando si aggiungono campi di ricerca dal record o dall&#39;oggetto a cui ci si connette**: oltre a creare un campo record collegato, è anche possibile connettersi ai campi del record o del tipo di oggetto connesso denominati campi di ricerca. Un campo di ricerca collegato con le informazioni del record a cui ci si connette viene visualizzato nel record da cui ci si connette.
@@ -137,27 +135,19 @@ Dopo aver stabilito una connessione tra due tipi di record o tra un record e un 
 
 È possibile scegliere se collegare un record a più record alla volta oppure un record alla volta tra di loro.
 
-A seconda del numero di record che è possibile aggiungere a un campo record connesso e dell&#39;ambiente utilizzato per creare i campi connessi, i tipi di connessione disponibili per la connessione dei tipi di record sono i seguenti:
+Di seguito sono riportati i tipi di connessione che è possibile scegliere per la connessione dei tipi di record:
 
-<div class="preview">
+* Quando l&#39;impostazione **Crea campo corrispondente nel tipo di record collegato** è disabilitata, è possibile scegliere tra:
 
-* Nell’ambiente di anteprima:
+   * [Selezione multipla](#multi-select-connection-type)
+   * [Selezione singola](#single-select-connection-type)
 
-   * Quando l&#39;impostazione Crea campo corrispondente nel tipo di record collegato è disabilitata, è possibile scegliere tra:
-
-      * [Selezione multipla](#multi-select-connection-type)
-      * [Selezione singola](#single-select-connection-type)
-
-</div>
-
-* <span class="preview">Nell&#39;ambiente di anteprima, quando l&#39;impostazione Crea campo corrispondente nel tipo di record collegato è abilitata,</span> o nell&#39;ambiente di produzione, è possibile scegliere tra:
+* Quando l&#39;impostazione **Crea campo corrispondente nel tipo di record collegato** è abilitata, è possibile scegliere tra:
 
    * [Da molti a molti](#many-to-many-connection-type)
    * [Da uno a molti](#one-to-many-connection-type)
    * [Da molti a uno](#many-to-one-connection-type)
    * [Uno a uno](#many-to-one-connection-type)
-
-<div class="preview">
 
 ### Tipo di connessione a selezione multipla
 
