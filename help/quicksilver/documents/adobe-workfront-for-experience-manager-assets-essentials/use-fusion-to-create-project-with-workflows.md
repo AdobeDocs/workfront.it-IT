@@ -82,7 +82,7 @@ In Workfront Fusion, se desideri creare un progetto che includa flussi di lavoro
 1. Aggiungi il modulo **Workfront** > **Misc Action** allo scenario.
 1. Nel campo **Connessione**, selezionare la connessione Workfront che si connette all&#39;account che verrà utilizzato da questo modulo.
 
-   Per istruzioni sulla creazione di una connessione, vedere [Connetti [!DNL Workfront] a [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) nell&#39;articolo Moduli di Workfront.
+   Per istruzioni sulla creazione di una connessione, vedere [Connetti [!DNL Workfront] a [!DNL Workfront Fusion]](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) nell&#39;articolo Moduli di Workfront.
 
    Per istruzioni sulla creazione dell&#39;ID client e del segreto client, è necessario creare una connessione. Vedere [Creare un&#39;applicazione OAuth](#create-an-oauth-application) in questo articolo.
 
@@ -164,4 +164,4 @@ Devi impostare un’applicazione OAuth in Workfront per la connessione di questo
 
 Utilizzerai questo ID client e segreto client durante la configurazione della connessione del modulo in Fusion.
 
-Per istruzioni sulla creazione di una connessione, vedere [Connetti [!DNL Workfront] a [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) nell&#39;articolo Moduli di Workfront.
+Per istruzioni sulla creazione di una connessione, vedere [Connetti [!DNL Workfront] a [!DNL Workfront Fusion]](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) nell&#39;articolo Moduli di Workfront.

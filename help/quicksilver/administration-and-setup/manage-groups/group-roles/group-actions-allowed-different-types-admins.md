@@ -235,7 +235,7 @@ In questa tabella sono elencate le attività di amministrazione disponibili per:
 * Workflow Prime e versioni successive
 * Workfront Prime e versioni successive
 
-Per ulteriori informazioni sui pacchetti, vedere la [pagina Adobe Workfront relativa a prezzi e pacchetti](https://business.adobe.com/products/workfront/pricing.html).
+Per ulteriori informazioni sui pacchetti, vedere la [pagina Adobe Workfront relativa a prezzi e pacchetti](https://business.adobe.com/it/products/workfront/pricing.html).
 
 Controlli Enterprise avanzati:
 

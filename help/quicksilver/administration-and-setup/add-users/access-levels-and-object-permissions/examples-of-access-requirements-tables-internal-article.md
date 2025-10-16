@@ -420,10 +420,10 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
 
 
-Per informazioni sulle licenze di Adobe Workfront Fusion, vedere [Licenze di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Per informazioni sulle licenze di Adobe Workfront Fusion, vedere [Licenze di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 ## Controlli Enterprise avanzati
 
@@ -438,7 +438,7 @@ Un articolo sugli amministratori di gruppi cita il pacchetto su cui il cliente d
 * Workflow Prime e versioni successive
 * Workfront Prime e versioni successive
 
-Per ulteriori informazioni sui pacchetti, vedere la [pagina Adobe Workfront relativa a prezzi e pacchetti](https://business.adobe.com/products/workfront/pricing.html).
+Per ulteriori informazioni sui pacchetti, vedere la [pagina Adobe Workfront relativa a prezzi e pacchetti](https://business.adobe.com/it/products/workfront/pricing.html).
 
 Controlli Enterprise avanzati:
 
@@ -483,9 +483,9 @@ Controlli Enterprise avanzati:
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
 
-Per informazioni sulle licenze di Adobe Workfront Fusion, vedere [Licenze di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Per informazioni sulle licenze di Adobe Workfront Fusion, vedere [Licenze di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
