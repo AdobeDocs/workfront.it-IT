@@ -70,7 +70,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 1. Seleziona una o più società da disattivare o riattivare.
 1. Fai clic su **[!UICONTROL Modifica]**.<!--MAKE THIS A SEPARATE NUMBERED LINE<span class="preview">In the Preview environment, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.</span>-->
-1. <!--In the Production environment, -->Per una singola azienda, disabilitare l&#39;opzione **[!UICONTROL È attivo]** per disattivarla o abilitare l&#39;opzione per attivarla.
+1. &#x200B;<!--In the Production environment, -->Per una singola azienda, disabilitare l&#39;opzione **[!UICONTROL È attivo]** per disattivarla o abilitare l&#39;opzione per attivarla.
 
    Oppure
 
