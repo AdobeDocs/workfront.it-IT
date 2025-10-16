@@ -126,7 +126,7 @@ Puoi visualizzare le informazioni sull’iniziativa nei rapporti, come descritto
    <td>Tutte le informazioni sull'iniziativa elencate in precedenza, ID (mansione), Progetto*, Ore pianificate assegnazione progetto*, Ore mansione iniziativa, Conteggio (mansione), Tutti i campi del progetto, inclusi i campi personalizzati*</td> 
   </tr> 
   <tr> 
-   <td><p>Progetto [!UICONTROL]*</p></td> 
+   <td><p>Progetto *</p></td> 
    <td> <p>Tutte le informazioni sull'iniziativa elencate in precedenza*</p> </td> 
   </tr> 
  </tbody> 

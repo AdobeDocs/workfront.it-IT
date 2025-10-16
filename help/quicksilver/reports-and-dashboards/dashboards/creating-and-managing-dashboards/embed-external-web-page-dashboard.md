@@ -29,7 +29,7 @@ Ad esempio, se la tua organizzazione dispone di un archivio documenti basato su 
 >
 >
 >* Le pagine del dashboard non sono più supportate come pagine esterne incorporate nei dashboard. Anche se i dashboard esistenti non verranno modificati automaticamente per rimuovere queste pagine esterne, qualsiasi modifica a un dashboard che include tale riferimento non potrà essere salvata fino a quando il riferimento non verrà rimosso o modificato.
->  > In particolare, i seguenti sottodomini Workfront.com non sono più supportati:
+>  &#x200B;> In particolare, i seguenti sottodomini Workfront.com non sono più supportati:
 >
 >     * /dashboard&#x200B;
 >     * /dashboard/:ID&#x200B;

@@ -84,7 +84,7 @@ La condivisione di uno o più report da un elenco è identica.
 
    Oppure
 
-   Fai clic sul nome di un report, quindi fai clic su **Azioni report >****Condivisione**.
+   Fai clic sul nome di un report, quindi fai clic su **Azioni report >**&#x200B;**Condivisione**.
 
    ![](assets/unshimmed-report-actions-sharing.png)
 

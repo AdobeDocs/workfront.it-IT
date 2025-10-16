@@ -61,7 +61,7 @@ Gli elementi di lavoro assegnati vengono visualizzati nel widget Il mio lavoro i
 
 Puoi selezionare filtri che visualizzano elementi pronti per l’uso oppure elementi su cui stai già lavorando.
 
-In questo articolo viene descritto come utilizzare i filtri nell&#39;area [!UICONTROL Home] per visualizzare gli elementi su cui si sta lavorando o che si potrebbe considerare di iniziare a lavorare. Per informazioni su come utilizzare i filtri nell&#39;area [!UICONTROL Home], vedere [Visualizzare gli elementi nell&#39;elenco di lavoro [!UICONTROL 4} nell&#39;area ]Home.](/help/quicksilver/workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
+In questo articolo viene descritto come utilizzare i filtri nell&#39;area [!UICONTROL Home] per visualizzare gli elementi su cui si sta lavorando o che si potrebbe considerare di iniziare a lavorare. Per informazioni su come utilizzare i filtri nell&#39;area [!UICONTROL Home], vedere [Visualizzare gli elementi nell&#39;elenco di lavoro [!UICONTROL 4&rbrace; nell&#39;area &#x200B;]Home.](/help/quicksilver/workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
 
 Per visualizzare un elemento di lavoro nel widget Il mio lavoro:
 

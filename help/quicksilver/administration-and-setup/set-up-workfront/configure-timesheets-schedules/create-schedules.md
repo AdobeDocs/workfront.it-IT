@@ -113,7 +113,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
      <td><p>Selezionare i gruppi con accesso [!UICONTROL View] che possono visualizzare questa pianificazione.</p>
      <p>Solo gli utenti dei gruppi qui specificati possono trovare la pianificazione nel menu a discesa quando la assegnano a utenti o progetti.</p></tr>
     <tr>
-     <td>Fuso orario di [!UICONTROL]</td>
+     <td>Fuso orario di </td>
      <td><p>Seleziona il fuso orario per la pianificazione.</p>
      <p>Se si associa la pianificazione a un utente, è consigliabile che il fuso orario della pianificazione corrisponda a quello dell'utente. Per informazioni sui fusi orari dell'utente, vedere <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modificare il profilo di un utente.
      </td>

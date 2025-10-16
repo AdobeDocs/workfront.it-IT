@@ -13,7 +13,7 @@ ht-degree: 4%
 
 ---
 
-# Visualizza elementi nell&#39;elenco lavori [!UICONTROL 1} nell&#39;area ]Home
+# Visualizza elementi nell&#39;elenco lavori [!UICONTROL 1&rbrace; nell&#39;area &#x200B;]Home
 
 <!-- Audited: 1/2024 -->
 

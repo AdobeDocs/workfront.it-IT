@@ -134,11 +134,11 @@ Per personalizzare la Home tramite un modello di layout:
    >
    >* Le opzioni Filtro, Colonne e Gruppo sono collegate alle opzioni di personalizzazione elenco nel modello di layout. Le modifiche apportate qui verranno applicate anche a queste impostazioni.
    >* Gli utenti devono disporre almeno dell&#39;accesso Crea alle visualizzazioni per consentire la corretta applicazione della configurazione della colonna Amministratore alle proprie home page.
-   </p>
-      <li><p>Impostare un filtro o un gruppo predefinito per il widget passando il mouse su un'opzione e facendo clic su <b>Imposta come predefinito</b>. Il valore predefinito corrente visualizza un contrassegno blu <b>Predefinito</b> a destra.</p></li>
-      <li><p>Aggiungere un filtro, una colonna o un gruppo esistente all'elenco delle opzioni disponibili facendo clic sul pulsante del segno più nella parte inferiore di ogni elenco per aggiungere un'opzione all'elenco. Solo i filtri, i campi (per le colonne) o i gruppi esistenti possono essere aggiunti in questo modo.</p></li>
-      </ul>
-      <p>
+   ></p>
+   >   <li><p>Impostare un filtro o un gruppo predefinito per il widget passando il mouse su un'opzione e facendo clic su <b>Imposta come predefinito</b>. Il valore predefinito corrente visualizza un contrassegno blu <b>Predefinito</b> a destra.</p></li>
+   >   <li><p>Aggiungere un filtro, una colonna o un gruppo esistente all'elenco delle opzioni disponibili facendo clic sul pulsante del segno più nella parte inferiore di ogni elenco per aggiungere un'opzione all'elenco. Solo i filtri, i campi (per le colonne) o i gruppi esistenti possono essere aggiunti in questo modo.</p></li>
+   >   </ul>
+   >   <p>
 
    >[!NOTE]
    >

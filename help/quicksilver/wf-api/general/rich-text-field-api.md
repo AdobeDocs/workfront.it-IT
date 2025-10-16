@@ -123,4 +123,4 @@ Per salvare i seguenti valori di un campo in formato Rich Text utilizzando l’A
 1. Utilizza il metodo stringify sul JSON descritto sopra per effettuare una richiesta PUT e inviare aggiornamenti.
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre><OBJ Code><OBJ ID></pre>
+   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>

@@ -33,7 +33,7 @@ Puoi disattivare i team che non utilizzi più conservando i dati storici associa
    <td> 
     <ul> 
      <li> <p>Menu a discesa di selezione principale nell'area [!UICONTROL Teams]</p> </li> 
-     <li> <p>[Assegnazioni UICONTROL] completamento automatico</p> </li> 
+     <li> <p>[!UICONTROL Assegnazioni] completamento automatico</p> </li> 
      <li> <p>Finestra di dialogo [!UICONTROL Aggiungi a Kanban] in un progetto</p> </li> 
     </ul> </td> 
   </tr> 

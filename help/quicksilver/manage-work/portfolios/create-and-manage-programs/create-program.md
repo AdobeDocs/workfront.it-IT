@@ -241,8 +241,8 @@ Le seguenti informazioni vengono visualizzate nell’intestazione di un programm
    <td>Non puoi modificare la Data di completamento pianificata del programma nell’intestazione. Queste informazioni vengono aggiornate dai progetti nel programma. La data di completamento pianificata dell'ultimo progetto del programma diventa la data di completamento pianificata del programma.  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Condizione progetti attivi [!UICONTROL]</td> 
-   <td>Questo è un calcolo della percentuale di progetti nel programma per cui la condizione [!UICONTROL] è impostata come [!UICONTROL On Target], [!UICONTROL At Risk] o [!UICONTROL In Trouble]. I progetti qui rappresentati sono progetti con uno stato di [!UICONTROL Current] e [!UICONTROL Approved]. </td> 
+   <td role="rowheader">Condizione progetti attivi </td> 
+   <td>Questo è un calcolo della percentuale di progetti nel programma per cui la condizione  è impostata come [!UICONTROL On Target], [!UICONTROL At Risk] o [!UICONTROL In Trouble]. I progetti qui rappresentati sono progetti con uno stato di [!UICONTROL Current] e [!UICONTROL Approved]. </td> 
   </tr> 
  </tbody> 
 </table>

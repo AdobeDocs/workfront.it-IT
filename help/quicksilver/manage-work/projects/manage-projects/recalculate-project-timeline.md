@@ -93,8 +93,8 @@ Per impostazione predefinita, le sequenze temporali del progetto vengono ricalco
 >* Se la sequenza temporale di un progetto supera i 15 anni, il ricalcolo automatico viene disattivato per tale progetto ed è possibile selezionare solo un tipo di aggiornamento Manuale. Se si modificano le date del progetto in meno di 15 anni, è necessario ricalcolare manualmente la sequenza temporale una volta prima che venga calcolata automaticamente.
 >* Per gli ambienti Sandbox di anteprima e aggiornamento personalizzato, il ricalcolo notturno è disattivato e le timeline del progetto non vengono ricalcolate automaticamente. Devi ricalcolare manualmente la timeline del progetto per gli ambienti Sandbox di anteprima e aggiornamento personalizzati.
 >* Se un progetto è complesso, è possibile che il ricalcolo automatico della sequenza temporale non venga eseguito.
->  > Un esempio di progetto complesso può essere un progetto con più dipendenze, un numero elevato di attività, più predecessori tra progetti o più rientri di attività.
->  > Workfront visualizza un avviso a destra del nome del progetto nella pagina del progetto per informare gli utenti che la sequenza temporale del progetto deve essere ricalcolata manualmente. Solo gli utenti con autorizzazioni Manage (Gestisci) per il progetto possono ricalcolare manualmente la timeline.
+>  &#x200B;> Un esempio di progetto complesso può essere un progetto con più dipendenze, un numero elevato di attività, più predecessori tra progetti o più rientri di attività.
+>  &#x200B;> Workfront visualizza un avviso a destra del nome del progetto nella pagina del progetto per informare gli utenti che la sequenza temporale del progetto deve essere ricalcolata manualmente. Solo gli utenti con autorizzazioni Manage (Gestisci) per il progetto possono ricalcolare manualmente la timeline.
 >
 >   ![](assets/project-warning-to-manually-recalculate-timeline.png)
 >

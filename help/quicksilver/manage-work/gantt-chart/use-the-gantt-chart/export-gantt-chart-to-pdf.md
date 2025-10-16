@@ -133,7 +133,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    Ad esempio, se visualizzi il [!UICONTROL Grafico di Gantt] per un progetto che contiene 50 attività, ma desideri visualizzare solo 10 attività nel [!UICONTROL Grafico di Gantt] esportato, seleziona le 10 attività che desideri visualizzare.
 
 1. Fare clic sull&#39;icona della stampante ![Icona della stampante](assets/printer-icon.png) nell&#39;angolo superiore destro del diagramma di Gantt.
-Viene visualizzata la finestra di dialogo Esporta in PDF**[!UICONTROL .]**
+Viene visualizzata la finestra di dialogo Esporta in PDF&#x200B;**[!UICONTROL .]**
 
    ![Finestra di dialogo Esporta in PDF](assets/exported-gantt-ui-350x225.png)
 

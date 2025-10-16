@@ -406,7 +406,7 @@ Ricevi una notifica di informazione quando viene aggiornato un elemento a cui se
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Qualcuno include il tuo team in un aggiornamento diretto di [!UICONTROL]</td> 
+   <td role="rowheader">Qualcuno include il tuo team in un aggiornamento diretto di </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 

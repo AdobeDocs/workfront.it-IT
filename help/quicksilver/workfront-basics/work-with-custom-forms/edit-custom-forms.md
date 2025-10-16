@@ -174,7 +174,7 @@ La modifica delle informazioni in un modulo personalizzato associato a un oggett
 >![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 >
 >Workfront calcola tutti i campi personalizzati per tutti i progetti selezionati.
->>Non tutti gli elenchi di tutti gli oggetti dispongono di questa funzionalità.
+>&#x200B;>Non tutti gli elenchi di tutti gli oggetti dispongono di questa funzionalità.
 >
 >A seconda della complessità dei progetti, è consigliabile non selezionare un numero elevato di progetti durante il ricalcolo in blocco dei campi personalizzati calcolati per garantire prestazioni ottimali. Alcuni elementi che potrebbero rendere un progetto troppo complesso potrebbero essere più dipendenze o assegnazioni o un numero elevato di campi personalizzati.
 

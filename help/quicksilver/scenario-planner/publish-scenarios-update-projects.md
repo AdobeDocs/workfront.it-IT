@@ -44,7 +44,7 @@ La pubblicazione di uno scenario da [!DNL Adobe Workfront Scenario Planner] comp
   </tr> 
     <tr> 
    <td>Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso [!UICONTROL Edit] per i progetti [!DNL Scenario Planner] e [!UICONTROL]</p></td> 
+   <td> <p>Accesso [!UICONTROL Edit] per i progetti [!DNL Scenario Planner] e </p></td> 
   </tr> 
   <tr> 
    <td> <p>Autorizzazioni oggetto </p> </td> 

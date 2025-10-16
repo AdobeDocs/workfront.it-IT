@@ -60,6 +60,6 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 1. Fai clic su **[!UICONTROL Salva].**
 
-Per informazioni su come utilizzare l&#39;app mobile [!DNL Workfront] dopo che è stata abilitata per il sito, vedere [Utilizzare l&#39;app mobile  [!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
+Per informazioni su come utilizzare l&#39;app mobile [!DNL Workfront] dopo che è stata abilitata per il sito, vedere [Utilizzare l&#39;app mobile  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
 
 Per informazioni sull&#39;utilizzo di [!DNL Workfront for Outlook], vedere la sezione [Utilizzo di [!DNL Workfront with Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md).
