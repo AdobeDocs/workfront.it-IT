@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '3494'
+source-wordcount: '3431'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ Per informazioni sull&#39;esportazione della vista tabella in un file Excel o CS
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -44,47 +44,23 @@ Per informazioni sull&#39;esportazione della vista tabella in un file Excel o CS
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> Prodotti</p> </td> 
-   <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
-  </tr>   
+</tr>   
 <tr> 
-   <td role="rowheader"><p>Piano Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<p>Uno dei seguenti piani di Workfront:</p> 
-<ul><li>Seleziona</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning non è disponibile per i piani Workfront legacy</p> 
+<ul> 
+<li><p>Qualsiasi pacchetto Workfront e Planning</p></li>
+Oppure
+<li><p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p></li></ul>
+<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
-<tr> 
-   <td role="rowheader"><p>Pacchetto Adobe Workfront Planning*</p></td> 
-   <td> 
-<p>Qualsiasi </p> 
-<p>Per ulteriori informazioni su quanto incluso in ogni piano di Workfront Planning, contattare l'account manager Workfront. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td> 
-   <td> 
-<p>Per poter accedere a Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
-<p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata Adobe per Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-    <td role="rowheader"><p>Licenza Adobe Workfront*</p></td> 
+  <tr> 
+   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
    <td><p> Standard per creare ed eliminare viste</p>
    <p>Collaboratore o versione successiva per aggiornare gli elementi di visualizzazione</p>
-   <p>Workfront Planning non è disponibile per le licenze Workfront legacy</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
-   <td> <p>Nessun controllo del livello di accesso per Adobe Workfront Planning</p>   
-</td> 
-  </tr> 
-<tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
    <td>   <p>Gestire le autorizzazioni per una visualizzazione</p>  
    <p>Autorizzazioni di visualizzazione a una visualizzazione per modificare temporaneamente le impostazioni di visualizzazione o per duplicarla</p> </td> 
@@ -94,13 +70,76 @@ Per informazioni sull&#39;esportazione della vista tabella in un file Excel o CS
    <td> Agli utenti con una licenza Light o Contributor deve essere assegnato un modello di layout che includa Planning.
    <p>Per impostazione predefinita, le aree Pianificazione sono attivate dagli utenti standard e dagli amministratori di sistema.</p></div></li></ul>
 </td>
-  </tr>
+  </tr> 
 </tbody> 
 </table>
 
-*Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++   
++++ 
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+    <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard to create and delete views</p>
+   <p>Contributor or higher to update view elements</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr>
+</tbody> 
+</table> -->
 
 ## Modificare i record utilizzando la vista tabella
 

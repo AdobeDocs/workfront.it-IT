@@ -4,9 +4,9 @@ description: I tipi di record globali possono essere aggiunti a più aree di lav
 hidefromtoc: true
 hide: true
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 95474ea813f4ea575942eea733caf2952b2daa75
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1453'
 ht-degree: 0%
 
 ---
@@ -79,18 +79,23 @@ Il tipo di record configurato come globale presenta le seguenti proprietà:
    * Modifica
 
      La modifica di un tipo di record globale include la modifica dell&#39;aspetto, delle funzionalità per più aree di lavoro e di tutti i campi creati nell&#39;area di lavoro originale.
-   * Creare moduli di richiesta
-   * Gestisci i moduli di richiesta
+   * Creare e gestire i moduli di richiesta
+   * Creare e gestire le automazioni
 
 * È possibile eliminare un tipo di record globale solo se non è stato aggiunto a un&#39;area di lavoro secondaria. Prima di eliminarlo dall&#39;area di lavoro originale, è necessario rimuoverlo dalle aree di lavoro secondarie.
+
+  Per ulteriori informazioni, vedere [Elimina tipi di record](/help/quicksilver/planning/architecture/delete-record-types.md).
 * I record aggiunti a un tipo di record globale sono visibili solo agli utenti che dispongono delle autorizzazioni di visualizzazione per l&#39;area di lavoro in cui sono stati aggiunti.
 * I record aggiunti da un workspace secondario vengono aggregati e visualizzati nel workspace originale. Tutti i membri dell&#39;area di lavoro originale ottengono le relative autorizzazioni di visualizzazione.
-* Se il tipo di record globale originale viene aggiunto a più aree di lavoro secondarie, è possibile visualizzare i record aggiunti ad altre aree di lavoro solo dall&#39;area di lavoro originale o dalle aree di lavoro per le quali si dispone almeno delle autorizzazioni di visualizzazione.
+* Quando il tipo di record globale originale viene aggiunto a più aree di lavoro secondarie, esistono i seguenti scenari:
+
+   * I membri dell&#39;area di lavoro originale ottengono automaticamente le autorizzazioni di visualizzazione per tutti i record aggiunti da qualsiasi area di lavoro, anche se non sono membri di tali aree di lavoro.
+   * I membri dell&#39;area di lavoro secondaria possono visualizzare solo i record delle aree di lavoro in cui sono membri.
 * I tipi di record connessi di un tipo di record globale saranno disponibili per la connessione dalle aree di lavoro in cui viene aggiunto il tipo di record.
 
   Ad esempio, se disponi di un tipo di record globale Campaign con una connessione a un tipo di record Aree geografiche e aggiungi il tipo di record Campaign a un’area di lavoro secondaria, le aree diventeranno collegabili tra aree di lavoro diverse dall’area di lavoro secondaria. I membri dell’area di lavoro secondaria possono ora creare campagne e collegarle alle aree geografiche.
 
-* I campi creati per un tipo di record globale dall&#39;area di lavoro originale sono visibili da tutte le aree di lavoro in cui viene aggiunto il tipo di record. Le impostazioni dei campi da un workspace originale sono di sola lettura nelle aree di lavoro secondarie.
+* I campi creati per un tipo di record globale dall&#39;area di lavoro originale sono visibili da tutte le aree di lavoro in cui viene aggiunto il tipo di record. È possibile modificare le impostazioni dei campi solo dall&#39;area di lavoro originale. Le impostazioni dei campi creati nell&#39;area di lavoro originale sono di sola lettura nelle aree di lavoro secondarie per tutti i membri, indipendentemente dalle relative autorizzazioni nell&#39;area di lavoro secondaria. I responsabili dell&#39;area di lavoro secondaria non possono modificare le impostazioni dei campi configurati nell&#39;area di lavoro originale. Solo i responsabili dell&#39;area di lavoro dell&#39;area di lavoro originale possono modificare le impostazioni dei campi nell&#39;area di lavoro originale.
 
 ### Considerazioni sui tipi di record globali in un workspace secondario
 
@@ -103,6 +108,8 @@ Il tipo di record configurato come globale presenta le seguenti proprietà:
    * Eliminalo.
 
      Se si elimina il tipo di record da un workspace secondario, questo viene rimosso solo dal workspace secondario. Verranno eliminati anche i record e i campi aggiunti a esso dall’area di lavoro secondaria. Il tipo di record non viene eliminato dall&#39;area di lavoro originale o da altre aree di lavoro secondarie in cui è stato aggiunto.
+
+     Per ulteriori informazioni, vedere [Elimina tipi di record](/help/quicksilver/planning/architecture/delete-record-types.md).
 
   <!--These two capabilities will come later - and edit some of the bullets below after these capabilities are released:
     * Add new fields
@@ -128,7 +135,7 @@ Il tipo di record configurato come globale presenta le seguenti proprietà:
 * Esistono i seguenti scenari per i record creati nelle aree di lavoro secondarie:
 
    * Se si dispone delle autorizzazioni Gestione per l&#39;area di lavoro originale e non si dispone delle autorizzazioni per le aree di lavoro secondarie, è possibile visualizzare i record aggiunti dalle aree di lavoro secondarie nell&#39;area di lavoro originale, ma non è possibile gestirli dall&#39;area di lavoro originale.
-   * Se si dispone delle autorizzazioni Gestione nell&#39;area di lavoro secondaria, è possibile gestire i record nell&#39;area di lavoro originale del tipo di record globale o dall&#39;area di lavoro in cui sono stati aggiunti.
+   * Se si dispone delle autorizzazioni Gestione nell&#39;area di lavoro secondaria, è possibile gestire i record sia dall&#39;area di lavoro originale del tipo di record globale che dall&#39;area di lavoro secondaria in cui sono stati aggiunti.
    * È possibile visualizzare i record in aree di lavoro secondarie aggiuntive in cui il tipo di record globale viene aggiunto solo se si dispone delle autorizzazioni di visualizzazione per tali aree di lavoro.
 
 ### Accesso alle connessioni di un tipo di record globale

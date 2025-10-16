@@ -1,11 +1,11 @@
 ---
-title: Configura impostazioni tipo di record
+title: Configurare l’area Impostazioni di un tipo di record
 description: È possibile modificare i tipi di record dopo averli salvati nella pagina Impostazioni.
 hide: true
 hidefromtoc: true
-source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '443'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ recommendations: noDisplay, noCatalog
 
 -->
 
-# Configura impostazioni tipo di record
+# Configurare l’area Impostazioni di un tipo di record
 
 <span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
@@ -66,10 +66,8 @@ A seconda delle funzionalità che si desidera definire per un tipo di record, è
 <li><p>Qualsiasi pacchetto Planning per la creazione di tipi di record collegabili</p></li>
 <li><p>Pacchetto Planning Plus per creare tipi di record centralizzati</p></li>
 </ul>
-Oppure:
-<ul><li><p>Qualsiasi pacchetto flusso di lavoro</p> </li>
-E
-<li><p>Pacchetto Planning Prime o Ultimate</p></li></ul>
+<p>Oppure:</p>
+<ul><li><p>Un pacchetto Workflow e Planning Prime o Ultimate</p> </li></ul>
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto di Workfront Planning, contattare l'account manager Workfront. </p> 
    </td>
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1603'
 ht-degree: 3%
 
 ---
@@ -39,7 +39,7 @@ Per informazioni sulla creazione di record o oggetti mediante un&#39;automazione
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -49,59 +49,92 @@ Per informazioni sulla creazione di record o oggetti mediante un&#39;automazione
 <tbody> 
     <tr> 
 <tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
+   <td> 
+<ul> 
+<li><p>Qualsiasi pacchetto Workfront e Planning</p></li>
+Oppure
+<li><p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p></li></ul>
+<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td> <p>Gestisci le autorizzazioni per l’area di lavoro e per il tipo di record in cui desideri creare automazioni. </p>
+   <p>Gli amministratori di sistema dispongono delle autorizzazioni di gestione per tutte le aree di lavoro, incluse quelle che non hanno creato</p>
+   </td> 
+  </tr>  
+</tbody> 
+</table>
+
+Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
 <td> 
-   <p> Prodotti</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
    <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Piano Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>Uno dei seguenti piani di Workfront:</p> 
-<ul><li>Seleziona</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning non è disponibile per i piani Workfront legacy</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Pacchetto Adobe Workfront Planning*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>Qualsiasi </p> 
-<p>Per ulteriori informazioni su quanto incluso in ogni piano di Workfront Planning, contattare l'account manager Workfront. </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Per poter accedere a Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
-<p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata Adobe per Workfront</a>. </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
    <td> Standard
-   <p>Workfront Planning non è disponibile per le licenze Workfront legacy</p> 
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
-   <td> <p>Nessun controllo del livello di accesso per Adobe Workfront Planning</p> 
-   <p>Accesso di modifica con accesso a Crea oggetti in Workfront per i tipi di oggetto che si desidera creare (progetti, portfolio, programmi). </p>  
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
+   <p>Edit access with access to Create objects in Workfront for the object types that you want to create (projects, portfolios, programs). </p>  
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
-   <td> <p>Gestisci le autorizzazioni per l’area di lavoro e per il tipo di record in cui desideri creare automazioni. </p>
-   <p>Gli amministratori di sistema dispongono delle autorizzazioni di gestione per tutte le aree di lavoro, incluse quelle che non hanno creato</p>
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td> <p>Manage permissions to the workspace and to the record type where you want to create automations. </p>
+   <p>System Administrators have Manage permissions to all workspaces, including the ones they did not create</p>
    </td> 
   </tr> 
 </tbody> 
-</table>
-
-*Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table> -->
 
 ## Configurare un&#39;automazione in Workfront Planning
 

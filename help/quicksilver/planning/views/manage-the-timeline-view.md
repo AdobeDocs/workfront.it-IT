@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: e717e095f1995dbed0232789616d42492156d843
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '3985'
+source-wordcount: '3876'
 ht-degree: 2%
 
 ---
@@ -17,9 +17,12 @@ ht-degree: 2%
 
 <!--remove preview and production references at production-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -29,7 +32,7 @@ Per informazioni sulle visualizzazioni record, vedere [Gestione visualizzazioni 
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -39,47 +42,23 @@ Per informazioni sulle visualizzazioni record, vedere [Gestione visualizzazioni 
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> Prodotti</p> </td> 
-   <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
-  </tr>   
+</tr>   
 <tr> 
-   <td role="rowheader"><p>Piano Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<p>Uno dei seguenti piani di Workfront:</p> 
-<ul><li>Seleziona</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning non è disponibile per i piani Workfront legacy</p> 
+<ul> 
+<li><p>Qualsiasi pacchetto Workfront e Planning</p></li>
+Oppure
+<li><p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p></li></ul>
+<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
-<tr> 
-   <td role="rowheader"><p>Pacchetto Adobe Workfront Planning*</p></td> 
-   <td> 
-<p>Qualsiasi </p> 
-<p>Per ulteriori informazioni su quanto incluso in ogni piano di Workfront Planning, contattare l'account manager Workfront. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td> 
-   <td> 
-<p>Per poter accedere a Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
-<p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata Adobe per Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-    <td role="rowheader"><p>Licenza Adobe Workfront*</p></td> 
+  <tr> 
+   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
    <td><p> Standard per creare ed eliminare viste</p>
    <p>Collaboratore o versione successiva per aggiornare gli elementi di visualizzazione</p>
-   <p>Workfront Planning non è disponibile per le licenze Workfront legacy</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
-   <td> <p>Nessun controllo del livello di accesso per Adobe Workfront Planning</p>   
-</td> 
-  </tr> 
-<tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
    <td>   <p>Gestire le autorizzazioni per una visualizzazione</p>  
    <p>Autorizzazioni di visualizzazione a una visualizzazione per modificare temporaneamente le impostazioni di visualizzazione o per duplicarla</p> </td> 
@@ -89,13 +68,76 @@ Per informazioni sulle visualizzazioni record, vedere [Gestione visualizzazioni 
    <td> Agli utenti con una licenza Light o Contributor deve essere assegnato un modello di layout che includa Planning.
    <p>Per impostazione predefinita, le aree Pianificazione sono attivate dagli utenti standard e dagli amministratori di sistema.</p></div></li></ul>
 </td>
-  </tr>
+  </tr> 
 </tbody> 
 </table>
 
-*Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++     
++++ 
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+    <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard to create and delete views</p>
+   <p>Contributor or higher to update view elements</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr>
+</tbody> 
+</table> -->
 
 ## Gestire una vista timeline {#manage-a-timeline-view}
 
@@ -119,9 +161,9 @@ Considera quanto segue:
 Per gestire una vista timeline:
 
 1. Passare alla pagina del tipo di record per la quale si desidera visualizzare la sequenza temporale.
-1. <span class="preview">Creare una visualizzazione della sequenza temporale, come descritto nell&#39;articolo [Gestire le visualizzazioni dei record](/help/quicksilver/planning/views/manage-record-views.md). </span>
+1. Creare una visualizzazione timeline come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
 
-   <span class="preview">![Esempio di visualizzazione della sequenza temporale](assets/timeline-view-example.png)</span>
+   ![Esempio di visualizzazione della sequenza temporale](assets/timeline-view-example.png)
 
    Per impostazione predefinita, i record associati al tipo di record selezionato vengono visualizzati come barre in un indicatore cronologico e ordinati in ordine cronologico rispetto alla data di inizio.
 
@@ -175,9 +217,9 @@ Per gestire una vista timeline:
 
 1. Per trovare rapidamente i record che corrispondono a una parola chiave, eseguire le operazioni seguenti:
 
-   1. <span class="preview">Fai clic sull&#39;icona **Cerca** ![Icona Cerca](assets/search-icon.png) e inizia a digitare una parola chiave associata a qualsiasi campo di un record visualizzato sullo schermo. Il numero di corrispondenze corrette viene visualizzato accanto all’elemento di ricerca e viene evidenziato il record con la corrispondenza corretta. </span>
+   1. Fai clic sull&#39;icona **Ricerca** ![Icona Ricerca](assets/search-icon.png) e inizia a digitare una parola chiave associata a qualsiasi campo di un record visualizzato sullo schermo. Il numero di corrispondenze corrette viene visualizzato accanto all’elemento di ricerca e viene evidenziato il record con la corrispondenza corretta.
 
-      <span class="preview">![Casella di ricerca e visualizzazione della sequenza temporale dei risultati](assets/search-box-and-results-timeline-view.png)</span>
+      ![Casella di ricerca e visualizzazione della sequenza temporale dei risultati](assets/search-box-and-results-timeline-view.png)
 
       È possibile utilizzare qualsiasi parola o carattere speciale visibile sullo schermo.
 
@@ -187,30 +229,30 @@ Per gestire una vista timeline:
    1. (Facoltativo) Se sono presenti più corrispondenze, fare clic sulle frecce su e giù a destra della parola chiave di ricerca per trovare tutte le corrispondenze nella tabella.
    1. Fare clic sull&#39;icona **x** nella casella di ricerca per deselezionare la parola chiave di ricerca.
 
-   1. <span class="preview">(Facoltativo) Fai clic sull&#39;icona **Schermo intero** ![Icona Apri schermo intero](assets/open-full-screen-icon.png) per aprire la visualizzazione a schermo intero, quindi sull&#39;icona **Esci da schermo intero** ![Icona Esci da schermo intero](assets/exit-full-screen-icon.png) o su Esc sulla tastiera per uscire dallo schermo intero.  </span>
+   1. (Facoltativo) Fai clic sull&#39;icona **Schermo intero** ![Icona Apri schermo intero](assets/open-full-screen-icon.png) per aprire la visualizzazione a schermo intero, quindi sull&#39;icona **Esci da schermo intero** ![Icona Esci da schermo intero](assets/exit-full-screen-icon.png) o Esc sulla tastiera per uscire dallo schermo intero.
 
 1. (Facoltativo) Fai clic su **Raggruppamento** per visualizzare i record connessi nella timeline.
 
    Per informazioni, vedere la sezione [Utilizzare la funzionalità di raggruppamento per visualizzare i record connessi nella visualizzazione della sequenza temporale](#break-down-connected-records-in-the-timeline-view) in questo articolo.
-1. <span class="preview">Per creare record nella visualizzazione della sequenza temporale o modificarne le date, eseguire una delle operazioni seguenti:</span>
+1. Per creare record nella vista timeline o modificare le date, effettuare una delle seguenti operazioni:
 
-   * <span class="preview">Fare doppio clic in un punto qualsiasi della sequenza temporale per creare un record. </span>
+   * Fare doppio clic in un punto qualsiasi della timeline per creare un record.
 
-     <span class="preview">Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).</span>
-
-   <!--Andrea verifying>[!TIP]
-    >
-    ><span class="preview">Double-clicking to create records in the timeline is not possible inside of a grouping.</span>-->
-
-   * <span class="preview">Fare clic sul margine sinistro o destro di una barra dei record, quindi trascinarlo e rilasciarlo in una nuova posizione. Se si ridimensionano le barre dei record, le date di inizio o di fine vengono aggiornate immediatamente. </span>
-
-   * <span class="preview">Trascinare i record per aggiornarne la posizione e le date nella sequenza temporale. Lo spostamento delle barre dei record ne aggiorna immediatamente le date di inizio e di fine.</span>
-     <span class="preview">Per informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).</span>
+     Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
 
    >[!TIP]
    >
-   ><span class="preview"> Non è possibile ridimensionare e trascinare i record nella sequenza temporale per i tipi di oggetto Workfront e AEM Assets visualizzati nella suddivisione.</span>
+   >Non è possibile fare doppio clic per creare record nella timeline all’interno di un raggruppamento.
 
+   * Fare clic sul margine sinistro o destro di una barra dei record, quindi trascinarlo e rilasciarlo in una nuova posizione. Se si ridimensionano le barre dei record, le date di inizio o di fine vengono aggiornate immediatamente.
+
+   * Trascinare i record per aggiornarne la posizione e le date nella sequenza temporale. Lo spostamento delle barre dei record ne aggiorna immediatamente le date di inizio e di fine.
+
+     Per informazioni, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
+
+   >[!TIP]
+   >
+   >Non è possibile ridimensionare e trascinare i record nella timeline per i tipi di oggetto Workfront e AEM Assets visualizzati nella suddivisione.
 
 1. Aggiornate i seguenti elementi della vista come descritto nelle sottosezioni seguenti:
    * [Filtri](#add-filters)
@@ -362,9 +404,9 @@ Quando si lavora con i raggruppamenti nella vista timeline, tenete presente quan
 Per aggiungere un raggruppamento nella vista timeline:
 
 1. Creare una visualizzazione timeline per un tipo di record, come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
-1. <span class="preview">Fai clic su **Raggruppamento** nell&#39;angolo superiore destro della visualizzazione della sequenza temporale.</span>
+1. Fai clic su **Raggruppamento** nell&#39;angolo superiore destro della visualizzazione della timeline.
 
-   <span class="preview">![Raggruppamento della visualizzazione timeline dell&#39;interfaccia utente con campi collegati](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
+   ![Raggruppamento della visualizzazione timeline dell&#39;interfaccia utente con campi collegati](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. Fare clic su uno dei campi suggeriti oppure fare clic su **Scegli un campo diverso**, cerca un campo diverso e quindi fare clic su di esso quando viene visualizzato nell&#39;elenco.
 
@@ -372,9 +414,9 @@ Per aggiungere un raggruppamento nella vista timeline:
 
 1. (Facoltativo) Ripeti i passaggi precedenti per aggiungere fino a 3 raggruppamenti.
 
-   <span class="preview">Il numero di campi selezionati per il raggruppamento viene visualizzato accanto all&#39;icona Raggruppamento.</span>
+   Il numero di campi selezionati per il raggruppamento viene visualizzato accanto all’icona Raggruppamento.
 
-   <span class="preview">![Raggruppamento applicato nella vista timeline](assets/grouping-applied-in-timeline-view.png)</span>
+   ![Raggruppamento applicato nella vista timeline](assets/grouping-applied-in-timeline-view.png)
 
 1. Nella casella **Raggruppa record per** trascinare i raggruppamenti nell&#39;ordine corretto.
 
@@ -537,11 +579,7 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
 1. Dalle modalità **Standard** o **Compatta**, fai clic su **Suddivisione** nell&#39;angolo superiore destro della visualizzazione della sequenza temporale.
 1. Espandere la casella **Selezionare un tipo di record collegato** e selezionare un tipo di record connesso. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
-   <div class="preview">
-
    ![Selettore e pulsante di suddivisione nella visualizzazione della sequenza temporale](assets/breakdown-picker-and-button-on-timeline.png)
-
-   </div>
 
    >[!TIP]
    >

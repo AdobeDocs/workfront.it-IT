@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '5332'
+source-wordcount: '5253'
 ht-degree: 1%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=it ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -48,9 +48,7 @@ Per ulteriori informazioni sui campi di Workfront Planning, vedere [Panoramica c
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso. 
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -60,57 +58,90 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <tbody> 
     <tr> 
 <tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
+   <td> 
+<ul> 
+<li><p>Qualsiasi pacchetto Workfront e Planning</p></li>
+<p>Oppure</p>
+<li><p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p></li></ul>
+<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td>   <p>Gestire le autorizzazioni per un’area di lavoro</p>  
+   <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  </td> 
+  </tr>  
+</tbody> 
+</table>
+
+Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+<!--Old:
+
+ <table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
 <td> 
-   <p> Prodotti</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
    <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Piano Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>Uno dei seguenti piani di Workfront:</p> 
-<ul><li>Seleziona</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning non è disponibile per i piani Workfront legacy</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Pacchetto Adobe Workfront Planning*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>Qualsiasi </p> 
-<p>Per ulteriori informazioni su quanto incluso in ogni piano di Workfront Planning, contattare l'account manager Workfront. </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Per poter accedere a Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
-<p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata Adobe per Workfront</a>. </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
    <td><p> Standard </p>
-   <p>Workfront Planning non è disponibile per le licenze Workfront legacy</p> 
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
-   <td> <p>Nessun controllo del livello di accesso per Adobe Workfront Planning</p>   
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
-   <td>   <p>Gestione delle autorizzazioni per un'area di lavoro e tipo di record</a> </p>  
-   <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle che non hanno creato.</p> </td> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace and record type</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p> </td> 
   </tr> 
 </tbody> 
-</table>
-
-*Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++   
+</table> -->
 
 ## Creare i campi collegando i tipi di record
 
@@ -407,7 +438,7 @@ I tipi di campo numerico acquisiscono informazioni in formato numerico.
 >I campi numerici vengono visualizzati come tipo di campo di testo a riga singola in un generatore di moduli di richiesta.
 >
 >Tuttavia, il formato del campo viene mantenuto e i valori di questi campi vengono visualizzati come numeri dopo l’invio della richiesta, nel tipo di record e nella pagina dei dettagli della richiesta.
->&#x200B;>Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Inizia a creare un campo come descritto nella sezione [Crea campi da zero](#create-fields-from-scratch) in questo articolo, quindi seleziona il tipo di campo **Numero**.
@@ -437,7 +468,7 @@ I tipi di campo Percentuale acquisiscono le informazioni in un formato numerico 
 >I campi percentuali vengono visualizzati come tipo di campo di testo a riga singola nel generatore di moduli di richiesta.
 >
 >Tuttavia, il formato del campo viene mantenuto e i valori di questi campi vengono visualizzati come percentuali dopo l’invio della richiesta, nel tipo di record e nella pagina dei dettagli della richiesta.
->&#x200B;>Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Inizia a creare un campo come descritto nella sezione [Crea campi da zero](#create-fields-from-scratch) in questo articolo, quindi seleziona il tipo di campo **Percentuale**.
@@ -477,7 +508,7 @@ I tipi di campo Valuta acquisiscono le informazioni in un formato numerico prece
 >I campi Valuta vengono visualizzati come tipo di campo di testo a riga singola in un generatore di moduli di richiesta.
 >
 >Tuttavia, il formato del campo viene mantenuto e i valori di questi campi vengono visualizzati come valuta dopo l’invio della richiesta, nel tipo di record e nella pagina dei dettagli della richiesta.
->&#x200B;>Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Inizia a creare un campo come descritto nella sezione [Crea campi da zero](#create-fields-from-scratch) in questo articolo, quindi seleziona il tipo di campo **Valuta**.
 
@@ -552,7 +583,7 @@ Per ulteriori informazioni, vedere [Panoramica dei campi formula](/help/quicksil
    >
    >* È possibile fare riferimento a un campo che si trova a una distanza massima di 4 campi (e oggetti) dal tipo di record corrente. Ad esempio, se si crea un campo formula per un tipo di record Attività (1) e l&#39;Attività è connessa al tipo di record Campagna (2) che è connesso a un progetto Workfront (3), è possibile fare riferimento al campo Budget del progetto (4) nella formula che si sta creando per il tipo di record Attività.
    >
-   >![Esempio di formula budget progetto quattro campi rimossi &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Esempio di formula budget progetto quattro campi rimossi ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Facoltativo) Fare clic su **Ingrandisci** per aprire la casella Formula in un&#39;area più ampia.

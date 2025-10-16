@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '1785'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,13 @@ ht-degree: 0%
 
 # Condividere le visualizzazioni
 
-<!--take out preview and production references at production-->
+<!--
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -40,7 +42,7 @@ This article describes how you can share a view with others. For information abo
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
@@ -52,41 +54,16 @@ This article describes how you can share a view with others. For information abo
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> Prodotti</p> </td> 
+   <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
-  </tr>   
+<p>Qualsiasi pacchetto Workfront e Planning</p> 
+Oppure
+<p>Qualsiasi pacchetto di Workflow e Planning</p> 
+ </tr>
+
 <tr> 
-   <td role="rowheader"><p>Piano Adobe Workfront*</p></td> 
-   <td> 
-<p>Uno dei seguenti piani di Workfront:</p> 
-<ul><li>Seleziona</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning non è disponibile per i piani Workfront legacy</p> 
-   </td> 
-<tr> 
-   <td role="rowheader"><p>Pacchetto Adobe Workfront Planning*</p></td> 
-   <td> 
-<p>Qualsiasi </p> 
-<p>Per ulteriori informazioni su quanto incluso in ogni piano di Workfront Planning, contattare l'account manager Workfront. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td> 
-   <td> 
-<p>Per poter accedere a Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
-<p>Per consentire agli utenti di richiedere e concedere autorizzazioni per una visualizzazione da una richiesta di autorizzazione, la tua organizzazione deve essere integrata nell’esperienza unificata di Adobe. </p>
-<p>Gli utenti devono essere aggiunti a Adobe Admin Console per ottenere le autorizzazioni per le viste di Workfront Planning.</p>
-<p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata Adobe per Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront*</p></td> 
-   <td><p> Standard</p>
-   <p>Workfront Planning non è disponibile per le licenze Workfront legacy</p> 
+   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td><p>Qualsiasi</p> 
   </td> 
   </tr> 
   <tr> 
@@ -96,16 +73,84 @@ This article describes how you can share a view with others. For information abo
   </tr> 
 <tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
-   <td>  <p>Gestire le autorizzazioni per una visualizzazione</p>  
+   <td>  <p>Gestire le autorizzazioni per una visualizzazione</p> 
+   <p><b>IMPORTANTE</b></p> 
    <p>Solo gli utenti con le autorizzazioni di gestione di un’area di lavoro possono condividere una visualizzazione pubblicamente.</p></td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Modello layout</p></td>
+   <td> Agli utenti con una licenza Light o Contributor deve essere assegnato un modello di layout che includa Planning.
+   <p>Per impostazione predefinita, le aree Pianificazione sono attivate dagli utenti standard e dagli amministratori di sistema.</p></div></li></ul>
+
+</td>
   </tr>
 
 </tbody> 
 </table>
 
-*Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>Your organization must be onboarded to the Adobe Unified Experience for users to be able to request and grant permissions to a view from a permission request. </p>
+<p>Users must be added to the Adobe Admin Console in order to gain permissions to Workfront Planning views.</p>
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  <p>Manage permissions to a view</p>  
+   <p>Only users with Manage permissions to a workspace can share a view publicly.</p></td> 
+  </tr> 
+
+</tbody> 
+</table> -->
 
 ## Considerazioni durante la condivisione delle visualizzazioni
 
@@ -145,15 +190,11 @@ This article describes how you can share a view with others. For information abo
 
 1. Dalla scheda della vista, effettuare una delle seguenti operazioni:
 
-   * A seconda dell’ambiente da cui accedi alla vista, effettua le seguenti operazioni:
-
-      * Nell&#39;ambiente di produzione, passa il puntatore del mouse sul nome della scheda della visualizzazione che desideri condividere e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Condividi**.
-
-      * <span class="preview"> Nell&#39;ambiente di anteprima, fare clic sulla scheda della visualizzazione, passare il puntatore del mouse sulla visualizzazione nel menu a discesa, fare clic sul menu **Altro** ![Altro menu](assets/more-menu.png), quindi fare clic su **Condividi**.</span>
+   * Fai clic sulla scheda della visualizzazione, passa il puntatore del mouse sulla visualizzazione nel menu a discesa, fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png), quindi fai clic su **Condividi**.
 
      ![Altro menu per una visualizzazione](assets/more-menu-for-views-expanded-with-share-option.png)
 
-   * Fai clic su **Condividi** > **Condividi visualizzazione corrente**
+   * Fai clic su **Condividi** nell&#39;angolo superiore destro dello schermo, quindi su **Condividi visualizzazione corrente**.
 
      ![Pulsante Condividi con tipo di record e opzioni di condivisione della visualizzazione](assets/share-button-with-record-type-and-view-sharing-options.png)
 

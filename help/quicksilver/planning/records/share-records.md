@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 1%
+source-wordcount: '580'
+ht-degree: 0%
 
 ---
 
@@ -46,7 +46,7 @@ In questo articolo viene descritto come copiare un collegamento alla pagina di u
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -56,50 +56,24 @@ In questo articolo viene descritto come copiare un collegamento alla pagina di u
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> Prodotti</p> </td> 
-   <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
-  </tr>   
+</tr>   
 <tr> 
-   <td role="rowheader"><p>Piano Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<p>Uno dei seguenti piani di Workfront:</p> 
-<ul><li>Seleziona</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning non è disponibile per i piani Workfront legacy</p> 
+<ul> 
+<li><p>Qualsiasi pacchetto Workfront e Planning</p></li>
+Oppure
+<li><p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p></li></ul>
+<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
-<tr> 
-   <td role="rowheader"><p>Pacchetto Adobe Workfront Planning*</p></td> 
-   <td> 
-<p>Qualsiasi </p> 
-<p>Per ulteriori informazioni su quanto incluso in ogni piano di Workfront Planning, contattare l'account manager Workfront. </p> 
+  <tr> 
+   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td><p>Collaboratore o versione successiva</p>
    </td> 
- <tr> 
-   <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td> 
-   <td> 
-<p>Per poter accedere a Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
-<p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata Adobe per Workfront</a>. </p> 
-   </td> 
-   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront*</p></td> 
-   <td><p> Collaboratore o licenza di livello superiore </p>
-   <p>Workfront Planning non è disponibile per le licenze Workfront legacy</p> 
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
-   <td> <p>Nessun controllo del livello di accesso per Adobe Workfront Planning</p>   
-</td> 
-  </tr> 
-<tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
-   <td>  <p>Visualizza o autorizzazioni superiori per un’area di lavoro e tipo di record da condividere   un record utilizzando un collegamento </p>
-   <p>Gestire le autorizzazioni per un'area di lavoro e il tipo di record per condividere i record nell'area di lavoro </p>
+   <td>  <p>Visualizza o autorizzazioni superiori per un'area di lavoro e tipo di record per condividere un record utilizzando un collegamento</p>
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  </td> 
   </tr> 
 <tr>
@@ -107,13 +81,78 @@ In questo articolo viene descritto come copiare un collegamento alla pagina di u
    <td> Agli utenti con una licenza Light o Contributor deve essere assegnato un modello di layout che includa Planning.
    <p>Per impostazione predefinita, le aree Pianificazione sono attivate dagli utenti standard e dagli amministratori di sistema.</p></div></li></ul>
 </td>
-  </tr>
+  </tr> 
 </tbody> 
 </table>
 
-*Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++  
+
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Contributor or higher license </p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  <p>View or higher permissions to a workspace and record typeto share   a record using a link </p>
+   <p>Manage permissions to a workspace and record type to share the records in the workspace </p>
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr>
+</tbody> 
+</table> -->
 
 
 ## Condividere i collegamenti ai record dalla vista tabella del tipo di record

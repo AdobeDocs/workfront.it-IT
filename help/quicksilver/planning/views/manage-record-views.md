@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: e717e095f1995dbed0232789616d42492156d843
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1145'
 ht-degree: 1%
 
 ---
@@ -16,12 +16,14 @@ ht-degree: 1%
 
 # Gestire le visualizzazioni record
 
-<!-- take preview and production references out at production-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -54,7 +56,7 @@ Per ulteriori informazioni sulla gestione delle visualizzazioni record di Workfr
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -64,48 +66,23 @@ Per ulteriori informazioni sulla gestione delle visualizzazioni record di Workfr
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> Prodotti</p> </td> 
-   <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
-  </tr>   
+</tr>   
 <tr> 
-   <td role="rowheader"><p>Piano Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<p>Uno dei seguenti piani di Workfront:</p> 
-<ul><li>Seleziona</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning non è disponibile per i piani Workfront legacy</p> 
+<ul> 
+<li><p>Qualsiasi pacchetto Workfront e Planning</p></li>
+Oppure
+<li><p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p></li></ul>
+<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
-<tr> 
-   <td role="rowheader"><p>Pacchetto Adobe Workfront Planning*</p></td> 
-   <td> 
-<p>Qualsiasi </p> 
-<p>Per ulteriori informazioni su quanto incluso in ogni piano di Workfront Planning, contattare l'account manager Workfront. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td> 
-   <td> 
-<p>Per poter accedere a Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
-<p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata Adobe per Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
    <td><p> Standard per creare ed eliminare viste</p>
    <p>Collaboratore o versione successiva per aggiornare gli elementi di visualizzazione</p>
-   <p>Workfront Planning non è disponibile per le licenze Workfront legacy</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
-   <td> <p>Nessun controllo del livello di accesso per Adobe Workfront Planning</p>   
-</td> 
-  </tr> 
-<tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
    <td>   <p>Gestire le autorizzazioni per una visualizzazione</p>  
    <p>Autorizzazioni di visualizzazione a una visualizzazione per modificare temporaneamente le impostazioni di visualizzazione o per duplicarla</p> </td> 
@@ -115,13 +92,78 @@ Per ulteriori informazioni sulla gestione delle visualizzazioni record di Workfr
    <td> Agli utenti con una licenza Light o Contributor deve essere assegnato un modello di layout che includa Planning.
    <p>Per impostazione predefinita, le aree Pianificazione sono attivate dagli utenti standard e dagli amministratori di sistema.</p></div></li></ul>
 </td>
-  </tr>
+  </tr> 
 </tbody> 
 </table>
 
-*Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++   
++++
+
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard to create and delete views</p>
+   <p>Contributor or higher to update view elements</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr>
+</tbody> 
+</table>-->
 
 ## Considerazioni durante l&#39;utilizzo delle visualizzazioni record
 
@@ -171,8 +213,8 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
 | Visualizza i record per mese |           | ✓ | ✓ |
 | Visualizza record per settimana |           |               | ✓ |
 | Esportare informazioni da una vista | ✓ |               |    |
-| <span class="preview">Visualizzazione a schermo intero</span> | ✓ | ✓ | ✓ |
-| <span class="preview">Crea record nella visualizzazione</span> | ✓ | ✓ | ✓ |
+| Visualizza a schermo intero | ✓ | ✓ | ✓ |
+| Crea record nella visualizzazione | ✓ | ✓ | ✓ |
 
 ## Creare o modificare le viste {#create-or-edit-views}
 
@@ -189,10 +231,7 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
 
    Per impostazione predefinita, tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
 
-1. A seconda dell’ambiente utilizzato, effettua le seguenti operazioni:
-
-   * Nell&#39;ambiente di produzione, fare clic sulla scheda **+Visualizza**.
-   * <span class="preview">Nell&#39;ambiente di anteprima, fare clic sull&#39;icona a discesa ![Icona a discesa](assets/drop-down-icon.png) accanto al nome della visualizzazione corrente, quindi fare clic su **+Nuova visualizzazione**.</span>
+1. Fai clic sull&#39;icona a discesa ![Icona a discesa](assets/drop-down-icon.png) accanto al nome della visualizzazione corrente, quindi fai clic su **+Nuova visualizzazione**.
 
 1. Selezionate uno dei seguenti tipi di vista:
 
@@ -200,9 +239,7 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
    * Timeline
    * Calendario
 
-   Nell’ambiente di produzione viene creata una nuova scheda con la vista selezionata.
-
-   A seconda della larghezza dello schermo, nel menu **Altro** ![Altro](assets/more-menu.png) potrebbero essere visualizzate altre visualizzazioni.
+1. Scegli un tipo di visualizzazione, quindi fai clic su **Crea**. Viene aggiunta una nuova vista al menu a discesa.
 
    >[!TIP]
    >
@@ -211,16 +248,14 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
    >Per creare una visualizzazione timeline o calendario, il tipo di record per il quale viene creata la visualizzazione deve avere almeno due campi data.
    >
    >In caso contrario, le opzioni Timeline (Timeline) e Calendario (Calendar) vengono disattivate.
-   >
+   >  
 
-   <span class="preview">Nell&#39;ambiente di anteprima, scegliere un tipo di visualizzazione, quindi fare clic su **Crea**. Viene aggiunta una nuova vista al menu a discesa. </span>
+   ![Crea riquadro di visualizzazione](assets/create-view-box.png)
 
-   <span class="preview">![Crea riquadro di visualizzazione](assets/create-view-box.png)</span>
+1. (Facoltativo) Per modificare una visualizzazione esistente, fai clic sul menu a discesa a destra del nome della visualizzazione corrente, quindi digita il nome di una visualizzazione nel campo **Cerca** e premi Invio sulla tastiera.
+1. (Facoltativo) Dal menu a discesa della vista, trascina le viste in ordine di preferenza.
 
-1. <span class="preview">Per modificare una visualizzazione esistente, digitare il nome di una visualizzazione nel campo **Cerca** e premere Invio sulla tastiera.</span>
-1. <span class="preview">Trascinare le visualizzazioni dal menu a discesa delle visualizzazioni in base alle proprie preferenze.</span>
-
-   <span class="preview">![Elenco a discesa dei tipi di visualizzazione dall&#39;elenco dei tipi di record](assets/view-types-drop-down-from-record-type-list.png)</span>
+   ![Elenco a discesa dei tipi di visualizzazione dall&#39;elenco dei tipi di record](assets/view-types-drop-down-from-record-type-list.png)
 
 1. (Condizionale) Fai clic su **Avanti** durante la creazione di una visualizzazione calendario o sequenza temporale.
 
@@ -254,7 +289,7 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
 
    Fare doppio clic sul nome della visualizzazione e iniziare a digitare il nuovo nome.  <!--ensure there is not another saving step here?!-->
 
-1. <span class="preview">(Facoltativo) Fai clic sull&#39;icona **Schermo intero** ![Icona Apri schermo intero](assets/open-full-screen-icon.png) per aprire una visualizzazione a schermo intero, quindi sull&#39;icona **Esci da schermo intero** ![Icona Esci da schermo intero](assets/exit-full-screen-icon.png) o su Esc sulla tastiera per uscire dallo schermo intero.  </span>
+1. (Facoltativo) Fai clic sull&#39;icona **Schermo intero** ![Icona Apri schermo intero](assets/open-full-screen-icon.png) per aprire una visualizzazione a schermo intero, quindi sull&#39;icona **Esci da schermo intero** ![Icona Esci da schermo intero](assets/exit-full-screen-icon.png) o su Esc nella tastiera per uscire dallo schermo intero.
 
 1. (Facoltativo) Per gestire un tipo specifico di visualizzazione, vedi i seguenti articoli:
 

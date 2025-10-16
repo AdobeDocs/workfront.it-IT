@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '3278'
+source-wordcount: '3131'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,12 @@ ht-degree: 0%
 
 # Crea record
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -28,14 +31,8 @@ In Adobe Workfront Planning, un record è un&#39;istanza di un tipo di record.
 
 * [Utilizzare il pulsante Nuovo record o Richiedi record da qualsiasi visualizzazione del tipo di record](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
 * [Aggiungerli in linea dalla vista tabella del tipo di record](#create-records-by-adding-them-inline-from-the-record-type-table-view)
-
-<div class="preview">
-
 * [Aggiungerli nella visualizzazione timeline del tipo di record](#create-records-by-adding-them-in-the-record-type-timeline-view)
 * [Aggiungerli nella visualizzazione calendario del tipo di record](#create-records-by-adding-them-in-the-record-type-calendar-view)
-
-</div>
-
 * [Copiare e incollare un elenco di record da un elenco esterno](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplicare record da una vista tabella](#create-records-by-duplicating-them)
 * [Connettili da altri record](#create-records-as-you-connect-them)
@@ -50,7 +47,7 @@ Per informazioni sulla gestione dei record nelle viste tabella o sequenza tempor
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.  
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -60,62 +57,97 @@ Per informazioni sulla gestione dei record nelle viste tabella o sequenza tempor
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> Prodotti</p> </td> 
-   <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
-  </tr>   
+</tr>   
 <tr> 
-   <td role="rowheader"><p>Piano Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<p>Uno dei seguenti piani di Workfront:</p> 
-<ul><li>Seleziona</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning non è disponibile per i piani Workfront legacy</p> 
+<ul> 
+<li><p>Qualsiasi pacchetto Workfront e Planning</p></li>
+Oppure
+<li><p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p></li></ul>
+<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
-<tr> 
-   <td role="rowheader"><p>Pacchetto Adobe Workfront Planning*</p></td> 
-   <td> 
-<p>Qualsiasi </p> 
-<p>Per ulteriori informazioni su quanto incluso in ogni piano di Workfront Planning, contattare l'account manager Workfront. </p> 
+  <tr> 
+   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td><p>Standard</p>
    </td> 
- <tr> 
-   <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td> 
-   <td> 
-<p>Per poter accedere a Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
-<p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata Adobe per Workfront</a>. </p> 
-   </td> 
-   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront*</p></td> 
-   <td> Standard
-   <p>Workfront Planning non è disponibile per le licenze Workfront legacy</p> 
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
-   <td> <p>Nessun controllo del livello di accesso per Adobe Workfront Planning</p> 
-   <p>Modificare l'accesso in Workfront per i tipi di oggetto che si desidera creare (progetti, programmi e portafogli) quando si collegano i record. </p>  
-</td> 
-  </tr> 
-<tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
    <td> <p>Autorizzazioni Contribute o superiori per l'area di lavoro e il tipo di record in cui si desidera aggiungere record. </p>
    <p>Visualizza o autorizzazioni superiori per l'area di lavoro e il tipo di record per creare record utilizzando il pulsante Richiedi record nella pagina record</p>
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
    <p>Gestisci le autorizzazioni per gli oggetti Workfront (portfolio) per aggiungere oggetti figlio (progetti).</p>
    </td> 
-  </tr>
-
+  </tr>  
 </tbody> 
 </table>
 
-*Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td> Standard
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
+   <p>Edit access in Workfront for the object types that you want to create (projects, programs, and portfolios) as you connect the records to them. </p>  
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td> <p>Contribute or higher permissions to the workspace and record type where you want to add records. </p>
+   <p>View or higher permissions to the workspace and record type to create records using the Request record button on the record page</p>
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <p>Manage permissions to Workfront objects (portfolios) to add children objects (projects).</p>
+   </td> 
+  </tr> 
+
+</tbody> 
+</table> -->
 
 ## Creare record utilizzando il pulsante Nuovo record o Richiedi record da qualsiasi visualizzazione del tipo di record
 
@@ -275,8 +307,6 @@ I record del tipo selezionato vengono visualizzati nella vista.
    * CTRL + MAIUSC + Z (⌘ + MAIUSC + Z per Mac) per ripristinare una modifica
 
 
-<div class="preview">
-
 ## Creare i record aggiungendoli nella visualizzazione timeline del tipo di record
 
 È possibile creare record nella visualizzazione timeline di una pagina del tipo di record facendo doppio clic sulla timeline.
@@ -341,9 +371,7 @@ Per informazioni sulla creazione di una visualizzazione della sequenza temporale
    >
    >La miniatura viene visualizzata nella vista timeline solo se è attivata in Impostazioni della vista.
 
-</div>
 
-<div class="preview">
 
 ## Creare record aggiungendoli nella visualizzazione calendario del tipo di record
 
@@ -408,9 +436,6 @@ Per informazioni sulla creazione di una visualizzazione calendario, vedere [Gest
    >La miniatura viene visualizzata nella vista calendario solo se è attivata in Impostazioni della vista.
 
    <!--(*********when this is available in both monthly and weekly, add more steps to show resizing the timeline and dragging and dropping the record in the calendar*******)-->
-
-   </div>
-
 
 ## Creare record copiandoli e incollandoli da un elenco esterno
 

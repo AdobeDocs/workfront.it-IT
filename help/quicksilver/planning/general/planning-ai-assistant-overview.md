@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: a36968bdae5756f0f8283da04a2afca83b4dd94a
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,41 @@ ht-degree: 0%
 È possibile utilizzare l&#39;Assistente AI per generare, aggiornare o rimuovere record in base al contesto della pagina corrente e alla struttura dei record.
 
 I comandi dell’utente e l’esecuzione di tali comandi da parte dell’IA collaborano per garantire che le modifiche apportate dall’IA vengano riflesse accuratamente nell’ambiente.
+
+## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Pacchetti Adobe Workfront</p></td> 
+   <td> 
+<p>Qualsiasi pacchetto Workfront e Planning</p>
+<p>Qualsiasi pacchetto di Workflow e Planning</p>
+   </td> </tr>
+
+</tr> 
+  <tr> 
+   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td><p>Standard</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td>   <p>Gestione delle autorizzazioni per un'area di lavoro</a> </p>  
+   <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  </td> 
+  </tr>  
+</tbody> 
+</table>
+
+Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerazioni sull’Assistente AI
 

@@ -4,9 +4,9 @@ description: È possibile abilitare un tipo di record per l'aggiunta a un'altra 
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1337'
 ht-degree: 0%
 
 ---
@@ -66,22 +66,24 @@ Per informazioni, vedere uno degli articoli seguenti:
 </col> 
 <tbody> 
     <tr> 
-<tr>
-
+<tr> 
 </tr>   
 <tr> 
    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<ul><li><p>Qualsiasi pacchetto Workfront</p></li>
-<p>E</p>
-<li><p>Qualsiasi pacchetto Planning per la creazione di tipi di record collegabili</p></li>
-<li><p>Pacchetto Planning Plus per la creazione di tipi di record globali</p></li>
-</ul>
-Oppure:
-<ul><li><p>Un pacchetto Workflow Prime o Ultimate</p> </li>
-E
-<li><p>Un pacchetto Planning Prime o Ultimate</p></li></ul>
-<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto di Workfront Planning, contattare l'account manager Workfront. </p> 
+<p>Per configurare i tipi di record collegabili: </p>
+<ul> 
+<li><p>Qualsiasi pacchetto Workfront e qualsiasi pacchetto Planning</p></li>
+<p>Oppure</p>
+<li><p>Pacchetti Prime e Ultimate per Workflow e Planning</p></li></ul>
+
+<p>Per configurare i tipi di record globali:</p>
+
+<ul> 
+<li><p>Qualsiasi pacchetto Workfront e un pacchetto Planning Plus</p></li>
+<p>Oppure</p>
+<li><p>Pacchetti Prime e Ultimate per Workflow e Planning</p></li></ul>
+<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
@@ -90,7 +92,7 @@ E
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
-   <td>   <p>Gestione delle autorizzazioni per un'area di lavoro e per il tipo di record</a> </p>  
+   <td>   <p>Gestire le autorizzazioni per un’area di lavoro</p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  </td> 
   </tr>  
 </tbody> 
@@ -100,7 +102,46 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 +++   
 
-## Configurare i tipi di record globali
+<!--Old:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<ul><li><p>Any Workfront package</p></li>
+<p>And</p>
+<li><p>Any Planning package to create connectable record types</p></li>
+<li><p>A Planning Plus package to create global record types</p></li>
+</ul>
+Or:
+<ul><li><p>A Workflow Prime or Ultimate package</p> </li>
+And
+<li><p>A Planning Prime or Ultimate package</p></li></ul>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account manager. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace and to the record type</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr>  
+</tbody> 
+</table> -- >
+
+## Configure global record types
 
 <!--this is a UI term; don't change the title of this section-->
 
@@ -121,7 +162,7 @@ Per configurare un tipo di record come globale:
    Viene visualizzata la pagina dell&#39;area di lavoro e i tipi di record.
 1. Esegui una delle operazioni seguenti:
 
-   * Passa il puntatore del mouse sulla scheda di un tipo di record e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) nell&#39;angolo superiore destro della scheda del tipo di record
+   * Passa il puntatore del mouse sulla scheda di un tipo di record e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) nell&#39;angolo superiore destro della scheda del tipo di record. <!--add new screen shot without Share for now-->
 
      ![Altre opzioni di menu dalla scheda del tipo di record](assets/more-menu-options-from-record-type-card.png)
 
@@ -179,7 +220,7 @@ Per configurare un tipo di record come globale:
 
    Il tipo di record aggiunto da un tipo di record globale nell&#39;area di lavoro secondaria visualizza anche un&#39;icona **tipo di record globale** ![icona tipo di record globale](assets/global-icon.png).
 1. (Facoltativo) Tornare all&#39;area di lavoro originale in cui è stato creato il tipo di record globale e modificare il tipo di record seguendo i passaggi da 1 a 4 sopra <!--ensure this stays accurate-->
-1. (Facoltativo) Esaminare l&#39;elenco delle aree di lavoro in cui il record globale è stato aggiunto nelle **aree di lavoro in cui viene utilizzato questo tipo di record, sezione**.
+1. (Facoltativo) Esaminare l&#39;elenco delle aree di lavoro in cui il record globale è stato aggiunto nelle **aree di lavoro in cui viene utilizzato questo tipo di record, sezione**. Accanto al nome dell’area di lavoro viene elencato anche il relativo proprietario.
 
    ![Aree di lavoro in cui viene utilizzato questo tipo di record](assets/workspaces-where-this-record-type-is-used.png)
 
@@ -201,7 +242,7 @@ Per configurare un tipo di record come collegabile:
 
    * Passa il puntatore del mouse sulla scheda di un tipo di record e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) nell&#39;angolo superiore destro della scheda del tipo di record
 
-     ![Altre opzioni di menu dalla scheda del tipo di record](assets/more-menu-options-from-record-type-card.png)
+     ![Altre opzioni di menu dalla scheda del tipo di record](assets/more-menu-options-from-record-type-card.png) <!--add new screen shot without Share for now-->
 
    * Fai clic su una scheda del tipo di record per aprire la pagina del tipo di record, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record.
 1. Fai clic su **Modifica** o **Impostazioni**.

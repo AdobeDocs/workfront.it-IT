@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '2764'
+source-wordcount: '2645'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,12 @@ ht-degree: 0%
 
 <!--keep the choice values information in yellow till Jan 2026-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -36,7 +39,7 @@ Per informazioni sulla creazione di record, vedere [Crea record](/help/quicksilv
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -46,58 +49,87 @@ Per informazioni sulla creazione di record, vedere [Crea record](/help/quicksilv
 <tbody> 
     <tr> 
 <tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
+   <td> 
+<ul> 
+<li><p>Qualsiasi pacchetto Workfront e Planning</p></li>
+Oppure
+<li><p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p></li></ul>
+<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td>   <p>Contribuire o concedere autorizzazioni superiori a un’area di lavoro e a un tipo di record  </p>  
+   <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p> </td> 
+  </tr>   
+</tbody> 
+</table>
+
+Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
 <td> 
-   <p> Prodotti</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
    <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Piano Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>Uno dei seguenti piani di Workfront:</p> 
-<ul><li>Seleziona</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning non è disponibile per i piani Workfront legacy</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Pacchetto Adobe Workfront Planning*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>Qualsiasi </p> 
-<p>Per ulteriori informazioni su quanto incluso in ogni piano di Workfront Planning, contattare l'account manager Workfront. </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Per poter accedere a Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p> 
-<p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata Adobe per Workfront</a>. </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
    <td> <p>Standard</p> 
-   <p>Workfront Planning non è disponibile per le licenze Workfront legacy</p> 
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
-   <td> <p>Nessun controllo del livello di accesso per Adobe Workfront Planning</p>   
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
-   <td>  <p>Autorizzazioni Contribute o superiori per un'area di lavoro e tipo di record </a> </p>  
-   <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  </td> 
-  </tr>
-
-</tbody> 
-</table>
-
-*Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++   
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  <p>Contribute or higher permissions to a workspace and record type </a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr> -->
 
 ## Considerazioni sulla modifica dei record
 
@@ -107,7 +139,7 @@ Per informazioni sulla creazione di record, vedere [Crea record](/help/quicksilv
    * Anteprima del record in una visualizzazione record
    * Pagina dettagli record
    * In linea, in una vista a tabella.
-   * <span class="preview"> Il calendario e la visualizzazione della sequenza temporale durante il ridimensionamento di <!--or dragging and dropping--> record. Le date dei record verranno aggiornate.</span>
+   * La vista calendario e la vista timeline quando si ridimensionano o si trascinano i record. In questo modo vengono aggiornate le date dei record.
 
 * Quando un utente modifica un record in una visualizzazione, le modifiche sono immediatamente visibili in tutte le visualizzazioni e le pagine dei record a tutti gli altri utenti.
 
@@ -233,11 +265,11 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 
 1. Aprire la pagina del tipo di record in una visualizzazione timeline. Per informazioni, vedere [Gestire la visualizzazione della sequenza temporale](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
-1. <span class="preview">Posizionare il puntatore del mouse sulle estremità della barra di un record, quindi fare clic e trascinare il margine fino a un&#39;altra data. Questa operazione aggiorna automaticamente la data di inizio o di fine del record.</span>
+1. Passa il puntatore del mouse sulle estremità della barra di un record, fai clic su e trascina il margine fino a un&#39;altra data. In questo modo viene aggiornata automaticamente la data di inizio o di fine del record.
 
-   <span class="preview">![Barra a sinistra nella visualizzazione della sequenza temporale da ridimensionare](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+   ![Barra a sinistra nella visualizzazione della sequenza temporale da ridimensionare](assets/left-end-bar-handle-to-resize-timeline-view.png)
 
-1. <span class="preview">Fare clic su una barra dei record, quindi trascinarla in un&#39;altra posizione per aggiornarne la cronologia e le date. Le date di inizio e fine del record vengono aggiornate automaticamente.</span>
+1. Fare clic su una barra dei record e trascinarla in un&#39;altra posizione per aggiornare la cronologia e le date. Le date di inizio e fine del record vengono aggiornate automaticamente.
 
 1. Fare clic sulla barra di un record per aprire l&#39;area dei dettagli e modificare tutti i campi.
 
@@ -248,11 +280,11 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 <!--add another step about drag and drop here when that is available-->
 
 1. Aprire la pagina del tipo di record in una visualizzazione calendario. Per informazioni, vedere [Gestire la visualizzazione del calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md).
-1. <span class="preview">(Condizionale) Posizionare il puntatore del mouse sulle estremità della barra di un record nella visualizzazione calendario, quindi fare clic e trascinare i margini fino a un&#39;altra data. Questa operazione aggiorna automaticamente la data di inizio o di fine del record.</span>
+1. (Facoltativo) Passa il puntatore del mouse sulle estremità della barra di un record nella visualizzazione calendario, quindi fai clic su e trascina i margini fino a un&#39;altra data. In questo modo viene aggiornata automaticamente la data di inizio o di fine del record.
 
-   <span class="preview">![Barra a sinistra nella visualizzazione calendario per ridimensionare](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
+   ![Barra a sinistra nella visualizzazione calendario per ridimensionare](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)
 
-1. <span class="preview">Fare clic su una barra dei record, quindi trascinarla in un&#39;altra posizione per aggiornarne la cronologia e le date. Le date di inizio e fine del record vengono aggiornate automaticamente.</span>
+1. Fare clic su una barra dei record e trascinarla in un&#39;altra posizione per aggiornare la cronologia e le date. Le date di inizio e fine del record vengono aggiornate automaticamente.
 
 1. Fare clic sulla barra di un record per aprire l&#39;area dei dettagli e modificare tutti i campi.
 
@@ -378,8 +410,6 @@ Dopo aver collegato i record agli oggetti di Workfront, è possibile modificare 
 
 Per ulteriori informazioni, vedere [Gestire le connessioni record dagli oggetti Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
-<div class="preview">
-
 ## Modifica le impostazioni dei campi a selezione singola o multipla durante l’aggiornamento dei relativi valori
 
 <!--some of this information is also available in Edit fields article - update both when necessary-->
@@ -410,4 +440,3 @@ Per aggiungere una nuova scelta a un campo di selezione esistente durante la mod
 
    <!--<span class="preview">A new choice value is also added to each choice. You can use the choice values in API calls or other integrations. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). </span>-->
 
-</div>

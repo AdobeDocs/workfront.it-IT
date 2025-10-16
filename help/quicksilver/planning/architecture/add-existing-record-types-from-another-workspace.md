@@ -4,9 +4,9 @@ description: I tipi di record sono i tipi di oggetto di Adobe Workfront Planning
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Prima di poter aggiungere un tipo di record globale alle aree di lavoro gestite 
 
 Per informazioni, vedere [Configurare le funzionalità tra aree di lavoro diverse per i tipi di record](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
-In questo articolo viene descritto come aggiungere un tipo di record da un record esistente e come eliminarlo, se non è più necessario.
+Questo articolo descrive come aggiungere un tipo di record da uno esistente.
 
 Prima di aggiungere record a un&#39;area di lavoro da un tipo di record globale, vedere anche l&#39;articolo [Panoramica sui tipi di record tra aree di lavoro](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
@@ -49,32 +49,24 @@ Prima di aggiungere record a un&#39;area di lavoro da un tipo di record globale,
 </col> 
 <tbody> 
     <tr> 
-<tr>
-
+<tr> 
 </tr>   
 <tr> 
    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<ul><li><p>Qualsiasi pacchetto Workfront</p></li>
-<p>E</p>
-<li><p>Qualsiasi pacchetto Planning per la creazione di tipi di record collegabili</p></li>
-<li><p>Pacchetto Planning Plus per la creazione di tipi di record globali</p></li>
-</ul>
-Oppure:
-<ul><li><p>Un pacchetto di flusso di lavoro Prime o Ultimate</p> </li>
-E
-<li><p>Un pacchetto Planning Prime o Ultimate</p></li></ul>
-<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto di Workfront Planning, contattare l'account manager Workfront. </p> 
-   </td>
-
-<tr> 
+<ul><li><p>Qualsiasi pacchetto Workfront e un pacchetto Planning Plus</p></li>
+<p>Oppure</p>
+<li><p>Pacchetti Prime e Ultimate per Workflow e Planning</p></p></li></ul>
+<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
+   </td> 
+  <tr> 
    <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
-   <td>   <p>Gestione delle autorizzazioni per un'area di lavoro e per il tipo di record</a> </p>  
+   <td>   <p>Gestire le autorizzazioni per un’area di lavoro</p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  </td> 
   </tr>  
 </tbody> 
@@ -83,6 +75,45 @@ E
 Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<ul><li><p>Any Workfront package</p></li>
+<p>And</p>
+<li><p>Any Planning package to create connectable record types</p></li>
+<li><p>A Planning Plus package to create global record types</p></li>
+</ul>
+Or:
+<ul><li><p>A Prime or Ultimate Workflow package</p> </li>
+And
+<li><p>A Planning Prime or Ultimate package</p></li></ul>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account manager. </p> 
+   </td> 
+
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace and to the record type</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr>  
+</tbody> 
+</table>-->
 
 ## Creare un tipo di record aggiungendo un record esistente da un&#39;altra area di lavoro
 
@@ -117,6 +148,9 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
      >Non è possibile modificare l&#39;aspetto del nuovo tipo di record, le impostazioni aggiuntive o i campi originali. È possibile modificare il tipo di record e tutti i campi e le impostazioni originali solo dall&#39;area di lavoro originale.
 
 1. (Facoltativo) Fai clic su, quindi trascina e rilascia il nuovo tipo di record aggiunto in una sezione all’interno dell’area di lavoro.
+1. (Facoltativo) Fai clic sul menu **Altro** sulla scheda del nuovo tipo di record o a destra del nome del tipo di record nella relativa pagina, quindi fai clic su **Elimina**.
+
+   Per ulteriori informazioni, vedere la sezione &quot;Eliminare tipi di record globali&quot; nell&#39;articolo [Eliminare tipi di record](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 <!--This will be released later with another epic: 
 1. In the table view, click the **+** icon in the upper-right corner to add new fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
@@ -125,34 +159,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 &lt;!—verificare con Lilit se è possibile aggiungere automazioni o moduli di richiesta a RT globali secondari??—aggiungere un passaggio con collegamenti a tali articoli se/quando sì—>
 
-## Eliminare un tipo di record globale da un workspace secondario
 
-Se non è più necessario, è possibile eliminare un tipo di record aggiunto da un&#39;altra area di lavoro. Se lo elimini, verrà rimosso solo dall’area di lavoro secondaria.
-
-Quando si elimina un tipo di record globale da un&#39;area di lavoro secondaria, vengono eliminati anche i seguenti elementi:
-
-* Record aggiunti dall&#39;area di lavoro secondaria.
-* Campi aggiunti dall’area di lavoro secondaria.
-
-Non è possibile recuperare i tipi di record globali eliminati dalle aree di lavoro secondarie.
-
-Il tipo di record originale rimane nell&#39;area di lavoro originale e in altre aree di lavoro in cui è stato aggiunto.
-
-Per eliminare un tipo di record globale da un&#39;area di lavoro secondaria:
-
-1. Passare al tipo di record globale nell&#39;area di lavoro secondaria.
-
-1. (Facoltativo) Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) sulla scheda del tipo di record o a destra del nome del tipo di record nella relativa pagina, quindi fai clic su **Elimina**.
-1. (Condizionale) Digita **delete** nel campo fornito, quindi fai clic su **Delete** definitivamente.
-
-   ![Casella di conferma Elimina tipo di record globale secondario](assets/delete-secondary-global-record-type.png)
-
-   Si verificano le seguenti situazioni:
-
-   * Il tipo di record creato da un tipo di record globale viene rimosso dall&#39;area di lavoro selezionata.
-   * Il tipo di record originale e i relativi campi rimangono nell&#39;area di lavoro originale.
-   * Il tipo di record rimane in tutte le altre aree di lavoro in cui è stato aggiunto.
-   * I record e i campi aggiunti al tipo di record dall&#39;area di lavoro corrente vengono eliminati. Tutti gli altri record aggiunti da aree di lavoro aggiuntive in cui è stato aggiunto il tipo di record globale vengono conservati. I campi vengono conservati nelle aree di lavoro in cui sono stati aggiunti.
 
 
 
