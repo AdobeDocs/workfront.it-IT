@@ -6,7 +6,7 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: fdfb1ecb61fd85fa927fc7c3443c2a7f23409873
+source-git-commit: ac079ad7cb4b696cb54ff5ad8ff34940d0d62913
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
@@ -27,8 +27,8 @@ Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning,
 >[!NOTE]
 >
 >Anteprima: 16 ottobre 2025
->&#x200B;>Versione rapida di produzione: 13 novembre 2025
->&#x200B;>Produzione per tutti: 15 gennaio 2026
+>>Versione rapida di produzione: 13 novembre 2025
+>>Produzione per tutti: 15 gennaio 2026
 
 Quando si implementa Workfront Planning per un’organizzazione con più team e flussi di lavoro comuni, potrebbe essere necessario definire una struttura coesa e i metadati per i tipi di record chiave (come Campagne o Deliverable) che possono essere aggiunti alle aree di lavoro di ciascun team per acquisire e gestire il proprio lavoro.
 
@@ -51,8 +51,8 @@ Per ulteriori informazioni, consulta i seguenti articoli:
 >[!NOTE]
 >
 >Anteprima: 16 ottobre 2025
->&#x200B;>Versione rapida di produzione: 13 novembre 2025
->&#x200B;>Produzione per tutti: 15 gennaio 2026
+>>Versione rapida di produzione: 13 novembre 2025
+>>Produzione per tutti: 15 gennaio 2026
 
 È stato introdotto un limite di 30 campi di connessione per ogni tipo di record.
 
@@ -65,8 +65,8 @@ Per ulteriori informazioni, vedere [Panoramica sui tipi di record connessi](/hel
 >[!NOTE]
 >
 >Anteprima: 16 ottobre 2025
->&#x200B;>Versione rapida di produzione: 13 novembre 2025
->&#x200B;>Produzione per tutti: 15 gennaio 2026
+>>Versione rapida di produzione: 13 novembre 2025
+>>Produzione per tutti: 15 gennaio 2026
 
 Quando si aggiungono scelte di campo a un campo a selezione singola o multipla, Workfront assegnerà valori univoci di facile utilizzo a ciascuna scelta. Prima di questo miglioramento, Workfront generava un ID alfanumerico difficile da comprendere e utilizzare nelle chiamate API e in altre integrazioni.
 
