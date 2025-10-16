@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 479dfb9d-0e47-4790-a33a-336b415fbf6e
-source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
+source-git-commit: 30b61b32add4c6d062b5b524773d309008c9563d
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 1%
@@ -16,6 +16,8 @@ ht-degree: 1%
 ---
 
 # Disattivare o riattivare un’azienda
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 Puoi disattivare una società che non utilizzi più conservando tutti i dati storici associati. Se disattivi un’azienda già in uso da qualche parte nel sistema, questa continua a funzionare esattamente come sempre. Non viene rimosso o bloccato.
 
@@ -67,8 +69,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 1. Nel pannello a sinistra, fai clic sull&#39;icona **[!UICONTROL Aziende]** ![Aziende](assets/companies-icon-left-panel.png).
 
 1. Seleziona una o più società da disattivare o riattivare.
-1. Fai clic su **[!UICONTROL Modifica]**.
-1. Per una singola azienda, disabilitare l&#39;opzione **[!UICONTROL È attivo]** per disattivarla o abilitare l&#39;opzione per attivarla.
+1. Fai clic su **[!UICONTROL Modifica]**.<!--MAKE THIS A SEPARATE NUMBERED LINE<span class="preview">In the Preview environment, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.</span>-->
+1. <!--In the Production environment, -->Per una singola azienda, disabilitare l&#39;opzione **[!UICONTROL È attivo]** per disattivarla o abilitare l&#39;opzione per attivarla.
 
    Oppure
 
