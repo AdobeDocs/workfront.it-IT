@@ -3,10 +3,10 @@ filename: how-to-delegate-work
 navigation-topic: delegate-work
 title: Delega attività e problemi
 description: Puoi delegare temporaneamente il lavoro che ti è stato assegnato mentre sei fuori sede. Questo articolo descrive come delegare le assegnazioni di attività e problemi.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
 source-wordcount: '1547'
 ht-degree: 0%
@@ -55,12 +55,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
-   <td> <p>Nuovo: Collaboratore o versione successiva</p><p>Oppure</p><p>Corrente: revisione o versione successiva</p>
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p>Collaboratore o versione successiva</p><p>Revisione o successiva</p>
 
 >[!NOTE]
 >
@@ -80,7 +80,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

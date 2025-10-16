@@ -6,9 +6,9 @@ description: Puoi utilizzare il filtro su un Kanban Board per vedere quali eleme
 author: Lisa
 feature: Agile
 exl-id: e6f6beda-aaf9-4053-97ed-3a48e617d8e9
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ ht-degree: 0%
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,14 +28,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
-   <td> <p>Nuovo: [!UICONTROL Standard]</p> 
-   oppure
-   <p>Corrente: [!UICONTROL Work] o versione successiva</p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p>Standard</p> 
+   <p>Lavoro o superiore</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -47,8 +44,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 +++
 
 ## Filtra per utente sulla bacheca Kanban
-
-Per filtrare una bacheca [!UICONTROL Kanban]:
 
 {{step1-to-team}}
 

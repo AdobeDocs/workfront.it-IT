@@ -6,10 +6,10 @@ description: Se non è più necessaria, puoi eliminare un’iterazione per il te
 author: Lisa
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: 95208e0f396d8eab9a71ca156c616891a7f56f7a
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 1%
+source-wordcount: '175'
+ht-degree: 0%
 
 ---
 
@@ -27,19 +27,16 @@ Quando eliminate un&#39;iterazione, tutte le storie vengono spostate nel backlog
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
+   <tr> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
-   <td> <p>Nuovo: [!UICONTROL Standard]</p> 
-   oppure
-   <p>Corrente: [!UICONTROL Work] o versione successiva</p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p>Standard</p> 
+   <p>Lavoro o superiore</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 

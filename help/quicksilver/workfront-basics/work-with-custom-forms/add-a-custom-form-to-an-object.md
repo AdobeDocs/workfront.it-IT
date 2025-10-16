@@ -7,9 +7,9 @@ description: È possibile aggiungere un modulo personalizzato esistente a uno qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '730'
 ht-degree: 2%
 
 ---
@@ -41,38 +41,64 @@ ht-degree: 2%
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire le azioni descritte in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
+   <td> <p>Qualsiasi</p> </td> 
+  </tr> 
+<tr> 
+  <td role="rowheader">Licenza Adobe Workfront</td> 
+  <td> <p>Collaboratore o versione successiva</p>
+ <p>Richiedi o superiore</p> 
+</td> 
+ </tr> 
+  <tr> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modificare l’accesso agli oggetti per i quali si gestiscono i moduli personalizzati</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td> <p>Consente di gestire le autorizzazioni per l'oggetto al quale si desidera allegare un modulo personalizzato.</p> <p>Autorizzazioni di visualizzazione o superiori per il modulo personalizzato, con autorizzazione per <b>Allega a dati personalizzati</b> oggetti (progetti, attività e problemi).</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td> <p>Qualsiasi </p> </td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
   </tr> 
 <tr> 
-  <td role="rowheader">Licenza Adobe Workfront</td> 
-  <td> <p>Nuovo: Collaboratore o versione successiva </p>
- <p>oppure</p> 
-<p>Corrente: richiesta o successiva </p> 
+  <td role="rowheader">Adobe Workfront license</td> 
+  <td> <p>New: Contributor or higher </p>
+ <p>or</p> 
+<p>Current: Request or higher </p> 
 </td> 
  </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modificare l’accesso agli oggetti per i quali si gestiscono i moduli personalizzati</p>
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to the objects for which you manage custom forms</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Consente di gestire le autorizzazioni per l'oggetto al quale si desidera allegare un modulo personalizzato.</p> <p>Autorizzazioni di visualizzazione o superiori per il modulo personalizzato, con autorizzazione per <b>Allega a dati personalizzati</b> oggetti (progetti, attività e problemi). Per ulteriori informazioni, vedere <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Condividi modulo personalizzato</a>.</p> <p>Importante: se non si dispone di una licenza Pianificazione con accesso amministrativo a Custom Forms, è necessario disporre di autorizzazioni specifiche per visualizzare almeno il modulo personalizzato, come descritto in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Condividi modulo personalizzato</a>. Queste autorizzazioni devono essere concesse anche se il modulo è visibile a livello di sistema. </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti</a>.</p> </td> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the object for which you want to attach a custom form.</p> <p>View or higher permissions to the custom form, with permission to <b>Attach to Custom Data</b> objects (projects, tasks, and issues). For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>.</p> <p>Important: If you do not have a Plan license with administrative access to&nbsp;Custom&nbsp;Forms, you must have specific permissions to at least view the custom form, as described in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>. These permissions must be granted to you even if the form is visible system-wide. </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Prerequisiti
 
@@ -132,7 +158,7 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 1. Passare a un elenco di oggetti.
 1. Selezionare più oggetti nell&#39;elenco.
 
-1. Fai clic sul menu **Altro** ![](assets/more-icon.png), quindi fai clic sull&#39;icona ![](assets/edit-icon.png) di **Modifica**.
+1. Fai clic sul menu **Altro** ![](assets/more-icon.png), quindi fai clic sull&#39;icona **di** Modifica![](assets/edit-icon.png).
 
    Oppure
 

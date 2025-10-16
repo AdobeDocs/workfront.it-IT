@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Modifica informazioni scheda orario
 description: In qualità di utente con accesso amministrativo alle schede orario, puoi modificare le informazioni sulle schede orario esistenti in Adobe Workfront. Ad esempio, puoi modificare il Proprietario, gli Approvatori o l’intervallo di tempo della scheda orario.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
-source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '757'
 ht-degree: 1%
 
 ---
@@ -23,37 +23,38 @@ In qualità di utente con accesso amministrativo alle schede orario, puoi modifi
 >
 >Se gli utenti sono associati ai profili delle schede orario e queste vengono generate automaticamente, le modifiche apportate alle schede esistenti non verranno applicate alle schede orario che verranno generate per le date future. Tutte le schede orario generate automaticamente hanno le impostazioni stabilite nei Profili delle schede orario. Per ulteriori informazioni, consulta [Creare profili scheda orario](../create-and-manage-timesheets/create-timesheet-profiles.md)
 
-
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td> <p>Qualsiasi</p> </td> 
+   <td>Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Piano </p> </td> 
+   <td>Licenza Adobe Workfront</td> 
+   <td>
+   <p>Standard</p>
+   <p>Piano</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>È necessario disporre dell'accesso amministrativo alle schede orario. </p> <p>Per ulteriori informazioni, vedere <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo ad alcune aree</a>.</p> <p><b>NOTA</b>
-
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
-</tr> 
+   <td>Configurazioni del livello di accesso</td> 
+   <td><p>Accesso amministrativo alle schede orario</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Modifica schede orario
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Schede orario**.
+1. Fai clic sull&#39;icona **del** menu principale![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Schede orario**.
 
    Il filtro **All** è selezionato per impostazione predefinita e visualizza tutte le schede orario a cui hai accesso.
 

@@ -6,10 +6,10 @@ description: Sebbene non vi sia alcun limite al numero di utenti che è possibil
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '289'
+ht-degree: 2%
 
 ---
 
@@ -25,32 +25,27 @@ Per ulteriori informazioni sui pool di risorse, vedere [Panoramica sui pool di r
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td><p>Nuovo: Qualsiasi</p>
-       <p>oppure</p>
-       <p>Corrente: Pro o superiore</p> </td> 
+   <td>Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td><p>Nuovo: Standard</p>
-       <p>oppure</p>
-       <p>Corrente: Piano</p></td>
+   <td>Licenza Adobe Workfront</td> 
+   <td><p>Standard</p>
+   <p>Piano</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td>Configurazioni del livello di accesso</td> 
    <td> <p>Modifica l'accesso a Gestione risorse, incluso l'accesso a Gestisci gruppi di risorse</p> <p>Accesso di visualizzazione o superiore agli utenti</p></td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

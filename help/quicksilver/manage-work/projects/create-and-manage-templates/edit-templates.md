@@ -6,9 +6,9 @@ description: È possibile modificare i modelli di progetto per riflettere le mod
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: ea0ae13abe9373bef7a1d146ca1951c8c383f994
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
-source-wordcount: '5674'
+source-wordcount: '5672'
 ht-degree: 2%
 
 ---
@@ -48,27 +48,25 @@ Le modifiche apportate al modello non vengono applicate ai progetti che utilizza
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td> <p>Qualsiasi </p> </td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
+   <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenze Adobe Workfront*</td> 
+   <td role="rowheader">Licenze Adobe Workfront</td> 
    <td>
-      <p>Nuovo: Standard</p>
-      <p>Oppure</p>
-      <p>Corrente: Piano</p>
+      <p>Standard</p>
+      <p>Piano</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Livello di accesso</td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modificare l’accesso ai modelli</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
    <td> 
-    <ul> 
-     <li> <p>Concedere le autorizzazioni per un modello per modificarlo nella scheda Dettagli modello</p> </li> 
-     <li> <p>Gestire le autorizzazioni per un modello per modificarlo nella casella Modifica modello</p> </li> 
+    <p>Concedere le autorizzazioni per un modello per modificarlo nella scheda Dettagli modello</p> 
+     <p>Gestire le autorizzazioni per un modello per modificarlo nella casella Modifica modello</p>
    </td> 
   </tr> 
  </tbody> 
@@ -77,6 +75,39 @@ Le modifiche apportate al modello non vengono applicate ai progetti che utilizza
 *Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront licenses*</td> 
+   <td>
+      <p>New: Standard</p>
+      <p>Or</p>
+      <p>Current: Plan</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Templates</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+    <ul> 
+     <li> <p>Contribute permissions to a template to edit it in the Template Details tab</p> </li> 
+     <li> <p>Manage permissions to a template to edit it in the Edit Template box</p> </li> 
+   </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Modificare un modello {#edit-a-template}
 

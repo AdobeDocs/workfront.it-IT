@@ -6,9 +6,9 @@ description: Puoi esportare i dati di Adobe Workfront da elenchi, report, dashbo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '2264'
+source-wordcount: '2252'
 ht-degree: 0%
 
 ---
@@ -46,33 +46,24 @@ Le informazioni contenute nel presente articolo non si applicano alle seguenti e
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Systems Piano Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td>
-    <p>Nuovo:</p>
-      <ul>
-      <li>Chiaro o superiore</li>
-      </ul>
-    <p>Corrente:</p>
-      <ul>
-      <li>Revisione o superiore</li>
-    </td> 
+   <td> 
+      <p>Light</p>
+      <p>Rivedi</p>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso</td> 
-   <td> <p>Visualizza accesso o versioni successive a report, dashboard e calendari per esportare i report</p> <p>Visualizza accesso o superiore agli oggetti visualizzati in un elenco per esportare l'elenco</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Accesso di visualizzazione o superiore a report, dashboard e calendari per l’esportazione di report</p> <p>Accesso di visualizzazione o superiore agli oggetti visualizzati in un elenco per esportare l'elenco</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
@@ -81,7 +72,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -168,20 +159,20 @@ Se tenti di esportare dati oltre il limite, potresti non ricevere tutti i dati p
 
 Inoltre, l’esecuzione dei rapporti che richiedono più di 60 minuti verrà interrotta.
 
-In caso di dubbi o problemi relativi al limite, contattare il supporto tecnico di Workfront.
+In caso di dubbi o problemi relativi al limite, contattare il supporto tecnico Workfront.
 
-## Esportare dati
+## Esporta dati
 
 ### Esportare dati da un report o elenco {#export-data-from-a-report-or-list}
 
 1. Passare al report o all&#39;elenco da esportare.
 1. Seleziona gli elementi da esportare. Se si selezionano singoli elementi, vengono esportati solo gli elementi selezionati.
 
-   Ad esempio, in un progetto, selezionate le attività da esportare.
+   Ad esempio, in un progetto, seleziona le attività da esportare.
 
    Oppure
 
-   Lascia tutti gli elementi deselezionati per esportare l&#39;intero elenco.
+   Lascia deselezionati tutti gli elementi per esportare l’intero elenco.
 
 1. Fai clic su **Esporta**, quindi seleziona un formato.
 
@@ -216,11 +207,11 @@ Per ulteriori informazioni sull&#39;esportazione di dati da un dashboard, vedere
 
 Le sezioni seguenti descrivono la modalità di visualizzazione delle informazioni in un file esportato:
 
-* [File nomi](#file-names)
+* [Nomi file](#file-names)
 * [Titoli](#titles)
-* [Timestamp](#timestamps)
+* [Marca temporale](#timestamps)
 * [Formattazione](#formatting)
-* [Campo da golf](#links)
+* [Collegamenti](#links)
 * [Branding](#branding)
 
 ### Nomi file {#file-names}
@@ -277,7 +268,7 @@ Ad esempio, il titolo può essere:
 * *Utenti esportati*, durante l&#39;esportazione della scheda Persone nel progetto.
 * *Rischi esportati*, durante l&#39;esportazione di un elenco di rischi nel progetto.
 
-#### Titoli dei report esportati {#titles-for-exported-reports}
+#### Titoli per i rapporti esportati {#titles-for-exported-reports}
 
 Un report esportato in un file PDF avrà un titolo.
 
@@ -287,7 +278,7 @@ Se il report ha una descrizione, viene incluso nel file esportato.
 
 ### Marca temporale {#timestamps}
 
-Sul documento esportato viene visualizzato un timestamp dal contesto del utente che ha esportato l&#39;elemento.
+Nel documento esportato viene visualizzata una marca temporale dal contesto dell&#39;utente che ha esportato l&#39;elemento.
 
 La marca temporale include:
 
@@ -320,20 +311,20 @@ I collegamenti possono puntare a qualsiasi oggetto in Workfront che supporta il 
 
 >[!TIP]
 >
->Se la riga `valueformat=HTML` viene visualizzata in modalità testo per una colonna campo personalizzata e i valori collegare non vengono visualizzati in un file PDF esportato, è necessario immettere ulteriori righe di codice nella colonna in modalità testo.
+>Se la riga `valueformat=HTML` viene visualizzata in modalità testo per una colonna di campi personalizzati e i valori dei collegamenti non vengono visualizzati in un file PDF esportato, è necessario immettere ulteriori righe di codice nella colonna in modalità testo.
 >
->Ad esempio, se si dispone di un campo personalizzato denominato Open Q1 Projects che contiene collegamenti, è necessario aggiungere il codice seguente:
+>Ad esempio, se disponi di un campo personalizzato denominato Apri progetti Q1 contenente collegamenti, aggiungi il seguente codice:
 >
 >`link.url=customDataLabelsAsString(Open Q1 Projects)`
 >`linkedname=direct`
 
-Quando si esporta in un formato Excel, nel file esportato vengono inclusi solo i collegamenti agli oggetti all&#39;interno di Workfront e sono supportati solo nelle posizioni in cui è possibile scegliere di consentire i collegamenti nei documenti Excel esportati, ad esempio le consegne dei report.
+Quando si esegue l&#39;esportazione in un formato Excel, nel file esportato vengono inclusi solo i collegamenti agli oggetti all&#39;interno di Workfront e sono supportati solo nelle posizioni in cui è possibile selezionare l&#39;opzione per consentire i collegamenti nei documenti Excel esportati, ad esempio le consegne dei report.
 
 ## Branding {#branding}
 
 >[!IMPORTANT]
 >
->Il branding si applica solo alle organizzazioni che non hanno ancora effettuato l&#39;onboarding in Adobe Experience Cloud.
+>Il branding si applica solo alle organizzazioni che non hanno ancora effettuato l’onboarding in Adobe Experience Cloud.
 >
 >Se la tua organizzazione è stata integrata in Adobe Experience Cloud, il branding non è disponibile.
 

@@ -1,14 +1,14 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Mostra assegnazione ruoli per progetti e iniziative nell'elenco delle attività
+title: Mostra allocazione ruoli per progetti e iniziative nell'elenco dei task
 description: Dopo aver collegato progetti e iniziative, puoi gestirne l’allocazione delle risorse in modo che corrisponda. In questo modo si evita di sovrassegnarle o sottoutilizzarle.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -25,47 +25,79 @@ Per informazioni generali sulla riconciliazione delle risorse tra progetti e ini
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] piano*</p> </td> 
-   <td> <ul></li>
-   <li><p>Nuovo: Ultimate </p></li>
-   <p>Pianificazione scenario non disponibile per i nuovi piani Workfront Select o Workfront Prime. </p>
-   <li><p>Corrente: [!UICONTROL Business] o versione successiva</p></ul>
+   <td> <p>[!DNL Adobe Workfront] pacchetto</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>NOTA</b></p>
+<p>Se hai un pacchetto Workfront diverso, contatta il rappresentante Workfront.</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] licenza*</p> </td> 
-   <td> <p>Nuovo: Chiaro o superiore</p> 
-   <p>Corrente: [!UICONTROL Review] o versione successiva</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] licenza</p> </td> 
+   <td> <p>[!UICONTROL Light] o versione successiva</p> 
+   <p>[!UICONTROL Review] o versione successiva</p> </td> 
+  </tr> 
+    <tr> 
+   <td>Configurazioni del livello di accesso</td> 
+   <td> <p>Accesso di visualizzazione o superiore ai progetti.</p></td> 
   </tr> 
   <tr> 
-   <td>Prodotto* </td> 
-   <td> <ul><li><p>Per i nuovi piani Workfront:</p><p> Adobe Workfront</li></p>
-   <li><p>Per i piani Workfront correnti: </p>
-   <p>Adobe Workfront</p> <p>Pianificazione scenario Adobe Workfront</p></li></ul>
-
-<p>Per ulteriori informazioni, vedere <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accesso necessario per utilizzare [!DNL Scenario Planner]</a>. </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>Livello di accesso </td> 
-   <td> <p>Accesso di visualizzazione o superiore ai progetti.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
    <td> <p>Autorizzazioni oggetto </p> </td> 
-   <td> <p> Visualizza o autorizzazioni superiori per un progetto.</p> </td> 
+   <td> <p> Visualizza o autorizzazioni superiori per un progetto.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per informazioni, consulta [Requisiti di accesso alla documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori informazioni sull&#39;accesso alla Pianificazione scenario, vedere [Accesso necessario per utilizzare la [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+
+Per informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso alla documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <ul></li>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Product* </td> 
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level </td> 
+   <td> <p>View or higher access to Projects.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p> View or higher permission to a project.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Mostra assegnazione ruoli per progetti e iniziative nell&#39;elenco delle attività
 
@@ -112,7 +144,7 @@ Se la società ha acquistato una licenza di [!DNL Workfront Scenario Planner], �
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Variance]</td> 
-      <td> <p>Differenza tra le ore necessarie per l'iniziativa e le ore pianificate associate al lavoro sul progetto. [!DNL Workfront] calcola la varianza  utilizzando questa formula:</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>Quando le risorse sono pianificate per più ore rispetto a quelle richieste per l'iniziativa, la [!UICONTROL Variance] è negativa e viene visualizzata in rosso. Ciò significa che le risorse sono sovrassegnate. </p> </td> 
+      <td> <p>Differenza tra le ore necessarie per l'iniziativa e le ore pianificate associate al lavoro sul progetto. [!DNL Workfront] calcola la varianza [!UICONTROL] utilizzando questa formula:</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>Quando le risorse sono pianificate per più ore rispetto a quelle richieste per l'iniziativa, la [!UICONTROL Variance] è negativa e viene visualizzata in rosso. Ciò significa che le risorse sono sovrassegnate. </p> </td> 
      </tr> 
     </tbody> 
    </table>

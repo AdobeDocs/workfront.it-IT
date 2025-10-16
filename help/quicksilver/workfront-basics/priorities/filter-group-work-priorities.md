@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '651'
 ht-degree: 4%
 
 ---
@@ -32,14 +32,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>piano Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Pacchetto Adobe Workfront</strong></td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licenza Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Licenza Adobe Workfront</strong></td> 
    <td> 
-   <p>Corrente: richiesta o successiva</p>
-   <p>Nuovo: Collaboratore o versione successiva</p> 
+   <p>Richiedi o superiore</p>
+   <p>Collaboratore o versione successiva</p> 
    </td> 
   </tr> 
   <tr> 

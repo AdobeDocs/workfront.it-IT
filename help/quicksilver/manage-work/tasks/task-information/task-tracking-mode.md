@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Panoramica sulla modalità di monitoraggio attività
+title: Panoramica della modalità di monitoraggio attività
 description: È possibile regolare l'impostazione della modalità Tracciamento di un'attività durante la creazione o la modifica di un'attività per controllare come e quando vengono visualizzati gli indicatori di stato di avanzamento di un'attività. Adobe Workfront mostra i flag di stato di avanzamento quando configuri alcune impostazioni per il tracciamento dell’avanzamento delle attività.
 author: Alina
 feature: Work Management
 exl-id: 397b5593-ac01-40cf-b683-fcf671a53d26
-source-git-commit: d2836549ee3c615201ce5f3454258e9af31efa42
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -40,7 +40,7 @@ Per ulteriori informazioni sullo stato di avanzamento delle attività, vedere [P
 
 In qualità di proprietario di un&#39;attività o di project manager, è possibile selezionare il modo in cui Workfront indica lo stato di avanzamento di ogni attività. Per informazioni su come impostare la modalità di verifica per le attività, vedere [Impostare la modalità di verifica per le attività](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md).
 
-Puoi scegliere tra le seguenti opzioni:
+Puoi scegliere una delle opzioni seguenti:
 
 * [L&#39;Utente Deve Aggiornare](#user-must-update)
 * [Presupponi puntuale](#assume-on-time)

@@ -4,10 +4,10 @@ product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
 title: Impedisci che l'azione Ricalcola dati finanziari influisca sulle ore storiche quando i tassi cambiano
 description: È necessario aggiornare il costo orario per un utente o una mansione (a causa di un aumento o di un’altra circostanza), ma non si desidera che questa modifica influisca sulle ore precedentemente registrate nei progetti o che influisca solo su una parte delle ore storiche.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 29d3124b-cf7a-4a47-95c4-cd5379489810
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%

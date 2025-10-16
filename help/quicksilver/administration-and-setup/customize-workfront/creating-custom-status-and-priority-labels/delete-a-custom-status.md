@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 73c4eb87-94f6-47bf-b447-eb02a703f7ef
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 1%
+source-wordcount: '435'
+ht-degree: 2%
 
 ---
 
@@ -43,32 +43,27 @@ Per istruzioni sull&#39;eliminazione dello stato di un gruppo, vedere [Eliminare
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td>Qualsiasi</td> 
+   <td>Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td>
-     <p>Nuovo: Standard</p>
-     <p>oppure</p>
-     <p>Corrente: Piano</p>
-   </td> 
+   <td>Licenza Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Piano</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td>[!UICONTROL Amministratore di sistema]</td>
+   <td>Configurazioni del livello di accesso</td> 
+   <td>Amministratore di Sistema</td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

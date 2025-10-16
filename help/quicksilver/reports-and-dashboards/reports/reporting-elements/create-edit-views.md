@@ -6,9 +6,9 @@ description: È possibile personalizzare il tipo di informazioni visualizzate su
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: d98998627ac5161fd12bb2d86f65555550c82a48
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1713'
 ht-degree: 1%
 
 ---
@@ -25,44 +25,35 @@ Questo articolo descrive come creare e modificare le viste standard per gli elen
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>piano Adobe Workfront</strong></td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licenza Adobe Workfront*</strong></td> 
+   <td role="rowheader">Licenza Adobe Workfront</strong></td> 
    <td> 
-      <p>Nuovo:</p>
-         <ul>
-         <li><p>Collaboratore o versione successiva</p></li>
-         </ul>
-      <p>Corrente:</p>
-         <ul>
-         <li><p>Richiedi o superiore</p></li>
-         </ul>
+    <p>Collaboratore o versione successiva</p>
+    <p>Richiedi o superiore</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Modifica l’accesso a Rapporti, Dashboard, Calendari per creare una visualizzazione in un rapporto</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorizzazioni oggetto*</strong></td> 
+   <td role="rowheader">Autorizzazioni oggetto</td> 
    <td> <p>Gestire le autorizzazioni per un report per creare o modificare una visualizzazione in un report</p> <p>Gestire le autorizzazioni per una visualizzazione per modificarla</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Creare o personalizzare una visualizzazione
@@ -90,7 +81,6 @@ Viene visualizzata la finestra di dialogo **Personalizza visualizzazione**.
    * Modificare l&#39;ordine di visualizzazione delle colonne trascinando il titolo della colonna in una nuova posizione.
 
    * Nell&#39;area **Impostazioni colonna** fare clic su **Riepiloga colonna per** e scegliere la modalità di visualizzazione dei dati nella colonna. Questa opzione è disponibile per i seguenti tipi di colonna:
-
      <table style="table-layout:auto"> 
          <col> 
          <col> 
@@ -106,8 +96,8 @@ Viene visualizzata la finestra di dialogo **Personalizza visualizzazione**.
            <td role="rowheader"><strong>Campi valuta</strong></td> 
            <td><ul>
            <li>Conteggio</li>
-         <li>Somma</li>
-           <li>Media</li>
+         <li>Sum</li>
+           <li>Medio</li>
          <li>Massimo</li>
            <li>Minimo</li>
          </ul></td> 

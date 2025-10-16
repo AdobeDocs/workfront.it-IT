@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Creare una scheda orario monouso
 description: Puoi creare manualmente una scheda orario monouso se desideri una scheda orario non ricorrente. Quando viene raggiunta la data di fine della scheda orario e sono necessarie altre schede orario, è necessario crearne di nuove.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: b293dd50-a9b8-448b-afc1-8c7c7c79183b
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -38,29 +38,28 @@ Per informazioni sulla generazione manuale delle schede orario per tutti gli ute
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
-
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td> <p>Qualsiasi</p> </td> 
+   <td>Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Nuovo: Standard </p>
-   <p>Corrente: Piano </p> </td> 
+   <td>Licenza Adobe Workfront</td> 
+   <td>
+   <p>Standard</p>
+   <p>Piano</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Livello di accesso</td> 
-   <td> <p>È necessario disporre dell'accesso amministrativo alle schede orario. </p>  </td> 
+   <td>Configurazioni del livello di accesso</td> 
+   <td><p>Accesso amministrativo alle schede orario</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per informazioni, consulta [Requisiti di accesso alla documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

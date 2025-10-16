@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: "Esempio di campo personalizzato calcolato: visualizza il manager dell’autore di un problema sul modulo personalizzato relativo al problema"
+title: 'Esempio di campo personalizzato calcolato: visualizza il manager dell’autore di un problema sul modulo personalizzato relativo al problema'
 description: Utilizzando un campo personalizzato calcolato, è possibile visualizzare il nome del responsabile dell’autore di un problema in un modulo personalizzato allegato al problema. Utilizzando la stessa istruzione, è possibile creare campi calcolati simili per progetti, problemi e altri oggetti.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -26,32 +26,36 @@ Utilizzando un campo personalizzato calcolato, è possibile visualizzare il nome
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Piano Adobe Workfront*</p> </td> 
-   <td>Qualsiasi</td> 
+   <td> <p>Pacchetto Adobe Workfront</p> </td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Licenza Adobe Workfront*</p> </td> 
-   <td> <p>Piano </p> </td> 
+   <td> <p>Licenza Adobe Workfront</p> </td> 
+   <td>
+      <p>Standard</p>
+      <p>Piano</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td>Configurazioni del livello di accesso*</td> 
-   <td> <p>Accesso amministrativo ai moduli personalizzati<br>Per informazioni sulla concessione dell'accesso amministrativo dal livello di accesso, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo ad alcune aree</a>.</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+  <tr> 
+   <td><p>Configurazioni del livello di accesso</p></td> 
+   <td> <p>Accesso amministrativo ai moduli personalizzati</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td> <p>Autorizzazioni oggetto</p> </td> 
-   <td> <p>Accesso di Contribute all’oggetto in cui è allegato il modulo con accesso per modificare il modulo personalizzato</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Contribuire all’accesso all’oggetto in cui è allegato il modulo con l’accesso Modifica modulo personalizzato</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Visualizzare il manager dell’autore di un problema nel modulo personalizzato del problema
 

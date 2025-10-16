@@ -6,9 +6,9 @@ description: Le attività personali sono richieste di lavoro ad hoc inviate a un
 author: Lisa
 feature: Get Started with Workfront
 exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
-source-git-commit: a1081b7ce0877b08f9546ab57cfac3f2a580ea76
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -47,8 +47,6 @@ Indipendentemente dalla modalità di aggiunta di un&#39;attività personale, è 
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -56,14 +54,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>piano Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Pacchetto Adobe Workfront</strong></td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licenza Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Licenza Adobe Workfront</strong></td> 
    <td> 
-   <p>Nuovo: Standard per inviare richieste ad altri utenti. Tutti gli utenti possono creare autonomamente una richiesta di lavoro.</p> 
-   <p>Corrente: prevede di inviare richieste ad altri utenti. Tutti gli utenti possono creare autonomamente una richiesta di lavoro.</p>
+   <p>Standard<p>
+   <p>Piano</p>
+   <p>Si tratta della licenza necessaria per inviare richieste ad altri utenti. Tutti gli utenti possono creare autonomamente una richiesta di lavoro.</p> 
     </td> 
   </tr> 
   <tr> 
@@ -75,9 +74,36 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </tbody> 
 </table>
 
-*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td> 
+   <p>New: Standard to send requests to other users. All users can create a work request for themselves.</p> 
+   <p>Current: Plan to send requests to other users. All users can create a work request for themselves.</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
+   <td> <p>Edit access to Users to create a work request for them. View access to create a personal work request for yourself. </p>
+   </td> 
+  </tr> 
+ 
+ </tbody> 
+</table>-->
 
 
 ## Creare una richiesta di lavoro personale

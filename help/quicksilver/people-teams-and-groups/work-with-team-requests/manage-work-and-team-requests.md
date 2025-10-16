@@ -7,9 +7,9 @@ description: Una richiesta rappresenta un'attività o un'assegnazione di problem
 author: Lisa
 feature: People Teams and Groups, Work Management
 exl-id: ef96e520-0d5f-4180-a27a-1fbbffff8f2b
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -26,27 +26,23 @@ Una richiesta rappresenta un&#39;attività o un&#39;assegnazione di problema in 
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td>
    <p>Per assegnare o lavorare su una richiesta:
-   <p>Nuovo: Chiaro o superiore</br>
-    o</br>
-   Corrente: revisione o versione successiva</p>
+   <p>Chiaro o superiore</p>
+  <p>Revisione o successiva</p>
    <p>Per riassegnare una richiesta:
-   <p>Nuovo: Standard</br>
-    o</br>
-   Corrente: Lavoro o versione successiva</p></td>
+   <p>Standard</p>
+   <p>Lavoro o superiore</p></td>
   </tr> 
  </tbody> 
 </table>

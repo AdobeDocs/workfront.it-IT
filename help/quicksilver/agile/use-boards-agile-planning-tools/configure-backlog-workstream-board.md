@@ -7,9 +7,9 @@ description: Puoi scegliere di visualizzare una colonna di backlog su una bachec
 author: Lisa
 feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -32,22 +32,19 @@ La colonna backlog e la query non sono disponibili nelle bacheche autonome. Per 
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> 
-   <p>Nuovo: [!UICONTROL Contributor] o versione successiva</p> 
-   <p>oppure</p>
-   <p>Corrente: [!UICONTROL Request] o versione successiva</p>
+   <p>Collaboratore o versione successiva</p> 
+   <p>Richiedi o superiore</p>
    </td> 
   </tr> 
  </tbody> 

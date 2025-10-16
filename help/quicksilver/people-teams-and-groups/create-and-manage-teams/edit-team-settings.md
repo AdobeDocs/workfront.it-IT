@@ -6,9 +6,9 @@ description: Gli amministratori di Workfront e gli utenti con una licenza Pianif
 author: Lisa
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -23,22 +23,19 @@ In qualità di amministratore [!DNL Adobe Workfront] o di utente con una licenza
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>piano Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p>Pacchetto Adobe Workfront</p> </td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td>
-   <p>Nuovo: Standard</p>
-   <p>oppure</p>
-   <p>Corrente: Lavoro o versione successiva</p></td>
+   <p>Standard</p>
+   <p>Lavoro o superiore</p></td>
   </tr> 
  </tbody> 
 </table>

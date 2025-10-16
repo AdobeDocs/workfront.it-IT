@@ -2,13 +2,13 @@
 navigation-topic: business-case-and-scorecards
 title: Preventivare le risorse nel Business Case utilizzando la Pianificazione scenario
 description: Come parte della pianificazione delle risorse, è possibile utilizzare Adobe Workfront Scenario Planner per preventivare i ruoli necessari per il completamento del lavoro in un progetto al momento della creazione del business case.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 0%
+source-wordcount: '959'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ Per ulteriori informazioni sulla creazione di un caso di business, vedere [Crear
 >
 >Le informazioni sulla mansione per l&#39;iniziativa collegata al progetto immesse nella Programmazione scenario a livello di sistema sono visibili nell&#39;area Budget risorse del business case del progetto quando si pubblica l&#39;iniziativa. La Pianificazione scenario è disponibile solo nella nuova esperienza Adobe Workfront e richiede una licenza aggiuntiva. Per informazioni su Workfront Scenario Planner, vedere [Panoramica di Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
 
-È inoltre possibile preventivare le risorse nel business case utilizzando la pianificazione risorse. Per ulteriori informazioni, vedi:
+È inoltre possibile preventivare le risorse nel business case utilizzando la pianificazione risorse. Per ulteriori informazioni vedi quanto segue:
 
 * [Risorse budget nel caso di business](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)
   <!--* [Budget resources by project in the Resource Planner](../../../resource-mgmt/resource-planning/budget-by-project-resource-planner-d.md)-->
@@ -35,7 +35,7 @@ Per ulteriori informazioni sulla creazione di un caso di business, vedere [Crear
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,14 +44,13 @@ Per ulteriori informazioni sulla creazione di un caso di business, vedere [Crear
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Piano Adobe Workfront*</p></td> 
-   <td><p>Corrente: Ultimate</p> 
-   <p>Legacy: aziendale o superiore</p> </td> 
+   <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
+   <td><p>Prime o versione successiva</p> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licenza Adobe Workfront*</p></td> 
-   <td><p>Corrente: Light o superiore 
-   <p>Legacy: revisione o superiore</p> </td> 
+   <td><p>Chiaro o superiore 
+   <p>Revisione o successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Prodotto</p></td> 

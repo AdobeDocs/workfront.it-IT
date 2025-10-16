@@ -7,9 +7,9 @@ description: Scopri come calcolare le differenze di data e ora.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -35,26 +35,24 @@ Puoi calcolare la differenza tra i seguenti:
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Nuovo: </p><ul><li><p>Collaboratore per modificare una visualizzazione </p></li><li>
-   <p>Standard per modificare un rapporto</p></li></ul><p>Oppure</p><p>Corrente:</p><ul><li><p>Richiesta di modifica di una vista </p></li><li>
-   <p>Pianificare la modifica di un rapporto</p> </li><ul></td> 
+   <td> 
+   <p>Collaboratore o richiesta di modifica di un filtro </p>
+   <p>Standard o piano per modificare un rapporto</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> </td> 
-  </tr>  
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l’accesso a Filtri, Viste, Raggruppamenti per modificare un filtro</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
    <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 

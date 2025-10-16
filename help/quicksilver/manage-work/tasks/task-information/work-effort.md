@@ -7,9 +7,9 @@ description: Panoramica sull’impegno di lavoro
 author: Alina
 feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1474'
 ht-degree: 0%
 
 ---
@@ -61,25 +61,22 @@ Questo articolo descrive l&#39;impegno di lavoro e il modo in cui utilizzarlo pe
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Corrente: Piano </p>
-   Oppure
-   <p>Nuovo: Standard </p>
-    </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p>Standard</p>
+   <p>Piano</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazione del livello di accesso</td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modificare l’accesso a Progetti e Attività</p> </td> 
   </tr> 
   <tr> 
@@ -89,9 +86,37 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront. Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Current: Plan </p>
+   Or
+   <p>New: Standard </p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configuration</td> 
+   <td> <p>Edit access to Projects and Tasks</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to a project and its tasks</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Considerazioni per l’utilizzo dell’impegno di lavoro
 
@@ -155,7 +180,7 @@ In qualità di amministratore di Workfront, definisci le ore tipiche per giornat
    <td>Un piccolo livello di impegno per il completamento di un'attività è impostato al 25% delle ore tipiche per giorno lavorativo. Ciò significa che un'attività assegnata a questo livello di Impegno di lavoro dovrebbe richiedere fino a 2 ore al giorno per essere completata in un giorno. <code>(0.25*8=2)</code></td> 
   </tr> 
   <tr> 
-   <td>Medio</td> 
+   <td>Canale</td> 
    <td> <p>Un livello di impegno Medium per il completamento di un'attività è impostato sul 50% delle ore tipiche per giornata lavorativa. Ciò significa che il completamento di un'attività assegnata a questo livello di Impegno di lavoro dovrebbe richiedere più di 2 e meno di 6 ore in un giorno. <code>(0.50*80=4)</code> </p> <p>Nota: quando l'impostazione Usa impegno di lavoro per calcolare automaticamente le ore pianificate per l'attività è abilitata nel progetto, questa è l'impostazione predefinita per un'attività, se l'attività aveva 0 ore pianificate prima che questa impostazione fosse abilitata. In questo modo l'attività Lavoro Necessario viene aggiornata a 4 ore. </p> </td> 
   </tr> 
   <tr> 

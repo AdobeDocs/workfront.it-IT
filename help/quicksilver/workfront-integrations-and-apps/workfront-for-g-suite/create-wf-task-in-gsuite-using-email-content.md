@@ -7,9 +7,9 @@ description: È possibile convertire un'e-mail esterna (non generata da Adobe [!
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 6bbb4301-2791-4d72-bad8-fef63d6e892a
-source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
+source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 0%
 >
 >È consigliabile utilizzare l&#39;automazione e l&#39;integrazione di Workfront per le esigenze di integrazione dell&#39;organizzazione con Google Workspace.
 >
->Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Per informazioni sulle funzionalità specifiche dei moduli di automazione e integrazione di Workfront per Google Workspace, vedere [Moduli Gmail](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) e [Moduli calendario Google](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Per informazioni sulle funzionalità specifiche dei moduli di automazione e integrazione di Workfront per Google Workspace, vedere [Moduli Gmail](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) e [Moduli calendario Google](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 È possibile convertire un&#39;e-mail esterna (non generata da [!DNL Adobe Workfront]) in un&#39;attività [!DNL Workfront].
 
@@ -38,24 +38,26 @@ Per informazioni sull&#39;utilizzo di [!DNL Google Workspace] per utilizzare le 
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano*</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
-   <td> <p>[!UICONTROL Lavoro], [!UICONTROL Piano]</p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p>Standard</p><p>Lavoro o superiore</p>
   </tr> 
-   </tbody> 
+ </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisiti
 
@@ -94,7 +96,7 @@ Prima di poter creare un&#39;attività [!DNL Workfront] in [!DNL Google Workspac
       <td> <p>Fai clic su <strong>[!UICONTROL Planned duration]</strong> (Durata pianificata), quindi digita il numero di giorni desiderati per l'attività. </p> <p>Nota: questa opzione può essere configurata per la tua organizzazione in modi diversi. Ad esempio, per la tua organizzazione, potrebbe essere necessario digitare un numero di ore invece di giorni. Per ulteriori informazioni, contattare l'amministratore [!DNL Workfront]. Se si desidera specificare un periodo di tempo diverso da quello predefinito configurato, digitare <strong>m</strong>, <strong>h</strong>, <strong>d</strong>, <strong>w</strong> o <strong>mo</strong> dopo il numero per indicare minuti, ore, giorni, settimane o mesi.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">Priorità </td> 
+      <td role="rowheader">Priorità [!UICONTROL]</td> 
       <td>Fare clic sulla freccia dell'elenco a discesa, quindi selezionare la priorità desiderata per l'attività.</td> 
      </tr> 
      <tr data-mc-conditions=""> 

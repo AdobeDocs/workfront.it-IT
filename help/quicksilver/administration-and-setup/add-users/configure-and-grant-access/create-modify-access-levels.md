@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 674c46b699ba445abba06bec3e4da4a710c60d63
+source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1505'
 ht-degree: 6%
 
 ---
@@ -34,21 +34,18 @@ In qualità di amministratore di Adobe Workfront, puoi creare livelli di accesso
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td>Nuovo: Standard
-   <p>oppure</p>
-   <p>Corrente: Piano</p></td> 
+   <td><p>Standard</p>
+   <p>Piano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -66,7 +63,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 {{step-1-to-setup}}
 
 1. Fai clic su **Livelli di accesso** nel pannello a sinistra.
-1. &#x200B;
+1. 
    * Nell’ambiente di produzione:
 Seleziona il livello di accesso da copiare e personalizzare, quindi fai clic su **Copia**.
 

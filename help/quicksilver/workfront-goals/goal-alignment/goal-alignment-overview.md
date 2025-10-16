@@ -7,34 +7,41 @@ description: L’allineamento degli obiettivi garantisce che tutti i membri dell
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '750'
 ht-degree: 1%
 
 ---
 
 # Panoramica sull’allineamento degli obiettivi in Obiettivi di Adobe Workfront
 
-<!--Audited P&P only: 4/2025-->
+<!--Audited: 10/2025-->
 
 >[!IMPORTANT]
 >
->Per utilizzare le funzionalità descritte in questo articolo, l’organizzazione deve disporre dei seguenti elementi:
+>La tua azienda potrebbe scegliere di continuare a utilizzare gli obiettivi di Adobe Workfront se ha acquistato questo pacchetto in passato. Per ulteriori dettagli, rivolgiti al rappresentante del tuo account.
 >
->* Per il nuovo piano e la nuova struttura delle licenze:
->
->   * Il piano Ultimate Workfront
->    
->* Per il piano corrente e la struttura delle licenze:
->
->   * Un piano Workfront Pro o superiore
->   * Una licenza Adobe Workfront Goals oltre a una licenza Workfront.
->
->Contatta il tuo account manager Workfront per saperne di più su una licenza Workfront Goals.
+>Adobe Workfront Goals non è più disponibile per l’acquisto.
 > 
 >Per ulteriori informazioni sull&#39;accesso agli obiettivi di Workfront, vedere [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
+
+<!--Old:
+>Your organization must have the following to use the functionality described in this article:
+>
+>* For the new plan and license structure:
+>
+>   * The Ultimate Workfront plan 
+>    
+>* For the current plan and license structure: 
+>
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
+>
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
+> 
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).-->
 
 L’allineamento degli obiettivi è una parte importante della gestione degli obiettivi. Puoi assicurarti che tutti nella tua organizzazione siano sulla stessa pagina su ciò che deve essere raggiunto per portare avanti la strategia, allineando i loro obiettivi l’uno all’altro e agli obiettivi organizzativi di team, gruppi e l’azienda.
 
@@ -95,7 +102,7 @@ Dopo aver allineato gli obiettivi, essi fanno parte della stessa gerarchia e son
 -->
 Puoi visualizzare gli obiettivi principali e secondari nelle seguenti aree:
 
-* La sezione Indicatori di avanzamento nella pagina di un obiettivo, sotto il raggruppamento Tipo:Obiettivo.
+* La sezione Indicatori di avanzamento nella pagina di un obiettivo, nel raggruppamento Tipo:Goal.
 * Sezione Allineamento obiettivo della pagina Obiettivi.
 
 

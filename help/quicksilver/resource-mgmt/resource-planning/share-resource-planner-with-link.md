@@ -6,10 +6,10 @@ description: Adobe Workfront può generare un URL univoco per la Visualizzazione
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: af0f1b9baef20c5910b13a52207531887a8524c5
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 0%
+source-wordcount: '637'
+ht-degree: 1%
 
 ---
 
@@ -23,36 +23,32 @@ Adobe Workfront può generare un URL univoco per la Visualizzazione utente della
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-    <td><p>Nuovo: Qualsiasi</p>
-       <p>oppure</p>
-       <p>Corrente: Pro o superiore</p> </td> 
+  <tr> 
+   <td>Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td><p>Nuovo: Standard</p>
-       <p>oppure</p>
-       <p>Corrente: Piano</p></td> 
+   <td>Licenza Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Piano</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td>Configurazioni del livello di accesso</td> 
    <td> <p>Accesso di visualizzazione o superiore a Gestione risorse, Progetti e Utenti</p> <p>Visualizzazione dell'accesso ai dati finanziari per visualizzare le informazioni sui costi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni oggetto</td> 
    <td> <p>Visualizza o autorizzazioni superiori per i progetti da visualizzare nella Programmazione delle risorse</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -75,7 +71,7 @@ Per ottenere un URL univoco nella Vista utente della Programmazione delle risors
 1. (Facoltativo) Selezionare l&#39;intervallo di tempo entro il quale si desidera visualizzare le informazioni nella Programmazione delle risorse. Selezionare una delle opzioni seguenti:
 
    * Settimana
-   * Mese
+   * Month
    * Trimestre
 
 1. (Facoltativo) Seleziona se desideri visualizzare le informazioni entro **FTE** o **Ore**.\

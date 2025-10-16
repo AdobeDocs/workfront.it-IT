@@ -6,9 +6,9 @@ description: La visibilità degli oggetti in Adobe Workfront dipende dall’acce
 author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 18b96a6d57dc358bfe52e813bc98d8eb19f37dba
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '1338'
+source-wordcount: '1327'
 ht-degree: 1%
 
 ---
@@ -36,23 +36,20 @@ Se hai bisogno di autorizzazioni per oggetti specifici in Workfront, puoi richie
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
-Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td> <p>Qualsiasi </p> </td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
+   <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Nuovo: Standard</p> 
-   <p>Oppure</p>
-   <p>Corrente: Lavoro o versione successiva</p> 
+   <td> <p>Standard</p> 
+   <p>Lavoro o superiore</p> 
    </td> 
   </tr> 
   <tr> 

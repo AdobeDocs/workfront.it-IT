@@ -6,9 +6,9 @@ description: Puoi creare modelli di approvazione per semplificare il processo di
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: 7572dd64a7f23d6f8dcae374a327d67f2d6738c5
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '210'
 ht-degree: 2%
 
 ---
@@ -25,21 +25,18 @@ Nell’area Configurazione di Workfront, gli utenti con una licenza Standard pos
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Nuovo: Standard</p> 
-   <p>oppure</p>
-   <p>Corrente: Piano</p>
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p>Standard</p> 
+   <p>Piano</p>
    </td> 
   </tr> 
  </tbody> 

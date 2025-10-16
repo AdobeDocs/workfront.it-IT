@@ -5,9 +5,10 @@ title: Creare e gestire cose da fare nella Home
 description: Puoi creare oggetti personali dalla [!UICONTROL Home].
 author: Courtney
 feature: Get Started with Workfront, Work Management
-source-git-commit: 0289e2d0a3f75827b9c799b72fdc4e9ca1c59949
+exl-id: 247085a7-bb9e-4468-b496-d81e02f2de00
+source-git-commit: 29c82cd8265f3d05f4ae241c5c723a4ab09a6504
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -24,35 +25,34 @@ L&#39;utente e gli altri utenti possono visualizzare le attività personali in u
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Work] o versione successiva</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza</strong></td> 
+   <td> 
+   <p>Standard</p>
+   <p>Lavoro o superiore</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
-   <td> <p>[!UICONTROL Worker]</p> <p><b>NOTA</b></p> 
-   <p>Se non disponi ancora dell'accesso, chiedi all'amministratore [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di [!DNL Workfront] può modificare il tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurazioni del livello di accesso</strong></td> 
+   <td> <p>Accesso di visualizzazione o modifica per l'oggetto su cui si trova l'aggiornamento</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Accesso a [!UICONTROL Edit] o versione successiva per le attività</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Accesso a [!UICONTROL Edit] o versione successiva per le attività</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

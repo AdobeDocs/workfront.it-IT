@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 0e7000597e2347bff0bc626d21aa9a6c9a839c0b
+source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '538'
 ht-degree: 4%
 
 ---
@@ -33,33 +33,24 @@ Dopo aver configurato un modello di layout, è necessario assegnarlo agli utenti
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Devi avere i seguenti:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td>Qualsiasi</td> 
+   <td>Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> 
-      <p>Nuovo:</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Corrente:</p>
-         <ul>
-         <li><p>Piano</p></li>
-         </ul>
-   </td>
+   <td>Licenza Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Piano</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Per eseguire questi passaggi a livello di sistema, è necessario disporre del livello di accesso Amministratore di sistema.
-Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p> </td> 
+   <td>Configurazioni del livello di accesso</td> 
+   <td> <p>Per eseguire questi passaggi a livello di sistema, è necessario disporre del livello di accesso Amministratore di sistema.</p>
+        <p>Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -89,7 +80,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
       * Rapporti
       * Richieste
       * Gestione risorse
-      * Scenari
+      * Situazioni che potrebbero verificarsi con
       * Team
       * Modelli
       * Schede orario
@@ -110,7 +101,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    * Fai clic su **Aggiungi dashboard**
       * Digita un nome descrittivo nel campo <!--**Quick link name**-->**Nome personalizzato**
       * Seleziona un dashboard nel **Aggiungi un dashboard** campo <!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now -->
-      * Fare clic su **Aggiungi**.
+      * Fai clic su **Aggiungi**.
 
 1. Ripeti il passaggio precedente per fissare qualsiasi altra pagina.
 

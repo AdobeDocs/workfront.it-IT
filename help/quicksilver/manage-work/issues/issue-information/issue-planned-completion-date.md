@@ -1,12 +1,12 @@
 ---
 product-area: projects
 navigation-topic: issue-information
-title: Panoramica della data di completamento pianificata del problema
+title: Panoramica della data di completamento del problema pianificata
 description: La Data di completamento pianificata di un problema è la data entro la quale si prevede che il problema venga completato.
 author: Alina
 feature: Work Management
 exl-id: bdb206dc-18f8-4f8a-862b-e881408a8408
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Panoramica della data di completamento pianificata del problema
+
+<!--Audited: 08/2025-->
 
 La Data di completamento pianificata di un problema è la data entro la quale si prevede che il problema venga completato.
 

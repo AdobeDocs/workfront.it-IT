@@ -5,9 +5,9 @@ description: Puoi controllare quali livelli di accesso nell’organizzazione han
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: d929599ccdbfb90d731a3dfb9d83d3eb54d345ea
+source-git-commit: 8a0923bbdc8731652e59647409ef9b32e802e895
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '201'
 ht-degree: 1%
 
 ---
@@ -18,32 +18,31 @@ In qualità di amministratore di Workfront, puoi controllare quali utenti dell�
 
 ## Requisiti di accesso
 
-Per abilitare o disabilitare l&#39;Assistente AI, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td><p>Nuovo: Qualsiasi</p>
-       <p>oppure</p>
-       <p>Corrente: non disponibile</p></td>
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
+   <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td><p>Nuovo: Standard</p>
-       <p>oppure</p>
-       <p>Corrente: non disponibile</p></td>
+   <td><p>Standard</p>
+   <p>Piano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Devi essere un amministratore di Workfront.</p> </td> 
+   <td> <p>Devi essere un amministratore di Workfront</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Attivare o disattivare l’Assistente IA in Workfront
 

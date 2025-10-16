@@ -6,9 +6,9 @@ description: L'accesso a  [!DNL Workfront]  tramite Adobe Experience Cloud offre
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+source-git-commit: 29083931a4910c99027edb856ab200c8a4345679
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
@@ -30,25 +30,23 @@ Se l&#39;organizzazione utilizza Adobe Unified Experience, l&#39;URL utilizzato 
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano*</strong></td> 
+   <td role="rowheader"><strong>Pacchetto Adobe Workfront</strong></td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>Nuovo: [!UICONTROL Contributor] o versione successiva</p> 
-   <p>Corrente: [!UICONTROL Request] o versione successiva</p> </td> 
+   <td role="rowheader"><strong>Licenza Adobe Workfront</strong></td> 
+   <td> <p>Collaboratore o versione successiva</p> 
+   <p>Richiedi o superiore</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

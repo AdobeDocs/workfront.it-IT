@@ -4,9 +4,9 @@ title: Panoramica delle breadcrumb
 description: Le breadcrumb visualizzano la gerarchia di navigazione completa per tutti i tipi di oggetto.
 feature: Get Started with Workfront
 exl-id: c4103f8e-4c3f-4d4d-a0eb-628c60735ab7
-source-git-commit: 0fea13b0a1d8f14c2d601e0ed0a8d15684a3c4d7
+source-git-commit: d7b8d7285d23d14f5390c9de1001de553c2b796f
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -42,30 +42,7 @@ Per spostarsi tra le breadcrumb, è inoltre possibile utilizzare i tasti seguent
  </tbody> 
 </table>
 
-+++Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
-<table style="table-layout:auto"> 
- <col> 
- </col> 
- <col> 
- </col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano*</strong></td> 
-   <td> <p>Qualsiasi</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Request] o versione successiva</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-*Per sapere quale piano o tipo di licenza si dispone, contattare l&#39;amministratore [!DNL Workfront].
-
-+++
 
 <!--drafted: this is no longer possible, since we removed Campaigns, but it might come back as part of Maestro: 
 

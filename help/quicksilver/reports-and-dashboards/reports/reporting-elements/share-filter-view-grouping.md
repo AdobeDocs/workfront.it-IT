@@ -6,10 +6,10 @@ description: Puoi condividere filtri, viste e raggruppamenti a cui hai accesso p
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 1%
+source-wordcount: '1170'
+ht-degree: 2%
 
 ---
 
@@ -30,49 +30,43 @@ Quando un filtro, una visualizzazione o un raggruppamento è condiviso con l&#39
 
 Per informazioni su come creare un filtro, una visualizzazione o un raggruppamento, vedere gli articoli seguenti:
 
-* [Panoramica filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Piano Adobe Workfront*</strong></td> 
-   <td> <p>Qualsiasi </p> </td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
+   <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licenza Adobe Workfront*</strong></td> 
+   <td role="rowheader">Licenza Adobe Workfront</strong></td> 
    <td> 
-      <p>Nuovo:</p>
-         <ul>
-         <li><p>Collaboratore o versione successiva</p></li>
-         </ul>
-      <p>Corrente:</p>
-         <ul>
-         <li><p>Richiedi o superiore</p></li>
-         </ul>
+    <p>Collaboratore o versione successiva</p>
+    <p>Richiedi o superiore</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
-   <td> <p>Accesso di visualizzazione o superiore a filtri, visualizzazioni, raggruppamenti</p></td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Accesso di visualizzazione o superiore a filtri, visualizzazioni, raggruppamenti</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td><p>Autorizzazioni di visualizzazione o di livello superiore con accesso alla condivisione di una visualizzazione, un filtro o un raggruppamento</p></td> 
+   <td role="rowheader">Autorizzazioni oggetto</td> 
+    <td> <p>Autorizzazioni di visualizzazione o di livello superiore con accesso alla condivisione di una visualizzazione, un filtro o un raggruppamento</p></td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -136,7 +130,7 @@ Condividi un filtro tramite l’interfaccia standard di generazione:
 
 1. (Facoltativo) Abilita o disabilita le autorizzazioni aggiuntive per un’entità effettuando una delle seguenti operazioni:
 
-   1. Fai clic su **Visualizza** e disabilita l&#39;opzione **Condividi**. È attivata per impostazione predefinita.
+   1. Fai clic su **Visualizza** e disabilita l&#39;opzione **Condividi**. Questa opzione è abilitata per impostazione predefinita.
    1. Fai clic su **Gestisci** e disabilita l&#39;opzione **Condividi** o **Elimina**. Sono attivati per impostazione predefinita.
 
       >[!NOTE]
@@ -185,7 +179,7 @@ La condivisione di filtri, viste e raggruppamenti nell’interfaccia legacy è i
 
 1. (Condizionale) Se condividi con singoli utenti, team, ruoli, gruppi o società, fai clic sul menu a discesa per definire il livello di accesso che desideri concedere.
 
-   Puoi scegliere tra le seguenti opzioni:
+   Puoi scegliere una delle opzioni seguenti:
 
    <table style="table-layout:auto"> 
     <col> 

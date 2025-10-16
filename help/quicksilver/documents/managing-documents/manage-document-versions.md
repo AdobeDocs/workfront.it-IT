@@ -6,9 +6,9 @@ description: In Workfront è possibile gestire più versioni di un documento.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -23,33 +23,28 @@ In Workfront è possibile gestire più versioni di un documento.
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Devi avere i seguenti:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p> Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenze Adobe Workfront</td> 
    <td> 
-   <p>Nuovo: Collaboratore o versione successiva<p>
-   <p>Oppure</p>
-   <p>Corrente: richiesta o successiva </p>
-
-
-</td> 
+   <p>Collaboratore o versione successiva</p>
+   <p>Richiedi o superiore </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Visualizza accesso ai documenti</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Visualizza accesso ai documenti</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Accesso di visualizzazione al documento</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Accesso di visualizzazione al documento</p></td> 
   </tr> 
  </tbody> 
 </table>

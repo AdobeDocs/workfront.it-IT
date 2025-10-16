@@ -7,9 +7,9 @@ description: I blueprint forniscono elementi di base per aiutarti a creare un si
 author: Becky, Lisa
 feature: System Setup and Administration, Work Management
 exl-id: 932072e4-4d52-4b4b-a045-0cd38cb882d3
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
@@ -24,27 +24,23 @@ Solo l’amministratore di sistema può installare i blueprint. Per informazioni
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
-   <td>Qualsiasi</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
+   <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
-   <td>
-   <p>Nuovo: Collaboratore o versione successiva</p>
-   <p>oppure</p>
-   <p>Corrente: richiesta o successiva</p></td> 
-  </tr>
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td><p>Collaboratore o versione successiva</p><p>Richiedente o versione successiva</p>
+  </td> 
+  </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

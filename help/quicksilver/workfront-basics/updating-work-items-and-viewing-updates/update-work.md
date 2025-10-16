@@ -6,9 +6,9 @@ description: Puoi aggiungere un aggiornamento a un oggetto Adobe Workfront (prog
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: c06f25de917474ffae9a7de3a00033fdf9c84b58
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '3234'
+source-wordcount: '3201'
 ht-degree: 0%
 
 ---
@@ -70,8 +70,6 @@ Per ulteriori informazioni sul commento su schede, obiettivi e record in Workfro
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -79,15 +77,21 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>piano Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Pacchetto Adobe Workfront</strong></td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licenza Adobe Workfront*</strong></td> 
-   <td> 
-   <p>Nuovo: Collaboratore o versione successiva per problemi e documenti: chiaro o versione successiva per tutti gli altri oggetti</p>
-   <p>Corrente: richiesta o successiva per problemi e documenti; revisione o successiva per tutti gli altri oggetti</p>
-   </td> 
+   <td role="rowheader"><strong>Licenza Adobe Workfront</strong></td> 
+   <td> <p>Per problemi e documenti:</p>
+
+<ul><li><p>Collaboratore o versione successiva</p></li>
+   <li><p>Richiedi o superiore</p></li></ul>
+
+<p>Per tutti gli altri oggetti:</p>
+   <ul><li><p>Chiaro o superiore</p></li>
+   <li><p>Revisione o successiva</p></li></ul>
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurazioni del livello di accesso</strong></td> 
@@ -100,9 +104,39 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td> 
+   <p>New: Contributor or higher for issues and documents: Light or higher for all other objects</p>
+   <p>Current: Request or higher for issues and documents; Review or higher for all other objects</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
+   <td> <p>View or Edit access for the object the update is on</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
+   <td> <p>View access to the object</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
 
 ## Considerazioni sul commento di oggetti
 
@@ -251,7 +285,7 @@ La scheda **Commenti** è selezionata per impostazione predefinita.
 
 1. (Facoltativo) Per annullare o ripristinare una modifica, utilizzare i seguenti tasti di scelta rapida:
    * CTRL + Z (⌘+z per Mac) per annullare una modifica
-   * CTRL+Y (⌘+y per Mac) per ripetere una modifica
+   * CTRL + Y (⌘+y per Mac) per ripetere una modifica
 
 1. <span class="preview">(Facoltativo) Nell&#39;area **Assegna tag a persone o team**, inizia a digitare il nome o l&#39;indirizzo e-mail di un utente o di un team da includere nel commento oppure selezionalo quando viene visualizzato nell&#39;elenco. </span>
 1. (Facoltativo) Utilizza le opzioni nella barra degli strumenti Testo formattato per formattare il testo, aggiungere emoticon, collegamenti o immagini all’aggiornamento, per migliorare i contenuti. Per ulteriori informazioni, vedere la sezione [Utilizzare Rich Text in un aggiornamento di Workfront](#use-rich-text-in-a-workfront-update) in questo articolo.
@@ -329,9 +363,9 @@ La scheda **Commenti** è selezionata per impostazione predefinita.
 
    | **Attributo** | **Pulsante Barra degli strumenti** | **Tasti di scelta rapida Mac** | **Tasti di scelta rapida di Windows** |
    |---|---|---|---|
-   | Bold | ![Icona Grassetto](assets/mceclip10.png) | ⌘+b | Ctrl+B |
+   | Grassetto | ![Icona Grassetto](assets/mceclip10.png) | ⌘+b | Ctrl+B |
    | Corsivo | ![Icona Corsivo](assets/mceclip9.png) | ⌘+i | CTRL+I |
-   | Sottolinea | ![Icona sottolineatura](assets/mceclip8.png) | ⌘+u | Ctrl+U |
+   | Sottolineato | ![Icona sottolineatura](assets/mceclip8.png) | ⌘+u | Ctrl+U |
    | Collegamento ipertestuale | ![Icona collegamento ipertestuale](assets/mceclip7.png) | <br>Per aprire la casella Aggiungi collegamenti: ⌘+K</br> <br>Per incollare un collegamento sul testo selezionato: ⌘+V</br> | <br>Per aprire la casella Aggiungi collegamenti: CTRL+K</br> <br>Per incollare un collegamento sul testo selezionato: Ctrl+V</br> |
    | Elenco puntato | ![Icona elenco puntato](assets/mceclip6.png) | ⌘+Maiusc+8 | Ctrl+Maiusc+8 |
    | Elenco numerato | ![Icona elenco numerato](assets/mceclip5.png) | ⌘+Maiusc+7 | Ctrl+Maiusc+7 |

@@ -6,10 +6,10 @@ description: Quando visualizzi una sezione del brano sulla bacheca Kanban, alcun
 author: Lisa
 feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
-source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 0%
+source-wordcount: '396'
+ht-degree: 2%
 
 ---
 
@@ -73,8 +73,6 @@ Quando si visualizza un riquadro storia sulla bacheca [!UICONTROL Kanban], sono 
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -82,14 +80,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
-   <td> <p>Nuovo: [!UICONTROL Standard]</p> 
-   oppure
-   <p>Corrente: [!UICONTROL Work] o versione successiva</p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p>Standard</p> 
+   <p>Lavoro o superiore</p> </td> 
   </tr>
  </tbody> 
 </table>

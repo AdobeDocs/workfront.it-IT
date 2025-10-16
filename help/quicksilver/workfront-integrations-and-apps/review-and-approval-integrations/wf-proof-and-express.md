@@ -8,9 +8,9 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: dce2d9413b3a363d6508cabec0147c260817ed98
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Utilizzare Workfront Proof con Adobe Express per
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> 
    <p>Qualsiasi</p> 
    </td> 
@@ -51,15 +51,14 @@ Utilizzare Workfront Proof con Adobe Express per
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Prodotto</td> 
+   <td role="rowheader">Prodotti aggiuntivi</td> 
    <td> 
    <p> Devi disporre di Adobe Express e devi essere aggiunto al prodotto come utente in Admin Console. </p> </td> 
   </tr>
-
-</tbody> 
+ </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -90,7 +89,7 @@ Quando viene eseguito il remixaggio di un modello Express, prima di pubblicarlo 
 
 Per richiedere l’approvazione da Adobe Express, gli utenti devono disporre di una licenza Workfront standard.
 
-Scopri come [ottenere l&#39;approvazione per le progettazioni](https://helpx.adobe.com/it/express/web/share-and-publish/share-and-collaborate/request-approval.html).
+Scopri come [ottenere l&#39;approvazione per le progettazioni](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Remixare i modelli Express e inviarli per revisione e approvazione

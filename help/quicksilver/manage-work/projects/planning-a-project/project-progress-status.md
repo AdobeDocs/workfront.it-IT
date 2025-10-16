@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: Panoramica sullo stato di avanzamento del progetto
+title: Panoramica dello stato di avanzamento del progetto
 description: Adobe Workfront determina lo stato di avanzamento di un progetto osservando l’avanzamento del progetto lungo la relativa sequenza temporale. È possibile configurare Workfront per determinare la condizione di un progetto in base al valore dello stato di avanzamento delle attività. Ulteriori informazioni sullo stato di avanzamento del progetto in questo articolo .
 author: Alina
 feature: Work Management
 exl-id: 922ca4cf-c526-4704-9966-de67b0c36a2a
-source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 1%

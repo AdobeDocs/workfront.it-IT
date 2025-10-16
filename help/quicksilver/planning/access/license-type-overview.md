@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -46,22 +46,24 @@ Quando si utilizzano le autorizzazioni per il tipo di record, tenere presente qu
 * Gli utenti non possono disporre di autorizzazioni maggiori per un tipo di record rispetto a quelle disponibili per l’area di lavoro a cui appartiene il tipo di record.
 * Se si rimuovono le autorizzazioni degli utenti per un tipo di record, non viene rimosso il loro accesso di visualizzazione a tutti i tipi di record nell’area di lavoro, in quanto questo non rimuove le loro autorizzazioni per l’area di lavoro.
 
-| Tipo di licenza Adobe Workfront* | Autorizzazioni massime consentite in Adobe Workfront Planning |
+| Tipo di licenza Adobe Workfront | Autorizzazioni massime consentite in Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Standard | <p>Gli utenti possono gestire aree di lavoro, tipi di record e visualizzazioni. Possono creare, modificare o eliminare aree di lavoro, tipi di record, record, campi e visualizzazioni.</p> <br> <p>Gli amministratori di sistema dispongono delle autorizzazioni di gestione per tutte le aree di lavoro, incluse quelle che non hanno creato.</p> |
 | Light o Collaboratore | <p>Gli utenti possono visualizzare le aree di lavoro condivise, nonché i tipi di record, i record e i campi di tali aree di lavoro.</p> <br> <p>Gli utenti possono visualizzare le visualizzazioni condivise con loro, ma non possono crearne di proprie. </p><br> <p>Gli utenti non possono creare, modificare o eliminare aree di lavoro, tipi di record, record o campi.</p> |
 
-*Workfront Planning non è disponibile per le licenze Workfront legacy.
-Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+<!--Old: 
+*Workfront Planning is not available for legacy Workfront licenses. 
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 
 ### Tipi di licenza e autorizzazioni per aree di lavoro e tipi di record
 
 Solo gli utenti con una licenza Standard possono disporre delle autorizzazioni Contribute o Manage per aree di lavoro e tipi di record. Anche le autorizzazioni Contribute e Manage per le aree di lavoro e i tipi di record vengono trasferite a record e campi.
 
+Gli amministratori di sistema possono visualizzare tutte le aree di lavoro del sistema, incluse quelle che non hanno creato.
+
 Gli utenti con tutti gli altri tipi di licenza possono disporre delle autorizzazioni di visualizzazione per le aree di lavoro e i tipi di record condivisi con loro, nonché per i relativi record e campi.
 
-Gli amministratori di sistema possono visualizzare tutte le aree di lavoro del sistema, incluse quelle che non hanno creato.
 
 >[!INFO]
 >
@@ -76,7 +78,11 @@ Gli amministratori di sistema possono visualizzare tutte le aree di lavoro del s
 
 ### Tipi di licenza e autorizzazioni per le visualizzazioni
 
-Solo gli utenti con una licenza Standard possono disporre delle autorizzazioni di gestione per le visualizzazioni. Gli utenti con tutti gli altri tipi di licenza possono disporre delle autorizzazioni di visualizzazione per le visualizzazioni condivise con loro.
+Solo gli utenti con una licenza Standard possono disporre delle autorizzazioni di gestione per le visualizzazioni.
+
+Gli amministratori di sistema non possono accedere alle viste che non hanno creato. Devono essere condivisi con loro.
+
+Gli utenti con tutti gli altri tipi di licenza possono disporre delle autorizzazioni di visualizzazione per le visualizzazioni condivise con loro.
 
 >[!INFO]
 >

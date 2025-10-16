@@ -7,9 +7,9 @@ description: Gli stati obiettivo indicano se un obiettivo è attivo e sta regist
 author: Alina
 feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '793'
 ht-degree: 4%
 
 ---
@@ -18,32 +18,42 @@ ht-degree: 4%
 
 <!--Audited: 4/2025-->
 
+>[!NOTE]
+>
+>La tua azienda potrebbe scegliere di continuare a utilizzare gli obiettivi di Adobe Workfront se ha acquistato questo pacchetto in passato. Per ulteriori dettagli, rivolgiti al rappresentante del tuo account.
+>
+>Adobe Workfront Goals non è più disponibile per l’acquisto.
+>
+>Per ulteriori informazioni sull&#39;accesso agli obiettivi di Workfront, vedere [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+<!--Old:
+
 >[!IMPORTANT]
 >
->Per utilizzare le funzionalità descritte in questo articolo, l’organizzazione deve disporre dei seguenti elementi:
+>Your organization must have the following to use the functionality described in this article:
 >
->* Per il nuovo piano e la nuova struttura delle licenze:
+>* For the new plan and license structure:
 >
->   * Il piano Ultimate Workfront
+>   * The Ultimate Workfront plan 
 >    
->* Per il piano corrente e la struttura delle licenze:
+>* For the current plan and license structure: 
 >
->   * Un piano Workfront Pro o superiore
->   * Una licenza Adobe Workfront Goals oltre a una licenza Workfront.
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
->Contatta il tuo account manager Workfront per saperne di più su una licenza Workfront Goals.
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->Per ulteriori informazioni sull&#39;accesso agli obiettivi di Workfront, vedere [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
 
 ## Considerazione durante l’aggiornamento degli stati degli obiettivi in Obiettivi di Workfront
 
 * Non puoi aggiornare manualmente lo stato degli obiettivi che hai creato o che sono stati condivisi con te. Lo stato degli obiettivi viene aggiornato in base alle azioni eseguite sull’obiettivo. Ad esempio, l&#39;attivazione di un obiettivo modifica lo stato Bozza in Attivo.
 * Esistono alcune restrizioni e a volte non è possibile modificare lo stato di un obiettivo in un altro stato, in base alle seguenti regole:
 
-  | Da/A | Bozza | Attiva | Inattiva | Chiuso |
+  | Da/A | Bozza | Attivo | Inattiva | Chiuso |
   |---|---|---|---|---|
   | Bozza | - | Sì | No | No |
-  | Attiva | No | - | Sì | Sì |
+  | Attivo | No | - | Sì | Sì |
   | Inattiva | No | Sì | - | No |
   | Chiuso | No | Sì | No | - |
 
@@ -85,7 +95,7 @@ Gli obiettivi possono avere uno dei seguenti stati in Obiettivi Workfront:
 >
 >Dopo aver modificato lo stato di un obiettivo in qualsiasi altro stato, l’obiettivo non può più essere posizionato in stato Bozza.
 
-### Attiva {#active}
+### Attivo {#active}
 
 * È possibile attivare un obiettivo abbozzato solo quando lo si associa a un risultato, a un&#39;attività o vi si allinea un altro obiettivo. L’attivazione dell’obiettivo ne modifica lo stato in Attivo. Per informazioni sull&#39;attivazione degli obiettivi, vedere [Attivare gli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/activate-goals.md).
 * Obiettivi Workfront registra l’avanzamento degli obiettivi attivi.

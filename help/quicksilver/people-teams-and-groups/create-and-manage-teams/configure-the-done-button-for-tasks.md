@@ -6,10 +6,10 @@ description: Il pulsante Done (Fine) può impostare automaticamente lo stato di 
 author: Lisa
 feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 1%
+source-wordcount: '759'
+ht-degree: 2%
 
 ---
 
@@ -33,23 +33,20 @@ Gli utenti con determinate autorizzazioni possono configurare il pulsante [!UICO
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>piano Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p>Pacchetto Adobe Workfront</p> </td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td>
-   <p>Nuovo: Standard</p>
-   <p>oppure</p>
-   <p>Corrente: Piano</p></td>
-  </tr> 
+   <p>Standard</p>
+   <p>Piano</p></td>
+  </tr>  
  </tbody> 
 </table>
 
@@ -89,7 +86,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    >   * [!UICONTROL Richiesta di Modifica]
    >   * [!UICONTROL Segnalazione Bug]
 
-   Se l&#39;attività o il problema è assegnato a più utenti, nel menu a discesa viene visualizzata l&#39;opzione &quot;[!UICONTROL Fine con la parte &#x200B;]&quot;, oltre ai diversi stati scelti per il team.
+   Se l&#39;attività o il problema è assegnato a più utenti, nel menu a discesa viene visualizzata l&#39;opzione &quot;[!UICONTROL Fine con la parte ]&quot;, oltre ai diversi stati scelti per il team.
 
 1. Fai clic su **[!UICONTROL Salva modifiche]**.
 
@@ -99,7 +96,7 @@ Per rendere visibili agli utenti le modifiche apportate alla funzionalità del p
 
 Per associare utenti a un team predefinito:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront].
+1. Fai clic sull&#39;icona **[!UICONTROL del]** menu principale![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront].
 
 1. Fare clic su **[!UICONTROL Utenti]**, quindi selezionare l&#39;utente o gli utenti che si desidera associare a un team predefinito.
 1. Fai clic sul menu **[!UICONTROL Altro]**, quindi fai clic su **[!UICONTROL Modifica]**.\

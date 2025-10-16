@@ -6,10 +6,10 @@ description: Dopo aver collegato una risorsa da Experience Manager Assets Essent
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abd641a1-081b-4b86-95ee-f0ed030d704c
-source-git-commit: 5d818b2e3c3314c6af076df46f7f806214f97bab
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 1%
+source-wordcount: '441'
+ht-degree: 2%
 
 ---
 
@@ -23,36 +23,32 @@ Dopo aver collegato una risorsa da Experience Manager Assets Essentials, puoi cr
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Devi avere i seguenti:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p> Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenze Adobe Workfront</td> 
    <td> 
-   <p>Nuovo: Standard</p>
-   <p>Oppure</p>
-   <p>Corrente: Lavoro o versione successiva</p>
-   <p>È necessario che la verifica sia abilitata per l'utente.</p>
+   <p>Standard</p>
+   <p>Lavoro o superiore</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Prodotto</td> 
+   <td role="rowheader">Prodotti aggiuntivi</td> 
    <td>Devi disporre di Experience Manager as a Cloud Service o Assets Essentials e devi essere aggiunto al prodotto come utente in Admin Console. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai documenti</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Modifica accesso ai documenti</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Accesso di visualizzazione o versione successiva</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Accesso di visualizzazione o versione successiva</p>  </td> 
   </tr> 
  </tbody> 
 </table>

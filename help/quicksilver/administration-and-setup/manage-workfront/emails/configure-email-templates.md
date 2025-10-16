@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '808'
 ht-degree: 3%
 
 ---
@@ -32,21 +32,18 @@ I modelli e-mail possono essere associati a notifiche di promemoria per problemi
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td><p>Nuovo: Standard</p>
-   Oppure
-   <p>Corrente: Piano</p>
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td><p>Standard</p>
+   <p>Piano</p>
    </td> 
   </tr> 
   <tr> 
@@ -56,7 +53,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-*Per ulteriori informazioni sui requisiti di accesso, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -81,7 +78,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       <td>Aggiungi un titolo per il modello e-mail. Questo è un campo obbligatorio.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Tipo oggetto</td> 
+      <td role="rowheader">Tipo di oggetto</td> 
       <td>Specificare il tipo di oggetto a cui si desidera associare il modello. Scegli uno dei seguenti oggetti:
       <ul>
       <li>Progetto</li>
@@ -102,7 +99,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      </tr> 
      <tr> 
       <td role="rowheader">Corpo </td> 
-      <td> <p>Aggiungi il testo per il contenuto del messaggio e-mail.</p> <p>È possibile utilizzare la formattazione HTML per il contenuto delle e-mail, come descritto nella sezione <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Aggiungere la formattazione HTML a un modello e-mail</a> in questo articolo.</p> </td> 
+      <td> <p>Aggiungi il testo per il contenuto del messaggio e-mail.</p> <p>È possibile utilizzare la formattazione di HTML per il contenuto delle e-mail, come descritto nella sezione <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Aggiungere la formattazione di HTML a un modello di e-mail</a> in questo articolo.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -111,14 +108,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Aggiungere formattazione HTML a un modello e-mail {#add-html-formatting-to-an-email-template}
 
-Per generare notifiche personalizzate, puoi aggiungere HTML ai modelli e-mail.\
+Per generare notifiche personalizzate, puoi aggiungere tag HTML ai modelli e-mail.\
 Iniziare a creare il modello di posta elettronica come descritto in [Creare un nuovo modello di posta elettronica](#create-a-new-email-template).
 
-La formattazione HTML può arricchire i modelli e-mail, come illustrato nelle sezioni seguenti.
+La formattazione di HTML può arricchire i modelli e-mail, come illustrato nelle sezioni seguenti.
 
 * [Collega a oggetti di Workfront](#link-to-workfront-objects)
 * [Collegamento a campi personalizzati con HTML](#link-to-custom-fields-with-html)
-* [Esempi di e-mail su HTML](#html-email-examples)
+* [Esempi e-mail HTML](#html-email-examples)
 
 ### Collegamento a oggetti Workfront {#link-to-workfront-objects}
 
@@ -158,7 +155,7 @@ Il valore `heading` può essere il nome dell&#39;oggetto, come si desidera che v
 
 È possibile includere collegamenti a utenti e campi personalizzati utilizzando il carattere jolly `$$` per indicare al generatore di e-mail di cercare i valori dal database associato all&#39;oggetto. Devono essere presenti su entrambi i lati del riferimento dell’attributo del database.
 
-Se ad esempio si aggiunge come HTML il testo seguente, il nome dell&#39;utente assegnato verrà aggiunto alla notifica di promemoria associata a un&#39;attività:
+Se ad esempio si aggiunge il testo seguente come HTML, il nome dell&#39;utente assegnato verrà aggiunto alla notifica di promemoria associata a un&#39;attività:
 
 `assignedTo:firstName`
 
@@ -202,7 +199,7 @@ Sostituisci `<your domain>` con il dominio Workfront della tua azienda, senza le
 >
 >`DE:Project:Delivery Date`
 
-### Esempi di e-mail su HTML {#html-email-examples}
+### Esempi e-mail HTML {#html-email-examples}
 
 * [Notifica promemoria progetto in ritardo (esempio)](#late-project-reminder-notification-example)
 * [Promemoria Attività o Problema in procinto di iniziare (esempio)](#task-or-issue-about-to-start-reminder-example)

@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: Preventivare le risorse nel Business Case utilizzando la Programmazione delle risorse
 description: Come parte della pianificazione delle risorse, è possibile utilizzare la Pianificazione risorse a livello di progetto per preventivare i ruoli necessari per il completamento del lavoro in un progetto quando si crea il caso di business.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -35,19 +35,17 @@ Puoi anche preventivare le risorse nel caso di business utilizzando Adobe Workfr
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Piano Adobe Workfront*</p></td> 
-   <td> <p>Corrente: Prime o versione successiva</p>
-   <p>Legacy: Pro o superiore</p> 
+   <td role="rowheader"><p>piano Adobe Workfront</p></td> 
+   <td> <p>Prime o versione successiva</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront*</p></td> 
-   <td> <p>Corrente: Light o superiore</p>
-   <p>Legacy: revisione o superiore</p>
+   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td> <p>Chiaro o superiore</p>
+   <p>Revisione o successiva</p>
 
 <p><b>IMPORTANTE:</b></p> 
-   <p>Corrente: è necessario disporre di una licenza Standard per modificare le informazioni di budgeting delle risorse. </p> 
-   <p>Legacy: è necessario disporre di una licenza Pianificazione per modificare le informazioni di budgeting delle risorse. </p>
+   <p>È necessario disporre di una licenza Standard o Pianificazione per modificare le informazioni di budgeting delle risorse. </p> 
    </td> 
   </tr> 
   <tr> 
@@ -66,7 +64,7 @@ Puoi anche preventivare le risorse nel caso di business utilizzando Adobe Workfr
  </tbody> 
 </table>
 
-*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -7,9 +7,9 @@ description: Prima di poter accedere agli obiettivi di Adobe Workfront Adobe Wor
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: dacfd8ef7475b197ac6ce5dd598c99df97037479
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -20,21 +20,28 @@ ht-degree: 0%
 
 Prima di poter accedere agli obiettivi di Adobe Workfront Adobe Workfront, l’amministratore deve verificare che siano soddisfatte tutte le seguenti condizioni:
 
-* La tua organizzazione deve acquistare la licenza corretta per gli obiettivi Workfront. Per informazioni, vedere la sezione [Ottenere l&#39;accesso all&#39;organizzazione per gli obiettivi di Workfront](#obtain-workfront-goals-organization-access) in questo articolo.
+* La tua organizzazione ha acquistato in passato un pacchetto Adobe Workfront Goals. Adobe Workfront Goals non è più disponibile per l’acquisto.
+
+  Per ulteriori informazioni, vedere la sezione [Ottenere l&#39;accesso all&#39;organizzazione per gli obiettivi di Workfront](#obtain-workfront-goals-organization-access) in questo articolo.
 
 * Assegnare il tipo corretto di licenza Workfront. Per informazioni sull&#39;assegnazione dei tipi di licenza e dei livelli di accesso, vedere la sezione [Aggiornare i tipi di licenza e le impostazioni dei livelli di accesso](#update-license-types-and-access-level-settings) in questo articolo.
 
->[!NOTE]
->
->Gli utenti con un tipo di licenza External non possono accedere agli obiettivi di Workfront.
+  >[!NOTE]
+  >
+  >Gli utenti con un tipo di licenza External non possono accedere agli obiettivi di Workfront.
 
 * Ti consente di accedere agli Obiettivi nel tuo livello di accesso. Per informazioni, consulta [Concedere l&#39;accesso agli obiettivi di Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+
+  >[!NOTE]
+  >
+  >Per impostazione predefinita, gli utenti non hanno accesso agli obiettivi nel loro livello di accesso.
+
 
 * Assegnate un modello di layout che includa l&#39;area Obiettivi nel menu principale.
 
   >[!NOTE]
   >
-  >A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l’area Obiettivi nel menu principale.
+  >A tutti gli utenti, inclusi gli amministratori di sistema, deve essere assegnato un modello di layout che includa l&#39;area Obiettivi nel menu principale.
 
   Per informazioni, vedere la sezione [Aggiungere obiettivi Workfront a un modello di layout](#add-workfront-goals-to-a-layout-template) in questo articolo.
 
@@ -44,35 +51,50 @@ Prima di poter accedere agli obiettivi di Adobe Workfront Adobe Workfront, l’a
 
 ## Ottenere l’accesso all’organizzazione Workfront Goals {#obtain-workfront-goals-organization-access}
 
+L’ultimo pacchetto Adobe Workfront che includeva gli Obiettivi di Workfront era Adobe Workfront Ultimate.
+Workfront Goals non è più disponibile per l’acquisto di pacchetti più recenti.
+Rivolgiti al rappresentante del tuo account per informazioni sugli obiettivi di Workfront.
 
-A seconda del piano Workfront su cui si trova attualmente la società, esistono i seguenti scenari:
+<!--Old: >
+Depending on which Workfront plan your company is currently on, the following scenarios exist: 
 
-* **Un nuovo piano Workfront**: è necessario disporre di un piano Ultimate Workfront. Gli obiettivi Workfront sono inclusi solo in questo piano.
+* **A new Workfront plan**: You must have an Ultimate Workfront plan. Workfront Goals are included only in this plan. 
 
-* **Piano Workfront corrente**: l&#39;organizzazione deve acquistare una licenza aggiuntiva, oltre alla licenza Workfront.
+* **A current Workfront plan**: Your organization must purchase an additional license, in addition to the Workfront license.
 
-  Dopo che la tua organizzazione ha acquistato la licenza aggiuntiva, Workfront abilita Workfront Goals per il tuo account. Per informazioni sull&#39;acquisto di una licenza per Workfront Goals, contattare l&#39;account manager Workfront.
+  After your organization purchases the additional license, Workfront enables Workfront Goals for your account. For information about purchasing a license for Workfront Goals contact your Workfront account manager.
 
-Per informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 ## Aggiornare i tipi di licenza e le impostazioni del livello di accesso  {#update-license-types-and-access-level-settings}
 
-A seconda del piano Workfront su cui si trova attualmente la società, esistono i seguenti scenari:
+Se la società ha accesso agli obiettivi di Workfront da un acquisto precedente, l’amministratore Workfront deve concederti quanto segue per accedere agli obiettivi di Workfront:
 
-* **Nuovo modello del livello di accesso**: l&#39;amministratore di Workfront deve concedere all&#39;utente uno dei seguenti tipi di licenza Workfront per accedere agli obiettivi di Workfront:
+1. Una delle seguenti licenze:
 
-   * Collaboratore
-   * Light
-   * Standard
+   * Collaboratore o versione successiva
+   * Richiedi o superiore
 
-* **Modello del livello di accesso corrente**: l&#39;amministratore di Workfront deve concedere all&#39;utente uno dei seguenti tipi di licenza Workfront per accedere agli obiettivi di Workfront:
+<!--Old: 
+* **The new access level model**: Your Workfront administrator must grant you one of the following Workfront license types to access Workfront Goals: 
 
-   * Piano
-   * Lavoro
-   * Revisiona
-   * Richiesta
+  * Contributor
+  * Light
+  * Standard
 
-Dopo che l’amministratore di Workfront ti ha concesso uno di questi tipi di licenza, devi anche darti accesso agli Obiettivi nel tuo livello di accesso. Per informazioni sull&#39;accesso agli obiettivi, vedere [Concedere l&#39;accesso agli obiettivi di Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+* **The current access level model**: Your Workfront administrator must grant you one of the following Workfront license types to access Workfront Goals:
+
+  * Plan
+  * Work 
+  * Review
+  * Request
+-->
+
+1. Il seguente livello di accesso:
+
+   * Visualizzare o accedere più facilmente agli Obiettivi nel proprio livello di accesso.
+
+   Per informazioni sull&#39;accesso agli obiettivi, vedere [Concedere l&#39;accesso agli obiettivi di Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 In qualità di amministratore di Workfront, puoi rivedere il numero di licenze Workfront Goals nel tuo sistema e capire quante sono attualmente abilitate. Per ulteriori informazioni, consulta [Gestire le licenze disponibili nel sistema](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 

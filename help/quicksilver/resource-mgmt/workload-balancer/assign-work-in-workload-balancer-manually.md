@@ -7,9 +7,9 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: d93bdaec834f5a66e663c7edc7d9ffa42ffa5918
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '747'
 ht-degree: 1%
 
 ---
@@ -26,25 +26,21 @@ Per informazioni generali sull&#39;assegnazione del lavoro agli utenti che utili
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td> <p>Qualsiasi </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td><p>Nuovo: Standard</p>
-       <p>oppure</p>
-       <p>Corrente: piano, quando si utilizza il Bilanciatore dei carichi di lavoro nell'area Risorse;</br>
-       Utilizzare il Bilanciatore dei carichi di lavoro di un team o di un progetto</p></td>
+   <td>Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td>Licenza Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Pianificare, quando si utilizza il Bilanciatore dei carichi di lavoro nell'area Risorse; lavorare, quando si utilizza il Bilanciatore dei carichi di lavoro di un team o progetto</p></td>
+  </tr>
+  <tr> 
+   <td>Configurazioni del livello di accesso</td> 
    <td> <p>Modifica accesso a:</p> 
     <ul> 
      <li>Gestione risorse</li> 
@@ -55,13 +51,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni oggetto</td> 
    <td>Autorizzazioni di Contribute o superiori per i progetti, le attività e i problemi che includono Assegnazioni</td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

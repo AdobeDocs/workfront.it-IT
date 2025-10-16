@@ -7,10 +7,10 @@ description: La Pianificazione scenario richiede una licenza separata oltre alla
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: ba3b3525-cba8-44fe-856d-8ba50cd3b524
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 5%
+source-wordcount: '514'
+ht-degree: 6%
 
 ---
 
@@ -19,13 +19,6 @@ ht-degree: 5%
 <!-- Audited: 1/2024 -->
 
 Lo scopo della [!DNL Workfront Scenario Planner] è velocizzare l’esecuzione dei tuoi piani a livello di organizzazione e aiutarti a prendere decisioni cruciali che stimolano la realizzazione di risultati prevedibili e desiderati per la tua azienda.
-
-Per accedere a [!DNL Workfront Scenario Planner] è necessario disporre del seguente piano [!DNL Workfront]:
-
-* Per il nuovo piano Workfront: un piano [!UICONTROL Ultimate].
-* Per il piano [!DNL Workfront] corrente: è necessario disporre di un piano Business o superiore, oltre all&#39;acquisto di una licenza [!DNL Scenario Planner].
-
-Per ulteriori informazioni sull&#39;accesso necessario per utilizzare [!DNL Workfront Scenario Planner], vedere [Accesso necessario per utilizzare  [!DNL Scenario Planner]](access-needed-to-use-sp.md).
 
 ## Panoramica di [!DNL Scenario Planner]
 
@@ -75,7 +68,7 @@ La funzionalità seguente è attualmente inclusa in [!DNL Workfront Scenario Pla
 
   Per informazioni sull&#39;importazione di progetti in un piano, vedere [Importare progetti in piani in [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 
-* Publish uno scenario per creare o aggiornare progetti collegati alle iniziative nello scenario
+* Pubblica uno scenario per creare o aggiornare i progetti collegati alle iniziative nello scenario
 
   Per informazioni sugli scenari di pubblicazione, vedere [Aggiornare o creare progetti pubblicando iniziative in [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 

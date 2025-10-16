@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a2a39746-331b-41d6-8c3c-e6a1eb68b43a
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 7eaff1c74cd880bde062e6fdf169c73d6eeb7f75
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -33,30 +33,27 @@ Per informazioni sull&#39;utilizzo delle pianificazioni nella pianificazione del
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td>Qualsiasi</td> 
+   <td>Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td>
-   <td><p>Nuovo: Standard</p>
-       <p>Oppure</p>
-       <p>Corrente: Piano</p></td>
+   <td>Licenza Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Piano</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td>Configurazioni del livello di accesso</td> 
    <td>Devi essere un amministratore di gruppo del gruppo o un amministratore di sistema.</td>
   </tr>
-  </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

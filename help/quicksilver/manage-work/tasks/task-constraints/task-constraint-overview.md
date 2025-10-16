@@ -7,7 +7,7 @@ description: I vincoli dell'attività determinano quando un'attività deve inizi
 author: Alina
 feature: Work Management
 exl-id: 91b0844b-95a3-4d18-9fdb-a907dd42e1bf
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 6%

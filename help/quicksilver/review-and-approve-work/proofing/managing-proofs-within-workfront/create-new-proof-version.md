@@ -6,9 +6,9 @@ description: Gestire il feedback tra più versioni o revisioni di un lavoro può
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: daa46f0e2a5f656d048260d4a714ed02f01cdbbf
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -36,21 +36,19 @@ Quando crei una nuova versione di una bozza, considera le seguenti informazioni:
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td> <p>Corrente: Pro o superiore</p> <p>oppure</p> <p>Legacy: Select o Premium</p> <p>Per ulteriori informazioni sulla verifica dell'accesso con i diversi piani, vedere <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accesso alla funzionalità di verifica in Workfront</a>.</p> </td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
+   <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Corrente: Standard</p> 
-   <p>Oppure</p>
-   <p>Legacy: Lavoro o Piano (è necessario che la verifica sia abilitata per l’utente)</p> </td> 
+   <td> <p>Standard</p> 
+   <p>Lavoro o piano</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profilo autorizzazione bozza </td> 
@@ -58,12 +56,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai documenti</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Modifica accesso ai documenti</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -208,7 +206,7 @@ If the creator or owner of&nbsp;&nbsp;the proof has
 
 ## Informazioni sul messaggio Nuova versione
 
-Se nella versione precedente della bozza era incluso un oggetto/messaggio personalizzato, questo verrà visualizzato per impostazione predefinita nella pagina Nuova versione. È possibile:
+Se nella versione precedente della bozza era incluso un oggetto/messaggio personalizzato, questo verrà visualizzato per impostazione predefinita nella pagina Nuova versione. Puoi eseguire le seguenti operazioni:
 
 * Modifica l’oggetto e il messaggio.
 * Deselezionare la casella Notify people by email (Notifica alle persone per posta elettronica), ovvero non verrà inviata alcuna e-mail ai revisori per notificare loro che dispongono di una nuova versione da rivedere.

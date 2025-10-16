@@ -5,9 +5,9 @@ description: Puoi utilizzare il pannello Riepilogo per rivedere e aggiornare le 
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: d7b8d7285d23d14f5390c9de1001de553c2b796f
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '893'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,7 @@ Nella tabella seguente vengono visualizzate le aree in cui è possibile individu
    <td>Attività nelle aree di lavoro [!UICONTROL non assegnato] e [!UICONTROL assegnato] del Bilanciatore dei carichi di lavoro [!UICONTROL assegnato]</td> 
   </tr> 
    <tr> 
-   <td>Attività in una scheda orario </td> 
+   <td>Attività in una scheda orario [!UICONTROL]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><b>Problemi</b></td> 
@@ -71,14 +71,14 @@ Nella tabella seguente vengono visualizzate le aree in cui è possibile individu
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Problemi nell'area [!UICONTROL Assigned Work] (Lavoro assegnato) del Bilanciatore dei carichi di lavoro </td> 
+   <td>Problemi nell'area [!UICONTROL Assigned Work] (Lavoro assegnato) del Bilanciatore dei carichi di lavoro [!UICONTROL]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Problemi nella sezione [!UICONTROL Submitted] dell'area [!UICONTROL Requests]</td> 
   </tr> 
 </tr> 
    <tr> 
-   <td>Problemi in una scheda orario </td> 
+   <td>Problemi in una scheda orario [!UICONTROL]</td> 
   </tr>
 
 <tr data-mc-conditions=""> 
@@ -103,36 +103,6 @@ Per informazioni sull&#39;accesso a [!UICONTROL Summary] nel [!UICONTROL Bilanci
 
 Per informazioni sull&#39;accesso a [!UICONTROL Riepilogo] per i documenti, vedere [[!UICONTROL Riepilogo] per la panoramica dei documenti](../../documents/managing-documents/summary-for-documents.md).
 
-## Requisiti di accesso
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano</strong></td> 
-   <td> <p>Qualsiasi</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>Nuovo: Collaboratore o versione successiva</p>
-   Oppure
-   <p>Corrente:[!UICONTROL Request] o versione successiva</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Configurazione del livello di accesso</strong></td> 
-   <td> <p>Accesso a [!UICONTROL View] o versione successiva ad attività, problemi e documenti</p> <p>Accesso di [!UICONTROL View] o versione successiva a qualsiasi oggetto per il quale si desidera visualizzare i documenti [!UICONTROL Summary]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>[!UICONTROL View] o autorizzazioni superiori per un'attività, un problema o un documento</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-*Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront]. Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Visualizza il pannello [!UICONTROL Riepilogo] in un elenco di attività o problemi
 
@@ -141,7 +111,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    oppure
 
-   Fai clic sull&#39;icona ![](assets/open-summary-with-text-nwe.png) di **[!UICONTROL Apri riepilogo]** nella sezione [!UICONTROL Inviato] dell&#39;area [!UICONTROL Richieste].
+   Fai clic sull&#39;icona **[!UICONTROL di]** Apri riepilogo![](assets/open-summary-with-text-nwe.png) nella sezione [!UICONTROL Inviato] dell&#39;area [!UICONTROL Richieste].
 
    Dopo aver aperto il riepilogo, rimane aperto quando si fa clic su o si selezionano altre attività o problemi e rimane aperto fino a quando non viene chiuso manualmente.
 

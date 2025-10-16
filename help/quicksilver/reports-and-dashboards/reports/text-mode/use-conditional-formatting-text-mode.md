@@ -6,7 +6,7 @@ description: Utilizzare la formattazione condizionale in modalità testo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '1734'
 ht-degree: 1%
@@ -26,28 +26,20 @@ Per ulteriori informazioni sull&#39;applicazione della formattazione condizional
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Devi avere i seguenti:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> 
-      <p>Nuovo:</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Corrente:</p>
-         <ul>
-         <li><p>Piano</p></li>
-         </ul>
-   </td>
+     <p>Standard</p>
+     <p>Piano</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -56,11 +48,11 @@ Devi avere i seguenti:
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
    <td> <p>Gestire le autorizzazioni per un report per modificare le visualizzazioni in un report</p> <p>Gestire le autorizzazioni per una visualizzazione per modificarla</p> </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -228,8 +220,8 @@ Utilizzare le tabelle seguenti per identificare le righe da modificare e i valor
 
 | Font | Riga: ***fontstyle=*** |
 |---|---|
-| Bold | `bold` |
-| Italic | `italic` |
+| Grassetto | `bold` |
+| Corsivo | `italic` |
 
 {style="table-layout:auto"}
 

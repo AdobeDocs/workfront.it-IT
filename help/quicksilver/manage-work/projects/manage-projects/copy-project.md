@@ -7,10 +7,10 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 4%
+source-wordcount: '712'
+ht-degree: 5%
 
 ---
 
@@ -45,42 +45,12 @@ Non è possibile copiare i progetti in blocco.
 >* Rischi
 >* Informazioni impostazione coda
 >* Portfolio e programma
->* Scorecard
+>* Scheda di valutazione
 >* Informazioni predefinite attività (processo di approvazione predefinito attività, Forms personalizzato predefinito attività)
 >
 > Le date delle attività del progetto originale verranno copiate nel nuovo progetto. È necessario modificare la data di inizio o di completamento del progetto (a seconda della modalità di programmazione) per aggiornare le date delle attività. I vincoli relativi alle attività potrebbero impedire la modifica delle date nel progetto.
 
 ## Requisiti di accesso
-
-<!-- drafted for P&P:
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> <p>Adobe Workfront plan*</p> </td> 
-   <td>Any</td> 
-  </tr> 
-  <tr> 
-   <td> <p>Adobe Workfront license*</p> </td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td><strong>Access level configurations*</strong> </td> 
-   <td> <p>Edit access to Projects with ability to Create <span>and Copy</span> projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>View permissions or higher to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
@@ -90,23 +60,20 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>piano Adobe Workfront</p> </td> 
+   <td> <p>Pacchetto Adobe Workfront</p> </td>  
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
    <td> <p>Licenza Adobe Workfront</p> </td> 
-   <td> <p>Nuovo: Standard </p> 
-   <p>Oppure</p>
-   <p>Corrente: Piano </p>
+   <td> <p>Standard</p> 
+   <p>Piano</p>
+      </td> 
+  </tr> 
+     <td>Configurazioni del livello di accesso </td> 
+   <td> <p>Modificare l’accesso ai progetti con la possibilità di creare e copiare progetti</p> </td> 
+  </tr>
 
-</td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>Configurazioni del livello di accesso </td> 
-   <td> <p>Modifica l'accesso ai progetti con la possibilità di creare <span> e copiare </span> progetti</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> <p>Autorizzazioni oggetto </p> </td> 
+<td> <p>Autorizzazioni oggetto </p> </td> 
    <td> <p>Visualizza autorizzazioni o versioni successive per il progetto</p>  </td> 
   </tr> 
  </tbody> 
@@ -115,6 +82,35 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+ 
+ <table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Workfront plan</p> </td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront license</p> </td> 
+   <td> <p>New: Standard </p> 
+   <p>Or</p>
+   <p>Current: Plan </p>
+   
+   </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level configurations </td> 
+   <td> <p>Edit access to Projects with ability to Create <span>and Copy</span> projects</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>View permissions or higher to the project</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Copiare un singolo progetto
 

@@ -6,9 +6,9 @@ description: È possibile aggiungere a un dashboard di Canvas un report di grafi
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 56d0b9281387cc7b35055461e7868c7e4a194f81
+source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1381'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica della versione beta di Canvas Dashboards.<br>
->&#x200B;>In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
+>>In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
 >
 >* Porta la tua chiave per Amazon Web Services
 >* Azure
@@ -31,7 +31,7 @@ Puoi generare e aggiungere un rapporto di grafico a un dashboard di Canvas per v
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -40,7 +40,7 @@ Puoi generare e aggiungere un rapporto di grafico a un dashboard di Canvas per v
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>piano Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
 <p>Qualsiasi </p> 
    </td> 
@@ -48,8 +48,8 @@ Puoi generare e aggiungere un rapporto di grafico a un dashboard di Canvas per v
  <tr> 
    <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
    <td> 
-<p>Corrente: Piano </p> 
-<p>Nuovo: Standard</p> 
+<p>Standard</p> 
+<p>Piano</p> 
    </td> 
    </tr> 
   </tr> 
@@ -123,7 +123,7 @@ Sono disponibili molte opzioni di configurazione per la creazione di un rapporto
 
 1. Segui i passaggi seguenti per configurare la sezione **Filtro**:
 
-   1. Nel pannello a sinistra, fai clic sull&#39;icona **Filtro**![&#x200B; Filtro](assets/filter-icon.png).
+   1. Nel pannello a sinistra, fai clic sull&#39;icona **Filtro**![ Filtro](assets/filter-icon.png).
    1. Selezionare **Modifica filtro**.
    1. Fare clic su **Aggiungi condizione** e quindi specificare il campo in base al quale si desidera filtrare e il modificatore che definisce il tipo di condizione che il campo deve soddisfare.
    1. (Facoltativo) Fai clic su **Aggiungi gruppo di filtri** per aggiungere un altro set di criteri di filtro. L&#39;operatore di default tra i set è AND. Fai clic sull’operatore per modificarlo in O.

@@ -6,9 +6,9 @@ description: È possibile aggiungere qualsiasi attività o problema a una bachec
 author: Lisa
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '585'
 ht-degree: 0%
 
 ---
@@ -25,27 +25,24 @@ ht-degree: 0%
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto">
  <col>
  <col>
  <tbody>
   <tr>
-   <td role="rowheader">[!DNL Adobe Workfront] piano</td>
+   <td role="rowheader">Pacchetto Adobe Workfront</td>
    <td> <p>Qualsiasi</p> </td>
   </tr>
   <tr>
-   <td role="rowheader">[!DNL Adobe Workfront] licenza</td>
+   <td role="rowheader">Licenza Adobe Workfront</td>
    <td>
-   <p>Nuovo: [!UICONTROL Standard]</p> 
-   <p>oppure</p>
-   <p>Corrente: [!UICONTROL Work] o versione successiva</p>
+   <p>Standard</p> 
+   <p>Lavoro o superiore</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader">Autorizzazioni oggetto</td>
-   <td>Autorizzazioni di [!UICONTROL View] o superiori per l'attività o il problema </td>
+   <td>Visualizza o autorizzazioni superiori per l’attività o il problema </td>
   </tr>
  </tbody>
 </table>
@@ -69,7 +66,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Per una bacheca, sono disponibili solo bacheche indipendenti, non bacheche che fanno parte di flussi di lavoro.
 
-1. Fare clic su [!UICONTROL **Aggiungi**].
+1. Fai clic su [!UICONTROL **Aggiungi**].
 
    Per una bacheca: l’attività o il problema viene aggiunto alla bacheca come una scheda. Se alla bacheca sono applicati criteri di colonna per lo stato, la scheda viene aggiunta nella colonna corrispondente al suo stato. In caso contrario, viene visualizzato nella prima colonna a sinistra, esclusa la colonna di acquisizione.
 
@@ -89,7 +86,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Per una bacheca, sono disponibili solo bacheche indipendenti, non bacheche che fanno parte di flussi di lavoro.
 
-1. Fare clic su [!UICONTROL **Aggiungi**].
+1. Fai clic su [!UICONTROL **Aggiungi**].
 
    Per una bacheca: l’attività o il problema viene aggiunto alla bacheca come una scheda. Se alla bacheca sono applicati criteri di colonna per lo stato, la scheda viene aggiunta nella colonna corrispondente al suo stato. In caso contrario, viene visualizzato nella prima colonna a sinistra, esclusa la colonna di acquisizione.
 

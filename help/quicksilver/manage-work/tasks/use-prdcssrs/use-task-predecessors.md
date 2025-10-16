@@ -2,20 +2,20 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: Usa predecessori attività
+title: 'Usa predecessori attività: indice articolo'
 description: I predecessori sono attività da cui dipendono altre attività (denominate attività successori) prima che possano essere completate. Scopri i predecessori in Adobe Workfront nei seguenti articoli.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 56048927-39cd-49a0-b00a-bf145bca90a1
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
 
-# Usa predecessori attività
+# Usa predecessori attività: indice articolo
 
 Questa sezione contiene i seguenti articoli:
 

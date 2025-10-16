@@ -7,10 +7,10 @@ description: Workfront Data Connect consente di utilizzare i dati Workfront dell
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 1%
+source-wordcount: '570'
+ht-degree: 2%
 
 ---
 
@@ -43,35 +43,27 @@ La maggior parte dei prodotti richiede le seguenti informazioni sul data lake pe
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandere per visualizzare i requisiti di accesso. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td><p>Incluso nei seguenti piani:</p>
-    <ul>
-        <li><p>Ultimate</p></li> 
-    </ul>    
-   <!--<p>Can be purchased as an add-on to the following plans:</p> 
-    <ul>
-        <li>Select</li> 
-        <li>Prime</li>
-    </ul>--> 
-    <p>Workfront Data Connect non è disponibile per i piani Workfront legacy.</p> 
-   </td> </td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
+   <td><p>Ultimate</p>
+    <p>Flusso di lavoro Ultimate</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td><p>Piano</p></td> 
+   <td>
+   <p>Standard</p>
+   <p>Piano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Devi essere un amministratore di Workfront.</p></td> 
+   <td> <p>Devi essere un amministratore di Workfront</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -115,5 +107,5 @@ Di seguito sono elencati alcuni strumenti comuni di business intelligence. Per u
 
 Di seguito sono elencati alcuni data warehouse comuni; visita i relativi siti di documentazione per ulteriori informazioni sulla connessione al data lake.
 
-* Database
+* Databricks
 * AWS Redshift

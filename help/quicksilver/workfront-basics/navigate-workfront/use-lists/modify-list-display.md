@@ -5,9 +5,9 @@ description: In [!DNL Adobe Workfront] puoi personalizzare la visualizzazione di
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
@@ -34,32 +34,26 @@ Per informazioni sulla modifica delle informazioni visualizzate nell&#39;elenco,
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> 
-    <p>Nuovo:</p>
-   <ul><li><p>Collaboratore o versione successiva </p></li>
-   </ul>
-
-<p>Corrente:</p>
-   <ul><li><p>Richiedi o superiore</p></li>
-    </ul></td> 
+   <p>Collaboratore o versione successiva </p>
+   <p>Richiedi o superiore</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso [!UICONTROL View] all'area in cui si trova l'elenco</p> <p>Ad esempio, per modificare la visualizzazione di un progetto, è necessario accedere alla visualizzazione  dei progetti.</p></td> 
+   <td> <p>Accesso [!UICONTROL View] all'area in cui si trova l'elenco</p> <p>Ad esempio, per modificare la visualizzazione di un progetto, è necessario accedere alla visualizzazione [!UICONTROL] dei progetti.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
@@ -68,7 +62,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

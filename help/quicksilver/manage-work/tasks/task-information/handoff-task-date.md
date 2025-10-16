@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Panoramica sulla data di handoff dell’attività
+title: Panoramica data handoff attività
 description: La data di handoff è la data in cui un'attività diventa disponibile per il lavoro. In genere, ciò significa che i suoi predecessori si sono risolti e che l’assegnatario dell’attività può iniziare a lavorarci.
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 2%
@@ -68,7 +68,7 @@ Workfront utilizza le seguenti regole per calcolare la Data handoff di un’atti
   Di seguito sono riportati i vincoli obbligatori per le attività:
 
    * Deve ininziare al
-   * Deve Finire al
+   * Deve essere completato il
    * Iniziare non Prima di
    * Iniziare non Dopo di
    * Data Fissa

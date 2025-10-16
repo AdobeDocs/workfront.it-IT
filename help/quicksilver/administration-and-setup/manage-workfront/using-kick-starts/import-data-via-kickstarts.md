@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
+source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '2851'
+source-wordcount: '2828'
 ht-degree: 6%
 
 ---
@@ -34,31 +34,27 @@ Ognuna di queste procedure è descritta nell&#39;ordine appropriato in questo ar
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td>Qualsiasi</td> 
+   <td>Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td>
-   <p> Nuovo: Standard</p>
-   oppure
-   <p>Corrente: Piano</p></td> 
+   <td>Licenza Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Piano</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td>[!UICONTROL Amministratore di sistema]</td> 
+   <td>Configurazioni del livello di accesso</td> 
+   <td>Amministratore di Sistema</td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -104,9 +100,9 @@ Per esportare un modello di Kick-Start:
     </thead> 
     <tbody> 
      <tr> 
-      <td scope="col"> <p>Dashboard</p> <p>Tutte le dashboard condivise pubblicamente nel sistema sono disponibili per l’esportazione. Impossibile esportare dashboard non condivisi a livello di sistema. È possibile selezionare fino a 100 dashboard specifici in una singola esportazione.</p> </td> 
+      <td scope="col"> <p>Dashboard di</p> <p>Tutte le dashboard condivise pubblicamente nel sistema sono disponibili per l’esportazione. Impossibile esportare dashboard non condivisi a livello di sistema. È possibile selezionare fino a 100 dashboard specifici in una singola esportazione.</p> </td> 
       <td scope="col">Esporta come file ZIP</td> 
-      <td scope="col"> <p>Parametro</p> <p>Testo descrittivo</p><p>Opzione Parametro</p> <p>Gruppo di parametri</p> <p>Parametro di Categoria</p> <p>Categoria</p> <p>Rapporto</p> <p>La Sezione della Liguetta Portale</p> <p>Dashboard</p> <p>Preferenze</p> </td> 
+      <td scope="col"> <p>Parametro</p> <p>Testo descrittivo</p><p>Opzione Parametro</p> <p>Gruppo di parametri</p> <p>Parametro di Categoria</p> <p>Categoria</p> <p>Rapporto</p> <p>La Sezione della Liguetta Portale</p> <p>Dashboard di</p> <p>Preferenze</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>Rapporto</p> <p>Tutti i report nel sistema sono disponibili per l'esportazione. Puoi selezionare fino a 100 rapporti specifici in una singola esportazione.</p> <p>Kick-Start non supporta i filtri o i raggruppamenti in modalità testo. Per un’esportazione corretta, i filtri e i raggruppamenti per reporting devono essere commutati in modalità Standard.</p> </td> 
@@ -116,7 +112,7 @@ Per esportare un modello di Kick-Start:
      <tr> 
       <td scope="col"> <p>Approvazione</p> </td> 
       <td scope="col"> <p>Esporta come file Excel</p> </td> 
-      <td scope="col"> <p>Approvatore fase</p> <p>Fase di approv.</p> <p>Approvazione</p> <p>Processo di approvazione</p> <p>Preferenze</p> </td> 
+      <td scope="col"> <p>Approvatore fase</p> <p>Fase di approvazione</p> <p>Approvazione</p> <p>Processo di approvazione</p> <p>Preferenze</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>Dati personalizzati</p> </td> 
@@ -189,9 +185,9 @@ Per esportare un modello di Kick-Start:
       <td> <p> Raggruppamento</p> <p>Preferenze </p> </td> 
      </tr> 
      <tr> 
-      <td>Ora</td> 
+      <td>Hour</td> 
       <td>Esporta come file Excel</td> 
-      <td> <p> Ora</p> <p>Preferenze </p> </td> 
+      <td> <p> Hour</p> <p>Preferenze </p> </td> 
      </tr> 
      <tr> 
       <td>Problema</td> 
@@ -241,9 +237,9 @@ Per esportare un modello di Kick-Start:
       <td> <p> Tipo Rischio</p> <p>Preferenze</p> </td> 
      </tr> 
      <tr> 
-      <td>Scorecard</td> 
+      <td>Scheda di valutazione</td> 
       <td>Esporta come file Excel</td> 
-      <td> <p>Domanda Scorecard</p> <p>Opzione scorecard</p> <p>Scorecard</p> <p>Preferenze </p> </td> 
+      <td> <p>Domanda Scorecard</p> <p>Opzione scorecard</p> <p>Scheda di valutazione</p> <p>Preferenze </p> </td> 
      </tr> 
      <tr> 
       <td>Attività</td> 
@@ -271,9 +267,9 @@ Per esportare un modello di Kick-Start:
       <td> <p> Profilo scheda orario</p> <p>Scheda orario</p> <p>Preferenze </p> </td> 
      </tr> 
      <tr> 
-      <td>Visualizza </td> 
+      <td>Visualizzazione </td> 
       <td> <p>Esporta come file ZIP</p> </td> 
-      <td> <p> Visualizza</p> <p>Preferenze </p> </td> 
+      <td> <p> Visualizzazione</p> <p>Preferenze </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -360,7 +356,7 @@ Ogni riga del foglio corrisponde a un oggetto univoco.
    * Nella colonna **setCategoryID** digitare il GUID del modulo personalizzato esistente in cui si trova il campo personalizzato. Questo campo è obbligatorio per l’importazione di dati personalizzati.
    * Per aggiungere più valori di dati nel campo personalizzato, ad esempio pulsanti di scelta, caselle di controllo o elenchi, utilizzare il delimitatore di dati personalizzato a barre verticali &quot;|&quot; elencato nella scheda Preferenze per separare i valori.
 
-     **Esempio:** Digitare A|D nella colonna DE:Dipartimenti per compilare il reparto A e il reparto D nel modulo personalizzato.
+     **Esempio:** Digitare A|D nella colonna DE:Departments per compilare il reparto A e il reparto D nel modulo personalizzato.
 
      >[!NOTE]
      >
@@ -382,7 +378,7 @@ Ad esempio: 07/10/2022 01:30 o 07/10/2022 1:00 PM.
 
 Se si omette un&#39;ora nella data, Workfront esegue una delle operazioni seguenti:
 
-* Presuppone che l’ora sia le 00:00. Per visualizzare il risultato della data prevista, il fuso orario del sistema deve corrispondere al proprio.
+* Presuppone che l&#39;orario sia 12:00 AM. Per visualizzare il risultato della data prevista, il fuso orario del sistema deve corrispondere al proprio.
 * Se si trova su un oggetto associato a una pianificazione, il tempo si riferisce alla prima volta consentita dalla pianificazione.
 
 >[!NOTE]

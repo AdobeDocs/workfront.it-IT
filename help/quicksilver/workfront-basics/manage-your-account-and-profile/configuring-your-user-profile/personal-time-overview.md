@@ -7,9 +7,9 @@ description: È importante indicare in Adobe Workfront quando si verifica l’as
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: f10b0a4897d6250f0c4decf1fad069c598536a38
+source-git-commit: 95cc394c3e1aa0ee5713e981030a96e27dd1f183
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -38,33 +38,33 @@ Gli strumenti di gestione delle risorse utilizzano anche il proprio tempo libero
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
-   <td>Qualsiasi</td> 
+   <td> Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
-   <td> <p>Nuovo: Standard (per configurare il proprio tempo libero personale)</p>
-        <p>oppure</p>
-        <p>Corrente: Lavoro o versione successiva (per configurare il proprio tempo libero personale)</p> </td>
+   <td>Licenza Adobe Workfront</td> 
+   <td> <p>Per configurare il proprio periodo di inattività personale, è necessario disporre di:</p>
+        <p>Standard (per configurare il proprio tempo libero personale)</p>
+        <p>Lavoro o superiore (per configurare il proprio tempo libero personale)</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td>Accesso a [!UICONTROL Manager] con [!UICONTROL Modifica utente] (per apportare modifiche al calendario di indisponibilità di altri utenti)<br>
-   <strong>NOTA:</strong> se un manager modifica il calendario personale di ferie per un altro utente, tutte le voci vengono visualizzate nel fuso orario dell'utente e non in quello del manager.</td> 
+   <td>Configurazioni del livello di accesso</td> 
+   <td><p>Per apportare modifiche al calendario delle ferie di un altro utente, è necessario essere il manager dell'utente e disporre dell'accesso Modifica utente.</p>
+   <p><strong>NOTA:</strong> se un manager modifica il calendario personale di ferie per un altro utente, tutte le voci vengono visualizzate nel fuso orario dell'utente e non in quello del manager.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Configura indisponibilità personale in [!DNL Workfront]
 

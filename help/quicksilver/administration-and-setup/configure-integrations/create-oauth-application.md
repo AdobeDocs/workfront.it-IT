@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 09f7e854c2df1291feb150d2169fa6ccd5cdb1d6
+source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
 workflow-type: tm+mt
-source-wordcount: '1981'
+source-wordcount: '1960'
 ht-degree: 6%
 
 ---
@@ -33,30 +33,26 @@ Quando si crea un&#39;applicazione [!UICONTROL OAuth2], vengono generati un ID c
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
-   <td> <p>Qualsiasi</p> </td> 
+   <td role="rowheader">Pacchetto Workfront</td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
-   <td><p>Nuovo: [!UICONTROL Standard]</p>
-   Oppure
-   <p>Corrente:[!UICONTROL Plan]</p></td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td><p>Standard</p> <p>Piano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> Devi essere un amministratore [!DNL Workfront]. </td> 
+   <td>Devi essere un amministratore di Workfront. </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -222,7 +218,7 @@ Per istruzioni sulla configurazione e l&#39;utilizzo dell&#39;applicazione OAuth
       <td>Abilita questa opzione affinché, ogni volta che viene utilizzato il token di aggiornamento, ne venga emesso uno nuovo. L’applicazione deve archiviare il nuovo token di aggiornamento dopo ogni aggiornamento.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">Scadenza token di aggiornamento assoluto di </td> 
+      <td role="rowheader">Scadenza token di aggiornamento assoluto di [!UICONTROL]</td> 
       <td> <p>Seleziona il periodo di tempo per il quale desideri che esista un token di aggiornamento prima della scadenza. Quando scade, gli utenti devono accedere di nuovo all’integrazione. Seleziona "[!UICONTROL Nessuna scadenza]" se non desideri che il token di aggiornamento scada.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
@@ -342,10 +338,10 @@ L’ulteriore configurazione e utilizzo dell’applicazione OAuth2 creata richie
 
 ### Autorizzazione con codice di autorizzazione e token di accesso {#authorizing-with-an-authorization-code-and-access-token}
 
-1. ClientApp richiede alcune informazioni da [!DNL Workfront], pertanto invia una richiesta all&#39;endpoint `/authorize` dell&#39;API [!DNL Workfront]. La richiesta include [!UICONTROL response_type] `code`, che indica che la richiesta deve restituire un codice di autorizzazione.
+1. ClientApp richiede alcune informazioni da [!DNL Workfront], pertanto invia una richiesta all&#39;endpoint [!DNL Workfront] dell&#39;API `/authorize`. La richiesta include [!UICONTROL response_type] `code`, che indica che la richiesta deve restituire un codice di autorizzazione.
 1. In questo modo [!DNL Workfront] viene attivato per inviare una richiesta di autenticazione all&#39;utente. L&#39;utente può immettere le proprie credenziali nel prompt, che concede a [!DNL Workfront] l&#39;autorizzazione per comunicare con ClientApp. Se l&#39;utente ha già effettuato l&#39;accesso a [!DNL Workfront], questo passaggio potrebbe essere ignorato.
 1. L&#39;API [!DNL Workfront] invia un codice di autorizzazione a ClientApp.
-1. ClientApp invia le seguenti informazioni in una richiesta all&#39;API `/token` di [!DNL Workfront]   endpoint:
+1. ClientApp invia le seguenti informazioni in una richiesta all&#39;API [!DNL Workfront] di `/token`   endpoint:
 
    * Il codice di autorizzazione inviato a ClientApp nel passaggio 3. Questo identifica l’istanza specifica dell’autorizzazione utente.
    * Segreto client generato durante la configurazione dell&#39;app ClientApp OAuth2 in [!DNL Workfront]. Ciò consente a [!DNL Workfront] di sapere che la richiesta proviene da ClientApp.

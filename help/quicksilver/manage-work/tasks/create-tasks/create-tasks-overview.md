@@ -6,9 +6,9 @@ description: È possibile creare le attività di un progetto solo dopo averlo cr
 author: Alina
 feature: Work Management
 exl-id: 7bd6578e-9288-4793-ba07-a0c126c479b9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '885'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Quando definisci le informazioni predefinite da associare alle attività aggiunt
 * Quando si copiano attività da un progetto a un altro e il progetto di destinazione ha impostazioni predefinite diverse per le attività, le attività copiate mantengono le impostazioni predefinite del progetto originale, a meno che non vengano cancellate durante la copia.
 * Quando si duplica un&#39;attività sullo stesso progetto, i moduli personalizzati e il processo di approvazione vengono trasferiti all&#39;attività duplicata.
 
-  Per informazioni sulla copia e la duplicazione delle attività, vedere [&#128279;](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) [Copiare e duplicare le attività](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Per informazioni sulla copia e la duplicazione delle attività, vedere [Copiare e duplicare le attività](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
 * Quando si sposta l&#39;attività in un altro progetto, le impostazioni predefinite dell&#39;attività vengono salvate nelle attività del progetto originale, indipendentemente dalle impostazioni predefinite dell&#39;attività nel nuovo progetto.
 

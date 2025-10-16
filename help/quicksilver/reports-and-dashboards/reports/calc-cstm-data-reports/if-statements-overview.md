@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Panoramica delle istruzioni IF
 description: È possibile utilizzare istruzioni "IF" nei linguaggi di programmazione generali. In Adobe Workfront, le istruzioni "IF" consentono di confrontare, formattare e stringere insieme campi di dati a scopo di reporting e di dati personalizzati. Inoltre, pensare matematicamente alle istruzioni "IF" porta a una migliore comprensione concettuale, dal momento che le variabili per le espressioni sono comunemente utilizzate.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
-source-git-commit: 23b5ba9564b514e11c1ca9d5cca276238ef11066
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 È possibile utilizzare istruzioni &quot;IF&quot; nei linguaggi di programmazione generali. In Adobe Workfront, le istruzioni &quot;IF&quot; consentono di confrontare, formattare e stringere insieme campi di dati a scopo di reporting e di dati personalizzati. Inoltre, pensare matematicamente alle istruzioni &quot;IF&quot; porta a una migliore comprensione concettuale, dal momento che le variabili per le espressioni sono comunemente utilizzate.
 
-## Recommendations per istruzioni &quot;IF&quot;
+## Raccomandazioni per le istruzioni &quot;IF&quot;
 
 Prima di creare un&#39;istruzione &quot;IF&quot;, considera quanto segue:
 
@@ -57,7 +57,7 @@ Puoi creare istruzioni &quot;IF&quot; in Workfront utilizzando il seguente forma
 
 * **Operatore condizione** = operatore che consente di creare la condizione dell&#39;istruzione &quot;IF&quot;. Ad esempio, &quot;è uguale a&quot; o &quot;è maggiore di&quot; sono operatori di condizione. Per un elenco degli operatori di condizione utilizzabili nelle istruzioni, vedere [Operatori di condizione nelle espressioni personalizzate calcolate](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-* **True**&#x200B;**Expression** = Questa è la variabile &quot;True&quot;, che indica all&#39;equazione quale indicatore visualizzare una volta soddisfatti i criteri della condizione (indicatori true).
+* **True****Expression** = Questa è la variabile &quot;True&quot;, che indica all&#39;equazione quale indicatore visualizzare una volta soddisfatti i criteri della condizione (indicatori true).
 
 * **Espressione falsa** = Variabile &quot;False&quot; che indica all&#39;equazione quale indicatore visualizzare quando i criteri della condizione non sono soddisfatti (indicatori falsi).
 

@@ -4,10 +4,10 @@ content-type: overview
 navigation-topic: delegate-work
 title: Panoramica sul lavoro dei delegati
 description: Quando prevedi di uscire dall'ufficio per un breve periodo di tempo, puoi delegare temporaneamente il tuo lavoro ad altri utenti per evitare che la tua assenza diventi un ostacolo al completamento del lavoro.
-author: Lisa
+author: Becky
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 1%

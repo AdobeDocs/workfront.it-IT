@@ -6,9 +6,9 @@ description: Il dashboard [!UICONTROL bacheche] mostra l'elenco delle bacheche a
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -37,22 +37,19 @@ Per informazioni sulla creazione di una nuova bacheca o sulla modifica di una ba
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> 
-   <p>Nuovo: [!UICONTROL Contributor] o versione successiva</p> 
-   <p>oppure</p>
-   <p>Corrente: [!UICONTROL Request] o versione successiva</p>
+   <p>Collaboratore o versione successiva</p> 
+   <p>Richiedi o superiore</p>
    </td> 
   </tr> 
  </tbody> 

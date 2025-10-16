@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,13 @@ Per eseguire i passaggi descritti in questo articolo e registrare le ore specifi
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Nuovo: Light o superiore per registrare le ore su un'attività o un problema</p>
-   <p>Corrente: Lavoro o superiore per registrare le ore per un’attività o un problema</p> </td> 
+   <td> <p>Spia o superiore per registrare le ore su un'attività o un problema</p>
+   <p>Lavoro o superiore per registrare le ore per un'attività o un problema</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 

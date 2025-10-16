@@ -1,5 +1,5 @@
 ---
-title: Elimina progetti
+title: Cancella Progetti
 product-area: projects
 navigation-topic: manage-projects
 description: Puoi eliminare un progetto se il progetto e i relativi dati non sono più necessari. In alternativa all’eliminazione di un progetto, è consigliabile modificare il progetto e cambiare lo stato su Completato o Inattivo. Questa operazione rimuove tutte le attività correnti correlate al progetto dall'elenco delle attività di un utente, ma salva tutti i dati associati al progetto.
@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '878'
 ht-degree: 1%
 
 ---
@@ -28,36 +28,59 @@ Puoi eliminare un progetto in un elenco di progetti o a livello di progetto.
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Pacchetto Adobe Workfront</p> </td> 
+   <td>Qualsiasi</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Licenza Adobe Workfront</p> </td> 
+   <td> <p>Standard</p>
+   <p>Piano</p> 
+   </td> 
+  </tr> 
+    <td>Configurazioni del livello di accesso</td> 
+   <td> <p>Modificare l’accesso ai progetti con la possibilità di creare ed eliminare progetti</p> </td> 
+  </tr> 
+    <td> <p>Autorizzazioni oggetto</p> </td> 
+   <td> <p>Modifica l'accesso a Progetti, Attività, Problemi con la possibilità di eliminare progetti, attività e problemi</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>piano Adobe Workfront</p> </td> 
-   <td>Qualsiasi</td> 
+   <td> <p>Adobe Workfront plan</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td> <p>Licenza Adobe Workfront*</p> </td> 
-   <td> <p>Nuova licenza: Standard </p>
-   <p>Licenza corrente: Piano </p> 
+   <td> <p>Adobe Workfront license*</p> </td> 
+   <td> <p>New license: Standard </p>
+   <p>Current license: Plan </p> 
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Configurazione del livello di accesso</td> 
-   <td> <p>Modificare l’accesso ai progetti con la possibilità di creare ed eliminare progetti</p> </td> 
+   <td>Access level configuration</td> 
+   <td> <p>Edit access to Projects with ability to Create and Delete projects</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Autorizzazioni oggetto </p> </td> 
-   <td> <p>Modifica l'accesso a Progetti, Attività, Problemi con la possibilità di eliminare progetti, attività e problemi</p> </td> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>Edit access to Projects, Tasks, Issues with ability to Delete projects, tasks, and issues</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Comprendere il processo di eliminazione dei progetti
 

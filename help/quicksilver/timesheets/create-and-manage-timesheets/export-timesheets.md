@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Esporta un elenco di schede orario
 description: In qualità di responsabile persone o approvatore scheda orario, potrebbe essere necessario scaricare un elenco di schede orario per visualizzare rapidamente le informazioni sulle schede orario delle persone di cui sei responsabile. Per farlo, esporta un elenco di schede orario.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: cb5b1c6c-7800-48f4-ae2c-c4007a161a6c
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '466'
 ht-degree: 2%
 
 ---
@@ -23,33 +23,31 @@ In qualità di responsabile persone o approvatore scheda orario, potrebbe essere
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td>Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Nuovo: Chiaro o superiore </p>
-   <p>Corrente: revisione o versione successiva </p>
+   <td>Licenza Adobe Workfront</td> 
+   <td> <p>Chiaro o superiore </p>
+   <p>Revisione o successiva</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Visualizzare o accedere più facilmente ad attività e problemi </p> </td> 
+   <td>Configurazione del livello di accesso</td> 
+   <td> <p>Visualizzare o accedere ad altre attività e problemi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizza o autorizzazioni superiori per la scheda orario</p> </td> 
+   <td>Autorizzazioni oggetto</td> 
+   <td> <p>Visualizza o autorizzazioni superiori per attività e problemi</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -131,14 +129,14 @@ Verrà aperta l&#39;area **Schede orario**.
 
    * PDF - Paesaggio
    * Verticale PDF
-   * Altre dimensioni PDF
+   * PDF - Altre dimensioni
    * Excel
    * Excel (xlsx)
    * Delimitato in tabella
 
    Un elenco di schede orario viene scaricato nel computer nel formato selezionato e include le seguenti informazioni sulla scheda orario:
 
-   * Intervallo date
+   * Date Range
    * Nome del proprietario
    * Ore totali
    * Quantità di lavoro straordinario

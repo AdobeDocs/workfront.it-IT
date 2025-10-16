@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -29,31 +29,27 @@ In qualità di amministratore di [!DNL Adobe Workfront], puoi configurare le [!U
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td>Qualsiasi</td> 
+   <td>[!DNL Adobe Workfront] pacchetto</td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td><p>Nuovo: Standard</p>
-   Oppure
-   <p>Corrente: Piano</p>
-   </td> 
+   <td>[!DNL Adobe Workfront] licenza</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td>Amministratore di Sistema</td>
+   <td>Configurazioni del livello di accesso</td> 
+   <td>[!UICONTROL Amministratore di sistema]</td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -154,7 +150,7 @@ Per informazioni sulla pianificazione e la programmazione delle risorse in [!DNL
 
      >[!INFO]
      >
-     >Ad esempio, se la [!UICONTROL pianificazione predefinita] è di 40 ore settimanali, la pianificazione dell&#39;utente è di 30 ore settimanali, l&#39;orario di lavoro [!UICONTROL dell&#39;utente] è 0,5 e l&#39;FTE [!UICONTROL &#x200B; dell&#39;utente è 0,35.]
+     >Ad esempio, se la [!UICONTROL pianificazione predefinita] è di 40 ore settimanali, la pianificazione dell&#39;utente è di 30 ore settimanali, l&#39;orario di lavoro [!UICONTROL dell&#39;utente] è 0,5 e l&#39;FTE [!UICONTROL  dell&#39;utente è 0,35.]
      >
      >Se l&#39;utente ha 2 ore di inattività in un giorno, le sue [!UICONTROL FTE] settimanali disponibili verranno calcolate come segue:
      >

@@ -7,10 +7,10 @@ description: Il benefit pianificato è l'importo stimato di denaro di cui un'org
 author: Lisa
 feature: Work Management
 exl-id: 1ded9d16-57be-40e0-b083-ee5273fd9b56
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 0%
+source-wordcount: '315'
+ht-degree: 1%
 
 ---
 
@@ -27,35 +27,32 @@ Per ulteriori informazioni sul calcolo del valore netto di un progetto, vedere l
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td>Qualsiasi</td> 
+   <td>Pacchetto Adobe Workfront</td> 
+   <td>Qualsiasi </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td>Licenza Adobe Workfront</td> 
    <td>
-   <p>Nuovo: Standard</p>
-   <p>oppure</p>
-   <p>Corrente: Piano</p></td>  
+   <p>Standard</p>
+   <p>Piano</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td>Configurazioni del livello di accesso</td> 
    <td>Modifica accesso a progetti e dati finanziari</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni oggetto</td> 
    <td>Gestire le autorizzazioni per il progetto con le autorizzazioni per Gestire le finanze</td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,7 +66,7 @@ Puoi visualizzare o aggiornare il Vantaggio pianificato di un progetto nelle seg
 * In un report di progetto, quando si aggiunge la colonna Benefit pianificato alla visualizzazione del report.\
   Per ulteriori informazioni sulla creazione di report in Workfront, vedere l&#39;articolo [Creazione di un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-* In Ottimizzatore Portfolio.\
+* In Portfolio Optimizer.\
   Per ulteriori informazioni su Portfolio Optimizer, vedere l&#39;articolo [Panoramica di Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 ## Aggiornare il beneficio pianificato di un progetto

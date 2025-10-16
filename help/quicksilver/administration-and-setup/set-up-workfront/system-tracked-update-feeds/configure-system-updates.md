@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '930'
 ht-degree: 8%
 
 ---
 
 # Configurare gli aggiornamenti di sistema
 
-<!-- Audited: 6/2025 -->
+<!-- Audited: 08/2025 -->
 
 <!--
 
@@ -55,19 +55,18 @@ Ad esempio, [!DNL Workfront] potrebbe tenere traccia di tutte le modifiche appor
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
-   <td>Qualsiasi</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] pacchetto</td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
-   <td><p>Nuovo: [!UICONTROL Standard]</p>
-   Oppure
-   <p>Corrente: [!UICONTROL Plan]</p>
+   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
+   <td><p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p>
    </td> 
   </tr>  
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td>[!UICONTROL Amministratore di sistema]</td>
+   <td><p>[!UICONTROL Amministratore di sistema]</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -75,6 +74,29 @@ Ad esempio, [!DNL Workfront] potrebbe tenere traccia di tutte le modifiche appor
 *Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td><p>New: [!UICONTROL Standard]</p>
+   Or
+   <p>Current: [!UICONTROL Plan]</p>
+   </td> 
+  </tr>  
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td>[!UICONTROL System Administrator]</td>
+  </tr> 
+ </tbody> 
+</table> -->
 
 ## Determinare i campi [!DNL Workfront] tracciati per un tipo di oggetto
 
@@ -169,52 +191,52 @@ Nella tabella seguente sono descritte le azioni che è possibile tenere traccia 
   <tr> 
    <td>Assegnazione cambiata</td> 
    <td>Attività, problemi</td> 
-   <td> <p>Abilitato</p> </td> 
+   <td> <p>Abilitata</p> </td> 
   </tr> 
   <tr> 
    <td>Linea di base eliminata</td> 
    <td>Progetti</td> 
-   <td> <p>Disabilitato</p> </td> 
+   <td> <p>Disabilitata</p> </td> 
   </tr> 
   <tr> 
    <td>Record fatturazione creato o eliminato</td> 
    <td>Progetti</td> 
-   <td> <p>Abilitato</p> </td> 
+   <td> <p>Abilitata</p> </td> 
   </tr> 
   <tr> 
    <td>Documento creato o eliminato</td> 
    <td>Progetti, attività, problemi, portafogli, programmi</td> 
-   <td> <p>Abilitato</p> </td> 
+   <td> <p>Abilitata</p> </td> 
   </tr> 
   <tr> 
    <td>Spesa creata o eliminata</td> 
    <td>Progetti, attività</td> 
-   <td> <p>Abilitato</p> </td> 
+   <td> <p>Abilitata</p> </td> 
   </tr> 
   <tr> 
    <td>Ora registrata o eliminata</td> 
    <td>Progetti, attività, problemi</td> 
-   <td> <p>Abilitato</p> </td> 
+   <td> <p>Abilitata</p> </td> 
   </tr> 
   <tr> 
    <td>Problema eliminato</td> 
    <td>Progetti</td> 
-   <td> <p>Abilitato</p> </td> 
+   <td> <p>Abilitata</p> </td> 
   </tr> 
   <tr> 
    <td>Attività eliminata</td> 
    <td>Progetti</td> 
-   <td> <p>Abilitato</p> </td> 
+   <td> <p>Abilitata</p> </td> 
   </tr> 
   <tr> 
    <td>L'accesso di un utente è cambiato</td> 
    <td>Progetti, attività, problemi, documenti, portafogli, programmi</td> 
-   <td> <p>Abilitato</p> </td> 
+   <td> <p>Abilitata</p> </td> 
   </tr> 
   <tr> 
    <td>Abbona oggetto commento</td> 
    <td>Progetti, attività, problemi</td> 
-   <td> <p>Abilitato</p> </td> 
+   <td> <p>Abilitata</p> </td> 
   </tr> 
  </tbody> 
 </table>

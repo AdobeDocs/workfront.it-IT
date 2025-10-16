@@ -3,14 +3,14 @@ content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
 title: 'Esempio di calcolo: calcolare EAC come rollup dalle attività'
-description: PIM = basato su ore
-author: Alina
+description: Questo articolo fornisce un esempio di calcolo della stima al completamento (CES) di un progetto sotto forma di riepilogo da tutte le attività del progetto in Adobe Workfront.
+author: Lisa
 feature: Work Management
 exl-id: 68b582c9-f72a-4000-9d28-f7dafa23541f
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 0%
+source-wordcount: '1134'
+ht-degree: 2%
 
 ---
 
@@ -70,7 +70,7 @@ Metodo EAC = Rollup da attività/sottoattività
  </tbody> 
 </table>
 
-1. Ricalcola Finanze
+1. Ricalcola finanze
 1. **CPI per l&#39;attività 1** = 0,04 calcolato come segue:\
    **IPC per l&#39;attività 1** = *IF* Ore effettive > 0 *THEN* IPC = TotalBudgetedCostWorkPerformed/Ore effettive\
        *ELSE* CPI = 1\
@@ -429,64 +429,64 @@ Metodo EAC = Rollup da attività/sottoattività
 </table>
 
 1. Da Azioni progetto, eseguire Ricalcola dati finanziari
-1. **CPI**&#x200B;**per l&#39;attività 1** = 0,14 calcolato come segue:\
-   **CPI**&#x200B;**per l&#39;attività 1**  = *IF* Costo effettivo manodopera + IncurredActualExpenseCost  &lt;> 0 *THEN*
+1. **CPI****per l&#39;attività 1** = 0,14 calcolato come segue:\
+   **CPI****per l&#39;attività 1**  = *IF* Costo effettivo manodopera + IncurredActualExpenseCost  &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    *   ELSE* CPI = CPI_Labor\
-   **CPI**&#x200B;**per l&#39;attività 1**  = (100+300) / (2500+400)\
-   **CPI**&#x200B;**per l&#39;attività 1**  = 400 / 2900\
-   **CPI**&#x200B;**per l&#39;attività 1**  = 0,14
+   **CPI****per l&#39;attività 1**  = (100+300) / (2500+400)\
+   **CPI****per l&#39;attività 1**  = 400 / 2900\
+   **CPI****per l&#39;attività 1**  = 0,14
 
-1. **EAC**&#x200B;**per l&#39;attività 1** = $ 13.400,00\
-   **Manodopera IPC**&#x200B;**per l&#39;attività 1** = SE Costo effettivo manodopera &lt;> 0 THEN
+1. **EAC****per l&#39;attività 1** = $ 13.400,00\
+   **Manodopera IPC****per l&#39;attività 1** = SE Costo effettivo manodopera &lt;> 0 THEN
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
       ELSE CPI_Labor = 1\
-   **Manodopera IPC**&#x200B;**per l&#39;attività 1** = 100/2500\
-   **Manodopera IPC**&#x200B;**per l&#39;attività 1** = 0,04
+   **Manodopera IPC****per l&#39;attività 1** = 100/2500\
+   **Manodopera IPC****per l&#39;attività 1** = 0,04
 
-   **Manodopera EAC**&#x200B;**per l&#39;attività 1** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **Manodopera EAC****per l&#39;attività 1** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
    ```
 
    *   ELSE* EAC  Manodopera = Costo manodopera pianificato + Costo manodopera effettivo\
-   **Manodopera EAC**&#x200B;**per l&#39;attività 1** = 500.00/.04\
-   **Manodopera EAC**&#x200B;**per l&#39;attività 1** = $ 12.500,00
+   **Manodopera EAC****per l&#39;attività 1** = 500.00/.04\
+   **Manodopera EAC****per l&#39;attività 1** = $ 12.500,00
 
-   **Spese EAC**&#x200B;**per l&#39;attività 1** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
-   **Spese EAC**&#x200B;**per l&#39;attività 1** = $400,00 + $500,00\
-   **Spese EAC**&#x200B;**per l&#39;attività 1** = $900,00
+   **Spese EAC****per l&#39;attività 1** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
+   **Spese EAC****per l&#39;attività 1** = $400,00 + $500,00\
+   **Spese EAC****per l&#39;attività 1** = $900,00
 
-   **EAC**&#x200B;**per l&#39;attività 1** = Manodopera EAC + Spese EAC\
-   **EAC**&#x200B;**per l&#39;attività 1**  = $12.500,00 + $900,00\
-   **EAC**&#x200B;**per l&#39;attività 1**  = $ 13.400,00
+   **EAC****per l&#39;attività 1** = Manodopera EAC + Spese EAC\
+   **EAC****per l&#39;attività 1**  = $12.500,00 + $900,00\
+   **EAC****per l&#39;attività 1**  = $ 13.400,00
 
 1. Di seguito sono riportati i valori di CPI/EAC per i task 2 e 3:\
    Attività 2 = 0,19 / 8.433,33 $\
-   Attività 3 = 0,44 / 6.950,00 $**&#x200B;**
+   Attività 3 = 0,44 / 6.950,00 $****
 
 1. CPI per il progetto = 0,32\
-   **CPI**&#x200B;**per il progetto** = *IF* Costo effettivo manodopera + IncurredActualExpenseCost  &lt;> 0 *THEN*
+   **CPI****per il progetto** = *IF* Costo effettivo manodopera + IncurredActualExpenseCost  &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    *   ELSE* CPI = CPI_Labor\
-   **CPI**&#x200B;**per il progetto** = (1000 + 2300) / (7500 + 2700)\
-   **CPI**&#x200B;**per il progetto** = 3300 / 10200\
-   **CPI**&#x200B;**per il progetto** = 0,32
+   **CPI****per il progetto** = (1000 + 2300) / (7500 + 2700)\
+   **CPI****per il progetto** = 3300 / 10200\
+   **CPI****per il progetto** = 0,32
 
 1. EAC per il progetto è $28.783,33\
-   **EAC**&#x200B;**per il progetto** = EAC Task 1 + EAC Task 2 + EAC Task 3\
-   **EAC**&#x200B;**per il progetto** = $13.400,00 + $8.433,33 + $6.950,00\
-   **EAC**&#x200B;**per il progetto** = $ 28.783,33
+   **EAC****per il progetto** = EAC Task 1 + EAC Task 2 + EAC Task 3\
+   **EAC****per il progetto** = $13.400,00 + $8.433,33 + $6.950,00\
+   **EAC****per il progetto** = $ 28.783,33

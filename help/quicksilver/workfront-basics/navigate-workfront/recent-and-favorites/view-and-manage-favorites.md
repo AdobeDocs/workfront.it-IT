@@ -6,9 +6,9 @@ description: Il menu Preferiti consente di accedere rapidamente agli elementi. G
 feature: Get Started with Workfront
 author: Courtney
 exl-id: bf9dc447-751c-4802-9e6a-ecd31538dba4
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,6 @@ Il menu [!UICONTROL Preferiti] consente di accedere rapidamente agli elementi. G
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -32,15 +30,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>
-      <p>Nuovo: Collaboratore o versione successiva<p>
-      <p>Oppure</p>
-      <p>Corrente: richiesta o successiva</p> </td> 
+      <p>Collaboratore o versione successiva<p>
+      <p>Richiedi o superiore</td> 
   </tr> 
  </tbody> 
 </table>

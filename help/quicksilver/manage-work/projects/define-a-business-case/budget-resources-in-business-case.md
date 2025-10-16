@@ -2,10 +2,10 @@
 navigation-topic: business-case-and-scorecards
 title: Risorse di budget nel Business Case
 description: Come parte della pianificazione delle risorse, è possibile preventivare i ruoli necessari per completare il lavoro in un progetto quando si crea il caso di business. Per ulteriori informazioni sulla creazione di un caso di business, vedere Creare un caso di business per un progetto.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%

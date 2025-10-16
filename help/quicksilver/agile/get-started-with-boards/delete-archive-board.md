@@ -7,9 +7,9 @@ description: Puoi eliminare o archiviare una bacheca in Workfront. L’eliminazi
 author: Lisa
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: 3e33ba722ff066fd7fec8c7762c63e8c8d3fc4b8
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -24,22 +24,19 @@ Solo il proprietario della bacheca può eliminarla.
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> 
-   <p>Nuovo: [!UICONTROL Contributor] o versione successiva</p> 
-   <p>oppure</p>
-   <p>Corrente: [!UICONTROL Request] o versione successiva</p>
+   <p>Collaboratore o versione successiva</p> 
+   <p>Richiedi o superiore</p>
    </td> 
   </tr> 
  </tbody> 

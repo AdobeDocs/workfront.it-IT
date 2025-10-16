@@ -6,9 +6,9 @@ description: Puoi aggiungere rapidamente una scheda ad hoc a una bacheca e asseg
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
@@ -25,22 +25,19 @@ Puoi aggiungere rapidamente una scheda a una bacheca e assegnarla a un membro de
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> 
-   <p>Nuovo: [!UICONTROL Contributor] o versione successiva</p> 
-   <p>oppure</p>
-   <p>Corrente: [!UICONTROL Request] o versione successiva</p>
+   <p>Collaboratore o versione successiva</p> 
+   <p>Richiedi o superiore</p>
    </td> 
   </tr> 
  </tbody> 
@@ -92,7 +89,7 @@ Scheda ad hoc non connessa a un elemento di lavoro in [!DNL Adobe Workfront].
       <td>Seleziona una data di scadenza per la scheda. </td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>Stima </strong></td> 
+      <td role="rowheader"><strong>Stima [!UICONTROL]</strong></td> 
       <td>Digitare il numero stimato di ore per il completamento della scheda. Questa è solo una immissione manuale.</td>
      </tr>
      <tr> 
@@ -104,7 +101,7 @@ Scheda ad hoc non connessa a un elemento di lavoro in [!DNL Adobe Workfront].
       <td>Cerca e seleziona i tag per la scheda. Per informazioni sulla creazione di nuovi tag, vedere <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Aggiungi tag</a>.</td> 
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Connessione]</strong> </td>
+      <td role="rowheader"><strong>[!Connessione UICONTROL]</strong> </td>
       <td>È possibile collegare una scheda ad hoc a un'attività o a un problema [!DNL Workfront]. Per ulteriori informazioni, vedere "Convertire una scheda ad hoc in una scheda connessa" nell'articolo <a href="/help/quicksilver/agile/get-started-with-boards/connected-cards.md">Utilizzare schede collegate nelle bacheche</a>.</td>
      </tr>
      <tr> 

@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: plan-a-project
 title: Visualizza le ore pianificate per il progetto nel pannello Allocazione ruoli
 description: È possibile visualizzare l'allocazione dei ruoli per tutte le mansioni assegnate agli elementi di lavoro in un progetto nel pannello Allocazione ruoli del progetto.
-author: Alina
+author: Alina, Lisa
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '476'
 ht-degree: 1%
 
 ---
@@ -24,14 +24,50 @@ ht-degree: 1%
 >* [Mostra allocazione ruoli per progetti e iniziative nell&#39;elenco attività](../../../scenario-planner/show-role-allocation-task-list-nwe.md)
 >* [Mostra allocazione ruoli per progetti e iniziative nel Bilanciatore dei carichi di lavoro](../../../scenario-planner/show-role-allocation-workload-balancer.md)
 >
->  Per visualizzare le ore di iniziativa nel pannello Allocazione ruoli, è necessario disporre di una licenza di Pianificazione scenario. Per informazioni sulla Pianificazione scenario, vedere [Introduzione alla Pianificazione scenario](../../../scenario-planner/get-started-with-scenario-planning.md) .
+>  Per visualizzare le ore di iniziativa nel pannello Allocazione ruoli, è necessario disporre di una licenza di Pianificazione scenario. Per informazioni sulla Pianificazione scenario, vedere [Introduzione alla Pianificazione scenario](../../../scenario-planner/get-started-with-scenario-planning.md).
 >
+>Se la tua azienda ha acquistato Adobe Scenario Planner in passato, è stata esentata dalla clausola di salvaguardia. La Pianificazione scenario non è più disponibile per l&#39;acquisto.
 
 ## Requisiti di accesso
 
-<!--drafted for P&P:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
+   <td> <p>Adobe Workfront Ultimate</p>
+   <p>Ultimate flusso di lavoro Adobe</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> 
+   <p>Chiaro o superiore</p>
+   <p>Revisione o successiva</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Accesso ai progetti di visualizzazione o superiore</p>
+   <p>Modifica l'accesso a Scenario Planner per aggiornare le ore sulle iniziative</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td> <p>Visualizza o autorizzazioni superiori per il progetto</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+
+able style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -41,10 +77,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Light or higher</p> 
-   Or
-   <p>Legacy license: Review or higher</p> 
-   </td> 
+   <td> <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -55,36 +88,7 @@ ht-degree: 1%
    <td> <p>View or higher permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
--->
-
-Devi avere i seguenti:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
-   <td> <p>Qualsiasi </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Revisione o successiva</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Accesso ai progetti di visualizzazione o superiore</p> <p>Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizza o autorizzazioni superiori per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+</table>-->
 
 ## Prerequisiti
 

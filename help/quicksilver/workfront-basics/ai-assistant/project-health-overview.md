@@ -5,9 +5,9 @@ description: La funzione Integrità del progetto utilizza la potenza di AI Assis
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: d1ded406b8c4da975e2ff4d6825954cabd483ed2
+source-git-commit: dce36c38a626b4d3799fb1d1f673bdc49d81e274
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1508'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,8 @@ L&#39;Assistente IA può generare una valutazione dello stato del progetto per i
 
 Per ulteriori informazioni sull&#39;Assistente di IA, vedere [Panoramica dell&#39;Assistente di IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
-+++ Espandere per visualizzare i requisiti di accesso. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -36,9 +37,10 @@ Per ulteriori informazioni sull&#39;Assistente di IA, vedere [Panoramica dell&#3
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>piano Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<p>Seleziona, Prime o Ultimate </p> 
+<p>Seleziona o superiore </p> 
+<p>Selezione o successiva flusso di lavoro</p>
    </td> 
 <tr> 
  <tr> 
@@ -50,9 +52,9 @@ Per ulteriori informazioni sull&#39;Assistente di IA, vedere [Panoramica dell&#3
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configurazioni del livello di accesso</p></td> 
-   <td><p>Amministratore per gestire le configurazioni di integrità del progetto </p>
-   <p>Modifica per applicare le configurazioni di integrità del progetto </p>
-     <p>Visualizza per visualizzare le configurazioni di integrità del progetto </p>
+   <td><p>Per gestire le configurazioni dell'integrità del progetto è necessario essere un amministratore di sistema </p>
+   <p>Modifica l'accesso ai progetti per applicare le configurazioni di integrità del progetto </p>
+     <p>Visualizza l'accesso ai progetti per visualizzare le configurazioni dell'integrità del progetto </p>
   </td> 
   </tr>  
     </tr>  

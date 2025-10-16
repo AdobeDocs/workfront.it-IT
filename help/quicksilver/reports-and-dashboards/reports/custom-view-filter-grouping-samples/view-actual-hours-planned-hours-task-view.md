@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Visualizza: Ore effettive rispetto alle ore pianificate nella stessa colonna di una visualizzazione attività"
+title: 'Vista: Ore effettive rispetto alle ore pianificate nella stessa colonna di una vista attività'
 description: In questa visualizzazione dell'attività, la quantità effettiva di ore registrate in un'attività viene visualizzata nelle ore pianificate per ogni attività. Anche la Variazione ore tra le ore pianificate e le ore effettive viene visualizzata in una colonna separata.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c1179283-dc2e-40d3-b8e0-4b1b79f83ad3
-source-git-commit: a7cdee912e5047f1c8ef224aff6a41eaa3633df6
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -24,28 +24,21 @@ In questa visualizzazione dell&#39;attività, la quantità effettiva di ore regi
 
 <!--Audited: 10/2024-->
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> 
-    <p>Nuovo:</p>
-   <ul><li><p>Collaboratore per modificare un filtro </p></li>
-   <li><p>Standard per modificare un rapporto</p></li> </ul>
-
-<p>Corrente:</p>
-   <ul><li><p>Richiesta di modifica di un filtro </p></li>
-   <li><p>Pianificare la modifica di un rapporto</p></li> </ul></td> 
+   <p>Collaboratore o richiesta di modifica di un filtro </p>
+   <p>Standard o piano per modificare un rapporto</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -58,7 +51,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

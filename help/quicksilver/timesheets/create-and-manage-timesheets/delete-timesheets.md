@@ -6,10 +6,10 @@ description: Le modifiche apportate a un profilo di scheda orario non sono immed
 author: Alina
 feature: Timesheets
 exl-id: c6a86c1b-8580-4896-8933-d4e2818e98ed
-source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 0%
+source-wordcount: '751'
+ht-degree: 1%
 
 ---
 
@@ -35,32 +35,36 @@ Gli amministratori di Adobe Workfront o di gruppi possono generare schede orario
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td> <p>Qualsiasi</p> </td> 
+   <td>Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Piano </p> </td> 
+   <td>Licenza Adobe Workfront</td> 
+   <td>
+   <p>Standard</p>
+   <p>Piano</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>È necessario disporre dell'accesso amministrativo alle schede orario. </p> <p>Per ulteriori informazioni, vedere <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo ad alcune aree</a>.</p> <p>Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td>Configurazioni del livello di accesso</td> 
+   <td><p>Accesso amministrativo alle schede orario</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront.
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Eliminare le schede orario in un elenco
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
+1. Fai clic sull&#39;icona **del** menu principale![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront.
 
 1. Fai clic su **Schede orario**. Il filtro **All** è selezionato per impostazione predefinita e visualizza tutte le schede orario per le quali si dispone dell&#39;accesso.
 
@@ -100,13 +104,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Seleziona una o più schede orario da eliminare e fai clic sull&#39;icona **Elimina** ![](assets/delete.png) nella parte superiore dell&#39;elenco delle schede orario.
 
-1. Fare clic su **Elimina**.
+1. Fai clic su **Elimina**.
 
    Le schede orario selezionate vengono eliminate e non possono essere recuperate.
 
    Per generare nuove schede orario, accertati che gli utenti siano associati a un profilo di scheda orario e chiedi all’amministratore di Workfront o a un amministratore di gruppo di generare nuove schede orario.
 
-   Per ulteriori informazioni, vedi:
+   Per ulteriori informazioni vedi quanto segue:
 
    * [Crea, modifica e assegna profili scheda orario](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
    * [Genera manualmente le schede orario](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
@@ -114,7 +118,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Eliminare una scheda orario dalla pagina della scheda orario
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del [!UICONTROL **menu principale**] nell&#39;angolo superiore destro di Adobe Workfront.
+1. Fai clic sull&#39;icona [!UICONTROL **del**] menu principale![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront.
 1. Fai clic sulla scheda orario da eliminare per aprirla.
 1. Fai clic sull&#39;icona [!UICONTROL **Altro**] ![](assets/more-icon.png) a destra del nome della scheda orario, quindi fai clic su **Elimina**.
 

@@ -6,9 +6,9 @@ description: Puoi configurare le seguenti opzioni per i team Kanban Agile durant
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1484'
 ht-degree: 1%
 
 ---
@@ -37,8 +37,6 @@ Per informazioni sulla configurazione di un team Scrum, vedere [Configurare Scru
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -46,15 +44,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
-   <td> <p>Nuovo: [!UICONTROL Standard]</p> 
-   oppure
-   <p>Corrente: [!UICONTROL Work] o versione successiva</p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p>Standard</p> 
+   <p>Lavoro o superiore</p> </td> 
   </tr>
 
 <tr> 
@@ -77,7 +74,7 @@ Per configurare il modo in cui le storie vengono stimate per il tuo team agile:
 
 {{step1-to-team}}
 
-1. Fai clic sull&#39;icona ![](assets/switch-team-icon.png) di **[!UICONTROL Cambia team]**, quindi seleziona un nuovo team dal menu a discesa o cerca un team nella casella di ricerca.
+1. Fai clic sull&#39;icona **[!UICONTROL di]** Cambia team![](assets/switch-team-icon.png), quindi seleziona un nuovo team dal menu a discesa o cerca un team nella casella di ricerca.
 1. Seleziona il team agile da gestire.
 1. Fai clic sul menu **[!UICONTROL Altro]** ![](assets/more-menu.png), quindi seleziona **[!UICONTROL Modifica]**.
 

@@ -6,10 +6,10 @@ description: Quando condividi un obiettivo, assegni le autorizzazioni di gestion
 author: Alina
 feature: Workfront Goals
 exl-id: 747449cf-9092-4b9f-9add-db2e7d3fab48
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 4%
+source-wordcount: '737'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +19,13 @@ Quando condividi un obiettivo, assegni le autorizzazioni di gestione a un obiett
 
 ## Requisiti di accesso
 
-Devi avere i seguenti:
+>[!NOTE]
+>
+>La tua azienda potrebbe scegliere di continuare a utilizzare gli obiettivi di Adobe Workfront se ha acquistato questo pacchetto in passato. Per ulteriori dettagli, rivolgiti al rappresentante del tuo account.
+>
+>Adobe Workfront Goals non è più disponibile per l’acquisto.
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto">
 <col>
@@ -27,36 +33,20 @@ Devi avere i seguenti:
 <col>
 </col>
 <tbody>
- <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+ <tr>
+  <td> <p>Pacchetto Adobe Workfront</p> </td> 
    <td> 
-   <p>Per il nuovo piano e la nuova struttura delle licenze:
-  <ul><li>Un piano Ultimate </li></ul>
-   </p>
-<p>Per il piano corrente e la struttura delle licenze: 
-<ul><li> A Pro o superiore </li>
-  <li>Una licenza Adobe Workfront Goals oltre a una licenza Workfront.</li></ul></p>
+   <p>Adobe Workfront Ultimate</p>
    </td> 
   </tr>
  <tr>
- <td role="rowheader">Licenza Adobe Workfront*</td>
+ <td role="rowheader">Licenza Adobe Workfront</td>
  <td>
- <p>Nuova licenza: Collaboratore o versione successiva</p>
- Oppure
- <p>Licenza corrente: richiesta o successiva</p> </td>
+ <p>Collaboratore o versione successiva</p>
+<p>Richiedi o superiore</p></td>
  </tr>
- <tr>
- <td role="rowheader">Prodotto*</td>
- <td>
- <p> Nuovo requisito del prodotto, uno dei seguenti: </p>
-<ul>
-<li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
-<li>Un piano Workfront di Ultimate che include gli obiettivi di Workfront per impostazione predefinita. </li></ul>
- <p>Oppure</p>
- <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, vedere <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td>
- </tr>
- <tr>
- <td role="rowheader">Livello di accesso</td>
+  <tr>
+ <td role="rowheader">Configurazione del livello di accesso</td>
  <td> <p>Modifica accesso agli obiettivi</p> </td>
  </tr>
  <tr data-mc-conditions="">
@@ -65,18 +55,77 @@ Devi avere i seguenti:
   <div>
   <p>Visualizza o autorizzazioni superiori per l’obiettivo per visualizzarlo</p>
   <p>Gestire le autorizzazioni per l’obiettivo per modificarlo</p>
-  <p>Per informazioni sulla condivisione degli obiettivi, vedere <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p>
   </div> </td>
  </tr>
 <tr>
-   <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l’area Obiettivi nel menu principale. </p>  
+   <td role="rowheader"><p>Modello layout</p></td>
+   <td> <p>A tutti gli utenti, inclusi gli amministratori di sistema, deve essere assegnato un modello di layout che includa l'area Obiettivi nel menu principale. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+
+<!--Old:
+
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> 
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li></ul>
+   </p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
+   </td> 
+  </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront license*</td>
+ <td>
+ <p>New license: Contributor or higher</p>
+ Or
+ <p>Current license: Request or higher</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Product*</td>
+ <td>
+ <p> New product requirement, one of the following: </p>
+<ul>
+<li>A Select or Prime Adobe Workfront plan and an additional Adobe Workfront Goals license.</li>
+<li>An Ultimate Workfront plan which includes Workfront Goals by default. </li></ul>
+ <p>Or</p>
+ <p>Current product requirement: A Workfront plan and an additional license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Access level</td>
+ <td> <p>Edit access to Goals</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Object permissions</td>
+ <td>
+  <div>
+  <p>View or higher permissions to the goal to view it</p>
+  <p>Manage permissions to the goal to edit it</p>
+  <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
+  </div> </td>
+ </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
+</td>
+  </tr>
+</tbody>
+</table>-->
 
 ## Considerazioni sulla condivisione degli obiettivi
 
@@ -94,13 +143,13 @@ Devi avere i seguenti:
       <p><b>Descrizione</b></p> </td> 
    </tr> 
    <tr> 
-      <td role="rowheader"><p>Visualizza</p></td> 
+      <td role="rowheader"><p>Visualizzazione</p></td> 
       <td>
       <p>Gli utenti dispongono delle autorizzazioni per visualizzare l’obiettivo, ma non possono modificare le informazioni per l’obiettivo, né aggiungere o modificare informazioni per i risultati o per le attività, aggiornare lo stato o eliminare l’obiettivo.</p>      
       <p>Per impostazione predefinita, tutti gli utenti con accesso agli obiettivi possono visualizzare tutti gli obiettivi nel sistema. Gli utenti possono copiare l’obiettivo se dispongono dell’accesso di modifica per gli obiettivi nel proprio livello di accesso.</p> </td> 
    </tr> 
    <tr> 
-      <td role="rowheader"><p>Gestire</p></td> 
+      <td role="rowheader"><p>Gestisci</p></td> 
       <td> <p>Gli utenti possono modificare tutte le informazioni per l’obiettivo, inclusi i risultati, o le attività, inclusa la loro eliminazione.</p> 
       <p>Solo i creatori o gli utenti di un obiettivo a cui sono state specificatamente assegnate le autorizzazioni di gestione possono gestire un obiettivo.</p> 
       Solo gli utenti con le autorizzazioni di gestione di un obiettivo possono condividere l’obiettivo con altri utenti in modo da assegnare loro le autorizzazioni di gestione per l’obiettivo. </p> </td> 

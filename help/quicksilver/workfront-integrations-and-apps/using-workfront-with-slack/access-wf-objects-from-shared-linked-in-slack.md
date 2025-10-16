@@ -2,13 +2,13 @@
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
 title: Accedi a  [!DNL Adobe Workfront] oggetti da un collegamento condiviso in [!DNL Slack]
-description: Quando i collegamenti a  [!DNL Adobe Workfront] oggetti vengono condivisi con te in un canale di Slack, puoi visualizzare ulteriori informazioni su di essi in Slack, dopo che hai installato e configurato [!DNL Workfront] per lo Slack.
+description: Quando i collegamenti a  [!DNL Adobe Workfront] oggetti vengono condivisi con te in un canale Slack, puoi visualizzare ulteriori informazioni su di essi in Slack, dopo aver installato e configurato [!DNL Workfront] per Slack.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 587c6ac7-cc56-480f-852d-f0bd36b3f3cf
-source-git-commit: eeb90d8f80b1680d880d07f41e9d80c0658495fa
+source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1107'
 ht-degree: 0%
 
 ---
@@ -25,24 +25,26 @@ Quando un utente condivide con te un collegamento a un oggetto in [!DNL Workfron
 
 ## Requisiti di accesso
 
-Per utilizzare le funzionalità descritte in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano*</td> 
-   <td> <p>[!UICONTROL Pro] o versione successiva</p> </td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
+   <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
-   <td> <p>[!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p>Qualsiasi</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisiti
 
@@ -70,7 +72,7 @@ Prima di poter accedere ai preferiti e agli elementi recenti di [!DNL Slack], è
 
    * **[!UICONTROL Data di completamento Pianificata]**: per ulteriori informazioni sulla Data di completamento Pianificata, consulta [Impostare la Data di completamento Pianificata del progetto](../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
 
-   * Nome **[!UICONTROL Portfolio]**: per ulteriori informazioni sui portfolio, vedere [Panoramica sui Portfoli in Adobe Workfront](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+   * **[!UICONTROL Nome Portfolio]**: per ulteriori informazioni sui portfolio, vedere [Comprendere la metodologia del portfolio](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
    * **[!UICONTROL Condizione]**: per ulteriori informazioni sulla condizione del progetto, vedere [Panoramica sulla condizione e sul tipo di condizione del progetto](../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
@@ -164,7 +166,7 @@ Prima di poter accedere ai preferiti e agli elementi recenti di [!DNL Slack], è
 1. (Facoltativo) Fai clic sul nome del portfolio per aprirlo in [!DNL Workfront] in una nuova scheda del browser.
 1. Esamina le seguenti informazioni aggiuntive sul portfolio:
 
-   * **[!UICONTROL Nome manager Portfolio]**
+   * **[!UICONTROL Nome Portfolio Manager]**
    * **[!UICONTROL Ora di attivazione]**
    * **[!UICONTROL ROI]**
    * **[!UICONTROL Valore Netto]**
@@ -172,7 +174,7 @@ Prima di poter accedere ai preferiti e agli elementi recenti di [!DNL Slack], è
    * **[!UICONTROL Nel Budget]**
    * **[!UICONTROL Allineato]**
 
-     Per ulteriori informazioni sulle metriche del portfolio, tra cui [!UICONTROL ROI], [!UICONTROL Valore netto], [!UICONTROL Allineamento] e [!UICONTROL Puntuale] e [!UICONTROL Nel budget], vedere [Informazioni su [!UICONTROL Ottimizzatore Portfolio].](../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
+     Per ulteriori informazioni sulle metriche del portfolio, tra cui [!UICONTROL ROI], [!UICONTROL Valore netto], [!UICONTROL Allineamento] e [!UICONTROL Puntuale] e [!UICONTROL Nel budget], vedere [Informazioni su [!UICONTROL Portfolio Optimizer].](../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
 
 ## Accedere ai programmi da [!DNL Slack]
 

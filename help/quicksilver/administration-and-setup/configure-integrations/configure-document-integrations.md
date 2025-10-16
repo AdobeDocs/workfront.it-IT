@@ -8,10 +8,10 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: ec0e2be036ce1298e285ce85cdeddae97cd1f144
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 1%
+source-wordcount: '1114'
+ht-degree: 2%
 
 ---
 
@@ -33,32 +33,34 @@ In qualità di amministratore di [!DNL Adobe Workfront], puoi configurare le int
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
-   <td>Qualsiasi</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
-   <td><p>Nuovo: [!UICONTROL Standard]</p>
-       <p>oppure</p>
-       <p>Corrente: [!UICONTROL Plan]</p></td>
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Devi essere un amministratore [!DNL Workfront].</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Pacchetto Adobe Workfront
+   </td>
+   <td> <p>PRIME o ULTIMATE</p>
+    <p>Flusso di lavoro Ultimate</p>
+   </td>
+  </tr>
+    <tr>
+   <td>Licenze Adobe Workfront
+   </td>
+   <td>Standard
+   <p>Piano</p>
+   </td>
+  </tr>
+   <tr>
+   <td>Configurazioni del livello di accesso
+   </td>
+   <td>Devi essere un amministratore [!DNL Workfront].
+   </td>
+  </tr>
 </table>
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+
 
 ## Integrazioni supportate
 
@@ -74,11 +76,11 @@ Puoi configurare le seguenti integrazioni per la gestione dei documenti:
 
 * [!DNL Workfront Proof]
 
-  Il collegamento delle bozze da [!DNL Workfront Proof] consente di rendere disponibili in [!DNL Workfront] le bozze create in origine in [!DNL Workfront Proof]. Per i piani correnti, è necessario un piano [!UICONTROL Pro] [!DNL Workfront] o superiore per utilizzare questa funzione. Per i nuovi piani, questa funzione è disponibile con tutti i piani. Per ulteriori informazioni sui vari piani disponibili, vedere [Piani Workfront](https://business.adobe.com/it/products/workfront/pricing.html).
+  Il collegamento delle bozze da [!DNL Workfront Proof] consente di rendere disponibili in [!DNL Workfront Proof] le bozze create in origine in [!DNL Workfront].
 
 * [!DNL Microsoft SharePoint]
 
-  Per informazioni sull&#39;integrazione con [!DNL SharePoint], vedere [Configurare l&#39;integrazione [!DNL SharePoint] &#x200B;](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
+  Per informazioni sull&#39;integrazione con [!DNL SharePoint], vedere [Configurare l&#39;integrazione [!DNL SharePoint] ](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
 
 * Provider di documenti cloud di terze parti:
 
@@ -96,8 +98,6 @@ Puoi configurare le seguenti integrazioni per la gestione dei documenti:
   >È possibile verificare e approvare i documenti collegati da un provider cloud esterno nello stesso modo in cui si esegue la verifica e l&#39;approvazione dei documenti caricati direttamente in [!DNL Workfront].
 
 * Altri provider di documenti (tramite integrazioni di documenti personalizzate).
-
-  Per i piani correnti, è necessario un piano [!UICONTROL Pro] [!DNL Workfront] o superiore per utilizzare questa funzione. Per i nuovi piani, questa funzione è disponibile con tutti i piani. Per ulteriori informazioni sui vari piani disponibili, vedere [Piani Workfront](https://business.adobe.com/it/products/workfront/pricing.html).
 
 Inoltre, è possibile migliorare l&#39;esperienza dei documenti [!DNL Workfront] con integrazioni DAM di terze parti. Gli amministratori devono abilitare queste funzionalità affinché gli utenti possano collegare il servizio al proprio account [!DNL Workfront].
 
@@ -243,7 +243,7 @@ Per configurare [!DNL Workfront] per l&#39;invio di metadati a [!DNL Workfront D
 1. Espandi **[!UICONTROL Documenti]**, quindi fai clic su **[!UICONTROL Mappatura metadati]**.
 
 1. Nell&#39;elenco dei campi selezionare i campi che si desidera rimuovere dalla mappatura dei metadati.
-1. Fare clic su **[!UICONTROL Elimina]**.
+1. Fai clic su **[!UICONTROL Elimina]**.
 
    I campi vengono rimossi dalla mappatura dei metadati e le informazioni in essi contenute non vengono trasferite a [!DNL Workfront DAM] con i documenti caricati.
 

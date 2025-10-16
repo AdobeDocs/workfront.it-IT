@@ -2,19 +2,19 @@
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: work-with-groups-and-teams
-title: Gruppi e team in Adobe Workfront
-description: I gruppi e i team sono raccolte di utenti in Adobe Workfront.
+title: Gruppi e team in Workfront
+description: I gruppi e i team sono raccolte di utenti in Adobe Workfront. Scopri le differenze e le analogie tra gruppi e team.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 722295463c1338a70ff42c26acf69b09cf33f725
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '373'
 ht-degree: 1%
 
 ---
 
-# Gruppi e team in [!DNL Adobe Workfront]
+# Gruppi e team in Workfront
 
 <!-- Audited: 12/2023 -->
 
@@ -32,11 +32,11 @@ Le sezioni seguenti descrivono raccomandazioni su quando utilizzare gruppi o tea
 
 Per ulteriori informazioni sulla creazione e la gestione dei gruppi, vedere [Creare un gruppo](../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) e [Gestire un gruppo](../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
 
-## Utilizzare i team per rappresentare la struttura di lavoro all&#39;interno di un reparto
+## Utilizzare i team per rappresentare la struttura di lavoro in un reparto
 
-È consigliabile configurare i team in modo che corrispondano alla struttura di lavoro quotidiana dei team di reparto.
+È consigliabile configurare i team in modo che corrispondano alla struttura di lavoro quotidiana dei team dipartimentali.
 
-È possibile, ad esempio, disporre di un Team ciclo paghe, un Team contabilità fornitori e un Team contabilità clienti. In genere, le persone di ciascuno di questi team lavorano su progetti, attività o problemi simili per tali team.
+È possibile, ad esempio, disporre di un team Payroll, di un team Accounts Payable e di un team Accounts Receivable. In genere, le persone di ciascuno di questi team lavorano su progetti, attività o problemi simili per tali team.
 
 Per ulteriori informazioni sulla creazione e la gestione dei team, vedere [Creare e gestire i team](../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
 

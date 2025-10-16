@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 9e7d20fe165e08997c14e207406fb8bed7597a56
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '956'
 ht-degree: 1%
 
 ---
@@ -26,28 +26,26 @@ Utilizzando il Single Sign-On (SSO), è possibile passare gli attributi da Activ
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td>Qualsiasi</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td><p>Nuovo: Standard</p><p>Oppure</p><p>Corrente: Piano</p></td> 
+   <td><p>Standard</p><p>Piano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td>[!UICONTROL Amministratore di sistema]</td>
+   <td><p>Devi essere un amministratore di Workfront</p></td>
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,17 +61,17 @@ Quando mappate gli attributi, tenete presente quanto segue:
 
 ## Mappare gli attributi utente per la tua organizzazione
 
-La procedura per la mappatura degli attributi varia a seconda che l’organizzazione utilizzi o meno l’esperienza Adobe.
+La procedura per la mappatura degli attributi varia a seconda che l’organizzazione utilizzi o meno l’esperienza unificata di Adobe.
 
-Per determinare se l’organizzazione si trova nell’esperienza unificata di Adobe, esamina l’URL utilizzato per accedere a Workfront.
+Per determinare se la tua organizzazione utilizza l’esperienza unificata di Adobe, esamina l’URL utilizzato per accedere a Workfront.
 
 | URL | Esperienza Adobe |
 |---|---|
 | (NomeSocietà).my.workfront.com | Esperienza classica |
-| experience.adobe.com | Esperienza Adobe unificata |
+| experience.adobe.com | Esperienza unificata Adobe |
 
 * [Mappatura degli attributi utente nell’esperienza classica](#map-user-attributes-in-the-classic-experience)
-* [Mappatura degli attributi utente nell’esperienza Adobe](#map-user-attributes-in-the-adobe-unified-experience)
+* [Mappatura degli attributi utente nell’esperienza unificata di Adobe](#map-user-attributes-in-the-adobe-unified-experience)
 
 ### Mappatura degli attributi utente nell’esperienza classica
 
@@ -91,7 +89,7 @@ Per determinare se l’organizzazione si trova nell’esperienza unificata di Ad
 
    Puoi mappare attributi come Indirizzo, Manager, Ruolo, Gruppo predefinito e così via.
 
-   Le mappature degli attributi funzionano con un rapporto 1:1. Ad esempio, non è possibile impostare ogni gruppo a cui appartiene un utente, ma solo uno per utente.
+   Le mappature degli attributi funzionano con un rapporto di 1:1. Ad esempio, non è possibile impostare ogni gruppo a cui appartiene un utente, ma solo uno per utente.
 
    >[!IMPORTANT]
    >
@@ -130,7 +128,7 @@ Per determinare se l’organizzazione si trova nell’esperienza unificata di Ad
 1. (Facoltativo) Per mappare altri attributi utente, fare clic su **Aggiungi mappatura** e ripetere i passaggi 6-7.
 1. Fai clic su **Salva**.
 
-### Mappatura degli attributi utente nell’esperienza Adobe
+### Mappatura degli attributi utente nell’esperienza unificata di Adobe
 
 1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-left.png) nell&#39;angolo superiore sinistro di Adobe Workfront, quindi fai clic sull&#39;icona **Setup** ![Gear settings](assets/gear-icon-settings.png).
 
@@ -138,11 +136,11 @@ Per determinare se l’organizzazione si trova nell’esperienza unificata di Ad
 
 1. Selezionare la scheda **Adobe**.
 
-1. (Facoltativo e condizionale) Se nell&#39;esperienza classica è stata configurata la mappatura degli attributi per la tua organizzazione e desideri copiarla nell&#39;esperienza Adobe, fai clic su **Migra mappature**. Puoi quindi eliminare, eliminare o modificare queste mappature.
+1. (Facoltativo e condizionale) Se per la tua organizzazione è stata configurata la mappatura degli attributi nell&#39;esperienza classica e desideri copiarla nell&#39;esperienza unificata di Adobe, fai clic su **Migra mappature**. Puoi quindi eliminare, eliminare o modificare queste mappature.
 
    >[!NOTE]
    >
-   >È consigliabile eseguire la migrazione delle mappature la prima volta che le si configura nell’esperienza Adobe. Non c&#39;è alcun danno nel migrarli di nuovo in un secondo momento, ma migrarli più di una volta non è necessario.
+   >È consigliabile eseguire la migrazione delle mappature la prima volta che le si configura nell’esperienza unificata di Adobe. Non c&#39;è alcun danno nel migrarli di nuovo in un secondo momento, ma migrarli più di una volta non è necessario.
 
 1. Per creare un nuovo mapping di attributi, fare clic su **Aggiungi mapping**.
 

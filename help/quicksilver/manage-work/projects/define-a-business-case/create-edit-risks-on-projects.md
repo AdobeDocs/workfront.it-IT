@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: business-case-and-scorecards
 title: Creare e modificare i rischi nei progetti
 description: I rischi sono eventi o fattori possibili che impediscono a un progetto di terminare in tempo o nel rispetto del budget. È possibile registrare i rischi del progetto durante la creazione del Business Case di un progetto o utilizzando la scheda Rischi. Puoi aggiungere rischi ai progetti e ai modelli. Non è possibile associare rischi ad attività o problemi.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1059'
 ht-degree: 1%
 
 ---
@@ -35,8 +35,6 @@ I rischi possono essere associati ai costi, ma il costo rischio effettivo non in
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
@@ -44,17 +42,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Piano Adobe Workfront*</p></td> 
-   <td> <p>Piani correnti:</p>
+   <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <ul><li>Qualsiasi piano, per aggiungere rischi nell’area Rischi del progetto</p></li>
    <li><p>Prime o versione successiva, per aggiungere rischi nel Business Case del progetto</p></li></ul>
-   <p>Piani legacy: qualsiasi piano</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront*</p></td> 
-   <td> <p>Corrente: Standard </p>
-   <p>Legacy: Plan </p> </td> 
+   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td> <p>Standard </p>
+   <p>Piano </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configurazioni del livello di accesso</p></td> 
@@ -67,7 +63,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 

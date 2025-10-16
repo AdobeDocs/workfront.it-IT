@@ -2,13 +2,13 @@
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Stampare un dashboard
-description: È possibile stampare o esportare un dashboard in un file PDF. Per stampare un dashboard, è necessario disporre dell'autorizzazione per visualizzarlo.
+description: È possibile stampare o esportare un dashboard in un file con estensione PDF. Per stampare un dashboard, è necessario disporre dell'autorizzazione per visualizzarlo.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 30f3481b-23b6-4dc9-be0d-9cffd5d4dfed
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2025 -->
 
-È possibile stampare o esportare un dashboard in un file PDF. Per stampare un dashboard, è necessario disporre dell&#39;autorizzazione per visualizzarlo.
+È possibile stampare o esportare un dashboard in un file con estensione PDF. Per stampare un dashboard, è necessario disporre dell&#39;autorizzazione per visualizzarlo.
 
 >[!NOTE]
 >
@@ -25,43 +25,35 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
-Devi avere i seguenti:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>piano Adobe Workfront</strong></td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licenza Adobe Workfront</strong></td> 
-      <td> 
-      <p>Nuovo:</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Corrente:</p>
-         <ul>
-         <li><p>Lavoro o superiore</p></li>
-         </ul>
-   </td>
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> 
+      <p>Standard</p>
+      <p>Lavoro o superiore</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurazioni del livello di accesso</strong></td> 
-   <td> <p>Accesso a report, dashboard e calendari</p> </td> 
-  </tr> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modificare l’accesso a rapporti, dashboard e calendari</p></td> 
+  </tr>  
   <tr> 
-   <td role="rowheader"><strong>Autorizzazioni oggetto</strong>/td&gt; 
+   <td role="rowheader">Autorizzazioni oggetto</td> 
    <td> <p>Visualizzare le autorizzazioni per il dashboard</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,7 +65,7 @@ Per informazioni sulla creazione di dashboard, vedere [Creare un dashboard](../.
 
 ## Informazioni da stampare durante la stampa di un dashboard
 
-Quando si stampa un dashboard o lo si salva come file PDF, è possibile che alcune informazioni del dashboard non vengano visualizzate nel file stampato o esportato, come quelle visualizzate nell’applicazione Web Adobe Workfront.
+Quando si stampa un dashboard o lo si salva come file con estensione PDF, è possibile che alcune informazioni del dashboard non vengano visualizzate nel file stampato o esportato, come quelle visualizzate nell’applicazione Web Adobe Workfront.
 
 * [Cosa viene visualizzato?](#what-is-displayed)
 * [Cosa non viene visualizzato?](#what-is-not-displayed)
@@ -113,7 +105,7 @@ Le seguenti informazioni non sono incluse nel file del dashboard stampato o espo
 1. Nel campo **Destinazione**, seleziona tra le varie opzioni di stampa disponibili.\
    Le opzioni di stampa variano a seconda del browser e della versione del browser utilizzati.
 
-1. (Facoltativo) Salva il dashboard come file PDF, quindi fai clic su **Salva** per salvare il file PDF.\
+1. (Facoltativo) Salva il dashboard come file con estensione PDF, quindi fai clic su **Salva** per salvare il file con estensione PDF.\
    Per informazioni su come salvare il dashboard come file PDF, vedere [Esportare un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
 1. Fare clic su **Stampa**.

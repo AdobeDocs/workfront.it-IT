@@ -1,51 +1,80 @@
 ---
 navigation-topic: use-the-gantt-chart
 title: Visualizza informazioni nel [!UICONTROL Diagramma di Gantt]
-description: Nell'elenco delle attività Diagramma di Gantt e nell'elenco dei progetti Diagramma di Gantt vengono visualizzate informazioni sui progetti e sulle attività.
+description: L'attività e il progetto Adobe Workfront [!UICONTROL Grafici di Gantt] visualizzano informazioni sulle attività e sui progetti.
 author: Alina
 feature: Work Management
 exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
 
 # Visualizza informazioni nel [!UICONTROL Diagramma di Gantt]
 
-Nell&#39;elenco delle attività [!UICONTROL Grafico di Gantt] e nell&#39;elenco dei progetti [!UICONTROL Grafico di Gantt] vengono visualizzate informazioni sui progetti e sulle attività.
+<!--Audited: 08/2025-->
+
+L&#39;attività e il progetto Adobe Workfront [!UICONTROL Grafici di Gantt] visualizzano informazioni sulle attività e sui progetti.
 
 ## Requisiti di accesso
 
-Per seguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano*</td> 
-   <td> <p>Qualsiasi </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] pacchetto</td> 
+   <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] panoramica sulle licenze*</td> 
-   <td> <p>[!UICONTROL Review] o versione successiva</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
+   <td><p>[!UICONTROL Light] o versione successiva</p>
+    <p>[!UICONTROL Review] o versione successiva</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Accesso di [!UICONTROL View] o versione successiva a progetti e attività</p> <p><b>NOTA</b>
-
-Se non disponi ancora dell&#39;accesso, chiedi all&#39;amministratore [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di [!DNL Workfront] può modificare il tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Accesso di [!UICONTROL View] o versione successiva a progetti e attività</p></td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Accesso di [!UICONTROL View] o versione successiva al progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Accesso di [!UICONTROL View] o versione successiva al progetto e alle attività</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++ 
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenses overview*</td> 
+   <td> <p>[!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL View] or higher access to Projects and Tasks</p> <p><b>NOTE</b>
+
+If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL View] or higher access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Individua il [!UICONTROL Diagramma di Gantt]
 
@@ -75,17 +104,13 @@ Per visualizzare le attività di un progetto da un elenco di progetti:
 
 1. Passare a una delle aree sopra indicate.
 
-   Ad esempio, dal [!UICONTROL menu principale], fare clic su **[!UICONTROL Progetti]**.
+   Ad esempio, dal [!UICONTROL **Menu principale**] ![Icona menu principale](assets/lines-main-menu.png) in Workfront, fare clic su **[!UICONTROL Progetti]**.
 
    Viene visualizzato un elenco di progetti.
 
 1. Fai clic sull&#39;icona **[!UICONTROL Grafico di Gantt]** ![Icona di Gantt](assets/gantt-icon-nwe.png) nell&#39;angolo superiore destro dello schermo.
 
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: images conditioned for classic and nwe) <br></p>
-   -->
-
-1. Fare clic sull&#39;icona **[!UICONTROL Mostra elenco attività]**.
+1. Fare clic sull&#39;icona **[!UICONTROL Mostra elenco attività]** ![Mostra elenco attività](assets/show-task-list-icon.png).
 
 1. Nell&#39;elenco a sinistra del progetto fare clic sulla freccia a discesa accanto al nome del progetto per visualizzare tutte le attività del progetto.\
    Visualizza informazioni sull&#39;attività nel [!UICONTROL Diagramma di Gantt].\
@@ -132,7 +157,7 @@ Per visualizzare le attività di un progetto da un elenco di progetti:
    >
    >Lo snapshot della timeline viene visualizzato solo dopo aver fatto clic sulla barra di scorrimento orizzontale.
 
-   ![stretchy_gantt_minimap_with_outline__1_.png](assets/stretchy-gantt-minimap-with-outline--1--350x140.png)
+   ![Mini-mappa snapshot sequenza temporale](assets/stretchy-gantt-minimap-with-outline--1--350x140.png)
 
 1. (Facoltativo) Fai clic in un punto qualsiasi all’interno dello snapshot della linea temporale per passare a un punto specifico della durata del progetto.\
    Oppure\

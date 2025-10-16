@@ -6,9 +6,9 @@ description: È possibile preventivare le risorse in Adobe Workfront Resource Pl
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2127'
+source-wordcount: '2098'
 ht-degree: 0%
 
 ---
@@ -35,36 +35,31 @@ Prima di iniziare a inserire le informazioni sul budget nella Programmazione del
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-    <td><p>Nuovo: Qualsiasi</p>
-       <p>oppure</p>
-       <p>Corrente: Pro o superiore</p> </td> 
+   <td>Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td><p>Nuovo: Standard</p>
-       <p>oppure</p>
-       <p>Corrente: Piano</p></td> 
+   <td>Licenza Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Piano</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td>Configurazioni del livello di accesso</td> 
    <td> <p>Modifica l'accesso a Gestione risorse, incluso l'accesso a Modifica priorità e ore preventivate nella Programmazione risorse</p> <p>Modifica accesso ai dati finanziari per preventivare le risorse in base al costo</p> <p>Modifica accesso a progetti e utenti</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni oggetto</td> 
    <td> <p>Gestire le autorizzazioni per i progetti per i quali si desidera preventivare le informazioni</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -109,7 +104,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    * Fai clic sul menu **Altro** per il progetto, quindi fai clic su **Imposta ore pianificate dei ruoli come preventivate**.\
      Le ore preventivate per ciascun ruolo vengono calcolate utilizzando la formula seguente:\
-     &#x200B;*
+     *
 
      `Role Budgeted Hours = Role Planned Hours`
 
@@ -158,7 +153,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 Per informazioni sull&#39;accesso necessario per l&#39;impostazione del budget delle risorse, vedere l&#39;articolo [Accesso necessario per il preventivo delle risorse in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
-Per preventivare le allocazioni nella Programmazione risorse nella vista Ruolo&#x200B;**&#x200B;**:
+Per preventivare le allocazioni nella Programmazione risorse nella vista Ruolo****:
 
 1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront.
 
@@ -179,8 +174,8 @@ Per preventivare le allocazioni nella Programmazione risorse nella vista Ruolo&#
    * Nella colonna **BDG** specificare manualmente un numero di ore preventivate, FTE o costo per le mansioni.\
      In questo modo le ore preventivate per ruolo vengono distribuite alle ore preventivate del progetto per i progetti che puoi gestire.
 
-   * Fai clic sul menu **Altro** per la mansione, quindi fai clic su **Imposta ore pianificate dei progetti come preventivate.**&#x200B;Le ore preventivate per ruolo vengono calcolate utilizzando la formula seguente:\
-     &#x200B;*
+   * Fai clic sul menu **Altro** per la mansione, quindi fai clic su **Imposta ore pianificate dei progetti come preventivate.**Le ore preventivate per ruolo vengono calcolate utilizzando la formula seguente:\
+     *
 
      `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 

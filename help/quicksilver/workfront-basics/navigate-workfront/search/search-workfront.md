@@ -5,9 +5,9 @@ description: È possibile individuare facilmente gli elementi in [!DNL Adobe Wor
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1570'
 ht-degree: 1%
 
 ---
@@ -33,17 +33,14 @@ Puoi visualizzare la casella [!UICONTROL Cerca] nell&#39;angolo superiore destro
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
-   <td> <p>Nuovo: Collaboratore o versione successiva<p>
-   <p>Oppure</p>
-   <p>Corrente: richiesta o successiva </p>
-
-
-</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p>Collaboratore o versione successiva<p>
+   <p>Richiedi o superiore </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -86,7 +83,7 @@ I campi disponibili per la ricerca si basano sul tipo di ricerca: Base o [!UICON
 * **Ricerca di base**: durante la ricerca di oggetti in una ricerca di base, [!DNL Workfront] cerca il testo che potrebbe contenere le parole chiave nei campi seguenti:
 
    * Nomi di oggetto
-   * Descrizione
+   * Descrizioni
    * Campi dati personalizzati
    * Aggiornamenti
    * Nomi di documenti (in ricerche di documenti specifiche e in una ricerca di base)

@@ -6,9 +6,9 @@ description: Puoi disattivare i team che non utilizzi più conservando i dati st
 author: Lisa
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Puoi disattivare i team che non utilizzi più conservando i dati storici associa
    <td> 
     <ul> 
      <li> <p>Menu a discesa di selezione principale nell'area [!UICONTROL Teams]</p> </li> 
-     <li> <p>[!UICONTROL Assegnazioni] completamento automatico</p> </li> 
+     <li> <p>[Assegnazioni UICONTROL] completamento automatico</p> </li> 
      <li> <p>Finestra di dialogo [!UICONTROL Aggiungi a Kanban] in un progetto</p> </li> 
     </ul> </td> 
   </tr> 
@@ -46,23 +46,20 @@ I team disattivati non vengono visualizzati durante la ricerca di un team, ma ve
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader"> <p>Pacchetto Adobe Workfront</p> </td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td>
-   <p>Nuovo: Standard</p>
-   <p>oppure</p>
-   <p>Corrente: Piano</p></td>
-  </tr>
+   <p>Standard</p>
+   <p>Piano</p></td>
+  </tr> 
   <tr>
    <td>Configurazioni del livello di accesso</td>
    <td><p>Per disattivare un team, non è richiesta alcuna configurazione.</p>

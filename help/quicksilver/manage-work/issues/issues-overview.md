@@ -2,23 +2,27 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: Problemi
-description: Le sezioni seguenti contengono informazioni sulla gestione e la conversione dei problemi in Adobe Workfront.
+title: 'Problemi: indice articolo'
+description: Quando lavori a un progetto, potresti scoprire che si verificano eventi imprevisti. Puoi registrare tali eventi imprevisti come problemi per un particolare progetto o per un’attività. Questa sezione contiene le seguenti sottosezioni che descrivono come utilizzare i problemi in Adobe Workfront.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 3615f31e-72a1-4c85-b093-c6f8295e7fda
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 7%
+source-wordcount: '106'
+ht-degree: 0%
 
 ---
 
-# Problemi
+# Problemi: indice degli articoli
 
-Questa sezione contiene le seguenti sottosezioni:
+<!--Audited: 08/2025-->
 
-* [Converti problemi](../../manage-work/issues/convert-issues/convert-issues-overview.md)
-* [Informazioni problema](../../manage-work/issues/issue-information/issue-info-overview.md)
-* [Gestire i problemi](../../manage-work/issues/manage-issues/manage-issues-overview.md)
+Quando lavori a un progetto, potresti scoprire che si verificano eventi imprevisti. Puoi registrare tali eventi imprevisti come problemi per un particolare progetto o per un’attività.
+
+Questa sezione contiene le seguenti sottosezioni che descrivono come utilizzare i problemi in Adobe Workfront:
+
+* [Converti problemi: indice articolo](../../manage-work/issues/convert-issues/convert-issues-overview.md)
+* [Informazioni problema: indice articolo](../../manage-work/issues/issue-information/issue-info-overview.md)
+* [Gestione dei problemi: indice articolo](../../manage-work/issues/manage-issues/manage-issues-overview.md)

@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '589'
 ht-degree: 2%
 
 ---
@@ -23,28 +23,21 @@ In Priorità vengono visualizzati gli elementi di lavoro assegnati all&#39;utent
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> 
-   <p>Nuovo: Qualsiasi </p>
-   <p>Corrente: Pro o superiore</p>
+   <p>Qualsiasi</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> 
-      <p><strong>Caricare documenti</strong></p>
-   <p>Nuovo: Collaboratore</p>
-   <p>Corrente: richiesta</p>
-      <p><strong>Creare le bozze</strong></p>
-        <p>Nuovo: Standard</p>
-     <p>Corrente: Lavoro o Piano</p>
+   <p>Collaboratore o versione successiva per caricare documenti; standard per creare bozze</p>
+   <p>Richiedi o superiore di caricare i documenti; lavoro o superiore per creare le bozze</p>
    </td> 
   </tr> 
   <tr> 
@@ -52,7 +45,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td>Manager o superiore</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modifica accesso ai documenti</p> </td> 
   </tr> 
  </tbody> 
@@ -139,7 +132,7 @@ Fai clic su **Aggiungi file** per sfogliare i file o importarli da un provider D
      </tr> 
      <tr> 
       <td role="rowheader"><b>Bozza avanzata</b></td> 
-      <td> <p>Questa opzione consente di configurare un flusso di lavoro di base o avanzato e di modificare le impostazioni della bozza creata. Per ulteriori informazioni, consulta </p> 
+      <td> <p>Questa opzione consente di configurare un flusso di lavoro di base o avanzato e di modificare le impostazioni della bozza creata. Per ulteriori informazioni, vedi   </p> 
        <ul> 
         <li><p><a href="/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">Crea una bozza avanzata con un flusso di lavoro di base</a> </p> </li> 
         <li> <p><a href="/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md" class="MCXref xref">Creare una bozza avanzata con un flusso di lavoro automatizzato</a></p></li> 

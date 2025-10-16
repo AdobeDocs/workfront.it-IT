@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 0c2a54406ceb690e638cdc0376a3dc01a7c2df76
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2412'
 ht-degree: 0%
 
 ---
@@ -47,31 +47,27 @@ Un campo personalizzato calcolato può contenere:
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>piano Adobe Workfront</p> </td> 
-   <td>Qualsiasi</td> 
+  <tr> 
+   <td>Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td>
-   <p>Nuovo: Standard</p>
-   <p>oppure</p>
-   <p>Corrente: Piano</p></td>
+   <td>Licenza Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Piano</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
+  <tr> 
+   <td>Configurazioni del livello di accesso</td> 
    <td> <p>Accesso amministrativo ai moduli personalizzati</p> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -182,7 +178,7 @@ Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contene
 
       Ogni campo deve essere racchiuso tra parentesi graffe. Quando si inizia a digitare il nome di un campo, il sistema formula dei suggerimenti ed è possibile selezionarne uno per inserirlo nel calcolo.
 
-+++ **Espandi per visualizzare la sintassi richiesta nei campi personalizzati calcolati**
+      +++ **Espandi per visualizzare la sintassi richiesta nei campi personalizzati calcolati**
 
       Ogni campo deve utilizzare la sintassi illustrata di seguito, con parentesi graffe intorno al nome di ogni campo. Quando si inizia a digitare il nome di un campo, il sistema formula dei suggerimenti ed è possibile selezionarne uno per inserirlo nel calcolo. Se si immettono dati in un calcolo in modo errato, viene visualizzato un messaggio di avviso. Non è possibile salvare il modulo a meno che non si modifichi il calcolo in modo che contenga campi validi e un&#39;espressione calcolata valida.
 
@@ -194,7 +190,7 @@ Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contene
 
       * Se si desidera che il calcolo faccia riferimento a un campo incorporato, il nome del campo deve essere racchiuso tra parentesi graffe.
 
-        Esempio: `{actualRevenue}`
+        Ad esempio: `{actualRevenue}`
 
         I nomi dei campi fanno distinzione tra maiuscole e minuscole e devono essere visualizzati nel calcolo esattamente come appaiono nel sistema Workfront.
 
@@ -202,7 +198,7 @@ Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contene
 
       * Se si desidera che il calcolo faccia riferimento a un campo personalizzato, il nome del campo deve essere racchiuso tra parentesi graffe e preceduto da `DE:` all&#39;interno delle parentesi.
 
-        Esempio: `{DE:Profit}`
+        Ad esempio: `{DE:Profit}`
 
         Il sistema elenca tutti i campi personalizzati tra cui è possibile scegliere quando si digita `DE:`.
 
@@ -282,7 +278,7 @@ Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contene
            >
            ><div>In un modulo personalizzato allegato a un oggetto, le istruzioni di data e ora nei campi personalizzati calcolati vengono calcolate e salvate in base al tempo UTC (Coordinated Universal Time) e non in base alle configurazioni del fuso orario impostate per l’istanza della tua organizzazione e il tuo profilo utente. I calcoli in un modulo personalizzato vengono generati in base ai singoli fusi orari degli utenti.</div>
 
-+++
+        +++
 
    1. Fai clic nella casella di testo grande, quindi fai clic su **Espressioni** e **Campi** disponibili per aggiungerli al calcolo.
 
@@ -292,7 +288,7 @@ Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contene
 
       Se si digita una parentesi aperta, la parentesi chiusa viene aggiunta automaticamente.
 
-+++ **Espandi per visualizzare suggerimenti utili**
+      +++ **Espandi per visualizzare suggerimenti utili**
 
       >[!TIP]
       >
@@ -309,7 +305,7 @@ Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contene
       >  ![Anteprima calcolo](assets/preview-calc.jpg)
       >* Riferimento alle espressioni in un calcolo lungo utilizzando i numeri di riga visualizzati a sinistra.
 
-+++
+      +++
    1. Fare clic su **Riduci a icona** al termine della creazione del calcolo per il campo personalizzato calcolato.
 
    1. (Facoltativo) Utilizza una delle seguenti opzioni per configurare ulteriormente il campo personalizzato calcolato:

@@ -7,9 +7,9 @@ description: Lo scopo di una dashboard è quello di fornire un accesso rapido al
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -24,43 +24,34 @@ Lo scopo di una dashboard è quello di fornire un accesso rapido alle informazio
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Devi avere i seguenti:
 
-<table style="table-layout:auto">
+<table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>piano Adobe Workfront</strong></p> </td> 
-   <td>Qualsiasi</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
+   <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Licenza Adobe Workfront</strong></p> </td> 
-      <td> 
-      <p>Novità:</p>
-         <ul>
-         <li><p>Collaboratore o versione successiva</p></li>
-         </ul>
-      <p>Corrente:</p>
-         <ul>
-         <li><p>Revisione o successiva</p></li>
-         </ul>
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> 
+      <p>Collaboratore o versione successiva</p>
+      <p>Revisione o successiva</p>
    </td> 
   </tr> 
   <tr> 
-   <td><strong>Livello di accesso</strong> </td> 
-   <td> <p>Accesso a report, dashboard e calendari in visualizzazione o superiore</p> </td> 
-  </tr> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Accesso a report, dashboard e calendari</p></td> 
+  </tr>  
   <tr> 
-   <td> <p><strong>Autorizzazioni oggetto</strong> </p> </td> 
-   <td> <p>Visualizzare le autorizzazioni per il dashboard</p>  </td> 
+   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td> <p>Visualizzare le autorizzazioni per il dashboard</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

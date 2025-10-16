@@ -7,62 +7,58 @@ description: Nel pannello Dettagli documento e Riepilogo per documenti è possib
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: cfad5855-033c-4a15-b5a2-7ff32ed65fe9
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
 # Visualizzare i metadati mappati per Experience Manager Assets o Assets Essentials
 
-Nel pannello Dettagli documento e Riepilogo per documenti è possibile visualizzare in tempo reale i metadati mappati. I campi metadati vengono mappati per la prima volta quando invii una risorsa da Workfront a Experience Manager Assets o ad Assets Essentials. Se l&#39;amministratore di Workfront ha attivato la sincronizzazione dei metadati dell&#39;oggetto, i campi rimangono aggiornati se vengono modificati in una delle applicazioni.
+Nel pannello Dettagli documento e Riepilogo per documenti è possibile visualizzare in tempo reale i metadati mappati. I campi metadati vengono mappati per la prima volta quando invii una risorsa da Workfront a Experience Manager Assets o Assets Essentials. Se l&#39;amministratore di Workfront ha attivato la sincronizzazione dei metadati dell&#39;oggetto, i campi rimangono aggiornati se vengono modificati in una delle applicazioni.
 
 ## Requisiti di accesso
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Devi avere i seguenti:
-
 <table>
   <tr>
-   <td><strong>Piano Adobe Workfront*</strong>
+   <td><strong>Pacchetto Adobe Workfront</strong>
    </td>
    <td>Qualsiasi
    </td>
   </tr>
   <tr>
-   <td><strong>Licenze Adobe Workfront*</strong>
+   <td><strong>Licenze Adobe Workfront</strong>
    </td>
-   <td>Richiedi o superiore
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Prodotto</strong>
-   </td>
-   <td>È necessario disporre di Assets Essentials di Experience Manager Assets as a Cloud Service e aggiungerli al prodotto come utente nell’Admin Console.
+   <td>
+   <p>Collaboratore o versione successiva</p>
+   <p>Richiedi o superiore</p>
    </td>
   </tr>
   <tr>
-   <td><strong>Configurazioni del livello di accesso*</strong>
+   <td><strong>Prodotti aggiuntivi</strong>
    </td>
-   <td>Modifica accesso ai documenti
-<p>
-<strong>Nota: </strong>Se non disponi ancora dell'accesso, chiedi all'amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <strong>Creare o modificare livelli di accesso personalizzati</strong>.
+   <td>Devi disporre di Experience Manager Assets as a Cloud Service o Assets Essentials e devi essere aggiunto al prodotto come utente in Admin Console.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Configurazioni del livello di accesso</strong>
+   </td>
+   <td><p>Modifica accesso ai documenti</p>
    </td>
   </tr>
   <tr>
    <td><strong>Autorizzazioni oggetto</strong>
    </td>
    <td>Accesso di visualizzazione o versione successiva
-<p>
-Per informazioni sulla richiesta di accesso aggiuntivo, vedere <strong>Richiedere l'accesso agli oggetti </strong>.
    </td>
   </tr>
 </table>
 
 
-*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,7 +66,7 @@ Per informazioni sulla richiesta di accesso aggiuntivo, vedere <strong>Richieder
 
 Prima di iniziare,
 
-* L’amministratore di Workfront deve configurare un’integrazione Experience Manager. Per ulteriori informazioni, consulta [Configurare Experience Manager Assets as a Cloud Service Integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) o [Configurare l&#39;integrazione Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* L’amministratore di Workfront deve configurare un’integrazione Experience Manager. Per ulteriori informazioni, consulta [Configurare l&#39;integrazione Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) o [Configurare l&#39;integrazione Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 
 ## Dettagli Documento

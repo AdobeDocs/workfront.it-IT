@@ -6,9 +6,9 @@ description: Quando colleghi [!DNL Jira] problemi ad [!DNL Adobe Workfront] atti
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
-source-git-commit: 064418302767ad20e176080ba9a12db548750f3c
+source-git-commit: b1b55b8046aa771abb2cceda333940ccf827356a
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1657'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 0%
 >
 >È consigliabile utilizzare l’automazione e l’integrazione di Workfront per le esigenze di integrazione della tua organizzazione con Jira.
 >
->Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Per informazioni sulle funzionalità specifiche dei moduli di automazione e integrazione di Workfront per Jira, vedere [Moduli software Jira](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules).
+>Per informazioni sulle funzionalità specifiche dei moduli di automazione e integrazione di Workfront per Jira, vedere [Moduli software Jira](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules).
 
 <!--
 
@@ -35,9 +35,9 @@ ht-degree: 0%
 >
 >Eight ready-to-use Workfront Automation and Integration templates for Jira will be available by August to help replicate common workflows and accelerate implementation. Templates are fully customizable to meet specific business needs and can be extended as requirements evolve. 
 > 
->For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
+>For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
 >
->For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
+>For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
 
 -->
 
@@ -51,38 +51,37 @@ Per ulteriori informazioni sulla sincronizzazione dei campi tra gli elementi col
 
 ## Requisiti di accesso
 
-Devi avere i seguenti:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
-   <td><p>Nuovo: Qualsiasi</p>
-       <p>oppure</p>
-       <p>Corrente: [!UICONTROL Pro] o versione successiva</p> </td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
-   <td><p>Nuovo: [!UICONTROL Standard]</p>
-       <p>oppure</p>
-       <p>Corrente: [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td><p>Standard </p>
+       <p>Piano </p>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Jira] accesso</td> 
-   <td> <p>Accesso amministratore di sistema</p> <p>Importante: è consigliabile creare account di amministratore di sistema separati in [!DNL Jira] e [!DNL Workfront] per dedicarsi a questa integrazione, anziché utilizzare account esistenti che potrebbero essere collegati agli utenti.</p> </td> 
+   <td role="rowheader">Accesso Jira</td> 
+   <td> <p>Accesso amministratore di sistema</p> <p>Importante: è consigliabile creare account amministratore di sistema separati in Jira e Workfront per dedicarsi a questa integrazione, anziché utilizzare account esistenti che potrebbero essere collegati agli utenti.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Devi essere un amministratore [!DNL Workfront].</p> </td> 
+   <td> <p>Devi essere un amministratore di Workfront.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisiti
 
@@ -221,7 +220,7 @@ L&#39;ora viene visualizzata anche nella scheda **[!UICONTROL Ore]** dell&#39;el
 
 >[!IMPORTANT]
 >
->Se l&#39;utente che registra l&#39;ora in [!DNL Jira] non esiste in [!DNL Workfront], l&#39;integrazione crea un nuovo utente attivo in Workfront se **[!UICONTROL Crea automaticamente un utente in [!DNL Workfront]&#x200B;se l&#39;utente [!DNL Jira] non ha un *[!DNL Workfront]&#x200B;account]** è impostato su&#x200B;**[!UICONTROL &#x200B; Sempre &#x200B;]**. Questo utente non occupa una licenza [!DNL Workfront]. È possibile assegnare utenti attivi agli elementi di lavoro in [!DNL Workfront], ma non è possibile includerli negli aggiornamenti. Per informazioni sulla configurazione della creazione automatica di [!DNL Workfront] utenti da [!DNL Jira], vedere [Configurazione [!DNL Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+>Se l&#39;utente che registra l&#39;ora in [!DNL Jira] non esiste in [!DNL Workfront], l&#39;integrazione crea un nuovo utente attivo in Workfront se **[!UICONTROL Crea automaticamente un utente in [!DNL Workfront]&#x200B;se l&#39;utente [!DNL Jira] non ha un *[!DNL Workfront]&#x200B;account]** è impostato su**[!UICONTROL  Sempre ]**. Questo utente non occupa una licenza [!DNL Workfront]. È possibile assegnare utenti attivi agli elementi di lavoro in [!DNL Workfront], ma non è possibile includerli negli aggiornamenti. Per informazioni sulla configurazione della creazione automatica di [!DNL Workfront] utenti da [!DNL Jira], vedere [Configurazione [!DNL Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
 Per registrare l&#39;ora di un elemento in [!DNL Jira] e registrarlo sia in [!DNL Jira] che in [!DNL Workfront]:
 

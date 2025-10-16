@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -30,31 +30,27 @@ Per ulteriori informazioni, vedere [Panoramica sulla conversione dei problemi in
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>piano Adobe Workfront</p> </td> 
-   <td>Qualsiasi</td> 
+  <tr> 
+   <td>Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td>
-   <p>Nuovo: Standard</p>
-   <p>oppure</p>
-   <p>Corrente: Piano</p></td> 
+   <td>Licenza Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Piano</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
+  <tr> 
+   <td>Configurazioni del livello di accesso</td> 
    <td> <p>Accesso amministrativo ai moduli personalizzati</p> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -79,8 +75,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. Aggiungere altri oggetti al modulo personalizzato per il problema o l&#39;attività da convertire, come illustrato nella sezione [Primo: aggiungere altri oggetti al modulo personalizzato](#first-add-additonal-objects-to-the-custom-form) in questo articolo.
 1. Convertire il problema o l&#39;attività utilizzando l&#39;opzione **Forms** personalizzato nella casella visualizzata per selezionare il modulo personalizzato necessario. Per istruzioni, vedere i seguenti articoli:
 
-   * [Convertire un problema in un progetto in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
-   * [Convertire un problema in un’attività in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
+   * [Convertire un problema in un progetto](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
+   * [Convertire un problema in un’attività](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
    * [Convertire un’attività in un progetto](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)
 
 1. Nella finestra di dialogo **Converti in (tipo di oggetto)** visualizzata, fare clic sul menu a discesa **Aggiungi Forms** e selezionare il modulo copiato nella sezione precedente.

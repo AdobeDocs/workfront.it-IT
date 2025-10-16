@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '2771'
+source-wordcount: '2763'
 ht-degree: 4%
 
 ---
@@ -35,31 +35,23 @@ Il rapporto Voce diario può mostrare:
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-      <td> 
-      <p>Nuovo:</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Corrente:</p>
-         <ul>
-         <li><p>Piano</p></li>
-         </ul>
-   </td> 
+   <td> 
+      <p>Standard</p>
+      <p>Piano</p>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td role="rowheader">Configurazione del livello di accesso</td> 
    <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> </td> 
   </tr> 
   <tr> 
@@ -69,7 +61,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -111,7 +103,7 @@ La visualizzazione predefinita per questo report contiene le colonne seguenti:
    <td><strong>Tipo di modifica</strong> </td> 
    <td> <p>Tipo di modifica apportata al campo interessato. A seconda delle regole di filtro impostate e delle azioni eseguite dagli utenti, in questo campo potrebbero essere visualizzati i seguenti elementi:</p> 
     <ul> 
-     <li> <p>Aggiungi</p> </li> 
+     <li> <p>Add</p> </li> 
      <li> <p>Controllo</p> </li> 
      <li> <p>Elimina</p> </li> 
      <li> <p>Digest</p> </li> 
@@ -189,7 +181,7 @@ Queste informazioni possono essere utilizzate per facilitare il controllo e per 
     </thead> 
     <tbody> 
      <tr> 
-      <td> <p style="font-weight: bold;">Nome Campo</p> </td> 
+      <td> <p style="font-weight: bold;">Nome campo</p> </td> 
       <td> <p>Nome del campo interessato. In questo caso, <strong>status</strong> deve essere visualizzato in questa colonna.</p> </td> 
      </tr> 
      <tr> 
@@ -387,7 +379,7 @@ Per vedere come sono cambiati i campi personalizzati nel corso del ciclo di vita
     </thead> 
     <tbody> 
      <tr> 
-      <td> <p style="font-weight: bold;">Nome Campo</p> </td> 
+      <td> <p style="font-weight: bold;">Nome campo</p> </td> 
       <td> <p>Nome del campo personalizzato interessato.</p> <p><span style="font-weight: normal;">Quando</span> <strong>DE</strong>:<span style="font-weight: normal;"> viene visualizzato in questa colonna, indica che il campo elencato è un campo personalizzato.</span></p> </td> 
      </tr> 
      <tr> 
@@ -489,7 +481,7 @@ Per vedere come sono cambiati i campi personalizzati nel corso del ciclo di vita
     </thead> 
     <tbody> 
      <tr> 
-      <td> <p style="font-weight: bold;">Nome Campo</p> </td> 
+      <td> <p style="font-weight: bold;">Nome campo</p> </td> 
       <td> <p>Nome del campo interessato.</p> <p><span style="font-weight: normal;">Quando</span> <strong>DE</strong>:<span style="font-weight: normal;"> viene visualizzato in questa colonna, indica che il campo elencato è un campo personalizzato.</span></p> </td> 
      </tr> 
      <tr> 
@@ -590,7 +582,7 @@ Per vedere come sono cambiati i campi personalizzati nel corso del ciclo di vita
     </thead> 
     <tbody> 
      <tr> 
-      <td> <p style="font-weight: bold;">Nome Campo</p> </td> 
+      <td> <p style="font-weight: bold;">Nome campo</p> </td> 
       <td>Nome del campo interessato. Il <strong>ownerID</strong> viene visualizzato in questa colonna.</td> 
      </tr> 
      <tr> 

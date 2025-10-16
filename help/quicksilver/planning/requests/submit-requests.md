@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 3942ba8d626a854344624bc5b7ea3ad01e8ad7fb
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '1996'
 ht-degree: 0%
 
 ---
@@ -41,70 +41,42 @@ Per informazioni su come un manager area di lavoro può creare un modulo di rich
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Prodotti</p> </td>
-   <td>
-   <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Adobe Workfront Planning<p></li></ul></td>
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Pacchetti Adobe Workfront</p></td> 
+   <td> 
+<ul><li><p>Qualsiasi pacchetto Workfront</p></li>
+E
+<li><p>Qualsiasi pacchetto Planning</p></li></ul>
+Oppure
+<ul><li><p>Qualsiasi pacchetto flusso di lavoro</p></li>
+E
+<li><p>Qualsiasi pacchetto Planning</p></li></ul>
+   </td> </tr>
+
+</tr> 
+  <tr> 
+   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td><p>Licenza Esterna, Collaboratore, Light o Standard</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td>   <p>Visualizza o autorizzazioni superiori per un’area di lavoro e un tipo di record, se sei un utente di Workfront</p>  </td> 
   </tr>  
- <tr>
-   <td role="rowheader"><p>Piano Adobe Workfront*</p></td>
-   <td>
-<p>Uno dei seguenti piani di Workfront:</p>
-<ul><li>Seleziona</li>
-<li>Prime</li>
-<li>Ultimate</li></ul>
-<p>Workfront Planning non è disponibile per i piani Workfront legacy</p>
-   </td>
-<tr>
-   <td role="rowheader"><p>Pacchetto Adobe Workfront Planning*</p></td>
-   <td>
-<p>Qualsiasi </p>  
-<p>Per ulteriori informazioni su quanto incluso in ogni piano di Workfront Planning, contattare l'account manager Workfront. </td>
-<tr>
-   <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td>
-   <td>
-<p>Per poter accedere a Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p>
-<p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Esperienza unificata Adobe per Workfront</a>. </p>
-   </td>
-
-</tr>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Licenza Adobe Workfront*</p></td>
-   <td>
-   <p>Licenza Esterna, Collaboratore, Light o Standard</p>
-   <p>Workfront Planning non è disponibile per le licenze Workfront legacy</p>
-  </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Configurazione del livello di accesso</p></td>
-   <td> <p>Nessun controllo del livello di accesso per Adobe Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td>
-   <td>
-   <p>Visualizza o autorizzazioni superiori per un’area di lavoro e un tipo di record, se sei un utente di Workfront</p> 
-  </td>
-  </tr>
- </tbody>
+</tbody> 
 </table>
 
-*Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
 
 ## Prerequisiti
 
@@ -269,7 +241,7 @@ L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi
    >
    >* Se il modulo di richiesta è associato a un’approvazione, questa deve essere concessa prima di poter accedere al record dalla pagina della richiesta.
 
-1. (Facoltativo) Fare clic sul nome del tipo di record **&#x200B;**.
+1. (Facoltativo) Fare clic sul nome del tipo di record ****.
 
    La pagina del tipo di record viene visualizzata in Workfront Planning.
 
@@ -340,7 +312,7 @@ L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi
    >
    >* Se il modulo di richiesta è associato a un’approvazione, questa deve essere concessa prima di poter accedere al record dalla pagina della richiesta.
 
-1. (Facoltativo) Fare clic sul nome del tipo di record **&#x200B;**.
+1. (Facoltativo) Fare clic sul nome del tipo di record ****.
 
    La pagina del tipo di record viene visualizzata in Workfront Planning.
 

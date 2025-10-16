@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: 46e072d40cc881c3a903c8fd51475dc185f1f849
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 0%
@@ -53,11 +53,11 @@ Fornire all&#39;amministratore di rete le informazioni seguenti:
   </tr> 
   <tr> 
    <td role="rowheader">Il cluster</td> 
-   <td>Per individuare il cluster dell'organizzazione, vedere <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Visualizzare il cluster e il piano Workfront dell'organizzazione</a>.</td> 
+   <td>Per individuare il cluster dell'organizzazione, vedere <a href="#view-your-organization-s-cluster-and-workfront-package" class="MCXref xref">Visualizzare il cluster e il pacchetto Workfront dell'organizzazione</a>.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Piano Workfront</td> 
-   <td> <p>Per individuare il piano dell'organizzazione, vedere <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Visualizzare il cluster e il piano Workfront dell'organizzazione.</a></p> </td> 
+   <td role="rowheader">Pacchetto Workfront</td> 
+   <td> <p>Per individuare il pacchetto dell'organizzazione, vedere <a href="#view-your-organization-s-cluster-and-workfront-package" class="MCXref xref">Visualizzare il cluster e il pacchetto Workfront dell'organizzazione.</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Il tuo dominio</td> 
@@ -93,7 +93,7 @@ Fornire all&#39;amministratore di rete le informazioni seguenti:
 >
 >Se aggiungi uno di questi prodotti, integrazioni o funzionalità in una data successiva, devi contattare l’amministratore di rete in modo che possa regolare il inserisco nell&#39;elenco Consentiti di.
 
-### Visualizza il piano Workfront e il cluster della tua organizzazione {#view-your-organization-s-cluster-and-workfront-plan}
+### Visualizzare il cluster e il pacchetto Workfront della tua organizzazione {#view-your-organization-s-cluster-and-workfront-package}
 
 {{step-1-to-setup}}
 
@@ -104,8 +104,8 @@ Fornire all&#39;amministratore di rete le informazioni seguenti:
 
    ![Individua cluster](assets/locate-cluster.png)
 
-1. Per visualizzare il piano Workfront, selezionare **Licenze**.
+1. Per visualizzare il pacchetto Workfront, selezionare **Licenze**.
 
-   Il piano viene visualizzato nell’angolo superiore destro della pagina.
+   Il pacchetto viene visualizzato nell’angolo superiore destro della pagina.
 
    ![Individua piano](assets/locate-plan.png)

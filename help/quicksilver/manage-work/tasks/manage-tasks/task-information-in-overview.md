@@ -1,14 +1,14 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: Gestire le informazioni sull'attività nell'area Panoramica dettagli attività
-description: Gestire le informazioni sull'attività nell'area Panoramica dettagli attività
+title: Gestire le informazioni sul task nell'area Panoramica dettagli task
+description: È possibile visualizzare o modificare le informazioni di un'attività accedendo all'area Panoramica della sezione Dettagli attività. Nella sezione Dettagli attività è disponibile un numero limitato di campi che è possibile visualizzare o modificare.
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '2089'
+source-wordcount: '2102'
 ht-degree: 4%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 4%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, do it in both articles)</p>
 -->
 
-È possibile visualizzare o modificare le informazioni di un&#39;attività accedendo all&#39;area Panoramica della sezione Dettagli attività . In quest’area è disponibile un numero limitato di campi che è possibile visualizzare o modificare. Per informazioni sulla modifica di tutte le informazioni per un&#39;attività, vedere [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+È possibile visualizzare o modificare le informazioni di un&#39;attività accedendo all&#39;area Panoramica della sezione Dettagli attività. Nella sezione Dettagli attività è disponibile un numero limitato di campi che è possibile visualizzare o modificare.
+
+Per informazioni sulla modifica di tutte le informazioni per un&#39;attività, vedere [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 In questo articolo viene descritto come visualizzare o modificare le informazioni nell&#39;area Panoramica di Dettagli task. Per informazioni sull&#39;aggiornamento di altre aree di Dettagli attività, vedere i seguenti articoli:
 
@@ -29,31 +31,29 @@ In questo articolo viene descritto come visualizzare o modificare le informazion
 
 ## Requisiti di accesso
 
-Devi avere i seguenti:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;">
-   *Per informazioni sulla pianificazione, il tipo di licenza o l'accesso disponibili, contattare l'amministratore Workfront. 
- </caption> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Piano Adobe Workfront<b>*</b> </p> </td> 
+   <td> <p>Pacchetto Adobe Workfront</p> </td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td> <p>Licenza Adobe Workfront<b>*</b> </p> </td> 
-   <td> <p>Lavoro o superiore</p> </td> 
+   <td> <p>Licenza Adobe Workfront </p> </td> 
+   <td><p>Standard</p> 
+   <p>Lavoro o superiore</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Configurazioni del livello di accesso*</strong> </td> 
-   <td> <p>Accesso di visualizzazione o superiore ai progetti e alle attività</p> <p>Se disponi del livello di accesso corretto ma non riesci ancora a modificare la sezione Dettagli dell’attività, chiedi all’Adobe Workfront se ha impostato restrizioni aggiuntive nel livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td>Configurazioni del livello di accesso</td> 
+   <td> <p>Accesso di visualizzazione o superiore ai progetti e alle attività</p> <p>Se disponi del livello di accesso corretto ma non riesci ancora a modificare la sezione Dettagli dell’attività, chiedi all’Adobe Workfront se ha impostato restrizioni aggiuntive nel livello di accesso. </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Autorizzazioni oggetto</strong> </p> </td> 
-   <td> <p>Contribute o autorizzazioni superiori per il progetto</p> <p>Visualizzare le autorizzazioni per l'attività per visualizzare le informazioni nella sezione Dettagli. </p> 
-   <p>Autorizzazioni di Contribute per l’attività per aggiornare le seguenti informazioni nella sezione Dettagli:</p>
+   <td> <p>Autorizzazioni oggetto</p> </td> 
+   <td> <p>Autorizzazioni Contribute o superiori per il progetto</p> <p>Visualizzare le autorizzazioni per l'attività per visualizzare le informazioni nella sezione Dettagli. </p> 
+   <p>Autorizzazioni di Contribute per l'attività per aggiornare le seguenti informazioni nella sezione Dettagli:</p>
 
 <ul>
    <li>Descrizione</li>
@@ -64,6 +64,42 @@ Devi avere i seguenti:
   </tr> 
  </tbody> 
 </table>
+
+Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Workfront<b> plan*</b> </p> </td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront<b> license*</b> </p> </td> 
+   <td> <p>Work or higher</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><strong>Access level configurations*</strong> </td> 
+   <td> <p>View or higher access to Projects and Tasks</p> <p>If you have the correct access level but still can't edit the Details  section  of the task, ask your Adobe Workfront if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><strong>Object permissions</strong> </p> </td> 
+   <td> <p>Contribute or higher permissions for the project</p> <p>View permissions for the task to view information in the Details section. </p> 
+   <p>Contribute permissions for the task to update the following information  in the Details section:</p>
+
+   <ul>
+   <li>Description</li>
+   <li>Status</li>
+   </ul>
+   
+   <p>Manage permissions for the task to update all information in the Details section.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Modificare le informazioni sull&#39;attività nella sezione Panoramica dei dettagli attività
 
@@ -155,7 +191,7 @@ Devi avere i seguenti:
             <td>Abbreviazione</td> 
            </tr> 
            <tr> 
-            <td>Minuti</td> 
+            <td>Minutes</td> 
             <td>M</td> 
            </tr> 
            <tr> 
@@ -167,12 +203,12 @@ Devi avere i seguenti:
             <td>Dsbld</td> 
            </tr> 
            <tr> 
-            <td>Settimane</td> 
+            <td>Weeks</td> 
             <td>M</td> 
            </tr> 
            <tr> 
-            <td>Mesi</td> 
-            <td>G</td> 
+            <td>Months</td> 
+            <td>T</td> 
            </tr> 
            <tr> 
             <td>Minuti trascorsi</td> 

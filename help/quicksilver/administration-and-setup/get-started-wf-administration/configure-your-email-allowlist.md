@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 76b6acc4-c432-47b4-90bf-6e37e970625f
-source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
+source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Questa opzione è utile se i criteri di sicurezza dell&#39;organizzazione impedi
 >Tutte le e-mail provenienti da Workfront vengono inviate da tale indirizzo per aumentare la consegna delle e-mail e per eliminare lo spoofing delle e-mail. Ciò include sia gli avvisi automatici che la comunicazione utente-utente.
 >
 >Ad esempio, la riga Da di un&#39;e-mail Workfront ricevuta da un utente di nome Joan Harris sarà simile alla seguente:
->`Joan Harris <notifications@my.workfront.com>`
+>>`Joan Harris <notifications@my.workfront.com>`
 
 Per informazioni sulla configurazione del firewall dell&#39;organizzazione per aprire la comunicazione tra l&#39;ambiente e i server Adobe Workfront, vedere [Configurare il inserisco nell&#39;elenco Consentiti di del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
@@ -39,34 +39,32 @@ Per informazioni sulla configurazione del firewall dell&#39;organizzazione per a
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td>Qualsiasi</td> 
+   <td role="rowheader">Pacchetto Workfront</td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td>Piano</td> 
+   <td><p>Standard</p> <p>Piano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Devi essere un amministratore di Workfront. Per ulteriori informazioni, vedere <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>.</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td>Devi essere un amministratore di Workfront. </td> 
   </tr> 
  </tbody> 
 </table>
+
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Inserire nell&#39;elenco Consentiti Altri
 
-Se la tua organizzazione dispone del piano Enterprise, puoi configurare un Adobe Workfront di inserire nell&#39;elenco Consentiti IP che limita l’accesso a Workfront a 75 indirizzi IP o intervalli di indirizzi IP specificati. Questo fornisce un ulteriore livello di sicurezza per l’applicazione Workfront. Per ulteriori informazioni, vedere [Limitare l&#39;accesso ad Adobe Workfront per indirizzo IP](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
-
-Inoltre, se il firewall o il server di posta è configurato in modo da consentire l&#39;accesso solo a determinati fornitori, è necessario aggiungere determinati indirizzi IP al relativo inserisco nell&#39;elenco Consentiti di. Questo apre la comunicazione tra l’ambiente e i server Adobe Workfront. Per ulteriori informazioni, vedere [Configurare il inserisco nell&#39;elenco Consentiti di configurazione del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Se il firewall o il server di posta è configurato in modo da consentire l&#39;accesso solo a determinati fornitori, è necessario aggiungere determinati indirizzi IP al relativo inserisco nell&#39;elenco Consentiti di posta elettronica. Questo apre la comunicazione tra l’ambiente e i server Adobe Workfront. Per ulteriori informazioni, vedere [Configurare il inserisco nell&#39;elenco Consentiti di configurazione del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Configurare la inserisce nell&#39;elenco Consentiti di e-mail per l’e-mail
 

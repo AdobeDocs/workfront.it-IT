@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,42 @@ ht-degree: 0%
 
 In Priorità vengono visualizzati gli elementi di lavoro assegnati all&#39;utente. Non è possibile visualizzare gli elementi di lavoro assegnati al team.
 
+## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Pacchetto Adobe Workfront</strong></td> 
+   <td> <p>Qualsiasi</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Licenza Adobe Workfront</strong></td> 
+   <td> 
+   <p>Revisore o versione successiva</p>
+   <p>Chiaro o superiore</p> 
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Configurazioni del livello di accesso</strong></td> 
+   <td> <p>Accesso di visualizzazione o modifica per l'oggetto su cui si trova l'aggiornamento</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
+   <td> <p>Accesso di visualizzazione all'oggetto</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 ## Assegna le priorità al lavoro con la colonna Il mio focus
 
 {{step1-to-priorities}}
@@ -26,7 +62,7 @@ In Priorità vengono visualizzati gli elementi di lavoro assegnati all&#39;utent
 1. Individuare l&#39;elemento di lavoro su cui si desidera concentrarsi.
 1. Nella colonna **Stato attivo** scegliere uno dei seguenti livelli di stato attivo:
 
-   | Fuoco | Descrizione |
+   | Focus | Descrizione |
    |-----------|-------------|
    | **Urgente** | Urgente per gli elementi di lavoro che richiedono attenzione immediata. Gli elementi di lavoro urgenti dovrebbero essere prioritari rispetto a tutti gli altri e affrontati il prima possibile. |
    | **Alta** | Alta è per gli elementi di lavoro importanti che intendi risolvere dopo il completamento del lavoro urgente. |

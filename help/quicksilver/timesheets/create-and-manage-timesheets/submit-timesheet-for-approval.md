@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Invia una scheda orario per l'approvazione
 description: L'invio della scheda orario per l'approvazione fornisce al tuo responsabile visibilità sulle ore lavorative. Gli approvatori possono verificare che tutto il tempo registrato sia stato assegnato nelle aree corrette e che sia stato registrato un numero sufficiente di ore per il periodo di tempo.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -23,33 +23,31 @@ L&#39;invio della scheda orario per l&#39;approvazione fornisce al tuo responsab
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td>Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Nuovo: Chiaro o superiore </p>
-   <p>Corrente: revisione o versione successiva </p>
+   <td>Licenza Adobe Workfront</td> 
+   <td> <p>Chiaro o superiore </p>
+   <p>Revisione o successiva </p>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td>Configurazioni del livello di accesso</td> 
    <td> <p>Visualizzare o accedere più facilmente ad attività e problemi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni oggetto</td> 
    <td> <p>Visualizza o autorizzazioni superiori per la scheda orario</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,7 +87,7 @@ Senza queste notifiche, puoi scoprire lo stato delle schede orario inviate nell�
 
 Per visualizzare lo stato di una scheda orario:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
+1. Fai clic sull&#39;icona **del** menu principale![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront.
 1. Fai clic su **Schede orario**. Il filtro **All** è selezionato per impostazione predefinita.
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
@@ -127,11 +125,11 @@ Per visualizzare lo stato di una scheda orario:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Aperti</td> 
+      <td role="rowheader">Open</td> 
       <td> <p>La scheda orario è attualmente aperta e si potrebbe registrare l'ora. </p> <p>Viene visualizzata una scheda orario richiamata con lo stato Aperto. Per informazioni, vedere la sezione <a href="#recall-a-timesheet" class="MCXref xref">Richiama una scheda orario</a> in questo articolo. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Inviate</td> 
+      <td role="rowheader">Inviata</td> 
       <td>La scheda orario è stata inviata per l'approvazione ma non è ancora stata approvata. È possibile richiamare una scheda orario inviata per continuare a modificarla. Per informazioni, vedere la sezione <a href="#recall-a-timesheet" class="MCXref xref">Richiama una scheda orario</a> in questo articolo. </td> 
      </tr> 
      <tr> 
@@ -155,7 +153,7 @@ Per visualizzare lo stato di una scheda orario:
 
 Per richiamare una scheda orario:
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront.
+1. Fai clic sull&#39;icona **del** menu principale![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront.
 
 1. Fai clic su **Schede orario**.
 1. Fai clic su **Le mie schede orario** nell&#39;angolo superiore destro dello schermo o seleziona **Le mie schede orario** dal menu a discesa **Filtra** ![](assets/filter-nwepng.png).

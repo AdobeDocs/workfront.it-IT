@@ -1,14 +1,14 @@
 ---
 product-area: projects
 navigation-topic: manage-projects
-title: Ricalcolare i timeline dei progetti
+title: Ricalcola Timeline Progetto
 description: Il ricalcolo delle sequenze temporali consente ai responsabili di vedere in che modo fattori diversi correlati al progetto influiscono sulla sequenza temporale del progetto. La tempistica di un progetto si riferisce a date pianificate e previste.
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: d846f2f90a8ca2a38c1b18897341cb50f4c5aef4
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
@@ -27,20 +27,20 @@ Il ricalcolo automatico della sequenza temporale viene eseguito senza l&#39;acce
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Standard </p> 
-    <p>Piano </p>
+   <td> <p>Standard</p> 
+    <p>Piano</p>
    </td> 
   </tr> 
   <tr> 
@@ -58,6 +58,32 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 +++
 
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard </p> 
+    <p>Plan </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects</p> <p>System administrator to recalculate timeline for all projects in the system</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to a project</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
+
 ## Ricalcolo automatico
 
 Per impostazione predefinita, le sequenze temporali del progetto vengono ricalcolate automaticamente ogni giorno quando l’ambito del progetto cambia o ogni notte. L’amministratore di Workfront determina se calcolare automaticamente le timeline ogni notte o con ogni modifica dell’ambito gestendo le impostazioni delle Timeline nell’area Preferenze progetto di Configura. Per ulteriori informazioni, vedere [Configurare i ricalcoli della sequenza temporale per i progetti](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
@@ -67,8 +93,8 @@ Per impostazione predefinita, le sequenze temporali del progetto vengono ricalco
 >* Se la sequenza temporale di un progetto supera i 15 anni, il ricalcolo automatico viene disattivato per tale progetto ed è possibile selezionare solo un tipo di aggiornamento Manuale. Se si modificano le date del progetto in meno di 15 anni, è necessario ricalcolare manualmente la sequenza temporale una volta prima che venga calcolata automaticamente.
 >* Per gli ambienti Sandbox di anteprima e aggiornamento personalizzato, il ricalcolo notturno è disattivato e le timeline del progetto non vengono ricalcolate automaticamente. Devi ricalcolare manualmente la timeline del progetto per gli ambienti Sandbox di anteprima e aggiornamento personalizzati.
 >* Se un progetto è complesso, è possibile che il ricalcolo automatico della sequenza temporale non venga eseguito.
->  &#x200B;> Un esempio di progetto complesso può essere un progetto con più dipendenze, un numero elevato di attività, più predecessori tra progetti o più rientri di attività.
->  &#x200B;> Workfront visualizza un avviso a destra del nome del progetto nella pagina del progetto per informare gli utenti che la sequenza temporale del progetto deve essere ricalcolata manualmente. Solo gli utenti con autorizzazioni Manage (Gestisci) per il progetto possono ricalcolare manualmente la timeline.
+>  > Un esempio di progetto complesso può essere un progetto con più dipendenze, un numero elevato di attività, più predecessori tra progetti o più rientri di attività.
+>  > Workfront visualizza un avviso a destra del nome del progetto nella pagina del progetto per informare gli utenti che la sequenza temporale del progetto deve essere ricalcolata manualmente. Solo gli utenti con autorizzazioni Manage (Gestisci) per il progetto possono ricalcolare manualmente la timeline.
 >
 >   ![](assets/project-warning-to-manually-recalculate-timeline.png)
 >

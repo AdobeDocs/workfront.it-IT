@@ -3,14 +3,14 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Crea gruppi di argomenti
 description: I gruppi di argomenti sono associati alle code di richieste. Consentono di disporre le code di richieste in più categorie, a seconda della natura delle richieste.
-author: Alina
+author: Becky
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 0da05d048d0dab1c2f06870e589c1349c48ccc58
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -25,22 +25,19 @@ I gruppi di argomenti sono associati alle code di richieste. È possibile dispor
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Licenza Adobe Workfront</p> </td> 
    <td>   
-      <p>Nuovo: Standard</p>
-      <p>Oppure</p> 
-      <p>Corrente: Piano</p>
+      <p>Standard</p>
+      <p>Piano</p>
  </td> 
   </tr> 
   <tr> 
@@ -54,7 +51,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

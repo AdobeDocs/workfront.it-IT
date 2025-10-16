@@ -6,10 +6,10 @@ description: Puoi condividere un calendario con altri utenti e renderlo disponib
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: 0606dab832753543ceef4b5b505413967176aec4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 0%
+source-wordcount: '590'
+ht-degree: 1%
 
 ---
 
@@ -22,8 +22,6 @@ ht-degree: 0%
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -31,22 +29,21 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
-   <td><p>Nuovo: Chiaro</p>
-       <p>oppure</p>
-       <p>Corrente: Revisione</p></td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td><p>Light</p>
+       <p>Rivedi</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso di [!UICONTROL View] o versione successiva a [!UICONTROL Reports], [!UICONTROL Dashboards] e [!UICONTROL Calendars]</p></td> 
+   <td> <p> Accesso a report, dashboard e calendari in visualizzazione o superiore</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td>Autorizzazioni di [!UICONTROL View] o superiori per il report del calendario, con accesso alla condivisione</td> 
+   <td>Visualizza o autorizzazioni superiori per il report calendario, con accesso alla condivisione</td> 
   </tr> 
  </tbody> 
 </table>

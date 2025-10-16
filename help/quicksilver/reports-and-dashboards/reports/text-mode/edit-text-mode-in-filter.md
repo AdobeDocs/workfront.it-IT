@@ -6,7 +6,7 @@ description: È possibile modificare un filtro in un elenco o in un report utili
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 1%
@@ -25,28 +25,20 @@ Per ulteriori esempi in modalità testo durante la creazione di un filtro, veder
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Devi avere i seguenti:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> 
-      <p>Nuovo:</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Corrente:</p>
-         <ul>
-         <li><p>Piano</p></li>
-         </ul>
-   </td>
+     <p>Standard</p>
+     <p>Piano</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -59,7 +51,7 @@ Devi avere i seguenti:
  </tbody> 
 </table>
 
-Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,7 +81,7 @@ Per informazioni sulla creazione di un report, vedere [Creare un report personal
 
    Per accedere al filtro da un elenco, vai all&#39;elenco e fai clic sull&#39;icona **Filtro**, quindi passa il puntatore del mouse sul filtro nel pannello laterale **Filtri** che desideri modificare e fai clic sull&#39;icona **Modifica** ![Icona Modifica](assets/edit-icon.png). Nel pannello laterale **Filtri** viene visualizzato il filtro selezionato oppure viene aperto il generatore di filtri legacy.
 
-   OPPURE
+   O
 
    Per accedere al filtro da un report, passa al report, quindi fai clic sulla scheda **Azioni report** > **Modifica** > **Filtri**.
 
@@ -97,7 +89,7 @@ Per informazioni sulla creazione di un report, vedere [Creare un report personal
 
    Se si utilizza il pannello laterale **Filtri** in un elenco, fare clic su **Modalità testo**.
 
-   OPPURE
+   O
 
    Se utilizzi il generatore di filtri legacy o in un report, fai clic su **Aggiungi una regola di filtro** per iniziare ad aggiungere le condizioni del filtro. Quindi fare clic su **Passa alla modalità testo** e quindi su **Modifica modalità testo** sul lato destro del generatore.
 

@@ -1,17 +1,17 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: Modifica problemi
+title: Modifica le Issues
 description: Puoi modificare le informazioni sui problemi che hai creato o che altri utenti hanno creato se hanno condiviso i problemi con te. Questo articolo descrive come cercare, trovare e modificare un problema, se si dispone delle autorizzazioni necessarie.
 author: Alina
 feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: b291525db0105081b5ff3dd65d9d2b3267a2f60c
+source-git-commit: 460090a1102465c34e92433e52c0beb240d8e9b9
 workflow-type: tm+mt
-source-wordcount: '2618'
-ht-degree: 2%
+source-wordcount: '2602'
+ht-degree: 3%
 
 ---
 
@@ -27,23 +27,20 @@ Puoi modificare un singolo problema oppure i problemi in un elenco. Per informaz
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td> <p>Qualsiasi </p> </td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
+   <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Nuova licenza:</p>
-   <ul><li>Collaboratore o versione successiva</li>
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <ul><li>Collaboratore o versione successiva</li>
    <li>Chiaro o superiore per modificare i problemi nella sezione Problemi di un’attività o di un progetto</li></ul>
-   <p>Licenza corrente:</p>
-  <ul><li>Richiedi o superiore</li> <li>Revisione o successiva per modificare i problemi nella sezione Problemi di un'attività o di un progetto</li></ul> </td> 
+   Oppure:
+   <ul><li>Richiedi o superiore</li> <li>Revisione o successiva per modificare i problemi nella sezione Problemi di un'attività o di un progetto</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Livello di accesso</td> 
@@ -65,6 +62,42 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 *Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New license:</p>
+   <ul><li>Contributor or higher</li>
+   <li>Light or higher to edit issues in the Issues section of a task or project</li></ul>
+   <p>Current license:</p>
+  <ul><li>Request or higher</li> <li>Review or higher to edit issues in the Issues section of a task or a project</li></ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Issues</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute permissions to an issue to edit the following fields in the Details area: </p>
+   <ul>
+   <li>Description</li>
+   <li>Status</li>
+   <li>Severity</li>
+   </ul>
+   <p>Manage permissions to an issue to edit all the fields in the Details area or in the Edit Issue box</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Limitazioni durante la modifica dei problemi
 

@@ -6,9 +6,9 @@ description: Per impostazione predefinita, le informazioni visualizzate nell'app
 author: Becky and Lisa
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: 0efbc6051443d8e0ed96512b72d0949b288f7c2d
+source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '638'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Per impostazione predefinita, le informazioni visualizzate nell&#39;applicazione Web [!DNL Workfront] vengono spesso visualizzate nelle sezioni del pannello sinistro. Ogni sezione contiene informazioni diverse su un&#39;area o un oggetto [!DNL Workfront].
 
-Per ulteriori informazioni sulle aree predefinite di [!DNL Workfront], vedere l&#39;articolo [Informazioni sul layout predefinito [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+Per ulteriori informazioni sulle aree predefinite di [!DNL Workfront], vedere l&#39;articolo [Informazioni sul layout predefinito [!DNL Adobe Workfront] ](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
 Oltre alle sezioni fornite con [!DNL Workfront] per impostazione predefinita, è possibile aggiungere una dashboard in cui visualizzare informazioni rilevanti per il flusso di lavoro. Non è possibile aggiungere un dashboard a tutte le aree e a tutti gli oggetti.
 
@@ -44,34 +44,32 @@ Nella tabella seguente sono elencate tutte le aree e gli oggetti [!DNL Workfront
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- </col> 
- <col> 
- </col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano*</td> 
-   <td> <p>Qualsiasi</p> </td> 
+   <td>Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
-   <td> <p>[!UICONTROL Review] o versione successiva</p> </td> 
+   <td>Licenza Adobe Workfront</td> 
+   <td>
+   <p>Chiaro o superiore</p>
+   <p>Revisione o successiva</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td>[!UICONTROL Reviewer] o versione successiva</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td>Accesso di visualizzazione al tipo di oggetto</td> 
+   <td>Autorizzazioni oggetto</td> 
+   <td><p>Accesso di visualizzazione al tipo di oggetto</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano o il tipo di licenza disponibile, contattare l&#39;amministratore [!DNL Workfront].
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Aggiungere un dashboard nel pannello sinistro di un oggetto o di un&#39;area [!DNL Workfront]
 

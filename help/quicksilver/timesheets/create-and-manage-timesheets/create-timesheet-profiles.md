@@ -6,9 +6,9 @@ description: Puoi creare, modificare e assegnare profili di schede orario che ge
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 395a7788ddfda71264b7b964953435affd7761e9
+source-git-commit: b0b9b80b4eb718e3e131ee0cd022f54cb906f187
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1584'
 ht-degree: 2%
 
 ---
@@ -29,29 +29,28 @@ Per ulteriori informazioni sulla creazione manuale di una scheda orario, vedere 
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td> <p>Qualsiasi</p> </td> 
-  </tr> 
-   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Nuovo: Standard </p>
- <p>oppure</p> 
-<p>Corrente: Piano </p> 
-</td> 
+   <td>Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>È necessario disporre dell'accesso amministrativo alle schede orario. </p> </td> 
+   <td>Licenza Adobe Workfront</td> 
+   <td>
+   <p>Standard</p>
+   <p>Piano</p></td>
+  </tr> 
+  <tr> 
+   <td>Configurazioni del livello di accesso</td> 
+   <td><p>Accesso amministrativo alle schede orario</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

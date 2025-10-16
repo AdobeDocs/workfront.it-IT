@@ -2,22 +2,24 @@
 content-type: reference
 product-area: portfolios
 navigation-topic: portfolios-navigation-topic
-title: Creare e gestire i portfolio
-description: Un Portfolio è una raccolta di progetti in concorrenza per le stesse risorse, budget e pianificazione. I progetti di un Portfolio sono abbastanza simili da utilizzare lo stesso Pool di Risorse ed essere misurati sulla stessa scorecard.
+title: 'Creare e gestire i portafogli: indice degli articoli'
+description: Un Portfolio è una raccolta di progetti in competizione per le stesse risorse, budget e pianificazione. I progetti in un Portfolio sono abbastanza simili da utilizzare lo stesso Pool di Risorse e venire misurati sulla stessa scorecard.
 author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: eea47cc9-becb-4617-b49c-265c20753908
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
 
-# Creare e gestire i portfolio
+# Creare e gestire i portfolio: indice degli articoli
 
-Un Portfolio è una raccolta di progetti in concorrenza per le stesse risorse, budget e pianificazione. I progetti di un Portfolio sono abbastanza simili da utilizzare lo stesso Pool di Risorse ed essere misurati sulla stessa scorecard.
+<!--Audited: 08/2025-->
+
+Un Portfolio è una raccolta di progetti in competizione per le stesse risorse, budget e pianificazione. I progetti in un Portfolio sono abbastanza simili da utilizzare lo stesso Pool di Risorse e venire misurati sulla stessa scorecard.
 
 Questa sezione contiene i seguenti articoli:
 

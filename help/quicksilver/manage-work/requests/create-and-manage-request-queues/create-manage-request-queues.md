@@ -4,13 +4,13 @@ product-area: requests
 navigation-topic: requests-navigation-topic
 title: Creare e gestire le code di richieste
 description: Puoi creare code di richieste in Adobe Workfront per acquisire il lavoro non pianificato nella tua organizzazione. Nei seguenti articoli viene descritto come configurare i progetti affinché funzionino come code di richieste.
-author: Alina
+author: Becky
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0aaa54e2-c887-425e-bdd6-6bbc60d21319
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 4a0cb96f5888819747f63472712f91c685621cf1
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 0%

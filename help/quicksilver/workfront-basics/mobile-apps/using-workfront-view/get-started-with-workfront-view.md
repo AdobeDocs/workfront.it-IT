@@ -6,10 +6,10 @@ description: Puoi tenere traccia dello stato di avanzamento dei tuoi progetti qu
 author: Nolan
 feature: Get Started with Workfront
 exl-id: cca4d969-8237-49df-98fb-f70ee40a7e93
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 0%
+source-wordcount: '290'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Utilizzando l&#39;app mobile [!DNL Adobe Workfront View] puoi tenere traccia dell&#39;avanzamento dei tuoi progetti quando sei in movimento.
 
-[!DNL Workfront View] è uno strumento di reporting. Impossibile apportare modifiche o completare il lavoro utilizzando l&#39;app [!DNL Workfront View]. Puoi visualizzare solo lo stato dei tuoi progetti. È destinato ai project manager o ai responsabili di Portfolio e ad altri soggetti interessati al progetto per connettersi a un’interfaccia di alto livello per monitorare i loro progetti.
+[!DNL Workfront View] è uno strumento di reporting. Impossibile apportare modifiche o completare il lavoro utilizzando l&#39;app [!DNL Workfront View]. Puoi visualizzare solo lo stato dei tuoi progetti. I project manager o i responsabili di Portfolio e gli altri soggetti interessati al progetto devono connettersi a un&#39;interfaccia di alto livello per monitorare i progetti.
 
 Se devi completare il lavoro, devi utilizzare l&#39;app mobile [!DNL Workfront] disponibile sui telefoni [!DNL iOS] e [!DNL Android].
 
@@ -25,7 +25,11 @@ Se devi completare il lavoro, devi utilizzare l&#39;app mobile [!DNL Workfront] 
 
 L&#39;app [!DNL Workfront View] è supportata solo per [!DNL iPads].
 
-È necessario disporre del seguente accesso in [!DNL Workfront] per accedere alle informazioni in [!DNL Workfront View] ed eseguire i passaggi descritti in questo articolo:
+Gli utenti con [!UICONTROL le licenze Requestor] e [!UICONTROL External] non possono accedere a [!DNL Workfront] utilizzando l&#39;app mobile [!DNL Workfront View].
+
+## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,19 +38,21 @@ L&#39;app [!DNL Workfront View] è supportata solo per [!DNL iPads].
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano*</strong></td> 
+   <td role="rowheader"><strong>Pacchetto Adobe Workfront</strong></td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Review] o versione successiva</p> </td> 
+   <td role="rowheader"><strong>Licenza Adobe Workfront</strong></td> 
+   <td> 
+   <p>Collaboratore o versione successiva</p>
+   <p>Revisione o successiva</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Gli utenti con [!UICONTROL le licenze Requestor] e [!UICONTROL External] non possono accedere a [!DNL Workfront] utilizzando l&#39;app mobile [!DNL Workfront View].
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
++++
 
 ## Scarica l&#39;app [!DNL Workfront View]
 
@@ -57,7 +63,7 @@ Gli utenti con [!UICONTROL le licenze Requestor] e [!UICONTROL External] non pos
 1. Tocca l&#39;icona [!UICONTROL scarica dal cloud] per installare l&#39;app, quindi segui i passaggi per completare l&#39;installazione.
 1. Tocca **[!UICONTROL Apri]** per aprire l&#39;app.
 
-## Accedi a [!DNL Workfront View]
+## Accedere a [!DNL Workfront View]
 
 1. Vai all&#39;app **[!DNL Workfront View]** sul tuo [!DNL iPad].\
    ![workfront_view_app_Adobe.png](assets/workfront-view-app-adobe-350x261.png)

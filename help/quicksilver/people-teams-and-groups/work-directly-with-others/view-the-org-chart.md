@@ -6,9 +6,9 @@ description: La funzione organigramma consente di visualizzare l’organigramma 
 author: Lisa
 feature: People Teams and Groups
 exl-id: 10c1fc55-8df4-4c2a-9251-ee6db9ee6c0d
-source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
+source-git-commit: 722295463c1338a70ff42c26acf69b09cf33f725
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -21,27 +21,24 @@ La funzionalità organigramma consente di visualizzare l&#39;organigramma associ
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>piano Adobe Workfront</p> </td> 
-   <td>Qualsiasi</td> 
+  <tr> 
+   <td>Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td>Licenza Adobe Workfront</td> 
    <td>
-   <p>Nuovo: Chiaro o superiore</p>
-   <p>oppure</p>
-   <p>Corrente: revisione o versione successiva</p></td>
+   <p>Chiaro o superiore</p>
+   <p>Revisione o successiva</p></td>
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -51,3 +48,5 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Nel pannello a sinistra, fai clic su **[!UICONTROL Organigramma]**.
    ![Organigramma](assets/org-chart-2025.png)
+
+   Viene visualizzato l’organigramma.

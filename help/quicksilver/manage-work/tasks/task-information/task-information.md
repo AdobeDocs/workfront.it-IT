@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 2c0e7f40-f680-4e7e-8827-be69703a393f
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!-- Audited: 5/2025 -->
 
-Questa sezione contiene i seguenti articoli:
+Le attività sono elementi di lavoro che contribuiscono al completamento di un progetto in Adobe Workfront. Per informazioni sulle attività, consulta i seguenti articoli:
 
 * [Panoramica attività](../../../manage-work/tasks/task-information/tasks-overview.md)
 * [Visualizza ore effettive](../../../manage-work/tasks/task-information/actual-hours.md)

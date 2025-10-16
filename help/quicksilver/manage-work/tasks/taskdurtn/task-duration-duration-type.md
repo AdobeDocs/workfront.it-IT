@@ -2,13 +2,13 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: "Task Duration and Duration Types: article index"
+title: 'Tipi di durata e durata task: indice articolo'
 description: Il tipo di durata di un'attività identifica la relazione tra il numero di risorse assegnate a un'attività, l'impegno totale e la durata totale dell'attività. Scopri la durata e il tipo di durata dell’attività nei seguenti articoli.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: df6cd9bc-e34f-4e84-8a1b-484a6bffe53c
-source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%

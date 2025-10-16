@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -29,25 +29,21 @@ Per informazioni sull&#39;utilizzo dei livelli di accesso personalizzati per ges
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td>Qualsiasi</td> 
   </tr> 
     <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Nuovo: Standard </p>
- <p>oppure</p> 
-<p>Corrente: Piano </p> 
+   <td> <p>Standard</p>
+   <p>Piano</p>
 </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Devi essere un amministratore di Workfront.</p> </td> 
   </tr> 

@@ -1,14 +1,14 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: Copiare e duplicare le attività
+title: Copia e duplica attività
 description: È possibile copiare un'attività da un progetto a un altro oppure duplicarla all'interno dello stesso progetto.
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '1736'
+source-wordcount: '1679'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,38 @@ ht-degree: 1%
 
 ## Requisiti di accesso
 
-<!-- drafted for P&P:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
+   <td> <p>Qualsiasi</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p>Standard</p> 
+   <p>Lavoro o superiore</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modifica accesso ad attività e progetti</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td> <p>Gestire le autorizzazioni per un’attività</p> <p>Autorizzazioni Contribute (Contribute) o superiori per il progetto</p> 
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,37 +80,7 @@ ht-degree: 1%
    <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
--->
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
-   <td> <p>Qualsiasi</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Lavoro o superiore </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modifica accesso ad attività e progetti</p> <p><b>NOTA</b>
-
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
-</tr> 
-  <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un’attività </p> <p>Autorizzazioni Contribute o superiori per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+</table>-->
 
 ## Considerazioni per la copia delle attività
 
@@ -107,7 +108,7 @@ Quando copi un’attività, tieni presente quanto segue:
    Passare a un report attività.
 
 1. (Condizionale) Se hai aperto il progetto che contiene le attività, fai clic su **Attività** nel pannello a sinistra.
-1. Fare clic sull&#39;icona ![](assets/qs-list-mode-or-save-mode-icon-small.png) della **Modalità pianificazione** e verificare che l&#39;opzione **Salvataggio automatico** sia abilitata.
+1. Fare clic sull&#39;icona **della** Modalità pianificazione![](assets/qs-list-mode-or-save-mode-icon-small.png) e verificare che l&#39;opzione **Salvataggio automatico** sia abilitata.
 
    ![](assets/autosave-icon-on-highlighted-350x202.png)
 
@@ -240,7 +241,7 @@ Oltre a copiare le attività in un elenco di attività, è possibile copiare un&
 
    L’attività viene visualizzata nell’elenco.
 
-   ![Selezionare l&#39;attività padre durante lo spostamento di un&#39;attività con funzionalità di ricerca &#x200B;](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Selezionare l&#39;attività padre durante lo spostamento di un&#39;attività con funzionalità di ricerca ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. Dopo averlo trovato, seleziona il pulsante di opzione relativo al genitore.
 
@@ -289,7 +290,7 @@ Le attività copiate si trovano ora nel progetto specificato e sono sottoattivit
 1. Fai clic su **Attività** nel pannello a sinistra.
 1. Esegui una delle operazioni seguenti:
 
-   * (Condizionale) Fai clic sull&#39;icona ![](assets/qs-list-mode-or-save-mode-icon-small.png) della **Modalità pianificazione** e assicurati che l&#39;opzione **Salvataggio automatico** sia abilitata, seleziona le attività da duplicare, quindi fai clic sul menu **Altro** ![](assets/qs-more-menu-29x11.png) > **Duplica**.
+   * (Condizionale) Fai clic sull&#39;icona **della** Modalità pianificazione![](assets/qs-list-mode-or-save-mode-icon-small.png) e assicurati che l&#39;opzione **Salvataggio automatico** sia abilitata, seleziona le attività da duplicare, quindi fai clic sul menu **Altro** ![](assets/qs-more-menu-29x11.png) > **Duplica**.
 
      ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
 

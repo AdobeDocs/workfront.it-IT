@@ -6,9 +6,9 @@ description: Puoi visualizzare i rapporti del calendario e i dettagli dell’eve
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ Puoi visualizzare i rapporti del calendario e i dettagli dell’evento che hai c
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,22 +28,21 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
-   <td><p>Nuovo: Collaboratore</p>
-       <p>oppure</p>
-       <p>Corrente: richiesta</p></td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td><p>Collaboratore</p>
+       <p>Richiesta</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso di [!UICONTROL View] o versione successiva a [!UICONTROL Reports], [!UICONTROL Dashboards] e [!UICONTROL Calendars]</p></td> 
+   <td> <p>Accesso a report, dashboard e calendari in visualizzazione o superiore</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td>Autorizzazioni di [!UICONTROL View] o superiori per il report del calendario</td> 
+   <td>Visualizza o autorizzazioni superiori per il report calendario</td> 
   </tr> 
  </tbody> 
 </table>

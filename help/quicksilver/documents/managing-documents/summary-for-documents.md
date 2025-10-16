@@ -7,9 +7,9 @@ description: Il Riepilogo consente di interagire con informazioni importanti dir
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '441'
 ht-degree: 2%
 
 ---
@@ -35,13 +35,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p> Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenze Adobe Workfront</td> 
-   <td> <p>Nuovo: Collaboratore o versione successiva</p> 
-   <p>Corrente: richiesta o successiva</p>
+   <td> <p>Collaboratore o versione successiva</p> 
+   <p>Richiedi o superiore</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 

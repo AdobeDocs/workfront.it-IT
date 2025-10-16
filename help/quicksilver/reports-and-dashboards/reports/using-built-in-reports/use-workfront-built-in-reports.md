@@ -6,9 +6,9 @@ description: Adobe Workfront dispone di un ampio elenco di rapporti incorporati 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '2986'
+source-wordcount: '2978'
 ht-degree: 10%
 
 ---
@@ -23,31 +23,23 @@ Gli amministratori di Workfront possono nascondere i rapporti incorporati in mod
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> 
-      <p>Nuovo:</p>
-         <ul>
-         <li><p>Collaboratore o versione successiva</p></li>
-         </ul>
-      <p>Corrente:</p>
-         <ul>
-         <li><p>Richiedi o superiore</p></li>
-         </ul>
+      <p>Collaboratore o versione successiva</p>
+      <p>Richiedi o superiore</p>
    </td>
-  </tr> 
+  </tr>
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Accesso di visualizzazione o superiore a report, dashboard, calendari</p> </td> 
@@ -59,7 +51,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -88,19 +80,19 @@ I seguenti rapporti sono forniti con il pacchetto Workfront. I rapporti sono dis
    <td>Un report di progetti che visualizza il costo pianificato e il costo effettivo dei progetti. Il report è raggruppato per Nome progetto, richiesto da Nome Portfolio, e include un grafico.</td> 
   </tr> 
   <tr> 
-   <td>Reddito Reale di Portfolio per Programma</td> 
+   <td>Reddito reale di portfolio per programma</td> 
    <td>Un report di progetti che visualizza la Retribuzione pianificata e la Retribuzione effettiva dei progetti. Il report è raggruppato per Nome programma, richiesto da Nome Portfolio, e include un grafico.</td> 
   </tr> 
   <tr> 
-   <td>Reddito Reale di Portfolio per Progetto</td> 
+   <td>Entrate effettive portfolio per progetto</td> 
    <td>Un report di progetti che visualizza la Retribuzione pianificata e la Retribuzione effettiva dei progetti. Il report è raggruppato per Nome progetto, richiesto da Nome Portfolio, e include un grafico.</td> 
   </tr> 
   <tr> 
-   <td>Questa mostra il Reddito Reale per Azienda</td> 
+   <td>Entrate effettive per Azienda</td> 
    <td>Un report di progetti che visualizza la Retribuzione effettiva e la Società dei progetti. Il report è raggruppato per nome della società e include un grafico.</td> 
   </tr> 
   <tr> 
-   <td>Questa mostra il Reddito Reale per Gruppo</td> 
+   <td>Entrate effettive per gruppo</td> 
    <td>Un report di progetti che visualizza la Retribuzione effettiva e il Gruppo dei progetti. Il report è raggruppato per Nome gruppo e include un grafico.</td> 
   </tr> 
   <tr> 
@@ -116,15 +108,15 @@ I seguenti rapporti sono forniti con il pacchetto Workfront. I rapporti sono dis
    <td>Un report di progetti che visualizza i progetti correnti e di pianificazione con una condizione A rischio o In difficoltà. Il rapporto visualizza i campi seguenti: Descrizione, Data di completamento pianificata, Data di completamento prevista, Percentuale di completamento, Stato e Priorità dei progetti. Il report è raggruppato per nome Portfolio.</td> 
   </tr> 
   <tr> 
-   <td>Questo mostra il reddito fatturato per azienda</td> 
+   <td>Entrate fatturazione per azienda</td> 
    <td>Un report di progetti che visualizza la Società e la Fatturazione retribuzione dei progetti. Il report è raggruppato per nome della società e include un grafico.</td> 
   </tr> 
   <tr> 
-   <td>Questo mostra il reddito fatturato per gruppo</td> 
+   <td>Entrate fatturazione per gruppo</td> 
    <td>Un report di progetti che visualizza la Fatturazione retribuzione e il Gruppo dei progetti. Il report è raggruppato per Nome gruppo e include un grafico.</td> 
   </tr> 
   <tr> 
-   <td>Questo mostra il reddito fatturato per mese</td> 
+   <td>Entrate fatturazione per mese</td> 
    <td>Un report di record fatturazione che visualizza il Nome progetto, il Ricavo fatturazione progetto e la Data fatturazione dei record fatturazione. Il rapporto è raggruppato per il mese della data di fatturazione dei record di fatturazione e include un grafico.</td> 
   </tr> 
   <tr> 
@@ -172,7 +164,7 @@ I seguenti rapporti sono forniti con il pacchetto Workfront. I rapporti sono dis
    <td>Un report di progetti (dati finanziari) matrice che visualizza la Data di allocazione, il Costo pianificato totale, il Costo effettivo totale e la Variazione costo totale dei progetti. Il report è raggruppato per Nome progetto, il trimestre e il mese della Data di allocazione.</td> 
   </tr> 
   <tr> 
-   <td>Retribuzione pianificata rispetto alla retribuzione effettiva portfolio mensile per Progetto</td> 
+   <td>Entrate mensili pianificate ed effettive dei portfolio per progetto</td> 
    <td>Un report di progetti (dati finanziari) matrice che visualizza la Data di allocazione, la Retribuzione pianificata totale, la Retribuzione effettiva totale e la Variazione retribuzione totale dei progetti. Il report è raggruppato per Nome progetto, il trimestre e il mese della Data di allocazione.</td> 
   </tr> 
   <tr> 
@@ -180,7 +172,7 @@ I seguenti rapporti sono forniti con il pacchetto Workfront. I rapporti sono dis
    <td>Un report di progetti (dati finanziari) matrice che visualizza la Data di allocazione, il Costo pianificato totale, il Costo effettivo totale e la Variazione costo totale dei progetti. Il report è raggruppato per Nome progetto, il trimestre e il mese della Data di allocazione e viene richiesto da Nome progetto.</td> 
   </tr> 
   <tr> 
-   <td>Retribuzione pianificata rispetto alla retribuzione effettiva portfolio mensile</td> 
+   <td>Entrate mensili pianificate ed effettive dei progetti</td> 
    <td>Un report di progetti (dati finanziari) matrice che visualizza la Data di allocazione, la Retribuzione pianificata totale, la Retribuzione effettiva totale e la Variazione retribuzione totale dei progetti. Il report è raggruppato per Nome progetto, il trimestre e il mese della Data di allocazione e viene richiesto da Nome progetto.</td> 
   </tr> 
   <tr> 
@@ -252,11 +244,11 @@ I seguenti rapporti sono forniti con il pacchetto Workfront. I rapporti sono dis
    <td>Un report di progetti che visualizza il costo pianificato e il costo effettivo dei progetti. Il report viene richiesto da Nome Portfolio, raggruppato per Nome progetto e include un grafico.</td> 
   </tr> 
   <tr> 
-   <td>Reddito Pianificato Portfolio per Programma</td> 
+   <td>Entrate pianificate portfolio per programma</td> 
    <td>Un report di progetti che visualizza la Retribuzione pianificata e la Retribuzione effettiva dei progetti. Il report viene richiesto da Nome Portfolio, raggruppato per Nome programma e include un grafico.</td> 
   </tr> 
   <tr> 
-   <td>Reddito Pianificato Portfolio per Progetto</td> 
+   <td>Entrate pianificate portfolio per progetto</td> 
    <td>Un report di progetti che visualizza la Retribuzione pianificata e la Retribuzione effettiva dei progetti. Il report viene richiesto da Nome Portfolio, raggruppato per Nome progetto e include un grafico.</td> 
   </tr> 
   <tr> 
@@ -268,11 +260,11 @@ I seguenti rapporti sono forniti con il pacchetto Workfront. I rapporti sono dis
    <td>Un report di progetti che visualizza il Costo pianificato e il Costo effettivo dei progetti in base al Programma. Il report è raggruppato per nome Portfolio e include un grafico.</td> 
   </tr> 
   <tr> 
-   <td>Reddito Reale vs. Reddito Pianificato per Portfolio</td> 
+   <td>Entrate pianificate ed effettive per portfolio</td> 
    <td>Un report di progetti che visualizza la Retribuzione pianificata e la Retribuzione effettiva dei progetti. Il report è raggruppato per nome Portfolio e include un grafico.</td> 
   </tr> 
   <tr> 
-   <td>Reddito Reale vs. Reddito Pianificato per Programma</td> 
+   <td>Entrate pianificate ed effettive per programma</td> 
    <td>Un report di progetti che visualizza la Retribuzione pianificata e la Retribuzione effettiva dei progetti. Il report è raggruppato per Nome programma e include un grafico.</td> 
   </tr> 
   <tr> 
@@ -288,19 +280,19 @@ I seguenti rapporti sono forniti con il pacchetto Workfront. I rapporti sono dis
    <td>Un report di progetti che visualizza il Nome Portfolio e lo Stato dei progetti. Il report è raggruppato per nome Portfolio e stato dei progetti e include un grafico.</td> 
   </tr> 
   <tr> 
-   <td>Il Reddito del Portfolio per Programma</td> 
+   <td>Entrate dei portfolio per programma</td> 
    <td>Un report di progetti che visualizza il Nome Portfolio, il Nome programma, la Retribuzione pianificata e la Retribuzione effettiva dei progetti. Il report è raggruppato per nome Portfolio e nome del programma e include un grafico.</td> 
   </tr> 
   <tr> 
-   <td>Retribuzioni raggruppate per programma e mese</td> 
+   <td>Entrate dei portfolio raggruppate per programma e mese</td> 
    <td>Un report di progetti matrice che visualizza la Retribuzione pianificata, la Retribuzione effettiva, il Nome Portfolio e il Nome programma. Il rapporto è raggruppato per nome Portfolio, nome del programma e mese della data di inizio pianificata dei progetti.</td> 
   </tr> 
   <tr> 
-   <td>Retribuzione e costi progetto per stato attività</td> 
+   <td>Costi ed entrate dei progetti per stato attività</td> 
    <td>Un report di attività matrice che visualizza il Costo pianificato, il Costo effettivo, la Retribuzione pianificata, la Retribuzione effettiva e il Nome progetto delle attività. Il report è raggruppato per Nome progetto e Stato delle attività.</td> 
   </tr> 
   <tr> 
-   <td>Costi Progetto vs. Redditi per Portfolio</td> 
+   <td>Costi ed entrate dei progetti per portfolio</td> 
    <td>Un report di progetti che visualizza il Nome Portfolio, il Costo effettivo e la Retribuzione effettiva dei progetti. Il report è raggruppato per nome Portfolio e include un grafico.</td> 
   </tr> 
   <tr> 

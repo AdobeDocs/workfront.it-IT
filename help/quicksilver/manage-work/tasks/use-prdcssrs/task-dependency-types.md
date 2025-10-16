@@ -2,12 +2,12 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: use-predecessors
-title: Panoramica dei tipi di relazione tra attività
+title: Panoramica dei tipi di relazione attività
 description: I tipi di dipendenza si riferiscono alle relazioni precedenti tra le attività. Definiscono quando l'attività dipendente può iniziare o finire in base all'inizio o alla fine del predecessore.
 author: Alina
 feature: Work Management
 exl-id: 30d1c60d-0632-4a32-b7e7-a9f8e81bf727
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 0%

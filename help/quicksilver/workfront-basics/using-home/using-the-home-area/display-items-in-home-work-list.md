@@ -6,14 +6,14 @@ description: Ogni widget contiene il proprio elenco di lavoro. Negli elenchi di 
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '994'
 ht-degree: 4%
 
 ---
 
-# Visualizza elementi nell&#39;elenco lavori [!UICONTROL 1&rbrace; nell&#39;area [!UICONTROL Home]]
+# Visualizza elementi nell&#39;elenco lavori [!UICONTROL 1} nell&#39;area ]Home
 
 <!-- Audited: 1/2024 -->
 
@@ -28,8 +28,6 @@ Ogni widget contiene il proprio elenco di lavoro. Negli elenchi di lavoro vengon
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -37,13 +35,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza</strong></td> 
-   <td> <p>Nuovo:</p><ul><li>[!UICONTROL Contributor] solo per le approvazioni</li> <li>[!UICONTROL Standard] o versione successiva per tutti gli altri oggetti</li> <p>Oppure</p> 
-  </ul><p>Corrente:</p><ul><li>[!UICONTROL Revisione] solo per le approvazioni</li> <li>[!UICONTROL Work] o versione successiva per tutti gli altri oggetti</li> </td> 
+   <td><ul><li>[!UICONTROL Contributor] solo per le approvazioni</li> <li>[!UICONTROL Standard] o versione successiva per tutti gli altri oggetti</li> <p>Oppure</p> 
+  </ul><ul><li>[!UICONTROL Revisione] solo per le approvazioni</li> <li>[!UICONTROL Work] o versione successiva per tutti gli altri oggetti</li> </td> 
   </tr> </ul>
   <tr> 
    <td role="rowheader"><strong>Configurazioni del livello di accesso</strong></td> 
@@ -56,7 +54,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

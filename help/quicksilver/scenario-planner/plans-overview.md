@@ -7,7 +7,7 @@ description: In qualità di business manager, puoi utilizzare Adobe Workfront Sc
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: df2b895b-8bc1-4a55-b0d7-8a06db420315
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: 3f53cb49bbe8de21c42ec557fd367490f8ae8956
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 0%
@@ -66,7 +66,7 @@ Quando si creano i piani, tenere presente quanto segue:
 
 Nella casella Ruolo è possibile visualizzare quanto segue:
 
-| Informazione | Descrizione |
+| Informazioni | Descrizione |
 |---|---|
 | FTE/Indicatore ore | L&#39;indicatore ([!UICONTROL FTE]) o ([!UICONTROL Ore]) accanto al titolo &quot;[!UICONTROL Mansione]&quot; indica se il piano è stato impostato per l&#39;utilizzo di FTE o Ore al momento della creazione. Il piano, tutti gli scenari e le iniziative utilizzano questa unità. |
 | [!UICONTROL Disponibile] | Il numero di FTE o di ore dei ruoli disponibili per lo scenario corrente. |

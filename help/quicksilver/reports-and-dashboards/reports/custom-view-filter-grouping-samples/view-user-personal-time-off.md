@@ -7,9 +7,9 @@ description: 'Visualizza: Indisponibilità personale utente'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '239'
 ht-degree: 5%
 
 ---
@@ -28,39 +28,27 @@ Puoi creare un rapporto Time Off (Ferie) per acquisire le informazioni relative 
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p> Corrente: 
-   <ul>
-   <li>Richiesta di modifica di una vista</li> 
-   <li>Pianificare la modifica di un rapporto</li>
-   </ul>
-     </p>
-     <p> Nuovo: 
-   <ul>
-   <li>Collaboratore per modificare una visualizzazione</li> 
-   <li>Standard per modificare un rapporto</li>
-   </ul>
-     </p>
-    </td> 
+   <td> 
+   <p>Collaboratore o richiesta di modifica di una visualizzazione </p>
+   <p>Standard o piano per modificare un rapporto</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>

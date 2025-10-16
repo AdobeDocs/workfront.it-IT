@@ -2,12 +2,12 @@
 content-type: tips-tricks-troubleshooting
 product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
-title: Correct the Start Day of the Work Week for Timesheets
-description: The start day of the week on my timesheet does not match my expected weekly start day.
-author: Alina
+title: Correggere il giorno di inizio della settimana lavorativa per le schede orario
+description: Il giorno di inizio della settimana nella scheda orario non corrisponde al giorno di inizio settimanale previsto.
+author: Lisa
 feature: Timesheets
 exl-id: 5c6c100f-2a04-4a6b-9f95-acc8de3a90f1
-source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%
@@ -20,18 +20,18 @@ ht-degree: 0%
 
 ## Problema
 
-The start day of the week on my timesheet does not match my expected weekly start day.
+Il giorno di inizio della settimana nella scheda orario non corrisponde al giorno di inizio settimanale previsto.
 
-This typically occurs when you are not assigned to a Timesheet Profile and your timesheet was manually created.
+Ciò si verifica in genere quando non si è assegnati a un profilo Scheda orario e la scheda orario è stata creata manualmente.
 
 
 ## Soluzione
 
-Your Workfront administrator should create timesheet profiles and assign everyone to a profile, as described in [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). Your Workfront administrator might define the start date of a timesheet on a day other than your expected weekly start date. Check with them to find out what the start date of a timesheet profile is for your timesheet.
+L&#39;amministratore di Workfront deve creare profili di schede orario e assegnare tutti a un profilo, come descritto in [Creare, modificare e assegnare profili di schede orario](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). L’amministratore di Workfront potrebbe definire la data di inizio di una scheda orario in un giorno diverso dalla data di inizio settimanale prevista. Rivolgiti a loro per scoprire la data di inizio di un profilo Scheda orario per la tua scheda orario.
 
-If your timesheet was manually created, the start day of the week in the timesheet uses the Email Locale settings in your user&#39;s profile, as described in the article [Configure My Settings](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+Se la scheda orario è stata creata manualmente, il giorno di inizio della settimana nella scheda orario utilizza le impostazioni di Impostazioni internazionali e-mail nel profilo dell&#39;utente, come descritto nell&#39;articolo [Configura impostazioni personali](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
-For example, with the Email Locale set to English (United States), the week in the timesheet starts on Sunday. Alternatively, with the Email Locale set to English (United Kingdom), the week in the timesheet starts on a Monday.
+Ad esempio, con Email Locale impostato su Inglese (Stati Uniti), la settimana nella scheda orario inizia di domenica. In alternativa, con Email Locale impostato su Inglese (Regno Unito), la settimana nella scheda orario inizia di lunedì.
 
 
 <!--This is the old content for this article but I found this was not working this way at all, so I changed it to what it is today: 

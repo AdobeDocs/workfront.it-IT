@@ -6,10 +6,10 @@ description: L’amministratore di Adobe Workfront consente agli utenti di visua
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 2%
+source-wordcount: '1237'
+ht-degree: 4%
 
 ---
 
@@ -24,23 +24,20 @@ Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono qua
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
-Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td> <p>Qualsiasi </p> </td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
+   <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Nuovo: Standard</p> 
-   Oppure
-   <p>Corrente: Lavoro o versione successiva</p>
+   <td> <p>Standard</p> 
+   <p>Lavoro o superiore</p> 
    </td> 
   </tr> 
   <tr> 
@@ -54,7 +51,7 @@ Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
  </tbody> 
 </table>
 
-Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,9 +67,9 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 * È possibile condividere i problemi singolarmente o più problemi contemporaneamente. I problemi di condivisione sono identici agli altri elementi di Workfront. Per ulteriori informazioni sulla condivisione di elementi in Workfront, vedere [Condividere un oggetto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Puoi concedere le seguenti autorizzazioni a un problema: 
 
-   * Visualizza
+   * Visualizzazione
    * Contribuisci
-   * Gestire
+   * Gestisci
 
 * Quando condividi un problema, tutti i documenti allegati al problema ereditano le stesse autorizzazioni.
 
@@ -88,7 +85,7 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
    * Specifica le autorizzazioni per uno qualsiasi degli oggetti principali del problema: progetto, programma o portfolio. I problemi ereditano le autorizzazioni dai loro oggetti principali. Per informazioni sulla visualizzazione delle autorizzazioni ereditate sugli oggetti, vedere [Visualizzare le autorizzazioni ereditate sugli oggetti](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Aggiungere entità alla condivisione di progetto in un modello utilizzato per creare il progetto in cui si trova il problema. Per informazioni sulla condivisione di progetti da modelli, vedere [Condividere un modello](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Specifica le autorizzazioni per tutti i problemi in un progetto quando lo modifichi. Per informazioni sulla gestione dell&#39;accesso a problemi o richieste sul progetto in base alle autorizzazioni di un utente per il progetto, vedere la sezione [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) nell&#39;articolo [Modifica progetti](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Specifica le autorizzazioni per tutti i problemi in un progetto quando lo modifichi. Per informazioni sulla gestione dell&#39;accesso a problemi o richieste sul progetto in base alle autorizzazioni di un utente per il progetto, vedere la sezione [](../../manage-work/projects/manage-projects/edit-projects.md#access) nell&#39;articolo [Modifica progetti](../../manage-work/projects/manage-projects/edit-projects.md).
 
      >[!TIP]
      >

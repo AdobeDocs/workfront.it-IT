@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 3f2cc191c316d107f16a12160cb126203b05387c
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '2251'
+source-wordcount: '2228'
 ht-degree: 0%
 
 ---
@@ -36,30 +36,27 @@ Per impostazione predefinita, le preferenze relative a attività e problemi sono
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
-   <td>Qualsiasi</td> 
+   <td>[!DNL Adobe Workfront] pacchetto</td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
-   <td><p>Nuovo: [!UICONTROL Standard]</p>
-   oppure
-   <p>Corrente: [!UICONTROL Plan]</p></td> 
+   <td>[!DNL Adobe Workfront] licenza</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td>[!UICONTROL Amministratore di sistema]</td>
+   <td>Configurazioni del livello di accesso</td> 
+   <td>[!UICONTROL Amministratore di sistema]</td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -77,7 +74,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    * [Sposta](#move)
    * [[!UICONTROL Date effettive]](#actual-dates)
    * [[!UICONTROL Delega]](#delegation)
-   * [[!UICONTROL Accesso]](#access)
+   * [[!UICONTROL Accedere ad]](#access)
 
 
 ### [!UICONTROL Nuovi valori predefiniti attività] {#new-task-defaults}
@@ -91,12 +88,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     <td> <p>Determina la data di inizio predefinita per le nuove attività dei project manager. La data di inizio per le nuove attività può essere la data di inizio pianificata del progetto o il giorno in cui l'attività viene creata.</p> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader"> <p>Tipo di durata  </p> </td> 
+    <td role="rowheader"> <p>Tipo di durata [!UICONTROL] </p> </td> 
     <td> <p>Determina la relazione tra il numero di risorse (e la relativa percentuale di allocazione) e la durata o l'impegno totale per l'attività. Per ulteriori informazioni, vedere <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Tipi di durata e durata attività</a></p> </td> 
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL Tipo di retribuzione]</td> 
-    <td> <p>Calcola le stime dei ricavi pianificati ed effettivi per un'attività. Quando il tipo di retribuzione <strong></strong> è impostato su <strong>[!UICONTROL Non fatturabile]</strong>, le ore pianificate e le ore effettive registrate non generano una stima dei ricavi per l'attività e il lavoro sull'attività non contribuisce ai ricavi a livello di progetto.</p>
+    <td> <p>Calcola le stime dei ricavi pianificati ed effettivi per un'attività. Quando il tipo di retribuzione <strong>[!UICONTROL]</strong> è impostato su <strong>[!UICONTROL Non fatturabile]</strong>, le ore pianificate e le ore effettive registrate non generano una stima dei ricavi per l'attività e il lavoro sull'attività non contribuisce ai ricavi a livello di progetto.</p>
          <p>Per informazioni sui diversi tipi di ricavi, vedere <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">Panoramica su fatturazione e ricavi</a>.</p></td> 
     </tr> 
     <tr> 
@@ -248,7 +245,7 @@ I have not had a chance to follow up with customers to verify if this is still a
 </note>
 -->
 
-### [!UICONTROL Accesso] {#access}
+### [!UICONTROL Accedere ad] {#access}
 
 <table style="table-layout:auto"> 
   <col> 

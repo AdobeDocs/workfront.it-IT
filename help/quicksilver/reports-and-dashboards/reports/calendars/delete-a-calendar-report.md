@@ -6,10 +6,10 @@ description: Puoi eliminare un calendario di tua proprietà o condiviso con te d
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 6208442e-21af-4cd1-ad55-52215bd4d959
-source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 0%
+source-wordcount: '188'
+ht-degree: 2%
 
 ---
 
@@ -23,8 +23,6 @@ Non è possibile eliminare il calendario predefinito a meno che non sia già dis
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -32,22 +30,21 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
-   <td><p>Nuovo: Standard</p>
-       <p>oppure</p>
-       <p>Corrente: Piano</p></td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Piano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso di [!UICONTROL Edit] a [!UICONTROL Reports], [!UICONTROL Dashboards] e [!UICONTROL Calendars]</p></td> 
+   <td> <p> Modificare l’accesso a rapporti, dashboard e calendari</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td>Accesso [!UICONTROL Gestisci] al report calendario, con accesso per eliminarlo</td> 
+   <td>Gestire l’accesso al report del calendario, con l’accesso per eliminarlo</td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,4 +61,4 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    ![calendario altro menu](assets/more-menu-calendar.png)
 
 1. Selezionare **[!UICONTROL Elimina]** dall&#39;elenco a discesa.
-1. Fare clic su **[!UICONTROL Elimina]**.
+1. Fai clic su **[!UICONTROL Elimina]**.

@@ -6,9 +6,9 @@ description: Utilizzare i flussi di lavoro nell’integrazione Experience Manage
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -28,44 +28,40 @@ Quando un progetto viene creato utilizzando un modello di progetto a cui è asse
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Devi avere i seguenti:
-
-<table>
-  <tr>
-   <td><strong>Piano Adobe Workfront*</strong>
-   </td>
-   <td>Qualsiasi
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Licenze Adobe Workfront*</strong>
-   </td>
-   <td>Richiedi o superiore
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Prodotto</strong>
-   </td>
-   <td><p>È necessario disporre di Assets Essentials di Experience Manager Assets as a Cloud Service e aggiungerli al prodotto come utente nell’Admin Console.</p><p>Devi disporre dell’accesso in scrittura all’archivio in Adobe Experience Manager.</p>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Configurazioni del livello di accesso*</strong>
-   </td>
-   <td>Modifica accesso ai documenti
-<p>
-<strong>Nota: </strong>Se non disponi ancora dell'accesso, chiedi all'amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <strong>Creare o modificare livelli di accesso personalizzati</strong>.
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Autorizzazioni oggetto</strong>
-   </td>
-   <td>Gestire l’accesso o versione successiva al progetto 
-<p>
-Per informazioni sulla richiesta di accesso aggiuntivo, vedere <strong>Richiedere l'accesso agli oggetti </strong>.
-   </td>
-  </tr>
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
+   <td> <p> Qualsiasi</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licenze Adobe Workfront</td> 
+   <td> 
+   <p>Collaboratore o versione successiva</p> 
+   <p>Richiedi o superiore</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Prodotti aggiuntivi</td> 
+   <td>Devi disporre di Experience Manager as a Cloud Service o Assets Essentials e devi essere aggiunto al prodotto come utente in Admin Console.</td> 
+  </tr> 
+   <tr> 
+    <td role="rowheader">Autorizzazioni Experience Manager</td> 
+    <td>È necessario disporre dell'accesso in scrittura alla cartella.</td> 
+   </tr>
+  <tr> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modifica accesso ai documenti</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td> <p>Accesso di visualizzazione o versione successiva</p> </td> 
+  </tr> 
+ </tbody> 
 </table>
+
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,7 +69,7 @@ Per informazioni sulla richiesta di accesso aggiuntivo, vedere <strong>Richieder
 
 Prima di iniziare,
 
-* L’amministratore di Workfront deve configurare i flussi di lavoro in un’integrazione Adobe Experience Manager. Per ulteriori informazioni, vedere [Configurare l&#39;integrazione as a Cloud Service di Experience Manager Assets](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
+* L’amministratore di Workfront deve configurare i flussi di lavoro in un’integrazione Adobe Experience Manager. Per ulteriori informazioni, vedere [Configurare l&#39;integrazione Experience Manager Assets as a Cloud Service](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
 
 ## Aggiungere un flusso di lavoro a un modello
 
@@ -176,6 +172,6 @@ Per modificare il flusso di lavoro per le cartelle collegate:
 
 Per modificare il flusso di lavoro per la pubblicazione delle risorse:
 
-1. Attiva o disattiva automaticamente **le risorse Publish**, a seconda delle esigenze.
+1. Attiva o disattiva **Pubblica automaticamente risorse** come desiderato.
 1. (Condizionale) Se abiliti la pubblicazione, seleziona se desideri pubblicarla nel servizio di pubblicazione, nel portale del brand o in entrambi.
 1. Fai clic su **[!UICONTROL Salva]**.

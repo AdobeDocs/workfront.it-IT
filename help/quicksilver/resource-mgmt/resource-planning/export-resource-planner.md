@@ -6,10 +6,10 @@ description: È possibile esportare le informazioni da qualsiasi visualizzazione
 author: Lisa
 feature: Resource Management
 exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 4%
+source-wordcount: '599'
+ht-degree: 5%
 
 ---
 
@@ -25,36 +25,32 @@ ht-degree: 4%
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td><p>Nuovo: Qualsiasi</p>
-       <p>oppure</p>
-       <p>Corrente: Pro o superiore</p> </td> 
+  <tr> 
+   <td>Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td><p>Nuovo: Chiaro o superiore</p>
-       <p>oppure</p>
-       <p>Corrente: revisione o versione successiva</p></td>
+   <td>Licenza Adobe Workfront</td> 
+   <td><p>Chiaro o superiore</p>
+       <p>Revisione o successiva</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso di visualizzazione o superiore a progetti, utenti e gestione delle risorse</p> </td> 
+   <td>Configurazioni del livello di accesso</td> 
+   <td> <p>Accesso di visualizzazione o superiore a progetti, utenti e gestione delle risorse</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizza autorizzazioni o versioni successive per i progetti</p> </td> 
+   <td>Autorizzazioni oggetto</td> 
+   <td> <p>Visualizza o autorizzazioni superiori per i progetti</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,7 +60,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 Il **Planner** viene visualizzato per impostazione predefinita.
 
-1. Selezionate la vista per il planner. Puoi selezionare una delle seguenti opzioni:
+1. Selezionate la vista per il planner. Puoi scegliere una delle opzioni seguenti:
 
    * Visualizza per utente
    * Visualizza per progetto

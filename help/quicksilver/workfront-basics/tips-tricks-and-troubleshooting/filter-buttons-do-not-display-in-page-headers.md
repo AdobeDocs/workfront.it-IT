@@ -6,10 +6,10 @@ description: Leggi questo articolo per risolvere i problemi relativi ai pulsanti
 feature: Get Started with Workfront
 author: Nolan and Alina
 exl-id: 327564ed-60df-441a-a38b-a17a8c57adb0
-source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 1%
+source-wordcount: '291'
+ht-degree: 3%
 
 ---
 
@@ -17,26 +17,32 @@ ht-degree: 1%
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano</strong></td> 
-   <td> <p>Qualsiasi</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Licenza Adobe [!DNL Workfront]</strong></td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Configurazioni del livello di accesso</strong></td> 
-   <td> <p>[!UICONTROL Amministratore di sistema]</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Pacchetto Adobe Workfront
+   </td>
+   <td> <p>PRIME o ULTIMATE</p>
+    <p>Flusso di lavoro Ultimate</p>
+   </td>
+  </tr>
+  <tr>
+   <td>Licenze Adobe Workfront
+   </td>
+   <td><p>Standard</p>
+   <p>Piano</p>
+   </td>
+  </tr>
+   <tr>
+   <td>Configurazioni del livello di accesso
+   </td>
+   <td>Devi essere un amministratore [!DNL Workfront].
+   </td>
+  </tr>
 </table>
+
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Problema
 

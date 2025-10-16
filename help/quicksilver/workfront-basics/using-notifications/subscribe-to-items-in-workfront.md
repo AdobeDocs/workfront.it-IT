@@ -5,9 +5,9 @@ description: Adobe Workfront invia notifiche sugli elementi che ti sono stati as
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1556'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Per ulteriori informazioni sull&#39;utilizzo delle sottoscrizioni, vedere [Infor
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,16 +43,18 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Piano [!UICONTROL Adobe Workfront]*</strong></td> 
+   <td role="rowheader"><strong>Pacchetto [!UICONTROL Adobe Workfront]</strong></td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Request] o versione successiva</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza</strong></td> 
+   <td> 
+   <p>Collaboratore o versione successiva</p>
+   <p>Richiedi o superiore</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
-   <td> <p>Se l'amministratore di [!DNL Workfront] ha abilitato <strong>[!UICONTROL Visualizza solo gli aggiornamenti in cui sono stati inclusi nella conversazione]</strong> nel livello di accesso, non è possibile sottoscrivere elementi in [!DNL Workfront].</p> <p>Nota: se non disponi ancora dell'accesso, chiedi all'amministratore di [!UICONTROL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di [!UICONTROL Workfront] può modificare il livello di accesso, vedere <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurazioni del livello di accesso</strong></td> 
+   <td> <p>Se l'amministratore di [!DNL Workfront] ha abilitato <strong>[!UICONTROL Visualizza solo gli aggiornamenti in cui sono stati inclusi nella conversazione]</strong> nel livello di accesso, non è possibile sottoscrivere elementi in [!DNL Workfront].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
@@ -61,7 +63,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Sottoscrivi un elemento
 

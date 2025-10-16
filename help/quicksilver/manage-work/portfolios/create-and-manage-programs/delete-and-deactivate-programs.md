@@ -5,7 +5,7 @@ title: Eliminare e disattivare i programmi
 description: Un programma rappresenta una raccolta di progetti che condividono una strategia, un obiettivo o un obiettivo comune che trascende i limiti del progetto. I programmi sono una suddivisione dei portafogli e non possono esistere al di fuori di un portfolio. In genere, i programmi condividono le stesse risorse di altri programmi all’interno dello stesso portfolio. È possibile eliminare o disattivare un programma quando diventa irrilevante.
 author: Alina
 feature: Work Management, Strategic Planning
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Quando un programma diventa irrilevante, puoi effettuare una delle seguenti oper
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano</td>
+   <td role="rowheader">[!DNL Adobe Workfront] pacchetto</td>
 
 <td> <p>Qualsiasi</p> </td> 
   </tr> 

@@ -5,43 +5,42 @@ description: È possibile riepilogare rapidamente gli elementi di lavoro e i doc
 author: Becky
 feature: Get Started with Workfront
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: e9a9e45720c8b9ad25e3fa9340c813a73989fb4a
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 1%
+source-wordcount: '278'
+ht-degree: 0%
 
 ---
 
 # Ottieni aiuto da Assistente AI
 
-Ai Assistant è in grado di individuare le informazioni contenute nella documentazione di Workfront, eliminando la necessità di visitare Adobe Experience League per ottenere l&#39;aiuto necessario.
+L’Assistente AI è in grado di individuare le informazioni contenute nella documentazione di Workfront, eliminando la necessità di visitare Adobe Experience League per ottenere l’aiuto di cui hai bisogno.
 
 Ad esempio, se si chiede all&#39;Assistente di IA &quot;Come si crea una coda di richieste&quot;, vengono restituite le istruzioni per la creazione della richiesta, estratte dall&#39;articolo [Crea e gestisci code di richieste](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
+
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td><p>Nuovo: Qualsiasi</p>
-       <p>oppure</p>
-       <p>Corrente: non disponibile</p></td>
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
+   <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td><p>Nuovo: Standard</p>
-       <p>oppure</p>
-       <p>Corrente: non disponibile</p></td>
+   <td><p>Qualsiasi</p>
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisiti
 
@@ -63,5 +62,5 @@ Per ottenere informazioni o istruzioni dalla documentazione di Workfront utilizz
 
 1. Visualizza la risposta nel pannello Assistente AI.
 1. (Facoltativo) Se la risposta non contiene le informazioni necessarie, perfeziona la risposta e riprova.
-1. (Facoltativo e condizionale) Se la risposta include un collegamento a un articolo di Adobe Experience League, fai clic sul collegamento per aprire l’articolo in una nuova finestra.
+1. (Facoltativo e condizionale) Se la risposta include un collegamento a un articolo Adobe Experience League, fai clic sul collegamento per aprire l’articolo in una nuova finestra.
 

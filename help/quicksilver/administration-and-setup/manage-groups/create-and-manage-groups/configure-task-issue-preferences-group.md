@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
 workflow-type: tm+mt
-source-wordcount: '2189'
+source-wordcount: '2166'
 ht-degree: 2%
 
 ---
@@ -45,32 +45,27 @@ Per informazioni su come l&#39;amministratore di Workfront sblocca le preferenze
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td>Qualsiasi</td> 
+   <td>Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
+   <td>Licenza Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Piano</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td><p>Nuovo: Standard</p>
-       <p>Oppure</p>
-       <p>Corrente: Piano</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td>Configurazioni del livello di accesso</td> 
    <td>Devi essere un amministratore di gruppo del gruppo o un amministratore di sistema.</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -115,11 +110,11 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <td> <p>Determina la relazione tra il numero di risorse (e la relativa percentuale di allocazione) e la durata o l'impegno totale per l'attività. Per ulteriori informazioni, vedere <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Tipi di durata e durata attività: indice articolo</a></p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Tipo di Reddito</td> 
+      <td role="rowheader">Tipo di entrate</td> 
       <td> <p>Calcola le stime dei ricavi pianificati ed effettivi per un'attività. Se il tipo di retribuzione <strong>Tipo di retribuzione</strong> è impostato su<strong>Non fatturabile</strong>, le ore pianificate e le ore effettive registrate non generano una stima dei ricavi per l'attività e il lavoro svolto non contribuisce ai ricavi a livello di progetto.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Tipo Cst</td> 
+      <td role="rowheader">Tipo di costo</td> 
       <td> <p>Calcola le stime dei costi pianificati ed effettivi per un'attività. Se impostata su <strong>Nessun costo</strong>, le ore pianificate e le ore effettive registrate non generano una stima dei costi pianificati o effettivi per l'attività e il lavoro svolto per l'attività non contribuisce ai costi a livello di progetto.</p> </td> 
      </tr> 
     </tbody> 

@@ -1,12 +1,12 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: Panoramica sul salvataggio delle modifiche simultanee in un elenco di attività
+title: Panoramica sul salvataggio di modifiche simultanee in un elenco di task
 description: Quando si modificano le attività in un elenco, è possibile utilizzare impostazioni di salvataggio separate per indicare se si desidera salvare le modifiche automaticamente durante la modifica delle attività in un elenco.
 author: Alina
 feature: Work Management
 exl-id: dff52425-4711-40a8-8f40-205d75c506ef
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%

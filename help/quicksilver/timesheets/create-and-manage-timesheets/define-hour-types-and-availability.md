@@ -3,12 +3,12 @@ product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
 title: Definire i tipi di lavoro e la disponibilità
 description: Un Tipo di Ora è un’etichetta che consente di categorizzare l’immissione dell’ora. A seconda dei requisiti di reporting della tua organizzazione per ore, questo può essere una parte essenziale del tempo di registrazione.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1479'
 ht-degree: 0%
 
 ---
@@ -36,32 +36,30 @@ Una volta configurati i tipi di ora appropriati, è possibile registrare il temp
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td>Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Nuovo: Standard</p> 
-   <p>Corrente: Piano</p>
+   <td>Licenza Adobe Workfront</td> 
+   <td> <p>Standard</p> 
+   <p>Piano</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td>Configurazioni del livello di accesso</td> 
    <td> <p>Accesso amministratore di sistema per definire i tipi di lavoro a livello di sistema e modificare tutti gli utenti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni oggetto</td> 
    <td>Gestire l’accesso al progetto per definire i tipi di ore su un progetto</td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

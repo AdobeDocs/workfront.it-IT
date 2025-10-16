@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Panoramica della durata originale e delle ore pianificate originali dell'attività
+title: Panoramica della durata originale dell'attività e delle ore pianificate originali
 description: Durante la pianificazione di un progetto, è necessario determinare i valori per le ore pianificate e per la durata (o durata pianificata) di ogni attività del progetto.
 author: Alina
 feature: Work Management
 exl-id: 96d77d9f-3d5f-457e-a4ad-10edc371a991
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 1%

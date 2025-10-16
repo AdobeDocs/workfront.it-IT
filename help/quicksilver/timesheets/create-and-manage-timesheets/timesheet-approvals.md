@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Approva una scheda orario
 description: Il processo di approvazione delle schede orario fornisce ai responsabili visibilità sulle ore lavorative dei loro referenti diretti. Gli approvatori possono verificare che tutto il tempo registrato sia stato assegnato nelle aree corrette e che sia stato registrato un numero sufficiente di ore per il periodo.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -27,33 +27,28 @@ Per informazioni sull&#39;invio di una scheda orario, vedere [Inviare una scheda
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- </col> 
- <col> 
- </col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>piano Adobe Workfront</p></td> 
-   <td> <p>Qualsiasi</p> </td> 
+   <td>Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront*</p></td> 
-   <td> <p>Nuovo: Standard</p>
-   <p>Corrente: Piano </p> 
-   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso amministrativo a schede orario e ore </p> </td> 
-  </tr>
-
-</td> 
+   <td>Licenza Adobe Workfront</td> 
+   <td>
+   <p>Standard</p>
+   <p>Piano</p></td>
+  </tr> 
+  <tr> 
+   <td>Configurazioni del livello di accesso</td> 
+   <td><p>Accesso amministrativo a schede orario e ore</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: e9df34c206dd65ccc2edec00087248eb4ed16f54
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '2095'
+source-wordcount: '2088'
 ht-degree: 2%
 
 ---
@@ -32,26 +32,26 @@ Devi avere i seguenti:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] piano</strong>
+   <td>Pacchetto Adobe Workfront
    </td>
-   <td> Prime o Ultimate (solo per i nuovi piani)
+   <td> <p>PRIME o ULTIMATE</p>
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licenze</strong>
+   <td><strong>Licenze Workfront</strong>
    </td>
-   <td> [!UICONTROL Standard]
+   <td> <p>Standard</p>&gt;
    </td>
   </tr>
    <tr>
    <td>Configurazioni del livello di accesso
    </td>
-   <td>Devi essere un amministratore [!DNL Workfront].
+   <td><p>Devi essere un amministratore di Workfront.</p>
    </td>
   </tr>
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Prerequisiti
 
@@ -107,7 +107,7 @@ Questa chiamata esegue un processo con più passaggi.
 
 Il primo passaggio comporta la creazione di un pacchetto di promozione vuoto con lo stato &quot;ASSEMBLAGGIO&quot;.
 
-Nel secondo passaggio viene utilizzato l&#39;array `objectCollections` fornito nel corpo del POST per assemblare i record richiesti da Workfront. Questo passaggio potrebbe richiedere alcuni minuti, a seconda del numero di record richiesti e della configurazione di Workfront. Al termine di questo processo, il pacchetto di promozione vuoto viene aggiornato con `packageEntities` e lo stato viene impostato automaticamente su &quot;BOZZA&quot;.
+Nel secondo passaggio viene utilizzato l&#39;array `objectCollections` fornito nel corpo POST per assemblare i record richiesti da Workfront. Questo passaggio potrebbe richiedere alcuni minuti, a seconda del numero di record richiesti e della configurazione di Workfront. Al termine di questo processo, il pacchetto di promozione vuoto viene aggiornato con `packageEntities` e lo stato viene impostato automaticamente su &quot;BOZZA&quot;.
 
 
 >[!NOTE]
@@ -691,7 +691,7 @@ Oppure
   </tbody> 
 </table>
 
-Questa chiamata avvia un tentativo di installazione di un pacchetto di promozione nell’ambiente di destinazione identificato nell’URL di POST.
+Questa chiamata avvia un tentativo di installazione di un pacchetto di promozione nell’ambiente di destinazione identificato nell’URL POST.
 
 #### URL
 

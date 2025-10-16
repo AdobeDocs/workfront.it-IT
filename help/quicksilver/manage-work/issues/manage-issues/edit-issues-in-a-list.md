@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: Modificare i problemi in un elenco
+title: Modifica le Issues in un Elenco
 description: È possibile modificare un singolo problema oppure modificare i problemi in un elenco di problemi o in un report. Questo articolo descrive come modificare i problemi negli elenchi.
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '882'
 ht-degree: 1%
 
 ---
 
 # Modificare i problemi in un elenco
+
+<!--Audited: 08/2025-->
 
 È possibile modificare un singolo problema oppure modificare i problemi in un elenco di problemi o in un report. Questo articolo descrive come modificare i problemi negli elenchi.
 
@@ -21,19 +23,26 @@ Per informazioni sulla modifica di un singolo problema, vedi [Modifica problemi]
 
 ## Requisiti di accesso
 
-Per eseguire le azioni descritte in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Richiedi o superiore</p> <p>Rivedi o una licenza superiore per modificare i problemi nella sezione Problemi di un progetto.</p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td>
+
+<ul><li><p>Collaboratore o versione successiva</p> </li>
+   <li><p>Licenza leggera o superiore per la modifica di un problema nella sezione Problemi di un progetto</p></li></ul> 
+    Oppure
+   <ul><li><p>Richiedente o versione successiva</p> </li>
+   <li><p>Revisore o licenza superiore per la modifica di un problema nella sezione Problemi di un progetto</p></li></ul> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
@@ -46,7 +55,34 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> <p>Review or higher license to edit issues in the Issues section of a project.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Issues</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute or higher permissions to the issue</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Problemi di modifica in linea
 
@@ -71,40 +107,40 @@ Per modificare in linea un problema:
 
    Per informazioni sugli oggetti di modifica in linea, vedere [Elementi di modifica in linea in un elenco in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
-## Modificare i problemi in un elenco
+## Modifica problemi da un elenco
 
 1. Consente di passare a un elenco di problemi in un progetto o in un&#39;attività.
 1. Effettua una delle seguenti operazioni
 
-   * Seleziona il problema nell&#39;elenco, quindi fai clic sull&#39;icona Modifica ![icona Modifica](assets/qs-edit-icon.png) nella barra degli strumenti.
-   * Fai clic sul **Altro menu** ![Altro menu](assets/more-icon-task-list.png) a destra del nome del problema, quindi fai clic su **Apri in una nuova scheda**. Verrà aperta la pagina del problema in una nuova scheda. Fai clic su **Altro** > **Modifica** dalla pagina del problema.
-   * Fai clic sul **Altro menu** ![Altro menu](assets/more-icon-task-list.png) a destra del nome del problema, quindi fai clic su **Modifica**.
+   * Seleziona il problema nell&#39;elenco, quindi fai clic sull&#39;icona **Modifica** ![Icona Modifica](assets/qs-edit-icon.png) nella barra degli strumenti.
+   * Fai clic sul nome del problema, quindi fai clic su **Modifica**.
 
-     Una di queste azioni apre la casella Modifica problema.
+     Una di queste azioni apre la casella **Modifica problema**.
 
-     Per informazioni sulla modifica dei problemi nella casella Modifica problema, vedi [Modifica problemi](../../../manage-work/issues/manage-issues/edit-issues.md).
+     Per informazioni sulla modifica dei problemi nella casella **Modifica problema**, vedi [Modifica problemi](../../../manage-work/issues/manage-issues/edit-issues.md).
 
 ## Modifica i problemi utilizzando Riepilogo
 
-È possibile modificare un problema in un elenco utilizzando Riepilogo.
+Puoi modificare un problema in un elenco utilizzando il pannello Riepilogo.
 
 1. Vai al progetto di cui desideri modificare i problemi.
 1. Fai clic su **Problemi** nel pannello a sinistra.
 
    Viene visualizzato l’elenco dei problemi del progetto.
 
-1. Seleziona un problema da modificare, quindi fai clic sull&#39;icona **Apri riepilogo** ![Apri riepilogo](assets/qs-open-summary-icon-in-new-toolbar-small.png) nell&#39;angolo superiore destro dell&#39;elenco dei problemi.
+1. Seleziona un problema da modificare, quindi fai clic sull&#39;icona **Apri riepilogo** ![Apri icona riepilogo](assets/qs-open-summary-icon-in-new-toolbar-small.png) nell&#39;angolo superiore destro dell&#39;elenco dei problemi.
 
    Verrà aperto il **Riepilogo**.
 
 1. (Facoltativo) Inizia a digitare un aggiornamento per il problema nell&#39;area **Aggiornamenti**.
 1. Fai clic su una delle seguenti icone o aree per passare al problema e modificare le informazioni a livello di problema:
 
-   | Documenti | Fai clic **qui per aggiungere** documenti al problema. |
+   | Icona | Azione |
    |---|---|
-   | Dettagli | Fai clic su per aggiornare le informazioni sul problema. |
-   | Ore | Fai clic su per registrare le ore. |
-   | Approvazioni | Fai clic su per aggiungere approvazioni problemi. |
+   | Documenti ![icona Documenti](assets/documents-icon-in-summary.png) | Fai clic **qui per aggiungere** documenti al problema. |
+   | Dettagli ![Icona Dettagli](assets/details-icon-in-summary.png) | Fai clic su per aggiornare le informazioni sul problema. |
+   | Ore ![Tempo di registrazione](assets/log-time-icon-in-summary.png) | Fai clic su per registrare le ore. |
+   | Approvazioni ![Icona Approvazioni](assets/approvals-icon-in-summary.png) | Fai clic su per aggiungere approvazioni problemi. |
 
 1. (Facoltativo) Fai di nuovo clic sull&#39;icona **Apri riepilogo** oppure sull&#39;icona **X** in alto a destra del riepilogo per chiudere il pannello e modificare il problema in linea.
 

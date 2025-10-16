@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: manage-issues
 title: Panoramica sulla modifica delle assegnazioni dei problemi
 description: Puoi assegnare o annullare l’assegnazione dei problemi a utenti, team o mansioni. È possibile assegnare più risorse contemporaneamente oppure una sola risorsa. È possibile assegnare un problema alla volta oppure più problemi in blocco.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: ff7a7bcc-553e-4425-b80d-741c9150aed0
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 7aa420946115fc612ad1d9e310583e5453ae0678
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 0%

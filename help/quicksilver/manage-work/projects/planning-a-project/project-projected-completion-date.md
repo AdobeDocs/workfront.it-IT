@@ -7,9 +7,9 @@ description: La Data di completamento prevista è un indicatore calcolato in tem
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Le sezioni seguenti descrivono come e come individuare la Data di completamento 
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 
 <table style="table-layout:auto"> 
@@ -32,23 +32,21 @@ Le sezioni seguenti descrivono come e come individuare la Data di completamento 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> 
-   <p>Nuovo: 
    <ul><li><p>Collaboratore o versione successiva per visualizzare la data di completamento prevista in un rapporto</p></li> <li><p>Una licenza Standard per creare un rapporto</p></li> </ul>
-
-<p>Corrente: 
+   Oppure
    <ul><li><p>Rivedi o più avanti per visualizzare la Data di completamento prevista in un rapporto</p></li> 
    <li><p>Una licenza Pianificazione per creare un report</p> </li></ul>
       </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Livello di accesso</td> 
-   <td> <p>Accesso ai progetti di visualizzazione o superiore</p> <p>Per creare un rapporto è necessario disporre dell'accesso in modifica a report, dashboard e calendari</p> <p>Per creare un rapporto o modificare una vista a elenco, è necessario disporre dell'accesso di modifica a Filtri, Viste, Raggruppamenti</p>  </td> 
+   <td> <p>Accesso ai progetti di visualizzazione o superiore</p> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per creare un rapporto</p> <p>Modificare l’accesso a Filtri, Viste, Raggruppamenti per creare un rapporto o modificare una vista a elenco</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
@@ -57,7 +55,7 @@ Le sezioni seguenti descrivono come e come individuare la Data di completamento 
  </tbody> 
 </table>
 
-*Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

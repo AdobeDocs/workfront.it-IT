@@ -1,5 +1,5 @@
 ---
-title: Processi di approvazione e percorsi delle milestone
+title: 'Processi di approvazione e percorsi delle milestone: indice articolo'
 user-type: administrator
 content-type: reference
 product-area: system-administration;projects
@@ -10,14 +10,16 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 5719f8ce-0b30-42a1-9b88-1466630401f2
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: 87a64e84c36d99cbafde4f40725467219db8e79b
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 5%
+source-wordcount: '82'
+ht-degree: 4%
 
 ---
 
-# Processi di approvazione e percorsi milestone
+# Processi di approvazione e percorsi milestone: indice articolo
+
+<!--Audited: 08/2025-->
 
 Questa sezione contiene i seguenti articoli:
 

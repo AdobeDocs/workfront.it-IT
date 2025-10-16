@@ -6,9 +6,9 @@ description: Quando si forniscono commenti di aggiornamento su un oggetto Adobe 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -57,35 +57,65 @@ Invece di includere tali utenti nell’oggetto assegnandoli a esso o imponendo l
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>piano Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Pacchetto Adobe Workfront</strong></td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licenza Adobe Workfront*</strong></td> 
-   <td> <p>Nuovo: Collaboratore o versione successiva per problemi e documenti; Light o versione successiva per tutti gli altri oggetti</p>
-   <p>Corrente: richiesta o successiva per problemi e documenti; revisione o successiva per tutti gli altri oggetti</p> </td> 
-  </tr> 
-  <tr> 
+   <td role="rowheader"><strong>Licenza Adobe Workfront</strong></td> 
+   <td> <p>Per problemi e documenti:</p>
+
+<ul><li><p>Collaboratore o versione successiva</p></li>
+   <li><p>Richiedi o superiore</p></li></ul>
+
+<p>Per tutti gli altri oggetti:</p>
+   <ul><li><p>Chiaro o superiore</p></li>
+   <li><p>Revisione o successiva</p></li></ul>
+
+</td>  
+  </tr>
    <td role="rowheader"><strong>Configurazione del livello di accesso</strong></td> 
-   <td> <p>Accesso di visualizzazione o superiore agli oggetti in cui si desidera pubblicare la risposta</p> </td> 
+   <td> <p>Accesso di visualizzazione o superiore agli oggetti a cui si desidera assegnare tag agli utenti</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazione oggetto</strong></td> 
-   <td> <p>Visualizza o autorizzazioni superiori per gli oggetti in cui desideri pubblicare la risposta</p> </td> 
+   <td> <p>Visualizza o autorizzazioni superiori per gli oggetti in cui si desidera assegnare tag agli utenti</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront. Per ulteriori informazioni, consulta [Requisiti di accesso per la documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso per la documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td> <p>New: Contributor or higher for issues and documents; Light or higher for all other objects</p>
+   <p>Current: Request or higher for issues and documents; Review or higher for all other objects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configuration</strong></td> 
+   <td> <p>View or higher access to the objects where you want to post the reply</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Object permission</strong></td> 
+   <td> <p>View or higher permissions to the objects where you want to post the reply</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Assegna tag ad altri utenti in caso di aggiornamenti
 
@@ -118,7 +148,9 @@ Puoi assegnare tag ad altri utenti in caso di aggiornamenti nei modi seguenti:
 
    ![Assegna tag a un utente](assets/tag-others-unified-commenting-with-all-tab.png)
 
-1. (Facoltativo) Per rendere l&#39;aggiornamento privato, abilita **Privato per la mia società** nell&#39;angolo inferiore destro della casella di aggiornamento. In questo modo l’aggiornamento è visibile solo agli utenti della tua azienda. L&#39;opzione **Privato per la mia società** è disponibile solo quando nel profilo Workfront è specificata una società.
+1. (Facoltativo) Per rendere l&#39;aggiornamento privato, abilita **Privato per la mia società** nell&#39;angolo inferiore destro della casella di aggiornamento. In questo modo l’aggiornamento è visibile solo agli utenti della tua azienda.
+
+   L&#39;opzione **Privato per la mia società** è disponibile solo quando nel profilo Workfront è specificata una società.
 
    >[!NOTE]
    >

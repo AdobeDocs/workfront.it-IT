@@ -6,10 +6,10 @@ description: Il progresso degli obiettivi è guidato da indicatori di progresso 
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 0%
+source-wordcount: '795'
+ht-degree: 1%
 
 ---
 
@@ -17,23 +17,31 @@ ht-degree: 0%
 
 <!--Audited for P&P only: 4/2025-->
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Per utilizzare le funzionalità descritte in questo articolo, l’organizzazione deve disporre dei seguenti elementi:
+>La tua azienda potrebbe scegliere di continuare a utilizzare gli obiettivi di Adobe Workfront se ha acquistato questo pacchetto in passato. Per ulteriori dettagli, rivolgiti al rappresentante del tuo account.
 >
->
->* Per il nuovo piano e la nuova struttura delle licenze:
->
->   * Un piano Ultimate
->    
->* Per il piano corrente e la struttura delle licenze:
->
->   * A Pro o superiore
->   * Una licenza Adobe Workfront Goals oltre a una licenza Workfront.
->
-> Contatta il tuo account manager Workfront per saperne di più su una licenza Workfront Goals.
+>Adobe Workfront Goals non è più disponibile per l’acquisto.
 >
 >Per ulteriori informazioni sull&#39;accesso agli obiettivi di Workfront, vedere [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+<!--Old:
+>[!IMPORTANT]
+>
+>Your organization must have the following to use the functionality described in this article:
+>
+>
+>* For the new plan and license structure:
+>
+>   * An Ultimate plan 
+>    
+>* For the current plan and license structure: 
+>
+>   * A Pro or higher 
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
+>
+> Contact your Workfront account manager to learn about a Workfront Goals license.-->
+
 
 Adobe Workfront calcola automaticamente il progresso dell’obiettivo in base al progresso dei suoi indicatori di progresso.
 

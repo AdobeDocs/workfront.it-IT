@@ -6,9 +6,9 @@ description: Quando le iniziative sono in conflitto tra loro, competono per le s
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d3a3e177-bece-4e03-89d7-9cee6127bc55
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '2220'
+source-wordcount: '2187'
 ht-degree: 0%
 
 ---
@@ -24,47 +24,79 @@ Ciò può verificarsi in uno qualsiasi dei seguenti casi:
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] piano*</p> </td> 
-   <td> <ul></li>
-   <li><p>Nuovo: Ultimate </p></li>
-   <p>Pianificazione scenario non disponibile per i nuovi piani Workfront Select o Workfront Prime. </p>
-   <li><p>Corrente: [!UICONTROL Business] o versione successiva</p></ul>
+   <td> <p>[!DNL Adobe Workfront] pacchetto</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>NOTA</b></p>
+<p>Se hai un pacchetto Workfront diverso, contatta il rappresentante Workfront.</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] licenza*</p> </td> 
-   <td> <p>Nuovo: Chiaro o superiore</p> 
-   <p>Corrente: [!UICONTROL Review] o versione successiva</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] licenza</p> </td> 
+   <td> <p>[!UICONTROL Light] o versione successiva</p> 
+   <p>[!UICONTROL Review] o versione successiva</p> </td> 
   </tr> 
-  <tr> 
-   <td>Prodotto* </td> 
-   <td> <ul><li><p>Per i nuovi piani Workfront:</p><p> Adobe Workfront</li></p>
-   <li><p>Per i piani Workfront correnti: </p>
-   <p>Adobe Workfront</p> <p>Pianificazione scenario Adobe Workfront</p></li></ul>
-
-<p>Per ulteriori informazioni, vedere <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Accesso necessario per utilizzare [!DNL Scenario Planner]</a>. </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>Livello di accesso </td> 
+    <tr> 
+   <td>Configurazioni del livello di accesso</td> 
    <td> <p>Accesso di [!UICONTROL Edit] al [!DNL Scenario Planner]</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td> <p>Autorizzazioni oggetto </p> </td> 
-   <td> <p>Autorizzazioni [!UICONTROL Manage] per un piano</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo a un piano, vedere <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Richiedere accesso a un piano in [!DNL Scenario Planner]</a>.</p> </td> 
+   <td> <p>Autorizzazioni [!UICONTROL Manage] per un piano</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per informazioni, consulta [Requisiti di accesso alla documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori informazioni sull&#39;accesso alla Pianificazione scenario, vedere [Accesso necessario per utilizzare la [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+
+Per informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso alla documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <ul></li>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Product* </td> 
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level </td> 
+   <td> <p>[!UICONTROL Edit] access to the [!DNL Scenario Planner]</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Panoramica sulla risoluzione dei conflitti
 
@@ -101,7 +133,7 @@ Ciò può verificarsi in uno qualsiasi dei seguenti casi:
    >
    >Un piano può avere diversi scenari. Esaminando i conflitti del piano, [!DNL Workfront] fa riferimento alle risorse attualmente disponibili nello scenario selezionato e a quelle necessarie per le iniziative dello scenario. Per informazioni sugli scenari, vedere [Creare e confrontare scenari di piano in [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
 
-1. Verificare che **[!UICONTROL Mostra conflitti]** sia abilitato. È attivata per impostazione predefinita.
+1. Verificare che **[!UICONTROL Mostra conflitti]** sia abilitato. Questa opzione è abilitata per impostazione predefinita.
 
    ![Mostra/nascondi scenari](assets/show-scenarios-toggle-on.png)
 

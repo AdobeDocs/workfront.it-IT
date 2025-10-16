@@ -7,7 +7,7 @@ description: Gli articoli seguenti contengono informazioni sui progetti, sul Tea
 author: Alina
 feature: Work Management
 exl-id: 67fddb92-4b8a-4628-9b50-a10a806e49d1
-source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%

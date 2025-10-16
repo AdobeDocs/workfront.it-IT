@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: Applicare una scorecard a un progetto e generare un punteggio di allineamento
 description: Puoi utilizzare una scorecard per misurare il livello di allineamento di un progetto ai criteri precedentemente stabiliti per un portfolio. Una scorecard spesso riflette la missione, i valori e gli obiettivi strategici di un’organizzazione.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1211'
 ht-degree: 0%
 
 ---
@@ -29,18 +29,15 @@ Per ulteriori informazioni sulle scorecard e su come crearne una, vedere [Creare
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td>
-   <p>Corrente: Prime o versione successiva</p>
-   <p>oppure</p>
-   <p>Legacy: aziendale o superiore</p> </td>
+   <p>Prime o versione successiva</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
    <td>
-   <p>Corrente: Standard</p>
-   <p>oppure</p>
-   <p>Legacy: Plan</p></td>  
+   <p>Standard</p>
+   <p>Piano</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -53,7 +50,7 @@ Per ulteriori informazioni sulle scorecard e su come crearne una, vedere [Creare
  </tbody> 
 </table>
 
-*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

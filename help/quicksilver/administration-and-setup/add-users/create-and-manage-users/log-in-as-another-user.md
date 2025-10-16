@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 6068c9c53568d3ebec9fae294bfee1cbd365714b
+source-git-commit: f8d04790caefd12c9811ea3ed94e1f892311d031
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -48,31 +48,31 @@ Some users, such as executives, need to be able to control which administrators 
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td>Qualsiasi</td> 
+   <td>Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Nuovo: Standard</p>
-   <p>Oppure</p>
-   <p>Corrente: Piano</p></td> 
-  </tr> 
+   <td>Licenza Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Piano</p></td> 
+  </tr>
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Con il livello di accesso Amministratore di sistema, puoi accedere come chiunque.</p> <p>Con un livello di accesso Standard o Planner, è possibile accedere come utente con un livello di licenza inferiore se l'impostazione Utenti nel livello di accesso è configurata per l'accesso Modifica, con Crea e almeno una delle due opzioni Amministratore utenti abilitate in Ottimizza le impostazioni <img src="assets/gear-icon-in-access-levels.png">. </p> 
-   <p>NOTA: tra queste due opzioni, se l'opzione Amministratore utenti (Utenti gruppi) è abilitata, è necessario essere un amministratore di gruppo di un gruppo di cui l'utente è membro.</p></td>
+   <td>Configurazioni del livello di accesso</td> 
+   <td> <p>È necessario disporre di uno dei seguenti elementi:</p> 
+    <ul> 
+     <li> <p>Livello di accesso Amministratore di sistema. Questo ti consente di accedere come qualsiasi altro utente.</li> 
+     <li> <p>Impostazione di <b>Utenti</b> nel livello di accesso configurato per l'accesso di <b>Modifica</b>, con <b>Crea</b> e almeno una delle due opzioni di <b>Amministratore utenti</b> abilitate in <b>Ottimizza le impostazioni</b> <img src="assets/gear-icon-in-access-levels.png">. Questo consente di accedere come utente con un livello di licenza inferiore. </p> <p>Di queste due opzioni, se <b>User Admin (Group Users)</b> è abilitato, è necessario essere un amministratore di gruppo di un gruppo di cui l'utente è membro.</p> </li> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -6,9 +6,9 @@ description: Utilizzando i filtri, puoi modificare le informazioni visualizzate 
 author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2390'
+source-wordcount: '2361'
 ht-degree: 0%
 
 ---
@@ -25,36 +25,32 @@ Utilizzando i filtri, puoi modificare le informazioni visualizzate nella Program
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td><p>Nuovo: Qualsiasi</p>
-       <p>oppure</p>
-       <p>Corrente: Pro o superiore</p> </td> 
+  <tr> 
+   <td>Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td><p>Nuovo: Chiaro o superiore</p>
-       <p>oppure</p>
-       <p>Corrente: revisione o versione successiva</p></td>
+   <td>Licenza Adobe Workfront</td> 
+   <td><p>Chiaro o superiore</p>
+       <p>Revisione o successiva</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso di visualizzazione o superiore a progetti, utenti e gestione delle risorse</p> </td> 
+   <td>Configurazioni del livello di accesso</td> 
+   <td> <p>Accesso di visualizzazione o superiore a progetti, utenti e gestione delle risorse</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizza autorizzazioni o versioni successive per i progetti</p> </td> 
+   <td>Autorizzazioni oggetto</td> 
+   <td> <p>Visualizza o autorizzazioni superiori per i progetti</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -314,8 +310,8 @@ Per informazioni sulla duplicazione dei filtri, vedere la sezione [Duplicare un 
 1. Nella casella **Assegna accesso al filtro di programmazione delle risorse a:**, inizia a digitare i nomi di utenti, team, ruoli, gruppi o società con cui desideri condividere il filtro.
 1. Seleziona tra i seguenti livelli di autorizzazione:
 
-   * Visualizza
-   * Gestire
+   * Visualizzazione
+   * Gestisci
 
      Per informazioni sulle autorizzazioni in Workfront, vedere [Panoramica sulla condivisione delle autorizzazioni sugli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
 

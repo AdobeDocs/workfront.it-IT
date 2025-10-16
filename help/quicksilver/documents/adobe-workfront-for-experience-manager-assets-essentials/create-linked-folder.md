@@ -7,9 +7,9 @@ description: In Workfront puoi creare una cartella collegata con Experience Mana
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: e9c6a01e80d34bc873c9a06ae0782dc65afb2445
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -24,23 +24,23 @@ Se una risorsa viene eliminata o spostata da una cartella collegata all’intern
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Devi avere i seguenti:
-
 <table>
   <tr>
-   <td><strong>Piano Adobe Workfront*</strong>
+   <td><strong>Pacchetto Adobe Workfront</strong>
    </td>
    <td>Qualsiasi
    </td>
   </tr>
   <tr>
-   <td><strong>Licenze Adobe Workfront*</strong>
+   <td><strong>Licenze Adobe Workfront</strong>
    </td>
-   <td>Piano
+   <td>
+   <p>Standard</p>
+   <p>Piano</p>
    </td>
   </tr>
   <tr>
-   <td><strong>Prodotto</strong>
+   <td><strong>Prodotti aggiuntivi</strong>
    </td>
    <td>Devi disporre di Experience Manager Assets as a Cloud Service o Assets Essentials e devi essere aggiunto al prodotto come utente.
    </td>
@@ -59,8 +59,7 @@ Devi avere i seguenti:
   </tr>
 </table>
 
-
-*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

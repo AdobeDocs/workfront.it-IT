@@ -2,15 +2,15 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: "Gestisci progetti: indice articolo"
+title: 'Gestisci progetti: Indice articoli'
 description: Per informazioni sulla gestione dei progetti, consulta i seguenti articoli.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: a63ec4e0-ba39-42c1-8061-c29350ef4bbb
-source-git-commit: 11e7a376719e52db3f5e98afff44cb4b4d07db01
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '130'
 ht-degree: 1%
 
 ---
@@ -38,5 +38,5 @@ Questa sezione contiene i seguenti articoli:
 * [Comunicazione con i membri del team del progetto](../../../manage-work/projects/manage-projects/communicate-with-project-team-members.md)
 * [Gestione di un progetto nella visualizzazione Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
 * [Panoramica sui limiti del progetto](../../../manage-work/projects/manage-projects/project-maximums.md)
-* [Panoramica delle metriche del progetto](../../../manage-work/projects/manage-projects/project-metrics.md)
+* [Comprendere le metriche del progetto](../../../manage-work/projects/manage-projects/project-metrics.md)
 * [Riepilogare gli aggiornamenti con l’Assistente AI](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)

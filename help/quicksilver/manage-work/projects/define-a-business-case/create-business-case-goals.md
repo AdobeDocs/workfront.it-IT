@@ -2,13 +2,13 @@
 navigation-topic: business-case-and-scorecards
 title: Creare obiettivi di business case
 description: Durante la creazione di un caso di business, puoi creare una serie di obiettivi per definire gli obiettivi di un progetto. Gli obiettivi del caso di business vengono utilizzati per comunicare al manager Portfolio o allo sponsor del progetto lo scopo di completare un progetto.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 1%
+source-wordcount: '431'
+ht-degree: 2%
 
 ---
 
@@ -50,15 +50,14 @@ Quando crei gli obiettivi del caso di business per i tuoi progetti, tieni presen
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Piano Adobe Workfront*</p></td> 
-   <td> <p>Corrente: Prime o versione successiva</p>
-   <p>Legacy: Pro o superiore</p>  </td> 
+   <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
+   <td> <p>Prime o versione successiva</p>
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Licenza Adobe Workfront</p></td>
    <td> 
-   <p>Corrente: Standard</p> 
-   <p>Legacy: Plan </p> 
+   <p>Standard</p> 
+   <p>Piano </p> 
    </td> 
   </tr> 
   <tr> 
@@ -72,7 +71,7 @@ Quando crei gli obiettivi del caso di business per i tuoi progetti, tieni presen
  </tbody> 
 </table>
 
-*Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

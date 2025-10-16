@@ -7,10 +7,10 @@ description: I rapporti forniscono visibilità su ciò che sta accadendo con gli
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '3293'
-ht-degree: 0%
+source-wordcount: '3292'
+ht-degree: 1%
 
 ---
 
@@ -31,7 +31,7 @@ I rapporti sono una combinazione dei seguenti tre elementi in Workfront:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Visualizza</td> 
+   <td role="rowheader">Visualizzazione</td> 
    <td> <li>Definisce le colonne del report e le informazioni che è possibile includere in ogni colonna.</li> <li>Per informazioni sulle visualizzazioni, vedere <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Panoramica delle visualizzazioni in Adobe Workfront</a>.</li> </td> 
   </tr> 
   <tr> 
@@ -88,7 +88,7 @@ Per informazioni sulla creazione di report, vedere [Creare un report personalizz
 
 ### Prerequisiti per la creazione di rapporti {#prerequisites-for-creating-reports}
 
-* Per creare rapporti personalizzati è necessario disporre di una licenza Pianificazione (licenze correnti) o di una licenza Standard (nuove licenze).
+* Per creare rapporti personalizzati è necessario disporre di una licenza Standard o Plan.
 
   Per informazioni sui tipi di licenza di Workfront, vedere [Panoramica licenze](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) per le licenze correnti e [Panoramica nuove licenze](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) per le nuove licenze.
 
@@ -177,7 +177,7 @@ Nella scheda Dettagli di un report vengono visualizzati l&#39;oggetto dei report
 >[!IMPORTANT]
 >
 >Le informazioni nella scheda Dettagli possono essere visualizzate in modo diverso rispetto alla scheda Grafico in base al fuso orario.\
->Ad esempio, un utente in California ha completato un’attività alle 21:30 PST del 12 febbraio. Quando un utente di New York visualizza un rapporto che include il completamento di questa attività, la data di completamento effettiva viene visualizzata come 13 febbraio sia nella scheda Dettagli che nei dettagli del grafico, in quanto è stato completato alle 00:30 EST del 13 febbraio. Tuttavia, nel grafico viene incluso nel raggruppamento del 12 febbraio fino a quando non si espande l’elemento del grafico.
+>Ad esempio, un utente in California ha completato un&#39;attività alle 21:00 PST del 12 febbraio. :30 Quando un utente di New York visualizza un rapporto che include il completamento di questa attività, la Data di completamento effettiva viene visualizzata come 13 febbraio sia nella scheda Dettagli che nei dettagli del grafico, perché è stata completata alle 12:30 del mattino EST del 13 febbraio. Tuttavia, nel grafico viene incluso nel raggruppamento del 12 febbraio fino a quando non si espande l’elemento del grafico.
 
 ### Scheda Riepilogo {#summary-tab}
 
@@ -206,7 +206,7 @@ Prendi in considerazione l’inclusione di un grafico nei rapporti per dashboard
 >[!IMPORTANT]
 >
 >Quando si fa clic su un elemento del grafico, le informazioni espanse potrebbero essere visualizzate in modo diverso rispetto al grafico in base al fuso orario.\
->Ad esempio, un utente in California ha completato un’attività alle 21:30 PST del 12 febbraio. Quando un utente di New York visualizza un rapporto che include il completamento di questa attività, la data di completamento effettiva viene visualizzata come 13 febbraio sia nella scheda Dettagli che nei dettagli del grafico, in quanto è stato completato alle 00:30 EST del 13 febbraio. Tuttavia, nel grafico viene incluso nel raggruppamento del 12 febbraio fino a quando non si espande l’elemento del grafico.
+>Ad esempio, un utente in California ha completato un&#39;attività alle 21:00 PST del 12 febbraio. :30 Quando un utente di New York visualizza un rapporto che include il completamento di questa attività, la Data di completamento effettiva viene visualizzata come 13 febbraio sia nella scheda Dettagli che nei dettagli del grafico, perché è stata completata alle 12:30 del mattino EST del 13 febbraio. Tuttavia, nel grafico viene incluso nel raggruppamento del 12 febbraio fino a quando non si espande l’elemento del grafico.
 
 Per informazioni sulla creazione di un report con un grafico, vedere l&#39;articolo [Aggiungere un grafico a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
@@ -296,7 +296,7 @@ I seguenti termini vengono utilizzati in riferimento ai rapporti di Workfront:
    <td>Un Bean rappresenta un elemento di programmazione riutilizzabile. Il termine Bean identifica le relazioni tra oggetti diversi nell'applicazione Workfront. È importante avere familiarità con queste relazioni quando si tenta di visualizzare attributi aggiuntivi su un oggetto che non sono disponibili negli strumenti di reporting di base.</td> 
   </tr> 
   <tr> 
-   <td>Interfaccia o Report Builder di generazione</td> 
+   <td>Interfaccia Builder o Report Builder</td> 
    <td>L'interfaccia Builder è la serie di menu a discesa contenenti i campi visualizzati nelle schede Colonne (Visualizza), Filtro e Raggruppamento. Fornisce un mapping intuitivo delle relazioni Bean per identificare le colonne di una visualizzazione, i criteri di un filtro e gli attributi comuni di un raggruppamento.</td> 
   </tr> 
   <tr> 
@@ -325,10 +325,10 @@ I seguenti termini vengono utilizzati in riferimento ai rapporti di Workfront:
   </tr> 
   <tr> 
    <td>Campi</td> 
-   <td> <p>Si riferisce agli attributi degli oggetti. Ad esempio, "Stato" è un campo per Progetti, Attività o Problemi. "Gestione Portfoli" è un campo per l'oggetto Portfolio.</p> <p>È inoltre possibile creare e aggiungere campi personalizzati ai moduli personalizzati.<br>Per informazioni sulla creazione di moduli personalizzati, vedere l'articolo <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Creare un modulo personalizzato</a>.</p> </td> 
+   <td> <p>Si riferisce agli attributi degli oggetti. Ad esempio, "Stato" è un campo per Progetti, Attività o Problemi. "Portfolio Manager" è un campo per l'oggetto Portfolio.</p> <p>È inoltre possibile creare e aggiungere campi personalizzati ai moduli personalizzati.<br>Per informazioni sulla creazione di moduli personalizzati, vedere l'articolo <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Creare un modulo personalizzato</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Nome Campo </td> 
+   <td>Nome campo </td> 
    <td>Valore di un attributo visualizzato in una visualizzazione o utilizzato nella condizione di un filtro o come elemento comune di un raggruppamento. Le opzioni per Nome campo dipendono dalla selezione di Source campo.</td> 
   </tr> 
   <tr> 

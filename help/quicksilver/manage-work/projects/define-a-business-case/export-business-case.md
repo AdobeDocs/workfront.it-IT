@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: business-case-and-scorecards
 title: Esportare il business case di un progetto
 description: È possibile esportare il Business Case in un file PDF, nel caso sia necessario stamparlo o allegarlo a un'e-mail in un formato più compatto.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -26,14 +26,14 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Piano Adobe Workfront*</p></td> 
-   <td> <p>Corrente: Prime o versione successiva </p> <p>Legacy: Pro o superiore </p> </td> 
+   <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
+   <td> <p>Prime o versione successiva </p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
    <td> 
-   <p>Corrente: Light o superiore</p>
-   <p>Legacy: revisione o superiore</p> </td> 
+   <p>Chiaro o superiore</p>
+   <p>Revisione o successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -46,7 +46,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

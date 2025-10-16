@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
-title: Panoramica del team del progetto
+title: Panoramica team di progetto
 description: Gli utenti associati a un progetto in una certa capacità costituiscono il team del progetto. Gli utenti elencati nell'area Persone di un progetto o di un modello sono gli utenti che compongono il team del progetto.
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 1%

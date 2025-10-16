@@ -2,14 +2,14 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: Panoramica sull’attività della versione 2018.3
-description: "Nota: la versione 2018.3 è stata resa disponibile nell’ambiente di produzione nelle seguenti date (per date e ore dettagliate, consulta trust.workfront.com)"
+description: 'Nota: la versione 2018.3 è stata resa disponibile nell’ambiente di produzione nelle seguenti date (per date e ore dettagliate, consulta trust.workfront.com)'
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 55787c1e-45af-4b9f-bdbc-10cfacb326e6
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 3ac15b6527a727cfe95075405fa19164c06b102f
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1126'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ La versione 2018.3 contiene miglioramenti sia per gli amministratori di Workfron
 
 * [Miglioramenti per gli amministratori](#enhancements-for-administrators)
 * [Miglioramenti per tutti gli utenti](#enhancements-for-all-users)
-* [Notifiche](#announcements)
+* [Annunci](#announcements)
 
 ## Miglioramenti per gli amministratori {#enhancements-for-administrators}
 
@@ -108,17 +108,17 @@ La versione 2018.3 contiene miglioramenti sia per gli amministratori di Workfron
 ### Altri miglioramenti
 
 * [Integrazione documento Microsoft OneDrive](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md#document-integration-with-microsoft-onedrive) 
-* Integrazione di [Workfront for Microsoft Teams](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md#workfront-for-microsoft-teams-integration) 
+* [Integrazione di Workfront per Microsoft Teams](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md#workfront-for-microsoft-teams-integration) 
 * [Aggiornamento di Workfront per l&#39;integrazione con Adobe Creative Cloud](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md#updated-workfront-for-adobe-cc-integration) 
 * [Rimozione Flash per condivisione report, calendario e documenti](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md#flash-removal-for-report-calendar-and-document-sharing)
 
-## Notifiche {#announcements}
+## Annunci {#announcements}
 
 * [La versione 10 dell&#39;API è ora disponibile in anteprima](#api-version-10-now-available-in-preview)
 * [API versione 3 non più supportata](#api-version-3-no-longer-supported)
 * [Il supporto TLS sta per terminare](#tls-support-is-ending)
 * [Fine del supporto JSONP](#jsonp-support-is-ending)
-* [Rimozione applicazione di Flash](#flash-application-removal)
+* [Rimozione applicazione Flash](#flash-application-removal)
 * [Varie opzioni Single Sign-On da rimuovere](#various-single-sign-on-options-to-be-removed)
 * [Workfront FusionUpdate legacy - 20 settembre 2018](#legacy-workfront-fusionupdate-september-20-2018)
 
@@ -138,13 +138,13 @@ Per ulteriori informazioni, consulta  [TLS 1.2 richiesto in Adobe Workfront](..
 
 ### Il supporto JSONP sta per terminare {#jsonp-support-is-ending}
 
-Poiché JSONP (JavaScript con spaziatura) è un vecchio standard con vulnerabilità di sicurezza note, Workfront non supporterà più JSONP da novembre 2018. Per ulteriori informazioni, vedere [Fine del supporto per JSONP](../../../../wf-api/api/ending-support-jsonp.md).
+Poiché JSONP (JavaScript con spaziatura) è un vecchio standard con vulnerabilità di sicurezza note, Workfront non supporterà più JSONP da novembre 2018.
 
 ### Rimozione applicazione Flash {#flash-application-removal}
 
-Tutte le funzionalità basate sulla tecnologia di Flash sono pianificate per la rimozione da Workfront con la versione 2018.3 e sostituite con una nuova soluzione.
+Tutte le funzionalità basate sulla tecnologia Flash sono pianificate per la rimozione da Workfront con la versione 2018.3 e sostituite con una nuova soluzione.
 
-Per informazioni dettagliate sugli strumenti di Flash legacy e sulle relative sostituzioni, vedere [Sostituzione degli strumenti basati sul Flash in Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Per informazioni dettagliate sugli strumenti Flash precedenti e sulle relative sostituzioni, vedere [Sostituzione degli strumenti basati su Flash in Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
 ### Varie opzioni Single Sign-On da rimuovere {#various-single-sign-on-options-to-be-removed}
 

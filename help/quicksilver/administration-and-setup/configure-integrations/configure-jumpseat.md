@@ -8,10 +8,10 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Nolan, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-source-git-commit: 01b7eb79028eb3fe47f988a31cb62ace31bba3f1
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 4%
+source-wordcount: '257'
+ht-degree: 6%
 
 ---
 
@@ -23,32 +23,37 @@ ht-degree: 4%
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano*</td> 
-   <td> <p>[!UICONTROL Enterprise] </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
-   <td>[!UICONTROL Plan]</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Prodotto</td> 
-   <td>È necessario disporre di un piano [!DNL JumpSeat] attivo.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p> Devi essere un amministratore [!DNL Workfront]. Per informazioni sugli amministratori di [!DNL Workfront], vedere <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>.</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Pacchetto Adobe Workfront
+   </td>
+    <p>Flusso di lavoro Ultimate</p>
+   <td> <p>PRIME o ULTIMATE</p>
+   </td>
+  </tr>
+    <tr>
+   <td>Licenze Adobe Workfront
+   </td>
+   <td>Standard
+   <p>Piano</p>
+   </td>
+  </tr>
+  </tr>
+  <tr>
+   <td>Prodotto
+   </td>
+   <td>È necessario disporre di un piano [!DNL JumpSeat] attivo.
+   </td>
+  </tr>
+   <tr>
+   <td>Configurazioni del livello di accesso
+   </td>
+   <td>Devi essere un amministratore [!DNL Workfront].
+   </td>
+  </tr>
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -60,7 +65,7 @@ Prima di iniziare, è necessario
 
 >[!IMPORTANT]
 >
->Se sei nell&#39;esperienza unificata di Adobe, devi utilizzare il seguente URL applicazione: `.workfront.adobe.com`.
+>Se utilizzi Adobe Unified Experience, devi utilizzare il seguente URL applicazione: `.workfront.adobe.com`.
 
 
 
@@ -85,7 +90,7 @@ Per configurare l&#39;integrazione di [!DNL JumpSeat]:
 
 https://{mycompanyname}.jumpseat.io
 
-&#x200B;>>
+>>
 
 >[!ENDSHADEBOX]
 

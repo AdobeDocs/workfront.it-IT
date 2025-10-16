@@ -5,35 +5,35 @@ description: Puoi esportare il grafico Gantt in una PDF. In seguito, puoi stampa
 author: Alina
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
 source-wordcount: '979'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # Esporta il [!UICONTROL Diagramma di Gantt] in PDF
 
-<!--Audited: 5/2025-->
+<!--Audited: 08/2025-->
 
 Puoi esportare il [!UICONTROL Grafico di Gantt] in un PDF. In seguito, puoi stamparlo o allegarlo a un messaggio e-mail per condividerlo con altri utenti.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano [!UICONTROL Adobe Workfront]</td> 
-   <td> <p>Qualsiasi </p> </td> 
+   <td role="rowheader">Pacchetto [!UICONTROL Adobe Workfront]</td> 
+   <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">licenza di [!UICONTROL Adobe Workfront]</td> 
-   <td> <p>Nuovo:[!UICONTROL Light] o versione successiva</p>
-   <p>Corrente: [!UICONTROL Review] o versione successiva</p> </td> 
+   <td> <p>[!UICONTROL Light] o versione successiva</p>
+   <p>[!UICONTROL Review] o versione successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -41,7 +41,7 @@ Puoi esportare il [!UICONTROL Grafico di Gantt] in un PDF. In seguito, puoi stam
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Accesso di [!UICONTROL View] o versione successiva al progetto</p> </td> 
+   <td> <p>Accesso di [!UICONTROL View] o versione successiva al progetto e alle attività</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,6 +49,34 @@ Puoi esportare il [!UICONTROL Grafico di Gantt] in un PDF. In seguito, puoi stam
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront] plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront] license</td> 
+   <td> <p>New:[!UICONTROL Light] or higher</p>
+   <p>Current:[!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL View] or higher access to Projects and Tasks</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL View] or higher access to the project</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+-->
 
 ## Esporta il [!UICONTROL diagramma di Gantt]
 
@@ -105,7 +133,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    Ad esempio, se visualizzi il [!UICONTROL Grafico di Gantt] per un progetto che contiene 50 attività, ma desideri visualizzare solo 10 attività nel [!UICONTROL Grafico di Gantt] esportato, seleziona le 10 attività che desideri visualizzare.
 
 1. Fare clic sull&#39;icona della stampante ![Icona della stampante](assets/printer-icon.png) nell&#39;angolo superiore destro del diagramma di Gantt.
-Viene visualizzata la finestra di dialogo Esporta in PDF&#x200B;**.**
+Viene visualizzata la finestra di dialogo Esporta in PDF**[!UICONTROL .]**
 
    ![Finestra di dialogo Esporta in PDF](assets/exported-gantt-ui-350x225.png)
 
@@ -134,7 +162,7 @@ Viene visualizzata la finestra di dialogo Esporta in PDF&#x200B;**.**
 
 
 1. Se il PDF verrà stampato dopo l&#39;esportazione in PDF, selezionare le dimensioni della carta da stampare nel menu a discesa **[!UICONTROL Dimensioni pagina]**.
-Puoi scegliere tra le seguenti opzioni:
+Puoi scegliere una delle opzioni seguenti:
 
    * **[!UICONTROL Lettera]**
    * **[!UICONTROL Note legali]**

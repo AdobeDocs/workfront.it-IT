@@ -2,13 +2,13 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: Gestire le attività
+title: Gestisci le Attività
 description: Per informazioni sulla gestione delle attività, consulta i seguenti articoli.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: d87311fc-6f60-4fa8-a180-fda6eae473a0
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 0%

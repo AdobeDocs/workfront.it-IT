@@ -6,9 +6,9 @@ description: Il pannello di navigazione sinistro in [!DNL Workfront] semplifica 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
+source-git-commit: 0fbbf7fccee0158cc0630703ed1b663cf42725dd
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1370'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ La maggior parte delle aree e degli oggetti in WF utilizzano un semplice pannell
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,17 +39,22 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] pacchetto</strong></td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Request] o versione successiva</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza</strong></td> 
+   <td>
+   <p>Collaboratore o versione successiva</p>
+   <p>Richiedi o superiore</p> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano o il tipo di licenza disponibile, contattare l&#39;amministratore [!DNL Workfront].
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Sezioni predefinite nel pannello di navigazione a sinistra
 
@@ -75,7 +80,7 @@ Il pannello sinistro è disponibile per i seguenti oggetti:
 >[!IMPORTANT]
 >
 >Se nel pannello sinistro viene visualizzata una sola sezione per impostazione predefinita, ad esempio **[!UICONTROL Tutti i progetti]** nell&#39;area **[!UICONTROL Progetti]**, un amministratore di [!DNL Workfront] deve aggiungere almeno un dashboard a quest&#39;area durante la creazione di un modello di layout e assegnare l&#39;utente a tale modello prima che il pannello sinistro venga visualizzato in tale area.
->&#x200B;>Per informazioni su come un amministratore di [!DNL Workfront] personalizza il pannello sinistro in un modello di layout, vedere [Personalizzare il pannello sinistro utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+>>Per informazioni su come un amministratore di [!DNL Workfront] personalizza il pannello sinistro in un modello di layout, vedere [Personalizzare il pannello sinistro utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 Il pannello a sinistra è disponibile per le seguenti aree:
 
@@ -84,7 +89,7 @@ Il pannello a sinistra è disponibile per le seguenti aree:
 * [Sezioni predefinite nell&#39;area [!UICONTROL Risorse]](#default-sections-in-the-resourcing-area)
 * [Sezioni predefinite nell&#39;area [!UICONTROL Progetti]](#default-sections-in-the-projects-area)
 * [Sezioni predefinite nell&#39;area [!UICONTROL Schede orario]](#default-sections-in-the-timesheets-area)
-* [Sezioni predefinite nell&#39;area  [!DNL Goals] &#x200B;](#default-sections-in-the-goals-area)
+* [Sezioni predefinite nell&#39;area  [!DNL Goals] ](#default-sections-in-the-goals-area)
 
 ### Sezioni predefinite nell&#39;area [!UICONTROL Dashboard]
 

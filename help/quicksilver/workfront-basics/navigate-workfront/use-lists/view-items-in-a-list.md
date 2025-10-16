@@ -5,10 +5,10 @@ description: È possibile visualizzare elenchi di oggetti in [!DNL Adobe Workfro
 feature: Get Started with Workfront
 author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '2290'
-ht-degree: 0%
+source-wordcount: '2275'
+ht-degree: 1%
 
 ---
 
@@ -31,28 +31,22 @@ Di seguito sono riportate alcune caratteristiche degli elenchi in [!DNL Workfron
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> 
-    <p>Nuovo:</p>
-   <ul><li><p>Collaboratore o versione successiva </p></li>
-   </ul>
-
-<p>Corrente:</p>
-   <ul><li><p>Richiedi o superiore</p></li>
-    </ul></td> 
+   <p>Collaboratore o versione successiva</p>
+   <p>Richiedi o superiore</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -65,7 +59,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -165,7 +159,7 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti disponibili in [!DNL
    <td>Elenco dei rapporti</td> 
    <td> 
     <ul> 
-     <li> <p>  Rapporti di   </p> </li> 
+     <li> <p>  Rapporti di [!UICONTROL]  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -205,7 +199,7 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti disponibili in [!DNL
    <td>Elenco delle schede orario</td> 
    <td> 
     <ul> 
-     <li> <p> s &gt; [!UICONTROL Tutte le schede orario]*</p> </li> 
+     <li> <p>[!UICONTROL] s &gt; [!UICONTROL Tutte le schede orario]*</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -319,7 +313,7 @@ Di seguito sono riportati gli elementi di un elenco:
    <td> <p>I filtri escludono le informazioni non necessarie da un elenco, in base ai criteri specificati. </p> <p>Per ulteriori informazioni, vedere <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Panoramica filtri</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Visualizzazione </strong></td> 
+   <td><strong>Visualizzazione [!UICONTROL]</strong></td> 
    <td> <p>Le visualizzazioni definiscono quali campi (colonne) vengono visualizzati sullo schermo.</p> <p>Per ulteriori informazioni, vedere <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Panoramica delle visualizzazioni in [!DNL Adobe Workfront]</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -352,7 +346,7 @@ Per ulteriori informazioni sulla creazione e la personalizzazione degli elementi
  <thead> 
   <tr> 
    <th><strong>Azione</strong></th> 
-   <th><strong>Informazione</strong></th> 
+   <th><strong>Informazioni</strong></th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -365,7 +359,7 @@ Per ulteriori informazioni sulla creazione e la personalizzazione degli elementi
 </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <td><strong>Aggiorna con il riepilogo </strong> </td> 
+   <td><strong>Aggiorna con il riepilogo [!UICONTROL]</strong> </td> 
    <td> <p>Aggiorna attività e problemi a livello di progetto utilizzando il pannello [!UICONTROL Summary].</p> <p><b>SUGGERIMENTO:</b></p> <p>Il Riepilogo non è disponibile per tutti gli oggetti e non è disponibile nei report Attività o Problemi.</p> <p>Per ulteriori informazioni, vedere <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Panoramica di riepilogo</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -464,8 +458,8 @@ Nella tabella seguente sono elencate molte delle icone disponibili nella barra d
   </tr> 
   <tr> 
    <td> <img src="assets/qs-gantt-chart-icon-in-new-toolbar.png"> </td> 
-   <td>Grafico di Gantt </td> 
-   <td> <p>Visualizza l'elenco nella visualizzazione Diagramma di Gantt .</p> <p>Questa opzione è disponibile solo per i progetti e le attività.</p> </td> 
+   <td>Grafico di Gantt [!UICONTROL]</td> 
+   <td> <p>Visualizza l'elenco nella visualizzazione Diagramma di Gantt [!UICONTROL].</p> <p>Questa opzione è disponibile solo per i progetti e le attività.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-filter-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-filter-in-new-toolbar-with-blue-dot---small.png"> </p> </td> 
@@ -489,8 +483,8 @@ Nella tabella seguente sono elencate molte delle icone disponibili nella barra d
   </tr> 
   <tr> 
    <td> <img src="assets/summary-panel-icon.png"> </td> 
-   <td>Riepilogo </td> 
-   <td> <p>Visualizza o nasconde la casella Riepilogo  per l'elemento selezionato.</p> <p>Questa opzione è disponibile solo per le attività e i problemi.</p> <p>Per informazioni sul pannello Riepilogo di , vedere <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Panoramica di riepilogo</a>.</p> </td> 
+   <td>Riepilogo [!UICONTROL]</td> 
+   <td> <p>Visualizza o nasconde la casella Riepilogo [!UICONTROL] per l'elemento selezionato.</p> <p>Questa opzione è disponibile solo per le attività e i problemi.</p> <p>Per informazioni sul pannello Riepilogo di [!UICONTROL], vedere <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Panoramica di riepilogo</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/remove-icon---x-in-circle.png"> </td> 

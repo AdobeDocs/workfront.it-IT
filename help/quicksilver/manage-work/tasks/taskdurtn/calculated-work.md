@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: "Panoramica sul tipo di durata: lavoro calcolato"
+title: 'Panoramica sul tipo di durata: lavoro calcolato'
 description: Il Lavoro calcolato è un Tipo di Durata che è possibile impostare per un'attività in Adobe Workfront. Per informazioni generali sui tipi di durata in Workfront, vedere Panoramica sulla durata e sul tipo di durata dell'attività.
 author: Alina
 feature: Work Management
 exl-id: f521c2f5-8d58-44c0-af18-6940ad0950ea
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 1%
@@ -22,7 +22,7 @@ Il Lavoro calcolato è un Tipo di Durata che è possibile impostare per un&#39;a
 
 Lavoro calcolato determina la quantità di lavoro (ore pianificate) necessario per il completamento dell&#39;attività. È consigliabile utilizzare il Tipo di durata lavoro calcolato quando le risorse assegnate all&#39;attività vengono allocate per l&#39;intera durata dell&#39;attività.
 
-Il Workfront o un amministratore di gruppo può impostare il Tipo di durata predefinito del sistema o del gruppo come Lavoro calcolato. In questo caso, tutte le nuove attività verranno create con questo Tipo di durata. Per informazioni sulla modifica delle preferenze di attività e problemi come parte delle preferenze di progetto a livello di sistema o di gruppo, consulta [Configurare le preferenze di problema e attività a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Il Workfront o un amministratore di gruppo può impostare il Tipo di durata predefinito del sistema o del gruppo come Lavoro calcolato. In questo caso, tutte le nuove attività verranno create con questo Tipo di durata. Per informazioni sulla modifica delle preferenze di attività e problemi come parte delle preferenze di progetto a livello di sistema o di gruppo, consulta [Configurare le preferenze di problema e attività a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 Quando si aggiungono risorse a un&#39;attività, un project manager può aspettarsi di vedere l&#39;aumento di impegno pianificato. A titolo illustrativo, una riunione di pianificazione di un&#39;ora con tre risorse rappresenta tre ore di lavoro totali richieste e una riunione di pianificazione di un&#39;ora con dieci risorse rappresenta dieci ore di lavoro richieste. Ciò presuppone che ogni risorsa sia assegnata all&#39;attività con un&#39;allocazione del 100%.
 

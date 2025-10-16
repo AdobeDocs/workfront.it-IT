@@ -3,41 +3,41 @@ content-type: overview;how-to-procedural
 product-area: projects
 keywords: analisi,metriche,progetto,attività,assegnatario,completo,stato,scaduto,in arrivo
 navigation-topic: manage-projects
-title: Panoramica delle metriche del progetto
+title: Comprendere le metriche del progetto
 description: Le metriche del progetto forniscono una visualizzazione di ciò che accade in un progetto, consentendo di valutare rapidamente le esigenze e lo stato di un progetto. Scopri come interpretare l’area Metriche nel pannello a sinistra di un progetto.
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1161'
 ht-degree: 0%
 
 ---
 
-# Panoramica delle metriche del progetto
+# Comprendere le metriche del progetto
 
 Le metriche di progetto forniscono una visualizzazione generale in formato grafico delle prestazioni di un progetto.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Workfront*</td> 
-   <td> <p>Nuovo: Chiaro o superiore </p>
-   <p>Corrente: revisione o versione successiva </p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p>Chiaro o superiore</p>
+   <p>Revisione o successiva</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazione del livello di accesso</td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Accesso ai progetti in visualizzazione</p>  </td> 
   </tr> 
   <tr> 
@@ -50,6 +50,32 @@ Le metriche di progetto forniscono una visualizzazione generale in formato grafi
 *Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Workfront license*</td> 
+   <td> <p>New: Light or higher </p>
+   <p>Current: Review or higher </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configuration</td> 
+   <td> <p>View access to Projects</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to a project</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Prerequisiti
 
@@ -92,7 +118,7 @@ Questi KPI sono suddivisi nelle seguenti categorie:
 | Attività completate | **Attività completate** mostra il numero di attività in stato Completato. Questo numero include anche le attività con uno stato personalizzato che equivale a Completato. |
 |---|---|
 | Attività non completate | **Attività non completate** mostra il numero di attività che non sono in stato Completato o Chiuso o che sono in stato Completato. |
-| Attività scadute | **Attività scadute** mostra il numero di attività che hanno superato la data di completamento pianificata e che non sono in stato Completato o Chiuso o che sono in uno stato che equivale a Completato o Chiuso. |
+| Attività in ritardo | **Attività scadute** mostra il numero di attività che hanno superato la data di completamento pianificata e che non sono in stato Completato o Chiuso o che sono in uno stato che equivale a Completato o Chiuso. |
 | Attività totali | **Attività totali** mostra il numero totale di attività nel progetto. |
 
 >[!TIP]
@@ -166,7 +192,7 @@ Il grafico a barre assegnatario mostra il numero di attività assegnate a ogni p
    Per impostazione predefinita, i grafici nell’area Metriche visualizzano le informazioni relative alle attività.\
    ![](assets/metrics-section-350x298.png)
 
-1. (Condizionale) Se in un grafico viene visualizzata una freccia a discesa, fare clic sull&#39;icona ![](assets/dropdown-arrow.png) della **freccia a discesa** nel grafico e selezionare l&#39;opzione desiderata dal menu.\
+1. (Condizionale) Se in un grafico viene visualizzata una freccia a discesa, fare clic sull&#39;icona **della** freccia a discesa![](assets/dropdown-arrow.png) nel grafico e selezionare l&#39;opzione desiderata dal menu.\
    Per informazioni sulle opzioni visualizzate nei menu di ciascun grafico, vedere la sezione corrispondente precedente.
 
 1. (Facoltativo) Per esaminare più da vicino le attività o i problemi relativi a qualsiasi metrica della pagina, effettua le seguenti operazioni:

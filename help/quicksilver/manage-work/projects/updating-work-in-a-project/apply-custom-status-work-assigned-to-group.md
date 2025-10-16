@@ -1,14 +1,14 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Applica stati al lavoro associato a un gruppo
+title: Applica stati a lavoro associato a un gruppo
 description: Se un progetto è associato a un gruppo, è possibile applicare sia gli stati a livello di sistema che uno stato personalizzato associato a tale gruppo al progetto, all'attività o ai problemi del progetto.
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,37 @@ Se un progetto è associato a un gruppo, puoi applicare al progetto sia gli stat
 
 ## Requisiti di accesso
 
-<!--drafted for P&P:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
+   <td> <p>Qualsiasi</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p>Standard</p>
+   <p>Piano</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modifica accesso ai progetti</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td> <p>Gestire le autorizzazioni per il progetto</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -39,10 +68,7 @@ Se un progetto è associato a un gruppo, puoi applicare al progetto sia gli stat
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p> 
-   </td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -55,37 +81,7 @@ Se un progetto è associato a un gruppo, puoi applicare al progetto sia gli stat
    <td> <p>Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
--->
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
-   <td> <p>Qualsiasi</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modifica accesso ai progetti</p> <p><b>NOTA</b>
-
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
-</tr> 
-  <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+</table>-->
 
 ## Aggiorna gruppo di progetti e stato
 
@@ -103,7 +99,7 @@ Quando si aggiorna il Gruppo per un progetto, le opzioni disponibili per lo Stat
    >Se si seleziona un gruppo diverso nel menu a discesa **Gruppo**, gli stati personalizzati nel menu **Stato** cambiano automaticamente in modo da essere correlati al nuovo gruppo.
    >
    >
-   >![Elenco a discesa Stato espanso con stati personalizzati per il progetto](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
+   >![Elenco a discesa Stato espanso con stati personalizzati per il progetto](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)
    >
 
 1. Seleziona lo stato del progetto. Gli stati personalizzati creati e applicati a tale gruppo vengono visualizzati nell’elenco.

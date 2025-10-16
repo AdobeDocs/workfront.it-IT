@@ -7,9 +7,9 @@ description: Gestione risorse consente di configurare il sistema per prevedere c
 author: Lisa
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ Il processo di gestione delle risorse in Workfront prevede le seguenti fasi:
   Per ulteriori informazioni sulla pianificazione delle risorse e sull&#39;assegnazione del lavoro, vedere le sezioni seguenti:
 
    * [Pianificazione risorse: indice articolo](../../resource-mgmt/resource-planning/resource-planning-overview.md)
-   * [Pianificazione scenario Adobe Workfront](../../scenario-planner/scenario-planning.md)
+   * [[!DNL Adobe Workfront Scenario Planner]: indice articolo](../../scenario-planner/scenario-planning.md)
    * [L’indice del Bilanciatore dei carichi di lavoro: articolo](../../resource-mgmt/workload-balancer/workload-balancer.md)
 
 <!--
@@ -147,7 +147,7 @@ Devi essere uno dei seguenti utenti e disporre dei seguenti diritti di accesso e
    * Modifica l&#39;accesso ai dati finanziari per visualizzare le informazioni sui costi nella Programmazione delle risorse
    * Visualizzare l&#39;accesso ai dati finanziari per visualizzare le informazioni su costi e ricavi nel rapporto Utilizzo (solo utenti con una licenza Pianificazione)
 
-* Autorizzazioni Contribute o superiori che includono l&#39;opzione Crea assegnazioni per i progetti per i quali si desidera gestire le risorse.
+* Autorizzazioni di Contribute o superiori che includono Make Assignments (Crea assegnazioni) per i progetti per i quali si desidera gestire le risorse.
 
 <!--
 * Designated as a Resource Manager for projects to use the Scheduling tool (the Scheduling tool is deprecated).

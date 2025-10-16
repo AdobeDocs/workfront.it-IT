@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Operatori condizione nelle espressioni personalizzate calcolate
 description: È possibile utilizzare operatori di condizione o modificatori per la creazione di dati personalizzati calcolati in Adobe Workfront quando si utilizza la modalità testo.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: e10fd7a3237d38ece8a5213990306ce511bd2412
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 1%
@@ -31,7 +31,7 @@ Puoi creare istruzioni &quot;IF&quot; per i seguenti elementi di Workfront:
 * Campi personalizzati calcolati
 * Regole di business
 
-Per ulteriori informazioni sulla compilazione delle istruzioni &quot;IF&quot;, vedere [&#x200B; Panoramica delle istruzioni &quot;IF&quot;](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
+Per ulteriori informazioni sulla compilazione delle istruzioni &quot;IF&quot;, vedere [ Panoramica delle istruzioni &quot;IF&quot;](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
 
 Gli esempi in questa guida illustrano l’utilizzo degli operatori condizione nei campi personalizzati calcolati. Puoi utilizzarli anche in colonne o raggruppamenti personalizzati calcolati, seguendo la sintassi corretta per i campi personalizzati calcolati nei rapporti.
 

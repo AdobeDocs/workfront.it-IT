@@ -1,14 +1,14 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-xd
-title: Carica le tavole da disegno dell’XD come bozze in Workfront
+title: Carica le tavole da disegno di XD come bozze in Workfront
 description: Potete caricare le vostre tavole da disegno come bozze direttamente in Adobe Workfront per una revisione e approvazione completa.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -21,22 +21,20 @@ Puoi caricare le tue tavole da disegno come bozze direttamente in [!DNL Adobe Wo
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano*</td> 
-   <td> <p>Piano corrente: [!UICONTROL Pro] o versione successiva</p> <p>oppure</p> <p>Piano legacy: [!UICONTROL Premium]</p> <p>Per ulteriori informazioni sulla verifica dell'accesso con i diversi piani, vedere .</p> </td> 
+ <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] pacchetto</td> 
+   <td>Qualsiasi </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
-   <td> <p>Piano corrente: [!UICONTROL Lavoro] o [!UICONTROL Bozza]</p> <p>Piano legacy: qualsiasi (per l’utente deve essere abilitata la verifica)</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
+   <td> <p>Standard</p> <p>Lavoro o superiore</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Prodotto</td> 
+   <td role="rowheader">Prodotti aggiuntivi</td> 
    <td>È necessario disporre di una licenza [!DNL Adobe Creative Cloud] oltre a una licenza [!DNL Workfront].</td> 
   </tr> 
   <tr> 
@@ -50,7 +48,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore [!DNL Workfront] o [!DNL Workfront Proof].
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 
@@ -113,7 +112,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Scegliere il formato di esportazione dal menu a discesa **[!UICONTROL Tipo risorsa]**.
 
 
-1. (Facoltativo) Se selezioni PDF come tipo di risorsa e hai selezionato più di una tavola da disegno, scegli se desideri esportare le tue tavole da disegno come **[!UICONTROL File di PDF singola]s** o **M[!UICONTROL File di PDF multiple]**.
+1. (Facoltativo) Se selezioni PDF come tipo di risorsa e hai selezionato più di una tavola da disegno, scegli se desideri esportare le tue tavole da disegno come **[!UICONTROL singolo file PDF]s** o **M[!UICONTROL più file PDF]**.
 
 1. (Facoltativo) Denomina il PDF.
 
@@ -187,7 +186,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    ![Approvazioni bozze in XD](assets/proof-approvals-xd-350x396.png)
 
 1. Nel menu a discesa **[!UICONTROL Tipo risorsa]**, scegli il collegamento appena creato nella scheda **Collegamenti condivisi**. Per ulteriori informazioni, vedere [Creare un collegamento interattivo per la tavola da disegno](#create-an-interactive-link-for-your-artboard).\
-   ![Collegamenti condivisi in XD](assets/shared-links-xd-350x870.png)
+   ![Collegamenti condivisi in XDS](assets/shared-links-xd-350x870.png)
 
 1. Fai clic su **[!UICONTROL Carica]**.
 
@@ -249,7 +248,7 @@ Puoi caricare una nuova versione di una bozza. Il plug-in ricorda il flusso di l
 
    ![Approvazioni bozze in XD](assets/proof-approvals-xd-350x396.png)
 
-1. (Facoltativo) Se selezioni PDF come tipo di risorsa e hai selezionato più di una tavola da disegno, scegli se desideri esportare le tue tavole da disegno come **[!UICONTROL File di PDF singola]s** o **M[!UICONTROL File di PDF multiple]**.
+1. (Facoltativo) Se selezioni PDF come tipo di risorsa e hai selezionato più di una tavola da disegno, scegli se desideri esportare le tue tavole da disegno come **[!UICONTROL singolo file PDF]s** o **M[!UICONTROL più file PDF]**.
 
 1. (Facoltativo) Denomina il PDF.
 

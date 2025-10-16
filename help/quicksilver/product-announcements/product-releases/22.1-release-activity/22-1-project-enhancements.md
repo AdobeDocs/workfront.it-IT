@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d24f2aae-1c3d-41ed-ad17-6276bef2cf45
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1202'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Ora è possibile accedere più facilmente all’elenco dei preferiti subito dopo
 
 L’interfaccia riprogettata corrisponde all’esperienza acquisita durante la creazione di un progetto a partire da un modello, anch’esso aggiornato di recente.
 
-Per ulteriori informazioni, vedere [Convertire un problema in un progetto in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Per ulteriori informazioni, vedere [Convertire un problema in un progetto](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 ## Convertire i problemi in progetti utilizzando un modello da elenchi, report e dashboard
 

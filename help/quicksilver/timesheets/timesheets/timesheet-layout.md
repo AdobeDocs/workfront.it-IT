@@ -4,10 +4,10 @@ product-area: timesheets
 navigation-topic: timesheets-navigation-topic
 title: Panoramica del layout della scheda orario
 description: Questo articolo descrive il layout delle schede orario in Adobe Workfront, consentendoti di comprendere meglio come personalizzare e utilizzare le schede orario per registrare l’ora.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Di seguito sono riportate le aree di una scheda orario:
 * [Elementi di lavoro](#work-items)
 * [Barra Strumenti](#toolbar)
 * [Piè di pagina scheda orario](#timesheet-footer)
-* [Ruolo](#job-role)
+* [Mansione](#job-role)
 * [Tipo di ora](#hour-type)
 * [Area Aggiornamenti nel pannello a sinistra](#updates-area-in-the-left-panel)
 * [Pannello di Riepilogo](#summary-panel)

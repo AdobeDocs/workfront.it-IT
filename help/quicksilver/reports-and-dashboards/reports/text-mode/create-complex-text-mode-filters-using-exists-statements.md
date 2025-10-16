@@ -6,7 +6,7 @@ description: È possibile creare filtri in modalità testo complessi utilizzando
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '2668'
 ht-degree: 0%
@@ -40,9 +40,9 @@ Per informazioni sugli oggetti presenti in Workfront e sulla relativa gerarchia 
 
 Durante la creazione di filtri, è possibile fare riferimento ad altri oggetti connessi all&#39;oggetto del filtro entro un massimo di 2 livelli di relazione utilizzando l&#39;interfaccia standard di reporting.
 
-Ad esempio, puoi fare riferimento all’ID Portfolio in un filtro di problemi per visualizzare solo i problemi sui progetti associati a un determinato portfolio utilizzando l’interfaccia standard. In questo caso, il portfolio è 2 livelli lontano dalle emissioni.
+Ad esempio, puoi fare riferimento all’ID Portfolio in un filtro di problemi per visualizzare solo i problemi relativi ai progetti associati a un determinato portfolio utilizzando l’interfaccia standard. In questo caso, il portfolio è 2 livelli lontano dalle emissioni.
 
-Tuttavia, non è possibile fare riferimento al proprietario del Portfolio in un filtro di problemi utilizzando l’interfaccia standard per visualizzare solo i problemi dei progetti associati a portfolio in cui il proprietario è un utente specifico. È necessario utilizzare la modalità testo per accedere al campo Nome proprietario Portfolio, che si trova a tre livelli di distanza dai problemi.
+Tuttavia, non è possibile fare riferimento al proprietario di Portfolio in un filtro di problemi utilizzando l’interfaccia standard per visualizzare solo i problemi dei progetti associati a portfolio in cui il proprietario è un utente specifico. È necessario utilizzare la modalità testo per accedere al campo Nome proprietario Portfolio, che si trova a tre livelli di distanza dai problemi.
 
 ![Problema con le icone del proprietario del portfolio](assets/issue-to-portfolio-owner-sraight-line-icons-350x83.png)
 
@@ -92,27 +92,19 @@ Quando si utilizzano istruzioni EXISTS in un filtro, considera le seguenti regol
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Devi avere i seguenti:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> 
-      <p>Nuovo:</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Corrente:</p>
-         <ul>
-         <li><p>Piano</p></li>
-         </ul>
+     <p>Standard</p>
+     <p>Piano</p>
    </td> 
   </tr> 
   <tr> 
@@ -121,12 +113,12 @@ Devi avere i seguenti:
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un report per modificare i filtri in un report</p> <p>Gestire le autorizzazioni per un filtro per modificarlo</p></td> 
+   <td><p>Gestire le autorizzazioni per un report per modificare i filtri in un report</p> <p>Gestire le autorizzazioni per un filtro per modificarlo</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -136,11 +128,11 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***[This information is somewhat duplicated from the section below: Create Text-Mode Filters for Missing Objects])</p>
 -->
 
-È possibile creare un filtro che faccia riferimento a oggetti su più livelli della gerarchia degli oggetti in cui è presente l&#39;oggetto filtro. Ad esempio, puoi creare un filtro di problemi per i problemi relativi a progetti non associati a un determinato proprietario del Portfolio.
+È possibile creare un filtro che faccia riferimento a oggetti su più livelli della gerarchia degli oggetti in cui è presente l&#39;oggetto filtro. Ad esempio, puoi creare un filtro di problemi per i problemi relativi a progetti non associati a un determinato proprietario Portfolio.
 
 Per creare questo filtro è sempre necessario utilizzare un&#39;istruzione EXISTS e l&#39;interfaccia della modalità testo.
 
-Per esempi di filtri, vedere la sezione [Esempio 1: Filtrare i problemi in base al nome del proprietario del Portfolio](#example-1-filter-for-issues-by-portfolio-owner-name) in questo articolo.
+Per esempi di filtri, consulta la sezione [Esempio 1: filtrare i problemi in base al nome del proprietario di Portfolio](#example-1-filter-for-issues-by-portfolio-owner-name) in questo articolo.
 
 Per creare un filtro che si estenda su più livelli nella gerarchia degli oggetti:
 
@@ -148,11 +140,11 @@ Per creare un filtro che si estenda su più livelli nella gerarchia degli oggett
    Ad esempio, Problema.
 
 1. Identifica il campo in base al quale desideri filtrare. Questo oggetto viene definito campo di destinazione e appartiene a un oggetto di destinazione.\
-   Ad esempio, il campo ownerID (Campo di destinazione), che appartiene al Portfolio (Oggetto di destinazione).
+   Ad esempio, il campo ownerID (Campo di destinazione), che appartiene a Portfolio (Oggetto di destinazione).
 
 1. (Condizionale) Se l’oggetto originale (problema) e il campo di destinazione (ownerID) non sono collegati direttamente tra loro, è necessario trovare un terzo oggetto, un oggetto di collegamento (progetto), che li colleghi. L&#39;oggetto di collegamento deve disporre di almeno un campo a cui si fa riferimento dalle schede Campi o Riferimenti dell&#39;oggetto originale (Campo di collegamento visualizzato nell&#39;oggetto originale) e di un campo di collegamento all&#39;oggetto di destinazione visualizzato nelle schede Campi o Riferimenti dell&#39;oggetto di collegamento. Il campo di collegamento all&#39;oggetto di destinazione visualizzato nell&#39;oggetto di collegamento (o il campo di collegamento visualizzato nell&#39;oggetto di collegamento) deve corrispondere al campo di destinazione.
 
-   Ad esempio, l’ID (Progetto) (Campo di collegamento visualizzato nell’oggetto originale) è referenziato da Problemi (oggetto originale). (Portfolio) ownerID (Collegamento del campo all&#39;oggetto di destinazione) viene visualizzato nella scheda Fields del progetto (oggetto di collegamento). OwnerID Portfolio è anche un campo sull&#39;oggetto di destinazione (Portfolio). Il campo di collegamento nell&#39;oggetto di collegamento corrisponde al campo di destinazione.\
+   Ad esempio, l’ID (Progetto) (Campo di collegamento visualizzato nell’oggetto originale) è referenziato da Problemi (oggetto originale). (Portfolio) ownerID (Linking Field to the Target Object) viene visualizzato nella scheda Fields del progetto (Linking Object). OwnerID di Portfolio è anche un campo sull&#39;oggetto di destinazione (Portfolio). Il campo di collegamento nell&#39;oggetto di collegamento corrisponde al campo di destinazione.\
    ![portfolio_id_in_the_project_api_object.PNG](assets/portfolio-id-in-the-project-api-object-350x88.png)
 
 1. Utilizzando API Explorer, identificare il **codice oggetto** dell&#39;oggetto di collegamento (progetto).\
@@ -172,7 +164,7 @@ Per creare un filtro che si estenda su più livelli nella gerarchia degli oggett
    EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>
    ```
 
-   Ad esempio, utilizzando i campi identificati in precedenza, consulta la sezione [Esempio 1: filtrare i problemi in base al nome del proprietario del Portfolio](#example-1-filter-for-issues-by-portfolio-owner-name) in questo articolo.
+   Per un esempio che utilizza i campi identificati in precedenza, consulta la sezione [Esempio 1: filtrare i problemi in base al nome del proprietario di Portfolio](#example-1-filter-for-issues-by-portfolio-owner-name) in questo articolo.
 
 1. Fai clic su **Salva filtro**.
 
@@ -228,11 +220,11 @@ Per creare un filtro che faccia riferimento a oggetti mancanti:
 
 Utilizzare questi esempi per creare filtri in modalità testo con istruzioni EXISTS.
 
-### Esempio 1: filtrare i problemi per nome del proprietario del Portfolio {#example-1-filter-for-issues-by-portfolio-owner-name}
+### Esempio 1: filtrare i problemi in base al nome del proprietario di Portfolio {#example-1-filter-for-issues-by-portfolio-owner-name}
 
 Utilizzando l’interfaccia in modalità testo, puoi creare un filtro per un elenco di problemi in modo da visualizzare solo i problemi che si trovano su progetti associati a un portfolio il cui proprietario è un utente specifico.
 
-Per filtrare i problemi in base al nome del proprietario del Portfolio:
+Per filtrare i problemi in base al nome del proprietario di Portfolio:
 
 1. Creare un filtro Problema.\
    Per informazioni sulla creazione di filtri, vedere [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
@@ -358,7 +350,7 @@ Utilizzando l’interfaccia in modalità testo, puoi creare un filtro che fa rif
 * Si trovano in un progetto associato a un portfolio il cui proprietario è un utente specifico.
 * Si trovano in un progetto associato a un portfolio i cui progetti non sono associati a una scorecard di allineamento specifica.
 
-Per filtrare le attività in base al nome del proprietario del Portfolio e all’ID della scorecard di allineamento del Portfolio:
+Per filtrare le attività in base al nome del proprietario di Portfolio e all’ID della scorecard di allineamento Portfolio:
 
 1. Crea un filtro Attività.\
    Per informazioni sulla creazione di filtri, vedere [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
@@ -384,7 +376,7 @@ Per filtrare le attività in base al nome del proprietario del Portfolio e all�
    >* Il secondo campo di destinazione è l’ID della scorecard di allineamento.
    >* L&#39;oggetto di collegamento è Progetto.
    >* Il codice oggetto dell&#39;oggetto di collegamento è PROJ.
-   >* Il campo di collegamento all’oggetto di destinazione è l’ID (del Portfolio).
+   >* Il campo di collegamento all’oggetto di destinazione è l’ID (di Portfolio).
    >* Il campo di collegamento visualizzato nell&#39;oggetto originale è projectID.
    >* Sostituisci ownerID con un ID utente del tuo ambiente.
 

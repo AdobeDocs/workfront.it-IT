@@ -2,18 +2,22 @@
 product-area: resource-management
 navigation-topic: use-the-gantt-chart
 title: Livella risorse nel [!UICONTROL Diagramma di Gantt]
-description: Informazioni su come livellare le risorse nel Diagramma di Gantt.
+description: Se la stessa risorsa viene assegnata a due attività diverse, è possibile utilizzare il livellamento delle risorse per modificare la cronologia delle attività in modo che non vengano eseguite contemporaneamente. Questo articolo fornisce informazioni su come livellare le risorse nel Diagramma di Gantt.
 author: Alina
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
 
 # Livella risorse nel [!UICONTROL Diagramma di Gantt]
+
+<!--Audited: 08/2025-->
+
+È possibile utilizzare il livellamento delle risorse per modificare la sequenza temporale delle attività in modo che non vengano eseguite contemporaneamente, nel caso in cui le stesse risorse vengano assegnate a più attività contemporaneamente.
 
 Il livellamento delle risorse su un progetto ha due scopi:
 
@@ -22,34 +26,62 @@ Il livellamento delle risorse su un progetto ha due scopi:
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano*</td> 
-   <td> <p>Qualsiasi </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] pacchetto</td> 
+   <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Workfront] licenza*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Workfront] licenza</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Accesso [!UICONTROL Edit] ai progetti</p> <p><b>NOTA</b>
-
-Se non disponi ancora dell&#39;accesso, chiedi all&#39;amministratore [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di [!DNL Workfront] può modificare il tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Accesso [!UICONTROL Edit] ai progetti</p></td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Accesso [!UICONTROL Gestisci] al progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Accesso [!UICONTROL Gestisci] al progetto</p>
+</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects</p> <p><b>NOTE</b>
+
+If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table> -->
 
 ## Panoramica sul livellamento delle risorse
 
@@ -75,7 +107,7 @@ Quando si livellano le risorse in un progetto, considera quanto segue:
 1. Vai al progetto che desideri livellare.
 1. Nell&#39;area **[!UICONTROL Attività]** fare clic sull&#39;icona **[!UICONTROL Grafico di Gantt]**.
 
-   Tutte le modifiche vengono salvate automaticamente quando l&#39;opzione **[!UICONTROL Salvataggio automatico]** è abilitata. È attivata per impostazione predefinita.
+   Tutte le modifiche vengono salvate automaticamente quando l&#39;opzione **[!UICONTROL Salvataggio automatico]** è abilitata. Questa opzione è abilitata per impostazione predefinita.
 
 1. (Facoltativo) Fai clic sull&#39;icona della modalità **[!UICONTROL Piano]** e seleziona **[!UICONTROL Salvataggio manuale standard]** o **[!UICONTROL Pianificazione sequenza temporale]** per salvare le modifiche manualmente.
 
@@ -98,7 +130,7 @@ Quando si livellano le risorse in un progetto, considera quanto segue:
    >
    >Le risorse potrebbero essere sovrassegnate se assegnate a più attività che si verificano nello stesso intervallo di tempo.
 
-1. (Facoltativo e condizionale) Se hai disabilitato l&#39;opzione Salvataggio automatico, fai clic sulle icone **[!UICONTROL Annulla]** o&#x200B;**[!UICONTROL Ripristina]** se desideri annullare o duplicare le modifiche.
+1. (Facoltativo e condizionale) Se hai disabilitato l&#39;opzione Salvataggio automatico, fai clic sulle icone **[!UICONTROL Annulla]** o **[!UICONTROL Ripristina]** se desideri annullare o duplicare le modifiche.
 
    >[!TIP]
    >

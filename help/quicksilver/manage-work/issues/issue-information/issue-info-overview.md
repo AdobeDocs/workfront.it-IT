@@ -2,20 +2,22 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: issues
-title: Informazioni problema
+title: 'Informazioni problema: indice articolo'
 description: I problemi sono elementi di lavoro che rappresentano lavoro imprevisto o non pianificato in un progetto. Gli articoli seguenti contengono informazioni sui problemi.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 95ea93d7-6cc3-4aaa-a8f7-8a59dda6b5f1
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
 
-# Informazioni problema
+# Informazioni problema: indice dell’articolo
+
+<!--Audited: 08/2025-->
 
 Quando lavori a un progetto, potresti scoprire che si verificano eventi imprevisti. Puoi registrare tali eventi imprevisti come problemi per un particolare progetto o per un’attività.
 

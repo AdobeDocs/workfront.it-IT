@@ -6,10 +6,10 @@ description: L’amministratore di Adobe Workfront può concederti l’accesso p
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: eb4bf18407562b88bf0c946c905b202e5b62a5fe
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '1201'
-ht-degree: 1%
+source-wordcount: '1196'
+ht-degree: 6%
 
 ---
 
@@ -24,23 +24,20 @@ Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono qua
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
-Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td> <p>Qualsiasi </p> </td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
+   <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Nuovo: Standard</p> 
-   Oppure
-   <p>Corrente: Lavoro o versione successiva</p>
+   <td> <p>Standard</p> 
+   <p>Lavoro o superiore</p> 
    </td> 
   </tr> 
   <tr> 
@@ -54,7 +51,7 @@ Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
  </tbody> 
 </table>
 
-Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,8 +65,8 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 
 * È possibile concedere le seguenti autorizzazioni a un&#39;attività: 
 
-   * Visualizza
-   * Gestire
+   * Visualizzazione
+   * Gestisci
    * Contribuisci
 * Quando si condivide un&#39;attività, per impostazione predefinita gli utenti ereditano le stesse autorizzazioni per tutti gli oggetti figlio associati all&#39;attività. Ad esempio, ereditano le stesse autorizzazioni per le attività, i problemi e i documenti secondari allegati all’attività.\
   Per ulteriori informazioni sulla gerarchia degli oggetti in Workfront, consulta  [Informazioni sugli oggetti in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
@@ -90,7 +87,7 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
    * Specificare le autorizzazioni per uno qualsiasi degli oggetti padre dell&#39;attività: progetto, programma o portfolio. Le attività ereditano le autorizzazioni dagli oggetti padre. Per informazioni sulla visualizzazione delle autorizzazioni ereditate sugli oggetti, vedere [Visualizzare le autorizzazioni ereditate sugli oggetti](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Aggiungere entità alla condivisione di progetto in un modello utilizzato per creare il progetto in cui si trova l&#39;attività. Per informazioni sulla condivisione di progetti da modelli, vedere [Condividere un modello](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Specifica le autorizzazioni per tutte le attività di un progetto quando lo modifichi. Per informazioni sulla gestione dell&#39;accesso alle attività del progetto in base alle autorizzazioni di un utente, vedere la sezione [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) nell&#39;articolo [Modifica progetti](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Specifica le autorizzazioni per tutte le attività di un progetto quando lo modifichi. Per informazioni sulla gestione dell&#39;accesso alle attività del progetto in base alle autorizzazioni di un utente, vedere la sezione [](../../manage-work/projects/manage-projects/edit-projects.md#access) nell&#39;articolo [Modifica progetti](../../manage-work/projects/manage-projects/edit-projects.md).
 
   >[!TIP]
   >

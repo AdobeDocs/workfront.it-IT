@@ -6,9 +6,9 @@ description: È possibile aggiornare lo stato di un problema per informare gli a
 author: Alina
 feature: Work Management
 exl-id: 6e09dfcf-dceb-4f33-9592-0769283369c7
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '629'
 ht-degree: 3%
 
 ---
@@ -21,23 +21,20 @@ ht-degree: 3%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Nuovo: Collaboratore o versione successiva</p>
-   Oppure
-   <p>Corrente: richiesta o successiva</p>
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p>Collaboratore o versione successiva</p>
+   <p>Richiedi o superiore</p>
    </td> 
   </tr> 
   <tr> 
@@ -55,13 +52,41 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 +++
 
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Contributor or higher</p>
+   Or
+   <p>Current: Request or higher</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Issues</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the issue</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
+
 ## Stati problemi
 
 Di seguito sono riportati gli stati predefiniti per i problemi in Workfront:
 
 * Nuovo
 * In corso
-* In attesa di Riscontro
+* In attesa di feedback
 * In sospeso
 * Non Risolvibile
 * Ri-Aperto
@@ -169,7 +194,7 @@ Quando si verificano le azioni elencate nella tabella seguente, Workfront aggior
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>Fare clic sul pulsante Avvia problema per accettare di lavorare su un problema assegnato</span> </td> 
-   <td><span>Nuovo</span> </td> 
+   <td><span>Novità</span> </td> 
    <td> <p>Qualsiasi stato associato al pulsante Avvia problema nelle impostazioni del team predefinito. </p> <p>Per informazioni sulla sostituzione del pulsante Lavoraci con un pulsante Avvia problema, vedere <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Sostituire il pulsante Lavoraci con un pulsante Avvia</a></span><span>.</span> </p> <p>Suggerimento: facendo clic sul pulsante Annulla <span data-mc-conditions="QuicksilverOrClassic.Quicksilver"></span> dopo aver fatto clic su Avvia problema, lo stato viene ripristinato su Nuovo. </p> </td> 
   </tr> 
  </tbody> 

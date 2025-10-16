@@ -6,10 +6,10 @@ description: È possibile aggiungere alla bacheca una scheda connessa alle attiv
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: f8feca57e039e34c320f2b967c58c5fc0862f665
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 0%
+source-wordcount: '1430'
+ht-degree: 1%
 
 ---
 
@@ -30,7 +30,7 @@ Quando uno qualsiasi dei seguenti dettagli viene aggiornato per la scheda in una
 * [!UICONTROL Attività secondarie]
 * [!UICONTROL Documenti]
 
-Per sincronizzare le schede collegate con Workfront, fai clic sul menu **[!UICONTROL Altro]** ![[!UICONTROL Altro menu]](assets/more-icon-spectrum.png) accanto al nome della bacheca e seleziona **[!UICONTROL Sincronizza elementi connessi]**. Le schede archiviate non vengono sincronizzate con attività e problemi di Workfront. Se si ripristina una scheda, questa verrà sincronizzata di nuovo.
+Per sincronizzare le schede collegate con Workfront, fai clic sul menu **[!UICONTROL Altro]** ![[!UICONTROL Altro menu]](assets/more-icon-spectrum.png) accanto al nome della bacheca e seleziona **[!UICONTROL Sincronizza elementi connessi]**. Le schede archiviate non vengono sincronizzate con attività e problemi di Workfront. Se una scheda viene ripristinata, questa verrà nuovamente sincronizzata.
 
 >[!NOTE]
 >
@@ -40,21 +40,18 @@ Per sincronizzare le schede collegate con Workfront, fai clic sul menu **[!UICON
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
-   <td>
-   <p>Nuovo: Collaboratore o versione successiva</p>
-   <p>Oppure</p>
-   <p>Corrente: richiesta o successiva</p>
- </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> 
+   <p>Collaboratore o versione successiva</p> 
+   <p>Richiedi o superiore</p>
+   </td> 
   </tr> 
   <tr>
    <td role="rowheader">Configurazioni del livello di accesso</td>
@@ -63,7 +60,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr>
    <td role="rowheader">Autorizzazioni oggetto</td>
    <td><p>Visualizza o autorizzazioni superiori per l’attività o il problema di Workfront</p>
-   <p><strong>Nota:</strong> gli utenti con autorizzazioni di visualizzazione per un'attività o un problema non possono eseguire alcuna azione sulle schede ad essa collegate, incluso lo spostamento della scheda in un'altra colonna della bacheca. Visualizza gli utenti possono aprire la scheda solo per visualizzarne le proprietà e aprire l’attività o il problema connesso. Per richiedere un accesso aggiuntivo, apri l’attività o il problema e richiedi l’accesso.</td>
+</td>
   </tr>
  </tbody> 
 </table>
@@ -87,7 +84,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    >* Nei risultati della ricerca sono disponibili solo gli oggetti per i quali si dispone di autorizzazioni. Se un elemento viene oscurato, è già stato aggiunto alla bacheca.
    >* Quando si filtra in base a **[!UICONTROL Progetti di mia proprietà]** o **[!UICONTROL Progetti in corso]**, i progetti con stato Completato, Inattivo o Rifiutato non vengono inclusi. Puoi comunque cercare questi progetti con il filtro **[!UICONTROL All]**.
 
-1. Fare clic su **[!UICONTROL Aggiungi]**.
+1. Fai clic su **[!UICONTROL Aggiungi]**.
 
    ![Cerca l&#39;attività o il problema da connettere](assets/boards-tasksissues-350x94.png)
 
@@ -129,7 +126,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <td>La modifica di questa data determina anche la modifica della data di completamento pianificata per l'oggetto [!DNL Workfront] connesso.</td>
      </tr>
       <tr>
-      <td role="rowheader"><strong>Stima </strong></td>
+      <td role="rowheader"><strong>Stima [!UICONTROL]</strong></td>
       <td><p>Il numero di ore per il completamento della scheda.</p><p>La modifica della stima cambia anche il valore dei punti della storia sull'oggetto [!DNL Workfront] connesso.</p></td>
      </tr>
      <tr>
@@ -155,7 +152,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <p>Per ulteriori informazioni sulle sottoattività, vedere <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">Gestione delle sottoattività nelle bacheche</a>.</p></td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>Elenco di controllo di </strong></td>
+      <td role="rowheader"><strong>Elenco di controllo di [!UICONTROL]</strong></td>
       <td><p>Fare clic su <strong>[!UICONTROL Add checklist item]</strong>. Digitare quindi il titolo dell'elemento e premere Invio. Un altro elemento viene aggiunto automaticamente. Continua a inserire i titoli per aggiungere altri elementi.</p>
       <p>Il contatore nella parte superiore dell’elenco di controllo mostra il numero di elementi completati e il numero totale di elementi.</p> <p>Per ulteriori informazioni sugli elementi dell'elenco di controllo, vedere <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Gestire gli elementi dell'elenco di controllo sulle schede</a>.</p></td>
      </tr>

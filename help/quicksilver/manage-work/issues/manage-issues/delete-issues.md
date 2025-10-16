@@ -1,23 +1,25 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: Elimina problemi
-description: Puoi eliminare problemi o richieste in Adobe Workfront se disponi dell’accesso e delle autorizzazioni corretti.
+title: Cancella le Issues
+description: Puoi eliminare problemi o richieste in Adobe Workfront se disponi dell’accesso e delle autorizzazioni corretti e se scopri che non sono più necessari. È consigliabile chiuderli, invece di eliminarli, in modo da preservare la precisione dei progetti.
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '757'
 ht-degree: 1%
 
 ---
 
 # Elimina problemi
 
-<!--Audited: 05/2025-->
+<!--Audited: 08/2025-->
 
-Puoi eliminare problemi o richieste in Adobe Workfront se disponi dell’accesso e delle autorizzazioni corretti.
+Puoi eliminare problemi o richieste in Adobe Workfront se disponi dell’accesso e delle autorizzazioni corretti e se scopri che non sono più necessari. È consigliabile chiuderli, invece di eliminarli, in modo da preservare la precisione dei progetti.
+
+Gli amministratori di Workfront possono ripristinare i problemi eliminati.
 
 >[!TIP]
 >
@@ -25,22 +27,20 @@ Puoi eliminare problemi o richieste in Adobe Workfront se disponi dell’accesso
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandere per visualizzare i requisiti di accesso. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Nuovo: Collaboratore o versione successiva</p>
-   <p>Corrente: richiesta o successiva</p>
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p>Collaboratore o versione successiva</p>
+   <p>Richiedi o superiore</p>
  </td> 
   </tr> 
   <tr> 

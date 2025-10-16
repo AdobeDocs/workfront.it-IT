@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
+source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 7%
+source-wordcount: '1019'
+ht-degree: 8%
 
 ---
 
@@ -32,32 +32,27 @@ L&#39;esportazione dei dati tramite Kick-Start è utile anche per comprendere qu
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td>Qualsiasi</td> 
+   <td>Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td>
-   <p>Nuovo: Standard</p>
-   Oppure
-   <p>Corrente: Piano</p>
-   </td> 
+   <td>Licenza Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Piano</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td>[!UICONTROL Amministratore di sistema]</td>
+   <td>Configurazioni del livello di accesso</td> 
+   <td>Amministratore di Sistema</td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -126,7 +121,7 @@ Esistono le seguenti limitazioni quando si esportano dati tramite avvii (i dati 
     </thead> 
     <tbody> 
      <tr> 
-      <td scope="col" valign="top"> <p>Dashboard</p> <p> </p> <p> </p> </td> 
+      <td scope="col" valign="top"> <p>Dashboard di</p> <p> </p> <p> </p> </td> 
       <td scope="col" valign="top"> <p>Parametro<br>Opzione Parametro<br>Gruppo Parametri<br>Parametro Categoria<br>Categoria<br>Report<br>Sezione Scheda Portale<br>Dashboard<br>Preferenze</p> </td> 
       <td scope="col" valign="top"> ZIP</td> 
      </tr> 
@@ -238,7 +233,7 @@ Esistono le seguenti limitazioni quando si esportano dati tramite avvii (i dati 
       <td valign="top">ZIP</td> 
      </tr> 
      <tr> 
-      <td valign="top">Ora</td> 
+      <td valign="top">Hour</td> 
       <td valign="top"> Hour<br>Preferenze </td> 
       <td valign="top">Excel</td> 
      </tr> 
@@ -293,7 +288,7 @@ Esistono le seguenti limitazioni quando si esportano dati tramite avvii (i dati 
       <td valign="top">Excel </td> 
      </tr> 
      <tr> 
-      <td valign="top">Scorecard</td> 
+      <td valign="top">Scheda di valutazione</td> 
       <td valign="top">Domande Scorecard<br>Opzione Scorecard<br>Scorecard<br>Preferenze </td> 
       <td valign="top">Excel </td> 
      </tr> 
@@ -323,7 +318,7 @@ Esistono le seguenti limitazioni quando si esportano dati tramite avvii (i dati 
       <td valign="top">Excel  </td> 
      </tr> 
      <tr> 
-      <td valign="top"> Visualizza </td> 
+      <td valign="top"> Visualizzazione </td> 
       <td valign="top"> Visualizza<br>Preferenze  </td> 
       <td valign="top">ZIP</td> 
      </tr> 

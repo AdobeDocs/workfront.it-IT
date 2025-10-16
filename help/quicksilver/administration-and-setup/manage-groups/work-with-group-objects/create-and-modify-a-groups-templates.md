@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f97a12eb-9002-4f11-908a-c68c1e6dc9c9
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 10780ff51d5b1d9d73cb0a6fb0982abc320b0313
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1241'
 ht-degree: 1%
 
 ---
@@ -25,34 +25,31 @@ Se ci sono gruppi al di sopra del gruppo, gli amministratori possono eseguire qu
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td>Qualsiasi</td> 
+   <td>Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td>
-   <td><p>Nuovo: Standard</p>
-       <p>Oppure</p>
-       <p>Corrente: Piano</p></td>
-  <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td>Licenza Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Piano</p></td>
+  </tr>
+  <tr>
+   <td>Configurazioni del livello di accesso</td> 
    <td>Devi essere un amministratore di gruppo del gruppo o un amministratore di sistema.</td>
   </tr>
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td>
+   <td>Autorizzazioni oggetto</td>
    <td>Accesso di visualizzazione o versione successiva sui modelli che si desidera visualizzare e utilizzare</td> 
-  </tr> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -166,8 +163,8 @@ Per informazioni sull&#39;attività e sulle preferenze relative ai problemi, ved
 >* Se si modifica il gruppo associato a un modello di progetto esistente, le impostazioni del modello rimangono invariate.
 >* Se si sposta un&#39;attività modello esistente in un altro modello, le impostazioni seguenti rimangono invariate nell&#39;attività modello, indipendentemente dal gruppo associato al nuovo modello:>
 >   * Tipo di Durata
->   * Tipo di Reddito
->   * Tipo Cst
+>   * Tipo di entrate
+>   * Tipo di costo
 >
 >  Tuttavia, l’attività modello è interessata dall’impostazione &quot;Quando a un utente viene assegnata un’attività&quot; nel nuovo modello. Per ulteriori informazioni, vedere la sezione [Accesso](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) nell&#39;articolo [Modifica modelli di progetto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 >
@@ -189,11 +186,11 @@ Quando si crea un&#39;attività modello, alcune delle relative impostazioni veng
    <td> <p>Configurato dalla preferenza "Tipo di durata" per le attività a livello di gruppo, se si associa il modello a un gruppo, oppure dalla stessa preferenza per attività e problemi a livello di sistema, in caso contrario.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Tipo di Reddito</p> </td> 
+   <td role="rowheader"> <p>Tipo di entrate</p> </td> 
    <td> <p>Configurato dalla preferenza "Tipo di retribuzione" per le attività a livello di gruppo, se si associa il modello a un gruppo, oppure dalla stessa preferenza per attività e problemi a livello di sistema, in caso contrario.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Tipo Cst </p> </td> 
+   <td role="rowheader"> <p>Tipo di costo </p> </td> 
    <td> <p> Configurato dalla preferenza dell'attività a livello di gruppo "Tipo di costo" se si associa il modello a un gruppo oppure dalla stessa attività a livello di sistema e dalla stessa preferenza del problema in caso contrario.</p> </td> 
   </tr> 
  </tbody> 

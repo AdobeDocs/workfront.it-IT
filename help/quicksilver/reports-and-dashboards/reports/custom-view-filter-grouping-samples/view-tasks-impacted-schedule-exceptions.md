@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Visualizza: attività interessate da eccezioni di programmazione"
+title: 'Visualizza: attività interessate da eccezioni di programmazione'
 description: Questa visualizzazione delle attività identifica le attività che dovranno essere completate in ritardo a causa dei fine settimana, del tempo libero personale o di altre eccezioni alla programmazione.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7d7c77fa-d9a7-4e91-8dae-ad3aaca6f1da
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -34,44 +34,33 @@ In questa vista vengono visualizzati i seguenti elementi:
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p> Corrente: 
-   <ul>
-   <li>Richiesta di modifica di una vista</li> 
-   <li>Pianificare la modifica di un rapporto</li>
-   </ul>
-     </p>
-     <p> Nuovo: 
-   <ul>
-   <li>Collaboratore per modificare una visualizzazione</li> 
-   <li>Standard per modificare un rapporto</li>
-   </ul>
-     </p>
-    </td> 
+   <td> 
+   <p>Collaboratore o richiesta di modifica di una visualizzazione </p>
+   <p>Standard o piano per modificare un rapporto</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 

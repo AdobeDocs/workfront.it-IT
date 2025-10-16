@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Filtro: visualizza gli elementi in base agli stati con lo stesso nome quando gli stati sono associati a gruppi diversi"
+title: 'Filtro: consente di visualizzare gli elementi in base agli stati con lo stesso nome quando gli stati sono associati a gruppi diversi'
 description: È possibile assegnare uno stato attività al gruppo A denominato Nuovo stato con la chiave di 3 lettere NST. È possibile che al gruppo B venga assegnato un altro stato di attività denominato anche Nuovo stato con la chiave di 3 lettere NES. Anche se i nomi per i 2 stati possono essere identici, il codice di 3 lettere è sempre univoco. Per ulteriori informazioni sugli stati dei gruppi, vedere Creare o modificare uno stato dei gruppi.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8ddcd8b1-44a9-4341-80c7-76ba70d2953b
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -26,28 +26,21 @@ Utilizzando il generatore di filtri, non è possibile identificare tra i 2 stati
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> 
-    <p>Nuovo:</p>
-   <ul><li><p>Collaboratore per modificare un filtro </p></li>
-   <li><p>Standard per modificare un rapporto</p></li> </ul>
-
-<p>Corrente:</p>
-   <ul><li><p>Richiesta di modifica di un filtro </p></li>
-   <li><p>Pianificare la modifica di un rapporto</p></li> </ul></td> 
+   <p>Collaboratore o richiesta di modifica di un filtro </p>
+   <p>Standard o piano per modificare un rapporto</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -60,7 +53,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

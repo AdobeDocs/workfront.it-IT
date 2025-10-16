@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Panoramica della data di completamento pianificata dell'attività
+title: Panoramica della data di completamento pianificata dell’attività
 description: La data di completamento pianificata di un'attività è la data entro la quale l'attività è impostata per il completamento.
 author: Alina
 feature: Work Management
 exl-id: b0522db5-9c68-4b1a-82c8-5a9e613eb2ff
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 1%
@@ -63,7 +63,7 @@ Puoi impostare manualmente la Data di completamento pianificata nelle seguenti a
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Deve Finire al</p> <p>Termina entro e non oltre</p> <p>Finire non Prima di</p> </td> 
+   <td> <p>Deve essere completato il</p> <p>Completa entro e non oltre</p> <p>Completa non prima di</p> </td> 
    <td> <p><span class="s1">La data di inizio pianificata viene modificata per mantenere la durata invariata.</span> </p> </td> 
   </tr> 
   <tr> 

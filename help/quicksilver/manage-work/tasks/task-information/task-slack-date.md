@@ -2,27 +2,27 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Panoramica sulla data di Slack attività
-description: A volte le attività possono iniziare e completare in ritardo senza influire sulla data di completamento del progetto.
+title: Panoramica data Slack attività
+description: A volte le attività possono iniziare e completare in ritardo senza influire sulla data di completamento del progetto. In Data Slack viene visualizzata la data esatta in cui un'attività potrebbe sicuramente influire sulla Data di completamento del progetto.
 author: Alina
 feature: Work Management
 exl-id: ccdaa27d-e212-45dc-afca-08539f2b4001
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
 
-# Panoramica sulla data di Slack attività
+# Panoramica data Slack attività
 
 A volte le attività possono iniziare e completare in ritardo senza influire sulla data di completamento del progetto.
 
-In Data Slack viene visualizzata la data esatta in cui un&#39;attività potrebbe effettivamente influire sulla Data di completamento del progetto.
+In Data Slack viene visualizzata la data esatta in cui un&#39;attività potrebbe sicuramente influire sulla Data di completamento del progetto.
 
 ## Panoramica sulla data di Slack
 
-La data di Slack è diversa dalla data di completamento prevista, in quanto le relazioni predecessori e i vincoli delle attività aumentano il tempo di attesa.
+La data di Slack è diversa dalla data di completamento prevista, in quanto le relazioni predecessore e i vincoli delle attività aumentano il tempo di attesa.
 
 Considerare gli scenari seguenti, a seconda che un&#39;attività si trovi o meno nel Percorso critico di un progetto:
 
@@ -32,10 +32,10 @@ Considerare gli scenari seguenti, a seconda che un&#39;attività si trovi o meno
 
   Per informazioni sullo stato di avanzamento delle attività, vedere [Panoramica sullo stato di avanzamento delle attività](../../../manage-work/tasks/task-information/task-progress-status.md).
 
-* Per le attività che non si trovano nel percorso critico, il margine di flessibilità aumenta con la maggiore anticipo rispetto alla programmazione dell&#39;attività. Per queste attività, la data di Slack rimane nel futuro finché le attività non diventano così tardi che iniziano a influire sulla data di completamento del progetto.
+* Per le attività che non si trovano nel percorso critico, il margine di flessibilità aumenta con la maggiore anticipo rispetto alla programmazione dell&#39;attività. Per queste attività, la data Slack rimane nel futuro finché le attività non diventano così tardi che iniziano a influire sulla data di completamento del progetto.
 
-## Individuare la data di Slack di un&#39;attività
+## Individuare la data Slack di un&#39;attività
 
-Per visualizzare la data di Slack di un&#39;attività, è possibile aggiungere il campo Data Slack a una visualizzazione o a un report dell&#39;attività.
+Per visualizzare la data Slack di un&#39;attività, è possibile aggiungere il campo Data Slack a una visualizzazione o a un report dell&#39;attività.
 
 Per informazioni sulla creazione di un report, vedere [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

@@ -3,16 +3,16 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: "Messaggio di errore: parametro non valido: valore di conversione"
-description: '"Quando si tenta di modificare il formato di un campo personalizzato in un modulo personalizzato esistente, viene visualizzato il seguente messaggio di errore: "Parametro non valido: valore di conversione "&lt;...&gt;""'
+title: 'Messaggio di errore: Parametro non valido: Valore di conversione'
+description: 'Viene visualizzato il seguente messaggio di errore quando si tenta di modificare il formato di un campo personalizzato in un modulo personalizzato esistente: "Parametro non valido: valore di conversione "&lt;..&gt;""'
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4f7aac95-4afb-422d-877b-0fa49ef43883
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 929502c256011b464d938ad1095c127407e4a795
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 0%
+source-wordcount: '311'
+ht-degree: 2%
 
 ---
 
@@ -33,25 +33,21 @@ Ad esempio, un campo personalizzato è formattato come testo.  Ora si desidera m
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
-   <td>Qualsiasi</td> 
+   <td>[!DNL Adobe Workfront] pacchetto</td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
-   <td>
-   <p>Nuovo: Standard</p>
-   <p>oppure</p>
-   <p>Corrente: Piano</p></td> 
-  </tr> 
+   <td>[!DNL Adobe Workfront] licenza</td> 
+   <td><p>Standard</p>
+       <p>Piano</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td>Configurazioni del livello di accesso</td> 
    <td> <p>Modifica accesso a:</p> 
     <ul> 
      <li> <p>Creare rapporti, dashboard e calendari</p> </li> 
@@ -61,7 +57,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

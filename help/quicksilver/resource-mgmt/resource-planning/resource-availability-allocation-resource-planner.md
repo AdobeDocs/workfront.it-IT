@@ -6,9 +6,9 @@ description: Nella Programmazione risorse è possibile visualizzare la disponibi
 author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1199'
 ht-degree: 4%
 
 ---
@@ -21,26 +21,21 @@ Nella Programmazione risorse è possibile visualizzare la disponibilità delle r
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td><p>Nuovo: Qualsiasi</p>
-       <p>oppure</p>
-       <p>Corrente: Pro o superiore</p> </td> 
+  <tr>
+   <td>Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td><p>Nuovo: Chiaro o superiore</p>
-       <p>oppure</p>
-       <p>Corrente: revisione o versione successiva</p></td>
+   <td>Licenza Adobe Workfront</td> 
+   <td><p>Chiaro o superiore</p>
+       <p>Revisione o successiva</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td>Configurazioni del livello di accesso</td> 
    <td> <p>Accesso di visualizzazione o superiore ai seguenti elementi:</p> 
     <ul> 
      <li> <p>Gestione risorse</p> </li> 
@@ -50,13 +45,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni oggetto</td> 
    <td> <p>Visualizza o autorizzazioni superiori per i progetti che desideri visualizzare nella Programmazione delle risorse</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -164,7 +159,7 @@ Quando si modifica la visualizzazione in Pianificazione risorse, tenere presente
    | Pianificato | ✔ | ✔ | ✔ |
    | Preventivato |   | ✔ | ✔ |
    | Varianza |   | ✔ | ✔ |
-   | Net |   | ✔ | ✔ |
+   | Netto |   | ✔ | ✔ |
    | Effettivo | ✔ |   |   |
    | Differenza | ✔ |   |   |
    | Percentuale | ✔ |   |   |
@@ -207,7 +202,7 @@ Per visualizzare l&#39;allocazione degli utenti in un grafico:
    >
    >È possibile visualizzare il grafico di allocazione utente solo nella visualizzazione utente.
 
-1. Fai clic sull&#39;icona ![RP_user_allocation_chart.png](assets/rp-user-allocation-chart.png) del **Grafico di allocazione utente** per visualizzare le seguenti informazioni:
+1. Fai clic sull&#39;icona **RP_user_allocation_chart.png** del ![Grafico di allocazione utente](assets/rp-user-allocation-chart.png) per visualizzare le seguenti informazioni:
 
    <table style="table-layout:auto"> 
     <col> 

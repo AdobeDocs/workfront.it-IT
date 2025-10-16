@@ -2,13 +2,13 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: "Vincoli attività: indice articolo"
+title: 'Vincoli attività: indice articolo'
 description: I vincoli dell'attività determinano quando un'attività deve iniziare e finire in un progetto. È possibile utilizzare diversi vincoli task per indicare quando un task deve iniziare e terminare. Per informazioni su tutti i vincoli task in Workfront, vedere gli articoli seguenti.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 2e37b051-00ff-4784-bd8b-1897bb4ac80b
-source-git-commit: 42601f701e4109320e9e7b3f3f4275dee59bad97
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 0%

@@ -6,9 +6,9 @@ description: È possibile assegnare gli elementi di lavoro utilizzando il Bilanc
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: bf1a8e4384360554c6245b455650f30976e82ce1
+source-git-commit: 2a52b1e401eae79c55076afd352cc83e1829140a
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
@@ -23,27 +23,23 @@ Per informazioni generali sull&#39;assegnazione del lavoro agli utenti che utili
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td> <p>Qualsiasi </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td><p>Nuovo: Standard</p>
-       <p>oppure</p>
-       <p>Corrente: piano, per assegnare il lavoro nel Bilanciatore dei carichi di lavoro nell'area Risorse;</br>
-       Lavoro, per assegnare il lavoro nel Bilanciatore dei carichi di lavoro di un team o di un progetto</p></td>
+   <td>Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td>Licenza Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Pianificare, quando si utilizza il Bilanciatore dei carichi di lavoro nell'area Risorse; lavorare, quando si utilizza il Bilanciatore dei carichi di lavoro di un team o progetto</p></td>
+  </tr>
+  <tr> 
+   <td>Configurazioni del livello di accesso</td> 
    <td> <p>Modifica accesso a:</p> 
     <ul> 
      <li>Gestione risorse</li> 
@@ -54,13 +50,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni oggetto</td> 
    <td>Autorizzazioni di Contribute o superiori per i progetti, le attività e i problemi che includono Assegnazioni</td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -6,9 +6,9 @@ description: Adobe Workfront consente ai team agili di completare il lavoro in m
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '990'
 ht-degree: 1%
 
 ---
@@ -31,8 +31,6 @@ Qualsiasi utente dell’organizzazione può vedere il team agile e tutti i suoi 
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -40,15 +38,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
-   <td> <p>Nuovo: Standard</p>
-   Corrente: 
-   <ul><li><p>[!UICONTROL Plan] per creare un nuovo team agile</p></li> 
-   <li><p>[!UICONTROL Lavoro] o versione successiva per convertire un team in un team Agile</p></li></ul> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p>Standard</p>
+   <p>Pianifica la creazione di un nuovo team agile</p>
+  <p>Lavora o versione successiva per convertire un team in un team agile</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -125,7 +122,7 @@ Per ulteriori informazioni, vedere [Panoramica del grafico a burn-down Agile](..
 
    <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader"><strong>[!UICONTROL Group]</strong> </td> 
-      <td> <p>Inizia a digitare il nome di un gruppo da aggiungere al team, quindi selezionalo quando viene visualizzato nell’elenco a discesa.</p> <p><b>NOTA</b></p> <p> Quando un team viene assegnato a un gruppo o a un sottogruppo, qualsiasi amministratore di gruppo di tale gruppo o sottogruppo può gestire il team senza esserne membro. Gli amministratori dei gruppi possono passare all'area [!UICONTROL Team] dal menu principale  e fare clic sulla freccia [!UICONTROL Switch Teams] <img src="assets/switch-team-icon.png" alt="Icona Cambia team"> per elencare tutti i team assegnati ai gruppi che gestiscono.</p> </td> 
+      <td> <p>Inizia a digitare il nome di un gruppo da aggiungere al team, quindi selezionalo quando viene visualizzato nell’elenco a discesa.</p> <p><b>NOTA</b></p> <p> Quando un team viene assegnato a un gruppo o a un sottogruppo, qualsiasi amministratore di gruppo di tale gruppo o sottogruppo può gestire il team senza esserne membro. Gli amministratori dei gruppi possono passare all'area [!UICONTROL Team] dal menu principale [!UICONTROL] e fare clic sulla freccia [!UICONTROL Switch Teams] <img src="assets/switch-team-icon.png" alt="Icona Cambia team"> per elencare tutti i team assegnati ai gruppi che gestiscono.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Membri Team]</strong> </td> 
@@ -134,7 +131,7 @@ Per ulteriori informazioni, vedere [Panoramica del grafico a burn-down Agile](..
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Descrizione]</strong> </td> 
       <td><p>Digitare una descrizione per il team.</p> <p>La descrizione viene visualizzata in alto a destra nell'area [!UICONTROL Teams] quando il team è selezionato.</p>
-      <p>Se la descrizione è lunga, è possibile fare clic su di essa per visualizzare la descrizione completa in un pop-up. Se si dispone dell'accesso per modificare le impostazioni del team di , è anche possibile modificare la descrizione direttamente nel pop-up.</p></td>
+      <p>Se la descrizione è lunga, è possibile fare clic su di essa per visualizzare la descrizione completa in un pop-up. Se si dispone dell'accesso per modificare le impostazioni del team di [!UICONTROL], è anche possibile modificare la descrizione direttamente nel pop-up.</p></td>
      </tr> 
     </tbody> 
    </table>

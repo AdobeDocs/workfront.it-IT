@@ -6,10 +6,10 @@ description: Con un flusso di lavoro di base, è possibile inviare più revisori
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '1858'
-ht-degree: 1%
+source-wordcount: '1793'
+ht-degree: 4%
 
 ---
 
@@ -23,24 +23,21 @@ Con un flusso di lavoro di base, è possibile inviare più revisori a una bozza,
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td>
-   <p>Nuovo: Qualsiasi</p>
-    <p>Piano corrente: Pro o superiore</p>
-   <p>Piano legacy: Seleziona o superiore</p> <p>Per ulteriori informazioni sulla verifica dell'accesso con i diversi piani, vedere <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accesso alla funzionalità di verifica in Workfront</a>.</p> </td> 
+   <p>Qualsiasi</p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td>
-   <p>Nuovo: Standard</p>
-    <p>Corrente: Lavoro o Piano</p> <p>Piano legacy: qualsiasi (per l’utente deve essere abilitata la verifica)</p> </td> 
+   <p>Standard</p>
+    <p>Lavoro o piano</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profilo autorizzazione bozza </td> 
@@ -53,7 +50,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza di cui si dispone, contattare l&#39;amministratore di Workfront o Workfront Proof.
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -278,7 +275,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <tbody>
    <tr>
    <td>Notifica i destinatari relativamente a questa bozza</td>
-   <td>Seleziona questa opzione per inviare una notifica e-mail agli utenti. Quando nella sezione <strong>Flusso di lavoro</strong> è selezionata la condivisione di base</strong>, al momento della creazione della bozza viene inviata una notifica e-mail. <strong> Quando <strong>Flusso di lavoro automatico</strong> è selezionato nella sezione <strong>Flusso di lavoro</strong>, viene inviata una notifica e-mail quando la bozza entra nella fase del Flusso di lavoro automatico a cui è associato l'utente.</td>
+   <td>Seleziona questa opzione per inviare una notifica e-mail agli utenti. Quando nella sezione <strong>Flusso di lavoro</strong> è selezionata la condivisione di base<strong>, al momento della creazione della bozza viene inviata una notifica e-mail. </strong> Quando <strong>Flusso di lavoro automatico</strong> è selezionato nella sezione <strong>Flusso di lavoro</strong>, viene inviata una notifica e-mail quando la bozza entra nella fase del Flusso di lavoro automatico a cui è associato l'utente.</td>
    </tr>
    <tr>
    <td>Aggiungi messaggio personalizzato</td>

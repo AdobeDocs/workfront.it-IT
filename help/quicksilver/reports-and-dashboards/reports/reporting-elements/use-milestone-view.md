@@ -6,9 +6,9 @@ description: Puoi applicare la vista Milestone (Attività cardine) a un elenco o
 author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1623'
 ht-degree: 1%
 
 ---
@@ -41,38 +41,30 @@ La vista Milestone (Attività cardine) è disponibile quando si visualizza un el
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>piano Adobe Workfront</strong></td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licenza Adobe Workfront</strong></td> 
+   <td role="rowheader">Licenza Adobe Workfront</strong></td> 
    <td> 
-      <p>Novità:</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Corrente:</p>
-         <ul>
-         <li><p>Lavoro o superiore</p></li>
-         </ul>
+    <p>Standard</p>
+    <p>Lavoro o superiore</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
-   <td> <p>Accesso di visualizzazione o superiore a report, dashboard, calendari</p></td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Accesso di visualizzazione o superiore a report, dashboard, calendari</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Visualizzare le autorizzazioni per un report di progetti per applicare la vista Milestone a un report</p> </td> 
+   <td role="rowheader">Autorizzazioni oggetto</td> 
+    <td> <p>Visualizzare le autorizzazioni per un report di progetti per applicare la vista Milestone a un report</p></td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>

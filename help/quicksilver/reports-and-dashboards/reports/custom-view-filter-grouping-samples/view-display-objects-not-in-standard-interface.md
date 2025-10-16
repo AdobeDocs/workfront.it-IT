@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Visualizzazione: visualizzazione di oggetti non inclusi nell'interfaccia standard"
+title: 'Vista: visualizza gli oggetti non inclusi nell''interfaccia standard'
 description: È possibile visualizzare in una vista oggetti non inclusi nell'interfaccia in modalità standard. Puoi eseguire questa operazione solo facendo riferimento a essi tramite la modalità testo.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c0138730-494b-4443-865a-44f8f00d5342
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -30,28 +30,21 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> 
-    <p>Nuovo:</p>
-   <ul><li><p>Collaboratore per modificare un filtro </p></li>
-   <li><p>Standard per modificare un rapporto</p></li> </ul>
-
-<p>Corrente:</p>
-   <ul><li><p>Richiesta di modifica di un filtro </p></li>
-   <li><p>Pianificare la modifica di un rapporto</p></li> </ul></td> 
+   <p>Collaboratore o richiesta di modifica di un filtro </p>
+   <p>Standard o piano per modificare un rapporto</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -64,7 +57,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -92,7 +85,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    linkedname=portfolio
    ```
 
-   In questo esempio particolare, il report verrà ordinato in base all&#39;ID proprietario del Portfolio, come indicato dalla riga `querysort`.
+   In questo esempio particolare, il report verrà ordinato in base all&#39;ID proprietario Portfolio, come indicato dalla riga `querysort`.
 
    >[!TIP]
    >

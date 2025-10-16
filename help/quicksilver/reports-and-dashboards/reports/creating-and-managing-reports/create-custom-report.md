@@ -6,9 +6,9 @@ description: Puoi fornire l’accesso alle informazioni di cui la tua organizzaz
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1816'
 ht-degree: 1%
 
 ---
@@ -30,34 +30,33 @@ Per ulteriori informazioni sulla creazione e la gestione dei rapporti, compresi 
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Devi avere i seguenti:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Nuovo: Standard </p>
-   oppure
-   <p>Corrente: Piano </p> </td> 
+   <td> 
+      <p>Standard</p>
+      <p>Piano</p>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p></td> 
+   <td role="rowheader">Configurazione del livello di accesso</td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Ottieni le autorizzazioni di gestione per i rapporti creati.</p></td> 
+   <td> <p>Ottieni le autorizzazioni di gestione per i rapporti creati</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -86,7 +85,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
     <col> 
     <thead> 
      <tr> 
-      <th>Funzionalità</th> 
+      <th>Funzione</th> 
       <th>Descrizione</th> 
      </tr> 
     </thead> 

@@ -7,9 +7,9 @@ description: È possibile aggiornare un progetto, un’attività o un problema e
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
+source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -26,32 +26,34 @@ ht-degree: 0%
 >
 >È consigliabile utilizzare l&#39;automazione e l&#39;integrazione di Workfront per le esigenze di integrazione dell&#39;organizzazione con Google Workspace.
 >
->Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Per informazioni sulle funzionalità specifiche dei moduli di automazione e integrazione di Workfront per Google Workspace, vedere [Moduli Gmail](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) e [Moduli calendario Google](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Per informazioni sulle funzionalità specifiche dei moduli di automazione e integrazione di Workfront per Google Workspace, vedere [Moduli Gmail](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) e [Moduli calendario Google](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 È possibile aggiornare un progetto, un&#39;attività o un problema esistente con informazioni provenienti da un&#39;e-mail non [!DNL Adobe Workfront].
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano*</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
-   <td> <p>[!UICONTROL Lavoro], [!UICONTROL Piano]</p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p>Standard</p><p>Lavoro o superiore</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisiti
 
@@ -85,7 +87,7 @@ Prima di poter aggiornare un elemento [!DNL Workfront] utilizzando il contenuto 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Includi allegati e-mail]</td> 
-      <td><p>(Disponibile solo se l’e-mail contiene almeno un allegato). Fare clic su questa opzione per salvare gli allegati nella scheda [!UICONTROL Documents] per l'attività o il problema. </p><p>Se non si desidera salvare un allegato, fare clic sulla X a destra del nome. </p><p>Se l'e-mail contiene collegamenti a documenti in [!DNL Google Drive], tali collegamenti vengono salvati nella scheda Panoramica di  dell'attività o del problema che si sta creando. </p><p>Importante: <span style="color: #ff1493;"><span style="color: #000000;">Affinché questo funzioni, l'amministratore</span></span>[!DNL Workfront]<span style="color: #ff1493;"><span style="color: #000000;"> deve autorizzare [!DNL Google Drive] a lavorare con [!DNL Workfront]</span></span></p>
+      <td><p>(Disponibile solo se l’e-mail contiene almeno un allegato). Fare clic su questa opzione per salvare gli allegati nella scheda [!UICONTROL Documents] per l'attività o il problema. </p><p>Se non si desidera salvare un allegato, fare clic sulla X a destra del nome. </p><p>Se l'e-mail contiene collegamenti a documenti in [!DNL Google Drive], tali collegamenti vengono salvati nella scheda Panoramica di [!UICONTROL] dell'attività o del problema che si sta creando. </p><p>Importante: <span style="color: #ff1493;"><span style="color: #000000;">Affinché questo funzioni, l'amministratore</span></span>[!DNL Workfront]<span style="color: #ff1493;"><span style="color: #000000;"> deve autorizzare [!DNL Google Drive] a lavorare con [!DNL Workfront]</span></span></p>
       <p>Se abiliti questa opzione, questa rimane abilitata per altre e-mail convertite in attività, problemi e aggiornamenti.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 

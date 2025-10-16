@@ -2,12 +2,12 @@
 content-type: reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: "Schede orario: indice articolo"
+title: 'Schede orario: indice degli articoli'
 description: Per ulteriori informazioni su come creare, modificare, approvare e gestire schede orario, profili delle schede orario e tipi di ore, consulta le sezioni seguenti.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: aff5e7a9-e1a0-460e-bb6b-be9c50db5755
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 0%

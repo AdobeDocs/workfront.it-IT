@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-requests
 title: Creare richieste da bozze
 description: Oltre a utilizzare le bozze disponibili suggerite da Workfront quando si immette una nuova richiesta, è possibile accedere a una bozza di richiesta dalla sezione Bozze e completare l'invio da tale sezione.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 2c2ccbadd6470773808bbd5a205310fbb1e1944e
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '664'
 ht-degree: 1%
 
 ---
@@ -23,21 +23,18 @@ Oltre a utilizzare le bozze disponibili suggerite da Workfront quando si immette
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Nuovo: Collaboratore o versione successiva</p>
-   Oppure
-   <p>Corrente: richiesta o successiva</p>
+   <td> <p>Collaboratore o versione successiva</p>
+   <p>Richiedi o superiore</p>
     </td> 
   </tr> 
   <tr> 
@@ -51,7 +48,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

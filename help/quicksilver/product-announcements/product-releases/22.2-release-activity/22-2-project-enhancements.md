@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 43ea91db-d6f2-4218-9261-580a7e5b31d0
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1090'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,7 @@ Per ulteriori informazioni, vedere [Copiare un progetto](../../../manage-work/pr
 
 * Per più progetti alla volta:
 * Ricalcola la timeline
-* Ricalcola Finanze
+* Ricalcola finanze
 * Ricalcolare Espressioni Customizzate
 * Per un singolo progetto:
 * Allega Modello
@@ -124,7 +124,7 @@ Per aumentare l’efficienza ed eliminare il numero di clic, è stato introdotto
 
 Gli utenti rimangono nell’elenco, nel report o in un dashboard dopo aver convertito un problema in un progetto invece di essere reindirizzati alla pagina del progetto. Al termine della conversione, viene visualizzata una notifica di successo con il collegamento al progetto, per consentirti di passare facilmente al progetto, se necessario.
 
-Per ulteriori informazioni, vedere [Convertire un problema in un progetto in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Per ulteriori informazioni, vedere [Convertire un problema in un progetto](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 ## Le ore di allocazione non verranno più rimosse quando si apportano modifiche alle assegnazioni
 

@@ -6,9 +6,9 @@ description: È possibile utilizzare la formattazione condizionale per confronta
 author: Nolan
 feature: Reports and Dashboards
 exl-id: da4447ba-6e76-4701-88ee-87a30393bed9
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '468'
 ht-degree: 1%
 
 ---
@@ -21,29 +21,21 @@ ht-degree: 1%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
-Devi avere i seguenti:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> 
-      <p>Nuovo:</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Corrente:</p>
-         <ul>
-         <li><p>Piano</p></li>
-         </ul>
+     <p>Standard</p>
+     <p>Piano</p>
    </td> 
   </tr> 
   <tr> 
@@ -57,7 +49,7 @@ Devi avere i seguenti:
  </tbody> 
 </table>
 
-Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -97,7 +89,7 @@ Per confrontare la Data inizio pianificata e la Data inizio effettiva dell&#39;a
 
    >[!NOTE]
    >
-   >Se confronti un campo nativo di Workfront, utilizza la sintassi Camel Case per il nome del campo. Se si confronta un campo personalizzato, utilizzare **DE:Nome effettivo del campo** per il campo del nome che si sta confrontando con il primo campo.\
+   >Se confronti un campo nativo di Workfront, utilizza la sintassi Camel Case per il nome del campo. Se si confronta un campo personalizzato, utilizzare **DE:Actual Nome del campo** per il campo del nome che si sta confrontando con il primo campo.\
    >Ad esempio, se confronti la **Data di inizio effettiva** con un campo personalizzato con etichetta **Data di consegna**, aggiungi la seguente istruzione nel codice della modalità di testo:
    >
    >`styledef.case.0.comparison.rightmethod=DE:Delivery Date`

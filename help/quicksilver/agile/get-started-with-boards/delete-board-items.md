@@ -6,10 +6,10 @@ description: Quando elimini una scheda da una bacheca, questa viene eliminata de
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: 81e87793905fd925db00c7a0ac107150263a1365
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 0%
+source-wordcount: '516'
+ht-degree: 1%
 
 ---
 
@@ -23,28 +23,25 @@ Quando elimini una scheda collegata da qualsiasi altro tipo di scheda che dispon
 
 Quando si archivia una scheda, questa viene inviata all&#39;archivio e può essere successivamente ripristinata nella bacheca.
 
-Le schede archiviate non vengono sincronizzate con attività e problemi di Workfront. Se si ripristina una scheda, questa verrà sincronizzata di nuovo.
+Le schede archiviate non vengono sincronizzate con attività e problemi di Workfront. Se una scheda viene ripristinata, questa verrà nuovamente sincronizzata.
 
 ## Requisiti di accesso
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> 
-   <p>Nuovo: [!UICONTROL Contributor] o versione successiva</p> 
-   <p>oppure</p>
-   <p>Corrente: [!UICONTROL Request] o versione successiva</p>
+   <p>Collaboratore o versione successiva</p> 
+   <p>Richiedi o superiore</p>
    </td> 
   </tr> 
  </tbody> 

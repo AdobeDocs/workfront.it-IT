@@ -6,10 +6,10 @@ description: Puoi ricevere notifiche da [!DNL Adobe Workfront] sugli elementi da
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
+source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
 workflow-type: tm+mt
-source-wordcount: '1438'
-ht-degree: 0%
+source-wordcount: '1434'
+ht-degree: 4%
 
 ---
 
@@ -30,26 +30,31 @@ Queste notifiche contengono [!DNL Workfront] azioni che è possibile eseguire in
 >[!DNL Microsoft Teams] non supporta più [!DNL Internet Explorer]. Per utilizzare [!DNL Adobe Workfront for Microsoft Teams integration], è necessario utilizzare un browser diverso da [!DNL Internet Explorer].
 
 
+
+
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano*</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
-   <td> <p>[!UICONTROL Lavoro], [!UICONTROL Piano]</p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p>Standard</p>
+   <p>Lavoro o superiore</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisiti per ricevere [!DNL Workfront] notifiche in [!DNL Microsoft Teams]
 
@@ -63,7 +68,7 @@ Per informazioni sull&#39;installazione di [!DNL Workfront for Microsoft Teams] 
 
 ## Gestione di [!DNL Workfront] notifiche in [!DNL Microsoft Teams]
 
-Quando l&#39;app [!DNL Workfront for Microsoft Teams] è installata, viene creato un canale di chat [!DNL Workfront] in [!DNL Microsoft Teams] per ogni membro del team. Quando viene eseguita una determinata azione in [!DNL Workfront], è possibile configurare le impostazioni per [!DNL Workfront for Microsoft Teams] per ricevere notifiche su tale azione nel canale di chat di [!DNL Microsoft Teams] di [!DNL Workfront].
+Quando l&#39;app [!DNL Workfront for Microsoft Teams] è installata, viene creato un canale di chat [!DNL Workfront] in [!DNL Microsoft Teams] per ogni membro del team. Quando viene eseguita una determinata azione in [!DNL Workfront], è possibile configurare le impostazioni per [!DNL Workfront for Microsoft Teams] per ricevere notifiche su tale azione nel canale di chat di [!DNL Workfront] di [!DNL Microsoft Teams].
 
 Quando si lavora con [!DNL Workfront] notifiche da [!DNL Microsoft Teams], considera quanto segue:
 
@@ -401,7 +406,7 @@ Ricevi una notifica di informazione quando viene aggiornato un elemento a cui se
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Qualcuno include il tuo team in un aggiornamento diretto di </td> 
+   <td role="rowheader">Qualcuno include il tuo team in un aggiornamento diretto di [!UICONTROL]</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 

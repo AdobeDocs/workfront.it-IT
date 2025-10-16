@@ -7,9 +7,9 @@ description: È possibile visualizzare e gestire le informazioni sulla pianifica
 author: Lisa
 feature: Resource Management
 exl-id: d2bfc411-188a-4f8b-8180-0e984f01b5ab
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -30,23 +30,20 @@ Quando la società ha acquistato una licenza Adobe Workfront che include la pian
 
 Per ulteriori informazioni sui prerequisiti per l&#39;utilizzo degli strumenti di definizione del budget in Workfront, vedere [Introduzione alla pianificazione delle risorse](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
-Per preventivare le risorse, gestire i gruppi di risorse e visualizzare le informazioni sui costi negli strumenti di pianificazione delle risorse, è necessario disporre dei seguenti diritti di accesso: 
+Per preventivare le risorse, gestire i gruppi di risorse e visualizzare le informazioni sui costi negli strumenti di pianificazione delle risorse, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td><p>Nuovo: Qualsiasi</p>
-       <p>oppure</p>
-       <p>Corrente: Pro o superiore</p> </td> 
+   <td>Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td><p>Nuovo: Standard</p>
-       <p>oppure</p>
-       <p>Corrente: Piano</p></td>
+   <td>Licenza Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Piano</p></td>
   </tr>  
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -66,11 +63,9 @@ Per preventivare le risorse, gestire i gruppi di risorse e visualizzare le infor
    <td role="rowheader">Autorizzazioni oggetto</td> 
    <td> <p>Consente di gestire le autorizzazioni per il progetto che includono le autorizzazioni Gestisci dati finanziari.</p> <p>Per informazioni sulle autorizzazioni del progetto, vedere l'articolo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Condividere un progetto in Adobe Workfront</a>.</p> <p>Per informazioni sulle autorizzazioni finanziarie per un progetto, vedere l'articolo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Condividere le autorizzazioni finanziarie su un oggetto</a></a>.</p>
 
-<p><b>NOTA</b>
-
-Quando si calcola il budget delle risorse nella vista Ruolo, se si dispone di autorizzazioni di gestione inferiori per almeno un progetto elencato sotto il ruolo, non è possibile preventivare ore, FTE o Costo per il ruolo. Puoi preventivare solo i progetti per i quali disponi delle autorizzazioni di gestione.</p> </td>
-</tr> 
+<p><b>NOTA:</b> quando si impostano le risorse nel budget nella visualizzazione Ruolo, se si dispone di autorizzazioni di gestione inferiori per almeno un progetto elencato sotto il ruolo, non è possibile preventivare ore, FTE o Costo per il ruolo. Puoi preventivare solo i progetti per i quali disponi delle autorizzazioni di gestione.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).

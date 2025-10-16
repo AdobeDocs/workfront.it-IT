@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1711'
 ht-degree: 0%
 
 ---
@@ -47,28 +47,26 @@ Questa integrazione è compatibile solo con [!DNL SharePoint Online]. Le istanze
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
-   <td>Qualsiasi</td> 
+   <td role="rowheader">Pacchetto Workfront</td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
-   <td>Nuovo: Standard <p>Oppure</p><p>Corrente: Piano</p></td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td><p>Standard</p> <p>Piano</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td>Devi essere un amministratore [!DNL Workfront]. </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td>Devi essere un amministratore di Workfront. </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -158,8 +156,8 @@ Se una risorsa è stata caricata per la prima volta in [!DNL Workfront] e quindi
 
 Per garantire agli utenti un accesso continuo ai documenti collegati a Workfront tramite l&#39;integrazione legacy di [!DNL SharePoint], è necessario riconfigurare l&#39;accesso all&#39;integrazione legacy di [!DNL SharePoint] e mantenere aggiornato il segreto client di SharePoint.
 
-* [Riconfigura l&#39;accesso all&#39;integrazione legacy [!DNL SharePoint] &#x200B;](#reconfigure-access-to-the-legacy-sharepoint-integration)
-* [Configura il segreto client per l&#39;accesso continuo all&#39;integrazione legacy [!DNL SharePoint] &#x200B;](#configure-the-client-secret-for-continued-access-to-the-legacy-sharepoint-integration)
+* [Riconfigura l&#39;accesso all&#39;integrazione legacy [!DNL SharePoint] ](#reconfigure-access-to-the-legacy-sharepoint-integration)
+* [Configura il segreto client per l&#39;accesso continuo all&#39;integrazione legacy [!DNL SharePoint] ](#configure-the-client-secret-for-continued-access-to-the-legacy-sharepoint-integration)
 
 ### Riconfigura l&#39;accesso all&#39;integrazione legacy di [!DNL SharePoint]
 
@@ -172,7 +170,7 @@ La riconfigurazione dell&#39;integrazione legacy di [!DNL SharePoint] consente a
 
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic sull&#39;icona **[!UICONTROL Setup]** ![Setup](/help/_includes/assets/gear-icon-setup.png).
 1. Seleziona **[!UICONTROL Documenti]** nell&#39;area di navigazione a sinistra, quindi seleziona **[!UICONTROL Provider di cloud]**.
-1. Verificare che l&#39;opzione **[!DNL SharePoint]** e l&#39;opzione **[!UICONTROL [!DNL SharePoint] (Graph API)]** siano entrambe abilitate.
+1. Verificare che l&#39;opzione **[!DNL SharePoint]** e l&#39;opzione **[!UICONTROL [!DNL SharePoint](Graph API)]** siano entrambe abilitate.
 1. Fai clic su **[!UICONTROL Salva]**.
 1. Seleziona **[!UICONTROL Documenti]** nel menu di navigazione a sinistra, quindi seleziona **[!UICONTROL [!DNL SharePoint]Integrazione]**.
 1. Seleziona il segno di spunta a sinistra dell&#39;elenco per tutte le integrazioni esistenti, quindi seleziona **[!UICONTROL Disattiva]**.
@@ -194,7 +192,7 @@ Il segreto client [!DNL SharePoint] scade una volta all&#39;anno. Per garantire 
 1. Generare un nuovo segreto client come descritto in [Sostituire un segreto client in scadenza in un  [!DNL SharePoint] componente aggiuntivo](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret).
 1. Copia il segreto client in un percorso sicuro.
 1. Accedere a [!DNL Workfront] come amministratore.
-1. In Workfront, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro del **[!UICONTROL Main Menu]**, quindi fai clic sull&#39;icona **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
+1. In Workfront, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** nell&#39;angolo superiore sinistro del ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png), quindi fai clic sull&#39;icona **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
 1. Nel pannello a sinistra, fai clic su **[!UICONTROL Documenti]** > Integrazione **[!UICONTROL [!DNL SharePoint]]**.
 1. Fai clic sull&#39;integrazione di [!DNL SharePoint] che desideri aggiornare, quindi fai clic su **[!UICONTROL Modifica]**.
 1. Individua la sezione **Informazioni connessione** della finestra di modifica, quindi immetti il nuovo segreto client nel campo **[!UICONTROL Segreto client SharePoint]**.

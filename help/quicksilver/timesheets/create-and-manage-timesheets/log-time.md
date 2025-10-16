@@ -3,13 +3,13 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Tempo di connessione
 description: È possibile registrare il tempo per gli elementi di lavoro in&nbsp;Adobe Workfront per indicare il numero di ore dedicate al loro lavoro. È inoltre possibile registrare il tempo non correlato al lavoro, ad esempio ferie, malattia o riunioni. L'ora registrata viene visualizzata nella scheda orario.
-author: Alina
+author: Lisa
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '4075'
+source-wordcount: '4080'
 ht-degree: 0%
 
 ---
@@ -35,39 +35,39 @@ Per ulteriori informazioni sul tipo di ore che è possibile accedere a Workfront
 
 ## Requisiti di accesso
 
-+++ Espandere per visualizzare i requisiti di accesso.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td>Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> 
-   <ul><li> Chiaro o superiore per registrare le ore per un'attività, un problema o le ore generali su una scheda orario</li>
-   <li>Standard per registrare le ore nei progetti</li></ul>
+   <ul><li><p>Chiaro o superiore per registrare le ore per un'attività, un problema o le ore generali su una scheda orario</p></li>
+   <li><p>Standard per registrare le ore nei progetti</p></li></ul>
 
 <p>Oppure: </p>
 
-<ul><li>Revisione o successiva per registrare le ore generali in una scheda orario</li>
-   <li>Lavoro o superiore per registrare le ore su un progetto, attività o problema</li></ul> </td> 
+<ul><li><p>Revisione o successiva per registrare le ore generali in una scheda orario</p></li>
+   <li><p>Lavoro o superiore per registrare le ore su un progetto, attività o problema</p></li></ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica l'accesso al tipo di elemento di lavoro per il quale si registra il tempo </p> <p>Ad esempio, per registrare il tempo relativo ai problemi è necessario disporre dell’accesso in Modifica ai problemi</p> </td> 
+   <td>Configurazioni del livello di accesso</td> 
+   <td> <p>Modifica l'accesso al tipo di elemento di lavoro per il quale si registra il tempo </p> <p>Ad esempio, per registrare il tempo relativo ai problemi è necessario disporre dell’accesso in Modifica ai problemi</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Autorizzazioni Contribute o superiori per l'elemento di lavoro per il quale si registra il tempo, che includono le autorizzazioni per Registrare le ore</p> </td> 
+   <td>Autorizzazioni oggetto</td>
+   <td> <p>Autorizzazioni Contribute o superiori per l'elemento di lavoro per il quale si registra il tempo, che includono le autorizzazioni per Registrare le ore</p> </td>
   </tr> 
  </tbody> 
 </table>
 
-*Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -6,9 +6,9 @@ description: È possibile rimuovere le autorizzazioni di altri utenti per gli og
 author: Alina
 feature: Get Started with Workfront
 exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
-source-git-commit: ce7b475dbd11f9cfd7fcf9879c0f34bf993f9113
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -23,31 +23,21 @@ Considerazioni simili a quelle relative alla condivisione degli oggetti vengono 
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
-
-Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Workfront*</td> 
-   <td> <p>Nuova licenza: Collaboratore o versione successiva</p>
-   Oppure  
-   <p>Licenza corrente: richiesta o successiva</p>
-   <p><b>NOTA</b></p>
-
-<p>Alcuni oggetti richiedono un accesso più elevato rispetto a Richiedi. </p>
-
-<p>Ad esempio, per la nuova licenza, un collaboratore può condividere i problemi, ma solo gli utenti con licenza Standard possono condividere un progetto.</p>
-
-<p>Per la licenza corrente, un richiedente può condividere i problemi, ma solo i lavoratori o i responsabili della pianificazione possono condividere un progetto.</p> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p>Collaboratore o versione successiva</p> 
+   <p>Richiedi o superiore</p>
+   <p><strong>Nota</strong>: alcuni oggetti richiedono un accesso superiore rispetto alla richiesta.</p>
    </td> 
   </tr> 
   <tr> 
@@ -57,11 +47,11 @@ Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
    <td> <p>Visualizzare le autorizzazioni o versioni successive per gli oggetti da condividere</p> <p>Gestire le autorizzazioni per rimuovere le autorizzazioni ereditate per gli oggetti</p>  </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront. Per ulteriori informazioni, consulta [Requisiti di accesso per la documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

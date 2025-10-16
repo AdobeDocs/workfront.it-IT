@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '7643'
+source-wordcount: '7642'
 ht-degree: 1%
 
 ---
@@ -47,14 +47,13 @@ In Adobe Workfront puoi modificare un progetto con la frequenza necessaria. È c
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td><p>Nuovo: Standard </p> 
-   Oppure
-   <p>Corrente: Piano </p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td><p>Standard</p> 
+   <p>Piano</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -63,7 +62,7 @@ In Adobe Workfront puoi modificare un progetto con la frequenza necessaria. È c
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
    <td> 
-     <p>Gestire le autorizzazioni per un progetto </p> 
+     <p>Gestire le autorizzazioni per un progetto</p> 
      </td> 
   </tr> 
  </tbody> 
@@ -72,6 +71,37 @@ In Adobe Workfront puoi modificare un progetto con la frequenza necessaria. È c
 *Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td><p>New: Standard </p> 
+   Or
+   <p>Current: Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+     <p>Manage permissions to a project </p> 
+     </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 ## Limitazioni per la modifica dei progetti
 
@@ -403,7 +433,7 @@ Per modificare i campi nell&#39;area Finanza:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Vantaggio pianificato</strong> </td> 
-      <td> <p>Stimare il beneficio pianificato del progetto. Viene utilizzato nel caso aziendale del progetto e in Portfolio Optimizer. Per ulteriori informazioni sul beneficio pianificato di un progetto, vedere <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Panoramica del beneficio pianificato del progetto</a>. Il beneficio pianificato di un progetto viene preso in considerazione quando viene calcolato il valore netto di un progetto. </p> <p>Per ulteriori informazioni, vedere <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Gestione dei progetti in Portfolio Optimizer</a> .<br></p> </td> 
+      <td> <p>Stimare il beneficio pianificato del progetto. Viene utilizzato nel caso aziendale del progetto e in Portfolio Optimizer. Per ulteriori informazioni sul beneficio pianificato di un progetto, vedere <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Panoramica del beneficio pianificato del progetto</a>. Il beneficio pianificato di un progetto viene preso in considerazione quando viene calcolato il valore netto di un progetto. </p> <p>Per ulteriori informazioni, vedere <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Gestione dei progetti in Portfolio Optimizer: article index</a> .<br></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Vantaggio effettivo</strong> </td> 
@@ -573,10 +603,10 @@ Per informazioni sull&#39;effetto di queste impostazioni sulla creazione di nuov
 
 1. (Condizionale e facoltativo) Se è stata selezionata l&#39;opzione Usa impegno di lavoro per calcolare automaticamente le ore pianificate per l&#39;attività, fare clic sul menu a discesa per ogni livello di impegno e selezionare una percentuale per ogni livello. I seguenti valori percentuali sono valori predefiniti:
 
-   | Dimensioni | Percentuale |
+   | Dimensione | Percentuale |
    |---|---|
    | Piccola | 25% |
-   | Medio | 50% |
+   | Canale | 50% |
    | Grande | 75% |
 
    >[!TIP]

@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -34,14 +34,14 @@ In Priorità vengono visualizzati gli elementi di lavoro assegnati all&#39;utent
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>piano Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Pacchetto Adobe Workfront</strong></td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licenza Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Licenza Adobe Workfront</strong></td> 
    <td> 
-   <p>Corrente: revisore o versione successiva</p>
-   <p>Nuovo: Chiaro o superiore</p> 
+   <p>Revisore o versione successiva</p>
+   <p>Chiaro o superiore</p> 
    </td> 
   </tr> 
   <tr> 

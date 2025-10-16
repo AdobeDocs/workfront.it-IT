@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: "Panoramica sul tipo di durata: basata sulle risorse"
+title: 'Panoramica sul tipo di durata: basata sulle risorse'
 description: Effort Driven è un tipo di durata che è possibile impostare per un'attività in Adobe Workfront. Per informazioni generali sui tipi di durata in Workfront, vedere Panoramica sulla durata e sul tipo di durata dell'attività.
 author: Alina
 feature: Work Management
 exl-id: 3c8534f7-02d0-4404-a37b-0ef6360e8efc
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 1%

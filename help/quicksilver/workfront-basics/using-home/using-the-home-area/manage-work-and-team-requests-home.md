@@ -6,9 +6,9 @@ description: Quando le attività e i problemi vengono assegnati all'utente, veng
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Quando le attività e i problemi vengono assegnati all&#39;utente, vengono elenc
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,25 +31,27 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Work] o versione successiva</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza</strong></td> 
+   <td>
+   <p>Standard</p>
+    <p>Lavoro o superiore</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
-   <td> <p>Accesso a [!UICONTROL Edit] per attività e problemi</p> <p>Nota: se non disponi ancora dell'accesso, chiedi all'amministratore [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di [!DNL Workfront] può modificare il tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurazioni del livello di accesso</strong></td> 
+   <td> <p>Accesso a [!UICONTROL Edit] per attività e problemi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Autorizzazioni per contribuire o superiore alle attività e ai problemi su cui devi lavorare</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Autorizzazioni per contribuire o superiore alle attività e ai problemi su cui devi lavorare</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,7 +61,7 @@ Gli elementi di lavoro assegnati vengono visualizzati nel widget Il mio lavoro i
 
 Puoi selezionare filtri che visualizzano elementi pronti per l’uso oppure elementi su cui stai già lavorando.
 
-In questo articolo viene descritto come utilizzare i filtri nell&#39;area [!UICONTROL Home] per visualizzare gli elementi su cui si sta lavorando o che si potrebbe considerare di iniziare a lavorare. Per informazioni su come utilizzare i filtri nell&#39;area [!UICONTROL Home], vedere [Visualizzare gli elementi nell&#39;elenco di lavoro [[!UICONTROL 4&rbrace; nell&#39;area [!UICONTROL Home]]](/help/quicksilver/workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).]
+In questo articolo viene descritto come utilizzare i filtri nell&#39;area [!UICONTROL Home] per visualizzare gli elementi su cui si sta lavorando o che si potrebbe considerare di iniziare a lavorare. Per informazioni su come utilizzare i filtri nell&#39;area [!UICONTROL Home], vedere [Visualizzare gli elementi nell&#39;elenco di lavoro [!UICONTROL 4} nell&#39;area ]Home.](/help/quicksilver/workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
 
 Per visualizzare un elemento di lavoro nel widget Il mio lavoro:
 

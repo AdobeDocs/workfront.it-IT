@@ -2,14 +2,14 @@
 content-type: reference
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Accesso necessario per utilizzare la Pianificazione scenario
+title: Accesso necessario per utilizzare Scenario Planner
 description: Scenario Planner richiede una licenza separata da Adobe Workfront e accesso aggiuntivo.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 1b06589a705cf218239ff1273b865c05e4ceb96f
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -18,49 +18,50 @@ ht-degree: 0%
 
 <!--Audited: 04/2024-->
 
-[!DNL Scenario Planner] ha requisiti di licenza aggiuntivi. Per informazioni su [!DNL Workfront Scenario Planner], vedere [The [!DNL Scenario Planner] overview](../scenario-planner/scenario-planner-overview.md).
+<!--The [!DNL Scenario Planner] has additional license requirements. For information about the [!DNL Workfront Scenario Planner], see [The [!DNL Scenario Planner] overview](../scenario-planner/scenario-planner-overview.md).-->
 
 <!--
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
-Senza l&#39;accesso o le autorizzazioni corrette, potresti non essere in grado di visualizzare l&#39;area [!UICONTROL Scenari] di[!DNL &#x200B; Adobe Workfront] né di gestire piani o iniziative per la tua organizzazione. La gestione di piani e iniziative include la creazione, la modifica e l&#39;eliminazione.
+Senza l&#39;accesso o le autorizzazioni corrette, potresti non essere in grado di visualizzare l&#39;area [!UICONTROL Scenari] di[!DNL  Adobe Workfront] né di gestire piani o iniziative per la tua organizzazione. La gestione di piani e iniziative include la creazione, la modifica e l&#39;eliminazione.
 
 ## Accesso necessario per visualizzare e utilizzare [!DNL Adobe Workfront Scenario Planner]
 
 Prima di poter accedere a [!DNL Workfront Scenario Planner], è necessario verificare che siano soddisfatte tutte le seguenti condizioni:
 
-1. L&#39;organizzazione deve disporre di uno dei piani Workfront descritti di seguito.
+1. La tua organizzazione deve disporre di un pacchetto Workfront Ultimate.
 
-   A seconda che si utilizzi il piano Workfront nuovo o corrente, l&#39;organizzazione deve disporre di uno dei seguenti elementi:
+   La funzione Pianificazione scenario non è disponibile per i pacchetti flusso di lavoro di Workfront.
 
-   * Per i nuovi piani, l&#39;organizzazione deve disporre del piano [!UICONTROL Ultimate] [!DNL Workfront]. Pianificazione scenario incluso solo nel piano [!UICONTROL Ultimate].
+   Parla con il rappresentante del tuo account Workfront se stai rinnovando Workfront e desideri mantenere Scenario Planner.
 
-   * Per i piani Workfront correnti, l&#39;organizzazione deve disporre di entrambi i seguenti elementi:
+   Se si è un nuovo cliente, Scenario Planner non è più disponibile per l&#39;acquisto.
 
-      * La tua organizzazione deve acquistare un piano [!DNL Workfront] [!UICONTROL Business] o superiore [!DNL Workfront].
+   <!--Old: 
+    Depending on whether you use the new or the current Workfront plan, your organization must have one of the following:
+    * For the new plans, your organization must have the  [!UICONTROL Ultimate] [!DNL Workfront] plan. The Scenario Planner is included only in the [!UICONTROL Ultimate] plan. 
+    * For the current Workfront plans, your organization must have both of the following: 
+      * Your organization must purchase a [!DNL Workfront] [!UICONTROL Business] or higher [!DNL Workfront] plan. 
+      
+      * Your organization must purchase a [!DNL Workfront Scenario Planner] license, in addition to a [!DNL Workfront] license. Contact your [!DNL Workfront] Account Representative to learn about [!DNL Workfront Scenario Planner] licenses. -->
 
-      * La tua organizzazione deve acquistare una licenza di [!DNL Workfront Scenario Planner], oltre a una licenza di [!DNL Workfront]. Contatta il rappresentante commerciale [!DNL Workfront] per informazioni sulle licenze di [!DNL Workfront Scenario Planner].
+1. È necessario disporre di una delle seguenti licenze Workfront:
 
-1. È necessario disporre di una delle licenze Workfront descritte di seguito.
+   * [!UICONTROL Chiaro] o versione successiva
+   * [!UICONTROL Revisore] o versione successiva
 
-   A seconda che si utilizzino le licenze nuove o correnti, l&#39;amministratore [!DNL Workfront] deve assegnare all&#39;utente una licenza di uno dei seguenti tipi:
-
-   * Per le nuove licenze:
-      * [!UICONTROL Standard]
-      * [!UICONTROL Chiaro]
-
-   * Per le licenze correnti:
-
-      * [!UICONTROL Piano]
-      * [!UICONTROL Lavoro]
-      * [!UICONTROL Revisione]
-
-   >[!NOTE]
-   > 
-   >* Quando si utilizzano le nuove licenze, gli utenti con un tipo di licenza [!UICONTROL Collaboratore] o [!UICONTROL Esterno] non possono accedere a [!DNL Scenario Planner].
-   >
-   >* Quando si utilizzano le licenze correnti, gli utenti con un tipo di licenza Request (Richiesta) o External (Esterno) non possono accedere alla Pianificazione scenario.
+   <!--Old: 
+      * For the current licenses: 
+        * [!UICONTROL Plan]
+        * [!UICONTROL Work]
+        * [!UICONTROL Review]-->
+   <!--Old: 
+      >[!NOTE]
+      > 
+      >* When using the new licenses, users with a [!UICONTROL Contributor] or [!UICONTROL External] license type cannot access the [!DNL Scenario Planner].
+      >
+      >* When using the current licenses, users with a Request or External license type cannot access the Scenario Planner. -->
 
 1. L&#39;amministratore di [!DNL Workfront] deve concedere a [!UICONTROL View] o [!UICONTROL Edit] l&#39;accesso a [!DNL Scenario Planner] nel proprio livello di accesso.
 
@@ -68,55 +69,60 @@ Prima di poter accedere a [!DNL Workfront Scenario Planner], è necessario verif
 
 1. (Facoltativo e consigliato) Per visualizzare o aggiornare le informazioni finanziarie per i piani e le iniziative, l&#39;amministratore [!DNL Workfront] deve inoltre concedere l&#39;accesso a [!UICONTROL Dati finanziari] nel proprio livello di accesso. Per informazioni sulla concessione di dati finanziari nel proprio livello di accesso, vedere [Concedere l&#39;accesso ai dati finanziari](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-1. (Facoltativo) Se devi accedere ai piani che non hai creato, un creatore di piani deve darti le autorizzazioni corrette per il proprio piano per accedervi. Per informazioni sulle autorizzazioni necessarie per accedere a piani e iniziative non creati, vedere la sezione [Autorizzazioni necessarie per accedere a piani e iniziative](#permissions-needed-to-access-plans-and-initiatives) in questo articolo.
+
+<!--1. (Optional) If you need to access plans you didn't create, a plan creator must give you the correct permissions to their plan to access it. For information about the permissions needed to access plans and initiatives that you didn't create, see the [Permissions needed to access plans and initiatives](#permissions-needed-to-access-plans-and-initiatives) section in this article.-->
 
 <!--this used to be true but not anymore:
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(NOTE: this is no longer needed) </p> <p>Your Workfront administrator must assign you a layout template that includes the Scenarios area in the Main Menu. </p> <p>For information about customizing the Main Menu in a layout template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md" class="MCXref xref" xrefformat="{para}">Customize the Main Menu using a layout template</a>. </p> <p>For information about assigning users to a Layout Template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md" class="MCXref xref" xrefformat="{para}">Assign users to a layout template</a>.</p> </li>
   -->
 
-## Accesso necessario per visualizzare piani e iniziative
+<!--Repetitive from above?? 
 
-Oltre all&#39;acquisizione della licenza corretta per [!DNL Workfront Scenario Planner] da parte dell&#39;azienda, l&#39;amministratore di [!DNL Workfront] deve anche assegnare il seguente accesso e la seguente configurazione in modo da poter visualizzare [!DNL Workfront Scenario Planner] e le informazioni in quest&#39;area:
+## Access needed to view plans and initiatives
 
-* Livello di accesso con almeno [!UICONTROL Visualizzazione] di accesso a [!DNL Scenario Planner].
+In addition to your company acquiring the correct license for the [!DNL Workfront Scenario Planner], your [!DNL Workfront] administrator must also assign you the following access and setup so you can view the [!DNL Workfront Scenario Planner] and the information in this area:
 
-  Per informazioni sul livello di accesso a [!DNL Scenario Planner], vedere [Concedere l&#39;accesso a  [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+* An access level with at least [!UICONTROL View] access to [!DNL Scenario Planner].
 
-* Un livello di accesso con almeno l&#39;accesso [!UICONTROL Visualizzazione] a [!UICONTROL Dati finanziari] per visualizzare anche le informazioni finanziarie sul piano e sulle iniziative. Alcuni esempi di informazioni finanziarie sono i budget, i costi o i tassi di ruolo.
+  For information about the access level to [!DNL Scenario Planner], see [Grant access to [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
-  Per informazioni sul livello di accesso [!UICONTROL Dati finanziari], vedere [Concedere l&#39;accesso ai dati finanziari](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+* An access level with at least [!UICONTROL View] access to [!UICONTROL Financial Data] if you need to also view financial information about the plan and the initiatives. Some examples of financial information are budgets, costs, or job role rates.
 
-  >[!TIP]
-  >
-  >[!UICONTROL Richiedenti] e [!UICONTROL Utenti esterni] non hanno accesso alla visualizzazione di [!DNL Scenario Planner].
-
-* Visualizzare le autorizzazioni per il piano. Per informazioni sulle autorizzazioni necessarie per accedere a piani e iniziative non creati, vedere la sezione [Autorizzazioni necessarie per accedere a piani e iniziative](#permissions-needed-to-access-plans-and-initiatives) in questo articolo.
-
-## Accesso necessario per gestire piani e iniziative
-
-L&#39;amministratore di [!DNL Workfront] deve assegnare il seguente accesso in modo da poter gestire i piani e le relative informazioni in [!DNL Scenario Planner]:
-
-* Un tipo di licenza [!UICONTROL Piano] o [!UICONTROL Lavoro] con accesso di modifica a [!DNL Scenario Planner] nel tuo livello di accesso.
-
-  Tutti gli altri tipi di licenza non dispongono dell&#39;accesso per gestire i piani.
-
-  Per informazioni sulla concessione dell&#39;accesso a [!DNL Scenario Planner] dal livello di accesso, vedere [Concedere l&#39;accesso a  [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
-
-* Un tipo di licenza [!UICONTROL Plan] con accesso [!UICONTROL Edit] a [!UICONTROL Financial Data] nel tuo livello di accesso, se devi aggiornare anche le informazioni finanziarie sul piano.
-
-  Alcuni esempi di informazioni finanziarie che è possibile modificare sono [!UICONTROL Budget], [!UICONTROL Vantaggio pianificato] e [!UICONTROL Costi fissi].
+  For information about the [!UICONTROL Financial Data] access level, see [Grant access to financial data](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
   >[!TIP]
   >
-  >Solo i [!UICONTROL titolari di licenza Pianificazione] dispongono dell&#39;accesso [!UICONTROL Modifica] a [!UICONTROL Dati finanziari].
+  >[!UICONTROL Requestors] and [!UICONTROL External] Users do not have access to view the [!DNL Scenario Planner].
 
-  Per informazioni sul livello di accesso [!UICONTROL Dati finanziari], vedere [Concedere l&#39;accesso ai dati finanziari](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+* View permissions to the plan. For information about the permissions needed to access plans and initiatives that you didn't create, see the [Permissions needed to access plans and initiatives](#permissions-needed-to-access-plans-and-initiatives) section in this article.
 
-* Gestisci le autorizzazioni per un piano che non hai creato. Per informazioni sulle autorizzazioni necessarie per accedere a piani e iniziative non creati, vedere la sezione [Autorizzazioni necessarie per accedere a piani e iniziative](#permissions-needed-to-access-plans-and-initiatives) in questo articolo.
+## Access needed to manage plans and initiatives
+
+Your [!DNL Workfront] administrator must assign you the following access so you can manage plans and their information in the [!DNL Scenario Planner]:
+
+* A [!UICONTROL Plan] or [!UICONTROL Work] license type with Edit access to the [!DNL Scenario Planner] in your access level.
+
+  All other license types do not have access to manage plans.
+
+  For information about granting access to [!DNL Scenario Planner] from the Access Level, see [Grant access to [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+
+* A [!UICONTROL Plan] license type with [!UICONTROL Edit] access to [!UICONTROL Financial Data] in your access level, if you need to also update financial information about the plan.
+
+  Some examples of financial information that you can edit are [!UICONTROL Budget], [!UICONTROL Planned Benefit], and [!UICONTROL Fixed Costs].
+
+  >[!TIP]
+  >
+  >Only [!UICONTROL Plan] license holders have [!UICONTROL Edit] access to [!UICONTROL Financial Data].
+
+  For information about the [!UICONTROL Financial Data] access level, see [Grant access to financial data](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+
+* Manage permissions to a plan that you didn't create. For information about the permissions needed to access plans and initiatives that you didn't create, see the [Permissions needed to access plans and initiatives](#permissions-needed-to-access-plans-and-initiatives) section in this article.
+
+-->
 
 ## Autorizzazioni necessarie per accedere a piani e iniziative
 
-I livelli di accesso collaborano con le autorizzazioni in [!DNL Workfront] per dare visibilità ai piani e alle iniziative non creati. Oltre a disporre del livello di accesso corretto per accedere a [!DNL Scenario Planner], è necessario disporre delle autorizzazioni corrette per il piano che si desidera visualizzare o gestire, se non si è il creatore di tali piani.
+I livelli di accesso collaborano con le autorizzazioni in [!DNL Workfront] per dare visibilità ai piani e alle iniziative non creati. Oltre a disporre del livello di accesso corretto per accedere a [!DNL Scenario Planner], è necessario disporre delle autorizzazioni corrette per i piani che si desidera visualizzare o gestire, se non si è il creatore di tali piani.
 
 Tutti gli utenti, inclusi gli amministratori di sistema, possono accedere solo ai piani creati.
 

@@ -6,9 +6,9 @@ description: Gli Aggiornamenti fanno parte di un oggetto che include un pulsante
 author: Becky
 feature: Get Started with Workfront
 exl-id: d0c26f90-a01b-4226-b6a0-647808f71e08
-source-git-commit: 440d9af6915184b7e91ca257e02be4a234fb91e0
+source-git-commit: cf3d5daa739fa6ab413ee82a9f465441ef61ae6d
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -27,42 +27,70 @@ L’Assistente AI di Workfront può riepilogare il contenuto del flusso di aggio
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td><p>Nuovo: Qualsiasi</p>
-       <p>oppure</p>
-       <p>Corrente: non disponibile</p></td>
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi pacchetto flusso di lavoro</p>
+      </td>
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td><p>Nuovo: Standard</p>
-       <p>oppure</p>
-       <p>Corrente: non disponibile</p></td>
-  </tr> 
- </tbody> 
+   <td><p>Standard</p>
+   </td>
+  </tr>
+
+<tr> 
+   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td><p>Visualizza o autorizzazioni superiori per gli oggetti di cui visualizzare gli aggiornamenti</p>
+   </td>
+  </tr>
+
+</tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td><p>New: Any</p>
+       <p>or</p>
+       <p>Current: Not available</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p>
+       <p>or</p>
+       <p>Current: Not available</p></td>
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Prerequisiti
 
-* L’amministratore di Workfront deve aver abilitato l’Assistente AI per la tua organizzazione.
+* L’amministratore di Workfront deve abilitare l’Assistente AI per la tua organizzazione.
 
   Per ulteriori informazioni, vedere [Prerequisiti per l&#39;Assistente IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) nell&#39;articolo Panoramica dell&#39;Assistente IA.
-* L&#39;amministratore di Workfront deve aver abilitato l&#39;Assistente AI per il proprio livello di accesso.
+* L’amministratore di Workfront deve abilitare l’Assistente AI per il tuo livello di accesso.
 
   Per ulteriori informazioni, vedere [Attivare o disattivare l&#39;Assistente AI](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
-## Riepiloga utilizzando il pulsante Riepiloga contenuto
+## Riepiloga utilizzando il pulsante Riepiloga commenti
 
-1. Passare al flusso di aggiornamento che si desidera riepilogare.
-1. Fare clic sul pulsante **Riepiloga contenuto**.
+1. Passare all&#39;oggetto di cui si desidera riepilogare gli aggiornamenti.
+1. Fai clic su **Aggiornamenti** nel pannello a sinistra.
+1. Fai clic sul pulsante **Riepiloga commenti** nella parte superiore dell&#39;area **Aggiornamenti**.
 
    Viene aperto l’Assistente AI, con una richiesta per riepilogare gli ultimi 7 giorni di commenti sul flusso di aggiornamento.
 

@@ -6,9 +6,9 @@ description: È possibile visualizzare o modificare le informazioni finanziarie 
 author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1274'
 ht-degree: 2%
 
 ---
@@ -25,22 +25,19 @@ ht-degree: 2%
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td>Pacchetto Adobe Workfront</td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td>
    <td>
-   <p>Nuovo: Chiaro o superiore</p>
-   <p>oppure</p>
-   <p>Corrente: revisione o versione successiva</p></td> 
+   <p>Chiaro o superiore</p>
+   <p>Revisione o successiva</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -53,7 +50,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -121,15 +118,15 @@ Quando si visualizzano o si modificano informazioni nell&#39;area Finanza, tener
       <td>Imposta il reddito previsto in base alla programmazione del progetto. I Redditi Fissi vengono specificati manualmente dal Proprietario del Progetto.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Reddito Pianificato</td> 
+      <td role="rowheader">Entrate pianificate</td> 
       <td>Reddito previsto previsto basato sulle ore pianificate e sulle tariffe associate agli assegnatari delle attività (mansioni o utenti).</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Reddito Reale</td> 
+      <td role="rowheader">Entrate effettive</td> 
       <td>Reddito effettivo del progetto in base alle ore effettive e alle tariffe associate agli assegnatari delle attività (mansioni o utenti).</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Reddito Fatturato</td> 
+      <td role="rowheader">Entrate fatturate</td> 
       <td> <p>Ricavi fatturati ai clienti o ad altre parti e registrati nelle Fatturazioni. Per ulteriori informazioni sui record di fatturazione, vedere l'articolo <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Creare record di fatturazione</a>. </p> </td> 
      </tr> 
      <tr> 

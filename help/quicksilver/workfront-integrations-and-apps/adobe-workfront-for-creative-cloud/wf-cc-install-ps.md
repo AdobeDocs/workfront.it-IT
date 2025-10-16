@@ -6,10 +6,10 @@ description: Puoi installare il plug-in Adobe Workfront for Photoshop da Adobe M
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 1%
+source-wordcount: '493'
+ht-degree: 2%
 
 ---
 
@@ -32,28 +32,28 @@ ht-degree: 1%
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <!--<tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td>Any</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work] or [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Work or higher</p> </td> 
   </tr> -->
   <tr> 
-   <td role="rowheader">Prodotto</td> 
-   <td><p>È necessario disporre di una licenza [!DNL Adobe Creative Cloud] oltre a una licenza [!DNL Workfront].</p><p>Per ulteriori informazioni, vedere <a href="https://helpx.adobe.com/it/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud criteri di supporto</a>.</p></td> 
+   <td role="rowheader">Prodotti aggiuntivi</td> 
+   <td><p>È necessario disporre di una licenza [!DNL Adobe Creative Cloud] oltre a una licenza [!DNL Workfront].</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore [!DNL Workfront].
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,7 +73,7 @@ Gli amministratori di [!DNL Adobe Admin Console] possono anche creare pacchetti 
 
 È possibile installare il plug-in [!DNL Adobe Workfront for Photoshop] da [!DNL Adobe Exchange].
 
-1. Vai alla [pagina di installazione di Adobe Workfront for Photoshop](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&workflow=share) nell&#39;Adobe Exchange.
+1. Vai alla [pagina di installazione di Adobe Workfront for Photoshop](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&workflow=share) in Adobe Exchange.
 1. Nella finestra di dialogo visualizzata, fai clic su **Apri [!DNL Adobe Creative Cloud] app desktop**.
 1. Una volta aperto Gestione plug-in [!DNL Adobe Photoshop], fare clic su **[!UICONTROL Installa]**.
 1. Leggere le informazioni nella finestra di dialogo, quindi fare clic su **[!UICONTROL OK]**.
@@ -101,7 +101,7 @@ Gli amministratori di [!DNL Adobe Admin Console] possono anche creare pacchetti 
 ## Accedi a [!DNL Adobe Workfront for Photoshop]
 
 1. Dal menu **[!UICONTROL Plugin]** nella parte superiore dello schermo, selezionare **[!UICONTROL Pannello plug-in]**.
-1. Selezionare **[!DNL Adobe Workfront for Photoshop]**.
+1. Seleziona **[!DNL Adobe Workfront for Photoshop]**.
 1. Immetti il dominio, quindi fai clic su **[!UICONTROL Accedi]**. Viene visualizzata una pagina del browser. Per aprire il browser, potrebbe essere necessario concedere l’autorizzazione Photoshop.
 
    >[!TIP]
@@ -109,7 +109,7 @@ Gli amministratori di [!DNL Adobe Admin Console] possono anche creare pacchetti 
    >* Per trovare il dominio, aprire un browser, accedere all&#39;istanza [!DNL Workfront] e copiare la prima parte dell&#39;URL:\
    >![Individua dominio](assets/domain-350x50.png)
    >
-   > * Se la tua istanza di Workfront è integrata con Experience Cloud, chiedi all’amministratore di fornirti il dominio Workfront che si trova in Prodotto > Workfront nell’Admin Console.
+   > * Se l’istanza di Workfront è integrata con Experience Cloud, chiedi all’amministratore di fornirti il dominio Workfront che si trova in Prodotto > Workfront nell’Admin Console.
 
 1. Nel browser, immetti le tue credenziali di [!DNL Workfront], quindi fai clic su **[!UICONTROL Accedi]**. Se l&#39;azienda utilizza un Single Sign-On (SSO), verrà visualizzata la pagina del provider SSO per l&#39;accesso.
 

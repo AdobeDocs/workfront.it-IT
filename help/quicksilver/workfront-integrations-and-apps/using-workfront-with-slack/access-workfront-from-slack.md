@@ -2,13 +2,13 @@
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
 title: Accesso [!DNL Adobe Workfront] da [!DNL Slack]
-description: L'integrazione di [!DNL Adobe Workfront] con [!DNL Slack] ti consente di accedere [!DNL Workfront] da Slack o di eseguire determinate azioni in [!DNL Workfront] utilizzando un comando barra. L'integrazione può essere utilizzata da qualsiasi ambiente  [!DNL Slack] , inclusa l'app mobile  [!DNL Slack] .
+description: L'integrazione di  [!DNL Adobe Workfront] con [!DNL Slack] ti consente di accedere a [!DNL Workfront] da Slack o di eseguire determinate azioni in [!DNL Workfront] utilizzando un comando barra. L'integrazione può essere utilizzata da qualsiasi ambiente  [!DNL Slack] , inclusa l'app mobile  [!DNL Slack] .
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5f531217-3bd6-4156-8b9f-eabc95d4df10
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1106'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,30 @@ ht-degree: 1%
 
 L&#39;integrazione di [!DNL Adobe Workfront] con [!DNL Slack] consente di accedere a [!DNL Workfront] da [!DNL Slack] o di eseguire determinate azioni in [!DNL Workfront] utilizzando un comando barra. L&#39;integrazione può essere utilizzata da qualsiasi ambiente [!DNL Slack], inclusa l&#39;app mobile [!DNL Slack].
 
-Prima di poter utilizzare [!DNL Workfront] da [!DNL Slack], l&#39;utente o l&#39;amministratore di [!DNL Slack] deve installare l&#39;app [!DNL Workfront] nell&#39;istanza [!DNL Slack]. Per ulteriori informazioni, vedere [Configurare Adobe Workfront per Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+Prima di poter utilizzare [!DNL Slack] da [!DNL Workfront], l&#39;utente o l&#39;amministratore di [!DNL Slack] deve installare l&#39;app [!DNL Workfront] nell&#39;istanza [!DNL Slack]. Per ulteriori informazioni, vedere [Configurare Adobe Workfront per Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+
+## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
+   <td> <p>Qualsiasi</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p>Qualsiasi</p>
+  </tr> 
+ </tbody> 
+</table>
+
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Informazioni sui comandi barra {#about-slash-commands}
 
@@ -151,16 +174,16 @@ Per accedere a [!DNL Workfront] da [!DNL Slack]:
       * Attività
       * Problema
       * Rapporto
-      * Persone
+      * People
       * Modello
       * Documento
       * Portfolio
       * Programma
-      * Dashboard
+      * Dashboard di
       * Azienda
       * Nota \
 
-        Per ulteriori informazioni sulla ricerca in [!DNL Slack], vedere [Cerca [!DNL Adobe Workfront] elementi da Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md).
+        Per ulteriori informazioni sulla ricerca in [!DNL Slack], vedere [Ricerca di [!DNL Adobe Workfront] elementi da Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md).
    * `/wf log in`
 
      Accedi a [!DNL Workfront] da [!DNL Slack].

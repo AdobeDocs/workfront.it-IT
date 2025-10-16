@@ -6,23 +6,25 @@ description: Puoi associare una gravità ai problemi in Adobe Workfront. Le atti
 author: Alina
 feature: Work Management
 exl-id: 81302e9c-8861-4a08-b8b3-c4eeac54524e
-source-git-commit: 1fa62033f83a96ea5c1036598b832dd2ebfa19c4
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 0%
+source-wordcount: '286'
+ht-degree: 1%
 
 ---
 
 # Aggiorna gravità problema
 
+<!--Audited: 08/2025-->
+
 Puoi associare una gravità ai problemi in Adobe Workfront. Le attività e i progetti non hanno gravità.
 
-I problemi sono eventi imprevisti che possono impedire il completamento dei progetti in tempo o entro il budget. È possibile utilizzare le gravità per indicare la gravità di un problema. 
+I problemi sono eventi imprevisti che possono impedire il completamento dei progetti in tempo o entro il budget. È possibile utilizzare le gravità per indicare la gravità di un problema.
 
 L’amministratore di Workfront definisce le gravità disponibili in Workfront. Una volta stabiliti, possono essere associati a un problema.\
 Per ulteriori informazioni sulla creazione di gravità in Workfront, vedere [Creare o personalizzare le gravità dei problemi](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
 
-Per aggiornare la gravità di un problema è necessario disporre delle autorizzazioni Contribute. 
+Per aggiornare la gravità di un problema è necessario disporre delle autorizzazioni Contribute.
 
 Puoi aggiornare la gravità dei problemi nelle seguenti aree di Workfront:
 
@@ -32,32 +34,35 @@ Puoi aggiornare la gravità dei problemi nelle seguenti aree di Workfront:
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
-   <td> <p>Qualsiasi </p> </td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
+   <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Richiedi o superiore</p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td><p>Collaboratore o versione successiva</p> 
+   <p>Richiedi o superiore</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modifica l'accesso alle Issues</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modifica l'accesso alle Issues</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per il problema</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per il problema</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Aggiorna gravità problema
 

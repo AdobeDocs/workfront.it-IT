@@ -6,10 +6,10 @@ description: Puoi aggiungere qualsiasi attività o problema a una bacheca Kanban
 author: Courtney
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: bf79bc8fd3e25ff1bae404700ca27973a8b2307d
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 0%
+source-wordcount: '480'
+ht-degree: 1%
 
 ---
 
@@ -26,8 +26,6 @@ Puoi aggiungere qualsiasi attività o problema a una bacheca [!UICONTROL Kanban]
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -35,14 +33,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
-   <td> <p>Nuovo: [!UICONTROL Standard]</p> 
-   oppure
-   <p>Corrente: [!UICONTROL Work] o versione successiva</p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p>Standard</p> 
+   <p>Lavoro o superiore</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -66,7 +63,7 @@ Per aggiungere un&#39;attività o un problema a una bacheca [!UICONTROL Kanban] 
    >
    >Se all&#39;attività o al problema sono assegnati più team, l&#39;elemento di lavoro può essere visualizzato solo sulla bacheca [!DNL kanban] di un team.
 
-1. Fare clic su **Aggiungi**.
+1. Fai clic su **Aggiungi**.
 
 
 ## Aggiungere attività o problemi esistenti da un rapporto
@@ -84,7 +81,7 @@ Per aggiungere un&#39;attività o un problema a una bacheca [!UICONTROL Kanban] 
    >
    >Se all&#39;attività o al problema sono assegnati più team, l&#39;elemento di lavoro può essere visualizzato solo sulla bacheca [!DNL kanban] di un team.
 
-1. Fare clic su **Aggiungi**.
+1. Fai clic su **Aggiungi**.
 
 
 
@@ -103,4 +100,4 @@ Per aggiungere un&#39;attività o un problema a una bacheca [!UICONTROL Kanban] 
    >
    >Se all&#39;attività o al problema sono assegnati più team, l&#39;elemento di lavoro può essere visualizzato solo sulla bacheca [!DNL kanban] di un team.
 
-1. Fare clic su **Aggiungi**.
+1. Fai clic su **Aggiungi**.

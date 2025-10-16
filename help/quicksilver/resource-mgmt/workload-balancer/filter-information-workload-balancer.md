@@ -6,9 +6,9 @@ description: Per trovare in modo efficiente gli elementi di lavoro e concentrars
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: fc82ce4b5abb2cd7411d62ac8bb428bc5337386f
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2458'
+source-wordcount: '2437'
 ht-degree: 0%
 
 ---
@@ -36,27 +36,21 @@ Questo articolo contiene informazioni sui filtri nel Bilanciatore dei carichi di
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td> <p>Qualsiasi</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td><p>Nuovo: Standard</p>
-       <p>Corrente: piano (quando si utilizza il Bilanciatore dei carichi di lavoro nell'area Risorse)</p>
-       <p>Oppure</p>
-       <p>Lavoro (quando si utilizza il Bilanciatore dei carichi di lavoro di un team o progetto)</p></td>
+   <td>Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td>Licenza Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Pianificare, quando si utilizza il Bilanciatore dei carichi di lavoro nell'area Risorse; lavorare, quando si utilizza il Bilanciatore dei carichi di lavoro di un team o progetto</p></td>
+  </tr>
+  <tr> 
+   <td>Configurazioni del livello di accesso</td> 
    <td> <p>Accesso di visualizzazione o superiore ai seguenti elementi:</p> 
     <ul> 
      <li>Gestione risorse</li> 
@@ -68,7 +62,7 @@ Questo articolo contiene informazioni sui filtri nel Bilanciatore dei carichi di
     <p>Modificare l’accesso a Filtri, Viste e Raggruppamenti durante la creazione o la modifica di filtri </p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td>Autorizzazioni oggetto</td> 
    <td> <p>Visualizza o autorizzazioni superiori per i progetti, le attività e i problemi</p>
    <p>Gestire le autorizzazioni per i filtri da modificare o eliminare</p>
    </td> 
@@ -76,7 +70,7 @@ Questo articolo contiene informazioni sui filtri nel Bilanciatore dei carichi di
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

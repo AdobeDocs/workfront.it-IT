@@ -9,16 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
+source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 9%
+ht-degree: 25%
 
 ---
 
 # Informazioni sul layout predefinito di Adobe Workfront
 
-Il layout predefinito è la disposizione dell&#39;icona Menu principale ![Icona Menu principale](assets/main-menu-icon.png) o dell&#39;icona Menu principale ![Icona Menu principale](assets/main-menu-icon.png), se disponibile, del pannello sinistro e delle visualizzazioni, dei raggruppamenti e dei filtri prima che un amministratore Adobe Workfront apporti modifiche utilizzando un modello di layout.
+Il layout predefinito è la disposizione dell&#39;icona Menu principale ![Icona Menu principale](assets/main-menu-icon.png) o dell&#39;icona Menu principale ![Icona Menu principale](assets/main-menu-icon-left-nav.png), se disponibile, del pannello sinistro e delle visualizzazioni, dei raggruppamenti e dei filtri prima che un amministratore Adobe Workfront apporti modifiche utilizzando un modello di layout.
 
 Per informazioni su come un amministratore di Workfront può modificare il layout predefinito di un utente assegnandogli un modello di layout, vedere [Assegnare utenti a un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
@@ -196,7 +196,7 @@ Nella tabella seguente sono illustrate le voci predefinite del menu principale e
     <td class="tg-0lax"></td>
   </tr>
   <tr>
-    <td class="tg-0lax">Scenari</td>
+    <td class="tg-0lax">Situazioni che potrebbero verificarsi con</td>
     <td class="tg-0lax"></td>
     <td class="tg-0lax">✔</td>
     <td class="tg-0lax"></td>
@@ -402,7 +402,7 @@ Nella tabella seguente sono illustrate le voci predefinite del menu principale e
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Scenari</td>
+    <td class="tg-0pky">Situazioni che potrebbero verificarsi con</td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky">✔</td>
     <td class="tg-0pky"></td>

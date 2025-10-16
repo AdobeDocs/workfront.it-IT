@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '522'
 ht-degree: 4%
 
 ---
@@ -37,14 +37,14 @@ Monitora facilmente il tuo lavoro con un calendario chiaro e visivo. Con il cale
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> 
-   <p>Corrente: revisore o versione successiva</p>
-   <p>Nuovo: Chiaro o superiore</p> 
+   <p>Revisore o versione successiva</p>
+   <p>Chiaro o superiore</p> 
    </td> 
   </tr> 
   <tr> 

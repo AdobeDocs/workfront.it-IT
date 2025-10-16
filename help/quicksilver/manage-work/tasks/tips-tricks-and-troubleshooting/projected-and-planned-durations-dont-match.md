@@ -3,13 +3,13 @@ content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-tasks
 title: La durata prevista non corrisponde alla durata pianificata
-description: "Viene visualizzato il seguente messaggio di errore: 'La durata prevista di un'attività/problema è stata impostata su 0 e non corrisponde alla durata pianificata.'"
+description: 'In questo articolo viene descritta la risoluzione dei problemi in Adobe Workfront quando potrebbe venire visualizzato il seguente messaggio: "La durata prevista di un''attività/problema è stata impostata su 0 e non corrisponde alla durata pianificata".'
 author: Alina
 feature: Work Management
 exl-id: ef135d44-3138-457d-b54a-3f1102ce3116
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---

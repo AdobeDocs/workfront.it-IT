@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '1763'
+source-wordcount: '1719'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ La sandbox di aggiornamento personalizzata è un ambiente in cui puoi testare e 
 >
 >  Inoltre, esiste un costo aggiuntivo per ottenere la sandbox di aggiornamento personalizzata che non è necessaria per la sandbox di anteprima.
 >
->  Per ulteriori informazioni sulla Sandbox di anteprima, vedi [L&#39;ambiente Sandbox di anteprima [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+>  Per ulteriori informazioni sulla Sandbox di anteprima, vedi [L&#39;ambiente Sandbox di anteprima [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 ## Requisiti di accesso
 
@@ -42,21 +42,24 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Workfront] piano</td> 
-   <td> <p>[!UICONTROL Business] o versione successiva</p> </td> 
+   <td role="rowheader">Pacchetto Workfront</td> 
+   <td> <p>PRIME o ULTIMATE</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">[!DNL Workfront] licenza</p> </td> 
-   <td> <p>[!UICONTROL Plan] </p> <p>Devi essere un amministratore [!DNL Workfront]. Per informazioni sugli amministratori di [!DNL Workfront], vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>.</p> </td> 
+   <td role="rowheader"> Licenza Workfront</td> 
+   <td> <p>Standard</p><p>Piano</p>  </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">Pacchetto di supporto</td> 
-   <td> <p>[!UICONTROL Plus], [!UICONTROL Preferred] o [!UICONTROL Enterprise]</p> <p>Il pacchetto di supporto standard non ha accesso alla sandbox di aggiornamento personalizzata, ma alla sandbox di anteprima.</p> </td> 
-  </tr> 
+  </tr>
+   <tr>
+   <td>Configurazioni del livello di accesso
+   </td>
+   <td><p>Devi essere un amministratore di Workfront.</p>
+   </td>
+  </tr>
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

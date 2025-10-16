@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '247'
 ht-degree: 4%
 
 ---
@@ -21,7 +21,6 @@ Puoi creare nuove attività e problemi direttamente da Priorità:
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,14 +29,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>piano Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Pacchetto Adobe Workfront</strong></td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licenza Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Licenza Adobe Workfront</strong></td> 
    <td> 
-   <p>Corrente: richiesta o superiore per richieste; revisione o superiore per problemi; lavoro o superiore per attività</p>
-   <p>Nuovo: Collaboratore o versione successiva per richieste; Chiaro o versione successiva per problemi e documenti: attività standard o versioni successive</p> 
+   <p>Richieste o versione successiva per le richieste; revisione o versione successiva per i problemi; lavoro o versione successiva per le attività</p>
+   <p>Collaboratore o versione successiva per richieste; chiaro o versione successiva per problemi e documenti: attività standard o versioni successive</p> 
    </td> 
   </tr> 
   <tr> 

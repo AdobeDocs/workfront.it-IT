@@ -8,9 +8,9 @@ author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: 137787c9-82f6-4b18-a427-720589221a7c
-source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Questa sezione contiene i seguenti articoli e sottosezioni:
 * [Pianificazione risorse: indice articolo](/help/quicksilver/resource-mgmt/resource-planning/resource-planning-overview.md)
 * [L’indice del Bilanciatore dei carichi di lavoro: articolo](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md)
 * [Utilizzo delle risorse](/help/quicksilver/resource-mgmt/resource-utilization/resource-utilization.md)
-* [Pianificazione scenario Adobe Workfront](/help/quicksilver/scenario-planner/scenario-planning.md)
+* [[!DNL Adobe Workfront Scenario Planner]: indice articolo](/help/quicksilver/scenario-planner/scenario-planning.md)
 
 
 

@@ -7,9 +7,9 @@ description: Adobe Workfront consente di inviare in modo rapido e semplice messa
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -29,32 +29,28 @@ Quando si invia un messaggio come descritto in questa sezione, l&#39;utente a cu
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td>Qualsiasi</td> 
+  <tr> 
+   <td>Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td>Licenza Adobe Workfront</td> 
    <td>
-   <p>Per inviare un messaggio dalla pagina del profilo utente, è necessario disporre di:<br>
-   Nuovo: Chiaro o superiore<br>
-   o<br>
-   Corrente: revisione o versione successiva</p>
-   <p>Per inviare un messaggio dall'elenco utenti, è necessario disporre di:<br>
-   Nuovo: Standard<br>
-   o<br>
-   Corrente: Lavoro o versione successiva</p></td>
+   <p>Per inviare un messaggio dalla pagina del profilo dell’utente, è necessario disporre di:</P>
+   <p>Chiaro o superiore</p>
+   <p>Revisione o successiva</p>
+   <p>Per inviare un messaggio dall’elenco Utenti, è necessario disporre di:</p>
+   <p>Standard</p>
+   <p>Lavoro o superiore</p></td>
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

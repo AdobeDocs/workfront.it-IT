@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 416be55e172e2e2f0a1d8b593fdcb27d123e2fcb
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 3%
+source-wordcount: '514'
+ht-degree: 13%
 
 ---
 
@@ -52,8 +52,8 @@ In questa tabella sono elencate le attività di amministrazione disponibili per:
   <tr> 
    <td>Creare e gestire i sottogruppi</td>
    <td>✓ </td> 
-   <td>✓ ***</td> 
-   <td>✓ ***</td> 
+   <td>✓***</td> 
+   <td>✓***</td> 
   </tr> 
   <tr> 
    <td>Configurare le preferenze di progetto, attività e problema a livello di sistema</td> 
@@ -63,9 +63,9 @@ In questa tabella sono elencate le attività di amministrazione disponibili per:
   </tr> 
   <tr> 
    <td>Attiva e disattiva le preferenze di progetto, attività e problema per gruppi e sottogruppi</td> 
-   <td>✓ ***</td> 
-   <td>✓ ***</td> 
-   <td>✓ ***</td> 
+   <td>✓***</td> 
+   <td>✓***</td> 
+   <td>✓***</td> 
   </tr> 
   <tr> 
    <td>Configurare le preferenze di orario e scheda orario a livello di sistema</td> 
@@ -75,9 +75,9 @@ In questa tabella sono elencate le attività di amministrazione disponibili per:
   </tr> 
   <tr> 
    <td>Attiva e disattiva le preferenze orario e scheda orario per gruppi e sottogruppi </td> 
-   <td>✓ ***</td> 
-   <td>✓ ***</td> 
-   <td>✓ ***</td> 
+   <td>✓***</td> 
+   <td>✓***</td> 
+   <td>✓***</td> 
   </tr> 
   <tr> 
    <td>Configurare le e-mail di notifica degli eventi a livello di sistema</td> 
@@ -87,15 +87,15 @@ In questa tabella sono elencate le attività di amministrazione disponibili per:
   </tr> 
   <tr> 
    <td>Attiva e disattiva le e-mail di notifica degli eventi per gruppi e sottogruppi</td> 
-   <td>✓ *** </td> 
-   <td>✓ ***</td> 
+   <td>✓*** </td> 
+   <td>✓***</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Creare e gestire moduli personalizzati</td> 
    <td>✓ </td> 
-   <td>✓ **</td> 
-   <td>✓ **</td> 
+   <td>✓**</td> 
+   <td>✓**</td> 
   </tr> 
   <tr> 
    <td>Creare e gestire modelli di layout</td> 
@@ -105,9 +105,9 @@ In questa tabella sono elencate le attività di amministrazione disponibili per:
   </tr> 
   <tr> 
    <td>Creare e gestire i processi di approvazione per un gruppo</td> 
-   <td>✓ *** </td> 
-   <td>✓ ***</td> 
-   <td>✓ ***</td> 
+   <td>✓*** </td> 
+   <td>✓***</td> 
+   <td>✓***</td> 
   </tr> 
   <tr> 
    <td>Creare e gestire i team</td> 
@@ -118,20 +118,20 @@ In questa tabella sono elencate le attività di amministrazione disponibili per:
   <tr> 
    <td>Creare e gestire i tassi di cambio</td> 
    <td>✓ </td> 
-   <td>✓ **</td> 
-   <td>✓ **</td> 
+   <td>✓**</td> 
+   <td>✓**</td> 
   </tr> 
   <tr> 
    <td>Creare e gestire i tipi di lavoro</td> 
    <td>✓ </td> 
-   <td>✓ **</td> 
-   <td>✓ **</td> 
+   <td>✓**</td> 
+   <td>✓**</td> 
   </tr> 
   <tr> 
    <td>Creare e gestire percorsi milestone</td> 
    <td>✓ </td> 
-   <td>✓ **</td> 
-   <td>✓ **</td> 
+   <td>✓**</td> 
+   <td>✓**</td> 
   </tr> 
   <tr> 
    <td>Creare e gestire le pianificazioni</td> 
@@ -154,8 +154,8 @@ In questa tabella sono elencate le attività di amministrazione disponibili per:
   <tr> 
    <td>Creare schede orario monouso</td> 
    <td>✓</td> 
-   <td>✓ **</td> 
-   <td>✓ **</td> 
+   <td>✓**</td> 
+   <td>✓**</td> 
   </tr> 
   <tr> 
    <td>Creare e gestire le mansioni</td> 
@@ -207,7 +207,7 @@ In questa tabella sono elencate le attività di amministrazione disponibili per:
   </tr> 
   <tr> 
    <td>Assegna numero massimo di licenze</td> 
-   <td>✓ *** </td> 
+   <td>✓*** </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
@@ -230,7 +230,14 @@ In questa tabella sono elencate le attività di amministrazione disponibili per:
 
 &#42;&#42; Nel livello di accesso dell&#39;amministratore del gruppo, l&#39;accesso a questa azione deve essere abilitato. Per ulteriori informazioni, vedere [Concedere agli utenti l&#39;accesso amministrativo ad alcune aree](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-&#42;&#42;&#42; Le seguenti attività fanno parte di Advanced Enterprise Controls e non sono disponibili per il piano Select. Solo le organizzazioni che hanno acquistato i piani di Prime o Ultimate possono accedere a queste funzionalità.  Per ulteriori informazioni sui piani, vedere la [pagina di determinazione prezzi e creazione pacchetti di Adobe Workfront](https://business.adobe.com/it/products/workfront/pricing.html). Per le organizzazioni che utilizzano i piani legacy, la tabella precedente mostra le attività per gli amministratori di gruppi e sottogruppi.
+&#42;&#42;&#42; Questi pacchetti includono le funzionalità Advanced Enterprise Controls elencate di seguito:
+
+* Workflow Prime e versioni successive
+* Workfront Prime e versioni successive
+
+Per ulteriori informazioni sui pacchetti, vedere la [pagina Adobe Workfront relativa a prezzi e pacchetti](https://business.adobe.com/products/workfront/pricing.html).
+
+Controlli Enterprise avanzati:
 
 * Configurare le preferenze di progetto, attività e problema a livello di gruppo
 * Configurare le preferenze di orario e scheda orario a livello di gruppo

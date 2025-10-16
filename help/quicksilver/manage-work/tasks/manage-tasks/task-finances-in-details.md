@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: Gestire i dati finanziari delle attività nella sezione Dettagli attività
-description: Gestire i dati finanziari delle attività nella sezione Dettagli attività
+title: Gestisci dati finanziari task nella sezione Dettagli task
+description: È possibile visualizzare o modificare le informazioni finanziarie di un task accedendo all'area Panoramica della sezione Dettagli task. Nella sezione Dettagli attività è disponibile un numero limitato di campi che è possibile visualizzare o modificare.
 author: Alina
 feature: Work Management
 exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 4%
+source-wordcount: '830'
+ht-degree: 5%
 
 ---
 
@@ -19,36 +19,65 @@ ht-degree: 4%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, to it in both articles)</p>
 -->
 
-È possibile visualizzare o modificare le informazioni finanziarie di un task accedendo all&#39;area Panoramica della sezione Dettagli task. In quest’area è disponibile un numero limitato di campi che è possibile visualizzare o modificare. Per informazioni sulla modifica di tutte le informazioni finanziarie per un&#39;attività, vedere [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+È possibile visualizzare o modificare le informazioni finanziarie di un task accedendo all&#39;area Panoramica della sezione Dettagli task. In quest’area è disponibile un numero limitato di campi che è possibile visualizzare o modificare.
+
+Per informazioni sulla modifica di tutte le informazioni finanziarie per un&#39;attività, vedere [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Lavoro o superiore</p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td><p>Standard</p> 
+   <p>Lavoro o superiore</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modificare l’accesso a Progetti e Attività</p> <p>Visualizza l'accesso ai dati finanziari o superiore</p> <p>È necessario disporre dell'accesso Modifica ai dati finanziari per modificare le informazioni finanziarie sulle attività</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modificare l’accesso a Progetti e Attività</p> <p>Visualizza l'accesso ai dati finanziari o superiore</p> <p>È necessario disporre dell'accesso Modifica ai dati finanziari per modificare le informazioni finanziarie sulle attività</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizza le autorizzazioni per l'attività che includono Visualizza contabilità o versioni successive</p> <p>Per modificare le informazioni finanziarie relative ai task è necessario disporre delle autorizzazioni Gestione per il task che includono Modifica dati finanziari</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizza le autorizzazioni per l'attività che includono Visualizza contabilità o versioni successive</p> <p>Per modificare le informazioni finanziarie relative ai task è necessario disporre delle autorizzazioni Gestione per il task che includono Modifica dati finanziari</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront.
+Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Work or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Projects and Tasks</p> <p>View access to&nbsp;Financial&nbsp;Data or higher</p> <p>You must have Edit access to&nbsp;Financial Data to edit financial information on tasks</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the task that include View Finance or higher</p> <p>You must have Manage permissions on the task that include Edit Finance to edit financial information on tasks</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Modificare i dati finanziari dell&#39;attività nella sezione Dettagli attività
 
@@ -81,7 +110,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Tipo Cst</td> 
+      <td role="rowheader">Tipo di costo</td> 
       <td> <p>Specificare il tipo di costo per l'attività. Questo determinerà come viene calcolato il costo dell'attività, in base al numero di ore sulle attività. </p> <p>Selezionare una delle opzioni seguenti: </p> 
        <ul> 
         <li> <p>Nessun Costo</p> </li> 
@@ -91,7 +120,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
        </ul> <p>Per ulteriori informazioni sul tracciamento dei costi, vedere <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Tracciare i costi</a> . L'amministratore di Workfront o un amministratore di gruppo seleziona l'impostazione Tipo di costo predefinita per le attività del sistema o del gruppo. Per informazioni sull'impostazione delle impostazioni predefinite del progetto, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze del progetto a livello di sistema</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Tipo di Reddito</td> 
+      <td role="rowheader">Tipo di entrate</td> 
       <td> <p>Specificare il tipo di retribuzione per l'attività. Questo determinerà il modo in cui vengono calcolati i Ricavi sull'attività, in base al numero di ore sulle attività. </p> <p>Selezionare una delle opzioni seguenti: </p> 
        <ul> 
         <li> <p> Non Fatturabile </p> </li> 
@@ -114,7 +143,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       <td> <p> Si tratta di un calcolo che mostra il costo dell'attività in base alle ore effettive, al tipo di costo e alla tariffa oraria per gli utenti o le mansioni. Per ulteriori informazioni sul tracciamento dei costi, vedere <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Tracciare i costi</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Reddito Pianificato</td> 
+      <td role="rowheader">Entrate pianificate</td> 
       <td> <p>Si tratta di un calcolo che mostra i ricavi associati all'attività in base alle ore pianificate, al tipo di ricavi e alla tariffa oraria per gli utenti o i ruoli. Per ulteriori informazioni sul tracciamento dei costi, vedere <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Tracciare i costi</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -137,4 +166,4 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     </tbody> 
    </table>
 
-1. (Condizionale) Se si stanno modificando i campi nella sezione Finanza, fare clic su **Salva**&#x200B;**Modifiche**.
+1. (Condizionale) Se si stanno modificando i campi nella sezione Finanza, fare clic su **Salva****Modifiche**.

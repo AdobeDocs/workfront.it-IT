@@ -6,9 +6,9 @@ description: È possibile aggiungere documenti alle schede collegate su Schede A
 author: Lisa
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -25,27 +25,24 @@ ht-degree: 0%
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> 
-   <p>Nuovo: [!UICONTROL Contributor] o versione successiva</p> 
-   <p>oppure</p>
-   <p>Corrente: [!UICONTROL Request] o versione successiva</p>
+   <p>Collaboratore o versione successiva</p> 
+   <p>Richiedi o superiore</p>
    </td> 
   </tr> 
    <tr>
    <td role="rowheader">Configurazioni del livello di accesso</td>
-   <td>Accesso a [!UICONTROL Edit] ai documenti</td>
+   <td>Modifica accesso ai documenti</td>
   </tr>
  </tbody> 
 </table>
@@ -72,4 +69,4 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    >[!NOTE]
    >
-   >I PDF non visualizzano un&#39;immagine di anteprima.
+   >Nei PDF non viene visualizzata alcuna miniatura.

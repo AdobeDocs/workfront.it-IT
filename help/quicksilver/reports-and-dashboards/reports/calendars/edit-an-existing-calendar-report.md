@@ -6,10 +6,10 @@ description: Puoi modificare un calendario esistente aggiungendo o eliminando un
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 0%
+source-wordcount: '279'
+ht-degree: 1%
 
 ---
 
@@ -25,8 +25,6 @@ Puoi modificare un calendario esistente aggiungendo o eliminando un collegamento
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -34,22 +32,21 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
-   <td><p>Nuovo: Standard</p>
-       <p>oppure</p>
-       <p>Corrente: Piano</p></td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Piano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso di [!UICONTROL Edit] a [!UICONTROL Reports], [!UICONTROL Dashboards] e [!UICONTROL Calendars]</p></td> 
+   <td> <p> Modificare l’accesso a rapporti, dashboard e calendari</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td>Accesso [!UICONTROL Gestisci] al report calendario</td> 
+   <td>Gestire l’accesso al report del calendario</td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,14 +66,12 @@ Se hai condiviso il report sul calendario con altri utenti o team, il nome del c
 1. (Facoltativo) Per aggiungere un progetto al rapporto del calendario:
    1. Fai clic su **[!UICONTROL Aggiungi al calendario].**
    1. Inizia a digitare il nome di un progetto da cui desideri aggiungere eventi di calendario, quindi fai clic sul nome quando viene visualizzato nell’elenco a discesa.
-   1. Fare clic su **Aggiungi**.
-
+   1. Fai clic su **Aggiungi**.
       ![aggiungere un progetto a un calendario](assets/add-a-calendar-project.png)
 
 
 1. (Facoltativo) Per aggiungere un raggruppamento di calendari o per modificare un raggruppamento di calendari esistente:
    1. Fai clic sul menu **Altro** accanto al nome del progetto, quindi fai clic su **Modifica**.
-
       ![modifica progetto nel calendario](assets/edit-project-in-calendar.png)
 
    1. Scegliere la modalità di raggruppamento degli elementi:

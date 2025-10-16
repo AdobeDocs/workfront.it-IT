@@ -2,21 +2,21 @@
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: "Esempio di campo personalizzato calcolato: visualizzare una marca temporale di stato in un modulo personalizzato"
-description: Nel campo calcolato seguente viene visualizzata la data in cui lo stato dell'oggetto è contrassegnato come In corso (INP.) È possibile utilizzare le stesse informazioni per i campi personalizzati calcolati per problemi, attività o progetti.
-author: Nolan
+title: 'Esempio di campo personalizzato calcolato: visualizzare un timestamp di stato in un modulo personalizzato'
+description: Nel campo calcolato seguente viene visualizzata la data in cui lo stato dell'oggetto è contrassegnato come In corso (INP). È possibile utilizzare le stesse informazioni per i campi personalizzati calcolati per problemi, attività o progetti.
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 55817a68-3655-4288-8cc7-48547829c46e
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
 
 # Esempio di campo personalizzato calcolato: visualizza una marca temporale di Stato in un modulo personalizzato
 
-Nel campo calcolato seguente viene visualizzata la data in cui lo stato dell&#39;oggetto è contrassegnato come In corso (INP.) È possibile utilizzare le stesse informazioni per i campi personalizzati calcolati per problemi, attività o progetti.
+Nel campo calcolato seguente viene visualizzata la data in cui lo stato dell&#39;oggetto è contrassegnato come In corso (INP). È possibile utilizzare le stesse informazioni per i campi personalizzati calcolati per problemi, attività o progetti.
 
 >[!NOTE]
 >
@@ -24,35 +24,36 @@ Nel campo calcolato seguente viene visualizzata la data in cui lo stato dell&#39
 
 ## Requisiti di accesso
 
-Devi avere i seguenti:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;"> 
-  <p>*Per informazioni sulla pianificazione, il tipo di licenza o l'accesso disponibili, contattare l'amministratore Workfront.</p> 
- </caption> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p>Piano Adobe Workfront*</p> </td> 
-   <td>Qualsiasi</td> 
+   <td> <p>Pacchetto Adobe Workfront</p> </td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Licenza Adobe Workfront*</p> </td> 
-   <td> <p>Piano </p> </td> 
+   <td> <p>Licenza Adobe Workfront</p> </td> 
+   <td>
+      <p>Standard</p>
+      <p>Piano</p></td>
   </tr> 
   <tr> 
-   <td><strong>Configurazioni del livello di accesso*</strong> </td> 
-   <td> <p>Modificare l’accesso per creare rapporti, dashboard e calendari</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td><p>Configurazioni del livello di accesso</p></td> 
+   <td> <p>Modificare l’accesso per creare rapporti, dashboard e calendari</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Autorizzazioni oggetto</strong> </p> </td> 
-   <td> <p>Gestire le autorizzazioni sull’oggetto a cui è allegato il modulo</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.<br>Per ulteriori informazioni sulle autorizzazioni per le dashboard, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">Condividere report, dashboard e calendari </a>.</p> </td> 
+   <td> <p>Autorizzazioni oggetto</p> </td> 
+   <td> <p>Gestire le autorizzazioni sull’oggetto a cui è allegato il modulo</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisito
 

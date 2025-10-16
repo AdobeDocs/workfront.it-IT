@@ -6,9 +6,9 @@ description: È possibile richiedere l'approvazione di un progetto prima di iniz
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '570'
 ht-degree: 2%
 
 ---
@@ -34,37 +34,68 @@ Puoi richiedere un progetto quando aggiungi un nuovo progetto nelle seguenti are
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">Licenza Adobe Workfront*</p> </td> 
-   <td> <p>Nuovo: Standard </p>
-   Oppure
-   <p>Corrente: Piano </p>
+   <td role="rowheader"> <p role="rowheader">Licenza Adobe Workfront</p> </td> 
+   <td> <p>Standard</p>
+   <p>Piano</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Livello di accesso</td> 
-   <td> <p>Modifica accesso ai progetti</p> </td> 
+   <td role="rowheader">Configurazione del livello di accesso</td> 
+   <td> <p>Modifica accesso ai progetti</p>
+   <p>Se si richiede un progetto da un portfolio o da un programma, è necessario disporre dell'accesso di modifica a portafogli e programmi</p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Quando crei una richiesta di progetto, ricevi automaticamente le autorizzazioni di gestione per il progetto </p> </td> 
+   <td> <p>Quando crei una richiesta di progetto, ricevi automaticamente le autorizzazioni di gestione per il progetto </p> 
+   <p>Se richiedi un progetto da un portfolio o da un programma, devi disporre delle autorizzazioni di gestione per il portfolio e il programma.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront license*</p> </td> 
+   <td> <p>New: Standard </p>
+   Or
+   <p>Current: Plan </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>When you create a project request you automatically receive Manage permissions to the project </p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Richiedi un progetto
 
@@ -81,7 +112,7 @@ Puoi richiedere un progetto quando aggiungi un nuovo progetto nelle seguenti are
 
 1. Esegui una delle operazioni seguenti:
 
-   * Durante la definizione di un caso di business, segui gli stessi passaggi della creazione di un progetto. (consigliato)
+   * Durante la definizione di un caso di business, segui gli stessi passaggi della creazione di un progetto. (operazione consigliata)
 
      Per informazioni sulla definizione di un caso di business e sulla richiesta di un progetto, vedere [Creare un caso di business per un progetto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 

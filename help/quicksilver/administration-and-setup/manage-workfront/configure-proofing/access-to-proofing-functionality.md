@@ -9,28 +9,24 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 30a41ae9-9755-4c7b-9e3b-d4a8b0ad7ee8
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 882c3e58e0e47c549be70dff3f5ac410b34a090f
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
 
 # Accesso alla funzionalità di verifica in Workfront
 
-La funzionalità di verifica disponibile per gli utenti dipende dal piano Workfront acquistato dall&#39;organizzazione.
+La verifica viene inclusa automaticamente per tutte le licenze in Workfront. Le licenze determinano ciò che gli utenti possono fare.
 
-## Verifica in Workfront
+<!--Workfront instances using enterprise storage do not have access to proofing functionality. Instead, they use the native integration with Frame.io. For more information, see -->
 
-Al momento sono disponibili tre opzioni di piano per la verifica in Workfront:
+I precedenti pacchetti Workfront 2017 includono la verifica automatica delle licenze Lavoro e Piano se si dispone dei piani Workfront pro, business o enterprise. Questi piani vengono gradualmente eliminati.
 
-* **Nuovi piani Workfront**: la verifica viene inclusa automaticamente per tutte le licenze nei nuovi piani Workfront.
-* **Piani Workfront Pro+ correnti**: la verifica è inclusa automaticamente per le licenze Lavoro e Piano se si dispone dei piani Workfront pro, business o enterprise.
-* **Piani Workfront Premium legacy**: questa opzione è per Piani Workfront legacy: Select, Enterprise, Premium. La verifica non viene inclusa automaticamente con le licenze in questo piano. È necessario concedere l&#39;accesso di verifica a utenti specifici nel loro profilo utente.
+Se sei un amministratore di Workfront, puoi verificare e vedere quale piano è in corso andando in Configurazione > Sistema > Licenze.
 
-  Se sei un amministratore di Workfront, puoi verificare e vedere quale piano è in corso andando in Configurazione > Sistema > Licenze.
-
-### Funzionalità di correzione in Workfront
+## Funzionalità di correzione in Workfront
 
 Per informazioni sulla concessione e la revoca dell&#39;accesso di un utente per la creazione e la visualizzazione di bozze in Workfront, vedere [Configurare l&#39;accesso di verifica di un utente](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
 

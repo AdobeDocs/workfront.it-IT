@@ -6,9 +6,9 @@ description: Puoi collegare documenti e cartelle ad Adobe Workfront da origini e
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: a005c7114388e1c20a4847b3da3229667be0ded7
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '2568'
+source-wordcount: '2545'
 ht-degree: 0%
 
 ---
@@ -61,21 +61,18 @@ Puoi verificare e approvare i documenti collegati a un provider cloud esterno ne
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td>
+   <td role="rowheader">Pacchetto Adobe Workfront</td>
    <td> <p> Qualsiasi</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td>
-   <td><p>Nuovo: Collaboratore o versione successiva</p>
-    <p>oppure</p>
-    <p>Corrente: richiesta o successiva</p> </td>
+   <td><p>Collaboratore o versione successiva</p>
+    <p>Richiedi o superiore</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -84,7 +81,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -6,9 +6,9 @@ description: Puoi utilizzare l’estensione Workfront per esportare in Workfront
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
 workflow-type: tm+mt
-source-wordcount: '3107'
+source-wordcount: '3069'
 ht-degree: 0%
 
 ---
@@ -37,26 +37,24 @@ L’estensione Workfront è supportata per Adobe Creative Cloud 2017 e versioni 
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
-   <td> <p>Corrente: Pro o superiore</p>
-   Oppure
-   <p>Nuovo: Qualsiasi piano</p> </td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
+   <td> <p>Qualsiasi</p>
+ </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Corrente: Lavoro o versione successiva</p>
-   Oppure
-   <p>Nuovo: Standard</p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> 
+      <p>Standard</p> 
+   <p>Lavoro o superiore</p>
+</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Prodotto</td> 
+   <td role="rowheader">Prodotti aggiuntivi</td> 
    <td>Oltre alla licenza di Workfront, è necessario disporre di una licenza Adobe Creative Cloud.</td> 
   </tr> 
   <tr> 
@@ -66,7 +64,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore di Workfront. Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

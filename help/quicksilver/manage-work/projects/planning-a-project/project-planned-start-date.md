@@ -3,14 +3,14 @@ content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
 title: Panoramica della data di inizio pianificata del progetto
-description: Panoramica della data di inizio pianificata del progetto
+description: L'Inizio pianificato e le Date di completamento pianificate di un progetto si basano sulle date delle attività del progetto. Questo articolo descrive la data di inizio pianificata di un progetto.
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a1223d81-3fb8-42d1-9a7d-c58d1f0fcd36
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---

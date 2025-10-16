@@ -2,24 +2,24 @@
 content-type: reference
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Pianificazione scenario Adobe Workfront
+title: 'Adobe Workfront Scenario Planner: indice degli articoli'
 description: Elenco di articoli che descrivono le funzionalità di Workfront Scenario Planner.
 author: Alina
 feature: Workfront Scenario Planner
 recommendations: noDisplay, noCatalog
 exl-id: 3d942ea6-6860-4463-b610-8c120a109071
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront Scenario Planner]
+# [!DNL Adobe Workfront Scenario Planner]: indice articolo
 
 Questa sezione contiene i seguenti articoli:
 
-* [Panoramica [!DNL Scenario Planner] &#x200B;](../scenario-planner/scenario-planner-overview.md)
+* [Panoramica [!DNL Scenario Planner] ](../scenario-planner/scenario-planner-overview.md)
 * [Introduzione a  [!DNL Scenario Planner]](../scenario-planner/get-started-with-scenario-planning.md)
 * [Accesso necessario per utilizzare  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)
 * [Panoramica dei piani in [!DNL Scenario Planner]](../scenario-planner/plans-overview.md)

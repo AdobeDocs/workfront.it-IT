@@ -3,13 +3,13 @@ content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
 title: Lo stato del progetto non cambierà da Completo a Corrente
-description: (Anche se questo può essere aggiunto come domanda frequente, ho lasciato questo come suo articolo per motivi di ricerca)
+description: Questo articolo descrive uno scenario in cui non è possibile aggiornare lo stato del progetto da Completo a Corrente.
 author: Alina
 feature: Work Management
 exl-id: 774c103f-8785-4d8b-83e9-a074e6518293
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---

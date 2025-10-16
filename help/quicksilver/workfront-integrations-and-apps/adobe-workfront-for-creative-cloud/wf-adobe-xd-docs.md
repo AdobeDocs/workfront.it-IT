@@ -1,14 +1,14 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Carica tavole da disegno XD come documenti in Workfront
+title: Carica tavole da disegno di XD come documenti in Workfront
 description: Potete caricare le vostre tavole da disegno come documenti per una rapida revisione e approvazione o semplicemente per archiviarle in Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 710035f7-339c-457c-b9b0-e51bc0e0061d
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '530'
 ht-degree: 1%
 
 ---
@@ -22,42 +22,42 @@ Puoi caricare le tue tavole da disegno come documenti per una revisione e approv
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <!-- <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+   <!-- <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work] or [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Work or higher</p> </td> 
   </tr> 
   <tr> -->
-   <td role="rowheader">Prodotto</td> 
+   <td role="rowheader">Prodotti aggiuntivi</td> 
    <td>È necessario disporre di una licenza [!DNL Adobe Creative Cloud] oltre a una licenza [!DNL Workfront].</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modifica accesso a [!UICONTROL Documents]</p> <p>Nota: se non disponi ancora dell'accesso, chiedi all'amministratore [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di [!DNL Workfront] può modificare il tuo livello di accesso, vedi <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modifica accesso a [!UICONTROL Documents]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Accesso di [!UICONTROL View] o versione successiva all'oggetto in cui si desidera caricare un documento.</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Accesso di [!UICONTROL View] o versione successiva all'oggetto in cui si desidera caricare un documento.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Prerequisiti
 
-* È necessario installare il plug-in [!DNL Adobe Workfront for XD] prima di caricare le bacheche grafiche XD come documenti in Workfront.
+* È necessario installare il plug-in [!DNL Adobe Workfront for XD] prima di caricare le bacheche XD art come documenti in Workfront.
 
 Per istruzioni, vedere [Installa [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
 
@@ -91,7 +91,7 @@ Per istruzioni, vedere [Installa [!DNL Adobe Workfront for XD]](/help/quicksilve
       <td>Le tavole da disegno vengono caricate come file PNG nella scheda [!UICONTROL Documents] dell'elemento di lavoro in [!DNL Workfront]. </td>
      </tr>
      <tr>
-      <td role="rowheader">JPG-</td>
+      <td role="rowheader">JPG</td>
       <td>Le tavole da disegno vengono caricate come JPG nella scheda [!UICONTROL Documents] dell'elemento di lavoro in [!DNL Workfront]. <br></td>
      </tr>
      <tr>
@@ -100,7 +100,7 @@ Per istruzioni, vedere [Installa [!DNL Adobe Workfront for XD]](/help/quicksilve
      </tr>
      <tr>
       <td role="rowheader">PDF</td>
-      <td>Scegli se vuoi che le tavole da disegno selezionate vengano caricate come <strong>file PDF singolo</strong> o <strong>più file PDF</strong>. Le tavole da disegno vengono caricate come PDF nella scheda [!UICONTROL Documents] dell'elemento di lavoro in [!DNL Workfront].</td>
+      <td>Scegli se vuoi che le tavole da disegno selezionate vengano caricate come <strong>singolo file PDF</strong> o <strong>più file PDF</strong>. Le tavole da disegno vengono caricate come PDF nella scheda [!UICONTROL Documents] dell'elemento di lavoro in [!DNL Workfront].</td>
      </tr>
     </tbody>
    </table>
@@ -142,7 +142,7 @@ Per istruzioni, vedere [Installa [!DNL Adobe Workfront for XD]](/help/quicksilve
       <td>La tavola da disegno viene caricata come file PNG nella scheda [!UICONTROL Documents] dell'elemento di lavoro in [!DNL Workfront]. </td>
      </tr>
      <tr>
-      <td role="rowheader">JPG-</td>
+      <td role="rowheader">JPG</td>
       <td>La tavola da disegno viene caricata come JPG nella scheda [!UICONTROL Documents] dell'elemento di lavoro in [!DNL Workfront]. <br></td>
      </tr>
      <tr>

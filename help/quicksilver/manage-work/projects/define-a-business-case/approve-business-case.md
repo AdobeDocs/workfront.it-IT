@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: Approvare un caso di business
 description: Dopo aver completato e sottomesso il Business Case per una richiesta di progetto, il Business Case deve essere approvato. Questo dipende dal flusso di lavoro dell’organizzazione. Un progetto può iniziare senza che sia necessario approvare il Business Case, ma l’amministratore di Adobe Workfront e i proprietari del progetto potrebbero non considerarlo ideale.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -29,18 +29,16 @@ Per ulteriori informazioni sul completamento e l&#39;invio di un Business Case, 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Piano Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-   <p>Corrente: Prime o versione successiva</p>
-   <p>oppure</p>
-   <p>Legacy: aziendale o superiore</p> 
+   <p>Prime o versione successiva</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> 
-   <p>Corrente: Standard </p> 
-   <p>Legacy: Plan </p> </td> 
+   <p>Standard </p> 
+   <p>Piano </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -53,7 +51,7 @@ Per ulteriori informazioni sul completamento e l&#39;invio di un Business Case, 
  </tbody> 
 </table>
 
-*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

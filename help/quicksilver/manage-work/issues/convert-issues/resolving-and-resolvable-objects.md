@@ -7,16 +7,16 @@ description: Un oggetto risolvibile è un problema la cui risoluzione è associa
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1761'
-ht-degree: 1%
+source-wordcount: '1760'
+ht-degree: 2%
 
 ---
 
 # Panoramica sugli oggetti risolvibili e risolvibili
 
-<!-- Audited: 5/2025 -->
+<!-- Audited: 08/2025 -->
 
 Un oggetto risolvibile è un problema la cui risoluzione è associata a un oggetto risolutivo. Un oggetto risolutivo è un progetto, un&#39;attività o un altro problema.
 

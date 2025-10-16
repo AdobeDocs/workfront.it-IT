@@ -7,23 +7,52 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8f5b78c9-b84f-4f56-b7cc-ba686fac2da1
-source-git-commit: c2ce6776ceebe3c1d3915e3791fc84eb0245ba4d
+source-git-commit: e9a9e45720c8b9ad25e3fa9340c813a73989fb4a
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 0%
+source-wordcount: '186'
+ht-degree: 1%
 
 ---
 
 # Formato del dominio per le chiamate API di Adobe Workfront
 
-Quando effettui una chiamata API all&#39;API Workfront, utilizzi il dominio della tua organizzazione nella chiamata. Il formato di questo URL di dominio varia a seconda che l’organizzazione sia stata integrata nell’Adobe Unified Shell.
+Quando effettui una chiamata API all&#39;API Workfront, utilizzi il dominio della tua organizzazione nella chiamata. Il formato di questo URL di dominio varia a seconda che l’organizzazione sia stata integrata in Adobe Unified Shell.
 
-Per verificare se l’organizzazione si trova nell’Adobe Unified Shell, esamina l’URL visualizzato quando visualizzi una pagina di Workfront.
+Per sapere se la tua organizzazione si trova in Adobe Unified Shell, esamina l’URL visualizzato quando visualizzi una pagina di Workfront.
 
 | L’URL di Workfront inizia con: | URL per chiamate API: |
 |---|---|
 | `<yourdomain>.my.workfront.com` | `<yourdomain>.my.workfront.com` |
 | `experience.adobe.com` | `<yourdomain>.my.workfront.adobe.com` |
+
+## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
+   <td> <p>Qualsiasi </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td><p>Standard</p>
+   <p>Piano</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Devi essere un amministratore di Workfront</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 
 Per individuare il dominio:
 

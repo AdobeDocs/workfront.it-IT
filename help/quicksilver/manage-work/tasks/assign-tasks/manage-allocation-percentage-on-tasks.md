@@ -6,9 +6,9 @@ description: La percentuale di allocazione rappresenta la quantità di tempo in 
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '429'
 ht-degree: 1%
 
 ---
@@ -25,33 +25,33 @@ La percentuale di allocazione rappresenta la quantità di tempo in cui una risor
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td>Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Nuovo: Standard</p> 
-   <p>Corrente: Lavoro o versione successiva</p> </td> 
+   <td>Licenza Adobe Workfront</td> 
+   <td> <p>Standard</p>
+   <p>Lavoro o superiore</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica l'accesso alle Attività</p> </td> 
+   <td>Configurazioni del livello di accesso</td> 
+   <td>Modifica l'accesso alle Attività</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Autorizzazioni di contribuzione o di livello superiore per l'attività</p> <p>Modificare le autorizzazioni per aggiornare la percentuale di allocazione nella casella Modifica attività</p>  </td> 
-  </tr> 
- </tbody> 
+   <td>Autorizzazioni oggetto</td>
+   <td><p>Autorizzazioni di contribuzione o di livello superiore per l'attività</p>
+   <p>Modificare le autorizzazioni per aggiornare la percentuale di allocazione nella casella Modifica attività</p></td>
+  </tr>
+ </tbody>
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso per la documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

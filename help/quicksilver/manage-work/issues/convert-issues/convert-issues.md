@@ -8,20 +8,22 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1506'
+source-wordcount: '1497'
 ht-degree: 2%
 
 ---
 
 # Panoramica sulla conversione dei problemi in Adobe Workfront
 
+<!--Audited: 08/2025-->
+
 Se è necessario svolgere più lavoro per completare un problema dopo l’invio del problema, puoi convertire il problema in un progetto o in un’attività.
 
-Per informazioni sulla conversione dei problemi in attività, vedere [Convertire un problema in attività in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md).
+Per informazioni sulla conversione dei problemi in attività, vedere [Convertire un problema in attività](../../../manage-work/issues/convert-issues/convert-issue-to-task.md).
 
-Per informazioni sulla conversione dei problemi in progetti, vedere [Convertire un problema in un progetto in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Per informazioni sulla conversione dei problemi in progetti, vedere [Convertire un problema in un progetto](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 ## Considerazioni durante la conversione dei problemi
 
@@ -62,7 +64,7 @@ Per informazioni sulla conversione dei problemi in progetti, vedere [Convertire 
 
 Quando converti un problema in un progetto, puoi convertirlo in un progetto vuoto o utilizzare un modello.
 
-Per informazioni, vedere [Convertire un problema in un progetto in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Per informazioni, vedere [Convertire un problema in un progetto](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 Quando si utilizza un modello, alcuni campi popolati nel modello vengono trasferiti al progetto creato dal problema convertito. Altri campi vengono trasferiti al progetto dal problema convertito.
 

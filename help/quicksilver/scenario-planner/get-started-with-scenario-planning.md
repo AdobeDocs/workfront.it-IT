@@ -1,24 +1,23 @@
 ---
-title: Introduzione alla Pianificazione scenario
+title: Guida introduttiva alla Pianificazione scenario
 description: Puoi utilizzare Adobe Workfront Scenario Planner per creare piani a livello aziendale che delineino i risultati strategici generali della tua azienda. Puoi definire diverse iniziative per un piano e collocarle in vari scenari per trovare la soluzione ottimale per l’esecuzione del piano.
 author: Alina
 draft: Probably
 feature: Workfront Scenario Planner
 exl-id: a6afe39f-1663-493d-a582-0a396ce138c2
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
 
 # Introduzione a [!DNL Scenario Planner]
 
-[!DNL Scenario Planner] richiede una licenza aggiuntiva alla licenza [!DNL Adobe Workfront]. Per informazioni sul Workfront [!DNL Scenario Planner], vedere [The [!DNL Scenario Planner] overview](../scenario-planner/scenario-planner-overview.md).
-
 È possibile utilizzare [!DNL Adobe Workfront Scenario Planner] per creare piani a livello aziendale che delineino i risultati strategici complessivi dell&#39;azienda. Puoi definire diverse iniziative per un piano e collocarle in vari scenari per trovare la soluzione ottimale per l’esecuzione del piano.
 
 Per una panoramica di alto livello di [!DNL Workfront Scenario Planner], vedere [The [!DNL Scenario Planner] overview](../scenario-planner/scenario-planner-overview.md).
+
 
 ## Approcci per l&#39;utilizzo di [!DNL Workfront Scenario Planner]
 
@@ -61,7 +60,7 @@ Viene visualizzato [!DNL Workfront Scenario Planner].
 
    Per informazioni sulla creazione dei piani, vedere [Creare e modificare i piani in Pianificazione scenario](../scenario-planner/create-and-edit-plans.md).
 
-## [!DNL Workfront Scenario Planner] oggetti
+## Oggetti [!DNL Workfront Scenario Planner]
 
 La tabella seguente descrive gli oggetti [!DNL Workfront Scenario Planner]. L&#39;amministratore di [!DNL Workfront] può personalizzare il proprio nome nel sistema modificando un modello di layout e assegnandolo a utenti, team o gruppi. Per informazioni sulla personalizzazione dei nomi degli oggetti tramite un modello di layout, vedere [Personalizzare la terminologia dell&#39;interfaccia utente tramite un modello di layout](../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
 

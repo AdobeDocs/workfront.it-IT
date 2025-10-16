@@ -7,7 +7,7 @@ description: La Pianificazione scenario è disponibile solo nella nuova esperien
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d67f51e5-7c5c-436b-b0c3-e5afbd7cebca
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 0%
@@ -45,11 +45,6 @@ Quando crei iniziative, tieni presente quanto segue:
 * Puoi creare più iniziative in un piano. Con ogni iniziativa, puoi delineare una strategia di alto livello per portare a termine il lavoro nel tuo reparto.
 * Puoi assegnare un ordine di priorità alle iniziative all’interno di un piano, in modo che l’iniziativa più importante riceva il budget e le risorse più importanti.
 * Quando si creano iniziative all&#39;interno di un piano, tutti coloro che visualizzano tale piano possono visualizzare anche tutte le iniziative all&#39;interno del piano.
-
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might change when we add to the access levels granularity)</p>
-  -->
-
 * Puoi pubblicare le iniziative per creare progetti o per aggiornare i progetti ad essi collegati. Per informazioni sulla pubblicazione delle iniziative, vedere [Aggiornare o creare progetti pubblicando iniziative in [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 
 ## Informazioni finanziarie sulle iniziative
@@ -131,7 +126,7 @@ Puoi visualizzare le informazioni sull’iniziativa nei rapporti, come descritto
    <td>Tutte le informazioni sull'iniziativa elencate in precedenza, ID (mansione), Progetto*, Ore pianificate assegnazione progetto*, Ore mansione iniziativa, Conteggio (mansione), Tutti i campi del progetto, inclusi i campi personalizzati*</td> 
   </tr> 
   <tr> 
-   <td><p>Progetto *</p></td> 
+   <td><p>Progetto [!UICONTROL]*</p></td> 
    <td> <p>Tutte le informazioni sull'iniziativa elencate in precedenza*</p> </td> 
   </tr> 
  </tbody> 

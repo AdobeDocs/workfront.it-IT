@@ -1,20 +1,24 @@
 ---
 content-type: overview
 navigation-topic: gantt-chart
-title: Panoramica del diagramma di Gantt
-description: Trova informazioni sul grafico [!UICONTROL Gantt] nei seguenti articoli.
+title: 'Diagramma di Gantt: indice degli articoli'
+description: I grafici di Gantt in Adobe Workfront forniscono una rappresentazione visiva della timeline di un elenco di attività o progetti. Trova informazioni sul grafico [!UICONTROL Gantt] nei seguenti articoli.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: b4dc991e-d89c-4167-ac9c-54bda23d08d8
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
 
-# Panoramica di [!UICONTROL Gantt Chart]
+# [!UICONTROL Grafico di Gantt]: indice articolo
+
+<!--Audited: 08/2025-->
+
+I grafici di Gantt in Adobe Workfront forniscono una rappresentazione visiva della timeline di un elenco di attività o progetti.
 
 Questa sezione contiene i seguenti articoli:
 
@@ -23,4 +27,4 @@ Questa sezione contiene i seguenti articoli:
 * [Visualizza informazioni nel [!UICONTROL Diagramma di Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)
 * [Aggiorna le informazioni nell&#39;elenco attività [!UICONTROL Grafico di Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
 * [Livella risorse nel [!UICONTROL Diagramma di Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md)
-* [Esporta il [!UICONTROL Grafico di Gantt] in PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)
+* [Esporta il [!UICONTROL Diagramma di Gantt] in PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)

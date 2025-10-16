@@ -3,13 +3,13 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: Definire i tipi di richiesta per un progetto
 description: Puoi organizzare il tipo di problemi o richieste connessi ad Adobe Workfront per tipo di richiesta.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 2%
+source-wordcount: '354'
+ht-degree: 3%
 
 ---
 
@@ -28,14 +28,14 @@ Puoi organizzare il tipo di problemi o richieste connessi ad Adobe Workfront per
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td>
-    <p>Nuovo: Standard</p>
-    <p>Corrente: Piano</p></td>  
+    <p>Standard</p>
+    <p>Piano</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -48,7 +48,7 @@ Puoi organizzare il tipo di problemi o richieste connessi ad Adobe Workfront per
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

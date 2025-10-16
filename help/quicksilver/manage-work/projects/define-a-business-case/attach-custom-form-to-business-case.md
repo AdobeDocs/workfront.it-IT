@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: Allegare un modulo personalizzato a un caso di business
 description: I Forms personalizzati vengono utilizzati per raccogliere informazioni che non vengono visualizzate nei campi esistenti di Adobe Workfront.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -29,15 +29,14 @@ Per ulteriori informazioni sulla creazione di un Forms personalizzato, vedere l&
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Piano Adobe Workfront*</p></td> 
-   <td> <p>Corrente: Prime o versione successiva</p>
-   <p>Legacy: Pro o superiore</p> </td> 
+   <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
+   <td> <p>Prime o versione successiva</p>
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Licenza Adobe Workfront/p&gt;</td> 
    <td> 
-   <p>Corrente: Standard </p> 
-   <p>Legacy: Plan </p> </td> 
+   <p>Standard </p> 
+   <p>Piano </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -50,7 +49,7 @@ Per ulteriori informazioni sulla creazione di un Forms personalizzato, vedere l&
  </tbody> 
 </table>
 
-*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 75ac50d23c80aaf1b2100b02780adfe7fd7abb39
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '6606'
+source-wordcount: '6583'
 ht-degree: 5%
 
 ---
@@ -31,31 +31,27 @@ Puoi progettare un modulo personalizzato con il progettista del modulo in Adobe 
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>piano Adobe Workfront</p> </td> 
-   <td>Qualsiasi</td> 
+  <tr> 
+   <td>Pacchetto Adobe Workfront</td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td>
-   <p>Nuovo: Standard</p>
-   <p>oppure</p>
-   <p>Corrente: Piano</p></td> 
+   <td>Licenza Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Piano</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
+  <tr> 
+   <td>Configurazioni del livello di accesso</td> 
    <td> <p>Accesso amministrativo ai moduli personalizzati</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -135,7 +131,7 @@ Ogni nome di campo personalizzato deve essere univoco nell’istanza Workfront d
 >[!NOTE]
 >
 >Sebbene sia possibile farlo, si consiglia di non modificare questo nome dopo che l&#39;utente o altri utenti hanno iniziato a utilizzare il modulo personalizzato in Workfront. In questo caso, il sistema non riconoscerà più il campo personalizzato a cui potrebbe ora fare riferimento in altre aree di Workfront.
->&#x200B;>Ad esempio, se aggiungi il campo personalizzato a un rapporto e successivamente ne modifichi il nome, Workfront non lo riconosce nel rapporto e non funzionerà più correttamente a meno che non lo aggiungi nuovamente al rapporto utilizzando il nuovo nome.
+>>Ad esempio, se aggiungi il campo personalizzato a un rapporto e successivamente ne modifichi il nome, Workfront non lo riconosce nel rapporto e non funzionerà più correttamente a meno che non lo aggiungi nuovamente al rapporto utilizzando il nuovo nome.
 >
 >È consigliabile non digitare un nome già utilizzato per i campi Workfront incorporati.
 >
@@ -150,7 +146,7 @@ I seguenti caratteri speciali non sono supportati nelle etichette e nei nomi dei
 * `[`
 * `]`
 * (
-* )
+* ).
 * :
 * `{`
 * `}`
@@ -197,7 +193,7 @@ Per aggiungere un campo di testo:
     <td>Disponibile per </td>
     </tr>
     <tr>
-    <td>Dimensioni</td>
+    <td>Dimensione</td>
     <td><p>(Facoltativo) Modificare le dimensioni dei campi di testo nel modulo.<p>
    </td>
     <td><ul>
@@ -634,12 +630,12 @@ Per aggiungere una ricerca esterna:
       <td role="rowheader">Percorso JSON</td>
       <td><p>Digita o incolla il percorso JSON per l’API.</p> <p>Questa opzione consente di estrarre i dati dal JSON restituito dall’URL API. Serve come modo per selezionare quali valori dall’interno del JSON appariranno nelle opzioni a discesa.</p><p>Ad esempio, se l'URL API restituisce JSON nel seguente formato, puoi utilizzare "$.data[*].name" per selezionare Stati Uniti e Canada come opzioni a discesa:</br>
       <pre>
-      &lbrace;
-       dati: &lbrace;
+      {
+       dati: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Per ulteriori informazioni sul percorso JSON e sulla verifica della scrittura del percorso JSON corretto, fare riferimento a <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -715,7 +711,7 @@ Per aggiungere immagini, PDF o video:
     <col> 
     <tbody> 
          <tr> 
-      <td role="rowheader">Dimensioni</td> 
+      <td role="rowheader">Dimensione</td> 
       <td>(Facoltativo) Modifica la dimensione di visualizzazione del widget in base alle esigenze.</td> 
      </tr> 
      <tr> 
@@ -838,7 +834,7 @@ In questa tabella sono elencati i campi nativi disponibili per oggetti Workfront
     <col> 
     <tbody> 
          <tr> 
-      <td role="rowheader">Dimensioni</td> 
+      <td role="rowheader">Dimensione</td> 
       <td>(Facoltativo) Modifica la dimensione di visualizzazione del campo in base alle esigenze.</td> 
      </tr> 
      <tr> 
@@ -905,7 +901,7 @@ Per aggiungere un file Adobe XD:
     <col> 
     <tbody> 
          <tr> 
-      <td role="rowheader">Dimensioni</td> 
+      <td role="rowheader">Dimensione</td> 
       <td>(Facoltativo) Modifica la dimensione di visualizzazione del widget in base alle esigenze.</td> 
      </tr> 
      <tr> 
@@ -979,7 +975,7 @@ Per aggiungere un campo di connessione Planning:
     <col> 
     <tbody> 
     <tr> 
-      <td role="rowheader">Dimensioni</td> 
+      <td role="rowheader">Dimensione</td> 
       <td>(Facoltativo) Modifica la dimensione di visualizzazione del widget in base alle esigenze.</td> 
      </tr> 
      <tr> 
@@ -998,7 +994,7 @@ Per aggiungere un campo di connessione Planning:
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Tipo oggetto</td> 
+      <td role="rowheader">Tipo di oggetto</td> 
       <td><p>(Obbligatorio) Selezionare un tipo di oggetto Workfront connesso a un tipo di record in Workfront Planning.</p>
       È possibile selezionare uno dei seguenti tipi di oggetto:
       <ul><li> Progetto</li>
