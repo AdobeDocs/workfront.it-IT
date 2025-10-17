@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Creazione o modifica dello stato di un gruppo
 description: In qualità di amministratore di gruppo, puoi creare stati personalizzati per un gruppo che gestisci. Questo consente di eliminare la necessità di decine di stati personalizzati a livello di azienda e consente una maggiore autonomia nelle gerarchie di gruppo.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: 1554c067afcc548c7f7abd03dbc3a49404e3c89c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1321'
 ht-degree: 1%

@@ -1,12 +1,12 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: "Notifiche: informazioni sull’approvazione"
+title: 'Notifiche: informazioni sull’approvazione'
 description: Le notifiche seguenti ti avvisano delle attività di approvazione che si verificano su un elemento di lavoro a cui sei coinvolto. Per informazioni sulla configurazione delle notifiche ricevute, consulta Modificare le notifiche e-mail.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: e152913e-de7e-405f-af63-827a9b91e2ae
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%

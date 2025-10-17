@@ -1,12 +1,12 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: "Notifiche: informazioni sui progetti di mia proprietà"
+title: 'Notifiche: informazioni sui progetti di mia proprietà'
 description: Le notifiche seguenti ti avvisano delle attività che si svolgono su un progetto che possiedi. Per informazioni sulla configurazione delle notifiche ricevute, consulta Modificare le notifiche e-mail.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: cf605849-bcc0-4982-b8fa-f69eef7a4fb6
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 1%
@@ -43,7 +43,7 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
   </tr> 
   <tr> 
    <td> <p><strong>Un progettodi mia proprietà è in ritardo</strong> </p> <p>Il proprietario del progetto riceve una notifica e-mail quando il progetto è in ritardo rispetto alla pianificazione. Un progetto è in ritardo rispetto alla pianificazione quando lo stato di avanzamento è "[!UICONTROL A rischio]", "[!UICONTROL In ritardo]" o "[!UICONTROL In ritardo]"."</p> <p>La best practice prevede di mantenere attiva questa notifica. </p> <p>Gli utenti con una licenza [!UICONTROL Review] non ricevono una notifica.</p> <p>Oggetto dell'e-mail di notifica immediata: <em>[!UICONTROL Project Progress Change]: &lt;Nome progetto&gt;</em></p> <p> L'oggetto della notifica del digest giornaliero è: <em> [!UICONTROL Digest of Projects You Own] &lt;Data del digest giornaliero&gt; </em></p> </td> 
-   <td> <p>Nome progetto<br>Nome Portfolio<br>Numero di riferimento progetto<br>Stato avanzamento progetto<br>Progetto [!UICONTROL Data inizio pianificata]<br>Progetto [!UICONTROL Data completamento pianificata]<br>Progetto [!UICONTROL Data inizio prevista]<br>Progetto [!UICONTROL Data completamento prevista]<br>Percentuale progetto completata<br>Stato progetto<br>Proprietario progetto<br>*Nome progetto<br>*Numero di riferimento progetto<br>*Stato avanzamento progetto<br>*Data riepilogo giornaliera<br></p> </td> 
+   <td> <p>Portfolio Nome progetto<br>Nome progetto<br>Numero di riferimento progetto<br>Stato avanzamento progetto<br>Progetto [!UICONTROL Data inizio pianificata]<br>Progetto [!UICONTROL Data completamento pianificata]<br>Progetto [!UICONTROL Data inizio prevista]<br>Progetto [!UICONTROL Data completamento prevista]<br>Percentuale progetto completata<br>Stato progetto<br>Proprietario progetto<br>*Nome progetto<br>*Numero riferimento progetto<br>*Stato avanzamento progetto<br>*Data riepilogo giornaliero<br></p> </td> 
    <td><strong>Giornaliera</strong> </td> 
   </tr> 
   <tr> 
@@ -58,7 +58,7 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
   </tr> 
   <tr> 
    <td> <p><strong>Un'attività di un progetto di mia proprietà è indietro</strong> </p> <p>Il proprietario del progetto riceve una notifica e-mail quando un'attività del progetto è in ritardo rispetto alla pianificazione. Un'attività è in ritardo rispetto alla pianificazione quando lo stato di avanzamento è "[!UICONTROL A rischio]" o "[!UICONTROL In ritardo]" o "[!UICONTROL In ritardo]"."</p> <p>Viene inviata una notifica solo se lo stato del progetto è [!UICONTROL Current].</p> <p>L'oggetto dell'e-mail di notifica immediata è: <em>[!UICONTROL Task Progress Change]: &lt;Nome attività&gt;</em></p> <p> L'oggetto della notifica del digest giornaliero è: <em> [!UICONTROL Digest of Projects You Own] &lt;Data del digest giornaliero&gt; </em></p> </td> 
-   <td> Nome Attività<br>Nome Progetto<br>Numero Di Riferimento Attività<br>Stato Avanzamento Attività<br>Attività [!UICONTROL Data Inizio Pianificata]<br>Attività [!UICONTROL Data Completamento Pianificata]<br>Attività [!UICONTROL Data Inizio Prevista]<br>Attività [!UICONTROL Data Completamento Prevista]<br>Percentuale Attività Completata<br>Stato Attività<br>Assegnata Al Nome<br>Immessa Per Nome<br>*Nome Progetto<br>*Numero Riferimento Progetto<br>*Numero Totale Attività In Ritardo<br> *Nome attività<br>*Assegnato al nome<br>*Data riepilogo giornaliero </td> 
+   <td> Nome Attività<br>Nome Progetto<br>Numero Di Riferimento Attività<br>Stato Avanzamento Attività<br>Attività [!UICONTROL Data Inizio Pianificata]<br>Attività [!UICONTROL Data Completamento Pianificata]<br>Attività [!UICONTROL Data Inizio Prevista]<br>Attività [!UICONTROL Data Completamento Prevista]<br>Percentuale Attività Completata<br>Stato Attività<br>Assegnata Al Nome<br>Immessa Per Nome<br>*Nome Progetto<br>*Numero Riferimento Progetto<br>*Numero Totale Attività Indietro schedule<br>*Nome attività<br>*Nome assegnazione<br>*Data riepilogo giornaliero </td> 
    <td><strong>Giornaliera</strong> </td> 
   </tr> 
   <tr> 
@@ -73,12 +73,12 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
   </tr> 
   <tr> 
    <td> <p><strong>Sono impostato come proprietario di un nuovo progetto</strong> </p> <p>Quando un utente viene assegnato come proprietario di un progetto, riceve una notifica e-mail.</p> <p>Se il proprietario del progetto è lo stesso utente che ha effettuato l'assegnazione, non viene inviata una notifica e-mail.</p> <p>Gli utenti con una licenza [!UICONTROL Review] non ricevono una notifica.</p> <p>Attivate questa opzione perché sono assegnati a qualcosa. </p> <p> Assegnazione di qualcosa, condivisione di qualcosa, accesso a qualcosa.</p> <p>L'oggetto dell'e-mail di notifica immediata è: <em>[!UICONTROL Ora sei il proprietario del progetto di] &lt;Nome progetto&gt;</em></p> <p>Il testo seguente è incluso nel corpo della notifica e-mail:<em><br></em></p> <p><em>[!UICONTROL Hi] &lt;Nome&gt;,<br></em><em>&lt;Nome dell'utente che ti ha assegnato come proprietario del progetto&gt; [!UICONTROL ti ha reso proprietario di] &lt;Nome progetto&gt;. [!UICONTROL In qualità di proprietario del progetto, è possibile che tu riceva notifiche e-mail aggiuntive sull'attività del progetto, che ti venga richiesto di approvare le ore per il progetto o che tu venga coinvolto nell'approvazione di lavoro correlato al progetto. È tutto tuo.]</em> </p> <p> L'oggetto della notifica del digest giornaliero è: <em> [!UICONTROL Digest of Projects You Own] &lt;Data del digest giornaliero&gt; </em></p> <p> </p> </td> 
-   <td> <p>Nome progetto<br>Nome Portfolio<br>Numero di riferimento progetto<br>Data di completamento progetto<br>*Nome progetto<br>*Numero di riferimento progetto<br>*Data riepilogo giornaliera</p> </td> 
+   <td> <p>Portfolio Nome progetto<br>Nome progetto<br>Numero di riferimento progetto<br>Data di completamento progetto<br>*Nome progetto<br>*Numero di riferimento progetto<br>*Data riepilogo giornaliera</p> </td> 
    <td><strong>Istantanea</strong> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Modifiche alla data di conferma per un'attività in uno dei miei progetti</strong> </p> <p>Il proprietario del progetto riceve una notifica e-mail quando cambia la data di conferma per un’attività del progetto, a meno che l’utente che ha modificato la data di conferma non sia anche il proprietario del progetto.</p> <p>L'oggetto dell'e-mail di notifica immediata è: <em>[!UICONTROL Data commit per] &lt;Nome attività&gt; [!UICONTROL è ora] &lt;Data nuovo commit&gt;</em></p> <p> L'oggetto della notifica del riepilogo giornaliero è: <em> Digest di progetti di cui sei proprietario &lt;Data del riepilogo giornaliero&gt; </em></p> </td> 
-   <td> <p>Nome attività<br>Nome progetto<br>Numero di riferimento attività<br>Nome dell'utente che ha modificato la data di conferma<br>Nuova data conferma<br>Attività [!UICONTROL Data completamento pianificata]<br>Informazioni su come la sequenza temporale del progetto è interessata da questa modifica<br>Assegnato al nome<br>Inserito dal nome<br>Proprietario progetto<br><strong>[!UICONTROL Vedi ulteriori dettagli]</strong> pulsante<br>*Nome progetto<br>*Numero riferimento progetto<br>*Numero totale di attività la cui data conferma è cambiata<br>*Nome attività<br>*Data del riepilogo giornaliero<br></p> </td> 
+   <td> <p>Nome attività<br>Nome progetto<br>Numero di riferimento attività<br>Nome dell'utente che ha modificato la data di conferma<br>Nuova data conferma<br>Attività [!UICONTROL Data completamento pianificata]<br>Informazioni su come la sequenza temporale del progetto è interessata da questa modifica<br>Assegnato al nome<br>Inserito dal nome<br>Proprietario progetto<br><strong>[!UICONTROL Vedi ulteriori dettagli]</strong> pulsante<br>*Nome progetto<br>*Numero riferimento progetto<br>*Numero totale di attività la cui data conferma è cambiata<br>*Attività Nome<br>*Data del riepilogo giornaliero<br></p> </td> 
    <td> <p><strong>Istantanea</strong> </p> <p><strong>e [!UICONTROL Daily]</strong> </p> </td> 
   </tr> 
   <tr> 

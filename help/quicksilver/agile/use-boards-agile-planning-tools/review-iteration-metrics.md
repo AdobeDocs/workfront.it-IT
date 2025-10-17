@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: boards
 title: Rivedi metriche iterazione
 description: Le metriche sono disponibili per ogni iterazione in un flusso di lavoro, sulla bacheca del processo di iterazione.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%

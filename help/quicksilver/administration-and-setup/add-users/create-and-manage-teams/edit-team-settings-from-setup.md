@@ -1,14 +1,14 @@
 ---
 title: Modificare le impostazioni di un team dall'area di configurazione
 description: In qualità di amministratore di Adobe Workfront, puoi modificare le impostazioni di un team dall’area Configurazione. È possibile aggiungere utenti a un team, impostare il modello di layout di un team e impostare la modalità di registrazione dello stato al completamento degli elementi di lavoro da parte di un team.
-author: Lisa
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -86,7 +86,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <td>Selezionare un proprietario per il team.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Membri team</td> 
+      <td role="rowheader">Membri del team</td> 
       <td> <p>Aggiungi membri del gruppo e. Inizia a digitare il nome di un utente, quindi selezionalo quando viene visualizzato. Ripetere questo processo per aggiungere più utenti al team.</p> 
       <p><b>SUGGERIMENTO</b>: è possibile aggiungere un numero qualsiasi di utenti a un team. Tuttavia, si consiglia di non aggiungere un numero eccessivo in un team, perché la gestione del lavoro del team potrebbe diventare troppo complessa.</p> </td> 
      </tr> 

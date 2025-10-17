@@ -1,15 +1,15 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: Condividi e scarica le bozze nell'app mobile  [!DNL Adobe Workfront]
+title: 'Condividi e scarica le bozze nell''app mobile  [!DNL Adobe Workfront] '
 description: Puoi condividere un documento di prova con destinatari interni ed esterni direttamente dall’app mobile. Puoi anche scaricare una bozza del documento sul tuo dispositivo mobile.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: a97ddd1e-1cae-49a8-b3a4-7c9850169179
-source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '597'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

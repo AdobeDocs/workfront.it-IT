@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Aggiungere una scheda ad hoc a una bacheca
 description: Puoi aggiungere rapidamente una scheda ad hoc a una bacheca e assegnarla a un membro della bacheca. La scheda può rappresentare un’attività, un problema, una persona, un gruppo o qualsiasi tipo di elemento che desideri includere nella bacheca.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 0%
@@ -89,7 +89,7 @@ Scheda ad hoc non connessa a un elemento di lavoro in [!DNL Adobe Workfront].
       <td>Seleziona una data di scadenza per la scheda. </td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>Stima </strong></td> 
+      <td role="rowheader"><strong>Stima [!UICONTROL]</strong></td> 
       <td>Digitare il numero stimato di ore per il completamento della scheda. Questa è solo una immissione manuale.</td>
      </tr>
      <tr> 
@@ -101,7 +101,7 @@ Scheda ad hoc non connessa a un elemento di lavoro in [!DNL Adobe Workfront].
       <td>Cerca e seleziona i tag per la scheda. Per informazioni sulla creazione di nuovi tag, vedere <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Aggiungi tag</a>.</td> 
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Connessione]</strong> </td>
+      <td role="rowheader"><strong>[!Connessione UICONTROL]</strong> </td>
       <td>È possibile collegare una scheda ad hoc a un'attività o a un problema [!DNL Workfront]. Per ulteriori informazioni, vedere "Convertire una scheda ad hoc in una scheda connessa" nell'articolo <a href="/help/quicksilver/agile/get-started-with-boards/connected-cards.md">Utilizzare schede collegate nelle bacheche</a>.</td>
      </tr>
      <tr> 

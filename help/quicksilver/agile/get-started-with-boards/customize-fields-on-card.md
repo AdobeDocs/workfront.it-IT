@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: customize-fields-on-card
 title: Personalizzare i campi visualizzati su una scheda
 description: È possibile personalizzare i campi visualizzati su una scheda disattivando un campo in modo che non venga visualizzato nella visualizzazione a schede complete o ridotta oppure nascondendo un campo nella visualizzazione a schede ridotta.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 0%

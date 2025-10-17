@@ -4,11 +4,11 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Creare una pianificazione
 description: Puoi definire le settimane lavorative degli utenti con le pianificazioni. È possibile associare una pianificazione a un utente o a un progetto. Questo consente a  [!DNL Workfront]  di calcolare le tempistiche e la disponibilità dell'utente.
-author: Lisa, Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
-source-git-commit: e8c89b68a022ae1c0cf5da20257cd8bc36e94d4c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 0%
@@ -113,7 +113,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
      <td><p>Selezionare i gruppi con accesso [!UICONTROL View] che possono visualizzare questa pianificazione.</p>
      <p>Solo gli utenti dei gruppi qui specificati possono trovare la pianificazione nel menu a discesa quando la assegnano a utenti o progetti.</p></tr>
     <tr>
-     <td>Fuso orario di </td>
+     <td>Fuso orario di [!UICONTROL]</td>
      <td><p>Seleziona il fuso orario per la pianificazione.</p>
      <p>Se si associa la pianificazione a un utente, è consigliabile che il fuso orario della pianificazione corrisponda a quello dell'utente. Per informazioni sui fusi orari dell'utente, vedere <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modificare il profilo di un utente.
      </td>

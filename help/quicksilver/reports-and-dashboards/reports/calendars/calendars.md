@@ -4,11 +4,11 @@ product-area: calendars
 navigation-topic: reports
 title: 'Calendari: indice articolo'
 description: Un report calendario è un report dinamico che fornisce una rappresentazione visiva del lavoro. È possibile visualizzare le informazioni sulla data in un report calendario per progetti, attività e problemi. Consulta questi articoli per comprendere i rapporti sul calendario in Adobe Workfront.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b46834db-358e-4ee2-9512-f7419351de30
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%

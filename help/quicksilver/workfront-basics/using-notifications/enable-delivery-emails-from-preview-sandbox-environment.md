@@ -2,10 +2,10 @@
 navigation-topic: notifications
 title: Abilitare la consegna di e-mail dall’ambiente Sandbox di anteprima
 description: Se desideri ricevere notifiche e-mail dall’ambiente Sandbox di anteprima, devi abilitare questa funzionalità nelle impostazioni utente mentre sei connesso all’ambiente di anteprima.
-author: Lisa
+author: Courtney, Becky
 feature: Get Started with Workfront
 exl-id: e5c7e387-d08d-42f6-a9e6-f44e514ef902
-source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 1%

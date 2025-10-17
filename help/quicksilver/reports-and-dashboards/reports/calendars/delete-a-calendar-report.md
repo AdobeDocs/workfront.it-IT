@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Eliminare un report calendario
 description: Puoi eliminare un calendario di tua proprietà o condiviso con te da altri utenti. Una volta eliminato, il calendario diventa inaccessibile agli utenti con cui lo hai condiviso.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 6208442e-21af-4cd1-ad55-52215bd4d959
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 2%

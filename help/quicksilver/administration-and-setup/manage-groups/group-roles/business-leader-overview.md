@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: group-roles
 title: Panoramica di Business Leader
 description: In un gruppo, il Business Leader è la persona che prende decisioni per il gruppo in merito a obiettivi, strategie, budget, assunzioni e così via. Ad esempio, in un’organizzazione con un Responsabile marketing, quella persona probabilmente sarà il Business Leader per il Marketing.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4081587f-1ace-4f40-a3a1-57231d5a5d43
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%

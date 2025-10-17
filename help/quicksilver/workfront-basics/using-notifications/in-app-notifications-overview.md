@@ -3,13 +3,13 @@ content-type: overview
 navigation-topic: notifications
 title: Panoramica delle notifiche in-app
 description: 'In questo articolo sono elencate le notifiche in-app che puoi ricevere. Le notifiche in-app ti mantengono informato su due tipi di informazioni: notifiche di annuncio e notifiche di elementi di lavoro. Sono disponibili sia dall’applicazione web che dall’app mobile.'
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: afc8cfe7-d9a7-458a-b437-bd4c75838cb0
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '826'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -52,7 +52,7 @@ Quando fai clic sull&#39;icona numerata ![Icona Notifiche](assets/notifications-
 * [[!UICONTROL Aggiornamenti]](#updates)
 * [[!UICONTROL Modifiche data]](#date-changes)
 * [[!UICONTROL Condividi]](#share)
-* [[!UICONTROL Altro]](#other)
+* [[!UICONTROL Altre]](#other)
 
 ### [!UICONTROL Approvazioni]
 
@@ -141,7 +141,7 @@ Quando fai clic sull&#39;icona numerata ![Icona Notifiche](assets/notifications-
 * ![Icona documento](assets/document.png) [!UICONTROL Documento condiviso con] [nome team] - [nome condivisore]
 * ![Icona bozza](assets/proof.png) [!UICONTROL Bozza condivisa con te] - Nome del [condivisore]
 
-### [!UICONTROL Altro]
+### [!UICONTROL Altre]
 
 * ![Icona errore](assets/error.png) [!UICONTROL Un errore richiede la tua attenzione]
 * ![Icona Annuncio](assets/announcement.png) [!UICONTROL Annuncio] - [Nome dell&#39;amministratore di Workfront]

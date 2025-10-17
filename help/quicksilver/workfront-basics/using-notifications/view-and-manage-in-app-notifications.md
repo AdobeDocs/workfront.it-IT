@@ -2,10 +2,10 @@
 navigation-topic: notifications
 title: Visualizzare e gestire le notifiche in-app
 description: 'Le notifiche in-app ti mantengono informato su due tipi di informazioni: notifiche di annuncio e notifiche di elementi di lavoro. Sono disponibili sia dall’applicazione web che dall’app mobile.'
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
-source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 0%

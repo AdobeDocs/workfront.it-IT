@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Aggiungi tag
 description: Puoi aggiungere tag alle schede per mostrare visivamente che sono simili. Puoi quindi filtrare in base a tali tag per visualizzare le relative schede.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 3%

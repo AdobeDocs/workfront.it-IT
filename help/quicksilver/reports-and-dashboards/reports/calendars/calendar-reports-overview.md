@@ -4,10 +4,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Panoramica dei rapporti sul calendario
 description: Un report calendario è un report dinamico che fornisce una rappresentazione visiva del lavoro. È possibile visualizzare le informazioni sulla data in un report calendario per attività, problemi e progetti.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 4%
@@ -32,7 +32,7 @@ La possibilità di accedere ai report del calendario in [!DNL Adobe Workfront] �
 
 * L&#39;utente appena creato non ha accesso ad altri calendari e visita la pagina del report del calendario per la prima volta
 
-  OPPURE
+  O
 
 * È possibile eliminare manualmente tutti i calendari e non disporre dell&#39;accesso ad altri calendari
 

@@ -4,11 +4,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Configurare l’accesso ai blueprint
 description: In qualità di amministratore di sistema, puoi consentire agli utenti di richiedere l’installazione di blueprint impostando una coda di richieste per archiviare le richieste. In questa posizione, puoi tenere traccia e aggiornare le richieste da un’unica posizione.
-author: Becky
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: d85f363f-2ab4-45cb-b851-a7f33e1ca905
-source-git-commit: 5fd855bec596926a4361fd07a1a763c7956e5e61
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%

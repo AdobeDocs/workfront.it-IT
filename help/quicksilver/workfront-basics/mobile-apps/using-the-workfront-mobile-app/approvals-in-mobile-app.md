@@ -1,15 +1,15 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: Approvazioni nell'app mobile  [!DNL Adobe Workfront]
+title: 'Approvazioni nell''app mobile  [!DNL Adobe Workfront] '
 description: Puoi gestire le approvazioni assegnate o delegate all'utente dall'area [!UICONTROL Approvazioni] nell'app mobile [!DNL Adobe Workfront] .
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 92259a17-209b-4bc1-8c14-826969b08a63
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '267'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -37,7 +37,7 @@ Puoi gestire le approvazioni assegnate o delegate dall&#39;area [!UICONTROL Appr
  </tbody> 
 </table>
 
-Le bozze seguono un processo di approvazione separato. Impossibile approvare una bozza da un elemento di lavoro o da un documento. Per informazioni sulla revisione e l&#39;approvazione delle bozze, consulta [Rivedi e prendi decisioni sulle bozze nell&#39;app mobile [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+Le bozze seguono un processo di approvazione separato. Impossibile approvare una bozza da un elemento di lavoro o da un documento. Per informazioni sulla revisione e l&#39;approvazione delle bozze, consulta [Rivedi e prendi decisioni sulle bozze nell&#39;app mobile [!DNL Adobe Workfront] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
 ## Rivedere un’approvazione
 

@@ -4,11 +4,11 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Riordina stati a livello di sistema e di gruppo
 description: In qualità di amministratore di Workfront, puoi modificare l’ordine degli stati di progetto, attività e problema per tutti gli utenti del sistema o per un singolo gruppo.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6fee45a6-1a55-4351-8b08-88244c742ed5
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 7%

@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Gestire le attività del team
 description: È disponibile una visualizzazione calendario delle attività e dei problemi su cui il team sta attualmente lavorando. È possibile assegnare articoli non assegnati, adeguare le assegnazioni correnti, adeguare le allocazioni correnti e altro ancora.
-author: Lisa
+author: Jenny
 feature: People Teams and Groups
 exl-id: 4bdec4b9-18b0-4981-a067-f47e259bc708
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 0%

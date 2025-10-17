@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Crea attività personali
 description: Le attività personali sono richieste di lavoro ad hoc inviate a un utente, a se stessi o a elementi da fare creati personalmente nell’area Home. In Workfront le richieste di lavoro ad hoc vengono salvate e gli elementi vengono eseguiti come attività personali.
-author: Lisa
+author: Becky
 feature: Get Started with Workfront
 exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 0%

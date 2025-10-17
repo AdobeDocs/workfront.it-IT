@@ -3,10 +3,10 @@ content-type: overview;reference
 navigation-topic: notifications
 title: Panoramica delle notifiche
 description: Adobe Workfront invia notifiche e-mail, notifiche in-app e notifiche sul dispositivo mobile.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '1395'
 ht-degree: 1%
@@ -182,4 +182,4 @@ Se sul telefono è installata l&#39;app mobile [!DNL Workfront], toccando i coll
 * [!UICONTROL Introduzione]
 * [!UICONTROL Ulteriori dettagli]
 
-Per ulteriori informazioni sull&#39;app mobile [!DNL Workfront], vedere [Utilizzare l&#39;app mobile  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
+Per ulteriori informazioni sull&#39;app mobile [!DNL Workfront], vedere [Utilizzare l&#39;app mobile  [!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).

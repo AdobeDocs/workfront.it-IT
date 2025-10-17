@@ -4,9 +4,9 @@ navigation-topic: search
 title: Utilizza il numero di riferimento degli oggetti
 description: In [!DNL Adobe Workfront] gli elementi sono identificati come oggetti. Gli oggetti corrispondono al database e vengono utilizzati per correlare i dati con un elemento. I numeri di riferimento sono utili per distinguere due oggetti altrimenti simili, ad esempio attività con lo stesso nome. Puoi cercare i numeri di riferimento e includerli nei rapporti.
 feature: Get Started with Workfront
-author: Lisa
+author: Courtney
 exl-id: 94f5a174-21cc-4c10-88ed-89a8014d28f4
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%

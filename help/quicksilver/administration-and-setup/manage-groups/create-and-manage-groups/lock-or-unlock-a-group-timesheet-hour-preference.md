@@ -4,11 +4,11 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: Blocca o sblocca una scheda orario di gruppo e la preferenza dell'ora
 description: Se si è un amministratore di gruppo, è possibile configurare e quindi bloccare una scheda orario e una preferenza per le ore per il gruppo dopo che un amministratore di Workfront lo ha sbloccato a livello di sistema.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5b36106f-d521-4cc1-9f1f-647415c282b4
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 0%

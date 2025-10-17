@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Report o elenchi: visualizza gli utenti associati a un oggetto'
 description: Puoi visualizzare gli utenti, i ruoli e i team associati agli oggetti nei rapporti o negli elenchi, nonché farvi riferimento nei filtri. Non è possibile eseguire il raggruppamento per utenti, mansioni o team associati agli oggetti.
-author: Lisa and Nolan
+author: Lisa and Jenny
 feature: Reports and Dashboards
 exl-id: 9abdaafb-da2c-4b5d-9117-59afa4a1e71f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 2%

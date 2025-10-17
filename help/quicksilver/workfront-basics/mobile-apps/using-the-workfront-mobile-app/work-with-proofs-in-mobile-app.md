@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: 'Rivedi e prendi decisioni sulle bozze nell''app mobile  [!DNL Adobe Workfront] '
 description: Quando ti viene assegnata una bozza per l’approvazione, questa viene visualizzata nell’elenco delle approvazioni nell’app mobile. Puoi rivedere la bozza direttamente nell’app e prendere una decisione al riguardo.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
-source-git-commit: 234fc6b7b5acb0914744831066cb88a965e54048
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 0%

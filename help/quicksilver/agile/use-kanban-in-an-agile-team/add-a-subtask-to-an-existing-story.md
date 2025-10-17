@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Aggiungere un’attività secondaria a una storia esistente nel Kanban Board
 description: Leggi questo articolo per scoprire come creare sottoattività per i brani esistenti sulla bacheca Kanban.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: c6610616-80e5-4ded-9d23-63f15536e45c
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 0%

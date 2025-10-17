@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Commento sulle bozze in iOS
 description: È possibile rivedere e risolvere i commenti esistenti su una bozza e aggiungere nuovi commenti e annotazioni al documento della bozza.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: c38f0d80-11e0-4d5a-9591-602543177fe6
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '819'
 ht-degree: 0%

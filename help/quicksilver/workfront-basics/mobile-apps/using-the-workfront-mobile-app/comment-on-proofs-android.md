@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Commento sulle bozze in Android
 description: È possibile rivedere e risolvere i commenti esistenti su una bozza e aggiungere nuovi commenti e annotazioni al documento della bozza.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 5124144e-b613-46c4-8697-b40caf22af04
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -92,7 +92,7 @@ L&#39;accesso a commentare le bozze è lo stesso di [!DNL Adobe Workfront]. Per 
 
    ![Impostazioni dello strumento di disegno](assets/android-drawingtoolsettings-350x328.png)
 
-1. Draw la forma nel documento della bozza. Seleziona l&#39;icona **[!UICONTROL Annulla]** ![Annulla](assets/android-undo-icon-30x31.png) per annullare il disegno.
+1. Disegnare la forma nel documento della bozza. Seleziona l&#39;icona **[!UICONTROL Annulla]** ![Annulla](assets/android-undo-icon-30x31.png) per annullare il disegno.
 1. (Condizionale) Selezionare la forma e scegliere **[!UICONTROL Impostazioni]** per modificare le impostazioni della forma oppure **[!UICONTROL Rimuovi]** per eliminare la forma.
 
    ![Menu Disegno](assets/android-drawing-settingsremove-350x166.png)

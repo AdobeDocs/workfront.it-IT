@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Disattivare o eliminare un team
 description: Puoi disattivare i team che non utilizzi più conservando i dati storici associati. Gli amministratori di Adobe Workfront possono riattivare un team in qualsiasi momento dall’area Team di Configurazione.
-author: Lisa
+author: Jenny
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Puoi disattivare i team che non utilizzi più conservando i dati storici associa
    <td> 
     <ul> 
      <li> <p>Menu a discesa di selezione principale nell'area [!UICONTROL Teams]</p> </li> 
-     <li> <p>[!UICONTROL Assegnazioni] completamento automatico</p> </li> 
+     <li> <p>[Assegnazioni UICONTROL] completamento automatico</p> </li> 
      <li> <p>Finestra di dialogo [!UICONTROL Aggiungi a Kanban] in un progetto</p> </li> 
     </ul> </td> 
   </tr> 

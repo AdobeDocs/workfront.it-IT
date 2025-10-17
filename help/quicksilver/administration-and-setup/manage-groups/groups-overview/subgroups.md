@@ -5,11 +5,11 @@ product-area: system-administration;user-management
 navigation-topic: groups-overview
 title: Panoramica dei sottogruppi
 description: È possibile creare fino a 14 livelli di sottogruppi in un unico gruppo. Su uno qualsiasi di questi livelli, puoi creare un numero illimitato di sottogruppi paralleli.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a4280498-6719-4911-a69a-b715a5438eed
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Qualsiasi gruppo aggiunto a un gruppo esistente diventa automaticamente un sotto
 Group Admins of a subgroup can't manage statuses or project preferences of the subgroup YET (Sprint 22/Oct 28, 2020)</p>
 -->
 
-È possibile assegnare i membri del sottogruppo come amministratori di gruppo al sottogruppo quando lo si crea o lo si modifica. Per istruzioni, vedere [&#128279;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create) nell&#39;articolo [Creare un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+È possibile assegnare i membri del sottogruppo come amministratori di gruppo al sottogruppo quando lo si crea o lo si modifica. Per istruzioni, vedere [](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create) nell&#39;articolo [Creare un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 In alternativa, puoi lasciare l’amministrazione del sottogruppo agli amministratori di gruppi assegnati ai gruppi al di sopra di esso. Quando si crea un sottogruppo, gli amministratori dei gruppi sopra i gruppi dispongono dell&#39;accesso automatico per gestire il sottogruppo.
 

@@ -5,11 +5,11 @@ content-type: reference;overview
 product-area: system-administration;user-management
 navigation-topic: groups-overview
 description: Un amministratore Workfront può creare gruppi di utenti che coincidono con la struttura del reparto. I gruppi sono simili ma distinti dai team e dalle aziende.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1353ab04-7de7-4d30-a092-27807c950777
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Quando si crea o si modifica uno dei seguenti oggetti di Workfront, è possibile
 
   Per istruzioni sull&#39;associazione di un progetto a un gruppo, vedere [Gestire le informazioni nell&#39;area Panoramica del progetto](../../../manage-work/projects/manage-projects/understand-project-overview-area.md).
 
-* **Portfolio, programma o società**: durante la creazione o la modifica di un portfolio, programma o società, è possibile assegnarvi un singolo gruppo per indicare che il gruppo ne è proprietario o ne è responsabile. Grazie a questa associazione, gli amministratori e gli utenti possono identificare facilmente i portfolio, i programmi e le aziende su cui lavorano i loro gruppi.
+* **Portfolio, programma o società**: durante la creazione o la modifica di un portfolio, programma o società, è possibile assegnare un singolo gruppo per indicare che il gruppo è proprietario o responsabile del gruppo. Grazie a questa associazione, gli amministratori e gli utenti possono identificare facilmente i portfolio, i programmi e le aziende su cui lavorano i loro gruppi.
 
   Ad esempio, un amministratore gruppo può elencare tutti i portfolio dell’organizzazione utilizzando un elenco o un rapporto e annotare nella colonna Gruppo quali portfolio vengono assegnati al proprio gruppo.
 

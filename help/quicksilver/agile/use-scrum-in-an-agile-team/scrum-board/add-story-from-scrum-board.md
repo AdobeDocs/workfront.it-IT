@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Aggiungi storie e problemi dalla bacheca Scrum
 description: Puoi creare rapidamente una nuova storia o un nuovo problema direttamente dalla bacheca Scrum, oppure aggiungere una storia o un problema esistente dalla bacheca.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: d4eec3c5-8cea-467f-b1b4-3f9fab57b10f
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -73,7 +73,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
         <td>Il numero stimato di ore o punti per l’articolo.</td>
     </tr>
     <tr>
-        <td><strong>Progetto padre </strong></td>
+        <td><strong>Progetto padre [!UICONTROL]</strong></td>
         <td>(Obbligatorio) Il progetto in cui è memorizzato il nuovo brano o problema. Inizia a digitare il nome di un progetto, quindi selezionalo quando viene visualizzato nell’elenco.</td>
     </tr>
    </table>

@@ -5,11 +5,11 @@ keywords: gruppo,layout,modelli
 navigation-topic: work-with-a-groups-objects
 title: Creare e modificare i modelli di layout di un gruppo
 description: Quando si visualizza un gruppo gestito nell'area Gruppi, è possibile visualizzare e utilizzare il modello di layout per il quale gli amministratori del gruppo o di uno dei suoi sottogruppi dispongono dell'accesso amministrativo.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
-source-git-commit: 1554c067afcc548c7f7abd03dbc3a49404e3c89c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%

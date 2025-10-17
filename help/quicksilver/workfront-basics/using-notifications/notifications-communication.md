@@ -1,12 +1,12 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: "Notifiche: Comunicazione"
+title: 'Notifiche: comunicazione'
 description: Le notifiche seguenti ti avvisano della comunicazione, ad esempio un commento di aggiornamento, che avviene su un elemento di lavoro a cui sei associato. Per informazioni sulla configurazione delle notifiche ricevute, consulta Modificare le notifiche e-mail.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 473e1760-f85a-4622-beff-9431046d655e
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '1530'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
    <td><strong>Giornaliera</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>È stato pubblicato un commento alla mia richiesta</strong> </p> <p>Il contatto principale per un problema riceve una notifica e-mail quando un commento viene pubblicato su una richiesta dell'helpdesk , a meno che l'utente che ha pubblicato il commento non sia anche il contatto principale per il problema.</p> <p>Anche tutti gli utenti che sono inclusi direttamente nel commento ricevono una notifica e-mail.</p> <p>Viene inviata una notifica solo se lo stato del progetto è [!UICONTROL Current].</p> <p>L'oggetto dell'e-mail di notifica immediata è: <em>[!UICONTROL Comment on] &lt;Nome richiesta&gt; in &lt;Nome progetto&gt; (ref# &lt;Numero di riferimento richiesta&gt;)</em></p> <p>L'oggetto della notifica del riepilogo giornaliero è:<em> [!UICONTROL Digest of Communication] &lt;Data del riepilogo giornaliero&gt;</em></p> </td> 
+   <td> <p><strong>È stato pubblicato un commento alla mia richiesta</strong> </p> <p>Il contatto principale per un problema riceve una notifica e-mail quando un commento viene pubblicato su una richiesta dell'helpdesk [!UICONTROL], a meno che l'utente che ha pubblicato il commento non sia anche il contatto principale per il problema.</p> <p>Anche tutti gli utenti che sono inclusi direttamente nel commento ricevono una notifica e-mail.</p> <p>Viene inviata una notifica solo se lo stato del progetto è [!UICONTROL Current].</p> <p>L'oggetto dell'e-mail di notifica immediata è: <em>[!UICONTROL Comment on] &lt;Nome richiesta&gt; in &lt;Nome progetto&gt; (ref# &lt;Numero di riferimento richiesta&gt;)</em></p> <p>L'oggetto della notifica del riepilogo giornaliero è:<em> [!UICONTROL Digest of Communication] &lt;Data del riepilogo giornaliero&gt;</em></p> </td> 
    <td> Nome richiesta<br>Nome progetto<br>Numero di riferimento<br>Nome dell'utente che ha risposto alla richiesta<br>Data e ora di creazione del commento<br>Testo del commento nella richiesta<br>*Numero totale di commenti ricevuti<br>*Numero di commenti ricevuti per ogni richiesta<br>*Nome progetto<br>*<strong>[!UICONTROL Visualizza tutte le notifiche]</strong> pulsante<br>*Data del riepilogo giornaliero<br></td> 
    <td> <p><strong>Istantanea</strong> </p> <p><strong>e Giornaliero</strong> </p> </td> 
   </tr> 

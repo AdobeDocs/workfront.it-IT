@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: Aggiornare o modificare un elemento di lavoro nell’area Home
 description: Puoi visualizzare e aggiungere aggiornamenti a un elemento di lavoro all'interno dell'area [!UICONTROL Home] in Adobe Workfront. È inoltre possibile modificare altri dati relativi all'elemento di lavoro se si dispone dell'accesso per modificarlo.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 7%

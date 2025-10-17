@@ -1,13 +1,13 @@
 ---
 product-previous: mobile
 navigation-topic: mobile-apps
-title: Utilizza l'app mobile  [!DNL Adobe Workfront]
+title: 'Utilizza l''app mobile  [!DNL Adobe Workfront] '
 description: Accelera il coinvolgimento e semplifica il lavoro dei team e dei singoli utenti dell'organizzazione tramite  [!DNL Adobe Workfront's] app mobile, disponibile su qualsiasi dispositivo iOS o Android.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 60ff39c7a8c4736e1a176dd22bd0be5ab804223f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Puoi scaricare e installare l&#39;app da [Apple App Store](https://apps.apple.co
 Nell&#39;app mobile è possibile completare gli elementi di lavoro e visualizzare le informazioni come si fa nella versione del browser di [!DNL Workfront]. Sono disponibili queste e altre funzioni:
 
 * Lavora e assegna attività e problemi
-* Aggiornamenti Post
+* Pubblica aggiornamenti
 * Accedere alle schede madri Workfront
 * Visualizzare e gestire i progetti
 * Visualizzare, commentare e prendere decisioni sulle bozze
@@ -55,11 +55,11 @@ Per ulteriori informazioni sull&#39;app mobile [!DNL Adobe Workfront], vedere i 
 * [[!UICONTROL Widget area Home]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)
 * [Sezione [!UICONTROL Il mio lavoro] nell&#39;app mobile](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)
 * [[!DNL Adobe Workfront] [!UICONTROL Bacheche] per dispositivi mobili](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)
-* [Rivedi e prendi decisioni sulle bozze nell&#39;app mobile  [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)
+* [Rivedi e prendi decisioni sulle bozze nell&#39;app mobile  [!DNL Adobe Workfront] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)
 * [Commento sulle bozze in [!DNL iOS]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)
 * [Commento sulle bozze in [!DNL Android]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)
-* [Condividi e scarica le bozze nell&#39;app mobile  [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/share-proofs-mobile.md)
-* [Approvazioni nell&#39;app mobile  [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
+* [Condividi e scarica le bozze nell&#39;app mobile  [!DNL Adobe Workfront] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/share-proofs-mobile.md)
+* [Approvazioni nell&#39;app mobile  [!DNL Adobe Workfront] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
 * [[!DNL Adobe Workfront] per  [!DNL Mobile Device Management] (MDM)](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
 * [Configura [!DNL Adobe Workfront] per [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
 

@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Creare e modificare i modelli di progetto di un gruppo
 description: Quando visualizzi un gruppo che gestisci nell’area Gruppi, puoi visualizzare e utilizzare i modelli di progetto associati al gruppo e ai relativi sottogruppi.
-author: Caroline
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f97a12eb-9002-4f11-908a-c68c1e6dc9c9
-source-git-commit: 10780ff51d5b1d9d73cb0a6fb0982abc320b0313
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 1%

@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
 title: Assegnare utenti a una storia sulla bacheca Scrum
 description: Leggi questo articolo per scoprire come assegnare gli utenti a una storia sulla bacheca Scrum.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 57fa28cc-f93d-4938-9d65-3dcf90fdf6a0
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%

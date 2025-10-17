@@ -5,11 +5,11 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Stati attività di sistema
 description: I tre stati delle attività di sistema incorporati in Workfront sono obbligatori e consentono di sbloccarli, rinominarli e riordinarli, ma non di nasconderli o eliminarli. È inoltre possibile aggiungere nuovi stati delle attività di sistema in base alle esigenze dell'organizzazione. La modifica dello stato di un'attività è in genere un processo manuale, ma a volte lo stato di un'attività viene modificato automaticamente, a seconda di altri fattori che si verificano nel sistema.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: b8c751c3-aed3-4836-a888-f3f8a5f08421
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 0%

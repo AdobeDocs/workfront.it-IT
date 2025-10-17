@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Visualizzare e gestire gli elementi eliminati di recente di un gruppo
 description: Quando si visualizza un gruppo gestito nell'area Gruppi, è possibile visualizzare, filtrare, ripristinare ed esportare gli elementi di lavoro, i documenti e i modelli eliminati di recente.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: d5fbc71b-3b22-48d1-a056-f2c4b32c220c
-source-git-commit: 7eaff1c74cd880bde062e6fdf169c73d6eeb7f75
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 1%

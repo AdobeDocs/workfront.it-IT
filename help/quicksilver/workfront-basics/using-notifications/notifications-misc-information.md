@@ -1,12 +1,12 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: "Notifiche: informazioni varie"
+title: 'Notifiche: informazioni varie'
 description: Le notifiche seguenti ti avvisano delle attività che si verificano su un progetto che stai sponsorizzando.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
-source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Messaggio inviato al Centro notifiche </strong> </p> <p>Riceverai una notifica e-mail quando un nuovo messaggio viene inviato al [!UICONTROL Announcement Center]. </p> <p>Oggetto dell'e-mail di notifica immediata: <em>[!UICONTROL [!DNL Adobe Workfront] notifica]: &lt;Oggetto della notifica&gt;</em></p> </td> 
+   <td> <p><strong>Messaggio inviato al Centro notifiche [!UICONTROL]</strong> </p> <p>Riceverai una notifica e-mail quando un nuovo messaggio viene inviato al [!UICONTROL Announcement Center]. </p> <p>Oggetto dell'e-mail di notifica immediata: <em>[!UICONTROL [!DNL Adobe Workfront] notifica]: &lt;Oggetto della notifica&gt;</em></p> </td> 
    <td> Oggetto della notifica<br>Testo del messaggio incluso nella notifica<br>Documenti allegati<br>Nome dell'utente che ha inviato la notifica<br>Data e ora di invio della notifica </td> 
    <td><strong>Istantanea</strong> </td> 
   </tr> 

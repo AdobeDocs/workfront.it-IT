@@ -5,9 +5,9 @@ navigation-topic: use-workfront-view
 title: Filtra elenchi progetti in  [!DNL Adobe Workfront] Visualizza
 feature: Get Started with Workfront
 description: Per impostazione predefinita, [!DNL Adobe Workfront] Visualizza visualizza l'elenco [!UICONTROL Tutti i progetti] in [!DNL Workfront], quindi vengono elencati tutti i progetti a cui hai accesso, indipendentemente dal loro stato.
-author: Nolan
+author: Lisa
 exl-id: 78efce1a-f144-4e47-bd7e-c0347e016bea
-source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 1%

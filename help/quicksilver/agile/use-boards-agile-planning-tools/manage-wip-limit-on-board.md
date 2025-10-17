@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Gestire il limite WIP (Work In Progress) su una bacheca
 description: È possibile configurare un limite WIP per ogni colonna di una bacheca.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 7901c6e7-75a4-41e4-b288-d527c4a6d031
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%

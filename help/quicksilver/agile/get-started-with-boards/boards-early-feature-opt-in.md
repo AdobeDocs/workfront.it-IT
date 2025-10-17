@@ -4,10 +4,10 @@ content-type: reference
 navigation-topic: boards
 title: Consenso anticipato alle funzionalità per  [!DNL Workfront]  bacheche
 description: Leggi questo articolo per saperne di più sul consenso anticipato alle funzioni  [!DNL Workfront Boards] .
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 0%
@@ -33,7 +33,7 @@ La tabella seguente illustra le funzioni principali delle bacheche e il loro sta
    <th><strong>Stato</strong></th> 
   </tr>
   <tr>
-   <td>Area [!UICONTROL Bacheche] nel menu principale </td>
+   <td>Area [!UICONTROL Bacheche] nel menu principale [!UICONTROL]</td>
    <td>Rilasciato</td>
   </tr>
     <tr>

@@ -5,11 +5,11 @@ keywords: gestisci,sottogruppo,modifica
 navigation-topic: create-and-manage-subgroups
 title: Gestire un sottogruppo
 description: In qualità di amministratore di gruppo di un sottogruppo, puoi creare, spostare, visualizzare, modificare, copiare, rinominare, esportare ed eliminare il sottogruppo. È inoltre possibile rendere un sottogruppo un gruppo di primo livello rimuovendolo dal relativo gruppo padre.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1386'
 ht-degree: 0%
@@ -180,7 +180,7 @@ Per copiare un sottogruppo:
 >[!TIP]
 >
 >Quando disattivi un gruppo con sottogruppi al di sotto di esso, anche questi sottogruppi diventano inattivi. Se desideri che uno dei due sia attivo, puoi utilizzare queste istruzioni per rimuoverlo dal gruppo principale e riattivarlo.
->&#x200B;>Per istruzioni sulla disattivazione e la riattivazione dei gruppi, vedere [Disattivare o riattivare un gruppo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
+>>Per istruzioni sulla disattivazione e la riattivazione dei gruppi, vedere [Disattivare o riattivare un gruppo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
 
 {{step-1-to-setup}}
 

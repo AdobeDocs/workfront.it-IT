@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Aggiungere un’attività secondaria a una storia esistente nella bacheca Scrum
 description: Quando create sottoattività per i brani esistenti, tenete presente l'impostazione Modalità di completamento per il progetto, poiché questo influisce sul modo in cui i brani vengono aggiornati.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 264e66e9-94c7-4904-baad-f733d39b4791
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>
    <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td>Accesso [!UICONTROL Contribute] o [!UICONTROL Gestisci] all'attività su cui si trova la sottoattività </td> 
+   <td>Accesso [!UICONTROL Contribute] o [!UICONTROL Manage] all'attività su cui si trova la sottoattività </td> 
   </tr>
  </tbody> 
 </table>

@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Gestisci voci elenco di controllo sulle schede
 description: L’utilizzo di un elenco di controllo su una scheda consente di suddividere il lavoro in incrementi più piccoli o di aggiungere note alla scheda. Gli elementi dell’elenco di controllo sono disponibili sia su schede ad hoc che su schede connesse.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 60e47a0a-36fb-4a86-8ec7-b135f9725b79
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%

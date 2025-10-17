@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Eliminare o archiviare una scheda da una bacheca
 description: Quando elimini una scheda da una bacheca, questa viene eliminata definitivamente e non può essere ripristinata. Quando si archivia una scheda, questa viene inviata all'archivio e può essere successivamente ripristinata nella bacheca.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 1%

@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: collaboration
 title: Visualizza organigramma
 description: La funzione organigramma consente di visualizzare l’organigramma associato a un particolare utente di Adobe Workfront. I grafici organizzativi sono un ottimo modo per visualizzare la struttura di un reparto specifico.
-author: Lisa
+author: Becky
 feature: People Teams and Groups
 exl-id: 10c1fc55-8df4-4c2a-9251-ee6db9ee6c0d
-source-git-commit: 722295463c1338a70ff42c26acf69b09cf33f725
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%

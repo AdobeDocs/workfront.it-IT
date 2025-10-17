@@ -4,10 +4,10 @@ content-type: overview
 product-area: agile-and-teams;projects
 navigation-topic: agile-in-projects
 description: Puoi sfruttare le funzionalità agili per il tuo progetto senza le problematiche amministrative che in genere accompagnano le procedure agili (come la gestione del backlog di un team, la creazione di iterazioni e così via).
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 5961a2d8-87c9-48f0-9075-828d19cbd5ad
-source-git-commit: 7fc6230643d0a24c3b483df8165294ceca6dcce7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 0%

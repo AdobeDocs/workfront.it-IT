@@ -4,11 +4,11 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Configura le preferenze di Ore e Timesheet
 description: In qualità di amministratore di  [!DNL Adobe Workfront] , puoi specificare le preferenze per le schede orario e le ore in  [!DNL Workfront]  per definire gli elementi con cui le schede orario possono essere precompilate e a quali elementi gli utenti possono registrare il tempo.
-author: Alina and Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: e8c89b68a022ae1c0cf5da20257cd8bc36e94d4c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1411'
 ht-degree: 0%

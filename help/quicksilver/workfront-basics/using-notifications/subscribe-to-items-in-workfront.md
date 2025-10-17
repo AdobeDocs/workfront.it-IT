@@ -2,10 +2,10 @@
 navigation-topic: notifications
 title: Iscriviti agli elementi in Adobe Workfront
 description: Adobe Workfront invia notifiche sugli elementi che ti sono stati assegnati o di cui sei proprietario. Se desideri seguire la comunicazione su elementi che non ti sono assegnati ma che potrebbero influire sul tuo lavoro, puoi abbonarti.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
-source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 0%

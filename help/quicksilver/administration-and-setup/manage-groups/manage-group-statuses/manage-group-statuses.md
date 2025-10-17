@@ -5,12 +5,12 @@ product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: Gestisci stati gruppo
 description: In qualità di amministratore di gruppo, puoi creare stati personalizzati per un gruppo che gestisci. Questo consente di eliminare la necessità di decine di stati personalizzati a livello di azienda e consente una maggiore autonomia nelle gerarchie di gruppo. È inoltre possibile modificare lo stato a livello di sistema di un gruppo gestito da un amministratore di Workfront.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 98512e42-5199-4bfc-9252-7ae0d7f7d614
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%

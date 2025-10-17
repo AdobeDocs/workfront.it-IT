@@ -4,10 +4,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Adobe Workfront per iOS
 description: L'app  [!DNL Adobe Workfront]  ti consente di accedere al tuo lavoro su qualsiasi dispositivo iOS. Puoi installare e utilizzare l'app mobile  [!DNL Workfront]  su telefoni e tablet con iOS 10 o versione successiva. È disponibile un'app mobile dedicata [!DNL Workfront]  sia per iPhone che per iPad.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: dcf52fc5-8029-49e0-bf6a-0733df334dc2
-source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 2%
@@ -39,7 +39,7 @@ L&#39;area [!UICONTROL Home] ti consente di lavorare direttamente sulle attivit�
    <td> 
     <ul> 
      <li>Aggiornare gli stati di attività e problemi</li> 
-     <li>Post nell’area Aggiornamenti</li> 
+     <li>Pubblica nell’area Aggiornamenti</li> 
      <li>Visualizza documenti</li> 
      <li>Allega foto</li> 
      <li> <p>Creare una richiesta o un’attività rapida</p> <p>Nota: le attività rapide create nella home sono attività personali, a meno che non si scelga di assegnare un progetto.</p> </li> 
@@ -73,7 +73,7 @@ L&#39;area [!UICONTROL Progetti] ti consente di interagire con e gestire i [!UIC
     <ul> 
      <li>Aggiorna stato progetto</li> 
      <li>Visualizza dettagli progetto importanti</li> 
-     <li>Post nell'area [!UICONTROL Aggiornamenti]</li> 
+     <li>Pubblica nell'area [!UICONTROL Aggiornamenti]</li> 
      <li>Convertire attività, problemi e richieste in progetti</li> 
     </ul> </td> 
    <td> 
@@ -113,9 +113,9 @@ Nell&#39;area [!UICONTROL Approvazioni] è possibile visualizzare e approvare [!
  </tbody>
 </table>
 
-Per ulteriori informazioni sulle approvazioni, consulta [Approvazioni nell&#39;app mobile [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
+Per ulteriori informazioni sulle approvazioni, consulta [Approvazioni nell&#39;app mobile [!DNL Adobe Workfront] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
 
-Per informazioni sulla revisione e l&#39;approvazione delle bozze, consulta [Rivedi e prendi decisioni sulle bozze nell&#39;app mobile [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+Per informazioni sulla revisione e l&#39;approvazione delle bozze, consulta [Rivedi e prendi decisioni sulle bozze nell&#39;app mobile [!DNL Adobe Workfront] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
 ![Elenco approvazioni nell&#39;app mobile](assets/mobile-approvals-adobe-350x574.png)
 
@@ -145,7 +145,7 @@ L&#39;area [!UICONTROL Richieste] consente di visualizzare i dettagli sulle rich
     </ul> </td>
    <td>
     <ul>
-     <li>Post nell'area [!UICONTROL Aggiornamenti]</li>
+     <li>Pubblica nell'area [!UICONTROL Aggiornamenti]</li>
      <li>Visualizza documenti</li>
      <li>Allega foto</li>
      <li>Salvare una richiesta come bozza</li>
@@ -160,7 +160,7 @@ L&#39;area [!UICONTROL Richieste] consente di visualizzare i dettagli sulle rich
 
 L&#39;area [!UICONTROL schede orario] consente di visualizzare i dettagli delle schede orario. Nell&#39;area [!UICONTROL Schede orario] dell&#39;app, puoi:
 
-* Post nell&#39;area [!UICONTROL Aggiornamenti]
+* Pubblica nell&#39;area [!UICONTROL Aggiornamenti]
 * Regola i tipi di ora
 * Modifica l’ora di accesso
 * Inserisci commenti sulla scheda orario

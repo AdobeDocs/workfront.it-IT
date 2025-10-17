@@ -4,10 +4,10 @@ navigation-topic: notifications
 keywords: modifica,e-mail,notifica,impostazioni
 title: Modifica le tue notifiche e-mail
 description: Questo articolo descrive come gestire le notifiche e-mail nel profilo utente.
-author: Lisa
+author: Courtney, Becky
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%

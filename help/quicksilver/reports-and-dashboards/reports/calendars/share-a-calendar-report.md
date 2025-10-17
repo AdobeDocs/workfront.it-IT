@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Condividere un rapporto calendario
 description: Puoi condividere un calendario con altri utenti e renderlo disponibile pubblicamente, consentendo a un utente senza una licenza di  [!DNL Adobe Workfront]  di visualizzarlo.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 1%

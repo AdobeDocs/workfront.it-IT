@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Usa schede collegate sulle bacheche
 description: È possibile aggiungere alla bacheca una scheda connessa alle attività e ai problemi esistenti in Workfront.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1430'
 ht-degree: 1%
@@ -126,7 +126,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <td>La modifica di questa data determina anche la modifica della data di completamento pianificata per l'oggetto [!DNL Workfront] connesso.</td>
      </tr>
       <tr>
-      <td role="rowheader"><strong>Stima </strong></td>
+      <td role="rowheader"><strong>Stima [!UICONTROL]</strong></td>
       <td><p>Il numero di ore per il completamento della scheda.</p><p>La modifica della stima cambia anche il valore dei punti della storia sull'oggetto [!DNL Workfront] connesso.</p></td>
      </tr>
      <tr>
@@ -152,7 +152,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <p>Per ulteriori informazioni sulle sottoattività, vedere <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">Gestione delle sottoattività nelle bacheche</a>.</p></td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>Elenco di controllo di </strong></td>
+      <td role="rowheader"><strong>Elenco di controllo di [!UICONTROL]</strong></td>
       <td><p>Fare clic su <strong>[!UICONTROL Add checklist item]</strong>. Digitare quindi il titolo dell'elemento e premere Invio. Un altro elemento viene aggiunto automaticamente. Continua a inserire i titoli per aggiungere altri elementi.</p>
       <p>Il contatore nella parte superiore dell’elenco di controllo mostra il numero di elementi completati e il numero totale di elementi.</p> <p>Per ulteriori informazioni sugli elementi dell'elenco di controllo, vedere <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Gestire gli elementi dell'elenco di controllo sulle schede</a>.</p></td>
      </tr>

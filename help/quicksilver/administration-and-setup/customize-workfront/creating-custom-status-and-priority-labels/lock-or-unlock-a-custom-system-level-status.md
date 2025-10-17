@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 title: Stati bloccati e sbloccati a livello di sistema
 description: Il blocco degli stati personalizzati è un modo per garantire che le persone in tutta l’organizzazione utilizzino gli stessi processi nel proprio flusso di lavoro. Quando uno stato è bloccato, è disponibile per tutti gli utenti del sistema. Sebbene sia possibile modificarlo o eliminarlo, gli amministratori di gruppi non possono farlo per i loro gruppi. Al contrario, lo sblocco degli stati personalizzati consente agli amministratori di gruppi una maggiore flessibilità per gestire i flussi di lavoro univoci utilizzati nei loro gruppi. Possono modificare gli attributi di uno stato sbloccato o eliminarlo per i loro gruppi.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0e58a1d6-5e0c-4445-a5ac-400dfd4c4948
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%

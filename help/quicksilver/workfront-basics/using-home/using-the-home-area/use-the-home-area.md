@@ -3,11 +3,11 @@ content-type: reference
 navigation-topic: home-navigation-topic
 title: 'Utilizza l’area Home: indice degli articoli'
 description: Leggi questi articoli per scoprire come utilizzare l’area Home di Adobe Workfront.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: f112e1f2778f28ec23cdd56c6b6dae3ac46f3eec
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%

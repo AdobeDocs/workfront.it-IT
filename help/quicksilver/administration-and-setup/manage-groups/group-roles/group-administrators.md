@@ -5,14 +5,14 @@ content-type: reference;overview
 product-area: system-administration;user-management
 navigation-topic: group-roles
 description: Gli amministratori di Adobe Workfront in un’organizzazione di grandi dimensioni con molti reparti potrebbero non voler gestire tutti i reparti e i gruppi dell’organizzazione all’interno di tali reparti. È invece possibile creare un gruppo per ogni reparto e sottogruppi all'interno del gruppo, ciascuno gestito da un amministratore di gruppo.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 589cf9fb-f195-4b69-a240-3f73e6ca623e
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1047'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -66,7 +66,7 @@ Ogni amministratore di gruppo deve disporre di
 >[!IMPORTANT]
 >
 >Gli amministratori dei gruppi devono disporre di un accesso più elevato rispetto a quelli che gestiscono; in caso contrario, non potranno visualizzare o modificare livelli di accesso inferiori.
->Per istruzioni sulla concessione dell&#39;accesso, vedere [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>>Per istruzioni sulla concessione dell&#39;accesso, vedere [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Per un amministratore di gruppo che deve assegnare profili della scheda orario agli utenti nei loro gruppi e sottogruppi, consigliamo anche l’accesso Amministrativo alle schede orario e alle ore. Per istruzioni sulla concessione di questo accesso, vedere [Concedere agli utenti l&#39;accesso amministrativo ad alcune aree](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
@@ -76,7 +76,7 @@ In qualità di amministratore di gruppo, puoi eseguire le attività descritte di
 
 >[!NOTE]
 >
->Nel nuovo modello di determinazione prezzi e imballaggio, è necessario disporre di un piano Prime o di un piano superiore per eseguire le operazioni seguenti:
+>Nel nuovo modello di determinazione prezzi e imballaggio è necessario disporre di un piano Prime o superiore per eseguire le operazioni seguenti:
 >
 > * Creare notifiche di eventi di gruppo
 > * Configurare le preferenze di progetto del gruppo
@@ -116,7 +116,7 @@ In qualità di amministratore di gruppo, puoi eseguire le attività descritte di
 
 ### Gestire le preferenze e gli strumenti del gruppo {#manage-group-preferences-and-tools}
 
-* Quando una preferenza di progetto, una preferenza di attività o problema oppure una preferenza di schede orario e ore viene sbloccata per i gruppi in tutto il sistema, modificare tale preferenza per i gruppi gestiti. Queste preferenze influiscono sul comportamento di un progetto, di un’attività e di un problema. Per ulteriori informazioni, vedi:
+* Quando una preferenza di progetto, una preferenza di attività o problema oppure una preferenza di schede orario e ore viene sbloccata per i gruppi in tutto il sistema, modificare tale preferenza per i gruppi gestiti. Queste preferenze influiscono sul comportamento di un progetto, di un’attività e di un problema. Per ulteriori informazioni vedi quanto segue:
 
    * [Configurare le preferenze del progetto per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
    * [Configurare le preferenze per attività e problemi per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)

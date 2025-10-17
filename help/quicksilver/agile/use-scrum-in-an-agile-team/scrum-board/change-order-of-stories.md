@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Modificare l’ordine delle storie sulla bacheca Scrum
 description: L'ordine in cui le storie vengono visualizzate sulla bacheca delle storie non indica la priorità. Tuttavia, può influenzare la priorità percepita rendendo le storie più visibili. Per impostazione predefinita, i brani vengono visualizzati in ordine alfabetico in ogni colonna [!UICONTROL status] dello storyboard.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
-source-git-commit: 4dc2d81cd6dc4249f96925b6339fb837c4f67254
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 0%

@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: use-workfront-view
 title: Visualizzare progetti in Adobe Workfront View
 description: Per impostazione predefinita, l'elenco dei progetti visualizzato in  [!DNL Adobe Workfront] Visualizza mostra i 100 progetti attivi più recenti. L’elenco dei progetti non è raggruppato in base ad alcun criterio.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 76db4ed0-a411-49aa-8acd-f149df1f38a4
-source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 1%

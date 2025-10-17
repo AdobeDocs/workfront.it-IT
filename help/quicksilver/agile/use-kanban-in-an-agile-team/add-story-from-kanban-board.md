@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
 title: Aggiungi storie e problemi da Kanban Board
 description: Puoi creare rapidamente una nuova storia o un nuovo problema direttamente dalla bacheca Kanban.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 8f12b05c-d132-42ca-b617-bdd14e57acf2
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 0%
@@ -69,7 +69,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
         <td>Il numero stimato di ore o punti per l’articolo.</td>
     </tr>
     <tr>
-        <td><strong>Progetto padre </strong></td>
+        <td><strong>Progetto padre [!UICONTROL]</strong></td>
         <td>(Obbligatorio) Il progetto in cui è memorizzato il nuovo brano o problema. Inizia a digitare il nome di un progetto, quindi selezionalo quando viene visualizzato nell’elenco.</td>
     </tr>
    </table>

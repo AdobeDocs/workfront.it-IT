@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 title: Elencare oggetti con un processo di approvazione in sospeso utilizzando un determinato stato
 description: Se si tenta di eliminare uno stato, è possibile che venga visualizzato un messaggio di errore che indica che non è possibile eliminarlo perché è utilizzato in processi di approvazione in sospeso sugli oggetti nel sistema. Se si desidera trovare ed esaminare tali oggetti per decidere cosa è necessario fare, è possibile eseguire un report che li elenca.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%

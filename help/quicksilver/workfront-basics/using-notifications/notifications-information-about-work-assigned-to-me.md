@@ -1,12 +1,12 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: "Notifiche: informazioni sul lavoro assegnato a me"
+title: 'Notifiche: informazioni sul lavoro assegnato a me'
 description: Le notifiche seguenti ti avvisano delle attività che si verificano su un elemento di lavoro assegnato.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 5d7fdee8-cb5c-4ab8-bec3-beff9851b8f6
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '2088'
 ht-degree: 1%
@@ -52,7 +52,7 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
   -->
   <tr> 
    <td> <p><strong>Un'attività completata è stata approvata o rifiutata</strong> </p> <p>L’assegnatario dell’attività riceve una notifica e-mail quando l’attività viene approvata o rifiutata.</p> <p>Una notifica viene inviata solo se lo stato del progetto è Corrente.</p> <p>Gli utenti con una licenza di [!UICONTROL Review] o [!UICONTROL Requestor] non ricevono una notifica.</p> <p>L'oggetto dell'e-mail di notifica immediata è: <em>[!UICONTROL Complete]: &lt;Nome attività&gt; in &lt;Nome progetto&gt;</em></p> <p> L'oggetto della notifica di riepilogo giornaliero è: <em> [!UICONTROL Digest of Work Assigned to You] &lt;Data del riepilogo giornaliero&gt; </em></p> </td> 
-   <td> Nome attività<br>Nome progetto<br>Numero di riferimento attività<br>Nome dell'utente che ha concesso l'approvazione<br>Nuovo stato attività<br>Data e ora di approvazione o di rifiuto dell'attività<br>Stato attività precedente<br><strong>[!UICONTROL Ulteriori dettagli]</strong> pulsante<br>*Nome progetto<br>*Numero di riferimento progetto<br>*Numero totale di attività approvate o rifiutate<br>*Nome attività<br>*Nome dell'utente che ha approvato o rifiutato l'attività<br>*Decisione di approvazione ([!UICONTROL Approvato]/ [!UICONTROL Rifiutato]) 14&rbrace;*Data del riepilogo giornaliero<br><br></td> 
+   <td> Nome attività<br>Nome progetto<br>Numero di riferimento attività<br>Nome dell'utente che ha concesso l'approvazione<br>Nuovo stato attività<br>Data e ora di approvazione o di rifiuto dell'attività<br>Stato attività precedente<br><strong>[!UICONTROL Ulteriori dettagli]</strong> pulsante<br>*Nome progetto<br>*Numero di riferimento progetto<br>*Numero totale di attività approvate o rifiutate<br>*Nome attività<br>*Nome dell'utente che ha approvato o rifiutato l'attività<br>*Decisione di approvazione ([!UICONTROL Approvato]/ [!UICONTROL Rifiutato])<br>*Data del riepilogo giornaliero<br></td> 
    <td><strong>Giornaliera</strong> </td> 
   </tr> 
   <tr> 
@@ -101,7 +101,7 @@ Vedi anche [Notifiche evento](../../workfront-basics/using-notifications/event-n
   </tr> 
   <tr> 
    <td> <p><strong>I documenti vengono caricati o modificati nelle richieste alle quali sono assegnato</strong> </p> <p>L’assegnatario del problema riceve una notifica e-mail quando i documenti vengono caricati o i dettagli del documento vengono modificati in relazione a un problema che ha aggiunto.</p> <p>Una notifica e-mail non viene inviata se l’utente che ha attivato il problema è l’assegnatario del problema.</p> <p>Viene inviata una notifica solo se lo stato del progetto è [!UICONTROL Current] e se il progetto è configurato come Help Request Queue (come descritto in <a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>).</p> <p>L'oggetto dell'e-mail di notifica immediata è: <em>[!UICONTROL Documento aggiunto a] &lt;Nome richiesta&gt;</em></p> <p> L'oggetto della notifica di riepilogo giornaliero è: <em> [!UICONTROL Digest of Work Assigned to You] &lt;Data del riepilogo giornaliero&gt; </em></p> </td> 
-   <td> <p>Nome richiesta<br>Nome progetto (Nome coda richieste)<br>Numero di riferimento documento <br>Nome dell'utente che ha caricato il documento<br>Nome documento <br>Aggiunto in data<br>Dettagli documento (formato, dimensione, numero versione)<br>Miniatura documento<br><strong>[!UICONTROL Anteprima]</strong> e <strong>[!UICONTROL Download]</strong>*Nome progetto<br>*Numero di riferimento progetto<br>*Numero totale di documenti caricati o modificati<br>*Nome documento<br>*Nome oggetto<br> Nome dell'utente che ha caricato il documento<br>*Data del riepilogo giornaliero<br></p> </td> 
+   <td> <p>Nome richiesta<br>Nome progetto (Nome coda richieste)<br>Numero di riferimento documento <br>Nome dell'utente che ha caricato il documento<br>Nome documento <br>Aggiunto in data<br>Dettagli documento (formato, dimensione, numero versione)<br>Miniatura documento<br><strong>[!Anteprima UICONTROL]</strong> e <strong>[!Download UICONTROL]</strong>*Nome progetto<br>*Numero di riferimento progetto<br>*Numero totale di documenti caricati o modificati<br>*Nome documento<br>*Oggetto Nome<br>*Nome dell'utente che ha caricato il documento<br>*Data del riepilogo giornaliero<br></p> </td> 
    <td><strong>Giornaliera</strong> </td> 
   </tr> 
   <tr> 
