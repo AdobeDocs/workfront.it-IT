@@ -7,9 +7,9 @@ description: Le ore di accesso agli elementi di lavoro in Adobe Workfront sono c
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 055228fd15d670a214039575dc076ab36f6e99eb
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -202,11 +202,13 @@ Con la seguente versione dell’API Workfront, che verrà rilasciata più avanti
 * **Ore effettive**: ore registrate per progetto, attività o problemi dopo maggio 2021. Sono archiviati nel database di Workfront in ore e il valore del campo è `actualWorkRequiredDouble`.
 * **Ore effettive legacy**: ore registrate per progetti, attività o problemi in qualsiasi momento, anche prima di maggio 2021. Sono archiviati nel database di Workfront come minuti e il valore del campo è `actualWorkRequired`.
 
-  >[!IMPORTANT]
-  >
-  >Il costo effettivo del progetto utilizza le ore effettive legacy per il calcolo.
+Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianificazione del supporto API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-  Per informazioni sull&#39;utilizzo delle ore effettive nelle colonne o nei campi calcolati, vedere [Domande frequenti sui report](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
+>[!IMPORTANT]
+>
+>Il costo effettivo del progetto utilizza le ore effettive legacy per il calcolo.
+
+Per informazioni sull&#39;utilizzo delle ore effettive nelle colonne o nei campi calcolati, vedere [Domande frequenti sui report](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
 ## Registra ore
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: c06baa45e52d77463f9f886b6f6eae4ff68e4ccd
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,11 @@ ht-degree: 0%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -46,13 +48,11 @@ Per informazioni sull&#39;invio di una richiesta a un tipo di record per la crea
 <tr> 
    <td role="rowheader"><p>Pacchetti Adobe Workfront</p></td> 
    <td> 
-<ul><li><p>Qualsiasi pacchetto Workfront</p></li>
-E
-<li><p>Qualsiasi pacchetto Planning</p></li></ul>
+<p>Qualsiasi pacchetto Workfront e qualsiasi pacchetto Planning</p>
 Oppure
-<ul><li><p>Qualsiasi pacchetto flusso di lavoro</p></li>
-E
-<li><p>Qualsiasi pacchetto Planning</p></li></ul>
+<p>Qualsiasi pacchetto del flusso di lavoro e qualsiasi pacchetto Planning</p>
+
+<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront.</p>
    </td> </tr>
 
 </tr> 

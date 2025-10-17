@@ -1,5 +1,5 @@
 ---
-source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
 source-wordcount: '2607'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
-## Anteprima evidenziata per l'articolo completo {#highlighted-preview-article-level}
+## Anteprima evidenziata per l&#39;articolo completo {#highlighted-preview-article-level}
 
 <span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
@@ -291,7 +291,7 @@ Per impostare le cartelle collegate:
 >
 >Per un elenco dei requisiti per accedere a Workfront Planning, vedere [Panoramica dell&#39;accesso ad Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 > 
->Per ulteriori informazioni su Workfront Planning, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+>Per informazioni generali su Workfront Planning, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 <!--Old - before Oct. 15, 2025:
 >[!IMPORTANT]

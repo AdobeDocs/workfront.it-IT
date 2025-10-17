@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: d950346c549d22c7a8db82ce032caa24202f9126
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
@@ -54,12 +54,12 @@ Il campo Ore effettive visibile nella sezione Dettagli progetto, attività e pro
 >[!IMPORTANT]
 >
 >A seconda di quando sono state registrate le ore, potrebbe esserci una discrepanza tra le ore effettive effettive e le ore effettive legacy per un progetto, un&#39;attività o un problema.<br>
->&#x200B;>Esistono i seguenti scenari:
+>>Esistono i seguenti scenari:
 >
 >* Le ore effettive rappresentano le ore registrate per progetti, attività e problemi da maggio 2021.
 >* Le ore effettive legacy rappresentano le ore registrate per progetti, attività e problemi per la durata del progetto, dell’attività o del problema. Sono incluse le ore registrate prima di maggio 2021 fino all’ora corrente.
->  &#x200B;><br>Potrebbe essere necessario aggiornare i rapporti per riflettere il nuovo campo e i relativi valori.
->  &#x200B;><br>Workfront utilizza le ore effettive legacy per calcolare i costi effettivi della manodopera.
+>  ><br>Potrebbe essere necessario aggiornare i rapporti per riflettere il nuovo campo e i relativi valori.
+>  ><br>Workfront utilizza le ore effettive legacy per calcolare i costi effettivi della manodopera.
 
 Per informazioni, vedere [Visualizza ore effettive](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
@@ -71,6 +71,8 @@ Per informazioni, vedere [Visualizza ore effettive](/help/quicksilver/manage-wor
 >* Anteprima: con la prossima versione API, pianificata per la fine del 2025
 >* Versione rapida di produzione: con la prossima versione API, prevista per la fine del 2025
 >* Produzione per tutti i clienti: con la prossima versione API, pianificata per la fine del 2025
+>
+>Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianificazione del supporto API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 Questo aggiornamento introduce una modifica nel modo in cui le ore effettive per progetti, attività e problemi vengono memorizzate nel database. A partire da questo aggiornamento, le ore effettive utilizzeranno un valore di `actualWorkRequiredDouble` (con un valore in ore).
 

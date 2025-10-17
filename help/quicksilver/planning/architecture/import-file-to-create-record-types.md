@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 0%
@@ -39,10 +39,9 @@ I tipi di record sono i tipi di oggetto di Adobe Workfront Planning. In Workfron
 <tr> 
    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
-<ul> 
-<li><p>Qualsiasi pacchetto Workfront e Planning</p></li>
+<p>Qualsiasi pacchetto Workfront e Planning</p>
 <p>Oppure</p>
-<li><p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p></li></ul>
+<p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p>
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
   <tr> 
@@ -182,7 +181,7 @@ Per importare tipi di record utilizzando un file Excel o CSV:
    ![Scheda campo nella casella di importazione mapping tipo di record](assets/field-tab-on-record-type-import-mapping-box.png)
 
    * Rinomina uno dei campi
-   * Cambia il tipo di campo **&#x200B;**
+   * Cambia il tipo di campo ****
    * Aggiorna il campo **Descrizione**
 
 1. (Facoltativo) Fare clic sulla scheda **Connessione** per associare le informazioni della colonna a un campo connesso di altri tipi di record.

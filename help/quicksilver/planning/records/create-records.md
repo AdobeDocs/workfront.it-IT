@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '3130'
+source-wordcount: '3147'
 ht-degree: 0%
 
 ---
@@ -330,7 +330,12 @@ Per informazioni sulla creazione di una visualizzazione della sequenza temporale
    Viene visualizzata la casella **Nuovo record**. <!--might need a new screen shot for Production - might add a title etc-->
 
    ![Nuova casella record nella sequenza temporale con barra dei record senza nome](assets/new-record-small-box-on-timeline.png)
+
+   >[!NOTE]
+   >
+   >Non è possibile creare record nella visualizzazione timeline quando le barre dei record vengono visualizzate in un raggruppamento denominato.
 1. Aggiorna le seguenti informazioni:
+
 
    * **Nome**: immettere il nome del record. Se lo lasci vuoto, per impostazione predefinita Workfront lo nomina **Senza titolo**.
 
