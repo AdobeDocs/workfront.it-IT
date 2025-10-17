@@ -66,7 +66,7 @@ Ogni amministratore di gruppo deve disporre di
 >[!IMPORTANT]
 >
 >Gli amministratori dei gruppi devono disporre di un accesso più elevato rispetto a quelli che gestiscono; in caso contrario, non potranno visualizzare o modificare livelli di accesso inferiori.
->>Per istruzioni sulla concessione dell&#39;accesso, vedere [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>&#x200B;>Per istruzioni sulla concessione dell&#39;accesso, vedere [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Per un amministratore di gruppo che deve assegnare profili della scheda orario agli utenti nei loro gruppi e sottogruppi, consigliamo anche l’accesso Amministrativo alle schede orario e alle ore. Per istruzioni sulla concessione di questo accesso, vedere [Concedere agli utenti l&#39;accesso amministrativo ad alcune aree](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 

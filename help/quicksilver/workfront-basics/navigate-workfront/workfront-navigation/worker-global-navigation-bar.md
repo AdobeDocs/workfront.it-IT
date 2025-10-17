@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Comprendere la navigazione per un utente con licenza [!UICONTROL Lavoro]
 
-Il [!UICONTROL menu principale] cambia con il livello di accesso che ti è stato assegnato dall&#39;amministratore [!DNL Adobe Workfront]. Per impostazione predefinita, puoi accedere solo alle aree che includono le funzionalità consentite dal tuo livello di accesso. Per informazioni sui componenti del layout predefinito di ogni livello di accesso, vedere [Informazioni sul layout predefinito [!DNL Adobe Workfront] ](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+Il [!UICONTROL menu principale] cambia con il livello di accesso che ti è stato assegnato dall&#39;amministratore [!DNL Adobe Workfront]. Per impostazione predefinita, puoi accedere solo alle aree che includono le funzionalità consentite dal tuo livello di accesso. Per informazioni sui componenti del layout predefinito di ogni livello di accesso, vedere [Informazioni sul layout predefinito [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
 ## Comprendere il [!UICONTROL menu principale] predefinito di un lavoratore
 

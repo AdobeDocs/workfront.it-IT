@@ -33,7 +33,7 @@ La tabella seguente illustra le funzioni principali delle bacheche e il loro sta
    <th><strong>Stato</strong></th> 
   </tr>
   <tr>
-   <td>Area [!UICONTROL Bacheche] nel menu principale [!UICONTROL]</td>
+   <td>Area [!UICONTROL Bacheche] nel menu principale </td>
    <td>Rilasciato</td>
   </tr>
     <tr>

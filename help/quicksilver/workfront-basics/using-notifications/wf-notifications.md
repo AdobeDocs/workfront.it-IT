@@ -182,4 +182,4 @@ Se sul telefono è installata l&#39;app mobile [!DNL Workfront], toccando i coll
 * [!UICONTROL Introduzione]
 * [!UICONTROL Ulteriori dettagli]
 
-Per ulteriori informazioni sull&#39;app mobile [!DNL Workfront], vedere [Utilizzare l&#39;app mobile  [!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
+Per ulteriori informazioni sull&#39;app mobile [!DNL Workfront], vedere [Utilizzare l&#39;app mobile  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).

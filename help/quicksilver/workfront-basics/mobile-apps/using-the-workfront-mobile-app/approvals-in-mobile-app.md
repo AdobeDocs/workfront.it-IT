@@ -37,7 +37,7 @@ Puoi gestire le approvazioni assegnate o delegate dall&#39;area [!UICONTROL Appr
  </tbody> 
 </table>
 
-Le bozze seguono un processo di approvazione separato. Impossibile approvare una bozza da un elemento di lavoro o da un documento. Per informazioni sulla revisione e l&#39;approvazione delle bozze, consulta [Rivedi e prendi decisioni sulle bozze nell&#39;app mobile [!DNL Adobe Workfront] ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+Le bozze seguono un processo di approvazione separato. Impossibile approvare una bozza da un elemento di lavoro o da un documento. Per informazioni sulla revisione e l&#39;approvazione delle bozze, consulta [Rivedi e prendi decisioni sulle bozze nell&#39;app mobile [!DNL Adobe Workfront] &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
 ## Rivedere un’approvazione
 

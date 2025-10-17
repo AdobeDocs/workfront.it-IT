@@ -180,7 +180,7 @@ Per copiare un sottogruppo:
 >[!TIP]
 >
 >Quando disattivi un gruppo con sottogruppi al di sotto di esso, anche questi sottogruppi diventano inattivi. Se desideri che uno dei due sia attivo, puoi utilizzare queste istruzioni per rimuoverlo dal gruppo principale e riattivarlo.
->>Per istruzioni sulla disattivazione e la riattivazione dei gruppi, vedere [Disattivare o riattivare un gruppo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
+>&#x200B;>Per istruzioni sulla disattivazione e la riattivazione dei gruppi, vedere [Disattivare o riattivare un gruppo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
 
 {{step-1-to-setup}}
 

@@ -70,7 +70,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <td>Una descrizione del Card.</td> 
      </tr>
      <tr> 
-      <td><strong>Stima [!UICONTROL]</strong></td> 
+      <td><strong>Stima </strong></td> 
       <td>Numero stimato di ore per il completamento della carta. Questa è solo una immissione manuale.</td> 
      </tr>
      <tr> 

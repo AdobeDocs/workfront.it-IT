@@ -152,7 +152,7 @@ Per creare una storia dal backlog:
       <td>Specificate un punto o una stima oraria per il brano. Le stime influiscono sul grafico a dispersione. Il grafico a burn-down per un'iterazione è accurato solo se ogni storia contiene una stima accurata. Se fornisci una stima puntuale, devi avere già indicato nelle impostazioni del team quante ore ogni punto rappresenta.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>Progetto padre [!UICONTROL]</strong></td>
+      <td role="rowheader"><strong>Progetto padre </strong></td>
       <td>Inizia a digitare il nome del progetto in cui verrà creato il brano, quindi fai clic sul nome quando viene visualizzato nell’elenco a discesa.<br>Lo stato del progetto deve essere impostato su [!UICONTROL Current]. Se lo stato del progetto è diverso da [!UICONTROL Current], non viene visualizzato nel menu a discesa.</td>
      </tr>
      <tr>
