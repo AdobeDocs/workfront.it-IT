@@ -182,7 +182,7 @@ Per calcolare il costo pianificato per utenti, ruoli e progetto sono disponibili
 
      Il costo pianificato del progetto è di $0,00.
 
-* Quando il tipo di costo **Tipo di costo** è **Ore utente** ed è presente un&#39;assegnazione di ruolo **** per l&#39;attività:
+* Quando il tipo di costo **Tipo di costo** è **Ore utente** ed è presente un&#39;assegnazione di ruolo **&#x200B;**&#x200B;per l&#39;attività:
 
    * **Costo pianificato per ruolo e utente**:
 
