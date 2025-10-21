@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c76c2dba-1497-414a-8979-712f093efd73
-source-git-commit: 517c080ed4e6096ac0a2028125d62d33b2db2359
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -31,11 +31,11 @@ Per un elenco di tutte le modifiche disponibili con la versione 22.1, consulta l
 
 >[!NOTE]
 >
->Rilasciato solo ai clienti EMEA con bozze integrate create prima del 6 luglio 2021. Questa funzionalità verrà visualizzata in anteprima con un rollout graduale a partire dal 13 gennaio e fino al 17 gennaio per i seguenti clienti: >
+>Rilasciato solo ai clienti EMEA con bozze integrate create prima del 6 luglio 2021. Questa funzionalità verrà visualizzata in anteprima con un rollout graduale a partire dal 13 gennaio e fino al 17 gennaio per i seguenti clienti:
+>
 >* Clienti EMEA con prove sia integrate che autonome
 >* Clienti EMEA con prove integrate create dopo il 6 luglio 2021
 >* Tutti i clienti USA
->
 
 Per fornire un’esperienza più integrata tra Workfront e Proof, sono stati apportati diversi miglioramenti alle funzionalità di verifica per revisori e richiedenti:
 
@@ -45,7 +45,7 @@ Puoi aggiungere revisori e richiedenti alle bozze che richiedono un accesso o ch
 
 Tutti gli utenti usufruiscono inoltre della connettività migliorata tra Workfront e Proof. Ora, quando si disattiva un utente o si aggiorna l’indirizzo e-mail di un utente, i propri aggiornamenti vengono rispecchiati correttamente nella verifica se modificati in Workfront.
 
-Per ulteriori informazioni, consulta
+Per ulteriori informazioni, vedi  
 
 * [Panoramica sui ruoli bozza](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
 

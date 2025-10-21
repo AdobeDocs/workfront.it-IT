@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: 17aaf70977aa6ce0276676c6a30fd6c951be956c
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 2%
@@ -48,10 +48,8 @@ In qualità di amministratore di Workfront, puoi aggiungere i logo di Workfront 
 >[!NOTE]
 >
 >* La modifica dell&#39;immagine e del colore di sfondo per l&#39;accesso non è disponibile se l&#39;istanza Workfront dell&#39;organizzazione utilizza un portale SSO personalizzato. Per ulteriori informazioni, rivolgersi all&#39;amministratore di rete o IT.
-><!--
->or is enabled with Adobe IMS  >
->  >
->-->
+>
+><!-- or is enabled with Adobe IMS -->
 >
 >* Un amministratore di Workfront o un amministratore di gruppo può anche inserire un marchio Workfront per determinati gruppi e utenti utilizzando un modello di layout. Il branding in un modello di layout sostituisce il branding a livello di sistema illustrato in questo articolo. Per istruzioni sul branding in un modello di layout, consulta [Brand Adobe Workfront utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md).
 
@@ -134,10 +132,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    >[!NOTE]
    >
    >Questa opzione non è disponibile se l’istanza Workfront dell’organizzazione utilizza un portale SSO personalizzato.
-   ><!--   >
-   >or is enabled with Adobe IMS   >
-   >   >
-   >-->
+   >
+   ><!--  or is enabled with Adobe IMS -->
    >
    >Per ulteriori informazioni, rivolgersi all&#39;amministratore di rete o IT.
 

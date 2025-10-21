@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: dcdae47ffd4a02ac9a0bbd3cd9bd1418f6c59e1a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 0%
@@ -92,41 +92,56 @@ Se AppBuilder è configurato correttamente, dovresti vedere &quot;Crea progetto 
 Adobe fornisce una CLI open source che può essere utilizzata per facilitare la creazione delle applicazioni App Builder. La documentazione è disponibile qui: [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) e le istruzioni di Adobe App Builder [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app).
 
 1. Installazione
-   1. Per installare lo strumento (verificare di essere al primo posto sul nodo v18) eseguire: `npm install -g @adobe/aio-cli `.
+
+   1. Per installare lo strumento (verificare di essere al primo posto sul nodo v18) eseguire: `npm install -g @adobe/aio-cli`.
 
 1. Autentica nel terminale
+
    1. Avviare il terminale e accedere all&#39;AIO con il comando: `aio login`.
 
 1. Inizializzare l’applicazione
+
    1. Iniziare la configurazione dell&#39;app eseguendo: `aio app init example-app`.
 
 1. Selezione configurazione
-   1. Procedi selezionando l’organizzazione e il progetto tra le opzioni fornite.\
+
+   1. Procedi selezionando l’organizzazione e il progetto tra le opzioni fornite.
+
       ![Seleziona organizzazione](assets/select-org.png)
+
       ![Seleziona progetto](assets/select-project.png)
 
 1. Selezione e configurazione dei modelli
+
    1. Sfoglia tutti i modelli disponibili e scegli il modello **@adobe/aem-cf-editor-ui-ext-tpl** per il tuo progetto.
+
       ![Modello di ricerca](assets/search-template.png)
+
       ![Seleziona modello](assets/select-template.png)
 
 1. Definire L’Estensione
+
    1. Denomina l’estensione.
    1. Fornisci un riepilogo descrittivo delle funzionalità dell&#39;estensione.
    1. Seleziona un numero di versione iniziale con cui iniziare.
    1. Conferma il completamento selezionando **Fine**.
-      ![Definisci estensione](assets/define-extension.png)
+
+   ![Definisci estensione](assets/define-extension.png)
 
 1. Passa alla cartella del progetto
+
    1. Accedere alla cartella src
+
    1. Rinominare la cartella `aem-cf-editor-1` in `workfront-doc-details-1`.
 
 1. Modifica file di configurazione
+
    1. Apri app.config.yaml
    1. Aggiorna la riga da `aem/cf-editor/1` a `workfront/doc-details/1`.
    1. Regola il percorso di inclusione da `src/aem-cf-editor-1/ext.config.yaml` a `src/workfront-doc-details-1/ext.config.yaml`.
 
 1. Modificare il componente Registrazione estensione
+
    1. Apri `src/workfront-doc-details-1/web-src/src/components/ExtensionRegistration.js`.
    1. Nella sezione metodi aggiungere una funzione `secondaryNav` contenente una funzione asincrona `getButtons`.
    1. `getButtons` deve ricevere un oggetto con la seguente struttura:
@@ -317,20 +332,22 @@ Adobe fornisce una CLI open source che può essere utilizzata per facilitare la 
 Per caricare un’applicazione guest in Workfront, è necessario inviarla all’area di lavoro di produzione e inviarla per l’approvazione.
 
 1. Distribuire l’applicazione nell’area di lavoro di produzione
-   1. `aio app use -w Production `
-   1. `aio app deploy `
+
+   1. `aio app use -w Production`
+   1. `aio app deploy`
 
 1. Passa a [https://developer-stage.adobe.com/](https://developer-stage.adobe.com/) o [https://developer.adobe.com/](https://developer.adobe.com/).
+
    1. Fai clic su **Console** nell&#39;angolo superiore destro.
 
 1. Trova il progetto utilizzato per creare l’applicazione AppBuilder.
-
 1. Seleziona il Workspace di produzione.
+
    ![Seleziona area di lavoro di produzione](assets/find-application.png)
 
 1. Invia l’applicazione per una revisione privata (riceverai avvisi che non stiamo pubblicando nell’app exchange marketplace, il che va bene).
-
 1. Compila il modulo (titolo, descrizione, icona e nota per il revisore).
+
    ![Compila il modulo per la revisione privata](assets/submission-details.png)
 
 >[!IMPORTANT]

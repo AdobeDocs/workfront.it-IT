@@ -6,7 +6,7 @@ description: L'integrazione di  [!DNL Adobe Workfront] con [!DNL Slack] ti conse
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5f531217-3bd6-4156-8b9f-eabc95d4df10
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 1%
@@ -188,7 +188,7 @@ Per accedere a [!DNL Workfront] da [!DNL Slack]:
 
      Accedi a [!DNL Workfront] da [!DNL Slack].
 
-   * `/wf log out `
+   * `/wf log out`
 
      Consente di uscire da [!DNL Workfront] da [!DNL Slack]. Se in un&#39;altra scheda del browser in un&#39;altra applicazione è aperta un&#39;istanza di [!DNL Workfront] separata, l&#39;accesso a [!DNL Workfront] rimane eseguito.
    * `/wf settings`

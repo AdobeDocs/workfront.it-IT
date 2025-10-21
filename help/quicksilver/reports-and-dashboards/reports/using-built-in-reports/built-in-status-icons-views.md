@@ -6,7 +6,7 @@ description: Puoi aggiungere il campo integrato Icone di stato come colonna nell
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1205'
 ht-degree: 3%
@@ -105,7 +105,7 @@ Per aggiungere il campo Icone di stato a una visualizzazione personalizzata crea
 
    * *Le icone di Stato*
    * *Contrassegni*
-   * *Icone di visualizzazione *(solo nelle visualizzazioni Documento).
+   * *Icone di visualizzazione* (solo nelle visualizzazioni documenti).
 
    Le icone incorporate sono elencate in uno di questi nomi.\
    Una visualizzazione Modello contiene sia le **icone di stato** che i campi **Flag**. In questo caso, le due colonne contengono icone identiche.\

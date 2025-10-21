@@ -2,11 +2,11 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Disinstalla il connettore legacy
-description: text
+description: testo
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4b3834bf-2e6d-4588-8d77-671e14390115
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -20,9 +20,11 @@ ht-degree: 0%
 ## Annulla iscrizione a Workfront
 
 1. Apri Adobe Experience Manager.
-1. Ad Experience Manager, vai a **Strumenti** > **Cloud Service** > **Configurazione integrazione Workfront**.
+1. In Experience Manager, vai a **Strumenti** > **Servizi cloud** > **Configurazione integrazione Workfront**.
 1. Seleziona la configurazione (global-workfront per impostazione predefinita) e fai clic su **Proprietà**.
+
    ![annulla abbonamento a workfront](assets/unsubscribe-from-workfront.png)
+
 1. Disattiva sincronizzazione documenti, commenti e metadati. L’etichetta deve essere disabilitata.
 In questo modo, gli abbonamenti verranno rimossi in Workfront e l’utente potrà creare un nuovo abbonamento utilizzando lo stesso URL definito in Day CQ Link Externalizer.
 
@@ -31,19 +33,20 @@ In questo modo, gli abbonamenti verranno rimossi in Workfront e l’utente potr�
 Dopo aver rimosso la sottoscrizione, ora è possibile eliminare la configurazione dell’integrazione di Workfront.
 
 1. Apri la configurazione e seleziona **Elimina**.
+
    ![elimina configurazione](assets/delete-wf-configuration.png)
 
 ## Rimuovi mappatura
 
 Successivamente, devi eliminare la mappatura proprietà Workfront.
 
-1. Ad Experience Manager, vai a **Strumenti** > **Assets** > **Mappatura proprietà Workfront**.
+1. In Experience Manager, vai a **Strumenti** > **Assets** > **Mappatura proprietà Workfront**.
 
 1. Selezionare tutte le mappature e fare clic su **Elimina**.
 
 ## Autorizzazioni utente
 
-A tutti gli utenti che accedono a AEM Dam da Workfront sono state assegnate autorizzazioni di lettura per `/content/dam`. Se un utente non ne ha più bisogno, puoi rimuovere le autorizzazioni concesse a tali utenti.
+A tutti gli utenti che accedono ad AEM Dam da Workfront sono state assegnate autorizzazioni di lettura per `/content/dam`. Se un utente non ne ha più bisogno, puoi rimuovere le autorizzazioni concesse a tali utenti.
 
 Il connettore funziona utilizzando l’utente di sistema workfront-service. Questo viene disinstallato durante la disinstallazione del connettore.
 

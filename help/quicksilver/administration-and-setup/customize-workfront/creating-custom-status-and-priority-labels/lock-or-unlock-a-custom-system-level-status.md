@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0e58a1d6-5e0c-4445-a5ac-400dfd4c4948
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
@@ -34,9 +34,7 @@ In un processo di approvazione di sistema è possibile utilizzare sia gli stati 
 I messaggi di avviso vengono visualizzati nei seguenti scenari per aiutarti e fare in modo che gli utenti comprendano i risultati dei seguenti scenari:
 
 * Un amministratore sblocca uno stato a livello di sistema utilizzato in un processo di approvazione. Viene visualizzato un messaggio di avviso che indica che lo stato sbloccato per i gruppi potrebbe essere eliminato, impedendo così ai membri del gruppo di utilizzare correttamente il processo di approvazione per gli oggetti assegnati al gruppo.
-
 * Un utente inizia a modificare un processo di approvazione che utilizza uno stato sbloccato. Un messaggio avvisa l’utente dello stato sbloccato, in modo che possa valutare se è consigliabile bloccarlo di nuovo o sostituirlo.
-
 * Un processo di approvazione a livello di sistema con uno stato sbloccato viene associato a un oggetto e lo stato è stato eliminato per il gruppo assegnato all&#39;oggetto. Quando un membro del gruppo accede alla sezione Approvazioni per l&#39;oggetto, un messaggio spiega che il processo di approvazione non può essere avviato per l&#39;oggetto.
 
 In un processo di approvazione di gruppo è possibile utilizzare sia lo stato bloccato che quello sbloccato. Se si crea un processo di approvazione di gruppo con uno stato di gruppo sbloccato, gli utenti possono allegare il processo di approvazione a qualsiasi progetto, attività o problema associato al gruppo.

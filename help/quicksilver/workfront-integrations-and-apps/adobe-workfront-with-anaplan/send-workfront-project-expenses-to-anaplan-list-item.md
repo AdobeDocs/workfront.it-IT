@@ -6,9 +6,9 @@ description: Questo scenario di integrazione condivide i dettagli relativi alle 
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: f9198017-9bbb-4776-86aa-3f78705dbb22
-source-git-commit: d3f234313677d916318c181c91cb951948454006
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '974'
 ht-degree: 1%
 
 ---
@@ -55,7 +55,7 @@ Questo scenario di integrazione condivide i dettagli relativi alle spese di un p
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Per informazioni sulle licenze di Adobe Workfront Fusion, vedere [Licenze di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Per informazioni sulle licenze di Adobe Workfront Fusion, vedere [Licenze di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 ## Evento di attivazione
 
@@ -65,7 +65,7 @@ L’esecuzione di questo scenario è pianificata ogni 15 minuti.
 
 Per utilizzare questo scenario, è necessario disporre dei seguenti elementi in [!DNL Workfront]:
 
-* Un profilo utente in [!DNL Workfront] denominato *[!UICONTROL *[!DNL Anaplan] Integration]**, con diritti di amministratore di sistema.
+* Un profilo utente in [!DNL Workfront] denominato *Integrazione Anaplan*, con diritti di amministratore di sistema.
 
   Per informazioni sulla creazione di un utente in [!DNL Workfront], vedere [Aggiungere utenti](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 

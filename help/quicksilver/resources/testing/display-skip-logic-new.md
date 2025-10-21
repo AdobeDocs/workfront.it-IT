@@ -2,7 +2,7 @@
 title: Aggiungere logica di visualizzazione e logica di salto a un modulo personalizzato
 description: Aggiungere logica di visualizzazione e logica di salto a un modulo personalizzato
 draft: Probably
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1475'
 ht-degree: 0%
@@ -75,7 +75,7 @@ Il modo migliore per imparare ad aggiungere logica di visualizzazione e salto a 
 
 In questo esempio verrà creato un modulo personalizzato con un campo pulsante di scelta a scelta multipla. Quindi aggiungerai la logica di visualizzazione che collega questo campo a un secondo campo.
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona **del** menu principale![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
 1. Nel pannello a sinistra, seleziona **Forms personalizzato** ![](assets/custom-forms-icon.png).
 
@@ -129,7 +129,7 @@ La logica di salto funziona in modo simile alla logica di visualizzazione, ma ag
 
 Per saperne di più, continua a lavorare sul modulo personalizzato di esempio creato nella sezione [Logica di visualizzazione - esempio pratico](#display-logic-practical-example) in questo articolo.
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **menu principale** nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona **del** menu principale![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
 1. Fare clic su **Forms personalizzato**.
 1. Fai clic sul nome del modulo **Modulo personalizzato di esempio - Logica di visualizzazione di apprendimento e logica di salto** creato nei passaggi precedenti, per aprirlo per la modifica.
@@ -141,7 +141,7 @@ Per saperne di più, continua a lavorare sul modulo personalizzato di esempio cr
 
    *Appartenenza*
 
-1. Apri la scheda **Aggiungi campo**, crea un **Campo di testo con formattazione &#x200B;** campo denominato *Qual è l&#39;obiettivo per il sito Web?*, quindi fare clic su **Applica**.
+1. Apri la scheda **Aggiungi campo**, crea un campo **di testo con formattazione** denominato *Qual è l&#39;obiettivo per il sito Web?*, quindi fare clic su **Applica**.
 
    In questa organizzazione, il team di redazione tecnica crea un sito di documentazione della Guida e non il reparto Marketing. Pertanto, non sono necessarie ulteriori informazioni da parte di un utente che seleziona la documentazione di Aiuto nel secondo campo. Creeremo una riga di testo (un campo di testo descrittivo) che comunicherà loro di visualizzare il team di redazione tecnica. E utilizzeremo una regola di logica skip che salta l’utente a quella riga di testo.
 
@@ -153,7 +153,7 @@ Per saperne di più, continua a lavorare sul modulo personalizzato di esempio cr
 
    1. Per il **testo descrittivo**, digitare *Rivolgersi al team di redazione tecnica per informazioni sulla creazione della documentazione della Guida in linea*.
 
-   1. Selezionare **Applica**.
+   1. Seleziona **Applica**.
 
 1. Per creare la regola di salto della logica:
 

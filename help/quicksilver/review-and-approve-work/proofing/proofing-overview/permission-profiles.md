@@ -8,7 +8,7 @@ description: I profili di autorizzazione delle bozze determinano le autorizzazio
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fb6faa48-d97b-4b7b-83ae-fe39d40b3963
-source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 2%
@@ -52,7 +52,7 @@ Nella tabella seguente vengono visualizzate le autorizzazioni disponibili per og
    </td>
    <td colspan="3" ><strong>Elementi di altri utenti</strong>
    </td>
-   <td><strong>Amministratore</strong>
+   <td><strong>Amministrazione</strong>
    </td>
   </tr>
   <tr>
@@ -76,7 +76,7 @@ Nella tabella seguente vengono visualizzate le autorizzazioni disponibili per og
    </td>
   </tr>
   <tr>
-   <td>Amministratore
+   <td>Amministrazione
    </td>
    <td>x
    </td>
@@ -304,15 +304,17 @@ I manager dispongono delle seguenti autorizzazioni:
 -->
 
 
-><!--
-><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Menus and functions available to Observers are limited. </p>>
->-->
->  <!--
->  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Observers do not see the Header menu or the green New menu in their Dashboard</li>>
->  -->
->  <!--
->  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Observers do not see the following links in their Settings: Account settings, Billing </li>>
->  -->
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Menus and functions available to Observers are limited. </p>>
+-->
+
+<!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Observers do not see the Header menu or the green New menu in their Dashboard</li>>
+-->
+
+<!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Observers do not see the following links in their Settings: Account settings, Billing </li>>
+-->
 
 <!--
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Guest</h3>

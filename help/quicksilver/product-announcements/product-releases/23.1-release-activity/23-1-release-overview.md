@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 0%
@@ -26,11 +26,8 @@ Il webinar sulla versione 23.1 si è tenuto martedì 10 gennaio 2023. Puoi [regi
 ## Miglioramenti di Adobe Workfront
 
 * [Miglioramenti alla gestione dei progetti e delle risorse](#project-and-resource-management-enhancements)
-
 * [Miglioramenti Agile](#agile-enhancements)
-
 * [Miglioramenti per dispositivi mobili](#mobile-enhancements)
-
 * [Altri miglioramenti](#other-enhancements)
 
 ### Miglioramenti alla gestione dei progetti e delle risorse
@@ -496,7 +493,7 @@ Il webinar sulla versione 23.1 si è tenuto martedì 10 gennaio 2023. Puoi [regi
             </tbody>
         </table>
 
-## Notifiche
+## Annunci
 
 ### Miglioramenti apportati a Workfront Fusion
 
@@ -524,7 +521,7 @@ Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianific
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione apportati durante la versione 22.3, vedere [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/it/docs/workfront-known-issues/releases/current-updates).
+Per informazioni sugli aggiornamenti di manutenzione apportati durante la versione 22.3, vedere [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Aggiornamenti dei corsi di formazione
 
@@ -556,6 +553,7 @@ Alcune funzionalità di controllo elenco si stanno spostando nelle aree Setup (C
 Stiamo sostituendo l&#39;estensione [Workfront per Illustrator e InDesign](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md) con plug-in Creative Cloud aggiornati. A partire dalla fine del 2022, questa estensione non sarà più disponibile per l’installazione in Adobe Exchange.
 
 La funzionalità di questa estensione, insieme a diversi miglioramenti, è disponibile nella versione aggiornata di Adobe Workfront for Creative Cloud Plugins:
+
 * [Adobe Workfront per Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * [Adobe Workfront per XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * [Adobe Workfront per progettazione e video](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)

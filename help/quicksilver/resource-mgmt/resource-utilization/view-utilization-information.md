@@ -6,9 +6,9 @@ description: È possibile visualizzare l'utilizzo delle risorse nel rapporto Uti
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '7259'
+source-wordcount: '7099'
 ht-degree: 1%
 
 ---
@@ -339,29 +339,22 @@ A differenza di altre aree di Workfront, se la Retribuzione pianificata supera i
   <tr> 
    <td><strong>Reddito Reale</strong> </td>
    <td> <p>Ricavi effettivi sono i ricavi associati alle ore effettive delle attività e del progetto. Per ulteriori informazioni sui ricavi effettivi, vedere <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#track-revenue-amounts">Tracciare gli importi dei ricavi</a> in <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">Panoramica su fatturazione e ricavi</a>.</p>
-
-<p>Il modo in cui il rapporto Utilizzo calcola la Retribuzione effettiva per i progetti inclusi varia a seconda del tipo di retribuzione impostato per l'attività, come illustrato di seguito.</p> <p><strong>Reddito Fisso:</strong> Indipendentemente dalle assegnazioni dell'attività, i ricavi sull'attività vengono sempre calcolati utilizzando l'Importo Fisso specificato sull'attività.</p> <p><b>IMPORTANTE</b>
-
-A differenza di altre aree di Workfront, il rapporto Utilizzo calcola i Ricavi effettivi dividendo uniformemente i Ricavi fissi per il numero di ore registrate sull&#39;attività. </p> <p> </p> <p>Ad esempio, un&#39;attività ha un reddito effettivo di 200 dollari. Se l&#39;attività contiene 4 ore effettive, ogni ora corrisponderebbe a 50 $. Viene distribuito a livello di utente e ruolo. Questa distribuzione è univoca per il rapporto Utilizzo.</p> <p><b>NOTA</b>
-
-Se si dispone di un&#39;attività Reddito fisso e non sono presenti ore effettive sull&#39;attività, la retribuzione effettiva non viene visualizzata nel rapporto Utilizzo perché non è possibile distribuire le ore. </p> <p><strong>Ore ruolo:</strong> I ricavi sull&#39;attività vengono calcolati utilizzando la tariffa di fatturazione impostata per un ruolo specifico, moltiplicata per il numero di ore effettive.</p> <p>Workfront utilizza la seguente formula:</p> <p><code>Retribuzione oraria effettiva ruolo = SUM(Actual Hours from role on all tasks) * Tariffa fatturazione ruolo</code> </p> <p><b>NOTA:</b> la tariffa oraria di fatturazione nella formula considera qualsiasi modifica effettiva della tariffa.</p> <p><strong>Ore utente:</strong> I ricavi sull&#39;attività vengono calcolati utilizzando la tariffa di fatturazione impostata per un utente specifico, moltiplicata per il numero di ore registrate per l&#39;attività da tale utente. Workfront utilizza la seguente formula:</p> <p><code>Retribuzione effettiva oraria utente = SUM(Ore effettive dall&#39;utente su tutte le attività) * Tariffa di fatturazione utente</code></p> <p><b>NOTA:</b> la tariffa oraria di fatturazione nella formula considera qualsiasi modifica effettiva della tariffa.</p> <p><b>Ore Ruolo o Utente più Fisso</b> </p> <p><b>IMPORTANTE</b>
-
-A differenza di altre aree di Workfront, il rapporto Utilizzo calcola i Ricavi effettivi dividendo uniformemente i Ricavi fissi per il numero di ore registrate sull&#39;attività. </p> <p>Esistono i seguenti casi: </p>
-<ul>
-<li> <p><strong>Ore Ruolo più Fisso:</strong> La tariffa di fatturazione impostata per un ruolo specifico, moltiplicata per il numero di ore registrate per l&#39;attività da un utente con tale ruolo. Al tasso di ruolo viene inoltre aggiunto un importo fisso specificato per l&#39;attività. </p> <p>Workfront utilizza la seguente formula:</p> <p><code>Ore Ruolo più Reddito Fisso Reale = [SOMMA(Ore Effettive da Ruolo su tutte le Attività) * Tariffa Fatturazione Ruolo] + SOMMA(Limite o Importo Fisso dell&#39;Attività / Ore Effettive dell&#39;Attività)</code> </p> </li>
-<li> <p><strong>Ore utente più Fisso:</strong> La tariffa di fatturazione impostata per un utente specifico, moltiplicata per il numero di ore registrate per l&#39;attività da tale utente. Alla tariffa utente viene inoltre aggiunto un importo fisso specificato per l&#39;attività. </p> <p>Workfront utilizza la seguente formula:</p> <p><code>Ore utente più Reddito Fisso Reale = [SOMMA(Ore Effettive dalla mansione su tutte le attività) * Tariffa Fatturazione Utente] + SOMMA(Limite o Importo Fisso dell&#39;attività / Ore Utente dell&#39;attività)</code> </p> </li>
-</ul> <p><b>Ore Ruolo o Utente w/ Cap</b> </p> <p><b>IMPORTANTE</b>
-
-A differenza di altre aree di Workfront, se la Retribuzione pianificata supera il limite, l&#39;importo oltre l&#39;Importo limite è considerato Reddito fisso. La Retribuzione pianificata viene calcolata dividendo equamente la Retribuzione fissa per il numero di Ore pianificate per l&#39;attività, quindi aggiungendo l&#39;Importo limite e la Retribuzione oraria per ruolo o utente. <br></p> <p>Esistono i seguenti casi:</p>
-<ul>
-<li> <p><strong>Ore Ruolo w/Cap:</strong> Le attività vengono fatturate su base oraria come in Ore Ruolo, ma hanno un importo massimo di Cap che puoi specificare. Workfront utilizza la seguente formula:</p> <p><code>Ore Ruolo con Cap Ricavo effettivo = [SOMMA(Ore effettive da ruolo su tutte le attività e problemi) * Tariffa fatturazione ruolo] + Importo limite dell&#39;attività + SOMMA(Importo oltre l&#39;importo limite / Ore effettive dell&#39;attività)</code></p> </li>
-<li> <p><strong>Ore utente con limite:</strong> Le attività vengono fatturate su base oraria come in Ore utente, ma hanno un limite massimo che è possibile specificare.</p> <p> Workfront utilizza la seguente formula:</p> <p><code>Ore utente con tetto retributivo effettivo = [SOMMA(Ore effettive dalla mansione su tutte le attività e problemi) * Tariffa fatturazione utente] + Importo tetto retributivo dell&#39;attività + SOMMA(Importo oltre l&#39;importo tetto retributivo / Ore effettive dell&#39;attività)</code> </p> </li>
-</ul>
-<p><strong>Ricavi progetto</strong>: i ricavi associati alle ore registrate nel progetto vengono calcolati tenendo conto della quantità di fatturazione per ora della mansione principale dell&#39;utente che registra l&#39;ora. Si sconsiglia di registrare il tempo sul progetto. </p>
-<p><b>NOTA</b>
-
-Se l&#39;utente non è associato a una mansione o se la Fatturazione ad Ore del Ruolo Principale è zero, Workfront calcola la Retribuzione Effettiva utilizzando l&#39;importo della Fatturazione ad Ore per l&#39;utente. Se l&#39;utente non ha un importo di Fatturazione ad Ore nel suo profilo, il Reddito Reale è zero. </p>
-</td> 
+   <p>Il modo in cui il rapporto Utilizzo calcola la Retribuzione effettiva per i progetti inclusi varia a seconda del tipo di retribuzione impostato per l'attività, come illustrato di seguito.</p> <p><strong>Reddito Fisso:</strong> Indipendentemente dalle assegnazioni dell'attività, i ricavi sull'attività vengono sempre calcolati utilizzando l'Importo Fisso specificato sull'attività.</p> <p><b>IMPORTANTE</b></p>
+   <p>A differenza di altre aree di Workfront, il rapporto Utilizzo calcola i Ricavi effettivi dividendo uniformemente i Ricavi fissi per il numero di ore registrate sull'attività. </p> <p> </p> <p>Ad esempio, un'attività ha un reddito effettivo di 200 dollari. Se l'attività contiene 4 ore effettive, ogni ora corrisponderebbe a 50 $. Viene distribuito a livello di utente e ruolo. Questa distribuzione è univoca per il rapporto Utilizzo.</p> <p><b>NOTA</b></p></p>
+   <p>Se si dispone di un'attività Reddito fisso e non sono presenti ore effettive sull'attività, la retribuzione effettiva non viene visualizzata nel rapporto Utilizzo perché non è possibile distribuire le ore. </p> <p><strong>Ore ruolo:</strong> I ricavi sull'attività vengono calcolati utilizzando la tariffa di fatturazione impostata per un ruolo specifico, moltiplicata per il numero di ore effettive.</p> <p>Workfront utilizza la seguente formula:</p> <p><code>Role Hourly Actual Revenue = SUM(Actual Hours from role on all tasks) * Role Billing Rate</code> </p> <p><b>NOTA:</b> la tariffa oraria di fatturazione nella formula considera qualsiasi modifica effettiva della tariffa.</p> <p><strong>Ore utente:</strong> I ricavi sull'attività vengono calcolati utilizzando la tariffa di fatturazione impostata per un utente specifico, moltiplicata per il numero di ore registrate per l'attività da tale utente. Workfront utilizza la seguente formula:</p> <p><code>User Hourly Actual Revenue = SUM(Actual Hours from user on all tasks) * User Billing Rate</code></p> <p><b>NOTA:</b> la tariffa oraria di fatturazione nella formula considera qualsiasi modifica effettiva della tariffa.</p> <p><b>Ore Ruolo o Utente più Fisso</b> </p> <p><b>IMPORTANTE</b>
+   <p>A differenza di altre aree di Workfront, il rapporto Utilizzo calcola i Ricavi effettivi dividendo uniformemente i Ricavi fissi per il numero di ore registrate sull'attività. </p> <p>Esistono i seguenti casi: </p> </p>
+   <ul> 
+     <li> <p><strong>Ore Ruolo più Fisso:</strong> La tariffa di fatturazione impostata per un ruolo specifico, moltiplicata per il numero di ore registrate per l'attività da un utente con tale ruolo. Al tasso di ruolo viene inoltre aggiunto un importo fisso specificato per l'attività. </p> <p>Workfront utilizza la seguente formula:</p> <p><code>Role Hourly Plus Fixed Actual Revenue = [SUM(Actual Hours from role on all tasks) * Role Billing Rate] + SUM(Cap or Fixed Amount of the task / Actual Hours of the task)</code> </p> </li>
+     <li> <p><strong>Ore utente più Fisso:</strong> La tariffa di fatturazione impostata per un utente specifico, moltiplicata per il numero di ore registrate per l'attività da tale utente. Alla tariffa utente viene inoltre aggiunto un importo fisso specificato per l'attività. </p> <p>Workfront utilizza la seguente formula:</p> <p><code>User Hourly Plus Fixed Actual Revenue = [SUM(Actual Hours from role on all tasks) * User Billing Rate] + SUM(Cap or Fixed Amount of the task / User Hours of the task)</code> </p> </li> 
+   </ul> <p><b>Ore Ruolo o Utente w/ Cap</b> </p> <p><b>IMPORTANTE</b>
+   <p>A differenza di altre aree di Workfront, se la Retribuzione pianificata supera il limite, l'importo oltre l'Importo limite è considerato Reddito fisso. La Retribuzione pianificata viene calcolata dividendo equamente la Retribuzione fissa per il numero di Ore pianificate per l'attività, quindi aggiungendo l'Importo limite e la Retribuzione oraria per ruolo o utente. <br></p> <p>Esistono i seguenti casi:</p></p>
+    <ul> 
+     <li> <p><strong>Ore Ruolo w/Cap:</strong> Le attività vengono fatturate su base oraria come in Ore Ruolo, ma hanno un importo massimo di Cap che puoi specificare. Workfront utilizza la seguente formula:</p> <p><code>Role Hourly w/ Cap Actual Revenue = [SUM(Actual Hours from role on all tasks and issues) * Role Billing Rate] + Cap Amount of the task + SUM(Amount over the Cap Amount / Actual Hours of the task)</code></p> </li>
+     <li> <p><strong>Ore utente con limite:</strong> Le attività vengono fatturate su base oraria come in Ore utente, ma hanno un limite massimo che è possibile specificare.</p> <p> Workfront utilizza la seguente formula:</p> <p><code>User Hourly w/ Cap Actual Revenue = [SUM(Actual Hours from role on all tasks and issues) * User Billing Rate] + Cap Amount of the task + SUM(Amount over the Cap Amount / Actual Hours of the task)</code> </p> </li> 
+    </ul>
+     <p><strong>Ricavi progetto</strong>: i ricavi associati alle ore registrate nel progetto vengono calcolati tenendo conto della quantità di fatturazione per ora della mansione principale dell'utente che registra l'ora. Si sconsiglia di registrare il tempo sul progetto. </p> 
+     <p><b>NOTA</b>Se l'utente non è associato a una mansione o se la Fatturazione ad Ore del Ruolo principale è zero, Workfront calcola la Retribuzione effettiva utilizzando l'importo della Fatturazione ad Ore per l'utente. Se l'utente non ha un importo di Fatturazione ad Ore nel suo profilo, il Reddito Reale è zero. </p> 
+   </td> 
   </tr> 
   <tr> 
    <td><strong>Varianza preventivata (per ricavi)</strong> </td> 
@@ -467,7 +460,7 @@ Per tenere traccia dell&#39;avanzamento o del costo di uno o più progetti con u
 
      {{step1-to-utilization-report}}
 
-      1. Fare clic su **Mostra**>**Programmi**.
+      1. Fai clic su **Mostra** > **Programmi**.
       1. Applica un filtro al report Utilizzo, quindi fai clic su **Esegui**.\
          Prima di eseguire il rapporto Utilizzo, è necessario specificare uno o più programmi nel filtro. Per informazioni su come filtrare il report Utilizzo, vedere [Informazioni sull&#39;utilizzo del filtro](#filter-utilization-information) in questo articolo.\
          Le informazioni sull&#39;utilizzo vengono visualizzate per i singoli progetti e programmi (i progetti sono raggruppati nel relativo programma associato).
@@ -476,7 +469,7 @@ Per tenere traccia dell&#39;avanzamento o del costo di uno o più progetti con u
 
      {{step1-to-utilization-report}}
 
-      1. Fai clic su **Mostra**>**Portfolio**.
+      1. Fai clic su **Mostra** > **Portfolio**.
       1. Applica un filtro al report Utilizzo, quindi fai clic su **Esegui**.\
          È necessario specificare uno o più portfolio nel filtro prima di eseguire il rapporto Utilizzo. Per informazioni su come filtrare il report Utilizzo, vedere [Informazioni sull&#39;utilizzo del filtro](#filter-utilization-information) in questo articolo.\
          Le informazioni sull&#39;utilizzo vengono visualizzate per singoli progetti, programmi e portafogli (i progetti sono raggruppati all&#39;interno del programma associato e i programmi sono raggruppati all&#39;interno del portfolio associato).
@@ -492,7 +485,8 @@ Per tenere traccia dell&#39;avanzamento o del costo di uno o più progetti con u
    L&#39;opzione selezionata determina le colonne e le informazioni disponibili nel rapporto.
    ![Opzioni di visualizzazione](assets/utilization-view-dropdown.png)
 
-1. (Facoltativo) Selezionare l&#39;intervallo di date per il quale vengono visualizzate le informazioni sull&#39;utilizzo. È possibile visualizzare le informazioni per una determinata settimana o mese a sinistra della colonna **Complessivo**. Le informazioni relative al progetto, al programma o al portfolio complessivo vengono sempre visualizzate nella colonna **Complessivo**.\
+1. (Facoltativo) Selezionare l&#39;intervallo di date per il quale vengono visualizzate le informazioni sull&#39;utilizzo. È possibile visualizzare le informazioni per una determinata settimana o mese a sinistra della colonna **Complessivo**. Le informazioni relative al progetto, al programma o al portfolio complessivo vengono sempre visualizzate nella colonna **Complessivo**.
+
    Per ulteriori informazioni, vedere [Modificare l&#39;intervallo di date per il quale vengono visualizzate le informazioni](#adjust-the-date-range-for-which-information-is-displayed) in questo articolo.
 
 1. (Facoltativo) Fai clic sul titolo di una colonna per ordinare il rapporto sull’utilizzo in base alle informazioni contenute in tale colonna. L&#39;ordinamento funziona solo quando si includono più elementi nel report. Ad esempio, puoi ordinare i risultati del rapporto quando stai esaminando più di un progetto (o portfolio o programma). Non è possibile ordinare i risultati quando si esamina un solo progetto (o un portfolio o un programma) alla volta.
@@ -511,7 +505,8 @@ Quando crei un filtro, anche tutti gli utenti di Workfront che hanno accesso al 
 Per creare o modificare un filtro:
 
 1. Aprire il rapporto Utilizzo.
-Consulta [Tieni traccia di avanzamento, costi e ricavi con il report Utilizzo](#track-progress-cost-and-revenue-with-the-utilization-report) per farlo.
+
+   Consulta [Tieni traccia di avanzamento, costi e ricavi con il report Utilizzo](#track-progress-cost-and-revenue-with-the-utilization-report) per farlo.
 
 1. Fai clic sull&#39;icona **Filtro** per visualizzare le opzioni del filtro.
 1. (Condizionale) Per modificare un filtro esistente, fai clic sul menu a discesa **Filtro**, quindi seleziona il filtro da modificare.

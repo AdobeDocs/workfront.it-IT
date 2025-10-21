@@ -6,7 +6,7 @@ description: Puoi installare il plug-in Adobe Workfront for Photoshop da Adobe M
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 2%
@@ -36,16 +36,6 @@ ht-degree: 2%
  <col> 
  <col> 
  <tbody> 
-  <!--<tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
-   <td>Any</td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> 
-   <p>Standard</p>
-   <p>Work or higher</p> </td> 
-  </tr> -->
   <tr> 
    <td role="rowheader">Prodotti aggiuntivi</td> 
    <td><p>È necessario disporre di una licenza [!DNL Adobe Creative Cloud] oltre a una licenza [!DNL Workfront].</p></td> 
@@ -109,7 +99,7 @@ Gli amministratori di [!DNL Adobe Admin Console] possono anche creare pacchetti 
    >* Per trovare il dominio, aprire un browser, accedere all&#39;istanza [!DNL Workfront] e copiare la prima parte dell&#39;URL:\
    >![Individua dominio](assets/domain-350x50.png)
    >
-   > * Se l’istanza di Workfront è integrata con Experience Cloud, chiedi all’amministratore di fornirti il dominio Workfront che si trova in Prodotto > Workfront nell’Admin Console.
+   >* Se l’istanza di Workfront è integrata con Experience Cloud, chiedi all’amministratore di fornirti il dominio Workfront che si trova in Prodotto > Workfront nell’Admin Console.
 
 1. Nel browser, immetti le tue credenziali di [!DNL Workfront], quindi fai clic su **[!UICONTROL Accedi]**. Se l&#39;azienda utilizza un Single Sign-On (SSO), verrà visualizzata la pagina del provider SSO per l&#39;accesso.
 

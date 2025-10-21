@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1144'
 ht-degree: 1%
@@ -199,11 +199,11 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
 | Visualizzare i record in una timeline |            | ✓ |             |
 | Filtra record | ✓ | ✓ | ✓ |
 | Visualizzare i record in un calendario |           |              | ✓ |
-| Raggruppa record | ✓ | ✓ |
-| Ordinare i record | ✓ |              |
+| Raggruppa record | ✓ | ✓ |  |
+| Ordinare i record | ✓ |              |  |
 | Record codice colore | ✓ | ✓ | ✓ |
-| Raggruppamenti di codici colore |           | ✓ |
-| Cerca record specifici | ✓ | ✓ |
+| Raggruppamenti di codici colore |           | ✓ |  |
+| Cerca record specifici | ✓ | ✓ |  |
 | Condividere la visualizzazione con altri utenti | ✓ | ✓ | ✓ |
 | Aprire la pagina del record dalla visualizzazione | ✓ | ✓ |    |
 | Visualizza record per anno e trimestre |           | ✓ |    |

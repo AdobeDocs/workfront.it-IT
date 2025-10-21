@@ -7,7 +7,7 @@ description: Puoi aggiungere ulteriori misure di sicurezza alle bozze.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2f6737d5-627d-463f-8127-504755bd0380
-source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%
@@ -32,10 +32,10 @@ Quando l’opzione di accesso richiesto è abilitata, ai revisori viene richiest
 
 >[!TIP]
 >
->Per semplificare la procedura di accesso, si consiglia di impostare l&#39;SSO in Workfront e Workfront proof. Per ulteriori informazioni sull&#39;abilitazione dell&#39;SSO, vedere >
+>Per semplificare la procedura di accesso, si consiglia di impostare l&#39;SSO in Workfront e Workfront proof. Per ulteriori informazioni sull&#39;abilitazione dell&#39;SSO, vedere
+>
 >* [Single Sign-On in Workfront: indice articolo](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
 >* [Configurazione del Single Sign-On per gli utenti di Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
->
 
 ## Firma elettronica
 
@@ -47,6 +47,6 @@ Quando l&#39;impostazione della firma elettronica è attivata su una bozza, un r
 
 >[!IMPORTANT]
 >
->Per firmare elettronicamente una bozza con le credenziali SSO, è necessario configurare SSO in Workfront Proof. Per ulteriori informazioni sull&#39;abilitazione dell&#39;SSO, vedere >
->* [Configurazione del Single Sign-On per gli utenti di Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>Per firmare elettronicamente una bozza con le credenziali SSO, è necessario configurare SSO in Workfront Proof. Per ulteriori informazioni sull&#39;abilitazione dell&#39;SSO, vedere
 >
+>* [Configurazione del Single Sign-On per gli utenti di Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)

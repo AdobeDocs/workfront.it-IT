@@ -8,7 +8,7 @@ description: Puoi cercare contenuti all’interno del sito Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1596b3d2-d513-4e36-98b7-92e349aca5bc
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 1%
@@ -46,11 +46,14 @@ Per eseguire una ricerca nel sito [!DNL Workfront Proof]:
 
 1. (Facoltativo) Nei risultati della ricerca visualizzati, ordina per colonna facendo clic sull’intestazione nella parte superiore di una colonna. (Facoltativo) Aggiungi il filtro ai risultati facendo clic sull&#39;icona [!UICONTROL cerca] alla fine della riga di intestazione. ![Ricerca_filtro_in_Ricerca_risultati.png](assets/search-filter-in-search-results-350x90.png)
 
-In questo modo vengono aggiunti dei menu a discesa in cui è possibile selezionare i filtri per restringere la ricerca.
-1. ![Search_filter_boxes_compare_in_Search_results.png](assets/search-filter-boxes-appear-in-search-results-350x154.png)
+   In questo modo vengono aggiunti dei menu a discesa in cui è possibile selezionare i filtri per restringere la ricerca.
 
-1. (Facoltativo) Per limitare la ricerca, apri la scheda [!UICONTROL Tag] e fai clic su un tag nella barra laterale di navigazione a sinistra. Gli elementi associati a tale tag vengono visualizzati nei risultati della ricerca.\
-   ![Ricerca per tag.png](assets/searching-by-tag-350x209.png)\
+   ![Search_filter_boxes_compare_in_Search_results.png](assets/search-filter-boxes-appear-in-search-results-350x154.png)
+
+1. (Facoltativo) Per limitare la ricerca, apri la scheda [!UICONTROL Tag] e fai clic su un tag nella barra laterale di navigazione a sinistra. Gli elementi associati a tale tag vengono visualizzati nei risultati della ricerca.
+
+   ![Ricerca per tag.png](assets/searching-by-tag-350x209.png)
+
    Il nome del tag viene visualizzato nel campo di ricerca nell’angolo superiore destro di Workfront Proof. Puoi perfezionare la ricerca selezionando tag aggiuntivi o digitando ulteriori parole chiave nel campo di ricerca. Per rimuovere un tag dal campo di ricerca, fai clic sull’icona x accanto al nome del tag.
 
 Per informazioni sulla ricerca di testo all&#39;interno del contenuto della bozza, vedere [Ricerca contenuto all&#39;interno di una bozza](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md).

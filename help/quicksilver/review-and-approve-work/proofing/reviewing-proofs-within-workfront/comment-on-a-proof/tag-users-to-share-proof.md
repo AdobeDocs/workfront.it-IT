@@ -6,7 +6,7 @@ description: Quando inserisci un commento su una bozza nel visualizzatore di boz
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
-source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 0%
@@ -64,10 +64,10 @@ Gli utenti con il profilo di autorizzazione di una bozza o il ruolo di bozza des
 
 >[!NOTE]
 >
->Puoi assegnare tag a un collaboratore esterno utilizzando il suo indirizzo e-mail solo se si verifica una delle seguenti condizioni:>
+>Puoi assegnare tag a un collaboratore esterno utilizzando il suo indirizzo e-mail solo se si verifica una delle seguenti condizioni:
+>
 >* Un utente nell’account Workfront della tua organizzazione ha aggiunto in precedenza l’indirizzo e-mail del collaboratore a una bozza.
 >* Il collaboratore ha già utilizzato l’indirizzo e-mail per iscriversi a una bozza nell’account Workfront della tua organizzazione.
->
 
 Per assegnare un tag a qualcuno e condividere una bozza in un commento:
 

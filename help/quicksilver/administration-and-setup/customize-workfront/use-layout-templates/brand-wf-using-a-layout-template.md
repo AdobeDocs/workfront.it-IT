@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
@@ -32,9 +32,8 @@ Per informazioni sui modelli di layout per i gruppi, vedere [Creare e modificare
 >[!NOTE]
 >
 >Un amministratore Workfront può effettuare le stesse personalizzazioni di branding per l&#39;intera organizzazione a livello di sistema, come spiegato in [Personalizza l&#39;istanza Adobe Workfront](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). Tuttavia, il branding in un modello di layout sostituisce il branding a livello di sistema.
-><!--
->Maybe add a section about deleting these 2 settings to revert to default branding?
->-->
+
+<!-- Maybe add a section about deleting these 2 settings to revert to default branding? -->
 
 ## Requisiti di accesso
 

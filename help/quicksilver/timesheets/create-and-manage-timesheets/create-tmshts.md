@@ -6,7 +6,7 @@ description: Puoi creare manualmente una scheda orario monouso se desideri una s
 author: Lisa
 feature: Timesheets
 exl-id: b293dd50-a9b8-448b-afc1-8c7c7c79183b
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 0%
@@ -26,13 +26,9 @@ Per informazioni sulla generazione manuale delle schede orario per tutti gli ute
 >[!NOTE]
 >
 >* Non è possibile creare schede orario monouso per i gruppi.
->  <!--
->  <span>Making sure with Lilit that this is correct</span>>
->  -->
 >* Quando si crea una scheda orario monouso, non è possibile selezionare tipi di ore generici specifici da includere nella scheda orario. Tutti i tipi di ore generali attivati nel sistema vengono visualizzati nelle schede orario create manualmente.
 >
->  Se desideri selezionare solo determinati tipi di ore generali da visualizzare nelle schede orario, utilizza un profilo scheda orario. Per ulteriori informazioni sui profili delle schede orario, vedere [Creare, modificare e assegnare profili delle schede orario](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
->
+>Se desideri selezionare solo determinati tipi di ore generali da visualizzare nelle schede orario, utilizza un profilo scheda orario. Per ulteriori informazioni sui profili delle schede orario, vedere [Creare, modificare e assegnare profili delle schede orario](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ## Requisiti di accesso
 

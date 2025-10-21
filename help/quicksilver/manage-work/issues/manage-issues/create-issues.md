@@ -8,7 +8,7 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1461'
 ht-degree: 0%
@@ -173,8 +173,9 @@ Viene visualizzata la casella Nuovo problema.
    >[!TIP]
    >
    >I Tipi di richiesta devono essere abilitati nella sezione Dettagli coda e anche durante la creazione dell’Argomento coda per essere visualizzati come selezione nel modulo Nuovo problema. Per informazioni, vedere i seguenti articoli:
+   >
    >* [Creare una coda di richieste](../../requests/create-and-manage-request-queues/create-request-queue.md)
-   >  * [Crea argomenti coda](../../requests/create-and-manage-request-queues/create-queue-topics.md)
+   >* [Crea argomenti coda](../../requests/create-and-manage-request-queues/create-queue-topics.md)
 
 1. Continua a specificare i campi disponibili nel modulo **Nuovo problema**. Per ulteriori informazioni sui campi disponibili quando si immette un nuovo problema, vedere [Modifica problemi](../../../manage-work/issues/manage-issues/edit-issues.md).
 

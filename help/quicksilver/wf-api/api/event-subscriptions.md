@@ -1,13 +1,15 @@
 ---
+title: Abbonamenti eventi
 content-type: api
 navigation-topic: Event Subscriptions resources
 description: Risorse sottoscrizioni eventi
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 1b09f1d69561bd192c4e26bf48da558ed2e8b626
+exl-id: b604d8fe-3a5b-4217-9a08-df269826f112
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '51'
 ht-degree: 0%
 
 ---
@@ -25,4 +27,3 @@ Di seguito sono riportate diverse risorse su Abbonamenti eventi in Adobe Workfro
 * [Filtrare i messaggi di abbonamento agli eventi](../../wf-api/api/filter-event-sub-messages.md)
 * [Formato del messaggio in uscita per le sottoscrizioni di eventi](../../wf-api/api/message-format-event-subs.md)
 * [Domande frequenti - Abbonamenti agli eventi](../../wf-api/general/event-subs-faq.md)
-

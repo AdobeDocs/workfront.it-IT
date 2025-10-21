@@ -6,7 +6,7 @@ description: Se è necessario fare di più per completare un problema dopo l’i
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 1%
@@ -171,8 +171,8 @@ La tabella seguente illustra quali campi dei problemi sono visibili dai progetti
 | Campi problema | Campo progetto o attività | Elenco o rapporto del progetto | Area Dettagli progetto | Elenco o rapporto attività | Area Dettagli attività |
 |---|---|---|---|---|---|
 | [!UICONTROL Nome problema] | [!UICONTROL Nome problema convertito] | ✔ | ✔ | ✔ | ✔ |
-| [!UICONTROL Contatto principale] | [!UICONTROL Nome del mittente del problema convertito] | ✔ | ✔ | ✔ |
-| [!UICONTROL Data di ingresso] | [!UICONTROL Data voce problema convertito] | ✔ |  | ✔ |
+| [!UICONTROL Contatto principale] | [!UICONTROL Nome del mittente del problema convertito] | ✔ | ✔ | ✔ |  |
+| [!UICONTROL Data di ingresso] | [!UICONTROL Data voce problema convertito] | ✔ |  | ✔ |  |
 
 
 >[!CAUTION]

@@ -7,7 +7,7 @@ description: Puoi utilizzare le espressioni di dati per definire campi di dati p
 author: Jenny, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '2551'
 ht-degree: 2%
@@ -59,7 +59,7 @@ Ad esempio:
 * In un campo personalizzato, in un modulo personalizzato per le attività, puoi utilizzare quanto segue per generare il nome del progetto principale dell’attività a cui è allegato il modulo personalizzato:
 
 
-  ` {project}.{name}`
+  `{project}.{name}`
 
 
 * In una colonna personalizzata di un report, utilizzare quanto segue per aggiungere una colonna personalizzata Nome progetto a un report attività:

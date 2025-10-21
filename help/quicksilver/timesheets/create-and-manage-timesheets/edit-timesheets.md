@@ -6,7 +6,7 @@ description: In qualità di utente con accesso amministrativo alle schede orario
 author: Lisa
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 1%
@@ -112,8 +112,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
      <tr> 
       <td role="rowheader"><strong>Data di fine</strong> </td> 
       <td> Questa è la data di fine della scheda orario.</td> 
-     </tr>
-<tr> 
+     </tr> 
+     <tr> 
       <td role="rowheader"><strong>Stato</strong> </td> 
       <td> Questo è lo stato della scheda orario.
       Di seguito sono riportate le possibili opzioni di stato della scheda orario: 
@@ -121,7 +121,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
       <li><b>Inviato</b>: la scheda orario viene inviata per l'approvazione agli approvatori designati.</li>
       <li><b>Rifiutato</b>: la scheda orario non è stata approvata dagli approvatori ed è ora nuovamente disponibile per consentire all'utente di modificare le voci relative all'ora.</li>
       <li><b>Chiusa</b>: la scheda orario è stata chiusa dall'utente o approvata dall'approvatore e di conseguenza è ora chiusa. Non è possibile aggiungere un orario a una scheda orario chiusa.</li>
-   </td> 
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Approvatori</strong> </td> 

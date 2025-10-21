@@ -6,7 +6,7 @@ description: Un cliente Workfront che, come definito in HIPAA, è un Business As
 feature: Get Started with Workfront
 author: Courtney
 exl-id: e3cdaa03-d523-46a4-954b-8456d5f190e4
-source-git-commit: 15a703e2292883427e371603f77a99765ed9d00a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Un cliente Workfront che, come definito in HIPAA, è un Business Associate e/o l
 | **Impostazione protezione** | **Cos&#39;È?** | **Requisito** |
 |----------------------|------------------|------------------|
 | Numero minimo di password per i contratti | Qual è la forza minima per le password di accordo? | Non meno di 8 caratteri |
-| Numero minimo di password per le password utente | Qual è il numero minimo di password degli utenti? | Caratteri di tre delle seguenti categorie:<br>* Lettere maiuscole (alfabeto latino)<br>* Lettere minuscole (alfabeto latino)<br>* Caratteri base 10 cifre<br>* Caratteri non alfanumerici |
+| Numero minimo di password per le password utente | Qual è il numero minimo di password degli utenti? | Caratteri di tre delle seguenti categorie:<br> Lettere maiuscole (alfabeto latino)<br> Lettere minuscole (alfabeto latino)<br> Base 10 cifre<br> Caratteri non alfanumerici |
 | Durata password | Per quanto tempo le password devono rimanere invariate? | Le password devono essere modificate almeno ogni 90 giorni |
 | Cronologia password | Quante password passate devono essere memorizzate e non consentite? | Non meno di 5 |
 

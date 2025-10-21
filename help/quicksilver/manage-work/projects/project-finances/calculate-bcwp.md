@@ -7,7 +7,7 @@ description: Il valore BCWP (Costo preventivato del lavoro eseguito, Budgeted Co
 author: Lisa
 feature: Work Management
 exl-id: 203709a7-e522-4875-b3eb-40b967a938ec
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 2%
@@ -85,7 +85,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 1. Fai clic su **Salva modifiche**.
 
-Il valore BCWP delle attività del progetto viene calcolato in base alle ore o ai costi.
+   Il valore BCWP delle attività del progetto viene calcolato in base alle ore o ai costi.
 
 ## Calcola BCWP
 

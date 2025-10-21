@@ -6,7 +6,7 @@ description: Puoi installare  [!DNL Adobe Workfront for design and video]  da Ad
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 2%
@@ -122,10 +122,11 @@ Gli amministratori di [!DNL Adobe Admin Console] possono anche creare pacchetti 
 
    >[!TIP]
    >
-   >* Per trovare il dominio, aprire un browser, accedere all&#39;istanza [!DNL Workfront] e copiare la prima parte dell&#39;URL:\
+   >* Per trovare il dominio, aprire un browser, accedere all&#39;istanza [!DNL Workfront] e copiare la prima parte dell&#39;URL:
+   >
    >![Individua dominio](assets/domain-350x50.png)
    >
-   > * Se l’istanza di Workfront è integrata con Experience Cloud, chiedi all’amministratore di fornirti il dominio Workfront che si trova in Prodotto > Workfront nell’Admin Console.
+   >* Se l’istanza di Workfront è integrata con Experience Cloud, chiedi all’amministratore di fornirti il dominio Workfront che si trova in Prodotto > Workfront nell’Admin Console.
 
 1. Nel browser, immetti le tue credenziali di [!DNL Workfront], quindi fai clic su **[!UICONTROL Accedi]**. Se l&#39;azienda utilizza un Single Sign-On (SSO), verrà visualizzata la pagina del provider SSO per l&#39;accesso.
 

@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 0%
@@ -98,7 +98,8 @@ Per informazioni sulla pianificazione e la programmazione delle risorse in [!DNL
      >`User Available Hours = [((40 - 0) * 0.5) - 1] * 0.5 = 9.5 hours`
      >
 
-     <!--This used to be the calculation before we implemented the Work Time field: 
+     <!--
+      This used to be the calculation before we implemented the Work Time field: 
     
       ```
       User Available Hours = ([!UICONTROL Default Schedule] Hours - Exceptions) * FTE - Time off hours
@@ -109,9 +110,8 @@ Per informazioni sulla pianificazione e la programmazione delle risorse in [!DNL
       > For example, if the [!UICONTROL Default Schedule] is 40 hours a week and the [!UICONTROL FTE] in the profile of the user is 0.5, the user is available to work for 20 hours a week.
       >If the user has 1 hour of Time off one day, their Available Hours will be calculated as follows:
       >
-      >```
+      >
       >User Available Hours = [(40 - 0) * 0.5)] - 1 = 19 hours
-      >```
       -->
 
 
@@ -150,7 +150,7 @@ Per informazioni sulla pianificazione e la programmazione delle risorse in [!DNL
 
      >[!INFO]
      >
-     >Ad esempio, se la [!UICONTROL pianificazione predefinita] è di 40 ore settimanali, la pianificazione dell&#39;utente è di 30 ore settimanali, l&#39;orario di lavoro [!UICONTROL dell&#39;utente] è 0,5 e l&#39;FTE [!UICONTROL &#x200B; dell&#39;utente è 0,35.]
+     >Ad esempio, se la [!UICONTROL pianificazione predefinita] è di 40 ore settimanali, la pianificazione dell&#39;utente è di 30 ore settimanali, l&#39;orario di lavoro [!UICONTROL dell&#39;utente] è 0,5 e l&#39;FTE [!UICONTROL  dell&#39;utente è 0,35.]
      >
      >Se l&#39;utente ha 2 ore di inattività in un giorno, le sue [!UICONTROL FTE] settimanali disponibili verranno calcolate come segue:
      >

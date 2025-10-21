@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '1649'
+source-wordcount: '1653'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Se le date di inizio e di completamento effettive dell&#39;attività non rientra
 >[!BEGINSHADEBOX]
 
 **ESEMPIO**
-Se una pianificazione inizia alle 9 e termina alle 12 e un&#39;attività è pianificata per iniziare alle 14 e terminare alle 16, la durata dell&#39;attività sarà zero.
+Se la pianificazione inizia alle 9:00 e termina alle 12:00 e un&#39;attività è pianificata per iniziare alle 14:00 e terminare alle 16:00, la durata dell&#39;attività è zero.
 
 
 >[!ENDSHADEBOX]
@@ -73,11 +73,11 @@ Quando si aggiorna la Durata delle attività in un elenco, è possibile utilizza
 
 | Unità di tempo | Abbreviazione |
 |---|---|
-| Minuti | M |
+| Minutes | M |
 | Ore | H |
 | Giorni. Questa è l&#39;impostazione predefinita. | Dsbld |
-| Settimane | M |
-| Mesi | T, MO |
+| Weeks | M |
+| Months | T, MO |
 | Minuti trascorsi | EM |
 | Ore trascorse | EH |
 | Giorni trascorsi | ED |

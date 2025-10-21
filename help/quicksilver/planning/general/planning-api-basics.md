@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1009'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -94,7 +94,7 @@ Workfront Planning supporta i seguenti modificatori di ricerca:
         <td>$isEmpty </td>
         <td><ul><li><code>"fieldId": "$isEmpty" </code></li><li><code>"fieldId": { "$isEmpty": null } </code></li><ul> </td>
         <td>Restituisce record il cui valore di campo non è vuoto  </td>
-        <td><ul><li>“” </li><li>nulle </li><ul>  </td>
+        <td><ul><li>“” </li><li>null </li><ul>  </td>
     </tr>
     <tr>
         <td>$isNotEmpty </td>
@@ -194,7 +194,7 @@ Di seguito è riportato l’elenco dei tipi di campo supportati e i modificatori
 
 | Tipo di campo | Modificatori di ricerca supportati |
 |---|---|
-| text | $contains, $doesNotContain, $is, $isNot, $isEmpty, $isNotEmpty |
+| testo | $contains, $doesNotContain, $is, $isNot, $isEmpty, $isNotEmpty |
 | testo lungo | $contains, $doesNotContain, $is, $isNot, $isEmpty, $isNotEmpty |
 | numero | $is, $isNot, $majorThan, $majorThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
 | percentuale | $is, $isNot, $majorThan, $majorThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
@@ -349,7 +349,7 @@ Per impostazione predefinita, le richieste API di Planning restituiscono 500 ris
 
 Ad esempio, se si desidera restituire i risultati 2001-4000, è possibile utilizzare la seguente richiesta. In questo esempio vengono restituiti 2000 record con stato attivo, a partire dal risultato 2001:
 
-`POST /v1/records/search `
+`POST /v1/records/search`
 
 
 

@@ -5,7 +5,7 @@ description: Scopri l’Assistente IA in Adobe Workfront
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 657c2aa75d088f87f8e05b5089fccae2577842ee
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 1%
@@ -149,7 +149,7 @@ Quando si immette la richiesta, includere la frase `using (keyword)`.
 | Parola chiave | Effetto |
 |---|---|
 | `workfront` | Interagisce direttamente con Workfront. |
-| `planning ` | Interagisce con Workfront Planning. |
+| `planning` | Interagisce con Workfront Planning. |
 | `help` | Restituisce informazioni dalla documentazione di Experience League. |
 | `formula` | Controlla e restituisce le formule da utilizzare nei moduli personalizzati di Planning, Setup o. |
 | `health` | Verifica lo stato del progetto con Project Health Advisor. |

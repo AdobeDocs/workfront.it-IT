@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: f9a154fa92217810b762ac48169512bc0bca7305
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 0%
@@ -118,11 +118,8 @@ Prendi nota dei parametri che vengono passati:
   Per istruzioni, consulta Creare un’applicazione web a pagina singola OAuth2 utilizzando PKCE in Creare applicazioni OAuth2 per le integrazioni Workfront.
 
 * `response_type` è `code`, perché l&#39;applicazione utilizza il tipo di concessione Codice di autorizzazione.
-
 * `redirect_uri` è la posizione di callback a cui viene indirizzato l&#39;agente utente insieme a `code`. Deve corrispondere a uno degli URL di reindirizzamento specificati al momento della creazione dell’applicazione OAuth2.
-
 * `code_challenge_method` è il metodo hash utilizzato per generare la sfida, che è sempre `S256` per le applicazioni Workfront Oauth2 che utilizzano PKCE.
-
 * `code_challenge` è la sfida di codice utilizzata per PKCE.
 
 

@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -75,14 +75,19 @@ Fai clic su **Aggiungi file** per sfogliare i file o importarli da un provider D
 1. Fare clic sul nome di un elemento di lavoro per aprire la pagina **Panoramica**.
 1. Nella sezione **Azioni rapide**, fai clic su **Carica**, quindi seleziona **Documento**.
 1. (Facoltativo) Nella casella **Carica file** selezionare una cartella.
-1. Trascina e rilascia il file o usa Cmd/Ctrl + V per incollarlo dagli Appunti
-o
-Fai clic su **Aggiungi file** per sfogliare i file o importarli da un provider Document Cloud.
+1. Trascina e rilascia il tuo file o usa Cmd/Ctrl + V per incollarlo dagli appunti
+
+   oppure
+
+   Fai clic su **Aggiungi file** per sfogliare i file o importarli da un provider Document Cloud.
+
    ![Aggiungi file](assets/add-files.png)
+
 1. Aggiungi un commento (facoltativo).
 1. Aggiungi altri file (facoltativo).
 
    >[!NOTE]
    >
    >I file aggiuntivi vengono caricati come documenti separati.
+
 1. Fai clic su **Carica**.

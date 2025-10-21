@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -157,12 +157,15 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 {{step1-to-planning}}
 
 Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
+
 1. Fare clic su una scheda del tipo di record.
 
    Viene visualizzata la pagina del tipo di record.
+
 1. (Condizionale) Dal menu a discesa **Visualizza** nell&#39;angolo superiore destro della tabella, selezionare una vista tabella. Questa dovrebbe essere la vista predefinita, a meno che il tipo di record non sia stato visualizzato nella vista timeline al momento dell&#39;ultimo accesso.
 
    I record associati al tipo di record selezionato vengono visualizzati nella vista tabella.
+
 1. Fare clic con il pulsante destro del mouse su una riga di record
 
    Oppure

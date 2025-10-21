@@ -6,7 +6,7 @@ description: Puoi importare progetti esistenti in un piano. I progetti importati
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1677'
 ht-degree: 0%
@@ -180,15 +180,9 @@ Quando si importa un progetto in un piano, alcune informazioni del progetto veng
 >Si verificano le seguenti situazioni:
 >
 >* Le modifiche apportate al progetto non influiscono mai sull&#39;iniziativa dopo l&#39;importazione del progetto nel piano. Tali modifiche includono modifiche alle allocazioni dei ruoli.
->
->  <!--
->  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might change if projects will ever affect initiatives automatically) </p>>
->  -->
->
 >* Le modifiche apportate all&#39;iniziativa hanno effetto sulle informazioni nell&#39;area [!DNL Scenario Planner] del progetto solo quando si pubblica l&#39;iniziativa nel progetto corrispondente. In caso contrario, non influiscono sulle informazioni relative alle [!UICONTROL ore pianificate] per le attività e i problemi del progetto.
 >
 >  Per informazioni su come la pubblicazione delle iniziative influisce sui progetti collegati, vedere [Aggiornare o creare progetti pubblicando iniziative nella Pianificazione scenario](../scenario-planner/publish-scenarios-update-projects.md).
->
 
 {{step1-to-scenario-planner}}
 
@@ -248,8 +242,8 @@ Quando si importa un progetto in un piano, alcune informazioni del progetto veng
       <td>Le date di inizio e fine dell’iniziativa. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Progetto </td> 
-      <td> <p>[!UICONTROL Planned Start] (Inizio pianificato) e [!UICONTROL Completion dates] (Date di completamento previste) del progetto collegato.</p> <p>Suggerimento: se mancano le informazioni del progetto , il progetto è stato eliminato.</p> </td> 
+      <td role="rowheader">Progetto [!UICONTROL]</td> 
+      <td> <p>[!UICONTROL Planned Start] (Inizio pianificato) e [!UICONTROL Completion dates] (Date di completamento previste) del progetto collegato.</p> <p>Suggerimento: se mancano le informazioni del progetto [!UICONTROL], il progetto è stato eliminato.</p> </td> 
      </tr> 
     </tbody> 
    </table>

@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
-source-git-commit: 75fea812b4574191522af4721a013b57aa5d609f
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 1%
@@ -30,9 +30,7 @@ Se si attiva l&#39;autenticazione SAML 2.0 e si desidera consentire agli utenti 
 >[!NOTE]
 >
 >Questa opzione non è disponibile se l’istanza Workfront dell’organizzazione utilizza un portale SSO personalizzato.>
-><!--
->or is enabled with Adobe IMS>
->-->
+>
 >Per ulteriori informazioni, rivolgersi all&#39;amministratore di rete o IT.
 
 ## Requisiti di accesso
