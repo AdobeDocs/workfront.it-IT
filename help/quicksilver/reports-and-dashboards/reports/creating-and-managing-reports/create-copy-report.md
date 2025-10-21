@@ -7,7 +7,7 @@ description: Puoi creare una copia di qualsiasi rapporto a cui hai accesso. È p
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 0841594c855c39fedf4eab5492994ff4f7acfbdf
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Se si desidera creare una copia di un report personalizzato, eseguire le operazi
 
    ![Copia report](assets/unshimmed-report-actions-copy.png)
 
-   Viene creata una copia del report originale con il nome predefinito _[Nome del report originale] (copia)_. Ad esempio, una copia del rapporto &quot;Q4 Completed Tasks&quot; (Attività completate Q4) sarebbe denominata &quot;Q4 Completed Tasks (Copy)&quot;.
+   Viene creata una copia del report originale con il nome predefinito _[Nome del report originale]_ _(Copia)_. Ad esempio, una copia del rapporto &quot;Q4 Completed Tasks&quot; (Attività completate Q4) sarebbe denominata &quot;Q4 Completed Tasks (Copy)&quot;.
 
 1. (Facoltativo) Per rinominare il report, fare clic su **Azioni report** e quindi su **Modifica**. Digita un nuovo nome nella casella di testo nell&#39;angolo in alto a sinistra, quindi fai clic su **Salva + Chiudi** al termine.
 
