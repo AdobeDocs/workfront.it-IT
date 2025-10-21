@@ -7,9 +7,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: e05b15bbb9e9148cc6f2940ae33f7ea9f98b7444
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,7 @@ Leggi questi articoli per scoprire come utilizzare l’area Home di Adobe Workfr
 * [Utilizza l&#39;area [!UICONTROL I miei aggiornamenti]](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md)
 * [Visualizza gli elementi in [!UICONTROL Elenco lavori] nell&#39;area [!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
 * [Panoramica dei filtri dei widget Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
+* [Gestire le approvazioni con il widget Le mie approvazioni](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md)
 * [Gestisci le richieste di lavoro e team nell&#39;area [!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
 * [Aggiornare o modificare un elemento di lavoro nell&#39;area [!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
 * [Crea elementi di lavoro e progetti dalla [!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
