@@ -6,7 +6,7 @@ description: Alcune funzionalità sono diverse tra  [!DNL Workfront]  e Adobe Ex
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+source-git-commit: b9547764abd4f1f61d93da6bc66d9e6776954f4d
 workflow-type: tm+mt
 source-wordcount: '1397'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Questa tabella descrive alcune funzioni che differiscono tra le due esperienze.
 | La navigazione include un&#39;area di navigazione di primo livello per i prodotti [!DNL Adobe], le notifiche [!DNL Adobe], la guida e il profilo utente, oltre alla barra di navigazione [!DNL Workfront] | La navigazione include solo la barra di navigazione [!DNL Workfront] |
 | La Guida è accessibile tramite il [!UICONTROL menu principale] e l&#39;area di navigazione superiore | La Guida è accessibile tramite il [!UICONTROL menu principale] e la barra di navigazione [!DNL Workfront] |
 | Il visualizzatore di bozze si apre in una nuova scheda | Il visualizzatore di bozze si apre in Workfront |
-| URL utilizzato per accedere a Workfront: `experience.adobe.com` | URL utilizzato per accedere a Workfront: `(CompanyName).my.workfront.com` |
+| URL utilizzato per accedere a Workfront: `experience.adobe.com` | URL utilizzato per accedere a Workfront: `(CompanyName).my.workfront.adobe.com` |
 | Il formato della data (ad esempio GG/MM/AAAA) si basa sulle impostazioni della lingua Unified Experience. Se l&#39;utente non ha aggiornato le impostazioni della lingua, verranno utilizzate `en-US` impostazioni. | Il formato della data (ad esempio GG/MM/AAAA) si basa sulle preferenze del browser |
 
 {style="table-layout:auto"}
@@ -61,9 +61,9 @@ Per informazioni su [!DNL Admin Console], esaminare gli articoli seguenti:
 
 I clienti esistenti verranno contattati per pianificare le migrazioni. I colleghi del team di supporto per la migrazione assisteranno i clienti durante il processo, forniranno consigli sulla configurazione di [!DNL Admin Console] e forniranno i collegamenti alla documentazione necessaria per rendere la migrazione il più semplice e semplice possibile.
 
-* [[!DNL Adobe Workfront] Panoramica del supporto](https://experienceleague.adobe.com/it/docs/customer-one/using/workfront/overview)
-* [[!DNL Workfront Admin Console] informazioni](https://experienceleague.adobe.com/it/docs/customer-one/using/workfront/landing)
-* [[!DNL Adobe Business Platform] e [!DNL Admin Console] Domande frequenti](https://experienceleague.adobe.com/it/docs/customer-one/using/workfront/faq)
+* [[!DNL Adobe Workfront] Panoramica del supporto](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/overview)
+* [[!DNL Workfront Admin Console] informazioni](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/landing)
+* [[!DNL Adobe Business Platform] e [!DNL Admin Console] Domande frequenti](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/faq)
 
 ### In che modo gestisci [!DNL Adobe Admin Console] per le aziende che hanno già abilitato questo per i Federated ID in modo diverso rispetto a [!DNL Workfront] SSO configurato?
 
