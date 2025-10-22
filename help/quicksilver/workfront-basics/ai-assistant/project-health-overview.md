@@ -5,7 +5,7 @@ description: La funzione Integrità del progetto utilizza la potenza di AI Assis
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: dce36c38a626b4d3799fb1d1f673bdc49d81e274
+source-git-commit: 5ce0206c8a7e596dac0bfdf836ca51c2cdbd1d0d
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 2%
@@ -257,7 +257,7 @@ Per ulteriori informazioni, vedere la sezione seguente in questo articolo: [Gest
    >Se si accede all&#39;Assistente IA da una pagina diversa di Workfront, è possibile digitare *Informazioni sullo stato del progetto [NOME PROGETTO]?* o *Qual è l&#39;integrità del programma [NOME PROGRAMMA]?* <br>
    >Per un elenco completo dei prompt correnti che è possibile immettere, vedere la sezione seguente in questo articolo: [Elenco dei prompt dell&#39;Assistente AI](#ai-assistant-prompts-list).
 
-1. Premi l&#39;icona **Invia** ![Invia icona](assets/send-icon.png). La valutazione dello stato del progetto viene generata e visualizzata nel pannello. Nella parte superiore di ogni valutazione dello stato del progetto viene visualizzato un badge che riflette le condizioni correnti del progetto.
+1. Fai clic sull&#39;icona **Invia** ![Invia icona](assets/send-icon.png). La valutazione dello stato del progetto viene generata e visualizzata nel pannello. Nella parte superiore di ogni valutazione dello stato del progetto viene visualizzato un badge che riflette le condizioni correnti del progetto.
 
    ![Valutazione dell&#39;integrità del progetto](assets/health-assessment.png)
 
@@ -283,7 +283,7 @@ Un progetto verrà incluso nella valutazione combinata dello stato del progetto 
 
    Per un elenco completo dei prompt correnti che è possibile immettere, vedere la sezione seguente in questo articolo: [Elenco dei prompt dell&#39;Assistente AI](#ai-assistant-prompts-list).
 
-1. Premi l&#39;icona **Invia** ![Invia icona](assets/send-icon.png). La valutazione dello stato del progetto viene generata e visualizzata nel pannello.
+1. Fai clic sull&#39;icona **Invia** ![Invia icona](assets/send-icon.png). La valutazione dello stato del progetto viene generata e visualizzata nel pannello.
 
    ![Valutazione di più progetti](assets/multiple-projects-assessment.png)
 
