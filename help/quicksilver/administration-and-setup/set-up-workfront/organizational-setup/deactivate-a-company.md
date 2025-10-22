@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 479dfb9d-0e47-4790-a33a-336b415fbf6e
-source-git-commit: 8fb17d1008b00bc0701ce6e2f06c59d020510e90
+source-git-commit: 2e86369ae4c8e9fe2678773c20c02f6dbf8d5247
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 1%
@@ -69,7 +69,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 1. Nel pannello a sinistra, fai clic sull&#39;icona **[!UICONTROL Aziende]** ![Aziende](assets/companies-icon-left-panel.png).
 
 1. Seleziona una o più società da disattivare o riattivare.
-1. Fai clic su **[!UICONTROL Modifica]**.<!--MAKE THIS A SEPARATE NUMBERED LINE<span class="preview">In the Preview environment, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.</span>-->
+1. Fai clic su **[!UICONTROL Modifica]**.<!--MAKE THIS A SEPARATE NUMBERED LINE<span class="preview">(Conditional) In the Preview environment, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.</span>-->
 1. Per una singola azienda, disabilitare l&#39;opzione **[!UICONTROL È attivo]** per disattivarla o abilitare l&#39;opzione per attivarla. <!--ADD TO THE FRONT OF THIS SENTENCE In the Production environment, -->
 
    Oppure

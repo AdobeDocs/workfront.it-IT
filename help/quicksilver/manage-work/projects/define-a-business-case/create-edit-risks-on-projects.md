@@ -6,9 +6,9 @@ description: I rischi sono eventi o fattori possibili che impediscono a un proge
 author: Becky
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 2e86369ae4c8e9fe2678773c20c02f6dbf8d5247
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1062'
 ht-degree: 1%
 
 ---
@@ -80,7 +80,7 @@ Per creare o modificare un rischio nel Business Case:
 
 1. Passare al progetto per il quale si desidera creare rischi.
 1. Fai clic su **Business Case** nel pannello a sinistra.
-1. Nella sezione **Rischi** fare clic su **Modifica rischi**.
+1. Nella sezione **Rischi**, fai clic sull&#39;icona **Modifica** ![Icona Modifica](assets/edit-icon.png)
 1. Immettere o modificare le informazioni seguenti:
 
    * **Descrizione:** Descrivere il rischio.
@@ -104,8 +104,6 @@ Per creare o modificare un rischio nel Business Case:
 Oltre a creare e modificare i rischi nel caso di business, puoi farlo utilizzando la sezione **Rischi** di un progetto.
 
 È possibile creare e modificare i rischi nella sezione Rischi di un progetto o di un modello. Creare rischi per i modelli è identico a creare rischi per i progetti.
-
-### Creare rischi nell&#39;area Rischi {#create-risks-in-the-risks-area}
 
 1. Passare al progetto per il quale si desidera creare rischi.
 1. Fai clic su **Rischi** nel pannello a sinistra.
@@ -152,13 +150,13 @@ Per modificare i rischi:
 
    Oppure
 
-   Selezionare uno o più rischi, quindi fare clic su **Modifica** per modificare più rischi contemporaneamente.
+   Seleziona uno o più rischi, quindi fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon-on-white.png) per modificare più rischi contemporaneamente.
 
    >[!NOTE]
    >
    >Quando si modificano più rischi contemporaneamente, si applicano le stesse informazioni a tutti i rischi selezionati. Le informazioni associate a ciascun rischio prima delle modifiche vengono sovrascritte in una modifica collettiva.
 
-1. Se hai fatto clic su **Modifica**, verrà visualizzata la casella **Modifica rischio** o **Modifica rischi**.
+1. Se hai fatto clic sull&#39;icona **Modifica**, verrà visualizzata la casella **Modifica rischio** o **Modifica rischi**.
 
    Aggiorna i campi seguenti:
 

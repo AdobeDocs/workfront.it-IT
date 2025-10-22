@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 460090a1102465c34e92433e52c0beb240d8e9b9
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
-source-wordcount: '2602'
+source-wordcount: '2578'
 ht-degree: 3%
 
 ---
@@ -18,6 +18,16 @@ ht-degree: 3%
 # Modifica problemi
 
 <!--Audited: 03/2025-->
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 Puoi modificare le informazioni sui problemi che hai creato o che altri utenti hanno creato se hanno condiviso i problemi con te.
 
@@ -238,8 +248,6 @@ Esistono alcune limitazioni che potrebbero impedire la modifica dei problemi.
    </ul> </td> 
      </tr>
 
-
-
    <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>Digita un collegamento web relativo alle informazioni sul problema.</p> </td> 
@@ -262,7 +270,6 @@ Esistono alcune limitazioni che potrebbero impedire la modifica dei problemi.
 
    <p>Quando aggiungi un utente del contatto principale, osserva l’avatar, il ruolo principale dell’utente e il suo indirizzo e-mail per distinguere gli utenti con nomi identici. Gli utenti devono essere associati ad almeno una mansione per visualizzarla quando vengono aggiunti.</p>
       <p> Per consentire agli utenti di visualizzare le e-mail degli utenti, nel proprio livello di accesso deve essere abilitata l’impostazione Visualizza informazioni di contatto. Per informazioni, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">Concedere l'accesso agli utenti</a>.</p>
-
 
    </td> 
      </tr> 
@@ -323,7 +330,7 @@ Esistono alcune limitazioni che potrebbero impedire la modifica dei problemi.
 
    ![Sezione assegnazioni problemi](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
-1. Fai clic su **Cerca persone, mansione e team** e inizia a digitare il nome di un utente, una mansione o un team che desideri assegnare all&#39;attività, quindi fai clic su di esso o premi Invio quando viene visualizzato nell&#39;elenco.
+1. Fai clic su **Cerca persone, mansione e team** e inizia a digitare il nome di un utente, una mansione o un team che desideri assegnare al problema, quindi fai clic su di esso o premi Invio quando viene visualizzato nell&#39;elenco.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this is still called this; asked Anna to change it to "roles" and add a comma)</p>
@@ -333,9 +340,9 @@ Esistono alcune limitazioni che potrebbero impedire la modifica dei problemi.
    >
    >Se il nome dell&#39;utente contiene un carattere speciale, è necessario includere tale carattere nel campo di ricerca.
 
+   Puoi assegnare più utenti, mansioni o team. Puoi assegnare solo utenti attivi, mansioni e team.
+
    >[!TIP]
-   >
-   >Puoi assegnare più utenti, mansioni o team. Puoi assegnare solo utenti attivi, mansioni e team.
    >
    >
    >Se un utente, una mansione o un team è stato assegnato prima della disattivazione, rimane assegnato all&#39;elemento di lavoro. In questo caso, consigliamo quanto segue:
@@ -343,7 +350,10 @@ Esistono alcune limitazioni che potrebbero impedire la modifica dei problemi.
    >* Riassegnare l&#39;elemento di lavoro alle risorse attive.
    >* Associare gli utenti di un team disattivato a un team attivo e riassegnare l&#39;elemento di lavoro al team attivo.
 
-1. (Facoltativo) Indica se un assegnatario è l&#39;assegnatario principale del problema, passando il puntatore del mouse sul nome dell&#39;assegnatario e facendo clic su **Rendi principale**. Un team non può essere l&#39;assegnatario principale di un problema.
+   <!--1. (Conditional) Depending on what environment you are editing issues in, do one of the following:
+
+   1. In the Production environment, INDENT THE FOLLOWING STEPS FURTHER AT RELEASE: (Optional) Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue. -->
+
 1. Aggiorna i campi seguenti:
 
    <table style="table-layout:auto"> 
@@ -354,7 +364,7 @@ Esistono alcune limitazioni che potrebbero impedire la modifica dei problemi.
     <tbody> 
      <tr> 
       <td role="rowheader">Lavoro Necessario</td> 
-      <td> <p>Si tratta del tempo effettivo necessario agli assegnatari del problema per completarlo. Digita il numero di ore pianificate per il problema.<br></p> <p>Nota: la modifica delle ore pianificate del problema non modificherà la Data di completamento pianificata del problema. </p> </td> 
+      <td> <p>Si tratta del tempo effettivo necessario agli assegnatari del problema per completarlo. Digita il numero di ore pianificate per il problema.<br></p> <p><b>NOTA</b></p>  <p>La modifica delle ore pianificate del problema non cambia la Data di completamento pianificata del problema. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Mansione dell'assegnatario</td> 
@@ -364,6 +374,15 @@ Esistono alcune limitazioni che potrebbero impedire la modifica dei problemi.
    </tr> 
     </tbody> 
    </table>
+
+   <!--
+   <div class="preview">
+   1. (Conditional) In the Preview environment, update the **Planned Hours** field
+      Or 
+      Click **Assign to me** to assign the issue to yourself. (********ADD DEFINITION OF PLANNED HOURS FROM THE TABLE AT PROD RELEASE*********)
+   </div> -->
+
+1. Per rimuovere le assegnazioni da tutti i problemi, vedi [Assegna problemi](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md).
 
 1. Fai clic su **Salva** o continua a modificare le sezioni seguenti.
 

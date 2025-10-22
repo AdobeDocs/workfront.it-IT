@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 30b61b32add4c6d062b5b524773d309008c9563d
+source-git-commit: 2e86369ae4c8e9fe2678773c20c02f6dbf8d5247
 workflow-type: tm+mt
 source-wordcount: '1399'
 ht-degree: 0%
@@ -105,7 +105,7 @@ Per aggiungere o modificare una società:
 
 1. Aggiorna le seguenti informazioni nella sezione **Informazioni di base**:
 
-   * **Nome società**<!--<span class="preview">or **Name**</span>-->: digitare un nome per la società.
+   * **Nome società**<!--<span class="preview"> or **Name**</span>-->: digitare un nome per la società.
    * **È attivo**: quando questa opzione è abilitata, gli utenti possono trovare la società e allegarla ai progetti che creano e modificano. Una società inattiva non può essere collegata a progetti. Questa opzione è attivata per impostazione predefinita.
    * **Questa è la società principale**<!--<span class="preview">or **Is Primary**</span>-->: assegna la società come società principale della tua organizzazione. L’azienda principale in genere rappresenta l’account Workfront dove lavora la maggior parte degli utenti.
 

@@ -6,7 +6,7 @@ description: È possibile modificare le informazioni sulle attività in un elenc
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
 source-wordcount: '2764'
 ht-degree: 2%
@@ -16,6 +16,16 @@ ht-degree: 2%
 # Modificare le attività in un elenco {#edit-tasks-in-a-list}
 
 <!-- Audited: 5/2025 -->
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 È possibile modificare le informazioni sulle attività in un elenco di attività modificando i campi visualizzati nell&#39;elenco. Per informazioni su altri modi per modificare le attività, vedere [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -517,7 +527,17 @@ Per modificare i task in un elenco quando si utilizza l&#39;opzione Pianificazio
 
    È possibile modificare solo i campi dei moduli allegati a tutte le attività selezionate e per i quali si dispone delle autorizzazioni di modifica.
 
+   <!--1. (Optional and conditional) Depending what environment you use to edit the tasks, do one of the following to recalculate custom expressions for all tasks:
+   1. In the Production environment, ADD THE SENTENCE FROM THE NEXT STEP HERE:-->
+
 1. (Facoltativo) Nella sezione Forms personalizzato, seleziona l&#39;opzione **Ricalcola espressioni personalizzate** per verificare che tutti i campi personalizzati calcolati presenti nei moduli personalizzati allegati alle attività selezionate siano aggiornati.
+
+   <!--
+   <div class="preview">
+
+   1. In the Preview environment, with all the tasks selected in the list, click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then click **Recalculate Expressions**. This is only available when you automatically save your changes. 
+
+   -->
 1. Fai clic su **Salva modifiche**. Tutte le modifiche apportate sono ora visibili in tutte le attività selezionate.
 
 Per informazioni sulla modifica in blocco di moduli personalizzati, vedere [Gestire i moduli personalizzati allegati agli oggetti](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).

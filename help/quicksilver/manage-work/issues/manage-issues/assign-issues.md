@@ -7,7 +7,7 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
 source-wordcount: '1424'
 ht-degree: 0%
@@ -17,6 +17,16 @@ ht-degree: 0%
 # Assegna problemi
 
 <!--Audited: 07/2024-->
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 Puoi assegnare i problemi a utenti, ruoli e team per indicare chi è responsabile del completamento dei problemi. Per informazioni generali sull&#39;assegnazione dei problemi, vedere [Panoramica sulla modifica delle assegnazioni dei problemi](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -188,6 +198,11 @@ Per assegnare i problemi in un elenco:
 
 ## Assegna problemi in blocco
 
+<!--
+Assigning issues in bulk is different depending on what environment you choose to do this. 
+
+### Assign issues in bulk in the Production environment -->
+
 1. Passare a un elenco di problemi che si desidera assegnare in blocco.
 1. Seleziona diversi problemi nell’elenco.
 1. Fai clic sull&#39;icona **Modifica** ![Modifica](assets/qs-edit-icon.png).
@@ -210,3 +225,34 @@ Per assegnare i problemi in un elenco:
 
 1. Fai clic su **Salva modifiche**.
 1. (Facoltativo e condizionale) Quando i campi Assegnato a o Assegnazioni vengono visualizzati nell&#39;elenco dei problemi, fai clic all&#39;interno di una di queste colonne per segnalare un problema, quindi fai clic sull&#39;icona **X** accanto al nome di un assegnatario per rimuoverlo dal problema.
+
+<!--
+<div class="preview">
+
+### Assign issues in bulk in the Preview environment
+
+1. Go to a list of issues that you want to assign in bulk. 
+1. Select several issues in the list. 
+1. Click the **Edit icon** ![Edit icon](assets/qs-edit-icon.png).
+
+   The **Edit Issues** dialog box opens.
+
+1. Click **Assignments** in the left panel, and in the **Assignments** area, start typing the name of a user, role, or team in the **Search people, roles, or teams** field, then click it when it displays in the list
+
+   Or
+
+   Click **Assign to me** to assign the issues to yourself.
+
+   >[!IMPORTANT]
+   >
+   >If any of the issues is already assigned, the resources you indicate here are added to the issues instead of replacing the existing resources on the issues. 
+   
+1. (Optional) If you want to remove existing assignees from all issues, click the **x** next to their name.
+
+1. (Optional) Update the Planned Hours field. For more information, see [Edit issues](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md). 
+
+1. Click **Save**.
+1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of issues, click inside one of these columns for an issue, then click the **X icon** next to the name of an assignee to remove it from the issue.
+
+</div>
+-->

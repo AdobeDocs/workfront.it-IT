@@ -7,9 +7,9 @@ description: È possibile modificare le informazioni di un modulo personalizzato
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -143,6 +143,11 @@ La modifica delle informazioni in un modulo personalizzato associato a un oggett
 
 ## Ricalcolare tutti i campi personalizzati calcolati per un oggetto  {#recalculate-all-calculated-custom-fields-for-an-object}
 
+>[!IMPORTANT]
+>
+>Prima di poter seguire i passaggi descritti in questa sezione, è necessario disporre di un modulo personalizzato con campi calcolati associati all&#39;oggetto.
+
+
 1. Passare alla pagina principale dell&#39;oggetto di cui si desidera ricalcolare i campi personalizzati.
 1. Fai clic sul menu **Altro** ![](assets/more-icon.png) a destra del nome dell&#39;oggetto, quindi fai clic su **Ricalcola espressioni**.
 
@@ -154,7 +159,12 @@ La modifica delle informazioni in un modulo personalizzato associato a un oggett
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be edited when the bulk edit for objects update in NW)</p>
 -->
 
-È possibile ricalcolare manualmente i campi personalizzati di più oggetti modificandoli in blocco da un elenco o da un report.
+A seconda degli oggetti per i quali si desidera ricalcolare le espressioni personalizzate, è possibile eseguire questa operazione nelle aree seguenti:
+
+* In un elenco di oggetti, dal menu Altro nella parte superiore dell&#39;elenco.
+* Nella casella Modifica, quando si selezionano e si modificano più oggetti in blocco.
+
+Per ricalcolare manualmente i campi personalizzati di più oggetti modificandoli in blocco da un elenco o da un report:
 
 1. Consente di passare a un elenco di oggetti che contengono moduli personalizzati con campi calcolati.
 1. Selezionare gli oggetti di cui si desidera aggiornare i campi personalizzati calcolati.
@@ -164,17 +174,17 @@ La modifica delle informazioni in un modulo personalizzato associato a un oggett
 
    Workfront calcola tutti i campi personalizzati per tutti gli oggetti selezionati.
 
->[!TIP]
->
->È inoltre possibile ricalcolare le espressioni personalizzate da un elenco di oggetti. Ad esempio, per ricalcolare espressioni personalizzate in blocco da un elenco di progetti:
->
->1. Passare a un elenco o a un report di progetti e selezionare uno o più progetti.
->1. Fai clic sul menu **Altro** ![](assets/more-icon.png), quindi fai clic su **Ricalcola espressioni personalizzate**.
->
->![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
->
->Workfront calcola tutti i campi personalizzati per tutti i progetti selezionati.
->&#x200B;>Non tutti gli elenchi di tutti gli oggetti dispongono di questa funzionalità.
+Per ricalcolare espressioni personalizzate da un elenco di oggetti:
+
+1. Passare a un elenco o a un report di progetti e selezionare uno o più progetti.
+1. Fai clic sul menu **Altro** ![](assets/more-icon.png), quindi fai clic su **Ricalcola espressioni personalizzate**.
+
+![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+
+Workfront calcola immediatamente tutti i campi personalizzati per tutti i progetti selezionati.
+Non tutti gli elenchi di tutti gli oggetti dispongono di questa funzionalità.
+
+>[!NOTE]
 >
 >A seconda della complessità dei progetti, è consigliabile non selezionare un numero elevato di progetti durante il ricalcolo in blocco dei campi personalizzati calcolati per garantire prestazioni ottimali. Alcuni elementi che potrebbero rendere un progetto troppo complesso potrebbero essere più dipendenze o assegnazioni o un numero elevato di campi personalizzati.
 
