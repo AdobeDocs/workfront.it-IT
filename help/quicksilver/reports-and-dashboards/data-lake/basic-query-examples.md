@@ -7,9 +7,9 @@ description: Query di esempio che è possibile utilizzare per acquisire familiar
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
+source-git-commit: c8a25bcc8c9b56a649ca7764918c86f9cdd5b3e2
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,13 @@ In questo esempio viene illustrato come comporre una query per restituire dati p
 
 La tua organizzazione utilizza un modulo personalizzato denominato Integrazione finanziaria. Il modulo viene allegato a ogni progetto e contiene i campi seguenti:
 
-* **Business Unit** - Campo personalizzato contenente una stringa.
-* **ProjectID** - Campo personalizzato contenente una stringa numerica.
-* **Nome progetto espanso** - Campo dati personalizzato calcolato che concatena i valori di Business Unit, ProjectID e il nome del progetto Workfront nativo in un&#39;unica stringa.
+* **Business Unit**: campo personalizzato contenente una stringa.
+* **ProjectID**: campo personalizzato contenente una stringa numerica.
+* **Nome progetto espanso**: campo dati personalizzato calcolato che concatena i valori di Business Unit, ProjectID e il nome del progetto Workfront nativo in una singola stringa.
 
 È necessario includere queste informazioni nella risposta per una query su Data Connect. I valori dei dati personalizzati per un record nel data lake sono contenuti in una colonna con titolo `parametervalues`. Questa colonna viene memorizzata come oggetto JSON.
 
-### Query:
+### Query
 
 ```
 SELECT
@@ -46,18 +46,18 @@ FROM PROJECTS_CURRENT
 WHERE ExpandedProjectName is not null
 ```
 
-### Risposta:
+### Risposta
 
 La query precedente restituisce i dati seguenti:
 
-* `projectid` - ID progetto Workfront nativo
-* `parametervalues` - colonna in cui è memorizzato un oggetto JSON
-* `name` - nome progetto Workfront nativo
-* `Business Unit` - Valore di dati personalizzato incluso nell&#39;oggetto `parametervalues`
-* `Project ID` - Valore di dati personalizzato incluso nell&#39;oggetto `parametervalues`
-* `Expanded Project Name` - Valore di dati personalizzato incluso nell&#39;oggetto `parametervalues`
+* `projectid`: ID progetto Workfront nativo.
+* `parametervalues`: colonna che memorizza un oggetto JSON.
+* `name`: nome progetto Workfront nativo.
+* `Business Unit`: valore di dati personalizzato incluso nell&#39;oggetto `parametervalues`.
+* `Project ID`: valore di dati personalizzato incluso nell&#39;oggetto `parametervalues`.
+* `Expanded Project Name`: valore di dati personalizzato incluso nell&#39;oggetto `parametervalues`.
 
-### Spiegazione:
+### Spiegazione
 
 Quando si esegue una query sull&#39;oggetto JSON `parametervalues`, è possibile accedere a ogni campo dati personalizzato come colonna utilizzando quanto segue:
 
@@ -87,6 +87,107 @@ Quando si esegue una query sull&#39;oggetto JSON `parametervalues`, è possibile
 >[!NOTE]
 >
 >Solo i parametri a cui sono assegnati valori nel modulo verranno inclusi nell’oggetto JSON. Se un campo dati personalizzato è vuoto nel modulo, non verrà visualizzato.
+
+## Tempo nella query di stato
+
+Questo esempio illustra come misurare il tempo trascorso da un progetto negli stati assegnati in precedenza. Può essere facilmente adattato per misurare il tempo di attività o problema in uno stato, oppure può essere adattato per misurare quanto tempo un oggetto ha avuto qualsiasi altro attributo (inclusi i valori di dati personalizzati) applicato.
+
+### Scenario
+
+La leadership della tua organizzazione ritiene che tu stia passando troppo tempo in ogni fase del tuo ciclo di vita lavorativa. Prima di formulare raccomandazioni per migliorare il processo, è necessario creare una misurazione di base della frequenza con cui lo stato di un progetto cambia nel tempo e del numero di giorni in cui un progetto rimane nello stato specificato.
+
+Stai per utilizzare la visualizzazione dati PROJECTS_EVENT per richiamare un elenco di ogni modifica di stato rispetto all’oggetto del progetto. Confronterai il nuovo stato con lo stato precedente, acquisirai l’intervallo di tempo effettivo per lo stato assegnato in precedenza e quindi calcolerai i giorni trascorsi in tale stato.
+
+Utilizzando questo output non elaborato del tempo trascorso in ogni stato per progetto, puoi iniziare a creare visualizzazioni o aggregare ulteriormente i dati per generare le medie della durata dello stato in base allo stato, al tipo di progetto o al tempo dell’anno. Questa linea di base viene quindi utilizzata per impostare un benchmark da misurare per soddisfare le aspettative della leadership.
+
+La query seguente utilizza la visualizzazione dati Data Connect PROJECTS_EVENTS per confrontare ogni evento di modifica dello stato del progetto e visualizzare il tempo nello stato.
+
+### Query
+
+```
+-- Calculate the begin/end effective timestamp and duration in days 
+
+SELECT 
+
+    projectid, 
+    name as project_name, 
+    prev_status as previous_status, 
+    status, 
+    status_change_date as status_begin_effective_timestamp, 
+    case 
+        when status_change_date is null then NULL
+        else
+            nvl(lead(status_change_date) ignore nulls over (partition by projectid order by status_change_date), current_timestamp) 
+    end as status_end_effective_timestamp, 
+    datediff('DAYS',status_change_date, nvl(lead(status_change_date) ignore nulls over (partition by projectid order by status_change_date), current_timestamp)) as status_duration_days 
+
+FROM 
+    ( -- Filter to just the records that have changed 
+     SELECT projectid, 
+        name, 
+        prev_status, 
+        status, 
+        begin_effective_timestamp as status_change_date    
+     FROM 
+        (  -- Calculate records where previous status is different 
+          SELECT DISTINCT  
+           pe.projectid, 
+           pe.name AS name, 
+           pe.STATUS, 
+           nvl(lag(pe.STATUS) over (partition by pe.projectid order by pe.BEGIN_EFFECTIVE_TIMESTAMP), status) prev_status, 
+           begin_effective_timestamp 
+
+          FROM projects_event pe 
+         -- Set any WHERE conditions to limit the results as needed 
+         --WHERE 
+            -- pe.PROJECTID = '5ebe…c1e1' 
+        ) 
+        WHERE prev_status != status 
+    ) 
+    order by status_change_date; 
+```
+
+### Risposta
+
+La query precedente restituisce i dati seguenti:
+
+* `PROJECTID`: ID progetto Workfront associato all&#39;evento di modifica dello stato.
+* `PROJECT_NAME`: nome del progetto Workfront.
+* `PREVIOUS_STATUS`: stato del progetto immediatamente prima della modifica.
+* `STATUS`: lo stato del progetto dopo la modifica.
+* `STATUS_BEGIN_EFFECTIVE_TIMESTAMP`: il timestamp dell&#39;evento di modifica quando è stato impostato lo stato precedente.
+* `STATUS_END_EFFECTIVE_TIMESTAMP`: il timestamp dell&#39;evento di modifica quando è stato impostato il valore di stato aggiornato.
+* `STATUS_DURATION_DAYS`: differenza (in giorni) tra il timestamp effettivo finale e il timestamp effettivo iniziale.
+
+### Spiegazione
+
+La query utilizza le funzionalità di rilevamento degli eventi di modifica di Data Connect.  Determina la data di attivazione di un evento con un nuovo valore di stato diverso da quello dell’evento precedente. 
+
+Esame della query dall’interno verso l’esterno: 
+
+1. Calcola i record in cui lo stato precedente è diverso: 
+   * Per ogni evento di modifica, utilizza la funzione lag() per identificare il valore precedente di stato. 
+
+2. Filtrare solo i record modificati: 
+
+   * Selezionare i record dal calcolo nel passaggio 1 in cui lo stato precedente.= stato corrente. 
+
+3. Calcola la marca temporale effettiva di inizio/fine e la durata in giorni: 
+
+   * `<status_begin_effective_timestamp>`: calcolato nel passaggio 2. 
+
+   * `<status_end_effective_timestamp>`: calcolato in base al successivo (lead()). `<status_begin_effective_timestamp>`: visualizzare lo stato solo se `<status_begin_effective_timestamp>` NON è NULL. 
+   * `<status_duration_days>`: differenza dati tra `<status_begin_effective_timestamp>` e `<status_end_effective_timestamp>`. 
+
+>[!NOTE]
+>
+>Si consiglia di utilizzare questa query come proprio &quot;View&quot; in PowerBI o Tableau.  Se si desidera importare altri campi da `<object>_event view`, unire l&#39;output di questa query di nuovo a `<object>_event view`.  I campi di join sono i seguenti: <br>
+>>Per projects_event: 
+>>`From projects_event p`
+>>`Join <above query> c on c.projectid = p.projectid  `
+>>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
+
+
 
 <!--## Task query 
 

@@ -6,10 +6,10 @@ description: L’amministratore di Adobe Workfront consente agli utenti di visua
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c8a25bcc8c9b56a649ca7764918c86f9cdd5b3e2
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 1%
+source-wordcount: '826'
+ht-degree: 0%
 
 ---
 
@@ -65,8 +65,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 Oltre alle considerazioni seguenti, vedere anche [Condividere report, dashboard e calendari](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
-* Puoi condividere i rapporti che hai creato con altri individui, team, gruppi, mansioni o aziende. Puoi anche condividere i rapporti creati da altri utenti e che sono stati condivisi con te.
-* Puoi anche condividerli con l’intera organizzazione o renderli pubblici. Rendendo pubblico un report viene generato un URL che può essere condiviso con altri utenti.
+* Puoi condividere i rapporti che hai creato con altri individui, team, gruppi, mansioni o aziende. Puoi anche condividere con te i rapporti che altri utenti hanno creato e che sono stati condivisi.
+* Puoi condividere i rapporti con l’intera organizzazione o renderli pubblici. Rendendo pubblico un report viene generato un URL che può essere condiviso con altri utenti.
 * Puoi condividere un singolo rapporto oppure più rapporti da un elenco di rapporti.
 
 ## Modi per condividere i rapporti
@@ -74,21 +74,21 @@ Oltre alle considerazioni seguenti, vedere anche [Condividere report, dashboard 
 Puoi condividere i rapporti in Workfront nel modo seguente:
 
 * Manualmente, come descritto nella sezione [Condividi un report](#share-a-report) di seguito.
-* Automaticamente, ereditando le autorizzazioni di visualizzazione da un dashboard contenente il report condiviso. Per informazioni sulla visualizzazione delle autorizzazioni ereditate sugli oggetti, vedere [Visualizzare le autorizzazioni ereditate sugli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+* Automaticamente ereditando le autorizzazioni di visualizzazione da un dashboard contenente il report condiviso. Per informazioni sulla visualizzazione delle autorizzazioni ereditate sugli oggetti, vedere [Visualizzare le autorizzazioni ereditate sugli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 
 ## Condividere un rapporto {#share-a-report}
 
 La condivisione di uno o più report da un elenco è identica.
 
-1. Vai a un elenco di report e seleziona uno o più report, quindi fai clic su **Condividi**.
+1. Vai a un elenco di report e seleziona uno o più report, quindi fai clic sull&#39;icona **Condividi** ![Condividi icona](assets/share-icon.png).
 
    Oppure
 
-   Fai clic sul nome di un report, quindi fai clic su **Azioni report >**&#x200B;**Condivisione**.
+   Fai clic sul nome di un report, quindi fai clic su **Azioni report** > **Condivisione**. Viene visualizzata la casella **Condividi [NOME REPORT]**.
 
-   ![](assets/unshimmed-report-actions-sharing.png)
+   ![Opzione di condivisione](assets/unshimmed-report-actions-sharing.png)
 
-1. Nella casella visualizzata, nel campo **Aggiungi persone, team, ruoli, gruppi o aziende ...** inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo o della società con cui vuoi condividere il report, quindi premi **Invio** quando viene visualizzato il nome.
+1. Nel campo **Concedi l&#39;accesso al report**, inizia a digitare il nome dell&#39;utente, del team, della mansione, del gruppo o della società con cui vuoi condividere il report, quindi selezionalo quando viene visualizzato.
 
 1. Per regolare il livello di accesso per un nome aggiunto, fai clic sul menu a discesa a destra del nome, quindi scegli una delle opzioni di seguito.
 
@@ -97,12 +97,12 @@ La condivisione di uno o più report da un elenco è identica.
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Visualizzare</td> 
-      <td> <p>Consente al destinatario di accedere per visualizzare il report nell'area <strong>Report</strong> ed eseguirlo.</p> <p>È possibile fare clic su <strong>Impostazioni avanzate</strong> per specificare se si desidera che l'utente o gli utenti possano <strong>condividerlo</strong> con chiunque nel sistema.</p> </td> 
+      <td role="rowheader">Visualizzazione</td> 
+      <td> <p>Consente al destinatario di accedere per visualizzare il report nell'area <strong>Report</strong> ed eseguirlo.</p> <p>Puoi fare clic sull'icona <strong>Impostazioni avanzate</strong> a destra per specificare se desideri che l'utente o gli utenti possano <strong>condividerlo</strong> con chiunque nel sistema.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Gestire</td> 
-      <td> <p>Consente al destinatario l’accesso in modifica completa al rapporto.</p> <p>Puoi fare clic su <strong>Impostazioni avanzate</strong> per specificare se desideri che l'utente o gli utenti possano <strong>eliminare</strong> il report dal sistema e <strong>condividerlo</strong> con chiunque nel sistema.</p> </td> 
+      <td role="rowheader">Gestisci</td> 
+      <td> <p>Consente al destinatario l’accesso in modifica completa al rapporto.</p> <p>Puoi fare clic sull'icona <strong>Impostazioni avanzate</strong> a destra per specificare se desideri che l'utente o gli utenti possano <strong>eliminare</strong> il report dal sistema e <strong>condividerlo</strong> con chiunque nel sistema.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -110,13 +110,13 @@ La condivisione di uno o più report da un elenco è identica.
 1. (Facoltativo) Ripeti i 2 passaggi precedenti per aggiungere altri nomi all’elenco e configurarne le opzioni.
 1. (Facoltativo) Fai clic sul menu a discesa **Solo le persone invitate possono accedere** nella casella di condivisione, quindi scegli tra le seguenti opzioni:
 
-   * **Solo gli utenti invitati possono accedere** Selezionare questa opzione in modo che solo gli utenti a cui è stato concesso l&#39;accesso al report possano visualizzarlo.
+   * **Solo gli utenti invitati possono accedere**: selezionare questa opzione in modo che solo gli utenti a cui è stato concesso l&#39;accesso al report possano visualizzarlo.
 
-   * **Tutti gli utenti del sistema possono visualizzare** Selezionare questa opzione per consentire a tutti gli utenti di Workfront con accesso ai report di visualizzare il report.
+   * **Tutti gli utenti del sistema possono visualizzare**: selezionare questa opzione per consentire a tutti gli utenti di Workfront con accesso ai report di visualizzare il report.
 
 1. (Facoltativo) Fai clic sull&#39;icona **Ingranaggio** ![Impostazioni icona ingranaggio](assets/gear-icon-settings-with-dn-arrow.jpg) nell&#39;angolo superiore destro della casella di condivisione, quindi, facoltativamente, seleziona la seguente opzione:
 
-   * **Rendi pubblico agli utenti esterni** Seleziona questa opzione per generare un URL che possa essere condiviso con altri utenti. Chiunque abbia l’URL può accedere al rapporto senza disporre di una licenza Adobe Workfront.
+   * **Rendi pubblico agli utenti esterni**: seleziona questa opzione per generare un URL che possa essere condiviso con altri utenti. Chiunque abbia l’URL può accedere al rapporto senza disporre di una licenza Adobe Workfront.
 
      >[!CAUTION]
      >
