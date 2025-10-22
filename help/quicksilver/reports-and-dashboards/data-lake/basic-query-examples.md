@@ -182,10 +182,10 @@ Esame della query dall’interno verso l’esterno: 
 >[!NOTE]
 >
 >Si consiglia di utilizzare questa query come proprio &quot;View&quot; in PowerBI o Tableau.  Se si desidera importare altri campi da `<object>_event view`, unire l&#39;output di questa query di nuovo a `<object>_event view`.  I campi di join sono i seguenti: <br>
->>Per projects_event: 
->>`From projects_event p`
->>`Join <above query> c on c.projectid = p.projectid  `
->>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
+>&#x200B;>Per projects_event: 
+>&#x200B;>`From projects_event p`
+>&#x200B;>`Join <above query> c on c.projectid = p.projectid  `
+>&#x200B;>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
 
 
