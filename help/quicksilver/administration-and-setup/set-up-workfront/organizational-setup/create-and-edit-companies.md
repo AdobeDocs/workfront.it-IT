@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
+source-git-commit: 5e81e18ef667af3e4d08f4fc8987f7a3b6617971
 workflow-type: tm+mt
 source-wordcount: '1440'
 ht-degree: 0%
@@ -105,9 +105,9 @@ Per aggiungere o modificare una società:
 
 1. Aggiorna le seguenti informazioni nella sezione **Informazioni di base**:
 
-   * **Nome società**<span class="preview"> o **Nome**</span>: digitare un nome per la società.
+   * **Nome società** <span class="preview"> o **Nome**</span>: digitare un nome per la società.
    * **È attivo**: quando questa opzione è abilitata, gli utenti possono trovare la società e allegarla ai progetti che creano e modificano. Una società inattiva non può essere collegata a progetti. Questa opzione è attivata per impostazione predefinita.
-   * **Questa è la società principale**<span class="preview"> o **è la società principale**</span>: assegna la società come società principale della tua organizzazione. L’azienda principale in genere rappresenta l’account Workfront dove lavora la maggior parte degli utenti.
+   * **Questa è la società principale** <span class="preview">o **è la società principale**</span>: assegna la società come società principale della tua organizzazione. L’azienda principale in genere rappresenta l’account Workfront dove lavora la maggior parte degli utenti.
 
      È possibile che una sola azienda o nessuna azienda sia designata come società principale, ma non è possibile che più aziende siano designate come società principali. Per ulteriori informazioni, vedere [Creare e modificare livelli di accesso personalizzati](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -141,11 +141,11 @@ Per aggiungere o modificare una società:
 
    Per informazioni sulla creazione di moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Condizionale) Se stai creando una società, fai clic su **[!UICONTROL Crea società]**<span class="preview">o **&#x200B; Salva &#x200B;**.</span>
+1. (Condizionale) Se stai creando una società, fai clic su **[!UICONTROL Crea società]**<span class="preview">o** Salva **.</span>
 
    Oppure
 
-   Se stai modificando una società esistente, fai clic su **[!UICONTROL Salva modifiche]**<span class="preview">o **&#x200B; Salva &#x200B;**.</span>
+   Se stai modificando una società esistente, fai clic su **[!UICONTROL Salva modifiche]**<span class="preview">o** Salva **.</span>
 
 ## Gestire le appartenenze a società
 
