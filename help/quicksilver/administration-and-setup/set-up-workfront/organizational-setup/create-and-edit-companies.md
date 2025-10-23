@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 2e86369ae4c8e9fe2678773c20c02f6dbf8d5247
+source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1440'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima ed è in fase di rilascio in un rollout graduale in produzione.</span>
 
 Un&#39;azienda è un&#39;unità organizzativa in [!DNL Adobe Workfront] che può rappresentare l&#39;organizzazione, un reparto all&#39;interno dell&#39;organizzazione o un cliente con cui si lavora. È possibile aggiungere società a [!DNL Workfront] e utilizzarle a scopo di pianificazione finanziaria, reporting, definire autorizzazioni per gli oggetti e mantenere riservate le informazioni.
 
@@ -105,9 +105,9 @@ Per aggiungere o modificare una società:
 
 1. Aggiorna le seguenti informazioni nella sezione **Informazioni di base**:
 
-   * **Nome società**<!--<span class="preview"> or **Name**</span>-->: digitare un nome per la società.
+   * **Nome società**<span class="preview"> o **Nome**</span>: digitare un nome per la società.
    * **È attivo**: quando questa opzione è abilitata, gli utenti possono trovare la società e allegarla ai progetti che creano e modificano. Una società inattiva non può essere collegata a progetti. Questa opzione è attivata per impostazione predefinita.
-   * **Questa è la società principale**<!--<span class="preview">or **Is Primary**</span>-->: assegna la società come società principale della tua organizzazione. L’azienda principale in genere rappresenta l’account Workfront dove lavora la maggior parte degli utenti.
+   * **Questa è la società principale**<span class="preview"> o **è la società principale**</span>: assegna la società come società principale della tua organizzazione. L’azienda principale in genere rappresenta l’account Workfront dove lavora la maggior parte degli utenti.
 
      È possibile che una sola azienda o nessuna azienda sia designata come società principale, ma non è possibile che più aziende siano designate come società principali. Per ulteriori informazioni, vedere [Creare e modificare livelli di accesso personalizzati](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -141,11 +141,11 @@ Per aggiungere o modificare una società:
 
    Per informazioni sulla creazione di moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Condizionale) Se stai creando una società, fai clic su **[!UICONTROL Crea società]**<!--<span class="preview">or **Save**</span>-->.
+1. (Condizionale) Se stai creando una società, fai clic su **[!UICONTROL Crea società]**<span class="preview">o** Salva **.</span>
 
    Oppure
 
-   Se stai modificando una società esistente, fai clic su **[!UICONTROL Salva modifiche]**<!--<span class="preview">or **Save**</span>-->.
+   Se stai modificando una società esistente, fai clic su **[!UICONTROL Salva modifiche]**<span class="preview">o** Salva **.</span>
 
 ## Gestire le appartenenze a società
 
