@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: 3bb51eacc60d3c04885e2fcd23cacef805ff27ba
+source-git-commit: cccef57d9a83fa138282200d85c2851570a4b9b1
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '448'
 ht-degree: 19%
 
 ---
@@ -37,6 +37,12 @@ La tabella seguente mostra la versione e la pianificazione del supporto per l’
   </tr> 
  </thead> 
  <tbody> 
+ <tr>
+   <td>21</td> 
+   <td> <p>venerdì 23 ottobre 2025</p> </td> 
+   <td> <p>**durante il 2028</p> <p>(con la versione 28.10)</p> </td> 
+   <td></td> 
+  </tr> 
  <tr>
    <td>20</td> 
    <td> <p>lunedì 4 maggio 2025</p> </td> 
