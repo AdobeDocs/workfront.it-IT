@@ -141,11 +141,11 @@ Per aggiungere o modificare una società:
 
    Per informazioni sulla creazione di moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Condizionale) Se stai creando una società, fai clic su **[!UICONTROL Crea società]**<span class="preview">o** Salva **.</span>
+1. (Condizionale) Se stai creando una società, fai clic su **[!UICONTROL Crea società]**<span class="preview">o **&#x200B; Salva &#x200B;**.</span>
 
    Oppure
 
-   Se stai modificando una società esistente, fai clic su **[!UICONTROL Salva modifiche]**<span class="preview">o** Salva **.</span>
+   Se stai modificando una società esistente, fai clic su **[!UICONTROL Salva modifiche]**<span class="preview">o **&#x200B; Salva &#x200B;**.</span>
 
 ## Gestire le appartenenze a società
 
