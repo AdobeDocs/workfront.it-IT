@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
+source-git-commit: f6f3df61286a360324963c872718be224a7ab413
 workflow-type: tm+mt
-source-wordcount: '2739'
+source-wordcount: '3054'
 ht-degree: 3%
 
 ---
@@ -816,7 +816,7 @@ Questo connettore applica il filtro al nuovo stato o al vecchio stato dell’ogg
 >[!NOTE]
 >
 >La sottoscrizione seguente con il filtro specificato restituirà solo i messaggi in cui il nome dell&#39;attività contiene `again` per `oldState`, ovvero ciò che si trovava prima di un aggiornamento dell&#39;attività.
->&#x200B;>Un caso d’uso per questo potrebbe essere quello di trovare i messaggi objCode che sono cambiati da una cosa all’altra. Ad esempio, per individuare tutte le attività che sono cambiate da &quot;Cerca nome&quot; a &quot;Cerca nome team&quot;
+>>Un caso d’uso per questo potrebbe essere quello di trovare i messaggi objCode che sono cambiati da una cosa all’altra. Ad esempio, per individuare tutte le attività che sono cambiate da &quot;Cerca nome&quot; a &quot;Cerca nome team&quot;
 
 ```
 {
@@ -904,6 +904,86 @@ Il campo `filterConnector` nel payload della sottoscrizione consente di sceglier
     "filterConnector": "AND"
 }
 ```
+
+### Utilizzo dei gruppi di filtri
+
+I gruppi di filtri ti consentono di creare condizioni logiche (AND/OR) nidificate all’interno dei filtri di abbonamento agli eventi.
+
+Ciascun gruppo di filtri può avere i seguenti elementi:
+
+* Il proprio connettore (AND o OR).
+* Più filtri, ciascuno con la stessa sintassi e lo stesso comportamento dei filtri autonomi.
+
+>[!IMPORTANT]
+>
+>Un gruppo deve avere almeno 2 filtri.
+
+
+Tutti i filtri all’interno di un gruppo supportano quanto segue:
+
+* Operatori di confronto: eq, ne, gt, gte, lt, lte, contains, notContains, containsOnly, changed.
+* Opzioni stato: newState, oldState.
+* Destinazione campo: qualsiasi nome di campo oggetto valido.
+
+```
+{
+  "objCode": "TASK",
+  "eventType": "UPDATE",
+  "authToken": "token",
+  "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
+  "filters": [
+    {
+      "fieldName": "percentComplete",
+      "fieldValue": "100",
+      "comparison": "lt"
+    },
+    {
+      "type": "group",
+      "connector": "OR",
+      "filters": [
+        {
+          "fieldName": "status",
+          "fieldValue": "CUR",
+          "comparison": "eq"
+        },
+        {
+          "fieldName": "priority",
+          "fieldValue": "1",
+          "comparison": "eq"
+        }
+      ]
+    }
+  ],
+  "filterConnector": "AND"
+}
+```
+
+L’esempio precedente contiene i seguenti componenti:
+
+1. Filtro di primo livello (esterno al gruppo):
+   * { &quot;fieldName&quot;: &quot;percentComplete&quot;, &quot;fieldValue&quot;: &quot;100&quot;, &quot;comparison&quot;: &quot;lt&quot; }
+   * Questo filtro controlla se il campo percentComplete dell&#39;attività aggiornata è minore di 100.
+
+1. Gruppo di filtri (filtri nidificati con OR):
+   * { &quot;type&quot;: &quot;group&quot;, &quot;connector&quot;: &quot;OR&quot;, &quot;filters&quot;: [{ &quot;fieldName&quot;: &quot;status&quot;, &quot;fieldValue&quot;: &quot;CUR&quot;, &quot;comparison&quot;: &quot;eq&quot; }, { &quot;fieldName&quot;: &quot;priority&quot;, &quot;fieldValue&quot;: &quot;1&quot;, &quot;comparison&quot;: &quot;eq&quot; }] }
+   * Questo gruppo valuta due filtri interni:
+      * Il primo controlla se lo stato dell&#39;attività è uguale a &quot;CUR&quot; (corrente).
+      * Il secondo controlla se la priorità è uguale a &quot;1&quot; (priorità alta).
+   * Poiché il connettore è &quot;OR&quot;, questo gruppo passerà se una delle due condizioni è vera.
+
+1. Connettore di livello superiore (filterConnector: AND):
+   * Il connettore più esterno tra i filtri di livello superiore è &quot;AND&quot;. Questo significa che sia il filtro di primo livello che il gruppo devono passare affinché l’evento corrisponda.
+
+1. L’abbonamento si attiva quando vengono soddisfatte le seguenti condizioni:
+   * La percentuale di completamento è inferiore a 100.
+   * Lo stato è &quot;CUR&quot; o la priorità è uguale a &quot;1&quot;.
+
+>[!NOTE]
+>
+>Esistono limiti per garantire prestazioni di sistema coerenti quando si utilizzano i gruppi di filtri, tra cui:<br>
+>* Ogni abbonamento supporta fino a 10 gruppi di filtri (ogni gruppo contiene più filtri).
+>* Ogni gruppo di filtri può includere fino a 5 filtri per evitare un potenziale deterioramento delle prestazioni durante l’elaborazione degli eventi.
+>* È supportato un massimo di 10 gruppi di filtri (ciascuno con 5 filtri), ma un numero elevato di abbonamenti attivi con logica di filtro complessa può causare un ritardo durante la valutazione dell’evento.
 
 ## Eliminazione di sottoscrizioni di eventi
 
