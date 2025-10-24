@@ -7,9 +7,9 @@ description: Questa pagina contiene informazioni sulla struttura e sul contenuto
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 8df633f7f0946f81d6e81578a3d47719f6d8975e
+source-git-commit: e06db80d752d79157c758b3ecf3a8d4e7040e96d
 workflow-type: tm+mt
-source-wordcount: '8733'
+source-wordcount: '8788'
 ht-degree: 9%
 
 ---
@@ -48,7 +48,8 @@ Gli oggetti in Workfront (e, pertanto, nel data lake di Data Connect) sono defin
 
 >[!IMPORTANT]
 >
->Il diagramma delle relazioni tra entità è un lavoro in corso. In quanto tale, essa ha unicamente finalità di riferimento ed è soggetta a modifiche.
+>Il diagramma di relazioni tra entità fornito è intenzionalmente incompleto in quanto un&#39;ERD completa diventerebbe illeggibile a causa dell&#39;elevato numero di relazioni all&#39;interno dell&#39;applicazione.<br>
+>>Questo diagramma fornisce un esempio di come le relazioni documentate nella tabella Project nella sezione [Tabella terminologica](#terminology-table) seguente possono essere utilizzate per unire i dati dalla visualizzazione dati di Project a oggetti adiacenti. Una volta compreso questo pattern per le relazioni tra gli oggetti del progetto, non è necessario un ERD completo
 
 ## Tipi di date
 
@@ -66,7 +67,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
 >[!NOTE]
 >
 >È possibile aggiungere nuovi campi alle visualizzazioni oggetti senza preavviso per supportare le esigenze di dati in continua evoluzione dell’applicazione Workfront. Si consiglia di non utilizzare query &quot;SELECT&quot; in cui il destinatario dei dati downstream non è preparato a gestire colonne aggiuntive durante l&#39;aggiunta.<br>
->&#x200B;>Se è necessario rinominare o rimuovere una colonna, avviseremo anticipatamente di queste modifiche.
+>>Se è necessario rinominare o rimuovere una colonna, avviseremo anticipatamente di queste modifiche.
 
 ### Livello di accesso
 
