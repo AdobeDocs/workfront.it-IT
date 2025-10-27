@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
+source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '397'
 ht-degree: 3%
 
 ---
@@ -148,12 +148,8 @@ Quando si reimpostano le preferenze utente, alcune vengono ripristinate ai valor
 
 1. Premere **Invio**.
 
-<div class="preview">
+1. <span class="preview">Per reimpostare tutte le preferenze utente, fare clic su **Reimposta**.</span>
 
-1. Per reimpostare tutte le preferenze utente, fare clic su **Reimposta**.
+   <span class="preview">O</span>
 
-   Oppure
-
-   Per reimpostare solo le schede personalizzate, fare clic su **Reimposta navigazione a sinistra**.
-
-</div>
+   <span class="preview">Per ripristinare la navigazione a sinistra dell&#39;utente alla configurazione originale del modello di layout, fare clic su **Ripristina navigazione a sinistra**.</span>
