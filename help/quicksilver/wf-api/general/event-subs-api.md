@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 987eea4d0ad7f8e30b944418836280728ee63812
+source-git-commit: 8f5cd4125281bb00331c4dc895cc57b138190cfe
 workflow-type: tm+mt
-source-wordcount: '3054'
+source-wordcount: '3031'
 ht-degree: 3%
 
 ---
@@ -816,7 +816,7 @@ Questo connettore applica il filtro al nuovo stato o al vecchio stato dell’ogg
 >[!NOTE]
 >
 >La sottoscrizione seguente con il filtro specificato restituirà solo i messaggi in cui il nome dell&#39;attività contiene `again` per `oldState`, ovvero ciò che si trovava prima di un aggiornamento dell&#39;attività.
->&#x200B;>Un caso d’uso per questo potrebbe essere quello di trovare i messaggi objCode che sono cambiati da una cosa all’altra. Ad esempio, per individuare tutte le attività che sono cambiate da &quot;Cerca nome&quot; a &quot;Cerca nome team&quot;
+>>Un caso d’uso per questo potrebbe essere quello di trovare i messaggi objCode che sono cambiati da una cosa all’altra. Ad esempio, per individuare tutte le attività che sono cambiate da &quot;Cerca nome&quot; a &quot;Cerca nome team&quot;
 
 ```
 {
@@ -962,12 +962,14 @@ L’esempio precedente contiene i seguenti componenti:
 
 1. Filtro di primo livello (esterno al gruppo):
 
-   * { &quot;fieldName&quot;: &quot;percentComplete&quot;, &quot;fieldValue&quot;: &quot;100&quot;, &quot;comparison&quot;: &quot;lt&quot; }
+   * `{ "fieldName": "percentComplete", "fieldValue": "100", "comparison": "lt" }`
    * Questo filtro controlla se il campo percentComplete dell&#39;attività aggiornata è minore di 100.
 
 1. Gruppo di filtri (filtri nidificati con OR):
-   * { &quot;type&quot;: &quot;group&quot;, &quot;connector&quot;: &quot;OR&quot;, &quot;filters&quot;: [{ &quot;fieldName&quot;: &quot;status&quot;, &quot;fieldValue&quot;: &quot;CUR&quot;, &quot;comparison&quot;: &quot;eq&quot; }, { &quot;fieldName&quot;: &quot;priority&quot;, &quot;fieldValue&quot;: &quot;1&quot;, &quot;comparison&quot;: &quot;eq&quot; }] }
+
+   * `{ "type": "group", "connector": "OR", "filters": [ { "fieldName": "status", "fieldValue": "CUR", "comparison": "eq" }, { "fieldName": "priority", "fieldValue": "1", "comparison": "eq" } ] }`
    * Questo gruppo valuta due filtri interni:
+
       * Il primo controlla se lo stato dell&#39;attività è uguale a &quot;CUR&quot; (corrente).
       * Il secondo controlla se la priorità è uguale a &quot;1&quot; (priorità alta).
    * Poiché il connettore è &quot;OR&quot;, questo gruppo passerà se una delle due condizioni è vera.
@@ -981,7 +983,8 @@ L’esempio precedente contiene i seguenti componenti:
 
 >[!NOTE]
 >
->Esistono limiti per garantire prestazioni di sistema coerenti quando si utilizzano i gruppi di filtri, tra cui:<br>
+>Esistono dei limiti per garantire prestazioni di sistema coerenti quando si utilizzano i gruppi di filtri, tra cui:
+>
 >* Ogni abbonamento supporta fino a 10 gruppi di filtri (ogni gruppo contiene più filtri).
 >* Ogni gruppo di filtri può includere fino a 5 filtri per evitare un potenziale deterioramento delle prestazioni durante l’elaborazione degli eventi.
 >* È supportato un massimo di 10 gruppi di filtri (ciascuno con 5 filtri), ma un numero elevato di abbonamenti attivi con logica di filtro complessa può causare un ritardo durante la valutazione dell’evento.
