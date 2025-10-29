@@ -7,16 +7,16 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1465'
 ht-degree: 0%
 
 ---
 
 # Assegna problemi
 
-<!--Audited: 07/2024-->
+<!--Audited: 10/2024-->
 
 <!--
 <div class="preview"> 
@@ -116,7 +116,7 @@ Quando si assegnano più risorse a un elemento di lavoro, tenere presente quanto
 </div>
 -->
 
-## Assegnare un singolo problema
+## Assegnare un singolo problema nell’intestazione del problema
 
 1. Passa al problema che desideri assegnare.
 1. Fai clic su **Assegna a** nell&#39;angolo superiore destro dell&#39;intestazione del problema, nell&#39;area **Assegnazioni**
@@ -155,7 +155,7 @@ Quando si assegnano più risorse a un elemento di lavoro, tenere presente quanto
 1. Fai clic su **Salva** per completare l&#39;assegnazione del problema.
 1. (Facoltativo) Fai clic sull&#39;icona **X** accanto al nome delle assegnazioni nell&#39;area Assegnazioni nell&#39;intestazione del problema per rimuovere un&#39;assegnazione.
 
-## Assegnare un problema in un elenco
+## Assegnare un problema modificandolo in linea in un elenco
 
 È possibile assegnare problemi in un elenco o in un report quando uno qualsiasi dei campi di assegnazione è visibile nella visualizzazione dell&#39;elenco. Questo è un modo più veloce per assegnare i problemi.
 
@@ -195,6 +195,12 @@ Per assegnare i problemi in un elenco:
    >Non è possibile effettuare assegnazioni avanzate dai campi Assegnato a o Assegnato.
 
 1. Dopo aver aggiunto gli assegnatari al problema, premi Invio o fai clic in un punto qualsiasi della pagina per salvare le modifiche.
+
+## Assegnare un problema nella casella Modifica problema
+
+Puoi assegnare un problema quando lo modifichi nella casella Modifica problema.
+
+Per informazioni, vedere la sezione &quot;Assegnazioni&quot; nell&#39;articolo [Modifica problemi](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
 
 ## Assegna problemi in blocco
 

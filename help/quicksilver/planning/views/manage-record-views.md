@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1181'
 ht-degree: 1%
 
 ---
@@ -171,8 +171,13 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 * Anche se alcuni elementi di visualizzazione possono essere applicati a più viste per lo stesso record, essi sono univoci per ciascuna vista record:
 
    * Filtro
+   * Ordina (per la vista tabella)
+   * Colori riga (per la vista tabella)
+   * Campi (per la vista tabella)
+   * Raggruppamento (per la vista timeline)
    * Raggruppamento (per le viste tabella e timeline)
    * Aspetto della barra (per le visualizzazioni Timeline e Calendario)
+   * Altezza riga (per la tabella e la visualizzazione calendario mensile)
 
   Ad esempio, quando si crea un filtro in una vista tabella, i risultati del filtro sono visibili solo nella vista selezionata (vista tabella) e non in tutte le viste associate al tipo di record.
 
@@ -212,6 +217,7 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
 | Esportare informazioni da una vista | ✓ |               |    |
 | Visualizza a schermo intero | ✓ | ✓ | ✓ |
 | Crea record nella visualizzazione | ✓ | ✓ | ✓ |
+| Suddividere i record in base alle relative connessioni |          | ✓ |    |
 
 ## Creare o modificare le viste {#create-or-edit-views}
 

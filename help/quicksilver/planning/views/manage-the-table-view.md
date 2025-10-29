@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
-source-wordcount: '3370'
+source-wordcount: '3401'
 ht-degree: 2%
 
 ---
@@ -192,6 +192,8 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
 
    Le colonne aggiunte sono visibili a tutti gli utenti che accedono al tipo di record e vengono aggiunte come nuovi campi nella pagina del record.
 
+1. (Facoltativo) Fai clic sull&#39;icona **Campi** ![Icona Campi](assets/fields-icon.png) nella barra degli strumenti, individua il campo nell&#39;elenco <!--or <span class="preview"> search for a field</span>,--> e deseleziona l&#39;opzione a destra del nome del campo per nascondere il campo.
+
 1. Per riordinare le colonne della tabella, effettuare una delle seguenti operazioni:
 
    * Prendi l’intestazione della colonna e trascinala nella posizione desiderata. La colonna spostata viene visualizzata brevemente con uno sfondo blu finché non vengono apportate altre modifiche alla tabella.
@@ -311,6 +313,8 @@ Per aggiungere un filtro a una vista tabella:
 1. Fai clic su **Aggiungi condizione** e aggiungi le seguenti informazioni:
 
    * **Selezionare un campo** da filtrare per <!-- the tip below might change-->
+
+     <!--replace the bullet above with this at preview release: <span class="preview">Search for a field or </span> click the drop-down menu to display a list of fields and select it from the list-->
 
    * **Seleziona un&#39;opzione** (o un modificatore di filtro) per definire il tipo di condizione che il campo deve soddisfare
 
@@ -542,6 +546,8 @@ To sort grouped records:
 1. (Facoltativo) Fai clic su **Colori riga** per definire le condizioni e scegliere di configurare colori diversi per le righe della tabella.
 
 1. Fare clic su **Aggiungi colore**, quindi su **Seleziona un campo** di cui si desidera determinare il colore di una riga.
+
+   <!--replace the text for this step above with this at preview release: Click **Add color**, then <span class="preview">search for a field or </span> click the drop-down menu to display a list of fields and select it from the list. This is the field whose value you want to determine the color of a row.-->
 
    Ad esempio, per visualizzare le campagne con lo stato Attivo in verde, seleziona **Stato**, quindi scegli un modificatore e un valore per il campo.
 
