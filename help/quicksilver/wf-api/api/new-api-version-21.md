@@ -6,10 +6,10 @@ description: Adobe Workfront ha rilasciato la versione API 21 il 23 ottobre 2025
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 50edbfa342ed7f51d1fe2b9654b55b579bb3f5af
+source-git-commit: f47e0bce61322c971f3a815ec01e7c243b090910
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 4%
+source-wordcount: '833'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Workfront ha rilasciato la versione API 21 il 23 ottobre 2025. La versione
 
 ## Risorse aggiunte
 
-### StaffingPlanTemplate (SPTMPL)
+### Richiesta originale (ORGREQ)
 
 <table>
   <col/>
@@ -29,8 +29,10 @@ Adobe Workfront ha rilasciato la versione API 21 il 23 ottobre 2025. La versione
       <td role="rowheader">Campi diretti</td>
       <td>
         <ul>
+          <li>entryDate</li>
           <li>ID</li>
-          <li>name</li>
+          <li>requestID</li>
+          <li>requestName</li>
         </ul>
       </td>
     </tr>
@@ -39,20 +41,48 @@ Adobe Workfront ha rilasciato la versione API 21 il 23 ottobre 2025. La versione
       <td>
         <ul>
           <li>ID</li>
+          <li>objCode</li>
+        </ul>
+      </td>
+ </tbody>
+</table>
+
+<!--
+
+### StaffingPlanTemplate (SPTMPL)
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>ID</li>
+          <li>name</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Core fields</td>
+      <td>
+        <ul>
+          <li>ID</li>
           <li>name</li>
           <li>objCode</li>
         </ul>
       </td>
    <tr>
-      <td role="rowheader">Operazioni</td>
+      <td role="rowheader">Operations</td>
       <td>
         <ul>
-          <li>AGGIUNGI</li>
+          <li>ADD</li>
           <li>COUNT</li>
-          <li>ELIMINA</li>
-          <li>MODIFICA</li>
+          <li>DELETE</li>
+          <li>EDIT</li>
           <li>GET</li>
-          <li>RAPPORTO</li>
+          <li>REPORT</li>
           <li>SEARCH</li>
         </ul>
       </td>
@@ -60,6 +90,8 @@ Adobe Workfront ha rilasciato la versione API 21 il 23 ottobre 2025. La versione
     </tr>
  </tbody>
 </table>
+
+-->
 
 ## Risorse rimosse
 
@@ -710,30 +742,32 @@ Un oggetto ScoreCardQuestion rappresenta una domanda aggiunta a una scorecard. Q
  </tbody>
 </table>
 
-### Piano di assegnazione del personale
+<!--
+
+### StaffingPlan
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Campi diretti</td>
+      <td role="rowheader">Direct fields</td>
       <td>
         <ul>
           <li>
             <p><b>totalEstimatedCost</b>
             </p>
-            <p>Aggiunto</p>
+            <p>Added</p>
               </li>
          <li>
             <p><b>totalEstimatedHours</b>
             </p>
-            <p>Aggiunto</p>
+            <p>Added</p>
               </li>
          <li>
             <p><b>totalEstimatedRevenue</b>
             </p>
-            <p>Aggiunto</p>
+            <p>Added</p>
               </li>
             </ul>
          </li>
@@ -741,6 +775,10 @@ Un oggetto ScoreCardQuestion rappresenta una domanda aggiunta a una scorecard. Q
     </tr>
   </tbody>
 </table>
+
+-->
+
+<!--
 
 ### StaffingPlanResource
 
@@ -749,23 +787,23 @@ Un oggetto ScoreCardQuestion rappresenta una domanda aggiunta a una scorecard. Q
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Campi diretti</td>
+      <td role="rowheader">Direct fields</td>
       <td>
         <ul>
           <li>
             <p><b>totalEstimatedCost</b>
             </p>
-            <p>Aggiunto</p>
+            <p>Added</p>
               </li>
          <li>
             <p><b>totalEstimatedHours</b>
             </p>
-            <p>Aggiunto</p>
+            <p>Added</p>
               </li>
          <li>
             <p><b>totalEstimatedRevenue</b>
             </p>
-            <p>Aggiunto</p>
+            <p>Added</p>
               </li>
             </ul>
          </li>
@@ -773,6 +811,8 @@ Un oggetto ScoreCardQuestion rappresenta una domanda aggiunta a una scorecard. Q
     </tr>
   </tbody>
 </table>
+
+-->
 
 ### Attività (TASK)
 
