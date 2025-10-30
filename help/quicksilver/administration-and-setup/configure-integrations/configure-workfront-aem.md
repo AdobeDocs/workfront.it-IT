@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 0841594c855c39fedf4eab5492994ff4f7acfbdf
+source-git-commit: 8233bcad8409b6f293d365fe871338e643a410dc
 workflow-type: tm+mt
 source-wordcount: '1855'
 ht-degree: 0%
@@ -50,6 +50,8 @@ In qualità di amministratore di [!DNL Adobe Workfront], puoi integrare [!DNL Wo
 
 Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## [!DNL Workfront for AEM Assets]
 
 [!DNL Workfront for AEM Assets connector] consente all&#39;organizzazione di eseguire le operazioni seguenti:
@@ -71,7 +73,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 Prima di installare il connettore [!DNL Workfront] per [!UICONTROL AEM Assets], verifica che siano soddisfatti i seguenti prerequisiti:
 
-* [!UICONTROL AEM Assets] è installato e configurato, versione 6.5 o successiva. Per informazioni sull&#39;installazione di [!UICONTROL AEM Assets], vedere la [[!DNL Adobe Experience Manager] documentazione](https://experienceleague.adobe.com/it/docs/experience-manager).
+* [!UICONTROL AEM Assets] è installato e configurato, versione 6.5 o successiva. Per informazioni sull&#39;installazione di [!UICONTROL AEM Assets], vedere la [[!DNL Adobe Experience Manager] documentazione](https://experienceleague.adobe.com/en/docs/experience-manager).
 * (Condizionale) Se le regole del firewall non consentono il traffico come previsto, aggiungi l&#39;indirizzo IP e/o il dominio del cluster al elenco Consentiti di gestione del sistema di gestione del traffico. Per ulteriori informazioni, vedere [Configurare il inserisco nell&#39;elenco Consentiti di protezione del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Installa il pacchetto del connettore [!DNL Workfront for AEM Assets] {#install-the-workfront-for-aem-assets-connector-package}
