@@ -6,28 +6,25 @@ description: È possibile modificare un singolo problema oppure modificare i pro
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '992'
 ht-degree: 1%
 
 ---
 
 # Modificare i problemi in un elenco
 
-<!--Audited: 08/2025-->
+<!--Audited: 10/2025-->
 
-<!--Audited: 03/2025-->
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti a partire da una settimana dalla versione di anteprima.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-</div> 
--->
+</div>
 
 È possibile modificare un singolo problema oppure modificare i problemi in un elenco di problemi o in un report. Questo articolo descrive come modificare i problemi negli elenchi.
 
@@ -175,24 +172,15 @@ Per modificare i problemi in blocco:
 
    La modifica delle informazioni su tutti i problemi è identica alla modifica delle informazioni su un problema quando si modificano le aree seguenti:
 
-   * Panoramica
-   * Impostazioni
-   * Moduli personalizzati
-   * Assegnazioni
-   * Commento
-
-   <!--at release for unshim, replace the list above with this:
-
    <div class="preview">
 
-   * Overview
-   * Assignments
-   * Custom Forms 
-   * Settings
-   * Comment
+   * Panoramica
+   * Assegnazioni
+   * Moduli personalizzati
+   * Impostazioni
+   * Commento
 
    </div>
-   -->
 
    Per ulteriori informazioni sulla modifica di un problema, vedere [Modifica problemi](../../../manage-work/issues/manage-issues/edit-issues.md).
 
@@ -206,16 +194,11 @@ Per modificare i problemi in blocco:
 
    È possibile modificare solo i campi dei moduli allegati a tutti i problemi selezionati e per i quali si dispone delle autorizzazioni di modifica.
 
-   <!--1. (Optional and conditional) Depending what environment you use to edit the issues, do one of the following to recalculate custom expressions for all issues:
-   1. In the Production environment, ADD THE SENTENCE FROM THE NEXT STEP HERE:-->
+1. (Facoltativo e condizionale) A seconda dell’ambiente utilizzato per modificare i problemi, effettua una delle seguenti operazioni per ricalcolare le espressioni personalizzate per tutti i problemi:
 
-1. (Facoltativo) Nell&#39;area **Forms personalizzato**, selezionare l&#39;opzione **Ricalcola espressioni personalizzate** per assicurarsi che tutti i campi personalizzati calcolati nel Forms personalizzato associati ai problemi selezionati siano aggiornati.
+   1. Nell&#39;ambiente di produzione, nell&#39;area **Forms personalizzato**, selezionare l&#39;opzione **Ricalcola espressioni personalizzate** per assicurarsi che tutti i campi personalizzati calcolati nel Forms personalizzato associati ai problemi selezionati siano aggiornati.
 
-   <!--  
-   <div class="preview">
-
-   1. In the Preview environment, with all the issues selected in the list, click the **More** menu ![More menu](assets/more-icon.png) at the top of the issue list, then click **Recalculate Expressions**.
-   -->
+   1. <span class="preview">Nell&#39;ambiente di anteprima, con tutti i problemi selezionati nell&#39;elenco, fare clic sul menu **Altro** ![Altro](assets/more-icon.png) nella parte superiore dell&#39;elenco dei problemi, quindi fare clic su **Ricalcola espressioni**. </span>
 
    >[!IMPORTANT]
    >

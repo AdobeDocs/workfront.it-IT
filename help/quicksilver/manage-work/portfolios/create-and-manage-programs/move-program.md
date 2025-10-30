@@ -6,7 +6,7 @@ description: È possibile aggiungere programmi esistenti a un portfolio. Poiché
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Aggiungere un programma esistente a un portfolio
 
-<!--Audited: 5/2025-->
+<!--Audited: 10/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 1. Fai clic su **[!UICONTROL Nuovo programma]**.
 1. Fare clic su **[!UICONTROL Programma esistente]**.
 
-   Viene visualizzata la casella **Aggiungi programmi**. <!--check screen shot - I logged changes for this casing-->
+   Verrà visualizzata la casella **Aggiungi programmi**. <!--check screen shot - I logged changes for this casing-->
 
    ![Aggiungi programma](assets/add-programs-box.png)
 
@@ -93,12 +93,12 @@ ht-degree: 0%
    >
    >L&#39;aggiunta di un programma esistente porta tutti i progetti associati a quel programma nel portfolio. Fai attenzione a non spostare involontariamente i progetti in questo modo.
 
-1. Nel campo **[!UICONTROL Aggiungi programmi a questo Portfolio]** digitare il nome di un programma, quindi selezionarlo quando viene visualizzato nell&#39;elenco. <!--see the name of this field, I suggested changes here-->
+1. Nel campo **[!UICONTROL Aggiungi programmi a questo portfolio]**, digita il nome di un programma, quindi selezionalo quando viene visualizzato nell&#39;elenco. <!--see the name of this field, I suggested changes here-->
 
    È possibile aggiungere più programmi.
 
 1. (Facoltativo) Se decidi di non aggiungerlo al portfolio, fai clic sull&#39;icona **Elimina** ![Elimina](assets/delete-icon.png) accanto al nome di un programma.
 
-1. Fare clic su **[!UICONTROL Aggiungi programmi]**. <!--check this button in the UI after they implemented the changes??-->
+1. Fare clic su **[!UICONTROL Aggiungi programmi]**.
 
    Il programma viene visualizzato nella scheda **[!UICONTROL Programmi]** del portfolio selezionato.

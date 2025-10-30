@@ -6,7 +6,7 @@ description: È possibile allegare un modello a un progetto durante la fase iniz
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Allegare un modello a un progetto
 
-<!-- Audited: 5/2025 -->
+<!-- Audited: 10/2025 -->
 
 È possibile allegare un modello a un progetto durante la fase iniziale di creazione del progetto o dopo la sua creazione.
 
@@ -115,16 +115,15 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Nella pagina **Progetti** selezionare il progetto a cui si desidera allegare un modello.
 
-1. Fai clic sull&#39;icona **Altro** ![Icona Altro](assets/qs-more-icon-on-an-object.png) a destra del nome del progetto.
+1. Fai clic sull&#39;icona **Altro** ![Altro menu a discesa](assets/more-dropdown.png) a destra del nome del progetto.
 
-   ![Altro menu a discesa](assets/more-dropdown.png)
+   ![Icona Altro](assets/qs-more-icon-on-an-object.png)
 
    Oppure
 
-   Vai a un elenco o a un report di progetti e seleziona un progetto, quindi fai clic sull&#39;icona **Altro** ![Altro](assets/qs-more-icon-on-an-object.png) nella parte superiore dell&#39;elenco.
+   Vai a un elenco o a un report di progetti e seleziona un progetto, quindi fai clic sull&#39;icona **Altro** ![Altro menu a discesa](assets/more-dropdown.png) nella parte superiore dell&#39;elenco.
 
    ![Menu Altro espanso](assets/more-menu-expanded.png)
-
 
 1. Fare clic su **Allega modello**. Viene visualizzata la casella **Allega modello**.
 
