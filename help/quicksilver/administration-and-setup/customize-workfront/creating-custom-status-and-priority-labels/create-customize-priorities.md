@@ -5,16 +5,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
+source-git-commit: 5c80dca8a9f7dd5a693db9bf22738602da8b521b
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 1%
+source-wordcount: '725'
+ht-degree: 2%
 
 ---
 
 # Creare e personalizzare le priorità
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima ed è in fase di rilascio in un rollout graduale in produzione.</span>
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -99,7 +97,7 @@ Oltre alle priorità predefinite fornite in Workfront, puoi aggiungere altre pri
 1. Nel pannello a sinistra, fai clic su **Preferenze progetto** > **Priorità**.
 
 1. Fare clic sulla scheda relativa al tipo di oggetto per cui si desidera creare una priorità per (**Progetto**, **Attività** o **Problema**).
-1. Fai clic su <span class="preview">**Nuova riga** nella parte inferiore della tabella</span> oppure su **Aggiungi nuova priorità**.
+1. Fai clic su **Nuova riga** nella parte inferiore della tabella.
 1. Configura le seguenti opzioni per la priorità:
 
    * **Nome priorità**: digitare un nome per la priorità.
@@ -119,8 +117,6 @@ Oltre alle priorità predefinite fornite in Workfront, puoi aggiungere altre pri
 
      Non è possibile impostare una priorità nascosta come predefinita.
 
-     <div class="preview">
-
      La priorità predefinita è indicata da un&#39;icona ![Icona di priorità predefinita](assets/default-icon.png). Per scegliere un nuovo valore predefinito, effettuare una delle seguenti operazioni:
 
       * Selezionare la casella di controllo accanto al nome della priorità e selezionare **Rendi predefinito** nella barra delle azioni nella parte inferiore dello schermo.
@@ -128,10 +124,8 @@ Oltre alle priorità predefinite fornite in Workfront, puoi aggiungere altre pri
 
         La nuova priorità predefinita è etichettata con l’icona.
 
-     </div>
-
    * **Descrizione**: digitare una descrizione della priorità per spiegarne la funzione.
-   * <span class="preview">**Nascondi scelta**</span> o **Nascondi**: <span class="preview">Seleziona **Sì**</span> o seleziona la casella di controllo per nascondere una priorità non più necessaria.
+   * **Nascondi scelta**: selezionare **Sì** per nascondere una priorità non più necessaria.
 
      Una priorità nascosta non viene visualizzata in alcun punto di Workfront, pertanto gli utenti non possono sceglierla per i loro progetti, attività o problemi.
 

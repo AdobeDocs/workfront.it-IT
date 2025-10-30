@@ -8,16 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
+source-git-commit: 5c80dca8a9f7dd5a693db9bf22738602da8b521b
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 3%
+source-wordcount: '629'
+ht-degree: 4%
 
 ---
 
 # Creare o personalizzare le gravità dei problemi
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente Sandbox di anteprima e viene rilasciato in un rollout graduale in Produzione.
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -97,7 +95,7 @@ In qualità di amministratore di Workfront, puoi creare e modificare le gravità
 
 1. Nel pannello a sinistra, fai clic su **Preferenze progetto** > **Gravità**.
 
-1. Se stai creando una nuova gravità, fai clic su <span class="preview">**Nuova riga** nella parte inferiore della tabella</span> oppure su **Aggiungi nuova gravità**.
+1. Se stai creando una nuova gravità, fai clic su **Nuova riga** nella parte inferiore della tabella.
 1. Configurare le seguenti opzioni per la nuova gravità o modificarle per una esistente:
 
    * **Nome gravità**: digitare un nome per la gravità.
@@ -117,8 +115,6 @@ In qualità di amministratore di Workfront, puoi creare e modificare le gravità
 
      Non è possibile impostare come predefinita una gravità nascosta.
 
-     <div class="preview">
-
      La gravità predefinita è indicata da un&#39;icona ![Icona gravità predefinita](assets/default-icon.png). Per scegliere un nuovo valore predefinito, effettuare una delle seguenti operazioni:
 
       * Selezionare la casella di controllo accanto al nome della gravità e selezionare **Predefinito** nella barra delle azioni nella parte inferiore dello schermo.
@@ -126,10 +122,8 @@ In qualità di amministratore di Workfront, puoi creare e modificare le gravità
 
         La nuova gravità predefinita è etichettata con l&#39;icona.
 
-     </div>
-
    * **Descrizione**: digitare una descrizione della gravità per spiegarne la funzione.
-   * <span class="preview">**Nascondi scelta**</span> o **Nascondi**: <span class="preview">Selezionare **Sì**</span> o selezionare la casella di controllo per nascondere una gravità non più necessaria.
+   * **Nascondi scelta**: selezionare **Sì** per nascondere una gravità non più necessaria.
 
      Una gravità nascosta non viene visualizzata in alcun punto di Workfront, pertanto gli utenti non possono sceglierla per i problemi.
 
