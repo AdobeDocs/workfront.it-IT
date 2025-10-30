@@ -4,9 +4,9 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: faaea3fef9be0fb03c2ed4991bad575f23b08559
+source-git-commit: 1c4f81babf6cdc6579fa633c1a776c151219a6bf
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '1268'
 ht-degree: 3%
 
 ---
@@ -37,6 +37,88 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Miglioramenti di Adobe Workfront
 
+* [Miglioramenti per gli amministratori](#administrator-enhancements)
+* [Miglioramenti a documenti e approvazioni](#documents-and-approvals-enhancements)
+* [Altri miglioramenti](#other-enhancements)
+
+### Miglioramenti per gli amministratori
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Funzionalità</strong>
+        </td>
+        <td><strong>Anteprima</strong></td>
+        <td><strong>Rilascio rapido</strong></td>
+        <td><strong>Ogni trimestre</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti ai nomi dei pulsanti durante la modifica di un modello di layout</a>
+            <p>Per garantire una maggiore coerenza con altre aree della configurazione, ad esempio con il progettista di moduli personalizzati, i pulsanti visualizzati durante la modifica di un modello di layout sono stati modificati in Applica, Salva e chiudi e Annulla. La nuova opzione Applica consente di salvare le modifiche apportate al modello di layout e continuare a modificarle. In precedenza, le opzioni disponibili erano Salva e Annulla. </p>
+        </td>
+        <td>venerdì 30 ottobre 2025</td>
+        <td>venerdì 13 novembre 2025</td>
+        <td>venerdì 15 gennaio 2026</td>
+    </tr>  
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> Gestione dei campi migliorata con il flag Attivo nei campi personalizzati</a>
+            <p>Quando nel sistema sono presenti numerosi campi personalizzati, la gestione di tali campi nei moduli e nei report personalizzati può essere difficile. Ora puoi contrassegnare i campi personalizzati come inattivi con il nuovo flag <b>Attivo</b>. Questo flag è disponibile quando si lavora con un campo in un modulo personalizzato o quando si aggiunge o si modifica un campo dall'elenco Campi. </p>
+        </td>
+        <td>venerdì 30 ottobre 2025</td>
+        <td>venerdì 13 novembre 2025</td>
+        <td>venerdì 15 gennaio 2026</td>
+    </tr>   
+  </tbody>
+</table>
+
+### Miglioramenti a documenti e approvazioni
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Funzionalità</strong>
+        </td>
+        <td><strong>Anteprima</strong></td>
+        <td><strong>Rilascio rapido</strong></td>
+        <td><strong>Ogni trimestre</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager ora disponibile con l'integrazione Frame.io <p>[!BADGE Off schedule]{type=Neutral}</p> </a>
+            <p>Ora puoi utilizzare Experience Manager Assets​ per gestire e archiviare le risorse digitali che sono passate attraverso il ciclo di revisione e approvazione. Questa integrazione consente di sfruttare le funzionalità di Adobe Experience Manager, Frame.io e Workfront per semplificare la gestione dei contenuti e i processi di collaborazione. </p>
+        </td>
+        <td>venerdì 30 ottobre 2025</td>
+        <td>venerdì 30 ottobre 2025</td>
+        <td>venerdì 30 ottobre 2025</td>
+    </tr>   
+  </tbody>
+</table>
+
+### Miglioramenti dell’integrazione
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Funzionalità</strong>
+        </td>
+        <td><strong>Anteprima</strong></td>
+        <td><strong>Rilascio rapido</strong></td>
+        <td><strong>Ogni trimestre</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">È ora disponibile la nuova versione dell'integrazione di Salesforce </a>
+            <p>Per rimanere aggiornati sulle recenti modifiche apportate all’API di Workfront, è stata creata una nuova integrazione di Salesforce. La nuova integrazione offre le stesse funzionalità della versione precedente ed è stata aggiornata per evitare la perdita di funzionalità obsolete nell’API.</p>
+        </td>
+        <td>venerdì 30 ottobre 2025</td>
+        <td>venerdì 30 ottobre 2025</td>
+        <td>venerdì 30 ottobre 2025</td>
+    </tr>   
+  </tbody>
+</table>
+
 ### Altri miglioramenti
 
 <table>
@@ -52,7 +134,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti look-and-feel durante il periodo di rilascio della versione del quarto trimestre 2025</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti look-and-feel durante il periodo di rilascio della versione del quarto trimestre 2025</a>
                         <p>Aggiornamenti minori al look and feel di varie aree dell’applicazione Adobe Workfront vengono effettuati entro l’arco temporale del rilascio del quarto trimestre 2025. </p>
                     </td>
                     <td><p>Nell’arco temporale di rilascio del quarto trimestre 2025<br /></p>
@@ -61,14 +143,28 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </ul>
                     </td>
                 </tr>
+                <tr>
+                 <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}"> Limiti di selezione per campi a selezione multipla</a>
+              <p>I campi che consentono selezioni multiple, come caselle di controllo e elenchi a discesa a selezione multipla, ora durante la compilazione del modulo sono limitati a 5000 selezioni.</p>
+             </td>
+        <td>venerdì 30 ottobre 2025</td>
+        <td>venerdì 13 novembre 2025</td>
+        <td>venerdì 15 gennaio 2026</td>
+             </tr>   
             </tbody>
         </table>
 
-<!--
-### Functionality soon to be removed from Workfront
 
-* 
--->
+### Funzionalità presto rimossa da Workfront
+
+#### La valuta di sostituzione per le mansioni è stata dichiarata obsoleta con la versione 25.11
+
+Come parte della semplificazione del modello finanziario, il 30 ottobre depreceremo la valuta di sostituzione sui ruoli in Anteprima e in Produzione per tutti i clienti con la versione 25.11. Questa modifica influisce sulla configurazione di valute e tassi per le mansioni nell’area Configura.
+
+* I campi **Sovrascrivi valuta** in una mansione non saranno più disponibili.
+* Ciascuna mansione avrà una singola valuta con il relativo costo e tariffa di fatturazione.
+* Tutte le valute di sostituzione esistenti e i relativi valori di tasso verranno migrati automaticamente per diventare l&#39;unica valuta e i soli tassi per quella mansione.
 
 ## Modernizzazione dell&#39;interfaccia
 
@@ -135,12 +231,12 @@ Per offrire integrazioni più stabili e scalabili, stiamo passando a un approcci
 * Workfront per Salesforce.
 
 È consigliabile utilizzare l&#39;automazione e l&#39;integrazione di Workfront per le esigenze di integrazione dell&#39;organizzazione con Google Workspace.
-Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Aggiornamenti dei corsi di formazione
 
