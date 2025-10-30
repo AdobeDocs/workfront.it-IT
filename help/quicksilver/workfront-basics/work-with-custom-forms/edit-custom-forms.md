@@ -7,14 +7,16 @@ description: È possibile modificare le informazioni di un modulo personalizzato
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: 53269f4932a752a833df8e41891706934214e062
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
 
 # Modificare le informazioni nei campi modulo personalizzati
+
+{{preview-fast-release-general}}
 
 <!--Audited: 10/2025-->
 
@@ -124,6 +126,10 @@ La modifica delle informazioni in un modulo personalizzato associato a un oggett
    * Puoi selezionare una o più opzioni in un campo a discesa a selezione multipla, a seconda di come il creatore del modulo ha configurato il campo.
    * È possibile formattare i campi di testo (grassetto, corsivo o sottolineato) solo se l&#39;utente che ha creato il modulo li ha impostati come campo di testo con tipo di campo Formattazione. Impossibile formattare i campi di testo a riga singola e i campi di testo a paragrafo.
    * È possibile aggiornare l&#39;ora del giorno in un tipo di campo Data solo se l&#39;utente che ha creato il modulo lo ha incluso durante la creazione del campo.
+
+   >[!NOTE]
+   >
+   ><span class="preview">I campi che consentono selezioni multiple possono limitare il numero di opzioni selezionabili. Le caselle di controllo e gli elenchi a discesa a selezione multipla sono limitati a 5000 selezioni.</span>
 
    Per informazioni su tutti i tipi di campo, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
