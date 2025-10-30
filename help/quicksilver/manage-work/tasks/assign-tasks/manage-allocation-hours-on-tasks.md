@@ -6,7 +6,7 @@ description: Quando si assegnano utenti o ruoli a un’attività, questi vengono
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Gestire le ore di allocazione di utenti e ruoli sulle attività
+
+<!--Audited: 10/2025-->
 
 <!--
 <div class="preview"> 
@@ -66,7 +68,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 +++
 
 <!--
-Change this sentence in the table:
+Change this sentence in the table when unshimmming assignments on Edit task:
 <p>Edit permissions to update allocation hours in the Edit Task box</p>
 To this:
 <p>Edit permissions to update allocation hours in the Edit Task box in the Production environment. <span class="preview">You can no longer manage allocation hours in the Edit task box in the Preview environment.</span></p>

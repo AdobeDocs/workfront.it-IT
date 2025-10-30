@@ -7,16 +7,16 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '1829'
 ht-degree: 1%
 
 ---
 
 # Assegna attività
 
-<!--Audited: 07/2024-->
+<!--Audited: 10/2025-->
 
 <!--
 <div class="preview"> 
@@ -175,7 +175,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. Fai clic su **Salva**.
 1. (Facoltativo e condizionale) Se hai fatto clic su **Avanzate**, fai clic sull&#39;icona **X** accanto al nome dell&#39;assegnazione nel pannello di destra dell&#39;attività per rimuovere un&#39;assegnazione.
 
-## Assegnare un&#39;attività in un elenco
+## Assegnare un&#39;attività in un elenco quando viene modificato in linea
 
 È possibile assegnare attività in un elenco o in un report quando uno qualsiasi dei campi delle assegnazioni è visibile nella visualizzazione dell&#39;elenco. Si tratta di un metodo più veloce per assegnare le attività. In questo articolo viene descritto come modificare le assegnazioni di un&#39;attività in un elenco. Per informazioni sulla modifica di più assegnazioni per più attività in un elenco, vedere [Modificare più assegnazioni utente in un elenco attività](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
@@ -224,7 +224,7 @@ Per assegnare le attività in un elenco:
 
 1. Dopo aver aggiunto gli assegnatari all’attività, premi Invio o fai clic in un punto qualsiasi della pagina per salvare le modifiche, se hai selezionato Salvataggio automatico. In caso contrario, fare clic su **Salva**.
 
-## Assegnare più attività a un utente
+## Assegnare più attività a un utente in blocco da un elenco
 
 <!--Assigning multiple tasks to a user is different, depending on what environment you use to assign the tasks. 
 
