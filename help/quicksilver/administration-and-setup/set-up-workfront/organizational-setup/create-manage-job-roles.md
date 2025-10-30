@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: d342df9949eb1434acbb53c29b7e329dd91c9b28
+source-git-commit: e5416fab4f4ad1f2c31edf962554ddd6a4c2f1e5
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 0%
@@ -126,7 +126,7 @@ Per creare una mansione:
 
    * **Sovrascrivi tariffa di fatturazione valuta**: tariffa oraria di fatturazione della mansione che utilizza la valuta di sostituzione selezionata. Workfront utilizza questo valore per calcolare i ricavi pianificati ed effettivi delle attività e dei problemi associati alla mansione.
 
-     Inserire il tasso nella divisa di sostituzione sopra specificata. Questo aggiorna anche la tariffa di fatturazione per questa mansione quando si utilizza la valuta di base.
+     Inserire il tasso nella divisa di sostituzione sopra specificata. Questo aggiorna anche il tasso di fatturazione per questa mansione quando si utilizza la valuta di base.
 
      Per informazioni su come Workfront calcola i ricavi, vedere [Panoramica su fatturazione e ricavi](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
 

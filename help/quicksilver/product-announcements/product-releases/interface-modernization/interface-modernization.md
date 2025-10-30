@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 7fb12a3fbdad661baf2d0ad472ce8017e178ddef
+source-git-commit: c17a50542553db5b836ff82f3d0c6ed93ae3c3ad
 workflow-type: tm+mt
-source-wordcount: '8978'
+source-wordcount: '8980'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Per tutte le altre modifiche apportate ad Adobe Workfront, vedi [Versioni del pr
 
 ### Aggiornamenti dell’interfaccia per le finestre di dialogo Aggiungi e Modifica società
 
-**Versione di anteprima: 23 ottobre 2025; versione di produzione: a partire dal 30 ottobre 2025**
+**Versione di anteprima: 23 ottobre 2025; versione di produzione: a partire dalla settimana del 6 novembre 2025**
 
 Sono state aggiornate le finestre di dialogo per l’aggiunta e la modifica di società con un design più moderno che è coerente con altre aree di Workfront.
 

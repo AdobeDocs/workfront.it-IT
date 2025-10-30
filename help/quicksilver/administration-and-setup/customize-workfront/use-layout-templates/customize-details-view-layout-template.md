@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: e5416fab4f4ad1f2c31edf962554ddd6a4c2f1e5
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
@@ -98,11 +98,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 ## Personalizzare gli elementi visualizzati dagli utenti nella visualizzazione Dettagli
 
 1. Iniziare a lavorare su un modello di layout, come descritto in [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Fai clic sulla freccia giù ![freccia giù](assets/dropdown-arrow-12x12.png) in **Personalizza gli elementi visualizzati dagli utenti**, quindi fai clic su **Progetto**, **Attività**, **Problema**, **Programma** o **Portfolio.**
-<!--
-, or billing record
--->
-
+1. Fai clic sulla freccia giù ![freccia giù](assets/dropdown-arrow-12x12.png) in **Personalizza gli elementi visualizzati dagli utenti**, quindi fai clic su **Progetto**, **Attività**, **Problema**, **Programma** o **Portfolio.**<!--, or billing record-->
 1. Nella sezione **Dettagli** eseguire una delle operazioni seguenti per personalizzare la visualizzazione della visualizzazione Dettagli:
 
    * Trascina le intestazioni di sezione ![Icona Sposta](assets/move-icon---dots.png) per modificarne l&#39;ordine.
@@ -112,6 +108,10 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
      Tutti i campi sono attivati per impostazione predefinita. È possibile selezionare o deselezionare la casella di controllo **Seleziona tutto** in un&#39;area per visualizzare o nascondere tutti i campi in tale area.
 
+   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
+   ![Visualizzazione dettagli nel modello di layout](assets/layout-template-details-view-updated-save-buttons.png)
+
+   Immagine di esempio nell’ambiente di produzione:
    ![Visualizzazione dettagli nel modello di layout](assets/layout-template-details-view.png)
 
 1. <span class="preview">Nell&#39;ambiente di anteprima: continuare a personalizzare il modello di layout. Puoi fare clic su **Applica** in qualsiasi momento per salvare i tuoi progressi.</span>
