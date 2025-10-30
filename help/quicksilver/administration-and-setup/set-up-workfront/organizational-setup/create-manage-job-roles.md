@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
+source-git-commit: d342df9949eb1434acbb53c29b7e329dd91c9b28
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 0%
 <!-- Audited: 1/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
+
+>[!IMPORTANT]
+>
+>Con la versione 25.11, la valuta di sostituzione per le mansioni diventerà obsoleta in Produzione. (La rimozione verrà effettuata il 30 ottobre nell’ambiente di anteprima). Invece di avere una valuta di base e di sostituire le valute, sarà disponibile una valuta per le mansioni e i costi e le tariffe di fatturazione saranno definiti utilizzando tale valuta.
 
 In qualità di amministratore [!DNL Adobe Workfront] o di utente con accesso amministrativo ai Ruoli, puoi creare Ruoli che possono essere assegnati agli utenti ed eliminare Ruoli predefiniti che non sono rilevanti per la tua organizzazione. Per informazioni sull&#39;accesso amministrativo in [!DNL Workfront], vedere [Concedere agli utenti l&#39;accesso amministrativo ad alcune aree](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
@@ -59,72 +63,143 @@ Per creare una mansione:
 
 1. Nel pannello a sinistra, fai clic su&#x200B; **[!UICONTROL Ruoli].**
 1. Fai clic su **[!UICONTROL Nuova mansione].**
-1. Configura quanto segue:
+1. Configura i campi seguenti:
 
+   * **Nome**: indicare un nome per la mansione. Questo è il nome visualizzato ovunque in Workfront, dove viene visualizzato il campo Ruolo.
+
+     >[!TIP]
+     >
+     >Il nome di una mansione può contenere fino a 255 caratteri. Tuttavia, i nomi più lunghi potrebbero essere troncati in alcune aree di Workfront.
+
+   * **Descrizione**: immettere una descrizione per il ruolo che indichi l&#39;elemento univoco.
+   * **È attivo**: selezionare **Sì** se si desidera che il ruolo sia attivo e disponibile ovunque in Workfront per essere associato a utenti, elementi di lavoro e così via. Selezionare **No** se si desidera che il ruolo sia disattivato e non disponibile per l&#39;assegnazione a utenti, elementi di lavoro e così via.
+
+     Per informazioni sulla disattivazione dei ruoli, vedere [Disattivare i ruoli](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
+
+   * **Valuta di base**: è la valuta di base impostata dall&#39;amministratore di Workfront nell&#39;area Configura. Per informazioni, vedere [Impostare i tassi di cambio](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+
+     >[!TIP]
+     >
+     >Impossibile modificare la valuta di base a livello di mansione. Questo campo è oscurato e funge da promemoria per ciò che la valuta di base è per il sistema.
+
+   * **Tariffa di costo**: tariffa oraria della mansione. Questo valore calcola i costi pianificati ed effettivi delle attività e dei problemi associati al ruolo e in ultima analisi i costi pianificati ed effettivi dei progetti. Inserire il tasso utilizzando la divisa di base.
+
+     Per le tariffe effettive della data, fare clic su **Aggiungi tariffa**. Inserire il valore del costo/ora per il periodo di tempo e assegnare una data di inizio e una data di fine in base alle esigenze. La prima tariffa non avrà una data di inizio e l&#39;ultima tariffa non avrà una data di fine.
+
+     Alcune date vengono aggiunte automaticamente. Ad esempio, se il primo tasso di costo non ha una data di fine e si aggiunge un secondo tasso di costo con una data di inizio del 1° maggio 2025, al primo tasso di costo verrà aggiunta una data di fine del 30 aprile 2025, in modo che non esistano spazi vuoti.
+
+     >[!TIP]
+     >
+     >Quando modifichi una mansione esistente, puoi selezionare **Ordina per data di inizio** per visualizzare la data di inizio più recente all&#39;inizio dell&#39;elenco dei tassi.
+
+   * **Tariffa di fatturazione**: tariffa oraria di fatturazione della mansione. Questo valore calcola le entrate pianificate ed effettive delle attività e dei problemi associati al ruolo e in ultima analisi le entrate pianificate ed effettive dei progetti. Inserire il tasso utilizzando la divisa di base.
+
+     Per le tariffe di fatturazione effettive della data, fare clic su **Aggiungi tariffa**. Inserire il valore della fatturazione/ora per il periodo di tempo e assegnare una data di inizio e una data di fine in base alle esigenze. La prima tariffa di fatturazione non avrà una data di inizio e l’ultima tariffa di fatturazione non avrà una data di fine.
+
+     Alcune date vengono aggiunte automaticamente. Ad esempio, se la prima tariffa di fatturazione non ha una data di fine e aggiungi una seconda con una data di inizio del 1° maggio 2025, alla prima tariffa di fatturazione viene aggiunta una data di fine del 30 aprile 2025 in modo che non esistano spazi vuoti.
+
+     >[!TIP]
+     >
+     >Quando modifichi una mansione esistente, puoi selezionare **Ordina per data di inizio** per visualizzare la data di inizio più recente all&#39;inizio dell&#39;elenco dei tassi.
+
+   * **Sovrascrivi valuta**: selezionare una valuta associata a questa mansione. Valuta utilizzata da Workfront per calcolare i costi e i ricavi associati a questa mansione.
+
+     È diversa dalla valuta di base impostata dall’amministratore di Workfront nell’area Configura e può essere diversa dalla valuta associata a un progetto.
+
+     >[!TIP]
+     >
+     >In questo campo sono disponibili solo le valute disponibili nell&#39;area Tassi di cambio del sistema. Se è impostata una sola valuta, questo campo non viene visualizzato.
+
+     Per informazioni sull&#39;impostazione della valuta di base in Workfront, vedere [Impostare i tassi di cambio](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+
+     Per informazioni sulla modifica della valuta di un progetto, vedere [Modificare la valuta del progetto](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
+
+   * **Sostituisci tasso costo valuta**: è il tasso del costo orario della mansione che utilizza la valuta di sostituzione selezionata. Workfront utilizza questo valore per calcolare i costi pianificati ed effettivi delle attività e dei problemi associati alla mansione.
+
+     Inserire il tasso nella divisa di sostituzione sopra specificata. In questo modo viene aggiornato anche il tasso di costo per questa mansione quando si utilizza la valuta di base.
+
+     Per informazioni su come Workfront calcola i costi, vedere [Tracciare i costi](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
+
+     >[!TIP]
+     >
+     >Quando si aggiorna una mansione esistente a cui è già associato un tasso di costo, Workfront calcola il tasso di cambio di sostituzione in base al tasso di conversione del sistema. Se si aggiorna l&#39;opzione Sostituisci tasso costo divisa, anche il tasso di costo della mansione viene aggiornato automaticamente.
+
+   * **Sovrascrivi tariffa di fatturazione valuta**: tariffa oraria di fatturazione della mansione che utilizza la valuta di sostituzione selezionata. Workfront utilizza questo valore per calcolare i ricavi pianificati ed effettivi delle attività e dei problemi associati alla mansione.
+
+     Inserire il tasso nella divisa di sostituzione sopra specificata. Questo aggiorna anche la tariffa di fatturazione per questa mansione quando si utilizza la valuta di base.
+
+     Per informazioni su come Workfront calcola i ricavi, vedere [Panoramica su fatturazione e ricavi](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+     >[!TIP]
+     >
+     >Quando si aggiorna una mansione esistente a cui è già associato un tasso di fatturazione, Workfront calcola il tasso di cambio di sostituzione in base al tasso di conversione del sistema. Se si aggiorna il tasso di fatturazione della divisa di sostituzione, anche il tasso di fatturazione della mansione viene aggiornato automaticamente.
+
+<!--
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Name]</td> 
-      <td> <p>Indicare un nome per la mansione. Questo nome viene visualizzato ovunque in [!DNL Workfront], dove viene visualizzato il campo [!UICONTROL Job Role] (Ruolo). </p> <p>Suggerimento: il nome di una mansione può contenere fino a 255 caratteri. Tuttavia, i nomi più lunghi potrebbero essere troncati in alcune aree di [!DNL Workfront]. </p> </td> 
+      <td> <p>Indicate a name for the job role. This is the name that displays everywhere in [!DNL Workfront] where the [!UICONTROL Job Role] field displays. </p> <p>Tip: The name of a job role may contain up to 255 characters. However, longer names might be truncated in certain areas of [!DNL Workfront]. </p> </td> 
      </tr>
      <tr> 
-      <td role="rowheader">[!UICONTROL Descrizione]</td> 
-      <td>Immettere una descrizione per il ruolo che indichi l'elemento univoco. </td> 
+      <td role="rowheader">[!UICONTROL Description]</td> 
+      <td>Enter a description for the role that indicates what is unique about it. </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Attivo]</span> </td> 
+      <td role="rowheader"><span>[!UICONTROL Is Active]</span> </td> 
       <td> 
        <ul> 
-        <li> <p>Selezionare <b>[!UICONTROL Sì]</b> se si desidera che il ruolo sia attivo e disponibile ovunque in [!DNL Workfront] per essere associato a utenti, elementi di lavoro e così via. </p> </li> 
-        <li> <p>Selezionare <b>[!UICONTROL No]</b> se si desidera che il ruolo sia disattivato e non disponibile per l'assegnazione a utenti, elementi di lavoro e così via. </p> </li> 
-       </ul> <p><span>Per informazioni sulla disattivazione dei ruoli, vedere</span> <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md" class="MCXref xref">Disattivare i ruoli</a>. </p> </td> 
+        <li> <p>Select <b>[!UICONTROL Yes]</b> if you want the role to be active and available everywhere in [!DNL Workfront] to be associated with users, work items, etc. </p> </li> 
+        <li> <p>Select <b>[!UICONTROL No]</b>, if you want the role to be deactivated and not available to assign to users, work items, etc. </p> </li> 
+       </ul> <p><span>For information about deactivating job roles, see</span> <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md" class="MCXref xref">Deactivate job roles</a>. </p> </td> 
      </tr>
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Valuta Di Base]</span> </td> 
-      <td> <p><span>Questa è la [!UICONTROL Base Currency], impostata nell'area [!UICONTROL Setup] dall'amministratore di Workfront. Per informazioni, vedere</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Impostare i tassi di cambio</a>.</p> <p>Suggerimento: <span>Impossibile modificare [!UICONTROL Base Currency] a livello di mansione. Questo campo è oscurato e funge da promemoria per la valuta di base del sistema.</span> </p> </td> 
+      <td role="rowheader"><span>[!UICONTROL Base Currency]</span> </td> 
+      <td> <p><span>This is the [!UICONTROL Base Currency], as set in the [!UICONTROL Setup] area by your Workfront administrator. For information, see</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a> .</p> <p>Tip: <span>You cannot edit the [!UICONTROL Base Currency] at the job role level. This field is dimmed and serves as a reminder for what the base currency is for your system.</span> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Cost Rate]</td> 
-      <td><p>Tariffa oraria della mansione. Questo valore calcola i costi pianificati ed effettivi delle attività e dei problemi associati al ruolo e in ultima analisi i costi pianificati ed effettivi dei progetti. Immettere il tasso utilizzando la [!UICONTROL Base Currency].</p> 
-      <p>Per i tassi di costo effettivi per data, fare clic su <strong>[!UICONTROL Add Rate]</strong>. Immettere il valore del costo/ora per il periodo di tempo e assegnare una data di inizio  e una data di fine  in base alle esigenze. La prima tariffa non avrà una data di inizio e l'ultima tariffa non avrà una data di fine.</p> <p>Alcune date vengono aggiunte automaticamente. Ad esempio, se il primo tasso di costo non ha una data di fine e si aggiunge un secondo tasso di costo con una data di inizio del 1° maggio 2023, al primo tasso di costo verrà aggiunta una data di fine del 30 aprile 2023 in modo che non esistano spazi vuoti.</p> <p>Suggerimento: quando si modifica una mansione esistente, è possibile selezionare <strong>Ordina per data di inizio</strong> per visualizzare la data di inizio più recente all'inizio dell'elenco dei tassi.</p></td> 
+      <td><p>This is the cost per hour rate of the job role. This value calculates the planned and the actual costs of tasks and issues associated with the role, and ultimately the planned and actual costs of the projects. Enter the rate using the [!UICONTROL Base Currency].</p> 
+      <p>For date effective cost rates, click <strong>[!UICONTROL Add Rate]</strong>. Enter the value of the cost/hour for the time period, and assign a [!UICONTROL Start Date] and [!UICONTROL End Date] as needed. The first cost rate will not have a start date and the last cost rate will not have an end date.</p> <p>Some dates are added automatically. For example, if the first cost rate does not have an end date, and you add a second cost rate with a start date of May 1, 2023, an end date of April 30, 2023 is added to the first cost rate so that no gaps exist.</p> <p>Tip: When editing an existing job role, you can select <strong>Sort by start date</strong> to see the most recent start date at the top of the rate list.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Tariffa Di Fatturazione] </td> 
-      <td><p>Tariffa oraria fatturazione della mansione. Questo valore calcola le entrate pianificate ed effettive delle attività e dei problemi associati al ruolo e in ultima analisi le entrate pianificate ed effettive dei progetti. Immettere il tasso utilizzando la [!UICONTROL Base Currency].</p> <p>Per le tariffe di fatturazione effettive della data, fare clic su <strong>[!UICONTROL Add Rate]</strong>. Immetti il valore della fatturazione/ora per il periodo di tempo e assegna una data di inizio  e una data di fine  secondo necessità. La prima tariffa di fatturazione non avrà una data di inizio e l’ultima tariffa di fatturazione non avrà una data di fine.</p> <p>Alcune date vengono aggiunte automaticamente. Ad esempio, se la prima tariffa di fatturazione non ha una data di fine e ne aggiungi una seconda con una data di inizio del 1° maggio 2023, alla prima tariffa di fatturazione viene aggiunta una data di fine del 30 aprile 2023 in modo che non esistano spazi vuoti.</p> <p>Suggerimento: quando si modifica una mansione esistente, è possibile selezionare <strong>Ordina per data di inizio</strong> per visualizzare la data di inizio più recente all'inizio dell'elenco dei tassi.</p> </td> 
+      <td role="rowheader">[!UICONTROL Billing Rate] </td> 
+      <td><p>This is the billing per hour rate of the job role. This value calculates the planned and actual revenues of tasks and issues associated with the role, and ultimately the planned and actual revenues of the projects. Enter the rate using the [!UICONTROL Base Currency].</p> <p>For date effective billing rates, click <strong>[!UICONTROL Add Rate]</strong>. Enter the value of the billing/hour for the time period, and assign a [!UICONTROL Start Date] and [!UICONTROL End Date] as needed. The first billing rate will not have a start date and the last billing rate will not have an end date.</p> <p>Some dates are added automatically. For example, if the first billing rate does not have an end date, and you add a second with a start date of May 1, 2023, an end date of April 30, 2023 is added to the first billing rate so that no gaps exist.</p> <p>Tip: When editing an existing job role, you can select <strong>Sort by start date</strong> to see the most recent start date at the top of the rate list.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Sovrascrivi Valuta]</span> </td> 
+      <td role="rowheader"><span>[!UICONTROL Override Currency]</span> </td> 
       <td>
-        <p>Selezionare una valuta associata a questa mansione. Valuta utilizzata da [!DNL Workfront] per calcolare i costi e i ricavi associati a questa mansione. </p> 
-        <p><span>La valuta di base è diversa da quella impostata dall'amministratore di [!DNL Workfront] nell'area [!UICONTROL Setup] e può essere diversa da quella associata a un progetto.</span> </p> 
-        <p>Suggerimento: in questo campo sono disponibili solo le valute disponibili nell'area [!UICONTROL Exchange Rates] del sistema. Se è impostata una sola valuta, questo campo non viene visualizzato.</p> 
-       <p><span>Per informazioni sulla configurazione della [!UICONTROL Base Currency] in [!DNL Workfront], vedere</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Impostare i tassi di cambio</a>.</p> <p><span>Per informazioni sulla modifica della valuta di un progetto, vedere</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">Modificare la valuta del progetto</a>.</p> </td> 
+        <p>Select a currency associated with this job role. This is the currency that [!DNL Workfront] uses for calculating costs and revenue associated with this job role. </p> 
+        <p><span>This is different than the [!UICONTROL Base Currency] set up by your [!DNL Workfront] administrator in the [!UICONTROL Setup] area, and can be different than the currency associated with a project.</span> </p> 
+        <p>Tip: Only currencies available in the [!UICONTROL Exchange Rates] area in your system are available in this field. If you only have one currency set up, this field is does not appear.</p> 
+       <p><span>For information about setting up the [!UICONTROL Base Currency] in [!DNL Workfront], see</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.</p> <p><span>For information about changing the currency of a project, see</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">Change the project currency</a>.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Sostituisci tasso costo valuta]</span> </td> 
+      <td role="rowheader"><span>[!UICONTROL Override Currency Cost Rate]</span> </td> 
       <td>
-        <p>Tariffa oraria della mansione che utilizza la [!UICONTROL Override Currency] selezionata. [!DNL Workfront] utilizza questo valore per calcolare i costi pianificati ed effettivi delle attività e dei problemi associati alla mansione. </p> 
-        <p><span>Immettere il tasso nella [!UICONTROL Override Currency] specificata sopra. Questo aggiorna anche il tasso di costo per questa mansione quando si utilizza la [!UICONTROL Base Currency].</span> </p> 
-        <p>Per informazioni sul calcolo dei costi da parte di [!DNL Workfront], vedere <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Tracciare i costi</a>.</p> 
-       <p>Suggerimento: quando si aggiorna una mansione esistente a cui è già associato un tasso di costo, [!DNL Workfront] calcola il tasso di [!UICONTROL Override Currency] in base al tasso di conversione nel sistema. Se si aggiorna [!UICONTROL Sostituisci tasso costo valuta], anche il tasso di costo del ruolo viene aggiornato automaticamente.</p> </td> 
+        <p>This is the cost per hour rate of the job role using the selected [!UICONTROL Override Currency]. [!DNL Workfront] uses this value to calculate the planned and the actual costs of tasks and issues associated with the job role. </p> 
+        <p><span>Enter the rate in the [!UICONTROL Override Currency] specified above. This also updates the Cost Rate for this job role when using the [!UICONTROL Base Currency].</span> </p> 
+        <p>For information about how [!DNL Workfront] calculates cost, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> 
+       <p>Tip: When updating an existing job role that already has a Cost Rate associated with it, [!DNL Workfront] calculates the [!UICONTROL Override Currency] rate based on the conversion rate in your system. If you update the [!UICONTROL Override Currency Cost Rate], the Cost Rate of the job role also updates automatically.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Sostituisci tariffa di fatturazione valuta]</span> </td> 
+      <td role="rowheader"><span>[!UICONTROL Override Currency Billing Rate]</span> </td> 
       <td>
-        <p>Tariffa oraria di fatturazione della mansione che utilizza la [!UICONTROL Override Currency] selezionata. [!DNL Workfront] utilizza questo valore per calcolare i ricavi pianificati ed effettivi delle attività e dei problemi associati alla mansione. </p>
-        <p><span>Immettere il tasso nella [!UICONTROL Override Currency] specificata sopra. Questa opzione aggiorna anche la tariffa di fatturazione per questa mansione quando si utilizza la [!UICONTROL Base Currency].</span> </p>
-        <p>Per informazioni sul modo in cui [!DNL Workfront] calcola i ricavi, vedere <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Panoramica su fatturazione e ricavi</a>.</p>
-        <p>Suggerimento: quando si aggiorna una mansione esistente a cui è già associata una tariffa di fatturazione, [!DNL Workfront] calcola il tasso della valuta di sostituzione in base al tasso di conversione nel sistema. Se si aggiorna il tasso di fatturazione della divisa di sostituzione, anche il tasso di fatturazione del ruolo viene aggiornato automaticamente. </p>
+        <p>This is the billing per hour rate of the job role using the selected [!UICONTROL Override Currency]. [!DNL Workfront] uses this value to calculate the planned and the actual revenue of tasks and issues associated with the job role. </p>
+        <p><span>Enter the rate in the [!UICONTROL Override Currency] specified above. This also updates the Billing Rateate for this job role when using the [!UICONTROL Base Currency].</span> </p>
+        <p>For information about how [!DNL Workfront] calculates revenue, see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>.</p>
+        <p>Tip: When updating an existing job role that already has a Billing Rate associated with it, [!DNL Workfront] calculates the Override Currency rate based on the conversion rate in your system. If you update the Override Currency Billing Rate, the Billing Rate of the job role also updates automatically. </p>
        </td>
      </tr> 
     </tbody> 
    </table>
+-->
 
-   >[!TIP]
-   >
-   >I ruoli sono parte integrante della gestione delle risorse. Per utilizzare gli strumenti di pianificazione delle risorse, le mansioni devono avere un costo e una tariffa di fatturazione associati. Per informazioni, vedere [Introduzione a Gestione risorse](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
+>[!TIP]
+>
+>I ruoli sono parte integrante della gestione delle risorse. Per utilizzare gli strumenti di pianificazione delle risorse, le mansioni devono avere un costo e una tariffa di fatturazione associati. Per informazioni, vedere [Introduzione a Gestione risorse](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
 1. Fai clic su **[!UICONTROL Crea ruolo]**. Il ruolo è ora disponibile per essere assegnato ad attività, problemi, approvazioni oppure puoi condividere modelli di layout o altri oggetti con esso. Per informazioni su tutti gli utilizzi delle mansioni in [!DNL Workfront], vedere [Panoramica sulle mansioni](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). Per informazioni sull&#39;eliminazione di una mansione, vedere [Elimina mansioni](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
 
