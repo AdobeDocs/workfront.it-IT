@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 4e0b73b6-0d6d-4971-a87a-dfec85fb031a
-source-git-commit: 2a30a58f4206d5a4455ed5939c9f3fb54cce6d29
+source-git-commit: cf5a1ab848caae947829806e601662a31ce3a081
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 0%
@@ -31,12 +31,12 @@ Per caricare i documenti, vedere le istruzioni per il **caricamento di documenti
 * Utilizza il valore handle, il tipo di oggetto e il valore GUID per objID in un payload JSON per effettuare una chiamata successiva. Questo è per la creazione dell’oggetto per il file, come nell’esempio seguente:
 
 ```
-}
+{
 "name": "TestPDF",
 "handle": "7af257e64aba4a22c33ccdfc40bbb87",
 "docObjCode": "PROJ",
 "objID": "0398450f8345980843445534354",
-"currentVersion": {"version": "v1.0", "fileName" : "TestPDF"},
+"currentVersion": {"version": "1", "fileName" : "TestPDF"},
 }
 ```
 
