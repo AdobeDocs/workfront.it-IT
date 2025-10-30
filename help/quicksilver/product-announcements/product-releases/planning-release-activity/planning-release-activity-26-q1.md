@@ -42,8 +42,8 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >[!NOTE]
 >
 >Anteprima: 16 ottobre 2025
->>Versione rapida di produzione: 13 novembre 2025
->>Produzione per tutti: 15 gennaio 2026
+>&#x200B;>Versione rapida di produzione: 13 novembre 2025
+>&#x200B;>Produzione per tutti: 15 gennaio 2026
 
 Quando si implementa Workfront Planning per un’organizzazione con più team e flussi di lavoro comuni, potrebbe essere necessario definire una struttura coesa e i metadati per i tipi di record chiave (come Campagne o Deliverable) che possono essere aggiunti alle aree di lavoro di ciascun team per acquisire e gestire il proprio lavoro.
 
@@ -66,8 +66,8 @@ Per ulteriori informazioni, consulta i seguenti articoli:
 >[!NOTE]
 >
 >Anteprima: 16 ottobre 2025
->>Versione rapida di produzione: 13 novembre 2025
->>Produzione per tutti: 15 gennaio 2026
+>&#x200B;>Versione rapida di produzione: 13 novembre 2025
+>&#x200B;>Produzione per tutti: 15 gennaio 2026
 
 È stato introdotto un limite di 30 campi di connessione per ogni tipo di record.
 
@@ -80,8 +80,8 @@ Per ulteriori informazioni, vedere [Panoramica sui tipi di record connessi](/hel
 >[!NOTE]
 >
 >Anteprima: 16 ottobre 2025
->>Versione rapida di produzione: 13 novembre 2025
->>Produzione per tutti: 15 gennaio 2026
+>&#x200B;>Versione rapida di produzione: 13 novembre 2025
+>&#x200B;>Produzione per tutti: 15 gennaio 2026
 
 Quando si aggiungono scelte di campo a un campo a selezione singola o multipla, Workfront assegnerà valori univoci di facile utilizzo a ciascuna scelta. Prima di questo miglioramento, Workfront generava un ID alfanumerico difficile da comprendere e utilizzare nelle chiamate API e in altre integrazioni.
 

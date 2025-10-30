@@ -23,8 +23,8 @@ Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rila
 >[!NOTE]
 >
 >Anteprima: 30 ottobre 2025
->>Versione rapida di produzione: 13 novembre 2025
->>Produzione per tutti: 15 gennaio 2026
+>&#x200B;>Versione rapida di produzione: 13 novembre 2025
+>&#x200B;>Produzione per tutti: 15 gennaio 2026
 
 I campi che consentono selezioni multiple, come caselle di controllo e elenchi a discesa a selezione multipla, ora durante la compilazione del modulo sono limitati a 5000 selezioni.
 
