@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
 
 # Personalizzare le intestazioni degli oggetti utilizzando un modello di layout
+
+{{preview-fast-release-general}}
 
 In qualità di amministratore di Adobe Workfront o di amministratore di gruppo, puoi utilizzare un modello di layout per configurare i campi che gli utenti visualizzano nell’intestazione dell’oggetto quando aprono la pagina di un oggetto.
 
@@ -95,9 +97,15 @@ Se sono già stati selezionati cinque campi, è necessario rimuovere un campo pr
    ![Aggiungi campo all&#39;intestazione](assets/add-field-to-header-in-lt-list.png)
 
 
-1. (Facoltativo) Trascina i campi aggiunti in un ordine diverso.
+1. (Facoltativo) Trascina i campi in un ordine diverso.
 
-1. Continuate a personalizzare il modello di layout.
+1. <span class="preview">Nell&#39;ambiente di anteprima: continuare a personalizzare il modello di layout. Puoi fare clic su **Applica** in qualsiasi momento per salvare i tuoi progressi.</span>
+
+   <span class="preview">O</span>
+
+   <span class="preview">Se hai completato la personalizzazione, fai clic su **Salva e chiudi**.</span>
+
+1. Nell’ambiente di produzione: continua a personalizzare il modello di layout.
 
    Oppure
 
@@ -105,4 +113,4 @@ Se sono già stati selezionati cinque campi, è necessario rimuovere un campo pr
 
    >[!TIP]
    >
-   >Puoi fare clic su Salva in qualsiasi momento per salvare l’avanzamento, quindi continuare a modificare il modello in un secondo momento.
+   >Puoi fare clic su **Salva** in qualsiasi momento per salvare l&#39;avanzamento, quindi continuare a modificare il modello in un secondo momento.

@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1132'
 ht-degree: 0%
 
 ---
 
 # Personalizzare il pannello sinistro utilizzando un modello di layout
+
+{{preview-fast-release-general}}
 
 <!--Audited: 10/2024-->
 
@@ -86,7 +88,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
     </thead> 
     <tbody> 
      <tr> 
-      <td>Progetto </td> 
+      <td>Progetto [!UICONTROL]</td> 
       <td>Nome di un progetto</td> 
       <td>[!UICONTROL Tasks], [!UICONTROL Project Details], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issues], [!UICONTROL Risks], [!UICONTROL Approvals], [!UICONTROL Baselines], [!UICONTROL Billing Rates], [!UICONTROL Billing Records], [!UICONTROL Expenses], [!UICONTROL Hours], [!UICONTROL Bilanciatore dei carichi di lavoro], [!UICONTROL People], [!UICONTROL Utilization], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics], [!UICONTROL Planning]*, [!UICONTROL Custom Application]**</td> 
      </tr> 
@@ -111,7 +113,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
       <td>[!UICONTROL Projects], [!UICONTROL Program Details], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Planning]*, [!UICONTROL Custom application]**</td> 
      </tr> 
      <tr> 
-      <td>Modello </td> 
+      <td>Modello [!UICONTROL]</td> 
       <td>Nome di un modello di progetto</td> 
       <td>[!UICONTROL Template Tasks], [!UICONTROL Template Details], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Risks], [!UICONTROL Expenses], [!UICONTROL People], [!UICONTROL Approvals], [!UICONTROL Billing Rates], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Gruppo]</td> 
      </tr> 
@@ -134,7 +136,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
      </tr> 
      <tr> 
       <td>[!UICONTROL Progetti]</td> 
-      <td>Progetta <img src="assets/projects-in-main-menu.png"> nel menu principale  <img src="assets/main-menu-icon.png"></td> 
+      <td>Progetta <img src="assets/projects-in-main-menu.png"> nel menu principale [!UICONTROL] <img src="assets/main-menu-icon.png"></td> 
       <td>[!UICONTROL Progetti]</td> 
      </tr> 
      <tr> 
@@ -237,12 +239,18 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    >
    >Per informazioni sulle dashboard, vedere [Dashboard](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
-1. Continuate a personalizzare il modello di layout.
+1. <span class="preview">Nell&#39;ambiente di anteprima: continuare a personalizzare il modello di layout. Puoi fare clic su **Applica** in qualsiasi momento per salvare i tuoi progressi.</span>
+
+   <span class="preview">O</span>
+
+   <span class="preview">Se hai completato la personalizzazione, fai clic su **Salva e chiudi**.</span>
+
+1. Nell’ambiente di produzione: continua a personalizzare il modello di layout.
 
    Oppure
 
-   Se hai completato la personalizzazione, fai clic su **[!UICONTROL Salva]**.
+   Se hai completato la personalizzazione, fai clic su **Salva**.
 
    >[!TIP]
    >
-   >Puoi fare clic su [!UICONTROL **Salva**] in qualsiasi momento per salvare l&#39;avanzamento, chiudendo l&#39;editor dei modelli di layout e continuando a modificare il modello in un secondo momento.
+   >Puoi fare clic su **Salva** in qualsiasi momento per salvare l&#39;avanzamento, quindi continuare a modificare il modello in un secondo momento.

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '806'
 ht-degree: 2%
 
 ---
@@ -19,10 +19,7 @@ ht-degree: 2%
 
 <!--Audited: 11/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
-
+{{preview-fast-release-general}}
 
 Puoi utilizzare un modello di layout per configurare ciò che gli utenti visualizzano nel pannello Riepilogo quando fanno clic su un’attività o su un problema. Ogni configurazione effettuata seguendo la procedura riportata di seguito ha effetto sul pannello Riepilogo. Queste personalizzazioni non sono applicabili al pannello Riepilogo documento.
 
@@ -160,7 +157,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
       <td>Visualizza un'area Documenti nel pannello Riepilogo quando viene selezionata un'attività o un problema, in cui sono elencati tutti i documenti allegati all'attività o al problema. Gli utenti possono fare clic sui documenti per visualizzarli in una finestra di anteprima.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Nascondi data/ora</td> 
+      <td role="rowheader">Nascondi marca temporale</td> 
       <td>Nasconde i timestamp per i seguenti campi di data nel pannello Riepilogo:
        <ul>
         <li>Data di completamento Pianificata</li>
@@ -171,10 +168,20 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
     </tbody> 
    </table>
 
-1. Continuate a personalizzare il modello di layout.
+1. <span class="preview">Nell&#39;ambiente di anteprima: continuare a personalizzare il modello di layout. Puoi fare clic su **Applica** in qualsiasi momento per salvare i tuoi progressi.</span>
+
+   <span class="preview">O</span>
+
+   <span class="preview">Se hai completato la personalizzazione, fai clic su **Salva e chiudi**.</span>
+
+1. Nell’ambiente di produzione: continua a personalizzare il modello di layout.
 
    Oppure
 
    Se hai completato la personalizzazione, fai clic su **Salva**.
+
+   >[!TIP]
+   >
+   >Puoi fare clic su **Salva** in qualsiasi momento per salvare l&#39;avanzamento, quindi continuare a modificare il modello in un secondo momento.
 
 Per ulteriori informazioni sui modelli di layout, vedere [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

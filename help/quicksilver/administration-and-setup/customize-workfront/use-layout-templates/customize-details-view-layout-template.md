@@ -8,16 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
 
 # Personalizzare la visualizzazione Dettagli utilizzando un modello di layout
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+{{preview-fast-release-general}}
 
 In qualità di amministratore di Adobe Workfront, puoi utilizzare un modello di layout per determinare quali informazioni vengono visualizzate quando un utente fa clic sull&#39;icona Dettagli ![icona Dettagli](assets/project-details-icon.png) nel pannello a sinistra durante la visualizzazione di un&#39;attività, un problema, un documento, un programma o un portfolio.
 
@@ -114,7 +114,13 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    ![Visualizzazione dettagli nel modello di layout](assets/layout-template-details-view.png)
 
-1. Continuate a personalizzare il modello di layout.
+1. <span class="preview">Nell&#39;ambiente di anteprima: continuare a personalizzare il modello di layout. Puoi fare clic su **Applica** in qualsiasi momento per salvare i tuoi progressi.</span>
+
+   <span class="preview">O</span>
+
+   <span class="preview">Se hai completato la personalizzazione, fai clic su **Salva e chiudi**.</span>
+
+1. Nell’ambiente di produzione: continua a personalizzare il modello di layout.
 
    Oppure
 
@@ -122,4 +128,4 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    >[!TIP]
    >
-   >Puoi fare clic su Salva in qualsiasi momento per salvare l’avanzamento, quindi continuare a modificare il modello in un secondo momento.
+   >Puoi fare clic su **Salva** in qualsiasi momento per salvare l&#39;avanzamento, quindi continuare a modificare il modello in un secondo momento.

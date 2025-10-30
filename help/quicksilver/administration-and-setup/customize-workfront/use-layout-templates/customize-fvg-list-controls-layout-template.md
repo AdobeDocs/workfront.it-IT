@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
 
 # Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout
+
+{{preview-fast-release-general}}
 
 In qualità di amministratore di Adobe Workfront, puoi utilizzare un modello di layout per specificare quali controlli elenco visualizzare nei menu a discesa Filtro, Visualizza e Raggruppamento. Questi menu vengono visualizzati sopra gli elenchi in Workfront, ad esempio l’elenco delle attività di un progetto:
 
@@ -116,7 +118,13 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
     </tbody> 
    </table>
 
-1. Continuate a personalizzare il modello di layout.
+1. <span class="preview">Nell&#39;ambiente di anteprima: continuare a personalizzare il modello di layout. Puoi fare clic su **Applica** in qualsiasi momento per salvare i tuoi progressi.</span>
+
+   <span class="preview">O</span>
+
+   <span class="preview">Se hai completato la personalizzazione, fai clic su **Salva e chiudi**.</span>
+
+1. Nell’ambiente di produzione: continua a personalizzare il modello di layout.
 
    Oppure
 
@@ -124,4 +132,4 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    >[!TIP]
    >
-   >Puoi fare clic su Salva in qualsiasi momento per salvare l’avanzamento, quindi continuare a modificare il modello in un secondo momento.
+   >Puoi fare clic su **Salva** in qualsiasi momento per salvare l&#39;avanzamento, quindi continuare a modificare il modello in un secondo momento.

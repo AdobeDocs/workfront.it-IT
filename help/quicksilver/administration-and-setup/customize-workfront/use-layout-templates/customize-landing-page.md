@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '432'
 ht-degree: 5%
 
 ---
 
 # Personalizzare la pagina di destinazione utilizzando un modello di layout
+
+{{preview-fast-release-general}}
 
 In qualità di amministratore di Adobe Workfront, puoi utilizzare un modello di layout per specificare l’area che gli utenti dovranno visualizzare ogni volta che accedono a Workfront.
 
@@ -101,7 +103,13 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    >
    >* Per informazioni su Workfront Planning, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-1. Continuate a personalizzare il modello di layout.
+1. <span class="preview">Nell&#39;ambiente di anteprima: continuare a personalizzare il modello di layout. Puoi fare clic su **Applica** in qualsiasi momento per salvare i tuoi progressi.</span>
+
+   <span class="preview">O</span>
+
+   <span class="preview">Se hai completato la personalizzazione, fai clic su **Salva e chiudi**.</span>
+
+1. Nell’ambiente di produzione: continua a personalizzare il modello di layout.
 
    Oppure
 
@@ -109,4 +117,4 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    >[!TIP]
    >
-   >Puoi fare clic su Salva in qualsiasi momento per salvare l’avanzamento, quindi continuare a modificare il modello in un secondo momento.
+   >Puoi fare clic su **Salva** in qualsiasi momento per salvare l&#39;avanzamento, quindi continuare a modificare il modello in un secondo momento.

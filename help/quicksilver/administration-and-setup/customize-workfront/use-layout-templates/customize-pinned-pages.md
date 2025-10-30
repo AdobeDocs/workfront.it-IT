@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '572'
 ht-degree: 4%
 
 ---
 
 # Personalizzare le pagine bloccate utilizzando un modello di layout
+
+{{preview-fast-release-general}}
 
 In un modello di layout, puoi fissare le pagine che dovranno essere sempre disponibili per gli utenti nella parte superiore di Adobe Workfront. È possibile accedere a queste pagine tramite l&#39;icona del menu principale ![Main menu icon](assets/main-menu-icon.png) o l&#39;icona del menu principale ![Main menu](assets/main-menu-icon-left-nav.png), se disponibile, oppure tramite le dashboard.
 
@@ -111,7 +113,13 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 1. (Facoltativo) Per eliminare un pin, passa il puntatore sul pin e fai clic sull&#39;icona del menu Altro ![Icona Altro](assets/more-icon.png) accanto al nome del pin, quindi fai clic su **Rimuovi pin**.
 
-1. Continuate a personalizzare il modello di layout.
+1. <span class="preview">Nell&#39;ambiente di anteprima: continuare a personalizzare il modello di layout. Puoi fare clic su **Applica** in qualsiasi momento per salvare i tuoi progressi.</span>
+
+   <span class="preview">O</span>
+
+   <span class="preview">Se hai completato la personalizzazione, fai clic su **Salva e chiudi**.</span>
+
+1. Nell’ambiente di produzione: continua a personalizzare il modello di layout.
 
    Oppure
 

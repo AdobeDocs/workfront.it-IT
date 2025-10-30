@@ -4,20 +4,22 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Puoi utilizzare un modello di layout per configurare ciò che gli utenti visualizzano all’apertura della pagina Home in Adobe Workfront.
-author: Lisa
+author: Lisa and Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '862'
 ht-degree: 1%
 
 ---
 
-# Personalizzare la Home utilizzando un modello di layout
+# Personalizza la Home utilizzando un modello di layout
 
-È possibile utilizzare un modello di layout per configurare gli elementi visualizzati dagli utenti la prima volta che aprono Home.
+{{preview-fast-release-general}}
+
+Puoi utilizzare un modello di layout per configurare ciò che gli utenti visualizzano alla prima apertura della pagina Home.
 
 Puoi configurare:
 
@@ -134,11 +136,11 @@ Per personalizzare la Home tramite un modello di layout:
    >
    >* Le opzioni Filtro, Colonne e Gruppo sono collegate alle opzioni di personalizzazione elenco nel modello di layout. Le modifiche apportate qui verranno applicate anche a queste impostazioni.
    >* Gli utenti devono disporre almeno dell&#39;accesso Crea alle visualizzazioni per consentire la corretta applicazione della configurazione della colonna Amministratore alle proprie home page.
-   ></p>
-   >   <li><p>Impostare un filtro o un gruppo predefinito per il widget passando il mouse su un'opzione e facendo clic su <b>Imposta come predefinito</b>. Il valore predefinito corrente visualizza un contrassegno blu <b>Predefinito</b> a destra.</p></li>
-   >   <li><p>Aggiungere un filtro, una colonna o un gruppo esistente all'elenco delle opzioni disponibili facendo clic sul pulsante del segno più nella parte inferiore di ogni elenco per aggiungere un'opzione all'elenco. Solo i filtri, i campi (per le colonne) o i gruppi esistenti possono essere aggiunti in questo modo.</p></li>
-   >   </ul>
-   >   <p>
+   </p>
+      <li><p>Impostare un filtro o un gruppo predefinito per il widget passando il mouse su un'opzione e facendo clic su <b>Imposta come predefinito</b>. Il valore predefinito corrente visualizza un contrassegno blu <b>Predefinito</b> a destra.</p></li>
+      <li><p>Aggiungere un filtro, una colonna o un gruppo esistente all'elenco delle opzioni disponibili facendo clic sul pulsante del segno più nella parte inferiore di ogni elenco per aggiungere un'opzione all'elenco. Solo i filtri, i campi (per le colonne) o i gruppi esistenti possono essere aggiunti in questo modo.</p></li>
+      </ul>
+      <p>
 
    >[!NOTE]
    >
@@ -150,7 +152,13 @@ Per personalizzare la Home tramite un modello di layout:
       </tbody> 
       </table>
 
-1. Continuate a personalizzare il modello di layout.
+1. <span class="preview">Nell&#39;ambiente di anteprima: continuare a personalizzare il modello di layout. Puoi fare clic su **Applica** in qualsiasi momento per salvare i tuoi progressi.</span>
+
+   <span class="preview">O</span>
+
+   <span class="preview">Se hai completato la personalizzazione, fai clic su **Salva e chiudi**.</span>
+
+1. Nell’ambiente di produzione: continua a personalizzare il modello di layout.
 
    Oppure
 

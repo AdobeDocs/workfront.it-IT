@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
 
 # Assegnare utenti a un modello di layout
+
+{{preview-fast-release-general}}
 
 È possibile assegnare un modello di layout creato a qualsiasi utente, mansione, team o gruppo che deve utilizzarlo.
 
@@ -78,7 +80,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    Puoi assegnare fino a 100 utenti alla volta.
 
-1. Fai clic su **Fine**, quindi fai clic su **Salva** nell&#39;angolo in basso a sinistra.
+1. Fai clic su **Fine**, quindi fai clic su **Salva** o <span class="preview">**Salva e chiudi**</span> nell&#39;angolo in basso a sinistra.
 
    Questo passaggio completa il processo di creazione e assegnazione di un modello di layout.
 
