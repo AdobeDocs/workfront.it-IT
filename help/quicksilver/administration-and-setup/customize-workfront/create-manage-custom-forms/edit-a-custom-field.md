@@ -8,18 +8,22 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '367'
 ht-degree: 1%
 
 ---
 
 # Aggiungere o modificare un campo personalizzato, un&#39;interruzione di sezione o un widget
 
+{{preview-fast-release-general}}
+
 Puoi aggiungere un nuovo campo personalizzato o widget direttamente dall’area Campi di Workfront, senza aprire un modulo personalizzato per la creazione del campo.
 
 È inoltre possibile modificare le proprietà di un campo personalizzato, di un&#39;interruzione di sezione o di un widget utilizzato nei moduli personalizzati. Questi includono l’etichetta, il nome, le istruzioni e così via dell’elemento.
+
+<span class="preview">Se si imposta un campo personalizzato come inattivo, questo non sarà più disponibile nei report, nei filtri e nelle visualizzazioni e il campo non sarà più disponibile nella raccolta campi moduli personalizzati. Tutti i nuovi campi sono impostati su Attivo per impostazione predefinita. </span>
 
 Se si rimuove un campo personalizzato da un modulo personalizzato, tale campo esiste ancora in tutti gli altri moduli a cui è stato aggiunto ed è possibile modificarlo in un modulo o nell&#39;area Campi. Per informazioni sull&#39;eliminazione di un campo, vedere [Eliminare un campo personalizzato o un widget dal sistema](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
 

@@ -8,20 +8,18 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 559044c44ca8d32d010188445403b4fc1e524002
+source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
 workflow-type: tm+mt
-source-wordcount: '6642'
+source-wordcount: '6933'
 ht-degree: 5%
 
 ---
 
 # Creare un modulo personalizzato
 
+{{preview-fast-release-general}}
+
 <!-- Audited: 6/2025 -->
-
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 Puoi progettare un modulo personalizzato con il progettista del modulo in Adobe Workfront. È possibile allegare moduli personalizzati a diversi oggetti di Workfront per acquisire dati su tali oggetti.
 
@@ -129,7 +127,7 @@ Ogni nome di campo personalizzato deve essere univoco nell’istanza Workfront d
 >[!NOTE]
 >
 >Sebbene sia possibile farlo, si consiglia di non modificare questo nome dopo che l&#39;utente o altri utenti hanno iniziato a utilizzare il modulo personalizzato in Workfront. In questo caso, il sistema non riconoscerà più il campo personalizzato a cui potrebbe ora fare riferimento in altre aree di Workfront.
->&#x200B;>Ad esempio, se aggiungi il campo personalizzato a un rapporto e successivamente ne modifichi il nome, Workfront non lo riconosce nel rapporto e non funzionerà più correttamente a meno che non lo aggiungi nuovamente al rapporto utilizzando il nuovo nome.
+>>Ad esempio, se aggiungi il campo personalizzato a un rapporto e successivamente ne modifichi il nome, Workfront non lo riconosce nel rapporto e non funzionerà più correttamente a meno che non lo aggiungi nuovamente al rapporto utilizzando il nuovo nome.
 >
 >È consigliabile non digitare un nome già utilizzato per i campi Workfront incorporati.
 >
@@ -259,6 +257,15 @@ Per aggiungere un campo di testo:
     <td>Collegamento ipertestuale</td>
     <td> Se si desidera applicare un collegamento ipertestuale al testo descrittivo digitato, aggiungerlo qui. Il testo descrittivo viene visualizzato come collegamento sugli oggetti a cui è allegato il modulo.</td>
     <td><ul><li>Testo descrittivo</li></ul></td>
+    </tr>
+    <tr>
+     <td><span class="preview">Attivo</span></td>
+     <td><span class="preview"><p>Questa opzione è attivata per impostazione predefinita.<p><p>Quando si imposta un campo come Inattivo, questo viene escluso dai report, dai filtri e dalle visualizzazioni e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></span></td>
+     <td><ul><span class="preview">
+     <li>Testo su riga singola</li>
+     <li>Paragrafo</li>
+     <li>Testo con formattazione</li>
+     <li>Testo descrittivo</li></span></ul></td>
     </tr>
     <tr> 
       <td role="rowheader">Rendi il campo obbligatorio</td>
@@ -408,8 +415,17 @@ Per aggiungere pulsanti di scelta, gruppi di caselle di controllo e menu a disce
     <li>Elenco a discesa multi-selezione</li>
     </ul>
     </td>
-     </tr> 
-          <tr> 
+     </tr>
+    <tr>
+     <td><span class="preview">Attivo</span></td>
+     <td><span class="preview"><p>Questa opzione è attivata per impostazione predefinita.<p><p>Quando si imposta un campo come Inattivo, questo viene escluso dai report, dai filtri e dalle visualizzazioni e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></span></td>
+     <td><ul><span class="preview">
+     <li>Pulsanti di scelta</li>
+     <li>Gruppo di caselle di controllo</li>
+     <li>Elenco a discesa a selezione singola</li>
+     <li>Elenco a discesa multi-selezione</li></span></ul></td>
+    </tr>
+    <tr> 
     <td role="rowheader">Rendi il campo obbligatorio</td> 
     <td>Seleziona questa opzione se desideri che il campo sia obbligatorio per consentire all’utente di completare il modulo personalizzato. </td> 
     <td><ul>
@@ -541,6 +557,13 @@ Per aggiungere campi di tipo typeahead e date:
        </ul>
       </td>
      </tr>
+     <tr>
+      <td><span class="preview">Attivo</span></td>
+      <td><span class="preview"><p>Questa opzione è attivata per impostazione predefinita.<p><p>Quando si imposta un campo come Inattivo, questo viene escluso dai report, dai filtri e dalle visualizzazioni e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></span></td>
+      <td><ul><span class="preview">
+      <li>Automatico</li>
+      <li>Data</li></span></ul></td>
+     </tr>
      <tr> 
       <td role="rowheader">Rendi il campo obbligatorio</td> 
       <td>Seleziona questa opzione se desideri che il campo sia obbligatorio per consentire all’utente di completare il modulo personalizzato. </td> 
@@ -628,12 +651,12 @@ Per aggiungere una ricerca esterna:
       <td role="rowheader">Percorso JSON</td>
       <td><p>Digita o incolla il percorso JSON per l’API.</p> <p>Questa opzione consente di estrarre i dati dal JSON restituito dall’URL API. Serve come modo per selezionare quali valori dall’interno del JSON appariranno nelle opzioni a discesa.</p><p>Ad esempio, se l'URL API restituisce JSON nel seguente formato, puoi utilizzare "$.data[*].name" per selezionare Stati Uniti e Canada come opzioni a discesa:</br>
       <pre>
-      &lbrace;
-       dati: &lbrace;
+      {
+       dati: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Per ulteriori informazioni sul percorso JSON e sulla verifica della scrittura del percorso JSON corretto, fare riferimento a <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -646,6 +669,9 @@ Per aggiungere una ricerca esterna:
       <td role="rowheader">Elenco a discesa multi-selezione</td>
       <td><p>Seleziona questa opzione per consentire all’utente di selezionare più di un valore nel menu a discesa.</p></td>
      </tr>
+     <tr>
+      <td><span class="preview">Attivo</span></td>
+      <td><span class="preview"><p>Questa opzione è attivata per impostazione predefinita.<p><p>Quando si imposta un campo come Inattivo, questo viene escluso dai report, dai filtri e dalle visualizzazioni e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></span></td>
      </tr>
      <tr> 
       <td role="rowheader">Rendi il campo obbligatorio</td>
@@ -736,6 +762,10 @@ Per aggiungere immagini, PDF o video:
       <td role="rowheader">Istruzioni</td> 
       <td> <p>Digita eventuali informazioni aggiuntive sul widget. Quando gli utenti compilano il modulo personalizzato, possono passare il cursore sull’icona del punto interrogativo per visualizzare una descrizione comando contenente le informazioni digitate qui.</p> </td> 
      </tr> 
+     <tr>
+      <td><span class="preview">Attivo</span></td>
+      <td><span class="preview"><p>Questa opzione è attivata per impostazione predefinita.<p><p>Quando si imposta un campo come Inattivo, questo viene escluso dai report, dai filtri e dalle visualizzazioni e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></span></td>
+     </tr>
     </tbody> 
    </table>
 
@@ -869,6 +899,10 @@ In questa tabella sono elencati i campi nativi disponibili per oggetti Workfront
         </ul></p></td> 
       <td>
      </tr>
+     <tr>
+      <td><span class="preview">Attivo</span></td>
+      <td><span class="preview"><p>Questa opzione è attivata per impostazione predefinita.<p><p>Quando si imposta un campo come Inattivo, questo viene escluso dai report, dai filtri e dalle visualizzazioni e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></span></td>
+     </tr>
      <tr> 
       <td role="rowheader">Rendi il campo obbligatorio</td>
       <td><p>Seleziona questa opzione se desideri che il campo sia obbligatorio per consentire all’utente di completare il modulo personalizzato.</p></td>
@@ -921,7 +955,11 @@ Per aggiungere un file Adobe XD:
       <td role="rowheader">Istruzioni</td> 
       <td> <p>Digita eventuali informazioni aggiuntive sul widget. Quando gli utenti compilano il modulo personalizzato, possono passare il cursore sull’icona del punto interrogativo per visualizzare una descrizione comando contenente le informazioni digitate qui.
     <img src="assets/instructions-form-designer.png"></p> </td> 
-     </tr> 
+     </tr>
+     <tr>
+      <td><span class="preview">Attivo</span></td>
+      <td><span class="preview"><p>Questa opzione è attivata per impostazione predefinita.<p><p>Quando si imposta un campo come Inattivo, questo viene escluso dai report, dai filtri e dalle visualizzazioni e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></span></td>
+     </tr>
     </tbody> 
    </table>
 
@@ -1017,6 +1055,10 @@ Per aggiungere un campo di connessione Planning:
       <td role="rowheader">Campi del tipo di record</td> 
       <td><p>(Facoltativo) Seleziona fino a 7 campi di ricerca dal tipo di record connesso da visualizzare nel modulo personalizzato. Il campo principale è selezionato per impostazione predefinita e non può essere modificato. </p> <p> I campi del record collegato selezionati vengono visualizzati in una visualizzazione tabella della maschera personalizzata. Quando il modulo viene allegato a un oggetto Workfront, la visualizzazione della tabella è di sola lettura. </p>  
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
+     </tr>
+     <tr>
+      <td><span class="preview">Attivo</span></td>
+      <td><span class="preview"><p>Questa opzione è attivata per impostazione predefinita.<p><p>Quando si imposta un campo come Inattivo, questo viene escluso dai report, dai filtri e dalle visualizzazioni e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></span></td>
      </tr>
       </tbody> 
    </table>
