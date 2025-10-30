@@ -6,14 +6,16 @@ description: Adobe Workfront ha rilasciato la versione API 21 il 23 ottobre 2025
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: f47e0bce61322c971f3a815ec01e7c243b090910
+source-git-commit: 1c3272c7830bf0a6feddea0281b0e2879b87eacf
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '893'
 ht-degree: 3%
 
 ---
 
 # Novità della versione 21 dell’API
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 Adobe Workfront ha rilasciato la versione API 21 il 23 ottobre 2025. La versione 21 dell’API presenta le seguenti modifiche rispetto alla versione 20.
 
@@ -673,6 +675,42 @@ Un oggetto Rate rappresenta una tariffa di fatturazione in Workfront.
     </tr>
   </tbody>
 </table>
+
+### Ruolo (ROLE)
+
+Un oggetto Ruolo (ruolo) rappresenta una capacità funzionale o un insieme di competenze che un utente potrebbe acquisire, ad esempio Designer o Product Manager.
+
+<div class="preview">
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Campi diretti</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>Sovrascrivi valuta</b>
+            </p>
+            <p>Rimosso</p>
+              </li>
+          <li>
+            <p><b>Sostituisci tariffa di costo</b>
+            </p>
+            <p>Rimosso</p>
+              </li>
+          <li>
+            <p><b>Sostituisci tariffa di fatturazione</b>
+            </p>
+            <p>Rimosso</p>
+              </li>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
 
 ### ScheduledReport (SCHREP)
 
