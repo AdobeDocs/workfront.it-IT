@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '470'
 ht-degree: 1%
 
 ---
 
 # Crea modello da progetto
+
+<!--Audited: 10/2025-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Note: Keep this article in the Creating and Managing Templates area with the detailed information that this contains. Since this is an article about creating TEMPLATES, this needs to be detailed under Templates; there is a similar article with almost the same title in Managing projects that points to this one - since this functionality is in the UI under Projects, this article must have a presence in that areas as well. Keep both, but make this one the only editable one (iterative))</p>
@@ -89,7 +91,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 ## Crea modello da progetto
 
 1. Vai al progetto che desideri salvare come modello.
-1. Fai clic sul menu **Altro** ![Icona Altro](assets/qs-more-icon-on-an-object.png), quindi **Salva come modello**.
+1. Fai clic sul menu **Altro** ![Icona Altro](assets/more-icon.png), quindi **Salva come modello**.
 1. Specificare le informazioni seguenti per il modello:
 
    <table style="table-layout:auto"> 
@@ -97,7 +99,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Nome</td> 
+      <td role="rowheader">Nome Modello</td> 
       <td>Specificare un nome per il modello.</td> 
      </tr> 
      <tr> 
@@ -112,29 +114,32 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
         <li><strong>No</strong>: altri utenti non possono trovare il modello e non possono allegarlo ai progetti.</li> 
        </ul> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">Moduli personalizzati</td> 
-      <td>Utilizza l’elenco a discesa per selezionare i moduli personalizzati da allegare al modello. Se al progetto sono già stati associati moduli personalizzati, vengono visualizzati tutti i campi di dati di tali moduli personalizzati.<br>È possibile includere fino a 10 moduli personalizzati in un singolo modello.</td> 
-     </tr> 
     </tbody> 
    </table>
 
-1. Fare clic su **Gestisci Forms** per rimuovere o riordinare i moduli. Per informazioni su come rimuovere e riordinare i moduli personalizzati nel modello, vedere [Moduli personalizzati](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
+1. Fai clic su **Forms personalizzato** nel pannello a sinistra.
+1. Fai clic sul campo **Aggiungi modulo personalizzato** e inizia a digitare il nome di un progetto personalizzato per oppure selezionane uno dall&#39;elenco.
 
-   ![Salva come modello primo passaggio](assets/save-as-template-first-step-350x159.png)
+   Se al progetto sono già associati moduli personalizzati, nei moduli vengono visualizzate tutte le informazioni contenute nei campi esistenti di tali moduli personalizzati.
 
-1. Fai clic su **Passaggio successivo.**
-1. Nella sezione **Opzioni**, seleziona la casella di controllo accanto alle informazioni che desideri cancellare dal modello.
+   È possibile includere fino a 10 moduli personalizzati in un singolo modello.
 
-   ![Opzioni di salvataggio come modello](assets/save-as-template-options-step-350x109.png)
+1. Passa il puntatore del mouse sul nome di un modulo, quindi fai clic per trascinarlo e rilasciarlo in una nuova posizione.
 
-1. Fai clic su **Passaggio successivo.**
-1. Nella sezione **Escludi** selezionare le attività che si desidera escludere dal progetto.
+   ![Salva progetto come modello in alto nella casella](assets/save-project-as-template-top-of-the-form.png)
 
-   ![Salva come modello da escludere](assets/save-as-template-exclude-350x205.png)
+1. Fai clic su **Opzioni** nel pannello a sinistra, quindi seleziona i campi o gli elementi da trasferire al modello.
+
+   Tutti gli elementi vengono controllati per impostazione predefinita. Gli elementi deselezionati non vengono trasferiti al modello.
+
+   ![Opzioni di salvataggio come modello](assets/save-project-as-template-options-area.png)
+
+1. Fai clic su **Escludi** nel pannello a sinistra, quindi seleziona le attività da escludere dal progetto.
+
+   ![Salva come modello da escludere](assets/save-project-as-template-exclude-area.png)
 
 1. Fare clic su **Fine e salva modello.**
 
-   Il modello viene ora visualizzato nell’elenco dei modelli disponibili e può essere allegato a un progetto esistente o utilizzato per crearne uno nuovo.
+   Il modello viene ora visualizzato nell’elenco dei modelli disponibili. Gli utenti possono allegare il nuovo modello a un progetto esistente o utilizzarlo per creare un progetto.
 
- 
+

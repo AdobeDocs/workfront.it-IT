@@ -6,10 +6,10 @@ description: La modalità di tracciamento di un’attività determina il modo in
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -100,9 +100,9 @@ Per impostare la modalità di tracciamento:
 1. Selezionare una delle opzioni seguenti:
 
    * L’utente deve aggiornare (opzione predefinita)
-   * Presupponi puntuale
+   * presume nei tempi
    * Ignora Avvertimenti di Ritardo
-   * Completamento automatico
+   * Auto completamento
    * Predecessore
 
    Per ulteriori informazioni sulle opzioni della modalità di tracciamento, vedere [Panoramica della modalità di tracciamento attività](../../../manage-work/tasks/task-information/task-tracking-mode.md)

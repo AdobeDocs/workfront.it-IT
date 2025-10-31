@@ -6,16 +6,16 @@ description: È possibile richiedere l'approvazione di un progetto prima di iniz
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '557'
 ht-degree: 2%
 
 ---
 
 # Richiedi un progetto
 
-<!--Audited: April 2024-->
+<!--Audited: 10/2025-->
 
 È possibile richiedere l&#39;approvazione di un progetto prima di iniziare a lavorarci.
 
@@ -114,10 +114,12 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    * Durante la definizione di un caso di business, segui gli stessi passaggi della creazione di un progetto. (operazione consigliata)
 
-     Per informazioni sulla definizione di un caso di business e sulla richiesta di un progetto, vedere [Creare un caso di business per un progetto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+     Per informazioni, vedere [Creare un caso di business per un progetto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
    * Crea un progetto da zero o utilizzando un modello e cambia lo stato in **Richiesto**.
 
-     Per informazioni sulla creazione di un progetto, vedere [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md) o [Creare un progetto utilizzando un modello](../../../manage-work/projects/create-projects/create-project-from-template.md).
+     Per informazioni, vedere [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md) o [Creare un progetto utilizzando un modello](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
-   Lo stato del progetto richiesto è **Richiesto** e viene visualizzato nella scheda **Progetti richiesti** di Portfolio, se associato a un Portfolio. Ora un gestore di portfolio può esaminarlo e approvarlo o rifiutarlo, nel qual caso lo stato del progetto cambia in **Approvato** o **Rifiutato**.
+   Lo stato del progetto richiesto è **Richiesto** e viene visualizzato nella scheda **Progetti richiesti** di Portfolio, se associato a un Portfolio.
+
+   Ora un gestore di portfolio può esaminarlo e approvarlo o rifiutarlo, nel qual caso lo stato del progetto cambia in **Approvato** o **Rifiutato**.

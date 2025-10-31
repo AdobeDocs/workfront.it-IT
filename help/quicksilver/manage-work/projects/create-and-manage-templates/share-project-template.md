@@ -6,7 +6,7 @@ description: Puoi condividere un modello con gli utenti oppure definire come i p
 author: Alina
 feature: Work Management
 exl-id: 99c6b241-a2c9-4b6c-b605-177bbbc3f21a
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 3%
@@ -93,7 +93,7 @@ Per condividere un modello:
 1. Dall&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png), fare clic su **Templates**.
 
 1. Esegui una delle operazioni seguenti:\
-   Fai clic sul nome di un modello per aprirlo, quindi fai clic sul menu **Altro** ![Icona Altro](assets/qs-more-icon-on-an-object.png), quindi su **Condivisione modelli**.
+   Fai clic sul nome di un modello per aprirlo, quindi fai clic sul menu **Altro** ![Icona Altro](assets/more-icon.png), quindi su **Condivisione modelli**.
 
    Oppure
 
@@ -128,7 +128,7 @@ Con il modello Condivisione progetti, è possibile definire gli utenti con autor
 Per condividere con gli utenti i progetti futuri creati da un modello:
 
 1. Esegui una delle operazioni seguenti:\
-   Fai clic sul nome di un modello per aprirlo, quindi fai clic sul menu **Altro** ![Icona Altro](assets/qs-more-icon-on-an-object.png), quindi su **Condivisione modelli**.
+   Fai clic sul nome di un modello per aprirlo, quindi fai clic sul menu **Altro** ![Icona Altro](assets/more-icon.png), quindi su **Condivisione modelli**.
 
    ![Condividi progetto da modello](assets/project-sharing-on-template-nwe-2022-350x172.png)
 

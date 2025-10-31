@@ -6,7 +6,7 @@ description: È consigliabile disattivare i modelli che non si utilizzano più, 
 author: Alina
 feature: Work Management
 exl-id: 41e0979c-f8ef-4a07-8848-e4ee8cc212c5
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -95,6 +95,6 @@ Verrà aperto un elenco di modelli
 
    Oppure
 
-   Fai clic sul nome di un modello per accedervi, quindi fai clic sul menu **Altro** ![Icona Altro](assets/qs-more-icon-on-an-object.png) , quindi **Elimina modello > Sì, Elimina**.
+   Fai clic sul nome di un modello per accedervi, quindi fai clic sul menu **Altro** ![Icona Altro](assets/more-icon.png), quindi **Elimina modello > Sì, Elimina**.
 
    Il modello non è più disponibile per essere associato a un progetto.

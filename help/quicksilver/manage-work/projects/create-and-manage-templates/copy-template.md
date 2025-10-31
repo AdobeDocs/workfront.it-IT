@@ -6,7 +6,7 @@ description: Oltre a creare un modello di progetto da zero, puoi anche copiarne 
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 3%
@@ -102,7 +102,7 @@ I seguenti elementi non vengono mai copiati da un modello esistente a uno nuovo:
 <!--ensure steps and casing on the fields and buttons is accurate with unshim-->
 
 1. Vai al modello da copiare.
-1. Fai clic sul menu **Altro** ![Icona Altro](assets/qs-more-icon-on-an-object.png) a destra del nome del modello nell&#39;intestazione, quindi fai clic su **Copia**.
+1. Fai clic sul menu **Altro** ![Icona Altro](assets/more-icon.png) a destra del nome del modello nell&#39;intestazione, quindi fai clic su **Copia**.
 
    Viene visualizzata la casella **Copia modello**.
 

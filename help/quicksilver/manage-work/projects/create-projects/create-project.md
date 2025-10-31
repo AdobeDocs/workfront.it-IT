@@ -6,9 +6,9 @@ description: Un progetto è una grande unità di lavoro in Adobe Workfront. Puoi
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1295'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--remove Preview and Production references-->
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 110/2025 -->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -169,7 +169,7 @@ Considera quanto segue:
 
 1. Esegui una delle operazioni seguenti:
 
-   * Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro. Fai clic su **Progetti**, quindi espandi **Nuovo progetto**.
+   * Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro o sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, se disponibile, quindi fai clic su **Projects** ed espandi **New Project**.
    * Vai a un portfolio, quindi espandi **Nuovo progetto**.
    * Vai a un programma, quindi espandi **Nuovo progetto**.
    * Se sei un amministratore gruppo, puoi anche creare un progetto nella sezione Progetti di un gruppo che gestisci. Per ulteriori informazioni, vedere [Creare e modificare i progetti di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
@@ -191,13 +191,21 @@ Considera quanto segue:
 
    Per ulteriori informazioni sull&#39;aggiunta di attività a un progetto, vedere [Creare attività in un progetto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Modificare i dettagli del progetto facendo clic sul menu **Altro** e quindi sull&#39;icona **Modifica** ![Modifica](assets/qs-edit-icon.png) accanto al nome del progetto.
+1. Modifica i dettagli del progetto facendo clic sul menu **Altro** a destra del nome del progetto, nell&#39;intestazione, quindi **Modifica** ![Icona Modifica](assets/qs-edit-icon.png) accanto al nome del progetto.
 
-   Viene visualizzata la finestra di dialogo **Modifica progetto**.
+   Viene visualizzata la casella **Modifica progetto**.
+
+1. Aggiungi informazioni sul progetto.
 
    Per ulteriori informazioni sulla modifica di un progetto, vedere [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. (Facoltativo) Dopo aver configurato le impostazioni del progetto e aver aggiunto le attività, puoi cambiare lo stato del progetto in **Corrente**.
+   >[!TIP]
+   >
+   >Lo stato del progetto deve essere Pianificazione o un altro stato non Corrente. Questo consente di apportare modifiche al progetto senza generare notifiche ai partecipanti al progetto.
+
+1. Fai clic su **Salva** per salvare le modifiche.
+
+1. (Facoltativo) Dopo aver configurato le impostazioni del progetto e aver aggiunto le attività, puoi modificare lo stato del progetto in **Corrente** nell&#39;intestazione del progetto.
 
    Questo indica che il progetto è pronto per essere avviato e che gli utenti assegnati alle attività ora possono iniziare a lavorarci.
 

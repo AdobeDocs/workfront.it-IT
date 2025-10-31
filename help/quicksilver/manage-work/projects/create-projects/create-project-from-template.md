@@ -6,16 +6,16 @@ description: Puoi utilizzare i modelli come framework per creare progetti in Ado
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1150'
 ht-degree: 1%
 
 ---
 
 # Creare un progetto utilizzando un modello
 
-<!-- Audited: 01/2024 -->
+<!-- Audited: 10/2025 -->
 
 Puoi utilizzare i modelli come framework per creare progetti in Adobe Workfront. Se i progetti si ripetono spesso, l’utilizzo dei modelli per la timeline generale del nuovo progetto evita di dover creare ripetutamente gli stessi progetti.
 
@@ -120,7 +120,7 @@ Puoi creare un progetto dall’area Progetti nel Menu principale oppure dall’a
 
 1. Esegui una delle operazioni seguenti:
 
-   * Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro. Fai clic su **Progetti**, quindi espandi **Nuovo progetto**.
+   * Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro o sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, se disponibile, quindi fai clic su **Projects** ed espandi **New Project**.
    * Vai a un portfolio, quindi espandi **Nuovo progetto**.
 
      >[!TIP]
@@ -153,7 +153,7 @@ Puoi creare un progetto dall’area Progetti nel Menu principale oppure dall’a
 
    Effettua le seguenti operazioni:
 
-   1. Seleziona **Nuovo progetto dal modello**.
+   1. Fai clic su **Nuovo progetto dal modello**.
    1. Nel campo **Cerca modelli**, inizia a digitare il nome di un modello e fai clic su di esso quando viene visualizzato nell&#39;elenco.
    1. Rivedi i dettagli del modello a destra.
 
@@ -179,19 +179,25 @@ Puoi creare un progetto dall’area Progetti nel Menu principale oppure dall’a
 
       ![Dettagli modello](assets/new-project-from-template-small-box-with-template-details-panel.png)
 
+      <!--no longer available, after unshimming - Oct 2025:
       >[!NOTE]
       >
-      >Se all&#39;elenco dei progetti è applicata la visualizzazione Milestone, fare clic sul nome di un modello nella sezione **Nuovo da modello**.
+      >If you have the Milestone View applied to the list of projects, click the name of a template in the **New from Template section**.
       >
       >
-      >![Vista milestone della creazione di un progetto da un modello](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)
+      >![Milestone view of creating a project from a template](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)
       >
+      -->
 
    Viene visualizzata la casella **Nuovo progetto**.
 
    ![Casella Nuovo progetto](assets/new-project-from-template-box.png)
 
-1. Se un campo è già popolato nel modello, il campo viene prepopolato nella casella **Nuovo progetto**. Puoi modificare i valori precompilati in modo che corrispondano meglio al tuo progetto. Per ulteriori informazioni, vedere [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
+1. (Condizionale) Se un campo è già popolato nel modello, il campo viene prepopolato nella casella **Nuovo progetto**.
+
+   Modifica i valori precompilati per farli corrispondere meglio al progetto.
+
+   Per ulteriori informazioni, vedere [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 1. Fare clic su **Crea progetto**.
 
    Tutti i dettagli definiti nel modello vengono associati automaticamente al nuovo progetto creato se non sono stati modificati nel passaggio precedente.
@@ -203,17 +209,21 @@ Invece di iniziare dall’area Progetti, puoi creare un progetto da un modello i
 {{step1-to-templates}}
 
 1. Fare clic sul nome del modello che si desidera utilizzare.
-1. Fai clic sul menu **Altro** ![Icona Altro](assets/more-icon.png), quindi fai clic su **Crea progetto**.
+1. Fai clic sul menu **Altro** ![Icona Altro](assets/more-icon.png) a destra del nome del modello nell&#39;intestazione, quindi fai clic su **Crea progetto**.
 
    ![Crea progetto da modello](assets/project-sharing-on-template.png)
 
    Viene visualizzata la casella **Nuovo progetto**.
 
-1. Immetti un nome per il progetto, quindi controlla ogni sezione e apporta le modifiche necessarie.
+1. Immettere un nome per il progetto. Workfront utilizza il nome del modello per denominare il nuovo progetto.
+
+1. Rivedi ogni sezione nella casella **Nuovo progetto** e apporta le modifiche necessarie.
 
    ![Casella Nuovo progetto](assets/new-project-from-template-box.png)
 
-   Se un campo è già popolato nel modello, il campo viene prepopolato nella casella **Nuovo progetto**. Puoi modificare i valori precompilati in modo che corrispondano meglio al tuo progetto. Per ulteriori informazioni, vedere [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
+   Se un campo è già popolato nel modello, il campo viene prepopolato nella casella **Nuovo progetto**. Puoi modificare i valori precompilati in modo che corrispondano meglio al tuo progetto.
+
+   Per informazioni, vedere [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. Fare clic su **Crea progetto**.
 

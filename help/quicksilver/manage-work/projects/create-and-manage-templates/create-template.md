@@ -6,16 +6,16 @@ description: È possibile creare ed eliminare modelli dall'area Modelli. Durante
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 3%
+source-wordcount: '648'
+ht-degree: 5%
 
 ---
 
 # Creare un modello di progetto
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 10/2025 -->
 
 È possibile creare ed eliminare modelli dall&#39;area Modelli. Durante la creazione di un nuovo modello, è possibile immettere le informazioni per tutte le attività e per le impostazioni di progetto future. Queste informazioni verranno quindi trasferite a qualsiasi progetto creato dal modello.
 
@@ -94,7 +94,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Creare un modello
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Templates**.
+{{step1-to-templates}}
 
 1. Fare clic su **Nuovo modello**.
 
@@ -104,33 +104,69 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Specificare un nome per il nuovo modello nell&#39;intestazione del modello, quindi premere **Invio.**
 1. Fai clic sulla sezione **Attività modello** nel pannello a sinistra.
-1. Fai clic su **Inizia ad aggiungere attività modello**.
+1. Fai clic su **Inizia ad aggiungere attività modello** per aggiungere attività in linea
 
    Oppure
 
-   Fai clic su **Nuova attività modello** per iniziare ad aggiungere attività al modello.
+   Fai clic su **Nuova attività modello** per iniziare ad aggiungere attività al modello nella casella **Nuova attività modello**.
 
-   L&#39;aggiunta di attività modello a un modello è identica all&#39;aggiunta di attività a un progetto.
+   ![Casella Attività nuovo modello](assets/new-template-task-box.png)
 
-   Per ulteriori informazioni sull&#39;aggiunta di attività a un progetto, vedere [Creare attività in un progetto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+1. Aggiornare le informazioni nelle seguenti aree:
+
+   * Panoramica
+   * Finanz
+   * Impostazioni
+   * Assegnazioni
+   * Moduli personalizzati
+   * Allega documento
+
+     L&#39;aggiornamento delle informazioni per un&#39;attività modello è simile alla modifica delle attività in un progetto. Per ulteriori informazioni, vedere [Modifica attività](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
 
    >[!NOTE]
    >
    >Impossibile aggiungere attività ricorrenti a un modello.
 
-1. (Facoltativo) Fai clic sull&#39;icona **Grafico di Gantt** nell&#39;angolo superiore destro dell&#39;Elenco attività per visualizzare una rappresentazione visiva dell&#39;elenco attività del modello.
+1. Fare clic su una delle seguenti opzioni:
+
+   * **Salva attività modello** per salvare l&#39;attività modello corrente e chiude la casella Nuova attività modello.
+   * **Salva attività modello e avviane un&#39;altra** per salvare l&#39;attività modello corrente e aprire un&#39;altra casella Nuova attività modello per aggiungere un&#39;altra attività.
+   * **Annulla** per chiudere la casella senza salvare l&#39;attività modello.
+1. (Facoltativo) Dopo aver aggiunto le attività modello, nella sezione Attività modello, fai clic sull&#39;icona **Grafico di Gantt** nell&#39;angolo superiore destro dell&#39;Elenco attività per visualizzare una rappresentazione visiva dell&#39;elenco delle attività del modello.
 
    >[!TIP]
    >
    >Non è possibile modificare le attività direttamente da questo diagramma di Gantt.
 
-1. Per aggiungere informazioni al nuovo modello, fai clic sul menu **Altro** ![Icona Altro](assets/more-icon.png), quindi fai clic su **Modifica**.
+1. Per aggiungere informazioni al nuovo modello, fai clic sul menu **Altro** ![Icona Altro](assets/more-icon.png) a sinistra del nome del modello nell&#39;intestazione, quindi fai clic su **Modifica**.
 
    Per informazioni sulla modifica di un modello, vedere [Modifica modelli di progetto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-1. Fai clic su **Salva modifiche**.
-1. (Facoltativo) Se desideri aggiungere altri elementi al modello, consulta la sezione [Aggiungere ulteriori elementi a un modello](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#add-additional-items-to-a-template) nell&#39;articolo [Modificare i modelli di progetto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+   >[!NOTE]
+   >
+   >   L&#39;associazione di un modello di progetto a un gruppo (o la mancanza di un gruppo) influisce sul modo in cui le preferenze di progetto, attività e problema determinano determinate impostazioni nel modello.
+   >
+   >Per ulteriori informazioni, vedere la sezione &quot;Applicazione delle preferenze ai modelli e alle attività dei modelli&quot; nell&#39;articolo [Creare e modificare i modelli di progetto di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 
-## Impostazioni modello determinate dall&#39;associazione di gruppi
+1. Fai clic su **Salva**.
+1. (Facoltativo) Aggiungi i seguenti elementi al modello
 
-L&#39;associazione di un modello di progetto a un gruppo (o la mancanza di un gruppo) influisce sul modo in cui le preferenze di progetto, attività e problema determinano determinate impostazioni nel modello. Per ulteriori informazioni, vedere la sezione [Creare e modificare modelli di progetto di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#create-and-modify-a-groups-project-templates) nell&#39;articolo [Creare e modificare modelli di progetto di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+   * Documenti
+   * Rischi
+   * Processi di approvazione
+   * Tariffe di fatturazione
+   * Spese
+   * Dettagli coda
+   * Gruppi di argomenti e argomenti coda
+
+1. (Facoltativo) Aggiungi i seguenti elementi alle attività nel modello:
+
+   * Documenti
+   * Spese
+   * Approvazioni
+
+   Per informazioni, vedere la sezione &quot;Aggiungere altri elementi a un modello&quot; nell&#39;articolo [Modificare i modelli di progetto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+
+
+
+
