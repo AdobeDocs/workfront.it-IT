@@ -384,7 +384,7 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
 
    &lt;!-applicare un rientro ai punti elenco sottostanti un&#39;altra volta al rilascio per mostrare Prod, quindi un altro nuovo punto elenco per Preview:
    1. (Condizionale) A seconda dell’ambiente da cui accedi all’attività, effettua le seguenti operazioni:
-   1. <!--In the Production environment,AND ADD THIS TO THE STEP BELOW-->
+   1. &#x200B;<!--In the Production environment,AND ADD THIS TO THE STEP BELOW-->
 
 1. Fai clic su **Cerca persone, mansione e team** e inizia a digitare il nome di un utente, una mansione o un team che desideri assegnare all&#39;attività, quindi fai clic su di esso o premi Invio quando viene visualizzato nell&#39;elenco.
 
