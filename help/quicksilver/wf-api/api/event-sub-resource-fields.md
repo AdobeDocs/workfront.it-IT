@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 1c6a1238e9ea1ca843dcb296db7a552ff354c50a
+source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '1043'
 ht-degree: 9%
 
 ---
@@ -88,7 +88,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td>updatedAt</td> 
   </tr> 
   <tr> 
-   <td>Fase di approv.<p>(Subs evento v2)</p></td> 
+   <td>Fase di approvazione<p>(Subs evento v2)</p></td> 
    <td>fase_approvazione</td> 
    <td>approvalID</td> 
   </tr> 
@@ -455,7 +455,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   </tr> 
   <tr> 
   <tr> 
-   <td>Dashboard</td> 
+   <td>Dashboard di</td> 
    <td>PTLTAB</td> 
    <td>accessoriIDs</td> 
   </tr> 
@@ -487,7 +487,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> <p>lastUpdateDate</p> <p>Nota: LastUpdateDate attiva un evento solo la prima volta che viene aggiornato durante ogni giorno. </p> </td> 
+   <td> <p>lastUpdateDate</p> <p>NOTA: LastUpdateDate attiva un evento solo la prima volta che viene aggiornato durante ogni giorno. </p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -527,12 +527,32 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>CheckOutByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>currentVersionID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>cliente:ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>cliente:isAdvancedDocMgmtEnabled</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>cliente:nome</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>cliente:objCode</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -633,6 +653,16 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td> </td> 
    <td> </td> 
    <td>projectID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>progetto:programID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>progetto: portfolioID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -762,6 +792,11 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
+   <td><span>valoriParametro</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
    <td><span>proofApprovalStatusID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -812,11 +847,16 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>versione</span> </td> 
+   <td><span>version</span> </td> 
   </tr> 
   <tr> 
    <td>Spesa</td> 
    <td>EXPNS</td> 
+   <td>accessoriIDs </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td> actualAmount </td> 
   </tr> 
   <tr> 
@@ -1095,7 +1135,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td> userOptions </td> 
   </tr> 
   <tr> 
-   <td>Ora</td> 
+   <td>Hour</td> 
    <td>HOUR</td> 
    <td>accessoriIDs</td> 
   </tr> 
@@ -1117,7 +1157,22 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>assignedApproverID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>billingRecordID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>categoryID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>classifierID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1212,6 +1267,11 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>rejectedByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>roleID</td> 
   </tr> 
   <tr> 
@@ -1223,6 +1283,11 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td> </td> 
    <td> </td> 
    <td>stato</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>submitByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1577,6 +1642,16 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>progetto:programID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>progetto: portfolioID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>proofActionID</td> 
   </tr> 
   <tr> 
@@ -1797,6 +1872,11 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>aemNativeFolderTreesRefID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>alignmentScoreCardID</td> 
   </tr> 
   <tr> 
@@ -1808,6 +1888,11 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td> </td> 
    <td> </td> 
    <td>attachRateCardID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>attachRateCard:sourceID </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1952,12 +2037,22 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>portfolioID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>preserveBilling</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
    <td>priorità</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>privateRateCardID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2128,6 +2223,11 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td> </td> 
    <td> </td> 
    <td>updatedAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>updatedBy</td> 
   </tr> 
   <tr> 
    <td>Tipo di record<p><p>(Subs evento v2)</p> </td> 
@@ -2340,6 +2440,413 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td>viewID</td> 
   </tr> 
   <tr> 
+   <td>Piano per gestione del personale<p>(Subs evento v2)</p></td> 
+   <td>PERSONALE</td> 
+   <td>accessoriIDs</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>attachRateCardID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>categoryID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> companyID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> valuta </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> customerID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>descrizione</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>endDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>enteredByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>entryDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>groupID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastUpdateDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastUpdatedByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>name</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objCode</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ownerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>parameterValues</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>privateRateCardID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>referenceNumber</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>startDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>totalEstimatedCost</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>totalEstimatedHours</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>totalEstimatedRevenue</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>url</td> 
+  </tr> 
+  <tr> 
+   <td>Valore parametro piano assegnazione personale <p>(Subs evento v2)</p></td> 
+   <td>SPVAL</td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>dateVal</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> numberVal </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objObjCode</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>parameterID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>parameterName</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>richTextID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>textVal</td> 
+  </tr> 
+  <tr> 
+   <td>Risorse del piano per gestione del personale <p>(Subs evento v2)</p></td> 
+   <td>PERSONALE</td> 
+   <td>accessoriIDs</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>assignedByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>assignedToID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> categoryID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> customerID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> entryDate </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastUpdateDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastUpdatedByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objCode</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>olv</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>parameterValues</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>roleID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>staffingPlanID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>totalEstimatedCost</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>totalEstimatedHours</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>totalEstimatedRevenue</td> 
+  </tr> 
+  <tr> 
+   <td>Valore attributo risorsa piano assegnazione personale<p>(Subs evento v2)</p></td> 
+   <td>SPAVAL</td> 
+   <td>attributeAttachableID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>attributeValueSetID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> rateAttributeID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>refClassifierID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>refCompanyID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>refGroupID</td> 
+  </tr> 
+  <tr> 
+   <td>Impostazione valore attributo risorsa piano assegnazione personale <p>(Subs evento v2)</p></td> 
+   <td>SAVSET</td> 
+   <td>attributeAttachableID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> systemGenerated </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td>Valore parametro risorsa piano assegnazione personale <p>(Subs evento v2)</p></td> 
+   <td>SRPVAL</td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>dateVal</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> numberVal </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objID</td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objObjCode</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>parameterID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>parameterName</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>richTextID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>textVal</td> 
+  </tr> 
+  <tr> 
    <td>Attività</td> 
    <td>ATTIVITÀ</td> 
    <td>accessoriIDs</td> 
@@ -2488,6 +2995,16 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td> </td> 
    <td> </td> 
    <td>projectID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>progetto:programID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>progetto: portfolioID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2978,6 +3495,11 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
    <td> </td> 
    <td> </td> 
    <td>uumUserID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>userRoles <p>NOTA: per questo campo è possibile utilizzare solo l'operatore di confronto modificato</p></td> 
   </tr> 
   <tr> 
    <td> </td> 

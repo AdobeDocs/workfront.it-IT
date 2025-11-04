@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 8f5cd4125281bb00331c4dc895cc57b138190cfe
+source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
 workflow-type: tm+mt
-source-wordcount: '3031'
+source-wordcount: '3060'
 ht-degree: 3%
 
 ---
@@ -60,6 +60,7 @@ I seguenti oggetti Workfront sono supportati dalle sottoscrizioni di eventi.
 * Azienda
 * Dashboard di
 * Documento
+* Versione documento
 * Spesa
 * Campo
 * Hour
@@ -68,9 +69,16 @@ I seguenti oggetti Workfront sono supportati dalle sottoscrizioni di eventi.
 * Portfolio
 * Programma
 * Progetto
+* Approvazione bozza
 * Record
 * Tipo di record
 * Rapporto
+* Piano per gestione del personale
+* Valore parametro piano assegnazione personale
+* Risorse del piano per gestione del personale
+* Valore attributo risorsa piano assegnazione personale
+* Impostazione valore attributo risorsa piano assegnazione personale
+* Valore parametro risorsa piano assegnazione personale
 * Attività
 * Modello
 * Scheda orario
@@ -816,7 +824,7 @@ Questo connettore applica il filtro al nuovo stato o al vecchio stato dell’ogg
 >[!NOTE]
 >
 >La sottoscrizione seguente con il filtro specificato restituirà solo i messaggi in cui il nome dell&#39;attività contiene `again` per `oldState`, ovvero ciò che si trovava prima di un aggiornamento dell&#39;attività.
->&#x200B;>Un caso d’uso per questo potrebbe essere quello di trovare i messaggi objCode che sono cambiati da una cosa all’altra. Ad esempio, per individuare tutte le attività che sono cambiate da &quot;Cerca nome&quot; a &quot;Cerca nome team&quot;
+>Un caso d’uso per questo potrebbe essere quello di trovare i messaggi objCode che sono cambiati da una cosa all’altra. Ad esempio, per individuare tutte le attività che sono cambiate da &quot;Cerca nome&quot; a &quot;Cerca nome team&quot;
 
 ```
 {

@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
+source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 0%
@@ -53,6 +53,4 @@ Per creare, eseguire query o eliminare un abbonamento a un evento, è necessario
 * Livello di accesso di **Amministratore di sistema**
 Per ulteriori informazioni, vedere [Concedere a un utente l&#39;accesso amministrativo completo](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) o [Concedere agli utenti l&#39;accesso amministrativo a determinate aree](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-* È necessaria un&#39;intestazione `sessionID` per utilizzare l&#39;API sottoscrizioni eventi
-
-  Per ulteriori informazioni, vedere [Autenticazione](api-basics.md#authentication) in [Nozioni di base sulle API](api-basics.md).
+* Se la tua organizzazione utilizza Adobe IMS (Identity Management System), includi un token utente IMS passato nell&#39;intestazione `X-User-Token`.
