@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
-source-git-commit: 0c8d84cfcc87728e809061c01c56322f3fd1f2f6
+source-git-commit: b78f794ece181da3f4db3a1b9b78e794b16a09ed
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,34 @@ ht-degree: 0%
 Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con la versione del quarto trimestre 2025. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio del quarto trimestre 2025, consulta [Panoramica sulla versione del quarto trimestre 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Aggiornamenti della scheda Riepilogo rapporto
+
+>[!NOTE]
+>
+>* Anteprima: 13 ottobre 2025
+>* Versione rapida di produzione: 13 ottobre 2025
+>* Produzione per tutti i clienti: 13 ottobre 2025
+>[!BADGE Fuori programma]{type=Neutral}
+
+La scheda Riepilogo di un rapporto è stata aggiornata con i seguenti miglioramenti:
+
+* I nomi dei campi di raggruppamento con prefisso per ogni riga sono stati spostati nell’intestazione della prima colonna.
+
+* Quando a un report vengono applicati più livelli di raggruppamento, la colonna del nome è ora delimitata da barre (separate da una barra).
+
+* Il prefisso del tipo di aggregazione (&quot;Sum: &quot;, &quot;Max: &quot;, &quot;Min: &quot;, &quot;Avg: &quot;) è stato rimosso da ogni aggregazione.
+
+* Il tipo di aggregazione per ogni colonna ora viene visualizzato come appendice al valore dell’intestazione della colonna.
+
+* I sottogruppi (2 o 3 raggruppamenti) vengono visualizzati come livelli rientrati nella prima colonna. I raggruppamenti di primo livello vengono comunque visualizzati in grassetto.
+
+* È ora possibile regolare la larghezza delle colonne. Le colonne torneranno alla distribuzione della larghezza predefinita quando la pagina viene aggiornata.
+
+>[!NOTE]
+>
+>Le prime quattro modifiche si applicano anche alle esportazioni della scheda Riepilogo, dove applicabile. I rientri di livello e il carattere grassetto non verranno trasferiti in un file di testo esportato delimitato da tabulazioni.
+
 
 ## Adobe Unified Experience è ora disponibile per altre organizzazioni Workfront
 
