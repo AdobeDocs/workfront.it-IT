@@ -6,9 +6,9 @@ description: La modalità di tracciamento di un’attività determina il modo in
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '194'
 ht-degree: 6%
 
 ---
@@ -85,8 +85,6 @@ Per informazioni sulla modalità di verifica delle attività, vedere [Panoramica
 -->
 
 ## Imposta modalità di verifica per le attività
-
-Per impostare la modalità di tracciamento:
 
 1. Vai all’attività per la quale vuoi impostare la modalità di tracciamento.
 1. Fai clic sull&#39;icona **Altro** ![](assets/qs-more-icon-on-an-object.png)accanto al nome dell&#39;attività, quindi fai clic su **Modifica**.

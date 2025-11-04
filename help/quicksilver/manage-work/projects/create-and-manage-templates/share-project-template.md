@@ -6,9 +6,9 @@ description: Puoi condividere un modello con gli utenti oppure definire come i p
 author: Alina
 feature: Work Management
 exl-id: 99c6b241-a2c9-4b6c-b605-177bbbc3f21a
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '720'
 ht-degree: 3%
 
 ---
@@ -90,7 +90,7 @@ Puoi condividere i modelli con altri utenti utilizzando Condivisione modelli. Qu
 
 Per condividere un modello:
 
-1. Dall&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png), fare clic su **Templates**.
+{{step1-to-templates}}
 
 1. Esegui una delle operazioni seguenti:\
    Fai clic sul nome di un modello per aprirlo, quindi fai clic sul menu **Altro** ![Icona Altro](assets/more-icon.png), quindi su **Condivisione modelli**.

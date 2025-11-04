@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 46133f435c665dd82d134f18d0b5de4e70bab7d7
 workflow-type: tm+mt
-source-wordcount: '3862'
-ht-degree: 3%
+source-wordcount: '3828'
+ht-degree: 4%
 
 ---
 
@@ -380,161 +380,14 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
 1. Inizia a modificare l’attività come descritto in precedenza.
 1. Fai clic su **Assegnazioni** nel pannello a sinistra.
 
-   ![](assets/nwe-assignments-section-edit-task-box-350x217.png)
+   <!--<span class="preview">The Assignments area opens in the new experience.</span>-->
 
-   &lt;!-applicare un rientro ai punti elenco sottostanti un&#39;altra volta al rilascio per mostrare Prod, quindi un altro nuovo punto elenco per Preview:
-   1. (Condizionale) A seconda dell’ambiente da cui accedi all’attività, effettua le seguenti operazioni:
-   1. &#x200B;<!--In the Production environment,AND ADD THIS TO THE STEP BELOW-->
-
-1. Fai clic su **Cerca persone, mansione e team** e inizia a digitare il nome di un utente, una mansione o un team che desideri assegnare all&#39;attività, quindi fai clic su di esso o premi Invio quando viene visualizzato nell&#39;elenco.
-
-   >[!NOTE]
-   >
-   >Se il nome dell&#39;utente contiene un carattere speciale, è necessario includere tale carattere nel campo di ricerca.
-
-   >[!TIP]
-   >
-   >Puoi assegnare più utenti, mansioni o team. Puoi assegnare solo utenti attivi, mansioni e team.
-   >
-   >Se un utente, una mansione o un team è stato assegnato prima della disattivazione, rimane assegnato all&#39;elemento di lavoro. In questo caso, consigliamo quanto segue:
-   >
-   >* Riassegnare l&#39;elemento di lavoro alle risorse attive.
-   >* Associare gli utenti di un team disattivato a un team attivo e riassegnare l&#39;elemento di lavoro al team attivo.
-
-1. (Facoltativo) Indica se un assegnatario è l&#39;assegnatario principale dell&#39;attività, selezionando il pulsante di opzione **Proprietario** accanto al nome. Un team non può essere l&#39;assegnatario principale di un&#39;attività.
-1. (Condizionale e facoltativo) Aggiorna i campi seguenti:
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Tipo di Durata</td> 
-      <td> <p>Questo identifica la relazione tra i seguenti: </p> 
-       <ul> 
-      <li> <p>Numero di risorse assegnate a un'attività </p> </li> 
-      <li> <p>Lo sforzo totale richiesto per completare l'attività </p> </li> 
-      <li> <p> Durata totale dell'attività. </p> </li> 
-       </ul> <p>L'amministratore di Workfront o un amministratore gruppo seleziona l'impostazione predefinita Tipo di durata per le attività del sistema o del gruppo. Per informazioni sull'impostazione delle impostazioni predefinite del progetto, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configurare le preferenze relative a problemi e attività a livello di sistema</a>. </p> <p>I tipi di durata consentono di impostare assegnazioni di risorse coerenti in base alle esigenze dell'attività. Per ulteriori informazioni sul tipo di durata di un'attività, vedere <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sulla durata e sul tipo di durata dell'attività</a>. </p> <p>Selezionare una delle opzioni seguenti: </p> 
-       <ul> 
-      <li> <p>Incarico Calcolato </p> </li> 
-      <li> <p> Lavoro Calcolato </p> </li> 
-      <li> <p>Impegno Aggiuntivo </p> </li> 
-      <li> <p>Semplice</p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader">Durata per Occorrenza</td> 
-      <td> <p>Viene visualizzato solo sull'elemento padre delle attività ricorrenti. Viene visualizzata la durata di ogni attività ricorrente, definita al momento della creazione dell'attività. Per informazioni sulla creazione di attività ricorrenti, vedere <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Creare attività ricorrenti</a>. </p> <p> <b>NOTA</b>
-
-   Le durate modificate in singole attività ricorrenti non visualizzano il valore indicato in questo campo. </p> </td>
-   </tr> 
-     <tr> 
-      <td role="rowheader">Durata</td> 
-      <td> 
-      <div> 
-      <div> 
-      <p>Quantità di tempo che consente a un'attività di rimanere aperta prima del completamento. </p> 
-      <p><b>IMPORTANTE</b>
-
-   Poiché la durata dell&#39;attività corrisponde in genere al tempo che intercorre tra l&#39;inizio pianificato e le date di completamento pianificate, influisce sulla sequenza temporale del progetto.</p>
-
-   <p>Per indicare la durata dell'attività e l'unità di tempo, eseguire le operazioni seguenti:</p> 
-      <ul> 
-      <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Digita il periodo di tempo e seleziona una delle unità di tempo disponibili nel menu a discesa.</p> <p><b>SUGGERIMENTO</b></p>
-      Quando si aggiorna la Durata delle attività in un elenco di attività, è possibile utilizzare l'abbreviazione per l'unità di tempo. </p> </li> 
-      </ul> 
-      <p> Nella tabella seguente è possibile scegliere tra le opzioni relative al tempo normale o al tempo trascorso: </p> 
-      <table style="table-layout:auto"> 
-      <col> 
-      <col data-mc-conditions=""> 
-      <tbody> 
-      <tr> 
-      <td>Unità di tempo</td> 
-      <td>Abbreviazione</td> 
-      </tr> 
-      <tr> 
-      <td>Minutes</td> 
-      <td>M</td> 
-      </tr> 
-      <tr> 
-      <td>Ore</td> 
-      <td>H</td> 
-      </tr> 
-      <tr> 
-      <td>Giorni. Questa è l'impostazione predefinita. </td> 
-      <td>Dsbld</td> 
-      </tr> 
-      <tr> 
-      <td>Weeks</td> 
-      <td>M</td> 
-      </tr> 
-      <tr> 
-      <td>Months</td> 
-      <td>T</td> 
-      </tr> 
-      <tr> 
-      <td>Minuti trascorsi</td> 
-      <td>EM</td> 
-      </tr> 
-      <tr> 
-      <td>Ore trascorse</td> 
-      <td>EH</td> 
-      </tr> 
-      <tr> 
-      <td>Giorni trascorsi</td> 
-      <td>ED</td> 
-      </tr> 
-      <tr> 
-      <td>Settimane trascorse</td> 
-      <td>EW</td> 
-      </tr> 
-      <tr> 
-      <td>Mesi trascorsi</td> 
-      <td>ET</td> 
-      </tr> 
-      </tbody> 
-   </table>
-
-   <p><b>NOTA</b>
-
-   <p>Il tempo trascorso è un'unità di tempo per la durata di un'attività. Si tratta del tempo che intercorre tra la Data inizio pianificata e la Data completamento pianificata di un'attività e che include ferie, fine settimana e ferie. In altre parole, il tempo trascorso è il trascorrere dei giorni di calendario.
-
-   L&#39;orario regolare prende in considerazione le festività, i fine settimana e le ferie e le esclude dalla Durata dell&#39;attività. Per ulteriori informazioni sulla durata dell&#39;attività, vedere <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sulla durata e sul tipo di durata dell&#39;attività</a>. </p>
-   </div> 
-      </div> </td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader">Lavoro Necessario</td> 
-      <td> <p>Specifica il numero di ore pianificate per l'attività, in ore. Quantità di tempo effettivo necessario agli assegnatari dell'attività per completare l'attività. È possibile specificare solo il numero di ore pianificate per un'attività quando il tipo di durata è impostato su Assegnazione calcolata. Per ulteriori informazioni sui tipi di durata, vedere <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sulla durata dell'attività e sul tipo di durata</a>.</p> 
-      <b>NOTA</b>
-      <p>
-      Quando si creano attività ricorrenti, le ore pianificate sono quelle di ogni occorrenza. Le ore pianificate delle attività padre sono il totale di tutte le ore pianificate di tutte le occorrenze. Per informazioni sulla creazione di attività ricorrenti, vedere <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Creare attività ricorrenti</a>.
-      </p>
-
-   </td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader">Allocazione</td> 
-      <td> <p>Se il vincolo dell'attività è Lavoro calcolato o Impegno, specificare <strong>Allocazione %</strong> (percentuale di allocazione) per ogni assegnatario. Quantità di tempo della pianificazione dell'assegnatario che può trascorrere per l'attività. Se si modifica la percentuale di allocazione per un assegnatario, verranno modificate le ore pianificate di un'attività. </p> <p>Quando Vincolo attività è Semplice, è possibile specificare quanto segue:</p> 
-         <ul> 
-         <li> <p>Ore di allocazione di ciascun assegnatario.</p> </li> 
-         <li> <p>Ore pianificate dell'attività</p> </li> 
-         <li> <p>Durata dell’attività</p> </li> 
-         </ul> </td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader">Mansione dell'assegnatario</td> 
-      <td> <p>Selezionare una mansione dal menu a discesa <strong>Ruolo dell'assegnatario</strong> quando si seleziona una persona come assegnatario. Questo è il ruolo che l’assegnatario può svolgere per questa attività. </p> <p><b>SUGGERIMENTO</b>
-
-   Nel menu a discesa vengono visualizzati solo i ruoli associati a ciascun assegnatario nel relativo profilo.</p> </td>
-   </tr>
-   </tbody>
-   </table>
+   <!--indent the bullets below to show new experience functionality:
+      1. (Conditional) Using the new experience, do the following:-->
 
    <!--Indent this according to what you did above: 
 
-      1. <span class="preview">In the Preview environment, start typing the name of a user, job role, or team in the **Search people, role or team** field, then select them when they display in the list</span>
+      1. <span class="preview">Start typing the name of a user, job role, or team in the **Search people, role or team** field, then select them when they display in the list</span>
 
       Or
 
@@ -667,10 +520,159 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
       <tr> 
       <td role="rowheader">Assignee's Role</td> 
       <td> <p>Select a role from the <strong>Assignee's Role</strong> drop-down menu when you selected a person as an assignee. This is the role that the assignee can fulfill on this task. </p> <p><b>TIP</b>
-            Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
+         Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
          </tr>
          </tbody> 
          </table>************)-->
+   <!--1. <span class="preview">(Optional) Click Switch to old experience at the bottom of the **Edit Task** box. </span>
+      <span class="preview">The Assignments area opens in the old experience. </span>
+      ![](assets/nwe-assignments-section-edit-task-box-350x217.png)-->
+
+1. Fai clic su **Cerca persone, ruoli o team** e inizia a digitare il nome di un utente, ruolo o team che desideri assegnare all&#39;attività, quindi fai clic su di esso o premi Invio quando viene visualizzato nell&#39;elenco.
+
+   >[!NOTE]
+   >
+   >Se il nome dell&#39;utente contiene un carattere speciale, è necessario includere tale carattere nel campo di ricerca.
+
+   >[!TIP]
+   >
+   >Puoi assegnare più utenti, mansioni o team. Puoi assegnare solo utenti attivi, mansioni e team.
+   >
+   >Se un utente, una mansione o un team è stato assegnato prima della disattivazione, rimane assegnato all&#39;elemento di lavoro. In questo caso, consigliamo quanto segue:
+   >
+   >* Riassegnare l&#39;elemento di lavoro alle risorse attive.
+   >* Associare gli utenti di un team disattivato a un team attivo e riassegnare l&#39;elemento di lavoro al team attivo.
+
+1. (Facoltativo) Indica se un assegnatario è l&#39;assegnatario principale dell&#39;attività, selezionando il pulsante di opzione **Proprietario** accanto al nome. Un team non può essere l&#39;assegnatario principale di un&#39;attività.
+1. (Facoltativo) Aggiorna i campi seguenti:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Tipo di Durata</td> 
+      <td> <p>Questo identifica la relazione tra i seguenti: </p> 
+       <ul> 
+      <li> <p>Numero di risorse assegnate a un'attività </p> </li> 
+      <li> <p>Lo sforzo totale richiesto per completare l'attività </p> </li> 
+      <li> <p> Durata totale dell'attività. </p> </li> 
+       </ul> <p>L'amministratore di Workfront o un amministratore gruppo seleziona l'impostazione predefinita Tipo di durata per le attività del sistema o del gruppo. Per informazioni sull'impostazione delle impostazioni predefinite del progetto, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configurare le preferenze relative a problemi e attività a livello di sistema</a>. </p> <p>I tipi di durata consentono di impostare assegnazioni di risorse coerenti in base alle esigenze dell'attività. Per ulteriori informazioni sul tipo di durata di un'attività, vedere <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sulla durata e sul tipo di durata dell'attività</a>. </p> <p>Selezionare una delle opzioni seguenti: </p> 
+       <ul> 
+      <li> <p>Incarico Calcolato </p> </li> 
+      <li> <p> Lavoro Calcolato </p> </li> 
+      <li> <p>Impegno Aggiuntivo </p> </li> 
+      <li> <p>Semplice</p> </li> 
+       </ul> </td> 
+     </tr> 
+     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+      <td role="rowheader">Durata per Occorrenza</td> 
+      <td> <p>Viene visualizzato solo sull'elemento padre delle attività ricorrenti. Viene visualizzata la durata di ogni attività ricorrente, definita al momento della creazione dell'attività. Per informazioni sulla creazione di attività ricorrenti, vedere <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Creare attività ricorrenti</a>. </p> <p> <b>NOTA</b>
+
+   Le durate modificate in singole attività ricorrenti non visualizzano il valore indicato in questo campo. </p> </td>
+   </tr> 
+     <tr> 
+      <td role="rowheader">Durata</td> 
+      <td> 
+      <div> 
+      <div> 
+      <p>Quantità di tempo che consente a un'attività di rimanere aperta prima del completamento. </p> 
+      <p><b>IMPORTANTE</b>
+
+   Poiché la durata dell&#39;attività corrisponde in genere al tempo che intercorre tra l&#39;inizio pianificato e le date di completamento pianificate, influisce sulla sequenza temporale del progetto.</p>
+
+   <p>Per indicare la durata dell'attività e l'unità di tempo, eseguire le operazioni seguenti:</p> 
+      <ul> 
+      <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Digita il periodo di tempo e seleziona una delle unità di tempo disponibili nel menu a discesa.</p> <p><b>SUGGERIMENTO</b></p>
+      Quando si aggiorna la Durata delle attività in un elenco di attività, è possibile utilizzare l'abbreviazione per l'unità di tempo. </p> </li> 
+      </ul> 
+      <p> Nella tabella seguente è possibile scegliere tra le opzioni relative al tempo normale o al tempo trascorso: </p> 
+      <table style="table-layout:auto"> 
+      <col> 
+      <col data-mc-conditions=""> 
+      <tbody> 
+      <tr> 
+      <td>Unità di tempo</td> 
+      <td>Abbreviazione</td> 
+      </tr> 
+      <tr> 
+      <td>Minutes</td> 
+      <td>M</td> 
+      </tr> 
+      <tr> 
+      <td>Ore</td> 
+      <td>H</td> 
+      </tr> 
+      <tr> 
+      <td>Giorni. Questa è l'impostazione predefinita. </td> 
+      <td>Dsbld</td> 
+      </tr> 
+      <tr> 
+      <td>Weeks</td> 
+      <td>M</td> 
+      </tr> 
+      <tr> 
+      <td>Months</td> 
+      <td>T</td> 
+      </tr> 
+      <tr> 
+      <td>Minuti trascorsi</td> 
+      <td>EM</td> 
+      </tr> 
+      <tr> 
+      <td>Ore trascorse</td> 
+      <td>EH</td> 
+      </tr> 
+      <tr> 
+      <td>Giorni trascorsi</td> 
+      <td>ED</td> 
+      </tr> 
+      <tr> 
+      <td>Settimane trascorse</td> 
+      <td>EW</td> 
+      </tr> 
+      <tr> 
+      <td>Mesi trascorsi</td> 
+      <td>ET</td> 
+      </tr> 
+      </tbody> 
+   </table>
+
+   <p><b>NOTA</b>
+
+   <p>Il tempo trascorso è un'unità di tempo per la durata di un'attività. Si tratta del tempo che intercorre tra la Data inizio pianificata e la Data completamento pianificata di un'attività e che include ferie, fine settimana e ferie. In altre parole, il tempo trascorso è il trascorrere dei giorni di calendario.
+
+   L&#39;orario regolare prende in considerazione le festività, i fine settimana e le ferie e le esclude dalla Durata dell&#39;attività. Per ulteriori informazioni sulla durata dell&#39;attività, vedere <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sulla durata e sul tipo di durata dell&#39;attività</a>. </p>
+   </div> 
+      </div> </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader">Lavoro Necessario</td> 
+      <td> <p>Specifica il numero di ore pianificate per l'attività, in ore. Quantità di tempo effettivo necessario agli assegnatari dell'attività per completare l'attività. È possibile specificare solo il numero di ore pianificate per un'attività quando il tipo di durata è impostato su Assegnazione calcolata. Per ulteriori informazioni sui tipi di durata, vedere <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sulla durata dell'attività e sul tipo di durata</a>.</p> 
+      <b>NOTA</b>
+      <p>
+      Quando si creano attività ricorrenti, le ore pianificate sono quelle di ogni occorrenza. Le ore pianificate delle attività padre sono il totale di tutte le ore pianificate di tutte le occorrenze. Per informazioni sulla creazione di attività ricorrenti, vedere <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Creare attività ricorrenti</a>.
+      </p>
+
+   </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader">Allocazione</td> 
+      <td> <p>Se il vincolo dell'attività è Lavoro calcolato o Impegno, specificare <strong>Allocazione %</strong> (percentuale di allocazione) per ogni assegnatario. Quantità di tempo della pianificazione dell'assegnatario che può trascorrere per l'attività. Se si modifica la percentuale di allocazione per un assegnatario, verranno modificate le ore pianificate di un'attività. </p> <p>Quando Vincolo attività è Semplice, è possibile specificare quanto segue:</p> 
+         <ul> 
+         <li> <p>Ore di allocazione di ciascun assegnatario.</p> </li> 
+         <li> <p>Ore pianificate dell'attività</p> </li> 
+         <li> <p>Durata dell’attività</p> </li> 
+         </ul> </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader">Mansione dell'assegnatario</td> 
+      <td> <p>Selezionare una mansione dal menu a discesa <strong>Ruolo dell'assegnatario</strong> quando si seleziona una persona come assegnatario. Questo è il ruolo che l’assegnatario può svolgere per questa attività. </p> <p><b>SUGGERIMENTO</b>
+
+   Nel menu a discesa vengono visualizzati solo i ruoli associati a ciascun assegnatario nel relativo profilo.</p> </td>
+   </tr>
+   </tbody>
+   </table>
 
 1. Fai clic su **Salva modifiche** <!--<span class="preview"> or **Save** </span> --> o continua con le sezioni seguenti.
 

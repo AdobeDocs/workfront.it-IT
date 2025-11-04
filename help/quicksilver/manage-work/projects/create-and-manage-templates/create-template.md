@@ -6,9 +6,9 @@ description: È possibile creare ed eliminare modelli dall'area Modelli. Durante
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 46133f435c665dd82d134f18d0b5de4e70bab7d7
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '654'
 ht-degree: 5%
 
 ---
@@ -112,7 +112,25 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    ![Casella Attività nuovo modello](assets/new-template-task-box.png)
 
-1. Aggiornare le informazioni nelle seguenti aree:
+   <!--<span class="preview">The Create Template Task opens in the new experience.</span>-->
+
+   <!--
+   1. <span class="preview">(Conditional) Using the new experience, update information in the following areas in the **Create Template Task** box:</span>
+   <div class="preview">
+   * Template Task Name
+   * Overview
+   * Assignments
+   * Finance
+   * Custom Forms
+   * Documents
+   * Settings 
+   </div>
+   1. Click **Save**
+   Or (*******remove the 1. from the step below and continue with those steps here*********)
+   1. (Optional) Click **Switch back to old experience** at the bottom of the **Create Template Task** box.
+   The **New Template Task** opens. (************add screen shot***********)-->
+
+1. Aggiorna le informazioni nelle seguenti aree nella casella **Nuova attività modello**:
 
    * Panoramica
    * Finanz
@@ -121,7 +139,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    * Moduli personalizzati
    * Allega documento
 
-     L&#39;aggiornamento delle informazioni per un&#39;attività modello è simile alla modifica delle attività in un progetto. Per ulteriori informazioni, vedere [Modifica attività](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+     L&#39;aggiornamento delle informazioni per un&#39;attività modello è simile alla modifica delle attività in un progetto. Per ulteriori informazioni, vedere [Modifica attività](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). <!--should this be relinked at preview/ prod release to say it's the same as Edit template tasks??-->
 
    >[!NOTE]
    >
