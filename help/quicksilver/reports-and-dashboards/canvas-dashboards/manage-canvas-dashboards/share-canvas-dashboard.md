@@ -6,9 +6,9 @@ description: Puoi condividere un dashboard Canvas con altri utenti di Adobe Work
 author: Jenny
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica della versione beta di Canvas Dashboards.<br>
->&#x200B;>In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
+>In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
 >
 >* Porta la tua chiave per Amazon Web Services
 >* Azure
@@ -93,6 +93,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. Nella pagina **Dashboard area di lavoro** selezionare il dashboard che si desidera condividere.
 
 1. Nell&#39;angolo superiore destro della pagina fare clic sul pulsante **Condividi**. Viene visualizzata la finestra di dialogo **Condivisione dashboard**.
+
+   ![Pulsante Condividi](assets/share-button.png)
 
 1. Nel campo **Concedi l&#39;accesso a**, inizia a digitare il nome di un utente, un team, una mansione, un gruppo o un&#39;azienda con cui vuoi condividere il dashboard di Canvas, quindi selezionalo quando viene visualizzato nell&#39;elenco a discesa.
 

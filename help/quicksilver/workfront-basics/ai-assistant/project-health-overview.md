@@ -5,9 +5,9 @@ description: La funzione Integrità del progetto utilizza la potenza di AI Assis
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: 8ece3c614febb6f480b352323721bcc9dcc940b6
+source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
 workflow-type: tm+mt
-source-wordcount: '1969'
+source-wordcount: '1965'
 ht-degree: 1%
 
 ---
@@ -89,7 +89,7 @@ L&#39;Assistente AI consente di valutare rapidamente le condizioni generali di u
 * A Rischio
 * In difficoltà
 
-Questo stato viene calcolato utilizzando i componenti del progetto e del programma, ad esempio lo stato di avanzamento del progetto, il lavoro sottostimato e altro ancora. Per un elenco completo dei componenti utilizzati per misurare l&#39;integrità del progetto, vedere la sezione [Elenco stati del progetto e del programma](#project-and-program-states-list).
+Questo stato viene calcolato utilizzando i componenti del progetto, ad esempio lo stato di avanzamento, il lavoro sottostimato e altro ancora. Per un elenco completo dei componenti utilizzati per misurare l&#39;integrità del progetto, vedere la sezione [Elenco stati del progetto e del programma](#project-and-program-states-list).
 
 A ciascun componente del progetto viene assegnato un punteggio di rischio numerico compreso tra (0-100), che viene quindi calcolato come media per creare lo stato di integrità generale del progetto:
 
@@ -110,7 +110,7 @@ Nel primo esempio, vengono valutati 4 componenti del progetto e i relativi punte
 * 1 A rischio (punteggio di rischio 45)
 * 1 In difficoltà (punteggio di rischio 20)
 
-Quando si esegue la media di questi punteggi, il risultato è 61. Utilizzando i criteri elencati sopra per lo stato di integrità del progetto, il progetto viene posto nello stato A rischio.
+Quando si esegue la media di questi punteggi, il risultato è 61. Utilizzando i criteri di integrità del progetto elencati sopra, il progetto viene posto nello stato A rischio.
 
 Nell’esempio successivo, una modifica della pianificazione di 1 giorno si è verificata all’inizio della timeline del progetto. In questo scenario, l’Assistente AI valuta sia la tempistica che l’impatto della modifica in relazione alla durata complessiva del progetto:
 
