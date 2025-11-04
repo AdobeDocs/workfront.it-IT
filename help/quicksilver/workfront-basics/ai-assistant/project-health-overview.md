@@ -5,10 +5,10 @@ description: La funzione Integrità del progetto utilizza la potenza di AI Assis
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: 5ce0206c8a7e596dac0bfdf836ca51c2cdbd1d0d
+source-git-commit: 8ece3c614febb6f480b352323721bcc9dcc940b6
 workflow-type: tm+mt
-source-wordcount: '1508'
-ht-degree: 2%
+source-wordcount: '1969'
+ht-degree: 1%
 
 ---
 
@@ -81,6 +81,107 @@ Per abilitare l’Assistente AI e l’integrità del progetto per la tua organiz
 
 Per ulteriori informazioni, vedere [Panoramica dell&#39;Assistente AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md) e [Configurare le preferenze di sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
+## Calcolo dell&#39;integrità del progetto
+
+L&#39;Assistente AI consente di valutare rapidamente le condizioni generali di un progetto assegnandogli uno degli stati di integrità disponibili:
+
+* Puntuale
+* A Rischio
+* In difficoltà
+
+Questo stato viene calcolato utilizzando i componenti del progetto e del programma, ad esempio lo stato di avanzamento del progetto, il lavoro sottostimato e altro ancora. Per un elenco completo dei componenti utilizzati per misurare l&#39;integrità del progetto, vedere la sezione [Elenco stati del progetto e del programma](#project-and-program-states-list).
+
+A ciascun componente del progetto viene assegnato un punteggio di rischio numerico compreso tra (0-100), che viene quindi calcolato come media per creare lo stato di integrità generale del progetto:
+
+* On Target (75 o superiore): le prestazioni del progetto rientrano nei limiti previsti.
+* A rischio (50-74): vengono rilevati problemi emergenti che possono influire sulle prestazioni del progetto.
+* In difficoltà (49 o meno): le prestazioni del progetto sono inferiori a soglie accettabili e richiedono un’attenzione immediata.
+
+>[!NOTE]
+>
+>* L&#39;Assistente IA valuta attualmente solo i dati del progetto selezionato.
+>* L&#39;analisi incrociata o storica non è ancora inclusa nel calcolo dello stato del progetto.
+
+### Esempi di calcolo dello stato del progetto per un progetto
+
+Nel primo esempio, vengono valutati 4 componenti del progetto e i relativi punteggi di rischio individuali vengono calcolati come segue:
+
+* 2 In target (punteggio di rischio 90)
+* 1 A rischio (punteggio di rischio 45)
+* 1 In difficoltà (punteggio di rischio 20)
+
+Quando si esegue la media di questi punteggi, il risultato è 61. Utilizzando i criteri elencati sopra per lo stato di integrità del progetto, il progetto viene posto nello stato A rischio.
+
+Nell’esempio successivo, una modifica della pianificazione di 1 giorno si è verificata all’inizio della timeline del progetto. In questo scenario, l’Assistente AI valuta sia la tempistica che l’impatto della modifica in relazione alla durata complessiva del progetto:
+
+* Un turno di programmazione di 1 giorno all’inizio di una timeline di progetto di 60 giorni è minore e in genere viene valutato come On Target.
+* Un turno di programmazione di 1 giorno in prossimità della data di completamento di un progetto è più dirompente e può essere valutato a rischio o in difficoltà.
+
+Poiché la modifica era minore e si è verificata nelle prime fasi della sequenza temporale del progetto, il progetto viene impostato sullo stato On Target.
+
+Se si verificano più modifiche alla pianificazione nella sequenza temporale di un progetto, queste vengono valutate e quindi calcolate come media prima di essere applicate al calcolo dello stato del progetto.
+
+## Comprendere la differenza tra le condizioni del progetto e l&#39;integrità del progetto
+
+Le condizioni del progetto e lo stato di integrità del progetto sono concetti simili in Workfront e hanno gli stessi nomi predefiniti per descrivere la condizione o lo stato del progetto (Su destinazione, A rischio e In difficoltà), ma hanno scopi diversi.
+
+Le condizioni del progetto forniscono un’istantanea di base sulle prestazioni correnti di un progetto in base solo alle date pianificate, previste e stimate. Può essere impostato manualmente dal proprietario del progetto o automaticamente da Workfront in base alle attività del progetto. In alternativa, Project Health è più completo e valuta fattori aggiuntivi, fornendo una comprensione di alto livello delle prestazioni.
+
+Per ulteriori informazioni sulle condizioni del progetto, consulta [Condizioni personalizzate](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+
+## Elenco degli stati del progetto e del programma
+
+La tabella seguente contiene un raggruppamento degli stati disponibili che l’Assistente IA assegnerà al progetto o al programma durante la generazione di una valutazione dello stato del progetto.
+
+<table>
+    <tr>
+        <td><b>Stato progetto</b></td>
+        <td><b>Definizione</b></td>
+        <td><b>Fattori</b></td>
+    </tr>
+    <tr>
+        <td>Puntuale</td>
+        <td>Questo viene assegnato quando il livello di rischio medio per i seguenti fattori rientra nella soglia valida.
+        </td>
+        <td> 
+        <ul><li>Scope creep</li>
+        <li>Campi mancante</li>
+        <li>Modifiche a pianificazione</li>
+        <li>Lavoro sottovalutato</li>
+        <li>Avanzamento del progetto</li>
+        <li>Attività in ritardo</li>
+        <li>Budget</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>A Rischio</td>
+        <td>Questo viene assegnato quando il livello di rischio medio per i seguenti fattori scende appena al di sotto della soglia valida.</td>
+        <td>
+        <ul><li>Scope creep</li>
+        <li>Campi mancante</li>
+        <li>Modifiche a pianificazione</li>
+        <li>Lavoro sottovalutato</li>
+        <li>Avanzamento del progetto</li>
+        <li>Attività in ritardo</li>
+        <li>Budget</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>In difficoltà</td>
+        <td>Questo viene assegnato quando il livello di rischio medio per i seguenti fattori scende al di sotto della soglia valida.</td>
+        <td>
+        <ul><li>Scope creep</li>
+        <li>Campi mancante</li>
+        <li>Modifiche a pianificazione</li>
+        <li>Lavoro sottovalutato</li>
+        <li>Avanzamento del progetto</li>
+        <li>Attività in ritardo</li>
+        <li>Budget</li>
+        </ul></td>
+    </tr>
+    </tr>
+   </table>
+
 ## Elenco dei prompt dell&#39;Assistente AI
 
 Di seguito è riportato un elenco di prompt che è possibile utilizzare per richiedere una valutazione IA per generare una valutazione dello stato del progetto per un progetto, un programma o tutti i progetti nel proprio account.
@@ -109,60 +210,6 @@ Di seguito è riportato un elenco di prompt che è possibile utilizzare per rich
        <tr>
         <td>Qualsiasi pagina in Workfront </td>
         <td><em>Qual è lo stato del programma [NOME PROGRAMMA]?</em></td>
-    </tr>
-   </table>
-
-
-## Elenco condizioni progetto e programma
-
-Di seguito sono riportate le condizioni disponibili che l&#39;Assistente IA assegnerà al progetto o al programma durante la generazione di una valutazione dello stato del progetto.
-
-<table>
-    <tr>
-        <td><b>Condizione progetto</b></td>
-        <td><b>Stato avanzamento progetto</b></td>
-        <td><b>Fattori condizione progetto</b></td>
-    </tr>
-    <tr>
-        <td>Puntuale</td>
-        <td>Questa analisi viene assegnata quando il livello di rischio medio per i seguenti fattori rientra nella soglia valida.
-        </td>
-        <td> 
-        <ul><li>Scope creep</li>
-        <li>Campi mancante</li>
-        <li>Modifiche a pianificazione</li>
-        <li>Lavoro sottovalutato</li>
-        <li>Avanzamento del progetto</li>
-        <li>Attività in ritardo</li>
-        <li>Budget</li>
-        </ul></td>
-    </tr>
-    <tr>
-        <td>A Rischio</td>
-        <td>Questa analisi viene assegnata quando il livello di rischio medio per i seguenti fattori scende appena al di sotto della soglia valida.</td>
-        <td>
-        <ul><li>Scope creep</li>
-        <li>Campi mancante</li>
-        <li>Modifiche a pianificazione</li>
-        <li>Lavoro sottovalutato</li>
-        <li>Avanzamento del progetto</li>
-        <li>Attività in ritardo</li>
-        <li>Budget</li>
-        </ul></td>
-    </tr>
-    <tr>
-        <td>In difficoltà</td>
-        <td>Questa analisi viene assegnata quando il livello di rischio medio per i seguenti fattori scende al di sotto della soglia valida.</td>
-        <td>
-        <ul><li>Scope creep</li>
-        <li>Campi mancante</li>
-        <li>Modifiche a pianificazione</li>
-        <li>Lavoro sottovalutato</li>
-        <li>Avanzamento del progetto</li>
-        <li>Attività in ritardo</li>
-        <li>Budget</li>
-        </ul></td>
-    </tr>
     </tr>
    </table>
 
@@ -261,7 +308,7 @@ Per ulteriori informazioni, vedere la sezione seguente in questo articolo: [Gest
 
    ![Valutazione dell&#39;integrità del progetto](assets/health-assessment.png)
 
-   Se stai generando una valutazione per un portfolio, verranno elencati più badge che mostrano le condizioni di ciascun progetto nel programma. Per ulteriori informazioni sulle etichette dei badge, vedere la seguente sezione in questo articolo: [Elenco delle condizioni del progetto e del programma](#project-and-program-conditions-list).
+   Se stai generando una valutazione per un portfolio, verranno elencati più badge che mostrano le condizioni di ciascun progetto nel programma. Per ulteriori informazioni sulle etichette dei badge, vedere la seguente sezione in questo articolo: [Elenco degli stati del progetto e del programma](#project-and-program-states-list).
 
 1. (Facoltativo) Fare clic su uno dei punti di valutazione per espandere i relativi dettagli.
 
