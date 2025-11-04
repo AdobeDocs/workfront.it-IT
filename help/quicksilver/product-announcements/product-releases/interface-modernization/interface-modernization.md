@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: c17a50542553db5b836ff82f3d0c6ed93ae3c3ad
+source-git-commit: e9b96508d27da15472506aa36bdaa507ca9831ba
 workflow-type: tm+mt
-source-wordcount: '8980'
+source-wordcount: '8992'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,11 @@ Per informazioni, consulta [Creare e modificare i rischi nei progetti](/help/qui
 
 **Versione di anteprima: 23 ottobre 2025; versione di produzione per tutti i clienti: a partire dalla settimana del 30 ottobre 2025**
 
-<!--This feature was in Preview and Prod starting on Sept 25 and it was removed on Oct 9. -->
+<!--This feature was in Preview and Prod starting on Sept 25 and it was removed on Oct 9. It was released to Preview again on Oct 23 and Prod rollout started Oct 30. Then it was removed from Prod again on Nov 4. -->
+
+>[!NOTE]
+>
+>Questa funzione è stata temporaneamente rimossa dall’ambiente di produzione il 4 novembre 2025.
 
 Abbiamo aggiornato l’aspetto del calendario personale delle ferie, inclusa la possibilità di delegare le approvazioni, in modo che corrisponda ad altre aree dell’applicazione.
 
@@ -1409,7 +1413,7 @@ Questo aggiornamento include modifiche visive agli elenchi e alle barre degli st
 * Tipo di spesa
 * Gruppo
 * Tipo di Ora
-* Voce del diario
+* Voce diario
 * Risorsa non manodopera (disponibile solo per clienti specifici)
 * Categoria risorsa non manodopera (disponibile solo per clienti specifici)
 * Argomento coda
