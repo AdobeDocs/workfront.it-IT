@@ -528,7 +528,7 @@ Per ulteriori informazioni sulla modifica di un&#39;attività, vedere [Modifica 
       </div>-->
    <!--<span class="preview">1. Click **Save**.</span>
    <!--1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the Edit Tasks box.</span>-->
-1. <!--<span class="preview">In the old experience,, do the following:</span> (**********indent the steps below*********)--> Specificare le informazioni da modificare per tutte le attività selezionate in una delle seguenti aree:
+1. &#x200B;<!--<span class="preview">In the old experience,, do the following:</span> (**********indent the steps below*********)--> Specificare le informazioni da modificare per tutte le attività selezionate in una delle seguenti aree:
 
    * Panoramica
    * Impostazioni
