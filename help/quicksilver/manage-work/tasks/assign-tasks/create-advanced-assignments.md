@@ -7,7 +7,7 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 0%
@@ -16,7 +16,9 @@ ht-degree: 0%
 
 # Crea assegnazioni avanzate
 
-<!-- Audited: 07/2024-->
+<!-- Audited: 11/2025-->
+
+<!--remove the bullet indicated when we get rid of the new/old experience of editing tasks-->
 
 <!--
 <div class="preview"> 
@@ -49,8 +51,7 @@ Questo articolo descrive come accedere alle assegnazioni avanzate nell’intesta
 Inoltre, puoi effettuare assegnazioni avanzate nelle seguenti aree di Workfront:
 
 * Negli elenchi e nei report quando il campo Assegnazioni viene visualizzato nella visualizzazione.
-* Nella sezione Assegnazioni durante la modifica di un&#39;attività. Per ulteriori informazioni, vedere [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
-  <!--* In the Production environment, in the Assignments section when editing a task. <span class="preview">This has been removed from the Preview environment.</span> For more information, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).-->
+* Nella sezione Assegnazioni durante la modifica di un&#39;attività. Per ulteriori informazioni, vedere [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md). <!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
 * Nell’intestazione dell’attività o del problema, nell’area Assegnazioni.
 * Nel Bilanciatore dei carichi di lavoro. Per ulteriori informazioni, consulta [Assegnare il lavoro manualmente utilizzando il Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 

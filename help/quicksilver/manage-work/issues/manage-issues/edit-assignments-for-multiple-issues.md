@@ -6,9 +6,9 @@ description: Modificare le assegnazioni utente per più problemi in un elenco
 author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '968'
 ht-degree: 1%
 
 ---
@@ -19,6 +19,14 @@ ht-degree: 1%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: similar article exists for tasks)</p>
 -->
+
+<div class="preview">
+
+Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti a partire da una settimana dalla versione di anteprima.
+
+Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+</div>
 
 È possibile modificare simultaneamente le assegnazioni degli utenti a più problemi. Per informazioni sulla modifica o l’assegnazione di problemi uno alla volta, consulta anche i seguenti articoli:
 

@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1826'
 ht-degree: 1%
 
 ---
@@ -224,11 +224,7 @@ Per assegnare le attività in un elenco:
 
 1. Dopo aver aggiunto gli assegnatari all’attività, premi Invio o fai clic in un punto qualsiasi della pagina per salvare le modifiche, se hai selezionato Salvataggio automatico. In caso contrario, fare clic su **Salva**.
 
-## Assegnare più attività a un utente in blocco da un elenco
-
-<!--Assigning multiple tasks to a user is different, depending on what environment you use to assign the tasks. 
-
-### Assign multiple tasks to a user in the Production environment-->
+## Assegnare più attività in blocco da un elenco
 
 1. Passare a un elenco di attività che si desidera assegnare in blocco.
 1. (Condizionale) Verificare che l&#39;opzione **Salvataggio automatico** sia selezionata se ci si trova in un elenco di attività di un progetto.
@@ -240,7 +236,11 @@ Per assegnare le attività in un elenco:
 1. Selezionare più attività nell&#39;elenco delle attività.
 1. Fai clic su **Modifica**.
 
-   Viene visualizzata la finestra di dialogo **Modifica attività**.
+   Viene visualizzata la finestra di dialogo **Modifica attività**.<!--<span class="preview">in the new experience</span>-->
+
+   <!--1. Continue assigning the tasks <span class="preview">using the new experience</span>. <span class="preview">For more information, see the section Assign multiple tasks in bulk from a list in the new experience in this article.</span> (^^^^^^^^^^^^add anchor here at release^^^^^^^^^^^^) -->
+
+   <!--1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the Edit Tasks box.</span> -->
 
 1. Nell&#39;area **Assegnazioni** selezionare la casella **Assegnatario**, quindi iniziare a digitare il nome di un utente, una mansione o un team che si desidera assegnare a tutte le attività.
 
@@ -274,7 +274,7 @@ Per assegnare le attività in un elenco:
 <!--
 <div class="preview">
 
-### Assign multiple tasks to a user in the Preview environment
+### Assign multiple tasks in bulk from a list in the new experience
 
 1. Go to a list of tasks that you want to assign in bulk in the Preview environment. 
 1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.

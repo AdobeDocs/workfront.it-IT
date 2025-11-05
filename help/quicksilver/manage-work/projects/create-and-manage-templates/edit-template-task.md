@@ -2,19 +2,19 @@
 product-area: templates
 keywords: attività,valori predefiniti,automatizza,creazione
 navigation-topic: templates-navigation-topic
-title: Modificare un’attività modello
+title: Modifica attività modello
 description: Dopo aver creato un modello, è possibile modificare le informazioni sulle attività del modello. Le informazioni aggiornate in un'attività modello vengono associate alle attività del progetto dopo che è stato utilizzato il modello per creare un progetto o dopo che il modello è stato allegato a un progetto.
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 46133f435c665dd82d134f18d0b5de4e70bab7d7
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '2631'
-ht-degree: 3%
+source-wordcount: '2629'
+ht-degree: 4%
 
 ---
 
-# Modificare un’attività modello
+# Modifica le attività modello
 
 <!--Audited: 11/2025-->
 

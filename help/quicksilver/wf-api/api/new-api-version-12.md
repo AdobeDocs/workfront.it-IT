@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2421'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Le seguenti risorse sono nuove nella versione 12 dell’API di Workfront.
 
 ### BreadCrumb {#breadcrumb}
 
-Un oggetto BreadCrumb rappresenta un elemento nella gerarchia padre/figlio di un elemento di lavoro di Adobe Workfront. Le breadcrumb indicano in che modo un elemento di lavoro si inserisce nella struttura più ampia di Portfoli, progetti, progetti e attività.
+Un oggetto BreadCrumb rappresenta un elemento nella gerarchia padre/figlio di un elemento di lavoro di Adobe Workfront. Le breadcrumb indicano in che modo un elemento di lavoro si inserisce nella struttura più ampia di portafogli, progetti, progetti e attività.
 
 Per ulteriori informazioni sulle breadcrumb in Workfront, consulta [Panoramica delle breadcrumb nella nuova esperienza Adobe Workfront](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
@@ -244,7 +244,7 @@ Se un utente non ha accesso a un oggetto in Workfront di cui ha bisogno, può ri
    <td>Campi diretti</td> 
    <td> 
     <ul> 
-     <li> <p style="font-weight: bold;">azione</p> <p>Sono stati aggiunti i seguenti valori possibili:</p> 
+     <li> <p style="font-weight: bold;">action</p> <p>Sono stati aggiunti i seguenti valori possibili:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>Un utente con un livello di accesso che include questa autorizzazione può aggiornare le ore pianificate nel Bilanciatore dei carichi di lavoro.</p> <p>Per ulteriori informazioni, consulta <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Aggiornare le ore pianificate per l'attività durante la gestione delle allocazioni utente</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Gestire le allocazioni utente nel Bilanciatore dei carichi di lavoro</a>.</p> </li> 
        <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Un utente con un livello di accesso che include questa autorizzazione può aggiungere campi ai moduli personalizzati.</p> <p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">Creare o modificare un modulo personalizzato</a>.</p> </li> 
@@ -470,7 +470,7 @@ Un oggetto Document rappresenta un file, ad esempio materiale scritto, immagini 
    <td>Azioni</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>createLinkedProofVersion</p> <p style="font-weight: normal;">Aggiunta completata</p> </li> 
+     <li style="font-weight: bold;"> <p>createLinkedProofVersion</p> <p style="font-weight: normal;">Aggiunto</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -496,7 +496,7 @@ Per ulteriori informazioni sulle versioni dei documenti, vedere [Caricare una nu
       </ul> </li> 
     </ul> 
     <ul> 
-     <li> <p style="font-weight: normal;"><strong>proofDecision</strong> </p> <p>Aggiunta completata</p> </li> 
+     <li> <p style="font-weight: normal;"><strong>proofDecision</strong> </p> <p>Aggiunto</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -636,21 +636,21 @@ Per ulteriori informazioni sui campi personalizzati, vedere [Creare o modificare
       <ul> 
        <li> <p>RTF (campo di testo con formattazione)</p> <p>Per ulteriori informazioni, vedere <a href="../../wf-api/general/rich-text-field-api.md" class="MCXref xref">Campi Rich Text nell'API Adobe Workfront</a>.</p> </li> 
       </ul> </li> 
-     <li> <p><strong>etichetta</strong> </p> <p>Aggiunta completata</p> </li> 
+     <li> <p><strong>etichetta</strong> </p> <p>Aggiunto</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Campi raccolta</td> 
    <td> 
     <ul> 
-     <li> <p><strong>regole di accesso</strong> </p> <p>Aggiunta completata</p> </li> 
+     <li> <p><strong>regole di accesso</strong> </p> <p>Aggiunto</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Campi predefiniti</td> 
    <td> 
     <ul> 
-     <li> <p class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"><strong>etichetta</strong> </p> <p>Aggiunta completata</p> </li> 
+     <li> <p class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"><strong>etichetta</strong> </p> <p>Aggiunto</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -660,7 +660,7 @@ Per ulteriori informazioni sui campi personalizzati, vedere [Creare o modificare
 
 Un oggetto Portfolio è una raccolta di progetti che competono per le stesse risorse, in genere denaro o persone per completarli.
 
-Per ulteriori informazioni sui portfolio, vedere [Panoramica sui Portfoli in Adobe Workfront](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+Per ulteriori informazioni sui portfolio, vedere [Panoramica di Portfolio in Adobe Workfront](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -762,7 +762,7 @@ Un oggetto ScheduledReport rappresenta un report configurato per la consegna.
 
 ### ScoreCardQuestion {#scorecardquestion}
 
-Un oggetto ScoreCardQuestion rappresenta una domanda aggiunta a una scorecard. Queste domande sono solitamente determinate dal manager del Portfolio e le loro risposte consentono al manager di capire quanto un progetto sia in linea con gli obiettivi del portfolio.
+Un oggetto ScoreCardQuestion rappresenta una domanda aggiunta a una scorecard. Queste domande sono solitamente determinate dal manager Portfolio e le loro risposte consentono al manager di comprendere quanto un progetto sia in linea con gli obiettivi del portfolio.
 
 Per ulteriori informazioni sulle domande relative alle scorecard, vedere [Creare una scorecard](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
@@ -851,7 +851,7 @@ Un oggetto Team è un insieme di Utenti che possono essere assegnati a un elemen
 
 Un oggetto TemplateTask rappresenta un oggetto Task che fa parte di un oggetto Template. Le Attività Modello diventano Attività nel Progetto in cui viene utilizzato il Modello.
 
-Per ulteriori informazioni sulle attività modello, vedere [Modificare un&#39;attività modello](../../manage-work/projects/create-and-manage-templates/edit-template-task.md).
+Per ulteriori informazioni sulle attività modello, vedere [Modifica attività modello](../../manage-work/projects/create-and-manage-templates/edit-template-task.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -892,7 +892,7 @@ Per ulteriori informazioni sulle schede orario, vedi [Panoramica schede orario](
  </tbody> 
 </table>
 
-### Aggiorna
+### Aggiornamento
 
 <table style="table-layout:auto"> 
  <col> 
@@ -928,8 +928,8 @@ Un oggetto User rappresenta una persona con un account in Workfront che può acc
      <li> <p><strong>alignAccessType</strong> </p> <p>Questo campo mostra l’accesso dell’utente agli Obiettivi di Workfront. I valori possibili sono:</p> 
       <ul> 
        <li> <p>Nessun accesso</p> </li> 
-       <li> <p>Viste</p> </li> 
-       <li> <p>Modif</p> </li> 
+       <li> <p>Visualizzazione</p> </li> 
+       <li> <p>Modifica</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 

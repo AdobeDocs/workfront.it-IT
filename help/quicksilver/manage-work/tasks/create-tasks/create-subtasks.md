@@ -6,9 +6,9 @@ description: In Adobe Workfront, le attività possono avere relazioni padre-figl
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!-- Audited: 01/2025 -->
 
-In Adobe Workfront, le attività possono avere relazioni padre-figlio. Le attività secondarie sono denominate attività secondarie. È possibile creare sottoattività nell&#39;elenco delle attività trasformando un&#39;attività principale in sottoattività. È inoltre possibile impostare un&#39;attività secondaria come attività principale.
+In Adobe Workfront, le attività possono avere relazioni padre-figlio. Le attività secondarie sono denominate attività secondarie. È possibile creare sottoattività nell&#39;elenco delle attività rendendo un&#39;attività principale una sottoattività di un&#39;altra attività. È inoltre possibile impostare un&#39;attività secondaria come attività principale.
 
 ## Requisiti di accesso
 
@@ -84,6 +84,11 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 È possibile creare sottoattività dall&#39;elenco delle attività o dalla sezione delle sottoattività delle attività.
 
+>[!TIP]
+>
+>La creazione di sottoattività per un progetto è simile alla creazione di sottoattività modello per le attività modello in un modello.
+
+
 ### Crea sottoattività dall&#39;elenco delle attività {#create-subtasks-from-the-task-list}
 
 1. Passare al progetto in cui si desidera creare le sottoattività.
@@ -113,12 +118,14 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 1. Passare al progetto in cui si desidera creare le sottoattività.
 1. Fai clic sulla sezione **Attività** nel pannello a sinistra.
 1. Fare clic sul nome dell&#39;attività in cui si desidera creare un&#39;attività secondaria.
-1. Se presente, fai clic sulla sezione **Sottoattività** nel pannello a sinistra.
+1. Se disponibile, fai clic sulla sezione **Sottoattività** nel pannello a sinistra.
 1. Fai clic su **Nuova attività.**
 
-   Segui i passaggi descritti nel seguente articolo per continuare a creare la sottoattività: [Crea attività in un progetto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+   Per informazioni sulla creazione di attività, vedere [Creare attività in un progetto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
 1. Fai clic su **Crea attività.**
+
+   La nuova attività viene creata come sottoattività dell&#39;attività selezionata al passaggio 3. <!--ensure this is accurate-->
 
 ## Rendere un&#39;attività secondaria un&#39;attività principale
 

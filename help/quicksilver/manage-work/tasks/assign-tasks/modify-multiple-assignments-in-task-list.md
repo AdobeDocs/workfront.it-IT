@@ -7,20 +7,28 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
 
 # Modificare più assegnazioni utente in un elenco di attività
 
-<!--Audited: 07/2024-->
+<!--Audited: 11/2025-->
 
 <!--
-<p>There is a similar article in Resource Scheduling and a similar one for Issues; when things change, you might need to update all 3</p>
+this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
+
+<!--<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> -->
 
 Quando si gestiscono le assegnazioni di attività, è possibile modificarle contemporaneamente per più attività contemporaneamente utilizzando la funzione di modifica in blocco in un elenco di attività.
 
@@ -117,14 +125,17 @@ When assigning users to work, their availability according to their schedules af
 
 1. Seleziona le attività per le quali vuoi modificare le assegnazioni, quindi fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png).
 
-   Viene visualizzata la pagina Modifica attività. Gli elementi modificati vengono visualizzati nell&#39;angolo superiore sinistro della pagina.
+   La casella **Modifica attività** apre <!--<span class="preview">in the new experience</span>-->.
+
+   <!--1. <span class="preview">(Optional) Click **Switch to old experience** at the bottom of the **Edit Tasks** box.</span> 
+   <span class="preview">The **Edit Tasks** box opens in the old experience.</span>-->
 
 1. Vai alla sezione **Assegnazioni**.
-1. Per aggiungere o rimuovere assegnatari, effettuare una delle seguenti operazioni:
 
    >[!IMPORTANT]
    >
    >La rimozione degli assegnatari può influire sulle ore delle attività e sulle percentuali di allocazione. Per ulteriori informazioni, vedere la sezione [Come la rimozione degli assegnatari influisce sulle ore delle attività e sulle percentuali di allocazione](#how-removing-assignees-affects-task-hours-and-allocation-percentages) in questo articolo.
+1. Per aggiungere o rimuovere assegnatari, effettuare una delle seguenti operazioni:
 
    * Per aggiungere un nuovo assegnatario:
 
@@ -180,3 +191,17 @@ When assigning users to work, their availability according to their schedules af
    * **Ruolo assegnatario**: selezionare un ruolo dall&#39;elenco a discesa. Se non è selezionata, Adobe Workfront seleziona automaticamente il Ruolo principale dell’utente.
 
 1. Fai clic su **Salva modifiche.**
+
+<!--
+1. <span class="preview"> (Optional) Click **Try new experience** in the upper-right corner of the **Edit Tasks** box. The Edit Tasks box opens in the new experience. Do one of the following:</span>
+
+   <div class="preview">
+
+   * To add assignees, start typing the name of an assignee in the **Search people, roles, or teams** field, then select them when they display in the list. 
+   * To remove assignees, click the **x** icon to the right of their name. Only assignees that are common to all tasks display in the list. 
+   * Click Assign to me to assign the selected tasks to yourself.
+
+   </div>
+1. <span class="preview">(Conditional) When using the new experience, click **Save**.</span>
+
+-->
