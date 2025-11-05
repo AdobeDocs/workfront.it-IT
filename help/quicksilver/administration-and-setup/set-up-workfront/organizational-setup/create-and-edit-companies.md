@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 5e81e18ef667af3e4d08f4fc8987f7a3b6617971
+source-git-commit: 6fb64986260842c419c61fe386e9ccf1a0da8f14
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1463'
 ht-degree: 0%
 
 ---
@@ -141,11 +141,11 @@ Per aggiungere o modificare una società:
 
    Per informazioni sulla creazione di moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Condizionale) Se stai creando una società, fai clic su **[!UICONTROL Crea società]**<span class="preview">o **&#x200B; Salva &#x200B;**.</span>
+1. (Condizionale) Se stai creando una società, fai clic su **[!UICONTROL Crea società]** <span class="preview">o **Salva**.</span>
 
    Oppure
 
-   Se stai modificando una società esistente, fai clic su **[!UICONTROL Salva modifiche]**<span class="preview">o **&#x200B; Salva &#x200B;**.</span>
+   Se stai modificando una società esistente, fai clic su **[!UICONTROL Salva modifiche]** <span class="preview">o **Salva**.</span>
 
 ## Gestire le appartenenze a società
 
@@ -167,9 +167,13 @@ Per ulteriori informazioni sulla condivisione degli oggetti, vedere [Panoramica 
 
 Quando un amministratore [!DNL Workfront] assegna un gruppo a una società, gli amministratori del gruppo ottengono l&#39;accesso [!UICONTROL Gestione] alla società in [!UICONTROL Configurazione]. Ciò include l&#39;accesso alla pagina [!UICONTROL Aziende] in [!UICONTROL Configurazione], in cui possono visualizzare e gestire la società associata al loro gruppo.
 
-Con questo accesso alla pagina [!UICONTROL Società], un amministratore di gruppo può assegnare un gruppo a una società, ma deve trattarsi di una società creata dall&#39;amministratore del gruppo. Se il livello di accesso dell&#39;amministratore del gruppo non è configurato con accesso amministrativo alle società, il campo [!UICONTROL Gruppo] è obbligatorio quando l&#39;amministratore del gruppo crea la società. Il titolo in grassetto indica quanto segue:
+Con questo accesso alla pagina [!UICONTROL Società], un amministratore di gruppo può assegnare un gruppo a una società, ma deve trattarsi di una società creata dall&#39;amministratore del gruppo. Se il livello di accesso dell&#39;amministratore del gruppo non è configurato con accesso amministrativo alle società, il campo [!UICONTROL Gruppo] è obbligatorio quando l&#39;amministratore del gruppo crea la società. Il relativo <span class="preview">asterisco</span> o titolo in grassetto indica quanto segue:
 
-![Modifica società](assets/group-admin-add-company.png)
+<span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
+![È richiesta la finestra di dialogo per la nuova società con il gruppo](assets/group-admin-add-company-group-required.png)
+
+Immagine di esempio nell’ambiente di produzione:
+![Il gruppo è obbligatorio per la società](assets/group-admin-add-company.png)
 
 Per informazioni su come gli utenti ottengono l&#39;accesso amministrativo alle aziende nel loro livello di accesso, vedere [Concedere agli utenti l&#39;accesso amministrativo ad alcune aree](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
