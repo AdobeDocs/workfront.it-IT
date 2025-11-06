@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
+source-git-commit: f1fe1a2fe6e123d8a039e8d7e3547c0b0a8141df
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '365'
 ht-degree: 3%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 3%
 # Reimpostare le preferenze di un utente
 
 <!-- Audited: 12/2023 -->
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima ed è in fase di rilascio in un rollout graduale in produzione.</span>
 
 In qualità di amministratore di Adobe Workfront, puoi reimpostare o rimuovere le impostazioni delle preferenze utente per qualsiasi utente del sistema Workfront.
 
@@ -106,8 +104,6 @@ Quando si reimpostano le preferenze utente, alcune vengono ripristinate ai valor
 
 <!--Display this table and hide the HTML table above, when the unshim is released.-->
 
-<div class="preview">
-
 | Preferenza | Stato dopo il ripristino |
 | --- | --- |
 | Viste | Ripristino dei valori predefiniti di sistema <p>Le viste esistenti non vengono eliminate. Puoi selezionarli di nuovo.</p> |
@@ -116,8 +112,6 @@ Quando si reimpostano le preferenze utente, alcune vengono ripristinate ai valor
 | Elenco elementi recenti | Cancellato |
 | Elenco Preferiti | Non interessato |
 | Preferenze utente | Ripristino dei valori predefiniti di sistema <p>Le notifiche e-mail vengono ripristinate ai valori predefiniti del sistema. Le notifiche predefinite sono elencate in [Notifiche evento disponibili in Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).</p> |
-
-</div>
 
 ## Reimposta preferenze utente
 
@@ -148,8 +142,8 @@ Quando si reimpostano le preferenze utente, alcune vengono ripristinate ai valor
 
 1. Premere **Invio**.
 
-1. <span class="preview">Per reimpostare tutte le preferenze utente, fare clic su **Reimposta**.</span>
+1. Per reimpostare tutte le preferenze utente, fare clic su **Reimposta**.
 
-   <span class="preview">O</span>
+   Oppure
 
-   <span class="preview">Per ripristinare la navigazione a sinistra dell&#39;utente alla configurazione originale del modello di layout, fare clic su **Ripristina navigazione a sinistra**.</span>
+   Per ripristinare la navigazione a sinistra dell&#39;utente alla configurazione originale del modello di layout, fare clic su **Reimposta navigazione a sinistra**.
