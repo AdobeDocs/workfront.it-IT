@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e9b96508d27da15472506aa36bdaa507ca9831ba
+source-git-commit: 829b3d343286b63922614b3855f9227667ad57a4
 workflow-type: tm+mt
-source-wordcount: '8992'
+source-wordcount: '9336'
 ht-degree: 0%
 
 ---
@@ -34,33 +34,68 @@ Per ulteriori informazioni, vedere [Creare e modificare società](/help/quicksil
 
 ## Progetti
 
+### Nuova esperienza nell’utilizzo delle attività modello
+
+**Versione di anteprima: 6 novembre 2025; versione di produzione: a partire dalla settimana del 13 novembre 2025**
+
+È stata aggiornata l’esperienza di utilizzo delle attività modello.
+
+>[!NOTE]
+>
+>Sarà possibile passare dalla vecchia alla nuova esperienza di aggiunta o modifica di attività modello per un periodo di tempo limitato.
+
+Le seguenti modifiche sono incluse in questo aggiornamento:
+
+* L’elenco delle attività modello nella sezione Attività secondarie di un’attività modello ora corrisponde alla maggior parte degli elenchi in Workfront
+
+* Le caselle Nuova e Modifica attività modello hanno un nuovo aspetto
+
+* È ora possibile aggiornare i campi personalizzati della ricerca esterna durante la modifica delle attività dei modelli
+
+* È disponibile una nuova esperienza per l’assegnazione di risorse alle attività modello. La nuova esperienza è ora disponibile sia quando si modifica un’attività sia quando si modificano più attività in blocco. I campi seguenti sono stati rimossi dalla casella Modifica attività:
+
+* Allocazioni
+   * Proprietario o proprietario dell&#39;attività
+   * Mansione dell&#39;assegnatario
+
+È comunque possibile trovare i campi rimossi quando si effettuano assegnazioni avanzate nelle attività modello.
+
+Per informazioni, vedere [Modifica attività modello](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md).
+
+
+### Nuova esperienza nella modifica in blocco e nell’assegnazione di attività in modalità singola o in blocco
+
+**Versione di anteprima: 6 novembre 2025; versione di produzione: a partire dalla settimana del 13 novembre 2025**
+
+La casella Modifica attività è stata aggiornata quando si modificano singole attività o in blocco.
+
+>[!NOTE]
+>
+>Sarà possibile passare dalla vecchia alla nuova esperienza per modificare le attività per un periodo di tempo limitato.
+
+Le seguenti modifiche sono incluse in questo aggiornamento:
+
+* L&#39;opzione Ricalcola espressioni personalizzate è stata rimossa quando si aggiornano le attività in blocco ed è stata aggiunta al menu Altro in un elenco di attività, dopo aver selezionato più attività.
+
+* È ora possibile aggiornare i campi personalizzati della ricerca esterna
+
+* È disponibile una nuova esperienza per l’assegnazione di risorse alle attività. Questa funzione è ora disponibile sia quando si modifica un’attività che quando si modificano più attività in blocco. I campi seguenti sono stati rimossi dalla casella Modifica attività:
+
+   * Allocazioni
+   * Proprietario o proprietario dell&#39;attività
+   * Mansione dell&#39;assegnatario
+
+È comunque possibile trovare i campi rimossi quando si effettuano assegnazioni avanzate sulle attività.
+
+Per informazioni, vedere [Modifica attività](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+
 ### Aggiornamento dell’interfaccia durante la conversione di un’attività in un progetto utilizzando un modello
 
-**Versione di anteprima: 30 ottobre 2025; versione di produzione: a partire dal 6 novembre 2025**
+**Versione di anteprima: 30 ottobre 2025; versione di produzione: a partire dalla settimana del 6 novembre 2025**
 
 È stata aggiornata la casella Converti in progetto quando si converte un’attività in un progetto utilizzando un modello. La struttura della casella ora corrisponde a quella della casella Modifica progetto.
 
 Per informazioni, vedere [Convertire un&#39;attività in un progetto](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md).
-
-<!--### New experience when bulk editing and single- or bulk-assigning tasks
-
-**Preview release: October 30, 2025; Production release: Starting on November 6, 2025**
-
-We have updated the Edit Tasks box when editing single tasks or editing them in bulk. The following changes are included in this update:
-
-* The Recalculate Custom Expressions option has been removed when updating tasks in bulk and has been added to the More menu in a task list, after selecting multiple tasks.
-
-* There is a new experience for assigning resources to tasks. This is now available both when editing one task or editing several tasks in bulk. The following fields have been removed from the Edit tasks box:
-
-* Allocations
-* Owner or Task Owner
-* Assignee's Role
-
-You can still find the removed fields when making advanced assignments on tasks.
-
-You will have a chance to switch between the old and the new experience for editing tasks for a limited time.
-
-For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
 
 ### Nuova esperienza nella modifica in blocco e nell’assegnazione singola o in blocco di problemi
 
@@ -72,11 +107,13 @@ Le seguenti modifiche sono incluse in questo aggiornamento:
 
 * L’opzione Ricalcola espressioni personalizzate è stata rimossa durante l’aggiornamento in blocco dei problemi. L’opzione è stata aggiunta al menu Altro in un elenco di problemi, dopo aver selezionato più problemi.
 
+* È ora possibile aggiornare i campi personalizzati della ricerca esterna durante la modifica dei problemi.
+
 * È disponibile una nuova esperienza per l’assegnazione di risorse ai problemi. Questa funzione è ora disponibile sia quando si modifica un problema che quando si modifica più problemi in blocco. I campi seguenti sono stati rimossi dalla casella Modifica problemi:
 
-* Allocazioni
-* Proprietario o proprietario del problema
-* Mansione dell&#39;assegnatario
+   * Allocazioni
+   * Proprietario o proprietario del problema
+   * Mansione dell&#39;assegnatario
 
 Puoi aggiornare i campi rimossi quando effettui assegnazioni avanzate sui problemi.
 

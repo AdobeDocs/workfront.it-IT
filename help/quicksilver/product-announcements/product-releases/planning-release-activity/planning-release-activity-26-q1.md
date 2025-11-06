@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 7fb12a3fbdad661baf2d0ad472ce8017e178ddef
+source-git-commit: 3ba6468327ca390ddc75ff1c18440283daa6eee4
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '585'
 ht-degree: 0%
 
 ---
@@ -22,19 +22,19 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 
-<!--## New field search box in the Filters, Fields, and Row colors icons in Planning views
+## Nuova casella di ricerca dei campi nelle icone Filtri, Campi e Colori riga nelle visualizzazioni di Planning
 
 >[!NOTE]
 >
->Preview: October 30, 2025 
->Production fast release: November 13, 2025 
->Production for everyone:  January 15, 2026 
+>Anteprima: 6 novembre 2025
+>Versione rapida di produzione: 11 dicembre 2025
+>Produzione per tutti: 15 gennaio 2026
 
+È ora possibile cercare un campo specifico durante la creazione di un elemento di visualizzazione in una visualizzazione del tipo di record. Sono state aggiunte caselle di ricerca quando si crea un filtro, si ordina, si raggruppa o quando si configurano i campi o i colori delle righe. Prima di questo miglioramento, era sufficiente scorrere l’elenco dei campi disponibili.
 
-You can now search for a specific field when building a view element in record type view. The new search boxes have been added when you build a filter, sort, grouping, or when you configure your fields or row colors. Prior to this enhancement, you could simply scroll through the list of available fields.
-This improvement is available in all views.
+Questo miglioramento è disponibile in tutte le visualizzazioni dei tipi di record.
 
-For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).-->
+Per informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 
 ## Tipi di record globali e la possibilità di aggiungerli come tipi di record esistenti ad altre aree di lavoro
@@ -42,8 +42,8 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >[!NOTE]
 >
 >Anteprima: 16 ottobre 2025
->&#x200B;>Versione rapida di produzione: 13 novembre 2025
->&#x200B;>Produzione per tutti: 15 gennaio 2026
+>Versione rapida di produzione: 13 novembre 2025
+>Produzione per tutti: 15 gennaio 2026
 
 Quando si implementa Workfront Planning per un’organizzazione con più team e flussi di lavoro comuni, potrebbe essere necessario definire una struttura coesa e i metadati per i tipi di record chiave (come Campagne o Deliverable) che possono essere aggiunti alle aree di lavoro di ciascun team per acquisire e gestire il proprio lavoro.
 
@@ -66,8 +66,8 @@ Per ulteriori informazioni, consulta i seguenti articoli:
 >[!NOTE]
 >
 >Anteprima: 16 ottobre 2025
->&#x200B;>Versione rapida di produzione: 13 novembre 2025
->&#x200B;>Produzione per tutti: 15 gennaio 2026
+>Versione rapida di produzione: 13 novembre 2025
+>Produzione per tutti: 15 gennaio 2026
 
 È stato introdotto un limite di 30 campi di connessione per ogni tipo di record.
 
@@ -80,8 +80,8 @@ Per ulteriori informazioni, vedere [Panoramica sui tipi di record connessi](/hel
 >[!NOTE]
 >
 >Anteprima: 16 ottobre 2025
->&#x200B;>Versione rapida di produzione: 13 novembre 2025
->&#x200B;>Produzione per tutti: 15 gennaio 2026
+>Versione rapida di produzione: 13 novembre 2025
+>Produzione per tutti: 15 gennaio 2026
 
 Quando si aggiungono scelte di campo a un campo a selezione singola o multipla, Workfront assegnerà valori univoci di facile utilizzo a ciascuna scelta. Prima di questo miglioramento, Workfront generava un ID alfanumerico difficile da comprendere e utilizzare nelle chiamate API e in altre integrazioni.
 
