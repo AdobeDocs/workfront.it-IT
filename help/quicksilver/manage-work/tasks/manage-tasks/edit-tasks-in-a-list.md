@@ -6,9 +6,9 @@ description: È possibile modificare le informazioni sulle attività in un elenc
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '2762'
+source-wordcount: '2903'
 ht-degree: 3%
 
 ---
@@ -17,15 +17,13 @@ ht-degree: 3%
 
 <!-- Audited: 10/2025 -->
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
+Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti a partire da una settimana dalla versione di anteprima.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-</div> 
--->
+</div>
 
 È possibile modificare le informazioni sulle attività in un elenco di attività modificando i campi visualizzati nell&#39;elenco. Per informazioni su altri modi per modificare le attività, vedere [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -509,44 +507,51 @@ Per modificare i task in un elenco quando si utilizza l&#39;opzione Pianificazio
    >Non è possibile modificare le attività in blocco quando si salvano le attività manualmente.
 
 1. Selezionare più attività nell&#39;elenco delle attività.
-   <!--1. <span class="preview">(Optional) Click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then **Recalculate Expressions** to update all information in calculated custom fields.</span> -->
-1. Fai clic sull&#39;icona **Modifica** ![Modifica](assets/qs-edit-icon.png). Viene visualizzata la finestra di dialogo **Modifica attività**.<!--<span class="preview">in the new experience</span>-->
+1. <span class="preview">(Facoltativo) Fare clic sul menu **Altro** ![Altro menu](assets/more-icon.png) nella parte superiore dell&#39;elenco delle attività, quindi **Ricalcola espressioni** per aggiornare tutte le informazioni nei campi personalizzati calcolati.</span>
+1. Fai clic sull&#39;icona **Modifica** ![Modifica](assets/qs-edit-icon.png). La finestra di dialogo **Modifica attività** apre <span class="preview">nella nuova esperienza</span>.
 
    La modifica delle informazioni su tutte le attività è identica alla modifica delle informazioni su un&#39;attività.
-Per ulteriori informazioni sulla modifica di un&#39;attività, vedere [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-   <!--<span class="preview">1. In the new experience, do the following:</span> (******keep the below indented******)
-      1. Specify the information you want to change for all the tasks you selected in any of the following areas: 
+   Per ulteriori informazioni sulla modifica di un&#39;attività, vedere [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+1. <span class="preview">(Condizionale) Nella nuova esperienza, eseguire le operazioni seguenti:</span>
+
+   1. Specificare le informazioni da modificare per tutte le attività selezionate in una delle seguenti aree:
+
       <div class="preview">
-      * Overview
-      * Assignments
-      * Custom Forms
-      * Finance
-      * Settings
-      * Settings
-      * Comment
-      </div>-->
-   <!--<span class="preview">1. Click **Save**.</span>
-   <!--1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the Edit Tasks box.</span>-->
-1. &#x200B;<!--<span class="preview">In the old experience,, do the following:</span> (**********indent the steps below*********)--> Specificare le informazioni da modificare per tutte le attività selezionate in una delle seguenti aree:
 
-   * Panoramica
-   * Impostazioni
-   * Assegnazioni
-   * Moduli personalizzati
-   * Commento
+      * Panoramica
+      * Assegnazioni
+      * Moduli personalizzati
+      * Finanz
+      * Impostazioni
+      * Impostazioni
+      * Commento
 
-     <!-- at release, move the below tip under the first set of bullet points, for the new experience-->
-
-     >[!NOTE]
-     >
-     >* Le informazioni che stai modificando in tutte le attività selezionate sostituiranno le informazioni esistenti sulle singole attività, ad eccezione del campo **Assegnazioni**. L&#39;aggiunta di un nuovo assegnatario nella modifica in blocco aggiungerà l&#39;assegnatario a tutte le attività selezionate. Se alle attività selezionate vengono assegnati altri assegnatari, questi rimarranno assegnati in aggiunta a quelli aggiunti tramite la modifica in blocco.
-     >* Se si desidera modificare la durata dell&#39;attività, le attività selezionate devono avere lo stesso vincolo attività. In caso contrario, il campo **Durata** non viene popolato.
-     >
-     >* Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Se le attività selezionate non hanno moduli personalizzati comuni, in questa sezione non sono elencati moduli.
-     >* È possibile modificare solo i campi dei moduli allegati a tutte le attività selezionate e per i quali si dispone delle autorizzazioni di modifica.  Per informazioni sulla modifica in blocco di moduli personalizzati, vedere [Gestire i moduli personalizzati allegati agli oggetti](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).
+      </div>
 
 
-1. (Facoltativo) Nella sezione **Forms personalizzato**, selezionare l&#39;opzione **Ricalcola espressioni personalizzate** per assicurarsi che tutti i campi personalizzati calcolati presenti nei moduli personalizzati allegati alle attività selezionate siano aggiornati.
-1. Fai clic su **Salva modifiche**. Tutte le modifiche apportate sono ora visibili in tutte le attività selezionate.
+      >[!NOTE]
+      >
+      >* Le informazioni che stai modificando in tutte le attività selezionate sostituiranno le informazioni esistenti sulle singole attività, ad eccezione del campo **Assegnazioni**. L&#39;aggiunta di un nuovo assegnatario nella modifica in blocco aggiungerà l&#39;assegnatario a tutte le attività selezionate. Se alle attività selezionate vengono assegnati altri assegnatari, questi rimarranno assegnati in aggiunta a quelli aggiunti tramite la modifica in blocco.
+      >* Se si desidera modificare la durata dell&#39;attività, le attività selezionate devono avere lo stesso vincolo attività. In caso contrario, il campo **Durata** non viene popolato.
+      >
+      >* Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Se le attività selezionate non hanno moduli personalizzati comuni, in questa sezione non sono elencati moduli.
+      >* È possibile modificare solo i campi dei moduli allegati a tutte le attività selezionate e per i quali si dispone delle autorizzazioni di modifica.  Per informazioni sulla modifica in blocco di moduli personalizzati, vedere [Gestire i moduli personalizzati allegati agli oggetti](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).
+
+   1. <span class="preview">Fai clic su **Salva**.</span>
+   1. <span class="preview">(Facoltativo) Fai clic su **Torna alla vecchia esperienza** nella parte inferiore della casella Modifica attività.</span>
+
+1. <span class="preview">(Condizionale) Nella vecchia esperienza, eseguire le operazioni seguenti:</span>
+
+   1. Specificare le informazioni da modificare per tutte le attività selezionate in una delle seguenti aree:
+
+      * Panoramica
+      * Impostazioni
+      * Assegnazioni
+      * Moduli personalizzati
+      * Commento
+
+   1. (Facoltativo) Nella sezione **Forms personalizzato**, selezionare l&#39;opzione **Ricalcola espressioni personalizzate** per assicurarsi che tutti i campi personalizzati calcolati presenti nei moduli personalizzati allegati alle attività selezionate siano aggiornati.
+   1. Fai clic su **Salva modifiche**. Tutte le modifiche apportate sono ora visibili in tutte le attività selezionate.
 

@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '1826'
+source-wordcount: '2212'
 ht-degree: 1%
 
 ---
@@ -18,15 +18,15 @@ ht-degree: 1%
 
 <!--Audited: 10/2025-->
 
-<!--
-<div class="preview"> 
+<!--remove production/ preview and old/ new experience references at prod-->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+<div class="preview">
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti a partire da una settimana dalla versione di anteprima.
 
-</div> 
--->
+Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+</div>
 
 È possibile assegnare attività a utenti, mansioni o team per indicare chi è responsabile del completamento delle attività. È possibile assegnare un&#39;attività a più risorse contemporaneamente.
 
@@ -236,13 +236,20 @@ Per assegnare le attività in un elenco:
 1. Selezionare più attività nell&#39;elenco delle attività.
 1. Fai clic su **Modifica**.
 
-   Viene visualizzata la finestra di dialogo **Modifica attività**.<!--<span class="preview">in the new experience</span>-->
+   La finestra di dialogo **Modifica attività** apre <span class="preview">nella nuova esperienza.</span>
 
-   <!--1. Continue assigning the tasks <span class="preview">using the new experience</span>. <span class="preview">For more information, see the section Assign multiple tasks in bulk from a list in the new experience in this article.</span> (^^^^^^^^^^^^add anchor here at release^^^^^^^^^^^^) -->
+1. Continua ad assegnare le attività <span class="preview">utilizzando la nuova esperienza.</span>
 
-   <!--1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the Edit Tasks box.</span> -->
+   <span class="preview">Per ulteriori informazioni, vedere la sezione [Assegnare più attività in blocco da un elenco nella nuova esperienza](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) in questo articolo.</span>
 
-1. Nell&#39;area **Assegnazioni** selezionare la casella **Assegnatario**, quindi iniziare a digitare il nome di un utente, una mansione o un team che si desidera assegnare a tutte le attività.
+1. <span class="preview">(Facoltativo) Fai clic su **Torna alla vecchia esperienza** nella parte inferiore della casella **Modifica attività** per aprire la vecchia esperienza.</span>
+
+   >[!TIP]
+   >
+   >L’assegnazione di attività nell’ambiente di produzione è disponibile solo per la vecchia esperienza.
+
+
+1. (Condizionale) Utilizzando la vecchia esperienza, nell&#39;area **Assegnazioni**, seleziona la casella **Assegnatario**, quindi inizia a digitare il nome di un utente, una mansione o un team che desideri assegnare a tutte le attività.
 
    >[!IMPORTANT]
    >
@@ -271,53 +278,51 @@ Per assegnare le attività in un elenco:
 1. Fai clic su **Salva modifiche**.
 1. (Facoltativo e condizionale) Quando i campi Assegnato a o Assegnazioni vengono visualizzati nell&#39;elenco delle attività, fare clic all&#39;interno di una di queste colonne per un&#39;attività, quindi fare clic sull&#39;icona **X** accanto al nome di un assegnatario per rimuoverlo dall&#39;attività.
 
-<!--
+
 <div class="preview">
 
-### Assign multiple tasks in bulk from a list in the new experience
+### Assegnare più attività in blocco da un elenco nella nuova esperienza
 
-1. Go to a list of tasks that you want to assign in bulk in the Preview environment. 
-1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.
-
-   >[!IMPORTANT]
-   >
-   >You cannot edit tasks in bulk when saving tasks manually on a project.
-
-1. Select several tasks in the tasks list. 
-1. Click **Edit**.
-
-   The **Edit Tasks** dialog box opens.
-
-1. In the **Assignments** area, start typing the name of users, teams, or roles in the **Search people, roles, or teams** field provided, then click them when they display in the list
-
-   Or 
-
-   Click **Assign to me** to assign it to yourself.
+1. Consente di passare a un elenco di attività che si desidera assegnare in blocco nell&#39;ambiente di anteprima.
+1. (Condizionale) Verificare che l&#39;opzione **Salvataggio automatico** sia selezionata se ci si trova in un elenco di attività di un progetto.
 
    >[!IMPORTANT]
    >
-   >If any of the tasks is already assigned, the resources you indicate here are added to the tasks instead of replacing the existing resources on the tasks.
+   >Non è possibile modificare le attività in blocco quando si salvano le attività manualmente in un progetto.
 
-1. Click inside the **Duration Type** field and choose a Duration Type. 
+1. Selezionare più attività nell&#39;elenco delle attività.
+1. Fai clic su **Modifica**.
 
-   For information about Duration Type on tasks, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   Viene visualizzata la finestra di dialogo **Modifica attività**.
 
-1. (Conditional) Depending on what **Duration Type** you selected, update the following fields: 
+1. Nell&#39;area **Assegnazioni**, inizia a digitare il nome di utenti, team o ruoli nel campo **Cerca persone, ruoli o team** fornito, quindi fai clic su di essi quando vengono visualizzati nell&#39;elenco
 
-   * Duration
-   * Planned Hours
+   Oppure
 
-      For more information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). 
+   Fai clic su **Assegna a me** per assegnarlo a te stesso.
 
-1. (Optional) If you want to remove existing assignees from all tasks, click the **x** next to their name in the **Search people, roles, or teams** field.
+   >[!IMPORTANT]
+   >
+   >Se una delle attività è già assegnata, le risorse indicate in questo campo vengono aggiunte alle attività anziché sostituire le risorse esistenti sulle attività.
 
-1. Click **Save**.
-1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of tasks, click inside one of these columns for a task, then click the **X icon** next to the name of an assignee to remove it from the task.
+1. Fai clic nel campo **Tipo di durata** e scegli un Tipo di durata.
+
+   Per informazioni sul Tipo di Durata per le attività, vedere [Panoramica sulla Durata dell&#39;Attività e sul Tipo di Durata](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+1. (Condizionale) A seconda del **Tipo di durata** selezionato, aggiorna i campi seguenti:
+
+   * Durata
+   * Lavoro Necessario
+
+     Per ulteriori informazioni, vedere [Modifica attività](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+
+1. (Facoltativo) Se desideri rimuovere assegnatari esistenti da tutte le attività, fai clic su **x** accanto al nome nel campo **Cerca persone, ruoli o team**.
+
+1. Fai clic su **Salva**.
+1. (Facoltativo e condizionale) Quando i campi **Assegnato a** o **Assegnazioni** vengono visualizzati nell&#39;elenco delle attività, fare clic all&#39;interno di una di queste colonne per un&#39;attività, quindi fare clic sull&#39;icona **X** accanto al nome di un assegnatario per rimuoverla dall&#39;attività.
 
 
 </div>
--->
-
 
 
 <!--

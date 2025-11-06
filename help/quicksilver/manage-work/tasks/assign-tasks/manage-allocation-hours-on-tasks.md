@@ -6,9 +6,9 @@ description: Quando si assegnano utenti o ruoli a un’attività, questi vengono
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -17,17 +17,20 @@ ht-degree: 0%
 
 <!--Audited: 10/2025-->
 
-<!--
-<div class="preview"> 
+<!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+<div class="preview">
 
-</div> 
--->
+Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti a partire da una settimana dalla versione di anteprima.
+
+Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+</div>
 
 Le ore di allocazione rappresentano la quantità totale di tempo per cui una risorsa assegnata deve lavorare su un&#39;attività. Le ore rappresentano il tempo allocato da un utente a un determinato giorno o giorno feriale, settimana o mese per l&#39;intera durata dell&#39;attività.
+
+È possibile modificare le ore di allocazione quando si effettuano assegnazioni avanzate per un&#39;attività.
 
 >[!NOTE]
 >
@@ -58,7 +61,7 @@ Le ore di allocazione rappresentano la quantità totale di tempo per cui una ris
   <tr> 
    <td>Autorizzazioni oggetto</td>
    <td><p>Autorizzazioni di contribuzione o di livello superiore per l'attività</p>
-   <p>Modificare le autorizzazioni per aggiornare le ore di allocazione nella casella Modifica attività</p></td>
+   <p>Modificare le autorizzazioni per aggiornare le ore di allocazione nella casella Modifica attività quando si modificano le attività <span class="preview"> utilizzando l'esperienza precedente. Non è più possibile gestire le ore di allocazione nella casella Modifica attività durante la modifica delle attività nella nuova esperienza.</span></p> <p>Per informazioni, vedere <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Modifica attività</a></p>.</td>
   </tr>
  </tbody>
 </table>
@@ -67,12 +70,10 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-<!--
-Change this sentence in the table when unshimmming assignments on Edit task:
-<p>Edit permissions to update allocation hours in the Edit Task box</p>
-To this:
-<p>Edit permissions to update allocation hours in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.
--->
+<!--Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
+
+<p>Edit permissions to update allocation hours in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.-->
+
 
 ## Considerazioni sulla modifica delle ore di allocazione per un&#39;attività
 
@@ -95,14 +96,9 @@ To this:
 ## Modificare le ore di allocazione utente o ruolo per un&#39;attività
 
 1. Passare a un&#39;attività per la quale si desidera modificare le ore di allocazione.
-1. Fai clic sul menu **Altro** ![](assets/qs-more-icon-on-an-object.png) accanto al nome dell&#39;attività, quindi fai clic su **Modifica**, quindi su **Assegnazioni**.
-
-   Oppure
-
-   Fai clic sull&#39;area **Assegnazioni** nell&#39;intestazione dell&#39;attività, quindi fai clic su **Avanzate**.
-
+1. Fai clic sull&#39;area **Assegnazioni** nell&#39;intestazione dell&#39;attività, quindi fai clic su **Avanzate**.
 1. Assicurarsi che il **Tipo di durata** dell&#39;attività sia **Semplice**.
-1. Modifica le **Allocazioni** per ogni assegnatario dell&#39;attività. Si tratta delle allocazioni complessive per ogni assegnazione a questa attività, per l&#39;intera durata dell&#39;attività. Questo potrebbe anche aggiornare le ore pianificate complessive dell&#39;attività.
+1. Modifica il campo **Allocazioni** per ogni assegnatario dell&#39;attività. Si tratta delle allocazioni complessive per ogni assegnazione a questa attività, per l&#39;intera durata dell&#39;attività. Questo potrebbe anche aggiornare le **ore pianificate** complessive dell&#39;attività.
 
    ![Modifica allocazioni](assets/advanced-assignments-duration-type-allocations.png)
 

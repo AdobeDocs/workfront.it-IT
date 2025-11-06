@@ -7,7 +7,7 @@ description: Dopo aver creato un modello, è possibile modificare le informazion
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
 source-wordcount: '4716'
 ht-degree: 4%
@@ -576,35 +576,35 @@ Dopo aver aperto la casella **Modifica attività modello** nella nuova esperienz
    Fai clic su **Assegna a me** per assegnare l&#39;attività modello a te stesso.
 1. Prendi in considerazione l’aggiornamento delle seguenti informazioni:
 
-<table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody>
+   <table style="table-layout:auto"> 
+      <col> 
+      <col> 
+      <tbody>
 
-<tr> 
-      <td role="rowheader"><strong>Tipo di Durata</strong> </td> 
-      <td> <p>L'attività futura creata da questo modello avrà questo Tipo di Durata. <br>Il tipo di durata identifica la relazione tra:</p> 
-      <ul>
-      <li><p>Numero di risorse assegnate a un'attività</p> </li>
-      <li><p>Lo sforzo totale richiesto per completare l'attività</p></li> 
-      <li><p>Durata totale dell'attività </p></li></ul> <p>Utilizzando i tipi di durata è possibile impostare assegnazioni di risorse coerenti in base alle esigenze dell'attività. Per ulteriori informazioni sul tipo di durata di un'attività, vedere <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sulla durata e sul tipo di durata dell'attività</a>.</p> <p>Selezionare una delle opzioni seguenti:</p> 
-       <ul> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Assegnazione calcolata</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Lavoro Calcolato</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Basato Sulle Risorse</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Semplice</span> <br> </p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Durata</strong> </td> 
-      <td> <p>Specificare la Durata delle attività future in minuti, ore, giorni, settimane o mesi. La durata dell'attività futura creata da questo modello sarà specificata qui.</p> <p>Per impostazione predefinita, Workfront misura la durata in giorni. Questo è il tempo che si consente all'attività di rimanere incompleta, prima che debba essere completata. Impossibile specificare la durata di un'attività quando il <strong>Tipo di durata</strong> dell'attività è <strong>Semplice</strong> o quando il <strong>Vincolo attività</strong> è <strong>Date fisse</strong>.</p> <p><b>IMPORTANTE</b></p> <p>La durata è in genere il tempo che intercorre tra l'inizio pianificato e le date di completamento pianificate di un'attività modello e, per questo motivo, influisce sulla sequenza temporale del modello. Questo determina la timeline del progetto futuro creato dal modello. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Ore pianificate</strong> </td> 
-      <td> <p>Specifica il numero di ore pianificate per l'attività futura nel progetto creato con questo modello. Quantità di tempo effettivo necessario agli assegnatari per completare l'attività. È possibile specificare solo il numero di ore pianificate per un'attività quando <strong>Tipo di durata</strong> è impostato su <strong>Assegnazione calcolata</strong>. </p> </td> 
-     </tr> 
-  </tbody> 
-   </table>
+   <tr> 
+         <td role="rowheader"><strong>Tipo di Durata</strong> </td> 
+         <td> <p>L'attività futura creata da questo modello avrà questo Tipo di Durata. <br>Il tipo di durata identifica la relazione tra:</p> 
+         <ul>
+         <li><p>Numero di risorse assegnate a un'attività</p> </li>
+         <li><p>Lo sforzo totale richiesto per completare l'attività</p></li> 
+         <li><p>Durata totale dell'attività </p></li></ul> <p>Utilizzando i tipi di durata è possibile impostare assegnazioni di risorse coerenti in base alle esigenze dell'attività. Per ulteriori informazioni sul tipo di durata di un'attività, vedere <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sulla durata e sul tipo di durata dell'attività</a>.</p> <p>Selezionare una delle opzioni seguenti:</p> 
+         <ul> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Assegnazione calcolata</span> </p> </li> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Lavoro Calcolato</span> </p> </li> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Basato Sulle Risorse</span> </p> </li> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Semplice</span> <br> </p> </li> 
+         </ul> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Durata</strong> </td> 
+         <td> <p>Specificare la Durata delle attività future in minuti, ore, giorni, settimane o mesi. La durata dell'attività futura creata da questo modello sarà specificata qui.</p> <p>Per impostazione predefinita, Workfront misura la durata in giorni. Questo è il tempo che si consente all'attività di rimanere incompleta, prima che debba essere completata. Impossibile specificare la durata di un'attività quando il <strong>Tipo di durata</strong> dell'attività è <strong>Semplice</strong> o quando il <strong>Vincolo attività</strong> è <strong>Date fisse</strong>.</p> <p><b>IMPORTANTE</b></p> <p>La durata è in genere il tempo che intercorre tra l'inizio pianificato e le date di completamento pianificate di un'attività modello e, per questo motivo, influisce sulla sequenza temporale del modello. Questo determina la timeline del progetto futuro creato dal modello. </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Ore pianificate</strong> </td> 
+         <td> <p>Specifica il numero di ore pianificate per l'attività futura nel progetto creato con questo modello. Quantità di tempo effettivo necessario agli assegnatari per completare l'attività. È possibile specificare solo il numero di ore pianificate per un'attività quando <strong>Tipo di durata</strong> è impostato su <strong>Assegnazione calcolata</strong>. </p> </td> 
+      </tr> 
+   </tbody> 
+      </table>
 
 1. (Facoltativo) Continua a modificare le sezioni seguenti, a seconda delle informazioni che desideri modificare.
 

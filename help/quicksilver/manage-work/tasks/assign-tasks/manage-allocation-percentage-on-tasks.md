@@ -6,26 +6,29 @@ description: La percentuale di allocazione rappresenta la quantità di tempo in 
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '509'
 ht-degree: 1%
 
 ---
 
 # Gestire la percentuale di allocazione di utenti o ruoli sulle attività
 
-<!--
-<div class="preview"> 
+<!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+<div class="preview">
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti a partire da una settimana dalla versione di anteprima.
 
-</div> 
--->
+Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+</div>
+
 
 La percentuale di allocazione rappresenta la quantità di tempo in cui una risorsa assegnata deve lavorare su un&#39;attività in un giorno. Rappresenta la percentuale di un giorno lavorativo (in base alla programmazione dell&#39;utente o del progetto) in cui una risorsa viene allocata per l&#39;intera durata dell&#39;attività.
+
+È possibile modificare la percentuale di allocazione quando si effettuano assegnazioni avanzate per un&#39;attività.
 
 >[!NOTE]
 >
@@ -56,7 +59,7 @@ La percentuale di allocazione rappresenta la quantità di tempo in cui una risor
   <tr> 
    <td>Autorizzazioni oggetto</td>
    <td><p>Autorizzazioni di contribuzione o di livello superiore per l'attività</p>
-   <p>Modificare le autorizzazioni per aggiornare la percentuale di allocazione nella casella Modifica attività</p></td>
+   <p>Modificare le autorizzazioni per aggiornare la percentuale di allocazione nella casella Modifica attività quando <span class="preview"> modifica attività utilizzando l'esperienza precedente. Non è più possibile gestire la percentuale di allocazione nella casella Modifica attività durante la modifica delle attività nella nuova esperienza.</span></p> <p>Per informazioni, vedere <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Modifica attività</a></p>.</td>
   </tr>
  </tbody>
 </table>
@@ -66,9 +69,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 +++
 
 <!--
-Change this sentence in the table when unshimmming assignments on Edit task:
-<p>Edit permissions to update allocation percentage in the Edit Task box</p>
-To this:
+Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
+
 <p>Edit permissions to update allocation percentage in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation percentage in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.
 -->
 
@@ -85,11 +87,7 @@ To this:
 ## Modificare l&#39;allocazione percentuale di utenti o ruoli per un&#39;attività
 
 1. Passare a un&#39;attività per la quale si desidera modificare la percentuale di allocazione delle risorse.
-1. Fai clic sul menu **Altro** ![](assets/qs-more-icon-on-an-object.png) accanto al nome dell&#39;attività, quindi fai clic su **Modifica**.
-
-   Oppure
-
-   Fai clic sull&#39;area **Assegnazioni** nell&#39;intestazione dell&#39;attività, quindi fai clic su **Avanzate**.
+1. Fai clic sull&#39;area **Assegnazioni** nell&#39;intestazione dell&#39;attività, quindi fai clic su **Avanzate**.
 
 1. Assicurati che il **Tipo di durata** dell&#39;attività sia uno dei seguenti:
 
@@ -101,7 +99,7 @@ To this:
    >* Per il tipo di durata dell&#39;assegnazione calcolata, Workfront utilizza la formula seguente per calcolare la percentuale di allocazione di ciascun assegnatario: `Allocation Percentage = (Work Required / Number of days in the Duration) / Number of hours per work day / Number of assignees`.
    >* Per il tipo di durata semplice, è possibile stimare le ore assegnate a ciascuna risorsa, non la percentuale di allocazione.
 
-1. Fai clic su **Assegnazioni**, quindi modifica le **Allocazioni** per ogni assegnatario dell&#39;attività.
+1. Modifica il campo **Allocazioni** per ogni assegnatario dell&#39;attività.
 
    È possibile modificare solo la percentuale di allocazione per le assegnazioni utente e ruolo.
 
