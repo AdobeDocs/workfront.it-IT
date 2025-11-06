@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '1731'
+source-wordcount: '1366'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 <!--Audited: 10/2024-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti a partire da una settimana dalla versione di anteprima.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Puoi assegnare i problemi a utenti, ruoli e team per indicare chi è responsabile del completamento dei problemi. Per informazioni generali sull&#39;assegnazione dei problemi, vedere [Panoramica sulla modifica delle assegnazioni dei problemi](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -202,36 +202,39 @@ Per informazioni, vedere la sezione &quot;Assegnazioni&quot; nell&#39;articolo [
 
 ## Assegna problemi in blocco
 
-L’assegnazione in blocco dei problemi varia a seconda dell’ambiente scelto.
+<!--
+Assigning issues in bulk is different depending on what environment you choose to do this. 
 
-### Assegnazione di problemi in blocco nell’ambiente di produzione
+### Assign issues in bulk in the Production environment 
 
-1. Passare a un elenco di problemi che si desidera assegnare in blocco.
-1. Seleziona diversi problemi nell’elenco.
-1. Fai clic sull&#39;icona **Modifica** ![Modifica](assets/qs-edit-icon.png).
+1. Go to a list of issues that you want to assign in bulk. 
+1. Select several issues in the list. 
+1. Click the **Edit icon** ![Edit icon](assets/qs-edit-icon.png).
 
-   Viene visualizzata la finestra di dialogo **Modifica problemi**.
+   The **Edit Issues** dialog box opens.
 
-1. Nell&#39;area **Assegnazioni**, selezionare la casella **Assegnatario**, quindi iniziare a digitare il nome di un utente, una mansione o un team che si desidera assegnare a tutti i problemi.
+1. In the **Assignments** area, select the **Assignee** box, then start typing the name of a user, job role, or team that you want to assign to all the issues.
 
    >[!IMPORTANT]
    >
-   >Se uno dei problemi è già assegnato, le risorse indicate qui vengono aggiunte ai problemi invece di sostituire le risorse esistenti sui problemi.
+   >If any of the issues is already assigned, the resources you indicate here are added to the issues instead of replacing the existing resources on the issues. 
+   
+1. (Optional) Select the radio button in the **Issue Owner** column to indicate which resource is the primary assignee or the Owner of the issue, when you assign more than one resource to the issue. This is not available for teams. 
+1. (Optional) Select a role that the user should fulfill on the issue from the **Pick a role** drop-down menu in the **Assignee's Role** column when you assign users to issues. If you do not select a role, Workfront automatically selects the user's Primary Role. 
 
-1. (Facoltativo) Seleziona il pulsante di opzione nella colonna **Proprietario problema** per indicare quale risorsa è l&#39;assegnatario principale o il proprietario del problema, quando assegni più di una risorsa al problema. Questa funzione non è disponibile per i team.
-1. (Facoltativo) Seleziona un ruolo che l&#39;utente deve svolgere sul problema dal menu a discesa **Scegli un ruolo** nella colonna **Ruolo dell&#39;assegnatario** quando assegni gli utenti ai problemi. Se non si seleziona un ruolo, Workfront seleziona automaticamente il ruolo principale dell&#39;utente.
+1. (Optional) If you want to remove existing assignees from all issues do one of the following:
 
-1. (Facoltativo) Se desideri rimuovere gli assegnatari esistenti da tutti i problemi, effettua una delle seguenti operazioni:
+   1. Start typing the name of a user, role, or team you want to remove from the issue, then select it when it appears on the list and click **Remove Assignee** to add additional assignees to remove. 
+   1. Click **Remove All Existing Assignees** to remove all assignees from all selected issues.
 
-   1. Inizia a digitare il nome di un utente, una mansione o un team che desideri rimuovere dal problema, quindi selezionalo quando viene visualizzato nell&#39;elenco e fai clic su **Rimuovi assegnatario** per aggiungere altri assegnatari da rimuovere.
-   1. Fare clic su **Rimuovi tutti gli assegnatari esistenti** per rimuovere tutti gli assegnatari da tutti i problemi selezionati.
-
-1. Fai clic su **Salva modifiche**.
-1. (Facoltativo e condizionale) Quando i campi Assegnato a o Assegnazioni vengono visualizzati nell&#39;elenco dei problemi, fai clic all&#39;interno di una di queste colonne per segnalare un problema, quindi fai clic sull&#39;icona **X** accanto al nome di un assegnatario per rimuoverlo dal problema.
+1. Click **Save Changes**.
+1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of issues, click inside one of these columns for an issue, then click the **X icon** next to the name of an assignee to remove it from the issue.
 
 <div class="preview">
 
-### Assegnare problemi in blocco nell’ambiente di anteprima
+### Assign issues in bulk in the Preview environment
+
+-->
 
 1. Passare a un elenco di problemi che si desidera assegnare in blocco.
 1. Seleziona diversi problemi nell’elenco.
@@ -251,10 +254,9 @@ L’assegnazione in blocco dei problemi varia a seconda dell’ambiente scelto.
 
 1. (Facoltativo) Se vuoi rimuovere assegnatari esistenti da tutti i problemi, fai clic su **x** accanto al loro nome.
 
-1. (Facoltativo) Aggiorna il campo Ore pianificate. Per ulteriori informazioni, vedere [Modifica problemi](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
+1. (Facoltativo) Aggiorna il campo P **Ore pianificate**. Per ulteriori informazioni, vedere [Modifica problemi](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
 
 1. Fai clic su **Salva**.
-1. (Facoltativo e condizionale) Quando i campi Assegnato a o Assegnazioni vengono visualizzati nell&#39;elenco dei problemi, fai clic all&#39;interno di una di queste colonne per segnalare un problema, quindi fai clic sull&#39;icona **X** accanto al nome di un assegnatario per rimuoverlo dal problema.
+1. (Facoltativo e condizionale) Quando i campi **Assegnato a** o **Assegnazioni** vengono visualizzati nell&#39;elenco dei problemi, fai clic su una di queste colonne per segnalare un problema, quindi fai clic sull&#39;icona **X** accanto al nome di un assegnatario per rimuoverlo dal problema.
 
-</div>
 

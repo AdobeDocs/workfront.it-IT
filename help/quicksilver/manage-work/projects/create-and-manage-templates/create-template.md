@@ -6,16 +6,24 @@ description: È possibile creare ed eliminare modelli dall'area Modelli. Durante
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 46133f435c665dd82d134f18d0b5de4e70bab7d7
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 5%
+source-wordcount: '779'
+ht-degree: 6%
 
 ---
 
 # Creare un modello di progetto
 
 <!-- Audited: 10/2025 -->
+
+<div class="preview">
+
+Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti a partire da una settimana dalla versione di anteprima.
+
+Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+</div>
 
 È possibile creare ed eliminare modelli dall&#39;area Modelli. Durante la creazione di un nuovo modello, è possibile immettere le informazioni per tutte le attività e per le impostazioni di progetto future. Queste informazioni verranno quindi trasferite a qualsiasi progetto creato dal modello.
 
@@ -112,23 +120,32 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    ![Casella Attività nuovo modello](assets/new-template-task-box.png)
 
-   <!--<span class="preview">The Create Template Task opens in the new experience.</span>-->
+   <span class="preview">La **casella Crea attività modello** si apre nella nuova esperienza.</span>
 
-   <!--
-   1. <span class="preview">(Conditional) Using the new experience, update information in the following areas in the **Create Template Task** box:</span>
+1. <span class="preview">(Condizionale) Utilizzando la nuova esperienza, aggiorna le informazioni nelle seguenti aree nella casella **Crea attività modello**:</span>
+
    <div class="preview">
-   * Template Task Name
-   * Overview
-   * Assignments
-   * Finance
-   * Custom Forms
-   * Documents
-   * Settings 
+
+   * Nome Attività Modello
+   * Panoramica
+   * Assegnazioni
+   * Finanz
+   * Moduli personalizzati
+   * Documenti
+   * Impostazioni
+
    </div>
-   1. Click **Save**
-   Or (*******remove the 1. from the step below and continue with those steps here*********)
-   1. (Optional) Click **Switch back to old experience** at the bottom of the **Create Template Task** box.
-   The **New Template Task** opens. (************add screen shot***********)-->
+
+1. Fai clic su **Crea attività modello**
+
+   Oppure
+
+   <span class="preview">Fai clic su **Torna alla vecchia esperienza** nella parte inferiore della casella **Crea attività modello**.</span>
+   <span class="preview">La **nuova attività modello** si apre con la vecchia esperienza.</span>
+
+   >[!TIP]
+   >
+   >In Produzione, per impostazione predefinita viene aperta la vecchia esperienza.
 
 1. Aggiorna le informazioni nelle seguenti aree nella casella **Nuova attività modello**:
 
@@ -148,7 +165,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. Fare clic su una delle seguenti opzioni:
 
    * **Salva attività modello** per salvare l&#39;attività modello corrente e chiude la casella Nuova attività modello.
-   * **Salva attività modello e avviane un&#39;altra** per salvare l&#39;attività modello corrente e aprire un&#39;altra casella Nuova attività modello per aggiungere un&#39;altra attività.
+   * **Salva attività modello e avviane un&#39;altra** per salvare l&#39;attività modello corrente e aprire un&#39;altra **nuova attività modello** per aggiungere un&#39;altra attività.
    * **Annulla** per chiudere la casella senza salvare l&#39;attività modello.
 1. (Facoltativo) Dopo aver aggiunto le attività modello, nella sezione Attività modello, fai clic sull&#39;icona **Grafico di Gantt** nell&#39;angolo superiore destro dell&#39;Elenco attività per visualizzare una rappresentazione visiva dell&#39;elenco delle attività del modello.
 

@@ -6,20 +6,19 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '3401'
+source-wordcount: '3500'
 ht-degree: 2%
 
 ---
 
 # Gestire la vista tabella
 
-<!--
 
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -192,7 +191,7 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
 
    Le colonne aggiunte sono visibili a tutti gli utenti che accedono al tipo di record e vengono aggiunte come nuovi campi nella pagina del record.
 
-1. (Facoltativo) Fai clic sull&#39;icona **Campi** ![Icona Campi](assets/fields-icon.png) nella barra degli strumenti, individua il campo nell&#39;elenco <!--or <span class="preview"> search for a field</span>,--> e deseleziona l&#39;opzione a destra del nome del campo per nascondere il campo.
+1. (Facoltativo) Fai clic sull&#39;icona **Campi** ![Icona Campi](assets/fields-icon.png) nella barra degli strumenti, individua il campo nell&#39;elenco o <span class="preview"> cerca un campo</span> e deseleziona l&#39;opzione a destra del nome del campo per nascondere il campo.
 
 1. Per riordinare le colonne della tabella, effettuare una delle seguenti operazioni:
 
@@ -312,9 +311,7 @@ Per aggiungere un filtro a una vista tabella:
 1. Seleziona una vista tabella, quindi fai clic su **Filtri** nell&#39;angolo superiore destro della tabella.
 1. Fai clic su **Aggiungi condizione** e aggiungi le seguenti informazioni:
 
-   * **Selezionare un campo** da filtrare per <!-- the tip below might change-->
-
-     <!--replace the bullet above with this at preview release: <span class="preview">Search for a field or </span> click the drop-down menu to display a list of fields and select it from the list-->
+   * <span class="preview">Cercare un campo o </span> fare clic sul menu a discesa per visualizzare un elenco di campi e selezionarlo dall&#39;elenco.
 
    * **Seleziona un&#39;opzione** (o un modificatore di filtro) per definire il tipo di condizione che il campo deve soddisfare
 
@@ -545,9 +542,7 @@ To sort grouped records:
 
 1. (Facoltativo) Fai clic su **Colori riga** per definire le condizioni e scegliere di configurare colori diversi per le righe della tabella.
 
-1. Fare clic su **Aggiungi colore**, quindi su **Seleziona un campo** di cui si desidera determinare il colore di una riga.
-
-   <!--replace the text for this step above with this at preview release: Click **Add color**, then <span class="preview">search for a field or </span> click the drop-down menu to display a list of fields and select it from the list. This is the field whose value you want to determine the color of a row.-->
+1. Fai clic su **Aggiungi colore**, quindi su <span class="preview">Cerca un campo o su </span> fai clic sul menu a discesa per visualizzare un elenco di campi e selezionarlo dall&#39;elenco. Campo di cui si desidera determinare il colore di una riga.
 
    Ad esempio, per visualizzare le campagne con lo stato Attivo in verde, seleziona **Stato**, quindi scegli un modificatore e un valore per il campo.
 

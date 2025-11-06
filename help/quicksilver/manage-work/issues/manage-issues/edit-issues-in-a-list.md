@@ -6,9 +6,9 @@ description: È possibile modificare un singolo problema oppure modificare i pro
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '875'
 ht-degree: 1%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 1%
 <!--Audited: 10/2025-->
 
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti a partire da una settimana dalla versione di anteprima.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 È possibile modificare un singolo problema oppure modificare i problemi in un elenco di problemi o in un report. Questo articolo descrive come modificare i problemi negli elenchi.
 
@@ -172,15 +172,11 @@ Per modificare i problemi in blocco:
 
    La modifica delle informazioni su tutti i problemi è identica alla modifica delle informazioni su un problema quando si modificano le aree seguenti:
 
-   <div class="preview">
-
    * Panoramica
    * Assegnazioni
    * Moduli personalizzati
    * Impostazioni
    * Commento
-
-   </div>
 
    Per ulteriori informazioni sulla modifica di un problema, vedere [Modifica problemi](../../../manage-work/issues/manage-issues/edit-issues.md).
 
@@ -194,16 +190,16 @@ Per modificare i problemi in blocco:
 
    È possibile modificare solo i campi dei moduli allegati a tutti i problemi selezionati e per i quali si dispone delle autorizzazioni di modifica.
 
-1. (Facoltativo e condizionale) A seconda dell’ambiente utilizzato per modificare i problemi, effettua una delle seguenti operazioni per ricalcolare le espressioni personalizzate per tutti i problemi:
+   <!--1. In the Production environment, in the **Custom Forms** area, select the **Recalculate Custom Expressions** option to ensure that all Calculated Custom Fields that are on the Custom Forms attached to the issues selected are up to date.-->
 
-   1. Nell&#39;ambiente di produzione, nell&#39;area **Forms personalizzato**, selezionare l&#39;opzione **Ricalcola espressioni personalizzate** per assicurarsi che tutti i campi personalizzati calcolati nel Forms personalizzato associati ai problemi selezionati siano aggiornati.
+1. Fai clic su **Salva**.
 
-   1. <span class="preview">Nell&#39;ambiente di anteprima, con tutti i problemi selezionati nell&#39;elenco, fare clic sul menu **Altro** ![Altro](assets/more-icon.png) nella parte superiore dell&#39;elenco dei problemi, quindi fare clic su **Ricalcola espressioni**. </span>
+   Tutte le modifiche apportate sono ora visibili su tutti i problemi selezionati.
+
+1. (Facoltativo) Con tutti i problemi selezionati nell&#39;elenco, fai clic sul menu **Altro** ![Altro menu](assets/more-icon.png) nella parte superiore dell&#39;elenco dei problemi, quindi fai clic su **Ricalcola espressioni**.
 
    >[!IMPORTANT]
    >
    >È consigliabile non selezionare più di 500 problemi alla volta quando si ricalcolano le espressioni personalizzate.
 
-1. Fai clic su **Salva modifiche**.
 
-   Tutte le modifiche apportate sono ora visibili su tutti i problemi selezionati.
