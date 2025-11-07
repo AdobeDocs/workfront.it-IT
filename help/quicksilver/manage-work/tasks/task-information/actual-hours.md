@@ -7,9 +7,9 @@ description: Le ore di accesso agli elementi di lavoro in Adobe Workfront sono c
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1276'
 ht-degree: 0%
 
 ---
@@ -93,8 +93,10 @@ A seconda dell’area di Workfront da cui accedi alle ore effettive, potrebbe fa
 
 * Nei report ed elenchi relativi a progetti, attività e problemi:
 
-   * **Ore effettive**: ore registrate per progetto, attività o problemi dopo maggio 2021. Sono archiviati nel database di Workfront in ore e il valore del campo è `actualWorkRequiredDouble`.
-   * **Ore effettive legacy**: ore registrate per progetti, attività o problemi in qualsiasi momento, anche prima di maggio 2021. Sono archiviati nel database di Workfront come minuti e il valore del campo è `actualWorkRequired`.
+   * **Ore effettive**: ore registrate per progetto, attività o problemi tra maggio 2021 e oggi. Sono archiviati nel database di Workfront in ore e il valore del campo è `actualWorkRequiredDouble`.
+   * **Ore effettive legacy**: ore registrate per progetti, attività o problemi in qualsiasi momento, tra qualsiasi data prima di maggio 2021 e oggi. Sono archiviati nel database di Workfront come minuti e il valore del campo è `actualWorkRequired`.
+
+     Le ore registrate al momento aggiorneranno sia le ore effettive che quelle legacy.
 
      >[!IMPORTANT]
      >
@@ -102,12 +104,14 @@ A seconda dell’area di Workfront da cui accedi alle ore effettive, potrebbe fa
 
 * Nell’area Dettagli progetto, attività o problema, le ore effettive potrebbero essere visualizzate nei campi seguenti:
 
-   * **Ore effettive**: nella scheda Dettagli sono le ore registrate per progetti, attività o problemi dopo maggio 2021. Sono archiviati nel database di Workfront in ore e il valore del campo è `actualWorkRequiredDouble`.
-   * **Ore effettive**: in un modulo personalizzato per progetto, attività o problema, quando si accede a tali moduli utilizzando un campo personalizzato di riferimento del campo nativo che fa riferimento al campo nativo Ore effettive. Si tratta delle ore registrate per progetti, attività o problemi dopo maggio 2021. Sono archiviati nel database di Workfront in ore e il valore del campo è `actualWorkRequiredDouble`.
+   * **Ore effettive**: nella scheda Dettagli sono le ore registrate per progetti, attività o problemi tra maggio 2021 e oggi. Sono archiviati nel database di Workfront in ore e il valore del campo è `actualWorkRequiredDouble`.
+   * **Ore effettive**: in un modulo personalizzato per progetto, attività o problema, quando si accede a tali moduli utilizzando un campo personalizzato di riferimento del campo nativo che fa riferimento al campo nativo Ore effettive. Si tratta delle ore registrate per progetti, attività o problemi tra qualsiasi data prima di maggio 2021 e oggi. Sono archiviati nel database di Workfront in ore e il valore del campo è `actualWorkRequiredDouble`.
+
+     Le ore registrate al momento aggiorneranno sia le ore effettive che quelle legacy.
 
 >[!NOTE]
 >
->Si consiglia di utilizzare il campo Ore effettive quando possibile, perché il campo Ore effettive legacy potrebbe visualizzare ore non accurate a causa del modo in cui gli incrementi vengono arrotondati.
+>Si consiglia di utilizzare il campo Ore effettive quando possibile, perché il campo Ore effettive legacy potrebbe visualizzare ore non accurate a causa del modo in cui gli incrementi vengono arrotondati quando le ore sono memorizzate in minuti.
 
 ## Ore effettive per attività e problemi rispetto alle ore effettive per i progetti
 

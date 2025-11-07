@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: grant-and-request-access-to-objects
 title: Concedere l’accesso agli oggetti nell’area Home
 description: Gli utenti possono richiedere l’accesso agli oggetti all’interno di Adobe Workfront. Per ulteriori informazioni sulla richiesta di accesso, vedere Richiedere l'accesso agli oggetti.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 1%
@@ -88,7 +88,7 @@ Puoi configurare la ricezione di notifiche e-mail per le richieste di accesso. L
 1. Vai al tuo profilo utente effettuando una delle seguenti operazioni:
 
    * Fai clic sul **menu principale** ![](assets/dots-main-menu.png) nell&#39;angolo superiore destro dello schermo, quindi fai clic sul tuo nome.
-   * Fai clic sull&#39;icona **del** ![profilo di Adobe &#x200B;](assets/adobe-blue-main-menu.png)Main menu nell&#39;angolo superiore destro, se disponibile, quindi fai clic su **Profilo Workfront**.
+   * Fai clic sull&#39;icona **del** ![profilo di Adobe ](assets/adobe-blue-main-menu.png)Main menu nell&#39;angolo superiore destro, se disponibile, quindi fai clic su **Profilo Workfront**.
 
 1. Fai clic sull&#39;icona **Altro** del menu ![Altro](assets/more-icon.png) a destra del tuo nome nell&#39;intestazione, quindi fai clic su **Modifica**.
 1. Fai clic su **Notifiche** e seleziona o deseleziona **Qualcuno richiede a me l&#39;accesso** nella sezione **Azione richiesta**, a seconda che tu desideri ricevere le notifiche e-mail quando un altro utente richiede l&#39;accesso da te o meno.

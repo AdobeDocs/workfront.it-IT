@@ -4,9 +4,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: I pulsanti Filtro non vengono visualizzati nelle intestazioni di pagina
 description: Leggi questo articolo per risolvere i problemi relativi ai pulsanti di filtro che non vengono visualizzati nelle intestazioni di pagina.
 feature: Get Started with Workfront
-author: Nolan and Alina
+author: Courtney
 exl-id: 327564ed-60df-441a-a38b-a17a8c57adb0
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 3%
@@ -43,6 +43,8 @@ ht-degree: 3%
 </table>
 
 Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Problema
 

@@ -1,10 +1,11 @@
 ---
-title: Sito di stato  [!DNL Adobe Workfront]
+title: 'Sito di stato  [!DNL Adobe Workfront] '
 description: È possibile visualizzare lo stato della piattaforma  [!DNL Workfront] , inclusi gli incidenti, le finestre di manutenzione pianificate e lo stato corrente di tutti [!DNL Workfront] i cluster accedendo al sito [!DNL Workfront Status] .
 draft: Probably
 feature: Get Started with Workfront
+author: Becky
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
-source-git-commit: 108ebd3b8677124085056cf2812fa86e70a11887
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
@@ -30,7 +31,7 @@ ht-degree: 0%
 
 È possibile visualizzare gli aggiornamenti di stato nel sito di stato [!DNL Adobe].
 
-1. Digita [status.adobe.com](https://status.adobe.com/) nel browser per accedere al sito Status.
+1. Digita [status.adobe.com](https://status.adobe.com/it/) nel browser per accedere al sito Status.
 
 1. Seleziona **[!UICONTROL Experience Cloud]**.
 1. Scorri verso il basso e seleziona **[!UICONTROL Adobe Workfront]** dall&#39;elenco delle soluzioni.
@@ -39,7 +40,7 @@ ht-degree: 0%
 
 Per iscriversi al sito di stato o per gestire l&#39;iscrizione dopo l&#39;iscrizione:
 
-1. Vai a [status.adobe.com](https://status.adobe.com/).
+1. Vai a [status.adobe.com](https://status.adobe.com/it/).
 1. Nella barra di stato, selezionare **[!UICONTROL Gestisci sottoscrizioni]**.
    ![](assets/manage-subs.png)
 1. Se disponi di un account esistente, accedi all’account; in caso contrario, crea un nuovo account.
@@ -58,7 +59,7 @@ I ricercatori di vulnerabilità e i creatori di exploit denominano i propri prog
 
 ### Come si visualizzano le vulnerabilità denominate identificate da [!DNL Workfront?] {#how-do-i-view-named-vulnerabilities-identified-by-workfront}
 
-1. Vai a [status.adobe.com](https://status.adobe.com/), quindi fai clic su **[!UICONTROL Security]**.
+1. Vai a [status.adobe.com](https://status.adobe.com/it/), quindi fai clic su **[!UICONTROL Security]**.
 
 ## Perché è importante? {#why-is-this-important}
 

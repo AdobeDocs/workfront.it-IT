@@ -2,20 +2,20 @@
 title: Condivisione di un modello
 product-area: templates
 navigation-topic: grant-and-request-access-to-objects
-description: In qualità di amministratore di Adobe Workfront, puoi concedere agli utenti l’accesso per visualizzare o modificare i modelli quando assegni il loro livello di accesso. Per poter accedere a Modifica modelli, l'utente deve disporre di una licenza Pianificazione.
-author: Alina
+description: In qualità di amministratore di Adobe Workfront, puoi assegnare un livello di accesso agli utenti per autorizzarli a visualizzare o modificare i modelli. Per poter accedere a Modifica modelli, l’utente deve disporre di una licenza per uno dei piani disponibili.
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 2%
+ht-degree: 15%
 
 ---
 
 # Condividere un modello
 
-In qualità di amministratore di Adobe Workfront, puoi concedere agli utenti l’accesso per visualizzare o modificare i modelli quando assegni il loro livello di accesso. Per poter accedere a Modifica modelli, l&#39;utente deve disporre di una licenza Pianificazione.
+In qualità di amministratore di Adobe Workfront, puoi assegnare un livello di accesso agli utenti per autorizzarli a visualizzare o modificare i modelli. Per poter accedere a Modifica modelli, l’utente deve disporre di una licenza per uno dei piani disponibili.
 
 Per ulteriori informazioni sulla concessione dell&#39;accesso ai modelli, vedere [Concedere l&#39;accesso ai modelli](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
 
@@ -39,8 +39,8 @@ Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono qua
 
      Puoi concedere le seguenti autorizzazioni a un modello:
 
-      * Visualizza
-      * Gestire
+      * Visualizzazione
+      * Gestione
 
    * I progetti futuri creati utilizzando il modello. Puoi assegnare ai progetti creati da un modello gli stessi livelli di autorizzazione di un singolo progetto. 
 
@@ -112,8 +112,8 @@ Nella tabella seguente vengono visualizzate le autorizzazioni che è possibile c
  <thead> 
   <tr> 
    <th>Azioni</th> 
-   <th>Gestire</th> 
-   <th>Visualizza</th> 
+   <th>Gestione</th> 
+   <th>Visualizzazione</th> 
   </tr> 
  </thead> 
  <tbody> 

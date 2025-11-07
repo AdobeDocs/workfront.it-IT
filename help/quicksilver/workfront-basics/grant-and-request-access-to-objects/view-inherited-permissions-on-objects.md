@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: Visualizzare le autorizzazioni ereditate sugli oggetti
 description: L’amministratore di Adobe Workfront può concederti l’accesso per visualizzare o modificare gli oggetti durante l’assegnazione del livello di accesso. Per ulteriori informazioni, consulta Concedere l’accesso ai progetti.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 0%

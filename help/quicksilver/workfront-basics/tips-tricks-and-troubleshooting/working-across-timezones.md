@@ -4,8 +4,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Utilizzo dei fusi orari
 description: Può essere utile capire come [!DNL Adobe Workfront] utilizza i fusi orari per calcolare i campi di tempo per gli oggetti e gli orari in altre aree, ad esempio le e-mail.
 feature: Get Started with Workfront
+author: Becky
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 7697bb68e2042291e5290048cfc2f626145979af
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '1249'
 ht-degree: 0%
@@ -79,7 +80,7 @@ Il fuso orario nel browser deve essere configurato per la posizione in cui lavor
   Se a un oggetto vengono assegnati utenti con più fusi orari, [!DNL Workfront] converte gli orari dell&#39;oggetto per tutti gli utenti interessati, utilizzando il fuso orario configurato nel browser di ciascun utente.
 
   **ESEMPIO**
-Nel fuso orario solare orientale (EST) in cui si lavora, è possibile impostare un&#39;attività affinché inizi alle 16:2&rbrace; e assegnarla agli utenti che lavorano nel fuso orario solare del Pacifico (PST). :00 Per questi utenti, l&#39;ora di inizio viene visualizzata come 1:00 PM. Se fosse visualizzato come 4:00 PM, inizierebbero a lavorarci con tre ore di ritardo.
+Nel fuso orario solare orientale (EST) in cui si lavora, è possibile impostare un&#39;attività affinché inizi alle 16:2} e assegnarla agli utenti che lavorano nel fuso orario solare del Pacifico (PST). :00 Per questi utenti, l&#39;ora di inizio viene visualizzata come 1:00 PM. Se fosse visualizzato come 4:00 PM, inizierebbero a lavorarci con tre ore di ritardo.
 
   Se il creatore dell&#39;oggetto non conosce la differenza tra i fusi orari degli assegnatari e non apporta le modifiche necessarie durante l&#39;impostazione degli orari degli oggetti o se gli assegnatari non conoscono tale differenza, può essere difficile ottenere gli intervalli corretti mentre tutti collaborano all&#39;oggetto.
 
@@ -121,7 +122,7 @@ Gli amministratori di [!DNL Workfront] creano pianificazioni separate per ogni f
 >[!BEGINSHADEBOX]
 
 **ESEMPIO:**
-Un utente EST è assegnato a un&#39;attività di un giorno pianificata per iniziare alle 9:2&rbrace; PST, che è mezzogiorno EST. :00 Poiché all&#39;utente EST rimangono solo 2 ore lavorative al giorno, la data di completamento dell&#39;attività viene estesa di circa 6 ore al giorno lavorativo successivo.
+Un utente EST è assegnato a un&#39;attività di un giorno pianificata per iniziare alle 9:2} PST, che è mezzogiorno EST. :00 Poiché all&#39;utente EST rimangono solo 2 ore lavorative al giorno, la data di completamento dell&#39;attività viene estesa di circa 6 ore al giorno lavorativo successivo.
 
 
 >[!ENDSHADEBOX]

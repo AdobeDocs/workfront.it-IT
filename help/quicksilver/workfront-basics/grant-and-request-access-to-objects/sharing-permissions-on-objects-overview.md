@@ -3,10 +3,10 @@ content-type: overview
 navigation-topic: grant-and-request-access-to-objects
 title: Panoramica delle autorizzazioni di condivisione sugli oggetti
 description: È possibile condividere o rimuovere le autorizzazioni per un oggetto creato o condiviso con l'utente.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -38,7 +38,7 @@ In Workfront è possibile condividere i seguenti oggetti con altri utenti:
 
 * **Modelli**: per ulteriori informazioni, vedere [Condividere modelli di progetto](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-* **Portfoli**: per ulteriori informazioni, vedere [Condividere un portfolio](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
+* **Portfolio**: per ulteriori informazioni, vedere [Condividere un portfolio](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
 * **Programmi**: per informazioni, vedere [Condividere un programma](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md).
 
@@ -103,21 +103,21 @@ Puoi condividere un oggetto con un massimo di 100 entità (utenti, team, gruppi,
 
 ## Autorizzazioni di condivisione per gli oggetti
 
-Nella tabella seguente viene illustrato il livello di autorizzazioni che è possibile selezionare quando si condivide un oggetto. Non tutti gli oggetti dispongono di tutte queste impostazioni. È possibile concedere a un&#39;altra entità le autorizzazioni per visualizzare o gestire un oggetto. Se condividi un progetto, un’attività o un problema, puoi anche concedere autorizzazioni a Contribute.
+Nella tabella seguente viene illustrato il livello di autorizzazioni che è possibile selezionare quando si condivide un oggetto. Non tutti gli oggetti dispongono di tutte queste impostazioni. È possibile concedere a un&#39;altra entità le autorizzazioni per visualizzare o gestire un oggetto. Se condividi un progetto, un’attività o un problema, puoi anche concedere le autorizzazioni per contribuire a tale progetto.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Visualizza</strong></td> 
+   <td role="rowheader"><strong>Visualizzazione</strong></td> 
    <td> <p>È possibile eseguire le azioni seguenti sull'oggetto:</p> 
     <ul> 
      <li><p>Visualizza l'oggetto</p></li> 
      <li><p>Aggiungere documenti all'oggetto</p></li> 
      <li><p>Aggiungi problemi all'oggetto (se si tratta di un'attività o di un progetto)</p></li> 
      <li><p>Visualizza informazioni finanziarie sull'oggetto</p></li> 
-     <li> <p>Condividere l’oggetto<br></p> <p>Quando si condivide l'oggetto, è possibile concedere ad altri utenti lo stesso livello di autorizzazione disponibile solo per l'oggetto e non per un livello superiore.</p> </li> 
+     <li> <p>Condividi l’oggetto<br></p> <p>Quando si condivide l'oggetto, è possibile concedere ad altri utenti lo stesso livello di autorizzazione disponibile solo per l'oggetto e non per un livello superiore.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -133,10 +133,10 @@ Nella tabella seguente viene illustrato il livello di autorizzazioni che è poss
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Gestire</strong></td> 
+   <td role="rowheader"><strong>Gestione</strong></td> 
    <td> <p>È possibile eseguire le azioni seguenti sull'oggetto:</p> 
     <ul> 
-     <li>Tutte le azioni incluse nelle autorizzazioni Visualizza e Contribute</li> 
+     <li>Tutte le azioni incluse nelle autorizzazioni Visualizza e Contribuisci</li> 
      <li>Elimina</li> 
      <li>Gestire le informazioni finanziarie</li> 
     </ul> </td> 
@@ -158,9 +158,9 @@ Nella tabella seguente viene illustrato il livello di autorizzazioni che è poss
 
 Le autorizzazioni in Workfront vengono ereditate gerarchicamente. Ciò significa che se si concedono le autorizzazioni a un utente su un oggetto padre, per impostazione predefinita queste ottengono le stesse autorizzazioni sugli oggetti figlio a esso associati.
 
-Se ad esempio si assegnano a un utente le autorizzazioni Contribute per un progetto, l&#39;utente disporrà delle autorizzazioni Contribute per tutte le attività e i problemi (oggetti figlio) associati a tale progetto.
+Se ad esempio si assegnano a un utente le autorizzazioni Contribute per un progetto, l&#39;utente disporrà delle autorizzazioni Contribute per tutte le attività e i problemi (oggetti figlio) associati al progetto.
 
-Continuando con l&#39;esempio precedente, non è possibile limitare le autorizzazioni agli oggetti figlio. Se non si desidera che l&#39;utente disponga delle autorizzazioni di Contribute per gli oggetti figlio associati al progetto, è necessario rimuovere manualmente le autorizzazioni ereditate dagli oggetti e quindi modificare le autorizzazioni per il singolo utente, incluse eventuali impostazioni avanzate. 
+Continuando con l&#39;esempio precedente, non è possibile limitare le autorizzazioni agli oggetti figlio. Se non si desidera che l&#39;utente disponga delle autorizzazioni Contribute per gli oggetti figlio associati al progetto, è necessario rimuovere manualmente le autorizzazioni ereditate dagli oggetti e quindi modificare le autorizzazioni per il singolo utente, incluse eventuali impostazioni avanzate. 
 
 Per ulteriori informazioni sulla gerarchia e l&#39;interdipendenza degli oggetti in Workfront, vedere la sezione [Interdipendenza e gerarchia degli oggetti](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects) nell&#39;articolo [Panoramica sugli oggetti di Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
