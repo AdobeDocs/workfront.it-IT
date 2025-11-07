@@ -5,9 +5,9 @@ description: Gli elenchi avanzati utilizzano un formato tabella per la visualizz
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: ad9739ac670f723203f1e5e9148c446b6356c126
+source-git-commit: ddae871559a756f00ef96e70254e1019964ce882
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1288'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,7 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti di Workfront che uti
 |--- |--- |
 | Priorità | <ul><li>Home > seleziona l’icona Priorità nel menu a sinistra</li><li>Menu principale > Priorità</li></ul> |
 | Elenco delle richieste | <ul><li>Richieste (solo nuova esperienza)</li><li>Widget Richieste personali sulla Home</li></ul> |
-| Elenco dei tassi di cambio | <ul><li>Imposta > Preferenze progetto > Tassi di cambio</li></ul> |
+| Elenchi di stati, priorità, gravità e tassi di cambio in Configurazione | <ul><li>Configurazione > Preferenze progetto > Stati</li><li>Configurazione > Preferenze progetto > Priorità</li><li>Configurazione > Preferenze progetto > Gravità</li><li>Imposta > Preferenze progetto > Tassi di cambio</li></ul> |
 
 ## Aggiungere e modificare elementi in un elenco avanzato
 
@@ -93,19 +93,19 @@ Quando si seleziona la casella di controllo accanto a un elemento nell&#39;elenc
 
 >[!NOTE]
 >
->Vari elenchi avanzati potrebbero consentire la selezione di un singolo elemento, la modifica in serie (selezione di più elementi) o la selezione di nessun elemento.
+>Elenchi avanzati diversi possono consentire la selezione di un singolo elemento, la modifica in serie (selezione di più elementi) o la selezione di nessun elemento.
 
 Fare clic su un pulsante sulla barra delle azioni per eseguire tale azione, ad esempio visualizzare la voce di elenco, eliminare la voce o modificarla.
 
 Se non è disponibile alcuna azione per l&#39;elemento selezionato, la barra delle azioni indica &quot;Nessuna azione disponibile&quot;.
 
-![Esempio di barra delle azioni](assets/glist-action-bar-exchange-rates.png)
+![Esempio di barra delle azioni](assets/glist-action-bar-statuses.png)
 
 Il menu **Altro** è il menu a tre punti visualizzato accanto a un campo primario in una voce di elenco quando lo si passa con il mouse. Il campo principale è la colonna più a sinistra della tabella.
 
 Fai clic sul menu per visualizzare le azioni aggiuntive per l’elemento. Alcune azioni possono essere specifiche per tale elenco e non vengono visualizzate in nessun altro elenco.
 
-![Altro esempio di menu](assets/glist-more-menu-exchange-rates.png)
+![Altro esempio di menu](assets/glist-more-menu-priorities.png)
 
 ## Personalizzare le colonne in un elenco avanzato
 
@@ -127,6 +127,23 @@ Alcuni elenchi avanzati consentono di nascondere e visualizzare le colonne e di 
    Un indicatore viene visualizzato sul pulsante **Colonne** quando le colonne sono nascoste. L&#39;indicatore non viene visualizzato quando si riordinano le colonne.
 
    ![Indicatore per colonne nascoste](assets/glist-columns-hidden-indicator.png)
+
+## Applicare una visualizzazione a un elenco avanzato
+
+Una vista è un set personalizzato di disposizioni e filtri di colonna che puoi applicare a un elenco. Potete creare nuove viste e modificare quelle esistenti.
+
+Per applicare una visualizzazione, fare clic sul menu a discesa **Visualizzazioni** e selezionare la visualizzazione da applicare all&#39;elenco.
+
+Per creare una nuova vista:
+
+1. Fai clic sul menu a discesa **Visualizzazioni** e seleziona **Nuova visualizzazione**.
+1. Immettere un nome per la visualizzazione e fare clic su **Crea**.
+1. (Facoltativo) Nascondi, mostra o ridisponi le colonne. Per ulteriori informazioni, vedere [Personalizzare le colonne in un elenco avanzato](#customize-columns-in-an-enhanced-list).
+1. (Facoltativo) Filtra e raggruppa le voci di elenco. Per ulteriori informazioni, vedere [Filtrare e raggruppare gli elementi in un elenco avanzato](#filter-and-group-items-in-an-enhanced-list).
+
+   Le modifiche apportate alle viste vengono salvate automaticamente e sono visibili a tutti gli utenti della vista.
+
+   Alla successiva applicazione di questa visualizzazione, le impostazioni delle colonne e dei filtri rimangono invariate.
 
 ## Filtrare e raggruppare gli elementi in un elenco avanzato
 
