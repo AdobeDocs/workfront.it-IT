@@ -6,9 +6,9 @@ description: Puoi installare  [!DNL Adobe Workfront for design and video]  da Ad
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: c21e1c1d8e45b7c6407e8741b31055bfed9f4717
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '592'
 ht-degree: 2%
 
 ---
@@ -126,20 +126,19 @@ Gli amministratori di [!DNL Adobe Admin Console] possono anche creare pacchetti 
    >
    >![Individua dominio](assets/domain-350x50.png)
    >
-   >* Se l’istanza di Workfront è integrata con Experience Cloud, chiedi all’amministratore di fornirti il dominio Workfront che si trova in Prodotto > Workfront nell’Admin Console.
+   >* Se l&#39;istanza di Workfront è integrata con Experience Cloud e il dominio inizia con `experience.adobe.com`, chiedi all&#39;amministratore di fornirti il dominio di Workfront che si trova in Prodotto > Workfront in Admin Console.
 
 1. Nel browser, immetti le tue credenziali di [!DNL Workfront], quindi fai clic su **[!UICONTROL Accedi]**. Se l&#39;azienda utilizza un Single Sign-On (SSO), verrà visualizzata la pagina del provider SSO per l&#39;accesso.
 
    >[!NOTE]
    >
-   >Non ti verrà richiesto di immettere le credenziali di [!DNL Workfront] se hai effettuato l&#39;accesso di recente.
+   >Non ti verrà richiesto di immettere le credenziali di [!DNL Adobe] se hai effettuato l&#39;accesso di recente.
 
 1. Seguire le istruzioni per accedere a [!DNL Workfront].
 
    >[!NOTE]
    >
    >* [!DNL Workfront] si connette a [!DNL Adobe Creative Cloud] utilizzando OAuth 2.0, uno standard sicuro utilizzato dalla maggior parte delle integrazioni basate sul Web per l&#39;autenticazione e l&#39;autorizzazione degli utenti.
-   >* Quando viene richiesto di immettere il [dominio o host] dell&#39;account [!DNL Workfront], digitarlo nel seguente formato: *yourCompany&#39;sDomain.my.workfront.com*. Il dominio della tua azienda è in genere il nome della tua azienda.
 
 1. Fai clic su **[!UICONTROL Consenti accesso]** per completare l&#39;accesso.
 1. Torna a [!DNL Adobe Photoshop] per visualizzare il tuo lavoro.
