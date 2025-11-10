@@ -6,10 +6,10 @@ description: Puoi applicare la vista Milestone (Attività cardine) a un elenco o
 author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 1ed84baeacda2717c4f58058fb754e7a79b48baf
 workflow-type: tm+mt
-source-wordcount: '1623'
-ht-degree: 1%
+source-wordcount: '1370'
+ht-degree: 0%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 1%
 
 <!--remove Preview and Production mentions from the article when this comes out live-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti a partire da una settimana dalla versione di anteprima.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Puoi applicare la vista Milestone (Attività cardine) a un elenco o a un rapporto di progetto. È possibile utilizzare la vista Milestone (Attività cardine) per visualizzare tutte le attività cardine associate alle attività all&#39;interno dei progetti visualizzati.
 
@@ -85,13 +85,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Panoramica della vista Milestone {#milestone-view-overview}
 
-<div class="preview">
-
 La vista Milestone (Attività cardine) è disponibile negli elenchi dei progetti e nei rapporti sui progetti. Puoi visualizzare rapidamente tutte le attività cardine associate alle attività all’interno dei progetti che stai visualizzando.
 
 ![Progetto con vista milestone](assets/project-with-milestone-view-with-complete.png)
-
-</div>
 
 >[!NOTE]
 >
@@ -137,34 +133,23 @@ Quando si visualizza l’elenco o il rapporto di un progetto nella vista Milesto
 
   Puoi regolare la percentuale di completamento direttamente dalla vista Milestone, come descritto nella sezione [Regola percentuale di completamento per le attività nella vista Milestone](#adjust-percent-complete-for-tasks-in-the-milestone-view) in questo articolo.
 
-* **Icone di stato avanzamento attività:** A seconda dell&#39;ambiente utilizzato per visualizzare la vista milestone, le icone seguenti indicano lo stato di avanzamento delle attività:
+* **Icone di stato avanzamento attività:** Di seguito sono riportate le icone che indicano lo stato di avanzamento delle attività:
 
-   * Nell’ambiente di produzione, accanto a ciascun progetto e attività nella vista Milestone vengono visualizzate le seguenti icone di stato:
+   * Ora di attivazione - verde
+   * Dietro - giallo
+   * A rischio - blu
+   * In ritardo - rosso
 
-      * Nei Tempi\
-        ![Icona orario](assets/gantt-ontime.png)
-
-      * Indietro\
-        ![Icona Indietro](assets/gantt-behind.png)
-
-      * A Rischio\
-        ![Icona a rischio](assets/gantt-atrisk.png)
-
-      * In Ritardo\
-        ![Icona ritardo](assets/gantt-late.png)
-
-     <!--get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
-
-  <div class="preview">
-
-   * Nell’ambiente di anteprima, accanto a ciascun progetto e attività nella vista Milestone vengono visualizzati i cerchi colorati seguenti:
-
-      * Ora di attivazione - verde
-      * Dietro - giallo
-      * A rischio - blu
-      * In ritardo - rosso
-
-  </div>
+  <!--* In the Production environment, the following status icons display next to each project and task in the Milestone view: 
+      * On Time  
+      ![On time icon](assets/gantt-ontime.png)
+      * Behind  
+      ![Behind icon](assets/gantt-behind.png)
+      * At Risk  
+      ![At risk icon](assets/gantt-atrisk.png)
+      * Late  
+      ![Late icon](assets/gantt-late.png)
+      <!--get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
 
   È possibile disattivare la visualizzazione di queste icone di stato, come descritto nella sezione [Configurare le informazioni visualizzate nella vista Milestone](#configure-what-information-displays-in-the-milestone-view) in questo articolo.
 
@@ -205,23 +190,16 @@ Quando si visualizza l’elenco o il rapporto di un progetto nella vista Milesto
   ![Vista milestone con sfondo](assets/milestone-view-with-shading.png)
 
 * **Nome progetto**: il nome del progetto viene visualizzato con un collegamento al progetto.
-* **Icona condizione progetto**: a seconda dell&#39;ambiente in cui si accede alla vista Milestone dai seguenti indicatori viene visualizzata la condizione del progetto:
+* **Icona condizione progetto**: gli indicatori seguenti mostrano la condizione del progetto:
 
-   * Nell’ambiente di produzione, accanto al nome del progetto viene visualizzata un’icona che indica la condizione del progetto. La condizione del progetto può essere una delle seguenti:
+   * In target - verde
+   * A rischio - giallo
+   * In difficoltà - rosso
 
-      * Puntuale
-      * A Rischio
-      * In difficoltà
-
-  <div class="preview">
-
-   * Nell’ambiente di anteprima, accanto a ciascun progetto viene visualizzata un’icona di condizione con la forma di un cerchio colorato. Le possibili condizioni del progetto e i colori del cerchio sono:
-
-      * In target - verde
-      * A rischio - giallo
-      * In difficoltà - rosso
-
-     </div>
+  <!--* In the Production environment, an icon displays next to the project name, indicating the condition of the project. The Condition of the project might be one of the following:
+      * On Target
+      * At Risk
+      * In Trouble -->
 
 
 ## Configurare le informazioni da visualizzare nella vista Milestone {#configure-what-information-displays-in-the-milestone-view}
@@ -241,15 +219,6 @@ Per configurare la visualizzazione delle icone di stato del progetto e della per
 
 1. Fai clic sul menu a discesa **Visualizza**, quindi fai clic su **Milestone**.
 
-1. Nell&#39;ambiente di produzione, fai clic su **Opzioni** nell&#39;angolo superiore destro della vista Milestone, quindi seleziona una delle opzioni nel passaggio successivo.
-
-   ![opzioni_vista_milestone.png](assets/milestone-view-options-350x141.png)
-
-   <div class="preview">Nell’ambiente di anteprima, seleziona tra le opzioni del passaggio successivo, dall’angolo superiore destro della vista Milestone.</div>
-
-   <!--at Production release, replace this screen shot and adjust the Production/ Preview text above-->
-
-
 1. Selezionare una delle opzioni seguenti:
 
    <table style="table-layout:auto"> 
@@ -267,6 +236,8 @@ Per configurare la visualizzazione delle icone di stato del progetto e della per
     </tbody> 
    </table>
 
+   ![Opzioni vista Milestone](assets/milestone-view-options-350x141.png)
+
 ## Regola percentuale di completamento per le attività nella vista Milestone {#adjust-percent-complete-for-tasks-in-the-milestone-view}
 
 Nella vista Milestone (Attività cardine) è possibile regolare la percentuale di completamento delle attività. Non è possibile modificare la percentuale di completamento per un&#39;attività padre, ovvero un&#39;attività che contiene sottoattività, o per un progetto.
@@ -279,6 +250,6 @@ Per regolare la percentuale di completamento di un&#39;attività nella vista Mil
 
 1. (Condizionale) Se le percentuali di completamento non sono visualizzate nella visualizzazione Milestone, abilita la visualizzazione della percentuale di completamento di attività e progetti, come descritto nella sezione [Configura le informazioni visualizzate nella visualizzazione Milestone](#configure-what-information-displays-in-the-milestone-view) in questo articolo.
 
-1. Nell’ambiente di produzione, fai clic sulla percentuale di completamento sotto un’attività, specifica una nuova percentuale, quindi premi Invio.
+1. Spostare la diapositiva **Percent Complete** nella nuova percentuale di completamento per aggiornarla.
 
-   <div class="preview">Nell'ambiente di anteprima, spostate la diapositiva Percentuale completata al nuovo valore percentuale completata per aggiornarla. </div>
+   <!--In the Production environment, click the completion percentage below a task, specify a new percentage, then press Enter.-->

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 1ed84baeacda2717c4f58058fb754e7a79b48baf
 workflow-type: tm+mt
-source-wordcount: '2262'
+source-wordcount: '2261'
 ht-degree: 0%
 
 ---
@@ -362,10 +362,10 @@ Per aggiungere una pagina Record connessi:
 
      Per informazioni sulla modifica dei record nella vista tabella, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
 
-         >[!TIP]
-         >
-         >È possibile selezionare più record o oggetti per eliminarli.
-     
+     >[!TIP]
+     >
+     >È possibile selezionare più record o oggetti per eliminarli.
+
    * In linea modificare qualsiasi record di Planning nella tabella della pagina Record connessi.
 
      Tutti gli altri oggetti di Workfront vengono visualizzati in una vista tabella di sola lettura e non è possibile modificarli.
