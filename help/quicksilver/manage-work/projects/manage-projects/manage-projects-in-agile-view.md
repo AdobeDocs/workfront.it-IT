@@ -6,20 +6,22 @@ description: Puoi sfruttare le funzionalità agili per il tuo progetto senza le 
 author: Alina, Courtney
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
 
 # Gestire un progetto nella visualizzazione Agile
 
-<!-- Audited: 2/2024 -->
+<!-- Audited: 11/2025 -->
 
 Puoi sfruttare le funzionalità agili per il tuo progetto senza le problematiche amministrative che in genere accompagnano le procedure agili (come la gestione del backlog di un team o la creazione di iterazioni).
 
-Se si desidera lavorare in un ambiente agile che utilizza un backlog team e consente di creare iterazioni dalle attività nel backlog, seguire le istruzioni in [Operazioni in un ambiente agile](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
+Puoi lavorare in un ambiente agile che utilizza un backlog team e consente di creare iterazioni dalle attività nel backlog.
+
+Per informazioni, consulta [Lavorare in un ambiente agile](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 
 ## Requisiti di accesso
 
@@ -95,7 +97,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Visualizzare un progetto nella visualizzazione Agile
 
-1. Vai al progetto che desideri visualizzare in una visualizzazione agile, sull’elenco delle attività o sull’elenco dei problemi.
+Puoi visualizzare le attività o i problemi relativi a un progetto in una visualizzazione agile, anziché in un elenco, per sfruttare le funzionalità agili per lo sviluppo del progetto.
+
+1. Vai al progetto che desideri visualizzare in una visualizzazione agile, quindi fai clic su **Attività** o **Problemi** nel pannello a sinistra.
 1. Fai clic sull&#39;icona **Vista bacheca** ![Icona bacheca](assets/board-icon-for-agile-view.png).
 
    La vista bacheca del progetto viene visualizzata per impostazione predefinita.
@@ -107,4 +111,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Per ulteriori informazioni, vedere [Gestire le colonne della bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) e [Personalizzare i campi visualizzati in una scheda](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Non è possibile definire i criteri di colonna nella vista bacheca di un progetto.
 
-1. (Facoltativo) Per tornare alla vista a elenco, fai clic sull&#39;icona **Elenco**.
+1. (Facoltativo) Per tornare alla visualizzazione elenco, fare clic sull&#39;icona **Elenco** ![Elenco](assets/list-icon.png).
+
+   Viene visualizzato l’elenco delle attività o dei problemi.

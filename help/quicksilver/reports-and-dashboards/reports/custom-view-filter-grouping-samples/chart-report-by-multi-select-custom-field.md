@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: Tracciare un report in base a un campo personalizzato a selezione multipla
 description: È possibile tracciare un report in base a un campo personalizzato a selezione multipla solo dopo aver creato un campo calcolato aggiuntivo che acquisisce le scelte selezionate nel campo personalizzato a selezione multipla.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 0%

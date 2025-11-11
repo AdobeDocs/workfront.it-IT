@@ -6,7 +6,7 @@ description: La visibilità degli oggetti in Adobe Workfront dipende dall’acce
 author: Courtney
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 1%
@@ -23,7 +23,7 @@ La visibilità degli oggetti in Adobe Workfront dipende dall’accesso a quel ti
 >
 >Questo articolo descrive come richiedere le autorizzazioni per tutti gli oggetti ad eccezione dei seguenti:
 >
->* Pianifica scenario in Adobe Workfront Scenario Planner. Per ulteriori informazioni, vedere [Richiedere l&#39;accesso a un piano in Pianificazione scenario](../../scenario-planner/request-access-to-plan.md). È necessaria una licenza aggiuntiva.
+>* Pianifica scenario in Adobe Workfront Scenario Planner. Per ulteriori informazioni, vedere [Richiedere le autorizzazioni per un piano in Pianificazione scenario](../../scenario-planner/request-access-to-plan.md). È necessaria una licenza aggiuntiva.
 >
 >* Visualizzazioni e aree di lavoro in Workfront Planning. Per ulteriori informazioni, vedere [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). È necessaria una licenza aggiuntiva.
 

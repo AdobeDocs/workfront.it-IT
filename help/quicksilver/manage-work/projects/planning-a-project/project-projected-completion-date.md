@@ -7,16 +7,16 @@ description: La Data di completamento prevista è un indicatore calcolato in tem
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
 
 # Panoramica della data di completamento prevista per progetti, attività e problemi
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2025 -->
 
 La Data di completamento prevista è un indicatore calcolato in tempo reale del momento in cui il progetto, l’attività o il problema verrà completato. Quando il progetto, l’attività o il problema è contrassegnato come Completato, la Data di completamento prevista cambia in corrispondenza della Data di completamento effettiva.
 
@@ -122,6 +122,9 @@ Per creare un report di problemi che includa la Data di completamento prevista:
 1. Selezionala quando viene visualizzata nell&#39;elenco, nell&#39;oggetto **Issue**.
 1. Fai clic su **Salva e Chiudi**.
 
+   ![Data di completamento prevista problema nella colonna del report](assets/issue-projected-completion-date-in-view-nwe-350x148.png)
+
+
    La colonna **Data di completamento prevista** nel report è compilata.
 
-   ![](assets/issue-projected-completion-date-in-view-nwe-350x148.png)
+

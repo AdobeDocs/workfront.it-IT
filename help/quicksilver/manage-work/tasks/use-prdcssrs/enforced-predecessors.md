@@ -6,16 +6,16 @@ description: I predecessori sono attività da cui dipendono altre attività per 
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '475'
 ht-degree: 1%
 
 ---
 
 # Imponi predecessori
 
-<!-- Audited: 2/2024 -->
+<!-- Audited: 11/2025 -->
 
 I predecessori sono attività da cui dipendono altre attività per il completamento. Le relazioni con i predecessori influiscono sulle date di inizio e di completamento delle attività e in ultima analisi sulla sequenza temporale del progetto.
 
@@ -119,4 +119,6 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 1. Nella colonna **Predecessori**, inizia a immettere il numero dell&#39;attività predecessore seguito da &quot;e&quot;. Digitare ad esempio &quot;1e&quot; per aggiungere l&#39;attività numero 1 come predecessore dell&#39;attività selezionata.
 1. Fare clic su Invio per salvare le informazioni sul predecessore per l&#39;attività.
 
-   ![predecor_enforced_in_list.png](assets/predecessor-enforced-in-list-350x308.png)
+   ![Elenco dei predecessori applicati](assets/predecessor-enforced-in-list-350x308.png)
+
+   Le informazioni sul predecessore che viene applicato vengono salvate immediatamente.

@@ -6,9 +6,9 @@ description: Puoi modificare le informazioni sui portfolio che hai creato o che 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: cfbd38d9ab8f1976f891164a2572bb929339477d
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1080'
 ht-degree: 1%
 
 ---
@@ -149,6 +149,12 @@ Puoi modificare un portfolio nella pagina portfolio oppure i portfolio in un ele
    * [[!UICONTROL Panoramica]](#overview)
    * [Moduli personalizzati](#custom-forms)
    * [Commento](#comment)
+
+
+   >[!TIP]
+   >
+   >Per ricalcolare i campi personalizzati per più portfolio alla volta, seleziona più portfolio in un elenco e fai clic sul menu **Altro** ![Altro menu](assets/more-icon.png) nella parte superiore dell&#39;elenco, quindi **Ricalcola espressioni**.
+
 
 ### [!UICONTROL Panoramica] {#overview}
 

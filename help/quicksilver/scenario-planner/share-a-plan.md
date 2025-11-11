@@ -7,7 +7,7 @@ description: Puoi condividere un piano creato in Adobe Workfront Scenario Planne
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 2%
@@ -118,7 +118,7 @@ Per ulteriori informazioni sull&#39;accesso a [!DNL Scenario Planner] per vari t
 * Non è possibile visualizzare i piani non creati o non condivisi con l&#39;utente.
 * È possibile condividere un piano solo con altri utenti. Non è possibile condividere i piani con gruppi, team o aziende.
 * È necessario salvare un piano prima di poterlo condividere.
-* Puoi condividere un URL di un piano con un altro utente. Se l’utente non dispone delle autorizzazioni necessarie per visualizzare almeno il piano, può richiedere l’accesso al piano a un altro utente quando riceve l’URL. Per informazioni sulla richiesta di accesso a un piano, vedere [Richiedere l&#39;accesso a un piano in [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
+* Puoi condividere un URL di un piano con un altro utente. Se l’utente non dispone delle autorizzazioni necessarie per visualizzare almeno il piano, può richiedere l’accesso al piano a un altro utente quando riceve l’URL. Per informazioni sulla richiesta di accesso a un piano, vedere [Richiedere le autorizzazioni per un piano in [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
 * Quando si condividono più piani già condivisi con altri utenti, gli utenti condivisi non vengono sostituiti ma aggiunti agli utenti esistenti di ogni piano selezionato.
 
 ## Opzioni di autorizzazione del piano
@@ -237,7 +237,7 @@ Per informazioni sulle autorizzazioni del progetto, vedere [Condividere un proge
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Visualizzazione </td> 
+      <td role="rowheader">Visualizzazione [!UICONTROL]</td> 
       <td>Gli utenti con cui condividi il piano disporranno delle autorizzazioni necessarie per visualizzarlo. Non possono modificare le informazioni sul piano, aggiungere iniziative, scenari o pubblicare scenari. </td> 
      </tr> 
      <tr> 

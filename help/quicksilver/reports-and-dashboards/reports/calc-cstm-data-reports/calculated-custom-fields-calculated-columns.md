@@ -7,9 +7,9 @@ description: Per aggregare diversi campi in Adobe Workfront e visualizzare tale 
 author: Jenny
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -87,8 +87,9 @@ Per ulteriori informazioni sulla sintassi da utilizzare in una colonna personali
 
 * Nella pagina principale di un oggetto, fai clic sull&#39;icona Altro ![Icona Altro](assets/more-icon.png), quindi fai clic su **Ricalcola espressioni**
 
-* Modifica in blocco di più oggetti quando **Ricalcola espressioni personalizzate** è abilitato
-* Modifica di un modulo personalizzato quando **Aggiorna calcoli precedenti** è abilitato per il campo personalizzato calcolato
+* Modifica in blocco di più oggetti quando **è abilitato il ricalcolo delle espressioni personalizzate**.
+* Modifica in blocco di più oggetti quando si fa clic su **Ricalcola espressioni** dal menu Altro in un elenco di oggetti.
+* Modifica di un modulo personalizzato quando **Aggiorna calcoli precedenti** è abilitato per il campo personalizzato calcolato.
 
 ## Quando utilizzare le colonne calcolate in una visualizzazione
 

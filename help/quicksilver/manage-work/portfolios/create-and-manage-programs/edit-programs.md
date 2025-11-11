@@ -6,9 +6,9 @@ description: È possibile modificare le informazioni relative ai programmi creat
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1109'
 ht-degree: 1%
 
 ---
@@ -111,6 +111,11 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    * [[!UICONTROL Panoramica]](#overview)
    * [[!UICONTROL Moduli personalizzati]](#Custom%C2%A0F)
    * [[!UICONTROL Commento]](#comment)
+
+
+   >[!TIP]
+   >
+   >Per ricalcolare i campi personalizzati per più programmi contemporaneamente, selezionare più programmi in un elenco e fare clic sul menu **Altro** ![Altro menu](assets/more-icon.png) nella parte superiore dell&#39;elenco, quindi **Ricalcola espressioni**.
 
 ### [!UICONTROL Panoramica] {#overview}
 

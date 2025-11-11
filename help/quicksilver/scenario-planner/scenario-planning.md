@@ -8,7 +8,7 @@ author: Alina
 feature: Workfront Scenario Planner
 recommendations: noDisplay, noCatalog
 exl-id: 3d942ea6-6860-4463-b610-8c120a109071
-source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Questa sezione contiene i seguenti articoli:
 
-* [Panoramica [!DNL Scenario Planner] &#x200B;](../scenario-planner/scenario-planner-overview.md)
+* [Panoramica [!DNL Scenario Planner] ](../scenario-planner/scenario-planner-overview.md)
 * [Introduzione a  [!DNL Scenario Planner]](../scenario-planner/get-started-with-scenario-planning.md)
 * [Accesso necessario per utilizzare  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)
 * [Panoramica dei piani in [!DNL Scenario Planner]](../scenario-planner/plans-overview.md)
@@ -33,7 +33,7 @@ Questa sezione contiene i seguenti articoli:
 * [Elimina iniziative in [!DNL Scenario Planner]](../scenario-planner/delete-initiatives.md)
 * [Risolvi i conflitti di iniziativa in [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md)
 * [Importa progetti nei piani in [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md)
-* [Richiedi accesso a un piano in [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)
+* [Richiedi le autorizzazioni per un piano in [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)
 * [Condividi un piano in [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md)
 * [Aggiorna o crea progetti pubblicando iniziative in [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)
 * [Panoramica sulla riconciliazione delle allocazioni di risorse tra progetti e iniziative](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)

@@ -2,21 +2,23 @@
 product-area: enterprise-scenario-planner-product-area
 keywords: piano,autorizzazioni,condivisione,iniziative,scenari,scenario
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Richiedere l'accesso a un piano nella Pianificazione scenario
+title: Richiedere le autorizzazioni per un piano nella Pianificazione scenario
 description: È possibile richiedere l'accesso a un piano in Adobe Workfront Scenario Planner quando il collegamento al piano viene condiviso con l'utente.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
 
 ---
 
-# Richiedi accesso a un piano in [!DNL Scenario Planner]
+# Richiedere le autorizzazioni per un piano in [!DNL Scenario Planner]
 
-È possibile richiedere l&#39;accesso a un piano in [!DNL Adobe Workfront Scenario Planner] quando il collegamento al piano viene condiviso con l&#39;utente.
+<!--Audited: 11/2025-->
+
+È possibile richiedere le autorizzazioni per un piano in [!DNL Adobe Workfront Scenario Planner] quando il collegamento al piano viene condiviso con l&#39;utente.
 
 ## Requisiti di accesso
 
@@ -95,7 +97,7 @@ Prima di poter richiedere l&#39;accesso a un piano in [!DNL Scenario Planner], �
 >
 >Se non si dispone dei diritti di livello di accesso per [!DNL Scenario Planner] e si tenta di accedere a un piano da un collegamento, non è possibile richiedere l&#39;accesso al piano. Viene invece visualizzata una schermata che ti informa di contattare l&#39;amministratore [!DNL Workfront].
 
-## Richiedi accesso per i piani in [!DNL Workfront Scenario Planner]
+## Richiedi le autorizzazioni per i piani in [!DNL Workfront Scenario Planner]
 
 Se non si dispone già delle autorizzazioni per un piano e si passa a tale piano da un collegamento condiviso con l&#39;utente, viene visualizzata una schermata che informa che non si dispone delle autorizzazioni necessarie per visualizzare il piano. Viene richiesto di richiedere le autorizzazioni al creatore del piano.
 
@@ -107,7 +109,7 @@ Per richiedere le autorizzazioni:
 
 1. Fare clic su un collegamento a un piano.
 
-   ![Richiedi accesso al piano](assets/request-access-to-plan-350x277.png)
+   ![Richiedi autorizzazioni al piano](assets/request-access-to-plan-350x277.png)
 
 1. Nel menu a discesa **[!UICONTROL Richiedi accesso a]**, indica il livello di autorizzazioni che desideri concedere. Selezionare una delle opzioni seguenti:
 

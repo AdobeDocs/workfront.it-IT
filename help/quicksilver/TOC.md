@@ -3,7 +3,7 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: ddbee8110fbfb76a3a6bfe8bca66e1ba1cc40fb4
+source-git-commit: 52c907abde5c96ad50e4ccb031414baf6475186c
 workflow-type: tm+mt
 source-wordcount: '13522'
 ht-degree: 2%
@@ -126,7 +126,7 @@ ht-degree: 2%
          * [23.3 Altri miglioramenti](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
          * [Aggiornamenti look and feel durante il periodo di rilascio della versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * Versione 23.2 {#release-23-2}
-         * [Panoramica sulla versione di 23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
+         * Panoramica sulla versione di [23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 Miglioramenti per gli amministratori](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
          * [23.2 Miglioramenti di Agile](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
          * [23.2 Miglioramenti alla gestione dei progetti](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
@@ -2025,7 +2025,7 @@ ht-degree: 2%
    * [Aggiornare le priorità dell’iniziativa nella Pianificazione scenario](scenario-planner/prioritize-initiatives.md)
    * [Aggiornare o creare progetti pubblicando iniziative nella Pianificazione scenario](scenario-planner/publish-scenarios-update-projects.md)
    * [Panoramica sulla riconciliazione delle allocazioni di risorse tra progetti e iniziative](scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
-   * [Richiedere l&#39;accesso a un piano nella Pianificazione scenario](scenario-planner/request-access-to-plan.md)
+   * [Richiedere le autorizzazioni per un piano nella Pianificazione scenario](scenario-planner/request-access-to-plan.md)
    * [Risolvere i conflitti di iniziativa nella Pianificazione scenario](scenario-planner/resolve-conflicts-in-sp.md)
    * [Condividere un piano nella Pianificazione scenario](scenario-planner/share-a-plan.md)
    * [Mostra assegnazione ruoli per progetti e iniziative nell&#39;elenco delle attività](scenario-planner/show-role-allocation-task-list-nwe.md)
@@ -2515,9 +2515,9 @@ ht-degree: 2%
       * [Configurare e utilizzare le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso JWT](wf-api/api/oauth-app-jwt-flow.md)
       * [Configura e utilizza le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso PKCE](wf-api/api/oauth-app-pkce-flow.md)
       * [Obsolescenza di API-Internal](wf-api/api/deprecation-api-internal.md)
-      * [Novità della versione 21 dell&#39;API](/help/quicksilver/wf-api/api/new-api-version-21.md)
+      * [Novità della versione 21](/help/quicksilver/wf-api/api/new-api-version-21.md) dell&#39;API
       * [Novità dell&#39;API versione 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [Novità della versione 19 dell&#39;API](wf-api/api/new-api-version-19.md)
+      * [Novità della versione 19](wf-api/api/new-api-version-19.md) dell&#39;API
       * [Novità della versione 18 dell’API](wf-api/api/new-api-version-18.md)
       * [Novità della versione 17 dell’API](wf-api/api/new-api-version-17.md)
       * [Novità della versione 16 dell’API](wf-api/api/new-api-version-16.md)
