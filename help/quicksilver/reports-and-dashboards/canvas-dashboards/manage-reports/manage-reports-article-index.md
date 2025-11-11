@@ -6,9 +6,10 @@ description: Visualizza gli articoli in questa sezione.
 author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: 2ed58b15-098a-4937-86e6-2a8444389c00
+source-git-commit: a48d7691d64a561bdef8a6bad506a3ce0c4f839e
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
@@ -23,4 +24,5 @@ Questa sezione contiene i seguenti articoli:
 
 * [Modificare un rapporto in un dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
 * [Modificare i filtri dei rapporti in un dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
+* [Duplicare un rapporto in un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report)
 * [Eliminare un rapporto in un dashboard Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
