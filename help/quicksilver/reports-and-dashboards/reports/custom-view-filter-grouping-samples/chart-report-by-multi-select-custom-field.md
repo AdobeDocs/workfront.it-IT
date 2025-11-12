@@ -7,9 +7,9 @@ description: È possibile tracciare un report in base a un campo personalizzato 
 author: Jenny
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '947'
 ht-degree: 0%
 
 ---
@@ -131,13 +131,15 @@ Per generare il campo personalizzato calcolato che fa riferimento al campo perso
 
 ### Creare un grafico che faccia riferimento a un campo personalizzato calcolato {#build-a-chart-that-references-a-calculated-custom-field}
 
-1. (Facoltativo) Per fare in modo che tutti i campi calcolati in base ai quali si desidera creare il grafico vengano compilati con valori, dalla scheda Dettagli del report selezionare tutti gli oggetti che contengono il modulo personalizzato con il campo personalizzato a selezione multipla e il campo personalizzato calcolato, quindi fare clic su **Modifica**.
-1. (Facoltativo e condizionale) Seleziona il campo **Ricalcola espressioni personalizzate**, quindi fai clic su **Salva modifiche**.\
-   ![Ricalcolare espressioni personalizzate](assets/recalculate-custom-expressions-350x259.png)
+1. (Facoltativo) Per fare in modo che tutti i campi calcolati in base ai quali si desidera creare il grafico vengano compilati con valori, è necessario ricalcolare le espressioni personalizzate su tutti gli oggetti del report.
+Per informazioni sul ricalcolo delle espressioni, vedere [Modificare le informazioni nei campi personalizzati](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
+   <!--from the Details tab of the report select all the objects that contain the custom form with both the multi-select custom field and the calculated custom field, then click **Edit**. 
+   1. (Optional and conditional) Select the **Recalculate Custom Expressions** field, then click **Save Changes**.  
+   ![Recalculate custom expressions](assets/recalculate-custom-expressions-350x259.png) 
    >[!NOTE]
    >
-   >Questa opzione è stata eliminata dalla modifica in blocco di progetti.  Puoi comunque ricalcolare le espressioni per i progetti in blocco facendo clic sull&#39;icona **Altro** ![Altro](assets/more-icon-45x33.png) nella parte superiore dell&#39;elenco dei progetti, quindi **Ricalcola espressioni**.
+   >This option has been eliminated from editing projects in bulk.  You can still recalculate expressions for projects in bulk by clicking the **More** icon ![More icon](assets/more-icon-45x33.png) at the top of a project list, then **Recalculate Expressions**. -->
 
 1. Vai al report in cui desideri aggiungere il grafico per il campo calcolato che fa riferimento al campo personalizzato a selezione multipla.
 1. Fai clic su **Azioni report**, quindi su **Modifica**.

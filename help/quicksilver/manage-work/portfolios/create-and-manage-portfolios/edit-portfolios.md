@@ -6,7 +6,7 @@ description: Puoi modificare le informazioni sui portfolio che hai creato o che 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
 workflow-type: tm+mt
 source-wordcount: '1080'
 ht-degree: 1%
@@ -177,28 +177,28 @@ Puoi modificare un portfolio nella pagina portfolio oppure i portfolio in un ele
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Nome**]</td> 
+      <td role="rowheader">[!UICONTROL Name]</td> 
       <td> <p>Aggiorna il nome del portfolio. </p> <p><b>SUGGERIMENTO</b></p> 
-      <p>Il campo **Nome** non è disponibile quando si seleziona più di un portfolio. </p> </td> 
+      <p>Il campo Nome non è disponibile quando si seleziona più di un portfolio. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Descrizione**]</td> 
+      <td role="rowheader">[!UICONTROL Descrizione]</td> 
       <td> <p>Digita una descrizione per Portfolio per indicare cosa c’è di univoco. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Portfolio Manager**]</td> 
+      <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
       <td> <p>Inizia a digitare il nome di un utente che desideri indicare come gestore del portfolio, quindi selezionalo quando viene visualizzato nell’elenco. È lo stesso del [!UICONTROL Portfolio Owner]. Questa è la persona che può supervisionare il lavoro definito nei progetti del portfolio e può approvare il Business Case.</p> <p>Importante: quando si designa un utente come Portfolio Manager, questi ottiene automaticamente le autorizzazioni [!UICONTROL Manage] per il portfolio, i programmi e i progetti in esso contenuti. </p> <p>Suggerimento: puoi aggiornare rapidamente il gestore portfolio nell’intestazione del portfolio. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Gruppo**]</td> 
+      <td role="rowheader">[!UICONTROL Group]</td> 
       <td> <p>Aggiungi il nome di un singolo gruppo se il gruppo è associato al portfolio o se ne ha la responsabilità di completarlo. </p> <p>Suggerimento  <p>Quando si accede al campo [!UICONTROL Group] dalla pagina [!UICONTROL Portfolio Details], eseguire le operazioni seguenti: </p> <p>Per assicurarsi di selezionare il gruppo corretto, posizionare il puntatore del mouse su di esso e fare clic sull'icona [!UICONTROL information] <img src="assets/info-icon.png"> visualizzata accanto ad esso. In questo modo viene visualizzata una descrizione del gruppo contenente informazioni sul gruppo stesso, ad esempio la gerarchia dei gruppi al di sopra del gruppo e i relativi amministratori.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>Questa opzione non è disponibile nella casella [!UICONTROL Modifica Portfolio]. </p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p role="rowheader">[!UICONTROL **Allineamento Scorecard**]</p> </td> 
+      <td role="rowheader"> <p role="rowheader">[!UICONTROL Allineamento Scorecard]</p> </td> 
       <td> <p>Selezionare la scorecard di allineamento che si desidera utilizzare dall'elenco a discesa. Una scorecard viene utilizzata per misurare il livello di allineamento di un progetto con i criteri stabiliti di un Portfolio, spesso riflettendo la missione, i valori e gli obiettivi strategici di un’organizzazione. Per ulteriori informazioni, vedere <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">Applicare una scorecard a un progetto e generare un punteggio di allineamento</a> e <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">Creare una scorecard</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **È Attivo**]</td> 
+      <td role="rowheader">[!UICONTROL È Attivo]</td> 
       <td> <p> Seleziona questa casella di controllo se desideri che il portfolio sia attivo. Altri utenti possono trovare portfolio attivi e allegarli ai progetti durante la creazione o la modifica di progetti. I portfolio inattivi non possono essere allegati ai progetti. Questa opzione è attivata per impostazione predefinita.</p> </td> 
      </tr> 
     </tbody> 
