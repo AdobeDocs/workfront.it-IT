@@ -8,9 +8,9 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+source-git-commit: 752c39b90e9206a335435350f8844c746a7127e0
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -64,13 +64,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ## Requisiti di integrazione
 
-* Workfront e Adobe Express devono essere distribuiti nella stessa organizzazione IMS.
-
-* L’integrazione deve essere abilitata per i tuoi account dal team di prodotto Adobe.
-
-  >[!IMPORTANT]
-  >
-  >L’integrazione Adobe Express e Workfront Proof sarà disponibile per gli utenti nel corso di diverse versioni, a partire da account che hanno Workfront e Adobe Express associati allo stesso ID organizzazione in Adobe Admin Console, seguiti da clienti con utenti che lavorano tra organizzazioni IMS. Se desideri che l’integrazione sia abilitata, rivolgiti al tuo Customer Success o Strategic Account Manager.
+* Devi disporre delle autorizzazioni necessarie per accedere ad Adobe Express e ad almeno un ambiente Workfront con una licenza Workfront Standard.
 
 * Gli utenti devono installare [Rivedere il contenuto interattivo con lo strumento di revisione Adobe Workfront](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) prima di poter iniziare a rivedere le bozze in Adobe Express.
 
@@ -89,7 +83,7 @@ Quando viene eseguito il remixaggio di un modello Express, prima di pubblicarlo 
 
 Per richiedere l’approvazione da Adobe Express, gli utenti devono disporre di una licenza Workfront standard.
 
-Scopri come [ottenere l&#39;approvazione per le progettazioni](https://helpx.adobe.com/it/express/web/share-and-publish/share-and-collaborate/request-approval.html).
+Scopri come [ottenere l&#39;approvazione per le progettazioni](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Remixare i modelli Express e inviarli per revisione e approvazione
