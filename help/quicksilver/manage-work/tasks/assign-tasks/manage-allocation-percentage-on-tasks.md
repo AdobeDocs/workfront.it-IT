@@ -6,9 +6,9 @@ description: La percentuale di allocazione rappresenta la quantità di tempo in 
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '457'
 ht-degree: 1%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 1%
 
 <!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti a partire da una settimana dalla versione di anteprima.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 
 La percentuale di allocazione rappresenta la quantità di tempo in cui una risorsa assegnata deve lavorare su un&#39;attività in un giorno. Rappresenta la percentuale di un giorno lavorativo (in base alla programmazione dell&#39;utente o del progetto) in cui una risorsa viene allocata per l&#39;intera durata dell&#39;attività.
@@ -59,7 +59,7 @@ La percentuale di allocazione rappresenta la quantità di tempo in cui una risor
   <tr> 
    <td>Autorizzazioni oggetto</td>
    <td><p>Autorizzazioni di contribuzione o di livello superiore per l'attività</p>
-   <p>Modificare le autorizzazioni per aggiornare la percentuale di allocazione nella casella Modifica attività quando <span class="preview"> modifica attività utilizzando l'esperienza precedente. Non è più possibile gestire la percentuale di allocazione nella casella Modifica attività durante la modifica delle attività nella nuova esperienza.</span></p> <p>Per informazioni, vedere <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Modifica attività</a>.</p></td>
+   <p>Modifica le autorizzazioni per aggiornare la percentuale di allocazione nella casella Modifica attività quando modifichi attività utilizzando la precedente esperienza. Non è più possibile gestire la percentuale di allocazione nella casella Modifica attività durante la modifica delle attività nella nuova esperienza.</p> <p>Per informazioni, vedere <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Modifica attività</a>.</p></td>
   </tr>
  </tbody>
 </table>

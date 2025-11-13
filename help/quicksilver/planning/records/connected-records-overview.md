@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,11 @@ Per informazioni su come connettere i record tra loro o a un altro oggetto, vede
 
 È possibile collegare record ad altri record o a oggetti di un&#39;altra applicazione nelle aree seguenti:
 
-* È possibile collegare record da Workfront Planning a oggetti Workfront o Experience Manager Assets nelle seguenti aree di un record Planning:
+* È possibile collegare record da Workfront Planning a oggetti Workfront, oggetti Experience Manager Assets o Marchi GenStudio nelle seguenti aree di un record Planning:
 
    * Campi record collegati nella vista tabella di un tipo di record in Planning.
-   * L&#39;anteprima o la pagina del record nei campi del record collegato nella scheda Dettagli.
-   * L&#39;anteprima o la pagina del record nella scheda Connessioni.
+   * L&#39;anteprima o la pagina dei dettagli del record nei campi del record connesso della scheda Dettagli.
+   * L&#39;anteprima o la pagina dei dettagli del record nella scheda Connessioni.
    * Pagina del record in una scheda della pagina Record connessi di un record connesso.
 
 * È possibile collegare oggetti Workfront ai record di Workfront Planning nelle seguenti aree di Workfront:

@@ -6,9 +6,9 @@ description: È possibile creare ed eliminare modelli dall'area Modelli. Durante
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '734'
 ht-degree: 6%
 
 ---
@@ -17,13 +17,15 @@ ht-degree: 6%
 
 <!-- Audited: 10/2025 -->
 
-<div class="preview">
+<!--remove all instances of new/ old experience and redo the steps when the toggle is removed-->
 
-Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti a partire da una settimana dalla versione di anteprima.
+<!--<div class="preview"> 
 
-Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-</div>
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> -->
 
 È possibile creare ed eliminare modelli dall&#39;area Modelli. Durante la creazione di un nuovo modello, è possibile immettere le informazioni per tutte le attività e per le impostazioni di progetto future. Queste informazioni verranno quindi trasferite a qualsiasi progetto creato dal modello.
 
@@ -118,13 +120,11 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Fai clic su **Nuova attività modello** per iniziare ad aggiungere attività al modello nella casella **Nuova attività modello**.
 
-   ![Casella Attività nuovo modello](assets/new-template-task-box.png)
+   Nella nuova esperienza verrà visualizzata la casella **Crea attività modello**.
 
-   <span class="preview">La **casella Crea attività modello** si apre nella nuova esperienza.</span>
+   ![Nuova esperienza per la nuova attività modello](assets/new-template-task-box-unshimmed.png)
 
-1. <span class="preview">(Condizionale) Utilizzando la nuova esperienza, aggiorna le informazioni nelle seguenti aree nella casella **Crea attività modello**:</span>
-
-   <div class="preview">
+1. (Condizionale) Utilizzando la nuova esperienza, aggiorna le informazioni nelle seguenti aree nella casella **Crea attività modello**:
 
    * Nome Attività Modello
    * Panoramica
@@ -134,14 +134,15 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    * Documenti
    * Impostazioni
 
-   </div>
-
 1. Fai clic su **Crea attività modello**
 
    Oppure
 
-   <span class="preview">Fai clic su **Torna alla vecchia esperienza** nella parte inferiore della casella **Crea attività modello**.</span>
-   <span class="preview">La **nuova attività modello** si apre con la vecchia esperienza.</span>
+   Fai clic su **Torna alla vecchia esperienza** nella parte inferiore della casella **Crea attività modello**.
+
+   La **nuova attività modello** si apre nella vecchia esperienza.
+
+   ![Casella Attività nuovo modello](assets/new-template-task-box.png)
 
    >[!TIP]
    >

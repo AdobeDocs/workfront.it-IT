@@ -6,9 +6,9 @@ description: È possibile modificare le informazioni sulle attività in un elenc
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '2903'
+source-wordcount: '2851'
 ht-degree: 3%
 
 ---
@@ -17,13 +17,15 @@ ht-degree: 3%
 
 <!-- Audited: 10/2025 -->
 
-<div class="preview">
+<!--
 
-Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti a partire da una settimana dalla versione di anteprima.
+<div class="preview"> 
 
-Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-</div>
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> -->
 
 È possibile modificare le informazioni sulle attività in un elenco di attività modificando i campi visualizzati nell&#39;elenco. Per informazioni su altri modi per modificare le attività, vedere [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -507,18 +509,16 @@ Per modificare i task in un elenco quando si utilizza l&#39;opzione Pianificazio
    >Non è possibile modificare le attività in blocco quando si salvano le attività manualmente.
 
 1. Selezionare più attività nell&#39;elenco delle attività.
-1. <span class="preview">(Facoltativo) Fare clic sul menu **Altro** ![Altro menu](assets/more-icon.png) nella parte superiore dell&#39;elenco delle attività, quindi **Ricalcola espressioni** per aggiornare tutte le informazioni nei campi personalizzati calcolati.</span>
-1. Fai clic sull&#39;icona **Modifica** ![Modifica](assets/qs-edit-icon.png). La finestra di dialogo **Modifica attività** apre <span class="preview">nella nuova esperienza</span>.
+1. (Facoltativo) Fai clic sul menu **Altro** ![Altro menu](assets/more-icon.png) nella parte superiore dell&#39;elenco delle attività, quindi **Ricalcola espressioni** per aggiornare tutte le informazioni nei campi personalizzati calcolati.
+1. Fai clic sull&#39;icona **Modifica** ![Modifica](assets/qs-edit-icon.png). Nella nuova esperienza verrà visualizzata la finestra di dialogo **Modifica attività**.
 
    La modifica delle informazioni su tutte le attività è identica alla modifica delle informazioni su un&#39;attività.
 
    Per ulteriori informazioni sulla modifica di un&#39;attività, vedere [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-1. <span class="preview">(Condizionale) Nella nuova esperienza, eseguire le operazioni seguenti:</span>
+1. (Condizionale) Nella nuova esperienza, effettua le seguenti operazioni:
 
    1. Specificare le informazioni da modificare per tutte le attività selezionate in una delle seguenti aree:
-
-      <div class="preview">
 
       * Panoramica
       * Assegnazioni
@@ -528,9 +528,6 @@ Per modificare i task in un elenco quando si utilizza l&#39;opzione Pianificazio
       * Impostazioni
       * Commento
 
-      </div>
-
-
       >[!NOTE]
       >
       >* Le informazioni che stai modificando in tutte le attività selezionate sostituiranno le informazioni esistenti sulle singole attività, ad eccezione del campo **Assegnazioni**. L&#39;aggiunta di un nuovo assegnatario nella modifica in blocco aggiungerà l&#39;assegnatario a tutte le attività selezionate. Se alle attività selezionate vengono assegnati altri assegnatari, questi rimarranno assegnati in aggiunta a quelli aggiunti tramite la modifica in blocco.
@@ -539,10 +536,10 @@ Per modificare i task in un elenco quando si utilizza l&#39;opzione Pianificazio
       >* Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Se le attività selezionate non hanno moduli personalizzati comuni, in questa sezione non sono elencati moduli.
       >* È possibile modificare solo i campi dei moduli allegati a tutte le attività selezionate e per i quali si dispone delle autorizzazioni di modifica.  Per informazioni sulla modifica in blocco di moduli personalizzati, vedere [Gestire i moduli personalizzati allegati agli oggetti](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).
 
-   1. <span class="preview">Fai clic su **Salva**.</span>
-   1. <span class="preview">(Facoltativo) Fai clic su **Torna alla vecchia esperienza** nella parte inferiore della casella Modifica attività.</span>
+   1. Fai clic su **Salva**.
+   1. (Facoltativo) Fai clic su **Torna alla vecchia esperienza** nella parte inferiore della casella **Modifica attività**.
 
-1. <span class="preview">(Condizionale) Nella vecchia esperienza, eseguire le operazioni seguenti:</span>
+1. (Condizionale) Nella vecchia esperienza, effettua le seguenti operazioni:
 
    1. Specificare le informazioni da modificare per tutte le attività selezionate in una delle seguenti aree:
 

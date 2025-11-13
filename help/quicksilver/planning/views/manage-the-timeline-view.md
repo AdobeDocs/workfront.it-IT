@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '3951'
+source-wordcount: '3968'
 ht-degree: 2%
 
 ---
@@ -563,6 +563,8 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
   Le attività, ad esempio, sono collegate ai progetti in Workfront. La funzione Raggruppamento consente di visualizzare i progetti connessi alle campagne in Planning, ma non i task collegati ai progetti in Workfront.
 
   Se si desidera visualizzare sia i portafogli che i progetti nella visualizzazione della sequenza temporale di un tipo di record di Workfront Planning, è necessario che entrambi siano collegati al record di Planning o a un record connesso al record di Planning di cui si sta gestendo la visualizzazione della sequenza temporale.
+* Non è possibile visualizzare i Marchi Adobe GenStudio connessi ai tipi di record di Planning.
+Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
 * È possibile visualizzare solo i tipi di record associati ad almeno due campi data.
 * I campi data per i tipi di record che si desidera visualizzare nella visualizzazione timeline devono essere visibili nella visualizzazione per tabella del tipo di record selezionato, come campi di ricerca.
 * Le date di inizio e di fine dei tipi di record che si desidera visualizzare nella vista timeline devono essere in ordine cronologico. Ad esempio, se un record ha una data di inizio 31 gennaio e una data di fine 1 gennaio, non viene visualizzato nella visualizzazione della sequenza temporale. Per ulteriori informazioni, vedere la sezione [Gestire una visualizzazione della sequenza temporale](#manage-a-timeline-view) in questo articolo.

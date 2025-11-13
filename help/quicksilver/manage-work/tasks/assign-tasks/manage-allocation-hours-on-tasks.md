@@ -6,9 +6,9 @@ description: Quando si assegnano utenti o ruoli a un’attività, questi vengono
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 0%
 <!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti a partire da una settimana dalla versione di anteprima.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Le ore di allocazione rappresentano la quantità totale di tempo per cui una risorsa assegnata deve lavorare su un&#39;attività. Le ore rappresentano il tempo allocato da un utente a un determinato giorno o giorno feriale, settimana o mese per l&#39;intera durata dell&#39;attività.
 
@@ -61,7 +61,7 @@ Le ore di allocazione rappresentano la quantità totale di tempo per cui una ris
   <tr> 
    <td>Autorizzazioni oggetto</td>
    <td><p>Autorizzazioni di contribuzione o di livello superiore per l'attività</p>
-   <p>Modificare le autorizzazioni per aggiornare le ore di allocazione nella casella Modifica attività quando si modificano le attività <span class="preview"> utilizzando l'esperienza precedente. Non è più possibile gestire le ore di allocazione nella casella Modifica attività durante la modifica delle attività nella nuova esperienza.</span></p> <p>Per informazioni, vedere <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Modifica attività</a>.</p></td>
+   <p>Modificare le autorizzazioni per aggiornare le ore di allocazione nella casella Modifica attività quando si modificano attività utilizzando la precedente esperienza. Non è più possibile gestire le ore di allocazione nella casella Modifica attività durante la modifica delle attività nella nuova esperienza.</p> <p>Per informazioni, vedere <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Modifica attività</a>.</p></td>
   </tr>
  </tbody>
 </table>

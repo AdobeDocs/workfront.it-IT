@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '2047'
-ht-degree: 0%
+source-wordcount: '2050'
+ht-degree: 1%
 
 ---
 
@@ -53,7 +53,7 @@ Per eseguire questa operazione:
 
      >[!NOTE]
      >
-     >L&#39;opzione **Tipo di connessione** non è disponibile per la connessione di record da aree di lavoro diverse o per la connessione di risorse Experience Manager. Per ulteriori informazioni, vedere [Panoramica sui tipi di record connessi](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+     >L&#39;opzione **Tipo di connessione** non è disponibile per la connessione di record da aree di lavoro diverse o per la connessione di risorse Experience Manager o Marchi GenStudio. Per ulteriori informazioni, vedere [Panoramica sui tipi di record connessi](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
    * **Aspetto record**: scegliere una delle opzioni seguenti:
       * **Nome e immagine**: visualizza il nome e la miniatura o l&#39;icona dei record connessi. Questa opzione è selezionata per impostazione predefinita.

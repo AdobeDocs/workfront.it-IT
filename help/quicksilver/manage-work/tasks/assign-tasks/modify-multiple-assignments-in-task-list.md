@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,19 @@ ht-degree: 0%
 
 <!--Audited: 11/2025-->
 
+<!--remove the old/new experience references when the toggles are removed-->
+
 <!--
 this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti a partire da una settimana dalla versione di anteprima.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div>-->
 
 Quando si gestiscono le assegnazioni di attività, è possibile modificarle contemporaneamente per più attività contemporaneamente utilizzando la funzione di modifica in blocco in un elenco di attività.
 
@@ -125,25 +127,22 @@ When assigning users to work, their availability according to their schedules af
 
 1. Seleziona le attività per le quali vuoi modificare le assegnazioni, quindi fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png).
 
-   La casella **Modifica attività** apre <span class="preview">nella nuova esperienza. Eseguire una delle operazioni seguenti:</span>
-
-   <div class="preview">
+   La casella **Modifica attività** si apre nella nuova esperienza. Esegui una delle operazioni seguenti:
 
    * Per aggiungere gli assegnatari, inizia a digitare il nome di un assegnatario nel campo **Cerca persone, ruoli o team**, quindi selezionali quando vengono visualizzati nell&#39;elenco.
    * Per rimuovere gli assegnatari, fare clic sull&#39;icona **x** a destra del nome. Nell&#39;elenco vengono visualizzati solo gli assegnatari comuni a tutte le attività.
    * Fare clic su Assegna a me per assegnare le attività selezionate a se stessi.
 
-   </div>
+1. (Condizionale) Quando si utilizza la nuova esperienza, fare clic su **Salva**.
 
-1. <span class="preview">(Condizionale) Quando si utilizza la nuova esperienza, fare clic su **Salva**.</span>
+1. (Facoltativo) Fai clic su **Passa alla vecchia esperienza** nella parte inferiore della casella **Modifica attività**.
 
-1. <span class="preview">(Facoltativo) Fai clic su **Passa alla vecchia esperienza** nella parte inferiore della casella **Modifica attività**.</span>
+   La casella **Modifica attività** si apre nell&#39;esperienza precedente.
 
-   <span class="preview">La casella **Modifica attività** si apre nell&#39;esperienza precedente.</span>
-
+   <!--
    >[!TIP]
    >
-   >La vecchia esperienza è disponibile per impostazione predefinita nell’ambiente di produzione.
+   >The old experience is available by default in the Production environment.-->
 
 1. (Condizionale) Nella vecchia esperienza, effettua le seguenti operazioni per modificare gli assegnatari:
 

@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
 source-wordcount: '2731'
 ht-degree: 0%
@@ -226,7 +226,7 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
       * Campi di connessione di Workfront Planning.
       * Campi Persone. Sono supportati solo i campi con un valore.
 
-     Non è possibile copiare informazioni da un’origine esterna e incollarle in altri tipi di campi, inclusi i campi di connessione Workfront o AEM Assets.
+     Non è possibile copiare informazioni da un&#39;origine esterna e incollarle in altri tipi di campi, inclusi i campi di connessione di Workfront o di altre applicazioni.
 
    >[!NOTE]
    >

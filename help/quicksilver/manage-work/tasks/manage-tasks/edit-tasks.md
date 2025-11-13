@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '4464'
+source-wordcount: '4416'
 ht-degree: 4%
 
 ---
@@ -28,13 +28,13 @@ ht-degree: 4%
 </div>
 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti a partire da una settimana dalla versione di anteprima.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Potete modificare le informazioni sulle attività create o sulle quali disponete delle autorizzazioni Contribute o Manage.
 
@@ -377,19 +377,17 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
 1. Inizia a modificare l’attività come descritto in precedenza.
 1. Fai clic su **Assegnazioni** nel pannello a sinistra.
 
-   <span class="preview">L&#39;area Assegnazioni viene aperta nella nuova esperienza.</span>
+   L’area Assegnazioni si apre nella nuova esperienza.
 
 1. (Condizionale) Utilizzando la nuova esperienza, effettua le seguenti operazioni:
 
-   1. <span class="preview">Inizia a digitare il nome di un utente, una mansione o un team nel campo **Cerca persone, mansione o team**, quindi selezionali quando vengono visualizzati nell&#39;elenco</span>
+   1. Inizia a digitare il nome di un utente, una mansione o un team nel campo **Cerca persone, mansione o team**, quindi selezionali quando vengono visualizzati nell&#39;elenco
 
       Oppure
 
-      <span class="preview">Fai clic su **Assegna a me** per assegnare l&#39;attività a te stesso. </span>
+      Fai clic su **Assegna a me** per assegnare l&#39;attività a te stesso.
 
-   1. <span class="preview">Aggiorna le seguenti informazioni:</span>
-
-      <div class="preview">
+   1. Aggiorna le seguenti informazioni:
 
       <table style="table-layout:auto"> 
          <col> 
@@ -501,7 +499,6 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
          </tbody> 
          </table>
 
-      </div>
 
       <!--<tr> 
       <td role="rowheader">Allocation</td> 
@@ -520,9 +517,9 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
          </tbody> 
          </table>-->
 
-   1. <span class="preview">(Facoltativo) Fai clic su **Passa alla vecchia esperienza** nella parte inferiore della casella **Modifica attività**. </span>
-      <span class="preview">L&#39;area Assegnazioni viene aperta nell&#39;esperienza precedente. </span>
-      ![](assets/nwe-assignments-section-edit-task-box-350x217.png)
+   1. (Facoltativo) Fai clic su **Passa alla vecchia esperienza** nella parte inferiore della casella **Modifica attività**.
+L’area Assegnazioni viene visualizzata nella vecchia esperienza.
+      ![Sezione Assegnazioni nella casella Modifica attività](assets/nwe-assignments-section-edit-task-box-350x217.png)
 
 1. Fai clic su **Cerca persone, ruoli o team** e inizia a digitare il nome di un utente, ruolo o team che desideri assegnare all&#39;attività, quindi fai clic su di esso o premi Invio quando viene visualizzato nell&#39;elenco.
 
@@ -670,7 +667,7 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
    </tbody>
    </table>
 
-1. Fai clic su **Salva modifiche** <span class="preview"> o **Salva** </span> oppure continua con le sezioni seguenti.
+1. Fai clic su **Salva** o continua con le sezioni seguenti.
 
 ### Moduli personalizzati
 

@@ -7,9 +7,9 @@ description: Dopo aver creato un modello, è possibile modificare le informazion
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '4716'
+source-wordcount: '4633'
 ht-degree: 4%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 4%
 
 <!--take out production and preview references and new/ old experiences at release-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti a partire da una settimana dalla versione di anteprima.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Dopo aver creato un modello, è possibile modificare le informazioni relative alle attività del modello. Le informazioni aggiornate in un&#39;attività modello vengono associate alle attività del progetto dopo che è stato utilizzato il modello per creare un progetto o dopo che il modello è stato allegato a un progetto.
 
@@ -138,15 +138,21 @@ I nomi dei moduli doganali vengono visualizzati solo se sono presenti moduli per
 1. (Facoltativo) Per modificare più attività modello in blocco, seleziona più attività modello, quindi fai clic su **Modifica** nella parte superiore dell&#39;elenco dei modelli.
 1. (Condizionale) Per modificare tutte le informazioni sull&#39;attività modello o su più attività contemporaneamente, fai clic su per selezionarle da un elenco, quindi fai clic sull&#39;icona **Modifica** ![Icona Modifica](assets/edit-icon.png) nella parte superiore dell&#39;elenco.
 
-   Viene visualizzata la casella **Modifica attività modello**.
+   La casella **Modifica attività modello** viene visualizzata nella nuova esperienza.
+
+   ![Nuova esperienza per Modifica attività modello](assets/edit-template-task-box-unshimmed.png)
 
    >[!TIP]
    >
    >Puoi anche selezionare un&#39;attività modello in un elenco, quindi fare clic su **Modifica** a destra del nome dell&#39;attività modello nell&#39;intestazione, per aprire la casella **Modifica attività modello**.
 
+   Continua a modificare l&#39;attività modello come descritto in [Modifica un&#39;attività modello utilizzando la nuova esperienza](#edit-a-template-task-using-the-new-experience) in questo articolo.
+
+1. (Facoltativo) Fai clic su **Torna alla vecchia esperienza** nella parte inferiore della casella **Modifica attività modello** per aprire la casella **Modifica attività modello** nella vecchia esperienza.
+
    ![Modifica attività modello](assets/edit-template-tasks-box-classic-350x356.png)
 
-1. (Condizionale) Nell’ambiente di produzione, considera di specificare le informazioni in una delle sezioni seguenti:
+1. Prendere in considerazione la possibilità di specificare informazioni in una delle sezioni seguenti:
 
    * [Panoramica](#overview)
    * [Finanz](#finance)
@@ -156,9 +162,6 @@ I nomi dei moduli doganali vengono visualizzati solo se sono presenti moduli per
    * [Commento](#comment)
 
 1. Continua a modificare l&#39;attività modello come descritto in [Modifica un&#39;attività modello utilizzando la precedente sezione esperienza](#edit-a-template-task-using-the-old-experience) in questo articolo.
-
-1. <span class="preview">(Condizionale) Nell&#39;ambiente di anteprima, la casella Modifica attività modello viene visualizzata nella nuova esperienza. Continua a modificare l&#39;attività modello come descritto in [Modifica un&#39;attività modello utilizzando la nuova esperienza](#edit-a-template-task-using-the-new-experience) in questo articolo.</span>
-1. <span class="preview">(Facoltativo) Fai clic su **Torna alla vecchia esperienza** nella parte inferiore della casella **Modifica attività modello** per aprire la casella **Modifica attività modello** nella vecchia esperienza. Continua a modificare l&#39;attività modello come descritto in [Modifica un&#39;attività modello utilizzando la precedente sezione esperienza](#edit-a-template-task-using-the-old-experience) in questo articolo.</span>
 
 ### Modificare un’attività modello utilizzando la vecchia esperienza
 
@@ -438,8 +441,6 @@ I moduli vengono aggiunti automaticamente alle attività create dal modello.
 1. Fai clic su **Salva modifiche**.
 
    Quando un utente crea un progetto a partire da questo modello, tutte le impostazioni applicate alle attività modello diventano le impostazioni delle attività progetto.
-
-<div class="preview">
 
 ### Modificare un’attività modello utilizzando la nuova esperienza
 
@@ -767,4 +768,3 @@ I moduli vengono aggiunti automaticamente alle attività create dal modello.
 
    Quando un utente crea un progetto a partire da questo modello, tutte le impostazioni applicate alle attività modello diventano le impostazioni delle attività progetto.
 
-</div>

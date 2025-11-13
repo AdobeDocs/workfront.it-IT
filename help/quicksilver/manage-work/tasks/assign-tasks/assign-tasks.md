@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '2212'
+source-wordcount: '2156'
 ht-degree: 1%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 1%
 
 <!--remove production/ preview and old/ new experience references at prod-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti a partire da una settimana dalla versione di anteprima.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 È possibile assegnare attività a utenti, mansioni o team per indicare chi è responsabile del completamento delle attività. È possibile assegnare un&#39;attività a più risorse contemporaneamente.
 
@@ -236,13 +236,13 @@ Per assegnare le attività in un elenco:
 1. Selezionare più attività nell&#39;elenco delle attività.
 1. Fai clic su **Modifica**.
 
-   La finestra di dialogo **Modifica attività** apre <span class="preview">nella nuova esperienza.</span>
+   Nella nuova esperienza verrà visualizzata la finestra di dialogo **Modifica attività**.
 
-1. Continua ad assegnare le attività <span class="preview">utilizzando la nuova esperienza.</span>
+1. Continua ad assegnare le attività utilizzando la nuova esperienza.
 
-   <span class="preview">Per ulteriori informazioni, vedere la sezione [Assegnare più attività in blocco da un elenco nella nuova esperienza](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) in questo articolo.</span>
+   Per ulteriori informazioni, vedere la sezione [Assegnare più attività in blocco da un elenco nella nuova esperienza](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) in questo articolo.
 
-1. <span class="preview">(Facoltativo) Fai clic su **Torna alla vecchia esperienza** nella parte inferiore della casella **Modifica attività** per aprire la vecchia esperienza.</span>
+1. (Facoltativo) Fai clic su **Torna alla vecchia esperienza** nella parte inferiore della casella **Modifica attività** per aprire la vecchia esperienza.
 
    >[!TIP]
    >
@@ -279,11 +279,9 @@ Per assegnare le attività in un elenco:
 1. (Facoltativo e condizionale) Quando i campi Assegnato a o Assegnazioni vengono visualizzati nell&#39;elenco delle attività, fare clic all&#39;interno di una di queste colonne per un&#39;attività, quindi fare clic sull&#39;icona **X** accanto al nome di un assegnatario per rimuoverlo dall&#39;attività.
 
 
-<div class="preview">
-
 ### Assegnare più attività in blocco da un elenco nella nuova esperienza
 
-1. Consente di passare a un elenco di attività che si desidera assegnare in blocco nell&#39;ambiente di anteprima.
+1. Passare a un elenco di attività che si desidera assegnare in blocco.
 1. (Condizionale) Verificare che l&#39;opzione **Salvataggio automatico** sia selezionata se ci si trova in un elenco di attività di un progetto.
 
    >[!IMPORTANT]
@@ -319,10 +317,7 @@ Per assegnare le attività in un elenco:
 1. (Facoltativo) Se desideri rimuovere assegnatari esistenti da tutte le attività, fai clic su **x** accanto al nome nel campo **Cerca persone, ruoli o team**.
 
 1. Fai clic su **Salva**.
-1. (Facoltativo e condizionale) Quando i campi **Assegnato a** o **Assegnazioni** vengono visualizzati nell&#39;elenco delle attività, fare clic all&#39;interno di una di queste colonne per un&#39;attività, quindi fare clic sull&#39;icona **X** accanto al nome di un assegnatario per rimuoverla dall&#39;attività.
-
-
-</div>
+1. (Facoltativo e condizionale) Quando i campi **Assegnato a** o **Assegnazioni** vengono visualizzati nell&#39;elenco delle attività, fare clic in una di queste colonne per un&#39;attività, quindi fare clic sull&#39;icona **X** accanto al nome di un assegnatario per rimuoverlo dall&#39;attività
 
 
 <!--
