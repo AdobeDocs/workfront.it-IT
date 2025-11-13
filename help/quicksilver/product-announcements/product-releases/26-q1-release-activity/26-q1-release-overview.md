@@ -4,9 +4,9 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b0fb8f0ca72800c2befe4f1f8194be17c4f75c95
+source-git-commit: 00483638948941c933e5f8bc8cb3edaf8e43fea1
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1680'
 ht-degree: 3%
 
 ---
@@ -39,6 +39,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 * [Miglioramenti per gli amministratori](#administrator-enhancements)
 * [Miglioramenti a documenti e approvazioni](#documents-and-approvals-enhancements)
+* [Miglioramenti dell’integrazione](#integration-enhancements)
+* [Miglioramenti al reporting](#reporting-enhancements)
 * [Altri miglioramenti](#other-enhancements)
 
 ### Miglioramenti per gli amministratori
@@ -133,6 +135,69 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>venerdì 30 ottobre 2025</td>
         <td>venerdì 30 ottobre 2025</td>
         <td>venerdì 30 ottobre 2025</td>
+    </tr>   
+  </tbody>
+</table>
+
+### Miglioramenti al reporting
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Funzionalità</strong>
+        </td>
+        <td><strong>Anteprima</strong></td>
+        <td><strong>Rilascio rapido</strong></td>
+        <td><strong>Ogni trimestre</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicare un report in un dashboard Canvas</a><p>![BADGE fuori pianificazione]{type=Neutral}</p>
+            <p>È ora possibile duplicare un rapporto indicatore KPI, tabella o grafico in un dashboard di Canvas dopo averlo creato. Una volta duplicato, puoi modificare il rapporto in base alle esigenze prima di salvarlo.</p>
+        </td>
+        <td>venerdì 23 ottobre 2025</td>
+        <td>venerdì 23 ottobre 2025</td>
+        <td>venerdì 23 ottobre 2025</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Rimozione delle opzioni del campo dai filtri dei report</a>
+            <p>Sono state rimosse le seguenti opzioni di campo precedentemente disponibili durante l’applicazione di un filtro a un rapporto:
+            <ul>
+            <li>ID di altri gruppi</li>
+            <li>Altri ID Ruoli</li>
+            <li>ID altri team</li>
+            </ul>
+            </p>
+        </td>
+        <td>venerdì 6 novembre 2025</td>
+        <td>venerdì 13 novembre 2025</td>
+        <td>venerdì 15 gennaio 2026</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Visualizzazione migliorata del conteggio dei raggruppamenti nei dashboard di Canvas</a>
+            <p>Quando un report tabella include più pagine di risultati e la tabella è configurata con raggruppamenti, la tabella visualizza ora sia la quantità di record per la pagina corrente che il conteggio di record complessivo per tutte le pagine. Ad esempio, se il rapporto di tabella ha 7 raggruppamenti e la prima pagina mostra 3, la tabella visualizzerà 3 di 7.</p>
+        </td>
+       <td>venerdì 6 novembre 2025</td>
+        <td>venerdì 13 novembre 2025</td>
+        <td>venerdì 15 gennaio 2026</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Nuovi guardrail per migliorare i tempi di caricamento nei dashboard di Canvas</a>
+            <p>Per evitare ritardi nei tempi di caricamento e migliorare le prestazioni complessive nei dashboard di Canvas, sono stati applicati limiti al numero di componenti del dashboard che è possibile aggiungere a un dashboard:
+            <ul>
+            <li>Report per dashboard: limite 25</li>
+            <li>Raggruppamenti su viste tabella: limite 5</li>
+            <li>Distanza dall'oggetto di base del report: limite 10</li>
+            <li>Colonne in una vista a tabella: limite 25</li>
+            <li>Richieste filtro a livello di dashboard: limite 10</li>
+            </ul></p>
+        </td>
+       <td>venerdì 6 novembre 2025</td>
+        <td>venerdì 13 novembre 2025</td>
+        <td>venerdì 15 gennaio 2026</td>
     </tr>   
   </tbody>
 </table>
@@ -255,12 +320,12 @@ Per offrire integrazioni più stabili e scalabili, stiamo passando a un approcci
 * Workfront per Salesforce.
 
 È consigliabile utilizzare l&#39;automazione e l&#39;integrazione di Workfront per le esigenze di integrazione dell&#39;organizzazione con Google Workspace.
-Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Aggiornamenti dei corsi di formazione
 
