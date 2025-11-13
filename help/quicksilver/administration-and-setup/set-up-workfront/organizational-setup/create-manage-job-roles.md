@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: e5416fab4f4ad1f2c31edf962554ddd6a4c2f1e5
+source-git-commit: a30e505aa2061240f92642fda274be66e4947bce
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Con la versione 25.11, la valuta di sostituzione per le mansioni diventerà obsoleta in Produzione. (La rimozione verrà effettuata il 30 ottobre nell’ambiente di anteprima). Invece di avere una valuta di base e di sostituire le valute, sarà disponibile una valuta per le mansioni e i costi e le tariffe di fatturazione saranno definiti utilizzando tale valuta.
+>Con la versione 25.11, la valuta di sostituzione per le mansioni è stata rimossa in Produzione. (La rimozione è avvenuta il 30 ottobre nell’ambiente di anteprima). Invece di avere una valuta di base e di sostituire le valute, ora è disponibile una valuta per le mansioni e i costi e le tariffe di fatturazione sono definiti utilizzando tale valuta.
 
 In qualità di amministratore [!DNL Adobe Workfront] o di utente con accesso amministrativo ai Ruoli, puoi creare Ruoli che possono essere assegnati agli utenti ed eliminare Ruoli predefiniti che non sono rilevanti per la tua organizzazione. Per informazioni sull&#39;accesso amministrativo in [!DNL Workfront], vedere [Concedere agli utenti l&#39;accesso amministrativo ad alcune aree](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+
+>[!TIP]
+>
+>I ruoli sono parte integrante della gestione delle risorse. Per utilizzare gli strumenti di pianificazione delle risorse, le mansioni devono avere un costo e una tariffa di fatturazione associati. Per informazioni, vedere [Introduzione a Gestione risorse](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
 ## Requisiti di accesso
 
@@ -76,65 +80,64 @@ Per creare una mansione:
 
      Per informazioni sulla disattivazione dei ruoli, vedere [Disattivare i ruoli](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
 
-   * **Valuta di base**: è la valuta di base impostata dall&#39;amministratore di Workfront nell&#39;area Configura. Per informazioni, vedere [Impostare i tassi di cambio](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+   * **Valuta**: per impostazione predefinita viene visualizzata la valuta di base. L&#39;amministratore di Workfront aggiunge la valuta di base nell&#39;area Configura. È possibile modificare la selezione in un&#39;altra valuta disponibile e modificare la valuta in intervalli di tempo con data di validità.
 
      >[!TIP]
      >
-     >Impossibile modificare la valuta di base a livello di mansione. Questo campo è oscurato e funge da promemoria per ciò che la valuta di base è per il sistema.
-
-   * **Tariffa di costo**: tariffa oraria della mansione. Questo valore calcola i costi pianificati ed effettivi delle attività e dei problemi associati al ruolo e in ultima analisi i costi pianificati ed effettivi dei progetti. Inserire il tasso utilizzando la divisa di base.
-
-     Per le tariffe effettive della data, fare clic su **Aggiungi tariffa**. Inserire il valore del costo/ora per il periodo di tempo e assegnare una data di inizio e una data di fine in base alle esigenze. La prima tariffa non avrà una data di inizio e l&#39;ultima tariffa non avrà una data di fine.
-
-     Alcune date vengono aggiunte automaticamente. Ad esempio, se il primo tasso di costo non ha una data di fine e si aggiunge un secondo tasso di costo con una data di inizio del 1° maggio 2025, al primo tasso di costo verrà aggiunta una data di fine del 30 aprile 2025, in modo che non esistano spazi vuoti.
-
-     >[!TIP]
-     >
-     >Quando modifichi una mansione esistente, puoi selezionare **Ordina per data di inizio** per visualizzare la data di inizio più recente all&#39;inizio dell&#39;elenco dei tassi.
-
-   * **Tariffa di fatturazione**: tariffa oraria di fatturazione della mansione. Questo valore calcola le entrate pianificate ed effettive delle attività e dei problemi associati al ruolo e in ultima analisi le entrate pianificate ed effettive dei progetti. Inserire il tasso utilizzando la divisa di base.
-
-     Per le tariffe di fatturazione effettive della data, fare clic su **Aggiungi tariffa**. Inserire il valore della fatturazione/ora per il periodo di tempo e assegnare una data di inizio e una data di fine in base alle esigenze. La prima tariffa di fatturazione non avrà una data di inizio e l’ultima tariffa di fatturazione non avrà una data di fine.
-
-     Alcune date vengono aggiunte automaticamente. Ad esempio, se la prima tariffa di fatturazione non ha una data di fine e aggiungi una seconda con una data di inizio del 1° maggio 2025, alla prima tariffa di fatturazione viene aggiunta una data di fine del 30 aprile 2025 in modo che non esistano spazi vuoti.
-
-     >[!TIP]
-     >
-     >Quando modifichi una mansione esistente, puoi selezionare **Ordina per data di inizio** per visualizzare la data di inizio più recente all&#39;inizio dell&#39;elenco dei tassi.
-
-   * **Sovrascrivi valuta**: selezionare una valuta associata a questa mansione. Valuta utilizzata da Workfront per calcolare i costi e i ricavi associati a questa mansione.
-
-     È diversa dalla valuta di base impostata dall’amministratore di Workfront nell’area Configura e può essere diversa dalla valuta associata a un progetto.
-
-     >[!TIP]
-     >
-     >In questo campo sono disponibili solo le valute disponibili nell&#39;area Tassi di cambio del sistema. Se è impostata una sola valuta, questo campo non viene visualizzato.
+     >In questo campo sono disponibili solo le valute disponibili nell&#39;area Tassi di cambio del sistema. Se è impostata una sola valuta, sarà disponibile solo quella.
 
      Per informazioni sull&#39;impostazione della valuta di base in Workfront, vedere [Impostare i tassi di cambio](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
      Per informazioni sulla modifica della valuta di un progetto, vedere [Modificare la valuta del progetto](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
 
-   * **Sostituisci tasso costo valuta**: è il tasso del costo orario della mansione che utilizza la valuta di sostituzione selezionata. Workfront utilizza questo valore per calcolare i costi pianificati ed effettivi delle attività e dei problemi associati alla mansione.
+   * **Tariffa di costo**: tariffa oraria della mansione. Questo valore calcola i costi pianificati ed effettivi delle attività e dei problemi associati al ruolo e in ultima analisi i costi pianificati ed effettivi dei progetti. Inserire il tasso utilizzando la valuta selezionata.
 
-     Inserire il tasso nella divisa di sostituzione sopra specificata. In questo modo viene aggiornato anche il tasso di costo per questa mansione quando si utilizza la valuta di base.
+     Per le tariffe effettive della data, fare clic su **Aggiungi tariffa**. Inserire il valore del costo/ora per il periodo di tempo e assegnare una data di inizio e una data di fine in base alle esigenze. La prima tariffa non avrà una data di inizio e l&#39;ultima tariffa non avrà una data di fine.
+
+     Alcune date vengono aggiunte automaticamente. Ad esempio, se il primo tasso di costo non ha una data di fine e si aggiunge un secondo tasso di costo con una data di inizio del 1° maggio 2025, al primo tasso di costo verrà aggiunta una data di fine del 30 aprile 2025, in modo che non esistano spazi vuoti.
 
      Per informazioni su come Workfront calcola i costi, vedere [Tracciare i costi](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
 
      >[!TIP]
      >
-     >Quando si aggiorna una mansione esistente a cui è già associato un tasso di costo, Workfront calcola il tasso di cambio di sostituzione in base al tasso di conversione del sistema. Se si aggiorna l&#39;opzione Sostituisci tasso costo divisa, anche il tasso di costo della mansione viene aggiornato automaticamente.
+     >Quando modifichi una mansione esistente, puoi ordinare l’elenco in modo da visualizzare la data di inizio più recente nella parte superiore dell’elenco dei tassi.
 
-   * **Sovrascrivi tariffa di fatturazione valuta**: tariffa oraria di fatturazione della mansione che utilizza la valuta di sostituzione selezionata. Workfront utilizza questo valore per calcolare i ricavi pianificati ed effettivi delle attività e dei problemi associati alla mansione.
+   * **Tariffa di fatturazione**: tariffa oraria di fatturazione della mansione. Questo valore calcola le entrate pianificate ed effettive delle attività e dei problemi associati al ruolo e in ultima analisi le entrate pianificate ed effettive dei progetti. Inserire il tasso utilizzando la valuta selezionata.
 
-     Inserire il tasso nella divisa di sostituzione sopra specificata. Questo aggiorna anche il tasso di fatturazione per questa mansione quando si utilizza la valuta di base.
+     Per le tariffe di fatturazione effettive della data, fare clic su **Aggiungi tariffa**. Inserire il valore della fatturazione/ora per il periodo di tempo e assegnare una data di inizio e una data di fine in base alle esigenze. La prima tariffa di fatturazione non avrà una data di inizio e l’ultima tariffa di fatturazione non avrà una data di fine.
+
+     Alcune date vengono aggiunte automaticamente. Ad esempio, se la prima tariffa di fatturazione non ha una data di fine e aggiungi una seconda con una data di inizio del 1° maggio 2025, alla prima tariffa di fatturazione viene aggiunta una data di fine del 30 aprile 2025 in modo che non esistano spazi vuoti.
 
      Per informazioni su come Workfront calcola i ricavi, vedere [Panoramica su fatturazione e ricavi](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
      >[!TIP]
      >
-     >Quando si aggiorna una mansione esistente a cui è già associato un tasso di fatturazione, Workfront calcola il tasso di cambio di sostituzione in base al tasso di conversione del sistema. Se si aggiorna il tasso di fatturazione della divisa di sostituzione, anche il tasso di fatturazione della mansione viene aggiornato automaticamente.
+     >Quando modifichi una mansione esistente, puoi ordinare l’elenco in modo da visualizzare la data di inizio più recente nella parte superiore dell’elenco dei tassi.
+
+1. Fai clic su **[!UICONTROL Crea ruolo]**. Il ruolo è ora disponibile per essere assegnato ad attività, problemi, approvazioni oppure puoi condividere modelli di layout o altri oggetti con esso. Per informazioni su tutti gli utilizzi delle mansioni in [!DNL Workfront], vedere [Panoramica sulle mansioni](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). Per informazioni sull&#39;eliminazione di una mansione, vedere [Elimina mansioni](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
 
 <!--
+   * **Override Currency Cost Rate**: This is the cost per hour rate of the job role using the selected Override Currency. Workfront uses this value to calculate the planned and the actual costs of tasks and issues associated with the job role.
+
+     Enter the rate in the Override Currency specified above. This also updates the Cost Rate for this job role when using the Base Currency.
+
+     For information about how Workfront calculates cost, see [Track costs](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
+
+     >[!TIP]
+     >
+     >When updating an existing job role that already has a cost rate associated with it, Workfront calculates the Override Currency rate based on the conversion rate in your system. If you update the Override Currency Cost Rate, the cost rate of the job role also updates automatically.
+
+   * **Override Currency Billing Rate**: This is the billing per hour rate of the job role using the selected Override Currency. Workfront uses this value to calculate the planned and the actual revenue of tasks and issues associated with the job role.
+
+      Enter the rate in the Override Currency specified above. This also updates the Billing Rate for this job role when using the Base Currency.
+
+      For information about how Workfront calculates revenue, see [Overview of Billing and Revenue](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+     >[!TIP]
+     >
+     >When updating an existing job role that already has a billing rate associated with it, Workfront calculates the Override Currency rate based on the conversion rate in your system. If you update the Override Currency Billing Rate, the billing rate of the job role also updates automatically.
+
+
    <table style="table-layout:auto"> 
     <col> 
     <col> 
@@ -197,27 +200,5 @@ Per creare una mansione:
    </table>
 -->
 
->[!TIP]
->
->I ruoli sono parte integrante della gestione delle risorse. Per utilizzare gli strumenti di pianificazione delle risorse, le mansioni devono avere un costo e una tariffa di fatturazione associati. Per informazioni, vedere [Introduzione a Gestione risorse](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
-1. Fai clic su **[!UICONTROL Crea ruolo]**. Il ruolo è ora disponibile per essere assegnato ad attività, problemi, approvazioni oppure puoi condividere modelli di layout o altri oggetti con esso. Per informazioni su tutti gli utilizzi delle mansioni in [!DNL Workfront], vedere [Panoramica sulle mansioni](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). Per informazioni sull&#39;eliminazione di una mansione, vedere [Elimina mansioni](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2>Delete a job role</h2>
-<ol data-mc-continue="false">
-<li value="1">Click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <strong>Setup</strong> <img src="assets/gear-icon-settings.png">.</li>
-<li value="2">Click<strong>Job Roles.</strong></li>
-<li value="3">Select the job role that you want to delete, then click <strong>Delete.</strong></li>
-<li value="4">If there are any objects (users, tasks, issues) that are assigned to the job role, do one of the following:<br>
-<ul>
-<li><p><strong>Replace the job role with a different job role:</strong> Select the new job role from the drop-down list.</p><p>Any current and past resource allocations that are associated with the deleted job role are transferred to the job role that you select.</p><p>Users who have only one job role assigned to them are reassigned to the job role that you select; users who have a secondary job role assigned to them are not reassigned to the job role that you select.</p></li>
-<li><p><strong>Delete the job role and its resource allocation:</strong> Select<strong>None</strong> from the drop-down list.</p><note type="important">
-Deleting a job role deletes all current and past resource allocation related to that job role for all projects.
-</note><p>​For example, if a task or issue is assigned to only that job role, the task or issue is unassigned after the job role is deleted.</p></li>
-</ul></li>
-<li value="5">Click  <strong>Yes, Delete It</strong>. </li>
-</ol>
-</div>
--->
