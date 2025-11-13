@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 6fb64986260842c419c61fe386e9ccf1a0da8f14
+source-git-commit: 5d7cc28ebb1c7d7401a60ef4fc383fc90ed20631
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1549'
 ht-degree: 0%
 
 ---
@@ -146,6 +146,18 @@ Per aggiungere o modificare una società:
    Oppure
 
    Se stai modificando una società esistente, fai clic su **[!UICONTROL Salva modifiche]** <span class="preview">o **Salva**.</span>
+
+## Elimina società
+
+{{step-1-to-setup}}
+
+1. Fai clic su **[!UICONTROL Aziende]**.
+
+   Viene visualizzato un elenco di aziende.
+
+1. Fai clic sulla casella di controllo accanto alla società da eliminare, quindi fai clic sull&#39;icona Elimina ![icona Elimina](assets/delete-icon.png) nella parte superiore della pagina.
+1. Se si sta eliminando una società impostata come società principale o utilizzata in un altro oggetto, selezionare una società in sostituzione di quella che si sta eliminando. La società selezionata diventa la società principale o sostituisce la società eliminata sugli oggetti a cui è assegnata.
+1. Fai clic su **Elimina**.
 
 ## Gestire le appartenenze a società
 

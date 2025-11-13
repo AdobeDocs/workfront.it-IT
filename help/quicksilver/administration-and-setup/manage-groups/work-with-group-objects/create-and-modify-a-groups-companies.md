@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 5d7cc28ebb1c7d7401a60ef4fc383fc90ed20631
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -90,6 +90,10 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    >Se disponi di accesso amministrativo per le aziende nel tuo livello di accesso, puoi anche fare clic su Aggiungi altre aziende nella parte inferiore dell’elenco. In questo modo viene aggiunta una riga in cui è possibile configurare rapidamente la nuova società.
 
 1. (Facoltativo) Per modificare o eliminare società, selezionare almeno una società, quindi utilizzare i pulsanti della barra degli strumenti per modificare ![icona Modifica](assets/edit-icon.png) o eliminare ![icona Elimina](assets/delete.png).
+
+   >[!NOTE]
+   >
+   >Se si sta eliminando una società impostata come società principale o utilizzata in un altro oggetto, viene richiesto di scegliere un&#39;altra società per sostituire quella che si sta eliminando. La società selezionata diventa la società principale o sostituisce la società eliminata sugli oggetti a cui è assegnata.
 
    Per informazioni sulla modifica di una società, vedere la sezione [Creare o modificare una società in Workfront](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront) nell&#39;articolo [Creare e modificare società](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
