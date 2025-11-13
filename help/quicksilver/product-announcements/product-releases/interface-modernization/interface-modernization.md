@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 829b3d343286b63922614b3855f9227667ad57a4
+source-git-commit: f22f00417cd0bfbe53cfee513e8be95a8719f785
 workflow-type: tm+mt
-source-wordcount: '9336'
+source-wordcount: '9416'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,23 @@ In questa pagina sono elencati gli aggiornamenti dell’interfaccia che stiamo a
 Per tutte le altre modifiche apportate ad Adobe Workfront, vedi [Versioni del prodotto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Amministrazione e configurazione
+
+### La finestra di dialogo viene aggiornata quando si elimina un elemento in uso
+
+**Anteprima versione: 13 novembre 2025; produzione versione: 20 novembre 2025**
+
+I seguenti oggetti dispongono ora di una finestra di dialogo aggiornata quando si elimina un elemento in uso:
+
+* Livelli di accesso
+* Aziende
+* Tipo di spesa
+* Profili gruppo/scheda orario
+* Tipo di ora
+* Tipo Rischio
+* Pianificazione
+* Profilo scheda orario
+
+La nuova finestra di dialogo è ora coerente con altre aree di Workfront. La funzionalità non è stata modificata.
 
 ### Aggiornamenti dell’interfaccia per le finestre di dialogo Aggiungi e Modifica società
 
@@ -131,9 +148,8 @@ Per informazioni, consulta [Creare e modificare i rischi nei progetti](/help/qui
 
 ### Aggiornamenti dell’interfaccia per ferie personali
 
-**Versione di anteprima: 23 ottobre 2025; versione di produzione per tutti i clienti: a partire dalla settimana del 30 ottobre 2025**
+**Versione di anteprima: 23 ottobre 2025; versione di produzione per tutti i clienti: a partire dalla settimana del 13 novembre 2025**
 
-<!--This feature was in Preview and Prod starting on Sept 25 and it was removed on Oct 9. It was released to Preview again on Oct 23 and Prod rollout started Oct 30. Then it was removed from Prod again on Nov 4. -->
 
 >[!NOTE]
 >
@@ -476,7 +492,7 @@ Per informazioni, vedere [Creare argomenti coda](/help/quicksilver/manage-work/r
 
 >[!NOTE]
 >
->Questa funzione è stata temporaneamente rimossa dagli ambienti di anteprima e produzione il 15 ottobre 2025.
+>Questa funzione è stata temporaneamente rimossa sia dall’anteprima che dalla produzione il 15 ottobre. È disponibile in Anteprima e disponibile in Produzione con un rollout graduale a partire dal 13 novembre 2025.
 
 È stata aggiornata la finestra di dialogo per la modifica delle spese di un progetto, in modo che corrisponda ad altre aree dell’applicazione. La finestra di dialogo aggiornata è disponibile quando si modificano le spese in progetti o modelli.
 
