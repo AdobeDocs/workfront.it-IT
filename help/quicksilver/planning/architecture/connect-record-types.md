@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 90d472307ffb6b524154696b4c14d725db44b079
 workflow-type: tm+mt
-source-wordcount: '2764'
+source-wordcount: '2838'
 ht-degree: 0%
 
 ---
@@ -85,8 +85,11 @@ Per un esempio di connessione di tipi di record e record, vedere [Esempio di con
 <td> 
    <p> Prodotti aggiuntivi</p> </td> 
    <td> 
-   <p> Oltre ad Adobe Workfront, per collegare risorse AEM a tipi di record Planning è necessario disporre di una licenza Adobe Experience Manager Assets e di un’integrazione tra AEM Assets e Workfront.<p>
-    Per informazioni, consulta <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p>
+   <p> Oltre ad Adobe Workfront, se si desidera connettere tipi di record con oggetti delle applicazioni seguenti è necessario disporre dei seguenti elementi:</p>
+   <ul><li><p>Una licenza Adobe Experience Manager Assets e un’integrazione tra AEM Assets e Workfront per collegare le risorse AEM ai tipi di record Planning.</p>
+   <p>Per informazioni, consulta <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p></li>
+   <li><p> Una licenza Adobe GenStudio for Performance Marketing per collegare i tipi di record ai marchi GenStudio</p>
+   <p>Per informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introduzione ad Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -225,6 +228,10 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
      Viene visualizzata una nuova scheda di connessione per il record o il tipo di oggetto selezionato.
 
+   * Un **Marchio** da Adobe GenStudio for Performance Marketing dalla sezione **Adobe GenStudio**
+
+     ![Selezione connessione marchio GenStudio](assets/brand-genstudio-connection-selection.png)
+
 1. Aggiorna il campo **Name** con il nome del nuovo campo connesso, come verrà visualizzato nella vista tabella o nella pagina record del tipo di record originale. In questo modo viene creata la colonna o il campo del record collegato nella vista a tabella del tipo di record originale. Per impostazione predefinita, il nome del campo corrisponde al nome del record o dell&#39;oggetto a cui ci si connette.
 
    >[!TIP]
@@ -232,7 +239,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    >È possibile avere più connessioni allo stesso record o tipo di oggetto. Se non si modifica il nome del campo connesso, Workfront aggiunge un numero dopo il nome del record connesso per indicare il numero di tipi di record connessi in base allo stesso nome.
 
 1. Aggiorna il campo **Descrizione** aggiungendo informazioni sul campo record connesso. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
-1. (Condizionale) Quando si collegano tipi di record da due aree di lavoro diverse o da un record e un oggetto risorsa di Adobe Experience Manager, selezionare **Consenti più record**. Selezionandolo, si indica che si consente agli utenti di aggiungere più record quando il campo del tipo di record connesso viene visualizzato nei record originali. Questa opzione è selezionata per impostazione predefinita.
+1. (Condizionale) Quando si collegano tipi di record di due aree di lavoro diverse, un tipo di record e un oggetto risorsa di Adobe Experience Manager oppure un tipo di record e un marchio GenStudio, selezionare **Consenti più record**. Selezionandolo, si indica che si consente agli utenti di aggiungere più record quando il campo del tipo di record connesso viene visualizzato nei record originali. Questa opzione è selezionata per impostazione predefinita.
 
    ![Nuova connessione al tipo di record da un&#39;altra area di lavoro](assets/new-connection-allow-multiple-records-box.png)
 
@@ -271,10 +278,10 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
    >[!NOTE]
    >
-   >L&#39;amministratore di Workfront può mappare i campi di Workfront Planning sui campi di Experience Manager Assets tramite la mappatura dei metadati in Workfront. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >L&#39;amministratore di Workfront può mappare i campi di Workfront Planning sui campi di Experience Manager Assets tramite la mappatura dei metadati in Workfront. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
-1. (Condizionale) Quando si sceglie di connettersi a Experience Manager Assets o a un tipo di record di Workfront Planning, scegliere una delle opzioni seguenti nell&#39;area **Aspetto record**:
+1. (Condizionale) Quando si sceglie di connettersi a Experience Manager Assets, a un tipo di record di Workfront Planning o a un marchio GenStudio, scegliere una delle opzioni seguenti nell&#39;area **Aspetto record**:
 
    * **Nome e immagine**: nel campo del record connesso verranno visualizzati sia il nome che la miniatura o l&#39;icona dei record connessi. Questa è l&#39;opzione predefinita.
    * **Nome**: nel campo del record connesso verrà visualizzato solo il nome dei record connessi.
@@ -349,7 +356,10 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
    >[!NOTE]
    >
-   > Gli aggregatori non sono disponibili quando si collegano tipi di record a Experience Manager Assets.
+   > Gli aggregatori non sono disponibili quando si collegano tipi di record ai seguenti elementi:
+   >* Experience Manager Assets
+   >* Marchi GenStudio.
+   >
 
    Selezionare una delle opzioni seguenti:
 
