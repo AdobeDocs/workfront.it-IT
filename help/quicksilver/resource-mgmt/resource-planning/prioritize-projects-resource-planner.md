@@ -107,7 +107,7 @@ Per modificare la Priorità di pianificazione del progetto:
 >
 >Per assegnare la priorità ai progetti in Portfolio Optimizer, l’azienda deve disporre di un pacchetto Prime o Workfront di livello superiore.
 >
->Per ulteriori informazioni sui pacchetti Workfront, vedere [Pacchetti e prezzi Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
+>Per ulteriori informazioni sui pacchetti Workfront, vedere [Pacchetti e prezzi Adobe Workfront](https://business.adobe.com/it/products/workfront/pricing.html).
 >
 >Per informazioni sull&#39;assegnazione delle priorità ai progetti in Portfolio Optimizer, vedere [Assegnare priorità ai progetti in Portfolio Optimizer](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
