@@ -4,14 +4,14 @@ product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: Gestire le licenze disponibili nel sistema
 description: In qualità di amministratore di Adobe Workfront, puoi accedere a informazioni sul tuo account Workfront, compreso il numero di licenze acquistate per la tua organizzazione e il numero di tali licenze attualmente in uso.
-author: Lisa, Becky
+author: Lisa, Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
+source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 0%
+source-wordcount: '1180'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ In qualità di amministratore di Adobe Workfront, puoi accedere a informazioni s
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,15 +49,15 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 >[!NOTE]
 >
->Le seguenti istruzioni sono valide solo per i nuovi piani.
+>Le seguenti istruzioni si applicano ai pacchetti Select, Prime e Ultimate.
 >
->Per il piano Select:
+>Per il pacchetto Select:
 >
 >1. Gli amministratori di sistema non possono impostare limiti per i gruppi home.
 >2. Gli amministratori di sistema possono visualizzare solo il numero totale di licenze utilizzate in tutti i gruppi home.
 >3. Gli amministratori di gruppi non possono accedere alla pagina Licenze.
 >
->Per i piani di Prime e Ultimate:
+>Per i pacchetti Prime e Ultimate:
 >
 >1. Gli amministratori di sistema possono aggiungere gruppi predefiniti alla pagina Licenze per visualizzare l&#39;utilizzo delle licenze in tali gruppi e impostare i limiti di licenza.
 >2. Gli amministratori di gruppi possono accedere alla pagina Licenze e visualizzare l&#39;utilizzo delle licenze dei gruppi da loro gestiti che sono state aggiunte alla pagina Licenze dagli amministratori di sistema.
@@ -133,8 +133,6 @@ Per ulteriori informazioni sui limiti di decisione per bozze e documenti, consul
 ![Ripartizione mensile delle decisioni](assets/monthly-decision-allotment.png)
 
 ## Aggiungere o rimuovere un gruppo predefinito nella pagina Licenze {#add-or-remove-a-home-group-to-the-licenses-page}
-
-<!--A Business or Enterprise Workfront Plan is required to use this feature. For more information about the various plans available, see [Workfront Plans.](https://www.workfront.com/plans)-->
 
 Ogni utente può essere assegnato a un solo Gruppo Predefinito. Workfront fornisce un conteggio delle licenze orientato al gruppo calcolando il numero di licenze allocate e attualmente utilizzate in ciascun Gruppo predefinito.
 

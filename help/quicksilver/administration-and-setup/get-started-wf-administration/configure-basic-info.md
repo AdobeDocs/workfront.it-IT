@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
+source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
 workflow-type: tm+mt
 source-wordcount: '805'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -25,7 +25,7 @@ Durante la configurazione del sistema Adobe Workfront, puoi gestire i dettagli d
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,7 +60,7 @@ Per accedere alla pagina Informazioni cliente:
 
 1. Nel pannello a sinistra, fai clic su **Sistema** > **Informazioni cliente**.
 
-   A seconda del piano Workfront acquistato, alcune sezioni potrebbero non essere presenti nella pagina Informazioni cliente. Se hai bisogno di sapere quale piano Workfront utilizza la tua organizzazione, contatta il rappresentante del tuo account.
+   A seconda del pacchetto Workfront acquistato, alcune sezioni potrebbero non essere presenti nella pagina Informazioni cliente. Contatta il rappresentante commerciale per sapere quale pacchetto Workfront utilizza la tua organizzazione.
 
    Le sezioni disponibili nell’area Informazioni cliente sono:
 
