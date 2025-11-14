@@ -6,10 +6,10 @@ description: È possibile modificare le informazioni sulle attività in un elenc
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
 source-wordcount: '2851'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -31,7 +31,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,7 +44,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Standard<p>
-   <p>Lavoro o superiore</p>
+   <p>Work o successiva</p>
     </td> 
   </tr> 
   <tr> 
@@ -124,9 +124,9 @@ Quando si modificano attività in un elenco, tenere presente quanto segue:
 
   Puoi scegliere se salvare le modifiche apportate da Workfront nel modo seguente:
 
-      * Automaticamente, dopo ogni modifica
-     * Manualmente, solo dopo aver fatto clic su Salva.
-  
+   * Automaticamente, dopo ogni modifica
+   * Manualmente, solo dopo aver fatto clic su Salva.
+
   Per informazioni su come configurare quando Workfront salva le modifiche apportate alle attività in un elenco, vedere la sezione [Modifica modalità pianificazione prima di modificare le attività in un elenco](#modify-plan-mode-before-editing-tasks-in-a-list) in questo articolo.
 
 * Gli altri utenti devono aggiornare le proprie pagine prima di poter visualizzare gli aggiornamenti apportati a un&#39;attività.

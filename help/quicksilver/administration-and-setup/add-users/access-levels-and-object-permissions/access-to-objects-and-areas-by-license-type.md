@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '457'
 ht-degree: 24%
 
 ---
@@ -33,21 +33,21 @@ La tabella seguente indica il livello massimo di accesso (Modifica o Visualizza)
   >
   >Questo articolo contiene informazioni sull’accesso agli oggetti per i tipi di licenza legacy. Per informazioni sui nuovi tipi di licenza, vedere [Panoramica sui nuovi livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) e [Panoramica sulle nuove licenze](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
-|   | Piano | Lavoro | Revisiona | Richiesta | Esterno |
+|   | Piano | Lavoro | Rivedi | Richiesta | Esterno |
 |---|---|---|---|---|---|
-| Progetti | Modifica | Modifica (senza autorizzazioni di creazione) | Visualizza | Visualizza (solo la pagina Dettagli) | Nessun accesso |
-| Attività | Modifica | Modifica | Visualizza | Visualizza | Visualizza |
+| Progetti | Modifica | Modifica (senza autorizzazioni di creazione) | Visualizzazione | Visualizza (solo la pagina Dettagli) | Nessun accesso |
+| Attività | Modifica | Modifica | Visualizzazione | Visualizzazione | Nessun accesso |
 | Problemi | Modifica | Modifica | Modifica | Modifica | Nessun accesso |
-| Portfolio | Modifica | Visualizza | Visualizza | Nessun accesso | Nessun accesso |
-| Programmi | Modifica | Visualizza | Visualizza | Nessun accesso | Nessun accesso |
-| Report, dashboard e calendari | Modifica | Visualizza | Visualizza | Visualizza&#42; | Visualizza (solo per i calendari, nessuna autorizzazione di condivisione) |
+| Portfolio | Modifica | Visualizzazione | Visualizzazione | Nessun accesso | Nessun accesso |
+| Programmi | Modifica | Visualizzazione | Visualizzazione | Nessun accesso | Nessun accesso |
+| Report, dashboard e calendari | Modifica | Visualizzazione | Visualizzazione | Visualizza&#42; | Visualizza (solo per i calendari, nessuna autorizzazione di condivisione) |
 | Filtri, viste e raggruppamenti | Modifica | Modifica | Modifica | Modifica | Nessun accesso |
 | Documenti | Modifica | Modifica | Modifica | Modifica | Visualizza (nessuna autorizzazione di condivisione) |
-| Utenti | Modifica | Visualizza | Visualizza | Visualizza | Visualizza |
-| Team | Modifica | Modifica | Visualizza | Visualizza | Nessun accesso |
+| Utenti | Modifica | Visualizzazione | Visualizzazione | Visualizzazione | Visualizzazione |
+| Team | Modifica | Modifica | Visualizzazione | Visualizzazione | Nessun accesso |
 | Modelli | Modifica | Nessun accesso | Nessun accesso | Nessun accesso | Nessun accesso |
-| Dati finanziari | Modifica | Visualizza (solo l&#39;area Finanziario in Dettagli progetto) | Visualizza | Nessun accesso | Nessun accesso |
-| Gestione risorse | Modifica | Visualizza | Visualizza | Nessun accesso | Nessun accesso |
+| Dati finanziari | Modifica | Visualizza (solo l&#39;area Finanziario in Dettagli progetto) | Visualizzazione | Nessun accesso | Nessun accesso |
+| Gestione risorse | Modifica | Visualizzazione | Visualizzazione | Nessun accesso | Nessun accesso |
 | Pianificazione scenario | Modifica | Modifica | Modifica | Nessun accesso | Nessun accesso |
 | Workfront Goals | Modifica | Modifica | Modifica | Modifica | Nessun accesso |
 

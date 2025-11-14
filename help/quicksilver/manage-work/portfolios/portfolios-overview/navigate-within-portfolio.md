@@ -6,10 +6,10 @@ description: Spostarsi all’interno di un portfolio
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 0%
+source-wordcount: '597'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,7 @@ Per ulteriori informazioni sui portfolio, vedere [Comprendere la metodologia del
 ## Requisiti di accesso
 
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,7 +45,7 @@ Per ulteriori informazioni sui portfolio, vedere [Comprendere la metodologia del
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso di [!UICONTROL Edit] ai progetti  e ai portafogli </p>  </td> 
+   <td> <p>Accesso di [!UICONTROL Edit] ai progetti [!UICONTROL] e ai portafogli [!UICONTROL]</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
@@ -141,10 +141,8 @@ Per informazioni sui programmi, vedere la sezione [Creare e gestire i programmi]
 
    >[!IMPORTANT]
    >
-   >Per poter accedere a [!UICONTROL Portfolio Optimizer], la società deve disporre dei seguenti pacchetti:
+   >La società deve disporre di un pacchetto [!UICONTROL Prime] o versione successiva [!DNL Workfront] per poter accedere a [!UICONTROL Portfolio Optimizer].
    >
-   >[!UICONTROL Prime] o versione successiva [!DNL Workfront]\
-   >[!UICONTROL Attività] o versione successiva [!DNL Workfront]
 
    Per informazioni sull&#39;utilizzo di Portfolio Optimizer, vedere la sezione [Gestione progetti in Portfolio Optimizer: article index](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md).
 

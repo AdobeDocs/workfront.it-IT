@@ -2,10 +2,10 @@
 title: [Titolo attività]
 description: [Titolo attività]
 draft: Probably
-source-git-commit: 32bf4cccee672b84e7c3e5b188a71979c0ac241e
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: 149
-ht-degree: 0%
+source-wordcount: 144
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <tbody> 
   <tr> 
    <td role="rowheader">Piano Adobe Workfront*</td> 
-   <td> <p>[Qualsiasi, Pro, Business, Enterprise] o superiore</p> </td> 
+   <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
@@ -35,7 +35,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
-   <td>&lbrack;Specificare informazioni speciali sul prodotto. Rimuovi questa riga se la funzionalità è in Workfront [Corretto]</td> 
+   <td>[Specificare informazioni speciali sul prodotto. Rimuovi questa riga se la funzionalità è in Workfront [Corretto]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 

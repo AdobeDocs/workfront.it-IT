@@ -6,10 +6,10 @@ description: Quando si assegnano utenti o ruoli a un’attività, questi vengono
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 0%
+source-wordcount: '574'
+ht-degree: 4%
 
 ---
 
@@ -38,7 +38,7 @@ Le ore di allocazione rappresentano la quantità totale di tempo per cui una ris
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ Le ore di allocazione rappresentano la quantità totale di tempo per cui una ris
   <tr> 
    <td>Licenza Adobe Workfront</td> 
    <td> <p>Standard</p>
-   <p>Lavoro o superiore</p>
+   <p>Work o successiva</p>
    </td> 
   </tr> 
   <tr> 
@@ -61,7 +61,10 @@ Le ore di allocazione rappresentano la quantità totale di tempo per cui una ris
   <tr> 
    <td>Autorizzazioni oggetto</td>
    <td><p>Autorizzazioni di contribuzione o di livello superiore per l'attività</p>
-   <p>Modificare le autorizzazioni per aggiornare le ore di allocazione nella casella Modifica attività quando si modificano attività utilizzando la precedente esperienza. Non è più possibile gestire le ore di allocazione nella casella Modifica attività durante la modifica delle attività nella nuova esperienza.</p> <p>Per informazioni, vedere <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Modifica attività</a>.</p></td>
+   <p>Modificare le autorizzazioni per aggiornare le ore di allocazione nella casella Modifica attività quando si modificano attività utilizzando la precedente esperienza.</p> 
+   <p><b>NOTA</b></p>
+   <p>
+   Non è più possibile gestire le ore di allocazione nella casella Modifica attività durante la modifica delle attività nella nuova esperienza.</p> <p>Per informazioni, vedere <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Modifica attività</a>.</p></td>
   </tr>
  </tbody>
 </table>

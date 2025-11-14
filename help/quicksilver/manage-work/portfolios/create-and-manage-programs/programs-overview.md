@@ -7,9 +7,9 @@ description: Un Programma è una raccolta di progetti che hanno caratteristiche 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1c64fe00-12e3-49f6-b864-b8f89ed9140d
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '491'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Per creare e gestire i portfolio, è necessario disporre dei seguenti diritti di
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] pacchetto</td> 
    <td> <p>Qualsiasi</p>
-   <p>[!UICONTROL Business] o versione successiva</p> </td> 
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
@@ -119,7 +119,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    * Un programma può avere più progetti.
 
   Per informazioni sulla creazione di progetti e portfolio, consulta i seguenti articoli:
-   * [Creare un progetto](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
+   * [Crea un progetto](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
    * [Creare un portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
 
 

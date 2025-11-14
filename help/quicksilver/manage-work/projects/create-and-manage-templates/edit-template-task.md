@@ -7,7 +7,7 @@ description: Dopo aver creato un modello, è possibile modificare le informazion
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
 source-wordcount: '4633'
 ht-degree: 4%
@@ -40,7 +40,7 @@ Per informazioni sulla creazione di un modello, vedere [Creare un modello di pro
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -382,14 +382,14 @@ I nomi dei moduli doganali vengono visualizzati solo se sono presenti moduli per
 
 1. Fai clic su **Aggiungi assegnatario** per aggiungere un nuovo assegnatario all&#39;attività modello. È possibile assegnare utenti, ruoli o team a un&#39;attività. È possibile avere più assegnatari per un&#39;attività. Alle attività future verranno assegnate le stesse risorse quando verranno create da questa attività modello.
 1. (Facoltativo) Se hai più assegnatari, seleziona il pulsante di opzione **Proprietario** per indicare quale utente o ruolo è considerato il Proprietario dell&#39;attività o l&#39;assegnatario principale. Workfront contrassegna il primo utente o ruolo assegnato a un&#39;attività modello come Proprietario o Assegnatario principale.
-1. (Condizionale e facoltativo) Se il vincolo dell&#39;attività è Lavoro calcolato o Impegno, specifica **Allocazione %** (percentuale di allocazione) per ogni assegnatario. Quantità di tempo della pianificazione dell&#39;assegnatario che può trascorrere per l&#39;attività. Se si modifica la percentuale di allocazione per un assegnatario, verranno modificate le ore pianificate di un&#39;attività.
-1. (Condizionale e facoltativo) Se il vincolo attività è Semplice, specifica le **Ore** di ciascun assegnatario
+1. (Condizionale e facoltativo) Se il tipo di durata **** è **Lavoro calcolato** o **Impegno sostenuto**, specificare il **% di allocazione** (percentuale di allocazione) per ogni assegnatario. Quantità di tempo della pianificazione dell&#39;assegnatario che può trascorrere per l&#39;attività. Se si modifica la percentuale di allocazione per un assegnatario, verranno modificate le ore pianificate di un&#39;attività.
+1. (Condizionale e facoltativo) Se il **Tipo di Durata** è **Semplice**, specifica le **Ore** di ciascun assegnatario
 
    Oppure
 
    Specifica il numero totale di **ore pianificate** per l&#39;attività modello. In questo modo le ore totali vengono distribuite equamente tra tutti gli assegnatari.
 
-1. (Condizionale e facoltativo) Se il vincolo attività è Semplice, specifica la **Durata** dell&#39;attività modello in giorni. Questa diventerà la durata dell&#39;attività creata da questo modello.
+1. (Condizionale e facoltativo) Se il **Tipo di durata** è Semplice, specifica la **Durata** dell&#39;attività modello in giorni. Questa diventerà la durata dell&#39;attività creata da questo modello.
 1. (Facoltativo) Seleziona un ruolo dal menu a discesa **Ruolo dell&#39;assegnatario**. Questo è il ruolo che l’assegnatario può svolgere per questa attività futura. Nel menu a discesa vengono visualizzati solo i ruoli associati a ciascun assegnatario nel relativo profilo.
 1. (Facoltativo) Continua a modificare le sezioni seguenti, a seconda delle informazioni che desideri modificare.
 
@@ -570,7 +570,7 @@ Dopo aver aperto la casella **Modifica attività modello** nella nuova esperienz
 
    ![Assegnazioni di modifica attività modello](assets/template-task-edit-assignments.png)
 
-1. Nel campo Cerca persone, ruolo o team, inizia a digitare il nome di un assegnatario, quindi selezionalo quando viene visualizzato nell’elenco
+1. Nel campo **Cerca persone, mansione o team**, inizia a digitare il nome di un assegnatario, quindi selezionalo quando viene visualizzato nell&#39;elenco
 
    Oppure
 
