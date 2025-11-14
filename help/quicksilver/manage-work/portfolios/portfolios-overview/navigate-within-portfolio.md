@@ -45,7 +45,7 @@ Per ulteriori informazioni sui portfolio, vedere [Comprendere la metodologia del
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso di [!UICONTROL Edit] ai progetti [!UICONTROL] e ai portafogli [!UICONTROL]</p>  </td> 
+   <td> <p>Accesso di [!UICONTROL Edit] ai progetti  e ai portafogli </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
