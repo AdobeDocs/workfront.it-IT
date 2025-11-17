@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: 48bfeb3b950ca1149a919aa204d77db6aa501e01
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 24%
@@ -18,7 +18,7 @@ ht-degree: 24%
 
 # Accesso a oggetti e aree per tipo di licenza
 
-<!-- Audited: 5/2025 -->
+<!-- Audited: 11/2025 -->
 
 La tabella seguente indica il livello massimo di accesso (Modifica o Visualizza) consentito da ciascuna licenza Adobe Workfront per gli oggetti e le aree in Workfront.
 

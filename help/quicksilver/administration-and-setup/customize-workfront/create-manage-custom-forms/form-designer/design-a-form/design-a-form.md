@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: d6a54f22cfae73403278868b9c22727d1cb58e39
 workflow-type: tm+mt
-source-wordcount: '6933'
+source-wordcount: '6897'
 ht-degree: 5%
 
 ---
@@ -60,7 +60,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 1. Fare clic su **Nuovo modulo personalizzato.**
 1. Seleziona i tipi di oggetto a cui vuoi allegare il modulo personalizzato, quindi fai clic su **Continua**.
 
-   ![Scegli il tipo di oggetto](assets/choose-object-type.jpg)
+   ![Scegli tipi di oggetto](assets/new-custom-form-select-objects.png)
 
 1. Nell&#39;area **Aggiungi nome modulo** digitare il titolo del modulo personalizzato.
 1. (Facoltativo) Se desideri aggiungere altri tipi di oggetto al modulo in modo che possa essere allegato a più oggetti, fai clic sull&#39;icona **Aggiungi** ![icona Aggiungi oggetti](assets/add-objects-icon.png) accanto a **Tipi di oggetto**, quindi seleziona il tipo desiderato nel menu che viene visualizzato. È possibile ripetere questa operazione per aggiungere tutti i tipi di oggetto desiderati.
@@ -651,12 +651,12 @@ Per aggiungere una ricerca esterna:
       <td role="rowheader">Percorso JSON</td>
       <td><p>Digita o incolla il percorso JSON per l’API.</p> <p>Questa opzione consente di estrarre i dati dal JSON restituito dall’URL API. Serve come modo per selezionare quali valori dall’interno del JSON appariranno nelle opzioni a discesa.</p><p>Ad esempio, se l'URL API restituisce JSON nel seguente formato, puoi utilizzare "$.data[*].name" per selezionare Stati Uniti e Canada come opzioni a discesa:</br>
       <pre>
-      &lbrace;
-       dati: &lbrace;
+      {
+       dati: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Per ulteriori informazioni sul percorso JSON e sulla verifica della scrittura del percorso JSON corretto, fare riferimento a <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -983,13 +983,9 @@ Per aggiungere un file Adobe XD:
 >
 >Le informazioni presenti in questa sezione si riferiscono ad Adobe Workfront Planning, una funzionalità aggiuntiva di Adobe Workfront.
 >
->Per accedere a Workfront Planning, è necessario disporre dei seguenti elementi:
+>Per accedere a Workfront Planning è necessario disporre di pacchetti aggiuntivi.
 >
->* Un nuovo pacchetto Workfront e una nuova licenza. Workfront Planning non è disponibile per i piani o le licenze legacy di Workfront.
->* Pacchetto aggiuntivo per Workfront Planning.
->* L’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.
->
-> Per un elenco completo dei requisiti per accedere a Workfront Planning, vedere [Panoramica dell&#39;accesso ad Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+>Per un elenco completo dei requisiti per accedere a Workfront Planning, vedere [Panoramica dell&#39;accesso ad Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 > 
 >Per ulteriori informazioni su Workfront Planning, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 

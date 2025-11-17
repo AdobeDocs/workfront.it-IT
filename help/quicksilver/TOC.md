@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 00483638948941c933e5f8bc8cb3edaf8e43fea1
+source-git-commit: 48bfeb3b950ca1149a919aa204d77db6aa501e01
 workflow-type: tm+mt
-source-wordcount: '13536'
+source-wordcount: '13544'
 ht-degree: 2%
 
 ---
@@ -127,7 +127,7 @@ ht-degree: 2%
          * [23.3 Altri miglioramenti](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
          * [Aggiornamenti look and feel durante il periodo di rilascio della versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * Versione 23.2 {#release-23-2}
-         * [Panoramica sulla versione di 23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
+         * Panoramica sulla versione di [23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 Miglioramenti per gli amministratori](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
          * [23.2 Miglioramenti di Agile](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
          * [23.2 Miglioramenti alla gestione dei progetti](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
@@ -1199,7 +1199,7 @@ ht-degree: 2%
          * [Panoramica della data di inizio prevista del progetto](manage-work/projects/planning-a-project/project-projected-start-date.md)
       * Creare progetti {#create-projects}
          * [Crea progetti: indice articolo](manage-work/projects/create-projects/create-projects-overview.md)
-         * [Creare un progetto](manage-work/projects/create-projects/create-project.md)
+         * [Crea un progetto](manage-work/projects/create-projects/create-project.md)
          * [Richiedi un progetto](manage-work/projects/create-projects/request-project.md)
          * [Creare un progetto utilizzando un modello](manage-work/projects/create-projects/create-project-from-template.md)
          * [Importare un progetto da Microsoft Project](manage-work/projects/create-projects/import-project-from-ms-project.md)
@@ -2146,6 +2146,7 @@ ht-degree: 2%
       * [Gestire le connessioni record dagli oggetti Workfront](planning/records/manage-records-in-planning-section.md)
       * [Esportare i dettagli di un record](planning/records/export-the-record-page.md)
       * [Esporta record dalla vista tabella](planning/records/export-records-from-the-table-view.md)
+      * [Aggiungere una pagina Record connessi a un record](planning/records/add-a-connected-records-page-to-a-record.md)
       * [Creazione di oggetti Workfront da Workfront Planning durante la connessione ai record](planning/records/create-workfront-objects-from-workfront-planning.md)
       * [Configurare le automazioni di Adobe Workfront Planning](planning/records/configure-automations-to-create-records.md)
       * [Creazione di oggetti mediante le automazioni dei record di Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
@@ -2517,9 +2518,9 @@ ht-degree: 2%
       * [Configurare e utilizzare le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso JWT](wf-api/api/oauth-app-jwt-flow.md)
       * [Configura e utilizza le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso PKCE](wf-api/api/oauth-app-pkce-flow.md)
       * [Obsolescenza di API-Internal](wf-api/api/deprecation-api-internal.md)
-      * [Novità della versione 21 dell&#39;API](/help/quicksilver/wf-api/api/new-api-version-21.md)
+      * [Novità della versione 21](/help/quicksilver/wf-api/api/new-api-version-21.md) dell&#39;API
       * [Novità dell&#39;API versione 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [Novità della versione 19 dell&#39;API](wf-api/api/new-api-version-19.md)
+      * [Novità della versione 19](wf-api/api/new-api-version-19.md) dell&#39;API
       * [Novità della versione 18 dell’API](wf-api/api/new-api-version-18.md)
       * [Novità della versione 17 dell’API](wf-api/api/new-api-version-17.md)
       * [Novità della versione 16 dell’API](wf-api/api/new-api-version-16.md)

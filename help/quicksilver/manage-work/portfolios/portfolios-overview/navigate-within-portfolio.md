@@ -6,9 +6,9 @@ description: Spostarsi all’interno di un portfolio
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: 6948f9462c59bad9e6db67d6169e5f9dec4157fe
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '583'
 ht-degree: 2%
 
 ---
@@ -45,7 +45,7 @@ Per ulteriori informazioni sui portfolio, vedere [Comprendere la metodologia del
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso di [!UICONTROL Edit] ai progetti  e ai portafogli </p>  </td> 
+   <td> <p>Accesso di [!UICONTROL Edit] ai progetti [!UICONTROL] e ai portafogli [!UICONTROL]</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
@@ -88,9 +88,8 @@ Per ulteriori informazioni sui portfolio, vedere [Comprendere la metodologia del
 
 ## Spostarsi all’interno di un portfolio
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront].
+{{step1-to-portfolios}}
 
-1. Fai clic su [!UICONTROL Portfolio].
 1. Dal menu a discesa **[!UICONTROL Filtro]**, seleziona quanto segue:
 
    * **[!UICONTROL Portafogli di cui sono proprietario]**: include un elenco di portafogli per i quali si è designati come [!UICONTROL Portfolio Manager].
