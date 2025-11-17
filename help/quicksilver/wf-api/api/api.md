@@ -9,7 +9,7 @@ feature: Workfront API
 recommendations: noDisplay, noCatalog
 role: Developer
 exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
-source-git-commit: 076fc9c5737cbb0eed8f0691c38f54f659931f7f
+source-git-commit: 2e2a407abea63c43a9b02b2ff4cdfcab98b3d81c
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 1%
@@ -34,8 +34,8 @@ Questa sezione contiene i seguenti articoli:
 * [Configurare e utilizzare le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso del codice di autorizzazione](../../wf-api/api/oauth-app-code-token-flow.md)
 * [Configurare e utilizzare le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso JWT](../../wf-api/api/oauth-app-jwt-flow.md)
 * [Configurare e utilizzare le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso PKCE](../../wf-api/api/oauth-app-pkce-flow.md)
-* [Novità della versione 21](../../wf-api/api/new-api-version-20.md) dell&#39;API
-* [Novità dell&#39;API versione 20](../../wf-api/api/new-api-version-21.md)
+* [Novità della versione 21](../../wf-api/api/new-api-version-21.md) dell&#39;API
+* [Novità dell&#39;API versione 20](../../wf-api/api/new-api-version-20.md)
 * [Novità della versione 19](../../wf-api/api/new-api-version-19.md) dell&#39;API
 * [Novità della versione 18](../../wf-api/api/new-api-version-18.md) dell&#39;API
 * [Novità della versione 17](../../wf-api/api/new-api-version-17.md) dell&#39;API
