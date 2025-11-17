@@ -4,9 +4,9 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 00483638948941c933e5f8bc8cb3edaf8e43fea1
+source-git-commit: 81e95c6ebab98ad67d0364d0f3b7a63ce4568498
 workflow-type: tm+mt
-source-wordcount: '1680'
+source-wordcount: '1696'
 ht-degree: 3%
 
 ---
@@ -130,7 +130,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">È ora disponibile la nuova versione dell'integrazione di Salesforce </a>
-            <p>Per rimanere aggiornati sulle recenti modifiche apportate all’API di Workfront, è stata creata una nuova integrazione di Salesforce. La nuova integrazione offre le stesse funzionalità della versione precedente ed è stata aggiornata per evitare la perdita di funzionalità obsolete nell’API.</p>
+            <p>Per rimanere aggiornati sulle recenti modifiche apportate all’API di Workfront, è stata creata una nuova integrazione di Salesforce. La nuova integrazione offre le stesse funzionalità della versione precedente ed è stata aggiornata per evitare la perdita di funzionalità obsolete nell’API.</p><p>NOTA: l’integrazione Workfront for Salesforce, inclusa la nuova versione, non sarà disponibile dopo il **28 febbraio 2026**. </p>
         </td>
         <td>venerdì 30 ottobre 2025</td>
         <td>venerdì 30 ottobre 2025</td>
@@ -152,7 +152,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicare un report in un dashboard Canvas</a><p>![!BADGE fuori pianificazione]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicare un report in un dashboard Canvas</a><p>![BADGE fuori pianificazione]{type=Neutral}</p>
             <p>È ora possibile duplicare un rapporto indicatore KPI, tabella o grafico in un dashboard di Canvas dopo averlo creato. Una volta duplicato, puoi modificare il rapporto in base alle esigenze prima di salvarlo.</p>
         </td>
         <td>venerdì 23 ottobre 2025</td>
@@ -320,12 +320,12 @@ Per offrire integrazioni più stabili e scalabili, stiamo passando a un approcci
 * Workfront per Salesforce.
 
 È consigliabile utilizzare l&#39;automazione e l&#39;integrazione di Workfront per le esigenze di integrazione dell&#39;organizzazione con Google Workspace.
-Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Aggiornamenti dei corsi di formazione
 
