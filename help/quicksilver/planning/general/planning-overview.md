@@ -1,19 +1,19 @@
 ---
-title: Panoramica di Adobe Workfront Planning
+title: Introduzione a Adobe Workfront Planning
 description: Adobe Workfront Planning è una funzionalità aggiuntiva di Adobe Workfront. Puoi creare aree di lavoro completamente personalizzabili per definire flussi di lavoro che soddisfino le esigenze di ogni unità organizzativa dell’azienda.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '2046'
 ht-degree: 1%
 
 ---
 
-# Panoramica di Adobe Workfront Planning
+# Introduzione a Adobe Workfront Planning
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 Questo articolo contiene informazioni generali su Workfront Planning.
 
-Per l&#39;elenco completo degli articoli che contengono la documentazione per Workfront Planning, vedere [Adobe Workfront Planning: indice articolo](/help/quicksilver/planning/planning-information.md).
+Per l&#39;elenco completo degli articoli che contengono la documentazione per Workfront Planning, vedere [Informazioni generali su Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md).
 
 ## Introduzione ad Adobe Workfront Planning
 
@@ -394,7 +394,7 @@ Per un elenco aggiornato delle funzionalità rilasciate, vedere [Attività di Ad
 
 ## Risorse aggiuntive per Workfront Planning
 
-* [Adobe Workfront Planning: indice articolo](/help/quicksilver/planning/planning-information.md): indice di tutti gli articoli che contengono la documentazione su Workfront Planning, raggruppati per area di interesse.
+* [Informazioni generali su Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md): indice di tutti gli articoli che contengono la documentazione su Workfront Planning, raggruppati per area di interesse.
 * [Panoramica dell&#39;Assistente di Adobe Workfront Planning AI](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): con l&#39;Assistente di Workfront AI per Planning è possibile cercare record oppure creare, aggiornare ed eliminare record utilizzando i comandi e consentendo all&#39;assistente di eseguire il lavoro desiderato.
 
   <!--
@@ -402,7 +402,7 @@ Per un elenco aggiornato delle funzionalità rilasciate, vedere [Attività di Ad
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [Moduli Adobe Workfront Planning per Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): con i moduli Adobe Workfront Planning è possibile attivare uno scenario quando si verificano eventi in Workfront Planning. Puoi anche creare, leggere, aggiornare ed eliminare record oppure eseguire una chiamata API personalizzata all’account Adobe Workfront Planning.
+* [Moduli Adobe Workfront Planning per Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): con i moduli Adobe Workfront Planning è possibile attivare uno scenario quando si verificano eventi in Workfront Planning. Puoi anche creare, leggere, aggiornare ed eliminare record oppure eseguire una chiamata API personalizzata all’account Adobe Workfront Planning.
 
 * [Nozioni di base sulle API di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md): l&#39;API di Adobe Workfront Planning ha l&#39;obiettivo di semplificare la creazione di integrazioni con Planning introducendo un&#39;architettura REST-ful che funziona tramite HTTP.
 

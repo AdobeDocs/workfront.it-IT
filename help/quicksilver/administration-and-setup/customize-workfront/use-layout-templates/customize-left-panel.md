@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 0%
+source-wordcount: '1134'
+ht-degree: 1%
 
 ---
 
@@ -39,7 +39,7 @@ Dopo aver configurato un modello di layout, è necessario assegnarlo agli utenti
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -88,7 +88,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
     </thead> 
     <tbody> 
      <tr> 
-      <td>Progetto </td> 
+      <td>Progetto [!UICONTROL]</td> 
       <td>Nome di un progetto</td> 
       <td>[!UICONTROL Tasks], [!UICONTROL Project Details], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issues], [!UICONTROL Risks], [!UICONTROL Approvals], [!UICONTROL Baselines], [!UICONTROL Billing Rates], [!UICONTROL Billing Records], [!UICONTROL Expenses], [!UICONTROL Hours], [!UICONTROL Bilanciatore dei carichi di lavoro], [!UICONTROL People], [!UICONTROL Utilization], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics], [!UICONTROL Planning]*, [!UICONTROL Custom Application]**</td> 
      </tr> 
@@ -113,7 +113,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
       <td>[!UICONTROL Projects], [!UICONTROL Program Details], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Planning]*, [!UICONTROL Custom application]**</td> 
      </tr> 
      <tr> 
-      <td>Modello </td> 
+      <td>Modello [!UICONTROL]</td> 
       <td>Nome di un modello di progetto</td> 
       <td>[!UICONTROL Template Tasks], [!UICONTROL Template Details], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Risks], [!UICONTROL Expenses], [!UICONTROL People], [!UICONTROL Approvals], [!UICONTROL Billing Rates], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Gruppo]</td> 
      </tr> 
@@ -136,7 +136,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
      </tr> 
      <tr> 
       <td>[!UICONTROL Progetti]</td> 
-      <td>Progetta <img src="assets/projects-in-main-menu.png"> nel menu principale  <img src="assets/main-menu-icon.png"></td> 
+      <td>Progetta <img src="assets/projects-in-main-menu.png"> nel menu principale [!UICONTROL] <img src="assets/main-menu-icon.png"></td> 
       <td>[!UICONTROL Progetti]</td> 
      </tr> 
      <tr> 
@@ -200,7 +200,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
     </tbody> 
    </table>
 
-   *La società deve acquistare una licenza aggiuntiva per Workfront Planning per poter aggiungere quest&#39;area al pannello sinistro di progetti, portfolio e programmi. Per ulteriori informazioni, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
+   *La società deve acquistare una licenza aggiuntiva per Workfront Planning per poter aggiungere quest&#39;area al pannello sinistro di progetti, portfolio e programmi. Per ulteriori informazioni, vedere [Introduzione ad Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
 
    **Le applicazioni personalizzate devono essere create separatamente prima di diventare disponibili come opzioni del menu principale. Per ulteriori informazioni, vedere [Creare un&#39;applicazione personalizzata per Workfront con Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 

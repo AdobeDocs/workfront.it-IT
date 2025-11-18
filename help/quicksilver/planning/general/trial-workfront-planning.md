@@ -7,9 +7,9 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 # Introduzione alla versione di prova gratuita di Adobe Workfront Planning
 
 Adobe Workfront offre attualmente una prova gratuita di 60 giorni di pianificazione Adobe Workfront.
+
+Lo studio è disponibile tra le seguenti date: 1 febbraio - 1 aprile 2025.
 
 Questa prova rappresenta un&#39;opportunità per vedere come Planning collega una strategia di grandi dimensioni al lavoro quotidiano che la rende possibile.
 
@@ -46,14 +48,33 @@ Prima che tutti gli utenti dell&#39;organizzazione possano accedere alla version
 Per rivedere e accettare l&#39;accordo legale, eseguire le operazioni seguenti:
 
 1. Accedi ad Adobe Workfront come amministratore di sistema.
-1. Vai a **Configurazione** > **Sistema** > **Preferenze**.
-1. Fare clic su **Rivedi contratto di prova** nella sezione **Altre preferenze**.
+1. (Condizionale) Quando la versione di prova è aperta, gli amministratori di sistema ricevono un invito alla versione di prova con un collegamento al punto in cui accettano il contratto legale.
 
-<!-- finish these steps-->
+   Oppure
+
+   Vai a **Configurazione** > **Sistema** > **Preferenze**.
+1. Fare clic su **Rivedi contratto di prova** nella sezione **Altre preferenze**.
+1. Dopo aver esaminato il contratto, fare clic su **Accetta**.
+
+   La tua organizzazione è ora iscritta alla prova di Workfront Planning fino al 1° aprile 2025.
+
+   Le seguenti autorizzazioni sono concesse ai dati disponibili nelle **aree di lavoro per le best practice** nell&#39;area **Prova di pianificazione**:
+
+   * Tutti gli amministratori di sistema dispongono delle autorizzazioni di gestione.
+   * Tutti gli altri utenti dispongono delle autorizzazioni di visualizzazione.
+1. (Facoltativo) Inizia ad esplorare la scheda **Aree di lavoro consigliate** e condividi le aree di lavoro o i relativi oggetti con altri utenti.
+
+   Per ulteriori informazioni sull&#39;utilizzo di Workfront Planning, vedere [Introduzione ad Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+
+<!-- finish these steps and check to see if the UI elements are spelled correctly; also if the trial agreement is accessible according to the steps aboe - ???  -->
 
 ## Panoramica delle date importanti
 
 Di seguito sono riportate alcune date importanti associate all&#39;offerta di prova gratuita di Adobe Workfront Planning:
+
+* 1 febbraio 2025 - Lancio della versione di prova di Workfront Planning
+* 1 aprile 2025 - chiusura della versione di prova di Workfront Planning. Workfront protegge i dati per 6 mesi dopo la fine della versione di prova.
+* 30 novembre 2025 - Workfront non rende più disponibili i dati dopo tale data.
 
 <!--## Overview of the access to Workfront Planning -->
 

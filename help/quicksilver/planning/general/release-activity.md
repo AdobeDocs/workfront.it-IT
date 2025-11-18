@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '7386'
+source-wordcount: '7392'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning,
 
 Nella tabella seguente viene illustrata la sequenza temporale del rilascio di Workfront Planning:
 
-| Ora | Versione |
+| Ora | del prossimo maggio (?) |
 |--------------------|-----------------------------------------|
 | Agosto - dicembre 2023 | Versione beta di Workfront Planning* |
 | Gennaio - agosto 2024 | Rilascio anticipato di Workfront Planning* |
@@ -134,7 +134,7 @@ In questo aggiornamento sono incluse le seguenti funzionalità:
 
 * A seconda della configurazione, il modulo di richiesta può visualizzare tutti i campi del tipo di record, ad eccezione dei campi dei tipi seguenti:
 
-   * Persone
+   * People
    * Campi connessi (include le connessioni con le risorse Experience Manager)
    * Campi di ricerca connessi
    * Formula
@@ -615,7 +615,7 @@ Alcune delle informazioni sulla pagina di destinazione includono:
 
 * Tutorial introduttivo per Workfront Planning
 
-Per ulteriori informazioni, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+Per ulteriori informazioni, vedere [Introduzione ad Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ### Nuova esperienza di onboarding per Workfront Planning
 
@@ -642,7 +642,7 @@ L’operatore UNIQUE rimuove i duplicati dai valori dei campi di ricerca e mostr
 L’operatore UNIQUE è disponibile per tutti i tipi di campo, ad eccezione dei seguenti:
 
 * Paragrafo
-* Persone
+* People
 * Campo casella di controllo
 
 Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
@@ -663,7 +663,7 @@ Produzione: 30 maggio 2024
 
 Anteprima: da determinare
 
-È stato aggiornato l’aspetto dell’icona per l’area Pianificazione nel menu principale. Per informazioni, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+È stato aggiornato l’aspetto dell’icona per l’area Pianificazione nel menu principale. Per informazioni, vedere [Introduzione ad Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ### Ridenominazione del programma Workfront Planning
 
@@ -918,7 +918,7 @@ Anteprima: da determinare
 
 Abbiamo rinominato l’area Maestro nel Main Menu in Planning.
 
-Per una panoramica di Adobe Workfront Planning, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+Per una panoramica di Adobe Workfront Planning, vedere [Introduzione ad Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ### Nuova esperienza durante l’eliminazione di un tipo di record
 
@@ -1057,8 +1057,8 @@ Anteprima: da determinare
 
 È possibile aggiornare l&#39;altezza della riga a una delle seguenti dimensioni:
 
-* Piccolo
-* Medio
+* Piccola
+* Canale
 * Alto.
 
 Per ulteriori informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
@@ -1130,7 +1130,7 @@ Abbiamo riprogettato e migliorato l’esperienza di aggiunta di opzioni o oggett
 
 * Selezione singola
 * Selezione multipla
-* Persone
+* People
 * Campi record collegati (quando si collegano tipi di record di capacità di pianificazione o oggetti Workfront)
 
 Con il nuovo miglioramento, viene visualizzata prima una casella più piccola e più reattiva.

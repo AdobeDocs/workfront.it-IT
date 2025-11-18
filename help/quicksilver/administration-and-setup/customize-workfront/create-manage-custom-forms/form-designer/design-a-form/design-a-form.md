@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d6a54f22cfae73403278868b9c22727d1cb58e39
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '6897'
+source-wordcount: '6899'
 ht-degree: 5%
 
 ---
@@ -651,12 +651,12 @@ Per aggiungere una ricerca esterna:
       <td role="rowheader">Percorso JSON</td>
       <td><p>Digita o incolla il percorso JSON per l’API.</p> <p>Questa opzione consente di estrarre i dati dal JSON restituito dall’URL API. Serve come modo per selezionare quali valori dall’interno del JSON appariranno nelle opzioni a discesa.</p><p>Ad esempio, se l'URL API restituisce JSON nel seguente formato, puoi utilizzare "$.data[*].name" per selezionare Stati Uniti e Canada come opzioni a discesa:</br>
       <pre>
-      &lbrace;
-       dati: &lbrace;
+      {
+       dati: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Per ulteriori informazioni sul percorso JSON e sulla verifica della scrittura del percorso JSON corretto, fare riferimento a <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -987,7 +987,7 @@ Per aggiungere un file Adobe XD:
 >
 >Per un elenco completo dei requisiti per accedere a Workfront Planning, vedere [Panoramica dell&#39;accesso ad Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 > 
->Per ulteriori informazioni su Workfront Planning, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+>Per ulteriori informazioni su Workfront Planning, vedere [Introduzione ad Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 È possibile visualizzare i record connessi da Workfront Planning in un campo personalizzato di un oggetto Workfront aggiungendo un campo personalizzato della connessione Planning al modulo personalizzato di un oggetto.
 

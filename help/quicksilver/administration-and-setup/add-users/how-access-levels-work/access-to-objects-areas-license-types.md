@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: b333ea67bb909ca55306f6474832c275ebad590c
+source-git-commit: 29af5a01c1d5fcec35ac0061a478e5721f6770c0
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '411'
 ht-degree: 23%
 
 ---
@@ -40,16 +40,16 @@ La tabella seguente indica il livello massimo di accesso (Modifica o Visualizza)
     <tr>
         <td>Progetti</td>
         <td>Modifica</td>
-        <td>Visualizza</td>
-        <td>Visualizza</td>
+        <td>Visualizzazione</td>
+        <td>Visualizzazione</td>
         <td>Nessun accesso</td>
     </tr>
     <tr>
         <td>Attività</td>
         <td>Modifica</td>
-        <td>Visualizza</td>
-        <td>Visualizza</td>
-        <td>Visualizza</td>
+        <td>Visualizzazione</td>
+        <td>Visualizzazione</td>
+        <td>Nessun accesso</td>
     </tr>
     <tr>
         <td>Problemi</td>
@@ -61,21 +61,21 @@ La tabella seguente indica il livello massimo di accesso (Modifica o Visualizza)
     <tr>
         <td>Portfolio</td>
         <td>Modifica</td>
-        <td>Visualizza</td>
-        <td>Visualizza</td>
+        <td>Visualizzazione</td>
+        <td>Visualizzazione</td>
         <td>Nessun accesso</td>
     </tr>
     <tr>
         <td>Programmi</td>
         <td>Modifica</td>
-        <td>Visualizza</td>
-        <td>Visualizza</td>
+        <td>Visualizzazione</td>
+        <td>Visualizzazione</td>
         <td>Nessun accesso</td>
     </tr>
     <tr>
         <td>Report, dashboard e calendari</td>
         <td>Modifica</td>
-        <td>Visualizza</td>
+        <td>Visualizzazione</td>
         <td>Visualizza*</td>
         <td>Visualizza (solo per i calendari, nessuna autorizzazione di condivisione)</td>
     </tr>
@@ -96,15 +96,15 @@ La tabella seguente indica il livello massimo di accesso (Modifica o Visualizza)
     <tr>
         <td>Utenti</td>
         <td>Modifica</td>
-        <td>Visualizza</td>
-        <td>Visualizza</td>
-        <td>Visualizza</td>
+        <td>Visualizzazione</td>
+        <td>Visualizzazione</td>
+        <td>Visualizzazione</td>
     </tr>
     <tr>
         <td>Team</td>
         <td>Modifica</td>
-        <td>Visualizza</td>
-        <td>Visualizza</td>
+        <td>Visualizzazione</td>
+        <td>Visualizzazione</td>
         <td>Nessun accesso</td>
     </tr>
     <tr>
@@ -124,14 +124,14 @@ La tabella seguente indica il livello massimo di accesso (Modifica o Visualizza)
     <tr>
         <td>Gestione risorse</td>
         <td>Modifica</td>
-        <td>Visualizza</td>
+        <td>Visualizzazione</td>
         <td>Nessun accesso</td>
         <td>Nessun accesso</td>
     </tr>
     <tr>
         <td>Pianificazione scenario</td>
         <td>Modifica</td>
-        <td>Visualizza</td>
+        <td>Visualizzazione</td>
         <td>Nessun accesso</td>
         <td>Nessun accesso</td>
     </tr>

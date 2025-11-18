@@ -6,10 +6,10 @@ description: Puoi aggiungere un aggiornamento a un oggetto Adobe Workfront (prog
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '3201'
-ht-degree: 0%
+source-wordcount: '3203'
+ht-degree: 1%
 
 ---
 
@@ -68,7 +68,7 @@ Per ulteriori informazioni sul commento su schede, obiettivi e record in Workfro
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -421,7 +421,7 @@ La scheda **Commenti** è selezionata per impostazione predefinita.
    >
    >* Obiettivi
    >* Schede ad hoc su bacheche
-   >* Record in Workfront Planning. Per informazioni, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
+   >* Record in Workfront Planning. Per informazioni, vedere [Introduzione ad Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
    >
 
    Per allegare un&#39;immagine all&#39;aggiornamento, effettuare una delle seguenti operazioni:

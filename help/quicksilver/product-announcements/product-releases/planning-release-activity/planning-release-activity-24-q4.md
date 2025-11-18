@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: d27f937b-e179-4f67-aebd-ed351440cb0f
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '382'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/p
 >
 >Versione di anteprima: 3 settembre 2024; produzione per rilascio rapido: con la versione 24.9 (12 settembre 2024); produzione per rilascio trimestrale: con la versione 24.10 (ottobre 2024)
 
-È ora possibile esportare la pagina dei dettagli o l&#39;anteprima di un record in un documento PDF.
+È ora possibile esportare la pagina dei dettagli di un record o l&#39;anteprima in un documento PDF.
 
 Prima di questo miglioramento, era possibile esportare la scheda dei dettagli di un record solo in un file Word (.docx).
 
@@ -68,4 +68,4 @@ Di seguito sono riportate alcune delle funzionalità principali di Adobe Workfro
 
 * Connettersi a tipi di oggetto da altri sistemi, creando un framework coerente per tutti i processi.
 
-Per ulteriori informazioni su Workfront Planning, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+Per ulteriori informazioni su Workfront Planning, vedere [Introduzione ad Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).

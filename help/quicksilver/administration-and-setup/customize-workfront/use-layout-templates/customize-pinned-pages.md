@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 4%
+source-wordcount: '574'
+ht-degree: 7%
 
 ---
 
@@ -33,7 +33,7 @@ Dopo aver configurato un modello di layout, è necessario assegnarlo agli utenti
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -98,7 +98,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
      >
      >* Per informazioni su Workfront Scenario Planner, vedere [Panoramica di Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
      >
-     >* Per informazioni su Workfront Planning, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+     >* Per informazioni su Workfront Planning, vedere [Introduzione ad Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
    * Fai clic su **Aggiungi dashboard**
       * Digita un nome descrittivo nel campo <!--**Quick link name**-->**Nome personalizzato**
