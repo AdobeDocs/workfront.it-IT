@@ -4,9 +4,9 @@ description: Le estensioni dell’interfaccia utente di Workfront, basate su Ado
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 1c2422f61e3db6fbe05cd03b9fbc1f17e906ebad
 workflow-type: tm+mt
-source-wordcount: '2178'
+source-wordcount: '2285'
 ht-degree: 0%
 
 ---
@@ -160,13 +160,13 @@ Per consentire applicazioni personalizzate nel menu principale di Workfront:
 Nella funzione ExtensionRegistration dovrebbe essere visualizzato il seguente codice. Questo codice è stato creato automaticamente dal modello. Questo codice può essere aggiunto per creare altre voci di menu. Assicurati di sostituire ID e URL.
 
     &quot;
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -176,18 +176,18 @@ Nella funzione ExtensionRegistration dovrebbe essere visualizzato il seguente co
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-    &rbrace;
+    }
     &quot;
 
 1. Aggiungi il seguente frammento di codice:
 
-   ![frammento di codice &#x200B;](assets/7-extension-registration-step1-from-sam.png)
+   ![frammento di codice ](assets/7-extension-registration-step1-from-sam.png)
 
    Questo esempio mostra una voce del menu principale. È necessario aggiornare ID, etichetta, icona e URL ai nomi corretti per l&#39;applicazione. Quando aggiungi più elementi, accertati che l’ID sia univoco.
 
@@ -438,6 +438,19 @@ Quindi, passa alla pagina specifica su cui desideri sviluppare nel browser. Apri
 Se la configurazione è stata completata correttamente, quando ricarichi la pagina del modello di layout in Workfront, verranno visualizzati i pulsanti dell’applicazione App Builder. Aggiungi i pulsanti dell’app al menu principale e al pannello sinistro per un oggetto e verifica che vengano visualizzati correttamente in tali aree.
 
 Istruzioni aggiuntive sono disponibili sul sito Adobe Developer, utilizzando un esempio da AEM: https://developer.adobe.com/uix/docs/guides/preview-extension-locally/
+
+### Disattiva il flag per consentire i test locali su Chrome versione 142 e successive
+
+In Chrome versione 142 sono state introdotte le limitazioni di accesso alla rete locale. Queste restrizioni possono interferire con gli ambienti di test locali.
+
+Per risolvere il problema, è necessario disabilitare il controllo dell&#39;accesso alla rete locale disattivando il flag corrispondente nelle impostazioni di Chrome: `chrome://flags/#local-network-access-check`.
+
+Per disattivare il flag
+
+1. Aprire Chrome e digitare `chrome://flags` nella barra degli indirizzi, quindi premere **Invio**.
+1. Nella barra di ricerca nella parte superiore, digitare **Controlli dell&#39;accesso alla rete locale**.
+1. Fai clic sul menu a discesa accanto al flag **Local Network Access Checks** e seleziona Disabled (Disattivato).
+1. Fare clic sul pulsante **Riavvia** visualizzato nella parte inferiore della schermata per applicare le modifiche.
 
 ## Pubblicare le applicazioni e approvare l’invio
 
