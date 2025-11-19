@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
-source-git-commit: 49a8f32b45aaf9de0274617714ad7cd45b4e7e74
+source-git-commit: 1bcb64fbcdf2cb8b40cb50e5a7d4f5768f3a712f
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -34,3 +34,5 @@ Per ulteriori informazioni su Data Connect, vedere gli articoli seguenti:
 * [Dizionario dati Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)
 * [Esempi di query Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md)
 * [Visualizzare le metriche di utilizzo di Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/view-usage-metrics.md)
+* [Utilizzare la visualizzazione dati Cronologia processo in Connessione dati](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
+* [Utilizzare la visualizzazione Aggiornamenti dati di monitoraggio in Connessione dati](/help/quicksilver/reports-and-dashboards/data-lake/use-the-monitoring-data-refreshes-view.md)
