@@ -7,10 +7,10 @@ description: L'indice di prestazioni dei costi (IPC) descrive la relazione a liv
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: f88b6ec019963ff6256e35b9c94eb4d1b7e99730
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
 -->
 
-L&#39;indice di prestazioni dei costi (IPC) descrive la relazione a livello di progetto o task tra il costo pianificato e il costo effettivo. I project manager esaminano questa metrica per identificare le attività o i progetti che registrano il sovraccosto in un determinato momento. Il costo può essere misurato in ore o in dollari, a seconda del metodo PIM (Performance Index Method). Per ulteriori informazioni sull&#39;impostazione del metodo di indicizzazione delle prestazioni, vedere [Impostare il metodo di indicizzazione delle prestazioni (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
+L&#39;indice di prestazioni dei costi (IPC) descrive la relazione a livello di progetto o task tra il costo pianificato e il costo effettivo. I project manager esaminano questa metrica per identificare le attività o i progetti che registrano il sovraccosto in un determinato momento. Il costo può essere misurato in ore o in valuta, a seconda del metodo PIM (Performance Index Method). Per ulteriori informazioni sull&#39;impostazione del metodo di indicizzazione delle prestazioni, vedere [Impostare il metodo di indicizzazione delle prestazioni (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
 
 Solo le organizzazioni che richiedono immissione di ore possono utilizzare l&#39;IPC. Inoltre, i valori PIM basati sui costi sono accurati solo nelle organizzazioni che dispongono di tassi di costo definiti per gli assegnatari delle attività (mansioni o utenti).
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
