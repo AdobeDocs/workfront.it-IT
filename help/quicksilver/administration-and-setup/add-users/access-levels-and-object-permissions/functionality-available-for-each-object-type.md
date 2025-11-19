@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: e894c1e2134d025420205c6575329a2a9079fadf
 workflow-type: tm+mt
 source-wordcount: '1563'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -27,7 +27,7 @@ Indica inoltre le azioni che gli amministratori di Workfront possono disabilitar
 
 >[!NOTE]
 >
->Questo articolo descrive le funzionalità disponibili per i livelli di accesso nel modello di piano Workfront corrente. Per visualizzare le funzionalità disponibili nel nuovo modello di piano, vedere [Funzionalità disponibili per ogni tipo di oggetto per i nuovi livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md).
+>Questo articolo descrive le funzionalità disponibili per i livelli di accesso nel modello di pacchetto Workfront corrente. Per visualizzare le funzionalità disponibili nel nuovo modello di pacchetto, vedere [Funzionalità disponibili per ogni tipo di oggetto per i nuovi livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md).
 
 ## Progetti
 
@@ -35,12 +35,12 @@ Solo gli utenti con una licenza Pianificazione possono avere accesso completo ai
 
 | Azione | Pianificatore | Collaboratore | Revisore | Richiedente | Utente esterno |
 |---|---|---|---|---|---|
-| Crea | ✓&#42; |  |  |  |  |
+| Creare | ✓&#42; |  |  |  |  |
 | Copia | ✓&#42; |  |  |  |  |
 | Elimina | ✓&#42; |  |  |  |  |
 | Condividi | ✓&#42; | ✓&#42; |  |  |  |
 | Condividi a livello di sistema | ✓&#42; |  |  |  |  |
-| Visualizza | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
+| Visualizzazione | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
 | Aggiungere un modulo personalizzato | ✓ |  |  |  |  |
 | Aggiornare i campi personalizzati | ✓ | ✓ |  |  |  |
 | Aggiungere un processo di approvazione | ✓ |  |  |  |  |
@@ -73,11 +73,11 @@ Solo gli utenti con una licenza Pianificazione possono avere accesso completo ai
 
 | Azione | Pianificatore | Collaboratore | Revisore | Richiedente | Utente esterno |
 |---|---|---|---|---|---|
-| Crea | ✓&#42; | ✓&#42; |  |  |  |
+| Creare | ✓&#42; | ✓&#42; |  |  |  |
 | Elimina | ✓&#42; | ✓&#42; |  |  |  |
 | Condividi | ✓&#42; | ✓&#42; |  |  |  |
 | Condividi a livello di sistema | ✓&#42; |  |  |  |  |
-| Visualizza | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Visualizzazione | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
 | Aggiungi predecessori | ✓ | ✓ |  |  |  |
 | Aggiungi problemi | ✓ | ✓ |  |  |  |
 | Modificare un’attività (escluso lo stato) | ✓ | ✓ |  |  |  |
@@ -105,12 +105,12 @@ Solo gli utenti con una licenza Pianificazione possono avere accesso completo ai
 
 | Azione | Pianificatore | Collaboratore | Revisore | Richiedente | Utente esterno |
 |---|---|---|---|---|---|
-| Crea | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Creare | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
 | Modifica | ✓ | ✓ | ✓ | ✓ |  |
 | Elimina | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
 | Condividi | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
 | Condividi a livello di sistema | ✓&#42; |  |  |  |  |
-| Visualizza | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Visualizzazione | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
 | Allegare moduli personalizzati | ✓ | ✓ | ✓ | ✓ |  |
 | Modifica campi personalizzati | ✓ | ✓ | ✓ | ✓ |  |
 | Approva problemi | ✓ | ✓ | ✓ | ✓ |  |
@@ -135,11 +135,11 @@ Solo gli utenti con una licenza Plan possono avere accesso completo ai portfolio
 
 | Azione | Pianificatore | Collaboratore | Revisore | Richiedente | Utente esterno |
 |---|---|---|---|---|---|
-| Crea | ✓&#42; |  |  |  |  |
+| Creare | ✓&#42; |  |  |  |  |
 | Elimina | ✓&#42; |  |  |  |  |
 | Condividi | ✓&#42; |  |  |  |  |
 | Condividi a livello di sistema | ✓&#42; |  |  |  |  |
-| Visualizza | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
+| Visualizzazione | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
 | Modifica dettagli | ✓ |  |  |  |  |
 | Allegare moduli personalizzati | ✓ |  |  |  |  |
 | Modifica campi personalizzati | ✓ |  |  |  |  |
@@ -159,11 +159,11 @@ Solo gli utenti con una licenza Pianificazione possono avere accesso completo ai
 
 | Azione | Pianificatore | Collaboratore | Revisore | Richiedente | Utente esterno |
 |---|---|---|---|---|---|
-| Crea | ✓&#42; |  |  |  |  |
+| Creare | ✓&#42; |  |  |  |  |
 | Elimina | ✓&#42; |  |  |  |  |
 | Condividi | ✓&#42; |  |  |  |  |
 | Condividi a livello di sistema | ✓&#42; |  |  |  |  |
-| Visualizza | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
+| Visualizzazione | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
 | Modifica dettagli | ✓ |  |  |  |  |
 | Allegare moduli personalizzati | ✓ |  |  |  |  |
 | Modifica campi personalizzati | ✓ |  |  |  |  |
@@ -183,14 +183,14 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
 
 | Azione | Pianificatore | Collaboratore | Revisore | Richiesta | Utente esterno |
 |---|---|---|---|---|---|
-| Crea | ✓&#42; |  |  |  |  |
+| Creare | ✓&#42; |  |  |  |  |
 | Elimina | ✓&#42; |  |  |  |  |
 | Visualizzare rapporti incorporati | ✓&#42; |  |  |  |  |
 | Condividi | ✓&#42; | ✓ | ✓ |  |  |
 | Condividere calendari e report pubblicamente | ✓&#42; |  |  |  |  |
 | Condividi a livello di sistema | ✓&#42; |  |  |  |  |
-| Viste | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
-| Modif | ✓ |  |  |  |  |
+| Visualizzazione | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
+| Modifica | ✓ |  |  |  |  |
 | Copia | ✓ |  |  |  |  |
 
 {style="table-layout:auto"}
@@ -228,7 +228,7 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
  </thead> 
  <tbody> 
   <tr> 
-   <td>Crea</td> 
+   <td>Creare</td> 
    <td>✓*</td> 
    <td>✓*</td> 
    <td>✓*</td> 
@@ -260,7 +260,7 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Visualizza</td> 
+   <td>Visualizzazione</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -284,12 +284,12 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
 
 | Azione | Pianificatore | Collaboratore | Revisore | Richiedente | Utente esterno |
 |---|---|---|---|---|---|
-| Crea | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Creare | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
 | Elimina (documenti e cartelle) | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
 | Condividi | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
 | Condividi pubblicamente (esternamente) | ✓&#42; |  |  |  |  |
 | Condividi a livello di sistema | ✓&#42; | ✓&#42; |  |  |  |
-| Visualizza | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
+| Visualizzazione | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
 | Modifica dettagli | ✓ | ✓ | ✓ | ✓ |  |
 | Scarica | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Pagamento | ✓ | ✓ | ✓ | ✓ |  |
@@ -344,7 +344,7 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
  </thead> 
  <tbody> 
   <tr> 
-   <td>Crea</td> 
+   <td>Creare</td> 
    <td>✓*</td> 
    <td> </td> 
    <td> </td> 
@@ -419,7 +419,7 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
  </thead> 
  <tbody> 
   <tr> 
-   <td>Crea</td> 
+   <td>Creare</td> 
    <td>✓*</td> 
    <td> </td> 
    <td> </td> 
@@ -475,11 +475,11 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
 
 | Azione | Pianificatore | Collaboratore | Revisore | Richiedente | Utente esterno |
 |---|---|---|---|---|---|
-| Crea | ✓&#42; |  |  |  |  |
+| Creare | ✓&#42; |  |  |  |  |
 | Elimina | ✓&#42; |  |  |  |  |
 | Condividi | ✓&#42; |  |  |  |  |
 | Condividi a livello di sistema | ✓&#42; |  |  |  |  |
-| Visualizza | ✓&#42; |  |  |  |  |
+| Visualizzazione | ✓&#42; |  |  |  |  |
 | Copia | ✓ |  |  |  |  |
 | Modifica dettagli modello | ✓ |  |  |  |  |
 
@@ -559,9 +559,9 @@ Solo gli utenti con una licenza Pianificazione possono avere accesso completo al
 
 ## Area Obiettivi Workfront
 
-| Azioni | Viste | Modif |
+| Azioni | Visualizzazione | Modifica |
 |---|---|---|
-| Crea |  | ✓ |
+| Creare |  | ✓ |
 | Modifica/elimina tutti gli obiettivi |  | ✓ |
 | Visualizza obiettivi nel menu principale | ✓ | ✓ |
 | Visualizzare l’area Obiettivi da un collegamento condiviso | ✓ | ✓ |
