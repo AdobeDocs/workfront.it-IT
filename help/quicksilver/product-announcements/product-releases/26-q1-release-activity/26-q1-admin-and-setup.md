@@ -4,9 +4,9 @@ description: Miglioramenti per gli amministratori del primo trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f6b46a3c9d3ad792fd55309a5aaf5e23a83e233d
+source-git-commit: eead7c3c22dff242cd2a875381f5a2ac901cc2bd
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,9 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 La data di immissione e l’ID immessi vengono ora memorizzati in moduli personalizzati, campi e sezioni. Puoi utilizzare queste opzioni dati nei rapporti come filtri, viste o raggruppamenti. Per visualizzarli nell&#39;elenco di moduli, campi o sezioni personalizzati in Configurazione, aggiungere Data immissione e Nome immesso come colonne in una visualizzazione nuova o esistente.
 
+>[!NOTE]
+>
+>La data di immissione e immessa per ID sono disponibili solo per i moduli personalizzati, i campi e le sezioni creati il 13 novembre 2025 o dopo tale data.
 
 ## Aggiornamenti ai nomi dei pulsanti durante la modifica di un modello di layout
 
