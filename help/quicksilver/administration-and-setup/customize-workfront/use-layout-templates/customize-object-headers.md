@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: 9507e04be7cdd33658b4958f3030b0d3359a9ef1
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 0%
+source-wordcount: '537'
+ht-degree: 3%
 
 ---
 
@@ -35,7 +35,7 @@ Dopo aver configurato un modello di layout, è necessario assegnarlo agli utenti
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -70,7 +70,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
-1. Nella sezione [!UICONTROL Campi intestazione], passare il puntatore del mouse sui campi visualizzati ed effettuare una delle operazioni seguenti:
+1. Nella sezione [!UICONTROL Campi intestazione], passa il puntatore del mouse sui campi correnti ed effettua una delle seguenti operazioni:
    * Fai clic sull&#39;icona **x** per rimuovere un campo
 
      Oppure
@@ -83,19 +83,15 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 1. È possibile avere fino a cinque campi nell&#39;intestazione di un oggetto.
 Se sono già stati selezionati cinque campi, è necessario rimuovere un campo prima di poterne aggiungere uno nuovo.
-1. Nella casella **Aggiungi campo** digitare il nome di un campo Workfront non modificabile che si desidera aggiungere, quindi selezionarlo quando viene visualizzato nell&#39;elenco. Il campo viene aggiunto a destra della casella Aggiungi campo e verrà visualizzato come primo campo nell&#39;angolo superiore sinistro dell&#39;intestazione dell&#39;oggetto.
+1. Nella casella **Aggiungi campo** digitare il nome di un campo personalizzato o di un campo Workfront nativo che si desidera aggiungere, quindi selezionarlo quando viene visualizzato nell&#39;elenco. Il campo viene aggiunto a destra della casella Aggiungi campo e verrà visualizzato come primo campo nell&#39;angolo superiore destro dell&#39;intestazione dell&#39;oggetto.
 
    >[!TIP]
    >
-   >* È possibile aggiungere solo campi che vengono visualizzati nell&#39;area Panoramica della sezione Dettagli dell&#39;oggetto e che non sono modificabili. I campi non modificabili sono campi che gli utenti non possono modificare manualmente. Vengono calcolati automaticamente da Workfront.
-   >
-   >* Puoi aggiungere campi modificabili che fanno già parte delle intestazioni predefinite (ad esempio, Proprietario progetto, Stato, Percentuale di completamento, Assegnazioni).
+   >* È possibile aggiungere qualsiasi campo personalizzato o qualsiasi campo nativo disponibile nell&#39;area Panoramica della sezione Dettagli di un oggetto. Ad esempio, solo i problemi hanno il campo Severity (Gravità) e tale campo non è disponibile per l’aggiunta a progetti o attività.
    >
    >* Quando aggiungi il campo &quot;Risolto da&quot; all’intestazione di un problema, il campo diventa &quot;Risolto da un problema, un’attività o un progetto&quot;, quando al problema è associato un oggetto di risoluzione.
 
-
    ![Aggiungi campo all&#39;intestazione](assets/add-field-to-header-in-lt-list.png)
-
 
 1. (Facoltativo) Trascina i campi in un ordine diverso.
 
