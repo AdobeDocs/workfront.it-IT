@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: 15ffe027c281782bcaa4df229badc134d91195a0
 workflow-type: tm+mt
-source-wordcount: '2046'
-ht-degree: 1%
+source-wordcount: '1998'
+ht-degree: 2%
 
 ---
 
@@ -27,14 +27,7 @@ ht-degree: 1%
 >
 >Le informazioni contenute in questo articolo si riferiscono ad Adobe Workfront Planning, una funzionalità aggiuntiva di Adobe Workfront.
 >
->Per poter accedere a tutte le funzionalità di Workfront Planning, è necessario disporre dei seguenti elementi:
->
->* Un nuovo pacchetto Workfront e una nuova licenza. Workfront Planning non è disponibile per i pacchetti o le licenze legacy di Workfront.
->* Un pacchetto di Workfront Planning.
->* L’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.
->
-> Per un elenco completo dei requisiti per accedere a Workfront Planning, vedere [Panoramica dell&#39;accesso ad Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
-> 
+>Per un elenco dei requisiti per accedere a Workfront Planning, vedere [Panoramica dell&#39;accesso ad Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
 Questo articolo contiene informazioni generali su Workfront Planning.
 
@@ -402,7 +395,7 @@ Per un elenco aggiornato delle funzionalità rilasciate, vedere [Attività di Ad
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [Moduli Adobe Workfront Planning per Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): con i moduli Adobe Workfront Planning è possibile attivare uno scenario quando si verificano eventi in Workfront Planning. Puoi anche creare, leggere, aggiornare ed eliminare record oppure eseguire una chiamata API personalizzata all’account Adobe Workfront Planning.
+* [Moduli Adobe Workfront Planning per Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): con i moduli Adobe Workfront Planning è possibile attivare uno scenario quando si verificano eventi in Workfront Planning. Puoi anche creare, leggere, aggiornare ed eliminare record oppure eseguire una chiamata API personalizzata all’account Adobe Workfront Planning.
 
 * [Nozioni di base sulle API di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md): l&#39;API di Adobe Workfront Planning ha l&#39;obiettivo di semplificare la creazione di integrazioni con Planning introducendo un&#39;architettura REST-ful che funziona tramite HTTP.
 
