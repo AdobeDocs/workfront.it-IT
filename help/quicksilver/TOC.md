@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: e73965653f1923168ff331dfdf05713f1902ba5a
+source-git-commit: 18e1bc979e252b2daddc68ae8e51e0af6265d72a
 workflow-type: tm+mt
-source-wordcount: '13556'
+source-wordcount: '13565'
 ht-degree: 2%
 
 ---
@@ -1756,6 +1756,7 @@ ht-degree: 2%
       * [Esempi di query Workfront Data Connect](reports-and-dashboards/data-lake/basic-query-examples.md)
       * [Visualizzare le metriche di utilizzo di Workfront Data Connect](reports-and-dashboards/data-lake/view-usage-metrics.md)
       * [Utilizzare la visualizzazione dati Cronologia processo in Connessione dati](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
+      * [Utilizzare la visualizzazione Aggiornamenti dati di monitoraggio in Connessione dati](/help/quicksilver/reports-and-dashboards/data-lake/use-the-monitoring-data-refreshes-view.md)
       * Query Analytics avanzate{#enhanced-analytics-queries}
          * [Query Analytics avanzate](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/enhanced-analytics-queries.md)
          * [Query KPI](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
