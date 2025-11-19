@@ -6,10 +6,10 @@ description: Utilizzare Adobe Experience Manager con l'integrazione Frame.io
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: cb2a17991a5562c6e734eaa0ada781d706dc5a77
+source-git-commit: 8c5202bcdb367266d31a2e056eed9a286f286518
 workflow-type: tm+mt
-source-wordcount: '1614'
-ht-degree: 0%
+source-wordcount: '1615'
+ht-degree: 1%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table>
   <tr>
@@ -44,7 +44,7 @@ ht-degree: 0%
    </td>
   </tr>
     <tr>
-   <td>Licenze Adobe Workfront
+   <td>Licenze di Adobe Workfront
    </td>
    <td>
   <p>Per configurare l’integrazione:</p>
@@ -121,7 +121,7 @@ Prima di iniziare la mappatura dei campi di metadati, è necessario configurare 
 
 Per configurare i campi metadati:
 
-1. Configura uno schema metadati in [!DNL Experience Manager Assets] come spiegato in [Configura la mappatura dei metadati delle risorse tra Adobe [!DNL Workfront] e [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+1. Configura uno schema metadati in [!DNL Experience Manager Assets] come spiegato in [Configura la mappatura dei metadati delle risorse tra Adobe [!DNL Workfront] e [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. Configurare i campi modulo personalizzati in Workfront. [!DNL Workfront] contiene molti campi personalizzati incorporati che è possibile utilizzare. Tuttavia, puoi anche creare campi personalizzati come descritto in [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
@@ -151,7 +151,7 @@ Puoi mappare qualsiasi campo supportato da Workfront a un tag in Experience Mana
 
 Dopo aver creato i tag in Experience Manager Assets, vengono visualizzati nel menu a discesa Tag della sezione Metadati. Per collegare un campo a un tag, selezionare `xcm:keywords` nel menu a discesa del campo Experience Manager Assets nell&#39;area di mappatura dei metadati.
 
-Per ulteriori informazioni sui tag in Experience Manager Assets, tra cui come creare e gestire i tag, vedere [Amministrazione dei tag](https://experienceleague.adobe.com/it/docs/experience-manager-64/administering/contentmanagement/tags).
+Per ulteriori informazioni sui tag in Experience Manager Assets, tra cui come creare e gestire i tag, vedere [Amministrazione dei tag](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags).
 
 **Campi schema metadati personalizzati Experience Manager Assets**
 
@@ -221,7 +221,7 @@ Quando questa opzione è abilitata, qualsiasi risorsa inviata ad Adobe Experienc
 
 Puoi inviare documenti da Workfront a Experience Manager Assets o Assets Essentials. I documenti caricati e inviati da Workfront ad Assets Essentials vengono comunque conteggiati nell’archiviazione complessiva dei documenti.
 
-Assets inviato ad Experience Manager tramite questa integrazione ha un limite di dimensioni di **5 GB**.
+Assets inviato ad Experience Manager tramite questa integrazione ha un limite di dimensioni di **5o TB**.
 
 <!--In the Preview environment, Assets sent to Experience Manager through this integration have a size limit of **30 GB**.-->
 
