@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 9507e04be7cdd33658b4958f3030b0d3359a9ef1
+source-git-commit: edc83693ef068e50aed06324f006cd8aa70ac019
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '571'
 ht-degree: 3%
 
 ---
@@ -88,6 +88,8 @@ Se sono già stati selezionati cinque campi, è necessario rimuovere un campo pr
    >[!TIP]
    >
    >* È possibile aggiungere qualsiasi campo personalizzato o qualsiasi campo nativo disponibile nell&#39;area Panoramica della sezione Dettagli di un oggetto. Ad esempio, solo i problemi hanno il campo Severity (Gravità) e tale campo non è disponibile per l’aggiunta a progetti o attività.
+   >
+   >* Quando un utente modifica un campo personalizzato nell’intestazione che è contenuto in un modulo personalizzato non allegato all’oggetto, il modulo personalizzato viene aggiunto automaticamente all’oggetto.
    >
    >* Quando aggiungi il campo &quot;Risolto da&quot; all’intestazione di un problema, il campo diventa &quot;Risolto da un problema, un’attività o un progetto&quot;, quando al problema è associato un oggetto di risoluzione.
 
