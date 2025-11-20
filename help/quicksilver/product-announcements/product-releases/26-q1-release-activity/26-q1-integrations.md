@@ -4,9 +4,9 @@ description: Miglioramenti delle integrazioni per il primo trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 81e95c6ebab98ad67d0364d0f3b7a63ce4568498
+source-git-commit: 192df9ef08f75b3a6a6e9a50908b6da6e861bdd6
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,16 @@ Questa pagina descrive i miglioramenti alle integrazioni apportati con la versio
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del primo trimestre 2026, consulta [Panoramica sulla versione del primo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Selettore di risorse aggiornato per l’integrazione nativa di Adobe Workfront for Experience Manager Assets
+
+
+>[!NOTE]
+>
+>Anteprima: 20 novembre 2025
+>Versione rapida di produzione: 11 dicembre 2025\
+>Produzione per tutti: 16 gennaio 2026
+
+Il selettore delle risorse è stato aggiornato nell’integrazione Adobe Workfront for Experience Manager Assets. Con questo aggiornamento, ora puoi selezionare e richiamare le raccolte AEM direttamente in Workfront.
 
 ## È ora disponibile la nuova versione dell’integrazione di Salesforce
 
