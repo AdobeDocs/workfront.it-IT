@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 40722f2b-f8b2-4dc5-805e-2b434a0d46c3
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: f4043daeb7a7dad84b6232b5ac133fd59ca64292
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 0%
+source-wordcount: '360'
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,7 @@ Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, 
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,8 +51,25 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ## Scopri quali moduli personalizzati utilizzano un particolare campo personalizzato o widget
 
+Per visualizzare l’utilizzo di un campo nell’elenco di tutti i campi personalizzati:
+
 {{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **Forms personalizzato**.
 1. Fai clic su **Campi**, cerca il campo o il widget nella colonna **Nome**, quindi visualizza la colonna **Forms** per vedere quali moduli personalizzati utilizzano il campo o il widget.
 1. (Facoltativo) Fai clic sul nome di uno di questi moduli personalizzati per passare al modulo e considerare le modifiche da apportare al modulo in caso di modifica del campo o del widget.
+
+Per visualizzare l’utilizzo di un campo all’interno di un modulo personalizzato:
+
+{{step-1-to-setup}}
+
+1. Nel pannello a sinistra, fai clic su **Forms personalizzato**.
+1. Aprire un modulo personalizzato e aggiungere un campo dalla raccolta oppure selezionare un campo esistente nel modulo.
+
+   L&#39;indicatore di utilizzo a destra del progettista del modulo mostra il numero di altri moduli personalizzati che utilizzano questo campo.
+
+1. Fare clic su **Visualizza Forms correlato**.
+
+   Nell&#39;elenco dei moduli è possibile fare clic su qualsiasi nome di modulo per aprire il modulo e visualizzare le modalità di utilizzo del campo. Un indicatore mostra se ogni modulo è attivo o inattivo.
+
+
