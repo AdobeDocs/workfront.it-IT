@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 5d7cc28ebb1c7d7401a60ef4fc383fc90ed20631
+source-git-commit: 0d79b04c58d6a0a1c8de7f83d7b941e75b1a88f5
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 0%
+source-wordcount: '1465'
+ht-degree: 1%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima ed è in fase di rilascio in un rollout graduale in produzione.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 Un&#39;azienda è un&#39;unità organizzativa in [!DNL Adobe Workfront] che può rappresentare l&#39;organizzazione, un reparto all&#39;interno dell&#39;organizzazione o un cliente con cui si lavora. È possibile aggiungere società a [!DNL Workfront] e utilizzarle a scopo di pianificazione finanziaria, reporting, definire autorizzazioni per gli oggetti e mantenere riservate le informazioni.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -105,9 +105,9 @@ Per aggiungere o modificare una società:
 
 1. Aggiorna le seguenti informazioni nella sezione **Informazioni di base**:
 
-   * **Nome società** <span class="preview"> o **Nome**</span>: digitare un nome per la società.
+   * **Nome**: digitare un nome per la società.
    * **È attivo**: quando questa opzione è abilitata, gli utenti possono trovare la società e allegarla ai progetti che creano e modificano. Una società inattiva non può essere collegata a progetti. Questa opzione è attivata per impostazione predefinita.
-   * **Questa è la società principale** <span class="preview">o **è la società principale**</span>: assegna la società come società principale della tua organizzazione. L’azienda principale in genere rappresenta l’account Workfront dove lavora la maggior parte degli utenti.
+   * **È principale**: assegna la società come società principale della tua organizzazione. L’azienda principale in genere rappresenta l’account Workfront dove lavora la maggior parte degli utenti.
 
      È possibile che una sola azienda o nessuna azienda sia designata come società principale, ma non è possibile che più aziende siano designate come società principali. Per ulteriori informazioni, vedere [Creare e modificare livelli di accesso personalizzati](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -141,11 +141,7 @@ Per aggiungere o modificare una società:
 
    Per informazioni sulla creazione di moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Condizionale) Se stai creando una società, fai clic su **[!UICONTROL Crea società]** <span class="preview">o **Salva**.</span>
-
-   Oppure
-
-   Se stai modificando una società esistente, fai clic su **[!UICONTROL Salva modifiche]** <span class="preview">o **Salva**.</span>
+1. Fai clic su **Salva**.
 
 ## Elimina società
 
@@ -179,13 +175,9 @@ Per ulteriori informazioni sulla condivisione degli oggetti, vedere [Panoramica 
 
 Quando un amministratore [!DNL Workfront] assegna un gruppo a una società, gli amministratori del gruppo ottengono l&#39;accesso [!UICONTROL Gestione] alla società in [!UICONTROL Configurazione]. Ciò include l&#39;accesso alla pagina [!UICONTROL Aziende] in [!UICONTROL Configurazione], in cui possono visualizzare e gestire la società associata al loro gruppo.
 
-Con questo accesso alla pagina [!UICONTROL Società], un amministratore di gruppo può assegnare un gruppo a una società, ma deve trattarsi di una società creata dall&#39;amministratore del gruppo. Se il livello di accesso dell&#39;amministratore del gruppo non è configurato con accesso amministrativo alle società, il campo [!UICONTROL Gruppo] è obbligatorio quando l&#39;amministratore del gruppo crea la società. Il relativo <span class="preview">asterisco</span> o titolo in grassetto indica quanto segue:
+Con questo accesso alla pagina [!UICONTROL Società], un amministratore di gruppo può assegnare un gruppo a una società, ma deve trattarsi di una società creata dall&#39;amministratore del gruppo. Se il livello di accesso dell&#39;amministratore del gruppo non è configurato con accesso amministrativo alle società, il campo [!UICONTROL Gruppo] è obbligatorio quando l&#39;amministratore del gruppo crea la società. L&#39;asterisco indica quanto segue:
 
-<span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
 ![È richiesta la finestra di dialogo per la nuova società con il gruppo](assets/group-admin-add-company-group-required.png)
-
-Immagine di esempio nell’ambiente di produzione:
-![Il gruppo è obbligatorio per la società](assets/group-admin-add-company.png)
 
 Per informazioni su come gli utenti ottengono l&#39;accesso amministrativo alle aziende nel loro livello di accesso, vedere [Concedere agli utenti l&#39;accesso amministrativo ad alcune aree](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
