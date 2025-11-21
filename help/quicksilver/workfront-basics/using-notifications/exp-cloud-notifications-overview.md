@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 4f0ab97409ea959d195dd0bf856d53982402e7fc
+source-git-commit: 5068386e314e9c4c75ec5f9142c9f101b2c1e43f
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '664'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,11 @@ ht-degree: 0%
 
 # Panoramica delle notifiche di Experience Cloud
 
-Adobe Workfront sta unificando tutti i prodotti di esperienze digitali (DX) in un unico sistema di notifica coerente denominato Notifiche di Experience Cloud. A partire da febbraio 2026, i servizi di notifica Workfront legacy inizieranno automaticamente la migrazione al sistema di notifica centralizzato di Adobe.
+Adobe Workfront sta unificando tutti i prodotti di esperienze digitali (DX) in un unico sistema di notifica coerente denominato Notifiche di Experience Cloud. A partire da febbraio 2026 o circa, i servizi di notifica Workfront legacy inizieranno automaticamente la migrazione al sistema di notifica centralizzato di Adobe.
 
-Dopo la migrazione, potrai accedere a tutte le notifiche da Adobe Workfront e da altre applicazioni Adobe DX in un’unica posizione, semplificando così la tua comunicazione e la gestione delle preferenze.
+Dopo questa transizione, puoi accedere a tutte le notifiche in Adobe Workfront e altre applicazioni Adobe DX in un’unica posizione, semplificando così il modo in cui rimani informato e gestisci le preferenze.
 
 ![Annunci](assets/announcements-center.png)
-
 
 ## Perché stiamo facendo questo cambiamento
 
@@ -35,8 +34,9 @@ Workfront fa parte della suite di prodotti Adobe per l’esperienza digitale. Il
 ## Cosa cambia
 
 * Una singola icona Notifiche ha sostituito l’icona di notifica Workfront nell’intestazione superiore.
-* È ora possibile accedere alle impostazioni delle notifiche tramite il nuovo pannello Notifiche di Experience Cloud e la pagina Tutte le notifiche.
+* È ora possibile accedere alle impostazioni delle notifiche personali tramite il nuovo pannello Notifiche di Experience Cloud e la pagina Tutte le notifiche. In precedenza, si accedeva a questi nel profilo utente.
 * Sono disponibili nuove opzioni di filtro e consegna.
+* La personalizzazione delle righe dell’oggetto della notifica e-mail non sarà più disponibile.
 
 ## Cosa rimane lo stesso
 
@@ -47,7 +47,6 @@ Workfront fa parte della suite di prodotti Adobe per l’esperienza digitale. Il
 * Workfront continuerà a attivare le notifiche in base ai tuoi elementi di lavoro.
 
 * I dati e le autorizzazioni di Workfront rimarranno invariati.
-
 
 ## Visualizzare nuove notifiche in Experience Cloud
 
@@ -69,7 +68,6 @@ Workfront fa parte della suite di prodotti Adobe per l’esperienza digitale. Il
 >
 >Se non riesci ad accedere alle impostazioni delle notifiche personali, rivolgiti al tuo amministratore.
 
-
 1. Nell&#39;angolo superiore destro di Workfront, fai clic sull&#39;icona **Notifiche** ![Icona Notifiche](assets/bell-icon.png).
 
 1. Nell&#39;angolo superiore destro del pannello **Experience Cloud** fare clic sull&#39;icona **Impostazioni**![Impostazioni](assets/settings-icon.png).
@@ -82,8 +80,6 @@ Workfront fa parte della suite di prodotti Adobe per l’esperienza digitale. Il
 
 1. (Facoltativo) Per interrompere la ricezione di determinati tipi di notifiche, deseleziona la casella per ciascun tipo attualmente selezionato. Le modifiche vengono salvate automaticamente.
 
-   ![Selezioni tipo di notifica](assets/select-notification-types.png)
-
 ## Domande frequenti
 
 +++Le notifiche esistenti andranno perse?
@@ -93,15 +89,16 @@ No. Le notifiche storiche rimarranno accessibili in Workfront, ma le nuove notif
 
 +++ I miei utenti dovranno fare qualcosa?
 
-Generalmente, no. Gli amministratori di Workfront verificheranno innanzitutto la configurazione, quindi gli utenti noteranno la nuova icona Notifiche dopo il passaggio ad Experience Cloud.
+Non all’inizio. Gli amministratori di Workfront verificheranno innanzitutto la configurazione, quindi gli utenti noteranno la nuova icona Notifiche dopo il passaggio ad Experience Cloud. Da lì, dovranno imparare ad accedere alle loro notifiche personali.
 +++
 
 +++Cosa succede se la mia organizzazione non è pronta a passare ad Experience Cloud?
 
-Se devi riprogrammare la transizione, coordinati con il team Adobe Services. Tuttavia, tutti i clienti devono passare alla nuova esperienza di notifica, pertanto si consiglia di adottarla in precedenza.
+Se devi riprogrammare la transizione, coordinati con il team del tuo account o con l’Assistenza clienti. Tuttavia, tutti i clienti devono passare alla nuova esperienza di notifica, pertanto si consiglia di adottarla in precedenza.
 +++
 
 +++Questo influenzerà le integrazioni o le automazioni di Workfront?
 
 No. Tutte le integrazioni e le automazioni esistenti continueranno a funzionare come di consueto.
 +++
+
