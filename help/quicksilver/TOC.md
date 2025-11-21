@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 019c3246edf14f8ceafefbd80ca2c3d509b6ca6b
+source-git-commit: bd0c365fcf5431a6b540d302385315d28688e558
 workflow-type: tm+mt
-source-wordcount: '13590'
+source-wordcount: '13594'
 ht-degree: 2%
 
 ---
@@ -128,7 +128,7 @@ ht-degree: 2%
          * [23.3 Altri miglioramenti](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
          * [Aggiornamenti look and feel durante il periodo di rilascio della versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * Versione 23.2 {#release-23-2}
-         * [Panoramica sulla versione di 23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
+         * Panoramica sulla versione di [23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 Miglioramenti per gli amministratori](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
          * [23.2 Miglioramenti di Agile](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
          * [23.2 Miglioramenti alla gestione dei progetti](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
@@ -229,9 +229,9 @@ ht-degree: 2%
          * [Attività della versione del secondo trimestre 2025 per Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
          * [Attività della versione del primo trimestre 2025 per Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
          * [Attività della versione del quarto trimestre 2024 per Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
-      * Attività di rilascio delle agenzie Adobe Workfront{#agencies-release-activity}
-         * [Attività di rilascio dell’agenzia Adobe Workfront](/help/quicksilver/product-announcements/product-releases/agencies-release-activity/agencies-release-activity-article-index.md)
-         * [Attività del primo trimestre del 2026 per le funzioni dell’agenzia Adobe Workfront](/help/quicksilver/product-announcements/product-releases/agencies-release-activity/agencies-release-activity-26-q1.md)
+      * Attività sulla versione a disponibilità limitata di Adobe Workfront{#limited-availability-release-activity}
+         * [Attività di rilascio delle funzioni di disponibilità limitata di Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)
+         * [Attività della versione del primo trimestre 2026 per le funzioni di disponibilità limitata di Adobe Workfront](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
       * Attività di rilascio di Adobe Workfront Scenario Planner {#scenario-planner-release}
          * [Attività di rilascio di Adobe Workfront Scenario Planner](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
          * [Adobe Workfront Scenario Planner con la versione 21.3](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
@@ -2525,9 +2525,9 @@ ht-degree: 2%
       * [Configurare e utilizzare le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso JWT](wf-api/api/oauth-app-jwt-flow.md)
       * [Configura e utilizza le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso PKCE](wf-api/api/oauth-app-pkce-flow.md)
       * [Obsolescenza di API-Internal](wf-api/api/deprecation-api-internal.md)
-      * [Novità della versione 21 dell&#39;API](/help/quicksilver/wf-api/api/new-api-version-21.md)
+      * [Novità della versione 21](/help/quicksilver/wf-api/api/new-api-version-21.md) dell&#39;API
       * [Novità dell&#39;API versione 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [Novità della versione 19 dell&#39;API](wf-api/api/new-api-version-19.md)
+      * [Novità della versione 19](wf-api/api/new-api-version-19.md) dell&#39;API
       * [Novità della versione 18 dell’API](wf-api/api/new-api-version-18.md)
       * [Novità della versione 17 dell’API](wf-api/api/new-api-version-17.md)
       * [Novità della versione 16 dell’API](wf-api/api/new-api-version-16.md)
