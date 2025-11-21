@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: f3016e77f086d221dc11398ec06cc7435ad82278
 workflow-type: tm+mt
-source-wordcount: '5201'
+source-wordcount: '5237'
 ht-degree: 7%
 
 ---
@@ -46,7 +46,7 @@ Vedi anche [Notifiche: azione richiesta](../../../workfront-basics/using-notific
  <col> 
  <thead> 
   <tr> 
-   <th>Tipo Oggetto</th> 
+   <th>Tipo oggetto</th> 
    <th>Evento</th> 
    <th>Destinatario</th> 
    <th>Descrizione</th> 
@@ -59,7 +59,7 @@ Vedi anche [Notifiche: azione richiesta](../../../workfront-basics/using-notific
    <td> <p>Richiesta di accesso</p> </td> 
    <td> <p>Utente</p> </td> 
    <td> <p>Qualcuno mi ha richiesto l'accesso.</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Documento</p> <p> </p> </td> 
@@ -73,7 +73,7 @@ Vedi anche [Notifiche: azione richiesta](../../../workfront-basics/using-notific
    <td> <p>Documento in attesa di approvazione</p> </td> 
    <td> <p>Approvatori</p> </td> 
    <td> <p>Devo approvare un documento.</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problema</p> </td> 
@@ -94,7 +94,7 @@ Vedi anche [Notifiche: azione richiesta](../../../workfront-basics/using-notific
    <td> <p>Problema in attesa di approvazione</p> </td> 
    <td> <p>Approvatore delegato</p> </td> 
    <td> <p>Devo rivedere l'approvazione di un problema per il quale ho una delega.</p> <p>Quando un utente delega un’approvazione del problema a un altro utente, riceve una notifica. </p> <p>Una notifica viene inviata solo quando il progetto è nello stato Corrente.</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Progetto</p> </td> 
@@ -108,7 +108,7 @@ Vedi anche [Notifiche: azione richiesta](../../../workfront-basics/using-notific
    <td>Progetto in attesa di approvazione</td> 
    <td>Approvatore delegato</td> 
    <td> <p>Devo rivedere l'approvazione di un progetto per il quale ho una delega.</p> </td> 
-   <td> Attiva</td> 
+   <td> Attivo</td> 
   </tr> 
   <tr> 
    <td> <p>Attività</p> </td> 
@@ -129,7 +129,7 @@ Vedi anche [Notifiche: azione richiesta](../../../workfront-basics/using-notific
    <td> <p>Attività in attesa di approvazione</p> </td> 
    <td> <p>Approvatore delegato</p> </td> 
    <td> <p>Devo rivedere l'approvazione di un'attività per la quale ho una delega.</p> <p>Quando un utente delega un’approvazione del problema a un altro utente, riceve una notifica. </p> <p>Una notifica viene inviata solo se lo stato del progetto è Corrente al momento della richiesta.</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Scheda orario</p> </td> 
@@ -157,14 +157,14 @@ Vedi anche [Notifiche: azione richiesta](../../../workfront-basics/using-notific
    <td> <p>Richiesta elemento di lavoro</p> </td> 
    <td> <p>Membri del team per cui è richiesto l'elemento</p> </td> 
    <td> <p>Il mio team riceve una nuova richiesta di lavoro.</p> <p>I membri del team ricevono una notifica e-mail quando ricevono una nuova richiesta di lavoro. L’utente che ha inviato la richiesta non riceve una notifica se è membro del team.</p> <p>Una notifica viene inviata solo se lo stato del progetto è Corrente al momento della richiesta di lavoro e lo stato della richiesta di lavoro è Nuovo.</p> <p>Gli utenti con una licenza Light o Review non ricevono una notifica.</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Assegnazione</p> </td> 
    <td> <p>Richiesta elemento di lavoro</p> </td> 
    <td> <p>Utente per cui è richiesto l'elemento di lavoro</p> </td> 
    <td> <p>Ricevo una nuova richiesta di lavoro.</p> <p>L’assegnatario dell’elemento di lavoro riceve una notifica e-mail, a meno che l’utente che effettua la richiesta non sia anche l’assegnatario. </p> <p>Non viene inviata una notifica se lo stato dell’attività è Completo o se lo stato del problema è Chiuso.</p> <p>Una notifica viene inviata solo se lo stato del progetto è Corrente al momento della richiesta.</p> <p>Gli utenti con una licenza Light o Review non ricevono una notifica.</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -181,7 +181,7 @@ Vedi anche [Notifiche: richieste effettuate](../../../workfront-basics/using-not
  <col> 
  <thead> 
   <tr> 
-   <th>Tipo Oggetto</th> 
+   <th>Tipo oggetto</th> 
    <th>Evento</th> 
    <th>Destinatario</th> 
    <th>Descrizione</th> 
@@ -236,7 +236,7 @@ Vedi anche [Notifiche: richieste effettuate](../../../workfront-basics/using-not
    <td> <p>Aggiunta richiesta</p> </td> 
    <td> <p>Contatto principale problema</p> </td> 
    <td> <p>Invio una richiesta (conferma).</p> <p>Il contatto principale sul problema riceve una notifica e-mail quando invia un problema.</p> <p>Viene inviata una notifica solo se lo stato del progetto è Corrente e se il progetto utilizza una visualizzazione Help Desk.</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problema</p> </td> 
@@ -256,7 +256,7 @@ Vedi anche [Notifiche: richieste effettuate](../../../workfront-basics/using-not
    <td> <p>Documento</p> </td> 
    <td> <p>Aggiungi documento richiesta</p> </td> 
    <td> <p>Contatto principale problema</p> </td> 
-   <td> <p>Un documento viene modificato o caricato su un problema per il quale sono il contatto principale.</p> <p>Il contatto principale del problema riceve una notifica e-mail quando un documento viene caricato o modificato sul problema, a meno che l’utente che ha caricato o modificato il documento non sia anche il contatto principale.</p> <p>Viene inviata una notifica solo se lo stato del progetto è Corrente e se nel progetto è abilitata l'opzione "Publish as Help Request Queue" nella scheda Queue Setup (Impostazione coda).</p> </td> 
+   <td> <p>Un documento viene modificato o caricato su un problema per il quale sono il contatto principale.</p> <p>Il contatto principale del problema riceve una notifica e-mail quando un documento viene caricato o modificato sul problema, a meno che l’utente che ha caricato o modificato il documento non sia anche il contatto principale.</p> <p>Viene inviata una notifica solo se lo stato del progetto è Corrente e se per il progetto è abilitata l'opzione "Pubblica come coda richieste di aiuto" nella scheda Impostazione coda.</p> </td> 
    <td> <p>Attivo (solo giornaliero)</p> </td> 
   </tr> 
   <tr> 
@@ -285,7 +285,7 @@ Vedi anche [Notifiche: comunicazione](../../../workfront-basics/using-notificati
  <col> 
  <thead> 
   <tr> 
-   <th>Tipo Oggetto</th> 
+   <th>Tipo oggetto</th> 
    <th>Evento</th> 
    <th>Destinatario</th> 
    <th>Descrizione</th> 
@@ -298,21 +298,21 @@ Vedi anche [Notifiche: comunicazione](../../../workfront-basics/using-notificati
    <td> <p>Commento sul documento</p> </td> 
    <td> <p>Proprietario documento</p> </td> 
    <td> <p>È stato aggiunto un commento al documento.</p> <p>Il proprietario di un documento in Workfront riceve una notifica e-mail quando un commento viene pubblicato sul documento, a meno che l'utente che lo ha pubblicato non sia anche il proprietario del documento.</p> <p>Anche tutti gli utenti che sono inclusi direttamente nel commento ricevono una notifica e-mail.</p> <p>Una notifica viene inviata solo se lo stato del progetto è Corrente. </p> <p>L'oggetto dell'e-mail di notifica immediata è: <em>Commento su &lt;Nome richiesta&gt; in &lt;Nome progetto&gt; (ref# &lt;Numero di riferimento richiesta&gt;)</em></p> <p> L'oggetto della notifica del riepilogo giornaliero è:<em> Digest di comunicazione &lt;Data del riepilogo giornaliero&gt;</em></p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Nota</p> </td> 
    <td> <p>Aggiunta nota richiesta</p> </td> 
    <td> <p>Contatto principale problema</p> </td> 
    <td> <p>Quando un commento viene pubblicato su una richiesta, invia un’e-mail al contatto principale del problema.</p> <p>Il contatto principale per un problema riceve una notifica e-mail quando un commento viene pubblicato su una richiesta, a meno che l’utente che lo ha pubblicato non sia anche il contatto principale per il problema.</p> <p>Anche gli utenti che sono inclusi direttamente nel commento riceveranno una notifica e-mail.</p> <p>Una notifica viene inviata solo se lo stato del progetto è Corrente.</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Utente</p> </td> 
    <td>Aggiornamento diretto</td> 
    <td>Utente</td> 
    <td> <p>Qualcuno mi include in un aggiornamento diretto.</p> <p>Un aggiornamento diretto si verifica quando un utente include specificatamente un altro utente in un aggiornamento, come descritto in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Assegnare tag ad altri utenti negli aggiornamenti</a>.</p> <p>In questo caso, l’utente incluso nell’aggiornamento diretto riceve una notifica e-mail relativo all’aggiornamento.</p> <p>La notifica e-mail viene inviata solo se l’utente dispone dei diritti di accesso all’oggetto e se lo mantiene abilitato nel suo profilo.  </p> <p>Questa notifica di evento è attivata per impostazione predefinita e non può essere disattivata.</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Team</p> </td> 
@@ -369,7 +369,7 @@ Vedi anche [Notifiche: informazioni sull&#39;approvazione](../../../workfront-ba
  <col> 
  <thead> 
   <tr> 
-   <th>Tipo Oggetto</th> 
+   <th>Tipo oggetto</th> 
    <th>Evento</th> 
    <th>Destinatario</th> 
    <th>Descrizione</th> 
@@ -433,7 +433,7 @@ Vedi anche [Notifiche: informazioni sul lavoro assegnato a me](../../../workfron
  <col> 
  <thead> 
   <tr> 
-   <th>Tipo Oggetto</th> 
+   <th>Tipo oggetto</th> 
    <th>Evento</th> 
    <th>Destinatario</th> 
    <th>Descrizione</th> 
@@ -481,7 +481,7 @@ Vedi anche [Notifiche: informazioni sul lavoro assegnato a me](../../../workfron
    <td> <p>Data di completamento problema pianificata cambiata</p> </td> 
    <td> <p>Utente a cui è assegnato il problema</p> </td> 
    <td> <p>Le modifiche della data di scadenza su un problema a cui sono assegnato.</p> <p>L’assegnatario del problema riceve una notifica e-mail quando cambia la Data di completamento pianificata, a meno che l’utente che ha modificato la Data di completamento pianificata non sia anche l’assegnatario.</p> <p>Una notifica viene inviata solo se lo stato del progetto è diverso da Pianificazione.</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problema</p> </td> 
@@ -494,7 +494,7 @@ Vedi anche [Notifiche: informazioni sul lavoro assegnato a me](../../../workfron
    <td> <p>Documento</p> </td> 
    <td> <p>Aggiungi documento richiesta</p> </td> 
    <td> <p>Utente a cui è assegnato il problema</p> </td> 
-   <td> <p>I documenti vengono caricati o modificati sulle richieste a cui sono assegnato.</p> <p>L’assegnatario del problema riceve una notifica e-mail quando i documenti vengono caricati o modificati in seguito a un problema da lui aggiunto.</p> <p>Una notifica e-mail non viene inviata se l’utente che ha inserito il problema è l’assegnatario del problema.</p> <p>Viene inviata una notifica solo se lo stato del progetto è Corrente e se nel progetto è abilitata l'opzione "Publish as Help Request Queue" nella scheda Queue Setup (Impostazione coda).</p> </td> 
+   <td> <p>I documenti vengono caricati o modificati sulle richieste a cui sono assegnato.</p> <p>L’assegnatario del problema riceve una notifica e-mail quando i documenti vengono caricati o modificati in seguito a un problema da lui aggiunto.</p> <p>Una notifica e-mail non viene inviata se l’utente che ha inserito il problema è l’assegnatario del problema.</p> <p>Viene inviata una notifica solo se lo stato del progetto è Corrente e se per il progetto è abilitata l'opzione "Pubblica come coda richieste di aiuto" nella scheda Impostazione coda.</p> </td> 
    <td> <p>Attivo (solo giornaliero)</p> </td> 
   </tr> 
   <tr> 
@@ -516,7 +516,7 @@ Vedi anche [Notifiche: informazioni sul lavoro assegnato a me](../../../workfron
    <td> <p>Data di completamento attività pianificata modificata</p> </td> 
    <td> <p>Utente a cui è assegnata l’attività</p> </td> 
    <td> <p>Le modifiche della data di scadenza su un'attività a cui sono assegnato.</p> <p>L'assegnatario dell'attività riceve una notifica e-mail quando cambia la data di completamento pianificata dell'attività, a meno che l'utente che ha modificato la data di completamento pianificata non sia anche l'assegnatario dell'attività.</p> <p>Una notifica viene inviata solo se lo stato del progetto è diverso da Pianificazione.</p> <p>Non viene inviata alcuna notifica relativa alle attività personali.</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività</p> </td> 
@@ -544,7 +544,7 @@ Vedi anche [Notifiche: informazioni sui progetti a cui collaboro](../../../workf
  <col> 
  <thead> 
   <tr> 
-   <th>Tipo Oggetto</th> 
+   <th>Tipo oggetto</th> 
    <th>Evento</th> 
    <th>Destinatario</th> 
    <th>Descrizione</th> 
@@ -601,6 +601,13 @@ Vedi anche [Notifiche: informazioni sui progetti a cui collaboro](../../../workf
    <td> <p>Lo stato cambia su un progetto a cui collaboro.</p> <p>Gli utenti del team di progetto ricevono una notifica e-mail quando lo stato del progetto cambia. </p> </td> 
    <td> <p>Inattiva</p> </td> 
   </tr> 
+     <tr> 
+   <td> <p>Progetto</p> </td> 
+   <td> <p>Stato progetto corrente</p> </td> 
+   <td> <p>Membri del team assegnato</p> </td> 
+   <td> <p>Un progetto su cui lavora il team diventa attivo.</p> <p>I membri di un team Workfront assegnato ricevono una notifica e-mail quando il progetto a cui sono assegnati diventano attivi.</p> </td> 
+   <td> <p>Inattiva</p> </td> 
+  </tr> 
   <tr> 
    <td> <p>Utente Progetto</p> </td> 
    <td> <p>Aggiunta utente progetto</p> </td> 
@@ -636,7 +643,7 @@ Vedi anche [Notifiche: informazioni sui progetti di mia proprietà](../../../wor
  <col> 
  <thead> 
   <tr> 
-   <th>Tipo Oggetto</th> 
+   <th>Tipo oggetto</th> 
    <th>Evento</th> 
    <th>Destinatario</th> 
    <th>Descrizione</th> 
@@ -663,7 +670,7 @@ Vedi anche [Notifiche: informazioni sui progetti di mia proprietà](../../../wor
    <td> <p>Modifica data conferma problema</p> </td> 
    <td> <p>Proprietario progetto</p> </td> 
    <td> <p>Le modifiche della data di conferma per un problema su uno dei miei progetti.</p> <p>Il proprietario del progetto riceve una notifica e-mail quando cambia la data di conferma per un problema sul progetto, a meno che l’utente che modifica la data di conferma sia lo stesso del proprietario del progetto.</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problema</p> </td> 
@@ -698,7 +705,7 @@ Vedi anche [Notifiche: informazioni sui progetti di mia proprietà](../../../wor
    <td> <p>Modifica data conferma attività</p> </td> 
    <td> <p>Proprietario progetto</p> </td> 
    <td> <p>Modifiche alla data di conferma per un'attività su uno dei miei progetti.</p> <p>Il proprietario del progetto riceve una notifica e-mail quando cambia la data di conferma per un’attività del progetto, a meno che l’utente che ha modificato la data di conferma non sia anche il proprietario del progetto.</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività</p> </td> 
@@ -735,7 +742,7 @@ Vedi anche [Notifiche: informazioni sui progetti di cui sono sponsor](../../../w
  <col> 
  <thead> 
   <tr> 
-   <th>Tipo Oggetto</th> 
+   <th>Tipo oggetto</th> 
    <th>Evento</th> 
    <th>Destinatario</th> 
    <th>Descrizione</th> 
@@ -820,7 +827,7 @@ Vedi anche [Notifiche: informazioni varie](../../../workfront-basics/using-notif
  <col> 
  <thead> 
   <tr> 
-   <th>Tipo Oggetto</th> 
+   <th>Tipo oggetto</th> 
    <th>Evento</th> 
    <th>Destinatario</th> 
    <th>Descrizione</th> 
@@ -888,7 +895,7 @@ Vedi anche [Notifiche: informazioni varie](../../../workfront-basics/using-notif
   <tr> 
    <td> <p>Progetto</p> </td> 
    <td> <p>Progetto aggiunto a un portfolio o programma</p> </td> 
-   <td> <p>Proprietario Portfolio o programma</p> </td> 
+   <td> <p>Portfolio o Proprietario del programma</p> </td> 
    <td> <p>Qualcuno aggiunge un progetto a un portfolio o programma di mia proprietà.</p> </td> 
    <td> <p>Attivo (solo istantaneo)</p> </td> 
   </tr> 
@@ -921,7 +928,7 @@ Vedi anche [Notifiche: informazioni varie](../../../workfront-basics/using-notif
 
 Vedi anche [Notifiche: delega](../../../workfront-basics/using-notifications/notifications-delegation.md).
 
-| Tipo Oggetto | Evento | Destinatario | Descrizione | Stato predefinito |
+| Tipo oggetto | Evento | Destinatario | Descrizione | Stato predefinito |
 |------------------|--------------------------------------------|-----------|--------------------------------------------------------------|-----------------------|
 | Attività e problemi | Delega di attività e problemi | Assegnatario | Delego le mie attività e i miei problemi (conferma) | Attivo (solo istantaneo) |
 | Attività e problemi | Revoca la delega di attività e problemi | Assegnatario | Revoco la delega delle mie attività e dei miei problemi (conferma) | Attivo (solo istantaneo) |
