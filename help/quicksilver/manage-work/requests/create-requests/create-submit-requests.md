@@ -6,14 +6,16 @@ description: Il lavoro pianificato è rappresentato in Adobe Workfront dai proge
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: 8851a67e992152b05c44063e67070c0942a463bc
 workflow-type: tm+mt
-source-wordcount: '2580'
-ht-degree: 1%
+source-wordcount: '2607'
+ht-degree: 2%
 
 ---
 
 # Creare e inviare richieste
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 <!--Audited: 12/2023-->
 
@@ -47,7 +49,7 @@ Puoi creare una richiesta Workfront nei seguenti modi:
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -107,7 +109,7 @@ Un amministratore di Workfront deve creare i seguenti componenti di una coda di 
 
 Quando crei una richiesta nell’app web Workfront, Workfront la salva come bozza prima dell’invio. Workfront crea una bozza non appena selezioni la coda di richieste e inizi a immettere le informazioni per essa.
 
-È possibile continuare a inviare la richiesta oppure completare tutte le informazioni disponibili e spostarsi da tale richiesta per completarla in un secondo momento. Workfront salva la richiesta bozza avviata nella cartella Bozze.
+È possibile continuare a inviare la richiesta oppure completare tutte le informazioni disponibili e spostarsi da tale richiesta per completarla in un secondo momento. Workfront salva la richiesta bozza avviata nella cartella Bozze <span class="preview">o nell&#39;elenco delle richieste.</span>
 
 >[!IMPORTANT]
 >
@@ -150,7 +152,7 @@ Per creare una richiesta nell’app web Workfront:
    >Per quanto riguarda la nuova esperienza di richiesta, considera quanto segue:
    >* L&#39;elenco include sia le code di richieste di Workfront che i moduli di richiesta di Workfront Planning.
    >* È possibile filtrare l&#39;elenco per tipo di oggetto.
-   >* Nella nuova esperienza di richiesta, le bozze si trovano nello stesso elenco delle richieste inviate.
+   >* <span class="preview">Nella nuova esperienza di richiesta, le bozze si trovano nello stesso elenco delle richieste inviate</span>.
 
 1. (Condizionale) Se hai scelto la nuova esperienza, seleziona i gruppi di argomenti e gli argomenti della coda e continua ad aggiornare il modulo.
 

@@ -6,20 +6,22 @@ description: Oltre a utilizzare le bozze disponibili suggerite da Workfront quan
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: 38843e2c093d5af9d74d8b4442fd28e194996e8d
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 1%
+source-wordcount: '840'
+ht-degree: 3%
 
 ---
 
 # Creare richieste da bozze
 
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
+
 Oltre a utilizzare le bozze disponibili suggerite da Workfront quando si immette una nuova richiesta, è possibile accedere a una bozza di richiesta dalla sezione Bozze e completare l&#39;invio da tale sezione.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,13 +54,55 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ## Prerequisiti per la creazione di richieste da bozze
 
-Prima di creare una richiesta da una bozza, è necessario effettuare le seguenti operazioni: 
+Prima di creare una richiesta da una bozza, è necessario effettuare le seguenti operazioni:
 
 * Inizia a creare una richiesta. In questo modo la richiesta viene salvata automaticamente come bozza nella sezione Bozze.
 
   Per informazioni sulla creazione di richieste, vedere [Creare e inviare richieste Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
 ## Creare richieste da bozze
+
+La procedura per la creazione di richieste da bozze varia tra la nuova esperienza di richiesta e l’esperienza legacy.
+
+* <span class="preview">[Crea richieste da bozze nella nuova esperienza di richiesta](#create-requests-from-drafts-in-the-new-requesting-experience)</span>
+* [Creare richieste da bozze nell’esperienza di richiesta legacy](#create-requests-from-drafts-in-the-legacy-requesting-experience)
+
+<div class="preview">
+
+### Creare richieste da bozze nella nuova esperienza di richiesta
+
+
+
+<!--
+   
+1. Open the draft.
+
+   Drafts can be found in the following locations:
+
+   * In the requests list in the Requests area
+   * In the requests list in the My Requests widget in Home
+   * In the New request dialog (includes only drafts of requests created with the selected form)
+   
+-->
+1. Aprite la bozza.
+
+   Le bozze si trovano nella finestra di dialogo Nuova richiesta (include solo le bozze di richieste create con il modulo selezionato).
+1. Aggiornare le informazioni per la richiesta come descritto in [Creare e inviare richieste Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+1. (Facoltativo e condizionale) In qualsiasi momento durante l&#39;immissione della richiesta, fare clic su **Elimina** bozza per eliminare la bozza. La bozza verrà eliminata.
+
+   Se la bozza è stata eliminata per errore, puoi fare clic immediatamente su **Annulla** nel messaggio nella parte inferiore della schermata. Questa opzione è disponibile solo per pochi secondi.
+
+   Per ulteriori informazioni sull&#39;eliminazione delle bozze, vedere [Eliminare una richiesta inviata o una bozza di richiesta](../../../manage-work/requests/create-requests/delete-request-draft.md).
+
+1. (Facoltativo) Per salvare le modifiche alla bozza senza inviarla, lasciate la pagina Nuova richiesta. Le modifiche vengono salvate automaticamente.
+
+1. Dopo aver completato le informazioni per la richiesta, fai clic su **Invia**.
+
+   Quando si invia la richiesta, la bozza viene eliminata e non può essere ripristinata.
+
+</div>
+
+### Creare richieste da bozze nell’esperienza di richiesta legacy
 
 {{step1-to-requests}}
 
