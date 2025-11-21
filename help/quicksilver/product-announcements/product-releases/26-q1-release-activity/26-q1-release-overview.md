@@ -4,9 +4,9 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 203ff7855649c968c52d74ef0ee7581a1439aa47
+source-git-commit: bd2d6fcf9e7a724914e8005cffc455fc6979f611
 workflow-type: tm+mt
-source-wordcount: '1740'
+source-wordcount: '1930'
 ht-degree: 4%
 
 ---
@@ -41,7 +41,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Miglioramenti a documenti e approvazioni](#documents-and-approvals-enhancements)
 * [Miglioramenti dell’integrazione](#integration-enhancements)
 * [Miglioramenti al reporting](#reporting-enhancements)
-  <!--* [Requests enhancements](#requests-enhancements)-->
+* [Richieste di miglioramenti](#requests-enhancements)
 * [Altri miglioramenti](#other-enhancements)
 
 ### Miglioramenti per gli amministratori
@@ -162,7 +162,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicare un report in un dashboard Canvas</a><p>![!BADGE fuori pianificazione]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicare un report in un dashboard Canvas</a><p>![BADGE fuori pianificazione]{type=Neutral}</p>
             <p>È ora possibile duplicare un rapporto indicatore KPI, tabella o grafico in un dashboard di Canvas dopo averlo creato. Una volta duplicato, puoi modificare il rapporto in base alle esigenze prima di salvarlo.</p>
         </td>
         <td>venerdì 23 ottobre 2025</td>
@@ -212,55 +212,55 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
-<!--### Requests enhancements
+### Richieste di miglioramenti
 
 <table style="table-layout:auto">
   <tbody>
    <tr>
-        <td><strong>Feature</strong>
+        <td><strong>Funzionalità</strong>
         </td>
-        <td><strong>Preview</strong></td>
-        <td><strong>Fast release</strong></td>
-        <td><strong>Quarterly</strong></td>
+        <td><strong>Anteprima</strong></td>
+        <td><strong>Rilascio rapido</strong></td>
+        <td><strong>Ogni trimestre</strong></td>
     </tr>
      <tr>
         <td>
-            <a href="help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Save drafts of requests in the new requesting experience</a>
-            <p>To make it easier to create and submit requests, we've added the ability to save drafts to the new requesting experience. Now, when you begin filling out a request and close it, the request is saved in Draft status and can be found in your request list. You can then reopen, update, and submit the draft at your convenience. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Salva bozze di richieste nella nuova esperienza di richiesta</a>
+            <p>Per semplificare la creazione e l’invio delle richieste, è stata aggiunta la possibilità di salvare le bozze nella nuova esperienza di richiesta. Ora, quando si inizia a compilare una richiesta e la si chiude, la richiesta viene salvata in stato Bozza e si trova nel modulo di richiesta utilizzato per creare la bozza. Puoi quindi riaprire, aggiornare e inviare la bozza nel modo che preferisci. </p>
         </td>
-        <td>November 20, 2025</td>
-        <td>December 11, 2025</td>
-        <td>January 15, 2026</td>
+        <td>venerdì 20 novembre 2025</td>
+        <td>venerdì 11 dicembre 2025</td>
+        <td>venerdì 15 gennaio 2026</td>
     </tr>  
         <tr>
         <td>
-            <a href="help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Delete submitted requests in the new requesting experience</a>
-            <p>To make it easier to keep your requests organized and uncluttered, we've added the ability to delete requests to the new requesting experience. Now, you can delete requests that you have submitted. Workfront Administrators and Workfront Planning Workspace administrators can also delete requests.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Elimina le richieste inviate nella nuova esperienza di richiesta</a>
+            <p>Per semplificare l’organizzazione e la gestione ordinata delle richieste, alla nuova esperienza di richiesta è stata aggiunta la possibilità di eliminare le richieste. Ora puoi eliminare le richieste inviate. Gli amministratori di Workfront e gli amministratori di Workfront Planning Workspace possono eliminare le richieste.</p>
         </td>
-        <td>November 20, 2025</td>
-        <td>December 11, 2025</td>
-        <td>January 15, 2026</td>
+        <td>venerdì 20 novembre 2025</td>
+        <td>venerdì 11 dicembre 2025</td>
+        <td>venerdì 15 gennaio 2026</td>
     </tr>   
-        <tr>
+<!--        <tr>
         <td>
-            <a href="help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Share views in the Requests area and the My Requests widget</a>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Share views in the Requests area and the My Requests widget</a>
             <p>To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups. </p>
         </td>
         <td>November 20, 2025</td>
         <td>December 11, 2025</td>
         <td>January 15, 2026</td>
-    </tr>   
+    </tr>   -->
         <tr>
         <td>
-            <a href="help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Create new requests by copying previously submitted requests in the new requesting experience</a>
-            <p>To make it easier to submit requests, we've added the ability to copy requests to the new requesting experience. Now, you can copy a request, edit any fields, and submit it as a new request. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Crea nuove richieste copiando le richieste inviate in precedenza nella nuova esperienza di richiesta</a>
+            <p>Per semplificare l’invio delle richieste, è stata aggiunta la possibilità di copiare le richieste nella nuova esperienza di richiesta. Ora è possibile copiare una richiesta, modificarne tutti i campi e inviarla come nuova richiesta. </p>
         </td>
-        <td>November 20, 2025</td>
-        <td>December 11, 2025</td>
-        <td>January 15, 2026</td>
+        <td>venerdì 20 novembre 2025</td>
+        <td>venerdì 11 dicembre 2025</td>
+        <td>venerdì 15 gennaio 2026</td>
     </tr>    
   </tbody>
-</table> -->
+</table>
 
 ### Altri miglioramenti
 
@@ -380,12 +380,12 @@ Per offrire integrazioni più stabili e scalabili, stiamo passando a un approcci
 * Workfront per Salesforce.
 
 È consigliabile utilizzare l&#39;automazione e l&#39;integrazione di Workfront per le esigenze di integrazione dell&#39;organizzazione con Google Workspace.
-Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Aggiornamenti dei corsi di formazione
 

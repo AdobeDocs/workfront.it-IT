@@ -6,9 +6,9 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 203ff7855649c968c52d74ef0ee7581a1439aa47
+source-git-commit: f38c10a187367570739f65961f945450b7b9b5de
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 >Versione rapida di produzione: 11 dicembre 2025\
 >Produzione per tutti: 16 gennaio 2026
 
-Per semplificare la creazione e l’invio delle richieste, è stata aggiunta la possibilità di salvare le bozze nella nuova esperienza di richiesta. Ora, quando si inizia a compilare una richiesta e la si chiude, la richiesta viene salvata nello stato Bozza e si trova nell’elenco delle richieste. Puoi quindi riaprire, aggiornare e inviare la bozza nel modo che preferisci.
+Per semplificare la creazione e l’invio delle richieste, è stata aggiunta la possibilità di salvare le bozze nella nuova esperienza di richiesta. Ora, quando si inizia a compilare una richiesta e la si chiude, la richiesta viene salvata in stato Bozza e si trova nel modulo di richiesta utilizzato per creare la bozza. Puoi quindi riaprire, aggiornare e inviare la bozza nel modo che preferisci.
 
 In precedenza, questa funzione non era disponibile nella nuova esperienza di richiesta.
 
-Le bozze create nell’esperienza di richiesta legacy sono disponibili nella nuova esperienza di richiesta. Puoi trovarli nell’elenco delle richieste.
+Le bozze create nell’esperienza di richiesta legacy sono disponibili nella nuova esperienza di richiesta.
 
 Per ulteriori informazioni sulle bozze di richieste, vedere [Creare richieste dalle bozze](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md).
 
@@ -49,19 +49,23 @@ In precedenza, l’eliminazione delle richieste non era disponibile.
 
 Per informazioni e istruzioni, vedere [Eliminare una richiesta inviata o una bozza di richiesta](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
 
-## Condividere le visualizzazioni nell&#39;area Richieste e nel widget Richieste personali
+<!--
+
+## Share views in the Requests area and the My Requests widget
 
 >[!NOTE]
 >
->Anteprima: 20 novembre 2025
->Versione rapida di produzione: 11 dicembre 2025\
->Produzione per tutti: 16 gennaio 2026
+>Preview: November 20, 2025 
+>Production fast release: December 11, 2025  
+>Production for everyone: January 16, 2026  
 
-Per garantire più facilmente la visualizzazione delle informazioni necessarie, è stata aggiunta la possibilità di condividere le visualizzazioni con la nuova esperienza di reporting. Ora puoi condividere le visualizzazioni con altri utenti, team o gruppi.
+To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups.
 
-Puoi condividere le viste dell’elenco delle richieste sia dall’area Richieste in Workfront che dal widget Richieste personali nella Home. La funzionalità di condivisione è identica in entrambe le posizioni e le impostazioni di visualizzazione, inclusa la condivisione, vengono mantenute quando si passa dal widget Richieste personali all&#39;area Richieste.
+You can share request list views from both the Requests area in Workfront and the My Requests widget in Home. Sharing functionality is identical in both places, and view settings, including sharing, are preserved when moving between the My Requests widget and the Requests area.
 
-Per informazioni sulle visualizzazioni delle richieste, inclusa la condivisione, vedere [Creare e gestire visualizzazioni nell&#39;area Richieste](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+For information on request views, including sharing, see [Create and manage views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+
+-->
 
 ## Creare nuove richieste copiando le richieste inviate in precedenza nella nuova esperienza di richiesta
 
