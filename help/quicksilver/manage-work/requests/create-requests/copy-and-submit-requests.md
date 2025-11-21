@@ -6,20 +6,23 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: 59a53f7355032810a05fce2d3f0dfe30d64bbd40
 workflow-type: tm+mt
-source-wordcount: '1338'
-ht-degree: 2%
+source-wordcount: '1588'
+ht-degree: 3%
 
 ---
 
 # Copiare e inviare richieste
 
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
+
 Quando invii spesso richieste simili, puoi copiare una richiesta già inviata. In questo caso, puoi copiare una richiesta esistente, apportarvi modifiche minime e inviarla nuovamente come nuova richiesta.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -91,7 +94,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
   >
   >La richiesta copiata non è collegata a un oggetto di risoluzione.
 
-## Copiare e inviare richieste
+## Copiare e inviare richieste nell’esperienza di richiesta legacy
 
 {{step1-to-requests}}
 
@@ -220,3 +223,44 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 1. Fai clic su **Invia**.
 
    La richiesta copiata viene inviata come nuova richiesta nella coda richieste specificata.
+
+<div class="preview">
+
+## Copiare e inviare richieste nella nuova esperienza richiedente
+
+È possibile copiare e inviare richieste nell&#39;area Richieste di Workfront o dal widget Richieste personali nella Home.
+
+1. Per accedere all&#39;elenco Richieste, fare clic sull&#39;icona **[!UICONTROL Menu principale]** ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fare clic sull&#39;icona **[!UICONTROL Menu principale]** ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fare clic su **[!UICONTROL Richieste]**.
+
+1. Per accedere al widget Richieste personali nella Home:
+
+   1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Home]**.
+   1. Individuare il widget Richieste personali.
+
+      Per ulteriori informazioni sul widget Richieste personali, vedere [Utilizzare il widget Richieste personali](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. Nell&#39;elenco Richieste o nel widget Richieste personali, posizionare il cursore del mouse sulla richiesta che si desidera copiare.
+
+   Viene visualizzato un menu Altro con tre punti.
+   ![](assets/more-menu.png)
+
+1. Fai clic sul menu **Altro** a destra del nome della richiesta, quindi fai clic su **Copia**.
+
+   Oppure
+
+   Fare clic con il pulsante destro del mouse sulla richiesta selezionata, quindi scegliere **Copia**.
+
+   >[!TIP]
+   >
+   >Se non disponi dell’accesso per la creazione di problemi, ricevi un avviso che informa che l’amministratore non ti ha consentito di creare richieste.
+
+1. (Facoltativo) Aggiorna tutte le informazioni della richiesta copiata. I campi disponibili dipendono dalla coda o dal modulo di richiesta utilizzati per la richiesta.
+
+   <!--When you enter or change any field values in the copied request, it is saved as a draft.-->
+
+1. Fai clic su **Invia**.
+
+   La richiesta copiata viene inviata come nuova richiesta.
+
+</div>
+

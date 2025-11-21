@@ -6,20 +6,21 @@ description: È possibile inviare richieste nel widget Richieste personali. Puoi
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: 59a53f7355032810a05fce2d3f0dfe30d64bbd40
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 3%
+source-wordcount: '798'
+ht-degree: 5%
 
 ---
 
 # Utilizzare il widget Richieste personali
 
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 >[!IMPORTANT]
 >
 >Questo articolo descrive il nuovo widget Richieste personali. Per visualizzare il nuovo widget, è necessario che sia abilitata la nuova esperienza di richiesta.
->&#x200B;>Puoi abilitare la nuova esperienza di richiesta nell’area Richieste.
+>Puoi abilitare la nuova esperienza di richiesta nell’area Richieste.
 
 Il widget Richieste personali visualizza le richieste inviate all&#39;organizzazione. Puoi filtrare le richieste, cercare richieste specifiche o regolare l’ordine e la visibilità delle colonne. Puoi anche creare una nuova richiesta dal widget Richieste personali.
 
@@ -29,7 +30,7 @@ Il widget Richieste personali visualizza le richieste inviate all&#39;organizzaz
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -63,11 +64,21 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-## Creare una richiesta
+## Crea una nuova richiesta
 
 È possibile creare una richiesta direttamente dal widget Richieste personali.
 
 Per istruzioni, vedere [Creare una richiesta](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) nell&#39;articolo Creare elementi di lavoro e progetti dall&#39;area Home.
+
+<div class="preview">
+
+## Copiare una richiesta
+
+È possibile copiare una richiesta nel widget Richieste personali, modificarla e inviarla come nuova richiesta.
+
+Per istruzioni, consulta [Copiare e inviare richieste nella nuova esperienza di richiesta](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience) nell&#39;articolo Copiare e inviare richieste.
+
+</div>
 
 ## Filtrare richieste
 
