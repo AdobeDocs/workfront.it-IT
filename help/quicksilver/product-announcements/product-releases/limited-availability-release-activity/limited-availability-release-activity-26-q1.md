@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: bd0c365fcf5431a6b540d302385315d28688e558
+source-git-commit: a335b035e82ebe3daa6a9687b362a9117f348e0e
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Per un elenco di tutte le funzionalità di disponibilità limitata rilasciate pe
 
 >[!NOTE]
 >
->Data di rilascio in produzione: xx novembre 2025
+>Data di rilascio in produzione: 20 novembre 2025
 
 Ora puoi applicare modifiche basate sulla percentuale a una o più tariffe di fatturazione dei ruoli all’interno di una scheda tariffa. Invece di aggiornare manualmente ogni tariffa una alla volta, puoi applicare le modifiche a tutte le tariffe selezionate in una singola operazione.
 
