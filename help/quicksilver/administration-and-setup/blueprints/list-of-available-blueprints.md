@@ -8,9 +8,9 @@ author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: a31b6f9af4682c64da9e5a887f2bd2e13f259ce3
 workflow-type: tm+mt
-source-wordcount: '2082'
+source-wordcount: '2145'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,17 @@ ht-degree: 0%
 
 I seguenti [!DNL Adobe Workfront] blueprint sono disponibili per l&#39;installazione per gli amministratori di sistema. Per ulteriori informazioni sui blueprint, consulta [Panoramica sui blueprint](/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md).
 
-**[!BADGE Novità]{type=Informative} report di analisi degli utenti attivi** Questo blueprint contiene un dashboard che consente agli amministratori di convalidare la configurazione degli utenti, identificare i disallineamenti e garantire che le configurazioni supportino l&#39;utilizzo previsto dell&#39;applicazione&#x200B;
+[!BADGE Novità]{type=Informative} **[!UICONTROL Report di analisi utenti attivi]**
+Questo blueprint contiene un dashboard che consente agli amministratori di convalidare la configurazione dell’utente, identificare i disallineamenti e garantire che le configurazioni supportino l’utilizzo previsto dell’applicazione&#x200B;
 
 **[!UICONTROL Aggiungi nuovo elenco di controllo IT dipendente]**
 Questo blueprint contiene un modello che l&#39;organizzazione dei servizi professionali [!DNL Workfront] ha utilizzato per anni durante gli impegni di implementazione con i team IT aziendali per organizzare nuove attività di onboarding dei dipendenti. L&#39;utilizzo di questo modello consente ai team IT di operare in modo efficiente, garantendo un&#39;esperienza positiva per i nuovi dipendenti e una maggiore produttività.
 
 **[!UICONTROL Pianificazione del budget annuale]**
 Questo blueprint contiene un modello che l&#39;organizzazione di servizi professionali [!DNL Workfront] ha utilizzato per anni durante gli impegni di implementazione con i team finanziari per organizzare le attività relative alla pianificazione del budget annuale. Il modello consente di impostare le aspettative con i responsabili delle unità aziendali e li guida attraverso il processo per richiedere e riservare i budget durante il processo di pianificazione annuale.
+
+[!BADGE Novità]{type=Informative} **[!UICONTROL Dashboard linea di base]**
+Questo blueprint contiene una dashboard che consente di prendere decisioni di progetto più intelligenti e veloci. Le linee di base consentono di confrontare ciò che è stato pianificato e ciò che è accaduto, consentendo di individuare rapidamente le attività problematiche, le fasi di valutazione e le tendenze del progetto. Il dashboard della linea di base include i seguenti rapporti: Linea di base | Progetti in corso, linea di base | Progetti completati, linea di base | Attività in corso e linea di base | Attività completate.
 
 **[!UICONTROL Piano di consegna dei servizi contrattuali]**
 Questo blueprint contiene un modello che organizza il lavoro relativo alla fornitura di servizi rivolti al cliente. Esso è inteso a creare un approccio uniforme per la fornitura di servizi oggetto di contratto.
