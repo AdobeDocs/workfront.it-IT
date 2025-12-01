@@ -7,18 +7,18 @@ description: È importante indicare in Adobe Workfront quando si verifica l’as
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
+source-git-commit: 0e37a5a519770d3d48192f1799491aa53a871508
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 0%
+source-wordcount: '431'
+ht-degree: 4%
 
 ---
 
 # Configurare l’indisponibilità personale
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 12/2025 -->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima ed è in fase di rilascio in un rollout graduale in produzione.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 [!DNL Adobe Workfront] non è progettato per replicare o sostituire i sistemi esistenti per gestire, accantonare e tenere traccia delle indisponibilità personali.
 
@@ -38,7 +38,7 @@ Gli strumenti di gestione delle risorse utilizzano anche il proprio tempo libero
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -72,18 +72,17 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 >[!NOTE]
 >
->Se ti trovi nell’esperienza unificata di Adobe, per accedere al tuo profilo Workfront fai clic sul menu dell’account Adobe (immagine del tuo profilo) nell’area di navigazione superiore, quindi scegli Profilo Workfront.
+>Se la tua organizzazione si trova nell&#39;esperienza unificata di Adobe, fai clic sul menu dell&#39;account **Adobe** (immagine del tuo profilo) nell&#39;angolo superiore destro dell&#39;area di navigazione superiore, quindi fai clic su **Profilo Workfront**.
 >
 >![profilo Workfront](assets/aue-profile.png)
 
 1. Nel pannello a sinistra, fai clic su **[!UICONTROL Indisponibilità]**.
 1. Seleziona la data desiderata per il tuo tempo libero personale.
 
-   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
    ![Calendario personale per ferie](assets/personal-time-off-calendar-0925.png)
 
-   Immagine di esempio nell’ambiente di produzione:
-   ![Calendario personale per ferie](assets/personal-time-off-calendar.png)
+   <!--Sample image in the Production environment:
+   ![Personal time off calendar](assets/personal-time-off-calendar.png)-->
 
 1. Seleziona **[!UICONTROL Tutto il giorno]** se stai prendendo una giornata libera.
 

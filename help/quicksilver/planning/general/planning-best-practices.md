@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6e039b80-e3bf-412c-8c86-8f801f5861e3
-source-git-commit: 1926500c76e4f9cfdac829f8d9f0cdfa6231e31d
+source-git-commit: 0e37a5a519770d3d48192f1799491aa53a871508
 workflow-type: tm+mt
-source-wordcount: '3304'
+source-wordcount: '3344'
 ht-degree: 0%
 
 ---
@@ -43,17 +43,16 @@ Di seguito sono riportate alcune domande frequenti sulla configurazione di Workf
    * Come chiamano le cose che vogliono mettere nel calendario?
 Campagne? Tattiche? Iniziative? Attività? Eventi?
    * A quali domande si desidera rispondere con questo calendario?
-   * Esistono campagne sovrapposte per lo stesso pubblico?
-   * Qual è il budget per tale campagna, tattica, attività o evento?
+   * Hanno campagne sovrapposte per lo stesso pubblico?
+   * Qual è il budget per quella campagna, tattica, attività o evento?
 
   Le risposte a queste domande determinano ciò che è necessario creare all&#39;interno di Workfront Planning.
 
-  Inoltre, considera che ci potrebbero essere altri planner che al momento non sono utenti di Workfront. Questi planner possono funzionare al di fuori dei fogli di calcolo Excel, documenti Word, PowerPoint, ecc. Esaminare la modalità di accesso alle informazioni in Workfront Planning.
+  Inoltre, considera che ci potrebbero essere altri planner che al momento non sono utenti di Workfront. Questi planner possono funzionare al di fuori di fogli di calcolo Excel, documenti Word, presentazioni PowerPoint, ecc. Esaminare la modalità di accesso alle informazioni in Workfront Planning.
 
-* ✅ Per sfruttare appieno Workfront Planning, è consigliabile sostituire l&#39;utilizzo di portafogli e programmi in Workfront Workflow con altre strutture di livello superiore in Workfront Planning.
+* ✅ Per sfruttare appieno Workfront Planning, è consigliabile sostituire l&#39;utilizzo di portafogli e programmi in Workfront con un&#39;altra struttura di livello superiore in Workfront Planning.
 
   Oggi, i clienti Workfront rappresentano il loro lavoro strategico attraverso portfolio e programmi, in alcuni casi come progetti di diverso tipo. Con l&#39;introduzione di Planning, tutto questo lavoro strategico deve essere gestito attraverso tipi di record personalizzati in Workfront Planning, mentre Workfront sarà centrato intorno alla fase di esecuzione del lavoro rappresentato come progetti e attività.
-
 
 #### Quando è necessario creare una nuova area di lavoro anziché modificarne una esistente?
 
@@ -86,15 +85,13 @@ Campagne? Tattiche? Iniziative? Attività? Eventi?
 
 I tipi di record sono i blocchi predefiniti di Workfront Planning Workspace. È possibile definire l&#39;interconnessione dei tipi di record.
 
-
 #### Come definire i tipi di record nella mia area di lavoro?
 
 * ✅ Identificare le informazioni da tenere traccia (i tipi di record necessari) e il modo in cui tali informazioni devono essere connesse. Parla con le parti interessate che utilizzeranno l’area di lavoro per prendere in considerazione tutte le loro esigenze. È inoltre possibile creare sezioni personalizzate con diversi tipi di record per presentare le informazioni in modo molto fruibile.
 
-
 * ⛔ Non duplicare i tipi di record per un periodo diverso, ad esempio non creare tipi di record separati per **Campagne 2024** e **Campagne 2025**.
 
-  La creazione di tipi di record diversi interrompe il flusso di dati ogni volta che si desidera confrontare i dati in più anni. Le visualizzazioni odierne sono per tipo di record, quindi non appena l&#39;anno termina, la visualizzazione di quel tipo di record non mostrerà più gli elementi futuri. La best practice prevede di avere un tipo di record per il tipo di lavoro e segmentare i dati utilizzando filtri o archiviandoli, se necessario.
+  La creazione di tipi di record diversi interrompe il flusso di dati ogni volta che si desidera confrontare i dati in più anni. Le visualizzazioni odierne sono per tipo di record, quindi non appena l&#39;anno termina, la visualizzazione di quel tipo di record non mostrerà più gli elementi futuri. La best practice prevede di avere un tipo di record per il tipo di lavoro e segmentare i dati utilizzando filtri basati su campi diversi o archiviandoli, se necessario.
 
 #### Quando utilizzare un campo a selezione singola o multipla rispetto a un tipo di record collegato?
 
@@ -107,7 +104,7 @@ I tipi di record sono i blocchi predefiniti di Workfront Planning Workspace. È 
   Ad esempio, un tipo di record di canale come **E-mail** può memorizzare un elenco di risultati finali di supporto come metadati nativi o come connessione a un tipo di record **Risultati finali** autonomo.
 * ⛔ Non aggiungere un nuovo tipo di record se i dati memorizzati sono rilevanti solo per un singolo tipo di record.
 
-  Ad esempio, un tipo di record **Campaign** può avere un campo a selezione singola denominato **Dimensione campagna** che è rilevante solo quando è direttamente associato a una campagna specifica.
+  Ad esempio, un tipo di record **Campaign** può avere un campo a selezione singola denominato **Dimensione campagna** che è rilevante solo quando è direttamente associato a una campagna specifica. Crea un campo invece di acquisire queste informazioni.
 
 #### Come etichettare i tipi di record?
 
@@ -120,9 +117,7 @@ I tipi di record sono i blocchi predefiniti di Workfront Planning Workspace. È 
 
 I campi sono attributi dei tipi di record e vengono visualizzati come colonne nella visualizzazione tabella. È possibile creare campi personalizzati per i tipi di record e quindi associarli ai record di Workfront Planning per migliorare le informazioni sui record.
 
-
 #### Quale campo si consiglia di definire come Campo primario?
-
 
 * ✅ Utilizzare valori di campo primari univoci per semplificare la ricerca e la selezione di tali record durante l&#39;esecuzione delle connessioni. 
 
@@ -135,7 +130,7 @@ I campi sono attributi dei tipi di record e vengono visualizzati come colonne ne
 
 #### Come iniziare a collegare i dati nella mia area di lavoro?
 
-* ✅ La creazione di connessioni è una delle funzionalità più potenti di Workfront Planning. È possibile connettere tipi di record tra loro o tipi di record con tipi di oggetti di altre applicazioni come Adobe Workfront (connessione a progetti, portafogli, programmi, società e gruppi) e con Adobe Experience Manager Assets (connessione a risorse e cartelle).
+* ✅ La creazione di connessioni è una delle funzionalità più potenti di Workfront Planning. È possibile connettere tipi di record tra loro o tipi di record con tipi di oggetti di altre applicazioni come Adobe Workfront (connessione a progetti, portafogli, programmi, società e gruppi), Adobe Experience Manager Assets (connessione a risorse e cartelle) e Adobe GenStudio for Performance Marketing.
 
   Il collegamento di oggetti e tipi di record offre una panoramica completa delle modalità di connessione di tutti gli elementi dell&#39;azienda.
 
@@ -147,7 +142,7 @@ I campi sono attributi dei tipi di record e vengono visualizzati come colonne ne
 
 * ✅ Dopo aver stabilito la connessione tra i record o i tipi di oggetto, è possibile connettere tra loro singoli record e visualizzare i campi del record o dei tipi di oggetto collegati in un record di Workfront Planning. Riduci il numero di posizioni in cui devi aggiornare la stessa informazione e assicurati che corrispondano perfettamente.
 
-  Ad esempio, una volta stabilita una connessione tra un tipo di record **Campaign** e un tipo di record **Tactics**, verranno visualizzate le informazioni del campo principale, ma quando si aggiungono campi di ricerca, sarà possibile inserire ulteriori informazioni da tale tipo di record, come la **Data lancio** per tale **Tactic**. I dati per questi campi di ricerca vengono compilati automaticamente dopo l’aggiunta dei record.
+  Ad esempio, una volta stabilita una connessione tra un tipo di record **Campaign** e un tipo di record **Tactics**, verranno visualizzate le informazioni del campo principale, ma quando si aggiungono campi di ricerca, sarà possibile inserire ulteriori informazioni da tale tipo di record, come la **Data lancio** per un **Tactic**. I dati per questi campi di ricerca vengono compilati automaticamente dopo l’aggiunta dei record.
 
 #### Quale tipo di campo è consigliato per gli URL? 
 
@@ -175,9 +170,9 @@ I campi sono attributi dei tipi di record e vengono visualizzati come colonne ne
 
 #### Perché non vengono visualizzati tutti i record nella visualizzazione della sequenza temporale?
 
-* ✅ Ricorda di definire 2 campi data per i tuoi record. È possibile creare una visualizzazione timeline solo se a un tipo di record sono associati almeno due campi data. Alcuni record potrebbero non essere visualizzati nella visualizzazione della sequenza temporale se le date di inizio e di fine o entrambe non contengono valori e se la data di inizio è successiva alla data di fine.
+* ✅ Ricorda di definire 2 campi data per i tuoi record. È possibile creare una visualizzazione timeline solo se a un tipo di record sono associati almeno due campi data. Alcuni record potrebbero non essere visualizzati nella visualizzazione della sequenza temporale se le date di inizio o di fine o entrambe non contengono valori o se la data di inizio è successiva alla data di fine.
 
-#### Come si utilizzano le impostazioni della vista timeline
+#### Come si utilizzano le impostazioni della visualizzazione timeline?
 
 * ✅ Definisci le impostazioni della visualizzazione timeline, come lo stile **Barre** e il **Colore** per ottenere una visualizzazione più ricca dal punto di vista visivo. Puoi personalizzare lo stile **Barra** definendo se desideri visualizzare una miniatura con un&#39;immagine significativa e aggiungere altri campi da visualizzare sulla barra (ad esempio, **Proprietario** o **Stato**).
 
@@ -187,15 +182,15 @@ I campi sono attributi dei tipi di record e vengono visualizzati come colonne ne
 
 ### Autorizzazioni e condivisione
 
-Utilizzare la funzione di condivisione per assegnare le autorizzazioni appropriate ai dipendenti per le visualizzazioni e le aree di lavoro.
+Utilizza la funzione di condivisione per assegnare le autorizzazioni appropriate ad altri utenti per le visualizzazioni e le aree di lavoro.
 
 #### Come posso gestire le autorizzazioni per le aree di lavoro?
 
-* ✅ Quando crei un&#39;**area di lavoro**, è disponibile solo per te. Chiunque, a parte gli amministratori di sistema, non sarà in grado di trovarlo. Una volta definita l’area di lavoro e quando sei pronto a coinvolgere il team per avviare la collaborazione, devi condividerla con loro e definirne il livello di autorizzazione.
+* ✅ Quando crei un&#39;**area di lavoro**, è disponibile solo per te. Chiunque non sia un amministratore di sistema non sarà in grado di trovarlo. Una volta definita l’area di lavoro e quando sei pronto a coinvolgere il team per avviare la collaborazione, devi condividerla con loro e definirne il livello di autorizzazione.
 
   Puoi scegliere tra i seguenti livelli di autorizzazione:
 
-   * **Gestisci**: gli utenti possono modificare, eliminare e condividere l&#39;area di lavoro.
+   * **Gestisci**: gli utenti possono modificare, eliminare e condividere l&#39;area di lavoro, i tipi di record, nonché modificare, eliminare e creare record.
    * **Contribute**: gli utenti possono creare, modificare ed eliminare record.
    * **Visualizza**: gli utenti possono visualizzare i record.
 
@@ -203,16 +198,11 @@ Utilizzare la funzione di condivisione per assegnare le autorizzazioni appropria
 
   È necessaria una licenza utente Standard affinché un utente disponga delle autorizzazioni di gestione per un&#39;area di lavoro.
 
-* ✅ Concedere agli utenti le autorizzazioni **Contribute** se si desidera che possano semplicemente creare, modificare ed eliminare record, ma non modificare la struttura e lo schema dell&#39;area di lavoro. Con le autorizzazioni di **Contribute**, non è possibile creare tipi di record o modificare i campi dei tipi di record esistenti.
+* ✅ Concedere agli utenti le autorizzazioni **Contribute** se si desidera che possano semplicemente creare, modificare ed eliminare record, ma non modificare la struttura dell&#39;area di lavoro. Con le autorizzazioni di **Contribute**, non è possibile creare tipi di record o modificare i campi dei tipi di record esistenti.
 
   È necessaria una licenza utente Standard affinché un utente disponga di **autorizzazioni Contribute** per un&#39;area di lavoro.
 
 * ✅ Concedi agli utenti le autorizzazioni **Visualizza**, se desideri che visualizzino solo i record.
-
-  >[!NOTE]
-  >
-  >Al momento non disponiamo di autorizzazioni specifiche per i tipi di record o i record, pertanto tutti i record in uno qualsiasi dei tipi di record sono visibili se si concede a un utente l&#39;accesso **Visualizzazione** all&#39;area di lavoro.
-
 
 #### Come posso gestire le autorizzazioni per i tipi di record?
 
@@ -222,18 +212,17 @@ Utilizzare la funzione di condivisione per assegnare le autorizzazioni appropria
 
 #### Come posso gestire le autorizzazioni per le visualizzazioni?
 
-* ✅ Limitare le autorizzazioni **Gestione** alle persone che si desidera possano modificare, eliminare e condividere la visualizzazione. Ciò significa che possono modificare i filtri, i campi di raggruppamento o alcune configurazioni della vista. Tali modifiche avranno effetto sulla configurazione principale della vista per tutti gli altri utenti che la utilizzano.
+* ✅ riservare le autorizzazioni **Gestione** alle persone che si desidera possano modificare, eliminare e condividere la visualizzazione. Ciò significa che possono modificare i filtri, i campi di raggruppamento o alcune configurazioni della vista. Tali modifiche avranno effetto sulla configurazione principale della vista per tutti gli altri utenti che la utilizzano.
 
   È necessaria una licenza utente Standard affinché un utente disponga delle autorizzazioni di gestione per una visualizzazione.
 
-* ✅ Concedi agli utenti l&#39;accesso **View** per applicare la visualizzazione. Potranno modificare alcuni dei filtri o dei raggruppamenti e l’ordinamento, ma le modifiche saranno solo temporanee; le modifiche non vengono salvate per tutti gli altri utenti che accedono alla visualizzazione. Tali modifiche non influiranno sulla configurazione principale della vista per tutti gli altri utenti che la utilizzano.  Le modifiche apportate sono visibili solo all&#39;utente che le applica. Dopo aver aggiornato la schermata, le modifiche vengono reimpostate sul valore predefinito.
+* ✅ Assegna agli utenti **Visualizza** le autorizzazioni per applicare la visualizzazione. Potranno modificare alcuni dei filtri o dei raggruppamenti e l’ordinamento, ma le modifiche saranno solo temporanee; le modifiche non vengono salvate per tutti gli altri utenti che accedono alla visualizzazione. Tali modifiche non influiranno sulla configurazione principale della vista per tutti gli altri utenti che la utilizzano.  Le modifiche apportate sono visibili solo all&#39;utente che le applica. Dopo aver aggiornato la schermata, le modifiche vengono reimpostate sul valore predefinito.
 
 * ✅ Assegna a **Tutti gli utenti dell&#39;area di lavoro possono visualizzare** le autorizzazioni quando desideri che tutti gli utenti che possono visualizzare l&#39;area di lavoro visualizzino i record e i relativi campi in quella visualizzazione specifica. In questo modo, non è necessario aggiungere manualmente alcun utente alla casella delle autorizzazioni di condivisione per la visualizzazione.
 
   >[!NOTE]
   >
   >Se una visualizzazione non è stata condivisa e si condivide un collegamento con altre persone, queste potranno visualizzare i record nella **Visualizzazione tabella predefinita**. Se dispongono di una licenza Workfront standard, possono creare la propria visualizzazione.
-
 
 #### In che modo **Condivisione Workspace** è diverso da **Condivisione visualizzazione**?
 
@@ -245,8 +234,7 @@ Utilizzare la funzione di condivisione per assegnare le autorizzazioni appropria
 
 * Per **condivisione Workspace**: gli utenti con licenza Light e Contribute possono accedere solo alla visualizzazione di un&#39;area di lavoro. Per concedere a un utente l&#39;autorizzazione Contribuisci o Gestisci per un&#39;area di lavoro, è necessario disporre di una licenza Standard.
 
-* **Visualizzazioni condivise**: gli utenti con licenza Standard che dispongono di autorizzazioni Gestione per un&#39;area di lavoro potranno creare una visualizzazione. Gli utenti con licenza Light e Contribute possono utilizzare solo le visualizzazioni create e condivise dagli utenti Standard. In caso contrario, se non è stato condiviso nulla, gli utenti potranno visualizzare la **Visualizzazione tabella predefinita**.
-
+* **Visualizzazioni condivise**: gli utenti con licenza Standard che dispongono di autorizzazioni di gestione per un&#39;area di lavoro possono creare una visualizzazione. Gli utenti con licenza Light e Contribute possono utilizzare solo le visualizzazioni create e condivise dagli utenti Standard. In caso contrario, se non è stato condiviso nulla, gli utenti potranno visualizzare la **Visualizzazione tabella predefinita**.
 
 #### Cosa devo fare quando un proprietario di Workspace cambia?
 
@@ -260,13 +248,13 @@ Utilizzare la funzione di condivisione per assegnare le autorizzazioni appropria
 
 #### Quando devo iniziare a creare un modulo di richiesta per un tipo di record?
 
-* ✅ Assicurarsi che la struttura del tipo di record sia impostata prima aggiungendo i campi necessari alla tabella. Questi campi descrivono i record e saranno accessibili nel generatore di moduli.
+* ✅ Assicurarsi che la struttura del tipo di record sia impostata prima aggiungendo i campi necessari alla tabella. Questi campi descrivono i record e possono essere accessibili nel generatore di moduli.
 
   È consigliabile creare la richiesta o il modulo di assegnazione dopo aver finalizzato la struttura del tipo di record per evitare di perdere campi chiave.
 
 #### Chi può creare i moduli di richiesta?
 
-* ✅ Qualsiasi utente con accesso Gestisci all&#39;area di lavoro può creare o modificare un modulo di richiesta. Assicurati che le autorizzazioni dell’utente siano correttamente assegnate per consentire questa funzionalità.
+* ✅ Qualsiasi utente con accesso Gestisci all&#39;area di lavoro può creare o modificare un modulo di richiesta per un tipo di record. Assicurati che le autorizzazioni dell’utente siano correttamente assegnate per consentire questa funzionalità.
 
 #### Come creare o modificare un modulo di richiesta per un tipo di record?
 
@@ -279,12 +267,16 @@ Utilizzare la funzione di condivisione per assegnare le autorizzazioni appropria
 
   Nel generatore di moduli, dopo aver pubblicato il modulo, puoi gestire le autorizzazioni per controllare chi può inviare le richieste.
 
-  È possibile scegliere tra le tre opzioni di condivisione seguenti:
+  È possibile scegliere tra le seguenti opzioni di condivisione:
 
-   * **Tutti gli utenti con accesso di visualizzazione o superiore all&#39;area di lavoro:** Consente a tutti gli utenti con autorizzazioni di visualizzazione o superiori all&#39;area di lavoro di inviare una richiesta che crea un record.
-   * **Qualsiasi utente con accesso di tipo Contribute o di livello superiore all&#39;area di lavoro**: limita gli invii agli utenti con autorizzazioni Contribute o di livello superiore all&#39;area di lavoro.
-   * **Chiunque disponga del collegamento:** Consente a chiunque disponga del collegamento al modulo di inviare una richiesta.
-   * **Data di scadenza:** Assicurarsi di impostare una data di scadenza per il collegamento pubblico per migliorare la sicurezza.
+   * Per la condivisione interna con persone in Workfront:
+
+      * **Tutti gli utenti con accesso di visualizzazione o superiore all&#39;area di lavoro:** Consente a tutti gli utenti con autorizzazioni di visualizzazione o superiori all&#39;area di lavoro di inviare una richiesta che crea un record.
+      * **Qualsiasi utente con accesso di tipo Contribute o di livello superiore all&#39;area di lavoro**: limita gli invii agli utenti con autorizzazioni Contribute o di livello superiore all&#39;area di lavoro.
+      * **Accesso consentito solo alle persone invitate**: aggiungere persone, team, ruoli, gruppi o società che possono inviare richieste al modulo.
+   * Per la condivisione esterna con persone che non hanno un account Workfront:
+      * **Crea un collegamento pubblico**, quindi copialo e condividilo con chiunque, anche persone senza un account Workfront: consente a chiunque disponga del collegamento al modulo di inviare una richiesta.
+      * **Data di scadenza collegamento:** Assicurarsi di impostare una data di scadenza per il collegamento pubblico per migliorare la sicurezza.
 
 ### Best practice per la gestione dei moduli di richiesta
 
@@ -294,6 +286,8 @@ Di seguito sono riportati alcuni consigli per la gestione dei moduli di richiest
 * Utilizza etichette chiare: assicurati che le etichette e le descrizioni dei campi siano chiare e comprensibili per tutti gli utenti.
 * Test dei moduli: prima di distribuirne di nuovi a un pubblico più ampio, esegui il test utilizzando l’opzione Collegamento modulo e Anteprima modulo per garantire che tutti i campi e la logica funzionino come previsto.
 * Mantieni moduli aggiornati: rivedi periodicamente i moduli e aggiornali per riflettere eventuali modifiche nella struttura del tipo di record o nei processi operativi.
+
+<!--do we need to add anything for the Configuration tab of a request form?? -->
 
 <!-- this is hidden, per Andrea:  
 
@@ -349,10 +343,10 @@ Here is a summary of how you can define the data flow within Workfront Planning 
 
 * **Planning (or Connections) tab** **in Workfront _-[ [E] Global Connect capability in Planning connections area](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6617d7760001e250f5ffb9ebf04baacc/overview?source-id=unifiedShareMFE)_** 
 
-    When you go to the Planning section of Adobe Workfront objects, you can display both connections with linked records or any available connections with Planning record types. With that, you can view and edit any connection field without having to navigate away from the current section in Workfront to other areas. The Planning section is available for the following Workfront objects: Project, Portfolio and Program. For more information, see [Manage records in the Planning section of Adobe Workfront objects](https://experienceleague.adobe.com/it/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/manage-records-in-planning-section).   
+    When you go to the Planning section of Adobe Workfront objects, you can display both connections with linked records or any available connections with Planning record types. With that, you can view and edit any connection field without having to navigate away from the current section in Workfront to other areas. The Planning section is available for the following Workfront objects: Project, Portfolio and Program. For more information, see [Manage records in the Planning section of Adobe Workfront objects](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/manage-records-in-planning-section).   
 
 
-* Create new records within the connection fields - In-context creation of connected records https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6656c1a30026b903c6edf0210b8cbb23/overview?source-id=unifiedShareMFE  When you need to link records through a connection field but cannot find the required records in the connected record type, you can also create new records in the connected record type directly within the connection fields, with that you can efficiently establish necessary links without having to leave the current record type context. For more information, see Create records https://experienceleague.adobe.com/it/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/create-records.   
+* Create new records within the connection fields - In-context creation of connected records https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6656c1a30026b903c6edf0210b8cbb23/overview?source-id=unifiedShareMFE  When you need to link records through a connection field but cannot find the required records in the connected record type, you can also create new records in the connected record type directly within the connection fields, with that you can efficiently establish necessary links without having to leave the current record type context. For more information, see Create records https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/create-records.   
 
      
 
@@ -360,7 +354,7 @@ Here is a summary of how you can define the data flow within Workfront Planning 
 
      
 
-* **Connection between Workspaces with Record types accessible from multiple workspaces** – ~~Epic – "[Connect to record types across workspaces](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/64dfad3100027190324dcc35b2176e76/overview?source-id=unifiedShareMFE)"~~ When you are creating a workspace in Planning, you can define certain record types once and then configure them to be accessible from multiple workspaces so you can create connections with them from anywhere. This way, you can streamline the data management process, eliminate duplicative work, and ensure data consistency across teams. As a result, your teams can tag their records with common taxonomies and unlock better visualization, filtering, grouping, and reporting of cross-team work.  For more information, see [Edit record types](https://experienceleague.adobe.com/it/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/edit-record-types). 
+* **Connection between Workspaces with Record types accessible from multiple workspaces** – ~~Epic – "[Connect to record types across workspaces](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/64dfad3100027190324dcc35b2176e76/overview?source-id=unifiedShareMFE)"~~ When you are creating a workspace in Planning, you can define certain record types once and then configure them to be accessible from multiple workspaces so you can create connections with them from anywhere. This way, you can streamline the data management process, eliminate duplicative work, and ensure data consistency across teams. As a result, your teams can tag their records with common taxonomies and unlock better visualization, filtering, grouping, and reporting of cross-team work.  For more information, see [Edit record types](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/edit-record-types). 
 
      
 
