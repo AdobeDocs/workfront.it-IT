@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: de568156315ff9094d938600c91b55e185d53765
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 0%
+source-wordcount: '688'
+ht-degree: 2%
 
 ---
 
@@ -37,7 +37,7 @@ Per informazioni sull&#39;invio di una richiesta a un tipo di record per la crea
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -90,11 +90,8 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    Viene visualizzata l&#39;area **Configurazione**.
 
    ![Scheda Configurazione](assets/configuration-tab.png)
-1. Nel campo **Approvatori**, fai clic sull&#39;icona a discesa e seleziona uno o più utenti o team nell&#39;elenco
-
-   Oppure
-
-   Iniziare a digitare il nome di un utente o team che si desidera impostare come approvatore, quindi selezionarlo quando viene visualizzato nell&#39;elenco.
+1. Nel campo **Approvatori**, inizia a digitare il nome di un utente o team che desideri impostare come approvatore, quindi selezionalo quando viene visualizzato nell&#39;elenco.
+1. (Facoltativo e condizionale) Se hai impostato più di un approvatore e hai bisogno di un solo approvatore per prendere una decisione, abilita l&#39;opzione **È richiesta una sola decisione**.
 
    <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -103,11 +100,11 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    >
    >* Puoi aggiungere uno o più approvatori a un modulo di richiesta.
    >
-   >* Se si aggiungono più approvatori, tutti gli approvatori devono approvare la richiesta prima che Workfront Planning crei un record.
+   >* Se si aggiungono più approvatori e l&#39;opzione È necessaria una sola decisione non è abilitata, tutti gli approvatori devono approvare la richiesta prima che Workfront Planning crei un record.
    >
    >* Se almeno un approvatore rifiuta la richiesta, la richiesta viene rifiutata e il record non viene creato. La richiesta rimane nella scheda Pianificazione della sezione Inviata nell&#39;area Richieste di Workfront.
    >
-   >* Tutti gli approvatori devono prendere una decisione prima che una richiesta venga approvata o rifiutata.
+   >* Se si aggiungono più approvatori e l&#39;opzione È necessaria una sola decisione non è abilitata, tutti gli approvatori devono prendere una decisione prima che una richiesta venga approvata o rifiutata.
    >
    >* Se un team è impostato come approvatore, è necessaria una sola decisione del team.
 

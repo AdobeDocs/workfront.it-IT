@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: de568156315ff9094d938600c91b55e185d53765
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 0%
+source-wordcount: '885'
+ht-degree: 1%
 
 ---
 
@@ -49,7 +49,7 @@ Si consiglia inoltre di visualizzare i seguenti articoli:
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -99,7 +99,7 @@ Gli approvatori ricevono le seguenti notifiche relative a una richiesta in attes
 
 Per approvare una richiesta:
 
-1. Esegui una delle operazioni seguenti:
+1. (Condizionale) Se utilizzi l’esperienza di richiesta legacy in Workfront, apri la richiesta effettuando una delle seguenti operazioni:
 
    * Se hai accesso a Workfront Planning e puoi visualizzare almeno un&#39;area di lavoro, fai clic su **Main Menu** ![Dots main menu](assets/dots-menu.png) nell&#39;angolo superiore destro della schermata o sul **Main Menu** ![Lines main menu](assets/lines-menu.png) nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **Requests** > **Submitted** > **Planning** e fai clic sulla richiesta con lo stato di **Pending review** o **In review**.
 
@@ -113,7 +113,7 @@ Per approvare una richiesta:
    La pagina della richiesta si apre in modalità di sola lettura.
 
    ![Pagina richiesta di sola lettura in stato di revisione](assets/read-only-reqeust-page-in-review-status.png)
-
+1. Se utilizzi la nuova esperienza di richiesta in Workfront, fai clic su **Menu principale** ![Menu principale punti](assets/dots-menu.png) nell&#39;angolo superiore destro dello schermo o sul **Menu principale** ![Menu principale righe](assets/lines-menu.png) nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **Richieste** e fai clic sulla richiesta che desideri approvare con lo stato di **Revisione in sospeso** o **In revisione**.
 1. (Facoltativo) Fai clic sull&#39;icona **Approvazioni** ![Approvazioni](assets/approvals-icon.png) nell&#39;angolo superiore destro della richiesta per visualizzare gli approvatori.
 1. Fai clic su **Rivedi e approva**, quindi scegli una delle seguenti opzioni:
 

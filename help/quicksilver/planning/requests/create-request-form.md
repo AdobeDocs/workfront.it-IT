@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: de568156315ff9094d938600c91b55e185d53765
 workflow-type: tm+mt
-source-wordcount: '2643'
+source-wordcount: '2684'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Per informazioni sull&#39;invio di una richiesta a un tipo di record per la crea
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -241,13 +241,13 @@ Nella scheda Configurazione puoi impostare il processo di approvazione e configu
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
-   * Quando si associa un modulo di richiesta agli approvatori, prima di generare un nuovo record è necessario che tutte le nuove richieste vengano approvate da tutti gli approvatori.
    * Puoi aggiungere uno o più approvatori a un modulo di richiesta.
-   * Se almeno un approvatore rifiuta la richiesta, la richiesta viene rifiutata e il record non viene creato.
-   * Tutti gli approvatori devono prendere una decisione prima che una richiesta venga approvata o rifiutata.
+   * Se si aggiungono più approvatori e l&#39;opzione È necessaria una sola decisione non è abilitata, tutti gli approvatori devono approvare la richiesta prima che Workfront Planning crei un record.
+   * Se almeno un approvatore rifiuta la richiesta, la richiesta viene rifiutata e il record non viene creato. La richiesta rimane nella scheda Pianificazione della sezione Inviata nell&#39;area Richieste di Workfront.
+   * Se si aggiungono più approvatori e l&#39;opzione È necessaria una sola decisione non è abilitata, tutti gli approvatori devono prendere una decisione prima che una richiesta venga approvata o rifiutata.
    * Se un team è impostato come approvatore, è necessaria una sola decisione del team.
 
-     Per ulteriori informazioni sull&#39;aggiunta di approvazioni ai moduli di richiesta, vedere [Aggiungere approvazione a un modulo di richiesta](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+   Per ulteriori informazioni sull&#39;aggiunta di approvazioni ai moduli di richiesta, vedere [Aggiungere approvazione a un modulo di richiesta](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 1. (Condizionale) Se desideri che il record venga creato dopo l&#39;approvazione di uno qualsiasi degli approvatori, seleziona la casella di controllo **È necessaria una sola decisione**.
 
