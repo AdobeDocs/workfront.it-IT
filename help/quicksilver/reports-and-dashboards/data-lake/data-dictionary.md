@@ -7,9 +7,9 @@ description: Questa pagina contiene informazioni sulla struttura e sul contenuto
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: e06db80d752d79157c758b3ecf3a8d4e7040e96d
+source-git-commit: 815bee06ce413005e362d2e38068d591696cad5b
 workflow-type: tm+mt
-source-wordcount: '8788'
+source-wordcount: '8878'
 ht-degree: 9%
 
 ---
@@ -20,7 +20,7 @@ Questa pagina contiene informazioni sulla struttura e sul contenuto dei dati in 
 
 >[!NOTE]
 >
->I dati in Data Connect vengono aggiornati ogni quattro ore, pertanto le modifiche recenti potrebbero non essere applicate immediatamente.
+>I dati in Data Connect vengono aggiornati ogni 4 ore, pertanto le modifiche recenti potrebbero non essere applicate immediatamente.
 
 ## Tipi di visualizzazione
 
@@ -49,7 +49,7 @@ Gli oggetti in Workfront (e, pertanto, nel data lake di Data Connect) sono defin
 >[!IMPORTANT]
 >
 >Il diagramma di relazioni tra entità fornito è intenzionalmente incompleto in quanto un&#39;ERD completa diventerebbe illeggibile a causa dell&#39;elevato numero di relazioni all&#39;interno dell&#39;applicazione.<br>
->&#x200B;>Questo diagramma fornisce un esempio di come le relazioni documentate nella tabella Project nella sezione [Tabella terminologica](#terminology-table) seguente possono essere utilizzate per unire i dati dalla visualizzazione dati di Project a oggetti adiacenti. Una volta compreso questo pattern per le relazioni tra gli oggetti del progetto, non è necessario un ERD completo
+>Questo diagramma fornisce un esempio di come le relazioni documentate nella tabella Project nella sezione [Tabella terminologica](#terminology-table) seguente possono essere utilizzate per unire i dati dalla visualizzazione dati di Project a oggetti adiacenti. Una volta compreso questo pattern per le relazioni tra gli oggetti del progetto, non è necessario un ERD completo
 
 ## Tipi di date
 
@@ -67,7 +67,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
 >[!NOTE]
 >
 >È possibile aggiungere nuovi campi alle visualizzazioni oggetti senza preavviso per supportare le esigenze di dati in continua evoluzione dell’applicazione Workfront. Si consiglia di non utilizzare query &quot;SELECT&quot; in cui il destinatario dei dati downstream non è preparato a gestire colonne aggiuntive durante l&#39;aggiunta.<br>
->&#x200B;>Se è necessario rinominare o rimuovere una colonna, avviseremo anticipatamente di queste modifiche.
+>Se è necessario rinominare o rimuovere una colonna, avviseremo anticipatamente di queste modifiche.
 
 ### Livello di accesso
 
@@ -1660,17 +1660,21 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
         </tr>
     </tbody>
 </table>
-<div>* Il tipo di record è identificato tramite la proprietà "enumClass". I tipi previsti sono:<br>
-<ul><li>CONDITION_OPTASK</li>
-<li>CONDITION_PROJ</li>
-<li>CONDITION_TASK</li>
-<li>PRIORITY_OPTASK</li>
-<li>PRIORITY_PROJ</li>
-<li>TASK_PRIORITARIO</li>
-<li>GRAVITY_OPTASK</li>
-<li>STATUS_OPTASK</li>
-<li>STATUS_PROJ</li>
-<li>TASK_STATO</li></ul></div>
+
+>[!NOTE]
+>
+>Tipo di record identificato tramite la proprietà `enumClass`. I tipi previsti sono:<br>
+><ul><li>CONDITION_OPTASK</li>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>TASK_PRIORITARIO</li>
+&gt;<li>GRAVITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>TASK_STATO</li></ul>
+
 
 ### Documento
 
@@ -3093,7 +3097,7 @@ Autonomo</td>
     </tbody>
 </table>
 
-### Voce del diario
+### Voce diario
 
 <table>
     <thead>
@@ -3107,10 +3111,10 @@ Autonomo</td>
       </thead>
       <tbody>
         <tr>
-            <td>Voce del diario</td>
-            <td>Voce del diario</td>
+            <td>Voce diario</td>
+            <td>Voce diario</td>
             <td>GERGO</td>
-            <td>Voce del diario</td>
+            <td>Voce diario</td>
             <td>JOURNALENTRIES_CURRENT<br>JOURNALENTRIES_DAILY_HISTORY<br>JOURNALENTRIES_EVENT</td>
         </tr>
       </tbody>
@@ -6601,6 +6605,11 @@ Disponibilità limitata dei clienti
         </tr>
     </tbody>
 </table>
+
+>[!NOTE]
+>
+>Nelle tabelle degli oggetti Team sono archiviati 3 tipi di team: PROJECT, TEMPLATE e ADHOC. <br>
+>Ciascuno di questi tipi di team è rappresentato insieme nelle visualizzazioni del data lake di Data Connect. Per isolare il tipo specifico di team da restituire, è necessario filtrare in base alla colonna `teamtype`. Ad esempio, se desideri solo i team tradizionali che fanno parte delle strutture organizzative, configurate nell’area Team dell’applicazione, potresti avere una query simile alla seguente: <code>seleziona * da teams_current dove teamtype = &quot;ADHOC&quot;;</code>
 
 ### Membro team
 
