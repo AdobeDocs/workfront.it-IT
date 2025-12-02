@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -46,7 +46,7 @@ In Adobe Workfront Planning, le aree di lavoro sono posizioni centralizzate in c
    <td> 
 <ul> 
 <li><p>Qualsiasi pacchetto Workfront e Planning</p></li>
-<p>Oppure</p>
+Oppure
 <li><p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p></li></ul>
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
@@ -141,7 +141,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 1. Per eliminare un&#39;area di lavoro, effettuate una delle seguenti operazioni:
 
    * Passa il puntatore del mouse sulla scheda dell&#39;area di lavoro, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) nell&#39;angolo superiore destro della scheda
-Oppure
+Oppure <!--Add this to the bullet below: <span class="preview">Search for a workspace by name and </span>-->
    * Fai clic su una scheda dell&#39;area di lavoro per aprirla, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome dell&#39;area di lavoro.
 1. Fai clic su **Elimina**.
 

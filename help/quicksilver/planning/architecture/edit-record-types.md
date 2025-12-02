@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 2%
@@ -46,7 +46,7 @@ I tipi di record sono i tipi di oggetto di Adobe Workfront Planning. È possibil
 <p>Per configurare i tipi di record collegabili: </p>
 <ul> 
 <li><p>Qualsiasi pacchetto Workfront e qualsiasi pacchetto Planning</p></li>
-<p>Oppure</p>
+Oppure
 <li><p>Qualsiasi flusso di lavoro e un pacchetto Planning Prime o Ultimate</p></li></ul>
 
 <div class="preview">
@@ -54,7 +54,7 @@ I tipi di record sono i tipi di oggetto di Adobe Workfront Planning. È possibil
 
 <ul> 
 <li><p>Qualsiasi pacchetto Workfront e un pacchetto Planning Plus</p></li>
-<p>Oppure</p>
+Oppure
 <li><p>Qualsiasi flusso di lavoro e un pacchetto Planning Prime o Ultimate</p></li></ul>
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p>
 
@@ -154,7 +154,7 @@ Oppure
 
 1. Nella casella **Modifica tipo di record**, per impostazione predefinita viene aperta la scheda **Aspetto**. <!--update screen shot below at production-->
 
-   ![Modifica la scheda dell&#39;aspetto della casella del tipo di record &#x200B;](assets/edit-record-type-box-appearance-tab.png)
+   ![Modifica la scheda dell&#39;aspetto della casella del tipo di record ](assets/edit-record-type-box-appearance-tab.png)
 
    Aggiorna le seguenti informazioni nella scheda **Aspetto**:
 

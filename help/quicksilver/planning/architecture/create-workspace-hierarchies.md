@@ -4,10 +4,10 @@ description: È possibile creare più gerarchie di aree di lavoro tra i tipi di 
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -52,7 +52,7 @@ hidefromtoc: yes
    <td> 
 <ul> 
 <li><p>Qualsiasi pacchetto Workfront e Planning</p></li>
-<p>Oppure</p>
+Oppure
 <li><p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p></li></ul>
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 

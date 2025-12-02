@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 2%
+source-wordcount: '462'
+ht-degree: 3%
 
 ---
 
@@ -52,21 +52,17 @@ A seconda delle funzionalità che si desidera definire per un tipo di record, è
    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
 <p>Qualsiasi pacchetto Workfront e Planning</p>
-<p>Qualsiasi pacchetto Workfront e Planning</p>
+<p>Qualsiasi pacchetto di Workflow e Planning</p>
+<div class="preview">
 <p><b>NOTA</b></p>
-<p>Per configurare i tipi di record collegabili: </p>
-<ul> 
-<li><p>Qualsiasi pacchetto Workfront e qualsiasi pacchetto Planning</p></li>
-<p>Oppure</p>
-<li><p>Qualsiasi flusso di lavoro e un pacchetto Planning Prime o Ultimate</p></li></ul>
-
 <p>Per configurare i tipi di record globali:</p>
 
 <ul> 
 <li><p>Qualsiasi pacchetto Workfront e un pacchetto Planning Plus</p></li>
-<p>Oppure</p>
-<li><p>Qualsiasi flusso di lavoro e un pacchetto Planning Prime o Ultimate</p></li></ul>
-<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p>
+Oppure
+<li><p>Qualsiasi pacchetto Workflow e un pacchetto Planning Prime o Ultimate</p></li></ul>
+<p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
+</div>
    </td> </tr>
   <tr> 
    <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 

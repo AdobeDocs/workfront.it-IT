@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 1%
+source-wordcount: '1199'
+ht-degree: 2%
 
 ---
 
@@ -52,7 +52,7 @@ Per ulteriori informazioni sui tipi di record, vedere [Panoramica sui tipi di re
 <p>Per configurare i tipi di record collegabili: </p>
 <ul> 
 <li><p>Qualsiasi pacchetto Workfront e qualsiasi pacchetto Planning</p></li>
-<p>Oppure</p>
+Oppure
 <li><p>Qualsiasi flusso di lavoro e un pacchetto Planning Prime o Ultimate</p></li></ul>
 
 <div class="preview">
@@ -60,7 +60,7 @@ Per ulteriori informazioni sui tipi di record, vedere [Panoramica sui tipi di re
 
 <ul> 
 <li><p>Qualsiasi pacchetto Workfront e un pacchetto Planning Plus</p></li>
-<p>Oppure</p>
+Oppure
 <li><p>Qualsiasi flusso di lavoro e un pacchetto Planning Prime o Ultimate</p></li></ul>
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p>
 
@@ -163,9 +163,8 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
         Questo articolo descrive come creare tipi di record da zero.
 
-     <!--
-        * <span class="preview">By adding them from another workspace</span>
-            <span class="preview">For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). </span>-->
+      * <span class="preview">Aggiungendoli da un&#39;altra area di lavoro</span>
+        <span class="preview">Per informazioni, vedere [Aggiungere tipi di record esistenti da un&#39;altra area di lavoro](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). </span>
 
 
 * È possibile spostare tipi di record all&#39;interno di una sezione e da una sezione di un&#39;area di lavoro a un&#39;altra. Non è possibile spostare tipi di record da un&#39;area di lavoro a un&#39;altra.
@@ -197,7 +196,7 @@ Quando si crea un&#39;area di lavoro da un modello, i tipi di record vengono rag
 1. (Facoltativo) Fai clic su **Aggiungi sezione** per aggiungere una nuova sezione all&#39;area di lavoro.
 1. Fai clic su **Aggiungi tipo di record**, quindi su **Aggiungi manualmente**.
 
-   Viene visualizzata la casella Aggiungi tipo di record. <!--update screen shot for preview-->
+   Viene visualizzata la casella Aggiungi tipo di record.
 
    ![Aggiungi la casella del tipo di record con le opzioni di aspetto](assets/add-record-type-box-with-appearance-options.png)
 
@@ -207,13 +206,11 @@ Quando si crea un&#39;area di lavoro da un modello, i tipi di record vengono rag
    * **Descrizione**: aggiungere ulteriori informazioni sul tipo di record.
    * Selezionare un colore e una forma per l&#39;icona associata al tipo di record. Effettua le seguenti operazioni:
       * Selezionare un colore per identificare il nuovo tipo di record. Colore dell&#39;icona del tipo di record. Il grigio è selezionato per impostazione predefinita.
-      * Seleziona un’icona dall’elenco, oppure inizia a digitare il nome di un’icona per descrivere ciò che rappresenta, quindi selezionala quando viene visualizzata. Icona del tipo di record. Per impostazione predefinita, viene selezionata un&#39;icona di file.
+      * Seleziona un’icona dall’elenco, oppure inizia a digitare il nome di un’icona nel campo di ricerca per descrivere ciò che rappresenta, quindi selezionala quando viene visualizzata. Icona del tipo di record. Per impostazione predefinita, viene selezionata un&#39;icona di file.
 
-1. (Facoltativo e condizionale) Se sei un amministratore di sistema, fai clic sulla scheda **Impostazioni avanzate** <span class="preview">o **Impostazioni per più aree di lavoro**</span> e aggiorna le informazioni sulle funzionalità per più aree di lavoro del tipo di record.
+1. (Facoltativo e condizionale) Se sei un amministratore di sistema, fai clic sulla scheda **Impostazioni avanzate** <span class="preview">o **Impostazioni per più aree di lavoro**</span> e <span class="preview">aggiorna le informazioni sulle funzionalità per più aree di lavoro del tipo di record.
 
-   Per ulteriori informazioni, vedere [Configurare le funzionalità tra aree di lavoro diverse per i tipi di record](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). <!--update screen shot at production - Jan 2026-->
-
-   ![Casella Modifica tipo di record con scheda Impostazioni avanzate](assets/edit-record-type-box-advanced-settings-tab.png)
+   ![Casella Modifica tipo di record con scheda Impostazioni avanzate](assets/edit-record-type-box-advanced-settings-tab.png) </span>
 
    Per ulteriori informazioni, vedere [Configurare le funzionalità tra aree di lavoro diverse per i tipi di record](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
@@ -280,16 +277,12 @@ Quando si importano informazioni da un file CSV o Excel, è possibile importare 
 
 Per ulteriori informazioni, vedere [Creare tipi di record importando informazioni da un file CSV o Excel](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
 
-<!--
-
 <div class="preview">
 
-## Create record types by adding existing ones from another workspace 
+## Creare tipi di record aggiungendo quelli esistenti da un&#39;altra area di lavoro
 
-You can add record types to a workspace by adding existing ones from another workspace. You can only add record types that have been configured as global record types. 
+È possibile aggiungere tipi di record a un&#39;area di lavoro aggiungendo quelli esistenti da un&#39;altra area di lavoro. È possibile aggiungere solo tipi di record configurati come tipi di record globali.
 
-For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
+Per informazioni, vedere [Aggiungere tipi di record esistenti da un&#39;altra area di lavoro](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
 </div>
-
--->

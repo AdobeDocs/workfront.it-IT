@@ -2,25 +2,26 @@
 product-area: projects
 navigation-topic: plan-a-project
 title: Panoramica del progetto
-description: Scopri cos’è un progetto, come stabilirne l’ambito e la struttura, nonché concetti chiave come pianificazioni, tempistiche e date di inizio e completamento.
+description: Un progetto è un elemento di lavoro di grandi dimensioni in Adobe Workfront. È possibile suddividere un progetto in attività che sono elementi di lavoro più piccoli. Le attività possono essere assegnate a utenti o team che possono essere responsabili del loro completamento. Quando tutti gli utenti completano le loro attività, anche il progetto diventa completo.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 3cbcc2dd2efb457f5f0c4213110af54230a23eb0
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1606'
 ht-degree: 0%
 
 ---
 
 # Pianificare una panoramica del progetto
 
-<!--Audited: 01/2024-->
+<!--Audited: 12/2025-->
 
 <!--
-< see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
--->
+< see if you need to add something about approval settings, issue for ad-hoc happenings and how to work with documents??-->
+
+<!--this article is linked to the ESM area in the UI; the ESM team on the Adobe side linked to this article for their -->
 
 Un progetto è un elemento di lavoro di grandi dimensioni in Adobe Workfront. È possibile suddividere un progetto in attività che sono elementi di lavoro più piccoli. Le attività possono essere assegnate a utenti o team che possono essere responsabili del loro completamento. Quando tutti gli utenti completano le loro attività, anche il progetto diventa completo.
 
@@ -30,9 +31,13 @@ Oltre a pianificare le attività di un progetto, molti altri dettagli vengono in
 
 Pianificare un progetto significa determinare esattamente quali sono gli obiettivi principali da raggiungere per completare il progetto.
 
-Nelle fasi iniziali di un progetto, potresti non aver ancora determinato se dovresti eseguire effettivamente il progetto. Potrebbe non essere conveniente, o potresti non disporre delle risorse necessarie. In questa fase della pianificazione è possibile creare un progetto in Workfront senza aggiungere attività e impostare lo stato su pianificazione.
+Nelle fasi iniziali di un progetto, potresti non aver ancora determinato se dovresti eseguire effettivamente il progetto. Potrebbe non essere conveniente, o potresti non disporre delle risorse necessarie. In questa fase della pianificazione è possibile creare un progetto in Workfront senza aggiungere task e impostarne lo stato su Pianificazione.
+
+In alternativa, puoi inviare una richiesta di progetto per chiedere al tuo Portfolio Manager se è possibile creare il progetto. Questo consente di inviare un Business Case per il progetto in cui è possibile stimare ciò che sarà necessario per completare il progetto. Viene creato un progetto con lo stato Richiesto.
 
 Per ulteriori informazioni sulla creazione di un progetto, vedere l&#39;articolo [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md).
+
+Per informazioni sulla creazione di una richiesta di progetto, vedere [Richiedere un progetto](/help/quicksilver/manage-work/projects/create-projects/request-project.md).
 
 Prima di pianificare un progetto, considera le seguenti domande:
 
@@ -54,13 +59,19 @@ Dopo aver definito l&#39;ambito generale del progetto, è possibile determinare 
 
 ### Definire la data di inizio e di completamento del progetto {#define-the-start-and-completion-date-of-the-project}
 
-Quando pianifichi un progetto, una delle prime cose da determinare è la timeline: quando può iniziare il progetto e entro quale momento deve essere completato. Determina se esiste una scadenza impostata per quando il progetto deve essere completato o se è necessario impostare un punto di partenza e lavorare da lì.
+Quando pianifichi un progetto, una delle prime cose da determinare è la timeline: puoi determinare quando può iniziare il progetto e in che momento deve essere completato.
+
+Determina se esiste una scadenza impostata per quando il progetto deve essere completato o se è necessario impostare un punto di partenza e lavorare da lì.
 
 È possibile programmare un progetto a partire da una data di inizio oppure a partire dalla data di completamento. È possibile impostare questo attributo al momento della creazione iniziale del progetto e modificarlo in qualsiasi momento.
+
+Per informazioni, vedere [Modifica progetti](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
 ### Definire la pianificazione del progetto {#define-the-project-schedule}
 
 È necessario determinare una pianificazione e associarla al progetto e agli utenti responsabili del completamento delle attività del progetto.
+
+Una pianificazione definisce il tempo a disposizione degli utenti per lavorare al progetto.
 
 Valuta di definire quanto segue in una pianificazione:
 
@@ -70,7 +81,7 @@ Valuta di definire quanto segue in una pianificazione:
 
 È importante sapere quando gli utenti sono disponibili a lavorare per comprendere lo stato di avanzamento delle attività sul progetto.
 
-È possibile creare più pianificazioni di progetto e applicare al progetto una pianificazione predefinita. Puoi applicare pianificazioni personalizzate aggiuntive a singoli utenti.
+Puoi creare più pianificazioni nell’istanza di Workfront e applicare una pianificazione predefinita che verrà utilizzata per tutti i progetti. Puoi anche creare pianificazioni personalizzate aggiuntive per associarle a singoli utenti.
 
 Per ulteriori informazioni sulle pianificazioni, vedere l&#39;articolo [Creare una pianificazione](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
@@ -80,14 +91,19 @@ Durante la pianificazione di un progetto, è necessario impostare alcune informa
 
 Considera di porre le seguenti domande:
 
-* Esiste una normativa che impone di tenere una registrazione degli eventi e dei processi? In caso affermativo, quali sono i requisiti per il monitoraggio?\
+* Esiste una normativa che impone di tenere una registrazione degli eventi e dei processi? In caso affermativo, quali sono i requisiti per il monitoraggio?
+
   Workfront consente di registrare le modifiche, le modifiche dell’ambito, le modifiche dello stato e le azioni in modo da poter rispettare le normative specifiche del settore.\
   Per ulteriori informazioni sulla definizione degli aggiornamenti da tenere traccia in Workfront, vedere l&#39;articolo [Aggiornamenti monitorati dal sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
-* Sono presenti informazioni necessarie per il tracciamento che non dispongono di un campo in Workfront per memorizzarlo in? In caso affermativo, creare un Forms personalizzato per i progetti o le attività in cui è possibile memorizzare tali informazioni.\
+* Sono presenti informazioni necessarie per il tracciamento che non dispongono di un campo in Workfront per memorizzarlo in?
+
+  In caso affermativo, creare un Forms personalizzato per i progetti o le attività in cui è possibile memorizzare tali informazioni.
+
   Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere l&#39;articolo [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-* È necessario concedere punti di controllo per l&#39;approvazione prima di continuare a lavorare su un progetto? In caso affermativo, creare processi di approvazione per i progetti o le attività che è possibile utilizzare durante la creazione del progetto.\
+* È necessario concedere punti di controllo per l&#39;approvazione prima di continuare a lavorare su un progetto? In caso affermativo, creare processi di approvazione per i progetti o le attività che è possibile utilizzare durante la creazione del progetto.
+
   Per ulteriori informazioni sui processi di approvazione, vedere l&#39;articolo [Creare un processo di approvazione per gli elementi di lavoro](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 ## Creare la timeline del progetto
@@ -95,11 +111,12 @@ Considera di porre le seguenti domande:
 Dopo aver determinato gli obiettivi principali di un progetto e aver stabilito che il progetto merita di essere perseguito, è necessario calcolare la sequenza temporale per ogni obiettivo. Ogni obiettivo può diventare una delle attività del progetto.
 
 Questo consente di assegnare le priorità agli obiettivi e pianificare di conseguenza la struttura funzionale. La struttura Work Breakdown Structure definisce la timeline del progetto.\
-Per ulteriori informazioni sulla creazione di attività in un progetto, vedere la sezione [Definire le attività](#define-tasks).
+Per ulteriori informazioni sulla creazione di attività in un progetto, vedere la sezione [Definire le attività](#define-tasks) in questo articolo.
 
 Quando crei la timeline del progetto, tieni presente quanto segue:
 
 * Suddividi gli obiettivi più grandi in attività secondarie e definisci le relative date di inizio e di completamento.
+* Assegna attività a singoli utenti o team, in modo da sapere chi è responsabile del loro completamento. È possibile assegnare le attività alle mansioni, ma solo per la fase di pianificazione iniziale del progetto, quando non si è sicuri di chi possa essere assegnato alle attività. Dopo aver avviato il progetto, è meglio sostituire le mansioni con assegnazioni utente o team.
 * Determinare se gli obiettivi hanno dipendenze da altri obiettivi.
 
   È possibile impostare tali dipendenze come predecessori.
@@ -124,7 +141,7 @@ Quando si definiscono gli obiettivi del progetto e le attività associate, si cr
 
 È possibile creare attività in un progetto nei modi seguenti:
 
-* Aggiungere attività a un progetto in modalità di modifica in linea.
+* Aggiunta manuale di attività a un progetto durante la modifica in linea dell&#39;elenco Attività del progetto.
 * Utilizza un Modello con Attività di Modello definite e aggiungilo al tuo progetto.
 
   Le Attività Modello diventano le Attività del Progetto.

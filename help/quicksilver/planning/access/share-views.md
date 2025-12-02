@@ -6,23 +6,22 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 0%
+source-wordcount: '1902'
+ht-degree: 1%
 
 ---
 
 
 # Condividere le visualizzazioni
 
-<!--
+<!--there are several mentions on how to share public links for global record types in secondary workspaces in this articel; you have to update all of these mentions when something changes-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
 {{planning-important-intro}}
 
@@ -42,7 +41,7 @@ This article describes how you can share a view with others. For information abo
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
@@ -170,6 +169,11 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 * Quando condividi pubblicamente una visualizzazione, il collegamento è accessibile a chiunque non faccia parte della tua azienda per un periodo di tempo limitato, indicato dalla data di scadenza. Non è necessario effettuare l&#39;accesso per visualizzare la visualizzazione condivisa.
 
+  >[!NOTE]
+  >
+  ><span class="preview">Impossibile condividere una visualizzazione pubblicamente da un tipo di record globale in un&#39;area di lavoro secondaria. Per ulteriori informazioni, vedere [Aggiungere tipi di record esistenti da un&#39;altra area di lavoro](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).</span>
+
+
 * Gli utenti esterni all&#39;organizzazione che dispongono dell&#39;accesso a una visualizzazione non possono creare altre visualizzazioni, modificare la visualizzazione condivisa o aggiungere, eliminare o modificare le informazioni del record nella visualizzazione.
 
 ## Condivisione interna delle autorizzazioni per una visualizzazione
@@ -217,7 +221,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 1. Seleziona uno dei seguenti livelli di autorizzazione dal menu a discesa:
    * Visualizzazione
-   * Gestisci
+   * Gestione
 
      Per informazioni sui livelli di autorizzazione e sulle azioni che gli utenti possono eseguire per ogni livello, vedere [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
@@ -238,6 +242,8 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 ## Condivisione pubblica delle autorizzazioni per una visualizzazione
 
 Puoi condividere le viste create o le viste per le quali disponi delle autorizzazioni di gestione con persone che non dispongono di una licenza Workfront e che potrebbero essere esterne alla tua organizzazione.
+
+<span class="preview">Impossibile condividere una visualizzazione pubblicamente da un tipo di record globale nell&#39;area di lavoro secondaria. </span>
 
 >[!IMPORTANT]
 >
@@ -268,6 +274,11 @@ Per condividere una visualizzazione pubblicamente in Workfront Planning:
 1. Abilita l&#39;impostazione **Crea collegamento pubblico**.
 
    È disponibile un collegamento. Questo è un link pubblico. Quando è condiviso, chiunque disponga del collegamento, incluse persone esterne all&#39;organizzazione, può accedere alla pagina del tipo di record e visualizzare record e campi nella pagina.
+
+   >[!TIP]
+   >
+   ><span class="preview">L&#39;impostazione **Crea collegamento pubblico** è disabilitata per un tipo di record globale nell&#39;area di lavoro secondaria.</span>
+
 
 1. Fai clic sull&#39;icona **Copia collegamento** ![Copia visualizzazione collegamento](assets/copy-link-view.png) per copiare il collegamento negli Appunti.
 

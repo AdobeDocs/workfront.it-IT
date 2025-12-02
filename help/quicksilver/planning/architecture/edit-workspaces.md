@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -48,7 +48,7 @@ Tutte le modifiche apportate a un&#39;area di lavoro sono visibili a tutti color
    <td> 
 <ul> 
 <li><p>Qualsiasi pacchetto Workfront e Planning</p></li>
-<p>Oppure</p>
+Oppure
 <li><p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p></li></ul>
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
@@ -139,7 +139,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 1. Per modificare un&#39;area di lavoro, effettuate una delle seguenti operazioni:
 
    * Passa il puntatore del mouse sulla scheda dell&#39;area di lavoro, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) nell&#39;angolo superiore destro della scheda
-Oppure
+Oppure <!--Add this to the next bullet: <span class="preview"> Search for a workspace by name and</span>-->
    * Fai clic su una scheda dell&#39;area di lavoro per aprirla, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome dell&#39;area di lavoro.
 1. Fai clic su **Modifica**.
 

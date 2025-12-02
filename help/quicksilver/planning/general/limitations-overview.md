@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 2%
+source-wordcount: '461'
+ht-degree: 3%
 
 ---
 
@@ -31,12 +31,12 @@ Nella tabella seguente vengono illustrati i limiti per il numero di oggetti che 
 
 | Oggetto Adobe Workfront Planning | Limite |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
-| Numero di aree di lavoro per un’istanza Workfront | illimitato* |
+| Numero di aree di lavoro per un’istanza Workfront | Senza limiti* |
 | Numero di sezioni per un’area di lavoro | 50 |
 | Numero di tipi di record per un&#39;area di lavoro | 100 (sono inclusi i tipi di record di tutte le sezioni e quelli creati quando si utilizza un modello workspace) |
 | Numero di record per un tipo di record | 25.000 |
-| Numero di record per un&#39;area di lavoro | 25.000 per i clienti con Planning <br> 500.000 per i clienti con Planning Plus |
-| Numero di record totali per un&#39;istanza di Workfront Planning | 500.000 per clienti con Planning <br>2 milioni per clienti con Planning Plus |
+| Numero di record per un&#39;area di lavoro | Selezione pianificazione: 25.000 <br> Prime pianificazione: 500.000 <br> Ultimate pianificazione: 1.000.000 |
+| Numero di record totali per un&#39;istanza di Workfront Planning | Selezione pianificazione: 500.000 <br> Pianificazione Prime: 2.000.000 <br> Pianificazione Ultimate: Unlimited |
 | Numero di campi per un tipo di record o una tassonomia | 500 |
 | Numero di caratteri per un campo di testo a riga singola | 1.000 caratteri |
 | Numero di caratteri per un campo paragrafo | 10.000 caratteri |
@@ -51,6 +51,7 @@ Nella tabella seguente vengono illustrati i limiti per il numero di oggetti che 
 | Numero di campi formula per un tipo di record | 20 |
 | <span class="preview">Numero di campi di connessione per un tipo di record</span> | <span class="preview">30</span> |
 | Numero di caratteri in un&#39;espressione del campo formula | 50.000 |
+| Numero di entità (utenti, ruoli, team, società, gruppi) con cui è possibile condividere un oggetto Planning | 100 |
 
 *Si consiglia di non disporre di troppe aree di lavoro, in quanto potrebbero diventare difficili da gestire e i flussi di lavoro potrebbero essere troppo frammentati.
 

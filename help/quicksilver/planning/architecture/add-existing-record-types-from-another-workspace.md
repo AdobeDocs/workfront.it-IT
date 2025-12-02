@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 0%
+source-wordcount: '647'
+ht-degree: 1%
 
 ---
 
@@ -50,7 +50,7 @@ Prima di aggiungere record a un&#39;area di lavoro da un tipo di record globale,
    <td role="rowheader"><p>Pacchetto Adobe Workfront</p></td> 
    <td> 
 <ul><li><p>Qualsiasi pacchetto Workfront e un pacchetto Planning Plus</p></li>
-<p>Oppure</p>
+Oppure
 <li><p>Qualsiasi flusso di lavoro e un pacchetto Planning Prime o Ultimate</p></p></li></ul>
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
@@ -114,10 +114,11 @@ And
 
 >[!NOTE]
 >
->Verificare che almeno un tipo di record sia designato come globale in almeno un&#39;altra area di lavoro.
+>Verificare che in almeno un&#39;altra area di lavoro principale sia presente almeno un tipo di record designato come globale.
 >
 >Per informazioni, vedere [Configurare le funzionalità tra aree di lavoro diverse per i tipi di record](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
+1. Passare a un&#39;area di lavoro in cui si desidera creare un tipo di record (area di lavoro secondaria).
 1. Inizia a creare un tipo di record come descritto nell&#39;articolo [Crea tipi di record](/help/quicksilver/planning/architecture/create-record-types.md), quindi fai clic su **Aggiungi esistente**. <!--check this - the option might have been renamed in the UI-->
 
    ![Modale per aggiungere il tipo di record con opzione da aggiungere da un&#39;altra area di lavoro](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
@@ -129,7 +130,7 @@ And
 1. Fai clic su **Continua**.
 1. Nella casella **Scegli il tipo di record**, fai clic sulla scheda del tipo di record che desideri aggiungere da un&#39;area di lavoro esistente, quindi fai clic su **Aggiungi**.
 
-   Il tipo di record viene aggiunto all&#39;area di lavoro selezionata e l&#39;icona **del tipo di record globale**![](assets/global-icon.png) viene visualizzata nella scheda del tipo di record.
+   Il tipo di record viene aggiunto all&#39;area di lavoro secondaria selezionata e l&#39;icona **del tipo di record globale**![](assets/global-icon.png) viene visualizzata nella scheda del tipo di record.
 
    Si verificano le seguenti situazioni:
 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1165'
 ht-degree: 5%
 
 ---
@@ -66,21 +66,6 @@ In Workfront Planning è possibile condividere manualmente i seguenti oggetti:
 
   Per ulteriori informazioni, vedere [Condividi visualizzazioni](/help/quicksilver/planning/access/share-views.md).
 
-Internamente, è possibile condividere un&#39;area di lavoro, una vista o un tipo di record con le seguenti entità Workfront:
-
-* Utenti
-* Gruppi
-* Team
-* Aziende
-* Mansioni
-
-Quando si condividono aree di lavoro e tipi di record con altri utenti, il livello di autorizzazione del tipo di record viene ereditato automaticamente dai record e dai campi ad essi associati.
-
->[!IMPORTANT]
->
->Se l’istanza di Workfront della tua organizzazione è stata integrata nell’esperienza unificata di Adobe, gli utenti con cui desideri condividere gli oggetti di Planning devono essere aggiunti al Adobe Admin Console. Non è possibile condividere oggetti Planning con utenti di Workfront che non sono stati aggiunti al Adobe Admin Console.
-
-
 ## Considerazioni sulla condivisione di oggetti in Adobe Workfront Planning
 
 * Il tipo di licenza Adobe Workfront funziona insieme alle autorizzazioni di Workfront Planning per consentire l’accesso alla visualizzazione, al contributo o alla gestione delle aree di lavoro e dei relativi oggetti.
@@ -88,14 +73,30 @@ Quando si condividono aree di lavoro e tipi di record con altri utenti, il livel
   Per informazioni su come i tipi di licenza influiscono sui livelli di autorizzazione per Workfront Planning, vedere [Panoramica sui tipi di licenza quando si utilizza Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 * Gli amministratori di sistema possono gestire tutte le aree di lavoro del sistema, incluse quelle che non hanno creato.
 * Gli altri utenti, inclusi gli amministratori di sistema, possono accedere solo alle visualizzazioni create o condivise con loro. Gli amministratori di sistema possono disporre delle autorizzazioni necessarie solo per gestire una visualizzazione.
-* È possibile condividere con altri utenti un collegamento a un&#39;area di lavoro o a una visualizzazione.
 
-  Esistono i seguenti scenari:
-   * Gli utenti che ricevono il collegamento a un’area di lavoro devono essere utenti attivi e accedere a Workfront per poter accedere all’area di lavoro.
-   * Gli utenti che ricevono il collegamento a una visualizzazione possono accedervi nei modi seguenti:
+* Quando si condividono aree di lavoro e tipi di record con altri utenti, il livello di autorizzazione del tipo di record viene ereditato automaticamente dai record e dai campi ad essi associati.
 
-      * Se il collegamento alla visualizzazione è stato condiviso internamente, deve trattarsi di utenti attivi e accedere a Workfront.
-      * Possono essere utenti esterni di Workfront e accedere alla visualizzazione da un collegamento condiviso pubblicamente, senza effettuare l’accesso a Workfront.
+  >[!IMPORTANT]
+  >
+  >Se l’istanza di Workfront della tua organizzazione è stata integrata nell’esperienza unificata di Adobe, gli utenti con cui desideri condividere gli oggetti di Planning devono essere aggiunti al Adobe Admin Console. Non è possibile condividere oggetti Planning con utenti di Workfront che non sono stati aggiunti al Adobe Admin Console.
+
+* È possibile condividere gli oggetti Planning nei modi seguenti:
+
+   * Internamente, è possibile condividere un&#39;area di lavoro, una vista o un tipo di record con le seguenti entità Workfront:
+
+      * Utenti
+      * Gruppi
+      * Team
+      * Aziende
+      * Mansioni
+
+     È possibile condividere un oggetto Planning con un massimo di 100 entità per oggetto.
+
+   * Internamente, condividendo un collegamento a un&#39;area di lavoro o a una vista con altri utenti di Planning. Esistono i seguenti scenari:
+
+      * Gli utenti che ricevono il collegamento a un’area di lavoro devono essere utenti attivi e accedere a Workfront per accedere all’area di lavoro.
+      * Gli utenti che ricevono un collegamento di condivisione interna per una visualizzazione devono essere utenti attivi e accedere a Workfront per accedere alla visualizzazione.
+   * Esternamente, condividendo un collegamento di condivisione pubblica a una visualizzazione con utenti esterni che non dispongono di un account Workfront.
 
 ## Condivisione delle autorizzazioni per gli oggetti di Adobe Workfront Planning
 
@@ -123,12 +124,12 @@ Le tabelle delle sezioni seguenti illustrano il livello di autorizzazioni che è
 
 Di seguito sono riportati i livelli di autorizzazione per le aree di lavoro:
 
-|        | Gestisci | Contribuisci | Viste |
+|        | Gestione | Contribuisci | Visualizzazione |
 |--------|--------|------------|-------|
-| Modif | ✓ |            |       |
+| Modifica | ✓ |            |       |
 | Condividi | ✓ |            |       |
 | Elimina | ✓ |            |       |
-| Visualizza | ✓ | ✓ | ✓ |
+| Visualizzazione | ✓ | ✓ | ✓ |
 
 ### Autorizzazioni per i tipi di record
 
@@ -163,13 +164,13 @@ Esistono i seguenti scenari:
 
 | Autorizzazioni Workspace | Autorizzazioni ereditate automaticamente per un tipo di record | Autorizzazioni possibili per il tipo di record quando le autorizzazioni ereditate sono disattivate (concesse manualmente) |
 |--------|--------|-------------|
-| Gestisci | Gestisci | Gestisci, Rimuovi autorizzazioni* |
+| Gestione | Gestione | Gestisci, Rimuovi autorizzazioni* |
 | Contribuisci | Contribuisci | Autorizzazioni Contribute, View, Remove* |
-| Visualizza | Visualizza | Visualizza, Rimuovi autorizzazioni* |
+| Visualizzazione | Visualizzazione | Visualizza, Rimuovi autorizzazioni* |
 
 >[!NOTE]
 >
->*Quando si rimuovono le autorizzazioni da un tipo di record, gli utenti conservano comunque le autorizzazioni di visualizzazione per l&#39;area di lavoro e per tutti i tipi di record, a meno che non si rimuovano le relative autorizzazioni dall&#39;area di lavoro.
+>Quando si rimuovono le autorizzazioni da un tipo di record, gli utenti conservano comunque le autorizzazioni di visualizzazione per l&#39;area di lavoro e per tutti i tipi di record, a meno che non si rimuovano le relative autorizzazioni dall&#39;area di lavoro.
 
 ### Autorizzazioni per i record
 
@@ -178,12 +179,12 @@ Le autorizzazioni dei record vengono ereditate dal tipo di record quando si conc
 Di seguito sono riportati i livelli di autorizzazione per i record:
 
 
-|        | Gestisci | Contribuisci | Visualizza |
+|        | Gestione | Contribuisci | Visualizzazione |
 |--------|--------|------------|-------|
-| Crea | ✓ | ✓ |       |
+| Creare | ✓ | ✓ |       |
 | Elimina | ✓ | ✓ |       |
 | Modifica | ✓ | ✓ |       |
-| Visualizza | ✓ | ✓ | ✓ |
+| Visualizzazione | ✓ | ✓ | ✓ |
 
 ### Autorizzazioni per registrare i campi
 
@@ -191,12 +192,12 @@ Le autorizzazioni dei campi vengono ereditate dal tipo di record quando si conce
 
 Le autorizzazioni seguenti fanno riferimento ai campi stessi e non ai valori associati a ciascun campo. Per modificare i valori dei campi è necessario disporre delle autorizzazioni per la modifica dei record.
 
-|        | Gestisci | Contribuisci | Visualizza |
+|        | Gestione | Contribuisci | Visualizzazione |
 |--------|--------|------------|-------|
-| Crea | ✓ |            |       |
+| Creare | ✓ |            |       |
 | Elimina | ✓ |            |       |
 | Modifica | ✓ |            |       |
-| Visualizza | ✓ | ✓ | ✓ |
+| Visualizzazione | ✓ | ✓ | ✓ |
 
 
 ### Autorizzazioni per le visualizzazioni
@@ -221,12 +222,12 @@ Di seguito sono riportati i livelli di autorizzazione per le visualizzazioni e g
 | Modifica | ✓ |       |                            |
 | Elimina | ✓ |       |                            |
 | Condividi | ✓ |       |                           |
-| Visualizza | ✓ | ✓ | ✓ |
+| Visualizzazione | ✓ | ✓ | ✓ |
 | Applica | ✓ | ✓ | ✓ |
 
-| Condivisione pubblica | Visualizza |
+| Condivisione pubblica | Visualizzazione |
 |--------|-------|
-| Visualizza | ✓ |
+| Visualizzazione | ✓ |
 | Applica | ✓ |
 
 *Gli utenti devono disporre di autorizzazioni View (Visualizzazione) o superiori per un&#39;area di lavoro per poter accedere a questa visualizzazione.
