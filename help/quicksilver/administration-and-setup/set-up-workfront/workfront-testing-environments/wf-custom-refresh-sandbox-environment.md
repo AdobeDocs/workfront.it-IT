@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+source-git-commit: 5b5f9083ed4b60fa6642100cfb9b0da46799dffa
 workflow-type: tm+mt
-source-wordcount: '1719'
-ht-degree: 0%
+source-wordcount: '1741'
+ht-degree: 1%
 
 ---
 
@@ -29,11 +29,11 @@ La sandbox di aggiornamento personalizzata è un ambiente in cui puoi testare e 
 >
 >  Inoltre, esiste un costo aggiuntivo per ottenere la sandbox di aggiornamento personalizzata che non è necessaria per la sandbox di anteprima.
 >
->  Per ulteriori informazioni sulla Sandbox di anteprima, vedi [L&#39;ambiente Sandbox di anteprima [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+>  Per ulteriori informazioni sulla Sandbox di anteprima, vedi [L&#39;ambiente Sandbox di anteprima [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -223,3 +223,8 @@ Per l’ambiente Sandbox di aggiornamento personalizzato, il ricalcolo notturno 
 * Gli ambienti sandbox di aggiornamento personalizzati di [!DNL Workfront] devono essere sempre disponibili. Qualsiasi interruzione in un ambiente Sandbox di aggiornamento personalizzato Workfront durante il normale orario di lavoro sarà una priorità assoluta subito dopo la risoluzione di eventuali problemi di produzione. In caso di interruzione di un ambiente Sandbox di aggiornamento personalizzato di Workfront nei fine settimana (sabato e domenica), verrà risolto il problema in modo che l’ambiente sia in esecuzione per l’orario di lavoro di lunedì.
 
 * La verifica non è disponibile negli ambienti Sandbox di aggiornamento personalizzati.
+
+* Le notifiche seguenti non sono disponibili per l’utilizzo negli ambienti Sandbox di aggiornamento personalizzati:
+
+   * Notifiche promemoria
+   * Notifiche automatiche di promemoria in ritardo o anticipato
