@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: dcc4657d4af4edbbe7971acd385a67b2ad50a058
+source-git-commit: 364d1263070c0249d13290700d705e29eb646012
 workflow-type: tm+mt
-source-wordcount: '1724'
-ht-degree: 5%
+source-wordcount: '1691'
+ht-degree: 7%
 
 ---
 
@@ -42,7 +42,7 @@ A seconda del livello di accesso, sono disponibili fino a 3 autorizzazioni per l
         <td>Gli utenti possono creare, modificare, eliminare e condividere l’oggetto Workfront</td>
     </tr>
     <tr>
-        <td>Visualizza</td>
+        <td>Visualizzazione</td>
         <td>Gli utenti possono rivedere e condividere l’oggetto Workfront</td>
     </tr>
     <tr>
@@ -263,6 +263,11 @@ Utenti con questo livello di accesso integrato:
 * Può effettuare richieste e aggiornarle
 * Può caricare e approvare i documenti
 * Può approvare progetti, attività e problemi
+
+  >[!NOTE]
+  >
+  >I collaboratori possono partecipare alle approvazioni, ma non possono accedere alla scheda Approvazioni per visualizzare o gestire i processi di approvazione.
+
 * Può rivedere lo stato dei problemi che ha inviato
 * Può essere assegnato ad elementi di lavoro ma non può completarli
 * Può accedere alle richieste solo dal menu principale. Per ulteriori informazioni sulle code di richieste, vedere [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
