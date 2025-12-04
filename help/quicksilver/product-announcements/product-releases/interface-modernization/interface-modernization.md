@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f22f00417cd0bfbe53cfee513e8be95a8719f785
+source-git-commit: 1ef57b73a77d0c622b3dbd57057c51d0ccbad7db
 workflow-type: tm+mt
-source-wordcount: '9416'
+source-wordcount: '9457'
 ht-degree: 0%
 
 ---
@@ -1415,6 +1415,13 @@ Quando si accede al percorso milestone da un elenco di progetti o da un rapporto
 Con questo aggiornamento abbiamo anche aggiunto informazioni sui colori e i codici di colore di ogni milestone.
 
 Per informazioni, vedere [Creare un percorso milestone](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+
+
+#### Nuovo aspetto della sezione Progetti di un portfolio
+
+**Anteprima e produzione: 18 marzo 2025**
+
+Sono stati apportati miglioramenti all’elenco dei progetti nella sezione Progetti di un portfolio. L’elenco ora corrisponde alla maggior parte degli elenchi in Workfront.
 
 +++
 
