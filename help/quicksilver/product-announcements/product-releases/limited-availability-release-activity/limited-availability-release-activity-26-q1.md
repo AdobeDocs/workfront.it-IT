@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: bc222ec76ac94a44c33ee166036d84c164b1da01
+source-git-commit: fb1b5bb34810652e5098f0dcad70062670d7c137
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -50,13 +50,19 @@ Nella ricerca avanzata delle assegnazioni, la selezione di un&#39;opzione per **
 
 L&#39;indicatore KPI ore pianificate nella schermata Assegnazioni avanzate non è più modificabile quando la durata dell&#39;attività è 0. In precedenza era possibile modificare le ore pianificate ma le modifiche non venivano salvate.
 
-<!--### Maintenance Updates week of November 30-December 6, 2025
+### Aggiornamenti di manutenzione della settimana dal 30 novembre al 6 dicembre 2025
+
+**Campo Data tasso di cambio nascosto quando non vengono utilizzati i tassi di cambio validi per la data**
+
+Il campo **Data tasso di cambio** nell&#39;area Dettagli progetto > Contabilità è ora nascosto quando la casella di controllo **Usa tassi di cambio validi per la data dal sistema** non è selezionata. In precedenza, durante la modifica di un progetto, il campo data veniva visualizzato nei dettagli del progetto anche quando i tassi di cambio validi per la data non erano abilitati.
+
+<!--### Maintenance Updates week of December 7-13, 2025
 
 **Title**
 
 text
 
-### Maintenance Updates week of December 7-13, 2025
+### Maintenance Updates week of January 4-10, 2026
 
 **Title**
 
