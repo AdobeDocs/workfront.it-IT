@@ -1,13 +1,13 @@
 ---
 title: Creare gerarchie Workspace
-description: È possibile creare più gerarchie di aree di lavoro tra i tipi di record di un'area di lavoro.
+description: In qualità di responsabile dell'area di lavoro, puoi creare più gerarchie di aree di lavoro tra i tipi di record in Adobe Workfront Planning. Dopo aver connesso i tipi di record in un'area di lavoro e aver creato una gerarchia, i tipi di record vengono connessi tra loro, con un tipo di record designato come padre e fino a 6 altri tipi di record configurati come figli.
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: ff9371b639e7684a94c08b8cd6293b632fac9edf
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 5%
+source-wordcount: '248'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,14 @@ hidefromtoc: yes
 
 # Creare gerarchie area di lavoro
 
-È possibile creare più gerarchie di aree di lavoro tra i tipi di record di un&#39;area di lavoro.
+In qualità di responsabile dell&#39;area di lavoro, puoi creare più gerarchie di aree di lavoro tra i tipi di record in Adobe Workfront Planning.
+
+Dopo aver connesso i tipi di record in un&#39;area di lavoro e aver creato una gerarchia, i tipi di record vengono connessi tra loro, con un tipo di record designato come padre e fino a 6 altri tipi di record configurati come figli. <!--asking Robert how many we can have in one hierarchy; I think 7 total but not sure-->
+
+Le gerarchie genereranno breadcrumb per i tipi di record e i record <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> visualizzati nelle relative intestazioni. In questo modo, gli utenti sanno dove si trovano nella gerarchia in qualsiasi fase del flusso di lavoro.
+
+Per informazioni generali sulle gerarchie e sulle breadcrumb, vedere [Panoramica sulle gerarchie e sulle breadcrumb](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
 
 ## Requisiti di accesso
 
@@ -72,3 +79,5 @@ Oppure
 Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Creare una gerarchia di workspace

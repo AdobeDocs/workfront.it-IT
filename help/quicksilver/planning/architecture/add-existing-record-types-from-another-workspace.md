@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 1%
@@ -144,6 +144,7 @@ And
      >[!NOTE]
      >
      >Non è possibile modificare l&#39;aspetto del nuovo tipo di record, le impostazioni aggiuntive o i campi originali. È possibile modificare il tipo di record e tutti i campi e le impostazioni originali solo dall&#39;area di lavoro originale.
+     >
 
 1. (Facoltativo) Fai clic su, quindi trascina e rilascia il nuovo tipo di record aggiunto in una sezione all’interno dell’area di lavoro.
 1. (Facoltativo) Fai clic sul menu **Altro** sulla scheda del nuovo tipo di record o a destra del nome del tipo di record nella relativa pagina, quindi fai clic su **Elimina**.

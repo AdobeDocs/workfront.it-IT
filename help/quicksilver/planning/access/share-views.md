@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '1901'
 ht-degree: 1%
 
 ---
@@ -277,7 +277,7 @@ Per condividere una visualizzazione pubblicamente in Workfront Planning:
 
    >[!TIP]
    >
-   ><span class="preview">L&#39;impostazione **Crea collegamento pubblico** è disabilitata per un tipo di record globale nell&#39;area di lavoro secondaria.</span>
+   ><span class="preview">La scheda **Condivisione pubblica** è stata rimossa per un tipo di record globale nell&#39;area di lavoro secondaria.</span>
 
 
 1. Fai clic sull&#39;icona **Copia collegamento** ![Copia visualizzazione collegamento](assets/copy-link-view.png) per copiare il collegamento negli Appunti.
