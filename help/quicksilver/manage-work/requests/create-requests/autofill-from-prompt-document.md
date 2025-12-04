@@ -1,18 +1,18 @@
 ---
-title: Utilizzare il riempimento modulo AI per compilare una richiesta utilizzando prompt o documenti
+title: Utilizzare Riempimento modulo basato su IA per compilare una richiesta utilizzando prompt o documenti
 content-type: reference
 description: È possibile utilizzare l’intelligenza artificiale per compilare automaticamente i campi della richiesta immettendo un prompt o fornendo un documento.
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+source-git-commit: 3c319ff406ca7705e618f3159edcf87d27d8229e
 workflow-type: tm+mt
-source-wordcount: '1345'
+source-wordcount: '1370'
 ht-degree: 2%
 
 ---
 
-# Utilizzare il riempimento modulo AI per compilare una richiesta utilizzando prompt o documenti
+# Utilizzare Riempimento modulo basato su IA per compilare una richiesta utilizzando prompt o documenti
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Gli utenti non ricevono suggerimenti di dati a cui non hanno altrimenti accesso.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -169,7 +169,7 @@ Stiamo pianificando una campagna simile agli annunci sociali per le feste che ab
 
 ## Ottieni suggerimenti in base a un documento caricato
 
-La funzione di riempimento automatico può suggerire i valori dei campi in base a un documento caricato.
+Il riempimento di un modulo basato sull’intelligenza artificiale può compilare una richiesta utilizzando prompt o documenti che possono suggerire valori di campo in base a un documento caricato.
 
 Questo tipo di suggerimento controlla anche le richieste precedenti per contesti simili. Ad esempio, se il prompt indica che la richiesta è per un determinato client, Workfront può individuare e immettere automaticamente l’indirizzo di fatturazione per tale client, in base alle richieste precedenti.
 
@@ -234,8 +234,8 @@ I tipi di campo di Workfront determinano se un determinato campo può essere com
 
 <table>
 <tr>
-<td><b>Il riempimento automatico supportato da </b><br> può essere riempito</td>
-<td><b>Non supportato</b> <br>Il riempimento automatico non viene completato</td>
+<td><b>Il riempimento del modulo </b><br> supportato con IA può essere compilato</td>
+<td><b>Non supportato</b> <br>Il riempimento del modulo basato sull'intelligenza artificiale non viene compilato</td>
 </tr>
 <tr>
 <td>

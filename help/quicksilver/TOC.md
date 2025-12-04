@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: ff9371b639e7684a94c08b8cd6293b632fac9edf
+source-git-commit: 3c319ff406ca7705e618f3159edcf87d27d8229e
 workflow-type: tm+mt
-source-wordcount: '13601'
+source-wordcount: '13609'
 ht-degree: 2%
 
 ---
@@ -128,7 +128,7 @@ ht-degree: 2%
          * [23.3 Altri miglioramenti](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
          * [Aggiornamenti look and feel durante il periodo di rilascio della versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * Versione 23.2 {#release-23-2}
-         * [Panoramica sulla versione di 23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
+         * Panoramica sulla versione di [23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 Miglioramenti per gli amministratori](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
          * [23.2 Miglioramenti di Agile](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
          * [23.2 Miglioramenti alla gestione dei progetti](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
@@ -1496,7 +1496,7 @@ ht-degree: 2%
          * [Eliminare una richiesta o una bozza di richiesta inviata](manage-work/requests/create-requests/delete-request-draft.md)
          * [Copiare e inviare richieste](manage-work/requests/create-requests/copy-and-submit-requests.md)
          * [Compilazione automatica di una richiesta da dati precedenti](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
-         * [Compilazione automatica di una richiesta tramite prompt o documenti](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
+         * [Utilizzare Riempimento modulo basato su IA per compilare una richiesta utilizzando prompt o documenti](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
          * [Creare viste nell’area Richieste](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
    * Delega lavoro {#delegate-work}
       * [Delega lavoro](manage-work/delegate-work/delegate-work.md)
@@ -2526,9 +2526,9 @@ ht-degree: 2%
       * [Configurare e utilizzare le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso JWT](wf-api/api/oauth-app-jwt-flow.md)
       * [Configura e utilizza le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso PKCE](wf-api/api/oauth-app-pkce-flow.md)
       * [Obsolescenza di API-Internal](wf-api/api/deprecation-api-internal.md)
-      * [Novità della versione 21 dell&#39;API](/help/quicksilver/wf-api/api/new-api-version-21.md)
+      * [Novità della versione 21](/help/quicksilver/wf-api/api/new-api-version-21.md) dell&#39;API
       * [Novità dell&#39;API versione 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [Novità della versione 19 dell&#39;API](wf-api/api/new-api-version-19.md)
+      * [Novità della versione 19](wf-api/api/new-api-version-19.md) dell&#39;API
       * [Novità della versione 18 dell’API](wf-api/api/new-api-version-18.md)
       * [Novità della versione 17 dell’API](wf-api/api/new-api-version-17.md)
       * [Novità della versione 16 dell’API](wf-api/api/new-api-version-16.md)
