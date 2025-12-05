@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 364d1263070c0249d13290700d705e29eb646012
+source-git-commit: 5cea1b349867dbb408af97e6c2402a0d799af87b
 workflow-type: tm+mt
-source-wordcount: '1691'
-ht-degree: 7%
+source-wordcount: '1698'
+ht-degree: 6%
 
 ---
 
@@ -102,8 +102,6 @@ Di seguito sono riportate le impostazioni di accesso più elevate disponibili pe
 | Dati finanziari |   |   | ✓ |
 | Gestione risorse |   |   | ✓ |
 | Pianificazione scenario |   |   | ✓ (l&#39;impostazione predefinita è Nessun accesso). |
-| Bacheche |   |   | ✓ |
-| Pagina Home |   |   | ✓ |
 | Obiettivi |   |   | ✓ |
 
 {style="table-layout:auto"}
@@ -155,8 +153,8 @@ Di seguito sono riportate le impostazioni di accesso più elevate disponibili pe
   <tr> 
    <td>Attività</td> 
    <td> </td> 
-   <td>✓</td> 
-   <td> </td> 
+   <td></td> 
+   <td>✓ (limitato)</td> 
   </tr> 
   <tr> 
    <td>Problemi</td> 
@@ -215,7 +213,7 @@ Di seguito sono riportate le impostazioni di accesso più elevate disponibili pe
   <tr> 
    <td>Dati finanziari</td> 
    <td></td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ (l'impostazione predefinita è Nessun accesso)</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -229,23 +227,13 @@ Di seguito sono riportate le impostazioni di accesso più elevate disponibili pe
    <td> </td> 
    <td> </td> 
    <td>✓ (l'impostazione predefinita è Nessun accesso).</td> 
-  </tr> 
-  <tr> 
-   <td>Bacheche </td> 
-   <td> </td> 
-   <td> </td> 
-   <td>✓</td> 
-     <tr> 
-   <td>Pagina Home </td> 
-   <td> </td> 
-   <td> </td> 
-   <td>✓</td> 
-  </tr> 
-  <tr>   
+  </tr>
+
+<tr>   
    <td>Obiettivi </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (l'impostazione predefinita è Nessun accesso)</td> 
  </tbody> 
 </table>
 
@@ -282,8 +270,8 @@ Di seguito sono riportate le impostazioni di accesso più elevate disponibili pe
 
 | Tipo di oggetto Workfront | Nessun accesso | Visualizza accesso | Modifica accesso |
 |---|---|---|---|
-| Progetto |   | ✓ |   |
-| Attività |   | ✓ |   |
+| Progetto |   | ✓ (limitato) |   |
+| Attività |   | ✓(limitato) |   |
 | Problema |   |   | ✓ |
 | Portfolio |   | ✓ |   |
 | Programmi |   | ✓ |   |
@@ -292,13 +280,11 @@ Di seguito sono riportate le impostazioni di accesso più elevate disponibili pe
 | Documento |   |   | ✓ |
 | Utente |   | ✓ |   |
 | Team |   | ✓ |   |
-| Modello | ✓ |   |   |
+| Modelli | ✓ |   |   |
 | Dati finanziari | ✓ |   |   |
 | Gestione risorse | ✓ |   |   |
 | Pianificazione scenario | ✓ |   |   |
-| Bacheche |   |   | ✓ (schede semplici) |
-| Pagina Home |   | ✓ (I miei aggiornamenti) |   |
-| Obiettivi |   |   | ✓ |
+| Obiettivi |   |   | ✓ (l&#39;impostazione predefinita è Nessun accesso) |
 
 {style="table-layout:auto"}
 
@@ -343,12 +329,10 @@ Di seguito sono riportate le impostazioni di accesso più elevate disponibili pe
 | Documento |   | ✓ (impossibile condividere i documenti) |   |
 | Utente |   | ✓ |   |
 | Team | ✓ |   |   |
-| Modello | ✓ |   |   |
+| Modelli | ✓ |   |   |
 | Dati finanziari | ✓ |   |   |
 | Gestione risorse | ✓ |   |   |
 | Pianificazione scenario | ✓ |   |   |
-| Bacheche | ✓ |   |   |
-| Pagina Home | ✓ |   |   |
 | Obiettivi | ✓ |   |   |
 
 

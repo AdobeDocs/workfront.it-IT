@@ -5,10 +5,10 @@ description: La funzione Integrità del progetto utilizza la potenza di AI Assis
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
+source-git-commit: b95be2e0917b53195ac327880a2ea7399c1485de
 workflow-type: tm+mt
-source-wordcount: '1965'
-ht-degree: 1%
+source-wordcount: '2060'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,7 @@ L&#39;Assistente IA può generare una valutazione dello stato del progetto per i
 
 Per ulteriori informazioni sull&#39;Assistente di IA, vedere [Panoramica dell&#39;Assistente di IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -55,7 +55,14 @@ Per ulteriori informazioni sull&#39;Assistente di IA, vedere [Panoramica dell&#3
    <td><p>Per gestire le configurazioni dell'integrità del progetto è necessario essere un amministratore di sistema </p>
    <p>Modifica l'accesso ai progetti per applicare le configurazioni di integrità del progetto </p>
      <p>Visualizza l'accesso ai progetti per visualizzare le configurazioni dell'integrità del progetto </p>
+     <p>Accesso in visualizzazione Programmi per visualizzare lo stato di integrità del progetto per tutti i progetti di un programma</p>
   </td> 
+  <tr> 
+   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td><p>Gestione delle autorizzazioni per i progetti per applicare le configurazioni di integrità del progetto </p>
+     <p>Visualizza autorizzazioni per progetti per visualizzare le configurazioni di integrità del progetto </p>
+  </td> 
+  </tr> 
   </tr>  
     </tr>  
 </tbody> 
@@ -66,16 +73,16 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Iscriviti alla versione beta di Project Health
 
-Per utilizzare Project Health (Integrità del progetto), l’organizzazione deve avere l’Assistente AI abilitato.
+Per poter utilizzare l’integrità del progetto, nella tua organizzazione deve essere abilitato l’Assistente IA.
 
 Per abilitare l’Assistente AI e l’integrità del progetto per la tua organizzazione, devono essere applicate tutte le seguenti condizioni:
 
-* La tua organizzazione deve aver eseguito la migrazione ad Adobe IMS (Identity Management System).
-* La tua organizzazione deve disporre di un piano Select, Prime o Ultimate Workfront
+* La tua organizzazione deve aver eseguito la migrazione ad Adobe Identity Management System (IMS).
+* La tua organizzazione deve disporre di un pacchetto Workfront o Workflow Select, Prime o Ultimate.
 * L’esperienza unificata di Adobe deve essere abilitata.
 * Adobe deve disporre di un accordo Adobe Gen AI firmato su file.
 * L’amministratore di Workfront deve abilitare l’Assistente IA per gli utenti dell’organizzazione. L’Assistente AI è abilitato tramite i livelli di accesso.
-* Entrambe le opzioni Abilita AI e Integrità progetto devono essere selezionate nella sezione Preferenze AI in Configurazione > Sistema > Preferenze.
+* Entrambe le opzioni Abilita IA e Integrità progetto devono essere selezionate nella sezione Preferenze IA dell’area Preferenze di sistema in Configurazione.
 
   ![Sezione Preferenze AI](assets/ai-preferences.png)
 
@@ -127,9 +134,12 @@ Le condizioni del progetto e lo stato di integrità del progetto sono concetti s
 
 Le condizioni del progetto forniscono un’istantanea di base sulle prestazioni correnti di un progetto in base solo alle date pianificate, previste e stimate. Può essere impostato manualmente dal proprietario del progetto o automaticamente da Workfront in base alle attività del progetto. In alternativa, Project Health è più completo e valuta fattori aggiuntivi, fornendo una comprensione di alto livello delle prestazioni.
 
-Per ulteriori informazioni sulle condizioni del progetto, consulta [Condizioni personalizzate](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+Per ulteriori informazioni sulle condizioni del progetto, consulta i seguenti articoli:
 
-## Elenco degli stati del progetto e del programma
+* [Aggiorna condizione per un progetto](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
+* [Condizioni personalizzate](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+
+## Elenco stati integrità progetto e programma
 
 La tabella seguente contiene un raggruppamento degli stati disponibili che l’Assistente IA assegnerà al progetto o al programma durante la generazione di una valutazione dello stato del progetto.
 
@@ -184,7 +194,7 @@ La tabella seguente contiene un raggruppamento degli stati disponibili che l’A
 
 ## Elenco dei prompt dell&#39;Assistente AI
 
-Di seguito è riportato un elenco di prompt che è possibile utilizzare per richiedere una valutazione IA per generare una valutazione dello stato del progetto per un progetto, un programma o tutti i progetti nel proprio account.
+Di seguito è riportato un elenco di prompt che è possibile utilizzare per chiedere all&#39;Assistente AI di generare una valutazione dello stato del progetto per un progetto, un programma o tutti i progetti a cui si ha accesso.
 
 <table>
     <tr>
@@ -215,19 +225,21 @@ Di seguito è riportato un elenco di prompt che è possibile utilizzare per rich
 
 ## Gestisci configurazioni integrità progetto
 
-Una configurazione dell&#39;integrità di un progetto contiene criteri specifici che determinano la modalità di calcolo dell&#39;integrità del progetto. Dopo aver creato una configurazione, puoi applicarla a un progetto.
+Per gestire le configurazioni dell&#39;integrità del progetto è necessario essere amministratore di sistema.
 
->[!NOTE]
->
->Per gestire le configurazioni dell&#39;integrità del progetto è necessario essere amministratore di sistema.
+Una configurazione dell&#39;integrità di un progetto contiene criteri specifici che determinano la modalità di calcolo dell&#39;integrità del progetto. Dopo che l’amministratore di Workfront ha creato una configurazione, puoi applicarla a un progetto.
+
+Nel sistema possono essere presenti più configurazioni di Project Health.
 
 {{step-1-to-setup}}
 
-1. Fai clic su **Preferenze progetto** nel pannello a sinistra, quindi seleziona **Integrità progetto** nel menu a discesa visualizzato.
+1. Fai clic su **Preferenze progetto** nel pannello a sinistra, quindi seleziona **Integrità progetto**.
 
-1. Nell&#39;angolo superiore destro della pagina, seleziona **Nuova configurazione**.
+1. Nell&#39;angolo superiore destro della pagina fare clic su **Nuova configurazione**.
 
-1. (Facoltativo) Nella pagina dei dettagli delle configurazioni, sostituisci *Configurazione senza titolo* con una nuova configurazione **Nome**.
+   Viene visualizzata la pagina **Impostazioni AI**.
+
+1. (Facoltativo) Fai clic sul titolo **Configurazione senza titolo** per rinominare la configurazione.
 
 1. Nella sezione **Quali fattori si desidera includere nell&#39;integrità del progetto** deselezionare i fattori che non si desidera includere nella determinazione dei criteri di integrità del progetto:
    * **Scorrimento ambito**: quanto è stato espanso l&#39;ambito del progetto dall&#39;avvio.
@@ -249,45 +261,48 @@ Una configurazione dell&#39;integrità di un progetto contiene criteri specifici
 
 1. In **Come si stima l&#39;ambito del lavoro su un progetto?** sezione, selezionare il fattore di progetto che aumenterà con l&#39;aumento dell&#39;ambito del progetto.
 
-1. In **Quali campi si desidera verificare la completezza?** sezione, selezionare uno o più campi che verranno controllati per determinare la completezza del progetto.
+1. In **Specificare quali campi si desidera verificare per i campi obbligatori.** sezione, selezionare uno o più campi che devono contenere un valore per il progetto.
 
-   ![Campi di completezza progetto](assets/project-completeness-fields.png)
+   ![Campi obbligatori del progetto per l&#39;integrità del progetto](assets/project-completeness-fields.png)
 
+1. Fai clic su **Aggiungi** per aggiungere altri campi di progetto o attività nativi o personalizzati.
 
 1. Fai clic su **Salva** nell&#39;angolo superiore destro.
 
 ## Applica configurazioni integrità progetto
 
-Dopo che un amministratore ha creato una configurazione di Integrità progetto, gli utenti con accesso in modifica possono applicarla a un progetto.
-
+Dopo che l’amministratore di Workfront ha creato una configurazione di Integrità progetto, puoi applicarla a un progetto, se disponi delle autorizzazioni di Gestione per un progetto.
 
 {{step1-to-projects}}
 
 1. Nella pagina **Progetti**, seleziona un progetto.
 
-1. Fai clic sull&#39;icona **Altro** ![Icona Altro](assets/more-icon.png) a destra del nome del progetto, quindi seleziona **Modifica**. Viene aperto il pannello laterale **Modifica progetto**.
+1. Fai clic sull&#39;icona **Altro** ![Icona Altro](assets/more-icon.png) a destra del nome del progetto, quindi seleziona **Modifica**. Viene visualizzata la casella **Modifica progetto**.
 
-1. Nel pannello a sinistra, seleziona **Impostazioni progetto**.
+1. Nel pannello a sinistra, fai clic su **Impostazioni progetto**.
 
 1. Nel campo **Configurazione integrità progetto**, selezionare la configurazione da applicare al progetto.
 
    ![Campo configurazione integrità progetto](assets/project-health-configurations.png)
 
-1. Fai clic su **Salva** nell&#39;angolo inferiore sinistro del pannello.
+1. Fai clic su **Salva** nell&#39;angolo inferiore sinistro della pagina.
 
 ## Generare una valutazione dello stato del progetto per un progetto o un programma
 
-Se si dispone dell&#39;accesso di visualizzazione per un progetto o un programma, è possibile generare la relativa valutazione dello stato del progetto utilizzando l&#39;assistente di IA.
+Puoi generare una valutazione dello stato del progetto dall’Assistente IA nelle seguenti aree:
 
-Se stai generando una valutazione per un progetto, ciò può essere fatto dalla pagina del progetto o facendo riferimento al nome del progetto quando chiedi all&#39;assistente come sta andando il progetto.
+* Per un progetto, è possibile generare la valutazione dalla pagina del progetto oppure facendo riferimento al nome del progetto quando si chiede all&#39;assistente le prestazioni di un progetto specifico.
 
-Per generare una valutazione per un programma, è possibile utilizzare la pagina dei dettagli del programma.
+* Per un programma, è possibile generare la valutazione nella pagina Dettagli del programma.
 
 >[!NOTE]
 >
->Per un progetto non è possibile generare una valutazione di integrità finché il progetto non è stato avviato. È possibile configurare l’evento che attiva un progetto a partire dalle impostazioni del progetto.
+>* Per generare una valutazione è necessario disporre delle autorizzazioni di visualizzazione per il progetto o il programma.
+>* Per un progetto non è possibile generare una valutazione di integrità finché il progetto non è stato avviato. È possibile configurare l’evento che attiva un progetto a partire da Preferenze progetto
 
-Per ulteriori informazioni, vedere la sezione seguente in questo articolo: [Gestione configurazioni integrità progetto](#manage-project-health-configurations).
+Per ulteriori informazioni, vedere la sezione [Gestione delle configurazioni di integrità del progetto](#manage-project-health-configurations) in questo articolo.
+
+Per generare una valutazione dello stato del progetto per un progetto o un programma:
 
 1. Passare al progetto o al programma per il quale si desidera generare una valutazione dello stato del progetto.
 
@@ -302,17 +317,17 @@ Per ulteriori informazioni, vedere la sezione seguente in questo articolo: [Gest
    >[!NOTE]
    >
    >Se si accede all&#39;Assistente IA da una pagina diversa di Workfront, è possibile digitare *Informazioni sullo stato del progetto [NOME PROGETTO]?* o *Qual è l&#39;integrità del programma [NOME PROGRAMMA]?* <br>
-   >Per un elenco completo dei prompt correnti che è possibile immettere, vedere la sezione seguente in questo articolo: [Elenco dei prompt dell&#39;Assistente AI](#ai-assistant-prompts-list).
+   >Per un elenco completo dei prompt correnti che è possibile immettere, vedere la sezione [Elenco dei prompt dell&#39;Assistente AI](#ai-assistant-prompts-list) in questo articolo.
 
 1. Fai clic sull&#39;icona **Invia** ![Invia icona](assets/send-icon.png). La valutazione dello stato del progetto viene generata e visualizzata nel pannello. Nella parte superiore di ogni valutazione dello stato del progetto viene visualizzato un badge che riflette le condizioni correnti del progetto.
 
    ![Valutazione dell&#39;integrità del progetto](assets/health-assessment.png)
 
-   Se stai generando una valutazione per un portfolio, verranno elencati più badge che mostrano le condizioni di ciascun progetto nel programma. Per ulteriori informazioni sulle etichette dei badge, vedere la seguente sezione in questo articolo: [Elenco degli stati del progetto e del programma](#project-and-program-states-list).
+   Se si genera una valutazione per un programma, verranno elencati più badge che mostrano le condizioni di ciascun progetto del programma. Per ulteriori informazioni sulle etichette dei badge, vedere la sezione [Elenco degli stati del progetto e del programma](#project-and-program-states-list) in questo articolo.
 
 1. (Facoltativo) Fare clic su uno dei punti di valutazione per espandere i relativi dettagli.
 
-1. (Facoltativo) Nella modalità dettagli espansi, fai clic sul collegamento dell’attività per aprire i dettagli dell’attività.
+1. (Facoltativo) Nella modalità Dettagli espansi, fai clic sul collegamento del progetto per aprire i relativi dettagli.
 
    ![Dettagli estesi](assets/expanded-details.png)
 
@@ -320,9 +335,9 @@ Per ulteriori informazioni, vedere la sezione seguente in questo articolo: [Gest
 
 ## Generare una valutazione dello stato del progetto per più progetti
 
-È possibile generare una valutazione combinata dello stato del progetto per tutti i progetti per i quali si dispone attualmente dell&#39;accesso di visualizzazione (o di livello superiore).
+È possibile generare una valutazione combinata dello stato del progetto per tutti i progetti per i quali si dispone attualmente delle autorizzazioni di visualizzazione o di livello superiore.
 
-Un progetto verrà incluso nella valutazione combinata dello stato del progetto solo se il progetto è stato avviato. È possibile configurare l’evento che attiva un progetto a partire dalle impostazioni del progetto. Per ulteriori informazioni, vedere la sezione seguente in questo articolo: [Gestione configurazioni integrità progetto](#manage-project-health-configurations).
+Un progetto verrà incluso nella valutazione combinata dello stato del progetto solo se il progetto è stato avviato. È possibile configurare l’evento che attiva un progetto a partire dalle impostazioni del progetto. Per ulteriori informazioni, vedere la sezione [Gestione delle configurazioni di integrità del progetto](#manage-project-health-configurations) in questo articolo.
 
 1. Fai clic sull&#39;icona **Assistente AI** ![Icona Assistente AI](assets/ai-assistant-icon.png) nell&#39;angolo superiore destro della schermata. Viene aperto l’Assistente AI.
 
