@@ -10,16 +10,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 0%
+source-wordcount: '328'
+ht-degree: 3%
 
 ---
 
 # Panoramica dei livelli di accesso
 
 <!-- Audited: 12/2023 -->
+
+>[!NOTE]
+>
+>Le informazioni contenute in questo articolo si riferiscono ai livelli di accesso legacy. Per informazioni sui nuovi livelli di accesso, vedere [Panoramica sui nuovi livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+
 
 In qualità di amministratore di Adobe Workfront, puoi assegnare un livello di accesso a un utente per due scopi:
 
@@ -57,8 +62,18 @@ Per informazioni sugli argomenti relativi ai livelli di accesso, vedere i seguen
    <td> <p>Per istruzioni su come assegnare un livello di accesso a un utente, vedere <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modificare il profilo di un utente</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Livelli di accesso Standard, Light, Collaboratore</td> 
-   <td> <p>Se questi livelli di accesso vengono visualizzati nell'ambiente anziché in Pianifica, Lavoro, Esamina o Richiedi, l'organizzazione utilizza il nuovo modello del livello di accesso. Per informazioni sul nuovo modello, vedere <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Panoramica sui nuovi livelli di accesso</a>.</p> </td> 
+   <td><b>Tipi di livelli di accesso</b></td> 
+   <td><p>In Workfront sono disponibili due tipi di livelli di accesso:</p>
+   <ul><li>Livelli di accesso legacy</li>
+   <ul><li>Piano</li>
+   <li>Lavoro</li>
+   <li>Rivedi</li>
+   <li>Richiesta</li></ul>
+   <li>Nuovi livelli di accesso:</li>
+   <ul><li>Standard</li>
+   <li>Light</li>
+   <li>Collaboratore</li></ul></ul> 
+   <p>Per informazioni sui nuovi livelli di accesso, vedere <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Panoramica sui nuovi livelli di accesso</a>.</p> </td> 
   </tr> 
   <!--
   <tr> 

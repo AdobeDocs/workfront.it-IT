@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '1715'
-ht-degree: 6%
+source-wordcount: '1654'
+ht-degree: 7%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->Questo articolo descrive gli attuali livelli di accesso incorporati in Adobe Workfront. Per informazioni sui nuovi livelli di accesso incorporati, vedere [Panoramica sui nuovi livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>Le informazioni contenute in questo articolo si riferiscono ai livelli di accesso legacy. Per informazioni sui nuovi livelli di accesso, vedere [Panoramica sui nuovi livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 
 Ognuno dei sei livelli di accesso incorporati è progettato per un particolare tipo di utente. Questi livelli di accesso consentono di controllare quali utenti possono modificare e visualizzare nel sistema.
@@ -45,7 +45,7 @@ A seconda del livello di accesso, sono disponibili fino a 3 impostazioni per la 
         <td>Gli utenti possono creare, modificare, eliminare e condividere l’oggetto Workfront</td>
     </tr>
     <tr>
-        <td>Visualizza</td>
+        <td>Visualizzazione</td>
         <td>Gli utenti possono rivedere e condividere l’oggetto Workfront</td>
     </tr>
     <tr>
@@ -131,7 +131,7 @@ Di seguito sono riportate le impostazioni di accesso più elevate disponibili pe
 
 | Tipo di oggetto Workfront | Nessun accesso | Visualizza accesso | Modifica accesso |
 |---|---|---|---|
-| Progetti |   |   | ✓ (Limitato: gli utenti possono solo condividere il progetto, crearne attività e problemi e modificare i dati nei moduli personalizzati già allegati.) |
+| Progetti |   |   | ✓ (limitato: gli utenti possono solo condividere il progetto, crearne attività e problemi e modificare i dati nei moduli personalizzati già allegati al progetto). |
 | Attività |   |   | ✓ |
 | Problemi |   |   | ✓ |
 | Portfolio |   | ✓ (l&#39;impostazione predefinita è Nessun accesso). |   |
@@ -142,7 +142,7 @@ Di seguito sono riportate le impostazioni di accesso più elevate disponibili pe
 | Utenti |   |   | ✓ |
 | Team |   |   | ✓ (accesso limitato) |
 | Modelli | ✓ |   |   |
-| Dati finanziari |   | ✓ (l&#39;impostazione predefinita è Nessun accesso). L&#39;impostazione Visualizza consente all&#39;utente di visualizzare solo l&#39;area Finanza   in Project Details (Dettagli progetto). |   |
+| Dati finanziari |   | ✓ (l&#39;impostazione predefinita è Nessun accesso. L&#39;impostazione Visualizza consente all&#39;utente di visualizzare solo l&#39;area Finanza   in Project Details (Dettagli progetto). |   |
 | Gestione risorse |   | ✓ |   |
 | Pianificazione scenario |   |   | ✓ (l&#39;impostazione predefinita è Nessun accesso). |
 | Workfront Goals |   |   | ✓ (l&#39;impostazione predefinita è Nessun accesso). |
@@ -249,7 +249,7 @@ Più limitate per progetti e attività rispetto al livello di accesso Lavoratore
   <tr> 
    <td>Dati finanziari</td> 
    <td> </td> 
-   <td> <p>✓ (l'impostazione predefinita è Nessun accesso). L'impostazione Visualizza consente all'utente di visualizzare solo l'area Finanza   in Project Details (Dettagli progetto).</p> </td> 
+   <td> <p>✓ (l'impostazione predefinita è Nessun accesso. L'impostazione Visualizza consente all'utente di visualizzare solo l'area Finanza   in Project Details (Dettagli progetto).</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -340,7 +340,7 @@ Sebbene queste impostazioni non siano visibili nell&#39;area Livelli di accesso 
 | Programmi | ✓ |   |   |
 | Report, dashboard e calendari |   | ✓ (solo per i report calendario; impossibile condividere i report) |   |
 | Filtri, visualizzazioni e raggruppamenti | ✓ |   |   |
-| Documenti |   | ✓ (senza possibilità di condividere i documenti) |   |
+| Documenti |   | ✓ (senza la possibilità di condividere i documenti) |   |
 | Utenti |   | ✓ |   |
 | Team |   | ✓ |   |
 | Modelli | ✓ |   |   |

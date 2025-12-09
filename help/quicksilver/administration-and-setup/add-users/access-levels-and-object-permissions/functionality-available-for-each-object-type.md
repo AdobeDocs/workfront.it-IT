@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: e894c1e2134d025420205c6575329a2a9079fadf
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1586'
 ht-degree: 14%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 14%
 # Funzionalità disponibile per ogni tipo di oggetto per vari livelli di accesso
 
 {{highlighted-preview}}
+
+>[!NOTE]
+>
+>Le informazioni contenute in questo articolo si riferiscono ai livelli di accesso legacy. Per informazioni sui nuovi livelli di accesso, vedere [Panoramica sui nuovi livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 Nelle tabelle seguenti sono elencate le funzionalità disponibili per ogni tipo di oggetto nei vari livelli di accesso.
 
@@ -35,7 +39,7 @@ Solo gli utenti con una licenza Pianificazione possono avere accesso completo ai
 
 | Azione | Pianificatore | Collaboratore | Revisore | Richiedente | Utente esterno |
 |---|---|---|---|---|---|
-| Creare | ✓&#42; |  |  |  |  |
+| Crea | ✓&#42; |  |  |  |  |
 | Copia | ✓&#42; |  |  |  |  |
 | Elimina | ✓&#42; |  |  |  |  |
 | Condividi | ✓&#42; | ✓&#42; |  |  |  |
@@ -73,7 +77,7 @@ Solo gli utenti con una licenza Pianificazione possono avere accesso completo ai
 
 | Azione | Pianificatore | Collaboratore | Revisore | Richiedente | Utente esterno |
 |---|---|---|---|---|---|
-| Creare | ✓&#42; | ✓&#42; |  |  |  |
+| Crea | ✓&#42; | ✓&#42; |  |  |  |
 | Elimina | ✓&#42; | ✓&#42; |  |  |  |
 | Condividi | ✓&#42; | ✓&#42; |  |  |  |
 | Condividi a livello di sistema | ✓&#42; |  |  |  |  |
@@ -105,7 +109,7 @@ Solo gli utenti con una licenza Pianificazione possono avere accesso completo ai
 
 | Azione | Pianificatore | Collaboratore | Revisore | Richiedente | Utente esterno |
 |---|---|---|---|---|---|
-| Creare | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Crea | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
 | Modifica | ✓ | ✓ | ✓ | ✓ |  |
 | Elimina | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
 | Condividi | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
@@ -135,7 +139,7 @@ Solo gli utenti con una licenza Plan possono avere accesso completo ai portfolio
 
 | Azione | Pianificatore | Collaboratore | Revisore | Richiedente | Utente esterno |
 |---|---|---|---|---|---|
-| Creare | ✓&#42; |  |  |  |  |
+| Crea | ✓&#42; |  |  |  |  |
 | Elimina | ✓&#42; |  |  |  |  |
 | Condividi | ✓&#42; |  |  |  |  |
 | Condividi a livello di sistema | ✓&#42; |  |  |  |  |
@@ -159,7 +163,7 @@ Solo gli utenti con una licenza Pianificazione possono avere accesso completo ai
 
 | Azione | Pianificatore | Collaboratore | Revisore | Richiedente | Utente esterno |
 |---|---|---|---|---|---|
-| Creare | ✓&#42; |  |  |  |  |
+| Crea | ✓&#42; |  |  |  |  |
 | Elimina | ✓&#42; |  |  |  |  |
 | Condividi | ✓&#42; |  |  |  |  |
 | Condividi a livello di sistema | ✓&#42; |  |  |  |  |
@@ -183,7 +187,7 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
 
 | Azione | Pianificatore | Collaboratore | Revisore | Richiesta | Utente esterno |
 |---|---|---|---|---|---|
-| Creare | ✓&#42; |  |  |  |  |
+| Crea | ✓&#42; |  |  |  |  |
 | Elimina | ✓&#42; |  |  |  |  |
 | Visualizzare rapporti incorporati | ✓&#42; |  |  |  |  |
 | Condividi | ✓&#42; | ✓ | ✓ |  |  |
@@ -228,7 +232,7 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
  </thead> 
  <tbody> 
   <tr> 
-   <td>Creare</td> 
+   <td>Crea</td> 
    <td>✓*</td> 
    <td>✓*</td> 
    <td>✓*</td> 
@@ -284,7 +288,7 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
 
 | Azione | Pianificatore | Collaboratore | Revisore | Richiedente | Utente esterno |
 |---|---|---|---|---|---|
-| Creare | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
+| Crea | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
 | Elimina (documenti e cartelle) | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
 | Condividi | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |  |
 | Condividi pubblicamente (esternamente) | ✓&#42; |  |  |  |  |
@@ -344,7 +348,7 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
  </thead> 
  <tbody> 
   <tr> 
-   <td>Creare</td> 
+   <td>Crea</td> 
    <td>✓*</td> 
    <td> </td> 
    <td> </td> 
@@ -419,7 +423,7 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
  </thead> 
  <tbody> 
   <tr> 
-   <td>Creare</td> 
+   <td>Crea</td> 
    <td>✓*</td> 
    <td> </td> 
    <td> </td> 
@@ -475,7 +479,7 @@ Gli utenti con una licenza Pianificazione possono avere accesso completo ai rapp
 
 | Azione | Pianificatore | Collaboratore | Revisore | Richiedente | Utente esterno |
 |---|---|---|---|---|---|
-| Creare | ✓&#42; |  |  |  |  |
+| Crea | ✓&#42; |  |  |  |  |
 | Elimina | ✓&#42; |  |  |  |  |
 | Condividi | ✓&#42; |  |  |  |  |
 | Condividi a livello di sistema | ✓&#42; |  |  |  |  |
@@ -561,7 +565,7 @@ Solo gli utenti con una licenza Pianificazione possono avere accesso completo al
 
 | Azioni | Visualizzazione | Modifica |
 |---|---|---|
-| Creare |  | ✓ |
+| Crea |  | ✓ |
 | Modifica/elimina tutti gli obiettivi |  | ✓ |
 | Visualizza obiettivi nel menu principale | ✓ | ✓ |
 | Visualizzare l’area Obiettivi da un collegamento condiviso | ✓ | ✓ |

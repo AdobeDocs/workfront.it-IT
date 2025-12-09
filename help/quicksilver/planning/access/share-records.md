@@ -7,9 +7,9 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 0964ad24535bf43a23c740cd63abcf8fea705b8d
+source-git-commit: e6fc6def1553df3faa8e1200f7ec2ca2bb97eb04
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '1620'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 {{planning-important-intro}}
 
-È possibile modificare le autorizzazioni delle persone per singoli record di un tipo di record. O
+È possibile modificare le autorizzazioni delle persone per singoli record di un tipo di record.
 
 È possibile condividere un record di Adobe Workfront Planning nei modi seguenti:
 
@@ -112,6 +112,8 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 <!--maybe use the Share record types as example here and touch on the same points: help/quicksilver/planning/access/share-record-types.md; in addition to using Lilit's information-->
 
+<!--checking on the below with Lilit-->
+
 * Puoi condividere i record con le seguenti entità: persone, gruppi, team, aziende o mansioni.
 * Per impostazione predefinita, quando si condivide un&#39;area di lavoro con gli utenti, questi ultimi ricevono anche le stesse autorizzazioni per i record nell&#39;area di lavoro.
 * Quando rimuovi un’entità da un’area di lavoro, tutte le autorizzazioni di condivisione vengono rimosse dai tipi di record e da tutti i record in essa contenuti.
@@ -136,13 +138,13 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    * Se dispongono delle autorizzazioni di visualizzazione per il tipo di record, ottengono le autorizzazioni di visualizzazione per il record
    * Se dispongono delle autorizzazioni Contribuisci o Gestisci per il tipo di record, ottengono le autorizzazioni Gestione per il record
 
-* In qualità di responsabile dell&#39;area di lavoro, puoi condividere un record con un utente che non fa parte dell&#39;area di lavoro. In questo caso, accanto all’entità aggiunta viene visualizzato un avviso per informare che non hanno accesso all’area di lavoro. È possibile accettare di aggiungere l&#39;utente sia al record che all&#39;area di lavoro oppure negare l&#39;aggiunta di tali utenti all&#39;area di lavoro, rimuovendoli anche dal record.
+* In qualità di responsabile dell&#39;area di lavoro, puoi condividere un record con un utente che non fa parte dell&#39;area di lavoro. In questo caso, accanto all’entità aggiunta viene visualizzato un avviso per informare che non hanno accesso all’area di lavoro. Puoi continuare ad aggiungere l’utente al record, il che ne determina anche l’aggiunta all’area di lavoro, oppure interrompere l’aggiunta al record, che non li aggiunge all’area di lavoro.
 
 * Quando si condivide un record con utenti che dispongono delle autorizzazioni di gestione per l&#39;area di lavoro, per impostazione predefinita tali utenti ottengono anche le autorizzazioni di gestione per il record. L’autorizzazione Visualizzazione è disabilitata.
 
 * Se non disponi delle autorizzazioni necessarie per aggiungere persone all’area di lavoro, visualizzerai e aggiungerai solo utenti, team, gruppi, ruoli e aziende già aggiunti all’area di lavoro. Non è possibile aggiungere altre entità che non fanno già parte dell&#39;area di lavoro.
 
-* È possibile disabilitare le autorizzazioni ereditate per un singolo record, nel qual caso è possibile assegnare loro le autorizzazioni singolarmente oppure ottenere le autorizzazioni se appartengono all&#39;opzione &quot;Tutti nell&#39;area di lavoro&quot;. <!-- is this OK to say "workspace? should it be "record"??-->
+* È possibile disabilitare le autorizzazioni ereditate per un singolo record, nel qual caso è possibile assegnare loro autorizzazioni per singoli record oppure ottenere autorizzazioni se appartengono all&#39;opzione **Tutti nell&#39;area di lavoro possono visualizzare**. <!-- is this OK to say "workspace? should it be "record"??-->
 
 * Se più autorizzazioni di condivisione si applicano allo stesso utente, quest&#39;ultimo riceve l&#39;autorizzazione più elevata.
 
@@ -161,3 +163,91 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
 
 ## Condividere le autorizzazioni dei record
 
+Se si dispone dell&#39;autorizzazione Gestione per l&#39;area di lavoro, è possibile modificare le autorizzazioni per i singoli record.
+
+{{step1-to-planning}}
+
+1. Aprire l&#39;area di lavoro di cui si desidera condividere i record.
+1. Fare clic sul tipo di record di cui si desidera condividere i record.
+
+1. Esegui una delle operazioni seguenti:
+
+   * Nella vista tabella, passa il puntatore del mouse sul nome di un record e fai clic sul menu **Altro** ![Altro](assets/more-menu.png), quindi fai clic su **Condividi**.
+   * Da qualsiasi visualizzazione, fai clic sul nome di un record, quindi fai clic su **Condividi** nell&#39;angolo superiore destro della pagina dei dettagli del record.
+
+   Viene visualizzata la casella **Condividi**.
+
+   ![Autorizzazioni per i record con autorizzazioni ereditate su](assets/permissions-for-records-with-inherited-permissions-on.png)
+
+1. (Facoltativo) Nell&#39;area **Chi ha accesso**, l&#39;opzione **Tutti nell&#39;area di lavoro possono visualizzare** è selezionata per impostazione predefinita.  Tutti gli utenti che dispongono di autorizzazioni View (Visualizzazione) o di livello superiore per l&#39;area di lavoro e il tipo di record possono visualizzare il record.
+
+1. (Facoltativo) Fai clic sul numero di utenti nell&#39;opzione **Autorizzazioni ereditate** per visualizzare utenti, team, gruppi, aziende o ruoli che ereditano le autorizzazioni dall&#39;area di lavoro.
+
+   >[!TIP]
+   >
+   >Non è possibile rimuovere singole entità dall&#39;elenco Autorizzazioni ereditate.
+
+1. (Facoltativo e condizionale) Se si desidera condividere il tipo di record con entità specifiche e concedere loro un accesso al tipo di record diverso da quello già disponibile per l&#39;area di lavoro, eseguire le operazioni seguenti:
+
+   1. Seleziona **Disattiva** dal menu a discesa **Autorizzazioni ereditate**.
+
+   >[!TIP]
+   >
+   >I manager di Workspace continuano a disporre delle autorizzazioni di gestione per il tipo di record e il record.
+
+   1. (Facoltativo) Seleziona **Solo gli invitati possono accedere** dall&#39;area **Chi ha accesso**.
+
+   1. Nel campo **Concedi l&#39;accesso a questo tipo di record**, aggiungi gli utenti, i team, i gruppi, le aziende o le mansioni a cui desideri concedere un livello di autorizzazione diverso da quello che hanno per l&#39;area di lavoro o il tipo di record.
+   1. Scegliere uno dei seguenti livelli di autorizzazione:
+
+      * Visualizzazione
+      * Gestione
+
+      <!--checking on the below with Lilit-->
+
+   >[!IMPORTANT]
+   >
+   >* Oltre a team, gruppi, aziende e ruoli, puoi condividere solo con gli utenti che sono stati aggiunti al Adobe Admin Console. Non è possibile aggiungere utenti solo Workfront. Per informazioni, vedere [Gestione degli utenti in Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+   >* Se gli utenti dispongono delle autorizzazioni Contribute (Contribuisci) o Manage (Gestisci) per l&#39;area di lavoro e il tipo di record, manterranno le autorizzazioni Manage (Gestisci) per il record. L&#39;autorizzazione Visualizzazione è disattivata
+   >* Non potete concedere agli utenti un&#39;autorizzazione minore per il record se dispongono di Contribute o versione successiva.
+   > Per ulteriori informazioni, vedere [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+
+1. Per consentire agli utenti che non dispongono delle autorizzazioni per l&#39;area di lavoro di visualizzare un record, nel campo **Concedi l&#39;accesso a questa visualizzazione**, inizia a digitare il nome di un utente, un gruppo, un team, una società o una mansione, quindi fai clic su di esso quando viene visualizzato nell&#39;elenco.
+
+   L&#39;entità selezionata viene aggiunta al record e all&#39;area di lavoro con autorizzazioni **Visualizza**.
+
+   Gli amministratori di sistema ricevono sempre le autorizzazioni di gestione per i record condivisi con loro e vi è un&#39;indicazione che un utente è un amministratore di sistema.
+
+1. (Facoltativo) Fai clic su **Copia collegamento** per copiare un collegamento al record negli Appunti e condividerlo con altri utenti. Il collegamento apre la pagina dei dettagli del record.
+1. Fai clic su **Salva**.
+
+   Il record è ora condiviso con altri utenti.
+   <!--Checking with Lilit on this: The users you shared the record with receive both an in-app and email notification about having given permissions to the following entities:
+
+   * The record
+   * The record type, if they never had permissions before
+   * The workspace, if they had not had permissions to the workspace before the record was shared with them. -->
+
+1. Condividi il collegamento copiato con altri utenti. Gli utenti che ricevono il collegamento devono essere utenti attivi e accedere a Workfront per poter accedere alla pagina del tipo di record e visualizzarla nella visualizzazione selezionata. Per visualizzarlo, è necessario disporre delle autorizzazioni per il tipo di record. Per ulteriori informazioni, vedere anche [Condividere record utilizzando un collegamento](/help/quicksilver/planning/records/share-records.md).
+
+## Rimuovi le autorizzazioni per un record (*************** QUESTO RECORD È STATO COPIATO DA TIPI DI RECORD, DEVE ESSERE MODIFICATO PER I RECORD, MA ATTENDI LA RISPOSTA SLACK DI LILIT **********)
+
+È possibile rimuovere le autorizzazioni degli utenti da un record. Tuttavia, manterranno almeno le autorizzazioni View (Visualizzazione) per l&#39;area di lavoro record, che assegnano loro almeno le autorizzazioni View (Visualizzazione) per il tipo di record. È necessario rimuoverne l&#39;accesso dall&#39;area di lavoro se si desidera che non dispongano di autorizzazioni per i tipi di record nell&#39;area di lavoro.
+
+{{step1-to-planning}}
+
+1. Aprire l&#39;area di lavoro di cui si desidera interrompere la condivisione dei tipi di record, quindi fare clic su una scheda del tipo di record. Verrà aperta la pagina del tipo di record.
+
+1. Dalla scheda di qualsiasi visualizzazione, fai clic su **Condividi** nell&#39;angolo superiore destro del tipo di record.
+1. Fare clic su **Condividi tipo di record**.
+
+   Viene visualizzata la casella **Condividi**.
+1. Individuare l&#39;utente, il gruppo, il team, la società o la mansione di cui si desidera rimuovere le autorizzazioni, espandere il menu a discesa delle autorizzazioni a destra del nome, quindi fare clic su **Rimuovi**. <!--check the screen shot below - the UI text for View might not be accurate-->
+
+   ![Rimuovi opzione nell&#39;elenco a discesa per la condivisione dei tipi di record](assets/remove-option-on-record-type-sharing-drop-down.png)
+
+1. Fai clic su **Salva**.
+
+   Gli utenti non dispongono più delle autorizzazioni indicate per il tipo di record. Tuttavia, dispongono ancora delle autorizzazioni per l’area di lavoro, a meno che non vengano rimosse anche dalle autorizzazioni dell’area di lavoro.
+
+   Agli utenti che sono stati rimossi dall’accesso alla vista non viene notificato che non dispongono più di questo accesso.

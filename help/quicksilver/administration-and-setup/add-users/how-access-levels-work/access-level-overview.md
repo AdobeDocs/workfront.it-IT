@@ -10,14 +10,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 5cea1b349867dbb408af97e6c2402a0d799af87b
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1720'
 ht-degree: 6%
 
 ---
 
 # Panoramica dei nuovi livelli di accesso
+
+>[!NOTE]
+>
+>Le informazioni contenute in questo articolo si riferiscono ai nuovi livelli di accesso. Per informazioni sui livelli di accesso legacy, vedere [Panoramica dei livelli di accesso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 In qualità di amministratore di Adobe Workfront, puoi assegnare un livello di accesso a un utente per due scopi:
 

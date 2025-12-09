@@ -5,14 +5,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
-source-git-commit: 5d924e510ad94098b9f417494f9fc6e8696c90d6
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '3485'
+source-wordcount: '3508'
 ht-degree: 10%
 
 ---
 
 # Accesso configurabile alle funzionalità per ogni tipo di oggetto
+
+>[!NOTE]
+>
+>Le informazioni contenute in questo articolo si riferiscono ai livelli di accesso legacy. Per informazioni sui nuovi livelli di accesso, vedere [Panoramica sui nuovi livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 Durante la configurazione di un livello di accesso per la tua organizzazione, puoi determinare quali azioni specifiche sono disponibili per il livello di accesso.
 
@@ -47,7 +51,7 @@ In ogni livello di accesso, puoi configurare le seguenti opzioni per i progetti:
        <li> <p>Crea</p> </li> 
        <li> <p>Copia</p> </li> 
        <li> <p>Elimina</p> </li> 
-       <li> <p>Visualizza</p> </li> 
+       <li> <p>Visualizzazione</p> </li> 
        <li> <p>Condividi</p> </li> 
        <li> <p>Condividi a livello di sistema</p> </li> 
       </ul> </li> 
@@ -170,7 +174,7 @@ In ogni livello di accesso, puoi configurare le seguenti opzioni per i problemi:
    <td> 
     <ul> 
      <li> <b>Nessun accesso</b> </li> 
-     <li> <p><b>Visualizza</b></p><p>Per ottimizzare questo aspetto, puoi configurare la possibilità di condividere i problemi. Fai clic sull'icona a forma di ingranaggio <img src="assets/gear-icon-in-access-levels.png"> sul pulsante Visualizza, quindi disabilita o abilita l'opzione <b>Condividi</b> (attivata per impostazione predefinita).</p> </li> 
+     <li> <p><b>Visualizzazione</b></p><p>Per ottimizzare questo aspetto, puoi configurare la possibilità di condividere i problemi. Fai clic sull'icona a forma di ingranaggio <img src="assets/gear-icon-in-access-levels.png"> sul pulsante Visualizza, quindi disabilita o abilita l'opzione <b>Condividi</b> (attivata per impostazione predefinita).</p> </li> 
      <li> <p><b>Modifica</b> (selezione predefinita): consente l'accesso di modifica completo ai problemi.</p> <p>Per ottimizzare l'operazione, fare clic sull'icona a forma di ingranaggio <img src="assets/gear-icon-in-access-levels.png"> sul pulsante <b>Modifica</b>, quindi disabilitare o abilitare una delle opzioni seguenti. Per impostazione predefinita, sono tutti attivati.</p> 
       <ul> 
        <li> <p>Crea</p> </li> 
@@ -360,7 +364,7 @@ In ogni livello di accesso è possibile configurare le opzioni seguenti per i ra
    <td> 
     <ul> 
      <li> <b>Nessun accesso</b> </li> 
-     <li> <p><b>Visualizza</b></p><p>Per ottimizzare l'operazione, fare clic sull'icona a forma di ingranaggio <img src="assets/gear-icon-in-access-levels.png"> sul pulsante <b>Modifica</b>, quindi disabilitare o abilitare una delle azioni seguenti. Entrambe sono abilitate per impostazione predefinita:</p> 
+     <li> <p><b>Visualizzazione</b></p><p>Per ottimizzare l'operazione, fare clic sull'icona a forma di ingranaggio <img src="assets/gear-icon-in-access-levels.png"> sul pulsante <b>Modifica</b>, quindi disabilitare o abilitare una delle azioni seguenti. Entrambe sono abilitate per impostazione predefinita:</p> 
       <ul> 
        <li> <p>Visualizza rapporti incorporati</p> </li> 
        <li> <p>Condividi</p> </li> 
@@ -433,7 +437,7 @@ In ogni livello di accesso, puoi configurare le seguenti opzioni per filtri, vis
    <td>Pianificatore </td> 
    <td> 
     <ul> 
-     <li> <p><b>Visualizza</b></p><p>Per ottimizzare questa funzione, puoi configurare la possibilità di condividere filtri, viste e raggruppamenti. Fai clic sull'icona a forma di ingranaggio <img src="assets/gear-icon-in-access-levels.png"> sul pulsante Visualizza, quindi disabilita o abilita l'opzione <b>Condividi</b> (attivata per impostazione predefinita).</p> </li> 
+     <li> <p><b>Visualizzazione</b></p><p>Per ottimizzare questa funzione, puoi configurare la possibilità di condividere filtri, viste e raggruppamenti. Fai clic sull'icona a forma di ingranaggio <img src="assets/gear-icon-in-access-levels.png"> sul pulsante Visualizza, quindi disabilita o abilita l'opzione <b>Condividi</b> (attivata per impostazione predefinita).</p> </li> 
      <li> <p><b>Modifica</b> (selezione predefinita): consente l'accesso di modifica completa a filtri, visualizzazioni e raggruppamenti.</p> <p>Per ottimizzare l'operazione, fare clic sull'icona a forma di ingranaggio <img src="assets/gear-icon-in-access-levels.png"> sul pulsante <b>Modifica</b>, quindi disabilitare o abilitare una delle opzioni seguenti. Per impostazione predefinita, sono tutti attivati.</p> 
       <ul> 
        <li> <p>Crea</p> </li> 
@@ -447,7 +451,7 @@ In ogni livello di accesso, puoi configurare le seguenti opzioni per filtri, vis
    <td>Collaboratore </td> 
    <td> 
     <ul> 
-     <li> <p><b>Visualizza</b></p><p>Per ottimizzare questa funzione, puoi configurare la possibilità di condividere filtri, viste e raggruppamenti. Fai clic sull'icona a forma di ingranaggio <img src="assets/gear-icon-in-access-levels.png"> sul pulsante Visualizza, quindi disabilita o abilita l'opzione <b>Condividi</b> (attivata per impostazione predefinita).</p> </li> 
+     <li> <p><b>Visualizzazione</b></p><p>Per ottimizzare questa funzione, puoi configurare la possibilità di condividere filtri, viste e raggruppamenti. Fai clic sull'icona a forma di ingranaggio <img src="assets/gear-icon-in-access-levels.png"> sul pulsante Visualizza, quindi disabilita o abilita l'opzione <b>Condividi</b> (attivata per impostazione predefinita).</p> </li> 
      <li> <p><b>Modifica</b> (selezione predefinita): consente l'accesso di modifica completa a filtri, visualizzazioni e raggruppamenti.</p> <p>Per ottimizzare l'operazione, fare clic sull'icona a forma di ingranaggio <img src="assets/gear-icon-in-access-levels.png"> sul pulsante <b>Modifica</b>, quindi disabilitare o abilitare una delle opzioni seguenti. Per impostazione predefinita, sono tutti attivati.</p> 
       <ul> 
        <li> <p>Crea</p> </li> 
@@ -527,7 +531,7 @@ In ogni livello di accesso è possibile configurare le opzioni seguenti per i do
    <td> 
     <ul> 
      <li> <b>Nessun accesso</b> </li> 
-     <li> <p><b>Visualizza</b></p><p>Per ottimizzare questo aspetto, puoi configurare la possibilità di condividere i documenti. Fai clic sull'icona a forma di ingranaggio <img src="assets/gear-icon-in-access-levels.png"> sul pulsante Visualizza, quindi disabilita o abilita l'opzione <b>Condividi</b> (attivata per impostazione predefinita).</p> </li> 
+     <li> <p><b>Visualizzazione</b></p><p>Per ottimizzare questo aspetto, puoi configurare la possibilità di condividere i documenti. Fai clic sull'icona a forma di ingranaggio <img src="assets/gear-icon-in-access-levels.png"> sul pulsante Visualizza, quindi disabilita o abilita l'opzione <b>Condividi</b> (attivata per impostazione predefinita).</p> </li> 
      <li> <p><b>Modifica</b> (selezione predefinita): consente l'accesso ai documenti con modifica completa.</p> <p>Per ottimizzare l'operazione, fare clic sull'icona a forma di ingranaggio <img src="assets/gear-icon-in-access-levels.png"> sul pulsante <b>Modifica</b>, quindi disabilitare o abilitare una delle opzioni seguenti. Tutti questi elementi sono abilitati per impostazione predefinita, ad eccezione di <b>Condividi documenti pubblicamente</b> e <b>Condividi a livello di sistema</b>.</p> 
       <ul> 
        <li> <p>Crea</p> </li> 
@@ -559,7 +563,7 @@ In ogni livello di accesso è possibile configurare le opzioni seguenti per i do
    <td> 
     <ul> 
      <li> <b>Nessun accesso</b> </li> 
-     <li> <p><b>Visualizza</b></p><p>Per ottimizzare questo aspetto, puoi configurare la possibilità di condividere i documenti. Fai clic sull'icona a forma di ingranaggio <img src="assets/gear-icon-in-access-levels.png"> sul pulsante Visualizza, quindi disabilita o abilita l'opzione <b>Condividi</b> (attivata per impostazione predefinita).</p> </li> 
+     <li> <p><b>Visualizzazione</b></p><p>Per ottimizzare questo aspetto, puoi configurare la possibilità di condividere i documenti. Fai clic sull'icona a forma di ingranaggio <img src="assets/gear-icon-in-access-levels.png"> sul pulsante Visualizza, quindi disabilita o abilita l'opzione <b>Condividi</b> (attivata per impostazione predefinita).</p> </li> 
      <li> <p><b>Modifica</b> (selezione predefinita): consente l'accesso ai documenti con modifica completa.</p> <p>Per ottimizzare l'operazione, fare clic sull'icona a forma di ingranaggio <img src="assets/gear-icon-in-access-levels.png"> sul pulsante <b>Modifica</b>, quindi disabilitare o abilitare una delle opzioni seguenti. Per impostazione predefinita, sono tutti attivati.</p> 
       <ul> 
        <li> <p>Crea</p> </li> 
@@ -593,7 +597,7 @@ In ogni livello di accesso, puoi configurare le seguenti opzioni per gli utenti:
    <td>Pianificatore </td> 
    <td> 
     <ul> 
-     <li> <p><b>Visualizza</b></p><p>Per ottimizzare questa funzione, puoi configurare la possibilità di visualizzare le informazioni di contatto degli utenti. Fai clic sull'icona a forma di ingranaggio <img src="assets/gear-icon-in-access-levels.png"> sul pulsante <b>Visualizza</b>, quindi disabilita o abilita l'opzione <b>Visualizza informazioni di contatto</b> (attivata per impostazione predefinita).</p> </li> 
+     <li> <p><b>Visualizzazione</b></p><p>Per ottimizzare questa funzione, puoi configurare la possibilità di visualizzare le informazioni di contatto degli utenti. Fai clic sull'icona a forma di ingranaggio <img src="assets/gear-icon-in-access-levels.png"> sul pulsante <b>Visualizza</b>, quindi disabilita o abilita l'opzione <b>Visualizza informazioni di contatto</b> (attivata per impostazione predefinita).</p> </li> 
      <li> <p><b>Modifica</b> (selezione predefinita): consente agli utenti l'accesso in modalità di modifica completa.</p> <p>Per ottimizzare l'operazione, fare clic sull'icona a forma di ingranaggio <img src="assets/gear-icon-in-access-levels.png"> sul pulsante <b>Modifica</b>, quindi disabilitare o abilitare una delle azioni seguenti. Per impostazione predefinita, solo le prime due opzioni, <b>Crea</b> e <b>Elimina</b>, sono abilitate.</p> 
       <ul> 
        <li> <p>Crea</p> </li> 

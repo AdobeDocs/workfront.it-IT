@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 02ca85404dfc2a00c94e21a6642748ab3ee39015
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1335'
 ht-degree: 14%
 
 ---
@@ -21,6 +21,10 @@ ht-degree: 14%
 
 {{highlighted-preview}}
 
+>[!NOTE]
+>
+>Le informazioni contenute in questo articolo si riferiscono ai nuovi livelli di accesso. Per informazioni sui livelli di accesso legacy, vedere [Panoramica dei livelli di accesso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+
 Nelle tabelle seguenti sono elencate le funzionalità disponibili per ogni tipo di oggetto nei vari livelli di accesso.
 
 Indica inoltre le azioni che gli amministratori di Workfront possono disabilitare o abilitare utilizzando un livello di accesso.
@@ -28,13 +32,13 @@ Indica inoltre le azioni che gli amministratori di Workfront possono disabilitar
 >[!NOTE]
 >
 >* In questo articolo vengono descritte le funzionalità disponibili per i livelli di accesso nel nuovo modello di piano Workfront. Per visualizzare le funzionalità disponibili nel modello di piano corrente, vedere [Funzionalità disponibili per ogni tipo di oggetto per vari livelli di accesso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Per un elenco delle funzionalità disponibili per i diversi piani nel nuovo modello di piano, vedere [Adobe Workfront Pricing and Packaging](https://business.adobe.com/it/products/workfront/pricing.html).
+>* Per un elenco delle funzionalità disponibili per i diversi piani nel nuovo modello di piano, vedere [Adobe Workfront Pricing and Packaging](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Progetti
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
 |------------------------------|----------|--------|-------------|---------------|
-| Creare | ✓&#42; |   |   |   |
+| Crea | ✓&#42; |   |   |   |
 | Copia | ✓&#42; |   |   |   |
 | Elimina | ✓&#42; |   |   |   |
 | Condividi | ✓&#42; |   |   |   |
@@ -72,7 +76,7 @@ Indica inoltre le azioni che gli amministratori di Workfront possono disabilitar
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
 |--------------------------------|----------|--------|-------------|---------------|
-| Creare | ✓&#42; |   |   |   |
+| Crea | ✓&#42; |   |   |   |
 | Elimina | ✓&#42; |   |   |   |
 | Condividi | ✓&#42; |   |   |   |
 | Condividi a livello di sistema | ✓&#42; |   |   |   |
@@ -104,7 +108,7 @@ Indica inoltre le azioni che gli amministratori di Workfront possono disabilitar
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
 |-------------------------------|----------|--------|-------------|---------------|
-| Creare | ✓&#42; | ✓&#42; | ✓&#42; |   |
+| Crea | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Modifica | ✓ | ✓ | ✓ |   |
 | Elimina | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Condividi | ✓&#42; | ✓&#42; | ✓&#42; |   |
@@ -134,7 +138,7 @@ Solo gli utenti con una licenza Standard possono avere accesso completo ai portf
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
 |--------------------------|----------|--------|-------------|---------------|
-| Creare | ✓&#42; |   |   |   |
+| Crea | ✓&#42; |   |   |   |
 | Elimina | ✓&#42; |   |   |   |
 | Condividi | ✓&#42; |   |   |   |
 | Condividi a livello di sistema | ✓&#42; |   |   |   |
@@ -158,7 +162,7 @@ Solo gli utenti con una licenza Standard possono avere accesso completo ai progr
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
 |------------------------------|----------|--------|-------------|---------------|
-| Creare | ✓&#42; |   |   |   |
+| Crea | ✓&#42; |   |   |   |
 | Elimina | ✓&#42; |   |   |   |
 | Condividi | ✓&#42; |   |   |   |
 | Condividi a livello di sistema | ✓&#42; |   |   |   |
@@ -182,7 +186,7 @@ Gli utenti con una licenza Standard possono avere accesso completo ai rapporti. 
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
 |--------------------------------------|----------|--------|-------------|---------------|
-| Creare | ✓&#42; |   |   |   |
+| Crea | ✓&#42; |   |   |   |
 | Elimina | ✓&#42; |   |   |   |
 | Visualizzare rapporti incorporati | ✓&#42; |   |   |   |
 | Condividi | ✓&#42; | ✓ |   |   |
@@ -204,7 +208,7 @@ Gli utenti con una licenza Standard possono avere accesso completo ai rapporti. 
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
 |-------------------|------------|---------|---------------|---------------|
-| Creare | ✓* | ✓* | ✓* |   |
+| Crea | ✓* | ✓* | ✓* |   |
 | Elimina | ✓* | ✓* | ✓* |   |
 | Condividi | ✓* | ✓* | ✓* |   |
 | Condividi a livello di sistema | ✓* | ✓* | ✓* |   |
@@ -219,7 +223,7 @@ Gli utenti con una licenza Standard possono avere accesso completo ai rapporti. 
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
 |--------------------------------|----------|--------|-------------|---------------|
-| Creare | ✓&#42; | ✓&#42; | ✓&#42; |   |
+| Crea | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Elimina (documenti e cartelle) | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Condividi | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Condividi pubblicamente (esternamente) | ✓&#42; |   |   |   |
@@ -254,7 +258,7 @@ Gli utenti con una licenza Standard possono avere accesso completo ai rapporti. 
 
 | Azione | Standard | Light | Collaboratore | Utente esterno** |
 |----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
-| Creare | ✓* |   |   |   |
+| Crea | ✓* |   |   |   |
 | Elimina | ✓* |   |   |   |
 | Modifica, elimina, disattiva, accedi come o reimposta la password per qualsiasi utente | ✓* |   |   |   |
 | Modifica, elimina, disattiva, accedi come o reimposta la password per tutti gli utenti di un gruppo che amministrano | ✓* |   |   |   |
@@ -271,7 +275,7 @@ Gli utenti con una licenza Standard possono avere accesso completo ai rapporti. 
 
 | Azione | Standard | Light | Collaboratore | Utente esterno* |
 |-----------------------------------------|-----------|------------|-------------|------------------|
-| Creare | ✓* |   |   |   |
+| Crea | ✓* |   |   |   |
 | Elimina | ✓* |   |   |   |
 | Modifica i team a cui appartengono | ✓* |   |   |   |
 | Modificare i team nei gruppi da loro gestiti | ✓* |   |   |   |
@@ -286,7 +290,7 @@ Gli utenti con una licenza Standard possono avere accesso completo ai rapporti. 
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
 |-----------------------|----------|--------|-------------|---------------|
-| Creare | ✓&#42; |   |   |   |
+| Crea | ✓&#42; |   |   |   |
 | Elimina | ✓&#42; |   |   |   |
 | Condividi | ✓&#42; |   |   |   |
 | Condividi a livello di sistema | ✓&#42; |   |   |   |
@@ -370,7 +374,7 @@ Solo gli utenti con una licenza Standard possono avere accesso completo alla ges
 
 | Azioni | Visualizzazione | Modifica |
 |---|---|---|
-| Creare |   | ✓ |
+| Crea |   | ✓ |
 | Modifica/elimina tutti gli obiettivi |   | ✓ |
 | Visualizza obiettivi nel menu principale | ✓ | ✓ |
 | Visualizzare l’area Obiettivi da un collegamento condiviso | ✓ | ✓ |

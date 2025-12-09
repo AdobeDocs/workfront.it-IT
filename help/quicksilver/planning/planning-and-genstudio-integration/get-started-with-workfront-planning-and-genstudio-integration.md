@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: e6fc6def1553df3faa8e1200f7ec2ca2bb97eb04
 workflow-type: tm+mt
-source-wordcount: '2065'
+source-wordcount: '2063'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ La tabella seguente descrive i requisiti di accesso e autorizzazioni per utilizz
    <td role="rowheader"><p>Ruoli utente di Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Qualsiasi ruolo utente di GenStudio per accedere a Campagne, Prodotti e Utenti tipo</li>
    <li>GenSudio System Manager per accedere alle attivazioni <!--and Events--></li></ul>
-   Per informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Ruoli utente e autorizzazioni</a>. 
+   Per informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Ruoli utente e autorizzazioni</a>. 
    </p>
   </td> 
   </tr>   
@@ -164,7 +164,7 @@ Per ulteriori informazioni su Adobe GenStudio for Performance Marketing, consult
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -249,7 +249,13 @@ Le sezioni seguenti descrivono:
    * Aggiungi tipi di record
    * Condividi con altri
 
-     Puoi condividere l’area di lavoro di GenStudio con altri utenti che non dispongono di un account GenStudio. Puoi condividerlo solo con gli utenti disponibili nel sistema Identity Management (IMS) della tua organizzazione. <!--check to see this is correct-->
+     Puoi condividere l’area di lavoro di GenStudio con altri utenti che non dispongono di un account GenStudio. Puoi condividerlo solo con gli utenti disponibili nel sistema Identity Management (IMS) della tua organizzazione.
+
+     <!--
+        >[!NOTE]
+        >
+        >You cannot remove GenStudio users from the GenStudio workspace or its record types' sharing. -->
+     <!--check to see this is correct-->
      <!--* Delete the workspace - check to see if this is possible; the link is there, but???-->
 
 * Se si dispone delle autorizzazioni Contribute per l&#39;area di lavoro di GenStudio in Planning, non è possibile modificare l&#39;area di lavoro da Workfront Planning.
@@ -378,9 +384,20 @@ In Workfront Planning è possibile effettuare le seguenti connessioni tra i tipi
 
 ### Connessione ai marchi GenStudio dalle aree di lavoro di Workfront Planning
 
-Quando nell&#39;organizzazione è presente un&#39;integrazione tra Workfront Planning e Adobe GenStudio, è possibile collegare i tipi di record Planning ai Marchi GenStudio da qualsiasi tipo di record in qualsiasi area di lavoro in Workfront Planning.
+Quando l&#39;organizzazione dispone di un&#39;integrazione tra Workfront Planning e Adobe GenStudio, è possibile collegare i tipi di record Planning ai Marchi GenStudio da qualsiasi tipo di record in qualsiasi area di lavoro in Workfront Planning.
 
 I marchi non sono visibili come schede di tipo record nell’area di lavoro di GenStudio. I marchi sono disponibili per creare nuove connessioni da qualsiasi tipo di record di Workfront Planning, incluse quelle nell&#39;area di lavoro di GenStudio.
+
+<!-- when this releases, replace the paragraph above with these:
+
+Brands are connected by default to the following GenStudio workspace record types:
+
+    * Products
+    * Personas
+
+Brands are available for manually connecting to all other GenStudio workspace record types, or record types from all other workspaces you have permissions to manage. 
+
+-->
 
 ## Ambiente di anteprima
 
