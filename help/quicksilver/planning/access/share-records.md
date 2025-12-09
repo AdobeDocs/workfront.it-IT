@@ -230,7 +230,7 @@ Se si dispone dell&#39;autorizzazione Gestione per l&#39;area di lavoro, è poss
 
 1. Condividi il collegamento copiato con altri utenti. Gli utenti che ricevono il collegamento devono essere utenti attivi e accedere a Workfront per poter accedere alla pagina del tipo di record e visualizzarla nella visualizzazione selezionata. Per visualizzarlo, è necessario disporre delle autorizzazioni per il tipo di record. Per ulteriori informazioni, vedere anche [Condividere record utilizzando un collegamento](/help/quicksilver/planning/records/share-records.md).
 
-## Rimuovi le autorizzazioni per un record (*************** QUESTO RECORD È STATO COPIATO DA TIPI DI RECORD, DEVE ESSERE MODIFICATO PER I RECORD, MA ATTENDI LA RISPOSTA SLACK DI LILIT **********)
+## Rimuovi le autorizzazioni per un record (**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** QUESTO RECORD È STATO COPIATO DA TIPI DI RECORD, DEVE ESSERE MODIFICATO PER I RECORD, MA ATTENDI LA RISPOSTA SLACK DI LILIT &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**)
 
 È possibile rimuovere le autorizzazioni degli utenti da un record. Tuttavia, manterranno almeno le autorizzazioni View (Visualizzazione) per l&#39;area di lavoro record, che assegnano loro almeno le autorizzazioni View (Visualizzazione) per il tipo di record. È necessario rimuoverne l&#39;accesso dall&#39;area di lavoro se si desidera che non dispongano di autorizzazioni per i tipi di record nell&#39;area di lavoro.
 
