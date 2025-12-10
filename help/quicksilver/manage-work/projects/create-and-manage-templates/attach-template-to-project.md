@@ -6,10 +6,10 @@ description: È possibile allegare un modello a un progetto durante la fase iniz
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 0%
+source-wordcount: '1126'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ Per ulteriori informazioni sulla creazione di un progetto utilizzando un modello
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -159,15 +159,23 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      </tr> 
      <tr> 
       <td role="rowheader">Le attività modello selezionate di seguito vengono importate nel progetto. Deseleziona quelli da escludere. </td> 
-      <td>Deseleziona le attività da escludere dal modello prima di allegarle al progetto.</td> 
+      <td><p>Deseleziona le attività da escludere dal modello prima di allegarle al progetto.</p>
+      <p><b>SUGGERIMENTO</b></p>
+      <p>È possibile scegliere una sola attività.</p>
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Selezionare l'attività di progetto che si desidera come predecessore delle attività in questo modello.</td> 
-      <td> <p>Fare clic sul campo per visualizzare un elenco delle attività del progetto, quindi selezionare l'attività che deve essere completata prima che le attività del modello possano iniziare. In alternativa, puoi saltare questo passaggio e impostare relazioni all’interno del progetto dopo aver allegato il modello. </p> <p> Selezionare le informazioni relative al <strong>Tipo di dipendenza</strong>, al <strong>Tempo di ritardo</strong> e se si desidera applicare il predecessore selezionando la casella di controllo <strong>Applica predecessore</strong>. </p> </td> 
+      <td> <p>Fare clic all'interno della casella del campo per visualizzare un elenco di attività di progetto, quindi selezionare l'attività che deve essere completata prima che le attività del modello possano iniziare. In alternativa, puoi saltare questo passaggio e impostare relazioni all’interno del progetto dopo aver allegato il modello. </p> <p> Selezionare le informazioni relative al <strong>Tipo di dipendenza</strong>, al <strong>Tempo di ritardo</strong> e se si desidera applicare il predecessore selezionando la casella di controllo <strong>Applica predecessore</strong>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Selezionare l'attività di progetto che si desidera utilizzare come padre delle attività in questo modello.</td> 
-      <td> Selezionare l'attività di progetto che si desidera designare come attività padre per tutte le attività modello. Se non si effettua una selezione, tutte le attività modello vengono visualizzate alla fine delle attività progetto correnti. Puoi saltare questo passaggio e spostare le attività all’interno del progetto dopo aver allegato il modello.</td> 
+      <td> <p>Selezionare l'attività di progetto che si desidera designare come attività padre per tutte le attività modello. Se non si effettua una selezione, tutte le attività modello vengono visualizzate alla fine delle attività progetto correnti. Puoi saltare questo passaggio e spostare le attività all’interno del progetto dopo aver allegato il modello.</p>
+      <p><b>NOTA</b></p>
+      <p>Se è stata selezionata un'attività modello padre con figli aggiuntivi, solo l'attività progetto padre verrà visualizzata come predecessore dopo essere stata aggiunta al progetto. Le attività modello figlio non visualizzeranno un predecessore.</p>
+      <p>Se è stata selezionata solo un'attività modello figlio, l'attività di progetto verrà visualizzata come predecessore dopo essere stata aggiunta al progetto. </p>
+
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">Sezione Opzioni</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-options-section-nwe-350x78.png" style="width: 350;height: 78;"> </p> </td> 

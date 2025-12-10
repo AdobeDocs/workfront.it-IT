@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
 source-wordcount: '1335'
 ht-degree: 14%
@@ -23,7 +23,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->Le informazioni contenute in questo articolo si riferiscono ai nuovi livelli di accesso. Per informazioni sui livelli di accesso legacy, vedere [Panoramica dei livelli di accesso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+>Le informazioni contenute in questo articolo si riferiscono ai livelli di accesso correnti. Per informazioni sui livelli di accesso legacy, vedere [Panoramica dei livelli di accesso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 Nelle tabelle seguenti sono elencate le funzionalità disponibili per ogni tipo di oggetto nei vari livelli di accesso.
 
@@ -32,7 +32,7 @@ Indica inoltre le azioni che gli amministratori di Workfront possono disabilitar
 >[!NOTE]
 >
 >* In questo articolo vengono descritte le funzionalità disponibili per i livelli di accesso nel nuovo modello di piano Workfront. Per visualizzare le funzionalità disponibili nel modello di piano corrente, vedere [Funzionalità disponibili per ogni tipo di oggetto per vari livelli di accesso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Per un elenco delle funzionalità disponibili per i diversi piani nel nuovo modello di piano, vedere [Adobe Workfront Pricing and Packaging](https://business.adobe.com/it/products/workfront/pricing.html).
+>* Per un elenco delle funzionalità disponibili per i diversi piani nel nuovo modello di piano, vedere [Adobe Workfront Pricing and Packaging](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Progetti
 

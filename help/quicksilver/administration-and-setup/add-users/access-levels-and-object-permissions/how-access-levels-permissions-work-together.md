@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 2%
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Le informazioni contenute in questo articolo si riferiscono ai livelli di accesso legacy. Per informazioni sui nuovi livelli di accesso, vedere [Panoramica sui nuovi livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>Le informazioni contenute in questo articolo si riferiscono ai livelli di accesso legacy. Per informazioni sui livelli di accesso correnti, vedere [Panoramica sui nuovi livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 L’amministratore Adobe Workfront determina il livello di accesso di ogni utente. Tale livello di accesso definisce cosa gli utenti possono vedere e fare con i tipi di oggetto e le aree del sistema.
 

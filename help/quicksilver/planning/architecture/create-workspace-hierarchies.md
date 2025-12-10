@@ -4,10 +4,10 @@ description: In qualità di responsabile dell'area di lavoro, puoi creare più g
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: ff9371b639e7684a94c08b8cd6293b632fac9edf
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 2%
+source-wordcount: '619'
+ht-degree: 1%
 
 ---
 
@@ -35,7 +35,6 @@ Dopo aver connesso i tipi di record in un&#39;area di lavoro e aver creato una g
 Le gerarchie genereranno breadcrumb per i tipi di record e i record <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> visualizzati nelle relative intestazioni. In questo modo, gli utenti sanno dove si trovano nella gerarchia in qualsiasi fase del flusso di lavoro.
 
 Per informazioni generali sulle gerarchie e sulle breadcrumb, vedere [Panoramica sulle gerarchie e sulle breadcrumb](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
-
 
 ## Requisiti di accesso
 
@@ -81,3 +80,58 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 +++
 
 ## Creare una gerarchia di workspace
+
+{#step1-to-planning}
+
+1. Fai clic su una scheda dell’area di lavoro.
+1. Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome dell&#39;area di lavoro, quindi fai clic su **Impostazioni**.
+Per impostazione predefinita, viene aperta la sezione **Gerarchie**.
+1. Fai clic su **Nuova gerarchia** nell&#39;angolo superiore destro della pagina **Gerarchie**.
+1. Fare clic su **Aggiungi oggetto** e selezionare un oggetto dal menu a discesa. Questo sarà l&#39;oggetto principale nella gerarchia.
+È possibile selezionare un tipo di record dall&#39;area di lavoro corrente o un progetto da Workfront.
+1. Fai clic su **Aggiungi oggetto** per aggiungere un secondo oggetto, che è il primo figlio nella gerarchia, quindi seleziona un altro oggetto nel menu a discesa.
+   ![Nuova casella della gerarchia senza campo selezionato](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
+1. Fare clic su **Seleziona campo connesso** per indicare quale campo connette i due oggetti.
+1. (Condizionale) Se esiste un campo connesso tra i due tipi di oggetto, selezionarlo dall&#39;elenco. In caso contrario, fare clic su **Aggiungi nuova connessione**.
+
+   >[!WARNING]
+   >
+   >Se il campo **Crea campo corrispondente nel tipo di record collegato** non è stato selezionato al momento della creazione del campo connesso, è necessario modificare il campo prima di continuare.
+
+1. (Condizionale) Se stai aggiungendo una nuova connessione, effettua le seguenti operazioni:
+
+   1. Aggiungi un nome per il campo connesso nella casella **Nome**.
+   1. Selezionare uno dei tipi di connessione seguenti:
+
+      * **Molti a molti**
+      * **Uno a molti**
+      * **Molti a uno**
+      * **Uno a uno**
+   1. Selezionare uno dei tipi di aspetto dei record riportati di seguito.
+
+      * **Nome e immagine**
+      * **Nome**
+      * **Immagine**
+Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+   1. Fai clic su **Salva**.
+1. (Facoltativo) Continua ad aggiungere fino a 4 tipi di oggetto alle gerarchie seguendo la procedura descritta sopra. È possibile aggiungere prima tutti i tipi di oggetto e quindi i campi di connessione tra di essi.
+1. (Facoltativo) Fai clic sull&#39;icona **Rimuovi** ![Rimuovi icona](assets/minus-icon.png) per rimuovere una connessione.
+1. Fai clic su **Salva** per salvare la gerarchia.
+
+   >[!TIP]
+   >
+   >Il pulsante **Salva** è inattivo se non sono presenti tutti i campi connessi.
+
+   Si verificano le seguenti situazioni:
+
+   * La gerarchia viene aggiunta alla sezione **Gerarchie** dell&#39;area di lavoro.
+   * I record che popolano i campi di connessione visualizzano tutte le connessioni nelle relative breadcrumb quando si passa alla pagina di un record.
+1. (Facoltativo) Passa il puntatore del mouse su una gerarchia, quindi fai clic sul menu **Altro**, quindi fai clic su una delle seguenti opzioni:
+
+   * **Modifica**: apre la casella **Modifica gerarchia** in cui è possibile apportare modifiche.
+   * **Elimina**: la gerarchia verrà eliminata definitivamente. Non è possibile recuperare le gerarchie eliminate. I campi di connessione non vengono eliminati.
+
+
+
+
+
