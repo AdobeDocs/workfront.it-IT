@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: ebdb1803fe57386a84d3d882b02a53ec4344b225
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '1249'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ Puoi individuare i seguenti tipi di richieste inviate da te o da un altro utente
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -73,7 +73,44 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ## Individuare le richieste inviate
 
-Per individuare le richieste inviate da te o da altri utenti:
+L’individuazione delle richieste inviate varia a seconda che si utilizzi un’esperienza di richiesta nuova o legacy.
+
+### Individuare le richieste inviate nella nuova esperienza di richiesta
+
+Per individuare le richieste inviate da te o da altri utenti nella nuova esperienza di richiesta:
+
+{{step1-to-requests}}
+
+1. Assicurarsi che l&#39;interruttore **Usa nuova esperienza** nell&#39;angolo superiore destro dello schermo sia abilitato.
+
+   Viene visualizzato l&#39;elenco Richieste.
+
+1. (Facoltativo) Per cercare una richiesta, inizia a digitare nella barra di ricerca in alto a destra dell’elenco. I risultati della ricerca vengono visualizzati durante la digitazione.
+1. (Facoltativo) Fai clic su **Filtri** e inizia ad aggiungere le condizioni per le richieste che desideri individuare.
+
+   Puoi filtrare in base ai seguenti campi:
+
+   * **Workspace**: area di lavoro a cui è associato il modulo di richiesta.
+   * **Tipo di record**: il tipo di record a cui è associato il modulo di richiesta.
+   * **Data di ingresso**: la data in cui la richiesta è stata inviata.
+   * **Modulo di richiesta**: nome del modulo di richiesta utilizzato per inviare la richiesta.
+   * **Stato**: lo stato della richiesta.
+   * **Inserito da**: nome dell&#39;utente che ha aggiunto la richiesta. Se la richiesta è stata aggiunta da un utente esterno a Workfront, il campo **Immesso da** visualizza `N/A`.
+
+   È possibile unire più filtri con **And** o **Or**.
+L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi le condizioni del filtro.
+1. (Facoltativo) Utilizza le viste per concentrarti sulle richieste che desideri individuare.
+
+   Per istruzioni, vedere [Creare o modificare le visualizzazioni nell&#39;area Richieste](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+
+>[!NOTE]
+>
+>* Se si dispone di Workfront Planning, le richieste Workfront e Planning vengono visualizzate nello stesso elenco. Le richieste Workfront visualizzano il valore `Issue` nella colonna Tipo oggetto.
+>* Viene visualizzato l’elenco Richieste con 50 richieste visualizzate. Per visualizzare altre richieste, scorri fino alla parte inferiore dell’elenco.
+
+### Individuare le richieste inviate nell’esperienza di richiesta legacy
+
+Per individuare le richieste inviate da te o da altri utenti nell’esperienza di richiesta legacy:
 
 {{step1-to-requests}}
 
