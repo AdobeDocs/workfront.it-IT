@@ -7,9 +7,9 @@ description: È possibile personalizzare il tipo di informazioni visualizzate in
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -43,24 +43,41 @@ Di seguito sono riportati i tipi di visualizzazione che è possibile applicare a
     </tr>
     <tr>
         <td><strong>Visualizzazione Agile</strong></td>
-        <td>Puoi applicarlo a un elenco di attività nella sezione Attività di un progetto. Puoi personalizzare e condividere una visualizzazione agile con altri utenti. Per informazioni, vedere <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Creare o modificare le visualizzazioni in Adobe Workfront</a>.</td>
+        <td>Puoi applicare la visualizzazione Bacheca o Agile a un elenco di attività nella sezione Attività di un progetto o a un elenco di problemi nella sezione Problemi del progetto. Per informazioni, consulta <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md">Gestire un progetto in Agile View</a>.</td>
     </tr>
     <tr>
         <td><strong>Vista Gantt</strong></td>
         <td>È possibile applicarlo a un elenco di attività nella sezione Attività di un progetto o a un elenco di progetti oppure aggiungerlo a un report di attività o di progetto. È possibile personalizzare le informazioni visualizzate nella vista Gantt utilizzando le opzioni predefinite incorporate. Tutti gli utenti con accesso per visualizzare attività o progetti possono visualizzarli nella visualizzazione Gantt. Per informazioni, vedere <a href="/help/quicksilver/manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md">Introduzione al Diagramma di Gantt</a>.</td>
        </tr>
+
+<tr>
+        <td><strong>Visualizzazione avanzata</strong></td>
+        <td>Le visualizzazioni avanzate si basano su elenchi avanzati. Sono disponibili in alcune aree di Workfront. Questi elenchi utilizzano un formato tabella per la visualizzazione delle voci e hanno un aspetto diverso rispetto alle visualizzazioni o agli elenchi standard. È stata migliorata anche la gestione delle viste, inclusi filtri, raggruppamenti, gestione delle colonne e ricerca. Per informazioni, vedere <a href="/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md">Utilizzare elenchi avanzati</a></td>
+       </tr>    
 </table>
+
+
 
 <!--NOTE FOR MAYBE LATER: consider adding calendar and board views, or Milestone view (not customizable) to this list of views (above)?! -->
 
 ## Condividere una visualizzazione
 
-Per informazioni su come condividere una visualizzazione, vedere [Condividere un filtro, una visualizzazione o un raggruppamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+Potete condividere gli elementi di una vista standard.
+
+Per informazioni su come condividere una visualizzazione standard, vedere [Condividere un filtro, una visualizzazione o un raggruppamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+
+Non puoi condividere le viste Gantt e Agile. Tutti coloro che hanno accesso alle aree in cui vengono visualizzate queste visualizzazioni possono visualizzare le stesse informazioni.
+
+<!-- add something about the enhanced views here, when we have a link-->
 
 ## Rimuovere una visualizzazione
 
 La possibilità di rimuovere una vista funziona in modo diverso a seconda che la vista sia stata creata inizialmente o che sia stata condivisa con te. Non è possibile rimuovere una vista predefinita.
 
-Per ulteriori informazioni, vedere [Rimuovere filtri, visualizzazioni e raggruppamenti](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+Non è possibile rimuovere le viste Gantt o Agile.
+
+Per ulteriori informazioni sulla rimozione di una visualizzazione standard, vedere [Rimuovere filtri, visualizzazioni e raggruppamenti](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+
+<!-- add something about the enhanced views here, when we have a link-->
 
 

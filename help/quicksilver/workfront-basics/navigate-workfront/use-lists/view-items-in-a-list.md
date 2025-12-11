@@ -5,16 +5,16 @@ description: È possibile visualizzare elenchi di oggetti in [!DNL Adobe Workfro
 feature: Get Started with Workfront
 author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: ca16652aa06b4652d0d1b41156ed1ef96225c49a
+source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
 workflow-type: tm+mt
-source-wordcount: '2405'
+source-wordcount: '2301'
 ht-degree: 2%
 
 ---
 
 # Introduzione agli elenchi in [!DNL Adobe Workfront]
 
-<!--Audited: 11/2024-->
+<!--Audited: 12/2025-->
 
 È possibile visualizzare elenchi di oggetti in [!DNL Adobe Workfront] per ottenere informazioni su di essi, ad esempio le date di inizio e di scadenza, gli utenti assegnati e altri oggetti associati.
 
@@ -166,7 +166,7 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti disponibili in [!DNL
    <td>Elenco dei rapporti</td> 
    <td> 
     <ul> 
-     <li> <p>  Rapporti di   </p> </li> 
+     <li> <p>  Rapporti di [!UICONTROL]  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -206,7 +206,7 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti disponibili in [!DNL
    <td>Elenco delle schede orario</td> 
    <td> 
     <ul> 
-     <li> <p> s &gt; [!UICONTROL Tutte le schede orario]*</p> </li> 
+     <li> <p>[!UICONTROL Timesheets] &gt; [!UICONTROL All Timesheets]*</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -293,7 +293,7 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti disponibili in [!DNL
  </tbody> 
 </table>
 
-Non è possibile personalizzare l&#39;elenco nell&#39;area specificata. Un amministratore [!DNL Workfront] può creare un elenco personalizzato a livello di sistema oppure un report per questo oggetto se il livello di accesso ti consente di accedere alla modifica dei report.
+*Non è possibile personalizzare l&#39;elenco sull&#39;area specificata. Un amministratore [!DNL Workfront] può creare un elenco personalizzato a livello di sistema oppure un report per questo oggetto se il livello di accesso ti consente di accedere alla modifica dei report.
 
 ## Elementi elenco
 
@@ -320,7 +320,7 @@ Di seguito sono riportati gli elementi di un elenco:
    <td> <p>I filtri escludono le informazioni non necessarie da un elenco, in base ai criteri specificati. </p> <p>Per ulteriori informazioni, vedere <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Panoramica filtri</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Visualizzazione </strong></td> 
+   <td><strong>Visualizzazione [!UICONTROL]</strong></td> 
    <td> <p>Le visualizzazioni definiscono quali campi (colonne) vengono visualizzati sullo schermo.</p> <p>Per ulteriori informazioni, vedere <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Panoramica delle visualizzazioni in [!DNL Adobe Workfront]</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -366,7 +366,7 @@ Per ulteriori informazioni sulla creazione e la personalizzazione degli elementi
 </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <td><strong>Aggiorna con il riepilogo </strong> </td> 
+   <td><strong>Aggiorna con il riepilogo [!UICONTROL]</strong> </td> 
    <td> <p>Aggiorna attività e problemi a livello di progetto utilizzando il pannello [!UICONTROL Summary].</p> <p><b>SUGGERIMENTO:</b></p> <p>Il Riepilogo non è disponibile per tutti gli oggetti e non è disponibile nei report Attività o Problemi.</p> <p>Per ulteriori informazioni, vedere <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Panoramica di riepilogo</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -465,8 +465,8 @@ Nella tabella seguente sono elencate molte delle icone disponibili nella barra d
   </tr> 
   <tr> 
    <td> <img src="assets/qs-gantt-chart-icon-in-new-toolbar.png"> </td> 
-   <td>Grafico di Gantt </td> 
-   <td> <p>Visualizza l'elenco nella visualizzazione Diagramma di Gantt .</p> <p>Questa opzione è disponibile solo per i progetti e le attività.</p> </td> 
+   <td>Grafico di Gantt [!UICONTROL]</td> 
+   <td> <p>Visualizza l'elenco nella visualizzazione Diagramma di Gantt [!UICONTROL].</p> <p>Questa opzione è disponibile solo per i progetti e le attività.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-filter-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-filter-in-new-toolbar-with-blue-dot---small.png"> </p> </td> 
@@ -490,8 +490,8 @@ Nella tabella seguente sono elencate molte delle icone disponibili nella barra d
   </tr> 
   <tr> 
    <td> <img src="assets/summary-panel-icon.png"> </td> 
-   <td>Riepilogo </td> 
-   <td> <p>Visualizza o nasconde la casella Riepilogo  per l'elemento selezionato.</p> <p>Questa opzione è disponibile solo per le attività e i problemi.</p> <p>Per informazioni sul pannello Riepilogo di , vedere <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Panoramica di riepilogo</a>.</p> </td> 
+   <td>Riepilogo [!UICONTROL]</td> 
+   <td> <p>Visualizza o nasconde la casella Riepilogo [!UICONTROL] per l'elemento selezionato.</p> <p>Questa opzione è disponibile solo per le attività e i problemi.</p> <p>Per informazioni sul pannello Riepilogo di [!UICONTROL], vedere <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Panoramica di riepilogo</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/remove-icon---x-in-circle.png"> </td> 
@@ -649,25 +649,19 @@ Nella tabella seguente vengono illustrate alcune delle differenze tra gli elench
   </tr> 
   <tr>
   <td> <p>Visualizza <strong>Tutti</strong> o fino a <strong>2000</strong> elementi per impostazione predefinita</p> </td> 
-   <td> Visualizza fino a 100 elementi per impostazione predefinita e fino a 2.000 dopo lo scorrimento </td> 
+   <td> Visualizza tutti gli elementi nell'elenco dopo lo scorrimento manuale </td> 
   </tr>
 
 <tr> 
-   <td>Le icone nella parte superiore dell’elenco sono in qualche modo coerenti in tutti gli elenchi, indipendentemente da dove vi accedete. Alcuni elenchi, attività, problemi o documenti dispongono di icone univoche pertinenti alle funzionalità di questi tipi di oggetto. </td> 
-   <td>Le icone nella parte superiore dell’elenco variano a seconda di dove accedi all’elenco. Inoltre, nella parte inferiore dell'elenco è presente una barra blu che viene visualizzata quando si selezionano gli elementi nell'elenco.</td> 
+   <td>L’interazione con gli elementi dell’elenco è uniforme per tutti i tipi di oggetto e viene eseguita utilizzando le icone nella parte superiore dell’elenco.  </td> 
+   <td>L’interazione con gli elementi dell’elenco può variare a seconda del tipo di oggetto e viene eseguita utilizzando le icone nella parte superiore dell’elenco e la barra degli strumenti blu attivata dopo aver selezionato gli elementi dell’elenco. </td> 
   </tr>
 
-<tr> 
-   <td> <p>Utilizza le icone nella barra degli strumenti nella parte superiore dell’elenco per interagire con gli elementi dell’elenco</p> </td> 
-   <td> <p>Per interagire con gli elementi dell’elenco, a seconda di cosa desideri aggiornare, effettua una delle seguenti operazioni:</p>
-   <ul><li>Utilizza le icone nella barra degli strumenti nella parte superiore per alcune azioni quali ricerca, aggiunta di nuovi elementi, ordinamento o filtro</li>
-   <li>Seleziona un elemento nell’elenco e utilizza le icone nella barra degli strumenti blu in fondo all’elenco per alcune azioni, ad esempio eliminare o visualizzare gli elementi</li></ul> 
-   </tr>   
-   </td> 
+</td> 
   </tr> 
   <tr> 
    <td><p>È possibile applicare modifiche al colore delle celle agli elementi di un elenco</p></td>
-   <td><p>È possibile applicare modifiche al colore delle celle agli elementi di un elenco solo in Workfront Planning. </p></td>
+   <td><p>Non è possibile applicare modifiche al colore delle celle agli elementi di un elenco. </p></td>
    </td> 
    <td></td> 
   </tr> 

@@ -6,10 +6,10 @@ description: È possibile eliminare le attività che potrebbero essere duplicate
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 2%
+source-wordcount: '810'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ Per le attività con informazioni cronologiche (aggiornamenti, modifiche alla pi
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ Per le attività con informazioni cronologiche (aggiornamenti, modifiche alla pi
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td><p>Standard</p> 
-   <p>Lavoro o superiore</p> </td> 
+   <p>Work o successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -98,37 +98,40 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 L&#39;eliminazione di un&#39;attività ha un impatto su altri oggetti collegati all&#39;attività.
 
-Quando si elimina un&#39;attività, vengono eliminati anche i seguenti oggetti allegati a un&#39;attività:
+Considera quanto segue:
 
-* Documenti
+* Quando si elimina un&#39;attività, vengono eliminati anche i seguenti oggetti allegati a un&#39;attività:
+
+   * Documenti
 
   Non è possibile eliminare un&#39;attività a cui è associato un documento estratto. Per ulteriori informazioni sull&#39;estrazione di documenti, vedere [Estrarre documenti](../../../documents/managing-documents/check-out-documents.md).
 
-* Problemi
-* Sottoattività
-* Note
-* Approvazioni
+   * Problemi
+   * Sottoattività
+   * Note
+   * Approvazioni
 
-A seconda del modo in cui l’amministratore di Workfront configura le preferenze per l’eliminazione di progetti, attività o problemi nelle preferenze per le schede orario e le ore dell’istanza di Workfront, le ore registrate per le attività vengono gestite in uno dei seguenti modi durante l’eliminazione di un’attività:
+* A seconda del modo in cui l’amministratore di Workfront configura le preferenze per l’eliminazione di progetti, attività o problemi nelle preferenze per le schede orario e le ore dell’istanza di Workfront, le ore registrate per le attività vengono gestite in uno dei seguenti modi durante l’eliminazione di un’attività:
 
-* Spostati al progetto e non verrà ripristinato sull’attività, se questa viene successivamente ripristinata.
-* Vengono eliminati e verranno ripristinati sull&#39;attività, se questa viene successivamente ripristinata.
+   * Spostati al progetto e non verrà ripristinato sull’attività, se questa viene successivamente ripristinata.
+   * Vengono eliminati e verranno ripristinati sull&#39;attività, se questa viene successivamente ripristinata.
 
   Ciò si applica anche quando si tenta di eliminare progetti che dispongono di attività con ore collegate.
 
-  <!--
+  Per ulteriori informazioni sulla configurazione delle preferenze di eliminazione per le ore collegate a problemi, vedere [Configurare le preferenze relative alle ore e alla scheda orario](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+   * Le spese per l&#39;attività verranno spostate nel progetto.
+
+   * Gli utenti assegnati all&#39;attività o all&#39;approvazione dell&#39;attività rimangono nel team di progetto.
+
+  Per ulteriori informazioni sui team di progetto, vedere [Panoramica team di progetto](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+
+* Quando si elimina un&#39;attività figlio e si sposta l&#39;attività padre in un altro progetto e quindi si ripristina l&#39;attività figlio eliminata, l&#39;attività viene aggiunta nuovamente al progetto originale come attività principale.
+
+<!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   (NOTE: this stays NWE; not possible in classic;)
   </MadCap:conditionalText>
   -->
-
-  Per ulteriori informazioni sulla configurazione delle preferenze di eliminazione per le ore collegate a problemi, vedere [Configurare le preferenze relative alle ore e alla scheda orario](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-
-* Le spese per l&#39;attività verranno spostate nel progetto.
-
-* Gli utenti assegnati all&#39;attività o all&#39;approvazione dell&#39;attività rimangono nel team di progetto.
-
-  Per ulteriori informazioni sui team di progetto, vedere [Panoramica team di progetto](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Elimina attività
 
