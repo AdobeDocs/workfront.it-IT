@@ -7,27 +7,21 @@ author: Lisa
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+source-git-commit: 3ebff5f28d4142203c6ce5486ce40484d88f0a5d
 workflow-type: tm+mt
-source-wordcount: '4080'
-ht-degree: 0%
+source-wordcount: '4145'
+ht-degree: 1%
 
 ---
 
 # Registra ore
 
+{{highlighted-preview}}
+
 <!--Audited: 5/2025-->
 
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
-
-<!--<div class="preview">
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
-
-</div>-->
 
 È possibile registrare il tempo degli elementi di lavoro in Adobe Workfront per indicare il numero di ore dedicate al loro lavoro. È inoltre possibile registrare il tempo non correlato al lavoro, ad esempio ferie, malattia o riunioni. L&#39;ora registrata viene visualizzata nella scheda orario.
 
@@ -35,7 +29,7 @@ Per ulteriori informazioni sul tipo di ore che è possibile accedere a Workfront
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,7 +42,7 @@ Per ulteriori informazioni sul tipo di ore che è possibile accedere a Workfront
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> 
-   <ul><li><p>Chiaro o superiore per registrare le ore per un'attività, un problema o le ore generali su una scheda orario</p></li>
+   <ul><li><p>Chiaro o superiore per registrare le ore per un'attività, un problema, <span class="preview">progetto</span> o le ore generali in una scheda orario</p></li>
    <li><p>Standard per registrare le ore nei progetti</p></li></ul>
 
 <p>Oppure: </p>
@@ -396,7 +390,7 @@ Puoi registrare l’ora specifica di un progetto su un progetto, un’attività 
 
 Per registrare l’ora nella sezione Aggiornamenti di un progetto, un’attività o un problema, è necessario disporre dei seguenti elementi:
 
-* L&#39;accesso e le autorizzazioni corretti, come descritto nella sezione [Requisiti di accesso](#access-requirements) in questo articolo.
+* L&#39;accesso e le autorizzazioni corretti, come descritto nella sezione [Requisiti di accesso](#access-requirements) in questo articolo. <span class="preview">Se il tuo livello di accesso è Light e stai registrando il tempo in un progetto, devi anche disporre di autorizzazioni Contribute o superiori per il progetto con accesso a Log Hours. Per ulteriori informazioni sulla concessione delle autorizzazioni per i progetti, vedere [Condividere un progetto](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md).</span>
 
 * Se desideri registrare l&#39;ora direttamente su un progetto, il tuo amministratore di Workfront deve abilitare l&#39;impostazione Registra ora direttamente sui progetti in [!UICONTROL **Scheda orario e ore**]> [!UICONTROL **Preferenze**] nell&#39;area Sistema.
 
@@ -416,7 +410,7 @@ Per registrare l’ora nella sezione Aggiornamenti di un progetto, un’attivit�
    >   
    >   Nell&#39;angolo superiore destro della casella Immettere i giorni è indicato il numero di ore incluse in un giorno.
 
-   ![Casella di tempo di registrazione per un&#39;attività nell&#39;area Aggiornamenti](assets/log-time-box-in-updates-stream.png)
+   ![Casella di registrazione ore per un&#39;attività nell&#39;area Aggiornamenti](assets/log-time-box-in-updates-stream.png)
 
 1. Specifica le seguenti informazioni:
 
@@ -442,7 +436,7 @@ Oppure
 
 È necessario disporre di tutti i seguenti elementi:
 
-* Una licenza Pianificazione con accesso amministrativo alle schede orario e alle ore. Per ulteriori informazioni sulla concessione dell&#39;accesso amministrativo alle schede orario e alle ore, vedere [Concedere agli utenti l&#39;accesso amministrativo ad alcune aree](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+* Una licenza Standard o Full con accesso amministrativo alle schede orario e alle ore, <span class="preview">o una licenza Light con accesso di modifica ai progetti</span>. Per ulteriori informazioni sulla concessione dell&#39;accesso amministrativo alle schede orario e alle ore, vedere [Concedere agli utenti l&#39;accesso amministrativo ad alcune aree](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md). <span class="preview">L&#39;accesso amministrativo alle schede orario e alle ore non è disponibile per le licenze Light.</span>
 * Autorizzazioni Contribute o superiori per il progetto con accesso a Log Hours (Registra ore). Per ulteriori informazioni sulla concessione delle autorizzazioni per i progetti, vedere [Condividere un progetto in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 * Se desideri registrare l&#39;ora direttamente su un progetto, il tuo amministratore di Workfront deve abilitare l&#39;impostazione Registra tempo direttamente sui progetti nella sezione **Timesheet &amp; Hours > Preferences** dell&#39;area Setup (Configurazione). Per ulteriori informazioni su come consentire agli utenti di registrare le ore direttamente nei progetti, consulta [Configurare le preferenze di ore e schede orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -569,7 +563,7 @@ Per modificare i tipi di ore in un report o un elenco di ore:
 
    * Ore. Questo è un campo obbligatorio.
    * Tipo di Ora. Questo è un campo obbligatorio.
-   * Ruolo
+   * Mansione
    * Descrizione
 
    >[!TIP]
