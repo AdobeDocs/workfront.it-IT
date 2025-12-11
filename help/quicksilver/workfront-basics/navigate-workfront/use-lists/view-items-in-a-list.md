@@ -5,10 +5,10 @@ description: È possibile visualizzare elenchi di oggetti in [!DNL Adobe Workfro
 feature: Get Started with Workfront
 author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+source-git-commit: ca16652aa06b4652d0d1b41156ed1ef96225c49a
 workflow-type: tm+mt
-source-wordcount: '2275'
-ht-degree: 1%
+source-wordcount: '2405'
+ht-degree: 2%
 
 ---
 
@@ -29,9 +29,16 @@ Di seguito sono riportate alcune caratteristiche degli elenchi in [!DNL Workfron
 
   Per ulteriori informazioni sulla creazione di elenchi a livello di sistema, vedere l&#39;articolo [Creare, modificare e condividere filtri, visualizzazioni e raggruppamenti predefiniti](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
+* Di seguito sono riportati i tipi di elenchi disponibili in Workfront:
+
+   * Elenchi standard
+   * Elenchi avanzati
+
+  Per ulteriori informazioni, vedere la sezione [Differenza tra gli elenchi standard e quelli avanzati](#the-difference-between-the-standard-and-the-enhanced-lists) in questo articolo.
+
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -99,8 +106,8 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti disponibili in [!DNL
 
 >[!NOTE]
 >
->* Questo elenco non è completo. Ciascuno di questi elenchi di oggetti può essere visualizzato anche in un report o in un dashboard. Ad esempio, un report di progetto o un dashboard contenente un report di progetto visualizza anche un elenco di progetti.
->* In questo elenco, &quot;seleziona&quot; significa che devi fare clic sul nome dell’elemento, non sulla casella di controllo a sinistra del nome.
+>Questo elenco non è completo. Ciascuno di questi elenchi di oggetti può essere visualizzato anche in un report o in un dashboard. Ad esempio, un report di progetto o un dashboard contenente un report di progetto visualizza anche un elenco di progetti.
+
 
 
 <table style="table-layout:auto"> 
@@ -124,7 +131,7 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti disponibili in [!DNL
    <td>Elenco dei programmi</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Portfolio] &gt;[!UICONTROL seleziona un portfolio] &gt;[!UICONTROL Programmi]</p> </li> 
+     <li> <p>[!UICONTROL Portfolio] &gt;[!UICONTROL click a portfolio] &gt;[!UICONTROL Programs] (Programmi UICONTROL)</p> </li> 
      <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>[!UICONTROL Programmi]</p> </li> 
     </ul> </td> 
   </tr> 
@@ -133,33 +140,33 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti disponibili in [!DNL
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Progetti]</p> </li> 
-     <li> <p>[!UICONTROL Portfolio] &gt;[!UICONTROL seleziona un portfolio] &gt;[!UICONTROL Projects]</p> </li> 
-     <li> <p>[!UICONTROL Portfolio] &gt;[!UICONTROL seleziona un portfolio] &gt;[!UICONTROL Programmi] &gt;[!UICONTROL seleziona un programma] &gt;[!UICONTROL Progetti]</p> </li> 
+     <li> <p>[!UICONTROL Portfolio] &gt;[!UICONTROL fai clic su un portfolio] &gt;[!UICONTROL Projects]</p> </li> 
+     <li> <p>[!UICONTROL Portfolio] &gt;[!UICONTROL fai clic su un portfolio] &gt;[!UICONTROL Programmi] &gt;[!UICONTROL fai clic su un programma] &gt;[!UICONTROL Progetti]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Elenco delle attività</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Progetti] &gt;[!UICONTROL seleziona un progetto] &gt; [!UICONTROL Attività]</p> </li> 
-     <li> <p>[!UICONTROL Progetti] &gt;[!UICONTROL seleziona un progetto] &gt;[!UICONTROL Attività] &gt;[!UICONTROL seleziona un'attività] &gt;[!UICONTROL Sottoattività]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL select a task] &gt; [!UICONTROL Predecessors*]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt; [!UICONTROL Tasks]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL click a task] &gt;[!UICONTROL Subtasks]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL click a task] &gt; [!UICONTROL Predecessors*]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Elenco delle Issues</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select] a project &gt;[!UICONTROL Issues]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL select a task] &gt; [!UICONTROL Issues]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL select a task] &gt;[!UICONTROL Subtasks] &gt;[!UICONTROL select a task] &gt; [!UICONTROL Issues]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL click] un progetto &gt;[!UICONTROL Issues]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL click a task] &gt; [!UICONTROL Issues]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL click a task] &gt;[!UICONTROL Subtasks] &gt;[!UICONTROL click a task] &gt; [!UICONTROL Issues]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Elenco dei rapporti</td> 
    <td> 
     <ul> 
-     <li> <p>  Rapporti di   </p> </li> 
+     <li> <p>  Rapporti di [!UICONTROL]  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -188,56 +195,56 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti disponibili in [!DNL
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Documenti]</p> </li> 
-     <li> <p>[!UICONTROL Portfolio] &gt;[!UICONTROL seleziona un portfolio] &gt; [!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Portfolio] &gt; [!UICONTROL seleziona un portfolio] &gt;[!UICONTROL Programmi] &gt;[!UICONTROL seleziona un programma] &gt;[!UICONTROL Documenti]</p> </li> 
-     <li> <p>[!UICONTROL Progetti] &gt;[!UICONTROL seleziona un progetto] &gt;[!UICONTROL Documenti]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL select a task] &gt; [!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select] a project &gt; [!UICONTROL Issues] &gt;[!UICONTROL select an issue] &gt; [!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Portfolio] &gt;[!UICONTROL click a portfolio] &gt; [!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Portfolio] &gt; [!UICONTROL fai clic su un portfolio] &gt;[!UICONTROL Programmi] &gt;[!UICONTROL fai clic su un programma] &gt;[!UICONTROL Documenti]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL click a task] &gt; [!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL click] un progetto &gt; [!UICONTROL Issues] &gt;[!UICONTROL click an issue] &gt; [!UICONTROL Documents]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Elenco delle schede orario</td> 
    <td> 
     <ul> 
-     <li> <p> s &gt; [!UICONTROL Tutte le schede orario]*</p> </li> 
+     <li> <p>[!UICONTROL] s &gt; [!UICONTROL Tutte le schede orario]*</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Elenco delle tariffe di fatturazione</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] (Seleziona un progetto) &gt;[!UICONTROL Billing Rates*] (Tariffe di fatturazione UICONTROL)</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Billing Rates*] (Tariffe di fatturazione)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Elenco dei record di fatturazione</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Progetti] &gt; [!UICONTROL seleziona un progetto] &gt; [!UICONTROL Record fatturazione]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL click a project] &gt; [!UICONTROL Billing Records]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Elenco dei rischi</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Progetti] &gt;[!UICONTROL seleziona un progetto] &gt;[!UICONTROL Rischi]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Risks]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Elenco delle spese</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Progetti] &gt;[!UICONTROL seleziona] un progetto &gt;[!UICONTROL Spese]</p> </li> 
-     <li> <p>[!UICONTROL Progetti] &gt; [!UICONTROL seleziona un progetto] &gt;[!UICONTROL Attività] &gt;[!UICONTROL seleziona un'attività] &gt;[!UICONTROL Spese]</p> </li> 
+     <li> <p>[!UICONTROL Progetti] &gt;[!UICONTROL clic] un progetto &gt;[!UICONTROL Spese]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL click a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL click a task] &gt;[!UICONTROL Expenses]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Elenco delle ore</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Progetti] &gt;[!UICONTROL seleziona] un progetto</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL select a task] &gt;[!UICONTROL Hours] (Seleziona un'attività)</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select] un progetto &gt;[!UICONTROL Issues] &gt;[!UICONTROL select] un problema &gt;[!UICONTROL Hours]</p> </li>
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click] a project</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL click a task] &gt;[!UICONTROL Hours]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click] un progetto &gt;[!UICONTROL Issues] &gt;[!UICONTROL click] un problema &gt;[!UICONTROL Hours]</p> </li>
     </ul> </td> 
   </tr>
   <tr> 
@@ -252,7 +259,7 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti disponibili in [!DNL
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Groups]</p> </li>
-     <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Groups] &gt;[!UICONTROL select the parent group] &gt;[!UICONTROL Subgroups] (Seleziona il gruppo padre) </li> 
+     <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Groups] &gt;[!UICONTROL click the parent group] &gt;[!UICONTROL Subgroups] </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -313,7 +320,7 @@ Di seguito sono riportati gli elementi di un elenco:
    <td> <p>I filtri escludono le informazioni non necessarie da un elenco, in base ai criteri specificati. </p> <p>Per ulteriori informazioni, vedere <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Panoramica filtri</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Visualizzazione </strong></td> 
+   <td><strong>Visualizzazione [!UICONTROL]</strong></td> 
    <td> <p>Le visualizzazioni definiscono quali campi (colonne) vengono visualizzati sullo schermo.</p> <p>Per ulteriori informazioni, vedere <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Panoramica delle visualizzazioni in [!DNL Adobe Workfront]</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -359,7 +366,7 @@ Per ulteriori informazioni sulla creazione e la personalizzazione degli elementi
 </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <td><strong>Aggiorna con il riepilogo </strong> </td> 
+   <td><strong>Aggiorna con il riepilogo [!UICONTROL]</strong> </td> 
    <td> <p>Aggiorna attività e problemi a livello di progetto utilizzando il pannello [!UICONTROL Summary].</p> <p><b>SUGGERIMENTO:</b></p> <p>Il Riepilogo non è disponibile per tutti gli oggetti e non è disponibile nei report Attività o Problemi.</p> <p>Per ulteriori informazioni, vedere <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Panoramica di riepilogo</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -458,8 +465,8 @@ Nella tabella seguente sono elencate molte delle icone disponibili nella barra d
   </tr> 
   <tr> 
    <td> <img src="assets/qs-gantt-chart-icon-in-new-toolbar.png"> </td> 
-   <td>Grafico di Gantt </td> 
-   <td> <p>Visualizza l'elenco nella visualizzazione Diagramma di Gantt .</p> <p>Questa opzione è disponibile solo per i progetti e le attività.</p> </td> 
+   <td>Grafico di Gantt [!UICONTROL]</td> 
+   <td> <p>Visualizza l'elenco nella visualizzazione Diagramma di Gantt [!UICONTROL].</p> <p>Questa opzione è disponibile solo per i progetti e le attività.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-filter-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-filter-in-new-toolbar-with-blue-dot---small.png"> </p> </td> 
@@ -483,8 +490,8 @@ Nella tabella seguente sono elencate molte delle icone disponibili nella barra d
   </tr> 
   <tr> 
    <td> <img src="assets/summary-panel-icon.png"> </td> 
-   <td>Riepilogo </td> 
-   <td> <p>Visualizza o nasconde la casella Riepilogo  per l'elemento selezionato.</p> <p>Questa opzione è disponibile solo per le attività e i problemi.</p> <p>Per informazioni sul pannello Riepilogo di , vedere <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Panoramica di riepilogo</a>.</p> </td> 
+   <td>Riepilogo [!UICONTROL]</td> 
+   <td> <p>Visualizza o nasconde la casella Riepilogo [!UICONTROL] per l'elemento selezionato.</p> <p>Questa opzione è disponibile solo per le attività e i problemi.</p> <p>Per informazioni sul pannello Riepilogo di [!UICONTROL], vedere <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Panoramica di riepilogo</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/remove-icon---x-in-circle.png"> </td> 
@@ -600,11 +607,11 @@ La tabella seguente illustra le somiglianze e le differenze tra elenchi e rappor
  </tbody> 
 </table>
 
-Per poterli creare, è necessario avere accesso a filtri, viste e raggruppamenti. Per ulteriori informazioni, vedere [Concedere l&#39;accesso a filtri, visualizzazioni e raggruppamenti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+*Per poterli creare, è necessario avere accesso a filtri, viste e raggruppamenti. Per ulteriori informazioni, vedere [Concedere l&#39;accesso a filtri, visualizzazioni e raggruppamenti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
-Per poterli creare, è necessario avere accesso a filtri, viste e raggruppamenti, nonché a rapporti, dashboard e calendari. Per ulteriori informazioni, vedere [Concedere l&#39;accesso a report, dashboard e calendari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+**Per poterli creare, è necessario avere accesso a filtri, viste e raggruppamenti, nonché a rapporti, dashboard e calendari. Per ulteriori informazioni, vedere [Concedere l&#39;accesso a report, dashboard e calendari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
-Puoi personalizzare gli elenchi per i rapporti inseriti in un dashboard solo se l’autore del rapporto ha configurato gli elementi dell’elenco in modo che siano visibili nel dashboard.
+***È possibile personalizzare gli elenchi per i rapporti inseriti in un dashboard solo se l’autore del rapporto ha configurato gli elementi dell’elenco in modo che siano visibili nel dashboard.
 
 >[!NOTE]
 >
@@ -612,46 +619,88 @@ Puoi personalizzare gli elenchi per i rapporti inseriti in un dashboard solo se 
 
 Per ulteriori informazioni sulla creazione di un report, vedere [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Per informazioni sulla creazione di sezioni personalizzate, vedere [Creare schede o sezioni personalizzate](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
 
-## Differenza tra gli elenchi aggiornati e quelli legacy
+## Differenza tra l’elenco standard e quello avanzato
 
 Esistono due tipi di elenchi in [!DNL Workfront]:
 
-* Elenchi legacy
+* Elenchi standard
 
-  ![Raggruppamenti blu](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
+  ![Elenco progetti standard](assets/standard-list-screen-shot-gray-groupings.png)
 
-* Elenchi aggiornati
+* Elenchi avanzati
 
-  ![Raggruppamenti grigi](assets/updated-list-screen-shot-gray-groupings-350x71.png)
+  ![Elenchi avanzati](assets/enhanced-status-list.png)
 
-Nella tabella seguente sono illustrate alcune delle differenze tra gli elenchi legacy e aggiornato in [!DNL Workfront]:
+Le funzionalità di ciascun elenco avanzato variano a seconda della pagina da cui si accede.
 
-<!--
-<span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> [Legacy does not equal Classic. Legacy lists appear in NWE and Classic. Updated lists appear in NWE and Classic.]</span>
--->
+Per informazioni sugli elenchi avanzati, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+
+
+Nella tabella seguente vengono illustrate alcune delle differenze tra gli elenchi standard e quelli avanzati di [!DNL Workfront]:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td><b>Elenchi legacy</b></td> 
-   <td><b>Elenchi aggiornati</b></td> 
+   <td><b>Elenchi standard</b></td> 
+   <td><b>Elenchi avanzati</b></td> 
   </tr> 
-  <td> <p>Visualizza <strong>100</strong> elementi per impostazione predefinita</p> </td> 
-   <td> <p>Visualizza <strong>Tutti</strong> o fino a <strong>2000</strong> elementi per impostazione predefinita</p> </td> 
+  <tr>
+  <td> <p>Visualizza <strong>Tutti</strong> o fino a <strong>2000</strong> elementi per impostazione predefinita</p> </td> 
+   <td> Visualizza fino a 100 elementi per impostazione predefinita e fino a 2.000 dopo lo scorrimento </td> 
+  </tr>
+
+<tr> 
+   <td>Le icone nella parte superiore dell’elenco sono in qualche modo coerenti in tutti gli elenchi, indipendentemente da dove vi accedete. Alcuni elenchi, attività, problemi o documenti dispongono di icone univoche pertinenti alle funzionalità di questi tipi di oggetto. </td> 
+   <td>Le icone nella parte superiore dell’elenco variano a seconda di dove accedi all’elenco. Inoltre, nella parte inferiore dell'elenco è presente una barra blu che viene visualizzata quando si selezionano gli elementi nell'elenco.</td> 
+  </tr>
+
+<tr> 
+   <td> <p>Utilizza le icone nella barra degli strumenti nella parte superiore dell’elenco per interagire con gli elementi dell’elenco</p> </td> 
+   <td> <p>Per interagire con gli elementi dell’elenco, a seconda di cosa desideri aggiornare, effettua una delle seguenti operazioni:</p>
+   <ul><li>Utilizza le icone nella barra degli strumenti nella parte superiore per alcune azioni quali ricerca, aggiunta di nuovi elementi, ordinamento o filtro</li>
+   <li>Seleziona un elemento nell’elenco e utilizza le icone nella barra degli strumenti blu in fondo all’elenco per alcune azioni, ad esempio eliminare o visualizzare gli elementi</li></ul> 
+   </tr>   
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>Utilizzare CTRL+F per trovare elementi in un elenco</p> </td> 
-   <td> <p>Utilizzare i filtri rapidi per trovare rapidamente le informazioni in un elenco di grandi dimensioni</p> <p>Per informazioni sull'utilizzo dei filtri rapidi negli elenchi, vedere <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Applicare il filtro rapido a un elenco</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Non è possibile modificare i campi personalizzati in linea con la formattazione RTF.</td> 
-   <td> <p>Il testo nei campi personalizzati con formattazione può essere configurato per consentire grassetto, corsivo, sottolineatura, punti elenco, numerazione, collegamenti ipertestuali e virgolette.</p> <p>Per ulteriori informazioni, vedere <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Creare un modulo personalizzato</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>La formattazione condizionale può modificare il colore del testo dei collegamenti in un elenco</td> 
-   <td>Impossibile applicare le modifiche al colore del testo ai collegamenti di un elenco</td> 
+   <td><p>È possibile applicare modifiche al colore delle celle agli elementi di un elenco</p></td>
+   <td><p>È possibile applicare modifiche al colore delle celle agli elementi di un elenco solo in Workfront Planning. </p></td>
+   </td> 
+   <td></td> 
   </tr> 
  </tbody> 
 </table>
+
+<!--
+consider adding things like adding fields on the fly in an enhanced list when we will be able to do this-->
+
+<!--old table: 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td><b>Legacy lists</b></td> 
+   <td><b>Updated lists</b></td> 
+  </tr> 
+  <td> <p>Display <strong>100</strong> items by default</p> </td> 
+   <td> <p>Display <strong>All</strong> or up to <strong>2000</strong> items by default</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Use CTRL+F to find items in a list</p> </td> 
+   <td> <p>Use quick filters to quickly find information in a large list</p> <p>For information about using quick filters in lists, see <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Apply the quick filter to a list</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>You can't inline edit custom fields with rich text formatting.</td> 
+   <td> <p>Text in custom fields with formatting can be configured to allow bold, italics, underline, bullets, numbering, hyperlinks, and block quotes.</p> <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Create a custom form</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Conditional formatting can change the text color of links in a list</td> 
+   <td>Cannot apply text color changes to links in a list</td> 
+  </tr> 
+ </tbody> 
+</table>
+-->

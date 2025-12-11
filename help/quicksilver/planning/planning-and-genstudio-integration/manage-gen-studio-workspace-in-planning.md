@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: e6fc6def1553df3faa8e1200f7ec2ca2bb97eb04
+source-git-commit: ca16652aa06b4652d0d1b41156ed1ef96225c49a
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1384'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ Per informazioni generali sull&#39;integrazione tra GenStudio e Workfront Planni
    <td role="rowheader"><p>Ruoli utente di Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Qualsiasi ruolo utente di GenStudio per accedere a Campagne, Prodotti e Utenti tipo</li>
    <li>GenSudio System Manager per accedere alle attivazioni <!--and Events--></li></ul>
-   Per informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Ruoli utente e autorizzazioni</a>. 
+   Per informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Ruoli utente e autorizzazioni</a>. 
    </p>
   </td> 
   </tr>   
@@ -141,7 +141,7 @@ Per ulteriori informazioni su Adobe GenStudio for Performance Marketing, consult
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -208,7 +208,7 @@ CAN YOU DO THIS??
 
 >[!NOTE]
 >
->Prima di gestire l&#39;area di lavoro di GenStudio, vedere l&#39;articolo [Introduzione all&#39;integrazione di Workfront Planning e GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) per ulteriori informazioni.
+>Prima di gestire l&#39;area di lavoro di GenStudio, vedere l&#39;articolo [Introduzione all&#39;integrazione di Adobe Workfront Planning e Adobe GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) per ulteriori informazioni.
 >
 
 1. Accedi a Workfront come utente che ha anche accesso a GenStudio.
@@ -263,7 +263,7 @@ CAN YOU DO THIS??
 
 >[!NOTE]
 >
->Prima di gestire l&#39;area di lavoro di GenStudio, vedere l&#39;articolo [Introduzione all&#39;integrazione di Workfront Planning e GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) per ulteriori informazioni.
+>Prima di gestire l&#39;area di lavoro di GenStudio, vedere l&#39;articolo [Introduzione all&#39;integrazione di Adobe Workfront Planning e Adobe GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) per ulteriori informazioni.
 >
 
 1. Passare all&#39;area di lavoro di GenStudio in Workfront Planning e aprire una pagina del tipo di record, come descritto nella sezione [Gestione dell&#39;area di lavoro di GenStudio da Workfront Planning](#manage-the-genstudio-workspace-from-workfront-planning) in questo articolo.
@@ -367,29 +367,24 @@ Per informazioni, vedere [Esportare i record dalla vista tabella](/help/quicksil
       * Dettagli record di Workfront Planning
       * Dettagli record GenStudio
 
-     >[!TIP]
+     >[!NOTE]
      >
-     >I campi creati in Workfront Planning non sono visibili nella vista a elenco in GenStudio.
-
-     <!--when this releases, replace the tip above with this: 
-      
-      >[!NOTE]
-      >
-      >* Fields created in Workfront Planning are not visible in the list view in GenStudio.
-      >
-      >* You can connect any GenStudio record type to the Brands GenStudio record type. 
-      >  Products and Personas are connected to Brands by default. -->
+     >* I campi creati in Workfront Planning non sono visibili nella vista a elenco in GenStudio.
+     >
+     >* È possibile connettere qualsiasi tipo di record GenStudio al tipo di record Brands GenStudio.
+     >  Prodotti e utenti tipo sono collegati ai Marchi per impostazione predefinita.
 
 1. Passa il puntatore del mouse su un campo nella vista a tabella, quindi fai clic sul menu a discesa per effettuare una delle seguenti operazioni:
 
    * Ordina per
    * Nascondi
    * Modifica le impostazioni
-     <!--* Delete it - not possible now, per Iskuhi; the link is there but it will generate an error-->
 
-     <!--GenStudio-native fields are note removed from GenStudio. -->
+   <!--* Delete it - not possible now, per Iskuhi; the link is there but it will generate an error-->
 
-     >[!NOTE]
-     >
-     >Puoi modificare la configurazione di un campo e aggiungere altri campi solo se disponi delle autorizzazioni di gestione in GenStudio.
+   <!--GenStudio-native fields are note removed from GenStudio. -->
+
+   >[!NOTE]
+   >
+   >Puoi modificare la configurazione di un campo e aggiungere altri campi solo se disponi delle autorizzazioni di gestione in GenStudio.
 
