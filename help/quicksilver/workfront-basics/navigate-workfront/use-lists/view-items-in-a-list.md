@@ -166,7 +166,7 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti disponibili in [!DNL
    <td>Elenco dei rapporti</td> 
    <td> 
     <ul> 
-     <li> <p>  Rapporti di [!UICONTROL]  </p> </li> 
+     <li> <p>  Rapporti di   </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -206,7 +206,7 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti disponibili in [!DNL
    <td>Elenco delle schede orario</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL] s &gt; [!UICONTROL Tutte le schede orario]*</p> </li> 
+     <li> <p> s &gt; [!UICONTROL Tutte le schede orario]*</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -320,7 +320,7 @@ Di seguito sono riportati gli elementi di un elenco:
    <td> <p>I filtri escludono le informazioni non necessarie da un elenco, in base ai criteri specificati. </p> <p>Per ulteriori informazioni, vedere <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Panoramica filtri</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Visualizzazione [!UICONTROL]</strong></td> 
+   <td><strong>Visualizzazione </strong></td> 
    <td> <p>Le visualizzazioni definiscono quali campi (colonne) vengono visualizzati sullo schermo.</p> <p>Per ulteriori informazioni, vedere <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Panoramica delle visualizzazioni in [!DNL Adobe Workfront]</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -366,7 +366,7 @@ Per ulteriori informazioni sulla creazione e la personalizzazione degli elementi
 </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <td><strong>Aggiorna con il riepilogo [!UICONTROL]</strong> </td> 
+   <td><strong>Aggiorna con il riepilogo </strong> </td> 
    <td> <p>Aggiorna attività e problemi a livello di progetto utilizzando il pannello [!UICONTROL Summary].</p> <p><b>SUGGERIMENTO:</b></p> <p>Il Riepilogo non è disponibile per tutti gli oggetti e non è disponibile nei report Attività o Problemi.</p> <p>Per ulteriori informazioni, vedere <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Panoramica di riepilogo</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -465,8 +465,8 @@ Nella tabella seguente sono elencate molte delle icone disponibili nella barra d
   </tr> 
   <tr> 
    <td> <img src="assets/qs-gantt-chart-icon-in-new-toolbar.png"> </td> 
-   <td>Grafico di Gantt [!UICONTROL]</td> 
-   <td> <p>Visualizza l'elenco nella visualizzazione Diagramma di Gantt [!UICONTROL].</p> <p>Questa opzione è disponibile solo per i progetti e le attività.</p> </td> 
+   <td>Grafico di Gantt </td> 
+   <td> <p>Visualizza l'elenco nella visualizzazione Diagramma di Gantt .</p> <p>Questa opzione è disponibile solo per i progetti e le attività.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-filter-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-filter-in-new-toolbar-with-blue-dot---small.png"> </p> </td> 
@@ -490,8 +490,8 @@ Nella tabella seguente sono elencate molte delle icone disponibili nella barra d
   </tr> 
   <tr> 
    <td> <img src="assets/summary-panel-icon.png"> </td> 
-   <td>Riepilogo [!UICONTROL]</td> 
-   <td> <p>Visualizza o nasconde la casella Riepilogo [!UICONTROL] per l'elemento selezionato.</p> <p>Questa opzione è disponibile solo per le attività e i problemi.</p> <p>Per informazioni sul pannello Riepilogo di [!UICONTROL], vedere <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Panoramica di riepilogo</a>.</p> </td> 
+   <td>Riepilogo </td> 
+   <td> <p>Visualizza o nasconde la casella Riepilogo  per l'elemento selezionato.</p> <p>Questa opzione è disponibile solo per le attività e i problemi.</p> <p>Per informazioni sul pannello Riepilogo di , vedere <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Panoramica di riepilogo</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/remove-icon---x-in-circle.png"> </td> 
