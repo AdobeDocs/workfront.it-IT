@@ -4,9 +4,9 @@ description: Miglioramenti richieste primo trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 34e6f4386c768b94c3835d4a4d7e7deadc3fecda
+source-git-commit: 59aa98645583fb79a5d61a248dca535a3460956f
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,20 @@ ht-degree: 0%
 Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima alle richieste con la versione del primo trimestre 2026. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del primo trimestre 2026, consulta [Panoramica sulla versione del primo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Il riempimento del modulo basato su IA è ora disponibile per le richieste
+
+>[!NOTE]
+>
+>Anteprima: 11 dicembre 2025
+>Versione rapida di produzione: 11 dicembre 2025\
+>Produzione per tutti: 11 dicembre 2025
+
+Per semplificare la creazione delle richieste, abbiamo creato il riempimento del modulo basato sull’intelligenza artificiale. Ora è possibile incollare in un prompt o caricare un documento in un modulo di richiesta e AI estrae le informazioni pertinenti e compila il modulo.
+
+Per accedere a questa funzionalità, nella tua organizzazione deve essere abilitata l’intelligenza artificiale.
+
+Per ulteriori informazioni sul riempimento del modulo basato su IA, tra cui ciò che è necessario per abilitare l&#39;intelligenza artificiale per la tua organizzazione, consulta [Utilizzare il riempimento del modulo basato su IA per compilare una richiesta utilizzando prompt o documenti](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
 <!--## Share views in the Requests area and the My Requests widget
 
@@ -37,8 +51,8 @@ For information on request views, including sharing, see [Create and manage view
 >[!NOTE]
 >
 >Anteprima: 20 novembre 2025
->Versione rapida di produzione: 11 dicembre 2025\
->Produzione per tutti: 16 gennaio 2026
+>Versione rapida di produzione: 14 gennaio 2026\
+>Produzione per tutti: 15 gennaio 2026
 
 Per semplificare la creazione e l’invio delle richieste, è stata aggiunta la possibilità di salvare le bozze nella nuova esperienza di richiesta. Ora, quando si inizia a compilare una richiesta e la si chiude, la richiesta viene salvata in stato Bozza e si trova nel modulo di richiesta utilizzato per creare la bozza. Puoi quindi riaprire, aggiornare e inviare la bozza nel modo che preferisci.
 
@@ -53,8 +67,8 @@ Per ulteriori informazioni sulle bozze di richieste, vedere [Creare richieste da
 >[!NOTE]
 >
 >Anteprima: 20 novembre 2025
->Versione rapida di produzione: 11 dicembre 2025\
->Produzione per tutti: 16 gennaio 2026
+>Versione rapida di produzione: 14 gennaio 2026\
+>Produzione per tutti: 15 gennaio 2026
 
 Per semplificare l’organizzazione e la gestione ordinata delle richieste, alla nuova esperienza di richiesta è stata aggiunta la possibilità di eliminare le richieste. Ora puoi eliminare le richieste inviate. Gli amministratori di Workfront e gli amministratori di Workfront Planning Workspace possono eliminare le richieste.
 
@@ -69,10 +83,17 @@ Per informazioni e istruzioni, vedere [Eliminare una richiesta inviata o una boz
 >
 >Anteprima: 20 novembre 2025
 >Versione rapida di produzione: 11 dicembre 2025\
->Produzione per tutti: 16 gennaio 2026
+>Produzione per tutti: 15 gennaio 2026
 
 Per semplificare l’invio delle richieste, è stata aggiunta la possibilità di copiare le richieste nella nuova esperienza di richiesta. Ora è possibile copiare una richiesta, modificarne tutti i campi e inviarla come nuova richiesta.
 
 In precedenza, questa funzionalità non era disponibile nella nuova esperienza di richiesta.
 
 Per informazioni su come copiare e inviare una richiesta, vedere [Copiare e inviare richieste](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+
+
+
+
+
+
+
