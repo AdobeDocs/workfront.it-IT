@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 0%
+source-wordcount: '359'
+ht-degree: 1%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 0%
 * Qualcuno assegna un tag a te o ai tuoi team in un commento record
 
   Per informazioni sull&#39;assegnazione di tag ad altri utenti in un commento record, vedere [Gestire i commenti record](/help/quicksilver/planning/records/manage-record-comments.md).
-* Qualcuno richiede l’autorizzazione per accedere a una vista o a un’area di lavoro
-* Qualcuno conferma che l&#39;accesso è stato concesso per una visualizzazione o un&#39;area di lavoro <!--Isk confirmed there is no notification for denying permissions - did not test-->
+* Qualcuno richiede l&#39;autorizzazione per accedere a una visualizzazione o a un&#39;area di lavoro <!--<span class="preview">or record</span>-->
+* Qualcuno conferma che l&#39;accesso è stato concesso per una visualizzazione o un&#39;area di lavoro <!--<span class="preview">or record</span>--> <!--Isk confirmed there is no notification for denying permissions - did not test-->
 
 ## Requisiti di accesso
 
@@ -155,8 +155,8 @@ OLD:
 
 ## Gestire le notifiche in-app quando si richiedono e si concedono le autorizzazioni
 
-Ricevi notifiche in-app quando qualcuno ti richiede o ti concede autorizzazioni per una visualizzazione o un’area di lavoro.
+Ricevi notifiche in-app quando qualcuno ti richiede o ti concede autorizzazioni per una visualizzazione o un’area di lavoro. <!--<span class="preview">or record</span>-->
 
-Per informazioni sulla richiesta, la concessione o il rifiuto delle autorizzazioni per una visualizzazione o un&#39;area di lavoro, vedere [Richiedere le autorizzazioni per una visualizzazione o un&#39;area di lavoro](/help/quicksilver/planning/access/request-permissions.md).
+Per informazioni sulla richiesta, la concessione o il rifiuto delle autorizzazioni, vedere [Richiedere le autorizzazioni per una visualizzazione o un&#39;area di lavoro](/help/quicksilver/planning/access/request-permissions.md).
 
 Per informazioni sulla gestione delle notifiche di Workfront Planning, vedere [Gestione preferenze di notifica di Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-notification-preferences.md).

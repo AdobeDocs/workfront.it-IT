@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: f2fe6ef78b3032f7a89d4c816cb11b525634c067
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 1%
+source-wordcount: '789'
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ This article describes how you can share a view with others. For information abo
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
@@ -163,7 +163,7 @@ Per condividere un’area di lavoro con altri utenti:
 1. Seleziona uno dei seguenti livelli di autorizzazione dal menu a discesa:
    * Visualizzazione
    * Contribuisci
-   * Gestisci
+   * Gestione
 
      Per informazioni sui livelli di autorizzazione e sulle azioni che gli utenti possono eseguire per ogni livello, vedere [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 1. Fai clic su **Copia collegamento** per copiare un collegamento nell&#39;area di lavoro negli Appunti.
@@ -210,3 +210,5 @@ Dalla notifica e-mail, fai clic su **Visualizza tutte le notifiche**, quindi fai
 1. Fai clic su **Salva**.
 
    Gli utenti rimossi non hanno più accesso al workspace o ai relativi oggetti.
+
+   Agli utenti rimossi dall’accesso all’area di lavoro non viene notificato di non disporre più di queste autorizzazioni.

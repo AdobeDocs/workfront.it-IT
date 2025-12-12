@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 0%
+source-wordcount: '1514'
+ht-degree: 1%
 
 ---
 
@@ -31,14 +31,14 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Gli utenti con accesso a un&#39;area di lavoro ottengono automaticamente almeno le autorizzazioni di visualizzazione per tutti i tipi di record nell&#39;area di lavoro.
->&#x200B;>La condivisione delle visualizzazioni non concede agli utenti le autorizzazioni per i tipi di record. Solo le aree di lavoro condivise possono concedere agli utenti le autorizzazioni per i tipi di record.
+>La condivisione delle visualizzazioni non concede agli utenti le autorizzazioni per i tipi di record. Solo le aree di lavoro condivise possono concedere agli utenti le autorizzazioni per i tipi di record.
 >
 >* Per informazioni generali sulla condivisione di oggetti in Workfront Planning, vedere anche [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 >* Per ulteriori informazioni, vedere la sezione [Considerazioni durante la condivisione dei tipi di record](#considerations-when-sharing-record-types) in questo articolo.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
@@ -275,7 +275,7 @@ Gli utenti con cui hai condiviso il tipo di record ricevono una notifica in-app 
 
    Gli utenti non dispongono più delle autorizzazioni indicate per il tipo di record. Tuttavia, dispongono ancora delle autorizzazioni per l’area di lavoro, a meno che non vengano rimosse anche dalle autorizzazioni dell’area di lavoro.
 
-   Agli utenti che sono stati rimossi dall’accesso alla vista non viene notificato che non dispongono più di questo accesso.
+   Gli utenti che sono stati rimossi dall&#39;accesso al tipo di record non ricevono più alcuna notifica del fatto che non dispongono più di queste autorizzazioni.
 
 <!-- This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
 
