@@ -83,7 +83,7 @@ Quando viene eseguito il remixaggio di un modello Express, prima di pubblicarlo 
 
 Per richiedere l’approvazione da Adobe Express, gli utenti devono disporre di una licenza Workfront standard.
 
-Scopri come [ottenere l&#39;approvazione per le progettazioni](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
+Scopri come [ottenere l&#39;approvazione per le progettazioni](https://helpx.adobe.com/it/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Remixare i modelli Express e inviarli per revisione e approvazione
@@ -103,7 +103,7 @@ Quando si richiede l’approvazione per un modello Express remixato, gli utenti 
 
 Se non è selezionato alcun progetto, la bozza verrà inserita per impostazione predefinita in un progetto specifico di Express.
 
-Per ulteriori informazioni, vedere [Inviare modelli per la revisione e l&#39;approvazione](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html).
+Per ulteriori informazioni, vedere [Inviare modelli per la revisione e l&#39;approvazione](https://helpx.adobe.com/it/express/web/invite-collaborate/request-approval.html).
 
 ## Revisione e approvazione del file Express remixato
 
