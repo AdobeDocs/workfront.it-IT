@@ -5,9 +5,9 @@ description: Scopri l’Assistente IA in Adobe Workfront
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 44db621643c76ab1f2c1b51d5e81cb0d1f827a58
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '851'
 ht-degree: 1%
 
 ---
@@ -139,6 +139,10 @@ Per richiedere l’accordo Adobe Gen AI:
 1. Inserisci il nome e l’indirizzo e-mail della persona dell’organizzazione che firmerà l’accordo Adobe Gen AI.
 
    Il contratto verrà inviato a questa persona per la firma. Dopo la firma e la restituzione, l’accordo viene rivisto da Adobe e quindi l’Assistente IA viene abilitato per la tua organizzazione.
+
+   >[!NOTE]
+   >
+   >Attendi 1-3 giorni lavorativi dopo la firma e la restituzione del contratto affinché Adobe possa rivedere e abilitare l’Assistente AI.
 
 ## Suggerimenti per la creazione di prompt nell’Assistente IA
 
