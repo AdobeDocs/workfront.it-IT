@@ -8,10 +8,10 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: 752c39b90e9206a335435350f8844c746a7127e0
+source-git-commit: 53aca72d33236e8680a8fd1c538f86ce14ac05a8
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 0%
+source-wordcount: '494'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ Utilizzare Workfront Proof con Adobe Express per
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -83,7 +83,7 @@ Quando viene eseguito il remixaggio di un modello Express, prima di pubblicarlo 
 
 Per richiedere l’approvazione da Adobe Express, gli utenti devono disporre di una licenza Workfront standard.
 
-Scopri come [ottenere l&#39;approvazione per le progettazioni](https://helpx.adobe.com/it/express/web/share-and-publish/share-and-collaborate/request-approval.html).
+Scopri come [ottenere l&#39;approvazione per le progettazioni](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Remixare i modelli Express e inviarli per revisione e approvazione
@@ -97,8 +97,13 @@ Durante il processo di produzione, revisione e approvazione dei contenuti, gli u
 * Leggi commenti
 * e altro ancora
 
-<!--Learn how to get approval on designs.   
-need link to help article-->
+### Scegli un progetto Workfront quando richiedi l’approvazione
+
+Quando si richiede l’approvazione per un modello Express remixato, gli utenti possono scegliere un progetto Workfront a cui inviare la bozza. In questo modo è possibile mantenere tutte le risorse e le bozze correlate organizzate all’interno dello stesso progetto.
+
+Se non è selezionato alcun progetto, la bozza verrà inserita per impostazione predefinita in un progetto specifico di Express.
+
+Per ulteriori informazioni, vedere [Inviare modelli per la revisione e l&#39;approvazione](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html).
 
 ## Revisione e approvazione del file Express remixato
 

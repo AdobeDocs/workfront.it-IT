@@ -4,9 +4,9 @@ description: Miglioramenti alla documentazione e all’approvazione per il primo
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5f05c1a13c6c0d0ed1d69b850a0cb07ce53fc271
+source-git-commit: 0197be82879cbd2abfd053e4a93002884db252b4
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,20 @@ ht-degree: 0%
 Questa pagina descrive i miglioramenti relativi alla documentazione e all’approvazione apportati con la versione del primo trimestre 2026 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del primo trimestre 2026, consulta [Panoramica sulla versione del primo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Scegli un progetto Workfront quando invii una recensione in Creative Cloud Express
+
+>[!NOTE]
+>
+>Anteprima: 15 dicembre 2025
+>Versione rapida di produzione: 15 dicembre 2025\
+>Produzione per tutti: 15 dicembre 2025
+
+Puoi scegliere un progetto Workfront a cui inviare una bozza. In questo modo è possibile mantenere tutte le risorse e le bozze correlate organizzate all’interno dello stesso progetto.
+
+In precedenza, la bozza veniva aggiunta automaticamente a un progetto specifico di Express.
+
+Per ulteriori informazioni, vedere [Integrazione di Adobe Express e Workfront Proof](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
 
 ## Supporto tra organizzazioni per Adobe Express con Workfront Proofing
 
