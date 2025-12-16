@@ -4,9 +4,9 @@ description: In qualità di responsabile dell'area di lavoro, puoi creare più g
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '662'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,10 @@ hidefromtoc: yes
 
 In qualità di responsabile dell&#39;area di lavoro, puoi creare più gerarchie di aree di lavoro tra i tipi di record in Adobe Workfront Planning.
 
-Dopo aver connesso i tipi di record in un&#39;area di lavoro e aver creato una gerarchia, i tipi di record vengono connessi tra loro, con un tipo di record designato come padre e fino a 6 altri tipi di record configurati come figli. <!--asking Robert how many we can have in one hierarchy; I think 7 total but not sure-->
+
+Dopo aver connesso i tipi di record all&#39;interno di un&#39;area di lavoro, è possibile creare una gerarchia che organizzi tali connessioni. Le gerarchie organizzano i tipi di record in relazioni padre-figlio e possono contenere fino a quattro livelli di tipi di oggetto.
+
+Se non esiste già una connessione tra due tipi di record, è possibile crearla durante l&#39;impostazione della gerarchia. Una volta definita, la gerarchia stabilisce un percorso strutturato tra tipi di record correlati all’interno dell’area di lavoro.
 
 Le gerarchie genereranno breadcrumb per i tipi di record e i record <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> visualizzati nelle relative intestazioni. In questo modo, gli utenti sanno dove si trovano nella gerarchia in qualsiasi fase del flusso di lavoro.
 
@@ -87,8 +90,8 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 1. Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome dell&#39;area di lavoro, quindi fai clic su **Impostazioni**.
 Per impostazione predefinita, viene aperta la sezione **Gerarchie**.
 1. Fai clic su **Nuova gerarchia** nell&#39;angolo superiore destro della pagina **Gerarchie**.
-1. Fare clic su **Aggiungi oggetto** e selezionare un oggetto dal menu a discesa. Questo sarà l&#39;oggetto principale nella gerarchia.
-È possibile selezionare un tipo di record dall&#39;area di lavoro corrente o un progetto da Workfront.
+1. Fare clic su **Aggiungi oggetto** e selezionare un oggetto dal menu a discesa. Questo sarà il primo oggetto principale nella gerarchia.
+Il primo padre può essere solo un tipo di record di Planning. I progetti Workfront non possono essere selezionati come padri di altri tipi di oggetto in una gerarchia.
 1. Fai clic su **Aggiungi oggetto** per aggiungere un secondo oggetto, che è il primo figlio nella gerarchia, quindi seleziona un altro oggetto nel menu a discesa.
    ![Nuova casella della gerarchia senza campo selezionato](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
 1. Fare clic su **Seleziona campo connesso** per indicare quale campo connette i due oggetti.

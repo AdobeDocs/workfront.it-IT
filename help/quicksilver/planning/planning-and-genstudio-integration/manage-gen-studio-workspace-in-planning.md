@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: ca16652aa06b4652d0d1b41156ed1ef96225c49a
+source-git-commit: 78cf61d219cd1214a0846a45e2725fce7a8ebb2c
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1465'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ Per informazioni generali sull&#39;integrazione tra GenStudio e Workfront Planni
    <td role="rowheader"><p>Ruoli utente di Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Qualsiasi ruolo utente di GenStudio per accedere a Campagne, Prodotti e Utenti tipo</li>
    <li>GenSudio System Manager per accedere alle attivazioni <!--and Events--></li></ul>
-   Per informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Ruoli utente e autorizzazioni</a>. 
+   Per informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Ruoli utente e autorizzazioni</a>. 
    </p>
   </td> 
   </tr>   
@@ -141,7 +141,7 @@ Per ulteriori informazioni su Adobe GenStudio for Performance Marketing, consult
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -249,10 +249,13 @@ CAN YOU DO THIS??
 
    Per informazioni, vedere [Condividi aree di lavoro](/help/quicksilver/planning/access/share-workspaces.md)
 
-   <!--
    >[!NOTE]
    >
-   >You cannot remove GenStudio users from the GenStudio workspace, after you share that workspace with them.-->
+   >Esistono le seguenti limitazioni di condivisione:
+   >
+   >* Non è possibile rimuovere gli utenti di GenStudio dall’area di lavoro di GenStudio dopo averla condivisa con loro.
+   >* Se un utente dispone delle autorizzazioni in GenStudio, non è possibile modificarne l&#39;accesso in Visualizzazione in Workfront Planning. Devono disporre almeno delle autorizzazioni Contribute nell&#39;area di lavoro GenStudio in Planning.
+   >* Non è possibile disabilitare le autorizzazioni ereditate per i tipi di record di GenStudio nell&#39;area di lavoro di GenStudio.
 
 1. Fare clic su una delle schede dei tipi di record per visualizzare i record di quel tipo.
 
@@ -353,11 +356,11 @@ Per informazioni, vedere [Esportare i record dalla vista tabella](/help/quicksil
 
 1. Fai clic sull’icona + nell’angolo superiore destro della vista tabella per creare quanto segue:
 
-   * Campi record
+   * Campi
 
      Per informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/create-fields.md)
 
-   * Registra connessioni
+   * Connessioni
 
      Per informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md)
 
@@ -369,6 +372,7 @@ Per informazioni, vedere [Esportare i record dalla vista tabella](/help/quicksil
 
      >[!NOTE]
      >
+     >* Puoi aggiungere altri campi solo se disponi delle autorizzazioni di gestione in GenStudio.
      >* I campi creati in Workfront Planning non sono visibili nella vista a elenco in GenStudio.
      >
      >* È possibile connettere qualsiasi tipo di record GenStudio al tipo di record Brands GenStudio.
@@ -386,5 +390,6 @@ Per informazioni, vedere [Esportare i record dalla vista tabella](/help/quicksil
 
    >[!NOTE]
    >
-   >Puoi modificare la configurazione di un campo e aggiungere altri campi solo se disponi delle autorizzazioni di gestione in GenStudio.
+   >* Puoi modificare la configurazione di un campo GenStudio solo se disponi delle autorizzazioni di gestione in GenStudio.
+   >* Non è possibile eliminare un campo GenStudio.
 

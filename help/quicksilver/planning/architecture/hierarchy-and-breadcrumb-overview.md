@@ -3,9 +3,9 @@ title: Panoramica della gerarchia e delle breadcrumb
 description: È possibile creare più gerarchie di aree di lavoro tra i tipi di record di un'area di lavoro.
 hide: true
 hidefromtoc: true
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
@@ -45,19 +45,17 @@ Di seguito sono riportati i vantaggi dell’utilizzo delle gerarchie nelle aree 
 * In una gerarchia è possibile connettere fino a 4 tipi di record e di oggetti.
 * In una gerarchia di workspace è possibile connettere solo i seguenti tipi di oggetto:
    * Tipi di record che appartengono all&#39;area di lavoro in cui si stanno creando le gerarchie.
-   * Progetti Workfront.
+   * Progetti Workfront. I progetti Workfront non possono essere aggiunti come elementi padre di altri tipi di record. Sono sempre l&#39;ultimo figlio di una gerarchia.
 * Non è possibile aggiungere i seguenti tipi di oggetto in una gerarchia:
-   * Tipi di record di altre aree di lavoro, anche se impostati come tipi di record collegabili o globali.
+   * Tipi di record di altre aree di lavoro, anche se impostati come tipi di record collegabili o globali. È possibile aggiungere tipi di record globali alle gerarchie solo quando sono stati aggiunti all&#39;area di lavoro da cui si sta creando la gerarchia.
    * Tutti gli altri oggetti di Workfront.
    * AEM Assets
-* Le gerarchie possono includere contemporaneamente sia i tipi di record di Planning che i tipi di oggetto di Workfront.
+* Le gerarchie possono includere contemporaneamente sia i tipi di record di Planning che i progetti Workfront.
 
       È ad esempio possibile avere un tipo di record Campaign con Planning Tactics e Workfront Projects come figli nella stessa gerarchia dell&#39;area di lavoro.
   * Se esiste già una connessione tra i tipi di record selezionati, il sistema riutilizza la connessione esistente.
 * Se non esiste alcuna connessione, Workfront ne creerà una come parte dell’impostazione della gerarchia.
-* L&#39;impostazione **Crea campo corrispondente nel tipo di record collegato** deve essere attivata per il campo connesso.
-
-  Anche i tipi di record con connessioni che non creano un campo corrispondente nei tipi di record collegati possono far parte di gerarchie, ma quando si crea una nuova connessione durante l&#39;impostazione della gerarchia, sarà sempre necessario creare un campo corrispondente nel tipo di record collegato.
+* L&#39;impostazione **Crea campo corrispondente nel tipo di record collegato** deve essere attivata per il campo connesso per i record e gli oggetti che si desidera includere in una gerarchia.
 * Di seguito sono riportate le regole per l&#39;impostazione della gerarchia:
    * Un tipo di record può avere un solo tipo di record padre in una determinata area di lavoro.
 
@@ -79,7 +77,7 @@ Ad esempio, la tattica A può appartenere sia alla campagna X che alla campagna 
 
 Quando si creano gerarchie tra tipi di record, vengono generate breadcrumb per i record che appartengono a tali tipi di record.
 
-Ad esempio, se si crea una gerarchia e si connettono Campagne con Tattiche, quindi con Programmi e quindi con Progetti, quando si passa a un record di qualsiasi tipo connesso nella gerarchia, è possibile visualizzare la posizione del record nella gerarchia.
+Ad esempio, se si crea una gerarchia e si collegano Campagne con Tattiche, quindi con Attività e quindi con Progetti, quando si passa a un record di qualsiasi tipo connesso nella gerarchia, è possibile visualizzare la posizione del record nella gerarchia.
 
 Considera quanto segue:
 
