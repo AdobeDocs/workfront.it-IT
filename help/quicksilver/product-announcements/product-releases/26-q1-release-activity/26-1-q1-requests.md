@@ -4,7 +4,7 @@ description: Miglioramenti richieste primo trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: cf4c5888f58cb51c26176eae4aa1c8e011bbecf8
+source-git-commit: d77568db7ad1af56302c8460db603d242274a8cf
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
@@ -51,7 +51,7 @@ For information on request views, including sharing, see [Create and manage view
 >[!NOTE]
 >
 >Anteprima: 20 novembre 2025
->Versione rapida di produzione: 11 dicembre 2026\
+>Versione rapida di produzione: 14 gennaio 2026\
 >Produzione per tutti: 15 gennaio 2026
 
 Per semplificare la creazione e l’invio delle richieste, è stata aggiunta la possibilità di salvare le bozze nella nuova esperienza di richiesta. Ora, quando si inizia a compilare una richiesta e la si chiude, la richiesta viene salvata in stato Bozza e si trova nel modulo di richiesta utilizzato per creare la bozza. Puoi quindi riaprire, aggiornare e inviare la bozza nel modo che preferisci.

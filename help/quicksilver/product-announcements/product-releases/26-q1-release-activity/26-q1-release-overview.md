@@ -4,7 +4,7 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b12784a65f435a9e2992995f5ebe17acf11e1705
+source-git-commit: d77568db7ad1af56302c8460db603d242274a8cf
 workflow-type: tm+mt
 source-wordcount: '2152'
 ht-degree: 4%
@@ -195,7 +195,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicare un report in un dashboard Canvas</a><p>![!BADGE fuori pianificazione]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicare un report in un dashboard Canvas</a><p>![BADGE fuori pianificazione]{type=Neutral}</p>
             <p>È ora possibile duplicare un rapporto indicatore KPI, tabella o grafico in un dashboard di Canvas dopo averlo creato. Una volta duplicato, puoi modificare il rapporto in base alle esigenze prima di salvarlo.</p>
         </td>
         <td>venerdì 23 ottobre 2025</td>
@@ -280,7 +280,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>Per semplificare la creazione e l’invio delle richieste, è stata aggiunta la possibilità di salvare le bozze nella nuova esperienza di richiesta. Ora, quando si inizia a compilare una richiesta e la si chiude, la richiesta viene salvata in stato Bozza e si trova nel modulo di richiesta utilizzato per creare la bozza. Puoi quindi riaprire, aggiornare e inviare la bozza nel modo che preferisci. </p>
         </td>
         <td>venerdì 20 novembre 2025</td>
-        <td>venerdì 11 dicembre 2025</td>
+        <td>giovedì 14 gennaio 2026</td>
         <td>venerdì 15 gennaio 2026</td>
     </tr>  
         <tr>
@@ -441,12 +441,12 @@ Per offrire integrazioni più stabili e scalabili, stiamo passando a un approcci
 * Workfront per Salesforce.
 
 È consigliabile utilizzare l&#39;automazione e l&#39;integrazione di Workfront per le esigenze di integrazione dell&#39;organizzazione con Google Workspace.
-Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Aggiornamenti dei corsi di formazione
 
