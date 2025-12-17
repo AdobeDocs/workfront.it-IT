@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 48bfeb3b950ca1149a919aa204d77db6aa501e01
+source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1417'
 ht-degree: 0%
 
 ---
@@ -142,9 +142,9 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
  </tbody>
 </table>-->
 
-## Considerazioni sulla modifica delle pagine record
+## Considerazioni sull&#39;utilizzo delle pagine record
 
-* Per impostazione predefinita, i dettagli e le pagine di anteprima di un record visualizzano tutti i campi associati al record.
+* Per impostazione predefinita, nella pagina dei dettagli di un record vengono visualizzati tutti i campi associati al record.
 
 * Non è possibile aggiungere nuovi campi per un record nella pagina di anteprima o dei dettagli. Per visualizzarli nelle pagine di anteprima e dettagli, è necessario aggiungere nuovi campi nella vista a tabella.
 
@@ -154,10 +154,17 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
    * Ridisposizione dei campi
    * Aggiunta o rimozione di sezioni
+   * Aggiunta o rimozione di pagine di record connessi
 
 * Le modifiche apportate all&#39;anteprima del record sono immediatamente visibili nella pagina dei dettagli del record. Le modifiche apportate nella pagina record sono visibili anche nella casella di anteprima del record.
 
 * L&#39;aggiunta di un&#39;immagine di copertina o di una miniatura a un record non fa parte del layout generale dell&#39;anteprima del record o della pagina. È possibile aggiungere immagini di copertina o miniature univoche a ciascun record. Per informazioni, vedere [Aggiungere un&#39;immagine di copertina a un record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) e [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+
+* È possibile aggiungere ulteriori pagine dei tipi seguenti alla pagina di un record:
+
+   * Pagina dei record connessi
+
+     Per informazioni, vedere la sezione [Aggiungere una pagina Record connessi a un record](#add-a-connected-records-page-to-a-record).
 
 ## Aggiungere sezioni a una pagina o anteprima record
 
