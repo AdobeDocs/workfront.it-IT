@@ -4,9 +4,9 @@ description: Miglioramenti al reporting per il primo trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bed931281d7d0b3184914ed7649d9cb889bcf39a
+source-git-commit: bb07096ce69e7d52c9332b6f9d230440a03c5f59
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '1009'
 ht-degree: 0%
 
 ---
@@ -17,39 +17,35 @@ Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima nel
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del primo trimestre 2026, consulta [Panoramica sulla versione del primo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-<!--
 
-## Currency updates in Canvas Dashboards
 
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast release: January 14, 2026 
->Production for everyone: January 15, 2026 
-
-We have made the following updates for currency fields:
-
-* When multiple currencies are defined in Workfront, you can now choose a default currency for the dashboard during creation. 
-
-* When creating a report, you can lock a currency field. This ensures that the dashboard-level currency preference does not affect the display of these values.
-
-* When viewing a dashboard, users can toggle between any defined currencies in Workfront. These changes apply to the entire dashboard with the exception of locked currency fields.
-
--->
-
-<!--
-
-## Quick search table results in Canvas Dashboards
+## Aggiornamenti della valuta nei dashboard di Canvas
 
 >[!NOTE]
 >
->Preview: December 18, 2025 
->Production fast release: January 14, 2026 
->Production for everyone: January 15, 2026 
+>Anteprima: 18 dicembre 2025
+>Versione rapida di produzione: 14 gennaio 2026
+>Produzione per tutti: 15 gennaio 2026
 
-We have added a quick search to Table reports. This search works across all pages, so you can find data even if it's not currently visible.
+Sono stati apportati i seguenti aggiornamenti ai campi valuta:
 
--->
+* Quando in Workfront sono definite più valute, è ora possibile scegliere una valuta predefinita per il dashboard durante la creazione.
+
+* Durante la creazione di un report, è possibile bloccare un campo valuta. In questo modo la preferenza di valuta a livello di dashboard non influisce sulla visualizzazione di questi valori.
+
+* Quando visualizzi un dashboard, gli utenti possono passare da una valuta definita all’altra in Workfront. Queste modifiche si applicano all&#39;intero dashboard ad eccezione dei campi di valuta bloccati.
+
+
+## Risultati della tabella di ricerca rapida nei dashboard di Canvas
+
+>[!NOTE]
+>
+>Anteprima: 18 dicembre 2025
+>Versione rapida di produzione: 14 gennaio 2026
+>Produzione per tutti: 15 gennaio 2026
+
+È stata aggiunta una ricerca rapida ai rapporti di tabella. Questa ricerca funziona su tutte le pagine, quindi puoi trovare i dati anche se non sono attualmente visibili.
+
 
 ## Nuova opzione Mostra totale per i grafici a torta
 

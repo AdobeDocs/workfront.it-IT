@@ -6,20 +6,22 @@ description: Puoi applicare un filtro a un dashboard di Canvas dopo averlo creat
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: 39a8d670baa19aa37e29b0312e6c9a296569f44c
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 0%
+source-wordcount: '1013'
+ht-degree: 1%
 
 ---
 
 # Filtrare un dashboard di Canvas
 
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente di anteprima per tutti i clienti.</span>
+
 >[!IMPORTANT]
 >
 >La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica della versione beta di Canvas Dashboards.<br>
->&#x200B;>In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
+>In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
 >
 >* Porta la tua chiave per Amazon Web Services
 >* Azure
@@ -30,7 +32,7 @@ Puoi applicare un filtro a un dashboard di Canvas contenente prompt. Un prompt f
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -177,3 +179,22 @@ Tutti gli utenti con accesso a un dashboard possono applicare un prompt del dash
    ![Seleziona condizione](assets/prompts-list.png)
 
 1. Fai clic sull&#39;icona **Chiudi** ![Chiudi](assets/close-icon.png) nell&#39;angolo superiore destro per nascondere il pannello.
+
+<span class="preview">
+
+## Filtrare un dashboard per tipo di valuta
+
+A livello di dashboard, è possibile alternare tra diversi tipi di valuta. I rapporti che contengono campi di valuta verranno aggiornati per riflettere il tipo di valuta selezionato.
+
+>[!NOTE]
+>
+>I campi Valuta possono essere bloccati a livello di report. Se un campo valuta è bloccato, il tipo di valuta per il report non verrà modificato quando si modifica il tipo di valuta per il dashboard.
+
+Per modificare il tipo di valuta per il dashboard:
+
+1. Fai clic sul menu a discesa della valuta nell’angolo superiore destro della pagina dei dettagli della dashboard.
+1. Selezionare il tipo di valuta desiderato dall&#39;elenco.
+
+   ![elenco a discesa cambio valuta](assets/filter-by-currency.png)
+
+</span>
