@@ -8,15 +8,16 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: ebdb1803fe57386a84d3d882b02a53ec4344b225
+source-git-commit: 9ea9f5741794641409d47ada006e3b9b78025cbd
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1309'
 ht-degree: 2%
 
 ---
 
 # Individuare le richieste inviate
 
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 Puoi individuare i seguenti tipi di richieste inviate da te o da un altro utente oppure richieste avviate ma non ancora inviate. Puoi individuare queste richieste nelle seguenti aree di Adobe Workfront:
 
@@ -71,11 +72,16 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-## Individuare le richieste inviate
+## Individuare le richieste inviate nell&#39;area Richieste
 
 L’individuazione delle richieste inviate varia a seconda che si utilizzi un’esperienza di richiesta nuova o legacy.
 
-### Individuare le richieste inviate nella nuova esperienza di richiesta
+* [Individuare le richieste inviate nella nuova esperienza richiedente](#locate-submitted-requests-in-the-new-requesting-experience)
+* [Individuare le richieste inviate nell’esperienza di richiesta legacy](#locate-submitted-requests-in-the-legacy-requesting-experience)
+
+### Individuare le richieste inviate nella nuova esperienza richiedente
+
+È possibile individuare le richieste inviate nell&#39;area Richieste, <span class="preview">che include collegamenti a oggetti creati da tali richieste.</span>
 
 Per individuare le richieste inviate da te o da altri utenti nella nuova esperienza di richiesta:
 

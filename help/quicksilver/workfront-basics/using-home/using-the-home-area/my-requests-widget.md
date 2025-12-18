@@ -6,9 +6,9 @@ description: È possibile inviare richieste nel widget Richieste personali. Puoi
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 1acffcc2d3511d70fc7d0b263102335d7234e797
+source-git-commit: ef44dcdc88da66d9cf357be53270ec717c06efe7
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '957'
 ht-degree: 4%
 
 ---
@@ -152,3 +152,18 @@ Per cercare richieste specifiche nel widget Richieste personali:
    Le richieste che contengono il termine vengono evidenziate in arancione.
 
 1. (Facoltativo) Per passare alle richieste evidenziate, fai clic sulle frecce su o giù nella barra di ricerca.
+
+<div class="preview">
+
+## Passare a un oggetto creato da una richiesta
+
+È possibile trovare gli oggetti creati da una richiesta nel widget Richieste personali.
+
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. (Condizionale) Per aggiungere il widget **Richieste personali** alla schermata iniziale. Fai clic su **Personalizza** e trova **Le mie richieste**.
+1. Individuare la richiesta che ha creato l&#39;oggetto.
+1. Fare clic sul nome dell&#39;oggetto nella colonna **Oggetto creato** per la richiesta.
+
+   Viene visualizzata la pagina dell&#39;oggetto.
+
+</div>
