@@ -1,22 +1,28 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Creare viste nell’area Richieste
+title: Creare e gestire le viste nell’area Richieste
 description: Se utilizzi la nuova esperienza di richiesta, puoi creare e salvare viste per l’area Richieste.
 author: Becky
 feature: Work Management
-source-git-commit: d2e938cabc5123a89335a42ed06bccaa77fcad83
+source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '1004'
 ht-degree: 2%
 
 ---
 
-# Creare o modificare le viste nell’area Richieste
+# Creare e gestire le viste nell’area Richieste
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 Se utilizzi la nuova esperienza di richiesta, puoi creare e salvare viste per l’area Richieste. Queste visualizzazioni includono filtri e disposizioni per le colonne.
+
+Le visualizzazioni possono essere create e gestite nell’area Richieste di Workfront e nel widget Richieste personali nella Home. Le impostazioni di visualizzazione vengono mantenute tra l&#39;area Richieste e il widget.
+
+>[!IMPORTANT]
+>
+>Questa funzionalità è disponibile solo nella nuova esperienza di richiesta.
 
 ## Requisiti di accesso
 
@@ -55,18 +61,18 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Creare una vista nell’area Richieste
 
-{{step1-to-requests}}
+È possibile creare una visualizzazione nell&#39;area Richieste di Workfront o nel widget Richieste personali della Home.
 
-1. (Facoltativo e condizionale) Seleziona l&#39;impostazione **Passa alla nuova esperienza** in alto a destra dello schermo, se all&#39;organizzazione e all&#39;istanza di Workfront si applicano le seguenti condizioni:
+1. Per accedere all&#39;elenco Richieste, fare clic sull&#39;icona **[!UICONTROL Menu principale]** ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fare clic sull&#39;icona **[!UICONTROL Menu principale]** ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fare clic su **[!UICONTROL Richieste]**.
 
-   * La tua organizzazione ha acquistato un pacchetto Workfront
-   * La tua organizzazione è stata integrata in Adobe Unified Experience.
-   * L&#39;amministratore ti ha concesso l&#39;accesso a Workfront Planning
-   * Si dispone almeno delle autorizzazioni di visualizzazione per un&#39;area di lavoro di Workfront Planning
+1. Per accedere al widget Richieste personali nella Home:
 
-   Per ulteriori informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md)
+   1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Home]**.
+   1. Individuare il widget Richieste personali.
 
-1. Fai clic sul menu a discesa **Viste** ![Viste](assets/view-icon-requests.png) e seleziona **Nuova vista**.
+      Per ulteriori informazioni sul widget Richieste personali, vedere [Utilizzare il widget Richieste personali](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. Nell&#39;elenco Richieste o nel widget Richieste personali, fare clic sul menu a discesa **Visualizzazioni** ![Visualizzazioni](assets/view-icon-requests.png) e selezionare **Nuova visualizzazione**.
 
    ![Nuova visualizzazione](assets/create-new-view.png)
 
@@ -77,16 +83,16 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 È possibile modificare le viste esistenti, incluse quelle appena create.
 
-{{step1-to-requests}}
+1. Per accedere all&#39;elenco Richieste, fare clic sull&#39;icona **[!UICONTROL Menu principale]** ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fare clic sull&#39;icona **[!UICONTROL Menu principale]** ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fare clic su **[!UICONTROL Richieste]**.
 
-1. (Facoltativo e condizionale) Seleziona l&#39;impostazione **Passa alla nuova esperienza** in alto a destra dello schermo, se all&#39;organizzazione e all&#39;istanza di Workfront si applicano le seguenti condizioni:
+1. Per accedere al widget Richieste personali nella Home:
 
-   * La tua organizzazione ha acquistato un pacchetto Workfront
-   * La tua organizzazione è stata integrata in Adobe Unified Experience.
-   * L&#39;amministratore ti ha concesso l&#39;accesso a Workfront Planning
-   * Si dispone almeno delle autorizzazioni di visualizzazione per un&#39;area di lavoro di Workfront Planning
+   1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Home]**.
+   1. Individuare il widget Richieste personali.
 
-   Per ulteriori informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md)1.
+      Per ulteriori informazioni sul widget Richieste personali, vedere [Utilizzare il widget Richieste personali](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. Nell&#39;elenco Richieste o nel widget Richieste personali individuare la visualizzazione che si desidera modificare.
 
 1. (Facoltativo) Per rinominare una visualizzazione, fai clic sul menu a discesa **Visualizzazioni** ![Visualizzazioni](assets/view-icon-requests.png) e fai clic sul menu a tre punti accanto alla visualizzazione, seleziona **Rinomina**, quindi digita il nuovo nome per la visualizzazione.
 1. Fai clic sul menu a discesa **Viste** ![Viste](assets/view-icon-requests.png) e seleziona la vista da modificare.
@@ -132,6 +138,26 @@ L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi
 
 ## Aggiungere la visualizzazione a un modello di layout.
 
-Un amministratore Workfront può aggiungere la nuova visualizzazione ai modelli di layout.
+Un amministratore di Workfront può aggiungere la nuova visualizzazione ai modelli di layout.
 
 Per istruzioni, vedere [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+
+## Condividere una visualizzazione
+
+Puoi condividere le viste create con altri utenti, team o gruppi.
+
+1. Per accedere all&#39;elenco Richieste, fare clic sull&#39;icona **[!UICONTROL Menu principale]** ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fare clic sull&#39;icona **[!UICONTROL Menu principale]** ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fare clic su **[!UICONTROL Richieste]**.
+
+1. Per accedere al widget Richieste personali nella Home:
+
+   1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Home]**.
+   1. Individuare il widget Richieste personali.
+
+      Per ulteriori informazioni sul widget Richieste personali, vedere [Utilizzare il widget Richieste personali](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. Nell&#39;elenco Richieste o nel widget Richieste personali individuare la visualizzazione che si desidera condividere.
+1. Passa il puntatore del mouse sulla vista da condividere, quindi fai clic sul menu a tre punti quando viene visualizzato.
+1. Seleziona **Condividi**.
+1. Nella finestra di dialogo visualizzata, immetti i nomi degli utenti, dei team o dei gruppi con cui desideri condividere la visualizzazione, quindi selezionali dall’elenco quando vengono visualizzati.
+1. Fai clic su **Salva**.
+
