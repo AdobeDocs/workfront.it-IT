@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 3%
+source-wordcount: '467'
+ht-degree: 2%
 
 ---
 
@@ -41,8 +41,8 @@ Nella tabella seguente vengono illustrati i limiti per il numero di oggetti che 
 | Numero di caratteri per un campo di testo a riga singola | 1.000 caratteri |
 | Numero di caratteri per un campo paragrafo | 10.000 caratteri |
 | Numero di campi paragrafo per un tipo di record | 20 campi paragrafo |
-| Dimensione del file che è possibile incollare in una tabella del tipo di record | 1 MB |
-| Dimensione del file che è possibile importare tramite l’API per una tabella del tipo di record | 1,5 MB |
+| Dimensione del file che è possibile utilizzare per importare informazioni in una tabella di tipo record | 1 MB |
+| Dimensione del file che è possibile utilizzare per importare informazioni in una tabella del tipo di record tramite l’API | 1,5 MB |
 | Frequenza con cui è possibile effettuare richieste API | 200 richieste al minuto |
 | Numero di visualizzazioni che un utente può creare per un tipo di record | 100 |
 | Dimensione del file CSV di Excel che puoi importare per creare tipi di record | 5 MB |

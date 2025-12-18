@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 1%
+source-wordcount: '1067'
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,7 @@ Puoi eliminare un progetto in un elenco di progetti o a livello di progetto.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -174,6 +174,34 @@ Puoi eliminare i progetti da un elenco di progetti.
 1. Fai clic su **Sì, elimina**.
 
    Il progetto viene eliminato e memorizzato nel Cestino per 30 giorni. L&#39;amministratore di Workfront può ripristinarlo dal Cestino in questo periodo di tempo.
+
+## Eliminare un progetto dalla pagina dei record collegati di un record di Workfront Planning
+
+>[!NOTE]
+>
+>Le informazioni presenti in questa sezione si riferiscono ad Adobe Workfront Planning, una funzionalità aggiuntiva di Adobe Workfront.
+>
+>Per un elenco dei requisiti per accedere a Workfront Planning, vedere [Panoramica dell&#39;accesso ad Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+> 
+>Per informazioni generali su Workfront Planning, vedere [Introduzione ad Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+
+Prima di poter accedere ed eliminare i progetti da una pagina dei record connessi a Workfront Planning, è necessario disporre dei seguenti elementi:
+
+* Tipi di record di pianificazione connessi ai progetti Workfront. Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Record di pianificazione. Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
+* Pagina dei record connessi che visualizza i progetti connessi a un record di Planning. Per informazioni, vedere [Aggiungere una pagina Record connessi a un record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
+
+Per eliminare un record da una pagina di record connessi:
+
+1. Dalla pagina dei record connessi che visualizza i progetti connessi a un record, passa il puntatore del mouse sul nome di un progetto e fai clic sull&#39;icona **Altro** ![Icona Altro](assets/more-icon.png)
+
+   Oppure
+
+   Seleziona uno o più progetti nell’elenco. Osserva la barra blu nella parte inferiore dell’elenco dei progetti.
+
+1. Fai clic su **Elimina**, quindi su **Elimina** per confermare.
+
+   I progetti vengono eliminati e inseriti nel Cestino di Workfront.
 
 ## Ripristino di progetti eliminati
 

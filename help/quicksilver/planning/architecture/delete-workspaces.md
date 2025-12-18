@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '444'
 ht-degree: 2%
 
 ---
@@ -134,7 +134,12 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 {{step1-to-planning}}
 
-1. (Condizionale) Se sei un amministratore di Workfront, fai clic su **Aree di lavoro in cui sono presente** per accedere alle aree di lavoro create oppure su **Altre aree di lavoro** per accedere alle aree di lavoro condivise con te.
+1. (Condizionale) Se sei un amministratore di Workfront, fai clic su una delle seguenti opzioni:
+
+   * **Aree di lavoro a cui partecipo** per accedere alle aree di lavoro create
+   * **Altre aree di lavoro** per accedere alle aree di lavoro condivise con te
+Oppure
+     <span class="preview">**Tutte le aree di lavoro** per accedere alle aree di lavoro condivise con te o create</span>
 
 1. (Facoltativo) Fai clic su **Mostra tutto** per visualizzare altre aree di lavoro. Il collegamento **Mostra tutto** viene visualizzato solo se sono presenti più di due righe di schede dell&#39;area di lavoro.
 1. (Facoltativo) Fai clic su **Mostra meno** per limitare il numero di aree di lavoro visualizzate sullo schermo.

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1538'
 ht-degree: 1%
 
 ---
@@ -212,6 +212,11 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    ![Autorizzazioni per i tipi di record con autorizzazioni ereditate su](assets/permissions-for-record-types-with-inherited-permissions-on.png)
 
 1. (Facoltativo) Nell&#39;area **Chi ha accesso**, l&#39;opzione **Tutti nell&#39;area di lavoro possono visualizzare** è selezionata per impostazione predefinita.  Tutti gli utenti che dispongono di autorizzazioni View (Visualizzazione) o di livello superiore per l&#39;area di lavoro possono visualizzare il tipo di record.
+
+   >[!WARNING]
+   >
+   >Non è possibile condividere tipi di record con singoli utenti. Se si aggiungono singoli utenti al tipo di record, questi verranno aggiunti anche all&#39;area di lavoro.
+
 
 1. (Facoltativo) Fai clic sul numero di utenti nell&#39;opzione **Autorizzazioni ereditate** per visualizzare utenti, team, gruppi, aziende o ruoli che ereditano le autorizzazioni dall&#39;area di lavoro.
 
