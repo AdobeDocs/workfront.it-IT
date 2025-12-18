@@ -6,19 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 1%
+source-wordcount: '742'
+ht-degree: 0%
 
 ---
 
 
 # Modificare le aree di lavoro
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -125,22 +125,24 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 </tbody> 
 </table> -->
 
-
 ## Modificare un’area di lavoro
 
 {{step1-to-planning}}
 
-1. (Condizionale) Se sei un amministratore di Workfront, fai clic su **Aree di lavoro in cui sono presente** per accedere alle aree di lavoro create oppure su **Altre aree di lavoro** per accedere alle aree di lavoro condivise con te.
+1. (Condizionale) Se sei un amministratore di Workfront, fai clic su una delle seguenti opzioni:
 
-<!--***********Replace the steps from the next below till the "Update the following information in the Edit workspace box:" (but keep this last step)*******-->
+   * **Aree di lavoro a cui partecipo** per accedere alle aree di lavoro create
+   * **Altre aree di lavoro** per accedere alle aree di lavoro condivise con te
+Oppure
+     <span class="preview">**Tutte le aree di lavoro** per accedere alle aree di lavoro condivise con te o create</span>
 
 1. (Facoltativo) Fai clic su **Mostra tutto** per visualizzare altre aree di lavoro. Il collegamento **Mostra tutto** viene visualizzato solo se sono presenti più di due righe di schede dell&#39;area di lavoro.
 1. (Facoltativo) Fai clic su **Mostra meno** per limitare il numero di aree di lavoro visualizzate sullo schermo.
 1. Per modificare un&#39;area di lavoro, effettuate una delle seguenti operazioni:
 
    * Passa il puntatore del mouse sulla scheda dell&#39;area di lavoro, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) nell&#39;angolo superiore destro della scheda
-Oppure <!--Add this to the next bullet: <span class="preview"> Search for a workspace by name and</span>-->
-   * Fai clic su una scheda dell&#39;area di lavoro per aprirla, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome dell&#39;area di lavoro.
+Oppure
+   * <span class="preview"> Fai clic sull&#39;icona **cerca** ![icona Cerca](assets/search-icon.png) nell&#39;angolo superiore destro della pagina Aree di lavoro per cercare un&#39;area di lavoro per nome</span> e fai clic su una scheda dell&#39;area di lavoro per aprirla, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome dell&#39;area di lavoro.
 1. Fai clic su **Modifica**.
 
    Viene visualizzata la casella **Modifica area di lavoro**.

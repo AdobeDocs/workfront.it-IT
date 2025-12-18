@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
 workflow-type: tm+mt
-source-wordcount: '1271'
-ht-degree: 1%
+source-wordcount: '1267'
+ht-degree: 2%
 
 ---
 
@@ -60,7 +60,7 @@ Durante la connessione e la creazione di oggetti Workfront ai record di Workfron
 
    * Visualizzazione tabella di un tipo di record
    * Area Dettagli di un record nel campo connessione
-   * Pagina Record connesso di un record nell&#39;area Dettagli
+   * Pagina Record connesso di un record
 
 * È possibile creare portfolio e programmi dalle seguenti aree di Workfront Planning:
 
