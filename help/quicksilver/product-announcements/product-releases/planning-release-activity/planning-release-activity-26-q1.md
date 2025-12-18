@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a58e7da96c43dd308a213c6d7ef74d5085a2e1ba
+source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1263'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning,
 
 Per essere certi di visualizzare le informazioni necessarie in modo più semplice, è stata aggiunta la possibilità di condividere le visualizzazioni nella pagina dei record Progetti connessi. Ora puoi condividere le visualizzazioni con altri utenti, team o gruppi.
 
-Per informazioni sulle visualizzazioni delle richieste, inclusa la condivisione, vedere [Creare e gestire visualizzazioni nell&#39;area Richieste](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+Per informazioni, vedere [Aggiungere una pagina Record connessi a un record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
 ## Il carattere jolly dell&#39;utente corrente è ora disponibile nei filtri di visualizzazione della connessione del progetto
 

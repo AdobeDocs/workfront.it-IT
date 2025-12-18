@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: de568156315ff9094d938600c91b55e185d53765
+source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
 workflow-type: tm+mt
-source-wordcount: '2684'
+source-wordcount: '2678'
 ht-degree: 1%
 
 ---
@@ -173,6 +173,10 @@ I dettagli del modulo sono suddivisi in schede.
 
 1. Inizia a creare o modificare un modulo di richiesta, come descritto nella sezione [Inizia a creare un modulo di richiesta](#begin-creating-a-request-form).
 
+   Oppure
+
+   Individua il modulo di richiesta nell&#39;elenco Moduli di richiesta, fai clic sulla casella accanto al nome del modulo, quindi fai clic su **Modifica modulo** nella barra blu nella parte inferiore dello schermo.
+
    Il modulo di richiesta per il tipo di record selezionato viene aperto nella scheda Modulo.
 
    ![Modalità di modifica modulo richiesta campagne](assets/campaigns-request-form-edit-mode.png)
@@ -195,8 +199,6 @@ I dettagli del modulo sono suddivisi in schede.
      I campi contenuti nel modulo di richiesta saranno visibili a tutti coloro che inviano una richiesta a questo tipo di record.
 
 1. (Facoltativo) Passa il puntatore del mouse su tutti i campi del modulo che desideri rimuovere, quindi fai clic sull&#39;icona **x** per rimuoverli. Vengono aggiunti alla scheda **Campi** a sinistra del modulo.
-
-   Rimuovere ad esempio il campo **Oggetto**, in quanto non è visibile in Workfront Planning. <!--remove this example if this becomes visible in Planning?-->
 
 1. (Facoltativo) Per rimuovere la **sezione predefinita** dal modulo, eseguire le operazioni seguenti:
 
@@ -235,14 +237,13 @@ Nella scheda Configurazione puoi impostare il processo di approvazione e configu
    Il modulo di richiesta per il tipo di record selezionato viene aperto nella scheda Modulo.
 1. (Facoltativo) Configura i dettagli del modulo come descritto in [Configura dettagli modulo](#set-up-form-details).
 
-1. (Facoltativo) Fai clic sulla scheda **Configurazione**, quindi aggiungi almeno un utente o un team al campo **Approvatori** per approvare nuove richieste per questo modulo record.
+1. (Facoltativo) Se desideri aggiungere approvatori, fai clic sulla scheda **Configurazione**, quindi aggiungi almeno un utente o un team al campo **Approvatori** per approvare nuove richieste per questo modulo record.
 
    ![Scheda Configurazione](assets/configuration-tab.png)
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
    * Puoi aggiungere uno o più approvatori a un modulo di richiesta.
-   * Se si aggiungono più approvatori e l&#39;opzione È necessaria una sola decisione non è abilitata, tutti gli approvatori devono approvare la richiesta prima che Workfront Planning crei un record.
    * Se almeno un approvatore rifiuta la richiesta, la richiesta viene rifiutata e il record non viene creato. La richiesta rimane nella scheda Pianificazione della sezione Inviata nell&#39;area Richieste di Workfront.
    * Se si aggiungono più approvatori e l&#39;opzione È necessaria una sola decisione non è abilitata, tutti gli approvatori devono prendere una decisione prima che una richiesta venga approvata o rifiutata.
    * Se un team è impostato come approvatore, è necessaria una sola decisione del team.

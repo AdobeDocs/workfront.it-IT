@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: a3ce37193025ff8bb2e0be88ef5556fcadbb542c
+source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1122'
 ht-degree: 1%
 
 ---
@@ -142,7 +142,7 @@ Gli approvatori ricevono le seguenti notifiche relative a una richiesta in attes
 
    Oppure
 
-   Fai clic sull&#39;icona [!UICONTROL Home] ![Home](/help/_includes/assets/home-icon-30x29.png) nell&#39;angolo superiore sinistro di Adobe Workfront.
+   Fai clic sull&#39;icona [!UICONTROL Home] ![Home icon](/help/_includes/assets/home-icon-30x29.png) nell&#39;angolo superiore sinistro di Adobe Workfront, quindi individua il widget Approvazioni personali.
 
 1. Individuare l&#39;oggetto che si desidera approvare o rifiutare.
 
