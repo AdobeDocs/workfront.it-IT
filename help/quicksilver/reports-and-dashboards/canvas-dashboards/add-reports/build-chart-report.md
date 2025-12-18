@@ -6,20 +6,22 @@ description: È possibile aggiungere a un dashboard di Canvas un report di grafi
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: bb65fa45f6fce762920627ad0fb6fd1d832f23a3
 workflow-type: tm+mt
-source-wordcount: '1381'
-ht-degree: 0%
+source-wordcount: '1713'
+ht-degree: 1%
 
 ---
 
 # Creare un rapporto di grafico in un dashboard di Canvas
 
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente di anteprima per tutti i clienti.</span>
+
 >[!IMPORTANT]
 >
 >La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica della versione beta di Canvas Dashboards.<br>
->&#x200B;>In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
+>In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
 >
 >* Porta la tua chiave per Amazon Web Services
 >* Azure
@@ -31,7 +33,7 @@ Puoi generare e aggiungere un rapporto di grafico a un dashboard di Canvas per v
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -99,48 +101,90 @@ Sono disponibili molte opzioni di configurazione per la creazione di un rapporto
       >[!NOTE]
       >
       >È possibile visualizzare in un grafico un massimo di 60 serie. Se questa casella è selezionata, tutte le serie al di sopra del limite vengono consolidate in un raggruppamento **Altro** nel grafico.
+1. Scegliere il tipo di grafico da creare:
+   * [Grafico a barre, a colonne o a linee](#bar-column-or-line-chart)
+   * [Grafico a torta](#pie-chart)
 
-1. Segui i passaggi seguenti per configurare la sezione **Genera grafico**:
+### Grafico a barre, a colonne o a linee
 
-   1. Nel pannello a sinistra, fai clic sull&#39;icona **Genera grafico** ![Genera grafico](assets/build-chart-icon.png).
+>[!NOTE]
+>
+>Potrebbero essere presenti campi aggiuntivi a seconda del tipo di campo selezionato. Le opzioni descritte di seguito sono standard per tutti i tipi di campo.
 
-   1. Nell&#39;elenco a discesa **Tipo di grafico** selezionare il tipo di grafico che si desidera creare:
 
-      * **Barra**
-      * **Colonna**
-      * **Line**
-      * **Torta**
+1. Nel pannello a sinistra, fai clic sull&#39;icona **Genera grafico** ![Genera grafico](assets/build-chart-icon.png).
 
-   1. Nell&#39;elenco a discesa **Tipo colonna** selezionare il tipo di colonna:
-      * **Semplice**
-      * **Serie multiple**
-      * **In pila**
+1. Nel menu a discesa **Tipo di grafico**, selezionare **Barra**, **Colonna** o **Riga**.
+1. Nel secondo menu a discesa, seleziona la barra, la colonna o il tipo di riga:
+   * **Semplice**
+   * **Serie multiple**
+   * **In pila**
 
-   1. Selezionare il pulsante **Aggiorna campo** nella prima sezione, quindi individuare e selezionare il campo contenente i dati che verranno riepilogati nel grafico.
-   1. Nell&#39;elenco a discesa **Tipo di aggregazione** selezionare la modalità di rollup dei dati per produrre l&#39;output del grafico.
+1. Nella sezione **Asse inferiore (X)**, selezionare il **Campo aggiornamento**, quindi individuare e selezionare il campo contenente i dati che verranno riepilogati nel grafico.
+1. Nell&#39;elenco a discesa **Tipo di aggregazione** selezionare la modalità di rollup dei dati per produrre l&#39;output del grafico.
+1. <span class="preview">(Facoltativo) Aggiungere un&#39;etichetta di asse nello spazio fornito.</span>
+1. <span class="preview"> (Facoltativo) Attiva/Disattiva **Nascondi asse**. </span>
+1. <span class="preview">(Facoltativo) Immettere un **valore riga di riferimento** per impostare una destinazione o una soglia nel grafico.</span>
+1. Scegliere un tipo di **riga** dal menu a discesa.
+1. Seleziona il pulsante **Aggiorna campo** sotto la seconda sezione, quindi individua e seleziona il secondo campo da visualizzare nel grafico.
 
-   1. Seleziona il pulsante **Aggiorna campo** sotto la seconda sezione, quindi individua e seleziona il secondo campo da visualizzare nel grafico.
 
-1. Segui i passaggi seguenti per configurare la sezione **Filtro**:
+### Grafico a torta
 
-   1. Nel pannello a sinistra, fai clic sull&#39;icona **Filtro**![&#x200B; Filtro](assets/filter-icon.png).
-   1. Selezionare **Modifica filtro**.
-   1. Fare clic su **Aggiungi condizione** e quindi specificare il campo in base al quale si desidera filtrare e il modificatore che definisce il tipo di condizione che il campo deve soddisfare.
-   1. (Facoltativo) Fai clic su **Aggiungi gruppo di filtri** per aggiungere un altro set di criteri di filtro. L&#39;operatore di default tra i set è AND. Fai clic sull’operatore per modificarlo in O.
+>[!NOTE]
+>
+>Potrebbero essere presenti campi aggiuntivi a seconda del tipo di campo selezionato. Le opzioni descritte di seguito sono standard per tutti i tipi di campo.
 
-1. Segui i passaggi seguenti per configurare la sezione **Impostazioni colonna di espansione**:
 
-   1. Nel pannello a sinistra, fai clic sull&#39;icona **Colonne espansione** ![Colonne espansione](assets/drilldown-column.png). I campi del grafico vengono visualizzati automaticamente come colonne nella sezione di anteprima a destra.
+1. Nel pannello a sinistra, fai clic sull&#39;icona **Genera grafico** ![Genera grafico](assets/build-chart-icon.png).
 
-   1. (Facoltativo) Per aggiornare una delle configurazioni di colonna esistenti, seleziona la colonna da aggiornare nella sezione **Colonne correnti**, quindi aggiorna le informazioni desiderate (ad esempio etichetta, stato del collegamento e condizioni).
+1. Nel menu a discesa **Tipo di grafico**, selezionare **Barra**.
+1. Nella sezione **Metrica**, seleziona il **Campo di aggiornamento**, quindi individua e seleziona il campo contenente i dati che verranno riepilogati nel grafico.
+1. Nell&#39;elenco a discesa **Tipo di aggregazione** selezionare la modalità di rollup dei dati per produrre l&#39;output del grafico.
+1. Nella sezione **Segmento**, seleziona il **Campo di aggiornamento**, quindi individua e seleziona il campo contenente i segmenti che desideri visualizzare nel grafico a torta.
+1. <span class="preview"> (Facoltativo) Nella sezione **Torta**, attiva **Mostra etichette segmento** per visualizzare le etichette segmento.</span>
+1. <span class="preview"> (Facoltativo) Attiva **Mostra totale** per visualizzare il totale al centro del grafico. Se l&#39;opzione è abilitata, sono disponibili opzioni aggiuntive per visualizzare un&#39;etichetta del centro e scegliere il formato del valore.</span>
 
-   1. Fare clic su **Aggiungi colonna** e quindi selezionare il campo che si desidera visualizzare come colonna nella tabella. Ripetere questo processo per ogni colonna che si desidera aggiungere.
+>[!NOTE]
+>
+>I tipi di aggregazione vengono visualizzati come segue:
+>
+>* Conta tipi di aggregazione: il valore centrale visualizzato è un conteggio di tutti i segmenti del grafico.
+>* Somma tipi di aggregazione: il valore centrale visualizzato è il totale aggregato del valore numerico o di valuta.
+>* Tipi di aggregazione media, massima e minima: il valore centrale visualizza di conseguenza il valore medio, massimo o minimo.
 
-1. Segui i passaggi seguenti per configurare la sezione **Impostazioni gruppo di espansione**:
+1. <span class="preview">(Facoltativo) Nella sezione Legenda attivare **Mostra legenda** per visualizzare la legenda del grafico.</span>
 
-   1. Nel pannello a sinistra, fai clic sull&#39;icona **Impostazioni gruppo** ![Impostazioni gruppo](assets/drilldown-group-icon.png).
+1. <span class="preview"> (Facoltativo) Scegliere una **posizione legenda** dal menu a discesa.</span>
 
-   1. Fare clic sul pulsante **Aggiungi raggruppamento** e quindi selezionare il campo da creare come raggruppamento.
+## Configurare impostazioni aggiuntive per i report grafico
+
+### Filtri
+
+Segui i passaggi seguenti per configurare la sezione **Filtro**:
+
+1. Nel pannello a sinistra, fai clic sull&#39;icona **Filtro**![ Filtro](assets/filter-icon.png).
+1. Selezionare **Modifica filtro**.
+1. Fare clic su **Aggiungi condizione** e quindi specificare il campo in base al quale si desidera filtrare e il modificatore che definisce il tipo di condizione che il campo deve soddisfare.
+1. (Facoltativo) Fai clic su **Aggiungi gruppo di filtri** per aggiungere un altro set di criteri di filtro. L&#39;operatore di default tra i set è AND. Fai clic sull’operatore per modificarlo in O.
+
+### Impostazioni di espansione
+
+Segui i passaggi seguenti per configurare la sezione **Impostazioni colonna di espansione**:
+
+1. Nel pannello a sinistra, fai clic sull&#39;icona **Colonne espansione** ![Colonne espansione](assets/drilldown-column.png). I campi del grafico vengono visualizzati automaticamente come colonne nella sezione di anteprima a destra.
+
+1. (Facoltativo) Per aggiornare una delle configurazioni di colonna esistenti, seleziona la colonna da aggiornare nella sezione **Colonne correnti**, quindi aggiorna le informazioni desiderate (ad esempio etichetta, stato del collegamento e condizioni).
+
+1. Fare clic su **Aggiungi colonna** e quindi selezionare il campo che si desidera visualizzare come colonna nella tabella. Ripetere questo processo per ogni colonna che si desidera aggiungere.
+
+### Impostazioni del gruppo di espansione
+
+Segui i passaggi seguenti per configurare la sezione **Impostazioni gruppo di espansione**:
+
+1. Nel pannello a sinistra, fai clic sull&#39;icona **Impostazioni gruppo** ![Impostazioni gruppo](assets/drilldown-group-icon.png).
+
+1. Fare clic sul pulsante **Aggiungi raggruppamento** e quindi selezionare il campo da creare come raggruppamento.
 
 1. Fai clic su **Salva** per creare il report e aggiungerlo al dashboard.
 
