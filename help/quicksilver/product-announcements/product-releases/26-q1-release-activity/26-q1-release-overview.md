@@ -4,9 +4,9 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bed931281d7d0b3184914ed7649d9cb889bcf39a
+source-git-commit: db74f7a97174ce0bca30684bc0871cca4b6ae4d9
 workflow-type: tm+mt
-source-wordcount: '2888'
+source-wordcount: '2890'
 ht-degree: 4%
 
 ---
@@ -39,6 +39,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 * [Miglioramenti per gli amministratori](#administrator-enhancements)
 * [Miglioramenti a documenti e approvazioni](#documents-and-approvals-enhancements)
+* [Miglioramenti Home](#home-enhancements)
 * [Miglioramenti dell’integrazione](#integration-enhancements)
 * [Miglioramenti al progetto](#project-enhancements)
 * [Miglioramenti al reporting](#reporting-enhancements)
@@ -147,7 +148,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 
 
-### Miglioramenti dell’integrazione
+### Miglioramenti Home
 
 <table style="table-layout:auto">
   <tbody>
@@ -161,7 +162,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
          <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-home.md" class="MCXref xref" xrefformat="{para}">Aggiornamento al widget Menzioni nella Home</a>
-            <p>Abbiamo apportato i seguenti miglioramenti al widget Menzioni in home: <ul><li>La stessa esperienza nell’area Aggiornamenti della maggior parte degli oggetti Workfront è ora disponibile anche nel widget Menzioni in Home. </li><li>Il widget Menzioni ora contiene i commenti che l'utente ha fatto o in cui è stato taggato nelle ultime due settimane</li><ul></p>
+            <p>Sono stati apportati i seguenti miglioramenti al widget Menzioni in home: <ul><li>La stessa esperienza nell’area Aggiornamenti della maggior parte degli oggetti Workfront è ora disponibile anche nel widget Menzioni in Home. </li><li>Il widget Menzioni ora contiene i commenti che l'utente ha fatto o in cui è stato taggato nelle ultime due settimane</li><ul></p>
         </td>
         <td>giovedì 17 dicembre 2025</td>
         <td>giovedì 14 gennaio 2026</td>
@@ -183,7 +184,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
          <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Scegli un progetto Workfront quando invii una recensione in Creative Cloud Express</a><p>![!BADGE fuori pianificazione]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Scegli un progetto Workfront quando invii una recensione in Creative Cloud Express</a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>Puoi scegliere un progetto Workfront a cui inviare una bozza. In questo modo è possibile mantenere tutte le risorse e le bozze correlate organizzate all’interno dello stesso progetto. </p>
         </td>
         <td>martedì 15 dicembre 2025</td>
@@ -311,7 +312,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicare un report in un dashboard Canvas</a><p>![!BADGE fuori pianificazione]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicare un report in un dashboard Canvas</a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>È ora possibile duplicare un rapporto indicatore KPI, tabella o grafico in un dashboard di Canvas dopo averlo creato. Una volta duplicato, puoi modificare il rapporto in base alle esigenze prima di salvarlo.</p>
         </td>
         <td>venerdì 23 ottobre 2025</td>
@@ -593,12 +594,12 @@ Per offrire integrazioni più stabili e scalabili, stiamo passando a un approcci
 * Workfront per Salesforce.
 
 È consigliabile utilizzare l&#39;automazione e l&#39;integrazione di Workfront per le esigenze di integrazione dell&#39;organizzazione con Google Workspace.
-Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Aggiornamenti dei corsi di formazione
 
