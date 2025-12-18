@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
+source-git-commit: a3ce37193025ff8bb2e0be88ef5556fcadbb542c
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '1116'
 ht-degree: 1%
 
 ---
@@ -97,7 +97,12 @@ Gli approvatori ricevono le seguenti notifiche relative a una richiesta in attes
 >
 >Per consentire agli utenti di ricevere notifiche e-mail e in-app, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.
 
-Per approvare una richiesta:
+È possibile approvare le richieste per la creazione di record dalla richiesta stessa, <span class="preview">o dal widget Approvazioni personali nella Home.</span>
+
+* [Approvare una richiesta dalla richiesta in Workfront Planning](#approve-a-request-from-the-request-in-workfront-planning)
+* [Approvare una richiesta dal widget Le mie approvazioni nella Home](#approve-a-request-from-the-my-approvals-widget-in-home)
+
+### Approvare una richiesta dalla richiesta in Workfront Planning
 
 1. (Condizionale) Se utilizzi l’esperienza di richiesta legacy in Workfront, apri la richiesta effettuando una delle seguenti operazioni:
 
@@ -128,3 +133,31 @@ Per approvare una richiesta:
    * **Rifiutata**: richiesta rifiutata.
 
    La richiesta rimane nella scheda Pianificazione della sezione Inviata nell&#39;area Richieste di Workfront.
+
+<div class="preview">
+
+### Approvare una richiesta dal widget Le mie approvazioni nella Home
+
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Home]**.
+
+   Oppure
+
+   Fai clic sull&#39;icona [!UICONTROL Home] ![Home](/help/_includes/assets/home-icon-30x29.png) nell&#39;angolo superiore sinistro di Adobe Workfront.
+
+1. Individuare l&#39;oggetto che si desidera approvare o rifiutare.
+
+1. (Facoltativo) Per aggiungere un commento, fai clic sulla freccia a discesa accanto a Approva o Rifiuta, digita la nota e fai clic su Aggiungi.
+
+1. Scegliere una delle opzioni seguenti:
+
+   * **Approva**: questa operazione approva la richiesta. Viene creato immediatamente un record per il tipo di record associato al modulo di richiesta dopo che tutti gli approvatori hanno approvato la richiesta.
+   * **Rifiuta**: la richiesta viene rifiutata anche se l&#39;utente è l&#39;unico approvatore a rifiutarla. Non viene creato alcun record per il tipo di record associato al modulo di richiesta.
+
+   L’utente che ha inviato la richiesta riceve un’e-mail e una notifica in un’app quando la richiesta viene approvata o rifiutata.
+
+   Lo stato della richiesta cambia in base alla decisione di approvazione:
+
+   * **Completato**: la richiesta è approvata.
+   * **Rifiutata**: richiesta rifiutata.
+
+</div>

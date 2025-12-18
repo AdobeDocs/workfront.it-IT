@@ -6,14 +6,16 @@ description: I processi di approvazione offrono la flessibilità necessaria per 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 2503b6e628e4860a5652c620d8e4d0eea2414443
+source-git-commit: a3ce37193025ff8bb2e0be88ef5556fcadbb542c
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 0%
+source-wordcount: '752'
+ht-degree: 2%
 
 ---
 
 # Visualizza approvazioni
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 I processi di approvazione offrono la flessibilità necessaria per creare approvazioni a più passaggi per progetti, attività e problemi. Gli amministratori di Adobe Workfront definiscono i processi di approvazione per garantire coerenza all’interno del sistema.
 
@@ -23,7 +25,7 @@ Per informazioni sull&#39;associazione delle approvazioni al lavoro in Workfront
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -63,7 +65,7 @@ Puoi visualizzare o gestire le approvazioni dalle seguenti aree:
 
 * Nell’area Home
 
-   * Tutti i progetti, le attività, i problemi, le schede orario, i documenti e l’accesso in attesa della tua approvazione vengono visualizzati nel widget Approvazioni personali nella sezione Home.
+   * Tutti i progetti, le attività, i problemi, le schede orario, i documenti, gli accessi e le <span class="preview">richieste di Workfront Planning</span> in attesa della tua approvazione vengono visualizzati nel widget Approvazioni personali nella sezione Home.
    * Le approvazioni inviate personalmente vengono visualizzate anche nel widget Approvazioni personali nell&#39;area Home quando si sceglie l&#39;opzione di filtro Approvazioni inviate. Per ulteriori informazioni, vedere la sezione [Rivedi il lavoro inviato per l&#39;approvazione nell&#39;area Home](#review-work-you-submit-for-approval-in-the-home-area) in questo articolo.
    * Le approvazioni vengono rimosse dal widget Approvazioni personali nell&#39;area Home quando il progetto, l&#39;attività o il problema associato è contrassegnato come Risolto, In sospeso, Chiuso o Annullato.
 
