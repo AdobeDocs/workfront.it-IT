@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: fb1b5bb34810652e5098f0dcad70062670d7c137
+source-git-commit: 2e75f6aaba089a91a2306ad06a0f0d79a7524f75
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,17 @@ Questa sezione include le note sulla versione per le nuove funzionalità.
 
 Ora puoi applicare modifiche basate sulla percentuale a una o più tariffe di fatturazione dei ruoli all’interno di una scheda tariffa. Invece di aggiornare manualmente ogni tariffa una alla volta, puoi applicare le modifiche a tutte le tariffe selezionate in una singola operazione.
 
+### Limitazioni dei KPI nella ricerca avanzata
+
+>[!NOTE]
+>
+>Data di rilascio in produzione: 18 dicembre 2025
+
+Per migliorare l&#39;usabilità della ricerca avanzata in Assegnazioni avanzate e piani di assegnazione del personale, l&#39;elenco dei KPI che è possibile visualizzare nelle colonne della tabella è ora limitato. La visualizzazione solo delle metriche chiave consente di trovare le informazioni più rapidamente.
+
+* Nella ricerca avanzata delle assegnazioni è disponibile l&#39;indicatore KPI **Capacità disponibile**. Questa metrica rappresenta la capacità totale di base degli utenti.
+* Nella ricerca avanzata del piano di assegnazione del personale, è disponibile l&#39;indicatore KPI **Capacità allocazione personale rimanente**. Questa metrica riflette la capacità ancora disponibile dopo le allocazioni.
+
 ## Aggiornamenti di manutenzione per funzioni a disponibilità limitata
 
 Questa sezione descrive i problemi risolti negli aggiornamenti settimanali di Workfront per le funzioni con disponibilità limitata.
@@ -56,13 +67,13 @@ L&#39;indicatore KPI ore pianificate nella schermata Assegnazioni avanzate non �
 
 Il campo **Data tasso di cambio** nell&#39;area Dettagli progetto > Contabilità è ora nascosto quando la casella di controllo **Usa tassi di cambio validi per la data dal sistema** non è selezionata. In precedenza, durante la modifica di un progetto, il campo data veniva visualizzato nei dettagli del progetto anche quando i tassi di cambio validi per la data non erano abilitati.
 
-<!--### Maintenance Updates week of December 7-13, 2025
+<!--### Maintenance Updates week of January 4-10, 2026
 
 **Title**
 
 text
 
-### Maintenance Updates week of January 4-10, 2026
+### Maintenance Updates week of January 11-17, 2026
 
 **Title**
 
