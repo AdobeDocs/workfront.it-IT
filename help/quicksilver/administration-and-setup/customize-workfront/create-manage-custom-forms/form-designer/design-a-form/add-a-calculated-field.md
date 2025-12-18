@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
+source-git-commit: e95701bdce2388f7f2b249b1fbf5b27d0ded08af
 workflow-type: tm+mt
-source-wordcount: '2446'
-ht-degree: 0%
+source-wordcount: '2506'
+ht-degree: 1%
 
 ---
 
@@ -47,7 +47,7 @@ Un campo personalizzato calcolato può contenere:
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -107,6 +107,10 @@ Per riutilizzare un campo personalizzato calcolato esistente:
    ![Libreria campi](assets/field-library.png)
 
 1. Utilizza la casella di ricerca o espandi la sezione **Calcolato** per individuare il campo calcolato necessario, quindi trascina il campo nel punto in cui desideri che venga visualizzato nel modulo personalizzato.
+
+1. <span class="preview">(Condizionale) Fare clic su **Verifica la presenza di conflitti** per esaminare tutti gli oggetti che potrebbero essere interessati dalla modifica della formula nel campo calcolato.</span>
+
+   <span class="preview">Se a un oggetto sono allegati due o più moduli contenenti lo stesso campo calcolato, le formule devono essere identiche in tutti i moduli. La modifica della formula non è consentita se la modifica potrebbe causare un conflitto.</span>
 
 1. (Facoltativo) Ripeti il passaggio precedente per aggiungere altri campi.
 
@@ -284,7 +288,7 @@ Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contene
            >
            ><div>In un modulo personalizzato allegato a un oggetto, le istruzioni di data e ora nei campi personalizzati calcolati vengono calcolate e salvate in base al tempo UTC (Coordinated Universal Time) e non in base alle configurazioni del fuso orario impostate per l’istanza della tua organizzazione e il tuo profilo utente. I calcoli in un modulo personalizzato vengono generati in base ai singoli fusi orari degli utenti.</div>
 
-      +++
+        +++
 
    1. Fai clic nella casella di testo grande, quindi fai clic su **Espressioni** e **Campi** disponibili per aggiungerli al calcolo.
 
