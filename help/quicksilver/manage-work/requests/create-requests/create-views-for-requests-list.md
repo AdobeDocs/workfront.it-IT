@@ -5,21 +5,22 @@ title: Creare viste nell’area Richieste
 description: Se utilizzi la nuova esperienza di richiesta, puoi creare e salvare viste per l’area Richieste.
 author: Becky
 feature: Work Management
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: d2e938cabc5123a89335a42ed06bccaa77fcad83
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 0%
+source-wordcount: '702'
+ht-degree: 2%
 
 ---
 
 # Creare o modificare le viste nell’area Richieste
 
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 Se utilizzi la nuova esperienza di richiesta, puoi creare e salvare viste per l’area Richieste. Queste visualizzazioni includono filtri e disposizioni per le colonne.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 
 <table style="table-layout:auto"> 
@@ -89,6 +90,21 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. (Facoltativo) Per rinominare una visualizzazione, fai clic sul menu a discesa **Visualizzazioni** ![Visualizzazioni](assets/view-icon-requests.png) e fai clic sul menu a tre punti accanto alla visualizzazione, seleziona **Rinomina**, quindi digita il nuovo nome per la visualizzazione.
 1. Fai clic sul menu a discesa **Viste** ![Viste](assets/view-icon-requests.png) e seleziona la vista da modificare.
+1. <span class="preview">Per aggiungere un campo personalizzato come colonna, fare clic sull&#39;icona **Aggiungi colonna** ![Aggiungi colonna](assets/add-column.png) a destra dello schermo e fare clic sull&#39;icona più accanto al campo modulo personalizzato che si desidera aggiungere come colonna alla visualizzazione.</span>
+
+   <span class="preview">I campi personalizzati nei moduli allegati all&#39;oggetto nell&#39;elenco sono disponibili per l&#39;aggiunta come colonne.</span>
+
+   >[!TIP]
+   >
+   >Al momento non è possibile aggiungere colonne nell’ambiente di produzione.
+1. (Facoltativo) Fai clic su **Colonne** e nascondi, mostra o ridisponi le colonne nell&#39;elenco richieste.
+
+   ![Casella Colonne](assets/columns-editing-box-in-requests-planning-tab.png)
+
+   >[!TIP]
+   >
+   >Al momento non è possibile aggiungere altre colonne nell’ambiente di produzione.
+
 1. (Facoltativo) Fai clic su **Filtri** e inizia ad aggiungere le condizioni per le richieste che desideri visualizzare nella scheda Planning.
 
    ![Modifica dei filtri nella scheda Richieste di Planning](assets/filters-editing-box-in-requests-planning-tab.png)
@@ -102,16 +118,12 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    * **Stato**: lo stato della richiesta.
    * **Inserito da**: nome dell&#39;utente che ha aggiunto la richiesta. Se la richiesta è stata aggiunta da un utente esterno a Workfront, il campo **Immesso da** visualizza `N/A`.
 
+   <span class="preview">Nell&#39;ambiente di anteprima è inoltre possibile filtrare in base a qualsiasi campo personalizzato aggiunto alla visualizzazione.</span>
+
    È possibile unire più filtri con **And** o **Or**.
 L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi le condizioni del filtro.
 
-1. (Facoltativo) Fai clic su **Colonne** e nascondi, mostra o ridisponi le colonne nell&#39;elenco richieste.
 
-   ![Casella Colonne](assets/columns-editing-box-in-requests-planning-tab.png)
-
-   >[!TIP]
-   >
-   >Impossibile aggiungere altre colonne.
 
 >[!IMPORTANT]
 >

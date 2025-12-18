@@ -6,10 +6,10 @@ description: È possibile inviare richieste nel widget Richieste personali. Puoi
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 59a53f7355032810a05fce2d3f0dfe30d64bbd40
+source-git-commit: 1acffcc2d3511d70fc7d0b263102335d7234e797
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 5%
+source-wordcount: '882'
+ht-degree: 4%
 
 ---
 
@@ -98,6 +98,8 @@ Per configurare il filtro nel widget Richieste personali:
    * Stato
    * Immesso da
 
+   <span class="preview">Nell&#39;ambiente di anteprima è inoltre possibile filtrare in base a qualsiasi campo personalizzato aggiunto come colonna      alla visualizzazione.</span>
+
 1. Nel campo successivo, seleziona l’operatore da utilizzare per questa condizione di filtro. Gli operatori disponibili dipendono dal campo scelto.
 1. (Condizionale) Se a destra dell’operatore viene visualizzato un campo, seleziona il valore in base al quale desideri filtrare.
 1. (Facoltativo) Per aggiungere un&#39;altra condizione di filtro, fare clic su **Aggiungi condizione** e ripetere i passaggi 4-6.
@@ -112,13 +114,13 @@ Il filtro viene salvato automaticamente.
 >* Per filtrare solo le richieste Workfront, impostare il filtro su **Tipo di oggetto** > **Ha uno di** > **Problemi**.
 >* Per filtrare solo le richieste di Workfront Planning, impostare il filtro su **Tipo di oggetto** > **Non contiene** > **Problemi**.
 
-## Regola colonne
+## Regolare o aggiungere colonne
 
 È possibile scegliere quale delle colonne disponibili visualizzare nel widget Richieste personali e impostarne l&#39;ordine.
 
 Le colonne disponibili includono:
 
-* Oggetto
+* Soggetto
 * Oggetto creato
 * Tipo di oggetto
 * Stato
@@ -133,6 +135,9 @@ Per regolare le colonne del widget Richieste personali:
 1. Nel widget Richieste personali, fare clic su **Colonne**.
 1. (Facoltativo)Per riordinare le colonne, fare clic sul quadratino di trascinamento ![trascinamento](assets/drag-handle.png) della colonna che si desidera spostare e trascinarlo nelle posizioni desiderate. La colonna nella parte superiore dell&#39;elenco viene visualizzata nel widget Richieste personali come colonna all&#39;estrema sinistra.
 1. (Facoltativo) Utilizza l&#39;interruttore per controllare se una colonna viene visualizzata nel widget Richieste personali.
+1. <span class="preview">Per aggiungere un campo personalizzato come colonna, fare clic sull&#39;icona **Aggiungi colonna** ![Aggiungi colonna](assets/add-column.png) a destra dello schermo e fare clic sull&#39;icona più accanto al campo modulo personalizzato che si desidera aggiungere come colonna al widget.</span>
+
+   <span class="preview">I campi personalizzati nei moduli allegati all&#39;oggetto nell&#39;elenco sono disponibili per l&#39;aggiunta come colonne.</span>
 
 Le preferenze di colonna vengono salvate automaticamente.
 
