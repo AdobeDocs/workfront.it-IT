@@ -6,10 +6,10 @@ description: È possibile eliminare le richieste inviate o le bozze di richieste
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: 8b08336431d2e4ebfcb078d8329f8748fac66eda
+source-git-commit: d87df92f548b19901374e982d1759efade644e17
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 3%
+source-wordcount: '772'
+ht-degree: 2%
 
 ---
 
@@ -74,7 +74,7 @@ Puoi eliminare le richieste nell’area Richieste di Workfront o nel widget Rich
 * Gli amministratori dell&#39;area di lavoro di Workfront Planning possono eliminare le richieste <!--and drafts--> nell&#39;area di lavoro di Planning che amministrano.
 * Gli utenti possono eliminare le richieste <!--and drafts--> che hanno inviato.
 
-Per eliminare una richiesta o una bozza nella nuova esperienza richiedente:
+### Eliminare una richiesta dal menu a tre punti
 
 1. Per accedere all&#39;elenco Richieste, fare clic sull&#39;icona **[!UICONTROL Menu principale]** ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fare clic sull&#39;icona **[!UICONTROL Menu principale]** ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fare clic su **[!UICONTROL Richieste]**.
 
@@ -103,6 +103,24 @@ Per eliminare una richiesta o una bozza nella nuova esperienza richiedente:
 1. Nella finestra di dialogo visualizzata, fai clic su **Elimina**.
 
    Richiesta <!--or draft--> eliminata.
+
+### Richieste di eliminazione in blocco
+
+1. Per accedere all&#39;elenco Richieste, fare clic sull&#39;icona **[!UICONTROL Menu principale]** ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fare clic sull&#39;icona **[!UICONTROL Menu principale]** ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fare clic su **[!UICONTROL Richieste]**.
+
+1. Per accedere al widget Richieste personali nella Home:
+
+   1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Home]**.
+   1. Individuare il widget Richieste personali.
+
+      Per ulteriori informazioni sul widget Richieste personali, vedere [Utilizzare il widget Richieste personali](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. Nell&#39;elenco Richieste o nel widget Richieste personali fare clic sulla casella a sinistra di ogni richiesta che si desidera eliminare.
+1. Nella barra blu nella parte inferiore della pagina, fai clic su **Elimina**.
+
+   >[!NOTE]
+   >
+   >Se l’opzione Elimina non è visibile nella barra blu, non disponi dell’autorizzazione per eliminare una o più delle richieste selezionate.
 
 </div>
 
