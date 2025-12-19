@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 066f678d4b13371eeca6aced586e1853a973cc03
+source-git-commit: 46f3be50925d2e830c572ce9bbad0d3b320f6a95
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1501'
 ht-degree: 0%
 
 ---
@@ -142,6 +142,7 @@ Per informazioni, vedere [Modifica aree di lavoro](/help/quicksilver/planning/ar
 >Anteprima: 11 dicembre 2025
 >Versione rapida di produzione: 11 dicembre 2025
 >Produzione per tutti: 11 dicembre 2025
+>[!BADGE Fuori programma]{type=Neutral}
 
 Il campo di connessione con il marchio GenStudio for Performance Marketing viene ora aggiunto per impostazione predefinita ai tipi di record Prodotti e utenti tipo nell’area di lavoro GenStudio di Workfront Planning.
 
@@ -158,6 +159,7 @@ Per informazioni, vedere [Introduzione all&#39;integrazione di Adobe Workfront P
 >Anteprima: 11 dicembre 2025
 >Versione rapida di produzione: 11 dicembre 2025
 >Produzione per tutti: 11 dicembre 2025
+>[!BADGE Fuori programma]{type=Neutral}
 
 È stato aggiunto un guardrail che impedisce la rimozione delle autorizzazioni degli utenti di GenStudio for Performance Marketing dagli oggetti di Workfront Planning. Grazie a questo miglioramento, non sarà più possibile rimuovere gli utenti di GenStudio dall&#39;area di lavoro di GenStudio in Planning, né disabilitare le autorizzazioni ereditate per i tipi di record nell&#39;area di lavoro di GenStudio, se tali autorizzazioni includono gli utenti di GenStudio. Prima di questo miglioramento, se rimuovessi questi utenti dall’area di lavoro di GenStudio in Planning, perderebbero le autorizzazioni per i tipi di record anche in GenStudio.
 
