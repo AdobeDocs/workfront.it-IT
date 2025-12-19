@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
+source-git-commit: 066f678d4b13371eeca6aced586e1853a973cc03
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1497'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,23 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 <!--keep the sentence below for all future quarterly release pages-->
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Miglioramenti alle pagine dei record connessi
+
+>[!NOTE]
+>
+>Anteprima: 19 dicembre 2025
+>Velocità di produzione: 14 gennaio 2026
+>Produzione per tutti: 15 gennaio 2026
+
+Per offrire maggiore flessibilità nell&#39;utilizzo delle pagine dei record collegate, è stata migliorata la funzionalità delle visualizzazioni in quest&#39;area di Workfront Planning. Di seguito sono riportati i miglioramenti apportati alle pagine dei record connessi di un record:
+
+* È ora possibile aggiungere una visualizzazione timeline e una visualizzazione calendario alla pagina dei record connessi di un record.
+* È ora possibile condividere tutte le visualizzazioni da una pagina di record connessi. Le visualizzazioni condivise da queste pagine sono visibili a livello di sistema da tutti gli utenti con cui le condividi in qualsiasi altra area di Workfront Planning. Tutte le visualizzazioni condivise in qualsiasi altra area di Planning sono visibili anche nella pagina dei record connessi per gli stessi utenti con cui sono condivise.
+* È stata aggiunta una restrizione per consentire una sola pagina di record connessi per ogni record o tipo di oggetto. Prima di questo miglioramento, era possibile aggiungere più pagine per lo stesso record o tipo di oggetto. È ora possibile utilizzare più visualizzazioni per lo stesso tipo di record in una pagina record connessi.
+* È stato aggiunto un collegamento **Nuova riga** nella parte inferiore di una visualizzazione tabella e un pulsante **Connetti record** nell&#39;area superiore destra della pagina dei record connessi. Prima di questo miglioramento, il collegamento **Nuova riga** e il pulsante **Connetti record** esistevano solo in una pagina connessa al progetto.
+
+Per informazioni, vedere [Aggiungere una pagina Record connessi a un record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
 ## Condividere le visualizzazioni nella pagina dei record Progetti connessi
 
@@ -116,26 +133,7 @@ Sono stati apportati i seguenti miglioramenti alla pagina principale delle aree 
 
 Per informazioni, vedere [Modifica aree di lavoro](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
-<!--
 
-## Improvements to connected records pages
-
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast: January 14, 2026 
->Production for all: January 15, 2026 
-
-To give you more flexibility when working with connected records pages, we have enhanced the functionality of views in this area of Workfront Planning. The following are improvements in the connected records pages of a record that are coming with this release:
-
-* You can now add a timeline and a calendar view to a record's connected records page.
-* You can now share views from a connected records page. The views shared from these pages are visible system-wide by all users you share them with in any other area of Workfront Planning. All views shared in any other areas of Planning are also visible in the connected records page for the same users they are shared with.
-* We have added a restriction to only allow one connected records page per each record or object type. Prior to this enhancement, you could add multiple pages for the same record or object type. Now, you can use multiple views for the same record type in one connected records page.
-* We have added a **New row** link at the bottom of a table view and a **Connect records** button in the upper-right area of the connected records page. Prior to this enhancement, the **New row** link and the **Connect records** button existed only on a project connected page. 
-
-For information, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
-
--->
 
 ## Aggiunta del campo Connessione marchio a Prodotti e utenti tipo per impostazione predefinita nell’area di lavoro di GenStudio
 
