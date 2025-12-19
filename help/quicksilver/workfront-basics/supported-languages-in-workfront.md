@@ -6,9 +6,9 @@ description: Puoi modificare la lingua in cui vengono visualizzati Adobe Workfro
 feature: Get Started with Workfront
 author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 5304f25ecb198f45c024b71185747f47fa8307d4
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1168'
 ht-degree: 1%
 
 ---
@@ -92,7 +92,7 @@ Attualmente, Workfront Fusion supporta solo l’inglese.
 * Workfront Fusion non supporta l&#39;utilizzo di caratteri di testo non inglesi nei campi immessi dall&#39;utente.
 
 Per poter accedere a Workfront Fusion, l’azienda deve acquistare una licenza Workfront Fusion.\
-Per ulteriori informazioni su Workfront Fusion, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Per ulteriori informazioni su Workfront Fusion, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ## Modificare la lingua
 
@@ -106,10 +106,10 @@ Per visualizzare tutte le traduzioni disponibili per la lingua scelta, è necess
 
 Per determinare se la tua organizzazione è stata migrata al Adobe Admin Console, esamina l’URL utilizzato per visualizzare Workfront.
 
-| URL | Esperienza Adobe |
-|---|---|
-| (NomeSocietà).my.workfront.com | Migrazione a Adobe Admin Console non eseguita |
-| experience.adobe.com | Migrazione a Adobe Admin Console |
+| URL | Esperienza Adobe | Controllo lingua |
+|---|---|---|
+| (NomeSocietà).my.workfront.com | Migrazione a Adobe Admin Console non eseguita | [Cambia la lingua del browser](#change-the-browser-language) |
+| experience.adobe.com | Migrazione a Adobe Admin Console | [Cambia la lingua di Adobe Experience Cloud](#change-the-adobe-experience-cloud-language) |
 
 * [Modificare la lingua del browser](#change-the-browser-language)
 * [Modificare la lingua di Adobe Experience Cloud](#change-the-adobe-experience-cloud-language)

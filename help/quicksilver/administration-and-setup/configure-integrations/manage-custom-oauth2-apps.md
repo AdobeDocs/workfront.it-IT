@@ -8,10 +8,10 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
+source-git-commit: 31e5f5e039e25fa25f3038c23ee579ba1f830bb7
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 0%
+source-wordcount: '649'
+ht-degree: 2%
 
 ---
 
@@ -24,14 +24,14 @@ In qualità di amministratore di [!DNL Adobe Workfront], puoi visualizzare e ges
 >* Nel contesto di OAuth2, &quot;applicazione OAuth2&quot; fa riferimento a questo tipo di collegamento di accesso tra un&#39;app e un server come [!DNL Workfront]. Per ulteriori informazioni, consulta [Creare applicazioni OAuth2 per [!DNL Workfront] integrazioni](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 >* Puoi avere fino a un totale di dieci applicazioni OAuth2 alla volta.
 
-* Per informazioni sulla creazione di applicazioni OAuth2 personalizzate, consulta [Creare applicazioni OAuth2 per [!DNL Workfront] integrazioni](../../administration-and-setup/configure-integrations/create-oauth-application.md)
-* Per istruzioni sulla configurazione e l&#39;utilizzo dell&#39;applicazione OAuth2 con le credenziali utente (flusso del codice di autorizzazione), vedere [Configurare e utilizzare le applicazioni OAuth 2 personalizzate della propria organizzazione utilizzando il flusso del codice di autorizzazione](../../wf-api/api/oauth-app-code-token-flow.md).
-* Per istruzioni sulla configurazione e l&#39;utilizzo dell&#39;applicazione OAuth2 tramite l&#39;autenticazione del server (flusso JWT), consulta [Configurare e utilizzare le applicazioni OAuth 2 personalizzate della tua organizzazione tramite il flusso JWT](../../wf-api/api/oauth-app-jwt-flow.md).
+* Per informazioni, istruzioni e dettagli per la creazione di applicazioni OAuth2 personalizzate, consulta [Creare applicazioni OAuth2 per [!DNL Workfront] integrazioni](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+* Per informazioni, istruzioni e dettagli per configurare e utilizzare l&#39;applicazione OAuth2 con le credenziali utente (flusso del codice di autorizzazione), consulta [Configurare e utilizzare le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso del codice di autorizzazione](../../wf-api/api/oauth-app-code-token-flow.md).
+* Per informazioni, istruzioni e dettagli per configurare e utilizzare l&#39;applicazione OAuth2 tramite l&#39;autenticazione del server (flusso JWT), consulta [Configurare e utilizzare le applicazioni OAuth 2 personalizzate della tua organizzazione tramite il flusso JWT](../../wf-api/api/oauth-app-jwt-flow.md).
 * Per istruzioni sulla configurazione e l&#39;utilizzo dell&#39;applicazione OAuth2 tramite PKCE, vedere [Configurare e utilizzare le applicazioni OAuth 2 personalizzate della propria organizzazione utilizzando il flusso PKCE](../../wf-api/api/oauth-app-pkce-flow.md).
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 

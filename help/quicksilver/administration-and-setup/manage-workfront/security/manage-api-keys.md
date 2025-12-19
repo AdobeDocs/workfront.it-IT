@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 6b2d93d2573d72e4390761038d8078f47d96d55e
+source-git-commit: 87d3443c7b08c59d435e852c6a17df297e7023d6
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 2%
+source-wordcount: '1356'
+ht-degree: 3%
 
 ---
 
@@ -19,6 +19,21 @@ ht-degree: 2%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
+
+
+
+>[!IMPORTANT]
+>
+>Workfront non consiglia più di utilizzare l&#39;endpoint `/login` o le chiavi API. Utilizza invece uno dei seguenti metodi di autenticazione:
+>
+>* Autenticazione server con JWT
+>* Autenticazione utente con OAuth2
+>
+>Per istruzioni sulla configurazione di questi metodi di autenticazione, consulta [Creare applicazioni OAuth2 per le integrazioni Workfront](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
+>
+>Per istruzioni sull&#39;utilizzo dell&#39;autenticazione server in Workfront, consulta [Configurare e utilizzare le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso JWT](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md)
+>
+>Per istruzioni sull&#39;utilizzo dell&#39;autenticazione utente in Workfront, consulta [Configurare e utilizzare le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso del codice di autorizzazione](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md)
 
 Per ridurre al minimo le vulnerabilità di sicurezza API, gli amministratori di Adobe Workfront possono gestire le chiavi API utilizzate per consentire alle applicazioni di accedere a Workfront per conto di un utente.
 
@@ -35,7 +50,7 @@ Esempi di applicazioni che sfruttano l’API di Workfront sono:
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -73,10 +88,6 @@ Gli amministratori di Workfront dispongono inoltre di una chiave API univoca. Qu
 ## Gestire una chiave API di amministratore
 
 Puoi generare, reimpostare o rimuovere la chiave API per l’account utente amministratore.
-
->[!NOTE]
->
->Puoi anche generare una chiave API tramite l’API. Per ulteriori informazioni, vedere la sezione [API sottoscrizione eventi](../../../wf-api/general/event-subs-api.md) in [API sottoscrizione eventi](../../../wf-api/general/event-subs-api.md).
 
 {{step-1-to-setup}}
 

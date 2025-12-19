@@ -8,10 +8,10 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 31e5f5e039e25fa25f3038c23ee579ba1f830bb7
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 0%
+source-wordcount: '445'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ Per informazioni sulla creazione di problemi in [!DNL Workfront], vedi [Crea pro
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -87,7 +87,7 @@ Per personalizzare i nomi dei tipi di richiesta:
 1. Fai clic su **[!UICONTROL Preferenze progetto]** > **[!UICONTROL Stati]**.
 
 1. Fai clic sulla scheda **[!UICONTROL Issues]**.
-1. Nella parte superiore della scheda **[!UICONTROL Problemi]**, passa il puntatore del mouse sul nome di un tipo di richiesta, quindi fai clic sull&#39;icona **[!UICONTROL Modifica]** visualizzata.
+1. Nella parte superiore della scheda **[!UICONTROL Problemi]**, fai clic sul menu a discesa, seleziona un tipo di richiesta, quindi fai clic sull&#39;icona **[!UICONTROL Modifica]** visualizzata.
 
    ![Modifica nome tipo di richiesta](assets/edit-request-type-name-nwe.png)
 
