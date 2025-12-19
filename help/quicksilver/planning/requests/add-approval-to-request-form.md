@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: de568156315ff9094d938600c91b55e185d53765
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '680'
 ht-degree: 2%
 
 ---
@@ -102,7 +102,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    >
    >* Se si aggiungono più approvatori e l&#39;opzione È necessaria una sola decisione non è abilitata, tutti gli approvatori devono approvare la richiesta prima che Workfront Planning crei un record.
    >
-   >* Se almeno un approvatore rifiuta la richiesta, la richiesta viene rifiutata e il record non viene creato. La richiesta rimane nella scheda Pianificazione della sezione Inviata nell&#39;area Richieste di Workfront.
+   >* Se almeno un approvatore rifiuta la richiesta, la richiesta viene rifiutata e il record non viene creato. La richiesta rimane nell’area Richieste di Workfront.
    >
    >* Se si aggiungono più approvatori e l&#39;opzione È necessaria una sola decisione non è abilitata, tutti gli approvatori devono prendere una decisione prima che una richiesta venga approvata o rifiutata.
    >

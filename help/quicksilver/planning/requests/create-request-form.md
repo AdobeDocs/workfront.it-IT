@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '2678'
+source-wordcount: '2670'
 ht-degree: 1%
 
 ---
@@ -244,7 +244,7 @@ Nella scheda Configurazione puoi impostare il processo di approvazione e configu
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
    * Puoi aggiungere uno o più approvatori a un modulo di richiesta.
-   * Se almeno un approvatore rifiuta la richiesta, la richiesta viene rifiutata e il record non viene creato. La richiesta rimane nella scheda Pianificazione della sezione Inviata nell&#39;area Richieste di Workfront.
+   * Se almeno un approvatore rifiuta la richiesta, la richiesta viene rifiutata e il record non viene creato. La richiesta rimane nell’area Richieste di Workfront.
    * Se si aggiungono più approvatori e l&#39;opzione È necessaria una sola decisione non è abilitata, tutti gli approvatori devono prendere una decisione prima che una richiesta venga approvata o rifiutata.
    * Se un team è impostato come approvatore, è necessaria una sola decisione del team.
 

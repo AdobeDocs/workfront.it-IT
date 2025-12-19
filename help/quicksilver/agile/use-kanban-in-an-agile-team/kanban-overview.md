@@ -7,7 +7,7 @@ description: Leggi questo articolo per comprendere meglio come funziona la bache
 author: Jenny
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -22,13 +22,13 @@ Le sezioni seguenti consentono di comprendere meglio il funzionamento della bach
 
 Per una descrizione della metodologia K[!UICONTROL anban], vedere [Creare un team Agile](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
-Se sei interessato a migrare da una bacheca del team Agile [!UICONTROL Kanban] a [!DNL Workfront] [!UICONTROL Bacheche], consulta [Migrare le schede del team Agile [!UICONTROL Kanban] a [!DNL Workfront] Bacheche](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
+Se sei interessato a migrare da una bacheca del team Agile [!UICONTROL Kanban] a [!DNL Workfront] [!UICONTROL Bacheche], consulta [Migrare le schede del team Agile [!UICONTROL Kanban] a [!DNL Workfront] bacheche](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
 ## [!UICONTROL Kanban] layout bacheca e funzioni
 
 La bacheca [!UICONTROL Kanban] è costituita dai seguenti elementi:
 
-**Colonna backlog**: visualizza tutte le attività attualmente nel backlog. Questa colonna non viene visualizzata per impostazione predefinita. Per ulteriori informazioni sul backlog, tra cui come visualizzarlo sulla bacheca [!UICONTROL Kanban], vedi [Gestire il backlog Agile](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+**Colonna backlog**: visualizza tutte le attività attualmente nel backlog. Questa colonna non viene visualizzata per impostazione predefinita. Per ulteriori informazioni sul backlog, tra cui come visualizzarlo sulla bacheca [!UICONTROL Kanban], consulta [Gestire il backlog Agile](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 **Stati storia**: indica l&#39;avanzamento di una storia in base alla colonna di stato in cui si trova.
 

@@ -6,10 +6,10 @@ description: È possibile aggiungere storie a un'iterazione in molti modi.
 author: Jenny
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -37,7 +37,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Standard</p> 
-   <p>Lavoro o superiore</p> </td> 
+   <p>Work o successiva</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 

@@ -7,7 +7,7 @@ description: È possibile personalizzare il tipo di informazioni visualizzate in
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 0%
@@ -38,8 +38,8 @@ Di seguito sono riportati i tipi di visualizzazione che è possibile applicare a
 
 <table style="table-layout:auto">
     <tr>
-        <td><strong>Visualizzazioni standard</strong></td>
-        <td>È possibile applicarli a qualsiasi elenco o report di oggetti. Le visualizzazioni standard sono altamente personalizzabili. È possibile personalizzare e condividere una visualizzazione standard con altri utenti. Per informazioni, vedere <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Creare o modificare le visualizzazioni in Adobe Workfront</a>.</td>
+        <td><strong>Vista standard</strong></td>
+        <td>È possibile applicarlo a qualsiasi elenco o report di oggetti. Le visualizzazioni standard sono altamente personalizzabili. È possibile personalizzare e condividere una visualizzazione standard con altri utenti. Per informazioni, vedere <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Creare o modificare le visualizzazioni in Adobe Workfront</a>.</td>
     </tr>
     <tr>
         <td><strong>Vista bacheca</strong></td>

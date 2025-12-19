@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1875'
 ht-degree: 1%
 
 ---
@@ -186,7 +186,7 @@ L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi
      >
      >Impossibile visualizzare il campo **Oggetto**.
 
-     ![](assets/columns-editing-box-in-requests-planning-tab.png)
+     ![Casella di modifica colonne nell&#39;area Richieste](assets/columns-editing-box-in-requests-planning-tab.png)
 
 
 1. Fai clic sul nome di una richiesta nell’elenco.
@@ -206,7 +206,7 @@ L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi
    >
    >* Se il modulo di richiesta è associato a un’approvazione, questa deve essere concessa prima di poter accedere al record dalla pagina della richiesta.
 
-1. (Facoltativo) Fare clic sul nome del tipo di record **&#x200B;**.
+1. (Facoltativo) Fare clic sul nome del tipo di record ****.
 
    La pagina del tipo di record viene visualizzata in Workfront Planning.
 

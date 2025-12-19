@@ -2,23 +2,23 @@
 product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
 title: Gestire il backlog Agile
-description: Le attività e i problemi possono essere assegnati a un team agile e aggiunti al backlog del team come storie, a seconda della metodologia agile utilizzata dal team.
+description: Attività e problemi possono essere assegnati a un team Agile e aggiunti al backlog del team come storie, a seconda della metodologia Agile utilizzata dal team.
 author: Jenny
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '1334'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Gestire il backlog agile
+# Gestire il backlog Agile
 
-I seguenti elementi di lavoro possono essere assegnati a un team agile e aggiunti al backlog del team come storie, a seconda della metodologia agile utilizzata dal team:
+I seguenti elementi di lavoro possono essere assegnati a un team Agile e aggiunti al backlog del team come storie, a seconda della metodologia Agile utilizzata dal team:
 
-* **[!UICONTROL Team agili Scrum]:** È possibile assegnare attività e problemi al team agile e aggiungerli al backlog.
-* **[!UICONTROL Team Kanban Agile]:** Le attività possono essere assegnate al team Agile e aggiunte al backlog. Gli utenti possono visualizzare il backlog direttamente dalla bacheca delle storie agile, come descritto in [[!UICONTROL Aggiungere il backlog] alla bacheca Kanban](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). Il team utilizza questo backlog per assegnare la priorità e gestire la coda di lavoro.
+* **[!UICONTROL Team Agile Scrum]:** È possibile assegnare attività e problemi al team Agile e aggiungerli al backlog.
+* **[!UICONTROL Team Kanban Agile]:** Le attività possono essere assegnate al team Agile e aggiunte al backlog. Gli utenti possono visualizzare il backlog direttamente dalla bacheca delle storie di Agile, come descritto in [[!UICONTROL Aggiungere il backlog] alla bacheca Kanban](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). Il team utilizza questo backlog per assegnare la priorità e gestire la coda di lavoro.
 
 Le attività o i problemi possono essere assegnati al team (e successivamente aggiunti al backlog del team) da qualsiasi posizione in [!DNL Adobe Workfront]. Ad esempio, a un singolo team possono essere assegnate assegnazioni di lavoro da più progetti.
 
@@ -28,7 +28,7 @@ Le attività o i problemi possono essere assegnati al team (e successivamente ag
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +43,7 @@ Le attività o i problemi possono essere assegnati al team (e successivamente ag
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Standard</p> 
-   <p>Lavoro o superiore</p> </td> 
+   <p>Work o successiva</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
@@ -66,19 +66,19 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 È possibile riordinare i brani nell&#39;elenco dei backlog utilizzando il metodo di trascinamento della selezione.
 
-1. Vai al backlog agile in cui desideri riordinare le storie.
+1. Vai al backlog Agile in cui desideri riordinare le storie.
 1. Nel menu a discesa **[!UICONTROL Visualizza]**, selezionare la visualizzazione **[!UICONTROL Backlog]** o una visualizzazione personalizzata contenente la colonna **[!UICONTROL Ordine]**.
 
    >[!NOTE]
    >
-   >Se a un’attività o a un problema è assegnato un team agile e lo stato del progetto non è Corrente, il team non viene visualizzato nel backlog. Tuttavia, influiscono ancora sul conteggio del backlog nella colonna Ordine.
+   >Se a un’attività o a un problema è assegnato un team Agile e lo stato del progetto non è Corrente, il team non viene visualizzato nel backlog. Tuttavia, influiscono ancora sul conteggio del backlog nella colonna Ordine.
 
 1. Seleziona uno o più brani, quindi trascina i brani nell’ordine in cui desideri che vengano visualizzati nel backlog.
    ![Trascina gli elementi del backlog](assets/agile-backlog-drag-and-drop.png)
 
 ### Suddividere storie {#break-down-stories}
 
-Poiché le storie in un backlog hanno dimensioni diverse, gli utenti possono suddividerle in dimensioni utilizzabili per un’iterazione. La suddivisione di un brano crea sottoattività sull&#39;attività rappresentata e sostituisce l&#39;attività originale nel backlog. È possibile assegnare un&#39;attività padre o le relative sottoattività a un team Agile, ma non è possibile assegnarle entrambe contemporaneamente a un team.
+Poiché le storie in un backlog hanno dimensioni diverse, gli utenti possono suddividerle in dimensioni utilizzabili per un’iterazione. La suddivisione di un brano crea sottoattività sull&#39;attività rappresentata e sostituisce l&#39;attività originale nel backlog. Puoi assegnare un’attività padre o le relative sottoattività a un team Agile, ma non puoi assegnarle entrambe contemporaneamente a un team.
 
 >[!NOTE]
 >
@@ -108,7 +108,7 @@ Puoi modificare i brani direttamente dalle schede [!UICONTROL Storie] o [!UICONT
 Puoi creare nuovi brani nel backlog creando il brano direttamente dal backlog o assegnando un’attività o un problema esistente a un team Agile.
 
 * [Creare una storia dal backlog](#create-a-story-from-the-backlog)
-* [Assegnare un’attività o un problema a un team agile](#assign-a-task-or-issue-to-an-agile-team)
+* [Assegnare un’attività o un problema a un team Agile](#assign-a-task-or-issue-to-an-agile-team)
 
 ### Creare una storia dal backlog {#create-a-story-from-the-backlog}
 
@@ -152,7 +152,7 @@ Per creare una storia dal backlog:
       <td>Specificate un punto o una stima oraria per il brano. Le stime influiscono sul grafico a dispersione. Il grafico a burn-down per un'iterazione è accurato solo se ogni storia contiene una stima accurata. Se fornisci una stima puntuale, devi avere già indicato nelle impostazioni del team quante ore ogni punto rappresenta.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>Progetto padre </strong></td>
+      <td role="rowheader"><strong>Progetto padre [!UICONTROL]</strong></td>
       <td>Inizia a digitare il nome del progetto in cui verrà creato il brano, quindi fai clic sul nome quando viene visualizzato nell’elenco a discesa.<br>Lo stato del progetto deve essere impostato su [!UICONTROL Current]. Se lo stato del progetto è diverso da [!UICONTROL Current], non viene visualizzato nel menu a discesa.</td>
      </tr>
      <tr>
@@ -168,11 +168,11 @@ Per creare una storia dal backlog:
 
 1. Fai clic su **[!UICONTROL Salva storia]**.
 
-### Assegnare un’attività o un problema a un team agile {#assign-a-task-or-issue-to-an-agile-team}
+### Assegnare un’attività o un problema a un team Agile {#assign-a-task-or-issue-to-an-agile-team}
 
-Puoi assegnare un’attività o un problema a un team agile. Dopo l’assegnazione, l’attività o il problema viene visualizzato come un nuovo brano nel backlog del team.
+Puoi assegnare un’attività o un problema a un team Agile. Dopo l’assegnazione, l’attività o il problema viene visualizzato come un nuovo brano nel backlog del team.
 
-Per assegnare un’attività o un problema a un team agile:
+Per assegnare un’attività o un problema a un team Agile:
 
 1. Passare al progetto contenente l&#39;attività che si desidera assegnare.
 1. Seleziona l’attività o il problema nell’elenco.
@@ -192,7 +192,7 @@ L’attività o il problema è ora disponibile nel backlog del team.
 
 ### Spostare i brani dal backlog a un’iterazione o bacheca
 
-1. Vai al backlog del team agile.
+1. Vai al backlog del team Agile.
 1. Seleziona i brani da spostare in un&#39;iterazione o una bacheca Kanban, quindi fai clic su **[!UICONTROL Altro]** > **[!UICONTROL Sposta in]**.
 Se si sposta la storia in una bacheca [!UICONTROL Kanban], viene visualizzata la bacheca [!UICONTROL Move Story to the Kanban].
 Se si sposta il brano in un&#39;iterazione, viene visualizzata la finestra di dialogo [!UICONTROL Sposta brano in un&#39;iterazione].

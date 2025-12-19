@@ -7,7 +7,7 @@ description: Agile è una metodologia di lavoro che consente ai team di completa
 author: Jenny
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Per iniziare a utilizzare la funzione agile avanzata in Workfront:
 
 1. Team Kanban: gestisci il backlog e genera la bacheca [!UICONTROL Kanban].
 
-   Per informazioni, vedere [Gestire il backlog Agile](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) e [Panoramica Kanban](../agile/use-kanban-in-an-agile-team/kanban-overview.md).
+   Per informazioni, consulta [Gestire il backlog Agile](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) e [Panoramica Kanban](../agile/use-kanban-in-an-agile-team/kanban-overview.md).
 
 1. Team Scrum: gestisci il backlog, crea un&#39;iterazione e crea la bacheca [!UICONTROL Scrum].
 

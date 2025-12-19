@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 880828f4-3908-4ef0-ab1f-774f8dee72b6
-source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '3791'
 ht-degree: 0%
@@ -94,13 +94,13 @@ Per ulteriori informazioni, vedere &quot;Personalizzazione della home&quot; in &
 
 ## Kanban per Agile  {#kanban-for-agile}
 
-I team agili possono ora utilizzare una metodologia Kanban in Workfront, oltre alla metodologia agile Scrum già supportata.
+I team Agile possono ora utilizzare una metodologia Kanban in Workfront, oltre alla metodologia Scrum Agile già supportata.
 
-Le metodologie agili Scrum e Kanban in Workfront differiscono nei seguenti modi:
+Le metodologie Scrum e Kanban Agile in Workfront differiscono nei seguenti modi:
 
 **Vantaggi dell&#39;utilizzo di Kanban in Workfront**
 
-* Visualizza il backlog sullo storyboard Kanban agile.
+* Visualizza il backlog sullo storyboard Kanban Agile.
 
   Per ulteriori informazioni, consulta in .
 
@@ -108,15 +108,15 @@ Le metodologie agili Scrum e Kanban in Workfront differiscono nei seguenti modi:
 
   Per ulteriori informazioni, vedere [Configurare i brani da aggiungere automaticamente dal backlog](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) in [Configurare Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
-* Configurare un limite WIP (Work In Progress) da visualizzare sullo storyboard Kanban agile.
+* Configurare un limite WIP da visualizzare sullo storyboard Kanban Agile.
 
   Per ulteriori informazioni, vedere [Configurare il limite WIP](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) in [Configurare Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
 **Vantaggi dell&#39;utilizzo di Scrum in Workfront**
 
-* Aggiungi un set di storie a un’iterazione agile e crea una bacheca delle storie per tale iterazione.
+* Aggiungi un set di storie a un’iterazione Agile e crea una bacheca delle storie per tale iterazione.
 * Includi problemi nella bacheca delle storie Scrum.
-* Includi problemi nel backlog di un team Agile.
+* Includi i problemi nel backlog di un team Agile.
 
   Per ulteriori informazioni, vedere [Configurare le modalità di applicazione delle date quando si aggiungono elementi di lavoro a un&#39;iterazione](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in [Configurare Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
@@ -133,7 +133,7 @@ Per ulteriori informazioni sull&#39;abilitazione e la configurazione di Kanban p
 >
 >Questa funzionalità è stata rimossa dall’ambiente di produzione il 14 novembre 2017. È previsto che venga reintrodotto nell’ambiente di anteprima all’inizio del 2018 con un design migliorato e una maggiore stabilità. Sarà disponibile nell’ambiente di produzione con la versione 2018.1.
 
-Ora è possibile includere i problemi nel backlog del team agile quando si utilizza la metodologia agile Scrum (i problemi non vengono visualizzati nel backlog di un team agile quando si utilizza la metodologia Kanban). I team agili Scrum esistenti devono abilitare questa funzionalità per includere i problemi. I problemi vengono inclusi automaticamente nel backlog per i team agili Scrum creati dopo la versione 2017.3.
+Ora puoi includere i problemi nel backlog del team Agile quando utilizzi la metodologia Scrum Agile (i problemi non vengono visualizzati nel backlog di un team Agile quando si utilizza la metodologia Kanban). I team Scrum Agile esistenti devono abilitare questa funzionalità per includere i problemi. I problemi vengono inclusi automaticamente nel backlog per i team Scrum Agile creati dopo la versione 2017.3.
 
 Prima di questa modifica, era possibile aggiungere al backlog solo le attività. Se desideri aggiungere un problema, devi prima convertirlo in un’attività prima di poterlo aggiungere.
 
@@ -141,7 +141,7 @@ Poiché ora è possibile accedere a più attività del backlog, tutte le visuali
 
 Per informazioni sull’utilizzo dei problemi nel backlog, consulta  [Gestione del backlog Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
-Per informazioni sull’abilitazione della disponibilità dei problemi nel backlog di un team Scrum agile, consulta  [Configurare le modalità di applicazione delle date quando si aggiungono elementi di lavoro a un&#39;iterazione](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in [Configurare Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+Per informazioni sull’abilitazione della disponibilità dei problemi nel backlog di un team Scrum di Agile, consulta  [Configurare le modalità di applicazione delle date quando si aggiungono elementi di lavoro a un&#39;iterazione](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in [Configurare Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Includi problemi nella bacheca delle storie di Scrum Agile {#include-issues-on-the-scrum-agile-story-board}
 
@@ -149,7 +149,7 @@ Per informazioni sull’abilitazione della disponibilità dei problemi nel backl
 >
 >Questa funzionalità è stata rimossa dall’ambiente di produzione il 14 novembre 2017. È previsto che venga reintrodotto nell’ambiente di anteprima all’inizio del 2018 con un design migliorato e una maggiore stabilità. Sarà disponibile nell’ambiente di produzione con la versione 2018.1.
 
-Ora puoi includere problemi nella bacheca delle storie quando utilizzi la metodologia agile Scrum.
+Ora puoi includere problemi nella bacheca delle storie quando utilizzi la metodologia Scrum Agile.
 
 Per ulteriori informazioni, vedere [Configurare le colonne di stato sulla bacheca delle storie Agile](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur2) in [Configurare Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
@@ -159,7 +159,7 @@ Per ulteriori informazioni, vedere [Configurare le colonne di stato sulla bachec
 >
 >Questa funzionalità è stata rimossa dall’ambiente di produzione il 14 novembre 2017. È previsto che venga reintrodotto nell’ambiente di anteprima all’inizio del 2018 con un design migliorato e una maggiore stabilità. Sarà disponibile nell’ambiente di produzione con la versione 2018.1.
 
-Le opzioni Raggruppamento e Filtro sono ora disponibili nel backlog Agile, che consente di organizzare il backlog per raggruppamenti e di filtrare per attività e problemi specifici.
+Le opzioni Raggruppamento e Filtro sono ora disponibili nel backlog Agile, consentendoti di organizzare il backlog per raggruppamenti e di filtrare per attività e problemi specifici.
 
 Prima di questa modifica, era possibile applicare sulle viste il backlog Agile.
 

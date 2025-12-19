@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: 90d472307ffb6b524154696b4c14d725db44b079
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '2020'
 ht-degree: 1%
@@ -97,9 +97,9 @@ Considerare le seguenti informazioni sulla connessione dei tipi di record:
 
       * Nel tipo di record da cui si sta effettuando la connessione viene creato un campo record collegato. Nessun campo record collegato viene creato automaticamente sul tipo di oggetto dell&#39;altra applicazione.
       * I campi dei record di Planning non sono accessibili dagli oggetti di Workfront.
-      * I record di Planning sono visibili dalla scheda Planning dell&#39;oggetto Workfront. Per informazioni, vedere [Gestire le connessioni record dagli oggetti Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+      * I record di Planning sono visibili dalla sezione Planning dell&#39;oggetto Workfront. Per informazioni, vedere [Gestire le connessioni record dagli oggetti Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * È possibile creare un campo personalizzato della connessione Planning e allegarlo al modulo personalizzato di un oggetto Workfront. Per informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-      * I campi del record di pianificazione sono accessibili dalle risorse di Experience Manager quando l’amministratore Workfront configura la mappatura dei metadati tramite l’integrazione tra Workfront e Adobe Experience Manager Assets. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+      * I campi del record di pianificazione sono accessibili dalle risorse di Experience Manager quando l’amministratore Workfront configura la mappatura dei metadati tramite l’integrazione tra Workfront e Adobe Experience Manager Assets. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
       * I campi dei record di pianificazione non sono accessibili dai marchi in GenStudio for Performance Marketing.
 
 

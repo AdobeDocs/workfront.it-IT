@@ -6,16 +6,16 @@ description: Potete creare una storia agile su un'iterazione in vari modi. Dopo 
 author: Jenny
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '695'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Creare una storia agile
+# Creare una storia Agile
 
-Potete creare una storia agile su un&#39;iterazione in vari modi. Dopo aver creato una storia agile, potete aggiungere sottoattività alla storia.
+Puoi creare una storia Agile su un’iterazione in vari modi. Dopo aver creato un brano Agile, potete aggiungere sottoattività al brano.
 
 Quando aggiungi una storia o un&#39;attività secondaria in un&#39;iterazione, il Tipo di durata è impostato su [!UICONTROL Semplice] e il Vincolo attività è impostato su Date fisse, con le date bloccate all&#39;interno dell&#39;iterazione. Non è possibile modificare il Tipo di durata o il Vincolo attività in un&#39;iterazione. Inoltre, la durata dell&#39;attività deve essere maggiore di 0 minuti.
 
@@ -23,7 +23,7 @@ Per informazioni su come gestire il brano dopo che è stato aggiunto all&#39;ite
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +38,7 @@ Per informazioni su come gestire il brano dopo che è stato aggiunto all&#39;ite
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Standard</p> 
-   <p>Lavoro o superiore</p> </td> 
+   <p>Work o successiva</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
@@ -51,9 +51,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 +++
 
-## Creare una storia agile in un’iterazione
+## Creare una storia Agile in un’iterazione
 
-1. Passare all&#39;iterazione agile in cui si desidera creare la storia:
+1. Passa all’iterazione Agile in cui desideri creare il brano:
 
    {{step1-to-team}}
 
@@ -85,10 +85,10 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Stima] (punti)</strong></td>
-      <td>Specificate la stima per il brano. Se il team agile è configurato per stimare le storie in punti, per impostazione predefinita 1 punto equivale a 8 ore. Le stime vengono aggiunte come [!UICONTROL Lavoro Necessario] alla storia.<br>Ad esempio, se si stima una storia come 3 punti, il comportamento predefinito consiste nell'aggiungere 24 [!UICONTROL Planned Hours] alla storia.<br>Se un brano contiene sottoattività, tenere presente che le stime combinate di tutte le sottoattività determinano la stima del brano principale. Per ulteriori informazioni, vedere <a href="../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md" class="MCXref xref">Aggiungere brani a un'iterazione esistente</a>.</td>
+      <td>Specificate la stima per il brano. Se il team Agile è configurato per stimare le storie in punti, per impostazione predefinita 1 punto equivale a 8 ore. Le stime vengono aggiunte come [!UICONTROL Lavoro Necessario] alla storia.<br>Ad esempio, se si stima una storia come 3 punti, il comportamento predefinito consiste nell'aggiungere 24 [!UICONTROL Planned Hours] alla storia.<br>Se un brano contiene sottoattività, tenere presente che le stime combinate di tutte le sottoattività determinano la stima del brano principale. Per ulteriori informazioni, vedere <a href="../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md" class="MCXref xref">Aggiungere brani a un'iterazione esistente</a>.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>Progetto padre </strong></td>
+      <td role="rowheader"><strong>Progetto padre [!UICONTROL]</strong></td>
       <td>Inizia a digitare il nome del progetto a cui sarà associata questa storia.<br>Per impostazione predefinita, il colore del brano viene visualizzato con lo stesso colore degli altri brani di questo progetto.<br>Lo stato del progetto deve essere impostato su [!UICONTROL Current]. Se lo stato del progetto è diverso da [!UICONTROL Current], non viene visualizzato nel menu a discesa.</td>
      </tr>
      <tr>
@@ -104,17 +104,17 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Fai clic su **[!UICONTROL Salva storia]**.
 
-## Creare una storia agile nel backlog
+## Creare una storia Agile nel backlog
 
-Puoi creare una storia agile dal backlog agile, come descritto nella sezione [Creare nuove storie nel backlog](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#creating-new-stories) nell&#39;articolo [[!UICONTROL Gestire] il backlog agile](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Puoi creare una storia Agile dal backlog Agile, come descritto nella sezione [Creare nuove storie nel backlog](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#creating-new-stories) nell&#39;articolo [[!UICONTROL Gestire] il backlog Agile](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
-## Aggiungere un’attività o un problema come storia agile
+## Aggiungere un’attività o un problema come storia Agile
 
 È possibile aggiungere un’attività o un problema esistente come storia a un’iterazione. Per ulteriori informazioni, consulta [Aggiungere brani a un&#39;iterazione esistente](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) o [Aggiungere brani e problemi dalla bacheca [!UICONTROL Scrum]](../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md).
 
-## Creare sottoattività in una storia agile
+## Creare sottoattività in una storia Agile
 
-È possibile creare un&#39;attività secondaria in un brano agile utilizzando uno dei metodi seguenti:
+È possibile creare un&#39;attività secondaria in un brano Agile utilizzando uno dei metodi seguenti:
 
 * Utilizzando la scheda **[!UICONTROL Sottoattività]**, come descritto in [Crea sottoattività](../../manage-work/tasks/create-tasks/create-subtasks.md#creating-subtasks) in [Crea sottoattività](../../manage-work/tasks/create-tasks/create-subtasks.md).
 

@@ -6,10 +6,10 @@ description: Puoi visualizzare una colonna [!UICONTROL Backlog] direttamente sul
 author: Jenny
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -19,7 +19,7 @@ Puoi visualizzare una colonna [!UICONTROL Backlog] direttamente sul Kanban Board
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ Puoi visualizzare una colonna [!UICONTROL Backlog] direttamente sul Kanban Board
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Standard</p> 
-   <p>Lavoro o superiore</p> </td> 
+   <p>Work o successiva</p> </td> 
   </tr>
  </tbody> 
 </table>

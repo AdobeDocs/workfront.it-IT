@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 26bbc4a0-e5ed-4b5f-bfc2-f888362c1d22
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '1850'
 ht-degree: 0%
@@ -32,7 +32,7 @@ La versione 2018.1 di Beta 3 contiene miglioramenti sia per gli amministratori d
 
 **Per Tutti Gli Utenti**
 
-* [Miglioramenti al visualizzatore di bozze di HTML5](#html5-proofing-viewer-improvements)
+* [Miglioramenti del visualizzatore di bozze di HTML5](#html5-proofing-viewer-improvements)
 * [Miglioramenti delle bozze in Workfront](#proofing-improvements-within-workfront)
 * [Miglioramenti area Home](#home-area-improvements) 
 * [Miglioramenti Agile](#agile-improvements)
@@ -80,7 +80,7 @@ Per ulteriori informazioni sul ripristino degli elementi eliminati in Workfront,
 
 Per ulteriori informazioni sulle funzionalità di un amministratore di gruppo, vedere la sezione &quot;Capacità degli amministratori di gruppi&quot; in [Creare un gruppo](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md). 
 
-## Miglioramenti al visualizzatore di bozze di HTML5  {#html5-proofing-viewer-improvements}
+## Miglioramenti del visualizzatore di bozze di HTML5  {#html5-proofing-viewer-improvements}
 
 * [Modalità confronto](#compare-mode)
 * [Filtra l&#39;elenco dei commenti](#filter-the-comment-list)
@@ -184,7 +184,7 @@ Per ulteriori informazioni, vedere [Creare un&#39;iterazione](../../../../agile/
 
 ### Includi problemi nel backlog Scrum e nella bacheca delle storie per un team agile {#include-issues-on-the-scrum-backlog-and-story-board-for-an-agile-team}
 
-I problemi ora sono inclusi per impostazione predefinita nel backlog del team agile quando si utilizza la metodologia agile Scrum (i problemi non vengono visualizzati nel backlog di un team agile quando si utilizza la metodologia Kanban).
+I problemi ora sono inclusi per impostazione predefinita nel backlog del team Agile quando si utilizza la metodologia Scrum Agile (i problemi non vengono visualizzati nel backlog di un team Agile quando si utilizza la metodologia Kanban).
 
 Prima di questa modifica, era possibile aggiungere al backlog solo le attività. Se desideri aggiungere un problema, devi prima convertirlo in un’attività prima di poterlo aggiungere.
 
@@ -192,7 +192,7 @@ Per informazioni sull’utilizzo dei problemi nel backlog, consulta  [Gestione 
 
 ### Applicare raggruppamenti e filtri al backlog per un team agile {#apply-groupings-and-filters-to-the-backlog-for-an-agile-team}
 
-Le opzioni Raggruppamento e Filtro sono ora disponibili nel backlog Agile, che consente di organizzare il backlog per raggruppamenti e di filtrare per attività e problemi specifici.
+Le opzioni Raggruppamento e Filtro sono ora disponibili nel backlog Agile, consentendoti di organizzare il backlog per raggruppamenti e di filtrare per attività e problemi specifici.
 
 Prima di questa modifica, era possibile applicare sulle viste il backlog Agile.
 

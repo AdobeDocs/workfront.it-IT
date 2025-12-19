@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '3147'
+source-wordcount: '3143'
 ht-degree: 0%
 
 ---
@@ -208,7 +208,7 @@ Viene aperto il modulo di richiesta del tipo di record.
 
    * Al tipo di record viene aggiunto un nuovo record, a meno che non si sia scelto di aggiungerlo utilizzando un modulo di richiesta con un processo di approvazione. L&#39;approvazione deve essere concessa da tutti gli approvatori prima della creazione del record.
    * Se si aggiungono record utilizzando un foglio di calcolo CSV o Excel, al tipo di record verranno aggiunti più record.
-   * Se la richiesta è stata aggiunta inviando un modulo di richiesta, nella scheda Pianificazione dell&#39;area Richieste Workfront viene aggiunta una nuova richiesta.
+   * Se hai aggiunto la richiesta inviando un modulo di richiesta, viene aggiunta una nuova richiesta nell’area Richieste di Workfront.
 
 <!-- this is not possible anymore: 
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1103'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Si consiglia inoltre di visualizzare i seguenti articoli:
 
 ## Considerazioni sull’approvazione delle richieste
 
-* Le richieste inviate vengono visualizzate nella scheda Pianificazione della sezione Inviate dell&#39;area Richieste di Workfront con uno dei seguenti stati di richiesta:
+* Le richieste inviate vengono visualizzate nell’area Richieste di Workfront con uno dei seguenti stati di richiesta:
 
    * **Revisione in sospeso**: questo stato viene visualizzato quando nessuno degli approvatori ha aperto l&#39;oggetto della richiesta.
    * **In revisione**: lo stato **In attesa di revisione** diventa **In revisione** quando almeno un approvatore apre l&#39;oggetto della richiesta. Lo stato della richiesta rimane **In revisione** fino a quando tutti gli approvatori non avranno approvato la richiesta.
@@ -118,7 +118,7 @@ Gli approvatori ricevono le seguenti notifiche relative a una richiesta in attes
    La pagina della richiesta si apre in modalità di sola lettura.
 
    ![Pagina richiesta di sola lettura in stato di revisione](assets/read-only-reqeust-page-in-review-status.png)
-1. Se utilizzi la nuova esperienza di richiesta in Workfront, fai clic su **Menu principale** ![Menu principale punti](assets/dots-menu.png) nell&#39;angolo superiore destro dello schermo o sul **Menu principale** ![Menu principale righe](assets/lines-menu.png) nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **Richieste** e fai clic sulla richiesta che desideri approvare con lo stato di **Revisione in sospeso** o **In revisione**.
+1. Se utilizzi la nuova esperienza di richiesta in Workfront, fai clic su **Menu principale** ![Menu principale punti](assets/dots-menu.png) nell&#39;angolo superiore destro dello schermo o sul **Menu principale** ![Menu principale righe](assets/lines-menu.png) nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **Richieste** e fai clic sulla richiesta che desideri approvare con lo stato di **Revisione in sospeso**.
 1. (Facoltativo) Fai clic sull&#39;icona **Approvazioni** ![Approvazioni](assets/approvals-icon.png) nell&#39;angolo superiore destro della richiesta per visualizzare gli approvatori.
 1. Fai clic su **Rivedi e approva**, quindi scegli una delle seguenti opzioni:
 
@@ -132,7 +132,7 @@ Gli approvatori ricevono le seguenti notifiche relative a una richiesta in attes
    * **Completato**: la richiesta è approvata.
    * **Rifiutata**: richiesta rifiutata.
 
-   La richiesta rimane nella scheda Pianificazione della sezione Inviata nell&#39;area Richieste di Workfront.
+   La richiesta rimane nell’area Richieste di Workfront.
 
 <div class="preview">
 

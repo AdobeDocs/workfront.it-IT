@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '2745'
+source-wordcount: '2743'
 ht-degree: 0%
 
 ---
@@ -40,19 +40,6 @@ Quando si aggiunge una pagina Record connessi a un record, tenere presente quant
       * <span class="preview">Timeline</span>
       * <span class="preview">Calendario</span>
    * È possibile visualizzare i progetti Workfront connessi nella vista a elenco.
-
-
-<!--replace the above bullet with this: 
-
-* You can display the objects in a connected records page in the following types of views:
-
-   * Table
-   * <span class="preview">Timeline</span>
-   * <span class="preview">Calendar</span>
-
-* <span class="preview">You can create one page per one object or record type. For example, you cannot create two connected record pages for connected projects or tactics.</span>
-
--->
 
 * È possibile aggiungere pagine Record collegati per i tipi di oggetto o record connessi seguenti:
 
@@ -89,7 +76,7 @@ Quando si aggiunge una pagina Record connessi a un record, tenere presente quant
    <ul><li><p>Una licenza Adobe Experience Manager Assets e un’integrazione tra AEM Assets e Workfront per collegare le risorse AEM ai tipi di record Planning.</p>
    <p>Per informazioni, consulta <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p></li>
    <li><p> Una licenza Adobe GenStudio for Performance Marketing per collegare i tipi di record ai marchi GenStudio</p>
-   <p>Per informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/get-started">Introduzione ad Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Per informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introduzione ad Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>
 
@@ -132,7 +119,7 @@ Prima di aggiungere una pagina record connessa a un record, è necessario colleg
    >[!TIP]
    >
    ><span class="preview">È possibile creare una pagina di record connessi per tipo di record. Se un tipo di record connesso dispone già di una pagina, non verrà più visualizzato come opzione.</span>
-
+   >
 
 1. (Facoltativo e condizionale) Se più campi collegati del record o del tipo di oggetto per cui si sta creando la pagina vengono visualizzati, fare clic sul campo di cui si desidera visualizzare i record o gli oggetti nella pagina dei record connessi dall&#39;elenco **Seleziona campo di riferimento**.
 
@@ -149,7 +136,7 @@ Prima di aggiungere una pagina record connessa a un record, è necessario colleg
    >
    >È necessario aggiungere i record connessi nella tabella o nell&#39;area Dettagli di un record prima di visualizzarli in una pagina dei record connessi. In caso contrario, la tabella o l&#39;elenco sono vuoti.
 
-   I primi cinque campi dei record connessi vengono visualizzati per impostazione predefinita. <!--No lookup fields display by default.-->
+   I primi cinque campi dei record connessi vengono visualizzati per impostazione predefinita. Per impostazione predefinita, non viene visualizzato alcun campo di ricerca.
 
    ![Visualizzazione tabella connessa al pubblico nei dettagli della campagna](assets/audience-connected-table-view-under-campaign-details-page.png)
 
@@ -165,9 +152,6 @@ Per informazioni, vedere la sezione [Gestire la pagina dei record connessi per i
    Oppure
 
    Passa il puntatore del mouse sul nome della scheda, quindi fai clic su **Altro** ![Altro menu](assets/more-menu.png), quindi fai clic su **Rinomina** per rinominare la scheda della pagina dei nuovi record connessi.
-
-
-   <!--1. <span class="preview">(Optional) Click the dropdown menu to the right of the view name, then click **New view** to add a view. For more information, see the section [Manage multiple views from the connected records page](#manage-multiple-views-from-the-connected-records-page) in this article. </span>-->
 
 1. (Facoltativo) Passa il puntatore del mouse sul nome della scheda della pagina dei record connessi, fai clic su **Altro** ![Altro menu](assets/more-menu.png), quindi fai clic su **Elimina** per rimuoverlo dalla scheda.
 
@@ -185,6 +169,7 @@ I record collegati al record selezionato vengono visualizzati nella vista tabell
 1. Fai clic su **Connetti** nella parte inferiore della visualizzazione tabella per connettere i record esistenti, selezionarli dalla casella di connessione, quindi fai clic all&#39;esterno della casella per chiuderla. I record vengono aggiunti automaticamente alla tabella e collegati al record selezionato. I record devono esistere prima di poterli aggiungere.
 
    Per ulteriori informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
+
 1. Modificare le informazioni dei record collegati in linea nella vista tabella.
 1. Passa il puntatore del mouse sul nome di un record connesso, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png)
 
@@ -204,6 +189,7 @@ I record collegati al record selezionato vengono visualizzati nella vista tabell
      >[!TIP]
      >
      >È possibile selezionare più record o oggetti per eliminarli.
+     >
 
 1. Modifica in linea qualsiasi record della tabella nella pagina dei record connessi.
 1. Utilizzare uno degli elementi di visualizzazione riportati di seguito nella barra degli strumenti di una pagina di record connessa per gestire la visualizzazione tabella.
@@ -220,6 +206,7 @@ I record collegati al record selezionato vengono visualizzati nella vista tabell
    >[!NOTE]
    >
    >Non è possibile creare, modificare o eliminare campi nella visualizzazione per tabella della scheda di un record connesso.
+   >
 
 <div class="preview">
 
@@ -233,6 +220,7 @@ I record collegati al record selezionato vengono visualizzati nella vista tabell
 1. Fare clic su **Connetti record** nell&#39;angolo superiore destro della pagina dei record connessi per connettere i record esistenti, selezionarli dalla casella di connessione, quindi fare clic all&#39;esterno della casella per chiuderla. I record vengono aggiunti automaticamente alla tabella e collegati al record selezionato. I record devono esistere prima di poterli aggiungere.
 
    Per ulteriori informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
+
 1. Fai clic su **Nuova riga** nella parte inferiore della tabella per aggiungere nuovi record. I nuovi record vengono automaticamente connessi ai record selezionati.
 1. Modificare le informazioni dei record collegati in linea nella vista tabella.
 1. Passa il puntatore del mouse sul nome di un record connesso, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png)
@@ -269,7 +257,10 @@ I record collegati al record selezionato vengono visualizzati nella vista tabell
    >[!NOTE]
    >
    >Non è possibile creare, modificare o eliminare campi nella visualizzazione per tabella della scheda di un record connesso.
+   >
+
 1. Fare clic sul menu a discesa delle visualizzazioni e quindi su **Nuova visualizzazione** per aggiungere una nuova visualizzazione alla pagina, quindi eseguire le operazioni seguenti:
+
    1. Aggiungi **Nome visualizzazione**.
    1. Nell&#39;area **Tipo di visualizzazione** selezionare uno dei tipi di visualizzazione seguenti:
 
@@ -284,10 +275,11 @@ Per informazioni, vedere [Gestire la visualizzazione del calendario](/help/quick
 
    1. Fai clic su **Crea**.
 Una nuova vista viene aggiunta al menu a discesa delle viste.
+
    1. (Facoltativo) Passa il puntatore del mouse sul nome di una visualizzazione creata, fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png), quindi fai clic su una delle seguenti opzioni:
+
       * **Rinomina**, per aggiungere un nuovo nome alla visualizzazione.
       * **Condividi**
-
 
         Per ulteriori informazioni, vedere [Condividi visualizzazioni](/help/quicksilver/planning/access/share-views.md).
 
@@ -302,24 +294,6 @@ Per informazioni, vedere [Eliminare le visualizzazioni dei record](/help/quicksi
 
 </div>
 
-
-<!--No longer possible: 1. (Optional and conditional) When you create a connected records page for the following Workfront object types:
-         * Portfolios
-         * Programs
-         * Groups
-         * Companies
-      Do any of the following in the table view of the connected records page: 
-      * Click the name of a object. This opens the object's page in a new tab. 
-      * Click **Connect** at the bottom of the table view to connect existing objects, select them from the connection box, then click outside the box to close it. The objects are automatically added to the table. The objects must exist before you can add them.
-      For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
-      * Select one of the objects in the table view, then click one of the following options in the blue bar at the bottom of the list: 
-      * **View** to open the record page in a new tab
-      * **Copy link** to copy a link to the record page
-      * **Disconnect** to disconnect the object from the record you are viewing. 
-      TIP      
-      You can select more than one record or object to disconnect them.
-      -->
-
 ### Gestione della pagina dei record collegati per i progetti Workfront
 
 Quando si crea una pagina record connessi per progetti Workfront connessi, eseguire le operazioni seguenti:
@@ -333,7 +307,8 @@ I progetti connessi al record selezionato vengono visualizzati nella vista a ele
 1. Modifica in linea le informazioni sul progetto nella tabella.
 1. Fai clic su **Nuova riga** per creare un progetto senza modello. Il nuovo progetto viene automaticamente connesso al record corrente.
 
-   Per ulteriori informazioni, vedere [Creare oggetti Workfront da Workfront Planning durante la connessione ai record](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+   Per ulteriori informazioni, vedere [Creare oggetti Workfront da Workfront Planning durante la connessione ai record](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+
 1. Passa il puntatore del mouse sul nome di un progetto nell&#39;elenco e fai clic sul menu **Altro** [Altro menu](assets/more-menu.png)
 
    Oppure
@@ -346,7 +321,10 @@ I progetti connessi al record selezionato vengono visualizzati nella vista a ele
      >[!TIP]
      >
      >È possibile selezionare più progetti per disconnetterli o eliminarli.
+     >
+
 1. Fare clic sul menu a discesa delle visualizzazioni e quindi su **Nuova visualizzazione** per aggiungere una nuova visualizzazione alla pagina, quindi eseguire le operazioni seguenti:
+
    1. Aggiungi **Nome visualizzazione**.
    1. Selezionare **Elenco** dall&#39;area **Tipo di visualizzazione**.
    1. Fai clic su **Crea**.
@@ -406,7 +384,7 @@ Per gestire più visualizzazioni dalla pagina dei record collegati:
    * **Timeline**. Per ulteriori informazioni, vedere [Gestire la visualizzazione della sequenza temporale](/help/quicksilver/planning/views/manage-the-timeline-view.md).
    * **Calendario**. Per ulteriori informazioni, vedere [Gestire la visualizzazione del calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
-1. (Facoltativo) Passa il puntatore del mouse sul nome di una visualizzazione nella pagina Record connessi, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png), quindi fai clic su una delle seguenti opzioni: **&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** verifica che siano tutte possibili **&#x200B;**&#x200B;**&#x200B;***
+1. (Facoltativo) Passa il puntatore del mouse sul nome di una visualizzazione nella pagina Record connessi, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png), quindi fai clic su una delle seguenti opzioni:
 
    * **Rinomina**
    * **Condividi**. Per ulteriori informazioni, vedere [Condividi visualizzazioni](/help/quicksilver/planning/access/share-views.md).
@@ -424,3 +402,20 @@ Per gestire più visualizzazioni dalla pagina dei record collegati:
      >La duplicazione di una visualizzazione dalle pagine Record collegati la rende disponibile in tutte le altre aree di Workfront Planning quando si visualizzano gli stessi tipi di record.
 
 </div>
+
+<!--No longer possible: 1. (Optional and conditional) When you create a connected records page for the following Workfront object types:
+         * Portfolios
+         * Programs
+         * Groups
+         * Companies
+      Do any of the following in the table view of the connected records page: 
+      * Click the name of a object. This opens the object's page in a new tab. 
+      * Click **Connect** at the bottom of the table view to connect existing objects, select them from the connection box, then click outside the box to close it. The objects are automatically added to the table. The objects must exist before you can add them.
+      For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+      * Select one of the objects in the table view, then click one of the following options in the blue bar at the bottom of the list: 
+      * **View** to open the record page in a new tab
+      * **Copy link** to copy a link to the record page
+      * **Disconnect** to disconnect the object from the record you are viewing. 
+      TIP      
+      You can select more than one record or object to disconnect them.
+      -->

@@ -2,24 +2,24 @@
 product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
 title: Spostare una storia Agile
-description: Puoi spostare una storia agile in un’iterazione diversa (per i team Scrum) o nel backlog (per i team Kanban e Scrum).
+description: Puoi spostare una storia Agile in un’iterazione diversa (per i team Scrum) o nel backlog (per i team Kanban e Scrum).
 author: Jenny
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-# Spostare una storia agile
+# Spostare una storia Agile
 
-Puoi spostare una storia agile in un’iterazione diversa (per i team Scrum) o nel backlog (per i team Kanban e Scrum).
+Puoi spostare una storia Agile in un’iterazione diversa (per i team Scrum) o nel backlog (per i team Kanban e Scrum).
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ Puoi spostare una storia agile in un’iterazione diversa (per i team Scrum) o n
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Standard</p> 
-   <p>Lavoro o superiore</p> </td> 
+   <p>Work o successiva</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 

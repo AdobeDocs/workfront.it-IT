@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 3%
+source-wordcount: '676'
+ht-degree: 5%
 
 ---
 
@@ -34,7 +34,7 @@ Puoi annullare la pubblicazione di un modulo di richiesta se non è più necessa
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -133,4 +133,4 @@ Il collegamento o pulsante **Annulla pubblicazione** diventa **Pubblica**.
 
    Tutti i record aggiunti in precedenza utilizzando il modulo di richiesta rimangono nella pagina del tipo di record.
 
-   Tutte le richieste precedentemente aggiunte rimangono nell&#39;area Richieste di Workfront, nella scheda Pianificazione.
+   Eventuali richieste aggiunte in precedenza rimangono nell’area Richieste di Workfront.
