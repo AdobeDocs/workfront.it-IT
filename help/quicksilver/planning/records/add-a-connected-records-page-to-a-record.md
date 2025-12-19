@@ -406,7 +406,7 @@ Per gestire più visualizzazioni dalla pagina dei record collegati:
    * **Timeline**. Per ulteriori informazioni, vedere [Gestire la visualizzazione della sequenza temporale](/help/quicksilver/planning/views/manage-the-timeline-view.md).
    * **Calendario**. Per ulteriori informazioni, vedere [Gestire la visualizzazione del calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
-1. (Facoltativo) Passa il puntatore del mouse sul nome di una visualizzazione nella pagina Record connessi, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png), quindi fai clic su una delle seguenti opzioni: ************* verifica che siano tutte possibili *********
+1. (Facoltativo) Passa il puntatore del mouse sul nome di una visualizzazione nella pagina Record connessi, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png), quindi fai clic su una delle seguenti opzioni: **&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** verifica che siano tutte possibili **&#x200B;**&#x200B;**&#x200B;***
 
    * **Rinomina**
    * **Condividi**. Per ulteriori informazioni, vedere [Condividi visualizzazioni](/help/quicksilver/planning/access/share-views.md).
