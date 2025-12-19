@@ -6,10 +6,10 @@ description: Puoi aggiungere un rapporto di tabella a un dashboard di Canvas per
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: d7caaa0871263fb8ef4224a9c298778f3ee2454a
 workflow-type: tm+mt
-source-wordcount: '1074'
-ht-degree: 1%
+source-wordcount: '1199'
+ht-degree: 2%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica della versione beta di Canvas Dashboards.<br>
->&#x200B;>In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
+>In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
 >
 >* Porta la tua chiave per Amazon Web Services
 >* Azure
@@ -31,7 +31,7 @@ Puoi aggiungere un rapporto di tabella a un dashboard di Canvas per visualizzare
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -203,6 +203,16 @@ Per ulteriori informazioni sugli esempi di report di tabella, vedere [Creare un 
 1. Fai clic su **Salva** nell&#39;angolo in alto a destra dello schermo.
 
 ## Considerazioni durante la creazione di un rapporto di tabella
+
+### Rapporti con dati finanziari
+
+Gli utenti con l’accesso Visualizzazione o Modifica dei dati finanziari nel loro livello di accesso continueranno a visualizzare i dati finanziari nelle visualizzazioni del dashboard di Canvas, anche se l’autorizzazione Visualizza dati finanziari viene rimossa a livello di task o progetto.
+
+* Gli utenti che non dispongono dei diritti relativi ai dati finanziari a livello di accesso non visualizzeranno i dati finanziari nei rapporti.
+* Gli utenti che visualizzano i dati finanziari sono limitati ai record per i quali dispongono già delle autorizzazioni di visualizzazione (progetti, attività, problemi, ecc.). Non vedranno i valori finanziari per i record a cui non possono accedere.
+* I creatori dei rapporti devono essere cauti nell’includere dati finanziari nelle dashboard e devono prestare attenzione a chi condividono le dashboard per evitare accessi involontari.
+
+Si tratta di un limite noto e prevediamo di affrontarlo il più rapidamente possibile.
 
 ### Utilizzo del selettore di campo
 

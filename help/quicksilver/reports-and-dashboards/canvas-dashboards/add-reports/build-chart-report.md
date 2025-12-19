@@ -6,9 +6,9 @@ description: È possibile aggiungere a un dashboard di Canvas un report di grafi
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: bb65fa45f6fce762920627ad0fb6fd1d832f23a3
+source-git-commit: 56af1b6c8e4ae7bb990288d9e6a4326ffd18c2c9
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1838'
 ht-degree: 1%
 
 ---
@@ -163,7 +163,7 @@ Sono disponibili molte opzioni di configurazione per la creazione di un rapporto
 
 Segui i passaggi seguenti per configurare la sezione **Filtro**:
 
-1. Nel pannello a sinistra, fai clic sull&#39;icona **Filtro**![&#x200B; Filtro](assets/filter-icon.png).
+1. Nel pannello a sinistra, fai clic sull&#39;icona **Filtro**![ Filtro](assets/filter-icon.png).
 1. Selezionare **Modifica filtro**.
 1. Fare clic su **Aggiungi condizione** e quindi specificare il campo in base al quale si desidera filtrare e il modificatore che definisce il tipo di condizione che il campo deve soddisfare.
 1. (Facoltativo) Fai clic su **Aggiungi gruppo di filtri** per aggiungere un altro set di criteri di filtro. L&#39;operatore di default tra i set è AND. Fai clic sull’operatore per modificarlo in O.
@@ -283,6 +283,16 @@ In questa sezione verranno descritti i passaggi necessari per creare un istogram
 1. Fai clic su **Salva** per creare il report e aggiungerlo al dashboard.
 
 ## Considerazioni durante la creazione di un rapporto grafico
+
+### Rapporti con dati finanziari
+
+Gli utenti con l’accesso Visualizzazione o Modifica dei dati finanziari nel loro livello di accesso continueranno a visualizzare i dati finanziari nelle visualizzazioni del dashboard di Canvas, anche se l’autorizzazione Visualizza dati finanziari viene rimossa a livello di task o progetto.
+
+* Gli utenti che non dispongono dei diritti relativi ai dati finanziari a livello di accesso non visualizzeranno i dati finanziari nei rapporti.
+* Gli utenti che visualizzano i dati finanziari sono limitati ai record per i quali dispongono già delle autorizzazioni di visualizzazione (progetti, attività, problemi, ecc.). Non vedranno i valori finanziari per i record a cui non possono accedere.
+* I creatori dei rapporti devono essere cauti nell’includere dati finanziari nelle dashboard e devono prestare attenzione a chi condividono le dashboard per evitare accessi involontari.
+
+Si tratta di un limite noto e prevediamo di affrontarlo il più rapidamente possibile.
 
 ### Utilizzo del selettore di campo
 
