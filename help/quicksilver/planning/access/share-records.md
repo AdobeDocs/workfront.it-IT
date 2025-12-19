@@ -7,9 +7,9 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1838'
 ht-degree: 2%
 
 ---
@@ -117,6 +117,9 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 <!--checking on the below with Lilit-->
 
 * Puoi condividere i record con le seguenti entità: persone, gruppi, team, aziende o mansioni.
+* Quando si condivide un record, gli utenti hanno lo stesso accesso ovunque tale record venga visualizzato nel sistema.
+* Se si limitano le autorizzazioni a un record, gli utenti non visualizzano più tale record e i valori dei relativi campi di ricerca in qualsiasi punto del sistema in cui viene aggiunto il record.
+* Workfront controlla le autorizzazioni dei record nelle connessioni fino a 5 record in profondità, garantendo agli utenti di visualizzare solo i record condivisi con loro.
 * È possibile concedere a un record i livelli di autorizzazione seguenti:
 
    * Visualizzazione

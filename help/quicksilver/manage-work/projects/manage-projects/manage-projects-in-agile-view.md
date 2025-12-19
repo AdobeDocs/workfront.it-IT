@@ -1,23 +1,23 @@
 ---
 product-area: projects;agile-and-teams
 navigation-topic: manage-projects
-title: Gestire un progetto nella visualizzazione Agile
-description: Puoi sfruttare le funzionalità agili per il tuo progetto senza le problematiche amministrative che in genere accompagnano le procedure agili (come la gestione del backlog di un team o la creazione di iterazioni).
+title: Gestire un progetto Agile nella vista Bacheca
+description: Puoi sfruttare le funzionalità Agile per il tuo progetto senza le sfide amministrative che in genere accompagnano le pratiche Agile (come la gestione del backlog di un team o la creazione di iterazioni).
 author: Alina, Courtney
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 0%
+source-wordcount: '314'
+ht-degree: 5%
 
 ---
 
-# Gestire un progetto nella visualizzazione Agile
+# Gestire un progetto Agile nella vista Bacheca
 
 <!-- Audited: 11/2025 -->
 
-Puoi sfruttare le funzionalità agili per il tuo progetto senza le problematiche amministrative che in genere accompagnano le procedure agili (come la gestione del backlog di un team o la creazione di iterazioni).
+Puoi sfruttare le funzionalità Agile per il tuo progetto senza le sfide amministrative che in genere accompagnano le pratiche Agile (come la gestione del backlog di un team o la creazione di iterazioni).
 
 Puoi lavorare in un ambiente agile che utilizza un backlog team e consente di creare iterazioni dalle attività nel backlog.
 
@@ -25,7 +25,7 @@ Per informazioni, consulta [Lavorare in un ambiente agile](../../../agile/work-i
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -95,11 +95,11 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 </table>-->
 
 
-## Visualizzare un progetto nella visualizzazione Agile
+## Visualizzare un progetto nella vista Bacheca
 
-Puoi visualizzare le attività o i problemi relativi a un progetto in una visualizzazione agile, anziché in un elenco, per sfruttare le funzionalità agili per lo sviluppo del progetto.
+Puoi visualizzare le attività o i problemi relativi a un progetto in una vista Bacheca invece che in un elenco, per sfruttare le funzionalità Agile per lo sviluppo del progetto.
 
-1. Vai al progetto che desideri visualizzare in una visualizzazione agile, quindi fai clic su **Attività** o **Problemi** nel pannello a sinistra.
+1. Vai al progetto che desideri gestire in base alla metodologia Agile, quindi fai clic su **Attività** o **Problemi** nel pannello a sinistra.
 1. Fai clic sull&#39;icona **Vista bacheca** ![Icona bacheca](assets/board-icon-for-agile-view.png).
 
    La vista bacheca del progetto viene visualizzata per impostazione predefinita.

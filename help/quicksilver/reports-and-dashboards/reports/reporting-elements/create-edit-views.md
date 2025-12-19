@@ -6,9 +6,9 @@ description: È possibile personalizzare il tipo di informazioni visualizzate su
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '893'
 ht-degree: 4%
 
 ---
@@ -60,10 +60,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Creare o personalizzare una visualizzazione
 
-Il processo di creazione o personalizzazione di una vista varia a seconda che si stia creando o personalizzando una vista standard o una vista Agile o una vista Bacheca.
-
-* [Creare o personalizzare una visualizzazione standard](#create-or-customize-a-standard-view)
-* [Creare o personalizzare una visualizzazione Agile](#create-or-customize-an-agile-view)
+Il processo di creazione o personalizzazione di una vista varia a seconda che si crei o si personalizzi una vista standard o una vista Bacheca.
 
 ### Creare o personalizzare una visualizzazione standard {#create-or-customize-a-standard-view}
 
@@ -161,13 +158,15 @@ Viene visualizzata la finestra di dialogo **Personalizza visualizzazione**.
 
    Il modo in cui la vista viene salvata dipende dal tuo accesso. Se la vista è stata creata in origine, è possibile salvare le modifiche; in caso contrario, viene richiesto di salvare una versione. Le modifiche apportate alla visualizzazione hanno un impatto sugli utenti con cui la visualizzazione è stata condivisa.
 
-### Creare o personalizzare una visualizzazione Agile {#create-or-customize-an-agile-view}
+### Creare o personalizzare una visualizzazione Bacheca {#create-or-customize-an-agile-view}
 
-Le visualizzazioni Agile, dette anche visualizzazioni bacheca, vengono visualizzate solo per gli elenchi di attività e problemi di un progetto.
+Puoi gestire i progetti seguendo una metodologia Agile utilizzando una vista Bacheca.
+
+Le viste Bacheca sono disponibili solo per gli elenchi di attività e problemi relativi a un progetto.
 
 Sono preconfigurati, ma puoi modificarne alcune impostazioni.
 
-Per ulteriori informazioni sulle visualizzazioni Agile o Bacheca, consulta l&#39;articolo [Gestione di un progetto in Visualizzazione Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Per ulteriori informazioni sulle visualizzazioni Agile o Bacheca, consulta l&#39;articolo [Gestione di un progetto Agile nella visualizzazione Bacheca](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 <!-- Legacy Agile views were deprecated with 25.3. This is old: 
 

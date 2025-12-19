@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: a63ec4e0-ba39-42c1-8061-c29350ef4bbb
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '131'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Questa sezione contiene i seguenti articoli:
 * [Rimuovi utenti dai progetti](../../../manage-work/projects/manage-projects/remove-users-from-projects.md)
 * [Pianificare le risorse per un progetto](../../../manage-work/projects/manage-projects/schedule-resources-for-projects.md)
 * [Comunicazione con i membri del team del progetto](../../../manage-work/projects/manage-projects/communicate-with-project-team-members.md)
-* [Gestione di un progetto nella visualizzazione Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
+* [Gestione di un progetto Agile nella visualizzazione Bacheca](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
 * [Panoramica sui limiti del progetto](../../../manage-work/projects/manage-projects/project-maximums.md)
 * [Comprendere le metriche del progetto](../../../manage-work/projects/manage-projects/project-metrics.md)
 * [Riepilogare gli aggiornamenti con l’Assistente AI](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)

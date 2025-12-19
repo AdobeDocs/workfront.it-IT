@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '1871'
+source-wordcount: '1869'
 ht-degree: 1%
 
 ---
@@ -82,7 +82,7 @@ Prima di inviare una richiesta a un modulo di richiesta Workfront Planning, è n
 * In Workfront Planning devono esistere gli elementi seguenti:
 
    * Un’area di lavoro
-   * Un tipo di record.
+   * Un tipo di record
    * Modulo di richiesta associato a un tipo di record.
 
      Per informazioni, vedere [Creare un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
@@ -162,7 +162,7 @@ L&#39;abilitazione di questa impostazione rende disponibili i moduli di richiest
 1. (Facoltativo) Fai clic su **Visualizza la richiesta** nel messaggio di conferma, per aprire la richiesta, oppure fai clic sull&#39;icona **X** per chiudere la conferma.
 1. (Facoltativo) Effettuate una delle seguenti operazioni:
 
-   * Fare clic su **Filtri** e iniziare ad aggiungere le condizioni per le richieste che si desidera visualizzare nella scheda Pianificazione.
+   * Fai clic su **Filtri** e inizia ad aggiungere le condizioni per le richieste da visualizzare nell&#39;elenco Richieste.
 
      ![Modifica dei filtri nella scheda Richieste di Planning](assets/filters-editing-box-in-requests-planning-tab.png)
 
@@ -206,7 +206,7 @@ L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi
    >
    >* Se il modulo di richiesta è associato a un’approvazione, questa deve essere concessa prima di poter accedere al record dalla pagina della richiesta.
 
-1. (Facoltativo) Fare clic sul nome del tipo di record **&#x200B;**.
+1. (Facoltativo) Fare clic sul nome del tipo di record ****.
 
    La pagina del tipo di record viene visualizzata in Workfront Planning.
 
@@ -251,16 +251,14 @@ L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi
 
    <!--Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.-->
 
-1. (Facoltativo) Fai clic su **Menu principale** > **Richieste** > scheda **Pianificazione** per visualizzare la richiesta, quindi fai clic sul nome della richiesta.
+1. (Facoltativo) Fai clic su **Menu principale** > **Richieste** per visualizzare la richiesta, quindi fai clic sul nome della richiesta.
 
    Viene visualizzata la pagina dei dettagli della richiesta.
 
    ![Pagina di richiesta con commento](assets/new-request-page-with-comment.png)
 
-
-
 1. (Facoltativo) Immettere un commento nell&#39;area Commenti.
-1. (Condizionale) Se il modulo di richiesta non è associato a un&#39;approvazione o se la richiesta è stata approvata, fare clic sul nome della richiesta, quindi sul nome del record nel campo **Record**.
+1. (Condizionale) Se il modulo di richiesta non è associato a un&#39;approvazione o se la richiesta è stata approvata, fare clic sul nome della richiesta, quindi sul nome del record nel campo **Oggetto creato**.
 
    La pagina del record viene visualizzata in Workfront Planning.
 
@@ -270,7 +268,7 @@ L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi
    >
    >* Se il modulo di richiesta è associato a un’approvazione, questa deve essere concessa prima di poter accedere al record dalla pagina della richiesta.
 
-1. (Facoltativo) Fare clic sul nome del tipo di record **&#x200B;**.
+1. (Facoltativo) Fare clic sul nome del **tipo di oggetto**.
 
    La pagina del tipo di record viene visualizzata in Workfront Planning.
 

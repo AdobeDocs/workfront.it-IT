@@ -4,9 +4,9 @@ description: Miglioramenti richieste primo trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ac1857f4cf4c6b3823773902ae8be439e2dcd55a
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
@@ -140,7 +140,7 @@ Per ulteriori informazioni sulle bozze di richieste, vedere [Creare richieste da
 
 Per semplificare l’organizzazione e la gestione ordinata delle richieste, alla nuova esperienza di richiesta è stata aggiunta la possibilità di eliminare le richieste. Ora puoi eliminare le richieste inviate. Gli amministratori di Workfront e gli amministratori di Workfront Planning Workspace possono eliminare le richieste.
 
-In precedenza, l’eliminazione delle richieste non era disponibile.
+In precedenza, questa funzione non era disponibile nella nuova esperienza di richiesta.
 
 Per informazioni e istruzioni, vedere [Eliminare una richiesta inviata o una bozza di richiesta](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
 
