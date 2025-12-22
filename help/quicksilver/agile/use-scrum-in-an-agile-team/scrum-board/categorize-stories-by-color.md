@@ -6,10 +6,10 @@ description: L'associazione di colore predefinita delle storie della bacheca Scr
 author: Jenny
 feature: Agile
 exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 L&#39;associazione colore predefinita delle storie varia a seconda che la bacheca delle storie si trovi su un&#39;iterazione o su un progetto:
 
-* **[!UICONTROL Iterazione]**: in un&#39;iterazione, le sezioni della bacheca delle storie sono contrassegnate con un colore in base al progetto a cui è associata la storia. A ogni progetto viene assegnato arbitrariamente un colore nella bacheca delle storie. Puoi modificare questo comportamento predefinito per ogni team agile. I colori dei brani agili in un’iterazione possono essere associati al progetto (impostazione predefinita), alla priorità del brano, al proprietario o al formato libero. Per ulteriori informazioni, vedere [Configurare l&#39;utilizzo degli indicatori di colore per le storie sulla bacheca delle storie Agile](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4) nell&#39;articolo [Configurare Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+* **[!UICONTROL Iterazione]**: in un&#39;iterazione, le sezioni della bacheca delle storie sono contrassegnate con un colore in base al progetto a cui è associata la storia. A ogni progetto viene assegnato arbitrariamente un colore nella bacheca delle storie. Puoi modificare questo comportamento predefinito per ogni team Agile. I colori dei brani Agile in un’iterazione possono essere associati al progetto (impostazione predefinita), alla priorità del brano, al proprietario o al formato libero. Per ulteriori informazioni, vedere [Configurare l&#39;utilizzo degli indicatori di colore per le storie sulla bacheca delle storie Agile](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4) nell&#39;articolo [Configurare Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-* **[!UICONTROL Progetto]**: in un progetto, tutte le sottoattività corrispondono al colore dell&#39;attività padre, in modo che i colori di tutte le storie in una determinata corsia siano gli stessi. I colori vengono assegnati in modo casuale alle attività quando vengono create se l&#39;attività non ha alcuna sottoattività o non ha un&#39;attività padre. Potete modificare questo comportamento predefinito modificando la vista agile. I colori dei brani agili di un progetto possono essere associati al brano principale (impostazione predefinita), alla priorità del brano, al proprietario o al formato libero. Per ulteriori informazioni, vedere [Creare o personalizzare una [!UICONTROL visualizzazione Agile]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in [Panoramica delle visualizzazioni in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+* **[!UICONTROL Progetto]**: in un progetto, tutte le sottoattività corrispondono al colore dell&#39;attività padre, in modo che i colori di tutte le storie in una determinata corsia siano gli stessi. I colori vengono assegnati in modo casuale alle attività quando vengono create se l&#39;attività non ha alcuna sottoattività o non ha un&#39;attività padre. Potete modificare questo comportamento predefinito modificando la vista Agile. I colori dei brani Agile di un progetto possono essere associati al brano principale (impostazione predefinita), alla priorità del brano, al proprietario o al formato libero. Per ulteriori informazioni, vedere [Creare o personalizzare una [!UICONTROL visualizzazione Agile]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in [Panoramica delle visualizzazioni in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 

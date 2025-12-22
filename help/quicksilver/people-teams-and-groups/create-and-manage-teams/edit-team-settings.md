@@ -6,10 +6,10 @@ description: Gli amministratori di Workfront e gli utenti con una licenza Pianif
 author: Jenny
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ In qualità di amministratore [!DNL Adobe Workfront] o di utente con una licenza
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +35,7 @@ In qualità di amministratore [!DNL Adobe Workfront] o di utente con una licenza
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td>
    <p>Standard</p>
-   <p>Lavoro o superiore</p></td>
+   <p>Work o successiva</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -77,9 +77,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
      Per ulteriori informazioni sull&#39;applicazione di un modello di layout personalizzato a un team, vedere la sezione &quot;Applicazione di un modello personalizzato a un team&quot; in Modificare le aree [!UICONTROL Il mio lavoro] e [!UICONTROL Richieste di lavoro] con modelli di layout.
 
-   * Decidi se questo team è un team agile, selezionando l&#39;opzione **[!UICONTROL Questo è un team agile]**.
+   * Decidi se questo team è un team Agile, selezionando l&#39;opzione **[!UICONTROL Questo è un team Agile]**.
 
-     Per ulteriori informazioni sui team Agile e su come gestire il lavoro all&#39;interno di un team Agile, vedi [Creare un team Agile](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+     Per ulteriori informazioni sui team Agile e su come gestire il lavoro all&#39;interno di un team Agile, consulta [Creare un team Agile](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
    * Cambia il pulsante [!UICONTROL Lavoraci] in un pulsante [!UICONTROL Avvia]. Per ulteriori informazioni su come configurare il pulsante [!UICONTROL Avvia], vedere [Sostituire il pulsante Lavoraci con un pulsante [!UICONTROL Avvia]](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
    * Personalizza il pulsante **[!UICONTROL Fine]**. Per ulteriori informazioni su come personalizzare il pulsante [!UICONTROL Fine], vedere:

@@ -5,7 +5,7 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a47d2592-0f00-4bcd-bc8e-75f8e707a573
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 23.3 Miglioramenti di Agile
 
-Questa pagina descrive tutte le bacheche e i miglioramenti agili apportati con la versione 23.3. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione con la versione 23.3 del 20 e 21 luglio 2023.
+Questa pagina descrive tutte le bacheche e i miglioramenti Agile apportati alla versione 23.3. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione con la versione 23.3 del 20 e 21 luglio 2023.
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio 23.3, vedere [Panoramica sulla versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
@@ -118,15 +118,15 @@ Per ulteriori informazioni, vedere [Creare o modificare una bacheca](/help/quick
 
 [Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3418600/){target=_blank}
 
-## Migrare le schede Kanban del team agile alle bacheche
+## Migrare le schede Kanban del team Agile alle bacheche
 
-Un nuovo pulsante **Aggiungi alle bacheche** su bacheche Kanban del team agile consente di aggiungere tutte le schede dalla bacheca Kanban a una bacheca Workfront. Puoi scegliere di creare una nuova bacheca Workfront o aggiungere le schede a una bacheca esistente.
+Un nuovo pulsante **Aggiungi alle bacheche** sulle bacheche Kanban del team Agile consente di aggiungere tutte le schede dalla bacheca Kanban a una bacheca Workfront. Puoi scegliere di creare una nuova bacheca Workfront o aggiungere le schede a una bacheca esistente.
 
 Il posizionamento delle schede sulla bacheca Workfront si basa su criteri colonna. Ad esempio, una policy potrebbe spostare tutte le carte con lo stato &quot;In corso&quot; in una colonna specifica. Se non ci sono criteri o le schede non corrispondono ai criteri, le schede vengono posizionate nella colonna più a sinistra. Al momento, le schede nella colonna Backlog nella bacheca legacy non vengono aggiunte alla bacheca Workfront.
 
 Le schede non vengono rimosse dalla bacheca Kanban del team Agile e le modifiche di stato delle schede verranno sincronizzate con entrambe le bacheche. È possibile mantenere entrambe le schede attive fino a quando non si è pronti a passare alle schede Workfront.
 
-Per ulteriori informazioni, consulta [Migrare le schede Kanban del team agile alle schede madri Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
+Per ulteriori informazioni, consulta [Migrare le schede Kanban del team Agile alle schede madri Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
 [Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3420425/){target=_blank}
 

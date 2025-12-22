@@ -6,10 +6,10 @@ description: Quando create sottoattività per i brani esistenti, tenete presente
 author: Jenny
 feature: Agile
 exl-id: 264e66e9-94c7-4904-baad-f733d39b4791
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '610'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ Quando create sottoattività per i brani esistenti, tenete presente quanto segue
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -62,7 +62,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team Scrum dal menu a discesa o cerca un team nella barra di ricerca.
 
-1. Passare all&#39;iterazione o al progetto agile contenente il brano in cui si desidera aggiungere un&#39;attività secondaria. Per informazioni su come passare a un&#39;iterazione, vedere [Visualizzare un&#39;iterazione](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
+1. Passa all’iterazione o al progetto Agile contenente il brano in cui desideri aggiungere un’attività secondaria. Per informazioni su come passare a un&#39;iterazione, vedere [Visualizzare un&#39;iterazione](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
 1. Passare alla sezione del brano sullo storyboard in cui si desidera aggiungere un&#39;attività secondaria.
 1. Fai clic su **[!UICONTROL Aggiungi sottoattività]** nella scheda del brano principale per creare una sottoattività al brano.
 
@@ -72,7 +72,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Fare clic su **[!UICONTROL Aggiungi sottoattività]** in un riquadro di sottoattività per creare una sottoattività per la sottoattività.
 
-   [!DNL Workfront] supporta un numero infinito di livelli di sottoattività, ma solo due livelli (sottoattività di sottoattività) vengono visualizzati nello storyboard agile.
+   [!DNL Workfront] supporta un numero infinito di livelli di sottoattività, ma solo due livelli (sottoattività di sottoattività) vengono visualizzati nello storyboard Agile.
 
    ![Aggiungi sottoattività](assets/agile-story-addsubtask2-NWE.png)
 

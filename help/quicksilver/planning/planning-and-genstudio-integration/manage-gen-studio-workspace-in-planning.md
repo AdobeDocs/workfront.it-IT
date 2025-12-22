@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: 78cf61d219cd1214a0846a45e2725fce7a8ebb2c
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1488'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ Per informazioni generali sull&#39;integrazione tra GenStudio e Workfront Planni
    <td role="rowheader"><p>Ruoli utente di Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Qualsiasi ruolo utente di GenStudio per accedere a Campagne, Prodotti e Utenti tipo</li>
    <li>GenSudio System Manager per accedere alle attivazioni <!--and Events--></li></ul>
-   Per informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Ruoli utente e autorizzazioni</a>. 
+   Per informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Ruoli utente e autorizzazioni</a>. 
    </p>
   </td> 
   </tr>   
@@ -141,7 +141,7 @@ Per ulteriori informazioni su Adobe GenStudio for Performance Marketing, consult
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -195,6 +195,8 @@ Per ulteriori informazioni su Adobe GenStudio for Performance Marketing, consult
    </table>
 
 * L&#39;aggiornamento della configurazione dell&#39;area di lavoro, dei tipi di record, delle visualizzazioni e dei campi per un&#39;area di lavoro di GenStudio è identico all&#39;aggiornamento di un&#39;area di lavoro di Workfront Planning con i relativi elementi.
+<!--Is this just preview?? * You can build hierarchies for the record types in the GenStudio workspace. For more information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
+* You cannot include GenStudio Brands in a hierarchy. -->
 
 <!--
 ## Manage GenStudio workspace from Workfront Planning
@@ -297,10 +299,9 @@ Un collegamento alla visualizzazione viene copiato negli Appunti.
       * **Esporta la visualizzazione corrente**
 Per informazioni, vedere [Esportare i record dalla vista tabella](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
 
-        <!--
-         >[!NOTE]
-         >
-         >You cannot remove GenStudio users from record types in the GenStudio workspace, after you share that workspace or the record types with them.-->
+        >[!NOTE]
+        >
+        >Non è possibile rimuovere gli utenti di GenStudio dai tipi di record nell&#39;area di lavoro di GenStudio dopo averli condivisi con tale area di lavoro o con i tipi di record.
 
 1. Per gestire le visualizzazioni del tipo di record, effettuare le seguenti operazioni:
 
@@ -393,3 +394,15 @@ Per informazioni, vedere [Esportare i record dalla vista tabella](/help/quicksil
    >* Puoi modificare la configurazione di un campo GenStudio solo se disponi delle autorizzazioni di gestione in GenStudio.
    >* Non è possibile eliminare un campo GenStudio.
 
+<!--Is this just Preview?? Or direct to Prod?? 
+
+## Create workspace hierarchies in the GenStudio workspace
+
+Creating hierarchies in the GenStudio workspace is similar to creating hierarchies in any workspace. 
+
+>[!NOTE]
+>
+>You cannot add GenStudio Brands to a hierarchy in the GenStudio workspace.
+
+For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
+-->

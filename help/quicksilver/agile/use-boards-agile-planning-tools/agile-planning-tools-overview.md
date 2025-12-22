@@ -3,11 +3,11 @@ content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: 'Panoramica degli strumenti di pianificazione agile: indice dell’articolo'
-description: Quando crei una bacheca utilizzando schede ad hoc e collegate, puoi sfruttare ulteriori strumenti di pianificazione agile sulle bacheche.
+description: Quando crei una bacheca utilizzando schede ad hoc e collegate, puoi sfruttare ulteriori strumenti di pianificazione Agile sulle bacheche.
 author: Jenny
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 5/2025 -->
 
-Quando crei una bacheca utilizzando schede ad hoc e collegate, puoi sfruttare ulteriori strumenti di pianificazione agile.
+Quando crei una bacheca utilizzando schede ad hoc e collegate, puoi sfruttare ulteriori strumenti di pianificazione Agile.
 
 Gli strumenti utili per Kanban includono:
 
@@ -36,7 +36,7 @@ Gli strumenti utili per Scrum includono:
 >
 >I flussi di lavoro e gli strumenti correlati sono disponibili solo per un gruppo specifico di clienti.
 
-Puoi utilizzare uno o tutti questi strumenti in un modo che funzioni per te e il tuo team, senza dover adottare una metodologia agile specifica.
+Puoi utilizzare uno o tutti questi strumenti in un modo che funzioni per te e il tuo team, senza dover ricorrere a una metodologia Agile specifica.
 
 Questa sezione contiene i seguenti articoli:
 
@@ -44,7 +44,7 @@ Questa sezione contiene i seguenti articoli:
 * [Aggiungere una colonna Acquisizione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 * [Utilizzare i gruppi su una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
 * [Configurare la perdita di dati della scheda](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-* [Migrare le schede Kanban del team agile alle schede madri Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
+* [Migrazione delle schede Kanban del team Agile alle schede madri Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
 * [Gestire i flussi di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
 * [Utilizza l’elenco delle schede](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
 * [Creare un’iterazione in un flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)

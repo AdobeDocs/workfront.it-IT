@@ -2,20 +2,20 @@
 product-area: agile-and-teams
 navigation-topic: iterations
 title: Eliminare un’iterazione
-description: Se non è più necessaria, puoi eliminare un’iterazione per il team agile.
+description: Se non è più necessaria, puoi eliminare un’iterazione per il team Agile.
 author: Jenny
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
 # Eliminare un’iterazione
 
-Se non è più necessaria, puoi eliminare un’iterazione per il team agile.
+Se non è più necessaria, puoi eliminare un’iterazione per il team Agile.
 
 Quando eliminate un&#39;iterazione, tutte le storie vengono spostate nel backlog. I compiti e i problemi rimangono anche nei loro progetti.
 
@@ -25,7 +25,7 @@ Quando eliminate un&#39;iterazione, tutte le storie vengono spostate nel backlog
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -36,11 +36,11 @@ Quando eliminate un&#39;iterazione, tutte le storie vengono spostate nel backlog
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Standard</p> 
-   <p>Lavoro o superiore</p> </td> 
+   <p>Work o successiva</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td>Devi essere membro del team agile a cui è assegnata l’iterazione</td> 
+   <td>Devi essere membro del team Agile a cui è assegnata l’iterazione</td> 
   </tr>
  </tbody> 
 </table>

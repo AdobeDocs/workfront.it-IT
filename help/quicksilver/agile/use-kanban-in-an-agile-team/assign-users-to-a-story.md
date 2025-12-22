@@ -6,10 +6,10 @@ description: Puoi assegnare gli utenti alle storie direttamente sulla bacheca Ka
 author: Jenny
 feature: Agile
 exl-id: ed727302-68c7-4e00-b05c-a5ed238bcc2d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -19,7 +19,7 @@ Puoi assegnare gli utenti alle storie direttamente sulla bacheca Kanban.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ Puoi assegnare gli utenti alle storie direttamente sulla bacheca Kanban.
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Standard</p> 
-   <p>Lavoro o superiore</p> </td> 
+   <p>Work o successiva</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -49,7 +49,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team Kanban dal menu a discesa o cerca un team nella barra di ricerca.
 
-1. Vai alla bacheca [!UICONTROL Kanban] agile in cui desideri assegnare gli utenti.
+1. Vai alla bacheca Agile [!UICONTROL Kanban] dove desideri assegnare gli utenti.
 1. Vai alla sezione della storia sulla bacheca [!UICONTROL Kanban] in cui desideri aggiungere un utente.
 1. Fai clic sull’avatar del team nel riquadro del brano (o su un avatar utente, se ne è già stato assegnato uno), inizia a digitare il nome dell’utente che desideri assegnare al brano, quindi fai clic sul nome quando viene visualizzato. Puoi anche scegliere un utente suggerito.
 

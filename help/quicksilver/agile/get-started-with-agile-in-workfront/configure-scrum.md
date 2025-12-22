@@ -2,14 +2,14 @@
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: Configura Scrum
-description: Puoi configurare le seguenti opzioni per i team agili Scrum durante o dopo la creazione del team.
+description: Puoi configurare le seguenti opzioni per i team Scrum Agile durante o dopo la creazione del team.
 author: Jenny
 feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1725'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -20,19 +20,19 @@ ht-degree: 0%
 * Scrum
 * Kanban
 
-Questo articolo descrive come configurare le impostazioni per un team Scrum. Dopo aver creato un team agile e aver scelto la metodologia Scrum, puoi fare riferimento a questo articolo per aggiornare le seguenti impostazioni:
+Questo articolo descrive come configurare le impostazioni per un team Scrum. Dopo aver creato un team Agile e scelto la metodologia Scrum, puoi fare riferimento a questo articolo per aggiornare le seguenti impostazioni:
 
 * Se le storie vengono stimate in punti o ore
-* Le colonne di stato sullo storyboard agile per iterazioni e progetti
-* Campi aggiuntivi da visualizzare sulle schede delle storie sulla bacheca delle storie agile
-* Come vengono utilizzati gli indicatori di colore per le storie sulla bacheca delle storie agile
+* Colonne di stato sullo storyboard Agile per iterazioni e progetti
+* Campi aggiuntivi da visualizzare sulle schede delle storie sulla bacheca delle storie di Agile
+* Come vengono utilizzati gli indicatori di colore per le storie sulla bacheca delle storie di Agile
 * Applicazione delle date durante l&#39;aggiunta di elementi di lavoro a un&#39;iterazione
 
 Per informazioni sulla configurazione di un team Kanban, vedere [Configurare Kanban](/help/quicksilver/agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,7 +48,7 @@ Per informazioni sulla configurazione di un team Kanban, vedere [Configurare Kan
 <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Standard</p> 
-   <p>Lavoro o superiore</p> </td> 
+   <p>Work o successiva</p> </td> 
   </tr>
 
 <tr> 
@@ -71,12 +71,12 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 Puoi configurare le storie in modo che vengano stimate utilizzando punti o ore.
 
-Per configurare il modo in cui le storie vengono stimate per il tuo team agile:
+Per configurare il modo in cui le storie vengono stimate per il team Agile:
 
 {{step1-to-team}}
 
 1. Fai clic sull&#39;icona **[!UICONTROL Cambia team]**, quindi seleziona un nuovo team dal menu a discesa o cerca un team nella barra di ricerca.
-1. Seleziona il team agile da gestire.
+1. Seleziona il team Agile da gestire.
 1. Fai clic sul menu **[!UICONTROL Altro]**, quindi seleziona **[!UICONTROL Modifica]**.
 
    Solo i membri del team con una licenza [!UICONTROL Standard], [!UICONTROL Piano] o [!UICONTROL Lavoro] possono vedere questa opzione.
@@ -97,7 +97,7 @@ Puoi configurare quali colonne vengono visualizzate sullo storyboard Agile per t
 
 ### Configurare le colonne di stato per le iterazioni {#configure-status-columns-for-iterations}
 
-Puoi definire gli stati che esistono sullo storyboard per il team agile. Questi sono gli unici stati visualizzati sullo storyboard.
+Puoi definire gli stati che esistono sullo storyboard per il team Agile. Questi sono gli unici stati visualizzati sullo storyboard.
 
 Per definire gli stati disponibili per la bacheca delle storie associata al team Agile:
 
@@ -105,7 +105,7 @@ Per definire gli stati disponibili per la bacheca delle storie associata al team
 
 1. Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team icona](assets/switch-team-icon.png), quindi seleziona un nuovo team dal menu a discesa o cerca un team nella barra di ricerca.
 
-1. Seleziona il team agile da gestire.
+1. Seleziona il team Agile da gestire.
 1. Fai clic sul menu **[!UICONTROL Altro]**, quindi seleziona **[!UICONTROL Modifica]**.
 
    Solo i membri del team con una licenza di [!UICONTROL Piano] o [!UICONTROL Lavoro] possono visualizzare questa opzione.
@@ -137,7 +137,7 @@ Per definire gli stati disponibili per la bacheca delle storie associata al team
 
 Per informazioni su come configurare le colonne di stato per un progetto, vedere la sezione [Creare o personalizzare una [!UICONTROL visualizzazione Agile]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view) nell&#39;articolo [Creare o modificare le visualizzazioni in [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
-## Configura campi aggiuntivi da visualizzare sulle schede delle storie sulla bacheca delle storie agile
+## Configura campi aggiuntivi da visualizzare nelle schede delle storie sulla bacheca delle storie di Agile
 
 Quando aggiungete campi alle schede delle storie, i campi sono di sola visualizzazione e di sola visualizzazione quando vengono compilati.
 
@@ -163,7 +163,7 @@ Per configurare le schede delle storie assegnate al team Agile in modo da visual
 
 1. Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team icona](assets/switch-team-icon.png), quindi seleziona un nuovo team dal menu a discesa o cerca un team nella barra di ricerca.
 
-1. Seleziona il team agile da gestire.
+1. Seleziona il team Agile da gestire.
 1. Fai clic sul menu **[!UICONTROL Altro]**, quindi seleziona **[!UICONTROL Modifica]**.
 Solo i membri del team con una licenza di [!UICONTROL Piano] o [!UICONTROL Lavoro] possono visualizzare questa opzione.
 
@@ -177,17 +177,17 @@ Solo i membri del team con una licenza di [!UICONTROL Piano] o [!UICONTROL Lavor
 1. Digita **[!UICONTROL Nome visualizzato]** per il campo da visualizzare sulla storia o sulla scheda problema.
 1. Fai clic su **[!UICONTROL Salva modifiche]**.
 
-## Configurare il modo in cui gli indicatori di colore vengono utilizzati per le storie sulla bacheca delle storie agile
+## Configura l’utilizzo degli indicatori di colore per le storie sulla bacheca delle storie di Agile
 
-Per impostazione predefinita, le sezioni della bacheca delle storie in un’iterazione agile sono codificate con un colore in base al progetto a cui è associata la storia. A ogni progetto viene assegnato arbitrariamente un colore sulla bacheca delle storie. Puoi modificare questo comportamento predefinito per ogni team agile. I colori per le storie agili possono essere legati alla priorità della storia, al proprietario e così via.
+Per impostazione predefinita, le sezioni della bacheca delle storie in un’iterazione Agile sono codificate con un colore in base al progetto a cui è associato il brano. A ogni progetto viene assegnato arbitrariamente un colore sulla bacheca delle storie. Puoi modificare questo comportamento predefinito per ogni team Agile. I colori per le storie Agile possono essere legati alla priorità della storia, al proprietario e così via.
 
-Per modificare il comportamento di assegnazione dei colori alle storie per un team agile:
+Per modificare il comportamento con cui i colori vengono assegnati alle storie per un team Agile:
 
 {{step1-to-team}}
 
 1. Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team icona](assets/switch-team-icon.png), quindi seleziona un nuovo team dal menu a discesa o cerca un team nella barra di ricerca.
 
-1. Seleziona il team agile da gestire.
+1. Seleziona il team Agile da gestire.
 1. Fai clic sul menu **[!UICONTROL Altro]**, quindi seleziona **[!UICONTROL Modifica]**.
 
    Solo i membri del team con una licenza di [!UICONTROL Piano] o [!UICONTROL Lavoro] possono visualizzare questa opzione.

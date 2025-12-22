@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f86122a2-17c7-4df5-a958-177cc3d14f73
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 0%
@@ -30,4 +30,4 @@ Per ulteriori informazioni, vedere [Configurare Kanban](../../../agile/get-start
 
 ## Le bacheche Agile caricano 50 elementi di lavoro alla volta
 
-Per aumentare la velocità e le prestazioni degli strumenti agili, fino a 50 schede ora vengono caricate in varie posizioni. Se in una bacheca Agile sono presenti più di 50 elementi di lavoro, nella parte inferiore della bacheca o del backlog viene visualizzato un pulsante che consente di caricare elementi di lavoro aggiuntivi.
+Per aumentare la velocità e le prestazioni degli strumenti Agile, fino a 50 schede ora vengono caricate in varie posizioni. Se in una bacheca Agile sono presenti più di 50 elementi di lavoro, nella parte inferiore della bacheca o del backlog viene visualizzato un pulsante che consente di caricare altri elementi di lavoro.

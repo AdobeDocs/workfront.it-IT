@@ -6,10 +6,10 @@ description: Leggi questo articolo per scoprire come assegnare gli utenti a una 
 author: Jenny
 feature: Agile
 exl-id: 57fa28cc-f93d-4938-9d65-3dcf90fdf6a0
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '241'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -46,7 +46,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Cambia team]** ![Cambia team](assets/switch-team-icon.png), quindi seleziona un nuovo team [!UICONTROL Scrum] dal menu a discesa o cerca un team nella barra di ricerca.
 
-1. Passare all&#39;iterazione o al progetto agile contenente la bacheca delle storie in cui si desidera assegnare gli utenti. Per informazioni su come passare a un&#39;iterazione, vedere [Visualizzare un&#39;iterazione](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
+1. Passa all’iterazione o al progetto Agile che contiene la bacheca delle storie in cui desideri assegnare gli utenti. Per informazioni su come passare a un&#39;iterazione, vedere [Visualizzare un&#39;iterazione](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
 1. Passare alla sezione della storia sulla bacheca delle storie in cui si desidera aggiungere un utente.
 1. Fai clic sull’avatar del team nel riquadro del brano (o su un avatar utente, se ne è già stato assegnato uno), inizia a digitare il nome dell’utente che desideri assegnare al brano, quindi fai clic sul nome quando viene visualizzato. Puoi anche scegliere un utente suggerito.
 

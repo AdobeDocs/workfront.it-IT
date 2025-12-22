@@ -5,7 +5,7 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Agile
 exl-id: 2c59b8b2-7239-4d20-a8c6-5938c2c4db93
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Per un elenco di tutte le modifiche disponibili con la versione 21.4, consulta l
 
 Abbiamo aggiornato le schede delle storie sulle bacheche Kanban e Scrum per facilitare l’assegnazione di un utente alla storia. Ora puoi fare clic su un avatar del team o dell’utente per aggiungere un’assegnazione quando la scheda delle storie viene espansa. In precedenza, era necessario individuare e fare clic su un&#39;icona separata con il segno più.
 
-Per ulteriori informazioni, consulta
+Per ulteriori informazioni, consulta  
 
 * [Assegna utenti a una storia sul Kanban Board](../../../agile/use-kanban-in-an-agile-team/assign-users-to-a-story.md)
 * [Assegnare utenti a un brano sulla bacheca Scrum](../../../agile/use-scrum-in-an-agile-team/scrum-board/assign-users-to-a-story-scrum.md)
@@ -35,17 +35,17 @@ Questa opzione si applica solo ai team Scrum e non ai team Kanban.
 
 Per ulteriori informazioni, vedere [Configurare Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-## Modifiche alla visualizzazione agile dei progetti
+## Modifiche alla visualizzazione Agile nei progetti
 
 >[!NOTE]
 >
 >Questa funzione è stata rilasciata nell’ambiente di anteprima il 16 settembre 2021.
 
-Come parte della versione 21.3, sono stati apportati miglioramenti all&#39;intestazione della scheda agile e agli storyboard (vedi [Aggiornamenti all&#39;intestazione della scheda agile e allo storyboard](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). Questi aggiornamenti si applicavano alle iterazioni e alla visualizzazione agile dei progetti.
+Come parte della versione 21.3, sono stati apportati miglioramenti all&#39;intestazione della scheda Agile e agli storyboard (vedi [Aggiornamenti all&#39;intestazione della scheda Agile e allo storyboard](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). Questi aggiornamenti si applicavano alle iterazioni e alla vista Agile sui progetti.
 
-Con la versione 21.4, questi miglioramenti vengono ripristinati per la visualizzazione agile dei progetti. Non vengono apportate modifiche alle iterazioni Agile.
+Con la versione 21.4, questi miglioramenti vengono ripristinati per la visualizzazione Agile sui progetti. Non vengono apportate modifiche alle iterazioni Agile.
 
-Di seguito sono riportate le modifiche che vengono ripristinate per quanto riguarda la visualizzazione agile dei progetti:
+Di seguito sono riportate le modifiche che vengono ripristinate per quanto riguarda la visualizzazione Agile sui progetti:
 
 * Le schede delle storie e le colonne della bacheca hanno larghezze regolabili.
 * Le colonne non presentano ombreggiature di sfondo.

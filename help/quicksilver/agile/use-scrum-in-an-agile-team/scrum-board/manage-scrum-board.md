@@ -6,10 +6,10 @@ description: Puoi spostare una storia o un problema dalla bacheca Scrum a un’a
 author: Jenny
 feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '477'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ Per rimuovere un’attività o un problema dall’iterazione senza eliminarlo o 
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 

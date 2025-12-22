@@ -6,10 +6,10 @@ description: È possibile configurare un limite WIP (Work In Progress) per ogni 
 author: Jenny
 feature: Agile
 exl-id: 540880ad-46af-416b-8e0b-5df869555424
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -21,7 +21,7 @@ Il limite WIP è semplicemente un&#39;avvertenza visiva e non impedisce al team 
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ Il limite WIP è semplicemente un&#39;avvertenza visiva e non impedisce al team 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Standard</p> 
-   <p>Lavoro o superiore</p> </td> 
+   <p>Work o successiva</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -47,7 +47,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Visualizza il limite [!UICONTROL Work In Progress] (WIP) per la bacheca [!UICONTROL Kanban]
 
-Quando per il team agile è configurato un limite WIP, questo viene visualizzato nell&#39;angolo superiore destro di ogni colonna sulla bacheca Kanban (ad eccezione della colonna [!UICONTROL Complete]).
+Quando per il team Agile è configurato un limite WIP, questo viene visualizzato nell&#39;angolo superiore destro di ogni colonna sulla bacheca Kanban (ad eccezione della colonna [!UICONTROL Complete]).
 
 Ogni volta che il limite viene superato per una colonna della bacheca [!UICONTROL Kanban], il limite viene evidenziato in rosso e viene visualizzato un messaggio.
 ![Limite WIP](assets/kanban-wip.png)

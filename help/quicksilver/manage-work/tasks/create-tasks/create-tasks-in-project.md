@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -48,7 +48,7 @@ Questo articolo descrive come creare attività da zero e come spostare attività
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -61,7 +61,7 @@ Questo articolo descrive come creare attività da zero e come spostare attività
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Standard</p> 
-   <p>Lavoro o superiore</p> </td> 
+   <p>Work o successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -116,7 +116,7 @@ Per creare attività su un progetto:
 
 1. Vai al progetto in cui desideri creare un’attività.
 1. Fai clic su **Attività** nel pannello a sinistra.
-1. (Condizionale) Se l&#39;elenco delle attività è attualmente visualizzato in una visualizzazione agile, fare clic sull&#39;icona **Visualizzazione elenco** ![](assets/list-view-in-agile-view-for-tasks.png) nell&#39;angolo superiore destro per visualizzare l&#39;elenco delle attività.
+1. (Condizionale) Se l&#39;elenco delle attività è attualmente visualizzato in una visualizzazione Agile, fare clic sull&#39;icona **Visualizzazione elenco** ![](assets/list-view-in-agile-view-for-tasks.png) nell&#39;angolo superiore destro per visualizzare l&#39;elenco delle attività.
 1. (Facoltativo) Fai clic sull&#39;icona **della** Modalità pianificazione![](assets/nwe-plan-mode-icon-task-list.png) e seleziona **Salvataggio manuale**, quindi seleziona **Standard** o **Pianificazione sequenza temporale**. In questo modo viene disabilitata l&#39;opzione **Salvataggio automatico** abilitata per impostazione predefinita.
 
    ![Seleziona salvataggio manuale](assets/manual-save-option.png)

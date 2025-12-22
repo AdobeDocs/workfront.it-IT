@@ -2,20 +2,20 @@
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Aggiornare lo stato delle storie e delle sottoattività sulla bacheca Scrum
-description: È possibile modificare lo stato di una storia direttamente dalla bacheca delle storie agile per riflettere il modo in cui le storie progrediscono attraverso l'iterazione o il progetto.
+description: Puoi cambiare lo stato di una storia direttamente dalla bacheca delle storie di Agile per riflettere il modo in cui le storie progrediscono attraverso l'iterazione o il progetto.
 author: Jenny
 feature: Agile
 exl-id: 3f414901-883c-45ac-b30a-60841e883e35
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 # Aggiorna lo stato delle storie e delle sottoattività nella bacheca [!UICONTROL Scrum]
 
-È possibile modificare lo stato di una storia direttamente dalla bacheca delle storie agile per riflettere il modo in cui le storie progrediscono attraverso l&#39;iterazione o il progetto.
+Puoi cambiare lo stato di una storia direttamente dalla bacheca delle storie di Agile per riflettere il modo in cui le storie progrediscono attraverso l&#39;iterazione o il progetto.
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 

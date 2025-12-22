@@ -6,10 +6,10 @@ description: Puoi aggiungere qualsiasi attività o problema a una bacheca Kanban
 author: Jenny
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -24,7 +24,7 @@ Puoi aggiungere qualsiasi attività o problema a una bacheca [!UICONTROL Kanban]
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +39,7 @@ Puoi aggiungere qualsiasi attività o problema a una bacheca [!UICONTROL Kanban]
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Standard</p> 
-   <p>Lavoro o superiore</p> </td> 
+   <p>Work o successiva</p> </td> 
   </tr>
  </tbody> 
 </table>

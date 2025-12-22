@@ -3,9 +3,9 @@ title: Panoramica della gerarchia e delle breadcrumb
 description: È possibile creare più gerarchie di aree di lavoro tra i tipi di record di un'area di lavoro.
 hide: true
 hidefromtoc: true
-source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,10 @@ hidefromtoc: yes
 
 # Panoramica della gerarchia e delle breadcrumb
 
+<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 In qualità di responsabile del workspace, in Adobe Workfront Planning è possibile definire gerarchie flessibili ma strutturate tra tipi di record e altri tipi di oggetto.
 
 Le gerarchie sono connessioni tra tipi di record o tra tipi di record e un progetto Workfront.
@@ -45,17 +49,17 @@ Di seguito sono riportati i vantaggi dell’utilizzo delle gerarchie nelle aree 
 * In una gerarchia è possibile connettere fino a 4 tipi di record e di oggetti.
 * In una gerarchia di workspace è possibile connettere solo i seguenti tipi di oggetto:
    * Tipi di record che appartengono all&#39;area di lavoro in cui si stanno creando le gerarchie.
-   * Progetti Workfront. I progetti Workfront non possono essere aggiunti come elementi padre di altri tipi di record. Sono sempre l&#39;ultimo figlio di una gerarchia.
+   * Progetti Workfront. I progetti Workfront non possono essere aggiunti come elementi padre di altri tipi di record. Sono sempre l&#39;ultimo tipo di oggetto in una gerarchia.
 * Non è possibile aggiungere i seguenti tipi di oggetto in una gerarchia:
    * Tipi di record di altre aree di lavoro, anche se impostati come tipi di record collegabili o globali. È possibile aggiungere tipi di record globali alle gerarchie solo quando sono stati aggiunti all&#39;area di lavoro da cui si sta creando la gerarchia.
    * Tutti gli altri oggetti di Workfront.
-   * AEM Assets
+   * AEM Assets.
 * Le gerarchie possono includere contemporaneamente sia i tipi di record di Planning che i progetti Workfront.
 
       È ad esempio possibile avere un tipo di record Campaign con Planning Tactics e Workfront Projects come figli nella stessa gerarchia dell&#39;area di lavoro.
   * Se esiste già una connessione tra i tipi di record selezionati, il sistema riutilizza la connessione esistente.
 * Se non esiste alcuna connessione, Workfront ne creerà una come parte dell’impostazione della gerarchia.
-* L&#39;impostazione **Crea campo corrispondente nel tipo di record collegato** deve essere attivata per il campo connesso per i record e gli oggetti che si desidera includere in una gerarchia.
+* L&#39;impostazione **Crea campo corrispondente nel tipo di record collegato** deve essere attivata per il campo connesso per i record e i tipi di oggetto che si desidera includere in una gerarchia.
 * Di seguito sono riportate le regole per l&#39;impostazione della gerarchia:
    * Un tipo di record può avere un solo tipo di record padre in una determinata area di lavoro.
 
@@ -64,16 +68,19 @@ Di seguito sono riportati i vantaggi dell’utilizzo delle gerarchie nelle aree 
 
      Ad esempio, puoi avere tre gerarchie diverse in un’area di lavoro e ciascuna di esse può avere Campagne come tipo di record principale.
    * Un record può essere connesso a più record padre dello stesso tipo quando si connette uno a molti o molti a molti tipi di record.
-Ad esempio, la tattica A può appartenere sia alla campagna X che alla campagna Y.
-   * Un tipo di record può connettersi a più tipi di record figlio.
 
-     Ad esempio, un tipo di record Campaign può essere padre di più altri tipi di record, come Tattiche, Test e altri tipi di record.
+     Ad esempio, la tattica A può appartenere sia alla campagna X che alla campagna Y.
+   * Un tipo di record può connettersi a un solo tipo di record figlio alla volta. Un tipo di record figlio può anche essere padre di un altro tipo di record.
+
+     Ad esempio, un tipo di record Campaign può essere padre di un solo altro tipo di record nella stessa gerarchia (Tactics) e Tactics può essere a sua volta padre di Programmi che possono essere padre di Progetti.
+   * Un tipo di record non può essere il padre in una gerarchia e il figlio in un&#39;altra gerarchia nello stesso workspace.
    * I tipi di record globali possono essere visualizzati in più aree di lavoro all&#39;interno di più gerarchie, dopo essere stati aggiunti a tali aree.
 
      Ad esempio, se una campagna è un tipo di record globale e fa parte di una gerarchia in Workspace 1, può essere aggiunta come tipo di record esistente a Workspace 2 e può far parte di una gerarchia. Tuttavia, non può far parte di una gerarchia in Workspace 2 solo se designato come tipo di record globale in Workspace 1, ma non aggiunto a Workspace 2.
 
-
 ## Considerazioni durante la visualizzazione delle breadcrumb
+
+<!-- this might be incomplete, because I have no UI for this yet-->
 
 Quando si creano gerarchie tra tipi di record, vengono generate breadcrumb per i record che appartengono a tali tipi di record.
 
@@ -87,5 +94,6 @@ Considera quanto segue:
   Ad esempio, quando si esamina un progetto connesso alle campagne e alle tattiche di Planning, nonché ai portfolio e ai programmi di Workfront, è possibile passare sia dal tipo di oggetto Planning che da quello di Workfront dalla breadcrumb.
 
   Per ulteriori informazioni, vedere [Creare gerarchie area di lavoro](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
+* Quando si modifica un record, le modifiche sono visibili da tutte le aree di lavoro e da tutte le gerarchie di cui fa parte il record.
 
 

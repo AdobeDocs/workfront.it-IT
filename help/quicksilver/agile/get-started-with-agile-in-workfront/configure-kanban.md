@@ -6,10 +6,10 @@ description: Puoi configurare le seguenti opzioni per i team Kanban Agile durant
 author: Jenny
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1484'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 1%
 * Scrum
 * Kanban
 
-Questo articolo descrive come configurare le impostazioni per un team Kanban. Dopo aver creato un team agile e scelto la metodologia Kanban, puoi fare riferimento a questo articolo per aggiornare le seguenti impostazioni:
+Questo articolo descrive come configurare le impostazioni per un team Kanban. Dopo aver creato un team Agile e scelto la metodologia Kanban, puoi fare riferimento a questo articolo per aggiornare le seguenti impostazioni:
 
 * Se le storie vengono stimate in punti o ore
-* Le colonne di stato sullo storyboard Agile
-* Campi aggiuntivi da visualizzare sulle schede delle storie sulla bacheca delle storie agile
+* Le colonne di stato sulla bacheca delle storie di Agile
+* Campi aggiuntivi da visualizzare sulle schede delle storie sulla bacheca delle storie di Agile
 * Limite WIP (Work In Progress)
 * Come aggiungere automaticamente brani dal backlog
 * Per quanto tempo le carte rimangono sul Kanban Board
@@ -35,7 +35,7 @@ Per informazioni sulla configurazione di un team Scrum, vedere [Configurare Scru
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ Per informazioni sulla configurazione di un team Scrum, vedere [Configurare Scru
 <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Standard</p> 
-   <p>Lavoro o superiore</p> </td> 
+   <p>Work o successiva</p> </td> 
   </tr>
 
 <tr> 
@@ -70,12 +70,12 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 Puoi configurare le storie in modo che vengano stimate utilizzando punti o ore.
 
-Per configurare il modo in cui le storie vengono stimate per il tuo team agile:
+Per configurare il modo in cui le storie vengono stimate per il team Agile:
 
 {{step1-to-team}}
 
 1. Fai clic sull&#39;icona **[!UICONTROL di]** Cambia team![](assets/switch-team-icon.png), quindi seleziona un nuovo team dal menu a discesa o cerca un team nella casella di ricerca.
-1. Seleziona il team agile da gestire.
+1. Seleziona il team Agile da gestire.
 1. Fai clic sul menu **[!UICONTROL Altro]** ![](assets/more-menu.png), quindi seleziona **[!UICONTROL Modifica]**.
 
    ![Modifica team](assets/edit-team-settings-350x205.png)
@@ -88,7 +88,7 @@ Per configurare il modo in cui le storie vengono stimate per il tuo team agile:
 
 ## Configurare le colonne di stato sullo storyboard Agile
 
-Puoi definire gli stati che esistono sullo storyboard per il team agile. Questi sono gli unici stati visualizzati sullo storyboard.
+Puoi definire gli stati che esistono sullo storyboard per il team Agile. Questi sono gli unici stati visualizzati sullo storyboard.
 
 Per definire gli stati disponibili per la bacheca delle storie associata al team Agile:
 
@@ -96,7 +96,7 @@ Per definire gli stati disponibili per la bacheca delle storie associata al team
 
 1. Fai clic sull&#39;icona **[!UICONTROL Switch Teams]** ![Switch Teams icon](assets/switch-team-icon.png), quindi seleziona un nuovo team dal menu a discesa o cerca un team nella barra di ricerca.
 
-1. Seleziona il team agile da gestire.
+1. Seleziona il team Agile da gestire.
 1. Fai clic sul menu **[!UICONTROL Altro]**, quindi seleziona **[!UICONTROL Modifica]**.
 
    ![Modifica team](assets/edit-team-settings-350x205.png)
@@ -118,7 +118,7 @@ Per definire gli stati disponibili per la bacheca delle storie associata al team
 
 1. Fai clic su **[!UICONTROL Salva modifiche]**.
 
-## Configura campi aggiuntivi da visualizzare sulle schede delle storie sulla bacheca delle storie agile
+## Configura campi aggiuntivi da visualizzare nelle schede delle storie sulla bacheca delle storie di Agile
 
 Quando si aggiungono campi alle schede delle storie, i campi sono di sola visualizzazione e vengono visualizzati solo quando il campo è popolato.
 
@@ -144,7 +144,7 @@ Per configurare le schede delle storie assegnate al team Agile in modo da visual
 
 1. Fai clic sull&#39;icona **[!UICONTROL Switch Teams]** ![Switch Teams icon](assets/switch-team-icon.png), quindi seleziona un nuovo team dal menu a discesa o cerca un team nella barra di ricerca.
 
-1. Seleziona il team agile da gestire.
+1. Seleziona il team Agile da gestire.
 1. Fai clic sul menu **[!UICONTROL Altro]**, quindi seleziona **[!UICONTROL Modifica]**.
 
    ![Modifica team](assets/edit-team-settings-350x205.png)
@@ -161,7 +161,7 @@ Per configurare le schede delle storie assegnate al team Agile in modo da visual
 
 Quando si definisce il limite WIP di un team Kanban, è possibile controllare il numero di elementi su cui il team sta attualmente lavorando limitando il numero di attività che possono essere visualizzate nella colonna [!UICONTROL Nuovo] o [!UICONTROL In corso] della bacheca [!UICONTROL Kanban].
 
-Dopo aver configurato il limite WIP per un team Kanban, è possibile visualizzare il limite WIP e aggiornarlo dalla bacheca delle storie agile [!UICONTROL Kanban], come descritto in [Gestire il limite WIP (Work In Progress) sulla bacheca [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
+Dopo aver configurato il limite WIP per un team Kanban, è possibile visualizzarlo e aggiornarlo dalla bacheca delle storie di [!UICONTROL Kanban] Agile, come descritto in [Gestire il limite WIP (Work In Progress) sulla bacheca [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
 
 Per limitare WIP per il team Kanban:
 
@@ -176,8 +176,8 @@ Per limitare WIP per il team Kanban:
 
 1. Nella sezione **[!UICONTROL Agile]** della sezione **[!UICONTROL Metodologia]** verificare che sia selezionato Kanban.
 
-1. Nella sezione **[!UICONTROL Storyboard]**, nel campo **[!UICONTROL Limite WIP]**, specifica il numero massimo di elementi consentiti in ogni colonna dello storyboard agile [!UICONTROL Kanban]. È possibile impostare un limite diverso per ogni colonna. Il limite massimo che è possibile impostare per ogni colonna è 100.
-Una volta impostato, il limite WIP visualizza un messaggio di avviso sullo storyboard agile [!UICONTROL Kanban] ogni volta che viene superato il limite per qualsiasi colonna dello storyboard. Questo messaggio di avviso viene visualizzato solo la prima volta che viene superato il limite WIP. Questo messaggio di avviso non viene visualizzato in alcuna colonna con uno stato corrispondente a [!UICONTROL Complete].
+1. Nella sezione **[!UICONTROL Storyboard]**, nel campo **[!UICONTROL Limite WIP]**, specifica il numero massimo di elementi consentiti in ogni colonna dello storyboard Agile [!UICONTROL Kanban]. È possibile impostare un limite diverso per ogni colonna. Il limite massimo che è possibile impostare per ogni colonna è 100.
+Una volta impostato, il limite WIP visualizza un messaggio di avviso sullo storyboard Agile [!UICONTROL Kanban] ogni volta che viene superato il limite per qualsiasi colonna dello storyboard. Questo messaggio di avviso viene visualizzato solo la prima volta che viene superato il limite WIP. Questo messaggio di avviso non viene visualizzato in alcuna colonna con uno stato corrispondente a [!UICONTROL Complete].
 Il limite WIP è semplicemente un&#39;avvertenza visiva e non impedisce al team di avere più elementi in una singola colonna rispetto al limite impostato.
 
    ![Limite WIP](assets/wip-limit-350x193.png)

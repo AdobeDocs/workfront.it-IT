@@ -8,7 +8,7 @@ description: Workfront Scenario Planner è disponibile con la versione 20.3 in P
 author: Luke
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: 9f89b6d6-8ca7-4b03-a8fe-fddb4c0c750b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Pianificazione scenario consente di:
 
   Crea e confronta scenari, facilita la collaborazione e il consenso, esegui e quindi ripianifica quando necessario.
 
-Pianificazione scenario consente di pianificare in modo più agile. La pianificazione dello scenario può essere d&#39;aiuto sia per chi possiede il piano strategico per la propria azienda sia per chi esegue la pianificazione trimestrale per una singola unità aziendale, reparto o team. Creare e confrontare più scenari in modo rapido e semplice in base ai vincoli, ad esempio budget o risorse del team.
+Pianificazione scenario consente di essere più agili nella pianificazione. La pianificazione dello scenario può essere d&#39;aiuto sia per chi possiede il piano strategico per la propria azienda sia per chi esegue la pianificazione trimestrale per una singola unità aziendale, reparto o team. Creare e confrontare più scenari in modo rapido e semplice in base ai vincoli, ad esempio budget o risorse del team.
 
 Con Scenario Planner è possibile modellare gli scenari per obiettivo o iniziativa in Scenario Planner per rispondere a domande quali:
 

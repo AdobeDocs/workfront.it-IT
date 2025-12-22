@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '2770'
 ht-degree: 0%
@@ -149,7 +149,7 @@ Al posto del webinar sulla versione, ti invitiamo a registrarti ad Adobe Summit 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Funzionalità di iterazione disponibile nelle schede madri Adobe Workfront</a></p>
-                        <p>Diverse nuove funzioni disponibili nelle schede madri Workfront consentono di utilizzare la funzionalità Scrum agile. Queste caratteristiche includono:
+                        <p>Diverse nuove funzioni disponibili nelle schede madri Workfront consentono di utilizzare la funzionalità Scrum di Agile. Queste caratteristiche includono:
                         <ul>
                         <li>Flussi di lavoro per il raggruppamento di bacheche relative allo stesso team e per la collaborazione al lavoro</li>
                         <li>Un elenco di schede, o backlog di lavoro, con la possibilità di utilizzare le origini per collegare le schede ad attività e problemi di Workfront</li>
@@ -625,7 +625,7 @@ Al posto del webinar sulla versione, ti invitiamo a registrarti ad Adobe Summit 
             </tbody>
         </table>
 
-## Notifiche
+## Annunci
 
 ### Miglioramenti apportati a Workfront Fusion
 
@@ -653,7 +653,7 @@ Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianific
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione apportati durante la versione 23.2, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/it/docs/workfront-known-issues/releases/current-updates).
+Per informazioni sugli aggiornamenti di manutenzione apportati durante la versione 23.2, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Aggiornamenti dei corsi di formazione
 

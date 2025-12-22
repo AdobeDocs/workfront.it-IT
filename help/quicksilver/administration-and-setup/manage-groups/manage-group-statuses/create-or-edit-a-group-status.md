@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1321'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -25,13 +25,13 @@ Se ci sono gruppi al di sopra del gruppo, gli amministratori possono eseguire qu
 
 >[!NOTE]
 >
->Non è possibile visualizzare gli stati di gruppo personalizzati in un progetto quando si visualizza il progetto in una visualizzazione agile. Quando si visualizza un progetto in una visualizzazione agile, sono visibili solo gli stati bloccati predefiniti e personalizzati. Per informazioni sulla personalizzazione di una visualizzazione Agile per un progetto, vedere la sezione [Creare o personalizzare una visualizzazione Agile](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) nell&#39;articolo [Creare o modificare le visualizzazioni in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+>Non è possibile visualizzare gli stati di gruppo personalizzati in un progetto quando si visualizza il progetto in una visualizzazione Agile. Quando si visualizza un progetto in una visualizzazione Agile, sono visibili solo gli stati bloccati predefiniti e personalizzati. Per informazioni sulla personalizzazione di una visualizzazione Agile per un progetto, vedere la sezione [Creare o personalizzare una visualizzazione Agile](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) nell&#39;articolo [Creare o modificare le visualizzazioni in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 Per informazioni generali sugli stati, vedere [Panoramica sugli stati](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 

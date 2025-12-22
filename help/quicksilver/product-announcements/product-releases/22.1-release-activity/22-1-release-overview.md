@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: daf977fe-957a-40ad-a37f-1c164cb4ada3
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '4758'
 ht-degree: 0%
@@ -184,7 +184,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>Disponibile in queste date:</strong> <p>Versione di anteprima: 18 novembre 2021 <br></p> <p>Versione di produzione: con la versione 22.1 </p> <p><strong>Disponibile in questi ambienti:</strong> </p> <p>La nuova esperienza Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#filter" class="MCXref xref" xrefformat="{para}">Filtra per elenco utenti su bacheche Agile mostra gli utenti con la maggior parte delle assegnazioni</a> </p> <p>Ora il filtro mostra prima gli utenti con il maggior numero di assegnazioni, in modo che siano più facili da individuare senza scorrere l’elenco.</p> <p>In precedenza, l’elenco dei filtri per utente nelle bacheche Kanban e Scrum veniva visualizzato in ordine alfabetico. </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#filter" class="MCXref xref" xrefformat="{para}">Filtra per elenco utenti sulle bacheche Agile mostra gli utenti con la maggior parte delle assegnazioni</a> </p> <p>Ora il filtro mostra prima gli utenti con il maggior numero di assegnazioni, in modo che siano più facili da individuare senza scorrere l’elenco.</p> <p>In precedenza, l’elenco dei filtri per utente nelle bacheche Kanban e Scrum veniva visualizzato in ordine alfabetico. </p> </td> 
    <td><strong>Disponibile in queste date:</strong> <p>Versione di anteprima: 11 novembre 2021 <br></p> <p>Versione di produzione: con la versione 22.1 <b style="color: #ff0000;">(rimossa dalla versione 22.1). Non più disponibile in Anteprima.)</b></p> <p><strong>Disponibile in questi ambienti:</strong> </p> <p>La nuova esperienza Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 

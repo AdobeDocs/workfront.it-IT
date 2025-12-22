@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '2799'
 ht-degree: 0%
@@ -281,8 +281,8 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. Puoi [r
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Migrazione delle schede Kanban del team agile alle bacheche</a></p>
-                        <p>Un nuovo pulsante <b>Aggiungi alle bacheche</b> su bacheche Kanban del team agile consente di aggiungere tutte le schede dalla bacheca Kanban a una bacheca Workfront. Puoi scegliere di creare una nuova bacheca Workfront o aggiungere le schede a una bacheca esistente.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Migrazione delle schede Kanban del team Agile alle bacheche</a></p>
+                        <p>Un nuovo pulsante <b>Aggiungi alle bacheche</b> sulle bacheche Kanban del team Agile consente di aggiungere tutte le schede dalla bacheca Kanban a una bacheca Workfront. Puoi scegliere di creare una nuova bacheca Workfront o aggiungere le schede a una bacheca esistente.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -740,7 +740,7 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. Puoi [r
            </tbody>
         </table>
 
-## Notifiche
+## Annunci
 
 ### Miglioramenti apportati a Workfront Fusion
 
@@ -768,7 +768,7 @@ Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianific
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione apportati durante la versione 22.3, vedere [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/it/docs/workfront-known-issues/releases/current-updates).
+Per informazioni sugli aggiornamenti di manutenzione apportati durante la versione 22.3, vedere [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Aggiornamenti dei corsi di formazione
 

@@ -6,10 +6,10 @@ description: Per impostazione predefinita, quando crei un team diventi il propri
 author: Jenny
 feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,7 @@ Per informazioni su come un amministratore di [!DNL Adobe Workfront] può creare
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -65,9 +65,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      >
      >Quando un team viene assegnato a un gruppo o a un sottogruppo, qualsiasi amministratore di gruppo di tale gruppo o sottogruppo può gestire il team senza esserne membro. Gli amministratori di gruppi possono passare all&#39;area Team dal menu principale e fare clic sulla freccia Switch Teams ![Switch team icon](assets/switch-team-icon.png) per elencare tutti i team assegnati ai gruppi che gestiscono.
 
-   * **[!UICONTROL Questo è un Team Agile]:** Seleziona questa opzione se vuoi configurare questo nuovo Team come Team Agile.
+   * **[!UICONTROL Questo è un team Agile]:** Seleziona questa opzione se vuoi configurare questo nuovo team come un team Agile.
 
-     Per ulteriori informazioni sui team Agile, vedi [Creare un team Agile](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+     Per ulteriori informazioni sui team Agile, consulta [Creare un team Agile](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
    * **[!UICONTROL Membri team]:** Inizia a digitare il nome di un utente da aggiungere al team, quindi selezionalo quando viene visualizzato nell&#39;elenco a discesa.
 

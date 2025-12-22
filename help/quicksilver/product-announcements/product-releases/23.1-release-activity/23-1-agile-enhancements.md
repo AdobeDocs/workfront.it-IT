@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bd041a5-a6e3-4fe3-ae23-45980701e904
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Per un elenco di tutte le modifiche disponibili con la versione 23.1, consulta l
 
 ## Pianificazione Scrum per le schede madri Workfront
 
-Le nuove funzioni di pianificazione Scrum nelle schede madri Adobe Workfront offrono opzioni flessibili per gestire i processi agili. Utilizzando questi strumenti, è possibile:
+Le nuove funzioni di pianificazione Scrum nelle schede madri Adobe Workfront offrono opzioni flessibili per gestire i processi Agile. Utilizzando questi strumenti, è possibile:
 
 * Tracciare il lavoro in iterazioni o sprint
 * Utilizzare Velocity per gestire gli impegni del team

@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0897b269-c6f3-4b63-8956-b7f9fbe0a553
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '4718'
 ht-degree: 0%
@@ -252,7 +252,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
    <td><strong>Disponibile in queste date:</strong> <p>Versione di anteprima: 9 settembre 2021<br></p> <p>Versione di produzione: con la versione 21.4</p> <p><strong>Disponibile in questi ambienti:</strong> </p> <p>La nuova esperienza Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-agile-enhancements.md#changes" class="MCXref xref" xrefformat="{para}">Modifiche alla visualizzazione Agile nei progetti</a> </p> <p>Come parte della versione 21.3, sono stati apportati miglioramenti all'intestazione della scheda agile e agli storyboard (vedi <a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile" class="MCXref xref" xrefformat="{para}">Aggiornamenti all'intestazione della scheda agile e allo storyboard</a>). Questi aggiornamenti si applicavano alle iterazioni e alla visualizzazione agile dei progetti.</p> <p>Con la versione 21.4, questi miglioramenti vengono ripristinati per la visualizzazione agile dei progetti. Non vengono apportate modifiche alle iterazioni Agile.</p> <p>Di seguito sono riportate le modifiche che vengono ripristinate per quanto riguarda la visualizzazione agile dei progetti:</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-agile-enhancements.md#changes" class="MCXref xref" xrefformat="{para}">Modifiche alla visualizzazione Agile nei progetti</a> </p> <p>Come parte della versione 21.3, sono stati apportati miglioramenti all'intestazione della scheda Agile e agli storyboard (vedi <a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile" class="MCXref xref" xrefformat="{para}">Aggiornamenti all'intestazione della scheda Agile e allo storyboard</a>). Questi aggiornamenti si applicavano alle iterazioni e alla vista Agile sui progetti.</p> <p>Con la versione 21.4, questi miglioramenti vengono ripristinati per la visualizzazione Agile sui progetti. Non vengono apportate modifiche alle iterazioni Agile.</p> <p>Di seguito sono riportate le modifiche che vengono ripristinate per quanto riguarda la visualizzazione Agile sui progetti:</p> 
     <ul> 
      <li> <p>Le schede delle storie e le colonne della bacheca hanno larghezze regolabili.</p> </li> 
      <li> <p>Le colonne non presentano ombreggiature di sfondo.</p> </li> 

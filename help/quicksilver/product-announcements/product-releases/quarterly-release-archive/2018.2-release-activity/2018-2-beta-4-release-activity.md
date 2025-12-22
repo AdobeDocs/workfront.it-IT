@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4b54b9e6-d1bf-4802-9d6c-9c3d3b6a6583
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1705'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Per ulteriori informazioni, consulta  nell&#39;articolo .
 
 ## È stata migliorata l’interfaccia per la configurazione degli stati per un team agile {#improved-interface-for-configuring-statuses-for-an-agile-team}
 
-L’interfaccia per la configurazione degli stati per un team agile è stata aggiornata con i seguenti miglioramenti:
+L’interfaccia per la configurazione degli stati per un team Agile è stata aggiornata con i seguenti miglioramenti:
 
 * Nuovo look and feel
 * Riordinare le colonne di stato tramite trascinamento della selezione 

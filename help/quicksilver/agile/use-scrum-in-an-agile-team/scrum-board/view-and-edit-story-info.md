@@ -6,10 +6,10 @@ description: Quando visualizzi una sezione del brano sulla bacheca Kanban, alcun
 author: Jenny
 feature: Agile
 exl-id: 88d156ea-0913-425e-b3eb-6ae81d2d2336
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -71,7 +71,7 @@ Quando si visualizza una sezione del brano sullo storyboard, sono disponibili le
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -106,7 +106,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Nel pannello a sinistra, seleziona **[!UICONTROL Iterazioni]** per scegliere un&#39;iterazione specifica oppure seleziona **[!UICONTROL Iterazione corrente]**.
 
-1. Vai alla bacheca delle storie agile [!UICONTROL Scrum].
+1. Vai alla bacheca delle storie di [!UICONTROL Scrum] Agile.
 1. Espandi il riquadro [!UICONTROL storia] per visualizzare tutti i campi associati alla storia.
 
    ![scheda storia](assets/agile-storycard-scrum-2021-350x333.png)

@@ -3,7 +3,7 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 7a29fcef1ee9a3010b7efc0713b5bbe9ca48b5cc
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '13634'
 ht-degree: 2%
@@ -130,7 +130,7 @@ ht-degree: 2%
          * [23.3 Altri miglioramenti](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
          * [Aggiornamenti look and feel durante il periodo di rilascio della versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * Versione 23.2 {#release-23-2}
-         * [Panoramica sulla versione di 23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
+         * Panoramica sulla versione di [23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 Miglioramenti per gli amministratori](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
          * [23.2 Miglioramenti di Agile](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
          * [23.2 Miglioramenti alla gestione dei progetti](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
@@ -568,8 +568,8 @@ ht-degree: 2%
          * [Marchio personalizzato](administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
          * [Assegna un marchio all’istanza](administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
          * [Configurare un URL della guida personalizzato](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
-      * Modelli di layout {#layout-templates}
-         * [Modelli di layout](administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
+      * Modelli layout {#layout-templates}
+         * [Modelli layout](administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
          * [Layout Workfront predefinito](administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
          * [Creare e gestire modelli di layout](administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)
          * [Personalizzare il menu principale](administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
@@ -1047,13 +1047,13 @@ ht-degree: 2%
       * [Aggiungi tag](agile/get-started-with-boards/add-tags.md)
       * [Gestire la visualizzazione Amministratore delle bacheche](/help/quicksilver/agile/get-started-with-boards/manage-boards-admin-view.md)
       * [Bacheche notifiche e preferenze e-mail](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
-   * Utilizzare strumenti di pianificazione agili nelle bacheche {#agile-planning-boards}
+   * Utilizzare gli strumenti di pianificazione Agile nelle bacheche {#agile-planning-boards}
       * [Panoramica degli strumenti di pianificazione agile: indice dell’articolo](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
       * [Gestire il limite WIP (Work In Progress) su una bacheca](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
       * [Aggiungere una colonna Acquisizione a una bacheca](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
       * [Utilizzare i gruppi su una bacheca](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
       * [Configurare la perdita di dati della scheda](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-      * [Migrare le schede Kanban del team agile alle schede madri Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
+      * [Migrazione delle schede Kanban del team Agile alle schede madri Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
       * [Gestire i flussi di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
       * [Utilizza l’elenco delle schede](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
       * [Creare un’iterazione in un flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
@@ -1062,11 +1062,11 @@ ht-degree: 2%
    * [Panoramica di Agile](agile/agile-overview.md)
    * Introduzione a Agile in Adobe Workfront {#agile-in-workfront}
       * [Introduzione a Agile in Adobe Workfront](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
-      * [Creare un team agile](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
+      * [Creare un team Agile](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
       * [Configura Kanban](agile/get-started-with-agile-in-workfront/configure-kanban.md)
       * [Configura Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
-   * Kanban in un team agile {#kanban}
-      * [Kanban in un team agile](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
+   * Kanban in un team Agile {#kanban}
+      * [Kanban in un team Agile](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [Panoramica Kanban](agile/use-kanban-in-an-agile-team/kanban-overview.md)
       * [Aggiungi un’attività secondaria a un brano esistente nel Kanban Board](agile/use-kanban-in-an-agile-team/add-a-subtask-to-an-existing-story.md)
       * [Aggiungi attività o problemi esistenti alla bacheca Kanban](agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md)
@@ -1080,8 +1080,8 @@ ht-degree: 2%
       * [Utilizza i flag sulle storie sul Kanban Board](agile/use-kanban-in-an-agile-team/use-flags-on-stories.md)
       * [Aggiungi il backlog al Kanban Board](agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)
       * [Elimina storia da bacheca Kanban](agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md)
-   * Scrum in un team agile {#scrum}
-      * [Scrum in un team agile](agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
+   * Scrum in un team Agile {#scrum}
+      * [Scrum in un team Agile](agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
       * Lavoro {#burndown}
          * [Lavoro](agile/use-scrum-in-an-agile-team/burndown/burndown.md)
          * [Panoramica del grafico a burn-down Agile](agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
@@ -1093,7 +1093,7 @@ ht-degree: 2%
          * [Iterazioni](agile/use-scrum-in-an-agile-team/iterations/iterations.md)
          * [Panoramica delle iterazioni](agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
          * [Creare un’iterazione](agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)
-         * [Creare una storia agile in un’iterazione](agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md)
+         * [Creare una storia Agile in un’iterazione](agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md)
          * [Aggiungere brani a un&#39;iterazione esistente](agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
          * [Visualizzare un’iterazione](agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
          * [Eliminare un’iterazione](agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)
@@ -1114,9 +1114,9 @@ ht-degree: 2%
       * [Creare una storia Agile](agile/work-in-an-agile-environment/create-an-agile-story.md)
       * [Gestire il backlog Agile](agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
       * [Spostare una storia Agile](agile/work-in-an-agile-environment/move-an-agile-story.md)
-   * Suggerimenti, trucchi e risoluzione dei problemi per agile {#tips-tricks-agile}
+   * Suggerimenti, trucchi e risoluzione dei problemi per Agile {#tips-tricks-agile}
       * [Suggerimenti, trucchi e risoluzione dei problemi per agile](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
-      * [Gli stati personalizzati non vengono visualizzati sullo storyboard agile](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
+      * [Gli stati personalizzati non vengono visualizzati nella bacheca delle storie di Agile](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
 * Documenti {#documents}
    * [Documenti: indice articolo](documents/documents-overview.md)
    * Aggiungere nuovi documenti ad Adobe Workfront {#add-new-documents-to-workfront}
@@ -2530,9 +2530,9 @@ ht-degree: 2%
       * [Configurare e utilizzare le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso JWT](wf-api/api/oauth-app-jwt-flow.md)
       * [Configura e utilizza le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso PKCE](wf-api/api/oauth-app-pkce-flow.md)
       * [Obsolescenza di API-Internal](wf-api/api/deprecation-api-internal.md)
-      * [Novità della versione 21 dell&#39;API](/help/quicksilver/wf-api/api/new-api-version-21.md)
+      * [Novità della versione 21](/help/quicksilver/wf-api/api/new-api-version-21.md) dell&#39;API
       * [Novità dell&#39;API versione 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [Novità della versione 19 dell&#39;API](wf-api/api/new-api-version-19.md)
+      * [Novità della versione 19](wf-api/api/new-api-version-19.md) dell&#39;API
       * [Novità della versione 18 dell’API](wf-api/api/new-api-version-18.md)
       * [Novità della versione 17 dell’API](wf-api/api/new-api-version-17.md)
       * [Novità della versione 16 dell’API](wf-api/api/new-api-version-16.md)

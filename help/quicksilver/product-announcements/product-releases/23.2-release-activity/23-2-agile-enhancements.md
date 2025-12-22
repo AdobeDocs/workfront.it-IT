@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc97f4a2-9c51-4ccd-8121-c00fd1ac6988
-source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1198'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 23.2 Miglioramenti di Agile
 
-Questa pagina descrive tutti i miglioramenti agili apportati con la versione 23.2 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione 23.2.
+Questa pagina descrive tutti i miglioramenti Agile apportati con la versione 23.2 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione 23.2.
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio 23.2, vedere [Panoramica sulla versione 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
@@ -27,7 +27,7 @@ Per ulteriori informazioni, consulta [Aggiungere attività o problemi esistenti 
 
 ## Funzionalità di iterazione disponibile nelle schede madri Adobe Workfront
 
-Diverse nuove funzioni disponibili nelle schede madri Workfront consentono di utilizzare la funzionalità Scrum agile. Queste caratteristiche includono:
+Diverse nuove funzioni disponibili nelle schede madri Workfront consentono di utilizzare la funzionalità Scrum di Agile. Queste caratteristiche includono:
 
 * Flussi di lavoro per il raggruppamento di bacheche relative allo stesso team e per la collaborazione al lavoro
 * Un elenco di schede, o backlog di lavoro, con la possibilità di utilizzare le origini per collegare le schede ad attività e problemi di Workfront

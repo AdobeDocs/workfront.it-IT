@@ -6,7 +6,7 @@ description: È possibile aggiungere storie a un'iterazione in molti modi.
 author: Jenny
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 3%
@@ -83,7 +83,7 @@ Per impostazione predefinita, quando si aggiunge un&#39;attività esistente a un
 Puoi aggiungere qualsiasi attività o problema a qualsiasi iterazione se disponi dell’accesso Manage al progetto. Quando si sposta un’attività o un problema in un’iterazione, tieni presente quanto segue:
 
 * Se aggiungi più team, l’attività o il problema può essere visualizzato solo nell’iterazione di un team. Questa è l&#39;iterazione scelta al passaggio 3.
-* Se l’attività o il problema viene assegnato a un team agile e spostato nell’iterazione di un altro team, l’assegnazione del team non cambia.
+* Se l’attività o il problema viene assegnato a un team Agile e spostato nell’iterazione di un altro team, l’assegnazione del team non cambia.
 * Se l’attività o il problema non è assegnato a un team, l’attività o il problema viene assegnato al team a cui appartiene l’iterazione.
 * Impossibile aggiungere attività padre all&#39;iterazione. Se aggiungete delle attività figlio, l&#39;attività padre viene visualizzata sulla bacheca Scrum come corsia di scorrimento.
 
@@ -96,7 +96,7 @@ Oppure
 Passare al progetto, report o dashboard contenente l&#39;attività o il problema che si desidera aggiungere a un&#39;iterazione. Quindi, seleziona una o più attività o problemi.
 
 1. Fai clic sull&#39;icona **[!UICONTROL Altro]** ![Altro](assets/more-icon.png) > **[!UICONTROL Aggiungi all&#39;iterazione]**.
-Non puoi assegnare attività o problemi ai team non agili.
+Non puoi assegnare attività o problemi a team non Agile.
 
 1. Nella casella **[!UICONTROL Aggiungi a]** digitare il nome dell&#39;iterazione e selezionarlo quando viene visualizzato nell&#39;elenco.
 

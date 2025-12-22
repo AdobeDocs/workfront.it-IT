@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 239a4e7e-e9db-4cf0-a703-8888e00f0d83
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Per informazioni sull&#39;inclusione dei flag nei report attività, vedere [Glos
 
 ## Modifica campi direttamente su una scheda storia Agile {#edit-fields-directly-on-an-agile-story-card}
 
-Quando visualizzi lo storyboard agile per un team agile, ora puoi modificare i campi in linea, direttamente sulla scheda dello storico. Puoi modificare tutti i campi che puoi modificare quando visualizzi l’attività o il problema originale.
+Quando visualizzi la bacheca delle storie di Agile per un team Agile, ora puoi modificare i campi in linea, direttamente sulla scheda delle storie. Puoi modificare tutti i campi che puoi modificare quando visualizzi l’attività o il problema originale.
 
 Prima di questa modifica, le informazioni sulla scheda storia potevano solo essere visualizzate, non modificate.
 

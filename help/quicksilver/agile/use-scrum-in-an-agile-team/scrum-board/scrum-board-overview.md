@@ -3,11 +3,11 @@ content-type: overview
 product-area: agile-and-teams
 navigation-topic: scrum-board
 title: Panoramica della bacheca Scrum
-description: Lo storyboard agile Scrum viene visualizzato insieme allo stato di completamento e al grafico a burn-down.
+description: Lo storyboard Scrum Agile viene visualizzato insieme allo stato di completamento e al grafico a bruciatura.
 author: Jenny
 feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 0%
@@ -18,10 +18,10 @@ ht-degree: 0%
 
 <!-- Audited: 5/2025 -->
 
-Lo storyboard Agile [!UICONTROL Scrum] viene visualizzato insieme allo stato di completamento e al grafico di burn-down. Questi componenti Agile sono disponibili nelle seguenti situazioni in [!UICONTROL Adobe Workfront]:
+La bacheca delle storie di [!UICONTROL Scrum] Agile viene visualizzata insieme allo stato di completamento e al grafico di masterizzazione. Questi componenti Agile sono disponibili nelle seguenti situazioni in [!UICONTROL Adobe Workfront]:
 
-* Sulle iterazioni agili. Per ulteriori dettagli sull&#39;utilizzo dello storyboard agile, del grafico a burn-down e dello stato di completamento in un ambiente agile puro (con backlog e iterazione), vedere [Operazioni in un ambiente agile](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
-* Quando visualizzi un progetto in una visualizzazione agile. Per informazioni su come sfruttare lo storyboard agile, il grafico Burndown e lo stato di completamento all&#39;interno di un progetto esistente, vedi [Gestire un progetto in Agile View](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+* Nelle iterazioni Agile. Per ulteriori dettagli sull&#39;utilizzo della bacheca delle storie, del grafico a dispersione e dello stato di completamento in un ambiente agile puro (con backlog e iterazione), vedere [Lavorare in un ambiente agile](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
+* Quando visualizzi un progetto in una visualizzazione Agile. Per informazioni su come sfruttare lo storyboard, il grafico a dispersione e lo stato di completamento di Agile all&#39;interno di un progetto esistente, vedi [Gestire un progetto in Agile View](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 ![Iterazione Agile](assets/agile-iteration-with-callouts.png)
 
@@ -35,7 +35,7 @@ Lo storyboard è costituito dai seguenti elementi:
 
   In un&#39;iterazione, questa colonna viene visualizzata nella bacheca delle storie solo quando uno o più brani della bacheca delle storie contengono almeno una sottoattività che soddisfa i seguenti requisiti:
 
-   * Assegnato allo stesso team agile dell’attività principale.
+   * Assegnato allo stesso team Agile dell’attività principale.
    * Appartiene all&#39;iterazione.
 
      In un progetto questa colonna viene visualizzata ogni volta che un&#39;attività include almeno una sottoattività.
@@ -44,13 +44,13 @@ Lo storyboard è costituito dai seguenti elementi:
 
 * **Stati attività**: indicare l&#39;avanzamento di un brano nell&#39;iterazione o nel progetto in base alla colonna di stato in cui si trova il brano.
 
-  Gli stati delle attività possono essere personalizzati per il progetto modificando la vista agile.
+  Gli stati delle attività possono essere personalizzati per il progetto modificando la vista Agile.
 
 * **Corsia di nuoto**: quando una storia principale e le relative sottoattività vengono visualizzate nella bacheca delle storie, viene creata una corsia di nuoto specifica per la storia e le relative sottoattività. Ciò fornisce una distinzione visiva per visualizzare meglio come le sottoattività di un brano progrediscono lungo la bacheca del brano.
 
   In un&#39;iterazione, le corsie per il nuoto vengono visualizzate sullo storyboard solo quando un brano sullo storyboard contiene almeno un&#39;attività secondaria che soddisfa i seguenti requisiti:
 
-   * Assegnato allo stesso team agile dell’attività principale.
+   * Assegnato allo stesso team Agile dell’attività principale.
    * Appartiene all&#39;iterazione.
 
   In un progetto le corsie preferenziali vengono visualizzate ogni volta che un&#39;attività ha almeno una sottoattività o un&#39;attività padre.
@@ -67,10 +67,10 @@ La stessa logica si applica alle sottoattività di secondo livello (sottoattivit
 
 ## Relazione tra storyboard e backlog
 
-Il backlog dell&#39;iterazione mostra solo brani o sottoattività in cui è possibile impostare una stima. Se un brano principale include sottoattività visualizzate sullo storyboard (perché sono assegnate allo stesso team agile e appartengono all&#39;iterazione), l&#39;attività principale non viene visualizzata nel backlog. In questa situazione, nel backlog vengono visualizzate solo le sottoattività, mentre le sottoattività e il brano padre vengono visualizzati sullo storyboard.
+Il backlog dell&#39;iterazione mostra solo brani o sottoattività in cui è possibile impostare una stima. Se un brano principale presenta sottoattività visualizzate sullo storyboard (perché sono assegnate allo stesso team Agile e appartengono all&#39;iterazione), l&#39;attività principale non viene visualizzata nel backlog. In questa situazione, nel backlog vengono visualizzate solo le sottoattività, mentre le sottoattività e il brano padre vengono visualizzati sullo storyboard.
 
-Si supponga, ad esempio, che la storia A contenga la sottoattività 1 e la sottoattività 2 e che entrambe le sottoattività siano assegnate allo stesso team agile. In questa situazione, la storia A viene visualizzata sulla bacheca delle storie in una corsia di nuoto con le sottoattività 1 e 2. Tuttavia, nel backlog vengono visualizzate solo la sottoattività 1 e la sottoattività 2.
+Ad esempio, supponiamo che la storia A contenga la sottoattività 1 e la sottoattività 2 (entrambe le sottoattività sono assegnate allo stesso team Agile). In questa situazione, la storia A viene visualizzata sulla bacheca delle storie in una corsia di nuoto con le sottoattività 1 e 2. Tuttavia, nel backlog vengono visualizzate solo la sottoattività 1 e la sottoattività 2.
 
-La stessa logica si applica alle sottoattività di secondo livello (sottoattività delle sottoattività). Se a una sottoattività sono assegnate una o più sottoattività di secondo livello allo stesso team Agile e appartengono all&#39;iterazione, nel backlog viene visualizzata solo la sottoattività di secondo livello.
+La stessa logica si applica alle sottoattività di secondo livello (sottoattività delle sottoattività). Se a una sottoattività sono assegnate una o più sottoattività di secondo livello allo stesso team Agile e appartengono all’iterazione, nel backlog viene visualizzata solo la sottoattività di secondo livello.
 
 Per ulteriori informazioni sul backlog, vedere [Gestione del backlog Agile](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).

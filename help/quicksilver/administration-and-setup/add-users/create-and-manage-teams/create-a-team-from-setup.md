@@ -8,10 +8,10 @@ author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: 29a84e52-0bd3-45c2-a8b8-80bfec894196
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '542'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -26,7 +26,7 @@ In qualità di amministratore di Adobe Workfront, puoi creare un team dall’are
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -91,7 +91,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      </tr> 
      <tr data-mc-conditions="SnippetConditions-wf-groups.system-level"> 
       <td role="rowheader">Questo è un team agile</td> 
-      <td>Selezionare questo elemento se si desidera configurare il nuovo team come un team agile. Per ulteriori informazioni sui team Agile, vedi <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Creare un team Agile</a>.</td> 
+      <td>Seleziona questo elemento se desideri configurare il nuovo team come un team Agile. Per ulteriori informazioni sui team Agile, consulta <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Creare un team Agile</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Lavoraci</td> 

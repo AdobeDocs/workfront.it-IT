@@ -8,7 +8,7 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 1%
@@ -153,7 +153,7 @@ Il Tipo di Durata consente di rispondere alle seguenti domande:
   <tr> 
    <th scope="col"> <p><strong>Semplice</strong> </p> </th> 
    <td scope="col"> <p>Determina le ore pianificate e la durata (che sono uguali, per questo tipo di durata) in base al numero di ore per cui ogni assegnatario è allocato. </p> <p>Workfront calcola le ore pianificate sommando le ore allocate pianificate per ciascun assegnatario. </p> <p>Puoi modificare manualmente la quantità di ore per cui è allocato ciascun assegnatario, e il numero di ore pianificate e la quantità della Durata cambiano di conseguenza. Se si sceglie un numero totale di ore allocate per tutti gli assegnatari, tale numero viene diviso equamente tra ciascun assegnatario.</p> <p>Per informazioni più dettagliate, vedere <a href="../../../manage-work/tasks/taskdurtn/simple-duration-type.md" class="MCXref xref">Panoramica del tipo di durata: semplice</a>.</p> </td> 
-   <td scope="col"> <p>Le ore vengono distribuite in modo uniforme tra gli assegnatari se si sceglie un numero totale di ore allocate. Tuttavia, in qualità di project manager, puoi regolare manualmente le ore per ogni assegnatario. </p> <p>È possibile modificare le ore pianificate e la durata di un'attività con un tipo di durata semplice in linea o a livello di attività. </p> <p>Se a un’attività viene assegnato un team agile, il Tipo di durata viene impostato automaticamente su Semplice e non può essere modificato. La durata dell'attività per un team Agile deve essere maggiore di 0 minuti.</p> </td> 
+   <td scope="col"> <p>Le ore vengono distribuite in modo uniforme tra gli assegnatari se si sceglie un numero totale di ore allocate. Tuttavia, in qualità di project manager, puoi regolare manualmente le ore per ogni assegnatario. </p> <p>È possibile modificare le ore pianificate e la durata di un'attività con un tipo di durata semplice in linea o a livello di attività. </p> <p>Se a un’attività viene assegnato un team Agile, il Tipo di durata viene impostato automaticamente su Semplice e non può essere modificato. La durata dell’attività per un team Agile deve essere maggiore di 0 minuti.</p> </td> 
   </tr> 
  </tbody> 
 </table>

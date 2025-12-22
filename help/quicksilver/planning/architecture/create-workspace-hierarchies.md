@@ -4,9 +4,9 @@ description: In qualità di responsabile dell'area di lavoro, puoi creare più g
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '917'
 ht-degree: 1%
 
 ---
@@ -28,22 +28,23 @@ hidefromtoc: yes
 
 # Creare gerarchie area di lavoro
 
-In qualità di responsabile dell&#39;area di lavoro, puoi creare più gerarchie di aree di lavoro tra i tipi di record in Adobe Workfront Planning.
+<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-Dopo aver connesso i tipi di record all&#39;interno di un&#39;area di lavoro, è possibile creare una gerarchia che organizzi tali connessioni. Le gerarchie organizzano i tipi di record in relazioni padre-figlio e possono contenere fino a quattro livelli di tipi di oggetto.
+In qualità di responsabile dell&#39;area di lavoro, in Adobe Workfront Planning è possibile creare più gerarchie di aree di lavoro tra tipi di record.
+
+Dopo aver connesso i tipi di record all&#39;interno di un&#39;area di lavoro, è possibile creare una gerarchia che organizzi tali connessioni. Le gerarchie organizzano i tipi di record e di oggetti in relazioni padre-figlio e possono contenere fino a quattro livelli di tipi di oggetto.
 
 Se non esiste già una connessione tra due tipi di record, è possibile crearla durante l&#39;impostazione della gerarchia. Una volta definita, la gerarchia stabilisce un percorso strutturato tra tipi di record correlati all’interno dell’area di lavoro.
 
-Le gerarchie genereranno breadcrumb per i tipi di record e i record <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> visualizzati nelle relative intestazioni. In questo modo, gli utenti sanno dove si trovano nella gerarchia in qualsiasi fase del flusso di lavoro.
+Le gerarchie genereranno breadcrumb per i tipi di record e i rispettivi record <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> visualizzati nelle intestazioni. In questo modo, gli utenti sanno dove si trovano nella gerarchia in qualsiasi fase del flusso di lavoro.
 
 Per informazioni generali sulle gerarchie e sulle breadcrumb, vedere [Panoramica sulle gerarchie e sulle breadcrumb](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 ## Requisiti di accesso
 
 <!--check the access to see if you oversimplified???-->
-
-<!--Update the TOC for this to publish-->
 
 +++ Espandere per visualizzare i requisiti di accesso per eseguire i passaggi descritti in questo articolo:  
 
@@ -90,16 +91,29 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 1. Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome dell&#39;area di lavoro, quindi fai clic su **Impostazioni**.
 Per impostazione predefinita, viene aperta la sezione **Gerarchie**.
 1. Fai clic su **Nuova gerarchia** nell&#39;angolo superiore destro della pagina **Gerarchie**.
-1. Fare clic su **Aggiungi oggetto** e selezionare un oggetto dal menu a discesa. Questo sarà il primo oggetto principale nella gerarchia.
-Il primo padre può essere solo un tipo di record di Planning. I progetti Workfront non possono essere selezionati come padri di altri tipi di oggetto in una gerarchia.
-1. Fai clic su **Aggiungi oggetto** per aggiungere un secondo oggetto, che è il primo figlio nella gerarchia, quindi seleziona un altro oggetto nel menu a discesa.
-   ![Nuova casella della gerarchia senza campo selezionato](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
-1. Fare clic su **Seleziona campo connesso** per indicare quale campo connette i due oggetti.
-1. (Condizionale) Se esiste un campo connesso tra i due tipi di oggetto, selezionarlo dall&#39;elenco. In caso contrario, fare clic su **Aggiungi nuova connessione**.
+1. Fare clic su **Aggiungi oggetto** e selezionare un tipo di oggetto dal menu a discesa. Questo sarà il primo tipo di oggetto nella gerarchia. <!--logged bug to correct to "Add object type"-->
 
-   >[!WARNING]
-   >
-   >Se il campo **Crea campo corrispondente nel tipo di record collegato** non è stato selezionato al momento della creazione del campo connesso, è necessario modificare il campo prima di continuare.
+   Il primo tipo di oggetto può essere solo un tipo di record di Planning.
+
+   I progetti Workfront non possono essere selezionati come padri di altri tipi di oggetto in una gerarchia.
+
+1. Fai clic su **Aggiungi oggetto** per aggiungere un secondo tipo di oggetto, che è il primo figlio nella gerarchia, quindi seleziona un altro tipo di oggetto nel menu a discesa.
+Ogni tipo di oggetto aggiuntivo diventa figlio dei tipi di oggetto precedenti.
+
+   ![Nuova casella della gerarchia senza campo selezionato](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
+
+1. Fare clic su **Seleziona campo connesso** per indicare quale campo connette i due oggetti.
+1. (Condizionale) Se sono presenti più campi di connessione, selezionane uno dall’elenco,
+
+   Oppure
+
+   Fare clic su **Aggiungi nuova connessione** per aggiungere un nuovo campo connessione.
+
+   In questo modo viene creato un campo di connessione dal tipo di record utilizzato come padre e un campo di connessione corrispondente dal tipo di record utilizzato come figlio.
+
+   Se stai creando una connessione a progetti Workfront, non viene creato alcun campo nel progetto.
+
+1. (Condizionale) Se non sono disponibili campi connessi, fare clic su **Crea connessione** e aggiungere una nuova connessione, quindi fare clic su **Salva**.
 
 1. (Condizionale) Se stai aggiungendo una nuova connessione, effettua le seguenti operazioni:
 
@@ -110,13 +124,25 @@ Il primo padre può essere solo un tipo di record di Planning. I progetti Workfr
       * **Uno a molti**
       * **Molti a uno**
       * **Uno a uno**
+
    1. Selezionare uno dei tipi di aspetto dei record riportati di seguito.
 
       * **Nome e immagine**
       * **Nome**
       * **Immagine**
-Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+      Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+
    1. Fai clic su **Salva**.
+
+1. (Condizionale) Se il campo **Crea campo corrispondente nel tipo di record collegato** non è stato selezionato al momento della creazione del campo connesso, verrà visualizzato un errore e sarà necessario eseguire prima le operazioni seguenti: <!--check back on these steps; this is supposed to be seamless, but now you have to abandon creating a hierarchy to do this-->
+
+   1. Fare clic su **Annulla** nella casella **Nuova gerarchia**.
+   1. Fare clic sulla freccia indietro a sinistra del nome dell&#39;area di lavoro, quindi fare clic sulla scheda del tipo di record che si desidera scegliere come padre.
+   1. Apri la visualizzazione tabella del tipo di record selezionato nel passaggio precedente, quindi vai al campo connessione con il tipo di oggetto che desideri utilizzare come figlio, passa il puntatore sull&#39;intestazione della colonna, quindi fai clic sul campo **Modifica**.
+   1. Attiva l&#39;impostazione **Crea campo corrispondente nel tipo di record collegato**, quindi fai clic su **Salva**.
+   1. Torna all&#39;area **Impostazioni** dell&#39;area di lavoro e fai di nuovo clic su **Nuova gerarchia**, quindi segui i passaggi per creare una gerarchia.
+
 1. (Facoltativo) Continua ad aggiungere fino a 4 tipi di oggetto alle gerarchie seguendo la procedura descritta sopra. È possibile aggiungere prima tutti i tipi di oggetto e quindi i campi di connessione tra di essi.
 1. (Facoltativo) Fai clic sull&#39;icona **Rimuovi** ![Rimuovi icona](assets/minus-icon.png) per rimuovere una connessione.
 1. Fai clic su **Salva** per salvare la gerarchia.
@@ -129,7 +155,11 @@ Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/p
 
    * La gerarchia viene aggiunta alla sezione **Gerarchie** dell&#39;area di lavoro.
    * I record che popolano i campi di connessione visualizzano tutte le connessioni nelle relative breadcrumb quando si passa alla pagina di un record.
-1. (Facoltativo) Passa il puntatore del mouse su una gerarchia, quindi fai clic sul menu **Altro**, quindi fai clic su una delle seguenti opzioni:
+1. (Facoltativo) Passa il puntatore del mouse su una gerarchia, quindi fai clic sul menu **Altro**.
+
+   ![Menu Altro gerarchia espanso](assets/hierarchy-more-menu-expanded.png)
+
+1. Fare clic su una delle seguenti opzioni:
 
    * **Modifica**: apre la casella **Modifica gerarchia** in cui è possibile apportare modifiche.
    * **Elimina**: la gerarchia verrà eliminata definitivamente. Non è possibile recuperare le gerarchie eliminate. I campi di connessione non vengono eliminati.

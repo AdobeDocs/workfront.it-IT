@@ -7,7 +7,7 @@ description: Leggi questo articolo per comprendere meglio come funziona la bache
 author: Jenny
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -34,7 +34,7 @@ La bacheca [!UICONTROL Kanban] è costituita dai seguenti elementi:
 
 Per ulteriori informazioni, consulta [Aggiornare lo stato delle storie sulla bacheca [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md).
 
-Gli stati delle storie possono essere personalizzati per il progetto modificando la visualizzazione agile, come descritto nella sezione [[!UICONTROL Creare o personalizzare una visualizzazione agile]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) in [Creare o modificare le visualizzazioni in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+Gli stati delle storie possono essere personalizzati per il progetto modificando la visualizzazione Agile, come descritto nella sezione [[!UICONTROL Creare o personalizzare una visualizzazione Agile]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) in [Creare o modificare le visualizzazioni in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 >[!NOTE]
 >

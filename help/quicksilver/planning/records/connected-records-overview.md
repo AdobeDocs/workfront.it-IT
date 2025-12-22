@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 0%
@@ -44,6 +44,7 @@ Per informazioni su come connettere i record tra loro o a un altro oggetto, vede
 * Tutti coloro che dispongono dell&#39;accesso a Workfront Planning and View o di autorizzazioni superiori per l&#39;area di lavoro e un tipo di record possono visualizzare le connessioni che si creano tra record o tra record e oggetti di altre applicazioni. Possono visualizzare i record e gli oggetti connessi indipendentemente dalle autorizzazioni di cui dispongono nelle applicazioni a cui ci si connette.
 * È possibile visualizzare e modificare le connessioni di tutti gli altri utenti se si dispone delle autorizzazioni Gestione per l&#39;area di lavoro e il tipo di record in cui si trovano i record connessi.
 * È possibile connettere un record a uno o più oggetti di un&#39;altra applicazione, a seconda del tipo di connessione selezionata durante la connessione dei tipi di record. Per ulteriori informazioni, vedere la sezione &quot;Tipi di connessione&quot; nell&#39;articolo [Panoramica sui tipi di record connessi](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+  <!--* <span class="preview">If connected record types are part of hierarchies, you can access any object type within the hierarchy from the records' pages. For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md). </span>-->
 
 ## Aree in cui è possibile collegare i record
 

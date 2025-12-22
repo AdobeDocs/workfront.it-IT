@@ -6,9 +6,9 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 author: Alina
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '644'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 # Elimina campi
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -28,23 +28,6 @@ In Adobe Workfront Planning è possibile creare campi personalizzati per memoriz
 Per informazioni sulla creazione di campi personalizzati in Workfront Planning, vedere [Creare campi](/help/quicksilver/planning/fields/create-fields.md).
 
 È possibile eliminare i campi di Workfront Planning che non sono più rilevanti.
-
-## Considerazioni sull&#39;eliminazione dei campi di Workfront Planning:
-
-* È possibile eliminare un campo solo nella vista tabella del tipo di record.
-* Impossibile eliminare il campo principale di un record.
-* Tutte le informazioni memorizzate nel campo vengono eliminate e non possono essere recuperate.
-* Quando si elimina un campo record connesso, vengono eliminati anche tutti i campi di ricerca connessi dal tipo di record da cui ci si connette. I campi dei record connessi dei tipi di record a cui ci si connette vengono eliminati anche dal record a cui ci si connette.
-
-  Ad esempio, quando si collegano le campagne a un altro tipo di record denominato prodotto e si eliminano dalla campagna il campo connesso al prodotto e il campo di ricerca Stato del prodotto, vengono eliminati i seguenti elementi:
-
-   * Il campo Prodotto connesso dalla campagna
-   * Il campo di ricerca Stato prodotto dalla campagna
-   * Il campo Campaign connesso dal prodotto.
-
-  Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
-
-<!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
 ## Requisiti di accesso
 
@@ -67,12 +50,10 @@ Per informazioni sulla creazione di campi personalizzati in Workfront Planning, 
 Oppure
 <li><p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p></li></ul>
 
-<!--
-<p><span class="preview">To delete global record types:</span</p>
-<ul><li><p><span class="preview">Any Workfront package and a Planning Plus package</span></p></li>
-Or
-<li><p><span class="preview">Workflow and Planning Prime and Ultimate packages</span></p></li></ul>
--->
+<p><span class="preview">Per eliminare campi dai tipi di record globali:</span></p>
+<ul><li><p><span class="preview">Qualsiasi pacchetto Workfront e un pacchetto Planning Plus</span></p></li>
+Oppure
+<li><p><span class="preview">Tutti i pacchetti Workflow e Planning Prime e Ultimate</span></p></li></ul>
 
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
@@ -151,6 +132,25 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 </tbody> 
 </table> -->
 
+## Considerazioni sull&#39;eliminazione dei campi di Workfront Planning:
+
+* È possibile eliminare un campo solo nella vista tabella del tipo di record.
+* Impossibile eliminare il campo principale di un record.
+* Tutte le informazioni memorizzate nel campo vengono eliminate e non possono essere recuperate.
+* Quando si elimina un campo record connesso, vengono eliminati anche tutti i campi di ricerca connessi dal tipo di record da cui ci si connette. I campi dei record connessi dei tipi di record a cui ci si connette vengono eliminati anche dal record a cui ci si connette.
+
+  Ad esempio, quando si connettono Campagne a un altro tipo di record denominato Prodotto e si eliminano dalla campagna il campo Collegato al prodotto e il campo di ricerca Stato del prodotto, vengono eliminati i seguenti elementi:
+
+   * Il campo Prodotto connesso dalla campagna
+   * Il campo di ricerca Stato prodotto dalla campagna
+   * Il campo Campaign connesso dal prodotto
+
+  Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+<!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
+
+* <span class="preview">Impossibile eliminare i campi dai record globali aggiunti a un&#39;area di lavoro secondaria dalle aree di lavoro secondarie.</span>
+
 ## Elimina campi
 
 <!--When they release the sharing of fields between other records, revise this section.  -->
@@ -177,4 +177,11 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 1. Fai clic su **Elimina** per confermare.
 
-   Il campo viene eliminato, non può essere recuperato e non può più essere associato ad alcun record.
+   Non è possibile recuperare i campi eliminati.
+
+   A seconda del tipo di campo eliminato, si verifica quanto segue:
+
+   * Se si elimina un campo che appartiene al record selezionato, il campo viene eliminato e non può più essere associato ad alcun record. Se questo campo viene aggiunto come campo di ricerca in altri record, anche tali campi vengono eliminati.
+   * Se si elimina un campo di connessione, il campo viene eliminato dal record selezionato. Viene eliminato anche il campo di connessione corrispondente dal record originale.
+   * Se si elimina un campo di ricerca aggiunto da un record connesso, il campo viene eliminato dal tipo di record selezionato, ma rimane nel tipo di record originale.
+   * <span class="preview">Se si elimina un campo da un tipo di record globale nell&#39;area di lavoro principale, il campo verrà eliminato da tutte le aree di lavoro in cui è stato aggiunto il tipo di record. Impossibile eliminare i campi dai tipi di record globali dalle aree di lavoro secondarie.</span>

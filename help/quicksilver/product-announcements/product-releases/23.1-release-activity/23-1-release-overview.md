@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 0%
@@ -123,7 +123,7 @@ Il webinar sulla versione 23.1 si è tenuto martedì 10 gennaio 2023. Puoi [regi
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Pianificazione Scrum per le schede madri Workfront</a><span style="color: #ff0000;"> Disponibile a breve!</span></p>
-                        <p>Le nuove funzioni di pianificazione Scrum nelle schede madri Adobe Workfront offrono opzioni flessibili per gestire i processi agili. Utilizzando questi strumenti, è possibile:
+                        <p>Le nuove funzioni di pianificazione Scrum nelle schede madri Adobe Workfront offrono opzioni flessibili per gestire i processi Agile. Utilizzando questi strumenti, è possibile:
                         <ul>
                         <li>Tracciare il lavoro in iterazioni o sprint</li>
                         <li>Utilizzare Velocity per gestire gli impegni del team</li>
@@ -521,7 +521,7 @@ Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianific
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione apportati durante la versione 22.3, vedere [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/it/docs/workfront-known-issues/releases/current-updates).
+Per informazioni sugli aggiornamenti di manutenzione apportati durante la versione 22.3, vedere [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Aggiornamenti dei corsi di formazione
 

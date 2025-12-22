@@ -2,24 +2,24 @@
 product-area: agile-and-teams
 navigation-topic: iterations
 title: Creare un’iterazione
-description: Le iterazioni sono un componente chiave per i team agili Scrum nella pianificazione della capacità di lavoro. [!DNL Adobe Workfront] consente ai team agili Scrum di gestire il proprio lavoro creando più iterazioni per soddisfare le esigenze del team.
+description: Le iterazioni sono un componente chiave per i team Scrum Agile nella pianificazione della capacità di lavoro. [!DNL Adobe Workfront] consente ai team Scrum Agile di gestire il proprio lavoro creando più iterazioni per soddisfare le esigenze del team.
 author: Jenny
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1022'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 # Creare un’iterazione
 
-Le iterazioni sono un componente chiave per i team agili Scrum nella pianificazione della capacità di lavoro. [!DNL Adobe Workfront] consente ai team agili Scrum di gestire il proprio lavoro creando più iterazioni per soddisfare le esigenze del team.
+Le iterazioni sono un componente chiave per i team Scrum Agile nella pianificazione della capacità di lavoro. [!DNL Adobe Workfront] consente ai team Scrum Agile di gestire il proprio lavoro creando più iterazioni per soddisfare le esigenze del team.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -70,12 +70,12 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <td>Aggiungi eventuali obiettivi per l’iterazione.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Data Inizio]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Data di inizio]</strong></td> 
       <td>Immettere la data di inizio dell'iterazione.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Data di fine]</strong></td> 
-      <td><p>Immettere la data di fine dell'iterazione. [!DNL Workfront] consiglia di impostare una data di fine non superiore a 4 settimane dalla data di inizio.</p><p>Suggerimento: scegli un giorno lavorativo come data di fine. Il grafico a dispersione usa solo giorni lavorativi nei suoi calcoli.<br>Per impostazione predefinita, il grafico a dispersione utilizza la pianificazione predefinita per definire i giorni lavorativi (come descritto in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Creare una pianificazione</a>). In alternativa, per incorporare i giorni non lavorativi specifici del team, i team Agile possono scegliere di utilizzare una pianificazione alternativa (come descritto in "Definizione di una pianificazione alternativa del team per i grafici Burndown" in <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Creare un team Agile</a>).</p></td> 
+      <td><p>Immettere la data di fine dell'iterazione. [!DNL Workfront] consiglia di impostare una data di fine non superiore a 4 settimane dalla data di inizio.</p><p>Suggerimento: scegli un giorno lavorativo come data di fine. Il grafico a dispersione usa solo giorni lavorativi nei suoi calcoli.<br>Per impostazione predefinita, il grafico a dispersione utilizza la pianificazione predefinita per definire i giorni lavorativi (come descritto in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Creare una pianificazione</a>). In alternativa, per incorporare i giorni non lavorativi specifici del team, i team Agile possono scegliere di utilizzare una pianificazione alternativa, come descritto in "Definizione di una pianificazione alternativa del team per i grafici Burndown" in <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Creazione di un team Agile</a>).</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Capacity]</strong></td> 
@@ -118,7 +118,7 @@ Utilizza la funzione [!UICONTROL Iterazione piano] per creare un&#39;iterazione 
       <td>Specificare un nome per l'iterazione.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Data Inizio]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Data di inizio]</strong></td> 
       <td> Specificare la data di inizio dell'iterazione.</td> 
      </tr> 
      <tr> 

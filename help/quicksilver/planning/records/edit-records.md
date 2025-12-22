@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '2731'
+source-wordcount: '2940'
 ht-degree: 0%
 
 ---
@@ -142,11 +142,14 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    * Campi collegati da altri record
    * Campi di tipo formula
    * Campi di sistema (Creato da, Data di creazione, Autore ultima modifica, Data ultima modifica)
-* Se i record visualizzati sono collegati ad altri record, le nuove informazioni dei record che si sta modificando verranno applicate ai record collegati.
+* Se i record visualizzati sono collegati ad altri record, le nuove informazioni dei record che si sta modificando verranno applicate ai record collegati in tutte le aree di lavoro in cui il record è collegato.
 * Non è possibile modificare i record in blocco. <!--this will probably change-->
 * Gli URL vengono riconosciuti come collegamenti nei tipi di campi di testo a riga singola solo quando iniziano con: http://, https://, ftp:// o www. .
 * È possibile aggiungere un&#39;immagine di copertina a ogni record. L&#39;immagine è univoca per ogni record e non si applica a tutti i record contemporaneamente.
 * È possibile modificare l&#39;ordine dei campi in una pagina record e aggiungere un&#39;immagine di copertina per un record. Per ulteriori informazioni, vedere [Gestire il layout della pagina record](/help/quicksilver/planning/records/manage-the-record-page.md).
+* È possibile modificare le date di inizio e di fine di un record ridimensionando o riposizionando i record nelle visualizzazioni Timeline e Calendario.
+
+  Non è possibile ridimensionare o riposizionare i record quando la data di inizio e la data di fine scelte per il record sono di sola lettura. Ad esempio, l&#39;utilizzo di campi di ricerca o di formula per le date di inizio e di fine di un record non consente di ridimensionare o riposizionare il record in una visualizzazione timeline e calendario. <!--this also repeats below, for the timeline and the calendar views; also update there, if this changes-->
 
 ## Modifica record
 
@@ -266,6 +269,10 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 
 1. Fare clic su una barra dei record e trascinarla in un&#39;altra posizione per aggiornare la cronologia e le date. Le date di inizio e fine del record vengono aggiornate automaticamente.
 
+   >[!IMPORTANT]
+   >
+   >Non è possibile trascinare e rilasciare le estremità di una barra dei record, né trascinare e rilasciare il record in un&#39;altra data quando le date di inizio e di fine scelte per il record sono di sola lettura. Ad esempio, l&#39;utilizzo di campi di ricerca o di formula per le date di inizio e di fine di un record non consente di ridimensionare o riposizionare il record in una visualizzazione indicatore cronologico. <!--this also repeats in Considerations and in editing in the calendar view; also update there, if this changes-->
+
 1. Fare clic sulla barra di un record per aprire l&#39;area dei dettagli e modificare tutti i campi.
 
    Per informazioni, vedere la sezione [Modificare un record dall&#39;anteprima del record in una visualizzazione](#edit-a-record-from-the-records-preview-in-a-view) in questo articolo.
@@ -280,6 +287,10 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
    ![Barra a sinistra nella visualizzazione calendario per ridimensionare](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)
 
 1. Fare clic su una barra dei record e trascinarla in un&#39;altra posizione per aggiornare la cronologia e le date. Le date di inizio e fine del record vengono aggiornate automaticamente.
+
+   >[!IMPORTANT]
+   >
+   >Non è possibile trascinare e rilasciare le estremità di una barra dei record, né trascinare e rilasciare il record in un&#39;altra data quando le date di inizio e di fine scelte per il record sono di sola lettura. Ad esempio, l&#39;utilizzo di campi di ricerca o di formula per le date di inizio e di fine di un record non consente di ridimensionare o riposizionare il record in una visualizzazione calendario. <!--this also repeats in Considerations and in editing in the timeline view; also update there, if this changes-->
 
 1. Fare clic sulla barra di un record per aprire l&#39;area dei dettagli e modificare tutti i campi.
 

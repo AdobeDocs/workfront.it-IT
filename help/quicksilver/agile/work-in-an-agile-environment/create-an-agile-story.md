@@ -2,11 +2,11 @@
 product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
 title: Creare una storia Agile
-description: Potete creare una storia agile su un'iterazione in vari modi. Dopo aver creato una storia agile, potete aggiungere sottoattività alla storia.
+description: Puoi creare una storia Agile su un’iterazione in vari modi. Dopo aver creato un brano Agile, potete aggiungere sottoattività al brano.
 author: Jenny
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 3%
@@ -88,7 +88,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <td>Specificate la stima per il brano. Se il team Agile è configurato per stimare le storie in punti, per impostazione predefinita 1 punto equivale a 8 ore. Le stime vengono aggiunte come [!UICONTROL Lavoro Necessario] alla storia.<br>Ad esempio, se si stima una storia come 3 punti, il comportamento predefinito consiste nell'aggiungere 24 [!UICONTROL Planned Hours] alla storia.<br>Se un brano contiene sottoattività, tenere presente che le stime combinate di tutte le sottoattività determinano la stima del brano principale. Per ulteriori informazioni, vedere <a href="../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md" class="MCXref xref">Aggiungere brani a un'iterazione esistente</a>.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>Progetto padre </strong></td>
+      <td role="rowheader"><strong>Progetto padre [!UICONTROL]</strong></td>
       <td>Inizia a digitare il nome del progetto a cui sarà associata questa storia.<br>Per impostazione predefinita, il colore del brano viene visualizzato con lo stesso colore degli altri brani di questo progetto.<br>Lo stato del progetto deve essere impostato su [!UICONTROL Current]. Se lo stato del progetto è diverso da [!UICONTROL Current], non viene visualizzato nel menu a discesa.</td>
      </tr>
      <tr>

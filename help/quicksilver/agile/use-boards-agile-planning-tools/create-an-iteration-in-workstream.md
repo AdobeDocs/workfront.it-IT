@@ -3,14 +3,14 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: boards
 title: Creare un’iterazione in un flusso di lavoro
-description: Un'iterazione è una quantità di tempo riservata per il completamento del lavoro. Alcuni team agili possono fare riferimento a un’iterazione come sprint.
+description: Un'iterazione è una quantità di tempo riservata per il completamento del lavoro. Alcuni team Agile possono fare riferimento a un’iterazione come sprint.
 author: Jenny
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 0%
 >
 >I flussi di lavoro sono disponibili solo per un gruppo specifico di clienti.
 
-Un&#39;iterazione è una quantità di tempo riservata per il completamento del lavoro. Alcuni team agili possono fare riferimento a un’iterazione come sprint.
+Un&#39;iterazione è una quantità di tempo riservata per il completamento del lavoro. Alcuni team Agile possono fare riferimento a un’iterazione come sprint.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 

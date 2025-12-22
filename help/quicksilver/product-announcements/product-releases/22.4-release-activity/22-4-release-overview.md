@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: f4c1f2170d826b4b6f1e8189e1fecc1edb6e0d97
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '3231'
+source-wordcount: '3232'
 ht-degree: 0%
 
 ---
@@ -678,7 +678,7 @@ Le campagne sono state rilasciate in anteprima beta con la versione 22.3, a lugl
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Descrizione team espansa</a></p>
                         <p>Nell'area Team è ora possibile visualizzare la descrizione completa del team facendo clic sulla descrizione per visualizzarla in un pop-up. Qualsiasi URL nella descrizione è cliccabile nel pop-up e puoi fare clic nel testo della descrizione per modificarlo (se hai accesso per modificare le impostazioni del team).</p>
                         <p>In precedenza, scorrere la descrizione in un’area stretta era l’unico modo per visualizzare tutto il contenuto.</p>
-<p>Questo miglioramento alla descrizione si applica sia ai team agili che a quelli non agili.</p>
+<p>Questo miglioramento alla descrizione si applica sia ai team Agile che a quelli non Agile.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -694,7 +694,7 @@ Le campagne sono state rilasciate in anteprima beta con la versione 22.3, a lugl
             </tbody>
         </table>
 
-## Notifiche
+## Annunci
 
 ### Aggiornare il Visualizzatore bozze desktop alla versione più recente
 
@@ -733,11 +733,11 @@ Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianific
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione apportati durante la versione 22.3, vedere [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/it/docs/workfront-known-issues/releases/current-updates).
+Per informazioni sugli aggiornamenti di manutenzione apportati durante la versione 22.3, vedere [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Webinar sulla versione 22.4
 
-Il webinar sulla versione 22.4 si terrà giovedì 22 settembre 2022 alle 9:00 PDT. Puoi [registrarti al webinar qui](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt).
+Il webinar sulla versione 22.4 si terrà giovedì 22 settembre 2022 alle 09:00 PDT. :00 Puoi [registrarti al webinar qui](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt).
 
 ### Aggiornamenti dei corsi di formazione
 

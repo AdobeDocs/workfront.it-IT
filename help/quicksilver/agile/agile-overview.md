@@ -7,7 +7,7 @@ description: Agile è una metodologia di lavoro che consente ai team di completa
 author: Jenny
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -20,15 +20,15 @@ Agile è una metodologia di lavoro che consente ai team di completare piccole qu
 
 [!DNL Workfront] bacheche sono strumenti semplici ma flessibili per la collaborazione in team. Per informazioni sulle bacheche, consulta [Panoramica delle bacheche](../agile/boards-overview.md).
 
-Ulteriori strumenti avanzati e agili del team utilizzano Kanban o Scrum. Per informazioni sulle metodologie Kanban e Scrum, consulta la sezione [Decidere su una metodologia agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) nell&#39;articolo [Creare un team agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+Ulteriori strumenti avanzati del team Agile utilizzano Kanban o Scrum. Per informazioni sulle metodologie Kanban e Scrum, consulta la sezione [Decidere su una metodologia Agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) nell&#39;articolo [Creare un team Agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
-Per iniziare a utilizzare la funzione agile avanzata in Workfront:
+Per iniziare a utilizzare Agile avanzato in Workfront:
 
-1. Crea un team agile.
+1. Crea un team Agile.
 
    Per informazioni, vedere la sezione [Creare un team Agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md/#create-an-agile-team-1) o [Convertire un team esistente in un team Agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team) nell&#39;articolo [Creare un team Agile](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
-1. Configura il team agile per utilizzare Kanban o Scrum.
+1. Configura il team Agile per l’utilizzo di Kanban o Scrum.
 
    Per informazioni, vedere [Configurazione Kanban](../agile/get-started-with-agile-in-workfront/configure-kanban.md) o [Configurazione Scrum](../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
@@ -46,4 +46,4 @@ Per iniziare a utilizzare la funzione agile avanzata in Workfront:
 
 ## Utilizzare Agile in un progetto
 
-Puoi sfruttare le funzionalità agili per il tuo progetto senza le problematiche amministrative che in genere accompagnano le procedure agili (come la gestione del backlog di un team, la creazione di iterazioni e così via). Per ulteriori informazioni, consulta [Gestire un progetto in Agile View](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Puoi sfruttare le funzionalità Agile per il tuo progetto senza le sfide amministrative che in genere accompagnano le pratiche Agile (come la gestione del backlog di un team, la creazione di iterazioni e così via). Per ulteriori informazioni, consulta [Gestire un progetto in Agile View](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).

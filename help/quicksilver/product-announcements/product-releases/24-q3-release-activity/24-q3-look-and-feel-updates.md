@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6ad93735-652f-4a94-bc24-6c22bb2c8826
-source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Per informazioni, vedere [Panoramica dei dettagli del documento](/help/quicksilv
 
 Abbiamo aggiornato la pagina Dettagli iterazione > Forms personalizzato con un design più moderno che è coerente con altre aree di Workfront. La pagina ora supporta funzioni avanzate per i moduli personalizzati, ad esempio i campi di ricerca esterna.
 
-Per informazioni, vedere [Creare una storia agile in un&#39;iterazione](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md).
+Per informazioni, vedere [Creare una storia Agile in un&#39;iterazione](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md).
 
 ## Aggiornamenti look-and-feel per l’area Gruppi
 

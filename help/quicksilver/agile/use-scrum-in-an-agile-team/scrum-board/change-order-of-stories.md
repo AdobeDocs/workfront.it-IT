@@ -6,10 +6,10 @@ description: L'ordine in cui le storie vengono visualizzate sulla bacheca delle 
 author: Jenny
 feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ Quando riordinate le colonne sullo storyboard, tutte le modifiche apportate veng
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -57,6 +57,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Modificare l&#39;ordine delle storie in un progetto
 
-A differenza delle iterazioni agili, non è possibile modificare l&#39;ordine delle storie quando si visualizza un progetto in una visualizzazione agile. Per modificare l&#39;ordine delle storie di un progetto, è necessario visualizzare il progetto in una visualizzazione standard.
+A differenza delle iterazioni Agile, non è possibile modificare l’ordine delle storie quando si visualizza un progetto in una visualizzazione Agile. Per modificare l&#39;ordine delle storie di un progetto, è necessario visualizzare il progetto in una visualizzazione standard.
 
-Per informazioni su come modificare la visualizzazione del progetto, vedere [[!UICONTROL Gestione di un progetto] nella visualizzazione [!UICONTROL Agile]](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). Invece di selezionare una vista agile, selezionate una vista standard.
+Per informazioni su come modificare la visualizzazione del progetto, vedere [[!UICONTROL Gestione di un progetto] nella visualizzazione [!UICONTROL Agile]](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). Invece di selezionare una vista Agile, selezionate una vista standard.

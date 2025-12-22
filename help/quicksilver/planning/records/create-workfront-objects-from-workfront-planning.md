@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1257'
 ht-degree: 2%
 
 ---
@@ -227,7 +227,7 @@ Inizia a digitare il nome di un progetto, quindi fai clic su **Aggiungi progetto
 
 1. Aggiungi **Pagina record connessi** per i progetti.
 
-   Per informazioni, vedere la sezione &quot;Aggiungere una pagina di record connessi a un record&quot; nell&#39;articolo [Gestire il layout della pagina di record](/help/quicksilver/planning/records/manage-the-record-page.md).
+   Per informazioni, vedere [Aggiungere una pagina Record connessi a un record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
    La pagina Record collegati viene visualizzata nella vista Tabella. I progetti connessi vengono visualizzati nella tabella.
 
