@@ -318,7 +318,7 @@ Stiamo aggiornando l’interfaccia in Adobe Workfront per migliorare l’esperie
 
 >[!IMPORTANT]
 >
->La documentazione di Workfront Fusion è stata spostata in una nuova posizione. Per informazioni, istruzioni e versioni di Fusion, visitare la [documentazione di Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home).
+>La documentazione di Workfront Fusion è stata spostata in una nuova posizione. Per informazioni, istruzioni e versioni di Fusion, visitare la [documentazione di Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/home).
 >
 >Ogni articolo della documentazione di Fusion corrente contiene un collegamento all’articolo corrispondente nella nuova posizione. Aggiorna i segnalibri.
 >
@@ -352,7 +352,7 @@ Per informazioni sulle versioni API attualmente supportate, vedere [Controllo de
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del secondo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
+Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del secondo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/it/docs/workfront-known-issues/releases/current-updates).
 
 ### Aggiornamenti dei corsi di formazione
 
