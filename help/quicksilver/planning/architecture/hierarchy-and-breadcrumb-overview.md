@@ -5,7 +5,7 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 0%
@@ -46,8 +46,9 @@ Di seguito sono riportati i vantaggi dell’utilizzo delle gerarchie nelle aree 
    * AEM Assets.
 * Le gerarchie possono includere contemporaneamente sia i tipi di record di Planning che i progetti Workfront.
 
-      È ad esempio possibile avere un tipo di record Campaign con Planning Tactics e Workfront Projects come figli nella stessa gerarchia dell&#39;area di lavoro.
-  * Se esiste già una connessione tra i tipi di record selezionati, il sistema riutilizza la connessione esistente.
+  È possibile, ad esempio, disporre di un tipo di record Campaign con Tattiche di pianificazione e Progetti Workfront come elementi figlio nella stessa gerarchia dell&#39;area di lavoro.
+
+* Se esiste già una connessione tra i tipi di record selezionati, il sistema riutilizza la connessione esistente.
 * Se non esiste alcuna connessione, Workfront ne creerà una come parte dell’impostazione della gerarchia.
 * L&#39;impostazione **Crea campo corrispondente nel tipo di record collegato** deve essere attivata per il campo connesso per i record e i tipi di oggetto che si desidera includere in una gerarchia.
 * Non è possibile eliminare un tipo di record se fa parte di una gerarchia.
