@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
+source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 2%
+source-wordcount: '514'
+ht-degree: 3%
 
 ---
 
@@ -52,6 +52,10 @@ Nella tabella seguente vengono illustrati i limiti per il numero di oggetti che 
 | <span class="preview">Numero di campi di connessione per un tipo di record</span> | <span class="preview">30</span> |
 | Numero di caratteri in un&#39;espressione del campo formula | 50.000 |
 | Numero di entità (utenti, ruoli, team, società, gruppi) con cui è possibile condividere un oggetto Planning | 100 |
+| <span class="preview">Numero di tipi di record in una gerarchia</span> | 4 |
+| <span class="preview">Numero di gerarchie in un&#39;area di lavoro</span> | 5 |
+| <span class="preview">Numero di record padre connessi a un figlio in una gerarchia</span> | 10 |
+| Numero di record connessi a un record in un tipo di connessione a selezione multipla, <span class="preview">senza una gerarchia configurata tra i record</span> | 500 |
 
 *Si consiglia di non disporre di troppe aree di lavoro, in quanto potrebbero diventare difficili da gestire e i flussi di lavoro potrebbero essere troppo frammentati.
 

@@ -1,30 +1,18 @@
 ---
 title: Creare gerarchie Workspace
-description: In qualità di responsabile dell'area di lavoro, puoi creare più gerarchie di aree di lavoro tra i tipi di record in Adobe Workfront Planning. Dopo aver connesso i tipi di record in un'area di lavoro e aver creato una gerarchia, i tipi di record vengono connessi tra loro, con un tipo di record designato come padre e fino a 6 altri tipi di record configurati come figli.
-hide: true
-hidefromtoc: true
-exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
-workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 1%
-
----
-
-<!--update the metadata with real information when making this available in TOC and in the left nav:
-
----
-title: Create Workspace Hierarchies
-description: You can create multiple workspace hierarchies between the record types in a workspace. 
+description: In qualità di responsabile dell'area di lavoro, puoi creare più gerarchie di aree di lavoro tra i tipi di record in Adobe Workfront Planning. Dopo aver connesso i tipi di record in un'area di lavoro e aver creato una gerarchia, i tipi di record vengono connessi tra loro, con un tipo di record designato come padre e fino a 3 altri tipi di record configurati come figli.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hide: yes 
-hidefromtoc: yes 
+exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
+source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+workflow-type: tm+mt
+source-wordcount: '953'
+ht-degree: 1%
+
 ---
 
--->
 
 # Creare gerarchie area di lavoro
 
@@ -38,13 +26,11 @@ Dopo aver connesso i tipi di record all&#39;interno di un&#39;area di lavoro, è
 
 Se non esiste già una connessione tra due tipi di record, è possibile crearla durante l&#39;impostazione della gerarchia. Una volta definita, la gerarchia stabilisce un percorso strutturato tra tipi di record correlati all’interno dell’area di lavoro.
 
-Le gerarchie genereranno breadcrumb per i tipi di record e i rispettivi record <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> visualizzati nelle intestazioni. In questo modo, gli utenti sanno dove si trovano nella gerarchia in qualsiasi fase del flusso di lavoro.
+Le gerarchie generano breadcrumb per i rispettivi record visualizzati nelle intestazioni. In questo modo, gli utenti sanno dove si trovano nella gerarchia in qualsiasi fase del flusso di lavoro.
 
 Per informazioni generali sulle gerarchie e sulle breadcrumb, vedere [Panoramica sulle gerarchie e sulle breadcrumb](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 ## Requisiti di accesso
-
-<!--check the access to see if you oversimplified???-->
 
 +++ Espandere per visualizzare i requisiti di accesso per eseguire i passaggi descritti in questo articolo:  
 
@@ -84,6 +70,8 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 +++
 
 ## Creare una gerarchia di workspace
+
+Puoi creare fino a 5 gerarchie in un’unica area di lavoro.
 
 {#step1-to-planning}
 
@@ -135,7 +123,7 @@ Ogni tipo di oggetto aggiuntivo diventa figlio dei tipi di oggetto precedenti.
 
    1. Fai clic su **Salva**.
 
-1. (Condizionale) Se il campo **Crea campo corrispondente nel tipo di record collegato** non è stato selezionato al momento della creazione del campo connesso, verrà visualizzato un errore e sarà necessario eseguire prima le operazioni seguenti: <!--check back on these steps; this is supposed to be seamless, but now you have to abandon creating a hierarchy to do this-->
+1. (Condizionale) Se il campo **Crea campo corrispondente nel tipo di record collegato** non è stato selezionato al momento della creazione del campo connesso, viene visualizzato un errore e occorre prima effettuare le seguenti operazioni: <!--check back on these steps; this is supposed to be seamless, but now you have to abandon creating a hierarchy to do this-->
 
    1. Fare clic su **Annulla** nella casella **Nuova gerarchia**.
    1. Fare clic sulla freccia indietro a sinistra del nome dell&#39;area di lavoro, quindi fare clic sulla scheda del tipo di record che si desidera scegliere come padre.
@@ -155,6 +143,13 @@ Ogni tipo di oggetto aggiuntivo diventa figlio dei tipi di oggetto precedenti.
 
    * La gerarchia viene aggiunta alla sezione **Gerarchie** dell&#39;area di lavoro.
    * I record che popolano i campi di connessione visualizzano tutte le connessioni nelle relative breadcrumb quando si passa alla pagina di un record.
+
+   >[!NOTE]
+   >
+   >È possibile collegare un record da un tipo di record figlio a un massimo di 10 record da un tipo di record padre.
+   >
+   >Per ulteriori informazioni, vedere [Panoramica della gerarchia e delle breadcrumb](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
 1. (Facoltativo) Passa il puntatore del mouse su una gerarchia, quindi fai clic sul menu **Altro**.
 
    ![Menu Altro gerarchia espanso](assets/hierarchy-more-menu-expanded.png)
