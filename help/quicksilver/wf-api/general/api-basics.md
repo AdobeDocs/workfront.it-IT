@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 084f19973941b391d3d7e62c4901eee8ec975527
+source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
 workflow-type: tm+mt
 source-wordcount: '4396'
 ht-degree: 0%
@@ -82,7 +82,7 @@ GET /attask/api/v15.0/proj/4c7c08b20000002de5ca1ebc19edf2d5
 restituisce una risposta JSON simile alla seguente:
 
 
-<pre>&lbrace;<br>    "data": [<br>        {<br>            "percentComplete": 0,<br>            "status": "CUR",<br>            "priorità": 2,<br>            "name": "Brand New Project",<br>            "ID": "4c7c08b20000002de5ca1ebc19edf2d5" <br>        } <br>    ] <br></pre>
+<pre>{<br>    "data": [<br>        {<br>            "percentComplete": 0,<br>            "status": "CUR",<br>            "priorità": 2,<br>            "name": "Brand New Project",<br>            "ID": "4c7c08b20000002de5ca1ebc19edf2d5" <br>        } <br>    ] <br></pre>
 
 >[!NOTE]
 >
@@ -266,7 +266,7 @@ GET /attask/api/v15.0/task/search?percentComplete=100
 Nella tabella seguente sono elencati alcuni dei modificatori che è possibile utilizzare con l’API Workfront.
 
 | **Modificatore** | **Descrizione** | **Esempio** |
-|---|---|---|
+| --- | --- | --- |
 | eq | restituisce risultati con stato chiuso | <pre>...status=cls&amp;status_Mod=eq...</pre> |
 | ne | restituisce risultati che non sono nello stato chiuso | <pre>...status=cls&amp;status_Mod=ne...</pre> |
 | gte | restituisce risultati con una percentuale di completamento maggiore o uguale a 50 | <pre>...percentComplete=50&amp;percentComplete_Mod=get...</pre> |
@@ -331,7 +331,7 @@ Per un elenco dei possibili riferimenti ai campi, vedi  [API Explorer](../../wf
 È possibile cercare oggetti nidificati. Per impostazione predefinita, gli oggetti nidificati vengono restituiti solo con il nome e l’ID. Ad esempio, per ottenere tutti i problemi insieme ai relativi proprietari, utilizza la seguente richiesta:
 <pre>/attask/api/v15.0/issue/search?fields=owner</pre>Se sono necessarie ulteriori informazioni, puoi richiedere un campo nidificato utilizzando la sintassi dei due punti. Ad esempio, la richiesta seguente cerca tutti i problemi insieme al nome, all’ID, al titolo e al numero di telefono del proprietario
 <pre>/attask/api/v15.0/issue/search?fields=owner:title,owner:phoneNumber</pre>e restituisce quanto segue: 
-<pre>&lbrace;<br>    "name": "un problema importante",<br>    "ID": "4c78285f00000908ea8cfd66e084939f",<br>    "proprietario": {<br>        "title": "Specialista delle operazioni",<br>        "phoneNumber": "555-1234",<br>        "name": "Admin User",<br>        "ID": "4c76ed7a0000054c172b2c2d9f7f81c3" <br>    } <br></pre>
+<pre>{<br>    "name": "un problema importante",<br>    "ID": "4c78285f00000908ea8cfd66e084939f",<br>    "proprietario": {<br>        "title": "Specialista delle operazioni",<br>        "phoneNumber": "555-1234",<br>        "name": "Admin User",<br>        "ID": "4c76ed7a0000054c172b2c2d9f7f81c3" <br>    } <br></pre>
 
 #### Recupero raccolte nidificate
 
@@ -350,7 +350,7 @@ Puoi recuperare campi dati personalizzati con il prefisso &quot;DE:&quot;. Ad es
 <pre>/attask/api/v15.0/project/search?fields=DE:CustomText</pre>che restituirebbe
 <pre>{<br>    "name": "custom data project",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    "DE:CustomText": "attività b" <br>}</pre>È inoltre possibile recuperare tutti i dati personalizzati per un oggetto richiedendo il campo parameterValues. Ad esempio: 
 <pre>/attask/api/v15.0/project/search?fields=parameterValues</pre>restituisce dati simili ai seguenti:
-<pre>&lbrace;<br>    "name": "custom data project",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    parameterValues: { <br>        "DE:CustomText": "attività b", <br>        "DE:CustomNumber": 1,4; <br>        "DE:CustomCheckBoxes": ["first", "second", "third"] <br>    } <br></pre>
+<pre>{<br>    "name": "custom data project",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    parameterValues: { <br>        "DE:CustomText": "attività b", <br>        "DE:CustomNumber": 1,4; <br>        "DE:CustomCheckBoxes": ["first", "second", "third"] <br>    } <br></pre>
 
 #### Utilizzo di query denominate
 
@@ -367,8 +367,8 @@ Alcuni tipi di oggetto dispongono di ricerche denominate che vengono comunemente
 
 È possibile eseguire una richiesta di rapporto, in cui si desidera ottenere solo l’aggregato di alcuni campi con uno o più raggruppamenti. Come mostrato nell’esempio seguente, la sintassi del rapporto è la stessa della sintassi per l’API SOAP:
 <pre>GET /attask/api/v15.0/hour/report?project:name_1_GroupBy=true&amp;hours_AggFunc=sum</pre>che restituisce il seguente risultato
-<pre>&lbrace;<br>    "Primo progetto": { <br>        "sum_hours": 15 <br>    }, <br>     "Secondo progetto": { <br>        "sum_hours": 30 <br>    } <br></pre>L’aggiunta del parametro $$ROLLUP=true include un totale a ogni livello di raggruppamento:
-<pre>&lbrace;<br>    "Primo progetto": { <br>        "sum_hours": 15 <br>    }, <br>    "Secondo progetto": { <br>        "sum_hours": 30 <br>    }, <br>    "$$ROLLUP": { <br>        "sum_hours": 45 <br>    } <br></pre>
+<pre>{<br>    "Primo progetto": { <br>        "sum_hours": 15 <br>    }, <br>     "Secondo progetto": { <br>        "sum_hours": 30 <br>    } <br></pre>L’aggiunta del parametro $$ROLLUP=true include un totale a ogni livello di raggruppamento:
+<pre>{<br>    "Primo progetto": { <br>        "sum_hours": 15 <br>    }, <br>    "Secondo progetto": { <br>        "sum_hours": 30 <br>    }, <br>    "$$ROLLUP": { <br>        "sum_hours": 45 <br>    } <br></pre>
 
 ### Ordinamento dei risultati della query nell’API
 
@@ -492,19 +492,19 @@ Gli aggiornamenti agli oggetti vengono sempre eseguiti per ID utilizzando l’UR
 ### Specifica di modifiche JSON
 
 Come mostrato nell’esempio seguente, è possibile utilizzare il parametro della richiesta updates per specificare i campi da aggiornare utilizzando la sintassi JSON:
-<pre>PUT /attask/api/v15.0/project/4c7...?aggiornamenti= <br>&lbrace;<br>     nome: "Nuovo nome progetto", <br>     stato: "CUR", <br>     ... <br></pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?aggiornamenti= <br>{<br>     nome: "Nuovo nome progetto", <br>     stato: "CUR", <br>     ... <br></pre>
 
 ### Esecuzione di aggiornamenti nidificati
 
 Alcuni oggetti dispongono di raccolte private che possono essere aggiornate. Nell&#39;esempio seguente viene illustrato come sovrascrivere le assegnazioni esistenti per una determinata attività:
-<pre>PUT /attask/api/v15.0/task/4c7...?aggiornamenti= <br>&lbrace;<br>    assegnazioni: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignmentPercent: 50,0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br></pre>
+<pre>PUT /attask/api/v15.0/task/4c7...?aggiornamenti= <br>{<br>    assegnazioni: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignmentPercent: 50,0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br></pre>
 
 >[!NOTE]
 >
 >Mentre gli aggiornamenti apportati al livello superiore sono di tipo sparso, gli aggiornamenti a un insieme o a un oggetto nidificato sostituiscono completamente l&#39;insieme esistente. Per modificare una singola assegnazione su un&#39;attività senza influire sugli oggetti, utilizzare PUT sull&#39;assegnazione anziché sull&#39;attività.
 
 Nell&#39;esempio seguente un progetto diventa una coda pubblica dell&#39;helpdesk. Le proprietà della coda esistenti vengono sostituite.
-<pre>PUT /attask/api/v15.0/project/4c7...?aggiornamenti= <br>&lbrace; <br>    queueDef: { <br>        isPublic: 1 <br>    } <br></pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?aggiornamenti= <br>{ <br>    queueDef: { <br>        isPublic: 1 <br>    } <br></pre>
 
 ### Utilizzo del parametro della richiesta di azione
 
@@ -536,9 +536,9 @@ DELETE rimuove un oggetto. In ogni caso, l’URI può includere il parametro for
 
 Un’istruzione di aggiornamento in blocco aggiorna più oggetti contemporaneamente all’interno di una singola chiamata API. Una chiamata API per creazione in blocco viene generata in modo simile a una normale chiamata di aggiornamento, come mostrato negli esempi seguenti:
 <pre>PUT /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>oppure <pre>PUSH /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>che determina una restituzione simile alla seguente:
-<pre>dati: [{<br>}    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    nome: "Test_Project_1",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    priorità: 0,<br>    projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    stato: "CUR"<br>&rbrace;,<br>{<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    nome: "Test_Project_2",<br>    objCode: "PROJ",<br>    percentComplete: 0usi,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    priorità: 0,<br>    projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    stato: "CUR"<br>}]</pre>Puoi anche eseguire un aggiornamento in blocco simile al seguente:
+<pre>dati: [{<br>}    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    nome: "Test_Project_1",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    priorità: 0,<br>    projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    stato: "CUR"<br>},<br>{<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    nome: "Test_Project_2",<br>    objCode: "PROJ",<br>    percentComplete: 0usi,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    priorità: 0,<br>    projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    stato: "CUR"<br>}]</pre>Puoi anche eseguire un aggiornamento in blocco simile al seguente:
 <pre>PUT /attask/api/v15.0/proj?Umethod=PUT&amp;updates=[{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_1_ Edit"},{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_2_Edit"}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>che determina una restituzione simile alla seguente:
-<pre>dati: [<br>     ID: "53ff8e15003b461d4560f7f65a440078",<br>     nome: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0,<br>     plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>     plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>     priorità: 0,<br>     projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>     stato: "CUR"<br>&rbrace;,<br>{<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    nome: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    priorità: 0,<br>    projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>    stato: "CUR"<br>}]</pre>Se desideri che tutte le operazioni vengano eseguite nella stessa transazione, aggiungi "atomic=true" alla chiamata API batch come parametro della richiesta. In questo modo, se una qualsiasi delle operazioni non riesce, tutte le operazioni vengono ripristinate.
+<pre>dati: [<br>     ID: "53ff8e15003b461d4560f7f65a440078",<br>     nome: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0,<br>     plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>     plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>     priorità: 0,<br>     projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>     stato: "CUR"<br>},<br>{<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    nome: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    priorità: 0,<br>    projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>    stato: "CUR"<br>}]</pre>Se desideri che tutte le operazioni vengano eseguite nella stessa transazione, aggiungi "atomic=true" alla chiamata API batch come parametro della richiesta. In questo modo, se una qualsiasi delle operazioni non riesce, tutte le operazioni vengono ripristinate.
 
 >[!NOTE]
 >

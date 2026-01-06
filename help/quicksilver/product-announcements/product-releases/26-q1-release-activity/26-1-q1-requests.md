@@ -4,9 +4,9 @@ description: Miglioramenti richieste primo trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -125,8 +125,6 @@ Per ulteriori informazioni sul riempimento del modulo basato su IA, tra cui ciò
 Per semplificare la creazione e l’invio delle richieste, è stata aggiunta la possibilità di salvare le bozze nella nuova esperienza di richiesta. Ora, quando si inizia a compilare una richiesta e la si chiude, la richiesta viene salvata in stato Bozza e si trova nel modulo di richiesta utilizzato per creare la bozza. Puoi quindi riaprire, aggiornare e inviare la bozza nel modo che preferisci.
 
 In precedenza, questa funzione non era disponibile nella nuova esperienza di richiesta.
-
-Le bozze create nell’esperienza di richiesta legacy sono disponibili nella nuova esperienza di richiesta.
 
 Per ulteriori informazioni sulle bozze di richieste, vedere [Creare richieste dalle bozze](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md).
 

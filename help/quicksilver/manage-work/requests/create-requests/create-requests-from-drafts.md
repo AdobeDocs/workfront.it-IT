@@ -6,9 +6,9 @@ description: Oltre a utilizzare le bozze disponibili suggerite da Workfront quan
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: bc7312a10f1851b9f85b2c1ceac5b01dba078f32
+source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '836'
 ht-degree: 3%
 
 ---
@@ -82,6 +82,10 @@ La procedura per la creazione di richieste da bozze varia tra la nuova esperienz
    * Nell’elenco delle richieste nel widget Richieste personali nella Home
    * Nella finestra di dialogo Nuova richiesta (include solo le bozze di richieste create con il modulo selezionato)
 
+   >[!NOTE]
+   >
+   >Le bozze create nell’esperienza di richiesta legacy non sono disponibili nella nuova esperienza di richiesta.
+
 1. Aggiornare le informazioni per la richiesta come descritto in [Creare e inviare richieste Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 1. (Facoltativo e condizionale) In qualsiasi momento durante l&#39;immissione della richiesta, fare clic su **Elimina** bozza per eliminare la bozza. La bozza verrà eliminata.
 
@@ -111,8 +115,8 @@ La procedura per la creazione di richieste da bozze varia tra la nuova esperienz
 
 1. Esaminate le informazioni relative a ciascuna bozza nelle seguenti colonne dell&#39;elenco Bozze:
 
-   | Oggetto | Questo è il nome che hai assegnato alla richiesta quando hai iniziato a crearla. |
-   |---|---|
+   | Soggetto | Questo è il nome che hai assegnato alla richiesta quando hai iniziato a crearla. |
+   | --- | --- |
    | Percorso | Nome della coda di richieste, dei gruppi di argomenti e degli argomenti della coda in cui si intendeva inviare la richiesta. |
    | Data inserimento | La data in cui hai iniziato a creare la richiesta. |
    | Data ultimo aggiornamento | Ultimo aggiornamento. Se non l&#39;hai aggiornato da quando hai iniziato la richiesta, la Data di ingresso e la Data dell&#39;ultimo aggiornamento devono essere uguali. |
@@ -141,9 +145,4 @@ La procedura per la creazione di richieste da bozze varia tra la nuova esperienz
      ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
      Quando si invia la richiesta, la bozza viene eliminata e non può essere ripristinata.
-
-   >[!NOTE]
-   >
-   >Nella nuova esperienza di richiesta, le bozze si trovano nello stesso elenco delle richieste inviate.
-   >Per ulteriori informazioni sulla creazione di richieste nella nuova esperienza, consulta [Creare richieste e generare bozze nell&#39;app Web Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) nell&#39;articolo Creare e inviare richieste.
 
