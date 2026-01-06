@@ -1,35 +1,37 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Individuare le richieste inviate
-description: Scopri le aree di Adobe Workfront in cui puoi individuare le richieste che hai inviato o che un altro utente ha inviato o le richieste che non hai mai inviato e che sono state salvate come bozze.
+title: Visualizza richieste inviate
+description: Scopri le aree di Adobe Workfront in cui puoi visualizzare le richieste che hai inviato o che un altro utente ha inviato o le richieste che non hai mai inviato e che sono state salvate come bozze.
 author: Becky
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 9ea9f5741794641409d47ada006e3b9b78025cbd
+source-git-commit: b0060470156728a7ad98838378a7d963e2b5fd01
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 2%
+source-wordcount: '1406'
+ht-degree: 3%
 
 ---
 
-# Individuare le richieste inviate
+# Visualizzare le richieste inviate
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
-Puoi individuare i seguenti tipi di richieste inviate da te o da un altro utente oppure richieste avviate ma non ancora inviate. Puoi individuare queste richieste nelle seguenti aree di Adobe Workfront:
+Puoi visualizzare le richieste inviate da te o da un altro utente oppure le richieste che hai avviato ma che non hai mai completato l’invio. Puoi individuare queste richieste nelle seguenti aree di Adobe Workfront:
 
-* Scheda **Workfront** dell&#39;area Richieste in Workfront: individuare le richieste inviate alle code di richieste di Workfront nelle sezioni seguenti:
+* Scheda **Workfront** dell&#39;area Richieste in Workfront: visualizzare le richieste inviate alle code di richieste di Workfront nelle sezioni seguenti:
    * **Sezione inviata**: tutte le richieste inviate da te o da un altro utente e a cui hai accesso sono almeno View.
    * **Sezione bozza**: tutte le richieste avviate ma non completate e non inviate. Per ulteriori informazioni sulle bozze di richieste, vedere [Creare e inviare richieste Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-  >[!TIP]
+  >[!NOTE]
   >
-  >È possibile visualizzare solo le proprie bozze di richieste.
+  >* È possibile visualizzare solo le proprie bozze di richieste.
+  >* <span class="preview">Nella nuova esperienza di richiesta, le richieste e le bozze inviate si trovano nello stesso elenco. </span>
+  >* <span class="preview">Le bozze create nell&#39;esperienza legacy non vengono visualizzate nella nuova esperienza di richiesta.</span>
 
-* Scheda **Planning** dell&#39;area Richieste in Workfront: individuare le richieste inviate ai moduli di richiesta di Workfront Planning. L&#39;organizzazione deve acquistare un pacchetto Workfront Planning. Per informazioni, vedere i seguenti articoli:
+* Scheda **Planning** dell&#39;area Richieste in Workfront: Visualizza richieste inviate ai moduli di richiesta di Workfront Planning. L&#39;organizzazione deve acquistare un pacchetto Workfront Planning. Per informazioni, vedere i seguenti articoli:
 
    * [Creazione e gestione di un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
    * [Inviare richieste di Adobe Workfront Planning per creare record](/help/quicksilver/planning/requests/submit-requests.md)
@@ -72,18 +74,18 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-## Individuare le richieste inviate nell&#39;area Richieste
+## Visualizzare le richieste inviate nell’area Richieste
 
-L’individuazione delle richieste inviate varia a seconda che si utilizzi un’esperienza di richiesta nuova o legacy.
+La visualizzazione delle richieste inviate varia a seconda che si utilizzi un’esperienza di richiesta nuova o legacy.
 
-* [Individuare le richieste inviate nella nuova esperienza richiedente](#locate-submitted-requests-in-the-new-requesting-experience)
-* [Individuare le richieste inviate nell’esperienza di richiesta legacy](#locate-submitted-requests-in-the-legacy-requesting-experience)
+* [Visualizzare le richieste inviate nella nuova esperienza di richiesta](#view-submitted-requests-in-the-new-requesting-experience)
+* [Visualizzare le richieste inviate nell’esperienza di richiesta legacy](#view-submitted-requests-in-the-legacy-requesting-experience)
 
-### Individuare le richieste inviate nella nuova esperienza richiedente
+### Visualizzare le richieste inviate nella nuova esperienza di richiesta
 
-È possibile individuare le richieste inviate nell&#39;area Richieste, <span class="preview">che include collegamenti a oggetti creati da tali richieste.</span>
+È possibile visualizzare le richieste inviate nell&#39;area Richieste, <span class="preview">che include collegamenti a oggetti creati da tali richieste.</span>
 
-Per individuare le richieste inviate da te o da altri utenti nella nuova esperienza di richiesta:
+Per visualizzare le richieste inviate da te o da altri utenti nella nuova esperienza di richiesta:
 
 {{step1-to-requests}}
 
@@ -92,7 +94,7 @@ Per individuare le richieste inviate da te o da altri utenti nella nuova esperie
    Viene visualizzato l&#39;elenco Richieste.
 
 1. (Facoltativo) Per cercare una richiesta, inizia a digitare nella barra di ricerca in alto a destra dell’elenco. I risultati della ricerca vengono visualizzati durante la digitazione.
-1. (Facoltativo) Fai clic su **Filtri** e inizia ad aggiungere le condizioni per le richieste che desideri individuare.
+1. (Facoltativo) Fai clic su **Filtri** e inizia ad aggiungere le condizioni per le richieste che desideri visualizzare.
 
    Puoi filtrare in base ai seguenti campi:
 
@@ -105,18 +107,26 @@ Per individuare le richieste inviate da te o da altri utenti nella nuova esperie
 
    È possibile unire più filtri con **And** o **Or**.
 L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi le condizioni del filtro.
-1. (Facoltativo) Utilizza le viste per concentrarti sulle richieste che desideri individuare.
+1. (Facoltativo) Utilizza le viste per concentrarti sulle richieste che desideri visualizzare.
 
    Per istruzioni, vedere [Creare o modificare le visualizzazioni nell&#39;area Richieste](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+1. (Facoltativo) Controlla lo stato di una richiesta controllando la colonna Stato. Nella nuova esperienza di richiesta sono disponibili i seguenti stati:
+
+   * Bozza: questa richiesta non è ancora stata inviata.
+   * Revisione in sospeso
+   * In revisione
+   * Rifiutato
+   * In corso
+   * Completato
 
 >[!NOTE]
 >
 >* Se si dispone di Workfront Planning, le richieste Workfront e Planning vengono visualizzate nello stesso elenco. Le richieste Workfront visualizzano il valore `Issue` nella colonna Tipo oggetto.
 >* Viene visualizzato l’elenco Richieste con 50 richieste visualizzate. Per visualizzare altre richieste, scorri fino alla parte inferiore dell’elenco.
 
-### Individuare le richieste inviate nell’esperienza di richiesta legacy
+### Visualizzare le richieste inviate nell’esperienza di richiesta legacy
 
-Per individuare le richieste inviate da te o da altri utenti nell’esperienza di richiesta legacy:
+Per visualizzare le richieste inviate da te o da altri utenti nell’esperienza di richiesta legacy:
 
 {{step1-to-requests}}
 
@@ -253,5 +263,12 @@ Per individuare le richieste inviate da te o da altri utenti nell’esperienza d
    ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
    Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md).
+
+
+1. (Facoltativo) Controlla lo stato di una richiesta controllando la colonna Stato. Nella nuova esperienza di richiesta sono disponibili i seguenti stati:
+
+   * Bozza: questa richiesta non è ancora stata inviata.
+   * In corso
+   * Completato
 
 
