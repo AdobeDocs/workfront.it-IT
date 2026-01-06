@@ -201,7 +201,7 @@ La tabella seguente mostra somiglianze e differenze tra risultati, attività e p
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> ****
+  <tr> **&#x200B;**
    <td>Offrono un intervallo di valori tra i valori iniziale e finale che illustra quanto sei vicino a raggiungerli. La prossimità al valore finale calcola un valore di Avanzamento per l'obiettivo. </td> 
    <td>✔</td> 
    <td>✔</td> 

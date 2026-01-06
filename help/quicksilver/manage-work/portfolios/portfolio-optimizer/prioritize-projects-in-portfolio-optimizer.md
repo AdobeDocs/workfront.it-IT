@@ -51,7 +51,7 @@ Quando si utilizza [!UICONTROL Portfolio Optimizer], tenere presente quanto segu
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso di [!UICONTROL Edit] ai progetti [!UICONTROL Portfolio] e [!UICONTROL]</p>  </td>
+   <td> <p>Accesso di [!UICONTROL Edit] ai progetti [!UICONTROL Portfolio] e </p>  </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 

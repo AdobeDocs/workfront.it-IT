@@ -112,4 +112,4 @@ Per rimuovere le informazioni sul modello aggiunte al progetto, effettuate una d
 
      Per informazioni sulla creazione di una visualizzazione, vedere [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Seleziona tutte le attività identificate nel passaggio 2 come create da un modello, quindi fai clic su **icona Elimina****> Sì, elimina**. Per ulteriori informazioni, vedere [Elimina attività](../../../manage-work/tasks/manage-tasks/delete-tasks.md).
+1. Seleziona tutte le attività identificate nel passaggio 2 come create da un modello, quindi fai clic su **icona Elimina**&#x200B;**> Sì, elimina**. Per ulteriori informazioni, vedere [Elimina attività](../../../manage-work/tasks/manage-tasks/delete-tasks.md).
