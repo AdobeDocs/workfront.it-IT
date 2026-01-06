@@ -6,10 +6,10 @@ description: L’amministratore di Adobe Workfront può concederti l’accesso p
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -55,7 +55,7 @@ Per informazioni sulla gerarchia di oggetti in Workfront, vedere [Informazioni s
 </table>
 -->
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -68,7 +68,7 @@ Per informazioni sulla gerarchia di oggetti in Workfront, vedere [Informazioni s
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Standard</p> 
-   <p>Lavoro o superiore</p> 
+   <p>Work o successiva</p> 
    </td> 
   </tr> 
   <tr> 
@@ -107,6 +107,6 @@ Per visualizzare le autorizzazioni ereditate per un progetto:
    >
    >Per rimuovere le autorizzazioni ereditate, è necessario disporre delle autorizzazioni Manage per un oggetto.
 
- 
 
- 
+
+

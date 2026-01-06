@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1072'
 ht-degree: 1%
 
 ---
@@ -138,11 +138,11 @@ Gli approvatori ricevono le seguenti notifiche relative a una richiesta in attes
 
 ### Approvare una richiesta dal widget Le mie approvazioni nella Home
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Home]**.
+{{step1-to-home}}
 
-   Oppure
+Oppure
 
-   Fai clic sull&#39;icona [!UICONTROL Home] ![Home icon](/help/_includes/assets/home-icon-30x29.png) nell&#39;angolo superiore sinistro di Adobe Workfront, quindi individua il widget Approvazioni personali.
+Fai clic sull&#39;icona [!UICONTROL Home] ![Home icon](/help/_includes/assets/home-icon-30x29.png) nell&#39;angolo superiore sinistro di Adobe Workfront, quindi individua il widget Approvazioni personali.
 
 1. Individuare l&#39;oggetto che si desidera approvare o rifiutare.
 

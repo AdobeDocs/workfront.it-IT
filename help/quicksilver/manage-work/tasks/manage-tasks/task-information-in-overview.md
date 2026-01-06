@@ -6,10 +6,10 @@ description: È possibile visualizzare o modificare le informazioni di un'attivi
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '2102'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -31,7 +31,7 @@ In questo articolo viene descritto come visualizzare o modificare le informazion
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,7 +44,7 @@ In questo articolo viene descritto come visualizzare o modificare le informazion
   <tr> 
    <td> <p>Licenza Adobe Workfront </p> </td> 
    <td><p>Standard</p> 
-   <p>Lavoro o superiore</p> </td> 
+   <p>Work o successiva</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Configurazioni del livello di accesso</td> 
@@ -122,7 +122,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 1. Modificare qualsiasi campo disponibile per la modifica facendo clic sul campo o facendo clic su **+Aggiungi** per aggiungere informazioni a un campo vuoto.
 1. Visualizzare o modificare uno dei campi elencati di seguito.
 
-   Impossibile modificare tutti i campi.  
+   Impossibile modificare tutti i campi.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -199,7 +199,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
             <td>H</td> 
            </tr> 
            <tr> 
-            <td>Giorni. Questa è l'impostazione predefinita. </td> 
+            <td>Giorni. Questa è l'impostazione predefinita. </td> 
             <td>Dsbld</td> 
            </tr> 
            <tr> 
@@ -244,11 +244,11 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
       <td> <p>Differenza in giorni tra la data di inizio prevista e la data di completamento prevista. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Durata effettiva</td> 
+      <td role="rowheader">Durata Reale</td> 
       <td> <p>Differenza in giorni tra la data di inizio effettiva e la data di completamento effettiva. Questo è quanto tempo ci è voluto per completare il lavoro. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Ore pianificate</td> 
+      <td role="rowheader">Lavoro Necessario</td> 
       <td> <p>Specifica la quantità di ore pianificate per l'attività, in ore. Quantità di tempo effettivo necessario agli assegnatari per completare l'attività. È possibile specificare la quantità di ore pianificate per un'attività solo quando il tipo di durata è impostato su Assegnazione calcolata. Per ulteriori informazioni sui tipi di durata, vedere <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sulla durata dell'attività e sul tipo di durata</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -309,7 +309,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
       <td> <p>La data di inizio effettiva dell'attività in base all'avanzamento e al completamento delle attività precedenti. Questo è un campo calcolato e non puoi modificarlo manualmente.</p> <p> La data di inizio prevista e la data di inizio pianificata iniziano con la stessa, quando un progetto è pianificato per la prima volta. La data di inizio prevista può essere spostata dall'inizio pianificato se il progetto si evolve e l'attività non è ancora stata avviata. Per ulteriori informazioni sulle date di inizio previste, vedere <a href="../../../manage-work/projects/planning-a-project/project-projected-start-date.md" class="MCXref xref">Panoramica sulla data di inizio prevista del progetto</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Data d'Inizio Reale</td> 
+      <td role="rowheader">Data di inizio effettiva</td> 
       <td> <p>Specificare una data di inizio effettiva per l'attività. Il valore predefinito viene generalmente popolato automaticamente quando si modifica lo stato dell'attività in In corso. La data di inizio effettiva può anche essere modificata manualmente dal project manager o dal proprietario dell'attività. </p> </td> 
      </tr> 
      <tr> 
@@ -365,7 +365,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Custom Forms</strong> to add or forms or edit information on the existing custom forms.&nbsp;</p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Custom Forms</strong> to add or forms or edit information on the existing custom forms. </p>
    -->
 
    <!--
@@ -385,7 +385,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
      -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click&nbsp;<strong>Finance</strong>, then <strong>Edit Finance</strong> to view or edit financial information for the task. </p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Finance</strong>, then <strong>Edit Finance</strong> to view or edit financial information for the task. </p>
    -->
 
    <!--

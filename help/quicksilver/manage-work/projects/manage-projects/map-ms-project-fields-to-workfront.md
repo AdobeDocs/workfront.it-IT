@@ -6,7 +6,7 @@ description: I progetti in Adobe Workfront e Microsoft Project sono per lo più 
 author: Alina
 feature: Work Management
 exl-id: 381eb6ad-8084-406b-90f9-44460b58a04c
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 4%
@@ -18,13 +18,13 @@ ht-degree: 4%
 I progetti in Adobe Workfront e Microsoft Project sono per lo più compatibili. Utilizzando le due applicazioni, è possibile effettuare le seguenti operazioni:
 
 * Esportare progetti da Microsoft Project e importarli in Workfront
-* Esporta i progetti da Workfront e importali in Microsoft Project. 
+* Esporta i progetti da Workfront e importali in Microsoft Project.
 
 Per ulteriori informazioni sull&#39;importazione di progetti da Microsoft Project in Workfront, vedere [Importare un progetto da Microsoft Project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
 
 Per ulteriori informazioni sull&#39;esportazione di un progetto da Workfront per importarlo in Microsoft Project, vedere [Esportare un progetto in Microsoft Project](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md).
 
-Durante l’esecuzione di tali importazioni di dati, è importante comprendere in che modo le informazioni si traducono da un’applicazione all’altra. Nella maggior parte dei casi, dopo aver completato l’importazione dovrai apportare alcune modifiche manuali al progetto. 
+Durante l’esecuzione di tali importazioni di dati, è importante comprendere in che modo le informazioni si traducono da un’applicazione all’altra. Nella maggior parte dei casi, dopo aver completato l’importazione dovrai apportare alcune modifiche manuali al progetto.
 
 ## Panoramica della mappatura dei campi
 
@@ -64,4 +64,4 @@ Questi campi includono, tra l’altro:
 
   >[!NOTE]
   >
-  >Poiché i vincoli non vengono mappati tra Microsoft Project e Workfront, verificare che esistano relazioni predecessori tra le attività. In caso contrario, le date di inizio pianificate e di completamento pianificate delle attività potrebbero non essere corrette nel progetto importato. 
+  >Poiché i vincoli non vengono mappati tra Microsoft Project e Workfront, verificare che esistano relazioni predecessori tra le attività. In caso contrario, le date di inizio pianificate e di completamento pianificate delle attività potrebbero non essere corrette nel progetto importato.

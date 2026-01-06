@@ -7,10 +7,10 @@ description: Le attività misurano l’avanzamento di un obiettivo. Senza risult
 author: Alina
 feature: Workfront Goals
 exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '389'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -28,7 +28,7 @@ Le attività misurano l’avanzamento di un obiettivo. Senza associare risultati
 >
 >Adobe Workfront Goals non è più disponibile per l’acquisto.
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto">
 <col>
@@ -152,7 +152,7 @@ Adding activities to goals differs depending on which environment you use.
 
    ![Add activity inside goal](assets/add-activity-inside-goal-details-highlighted-350x152.png)
 
-1. From the **Activity Type** drop-down menu, select the type of activity you want to associate with your goal.&nbsp;Select **Manual progress bar** or **Project**. Manual progress bar is the default selection. 
+1. From the **Activity Type** drop-down menu, select the type of activity you want to associate with your goal. Select **Manual progress bar** or **Project**. Manual progress bar is the default selection. 
 1. (Conditional) Depending on which activity type you selected, do the following:
 
    1. If you selected **Manual progress bar**:

@@ -7,7 +7,7 @@ description: Effort Driven è un tipo di durata che è possibile impostare per u
 author: Alina
 feature: Work Management
 exl-id: 3c8534f7-02d0-4404-a37b-0ef6360e8efc
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Effort Driven è un tipo di durata che è possibile impostare per un&#39;attivit
 
 ## Panoramica del tipo di durata basata sulle risorse
 
-Il Workfront o un amministratore di gruppo può impostare il Tipo di durata predefinito del sistema o del gruppo come Basato sull&#39;impegno. In questo caso, tutte le nuove attività verranno create con questo Tipo di durata. Per informazioni sulla modifica delle preferenze di attività e problemi come parte delle preferenze di progetto a livello di sistema o di gruppo, consulta [Configurare le preferenze di problema e attività a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Il Workfront o un amministratore di gruppo può impostare il Tipo di durata predefinito del sistema o del gruppo come Basato sull&#39;impegno. In questo caso, tutte le nuove attività verranno create con questo Tipo di durata. Per informazioni sulla modifica delle preferenze di attività e problemi come parte delle preferenze di progetto a livello di sistema o di gruppo, consulta [Configurare le preferenze di problema e attività a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 In questo scenario, esiste il rischio di abbreviare arbitrariamente il piano del progetto, a meno che il project manager non dedichi del tempo a valutare se l&#39;attività è effettivamente un&#39;attività basata sulle risorse.
 

@@ -6,10 +6,10 @@ description: È possibile aggiornare l'ordine di visualizzazione dei moduli pers
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1054'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -180,6 +180,6 @@ Per modificare più moduli personalizzati durante la modifica di oggetti in bloc
 
    Oppure
 
-   Fare clic su **Espandi Forms** per espandere tutti i moduli contemporaneamente. 
+   Fare clic su **Espandi Forms** per espandere tutti i moduli contemporaneamente.
 
 1. Fai clic su **Salva modifiche**.

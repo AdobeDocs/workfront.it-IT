@@ -6,10 +6,10 @@ description: Puoi aggiungere commenti a tutti gli obiettivi che puoi visualizzar
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 0%
+source-wordcount: '209'
+ht-degree: 8%
 
 ---
 
@@ -40,7 +40,7 @@ Puoi aggiungere commenti a tutti gli obiettivi che puoi visualizzare in Obiettiv
 >
 >Adobe Workfront Goals non è più disponibile per l’acquisto.
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto">
 <col>
@@ -138,8 +138,10 @@ Puoi aggiungere commenti a tutti gli obiettivi che puoi visualizzare in Obiettiv
 
 Puoi aggiungere commenti agli obiettivi nella sezione Aggiornamenti della pagina di un obiettivo.
 
-1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro o sull&#39;icona **Main Menu** ![Main Menu lines](assets/lines-main-menu.png) nell&#39;angolo superiore sinistro, se disponibile, quindi fai clic su **Goals**.
+{{step1-to-goals}}
+
 Verrà aperto l&#39;elenco degli obiettivi.
+
 1. Individua l’obiettivo a cui desideri aggiungere commenti, quindi fai clic sul nome per aprire la pagina dell’obiettivo.
 1. Fai clic su **Aggiornamenti** nel pannello a sinistra.
 

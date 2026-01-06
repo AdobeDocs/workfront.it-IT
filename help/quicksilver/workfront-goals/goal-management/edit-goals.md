@@ -6,10 +6,10 @@ description: Puoi modificare gli obiettivi esistenti da qualsiasi periodo di tem
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 1%
+source-wordcount: '563'
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,7 @@ Puoi modificare gli obiettivi esistenti da qualsiasi periodo di tempo e in quals
 >
 >Adobe Workfront Goals non è più disponibile per l’acquisto.
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto">
 <col>
@@ -191,8 +191,10 @@ Editing goals differs depending on what environment you use.
 
 -->
 
-1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png), quindi fai clic su **Goals**.\
-   Viene visualizzato un elenco di obiettivi.
+{{step1-to-goals}}
+
+Viene visualizzato un elenco di obiettivi.
+
 1. Fai clic su un obiettivo.\
    Viene visualizzata la pagina dell’obiettivo.
 

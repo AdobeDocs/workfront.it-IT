@@ -6,10 +6,10 @@ description: Impossibile rimuovere un modello da un progetto. È possibile rimuo
 author: Alina
 feature: Work Management
 exl-id: a8b6055a-7fac-4f9b-a880-10b2b85299b7
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ Impossibile rimuovere un modello da un progetto. È possibile rimuovere solo man
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +32,7 @@ Impossibile rimuovere un modello da un progetto. È possibile rimuovere solo man
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Standard</p>
-   <p>Lavoro o superiore</p> </td> 
+   <p>Work o successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -112,4 +112,4 @@ Per rimuovere le informazioni sul modello aggiunte al progetto, effettuate una d
 
      Per informazioni sulla creazione di una visualizzazione, vedere [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Seleziona tutte le attività identificate nel passaggio 2 come create da un modello, quindi fai clic su **icona Elimina**&#x200B;**> Sì, elimina**. Per ulteriori informazioni, vedere [Elimina attività](../../../manage-work/tasks/manage-tasks/delete-tasks.md).
+1. Seleziona tutte le attività identificate nel passaggio 2 come create da un modello, quindi fai clic su **icona Elimina****> Sì, elimina**. Per ulteriori informazioni, vedere [Elimina attività](../../../manage-work/tasks/manage-tasks/delete-tasks.md).

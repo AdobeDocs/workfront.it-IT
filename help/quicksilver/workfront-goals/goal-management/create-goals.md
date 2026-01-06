@@ -6,10 +6,10 @@ description: Che tu sia un amministratore delegato, un manager o un collaborator
 author: Alina
 feature: Workfront Goals
 exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 5%
+source-wordcount: '635'
+ht-degree: 8%
 
 ---
 
@@ -27,7 +27,7 @@ Che tu sia un amministratore delegato, un manager o un collaboratore singolo, pu
 >
 >Adobe Workfront Goals non è più disponibile per l’acquisto.
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto">
 <col>
@@ -219,12 +219,10 @@ Creating goals differs depending on what environment you use.
 
 -->
 
-1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **Goals**.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+Viene visualizzato l’elenco degli obiettivi.
 
-   Viene visualizzato l’elenco degli obiettivi.
 1. Fai clic su **Nuovo obiettivo**.
 
    Viene visualizzata la casella Nuovo obiettivo.

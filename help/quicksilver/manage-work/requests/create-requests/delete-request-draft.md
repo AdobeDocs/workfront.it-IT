@@ -6,10 +6,10 @@ description: È possibile eliminare le richieste inviate o le bozze di richieste
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: d87df92f548b19901374e982d1759efade644e17
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 2%
+source-wordcount: '638'
+ht-degree: 3%
 
 ---
 
@@ -76,11 +76,12 @@ Puoi eliminare le richieste nell’area Richieste di Workfront o nel widget Rich
 
 ### Eliminare una richiesta dal menu a tre punti
 
-1. Per accedere all&#39;elenco Richieste, fare clic sull&#39;icona **[!UICONTROL Menu principale]** ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fare clic sull&#39;icona **[!UICONTROL Menu principale]** ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fare clic su **[!UICONTROL Richieste]**.
+{{step1-to-requests}}
 
 1. Per accedere al widget Richieste personali nella Home:
 
-   1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Home]**.
+   {{step1-to-home}}
+
    1. Individuare il widget Richieste personali.
 
       Per ulteriori informazioni sul widget Richieste personali, vedere [Utilizzare il widget Richieste personali](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
@@ -106,11 +107,12 @@ Puoi eliminare le richieste nell’area Richieste di Workfront o nel widget Rich
 
 ### Richieste di eliminazione in blocco
 
-1. Per accedere all&#39;elenco Richieste, fare clic sull&#39;icona **[!UICONTROL Menu principale]** ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fare clic sull&#39;icona **[!UICONTROL Menu principale]** ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fare clic su **[!UICONTROL Richieste]**.
+{{step1-to-requests}}
 
 1. Per accedere al widget Richieste personali nella Home:
 
-   1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Home]**.
+   {{step1-to-home}}
+
    1. Individuare il widget Richieste personali.
 
       Per ulteriori informazioni sul widget Richieste personali, vedere [Utilizzare il widget Richieste personali](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).

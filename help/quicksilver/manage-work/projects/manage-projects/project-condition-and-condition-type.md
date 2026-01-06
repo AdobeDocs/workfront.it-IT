@@ -7,7 +7,7 @@ description: La condizione del progetto è una rappresentazione visiva dell’av
 author: Alina
 feature: Work Management
 exl-id: 0c847b26-b0cb-49bb-84be-32534c72d5b6
-source-git-commit: e4de185f172b173dcc3ad966afa69ffb3bc479eb
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 1%
@@ -78,25 +78,25 @@ In questo caso, i valori per Condizione progetto possono essere:
    <td><strong>Condizione progetto</strong></td> 
    <td><strong>Stato avanzamento progetto</strong></td> 
    <td><strong>Indicatore di condizione Workfront</strong></td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Puntuale</td> 
    <td>Quando lo stato di avanzamento del progetto è Nei tempi previsti, la condizione del progetto è <strong>Su destinazione</strong>. </td> 
    <td> <img src="assets/on-target-condition-icon.png"> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>A Rischio</td> 
    <td>Quando lo stato di avanzamento del progetto è <strong>Indietro</strong> o <strong>A rischio</strong>, la condizione del progetto è <strong>A rischio</strong>.</td> 
    <td> <img src="assets/at-risk-project-condition-icon.png"> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>In difficoltà</td> 
    <td>Quando lo stato di avanzamento del progetto è <strong>Late</strong>, la condizione del progetto è <strong>In difficoltà</strong>. </td> 
    <td> <img src="assets/in-trouble-project-condition-icon.png"> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>

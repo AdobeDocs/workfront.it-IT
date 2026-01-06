@@ -7,10 +7,10 @@ description: Il ROI (Return On Investment) è una metrica di Adobe Workfront che
 author: Lisa
 feature: Work Management
 exl-id: 1a3d16cb-8cb1-472e-8102-0ea8e0bc0edd
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -40,15 +40,15 @@ I seguenti campi influiscono sul ROI di un progetto:
 
 Il valore del ROI di un progetto può essere visualizzato nelle seguenti aree in Workfront:
 
-* In Ottimizzatore Portfolio se il progetto è associato a un portfolio
+* In Portfolio Optimizer se il progetto è associato a un portfolio
 
   >[!NOTE]
   >
   >Il totale di tutti i valori di ROI del progetto è il ROI del portfolio.
 
-  Per informazioni su Ottimizzatore Portfolio, vedere l&#39;articolo [Panoramica di Ottimizzatore Portfolio](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+  Per informazioni su Portfolio Optimizer, vedere l&#39;articolo [Panoramica di Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
-* Nel campo ROI progetto nei seguenti elenchi e rapporti: 
+* Nel campo ROI progetto nei seguenti elenchi e rapporti:
 
    * Progetto
    * Attività

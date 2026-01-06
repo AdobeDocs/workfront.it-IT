@@ -7,7 +7,7 @@ description: Il costo potenziale del rischio di un progetto tiene conto dei cost
 author: Lisa
 feature: Work Management
 exl-id: f4dc1950-efd8-4936-83fd-1280ee465923
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -41,8 +41,8 @@ Puoi trovare i Rischi per un progetto e il loro Costo Potenziale nelle seguenti 
 * In un report di progetto quando si aggiunge il campo Costo rischio pianificato alle colonne del report.\
   Per ulteriori informazioni sulla creazione di report in Workfront, vedere l&#39;articolo [Creazione di un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-* In Ottimizzatore Portfolio, quando il progetto è associato a un Portfolio, nella colonna Rischio.\
-  La somma di tutti i costi di rischio potenziale di tutti i progetti del portafoglio corrisponde al rischio del Portfolio.\
+* In Portfolio Optimizer, quando il progetto è associato a un Portfolio, nella colonna Rischio.\
+  La somma di tutti i costi di rischio potenziale di tutti i progetti del portfolio corrisponde al rischio di Portfolio.\
   Per ulteriori informazioni su Portfolio Optimizer, vedere l&#39;articolo [Panoramica di Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 Per ulteriori informazioni sulla creazione di Rischi in un progetto, vedere l&#39;articolo [Creare e modificare i rischi nei progetti](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)

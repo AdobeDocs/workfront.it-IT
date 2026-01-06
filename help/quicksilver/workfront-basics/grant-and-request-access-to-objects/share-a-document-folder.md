@@ -6,10 +6,10 @@ description: È possibile condividere una cartella e il relativo contenuto dall'
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 0%
+source-wordcount: '839'
+ht-degree: 2%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 -->
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -94,11 +94,11 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Condividere una cartella
 
-1. Fai clic sull&#39;icona **del** menu principale![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Documenti**.
+{{step1-to-documents}}
 
-   Oppure
+Oppure
 
-   Con un oggetto Workfront aperto, fai clic su **Documenti** nel pannello a sinistra.
+Con un oggetto Workfront aperto, fai clic su **Documenti** nel pannello a sinistra.
 
 1. Selezionare la cartella, quindi fare clic sull&#39;icona Condividi ![](assets/share-icon.png) nella barra degli strumenti.
 
@@ -139,7 +139,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 ## Modalità di accesso degli utenti al contenuto di una cartella condivisa con loro
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete these 2 paragraphs when the story &nbsp;<a href="https://hub.workfront.com/task/622f8d6f000897c9a4a11bdfd9b2cf34/overview">Handle email notification content when a folder is shared</a> goes to Preview:</p>
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete these 2 paragraphs when the story   <a href="https://hub.workfront.com/task/622f8d6f000897c9a4a11bdfd9b2cf34/overview">Handle email notification content when a folder is shared</a> goes to Preview:</p>
 -->
 
 Attualmente, quando si condivide una cartella, i destinatari non la visualizzano nell&#39;area Documenti. Tuttavia, possono accedere ai relativi documenti eseguendo un rapporto sui documenti.

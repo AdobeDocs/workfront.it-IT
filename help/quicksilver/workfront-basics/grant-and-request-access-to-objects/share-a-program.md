@@ -7,10 +7,10 @@ description: L’amministratore di Adobe Workfront può concederti l’accesso p
 author: Courtney
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '892'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,7 @@ Le autorizzazioni sono specifiche per ciascun elemento in Workfront e definiscon
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +39,7 @@ Le autorizzazioni sono specifiche per ciascun elemento in Workfront e definiscon
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Standard</p> 
-   <p>Lavoro o superiore</p> 
+   <p>Work o successiva</p> 
    </td> 
   </tr> 
   <tr> 
@@ -77,7 +77,7 @@ Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica sulle a
 
   Per ulteriori informazioni sulla gerarchia degli oggetti in Workfront, vedere [Informazioni sugli oggetti in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-* Puoi rimuovere le autorizzazioni ereditate dal programma. Per ulteriori informazioni sulla rimozione delle autorizzazioni dagli oggetti, vedere  [Rimuovi le autorizzazioni dagli oggetti](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+* Puoi rimuovere le autorizzazioni ereditate dal programma. Per ulteriori informazioni sulla rimozione delle autorizzazioni dagli oggetti, vedere   [Rimuovi le autorizzazioni dagli oggetti](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## Condividere un programma
 
@@ -155,18 +155,18 @@ Nella tabella seguente vengono visualizzate le autorizzazioni che è possibile c
 
 | **Azioni** | **Gestisci** | **Visualizza** |
 |---|---|---|
-| Modifica dettagli programma | ✓ |   |
+| Modifica dettagli programma | ✓ |   |
 | Visualizzare un programma | ✓ | ✓ |
-| Eliminare un programma | ✓ |   |
-| Allegare un modulo personalizzato | ✓ |   |
-| Modificare un campo personalizzato | ✓ |   |
-| Aggiungere o rimuovere un progetto&#42; | ✓ |   |
-| Approvare un progetto | ✓ |   |
+| Eliminare un programma | ✓ |   |
+| Allegare un modulo personalizzato | ✓ |   |
+| Modificare un campo personalizzato | ✓ |   |
+| Aggiungere o rimuovere un progetto&#42; | ✓ |   |
+| Approvare un progetto | ✓ |   |
 | Aggiungi cartella documenti&#42; | ✓ | ✓ |
 | Aggiungi un documento | ✓ | ✓ |
 | Aggiungi aggiornamenti/commenti | ✓ | ✓ |
 | Condividi | ✓ | ✓ |
-| Condividi a livello di sistema |   | ✓ |
+| Condividi a livello di sistema |   | ✓ |
 
 *Queste autorizzazioni sono controllate dal livello di accesso e dalle autorizzazioni su altri oggetti, come i progetti.
 

@@ -6,10 +6,10 @@ description: Per visualizzare tutti gli aggiornamenti inseriti da un utente per 
 author: Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ Per impostazione predefinita, nell&#39;area Aggiornamenti di un oggetto viene vi
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -108,9 +108,9 @@ Ad esempio, per creare un rapporto Note per tutte le note di un progetto:
 
 1. Nell&#39;angolo superiore sinistro della pagina fare clic su **Nuovo report**, quindi selezionare **Nota**.
 
-1. (Facoltativo) Fai clic su **(Colonne) Visualizza**, quindi su **Aggiungi colonna** per aggiungere **Nome** del **Progetto** alla visualizzazione del report. 
+1. (Facoltativo) Fai clic su **(Colonne) Visualizza**, quindi su **Aggiungi colonna** per aggiungere **Nome** del **Progetto** alla visualizzazione del report.
 
-1. (Facoltativo) Se esegui report su più progetti contemporaneamente, fai clic su **Raggruppamenti**, quindi su **Aggiungi raggruppamento** per raggruppare in base al **Nome** del **Progetto**. In questo modo le note vengono raggruppate in base ai rispettivi progetti, facilitando la lettura del rapporto. 
+1. (Facoltativo) Se esegui report su più progetti contemporaneamente, fai clic su **Raggruppamenti**, quindi su **Aggiungi raggruppamento** per raggruppare in base al **Nome** del **Progetto**. In questo modo le note vengono raggruppate in base ai rispettivi progetti, facilitando la lettura del rapporto.
 
 1. (Facoltativo) Fai clic su **Filtri**, quindi su **Aggiungi regola filtro**.
 1. Aggiungi un filtro per **Nota** > **Testo nota** > **Non è vuoto**.

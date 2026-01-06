@@ -4,10 +4,10 @@ description: Puoi condividere un portfolio con altri utenti se disponi delle aut
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '870'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono qua
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +35,7 @@ Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono qua
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Standard</p> 
-   <p>Lavoro o superiore</p> 
+   <p>Work o successiva</p> 
    </td> 
   </tr> 
   <tr> 
@@ -146,19 +146,19 @@ Nella tabella seguente vengono visualizzate le autorizzazioni che è possibile c
 
 | **Azioni** | **Gestisci** | **Visualizza** |
 |---|---|---|
-| Modifica dettagli Portfolio | ✓ |   |
+| Modifica dettagli Portfolio | ✓ |   |
 | Visualizza un Portfolio | ✓ | ✓ |
-| Eliminare un Portfolio | ✓ |   |
-| Allegare un modulo personalizzato | ✓ |   |
-| Modificare un campo personalizzato | ✓ |   |
-| Aggiungere o rimuovere un programma&#42; | ✓ |   |
-| Aggiungere o rimuovere un progetto&#42; | ✓ |   |
-| Approvare un progetto | ✓ |   |
-| Ottimizzazione Portfolio&#42; | ✓ |   |
+| Eliminare un Portfolio | ✓ |   |
+| Allegare un modulo personalizzato | ✓ |   |
+| Modificare un campo personalizzato | ✓ |   |
+| Aggiungere o rimuovere un programma&#42; | ✓ |   |
+| Aggiungere o rimuovere un progetto&#42; | ✓ |   |
+| Approvare un progetto | ✓ |   |
+| Ottimizzazione Portfolio&#42; | ✓ |   |
 | Aggiungi cartella documenti&#42; | ✓ | ✓ |
 | Aggiungi un documento | ✓ | ✓ |
 | Aggiornamenti/commenti | ✓ | ✓ |
 | Condividi | ✓ | ✓ |
-| Condividi a livello di sistema |   | ✓ |
+| Condividi a livello di sistema |   | ✓ |
 
 *Queste autorizzazioni sono controllate dal livello di accesso e dalle autorizzazioni per altri oggetti, come progetti, programmi, documenti.

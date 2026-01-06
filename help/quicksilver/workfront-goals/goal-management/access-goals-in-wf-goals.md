@@ -6,10 +6,10 @@ description: Questo articolo descrive come trovare e gestire gli obiettivi in Ad
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 0%
+source-wordcount: '363'
+ht-degree: 5%
 
 ---
 
@@ -28,7 +28,7 @@ Questo articolo descrive come trovare e gestire gli obiettivi strategici in Adob
 >
 >Adobe Workfront Goals non è più disponibile per l’acquisto.
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -128,19 +128,16 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 ## Accedere agli obiettivi di Workfront
 
-1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **Goals**.
+{{step1-to-goals}}
 
-   <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   Viene visualizzato l’elenco Obiettivo.
+Viene visualizzato l’elenco Obiettivo.
 
 
-   >[!IMPORTANT]
-   >
-   >   Quando disponi dell’accesso corretto agli obiettivi di Workfront, puoi visualizzare gli obiettivi che hai creato o che sono stati creati da altri utenti nell’Elenco obiettivi per impostazione predefinita.
+>[!IMPORTANT]
+>
+>   Quando disponi dell’accesso corretto agli obiettivi di Workfront, puoi visualizzare gli obiettivi che hai creato o che sono stati creati da altri utenti nell’Elenco obiettivi per impostazione predefinita.
 
-   <!--   
+<!--   
    (NOTE: This might change when sharing is in place; right now, with sharing in place, they can VIEW all goals in the system but they cannot EDIT the ones others created!)
    -->
 
@@ -196,9 +193,12 @@ To access an individual goal in the Production environment:
 
 Per accedere a un singolo obiettivo:
 
-1. Fai clic sull&#39;icona **Main Menu** nell&#39;angolo superiore destro di Workfront, quindi fai clic su **Goals** .
+{{step1-to-goals}}
+
 L’Elenco obiettivi viene visualizzato per impostazione predefinita.
-   ![Elenco obiettivi](assets/goal-list-unshimmed.png)
+
+![Elenco obiettivi](assets/goal-list-unshimmed.png)
+
 1. Fai clic sul nome di un obiettivo nell’elenco.
 Viene visualizzata la pagina dell’obiettivo.
    ![Pagina obiettivo](assets/goal-page-unshimmed.png)

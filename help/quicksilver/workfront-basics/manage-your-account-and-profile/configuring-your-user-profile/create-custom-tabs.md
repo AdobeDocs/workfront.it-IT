@@ -6,10 +6,10 @@ description: Per impostazione predefinita, le informazioni visualizzate nell'app
 author: Becky and Lisa
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Per impostazione predefinita, le informazioni visualizzate nell&#39;applicazione Web [!DNL Workfront] vengono spesso visualizzate nelle sezioni del pannello sinistro. Ogni sezione contiene informazioni diverse su un&#39;area o un oggetto [!DNL Workfront].
 
-Per ulteriori informazioni sulle aree predefinite di [!DNL Workfront], vedere l&#39;articolo [Informazioni sul layout predefinito [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+Per ulteriori informazioni sulle aree predefinite di [!DNL Workfront], vedere l&#39;articolo [Informazioni sul layout predefinito [!DNL Adobe Workfront] ](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
 Oltre alle sezioni fornite con [!DNL Workfront] per impostazione predefinita, è possibile aggiungere una dashboard in cui visualizzare informazioni rilevanti per il flusso di lavoro. Non è possibile aggiungere un dashboard a tutte le aree e a tutti gli oggetti.
 
@@ -28,23 +28,23 @@ Nella tabella seguente sono elencate tutte le aree e gli oggetti [!DNL Workfront
 | **[!DNL Workfront]area o oggetto** | **Sezioni di sistema predefinite** | **Dashboard** |
 |---|---|---|
 | Area [!UICONTROL Progetti] | ✓ | ✓ |
-| [!UICONTROL Team] | ✓ |   |
-| Area [!UICONTROL Richieste] | ✓ |   |
-| Area [!UICONTROL Schede orario] | ✓ |   |
+| [!UICONTROL Team] | ✓ |    |
+| Area [!UICONTROL Richieste] | ✓ |    |
+| Area [!UICONTROL Schede orario] | ✓ |    |
 | [!UICONTROL Portfolio] | ✓ | ✓ |
 | [!UICONTROL Programma] | ✓ | ✓ |
 | [!UICONTROL Progetto] | ✓ | ✓ |
-| [!UICONTROL Attività] | ✓ |  ✓ |
-| [!UICONTROL Problema] |  ✓ |  ✓ |
-| [!UICONTROL Utente] |  ✓ |  ✓ |
-| [!UICONTROL Documento] |  ✓ |  ✓ |
+| [!UICONTROL Attività] | ✓ | ✓ |
+| [!UICONTROL Problema] | ✓ | ✓ |
+| [!UICONTROL Utente] | ✓ | ✓ |
+| [!UICONTROL Documento] | ✓ | ✓ |
 | [!UICONTROL Area risorse] | ✓ | ✓ |
 
 {style="table-layout:auto"}
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto">
  <col> 

@@ -7,7 +7,7 @@ description: Alcuni campi in Adobe Workfront limitano il numero di caratteri che
 author: Alina
 feature: Get Started with Workfront
 exl-id: f09dadf4-24f2-46d9-85ae-6081731d917d
-source-git-commit: e2a2a8cfe402c1f9f810ca360db4912d804b0a57
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 5%
@@ -57,11 +57,11 @@ Gli amministratori di Workfront o gruppi non possono modificare i limiti dei car
    <td>4.000</td> 
   </tr> 
   <tr> 
-   <td> <p>Paragrafo dati personalizzato o testo a riga singola </p> </td> 
+   <td> <p>Paragrafo dati personalizzato o testo a riga singola  </p> </td> 
    <td> <p>2.000</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Campo descrizione nel Report Builder</p> </td> 
+   <td> <p>Campo descrizione in Report Builder</p> </td> 
    <td> <p>512</p> </td> 
   </tr> 
   <tr> 
@@ -69,7 +69,7 @@ Gli amministratori di Workfront o gruppi non possono modificare i limiti dei car
    <td> <p>255</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Nome Oggetto</p> </td> 
+   <td> <p>Nome oggetto</p> </td> 
    <td> <p>255</p> </td> 
   </tr> 
  </tbody> 

@@ -6,9 +6,9 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: bc7312a10f1851b9f85b2c1ceac5b01dba078f32
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1539'
 ht-degree: 3%
 
 ---
@@ -141,7 +141,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Oggetto</strong> </td> 
-      <td>Visualizza il nome della richiesta originale. Se necessario, aggiornala. In caso contrario, Workfront nomina la richiesta copiata <b>Copia di &lt;Nome della richiesta originale&gt;</b>. Questo è un campo obbligatorio.</td> 
+      <td>Visualizza il nome della richiesta originale. Se necessario, aggiornala. In caso contrario, Workfront nomina la richiesta copiata <b>Copia di &lt;Nome della richiesta originale&gt;</b>. Questo è un campo obbligatorio.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Descrizione</strong> </td> 
@@ -230,11 +230,12 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 È possibile copiare e inviare richieste nell&#39;area Richieste di Workfront o dal widget Richieste personali nella Home.
 
-1. Per accedere all&#39;elenco Richieste, fare clic sull&#39;icona **[!UICONTROL Menu principale]** ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fare clic sull&#39;icona **[!UICONTROL Menu principale]** ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fare clic su **[!UICONTROL Richieste]**.
+{{step1-to-requests}}
 
 1. Per accedere al widget Richieste personali nella Home:
 
-   1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **[!UICONTROL Home]**.
+   {{step1-to-home}}
+
    1. Individuare il widget Richieste personali.
 
       Per ulteriori informazioni sul widget Richieste personali, vedere [Utilizzare il widget Richieste personali](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).

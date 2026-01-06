@@ -7,10 +7,10 @@ description: Puoi rimuovere risultati, attività e progetti dagli obiettivi in O
 author: Alina
 feature: Workfront Goals
 exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 0%
+source-wordcount: '646'
+ht-degree: 2%
 
 ---
 
@@ -40,7 +40,7 @@ Gli obiettivi possono anche essere allineati agli obiettivi principali, diventan
 >
 >Adobe Workfront Goals non è più disponibile per l’acquisto.
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto">
 <col>
@@ -187,11 +187,9 @@ How you delete results and activities differs depending on the environment you u
 
 -->
 
-1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **Goals**.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-   Viene visualizzata l&#39;area Obiettivi di Workfront e l&#39;elenco Obiettivi viene visualizzato per impostazione predefinita.
+Viene visualizzata l&#39;area Obiettivi di Workfront e l&#39;elenco Obiettivi viene visualizzato per impostazione predefinita.
 
 1. Fai clic sul nome di un obiettivo da cui desideri rimuovere risultati e attività.
 
@@ -232,12 +230,9 @@ Dsconnecting projects from goals differs depending on the environment you use.
 -->
 
 
-1. Fai clic sull&#39;icona **Main Menu** nell&#39;angolo superiore destro, quindi fai clic su **Goals**.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   Viene visualizzata l&#39;area Obiettivi di Workfront e l&#39;elenco Obiettivi viene visualizzato per impostazione predefinita.
+Viene visualizzata l&#39;area Obiettivi di Workfront e l&#39;elenco Obiettivi viene visualizzato per impostazione predefinita.
 
 1. Fai clic sul nome di un obiettivo da cui desideri rimuovere risultati e attività.
 

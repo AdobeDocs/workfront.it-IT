@@ -5,10 +5,10 @@ description: Come parte della pianificazione delle risorse, è possibile utilizz
 author: Becky
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ Puoi anche preventivare le risorse nel caso di business utilizzando Adobe Workfr
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -132,7 +132,7 @@ Per applicare i gruppi di risorse e le risorse del progetto di budget nel Busine
 
    Viene visualizzata la Programmazione delle risorse per il progetto selezionato.
 
-   Per impostazione predefinita, i primi 20 ruoli associati a questo progetto sono elencati in ordine alfabetico nella sezione Budget risorse. 
+   Per impostazione predefinita, i primi 20 ruoli associati a questo progetto sono elencati in ordine alfabetico nella sezione Budget risorse.
 
    Per ulteriori informazioni sulla Programmazione delle risorse, vedere [Panoramica sulla programmazione delle risorse](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
@@ -152,7 +152,7 @@ Per applicare i gruppi di risorse e le risorse del progetto di budget nel Busine
    >   
    >
 
-    
+
 
 1. Fai clic su **Oggi** per tornare all&#39;intervallo di tempo odierno.
 1. (Facoltativo) Fai clic su **Settimana**, **Mese** o **Trimestre** per visualizzare le informazioni per il progetto in intervalli di tempo diversi.

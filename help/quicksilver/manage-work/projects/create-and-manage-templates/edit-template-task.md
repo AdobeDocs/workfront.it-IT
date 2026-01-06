@@ -7,10 +7,10 @@ description: Dopo aver creato un modello, è possibile modificare le informazion
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '4633'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -382,7 +382,7 @@ I nomi dei moduli doganali vengono visualizzati solo se sono presenti moduli per
 
 1. Fai clic su **Aggiungi assegnatario** per aggiungere un nuovo assegnatario all&#39;attività modello. È possibile assegnare utenti, ruoli o team a un&#39;attività. È possibile avere più assegnatari per un&#39;attività. Alle attività future verranno assegnate le stesse risorse quando verranno create da questa attività modello.
 1. (Facoltativo) Se hai più assegnatari, seleziona il pulsante di opzione **Proprietario** per indicare quale utente o ruolo è considerato il Proprietario dell&#39;attività o l&#39;assegnatario principale. Workfront contrassegna il primo utente o ruolo assegnato a un&#39;attività modello come Proprietario o Assegnatario principale.
-1. (Condizionale e facoltativo) Se il tipo di durata **&#x200B;**&#x200B;è **Lavoro calcolato** o **Impegno sostenuto**, specificare il **% di allocazione** (percentuale di allocazione) per ogni assegnatario. Quantità di tempo della pianificazione dell&#39;assegnatario che può trascorrere per l&#39;attività. Se si modifica la percentuale di allocazione per un assegnatario, verranno modificate le ore pianificate di un&#39;attività.
+1. (Condizionale e facoltativo) Se il tipo di durata **** è **Lavoro calcolato** o **Impegno sostenuto**, specificare il **% di allocazione** (percentuale di allocazione) per ogni assegnatario. Quantità di tempo della pianificazione dell&#39;assegnatario che può trascorrere per l&#39;attività. Se si modifica la percentuale di allocazione per un assegnatario, verranno modificate le ore pianificate di un&#39;attività.
 1. (Condizionale e facoltativo) Se il **Tipo di Durata** è **Semplice**, specifica le **Ore** di ciascun assegnatario
 
    Oppure

@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1404'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 3%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -135,11 +135,11 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
      </tr> 
      <tr> 
       <td role="rowheader">Tipo di condizione</td> 
-      <td>Determina se il manager imposta la condizione del progetto o se Workfront lo imposta. Per informazioni sulla condizione del progetto, vedere l'articolo <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Panoramica della condizione e del tipo di condizione del progetto</a>.</td> 
+      <td>Determina se il manager imposta la condizione del progetto o se Workfront lo imposta. Per informazioni sulla condizione del progetto, vedere l'articolo <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Panoramica della condizione e del tipo di condizione del progetto</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Modalità pianificazione</td> 
-      <td>Imposta la modalità di programmazione del progetto. Ad esempio, se il progetto è programmato dalla Data di inizio o dalla Data di completamento. </td> 
+      <td>Imposta la modalità di programmazione del progetto. Ad esempio, se il progetto è programmato dalla Data di inizio o dalla Data di completamento. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Data e ora di inizio pianificate</td> 
@@ -209,7 +209,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    | Immesso da | Nome dell&#39;utente che ha creato il progetto. |
    | Data ultimo aggiornamento | Data e ora dell’ultimo aggiornamento del progetto. |
    | Ultimo aggiornamento di | Nome dell’ultimo utente che ha aggiornato il progetto. |
-   | Modello |   |
+   | Modello |  |
 
 
 1. Se la società ha acquistato una licenza aggiuntiva per Adobe Workfront Scenario Planner e il progetto contiene informazioni pubblicate da un&#39;iniziativa collegata, esaminare le seguenti informazioni nell&#39;area Scenario Planner:
@@ -236,15 +236,15 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
      </tr> 
      <tr> 
       <td role="rowheader"><span>Data di fine iniziativa</span> </td> 
-      <td><span>Ultimo giorno della fine del mese dell'iniziativa, quando il progetto è collegato a un'iniziativa. </span> </td> 
+      <td><span>Ultimo giorno della fine del mese dell'iniziativa, quando il progetto è collegato a un'iniziativa. </span> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><span>Ruoli di iniziativa in FTE e ore</span> </td> 
-      <td> <p>Informazioni sulle mansioni associate e sulle loro allocazioni di tempo per l’iniziativa. Ciò include:</p> 
+      <td> <p>Informazioni sulle mansioni associate e sulle loro allocazioni di tempo per l’iniziativa. Ciò include:</p> 
        <ul> 
         <li>Nome mansione</li> 
         <li>Numero di FTE</li> 
-        <li> <p>Numero di ore per tutti gli FTE</p> <p>Puoi stimare la quantità di mansioni necessarie per il piano o l’iniziativa utilizzando ore o FTE. </p> <p>Per ulteriori informazioni, vedere <a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Creare e modificare i piani nella Pianificazione scenario</a>. </p> </li> 
+        <li> <p>Numero di ore per tutti gli FTE</p> <p>Puoi stimare la quantità di mansioni necessarie per il piano o l’iniziativa utilizzando ore o FTE. </p> <p>Per ulteriori informazioni, vedere <a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Creare e modificare i piani nella Pianificazione scenario</a>. </p> </li> 
        </ul> <p>Suggerimento: <span>Se il numero di mansioni è diverso per ogni mese nell'iniziativa, in questo campo viene visualizzata la quantità massima di mansioni necessarie per l'iniziativa. Ad esempio, se hai bisogno di 1 consulente per gennaio e 2 per febbraio, nella colonna vengono visualizzati 2 FTE e la quantità corrispondente di ore per 2 FTE per tutti i mesi.</span> </p> </td> 
      </tr> 
     </tbody> 

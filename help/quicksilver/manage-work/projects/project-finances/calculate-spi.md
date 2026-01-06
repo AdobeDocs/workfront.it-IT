@@ -7,10 +7,10 @@ description: L'indice delle prestazioni della pianificazione (SPI) descrive il r
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ L&#39;indice delle prestazioni della pianificazione (SPI) descrive il rapporto t
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -62,7 +62,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ### Cosa mostra il valore SPI {#what-the-spi-value-shows}
 
-I project manager sono consapevoli del fatto che un valore SPI pari a 1 indica che il progetto è pianificato o pianificato.  I valori maggiori di 1 indicano che un progetto è in anticipo rispetto alla programmazione e i valori minori di 1 indicano che un progetto è in ritardo.  Più lontano da 1, maggiore è la deviazione dal piano.
+I project manager sono consapevoli del fatto che un valore SPI pari a 1 indica che il progetto è pianificato o pianificato.  I valori maggiori di 1 indicano che un progetto è in anticipo rispetto alla programmazione e i valori minori di 1 indicano che un progetto è in ritardo.  Più lontano da 1, maggiore è la deviazione dal piano.
 
 | **Valore SPI** | **Indicazione di &quot;On Schedule&quot;** |
 |---|---|
@@ -82,9 +82,9 @@ SPI = (Total Planned Hours x % Complete) / Planned Hours Scheduled to Date*
 
 *&#42;Se le ore pianificate sono pianificate fino alla data = 0, SPI = 1*.
 
-Le ore pianificate dalla pianificazione alla data vengono calcolate al minuto in cui vengono eseguiti i calcoli. Mostra il numero di ore pianificate fino alla data corrente. Può essere ricalcolato automaticamente quando si modificano i dati finanziari per garantire la precisione. Nessun campo in Workfront che indica questo valore.
+Le ore pianificate dalla pianificazione alla data vengono calcolate al minuto in cui vengono eseguiti i calcoli. Mostra il numero di ore pianificate fino alla data corrente. Può essere ricalcolato automaticamente quando si modificano i dati finanziari per garantire la precisione. Nessun campo in Workfront che indica questo valore.
 
-Ad esempio, se si dispone di un progetto con 1 attività e l&#39;attività ha 10 ore pianificate e una Durata di 10 giorni, la Pianificazione ore pianificate fino alla data del 5° giorno sarà 5. 
+Ad esempio, se si dispone di un progetto con 1 attività e l&#39;attività ha 10 ore pianificate e una Durata di 10 giorni, la Pianificazione ore pianificate fino alla data del 5° giorno sarà 5.
 
 ## Individuare SPI in un progetto o in un&#39;attività
 

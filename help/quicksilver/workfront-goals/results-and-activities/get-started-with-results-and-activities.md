@@ -7,7 +7,7 @@ description: Per poter attivare un obiettivo, devi aggiungere risultati, attivit
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 3%
@@ -145,7 +145,7 @@ La tabella seguente mostra somiglianze e differenze tra risultati, attività e p
    <td><b><p>Funzione</p></b></td> 
    <td><b><p>Risultati</p></b></td> 
    <td><b><p>Attività</p></b></td> 
-   <td> <p><strong>Progetti</strong> </p> <p> </p> </td> 
+   <td> <p><strong>Progetti</strong> </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td><span style="font-weight: normal;">È possibile personalizzare il nome dell'oggetto nell'interfaccia di Workfront</span> </td> 
@@ -167,8 +167,8 @@ La tabella seguente mostra somiglianze e differenze tra risultati, attività e p
   </tr> 
   <tr> 
    <td>Puoi associarne uno a più obiettivi.</td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>✔</td> 
   </tr> 
   <tr> 
@@ -181,13 +181,13 @@ La tabella seguente mostra somiglianze e differenze tra risultati, attività e p
    <td>Devono essere aggiornati manualmente in Workfront Goals</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Devono essere completati alla data di fine dell’obiettivo</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Possono essere assegnate solo a un utente e non a un team, gruppo o azienda. </td> 
@@ -201,7 +201,7 @@ La tabella seguente mostra somiglianze e differenze tra risultati, attività e p
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> **&#x200B;**
+  <tr> ****
    <td>Offrono un intervallo di valori tra i valori iniziale e finale che illustra quanto sei vicino a raggiungerli. La prossimità al valore finale calcola un valore di Avanzamento per l'obiettivo. </td> 
    <td>✔</td> 
    <td>✔</td> 

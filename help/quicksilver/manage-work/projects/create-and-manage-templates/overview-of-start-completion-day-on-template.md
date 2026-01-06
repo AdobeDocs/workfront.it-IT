@@ -6,7 +6,7 @@ description: È possibile utilizzare i modelli di progetto per acquisire la magg
 author: Alina
 feature: Work Management
 exl-id: caa0e7b1-37c3-4973-92ce-cc93df4e4186
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 **Esempio:** se la data di inizio di un progetto è il 1 aprile e si desidera che un&#39;attività inizi il 3 aprile (due giorni dopo l&#39;inizio del progetto), l&#39;attività corrispondente nel modello che crea il progetto deve iniziare il giorno 2 del modello, dove il primo giorno del modello è considerato il giorno 0.
 
-## Giorno Inizio
+## Giorno di inizio
 
 Quando si lavora con modelli e attività modello, considera quanto segue:
 

@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '7642'
 ht-degree: 1%
@@ -40,7 +40,7 @@ In Adobe Workfront puoi modificare un progetto con la frequenza necessaria. È c
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -690,7 +690,7 @@ Per informazioni sull&#39;effetto di queste impostazioni sulla creazione di nuov
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Quando a un utente viene dato l’accesso a questo progetto: indica il livello di accesso predefinito per ...</strong></td> 
-      <td><p>Seleziona le opzioni di accesso che desideri che gli utenti abbiano sul progetto, se il progetto è condiviso con loro. Selezionare le opzioni specifiche per il loro accesso se sono designati come <strong>Visualizzatori</strong>, <strong>Collaboratori</strong> o <strong>Manager</strong> durante la condivisione del progetto con loro. </p><p>L'accesso <strong>Elimina</strong> nel livello di autorizzazione <strong>Gestisci</strong> determina se gli utenti possono eliminare il progetto stesso. Gli utenti con l'accesso <strong>Gestione</strong> al progetto possono eliminare le attività e i problemi all'interno del progetto indipendentemente dal fatto che questa opzione sia selezionata o meno, se dispongono delle autorizzazioni <strong>Gestione</strong> per le attività e i problemi. </p></td> 
+      <td><p>Seleziona le opzioni di accesso che desideri che gli utenti abbiano sul progetto, se il progetto è condiviso con loro. Selezionare le opzioni specifiche per il loro accesso se sono designati come <strong>Visualizzatori</strong>, <strong>Collaboratori</strong> o <strong>Manager</strong> durante la condivisione del progetto con loro. </p><p>L'accesso <strong>Elimina</strong> nel livello di autorizzazione <strong>Gestisci</strong> determina se gli utenti possono eliminare il progetto stesso. Gli utenti con l'accesso <strong>Gestione</strong> al progetto possono eliminare le attività e i problemi all'interno del progetto indipendentemente dal fatto che questa opzione sia selezionata o meno, se dispongono delle autorizzazioni <strong>Gestione</strong> per le attività e i problemi. </p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -884,7 +884,7 @@ To edit projects in bulk:
      For information, continue with step 7 below.
 
      <!--   
-     <p>(NOTE:&nbsp;make sure this stays accurate)</p>   
+     <p>(NOTE: make sure this stays accurate)</p>   
      
 
    * **Tasks**

@@ -6,10 +6,10 @@ description: Utilizzare la sezione Allineamento obiettivo per visualizzare una v
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 1%
+source-wordcount: '883'
+ht-degree: 3%
 
 ---
 
@@ -32,7 +32,7 @@ Per informazioni sull’allineamento degli obiettivi e su come raggiungerlo, con
 >
 >Adobe Workfront Goals non è più disponibile per l’acquisto.
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -125,9 +125,8 @@ Or
 
 ## Passare alla sezione Allineamento obiettivo
 
-1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](../goal-alignment/assets/dots-main-menu-icon.png) nell&#39;angolo superiore destro dello schermo, quindi fai clic su **Goals**.
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-alignment/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+{{step1-to-goals}}
+
 1. Fai clic su **Allineamento obiettivo** nel pannello a sinistra.
 1. Utilizza i filtri nell’angolo superiore destro del grafico di allineamento per selezionare solo gli obiettivi che ritieni importanti. Per informazioni sull&#39;utilizzo dei filtri negli obiettivi di Workfront, vedere [Informazioni sui filtri negli obiettivi di Adobe Workfront](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
@@ -159,7 +158,7 @@ Or
       <td role="rowheader">Barra di avanzamento obiettivo <span> e avanzamento</span></td> 
       <td> <p>Il progresso dell’obiettivo indica quanto dell’obiettivo è stato attualmente raggiunto. Si tratta di un calcolo automatico della media dell’avanzamento di tutti gli obiettivi, i risultati e le attività allineati per l’obiettivo in base al tempo trascorso dall’inizio del periodo di tempo dell’obiettivo. Per informazioni sul calcolo dell'avanzamento degli obiettivi, vedere <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Panoramica sull'avanzamento e sulla condizione dell'obiettivo in Obiettivi di Adobe Workfront</a>. </p> 
        <div> 
-        <p>L’avanzamento effettivo dell’obiettivo entro la data corrente. I seguenti valori e colori di avanzamento indicano la probabilità che l’obiettivo venga raggiunto in tempo: </p> 
+        <p>L’avanzamento effettivo dell’obiettivo entro la data corrente. I seguenti valori e colori di avanzamento indicano la probabilità che l’obiettivo venga raggiunto in tempo: </p> 
         <ul> 
          <li><span>In Target</span> (indicatore verde): l'obiettivo è puntuale e verrà raggiunto puntualmente.</li> 
          <li> <span>A rischio</span> (indicatore giallo): l'obiettivo è in ritardo e potrebbe non essere raggiunto in tempo.</li> 

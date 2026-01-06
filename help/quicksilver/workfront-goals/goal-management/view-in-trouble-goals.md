@@ -6,10 +6,10 @@ description: Gli obiettivi con un Progress of In Trouble rischiano di non essere
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 0%
+source-wordcount: '748'
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,7 @@ Gli obiettivi con un avanzamento di In difficoltà rischiano di non essere raggi
 >
 >Adobe Workfront Goals non è più disponibile per l’acquisto.
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto">
 <col>
@@ -130,7 +130,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 ## Raccomandazioni per prevenire gli obiettivi per raggiungere un progresso di In difficoltà
 
-Prima che gli obiettivi raggiungano un progresso di In difficoltà, puoi monitorarli spesso e regolarne l’avanzamento quando raggiungono un progresso di A rischio. Gli obiettivi a rischio rischiano di finire nei guai. Per ulteriori informazioni sull&#39;avanzamento dell&#39;obiettivo, vedere [Panoramica sull&#39;avanzamento e sulla condizione dell&#39;obiettivo in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/calculate-goal-progress.md)
+Prima che gli obiettivi raggiungano un progresso di In difficoltà, puoi monitorarli spesso e regolarne l’avanzamento quando raggiungono un progresso di A rischio. Gli obiettivi a rischio rischiano di finire nei guai. Per ulteriori informazioni sull&#39;avanzamento dell&#39;obiettivo, vedere [Panoramica sull&#39;avanzamento e sulla condizione dell&#39;obiettivo in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/calculate-goal-progress.md)
 
 Prima che i tuoi obiettivi raggiungano un progresso di In Trouble, ti consigliamo quanto segue:
 
@@ -139,16 +139,13 @@ Prima che i tuoi obiettivi raggiungano un progresso di In Trouble, ti consigliam
 
 ## Rivedi gli obiettivi in difficoltà nell’elenco Obiettivo
 
-Puoi rivedere gli obiettivi in qualsiasi sezione di Workfront Goals. Per informazioni sulle sezioni Obiettivi di Workfront, vedi [Panoramica delle sezioni Obiettivi di Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+Puoi rivedere gli obiettivi in qualsiasi sezione di Workfront Goals. Per informazioni sulle sezioni Obiettivi di Workfront, vedi [Panoramica delle sezioni Obiettivi di Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
 
 Questo articolo descrive come rivedere gli obiettivi nell’elenco Obiettivo.
 
-1. Fai clic sull&#39;icona **Menu principale** ![Icona Menu principale](assets/main-menu-icon.png) > **Obiettivi** nell&#39;angolo superiore destro.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   Viene visualizzata l’area Obiettivi di Workfront e la sezione Elenco obiettivi viene visualizzata per impostazione predefinita.
+Viene visualizzata l’area Obiettivi di Workfront e la sezione Elenco obiettivi viene visualizzata per impostazione predefinita.
 
 1. (Consigliato) Per rivedere gli obiettivi a rischio, regola i seguenti filtri per l’area Elenco obiettivi:
 

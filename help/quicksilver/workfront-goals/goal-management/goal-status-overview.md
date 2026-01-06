@@ -7,7 +7,7 @@ description: Gli stati obiettivo indicano se un obiettivo è attivo e sta regist
 author: Alina
 feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 4%
@@ -58,7 +58,7 @@ ht-degree: 4%
   | Chiuso | No | Sì | No | - |
 
 * L’apertura di un obiettivo chiuso aggiorna anche l’avanzamento dell’obiettivo.
-* Alcune azioni eseguite su un obiettivo aggiornano anche il relativo stato. Per informazioni su come aggiornare gli stati degli obiettivi, vedi i seguenti articoli:
+* Alcune azioni eseguite su un obiettivo aggiornano anche il relativo stato. Per informazioni su come aggiornare gli stati degli obiettivi, vedi i seguenti articoli:
 
    * [Crea obiettivi in Obiettivi Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
    * [Attiva obiettivi in Obiettivi Adobe Workfront](../../workfront-goals/goal-management/activate-goals.md)

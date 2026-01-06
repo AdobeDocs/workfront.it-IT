@@ -6,10 +6,10 @@ description: Il tuo amministratore Adobe Workfront può concederti l’accesso p
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
@@ -41,7 +41,7 @@ Per informazioni sulle operazioni che gli utenti di ogni livello di accesso poss
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial&nbsp;Data</p> <p><b>NOTE</b>
+   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial  Data</p> <p><b>NOTE</b>
    
    If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
@@ -53,7 +53,7 @@ Per informazioni sulle operazioni che gli utenti di ogni livello di accesso poss
 </table>
 -->
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -117,7 +117,7 @@ Per concedere autorizzazioni finanziarie a un oggetto:
 
 ## Autorizzazioni finanziarie per tutti i livelli di condivisione
 
-Nella tabella seguente vengono visualizzate le autorizzazioni finanziarie ottenute dagli utenti quando si concedono loro le autorizzazioni Visualizza, Contribuisci o Gestisci per gli oggetti: 
+Nella tabella seguente vengono visualizzate le autorizzazioni finanziarie ottenute dagli utenti quando si concedono loro le autorizzazioni Visualizza, Contribuisci o Gestisci per gli oggetti:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -136,26 +136,26 @@ Nella tabella seguente vengono visualizzate le autorizzazioni finanziarie ottenu
   <tr> 
    <td>Gestisci record fatturazione</td> 
    <td>✓</td> 
-   <td> <p> </p> </td> 
-   <td> </td> 
+   <td> <p>  </p> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Gestisci/Visualizza fatturazione mansione e tassi di costo</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Gestisci/Visualizza fatturazione utente e tassi di costo</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Visualizza dati finanziari</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> ✓</td> 
+   <td>  ✓</td> 
   </tr> 
   <tr> 
    <td>Visualizzare le informazioni per costo negli strumenti di pianificazione delle risorse</td> 
@@ -166,8 +166,8 @@ Nella tabella seguente vengono visualizzate le autorizzazioni finanziarie ottenu
   <tr> 
    <td>Risorse preventivate negli strumenti di pianificazione delle risorse*</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Visualizzare le risorse negli strumenti di pianificazione delle risorse*</td> 

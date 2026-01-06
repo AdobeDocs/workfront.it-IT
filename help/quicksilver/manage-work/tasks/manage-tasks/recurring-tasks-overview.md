@@ -9,7 +9,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 3%
@@ -100,4 +100,4 @@ La tabella seguente illustra se le modifiche apportate al trigger padre vengono 
 
 &#42;&#42; le assegnazioni effettuate sull&#39;attività padre vengono applicate a tutte le sottoattività nella ricorrenza. Eventuali modifiche apportate all&#39;assegnazione nell&#39;attività padre sostituiscono le singole assegnazioni nell&#39;attività secondaria. Se l&#39;attività mostra lo stato di avanzamento, l&#39;assegnazione non cambia.
 
- 
+

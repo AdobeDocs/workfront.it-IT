@@ -6,9 +6,9 @@ description: Puoi modificare la lingua in cui vengono visualizzati Adobe Workfro
 feature: Get Started with Workfront
 author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 5304f25ecb198f45c024b71185747f47fa8307d4
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1137'
 ht-degree: 1%
 
 ---
@@ -92,7 +92,7 @@ Attualmente, Workfront Fusion supporta solo l’inglese.
 * Workfront Fusion non supporta l&#39;utilizzo di caratteri di testo non inglesi nei campi immessi dall&#39;utente.
 
 Per poter accedere a Workfront Fusion, l’azienda deve acquistare una licenza Workfront Fusion.\
-Per ulteriori informazioni su Workfront Fusion, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Per ulteriori informazioni su Workfront Fusion, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ## Modificare la lingua
 
@@ -146,7 +146,8 @@ Quando si modifica la lingua e-mail predefinita di Workfront, si modificano la l
 Per modificare le impostazioni internazionali predefinite per le e-mail di Workfront:
 
 1. Accedi a Workfront come amministratore Workfront.
-1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic su **Setup** ![](assets/gear-icon-settings.png).
+
+{{step-1-to-setup}}
 
 1. Fai clic su **Sistema** > **Informazioni cliente**
 
@@ -164,7 +165,9 @@ Quando modifichi le impostazioni internazionali dell’e-mail utente, puoi modif
 
 Per modificare le impostazioni internazionali dell&#39;e-mail utente:
 
-1. Fai clic sull&#39;icona **del** menu principale![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic sull&#39;immagine del tuo profilo utente.
+{{step1-click-main-menu}}
+
+1. Fare clic sull&#39;immagine del profilo utente.
 
 1. Fai clic sul menu Altro ![](assets/more-icon.png), quindi fai clic su **Modifica**.
 

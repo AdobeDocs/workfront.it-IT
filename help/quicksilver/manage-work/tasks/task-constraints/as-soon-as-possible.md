@@ -7,7 +7,7 @@ description: Il più presto possibile è un vincolo attività che posiziona l'or
 author: Alina
 feature: Work Management
 exl-id: 9cb232fe-bc74-4433-afac-88be69514c88
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Per informazioni su come aggiornare il vincolo attività in un&#39;attività, ve
 ## Differenza tra l&#39;orario disponibile più presto e il più presto possibile
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "Earliest Available Time"])&nbsp;</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "Earliest Available Time"]) </p>
 -->
 
 Il vincolo Primo tempo disponibile è diverso dal vincolo Il più presto possibile quando sono presenti tutti i seguenti criteri:

@@ -6,10 +6,10 @@ description: Quando condividi un obiettivo, assegni le autorizzazioni di gestion
 author: Alina
 feature: Workfront Goals
 exl-id: 747449cf-9092-4b9f-9add-db2e7d3fab48
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 7%
+source-wordcount: '724'
+ht-degree: 9%
 
 ---
 
@@ -25,7 +25,7 @@ Quando condividi un obiettivo, assegni le autorizzazioni di gestione a un obiett
 >
 >Adobe Workfront Goals non è più disponibile per l’acquisto.
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto">
 <col>
@@ -149,7 +149,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
       <p>Per impostazione predefinita, tutti gli utenti con accesso agli obiettivi possono visualizzare tutti gli obiettivi nel sistema. Gli utenti possono copiare l’obiettivo se dispongono dell’accesso di modifica per gli obiettivi nel proprio livello di accesso.</p> </td> 
    </tr> 
    <tr> 
-      <td role="rowheader"><p>Gestisci</p></td> 
+      <td role="rowheader"><p>Gestione</p></td> 
       <td> <p>Gli utenti possono modificare tutte le informazioni per l’obiettivo, inclusi i risultati, o le attività, inclusa la loro eliminazione.</p> 
       <p>Solo i creatori o gli utenti di un obiettivo a cui sono state specificatamente assegnate le autorizzazioni di gestione possono gestire un obiettivo.</p> 
       Solo gli utenti con le autorizzazioni di gestione di un obiettivo possono condividere l’obiettivo con altri utenti in modo da assegnare loro le autorizzazioni di gestione per l’obiettivo. </p> </td> 
@@ -166,12 +166,9 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 ## Condividere un obiettivo
 
-1. Fai clic sull&#39;icona **Menu principale** ![Icona Menu principale](assets/main-menu-icon.png) > **Obiettivi** nell&#39;angolo superiore destro.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   Viene visualizzato l’elenco Obiettivo.
+Viene visualizzato l’elenco Obiettivo.
 
 1. Fai clic sul nome di un obiettivo nell’elenco. Viene visualizzata la pagina dell’obiettivo.
 
@@ -248,32 +245,32 @@ Nella tabella seguente sono elencate le autorizzazioni che è possibile conceder
   <tr> 
    <td>Modifica risultati o attività</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Aggiungere risultati o attività per l’obiettivo</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Associa un progetto come attività all’obiettivo**</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Elimina obiettivo</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Eliminare risultati o attività</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td>Disconnetti progetti dall’obiettivo</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -286,4 +283,4 @@ Per informazioni sul livello di accesso al progetto, vedere [Concedere l&#39;acc
 
 Per informazioni sulle autorizzazioni del progetto, vedere [Condividere un progetto in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
- 
+

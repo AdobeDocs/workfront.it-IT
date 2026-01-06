@@ -7,7 +7,7 @@ description: L'assegnazione calcolata è un tipo di durata che è possibile impo
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 0%
@@ -27,7 +27,7 @@ L&#39;assegnazione calcolata è un tipo di durata che è possibile impostare per
 -->
 
 * Quando si utilizza un Tipo di durata assegnazione calcolata, è necessario specificare sia una durata che un numero di ore pianificate per l&#39;attività. Workfront divide quindi la quantità di ore pianificate per la quantità di ore nella Durata e quindi per il numero di risorse assegnate all&#39;attività per calcolare la percentuale di allocazione (calcola l&#39;assegnazione) per ciascuna risorsa. Ogni risorsa avrà lo stesso valore per la percentuale di allocazione. In questo caso, non è possibile modificare i valori di allocazione per ogni risorsa.
-* Il Workfront o un amministratore di gruppo può impostare il Tipo di durata predefinito del sistema o del gruppo come Assegnazione calcolata. In questo caso, tutte le nuove attività verranno create con questo Tipo di durata. Per informazioni sulla modifica delle preferenze di attività e problemi come parte delle preferenze di progetto a livello di sistema o di gruppo, consulta [Configurare le preferenze di problema e attività a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* Il Workfront o un amministratore di gruppo può impostare il Tipo di durata predefinito del sistema o del gruppo come Assegnazione calcolata. In questo caso, tutte le nuove attività verranno create con questo Tipo di durata. Per informazioni sulla modifica delle preferenze di attività e problemi come parte delle preferenze di progetto a livello di sistema o di gruppo, consulta [Configurare le preferenze di problema e attività a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
   In questo caso, l&#39;attività ha una durata predefinita di un giorno e una durata predefinita di 0 ore. A meno che il project manager non imposti una durata più precisa e non popola il campo Ore pianificate con una stima realistica, le risorse appaiono sottoassegnate.
 

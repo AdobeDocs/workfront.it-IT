@@ -6,10 +6,10 @@ description: È possibile utilizzare i modelli di progetto per acquisire la magg
 author: Alina
 feature: Work Management
 exl-id: cac7662f-f2ae-44f0-a0bb-1569c03d172e
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -39,7 +39,7 @@ Di seguito sono riportati alcuni dei vantaggi dell’utilizzo di modelli per la 
    * Argomenti Coda
    * Gruppi di argomenti
    * Regole di instradamento
-   * Forms personalizzato
+   * Moduli personalizzati
    * Informazioni sulla società e sul gruppo
 
 ## Best practice per la creazione di modelli
@@ -50,7 +50,7 @@ Di seguito sono riportati alcuni dei vantaggi dell’utilizzo di modelli per la 
 
 Durante la creazione dei modelli, considera quanto segue:
 
-* Non assegnare utenti ad attività modello. Anche se è possibile non assegnare le attività, si consiglia di assegnare mansioni alle attività. Questo ti darà un&#39;idea di quali utenti potrebbero essere in grado di essere assegnati alle attività quando crei il progetto utilizzando il modello.
+* Non assegnare utenti ad attività modello. Anche se è possibile non assegnare le attività, si consiglia di assegnare mansioni alle attività. Questo ti darà un&#39;idea di quali utenti potrebbero essere in grado di essere assegnati alle attività quando crei il progetto utilizzando il modello.
 * Assegna sempre alle attività modello un valore Durata e Ore pianificate. Ogni attività del progetto deve essere associata a una durata che indica il tempo di apertura dell&#39;attività e a un valore Ora pianificata che indica il tempo effettivamente necessario per il completamento dell&#39;attività. Le attività senza queste informazioni non possono essere preventivate correttamente per le risorse quando si utilizzano strumenti di gestione delle risorse in Workfront.
 
   Per informazioni sulla durata, vedere i seguenti articoli:

@@ -7,7 +7,7 @@ description: Adobe Workfront determina lo stato di avanzamento di un’attività
 author: Alina
 feature: Work Management
 exl-id: 38e5f89e-bdfa-433c-9371-3c3003ada3a3
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -39,7 +39,7 @@ I seguenti criteri determinano lo stato di avanzamento di un&#39;attività:
  </thead> 
  <tbody> 
   <tr valign="top"> 
-   <td scope="col"> <p> </p> <p><strong>Ora di attivazione</strong> </p> </td> 
+   <td scope="col"> <p> </p> <p><strong>Ora di attivazione</strong> </p> </td> 
    <td scope="col"> <p>Un'attività viene considerata <strong>Alla data</strong> quando tutte le date pianificate corrispondono alle date previste. Questo stato di avanzamento potrebbe anche indicare che il progetto è in anticipo rispetto alla programmazione e che le date previste potrebbero essere precedenti alle date pianificate.</p> <p>Per ulteriori informazioni sulle date previste, vedere <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Panoramica sulla data di completamento prevista per progetti, attività e problemi</a>.</p> <p>Per ulteriori informazioni sulla data di completamento pianificata per l'attività, vedere i seguenti articoli:</p> 
     <ul> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Panoramica della data di inizio pianificata dell'attività</a> </p> </li> 

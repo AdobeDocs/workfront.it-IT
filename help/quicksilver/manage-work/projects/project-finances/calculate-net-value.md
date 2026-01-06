@@ -7,7 +7,7 @@ description: Il valore netto di un progetto è il valore totale previsto del pro
 author: Lisa
 feature: Work Management
 exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 1%
@@ -34,18 +34,18 @@ I campi seguenti possono influire sul valore netto di un progetto:
 * **Costo preventivato**: questo è il costo totale associato al progetto come stimato al primo avvio del progetto.
 
   Il **Costo preventivato** utilizza il valore **Costo manodopera preventivato** calcolato nell&#39;area Budget risorse del caso di business e tiene conto delle ore preventivate per le mansioni in Programmazione risorse e della tariffa Costo per ora di ciascuna mansione.\
-  Il costo preventivato influisce sul **valore netto** del progetto. Per ulteriori informazioni sul calcolo del costo preventivato, vedere [Calcolare il costo preventivato](../../../manage-work/projects/project-finances/budgeted-cost.md).
+  Il costo preventivato influisce sul **valore netto** del progetto. Per ulteriori informazioni sul calcolo del costo preventivato, vedere [Calcolare il costo preventivato](../../../manage-work/projects/project-finances/budgeted-cost.md).
 
 * **Costo rischio potenziale**: si tratta del costo associato a qualsiasi rischio nel progetto, come definito nel Business Case o nella scheda Rischi del progetto.\
   Per ulteriori informazioni sul calcolo del costo del rischio potenziale di un progetto, vedere l&#39;articolo [Calcolare il costo del rischio potenziale](../../../manage-work/projects/project-finances/potential-risk-cost.md).
 
-   
+
 
 ## Individuazione del valore netto del progetto
 
 Il valore netto di un progetto si trova nelle seguenti aree in Workfront:
 
-* Area Riepilogo del caso di business \
+* Area Riepilogo del caso di business\
   Per ulteriori informazioni sull&#39;area Riepilogo caso di business, vedere la sezione &quot;Informazioni sul riepilogo del caso di business&quot; nell&#39;articolo [Creare un caso di business per un progetto](../../../manage-work/projects/define-a-business-case/create-business-case.md) [Creare un caso di business per un progetto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
   ![Valore netto nel caso di business](assets/net-value-on-business-case-summary-highlighted-350x444.png)

@@ -5,16 +5,16 @@ description: I Forms personalizzati vengono utilizzati per raccogliere informazi
 author: Becky
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 # Allegare un modulo personalizzato a un caso di business
 
-I Forms personalizzati vengono utilizzati per raccogliere informazioni che non vengono visualizzate nei campi esistenti di Adobe Workfront. 
+I Forms personalizzati vengono utilizzati per raccogliere informazioni che non vengono visualizzate nei campi esistenti di Adobe Workfront.
 
 Per ulteriori informazioni sulla creazione di un Forms personalizzato, vedere l&#39;articolo [Creazione di un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -22,7 +22,7 @@ Per ulteriori informazioni sulla creazione di un Forms personalizzato, vedere l&
 
 <!--Audit: 06/2025-->
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -81,7 +81,7 @@ Per allegare un modulo personalizzato:
 
    ![Espandi dettagli modulo personalizzato](assets/expand-custom-form-details.png)
 
-<!--1. (Optional) Select&nbsp;**Edit Custom Form**.  
+<!--1. (Optional) Select **Edit Custom Form**.  
   ![Edit custom form](assets/acf1-350x122.png)
 
-1. (Optional) Specify information in the fields of the custom form, then click&nbsp;**Save** . -->
+1. (Optional) Specify information in the fields of the custom form, then click **Save** . -->

@@ -8,7 +8,7 @@ author: Alina
 feature: Workfront Scenario Planner
 recommendations: noDisplay, noCatalog
 exl-id: 3d942ea6-6860-4463-b610-8c120a109071
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Questa sezione contiene i seguenti articoli:
 
-* [Panoramica [!DNL Scenario Planner] &#x200B;](../scenario-planner/scenario-planner-overview.md)
+* [Panoramica [!DNL Scenario Planner] ](../scenario-planner/scenario-planner-overview.md)
 * [Introduzione a  [!DNL Scenario Planner]](../scenario-planner/get-started-with-scenario-planning.md)
 * [Accesso necessario per utilizzare  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)
 * [Panoramica dei piani in [!DNL Scenario Planner]](../scenario-planner/plans-overview.md)
@@ -40,4 +40,4 @@ Questa sezione contiene i seguenti articoli:
 * [Mostra allocazione ruoli per progetti e iniziative nell&#39;elenco attività](../scenario-planner/show-role-allocation-task-list-nwe.md)
 * [Mostra allocazione ruoli per progetti e iniziative nel [!UICONTROL Bilanciatore dei carichi di lavoro]](../scenario-planner/show-role-allocation-workload-balancer.md)
 
- 
+

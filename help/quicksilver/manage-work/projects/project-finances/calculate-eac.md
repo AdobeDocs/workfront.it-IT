@@ -7,10 +7,10 @@ description: Come metrica delle prestazioni, la stima al completamento (CES) rap
 author: Lisa
 feature: Work Management
 exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 Come metrica delle prestazioni, la stima al completamento (CES) rappresenta il costo totale previsto del progetto o dell&#39;attività al completamento.
 
-Come impostazione, ti consente di definire come deve essere calcolato il valore EAC. 
+Come impostazione, ti consente di definire come deve essere calcolato il valore EAC.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +101,7 @@ L’EAC di un progetto viene calcolato con la seguente formula:
 EAC = EAC Labor + EAC Expense 
 ```
 
-<pre>Manodopera EAC =  <em>IF</em> Manodopera IPC &lt;&gt; 0 THEN Manodopera CES = Costo manodopera pianificata / Manodopera IPC</pre><pre><em>ELSE</em> EAC  Manodopera = Costo manodopera pianificato + Costo manodopera effettivo</pre><pre>Manodopera IPC = IF Costo effettivo manodopera &lt;&gt; 0 THEN Manodopera IPC = TotalBudgetedCostWorkPerformed / Costo effettivo manodopera</pre><pre>ELSE CPI Manodopera = 1 </pre>I seguenti campi sono presi in considerazione nel calcolo della CES:
+<pre>Manodopera EAC = <em>IF</em> Manodopera CPI &lt;&gt; 0 THEN Manodopera EAC = Costo manodopera pianificata / Manodopera CPI</pre><pre><em>ELSE</em> Manodopera EAC = Costo manodopera pianificato + Costo manodopera effettivo</pre><pre>Manodopera IPC = IF Costo effettivo manodopera &lt;&gt; 0 THEN Manodopera IPC = TotalBudgetedCostWorkPerformed / Costo effettivo manodopera</pre><pre>ELSE CPI Manodopera = 1 </pre>I seguenti campi sono presi in considerazione nel calcolo della CES:
 
 * Costo preventivato totale lavoro eseguito (BCWP) = risultato della moltiplicazione del costo preventivato del lavoro pianificato (costo preventivato) e della percentuale di completamento dell&#39;attività.
 
@@ -117,7 +117,7 @@ EAC = EAC Labor + EAC Expense
 Costo preventivato totale lavoro eseguito = somma del campo Costo preventivato totale lavoro eseguito per tutte le attività figlio dirette.
 
    * **Per un progetto:**
-Costo preventivato totale lavoro eseguito = somma del campo Costo preventivato totale lavoro eseguito per tutte le attività di livello superiore (attività padre e attività autonome). 
+Costo preventivato totale lavoro eseguito = somma del campo Costo preventivato totale lavoro eseguito per tutte le attività di livello superiore (attività padre e attività autonome).
 
 * Spesa CES = risultato dell&#39;aggiunta del Costo di Spesa Effettivo Sostenuto al Costo di Spesa Pianificato Non Sostenuto. Viene calcolata con la seguente formula:
 
@@ -126,14 +126,14 @@ Costo preventivato totale lavoro eseguito = somma del campo Costo preventivato t
   ```
 
    * Costo spesa effettivo sostenuto = Somma del campo Importo pianificato per tutte le spese in cui il campo Importo effettivo è > 0. Ad esempio, se si crea una spesa per l&#39;Attività 1 e si immette $500,00 nel campo Importo pianificato e un importo > 0 nel campo Importo effettivo (ovvero $600,00), il costo delle spese pianificate sostenute per questa attività è $500,00.
-   * Spesa pianificata non sostenuta = Somma del campo Importo pianificato per tutte le spese in cui il campo Importo effettivo = 0. Ad esempio, se si creano due spese per l&#39;Attività 1 in cui per la prima spesa il valore nel campo Importo pianificato è $500,00 e il valore nel campo Importo effettivo è $600,00 e per la seconda spesa, il valore nel campo Importo pianificato è $300,00 e il valore del campo Importo effettivo è $0,00, il valore della spesa pianificata non sostenuta per questa attività è $300,00. 
+   * Spesa pianificata non sostenuta = Somma del campo Importo pianificato per tutte le spese in cui il campo Importo effettivo = 0. Ad esempio, se si creano due spese per l&#39;Attività 1 in cui per la prima spesa il valore nel campo Importo pianificato è $500,00 e il valore nel campo Importo effettivo è $600,00 e per la seconda spesa, il valore nel campo Importo pianificato è $300,00 e il valore del campo Importo effettivo è $0,00, il valore della spesa pianificata non sostenuta per questa attività è $300,00.
 
 ## Individuare l&#39;EAC in un progetto o in un&#39;attività
 
 1. Passare al progetto o all&#39;attività in cui si desidera visualizzare la CES.
 1. Espandere **Dettagli progetto** o **Dettagli attività** nel pannello a sinistra del progetto o dell&#39;attività, a seconda della posizione di visualizzazione della CES.
 
-1. Fare clic su **Finanza**. 
+1. Fare clic su **Finanza**.
 
    Il valore EAC viene visualizzato nel campo **Stima al completamento**.
 

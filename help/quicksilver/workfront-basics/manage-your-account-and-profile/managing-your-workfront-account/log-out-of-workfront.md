@@ -6,10 +6,10 @@ description: Per motivi di sicurezza, è importante disconnettersi da  [!DNL Ado
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: c6272c7631941720e3ab1e1c80ed7d304a67d34b
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 0%
+source-wordcount: '206'
+ht-degree: 7%
 
 ---
 
@@ -35,7 +35,7 @@ Per motivi di sicurezza, è importante disconnettersi regolarmente da [!DNL Adob
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,5 +60,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ## Esci dall&#39;account [!DNL Workfront]
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Logout]** ![Logout icon](assets/logout-icon.png).
+{{step1-click-main-menu}}
+
+1. Fare clic sull&#39;icona di disconnessione **[!UICONTROL Disconnetti]** ![Disconnetti](assets/logout-icon.png).
 1. Viene visualizzata nuovamente la pagina di accesso in cui è possibile immettere nuovamente nome utente e password.

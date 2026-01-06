@@ -7,7 +7,7 @@ description: Quando si aggiungono relazioni predecessori ad attività, è possib
 author: Alina
 feature: Work Management
 exl-id: 142e9637-841c-43d1-b297-e42c28a9e010
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Quando si aggiungono relazioni predecessori ad attività, è possibile che si ve
 
 ## Panoramica del loop di dipendenza
 
-I loop di dipendenza si verificano quando due o più attività dipendono l&#39;una dall&#39;altra vengono completate. Adobe Workfront non consente di creare una relazione predecessore tra attività se crea un loop di dipendenza.
+I loop di dipendenza si verificano quando due o più attività dipendono l&#39;una dall&#39;altra vengono completate. Adobe Workfront non consente di creare una relazione predecessore tra attività se crea un loop di dipendenza.
 
 **Esempio:** l&#39;attività 2 è un predecessore dell&#39;attività 1, pertanto è necessario completare l&#39;attività 2 prima di poter iniziare a lavorare sull&#39;attività 1.
 
@@ -36,4 +36,4 @@ Se si tenta di impostare l&#39;attività 1 come predecessore dell&#39;attività 
 * Un ciclo di dipendenza può anche verificarsi se si tenta di rendere un padre predecessore di un figlio.
 * Nel caso di un loop di dipendenza non è possibile salvare le attività o il progetto. Per correggere il loop di dipendenza, è necessario rivalutare la relazione predecessore tra le attività elencate nel messaggio di errore e rimuovere i conflitti prima di salvare le attività o il progetto.
 
- 
+

@@ -7,7 +7,7 @@ description: In qualità di project manager, puoi utilizzare le tariffe di fattu
 author: Lisa
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '3691'
 ht-degree: 0%
@@ -110,7 +110,7 @@ La tabella seguente mostra i tipi di ricavi associati ad attività, problemi e p
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Reddito Pianificato</td> 
+   <td role="rowheader">Entrate pianificate</td> 
    <td> <p>Per le attività, si tratta delle entrate associate alle ore pianificate delle attività. Le ore pianificate da tutte le attività vengono riportate alle ore pianificate del progetto per contribuire al calcolo delle ore pianificate del progetto. </p> <p>Per ulteriori informazioni sulle ore pianificate in Workfront, vedi <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Panoramica sulle ore pianificate</a>. </p> <ul><li><p>Workfront calcola la Retribuzione pianificata per le attività utilizzando la formula seguente:</p>
    <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code><p> <p><strong>NOTA</strong></br> La tariffa oraria di fatturazione nella formula considera qualsiasi modifica della tariffa valida per la data.</p> </li><li><p>Workfront calcola la Retribuzione pianificata per i progetti utilizzando la formula seguente:</p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code></p>
    <p><b>NOTA</b>
@@ -176,7 +176,7 @@ Per ulteriori informazioni su come specificare il tipo di retribuzione di un&#39
  <tbody> 
   <tr> 
    <td> <p>Reddito Fisso</p> </td> 
-   <td> <p>Questo tipo può essere utilizzato con progetti e attività. </p> <p>Quando si allega un modello a un progetto, i Ricavi fissi del modello vengono aggiunti ai Ricavi fissi del progetto. Per informazioni, vedere <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">Panoramica sull'associazione di un modello a un progetto</a>. </p> <p>Per le attività, indipendentemente dalle assegnazioni delle attività, i ricavi vengono sempre calcolati utilizzando l'importo fisso specificato per l'attività. </p> <p>Le attività Reddito Fisso da figli vengono aggregate ai Ricavi dell'attività padre e quindi ai ricavi del progetto. Se sull'attività padre e/o sul progetto è definito un importo fisso, tale importo viene aggiunto ai ricavi pianificati aggregati da qualsiasi attività figlio.</p> <p>L'importo dei ricavi fissi sulle attività può essere incluso in una Fatturazione del progetto.</p> </td> 
+   <td> <p>Questo tipo può essere utilizzato con progetti e attività. </p> <p>Quando si allega un modello a un progetto, i Ricavi fissi del modello vengono aggiunti ai Ricavi fissi del progetto. Per informazioni, vedere <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">Panoramica sull'associazione di un modello a un progetto</a>. </p> <p>Per le attività, indipendentemente dalle assegnazioni delle attività, i ricavi vengono sempre calcolati utilizzando l'importo fisso specificato per l'attività. </p> <p>Le attività Reddito Fisso da figli vengono aggregate ai Ricavi dell'attività padre e quindi ai ricavi del progetto. Se sull'attività padre e/o sul progetto è definito un importo fisso, tale importo viene aggiunto ai ricavi pianificati aggregati da qualsiasi attività figlio.</p> <p>L'importo dei ricavi fissi sulle attività può essere incluso in una Fatturazione del progetto.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Ore Utente</p> </td> 

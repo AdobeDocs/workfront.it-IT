@@ -6,9 +6,9 @@ description: È possibile eliminare le attività che potrebbero essere duplicate
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '782'
 ht-degree: 5%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 È possibile eliminare le attività che potrebbero essere duplicate o che sono state create per errore.
 
-Per le attività con informazioni cronologiche (aggiornamenti, modifiche alla pianificazione, stato o altri campi), è consigliabile chiuderle o contrassegnarle come non attive, anziché eliminarle. In questo modo è possibile conservare le informazioni storiche per i progetti.
+Per le attività con informazioni cronologiche (aggiornamenti, modifiche alla pianificazione, stato o altri campi), è consigliabile chiuderle o contrassegnarle come non attive, anziché eliminarle. In questo modo è possibile conservare le informazioni storiche per i progetti.
 
 ## Requisiti di accesso
 
@@ -68,7 +68,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects with access to&nbsp;Delete</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td> <p>Edit access to Tasks and Projects with access to Delete</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -89,7 +89,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 * Se l’attività ha registrato ore, l’amministratore di Workfront o di gruppo deve consentire l’eliminazione di tali attività configurando le Preferenze attività e problemi nell’istanza Workfront. Ciò si applica anche quando si tenta di eliminare progetti che dispongono di attività con ore collegate.
 
   <!--
-  (NOTE: the last statement is NWE&nbsp;only; not possible in classic)
+  (NOTE: the last statement is NWE only; not possible in classic)
   -->
 
   Per ulteriori informazioni sull&#39;abilitazione dell&#39;eliminazione delle attività in cui sono registrate le ore, vedere la sezione &quot;Eliminazione&quot; in [Configurare le preferenze relative alle attività e ai problemi a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
@@ -140,9 +140,8 @@ Considera quanto segue:
 
 ### Eliminare più attività contemporaneamente in un progetto  {#delete-multiple-tasks-in-a-project-simultaneously}
 
-1. Fai clic sull&#39;icona **del** menu principale![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront.
+{{step1-to-projects}}
 
-1. Fai clic su **Progetti**.
 1. Fare clic sul nome del progetto contenente le attività che si desidera eliminare.
 1. Fai clic su **Attività** nel pannello a sinistra.
 1. Esegui una delle operazioni seguenti:
@@ -170,9 +169,8 @@ Considera quanto segue:
 
 ### Eliminare una singola attività {#delete-a-single-task}
 
-1. Fai clic sull&#39;icona **del** menu principale![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront.
+{{step1-to-projects}}
 
-1. Fai clic su **Progetti**.
 1. Fare clic sul nome del progetto che contiene l&#39;attività che si desidera eliminare.
 1. Fai clic su **Attività** nel pannello a sinistra.
 1. Fare clic sul nome dell&#39;attività che si desidera eliminare.

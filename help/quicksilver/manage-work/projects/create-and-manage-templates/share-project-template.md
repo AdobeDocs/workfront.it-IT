@@ -6,10 +6,10 @@ description: Puoi condividere un modello con gli utenti oppure definire come i p
 author: Alina
 feature: Work Management
 exl-id: 99c6b241-a2c9-4b6c-b605-177bbbc3f21a
-source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 3%
+source-wordcount: '724'
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ Per informazioni sulle autorizzazioni che è possibile concedere agli utenti qua
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -97,7 +97,7 @@ Per condividere un modello:
 
    Oppure
 
-   Seleziona un modello dall&#39;elenco, fai clic sull&#39;icona Condividi ![](assets/share-icon.png), quindi fai clic su **Modello.**
+   Seleziona un modello dall&#39;elenco, fai clic sull&#39;icona Condividi ![Condividi modello](assets/share-icon.png), quindi fai clic su **Modello.**
 
    >[!TIP]
    >
@@ -117,7 +117,7 @@ Per condividere un modello:
 
    * **Gestione**: gli utenti con queste autorizzazioni possono modificare o eliminare il modello.
 
-     Per informazioni sulle impostazioni avanzate ![](assets/gear-icon-in-access-levels.png) disponibili qui, vedere la sezione [Impostazioni avanzate per la condivisione dei modelli](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions) nell&#39;articolo [Condividi modello](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+     Per informazioni sull&#39;icona Impostazioni avanzate ![Ingranaggio](assets/gear-icon-in-access-levels.png) disponibile qui, vedere la sezione [Impostazioni avanzate per la condivisione dei modelli](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions) nell&#39;articolo [Condividi modello](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
 1. Fai clic su **Salva**.
 
@@ -145,9 +145,9 @@ Per condividere con gli utenti i progetti futuri creati da un modello:
 1. Dal menu a discesa di ciascuna entità, selezionare una delle seguenti opzioni:
 
    * **Nessun accesso**: è possibile specificare quali utenti non avranno accesso al modello.\
-     Questa opzione è disponibile solo quando si condividono progetti in blocco da modelli. 
+     Questa opzione è disponibile solo quando si condividono progetti in blocco da modelli.
    * **Visualizza**: gli utenti con queste autorizzazioni possono visualizzare i progetti creati dal modello.
-   * **Contribuisci**: gli utenti con queste autorizzazioni possono contribuire ai progetti creati dal modello 
+   * **Contribuisci**: gli utenti con queste autorizzazioni possono contribuire ai progetti creati dal modello
    * **Gestisci**: gli utenti con queste autorizzazioni possono gestire o eliminare i progetti creati da questo modello.
 
 1. (Facoltativo) Fai clic sull&#39;icona **Opzioni** per rendere i progetti disponibili a livello di sistema.

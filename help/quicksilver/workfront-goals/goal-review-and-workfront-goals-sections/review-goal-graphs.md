@@ -6,10 +6,10 @@ description: Puoi visualizzare lo stato complessivo dei tuoi obiettivi e la loro
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 0%
+source-wordcount: '899'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ Puoi visualizzare lo stato complessivo dei tuoi obiettivi e la loro tendenza di 
 
 >[!IMPORTANT]
 >
->Puoi visualizzare il conteggio totale degli obiettivi nella sezione Grafici per un periodo di tempo selezionato. Tuttavia, nel calcolare lo stato di avanzamento complessivo dell’obiettivo e la percentuale di completamento, in Obiettivi Workfront vengono presi in considerazione solo gli obiettivi con lo stato Attivo e Chiuso.
+>Puoi visualizzare il conteggio totale degli obiettivi nella sezione Grafici per un periodo di tempo selezionato. Tuttavia, nel calcolare lo stato di avanzamento complessivo dell’obiettivo e la percentuale di completamento, in Obiettivi Workfront vengono presi in considerazione solo gli obiettivi con lo stato Attivo e Chiuso.
 
 ## Requisiti di accesso
 
@@ -31,7 +31,7 @@ Puoi visualizzare lo stato complessivo dei tuoi obiettivi e la loro tendenza di 
 >
 >Adobe Workfront Goals non è più disponibile per l’acquisto.
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto">
 <col>
@@ -157,12 +157,9 @@ Nella sezione Grafici o Obiettivi Workfront sono disponibili i seguenti grafici:
 
 ## Esaminare l’avanzamento dell’obiettivo nei grafici
 
-1. Fai clic sull&#39;icona **Menu principale** ![Icona Menu principale](assets/main-menu-icon.png) > **Obiettivi** nell&#39;angolo superiore destro.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   Verrà aperta l&#39;area Obiettivi Workfront.
+Verrà aperta l&#39;area Obiettivi Workfront.
 
 1. Fai clic su **Grafici** nel pannello a sinistra.
 
@@ -224,4 +221,4 @@ Nella sezione Grafici o Obiettivi Workfront sono disponibili i seguenti grafici:
 
    Fai clic su **Previsione** nella parte inferiore del grafico dell&#39;avanzamento per rimuovere l&#39;avanzamento previsto dal grafico.
 
- 
+

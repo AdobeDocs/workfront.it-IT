@@ -5,10 +5,10 @@ description: È possibile utilizzare il Business Case per richiedere un progetto
 author: Becky
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -85,7 +85,7 @@ Quando si richiede un progetto tramite un Business Case, tenere presente quanto 
 
 1. (Condizionale) Se hai selezionato di allegare un modello, continua ad allegarlo al progetto.
 1. Nel pannello a sinistra, fai clic su **Business Case**.
-1. (Facoltativo) Per modificare la sezione **Informazioni progetto**, fare clic su **Modifica informazioni progetto**. 
+1. (Facoltativo) Per modificare la sezione **Informazioni progetto**, fare clic su **Modifica informazioni progetto**.
 
    Per ulteriori informazioni sulla modifica dei campi della sezione **Informazioni progetto**, vedere la sezione [Informazioni progetto](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) nell&#39;articolo [Panoramica delle aree del caso di business](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
@@ -123,6 +123,6 @@ Quando si richiede un progetto tramite un Business Case, tenere presente quanto 
 
 >[!TIP]
 >
-> Dopo aver completato il Business Case, puoi esportare una copia in un file .pdf. Per ulteriori informazioni sull&#39;esportazione del Business Case in un file .pdf, vedere [Esportare il Business Case di un progetto](/help/quicksilver/manage-work/projects/define-a-business-case/export-business-case.md).
+> Dopo aver completato il Business Case, puoi esportare una copia in un file .pdf. Per ulteriori informazioni sull&#39;esportazione del Business Case in un file .pdf, vedere [Esportare il Business Case di un progetto](/help/quicksilver/manage-work/projects/define-a-business-case/export-business-case.md).
 
 

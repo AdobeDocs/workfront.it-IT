@@ -6,10 +6,10 @@ description: I vincoli dell'attività determinano quando un'attività deve inizi
 author: Alina
 feature: Work Management
 exl-id: 54b54892-f8b3-4704-8221-03bbb9f07917
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 10%
+ht-degree: 19%
 
 ---
 
@@ -19,7 +19,7 @@ I vincoli dell&#39;attività determinano quando un&#39;attività deve iniziare e
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +32,7 @@ I vincoli dell&#39;attività determinano quando un&#39;attività deve iniziare e
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td><p>Standard</p> 
-   <p>Lavoro o superiore</p> </td> 
+   <p>Work o successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -95,10 +95,10 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    | Iniziare non Dopo di | Per informazioni, vedere [Panoramica vincolo attività: inizio non più tardi di](../../../manage-work/tasks/task-constraints/start-no-later-than.md). |
    | Iniziare non Prima di | Per informazioni, vedere [Panoramica vincolo attività: Iniziare non prima di](../../../manage-work/tasks/task-constraints/start-no-earlier-than.md). |
    | Completa entro e non oltre | Per informazioni, vedere [Cenni preliminari sul vincolo attività: Fine non oltre il](../../../manage-work/tasks/task-constraints/finish-no-later-than.md). |
-   | Finire non Prima di | Per informazioni, vedere [Panoramica vincolo attività: Fine non prima di](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md). |
+   | Completa non prima di | Per informazioni, vedere [Panoramica vincolo attività: Fine non prima di](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md). |
 
    {style="table-layout:auto"}
 
 1. Fai clic su **Salva** **Modifiche**.
 
- 
+

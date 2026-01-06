@@ -7,10 +7,10 @@ description: I progetti, le attività e i problemi hanno una data di inizio effe
 author: Alina
 feature: Work Management
 exl-id: 4357b072-24f6-4f89-b624-f066f8af0722
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 0%
+source-wordcount: '525'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ I progetti, le attività e i problemi hanno una data di inizio effettiva in Adob
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -77,7 +77,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ## Considerazioni sulle date di inizio effettive in Workfront
 
-* La data di inizio effettiva si trova nella sezione Dettagli dei progetti, delle attività e dei problemi. 
+* La data di inizio effettiva si trova nella sezione Dettagli dei progetti, delle attività e dei problemi.
 * La data di inizio effettiva di un progetto, attività o problema non viene compilata al momento della creazione di questi elementi.
 * La data di inizio effettiva viene compilata quando il lavoro inizia effettivamente per il progetto, l&#39;attività o il problema.
 * La data di inizio effettiva non viene visualizzata nella scheda Dettagli progetto se il lavoro sul progetto non è ancora iniziato.
@@ -96,7 +96,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
      >[!IMPORTANT]
      >
-     >La data di inizio effettiva del progetto non viene compilata quando il progetto è contrassegnato come Corrente. Il lavoro effettivo deve iniziare dalle attività del progetto prima che venga compilata la Data di inizio effettiva del progetto.
+     >La data di inizio effettiva del progetto non viene compilata quando il progetto è contrassegnato come Corrente. Il lavoro effettivo deve iniziare dalle attività del progetto prima che venga compilata la Data di inizio effettiva del progetto.
 
      In questi casi, la data di inizio effettiva del progetto viene impostata sulla data e sull&#39;ora in cui si sono verificate queste azioni per la prima attività del progetto. Indica che il progetto è effettivamente iniziato in questa data e ora.
 
@@ -111,7 +111,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 Per individuare la data di inizio effettiva nella sezione Dettagli del progetto:
 
-1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Workfront, quindi fai clic su **Projects**.
+{{step1-to-projects}}
+
 1. Fare clic sul progetto per il quale si desidera visualizzare la data di inizio effettiva.
 1. Fai clic su **Dettagli progetto** nel pannello a sinistra, quindi vai alla sezione **Panoramica**.
 

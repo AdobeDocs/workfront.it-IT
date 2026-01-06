@@ -6,7 +6,7 @@ description: È possibile scegliere tra diversi widget per personalizzare il con
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 11%
@@ -276,7 +276,7 @@ Nell’ambiente di produzione:
       <td> <p>Visualizza le richieste 
       <ul>
       <li>Che hai inviato e che sei ancora aperto. </li> 
-      <li>Senza una data di completamento effettiva o per i quali l'oggetto di risoluzione non dispone di una data di completamento effettiva è disponibile la scheda secondaria Richieste personali aperte. </li> 
+      <li>Senza una data di completamento effettiva o per i quali l'oggetto di risoluzione non dispone di una data di completamento effettiva è disponibile la scheda secondaria Richieste personali aperte.  </li> 
       </ul>
       <p><b>NOTA</b> 
       Le richieste che non si trovano in uno stato che equivale a Chiuso vengono considerate aperte.</p> </td> 

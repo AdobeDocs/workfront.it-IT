@@ -6,10 +6,10 @@ description: Talvolta possono verificarsi conflitti tra le pianificazioni delle 
 author: Alina
 feature: Work Management
 exl-id: 6695448c-76ce-460c-aa59-63a3d5e2e18d
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
@@ -23,7 +23,7 @@ Se si aggiunge un ritardo di livellamento a un&#39;attività, la data di complet
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ Se si aggiunge un ritardo di livellamento a un&#39;attività, la data di complet
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Standard</p>
-   <p>Lavoro o superiore</p> </td> 
+   <p>Work o successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -93,7 +93,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    Selezionare una delle seguenti opzioni per le unità di tempo:
 
    * Minutes
-   * Ore. Questa è l&#39;impostazione predefinita.
+   * Ore. Questa è l&#39;impostazione predefinita.
    * Days
    * Weeks
    * Months
@@ -107,6 +107,6 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    >
    >Il tempo trascorso è un&#39;unità di tempo per la durata di un&#39;attività. Si tratta del tempo che intercorre tra la Data inizio pianificata e la Data completamento pianificata di un&#39;attività e che include ferie, fine settimana e ferie. In altre parole, il tempo trascorso è il trascorrere dei giorni di calendario.
 
-1. Fai clic su **Salva**. 
+1. Fai clic su **Salva**.
 
- 
+

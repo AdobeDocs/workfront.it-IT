@@ -6,7 +6,7 @@ description: È possibile visualizzare o modificare le informazioni finanziarie 
 author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: f01ce9bcbb795097d39e276a734300f5059e35c4
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 4%
@@ -130,12 +130,12 @@ Quando si visualizzano o si modificano informazioni nell&#39;area Finanza, tener
       <td> <p>Ricavi fatturati ai clienti o ad altre parti e registrati nelle Fatturazioni. Per ulteriori informazioni sui record di fatturazione, vedere l'articolo <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Creare record di fatturazione</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
+      <td role="rowheader"> </td> 
+      <td> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
+      <td role="rowheader"> </td> 
+      <td> </td> 
      </tr> 
     </tbody> 
    </table>

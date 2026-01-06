@@ -6,10 +6,10 @@ description: Puoi assegnare la priorità ai progetti in Portfolio Optimizer per 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 714e6e09f1429f0382c36d17d3f2aca95edcfbc6
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 0%
+source-wordcount: '491'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ Quando si utilizza [!UICONTROL Portfolio Optimizer], tenere presente quanto segu
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ Quando si utilizza [!UICONTROL Portfolio Optimizer], tenere presente quanto segu
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Accesso di [!UICONTROL Edit] ai progetti [!UICONTROL Portfolio] e </p>  </td>
+   <td> <p>Accesso di [!UICONTROL Edit] ai progetti [!UICONTROL Portfolio] e [!UICONTROL]</p>  </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
@@ -94,9 +94,8 @@ Quando si utilizza [!UICONTROL Portfolio Optimizer], tenere presente quanto segu
 
 ## Modifica la priorità dei progetti in [!UICONTROL Portfolio Optimizer]
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront.
+{{step1-to-portfolios}}
 
-1. Fai clic su **[!UICONTROL Portfolio]**.
 1. (Facoltativo) Seleziona il filtro corretto nel menu a discesa **[!UICONTROL Filtro]**, per visualizzare l&#39;elenco corretto dei portfolio.
 1. Fai clic sul nome di un portfolio per aprirlo.
 1. Fai clic su **[!UICONTROL Ottimizzazione Portfolio]** nel pannello a sinistra.

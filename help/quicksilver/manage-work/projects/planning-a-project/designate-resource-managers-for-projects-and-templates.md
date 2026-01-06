@@ -6,10 +6,10 @@ description: È possibile designare Responsabili risorse per un progetto per ind
 author: Alina
 feature: Work Management
 exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 1%
+source-wordcount: '731'
+ht-degree: 3%
 
 ---
 
@@ -39,7 +39,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -162,9 +162,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 ## Designare Responsabili risorse per un modello
 
-1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront.
-
-1. Fare clic su **Modelli**.
+{{step1-to-templates}}
 
 1. Effettua una delle seguenti operazioni:
 

@@ -7,7 +7,7 @@ description: La data di inizio pianificata di un'attività è la data in cui l'a
 author: Alina
 feature: Work Management
 exl-id: 2ac6327f-4a13-4fb8-ad8e-03d032221483
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 2%
@@ -22,18 +22,18 @@ La data di inizio pianificata di un&#39;attività è la data in cui l&#39;autore
 
 ## Data di inizio pianificata di un&#39;attività
 
-È possibile specificare la data di inizio pianificata dell&#39;attività oppure lasciare che sia Adobe Workfront a calcolarla in base a determinati criteri. 
+È possibile specificare la data di inizio pianificata dell&#39;attività oppure lasciare che sia Adobe Workfront a calcolarla in base a determinati criteri.
 
 * [Impostare manualmente la data di inizio pianificata di un&#39;attività](#manually-set-the-planned-start-date-of-a-task)
 * [Calcolo della data di inizio pianificata per un&#39;attività](#how-the-planned-start-date-is-calculated-for-a-task)
 
 ### Impostare manualmente la data di inizio pianificata di un&#39;attività {#manually-set-the-planned-start-date-of-a-task}
 
-L&#39;impostazione della data di inizio pianificata di un&#39;attività dipende dal tipo di vincolo attività assegnato all&#39;attività. 
+L&#39;impostazione della data di inizio pianificata di un&#39;attività dipende dal tipo di vincolo attività assegnato all&#39;attività.
 
 È possibile impostare manualmente la Data inizio pianificata durante la creazione di un&#39;attività. Per ulteriori informazioni, vedere [Creare attività in un progetto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-È possibile specificare manualmente la Data inizio pianificata quando si seleziona uno dei seguenti vincoli di task: 
+È possibile specificare manualmente la Data inizio pianificata quando si seleziona uno dei seguenti vincoli di task:
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -83,7 +83,7 @@ Quando viene calcolato automaticamente dal sistema, le seguenti operazioni posso
 
   Per informazioni sulla preferenza Indisponibilità utente, vedere [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) o [Modificare i progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-Quando viene impostata automaticamente, la Data inizio pianificata viene determinata in base al seguente calcolo: 
+Quando viene impostata automaticamente, la Data inizio pianificata viene determinata in base al seguente calcolo:
 
 ```
 Planned Start Date = Planned Completion Date - Task Duration
@@ -93,5 +93,5 @@ Ad esempio, se l&#39;attività ha una data di completamento del 16 settembre e u
 
 >[!NOTE]
 >
-> Per poter regolare automaticamente le ore e la durata pianificate, il Tipo di aggiornamento per il progetto deve essere impostato anche su Automatico e su In modifica o Automaticamente.\
+> Per poter regolare automaticamente le ore e la durata pianificate, il Tipo di aggiornamento per il progetto deve essere impostato anche su Automatico e su In modifica o Automaticamente.\
 >Per ulteriori informazioni sul tipo di aggiornamento, vedere [Selezionare il tipo di aggiornamento del progetto](../../../manage-work/projects/manage-projects/select-project-update-type.md).

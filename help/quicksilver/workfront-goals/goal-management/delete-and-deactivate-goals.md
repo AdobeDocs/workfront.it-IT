@@ -6,10 +6,10 @@ description: Quando inizi a lavorare su un obiettivo che diventa irrilevante nel
 author: Alina
 feature: Workfront Goals
 exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 0%
+source-wordcount: '590'
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,7 @@ Quando inizi a lavorare su un obiettivo che diventa irrilevante nell’organizza
 >
 >Adobe Workfront Goals non è più disponibile per l’acquisto.
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto">
 <col>
@@ -178,12 +178,10 @@ Deactivating goals differs depending on which environment you use.
 1. Click the **X** icon in the upper-right to close Goal Details.
 -->
 
-1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **Goals**.
+{{step1-to-goals}}
 
-   Viene visualizzato l’elenco degli obiettivi.
+Viene visualizzato l’elenco degli obiettivi.
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
 
 1. (Facoltativo) Modifica i filtri per visualizzare solo gli obiettivi attivi.
 
@@ -235,12 +233,10 @@ Deleting  goals differs depending on which environment you use.
    The goal is removed from the Goal List and cannot be recovered.
 -->
 
-1. Fai clic sull&#39;icona del menu principale ![icona del menu principale](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **Obiettivi**.
+{{step1-to-goals}}
 
-   Viene visualizzato l’elenco degli obiettivi.
+Viene visualizzato l’elenco degli obiettivi.
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
 1. Fai clic sul nome di un obiettivo. Viene visualizzata la pagina dell’obiettivo.
 1. Fai clic sul menu **Altro** ![Icona Altro](assets/more-icon.png) a destra del nome dell&#39;obiettivo, quindi fai clic su **Elimina obiettivo**, quindi su **Elimina**.
 

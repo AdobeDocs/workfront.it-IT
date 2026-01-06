@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: 1d7d094a682a02b09651023f94e81ee0b330163c
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 0%
+source-wordcount: '199'
+ht-degree: 1%
 
 ---
 
@@ -48,9 +48,7 @@ Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contatta
 
 ## Reimpostare la password di un utente in un ambiente abilitato per eAuth
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Workfront], quindi fai clic su **[!UICONTROL Users]** ![Users icon](assets/users-icon-in-main-menu.png).
-
-
+{{step-1-to-users}}
 
 1. Selezionare l&#39;**[!UICONTROL utente]** che richiede la reimpostazione della password.
    ![Seleziona l&#39;utente](assets/100520classicnweselectuser-350x105.png)

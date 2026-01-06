@@ -6,10 +6,10 @@ description: È possibile rimuovere un progetto da un portfolio e associarlo a u
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 8982097e-76ee-497a-aa7c-74c6fbd3002d
-source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,7 +86,7 @@ ht-degree: 0%
 ## Rimuovere un progetto da un portfolio
 
 1. Vai a un Portfolio e fai clic su **[!UICONTROL Progetti]** nel pannello a sinistra.
-1. Seleziona il progetto da rimuovere. 
+1. Seleziona il progetto da rimuovere.
 
    ![Pulsante Rimuovi progetti](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
 

@@ -6,7 +6,7 @@ description: Puoi sfruttare le funzionalità Agile per il tuo progetto senza le 
 author: Alina, Courtney
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 5%
@@ -84,7 +84,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
     <ul> 
      <li> <p>Projects</p> </li> 
      <li> <p>Reports, Dashboards, Calendars</p> </li> 
-     <li> <p>Filters, Views,&nbsp;Groupings</p> </li> 
+     <li> <p>Filters, Views, Groupings</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

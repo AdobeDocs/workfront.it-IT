@@ -6,10 +6,10 @@ description: È possibile chiudere un obiettivo quando si desidera indicare che 
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 0%
+source-wordcount: '860'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ Puoi riaprire gli obiettivi che sono stati chiusi quando diventano di nuovo rile
 >
 >Adobe Workfront Goals non è più disponibile per l’acquisto.
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto">
 <col>
@@ -189,12 +189,9 @@ Closing goals differs depending on what environment you use.
 1. (Optional) Modify your filters again to display only closed goals. The goals you closed display on the screen.
 -->
 
-1. Fai clic sull&#39;icona **Menu principale** ![Icona Menu principale](assets/main-menu-icon.png) > **Obiettivi** nell&#39;angolo superiore destro.
+{{step1-to-goals}}
 
-   Viene visualizzato Elenco obiettivi (Goal List).
-
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+Viene visualizzato Elenco obiettivi (Goal List).
 
 1. (Facoltativo) Modifica i filtri per visualizzare solo gli obiettivi attivi.
 
@@ -255,12 +252,9 @@ Reopening goals differs depending on what environment you use.
 
 -->
 
-1. Fai clic sull&#39;icona **Main Menu** ![Main Menu icon](assets/main-menu-icon.png)> **Goals** nell&#39;angolo superiore destro.
+{{step1-to-goals}}
 
-   Viene visualizzato Elenco obiettivi (Goal List).
-
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+Viene visualizzato Elenco obiettivi (Goal List).
 
 1. (Facoltativo) Modifica i filtri per visualizzare solo gli obiettivi chiusi.
 

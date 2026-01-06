@@ -8,10 +8,10 @@ description: Le metriche del progetto forniscono una visualizzazione di ciò che
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1161'
-ht-degree: 0%
+source-wordcount: '1206'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ Le metriche di progetto forniscono una visualizzazione generale in formato grafi
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -89,7 +89,7 @@ Per accedere all’area Metriche dal pannello a sinistra di un progetto, devi:
 
 Le metriche del progetto forniscono una visualizzazione di ciò che accade in un progetto, consentendo di valutare rapidamente le esigenze e lo stato di un progetto.
 
-![](assets/project-metrics-full-screen-350x238.png)
+![Metriche progetto](assets/project-metrics-full-screen-350x238.png)
 
 Nell’area Metriche puoi vedere lo stato complessivo di un progetto e:
 
@@ -111,7 +111,7 @@ Per ulteriori informazioni su come esaminare queste attività o questi problemi,
 
 Gli indicatori di prestazioni chiave (KPI, Key Performance Indicators) vengono visualizzati nella parte superiore dell’area Metriche.
 
-![](assets/project-metrics-kpis-350x52.png)
+![Metriche progetto](assets/project-metrics-kpis-350x52.png)
 
 Questi KPI sono suddivisi nelle seguenti categorie:
 
@@ -124,7 +124,7 @@ Questi KPI sono suddivisi nelle seguenti categorie:
 >[!TIP]
 >
 >Per visualizzare un elenco di elementi di lavoro per un indicatore KPI specifico, fare clic su di esso. Nell&#39;elenco è possibile fare clic su un elemento di lavoro specifico per visualizzare ulteriori dettagli in una nuova scheda.\
->![](assets/completed-tasks-dialog-350x75.png)\
+>![Attività completate](assets/completed-tasks-dialog-350x75.png)\
 >Per ulteriori informazioni, vedere [Visualizza dettagli metriche](#view-metrics-details).
 
 ## Grafico a barre attività o problemi
@@ -133,23 +133,23 @@ Nel grafico a barre visualizzato sotto i KPI del progetto è possibile esaminare
 
 Quando lo stato è selezionato in questo grafico, è possibile visualizzare tutti gli stati delle attività o dei problemi di un progetto. Ogni stato è raggruppato in una barra nel grafico. In questo grafico vengono visualizzati tutti gli stati di sistema predefiniti e gli stati personalizzati.
 
-![](assets/project-metrics-task-issue-by-status-350x120.png)
+![Problema attività per stato](assets/project-metrics-task-issue-by-status-350x120.png)
 
 Quando la priorità è selezionata in questo grafico, puoi visualizzare tutte le priorità delle attività o dei problemi di un progetto.
 
-![](assets/project-metrics-task-issue-by-priority-350x121.png)
+![Attività e problemi per priorità](assets/project-metrics-task-issue-by-priority-350x121.png)
 
 >[!TIP]
 >
 >Per visualizzare un elenco di elementi di lavoro con uno stato o una priorità specifica, fare clic su una barra nel grafico. Nell&#39;elenco è possibile fare clic su un elemento di lavoro specifico per visualizzare ulteriori dettagli in una nuova scheda.\
->![](assets/completed-tasks-dialog-350x75.png)\
+>![Casella attività completate](assets/completed-tasks-dialog-350x75.png)\
 >Per ulteriori informazioni, vedere [Visualizza dettagli metriche](#view-metrics-details).
 
 ## Grafico ad anello
 
 Il grafico ad anello sotto i KPI del progetto consente di esaminare il rapporto tra elementi di lavoro completati e elementi di lavoro incompleti in un progetto.
 
-![](assets/tasks-issues-by-complete-status-350x250.png)
+![Attività o problemi per stato completato](assets/tasks-issues-by-complete-status-350x250.png)
 
 Nel menu a discesa sopra il grafico, puoi selezionare:
 
@@ -160,14 +160,14 @@ Nel menu a discesa sopra il grafico, puoi selezionare:
 >[!TIP]
 >
 >Per visualizzare un elenco degli elementi di lavoro completati o incompleti, fare clic su tale sezione nel grafico ad anello. Nell&#39;elenco è possibile fare clic su un elemento di lavoro specifico per visualizzare ulteriori dettagli in una nuova scheda.\
->![](assets/completed-tasks-dialog-350x75.png)\
+>![Casella attività completate](assets/completed-tasks-dialog-350x75.png)\
 >Per ulteriori informazioni, vedere [Visualizza dettagli metriche](#view-metrics-details).
 
 ## Grafico a barre assegnatario
 
 Il grafico a barre assegnatario mostra il numero di attività assegnate a ogni persona nel progetto. Questo numero varia in base alla categoria selezionata dal menu a discesa.
 
-![](assets/tasks-issues-by-assignee-350x104.png)
+![Attività e problemi per assegnatario](assets/tasks-issues-by-assignee-350x104.png)
 
 È possibile scegliere di esaminare le assegnazioni di attività per un progetto nelle seguenti categorie:
 
@@ -180,7 +180,7 @@ Il grafico a barre assegnatario mostra il numero di attività assegnate a ogni p
 >[!TIP]
 >
 >Per visualizzare un elenco degli elementi di lavoro della categoria selezionata assegnati a un utente specifico, fare clic sulla barra accanto al nome dell&#39;utente nel grafico. Nell&#39;elenco è possibile fare clic su un elemento di lavoro specifico per visualizzare ulteriori dettagli in una nuova scheda.\
->![](assets/completed-tasks-dialog-350x75.png)\
+>![Casella attività completate](assets/completed-tasks-dialog-350x75.png)\
 >Per ulteriori informazioni, vedere [Visualizza dettagli metriche](#view-metrics-details).
 
 ## Visualizzare i dettagli delle metriche {#view-metrics-details}
@@ -190,9 +190,9 @@ Il grafico a barre assegnatario mostra il numero di attività assegnate a ogni p
 1. Vai al progetto per il quale vuoi visualizzare le metriche.
 1. Nel pannello a sinistra, fai clic su **Metriche**.\
    Per impostazione predefinita, i grafici nell’area Metriche visualizzano le informazioni relative alle attività.\
-   ![](assets/metrics-section-350x298.png)
+   ![Sezione metriche](assets/metrics-section-350x298.png)
 
-1. (Condizionale) Se in un grafico viene visualizzata una freccia a discesa, fare clic sull&#39;icona **della** freccia a discesa![](assets/dropdown-arrow.png) nel grafico e selezionare l&#39;opzione desiderata dal menu.\
+1. (Condizionale) Se in un grafico viene visualizzata una freccia a discesa, fare clic sull&#39;icona **Freccia a discesa** ![Freccia a discesa](assets/dropdown-arrow.png) nel grafico e selezionare l&#39;opzione desiderata dal menu.\
    Per informazioni sulle opzioni visualizzate nei menu di ciascun grafico, vedere la sezione corrispondente precedente.
 
 1. (Facoltativo) Per esaminare più da vicino le attività o i problemi relativi a qualsiasi metrica della pagina, effettua le seguenti operazioni:
@@ -201,7 +201,7 @@ Il grafico a barre assegnatario mostra il numero di attività assegnate a ogni p
 
       Viene visualizzato un elenco di attività o problemi.
 
-      ![](assets/completed-tasks-dialog-350x75.png)
+      ![Casella attività completate](assets/completed-tasks-dialog-350x75.png)
 
    1. Utilizza le frecce nella parte inferiore dell’elenco per individuare l’attività o il problema che desideri esaminare.
 
@@ -209,13 +209,13 @@ Il grafico a barre assegnatario mostra il numero di attività assegnate a ogni p
 
       Selezionare un numero specifico per visualizzare le attività o i problemi relativi a una pagina specifica.
 
-      ![](assets/pagination-300x152.png)
+      ![Paginazione](assets/pagination-300x152.png)
 
    1. Seleziona un’attività o un problema per visualizzare ulteriori dettagli.
 
       L’attività o il problema viene aperto in una nuova scheda.
 
-1. (Facoltativo) Per esportare il dashboard delle metriche del progetto in un file con estensione png, fai clic sull&#39;icona **Esporta** ![](assets/export.png), quindi seleziona **Esporta come PNG** dal menu a discesa.
+1. (Facoltativo) Per esportare il dashboard delle metriche del progetto in un file con estensione png, fai clic sull&#39;icona **Esporta** ![Icona Esporta](assets/export.png), quindi seleziona **Esporta come PNG** dal menu a discesa.
 
    >[!TIP]
    >
