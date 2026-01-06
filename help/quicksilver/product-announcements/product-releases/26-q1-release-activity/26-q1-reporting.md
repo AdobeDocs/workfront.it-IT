@@ -4,9 +4,9 @@ description: Miglioramenti al reporting per il primo trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bb07096ce69e7d52c9332b6f9d230440a03c5f59
+source-git-commit: ad16dfe737f33a7d1025d8cef00605595d0476c2
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -151,16 +151,6 @@ In alternativa, sono disponibili le seguenti opzioni di campo:
 * Altri gruppi: ID
 * Altri ruoli: ID
 * Altri team: ID
-
-## Visualizzazione migliorata del conteggio dei raggruppamenti nei dashboard di Canvas
-
->[!NOTE]
->
->Anteprima: 6 novembre 2025
->Versione rapida di produzione: 13 novembre 2025
->Produzione per tutti: 15 gennaio 2026
-
-Quando un report tabella include più pagine di risultati e la tabella è configurata con raggruppamenti, la tabella visualizza ora sia la quantità di record per la pagina corrente che il conteggio di record complessivo per tutte le pagine. Ad esempio, se il rapporto di tabella ha 7 raggruppamenti e la prima pagina mostra 3, la tabella visualizzerà 3 di 7.
 
 
 ## Nuove protezioni per migliorare i tempi di caricamento nei dashboard di Canvas
