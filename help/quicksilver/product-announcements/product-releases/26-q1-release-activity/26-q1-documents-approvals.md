@@ -4,9 +4,9 @@ description: Miglioramenti alla documentazione e all’approvazione per il primo
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0197be82879cbd2abfd053e4a93002884db252b4
+source-git-commit: 6b6500b0db40a959d87d97c89d85e3564445cca4
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Questa pagina descrive i miglioramenti relativi alla documentazione e all’appr
 
 Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del primo trimestre 2026, consulta [Panoramica sulla versione del primo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-## Scegli un progetto Workfront quando invii una recensione in Creative Cloud Express
+## Scegli un progetto Workfront quando invii una recensione in Adobe Express
 
 >[!NOTE]
 >
