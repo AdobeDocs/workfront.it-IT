@@ -7,9 +7,9 @@ description: Questa pagina contiene informazioni sulla struttura e sul contenuto
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 815bee06ce413005e362d2e38068d591696cad5b
+source-git-commit: c669086f5954f9e2cf850887f4100e53c0c3e716
 workflow-type: tm+mt
-source-wordcount: '8878'
+source-wordcount: '8904'
 ht-degree: 9%
 
 ---
@@ -40,16 +40,59 @@ Esistono diversi tipi di visualizzazione che è possibile utilizzare in Data Con
 
 <!-- Custom view -->
 
-## Diagramma relazioni entità
+## Diagrammi delle relazioni di entità
 
-Gli oggetti in Workfront (e, pertanto, nel data lake di Data Connect) sono definiti non solo dai singoli valori, ma anche dalle relazioni con altri oggetti. Il diagramma delle relazioni tra entità riportato di seguito fornisce una mappatura di alto livello delle relazioni tra oggetti in Data Connect. Il diagramma può essere visualizzato e scaricato utilizzando il seguente collegamento:
+Gli oggetti in Workfront (e, pertanto, nel data lake di Data Connect) sono definiti non solo dai singoli valori, ma anche dalle relazioni con altri oggetti.
 
-[Diagramma delle relazioni tra entità di Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+I diagrammi delle relazioni tra entità (ERD) riportati di seguito forniscono una mappatura di alto livello delle relazioni tra oggetti in Data Connect per gli oggetti principali di Workfront.
 
 >[!IMPORTANT]
 >
->Il diagramma di relazioni tra entità fornito è intenzionalmente incompleto in quanto un&#39;ERD completa diventerebbe illeggibile a causa dell&#39;elevato numero di relazioni all&#39;interno dell&#39;applicazione.<br>
->Questo diagramma fornisce un esempio di come le relazioni documentate nella tabella Project nella sezione [Tabella terminologica](#terminology-table) seguente possono essere utilizzate per unire i dati dalla visualizzazione dati di Project a oggetti adiacenti. Una volta compreso questo pattern per le relazioni tra gli oggetti del progetto, non è necessario un ERD completo
+>I diagrammi sono centrati su singoli oggetti e non rappresentano un diagramma di relazione entità completo per l&#39;intera applicazione Workfront. <br>
+>Questi diagrammi hanno lo scopo di fornire esempi di come le relazioni possono essere utilizzate per unire i dati a oggetti adiacenti.
+
+### Esempio di diagrammi di relazioni tra entità
+
++++ Espandere per visualizzare i diagrammi di esempio
+
+>[!TIP]
+>
+>Per visualizzare un diagramma in modo più dettagliato, fare clic con il pulsante destro del mouse sull&#39;immagine e selezionare **Apri immagine in una nuova scheda**.
+
+
+### Assegnazioni
+
+![Diagramma relazioni entità assegnazioni](assets/Assignment-centered-ERD.png)
+
+
+### Documenti e approvazioni di documenti
+
+![Diagramma relazioni entità documenti e approvazione documenti](assets/Document-and-Document-Approvals-centered-ERD.png)
+
+### Ore e schede orario
+
+![Diagramma delle relazioni tra le entità Ore e Schede orario](assets/Hours-and-Timesheet-centered-ERD.png)
+
+
+### Problemi
+
+![Diagramma relazioni entità problemi](assets/Issue-centered-ERD.png)
+
+### Progetti
+
+![Diagramma relazioni entità progetti](assets/Project-centered-ERD.png)
+
+
+### Attività
+
+![Diagramma relazioni entità attività](assets/Task-centered-ERD.png)
+
+
+### Utenti
+
+![Diagramma relazioni entità utenti](assets/User-centered-ERD.png)
+
++++
 
 ## Tipi di date
 
@@ -974,7 +1017,7 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
     </tbody>
 </table>
 
-### Fatturazione
+### Record della fatturazione
 
 <table>
     <thead>
@@ -988,10 +1031,10 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
       </thead>
       <tbody>
         <tr>
-            <td>Fatturazione</td>
-            <td>Fatturazione</td>
+            <td>Record della fatturazione</td>
+            <td>Record della fatturazione</td>
             <td>FATTURA</td>
-            <td>Fatturazione</td>
+            <td>Record della fatturazione</td>
             <td>BILLINGRECORDS_CURRENT<br>BILLINGRECORDS_DAILY_HISTORY<br>BILLINGRECORDS_EVENT</td>
         </tr>
       </tbody>
@@ -1665,15 +1708,15 @@ La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (non
 >
 >Tipo di record identificato tramite la proprietà `enumClass`. I tipi previsti sono:<br>
 ><ul><li>CONDITION_OPTASK</li>
->&gt;<li>CONDITION_PROJ</li>
->&gt;<li>CONDITION_TASK</li>
->&gt;<li>PRIORITY_OPTASK</li>
->&gt;<li>PRIORITY_PROJ</li>
->&gt;<li>TASK_PRIORITARIO</li>
->&gt;<li>GRAVITY_OPTASK</li>
->&gt;<li>STATUS_OPTASK</li>
->&gt;<li>STATUS_PROJ</li>
->&gt;<li>TASK_STATO</li></ul>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>TASK_PRIORITARIO</li>
+&gt;<li>GRAVITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>TASK_STATO</li></ul>
 
 
 ### Documento
@@ -2824,7 +2867,7 @@ Disponibilità limitata dei clienti
     </tbody>
 </table>
 
-### Hour
+### Ora
 
 <table>
     <thead>
@@ -2838,10 +2881,10 @@ Disponibilità limitata dei clienti
       </thead>
       <tbody>
         <tr>
-            <td>Hour</td>
-            <td>Hour</td>
+            <td>Ora</td>
+            <td>Ora</td>
             <td>HOUR</td>
-            <td>Hour</td>
+            <td>Ora</td>
             <td>HOURS_CURRENT<br>HOURS_DAILY_HISTORY<br>HOURS_EVENT</td>
         </tr>
       </tbody>
@@ -3561,7 +3604,7 @@ Autonomo</td>
             <td>Categoria risorsa non manodopera</td>
             <td>Categoria risorsa non manodopera</td>
             <td>NLBRCY</td>
-            <td>Categoria risorse non manodopera</td>
+            <td>Categoria risorse non di manodopera</td>
             <td>NLBRCATEGORIES_CURRENT<br>NLBRCATEGORIES_DAILY_HISTORY<br>NLBRCATEGORIES_EVENT</td>
         </tr>
       </tbody>
@@ -4501,9 +4544,9 @@ Autonomo</td>
       <tbody>
         <tr>
             <td>Scheda Portale</td>
-            <td>Dashboard di</td>
+            <td>Dashboard</td>
             <td>PTLTAB</td>
-            <td>Dashboard di</td>
+            <td>Dashboard</td>
             <td>PORTALTABS_CURRENT<br>PORTALTABS_DAILY_HISTORY<br>PORTALTABS_EVENT</td>
         </tr>
       </tbody>
@@ -5133,7 +5176,7 @@ Autonomo</td>
             <td>Utente team progetto</td>
             <td>Utente team progetto</td>
             <td>PRTU</td>
-            <td>Utente Progetto</td>
+            <td>Utente progetto</td>
             <td>PROJECTSUSERS_CURRENT<br>PROJECTSUSERS_DAILY_HISTORY<br>PROJECTSUSERS_EVENT</td>
         </tr>
       </tbody>
@@ -5840,7 +5883,7 @@ Autonomo</td>
     </tbody>
 </table>
 
-### Tipo Rischio
+### Tipo di rischio
 
 <table>
     <thead>
@@ -5854,10 +5897,10 @@ Autonomo</td>
       </thead>
       <tbody>
         <tr>
-            <td>Tipo Rischio</td>
-            <td>Tipo Rischio</td>
+            <td>Tipo di rischio</td>
+            <td>Tipo di rischio</td>
             <td>RSKTYP</td>
-            <td>Tipo Rischio</td>
+            <td>Tipo di rischio</td>
             <td>RISKTYPES_CURRENT<br>RISKTYPES_DAILY_HISTORY<br>RISKTYPES_EVENT</td>
         </tr>
       </tbody>
@@ -5901,9 +5944,9 @@ Autonomo</td>
       <tbody>
         <tr>
             <td>Ruolo</td>
-            <td>Ruolo</td>
+            <td>Mansione</td>
             <td>RUOLO</td>
-            <td>Ruolo</td>
+            <td>Mansione</td>
             <td>ROLES_CURRENT<br>ROLES_DAILY_HISTORY<br>ROLES_EVENT</td>
         </tr>
       </tbody>
