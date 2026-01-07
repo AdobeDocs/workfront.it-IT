@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 5%
@@ -181,7 +181,7 @@ Di seguito sono riportati i livelli di autorizzazione per i record:
 
 |        | Gestione | Contribuisci | Visualizzazione |
 |--------|--------|------------|-------|
-| Creare | ✓ | ✓ |       |
+| Crea | ✓ | ✓ |       |
 | Elimina | ✓ | ✓ |       |
 | Modifica | ✓ | ✓ |       |
 | Visualizzazione | ✓ | ✓ | ✓ |
@@ -194,7 +194,7 @@ Le autorizzazioni seguenti fanno riferimento ai campi stessi e non ai valori ass
 
 |        | Gestione | Contribuisci | Visualizzazione |
 |--------|--------|------------|-------|
-| Creare | ✓ |            |       |
+| Crea | ✓ |            |       |
 | Elimina | ✓ |            |       |
 | Modifica | ✓ |            |       |
 | Visualizzazione | ✓ | ✓ | ✓ |
@@ -239,7 +239,7 @@ Di seguito sono riportati i livelli di autorizzazione per le visualizzazioni e g
 | Delete | ✓      |       |                            
 | Share  | ✓       |       |                           
 | View   | ✓      | ✓     |                         
-| Apply  | ✓      | ✓     |  
+| Apply  | ✓      | ✓     |
 
 
 |        | Manage (Only invited people can access) | View (Only invited people can access)  |Everyone in the workspace can view*|

@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 8cbaa087be44ffd8142bd864e3fb47ffef992372
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '13645'
+source-wordcount: '13638'
 ht-degree: 2%
 
 ---
@@ -130,7 +130,7 @@ ht-degree: 2%
          * [23.3 Altri miglioramenti](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
          * [Aggiornamenti look and feel durante il periodo di rilascio della versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * Versione 23.2 {#release-23-2}
-         * [Panoramica sulla versione di 23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
+         * Panoramica sulla versione di [23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 Miglioramenti per gli amministratori](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
          * [23.2 Miglioramenti di Agile](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
          * [23.2 Miglioramenti alla gestione dei progetti](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
@@ -1437,7 +1437,6 @@ ht-degree: 2%
          * [Modificare le assegnazioni utente per più problemi in un elenco](manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
          * [Aggiorna automaticamente gli stati dei problemi da In attesa di feedback a In corso](manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)
    * Diagramma di Gantt {#the-gantt-chart}
-      * Diagramma di Gantt {#the-gantt-chart}
       * [Diagramma di Gantt](manage-work/gantt-chart/the-gantt-chart.md)
       * Panoramica del diagramma di Gantt {#gantt-chart-overview}
          * [Panoramica del diagramma di Gantt](manage-work/gantt-chart/use-the-gantt-chart/gantt-chart-overview.md)
@@ -2192,7 +2191,6 @@ ht-degree: 2%
    * [Integrazioni Adobe Workfront](workfront-integrations-and-apps/workfront-integrations.md)
    * [Panoramica delle integrazioni integrate di Adobe Workfront](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
    * [Metodi di integrazione di Adobe Workfront](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
-   * Integrazioni di revisione e approvazione {#review-approval-integrations}
    * Adobe Workfront per Creative Cloud {#workfront-for-creative-cloud}
       * [Adobe Workfront per Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
       * Installare il plug-in Adobe Workfront per applicazioni Creative Cloud {#install-wf-cc}
@@ -2531,9 +2529,9 @@ ht-degree: 2%
       * [Configurare e utilizzare le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso JWT](wf-api/api/oauth-app-jwt-flow.md)
       * [Configura e utilizza le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso PKCE](wf-api/api/oauth-app-pkce-flow.md)
       * [Obsolescenza di API-Internal](wf-api/api/deprecation-api-internal.md)
-      * [Novità della versione 21 dell&#39;API](/help/quicksilver/wf-api/api/new-api-version-21.md)
+      * [Novità della versione 21](/help/quicksilver/wf-api/api/new-api-version-21.md) dell&#39;API
       * [Novità dell&#39;API versione 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [Novità della versione 19 dell&#39;API](wf-api/api/new-api-version-19.md)
+      * [Novità della versione 19](wf-api/api/new-api-version-19.md) dell&#39;API
       * [Novità della versione 18 dell’API](wf-api/api/new-api-version-18.md)
       * [Novità della versione 17 dell’API](wf-api/api/new-api-version-17.md)
       * [Novità della versione 16 dell’API](wf-api/api/new-api-version-16.md)

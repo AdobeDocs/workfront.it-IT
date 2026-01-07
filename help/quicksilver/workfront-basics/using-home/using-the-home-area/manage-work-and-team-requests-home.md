@@ -6,10 +6,10 @@ description: Quando le attività e i problemi vengono assegnati all'utente, veng
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 0%
+source-wordcount: '790'
+ht-degree: 2%
 
 ---
 
@@ -18,11 +18,9 @@ ht-degree: 0%
 
 Quando le attività e i problemi vengono assegnati all&#39;utente, vengono elencati nei widget Il mio lavoro, Le mie attività e I miei problemi.  È possibile visualizzare, lavorare o rimuovere elementi di lavoro e richieste.
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +36,7 @@ Quando le attività e i problemi vengono assegnati all&#39;utente, vengono elenc
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza</strong></td> 
    <td>
    <p>Standard</p>
-    <p>Lavoro o superiore</p> </td> 
+    <p>Work o successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurazioni del livello di accesso</strong></td> 
@@ -61,7 +59,7 @@ Gli elementi di lavoro assegnati vengono visualizzati nel widget Il mio lavoro i
 
 Puoi selezionare filtri che visualizzano elementi pronti per l’uso oppure elementi su cui stai già lavorando.
 
-In questo articolo viene descritto come utilizzare i filtri nell&#39;area [!UICONTROL Home] per visualizzare gli elementi su cui si sta lavorando o che si potrebbe considerare di iniziare a lavorare. Per informazioni su come utilizzare i filtri nell&#39;area [!UICONTROL Home], vedere [Visualizzare gli elementi nell&#39;elenco di lavoro [!UICONTROL 4&rbrace; nell&#39;area &#x200B;]Home.](/help/quicksilver/workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
+In questo articolo viene descritto come utilizzare i filtri nell&#39;area [!UICONTROL Home] per visualizzare gli elementi su cui si sta lavorando o che si potrebbe considerare di iniziare a lavorare. Per informazioni su come utilizzare i filtri nell&#39;area [!UICONTROL Home], vedere [Visualizzare gli elementi nell&#39;elenco di lavoro [!UICONTROL 4} nell&#39;area ]Home.](/help/quicksilver/workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
 
 Per visualizzare un elemento di lavoro nel widget Il mio lavoro:
 

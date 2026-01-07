@@ -4,9 +4,9 @@ description: Le estensioni dell’interfaccia utente di Workfront, basate su Ado
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: 1c2422f61e3db6fbe05cd03b9fbc1f17e906ebad
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '2285'
+source-wordcount: '2269'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,6 @@ Ulteriori istruzioni sono disponibili nel [sito Adobe Developer](https://develop
 >Accertati di aver selezionato l’organizzazione IMS corretta per tutti i passaggi seguenti. Se appartieni a più organizzazioni, puoi selezionare quella sbagliata. Assicurati di agire nell’organizzazione corretta, che in genere è elencata nell’angolo in alto a destra.
 
 1. Passa a Produzione: https://adminconsole.adobe.com/
-
 1. Nella sezione **Utenti**, fai clic su **Sviluppatori** > **Aggiungi sviluppatori**.
 
    ![aggiungi utenti in admin console](assets/manage-users-admin-console.png)
@@ -63,8 +62,8 @@ Ulteriori istruzioni sono disponibili nel [sito Adobe Developer](https://develop
    >Se non trovi un’opzione per la gestione degli sviluppatori, non disponi di un prodotto che consenta l’accesso agli sviluppatori.
 
 1. Aggiungi l’e-mail dell’utente. Deve eseguire ricerche negli utenti esistenti che sono già stati aggiunti dall’interno di Admin Console.
+1. Aggiungi i prodotti necessari al profilo sviluppatore e fai clic su **Salva**.
 
-1. Aggiungi i prodotti necessari al profilo sviluppatore e fai clic su **Salva**.\
    ![aggiungi sviluppatori](assets/add-developer.png)
 
 ### Accedere ad App Builder
@@ -80,9 +79,7 @@ Per creare l’estensione dell’interfaccia utente, devi utilizzare Adobe Devel
 Ulteriori istruzioni sono disponibili nel [sito Adobe Developer](https://developer.adobe.com/uix/docs/guides/creating-project-in-dev-console/).
 
 1. Accedi a Adobe Developer Console con il tuo Adobe ID.
-
 1. Scegli il tuo account e il tuo profilo o organizzazione.
-
 1. Fare clic su **Crea progetto da modello** nell&#39;area Guida rapida oppure fare clic su **Crea nuovo progetto > Progetto da modello**.
 
    >[!IMPORTANT]
@@ -92,11 +89,8 @@ Ulteriori istruzioni sono disponibili nel [sito Adobe Developer](https://develop
    ![Crea da modello](assets/create-from-template.png)
 
 1. Seleziona **App Builder**.
-
 1. Immetti un **Titolo progetto** e un **Nome app**. Entrambi hanno valori predefiniti, ma è più facile identificare il progetto desiderato in un secondo momento se si personalizza il valore.
-
 1. Lascia selezionata **Includi runtime**.
-
 1. Fai clic su **Salva**.
 
 ## Utilizzare Adobe Developer (aio) CLI
@@ -157,37 +151,37 @@ Per consentire applicazioni personalizzate nel menu principale di Workfront:
 
 1. Vai a ExtensionRegistration.js.
 
-Nella funzione ExtensionRegistration dovrebbe essere visualizzato il seguente codice. Questo codice è stato creato automaticamente dal modello. Questo codice può essere aggiunto per creare altre voci di menu. Assicurati di sostituire ID e URL.
+   Nella funzione ExtensionRegistration dovrebbe essere visualizzato il seguente codice. Questo codice è stato creato automaticamente dal modello. Questo codice può essere aggiunto per creare altre voci di menu. Assicurati di sostituire ID e URL.
 
-    &quot;
-    mainMenu: &lbrace;
-    
-    getItems() &lbrace;
-    
-    return &lbrack;
-    
-    &lbrace;
-    
-    id: &#39;main-menu-label&#39;,
-    
-    url: &#39;/index.html#/main-menu-label&#39;,
-    
-    label: &#39;Main-menu-label&#39;,
-    
-    icon: icon1,
-    
-    &rbrace;,
-    
-    &rbrack;;
-    
-    &rbrace;,
-    
-    &rbrace;
-    &quot;
+   ```
+   mainMenu: { 
+   
+           getItems() { 
+   
+               return [ 
+   
+               { 
+   
+                   id: 'main-menu-label', 
+   
+                   url: '/index.html#/main-menu-label', 
+   
+                   label: 'Main menu label', 
+   
+                   icon: icon1, 
+   
+               }, 
+   
+               ]; 
+   
+           }, 
+   
+           } 
+   ```
 
 1. Aggiungi il seguente frammento di codice:
 
-   ![frammento di codice &#x200B;](assets/7-extension-registration-step1-from-sam.png)
+   ![frammento di codice ](assets/7-extension-registration-step1-from-sam.png)
 
    Questo esempio mostra una voce del menu principale. È necessario aggiornare ID, etichetta, icona e URL ai nomi corretti per l&#39;applicazione. Quando aggiungi più elementi, accertati che l’ID sia univoco.
 

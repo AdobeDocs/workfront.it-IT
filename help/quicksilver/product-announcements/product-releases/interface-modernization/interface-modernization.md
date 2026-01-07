@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 1ef57b73a77d0c622b3dbd57057c51d0ccbad7db
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '9457'
+source-wordcount: '9443'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ I seguenti oggetti dispongono ora di una finestra di dialogo aggiornata quando s
 * Tipo di spesa
 * Profili gruppo/scheda orario
 * Tipo di ora
-* Tipo Rischio
+* Tipo di rischio
 * Pianificazione
 * Profilo scheda orario
 
@@ -1472,12 +1472,12 @@ Questo aggiornamento include modifiche visive agli elenchi e alle barre degli st
 * Azienda
 * Tipo di spesa
 * Gruppo
-* Tipo di Ora
+* Tipo di ora
 * Voce diario
 * Risorsa non manodopera (disponibile solo per clienti specifici)
 * Categoria risorsa non manodopera (disponibile solo per clienti specifici)
 * Argomento coda
-* Tipo Rischio
+* Tipo di rischio
 * Profilo scheda orario
 * Delega utente
 
@@ -1563,9 +1563,13 @@ Questi aggiornamenti includono modifiche visive all’area. Nessuna funzionalit�
 
 +++
 
-### Aggiornamenti e commenti
+<!--
+### Updates and Comments
 
-+++Espandi per visualizzare gli aggiornamenti dell’interfaccia Aggiornamenti e commenti effettuati nel secondo trimestre
++++Expand to view Updates and Comments interface updates made in Q2
+
++++
+-->
 
 ### Aggiornamento dell’interfaccia per le opzioni del menu Altro relative ai commenti
 
