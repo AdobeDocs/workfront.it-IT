@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 2e75f6aaba089a91a2306ad06a0f0d79a7524f75
+source-git-commit: 387a84c4bf511424a0c15bd65748987c1611cee5
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -67,13 +67,13 @@ L&#39;indicatore KPI ore pianificate nella schermata Assegnazioni avanzate non �
 
 Il campo **Data tasso di cambio** nell&#39;area Dettagli progetto > Contabilità è ora nascosto quando la casella di controllo **Usa tassi di cambio validi per la data dal sistema** non è selezionata. In precedenza, durante la modifica di un progetto, il campo data veniva visualizzato nei dettagli del progetto anche quando i tassi di cambio validi per la data non erano abilitati.
 
-<!--### Maintenance Updates week of January 4-10, 2026
+### Aggiornamenti di manutenzione della settimana dal 4 al 10 gennaio 2026
 
-**Title**
+**I tassi di ruolo ora consentono intervalli nelle date di validità**
 
-text
+Le date di validità sui tassi di ruolo ora consentono i gap, anche se non sono consentite date sovrapposte. Durante un intervallo, altre aree della gerarchia delle tariffe di fatturazione vengono utilizzate per determinare la tariffa di fatturazione, in base al tipo di ricavi di un&#39;attività.
 
-### Maintenance Updates week of January 11-17, 2026
+<!--### Maintenance Updates week of January 11-17, 2026
 
 **Title**
 
