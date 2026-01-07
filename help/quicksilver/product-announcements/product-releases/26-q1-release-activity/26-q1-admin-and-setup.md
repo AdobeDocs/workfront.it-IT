@@ -4,9 +4,9 @@ description: Miglioramenti per gli amministratori del primo trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e9e7b76dc8e4b9d1cc91987d0ea63b5e2ee58224
+source-git-commit: a49c8f2ad345f0ea8cdfd38ad79c6c0a5f636e95
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -73,8 +73,6 @@ Per garantire maggiore coerenza con altre aree del programma di installazione, a
 
 Per ulteriori informazioni, vedere [Creare e gestire modelli di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-
-
 ## Gestione dei campi migliorata con il flag Attivo sui campi personalizzati
 
 >[!NOTE]
@@ -89,6 +87,10 @@ Se un campo viene contrassegnato come inattivo:
 
 * È escluso da rapporti, filtri, viste o altre posizioni in Workfront in cui puoi aggiungere un campo personalizzato
 * Non è disponibile nella libreria dei campi da aggiungere ad altri moduli personalizzati
+
+>[!NOTE]
+>
+>L’esclusione da rapporti, filtri, viste e raggruppamenti avviene dopo che il campo è diventato inattivo. Gli elementi del rapporto esistenti che utilizzano il campo non vengono modificati o rimossi quando il campo è contrassegnato come inattivo.
 
 Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
