@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
+source-git-commit: f2c3abc4e47e004faf7ce2a5e7a3bf4edfdaa566
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 1%
+source-wordcount: '400'
+ht-degree: 5%
 
 ---
 
@@ -25,13 +25,17 @@ Puoi aggiungere un nuovo campo personalizzato o widget direttamente dall’area 
 
 <span class="preview">Se si imposta un campo personalizzato come inattivo, questo non sarà più disponibile nei report, nei filtri e nelle visualizzazioni e il campo non sarà più disponibile nella raccolta campi moduli personalizzati. Tutti i nuovi campi sono impostati su Attivo per impostazione predefinita. </span>
 
+>[!NOTE]
+>
+>L’esclusione da rapporti, filtri, viste e raggruppamenti avviene dopo che il campo è diventato inattivo. Gli elementi del rapporto esistenti che utilizzano il campo non vengono modificati o rimossi quando il campo è contrassegnato come inattivo.
+
 Se si rimuove un campo personalizzato da un modulo personalizzato, tale campo esiste ancora in tutti gli altri moduli a cui è stato aggiunto ed è possibile modificarlo in un modulo o nell&#39;area Campi. Per informazioni sull&#39;eliminazione di un campo, vedere [Eliminare un campo personalizzato o un widget dal sistema](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
 
 Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
