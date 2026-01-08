@@ -5,10 +5,10 @@ title: Creare e gestire le viste nell’area Richieste
 description: Se utilizzi la nuova esperienza di richiesta, puoi creare e salvare viste per l’area Richieste.
 author: Becky
 feature: Work Management
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 2%
+source-wordcount: '706'
+ht-degree: 3%
 
 ---
 
@@ -18,11 +18,12 @@ ht-degree: 2%
 
 Se utilizzi la nuova esperienza di richiesta, puoi creare e salvare viste per l’area Richieste. Queste visualizzazioni includono filtri e disposizioni per le colonne.
 
-Le visualizzazioni possono essere create e gestite nell’area Richieste di Workfront e nel widget Richieste personali nella Home. Le impostazioni di visualizzazione vengono mantenute tra l&#39;area Richieste e il widget.
+Le visualizzazioni possono essere create e gestite nell’area Richieste di Workfront.
 
 >[!IMPORTANT]
 >
->Questa funzionalità è disponibile solo nella nuova esperienza di richiesta.
+>* Questa funzionalità è disponibile solo nella nuova esperienza di richiesta.
+>* Le impostazioni di visualizzazione non sono disponibili nel widget Richieste personali nella Home.
 
 ## Requisiti di accesso
 
@@ -61,21 +62,13 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Creare una vista nell’area Richieste
 
-È possibile creare una visualizzazione nell&#39;area Richieste di Workfront o nel widget Richieste personali della Home.
+Puoi creare una vista nell’area Richieste di Workfront,.
 
 1. Per accedere all’elenco Richieste:
 
    {{step1-to-requests}}
 
-1. Per accedere al widget Richieste personali nella Home:
-
-   {{step1-to-home}}
-
-   1. Individuare il widget Richieste personali.
-
-      Per ulteriori informazioni sul widget Richieste personali, vedere [Utilizzare il widget Richieste personali](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
-
-1. Nell&#39;elenco Richieste o nel widget Richieste personali, fare clic sul menu a discesa **Visualizzazioni** ![Visualizzazioni](assets/view-icon-requests.png) e selezionare **Nuova visualizzazione**.
+1. Nell&#39;elenco Richieste fare clic sul menu a discesa **Visualizzazioni** ![Visualizzazioni](assets/view-icon-requests.png) e selezionare **Nuova visualizzazione**.
 
    ![Nuova visualizzazione](assets/create-new-view.png)
 
@@ -89,16 +82,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. Per accedere all’elenco Richieste:
 
    {{step1-to-requests}}
-
-1. Per accedere al widget Richieste personali nella Home:
-
-   {{step1-to-home}}
-
-   1. Individuare il widget Richieste personali.
-
-      Per ulteriori informazioni sul widget Richieste personali, vedere [Utilizzare il widget Richieste personali](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
-
-1. Nell&#39;elenco Richieste o nel widget Richieste personali individuare la visualizzazione che si desidera modificare.
+1. Nell&#39;elenco Richieste individuare la visualizzazione da modificare.
 
 1. (Facoltativo) Per rinominare una visualizzazione, fai clic sul menu a discesa **Visualizzazioni** ![Visualizzazioni](assets/view-icon-requests.png) e fai clic sul menu a tre punti accanto alla visualizzazione, seleziona **Rinomina**, quindi digita il nuovo nome per la visualizzazione.
 1. Fai clic sul menu a discesa **Viste** ![Viste](assets/view-icon-requests.png) e seleziona la vista da modificare.
@@ -156,15 +140,7 @@ Puoi condividere le viste create con altri utenti, team o gruppi.
 
    {{step1-to-requests}}
 
-1. Per accedere al widget Richieste personali nella Home:
-
-   {{step1-to-home}}
-
-   1. Individuare il widget Richieste personali.
-
-      Per ulteriori informazioni sul widget Richieste personali, vedere [Utilizzare il widget Richieste personali](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
-
-1. Nell&#39;elenco Richieste o nel widget Richieste personali individuare la visualizzazione che si desidera condividere.
+1. Nell&#39;elenco Richieste individuare la visualizzazione da condividere.
 1. Passa il puntatore del mouse sulla vista da condividere, quindi fai clic sul menu a tre punti quando viene visualizzato.
 1. Seleziona **Condividi**.
 1. Nella finestra di dialogo visualizzata, immetti i nomi degli utenti, dei team o dei gruppi con cui desideri condividere la visualizzazione, quindi selezionali dall’elenco quando vengono visualizzati.

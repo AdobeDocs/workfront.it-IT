@@ -4,9 +4,9 @@ description: Miglioramenti richieste primo trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
+source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -59,8 +59,6 @@ For more information on creating views for the Request list and My Requests widg
 >Produzione per tutti: 15 gennaio 2026
 
 Per essere certi di visualizzare le informazioni necessarie, è stata aggiunta la possibilità di condividere le visualizzazioni nella nuova esperienza di richiesta. Ora puoi condividere le visualizzazioni con altri utenti, team o gruppi.
-
-Puoi condividere le viste dell’elenco delle richieste sia dall’area Richieste in Workfront che dal widget Richieste personali nella Home. La funzionalità di condivisione è identica in entrambe le posizioni e le impostazioni di visualizzazione, inclusa la condivisione, vengono mantenute quando si passa dal widget Richieste personali all&#39;area Richieste.
 
 Per informazioni sulle visualizzazioni delle richieste, inclusa la condivisione, vedere [Creare e gestire visualizzazioni nell&#39;area Richieste](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 
