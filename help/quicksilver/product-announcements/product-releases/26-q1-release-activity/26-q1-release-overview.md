@@ -4,9 +4,9 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2ac2e0421bdd59e4de0e3a02ce7c798d09b55c68
+source-git-commit: 8d177d1081590f6a6733f29e0d615828394394c7
 workflow-type: tm+mt
-source-wordcount: '2940'
+source-wordcount: '2886'
 ht-degree: 4%
 
 ---
@@ -117,16 +117,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Rilascio rapido</strong></td>
         <td><strong>Ogni trimestre</strong></td>
         </tr>
-       <tr>
+       <!--<tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Configurare i brand per il revisore di IA in Workfront<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
-            <p>Ora è possibile impostare i brand per il revisore AI nell’area Configurazione di Workfront. Questo consente di personalizzare il processo di revisione dell’intelligenza artificiale in base alle linee guida di branding della tua organizzazione.</p>
-            <p>Il revisore di IA è attualmente in versione beta.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Set up brands for the AI reviewer in Workfront<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
+            <p>You can now set up brands for the AI reviewer in the Workfront Setup area. This allows you to customize the AI review process based on your organization's branding guidelines.</p>
+            <p>The AI reviewer is currently in beta.</p>
         </td>
-        <td>venerdì 8 gennaio 2026</td>
-        <td>venerdì 8 gennaio 2026</td>
-        <td>venerdì 8 gennaio 2026</td>
-    </tr> 
+        <td>January 8, 2026</td>
+        <td>January 8, 2026</td>
+        <td>January 8, 2026</td>
+    </tr> -->
     </tr>
        <tr>
         <td>
@@ -597,12 +597,12 @@ Per offrire integrazioni più stabili e scalabili, stiamo passando a un approcci
 * Workfront per Salesforce.
 
 È consigliabile utilizzare l&#39;automazione e l&#39;integrazione di Workfront per le esigenze di integrazione dell&#39;organizzazione con Google Workspace.
-Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Aggiornamenti dei corsi di formazione
 
