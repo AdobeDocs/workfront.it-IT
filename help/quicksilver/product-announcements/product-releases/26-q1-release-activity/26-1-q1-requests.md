@@ -4,9 +4,9 @@ description: Miglioramenti richieste primo trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
+source-git-commit: ab0721e11415f4c41b8020a2678c3a483f108cb3
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 >Produzione per tutti: 15 gennaio 2026
 
 Per facilitare l&#39;accesso all&#39;oggetto creato da una richiesta specifica, sono stati aggiunti collegamenti alla colonna Oggetto creato. Ora puoi fare clic sul collegamento in questa colonna per passare direttamente alla pagina dell&#39;oggetto creato.
+
+Questo collegamento è disponibile solo quando la richiesta stessa ha creato un oggetto. Se una richiesta viene convertita in un progetto o in un altro oggetto, un collegamento a tale oggetto convertito non è disponibile nell’elenco delle richieste nella nuova esperienza richiedente.
 
 In precedenza, questa colonna conteneva solo il nome dell’oggetto e non il relativo collegamento.
 
