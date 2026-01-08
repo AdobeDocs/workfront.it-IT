@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: 4fdfa1107034a48e149a5414475fbc0d7ce97564
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '698'
 ht-degree: 6%
 
 ---
@@ -78,6 +78,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
      >
      >Per impostazione predefinita, l&#39;icona Home nel menu principale visualizza l&#39;area My Updates (I miei aggiornamenti) per gli utenti con licenza Revisione (nel piano di licenza corrente), a meno che non abbiano un modello di layout associato al loro profilo che include l&#39;area My Updates (I miei aggiornamenti) nel menu principale, oltre all&#39;area Home.
 
+
+   * <span class="preview">Priorità</span>
    * Portfolio
    * Programmi
    * Progetti
@@ -85,7 +87,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    * Dashboard
    * Calendari
    * Gestione risorse
-   * Situazioni che potrebbero verificarsi con
+   * Scenari
 
      >[!NOTE]
      >

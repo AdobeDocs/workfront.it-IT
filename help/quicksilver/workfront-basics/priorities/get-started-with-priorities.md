@@ -6,14 +6,16 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: 4e3c2e50bb3dc1c49939a4c2064e6d89d20e4c24
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 2%
+source-wordcount: '1017'
+ht-degree: 3%
 
 ---
 
 # Introduzione a [!DNL Priorities]
+
+{{preview-fast-release-general}}
 
 Priorities è un’esperienza semplice e intuitiva, personalizzata per i titolari delle attività. Le priorità verranno implementate in fasi, a partire dall’elenco di lavoro.
 
@@ -24,6 +26,8 @@ Con Priorities, puoi godere
 * Funzioni personalizzate: usufruisci di funzionalità progettate in modo univoco per i proprietari delle attività
 
 Nell&#39;elenco di lavoro e nel calendario Priorità vengono visualizzati gli elementi di lavoro assegnati all&#39;utente. Non è possibile visualizzare gli elementi di lavoro assegnati al team.
+
+<span class="preview">Un amministratore Workfront può abilitare le priorità per l&#39;utente nel modello di layout. Per ulteriori informazioni, vedere [Personalizzare il menu principale utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).</span>
 
 ## Trovare e organizzare il lavoro
 
@@ -202,7 +206,8 @@ Per ulteriori informazioni, consulta [Recuperare il lavoro in Priorità](/help/q
 
 Puoi visualizzare gli aggiornamenti in tempo reale nella pagina Dettagli di un’attività o di un problema. Puoi anche verificare se altri utenti visualizzano la pagina contemporaneamente a te con gli indicatori di presenza in tempo reale.
 
-## Considerazioni
 
-* Al momento gli amministratori di Workfront non possono personalizzare le priorità tramite il modello di layout.
-* L’accesso alle attività in Priorità è suddiviso tra schede. In futuro è prevista l’aggiunta di ulteriori schede, ad esempio Documenti, Sottoattività, Approvazioni e così via. Comunicaci che hai bisogno di questi elementi inviando un feedback utilizzando il pulsante **Invia feedback**.
+<!--
+## Considerations
+
+* Accessing tasks in Priorities is across tabs. We plan to add additional tabs, like Documents, Subtasks, Approvals, etc, in the future. Let us know you need these items by submitting feedback using the **Give Feedback** button.-->
