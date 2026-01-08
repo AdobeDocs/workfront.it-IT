@@ -4,9 +4,9 @@ description: Miglioramenti per gli amministratori del primo trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a49c8f2ad345f0ea8cdfd38ad79c6c0a5f636e95
+source-git-commit: 5a1af10b7e3e59eb203c0507aeea15db5689e24b
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,11 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 >[!NOTE]
 >
+>Questa funzione non è al momento disponibile nell’ambiente di anteprima
 >Anteprima: 2 dicembre 2025
 >Versione rapida di produzione: 14 gennaio 2026
 >Produzione per tutti: 15 gennaio 2026
+
 
 È ora possibile abilitare o disabilitare Priorità per utenti specifici nel modello di layout. Se in precedenza Priorità era disabilitata per la tua organizzazione, con questa modifica questa resterà disabilitata nel modello di layout.
 
