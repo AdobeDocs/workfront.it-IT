@@ -4,9 +4,9 @@ description: Miglioramenti per gli amministratori del primo trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5a1af10b7e3e59eb203c0507aeea15db5689e24b
+source-git-commit: a524dd5519f450543e486d83bff6134a15f548d7
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -92,9 +92,9 @@ Se un campo viene contrassegnato come inattivo:
 
 >[!NOTE]
 >
->L’esclusione da rapporti, filtri, viste e raggruppamenti avviene dopo che il campo è diventato inattivo. Gli elementi del rapporto esistenti che utilizzano il campo non vengono modificati o rimossi quando il campo è contrassegnato come inattivo.
+>Se si contrassegna un campo esistente come inattivo, non sarà più possibile utilizzarlo negli elementi di reporting e nei moduli personalizzati. Se il campo inattivo è attualmente utilizzato in un report o in un modulo, il campo e i relativi dati storici rimangono attivi.
 
-Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Per ulteriori informazioni, vedere [Aggiungere o modificare un campo personalizzato, un&#39;interruzione di sezione o un widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md).
 
 
 

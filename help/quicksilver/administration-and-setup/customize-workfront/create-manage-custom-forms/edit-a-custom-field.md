@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: f2c3abc4e47e004faf7ce2a5e7a3bf4edfdaa566
+source-git-commit: 2f7b5c9d3a934708f3128ed9e4efa76b12619913
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 5%
+source-wordcount: '409'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ Puoi aggiungere un nuovo campo personalizzato o widget direttamente dall’area 
 
 >[!NOTE]
 >
->L’esclusione da rapporti, filtri, viste e raggruppamenti avviene dopo che il campo è diventato inattivo. Gli elementi del rapporto esistenti che utilizzano il campo non vengono modificati o rimossi quando il campo è contrassegnato come inattivo.
+>Se si contrassegna un campo esistente come inattivo, non sarà più possibile utilizzarlo negli elementi di reporting e nei moduli personalizzati. Se il campo inattivo è attualmente utilizzato in un report o in un modulo, il campo e i relativi dati storici rimangono attivi.
 
 Se si rimuove un campo personalizzato da un modulo personalizzato, tale campo esiste ancora in tutti gli altri moduli a cui è stato aggiunto ed è possibile modificarlo in un modulo o nell&#39;area Campi. Per informazioni sull&#39;eliminazione di un campo, vedere [Eliminare un campo personalizzato o un widget dal sistema](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
 
