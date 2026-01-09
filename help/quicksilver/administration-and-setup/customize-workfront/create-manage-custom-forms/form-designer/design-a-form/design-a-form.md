@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: f23414b3c4810e47fa084d303e640a289de1f98d
 workflow-type: tm+mt
-source-wordcount: '6899'
+source-wordcount: '6941'
 ht-degree: 5%
 
 ---
@@ -105,6 +105,10 @@ I moduli personalizzati sono limitati a 500 campi. Un contatore in basso a sinis
    >
    >
    >Esempi di moduli complessi includono moduli con parametri a catena, campi di dati personalizzati calcolati e opzioni con più valori in un singolo campo.
+
+   >[!NOTE]
+   >
+   >Se si contrassegna un campo esistente come inattivo, non sarà più possibile utilizzarlo negli elementi di reporting e nei moduli personalizzati. Se il campo inattivo è attualmente utilizzato in un report o in un modulo, il campo e i relativi dati storici rimangono attivi.
 
 1. Per salvare le modifiche, fai clic su **Applica** e passa a un&#39;altra sezione per continuare a creare il modulo.
 
@@ -462,7 +466,7 @@ Per aggiungere pulsanti di scelta, gruppi di caselle di controllo e menu a disce
 * **Automatico**: consente agli utenti di digitare il nome di un oggetto esistente in Workfront. Quando l’utente inizia a digitare, viene visualizzato un elenco di suggerimenti. Questo tipo di campo supporta i seguenti oggetti:
    * Utente
    * Gruppo
-   * Ruolo
+   * Mansione
    * Portfolio
    * Programma
    * Progetto
@@ -651,12 +655,12 @@ Per aggiungere una ricerca esterna:
       <td role="rowheader">Percorso JSON</td>
       <td><p>Digita o incolla il percorso JSON per l’API.</p> <p>Questa opzione consente di estrarre i dati dal JSON restituito dall’URL API. Serve come modo per selezionare quali valori dall’interno del JSON appariranno nelle opzioni a discesa.</p><p>Ad esempio, se l'URL API restituisce JSON nel seguente formato, puoi utilizzare "$.data[*].name" per selezionare Stati Uniti e Canada come opzioni a discesa:</br>
       <pre>
-      &lbrace;
-       dati: &lbrace;
+      {
+       dati: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Per ulteriori informazioni sul percorso JSON e sulla verifica della scrittura del percorso JSON corretto, fare riferimento a <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
