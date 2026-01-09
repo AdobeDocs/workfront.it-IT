@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
+source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1646'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,23 @@ In Adobe Workfront Planning è possibile abilitare le funzionalità tra aree di 
 
 >[!IMPORTANT]
 >
->Sono stati migliorati i requisiti dei pacchetti Workfront per poter abilitare le funzionalità tra aree di lavoro diverse per i tipi di record presenti nel sistema. Per informazioni, vedere [Panoramica dell&#39;accesso ad Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+>Per abilitare le funzionalità tra aree di lavoro diverse per i tipi di record, la tua organizzazione deve acquistare i seguenti pacchetti:
+>
+>* Per configurare i tipi di record collegabili:
+>
+>   * Qualsiasi pacchetto Workfront e qualsiasi pacchetto Planning
+>
+>     Oppure
+>
+>   * Qualsiasi flusso di lavoro e un pacchetto Planning Prime o Ultimate
+>* <span class="preview">Per configurare i tipi di record globali:</span>
+>  * <span class="preview">Qualsiasi pacchetto Workfront e un pacchetto Planning Plus</span>
+>     
+>    Oppure
+>
+>  * <span class="preview">Qualsiasi flusso di lavoro e un pacchetto Planning Prime o Ultimate</span>
+>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront.
+>Per informazioni, vedere [Panoramica dell&#39;accesso ad Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
 
 Di seguito sono riportate le funzionalità dei tipi di record in più aree di lavoro:
@@ -45,7 +61,7 @@ I tipi di record globali possono essere aggiunti a più aree di lavoro da un&#39
 
 Quando si implementa Workfront Planning per un’organizzazione con più team e flussi di lavoro comuni, potrebbe essere necessario definire una struttura coesa e i metadati per i tipi di record chiave (come Campagne o Deliverable) che possono essere aggiunti alle aree di lavoro di ciascun team per acquisire e gestire il proprio lavoro.
 
-Inoltre, potrebbe essere necessario il lavoro di ogni team per raggiungere un livello centrale.
+Potresti anche aver bisogno del lavoro di ogni team per raggiungere un livello centrale.
 
 In un flusso di lavoro di questo tipo, puoi fare in modo che i team acquisiscano il proprio lavoro in modo coerente sbloccando la visibilità tra i team, senza dover aggiungere tutto a un’area di lavoro o tutti gli utenti dell’organizzazione a ogni area di lavoro. A tale scopo, è possibile utilizzare i tipi di record globali.
 

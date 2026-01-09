@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
 workflow-type: tm+mt
-source-wordcount: '1650'
+source-wordcount: '1654'
 ht-degree: 1%
 
 ---
@@ -62,7 +62,7 @@ Per informazioni, vedere uno degli articoli seguenti:
 <ul> 
 <li><p>Qualsiasi pacchetto Workfront e qualsiasi pacchetto Planning</p></li>
 Oppure
-<li><p>Qualsiasi flusso di lavoro e qualsiasi pianificazione</p></li></ul>
+<li>Qualsiasi flusso di lavoro e un pacchetto Planning Prime o Ultimate</p></li></ul>
 
 <div class="preview">
 <p>Per configurare i tipi di record globali:</p>

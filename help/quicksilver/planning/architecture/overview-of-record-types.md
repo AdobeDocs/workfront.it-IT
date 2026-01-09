@@ -6,15 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
 
 
 # Panoramica sui tipi di record
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -47,6 +51,7 @@ Per informazioni sulla creazione di tipi di record, vedere [Creare tipi di recor
 * Quando si crea un tipo di record, solo l&#39;utente e coloro ai quali sono state assegnate le autorizzazioni di accesso all&#39;area di lavoro possono visualizzare il tipo di record.
 * È necessario creare un&#39;area di lavoro prima di poter creare i tipi di record per l&#39;area di lavoro.
 * Per informazioni sui limiti relativi al numero di tipi di record che è possibile avere in un&#39;istanza dell&#39;area di lavoro o di Workfront, vedere [Panoramica sui limiti degli oggetti di Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
+* <span class="preview">È possibile impostare i tipi di record come globali. I tipi di record globali possono essere aggiunti come tipi di record esistenti ad altre aree di lavoro. Per ulteriori informazioni, consulta [ConfConfigurare le funzionalità tra aree di lavoro diverse per la tipologia di record](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).</span>
 
 
 <!--

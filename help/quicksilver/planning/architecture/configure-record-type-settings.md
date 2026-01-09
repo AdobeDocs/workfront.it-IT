@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '483'
 ht-degree: 3%
 
 ---
@@ -53,8 +53,18 @@ A seconda delle funzionalità che si desidera definire per un tipo di record, è
    <td> 
 <p>Qualsiasi pacchetto Workfront e Planning</p>
 <p>Qualsiasi pacchetto di Workflow e Planning</p>
-<div class="preview">
+
 <p><b>NOTA</b></p>
+
+<p>Per configurare i tipi di record collegabili:</p>
+
+<ul> 
+<li><p>Qualsiasi pacchetto Workfront e Planning</p></li>
+Oppure
+<li><p>Qualsiasi pacchetto Workflow e un pacchetto Planning Prime o Ultimate</p></li></ul>
+
+<div class="preview">
+
 <p>Per configurare i tipi di record globali:</p>
 
 <ul> 
