@@ -4,9 +4,9 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8d177d1081590f6a6733f29e0d615828394394c7
+source-git-commit: d3f58a1d25b353b45e68e4910a4340052a49c4d4
 workflow-type: tm+mt
-source-wordcount: '2886'
+source-wordcount: '2885'
 ht-degree: 4%
 
 ---
@@ -379,7 +379,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Sono ora disponibili collegamenti a oggetti creati nell'area Richieste e widget Richieste personali</a>
-            <p>Per facilitare l'accesso all'oggetto creato da una richiesta specifica, sono stati aggiunti collegamenti alla colonna Oggetto creato. Ora puoi fare clic sul collegamento in questa colonna per passare direttamente alla pagina dell'oggetto creato./p&gt;
+            <p>Per facilitare l'accesso all'oggetto creato da una richiesta specifica, sono stati aggiunti collegamenti alla colonna Oggetto creato. Ora puoi fare clic sul collegamento in questa colonna per passare direttamente alla pagina dell'oggetto creato.</p>
         </td>
         <td>venerdì 18 dicembre 2025</td>
         <td>giovedì 14 gennaio 2026</td>
@@ -424,7 +424,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Condividere le visualizzazioni nell'area Richieste e nel widget Richieste personali</a>
-            <p>Per garantire più facilmente la visualizzazione delle informazioni necessarie, è stata aggiunta la possibilità di condividere le visualizzazioni con la nuova esperienza di reporting. Ora puoi condividere le visualizzazioni con altri utenti, team o gruppi. </p>
+            <p>Per essere certi di visualizzare le informazioni necessarie, è stata aggiunta la possibilità di condividere le visualizzazioni nella nuova esperienza di richiesta. Ora puoi condividere le visualizzazioni con altri utenti, team o gruppi. </p>
         </td>
         <td>venerdì 4 dicembre 2025</td>
         <td>giovedì 14 gennaio 2026</td>
@@ -597,12 +597,12 @@ Per offrire integrazioni più stabili e scalabili, stiamo passando a un approcci
 * Workfront per Salesforce.
 
 È consigliabile utilizzare l&#39;automazione e l&#39;integrazione di Workfront per le esigenze di integrazione dell&#39;organizzazione con Google Workspace.
-Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del primo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Aggiornamenti dei corsi di formazione
 
