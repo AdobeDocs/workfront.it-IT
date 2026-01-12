@@ -4,9 +4,9 @@ description: Miglioramenti richieste primo trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ab0721e11415f4c41b8020a2678c3a483f108cb3
+source-git-commit: 3fe7e6f530e15ebdb4a658de89b77c1bf39671fe
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '906'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 
 Per facilitare l&#39;accesso all&#39;oggetto creato da una richiesta specifica, sono stati aggiunti collegamenti alla colonna Oggetto creato. Ora puoi fare clic sul collegamento in questa colonna per passare direttamente alla pagina dell&#39;oggetto creato.
 
-Questo collegamento è disponibile solo quando la richiesta stessa ha creato un oggetto. Se una richiesta viene convertita in un progetto o in un altro oggetto, un collegamento a tale oggetto convertito non è disponibile nell’elenco delle richieste nella nuova esperienza richiedente.
+Questo collegamento è disponibile solo per le richieste Planning, nei casi in cui la richiesta stessa ha creato un oggetto. Se una richiesta Workfront viene convertita in un progetto o in un altro oggetto, nell’elenco delle richieste nella nuova esperienza richiedente non è disponibile un collegamento a tale oggetto convertito.
 
 In precedenza, questa colonna conteneva solo il nome dell’oggetto e non il relativo collegamento.
 

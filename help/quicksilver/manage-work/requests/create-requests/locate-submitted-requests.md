@@ -8,10 +8,10 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: b0060470156728a7ad98838378a7d963e2b5fd01
+source-git-commit: 3fe7e6f530e15ebdb4a658de89b77c1bf39671fe
 workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 3%
+source-wordcount: '1512'
+ht-degree: 2%
 
 ---
 
@@ -83,7 +83,7 @@ La visualizzazione delle richieste inviate varia a seconda che si utilizzi un’
 
 ### Visualizzare le richieste inviate nella nuova esperienza di richiesta
 
-È possibile visualizzare le richieste inviate nell&#39;area Richieste, <span class="preview">che include collegamenti a oggetti creati da tali richieste.</span>
+È possibile visualizzare le richieste inviate nell&#39;area Richieste, <span class="preview">che include collegamenti a oggetti creati da richieste Planning.</span>
 
 Per visualizzare le richieste inviate da te o da altri utenti nella nuova esperienza di richiesta:
 
@@ -113,11 +113,15 @@ L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi
 1. (Facoltativo) Controlla lo stato di una richiesta controllando la colonna Stato. Nella nuova esperienza di richiesta sono disponibili i seguenti stati:
 
    * Bozza: questa richiesta non è ancora stata inviata.
-   * Revisione in sospeso
-   * In revisione
-   * Rifiutato
-   * In corso
-   * Completato
+   * Revisione in sospeso: (solo Planning) questa richiesta contiene approvatori e nessuno degli approvatori ha aperto la richiesta.
+   * In revisione: (solo Planning) questa richiesta contiene approvatori e almeno un approvatore ha aperto la richiesta, ma non è stata presa alcuna decisione.
+   * Rifiutata: (solo Planning) questa richiesta contiene approvatori ed è stata rifiutata.
+   * In corso:
+      * Flusso di lavoro Workfront: la richiesta è stata convertita e i lavori sono in corso.
+      * Workfront Planning: il completamento della richiesta è mappato a un campo Planning specifico e il valore del campo non corrisponde ancora al valore di completamento.
+
+        Per ulteriori informazioni, vedere [Configurare i dettagli della configurazione](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) nell&#39;articolo Creare e gestire un modulo di richiesta in Adobe Workfront Planning.
+   * Completo: la richiesta è stata completata.
 
 >[!NOTE]
 >
