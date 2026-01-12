@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: caf889d6-08a3-4186-9d9c-3cea3a0e4548
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: 2e8801d08e3cf14f08435389c128068e2d38caba
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,7 @@ Per ulteriori informazioni sull&#39;aggiunta di logica a un modulo personalizzat
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -80,7 +80,11 @@ Continuando con l’esempio di SLA, puoi aggiungere un campo data convalidato in
 Espressione di convalida:
 
 ```
-IF({DE:DV - Date - Dropdown SLA}<ADDDAYS($$TODAY,{DE:DV - Dropdown - Control Dates}),CONCAT("Earliest: ",ADDDAYS($$TODAY,{DE:DV - Dropdown - Control Dates})))
+IF(
+    DATEDIFF({DE:DV - Date - Dropdown SLA}, 
+        ADDDAYS($$TODAY,{DE:DV - Dropdown - Control Dates})) < 0, 
+    CONCAT("Earliest: ", 
+        ADDDAYS($$TODAY,{DE:DV - Dropdown - Control Dates})))
 ```
 
 Se l’utente seleziona una data precedente alla data consentita, il messaggio mostra la prima data selezionabile:
