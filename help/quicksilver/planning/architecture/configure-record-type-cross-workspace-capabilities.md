@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1677'
 ht-degree: 1%
 
 ---
@@ -212,9 +212,10 @@ Per configurare un tipo di record come globale:
 
    Il tipo di record aggiunto da un tipo di record globale nell&#39;area di lavoro secondaria visualizza anche un&#39;icona **tipo di record globale** ![icona tipo di record globale](assets/global-icon.png).
 1. (Facoltativo) Tornare all&#39;area di lavoro originale in cui è stato creato il tipo di record globale e modificare il tipo di record seguendo i passaggi da 1 a 4 sopra <!--ensure this stays accurate-->
-1. (Facoltativo) Esaminare l&#39;elenco delle aree di lavoro in cui il record globale è stato aggiunto nelle **aree di lavoro in cui viene utilizzato questo tipo di record, sezione**. Accanto al nome dell’area di lavoro viene elencato anche il relativo proprietario.
+1. (Facoltativo) Rivedi l&#39;elenco delle aree di lavoro in cui il record globale è stato aggiunto nella sezione **Aree di lavoro in cui viene utilizzato questo tipo di record**. Accanto al nome dell’area di lavoro viene elencato anche il relativo proprietario.
 
    ![Aree di lavoro in cui viene utilizzato questo tipo di record](assets/workspaces-where-this-record-type-is-used.png)
+1. (Facoltativo) Fare clic sul nome di una delle aree di lavoro elencate nella sezione **Aree di lavoro in cui viene utilizzato questo tipo di record** per aprire l&#39;area di lavoro.
 
 </div>
 

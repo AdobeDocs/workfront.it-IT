@@ -1,5 +1,5 @@
 ---
-title: Panoramica del programma di prova per Adobe Workfront Planning
+title: Introduzione alla versione di prova gratuita di Adobe Workfront Planning
 description: Adobe Workfront offre attualmente una prova gratuita di 60 giorni di pianificazione Adobe Workfront. Questa prova rappresenta un'opportunità per vedere come Planning collega una strategia di grandi dimensioni al lavoro quotidiano che la rende possibile. Planning offre visibilità centralizzata nel ciclo di vita del marketing, consentendo una migliore collaborazione tra i team, il tracciamento in tempo reale delle campagne e flussi di lavoro automatizzati. Puoi creare aree di lavoro personalizzate e visualizzare il lavoro con timeline e calendari interattivi. Con questa versione di prova, puoi vedere in prima persona in che modo Planning consente di allineare il lavoro giornaliero agli obiettivi strategici, semplificarne l’esecuzione e ottenere risultati misurabili per la tua organizzazione.
 author: Alina
 feature: Workfront Planning
@@ -7,7 +7,7 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 0964ad24535bf43a23c740cd63abcf8fea705b8d
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Lo studio è disponibile tra le seguenti date: 1 marzo - 1 maggio 2026.
 
 >[!NOTE]
 >
->La versione di valutazione di Workfront Planning non è disponibile per i clienti Workfront Planning correnti. La versione di prova offre ai clienti Workfront che non sono clienti Planning l&#39;opportunità di sperimentare Workfront Planning e di vedere in che modo può collegare una strategia d&#39;insieme al lavoro quotidiano che lo rende possibile.
+>La versione di valutazione di Workfront Planning non è disponibile per i clienti Workfront Planning correnti. La versione di prova è un&#39;opportunità per i clienti Workfront <!-- is it Workfront or Adobe, or anyone--> che non sono clienti Planning di sperimentare Workfront Planning e di vedere come è possibile collegare la strategia generale con il lavoro quotidiano che lo rende possibile.
 
 
 Planning offre visibilità centralizzata nel ciclo di vita del marketing, consentendo una migliore collaborazione tra i team, il tracciamento in tempo reale delle campagne e flussi di lavoro automatizzati. Puoi creare aree di lavoro personalizzate e visualizzare il lavoro con timeline e calendari interattivi.

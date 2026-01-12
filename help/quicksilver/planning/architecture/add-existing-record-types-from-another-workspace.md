@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 1%
@@ -127,7 +127,7 @@ And
    >
    >Se non sono presenti tipi di record configurati per l&#39;aggiunta ad altre aree di lavoro nel sistema, l&#39;opzione **Aggiungi esistente** non viene visualizzata.
 
-1. Fai clic su **Continua**.
+1. Fai clic su **Continue** (Continua).
 1. Nella casella **Scegli il tipo di record**, fai clic sulla scheda del tipo di record che desideri aggiungere da un&#39;area di lavoro esistente, quindi fai clic su **Aggiungi**.
 
    Il tipo di record viene aggiunto all&#39;area di lavoro secondaria selezionata e l&#39;icona **del tipo di record globale**![](assets/global-icon.png) viene visualizzata nella scheda del tipo di record.
@@ -138,7 +138,7 @@ And
 
       * Tutti i campi originali
       * Tutte le connessioni record
-   * È possibile visualizzare i record aggiunti da altre aree di lavoro che utilizzano lo stesso tipo di record globale solo se si dispone almeno delle autorizzazioni di visualizzazione per tali aree di lavoro.
+   * È possibile visualizzare i record aggiunti da altre aree di lavoro che utilizzano lo stesso tipo di record globale solo se si dispone almeno delle autorizzazioni di visualizzazione per tali aree di lavoro. <!--replace this bullet by this with Jan 15 release: You can view records added from the original workspace of the global record type only when you have at least View permissions to that workspace.-->
    * Il campo **Workspace** di sola lettura è stato aggiunto alla nuova visualizzazione della tabella del tipo di record. Nel campo viene visualizzata l&#39;area di lavoro in cui è stato creato ogni record.
 
      >[!NOTE]

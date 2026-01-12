@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
-source-wordcount: '3143'
+source-wordcount: '3165'
 ht-degree: 0%
 
 ---
@@ -146,16 +146,26 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 </tbody> 
 </table> -->
 
+## Considerazioni durante la creazione di record
+
+<!--
+* Depending which workspace they are added from, records added to global record types are visible by the following types of users:
+
+    * Records added to the original workspace of a global record type are visible from the original workspace and all secondary workspaces where the record type is added. (***************check with Lilit on this one*************)
+    * Records added to a secondary workspace of a global record type are visible only from the workspace they were created and the original workspace of the global record type. 
+    For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). -->
+
+* A seconda delle autorizzazioni di cui dispongono per l&#39;area di lavoro e i tipi di record, gli utenti possono creare i record nei modi seguenti:
+
+   * Gli utenti con autorizzazioni di visualizzazione per l&#39;area di lavoro e il tipo di record possono creare record solo utilizzando il pulsante Richiedi record nella pagina Tipo di record.
+   * Gli utenti con le autorizzazioni Contribute e Manage per l&#39;area di lavoro e il tipo di record possono creare record utilizzando il pulsante Nuovo record nella pagina del tipo di record.
+
+  >[!IMPORTANT]
+  >
+  >Un manager dell&#39;area di lavoro deve creare un modulo di richiesta per il tipo di record affinché gli utenti con autorizzazioni di visualizzazione possano aggiungere record utilizzando un modulo di richiesta. In caso contrario, gli utenti con autorizzazioni di visualizzazione non potranno creare record.
+
+
 ## Creare record utilizzando il pulsante Nuovo record o Richiedi record da qualsiasi visualizzazione del tipo di record
-
-Gli utenti con autorizzazioni di visualizzazione per l&#39;area di lavoro e il tipo di record possono creare record solo utilizzando il pulsante Richiedi record nella pagina Tipo di record.
-
-Gli utenti con le autorizzazioni Contribute e Manage per l&#39;area di lavoro e il tipo di record possono creare record utilizzando il pulsante Nuovo record nella pagina del tipo di record.
-
-
->[!IMPORTANT]
->
->Un manager dell&#39;area di lavoro deve creare un modulo di richiesta per il tipo di record affinché gli utenti con autorizzazioni di visualizzazione possano aggiungere record utilizzando un modulo di richiesta. In caso contrario, gli utenti con autorizzazioni di visualizzazione non potranno creare record.
 
 {{step1-to-planning}}
 
