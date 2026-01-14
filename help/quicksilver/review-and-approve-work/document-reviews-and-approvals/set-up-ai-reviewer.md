@@ -2,15 +2,15 @@
 product-area: documents
 navigation-topic: approvals
 title: Crea revisori AI
-description: Dopo aver configurato almeno un marchio in GenStudio Foundation, puoi creare più revisori AI che puoi quindi assegnare ai modelli di approvazione e alle singole richieste di revisione e approvazione.
+description: Dopo aver configurato almeno un marchio in Workfront, puoi creare più revisori AI che puoi quindi assegnare ai modelli di approvazione e alle singole richieste di revisione e approvazione.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
-source-git-commit: 7572dd64a7f23d6f8dcae374a327d67f2d6738c5
+source-git-commit: de5f5d709ace99b7794ff2eaeb4ee7849cff8182
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 3%
+source-wordcount: '246'
+ht-degree: 9%
 
 ---
 
@@ -20,15 +20,12 @@ ht-degree: 3%
 >
 >Questa funzione è attualmente in versione beta.
 
-Dopo aver configurato almeno un marchio in GenStudio Foundation, puoi creare più revisori AI che puoi quindi assegnare ai modelli di approvazione e alle singole richieste di revisione e approvazione.
+Dopo aver configurato almeno un marchio in Workfront, puoi creare più revisori AI che puoi quindi assegnare ai modelli di approvazione e alle singole richieste di revisione e approvazione.
 
->[!NOTE]
->
->Il revisore di IA non è progettato per essere un decision-maker nel flusso di lavoro di revisione e approvazione. Fornisce solo un punteggio e consigli per allineare la risorsa ai requisiti del brand specificati.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,11 +52,15 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Prerequisiti
 
-Prima di iniziare, è necessario impostare le linee guida per il marchio immagine in GenStudio Foundation.
-
-Per ulteriori informazioni sulle linee guida per il brand di immagini, consulta [Introduzione ad Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Prima di iniziare, è necessario impostare le linee guida per il marchio immagine in Workfront. Per ulteriori informazioni, consulta [Configurare i brand per il revisore di IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 ## Aggiungere un revisore di IA
+
+>[!NOTE]
+>
+>Il revisore di IA non è progettato per essere un decision-maker nel flusso di lavoro di revisione e approvazione. Fornisce solo un punteggio e consigli per allineare la risorsa ai requisiti del brand specificati.
+
+Per aggiungere un revisore di IA:
 
 {{step-1-to-setup}}
 
@@ -72,7 +73,7 @@ Per ulteriori informazioni sulle linee guida per il brand di immagini, consulta 
 
    Una volta creato il revisore IA, gli utenti possono aggiungere il revisore AI modelli di approvazione o alle singole approvazioni.
 
-   Per ulteriori informazioni, vedi  
+   Per ulteriori informazioni, consulta  
 
    * [Creare un modello di approvazione per risorse e documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
    * [Creare una richiesta di revisione o approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
