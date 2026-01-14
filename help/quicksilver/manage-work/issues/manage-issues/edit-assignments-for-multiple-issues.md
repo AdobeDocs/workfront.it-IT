@@ -6,10 +6,10 @@ description: Modificare le assegnazioni utente per più problemi in un elenco
 author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 8f7249e08268a8cb784d4c0ecc8c534542fa80cf
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 1%
+source-wordcount: '523'
+ht-degree: 4%
 
 ---
 
@@ -41,7 +41,7 @@ Per informazioni generali sull&#39;assegnazione dei problemi, vedere [Panoramica
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,7 +53,7 @@ Per informazioni generali sull&#39;assegnazione dei problemi, vedere [Panoramica
   </tr> 
   <tr> 
    <td>Licenza Adobe Workfront</td> 
-   <td> <p>Standard</p>
+   <td> <p>Collaboratore o versione successiva</p>
    <p>Richiedi o superiore</p> </td> 
   </tr> 
   <tr> 

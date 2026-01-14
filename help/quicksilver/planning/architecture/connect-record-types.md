@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
-source-wordcount: '2853'
+source-wordcount: '2877'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ Dopo aver creato i campi di connessione, è possibile collegare singoli record t
 
 >[!NOTE]
 >
-><span class="preview">È possibile avere fino a 30 campi di connessione per un tipo di record.</span>
+>È possibile avere fino a 30 campi di connessione per un tipo di record.
 
 Questo articolo descrive come collegare due tipi di record di Workfront Planning o un tipo di record di Workfront Planning a un oggetto di un&#39;altra applicazione.
 
@@ -89,7 +89,7 @@ Per un esempio di connessione di tipi di record e record, vedere [Esempio di con
    <ul><li><p>Una licenza Adobe Experience Manager Assets e un’integrazione tra AEM Assets e Workfront per collegare le risorse AEM ai tipi di record Planning.</p>
    <p>Per informazioni, consulta <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p></li>
    <li><p> Una licenza Adobe GenStudio for Performance Marketing per collegare i tipi di record ai marchi GenStudio</p>
-   <p>Per informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/get-started">Introduzione ad Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Per informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introduzione ad Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -204,7 +204,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
      >[!TIP]
      >
-     >L&#39;impostazione **Consenti connessione a questo tipo di record in altre aree di lavoro** deve essere abilitata per un tipo di record nella scheda **Impostazioni avanzate** <span class="preview">o **Impostazioni area di lavoro incrociata**</span> della casella **Modifica tipo di record**, affinché un tipo di record sia accessibile da altre aree di lavoro. Se non sono presenti tipi di record configurati per la connessione da altre aree di lavoro, la sezione area di lavoro non viene visualizzata.
+     >L&#39;impostazione **Consenti la connessione a questo tipo di record in altre aree di lavoro** deve essere abilitata per un tipo di record nella scheda **Impostazioni avanzate** o **Impostazioni interworkspace** della casella **Modifica tipo di record**, affinché un tipo di record sia accessibile da altre aree di lavoro. Se non sono presenti tipi di record configurati per la connessione da altre aree di lavoro, la sezione area di lavoro non viene visualizzata.
      >
      >Per informazioni, vedere [Configurare le funzionalità tra aree di lavoro diverse per i tipi di record](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). <!--update screen shot at production-->
      >
@@ -252,9 +252,9 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
    >[!TIP]
    >
-   >* Oltre a <span class="preview">il limite di 30 campi di connessione per un tipo di record</span>, esiste un limite di 500 campi per un tipo di record. Per evitare di raggiungere questo limite, è consigliabile mantenere questa impostazione disattivata, in particolare per i tipi di record tassonomici.
+   >* Oltre al limite di 30 campi di connessione per un tipo di record, esiste un limite di 500 campi per un tipo di record. Per evitare di raggiungere questo limite, è consigliabile mantenere questa impostazione disattivata, in particolare per i tipi di record tassonomici.
    >
-   >* <span class="preview">La selezione di **Crea campo corrispondente nel tipo di record collegato** è un prerequisito per la creazione di gerarchie.</span>
+   >* La selezione di **Crea campo corrispondente nel tipo di record collegato** è un prerequisito per la creazione di gerarchie.
 
 1. (Condizionale) Se hai abilitato **Crea campo corrispondente nel tipo di record collegato**, scegli una delle seguenti opzioni per indicare a quanti record gli utenti possono connettersi e da:
 
@@ -279,7 +279,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
    >[!NOTE]
    >
-   >L&#39;amministratore di Workfront può mappare i campi di Workfront Planning sui campi di Experience Manager Assets tramite la mappatura dei metadati in Workfront. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >L&#39;amministratore di Workfront può mappare i campi di Workfront Planning sui campi di Experience Manager Assets tramite la mappatura dei metadati in Workfront. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Condizionale) Quando si sceglie di connettersi a Experience Manager Assets, a un tipo di record di Workfront Planning o a un marchio GenStudio, scegliere una delle opzioni seguenti nell&#39;area **Aspetto record**:
@@ -309,6 +309,8 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    >* Le informazioni relative al campo data degli oggetti di Workfront vengono visualizzate nel formato 24 ore in Workfront Planning, indipendentemente da come vengono visualizzate in Workfront.
    >
    >   Se, ad esempio, la Data inizio pianificata di un progetto viene visualizzata come 3:00 PM in Workfront, verrà visualizzata come 15:00 in Workfront Planning in un campo di ricerca importato.
+   >* Nell’ambiente di produzione non è possibile aggiungere campi Persone come campi di ricerca. <span class="preview">È possibile aggiungere campi Persone come campi di ricerca nell&#39;ambiente di anteprima.</span>
+   >
 
 1. Fai clic su **Crea**.
 
@@ -407,7 +409,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
      >[!TIP]
      >
      > Non viene creato un campo record collegato per gli oggetti di un&#39;altra applicazione nelle rispettive applicazioni.
-     >È consigliabile non creare collegamenti a tipi di record tassonomici, in quanto esiste un limite di 500 campi, <span class="preview"> oltre al limite di 30 campi connessi</span> per ogni tipo di record.
+     >È consigliabile non creare collegamenti a tipi di record tassonomici, in quanto esiste un limite di 500 campi, oltre al limite di 30 campi collegati per ogni tipo di record.
 
    <!--see the span preview text in the TIP above; it might not show up in green-->
 

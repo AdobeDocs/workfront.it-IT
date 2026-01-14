@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 3%
+source-wordcount: '464'
+ht-degree: 4%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 3%
 
 # Panoramica sui limiti degli oggetti di Adobe Workfront Planning
 
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili anche nell&#39;ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi.</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.</span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -49,13 +49,13 @@ Nella tabella seguente vengono illustrati i limiti per il numero di oggetti che 
 | Numero di righe che è possibile importare in un file CSV o Excel per creare tipi di record | 25.000 |
 | Numero di colonne che è possibile importare in un file CSV o Excel per creare tipi di record | 500 |
 | Numero di campi formula per un tipo di record | 20 |
-| <span class="preview">Numero di campi di connessione per un tipo di record</span> | <span class="preview">30</span> |
+| Numero di campi di connessione per un tipo di record | 30 |
 | Numero di caratteri in un&#39;espressione del campo formula | 50.000 |
 | Numero di entità (utenti, ruoli, team, società, gruppi) con cui è possibile condividere un oggetto Planning | 100 |
-| <span class="preview">Numero di tipi di record in una gerarchia</span> | 4 |
-| <span class="preview">Numero di gerarchie in un&#39;area di lavoro</span> | 5 |
-| <span class="preview">Numero di record di un tipo di record padre connesso a un record di un tipo di record figlio, all&#39;interno di una gerarchia</span> | 10 |
-| Numero di record connessi a un record in un tipo di connessione a selezione multipla, <span class="preview">senza una gerarchia configurata tra i record</span> | 500 |
+| Numero di tipi di record in una gerarchia | 4 |
+| Numero di gerarchie in un’area di lavoro | 5 |
+| Numero di record di un tipo di record padre connessi a un record di un tipo di record figlio all&#39;interno di una gerarchia | 10 |
+| Numero di record connessi a un record in un tipo di connessione a selezione multipla, senza una gerarchia configurata tra i record | 500 |
 
 *Si consiglia di non disporre di troppe aree di lavoro, in quanto potrebbero diventare difficili da gestire e i flussi di lavoro potrebbero essere troppo frammentati.
 

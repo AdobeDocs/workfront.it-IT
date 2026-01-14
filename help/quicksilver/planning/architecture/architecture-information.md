@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
@@ -39,14 +39,9 @@ Gli articoli nelle sezioni seguenti descrivono come configurare le aree di lavor
 * [Eliminare le aree di lavoro](/help/quicksilver/planning/architecture/delete-workspaces.md)
 * [Modificare le aree di lavoro](/help/quicksilver/planning/architecture/edit-workspaces.md)
 * [Elimina tipi di record](/help/quicksilver/planning/architecture/delete-record-types.md)
-
-<div class="preview">
-
 * [Panoramica sui tipi di record in più aree di lavoro](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 * [Configurare le funzionalità tra aree di lavoro diverse per i tipi di record](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
 * [Aggiungere tipi di record esistenti da un&#39;altra area di lavoro](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
 * [Configurare l’area Impostazioni di un tipo di record](/help/quicksilver/planning/architecture/configure-record-type-settings.md)
-* [Panoramica delle gerarchie e delle breadcrumb](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)
+* [Panoramica della gerarchia e delle breadcrumb](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)
 * [Creare gerarchie area di lavoro](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
-
-</div>
