@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 8f7249e08268a8cb784d4c0ecc8c534542fa80cf
+source-git-commit: eec482dceb9a35225cb28cccc13811a91536cc83
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 14%
@@ -32,7 +32,7 @@ Indica inoltre le azioni che gli amministratori di Workfront possono disabilitar
 >[!NOTE]
 >
 >* Questo articolo descrive le funzionalità disponibili per i livelli di accesso nel nuovo modello di pacchetto Workfront. Per visualizzare le funzionalità disponibili nel modello di pacchetto corrente, vedere [Funzionalità disponibili per ogni tipo di oggetto per vari livelli di accesso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Per un elenco delle funzionalità disponibili per i diversi pacchetti del modello più recente, vedere [Adobe Workfront Pricing and Packaging](https://business.adobe.com/it/products/workfront/pricing.html).
+>* Per un elenco delle funzionalità disponibili per i diversi pacchetti del modello più recente, vedere [Adobe Workfront Pricing and Packaging](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Progetti
 
@@ -53,7 +53,7 @@ Indica inoltre le azioni che gli amministratori di Workfront possono disabilitar
 | Aggiungi attività | ✓ |   |   |   |
 | Assegna aggiornamenti/commenti | ✓ | ✓ | ✓ |   |
 | Modifica stato | ✓ |   |   |   |
-| Registra ore | ✓ | <span class="preview">✓</span> |   |   |
+| Registra ore | ✓ | ✓ |   |   |
 | Modifica assegnazioni | ✓ |   |   |   |
 | Gestire una baseline | ✓ |   |   |   |
 | Gestire i rischi | ✓ |   |   |   |

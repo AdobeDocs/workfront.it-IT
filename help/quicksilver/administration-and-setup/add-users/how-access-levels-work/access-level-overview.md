@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 091d343b5c36ab6bca09aecfc8cba248adcd11e3
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1749'
 ht-degree: 6%
 
 ---
@@ -117,7 +117,7 @@ Collegato alla licenza Light, questo livello di accesso è progettato per gli ut
 * Visualizza tutti gli elementi e gli aggiornamenti associati al lavoro
 * Approva progetti, attività e problemi
 * Visualizzare dashboard e rapporti
-* Tracciare il tempo dedicato ad attività e problemi e approvare le schede orario
+* Tracciare il tempo dedicato a progetti, attività e problemi e approvare le schede orario
 * Creare e gestire i problemi
 
 Utenti con il livello di accesso Light:
@@ -125,6 +125,7 @@ Utenti con il livello di accesso Light:
 * Possono essere assegnati elementi di lavoro ma non possono completarli.
 * Può accedere a richieste e documenti nel menu principale.
 * Hanno capacità limitate di creare oggetti, non possono creare progetti, portfolio, programmi o report.
+* È possibile registrare l’ora a livello di progetto solo quando è abilitato l’accesso di modifica. Non possono creare, modificare, eliminare o condividere progetti.
 
 >[!NOTE]
 >
@@ -151,8 +152,8 @@ Di seguito sono riportate le impostazioni di accesso più elevate disponibili pe
   <tr> 
    <td>Progetti</td> 
    <td> </td> 
-   <td>✓</td> 
    <td> </td> 
+   <td>✓ (per la registrazione del tempo a livello di progetto)</td> 
   </tr> 
   <tr> 
    <td>Attività</td> 
