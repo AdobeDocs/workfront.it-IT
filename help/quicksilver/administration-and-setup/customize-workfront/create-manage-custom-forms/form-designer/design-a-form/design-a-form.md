@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: f23414b3c4810e47fa084d303e640a289de1f98d
+source-git-commit: 45bc1820e4f6416e3d47139bbcf1a2156c5900dc
 workflow-type: tm+mt
 source-wordcount: '6941'
 ht-degree: 5%
@@ -16,8 +16,6 @@ ht-degree: 5%
 ---
 
 # Creare un modulo personalizzato
-
-{{preview-fast-release-general}}
 
 <!-- Audited: 6/2025 -->
 
@@ -263,13 +261,13 @@ Per aggiungere un campo di testo:
     <td><ul><li>Testo descrittivo</li></ul></td>
     </tr>
     <tr>
-     <td><span class="preview">Attivo</span></td>
-     <td><span class="preview"><p>Questa opzione è attivata per impostazione predefinita.<p><p>Quando si imposta un campo come Inattivo, questo viene escluso dai report, dai filtri e dalle visualizzazioni e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></span></td>
-     <td><ul><span class="preview">
+     <td>Attivo</td>
+     <td><p>Questa opzione è attivata per impostazione predefinita.<p><p>Quando si imposta un campo come Inattivo, questo viene escluso dai report, dai filtri e dalle visualizzazioni e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></td>
+     <td><ul>
      <li>Testo su riga singola</li>
      <li>Paragrafo</li>
      <li>Testo con formattazione</li>
-     <li>Testo descrittivo</li></span></ul></td>
+     <li>Testo descrittivo</li></ul></td>
     </tr>
     <tr> 
       <td role="rowheader">Rendi il campo obbligatorio</td>
@@ -421,13 +419,13 @@ Per aggiungere pulsanti di scelta, gruppi di caselle di controllo e menu a disce
     </td>
      </tr>
     <tr>
-     <td><span class="preview">Attivo</span></td>
-     <td><span class="preview"><p>Questa opzione è attivata per impostazione predefinita.<p><p>Quando si imposta un campo come Inattivo, questo viene escluso dai report, dai filtri e dalle visualizzazioni e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></span></td>
-     <td><ul><span class="preview">
+     <td>Attivo</td>
+     <td><p>Questa opzione è attivata per impostazione predefinita.<p><p>Quando si imposta un campo come Inattivo, questo viene escluso dai report, dai filtri e dalle visualizzazioni e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></td>
+     <td><ul>
      <li>Pulsanti di scelta</li>
      <li>Gruppo di caselle di controllo</li>
      <li>Elenco a discesa a selezione singola</li>
-     <li>Elenco a discesa multi-selezione</li></span></ul></td>
+     <li>Elenco a discesa multi-selezione</li></ul></td>
     </tr>
     <tr> 
     <td role="rowheader">Rendi il campo obbligatorio</td> 
@@ -562,11 +560,11 @@ Per aggiungere campi di tipo typeahead e date:
       </td>
      </tr>
      <tr>
-      <td><span class="preview">Attivo</span></td>
-      <td><span class="preview"><p>Questa opzione è attivata per impostazione predefinita.<p><p>Quando si imposta un campo come Inattivo, questo viene escluso dai report, dai filtri e dalle visualizzazioni e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></span></td>
-      <td><ul><span class="preview">
+      <td>Attivo</td>
+      <td><p>Questa opzione è attivata per impostazione predefinita.<p><p>Quando si imposta un campo come Inattivo, questo viene escluso dai report, dai filtri e dalle visualizzazioni e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></td>
+      <td><ul>
       <li>Automatico</li>
-      <li>Data</li></span></ul></td>
+      <li>Data</li></ul></td>
      </tr>
      <tr> 
       <td role="rowheader">Rendi il campo obbligatorio</td> 
@@ -655,12 +653,12 @@ Per aggiungere una ricerca esterna:
       <td role="rowheader">Percorso JSON</td>
       <td><p>Digita o incolla il percorso JSON per l’API.</p> <p>Questa opzione consente di estrarre i dati dal JSON restituito dall’URL API. Serve come modo per selezionare quali valori dall’interno del JSON appariranno nelle opzioni a discesa.</p><p>Ad esempio, se l'URL API restituisce JSON nel seguente formato, puoi utilizzare "$.data[*].name" per selezionare Stati Uniti e Canada come opzioni a discesa:</br>
       <pre>
-      &lbrace;
-       dati: &lbrace;
+      {
+       dati: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Per ulteriori informazioni sul percorso JSON e sulla verifica della scrittura del percorso JSON corretto, fare riferimento a <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -674,8 +672,8 @@ Per aggiungere una ricerca esterna:
       <td><p>Seleziona questa opzione per consentire all’utente di selezionare più di un valore nel menu a discesa.</p></td>
      </tr>
      <tr>
-      <td><span class="preview">Attivo</span></td>
-      <td><span class="preview"><p>Questa opzione è attivata per impostazione predefinita.<p><p>Quando si imposta un campo come Inattivo, questo viene escluso dai report, dai filtri e dalle visualizzazioni e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></span></td>
+      <td>Attivo</td>
+      <td><p>Questa opzione è attivata per impostazione predefinita.<p><p>Quando si imposta un campo come Inattivo, questo viene escluso dai report, dai filtri e dalle visualizzazioni e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Rendi il campo obbligatorio</td>
@@ -767,8 +765,8 @@ Per aggiungere immagini, PDF o video:
       <td> <p>Digita eventuali informazioni aggiuntive sul widget. Quando gli utenti compilano il modulo personalizzato, possono passare il cursore sull’icona del punto interrogativo per visualizzare una descrizione comando contenente le informazioni digitate qui.</p> </td> 
      </tr> 
      <tr>
-      <td><span class="preview">Attivo</span></td>
-      <td><span class="preview"><p>Questa opzione è attivata per impostazione predefinita.<p><p>Quando si imposta un campo come Inattivo, questo viene escluso dai report, dai filtri e dalle visualizzazioni e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></span></td>
+      <td>Attivo</td>
+      <td><p>Questa opzione è attivata per impostazione predefinita.<p><p>Quando si imposta un campo come Inattivo, questo viene escluso dai report, dai filtri e dalle visualizzazioni e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></td>
      </tr>
     </tbody> 
    </table>
@@ -904,8 +902,8 @@ In questa tabella sono elencati i campi nativi disponibili per oggetti Workfront
       <td>
      </tr>
      <tr>
-      <td><span class="preview">Attivo</span></td>
-      <td><span class="preview"><p>Questa opzione è attivata per impostazione predefinita.<p><p>Quando si imposta un campo come Inattivo, questo viene escluso dai report, dai filtri e dalle visualizzazioni e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></span></td>
+      <td>Attivo</td>
+      <td><p>Questa opzione è attivata per impostazione predefinita.<p><p>Quando si imposta un campo come Inattivo, questo viene escluso dai report, dai filtri e dalle visualizzazioni e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Rendi il campo obbligatorio</td>
@@ -961,8 +959,8 @@ Per aggiungere un file Adobe XD:
     <img src="assets/instructions-form-designer.png"></p> </td> 
      </tr>
      <tr>
-      <td><span class="preview">Attivo</span></td>
-      <td><span class="preview"><p>Questa opzione è attivata per impostazione predefinita.<p><p>Quando si imposta un campo come Inattivo, questo viene escluso dai report, dai filtri e dalle visualizzazioni e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></span></td>
+      <td>Attivo</td>
+      <td><p>Questa opzione è attivata per impostazione predefinita.<p><p>Quando si imposta un campo come Inattivo, questo viene escluso dai report, dai filtri e dalle visualizzazioni e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></td>
      </tr>
     </tbody> 
    </table>
@@ -1057,8 +1055,8 @@ Per aggiungere un campo di connessione Planning:
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
      </tr>
      <tr>
-      <td><span class="preview">Attivo</span></td>
-      <td><span class="preview"><p>Questa opzione è attivata per impostazione predefinita.<p><p>Quando si imposta un campo come Inattivo, questo viene escluso dai report, dai filtri e dalle visualizzazioni e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></span></td>
+      <td>Attivo</td>
+      <td><p>Questa opzione è attivata per impostazione predefinita.<p><p>Quando si imposta un campo come Inattivo, questo viene escluso dai report, dai filtri e dalle visualizzazioni e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></td>
      </tr>
       </tbody> 
    </table>

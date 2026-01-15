@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: e95701bdce2388f7f2b249b1fbf5b27d0ded08af
+source-git-commit: 6dce5e15a41587cd9febf82ffc0a62d3b7e121d1
 workflow-type: tm+mt
 source-wordcount: '2506'
 ht-degree: 1%
@@ -16,8 +16,6 @@ ht-degree: 1%
 ---
 
 # Aggiungere campi calcolati a un modulo
-
-{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -95,10 +93,6 @@ Per riutilizzare un campo personalizzato calcolato esistente:
 
 1. Nel pannello a sinistra, fai clic su **Forms personalizzato**, quindi su **Forms**.
 
-   <!-- >[!TIP]
-    >
-    >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
-
 1. Fai clic su **Nuovo modulo personalizzato**.
 
 1. Nella finestra di dialogo **Nuovo modulo personalizzato**, seleziona i tipi di oggetto a cui vuoi allegare il modulo personalizzato, quindi fai clic su **Continua**.
@@ -108,9 +102,9 @@ Per riutilizzare un campo personalizzato calcolato esistente:
 
 1. Utilizza la casella di ricerca o espandi la sezione **Calcolato** per individuare il campo calcolato necessario, quindi trascina il campo nel punto in cui desideri che venga visualizzato nel modulo personalizzato.
 
-1. <span class="preview">(Condizionale) Fare clic su **Verifica la presenza di conflitti** per esaminare tutti gli oggetti che potrebbero essere interessati dalla modifica della formula nel campo calcolato.</span>
+1. (Condizionale) Fare clic su **Verifica la presenza di conflitti** per esaminare tutti gli oggetti che potrebbero essere interessati dalla modifica della formula nel campo calcolato.
 
-   <span class="preview">Se a un oggetto sono allegati due o più moduli contenenti lo stesso campo calcolato, le formule devono essere identiche in tutti i moduli. La modifica della formula non è consentita se la modifica potrebbe causare un conflitto.</span>
+   Se a un oggetto sono allegati due o più moduli contenenti lo stesso campo calcolato, le formule devono essere identiche in tutti i moduli. La modifica della formula non è consentita se la modifica potrebbe causare un conflitto.
 
 1. (Facoltativo) Ripeti il passaggio precedente per aggiungere altri campi.
 
@@ -138,10 +132,6 @@ Per riutilizzare un campo personalizzato calcolato esistente:
 1. Nel pannello a sinistra, fai clic su **Forms personalizzato**, quindi su **Forms**.
 
 1. Fai clic su **Nuovo modulo personalizzato**.
-
-   <!-- >[!TIP]
-    >
-    >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
 1. Nella finestra di dialogo **Nuovo modulo personalizzato**, seleziona i tipi di oggetto a cui vuoi allegare il modulo personalizzato, quindi fai clic su **Continua**.
 
@@ -176,8 +166,8 @@ Per riutilizzare un campo personalizzato calcolato esistente:
       <p><strong>NOTA</strong>: i campi calcolati con formato <strong>Valuta</strong> non devono includere virgolette. (Ad esempio, utilizzare 800.00 e non "800.00"). L’utilizzo delle virgolette può causare conseguenze impreviste a causa di sfumature con la formattazione della lingua per i tipi di valuta.</p></td>
      </tr> 
      <tr>
-      <td><span class="preview">Attivo</span></td>
-      <td><span class="preview"><p>Questa opzione è attivata per impostazione predefinita.<p><p>Quando si imposta un campo come Inattivo, questo viene escluso dai report, dai filtri e dalle visualizzazioni e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></span></td>
+      <td>Attivo</td>
+      <td><p>Questa opzione è attivata per impostazione predefinita.<p><p>Quando si imposta un campo come Inattivo, questo viene escluso dai report, dai filtri e dalle visualizzazioni e non è più disponibile nella libreria dei campi dei moduli personalizzati.</p></td>
      </tr>
     </tbody> 
    </table>
@@ -288,7 +278,7 @@ Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contene
            >
            ><div>In un modulo personalizzato allegato a un oggetto, le istruzioni di data e ora nei campi personalizzati calcolati vengono calcolate e salvate in base al tempo UTC (Coordinated Universal Time) e non in base alle configurazioni del fuso orario impostate per l’istanza della tua organizzazione e il tuo profilo utente. I calcoli in un modulo personalizzato vengono generati in base ai singoli fusi orari degli utenti.</div>
 
-      +++
+        +++
 
    1. Fai clic nella casella di testo grande, quindi fai clic su **Espressioni** e **Campi** disponibili per aggiungerli al calcolo.
 

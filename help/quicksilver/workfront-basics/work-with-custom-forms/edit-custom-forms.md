@@ -7,16 +7,14 @@ description: È possibile modificare le informazioni di un modulo personalizzato
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: 6dce5e15a41587cd9febf82ffc0a62d3b7e121d1
 workflow-type: tm+mt
 source-wordcount: '1207'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 # Modificare le informazioni nei campi modulo personalizzati
-
-{{preview-fast-release-general}}
 
 <!--Audited: 10/2025-->
 
@@ -24,7 +22,7 @@ ht-degree: 1%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -122,7 +120,7 @@ Per informazioni sugli oggetti che possono avere un modulo personalizzato, veder
 
    >[!NOTE]
    >
-   ><span class="preview">I campi che consentono selezioni multiple possono limitare il numero di opzioni selezionabili. Le caselle di controllo e gli elenchi a discesa a selezione multipla sono limitati a 5000 selezioni.</span>
+   >I campi che consentono selezioni multiple possono limitare il numero di opzioni selezionabili. Le caselle di controllo e gli elenchi a discesa a selezione multipla sono limitati a 5000 selezioni.
 
    Per informazioni su tutti i tipi di campo, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
