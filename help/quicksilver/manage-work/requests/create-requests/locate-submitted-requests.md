@@ -8,16 +8,14 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 3fe7e6f530e15ebdb4a658de89b77c1bf39671fe
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1544'
 ht-degree: 2%
 
 ---
 
 # Visualizzare le richieste inviate
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 Puoi visualizzare le richieste inviate da te o da un altro utente oppure le richieste che hai avviato ma che non hai mai completato l’invio. Puoi individuare queste richieste nelle seguenti aree di Adobe Workfront:
 
@@ -28,8 +26,8 @@ Puoi visualizzare le richieste inviate da te o da un altro utente oppure le rich
   >[!NOTE]
   >
   >* È possibile visualizzare solo le proprie bozze di richieste.
-  >* <span class="preview">Nella nuova esperienza di richiesta, le richieste e le bozze inviate si trovano nello stesso elenco. </span>
-  >* <span class="preview">Le bozze create nell&#39;esperienza legacy non vengono visualizzate nella nuova esperienza di richiesta.</span>
+  >* Nella nuova esperienza di richiesta, le richieste e le bozze inviate si trovano nello stesso elenco.
+  >* Le bozze create nell’esperienza legacy non vengono visualizzate nella nuova esperienza di richiesta.
 
 * Scheda **Planning** dell&#39;area Richieste in Workfront: Visualizza richieste inviate ai moduli di richiesta di Workfront Planning. L&#39;organizzazione deve acquistare un pacchetto Workfront Planning. Per informazioni, vedere i seguenti articoli:
 
@@ -83,7 +81,11 @@ La visualizzazione delle richieste inviate varia a seconda che si utilizzi un’
 
 ### Visualizzare le richieste inviate nella nuova esperienza di richiesta
 
-È possibile visualizzare le richieste inviate nell&#39;area Richieste, <span class="preview">che include collegamenti a oggetti creati da richieste Planning.</span>
+È possibile visualizzare le richieste inviate nell&#39;area Richieste, che include collegamenti a oggetti creati da richieste Planning.
+
+>[!NOTE]
+>
+>I collegamenti agli oggetti creati sono disponibili nella nuova esperienza di richiesta solo per le richieste di Planning, nei casi in cui la richiesta stessa abbia creato un oggetto. Se una richiesta Workfront viene convertita in un progetto o in un altro oggetto, nell’elenco delle richieste nella nuova esperienza richiedente non è disponibile un collegamento a tale oggetto convertito.
 
 Per visualizzare le richieste inviate da te o da altri utenti nella nuova esperienza di richiesta:
 

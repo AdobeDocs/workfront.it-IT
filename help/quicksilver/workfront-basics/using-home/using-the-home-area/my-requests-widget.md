@@ -6,16 +6,14 @@ description: È possibile inviare richieste nel widget Richieste personali. Puoi
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 9e4f67b4f5b03e1fc4f8e1a9ab00cc42b9796325
+source-git-commit: cdb1c365d8fc8f90a8a3488b3c641c97457c8c8d
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '982'
 ht-degree: 4%
 
 ---
 
 # Utilizzare il widget Richieste personali
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 >[!IMPORTANT]
 >
@@ -70,15 +68,11 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 Per istruzioni, vedere [Creare una richiesta](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) nell&#39;articolo Creare elementi di lavoro e progetti dall&#39;area Home.
 
-<div class="preview">
-
 ## Copiare una richiesta
 
 È possibile copiare una richiesta nel widget Richieste personali, modificarla e inviarla come nuova richiesta.
 
 Per istruzioni, consulta [Copiare e inviare richieste nella nuova esperienza di richiesta](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience) nell&#39;articolo Copiare e inviare richieste.
-
-</div>
 
 ## Filtrare richieste
 
@@ -98,7 +92,7 @@ Per configurare il filtro nel widget Richieste personali:
    * Stato
    * Immesso da
 
-   <span class="preview">Nell&#39;ambiente di anteprima è inoltre possibile filtrare in base a qualsiasi campo personalizzato aggiunto come colonna      alla visualizzazione.</span>
+   È inoltre possibile filtrare in base a qualsiasi campo personalizzato aggiunto come colonna alla visualizzazione.
 
 1. Nel campo successivo, seleziona l’operatore da utilizzare per questa condizione di filtro. Gli operatori disponibili dipendono dal campo scelto.
 1. (Condizionale) Se a destra dell’operatore viene visualizzato un campo, seleziona il valore in base al quale desideri filtrare.
@@ -135,9 +129,9 @@ Per regolare le colonne del widget Richieste personali:
 1. Nel widget Richieste personali, fare clic su **Colonne**.
 1. (Facoltativo)Per riordinare le colonne, fare clic sul quadratino di trascinamento ![trascinamento](assets/drag-handle.png) della colonna che si desidera spostare e trascinarlo nelle posizioni desiderate. La colonna nella parte superiore dell&#39;elenco viene visualizzata nel widget Richieste personali come colonna all&#39;estrema sinistra.
 1. (Facoltativo) Utilizza l&#39;interruttore per controllare se una colonna viene visualizzata nel widget Richieste personali.
-1. <span class="preview">Per aggiungere un campo personalizzato come colonna, fare clic sull&#39;icona **Aggiungi colonna** ![Aggiungi colonna](assets/add-column.png) a destra dello schermo e fare clic sull&#39;icona più accanto al campo modulo personalizzato che si desidera aggiungere come colonna al widget.</span>
+1. Per aggiungere un campo personalizzato come colonna, fai clic sull&#39;icona **Aggiungi colonna** ![Aggiungi colonna](assets/add-column.png) a destra dello schermo e fai clic sull&#39;icona più accanto al campo del modulo personalizzato che desideri aggiungere come colonna al widget.
 
-   <span class="preview">I campi personalizzati nei moduli allegati all&#39;oggetto nell&#39;elenco sono disponibili per l&#39;aggiunta come colonne.</span>
+   I campi personalizzati nei moduli allegati all’oggetto nell’elenco sono disponibili per l’aggiunta come colonne.
 
 Le preferenze di colonna vengono salvate automaticamente.
 
@@ -153,11 +147,13 @@ Per cercare richieste specifiche nel widget Richieste personali:
 
 1. (Facoltativo) Per passare alle richieste evidenziate, fai clic sulle frecce su o giù nella barra di ricerca.
 
-<div class="preview">
-
 ## Passare a un oggetto creato da una richiesta
 
 È possibile trovare gli oggetti creati da una richiesta nel widget Richieste personali.
+
+>[!NOTE]
+>
+>I collegamenti agli oggetti creati sono disponibili nella nuova esperienza di richiesta solo per le richieste di Planning, nei casi in cui la richiesta stessa abbia creato un oggetto. Se una richiesta Workfront viene convertita in un progetto o in un altro oggetto, nell’elenco delle richieste nella nuova esperienza richiedente non è disponibile un collegamento a tale oggetto convertito.
 
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](assets/main-menu-icon.png) nell&#39;angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
 1. (Condizionale) Per aggiungere il widget **Richieste personali** alla schermata iniziale. Fai clic su **Personalizza** e trova **Le mie richieste**.
@@ -166,4 +162,3 @@ Per cercare richieste specifiche nel widget Richieste personali:
 
    Viene visualizzata la pagina dell&#39;oggetto.
 
-</div>

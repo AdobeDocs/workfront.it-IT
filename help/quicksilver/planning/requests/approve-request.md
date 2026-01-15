@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ec72e2af00bb5010288eaae725b67ad7dad55486
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 1%
@@ -97,7 +97,7 @@ Gli approvatori ricevono le seguenti notifiche relative a una richiesta in attes
 >
 >Per consentire agli utenti di ricevere notifiche e-mail e in-app, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.
 
-È possibile approvare le richieste per la creazione di record dalla richiesta stessa, <span class="preview">o dal widget Approvazioni personali nella Home.</span>
+Puoi approvare le richieste di creazione di record dalla richiesta stessa o dal widget Approvazioni personali nella Home.
 
 * [Approvare una richiesta dalla richiesta in Workfront Planning](#approve-a-request-from-the-request-in-workfront-planning)
 * [Approvare una richiesta dal widget Le mie approvazioni nella Home](#approve-a-request-from-the-my-approvals-widget-in-home)
@@ -134,8 +134,6 @@ Gli approvatori ricevono le seguenti notifiche relative a una richiesta in attes
 
    La richiesta rimane nell’area Richieste di Workfront.
 
-<div class="preview">
-
 ### Approvare una richiesta dal widget Le mie approvazioni nella Home
 
 {{step1-to-home}}
@@ -160,4 +158,3 @@ Fai clic sull&#39;icona [!UICONTROL Home] ![Home icon](/help/_includes/assets/ho
    * **Completato**: la richiesta è approvata.
    * **Rifiutata**: richiesta rifiutata.
 
-</div>

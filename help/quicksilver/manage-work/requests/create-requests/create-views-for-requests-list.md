@@ -5,16 +5,14 @@ title: Creare e gestire le viste nell’area Richieste
 description: Se utilizzi la nuova esperienza di richiesta, puoi creare e salvare viste per l’area Richieste.
 author: Becky
 feature: Work Management
-source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
+source-git-commit: d8e5e6d313eb39c9ac26e7cb60113beac5637890
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '717'
 ht-degree: 3%
 
 ---
 
 # Creare e gestire le viste nell’area Richieste
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 Se utilizzi la nuova esperienza di richiesta, puoi creare e salvare viste per l’area Richieste. Queste visualizzazioni includono filtri e disposizioni per le colonne.
 
@@ -86,9 +84,9 @@ Puoi creare una vista nell’area Richieste di Workfront,.
 
 1. (Facoltativo) Per rinominare una visualizzazione, fai clic sul menu a discesa **Visualizzazioni** ![Visualizzazioni](assets/view-icon-requests.png) e fai clic sul menu a tre punti accanto alla visualizzazione, seleziona **Rinomina**, quindi digita il nuovo nome per la visualizzazione.
 1. Fai clic sul menu a discesa **Viste** ![Viste](assets/view-icon-requests.png) e seleziona la vista da modificare.
-1. <span class="preview">Per aggiungere un campo personalizzato come colonna, fare clic sull&#39;icona **Aggiungi colonna** ![Aggiungi colonna](assets/add-column.png) a destra dello schermo e fare clic sull&#39;icona più accanto al campo modulo personalizzato che si desidera aggiungere come colonna alla visualizzazione.</span>
+1. Per aggiungere un campo personalizzato come colonna, fai clic sull&#39;icona **Aggiungi colonna** ![Aggiungi colonna](assets/add-column.png) a destra dello schermo e fai clic sull&#39;icona più (+) accanto al campo del modulo personalizzato che desideri aggiungere come colonna alla visualizzazione.
 
-   <span class="preview">I campi personalizzati nei moduli allegati all&#39;oggetto nell&#39;elenco sono disponibili per l&#39;aggiunta come colonne.</span>
+   >I campi personalizzati nei moduli allegati all’oggetto nell’elenco sono disponibili per l’aggiunta come colonne.
 
    >[!TIP]
    >
@@ -114,7 +112,7 @@ Puoi creare una vista nell’area Richieste di Workfront,.
    * **Stato**: lo stato della richiesta.
    * **Inserito da**: nome dell&#39;utente che ha aggiunto la richiesta. Se la richiesta è stata aggiunta da un utente esterno a Workfront, il campo **Immesso da** visualizza `N/A`.
 
-   <span class="preview">Nell&#39;ambiente di anteprima è inoltre possibile filtrare in base a qualsiasi campo personalizzato aggiunto alla visualizzazione.</span>
+   È inoltre possibile filtrare in base a qualsiasi campo personalizzato aggiunto alla visualizzazione.
 
    È possibile unire più filtri con **And** o **Or**.
 L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi le condizioni del filtro.
@@ -125,6 +123,7 @@ L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi
 >
 > * Le modifiche alle viste vengono salvate automaticamente.
 > * Le modifiche apportate alle viste sono visibili a tutti gli utenti della vista.
+> * Per fare in modo che la visualizzazione venga applicata alla persona che la utilizza, indipendentemente da chi l&#39;ha creata, è possibile utilizzare il carattere jolly del filtro &quot;Utente connesso&quot; in qualsiasi campo il cui valore sia impostato su Utenti.
 
 ## Aggiungere la visualizzazione a un modello di layout.
 

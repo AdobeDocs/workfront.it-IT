@@ -6,17 +6,15 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1517'
 ht-degree: 3%
 
 ---
 
 # Copiare e inviare richieste
 
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 Quando invii spesso richieste simili, puoi copiare una richiesta già inviata. In questo caso, puoi copiare una richiesta esistente, apportarvi modifiche minime e inviarla nuovamente come nuova richiesta.
 
@@ -224,8 +222,6 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    La richiesta copiata viene inviata come nuova richiesta nella coda richieste specificata.
 
-<div class="preview">
-
 ## Copiare e inviare richieste nella nuova esperienza richiedente
 
 È possibile copiare e inviare richieste nell&#39;area Richieste di Workfront o dal widget Richieste personali nella Home.
@@ -263,5 +259,4 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    La richiesta copiata viene inviata come nuova richiesta.
 
-</div>
 

@@ -6,16 +6,14 @@ description: Oltre a utilizzare le bozze disponibili suggerite da Workfront quan
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '814'
 ht-degree: 3%
 
 ---
 
 # Creare richieste da bozze
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
 Oltre a utilizzare le bozze disponibili suggerite da Workfront quando si immette una nuova richiesta, è possibile accedere a una bozza di richiesta dalla sezione Bozze e completare l&#39;invio da tale sezione.
 
@@ -64,15 +62,10 @@ Prima di creare una richiesta da una bozza, è necessario effettuare le seguenti
 
 La procedura per la creazione di richieste da bozze varia tra la nuova esperienza di richiesta e l’esperienza legacy.
 
-* <span class="preview">[Crea richieste da bozze nella nuova esperienza di richiesta](#create-requests-from-drafts-in-the-new-requesting-experience)</span>
+* [Creare richieste da bozze nella nuova esperienza di richiesta](#create-requests-from-drafts-in-the-new-requesting-experience)
 * [Creare richieste da bozze nell’esperienza di richiesta legacy](#create-requests-from-drafts-in-the-legacy-requesting-experience)
 
-<div class="preview">
-
 ### Creare richieste da bozze nella nuova esperienza di richiesta
-
-
-
 
 1. Aprite la bozza.
 
@@ -98,8 +91,6 @@ La procedura per la creazione di richieste da bozze varia tra la nuova esperienz
 1. Dopo aver completato le informazioni per la richiesta, fai clic su **Invia**.
 
    Quando si invia la richiesta, la bozza viene eliminata e non può essere ripristinata.
-
-</div>
 
 ### Creare richieste da bozze nell’esperienza di richiesta legacy
 

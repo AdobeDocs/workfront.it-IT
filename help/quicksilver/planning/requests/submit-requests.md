@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '1875'
+source-wordcount: '1815'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -206,7 +206,7 @@ L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi
    >
    >* Se il modulo di richiesta è associato a un’approvazione, questa deve essere concessa prima di poter accedere al record dalla pagina della richiesta.
 
-1. (Facoltativo) Fare clic sul nome del tipo di record **&#x200B;**.
+1. (Facoltativo) Fare clic sul nome del tipo di record ****.
 
    La pagina del tipo di record viene visualizzata in Workfront Planning.
 
@@ -272,8 +272,6 @@ L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi
 
    La pagina del tipo di record viene visualizzata in Workfront Planning.
 
-<div class="preview">
-
 ## Creare una richiesta copiando una richiesta esistente
 
 È possibile copiare una richiesta nell’elenco delle richieste in Workfront, quindi modificarne i dettagli e inviarla come nuova richiesta.
@@ -290,6 +288,5 @@ Questa funzione è disponibile solo nella nuova esperienza di richiesta.
 
 Per istruzioni, consulta [Creare richieste da bozze](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md).
 
-</div>
 
 
