@@ -6,19 +6,16 @@ description: Puoi creare dashboard per accedere rapidamente alle informazioni in
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 39a8d670baa19aa37e29b0312e6c9a296569f44c
+source-git-commit: 507cb64eb21c2798cdafe184794c0d9ed7ebc0c6
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 4%
+source-wordcount: '494'
+ht-degree: 5%
 
 ---
 
 # Creare un dashboard
 
 <!--Audited: 01/2025-->
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente di anteprima per tutti i clienti.</span>
-
 
 Puoi creare dashboard per accedere rapidamente alle informazioni in Adobe Workfront. È possibile aggiungere ai dashboard fino a 25 rapporti, calendari e pagine esterne da condividere con altri utenti per una collaborazione ottimale.
 
@@ -88,11 +85,6 @@ Prima di poter aggiungere gli oggetti seguenti a un dashboard, è necessario cre
      <tr>
       <td role="rowheader"><strong>Descrizione (facoltativa)</strong></td>
       <td>Questa è una descrizione del dashboard.</td>
-     </tr>
-      <tr>
-      <td role="rowheader"><strong>Valuta</strong></td>
-      <td><span class="preview">Questo è il tipo di valuta predefinito per il dashboard. <br>
-      <br>Gli utenti possono passare da un tipo di valuta all'altro quando filtrano il dashboard. Per ulteriori informazioni, vedere <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">Filtrare un dashboard per tipo di valuta</a>.</span></td>
      </tr>
     </tbody>
    </table>

@@ -6,7 +6,7 @@ description: Utilizzare i dashboard di Canvas
 author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: f49197b1d49437cd3b1b981d093ae2a357d13072
+source-git-commit: 41e283ceccd0a95daae005d998a2ed8050a1ab0b
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 1%
@@ -72,7 +72,14 @@ Puoi personalizzare temporaneamente i rapporti di tabella nei dashboard. Queste 
    >
    >Queste modifiche si applicano solo alla sessione corrente e non influiscono sulla configurazione del rapporto originale. Per rendere permanenti queste modifiche, devi modificare il rapporto.
 
-<!--### Use drilldowns
+
+<!--
+
+### Quick Search 
+
+### Filter
+### Use drilldowns
+
 
 You can use drilldowns in Canvas Dashboards to sort and group data within reports.
 

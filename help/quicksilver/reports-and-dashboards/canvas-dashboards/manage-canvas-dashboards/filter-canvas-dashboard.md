@@ -6,16 +6,14 @@ description: Puoi applicare un filtro a un dashboard di Canvas dopo averlo creat
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: 39a8d670baa19aa37e29b0312e6c9a296569f44c
+source-git-commit: c6458d777726092d74e8b031f5c14dfd58710e11
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 1%
+source-wordcount: '989'
+ht-degree: 2%
 
 ---
 
 # Filtrare un dashboard di Canvas
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente di anteprima per tutti i clienti.</span>
 
 >[!IMPORTANT]
 >
@@ -180,7 +178,6 @@ Tutti gli utenti con accesso a un dashboard possono applicare un prompt del dash
 
 1. Fai clic sull&#39;icona **Chiudi** ![Chiudi](assets/close-icon.png) nell&#39;angolo superiore destro per nascondere il pannello.
 
-<span class="preview">
 
 ## Filtrare un dashboard per tipo di valuta
 
@@ -196,5 +193,3 @@ Per modificare il tipo di valuta per il dashboard:
 1. Selezionare il tipo di valuta desiderato dall&#39;elenco.
 
    ![elenco a discesa cambio valuta](assets/filter-by-currency.png)
-
-</span>

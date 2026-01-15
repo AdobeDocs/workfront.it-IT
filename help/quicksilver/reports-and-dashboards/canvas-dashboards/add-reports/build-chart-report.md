@@ -6,16 +6,14 @@ description: È possibile aggiungere a un dashboard di Canvas un report di grafi
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 56af1b6c8e4ae7bb990288d9e6a4326ffd18c2c9
+source-git-commit: c6458d777726092d74e8b031f5c14dfd58710e11
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1814'
 ht-degree: 1%
 
 ---
 
 # Creare un rapporto di grafico in un dashboard di Canvas
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente di anteprima per tutti i clienti.</span>
 
 >[!IMPORTANT]
 >
@@ -122,9 +120,9 @@ Sono disponibili molte opzioni di configurazione per la creazione di un rapporto
 
 1. Nella sezione **Asse inferiore (X)**, selezionare il **Campo aggiornamento**, quindi individuare e selezionare il campo contenente i dati che verranno riepilogati nel grafico.
 1. Nell&#39;elenco a discesa **Tipo di aggregazione** selezionare la modalità di rollup dei dati per produrre l&#39;output del grafico.
-1. <span class="preview">(Facoltativo) Aggiungere un&#39;etichetta di asse nello spazio fornito.</span>
-1. <span class="preview"> (Facoltativo) Attiva/Disattiva **Nascondi asse**. </span>
-1. <span class="preview">(Facoltativo) Immettere un **valore riga di riferimento** per impostare una destinazione o una soglia nel grafico.</span>
+1. (Facoltativo) Aggiungi un’etichetta di asse nello spazio fornito.
+1. (Facoltativo) Attiva **Nascondi asse**.
+1. (Facoltativo) Immettere un **valore riga di riferimento** per impostare una destinazione o una soglia nel grafico.
 1. Scegliere un tipo di **riga** dal menu a discesa.
 1. Seleziona il pulsante **Aggiorna campo** sotto la seconda sezione, quindi individua e seleziona il secondo campo da visualizzare nel grafico.
 
@@ -142,8 +140,8 @@ Sono disponibili molte opzioni di configurazione per la creazione di un rapporto
 1. Nella sezione **Metrica**, seleziona il **Campo di aggiornamento**, quindi individua e seleziona il campo contenente i dati che verranno riepilogati nel grafico.
 1. Nell&#39;elenco a discesa **Tipo di aggregazione** selezionare la modalità di rollup dei dati per produrre l&#39;output del grafico.
 1. Nella sezione **Segmento**, seleziona il **Campo di aggiornamento**, quindi individua e seleziona il campo contenente i segmenti che desideri visualizzare nel grafico a torta.
-1. <span class="preview"> (Facoltativo) Nella sezione **Torta**, attiva **Mostra etichette segmento** per visualizzare le etichette segmento.</span>
-1. <span class="preview"> (Facoltativo) Attiva **Mostra totale** per visualizzare il totale al centro del grafico. Se l&#39;opzione è abilitata, sono disponibili opzioni aggiuntive per visualizzare un&#39;etichetta del centro e scegliere il formato del valore.</span>
+1. (Facoltativo) Nella sezione **Torta**, attiva **Mostra etichette segmento** per visualizzare le etichette dei segmenti.
+1. (Facoltativo) Attiva **Mostra totale** per visualizzare il totale al centro del grafico. Quando questa opzione è attivata, sono disponibili opzioni aggiuntive per visualizzare un&#39;etichetta centrale e scegliere il formato del valore.
 
 >[!NOTE]
 >
@@ -153,9 +151,9 @@ Sono disponibili molte opzioni di configurazione per la creazione di un rapporto
 >* Somma tipi di aggregazione: il valore centrale visualizzato è il totale aggregato del valore numerico o di valuta.
 >* Tipi di aggregazione media, massima e minima: il valore centrale visualizza di conseguenza il valore medio, massimo o minimo.
 
-1. <span class="preview">(Facoltativo) Nella sezione Legenda attivare **Mostra legenda** per visualizzare la legenda del grafico.</span>
+1. (Facoltativo) Nella sezione Legenda, attiva **Mostra legenda** per visualizzare la legenda del grafico.
 
-1. <span class="preview"> (Facoltativo) Scegliere una **posizione legenda** dal menu a discesa.</span>
+1. (Facoltativo) Scegli una **posizione legenda** dal menu a discesa.
 
 ## Configurare impostazioni aggiuntive per i report grafico
 
@@ -163,7 +161,7 @@ Sono disponibili molte opzioni di configurazione per la creazione di un rapporto
 
 Segui i passaggi seguenti per configurare la sezione **Filtro**:
 
-1. Nel pannello a sinistra, fai clic sull&#39;icona **Filtro**![&#x200B; Filtro](assets/filter-icon.png).
+1. Nel pannello a sinistra, fai clic sull&#39;icona **Filtro**![ Filtro](assets/filter-icon.png).
 1. Selezionare **Modifica filtro**.
 1. Fare clic su **Aggiungi condizione** e quindi specificare il campo in base al quale si desidera filtrare e il modificatore che definisce il tipo di condizione che il campo deve soddisfare.
 1. (Facoltativo) Fai clic su **Aggiungi gruppo di filtri** per aggiungere un altro set di criteri di filtro. L&#39;operatore di default tra i set è AND. Fai clic sull’operatore per modificarlo in O.

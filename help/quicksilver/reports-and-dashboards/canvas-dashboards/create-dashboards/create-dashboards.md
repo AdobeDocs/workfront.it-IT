@@ -6,10 +6,10 @@ description: Con le dashboard di Canvas, puoi creare e aggiungere rapporti a una
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: bd31e426-7c4a-4ff8-9432-c95dc8ee3743
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: 507cb64eb21c2798cdafe184794c0d9ed7ebc0c6
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 1%
+source-wordcount: '480'
+ht-degree: 5%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >La funzione Dashboard di Canvas è attualmente disponibile solo per gli utenti che partecipano alla fase beta. Alcune parti della caratteristica potrebbero non essere complete o non funzionare come previsto in questa fase. Invia un feedback relativo alla tua esperienza seguendo le istruzioni riportate nella sezione [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) dell&#39;articolo di panoramica della versione beta di Canvas Dashboards.<br>
->&#x200B;>In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
+>In caso di feedback su un possibile bug o problema tecnico, invia un ticket al supporto Workfront. Per ulteriori informazioni, vedere [Contattare l&#39;Assistenza clienti](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Tieni presente che questa versione beta non è disponibile sui seguenti provider cloud:
 >
 >* Porta la tua chiave per Amazon Web Services
 >* Azure
@@ -29,7 +29,7 @@ Con le dashboard di Canvas, puoi creare e aggiungere rapporti a una dashboard pe
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -76,7 +76,29 @@ I dashboard di Canvas offrono un’ampia varietà di opzioni e configurazioni da
 
 1. Fai clic su **Nuovo dashboard** nell&#39;angolo in alto a destra.
 
-1. Nella casella **Crea dashboard** immettere il **Nome** e la **Descrizione** del dashboard.
+1. Nella casella **Crea dashboard**,
+
+1. Specifica quanto segue:
+
+   <table style="table-layout:auto">
+    <col>
+    <col>
+    <tbody>
+     <tr>
+      <td role="rowheader"><strong>Nome</strong></td>
+      <td><p>Immetti un nome per il dashboard. Per evitare problemi di compatibilità, si consiglia di utilizzare solo caratteri UTF-8.</p></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><strong>Descrizione (facoltativa)</strong></td>
+      <td>Immetti una descrizione del dashboard.</td>
+     </tr>
+      <tr>
+      <td role="rowheader"><strong>Valuta</strong></td>
+      <td>Scegliere il tipo di valuta predefinito per il dashboard. <br>
+      <br>Gli utenti possono passare da un tipo di valuta all'altro quando filtrano il dashboard. Per ulteriori informazioni, vedere <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">Filtrare un dashboard per tipo di valuta</a>.</td>
+     </tr>
+    </tbody>
+   </table>
 
 1. Fai clic su **Crea**. Verrà aperta la **finestra Aggiungi report**. Da qui puoi creare un nuovo rapporto o aggiungerne uno esistente al dashboard.
 
