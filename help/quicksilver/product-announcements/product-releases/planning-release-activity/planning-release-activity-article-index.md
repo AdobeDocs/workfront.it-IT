@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b3f1002b-e3b4-48e5-9a64-467d4f7a15b2
-source-git-commit: e8d0b180e39025e3d6775d1f90dbd5c8fad9025e
+source-git-commit: 1c9a13aa927b6c21d27d860d228be98d44a80987
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '152'
 ht-degree: 2%
 
 ---
@@ -22,14 +22,18 @@ Questo articolo contiene un elenco di articoli sull’attività di rilascio rela
 
 Per informazioni sull&#39;attività di rilascio corrente di Workfront Planning, vedere l&#39;articolo seguente:
 
-* [Attività della versione del primo trimestre 2026 per Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
+* [Attività della versione del secondo trimestre 2026 per Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
+
 
 
 >[!ENDSHADEBOX]
 
 <!-- for every new release, add the new release page in the first bullet (above) and move that first note to the list below; update the date of the most recent release in the statement below-->
 
-Per informazioni sulle funzioni rilasciate prima del rilascio in produzione del 10 aprile 2025, consulta i seguenti articoli:
+Per informazioni sulle funzioni rilasciate prima del rilascio in produzione del 16 gennaio 2026, consulta i seguenti articoli:
+
+* 2026
+   * [Attività della versione del primo trimestre 2026 per Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
 
 * 2025
    * [Attività della versione del quarto trimestre 2025 per Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)

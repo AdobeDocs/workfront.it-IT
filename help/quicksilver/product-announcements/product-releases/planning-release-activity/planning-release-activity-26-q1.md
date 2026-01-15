@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: d956671b535d5c7a11d0fb17dc003a665a4f0597
+source-git-commit: bbb0399787938033886807d0372e9958ce2fcc00
 workflow-type: tm+mt
-source-wordcount: '1798'
+source-wordcount: '2003'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,40 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 <!--keep the sentence below for all future quarterly release pages-->
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+
+## I tipi di record globali possono essere condivisi dall&#39;area di lavoro secondaria
+
+>[!NOTE]
+>
+>Anteprima: 15 gennaio 2026
+>Versione rapida di produzione: 15 gennaio 2026
+>Produzione per tutti: 15 gennaio 2026
+>[!BADGE Fuori programma]{type=Neutral}
+
+È ora possibile condividere i tipi di record globali aggiunti a un&#39;area di lavoro secondaria da tale area di lavoro. Gli utenti riceveranno inoltre le stesse autorizzazioni per tutti i record nell&#39;area di lavoro secondaria condivisa.
+
+>[!NOTE]
+>
+>Gli utenti possono disporre di autorizzazioni diverse per lo stesso tipo di record globale nell&#39;area di lavoro principale o in qualsiasi altra area di lavoro secondaria in cui è stato aggiunto il tipo di record. Le autorizzazioni Workspace e tipo di record vengono trasferite ai record.
+
+Prima di questa modifica, era possibile condividere il tipo di record globale solo dal workspace principale originale.
+
+Per ulteriori informazioni, vedere [Panoramica del tipo di record tra aree di lavoro](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+
+
+## I record aggiunti a un tipo di record globale in un workspace secondario non sono visibili da altri workspace secondari
+
+>[!NOTE]
+>
+>Anteprima: 15 gennaio 2026
+>Versione rapida di produzione: 15 gennaio 2026
+>Produzione per tutti: 15 gennaio 2026
+>[!BADGE Fuori programma]{type=Neutral}
+
+I record aggiunti a un tipo di record globale in un&#39;area di lavoro secondaria sono visibili solo da tale area di lavoro o dall&#39;area di lavoro principale originale del tipo di record. Prima di questo aggiornamento, i record aggiunti a un&#39;area di lavoro secondaria erano visibili anche da altre aree di lavoro secondarie per le quali si disponeva di autorizzazioni di visualizzazione.
+
+Per ulteriori informazioni, vedere [Panoramica del tipo di record tra aree di lavoro](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 ## Creare gerarchie di tipi di record nelle aree di lavoro
 
