@@ -8,22 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: e5416fab4f4ad1f2c31edf962554ddd6a4c2f1e5
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 0%
+source-wordcount: '575'
+ht-degree: 3%
 
 ---
 
 # Personalizzare la visualizzazione Dettagli utilizzando un modello di layout
 
-{{preview-fast-release-general}}
-
 In qualità di amministratore di Adobe Workfront, puoi utilizzare un modello di layout per determinare quali informazioni vengono visualizzate quando un utente fa clic sull&#39;icona Dettagli ![icona Dettagli](assets/project-details-icon.png) nel pannello a sinistra durante la visualizzazione di un&#39;attività, un problema, un documento, un programma o un portfolio.
-
-<!--
-or billing record
--->
 
 È inoltre possibile modificare l&#39;ordine di visualizzazione delle informazioni. Ad esempio, per tutte le attività visualizzate dagli utenti, è possibile spostare le informazioni personalizzate di Forms nella parte superiore della visualizzazione Dettagli per tutte le attività visualizzate dagli utenti.
 
@@ -67,7 +61,7 @@ Per informazioni sui modelli di layout per i gruppi, vedere [Creare e modificare
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -108,24 +102,11 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
      Tutti i campi sono attivati per impostazione predefinita. È possibile selezionare o deselezionare la casella di controllo **Seleziona tutto** in un&#39;area per visualizzare o nascondere tutti i campi in tale area.
 
-   <span class="preview">Immagine di esempio nell&#39;ambiente di anteprima:</span>
-   ![Visualizzazione dettagli nel modello di layout](assets/layout-template-details-view-updated-save-buttons.png)
+     ![Visualizzazione dettagli nel modello di layout](assets/layout-template-details-view-updated-save-buttons.png)
 
-   Immagine di esempio nell’ambiente di produzione:
-   ![Visualizzazione dettagli nel modello di layout](assets/layout-template-details-view.png)
-
-1. <span class="preview">Nell&#39;ambiente di anteprima: continuare a personalizzare il modello di layout. Puoi fare clic su **Applica** in qualsiasi momento per salvare i tuoi progressi.</span>
-
-   <span class="preview">O</span>
-
-   <span class="preview">Se hai completato la personalizzazione, fai clic su **Salva e chiudi**.</span>
-
-1. Nell’ambiente di produzione: continua a personalizzare il modello di layout.
+1. Continuate a personalizzare il modello di layout. Puoi fare clic su **Applica** in qualsiasi momento per salvare i tuoi progressi.
 
    Oppure
 
-   Se hai completato la personalizzazione, fai clic su **Salva**.
+   Se hai completato la personalizzazione, fai clic su **Salva e chiudi**.
 
-   >[!TIP]
-   >
-   >Puoi fare clic su **Salva** in qualsiasi momento per salvare l&#39;avanzamento, quindi continuare a modificare il modello in un secondo momento.

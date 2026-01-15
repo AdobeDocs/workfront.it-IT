@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 066a55ef-1904-4678-8866-c59428f78bc1
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 0%
+source-wordcount: '429'
+ht-degree: 4%
 
 ---
 
 # Concedere l’accesso amministrativo per un modello di layout
-
-{{preview-fast-release-general}}
 
 In qualità di amministratore di Adobe Workfront, puoi concedere l’accesso amministrativo per un modello layout agli amministratori di gruppi di un particolare gruppo, affinché possano modificare il modello. Questo non assegna il modello agli utenti del gruppo.
 
@@ -29,7 +27,7 @@ Per informazioni sui modelli di layout per i gruppi, vedere [Creare e modificare
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -71,4 +69,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    >   
    >* Se non si concede l&#39;accesso amministrativo agli amministratori del gruppo in un determinato gruppo, tutti gli utenti che possono modificare gli account utente avranno accesso amministrativo al modello di layout. Alcuni amministratori di Workfront scelgono di non concedere l&#39;accesso amministrativo per un modello di layout per renderlo un modello di layout a livello di sistema.
 
-1. Puoi fare clic su <span class="preview">**Applica**</span> o **Salva** in qualsiasi momento per salvare i tuoi progressi, quindi continuare a modificare il modello in un secondo momento.
+1. Continuate a personalizzare il modello di layout. Puoi fare clic su **Applica** in qualsiasi momento per salvare i tuoi progressi.
+
+   Oppure
+
+   Se hai completato la personalizzazione, fai clic su **Salva e chiudi**.

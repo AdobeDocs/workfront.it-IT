@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 8%
+source-wordcount: '395'
+ht-degree: 9%
 
 ---
 
 # Personalizzare la pagina di destinazione utilizzando un modello di layout
-
-{{preview-fast-release-general}}
 
 In qualità di amministratore di Adobe Workfront, puoi utilizzare un modello di layout per specificare l’area che gli utenti dovranno visualizzare ogni volta che accedono a Workfront.
 
@@ -85,7 +83,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    * Rapporti
    * Richieste
    * Gestione risorse
-   * Situazioni che potrebbero verificarsi con
+   * Scenari
    * Team
    * Modelli
    * Schede orario
@@ -103,18 +101,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    >
    >* Per informazioni su Workfront Planning, vedere [Introduzione ad Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-1. <span class="preview">Nell&#39;ambiente di anteprima: continuare a personalizzare il modello di layout. Puoi fare clic su **Applica** in qualsiasi momento per salvare i tuoi progressi.</span>
-
-   <span class="preview">O</span>
-
-   <span class="preview">Se hai completato la personalizzazione, fai clic su **Salva e chiudi**.</span>
-
-1. Nell’ambiente di produzione: continua a personalizzare il modello di layout.
+1. Continuate a personalizzare il modello di layout. Puoi fare clic su **Applica** in qualsiasi momento per salvare i tuoi progressi.
 
    Oppure
 
-   Se hai completato la personalizzazione, fai clic su **Salva**.
-
-   >[!TIP]
-   >
-   >Puoi fare clic su **Salva** in qualsiasi momento per salvare l&#39;avanzamento, quindi continuare a modificare il modello in un secondo momento.
+   Se hai completato la personalizzazione, fai clic su **Salva e chiudi**.

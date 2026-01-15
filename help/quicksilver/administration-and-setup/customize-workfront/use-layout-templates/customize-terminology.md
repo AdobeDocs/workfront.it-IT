@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 2%
+source-wordcount: '638'
+ht-degree: 5%
 
 ---
 
 # Personalizzare la terminologia dell’interfaccia utente utilizzando un modello di layout
-
-{{preview-fast-release-general}}
 
 In qualità di amministratore di Adobe Workfront, puoi utilizzare un modello di layout per modificare le etichette di alcuni oggetti visualizzati in Workfront in modo che corrispondano ai termini utilizzati nell’organizzazione.
 
@@ -47,7 +45,7 @@ Dopo aver configurato un modello di layout, è necessario assegnarlo agli utenti
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -139,17 +137,11 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    >
    >Dopo aver fatto clic su Fine (e anche dopo aver salvato il modello di layout), è sempre possibile tornare alle impostazioni Terminologia e fare clic su Reimposta accanto ai termini personalizzati per riportarli allo stato predefinito.
 
-1. <span class="preview">Nell&#39;ambiente di anteprima: continuare a personalizzare il modello di layout. Puoi fare clic su **Applica** in qualsiasi momento per salvare i tuoi progressi.</span>
-
-   <span class="preview">O</span>
-
-   <span class="preview">Se hai completato la personalizzazione, fai clic su **Salva e chiudi**.</span>
-
-1. Nell’ambiente di produzione: continua a personalizzare il modello di layout.
+1. Continuate a personalizzare il modello di layout. Puoi fare clic su **Applica** in qualsiasi momento per salvare i tuoi progressi.
 
    Oppure
 
-   Se hai completato la personalizzazione, fai clic su **Salva**.
+   Se hai completato la personalizzazione, fai clic su **Salva e chiudi**.
 
 1. Per visualizzare le modifiche terminologiche:
 

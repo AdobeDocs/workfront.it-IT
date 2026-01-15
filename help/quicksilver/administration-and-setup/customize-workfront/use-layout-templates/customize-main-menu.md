@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 4fdfa1107034a48e149a5414475fbc0d7ce97564
+source-git-commit: 0f96a4d941eb4595ac60302b579cff31461272a7
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '659'
 ht-degree: 6%
 
 ---
 
 # Personalizzare il menu principale utilizzando un modello di layout
-
-{{preview-fast-release-general}}
 
 <!--Audited: 01/2024-->
 
@@ -78,8 +76,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
      >
      >Per impostazione predefinita, l&#39;icona Home nel menu principale visualizza l&#39;area My Updates (I miei aggiornamenti) per gli utenti con licenza Revisione (nel piano di licenza corrente), a meno che non abbiano un modello di layout associato al loro profilo che include l&#39;area My Updates (I miei aggiornamenti) nel menu principale, oltre all&#39;area Home.
 
-
-   * <span class="preview">Priorità</span>
+   * Priorità
    * Portfolio
    * Programmi
    * Progetti
@@ -135,20 +132,10 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
    Puoi anche fare clic su **Annulla** in qualsiasi momento se desideri annullare le modifiche.
 
-1. <span class="preview">Nell&#39;ambiente di anteprima: continuare a personalizzare il modello di layout. Puoi fare clic su **Applica** in qualsiasi momento per salvare i tuoi progressi.</span>
-
-   <span class="preview">O</span>
-
-   <span class="preview">Se hai completato la personalizzazione, fai clic su **Salva e chiudi**.</span>
-
-1. Nell’ambiente di produzione: continua a personalizzare il modello di layout.
+1. Continuate a personalizzare il modello di layout. Puoi fare clic su **Applica** in qualsiasi momento per salvare i tuoi progressi.
 
    Oppure
 
-   Se hai completato la personalizzazione, fai clic su **Salva**.
-
-   >[!TIP]
-   >
-   >Puoi fare clic su **Salva** in qualsiasi momento per salvare l&#39;avanzamento, quindi continuare a modificare il modello in un secondo momento.
+   Se hai completato la personalizzazione, fai clic su **Salva e chiudi**.
 
 Per ulteriori informazioni sui modelli di layout, vedere [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

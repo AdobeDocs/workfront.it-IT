@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 1%
+source-wordcount: '1095'
+ht-degree: 2%
 
 ---
 
 # Personalizzare il pannello sinistro utilizzando un modello di layout
-
-{{preview-fast-release-general}}
 
 <!--Audited: 10/2024-->
 
@@ -88,7 +86,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
     </thead> 
     <tbody> 
      <tr> 
-      <td>Progetto </td> 
+      <td>Progetto [!UICONTROL]</td> 
       <td>Nome di un progetto</td> 
       <td>[!UICONTROL Tasks], [!UICONTROL Project Details], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issues], [!UICONTROL Risks], [!UICONTROL Approvals], [!UICONTROL Baselines], [!UICONTROL Billing Rates], [!UICONTROL Billing Records], [!UICONTROL Expenses], [!UICONTROL Hours], [!UICONTROL Bilanciatore dei carichi di lavoro], [!UICONTROL People], [!UICONTROL Utilization], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics], [!UICONTROL Planning]*, [!UICONTROL Custom Application]**</td> 
      </tr> 
@@ -108,12 +106,12 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
       <td>[!UICONTROL Progetti], [!UICONTROL Programmi], [!UICONTROL Dettagli Portfolio], [!UICONTROL Portfolio] [!UICONTROL Ottimizzazione], [!UICONTROL Documenti], [!UICONTROL Aggiornamenti], [!UICONTROL Planning]*, [!UICONTROL Applicazione personalizzata]**</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Program]</td> 
+      <td>[!UICONTROL Programma]</td> 
       <td>Nome di un programma</td> 
       <td>[!UICONTROL Projects], [!UICONTROL Program Details], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Planning]*, [!UICONTROL Custom application]**</td> 
      </tr> 
      <tr> 
-      <td>Modello </td> 
+      <td>Modello [!UICONTROL]</td> 
       <td>Nome di un modello di progetto</td> 
       <td>[!UICONTROL Template Tasks], [!UICONTROL Template Details], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Risks], [!UICONTROL Expenses], [!UICONTROL People], [!UICONTROL Approvals], [!UICONTROL Billing Rates], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Gruppo]</td> 
      </tr> 
@@ -136,7 +134,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
      </tr> 
      <tr> 
       <td>[!UICONTROL Progetti]</td> 
-      <td>Progetta <img src="assets/projects-in-main-menu.png"> nel menu principale  <img src="assets/main-menu-icon.png"></td> 
+      <td>Progetta <img src="assets/projects-in-main-menu.png"> nel menu principale [!UICONTROL] <img src="assets/main-menu-icon.png"></td> 
       <td>[!UICONTROL Progetti]</td> 
      </tr> 
      <tr> 
@@ -239,18 +237,8 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    >
    >Per informazioni sulle dashboard, vedere [Dashboard](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
-1. <span class="preview">Nell&#39;ambiente di anteprima: continuare a personalizzare il modello di layout. Puoi fare clic su **Applica** in qualsiasi momento per salvare i tuoi progressi.</span>
-
-   <span class="preview">O</span>
-
-   <span class="preview">Se hai completato la personalizzazione, fai clic su **Salva e chiudi**.</span>
-
-1. Nell’ambiente di produzione: continua a personalizzare il modello di layout.
+1. Continuate a personalizzare il modello di layout. Puoi fare clic su **Applica** in qualsiasi momento per salvare i tuoi progressi.
 
    Oppure
 
-   Se hai completato la personalizzazione, fai clic su **Salva**.
-
-   >[!TIP]
-   >
-   >Puoi fare clic su **Salva** in qualsiasi momento per salvare l&#39;avanzamento, quindi continuare a modificare il modello in un secondo momento.
+   Se hai completato la personalizzazione, fai clic su **Salva e chiudi**.
