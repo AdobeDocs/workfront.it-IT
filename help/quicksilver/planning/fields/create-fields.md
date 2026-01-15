@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '5487'
+source-wordcount: '5427'
 ht-degree: 1%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=it ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -24,9 +24,9 @@ ht-degree: 1%
 
 <!--information about choice values must stay in yellow till Jan 2026-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -327,20 +327,20 @@ I campi Paragrafo acquisiscono informazioni alfanumeriche aggiuntive su un recor
 
    Il nuovo campo a selezione multipla viene aggiunto come colonna al tipo di record e i relativi valori possono essere associati ai record.
 
-1. <span class="preview">(Facoltativo) Passare il puntatore del mouse sul nome del campo nella visualizzazione tabella, fare clic sul menu a discesa a destra del nome del campo, quindi fare clic su **Modifica campo**.</span>
-1. <span class="preview">Attiva l&#39;impostazione **Mostra valori** per visualizzare i valori per ogni scelta. I valori sono i nomi di ciascuna scelta, così come vengono visualizzati nel database di Workfront. </span>
+1. (Facoltativo) Passa il puntatore del mouse sul nome del campo nella vista tabella, fai clic sul menu a discesa a destra del nome del campo, quindi fai clic su **Modifica campo**.
+1. Attiva l&#39;impostazione **Mostra valori** per visualizzare i valori per ogni scelta. I valori sono i nomi di ciascuna scelta, così come vengono visualizzati nel database di Workfront.
 
    >[!NOTE]
    >
-   >* <span class="preview">Workfront assegna valori univoci per ogni scelta. </span>
+   >* Workfront assegna valori univoci per ogni scelta.
    >
-   >* <span class="preview">I valori corrispondono al nome scelto in formato minuscolo. Più parole sono separate da un carattere di sottolineatura. </span>
+   >* I valori corrispondono al nome della scelta in formato minuscolo. Più parole sono separate da un carattere di sottolineatura.
    >
-   >* <span class="preview">I valori possono essere ripetuti tra più campi, ma devono essere univoci per un campo.</span>
+   >* I valori possono essere ripetuti tra più campi, ma devono essere univoci per un campo.
    >
-   ><span class="preview"> ![Mostra/Nascondi valore](assets/show-values-toggle-and-choices-with-values.png)</span>
+   > ![Mostra/Nascondi valore](assets/show-values-toggle-and-choices-with-values.png)
 
-1. <span class="preview">(Facoltativo) Utilizza i valori di scelta nelle chiamate API e in altre integrazioni. </span>
+1. (Facoltativo) Utilizza i valori di scelta nelle chiamate API e in altre integrazioni.
 
 ### Selezione singola {#single-select}
 
@@ -375,20 +375,20 @@ I campi a selezione singola acquisiscono informazioni aggiuntive in qualsiasi fo
 
    Il nuovo campo a selezione singola viene aggiunto come colonna al tipo di record e i relativi valori possono essere associati ai record.
 
-1. <span class="preview">(Facoltativo) Passare il puntatore del mouse sul nome del campo nella visualizzazione tabella, fare clic sul menu a discesa a destra del nome del campo, quindi fare clic su **Modifica campo**.</span>
-1. <span class="preview">Attiva l&#39;impostazione **Mostra valori** per visualizzare i valori per ogni scelta. I valori sono i nomi di ciascuna scelta, così come vengono visualizzati nel database di Workfront. </span>
+1. (Facoltativo) Passa il puntatore del mouse sul nome del campo nella vista tabella, fai clic sul menu a discesa a destra del nome del campo, quindi fai clic su **Modifica campo**.
+1. Attiva l&#39;impostazione **Mostra valori** per visualizzare i valori per ogni scelta. I valori sono i nomi di ciascuna scelta, così come vengono visualizzati nel database di Workfront.
 
    >[!NOTE]
    >
-   >* <span class="preview">Workfront assegna valori univoci per ogni scelta. </span>
+   >* Workfront assegna valori univoci per ogni scelta.
    >
-   >* <span class="preview">I valori corrispondono al nome scelto in formato minuscolo. Più parole sono separate da un carattere di sottolineatura. </span>
+   >* I valori corrispondono al nome della scelta in formato minuscolo. Più parole sono separate da un carattere di sottolineatura.
    >
-   >* <span class="preview">I valori possono essere ripetuti tra più campi, ma devono essere univoci per un campo.</span>
+   >* I valori possono essere ripetuti tra più campi, ma devono essere univoci per un campo.
    >
-   ><span class="preview"> ![Mostra/Nascondi valore](assets/show-values-toggle-and-choices-with-values.png)</span>
+   > ![Mostra/Nascondi valore](assets/show-values-toggle-and-choices-with-values.png)
 
-1. <span class="preview">(Facoltativo) Utilizza i valori di scelta nelle chiamate API e in altre integrazioni. </span>
+1. (Facoltativo) Utilizza i valori di scelta nelle chiamate API e in altre integrazioni.
 
 ### Data {#date}
 
@@ -575,7 +575,7 @@ Per ulteriori informazioni, vedere [Panoramica dei campi formula](/help/quicksil
    >
    >* È possibile fare riferimento a un campo che si trova a una distanza massima di 4 campi (e oggetti) dal tipo di record corrente. Ad esempio, se si crea un campo formula per un tipo di record Attività (1) e l&#39;Attività è connessa al tipo di record Campagna (2) che è connesso a un progetto Workfront (3), è possibile fare riferimento al campo Budget del progetto (4) nella formula che si sta creando per il tipo di record Attività.
    >
-   >![Esempio di formula budget progetto quattro campi rimossi &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Esempio di formula budget progetto quattro campi rimossi ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Facoltativo) Fare clic su **Ingrandisci** per aprire la casella Formula in un&#39;area più ampia.

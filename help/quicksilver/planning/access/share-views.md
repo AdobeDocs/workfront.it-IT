@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1841'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 <!--there are several mentions on how to share public links for global record types in secondary workspaces in this articel; you have to update all of these mentions when something changes-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -171,7 +171,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
   >[!NOTE]
   >
-  ><span class="preview">Impossibile condividere una visualizzazione pubblicamente da un tipo di record globale in un&#39;area di lavoro secondaria. Per ulteriori informazioni, vedere [Aggiungere tipi di record esistenti da un&#39;altra area di lavoro](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).</span>
+  >Non è possibile condividere una visualizzazione pubblicamente da un tipo di record globale in un&#39;area di lavoro secondaria. Per ulteriori informazioni, vedere [Aggiungere tipi di record esistenti da un&#39;altra area di lavoro](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
 
 * Gli utenti esterni all&#39;organizzazione che dispongono dell&#39;accesso a una visualizzazione non possono creare altre visualizzazioni, modificare la visualizzazione condivisa o aggiungere, eliminare o modificare le informazioni del record nella visualizzazione.
@@ -243,7 +243,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 Puoi condividere le viste create o le viste per le quali disponi delle autorizzazioni di gestione con persone che non dispongono di una licenza Workfront e che potrebbero essere esterne alla tua organizzazione.
 
-<span class="preview">Impossibile condividere una visualizzazione pubblicamente da un tipo di record globale nell&#39;area di lavoro secondaria. </span>
+Non è possibile condividere una visualizzazione pubblicamente da un tipo di record globale nell&#39;area di lavoro secondaria.
 
 >[!IMPORTANT]
 >
@@ -277,7 +277,7 @@ Per condividere una visualizzazione pubblicamente in Workfront Planning:
 
    >[!TIP]
    >
-   ><span class="preview">La scheda **Condivisione pubblica** è stata rimossa per un tipo di record globale nell&#39;area di lavoro secondaria.</span>
+   >La scheda **Condivisione pubblica** è stata rimossa per un tipo di record globale nell&#39;area di lavoro secondaria.
 
 
 1. Fai clic sull&#39;icona **Copia collegamento** ![Copia visualizzazione collegamento](assets/copy-link-view.png) per copiare il collegamento negli Appunti.

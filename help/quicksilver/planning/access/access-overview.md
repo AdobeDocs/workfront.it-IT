@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '751'
 ht-degree: 2%
 
 ---
@@ -16,13 +16,11 @@ ht-degree: 2%
 
 # Panoramica sull’accesso ad Adobe Workfront Planning
 
-<!--leave the global record type reference in yellow till Jan 2026-->
-
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -65,12 +63,11 @@ Per utilizzare Workfront Planning, è necessario disporre dei seguenti diritti d
    <ul><li><p>Qualsiasi pacchetto Workfront e un pacchetto Planning</p></li>
    <li><p>Qualsiasi flusso di lavoro e un pacchetto Planning Prime e Ultimate</p></li></ul>
 
-<div class="preview">
-   <p>Per accedere ai tipi di record globali:</p>
+<p>Per accedere ai tipi di record globali:</p>
    <ul><li><p>Qualsiasi pacchetto Workfront e un pacchetto Planning Plus</p></li>
    <li><p>Qualsiasi pacchetto Workflow e un pacchetto Planning Prime e Ultimate</p></li></ul> </td></tr>
-   </div>
-   <tr>
+
+<tr>
    <td role="rowheader"><p>Piattaforma Adobe Workfront</p></td>
    <td>
    <p>Per poter accedere a Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience.</p>

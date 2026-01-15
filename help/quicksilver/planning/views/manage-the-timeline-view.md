@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '3968'
+source-wordcount: '3912'
 ht-degree: 2%
 
 ---
 
 # Gestire la visualizzazione della timeline
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -282,9 +282,9 @@ Per aggiungere un filtro a una vista timeline:
 1. Seleziona una visualizzazione timeline, quindi fai clic su **Filtri** nell&#39;angolo superiore destro della tabella.
 1. Fai clic su **Aggiungi condizione** e aggiungi le seguenti informazioni:
 
-   * **Selezionare un campo** in <span class="preview">Cercare un campo o </span> fare clic sul menu a discesa per visualizzare un elenco di campi e selezionarlo dall&#39;elenco
+   * **Selezionare un campo** per cercare un campo o selezionarlo dall&#39;elenco.
 
-   * **Seleziona un&#39;opzione** (o un modificatore di filtro) per definire il tipo di condizione che il campo deve soddisfare
+   * **Selezionare un&#39;opzione** (o un modificatore di filtro) per definire il tipo di condizione che il campo deve soddisfare.
 
      Nella tabella seguente vengono visualizzati i modificatori disponibili per ogni tipo di campo.
 
@@ -548,6 +548,8 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
 È possibile visualizzare i record connessi nella visualizzazione della sequenza temporale di un record utilizzando la funzione Raggruppamento. La suddivisione dei record in base alle relative connessioni consente di visualizzare le timeline degli altri record connessi e di comprendere in che modo potrebbero influire sulle prestazioni e sulle scadenze dei record.
 
 #### Considerazioni durante l’utilizzo della funzione di raggruppamento
+
+Quando si suddivide la sequenza temporale dei record in base ai tipi di record connessi, tenere presente quanto segue:
 
 * È possibile visualizzare i record o gli oggetti connessi sotto i record del tipo di record selezionato nella vista timeline.
 * È possibile visualizzare i record connessi nella visualizzazione timeline solo quando si visualizzano i record in modalità Standard. Non potete utilizzare l&#39;opzione Raggruppamento (Breakdown) nella modalità Compatta della vista timeline.

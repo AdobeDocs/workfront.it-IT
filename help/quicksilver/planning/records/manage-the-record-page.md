@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1421'
 ht-degree: 0%
 
 ---
@@ -296,7 +296,7 @@ Si verificano le seguenti situazioni:
 
 ## Aggiungere una pagina Record connessi a un record
 
-È possibile visualizzare informazioni da record o oggetti connessi aggiungendo a un record una scheda per la pagina Record connessi. In questo modo i record connessi in una vista tabella vengono aggiunti alla scheda.
+È possibile visualizzare informazioni da record o oggetti connessi aggiungendo una scheda per una pagina Record connessi all&#39;area dei dettagli di un record. In questo modo i record collegati in una vista a tabella o a elenco vengono aggiunti alla scheda.
 
 Per ulteriori informazioni, vedere [Aggiungere una pagina Record connessi a un record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 

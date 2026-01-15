@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1199'
+source-wordcount: '1136'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 2%
 
 # Crea tipi di record
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -55,7 +55,6 @@ Per ulteriori informazioni sui tipi di record, vedere [Panoramica sui tipi di re
 Oppure
 <li><p>Qualsiasi flusso di lavoro e un pacchetto Planning Prime o Ultimate</p></li></ul>
 
-<div class="preview">
 <p>Per configurare i tipi di record globali:</p>
 
 <ul> 
@@ -64,8 +63,7 @@ Oppure
 <li><p>Qualsiasi flusso di lavoro e un pacchetto Planning Prime o Ultimate</p></li></ul>
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p>
 
-</div>
-   </td> </tr>
+</td> </tr>
   <tr> 
    <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
    <td><p>Standard</p>
@@ -163,8 +161,8 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
         Questo articolo descrive come creare tipi di record da zero.
 
-      * <span class="preview">Aggiungendoli da un&#39;altra area di lavoro</span>
-        <span class="preview">Per informazioni, vedere [Aggiungere tipi di record esistenti da un&#39;altra area di lavoro](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). </span>
+      * Aggiungendoli da un&#39;altra area di lavoro
+Per informazioni, vedere [Aggiungere tipi di record esistenti da un&#39;altra area di lavoro](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
 
 * È possibile spostare tipi di record all&#39;interno di una sezione e da una sezione di un&#39;area di lavoro a un&#39;altra. Non è possibile spostare tipi di record da un&#39;area di lavoro a un&#39;altra.
@@ -208,9 +206,9 @@ Quando si crea un&#39;area di lavoro da un modello, i tipi di record vengono rag
       * Selezionare un colore per identificare il nuovo tipo di record. Colore dell&#39;icona del tipo di record. Il grigio è selezionato per impostazione predefinita.
       * Seleziona un’icona dall’elenco, oppure inizia a digitare il nome di un’icona nel campo di ricerca per descrivere ciò che rappresenta, quindi selezionala quando viene visualizzata. Icona del tipo di record. Per impostazione predefinita, viene selezionata un&#39;icona di file.
 
-1. (Facoltativo e condizionale) Se sei un amministratore di sistema, fai clic sulla scheda **Impostazioni avanzate** <span class="preview">o **Impostazioni per più aree di lavoro**</span> e <span class="preview">aggiorna le informazioni sulle funzionalità per più aree di lavoro del tipo di record.
+1. (Facoltativo e condizionale) Se sei un amministratore di sistema, fai clic sulla scheda **Impostazioni per più aree di lavoro** e aggiorna le informazioni sulle funzionalità per più aree di lavoro del tipo di record.
 
-   ![Casella Modifica tipo di record con scheda Impostazioni avanzate](assets/edit-record-type-box-advanced-settings-tab.png) </span>
+   ![Modifica la casella del tipo di record con la scheda delle impostazioni per più aree di lavoro](assets/edit-record-type-box-advanced-settings-tab.png) </span>
 
    Per ulteriori informazioni, vedere [Configurare le funzionalità tra aree di lavoro diverse per i tipi di record](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
@@ -223,9 +221,9 @@ Sulla scheda viene visualizzata la descrizione del tipo di record.
 
    Se hai selezionato di connettere questo record da altre aree di lavoro, l&#39;icona **Record collegabile** ![Icona Connetti da altri spazi](assets/connect-from-other-workspaces-icon.png) viene visualizzata sulla scheda record.
 
-   <span class="preview">Se hai scelto di consentire l&#39;aggiunta di questo record ad altre aree di lavoro, l&#39;icona del **record globale** ![icona del tipo di record globale](assets/global-icon.png) viene visualizzata sulla scheda record. </span>
+   Se hai selezionato di consentire l&#39;aggiunta di questo record ad altre aree di lavoro, l&#39;icona del **record globale** ![icona del tipo di record globale](assets/global-icon.png) viene visualizzata sulla scheda record.
 
-1. (Facoltativo) Passa il puntatore del mouse sulla scheda del tipo di record, fai clic sull&#39;icona **Altro** ![Altro menu](assets/more-menu.png) nell&#39;angolo superiore destro, quindi fai clic su **Modifica** o <span class="preview">**Impostazioni**</span> per modificare le informazioni sul tipo di record.
+1. (Facoltativo) Passa il puntatore del mouse sulla scheda del tipo di record, fai clic sull&#39;icona **Altro** ![Altro menu](assets/more-menu.png) nell&#39;angolo superiore destro, quindi fai clic su **Modifica** o **Impostazioni** per modificare le informazioni sul tipo di record.
 
    Per informazioni, vedere [Modifica tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md).
 
@@ -277,12 +275,8 @@ Quando si importano informazioni da un file CSV o Excel, è possibile importare 
 
 Per ulteriori informazioni, vedere [Creare tipi di record importando informazioni da un file CSV o Excel](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
 
-<div class="preview">
-
 ## Creare tipi di record aggiungendo quelli esistenti da un&#39;altra area di lavoro
 
 È possibile aggiungere tipi di record a un&#39;area di lavoro aggiungendo quelli esistenti da un&#39;altra area di lavoro. È possibile aggiungere solo tipi di record configurati come tipi di record globali.
 
 Per informazioni, vedere [Aggiungere tipi di record esistenti da un&#39;altra area di lavoro](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
-
-</div>

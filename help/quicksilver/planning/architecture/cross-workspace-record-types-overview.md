@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1674'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Panoramica del tipo di record in più aree di lavoro
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedi [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span> -->
 
 {{planning-important-intro}}
 
@@ -37,27 +37,24 @@ In Adobe Workfront Planning è possibile abilitare le funzionalità tra aree di 
 >
 >* Qualsiasi flusso di lavoro e un pacchetto Planning Prime o Ultimate
 >
-><span class="preview">Per configurare i tipi di record globali:</span>
+>Per configurare i tipi di record globali:
 >
->* <span class="preview">Qualsiasi pacchetto Workfront e un pacchetto Planning Plus</span>
+>* Qualsiasi pacchetto Workfront e un pacchetto Planning Plus
 >     
 >   Oppure
 >
->* <span class="preview">Qualsiasi flusso di lavoro e un pacchetto Planning Prime o Ultimate</span>
+>* Qualsiasi flusso di lavoro e un pacchetto Planning Prime o Ultimate
 >
 >Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront.
 >Per informazioni, vedere [Panoramica dell&#39;accesso ad Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
-
 Di seguito sono riportate le funzionalità dei tipi di record in più aree di lavoro:
 
-* <span class="preview">**Tipi di record globali**: gli utenti possono aggiungere tipi di record globali ad altre aree di lavoro che gestiscono.</span>
+* **Tipi di record globali**: gli utenti possono aggiungere tipi di record globali ad altre aree di lavoro che gestiscono.
 
 * **Tipi di record collegabili**: gli utenti possono connettersi a questo tipo di record da altre aree di lavoro.
 
 Questo articolo offre una panoramica dei tipi di record tra aree di lavoro diverse. Per informazioni sulla definizione delle funzionalità tra aree di lavoro di un tipo di record, vedere [Configurare le funzionalità tra aree di lavoro diverse per i tipi di record](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
-
-<div class="preview">
 
 ## Panoramica dei tipi di record globali
 
@@ -141,21 +138,22 @@ Il tipo di record configurato come globale presenta le seguenti proprietà:
 
    * Eliminalo.
 
-     Se si elimina il tipo di record da un workspace secondario, questo viene rimosso solo dal workspace secondario. Verranno eliminati anche i record e i campi aggiunti a esso dall’area di lavoro secondaria. Il tipo di record non viene eliminato dall&#39;area di lavoro originale o da altre aree di lavoro secondarie in cui è stato aggiunto.
+     Se si elimina il tipo di record da un workspace secondario, questo viene rimosso solo dal workspace secondario. I record e i campi aggiunti a esso dal workspace secondario vengono eliminati anche dallo spazio secondario. I record aggiunti nello spazio secondario rimangono nel workspace principale. Il tipo di record non viene eliminato dall&#39;area di lavoro originale o da altre aree di lavoro secondarie in cui è stato aggiunto.
 
      Per ulteriori informazioni, vedere [Elimina tipi di record](/help/quicksilver/planning/architecture/delete-record-types.md).
+
+   * Condividi
+
+     Quando si condivide un tipo di record globale in un workspace secondario, si verificano anche le seguenti situazioni:
+
+      * Gli utenti vengono aggiunti all’area di lavoro con le autorizzazioni Visualizzazione.
+      * Gli utenti ricevono le stesse autorizzazioni per tutti i record del tipo di record globale nell&#39;area di lavoro secondaria.
    * Condividere le visualizzazioni dei tipi di record.
 
      Non è possibile condividere una visualizzazione pubblicamente da un tipo di record globale in un&#39;area di lavoro secondaria. È possibile condividere le viste solo internamente da un workspace secondario. È possibile condividere una visualizzazione internamente e pubblicamente per un tipo di record globale nell&#39;area di lavoro originale.
 
      Per informazioni, vedere [Condividi visualizzazioni](/help/quicksilver/planning/access/share-views.md).
 
-<!--Uncomment this at prod on Jan 15: * Share it-->
-
-<!--You can share a global record type added to a secondary workspace from the secondary space. By sharing a global record type in a secondary workspace, the following also occur:
-
-    * Users are added to the workspace with View permissions.
-    * Users receive the same permissions to all the records of the global record type in the secondary workspace.-->
 
 <!--when they will be able to add fields to the secondary space, this bullet will need this extra information: 
     After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added.-->
@@ -171,7 +169,6 @@ Il tipo di record configurato come globale presenta le seguenti proprietà:
    * Modifica
 
      Non è possibile modificarne l’aspetto, le funzionalità tra aree di lavoro diverse o i campi aggiunti dall’area di lavoro originale.
-   * Condividi <!-- remove this at Prod on Jan 15-->
    * Creare e gestire i moduli di richiesta
    * Creare e gestire le automazioni
 
@@ -192,6 +189,7 @@ Il tipo di record configurato come globale presenta le seguenti proprietà:
    * Se si dispone delle autorizzazioni Gestione per l&#39;area di lavoro originale e non si dispone delle autorizzazioni per le aree di lavoro secondarie, è possibile visualizzare i record aggiunti dalle aree di lavoro secondarie nell&#39;area di lavoro originale, ma non è possibile gestirli dall&#39;area di lavoro originale.
    * Se si dispone delle autorizzazioni Gestione nell&#39;area di lavoro secondaria, è possibile gestire i record sia dall&#39;area di lavoro originale del tipo di record globale che dall&#39;area di lavoro secondaria in cui sono stati aggiunti.
    * È possibile visualizzare i record in aree di lavoro secondarie aggiuntive in cui il tipo di record globale viene aggiunto solo se si dispone delle autorizzazioni di visualizzazione per tali aree di lavoro. <!-- take this bullet out when we change this functionality on Jan 15-->
+* Non è possibile condividere pubblicamente le visualizzazioni da un tipo di record globale in un&#39;area di lavoro secondaria.
 
 ### Accesso alle connessioni di un tipo di record globale
 
@@ -206,8 +204,6 @@ Esistono i seguenti casi:
 * Se l&#39;utente dispone dell&#39;accesso, il record viene creato nell&#39;area di lavoro originale dei tipi di record globali.
 
 * Se l&#39;utente non dispone dell&#39;accesso, riceve un errore che indica che non ha accesso all&#39;area di lavoro originale del tipo di record globale e che deve fornire l&#39;ID dell&#39;area di lavoro a cui ha accesso per creare i record.
-
-</div>
 
 ## Panoramica dei tipi di record collegabili
 

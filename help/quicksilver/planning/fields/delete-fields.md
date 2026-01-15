@@ -6,9 +6,9 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 author: Alina
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '584'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 # Elimina campi
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -50,10 +50,10 @@ Per informazioni sulla creazione di campi personalizzati in Workfront Planning, 
 Oppure
 <li><p>Qualsiasi flusso di lavoro e qualsiasi pacchetto di Planning</p></li></ul>
 
-<p><span class="preview">Per eliminare campi dai tipi di record globali:</span></p>
-<ul><li><p><span class="preview">Qualsiasi pacchetto Workfront e un pacchetto Planning Plus</span></p></li>
+<p>Per eliminare campi dai tipi di record globali:</p>
+<ul><li><p>Qualsiasi pacchetto Workfront e un pacchetto Planning Plus</p></li>
 Oppure
-<li><p><span class="preview">Tutti i pacchetti Workflow e Planning Prime e Ultimate</span></p></li></ul>
+<li><p>Tutti i pacchetti Workflow e Planning Prime e Ultimate</p></li></ul>
 
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
@@ -149,7 +149,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
-* <span class="preview">Impossibile eliminare i campi dai record globali aggiunti a un&#39;area di lavoro secondaria dalle aree di lavoro secondarie.</span>
+* Non è possibile eliminare i campi dai record globali aggiunti a un&#39;area di lavoro secondaria dalle aree di lavoro secondarie.
 
 ## Elimina campi
 
@@ -184,4 +184,4 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    * Se si elimina un campo che appartiene al record selezionato, il campo viene eliminato e non può più essere associato ad alcun record. Se questo campo viene aggiunto come campo di ricerca in altri record, anche tali campi vengono eliminati.
    * Se si elimina un campo di connessione, il campo viene eliminato dal record selezionato. Viene eliminato anche il campo di connessione corrispondente dal record originale.
    * Se si elimina un campo di ricerca aggiunto da un record connesso, il campo viene eliminato dal tipo di record selezionato, ma rimane nel tipo di record originale.
-   * <span class="preview">Se si elimina un campo da un tipo di record globale nell&#39;area di lavoro principale, il campo verrà eliminato da tutte le aree di lavoro in cui è stato aggiunto il tipo di record. Impossibile eliminare i campi dai tipi di record globali dalle aree di lavoro secondarie.</span>
+   * Se si elimina un campo da un tipo di record globale nell&#39;area di lavoro principale, il campo viene eliminato da tutte le aree di lavoro in cui è stato aggiunto il tipo di record. Non è possibile eliminare i campi dai tipi di record globali dalle aree di lavoro secondarie.
