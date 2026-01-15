@@ -5,9 +5,9 @@ title: Creare e gestire le viste nell’area Richieste
 description: Se utilizzi la nuova esperienza di richiesta, puoi creare e salvare viste per l’area Richieste.
 author: Becky
 feature: Work Management
-source-git-commit: d8e5e6d313eb39c9ac26e7cb60113beac5637890
+source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '693'
 ht-degree: 3%
 
 ---
@@ -93,15 +93,7 @@ Puoi creare una vista nell’area Richieste di Workfront,.
    >Al momento non è possibile aggiungere colonne nell’ambiente di produzione.
 1. (Facoltativo) Fai clic su **Colonne** e nascondi, mostra o ridisponi le colonne nell&#39;elenco richieste.
 
-   ![Casella Colonne](assets/columns-editing-box-in-requests-planning-tab.png)
-
-   >[!TIP]
-   >
-   >Al momento non è possibile aggiungere altre colonne nell’ambiente di produzione.
-
-1. (Facoltativo) Fai clic su **Filtri** e inizia ad aggiungere le condizioni per le richieste che desideri visualizzare nella scheda Planning.
-
-   ![Modifica dei filtri nella scheda Richieste di Planning](assets/filters-editing-box-in-requests-planning-tab.png)
+1. (Facoltativo) Fai clic su **Filtri** e inizia ad aggiungere le condizioni per le richieste che desideri visualizzare.
 
    Puoi filtrare in base ai seguenti campi:
 

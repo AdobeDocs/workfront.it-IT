@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1440'
 ht-degree: 2%
 
 ---
@@ -19,21 +19,14 @@ ht-degree: 2%
 
 Puoi visualizzare le richieste inviate da te o da un altro utente oppure le richieste che hai avviato ma che non hai mai completato l’invio. Puoi individuare queste richieste nelle seguenti aree di Adobe Workfront:
 
-* Scheda **Workfront** dell&#39;area Richieste in Workfront: visualizzare le richieste inviate alle code di richieste di Workfront nelle sezioni seguenti:
-   * **Sezione inviata**: tutte le richieste inviate da te o da un altro utente e a cui hai accesso sono almeno View.
-   * **Sezione bozza**: tutte le richieste avviate ma non completate e non inviate. Per ulteriori informazioni sulle bozze di richieste, vedere [Creare e inviare richieste Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+* L’area Richieste di Workfront
+* il widget Richieste personali nella Home
 
   >[!NOTE]
   >
   >* È possibile visualizzare solo le proprie bozze di richieste.
   >* Nella nuova esperienza di richiesta, le richieste e le bozze inviate si trovano nello stesso elenco.
   >* Le bozze create nell’esperienza legacy non vengono visualizzate nella nuova esperienza di richiesta.
-
-* Scheda **Planning** dell&#39;area Richieste in Workfront: Visualizza richieste inviate ai moduli di richiesta di Workfront Planning. L&#39;organizzazione deve acquistare un pacchetto Workfront Planning. Per informazioni, vedere i seguenti articoli:
-
-   * [Creazione e gestione di un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
-   * [Inviare richieste di Adobe Workfront Planning per creare record](/help/quicksilver/planning/requests/submit-requests.md)
-
 
 ## Requisiti di accesso
 
