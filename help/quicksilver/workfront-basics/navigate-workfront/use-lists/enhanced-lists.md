@@ -5,10 +5,10 @@ description: Gli elenchi avanzati utilizzano un formato tabella per la visualizz
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: ddae871559a756f00ef96e70254e1019964ce882
+source-git-commit: b935f3013c1be670dea834c041e02165f0e7047c
 workflow-type: tm+mt
-source-wordcount: '1288'
-ht-degree: 1%
+source-wordcount: '1620'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ Per informazioni sugli elenchi standard, vedere [Introduzione agli elenchi in Ad
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto">
  <col> 
@@ -89,23 +89,27 @@ Per modificare un elemento nell&#39;elenco, fare doppio clic nella cella che si 
 
 ## Utilizzare la barra delle azioni e il menu Altro in un elenco avanzato
 
-Quando si seleziona la casella di controllo accanto a un elemento nell&#39;elenco avanzato, la barra delle azioni viene visualizzata nella parte inferiore dello schermo e mostra le azioni che è possibile eseguire sull&#39;elemento. Alcune azioni possono essere specifiche per tale elenco e non vengono visualizzate in nessun altro elenco.
+La barra delle azioni mostra le azioni che è possibile eseguire su una voce di elenco. Alcune azioni possono essere specifiche per tale elenco e non vengono visualizzate in nessun altro elenco.
 
->[!NOTE]
->
->Elenchi avanzati diversi possono consentire la selezione di un singolo elemento, la modifica in serie (selezione di più elementi) o la selezione di nessun elemento.
+1. Selezionare la casella di controllo accanto a un elemento nell&#39;elenco avanzato.
 
-Fare clic su un pulsante sulla barra delle azioni per eseguire tale azione, ad esempio visualizzare la voce di elenco, eliminare la voce o modificarla.
+   La barra delle azioni viene visualizzata nella parte inferiore dello schermo.
 
-Se non è disponibile alcuna azione per l&#39;elemento selezionato, la barra delle azioni indica &quot;Nessuna azione disponibile&quot;.
+   >[!NOTE]
+   >
+   >Elenchi avanzati diversi possono consentire la selezione di un singolo elemento, la modifica in serie (selezione di più elementi) o la selezione di nessun elemento.
 
-![Esempio di barra delle azioni](assets/glist-action-bar-statuses.png)
+1. Fare clic su un pulsante sulla barra delle azioni per eseguire tale azione, ad esempio visualizzare la voce di elenco, eliminare la voce o modificarla.
 
-Il menu **Altro** è il menu a tre punti visualizzato accanto a un campo primario in una voce di elenco quando lo si passa con il mouse. Il campo principale è la colonna più a sinistra della tabella.
+   Se non è disponibile alcuna azione per l&#39;elemento selezionato, la barra delle azioni indica &quot;Nessuna azione disponibile&quot;.
 
-Fai clic sul menu per visualizzare le azioni aggiuntive per l’elemento. Alcune azioni possono essere specifiche per tale elenco e non vengono visualizzate in nessun altro elenco.
+   ![Esempio di barra delle azioni](assets/glist-action-bar-statuses.png)
 
-![Altro esempio di menu](assets/glist-more-menu-priorities.png)
+1. Passa il puntatore del mouse su un campo principale di una voce di elenco per visualizzare il menu **Altro**. Il campo principale è la colonna più a sinistra della tabella.
+
+1. Fai clic sul menu per visualizzare le azioni aggiuntive per l’elemento. Alcune azioni possono essere specifiche per tale elenco e non vengono visualizzate in nessun altro elenco.
+
+   ![Altro esempio di menu](assets/glist-more-menu-priorities.png)
 
 ## Personalizzare le colonne in un elenco avanzato
 
@@ -128,9 +132,31 @@ Alcuni elenchi avanzati consentono di nascondere e visualizzare le colonne e di 
 
    ![Indicatore per colonne nascoste](assets/glist-columns-hidden-indicator.png)
 
-## Applicare una visualizzazione a un elenco avanzato
+## Aggiungere e rimuovere colonne in un elenco con Gestione colonne
+
+Alcuni elenchi avanzati offrono **Gestione colonne**, che consente di aggiungere facilmente colonne all&#39;elenco e di rimuoverle. I campi nativi e personalizzati sono entrambi disponibili per la selezione come colonne. I campi personalizzati devono esistere nel sistema prima di poterli aggiungere come colonne elenco.
+
+Per aggiungere e rimuovere colonne:
+
+1. Fai clic sull&#39;icona + in alto a destra della tabella per aprire la casella **Gestione colonne**.
+1. Cerca un campo oggetto esistente nella colonna **Available**, quindi fai clic su + a destra del nome del campo per aggiungerlo alla colonna **Selected**.
+1. Fare clic su - a destra di un campo nella colonna **Selezionato** per rimuoverlo dall&#39;elenco.
+
+   >[!NOTE]
+   >
+   >Alcuni campi potrebbero essere corretti e non possono essere rimossi.
+
+1. Fai clic su **Salva**.
+
+   ![Gestione colonne](assets/glist-column-manager.png)
+
+<!-- Add info about Properties and KPIs when something gets released with those options -->
+
+## Visualizzare i dati con le visualizzazioni in un elenco avanzato
 
 Una vista è un set personalizzato di disposizioni e filtri di colonna che puoi applicare a un elenco. Potete creare nuove viste e modificare quelle esistenti.
+
+### Applicare e creare viste
 
 Per applicare una visualizzazione, fare clic sul menu a discesa **Visualizzazioni** e selezionare la visualizzazione da applicare all&#39;elenco.
 
@@ -144,6 +170,27 @@ Per creare una nuova vista:
    Le modifiche apportate alle viste vengono salvate automaticamente e sono visibili a tutti gli utenti della vista.
 
    Alla successiva applicazione di questa visualizzazione, le impostazioni delle colonne e dei filtri rimangono invariate.
+
+### Condividere una visualizzazione
+
+Nel menu a discesa **Visualizzazioni**, è possibile visualizzare tre categorie di visualizzazioni:
+
+* **Visualizzazioni di sistema**: visualizzazioni assegnate dall&#39;amministratore di sistema.
+* **Visualizzazioni condivise**: visualizzazioni condivise con te da altri utenti.
+* **Visualizzazioni personali**: visualizzazioni create e condivisibili con altri utenti. Puoi condividere le visualizzazioni con altri utenti, team o gruppi.
+
+Per condividere una visualizzazione:
+
+1. Nel menu a discesa **Visualizzazioni**, passa il puntatore del mouse sulla visualizzazione in **Visualizzazioni personali** che desideri condividere, quindi fai clic sul menu a tre punti quando viene visualizzato.
+1. Seleziona **Condividi**.
+1. Nella finestra di dialogo Condividi, inserisci i nomi degli utenti, dei team o dei gruppi con cui vuoi condividere la visualizzazione, quindi selezionali dall’elenco quando vengono visualizzati.
+
+   Puoi assegnare le seguenti autorizzazioni ai destinatari:
+
+   * **Visualizzazione**: gli utenti possono applicare la visualizzazione all&#39;elenco ma non condividerlo.
+   * **Gestione**: gli utenti possono rinominare la visualizzazione, condividerla con altri utenti ed eliminarla.
+
+1. Fai clic su **Salva**.
 
 ## Filtrare e raggruppare gli elementi in un elenco avanzato
 
@@ -160,6 +207,10 @@ I filtri consentono di ridurre la quantità di informazioni visualizzate nell’
    ![Filtro in elenchi avanzati](assets/glist-filter-with-options.png)
 
    Il filtro viene applicato automaticamente all’elenco.
+
+   >[!TIP]
+   >
+   >Per applicare un carattere jolly utente corrente, selezionare **Utente connesso** come valore del campo. Il filtro verrà quindi applicato all’utente che sta visualizzando l’elenco. Questo carattere jolly è disponibile nei campi in cui il valore è un utente.
 
 1. Fare clic su **Aggiungi condizione** per aggiungere un&#39;altra condizione al filtro come istruzione OR.
 1. Quando il filtro viene applicato, è possibile aprire nuovamente le opzioni **Filtro** per modificare le opzioni del filtro o cancellare tutti i filtri.
@@ -185,18 +236,26 @@ I filtri consentono di ridurre la quantità di informazioni visualizzate nell’
 
 ## Ordinare e cercare in un elenco avanzato
 
-Per ordinare le singole colonne, passare alla colonna e fare clic sulla freccia giù. Un&#39;icona accanto al nome di una colonna indica che l&#39;elenco è ordinato in base ai valori della colonna e alla direzione dell&#39;ordinamento.
+Per ordinare le singole colonne:
 
->[!NOTE]
->
->Alcune colonne potrebbero non essere ordinabili.
+1. Passare alla colonna e fare clic sulla freccia giù.
 
-![Ordina per colonna](assets/glist-sort-by-column.png)
+   Un&#39;icona accanto al nome di una colonna indica che l&#39;elenco è ordinato in base ai valori della colonna e alla direzione dell&#39;ordinamento.
 
-Per ordinare il lavoro all&#39;interno di un raggruppamento, apri **Gruppo** e seleziona se desideri ordinare in ordine crescente o decrescente.
+   >[!NOTE]
+   >
+   >Alcune colonne potrebbero non essere ordinabili, a seconda dell’elenco.
 
-![Ordina in un raggruppamento](assets/sort-in-groups.png)
+   ![Ordina per colonna](assets/glist-sort-by-column.png)
 
-Per eseguire la ricerca, digita il termine nel campo di ricerca sopra l’elenco. I risultati vengono evidenziati nell&#39;elenco durante la digitazione.
+Per ordinare il lavoro in un raggruppamento:
 
-![Termine di ricerca evidenziato](assets/glist-search-highlighted.png)
+1. Fai clic su **Gruppo** e seleziona se desideri ordinare in ordine crescente o decrescente.
+
+   ![Ordina in un raggruppamento](assets/sort-in-groups.png)
+
+Per eseguire una ricerca:
+
+1. Digita il termine di ricerca nel campo di ricerca sopra l’elenco. I risultati vengono evidenziati nell&#39;elenco durante la digitazione.
+
+   ![Termine di ricerca evidenziato](assets/glist-search-highlighted.png)
