@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 8b93842d7ce61c7c84b07639b6329bedf4254ffd
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1345'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,15 @@ Per risolvere il conflitto, è necessario trovare l&#39;oggetto in cui sono alle
 * In tutti i moduli personalizzati allegati all’oggetto, aggiungi un nuovo campo personalizzato calcolato contenente il calcolo necessario e contrassegna il vecchio campo personalizzato calcolato come obsoleto.
 
 Questo articolo spiega come trovare l’oggetto e quindi risolvere il problema in uno di questi tre modi.
+
+>[!NOTE]
+>
+>Se l&#39;errore viene visualizzato ma non è possibile individuare più oggetti contenenti il campo personalizzato, controllare il Cestino. È possibile che un oggetto nel Cestino contenga il campo. Poiché gli oggetti nel Cestino possono essere ripristinati in qualsiasi momento, l&#39;errore di conflitto multiforme continuerà a verificarsi fino alla risoluzione del conflitto.
+>
+>Per aggiungere un campo con un&#39;espressione diversa, è necessario risolvere il conflitto eseguendo una delle operazioni seguenti:
+>
+>* Rimuovi il campo dal modulo personalizzato in conflitto
+>* Ripristinare l&#39;oggetto eliminato, scollegare uno dei moduli personalizzati in conflitto, quindi eliminare nuovamente l&#39;oggetto, se necessario.
 
 ## Trovare l’oggetto a cui sono allegati i moduli personalizzati {#find-the-object-where-the-custom-forms-are-attached}
 
