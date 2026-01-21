@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: cf1d4bfeedb94e8607dad47177d804169254ee85
+source-git-commit: b926138cca96849f8c4490ec9550fecfd17da69a
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '647'
 ht-degree: 5%
 
 ---
@@ -60,7 +60,7 @@ Se carichi un tipo di file non supportato, l’opzione Revisore IA non viene vis
 
 ## Impostare le linee guida per il marchio
 
-Il revisore di IA di Workfront utilizza le linee guida del brand durante la revisione dei contenuti. Gli amministratori di Workfront possono impostare le linee guida per il marchio nell’area Configurazione di Workfront. &lt;!- I marchi creati in GenStudio Foundation sono disponibili anche in Workfront.
+Il revisore di IA di Workfront utilizza le linee guida del brand durante la revisione dei contenuti. Gli amministratori di Workfront possono impostare le linee guida per il marchio nell’area Configurazione di Workfront. <!--Brands created in GenStudio Foundation are also available in Workfront.-->
 
 Per ulteriori informazioni, consulta [Configurare i brand per il revisore di IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
