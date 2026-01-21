@@ -1,15 +1,15 @@
 ---
 title: 'Launchpad Di 30 Giorni: Implementazione Della Home Strategica'
-description: Scopri come implementare Workfront Planning (WFP) utilizzando una strategia che dia priorità alla sicurezza psicologica, riduca al minimo le interruzioni e offra risultati rapidi.
+description: Scopri come implementare Workfront Planning utilizzando una strategia che dia priorità alla sicurezza psicologica, riduca al minimo le interruzioni e offra risultati rapidi.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 77ef50ebd583f0a46324e5cbdc4feea9d21f4280
+source-git-commit: 1158a49fc0b39ef49f23326935d4635530501687
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '975'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## Obiettivo
 
-Scopri come implementare Workfront Planning (WFP) utilizzando una strategia che dia priorità alla sicurezza psicologica, riduca al minimo le interruzioni e offra risultati rapidi.
+Scopri come implementare Workfront Planning utilizzando una strategia che dia priorità alla sicurezza psicologica, riduca al minimo le interruzioni e offra risultati rapidi.
 
 
 
@@ -48,9 +48,9 @@ Per attivare questo cambiamento evolutivo, scegli un team pilota pronto e dispos
 
 
 
-* **Percorso parallelo (doppio tracciamento):** Il team mantiene il flusso di lavoro corrente durante la modellazione simultanea del successivo ciclo di pianificazione in WFP. Questo crea &quot;memoria muscolare&quot; e fiducia senza il rischio di un singolo punto di errore.
+* **Percorso parallelo (doppio tracciamento):** Il team mantiene il flusso di lavoro corrente durante la modellazione simultanea del successivo ciclo di pianificazione in Workfront Planning. Questo crea &quot;memoria muscolare&quot; e fiducia senza il rischio di un singolo punto di errore.
 
-* **Interruzione di pulizia:** Dopo un primo esercizio di progettazione che utilizza dati di esempio per convalidare il modello, il team sposta il punto iniziale di pianificazione &quot;live&quot; direttamente in WFP per il ciclo successivo.
+* **Interruzione pulita:** Dopo un primo esercizio di progettazione che utilizza dati di esempio per convalidare il modello, il team sposta il punto iniziale di pianificazione &quot;live&quot; direttamente in Workfront Planning per il ciclo successivo.
 
 
 
@@ -82,7 +82,7 @@ Questa architettura di **Team-First** consente di:
 
 * **Strategia di connessione al lavoro:** Abilitare il collegamento tra i record di pianificazione e il modulo del flusso di lavoro.
 
-* **Speculare i dati correnti:** Utilizzare gli strumenti esistenti del team (Excel/Core) per popolare WFP, assicurandosi che i dati siano familiari e pertinenti.
+* **Speculare i dati correnti:** Utilizzare gli strumenti esistenti del team (Excel/Core) per popolare Workfront Planning, assicurandosi che i dati siano familiari e pertinenti.
 
 * **Progettato per la flessibilità:** Ricorda che Workfront Planning è progettato per evolvere. È possibile iniziare con i processi a livello di team, elevandoli o migrandoli facilmente alla governance a livello aziendale quando l&#39;azienda è pronta.
 
@@ -102,7 +102,7 @@ Puntare alla prima vittoria importante entro il Giorno 15: **creazione automatic
 
 ### Giorni 16-30: transizione graduale verso la scala Enterprise
 
-Con il &quot;momento di fulmine&quot; raggiunto, spostare il punto iniziale del team in WFP. Quando il modello **Team-First** ha esito positivo, inizia il percorso verso la **Scala Enterprise** identificando i modelli che funzionano.
+Dopo aver raggiunto il &quot;momento di fulmine&quot;, spostare il punto di partenza del team in Workfront Planning. Quando il modello **Team-First** ha esito positivo, inizia il percorso verso la **Scala Enterprise** identificando i modelli che funzionano.
 
 
 
@@ -110,7 +110,7 @@ Con il &quot;momento di fulmine&quot; raggiunto, spostare il punto iniziale del 
 
 * **Osserva e standardizza:** Utilizza il Workspace principale per osservare il modo in cui il team pilota utilizza lo strumento. Questi esempi reali daranno forma al tuo progetto aziendale finale.
 
-* **Disattivazione dei fogli di calcolo legacy:** Spostamento completo in WFP alla scadenza del processo.
+* **Smantellamento dei fogli di calcolo legacy:** Spostarsi completamente in Workfront Planning alla scadenza del processo.
 
 * **Utenti avanzati di turno:** Utilizza la **vista tabella** per la gestione diretta dei piani ad alta velocità.
 
@@ -126,7 +126,7 @@ Cerca questi primi indicatori di salute:
 
 * **Efficienza:** l&#39;automazione riduce il tempo che intercorre tra l&#39;approvazione strategica e l&#39;avvio del progetto.
 
-* **Attendibilità:** Le parti interessate utilizzano le timeline WFP anziché i deck di stato manuali per le revisioni.
+* **Attendibilità:** Le parti interessate utilizzano le timeline di Workfront Planning anziché i deck di stato manuali per le revisioni.
 
 
 

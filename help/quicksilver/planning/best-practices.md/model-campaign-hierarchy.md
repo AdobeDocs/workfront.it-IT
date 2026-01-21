@@ -1,5 +1,5 @@
 ---
-title: 'Blueprint per il successo: modellare la gerarchia delle campagne'
+title: 'Framework di successo: modellare la gerarchia delle campagne'
 description: Scopri come tradurre i processi aziendali complessi in una gerarchia di campagne scalabile e gestita utilizzando "Centri di gravità" e un’architettura con più aree di lavoro.
 feature: Workfront Planning
 role: User, Admin
@@ -7,15 +7,15 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 77ef50ebd583f0a46324e5cbdc4feea9d21f4280
+source-git-commit: 1158a49fc0b39ef49f23326935d4635530501687
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
 
 
-# Blueprint per il successo: modellare la gerarchia delle campagne
+# Framework per il successo: modellare la gerarchia delle campagne
 
 
 
@@ -31,7 +31,7 @@ Con la scalabilità delle operazioni di marketing, aumenta anche la complessità
 
 
 
-Il &quot;Blueprint of Success&quot; è un framework per modellare la gerarchia delle campagne in Workfront Planning (WFP). Consente di passare dal caos dei fogli di calcolo a un modello gestito e orientato agli oggetti che garantisce che ogni team parli la stessa lingua, mantenendo al contempo l&#39;agilità necessaria per l&#39;esecuzione.
+Il &quot;Blueprint of Success&quot; è un framework per la modellazione della gerarchia delle campagne in Workfront Planning. Consente di passare dal caos dei fogli di calcolo a un modello gestito e orientato agli oggetti che garantisce che ogni team parli la stessa lingua, mantenendo al contempo l&#39;agilità necessaria per l&#39;esecuzione.
 
 
 
@@ -77,7 +77,7 @@ Una volta stabilito il percorso principale, le organizzazioni possono scegliere 
 
 * **Piani canale:** Un livello tra *Campagne* e *Tattiche* per raggruppare strategie interfunzionali (ad esempio, &quot;Strategia digitale&quot;).
 
-* **Attività WFP:** In ambienti con volumi ridotti (in genere &lt;5.000 risultati finali/anno), alcuni team preferiscono tenere traccia delle singole &quot;esperienze&quot; come record WFP prima di diventare progetti.
+* **Workfront Planning Activities:** In ambienti con volumi ridotti (in genere &lt;5.000 risultati finali/anno), alcuni team preferiscono tenere traccia delle singole &quot;Esperienze&quot; come record di Workfront Planning prima che diventino progetti.
 
 
 >[!TIP]
@@ -156,9 +156,9 @@ Mentre Workfront Planning è il futuro dell&#39;intento strategico, il reporting
 
 * **Consiglio:** Non eliminare ancora i portafogli e i programmi. Utilizzare invece **Automazioni Fusion** per creare un bridge.
 
-* **Funzionamento:** Quando si crea una campagna o una tattica in WFP, Fusion può eseguire automaticamente il mirroring di tale record in un Portfolio o in un programma corrispondente nel modulo del flusso di lavoro. Questo consente di:
+* **Funzionamento:** Quando si crea una tattica o una campagna in Workfront Planning, Fusion può eseguire automaticamente il mirroring di tale record in un Portfolio o in un programma corrispondente nel modulo del flusso di lavoro. Questo consente di:
 
-   1. Approfitta della **visualizzazione strategica** superiore di WFP (Timeline/Calendari).
+   1. Approfitta della **visualizzazione strategica** superiore di Workfront Planning (Timeline/Calendari).
 
    2. Gestisci la **generazione rapporti legacy** nel modulo Flusso di lavoro per le parti interessate che non sono ancora pronte per passare all&#39;area di lavoro.
 
@@ -170,7 +170,7 @@ Mentre Workfront Planning è il futuro dell&#39;intento strategico, il reporting
 
 * **Assegna aree di lavoro principali.** Assicurarsi che ogni tipo di record disponga di un&#39;area di lavoro &quot;principale&quot; (il centro di gravità) che funga da aggregatore per il reporting.
 
-* **Assegna la priorità a Forms per l&#39;acquisizione.** Utilizzare i moduli record per gruppi meno sofisticati in WFP per garantire l&#39;integrità dei metadati. Anche se gli utenti esperti possono trarre vantaggio dall’inserimento diretto dei dati nelle visualizzazioni Tabella, questo approccio deve essere adottato con cautela: le modifiche in blocco in una tabella possono creare facilmente problemi di dati per altre parti interessate.
+* **Assegna la priorità a Forms per l&#39;acquisizione.** Utilizzare i moduli record per gruppi meno sofisticati in Workfront Planning per garantire l&#39;integrità dei metadati. Anche se gli utenti esperti possono trarre vantaggio dall’inserimento diretto dei dati nelle visualizzazioni Tabella, questo approccio deve essere adottato con cautela: le modifiche in blocco in una tabella possono creare facilmente problemi di dati per altre parti interessate.
 
 
 ### Non:
