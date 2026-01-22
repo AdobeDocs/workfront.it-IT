@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1547'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 # Condividere tipi di record
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -186,7 +186,6 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
   Per informazioni, vedere [Panoramica del tipo di record tra aree di lavoro](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 
-
 ## Condivisione delle autorizzazioni per un tipo di record
 
 È possibile modificare le autorizzazioni per i singoli tipi di record di un&#39;area di lavoro se si dispone dell&#39;autorizzazione Gestione per l&#39;area di lavoro.
@@ -205,11 +204,6 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    ![Autorizzazioni per i tipi di record con autorizzazioni ereditate su](assets/permissions-for-record-types-with-inherited-permissions-on.png)
 
 1. (Facoltativo) Nell&#39;area **Chi ha accesso**, l&#39;opzione **Tutti nell&#39;area di lavoro possono visualizzare** è selezionata per impostazione predefinita.  Tutti gli utenti che dispongono di autorizzazioni View (Visualizzazione) o di livello superiore per l&#39;area di lavoro possono visualizzare il tipo di record.
-
-   >[!WARNING]
-   >
-   >Non è possibile condividere tipi di record con singoli utenti. Se si aggiungono singoli utenti al tipo di record, questi verranno aggiunti anche all&#39;area di lavoro.
-
 
 1. (Facoltativo) Fai clic sul numero di utenti nell&#39;opzione **Autorizzazioni ereditate** per visualizzare utenti, team, gruppi, aziende o ruoli che ereditano le autorizzazioni dall&#39;area di lavoro.
 
@@ -235,6 +229,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    >* Se gli utenti dispongono delle autorizzazioni di gestione per l&#39;area di lavoro, non è possibile assegnare loro un&#39;autorizzazione inferiore rispetto a Gestisci a un tipo di record.
    >* Se dispongono delle autorizzazioni Contribute per l&#39;area di lavoro, potete concedere agli utenti un&#39;autorizzazione minore per il tipo di record.
    > Per ulteriori informazioni, vedere [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+   >* Quando condividi un tipo di record con un utente, nel campo vengono visualizzate anche la mansione principale <span class="preview"> e l&#39;e-mail</span>. Per poter visualizzare l&#39;e-mail dell&#39;utente, è necessario che l&#39;impostazione Visualizza informazioni di contatto sia abilitata per l&#39;oggetto Users nel proprio livello di accesso.
 
 1. Per consentire agli utenti che non dispongono delle autorizzazioni per l&#39;area di lavoro di visualizzare un tipo di record, nel campo **Concedi l&#39;accesso a questa visualizzazione**, inizia a digitare il nome di un utente, un gruppo, un team, una società o una mansione, quindi fai clic su di esso quando viene visualizzato nell&#39;elenco.
 

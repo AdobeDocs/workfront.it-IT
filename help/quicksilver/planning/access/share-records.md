@@ -7,9 +7,9 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1883'
 ht-degree: 2%
 
 ---
@@ -198,7 +198,7 @@ In qualità di manager dell&#39;area di lavoro, è possibile modificare le autor
 
    >[!TIP]
    >
-   >Non è possibile rimuovere singole entità dall&#39;elenco Autorizzazioni ereditate.
+   >Non è possibile rimuovere singole entità dall&#39;elenco Autorizzazioni ereditate. <!--test this!-->
 
 1. (Facoltativo e condizionale) Se si desidera condividere il record con entità specifiche e concedere loro un accesso diverso al tipo di record rispetto a quello già disponibile per l&#39;area di lavoro, eseguire le operazioni seguenti:
 
@@ -224,6 +224,7 @@ In qualità di manager dell&#39;area di lavoro, è possibile modificare le autor
    >* Se gli utenti dispongono delle autorizzazioni Contribute (Contribuisci) o Manage (Gestisci) per l&#39;area di lavoro e il tipo di record, manterranno le autorizzazioni Manage (Gestisci) per il record. L’autorizzazione Visualizzazione è disabilitata. <!--this is not dimmed at this time, Lilit to check-->
    >* Non potete concedere agli utenti un&#39;autorizzazione minore per il record se dispongono di Contribute o di una versione successiva per il tipo di record.
    > Per ulteriori informazioni, vedere [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+   >* Quando condividi un record con un utente, nel campo vengono visualizzate anche la mansione principale <span class="preview"> e l&#39;e-mail</span>. Per poter visualizzare l&#39;e-mail dell&#39;utente, è necessario che l&#39;impostazione Visualizza informazioni di contatto sia abilitata per l&#39;oggetto Users nel proprio livello di accesso.
 
 1. Per consentire agli utenti che non dispongono delle autorizzazioni per l&#39;area di lavoro di visualizzare un record, nel campo **Concedi l&#39;accesso a questa visualizzazione**, inizia a digitare il nome di un utente, un gruppo, un team, una società o una mansione, quindi fai clic su di esso quando viene visualizzato nell&#39;elenco.
 

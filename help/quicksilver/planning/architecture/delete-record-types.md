@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1071'
 ht-degree: 1%
 
 ---
@@ -221,15 +221,15 @@ Considera quanto segue:
 
 * Quando si elimina un tipo di record globale da un&#39;area di lavoro secondaria, vengono eliminati anche i seguenti elementi:
 
-   * I record aggiunti dall&#39;area di lavoro secondaria vengono eliminati dall&#39;area di lavoro secondaria e non possono essere recuperati.
-
-     I record aggiunti nell&#39;area di lavoro secondaria rimangono nell&#39;area di lavoro principale del tipo di record globale. Il campo **Workspace** è vuoto per questi record nell&#39;area di lavoro principale del tipo di record globale. <!--checking on this with Lilit-->
+   * I record aggiunti dall&#39;area di lavoro secondaria vengono eliminati dall&#39;area di lavoro secondaria e dall&#39;area di lavoro originale e non possono essere recuperati.
 
   <!--Coming later: * The fields added from the secondary workspace.-->
 
 * Non è possibile recuperare i tipi di record globali eliminati dalle aree di lavoro secondarie.
 
 * Il tipo di record originale rimane nell&#39;area di lavoro originale e in altre aree di lavoro in cui è stato aggiunto.
+
+* Le visualizzazioni aggiunte al tipo di record nell&#39;area di lavoro secondaria vengono mantenute e sono visibili in altre aree di lavoro, se condivise con te.
 
 Per eliminare un tipo di record globale da un&#39;area di lavoro secondaria:
 

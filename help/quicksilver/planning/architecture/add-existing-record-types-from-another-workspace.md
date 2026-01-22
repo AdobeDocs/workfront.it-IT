@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '657'
 ht-degree: 1%
 
 ---
@@ -138,7 +138,8 @@ And
 
       * Tutti i campi originali
       * Tutte le connessioni record
-   * È possibile visualizzare i record aggiunti da altre aree di lavoro che utilizzano lo stesso tipo di record globale solo se si dispone almeno delle autorizzazioni di visualizzazione per tali aree di lavoro. <!--replace this bullet by this with Jan 15 release: You can view records added from the original workspace of the global record type only when you have at least View permissions to that workspace.-->
+   * Non è possibile visualizzare i record aggiunti dall&#39;area di lavoro originale del tipo di record dall&#39;area di lavoro secondaria.
+   * È possibile visualizzare i record aggiunti dall&#39;area di lavoro originale del tipo di record in tale area di lavoro, solo nell&#39;area di lavoro originale, se si dispone almeno delle autorizzazioni di visualizzazione per tale area di lavoro.
    * Il campo **Workspace** di sola lettura è stato aggiunto alla nuova visualizzazione della tabella del tipo di record. Nel campo viene visualizzata l&#39;area di lavoro in cui è stato creato ogni record.
 
      >[!NOTE]
@@ -147,7 +148,12 @@ And
      >
 
 1. (Facoltativo) Fai clic su, quindi trascina e rilascia il nuovo tipo di record aggiunto in una sezione all’interno dell’area di lavoro.
-1. (Facoltativo) Fai clic sul menu **Altro** sulla scheda del nuovo tipo di record o a destra del nome del tipo di record nella relativa pagina, quindi fai clic su **Elimina**.
+1. (Facoltativo) Fare clic sul menu **Altro** sulla scheda del nuovo tipo di record o a destra del nome del tipo di record nella relativa pagina, quindi fare clic su una delle opzioni seguenti:
+
+   * **Condividi** per condividere il tipo di record dall&#39;area di lavoro secondaria.
+   * **Elimina** per eliminare il tipo di record dall&#39;area di lavoro secondaria. L&#39;eliminazione dei tipi di record dall&#39;area di lavoro secondaria comporta anche l&#39;eliminazione dei record aggiunti dall&#39;area di lavoro secondaria.
+
+     Le viste aggiunte dall&#39;area di lavoro secondaria non vengono eliminate. <!--checking with Lilit - not sure if this is by design??-->
 
    Per ulteriori informazioni, vedere la sezione &quot;Eliminare tipi di record globali&quot; nell&#39;articolo [Eliminare tipi di record](/help/quicksilver/planning/architecture/delete-record-types.md).
 

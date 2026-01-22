@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
+source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
 workflow-type: tm+mt
-source-wordcount: '3165'
+source-wordcount: '3240'
 ht-degree: 0%
 
 ---
@@ -148,12 +148,11 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 ## Considerazioni durante la creazione di record
 
-<!--
-* Depending which workspace they are added from, records added to global record types are visible by the following types of users:
+* A seconda dell&#39;area di lavoro da cui vengono aggiunti, i record aggiunti ai tipi di record globali sono visibili dai seguenti tipi di utenti:
 
-    * Records added to the original workspace of a global record type are visible from the original workspace and all secondary workspaces where the record type is added. (***************check with Lilit on this one*************)
-    * Records added to a secondary workspace of a global record type are visible only from the workspace they were created and the original workspace of the global record type. 
-    For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). -->
+   * I record aggiunti all&#39;area di lavoro originale di un tipo di record globale sono visibili dall&#39;area di lavoro originale.
+   * I record aggiunti a un&#39;area di lavoro secondaria di un tipo di record globale sono visibili solo dall&#39;area di lavoro in cui sono stati creati e dall&#39;area di lavoro originale del tipo di record globale.
+Per ulteriori informazioni, vedere [Panoramica del tipo di record tra aree di lavoro](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 * A seconda delle autorizzazioni di cui dispongono per l&#39;area di lavoro e i tipi di record, gli utenti possono creare i record nei modi seguenti:
 
