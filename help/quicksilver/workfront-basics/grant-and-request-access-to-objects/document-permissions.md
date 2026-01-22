@@ -75,7 +75,7 @@ Il utente che carica un documento su Workfront dispone delle autorizzazioni di g
 
    ![Dettagli documento collegare](assets/document-details-link.png)
 
-1. Fai clic sull&#39;icona Altro a **destra del nome del documento, quindi fai clic su** Condividi![.](assets/more-icon.png) **** Viene visualizzata la **finestra di dialogo Condividi [nome]** documento.
+1. Fai clic sull&#39;icona Altro a **destra del nome del documento, quindi fai clic su** Condividi![.](assets/more-icon.png) **&#x200B;**&#x200B;Viene visualizzata la **finestra di dialogo Condividi [nome]** documento.
 
    ![Condividere un documento](assets/share-a-document-350x160.png)
 
@@ -118,7 +118,7 @@ Il utente che carica un documento su Workfront dispone delle autorizzazioni di g
 
 1. Nella scheda Tutti i **documenti** nella **pagina Documenti** , tieni premuto **Comando** (Mac) o **Ctrl** (Windows) sulla tastiera, quindi fai clic su ciascun documento che desideri condividere.
 
-1. Nella parte superiore della pagina, fai clic sull&#39;icona **** Condividi![ Condividi](assets/share-icon.png). Viene visualizzata la modalità di condivisione.
+1. Nella parte superiore della pagina, fai clic sull&#39;icona **&#x200B;**&#x200B;Condividi![&#x200B; Condividi](assets/share-icon.png). Viene visualizzata la modalità di condivisione.
 
    ![Icona Condividi](assets/share-documents-in-bulk.png)
 
