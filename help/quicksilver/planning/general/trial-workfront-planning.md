@@ -1,32 +1,37 @@
 ---
 title: Introduzione alla versione di prova gratuita di Adobe Workfront Planning
 description: Adobe Workfront offre attualmente una prova gratuita di 60 giorni di pianificazione Adobe Workfront. Questa prova rappresenta un'opportunità per vedere come Planning collega una strategia di grandi dimensioni al lavoro quotidiano che la rende possibile. Planning offre visibilità centralizzata nel ciclo di vita del marketing, consentendo una migliore collaborazione tra i team, il tracciamento in tempo reale delle campagne e flussi di lavoro automatizzati. Puoi creare aree di lavoro personalizzate e visualizzare il lavoro con timeline e calendari interattivi. Con questa versione di prova, puoi vedere in prima persona in che modo Planning consente di allineare il lavoro giornaliero agli obiettivi strategici, semplificarne l’esecuzione e ottenere risultati misurabili per la tua organizzazione.
-author: Alina
-feature: Workfront Planning
-role: User, Admin
-recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 1158a49fc0b39ef49f23326935d4635530501687
+source-git-commit: 01627468b106d2bea721f867512cf3b7f9b65a89
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 0%
+source-wordcount: '943'
+ht-degree: 1%
 
 ---
 
 
+<!--add at release to the metadata:
+author: Alina
+feature: Workfront Planning
+role: User, Admin
+recommendations: noDisplay, noCatalog-->
+
 # Introduzione alla versione di prova gratuita di Adobe Workfront Planning
+
+<!-- are we still calling the tab "Best practice workspaces"? If not, reword below-->
+
+<!--add screen shots-->
+<!--remove the best practice link below and replace it with the folder for best practice instead-->
+<!--check the names of areas, buttons, and links: Learn more, Open Planning, Review trial agreement, etc-->
 
 Adobe Workfront offre attualmente una prova gratuita di 60 giorni di pianificazione Adobe Workfront.
 
 Lo studio è disponibile tra le seguenti date: 2 marzo - 1 maggio 2026.
 
->[!NOTE]
->
->La versione di valutazione di Workfront Planning non è disponibile per i clienti Workfront Planning correnti. La versione di prova è un&#39;opportunità per i clienti Workfront <!-- is it Workfront or Adobe, or anyone--> che non sono clienti Planning di sperimentare Workfront Planning e di vedere come è possibile collegare la strategia generale con il lavoro quotidiano che lo rende possibile.
+La versione di valutazione di Workfront Planning non è disponibile per i clienti Workfront Planning correnti. La versione di prova è un&#39;opportunità per i clienti di Adobe Workfront che non sono clienti di Planning per sperimentare Workfront Planning e per vedere come può collegare una strategia d&#39;insieme con il lavoro quotidiano che lo rende possibile.
 
-
-Planning offre visibilità centralizzata nel ciclo di vita del marketing, consentendo una migliore collaborazione tra i team, il tracciamento in tempo reale delle campagne e flussi di lavoro automatizzati. Puoi creare aree di lavoro personalizzate e visualizzare il lavoro con timeline e calendari interattivi.
+Workfront Planning offre visibilità centralizzata nel ciclo di vita del marketing, consentendo una migliore collaborazione tra i team, il tracciamento in tempo reale delle campagne e flussi di lavoro automatizzati. Puoi creare aree di lavoro personalizzate e visualizzare il lavoro con timeline e calendari interattivi.
 
 Con questa versione di prova, puoi vedere in prima persona in che modo Planning consente di allineare il lavoro quotidiano agli obiettivi strategici, semplifica l’esecuzione e produce risultati misurabili per la tua organizzazione.
 
@@ -42,69 +47,91 @@ La versione di prova gratuita di Workfront Planning offre le seguenti funzionali
 Per partecipare alla versione di prova gratuita di Workfront Planning, è necessario che la società disponga dei seguenti elementi:
 
 * Qualsiasi nuovo pacchetto Adobe Workfront o flusso di lavoro
-La versione di prova di Workfront Planning non è disponibile per i pacchetti Workfront legacy
+La versione di prova di Workfront Planning non è disponibile per i pacchetti Workfront legacy.
 Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 * Accesso a Adobe Admin Console
 * Essere parte del sistema Identity Management (IMS)
-* Il contratto legale firmato disponibile nell’istanza Workfront della tua organizzazione
+* Il contratto di prova legale firmato disponibile nell’istanza Workfront della tua organizzazione
 
-## Come iscriversi alla versione di prova
+## Panoramica delle date importanti
 
-Prima che tutti gli utenti dell&#39;organizzazione possano accedere alla versione di prova gratuita di Workfront Planning, è necessario che uno degli amministratori di Workfront riveda e firmi un contratto legale.
+Di seguito sono riportate le date importanti associate all&#39;offerta di prova gratuita di Adobe Workfront Planning:
+
+* **2 marzo 2026**: viene avviata la versione di prova di Workfront Planning.
+* **1 maggio 2026**: la versione di valutazione di Workfront Planning viene chiusa e l&#39;accesso a Planning viene rimosso. Workfront protegge i dati al termine della versione di prova.
+* **30 novembre 2026**: Workfront non protegge più i dati dopo questa data. Se si acquista Workfront Planning prima di questa data, si riottiene l&#39;accesso a Planning e ai dati.
+
+<!--Lauren wanted this out: 
+* **November 30, 2026** - Workfront no longer makes your data available after this date. You can still purchase Workfront Planning, but your data is removed after this date. -->
+
+## Come iscriversi alla versione di prova gratuita
+
+Uno degli amministratori di Workfront deve rivedere e firmare il contratto di prova legale prima che tutti gli utenti dell&#39;organizzazione possano accedere alla versione di prova gratuita di Workfront Planning.
 
 Potrai rivedere e firmare l’accordo prima dell’inizio del processo, il 2 marzo 2026.
 
 <!--check the steps here at release-->
 
-1. Per rivedere e accettare l&#39;accordo legale, eseguire una delle operazioni seguenti:
+Per rivedere e accettare l&#39;accordo legale, eseguire una delle operazioni seguenti:
 
-   1. Prima del 2 marzo 2026, effettua le seguenti operazioni:
-      1. Accedi ad Adobe Workfront come amministratore di sistema.
-      1. Segui il banner in-app che contiene informazioni sulla **prova di Workfront Planning**
+* Prima del 2 marzo 2026, effettua le seguenti operazioni:
 
-         Oppure
+   1. (Condizionale) Accedi ad Adobe Workfront come amministratore di sistema.
+   1. Esegui una delle operazioni seguenti:
 
-         Vai all&#39;**area Notifiche Workfront** nell&#39;angolo superiore destro dello schermo, quindi fai clic su **Tutti gli annunci** e trova il messaggio del Centro notifiche sulla versione di prova di Workfront Planning.
-      1. Fare clic su **Rivedi contratto di prova**. <!--not sure if this will be available in the email/ banner, or if they can go to System Preferences to do this - might need to adjust the steps here-->
-      1. Dopo aver esaminato il contratto, fare clic su **Accetta**.
+      * Segui il banner in-app che contiene informazioni sulla **prova di Workfront Planning**
 
-   1. Dopo il 2 marzo 2026, all’avvio della versione di prova, effettua le seguenti operazioni:
+      * Vai all&#39;**area Notifiche Workfront** nell&#39;angolo superiore destro dello schermo, quindi fai clic su **Tutti gli annunci** e trova il messaggio del Centro notifiche sulla versione di prova di Workfront Planning.
+   1. Fare clic su **Rivedi contratto di prova**. <!--not sure if this will be available in the email/ banner, or if they can go to System Preferences to do this - might need to adjust the steps here-->
+   1. Dopo aver esaminato il contratto, fare clic su **Accetta**.
+   1. (Condizionale) Se non sei un amministratore di sistema, segui il banner in-app che contiene informazioni sulla **prova di Workfront Planning**, quindi fai clic su **Ulteriori informazioni**.
 
-      1. Accedi ad Adobe Workfront come amministratore di sistema.
-      1. Segui il banner in-app che contiene informazioni sulla **prova di Workfront Planning**
+      Ulteriori informazioni sulla versione di prova di Workfront Planning e su Workfront Planning.
 
-         Oppure
+* Dopo il 2 marzo 2026, all’avvio della versione di prova, effettua le seguenti operazioni:
 
-         Vai all&#39;**area Notifiche Workfront** nell&#39;angolo superiore destro dello schermo, quindi fai clic su **Tutti gli annunci** e trova il messaggio del Centro notifiche sulla versione di prova di Workfront Planning
+   1. (Condizionale) Accedi ad Adobe Workfront come amministratore di sistema.
+   1. Esegui una delle operazioni seguenti:
 
-         Oppure
+      * Segui il banner in-app che contiene informazioni sulla **prova di Workfront Planning**
 
-         Vai a **Configurazione** > **Sistema** > **Preferenze**.
-      1. (Condizionale) Se ti trovi nell&#39;area **Configurazione**, passa alla sezione **Altre preferenze**, quindi fai clic su **Rivedi contratto di prova**.
-      1. Dopo aver esaminato il contratto, fare clic su **Accetta**.
+      * Vai all&#39;**area Notifiche Workfront** nell&#39;angolo superiore destro dello schermo, quindi fai clic su **Tutti gli annunci** e trova il messaggio del Centro notifiche sulla versione di prova di Workfront Planning
 
-         La tua organizzazione è ora iscritta alla prova di Workfront Planning fino al 1° maggio 2026.
+      * Vai a **Configurazione** > **Sistema** > **Preferenze**.
+   1. (Condizionale) Se ti trovi nell&#39;area **Configurazione**, passa alla sezione **Altre preferenze**, quindi fai clic su **Rivedi il contratto di prova**.
+   1. Dopo aver esaminato il contratto, fare clic su **Accetta**.
 
-         Dopo il 2 marzo 2026, le seguenti autorizzazioni vengono concesse ai dati disponibili nelle **aree di lavoro per le best practice** nell&#39;area **Prova di Planning**:
+      La tua organizzazione è ora iscritta alla prova di Workfront Planning fino al 1° maggio 2026.
 
-         * Tutti gli amministratori di sistema dispongono delle autorizzazioni di gestione.
-         * Tutti gli altri utenti dispongono delle autorizzazioni di visualizzazione.
-      1. (Condizionale) Dopo il 2 marzo 2026, inizia a esplorare la scheda **Aree di lavoro consigliate** e condividi le aree di lavoro o i relativi oggetti con altri utenti.
+      Dopo l&#39;accettazione del contratto di prova si verificano le seguenti situazioni:
 
-         Per ulteriori informazioni sull&#39;utilizzo di Workfront Planning, vedere [Introduzione ad Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+      * L&#39;area Pianificazione viene aggiunta al menu principale per te e per tutti gli utenti nel tuo sistema con un distintivo **Versione di valutazione**.
+      * Ricevi l&#39;accesso Gestisci alle **aree di lavoro best practice** nell&#39;area Planning.
+      * Tutti gli utenti del sistema ricevono l&#39;accesso in visualizzazione alla scheda **Aree di lavoro consigliate** nell&#39;area Planning.
+   1. (Condizionale) Se non sei un amministratore di sistema e l&#39;amministratore di sistema non ha ancora accettato il contratto di prova, segui il banner in-app che contiene informazioni sulla **prova di Workfront Planning**, quindi fai clic su **Ulteriori informazioni**.
 
-         Per le best practice sull&#39;utilizzo di Workfront Planning, vedere [Best practice di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-best-practices.md).
+      Ulteriori informazioni sulla versione di prova di Workfront Planning e su Workfront Planning.
+   1. (Condizionale) Se non sei un amministratore di sistema e l&#39;amministratore di sistema ha accettato il contratto di prova, segui il browser in-app contenente informazioni sulla **prova di Workfront Planning** e fai clic su **Apri Planning**.
 
-<!-- finish these steps and check to see if the UI elements are spelled correctly; also if the trial agreement is accessible according to the steps above - ???  -->
+      Inizia ad esplorare la scheda **Aree di lavoro consigliate** e condividi le aree di lavoro o i relativi oggetti con altri utenti.
 
-## Panoramica delle date importanti
+      Per ulteriori informazioni sull&#39;utilizzo di Workfront Planning, vedere [Introduzione ad Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-Di seguito sono riportate alcune date importanti associate all&#39;offerta di prova gratuita di Adobe Workfront Planning:
+      Per le best practice sull&#39;utilizzo di Workfront Planning, vedere [Best practice di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-best-practices.md).
 
-* **2 marzo 2026** - Viene avviata la versione di prova di Workfront Planning.
-* **1 maggio 2026** - La versione di valutazione di Workfront Planning viene chiusa e l&#39;accesso a Planning viene rimosso. Workfront protegge i dati al termine della versione di prova, fino al 30 novembre 2026. Se si acquista Workfront Planning durante questo periodo, si riottiene l&#39;accesso a Planning e ai dati.
-<!--Lauren wanted this out: 
-* **November 30, 2026** - Workfront no longer makes your data available after this date. You can still purchase Workfront Planning, but your data is removed after this date. -->
+## Autorizzazioni per i dati di Workfront Planning durante la prova gratuita
 
-<!--## Overview of the access to Workfront Planning -->
+* Tra il 2 marzo e il 1 maggio 2026:
+
+  Ti sono state concesse le seguenti autorizzazioni per i dati disponibili nella scheda **Aree di lavoro consigliate** nell&#39;area **Prova di pianificazione**:
+
+   * Tutti gli amministratori di sistema dispongono delle autorizzazioni di gestione.
+   * Tutti gli altri utenti dispongono delle autorizzazioni di visualizzazione.
+
+* Dopo il 1° maggio 2026:
+
+  L&#39;accesso a Workfront Planning viene rimosso e Workfront protegge i dati.
+
+
+
 
