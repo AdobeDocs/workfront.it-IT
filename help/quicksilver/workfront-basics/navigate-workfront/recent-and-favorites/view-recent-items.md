@@ -6,10 +6,10 @@ description: Il menu [!UICONTROL Recenti] si trova sulla barra di navigazione su
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 531b6b77-bf54-4ab3-a757-5c59fc0586a6
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 5a92066372efe8bd5391632556550e6063301114
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 0%
+source-wordcount: '205'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +19,7 @@ Il menu [!UICONTROL Recenti] si trova sulla barra di navigazione superiore. Ques
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,16 +44,14 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 +++
 
-
 ## Visualizza elementi recenti
 
 1. Fai clic sull&#39;icona **[!UICONTROL Recenti]** ![[!UICONTROL Recenti]](assets/recents-icon-40x43.png) nell&#39;angolo superiore destro di qualsiasi pagina.
 
-   ![Elenco recenti](assets/recents-list-2022-350x319.png)
+   ![Elenco recenti](assets/recents-list.png)
 
    Sotto ogni tipo di oggetto è possibile visualizzare fino a 5 degli ultimi elementi visualizzati di recente.
 
 1. (Facoltativo) Per espandere l&#39;elenco degli elementi recenti, fare clic su **[!UICONTROL Visualizza altro]** sotto l&#39;ultimo elemento sotto un tipo di oggetto per visualizzare i 10 elementi visualizzati in precedenza. È possibile espandere l&#39;elenco per visualizzare fino a 20 elementi per tipo di oggetto.
-1. Fai clic sulla X in alto a destra per chiudere l’elenco.
 
 Per informazioni su come contrassegnare gli elementi recenti come preferiti, vedere [Visualizzare e gestire i preferiti](../../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).
