@@ -6,9 +6,9 @@ description: Configurare i brand per il revisore IA
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: cf1d4bfeedb94e8607dad47177d804169254ee85
+source-git-commit: cd2a5560fdf446e8e971afcb640af38b4d301d40
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '410'
 ht-degree: 5%
 
 ---
@@ -57,7 +57,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 * La tua organizzazione deve aver eseguito la migrazione ad Adobe IMS (Identity Management System).
 * L&#39;istanza di Workfront deve avere le approvazioni unificate abilitate.
-  <!--* Your organization must have GenStudio Foundation.-->
+* La tua organizzazione deve disporre di GenStudio Foundation.
 * Adobe deve disporre di un accordo Adobe Gen AI firmato su file.
 Per ulteriori informazioni sulla firma del contratto, consulta [Firmare il contratto di Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 

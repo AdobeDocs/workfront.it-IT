@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: b926138cca96849f8c4490ec9550fecfd17da69a
+source-git-commit: cd2a5560fdf446e8e971afcb640af38b4d301d40
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '663'
 ht-degree: 5%
 
 ---
@@ -33,7 +33,7 @@ Qualsiasi utente può aggiungere il revisore IA a una richiesta di revisione e a
 
 * La tua organizzazione deve aver eseguito la migrazione ad Adobe IMS (Identity Management System).
 * L&#39;istanza di Workfront deve avere le approvazioni unificate abilitate.
-  <!--* Your organization must have GenStudio Foundation.-->
+* La tua organizzazione deve disporre di GenStudio Foundation.
 * Adobe deve disporre di un accordo Adobe Gen AI firmato su file.
 Per ulteriori informazioni sulla firma del contratto, consulta [Firmare il contratto di Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
@@ -60,7 +60,7 @@ Se carichi un tipo di file non supportato, l’opzione Revisore IA non viene vis
 
 ## Impostare le linee guida per il marchio
 
-Il revisore di IA di Workfront utilizza le linee guida del brand durante la revisione dei contenuti. Gli amministratori di Workfront possono impostare le linee guida per il marchio nell’area Configurazione di Workfront. <!--Brands created in GenStudio Foundation are also available in Workfront.-->
+Il revisore di IA di Workfront utilizza le linee guida del brand durante la revisione dei contenuti. Gli amministratori di Workfront possono impostare le linee guida per il marchio nell’area Configurazione di Workfront. I brand creati in GenStudio Foundation sono disponibili anche in Workfront.
 
 Per ulteriori informazioni, consulta [Configurare i brand per il revisore di IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
