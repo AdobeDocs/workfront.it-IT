@@ -145,7 +145,7 @@ Per risolvere alcuni problemi di prestazioni, è stata temporaneamente disabilit
 
 Per ulteriori informazioni sull&#39;esportazione dei dati di Programmazione delle risorse in Excel, vedere la sezione &quot;Opzione di esportazione&quot; in [Panoramica sulla navigazione di Programmazione delle risorse](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-Per partecipare al nostro programma beta corrente per la Programmazione delle risorse, consulta [Performance Beta della Programmazione delle risorse.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
+Per partecipare al nostro programma beta corrente per la Programmazione delle risorse, consulta [Performance Beta della Programmazione delle risorse.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=it)
 
 ## Impostazioni di sistema: Informazioni sulla sessione nelle pagine esterne {#system-setting-session-information-in-external-pages}
 

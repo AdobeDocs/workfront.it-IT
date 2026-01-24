@@ -155,7 +155,7 @@ Prima di questo miglioramento, la colonna adiacente a destra della colonna ridim
 
 Per informazioni sul ridimensionamento delle colonne negli elenchi, vedere [Modificare la larghezza e l&#39;ordine delle colonne](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
-Per partecipare al nostro programma di beta testing per i miglioramenti dell&#39;elenco corrente, consulta [New Lists Study.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) (accesso richiesto)
+Per partecipare al nostro programma di beta testing per i miglioramenti dell&#39;elenco corrente, consulta [New Lists Study.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=it) (accesso richiesto)
 
 ## Icona Supporto per i nuovi elenchi di progetti {#icon-support-for-the-new-project-lists}
 

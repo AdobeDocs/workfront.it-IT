@@ -125,4 +125,4 @@ La ricerca della documentazione può essere più efficiente con alcuni approcci 
 
 ### Trovare risposte nei forum della community
 
-* **Poni domande**: se la documentazione non risponde alla domanda, prova a pubblicare nei [forum della community Workfront](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) dove altri utenti ed esperti possono offrire assistenza.
+* **Poni domande**: se la documentazione non risponde alla domanda, prova a pubblicare nei [forum della community Workfront](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=it) dove altri utenti ed esperti possono offrire assistenza.

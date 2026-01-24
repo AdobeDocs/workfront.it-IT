@@ -137,7 +137,7 @@ In caso di domande o problemi durante l’invio di una richiesta, chiama il team
 1. (Facoltativo) Per chiudere il caso, fare clic sul pulsante **[!UICONTROL Chiudi caso]**.
 
 
-<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
+<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=it)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 

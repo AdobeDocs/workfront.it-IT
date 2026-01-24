@@ -25,7 +25,7 @@ In qualità di utente autenticato, puoi:
 
 Per votare su un&#39;idea:
 
-1. Accedere alla community [!DNL Adobe Workfront] sul sito [!DNL Adobe Experience League] al seguente URL: [[!DNL Adobe Workfront] Community](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
+1. Accedere alla community [!DNL Adobe Workfront] sul sito [!DNL Adobe Experience League] al seguente URL: [[!DNL Adobe Workfront] Community](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=it).
 
 1. Fai clic sulla scheda **[!UICONTROL Ideas]**.
 
@@ -48,4 +48,4 @@ Una volta raggiunta la soglia critica di 450 punti, l’idea avrà uno dei segue
 * **[!UICONTROL Consegnato]:** È stata creata e consegnata una soluzione. Non verranno forniti ulteriori aggiornamenti e i commenti verranno disabilitati.
 * **[!UICONTROL Archiviato]**: verranno archiviate le idee che raggiungono la soglia dei 18 mesi (dalla data di invio) e che hanno meno di 300 punti.
 
-Per iniziare o per saperne di più, accedi al [Innovation Lab](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
+Per iniziare o per saperne di più, accedi al [Innovation Lab](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=it).
