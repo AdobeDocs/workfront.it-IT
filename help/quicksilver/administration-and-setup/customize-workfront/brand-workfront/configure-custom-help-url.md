@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: 17aaf70977aa6ce0276676c6a30fd6c951be956c
+source-git-commit: 5fac387d598e2959566547df5d2d11078ec25154
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 Se crei un sito di assistenza interno personalizzato contenente informazioni sull’utilizzo di Workfront da parte dell’organizzazione, puoi configurare l’icona Aiuto del menu principale per passare a tale sito.
 
-![Pulsante Guida personalizzato](assets/custom-help-button.png)
+![Pulsante Guida personalizzato](assets/custom-help-with-left-menu.png)
 
 Ciò non influisce sui collegamenti di assistenza sensibili al contesto presenti in Workfront, che portano gli utenti al sito di assistenza di Workfront.
 
@@ -27,7 +27,7 @@ Per informazioni sul modo in cui gli utenti accedono sia a un URL della guida pe
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,7 +53,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 +++
 
-## Configurare un URL guida personalizzato
+## Configurare un URL della guida personalizzato
 
 {{step-1-to-setup}}
 
@@ -64,4 +64,4 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 1. Fai clic su **Salva**.
 
-   Dopo aver salvato un URL della Guida personalizzato, puoi tornare al sito della Guida predefinito di Workfront eliminando l&#39;URL personalizzato e facendo clic su **Salva**.
+   Dopo aver salvato un URL della Guida personalizzato, puoi tornare a utilizzare il sito della Guida predefinito di Workfront eliminando l&#39;URL personalizzato e facendo clic su **Salva**.
