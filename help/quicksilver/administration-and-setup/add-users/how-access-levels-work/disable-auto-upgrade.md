@@ -1,5 +1,5 @@
 ---
-title: Disattiva l'opzione di aggiornamento automatico per gli utenti non pagati nel nuovo piano di gestione licenze
+title: Disattiva l'opzione di aggiornamento automatico per gli utenti non pagati
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,14 +10,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 2%
+source-wordcount: '188'
+ht-degree: 10%
 
 ---
 
-# Disattiva l&#39;opzione di aggiornamento automatico per gli utenti non pagati nel nuovo piano di licenze
+# Disattiva l’opzione di aggiornamento automatico per gli utenti non a pagamento
 
 Le decisioni su bozze e documenti sono limitate per tutte le licenze Workfront non pagate sui nuovi piani. Quando gli utenti raggiungono il numero di decisioni che gli sono state assegnate, per impostazione predefinita vengono aggiornati a una licenza Light.
 
@@ -29,7 +29,7 @@ Le decisioni su bozze e documenti sono limitate per tutte le licenze Workfront n
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 

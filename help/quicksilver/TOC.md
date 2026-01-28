@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: bf34bfa2059d227eca3faa3d719adcf4d711e457
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '13724'
+source-wordcount: '13721'
 ht-degree: 2%
 
 ---
@@ -134,7 +134,7 @@ ht-degree: 2%
          * [23.3 Altri miglioramenti](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
          * [Aggiornamenti look and feel durante il periodo di rilascio della versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * Versione 23.2 {#release-23-2}
-         * [Panoramica sulla versione di 23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
+         * Panoramica sulla versione di [23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 Miglioramenti per gli amministratori](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
          * [23.2 Miglioramenti di Agile](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
          * [23.2 Miglioramenti alla gestione dei progetti](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
@@ -516,25 +516,25 @@ ht-degree: 2%
          * [Visualizzare ed esportare i registri di audit](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [Visualizza informazioni di accesso utente](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [Gestione degli utenti in Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
-      * Funzionamento dei nuovi livelli di accesso {#access-levels}
-         * [Funzionamento dei nuovi livelli di accesso](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
-         * [Panoramica dei nuovi livelli di accesso](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-         * [Panoramica sulle nuove licenze](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
-         * [Accesso a oggetti e aree tramite nuove licenze](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
-         * [Funzionalità disponibile per ogni tipo di oggetto per i nuovi livelli di accesso](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
-         * [Disattiva l&#39;opzione di aggiornamento automatico per gli utenti non pagati nel nuovo piano di licenze](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
+      * Funzionamento dei livelli di accesso {#access-levels}
+         * [Funzionamento dei livelli di accesso](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
+         * [Panoramica dei livelli di accesso](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+         * [Panoramica sulle licenze](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
+         * [Accesso a oggetti e aree tramite licenze](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+         * [Funzionalità disponibile per ogni tipo di oggetto](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+         * [Disattiva l’opzione di aggiornamento automatico per gli utenti non a pagamento](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
          * [Confronto delle funzionalità tra i diversi modelli di licenza](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/comparing-old-and-new-license-models.md)
          * [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
-      * Funzionamento dei livelli di accesso {#legacy-access-levels}
-         * [Funzionamento dei livelli di accesso](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
-         * [Panoramica degli accessi](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
-         * [Panoramica sulle licenze](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-         * [Livelli di accesso e autorizzazioni](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-         * [Accesso a oggetti e aree per tipo di licenza](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
-         * [Funzionalità per ogni tipo di oggetto](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
-         * [Accesso configurabile per ogni tipo di oggetto](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
-         * [Livelli di accesso incorporati](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
-         * [Elenca i livelli di accesso e le licenze degli utenti](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+      * Funzionamento dei livelli di accesso legacy {#legacy-access-levels}
+         * [Funzionamento dei livelli di accesso legacy](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
+         * [Panoramica del livello di accesso legacy](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+         * [Panoramica delle licenze legacy](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+         * [Livelli di accesso e autorizzazioni legacy](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
+         * [Accesso a oggetti e aree per tipo di licenza (legacy)](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+         * [Funzionalità per ogni tipo di oggetto (legacy)](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+         * [Accesso configurabile per ogni tipo di oggetto (legacy)](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
+         * [Livelli di accesso incorporati (legacy)](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+         * [Elenca i livelli di accesso e le licenze degli utenti (legacy)](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
       * Configurare l’accesso a Workfront {#configure-access}
          * [Configurare l’accesso](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
          * [Creare o modificare livelli di accesso personalizzati](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
@@ -2543,9 +2543,9 @@ ht-degree: 2%
       * [Configurare e utilizzare le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso JWT](wf-api/api/oauth-app-jwt-flow.md)
       * [Configura e utilizza le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso PKCE](wf-api/api/oauth-app-pkce-flow.md)
       * [Obsolescenza di API-Internal](wf-api/api/deprecation-api-internal.md)
-      * [Novità della versione 21 dell&#39;API](/help/quicksilver/wf-api/api/new-api-version-21.md)
+      * [Novità della versione 21](/help/quicksilver/wf-api/api/new-api-version-21.md) dell&#39;API
       * [Novità dell&#39;API versione 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [Novità della versione 19 dell&#39;API](wf-api/api/new-api-version-19.md)
+      * [Novità della versione 19](wf-api/api/new-api-version-19.md) dell&#39;API
       * [Novità della versione 18 dell’API](wf-api/api/new-api-version-18.md)
       * [Novità della versione 17 dell’API](wf-api/api/new-api-version-17.md)
       * [Novità della versione 16 dell’API](wf-api/api/new-api-version-16.md)

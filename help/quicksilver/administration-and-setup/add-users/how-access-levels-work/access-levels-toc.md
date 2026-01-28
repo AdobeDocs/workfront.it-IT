@@ -1,5 +1,5 @@
 ---
-title: Funzionamento dei nuovi livelli di accesso
+title: Funzionamento dei livelli di accesso
 content-type: administrator
 product-area: system-administration
 navigation-topic: add-users-to-workfront
@@ -9,14 +9,14 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 05f575d0-bf42-430b-8648-dbdd9297ca08
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '162'
 ht-degree: 1%
 
 ---
 
-# Funzionamento dei nuovi livelli di accesso
+# Funzionamento dei livelli di accesso
 
 >[!NOTE]
 >
@@ -24,11 +24,11 @@ ht-degree: 1%
 
 In qualità di amministratore di Adobe Workfront, puoi concedere agli utenti l’accesso per visualizzare o modificare gli oggetti assegnando loro un livello di accesso. Gli articoli seguenti spiegano come funzionano i nuovi livelli di accesso.
 
-* [Panoramica dei nuovi livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-* [Panoramica sulle nuove licenze](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
-* [Accesso a oggetti e aree da per le nuove licenze](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+* [Panoramica dei livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+* [Panoramica sulle licenze](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
+* [Accesso a oggetti e aree tramite licenze](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
 * [Funzionalità disponibile per ogni tipo di oggetto](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
-* [Disattiva l&#39;opzione di aggiornamento automatico per gli utenti non pagati nel nuovo piano di licenze](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
+* [Disattiva l’opzione di aggiornamento automatico per gli utenti non a pagamento](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
 * [Confronto delle funzionalità tra i diversi modelli di licenza](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/comparing-old-and-new-license-models.md)
 
 ## Vedi anche
