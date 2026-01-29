@@ -166,7 +166,7 @@ Per impostare le regole di approvazione per un modulo di richiesta:
    1. Se l’operatore selezionato richiede un valore, fai clic sull’icona più e aggiungi uno o più valori.
    1. (Facoltativo) Aggiungi altre condizioni utilizzando AND o OR facendo clic su Aggiungi condizione e configurando la condizione aggiuntiva come nei passaggi C-E.
    1. Nell&#39;area Azioni della regola di approvazione, nel campo **Approvatori**, aggiungere almeno un utente o un team da impostare presso l&#39;approvatore quando la condizione viene soddisfatta.
-   1. 
+   1. &#x200B;
       1. (Condizionale) Se desideri che il record venga creato dopo l&#39;approvazione di uno qualsiasi degli approvatori, seleziona la casella di controllo **È necessaria una sola decisione**.
 
 1. Fai clic su **Salva** per salvare le regole di approvazione.
