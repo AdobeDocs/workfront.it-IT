@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 45bc1820e4f6416e3d47139bbcf1a2156c5900dc
+source-git-commit: 9fcfea189bfc8827e41098823402f5e392b36d1b
 workflow-type: tm+mt
-source-wordcount: '6941'
+source-wordcount: '7040'
 ht-degree: 5%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 5%
 # Creare un modulo personalizzato
 
 <!-- Audited: 6/2025 -->
+
+{{preview-fast-release-general}}
 
 Puoi progettare un modulo personalizzato con il progettista del modulo in Adobe Workfront. È possibile allegare moduli personalizzati a diversi oggetti di Workfront per acquisire dati su tali oggetti.
 
@@ -157,6 +159,10 @@ I seguenti caratteri speciali non sono supportati nelle etichette e nei nomi dei
 
 * **Campo di testo a riga singola**: consente agli utenti di digitare una singola riga di testo nel campo.
 * **Campo paragrafo**: consente agli utenti di digitare più righe di testo nel campo.
+* <span class="preview">**Testo formattato**: consente agli utenti di digitare più righe di testo nel campo e di formattare il testo con grassetto, corsivo, sottolineatura, punti elenco, numerazione, pedice e apice, collegamenti ipertestuali, virgolette, intestazioni e tabelle. Un limite di caratteri di 15.000 fornisce uno spazio grande per il testo e la formattazione.</span>
+
+  <span class="preview">Il tipo di campo Rich text sta sostituendo il tipo di campo Testo con formattazione. È possibile convertire rapidamente il testo esistente con campi di formattazione in testo RTF facendo clic sul pulsante **Converti in testo RTF** nelle opzioni di campo a destra.</span>
+
 * **Campo di testo con formattazione**: consente agli utenti di digitare più righe di testo nel campo e di formattare il testo con grassetto, corsivo, sottolineatura, punti elenco, numerazione, collegamenti ipertestuali e virgolette. Un limite di caratteri di 15.000 consente di inserire testo e formattazione in modo molto ampio.
 
   Questo tipo di campo personalizzato non è supportato nei filtri di elenchi e rapporti.
@@ -177,6 +183,7 @@ Per aggiungere un campo di testo:
 
    * Testo su riga singola
    * Paragrafo
+   * <span class="preview">Testo formattato</span>
    * Testo con formattazione
    * Testo descrittivo
 
@@ -197,6 +204,7 @@ Per aggiungere un campo di testo:
     <td><ul>
     <li>Testo su riga singola</li>
     <li>Paragrafo</li>
+    <li><span class="preview">Testo formattato</span></li>
     <li>Testo con formattazione</li>
     <li>Testo descrittivo</li>
     </ul></td>
@@ -208,6 +216,7 @@ Per aggiungere un campo di testo:
     <td><ul>
     <li>Testo su riga singola</li>
     <li>Paragrafo</li>
+    <li><span class="preview">Testo formattato</span></li>
     <li>Testo con formattazione</li>
     </ul></td>
     </tr>
@@ -219,6 +228,7 @@ Per aggiungere un campo di testo:
     <td><ul>
     <li>Testo su riga singola</li>
     <li>Paragrafo</li>
+    <li><span class="preview">Testo formattato</span></li>
     <li>Testo con formattazione</li>
     <li>Testo descrittivo</li>
     </ul></td>
@@ -231,6 +241,7 @@ Per aggiungere un campo di testo:
     <td><ul>
     <li>Testo su riga singola</li>
     <li>Paragrafo</li>
+    <li><span class="preview">Testo formattato</span></li>
     <li>Testo con formattazione</li>
     </ul></td>
     </tr>
@@ -266,15 +277,17 @@ Per aggiungere un campo di testo:
      <td><ul>
      <li>Testo su riga singola</li>
      <li>Paragrafo</li>
+     <li><span class="preview">Testo formattato</span></li>
      <li>Testo con formattazione</li>
      <li>Testo descrittivo</li></ul></td>
     </tr>
     <tr> 
-      <td role="rowheader">Rendi il campo obbligatorio</td>
+      <td>Rendi il campo obbligatorio</td>
       <td><p>Seleziona questa opzione se desideri che il campo sia obbligatorio per consentire all’utente di completare il modulo personalizzato.</p></td>
     <td><ul>
     <li>Testo su riga singola</li>
     <li>Paragrafo</li>
+    <li><span class="preview">Testo formattato</span></li>
     <li>Testo con formattazione</li>
     </ul></td> 
     </tr> 
@@ -653,12 +666,12 @@ Per aggiungere una ricerca esterna:
       <td role="rowheader">Percorso JSON</td>
       <td><p>Digita o incolla il percorso JSON per l’API.</p> <p>Questa opzione consente di estrarre i dati dal JSON restituito dall’URL API. Serve come modo per selezionare quali valori dall’interno del JSON appariranno nelle opzioni a discesa.</p><p>Ad esempio, se l'URL API restituisce JSON nel seguente formato, puoi utilizzare "$.data[*].name" per selezionare Stati Uniti e Canada come opzioni a discesa:</br>
       <pre>
-      &lbrace;
-       dati: &lbrace;
+      {
+       dati: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Per ulteriori informazioni sul percorso JSON e sulla verifica della scrittura del percorso JSON corretto, fare riferimento a <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
