@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 4167910f36921e04351190f722ea1e7fac9641c7
 workflow-type: tm+mt
-source-wordcount: '3418'
+source-wordcount: '3440'
 ht-degree: 2%
 
 ---
@@ -236,6 +236,8 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
    >[!TIP]
    >
    >Il numero di campi nascosti viene visualizzato a sinistra dell’icona Campi nella barra degli strumenti.
+   >
+   ><span class="preview">Per impostazione predefinita, i campi nascosti non vengono visualizzati nella pagina **Dettagli** di un record. Per informazioni, vedere [Gestire il layout della pagina record](/help/quicksilver/planning/records/manage-the-record-page.md)</span>
 
 
 1. Fai clic sull&#39;icona **Campi** e abilita l&#39;interruttore associato ai campi che desideri visualizzare nelle colonne della tabella. Tutti i campi vengono visualizzati per impostazione predefinita.

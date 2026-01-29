@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 665e753880be59cf07062d75c66a7be5f2056aa1
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1545'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,9 @@ ht-degree: 0%
 
 # Gestire il layout della pagina record
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -172,7 +171,7 @@ Quando si aggiungono sezioni a una pagina record, tenere presente quanto segue:
 
 * Non esiste alcun limite al numero di sezioni che è possibile includere in una pagina.
 * Impossibile avere una sezione vuota. È necessario disporre di almeno un campo in una sezione.
-* È possibile trascinare i campi da una sezione all&#39;altra. Per ulteriori informazioni, vedere la sezione [Ridisponi campi nell&#39;anteprima record o nella pagina dei dettagli](#rearrange-fields-in-the-record-preview-or-details-page) in questo articolo.
+* È possibile trascinare i campi da una sezione all&#39;altra. Per ulteriori informazioni, vedere la sezione [Gestione dei campi nell&#39;anteprima record o nella pagina dei dettagli](#manage-fields-in-the-records-details-tab) in questo articolo.
 * Quando rimuovi tutti i campi da una sezione, questa viene eliminata automaticamente e non può essere recuperata.
 
 Per aggiungere una sezione a un&#39;anteprima record o a una pagina:
@@ -205,7 +204,7 @@ Per aggiungere una sezione a un&#39;anteprima record o a una pagina:
 
 1. Nella scheda **Dettagli** dell&#39;anteprima del record o della pagina, passa il puntatore del mouse sullo spazio vuoto a sinistra dei campi, quindi fai clic sull&#39;icona **Aggiungi sezione** ![Aggiungi sezione](assets/add-section-icon.png) per aggiungere una sezione.
 1. Fare clic nel nome della sezione e sostituire **Sezione senza titolo** con un nome, quindi fare clic su Invio. I campi visualizzati sotto la sezione fanno automaticamente parte della nuova sezione.
-1. Inizia a trascinare i campi nella nuova sezione, come descritto nella sezione [Ridisponi i campi nell&#39;anteprima del record o nella pagina dei dettagli](#rearrange-fields-in-the-record-preview-or-details-page) in questo articolo.
+1. Inizia a trascinare i campi nella nuova sezione, come descritto nella sezione [Gestione dei campi nell&#39;anteprima del record o nella pagina dei dettagli](#manage-fields-in-the-records-details-tab) in questo articolo.
 
 1. (Facoltativo) Passa il puntatore del mouse sul nome di una sezione e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png).
 
@@ -254,7 +253,7 @@ Si verificano le seguenti situazioni:
    * L&#39;oggetto Workfront viene inoltre rimosso dal campo connesso del record da Workfront Planning.
    * Vengono eliminati anche i valori dei campi di ricerca di Workfront connessi al record Planning.
 
-## Ridisporre i campi nella scheda Dettagli del record
+## Gestisci campi nella scheda Dettagli del record
 
 {{step1-to-planning}}
 
@@ -281,6 +280,20 @@ Si verificano le seguenti situazioni:
    Per impostazione predefinita viene aperta la scheda **Dettagli** del record.
 
    ![Pagina dettagli](assets/details-page.png)
+
+1. <span class="preview">(Facoltativo e condizionale) A seconda dei campi che si desidera visualizzare nella pagina Dettagli, eseguire una delle operazioni seguenti:</span>
+
+   <div class="preview">
+
+   * Selezionare l&#39;impostazione **Mostra campi tabella** per visualizzare solo i campi non nascosti nella visualizzazione tabella del record. Questa è l&#39;impostazione predefinita
+   * Deselezionare l&#39;impostazione **Mostra campi tabella** per visualizzare tutti i campi dalla visualizzazione tabella del record, inclusi quelli nascosti.
+
+   <!--replace with this when they fix the UI text:
+   * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
+   * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
+   -->
+
+   </div>
 
 1. Nella scheda **Dettagli** del record, fai clic sull&#39;icona **grab** ![Grab icon](assets/grab-icon.png) a sinistra di un nome di campo, quindi trascinalo e rilascialo nel punto desiderato.
 

@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: 4167910f36921e04351190f722ea1e7fac9641c7
 workflow-type: tm+mt
-source-wordcount: '2156'
+source-wordcount: '2424'
 ht-degree: 2%
 
 ---
@@ -224,6 +224,10 @@ Per assegnare le attività in un elenco:
 
 ## Assegnare più attività in blocco da un elenco
 
+L’assegnazione di più attività in blocco da un elenco varia a seconda dell’ambiente scelto.
+
+### Assegnare più attività in blocco da un elenco nell’ambiente di produzione
+
 1. Passare a un elenco di attività che si desidera assegnare in blocco.
 1. (Condizionale) Verificare che l&#39;opzione **Salvataggio automatico** sia selezionata se ci si trova in un elenco di attività di un progetto.
 
@@ -241,11 +245,6 @@ Per assegnare le attività in un elenco:
    Per ulteriori informazioni, vedere la sezione [Assegnare più attività in blocco da un elenco nella nuova esperienza](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) in questo articolo.
 
 1. (Facoltativo) Fai clic su **Torna alla vecchia esperienza** nella parte inferiore della casella **Modifica attività** per aprire la vecchia esperienza.
-
-   >[!TIP]
-   >
-   >L’assegnazione di attività nell’ambiente di produzione è disponibile solo per la vecchia esperienza.
-
 
 1. (Condizionale) Utilizzando la vecchia esperienza, nell&#39;area **Assegnazioni**, seleziona la casella **Assegnatario**, quindi inizia a digitare il nome di un utente, una mansione o un team che desideri assegnare a tutte le attività.
 
@@ -315,8 +314,48 @@ Per assegnare le attività in un elenco:
 1. (Facoltativo) Se desideri rimuovere assegnatari esistenti da tutte le attività, fai clic su **x** accanto al nome nel campo **Cerca persone, ruoli o team**.
 
 1. Fai clic su **Salva**.
-1. (Facoltativo e condizionale) Quando i campi **Assegnato a** o **Assegnazioni** vengono visualizzati nell&#39;elenco delle attività, fare clic in una di queste colonne per un&#39;attività, quindi fare clic sull&#39;icona **X** accanto al nome di un assegnatario per rimuoverlo dall&#39;attività
+1. (Facoltativo e condizionale) Quando i campi **Assegnato a** o **Assegnazioni** vengono visualizzati nell&#39;elenco delle attività, fare clic all&#39;interno di una di queste colonne per un&#39;attività, quindi fare clic sull&#39;icona **X** accanto al nome di un assegnatario per rimuoverla dall&#39;attività.
 
+<div class="preview">
+
+### Assegnare più attività in blocco da un elenco nell’ambiente di anteprima
+
+1. Passare a un elenco di attività che si desidera assegnare in blocco.
+1. (Condizionale) Verificare che l&#39;opzione **Salvataggio automatico** sia selezionata se ci si trova in un elenco di attività di un progetto.
+
+   >[!IMPORTANT]
+   >
+   >Non è possibile modificare le attività in blocco quando si salvano le attività manualmente in un progetto.
+
+1. Selezionare più attività nell&#39;elenco delle attività.
+1. Fai clic su **Modifica**.
+
+   Viene visualizzata la casella **Modifica attività**.
+
+1. Nell&#39;area **Assegnazioni**, inizia a digitare il nome di utenti, team o ruoli nel campo **Cerca persone, ruoli o team** fornito, quindi fai clic su di essi quando vengono visualizzati nell&#39;elenco
+
+   >[!IMPORTANT]
+   >
+   >Se una delle attività è già assegnata, le risorse indicate in questo campo vengono aggiunte alle attività anziché sostituire le risorse esistenti sulle attività.
+
+1. Specificare i campi seguenti per le attività selezionate:
+
+   * Passa il puntatore del mouse sul nome dell&#39;assegnazione, quindi fai clic su **Imposta come principale** per indicare l&#39;assegnatario dell&#39;attività.
+   * **Tipo di Durata**
+
+     Per informazioni sul Tipo di Durata per le attività, vedere [Panoramica sulla Durata dell&#39;Attività e sul Tipo di Durata](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+   * **Durata**
+   * **Ore pianificate**
+
+     Per ulteriori informazioni, vedere [Modifica attività](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+
+1. (Facoltativo) Se desideri rimuovere assegnatari esistenti da tutte le attività, fai clic su **x** accanto al nome nel campo **Cerca persone, ruoli o team**.
+
+1. Fai clic su **Salva**.
+1. (Facoltativo e condizionale) Quando i campi **Assegnato a** o **Assegnazioni** vengono visualizzati nell&#39;elenco delle attività, fare clic all&#39;interno di una di queste colonne per un&#39;attività, quindi fare clic sull&#39;icona **X** accanto al nome di un assegnatario per rimuoverla dall&#39;attività.
+
+</div>
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

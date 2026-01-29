@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 29579097cd3aa75ab0478743b84dcb9bc3217489
 workflow-type: tm+mt
-source-wordcount: '2006'
+source-wordcount: '2129'
 ht-degree: 1%
 
 ---
@@ -30,57 +30,77 @@ Per informazioni sulla connessione dei tipi di record, vedere [Connetti tipi di 
 
 ## Considerazioni sulla connessione dei tipi di record
 
-In Workfront Planning sono disponibili due passaggi per le connessioni:
+* Affinché singoli record o oggetti possano essere connessi tra loro, i tipi di record devono prima essere connessi ai tipi di oggetto.
 
-1. Stabilire una connessione tra due tipi di record o un tipo di record e un tipo di oggetto da un&#39;altra applicazione.
+  È possibile collegare tra loro tipi di record e tipi di oggetto nei modi seguenti:
 
-   Per informazioni su come connettere i tipi di record, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+   * Manualmente
+   * Automaticamente
 
-1. Collegare un singolo record di un tipo a record di un altro tipo dopo aver connesso i due tipi di record. Per informazioni sulla connessione dei record, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
+  >[!NOTE]
+  >
+  >In Workfront Planning è possibile avere fino a 30 campi collegati per un tipo di record.
 
-Considerare le seguenti informazioni sulla connessione dei tipi di record:
 
-* In Workfront Planning è possibile avere fino a 30 campi collegati per un tipo di record.
+* Considerare le seguenti informazioni sulla connessione di tipi di record e di oggetti:
 
-* È possibile connettere le seguenti entità in Adobe Workfront Planning:
+   * È possibile aggiungere manualmente un campo Nuova connessione da un tipo di record per connettere le seguenti entità in Workfront Planning:
 
-   * Due tipi di record.
+      * Due tipi di record
 
-     Per impostazione predefinita, è possibile connettere due tipi di record dallo stesso workspace. È inoltre possibile impostare i tipi di record per la connessione con i tipi di record di altre aree di lavoro, se l&#39;organizzazione ha acquistato un pacchetto Workfront o Planning di livello superiore. Per ulteriori informazioni, vedere [Modifica tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md).
-   * Tipo di record e tipo di oggetto di un&#39;altra applicazione.
+        Per impostazione predefinita, è possibile connettere due tipi di record dallo stesso workspace. È inoltre possibile impostare i tipi di record per la connessione con i tipi di record di altre aree di lavoro, se l&#39;organizzazione ha acquistato un pacchetto Workfront o Planning di livello superiore. Per ulteriori informazioni, vedere [Modifica tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md).
+      * Tipo di record e tipo di oggetto di un&#39;altra applicazione.
 
-* È possibile connettere i tipi di record di Workfront Planning ai tipi di oggetto seguenti delle applicazioni seguenti:
+     Per informazioni su come connettere tipi di record e tipi di oggetti, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-   * Adobe Workfront:
+     Dopo aver collegato manualmente i tipi di record con altri tipi di record o oggetti, è possibile collegare singoli record e oggetti.
 
-      * Progetti
-      * Portfolio
-      * Programmi
-      * Aziende
-      * Gruppi
+     Per informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
 
-   * Adobe Experience Manager Assets:
+   * Una connessione tra entità viene stabilita automaticamente nei seguenti scenari:
 
-      * Immagini
-      * Cartelle
+      * Quando si utilizza un&#39;automazione per creare record dalla pagina di un tipo di record.
 
-   * Adobe GenStudio for Performance Marketing
+        La connessione tra i tipi di record o il tipo di record e il tipo di oggetto di un&#39;altra applicazione viene creata automaticamente quando l&#39;automazione crea il record o l&#39;oggetto connesso.
 
-      * Brand
+        Per informazioni, vedere [Configurare le automazioni di Adobe Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
 
-     >[!IMPORTANT]
-     >
-     >Per connettersi con i marchi Adobe Experience Manager Assets e GenStudio, è necessario disporre dei seguenti elementi:
-     >* Una licenza Adobe Experience Manager Assets
-     >* Una licenza Adobe GenStudio for Performance Marketing
-     >* Per collegare i record di Workfront Planning ad Adobe Experience Manager Assets, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console.
-     >Per informazioni su Adobe Admin Console, consulta le [Domande frequenti su Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+      * Quando si configurano i moduli di richiesta per un tipo di record per creare un record o un oggetto.
 
-* Dopo aver creato i record per i tipi di record, è possibile collegarli tra loro tramite il campo record connesso.
+        La connessione tra il tipo di record e il tipo di oggetto richiesta viene creata automaticamente quando si invia e si approva una richiesta di Planning che crea un record.
 
-  Per informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
+        Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md).
 
-* Dopo aver collegato un tipo di record a un altro tipo di record o a un tipo di oggetto di un&#39;altra applicazione, si verificano i seguenti scenari:
+        È possibile visualizzare la richiesta originale nell&#39;area Richieste di Workfront<!--, <span class="preview">or in the Original Request connection field in Workfront Planning.</span>-->.
+
+   * È possibile connettere i tipi di record di Workfront Planning ai tipi di oggetto seguenti delle applicazioni seguenti:
+
+      * Adobe Workfront:
+
+         * Progetti
+         * Portfolio
+         * Programmi
+         * Aziende
+         * Gruppo
+
+      * Adobe Experience Manager Assets:
+
+         * Immagini
+         * Cartelle
+
+      * Adobe GenStudio for Performance Marketing
+
+         * Brand
+
+        >[!IMPORTANT]
+        >
+        >Per connettersi con i marchi Adobe Experience Manager Assets e GenStudio, è necessario disporre dei seguenti elementi:
+        >* Una licenza Adobe Experience Manager Assets
+        >* Una licenza Adobe GenStudio for Performance Marketing
+        >* Per collegare i record di Workfront Planning ad Adobe Experience Manager Assets, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console.
+        >Per informazioni su Adobe Admin Console, consulta le [Domande frequenti su Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+
+* Quando sono connessi due tipi di record o un tipo di record e un tipo di oggetto di un&#39;altra applicazione, esistono i seguenti scenari:
 
    * **Quando si connettono due tipi di record di Planning**: viene creato un campo record collegato nel tipo di record da cui si sta effettuando la connessione. Un campo record collegato simile viene creato nel tipo di record a cui ci si connette solo quando si abilita l&#39;impostazione Crea campo corrispondente nel tipo di record collegato nella scheda Nuova connessione.
 
@@ -99,7 +119,7 @@ Considerare le seguenti informazioni sulla connessione dei tipi di record:
       * I campi dei record di Planning non sono accessibili dagli oggetti di Workfront.
       * I record di Planning sono visibili dalla sezione Planning dell&#39;oggetto Workfront. Per informazioni, vedere [Gestire le connessioni record dagli oggetti Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * È possibile creare un campo personalizzato della connessione Planning e allegarlo al modulo personalizzato di un oggetto Workfront. Per informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-      * I campi del record di pianificazione sono accessibili dalle risorse di Experience Manager quando l’amministratore Workfront configura la mappatura dei metadati tramite l’integrazione tra Workfront e Adobe Experience Manager Assets. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+      * I campi del record di pianificazione sono accessibili dalle risorse di Experience Manager quando l’amministratore Workfront configura la mappatura dei metadati tramite l’integrazione tra Workfront e Adobe Experience Manager Assets. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
       * I campi dei record di pianificazione non sono accessibili dai marchi in GenStudio for Performance Marketing.
 
    * **Quando si aggiungono campi di ricerca dal record o dall&#39;oggetto a cui ci si connette**: oltre a creare un campo record collegato, è anche possibile connettersi ai campi del record o del tipo di oggetto connesso denominati campi di ricerca. Un campo di ricerca collegato con le informazioni del record a cui ci si connette viene visualizzato nel record da cui ci si connette.
