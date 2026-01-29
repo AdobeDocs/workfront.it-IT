@@ -4,9 +4,9 @@ description: Miglioramenti per gli amministratori del secondo trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e12cf9e34adda0a2fb9e8026f2c94cdfc0b41fd
+source-git-commit: 7cde2f693336649d3d965100e33b71795ddc65a2
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,22 @@ ht-degree: 0%
 Questa pagina descrive i miglioramenti per gli amministratori apportati con la versione del secondo trimestre 2026 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili in questo momento nel ciclo di rilascio del secondo trimestre 2026, consulta [Panoramica sulla versione del secondo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+
+
+## Il tipo di campo Rich Text è ora disponibile nei moduli personalizzati
+
+>[!NOTE]
+>
+>Anteprima: 29 gennaio 2026
+>Versione rapida di produzione: 12 febbraio 2026\
+>Produzione per tutti: 16 aprile 2026
+
+Il nuovo tipo di campo **Rich text** nei moduli personalizzati è un editor di testo affidabile, con opzioni di formattazione quali apice e pedice, intestazioni e tabelle, oltre alle opzioni tradizionali di grassetto, corsivo, sottolineatura, punti elenco, numerazione, collegamenti ipertestuali e virgolette. Il limite di caratteri rimane 15.000.
+
+Il tipo di campo Rich text sostituisce il tipo di campo Testo con formattazione. Per convertire rapidamente in testo formattato il testo esistente, fai clic sul pulsante nelle opzioni di campo a destra.
+
+Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Nuovi indirizzi IP per le notifiche e-mail di Workfront
 

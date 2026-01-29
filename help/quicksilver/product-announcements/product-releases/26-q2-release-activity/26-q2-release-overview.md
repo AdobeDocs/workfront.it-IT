@@ -4,9 +4,9 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e12cf9e34adda0a2fb9e8026f2c94cdfc0b41fd
+source-git-commit: 03142ce47e7b123eea63b409749346469f5feb14
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '813'
 ht-degree: 4%
 
 ---
@@ -38,6 +38,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Miglioramenti di Adobe Workfront
 
 * [Miglioramenti per gli amministratori](#administrator-enhancements)
+* [Miglioramenti al progetto](#project-enhancements)
 * [Altri miglioramenti](#other-enhancements)
 
 ### Miglioramenti per gli amministratori
@@ -52,6 +53,14 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Anteprima</strong></td>
         <td><strong>Rilascio rapido</strong></td>
         <td><strong>Ogni trimestre</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Il tipo di campo Rich Text è ora disponibile nei moduli personalizzati</a><p>Il nuovo tipo di campo <b>Rich text</b> nei moduli personalizzati è un editor di testo affidabile, con opzioni di formattazione quali apice e pedice, intestazioni e tabelle, oltre alle opzioni tradizionali di grassetto, corsivo, sottolineatura, punti elenco, numerazione, collegamenti ipertestuali e virgolette. Il limite di caratteri rimane 15.000.</p>
+        </td>
+        <td><p>venerdì 29 gennaio 2026</p></td>
+        <td><p>venerdì 12 febbraio 2026</p></td>
+        <td><p>venerdì 16 aprile 2026</p></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Nuovi indirizzi IP per le notifiche e-mail di Workfront</a><p></p>
@@ -81,6 +90,29 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>
 
+### Miglioramenti al progetto
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 25%;" />
+            <tbody>
+               <tr>
+        <td><strong>Funzionalità</strong>
+        </td>
+        <td><strong>Anteprima</strong></td>
+        <td><strong>Rilascio rapido</strong></td>
+        <td><strong>Ogni trimestre</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">Esperienza aggiornata con l'assegnazione singola o in blocco delle attività </a><p>[!BADGE Off schedule]{type=Neutral}</p><p> È stata aggiornata la sezione Assegnazioni nella casella Modifica attività quando si modificano singole attività o in blocco. </p>
+        </td>
+        <td><p>martedì 26 gennaio 2026</p></td>
+        <td><p>A partire dal 5 febbraio 2026</p></td>
+        <td><p>A partire dal 5 febbraio 2026</p></td>
+    </tr>
+            </tbody>
+        </table>
+
 ### Altri miglioramenti
 
 <table>
@@ -101,7 +133,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><p>venerdì 11 dicembre 2025</p></td>
         <td><p>giovedì 11 febbraio 2026</p></td>
         <td><p>giovedì 11 febbraio 2026</p></td>
-    <tr>
+    </tr>
             </tbody>
         </table>
 
@@ -169,12 +201,12 @@ Per offrire integrazioni più stabili e scalabili, stiamo passando a un approcci
 * Workfront per Salesforce.
 
 È consigliabile utilizzare l&#39;automazione e l&#39;integrazione di Workfront per le esigenze di integrazione dell&#39;organizzazione con Google Workspace.
-Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del secondo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del secondo trimestre 2025, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Aggiornamenti dei corsi di formazione
 
