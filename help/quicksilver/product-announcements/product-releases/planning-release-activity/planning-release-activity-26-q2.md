@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 03142ce47e7b123eea63b409749346469f5feb14
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Configurare i campi visualizzati nella pagina Dettagli di un record
+## Configurare i campi visualizzati nella casella di anteprima Dettagli di un record
 
 >[!NOTE]
 >
@@ -29,9 +29,9 @@ Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning,
 >Versione rapida di produzione: 12 febbraio 2026
 >Produzione per tutti: 16 aprile 2026
 
-È stata introdotta un&#39;impostazione che consente di mostrare o nascondere i campi record nelle aree di anteprima e di pagina Dettagli, in base ai campi visualizzati nella vista tabella.
+È stata introdotta un&#39;impostazione che consente di visualizzare o nascondere i campi record nella casella di anteprima Dettagli di un record, in base ai campi visualizzati nella visualizzazione tabella. 
 
-È possibile scegliere se includere o escludere dall&#39;area Dettagli di un record i campi nascosti nella visualizzazione Tabella. Quando questa impostazione è disattivata, i campi nascosti non vengono visualizzati nell&#39;area Dettagli.
+Con questa nuova impostazione è possibile scegliere se includere o escludere dall&#39;area di anteprima Dettagli del record i campi nascosti nella visualizzazione per tabella.
 
 Per informazioni, vedere [Gestire il layout della pagina record](/help/quicksilver/planning/records/manage-the-record-page.md).
 

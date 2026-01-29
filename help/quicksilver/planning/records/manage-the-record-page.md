@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 665e753880be59cf07062d75c66a7be5f2056aa1
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1568'
 ht-degree: 0%
 
 ---
@@ -275,12 +275,6 @@ Si verificano le seguenti situazioni:
 
    ![Casella Dettagli](assets/details-box.png)
 
-1. (Facoltativo) Fai clic sull&#39;icona **Apri in una nuova scheda** ![Apri la casella dei dettagli in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda.
-
-   Per impostazione predefinita viene aperta la scheda **Dettagli** del record.
-
-   ![Pagina dettagli](assets/details-page.png)
-
 1. <span class="preview">(Facoltativo e condizionale) A seconda dei campi che si desidera visualizzare nella pagina Dettagli, eseguire una delle operazioni seguenti:</span>
 
    <div class="preview">
@@ -288,12 +282,23 @@ Si verificano le seguenti situazioni:
    * Selezionare l&#39;impostazione **Mostra campi tabella** per visualizzare solo i campi non nascosti nella visualizzazione tabella del record. Questa è l&#39;impostazione predefinita
    * Deselezionare l&#39;impostazione **Mostra campi tabella** per visualizzare tutti i campi dalla visualizzazione tabella del record, inclusi quelli nascosti.
 
+   >[!TIP]
+   >
+   >L&#39;impostazione **Mostra campi tabella** è disponibile solo nella casella di anteprima Dettagli del record. Non è disponibile nella pagina Dettagli del record.
+
+
    <!--replace with this when they fix the UI text:
    * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
    * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
    -->
 
    </div>
+
+1. (Facoltativo) Fai clic sull&#39;icona **Apri in una nuova scheda** ![Apri la casella dei dettagli in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda.
+
+   Per impostazione predefinita viene aperta la scheda **Dettagli** del record.
+
+   ![Pagina dettagli](assets/details-page.png)
 
 1. Nella scheda **Dettagli** del record, fai clic sull&#39;icona **grab** ![Grab icon](assets/grab-icon.png) a sinistra di un nome di campo, quindi trascinalo e rilascialo nel punto desiderato.
 

@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 4167910f36921e04351190f722ea1e7fac9641c7
+source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
 workflow-type: tm+mt
-source-wordcount: '1496'
-ht-degree: 2%
+source-wordcount: '1551'
+ht-degree: 1%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 2%
 this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
 
-<!--<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
+Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti a partire da una settimana dalla versione di anteprima.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Per ulteriori informazioni, consulta [Panoramica sulla versione del secondo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
 
-</div>-->
+</div>
 
 Quando si gestiscono le assegnazioni di attività, è possibile modificarle contemporaneamente per più attività contemporaneamente utilizzando la funzione di modifica in blocco in un elenco di attività.
 
@@ -208,61 +208,60 @@ When assigning users to work, their availability according to their schedules af
       1. Fai clic su **Salva modifiche.**
 
 
+1. <span class="preview">(Condizionale) Se si utilizza l&#39;ambiente Anteprima per assegnare le attività, verrà visualizzata la casella **Modifica attività**. Eseguire le operazioni seguenti nell&#39;ambiente di anteprima: </span>
 
-   1. <span class="preview">(Condizionale) Se si utilizza l&#39;ambiente Anteprima per assegnare le attività, verrà visualizzata la casella **Modifica attività**. Eseguire le operazioni seguenti nell&#39;ambiente di anteprima: </span>
+   <div class="preview">
 
-      <div class="preview">
+   1. Per aggiungere o rimuovere assegnatari, effettuare una delle seguenti operazioni:
 
-      1. Per aggiungere o rimuovere assegnatari, effettuare una delle seguenti operazioni:
+      * Per aggiungere gli assegnatari, inizia a digitare il nome di un assegnatario nel campo **Cerca persone, ruoli o team**, quindi selezionali quando vengono visualizzati nell&#39;elenco.
 
-         * Per aggiungere gli assegnatari, inizia a digitare il nome di un assegnatario nel campo **Cerca persone, ruoli o team**, quindi selezionali quando vengono visualizzati nell&#39;elenco.
+        Il nuovo assegnatario viene aggiunto a quelli esistenti per le attività selezionate.
+      * Per rimuovere gli assegnatari, fare clic sul nome di un assegnatario nella casella **Rimuovi assegnatario**
 
-           Il nuovo assegnatario viene aggiunto a quelli esistenti per le attività selezionate.
-         * Per rimuovere gli assegnatari, fare clic sul nome di un assegnatario nella casella **Rimuovi assegnatario**
+        Oppure
 
-           Oppure
+        Fare clic su **Rimuovi tutti gli assegnatari esistenti**.
 
-           Fare clic su **Rimuovi tutti gli assegnatari esistenti**.
+        Gli assegnatari vengono rimossi da tutte le attività selezionate.
 
-           Gli assegnatari vengono rimossi da tutte le attività selezionate.
+        La rimozione degli utenti dalle attività può influire sulle ore delle attività e sulle percentuali di allocazione.
 
-           La rimozione degli utenti dalle attività può influire sulle ore delle attività e sulle percentuali di allocazione.
-
-           Per ulteriori informazioni, vedere [Panoramica sulla modifica delle assegnazioni di attività](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
-
-
-           >[!TIP]
-           >
-           >* Puoi assegnare più utenti, mansioni o team. Puoi assegnare solo utenti attivi, mansioni e team.
-           >   
-           >* Quando aggiungi un’assegnazione utente, osserva l’avatar, il ruolo principale dell’utente o il suo indirizzo e-mail per distinguere gli utenti con nomi identici. Gli utenti devono essere associati ad almeno una mansione per visualizzarla quando vengono aggiunti. Per consentire agli utenti di visualizzare le e-mail degli utenti, nel proprio livello di accesso deve essere abilitata l’impostazione Visualizza informazioni di contatto. Per informazioni, vedere [Concedere l&#39;accesso agli utenti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
-           > 
-           >   Se un utente, una mansione o un team è stato assegnato prima della disattivazione, rimane assegnato all&#39;elemento di lavoro. In questo caso, consigliamo quanto segue:
-           >   
-           >* Riassegnare l&#39;elemento di lavoro alle risorse attive.
-           >* Associare gli utenti di un team disattivato a un team attivo e riassegnare l&#39;elemento di lavoro al team attivo.
+        Per ulteriori informazioni, vedere [Panoramica sulla modifica delle assegnazioni di attività](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
 
-      1. (Facoltativo) Modifica una delle seguenti opzioni per gli assegnatari:
+        >[!TIP]
+        >
+        >* Puoi assegnare più utenti, mansioni o team. Puoi assegnare solo utenti attivi, mansioni e team.
+        >   
+        >* Quando aggiungi un’assegnazione utente, osserva l’avatar, il ruolo principale dell’utente o il suo indirizzo e-mail per distinguere gli utenti con nomi identici. Gli utenti devono essere associati ad almeno una mansione per visualizzarla quando vengono aggiunti. Per consentire agli utenti di visualizzare le e-mail degli utenti, nel proprio livello di accesso deve essere abilitata l’impostazione Visualizza informazioni di contatto. Per informazioni, vedere [Concedere l&#39;accesso agli utenti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+        > 
+        >   Se un utente, una mansione o un team è stato assegnato prima della disattivazione, rimane assegnato all&#39;elemento di lavoro. In questo caso, consigliamo quanto segue:
+        >   
+        >* Riassegnare l&#39;elemento di lavoro alle risorse attive.
+        >* Associare gli utenti di un team disattivato a un team attivo e riassegnare l&#39;elemento di lavoro al team attivo.
 
-         * (Condizionale) **% allocazione o ore**: specificare una nuova percentuale di allocazione o ore.
 
-         >[!NOTE]
-         >
-         >Questa opzione può essere modificata solo se il Tipo di Durata è lo stesso in tutte le attività che vengono modificate. Quando il tipo di durata è Lavoro calcolato o Basato sulle risorse, è possibile aggiornare la percentuale di allocazione. Quando il Tipo di Durata è Semplice, è possibile aggiornare le Ore. Per informazioni sul tipo di durata, vedere [Panoramica sulla durata dell&#39;attività e sul tipo di durata](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
-         >
-         >
-         >Se il campo è vuoto, significa che il valore è diverso tra le varie attività, ma è comunque possibile modificarlo.
+   1. (Facoltativo) Modifica una delle seguenti opzioni per gli assegnatari:
 
-         * **Imposta come principale**: passa il puntatore del mouse sulle attività selezionate e seleziona questa opzione per fare dell&#39;assegnatario il proprietario dell&#39;attività per tutte le attività modificate.
-         * **Ruolo assegnatario**: selezionare un ruolo dall&#39;elenco a discesa. Se non è selezionata, Adobe Workfront seleziona automaticamente il Ruolo principale dell’utente.
-         * **Tipo di Durata**
-         * **Durata**
-         * **Ore pianificate**
+      * (Condizionale) **% allocazione o ore**: specificare una nuova percentuale di allocazione o ore.
 
-      1. Fai clic su **Salva**.
+      >[!NOTE]
+      >
+      >Questa opzione può essere modificata solo se il Tipo di Durata è lo stesso in tutte le attività che vengono modificate. Quando il tipo di durata è Lavoro calcolato o Basato sulle risorse, è possibile aggiornare la percentuale di allocazione. Quando il Tipo di Durata è Semplice, è possibile aggiornare le Ore. Per informazioni sul tipo di durata, vedere [Panoramica sulla durata dell&#39;attività e sul tipo di durata](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+      >
+      >
+      >Se il campo è vuoto, significa che il valore è diverso tra le varie attività, ma è comunque possibile modificarlo.
 
-         </div>
+      * **Imposta come principale**: passa il puntatore del mouse sulle attività selezionate e seleziona questa opzione per fare dell&#39;assegnatario il proprietario dell&#39;attività per tutte le attività modificate.
+      * **Ruolo assegnatario**: selezionare un ruolo dall&#39;elenco a discesa. Se non è selezionata, Adobe Workfront seleziona automaticamente il Ruolo principale dell’utente.
+      * **Tipo di Durata**
+      * **Durata**
+      * **Ore pianificate**
+
+   1. Fai clic su **Salva**.
+
+      </div>
 
 
 

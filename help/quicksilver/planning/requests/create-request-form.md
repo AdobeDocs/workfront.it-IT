@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 2ffd06f2f50d14b6d33bc79c92616ebed1d58fed
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
 source-wordcount: '3518'
 ht-degree: 1%
@@ -121,7 +121,7 @@ Per creare un modulo di richiesta, è necessario iniziare a creare il modulo, im
 1. Fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra del nome del tipo di record nell&#39;intestazione della pagina, quindi fai clic su **Crea modulo di richiesta** o **Gestisci moduli di richiesta**, se disponi già di un modulo e desideri crearne di nuovi.
 1. (Condizionale) Se si desidera aggiungere un altro modulo, fare clic su **Nuovo modulo di richiesta**.
 
-   Viene visualizzata la casella Crea modulo di richiesta (Create request form).
+   Viene visualizzata la casella **Crea modulo di richiesta**.
 
 1. Nella casella Crea modulo di richiesta aggiornare il nome del modulo. Per impostazione predefinita, il nome del modulo è **Modulo senza titolo**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Facoltativo) Aggiungi una **Descrizione** per il modulo di richiesta.
@@ -170,7 +170,7 @@ I dettagli del modulo sono suddivisi in schede.
 
   >[!NOTE]
   >
-  ><span class="preview">Nell&#39;ambiente di anteprima, la scheda Impostazioni sostituisce la scheda Configurazione.</span>
+  ><span class="preview">Nell&#39;ambiente di anteprima, la scheda Impostazioni ha sostituito la scheda Configurazione.</span>
   <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### Imposta dettagli modulo

@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 665e753880be59cf07062d75c66a7be5f2056aa1
+source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
 workflow-type: tm+mt
-source-wordcount: '5366'
+source-wordcount: '5369'
 ht-degree: 4%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 4%
 
 Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti a partire da una settimana dalla versione di anteprima.
 
-Per ulteriori informazioni, vedere [Modernizzazione interfaccia](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+Per ulteriori informazioni, consulta [Panoramica sulla versione del secondo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
 
 </div>
 

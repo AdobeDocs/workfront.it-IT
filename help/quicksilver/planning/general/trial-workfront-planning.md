@@ -3,9 +3,9 @@ title: Introduzione alla versione di prova gratuita di Adobe Workfront Planning
 description: Adobe Workfront offre una prova gratuita di 60 giorni di pianificazione Adobe Workfront. Questa prova rappresenta un'opportunità per vedere come Planning collega una strategia di grandi dimensioni al lavoro quotidiano che la rende possibile. Planning offre visibilità centralizzata nel ciclo di vita del marketing, consentendo una migliore collaborazione tra i team, il tracciamento in tempo reale delle campagne e flussi di lavoro automatizzati. Puoi creare aree di lavoro personalizzate e visualizzare il lavoro con timeline e calendari interattivi. Con questa versione di prova, potrai vedere in prima persona come Planning consente di allineare il lavoro quotidiano con gli obiettivi strategici, semplificare l’esecuzione e promuovere risultati misurabili per la tua organizzazione.
 hidefromtoc: true
 hide: true
-source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1148'
 ht-degree: 1%
 
 ---
@@ -144,10 +144,11 @@ Per rivedere e accettare l&#39;accordo legale, eseguire una delle operazioni seg
 
 * **Tra il 2 marzo e il 1 maggio 2026**:
 
-  Ti sono state concesse le seguenti autorizzazioni per i dati disponibili nella scheda **Aree di lavoro consigliate** nell&#39;area **Prova di pianificazione**:
+  Durante la prova gratuita, all&#39;utente vengono concesse le seguenti autorizzazioni per le aree di lavoro nell&#39;area Planning:
 
-   * Tutti gli amministratori di sistema dispongono delle autorizzazioni di gestione per la scheda Area di lavoro procedure consigliate nell&#39;area Planning.
-   * Tutti gli altri utenti dispongono delle autorizzazioni di visualizzazione per la scheda Area di lavoro procedure consigliate nell&#39;area Planning.
+   * Tutti gli amministratori di sistema dispongono delle autorizzazioni di gestione per la scheda Workspace.
+   * Tutti gli altri utenti dispongono delle autorizzazioni di visualizzazione per la scheda Aree di lavoro, ma l’amministratore di sistema può concedere loro le autorizzazioni di gestione per le aree di lavoro.
+   * Tutti gli utenti, incluso l&#39;amministratore di sistema, dispongono delle autorizzazioni di visualizzazione per la scheda aree di lavoro Procedure consigliate nell&#39;area Planning.
 
 * **Dopo Il 1° Maggio 2026:**
 
