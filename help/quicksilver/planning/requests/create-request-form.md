@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 2ffd06f2f50d14b6d33bc79c92616ebed1d58fed
 workflow-type: tm+mt
-source-wordcount: '2670'
+source-wordcount: '3518'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -131,7 +131,7 @@ Per creare un modulo di richiesta, è necessario iniziare a creare il modulo, im
 1. Fai clic su **Crea**.
 
    Il modulo di richiesta per il tipo di record selezionato viene aperto nella scheda Modulo.
-1. Continua con [Configurare il modulo](#configure-the-form).
+1. Continua con [Imposta i dettagli per il modulo di richiesta](#set-up-details-for-the-request-form).
 
 <!--
 
@@ -166,7 +166,11 @@ Per creare un modulo di richiesta, è necessario iniziare a creare il modulo, im
 I dettagli del modulo sono suddivisi in schede.
 
 * La scheda **Modulo** consente di aggiungere campi ed elementi di contenuto al modulo
-* La scheda **Configurazione** consente di impostare un processo di approvazione per il modulo e di impostare le opzioni di completamento richieste&lt;.
+* La scheda **Configurazione** consente di impostare un processo di approvazione per il modulo e di impostare le opzioni di completamento della richiesta.
+
+  >[!NOTE]
+  >
+  ><span class="preview">Nell&#39;ambiente di anteprima, la scheda Impostazioni sostituisce la scheda Configurazione.</span>
   <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### Imposta dettagli modulo
@@ -226,9 +230,17 @@ I dettagli del modulo sono suddivisi in schede.
    Per ulteriori informazioni sulla creazione di un modulo personalizzato, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. (Facoltativo) Fare clic su **Anteprima** per visualizzare la modalità di visualizzazione del modulo per gli altri utenti che lo utilizzeranno per inviare un nuovo record.
-1. Passa a [Imposta dettagli configurazione](#set-up-configuration-details) se desideri configurare ulteriori dettagli per il modulo o passa a [Completa creazione modulo richiesta](#complete-request-form-creation).
+1. Continuare con una delle operazioni seguenti:
+
+   * [Imposta dettagli configurazione](#set-up-configuration-details) se desideri configurare ulteriori dettagli per il modulo nell&#39;ambiente di produzione
+   * <span class="preview">[Configurare le impostazioni](#configure-settings) se si desidera configurare ulteriori dettagli per il modulo nell&#39;ambiente di produzione</span>
+   * [Completare la creazione del modulo di richiesta](#complete-request-form-creation) se non si desidera configurare ulteriori impostazioni.
 
 #### Configurare i dettagli della configurazione
+
+>[!NOTE]
+>
+>Questa scheda è disponibile solo nell’ambiente di produzione.
 
 Nella scheda Configurazione puoi impostare il processo di approvazione e configurare quando una richiesta creata da questo modulo verrà contrassegnata come Completata.
 
@@ -255,6 +267,82 @@ Nella scheda Configurazione puoi impostare il processo di approvazione e configu
 1. Specificare se si desidera che una richiesta creata da questo modulo venga contrassegnata come completata al momento della creazione dell&#39;oggetto richiesto o quando l&#39;oggetto richiesto viene completato.
 1. (Condizionale) Se hai selezionato la richiesta da contrassegnare come completata quando l’oggetto richiesto è completato, seleziona il campo e il valore che indicano quando l’oggetto è completo. Ad esempio, è possibile selezionare il campo Stato e il valore Completo per completare la richiesta quando lo stato dell&#39;oggetto creato è impostato su Completo.
 1. Passa a <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[Creazione modulo di richiesta completata](#complete-request-form-creation).
+
+<div class="preview">
+
+### Configurare le impostazioni
+
+>[!NOTE]
+>
+>Questa scheda è disponibile solo nell’ambiente di anteprima.
+
+Nella scheda Impostazioni, puoi impostare le regole di approvazione e configurare quando una richiesta creata da questo modulo verrà contrassegnata come Completata.
+
+#### Configurare le regole di approvazione
+
+Le regole di approvazione definiscono il processo di approvazione in base ai valori dei campi in nelle richieste inviate.
+
+Ad esempio, se un modulo di richiesta ha il campo &quot;Tipo di campagna&quot;, è possibile creare una regola che invia la richiesta a una persona quando il campo ha il valore &quot;Digitale&quot; e a una persona diversa quando ha il valore &quot;Stampa&quot;.
+
+Quando aggiungi regole di approvazione, tieni presente quanto segue:
+
+* Le regole sono prioritarie per ordine. Se le prime condizioni della regola sono soddisfatte, tale regola viene applicata anche se sono soddisfatte le condizioni per le regole più in basso nell’elenco.
+* Se non viene soddisfatta alcuna condizione, viene applicata la regola predefinita.
+* È possibile aggiungere uno o più approvatori a una regola di approvazione.
+* Se almeno un approvatore rifiuta la richiesta, la richiesta viene rifiutata e il record non viene creato. La richiesta rimane nell’area Richieste di Workfront.
+* Se si aggiungono più approvatori e l&#39;opzione È necessaria una sola decisione non è abilitata, tutti gli approvatori devono prendere una decisione prima che una richiesta venga approvata o rifiutata.
+* Se un team è impostato come approvatore, è necessaria una sola decisione del team.
+
+Per ulteriori informazioni sull&#39;aggiunta di approvazioni, vedere [Aggiungere l&#39;approvazione a un modulo di richiesta](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+
+Per impostare le regole di approvazione per un modulo di richiesta:
+
+1. Inizia a creare o modificare un modulo di richiesta, come descritto nella sezione [Inizia a creare un modulo di richiesta](#begin-creating-a-request-form).
+
+   Il modulo di richiesta per il tipo di record selezionato viene aperto nella scheda Modulo.
+1. (Facoltativo) Configura i dettagli del modulo come descritto in [Configura dettagli modulo](#set-up-form-details).
+
+1. Per iniziare a configurare le regole di approvazione, fai clic su Approvazioni ![Icona Approvazioni](assets/approvals-icon-on-form.png) nell&#39;area di navigazione a sinistra.
+
+1. (Facoltativo) Se desideri impostare un processo di approvazione predefinito, aggiungi almeno un utente o un team al campo **Approvatori** dell&#39;area Regola di approvazione predefinita, quindi fai clic sulla casella di controllo **È necessaria una sola decisione** se desideri che il record venga creato dopo che uno qualsiasi degli approvatori predefiniti lo ha approvato.
+
+   ![Area regola di approvazione predefinita](assets/default-approvers.png)
+
+   <!--below bullet list is duplicated in the Add approval to a request form article-->
+
+1. (Facoltativo) Per ogni regola di approvazione aggiuntiva, effettua le seguenti operazioni:
+
+   1. Fai clic su **Aggiungi regola di approvazione**
+   1. Fai clic sul titolo del segnaposto &quot;Regola di approvazione senza titolo&quot; e immetti un nome per la regola di approvazione.
+   1. Fai clic su **Seleziona un campo** e seleziona il campo che attiva la regola.
+   1. Seleziona l’operatore per la regola. Gli operatori variano in base al tipo di campo.
+   1. Se l’operatore selezionato richiede un valore, fai clic sull’icona più e aggiungi uno o più valori.
+   1. (Facoltativo) Aggiungi altre condizioni utilizzando AND o OR facendo clic su Aggiungi condizione e configurando la condizione aggiuntiva.
+   1. Nell&#39;area Azioni della regola di approvazione, nel campo **Approvatori**, aggiungere almeno un utente o un team da impostare presso l&#39;approvatore quando la condizione viene soddisfatta.
+   1. (Condizionale) Se desideri che il record venga creato dopo l&#39;approvazione di uno qualsiasi degli approvatori, seleziona la casella di controllo **È necessaria una sola decisione**.
+
+1. (Facoltativo) Per riordinare le regole di routing, fare clic sulla maniglia di trascinamento sul lato sinistro della regola e trascinare la regola nella posizione desiderata.
+
+   Impossibile riordinare la regola predefinita.
+
+1. (Facoltativo)Per eliminare una regola di routing, fare clic su **X** a destra della regola.
+1. Fai clic su **Salva** per salvare le regole di approvazione.
+1. Continua con [Impostare le opzioni di completamento della richiesta](#set-request-completion-options)
+
+#### Impostare le opzioni di completamento delle richieste
+
+Le opzioni di completamento consentono di impostare se una richiesta è contrassegnata come completata al momento della creazione dell&#39;oggetto richiesto o al momento del completamento dell&#39;oggetto creato. È possibile definire quando l&#39;oggetto viene completato in base a una condizione specificata.
+
+1. Inizia a creare o modificare un modulo di richiesta, come descritto nella sezione [Inizia a creare un modulo di richiesta](#begin-creating-a-request-form).
+
+   Il modulo di richiesta per il tipo di record selezionato viene aperto nella scheda Modulo.
+1. (Facoltativo) Configura i dettagli del modulo come descritto in [Configura dettagli modulo](#set-up-form-details).
+
+1. Specificare se si desidera che una richiesta creata da questo modulo venga contrassegnata come completata al momento della creazione dell&#39;oggetto richiesto o quando l&#39;oggetto richiesto viene completato.
+1. (Condizionale) Se hai selezionato la richiesta da contrassegnare come completata quando l’oggetto richiesto è completato, seleziona il campo e il valore che indicano quando l’oggetto è completo. Ad esempio, è possibile selezionare il campo Stato e il valore Completo per completare la richiesta quando lo stato dell&#39;oggetto creato è impostato su Completo.
+1. Passa a <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[Creazione modulo di richiesta completata](#complete-request-form-creation).
+
+</div>
 
 <!--
  
