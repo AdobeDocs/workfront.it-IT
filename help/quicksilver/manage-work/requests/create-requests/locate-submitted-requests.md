@@ -8,19 +8,26 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1483'
 ht-degree: 2%
 
 ---
 
 # Visualizzare le richieste inviate
 
-Puoi visualizzare le richieste inviate da te o da un altro utente oppure le richieste che hai avviato ma che non hai mai completato l’invio. Puoi individuare queste richieste nelle seguenti aree di Adobe Workfront:
+Puoi visualizzare le richieste inviate da te o da un altro utente oppure le richieste che hai avviato ma che non hai mai completato l’invio. Le richieste non completate vengono salvate come bozze.
+
+Puoi individuare le richieste inviate nelle seguenti aree di Adobe Workfront:
 
 * L’area Richieste di Workfront
-* il widget Richieste personali nella Home
+* Il widget Le mie richieste nella Home
+
+L’area Richieste visualizza le seguenti richieste, a seconda di come scegli di visualizzarle:
+
+* Richieste di Workfront quando utilizzi l’esperienza legacy
+* Workfront e le richieste Planning quando utilizzi la nuova esperienza.
 
   >[!NOTE]
   >
@@ -107,16 +114,16 @@ L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi
    Per istruzioni, vedere [Creare o modificare le visualizzazioni nell&#39;area Richieste](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 1. (Facoltativo) Controlla lo stato di una richiesta controllando la colonna Stato. Nella nuova esperienza di richiesta sono disponibili i seguenti stati:
 
-   * Bozza: questa richiesta non è ancora stata inviata.
-   * Revisione in sospeso: (solo Planning) questa richiesta contiene approvatori e nessuno degli approvatori ha aperto la richiesta.
-   * In revisione: (solo Planning) questa richiesta contiene approvatori e almeno un approvatore ha aperto la richiesta, ma non è stata presa alcuna decisione.
-   * Rifiutata: (solo Planning) questa richiesta contiene approvatori ed è stata rifiutata.
-   * In corso:
-      * Flusso di lavoro Workfront: la richiesta è stata convertita e i lavori sono in corso.
-      * Workfront Planning: il completamento della richiesta è mappato a un campo Planning specifico e il valore del campo non corrisponde ancora al valore di completamento.
+   * **Bozza**: questa richiesta non è ancora stata inviata.
+   * **Revisione in sospeso**: (solo Planning) questa richiesta contiene approvatori e nessuno degli approvatori ha aperto la richiesta.
+   * **In revisione**: (solo Planning) questa richiesta contiene approvatori e almeno un approvatore ha aperto la richiesta, ma non è stata presa alcuna decisione.
+   * **Rifiutata**: (solo Planning) questa richiesta contiene approvatori ed è stata rifiutata.
+   * **In corso**:
+      * Richieste Workfront: la richiesta è stata convertita e i lavori sono in corso.
+      * Richieste di Workfront Planning: il completamento della richiesta viene mappato a un campo Planning specifico e il valore del campo non corrisponde ancora al valore di completamento.
 
         Per ulteriori informazioni, vedere [Configurare i dettagli della configurazione](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) nell&#39;articolo Creare e gestire un modulo di richiesta in Adobe Workfront Planning.
-   * Completo: la richiesta è stata completata.
+   * **Complete**: richiesta completata.
 
 >[!NOTE]
 >

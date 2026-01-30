@@ -6,9 +6,9 @@ description: Il ricalcolo delle sequenze temporali consente ai responsabili di v
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1077'
 ht-degree: 2%
 
 ---
@@ -96,7 +96,7 @@ Per impostazione predefinita, le sequenze temporali del progetto vengono ricalco
 > Un esempio di progetto complesso può essere un progetto con più dipendenze, un numero elevato di attività, più predecessori tra progetti o più rientri di attività.
 > Workfront visualizza un avviso a destra del nome del progetto nella pagina del progetto per informare gli utenti che la sequenza temporale del progetto deve essere ricalcolata manualmente. Solo gli utenti con autorizzazioni Manage (Gestisci) per il progetto possono ricalcolare manualmente la timeline.
 >
->   ![](assets/project-warning-to-manually-recalculate-timeline.png)
+>   ![Avviso del progetto per ricalcolare la sequenza temporale](assets/project-warning-to-manually-recalculate-timeline.png)
 >
 
 * [Ricalcolo automatico delle sequenze temporali del progetto](#automatic-recalculation-of-project-timelines)
@@ -183,7 +183,7 @@ In qualità di proprietario di un progetto, puoi ricalcolare manualmente le temp
 
    Vai a un elenco o a un report di progetti e seleziona uno o più progetti, quindi fai clic sull&#39;icona **Altro** ![Altro menu](assets/qs-more-menu.png) nella parte superiore dell&#39;elenco.
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Ricalcolare la sequenza temporale delle espressioni con il menu a discesa Finances](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >

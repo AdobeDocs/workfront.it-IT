@@ -7,9 +7,9 @@ description: Il tipo di aggiornamento di un progetto indica il modo in cui Adobe
 author: Alina
 feature: Work Management
 exl-id: a6394961-2ac8-4b95-aa1b-dba8108c612f
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Per informazioni su come aggiornare il tipo di aggiornamento del progetto, veder
 
   Quando si aggiorna un&#39;attività o un progetto e si attiva un ricalcolo della sequenza temporale, tutte le date disponibili vengono visualizzate immediatamente, consentendo di continuare a lavorare. Nei progetti con più di 100 attività, le date che richiedono calcoli più lunghi vengono disattivate.
 
-  ![](assets/dates-dimmed-when-insline-editing-350x146.png)
+  ![Date oscurate durante la modifica in linea](assets/dates-dimmed-when-insline-editing-350x146.png)
 
   Questo indica che il ricalcolo non è ancora terminato e che le date sono soggette a modifiche.
 

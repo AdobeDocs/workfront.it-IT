@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '3518'
+source-wordcount: '3550'
 ht-degree: 1%
 
 ---
@@ -190,13 +190,14 @@ I dettagli del modulo sono suddivisi in schede.
    * Campi record disponibili nella vista tabella del tipo di record selezionato. <!--they are working on removing the limitation below-->
 
    * **Sezione predefinita**: questa è l&#39;interruzione di sezione predefinita che Workfront applica al modulo di richiesta. Tutti i campi record vengono visualizzati nell&#39;area **Sezione predefinita**.
-   * Campo **Oggetto**: campo che identificherà la richiesta in Workfront. Impossibile modificare la configurazione e il valore del campo Oggetto.
+   * Campo **Oggetto**: campo che identificherà la richiesta in Workfront. La configurazione e il valore del campo **Subject** non sono modificabili.
 
      >[!NOTE]
      >
      >* Il campo **Subject** richiede un valore quando è visibile nel modulo di richiesta. Tuttavia, è possibile rimuovere il campo **Oggetto**, se necessario, e i richiedenti non lo visualizzeranno nel modulo al momento dell&#39;invio della richiesta.
-     >* Quando in un modulo di richiesta manca il campo Oggetto, ma è presente un campo Nome per il nome del record futuro, al nome della richiesta viene automaticamente assegnato lo stesso nome del record creato.
-     >* Quando nel modulo di richiesta mancano i campi Oggetto e Nome, la richiesta viene denominata in base al seguente pattern: `< Record name > request form < Entry date of the request >`; il record è denominato **Senza titolo**.
+     >* Quando in un modulo di richiesta manca il campo **Oggetto** ma è presente un campo Nome per il nome del record futuro, al nome della richiesta viene automaticamente assegnato lo stesso nome del record creato.
+     >* Quando nel modulo di richiesta mancano i campi **Subject** e **Name**, la richiesta viene denominata in base al seguente pattern: `< Request form name > < Entry date of the request >`; il record è denominato **Untitled**.
+     >* <span class="preview">Per visualizzare le informazioni del campo **Oggetto** in Workfront Planning, è possibile aggiungere il campo di connessione **Richiesta originale** al tipo di record associato al modulo di richiesta. Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).</span>
 
    * Tutti i campi associati al tipo di record.
 

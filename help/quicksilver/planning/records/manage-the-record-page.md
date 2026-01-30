@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 0%
@@ -282,9 +282,11 @@ Si verificano le seguenti situazioni:
    * Selezionare l&#39;impostazione **Mostra campi tabella** per visualizzare solo i campi non nascosti nella visualizzazione tabella del record. Questa è l&#39;impostazione predefinita
    * Deselezionare l&#39;impostazione **Mostra campi tabella** per visualizzare tutti i campi dalla visualizzazione tabella del record, inclusi quelli nascosti.
 
+   </div>
+
    >[!TIP]
    >
-   >L&#39;impostazione **Mostra campi tabella** è disponibile solo nella casella di anteprima Dettagli del record. Non è disponibile nella pagina Dettagli del record.
+   ><span class="preview">L&#39;impostazione **Mostra campi tabella** è disponibile solo nella casella di anteprima Dettagli del record. Non è disponibile nella pagina Dettagli del record.</span>
 
 
    <!--replace with this when they fix the UI text:
@@ -296,7 +298,7 @@ Si verificano le seguenti situazioni:
 
 1. (Facoltativo) Fai clic sull&#39;icona **Apri in una nuova scheda** ![Apri la casella dei dettagli in una nuova scheda](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda.
 
-   Per impostazione predefinita viene aperta la scheda **Dettagli** del record.
+   La pagina record **Dettagli** si apre in una nuova scheda.
 
    ![Pagina dettagli](assets/details-page.png)
 

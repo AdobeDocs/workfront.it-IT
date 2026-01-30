@@ -6,10 +6,10 @@ description: In qualità di project manager, è possibile determinare come viene
 author: Alina
 feature: Work Management
 exl-id: e6b99c48-5ccc-4956-8465-6f22f14468ef
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 2%
+source-wordcount: '304'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +19,7 @@ In qualità di project manager, è possibile determinare come viene calcolata la
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 
 <table style="table-layout:auto"> 
@@ -91,7 +91,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
    * Fai clic sul menu **Altro** ![Altro menu](assets/qs-more-menu.png) a destra del nome del progetto, quindi fai clic su **Modifica**.
    * Fai clic su **Dettagli progetto** nel pannello a sinistra.
 
-   ![](assets/update-condition-type-nwe-350x108.png)
+   ![Aggiorna tipo di condizione](assets/update-condition-type-nwe-350x108.png)
 
 1. Nel campo **Tipo di condizione**, scegliere una delle opzioni seguenti:
 

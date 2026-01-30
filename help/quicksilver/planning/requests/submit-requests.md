@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '2176'
+source-wordcount: '2200'
 ht-degree: 0%
 
 ---
@@ -106,15 +106,22 @@ Prima di inviare una richiesta a un modulo di richiesta Workfront Planning, è n
 
   Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
 * I record creati mediante l’invio di moduli di richiesta sono collegati alla richiesta originale. Impossibile rimuovere la connessione.
-* Puoi visualizzare sia i record creati che la richiesta nelle seguenti aree:
+* Puoi visualizzare sia i record creati che le richieste utilizzate per crearli nelle seguenti aree:
    * Area Richieste in Workfront
 
   <div class="preview">
 
-   * Record in qualsiasi pagina del tipo di record nel campo Connessione richiesta originale
-   * Casella di anteprima Dettagli del record nel campo di connessione della richiesta originale
+   * Pagine del tipo di record in Workfront Planning
+   * Area Dettagli record in Workfront Planning
 
   </div>
+
+  >[!TIP]
+  >
+  ><span class="preview">È possibile visualizzare il nome della richiesta nel campo Oggetto nell&#39;area Richieste di Workfront o nel campo Richiesta originale di connessione in Workfront Planning. </span>
+
+
+
 * Le richieste inviate vengono visualizzate nell’area Richieste di Workfront.
 * Le richieste Planning inviate sono visibili solo nella nuova esperienza di richiesta. Non è possibile visualizzare le richieste Planning nell’esperienza di richiesta legacy.
 Per informazioni, vedere [Creare e inviare richieste](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
@@ -167,7 +174,7 @@ L&#39;abilitazione di questa impostazione rende disponibili i moduli di richiest
 
      Per informazioni, vedere [Aggiungere un&#39;approvazione a un modulo di richiesta](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-   * <span class="preview">È possibile aggiungere il campo della connessione della richiesta originale a un tipo di record in Planning che visualizza il nome della richiesta originale. Per informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md). </span>
+   * <span class="preview">È possibile aggiungere il campo Connessione richiesta originale a un tipo di record in Planning per visualizzare il nome della richiesta originale che ha creato un record. Per informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md). </span>
    * La richiesta è visibile solo al proprietario, all&#39;approvatore e agli utenti che dispongono almeno delle autorizzazioni di visualizzazione per l&#39;area di lavoro. Gli amministratori di Workfront possono visualizzare tutte le richieste inviate a qualsiasi area di lavoro del sistema.
 
    * Ricevi una notifica in-app e un messaggio e-mail che informa che la richiesta è stata inviata correttamente o è stata inviata per la revisione.
@@ -225,7 +232,7 @@ L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi
    >
    >* Se il modulo di richiesta è associato a un’approvazione, questa deve essere concessa prima di poter accedere al record dalla pagina della richiesta.
 
-1. (Facoltativo) Fare clic sul nome del tipo di record **&#x200B;**.
+1. (Facoltativo) Fare clic sul nome del tipo di record ****.
 
    La pagina del tipo di record viene visualizzata in Workfront Planning.
 

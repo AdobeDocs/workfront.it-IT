@@ -7,9 +7,9 @@ description: I progetti, le attività e i problemi hanno una data di inizio effe
 author: Alina
 feature: Work Management
 exl-id: 4357b072-24f6-4f89-b624-f066f8af0722
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '530'
 ht-degree: 3%
 
 ---
@@ -105,7 +105,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 È possibile individuare la data di inizio effettiva di un progetto nelle seguenti aree:
 
 * Nella sezione Dettagli di un progetto.
-* In un report o in una visualizzazione di progetto, quando si aggiunge la Data di inizio effettiva per l&#39;oggetto Project nel report.
+* In un report o in una visualizzazione di progetto, quando si aggiunge la **Data di inizio effettiva** per l&#39;oggetto Project nel report.
 
   Per informazioni sulla creazione di report, vedere l&#39;articolo [Creare un report personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
@@ -116,8 +116,8 @@ Per individuare la data di inizio effettiva nella sezione Dettagli del progetto:
 1. Fare clic sul progetto per il quale si desidera visualizzare la data di inizio effettiva.
 1. Fai clic su **Dettagli progetto** nel pannello a sinistra, quindi vai alla sezione **Panoramica**.
 
-   La data di inizio effettiva viene visualizzata insieme alle altre date del progetto.
+   ![Data di inizio effettiva progetto evidenziata](assets/nwe-project-actual-start-date--highlighted-350x367.png)
 
-   ![](assets/nwe-project-actual-start-date--highlighted-350x367.png)
+   La **data di inizio effettiva** viene visualizzata insieme ad altre date del progetto.
 
 

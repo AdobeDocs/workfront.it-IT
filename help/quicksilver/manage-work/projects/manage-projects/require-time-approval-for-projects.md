@@ -6,10 +6,10 @@ description: Puoi configurare il progetto in modo che le ore registrate vengano 
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 0%
+source-wordcount: '790'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ Per ulteriori informazioni sui record di fatturazione, vedere l&#39;articolo [Cr
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -152,12 +152,12 @@ Per approvare o rifiutare le ore di un progetto:
 1. Vengono visualizzate le ore registrate per problemi, attività e progetto con lo stato **Inviato**.\
    Fai clic sulla casella a sinistra delle voci orarie per selezionare le ore da approvare.
 
-1. Fai clic sull&#39;icona **Approva** ![](assets/approve-hours-icon.png) in alto nell&#39;elenco delle ore.\
+1. Fai clic sull&#39;icona **Approva** ![Approva icona](assets/approve-hours-icon.png) nella parte superiore dell&#39;elenco delle ore.\
    Lo stato delle ore cambia in **Approvato**.\
    Se successivamente si rifiutano le ore approvate, lo stato delle ore cambia in **Non approvato**.\
    Quando si includono le ore approvate in un record di fatturazione, lo stato delle ore cambia in **Fatturate e Approvate**. Le ore aggiunte a un record di fatturazione non possono essere eliminate. Per ulteriori informazioni sulla creazione di record di fatturazione, vedere l&#39;articolo [Creare record di fatturazione](../../../manage-work/projects/project-finances/create-billing-records.md)
 
-1. (Facoltativo) Fai clic sull&#39;icona **di tipo** Rifiuta![](assets/reject-hours-icon.png) per rifiutare le voci di ora nel progetto.\
+1. (Facoltativo) Fai clic sull&#39;icona **Rifiuta** ![Icona Rifiuta ore](assets/reject-hours-icon.png) per rifiutare le voci di orario nel progetto.\
    Lo stato delle ore diventa **Rifiutato**.
 
    >[!NOTE]

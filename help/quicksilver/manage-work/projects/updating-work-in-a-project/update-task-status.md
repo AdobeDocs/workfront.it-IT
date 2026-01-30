@@ -6,10 +6,10 @@ description: È possibile aggiornare lo stato di un'attività per informare gli 
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 1%
+source-wordcount: '635'
+ht-degree: 4%
 
 ---
 
@@ -25,7 +25,7 @@ Gli stati predefiniti sono Nuovo (New), In corso (In Progress) e Completo (Compl
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +38,7 @@ Gli stati predefiniti sono Nuovo (New), In corso (In Progress) e Completo (Compl
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Standard</p> 
-   <p>Lavoro o superiore</p>
+   <p>Work o successiva</p>
    </td> 
   </tr> 
   <tr> 
@@ -113,7 +113,7 @@ Per aggiornare manualmente lo stato dell&#39;attività nell&#39;intestazione del
 
    Fai doppio clic all&#39;interno della bolla **Percent Complete** per immettere manualmente una nuova percentuale.
 
-   ![](assets/percent-complete-status-widgets-task-header.png)
+   ![Intestazione attività widget stato completato percentuale](assets/percent-complete-status-widgets-task-header.png)
 
 1. (Facoltativo) Per fornire ulteriori informazioni sull&#39;aggiornamento, effettuare una delle seguenti operazioni:
 
@@ -142,7 +142,7 @@ Per aggiornare manualmente lo stato dell&#39;attività nell&#39;intestazione del
    
    * To update the Commit Date of the task, expand the **Commit Date** drop-down calendar, and select a new Commit Date. 
    * To provide a visual indication of task completion, drag the bubble under Percent Complete or double-click it to enter a percent value.   
-     ![](assets/drag-the-progress-bar-350x155.png)-->
+     ![Drag the progress bar]](assets/drag-the-progress-bar-350x155.png)-->
 
 ## Aggiorna automaticamente lo stato delle attività
 

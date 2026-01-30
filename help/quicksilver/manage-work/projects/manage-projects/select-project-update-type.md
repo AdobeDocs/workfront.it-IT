@@ -6,9 +6,9 @@ description: Selezionando un Tipo di aggiornamento per un progetto, è possibile
 author: Alina
 feature: Work Management
 exl-id: ffdfffec-d217-4daa-9849-cb0c794992c0
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '664'
 ht-degree: 3%
 
 ---
@@ -66,7 +66,7 @@ Quando le attività vengono aggiornate, gli oggetti padre (attività padre o pro
 
 1. Fare clic su **Progetto** **Impostazioni**.
 
-   ![](assets/update-type-field-on-project-edit-box-nwe-350x378.png)
+   ![Aggiorna campo di tipo nella casella di modifica del progetto](assets/update-type-field-on-project-edit-box-nwe-350x378.png)
 
 1. Nel campo **Tipo di aggiornamento**, selezionare se si desidera che Workfront calcoli automaticamente la sequenza temporale del progetto ogni giorno, quando viene apportata una modifica oppure se si desidera che il project manager la calcoli manualmente.
 
@@ -81,7 +81,7 @@ Quando le attività vengono aggiornate, gli oggetti padre (attività padre o pro
 
      Quando si aggiorna un&#39;attività o un progetto e si attiva un ricalcolo della sequenza temporale, tutte le date disponibili vengono visualizzate immediatamente, consentendo di continuare a lavorare. Nei progetti con più di 100 attività, le date che richiedono calcoli più lunghi vengono disattivate.
 
-     ![](assets/dates-dimmed-when-insline-editing-350x146.png)
+     ![Date oscurate durante la modifica in linea](assets/dates-dimmed-when-insline-editing-350x146.png)
 
      Questo indica che il ricalcolo non è ancora terminato e che le date sono soggette a modifiche.
 

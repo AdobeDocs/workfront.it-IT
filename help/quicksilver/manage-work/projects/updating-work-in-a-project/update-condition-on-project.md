@@ -6,9 +6,9 @@ description: La Condizione di un progetto è un flag posizionato su di esso per 
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '531'
 ht-degree: 3%
 
 ---
@@ -110,7 +110,7 @@ Se si imposta il tipo di condizione del progetto su Manuale invece che su Stato 
 
 1. Verificare che il campo **Tipo di condizione** sia impostato su **Manuale**.
 
-   ![](assets/project-details-overview-select-condition.png)
+   ![Condizione di selezione panoramica dettagli progetto](assets/project-details-overview-select-condition.png)
 
 1. Nel campo **Condizione**, seleziona tra le seguenti opzioni quella che corrisponde alla tua comprensione del corretto svolgimento del lavoro associato o dell&#39;eventuale ritardo:
 

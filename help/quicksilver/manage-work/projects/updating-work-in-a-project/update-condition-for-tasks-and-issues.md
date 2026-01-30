@@ -6,10 +6,10 @@ description: La condizione di un’attività o di un problema è un flag applica
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 2d8ad8baa6c470fd82b61202cb42443f568b1968
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 1%
+source-wordcount: '1070'
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,7 @@ I valori di Condizione a cui si fa riferimento in questo articolo sono disponibi
 
 ## Requisiti di accesso {#access-requirements}
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -167,7 +167,7 @@ Puoi aggiornare manualmente la Condizione delle attività e dei problemi in vari
    * Qualche dubbio
    * Problemi notevoli
 
-   ![](assets/condition-in-task-header-0925.png)
+   ![Condizione nell&#39;intestazione attività](assets/condition-in-task-header-0925.png)
 
 <!--1. Click Enter to save the Condition.-->
 
@@ -185,7 +185,7 @@ Puoi aggiornare manualmente la Condizione delle attività e dei problemi in vari
 
 1. Aggiorna la **condizione** del problema o dell&#39;attività in linea facendo doppio clic sulla condizione esistente e selezionando un nuovo valore dal menu a discesa.
 
-   ![](assets/condition-values-in-task-list-0925.png)
+   ![Valori condizione nell&#39;elenco attività](assets/condition-values-in-task-list-0925.png)
 
    >[!NOTE]
    >

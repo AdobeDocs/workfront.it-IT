@@ -7,9 +7,9 @@ description: Gli utenti associati a un progetto in una certa capacità costituis
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '479'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ Se un utente è elencato nell’area Persone di un progetto, il progetto viene v
 
 Puoi vedere se il filtro Progetti in corso è selezionato nell’intestazione dell’area Progetti. Puoi applicarlo dal pannello Filtri o dall’intestazione.
 
-![](assets/nwe-project-list-buttons-350x187.png)
+![Pulsanti filtro progetto](assets/nwe-project-list-buttons-350x187.png)
 
 >[!NOTE]
 >

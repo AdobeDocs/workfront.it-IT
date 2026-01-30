@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '3240'
+source-wordcount: '3265'
 ht-degree: 0%
 
 ---
@@ -538,11 +538,13 @@ Fai clic sul nome per aprire la pagina dei dettagli e aggiungere informazioni.
 
 ## Creare record inviando un modulo di richiesta a un tipo di record
 
-Dopo che un utente ha creato un modulo di richiesta per un tipo di record e ha condiviso con sé un collegamento, è possibile inviare una richiesta per creare un record per tale tipo di record.
+Dopo che un utente crea un modulo di richiesta per un tipo di record e lo pubblica nell&#39;area Richieste o condivide con l&#39;utente un collegamento al modulo di richiesta, è possibile inviare una richiesta per creare un record per tale tipo di record.
 
 Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 Sia gli utenti di Workfront che quelli esterni all&#39;organizzazione possono inviare richieste ai tipi di record di Planning e creare record, se dispongono di un collegamento al modulo di richiesta.
+
+Solo gli utenti di Workfront possono aggiungere richieste che creano record dall’area Richieste di Workfront.
 
 Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md).
 

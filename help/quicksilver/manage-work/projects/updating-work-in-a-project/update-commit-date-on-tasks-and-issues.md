@@ -6,10 +6,10 @@ description: Puoi aggiornare manualmente la data di conferma di un’attività o
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 0%
+source-wordcount: '599'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ Puoi aggiornare manualmente la data di conferma di un’attività o di un proble
 
 <!--Audited: 01/2024-->
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -143,13 +143,13 @@ L’aggiornamento della data di conferma è identico per attività e problemi.
 
 1. (Condizionale e facoltativo) Se l&#39;amministratore del Workfront o del gruppo ha aggiunto la Data conferma all&#39;intestazione dell&#39;attività o del problema, fare clic sul campo **Data conferma** nell&#39;intestazione, quindi selezionare una data dal calendario. Se la Data del commit non è nell&#39;intestazione, procedere come segue.
 
-   ![](assets/commit-date-task-header.png)
+   ![Conferma data nell&#39;intestazione attività](assets/commit-date-task-header.png)
 
 1. Fai clic su **Dettagli attività** o **Dettagli problema** nel pannello a sinistra.
 1. Fai clic su **Panoramica** per espanderlo.
 1. Aggiorna il campo **Commit Date**.
 
-   ![](assets/task-commit-date-edit-highlighted-details-page.png)
+   ![Modifica data conferma attività evidenziata nella pagina dei dettagli](assets/task-commit-date-edit-highlighted-details-page.png)
 
 1. Fai clic su **Salva modifiche**.
 
@@ -159,15 +159,15 @@ L’aggiornamento della data di conferma è identico per attività e problemi.
 
      Invece, la Data impegno e la Data completamento prevista dell’attività o del problema diventano le stesse.
 
-     ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
+     ![La data di completamento prevista per l&#39;attività è evidenziata nei dettagli](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
    * In una notifica in-app Workfront, il proprietario del progetto riceve una notifica che informa che hai suggerito una nuova Data di conferma per l’attività o il problema.
    * Nella sezione Aggiornamenti, il proprietario del progetto viene informato che hai suggerito una nuova Data di conferma e che può, in questo momento, aggiornare la Data di completamento pianificata dell’attività o del problema in modo che corrisponda alla Data di conferma suggerita.
 
-     ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
+     ![La notifica del proprietario del progetto nel flusso di aggiornamento che la data del commit influisce sulla sequenza temporale del progetto](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
 
-     <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
+     <!--![Project owner notification in update stream that commit date affects the project timeline](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
 
      Per informazioni sulle notifiche e sugli aggiornamenti attivati da questa modifica, vedere la sezione &quot;Notifiche e aggiornamenti attivati dalla modifica della data di conferma&quot; nell&#39;articolo [Panoramica sulla data di conferma](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
