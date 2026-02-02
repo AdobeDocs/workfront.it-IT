@@ -6,9 +6,9 @@ description: È possibile eliminare le richieste inviate o le bozze di richieste
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '608'
 ht-degree: 3%
 
 ---
@@ -81,12 +81,9 @@ Puoi eliminare le richieste nell’area Richieste di Workfront o nel widget Rich
 
       Per ulteriori informazioni sul widget Richieste personali, vedere [Utilizzare il widget Richieste personali](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
-1. Nell’elenco Richieste o nel widget Richieste personali, passa il cursore del mouse sulla richiesta o sulla bozza da eliminare.
+1. Nell&#39;elenco **Richieste** o nel widget **Richieste personali** in Home, passa il puntatore del mouse sulla richiesta o sulla bozza da eliminare, quindi fai clic sul menu **Altro** ![Altro](assets/more-menu.png)
 
-   Viene visualizzato un menu Altro con tre punti.
-   ![](assets/more-menu.png)
-
-1. Fai clic sul menu **Altro** a destra della richiesta o del nome della bozza, quindi fai clic su **Elimina**.
+1. Fai clic su **Elimina**
 
    Oppure
 

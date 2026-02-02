@@ -8,10 +8,10 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ I gruppi di argomenti sono associati alle code di richieste. È possibile dispor
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -80,7 +80,7 @@ Per creare un Topic Group:
 1. Fai clic su **Gruppi di argomenti** nel pannello a sinistra.
 1. Fare clic su **Nuovo gruppo di argomenti**.
 
-   <!--   ![](assets/new-topic-group-box-nwe-350x306.png) -->
+   <!--   ![New topic group box](assets/new-topic-group-box-nwe-350x306.png) -->
 
 1. Specifica le seguenti informazioni:
 

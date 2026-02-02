@@ -6,9 +6,9 @@ description: È possibile modificare le informazioni sulle attività in un elenc
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '3236'
+source-wordcount: '3254'
 ht-degree: 3%
 
 ---
@@ -179,7 +179,7 @@ Per modificare le attività in un elenco e salvare automaticamente le modifiche:
 
    Oppure
 
-   Fare clic sul menu **Altro** ![](assets/more-icon-task-list.png) a destra del nome dell&#39;attività.
+   Fai clic sull&#39;icona **Altro** menu ![Altro nell&#39;elenco delle attività](assets/more-icon-task-list.png) a destra del nome dell&#39;attività.
 
 1. (Facoltativo) Seleziona una delle seguenti opzioni:
 
@@ -299,7 +299,7 @@ Per modificare i task in un elenco selezionando l&#39;opzione Salvataggio manual
 
    Oppure
 
-   Fare clic sul menu **Altro** ![](assets/more-icon-task-list.png).
+   Fare clic sull&#39;icona **Modalità del menu** Altro![ nell&#39;elenco delle attività](assets/more-icon-task-list.png).
 
 1. (Facoltativo) Seleziona una delle seguenti opzioni:
 
@@ -375,7 +375,7 @@ Per modificare i task in un elenco quando si utilizza l&#39;opzione Pianificazio
    >
    >L&#39;opzione **Pianificazione del tempo** è disabilitata per i progetti con più di 2.000 attività.
 
-1. Fare clic su **Applica**.
+1. Fai clic su **Applica**.
 
    Nell&#39;elenco si verificano le seguenti modifiche:
 
@@ -407,7 +407,7 @@ Per modificare i task in un elenco quando si utilizza l&#39;opzione Pianificazio
 
    Oppure
 
-   Fare clic sul menu **Altro** ![](assets/more-icon-task-list.png).
+   Fare clic sull&#39;icona **Altro** menu ![Altro nell&#39;elenco delle attività](assets/more-icon-task-list.png).
 
 1. Selezionare una delle opzioni seguenti:
 

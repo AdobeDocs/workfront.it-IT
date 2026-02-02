@@ -6,10 +6,10 @@ description: È possibile utilizzare le assegnazioni avanzate per identificare l
 author: Lisa
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -27,7 +27,7 @@ Per ulteriori informazioni sui criteri utilizzati per determinare le assegnazion
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,7 +40,7 @@ Per ulteriori informazioni sui criteri utilizzati per determinare le assegnazion
   <tr> 
    <td>Licenza Adobe Workfront</td> 
    <td> <p>Standard</p>
-   <p>Lavoro o superiore</p>
+   <p>Work o successiva</p>
    </td> 
   </tr> 
   <tr> 
@@ -75,7 +75,7 @@ Le assegnazioni intelligenti sono disponibili nella maggior parte delle posizion
    <!--For issues, the smart assignments display in the following sections: 
       * **Users and teams**
       * **Job roles**
-        ![](assets/smart-assignments-issue-header.png)-->
+        ![Smart assignments issue header](assets/smart-assignments-issue-header.png)-->
 
    Le assegnazioni Smart vengono visualizzate nelle sezioni seguenti<!--, depending on which phase of the algorithm's calculation identified the assignments-->:
 

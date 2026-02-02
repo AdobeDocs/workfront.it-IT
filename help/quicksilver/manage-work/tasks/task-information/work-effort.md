@@ -7,10 +7,10 @@ description: Panoramica sull’impegno di lavoro
 author: Alina
 feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 0%
+source-wordcount: '1488'
+ht-degree: 1%
 
 ---
 
@@ -59,7 +59,7 @@ Questo articolo descrive l&#39;impegno di lavoro e il modo in cui utilizzarlo pe
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -130,15 +130,15 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 ## Abilita l’utilizzo dell’Impegno di lavoro invece delle Ore pianificate
 
-1. Vai a un progetto e fai clic sul menu **Altro** ![](assets/more-icon.png), quindi fai clic su **Modifica**.
+1. Vai a un progetto e fai clic sul menu **Altro** ![Icona Altro](assets/more-icon.png), quindi fai clic su **Modifica**.
 1. Fai clic su **Impostazioni attività**, quindi seleziona l&#39;opzione **Utilizza Impegno di lavoro per calcolare automaticamente le ore pianificate per l&#39;attività**. Questa opzione è deselezionata per impostazione predefinita.
 
-   ![](assets/nwe-work-effort-on-projects-350x182.png)
+   ![Impegno di lavoro nei progetti](assets/nwe-work-effort-on-projects-350x182.png)
 
    Per ulteriori informazioni sull&#39;abilitazione dell&#39;utilizzo dell&#39;impegno di lavoro in un progetto, vedere la sezione &quot;Impostazioni attività&quot; nell&#39;articolo [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. Fai clic su **Attività** nel pannello a sinistra, quindi fai clic sul nome di un&#39;attività per accedervi.
-1. Fai clic sul menu **Altro** ![](assets/more-icon.png), quindi fai clic su **Modifica**. Assicurati che l’attività abbia un tipo di durata semplice.
+1. Fai clic sul menu **Altro** ![Icona Altro](assets/more-icon.png), quindi fai clic su **Modifica**. Assicurati che l’attività abbia un tipo di durata semplice.
 
    >[!TIP]
    >
@@ -146,7 +146,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 1. Nell&#39;area **Panoramica**, fare clic sul menu a discesa Impegno di lavoro per correggere l&#39;impegno necessario per completare l&#39;attività.
 
-   ![](assets/work-effort-on-edit-task-page-350x239.png)
+   ![Impegno di lavoro nella pagina Modifica attività](assets/work-effort-on-edit-task-page-350x239.png)
 
    Per ulteriori informazioni sull&#39;aggiornamento del campo Impegno di lavoro per un&#39;attività, vedere gli articoli seguenti:
 

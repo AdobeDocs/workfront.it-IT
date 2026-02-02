@@ -7,9 +7,9 @@ description: Quando si aggiungono relazioni predecessori ad attività, è possib
 author: Alina
 feature: Work Management
 exl-id: 142e9637-841c-43d1-b297-e42c28a9e010
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ I loop di dipendenza si verificano quando due o più attività dipendono l&#39;u
 
 Se si tenta di impostare l&#39;attività 1 come predecessore dell&#39;attività 2, viene visualizzato un errore di loop di dipendenza perché non è possibile avviare l&#39;attività 1 fino al completamento dell&#39;attività 2, ma l&#39;attività 2 non può essere avviata fino al completamento dell&#39;attività 1.
 
-![](assets/dependency-loop-error-message-350x209.png)
+![Messaggio di errore del loop di dipendenza](assets/dependency-loop-error-message-350x209.png)
 
-![](assets/dependency-loop-in-task-list-nwe-350x97.png)
+![Ciclo di dipendenza nell&#39;elenco attività](assets/dependency-loop-in-task-list-nwe-350x97.png)
 
 ## Considerazioni sui loop di dipendenza
 

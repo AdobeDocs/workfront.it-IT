@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1553'
 ht-degree: 1%
 
 ---
@@ -125,7 +125,7 @@ When assigning users to work, their availability according to their schedules af
    >
    >Non utilizzare il campo **Assegnato a**. In questo modo viene trovato solo il proprietario principale dell&#39;attività e non gli utenti che potrebbero essere assegnati.
 
-1. Seleziona le attività per le quali vuoi modificare le assegnazioni, quindi fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png).
+1. Seleziona le attività per le quali vuoi modificare le assegnazioni, quindi fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png).
 
    La modifica delle assegnazioni sulle attività varia a seconda dell’ambiente scelto.
 

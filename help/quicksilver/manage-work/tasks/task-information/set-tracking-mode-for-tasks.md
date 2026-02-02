@@ -6,10 +6,10 @@ description: La modalità di tracciamento di un’attività determina il modo in
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
-source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 6%
+source-wordcount: '207'
+ht-degree: 14%
 
 ---
 
@@ -23,7 +23,7 @@ Per informazioni sulla modalità di verifica delle attività, vedere [Panoramica
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ Per informazioni sulla modalità di verifica delle attività, vedere [Panoramica
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Standard</p>
 
-<p>Lavoro o superiore</p> 
+<p>Work o successiva</p> 
    </td> 
   </tr> 
   <tr> 
@@ -87,13 +87,13 @@ Per informazioni sulla modalità di verifica delle attività, vedere [Panoramica
 ## Imposta modalità di verifica per le attività
 
 1. Vai all’attività per la quale vuoi impostare la modalità di tracciamento.
-1. Fai clic sull&#39;icona **Altro** ![](assets/qs-more-icon-on-an-object.png)accanto al nome dell&#39;attività, quindi fai clic su **Modifica**.
+1. Fai clic sull&#39;icona **Altro** ![Altro su un oggetto](assets/qs-more-icon-on-an-object.png)accanto al nome dell&#39;attività, quindi fai clic su **Modifica**.
 
    Viene visualizzata la finestra di dialogo Modifica attività.
 
 1. Nella sezione **Impostazioni**, utilizza il menu a discesa **Modalità di tracciamento** per selezionare la modalità di tracciamento per l&#39;attività.
 
-   ![](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)
+   ![Campo modalità di tracciamento nella sezione Modifica impostazioni attività](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)
 
 1. Selezionare una delle opzioni seguenti:
 

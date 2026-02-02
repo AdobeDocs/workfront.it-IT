@@ -7,9 +7,9 @@ description: Il valore percentuale di completamento di un progetto viene calcola
 author: Alina
 feature: Work Management
 exl-id: d2395569-9fe5-42e7-a392-cff49eb519d9
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -54,13 +54,13 @@ Considera i seguenti scenari:
 
   Le ore pianificate totali del padre rappresentano la somma di tutte le ore pianificate di ciascuno dei figli.
 
-  ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
+  ![Progetto con percentuale di completamento attività e ore pianificate](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
 
 * Se il sistema calcola la percentuale di completamento in base alla durata, la percentuale di completamento dell&#39;attività padre viene calcolata utilizzando la formula seguente:
 
   `Parent Task Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/ Total Duration of Parent)*100`
 
-  ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+  ![Progetto con percentuale di completamento attività e calcolo durata](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
   >[!IMPORTANT]
   >
@@ -77,7 +77,7 @@ A seconda di ciò che il Workfront o l&#39;amministratore di gruppo hanno selezi
 
   Le ore pianificate totali del progetto corrispondono alla somma delle ore pianificate di tutte le attività principali del progetto.
 
-  ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
+  ![Progetto con percentuale di completamento attività e calcolo ore pianificate](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
 
   >[!NOTE]
   >
@@ -91,7 +91,7 @@ A seconda di ciò che il Workfront o l&#39;amministratore di gruppo hanno selezi
   >
   >La durata del progetto è il totale di tutte le durate delle attività principali che presentano una percentuale di completamento. Ad esempio, un progetto con un&#39;attività autonoma con una durata di 2 giorni e un&#39;attività padre con una durata di 5 giorni per cui è stato completato il lavoro avrà una durata totale di 7 giorni, anche se le due attività possono iniziare nello stesso giorno.
 
-  ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+  ![Progetto con percentuale di completamento attività e calcolo durata](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
   >[!NOTE]
   >
@@ -101,7 +101,7 @@ A seconda di ciò che il Workfront o l&#39;amministratore di gruppo hanno selezi
 
 Quando utilizzi la Durata delle attività per calcolare la percentuale di completamento di un progetto, considera l’esempio seguente:
 
-![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+![Progetto con percentuale di completamento attività e calcolo durata](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
 Le seguenti informazioni vengono utilizzate per calcolare la percentuale di completamento del progetto
 

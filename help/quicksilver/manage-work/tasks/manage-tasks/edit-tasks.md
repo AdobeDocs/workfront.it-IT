@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '5369'
+source-wordcount: '5428'
 ht-degree: 4%
 
 ---
@@ -162,7 +162,7 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
 1. Fare clic sull&#39;attività da modificare.
 1. (Condizionale) Per modificare informazioni limitate su un&#39;attività, fai clic su **Dettagli attività** nel pannello a sinistra.
 
-   ![](assets/nwe-task-details-expanded-350x273.png)
+   ![Dettagli attività espansi](assets/nwe-task-details-expanded-350x273.png)
 
    È consigliabile modificare le informazioni nelle aree seguenti della sezione Dettagli attività:
 
@@ -184,15 +184,15 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
 
    Per modificare le informazioni nella sezione Dettagli, effettuare le seguenti operazioni:
 
-   1. (Facoltativo) Fai clic sull&#39;icona **Comprimi tutto** ![](assets/collapse-all-icon.png) nell&#39;angolo superiore destro per comprimere tutte le aree.
-   1. (Facoltativo e condizionale) Quando un&#39;area è compressa, fare clic sulla **freccia rivolta a destra** ![](assets/right-pointing-arrow.png) accanto a ogni area per espandere l&#39;area che si desidera modificare.
+   1. (Facoltativo) Fai clic sull&#39;icona **Comprimi tutto** ![Comprimi tutto](assets/collapse-all-icon.png) nell&#39;angolo superiore destro per comprimere tutte le aree.
+   1. (Facoltativo e condizionale) Quando un&#39;area è compressa, fare clic sulla **freccia rivolta a destra** ![freccia rivolta a destra](assets/right-pointing-arrow.png) accanto a ogni area per espandere l&#39;area da modificare.
    1. Per ulteriori informazioni sulla modifica delle informazioni nella scheda Dettagli attività, vedere gli articoli seguenti:
 
       * [Gestire le informazioni sull&#39;attività nell&#39;area Panoramica dettagli attività](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
       * [Gestire i dati finanziari delle attività nella sezione Dettagli attività](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
    1. (Facoltativo) Se non sono presenti moduli personalizzati allegati all&#39;attività, inizia a digitare il nome di un modulo nel campo **Aggiungi modulo personalizzato**, quindi selezionalo quando viene visualizzato nell&#39;elenco, quindi fai clic su **Salva modifiche**.
-   1. (Facoltativo) Fai clic sull&#39;icona **Esporta** ![](assets/export.png) per esportare le informazioni sulla panoramica e sui moduli personalizzati in un file PDF, quindi fai clic su **Esporta**. Selezionare una delle opzioni seguenti:
+   1. (Facoltativo) Fai clic sull&#39;icona **Esporta** ![Icona Esporta](assets/export.png) per esportare le informazioni sulla panoramica e sui moduli personalizzati in un file PDF, quindi fai clic su **Esporta**. Selezionare una delle opzioni seguenti:
 
       * Seleziona tutto (viene visualizzato solo se è allegato almeno un modulo personalizzato)
       * Panoramica
@@ -200,15 +200,15 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
 
       Il file PDF viene scaricato nel computer.
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![Casella di selezione dei dettagli del problema di esportazione con pulsante Esporta](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       Per ulteriori informazioni, vedere [Esportare moduli personalizzati e dettagli oggetto](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
-1. (Condizionale) Per modificare tutte le informazioni sull&#39;attività, in qualità di utente con autorizzazioni di gestione per l&#39;attività, fai clic sul menu **Altro** ![](assets/more-icon.png) accanto al nome dell&#39;attività, quindi fai clic su **Modifica**.
+1. (Condizionale) Per modificare tutte le informazioni sull&#39;attività, in qualità di utente con autorizzazioni di gestione per l&#39;attività, fai clic sul menu **Altro** ![Icona Altro](assets/more-icon.png) accanto al nome dell&#39;attività, quindi fai clic su **Modifica**.
 
    Oppure
 
-   Da un elenco di attività, seleziona un&#39;attività, quindi fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) nella parte superiore dell&#39;elenco.
+   Da un elenco di attività, seleziona un&#39;attività, quindi fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png) nella parte superiore dell&#39;elenco.
 
    Viene visualizzata la casella Modifica task (Edit Task).
 
@@ -241,7 +241,7 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
 1. Inizia a modificare l’attività come descritto in precedenza.
 1. Fai clic su **Nome attività** nel pannello a sinistra.
 
-   ![](assets/nwe-task-name-section-edit-task-box-350x122.png)
+   ![Sezione Nome attività nella casella Modifica attività](assets/nwe-task-name-section-edit-task-box-350x122.png)
 
 1. Aggiorna il nome dell&#39;attività.
 
@@ -252,7 +252,7 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
 1. Inizia a modificare l’attività come descritto in precedenza.
 1. Fai clic su **Panoramica** nel pannello a sinistra.
 
-   ![](assets/nwe-overview-section-edit-task-box-350x257.png)
+   ![Casella attività di modifica sezione panoramica](assets/nwe-overview-section-edit-task-box-350x257.png)
 
 1. Aggiorna le seguenti informazioni sull&#39;attività:
 
@@ -843,7 +843,7 @@ L’area Assegnazioni viene visualizzata nella vecchia esperienza.
 1. Inizia a modificare l’attività come descritto in precedenza.
 1. Fai clic su **Forms personalizzato** nel pannello a sinistra oppure sul nome di un modulo personalizzato, se è già allegato.
 
-   ![](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
+   ![Casella attività di modifica sezione moduli personalizzati](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
 
 1. Fare clic su **Aggiungi modulo personalizzato** e selezionare il modulo o i moduli personalizzati che si desidera associare all&#39;attività. Devi creare i moduli personalizzati prima che siano disponibili per la selezione in questo campo. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi.
 
@@ -862,7 +862,7 @@ L’area Assegnazioni viene visualizzata nella vecchia esperienza.
 1. Inizia a modificare l&#39;attività come descritto nella sezione [Modifica attività](#Edit2) in questo articolo.
 1. Fai clic su **Finanza** nel pannello a sinistra.
 
-   ![](assets/nwe-finance-section-edit-task-box-350x298.png)
+   ![Casella attività di modifica sezione Finanza](assets/nwe-finance-section-edit-task-box-350x298.png)
 
 1. Aggiorna i campi seguenti:
 
@@ -905,7 +905,7 @@ L’area Assegnazioni viene visualizzata nella vecchia esperienza.
 1. Inizia a modificare l&#39;attività come descritto nella sezione [Modifica attività](#Edit2) in questo articolo.
 1. Fai clic su **Impostazioni** nel pannello a sinistra.
 
-   ![](assets/nwe-settings-section-edit-task-box-350x304.png)
+   ![Sezione Impostazioni nella casella Modifica attività](assets/nwe-settings-section-edit-task-box-350x304.png)
 
 1. Aggiorna i campi seguenti:
 
@@ -992,7 +992,7 @@ L’area Assegnazioni viene visualizzata nella vecchia esperienza.
 L&#39;amministratore del sistema o del gruppo può personalizzare i campi visualizzati nell&#39;intestazione dell&#39;attività. Per ulteriori informazioni, vedere [Personalizzare le intestazioni degli oggetti utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 
-![](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
+![Intestazione attività senza approvazioni e con dipendenze](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
 
 Per impostazione predefinita, nell&#39;intestazione dell&#39;attività sono inclusi i campi seguenti:
 

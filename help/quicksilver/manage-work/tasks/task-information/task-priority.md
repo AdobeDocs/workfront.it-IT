@@ -7,10 +7,10 @@ description: È possibile definire una priorità per un'attività per indicare l
 author: Alina
 feature: Work Management
 exl-id: 653b62fe-6195-4288-ac05-f89e4a6113fd
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 4%
+source-wordcount: '277'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +33,7 @@ ht-degree: 4%
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td><p>Standard</p> 
-   <p>Lavoro o superiore</p> </td> 
+   <p>Work o successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -102,5 +102,5 @@ Quando si utilizzano le priorità delle attività, tenere presente quanto segue:
 
 1. Passare all&#39;attività di cui si desidera modificare la priorità.
 1. Fai clic su **Dettagli attività** nel pannello a sinistra.
-1. Fai clic sull&#39;icona **Modifica** ![](assets/qs-edit-icon.png), quindi nell&#39;area **Panoramica** seleziona un valore per il campo **Priorità**.
+1. Fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/qs-edit-icon.png), quindi nell&#39;area **Panoramica** seleziona un valore per il campo **Priorità**.
 1. Fai clic su **Salva** **Modifiche**.

@@ -6,9 +6,9 @@ description: È possibile eliminare le attività che potrebbero essere duplicate
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '790'
 ht-degree: 5%
 
 ---
@@ -174,9 +174,9 @@ Considera quanto segue:
 1. Fare clic sul nome del progetto che contiene l&#39;attività che si desidera eliminare.
 1. Fai clic su **Attività** nel pannello a sinistra.
 1. Fare clic sul nome dell&#39;attività che si desidera eliminare.
-1. Fai clic sull&#39;icona **Altro** ![](assets/qs-more-menu.png)nell&#39;angolo superiore destro.
+1. Fai clic sull&#39;icona **Altro** ![Altro menu](assets/qs-more-menu.png)nell&#39;angolo superiore destro.
 
-   ![](assets/delete-tasks-task-level-nwe-350x225.png)
+   ![Elimina attività a livello di attività](assets/delete-tasks-task-level-nwe-350x225.png)
 
 1. Fai clic su **Elimina attività**.
 1. Se l&#39;eliminazione è consentita, scegliere **Elimina**.

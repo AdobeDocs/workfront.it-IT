@@ -6,9 +6,9 @@ description: I vincoli dell'attività determinano quando un'attività deve inizi
 author: Alina
 feature: Work Management
 exl-id: 54b54892-f8b3-4704-8221-03bbb9f07917
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '304'
 ht-degree: 19%
 
 ---
@@ -80,7 +80,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 1. Fai clic sulla sezione **Attività** nel pannello a sinistra.
 1. Fai clic su **Dettagli attività** nel pannello a sinistra, quindi nell&#39;area Panoramica fai clic su **Vincolo attività**.
 
-   ![](assets/task-constraint-all-options-in-overview-350x254.png)
+   ![Vincolo attività per tutte le opzioni in Panoramica](assets/task-constraint-all-options-in-overview-350x254.png)
 
 1. Seleziona tra le seguenti opzioni
 

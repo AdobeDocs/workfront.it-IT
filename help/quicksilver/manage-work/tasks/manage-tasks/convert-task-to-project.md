@@ -6,9 +6,9 @@ description: Quando il completamento di un'attività di un progetto richiede una
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1152'
 ht-degree: 4%
 
 ---
@@ -199,13 +199,13 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 ## Convertire un’attività in un progetto
 
 1. Passare all&#39;attività che si desidera convertire in un progetto.
-1. Fai clic sull&#39;icona **Altro** ![](assets/more-icon.png), quindi **Converti in progetto**.
+1. Fai clic sull&#39;icona **Altro** ![Altro](assets/more-icon.png), quindi **Converti in progetto**.
 1. Scegliere una delle seguenti opzioni:
 
    * **Nuovo progetto**, per creare un progetto senza utilizzare un modello
    * Un modello nella sezione **Seleziona da modelli**
 
-     ![](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
+     ![Menu a discesa opzione Converti attività in modello di progetto](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
 
 1. Fai clic su **Continua** nella notifica visualizzata.
 1. Nella casella **Converti in progetto** specificare quanto segue:

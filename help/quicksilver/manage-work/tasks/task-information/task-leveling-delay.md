@@ -6,9 +6,9 @@ description: Talvolta possono verificarsi conflitti tra le pianificazioni delle 
 author: Alina
 feature: Work Management
 exl-id: 6695448c-76ce-460c-aa59-63a3d5e2e18d
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '391'
 ht-degree: 9%
 
 ---
@@ -85,7 +85,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 1. Fare clic su **Impostazioni**.
 
-   ![](assets/leveling-delay-edit-task-nwe-350x345.png)
+   ![Ritardo di livellamento durante la modifica dell&#39;attività](assets/leveling-delay-edit-task-nwe-350x345.png)
 
 1. Specifica il **ritardo livellamento**, in ore, quindi scegli un&#39;unità di tempo.\
    Tempo di ritardo della risorsa per l&#39;avvio dell&#39;attività a causa di conflitti di risorse.

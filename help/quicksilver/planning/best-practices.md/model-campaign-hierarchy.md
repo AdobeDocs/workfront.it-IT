@@ -1,5 +1,5 @@
 ---
-title: 'Framework di successo: modellare la gerarchia delle campagne'
+title: 'Architettura di successo: modellare la gerarchia delle campagne'
 description: Scopri come tradurre i processi aziendali complessi in una gerarchia di campagne scalabile e gestita utilizzando "Centri di gravità" e un’architettura con più aree di lavoro.
 feature: Workfront Planning
 role: User, Admin
@@ -7,7 +7,7 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Framework per il successo: modellare la gerarchia delle campagne
+# Architettura del successo: modellare la gerarchia delle campagne
 
 <!--see the file again for additional comments from Seth and others-->
 

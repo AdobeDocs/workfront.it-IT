@@ -6,9 +6,9 @@ description: Oltre a utilizzare le bozze disponibili suggerite da Workfront quan
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '827'
 ht-degree: 3%
 
 ---
@@ -100,7 +100,7 @@ La procedura per la creazione di richieste da bozze varia tra la nuova esperienz
 
    In questo elenco viene visualizzata una bozza per ogni argomento della coda di ogni coda di richieste.
 
-   ![](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
+   ![Sezione bozze con elenco di bozze](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
 
 1. (Facoltativo) Fare clic su un&#39;intestazione di colonna per ordinare l&#39;elenco in base a tale colonna.
 
@@ -133,7 +133,7 @@ La procedura per la creazione di richieste da bozze varia tra la nuova esperienz
 
      Fai clic su **Chiudi** se non sei ancora pronto per inviarlo e potresti tornare indietro e terminarlo in un secondo momento. La richiesta viene salvata nella sezione Bozze e sarà disponibile al prossimo invio di una richiesta per questa coda di richieste.
 
-     ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
+     ![Pulsanti Invia, Chiudi, Elimina nella nuova richiesta](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
      Quando si invia la richiesta, la bozza viene eliminata e non può essere ripristinata.
 

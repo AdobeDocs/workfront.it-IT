@@ -6,9 +6,9 @@ description: Il lavoro pianificato è rappresentato in Adobe Workfront dai proge
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 2b4c13babecd3675f82699282c3dd42191c73df1
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2575'
 ht-degree: 2%
 
 ---
@@ -158,7 +158,7 @@ Per creare una richiesta nell’app web Workfront:
      >
      >Workfront salva un percorso solo quando è stata effettivamente inviata una richiesta. Non crea percorsi per le richieste di bozze.
 
-     ![](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
+     ![Elenco di percorsi recenti e code di richieste durante l&#39;immissione di una nuova richiesta](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
 
    * Dalla sezione **Code di richieste**, seleziona una coda di richieste.
    * Per cercare una coda di richieste, immetti una parola chiave che appartiene a un percorso a cui si è effettuato l’accesso in precedenza.
@@ -169,7 +169,7 @@ Per creare una richiesta nell’app web Workfront:
      >
      >Quando si digita un nome che contiene un carattere speciale, la coda di richieste, l&#39;argomento della coda o il gruppo di argomenti vengono visualizzati anche se si omette di digitare il carattere.
 
-     ![](assets/request-queue-search-findings-with-highlighted-results-350x210.png)
+     ![Richiedi risultati ricerca coda con risultati evidenziati](assets/request-queue-search-findings-with-highlighted-results-350x210.png)
 
      L’elenco delle code di richieste disponibili e dei percorsi recenti viene aggiornato in modo dinamico, includendo solo i percorsi che contengono la parola chiave evidenziata nei risultati.
 
@@ -206,7 +206,7 @@ Per creare una richiesta nell’app web Workfront:
 
      Per impostazione predefinita vengono visualizzate le tre bozze più recenti di tre diversi argomenti della coda.
 
-     ![](assets/new-drafts-after-new-request-area-was-removed-350x162.png)
+     ![Nuove bozze dopo la rimozione della nuova area di richiesta](assets/new-drafts-after-new-request-area-was-removed-350x162.png)
 
    * Inizia a immettere una nuova richiesta nella coda selezionata.
 
@@ -219,7 +219,7 @@ Per creare una richiesta nell’app web Workfront:
    >Quando passi il cursore su un Topic Group (Gruppo di argomenti) o su un Queue Topic (Argomento coda), il campo Description (Descrizione) viene visualizzato a destra. Contiene informazioni aggiuntive sul gruppo di argomenti o sull&#39;argomento della coda.
    >
    >
-   >![](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)
+   >![Mostra la descrizione dell&#39;argomento della coda durante l&#39;invio della richiesta](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)
    >
 
    Nella coda richieste è possibile incorporare fino a 10 livelli di gruppi di argomenti.\
@@ -327,7 +327,7 @@ Per creare una richiesta nell’app web Workfront:
 
      Fai clic su **Chiudi** se non sei ancora pronto per inviarlo e potresti tornare indietro e terminarlo in un secondo momento. La richiesta viene salvata nella sezione Bozze e sarà disponibile al prossimo invio di una richiesta per questa coda di richieste.
 
-     ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
+     ![Pulsante Invia, chiudi, elimina bozza nella nuova richiesta](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
    Quando inviate la richiesta, la bozza viene eliminata automaticamente e non può essere ripristinata.
 

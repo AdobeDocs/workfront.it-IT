@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1061'
 ht-degree: 2%
 
 ---
@@ -116,8 +116,8 @@ Per creare attività su un progetto:
 
 1. Vai al progetto in cui desideri creare un’attività.
 1. Fai clic su **Attività** nel pannello a sinistra.
-1. (Condizionale) Se l&#39;elenco delle attività è attualmente visualizzato in una visualizzazione Agile, fare clic sull&#39;icona **Visualizzazione elenco** ![](assets/list-view-in-agile-view-for-tasks.png) nell&#39;angolo superiore destro per visualizzare l&#39;elenco delle attività.
-1. (Facoltativo) Fai clic sull&#39;icona **della** Modalità pianificazione![](assets/nwe-plan-mode-icon-task-list.png) e seleziona **Salvataggio manuale**, quindi seleziona **Standard** o **Pianificazione sequenza temporale**. In questo modo viene disabilitata l&#39;opzione **Salvataggio automatico** abilitata per impostazione predefinita.
+1. (Condizionale) Se l&#39;elenco delle attività è attualmente visualizzato in una visualizzazione Agile, fare clic sull&#39;icona **Visualizzazione elenco** ![Visualizzazione elenco in visualizzazione Agile per le attività](assets/list-view-in-agile-view-for-tasks.png) nell&#39;angolo superiore destro per visualizzare l&#39;elenco delle attività.
+1. (Facoltativo) Fai clic sull&#39;icona **Modalità pianificazione** ![Icona Modalità pianificazione per l&#39;elenco attività](assets/nwe-plan-mode-icon-task-list.png) e seleziona **Salvataggio manuale**, quindi seleziona **Standard** o **Pianificazione sequenza temporale**. In questo modo viene disabilitata l&#39;opzione **Salvataggio automatico** abilitata per impostazione predefinita.
 
    ![Seleziona salvataggio manuale](assets/manual-save-option.png)
 
@@ -130,7 +130,7 @@ Per creare attività su un progetto:
    * Fai clic su **Nuova attività** nella parte superiore dell&#39;elenco delle attività.
    * Fai clic su **Aggiungi altre attività** nella parte inferiore dell&#39;elenco delle attività.
 
-   ![](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
+   ![Nuova attività o pulsante Aggiungi attività in un elenco evidenziato](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
 
 1. (Condizionale) Se hai fatto clic su **Nuova attività**, effettua le seguenti operazioni:
 
@@ -140,11 +140,11 @@ Per creare attività su un progetto:
 
       Per aggiornare tutti i campi dell&#39;attività, fare clic su **Altre opzioni** per aprire la casella **Crea attività**.
 
-      ![](assets/nwe-create-task-small-screen-350x272.png)
+      ![Crea una piccola casella attività](assets/nwe-create-task-small-screen-350x272.png)
 
       Viene visualizzata la casella **Crea attività**.
 
-      ![](assets/create-task-larger-box-nwe-350x244.png)
+      ![Crea casella grande attività](assets/create-task-larger-box-nwe-350x244.png)
 
 
       >[!NOTE]
@@ -173,7 +173,7 @@ Per creare attività su un progetto:
 
    È consigliabile utilizzare questa opzione soprattutto quando si aggiungono più attività all’elenco.
 
-   ![](assets/add-more-tasks-inline.png)
+   ![Aggiungi altre attività in linea](assets/add-more-tasks-inline.png)
 
 1. (Condizionale) Effettua una delle seguenti operazioni:
 
@@ -213,11 +213,11 @@ Per creare attività su un progetto:
 
    Per informazioni, vedere [Filtro: attività personali](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
 
-   ![](assets/personal-tasks-report.png)
+   ![Rapporto attività personali](assets/personal-tasks-report.png)
 1. Fare clic sul nome di un&#39;attività nel report attività personale per aprirla.
 
    Workfront salva le attività personali in un progetto personale non elencato che viene sempre denominato in base a questo modello: &quot;&lt; Nome completo dell’utente > Attività di. Ad esempio, un progetto personale potrebbe essere denominato &quot;Attività di Rick&quot;.
 
-1. Dalla pagina dell&#39;attività, fai clic sul **menu Altro** ![](assets/more-icon.png), quindi su **Sposta**. Per ulteriori informazioni sullo spostamento delle attività, vedere [Sposta attività](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
+1. Dalla pagina dell&#39;attività, fai clic sull&#39;icona **Altro menu** ![Altro](assets/more-icon.png), quindi su **Sposta**. Per ulteriori informazioni sullo spostamento delle attività, vedere [Sposta attività](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
 
    Dopo aver completato lo spostamento, l&#39;attività viene visualizzata nel progetto selezionato. La sequenza temporale del progetto potrebbe essere influenzata dalla sequenza temporale della nuova attività.

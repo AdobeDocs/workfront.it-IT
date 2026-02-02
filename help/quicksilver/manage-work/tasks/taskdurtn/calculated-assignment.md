@@ -7,9 +7,9 @@ description: L'assegnazione calcolata è un tipo di durata che è possibile impo
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Planned Hours / Duration / Number of Resources = Allocation Percentage for each 
 
 Ad esempio, nello scenario descritto di seguito, ogni attività ha una durata di 3 giorni. Il project manager immette manualmente sia la durata (3 giorni o 24 ore) che le ore pianificate e di conseguenza viene calcolata la percentuale di allocazione (o percentuale di assegnazione):
 
-![](assets/calcassign-350x80.png)
+![Tipo di durata assegnazione calcolata](assets/calcassign-350x80.png)
 
 ## Modificare il tipo di durata di un&#39;attività in Assegnazione calcolata
 

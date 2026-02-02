@@ -6,9 +6,9 @@ description: È possibile visualizzare o modificare le informazioni finanziarie 
 author: Alina
 feature: Work Management
 exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '838'
 ht-degree: 7%
 
 ---
@@ -92,7 +92,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 1. Fai clic su **Dettagli attività**.
 1. (Facoltativo) Fai clic sull&#39;icona **Comprimi tutto** in alto a destra nella pagina Dettagli attività.
 
-   ![](assets/collapse-all-icon-on-details-page.png)
+   ![Icona Comprimi tutto nella pagina Dettagli](assets/collapse-all-icon-on-details-page.png)
 
    >[!NOTE]
    >
@@ -100,7 +100,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 1. Fai clic su **Finanza** per espandere e visualizzare le informazioni finanziarie per l&#39;attività.
 
-   Fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) nell&#39;angolo superiore destro della sezione Dettagli, quindi fai clic su **Finanza**.
+   Fai clic sull&#39;icona **Modifica** ![Modifica](assets/edit-icon.png) nell&#39;angolo superiore destro della sezione Dettagli, quindi fai clic su **Finanza**.
 
 1. Modificare qualsiasi campo disponibile per la modifica facendo clic sul campo o facendo clic su **+Aggiungi** per aggiungere informazioni a un campo vuoto.
 1. Rivedi o modifica le seguenti informazioni nell&#39;area **Finanza**:
@@ -166,4 +166,4 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
     </tbody> 
    </table>
 
-1. (Condizionale) Se si stanno modificando i campi nella sezione Finanza, fare clic su **Salva**&#x200B;**Modifiche**.
+1. (Condizionale) Se si stanno modificando i campi nella sezione Finanza, fare clic su **Salva****Modifiche**.

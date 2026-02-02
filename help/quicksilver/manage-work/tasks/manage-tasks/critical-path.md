@@ -7,10 +7,10 @@ description: La determinazione del percorso critico di un progetto consente ad A
 author: Alina
 feature: Work Management
 exl-id: 9cbc84bf-d02b-4bb7-8d5d-922554d1262e
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 0%
+source-wordcount: '689'
+ht-degree: 3%
 
 ---
 
@@ -38,7 +38,7 @@ Le seguenti funzioni possono influire sul Percorso critico di un progetto:
      >Quando la data del successore di un&#39;attività non influisce direttamente sulla data delle attività dipendenti o sulle date del progetto, l&#39;attività successore non si trova nel percorso critico.
      >
      >
-     >![](assets/successor-not-on-critical-path-350x150.png)     >
+     >![Successore non nel percorso critico](assets/successor-not-on-critical-path-350x150.png)     >
      >
 
    * Quando un&#39;attività secondaria viene identificata come attività Percorso critico, l&#39;attività padre viene identificata anche come attività Percorso critico se la data di inizio prevista e l&#39;ora dell&#39;attività padre corrispondono a quelle della sottoattività.
@@ -49,7 +49,7 @@ Qualsiasi ritardo nell’attività di un’attività sul percorso critico influi
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -63,7 +63,7 @@ Qualsiasi ritardo nell’attività di un’attività sul percorso critico influi
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> 
    <p>Standard<p>
-   <p>Lavoro o superiore</p>
+   <p>Work o successiva</p>
     </td> 
   </tr> 
   <tr> 

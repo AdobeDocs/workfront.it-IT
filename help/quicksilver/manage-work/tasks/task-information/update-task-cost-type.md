@@ -6,10 +6,10 @@ description: Il Costo pianificato e il Costo effettivo delle attività e i relat
 author: Alina
 feature: Work Management
 exl-id: bc30ecab-7347-4dff-8e06-e8ea3f50d5b3
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 12%
+source-wordcount: '223'
+ht-degree: 11%
 
 ---
 
@@ -84,7 +84,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 1. Fai clic su **Dettagli attività** nel pannello a sinistra, quindi espandi l&#39;area **Finanza**.
 1. Fare doppio clic su **Tipo di costo** e selezionare il tipo di costo che si desidera applicare all&#39;attività.
 
-   ![](assets/task-cost-type-options-in-tasks-details-nwe-350x233.png)
+   ![Opzioni per il tipo di costo dell&#39;attività in Dettagli attività](assets/task-cost-type-options-in-tasks-details-nwe-350x233.png)
 
    Selezionare una delle opzioni seguenti:
 

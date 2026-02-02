@@ -7,10 +7,10 @@ description: Il Lavoro calcolato è un Tipo di Durata che è possibile impostare
 author: Alina
 feature: Work Management
 exl-id: f521c2f5-8d58-44c0-af18-6940ad0950ea
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 1%
+source-wordcount: '568'
+ht-degree: 2%
 
 ---
 
@@ -68,7 +68,7 @@ Nell’esempio seguente, le Ore tipiche per giorno lavorativo sono impostate su 
   <tr> 
    <td> <p>2</p> </td> 
    <td> <p>1 giorno</p> </td> 
-   <td> <p>16 ore</p> <p>(1 giorno x 8 ore per giorno lavorativo x 2 assegnatari = 16 ore pianificate)</p> </td> 
+   <td> <p>16 Hours</p> <p>(1 giorno x 8 ore per giorno lavorativo x 2 assegnatari = 16 ore pianificate)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>3</p> </td> 
@@ -80,7 +80,7 @@ Nell’esempio seguente, le Ore tipiche per giorno lavorativo sono impostate su 
 
 In questo caso, ogni assegnatario è assegnato al 100% all&#39;attività Lavoro calcolato.
 
-![](assets/calcwork-350x71.png)
+![Tipo durata lavoro calcolata](assets/calcwork-350x71.png)
 
 ## Modificare il Tipo di durata di un&#39;attività in Lavoro calcolato
 

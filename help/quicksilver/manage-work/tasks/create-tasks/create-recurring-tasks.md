@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 0%
+source-wordcount: '890'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ Per informazioni generali sulle attività ricorrenti, compreso l&#39;impatto del
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ Per informazioni generali sulle attività ricorrenti, compreso l&#39;impatto del
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Standard</p> 
-   <p>Lavoro o superiore</p> </td> 
+   <p>Work o successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -97,7 +97,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
    Viene visualizzata la finestra di dialogo Nuova attività.
 
-   ![](assets/nwe-create-task-small-screen-350x272.png)
+   ![Crea attività a schermo piccolo](assets/nwe-create-task-small-screen-350x272.png)
 
 1. Fai clic su **Altre opzioni**, quindi immetti un nome per l&#39;attività nel campo **Nome attività**.
 1. Continuare ad aggiornare l&#39;attività come si farebbe se si aggiungesse una nuova attività. Per ulteriori informazioni sull&#39;aggiunta di una nuova attività, vedere [Creare attività in un progetto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
@@ -109,7 +109,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 1. Fai clic su **Panoramica** nel pannello a sinistra.
 1. Scorri verso il basso fino alla sezione **Pianificazione ricorrenza**, quindi seleziona l&#39;opzione **Imposta come attività ricorrente**.
 
-   ![](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
+   ![Selezione pianificazione ricorrenza nuove attività ricorrenti](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
 
 1. Nell&#39;elenco a discesa **Frequenza** selezionare il numero di unità di tempo in cui si desidera eseguire l&#39;attività e il tipo di unità di tempo. Selezionare una delle opzioni seguenti:
 
@@ -163,7 +163,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
    Per ulteriori informazioni sui campi compilati automaticamente dall&#39;attività padre ricorrente, vedere [Panoramica sulle attività ricorrenti](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
 
-   ![](assets/recurring-tasks-in-task-list-nwe-350x87.png)
+   ![Attività in corso nell&#39;elenco attività](assets/recurring-tasks-in-task-list-nwe-350x87.png)
 
 1. (Facoltativo) Modifica ogni attività ricorrente come faresti con qualsiasi altra attività del progetto.
 

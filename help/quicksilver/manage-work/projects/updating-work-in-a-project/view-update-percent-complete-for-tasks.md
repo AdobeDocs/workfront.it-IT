@@ -6,10 +6,10 @@ description: È possibile aggiornare la percentuale di completamento di un'attiv
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 0%
+source-wordcount: '692'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ Aggiornare la percentuale di completamento per i problemi è simile ad aggiornar
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ Aggiornare la percentuale di completamento per i problemi è simile ad aggiornar
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Standard</p> 
-   <p>Lavoro o superiore</p>
+   <p>Work o successiva</p>
    </td> 
   </tr> 
   <tr> 
@@ -100,7 +100,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 * **Nell&#39;intestazione attività**: è possibile aggiornare la percentuale di completamento di un&#39;attività nell&#39;intestazione attività.
 
-  ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+  ![Percentuale di aggiornamento nell&#39;intestazione](assets/nwe-updatetaskpercentinheader-350x54.png)
 
 * **Nel pannello Riepilogo di un&#39;attività**: puoi aggiornare la percentuale di completamento di un&#39;attività nella parte superiore del pannello Riepilogo quando visualizzi l&#39;attività nelle seguenti aree:
 
@@ -108,7 +108,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    * Scheda orario
    * Bilanciatore dei carichi di lavoro
 
-  ![](assets/update-percent-complete-in-task-summary-highlighted.png)
+  ![Percentuale di aggiornamento nel riepilogo attività evidenziata](assets/update-percent-complete-in-task-summary-highlighted.png)
 
   Per ulteriori informazioni, vedere [Panoramica di riepilogo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 

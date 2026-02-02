@@ -6,10 +6,10 @@ description: In Adobe Workfront è possibile creare relazioni con i predecessori
 author: Alina
 feature: Work Management
 exl-id: 38ea13a5-ab95-4617-a47f-9dde5f752fb4
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 0%
+source-wordcount: '282'
+ht-degree: 6%
 
 ---
 
@@ -23,7 +23,7 @@ Tramite il concatenamento delle attività, è possibile consentire al sistema di
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -85,7 +85,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 1. Fai clic su **Attività** nel pannello a sinistra.
 1. (Condizionale) Seleziona **Salvataggio automatico** nell&#39;angolo superiore destro dell&#39;elenco delle attività, quindi seleziona le attività da concatenare.
 
-   ![](assets/nwe-autosave-icon-on-highlighted-350x295.png)
+   ![Icona salvataggio automatico evidenziata](assets/nwe-autosave-icon-on-highlighted-350x295.png)
 
    >[!IMPORTANT]
    >

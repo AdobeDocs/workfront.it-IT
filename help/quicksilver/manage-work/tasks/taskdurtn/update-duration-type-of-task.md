@@ -6,10 +6,10 @@ description: Il tipo di durata di un'attività identifica la relazione tra il nu
 author: Alina
 feature: Work Management
 exl-id: 2f01566c-c3e0-4f59-bf53-2a67806a205c
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 6%
+source-wordcount: '292'
+ht-degree: 12%
 
 ---
 
@@ -19,7 +19,7 @@ Il tipo di durata di un&#39;attività identifica la relazione tra il numero di r
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +32,7 @@ Il tipo di durata di un&#39;attività identifica la relazione tra il numero di r
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td><p>Standard o superiore</p> 
-   <p>Lavoro o superiore</p> </td> 
+   <p>Work o successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -87,7 +87,7 @@ Per aggiornare il Tipo di durata di un&#39;attività:
 1. Fai clic sulla sezione **Attività** nel pannello a sinistra.
 1. Fai clic su **Dettagli attività** nel pannello a sinistra, quindi nell&#39;area Panoramica fai clic su **Tipo di durata**.
 
-   ![](assets/duration-type-all-options-on-overview-350x155.png)
+   ![Tipo durata tutte le opzioni in Panoramica](assets/duration-type-all-options-on-overview-350x155.png)
 
 1. Seleziona tra le seguenti opzioni
 

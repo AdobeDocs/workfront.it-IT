@@ -6,9 +6,9 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1520'
 ht-degree: 3%
 
 ---
@@ -104,19 +104,19 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 1. Individuare la richiesta che si desidera copiare e inviare come nuova ed effettuare una delle seguenti operazioni:
 
-   * Selezionala, quindi fai clic su **Copia** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) nell&#39;angolo superiore sinistro dell&#39;elenco Richieste inviate.
+   * Selezionala, quindi fai clic su **Copia** ![Copia e invia icona](assets/copy-and-submit-as-new-requests-area-nwe.png) nell&#39;angolo superiore sinistro dell&#39;elenco Richieste inviate.
 
    >[!TIP]
    >
    > Se non hai selezionato prima una richiesta, l’icona Copia non è attiva.
 
-   * Fai clic sul menu **Altro** ![](assets/more-icon.png) a destra del nome della richiesta, quindi fai clic su **Copia e invia come nuovo**
+   * Fai clic sul menu **Altro** ![Icona Altro](assets/more-icon.png) a destra del nome della richiesta, quindi fai clic su **Copia e invia come nuovo**
 
      Oppure
 
      Fare clic con il pulsante destro del mouse sulla richiesta selezionata, quindi scegliere **Copia e invia come nuovo**.
 
-     ![](assets/request-selected-more-menu-options-nwe-350x191.png)
+     ![Richiedi altre opzioni di menu selezionate](assets/request-selected-more-menu-options-nwe-350x191.png)
 
      >[!TIP]
      >
@@ -236,12 +236,9 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
       Per ulteriori informazioni sul widget Richieste personali, vedere [Utilizzare il widget Richieste personali](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
-1. Nell&#39;elenco Richieste o nel widget Richieste personali, posizionare il cursore del mouse sulla richiesta che si desidera copiare.
+1. Nell&#39;elenco **Richieste** o nel widget **Richieste personali** in Home, passa il puntatore del mouse sulla richiesta da copiare, quindi fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png).
 
-   Viene visualizzato un menu Altro con tre punti.
-   ![](assets/more-menu.png)
-
-1. Fai clic sul menu **Altro** a destra del nome della richiesta, quindi fai clic su **Copia**.
+1. Fai clic su **Copia**
 
    Oppure
 

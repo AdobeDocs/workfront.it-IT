@@ -7,9 +7,9 @@ description: Il più tardi possibile (ALAP) è un vincolo attività di Adobe Wor
 author: Alina
 feature: Work Management
 exl-id: 475427d0-020b-4851-a614-c9931659e07d
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -61,13 +61,13 @@ In questa situazione:
 
   **Esempio:** Ad esempio, l&#39;attività A è un predecessore dell&#39;attività B. L&#39;attività A ha l&#39;ultimo vincolo di tempo disponibile e l&#39;attività B ha il vincolo Il più presto possibile. In questa situazione, l&#39;Attività A è programmata il più vicino possibile all&#39;inizio del progetto.
 
-  ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
+  ![Ultimo vincolo attività tempo disponibile](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
 * **Il più tardi possibile:** In questo scenario, l&#39;utilizzo del vincolo Il più tardi possibile sull&#39;attività predecessore dà la priorità all&#39;attività predecessore.
 
   **Esempio:** Ad esempio, l&#39;attività A è un predecessore dell&#39;attività B. L&#39;attività A ha il vincolo Il più tardi possibile e l&#39;attività B ha il vincolo Il più presto possibile. In questa situazione, l&#39;Attività A è programmata il più vicino possibile alla fine del progetto.
 
-  ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
+  ![Vincolo attività il più tardi possibile in un elenco attività](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 
 
 

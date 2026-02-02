@@ -6,10 +6,10 @@ description: In Adobe Workfront, le attività possono avere relazioni padre-figl
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 0%
+source-wordcount: '578'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ In Adobe Workfront, le attività possono avere relazioni padre-figlio. Le attivi
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ In Adobe Workfront, le attività possono avere relazioni padre-figlio. Le attivi
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Standard</p> 
-   <p>Lavoro o superiore</p> </td> 
+   <p>Work o successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -96,12 +96,12 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 1. (Facoltativo) Se l&#39;attività che si desidera impostare come padre non si trova già direttamente sotto l&#39;attività che si desidera impostare come padre, trascinarla nella posizione appropriata nell&#39;elenco delle attività.
 1. Selezionare l&#39;attività che si desidera impostare come sottoattività ed eseguire una delle operazioni seguenti:
 
-   * Fai clic sull&#39;icona **Rientro** ![](assets/indent-icon-nwe-33x29.png) per rendere l&#39;attività selezionata una sottoattività dell&#39;attività direttamente sopra di essa.
+   * Fai clic sull&#39;icona **Rientro** ![Icona Rientro](assets/indent-icon-nwe-33x29.png) per rendere l&#39;attività selezionata una sottoattività dell&#39;attività direttamente sopra di essa.
    * Quando si utilizza una tastiera QWERTY inglese standard, premere Option + > (Mac) o Alt + > (Windows) sulla tastiera. Altre lingue possono utilizzare i comandi Option + , (Mac) o Alt + , (Windows) per applicare un rientro.
 
      >[!TIP]
      >
-     >Le scelte rapide da tastiera non funzionano quando si modificano attività in modalità di modifica in linea. In questo caso, utilizzare l&#39;icona Rientro ![](assets/indent-icon-nwe-33x29.png) per creare sottoattività.
+     >Le scelte rapide da tastiera non funzionano quando si modificano attività in modalità di modifica in linea. In questo caso, utilizzare l&#39;icona Rientro ![Icona Rientro](assets/indent-icon-nwe-33x29.png) per creare sottoattività.
 
    * Trascinare e rilasciare l&#39;attività sull&#39;attività che si desidera designare come attività padre.
 
@@ -132,7 +132,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 1. Passare al progetto in cui si desidera impostare un&#39;attività secondaria come attività principale.
 1. Fai clic sulla sezione **Attività** nel pannello a sinistra.
 1. Selezionare l&#39;attività secondaria che si desidera rendere un&#39;attività principale.
-1. Fai clic sull&#39;icona **Rientro negativo** ![](assets/outdent-icon-nwe-31x29.png) per rendere l&#39;attività secondaria un&#39;attività principale.
+1. Fai clic sull&#39;icona **Rientro negativo** ![Icona Rientro negativo](assets/outdent-icon-nwe-31x29.png) per rendere l&#39;attività secondaria un&#39;attività principale.
 
    Oppure
 

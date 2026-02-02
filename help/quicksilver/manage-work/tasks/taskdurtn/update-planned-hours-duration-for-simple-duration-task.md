@@ -6,10 +6,10 @@ description: Per impostazione predefinita, Adobe Workfront calcola la durata di 
 author: Alina
 feature: Work Management
 exl-id: 47a9b095-2b7d-4ed0-8cb6-e6bd5e37ce9c
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 1%
+source-wordcount: '450'
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ Questo articolo descrive come aggiornare le ore e la durata pianificate per un&#
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +38,7 @@ Questo articolo descrive come aggiornare le ore e la durata pianificate per un&#
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td><p>Standard o superiore</p> 
-   <p>Lavoro o superiore</p> </td> 
+   <p>Work o successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -91,13 +91,13 @@ Per modificare le ore e la durata pianificate di un&#39;attività con un tipo di
 1. In un elenco di attività fare clic sul nome dell&#39;attività per la quale si desidera modificare il tipo di durata.
 1. Esegui una delle operazioni seguenti:
 
-   * Fai clic sull&#39;icona **Altro** ![](assets/qs-more-icon-on-an-object.png) accanto al nome dell&#39;attività, fai clic su **Modifica**, quindi su **Assegnazioni**.
+   * Fai clic sull&#39;icona **Altro** ![Altro su un oggetto](assets/qs-more-icon-on-an-object.png) accanto al nome dell&#39;attività, fai clic su **Modifica**, quindi su **Assegnazioni**.
    * Fai clic su **Assegnato a** o sul nome delle assegnazioni nell&#39;area Assegnazioni dell&#39;intestazione dell&#39;attività, quindi fai clic su **Avanzate**.
 
 1. Immetti un valore totale per **Ore pianificate** per tutte le assegnazioni, ad esempio 10 ore. Il numero totale di ore pianificate viene distribuito equamente tra tutte le risorse assegnate all&#39;attività.
 1. (Facoltativo) Modifica manualmente le ore pianificate di ciascuna risorsa assegnata all&#39;attività. Il numero totale di ore pianificate per l&#39;attività viene aggiornato in modo da riflettere le nuove ore assegnate individualmente alle risorse.
 1. Immetti un valore per l&#39;attività **Durata**, ad esempio 2 Giorni.
 
-   ![](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
+   ![Assegnazioni avanzate, durata semplice, risorse multiple](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
 
 1. Fai clic su **Salva**.

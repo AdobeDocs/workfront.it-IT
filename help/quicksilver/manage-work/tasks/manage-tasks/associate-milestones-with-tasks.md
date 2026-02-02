@@ -6,10 +6,10 @@ description: È possibile associare le attività cardine alle attività per indi
 author: Alina
 feature: Work Management
 exl-id: 56410640-fde4-417f-8ea0-f089315476f7
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 1%
+source-wordcount: '372'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Standard</p> 
-   <p>Lavoro o superiore</p> 
+   <p>Work o successiva</p> 
    </td> 
   </tr> 
   <tr> 
@@ -101,7 +101,7 @@ Prima di associare un&#39;attività cardine a un&#39;attività, è necessario ch
 
 Dopo aver associato un percorso milestone a un progetto, alle attività può essere assegnata una milestone.
 
-1. Vai a un&#39;attività, quindi fai clic sull&#39;icona **Altro** ![](assets/more-icon.png) a destra del nome dell&#39;attività, quindi su **Modifica**.
+1. Vai a un&#39;attività, quindi fai clic sull&#39;icona **Altro** ![Altro](assets/more-icon.png) a destra del nome dell&#39;attività, quindi su **Modifica**.
 
    Le attività e le attività cardine hanno una relazione 1:1. Impossibile associare la stessa milestone a più attività. È possibile collegare ogni attività a un&#39;unica attività cardine oppure associare ogni attività cardine a un&#39;unica attività.
 
@@ -111,8 +111,8 @@ Dopo aver associato un percorso milestone a un progetto, alle attività può ess
 
    Per informazioni, vedere [Creare o modificare le visualizzazioni in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
-   ![](assets/amwt3.png)
+   ![Icone di stato](assets/amwt3.png)
 
 1. (Facoltativo) Vai a un elenco di progetti, seleziona la visualizzazione **Milestone** per identificare l&#39;avanzamento delle attività milestone.
 
-   ![](assets/milestone-view-project-list.png)
+   ![Elenco progetti vista milestone](assets/milestone-view-project-list.png)

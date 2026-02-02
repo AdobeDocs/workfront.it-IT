@@ -7,9 +7,9 @@ description: Un predecessore è l'attività da cui dipende un'altra attività, d
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
@@ -140,4 +140,4 @@ Puoi visualizzare le informazioni sui predecessori nelle seguenti aree di Workfr
 
 * Nell’intestazione dell’attività quando si accede all’attività.
 
-  ![](assets/qs-predecessor-info-in-task-header-350x141.png)
+  ![Informazioni sul predecessore nell&#39;intestazione attività](assets/qs-predecessor-info-in-task-header-350x141.png)

@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1506'
 ht-degree: 2%
 
 ---
@@ -145,7 +145,7 @@ Per visualizzare le richieste inviate da te o da altri utenti nell’esperienza 
    >
    >Non è possibile personalizzare le colonne nell’elenco delle richieste inviate.
 
-   ![](assets/nwe-submitted-requests-new-list-350x57.png)
+   ![Richieste inviate: nuovo elenco](assets/nwe-submitted-requests-new-list-350x57.png)
 
 
 1. Per impostazione predefinita, vengono visualizzate le seguenti colonne:
@@ -189,17 +189,17 @@ Per visualizzare le richieste inviate da te o da altri utenti nell’esperienza 
    >
    >Quando ci si sposta dall’elenco Richieste inviate, l’opzione di ordinamento selezionata viene mantenuta.
 
-1. (Facoltativo) Selezionare una richiesta nell&#39;elenco, quindi fare clic sull&#39;icona **Apri riepilogo** ![](assets/open-summary-with-text-nwe.png) per aprire il pannello Riepilogo e visualizzare ulteriori informazioni sulla richiesta, aggiungere commenti, documenti o assegnarla. Per informazioni sul pannello Riepilogo, vedere [Panoramica di riepilogo](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+1. (Facoltativo) Selezionare una richiesta nell&#39;elenco, quindi fare clic sull&#39;icona **Apri riepilogo** ![Apri riepilogo con testo](assets/open-summary-with-text-nwe.png) per aprire il pannello Riepilogo e visualizzare ulteriori informazioni sulla richiesta, aggiungere commenti, documenti o assegnarla. Per informazioni sul pannello Riepilogo, vedere [Panoramica di riepilogo](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
    >[!TIP]
    >
    >Se il pannello Riepilogo è già aperto, l&#39;icona Apri riepilogo diventa Chiudi riepilogo.
 
-1. (Facoltativo e condizionale) Fai clic sull&#39;icona **X** in alto a destra o sull&#39;icona **Chiudi riepilogo** ![](assets/close-summary-with-text-nwe.png) per chiudere il pannello Riepilogo.
+1. (Facoltativo e condizionale) Fai clic sull&#39;icona **X** in alto a destra o sull&#39;icona **Chiudi riepilogo** ![Chiudi riepilogo con testo](assets/close-summary-with-text-nwe.png) per chiudere il pannello Riepilogo.
 
    Se un problema è stato convertito in un’attività o un progetto e successivamente eliminato nel processo di conversione, il pannello Riepilogo risulta vuoto. Per informazioni sulla conversione dei problemi, vedere [Panoramica sulla conversione dei problemi in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. Dall&#39;icona **Filtro** ![](assets/filter-nwepng.png) in alto a destra dell&#39;elenco, selezionare uno dei filtri elencati nella tabella seguente.
+1. Dall&#39;**icona Filtro** ![icona Filtro](assets/filter-nwepng.png) in alto a destra nell&#39;elenco, selezionare uno dei filtri elencati nella tabella seguente.
 
    >[!TIP]
    >
@@ -232,7 +232,7 @@ Per visualizzare le richieste inviate da te o da altri utenti nell’esperienza 
     </tbody> 
    </table>
 
-1. (Facoltativo) Fai clic sull&#39;icona **del filtro** Pagina![](assets/search-icon.png) nella parte superiore dell&#39;elenco per cercare una richiesta in base al nome. L’elenco viene aggiornato con risultati che corrispondono ai criteri di ricerca.
+1. (Facoltativo) Fai clic sull&#39;icona **Filtra pagina** ![Icona Ricerca](assets/search-icon.png) nella parte superiore dell&#39;elenco per cercare una richiesta in base al nome. L’elenco viene aggiornato con risultati che corrispondono ai criteri di ricerca.
 
 1. (Condizionale) Per visualizzare solo le code di richieste di Workfront, cercare o filtrare i tipi di oggetto `Issue`.</span>
 
@@ -266,7 +266,7 @@ Per visualizzare le richieste inviate da te o da altri utenti nell’esperienza 
 
    Utilizzare **Filtri** e **Colonne** per aggiornare le informazioni nell&#39;elenco delle richieste di Planning.
 
-   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+   ![Sezione inviata dalla scheda Pianificazione nell&#39;area Richieste](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
    Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md).
 
