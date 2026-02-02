@@ -299,7 +299,7 @@ Per modificare i task in un elenco selezionando l&#39;opzione Salvataggio manual
 
    Oppure
 
-   Fare clic sull&#39;icona **Modalità del menu** Altro![ nell&#39;elenco delle attività](assets/more-icon-task-list.png).
+   Fare clic sull&#39;icona **Modalità del menu** Altro![&#x200B; nell&#39;elenco delle attività](assets/more-icon-task-list.png).
 
 1. (Facoltativo) Seleziona una delle seguenti opzioni:
 
