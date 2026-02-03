@@ -6,10 +6,10 @@ description: È possibile aggiungere alla bacheca una scheda connessa alle attiv
 author: Jenny
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 6e136bed16c2b20f05267ac181dcc462b1a2aed4
 workflow-type: tm+mt
-source-wordcount: '1430'
-ht-degree: 1%
+source-wordcount: '1533'
+ht-degree: 2%
 
 ---
 
@@ -38,7 +38,7 @@ Per sincronizzare le schede collegate con Workfront, fai clic sul menu **[!UICON
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -104,7 +104,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    <table style="table-layout:auto"> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Name]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Nome]</strong></td> 
       <td>La modifica del nome comporta anche la modifica del nome nell'oggetto [!DNL Workfront] connesso.</td> 
      </tr> 
      <tr> 
@@ -126,7 +126,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <td>La modifica di questa data determina anche la modifica della data di completamento pianificata per l'oggetto [!DNL Workfront] connesso.</td>
      </tr>
       <tr>
-      <td role="rowheader"><strong>Stima </strong></td>
+      <td role="rowheader"><strong>Stima [!UICONTROL]</strong></td>
       <td><p>Il numero di ore per il completamento della scheda.</p><p>La modifica della stima cambia anche il valore dei punti della storia sull'oggetto [!DNL Workfront] connesso.</p></td>
      </tr>
      <tr>
@@ -135,7 +135,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <p>Tutti gli assegnatari selezionati vengono assegnati anche all'attività o al problema in [!DNL Workfront].</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Tag]</strong></td>
       <td><p>Cerca e seleziona i tag per la scheda.</p>
       <p>Per informazioni sulla creazione di nuovi tag, vedere <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Aggiungi tag</a>.</p></td>
      </tr>
@@ -152,7 +152,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <p>Per ulteriori informazioni sulle sottoattività, vedere <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">Gestione delle sottoattività nelle bacheche</a>.</p></td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>Elenco di controllo di </strong></td>
+      <td role="rowheader"><strong>Elenco di controllo di [!UICONTROL]</strong></td>
       <td><p>Fare clic su <strong>[!UICONTROL Add checklist item]</strong>. Digitare quindi il titolo dell'elemento e premere Invio. Un altro elemento viene aggiunto automaticamente. Continua a inserire i titoli per aggiungere altri elementi.</p>
       <p>Il contatore nella parte superiore dell’elenco di controllo mostra il numero di elementi completati e il numero totale di elementi.</p> <p>Per ulteriori informazioni sugli elementi dell'elenco di controllo, vedere <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Gestire gli elementi dell'elenco di controllo sulle schede</a>.</p></td>
      </tr>
@@ -187,13 +187,21 @@ L’oggetto connesso, gli assegnatari, i tag, la data di scadenza, il contatore 
 
 È possibile scollegare una scheda collegata dal relativo oggetto Workfront e la scheda rimane sulla scheda come scheda ad hoc modificabile.
 
-Per disconnettersi a livello di scheda:
+>[!NOTE]
+>
+>Se si disconnette una scheda connessa su una scheda dinamica, questa verrà nuovamente visualizzata quando si aggiorna la scheda, perché questo tipo di scheda richiama tutte le attività e i problemi di un progetto specifico.
+>
+>Se si scollega una scheda collegata da qualsiasi altro tipo di scheda che dispone di una colonna di acquisizione, la scheda verrà visualizzata nuovamente nella colonna di acquisizione quando si aggiorna la scheda se l&#39;attività o il problema connesso non è ancora contrassegnato come completato.
+>
+>In entrambi questi scenari, dopo un aggiornamento saranno disponibili due schede per la stessa attività o lo stesso problema: una scheda ad hoc e una scheda connessa.
+
+Per scollegare una scheda a livello di scheda:
 
 1. Accedi alla bacheca.
 1. Fai clic sul menu **[!UICONTROL Altro]** ![Altro menu](assets/more-icon-spectrum.png) sulla scheda connessa e seleziona **[!UICONTROL Disconnetti]**.
 1. Fai clic su **[!UICONTROL Disconnetti]** nel messaggio di conferma.
 
-Per disconnettersi a livello di scheda:
+Per scollegare una scheda a livello di scheda:
 
 1. Accedere alla scheda e aprire la scheda collegata.
 1. Fare clic sul menu **[!UICONTROL Altro]** ![Altro menu](assets/more-icon-spectrum.png) nell&#39;area Connessione dei dettagli della scheda e selezionare **[!UICONTROL Disconnetti]**.
