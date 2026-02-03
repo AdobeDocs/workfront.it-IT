@@ -7,9 +7,9 @@ description: È possibile modificare le informazioni di un modulo personalizzato
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 6dce5e15a41587cd9febf82ffc0a62d3b7e121d1
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1222'
 ht-degree: 3%
 
 ---
@@ -130,7 +130,7 @@ Per informazioni sugli oggetti che possono avere un modulo personalizzato, veder
    >
    >Per salvare il modulo è necessario compilare tutti i campi obbligatori del modulo. Il nome di un campo obbligatorio è seguito da un asterisco.
    >
-   >![](assets/nwe-required-custom-field.png)
+   >![Campo personalizzato richiesto](assets/nwe-required-custom-field.png)
 
    Quando qualcuno modifica i dati in un altro oggetto a cui fanno riferimento i campi personalizzati calcolati nell&#39;oggetto, le modifiche non vengono applicate automaticamente nell&#39;oggetto. Per informazioni sull&#39;aggiornamento manuale di tutti i campi personalizzati calcolati nell&#39;oggetto, vedere [Ricalcolare tutti i campi personalizzati calcolati per un oggetto](#recalculate-all-calculated-custom-fields-for-an-object) in questo articolo.
 
@@ -177,7 +177,7 @@ Nelle sezioni seguenti viene descritto come ricalcolare le espressioni personali
    * Programma
    * Documento
 
-1. Fai clic sul menu **Altro** ![](assets/more-icon.png) a destra del nome dell&#39;oggetto, quindi fai clic su **Ricalcola espressioni**.
+1. Fai clic sul menu **Altro** ![Altro menu](assets/more-icon.png) a destra del nome dell&#39;oggetto, quindi fai clic su **Ricalcola espressioni**.
 
    In questo modo vengono ricalcolati tutti i campi personalizzati nel modulo dell&#39;oggetto.
 
@@ -217,9 +217,9 @@ Per ricalcolare espressioni personalizzate da un elenco di oggetti:
    * Portfolio
    * Programmi
    * Spese
-1. Fai clic sul menu **Altro** ![](assets/more-icon.png), quindi fai clic su **Ricalcola espressioni personalizzate**.
+1. Fai clic sul menu **Altro** ![Altro menu](assets/more-icon.png), quindi fai clic su **Ricalcola espressioni personalizzate**.
 
-![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+![Ricalcolare le espressioni nel menu a discesa dei dati finanziari della sequenza temporale negli elenchi dei progetti](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
 Workfront calcola immediatamente tutti i campi personalizzati per tutti i progetti selezionati.
 Non tutti gli elenchi di tutti gli oggetti dispongono di questa funzionalità.

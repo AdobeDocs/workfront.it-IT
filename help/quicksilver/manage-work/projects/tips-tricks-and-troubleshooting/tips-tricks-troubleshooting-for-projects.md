@@ -2,11 +2,10 @@
 title: 'Suggerimenti, trucchi e risoluzione dei problemi per i progetti: indice degli articoli'
 description: Questo articolo offre suggerimenti su come risolvere i problemi comuni quando si lavora con progetti in Adobe Workfront.
 author: Alina
-draft: Probably
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: dd849f4e-aa48-4e27-80b7-af321f730708
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 0%

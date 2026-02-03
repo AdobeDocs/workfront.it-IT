@@ -1,14 +1,13 @@
 ---
-title: Esportare moduli personalizzati e dettagli oggetto
-description: Esportare moduli personalizzati e dettagli oggetto
+title: Esporta dettagli oggetto e Forms personalizzati
+description: È possibile esportare le informazioni della panoramica e del modulo personalizzato dalla sezione Dettagli di un oggetto in un file PDF. È quindi possibile stampare o condividere il PDF con altri utenti.
 author: Alina
-draft: Probably
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 1%
+source-wordcount: '579'
+ht-degree: 3%
 
 ---
 
@@ -36,7 +35,7 @@ Questa funzionalità è supportata per i seguenti oggetti:
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -125,7 +124,7 @@ L&#39;esportazione delle informazioni dalla sezione Dettagli di un oggetto è id
 
    È inoltre possibile selezionare **Seleziona tutto** se si desidera esportare l&#39;area Panoramica e tutti i moduli personalizzati.
 
-   ![](assets/export-custom-form-button-menu.png)
+   ![Pulsante Esporta modulo personalizzato](assets/export-custom-form-button-menu.png)
 
    >[!TIP]
    >

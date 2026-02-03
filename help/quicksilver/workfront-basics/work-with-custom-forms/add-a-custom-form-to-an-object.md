@@ -7,9 +7,9 @@ description: È possibile aggiungere un modulo personalizzato esistente a uno qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '740'
 ht-degree: 4%
 
 ---
@@ -114,7 +114,7 @@ L’amministratore di Workfront o un utente con una licenza Pianificazione e l�
 ### Aggiungere un modulo personalizzato a un oggetto modificando l&#39;oggetto {#add-a-custom-form-to-an-object-by-editing-the-object}
 
 1. Passare all&#39;oggetto in cui si desidera aggiungere il modulo personalizzato.
-1. Fai clic sul menu **Altro** ![](assets/more-icon.png), quindi fai clic su **Modifica** ![](assets/edit-icon.png).
+1. Fai clic sul menu **Altro** ![Altro menu](assets/more-icon.png), quindi fai clic sull&#39;icona **Modifica** ![Modifica](assets/edit-icon.png).
 1. Fai clic su **Forms** personalizzato > **Aggiungi Forms**, quindi seleziona fino a 10 moduli dal menu a discesa.
 
 1. (Facoltativo) Aggiorna le informazioni nei campi modificabili del modulo personalizzato.
@@ -158,11 +158,11 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 1. Passare a un elenco di oggetti.
 1. Selezionare più oggetti nell&#39;elenco.
 
-1. Fai clic sul menu **Altro** ![](assets/more-icon.png), quindi fai clic sull&#39;icona **di** Modifica![](assets/edit-icon.png).
+1. Fai clic sul menu **Altro** ![Altro menu](assets/more-icon.png), quindi fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png).
 
    Oppure
 
-   Fai clic sull&#39;icona **Modifica** ![](assets/edit-icon.png) nella parte superiore dell&#39;elenco.
+   Fai clic sull&#39;icona **Modifica** ![Modifica](assets/edit-icon.png) nella parte superiore dell&#39;elenco.
 1. Fai clic su **Forms personalizzato** nel pannello a sinistra.
 1. nel menu a discesa **Effettua una selezione**, seleziona il modulo da associare a tutti gli oggetti selezionati.
 

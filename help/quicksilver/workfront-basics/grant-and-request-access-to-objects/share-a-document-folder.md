@@ -6,9 +6,9 @@ description: È possibile condividere una cartella e il relativo contenuto dall'
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '847'
 ht-degree: 2%
 
 ---
@@ -100,7 +100,7 @@ Oppure
 
 Con un oggetto Workfront aperto, fai clic su **Documenti** nel pannello a sinistra.
 
-1. Selezionare la cartella, quindi fare clic sull&#39;icona Condividi ![](assets/share-icon.png) nella barra degli strumenti.
+1. Seleziona la cartella, quindi fai clic sull&#39;icona Condividi ![icona Condividi](assets/share-icon.png) nella barra degli strumenti.
 
    La cartella deve trovarsi nei primi cinque livelli di una gerarchia di cartelle su un oggetto e non può essere una cartella avanzata.
 
@@ -132,7 +132,7 @@ Con un oggetto Workfront aperto, fai clic su **Documenti** nel pannello a sinist
    </table>
 
 1. (Facoltativo) Ripeti i passaggi 3-4 per aggiungere altri nomi all’elenco e configurarne le opzioni.
-1. (Facoltativo) Se desideri che tutti gli utenti del sistema possano visualizzare la cartella e il suo contenuto, fai clic sull&#39;icona a forma di ingranaggio ![](assets/gear-icon-settings-with-dn-arrow.jpg) nell&#39;angolo superiore destro della casella di condivisione, quindi fai clic su **Rendi visibile a livello di sistema.**
+1. (Facoltativo) Se desideri che tutti gli utenti del sistema possano visualizzare la cartella e il relativo contenuto, fai clic sull&#39;icona a forma di ingranaggio ![Impostazioni dell&#39;icona a forma di ingranaggio con freccia giù](assets/gear-icon-settings-with-dn-arrow.jpg) nell&#39;angolo superiore destro della casella di condivisione, quindi fai clic su **Rendi visibile a livello di sistema.**
 
    Se cambi idea, puoi fare clic su **Rimuovi accesso a livello di sistema** (opzione predefinita).
 

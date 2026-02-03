@@ -6,9 +6,9 @@ description: Per visualizzare tutti gli aggiornamenti inseriti da un utente per 
 author: Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '380'
 ht-degree: 4%
 
 ---
@@ -115,7 +115,7 @@ Ad esempio, per creare un rapporto Note per tutte le note di un progetto:
 1. (Facoltativo) Fai clic su **Filtri**, quindi su **Aggiungi regola filtro**.
 1. Aggiungi un filtro per **Nota** > **Testo nota** > **Non è vuoto**.
 
-   ![](assets/note-note-text-not-blank-filter.png)
+   ![Il campo di testo della nota non è un filtro vuoto](assets/note-note-text-not-blank-filter.png)
 
    >[!TIP]
    >

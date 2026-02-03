@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '662'
 ht-degree: 1%
 
 ---
@@ -130,7 +130,7 @@ And
 1. Fai clic su **Continue** (Continua).
 1. Nella casella **Scegli il tipo di record**, fai clic sulla scheda del tipo di record che desideri aggiungere da un&#39;area di lavoro esistente, quindi fai clic su **Aggiungi**.
 
-   Il tipo di record viene aggiunto all&#39;area di lavoro secondaria selezionata e l&#39;icona **del tipo di record globale**![](assets/global-icon.png) viene visualizzata nella scheda del tipo di record.
+   Il tipo di record viene aggiunto all&#39;area di lavoro secondaria selezionata e l&#39;icona **tipo di record globale** ![icona record globale nell&#39;area di lavoro principale](assets/global-icon.png) viene visualizzata nella scheda del tipo di record.
 
    Si verificano le seguenti situazioni:
 

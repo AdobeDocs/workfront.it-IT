@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '2004'
+source-wordcount: '2020'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Quando si aggiunge una pagina Record connessi a un record, tenere presente quant
    <ul><li><p>Una licenza Adobe Experience Manager Assets e un’integrazione tra AEM Assets e Workfront per collegare le risorse AEM ai tipi di record Planning.</p>
    <p>Per informazioni, consulta <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p></li>
    <li><p> Una licenza Adobe GenStudio for Performance Marketing per collegare i tipi di record ai marchi GenStudio</p>
-   <p>Per informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/get-started">Introduzione ad Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Per informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introduzione ad Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>
 
@@ -287,7 +287,7 @@ Una nuova vista viene aggiunta al menu a discesa delle viste.
       * **Elimina**
 Per informazioni, vedere [Eliminare le visualizzazioni dei record](/help/quicksilver/planning/views/delete-record-views.md).
 
-        ![](assets/view-more-menu-projects-connected-records-page.png)
+        ![Visualizza altro menu nella pagina dei record dei progetti connessi](assets/view-more-menu-projects-connected-records-page.png)
 
         >[!NOTE]
         >
@@ -340,7 +340,7 @@ Una nuova visualizzazione elenco viene aggiunta al menu a discesa delle visualiz
       * **Elimina**
 Per informazioni, vedere [Eliminare le visualizzazioni dei record](/help/quicksilver/planning/views/delete-record-views.md).
 
-        ![](assets/view-more-menu-projects-connected-records-page.png)
+        ![Visualizza altro menu nella pagina dei record dei progetti connessi](assets/view-more-menu-projects-connected-records-page.png)
 
         >[!NOTE]
         >

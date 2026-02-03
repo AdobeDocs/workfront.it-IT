@@ -7,10 +7,10 @@ description: Puoi condividere un piano creato in Adobe Workfront Scenario Planne
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 2%
+source-wordcount: '882'
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -221,7 +221,7 @@ Per informazioni sulle autorizzazioni del progetto, vedere [Condividere un proge
 
    Oppure
 
-   Se hai selezionato diversi piani per condividerli in blocco, fai clic sull&#39;icona **[!UICONTROL Condividi]** ![](assets/share-icon-26x26.png) nella parte superiore dell&#39;elenco dei piani per aprire la casella di accesso [!UICONTROL Piano].
+   Se hai selezionato diversi piani da condividere in blocco, fai clic sull&#39;icona **[!UICONTROL Condividi]** ![Condividi icona](assets/share-icon-26x26.png) nella parte superiore dell&#39;elenco dei piani per aprire la casella di accesso [!UICONTROL Piano].
 
    >[!TIP]
    >
@@ -237,7 +237,7 @@ Per informazioni sulle autorizzazioni del progetto, vedere [Condividere un proge
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Visualizzazione </td> 
+      <td role="rowheader">Visualizzazione [!UICONTROL]</td> 
       <td>Gli utenti con cui condividi il piano disporranno delle autorizzazioni necessarie per visualizzarlo. Non possono modificare le informazioni sul piano, aggiungere iniziative, scenari o pubblicare scenari. </td> 
      </tr> 
      <tr> 

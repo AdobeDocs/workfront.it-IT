@@ -5,9 +5,9 @@ description: Puoi utilizzare il pannello Riepilogo per rivedere e aggiornare le 
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: d7b8d7285d23d14f5390c9de1001de553c2b796f
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '908'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,7 @@ Nella tabella seguente vengono visualizzate le aree in cui è possibile individu
    <td>Attività nelle aree di lavoro [!UICONTROL non assegnato] e [!UICONTROL assegnato] del Bilanciatore dei carichi di lavoro [!UICONTROL assegnato]</td> 
   </tr> 
    <tr> 
-   <td>Attività in una scheda orario </td> 
+   <td>Attività in una scheda orario [!UICONTROL]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><b>Problemi</b></td> 
@@ -71,14 +71,14 @@ Nella tabella seguente vengono visualizzate le aree in cui è possibile individu
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Problemi nell'area [!UICONTROL Assigned Work] (Lavoro assegnato) del Bilanciatore dei carichi di lavoro </td> 
+   <td>Problemi nell'area [!UICONTROL Assigned Work] (Lavoro assegnato) del Bilanciatore dei carichi di lavoro [!UICONTROL]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Problemi nella sezione [!UICONTROL Submitted] dell'area [!UICONTROL Requests]</td> 
   </tr> 
 </tr> 
    <tr> 
-   <td>Problemi in una scheda orario </td> 
+   <td>Problemi in una scheda orario [!UICONTROL]</td> 
   </tr>
 
 <tr data-mc-conditions=""> 
@@ -107,11 +107,11 @@ Per informazioni sull&#39;accesso a [!UICONTROL Riepilogo] per i documenti, vede
 ## Visualizza il pannello [!UICONTROL Riepilogo] in un elenco di attività o problemi
 
 1. Vai a un’attività o a un problema e seleziona un elemento nell’elenco.
-1. Fai clic sull&#39;icona **[!UICONTROL Riepilogo]** ![](assets/qs-summary-in-new-toolbar-small.png)
+1. Fai clic sull&#39;icona **[!UICONTROL Riepilogo]** ![Riepilogo nella nuova barra degli strumenti](assets/qs-summary-in-new-toolbar-small.png)
 
    oppure
 
-   Fai clic sull&#39;icona **[!UICONTROL di]** Apri riepilogo![](assets/open-summary-with-text-nwe.png) nella sezione [!UICONTROL Inviato] dell&#39;area [!UICONTROL Richieste].
+   Fai clic sull&#39;icona **[!UICONTROL Apri riepilogo]** ![Apri riepilogo con testo](assets/open-summary-with-text-nwe.png) nella sezione [!UICONTROL Inviato] dell&#39;area [!UICONTROL Richieste].
 
    Dopo aver aperto il riepilogo, rimane aperto quando si fa clic su o si selezionano altre attività o problemi e rimane aperto fino a quando non viene chiuso manualmente.
 
@@ -123,13 +123,13 @@ Per informazioni sull&#39;accesso a [!UICONTROL Riepilogo] per i documenti, vede
 
 1. (Facoltativo) Per chiudere il pannello [!UICONTROL Riepilogo], eseguire una delle operazioni seguenti:
 
-   * In un elenco di attività o problemi, fai clic sull&#39;icona **[!UICONTROL Apri riepilogo]** ![](assets/summary-panel-icon.png)
+   * In un elenco di attività o problemi, fai clic sull&#39;icona **[!UICONTROL Apri riepilogo]** ![Icona pannello di riepilogo](assets/summary-panel-icon.png)
 
      Oppure
 
      Fai clic sull&#39;icona **X** nell&#39;angolo superiore destro del pannello [!UICONTROL Riepilogo].
 
-   * Nella sezione [!UICONTROL Submitted] dell&#39;area [!UICONTROL Requests], fare clic sull&#39;icona **[!UICONTROL Close Summary]** ![](assets/close-summary-with-text-nwe.png)
+   * Nella sezione [!UICONTROL Submitted] dell&#39;area [!UICONTROL Requests], fare clic sull&#39;icona **[!UICONTROL Close Summary]** ![Close Summary with text](assets/close-summary-with-text-nwe.png)
 
      Oppure
 

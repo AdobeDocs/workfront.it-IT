@@ -6,9 +6,9 @@ description: È possibile aggiornare l'ordine di visualizzazione dei moduli pers
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1064'
 ht-degree: 2%
 
 ---
@@ -86,10 +86,10 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
 
 1. Passare all&#39;oggetto in cui si desidera modificare l&#39;ordine dei moduli personalizzati aggiunti, quindi iniziare a modificare l&#39;oggetto.
 
-   **Esempio:** Ad esempio, per gestire i moduli personalizzati di un progetto, accedi al progetto, fai clic sul menu **Altro** ![](assets/more-icon.png), quindi fai clic su **Modifica** .
+   **Esempio:** Ad esempio, per gestire i moduli personalizzati di un progetto, accedi al progetto, fai clic sul menu **Altro** ![Altro menu](assets/more-icon.png), quindi fai clic su **Modifica** .
 
-1. Nella sezione **Forms** personalizzato per progetti, attività e problemi, fai clic sull&#39;icona ![](assets/move-icon---dots.png) accanto al nome di un modulo personalizzato. Per tutti gli altri oggetti, fare clic su **Gestisci Forms**. Questa opzione viene visualizzata solo se all’oggetto è allegato almeno un modulo personalizzato.
-1. Trascinare un modulo ![](assets/move-icon---dots.png) in una nuova posizione nell&#39;elenco.
+1. Nella sezione **Forms** personalizzato per progetti, attività e problemi, fai clic sull&#39;icona ![Sposta](assets/move-icon---dots.png) accanto al nome di un modulo personalizzato. Per tutti gli altri oggetti, fare clic su **Gestisci Forms**. Questa opzione viene visualizzata solo se all’oggetto è allegato almeno un modulo personalizzato.
+1. Trascina un modulo ![Icona Sposta](assets/move-icon---dots.png) in una nuova posizione nell&#39;elenco.
 1. Per progetti, attività e problemi moduli personalizzati, fai clic su **Salva**.
 
    Per tutti gli altri oggetti, fai clic su **Gestione completata** > **Salva modifiche**.
@@ -105,7 +105,7 @@ Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione 
    Ad esempio, vai a un progetto, fai clic sulla sezione **Dettagli progetto**.
 
 1. Fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png) nell&#39;angolo superiore destro della pagina dell&#39;oggetto, quindi fai clic su **Modifica tutto**.
-1. Fai clic sull&#39;icona **Elimina** ![](assets/delete-icon.png) a destra del nome di un modulo personalizzato, quindi fai clic su **Elimina** per confermare e rimuovere il modulo dall&#39;oggetto oppure su **Annulla** per impedirne la rimozione.
+1. Fai clic sull&#39;icona **Elimina** ![Elimina icona](assets/delete-icon.png) a destra del nome di un modulo personalizzato, quindi fai clic su **Elimina** per confermare e rimuovere il modulo dall&#39;oggetto oppure su **Annulla** per impedirne la rimozione.
 1. Fai clic su **Salva modifiche**.
 
 ## Gestire più moduli personalizzati contenenti gli stessi campi personalizzati
@@ -135,7 +135,7 @@ Solo i moduli personalizzati allegati a tutti gli oggetti selezionati possono es
 
 Per modificare più moduli personalizzati durante la modifica di oggetti in blocco:
 
-1. In un elenco oggetti, selezionare gli oggetti a cui sono allegati i moduli personalizzati, quindi fare clic sull&#39;icona **Modifica** ![](assets/edit-icon.png).
+1. In un elenco di oggetti, seleziona gli oggetti a cui sono allegati i moduli personalizzati, quindi fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png).
 1. Fare clic su **Forms personalizzato**.
 
    È possibile modificare solo i moduli personalizzati allegati a tutti gli oggetti selezionati.
