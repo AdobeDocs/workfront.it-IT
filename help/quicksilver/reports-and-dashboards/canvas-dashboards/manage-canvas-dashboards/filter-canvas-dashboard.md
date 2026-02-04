@@ -6,9 +6,9 @@ description: Puoi applicare un filtro a un dashboard di Canvas dopo averlo creat
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: c6458d777726092d74e8b031f5c14dfd58710e11
+source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '892'
 ht-degree: 2%
 
 ---
@@ -179,17 +179,3 @@ Tutti gli utenti con accesso a un dashboard possono applicare un prompt del dash
 1. Fai clic sull&#39;icona **Chiudi** ![Chiudi](assets/close-icon.png) nell&#39;angolo superiore destro per nascondere il pannello.
 
 
-## Filtrare un dashboard per tipo di valuta
-
-A livello di dashboard, è possibile alternare tra diversi tipi di valuta. I rapporti che contengono campi di valuta verranno aggiornati per riflettere il tipo di valuta selezionato.
-
->[!NOTE]
->
->I campi Valuta possono essere bloccati a livello di report. Se un campo valuta è bloccato, il tipo di valuta per il report non verrà modificato quando si modifica il tipo di valuta per il dashboard.
-
-Per modificare il tipo di valuta per il dashboard:
-
-1. Fai clic sul menu a discesa della valuta nell’angolo superiore destro della pagina dei dettagli della dashboard.
-1. Selezionare il tipo di valuta desiderato dall&#39;elenco.
-
-   ![elenco a discesa cambio valuta](assets/filter-by-currency.png)

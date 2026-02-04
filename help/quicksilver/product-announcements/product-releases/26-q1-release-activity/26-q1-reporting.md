@@ -4,9 +4,9 @@ description: Miglioramenti al reporting per il primo trimestre 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ad16dfe737f33a7d1025d8cef00605595d0476c2
+source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,14 @@ Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio
 >Versione rapida di produzione: 14 gennaio 2026
 >Produzione per tutti: 15 gennaio 2026
 
-Sono stati apportati i seguenti aggiornamenti ai campi valuta:
+Sono stati apportati i seguenti aggiornamenti ai campi della valuta nativa:
 
 * Quando in Workfront sono definite più valute, è ora possibile scegliere una valuta predefinita per il dashboard durante la creazione.
 
 * Durante la creazione di un report, è possibile bloccare un campo valuta. In questo modo la preferenza di valuta a livello di dashboard non influisce sulla visualizzazione di questi valori.
 
 * Quando visualizzi un dashboard, gli utenti possono passare da una valuta definita all’altra in Workfront. Queste modifiche si applicano all&#39;intero dashboard ad eccezione dei campi di valuta bloccati.
+
 
 
 ## Risultati della tabella di ricerca rapida nei dashboard di Canvas
