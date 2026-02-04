@@ -5,10 +5,10 @@ title: Utilizzare i campi di valuta nei dashboard di Canvas
 description: È possibile utilizzare i campi della valuta in un dashboard Area di lavoro.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
+source-git-commit: 3e4ab2dfc66efd262c0c2ad30a9c62758084f8ce
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 3%
+source-wordcount: '622'
+ht-degree: 4%
 
 ---
 
@@ -73,7 +73,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    >[!IMPORTANT]
    >
-   >La funzionalità descritta in questo articolo si applica solo ai campi della valuta nativa. Se hai impostato i tassi di cambio della valuta, il supporto per i campi di valuta personalizzati sarà presto disponibile.
+   >La funzionalità descritta in questo articolo si applica solo ai campi della valuta nativa. Il supporto per i campi di valuta personalizzati sarà presto disponibile.
 
 
 ## Impostare una valuta predefinita per un dashboard Area di lavoro
