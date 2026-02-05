@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1411'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 In Adobe Workfront Planning è possibile configurare i tipi di record in modo che funzionino in più aree di lavoro.
 
@@ -198,7 +198,7 @@ Per configurare un tipo di record come globale:
    >
    >È possibile modificare l&#39;aspetto e le impostazioni del tipo di record e i relativi campi originali solo dall&#39;area di lavoro originale.
 
-   * Nella scheda del tipo di record viene visualizzata l&#39;icona **tipo di record globale** ![Tipo di record globale](assets/global-icon.png) per indicare che il tipo di record è disponibile per l&#39;aggiunta ad altre aree di lavoro.
+   * Nella scheda del tipo di record viene visualizzata un&#39;icona **tipo di record globale** ![icona tipo di record globale nell&#39;area di lavoro principale](assets/global-icon.png) per indicare che il tipo di record è disponibile per essere aggiunto ad altre aree di lavoro.
    * Un campo **Workspace** generato dal sistema viene aggiunto alla vista tabella del tipo di record e dei relativi dettagli.
 
      Nel campo Workspace viene visualizzata l&#39;area di lavoro da cui viene creato ogni record.
@@ -214,7 +214,7 @@ Per configurare un tipo di record come globale:
 
    Per informazioni, vedere [Aggiungere tipi di record esistenti da un&#39;altra area di lavoro](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
-   Il tipo di record aggiunto da un tipo di record globale nell&#39;area di lavoro secondaria visualizza anche un&#39;icona **tipo di record globale** ![icona tipo di record globale](assets/global-icon.png).
+   Il tipo di record aggiunto da un tipo di record globale nell&#39;area di lavoro secondaria visualizza <span class="preview">un&#39;icona simile **per il tipo di record globale** ![per il tipo di record globale nell&#39;area di lavoro secondaria](assets/global-icon-secondary-workspace.png) che include una freccia che indica che il tipo di record è stato importato da un&#39;altra area di lavoro. Quando passi il cursore sull&#39;icona globale dell&#39;area di lavoro secondaria, puoi imparare il nome dell&#39;area di lavoro originale.</span>
 1. (Facoltativo) Tornare all&#39;area di lavoro originale in cui è stato creato il tipo di record globale e modificare il tipo di record seguendo i passaggi da 1 a 4 sopra <!--ensure this stays accurate-->
 1. (Facoltativo) Rivedi l&#39;elenco delle aree di lavoro in cui il record globale è stato aggiunto nella sezione **Aree di lavoro in cui viene utilizzato questo tipo di record**. Accanto al nome dell’area di lavoro viene elencato anche il relativo proprietario.
 

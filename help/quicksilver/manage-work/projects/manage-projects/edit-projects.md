@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
-source-wordcount: '7642'
+source-wordcount: '7726'
 ht-degree: 1%
 
 ---
@@ -652,6 +652,15 @@ Per informazioni sull&#39;effetto di queste impostazioni sulla creazione di nuov
    Fai clic su **Salva**.
 
 ### Accesso {#access}
+
+Puoi definire le autorizzazioni che gli utenti ricevono per il progetto, nonché le attività e i problemi nel progetto quando interagiscono con uno di questi tipi di oggetto.
+
+>[!IMPORTANT]
+>
+>La modifica delle autorizzazioni per il progetto, le attività e i problemi stabilisce come vengono concesse le autorizzazioni quando gli utenti interagiscono con questi tipi di oggetto dopo la modifica dell’accesso.
+>
+>La modifica di questa configurazione non modifica retroattivamente le autorizzazioni degli utenti per questi tipi di oggetto, per gli elementi a cui gli utenti sono già stati assegnati o inclusi.
+
 
 1. Inizia a modificare il progetto come descritto in precedenza.
 1. Fai clic su **Accesso** nel pannello a sinistra.

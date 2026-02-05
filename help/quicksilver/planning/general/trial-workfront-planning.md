@@ -3,9 +3,9 @@ title: Introduzione alla versione di prova gratuita di Adobe Workfront Planning
 description: Adobe Workfront offre una prova gratuita di 60 giorni di pianificazione Adobe Workfront. Questa prova rappresenta un'opportunità per vedere come Planning collega una strategia di grandi dimensioni al lavoro quotidiano che la rende possibile. Planning offre visibilità centralizzata nel ciclo di vita del marketing, consentendo una migliore collaborazione tra i team, il tracciamento in tempo reale delle campagne e flussi di lavoro automatizzati. Puoi creare aree di lavoro personalizzate e visualizzare il lavoro con timeline e calendari interattivi. Con questa versione di prova, potrai vedere in prima persona come Planning consente di allineare il lavoro quotidiano con gli obiettivi strategici, semplificare l’esecuzione e promuovere risultati misurabili per la tua organizzazione.
 hidefromtoc: true
 hide: true
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1255'
 ht-degree: 1%
 
 ---
@@ -71,15 +71,29 @@ Di seguito sono riportate le date importanti associate all&#39;offerta di prova 
    * Finestra di accettazione del contratto di prova. Solo un amministratore Workfront può accettare il contratto. Il contratto di prova può essere accettato in qualsiasi momento a partire da questa data.
 * **2 marzo 2026**: viene avviata la versione di prova di Workfront Planning.
 
+  I seguenti elementi vengono aggiunti alla tua istanza di Workfront:
+
+   * I banner di Workfront Planning continuano a essere visualizzati per tutti gli utenti.
+   * La preferenza **Verifica contratto di prova** è stata aggiunta all&#39;area **Configurazione**.
+
   Esistono i seguenti scenari:
 
    * Se l&#39;amministratore di Workfront ha accettato il contratto prima di questa data, è possibile trovare l&#39;area Pianificazione nel menu principale e iniziare a utilizzare Workfront Planning.
    * Se l&#39;amministratore di Workfront non ha accettato il contratto prima di questa data, deve prima accettarlo per poter accedere a Workfront Planning.
+* **1 aprile 2026**: non è più possibile iscriversi alla versione di valutazione.
+
+  I seguenti elementi vengono rimossi dall’istanza di Workfront:
+
+   * Banner di prova di Workfront Planning.
+   * La preferenza **Rivedi contratto di prova** è stata rimossa dall&#39;area **Configurazione**.
+
 * **1 maggio 2026**: la versione di valutazione di Workfront Planning viene chiusa e l&#39;accesso a Planning viene rimosso.
 
-  Workfront protegge i dati al termine della versione di valutazione, ma non è più possibile accedervi.
+  Se hai partecipato alla versione di prova, Workfront protegge i tuoi dati al termine della versione di prova. Tuttavia, non potrai più accedervi dopo tale data.
 
   Indipendentemente da quando si accetta il contratto, l&#39;accesso a Planning viene interrotto in questa data.
+
+  Tutta la versione di prova di Workfront Planning
 * **30 novembre 2026**: Workfront non protegge più i dati dopo questa data. Se si acquista Workfront Planning prima di questa data, si riottiene l&#39;accesso a Planning e ai dati.
 
 <!--Lauren wanted this out: 
@@ -144,7 +158,9 @@ Per rivedere e accettare l&#39;accordo legale, eseguire una delle operazioni seg
 
 * **Tra il 2 marzo e il 1 maggio 2026**:
 
-  Durante la prova gratuita, all&#39;utente vengono concesse le seguenti autorizzazioni per le aree di lavoro nell&#39;area Planning:
+  Indipendentemente dal livello di accesso alla licenza Workfront o Workflow, quando si accetta di partecipare al programma di prova Workfront Planning si riceve una licenza Workfront Planning Prime.
+
+  Durante la prova gratuita, gli utenti del sistema ricevono le seguenti autorizzazioni per le aree di lavoro nell&#39;area Planning:
 
    * Tutti gli amministratori di sistema dispongono delle autorizzazioni di gestione per la scheda Workspace.
    * Tutti gli altri utenti dispongono delle autorizzazioni di visualizzazione per la scheda Aree di lavoro, ma l’amministratore di sistema può concedere loro le autorizzazioni di gestione per le aree di lavoro.

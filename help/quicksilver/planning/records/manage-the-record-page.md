@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 0%
@@ -192,7 +192,7 @@ Per aggiungere una sezione a un&#39;anteprima record o a una pagina:
 
    Nella vista tabella fare clic sull&#39;icona **Apri dettagli** ![Apri dettagli nel campo nome tabella](assets/open-details-icon-in-table-name-field.png) nella prima colonna.
 
-   L&#39;anteprima del record viene visualizzata nella vista.
+   <span class="preview">L&#39;anteprima del record si apre nella visualizzazione.</span>
 
    ![Casella Dettagli](assets/details-box.png)
 
@@ -271,7 +271,7 @@ Si verificano le seguenti situazioni:
 
    Nella vista tabella fare clic sull&#39;icona **Apri dettagli** ![Apri dettagli nel campo nome tabella](assets/open-details-icon-in-table-name-field.png) nella prima colonna.
 
-   L&#39;anteprima del record viene visualizzata nella vista.
+   <span class="preview">L&#39;anteprima del record si apre nella visualizzazione.</span>
 
    ![Casella Dettagli](assets/details-box.png)
 
