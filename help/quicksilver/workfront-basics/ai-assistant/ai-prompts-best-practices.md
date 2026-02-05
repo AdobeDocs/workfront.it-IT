@@ -1,18 +1,18 @@
 ---
-title: L’Assistente AI richiede le best practice
+title: Suggerimenti e best practice per l’Assistente AI
 content-type: reference
 description: Scopri le best practice per l’utilizzo di AI Assistant e visualizza un elenco di esempi di prompt.
 author: Jenny
 feature: Get Started with Workfront
 exl-id: 34a60482-e060-49f9-bbaf-8aed85845e26
-source-git-commit: 4bab0129d694d7134a5dae90474678226368ca78
+source-git-commit: dc472e93541641ee1c960ec7246365200f522a17
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '743'
 ht-degree: 4%
 
 ---
 
-# L’Assistente AI richiede le best practice
+# Suggerimenti e best practice per l’Assistente AI
 
 L’Assistente AI di Workfront è uno strumento potente che può aiutarti a svolgere il tuo lavoro in modo più efficace offrendo informazioni utili sui dati del tuo account e su tipi di oggetti specifici.
 
