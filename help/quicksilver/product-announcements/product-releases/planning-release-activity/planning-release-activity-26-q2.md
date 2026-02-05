@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: f722940bd7222ebec85aad143378f8f849357e5a
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,22 @@ Questo articolo descrive le funzioni rilasciate per Workfront Planning durante l
 <!--keep the sentence below for all future quarterly release pages-->
 
 Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning, vedere [Attività di rilascio di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Miglioramenti ai tipi di record globali nelle aree di lavoro secondarie
+
+>[!NOTE]
+>
+>Anteprima: 5 febbraio 2026
+>Versione rapida di produzione: 12 marzo 2026
+>Produzione per tutti: 16 aprile 2026
+
+È stata migliorata la visibilità dei tipi di record globali aggiunti a un’area di lavoro secondaria da un’area di lavoro principale. I miglioramenti includono:
+
+* Icona globale leggermente modificata che indica che il tipo di record è stato aggiunto da un&#39;altra area di lavoro.
+
+* Descrizione migliorata della nuova icona che identifica chiaramente l&#39;area di lavoro in cui è stato creato il tipo di record.
+
+Per informazioni, vedere [Aggiungere tipi di record esistenti da un&#39;altra area di lavoro](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
 ## Configurare i campi visualizzati nella casella di anteprima Dettagli di un record
 
