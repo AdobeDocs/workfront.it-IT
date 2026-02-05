@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+source-git-commit: c9fa6d97607990710e6c2a74f3b373d06201d721
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 1%
@@ -147,6 +147,7 @@ And
      >
      >Non è possibile modificare l&#39;aspetto del nuovo tipo di record, le impostazioni aggiuntive o i campi originali. È possibile modificare il tipo di record e tutti i campi e le impostazioni originali solo dall&#39;area di lavoro originale.
      >
+
 1. <span class="preview">(Facoltativo) Passare il puntatore sull&#39;icona del tipo di record globale ![Icona del record globale nell&#39;area di lavoro secondaria](assets/global-icon-secondary-workspace.png) per visualizzare il nome dell&#39;area di lavoro originale da cui è stato aggiunto il tipo di record. </span>
 1. (Facoltativo) Fai clic su, quindi trascina e rilascia il nuovo tipo di record aggiunto in una sezione all’interno dell’area di lavoro.
 1. (Facoltativo) Fare clic sul menu **Altro** sulla scheda del nuovo tipo di record o a destra del nome del tipo di record nella relativa pagina, quindi fare clic su una delle opzioni seguenti:

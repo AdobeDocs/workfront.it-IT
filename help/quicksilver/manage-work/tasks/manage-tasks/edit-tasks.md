@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: c9fa6d97607990710e6c2a74f3b373d06201d721
 workflow-type: tm+mt
-source-wordcount: '5428'
+source-wordcount: '5475'
 ht-degree: 4%
 
 ---
@@ -377,6 +377,12 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
 La modifica delle assegnazioni è diversa nella casella Modifica attività a seconda dell&#39;ambiente scelto.
 
 #### Modificare l’area Assegnazioni nell’ambiente di produzione
+
+>[!NOTE]
+>
+><span class="preview">Alcuni clienti possono modificare le assegnazioni nella casella Modifica attività nei propri ambienti di produzione nello stesso modo in cui le modificano nel proprio ambiente di anteprima.</span>
+>
+><span class="preview">Per informazioni sulla modifica delle attività nell&#39;ambiente di anteprima, vedere la sezione [Modificare l&#39;area Assegnazioni nell&#39;ambiente di anteprima](#edit-the-assignments-area-in-the-preview-environment) in questo articolo. </span>
 
 1. Inizia a modificare l’attività come descritto in precedenza.
 1. Fai clic su **Assegnazioni** nel pannello a sinistra.
