@@ -309,7 +309,7 @@ I progetti connessi al record selezionato vengono visualizzati nella vista a ele
    * Fai clic su **Nuova riga** per creare un progetto senza modello. Il nuovo progetto viene automaticamente connesso al record corrente.
 
      Per ulteriori informazioni, vedere [Creare oggetti Workfront da Workfront Planning durante la connessione ai record](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
-   * Fai clic su **Crea record **nell’angolo superiore destro della visualizzazione per aggiungere progetti esistenti. I progetti vengono immediatamente collegati al record selezionato.
+   * Fai clic su **Crea record &#x200B;** nell’angolo superiore destro della visualizzazione per aggiungere progetti esistenti. I progetti vengono immediatamente collegati al record selezionato.
 
    * Passa il puntatore del mouse sul nome di un progetto nell&#39;elenco e fai clic sul menu **Altro** [Altro menu](assets/more-menu.png), quindi fai clic su **Visualizza** per aprire il progetto in un&#39;altra scheda
 
