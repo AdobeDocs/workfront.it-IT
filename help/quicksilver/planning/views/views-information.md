@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
@@ -26,5 +26,6 @@ Nei seguenti articoli viene descritto come creare e gestire le visualizzazioni r
 * [Gestire la vista tabella](/help/quicksilver/planning/views/manage-the-table-view.md)
 * [Gestire la visualizzazione della timeline](/help/quicksilver/planning/views/manage-the-timeline-view.md)
 * [Gestire la visualizzazione calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md)
+* [Gestire la vista a elenco](/help/quicksilver/planning/views/manage-the-list-view.md)
 * [Eliminare le visualizzazioni record](/help/quicksilver/planning/views/delete-record-views.md)
 * [Visualizzazioni record duplicate](/help/quicksilver/planning/views/duplicate-record-views.md)

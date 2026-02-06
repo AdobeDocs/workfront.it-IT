@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+exl-id: 5e0be9d9-efa5-4b16-bd56-f9c85bc57ced
+source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '1843'
 ht-degree: 0%
 
 ---
-
 
 # Aggiungere una pagina Record connessi a un record
 
@@ -76,7 +76,7 @@ Quando si aggiunge una pagina Record connessi a un record, tenere presente quant
    <ul><li><p>Una licenza Adobe Experience Manager Assets e un’integrazione tra AEM Assets e Workfront per collegare le risorse AEM ai tipi di record Planning.</p>
    <p>Per informazioni, consulta <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p></li>
    <li><p> Una licenza Adobe GenStudio for Performance Marketing per collegare i tipi di record ai marchi GenStudio</p>
-   <p>Per informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/get-started">Introduzione ad Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Per informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introduzione ad Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>
 
@@ -295,7 +295,7 @@ Per informazioni, vedere [Eliminare le visualizzazioni dei record](/help/quicksi
 
 ### Gestione della pagina dei record collegati per i progetti Workfront
 
-Quando si crea una pagina record connessi per progetti Workfront connessi, eseguire le operazioni seguenti:
+Quando si crea una pagina record connessi per progetti Workfront connessi, eseguire le operazioni seguenti per gestire la pagina:
 
 1. Passare a una pagina del tipo di record e fare clic sul nome di un record. Verrà aperta la pagina di anteprima del record.
 1. Fare clic sulla scheda di una pagina relativa ai record connessi in cui sono visualizzati i progetti Workfront.
@@ -303,68 +303,34 @@ I progetti connessi al record selezionato vengono visualizzati nella vista a ele
 1. Fare clic su **Connetti record** nell&#39;angolo superiore destro della pagina dei record connessi per connettere i progetti esistenti.
 
    Per informazioni, vedere [Connetti record](/help/quicksilver/planning/records/connect-records.md).
-1. Modifica in linea le informazioni sul progetto nella tabella.
-1. Fai clic su **Nuova riga** per creare un progetto senza modello. Il nuovo progetto viene automaticamente connesso al record corrente.
+1. Fai doppio clic all’interno di una cella nella vista a elenco per modificare i campi di un progetto. Alcuni campi sono di sola lettura.
+1. Per modificare la vista a elenco, effettuate una delle seguenti operazioni:
 
-   Per ulteriori informazioni, vedere [Creare oggetti Workfront da Workfront Planning durante la connessione ai record](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+   * Fai clic su **Nuova riga** per creare un progetto senza modello. Il nuovo progetto viene automaticamente connesso al record corrente.
 
-1. Passa il puntatore del mouse sul nome di un progetto nell&#39;elenco e fai clic sul menu **Altro** [Altro menu](assets/more-menu.png)
+     Per ulteriori informazioni, vedere [Creare oggetti Workfront da Workfront Planning durante la connessione ai record](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+   * Fai clic su **Crea record **nell’angolo superiore destro della visualizzazione per aggiungere progetti esistenti. I progetti vengono immediatamente collegati al record selezionato.
 
-   Oppure
+   * Passa il puntatore del mouse sul nome di un progetto nell&#39;elenco e fai clic sul menu **Altro** [Altro menu](assets/more-menu.png), quindi fai clic su **Visualizza** per aprire il progetto in un&#39;altra scheda
 
-   Seleziona uno o più progetti e osserva la barra blu nella parte inferiore dell’elenco, quindi fai clic su una delle seguenti opzioni:
+     Oppure
 
-   * **Elimina** per eliminare il progetto. Quando si elimina un progetto, questo viene disconnesso dal record e spostato nel Cestino di Workfront. Gli amministratori di Workfront possono recuperare i progetti eliminati fino a 30 giorni dopo la loro eliminazione.
-   * **Disconnetti** per disconnettere il progetto dal record. Se si disconnette un progetto, verranno rimossi anche tutti i valori dei campi di ricerca dal record corrente.
+     Seleziona uno o più progetti e, dalla barra delle azioni nella parte inferiore dell&#39;elenco, fai clic su **Elimina** o **Disconnetti** per rimuovere l&#39;elemento dall&#39;elenco.
 
-     >[!TIP]
-     >
-     >È possibile selezionare più progetti per disconnetterli o eliminarli.
-     >
 
-1. Fare clic sul menu a discesa delle visualizzazioni e quindi su **Nuova visualizzazione** per aggiungere una nuova visualizzazione alla pagina, quindi eseguire le operazioni seguenti:
+   * Fai clic sul menu a discesa delle visualizzazioni e fai clic su **Nuova visualizzazione** per aggiungere una nuova visualizzazione alla pagina, quindi fai quanto segue oppure fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png) a destra di un nuovo nome, quindi **Rinomina**, **Condividi** o **Elimina** la visualizzazione.
 
-   1. Aggiungi **Nome visualizzazione**.
-   1. Selezionare **Elenco** dall&#39;area **Tipo di visualizzazione**.
-   1. Fai clic su **Crea**.
-Una nuova visualizzazione elenco viene aggiunta al menu a discesa delle visualizzazioni nell&#39;area **Visualizzazioni personali**.
+     Non è possibile rinominare, condividere o eliminare le visualizzazioni di sistema o le visualizzazioni per le quali non si dispone delle autorizzazioni di gestione.
 
-      Per ulteriori informazioni, vedere la sezione [Gestire più visualizzazioni dalla pagina dei record connessi](#manage-multiple-views-from-the-connected-records-page) in questo articolo.
+     ![Visualizza altro menu nella pagina dei record dei progetti connessi](assets/view-more-menu-projects-connected-records-page.png)
 
-   1. (Facoltativo) Passa il puntatore del mouse sul nome di una visualizzazione creata, fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png), quindi fai clic su una delle seguenti opzioni:
-      * **Rinomina**, per aggiungere un nuovo nome alla visualizzazione.
-      * **Condividi**
+   * Fate clic su una delle seguenti opzioni per aggiornare gli elementi della vista:
 
-        Per ulteriori informazioni, vedere [Condividi visualizzazioni](/help/quicksilver/planning/access/share-views.md).
+      * **Filtro** per limitare la quantità di informazioni nell&#39;elenco
+      * **Colonne** per nascondere le colonne o modificarne l&#39;ordine
+      * L&#39;icona **+** nell&#39;angolo superiore destro della vista tabella per aggiungere campi esistenti all&#39;elenco. I campi devono esistere prima di poterli aggiungere.
 
-      * **Elimina**
-Per informazioni, vedere [Eliminare le visualizzazioni dei record](/help/quicksilver/planning/views/delete-record-views.md).
-
-        ![Visualizza altro menu nella pagina dei record dei progetti connessi](assets/view-more-menu-projects-connected-records-page.png)
-
-        >[!NOTE]
-        >
-        >Non è possibile rinominare, condividere o eliminare una visualizzazione Sistema creata da Workfront.
-
-   1. Fai clic sull&#39;icona **Filtro** ![Icona Filtro](assets/filter-icon.png) e utilizza il filtro per visualizzare progetti specifici.
-
-      >[!TIP]
-      >
-      >Per i campi di tipo persone, come **Proprietario** o **Sponsor**, è possibile utilizzare un carattere jolly per visualizzare i progetti a cui l&#39;utente connesso è assegnato a questi ruoli.
-      >
-      >![Filtra con carattere jolly utente per la pagina dei record connessi al progetto](assets/filter-with-user-wildcard-project-connected-records-page.png)
-      >
-
-   1. Fai clic sull&#39;icona **Colonne** ![Icona Colonne](assets/columns-icon.png) per nascondere o visualizzare le colonne nell&#39;elenco.
-   1. Fai clic sull&#39;icona **+** nell&#39;angolo superiore destro della vista tabella per aggiungere campi esistenti alla tabella. I campi devono esistere prima di poterli aggiungere.
-
-      Viene visualizzata la casella **Gestione colonne**. Effettua le seguenti operazioni:
-
-      1. Cerca un campo oggetto esistente nella colonna **Available**, quindi fai clic su **+** a destra del nome del campo per aggiungerlo alla colonna **Selected**.
-
-         I campi selezionati vengono aggiunti alla vista tabella della pagina record connessi.
-      1. Fare clic su **-** a destra di un campo nella colonna **Selected** per rimuoverlo dalla vista tabella.
-      1. Fai clic su **Salva** per salvare la visualizzazione della tabella della pagina record connessa.
+   Per ulteriori informazioni sulla gestione degli oggetti in una visualizzazione elenco, vedere [Gestire la visualizzazione elenco](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 <!-- this is repetitive from an earlier section above: 
 

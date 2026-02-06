@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1343'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,11 @@ ht-degree: 2%
 
 {{planning-important-intro}}
 
-Dopo aver selezionato un tipo di record nell&#39;area di Adobe Workfront Planning, è possibile visualizzare tutti i record di quel tipo nelle seguenti visualizzazioni:
+Dopo aver selezionato un tipo di record nell&#39;area Adobe Workfront Planning, è possibile visualizzare tutti i record di quel tipo in vari modi.
+
+È possibile visualizzare i record in visualizzazioni di diversi formati che offrono la flessibilità di esplorare e comprendere le informazioni nel modo più adatto alle proprie esigenze. Che si desideri una panoramica strutturata, una storia cronologica, un layout basato su date o un semplice elenco scorrevole, ogni visualizzazione offre una prospettiva unica.
+
+È possibile visualizzare i record nelle seguenti visualizzazioni:
 
 * Tabella
 
@@ -39,6 +43,19 @@ Dopo aver selezionato un tipo di record nell&#39;area di Adobe Workfront Plannin
 * Calendario
 
   Per ulteriori informazioni, vedere [Gestire la visualizzazione del calendario](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+
+* Elenco
+
+  È possibile visualizzare i record in una pagina di record Connesso in una visualizzazione elenco.
+
+  >[!IMPORTANT]
+  >
+  >Non è possibile applicare una visualizzazione elenco a un elenco di record in una pagina di tipo record. È possibile applicare una visualizzazione elenco solo in una pagina Record connesso di un record a un elenco di progetti connessi. <!--this will change-->
+
+  Per ulteriori informazioni, consulta i seguenti articoli:
+
+   * [Aggiungere una pagina Record connessi a un record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
+   * [Gestire la vista a elenco](/help/quicksilver/planning/views/manage-the-list-view.md)
 
 Questo articolo descrive le seguenti informazioni sulle visualizzazioni record:
 
@@ -192,34 +209,42 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
 
 <!--some of these are NOT available right now; if you make this public, comment out the ones not there-->
 
-| Funzione | Vista tabella | Vista timeline | Vista calendario |
-|-----------------------------------------------------------------------|------------|---------------|--------------|
-| Visualizzare i record in un elenco o in una tabella | ✓ |              | |
-| Visualizza tutti i campi come colonne nella tabella per impostazione predefinita | ✓ |              |    |
-| Nascondere o mostrare campi o colonne | ✓ |               |    |
-| Modifica i valori dei campi per ogni record | ✓ |               |             |
-| Aggiungere record come nuove righe nella visualizzazione | ✓ |               |        |
-| Aggiungere campi come nuove colonne nella visualizzazione | ✓ |               |         |
-| Copiare le righe da un elenco esterno e incollarle in una tabella | ✓ |               |          |
-| Visualizzare i record in una timeline |            | ✓ |             |
-| Filtra record | ✓ | ✓ | ✓ |
-| Visualizzare i record in un calendario |           |              | ✓ |
-| Raggruppa record | ✓ | ✓ |  |
-| Ordinare i record | ✓ |              |  |
-| Record codice colore | ✓ | ✓ | ✓ |
-| Raggruppamenti di codici colore |           | ✓ |  |
-| Cerca record specifici | ✓ | ✓ |  |
-| Condividere la visualizzazione con altri utenti | ✓ | ✓ | ✓ |
-| Aprire la pagina del record dalla visualizzazione | ✓ | ✓ |    |
-| Visualizza record per anno e trimestre |           | ✓ |    |
-| Visualizza i record per mese |           | ✓ | ✓ |
-| Visualizza record per settimana |           |               | ✓ |
-| Esportare informazioni da una vista | ✓ |               |    |
-| Visualizza a schermo intero | ✓ | ✓ | ✓ |
-| Crea record nella visualizzazione | ✓ | ✓ | ✓ |
-| Suddividere i record in base alle relative connessioni |          | ✓ |    |
+| Funzione | Vista tabella | Vista timeline | Vista calendario | Vista elenco |
+|-----------------------------------------------------------------------|------------|---------------|--------------|---------|
+| Visualizzare i record in un formato tabella | ✓ |              | | ✓ |
+| Visualizzare tutti i campi come colonne in una tabella o in un elenco | ✓ |              |    | ✓ |
+| Nascondere o mostrare campi o colonne | ✓ |               |    | ✓ |
+| Modifica i valori dei campi per ogni record | ✓ |               |             | ✓ |
+| Aggiungere record come nuove righe nella visualizzazione | ✓ |               |        | ✓ |
+| Aggiungere campi come nuove colonne nella visualizzazione | ✓ |               |         | ✓ |
+| Copiare le righe da un elenco esterno e incollarle in una tabella | ✓ |               |          | ✓ |
+| Visualizzare i record in una timeline |            | ✓ |             |  |
+| Filtra record | ✓ | ✓ | ✓ | ✓ |
+| Visualizzare i record in un calendario |           |              | ✓ |  |
+| Raggruppa record | ✓ | ✓ |  |  |
+| Ordinare i record | ✓ |              |  | ✓ |
+| Record codice colore | ✓ | ✓ | ✓ |  |
+| Raggruppamenti di codici colore |           | ✓ |  |  |
+| Cerca record specifici | ✓ | ✓ |  | ✓ |
+| Condividere la visualizzazione con altri utenti | ✓ | ✓ | ✓ | ✓ |
+| Aprire la pagina del record dalla visualizzazione | ✓ | ✓ |    | ✓ |
+| Visualizza record per anno e trimestre |           | ✓ |    |  |
+| Visualizza i record per mese |           | ✓ | ✓ |  |
+| Visualizza record per settimana |           |               | ✓ |  |
+| Esportare informazioni da una vista | ✓ |               |    |  |
+| Visualizza a schermo intero | ✓ | ✓ | ✓ |  |
+| Crea record nella visualizzazione | ✓ | ✓ | ✓ | ✓ |
+| Suddividere i record in base alle relative connessioni |          | ✓ |    |  |
 
 ## Creare o modificare le viste {#create-or-edit-views}
+
+Le informazioni contenute in questa sezione si applicano ai seguenti tipi di vista:
+
+* Tabella
+* Timeline
+* Calendario
+
+Per informazioni sulle visualizzazioni elenco, vedere [Gestire la visualizzazione elenco](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 {{step1-to-planning}}
 
@@ -303,6 +328,10 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
 ## Abilitare l&#39;indicatore di presenza in tempo reale in una visualizzazione
 
 Per verificare se altri utenti stanno modificando i record contemporaneamente, seguire gli indicatori di presenza in tempo reale nella visualizzazione.
+
+>[!NOTE]
+>
+>Non è possibile visualizzare gli indicatori di presenza in tempo reale in una visualizzazione elenco.
 
 Per impostazione predefinita, nell&#39;angolo superiore destro di tutte le visualizzazioni record vengono visualizzati gli avatar di altri utenti che modificano le informazioni dei record contemporaneamente.
 
