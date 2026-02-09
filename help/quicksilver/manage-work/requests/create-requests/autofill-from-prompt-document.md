@@ -5,9 +5,9 @@ description: È possibile utilizzare l’intelligenza artificiale per compilare 
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: b34d7f48a51acf4bd6ddfa203c9e0024b2e8c280
+source-git-commit: 8e04117c08985f3ad5de86e4a08cb4aa53ac7706
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1416'
 ht-degree: 3%
 
 ---
@@ -20,10 +20,6 @@ ht-degree: 3%
 
 Il riempimento del modulo AI può essere utile per compilare automaticamente i campi della richiesta in base a un prompt inserito. Può anche riempire i campi in base a testo come le e-mail o i documenti caricati. Puoi approvare o rifiutare questi suggerimenti prima di inviare la richiesta.
 
-Il riempimento del modulo AI non sovrascrive i campi già compilati.
-
-Gli utenti non ricevono suggerimenti di dati a cui non hanno altrimenti accesso.
-
 ## Requisiti di accesso
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
@@ -34,7 +30,7 @@ Gli utenti non ricevono suggerimenti di dati a cui non hanno altrimenti accesso.
  <tbody> 
   <tr> 
    <td role="rowheader">piano Adobe Workfront</td> 
-   <td> <p>Qualsiasi </p> </td> 
+   <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
@@ -59,7 +55,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ## Prerequisiti
 
-Per utilizzare il riempimento modulo AI per compilare le richieste utilizzando un prompt o un documento, **tutti** i seguenti elementi devono essere applicati:
+Per utilizzare il riempimento modulo basato su IA per compilare una richiesta utilizzando un prompt o un documento, **tutti** i seguenti elementi devono essere applicati:
 
 * La tua organizzazione deve aver eseguito la migrazione ad Adobe IMS (Identity Management System)
 * L’esperienza unificata di Adobe deve essere abilitata
@@ -70,6 +66,15 @@ Per utilizzare il riempimento modulo AI per compilare le richieste utilizzando u
 * L&#39;Assistente AI deve essere abilitato nelle impostazioni di sistema dell&#39;organizzazione. Questa funzione è gestita dall’amministratore di Workfront.
 
   Per ulteriori informazioni sull&#39;abilitazione dell&#39;Assistente di intelligenza artificiale nelle impostazioni di sistema, vedere [Attivare o disattivare l&#39;Assistente di intelligenza artificiale](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+
+## Considerazioni durante l’utilizzo del riempimento del modulo basato sull’intelligenza artificiale
+
+Quando utilizzi il riempimento del modulo basato su AI, tieni presente quanto segue
+
+* Il riempimento del modulo AI non sovrascrive i campi già compilati.
+* Gli utenti non ricevono suggerimenti di dati a cui non hanno altrimenti accesso.
+* I file utilizzati in Riempimento modulo con tecnologia AI vengono caricati nell’archiviazione di Azure per 24 ore. Ciò è necessario per l’elaborazione dei documenti.
+* Tutti i file caricati in Azure sono attualmente memorizzati nei cluster di Azure USA per la finestra di archiviazione di 24 ore.
 
 ## Ottieni suggerimenti da un prompt di testo
 
