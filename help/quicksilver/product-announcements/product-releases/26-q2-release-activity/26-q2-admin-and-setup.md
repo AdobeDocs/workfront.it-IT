@@ -4,9 +4,10 @@ description: Miglioramenti per gli amministratori del secondo trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7cde2f693336649d3d965100e33b71795ddc65a2
+exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
+source-git-commit: f55ab45a7c11a4f0e4cdbe65ea890ba452b9bbba
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -29,7 +30,7 @@ Per un elenco di tutte le modifiche disponibili in questo momento nel ciclo di r
 
 Il nuovo tipo di campo **Rich text** nei moduli personalizzati è un editor di testo affidabile, con opzioni di formattazione quali apice e pedice, intestazioni e tabelle, oltre alle opzioni tradizionali di grassetto, corsivo, sottolineatura, punti elenco, numerazione, collegamenti ipertestuali e virgolette. Il limite di caratteri rimane 15.000.
 
-Il tipo di campo Rich text sostituisce il tipo di campo Testo con formattazione. Per convertire rapidamente in testo formattato il testo esistente, fai clic sul pulsante nelle opzioni di campo a destra.
+Il tipo di campo Rich text sostituisce il tipo di campo Testo con formattazione. Per convertire rapidamente in testo formattato il testo esistente, fai clic sul pulsante nelle opzioni di campo a destra. Quando esegui la conversione, i dati storici rimangono nel campo e vengono utilizzati allo stesso modo nei rapporti.
 
 Per ulteriori informazioni, vedere [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -53,6 +54,3 @@ UE:
 * 24.110.76.223
 
 Per ulteriori informazioni, vedere [Configurare il inserisco nell&#39;elenco Consentiti di protezione del firewall](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
-
-
-
