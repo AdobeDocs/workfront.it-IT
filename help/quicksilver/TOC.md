@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
+source-git-commit: 23f651b55b45db73baa67900ce868d9b692c958c
 workflow-type: tm+mt
-source-wordcount: '13765'
+source-wordcount: '13769'
 ht-degree: 2%
 
 ---
@@ -135,7 +135,7 @@ ht-degree: 2%
          * [23.3 Altri miglioramenti](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
          * [Aggiornamenti look and feel durante il periodo di rilascio della versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * Versione 23.2 {#release-23-2}
-         * [Panoramica sulla versione di 23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
+         * Panoramica sulla versione di [23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 Miglioramenti per gli amministratori](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
          * [23.2 Miglioramenti di Agile](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
          * [23.2 Miglioramenti alla gestione dei progetti](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
@@ -442,7 +442,7 @@ ht-degree: 2%
       * [Requisiti del browser](administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md)
       * [Differenze basate sulla piattaforma](administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
    * Configurare Workfront {#set-up-wf}
-      * [Configurazione](administration-and-setup/set-up-workfront/set-up-workfront.md)
+      * [Configura](administration-and-setup/set-up-workfront/set-up-workfront.md)
       * Configurare i valori predefiniti di sistema {#configure-system-defaults}
          * [Configura impostazioni predefinite di sistema: indice articolo](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
          * [Configurare le preferenze del progetto](administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
@@ -1719,6 +1719,7 @@ ht-degree: 2%
       * Panoramica sull’utilizzo dei rapporti {#report-usage-overview}
          * [Panoramica sull’utilizzo dei rapporti](reports-and-dashboards/reports/report-usage/report-usage-overview.md)
          * [Accedere e organizzare i rapporti](reports-and-dashboards/reports/report-usage/access-organize-reports.md)
+         * [Utilizzare cartelle di rapporti condivisibili](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md)
          * [Creare un rapporto sulle attività di reporting](reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)
          * [Come organizzare i rapporti su un dashboard](reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
          * [Visualizza utilizzo report](reports-and-dashboards/reports/report-usage/view-report-usage.md)
@@ -2549,9 +2550,9 @@ ht-degree: 2%
       * [Configurare e utilizzare le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso JWT](wf-api/api/oauth-app-jwt-flow.md)
       * [Configura e utilizza le applicazioni OAuth 2 personalizzate della tua organizzazione utilizzando il flusso PKCE](wf-api/api/oauth-app-pkce-flow.md)
       * [Obsolescenza di API-Internal](wf-api/api/deprecation-api-internal.md)
-      * [Novità della versione 21 dell&#39;API](/help/quicksilver/wf-api/api/new-api-version-21.md)
+      * [Novità della versione 21](/help/quicksilver/wf-api/api/new-api-version-21.md) dell&#39;API
       * [Novità dell&#39;API versione 20](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [Novità della versione 19 dell&#39;API](wf-api/api/new-api-version-19.md)
+      * [Novità della versione 19](wf-api/api/new-api-version-19.md) dell&#39;API
       * [Novità della versione 18 dell’API](wf-api/api/new-api-version-18.md)
       * [Novità della versione 17 dell’API](wf-api/api/new-api-version-17.md)
       * [Novità della versione 16 dell’API](wf-api/api/new-api-version-16.md)
