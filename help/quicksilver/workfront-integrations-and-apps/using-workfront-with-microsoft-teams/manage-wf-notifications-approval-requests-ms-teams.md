@@ -6,10 +6,10 @@ description: Puoi ricevere notifiche da [!DNL Adobe Workfront] sugli elementi da
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
+source-git-commit: 7720d51864428e6d7cf493f88bbee13b5203774b
 workflow-type: tm+mt
-source-wordcount: '1434'
-ht-degree: 4%
+source-wordcount: '1466'
+ht-degree: 5%
 
 ---
 
@@ -34,7 +34,7 @@ Queste notifiche contengono [!DNL Workfront] azioni che è possibile eseguire in
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,12 +42,12 @@ Queste notifiche contengono [!DNL Workfront] azioni che è possibile eseguire in
  <tbody> 
   <tr> 
    <td role="rowheader">Pacchetto Adobe Workfront</td> 
-   <td> <p>Qualsiasi</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Standard</p>
-   <p>Lavoro o superiore</p> </td> 
+   <p>Work o successiva</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -221,7 +221,7 @@ Si ricevono notifiche di approvazione quando viene richiesto di approvare un ogg
    <td> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Una richiesta di approvazione documento richiesta viene approvata</td> 
+   <td role="rowheader">Una richiesta di approvazione documento che hai richiesto è approvata*</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -229,7 +229,7 @@ Si ricevono notifiche di approvazione quando viene richiesto di approvare un ogg
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Una richiesta di approvazione documento richiesta viene approvata con modifiche</td> 
+   <td role="rowheader">Una richiesta di approvazione documento richiesta viene approvata con modifiche*</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -237,7 +237,7 @@ Si ricevono notifiche di approvazione quando viene richiesto di approvare un ogg
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Richiesta di approvazione documento rifiutata</td> 
+   <td role="rowheader">Richiesta di approvazione documento rifiutata*</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -254,6 +254,8 @@ Si ricevono notifiche di approvazione quando viene richiesto di approvare un ogg
   </tr> 
  </tbody> 
 </table>
+
+*Queste notifiche si riferiscono alle approvazioni dei documenti legacy. Le notifiche di approvazione documenti unificate non sono attualmente supportate in [!DNL Microsoft Teams]. Per ulteriori informazioni sui diversi sistemi di approvazione in Workfront, vedere [Funzionalità disponibili per le approvazioni dei documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
 
 ### Notifiche di assegnazione {#assignment-notifications}
 
@@ -406,7 +408,7 @@ Ricevi una notifica di informazione quando viene aggiornato un elemento a cui se
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Qualcuno include il tuo team in un aggiornamento diretto di </td> 
+   <td role="rowheader">Qualcuno include il tuo team in un aggiornamento diretto di [!UICONTROL]</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 

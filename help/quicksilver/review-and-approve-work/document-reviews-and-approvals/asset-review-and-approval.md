@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Funzionalità disponibile per le approvazioni di documenti unificati
+title: Funzionalità disponibile per le approvazioni dei documenti
 description: Panoramica dei sistemi disponibili per la revisione e l'approvazione in Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: f4dc0d28f7565b9dbc3c9ff4ee388eb8cf748b7f
+source-git-commit: aa3645e2ed8c36a3b07caad72083a43467889fce
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
 
-# Funzionalità disponibile per le approvazioni unificate dei documenti
+# Funzionalità disponibile per le approvazioni dei documenti
 
-Al momento sono disponibili 3 diversi sistemi in Workfront per le approvazioni di documenti unificati:
+Al momento sono disponibili 3 diversi sistemi in Workfront per le approvazioni dei documenti:
 
 * [Approvazioni documenti legacy](#legacy-document-approvals)
 
@@ -25,7 +25,7 @@ Al momento sono disponibili 3 diversi sistemi in Workfront per le approvazioni d
 
 ## Approvazioni documenti legacy
 
-Le approvazioni di documenti legacy verranno rimosse da Workfront nel 2025. Il sistema Unified Approvals è stato progettato per sostituire le approvazioni di documenti legacy.
+Le approvazioni di documenti legacy verranno rimosse da Workfront in un momento futuro. Il sistema Unified Approvals è stato progettato per sostituire le approvazioni di documenti legacy.
 
 Funzioni principali disponibili per le approvazioni di documenti legacy:
 
