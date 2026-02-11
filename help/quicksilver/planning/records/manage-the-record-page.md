@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1567'
 ht-degree: 0%
 
 ---
@@ -279,14 +279,14 @@ Si verificano le seguenti situazioni:
 
    <div class="preview">
 
-   * Selezionare l&#39;impostazione **Mostra campi tabella** per visualizzare solo i campi non nascosti nella visualizzazione tabella del record. Questa è l&#39;impostazione predefinita
-   * Deselezionare l&#39;impostazione **Mostra campi tabella** per visualizzare tutti i campi dalla visualizzazione tabella del record, inclusi quelli nascosti.
+   * Selezionare l&#39;impostazione **Mostra tutti i campi** per visualizzare tutti i campi nella visualizzazione tabella del record, inclusi quelli nascosti.
+   * Deselezionare l&#39;impostazione **Mostra tutti i campi** per visualizzare solo i campi non nascosti nella visualizzazione tabella del record. Questa è l&#39;impostazione predefinita
 
    </div>
 
    >[!TIP]
    >
-   ><span class="preview">L&#39;impostazione **Mostra campi tabella** è disponibile solo nella casella di anteprima Dettagli del record. Non è disponibile nella pagina Dettagli del record.</span>
+   ><span class="preview">L&#39;impostazione **Mostra tutti i campi** è disponibile solo nella casella di anteprima Dettagli del record. Non è disponibile nella pagina Dettagli del record.</span>
 
 
    <!--replace with this when they fix the UI text:

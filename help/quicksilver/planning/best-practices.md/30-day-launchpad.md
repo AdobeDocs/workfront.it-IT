@@ -1,25 +1,27 @@
 ---
-title: 'Launchpad Di 30 Giorni: Implementazione Della Home Strategica'
+title: 'Roll Out Your Strategic Home: Un Launchpad di 30 giorni'
 description: Scopri come implementare Workfront Planning utilizzando una strategia che dia priorità alla sicurezza psicologica, riduca al minimo le interruzioni e offra risultati rapidi.
 feature: Workfront Planning
-role: User, Admin
+role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
 exl-id: 90b0e019-1b42-4ab2-8b4c-69f85e4c4d78
-source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
+source-git-commit: 52bf41e146a11a4af4fbebfe5bb20a9765f2bc7b
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1236'
 ht-degree: 0%
 
 ---
 
-# Il modulo di lancio di 30 giorni: implementa la tua home strategica
+# Rollout della tua home strategica: un modulo di lancio di 30 giorni
 
 {{planning-important-intro}}
 
 Utilizza questa guida per scoprire come implementare Adobe Workfront Planning per progettare una strategia che dia priorità alla sicurezza psicologica, riduca al minimo le interruzioni e offra risultati rapidi.
+
+Questa guida è destinata agli amministratori di Workfront che implementano Workfront Planning.
 
 ## Panoramica su come iniziare in modo rapido e scalabile con Smart
 
@@ -27,13 +29,15 @@ L&#39;ostacolo più comune ad un rollout di successo non è la tecnologia. È co
 
 Il modulo di lancio di 30 giorni è basato sul modello di adozione &quot;team-first&quot;. Invece di tentare un rollout a livello aziendale che richiede solitamente mesi di coordinamento, ci concentriamo su un approccio decentralizzato, guidato dal team, che fornisce un ROI immediato all’interno di un’unità funzionale specifica.
 
-## La transizione graduale dell&#39;autonomia guidata
+## Utilizzare l’autonomia guidata per ottenere una transizione graduale
 
-Il rollout riuscito di un prodotto utilizza l’autonomia guidata. Questo significa che l’amministratore definisce come i team devono lavorare in un sistema strutturato di predefiniti e modelli governati. Definiscono le &quot;corsie sulla strada&quot; (impostazioni predefinite e modelli regolamentati), consentendo ai team di scegliere la propria avventura al loro interno.
+Per distribuire correttamente un prodotto è intelligente utilizzare l’autonomia guidata. Ciò significa che in qualità di amministratore puoi definire il modo in cui i team devono lavorare in un sistema strutturato di predefiniti e modelli governati.
 
-Ma soprattutto, l&#39;autonomia guidata è evolutiva. Invece di applicare una tassonomia aziendale completa il primo giorno, l’amministratore inizia con definizioni globali minime in base alle esigenze del primo team pilota.
+È possibile definire le corsie sulla strada (o i valori predefiniti e i modelli gestiti), lasciando ai team la flessibilità di scegliere il proprio percorso di lavoro al loro interno.
 
-Man mano che vengono aggiunti nuovi team all’onboarding, l’amministratore osserva i pattern comuni e applica gli standard globali.
+Ma soprattutto, l&#39;autonomia guidata dovrebbe essere evolutiva. Invece di applicare una tassonomia aziendale completa il primo giorno, puoi iniziare con definizioni globali minime in base alle esigenze del primo team pilota.
+
+Man mano che più team sono integrati, puoi osservare i pattern comuni e iterare in base agli standard globali.
 
 In qualità di amministratore, non stai rinunciando al controllo, ma lo stai ridimensionando in modo intelligente in base a ciò che funziona effettivamente.
 
@@ -50,71 +54,79 @@ Per attivare questo cambiamento evolutivo, effettua le seguenti operazioni:
 
    In entrambi i percorsi, l’obiettivo è quello di andare oltre la teoria e in applicazioni reali il più rapidamente possibile, garantendo che lo strumento venga utilizzato per un lavoro strategico effettivo, anziché rimanere solo un esercizio sandbox.
 
-<!--left here-->
 
-## La timeline di 30 giorni: il &quot;momento di fulmine&quot;
+## Panoramica di un percorso di 30 giorni per il momento cruciale
 
 Un rollout di successo è alimentato dalla quantità di moto. Questa pianificazione di 30 giorni consente di passare dalla configurazione alla prima vittoria automatica.
 
-
-
 ### Giorni 1-10: la fondazione del team
 
-Crea una base strategica creando un&#39;architettura **lightweight Hub-and-Spoke** dal giorno 1. Anche se non è ancora necessaria una tassonomia complessa a livello aziendale, è necessario creare immediatamente due ambienti: un **Workspace di classificazione globale** (l&#39;hub) e il primo **Workspace team** (il spoke).
+Costruire una base strategica creando una struttura centralizzata fin dall&#39;inizio.
 
+Anche se non è ancora necessaria una tassonomia complessa a livello aziendale, è necessario creare immediatamente due ambienti. Ad esempio, quando si adotta un approccio basato sull&#39;architettura hub e spoke, è possibile creare quanto segue:
 
+* **Area di lavoro di classificazione globale** (hub): dovrebbe essere la struttura generale e la nomenclatura del sistema.
+* Una prima **area di lavoro team** (spoke): deve corrispondere all&#39;approccio di lavoro di un singolo team.
 
-Questa architettura di **Team-First** consente di:
+Per informazioni, vedere [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
 
+Con questa architettura basata su team-first è possibile:
 
+* **Progetta l&#39;hub per supportare il spoke:** Puoi concentrare l&#39;area di lavoro di classificazione globale in modo specifico sugli oggetti più importanti per il team pilota (i loro marchi o prodotti specifici). In questo modo si ottimizza il rapporto di collaborazione tra la governance aziendale e l&#39;autonomia dei team, mantenendo gestibile lo sforzo di progettazione.
 
-* **Progetta l&#39;hub per supportare il raggio:** Concentra l&#39;area di lavoro di classificazione globale specificamente sugli oggetti più importanti per il team pilota (ad esempio, i marchi o i prodotti specifici). In questo modo viene confermato il **handshake collaborativo tra la governance aziendale e l&#39;autonomia del team**, mantenendo gestibile l&#39;impegno di progettazione.
-
-* **Agisci come attivatore, non come sorvegliante:** Trasferisci il tuo ruolo da impostazione regola a sviluppo di funzionalità. Collabora con il team per strutturare l&#39;ambiente di pianificazione.
+* **Agisci come attivatore, non come tutore:** Trasferisci il tuo ruolo da impostazione delle regole a sviluppo di funzionalità. Collabora con il team per strutturare l&#39;ambiente di pianificazione.
 
 * **Collabora alla progettazione:** Collabora direttamente con il tuo team pilota per definire i tipi di record e i campi che riflettono le loro esigenze reali, non un ideale aziendale astratto.
 
-* **Strategia di connessione al lavoro:** Abilitare il collegamento tra i record di pianificazione e il modulo del flusso di lavoro.
+* **Strategia di connessione al lavoro:** Abilitare il collegamento tra i record di pianificazione e gli oggetti Workfront.
 
-* **Speculare i dati correnti:** Utilizzare gli strumenti esistenti del team (Excel/Core) per popolare Workfront Planning, assicurandosi che i dati siano familiari e pertinenti.
+  Per informazioni, vedere [Panoramica sui tipi di record connessi](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+
+* **Speculare i dati correnti:** Utilizzare gli strumenti esistenti del team (ad esempio, Excel o altre applicazioni di base) per popolare Workfront Planning, garantendo che i dati siano familiari e pertinenti.
 
 * **Progettato per la flessibilità:** Ricorda che Workfront Planning è progettato per evolvere. È possibile iniziare con i processi a livello di team, elevandoli o migrandoli facilmente alla governance a livello aziendale quando l&#39;azienda è pronta.
 
+### Giorno 15: il primo momento di svolta
 
+Ti consigliamo di puntare alla tua prima vittoria importante entro il Giorno 15. Deve essere la creazione automatica del progetto.
 
-### Giorno 15: Il primo &quot;momento di fulmine&quot;
+A questo scopo, devi implementare quanto segue:
 
-Puntare alla prima vittoria importante entro il Giorno 15: **creazione automatica del progetto**.
+1. Configurare un’automazione nativa che identifichi lo stato &quot;Pronto per l’esecuzione&quot;.
 
-* Configurare un&#39;automazione nativa che rilevi lo stato &quot;Pronto per l&#39;esecuzione&quot;.
+2. Attiva la creazione di un progetto collegato in Workfront.
 
-* Attiva la creazione di un progetto collegato nel modulo del flusso di lavoro.
+Per informazioni, vedere [Configurare le automazioni di Adobe Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
 
-* **Il valore:** Il tuo team vede il proprio intento strategico attivare automaticamente il lavoro di esecuzione. Questo &quot;momento di fulmine&quot; dimostra il valore del ponte e crea l&#39;acquisto.
+In questo modo il tuo team vede il proprio intento strategico attivare automaticamente il lavoro di esecuzione. Questo momento di svolta dimostra il valore del ponte tra strategia e lavoro, e crea l&#39;accettazione.
 
+### Giorni 16-30: transizione graduale verso la scalabilità aziendale
 
+Con il fulmine raggiunto, puoi spostare il punto di partenza del team in Workfront Planning.
 
-### Giorni 16-30: transizione graduale verso la scala Enterprise
+Con il successo di questo modello Team-First, inizierai il percorso verso la scalabilità aziendale identificando i modelli che funzionano.
 
-Dopo aver raggiunto il &quot;momento di fulmine&quot;, spostare il punto di partenza del team in Workfront Planning. Quando il modello **Team-First** ha esito positivo, inizia il percorso verso la **Scala Enterprise** identificando i modelli che funzionano.
+Per passare dalla scala team-first a quella enterprise, considera quanto segue:
 
+* **Introduzione del modulo di acquisizione:** Utilizzare un modulo di richiesta come nuovo gateway per le richieste strategiche per garantire l&#39;integrità dei dati.
 
+  Per informazioni, vedere [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-* **Introduzione del modulo di acquisizione:** Utilizza il modulo come nuovo gateway per le richieste strategiche al fine di garantire l&#39;integrità dei dati.
-
-* **Osserva e standardizza:** Utilizza il Workspace principale per osservare il modo in cui il team pilota utilizza lo strumento. Questi esempi reali daranno forma al tuo progetto aziendale finale.
+* **Osserva e standardizza:** Utilizza l&#39;area di lavoro di classificazione globale per osservare il modo in cui il team pilota utilizza lo strumento. Questi esempi reali daranno forma al tuo progetto aziendale finale.
 
 * **Smantellamento dei fogli di calcolo legacy:** Spostarsi completamente in Workfront Planning alla scadenza del processo.
 
-* **Utenti avanzati di turno:** Utilizza la **vista tabella** per la gestione diretta dei piani ad alta velocità.
+* **Utenti avanzati di tipo Shift:** Utilizzare la vista della tabella di record per la gestione diretta dei piani ad alta velocità.
 
+  Per informazioni, vedere [Gestire la visualizzazione della tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
 
+## Panoramica delle metriche di successo per il pannello di avvio
 
-## Metriche di successo per il pannello di avvio
+Consigliamo di cercare costantemente i marcatori di successo e di adattarsi dai risultati.
 
 Cerca questi primi indicatori di salute:
 
-* **Adozione:** I primi 5-10 record strategici sono stati collegati ai progetti di esecuzione.
+* **Adozione:** I primi 5-10 record strategici sono collegati correttamente ai progetti di esecuzione e il processo di creazione dei record e di automazione della creazione dei progetti collegati è continuo e facilmente ripetibile.
 
 * **Supporto:** Il team pilota inizia a evangelizzare lo strumento ai team adiacenti.
 
@@ -122,33 +134,31 @@ Cerca questi primi indicatori di salute:
 
 * **Attendibilità:** Le parti interessate utilizzano le timeline di Workfront Planning anziché i deck di stato manuali per le revisioni.
 
-
-
 ## Best practice e suggerimenti
 
+Il successo dell’implementazione dipende dall’approccio utilizzato e dalle aspettative impostate dall’inizio.
 
+Di seguito sono riportati alcuni consigli su come condurre un’implementazione di successo.
 
-### Effettua:
+### Dos:
 
-* **Inizia con un team pilota entusiasta.** Riconosci che un rollout globale è un incremento significativo. Concentrati su un POC con un team che non vede l’ora di innovare e può fornire un blueprint per gli altri.
+* **Inizia con un team pilota entusiasta:** Riconosci che un rollout globale è un incremento significativo. Concentrati su una prova di concetto con un team pronto all’innovazione e in grado di fornire un blueprint per gli altri.
 
-* **Definire le corsie, non i muri.** Utilizzare l&#39;autonomia guidata per fornire una struttura senza interrompere l&#39;esplorazione.
+* **Definisci corsie, non muri:** Utilizza l&#39;autonomia guidata per fornire strutture senza uccidere l&#39;esplorazione.
 
-* **Assegna priorità alla sicurezza psicologica.** comunicare ai team che gli strumenti legacy rimarranno finché non avranno acquisito dimestichezza con il nuovo flusso.
+* **Assegna priorità alla sicurezza psicologica:** comunica ai team che gli strumenti precedenti rimangono attivi finché non si sentono a proprio agio con il nuovo flusso di lavoro.
 
-* **Festeggia le vincite rapide.** Evidenziare la prima creazione automatica del progetto per l&#39;intero team.
+* **Festeggia i risultati positivi:** Evidenzia il primo progetto automatizzato creato per l&#39;intero team.
 
-* **Stabilisci un campione.** Identificare un utente avanzato in ogni team per guidare la transizione.
-
-
+* **Stabilisci un campione:** Identifica un utente avanzato in ogni team per guidare la transizione.
 
 ### Non:
 
-* **Non rendere obbligatorie modifiche di tipo &quot;big bang&quot;.** L&#39;imposizione a tutti di passare al giorno 1 causa la colpa della tecnologia.
+* **Non rendere obbligatorie modifiche su larga scala:** l&#39;attivazione del primo giorno da parte di tutti comporta la responsabilità della tecnologia.
 
-* **Non ignorare il motivo.** Assicurarsi che ogni membro del team comprenda in che modo il thread strategico rende il proprio lavoro più visibile.
+* **Non ignorare il motivo:** Assicurarsi che ogni membro del team comprenda in che modo il thread strategico rende il proprio lavoro più visibile.
 
-* **Non attendere la perfezione.** La tassonomia si evolverà. Inizia con la tua stima e perfeziona man mano che vai.
+* **Non attendere la perfezione:** La tassonomia si evolverà. Inizia con la tua stima e perfeziona man mano che vai.
 
 <!--
 

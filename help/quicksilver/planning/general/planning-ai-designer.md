@@ -5,15 +5,17 @@ recommendations: noDisplay, noCatalog
 author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
-source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
+exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
+source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1470'
 ht-degree: 0%
 
 ---
 
-
 # Introduzione a Adobe Workfront Planning Designer
+
+<!--remove the Beta tags in the screen shots on this page when this is released to GA - maybe March 2, 2026-->
 
 >[!IMPORTANT]
 >
@@ -91,7 +93,7 @@ Dopo aver ricevuto l&#39;e-mail, il nostro team tecnico attiverà il Designer di
 
 1. Fai clic su **Crea con IA**. <!--update this tag name when they change it-->
 
-   Verrà aperta l&#39;area **Installazione di Workspace** della finestra **Planning Designer**. <!--replace shot below when they rename the area to Planning Designer-->
+   Viene visualizzata la finestra **Planning Designer**.
 
 1. Fai clic **Invia feedback qui** nella parte inferiore della pagina.
 1. Aggiungi il tuo feedback nello spazio fornito, quindi fai clic su **Invia**.
@@ -178,7 +180,7 @@ Il tuo feedback viene inviato ai team tecnici e di prodotto.
 
 1. Fai clic su **Crea con IA**. <!--update this when they change it-->
 
-   Verrà aperta l&#39;area **Installazione di Workspace** della finestra **Planning Designer**. <!--replace shot below when they rename the area to Planning Designer-->
+   Viene visualizzata la finestra **Planning Designer**. <!--remove the Beta tag here when this removes from Beta-->
 
    ![Finestra di Planning Designer](assets/planning-designer-window.png)
 
@@ -239,9 +241,3 @@ Per spegnerlo:
 1. Fai clic su **Salva**.
 
    Questo rimuove Planning Designer per tutti gli utenti del sistema.
-
-
-
-
-
-

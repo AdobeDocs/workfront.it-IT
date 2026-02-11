@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
 workflow-type: tm+mt
-source-wordcount: '1553'
-ht-degree: 1%
+source-wordcount: '762'
+ht-degree: 3%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 1%
 this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Le stesse funzioni saranno disponibili anche nell’ambiente di produzione per tutti i clienti a partire da una settimana dalla versione di anteprima.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-Per ulteriori informazioni, consulta [Panoramica sulla versione del secondo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
+For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).  
 
-</div>
+</div>-->
 
 Quando si gestiscono le assegnazioni di attività, è possibile modificarle contemporaneamente per più attività contemporaneamente utilizzando la funzione di modifica in blocco in un elenco di attività.
 
@@ -50,7 +50,7 @@ Per informazioni sull&#39;assegnazione di un&#39;attività a una risorsa di un e
  <tbody> 
   <tr> 
    <td>Pacchetto Adobe Workfront</td> 
-   <td> <p>Qualsiasi</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td>Licenza Adobe Workfront</td> 
@@ -127,91 +127,6 @@ When assigning users to work, their availability according to their schedules af
 
 1. Seleziona le attività per le quali vuoi modificare le assegnazioni, quindi fai clic sull&#39;icona **Modifica** ![Modifica icona](assets/edit-icon.png).
 
-   La modifica delle assegnazioni sulle attività varia a seconda dell’ambiente scelto.
-
-1. (Condizionale) Se utilizzi l&#39;ambiente di produzione per assegnare le attività, nella nuova esperienza viene visualizzata la casella **Modifica attività**. Nell’ambiente di produzione, effettua le seguenti operazioni:
-
-   1. Per aggiungere o rimuovere assegnatari, effettuare una delle seguenti operazioni:
-
-      * Per aggiungere gli assegnatari, inizia a digitare il nome di un assegnatario nel campo **Cerca persone, ruoli o team**, quindi selezionali quando vengono visualizzati nell&#39;elenco.
-      * Per rimuovere gli assegnatari, fare clic sull&#39;icona **x** a destra del nome. Nell&#39;elenco vengono visualizzati solo gli assegnatari comuni a tutte le attività.
-      * Fare clic su Assegna a me per assegnare le attività selezionate a se stessi.
-
-   1. (Condizionale) Quando si utilizza la nuova esperienza, fare clic su **Salva**.
-
-   1. (Facoltativo) Fai clic su **Passa alla vecchia esperienza** nella parte inferiore della casella **Modifica attività**.
-
-      La casella **Modifica attività** si apre nell&#39;esperienza precedente.
-
-   1. (Condizionale) Nella vecchia esperienza, effettua le seguenti operazioni per modificare gli assegnatari:
-
-      1. Vai alla sezione **Assegnazioni**.
-
-         >[!IMPORTANT]
-         >
-         >La rimozione degli assegnatari può influire sulle ore delle attività e sulle percentuali di allocazione. Per ulteriori informazioni, vedere la sezione [Come la rimozione degli assegnatari influisce sulle ore delle attività e sulle percentuali di allocazione](#how-removing-assignees-affects-task-hours-and-allocation-percentages) in questo articolo.
-
-      1. Per aggiungere o rimuovere assegnatari, effettuare una delle seguenti operazioni:
-
-         * Per aggiungere un nuovo assegnatario:
-
-            1. Nella sezione **Assegnazioni**, seleziona **Assegnatario**.
-
-               Vengono visualizzate le informazioni comuni a tutte le attività selezionate. Ad esempio, se lo stesso utente viene assegnato a tutte le attività, viene visualizzato nella colonna **Assegnatario**. Se le informazioni non sono comuni tra le attività selezionate, non vengono visualizzate.
-
-            1. Inizia a digitare il nome di un utente, ruolo o team, quindi selezionalo quando viene visualizzato nell’elenco. L&#39;assegnazione viene aggiunta e non sostituisce le assegnazioni correnti sulle attività selezionate.
-
-           >[!TIP]
-           >
-           > * Puoi assegnare più utenti, mansioni o team. Puoi assegnare solo utenti attivi, mansioni e team.
-           >   
-           > * Quando aggiungi un’assegnazione utente, osserva l’avatar, il ruolo principale dell’utente o il suo indirizzo e-mail per distinguere gli utenti con nomi identici. Gli utenti devono essere associati ad almeno una mansione per visualizzarla quando vengono aggiunti. Per consentire agli utenti di visualizzare le e-mail degli utenti, nel proprio livello di accesso deve essere abilitata l’impostazione Visualizza informazioni di contatto. Per informazioni, vedere [Concedere l&#39;accesso agli utenti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
-           > 
-           >   Se un utente, una mansione o un team è stato assegnato prima della disattivazione, rimane assegnato all&#39;elemento di lavoro. In questo caso, consigliamo quanto segue:
-           >   
-           >     * Riassegnare l&#39;elemento di lavoro alle risorse attive.
-           >     * Associare gli utenti di un team disattivato a un team attivo e riassegnare l&#39;elemento di lavoro al team attivo.
-
-
-         * Per rimuovere singoli assegnatari:
-
-            1. Fare clic sull&#39;icona **X** accanto al nome dell&#39;assegnatario che si desidera rimuovere se l&#39;assegnatario viene visualizzato nell&#39;elenco Assegnazioni.
-
-               Oppure
-
-               (Condizionale) Se l&#39;assegnatario che si desidera rimuovere non viene visualizzato nella sezione Assegnazioni perché l&#39;assegnatario è assegnato solo ad alcune delle attività selezionate, fare clic su **Rimuovi assegnatario** e iniziare a digitare il nome dell&#39;assegnatario che si desidera rimuovere, quindi fare clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
-
-         * Per rimuovere tutti gli assegnatari:
-
-            1. Fai clic su **Rimuovi tutti gli assegnatari esistenti**, quindi fai clic su **Sì, elimina tutti gli assegnatari**.
-
-               In questo modo vengono rimossi non solo gli assegnatari comuni (assegnatari visualizzati nella finestra di dialogo di modifica), ma anche tutti gli assegnatari di tutte le attività selezionate.
-
-           La rimozione degli utenti dalle attività può influire sulle ore delle attività e sulle percentuali di allocazione.
-
-           Per ulteriori informazioni, vedere [Panoramica sulla modifica delle assegnazioni di attività](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
-
-      1. (Facoltativo) Modifica una delle seguenti opzioni per gli assegnatari:
-
-         * (Condizionale) **% allocazione o ore**: specificare una nuova percentuale di allocazione o ore.
-
-         >[!NOTE]
-         >
-         >Questa opzione può essere modificata solo se il Tipo di Durata è lo stesso in tutte le attività che vengono modificate. Quando il tipo di durata è Lavoro calcolato o Basato sulle risorse, è possibile aggiornare la percentuale di allocazione. Quando il Tipo di Durata è Semplice, è possibile aggiornare le Ore. Per informazioni sul tipo di durata, vedere [Panoramica sulla durata dell&#39;attività e sul tipo di durata](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
-         >
-         >
-         >Se il campo è vuoto, significa che il valore è diverso tra le varie attività, ma è comunque possibile modificarlo.
-
-         * **Proprietario attività**: selezionare questa opzione per fare dell&#39;assegnatario il proprietario dell&#39;attività per tutte le attività da modificare.
-         * **Ruolo assegnatario**: selezionare un ruolo dall&#39;elenco a discesa. Se non è selezionata, Adobe Workfront seleziona automaticamente il Ruolo principale dell’utente.
-
-      1. Fai clic su **Salva modifiche.**
-
-
-1. <span class="preview">(Condizionale) Se si utilizza l&#39;ambiente Anteprima per assegnare le attività, verrà visualizzata la casella **Modifica attività**. Eseguire le operazioni seguenti nell&#39;ambiente di anteprima: </span>
-
-   <div class="preview">
-
    1. Per aggiungere o rimuovere assegnatari, effettuare una delle seguenti operazioni:
 
       * Per aggiungere gli assegnatari, inizia a digitare il nome di un assegnatario nel campo **Cerca persone, ruoli o team**, quindi selezionali quando vengono visualizzati nell&#39;elenco.
@@ -261,7 +176,92 @@ When assigning users to work, their availability according to their schedules af
 
    1. Fai clic su **Salva**.
 
-      </div>
+<!-- temporary content - for Assignments redesign:
+
+Editing assignments on tasks differs depending on which environment you choose. 
+
+1. (Conditional) If you are using the Production environment to assign tasks, the **Edit Tasks** box opens in the new experience. Do the following in the Production environment: 
+
+   1. To add or remove assignees, do one of the following:
+
+      * To add assignees, start typing the name of an assignee in the **Search people, roles, or teams** field, then select them when they display in the list. 
+      * To remove assignees, click the **x** icon to the right of their name. Only assignees that are common to all tasks display in the list. 
+      * Click Assign to me to assign the selected tasks to yourself.
+
+   1. (Conditional) When using the new experience, click **Save**.
+
+   1. (Optional) Click **Switch to old experience** at the bottom of the **Edit Tasks** box.
+      
+      The **Edit Tasks** box opens in the old experience.
+
+   1. (Conditional) In the old experience, do the following to modify the assignees:
+
+      1. Go to the **Assignments** section.
+
+         >[!IMPORTANT]
+         >
+         >Removing assignees can affect the task hours and allocation percentages. For more information, see the section [How removing assignees affects task hours and allocation percentages](#how-removing-assignees-affects-task-hours-and-allocation-percentages) in this article.
+
+      1. Do one of the following to add or remove assignees:
+
+         * To add a new assignee:
+
+            1. In the **Assignments** section, select **Assignee**.
+
+               Information that is common across all tasks selected displays. For example, if the same user is assigned to all tasks, that user displays in the **Assignee** column. If information is not common across the tasks selected, no information displays.
+            
+            1. Start typing the name of a user, role, or team, then select it when it displays in the list. The assignment is added and does not replace the current assignments on the selected tasks.
+
+            >[!TIP]
+            >
+            > * You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
+            >   
+            > * When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them. You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+            > 
+            >   If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:
+            >   
+            >     * Reassign the work item to active resources.
+            >     * Associate the users in a deactivated team with an active team and reassign the work item to the active team.
+
+
+         * To remove individual assignees:
+
+            1. Click the **X icon** next to the name of the assignee that you want to remove if the assignee displays in the Assignments list.
+
+               Or
+
+               (Conditional) If the assignee that you want to remove does not display in the Assignments section because the assignee is assigned to only some of the tasks that you have selected, click **Remove Assignee** and start typing the name of the assignee that you want to remove, then click the name when it appears in the drop-down list.
+
+         * To remove all existing assignees:
+
+            1. Click **Remove All Existing Assignees**, then click **Yes, Delete All Assignees**.
+
+               This removes not only common assignees (assignees that are displayed in the edit dialog box), but also all assignees on all the selected tasks.
+
+            Removing users from tasks can affect task hours and allocation percentages.
+            
+            For more information, see [Overview of modifying task assignments](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+
+      1. (Optional) Modify any of the following options for assignees:
+
+         * (Conditional) **Allocation % or Hours**: Specify a new allocation percentage or hours.
+
+         >[!NOTE]
+         >
+         >This option can be modified only if the Duration Type is the same across all tasks that are being edited. When the Duration Type is Calculated Work or Effort Driven you can update the Allocation %. When the Duration Type is Simple you can update the Hours. For information about Duration Type, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+         >
+         >
+         >If the field is blank, this means that the value is different across tasks; however, you are still able to modify it.
+
+         * **Task Owner**: Select this option to make the assignee the owner of the task for all tasks being edited.
+         * **Assignee's Role**: Select a role from the drop-down list. If left unselected, Adobe Workfront automatically selects the Primary Role of the user. 
+
+      1. Click **Save Changes.**
+        
+
+1. <span class="preview">(Conditional) If you are using the Preview environment to assign tasks, the **Edit Tasks** box opens. Do the following in the Preview environment: </span>
+
+   <div class="preview">-->
 
 
 
