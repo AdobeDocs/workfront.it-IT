@@ -97,7 +97,7 @@ Per le organizzazioni con richieste di volumi elevati o esigenze di automazione 
 
 Per questo approccio è necessaria una licenza per Adobe Workfront Fusion.
 
-Per ulteriori informazioni, vedere [Configurazione e gestione di Workfront Fusion: indice articolo](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
+Per ulteriori informazioni, vedere [Configurazione e gestione di Workfront Fusion: indice articolo](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
 
 * **Utilizzare i trigger di invio:** Poiché i moduli forniscono un singolo evento di invio pulito, possono essere utilizzati come trigger per le automazioni di Fusion. Uno scenario Fusion può rilevare l’invio di un modulo e generare immediatamente un progetto collegato in Workfront.
 
