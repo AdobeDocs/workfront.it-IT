@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 0%
+source-wordcount: '823'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ In qualità di amministratore di Adobe Workfront, puoi definire l&#39;accesso di
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ In qualità di amministratore di Adobe Workfront, puoi definire l&#39;accesso di
  <tbody> 
   <tr> 
    <td role="rowheader">Pacchetto Adobe Workfront</td> 
-   <td>Qualsiasi</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
@@ -58,6 +58,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 Quando consenti agli utenti di accedere ai dati finanziari in Workfront, considera quanto segue:
 
+* Un utente il cui livello di accesso non consente l’accesso ai dati finanziari non può concedere l’accesso che consentirebbe ad altri utenti di visualizzare i dati finanziari. Ciò include l’accesso a progetti che mostrano dati finanziari o la modifica di un livello di accesso per consentire la visualizzazione di dati finanziari.
 * Un utente il cui livello di accesso non consente l’accesso ai dati finanziari non può creare un rischio per un progetto. Per ulteriori informazioni, vedere [Creare e modificare i rischi nei progetti](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 * È inoltre possibile utilizzare un livello di accesso per determinare quali attività di gestione delle risorse un utente può utilizzare per preventivare o visualizzare l&#39;allocazione delle risorse. Per informazioni, vedere [Concedere l&#39;accesso a Gestione risorse](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 

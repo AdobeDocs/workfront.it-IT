@@ -6,9 +6,9 @@ description: È possibile condividere o rimuovere le autorizzazioni per un ogget
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1332'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,9 @@ In Workfront è possibile condividere i seguenti oggetti con altri utenti:
 
 ## Limiti di condivisione
 
-Puoi condividere un oggetto con un massimo di 100 entità (utenti, team, gruppi, mansioni, aziende). Per evitare questo limite, è consigliabile condividere gli oggetti con gruppi, team o aziende anziché con i singoli utenti.
+* Puoi condividere un oggetto con un massimo di 100 entità (utenti, team, gruppi, mansioni, aziende). Per evitare questo limite, è consigliabile condividere gli oggetti con gruppi, team o aziende anziché con i singoli utenti.
+* Un utente il cui livello di accesso non consente l’accesso ai dati finanziari non può concedere l’accesso che consentirebbe ad altri utenti di visualizzare i dati finanziari. Ciò include l’accesso a progetti che mostrano dati finanziari o la modifica di un livello di accesso per consentire la visualizzazione di dati finanziari.
+
 
 ## Autorizzazioni di condivisione per gli oggetti
 
