@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
+source-git-commit: 5a725e747e8776a867cb0dc4129544f6a28ce8e0
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: '1709'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Per utilizzare i tipi di record globali, eseguire le operazioni seguenti:
 
    Nelle sezioni seguenti vengono descritte considerazioni sui tipi di record globali e sul loro funzionamento nelle aree di lavoro originali o secondarie.
 
-### Considerazioni sui tipi di record globali nell&#39;area di lavoro originale
+### Considerazioni sui tipi di record globali nell&#39;area di lavoro principale originale
 
 Il tipo di record configurato come globale presenta le seguenti proprietà:
 
@@ -109,12 +109,24 @@ Il tipo di record configurato come globale presenta le seguenti proprietà:
    * Creare e gestire i moduli di richiesta
    * Creare e gestire le automazioni
 
-* I record aggiunti a un tipo di record globale sono visibili solo agli utenti che dispongono delle autorizzazioni di visualizzazione per l&#39;area di lavoro in cui sono stati aggiunti.
-* I record aggiunti da un workspace secondario vengono aggregati e visualizzati nel workspace originale. Tutti i membri dell&#39;area di lavoro originale ottengono le relative autorizzazioni di visualizzazione.
-* Quando il tipo di record globale originale viene aggiunto a più aree di lavoro secondarie, esistono i seguenti scenari:
+* I record seguenti vengono visualizzati nell&#39;area di lavoro principale di un tipo di record globale:
 
-   * I membri dell&#39;area di lavoro originale ottengono automaticamente le autorizzazioni di visualizzazione per tutti i record aggiunti da qualsiasi area di lavoro, anche se non sono membri di tali aree di lavoro.
-   * I membri dell&#39;area di lavoro secondaria possono visualizzare solo i record delle aree di lavoro in cui sono membri.
+   * Record aggiunti dal tipo di record globale nell&#39;area di lavoro principale
+   * Record aggiunti da tipi di record globali nelle aree di lavoro secondarie in cui sono stati aggiunti
+
+     I record aggiunti da un&#39;area di lavoro secondaria vengono aggregati e visualizzati nell&#39;area di lavoro principale. Tutti i membri dell&#39;area di lavoro principale originale ottengono le autorizzazioni di visualizzazione e i record sono visibili solo dall&#39;area di lavoro principale, anche quando non dispongono delle autorizzazioni per l&#39;area di lavoro secondaria.
+* Esistono gli scenari seguenti per il tipo di autorizzazioni di cui si dispone per i record visualizzati nell&#39;area di lavoro principale, a seconda di dove sono stati aggiunti:
+
+   * Per i record creati nell&#39;area di lavoro principale si dispone delle stesse autorizzazioni disponibili per l&#39;area di lavoro e per il tipo di record globale originale.
+   * Per i record creati in un&#39;area di lavoro secondaria si dispone delle stesse autorizzazioni di cui si dispone per l&#39;area di lavoro secondaria e per il tipo di record globale in tale spazio.
+
+<!--Removed this as this was too confusing: 
+
+* When the original global record type is added to multiple secondary workspaces, users gain the following visibility to the records added to the global record types: 
+
+    * Members of the original workspace automatically gain View permissions to all records added from any workspace, even if they are  not members of those workspaces. They can view these records in the following workspaces, only if they are a member of these following workspaces: 
+        * The primary workspace
+        * The secondary workspace where the records were added. Secondary workspace members can view only records from workspaces where they are a member.-->
 
 * I tipi di record connessi a un tipo di record globale saranno disponibili per la connessione dalle aree di lavoro in cui viene aggiunto il tipo di record.
 
@@ -175,12 +187,12 @@ Il tipo di record configurato come globale presenta le seguenti proprietà:
 * I record aggiunti in un&#39;area di lavoro secondaria sono visibili dalle aree di lavoro seguenti, se si dispone delle autorizzazioni di visualizzazione o di livello superiore per tali aree di lavoro:
 
    * Luogo secondario in cui sono stati aggiunti
-   * Area di lavoro originale del tipo di record globale
+   * Area di lavoro principale originale del tipo di record globale
 
-* Esistono i seguenti scenari per i record creati nelle aree di lavoro secondarie:
+* Esistono i seguenti scenari per l’accesso ai record creati nelle aree di lavoro secondarie:
 
    * Se si dispone delle autorizzazioni Gestione per l&#39;area di lavoro originale e non si dispone delle autorizzazioni per le aree di lavoro secondarie, è possibile visualizzare i record aggiunti dalle aree di lavoro secondarie nell&#39;area di lavoro originale, ma non è possibile gestirli dall&#39;area di lavoro originale.
-   * Se si dispone delle autorizzazioni Gestione nell&#39;area di lavoro secondaria, è possibile gestire i record sia dall&#39;area di lavoro originale del tipo di record globale che dall&#39;area di lavoro secondaria in cui sono stati aggiunti.
+   * Se si dispone delle autorizzazioni Gestione per le aree di lavoro originali e secondarie, è possibile gestire i record sia dall&#39;area di lavoro originale del tipo di record globale che dall&#39;area di lavoro secondaria in cui sono stati aggiunti.
      <!--not anymore: * You can view the records in additional secondary workspaces where the global record type is added only if you have View permissions to those workspaces-->
 * Non è possibile condividere pubblicamente le visualizzazioni da un tipo di record globale in un&#39;area di lavoro secondaria.
 

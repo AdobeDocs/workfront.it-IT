@@ -7,7 +7,7 @@ description: Dopo aver creato un modello, è possibile modificare le informazion
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: e812338b1f20c6f8dc8679afe3215dbecc8ffc60
+source-git-commit: e186b4aa0b5c229015cf8f3dcd8993f8f0443c44
 workflow-type: tm+mt
 source-wordcount: '2958'
 ht-degree: 5%
@@ -404,7 +404,7 @@ I nomi dei moduli doganali vengono visualizzati solo se sono presenti moduli per
    </tr> 
    </tbody> 
    </table>
-1. Passa il puntatore del mouse sul nome di un assegnatario e fai clic su Rendi principale. Proprietario della futura attività di progetto.
+1. Passa il puntatore del mouse sul nome di un assegnatario e fai clic su **Rendi primario**. Sarà il **Proprietario** della futura attività di progetto.
 
    >[!TIP]
    >

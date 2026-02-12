@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+source-git-commit: 5a725e747e8776a867cb0dc4129544f6a28ce8e0
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1420'
 ht-degree: 1%
 
 ---
@@ -139,7 +139,7 @@ In qualità di responsabile dell&#39;area di lavoro, è possibile configurare un
 
 Un gestore dell&#39;area di lavoro può aggiungere un tipo di record globale a un&#39;area di lavoro gestita. I campi originali del tipo di record vengono aggiunti anche all&#39;area di lavoro secondaria.
 
-Gli utenti possono aggiungere record a un tipo di record globale da qualsiasi area di lavoro in cui dispongono delle autorizzazioni Contribute e in cui viene aggiunto il tipo di record globale, inclusa l&#39;area di lavoro originale. Possono visualizzare i record dalle aree di lavoro a cui dispongono solo delle autorizzazioni di visualizzazione.
+Gli utenti possono aggiungere record a un tipo di record globale da qualsiasi area di lavoro in cui dispongono delle autorizzazioni Contribute e in cui viene aggiunto il tipo di record globale, inclusa l&#39;area di lavoro originale. Possono visualizzare i record dalle aree di lavoro a cui dispongono solo delle autorizzazioni di visualizzazione dall&#39;area di lavoro principale del tipo di record globale.
 
 Per ulteriori informazioni, vedere [Panoramica sui tipi di record tra aree di lavoro](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
@@ -252,7 +252,7 @@ Per configurare un tipo di record come globale:
 
    Se attivato, il tipo di record è accessibile e può essere connesso ad altre aree di lavoro.
 
-1. Scegliere le aree di lavoro da cui è possibile accedere al tipo di record. Scegli una delle seguenti opzioni:
+1. Scegliere le aree di lavoro da cui è possibile accedere al tipo di record. Scegli una tra le opzioni seguenti:
 
    <!--check names of the setting: System wide?? OR All workspaces??-->
 
