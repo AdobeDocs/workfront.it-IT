@@ -7,10 +7,10 @@ description: Per accedere ai dati di Data Connect, è necessario innanzitutto cr
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
+source-git-commit: 9cf221bda04614856a6a3670100742340fb73aee
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 0%
+source-wordcount: '630'
+ht-degree: 1%
 
 ---
 
@@ -67,7 +67,7 @@ Per creare un account di lettura:
 
 1. Nel pannello a sinistra, fai clic su **Sistema** > **Connessione dati**.
 
-1. Fai clic sul pulsante **Crea account Reader** per iniziare a creare l&#39;account di lettura dell&#39;organizzazione. Il processo è automatico, ma potrebbe richiedere alcuni minuti.
+1. Fai clic sul pulsante **Crea account Reader** per iniziare a creare l&#39;account di lettura dell&#39;organizzazione. Il processo è automatico, ma può richiedere fino a 24 ore.
 
 1. Una volta completato, viene visualizzata una finestra di dialogo in cui viene spiegato che l’account del lettore è ora attivo. Aggiorna la pagina del browser per accedere al pulsante **Crea nuova connessione**.
 
