@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: f55ab45a7c11a4f0e4cdbe65ea890ba452b9bbba
+source-git-commit: 9160a68653999c35de32dd417b18ea8197ef446f
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,10 @@ Per un elenco di tutte le modifiche disponibili in questo momento nel ciclo di r
 >[!NOTE]
 >
 >Anteprima: 29 gennaio 2026
->Versione rapida di produzione: 12 febbraio 2026\
+>Versione rapida di produzione: 12 febbraio 2026
 >Produzione per tutti: 16 aprile 2026
+>
+>Questa funzione è stata temporaneamente rimossa dall’ambiente di produzione il 13 febbraio 2026.
 
 Il nuovo tipo di campo **Rich text** nei moduli personalizzati è un editor di testo affidabile, con opzioni di formattazione quali apice e pedice, intestazioni e tabelle, oltre alle opzioni tradizionali di grassetto, corsivo, sottolineatura, punti elenco, numerazione, collegamenti ipertestuali e virgolette. Il limite di caratteri rimane 15.000.
 
