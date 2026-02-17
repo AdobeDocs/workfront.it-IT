@@ -5,9 +5,9 @@ description: Gli elenchi avanzati utilizzano un formato tabella per la visualizz
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: b935f3013c1be670dea834c041e02165f0e7047c
+source-git-commit: ee5bb3cbf6a69b85c3d6b87500164f85a1ba114a
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1617'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,7 @@ Per informazioni sugli elenchi standard, vedere [Introduzione agli elenchi in Ad
  <tbody> 
   <tr> 
    <td>Pacchetto Adobe Workfront</td> 
-   <td><p>Qualsiasi</p></td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td>Licenza Adobe Workfront</td> 
@@ -53,7 +53,7 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti di Workfront che uti
 
 >[!NOTE]
 >
->Questo elenco non è completo. Ciascuno di questi elenchi di oggetti può essere visualizzato anche in un report o in un dashboard. Ad esempio, un report di progetto o un dashboard contenente un report di progetto visualizza anche un elenco di progetti.
+>Questo elenco non è completo. Ciascuno di questi elenchi di oggetti può essere visualizzato anche in un report o in un dashboard. Ad esempio, un rapporto Richieste o un dashboard che contiene un rapporto Richieste visualizza anche un elenco di richieste.
 
 | Elenco Workfront | Posizione dell&#39;elenco di oggetti |
 |--- |--- |
@@ -61,14 +61,17 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti di Workfront che uti
 | Elenco delle richieste | <ul><li>Richieste (solo nuova esperienza)</li><li>Widget Richieste personali sulla Home</li></ul> |
 | Elenchi di stati, priorità, gravità e tassi di cambio in Configurazione | <ul><li>Configurazione > Preferenze progetto > Stati</li><li>Configurazione > Preferenze progetto > Priorità</li><li>Configurazione > Preferenze progetto > Gravità</li><li>Imposta > Preferenze progetto > Tassi di cambio</li></ul> |
 
-## Aggiungere e modificare elementi in un elenco avanzato
+## Aggiungere elementi a un elenco avanzato
 
-A seconda della configurazione dell’elenco avanzato, ci possono essere due modi per aggiungere un elemento all’elenco:
+A seconda dell’elenco avanzato che stai visualizzando, effettua una delle seguenti operazioni:
 
-* Fai clic su un pulsante sopra l’elenco. Questa opzione consente di aprire una finestra di dialogo in cui immettere le informazioni e salvarle.
-* Fai clic su **Nuova riga** in fondo all&#39;elenco. Questa opzione consente di aggiungere una nuova riga alla tabella e di immettere le informazioni in ogni cella.
+1. Fai clic sul pulsante blu in alto a destra dell’elenco. Questa opzione consente di aprire una finestra di dialogo in cui è possibile immettere informazioni. I dati vengono salvati come nuova riga nella tabella.
 
-  Gli elenchi avanzati supportano i seguenti tipi di campi:
+   O
+
+1. Fai clic su **Nuova riga** in fondo all&#39;elenco. Questa opzione aggiunge una nuova riga alla tabella. Fare doppio clic in una cella per immettere le informazioni in essa contenute. Ogni cella rappresenta un campo per la voce di elenco. I campi devono esistere prima che vengano visualizzati nell&#39;elenco.
+
+   Gli elenchi avanzati supportano i seguenti tipi di campi:
 
    * Testo
    * Numero
@@ -81,50 +84,56 @@ A seconda della configurazione dell’elenco avanzato, ci possono essere due mod
    * Assegnatario (uno o più)
    * Selettore colore
 
-  Quando si modifica una cella, ogni tipo di campo ha le proprie opzioni di modifica.
-
-Per modificare un elemento nell&#39;elenco, fare doppio clic nella cella che si desidera modificare e digitare le informazioni. Alcune celle possono essere di sola lettura.
+   >[!NOTE]
+   >
+   >Ogni tipo di campo ha le proprie opzioni di modifica. Alcuni campi potrebbero essere di sola lettura.
 
 ![Esempio di elenco avanzato](assets/glist-exchange-rates.png)
 
-## Utilizzare la barra delle azioni e il menu Altro in un elenco avanzato
+## Modificare gli elementi utilizzando la barra delle azioni
 
-La barra delle azioni mostra le azioni che è possibile eseguire su una voce di elenco. Alcune azioni possono essere specifiche per tale elenco e non vengono visualizzate in nessun altro elenco.
+È possibile utilizzare la barra delle azioni di un elenco avanzato per modificare gli elementi dell&#39;elenco. Non tutte le barre delle azioni includono le stesse opzioni. Inoltre, alcuni elenchi potrebbero non consentirti di selezionare elementi e la barra delle azioni non è disponibile.
 
-1. Selezionare la casella di controllo accanto a un elemento nell&#39;elenco avanzato.
+1. Selezionare la casella di controllo accanto a un elemento in un elenco avanzato.
 
    La barra delle azioni viene visualizzata nella parte inferiore dello schermo.
 
    >[!NOTE]
    >
-   >Elenchi avanzati diversi possono consentire la selezione di un singolo elemento, la modifica in serie (selezione di più elementi) o la selezione di nessun elemento.
+   >A seconda dell&#39;elenco che si modifica, è possibile selezionare uno o più elementi per utilizzare la barra delle azioni.
 
-1. Fare clic su un pulsante sulla barra delle azioni per eseguire tale azione, ad esempio visualizzare la voce di elenco, eliminare la voce o modificarla.
+1. Fai clic su un’azione sulla barra per modificare gli elementi. Di seguito sono riportati alcuni esempi di azioni che è possibile scegliere:
 
-   Se non è disponibile alcuna azione per l&#39;elemento selezionato, la barra delle azioni indica &quot;Nessuna azione disponibile&quot;.
+   * Visualizzazione
+   * Modifica
+   * Elimina
+
+   Se non è disponibile alcuna azione per l&#39;elemento selezionato, sulla barra delle azioni viene visualizzato &quot;Nessuna azione disponibile&quot;.
 
    ![Esempio di barra delle azioni](assets/glist-action-bar-statuses.png)
 
-1. Passa il puntatore del mouse su un campo principale di una voce di elenco per visualizzare il menu **Altro**. Il campo principale è la colonna più a sinistra della tabella.
+1. Passa il puntatore del mouse sul campo principale di una voce di elenco, quindi fai clic sul menu **Altro** ![Icona altro menu](assets/more-icon.png) per visualizzare ulteriori azioni. Alcune azioni possono essere specifiche per tale elenco.
 
-1. Fai clic sul menu per visualizzare le azioni aggiuntive per l’elemento. Alcune azioni possono essere specifiche per tale elenco e non vengono visualizzate in nessun altro elenco.
+   >[!TIP]
+   >
+   >Il campo principale viene visualizzato nella prima colonna dell’elenco.
 
    ![Altro esempio di menu](assets/glist-more-menu-priorities.png)
 
-## Personalizzare le colonne in un elenco avanzato
+## Personalizza colonne
 
-Alcuni elenchi avanzati consentono di nascondere e visualizzare le colonne e di riordinarle.
+A seconda degli oggetti visualizzati in un elenco avanzato, è possibile nascondere, visualizzare o riordinare le colonne dell&#39;elenco.
 
 1. Fai clic su **Colonne** sopra l&#39;elenco.
 
    ![Visualizza esempio colonne](assets/glist-display-move-columns.png)
 
 1. Utilizza i pulsanti per visualizzare o nascondere le colonne nell’elenco.
-1. Per riordinare le colonne, fare clic sull&#39;icona **Trascina** e spostare una colonna nella posizione desiderata. Lo spostamento delle colonne determina la modifica automatica dell&#39;elenco.
+1. Per riordinare le colonne, fare clic sull&#39;icona **Trascina** ![Trascina icona](assets/drag-icon.png) e spostare una colonna nella posizione desiderata. Lo spostamento delle colonne determina la modifica automatica dell&#39;elenco.
 
    >[!NOTE]
    >
-   >Il campo principale è la colonna più a sinistra della tabella. È fisso nella prima posizione e non è possibile modificarne la colonna. Se il numero di colonne è elevato, il campo principale viene bloccato a sinistra e quando scorri orizzontalmente lo visualizzerai sempre.
+   >Il campo principale è la prima colonna dell&#39;elenco. È fisso nella prima posizione e non è possibile modificarne la colonna. Se il numero di colonne è elevato, il campo principale viene bloccato a sinistra e quando scorri orizzontalmente lo visualizzerai sempre.
    >
    >L&#39;icona accanto al nome di un campo mostra il tipo di campo, ad esempio testo o campo data.
 
@@ -132,13 +141,13 @@ Alcuni elenchi avanzati consentono di nascondere e visualizzare le colonne e di 
 
    ![Indicatore per colonne nascoste](assets/glist-columns-hidden-indicator.png)
 
-## Aggiungere e rimuovere colonne in un elenco con Gestione colonne
+## Aggiungere e rimuovere colonne con Gestione colonne
 
-Alcuni elenchi avanzati offrono **Gestione colonne**, che consente di aggiungere facilmente colonne all&#39;elenco e di rimuoverle. I campi nativi e personalizzati sono entrambi disponibili per la selezione come colonne. I campi personalizzati devono esistere nel sistema prima di poterli aggiungere come colonne elenco.
+È possibile utilizzare **Gestione colonne** in alcuni elenchi avanzati per aggiungere e rimuovere facilmente colonne nell&#39;elenco. È possibile aggiungere o rimuovere come colonne in un elenco avanzato sia i campi di sistema che quelli personalizzati già esistenti in Workfront.
 
 Per aggiungere e rimuovere colonne:
 
-1. Fai clic sull&#39;icona + in alto a destra della tabella per aprire la casella **Gestione colonne**.
+1. Fai clic sull&#39;icona + nell&#39;angolo superiore destro della tabella per aprire la casella **Gestione colonne**.
 1. Cerca un campo oggetto esistente nella colonna **Available**, quindi fai clic su + a destra del nome del campo per aggiungerlo alla colonna **Selected**.
 1. Fare clic su - a destra di un campo nella colonna **Selezionato** per rimuoverlo dall&#39;elenco.
 
@@ -146,11 +155,13 @@ Per aggiungere e rimuovere colonne:
    >
    >Alcuni campi potrebbero essere corretti e non possono essere rimossi.
 
+   <!-- Add info about Properties and KPIs when something gets released with those options -->
+
 1. Fai clic su **Salva**.
 
    ![Gestione colonne](assets/glist-column-manager.png)
 
-<!-- Add info about Properties and KPIs when something gets released with those options -->
+   L’elenco aggiorna le colonne in base alle scelte effettuate.
 
 ## Visualizzare i dati con le visualizzazioni in un elenco avanzato
 
@@ -192,7 +203,7 @@ Per condividere una visualizzazione:
 
 1. Fai clic su **Salva**.
 
-## Filtrare e raggruppare gli elementi in un elenco avanzato
+## Filtrare e raggruppare gli elementi
 
 I filtri consentono di ridurre la quantità di informazioni visualizzate nell’elenco. I raggruppamenti separano gli oggetti dell&#39;elenco in aree basate su criteri specifici.
 
