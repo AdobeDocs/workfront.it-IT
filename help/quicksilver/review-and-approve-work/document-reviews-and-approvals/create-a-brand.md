@@ -6,9 +6,10 @@ description: Configurare i brand per il revisore IA
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: cd2a5560fdf446e8e971afcb640af38b4d301d40
+exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
+source-git-commit: 07b401c70dfd209d13c34cf62844f334f3260af1
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '429'
 ht-degree: 5%
 
 ---
@@ -31,7 +32,7 @@ Il revisore IA utilizza le linee guida del brand per valutare i contenuti durant
  <tbody> 
   <tr> 
    <td role="rowheader">Pacchetto Adobe Workfront</td> 
-   <td> <p>Qualsiasi</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
@@ -42,11 +43,17 @@ Il revisore IA utilizza le linee guida del brand per valutare i contenuti durant
    <td> <p>Devi essere un amministratore di sistema.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni di Admin Console</td> 
-   <td> <p>Devi usare GenStudio Brand Manager.</p></td> 
+   <td role="rowheader">Autorizzazioni di Admin Console*</td> 
+   <td> <p>Devi usare GenStudio Brand Manager.</p>
+    <p>NOTA: per selezionare GenStudio Brand Manager, è necessario seguire i passaggi descritti in <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/configure-brand-permissions">Assegnare autorizzazioni marchio</a>.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
+
+
+
+
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
@@ -60,6 +67,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 * La tua organizzazione deve disporre di GenStudio Foundation.
 * Adobe deve disporre di un accordo Adobe Gen AI firmato su file.
 Per ulteriori informazioni sulla firma del contratto, consulta [Firmare il contratto di Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
+
 
 ## Creare un brand utilizzando una PDF
 
