@@ -5,12 +5,10 @@ feature: Workfront Planning
 role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
 exl-id: 90b0e019-1b42-4ab2-8b4c-69f85e4c4d78
-source-git-commit: 52bf41e146a11a4af4fbebfe5bb20a9765f2bc7b
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
@@ -122,7 +120,7 @@ Per passare dalla scala team-first a quella enterprise, considera quanto segue:
 
 ## Panoramica delle metriche di successo per il pannello di avvio
 
-Consigliamo di cercare costantemente i marcatori di successo e di adattarsi dai risultati.
+Consigliamo di cercare costantemente i marcatori di successo e di apportare modifiche in base ai risultati.
 
 Cerca questi primi indicatori di salute:
 

@@ -6,9 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: d60123df6e18025a886809fa390137bdf9287e6e
+exl-id: af1a54ea-1717-45fa-bb94-55774eb28f28
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
-source-wordcount: '2014'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -146,7 +147,7 @@ Per ulteriori informazioni sulla configurazione delle visualizzazioni delle conn
 
 >[!IMPORTANT]
 >
->Questa funzione è stata temporaneamente rimossa dagli ambienti di anteprima e produzione.
+>Questo elemento è stato temporaneamente rimosso dagli ambienti di anteprima e produzione tra il 20 gennaio e il 17 febbraio 2026.
 
 >[!NOTE]
 >
@@ -300,9 +301,3 @@ Considera quanto segue con questo miglioramento:
 * I valori di scelta vengono visualizzati in minuscolo e sono separati da trattini bassi nel caso di scelte tra più parole. Se utilizzi un’etichetta già utilizzata come altro nome di scelta per lo stesso campo, Workfront aggiunge al valore un numero sequenziale.
 
 Per informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).
-
-
-
-
-
-

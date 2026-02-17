@@ -1,241 +1,251 @@
 ---
-title: 'Playbook: ridimensionamento gestito, dopo la prima vittoria'
-description: Scopri come implementare Adobe Workfront Planning dopo la prima implementazione riuscita
+title: 'Trasforma la tua prima vittoria in un momento sostenibile: un playbook per la scalabilità gestita'
+description: Scopri come implementare Adobe Workfront Planning dopo la prima implementazione riuscita.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
 exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
-source-git-commit: 52bf41e146a11a4af4fbebfe5bb20a9765f2bc7b
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2483'
 ht-degree: 0%
 
 ---
 
-# Playbook: ridimensionamento gestito, dopo la prima vittoria
+# Trasforma la tua prima vittoria in uno slancio sostenibile: un playbook per la scalabilità gestita
 
 {{planning-important-intro}}
 
-**Versione**: 1.0
 
-**Contesto**: &quot;Abbiamo ottenuto il primo caso d&#39;uso e ora tutti lo desiderano.&quot;
+Il primo caso di utilizzo Adobe Workfront Planning di successo è un momento cruciale: l’aumento della domanda, i nuovi team che desiderano accedervi e la leadership vedono il potenziale per una visibilità a livello aziendale.
 
+Ma questa è anche la fase più fragile dell&#39;adozione: avvicinarsi troppo rapidamente a una governance rigida e rischiare di riportare i team indietro ai fogli di calcolo; muoversi troppo liberamente e ricreare l&#39;enorme espansione che ci si prefigge di risolvere.
 
+Questo playbook delinea un approccio equilibrato all&#39;utilizzo di Workfront Planning come motore di riconciliazione che dà priorità alla visibilità, consente l&#39;innovazione locale e permette agli standard aziendali di emergere da un reale successo operativo piuttosto che essere imposti prematuramente.
 
-## &#x200B;1. La &quot;trappola del successo&quot;
+Di seguito sono riportati alcuni insegnamenti tratti dalla nostra esperienza e alcuni suggerimenti su cosa cercare.
 
-A volte può sembrare che la fase più pericolosa dell’adozione del programma WFP sia immediatamente successiva al primo caso d’uso riuscito o POC. L&#39;entusiasmo è alto, ma il timore di un &quot;debito tecnico&quot; e di una &quot;espansione amministrativa&quot; può portare a due risposte altrettanto dannose:
+## &#x200B;1. La trappola del successo
 
-1. **Sovra-governance**: blocco del sistema così stretto che i nuovi team tornano ai fogli di calcolo.
+A volte può sembrare che la fase più pericolosa dell’adozione della pianificazione di Workfront sia immediatamente successiva al primo caso d’uso di successo o al Proof of of Concept. L&#39;entusiasmo è alto, ma la paura di indebitamenti tecnici e di un&#39;espansione amministrativa possono portare a due risposte ugualmente dannose:
 
-2. **Governance zero**: ogni team può creare i propri campi e tipi di record, ricreando la frammentazione dei metadati negli ambienti legacy.
+* **Governance eccessiva**: blocco del sistema così stretto che i nuovi team torneranno ai fogli di calcolo.
 
+* **Nessuna governance**: ogni team può creare i propri campi e tipi di record, ricreando la frammentazione dei metadati negli ambienti legacy.
 
+## &#x200B;2. La filosofia di base: Workfront Planning come motore di riconciliazione
 
-## &#x200B;2. La filosofia di base: WFP come &quot;motore di riconciliazione&quot;
+Invece di cercare di impedire ai team di essere diversi, posizioniamo Workfront Planning come il luogo in cui tali differenze sono rese visibili in modo che possano essere riconciliate.
 
-Invece di cercare di impedire ai team di essere diversi, posizioniamo WFP come il luogo in cui tali differenze sono **rese visibili in modo che possano essere riconciliate**.
+Per supportare questo sforzo, considera quanto segue:
 
+* **Gestione della velocità di adozione**: è naturale essere cauti nell&#39;espandersi in un nuovo strumento prima di ottimizzare gli ambienti esistenti. Se da un lato la scelta di semplificare fornisce prima una base altamente gestita, dall’altro può ritardare il time-to-value dei team pronti per l’allineamento. Riteniamo che il modo più efficace per superare questo cambiamento sia riconoscere che la visibilità è il passaggio 1; lo slancio verso uno strumento condiviso e pronto per l&#39;azienda (allontanandosi dalla proliferazione di presentazioni e fogli elettronici) è ciò che alla fine sblocca gli obiettivi a lungo termine.
 
+  Invece di un mandato di pulizia, consigliamo di allocare una porzione minore di risorse alla manutenzione continua e una porzione significativamente maggiore alla risoluzione delle esigenze aziendali più pressanti.
 
-* **Gestione della velocità di adozione**: prima di &quot;pulire&quot; gli ambienti esistenti, è naturale prestare attenzione all&#39;espansione in un nuovo strumento. La scelta di **Semplifica primo** fornisce una base altamente gestita, ma può ritardare il time-to-value per i team pronti per l&#39;allineamento. Riteniamo che il modo più efficace per superare questo cambiamento sia riconoscere che la visibilità di **è il passaggio 1**. Lo slancio verso uno strumento condiviso e pronto per l’azienda (allontanandosi dalla proliferazione di PPT e fogli di calcolo) è ciò che alla fine sblocca gli obiettivi a lungo termine.
+  Ad esempio, spendere un anno esclusivamente per &quot;ripulire&quot; le tassonomie produce un valore incrementale minimo. Tuttavia, la visibilità tra i team offre il valore di trasformazione di cui le parti interessate hanno bisogno, fornendo al contempo la struttura dati unificata necessaria per governare l’ambiente nel tempo.
 
+  Puoi ottenere visibilità cross-team tramite un calendario aziendale unificato o una roadmap consolidata per il lancio sul mercato.
 
+* **Riconosci la realtà**: i team indipendenti sviluppano naturalmente i propri processi, che spesso rimangono nascosti in fogli di calcolo isolati. Rendendo questi processi visibili in un ambiente condiviso, è possibile collocarli in un unico punto in cui possono essere infine affrontati e migliorati.
 
-  **Consiglio**: invece di un mandato di pulizia, si consiglia di allocare una porzione più piccola di risorse alla manutenzione in corso e una porzione molto più grande per risolvere le esigenze aziendali più pressanti. Ad esempio, spendere un anno esclusivamente per &quot;ripulire&quot; le tassonomie produce un valore incrementale minimo. Tuttavia, offrire **visibilità cross-team** (ad esempio, tramite un calendario aziendale unificato o una roadmap GTM consolidata) fornisce il valore di trasformazione di cui le parti interessate hanno bisogno, fornendo al contempo la struttura dati unificata necessaria per governare l&#39;ambiente nel tempo.
-
-* **Riconosci la realtà**: i team indipendenti sviluppano naturalmente i propri processi, che spesso rimangono nascosti in fogli di calcolo isolati. La transizione a Protezione file Windows non crea problemi, ma accende la luce su quella già esistente. Rendendo questi processi visibili in un ambiente condiviso, è possibile collocarli in un unico punto in cui possono essere infine affrontati e migliorati.
-
-* **Segnale di avanzamento**: quando un team richiede i propri campi, non si tratta di &quot;espansione&quot;, ma di **Adozione**. Significa che vedono WFP come il loro spazio di lavoro.
-
-* **Gestisci debito, non nasconderlo**: è naturale preoccuparsi dello sforzo necessario per ripulire tassonomie divergenti in un secondo momento. Tuttavia, l’alternativa, ovvero l’imposizione di standard rigorosi troppo presto, spesso spinge i team a tornare ai fogli di calcolo dove i processi (e il debito) rimangono nascosti. Consentendo ai team di iniziare in WFP con le classificazioni correnti, si sposta il debito in un ambiente visibile e gestito. Questo rende l&#39;eventuale riconciliazione un&#39;attività iterativa piuttosto che un singolo progetto di migrazione.
-
-
-
-## &#x200B;3. Il modello di governance &quot;Lanes on a Road&quot;
-
-Scalabilità senza debiti attraverso la definizione di &quot;corsie globali&quot; e &quot;spazi di gioco locali&quot;.
+  >[!IMPORTANT]
+  >
+  >Il passaggio a Workfront Planning non crea problemi, ma accende la luce su quello già esistente.
 
 
+* **Conferma il segnale di avanzamento**: quando un team richiede i propri campi, non si tratta di &quot;espansione&quot;. Consideralo un segno di adozione. Ciò significa che il team considera Workfront Planning come la propria area di lavoro.
 
-### A. Le corsie globali
+* **Gestisci il debito, non nasconderlo**: è naturale preoccuparsi dello sforzo necessario per ripulire tassonomie divergenti in un secondo momento. Tuttavia, l&#39;alternativa, ovvero l&#39;imposizione di standard rigorosi troppo presto, spesso spinge i team a tornare ai fogli di calcolo dove i processi (e il debito) rimangono nascosti. Consentendo ai team di iniziare a utilizzare Workfront Planning con le classificazioni correnti, si sposta il debito in un ambiente visibile e gestito. Questo rende l&#39;eventuale riconciliazione un&#39;attività iterativa piuttosto che un singolo progetto di migrazione.
 
-* **Oggetti controllati**: oggetti che ogni team deve utilizzare per il reporting aziendale (ad esempio, `Strategic Pillar`, `Region`, `Fiscal Quarter`).
+## &#x200B;3. Il modello di governance dell’autonomia guidata
 
-* **Gestito Da**: L&#39;Amministratore Centrale Coe/Marketing Ops.
+Puoi definire le corsie sulla strada e i parchi giochi locali (o i predefiniti e i modelli gestiti), lasciando ai team la flessibilità di scegliere il proprio percorso al loro interno.
 
-* **Regola**: questi campi sono &quot;condivisi&quot; e obbligatori.
+Considera le seguenti componenti del modello di governance dell’autonomia guidata:
 
+* [Le corsie globali](#the-global-lanes)
+* [I parchi giochi locali](#the-local-playgrounds-or-the-spokes)
 
+Per informazioni, consulta anche:
 
-### B. Sui Luoghi Locali (Spokes)
+* [Rollout della tua home strategica: un modulo di lancio di 30 giorni](/help/quicksilver/planning/best-practices.md/30-day-launchpad.md)
+* [Creare un’architettura di successo: modellare la gerarchia delle campagne](/help/quicksilver/planning/best-practices.md/model-campaign-hierarchy.md)
+
+### Le corsie globali
+
+Di seguito sono riportate le caratteristiche delle corsie globali:
+
+* **Oggetti controllati**: oggetti che ogni team deve utilizzare per la creazione di report aziendali (ad esempio, `Strategic Pillar`, `Region`, `Fiscal Quarter`).
+
+* **Gestito da**: centro di eccellenza o amministratore delle operazioni di marketing.
+
+* **Regola**: questi campi sono condivisi e obbligatori.
+
+### I parchi giochi locali (o i &quot;raggi&quot;)
+
+Di seguito sono riportate le caratteristiche dei parchi giochi locali
 
 * **Oggetti sperimentali**: campi o tipi di record specifici per le esigenze tattiche di un team (ad esempio, `Influencer Handle` di un team social o `URL Slug` di un team Web).
 
 * **Gestito da**: il lead del team (con indicazioni leggere).
 
-* **Regola**: i team possono innovare qui. Se un campo &quot;Locale&quot; viene adottato da più di 3 team, viene &quot;Promosso&quot; a una corsia globale.
+* **Regola**: i team possono innovare qui. Se un campo locale viene adottato da più di tre team, può essere promosso a una corsia globale.
 
+## &#x200B;4. Considerate il paradosso della governance: seguiranno team e standard
 
-
-## &#x200B;4. Il Paradosso Della Governance: Prima I Team, Seguono Gli Standard
-
-Una sfida comune nella scalabilità di WFP sta decidendo quale delle due viene prima: **Enterprise Governance** o **Allineamento operativo team**.
-
-
+Una sfida comune nella scalabilità di Workfront Planning è decidere quale sia il primo: la governance aziendale o l&#39;allineamento operativo del team.
 
 Riteniamo che il modo più efficace per risolvere questo problema sia riconoscere che il valore aziendale è costruito su una strada bidirezionale:
 
-1. **I team hanno bisogno di rilevanza**: l&#39;azienda realizza valore solo quando i suoi team sono in esecuzione attiva. Pertanto, la governance deve **servire i team** fornendo una struttura che supporti le loro esigenze operative note.
+* **I team hanno bisogno di rilevanza**: l&#39;azienda realizza valore solo quando i suoi team sono in esecuzione attiva. Pertanto, la governance deve essere al servizio dei team fornendo una struttura che supporti le loro esigenze operative note.
 
-2. **L&#39;azienda ha bisogno di visibilità**: la leadership può prendere decisioni informate solo quando i dati sono sufficientemente puliti per essere aggregati. Pertanto, i team devono **servire l&#39;azienda** fornendo i metadati minimi validi necessari per la visibilità del portfolio.
+* **L&#39;azienda ha bisogno di visibilità**: la leadership può prendere decisioni informate solo quando i dati sono sufficientemente puliti per essere aggregati. Pertanto, i team devono essere al servizio dell’azienda fornendo i metadati minimi validi necessari per la visibilità del portfolio.
+
+L’obiettivo della scalabilità gestita è trovare l’intersezione tra queste due esigenze standardizzando abbastanza da fornire visibilità, ma non tanto da bloccare l’esecuzione del team.
+
+Prendi in considerazione le seguenti fasi di creazione del modello di governance:
+
+* [Allineare le priorità: dati e visualizzazione](#align-priorities-data-vs-visualization)
+* [La fase di osservazione guidata dal servizio](#the-service-led-observation-phase)
+* [Armonizzazione retroattiva](#retroactive-harmonization)
+
+### Allineare le priorità: dati e visualizzazione
+
+Durante il ridimensionamento, riconosce che la definizione di valore rappresenta differisce tra gli utenti tipo:
+
+* **L&#39;amministratore o il proprietario del prodotto** valuta tassonomie e classificazioni unificate. L’obiettivo è un’architettura dei dati pulita che supporti la scalabilità a lungo termine.
+
+* **La visualizzazione dei valori stakeholder o leader** e insight che possono essere acquisiti in un calendario globale o in una timeline di portfolio. Il loro obiettivo è identificare il momento di fulmine che rende i dati fruibili.
+
+>[!NOTE]
+>
+>La strategia consiste nell’utilizzare l’esigenza di visualizzazione delle parti interessate come incentivo per la conformità del team alla necessità di standard per i dati dell’amministratore. Ottenete la tassonomia unificata distribuendo il calendario richiesto dalla leadership.
 
 
-
-L&#39;obiettivo della &quot;scalabilità gestita&quot; è trovare l&#39;intersezione tra queste due esigenze, standardizzando abbastanza da fornire visibilità, ma non tanto da bloccare l&#39;esecuzione del team.
-
-
-
-### A. Allineamento delle priorità: dati e visualizzazione
-
-Quando esegui il ridimensionamento, considera che la definizione di &quot;Valore&quot; differisce tra gli utenti tipo:
-
-* **L&#39;amministratore/proprietario prodotto**: valori **tassonomie e classificazioni unificate**. L’obiettivo è un’architettura dei dati pulita che supporti la scalabilità a lungo termine.
-
-* **Interessato/Leader**: valori **visualizzazione e insight** (ad esempio, un calendario globale o una sequenza temporale Portfolio). Il loro obiettivo è il &quot;Momento di Fulmine&quot; che rende i dati fruibili.
-
-
-
-**Strategia**: utilizza l&#39;esigenza di visualizzazione delle parti interessate come *incentivo* per la conformità del team con l&#39;esigenza dell&#39;amministratore di rispettare gli standard dei dati. Ottenete la tassonomia unificata distribuendo il &quot;Super Calendar&quot; richiesto dalla leadership.
-
-
-
-### B. La Fase Di Osservazione &quot;Guidata Dai Servizi&quot;
+### La fase di osservazione guidata dal servizio
 
 Durante la scalabilità iniziale, il ruolo dell’amministratore è quello di facilitare questo scambio tra i team e l’azienda.
 
-* **Assegna priorità all&#39;operazione rispetto alla standardizzazione**: è preferibile che i team pianifichino attivamente nelle aree di lavoro in silos piuttosto che bloccarli a causa della mancanza di definizioni globali. Questa attività è costituita dai &quot;dati grezzi&quot; necessari per creare standard salutari e reali.
+In qualità di amministratore, puoi facilitare questo scambio eseguendo le seguenti operazioni:
 
-* **Identificare i &quot;Minimi di visibilità&quot;**: utilizzare i responsabili per identificare i 3-5 campi che *devono* essere puliti per i report aziendali (ad esempio, `Strategic Alignment`, `Start Date`, `Budget`). Concentrare l&#39;energia di applicazione SOLO qui.
+* **Assegna priorità all&#39;operazione rispetto alla standardizzazione**: è meglio che i team pianifichino attivamente nelle aree di lavoro in silos piuttosto che rimandarli a causa della mancanza di definizioni globali. Questa attività è costituita dai dati grezzi necessari per creare standard reali e sani.
 
+* **Identificare i valori minimi di visibilità**: utilizzare i responsabili per identificare i 3-5 campi che devono essere puliti per i report aziendali (ad esempio, `Strategic Alignment`, `Start Date`, `Budget`). Concentrare l’energia necessaria all’applicazione solo sui campi di visibilità minimi.
 
+### Governance come servizio
 
-### B. Armonizzazione retroattiva (Governance as a Service)
+Una volta emerso un modello di esigenze note tra i team, l’azienda può consolidare tali modelli in un servizio globale. Questa è governance come servizio.
 
-Quando emerge un modello di &quot;esigenze note&quot; tra i team, l’azienda può consolidare tali modelli in un servizio globale.
+Per ottenere o gestire come servizio, effettua le seguenti operazioni:
 
-1. **Osserva modelli riusciti**: identifica le tassonomie &quot;vincenti&quot; che i team hanno già creato e adottato.
+* **Osservare gli schemi riusciti**: identifica le tassonomie vincenti che i team hanno già creato e adottato.
 
-2. **Collaborative Handshake**: riunisci i campioni del team per perfezionare i loro successi locali in uno standard aziendale condiviso.
+* **Raggiungi l&#39;handshake collaborativo**: riunisci i campioni del team per perfezionare i loro successi locali in uno standard aziendale condiviso.
 
-3. **Distribuisci come servizio**: esegui il rollout delle nuove corsie globali non come &quot;restrizione&quot;, ma come modo per semplificare la generazione di rapporti e l&#39;allineamento tra team per le persone che svolgono il lavoro.
+* **Distribuisci come servizio**: esegui il rollout delle nuove corsie globali non come restrizione, ma come modo per semplificare la generazione di rapporti e l&#39;allineamento tra team per le persone che svolgono il lavoro.
 
+>[!IMPORTANT]
+>
+>Ricorda che la governance deve essere una risposta al successo operativo, non un prerequisito per esso.
 
+## &#x200B;5. Meccaniche di scala per la gestione dei campi
 
-**Eliminazione delle chiavi**: la governance deve essere una risposta al successo operativo, non un prerequisito.
+### Modello di crescita dei campi basato su pattern
 
+L’applicazione di questa filosofia richiede un approccio attento alla struttura dei dati. Per evitare l’espansione della governance, resisti all’esigenza di creare campi globali per ogni singola richiesta.
 
+Utilizza invece il seguente percorso di maturità dei campi per consentire l’utilizzo reale come guida degli standard aziendali:
 
-## &#x200B;5. Meccanica di scala: il modello di crescita basato su modelli
+* **Livello 1: esperimento locale**: il team A crea un campo personalizzato nella propria area di lavoro.
 
-L’applicazione di questa filosofia richiede un approccio attento alla struttura dei dati. Per evitare una &quot;espansione della governance&quot;, resistere all&#39;urgenza di creare campi globali per ogni singola richiesta. Utilizza invece il **percorso di maturità del campo** per consentire l&#39;utilizzo reale degli standard aziendali:
+* **Livello 2: riconoscimento pattern**: l&#39;amministratore rileva che i team B e C utilizzano o richiedono un campo simile.
 
+* **Livello 3: standardizzazione dell&#39;organizzazione**: l&#39;amministratore crea una singola versione standardizzata del campo come tipo di record nel Workspace di tassonomia globale e la invia ai team.
 
+### Come smobilizzare i campi
 
-1. **Livello 1: esperimento locale**: il team A crea un campo personalizzato nella propria area di lavoro.
+Si raggiungerà un punto in cui i campi non saranno più rilevanti e dovranno essere ritirati.
 
-2. **Livello 2: Riconoscimento pattern**: l&#39;amministratore informa che i team B e C utilizzano o richiedono un campo simile.
+Poiché Workfront Planning non dispone attualmente di una funzione di archiviazione nativa per i campi, il ritiro di un campo locale richiede un processo di ritiro preliminare intenzionale per conservare i dati storici senza complicare l’interfaccia utente.
 
-3. **Livello 3: Standardizzazione organizzazione**: l&#39;amministratore crea una singola versione standardizzata del campo come tipo di record nel **Workspace di tassonomia globale** e la invia in syndication ai team.
+Per smobilizzare i campi:
 
+1. Eseguire una migrazione dei dati. Utilizza una vista a tabella (o Fusion) per copiare in blocco i valori dal campo ombra locale al nuovo campo della corsia globale. Assicurati che i dati siano convalidati e puliti durante questo spostamento.
 
+2. Rinomina campo e per elementi obsoleti: rinomina il campo locale con un prefisso come `[DEPRECATED]` o `z_` (ad esempio, `z_Language (Old)`). Questo spinge il campo alla base dei selettori di campi e segnala agli utenti che non dovrebbe più essere la fonte di verità.
 
-### La meccanica del &quot;pensionamento morbido&quot;
+3. Rimuovi il campo obsoleto da tutte le maschere di record. Questo è il passaggio più critico. In questo modo si impedisce l’immissione di nuovi dati mantenendo visibili i dati precedenti nelle viste tabella o nei rapporti esistenti, se necessario.
 
-Poiché WFP non dispone attualmente di una funzione di &quot;archiviazione&quot; nativa per i campi, il ritiro di un campo locale richiede un processo di &quot;pensionamento morbido&quot; intenzionale per preservare i dati storici senza complicare l’interfaccia utente:
+4. Iniziare il periodo di scadenza mantenendo il campo obsoleto (con prefisso e rimosso dai moduli) per 30-60 giorni per garantire che non siano stati persi dati durante la migrazione. Dopo questo periodo, se i dati sono completamente riconciliati nella Corsia globale, il campo locale può essere eliminato dall’area di lavoro.
 
+## &#x200B;6. Evitare la deriva di Workfront
 
+Per evitare che Planning si disintegri, effettuare le seguenti operazioni:
 
-1. **Migrazione dati**: utilizzare una vista tabella (o Fusion) per copiare in blocco i valori dal campo &quot;Shadow&quot; locale nel nuovo campo Corsia globale. Assicurati che i dati siano convalidati e puliti durante questo spostamento.
+* **Comprendere il livello di astrazione**: ogni campo in Planning deve rispondere a una domanda strategica. Se un campo viene utilizzato solo per il tracciamento tattico (ad esempio, se il campo risponde a una domanda del tipo &quot;Questa bozza è stata approvata?&quot;), conservalo in Workfront.
 
-2. **Rinomina per elementi obsoleti**: rinomina il campo locale con un prefisso come `[DEPRECATED]` o `z_` (ad esempio `z_Language (Old)`). Questo spinge il campo alla base dei selettori di campo e segnala agli utenti che non è più il &quot;Source of Truth&quot;.
+* **Ottieni prima il consolidamento**: se un team desidera un nuovo campo di metadati, invitarlo a controllare prima la tassonomia globale. A tal fine è necessario concedere ai lead del team l&#39;accesso in sola lettura all&#39;area di lavoro Tassonomia globale (vedere la sezione 7). Mappando le loro esigenze tattiche su un campo strategico esistente, puoi evitare inutili duplicazioni e mantenere l’integrità dei rapporti.
 
-3. **Rimozione modulo**: **Questo è il passaggio più critico.** Rimuovere il campo obsoleto da tutti i **Record Forms**. In questo modo si impedisce l’immissione di nuovi dati mantenendo visibili i dati precedenti nelle viste tabella o nei rapporti esistenti, se necessario.
+## &#x200B;7. Modello di visibilità di accesso in sola lettura
 
-4. **Periodo di interruzione**: mantenere il campo obsoleto (prefisso e non in formato) per 30-60 giorni per assicurarsi che nessun dato sia stato perso durante la migrazione. Dopo questo periodo, se i dati sono completamente riconciliati nella Corsia globale, il campo locale può essere eliminato dall’area di lavoro.
+È possibile risolvere la sensazione di silos senza il rumore del lavoro silos consentendo ai team di accedere in sola lettura all’area di lavoro Tassonomia globale per vedere quali concetti potrebbero essere applicati ai propri flussi di lavoro.
 
+Considera i seguenti aspetti:
 
+* **Il problema**: i team (nei spoke) si sentono isolati perché visualizzano solo i propri record.
 
-## &#x200B;6. Evitare la &quot;deriva di base&quot; (la regola di astrazione)
+* **Correzione**: concedere ai team l&#39;accesso in sola lettura alle aree di lavoro designate come Primarie per i tipi di record condivisi.
 
-Per evitare che la pianificazione si accumuli come core:
+  Per informazioni, vedere [Condividi aree di lavoro](/help/quicksilver/planning/access/share-workspaces.md).
 
-* **Livello astrazione**: ogni campo in Protezione file Windows deve rispondere a **Domanda strategica**. Se un campo viene utilizzato solo per il tracciamento tattico (ad esempio, &quot;Questa bozza è stata approvata?&quot;), mantienilo in Core.
-
-* **Primo consolidamento**: se un team desidera un nuovo campo di metadati, invitarlo a controllare prima la tassonomia globale. È necessario concedere ai lead del team **l&#39;accesso in sola lettura** all&#39;area di lavoro tassonomia globale (vedere la sezione 7). Mappando le loro esigenze tattiche su un campo strategico esistente, evitate inutili duplicazioni e mantenete l&#39;integrità dei rapporti.
-
-
-
-## &#x200B;7. Modello di visibilità &quot;Accesso in sola lettura&quot;
-
-Risolvere la sensazione di &quot;Siloed&quot; senza il rumore del lavoro &quot;Siloed&quot;.
-
-* **Il problema**: i team in spoke si sentono isolati perché visualizzano solo i propri record.
-
-* **Correzione**: concedere ai team **l&#39;accesso in sola lettura alle aree di lavoro designate come &#39;Primarie&#39; per i tipi di record condivisi**.
-
-* **Risultato**: possono visualizzare il contesto aziendale più ampio per l&#39;ispirazione e l&#39;allineamento, ma la loro area di lavoro locale rimane pulita e focalizzata sulle loro attività specifiche.
-
-
+* **Risultato**: i team possono visualizzare il contesto aziendale più ampio per l&#39;ispirazione e l&#39;allineamento, ma l&#39;area di lavoro locale rimane pulita e incentrata sulle attività specifiche.
 
 ## &#x200B;8. Gestire la crescita attraverso workshop
 
-Il potenziamento del PAM è una sfida culturale quanto tecnica. Organizzare workshop mirati per colmare il &quot;divario di governance&quot;.
+Scalare la pianificazione di Workfront è una sfida tecnica e culturale. Organizza workshop mirati per colmare il divario esistente in materia di governance.
 
+Di seguito sono riportate le idee per i workshop che è possibile organizzare:
 
+* [Il workshop per la scoperta del &quot;disastro necessario&quot;](#the-necessary-mess-discovery-workshop)
+* [Sessione di allineamento &quot;Visibilità strategica&quot;](#the-strategic-visibility-alignment-session)
+* [La vetrina &quot;Spoke-to-global&quot;](#the-spoke-to-global-showcase)
+* [Gli orari di lavoro del &quot;Supporto continuo&quot;](#the-ongoing-support-office-hours)
 
-### A. Il workshop di scoperta del &quot;pasticcio necessario&quot;
+### Il workshop per la scoperta del &quot;disastro necessario&quot;
 
-* **Pubblico**: responsabili marketing regionali e campioni di operazioni.
+* **Pubblico**: lead di marketing regionali e campioni Ops.
 
-* **Obiettivo**: documentare la &quot;Siloed Reality&quot; corrente (i dati operativi frammentati).
+* **Obiettivo**: documenta la realtà attualmente isolata o i dati operativi frammentati effettivi.
 
 * **Messaggio**: &quot;Non siamo qui per eliminare i tuoi campi. Siamo qui per capire come si collegano alla strategia globale.&quot;
 
 * **Risultato**: bozza di mappatura dei campi tattici locali su corsie strategiche globali.
 
+### Sessione di allineamento &quot;Visibilità strategica&quot;
 
+* **Pubblico**: stakeholder di marketing di alto livello (ad esempio, persone con ruoli di leadership).
 
-### B. La sessione di allineamento &quot;Visibilità strategica&quot;
+* **Obiettivo**: riformulare l&#39;ansia di semplificazione.
 
-* **Pubblico**: soggetti interessati al marketing di alto livello (leadership).
+* **Messaggio**: &quot;Non è necessaria una tassonomia perfetta per iniziare. Stiamo utilizzando Workfront Planning come ambiente per costruire la tassonomia perfetta&quot;.
 
-* **Obiettivo**: riformulare l&#39;ansia &quot;Semplifica prima&quot;.
+* **Risultato**: approvazione per l&#39;avanzamento con Workfront Planning come motore di riconciliazione mentre Workfront rimane nello stato corrente.
 
-* **Messaggio**: &quot;Non è necessaria una tassonomia perfetta per iniziare. Stiamo utilizzando WFP come ambiente per *compilare* la tassonomia perfetta.&quot;
+### La vetrina &quot;Spoke-to-global&quot;
 
-* **Risultato**: approvazione per l&#39;avanzamento con Protezione file Windows come motore di riconciliazione mentre Core rimane nello stato corrente.
+* **Pubblico**: nuovi team esplorano Workfront Planning.
 
-
-
-### C. La vetrina &quot;Spoke-to-Global&quot;
-
-* **Pubblico**: nuovi team esplorano WFP.
-
-* **Obiettivo**: riduci la sensazione di &quot;silos&quot;.
+* **Obiettivo**: riduci la sensazione di silos.
 
 * **Messaggio**: &quot;Vedere come il lavoro locale del Team A alimenta automaticamente il Workspace primario designato? Puoi avere la stessa visibilità anche per il tuo lavoro.&quot;
 
-* **Risultato**: consenso da parte di nuovi dipartimenti che vedono il vantaggio di essere &quot;connessi&quot; senza perdere la loro indipendenza locale.
+* **Risultato**: consenso da parte di nuovi reparti che vedono il vantaggio di essere connessi senza perdere la propria indipendenza locale.
 
+### Gli orari di lavoro del &quot;Supporto continuo&quot;
 
-
-### D. Orario &quot;Assistenza continua&quot;
-
-* **Pubblico**: tutti gli utenti WFP (correnti e potenziali).
+* **Pubblico**: tutti gli utenti di Workfront Planning (correnti e potenziali).
 
 * **Obiettivo**: fornisci un ambiente ricorrente e a bassa posta per la risoluzione dei problemi e indicazioni tattiche.
 
@@ -243,31 +253,27 @@ Il potenziamento del PAM è una sfida culturale quanto tecnica. Organizzare work
 
 * **Risultato**: maggiore fiducia degli utenti, risoluzione più rapida degli attriti tecnici e identificazione di nuovi modelli che potrebbero richiedere una standardizzazione globale.
 
-
-
 ## &#x200B;9. Personale per la scala: ruoli e responsabilità
 
-Il successo in un modello di scalabilità gestito richiede molto di più della semplice configurazione dello strumento; richiede una chiara distribuzione dei ruoli tra i team globali e spoke.
+Il successo di un modello di scalabilità gestito richiede più della semplice configurazione dello strumento. Richiede una chiara distribuzione dei ruoli tra i team Globale e Spoke.
 
+Nelle sottosezioni seguenti puoi trovare idee per i principali operatori nella gestione del modello di scalabilità.
 
+### Architetto aziendale (centro centrale di eccellenza o operazioni di marketing)
 
-### A. L’architetto aziendale (Central COE/Marketing Ops)
-
-* **Stato attivo**: integrità dell&#39;organizzazione, prestazioni del sistema e **tassonomia dei dati unificata**.
+* **Obiettivo**: integrità dell&#39;azienda, prestazioni del sistema e tassonomia dei dati unificata.
 
 * **Responsabilità**:
 
-   * Gestisce la **tassonomia globale Workspace**.
+   * Gestisce la tassonomia globale Workspace.
 
-   * Facilita il **percorso di maturità del campo** (promozione dei successi locali agli standard globali).
+   * Facilita il percorso di maturità sul campo promuovendo i successi locali verso gli standard globali.
 
-   * Mantiene le **visualizzazioni primarie di Workspace** per i report esecutivi.
+   * Gestisce le visualizzazioni Workspace primarie per i report esecutivi.
 
-   * Lead il **controllo semantico** mensile tra le aree di lavoro.
+   * Guida il controllo semantico mensile nelle aree di lavoro.
 
-
-
-### B. Il campione parlato (proprietario processo team)
+### Campione spoke (proprietario processo team)
 
 * **Focus**: rilevanza del team e velocità di adozione.
 
@@ -277,51 +283,49 @@ Il successo in un modello di scalabilità gestito richiede molto di più della s
 
    * È il proprietario della struttura dell’area di lavoro locale e degli esperimenti sui campi personalizzati.
 
-   * Assicura che il team utilizzi il **gateway gestito** (Forms) per l&#39;immissione dei dati.
+   * Assicura che il team utilizzi il Gateway Forms gestito per l&#39;immissione dei dati.
 
-   * Partecipa a **Collaborative Handshake** durante l&#39;armonizzazione.
+   * Partecipa alla stretta di mano collaborativa durante l&#39;armonizzazione.
 
+### Lo sponsor esecutivo (leadership di marketing)
 
-
-### C. Lo Sponsor Esecutivo (Leadership Marketing)
-
-* **Focus**: allineamento strategico, visibilità OKR e visualizzazione **portfolio (ad esempio, Calendaring globale)**.
+* **Focus**: allineamento strategico, visibilità OKR e visualizzazione portfolio (ad esempio, calendario globale).
 
 * **Responsabilità**:
 
-   * Definisce l&#39;organizzazione **OKR marketing** nell&#39;area di lavoro tassonomia globale.
+   * Definisce gli OKR di marketing aziendale nell’area di lavoro Tassonomia globale.
 
-   * Promuove il valore di &quot;Visibility Step 1&quot; per altri leader.
+   * Promuove il valore del Passaggio di visibilità 1 per altri leader.
 
    * Rafforza l’allocazione delle risorse 80/20 (valore rispetto alla pulizia).
 
-
-
-### D. Lead di abilitazione (Gestione modifiche)
+### Il lead di abilitazione (Gestione modifiche)
 
 * **Obiettivo**: spostamento culturale e sviluppo delle competenze.
 
 * **Responsabilità**:
 
-   * Ospita **Office Hours** e **Workshop di individuazione** ricorrenti.
+   * Ospita i punti di contatto ricorrenti di Office Hours e Discovery Workshop.
 
-   * Mantiene la vetrina &quot;Success Story&quot; interna.
+   * Mantiene la vetrina interna della storia di successo.
 
    * Identifica i punti di attrito tecnici che Enterprise Architect deve risolvere.
 
-
-
 ## &#x200B;10. Elenco di controllo per il ridimensionamento del team successivo
 
-* [ ] **Identificare il campione**: chi è il &quot;Proprietario del processo&quot; o &quot;Campione&quot; di questo nuovo team?
+Tutti gli insegnamenti tratti da un’implementazione di successo devono generare un elenco di controllo da utilizzare per ulteriori implementazioni.
 
-* [ ] **Definisci il &quot;Delta locale&quot;**: quali 2-3 campi sono necessari al team perché lo standard globale non fornisce attualmente?
+Di seguito sono riportati alcuni esempi di elenchi di controllo da includere:
 
-* [ ] **Mappa su percorsi globali**: quali campi globali esistenti possono soddisfare l&#39;80% delle loro esigenze?
+* [ ] **Identificare il campione**: chi è il proprietario del processo o il campione del nuovo team?
 
-* [ ] **Concedi visibilità globale**: concedi loro l&#39;accesso in sola lettura alle aree di lavoro primarie e all&#39;area di lavoro di tassonomia globale il giorno 1.
+* [ ] **Definisci il delta locale**: quali 2-3 campi sono necessari al team per non essere forniti dallo standard globale?
 
-* [ ] **Stabilire l&#39;handoff**: in che modo il loro lavoro &quot;alimenta&quot; le aree di lavoro primarie pertinenti? (ad esempio, tramite un tipo di record globale o una ricerca specifica).
+* [ ] **Mappa su corsie globali**: quali campi globali esistenti possono soddisfare l&#39;80% delle esigenze del team futuro?
+
+* [ ] **Concedi visibilità globale**: concedi loro l&#39;accesso in sola lettura alle aree di lavoro principali e all&#39;area di lavoro tassonomia globale il Giorno 1.
+
+* [ ] **Stabilire il passaggio di consegne**: in che modo il loro lavoro alimenta le aree di lavoro primarie pertinenti? Ad esempio, il loro lavoro potrebbe confluire nelle aree di lavoro principali pertinenti tramite un tipo di record globale o un campo di ricerca specifico.
 
 <!--original content: 
 

@@ -5,10 +5,8 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
 exl-id: 567ab223-b282-4b98-9655-7b9766fba869
-source-git-commit: 52bf41e146a11a4af4fbebfe5bb20a9765f2bc7b
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 0%
@@ -97,7 +95,7 @@ Per le organizzazioni con richieste di volumi elevati o esigenze di automazione 
 
 Per questo approccio è necessaria una licenza per Adobe Workfront Fusion.
 
-Per ulteriori informazioni, vedere [Configurazione e gestione di Workfront Fusion: indice articolo](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
+Per ulteriori informazioni, vedere [Configurazione e gestione di Workfront Fusion: indice articolo](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
 
 * **Utilizzare i trigger di invio:** Poiché i moduli forniscono un singolo evento di invio pulito, possono essere utilizzati come trigger per le automazioni di Fusion. Uno scenario Fusion può rilevare l’invio di un modulo e generare immediatamente un progetto collegato in Workfront.
 
