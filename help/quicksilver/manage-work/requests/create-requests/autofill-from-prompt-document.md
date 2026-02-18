@@ -5,9 +5,9 @@ description: È possibile utilizzare l’intelligenza artificiale per compilare 
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 8e04117c08985f3ad5de86e4a08cb4aa53ac7706
+source-git-commit: 8dc094718999af291443bd1a703cdc742d13f57e
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1374'
 ht-degree: 3%
 
 ---
@@ -73,8 +73,11 @@ Quando utilizzi il riempimento del modulo basato su AI, tieni presente quanto se
 
 * Il riempimento del modulo AI non sovrascrive i campi già compilati.
 * Gli utenti non ricevono suggerimenti di dati a cui non hanno altrimenti accesso.
-* I file utilizzati in Riempimento modulo con tecnologia AI vengono caricati nell’archiviazione di Azure per 24 ore. Ciò è necessario per l’elaborazione dei documenti.
-* Tutti i file caricati in Azure sono attualmente memorizzati nei cluster di Azure USA per la finestra di archiviazione di 24 ore.
+
+<!--
+* Files that you use in Form Fill powered by AI are uploaded to Azure storage for 24 hours. This is necessary for document processing. 
+* All files uploaded to Azure are currently stored in US Azure clusters for the 24 hour storage window. 
+-->
 
 ## Ottieni suggerimenti da un prompt di testo
 
