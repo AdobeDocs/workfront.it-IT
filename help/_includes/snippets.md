@@ -1,11 +1,11 @@
 ---
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 8fe1b2dc00c7b64b47717a17a51c0124da26d238
 workflow-type: tm+mt
-source-wordcount: '2609'
+source-wordcount: '2644'
 ht-degree: 1%
 
 ---
-# Snippet
+# Frammenti
 
 <!-- Add snippets within the section that the snippet is used. Snippets that are used throughout the Workfront documentation set should be added to the "General" section. -->
 
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
-## Anteprima evidenziata per l'articolo completo {#highlighted-preview-article-level}
+## Anteprima evidenziata per l&#39;articolo completo {#highlighted-preview-article-level}
 
 <span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
@@ -68,6 +68,18 @@ ht-degree: 1%
 ## Passaggio 1 - Fai clic sull’immagine del profilo - {#step1-click-profile-pic}
 
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic sul tuo nome utente accanto all&#39;immagine del tuo profilo. Oppure, se disponibile, fai clic sull&#39;immagine del tuo profilo nell&#39;area di navigazione superiore, quindi fai clic su **[!UICONTROL Profilo Workfront]**.
+
+## Nota per Workflow Ultimate {#ultimate-package}
+
+>[!IMPORTANT]
+>
+>Per utilizzare questa funzione è necessario disporre del pacchetto Workflow Ultimate.
+
+## Nota per il flusso di lavoro Prime/Ultimate {#prime-or-ultimate-package}
+
+>[!IMPORTANT]
+>
+>Per utilizzare questa funzione è necessario disporre del pacchetto Workflow Prime o Workflow Ultimate.
 
 <!-- Admin and Setup -->
 
