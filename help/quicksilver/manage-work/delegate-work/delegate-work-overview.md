@@ -7,9 +7,9 @@ description: Quando prevedi di uscire dall'ufficio per un breve periodo di tempo
 author: Becky
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '904'
 ht-degree: 1%
 
 ---
@@ -85,7 +85,7 @@ Quando deleghi attività e problemi, tieni presente quanto segue:
 | Un utente assegnato o delegato viene visualizzato nell&#39;intestazione dell&#39;elemento di lavoro | Sì | Sì |
 | Le attività o i problemi assegnati o delegati vengono visualizzati nell&#39;area Home dell&#39;assegnatario o del delegato | Sì, fino al completamento dell&#39;elemento | Sì, solo per l’intervallo di tempo della delega |
 | È possibile assegnare o delegare il lavoro agli utenti dall&#39;area Home | Sì | Sì |
-| Puoi assegnare o delegare il lavoro agli utenti utilizzando | Sì | No |
+| Puoi assegnare o delegare il lavoro agli utenti utilizzando il Bilanciatore dei carichi di lavoro | Sì | No |
 | È possibile assegnare o delegare il lavoro agli utenti di un elenco o dall&#39;intestazione di un elemento di lavoro | Sì | No |
 | Qualsiasi utente può assegnare o delegare altri utenti con elementi di lavoro a cui non è associato | In base alle autorizzazioni e al livello di accesso | No. Solo l’assegnatario può delegare i propri elementi. |
 | Le ore pianificate, effettive o preventivate per il lavoro assegnato o delegato a un utente vengono visualizzate per tale utente negli strumenti di gestione delle risorse | Sì | No |

@@ -6,9 +6,9 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 90b0e019-1b42-4ab2-8b4c-69f85e4c4d78
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1310'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,8 @@ Per informazioni, vedere [Creare aree di lavoro](/help/quicksilver/planning/arch
 Con questa architettura basata su team-first è possibile:
 
 * **Progetta l&#39;hub per supportare il spoke:** Puoi concentrare l&#39;area di lavoro di classificazione globale in modo specifico sugli oggetti più importanti per il team pilota (i loro marchi o prodotti specifici). In questo modo si ottimizza il rapporto di collaborazione tra la governance aziendale e l&#39;autonomia dei team, mantenendo gestibile lo sforzo di progettazione.
+
+  Per informazioni, vedere [Panoramica del tipo di record tra aree di lavoro](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 * **Agisci come attivatore, non come tutore:** Trasferisci il tuo ruolo da impostazione delle regole a sviluppo di funzionalità. Collabora con il team per strutturare l&#39;ambiente di pianificazione.
 

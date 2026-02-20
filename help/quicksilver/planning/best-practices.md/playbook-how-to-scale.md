@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '2549'
+source-wordcount: '2574'
 ht-degree: 0%
 
 ---
@@ -91,6 +91,8 @@ Di seguito sono riportate le caratteristiche delle corsie globali:
 
 * **Regola**: questi campi sono condivisi e obbligatori.
 
+Per informazioni, vedere [Panoramica del tipo di record tra aree di lavoro](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+
 ### I parchi giochi locali (o i &quot;raggi&quot;)
 
 Di seguito sono riportate le caratteristiche dei parchi giochi locali
@@ -171,6 +173,8 @@ Utilizza invece il seguente percorso di maturità dei campi per consentire l’u
 * **Livello 2: riconoscimento pattern**: l&#39;amministratore rileva che i team B e C utilizzano o richiedono un campo simile.
 
 * **Livello 3: standardizzazione dell&#39;organizzazione**: l&#39;amministratore crea una singola versione standardizzata del campo come tipo di record nel Workspace di tassonomia globale e la invia ai team.
+
+  Per informazioni, vedere [Panoramica del tipo di record tra aree di lavoro](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 ### Come smobilizzare i campi
 
@@ -334,6 +338,8 @@ Di seguito sono riportati alcuni esempi di elenchi di controllo da includere:
 * [ ] **Concedi visibilità globale**: concedi loro l&#39;accesso in sola lettura alle aree di lavoro principali e all&#39;area di lavoro tassonomia globale il Giorno 1.
 
 * [ ] **Stabilire il passaggio di consegne**: in che modo il loro lavoro alimenta le aree di lavoro primarie pertinenti? Ad esempio, il loro lavoro potrebbe confluire nelle aree di lavoro principali pertinenti tramite un tipo di record globale o un campo di ricerca specifico.
+
+  Per informazioni sui tipi di record globali, vedere [Panoramica sui tipi di record tra aree di lavoro](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 <!--original content: 
 

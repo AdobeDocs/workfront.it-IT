@@ -6,9 +6,9 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1541'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,11 @@ Per creare l’architettura utilizzando l’approccio hub-and-spoke, è necessar
 
 Devi innanzitutto stabilire un’area di lavoro centralizzata per le classificazioni globali, in modo da definire i concetti principali che tutti i membri dell’organizzazione devono comprendere. Ad esempio, crea i seguenti tipi di record in un’area di lavoro centrale: Marchi, Aree geografiche, Prodotti, Utenti tipo.
 
-Per informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+Per informazioni, consulta:
+
+* [Crea tipi di record](/help/quicksilver/planning/architecture/create-record-types.md)
+
+* [Panoramica del tipo di record in più aree di lavoro](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 
 Quando crei le classificazioni, stabilisci quanto segue:
 
