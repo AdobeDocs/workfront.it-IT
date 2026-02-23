@@ -6,7 +6,7 @@ description: Puoi modificare la lingua in cui vengono visualizzati Adobe Workfro
 feature: Get Started with Workfront
 author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 976cfce04c2dd4526265f9427007b97a768c8d6a
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 1%
@@ -26,11 +26,11 @@ Workfront supporta le seguenti lingue:
 * Inglese (en-US)
 * Francese (fr-FR)
 * Tedesco (de-DE)
-* Giapponese (ja)
-* Spagnolo (es)
-* Italiano (it_IT)
+* Giapponese (ja-JP)
+* Spagnolo (es-ES)
+* Italiano (it-IT)
 * Portoghese (pt-BR)
-* Coreano (ko)
+* Coreano (ko-KR)
 * Cinese - semplificato (zh-CN)
 * Cinese - Tradizionale (zh-TW)
 
@@ -92,7 +92,7 @@ Attualmente, Workfront Fusion supporta solo l’inglese.
 * Workfront Fusion non supporta l&#39;utilizzo di caratteri di testo non inglesi nei campi immessi dall&#39;utente.
 
 Per poter accedere a Workfront Fusion, l’azienda deve acquistare una licenza Workfront Fusion.\
-Per ulteriori informazioni su Workfront Fusion, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Per ulteriori informazioni su Workfront Fusion, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ## Modificare la lingua
 
