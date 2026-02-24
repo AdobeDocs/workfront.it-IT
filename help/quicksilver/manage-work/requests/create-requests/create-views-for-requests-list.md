@@ -5,16 +5,24 @@ title: Creare e gestire le viste nell’area Richieste
 description: Se utilizzi la nuova esperienza di richiesta, puoi creare e salvare viste per l’area Richieste.
 author: Becky
 feature: Work Management
-source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
+exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
+source-git-commit: 8db8382d63d06c23f93a74a326ddb0e1227f44c8
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 3%
+source-wordcount: '689'
+ht-degree: 9%
 
 ---
 
+
 # Creare e gestire le viste nell’area Richieste
 
-Se utilizzi la nuova esperienza di richiesta, puoi creare e salvare viste per l’area Richieste. Queste visualizzazioni includono filtri e disposizioni per le colonne.
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
+-->
+
+Se utilizzi la nuova esperienza di richiesta, puoi creare e salvare viste per l’area Richieste. Queste visualizzazioni includono filtri e disposizioni per le colonne. <!--<span class="preview"> and groupings.</span> -->
 
 Le visualizzazioni possono essere create e gestite nell’area Richieste di Workfront.
 
@@ -38,9 +46,9 @@ Le visualizzazioni possono essere create e gestite nell’area Richieste di Work
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Collaboratore o versione successiva</p>
-   <p>Richiedi o superiore</p>
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
+   <td> <p>Collaboratore o successiva</p>
+   <p>Richiedente o successiva</p>
     </td> 
   </tr> 
   <tr> 
@@ -54,11 +62,11 @@ Le visualizzazioni possono essere create e gestite nell’area Richieste di Work
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Creare una vista nell’area Richieste
+## Creare una visualizzazione per le richieste
 
 Puoi creare una vista nell’area Richieste di Workfront,.
 
@@ -73,7 +81,7 @@ Puoi creare una vista nell’area Richieste di Workfront,.
 1. Immettere un nome per la nuova visualizzazione e fare clic su **Crea**.
 1. Continuare a [Modificare una visualizzazione nell&#39;area Richieste](#edit-a-view-in-the-requests-area).
 
-## Modificare una vista nell’area Richieste
+## Modificare una visualizzazione per le richieste
 
 È possibile modificare le viste esistenti, incluse quelle appena create.
 
@@ -110,6 +118,10 @@ Puoi creare una vista nell’area Richieste di Workfront,.
 L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi le condizioni del filtro.
 
 
+<!--
+1. <Span class="preview">(Optional) Click **Group** and select the column that you want to group by.</span>
+
+-->
 
 >[!IMPORTANT]
 >
@@ -136,4 +148,3 @@ Puoi condividere le viste create con altri utenti, team o gruppi.
 1. Seleziona **Condividi**.
 1. Nella finestra di dialogo visualizzata, immetti i nomi degli utenti, dei team o dei gruppi con cui desideri condividere la visualizzazione, quindi selezionali dall’elenco quando vengono visualizzati.
 1. Fai clic su **Salva**.
-
