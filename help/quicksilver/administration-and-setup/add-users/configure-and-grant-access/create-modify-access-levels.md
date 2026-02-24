@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: 0f2923851230e830eb647d422f2862a0c5d5472b
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 6%
+source-wordcount: '1468'
+ht-degree: 9%
 
 ---
 
@@ -32,7 +32,7 @@ In qualità di amministratore di Adobe Workfront, puoi creare livelli di accesso
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +43,7 @@ In qualità di amministratore di Adobe Workfront, puoi creare livelli di accesso
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
    <p>Piano</p></td> 
   </tr> 
@@ -54,7 +54,7 @@ In qualità di amministratore di Adobe Workfront, puoi creare livelli di accesso
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,21 +63,11 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 {{step-1-to-setup}}
 
 1. Fai clic su **Livelli di accesso** nel pannello a sinistra.
-1. &#x200B;
-   * Nell’ambiente di produzione:
-Seleziona il livello di accesso da copiare e personalizzare, quindi fai clic su **Copia**.
+1. Seleziona il livello di accesso da copiare e personalizzare, quindi fai clic sull&#39;icona **Copia** ![Copia](assets/copy-icon.png).
 
-     Oppure
+   Oppure
 
-     Se si sta modificando un livello di accesso esistente (copiato in precedenza), fare clic sul relativo nome.
-
-   * <span class="preview">Nell&#39;ambiente di anteprima:</span>
-
-     <span class="preview">Selezionare il livello di accesso che si desidera copiare e personalizzare, quindi fare clic sull&#39;icona **Copia** ![Copia icona](assets/copy-icon.png). </span>
-
-     <span class="preview"> O </span>
-
-     <span class="preview">Se stai modificando un livello di accesso esistente, seleziona il livello di accesso facendo clic sulla casella a sinistra di tale livello di accesso, quindi fai clic sull&#39;icona **Modifica** ![Icona Modifica](assets/edit-icon.png). </span>
+   Se stai modificando un livello di accesso esistente, seleziona il livello di accesso facendo clic sulla casella a sinistra di tale livello, quindi fai clic sull&#39;icona **Modifica** ![Icona Modifica](assets/edit-icon.png).
 
 1. Nella casella visualizzata, eseguire una delle operazioni seguenti per iniziare a configurare il livello di accesso personalizzato:
 
