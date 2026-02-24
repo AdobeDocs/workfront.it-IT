@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
 workflow-type: tm+mt
-source-wordcount: '3507'
+source-wordcount: '3508'
 ht-degree: 2%
 
 ---
@@ -54,13 +54,13 @@ Per informazioni sull&#39;esportazione della vista tabella in un file Excel o CS
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p> Standard per creare ed eliminare viste</p>
    <p>Collaboratore o versione successiva per aggiornare gli elementi di visualizzazione</p>
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>   <p>Gestire le autorizzazioni per una visualizzazione</p>  
    <p>Autorizzazioni di visualizzazione a una visualizzazione per modificare temporaneamente le impostazioni di visualizzazione o per duplicarla</p> </td> 
   </tr> 
@@ -154,7 +154,7 @@ Per gestire una vista tabella:
 
 1. Creare una visualizzazione tabella come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
 
-   ![Esempio di visualizzazione tabella](assets/table-view-example.png)
+   ![Esempio di vista tabella](assets/table-view-example.png)
 
 1. (Facoltativo) Fai clic su **Altezza riga**, quindi seleziona una delle seguenti opzioni per modificare l&#39;altezza delle righe della tabella:
    * Piccola
@@ -471,7 +471,7 @@ Per ordinare <!--ungrouped (add this when sorting for groupings will be availabl
 
 È possibile raggruppare i record in base a informazioni simili quando si applica un raggruppamento a una visualizzazione.
 
-Considera quanto segue:
+Considera i seguenti aspetti:
 
 * Potete applicare i raggruppamenti sia nella vista tabella che nella vista timeline. I raggruppamenti della vista tabella sono indipendenti da quelli della vista timeline dello stesso tipo di record.
 * È possibile applicare 3 livelli di raggruppamento in una visualizzazione. I record vengono raggruppati in base all&#39;ordine dei raggruppamenti selezionati.
@@ -504,7 +504,9 @@ Per aggiungere un raggruppamento:
 
    ![Raggruppamento applicato nella vista tabella](assets/grouping-applied-in-table-view.png)
 
-
+   <!--For Feb 26, and change indent to the left:
+    1. <span class="preview">(Optional) Choose A-Z or Z-A from the sorting drop-down menu to the right of a selected field. This sorts the groupings in the timeline, accordingly.</span>
+    -->
 
 1. (Facoltativo) Nella casella **Raggruppa record per**, fai clic sull&#39;icona **x** a destra di un campo selezionato per il raggruppamento per rimuovere il raggruppamento
 
@@ -582,9 +584,13 @@ Quando si visualizza la vista tabella, è inoltre possibile visualizzare il camp
 
 1. Passare a una pagina del tipo di record e aprire qualsiasi visualizzazione.
 1. (Condizionale) Se altri utenti modificano contemporaneamente i record del tipo selezionato, i relativi avatar vengono visualizzati nell’angolo superiore destro della visualizzazione.
-1. Fai clic sul menu a discesa accanto agli avatar, quindi seleziona l&#39;opzione **Mostra collaboratori**. L’opzione è selezionata per impostazione predefinita.
+1. Fai clic sul menu a discesa accanto agli avatar, per attivare l&#39;impostazione **Mostra collaboratori**. L&#39;impostazione è attivata per impostazione predefinita.
 
    ![Mostra/nascondi collaboratori selezionati](assets/show-collaborators-toggle-selected.png)
+
+   >[!TIP]
+   >
+   >È possibile selezionare l&#39;opzione **Mostra collaboratori** da qualsiasi visualizzazione. Il campo attualmente modificato da altri utenti è evidenziato solo nella vista tabella.
 
 1. (Facoltativo) Apri una vista a tabella e il campo che un’altra persona sta modificando attivamente viene evidenziato nel colore corrispondente al contorno del proprio avatar nella vista a tabella.
 
@@ -592,9 +598,18 @@ Quando si visualizza la vista tabella, è inoltre possibile visualizzare il camp
 
    ![Campo tabella indicatori in tempo reale e connessione avatar](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
-   >[!TIP]
-   >
-   >È possibile selezionare l&#39;opzione **Mostra collaboratori** da qualsiasi visualizzazione. Il campo attualmente modificato da altri utenti è evidenziato solo nella vista tabella.
+<!--maybe include a screen shot after release if they update the UI text in this list of users-->
+
+<!--For Feb 26: 
+
+1. <span class="preview">(Optional) Click the triangle in the upper-right corner of the cell that contains the field edited by others. A list of users currently editing the field displays.</span> 
+
+>[!TIP]
+>
+><span class="preview">Real-time presence indicators display users that are currently editing a field anywhere in Workfront Planning. This includes either the table view or the Details area of the record.</span>
+
+-->
+
 
 
 

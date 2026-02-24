@@ -6,14 +6,18 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
 workflow-type: tm+mt
-source-wordcount: '1602'
-ht-degree: 3%
+source-wordcount: '1600'
+ht-degree: 4%
 
 ---
 
-# Configurare le automazioni di Adobe Workfront Planning
+# Configurare le automazioni di Pianificazione di Adobe Workfront
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 <!--add screen shots when UI is finalized AND redo all the steps - some things got changed and moved around-->
 
@@ -22,10 +26,6 @@ ht-degree: 3%
 <!-- add a new section to this article to mention a new way to create WF objects from Planning: help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md-->
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
-
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 È possibile configurare le automazioni in Adobe Workfront Planning che, se attivate, creano oggetti in Workfront o record in Workfront Planning quando attivate da un record Planning. Gli oggetti o i record creati vengono automaticamente collegati ai record da cui si sta attivando l&#39;automazione.
 
@@ -57,12 +57,12 @@ Per informazioni sulla creazione di record o oggetti mediante un&#39;automazione
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td> <p>Gestisci le autorizzazioni per l’area di lavoro e per il tipo di record in cui desideri creare automazioni. </p>
    <p>Gli amministratori di sistema dispongono delle autorizzazioni di gestione per tutte le aree di lavoro, incluse quelle che non hanno creato</p>
    </td> 
@@ -154,9 +154,31 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 1. Fai clic su **Salva**.
 Viene visualizzata la pagina dei dettagli dell’automazione.
 
-1. Nella pagina dei dettagli dell&#39;automazione, aggiorna i campi seguenti nella sezione **Triggers**:
+1. Nella pagina dei dettagli dell&#39;automazione, seleziona una delle seguenti opzioni nella sezione **Triggers**:
 
-   * **Trigger**: selezionare l&#39;azione che attiverà l&#39;automazione. Selezionare ad esempio **Pulsante clic**. <!--update this step with a list of all possible triggers; right now only Button click is available-->
+   * **Trigger**: selezionare un&#39;azione che attiverà l&#39;automazione:
+
+      * Clic sul pulsante
+        <!--For Feb 26 and add Preview disclaimer at the top: * <span class="preview">Field value change</span>-->
+
+   <!-- For Feb 26:
+   1. (Conditional) If you selected **Button click**, go to the step below that describes the **Actions** area. 
+
+   1. <span class="preview">(Conditional) If you selected **Field value change**, do the following in the **Settings** section: </span>
+
+      1. <span class="preview">Choose a field from the drop-down menu. These are fields associated with the record type you selected.</span> 
+      1. <span class="preview">Continue defining conditions for the selected field.</span>
+      1. <span class="preview">Click **Add condition** to add up to 5 fields and define their condition.</span>
+         
+         <span class="preview">Workfront Planning will create objects automatically when the conditions are met. </span>
+
+         ![Field value change trigger selected](assets/field-value-change-trigger-selected.png)
+
+         >[!TIP]
+         >
+         ><span class="preview">The modifier in each condition changes with the type of fields you select.</span>
+   
+   -->
 
 1. Aggiorna i campi seguenti nella sezione **Azioni**: <!--submitted bugs for these fields - see if they need changing here-->
    * **Azioni**: selezionare l&#39;azione che si desidera venga eseguita da Workfront quando si attiva l&#39;automazione. Questo campo è obbligatorio.

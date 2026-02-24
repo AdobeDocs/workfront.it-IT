@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 0%
+source-wordcount: '724'
+ht-degree: 1%
 
 ---
 
@@ -41,7 +41,6 @@ Per ulteriori informazioni sui record connessi, vedere [Panoramica sui record co
 * Un gruppo
 * Un programma
 * Un portfolio
-* Un progetto
 
 ## Requisiti di accesso
 
@@ -63,7 +62,7 @@ Per ulteriori informazioni sui record connessi, vedere [Panoramica sui record co
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
@@ -74,7 +73,7 @@ Per ulteriori informazioni sui record connessi, vedere [Panoramica sui record co
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td> <p>Autorizzazioni di Contribute o di livello superiore per l'area di lavoro e il tipo di record in cui si desidera creare oggetti utilizzando le automazioni esistenti. </p>  
    <p>Gestisci le autorizzazioni per gli oggetti Workfront (portfolio) per aggiungere oggetti figlio (programmi o progetti).</p>
    <p>Gli amministratori di sistema dispongono delle autorizzazioni di gestione per tutte le aree di lavoro, incluse quelle che non hanno creato</p>
@@ -161,10 +160,21 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 * I nuovi oggetti o record non sostituiscono quelli esistenti nello stesso campo. Attivando più volte la stessa automazione per lo stesso record, vengono aggiunti i nuovi oggetti o record nello stesso campo connesso del record originale, oltre a quelli creati in precedenza.
 
+
+
 <!--hide this for now; they are trying to remove this limitation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
 
 
 ## Utilizzare un&#39;automazione di Workfront Planning per creare un oggetto o un record
+
+<!--For Feb 26 and add Preview disclosure at the top:
+
+<span class="preview">When you choose a Field value change-automation, Workfront Planning creates the objects automatically, when the conditions you define are met. </span>
+
+For information, see [Configure Adobe Workfront Planning automations to create records](/help/quicksilver/planning/records/configure-automations-to-create-records.md).</span>
+-->
+
+Questa sezione descrive come creare oggetti utilizzando l&#39;automazione dei clic con i pulsanti.
 
 1. In Workfront Planning aprire la pagina del tipo di record contenente l&#39;automazione che si desidera utilizzare per creare e collegare automaticamente record o oggetti.
 1. Aprire la vista tabella.

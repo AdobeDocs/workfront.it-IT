@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
 workflow-type: tm+mt
-source-wordcount: '2966'
-ht-degree: 1%
+source-wordcount: '2972'
+ht-degree: 4%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 <!--take production and preview references out at prod-->
 
-# Connetti tipi di record
+# Collegare tipi di record
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
@@ -32,9 +32,9 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 È possibile connettere tipi di record tra loro o collegare tipi di record con tipi di oggetti di altre applicazioni.
 
-La connessione dei tipi di record è utile quando si dispone di diversi tipi di oggetti di lavoro che influiscono l&#39;uno sull&#39;altro. Ad esempio, puoi utilizzare le campagne e ogni campagna può gestire più marchi. Per indicare questa relazione, puoi collegare le campagne ai brand. In questo modo viene creato un campo di connessione per i marchi nel record Campaign.
+La connessione dei tipi di record è utile quando disponi di diversi tipi di oggetti di lavoro che si influenzano a vicenda. Ad esempio, potresti utilizzare le campagne e ciascuna campagna potrebbe gestire più brand. Per indicare questa relazione, puoi collegare le campagne ai brand. In questo modo viene creato un campo di connessione per i marchi nel record Campaign.
 
-Inoltre, il lavoro per ogni campagna potrebbe essere pianificato in più progetti in Workfront. Per indicare questo, puoi collegare le campagne ai relativi progetti. In questo modo viene creato un campo di connessione per i progetti nel record Campaign.
+Inoltre, il lavoro per ciascuna campagna potrebbe essere pianificato in più progetti in Workfront. Per indicarlo, puoi collegare le campagne ai relativi progetti. In questo modo viene creato un campo di connessione per i progetti nel record Campaign.
 
 Dopo aver creato i campi di connessione, è possibile collegare singoli record tra i due tipi di record o di oggetti.
 
@@ -91,16 +91,16 @@ Per un esempio di connessione di tipi di record e record, vedere [Esempio di con
    <ul><li><p>Una licenza Adobe Experience Manager Assets e un’integrazione tra AEM Assets e Workfront per collegare le risorse AEM ai tipi di record Planning.</p>
    <p>Per informazioni, consulta <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p></li>
    <li><p> Una licenza Adobe GenStudio for Performance Marketing per collegare i tipi di record ai marchi GenStudio</p>
-   <p>Per informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/get-started">Introduzione ad Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Per informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introduzione ad Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>   <p>Gestire le autorizzazioni per un’area di lavoro</p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  </td> 
   </tr>  
@@ -175,7 +175,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 </tbody> 
 </table> -->
 
-## Connetti tipi di record
+## Collegare tipi di record
 
 <!--when changes here, also update the article for "Connect records"-->
 
@@ -189,7 +189,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 1. Fare clic sulla scheda di un tipo di record per aprire la pagina del tipo di record.
 1. Fai clic sull&#39;icona **+** nell&#39;angolo superiore destro della visualizzazione tabella, quindi fai clic sulla scheda **Nuova connessione**.
 
-   ![Nuova scheda di connessione con le opzioni di Workfront AEM](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
+   ![Nuova scheda di connessione con le opzioni AEM di Workfront](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
 
 1. Cercare un tipo di record oppure selezionare una delle opzioni seguenti:
 
@@ -234,7 +234,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
      >
      >È necessario creare moduli di richiesta e pubblicarli per inviare le richieste di Planning per la creazione di record in Workfront Planning.
      >
-     >Per informazioni, vedere i seguenti articoli:
+     >Per ulteriori informazioni, consulta:
      >* [Crea e gestisci un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
      >* [Inviare le richieste di Adobe Workfront Planning per creare record](/help/quicksilver/planning/requests/submit-requests.md).
 
@@ -300,7 +300,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
    >[!NOTE]
    >
-   >L&#39;amministratore di Workfront può mappare i campi di Workfront Planning sui campi di Experience Manager Assets tramite la mappatura dei metadati in Workfront. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >L&#39;amministratore di Workfront può mappare i campi di Workfront Planning sui campi di Experience Manager Assets tramite la mappatura dei metadati in Workfront. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Condizionale) Quando si sceglie di connettersi a Experience Manager Assets, a un tipo di record di Workfront Planning o a un marchio GenStudio, scegliere una delle opzioni seguenti nell&#39;area **Aspetto record**:
@@ -323,15 +323,19 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 1. Selezionare **Seleziona campi di ricerca** per aggiungere campi dal tipo di record a cui ci si connette. I campi di ricerca sono campi associati al record o al tipo di oggetto a cui si sta effettuando il collegamento. Il collegamento consente di visualizzare le informazioni del record o dell&#39;oggetto a cui si sta effettuando il collegamento nel record da cui si sta effettuando il collegamento. Questa opzione è selezionata per impostazione predefinita.
 
-   >[!TIP]
-   >
-   >* Non è possibile aggiungere campi typeahead di Workfront (inclusi campi come Proprietario progetto o Sponsor progetto) come campi di ricerca.
-   >
-   >* Le informazioni relative al campo data degli oggetti di Workfront vengono visualizzate nel formato 24 ore in Workfront Planning, indipendentemente da come vengono visualizzate in Workfront.
-   >
-   >   Se, ad esempio, la Data inizio pianificata di un progetto viene visualizzata come 3:00 PM in Workfront, verrà visualizzata come 15:00 in Workfront Planning in un campo di ricerca importato.
-   >* Nell’ambiente di produzione non è possibile aggiungere campi Persone come campi di ricerca. <span class="preview">È possibile aggiungere campi Persone come campi di ricerca nell&#39;ambiente di anteprima.</span>
-   >
+<!--For Feb 26: replace the first bullet below in the TIP with this: 
+
+* In the Production environment, you cannot add Workfront user fields (including fields like Project Owner, or Project Sponsor) as lookup fields. <span class="preview">You can add user fields as lookup fields in the Preview environment.</span>-->
+
+    >[!TIP]
+    >
+    >* Non è possibile aggiungere campi typeahead o utente di Workfront (inclusi campi come Proprietario progetto o Sponsor progetto) come campi di ricerca.
+    >
+    >* Le informazioni relative al campo data degli oggetti Workfront vengono visualizzate nel formato 24 ore in Workfront Planning, indipendentemente da come vengono visualizzate in Workfront.
+    >
+    >   Ad esempio, se la Data inizio pianificata di un progetto in Workfront è visualizzata come 15:00 in Workfront Planning in un campo di ricerca importato.
+    >* Nell&#39;ambiente di produzione non è possibile aggiungere campi Persone come campi di ricerca. &lt;span class=&quot;preview&quot;>Puoi aggiungere campi Persone come campi di ricerca nell’ambiente di anteprima.&lt;/span>
+    >
 
 1. Fai clic su **Crea**.
 

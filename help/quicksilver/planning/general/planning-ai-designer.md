@@ -6,10 +6,10 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
 workflow-type: tm+mt
 source-wordcount: '1470'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 0%
 >
 >Planning Designer è attualmente disponibile solo per gli utenti che partecipano al programma Beta chiuso.
 >
->Le informazioni contenute in questo articolo si riferiscono ad Adobe Workfront Planning, una funzionalità aggiuntiva di Adobe Workfront.
+>Le informazioni contenute in questo articolo si riferiscono alla Pianificazione di Adobe Workfront, una funzionalità aggiuntiva di Adobe Workfront.
 >
->Per un elenco dei requisiti per accedere a Workfront Planning, vedere [Panoramica dell&#39;accesso ad Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+>Per un elenco dei requisiti per accedere alla Pianificazione di Workfront, consulta [Panoramica dell’accesso alla Pianificazione di Adobe Workfront](/help/quicksilver/planning/access/access-overview.md).
 > 
 >Per informazioni generali su Workfront Planning, vedere [Introduzione ad Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
@@ -33,9 +33,9 @@ Sia che venga utilizzato direttamente o tramite l&#39;Assistente di intelligenza
 
 Per informazioni su Workfront Planning, vedere gli articoli seguenti:
 
-* [Informazioni generali su Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md)
-* [Introduzione a Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
-* [Panoramica sull’accesso ad Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md)
+* [Informazioni generali sulla Pianificazione di Adobe Workfront](/help/quicksilver/planning/planning-information.md)
+* [Introduzione alla Pianificazione di Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md)
+* [Panoramica sull’accesso a Pianificazione di Adobe Workfront](/help/quicksilver/planning/access/access-overview.md)
 
 
 ## Requisiti di accesso <!--edit theses??-->
@@ -57,12 +57,12 @@ Per informazioni su Workfront Planning, vedere gli articoli seguenti:
 
 </tr> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Standard</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>   <p>Gestione delle autorizzazioni per un'area di lavoro</a> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  </td> 
   </tr>  
@@ -111,15 +111,15 @@ Il tuo feedback viene inviato ai team tecnici e di prodotto.
      Per informazioni, vedere [Configurare le informazioni di base per il sistema](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
    * L’amministratore di Workfront deve accettare il contratto di AI Assistant e quindi attivare l’AI Assistant per tutti gli altri utenti.
 
-     Per ulteriori informazioni, vedere [Attivare o disattivare l&#39;Assistente AI](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+     Per ulteriori informazioni, consulta [Abilitare o disabilitare l’Assistente IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 * Dopo che l&#39;amministratore di sistema ha attivato l&#39;Assistente IA per l&#39;organizzazione, il Designer di Planning è disponibile per tutti gli utenti per impostazione predefinita, se è stato reso disponibile per l&#39;organizzazione.
 * Le azioni eseguite dal Designer di Planning possono essere eseguite anche dall&#39;Assistente IA, quando lo si utilizza nell&#39;area Pianificazione.
 * Le azioni eseguite dall&#39;Assistente IA nell&#39;area Pianificazione o quelle eseguite dal Designer di pianificazione si trovano nel contesto delle autorizzazioni di Workfront Planning e del livello di accesso a Workfront.
 
-  Per informazioni, vedere i seguenti articoli:
+  Per ulteriori informazioni, consulta:
 
-   * [Panoramica delle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md)
-   * [Panoramica del tipo di licenza quando si utilizza Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md)
+   * [Panoramica delle autorizzazioni di condivisione in Pianificazione di Adobe Workfront](/help/quicksilver/planning/access/sharing-permissions-overview.md)
+   * [Panoramica del tipo di licenza durante l’utilizzo di Pianficazione di Adobe Workfront](/help/quicksilver/planning/access/license-type-overview.md)
 
 * Le modifiche apportate dall&#39;Assistente AI o dal Designer di Planning per conto dell&#39;utente vengono registrate nel pannello della cronologia del record.
 
@@ -136,6 +136,8 @@ Il tuo feedback viene inviato ai team tecnici e di prodotto.
 È possibile utilizzare Planning Designer o l&#39;Assistente IA per eseguire una delle azioni seguenti:
 
 * Creare e configurare le aree di lavoro
+
+<!--On March 2: * Edit workspaces-->
 
 * Creare tipi di record, inclusa la definizione e l&#39;aggiunta di tipi di record globali alle aree di lavoro
 
@@ -178,7 +180,7 @@ Il tuo feedback viene inviato ai team tecnici e di prodotto.
 
    ![Pulsante Progettazione con IA nella pagina Aree di lavoro](assets/design-with-ai-button-on-workspaces-page.png)
 
-1. Fai clic su **Crea con IA**. <!--update this when they change it-->
+1. Fai clic su **Crea con IA**. <!--update this when they change it to Generate with AI-->
 
    Viene visualizzata la finestra **Planning Designer**. <!--remove the Beta tag here when this removes from Beta-->
 
@@ -225,6 +227,12 @@ Il tuo feedback viene inviato ai team tecnici e di prodotto.
 1. Fai clic sull&#39;icona **Apri area di lavoro in una nuova scheda** ![Apri area di lavoro in una nuova scheda](assets/open-workspace-on-new-tab-icon.png) per aprire l&#39;area di lavoro che stai aggiornando in una nuova scheda.
 1. Fare clic sull&#39;icona **Chiudi** **X** per chiudere Planning Designer e aprire l&#39;area Aree di lavoro.
 1. Aprire l&#39;area di lavoro modificata mediante Planning Designer e apportare ulteriori modifiche ai relativi oggetti.
+
+<!-- for March 2 -- replace the last step with this: 
+1. (Optional) To edit a workspace, do one of the following:
+
+    * Open the workspace and manually make changes to it. For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md). 
+    * Click **Edit with AI**. This opens the Planning Designer. Repeat the steps above to use AI and make further changes to the workspace.-->
 
 ## Disattiva il Designer di pianificazione per la tua organizzazione
 
