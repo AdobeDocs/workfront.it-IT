@@ -246,14 +246,14 @@ Per informazioni sulla modifica in blocco degli utenti in Adobe Admin Console, c
 >* Se un utente fa parte di uno o più gruppi di utenti di Admin Console e il profilo di prodotto è stato aggiunto a uno o più di tali gruppi, la disattivazione dell’utente da Workfront non ne determina la rimozione effettiva dal prodotto. L’utente deve essere rimosso dai gruppi di utenti in Admin Console.
 >* L’eliminazione di un utente da Adobe Admin Console disattiva l’utente in Workfront, ma non lo elimina da Workfront.
 
-Per istruzioni sull&#39;eliminazione di utenti in Adobe Admin Console, vedere [Gestione degli utenti della directory](https://helpx.adobe.com/enterprise/using/manage-directory-users.html) nella documentazione di Adobe.
+Per istruzioni sull&#39;eliminazione di utenti in Adobe Admin Console, vedere [Gestione degli utenti della directory](https://helpx.adobe.com/it/enterprise/using/manage-directory-users.html) nella documentazione di Adobe.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>You can create Adobe Workfront users and system administrators with the <a href="https://adminconsole.adobe.com/" alt="Admin Console link">Adobe Admin Console</a>. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the <a href="https://helpx.adobe.com/enterprise/using/admin-console.html" alt="Admin Console Overview">Admin Console Overview</a>.</p>
+<p>You can create Adobe Workfront users and system administrators with the <a href="https://adminconsole.adobe.com/" alt="Admin Console link">Adobe Admin Console</a>. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the <a href="https://helpx.adobe.com/it/enterprise/using/admin-console.html" alt="Admin Console Overview">Admin Console Overview</a>.</p>
 <p>Before using the Admin Console for Workfront, you should receive a receive an email inviting you to the console. Click in the invitation to accept it and create an account. You can also use an existing account, if already available.</p>
 <h2>Create users</h2>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Create users in WF with the Adobe admin console</p>
