@@ -1,18 +1,18 @@
 ---
 title: Gestire gli utenti in Adobe Admin Console
-description: In qualità di amministratore di Adobe, puoi creare utenti e amministratori di sistema di Adobe Workfront utilizzando Adobe Admin Console.
+description: In qualità di amministratore Adobe, puoi creare utenti e amministratori di sistema di Adobe Workfront utilizzando Adobe Admin Console.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 22ae8b489c63ba6eea1472cf415f95e375a94773
+source-git-commit: 793419db3e9552e2e425aec26300b8c2b4ab8583
 workflow-type: tm+mt
-source-wordcount: '1544'
-ht-degree: 0%
+source-wordcount: '1638'
+ht-degree: 94%
 
 ---
 
-# Gestione degli utenti in Adobe Admin Console
+# Gestire gli utenti in Adobe Admin Console
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -20,24 +20,24 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->La funzionalità di questo articolo è disponibile solo se l’istanza di Workfront della tua organizzazione è stata integrata in Adobe Business Platform.
+>La funzionalità di questo articolo è disponibile solo se l’istanza di Workfront dell’organizzazione è stata integrata in Adobe Business Platform.
 >
->Per un elenco delle procedure che differiscono a seconda che l&#39;organizzazione sia stata integrata o meno in Adobe Business Platform, consulta [Differenze di amministrazione basate su Platform (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Per un elenco delle procedure che differiscono a seconda che l’organizzazione abbia effettuato o meno l’onboarding su Adobe Business Platform, consulta [Differenze di amministrazione basate su Platform (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-In qualità di amministratore di Adobe, puoi creare amministratori di sistema di Adobe Workfront utilizzando Adobe Admin Console. La console è una posizione centrale per la gestione delle adesioni Adobe in tutta l’organizzazione. Per ulteriori informazioni, vedere [Panoramica di Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html).
+In qualità di amministratore Adobe, puoi creare amministratori di sistema di Adobe Workfront utilizzando Adobe Admin Console. La console è il punto centrale per la gestione delle autorizzazioni Adobe in tutta l’organizzazione. Per ulteriori informazioni, consulta la [Panoramica di Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html).
 
 >[!NOTE]
 >
->* **Gli amministratori di Workfront devono essere configurati in Adobe Admin Console.** Per informazioni e istruzioni, vedere [Creare amministratori di sistema in Workfront con Adobe Admin Console](#create-system-administrators-in-workfront-with-the-adobe-admin-console) in questo articolo.
->* **Se l&#39;organizzazione utilizza il Single Sign-On (SSO)**, è consigliabile creare utenti e assegnarli a Workfront in Adobe Admin Console. La creazione di questi utenti in Workfront è possibile, ma potrebbero verificarsi problemi durante il trasferimento di tali informazioni a Adobe Admin Console, in base alla configurazione di Admin Console dell’organizzazione.
->  &#x200B;>   Dopo aver creato l’utente in Adobe Admin Console, puoi configurare le relative informazioni in Workfront, ad esempio assegnando ruoli, gruppi, team e livelli di accesso.
->* **Se l&#39;organizzazione non utilizza il Single Sign-On (SSO)**, è possibile aggiungere utenti non amministratori di sistema direttamente in Workfront. È possibile aggiungere utenti in Adobe Admin Console, ma aggiungerli in Workfront consente di impostarne il livello di accesso durante la creazione, con un conseguente risparmio di tempo.
+>* **Gli amministratori di Workfront devono essere configurati in Adobe Admin Console.** Per informazioni e istruzioni, consulta [Creare amministratori di sistema in Workfront con Adobe Admin Console](#create-system-administrators-in-workfront-with-the-adobe-admin-console) in questo articolo.
+>* **Se l’organizzazione utilizza il Single Sign-On (SSO)**, è consigliabile creare utenti e assegnarli a Workfront in Adobe Admin Console. La creazione di questi utenti in Workfront è possibile, ma potrebbero verificarsi problemi durante il trasferimento di tali informazioni ad Adobe Admin Console, in base alla configurazione di Admin Console dell’organizzazione.
+>   Dopo aver creato l’utente in Adobe Admin Console, puoi configurare le relative informazioni in Workfront, ad esempio assegnando ruoli, gruppi, team e livelli di accesso.
+>* **Se l’organizzazione non utilizza il Single Sign-On (SSO)**, puoi aggiungere utenti non amministratori di sistema direttamente in Workfront. Anche se è possibile aggiungere utenti in Adobe Admin Console, aggiungerli in Workfront consente di configurarne il livello di accesso durante la creazione, con un conseguente risparmio di tempo.
 
-Quando si apportano modifiche ai profili degli utenti da Admin Console, viene aggiunto un aggiornamento alla scheda Attività del sistema dell’utente in Workfront. L’aggiornamento viene visualizzato come effettuato dal &quot;Sistema&quot;. Si riferisce all’amministratore di Adobe Admin Console e non all’amministratore principale di Workfront.
+Quando si apportano modifiche ai profili degli utenti da Admin Console, viene aggiunto un aggiornamento alla scheda Attività del sistema dell’utente in Workfront. L’aggiornamento viene visualizzato come effettuato dal “Sistema”. Questo si riferisce all’amministratore di Adobe Admin Console e non all’amministratore principale di Workfront.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ Quando si apportano modifiche ai profili degli utenti da Admin Console, viene ag
   </tr> 
   <tr> 
    <td role="rowheader">Diritti di amministratore di Adobe</td> 
-   <td> <p>Devi essere amministratore del profilo di prodotto dei prodotti Adobe per la tua organizzazione</p> </td> 
+   <td> <p>È necessario essere amministratore del profilo di prodotto dei prodotti Adobe per l’organizzazione</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,24 +62,24 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 ## Prerequisiti
 
-Prima di utilizzare Admin Console per Workfront, dovresti ricevere un’e-mail di invito alla console.
+Prima di utilizzare Admin Console per Workfront, devi ricevere un’e-mail di invito alla console.
 
-1. Se hai poca esperienza con Adobe e hai ricevuto un’e-mail che ti diceva che ora disponi dei diritti di amministrazione per gestire il software e i servizi Adobe per la tua organizzazione, fai clic sul pulsante nell’e-mail per creare un account Adobe e aprire Admin Console.
+1. Se hai appena iniziato a utilizzare Adobe e hai ricevuto un’e-mail che afferma che ora disponi dei diritti di amministrazione per gestire il software e i servizi Adobe per la tua organizzazione, fai clic sul pulsante nell’e-mail per creare un account Adobe e aprire Admin Console.
 
    Oppure
 
-   Se disponi già di un account Adobe, passa alla [pagina Adobe Admin Console](https://adminconsole.adobe.com/).
+   Se disponi già di un account Adobe, passa alla [pagina di Adobe Admin Console](https://adminconsole.adobe.com/).
 
 ## Dettagli aggiuntivi su Adobe Admin Console
 
-* Gli amministratori di sistema di Workfront possono disattivare un utente Workfront da Workfront, ma questo non disattiva l’utente in Admin Console.
+* Gli amministratori di sistema di Workfront possono disattivare un utente dall’interno di Workfront, ma questa operazione non disattiva l’utente in Admin Console.
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about deactivating a user in Workfront, see </p>
   -->
 
-* L&#39;utente **Gruppo predefinito** è determinato in base all&#39;utente che li ha creati. Questo non è personalizzabile dall’interno di Admin Console.
-* Il livello di accesso Amministratore di sistema di Workfront può essere modificato solo dall&#39;interno di Adobe Admin Console.
+* Il **Gruppo Home** dell’utente è determinato in base all’utente che lo ha creato. Questo non è personalizzabile dall’interno di Admin Console.
+* Il livello di accesso Amministratore di sistema di Workfront può essere modificato solo dall’interno di Adobe Admin Console.
 
   <!--
   DRAFTED IN FLARE:
@@ -87,97 +87,97 @@ Prima di utilizzare Admin Console per Workfront, dovresti ricevere un’e-mail d
   
   -->
 
-* Il passaggio dell’accesso di un utente da Amministratore di sistema a qualsiasi altro livello di accesso deve essere eseguito innanzitutto tramite Admin Console.
+* La modifica dell’accesso di un utente da Amministratore di sistema a qualsiasi altro livello di accesso deve essere eseguita prima in Admin Console.
 
   <!--
    This is not clear
   -->
 
-* Per rimuovere l’accesso come amministratore di sistema da un utente in Workfront, è necessario utilizzare Adobe Admin Console per rimuovere l’utente come amministratore del profilo di prodotto. In questo modo il livello di accesso Workfront dell&#39;utente cambia da Amministratore di sistema a Richiedente.
+* Per rimuovere l’accesso come amministratore di sistema da un utente in Workfront, è necessario utilizzare Adobe Admin Console per rimuovere l’utente come amministratore del profilo di prodotto. In questo modo il livello di accesso Workfront dell’utente cambia da Amministratore di sistema a Richiedente.
 
   >[!IMPORTANT]
   >
   >Non apportare modifiche al profilo di prodotto stesso.
 
-* Gli amministratori di Adobe Admin Console possono impostare regole di assegnazione automatica per automatizzare il processo di assegnazione dei prodotti Adobe agli utenti della propria organizzazione. Per utilizzare questa funzionalità, è necessario eseguire la migrazione della tua organizzazione ad Adobe Unified Experience. Per ulteriori informazioni e istruzioni, consulta [Gestire le regole di assegnazione automatica](https://helpx.adobe.com/it/enterprise/using/automatic-assignment-rules.html) nella documentazione di Adobe.
+* Gli amministratori di Adobe Admin Console possono configurare regole di assegnazione automatica per automatizzare il processo di assegnazione dei prodotti Adobe agli utenti della propria organizzazione. Per utilizzare questa funzionalità, è necessario effettuare la migrazione dell’organizzazione ad Adobe Unified Experience. Per ulteriori informazioni e istruzioni, consulta [Gestire le regole di assegnazione automatica](https://helpx.adobe.com/it/enterprise/using/automatic-assignment-rules.html) nella documentazione di Adobe.
 
   >[!NOTE]
   >
-  >Se selezioni un’organizzazione attendibile durante la configurazione delle assegnazioni automatiche, l’organizzazione si trova nell’area Utenti nelle directory o nei domini selezionati. Fare clic sulla freccia a discesa accanto al campo **Seleziona directory** e selezionare le organizzazioni. L&#39;organizzazione attendibile è contrassegnata con un contrassegno attendibile.
+  >Se selezioni un’organizzazione attendibile durante la configurazione delle assegnazioni automatiche, l’organizzazione può essere individuata nell’area Utenti nelle directory o nei domini selezionati. Fai clic sulla freccia del menu a discesa accanto al campo **Seleziona directory** e seleziona le organizzazioni. L’organizzazione attendibile è contrassegnata con un badge attendibile.
 
-## Accedi all’area utente e amministrazione per l’istanza Production di Workfront {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
+## Accedi all’area utenti e amministratori per l’istanza di produzione di Workfront {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
-1. Dalla [pagina Adobe Admin Console](https://adminconsole.adobe.com/), seleziona la scheda **Prodotti** nella barra di navigazione superiore, quindi seleziona **Workfront**.
+1. Dalla [pagina di Adobe Admin Console](https://adminconsole.adobe.com/), seleziona la scheda **Prodotti** nella barra di navigazione superiore, quindi seleziona **Workfront**.
 
    <!--![Admin Console product](assets/admin-product-1.png)-->
 
 1. Nell’elenco visualizzato, seleziona il collegamento in alto.
 
-   Questa è l’istanza di produzione in cui lavorano gli utenti.
+   Questa è l’istanza di Produzione in cui lavorano i tuoi utenti.
 
    <!--![Admin Console instances](assets/instances-1.png)-->
 
    >[!TIP]
    >
-   >Il secondo collegamento nell’elenco, l’istanza Anteprima, è un ambiente di test che replica l’ambiente di produzione live. Per ulteriori informazioni, consulta [Ambiente Sandbox di anteprima di Adobe Workfront](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+   >Il secondo collegamento nell’elenco, l’istanza di Anteprima, è un ambiente di test che replica l’ambiente di produzione live. Per ulteriori informazioni, consulta [Ambiente sandbox di anteprima di Adobe Workfront](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
    >
    >
-   >Nell’elenco potrebbero essere visualizzati anche i collegamenti agli ambienti sandbox. Per ulteriori informazioni, consulta [Ambiente Sandbox di anteprima di Adobe Workfront](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+   >Nell’elenco potrebbero essere visualizzati anche i collegamenti agli ambienti sandbox. Per ulteriori informazioni, consulta [Ambiente sandbox di anteprima di Adobe Workfront](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
-1. Nell&#39;elenco visualizzato, con la scheda **Profili di prodotto** selezionata, fare clic sul collegamento Profilo di prodotto Workfront.
+1. Nell’elenco visualizzato, con la scheda **Profili di prodotto** selezionata, fai clic sul nome del collegamento del Profilo di prodotto Workfront.
 
    ![Profili di prodotto](assets/prod-profile-1.png)
 
-   Questo elenco include tutti gli utenti già assegnati all’istanza Production di Workfront.
+   Questo elenco include tutti gli utenti già assegnati all’istanza di Produzione di Workfront.
 
    >[!IMPORTANT]
    >
    >Non apportare modifiche al profilo di prodotto stesso.
 
-1. Passare a una delle sezioni seguenti in questo articolo:
+1. Continua con una delle sezioni seguenti in questo articolo:
 
    * [Creare utenti in Workfront con Adobe Admin Console](#create-users-in-workfront-with-the-adobe-admin-console)
-   * [Creazione di amministratori di sistema in Workfront con Adobe Admin Console](#create-system-administrators-in-workfront-with-the-adobe-admin-console)
+   * [Creare amministratori di sistema in Workfront con Adobe Admin Console](#create-system-administrators-in-workfront-with-the-adobe-admin-console)
 
-## Creazione di amministratori di sistema in Workfront con Adobe Admin Console {#create-system-administrators-in-workfront-with-the-adobe-admin-console}
+## Creare amministratori di sistema in Workfront con Adobe Admin Console {#create-system-administrators-in-workfront-with-the-adobe-admin-console}
 
 <!--Audited: 12/2023-->
 
-Il livello di accesso Amministratore di sistema è concesso solo su Adobe Admin Console. Non puoi concedere o rimuovere l’accesso come amministratore da Workfront.
+Il livello di accesso Amministratore di sistema è concesso solo su Adobe Admin Console. Non puoi concedere o rimuovere l’accesso come amministratore in Workfront.
 
-È necessario aggiungere un utente all&#39;istanza Production di Workfront prima di poter impostare l&#39;utente come amministratore di sistema di Workfront.
+Devi aggiungere un utente all’istanza di Produzione di Workfront prima di poter rendere l’utente un amministratore di sistema di Workfront.
 
-1. Vai all&#39;area utenti e amministratori in Admin Console, come descritto nella sezione [Accedi all&#39;area utenti e amministratori per l&#39;istanza di produzione di Workfront](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) in questo articolo.
-1. Seleziona la scheda **Amministratori** sopra l&#39;elenco degli utenti.
-1. Selezionare **Aggiungi amministratore**.
-1. Nella casella **Aggiungi amministratori profilo prodotto**, inserisci gli indirizzi e-mail o i nomi degli amministratori che desideri aggiungere, quindi seleziona **Salva**.
+1. Passa all’area utenti e amministratori in Admin Console, come descritto nella sezione [Accedere all’area utenti e amministratori per l’istanza di Produzione di Workfront](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) in questo articolo.
+1. Seleziona la scheda **Amministratori** sopra l’elenco degli utenti.
+1. Seleziona **Aggiungi amministratore**.
+1. Nella casella **Aggiungi amministratori profilo di prodotto**, inserisci gli indirizzi e-mail o i nomi degli amministratori che desideri aggiungere, quindi seleziona **Salva**.
 
-   ![Aggiungi un amministratore](assets/add-admin-1.png)
+   ![Aggiungere un amministratore](assets/add-admin-1.png)
 
    Gli amministratori di sistema vengono creati in Workfront.
 
    >[!IMPORTANT]
    >
    >* Non apportare modifiche al profilo di prodotto stesso.
-   >* Accertati di essere sulla pagina con l’intestazione &quot;Aggiungi amministratori del profilo di prodotto&quot;. Gli amministratori di prodotto svolgono una funzione diversa dagli amministratori dei profili di prodotto in Adobe Admin Console e non sono trattati in questo articolo.
+   >* Assicurati di essere sulla pagina con l’intestazione “Aggiungi amministratori del profilo di prodotto”. Gli amministratori di prodotto svolgono una funzione diversa dagli amministratori dei profili di prodotto in Adobe Admin Console e non sono trattati in questo articolo.
 
 
 ## Creare utenti in Workfront con Adobe Admin Console {#create-users-in-workfront-with-the-adobe-admin-console}
 
 >[!NOTE]
 >
->È consigliabile aggiungere utenti non amministratori di sistema direttamente in Workfront. È possibile aggiungere utenti in Adobe Admin Console, ma aggiungerli in Workfront consente di impostarne il livello di accesso durante la creazione, con un conseguente risparmio di tempo.
+>È consigliabile aggiungere utenti non amministratori di sistema direttamente in Workfront. Anche se è possibile aggiungere utenti in Adobe Admin Console, aggiungerli in Workfront consente di configurarne il livello di accesso durante la creazione, con un conseguente risparmio di tempo.
 
-* [Creazione di utenti in Workfront direttamente in Adobe Admin Console](#create-users-in-workfront-directly-in-the-adobe-admin-console)
+* [Creare utenti in Workfront direttamente in Adobe Admin Console](#create-users-in-workfront-directly-in-the-adobe-admin-console)
 * [Creare utenti in Workfront e approvarli per Adobe Admin Console](#create-users-in-workfront-and-approve-them-for-the-adobe-admin-console)
 
-### Creazione di utenti in Workfront direttamente in Adobe Admin Console
+### Creare utenti in Workfront direttamente in Adobe Admin Console
 
-1. Vai all&#39;area utenti e amministratori in Admin Console, come descritto nella sezione [Accedi all&#39;area utenti e amministratori per l&#39;istanza di produzione di Workfront](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) in questo articolo.
-1. Con la scheda **Utenti** selezionata sopra l&#39;elenco, selezionare **Aggiungi utente**.
-1. Nella casella **Aggiungi utenti a questo profilo di prodotto**, inserisci l&#39;indirizzo e-mail o il nome di un utente che desideri aggiungere, quindi seleziona **Salva**.
+1. Passa all’area utenti e amministratori in Admin Console, come descritto nella sezione [Accedi all’area utenti e amministratori per l’istanza di Produzione di Workfront](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) in questo articolo.
+1. Con la scheda **Utenti** selezionata sopra l’elenco, seleziona **Aggiungi utente**.
+1. Nella casella **Aggiungi utenti a questo profilo di prodotto**, inserisci l’indirizzo e-mail o il nome di un utente da aggiungere, quindi seleziona **Salva**.
 
-   L’utente viene creato in Workfront con il livello di accesso Richiedente o Collaboratore, a seconda del pacchetto Workfront della tua organizzazione.
+   L’utente viene creato in Workfront con il livello di accesso Richiedente o Collaboratore, a seconda del pacchetto di Workfront della tua organizzazione.
 
    >[!IMPORTANT]
    >
@@ -185,65 +185,75 @@ Il livello di accesso Amministratore di sistema è concesso solo su Adobe Admin 
 
 1. In Workfront, modifica il livello di accesso dell’utente.
 
-   Per istruzioni su come un amministratore di Workfront può modificare il livello di accesso dell&#39;utente, vedere [Modificare il profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   Per istruzioni su come un amministratore di Workfront può modificare il livello di accesso dell’utente, consulta [Modificare il profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 1. Ripeti i passaggi 3 e 4 per aggiungere altri utenti.
 
    >[!NOTE]
    >
-   >Per i nuovi utenti di Adobe, l’Admin Console fornisce un’e-mail per invitarli a completare il processo di registrazione. Tutti gli utenti devono completare il processo di registrazione per accedere a qualsiasi applicazione Adobe.
+   >Per i nuovi utenti Adobe, Admin Console fornisce un’e-mail per invitarli a completare il processo di registrazione. Tutti gli utenti devono completare il processo di registrazione per accedere a qualsiasi applicazione Adobe.
    >
-   >Per gli utenti esistenti di Adobe, l’utente può ricevere o meno un’e-mail sulla disponibilità di Workfront. Questa è una preferenza controllata dall’amministratore di Adobe per il prodotto. L’amministratore Adobe potrebbe essere una persona diversa dall’amministratore Workfront.
+   >Per gli utenti Adobe esistenti, l’utente può ricevere o meno un’e-mail sulla disponibilità di Workfront. Questa è una preferenza controllata dall’amministratore Adobe per il prodotto. L’amministratore Adobe potrebbe essere una persona diversa dall’amministratore Workfront.
 
 ### Creare utenti in Workfront e approvarli per Adobe Admin Console
 
-Questo flusso di lavoro consente agli amministratori di gruppi che non hanno accesso a Adobe Admin Console di creare utenti.
+Questo flusso di lavoro consente di creare utenti agli amministratori di gruppi che non dispongono dell’accesso ad Adobe Admin Console.
 
-Innanzitutto, l’amministratore del gruppo crea l’utente in Workfront. L’utente viene quindi impostato sullo stato Disattivato e In attesa di approvazione.
+Innanzitutto, l’amministratore del gruppo crea l’utente in Workfront. L’utente viene creato nello stato Disattivato e In attesa di approvazione.
 
-Quindi, un amministratore Workfront approva l’utente. In questo modo l’utente viene attivato in Workfront e aggiunto al Adobe Admin Console.
+Quindi, un amministratore Workfront approva l’utente. Questa operazione attiva l’utente in Workfront e lo aggiunge ad Adobe Admin Console.
 
 #### Creare l’utente in Workfront (amministratore gruppo)
 
-Per istruzioni sulla creazione di un utente in Workfront, vedi [Aggiungere utenti](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md).
+Per istruzioni sulla creazione di un utente in Workfront, consulta [Aggiungere utenti](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-#### Approva l&#39;utente (amministratore Workfront)
+#### Approvare l’utente (amministratore Workfront)
 
 Per approvare un utente:
 
 {{step-1-to-users}}
 
-1. Seleziona l&#39;utente, quindi fai clic sull&#39;icona **Altro** ![Altro](assets/more-icon.png).
+1. Seleziona l’utente, quindi fai clic sull’icona **Altro** ![icona Altro](assets/more-icon.png).
 
-1. Per approvare l&#39;utente, fare clic su **Approva**, quindi su **Invia**.
+1. Per approvare l’utente, fai clic su **Approva**, quindi su **Invia**.
 
    Oppure
 
-   Per rifiutare l&#39;utente ed eliminarlo da Workfront, fare clic su **Rifiuta**, quindi su **Invia**.
+   Per rifiutare l’utente ed eliminarlo da Workfront, fai clic su **Rifiuta**, quindi su **Invia**.
 
-   Gli utenti approvati vengono aggiunti automaticamente al Adobe Admin Console.
+   Gli utenti approvati vengono aggiunti automaticamente ad Adobe Admin Console.
 
    Gli utenti rifiutati vengono eliminati automaticamente da Workfront.
 
 
 ## Modificare gli utenti esistenti in Adobe Admin Console
 
-Puoi modificare i seguenti dettagli utente nel Adobe Admin Console:
+In Adobe Admin Console, puoi modificare i seguenti dettagli utente:
 
 * Gruppi di utenti e prodotti associati all’utente
 * Diritti amministrativi
 * Paese
 
-Per informazioni sulla modifica di un singolo utente in Adobe Admin Console, consulta [Modifica dettagli utente](https://helpx.adobe.com/it/enterprise/using/manage-users-individually.html#edit-user-details) nell&#39;articolo Gestire gli utenti singolarmente nella documentazione di Adobe.
+Per informazioni sulla modifica di un singolo utente in Adobe Admin Console, consulta [Modificare i dettagli dell’utente](https://helpx.adobe.com/it/enterprise/using/manage-users-individually.html#edit-user-details) nell’articolo Gestire gli utenti singolarmente nella documentazione di Adobe.
 
-Per informazioni sugli utenti che eseguono modifiche in blocco in Adobe Admin Console, consulta
-[Modifica dettagli utente](https://helpx.adobe.com/it/enterprise/using/bulk-upload-users.html#edit-user-details) nell&#39;articolo Gestire più utenti nella documentazione di Adobe.
+Per informazioni sulla modifica in blocco degli utenti in Adobe Admin Console, consulta
+[Modificare i dettagli dell’utente](https://helpx.adobe.com/it/enterprise/using/bulk-upload-users.html#edit-user-details) nell’articolo Gestire più utenti nella documentazione di Adobe.
+
+## Eliminare un utente
+
+>[!NOTE]
+>
+>* Se un utente fa parte di uno o più gruppi di utenti di Admin Console e il profilo di prodotto è stato aggiunto a uno o più di tali gruppi, la disattivazione dell’utente da Workfront non ne determina la rimozione effettiva dal prodotto. L’utente deve essere rimosso dai gruppi di utenti in Admin Console.
+>* L’eliminazione di un utente da Adobe Admin Console disattiva l’utente in Workfront, ma non lo elimina da Workfront.
+
+Per istruzioni sull&#39;eliminazione di utenti in Adobe Admin Console, vedere [Gestione degli utenti della directory](https://helpx.adobe.com/enterprise/using/manage-directory-users.html) nella documentazione di Adobe.
+
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>You can create Adobe Workfront users and system administrators with the <a href="https://adminconsole.adobe.com/" alt="Admin Console link">Adobe Admin Console</a>. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the <a href="https://helpx.adobe.com/it/enterprise/using/admin-console.html" alt="Admin Console Overview">Admin Console Overview</a>.</p>
+<p>You can create Adobe Workfront users and system administrators with the <a href="https://adminconsole.adobe.com/" alt="Admin Console link">Adobe Admin Console</a>. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the <a href="https://helpx.adobe.com/enterprise/using/admin-console.html" alt="Admin Console Overview">Admin Console Overview</a>.</p>
 <p>Before using the Admin Console for Workfront, you should receive a receive an email inviting you to the console. Click in the invitation to accept it and create an account. You can also use an existing account, if already available.</p>
 <h2>Create users</h2>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Create users in WF with the Adobe admin console</p>
