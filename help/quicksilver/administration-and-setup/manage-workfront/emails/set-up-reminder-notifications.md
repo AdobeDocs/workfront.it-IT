@@ -5,10 +5,10 @@ author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
+source-git-commit: bb9ccfa61fa1a8ef41b0e873d5aa6313803c636d
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 2%
+source-wordcount: '1216'
+ht-degree: 5%
 
 ---
 
@@ -33,7 +33,7 @@ An example of how this can be used would be helpful here and/or in the section <
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,7 +44,7 @@ An example of how this can be used would be helpful here and/or in the section <
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard </p>
 <p>Piano</p> 
 </td> 
@@ -100,7 +100,8 @@ Per informazioni su come creare un modello di posta elettronica, vedere [Configu
         <ul> 
          <li> <p>Le notifiche di promemoria iniziano 24 ore dopo la data specificata e una volta soddisfatti tutti i criteri.</p> </li> 
          <li> <p>Le notifiche di promemoria per progetti, attività e problemi si attivano ogni notte a mezzanotte, ora di montagna negli Stati Uniti. Tutti gli oggetti idonei per una notifica di promemoria da quel giorno attivano una notifica agli utenti designati poco dopo tale momento.</p> </li> 
-         <li> <p>Le notifiche di promemoria per le schede orario vengono inviate all’ora specificata in base al fuso orario e alla data di fine della scheda orario, alla data di inizio o alla data dell’ultimo aggiornamento.</p> </li> 
+         <li> <p>I promemoria delle schede orario si basano sul fuso orario della tua organizzazione e sulla data di fine della scheda orario, sulla data di inizio o sulla data dell’ultimo aggiornamento. I singoli fusi orari degli utenti non influiscono sulla tempistica delle notifiche di promemoria.</p> 
+      </li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 
