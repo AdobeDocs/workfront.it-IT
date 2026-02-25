@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 159c3b4a3627e29123afd96115e965d3bba8329c
+source-git-commit: 3afa0fbfb8a82a7dc1a2e9c65d04aa1be7b6f1f8
 workflow-type: tm+mt
-source-wordcount: '3387'
-ht-degree: 93%
+source-wordcount: '3190'
+ht-degree: 97%
 
 ---
 
@@ -919,92 +919,6 @@ La sottoscrizione a eventi supporta il filtro sui campi nidificati degli eventi 
 "filterConnector": 'AND'
 ```
 
-### Utilizzo dei gruppi di filtri (filtri combinati)
-
-Le sottoscrizioni di eventi supportano gruppi di filtri insieme a filtri standard per supportare condizioni logiche nidificate.
-
-I gruppi di filtri ti consentono di creare condizioni logiche nidificate (AND/OR) all’interno dei filtri di abbonamento agli eventi.
-
-Ciascun gruppo di filtri può avere:
-
-* Connettore proprio: `AND` o `OR`
-* Più filtri, ciascuno con la stessa sintassi e lo stesso comportamento dei filtri autonomi
-
-Tutti i filtri all’interno di un gruppo supportano:
-
-* Operatori di confronto: `eq`, `ne`, `gt`, `gte`, `lt`, `lte`, `contains`, `notContains`, `containsOnly`, `changed`
-* Opzioni stato: `newState`, `oldState`
-* Destinazione campo: qualsiasi nome di campo oggetto valido
-
-Un gruppo deve contenere almeno 2 filtri
-
-```
-{
-  "objCode": "TASK",
-  "eventType": "UPDATE",
-  "authToken": "token",
-  "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
-  "filters": [
-    {
-      "fieldName": "percentComplete",
-      "fieldValue": "100",
-      "comparison": "lt"
-    },
-    {
-      "type": "group",
-      "connector": "OR",
-      "filters": [
-        {
-          "fieldName": "status",
-          "fieldValue": "CUR",
-          "comparison": "eq"
-        },
-        {
-          "fieldName": "priority",
-          "fieldValue": "1",
-          "comparison": "eq"
-        }
-      ]
-    }
-  ],
-  "filterConnector": "AND"
-}
-```
-
-Questo esempio mostra:
-
-
-* Filtro di primo livello (esterno al gruppo):
-
-  { &quot;`fieldName`&quot;: &quot;`percentComplete`&quot;, &quot;`fieldValue`&quot;: &quot;`100`&quot;, &quot;`comparison`&quot;: &quot;`lt`&quot; }
-
-  Questo filtro controlla se il campo percentComplete dell’attività aggiornata è inferiore a 100.
-
-* Gruppo di filtri (filtri nidificati con `OR`):
-
-  { &quot;`type`&quot;: &quot;`group`&quot;, &quot;`connector`&quot;: &quot;`OR`&quot;, &quot;`filters`&quot;: [{ &quot;`fieldName`&quot;: &quot;`status`&quot;, &quot;`fieldValue`&quot;: &quot;`CUR`&quot;, &quot;`comparison`&quot;: &quot;`eq`&quot; }, { &quot;`fieldName`&quot;: &quot;`priority`&quot;, &quot;`fieldValue`&quot;: &quot;`1`&quot;, &quot;`comparison`&quot;: &quot;`eq`&quot; }] }
-
-  Questo gruppo valuta due filtri interni:
-
-   * Il primo controlla se lo stato dell’attività è uguale a “CUR” (corrente).
-
-   * Il secondo controlla se la priorità è uguale a “1” (priorità alta).
-
-  Poiché il connettore è “OR”, questo gruppo passerà se una delle due condizioni è vera.
-
-* Connettore di primo livello (filterConnector: `AND`):
-
-  Il connettore più esterno tra i filtri di livello superiore è `AND`.
-
-  Questo significa che sia il filtro del livello principale che il gruppo devono passare affinché l’evento corrisponda.
-
-* L’abbonamento si attiva quando:
-
-  La percentuale di completamento è inferiore a 100
-
-  E
-
-  Lo stato è &quot;CUR&quot; OPPURE la priorità è uguale a &quot;1&quot;.
 
 #### Prestazioni e limiti
 
