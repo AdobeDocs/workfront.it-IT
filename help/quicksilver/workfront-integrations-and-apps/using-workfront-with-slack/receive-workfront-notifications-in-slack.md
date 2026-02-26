@@ -6,14 +6,14 @@ description: Ricevi [!DNL Adobe Workfront] notifiche in [!DNL Slack]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+source-git-commit: e6f61cdde9e8ad14a9226de4cc61fbcdcb6f839b
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 1%
+source-wordcount: '614'
+ht-degree: 6%
 
 ---
 
-# Ricevi [!DNL Adobe Workfront] notifiche in [!DNL Slack]
+# Ricevere notifiche [!DNL Adobe Workfront] in [!DNL Slack]
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: *** Linked to Accessing Workfront from Slack.***Some of this information is duplicating in Accessing Workfront from Slack (also screen shots))</p>
@@ -29,7 +29,7 @@ Le notifiche e-mail funzionano indipendentemente dalle notifiche dell&#39;interf
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,7 +40,7 @@ Le notifiche e-mail funzionano indipendentemente dalle notifiche dell&#39;interf
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Qualsiasi</p>
   </tr> 
  </tbody> 
@@ -76,6 +76,12 @@ Prima di poter ricevere [!DNL Workfront] notifiche in [!DNL Slack], è necessari
    * [!UICONTROL Sono assegnato a una nuova attività o a un nuovo problema]
    * [!UICONTROL Il mio team è assegnato a una nuova attività o a un nuovo problema]
    * [!UICONTROL Ricevo una nuova approvazione o richiesta di accesso]
+
+     >[!NOTE]
+     >
+     >Le approvazioni fanno riferimento alle approvazioni di documenti legacy. Le approvazioni di documenti unificati non sono attualmente supportate in [!DNL Slack]. Per ulteriori informazioni sui diversi sistemi di approvazione in Workfront, vedere [Funzionalità disponibili per le approvazioni dei documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
+
+
    * [!UICONTROL Qualcuno mi include in un aggiornamento diretto]
    * [!UICONTROL Qualcuno ha commentato un thread in cui sono presente]
    * [!UICONTROL È stato effettuato un aggiornamento a un&#39;attività, un problema o un progetto a cui sono abbonato]

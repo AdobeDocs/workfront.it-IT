@@ -1,15 +1,15 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
-title: Gestisci il tuo lavoro e le approvazioni da Slack
+title: Gestire il proprio lavoro e le approvazioni da Slack
 description: Puoi accedere alla sezione Work List (Elenco di lavoro) dell’area Home, esaminare e accettare di lavorare su attività e problemi, nonché rivedere o prendere decisioni sulle approvazioni direttamente da Slack.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 802a2f16-d827-455e-9e49-f58f4c5fc482
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+source-git-commit: e6f61cdde9e8ad14a9226de4cc61fbcdcb6f839b
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 1%
+source-wordcount: '937'
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ Per ulteriori informazioni sulla configurazione di [!DNL Workfront] con [!DNL Sl
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ Per ulteriori informazioni sulla configurazione di [!DNL Workfront] con [!DNL Sl
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Qualsiasi</p>
   </tr> 
  </tbody> 
@@ -157,6 +157,8 @@ Prima di poter gestire il lavoro e le approvazioni da [!DNL Slack], è necessari
    Il pulsante [!UICONTROL Lavoraci] scompare.
 
 ## Gestisci le tue approvazioni da [!DNL Slack] {#manage-your-approvals-from-slack}
+
+Le approvazioni fanno riferimento alle approvazioni di documenti legacy. Le approvazioni di documenti unificati non sono attualmente supportate in [!DNL Microsoft Teams]. Per ulteriori informazioni sui diversi sistemi di approvazione in Workfront, vedere [Funzionalità disponibili per le approvazioni dei documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
 
 1. Accedi all&#39;istanza [!DNL Slack] e accedi a [!DNL Workfront] da [!DNL Slack].\
    Per ulteriori informazioni sull&#39;accesso a [!DNL Workfront] da [!DNL Slack], vedere la sezione &quot;Accesso a [!DNL Workfront] da [!DNL Slack]&quot; in [Accesso [!DNL Adobe Workfront] da [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
