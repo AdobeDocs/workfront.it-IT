@@ -1,22 +1,22 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-2-release-activity
-title: Panoramica sull’attività della versione 2019.2
+title: Panoramica sull’attività sulla versione 2019.2
 description: Questa pagina fornisce informazioni sulle funzionalità incluse nella versione 2019.2 di. Per scaricare questo contenuto in formato PDF, vai qui.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: baa50860-e23a-4be8-8192-f0400099294f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 255b4b83b6d1d37bb6ffff975f1b1f44130170bc
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1066'
 ht-degree: 1%
 
 ---
 
-# Panoramica sull’attività della versione 2019.2
+# Panoramica sull’attività sulla versione 2019.2
 
-Questa pagina fornisce informazioni sulle funzionalità incluse nella versione 2019.2 di. Per scaricare questo contenuto in formato PDF, vai [qui](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5).
+Questa pagina fornisce informazioni sulle funzionalità incluse nella versione 2019.2.<!-- To download this content in PDF format, go [here](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5).-->
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ La versione 2019.2 contiene miglioramenti sia per gli amministratori di sistema 
   È ora disponibile un nuovo livello di accesso per Gestione risorse DITA, che consente agli utenti con una licenza Pianificazione di modificare l’accesso.
 
 
-* [Ordinare i progetti in base alle priorità del Portfolio nella programmazione delle risorse](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-resource-management-enhancements.md#order)
+* [Ordinare i progetti in base alle priorità di Portfolio nella Programmazione delle risorse](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-resource-management-enhancements.md#order)
 
   È ora possibile ordinare i progetti in base alla priorità del portfolio nella Programmazione delle risorse.
 
@@ -55,7 +55,7 @@ La versione 2019.2 contiene miglioramenti sia per gli amministratori di sistema 
 
   L’esperienza di filtro in Pianificazione risorse è ora più semplice quando si aggiunge un nuovo campo (Gruppo) ai criteri di filtro incorporati.
 
-* [Visualizzare la priorità del Portfolio nella programmazione delle risorse](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-resource-management-enhancements.md#resource)
+* [Visualizzare la priorità di Portfolio nella Programmazione delle risorse](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-resource-management-enhancements.md#resource)
 
   Ora nella Programmazione delle risorse puoi abilitare un&#39;impostazione che ti consenta di visualizzare la priorità del progetto in base al portfolio a cui è assegnato.
 
@@ -100,7 +100,7 @@ La versione 2019.2 contiene miglioramenti sia per gli amministratori di sistema 
 
 * [Miglioramenti di Workfront per Microsoft Teams](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-integration-enhancements.md#workfron)
 
-  Ora puoi inviare richieste di lavoro e gestire le notifiche Workfront quando utilizzi Workfront per Microsoft Teams.
+  È ora possibile inviare richieste di lavoro e gestire le notifiche Workfront quando si utilizza Workfront per Microsoft Teams.
 
 ### Miglioramenti bozza
 
@@ -131,12 +131,12 @@ La versione 2019.2 contiene miglioramenti sia per gli amministratori di sistema 
   Il menu a discesa nella scheda Stati nell’area Configurazione è ora un menu typeahead.
 
 
-## Notifiche
+## Annunci
 
 * [Libreria Workfront ora disponibile](#workfront-library-now-available)
 * [API versione 3 non più supportata](#api-version-3-no-longer-supported)
 * [Il supporto TLS sta per terminare](#tls-support-is-ending)
-* [Rimozione applicazione di Flash](#flash-application-removal)
+* [Rimozione applicazione Flash](#flash-application-removal)
 * [Varie opzioni Single Sign-On da rimuovere](#various-single-sign-on-options-to-be-removed)
 
 ### Libreria Workfront ora disponibile {#workfront-library-now-available}
@@ -155,9 +155,9 @@ Per ulteriori informazioni, vedere [TLS 1.2 richiesto in Adobe Workfront](../../
 
 ### Rimozione applicazione Flash {#flash-application-removal}
 
-Tutte le funzionalità basate sulla tecnologia di Flash sono state rimosse da Workfront a partire dalla versione 2018.3 e sostituite con una nuova soluzione.
+Tutte le funzionalità basate sulla tecnologia Flash sono state rimosse da Workfront a partire dalla versione 2018.3 e sostituite con una nuova soluzione.
 
-Per informazioni dettagliate sugli strumenti di Flash legacy e sulle relative sostituzioni, vedere [Sostituzione degli strumenti basati sul Flash in Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Per informazioni dettagliate sugli strumenti Flash precedenti e sulle relative sostituzioni, vedere [Sostituzione degli strumenti basati su Flash in Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
 ### Varie opzioni Single Sign-On da rimuovere {#various-single-sign-on-options-to-be-removed}
 

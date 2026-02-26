@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4162cfb7-d5e1-4152-857a-fc4a6eb09cd7
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 255b4b83b6d1d37bb6ffff975f1b1f44130170bc
 workflow-type: tm+mt
-source-wordcount: '2566'
-ht-degree: 0%
+source-wordcount: '2556'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione 2
 
 Questi miglioramenti sono attualmente disponibili nell’ambiente di anteprima e saranno resi disponibili nell’ambiente di produzione nella settimana del 30 marzo 2020.
 
-Per scaricare questa pagina in formato PDF, vai [qui](https://documentation.my.workfront.com/library/a/9f5c9e44-c9a9-4f33-beec-9e5dc2e0fdc2).
+<!--To download this page in PDF format, go [here](https://documentation.my.workfront.com/library/a/9f5c9e44-c9a9-4f33-beec-9e5dc2e0fdc2).-->
 
 Alcune funzionalità sono state rilasciate prima della versione 2020.1 di. Per visualizzare cosa è stato rilasciato prima della versione 2020.1, consulta [Altre funzioni di Workfront Classic rilasciate in produzione prima della versione 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/prior-to-2020-1.md).
 
@@ -39,7 +39,7 @@ Alcune funzionalità sono state rilasciate prima della versione 2020.1 di. Per v
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -67,7 +67,7 @@ Alcune funzionalità sono state rilasciate prima della versione 2020.1 di. Per v
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -128,7 +128,7 @@ Alcune funzionalità sono state rilasciate prima della versione 2020.1 di. Per v
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date di rilascio</strong> </p> </td> 
   </tr> 
   <tr> 
@@ -164,14 +164,14 @@ Alcune funzionalità sono state rilasciate prima della versione 2020.1 di. Per v
  </tbody> 
 </table>
 
-### Miglioramenti al progetto {#project-enhancements}
+### Miglioramenti ai progetti {#project-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -220,7 +220,7 @@ Alcune funzionalità sono state rilasciate prima della versione 2020.1 di. Per v
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date di rilascio</strong> </p> </td> 
   </tr> 
   <tr> 
@@ -255,7 +255,7 @@ Alcune funzionalità sono state rilasciate prima della versione 2020.1 di. Per v
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date di rilascio</strong> </p> </td> 
   </tr> 
   <tr> 
@@ -276,7 +276,7 @@ Alcune funzionalità sono state rilasciate prima della versione 2020.1 di. Per v
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Funzionalità</strong> </p> </td> 
+   <td> <p><strong>Funzione</strong> </p> </td> 
    <td> <p><strong>Date di rilascio</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -335,7 +335,7 @@ Gli strumenti di pianificazione delle risorse hanno le stesse funzionalità del 
 
 Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione 2020.1, vedi [Aggiornamenti di manutenzione di Workfront](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
-## Notifiche
+## Annunci
 
 * [Per accedere a Workfront](#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront) è necessario aggiungere altri domini al inserisco nell&#39;elenco Consentiti di accesso ai
 * [Workfront One](#workfront-one)
@@ -358,7 +358,7 @@ Per ulteriori informazioni, vedere [Configurare il inserisco nell&#39;elenco Con
 
 Con Workfront One, potrai scoprire i contenuti, le risorse e le notizie più importanti da Workfront, il tutto in un&#39;unica posizione, con un unico accesso. Abbiamo unificato i siti Esperienza, Community e Formazione per facilitare la ricerca delle tue esigenze.
 
-[Ulteriori informazioni su Workfront One](https://business.adobe.com/it/products/workfront.html).
+[Ulteriori informazioni su Workfront One](https://business.adobe.com/products/workfront.html).
 
 ### Webinar sulla versione 2020.1 {#2020-1-release-webinar}
 
@@ -366,7 +366,7 @@ Visualizza la registrazione del webinar sulla versione 2020.1 qui .
 
 ### Webinar Q1 sulla roadmap dei prodotti {#q1-product-roadmap-webinar}
 
-Ulteriori informazioni su cosa verrà presentato durante il webinar [Q1 Roadmap](https://webinars.on24.com/workfront/product_roadmap032620?partnerref=announcementcenter). Questo webinar si terrà il 26 marzo 2020 alle 9:00. MT. Fai clic sul collegamento per registrarti
+Ulteriori informazioni su cosa verrà presentato durante il webinar [Q1 Roadmap](https://webinars.on24.com/workfront/product_roadmap032620?partnerref=announcementcenter). Questo webinar si terrà il 26 marzo 2020 alle 9:00a.m. MT. Fai clic sul collegamento per registrarti
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

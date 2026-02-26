@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: e716869407ff88b090b223708c688c7ed0da3e8e
+source-git-commit: 860bd4bef75a90f4e1c5a21f38de95962804c00c
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 3%
+source-wordcount: '358'
+ht-degree: 6%
 
 ---
 
@@ -20,6 +20,12 @@ Per un elenco di tutte le modifiche disponibili in questo momento nel ciclo di r
 
 ## Comprimi sezione modulo personalizzato per impostazione predefinita
 
+>[!NOTE]
+>
+>Anteprima: 26 febbraio 2026
+>Rilascio rapido in produzione: venerdì 12 marzo 2026
+>Produzione per tutti: venerdì 16 aprile 2026
+
 Per impostazione predefinita, tutte le sezioni di un modulo personalizzato vengono espanse quando il modulo stesso viene espanso. Una nuova opzione di Designer di moduli personalizzati consente di contrassegnare una sezione da comprimere per impostazione predefinita quando un utente apre il modulo. Questa opzione viene applicata a livello di sezione, non ai campi.
 
 Per ulteriori informazioni, vedere [Organizzazione e anteprima di un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
@@ -29,7 +35,7 @@ Per ulteriori informazioni, vedere [Organizzazione e anteprima di un modulo](/he
 >[!NOTE]
 >
 >Anteprima: 29 gennaio 2026
->Rilascio rapido produzione: da definire
+>Rilascio rapido in produzione: venerdì 12 febbraio 2026
 >Produzione per tutti: da definire
 >
 >Questa funzione è stata temporaneamente rimossa dall’ambiente di produzione il 13 febbraio 2026.
