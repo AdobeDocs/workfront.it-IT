@@ -6,19 +6,19 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
+source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 1%
+source-wordcount: '1342'
+ht-degree: 0%
 
 ---
 
 
 # Gestire la vista elenco in Adobe Workfront Planning
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -114,8 +114,8 @@ Per ulteriori informazioni sulla gestione delle visualizzazioni elenco in Workfr
       >
       >* Non è possibile modificare le visualizzazioni di sistema.
       >
-      <!--For Feb 26 and add the Preview disclaimer at the top: * <span class="preview">You can reset a view that was shared with you after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
-        -->
+      >* <span class="preview">È possibile reimpostare una visualizzazione condivisa con l&#39;utente dopo averla modificata per ripristinarne le preferenze originali oppure copiarla con le modifiche e condividere la copia. Per ulteriori informazioni, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+
    1. Fai clic sull&#39;icona **Filtro** ![Icona Filtro](assets/filter-icon.png) per aggiungere un filtro alla visualizzazione. I risultati vengono filtrati immediatamente nell’elenco. Non è possibile salvare e denominare i filtri. I filtri vengono ricordati quando accedi alla pagina in futuro e fanno parte di visualizzazioni condivise.
    1. Fai clic sull&#39;icona **Colonne** ![Icona Colonne](assets/columns-icon.png) per selezionare le colonne da visualizzare o da nascondere nella visualizzazione.
    1. Passa il puntatore del mouse sul nome di una colonna, fai clic sulla freccia rivolta verso il basso a sinistra del nome della colonna, quindi fai clic su una delle seguenti opzioni:
@@ -129,35 +129,41 @@ Per ulteriori informazioni sulla gestione delle visualizzazioni elenco in Workfr
 Non è possibile rimuovere il campo principale nella vista a elenco visualizzato nella prima colonna.
 
 
-   <!--For Feb 26: make available at release and fix the formatting - this will be broken, if not: 
-    1. <span class="preview">Click the **Format cells** icon ![Format cells icon](assets/format-cells-icon.png). The **Format** box opens. (*********change the name of the box when they update it***********)</span>
-        <span class="preview">Do the following: </span>
-        <div class="preview">
-        1. In the **If** line, click **Add condition**, then select a field you want to format by and choose a field value. 
-            >[!TIP]
-            >
-            >Only fields visible in the list view are available for conditional formatting.
-        1. (Optional) Click **Add condition** in the **If** line to add more conditions to same rule. 
-            >[!TIP]
-            >
-            >You can add up to 10 conditions in a conditioning rule and you can have up to 20 rules for a field.
-        1. Click the **Or** connector between conditions to change to **And** and to indicate that multiple conditions must be met at the same time. **Or** is the default connector.  
-        1. In the **Format** line, select a field to indicate which column will be formatted. (*******edit this area, if it changes names??***********)
-        1. (Optional) Click the **color circle** icon ![Color circle icon](assets/color-circle.png) next to the field selected, to expand it and choose another color.
-        1. Turn on the **Apply to row** setting to apply the formatting to the entire row of the field that meets the conditions. 
-        1. (Optional) Click **Add condition** in the **Format** box to add another rule for another field and the repeat the steps above. 
-        1. (Optional) Click **Clear all** to remove all formatting.
-        1. Click outside the **Format** box to close it. 
-            This returns you to the list view. 
-            The formatting is applied immediately to the list view.
-            There is a blue dot next to the **Format cells** icon to indicate that the view has special formatting applied.
-        </div>
-    -->
+   1. <span class="preview">Fare clic sull&#39;icona **Formatta celle** ![Formatta celle](assets/format-cells-icon.png). Viene visualizzata la casella **Formato**.</span> <!--change the name of the box when they update it-->
+      <span class="preview">Effettuare le seguenti operazioni: </span>
+
+      <div class="preview">
+
+      1. Nella riga **If**, fare clic su **Aggiungi condizione**, quindi selezionare un campo in base al quale si desidera formattare e scegliere un valore di campo.
+
+         >[!TIP]
+         >
+         >Solo i campi visibili nella vista a elenco sono disponibili per la formattazione condizionale.
+
+      1. (Facoltativo) Fai clic su **Aggiungi condizione** nella riga **If** per aggiungere altre condizioni alla stessa regola.
+
+         >[!TIP]
+         >
+         >È possibile aggiungere fino a 10 condizioni in una regola di condizionamento e disporre di un massimo di 20 regole per un campo.
+
+      1. Fare clic sul connettore **Or** tra le condizioni per passare a **And** e indicare che è necessario soddisfare più condizioni contemporaneamente. **Or** è il connettore predefinito.
+      1. Nella riga **Formato** selezionare un campo per indicare la colonna da formattare. <!--edit this area, if it changes names??-->
+      1. (Facoltativo) Fai clic sull&#39;icona **cerchio colore** ![icona cerchio colore](assets/color-circle.png) accanto al campo selezionato, per espanderlo e scegliere un altro colore.
+      1. Attivare l&#39;impostazione **Applica a riga** per applicare la formattazione all&#39;intera riga del campo che soddisfa le condizioni.
+      1. (Facoltativo) Fai clic su **Aggiungi condizione** nella casella **Formato** per aggiungere un&#39;altra regola per un altro campo e ripetere i passaggi precedenti.
+      1. (Facoltativo) Fai clic su **Cancella tutto** per rimuovere tutta la formattazione.
+      1. Fare clic all&#39;esterno della casella **Formato** per chiuderla.
+
+         In questo modo si ritorna alla vista elenco.
+La formattazione viene applicata immediatamente alla visualizzazione elenco.
+Accanto all&#39;icona **Formatta celle** è presente un punto blu per indicare che alla visualizzazione è applicata una formattazione speciale.
+
+      </div>
 
 1. (Facoltativo) Aggiungi una parola chiave nella casella di ricerca nell’angolo superiore destro dell’elenco per cercare un elemento.
 
-
    Gli elementi che corrispondono al termine di ricerca sono evidenziati nell&#39;elenco.
+
 1. (Facoltativo) Per aggiungere altri elementi all&#39;elenco e collegarli automaticamente al record selezionato, eseguire una delle operazioni seguenti:
 
    * Fai clic su **Connetti record** nell&#39;angolo superiore destro dell&#39;elenco per aggiungere elementi esistenti.

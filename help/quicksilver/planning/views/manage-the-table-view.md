@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
+source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
 workflow-type: tm+mt
-source-wordcount: '3508'
+source-wordcount: '3588'
 ht-degree: 2%
 
 ---
@@ -504,9 +504,7 @@ Per aggiungere un raggruppamento:
 
    ![Raggruppamento applicato nella vista tabella](assets/grouping-applied-in-table-view.png)
 
-   <!--For Feb 26, and change indent to the left:
-    1. <span class="preview">(Optional) Choose A-Z or Z-A from the sorting drop-down menu to the right of a selected field. This sorts the groupings in the timeline, accordingly.</span>
-    -->
+1. <span class="preview">(Facoltativo) Scegliere A-Z o Z-A dal menu a discesa di ordinamento a destra di un campo selezionato. In questo modo i raggruppamenti nella timeline vengono ordinati di conseguenza.</span>
 
 1. (Facoltativo) Nella casella **Raggruppa record per**, fai clic sull&#39;icona **x** a destra di un campo selezionato per il raggruppamento per rimuovere il raggruppamento
 
@@ -600,15 +598,13 @@ Quando si visualizza la vista tabella, è inoltre possibile visualizzare il camp
 
 <!--maybe include a screen shot after release if they update the UI text in this list of users-->
 
-<!--For Feb 26: 
 
-1. <span class="preview">(Optional) Click the triangle in the upper-right corner of the cell that contains the field edited by others. A list of users currently editing the field displays.</span> 
+1. <span class="preview">(Facoltativo) Fare clic sul triangolo nell&#39;angolo superiore destro della cella contenente il campo modificato da altri. Viene visualizzato un elenco di utenti che stanno modificando il campo.</span>
 
 >[!TIP]
 >
-><span class="preview">Real-time presence indicators display users that are currently editing a field anywhere in Workfront Planning. This includes either the table view or the Details area of the record.</span>
+><span class="preview">Gli indicatori di presenza in tempo reale visualizzano gli utenti che stanno modificando un campo in qualsiasi punto di Workfront Planning. Ciò include la vista tabella o l&#39;area Dettagli del record.</span>
 
--->
 
 
 

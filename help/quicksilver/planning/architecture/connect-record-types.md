@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
+source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
 workflow-type: tm+mt
-source-wordcount: '2972'
+source-wordcount: '2982'
 ht-degree: 4%
 
 ---
@@ -91,7 +91,7 @@ Per un esempio di connessione di tipi di record e record, vedere [Esempio di con
    <ul><li><p>Una licenza Adobe Experience Manager Assets e un’integrazione tra AEM Assets e Workfront per collegare le risorse AEM ai tipi di record Planning.</p>
    <p>Per informazioni, consulta <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p></li>
    <li><p> Una licenza Adobe GenStudio for Performance Marketing per collegare i tipi di record ai marchi GenStudio</p>
-   <p>Per informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/get-started">Introduzione ad Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Per informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introduzione ad Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -300,7 +300,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
    >[!NOTE]
    >
-   >L&#39;amministratore di Workfront può mappare i campi di Workfront Planning sui campi di Experience Manager Assets tramite la mappatura dei metadati in Workfront. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >L&#39;amministratore di Workfront può mappare i campi di Workfront Planning sui campi di Experience Manager Assets tramite la mappatura dei metadati in Workfront. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Condizionale) Quando si sceglie di connettersi a Experience Manager Assets, a un tipo di record di Workfront Planning o a un marchio GenStudio, scegliere una delle opzioni seguenti nell&#39;area **Aspetto record**:
@@ -323,19 +323,14 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 1. Selezionare **Seleziona campi di ricerca** per aggiungere campi dal tipo di record a cui ci si connette. I campi di ricerca sono campi associati al record o al tipo di oggetto a cui si sta effettuando il collegamento. Il collegamento consente di visualizzare le informazioni del record o dell&#39;oggetto a cui si sta effettuando il collegamento nel record da cui si sta effettuando il collegamento. Questa opzione è selezionata per impostazione predefinita.
 
-<!--For Feb 26: replace the first bullet below in the TIP with this: 
-
-* In the Production environment, you cannot add Workfront user fields (including fields like Project Owner, or Project Sponsor) as lookup fields. <span class="preview">You can add user fields as lookup fields in the Preview environment.</span>-->
-
-    >[!TIP]
-    >
-    >* Non è possibile aggiungere campi typeahead o utente di Workfront (inclusi campi come Proprietario progetto o Sponsor progetto) come campi di ricerca.
-    >
-    >* Le informazioni relative al campo data degli oggetti Workfront vengono visualizzate nel formato 24 ore in Workfront Planning, indipendentemente da come vengono visualizzate in Workfront.
-    >
-    >   Ad esempio, se la Data inizio pianificata di un progetto in Workfront è visualizzata come 15:00 in Workfront Planning in un campo di ricerca importato.
-    >* Nell&#39;ambiente di produzione non è possibile aggiungere campi Persone come campi di ricerca. &lt;span class=&quot;preview&quot;>Puoi aggiungere campi Persone come campi di ricerca nell’ambiente di anteprima.&lt;/span>
-    >
+   >[!TIP]
+   >
+   >* Nell’ambiente di produzione non è possibile aggiungere campi utente di Workfront (inclusi campi come Proprietario progetto o Sponsor progetto) come campi di ricerca. <span class="preview">È possibile aggiungere campi utente come campi di ricerca nell&#39;ambiente di anteprima.</span>
+   >
+   >* Le informazioni relative al campo data degli oggetti di Workfront vengono visualizzate nel formato 24 ore in Workfront Planning, indipendentemente da come vengono visualizzate in Workfront.
+   >
+   >   Se, ad esempio, la Data inizio pianificata di un progetto viene visualizzata come 3:00 PM in Workfront, verrà visualizzata come 15:00 in Workfront Planning in un campo di ricerca importato.
+   >* Nell’ambiente di produzione non è possibile aggiungere campi Persone come campi di ricerca. <span class="preview">È possibile aggiungere campi Persone come campi di ricerca nell&#39;ambiente di anteprima.</span>
 
 1. Fai clic su **Crea**.
 
