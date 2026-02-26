@@ -5,28 +5,32 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: 9160a68653999c35de32dd417b18ea8197ef446f
+source-git-commit: e716869407ff88b090b223708c688c7ed0da3e8e
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 0%
+source-wordcount: '348'
+ht-degree: 3%
 
 ---
 
 # Miglioramenti per gli amministratori del secondo trimestre 2026
 
-Questa pagina descrive i miglioramenti per gli amministratori apportati con la versione del secondo trimestre 2026 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
+Questa pagina descrive i miglioramenti per gli amministratori apportati con la versione del secondo trimestre 2026 all’ambiente di anteprima. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili in questo momento nel ciclo di rilascio del secondo trimestre 2026, consulta [Panoramica sulla versione del secondo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Comprimi sezione modulo personalizzato per impostazione predefinita
 
+Per impostazione predefinita, tutte le sezioni di un modulo personalizzato vengono espanse quando il modulo stesso viene espanso. Una nuova opzione di Designer di moduli personalizzati consente di contrassegnare una sezione da comprimere per impostazione predefinita quando un utente apre il modulo. Questa opzione viene applicata a livello di sezione, non ai campi.
+
+Per ulteriori informazioni, vedere [Organizzazione e anteprima di un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
 ## Il tipo di campo Rich Text è ora disponibile nei moduli personalizzati
 
 >[!NOTE]
 >
 >Anteprima: 29 gennaio 2026
->Versione rapida di produzione: 12 febbraio 2026
->Produzione per tutti: 16 aprile 2026
+>Rilascio rapido produzione: da definire
+>Produzione per tutti: da definire
 >
 >Questa funzione è stata temporaneamente rimossa dall’ambiente di produzione il 13 febbraio 2026.
 
