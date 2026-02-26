@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
+source-git-commit: f28d2eef57f63cede3a08b06053e8dc6431f21d4
 workflow-type: tm+mt
 source-wordcount: '3588'
 ht-degree: 2%
@@ -597,7 +597,6 @@ Quando si visualizza la vista tabella, è inoltre possibile visualizzare il camp
    ![Campo tabella indicatori in tempo reale e connessione avatar](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
 <!--maybe include a screen shot after release if they update the UI text in this list of users-->
-
 
 1. <span class="preview">(Facoltativo) Fare clic sul triangolo nell&#39;angolo superiore destro della cella contenente il campo modificato da altri. Viene visualizzato un elenco di utenti che stanno modificando il campo.</span>
 
