@@ -8,20 +8,22 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: 796c7e0a15a7a26c5cd3f0115d72946f0f28bcf2
 workflow-type: tm+mt
-source-wordcount: '1318'
-ht-degree: 0%
+source-wordcount: '1353'
+ht-degree: 4%
 
 ---
 
 # Organizzare un modulo e visualizzarne l’anteprima
 
+{{preview-fast-release-general}}
+
 È possibile organizzare un modulo personalizzato con il progettista del modulo e visualizzarlo in anteprima per verificarne la corretta configurazione.
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +34,7 @@ ht-degree: 0%
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td>
   </tr> 
@@ -75,12 +77,16 @@ Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, 
     <tbody> 
      <tr> 
       <td role="rowheader">Etichetta</td> 
-      <td> <p>(Obbligatorio) Digita un’etichetta descrittiva da visualizzare sopra la sezione. Puoi modificare l’etichetta in qualsiasi momento.</p> <p><b>IMPORTANTE</b>: evitare di utilizzare caratteri speciali in questa etichetta. Non vengono visualizzati correttamente nei rapporti.</p> </td> 
+      <td> <p>(Obbligatorio) Digita un’etichetta descrittiva da visualizzare sopra la sezione. Puoi modificare le etichette in qualsiasi momento.</p> <p><b>IMPORTANTE</b>: evitare di utilizzare caratteri speciali in questa etichetta. Non vengono visualizzati correttamente nei rapporti.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Descrizione</td> 
       <td>Digita del testo per spiegare agli utenti a cosa serve la sezione. Questo viene visualizzato sotto l’etichetta della sezione nel modulo personalizzato.</td> 
      </tr> 
+      <td><span class="preview">Compresso per impostazione predefinita</span></td>
+      <td><span class="preview">Per impostazione predefinita, tutte le sezioni di un modulo personalizzato vengono espanse quando il modulo stesso viene espanso. Selezionare questa opzione per comprimere la sezione per impostazione predefinita all'apertura del modulo.</span></td>
+     <tr>
+     </tr>
      <tr> 
       <td role="rowheader"> <p>Concedi l’accesso</p> </td> 
       <td> <p> Per visualizzare questa sezione e modificare i valori dei campi, seleziona le autorizzazioni necessarie per un oggetto a cui è allegato il modulo personalizzato. 
@@ -162,7 +168,7 @@ In un modulo personalizzato con un&#39;interruzione di sezione configurata con l
 
    oppure
 
-   Fare clic su **Salva e chiudi**.
+   Fai clic su **Salva e chiudi**.
 
 ## Visualizzare in anteprima un modulo personalizzato
 
