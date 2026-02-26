@@ -5,14 +5,16 @@ description: Gli elenchi avanzati utilizzano un formato tabella per la visualizz
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: ee5bb3cbf6a69b85c3d6b87500164f85a1ba114a
+source-git-commit: 2b01a9b4c697ae814ff894120fcc61df1a461e4e
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '2342'
 ht-degree: 2%
 
 ---
 
-# Usa elenchi avanzati
+# Utilizzare gli elenchi avanzati
+
+{{preview-fast-release-general}}
 
 In alcune aree di Adobe Workfront sono disponibili elenchi avanzati. Questi elenchi utilizzano un formato tabella per la visualizzazione delle voci di elenco e hanno un aspetto diverso rispetto agli elenchi standard. È stata migliorata anche la gestione delle viste, inclusi filtri, raggruppamenti, gestione delle colonne e ricerca.
 
@@ -32,13 +34,13 @@ Per informazioni sugli elenchi standard, vedere [Introduzione agli elenchi in Ad
  <tbody> 
   <tr> 
    <td>Pacchetto Adobe Workfront</td> 
-   <td><p>Any</p></td> 
+   <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td>
-   <p>Collaboratore o versione successiva</p>
-   <p>Richiedi o superiore</p></td>
+   <p>Collaboratore o successiva</p>
+   <p>Richiedente o successiva</p></td>
   </tr>
  </tbody> 
 </table>
@@ -56,10 +58,11 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti di Workfront che uti
 >Questo elenco non è completo. Ciascuno di questi elenchi di oggetti può essere visualizzato anche in un report o in un dashboard. Ad esempio, un rapporto Richieste o un dashboard che contiene un rapporto Richieste visualizza anche un elenco di richieste.
 
 | Elenco Workfront | Posizione dell&#39;elenco di oggetti |
-|--- |--- |
+| --- | --- |
 | Priorità | <ul><li>Home > seleziona l’icona Priorità nel menu a sinistra</li><li>Menu principale > Priorità</li></ul> |
 | Elenco delle richieste | <ul><li>Richieste (solo nuova esperienza)</li><li>Widget Richieste personali sulla Home</li></ul> |
 | Elenchi di stati, priorità, gravità e tassi di cambio in Configurazione | <ul><li>Configurazione > Preferenze progetto > Stati</li><li>Configurazione > Preferenze progetto > Priorità</li><li>Configurazione > Preferenze progetto > Gravità</li><li>Imposta > Preferenze progetto > Tassi di cambio</li></ul> |
+| <span class="preview">Elenco dei report</span> | <span class="preview">Menu principale > Rapporti</span> <p><span class="preview">Il formato elenco avanzato viene applicato solo quando è attivato **Usa cartelle condivisibili**. Per informazioni, vedere [Utilizzare cartelle di report condivisibili](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).</span> |
 
 ## Aggiungere elementi a un elenco avanzato
 
@@ -141,6 +144,18 @@ A seconda degli oggetti visualizzati in un elenco avanzato, è possibile nascond
 
    ![Indicatore per colonne nascoste](assets/glist-columns-hidden-indicator.png)
 
+### Rinomina colonne
+
+Alcune colonne consentono di salvare un nome personalizzato per il titolo della colonna.
+
+1. Passa il puntatore del mouse sulla colonna, quindi fai clic sulla freccia giù e seleziona **Rinomina**.
+
+   ![Seleziona Rinomina nella colonna](assets/glist-rename-or-sort-column.png)
+
+1. Nella finestra di dialogo **Rinomina** digitare il nome della colonna nel campo **Etichetta personalizzata** e fare clic su **Salva**.
+
+   Il nome della nuova colonna viene visualizzato nell&#39;elenco.
+
 ## Aggiungere e rimuovere colonne con Gestione colonne
 
 È possibile utilizzare **Gestione colonne** in alcuni elenchi avanzati per aggiungere e rimuovere facilmente colonne nell&#39;elenco. È possibile aggiungere o rimuovere come colonne in un elenco avanzato sia i campi di sistema che quelli personalizzati già esistenti in Workfront.
@@ -163,51 +178,44 @@ Per aggiungere e rimuovere colonne:
 
    L’elenco aggiorna le colonne in base alle scelte effettuate.
 
-## Visualizzare i dati con le visualizzazioni in un elenco avanzato
+## Aggiornare gli elementi dell’elenco avanzati
 
-Una vista è un set personalizzato di disposizioni e filtri di colonna che puoi applicare a un elenco. Potete creare nuove viste e modificare quelle esistenti.
+I seguenti elementi sono componenti di un elenco avanzato:
+
+* Visualizza: definisce le colonne, i filtri e i raggruppamenti nell’elenco con le impostazioni predefinite
+* Filtri: limita la quantità di informazioni visualizzate nell’elenco
+* Raggruppamenti: organizza le voci di elenco in base ai campi comuni
+* Ordina: dispone gli elementi di un elenco in base all&#39;ordine identificato per un determinato campo
+* Ricerca: trova rapidamente un elemento utilizzando una parola chiave di ricerca
 
 ### Applicare e creare viste
 
-Per applicare una visualizzazione, fare clic sul menu a discesa **Visualizzazioni** e selezionare la visualizzazione da applicare all&#39;elenco.
+>[!NOTE]
+>
+>Non tutti gli elenchi avanzati dispongono di tutti gli elementi descritti in questa sezione.
 
-Per creare una nuova vista:
+Per applicare o creare una vista:
 
-1. Fai clic sul menu a discesa **Visualizzazioni** e seleziona **Nuova visualizzazione**.
-1. Immettere un nome per la visualizzazione e fare clic su **Crea**.
+1. Fai clic sul menu a discesa **Viste** e seleziona una vista esistente da applicare all&#39;elenco
+
+   O
+
+   Fai clic su **Nuova visualizzazione** per crearne una.
+
+1. (Condizionale) Per aggiungere una nuova visualizzazione, immettere un nome per la visualizzazione, quindi fare clic su **Crea**.
 1. (Facoltativo) Nascondi, mostra o ridisponi le colonne. Per ulteriori informazioni, vedere [Personalizzare le colonne in un elenco avanzato](#customize-columns-in-an-enhanced-list).
-1. (Facoltativo) Filtra e raggruppa le voci di elenco. Per ulteriori informazioni, vedere [Filtrare e raggruppare gli elementi in un elenco avanzato](#filter-and-group-items-in-an-enhanced-list).
+1. (Facoltativo) Filtra l’elenco. Per ulteriori informazioni, vedere [Filtrare gli elementi in un elenco avanzato](#filter-items-in-an-enhanced-list).
+1. (Facoltativo) Raggruppa gli elementi nell’elenco. Per ulteriori informazioni, vedere [Raggruppare gli elementi in un elenco avanzato](#group-items-in-an-enhanced-list).
 
-   Le modifiche apportate alle viste vengono salvate automaticamente e sono visibili a tutti gli utenti della vista.
+   Le modifiche alle viste vengono salvate automaticamente. Alla successiva applicazione di questa visualizzazione, le impostazioni delle colonne e dei filtri rimangono invariate.
 
-   Alla successiva applicazione di questa visualizzazione, le impostazioni delle colonne e dei filtri rimangono invariate.
+### Filtrare gli elementi in un elenco avanzato
 
-### Condividere una visualizzazione
+>[!NOTE]
+>
+>Non tutti gli elenchi avanzati dispongono di tutti gli elementi descritti in questa sezione.
 
-Nel menu a discesa **Visualizzazioni**, è possibile visualizzare tre categorie di visualizzazioni:
-
-* **Visualizzazioni di sistema**: visualizzazioni assegnate dall&#39;amministratore di sistema.
-* **Visualizzazioni condivise**: visualizzazioni condivise con te da altri utenti.
-* **Visualizzazioni personali**: visualizzazioni create e condivisibili con altri utenti. Puoi condividere le visualizzazioni con altri utenti, team o gruppi.
-
-Per condividere una visualizzazione:
-
-1. Nel menu a discesa **Visualizzazioni**, passa il puntatore del mouse sulla visualizzazione in **Visualizzazioni personali** che desideri condividere, quindi fai clic sul menu a tre punti quando viene visualizzato.
-1. Seleziona **Condividi**.
-1. Nella finestra di dialogo Condividi, inserisci i nomi degli utenti, dei team o dei gruppi con cui vuoi condividere la visualizzazione, quindi selezionali dall’elenco quando vengono visualizzati.
-
-   Puoi assegnare le seguenti autorizzazioni ai destinatari:
-
-   * **Visualizzazione**: gli utenti possono applicare la visualizzazione all&#39;elenco ma non condividerlo.
-   * **Gestione**: gli utenti possono rinominare la visualizzazione, condividerla con altri utenti ed eliminarla.
-
-1. Fai clic su **Salva**.
-
-## Filtrare e raggruppare gli elementi
-
-I filtri consentono di ridurre la quantità di informazioni visualizzate nell’elenco. I raggruppamenti separano gli oggetti dell&#39;elenco in aree basate su criteri specifici.
-
-### Utilizzare i filtri
+I filtri consentono di ridurre la quantità di informazioni visualizzate nell’elenco.
 
 1. Fai clic su **Filtro** sopra l&#39;elenco.
 1. Nella casella Filtro fare clic su **Aggiungi condizione**.
@@ -223,20 +231,32 @@ I filtri consentono di ridurre la quantità di informazioni visualizzate nell’
    >
    >Per applicare un carattere jolly utente corrente, selezionare **Utente connesso** come valore del campo. Il filtro verrà quindi applicato all’utente che sta visualizzando l’elenco. Questo carattere jolly è disponibile nei campi in cui il valore è un utente.
 
-1. Fare clic su **Aggiungi condizione** per aggiungere un&#39;altra condizione al filtro come istruzione OR.
+1. Fare clic su **Aggiungi condizione** per aggiungere un&#39;altra condizione al filtro.
+
+   È possibile unire più filtri tramite un connettore AND o OR.
+
 1. Quando il filtro viene applicato, è possibile aprire nuovamente le opzioni **Filtro** per modificare le opzioni del filtro o cancellare tutti i filtri.
 
    Un indicatore viene visualizzato sul pulsante **Filtro** quando si applica un filtro all&#39;elenco.
 
    ![Indicatore filtro applicato](assets/glist-filter-applied-indicator.png)
 
-### Utilizzare i raggruppamenti
+### Raggruppa elementi in un elenco avanzato
+
+>[!NOTE]
+>
+>Non tutti gli elenchi avanzati dispongono di tutti gli elementi descritti in questa sezione.
+
+I raggruppamenti separano gli oggetti dell&#39;elenco in aree basate su criteri specifici.
+
+Workfront fornisce un numero limitato di raggruppamenti predefiniti e non è possibile modificarli.
 
 1. Fai clic su **Gruppo** sopra l&#39;elenco.
 1. Seleziona un raggruppamento per organizzare l’elenco.
 
    ![Seleziona un raggruppamento](assets/glist-grouping-choose-a-group-by.png)
 
+1. Fare clic su **Comprimi tutto** per visualizzare l&#39;elenco con tutti i raggruppamenti compressi. L’opzione predefinita consiste nel visualizzare l’elenco con tutti i raggruppamenti espansi.
 1. Quando si applica il raggruppamento, è possibile aprire nuovamente le opzioni Raggruppa per comprimere o espandere tutti i raggruppamenti contemporaneamente, modificare il raggruppamento in base a un campo diverso o cancellare tutti i raggruppamenti.
 
    ![Raggruppamento in elenchi avanzati](assets/glist-group-by-due-date-priorities.png)
@@ -245,11 +265,15 @@ I filtri consentono di ridurre la quantità di informazioni visualizzate nell’
 
    ![Indicatore di raggruppamento applicato](assets/glist-grouping-applied-indicator.png)
 
-## Ordinare e cercare in un elenco avanzato
+### Ordinare in un elenco avanzato
+
+>[!NOTE]
+>
+>Non tutti gli elenchi avanzati dispongono di tutti gli elementi descritti in questa sezione.
 
 Per ordinare le singole colonne:
 
-1. Passare alla colonna e fare clic sulla freccia giù.
+1. Passa il puntatore del mouse sulla colonna, quindi fai clic sulla freccia giù e seleziona **Ordina**.
 
    Un&#39;icona accanto al nome di una colonna indica che l&#39;elenco è ordinato in base ai valori della colonna e alla direzione dell&#39;ordinamento.
 
@@ -261,12 +285,97 @@ Per ordinare le singole colonne:
 
 Per ordinare il lavoro in un raggruppamento:
 
-1. Fai clic su **Gruppo** e seleziona se desideri ordinare in ordine crescente o decrescente.
+1. Fai clic su **Gruppo**, vai alla riga del raggruppamento applicato, fai clic sul menu a discesa dell&#39;ordinatore e seleziona un ordine crescente o decrescente.
 
    ![Ordina in un raggruppamento](assets/sort-in-groups.png)
 
-Per eseguire una ricerca:
+### Cerca in un elenco avanzato
 
-1. Digita il termine di ricerca nel campo di ricerca sopra l’elenco. I risultati vengono evidenziati nell&#39;elenco durante la digitazione.
+>[!NOTE]
+>
+>Non tutti gli elenchi avanzati dispongono di tutti gli elementi descritti in questa sezione.
+
+1. digitare una parola chiave in base alla quale si desidera eseguire la ricerca nella casella Cerca nell&#39;angolo superiore destro dell&#39;elenco. I risultati vengono evidenziati nell&#39;elenco durante la digitazione.
 
    ![Termine di ricerca evidenziato](assets/glist-search-highlighted.png)
+
+   >[!NOTE]
+   >
+   >La ricerca esamina tutte le colonne di tutte le voci di elenco. Se l&#39;elenco è lungo, la ricerca include elementi che potrebbero essere necessari per scorrere. Quando l’elenco viene filtrato, la ricerca esamina solo ciò che è attualmente visualizzato.
+
+### Condividere una visualizzazione
+
+>[!NOTE]
+>
+>Non tutti gli elenchi avanzati dispongono di tutti gli elementi descritti in questa sezione.
+
+Nel menu a discesa **Visualizzazioni**, è possibile visualizzare tre categorie di visualizzazioni:
+
+* **Visualizzazioni di sistema**: visualizzazioni assegnate dall&#39;amministratore di sistema. Non è possibile condividere le visualizzazioni di sistema.
+* **Visualizzazioni condivise**: visualizzazioni condivise con te da altri utenti.
+* **Visualizzazioni personali**: visualizzazioni create e condivisibili con altri utenti. Puoi condividere le visualizzazioni con altri utenti, team o gruppi.
+
+Quando si condivide una visualizzazione, vengono inclusi tutti gli elementi della visualizzazione (colonne, filtri e raggruppamenti).
+
+Per condividere una visualizzazione:
+
+1. Nel menu a discesa **Visualizzazioni**, passa il puntatore del mouse sulla visualizzazione in **Visualizzazioni personali** che desideri condividere, fai clic sul menu **Altro** ![Altro menu](assets/more-icon.png) e fai clic su **Condividi**.
+1. Nella finestra di dialogo Condividi, inserisci i nomi degli utenti, dei team, dei gruppi, delle aziende o dei ruoli con cui vuoi condividere la visualizzazione, quindi selezionali dall’elenco quando vengono visualizzati.
+
+   Puoi assegnare le seguenti autorizzazioni ai destinatari:
+
+   * **Visualizzazione**: gli utenti possono applicare la visualizzazione all&#39;elenco ma non condividerlo.
+
+     <span class="preview">Quando gli utenti con accesso in visualizzazione aggiornano la visualizzazione, le modifiche vengono salvate nelle preferenze personali dell&#39;utente. Un punto blu sul nome della visualizzazione (nelle **Viste condivise** dell&#39;utente) indica che alla visualizzazione sono applicati aggiornamenti personali.</span>
+
+   * **Gestisci**: gli utenti possono rinominare, condividere o eliminare la visualizzazione e modificarne gli elementi.
+
+     <span class="preview">Quando gli utenti di Gestione accesso apportano modifiche alla visualizzazione, tutti gli utenti che hanno la visualizzazione condivisa con loro visualizzeranno tali aggiornamenti quando la visualizzazione viene applicata all&#39;elenco.</span>
+
+1. Fai clic su **Salva**.
+
+   <span class="preview">Se si condivide una visualizzazione con un utente e quindi si rimuove tale accesso, la visualizzazione verrà rimossa dalle **visualizzazioni condivise** dell&#39;utente. Se all&#39;utente è stata applicata la visualizzazione condivisa quando viene rimosso il relativo accesso, viene applicata la visualizzazione predefinita di sistema.</span>
+
+<div class="preview">
+
+### Copiare una visualizzazione
+
+>[!NOTE]
+>
+>Non tutti gli elenchi avanzati dispongono di tutti gli elementi descritti in questa sezione.
+
+Quando una visualizzazione condivisa con l&#39;utente non dispone dell&#39;autorizzazione per la modifica, è possibile copiarla e salvarla con un nuovo nome. È necessario apportare modifiche alla vista prima di poterla copiare.
+
+1. Nel menu a discesa Visualizzazioni, passa il cursore sulla visualizzazione in **Visualizzazioni condivise** che desideri copiare, fai clic sul menu **Altro** ![Altro menu](assets/more-icon.png) e fai clic su **Copia con preferenze**.
+
+   Viene creata automaticamente una nuova vista. Utilizza il nome della visualizzazione originale con (copia) alla fine e viene visualizzato nella sezione **Visualizzazioni personali**.
+
+   L&#39;utente è il proprietario di questa visualizzazione e può rinominarla, modificarla, condividerla o eliminarla. Se il proprietario della visualizzazione originale rimuove l&#39;accesso condiviso a tale visualizzazione, si dispone comunque dell&#39;accesso alla visualizzazione creata.
+
+   >[!NOTE]
+   >
+   >L&#39;opzione **Copia con preferenze** è disponibile solo se sono state apportate modifiche a una visualizzazione condivisa con l&#39;utente.
+
+</div>
+
+<div class="preview">
+
+### Reimpostare una visualizzazione
+
+>[!NOTE]
+>
+>Non tutti gli elenchi avanzati dispongono di tutti gli elementi descritti in questa sezione.
+
+Quando una visualizzazione condivisa con l&#39;utente non dispone dell&#39;autorizzazione per la modifica e la si aggiorna, è possibile ripristinarla alla visualizzazione originale.
+
+1. Nel menu a discesa **Visualizzazioni**, passa il puntatore del mouse sulla visualizzazione in **Visualizzazioni condivise** che desideri reimpostare, fai clic sul menu **Altro** ![Altro menu](assets/more-icon.png) e fai clic su **Ripristina impostazioni predefinite**.
+
+   Gli elementi di visualizzazione (colonne, filtri e raggruppamenti) vengono ripristinati alle impostazioni originali condivise con l’utente.
+
+   >[!NOTE]
+   >
+   >L&#39;opzione **Ripristina impostazioni predefinite** è disponibile solo se sono state apportate modifiche a una visualizzazione condivisa con l&#39;utente corrente.
+
+   ![Copia e reimposta le opzioni di visualizzazione](assets/glist-copy-view-shared-with-you.png)
+
+</div>
