@@ -6,14 +6,14 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: b55cb2df33ebba0d61d4254f17a49f92b7d6553e
 workflow-type: tm+mt
-source-wordcount: '2200'
-ht-degree: 0%
+source-wordcount: '2252'
+ht-degree: 1%
 
 ---
 
-# Inviare richieste di Adobe Workfront Planning per creare record
+# Inviare richieste di Pianificazione di Adobe Workfront per creare record
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
@@ -59,12 +59,12 @@ Oppure
 
 </tr> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Qualsiasi</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>   <p>Visualizza o autorizzazioni superiori per un’area di lavoro e un tipo di record, se sei un utente di Workfront</p>  </td> 
   </tr>  
 </tbody> 
@@ -154,6 +154,9 @@ L&#39;abilitazione di questa impostazione rende disponibili i moduli di richiest
 
    Viene visualizzata una finestra con il nome del modulo di richiesta nella parte superiore.
 1. Aggiorna i campi disponibili nel modulo di richiesta. I campi con un asterisco rosso sono obbligatori.
+1. (Condizionale) Se la tua organizzazione consente il riempimento dei moduli con tecnologia AI, puoi caricare i documenti come prompt. IA utilizza questi documenti per compilare il modulo e puoi accettare o rifiutare i suggerimenti di IA.
+
+   Per istruzioni, consulta [Utilizzare il riempimento del modulo basato su IA per compilare una richiesta utilizzando prompt o documenti](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 1. Fai clic su **Invia**.
 
    Il modulo di richiesta si chiude e si torna all&#39;area **Richieste**.
@@ -232,7 +235,7 @@ L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi
    >
    >* Se il modulo di richiesta è associato a un’approvazione, questa deve essere concessa prima di poter accedere al record dalla pagina della richiesta.
 
-1. (Facoltativo) Fare clic sul nome del tipo di record **&#x200B;**.
+1. (Facoltativo) Fare clic sul nome del tipo di record ****.
 
    La pagina del tipo di record viene visualizzata in Workfront Planning.
 

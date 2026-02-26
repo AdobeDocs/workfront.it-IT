@@ -1,24 +1,26 @@
 ---
-title: Utilizzare Riempimento modulo basato su IA per compilare una richiesta utilizzando prompt o documenti
+title: Utilizzare Compilazione modulo basato su IA per compilare una richiesta utilizzando prompt o documenti
 content-type: reference
 description: È possibile utilizzare l’intelligenza artificiale per compilare automaticamente i campi della richiesta immettendo un prompt o fornendo un documento.
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 8dc094718999af291443bd1a703cdc742d13f57e
+source-git-commit: b55cb2df33ebba0d61d4254f17a49f92b7d6553e
 workflow-type: tm+mt
-source-wordcount: '1374'
-ht-degree: 3%
+source-wordcount: '1391'
+ht-degree: 10%
 
 ---
 
-# Utilizzare Riempimento modulo basato su IA per compilare una richiesta utilizzando prompt o documenti
+# Utilizzare Compilazione modulo basato su IA per compilare una richiesta utilizzando prompt o documenti
 
 >[!NOTE]
 >
 >Per utilizzare questa funzionalità, l’organizzazione deve soddisfare i requisiti per utilizzare l’Assistente di intelligenza artificiale di Workfront. Per informazioni dettagliate, vedere [Prerequisiti per l&#39;Assistente IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
 Il riempimento del modulo AI può essere utile per compilare automaticamente i campi della richiesta in base a un prompt inserito. Può anche riempire i campi in base a testo come le e-mail o i documenti caricati. Puoi approvare o rifiutare questi suggerimenti prima di inviare la richiesta.
+
+Questa funzionalità è disponibile quando si crea una richiesta nell&#39;area Richieste Workfront e in Workfront Planning.
 
 ## Requisiti di accesso
 
@@ -29,20 +31,20 @@ Il riempimento del modulo AI può essere utile per compilare automaticamente i c
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
-   <td> <p>Any </p> </td> 
+   <td role="rowheader">Piano Adobe Workfront</td> 
+   <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Collaboratore o versione successiva</p>
-   <p>Richiedi o superiore</p>
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
+   <td> <p>Collaboratore o successiva</p>
+   <p>Richiedente o successiva</p>
     </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modifica l'accesso alle Issues</p>  </td> 
   </tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td><p>Accesso per aggiungere richieste a una coda di richieste</p> <p>Visualizza o autorizzazioni superiori per la richiesta esistente</p> <p>Per informazioni sulla configurazione di una coda richieste, vedere <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Creare una coda richieste</a>. </p> </td> 
   <tr>
   </tr>
@@ -57,10 +59,10 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 Per utilizzare il riempimento modulo basato su IA per compilare una richiesta utilizzando un prompt o un documento, **tutti** i seguenti elementi devono essere applicati:
 
-* La tua organizzazione deve aver eseguito la migrazione ad Adobe IMS (Identity Management System)
-* L’esperienza unificata di Adobe deve essere abilitata
-* La tua organizzazione deve disporre di un piano Select, Prime o Ultimate Workfront
-* Adobe deve disporre di un accordo Adobe Gen AI firmato su file
+* L’organizzazione deve aver eseguito la migrazione ad Adobe IMS (Identity Management System)
+* Adobe Unified Experience deve essere abilitata
+* L’organizzazione deve disporre di un piano Workfront Ultimate, Prime o Select
+* Adobe deve disporre di un accordo Adobe Gen AI firmato registrato
 
   Per ulteriori informazioni sulla firma del contratto, consulta [Firmare il contratto di Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) nell&#39;articolo Panoramica dell&#39;Assistente AI.
 * L&#39;Assistente AI deve essere abilitato nelle impostazioni di sistema dell&#39;organizzazione. Questa funzione è gestita dall’amministratore di Workfront.
