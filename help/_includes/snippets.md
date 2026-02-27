@@ -1,8 +1,8 @@
 ---
-source-git-commit: 8fe1b2dc00c7b64b47717a17a51c0124da26d238
+source-git-commit: 703d2bb511109a68d2917fd83fd1b7f7a562f5a9
 workflow-type: tm+mt
-source-wordcount: '2644'
-ht-degree: 1%
+source-wordcount: '2670'
+ht-degree: 2%
 
 ---
 # Frammenti
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
-## Anteprima evidenziata per l'articolo completo {#highlighted-preview-article-level}
+## Anteprima evidenziata per l&#39;articolo completo {#highlighted-preview-article-level}
 
 <span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
@@ -69,6 +69,8 @@ ht-degree: 1%
 
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront, quindi fai clic sul tuo nome utente accanto all&#39;immagine del tuo profilo. Oppure, se disponibile, fai clic sull&#39;immagine del tuo profilo nell&#39;area di navigazione superiore, quindi fai clic su **[!UICONTROL Profilo Workfront]**.
 
+<!-- Notes for Workflow packaging -->
+
 ## Nota per Workflow Ultimate {#ultimate-package}
 
 >[!IMPORTANT]
@@ -80,6 +82,12 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >Per utilizzare questa funzione è necessario disporre del pacchetto Workflow Prime o Workflow Ultimate.
+
+## Nota per il pacchetto Flusso di lavoro per la suddivisione costi/fatturazione {#workflow-package-for-cost-billing}
+
+>[!IMPORTANT]
+>
+>Per visualizzare autorizzazioni distinte per fatturazione e costi, è necessario disporre del pacchetto Workflow Select, Prime o Ultimate.
 
 <!-- Admin and Setup -->
 
@@ -300,9 +308,9 @@ Per impostare le cartelle collegate:
 
 >[!IMPORTANT]
 >
->Le informazioni contenute in questo articolo si riferiscono ad Adobe Workfront Planning, una funzionalità aggiuntiva di Adobe Workfront.
+>Le informazioni contenute in questo articolo si riferiscono alla Pianificazione di Adobe Workfront, una funzionalità aggiuntiva di Adobe Workfront.
 >
->Per un elenco dei requisiti per accedere a Workfront Planning, vedere [Panoramica dell&#39;accesso ad Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+>Per un elenco dei requisiti per accedere alla Pianificazione di Workfront, consulta [Panoramica dell’accesso alla Pianificazione di Adobe Workfront](/help/quicksilver/planning/access/access-overview.md).
 > 
 >Per informazioni generali su Workfront Planning, vedere [Introduzione ad Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
