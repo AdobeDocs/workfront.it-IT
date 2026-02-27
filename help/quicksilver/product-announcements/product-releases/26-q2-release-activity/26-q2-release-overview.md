@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: b889ba54594275587c97fe3a5073f2e28df97350
+source-git-commit: 35f9c4012d8d47e6cd5402029ceaf487b1942ce9
 workflow-type: tm+mt
 source-wordcount: '1169'
-ht-degree: 48%
+ht-degree: 47%
 
 ---
 
@@ -310,7 +310,7 @@ La versione 21 dell’API di Workfront è stata rilasciata il 23 ottobre 2025. N
 >
 >Questa modifica alla versione API comporta delle interruzioni e potrebbe interessare le chiamate API esistenti. Ciò è dovuto al fatto che la versione 21 dell’API utilizza la versione 2 delle sottoscrizioni eventi.
 >
-> Per i campi a selezione multipla, la versione 2 di Sottoscrizioni eventi invia sempre come array. La versione 1 inviava un array solo se venivano selezionati più valori. Se veniva selezionato un solo valore, veniva inviata una stringa.
+> Per i campi a selezione multipla, la versione 2 delle sottoscrizioni di eventi invia sempre come array. La versione 1 inviava un array solo se venivano selezionati più valori. Se veniva selezionato un solo valore, veniva inviata una stringa.
 
 Per informazioni sulle novità e sugli aggiornamenti, consulta [Novità della versione 21 dell’API](/help/quicksilver/wf-api/api/new-api-version-21.md).
 
