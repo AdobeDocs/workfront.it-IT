@@ -10,20 +10,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 57632f1949e849aca3f26874382f1101b9b0cf89
 workflow-type: tm+mt
-source-wordcount: '1588'
-ht-degree: 14%
+source-wordcount: '1585'
+ht-degree: 16%
 
 ---
 
 # Funzionalità disponibile per ogni tipo di oggetto per vari livelli di accesso (legacy)
 
-{{highlighted-preview}}
-
 >[!NOTE]
 >
->Le informazioni contenute in questo articolo si riferiscono ai livelli di accesso legacy. Per informazioni sui livelli di accesso correnti, vedere [Panoramica sui nuovi livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+> Le informazioni contenute in questo articolo si riferiscono ai livelli di accesso lagacy. Per informazioni sui livelli di accesso correnti, consulta [Panoramica dei nuovi livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 Nelle tabelle seguenti sono elencate le funzionalità disponibili per ogni tipo di oggetto nei vari livelli di accesso.
 
@@ -506,7 +504,6 @@ I tipi di licenza Request (Richiesta) e External User (Utente esterno) non sono 
 | Gestire i record di fatturazione | ✓ |  |  |
 | Gestire le spese | ✓ | ✓ |  |
 | Visualizza dati finanziari | ✓&#42; | ✓&#42; | ✓&#42; |
-| <span class="preview">Gestione schede tariffarie</span> | ✓ |  |  |
 | Visualizzare le informazioni per costo negli strumenti di pianificazione delle risorse | ✓ |  |  |
 | Risorse budget negli strumenti di pianificazione risorse&#42;&#42; | ✓ |  |  |
 | Visualizza allocazione risorse negli strumenti di pianificazione risorse&#42; | ✓ | ✓ | ✓ |

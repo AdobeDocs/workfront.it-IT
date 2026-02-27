@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
+source-git-commit: f6aa8519748d98ba135fb0f572b7daade716c50f
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 2%
+source-wordcount: '674'
+ht-degree: 7%
 
 ---
 
@@ -36,10 +36,10 @@ Per informazioni sull&#39;utilizzo dei livelli di accesso personalizzati per ges
  <tbody> 
   <tr> 
    <td role="rowheader">Pacchetto Adobe Workfront</td> 
-   <td>Any</td> 
+   <td>Qualsiasi</td> 
   </tr> 
     <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p>
    <p>Piano</p>
 </td> 
@@ -51,7 +51,7 @@ Per informazioni sull&#39;utilizzo dei livelli di accesso personalizzati per ges
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,7 +68,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    >* Gli utenti con una licenza Review dispongono dei diritti di visualizzazione sui progetti relativi a problemi convertiti, ma i loro diritti di visualizzazione sono limitati.
    >* Per informazioni sulle autorizzazioni che gli utenti possono concedere quando condividono progetti con altri, vedi [Condividere un progetto in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
    >* Quando si configura un&#39;impostazione del livello di accesso per un determinato tipo di oggetto, tale configurazione non influisce sull&#39;accesso degli utenti agli oggetti di livello inferiore. Ad esempio, è possibile impedire agli utenti di eliminare i progetti nel loro livello di accesso, ma ciò non impedisce loro di eliminare le attività, che sono di livello inferiore rispetto ai progetti.Per ulteriori informazioni sulla gerarchia degli oggetti, vedere la sezione [Interdipendenza e gerarchia degli oggetti](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) nell&#39;articolo [Informazioni sugli oggetti in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
-   >* Un utente il cui livello di accesso non consente l’accesso ai dati finanziari non può concedere l’accesso che consentirebbe ad altri utenti di visualizzare i dati finanziari. Ciò include l’accesso a progetti che mostrano dati finanziari o la modifica di un livello di accesso per consentire la visualizzazione di dati finanziari.
+   * Un utente il cui livello di accesso non consente l’accesso ai dati finanziari non può concedere l’accesso che consentirebbe ad altri utenti di visualizzare i dati finanziari. Ciò include l’accesso a progetti che mostrano dati finanziari o la modifica di un livello di accesso per consentire la visualizzazione di dati finanziari.
 
 
 1. (Facoltativo) Fai clic su **imposta valori predefiniti di condivisione** a destra dell&#39;opzione Crea, quindi su **Aggiungi regola** per aggiungere una regola di condivisione per i nuovi progetti.
@@ -93,9 +93,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Dopo aver creato il livello di accesso, puoi assegnarlo a un utente. Per ulteriori informazioni, vedere [Modificare il profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-## Accesso a report, dashboard e calendari per tipo di licenza
+## Accesso ai progetti per tipo di licenza
 
-Per informazioni sulle operazioni che gli utenti di ogni livello di accesso possono eseguire con i problemi, vedere la sezione [Progetti](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects) nell&#39;articolo [Funzionalità disponibile per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Per informazioni sulle operazioni che gli utenti di ogni livello di accesso possono eseguire con i progetti, vedere la sezione [Progetti](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects) nell&#39;articolo [Funzionalità disponibile per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## Accesso ai progetti condivisi
 
