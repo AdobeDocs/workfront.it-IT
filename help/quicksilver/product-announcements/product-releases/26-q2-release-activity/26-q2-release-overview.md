@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: 860bd4bef75a90f4e1c5a21f38de95962804c00c
+source-git-commit: b889ba54594275587c97fe3a5073f2e28df97350
 workflow-type: tm+mt
-source-wordcount: '1074'
-ht-degree: 51%
+source-wordcount: '1169'
+ht-degree: 48%
 
 ---
 
@@ -192,24 +192,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><p>venerdì 12 marzo 2026</p></td>
         <td><p>venerdì 16 aprile 2026</p></td>
     </tr>
-<!--    <tr>
+   <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Shareable Report Folders</a><p></p>
-            <p>You can now organize and share reports using shareable report folders. This new feature helps teams that manage large volumes of reports maintain scalable and consistent access control.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Cartelle report condivisibili</a><p></p>
+            <p>Ora puoi organizzare e condividere i rapporti utilizzando cartelle di rapporti condivisibili. Questa nuova funzione consente ai team che gestiscono grandi volumi di rapporti di mantenere un controllo degli accessi scalabile e coerente.</p>
         </td>
-        <td><p>February 26, 2025</p></td>
-        <td><p>March 12, 2026</p></td>
-        <td><p>April 16, 2026</p></td>
-    </tr>-->
-    <!--<tr>
+        <td><p>giovedì 26 febbraio 2025</p></td>
+        <td><p>venerdì 12 marzo 2026</p></td>
+        <td><p>venerdì 16 aprile 2026</p></td>
+    </tr>
+    <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Improved Date Labels for Chart Groupings in Canvas Dashboards</a><p></p>
-            <p>Charts that group data by date now display clearer, more readable date labels. With this update, date labels dynamically adjust based on the selected Group by option—such as day, week, month, or year—making charts easier to read and interpret at a glance.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Sono state migliorate le etichette di data per i raggruppamenti di grafici nei dashboard di Canvas</a><p></p>
+            <p>I grafici che raggruppano i dati per data ora presentano etichette di data più chiare e leggibili. Con questo aggiornamento, le etichette delle date vengono regolate in modo dinamico in base all’opzione Raggruppa per selezionata, ad esempio giorno, settimana, mese o anno, semplificando la lettura e l’interpretazione immediata dei grafici.</p><p>Nota: Canvas Dashboards è attualmente in versione beta.</p>
         </td>
-        <td><p>February 26, 2025</p></td>
-        <td><p>March 12, 2026</p></td>
-        <td><p>April 16, 2026</p></td>
-    </tr>-->
+        <td><p>giovedì 26 febbraio 2025</p></td>
+        <td><p>venerdì 12 marzo 2026</p></td>
+        <td><p>venerdì 16 aprile 2026</p></td>
+    </tr>
              </tbody>
         </table>
 
