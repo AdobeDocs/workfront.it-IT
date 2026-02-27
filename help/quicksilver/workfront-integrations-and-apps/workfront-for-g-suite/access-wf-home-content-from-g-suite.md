@@ -7,10 +7,10 @@ description: Puoi accedere al contenuto della tua  [!DNL Adobe Workfront] Home, 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
+source-git-commit: 228fd22f1894689c0d256270350cc82954901641
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 0%
+source-wordcount: '144'
+ht-degree: 9%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Per offrire integrazioni più stabili e scalabili, stiamo passando a un approccio di integrazione moderno e flessibile che utilizza l’automazione e l’integrazione di Workfront (Fusion). Nell&#39;ambito di questo processo di transizione, le seguenti funzionalità di Workfront per Google Workspace non saranno disponibili dopo il **28 febbraio 2026**:
+>Per offrire integrazioni più stabili e scalabili, abbiamo optato per un approccio di integrazione moderno e flessibile che utilizza l’automazione e l’integrazione di Workfront (Fusion). Nell&#39;ambito di questo processo di transizione, la funzionalità **di Workfront for Google Workspace non è più disponibile**:
 >
 >* Accesso alle funzionalità di Google Workspace da Workfront
 >
@@ -26,65 +26,69 @@ ht-degree: 0%
 >
 >È consigliabile utilizzare l&#39;automazione e l&#39;integrazione di Workfront per le esigenze di integrazione dell&#39;organizzazione con Google Workspace.
 >
->Per una panoramica dell&#39;automazione e dell&#39;integrazione di Workfront, vedere [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Per una panoramica di Workfront Automation and Integration consulta [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Per informazioni sulle funzionalità specifiche dei moduli di automazione e integrazione di Workfront per Google Workspace, vedere [Moduli Gmail](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) e [Moduli calendario Google](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Per informazioni sulle funzionalità specifiche dei moduli di automazione e integrazione di Workfront per Google Workspace, vedere [Moduli Gmail](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) e [Moduli calendario Google](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
-Puoi accedere al contenuto della [!DNL Adobe Workfront] [!UICONTROL Home], incluse tutte le attività, i problemi, le approvazioni e le richieste di accesso assegnate, senza uscire da Google Workspace.
+<!--
 
-## Requisiti di accesso
+You can access your [!DNL Adobe Workfront] [!UICONTROL Home] content, including all tasks, issues, approvals, and access requests assigned to you, without leaving Google Workspace.
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Pacchetto Adobe Workfront</td> 
-   <td> <p>Qualsiasi</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Standard</p><p>Lavoro o superiore</p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p><p>Work or higher</p>
   </tr> 
  </tbody> 
 </table>
 
-Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Prerequisiti
+## Prerequisites
 
-Prima di poter accedere al contenuto della [!UICONTROL Home] da [!DNL Google Workspace], è necessario
+Before you can access [!UICONTROL Home] content from [!DNL Google Workspace], you must
 
-* Installa [!DNL Workfront for Google Workspace]\
-   Per istruzioni, vedere [Installa [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* Install [!DNL Workfront for Google Workspace]\
+   For instructions, see [Install [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Accedi a [!DNL Workfront] [!UICONTROL Home] da [!DNL Google Workspace]
+## Access [!DNL Workfront] [!UICONTROL Home] from [!DNL Google Workspace]
 
-1. Assicurarsi di aver effettuato l&#39;accesso a [!DNL Workfront].
-1. Se il pannello [!UICONTROL Workfront for Google Workspace] non è visualizzato, fare clic sull&#39;icona [!DNL Workfront] ![icona Workfront](assets/wf-lion-icon.png) nella barra laterale dei componenti aggiuntivi [!DNL Google Workspace] all&#39;estrema destra della pagina.
-1. Se nella parte superiore di [!DNL Workfront] viene visualizzata una freccia sinistra per [!DNL Google Workspace], fare clic sulla freccia per passare all&#39;area [!UICONTROL Home].
+1. Make sure you are logged in to [!DNL Workfront].
+1. If the [!UICONTROL Workfront for Google Workspace] panel is not displayed, click the [!DNL Workfront] icon ![Workfront icon](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page.
+1. If you see a left arrow at the top of [!DNL Workfront] for [!DNL Google Workspace], click the arrow to go to the [!UICONTROL Home] area.
 
-1. Nell&#39;area **[!UICONTROL Ordina per]**, fare clic sulla freccia di espansione ![Espandi freccia](assets/dropdown-arrow.png), quindi fare clic su un&#39;opzione per specificare come raggruppare gli elementi di lavoro in modo da trovare quello desiderato.
+1. In the **[!UICONTROL Sort by]** area, click the expand arrow ![Expand arrow](assets/dropdown-arrow.png), then click an option to specify how you want to group your work items so you can find the one you want.
 
-   Quando ordini per **[!UICONTROL Data conferma]** o **[!UICONTROL Data completamento pianificata]**, gli elementi di lavoro meno recenti si trovano in alto.
+   When you sort by **[!UICONTROL Commit date]** or **[!UICONTROL Planned completion]** date, the oldest work items are at the top.
 
-   Quando si ordina per **[!UICONTROL Progetto]**, gli elementi di lavoro vengono visualizzati nell&#39;ordine dei relativi progetti principali, elencati in ordine alfabetico dalla A alla Z. Gli elementi di lavoro senza un progetto principale vengono visualizzati in **[!UICONTROL Nessun progetto]**.
+   When you sort by **[!UICONTROL Project]**, work items appear in the order of their parent projects, listed alphabetically from A to Z. Work items without a parent project display under **[!UICONTROL No Project]**.
 
-1. Fare clic sulla freccia di espansione ![Freccia di espansione](assets/dropdown-arrow.png) per il raggruppamento che si desidera visualizzare.
+1. Click the expand arrow ![Expand arrow](assets/dropdown-arrow.png) for the grouping you want to view.
 
-   Il numero di elementi contenuti in ciascun gruppo viene visualizzato tra parentesi. Quando si fa clic sulla freccia [!UICONTROL espandi], vengono visualizzati tutti gli elementi di lavoro del gruppo.
+   The number of items contained within each group displays in parenthesis. When you click the [!UICONTROL expand] arrow, all the work items in the group display.
 
-   Gli elementi di lavoro vengono visualizzati come segue:
+   Work items appear as follows:
 
-   * ![Icona attività](assets/task-icon.png) **Le attività** visualizzano il nome del progetto padre, il nome dell&#39;attività e la data di completamento pianificata.
+   * ![Task icon](assets/task-icon.png) **Tasks** display the parent project name, task name, and planned completion date.
 
-   * ![Icona problema](assets/issue-icon.png) **Problemi** visualizza il nome del progetto principale, il nome del problema e la data di completamento pianificata.
+   * ![Issue icon](assets/issue-icon.png) **Issues** display the parent project name, issue name, and planned completion date.
 
-   * ![Icona documento](assets/document-icon.png) **Le approvazioni** visualizzano il nome del richiedente, il nome del documento e la data di invio.
-   * **Nelle richieste di accesso** vengono visualizzati il nome del richiedente, il nome dell&#39;oggetto e la data di invio. L&#39;icona del tipo di oggetto viene visualizzata a sinistra.
+   * ![Document icon](assets/document-icon.png)  **Approvals** display the requester's name, document name, and submission date.
+   * **Access requests** display the requester's name, object name, and submission date. The icon for the object type displays on the left.
 
-1. Fare clic in un punto qualsiasi di un elemento di lavoro per visualizzarne i dettagli, gli aggiornamenti e i documenti.
+1. Click anywhere on a work item to see its details, updates, and documents.
+
+-->
