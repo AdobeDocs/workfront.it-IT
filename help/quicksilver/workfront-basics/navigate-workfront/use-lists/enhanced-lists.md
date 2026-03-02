@@ -5,9 +5,9 @@ description: Gli elenchi avanzati utilizzano un formato tabella per la visualizz
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: c9015f5486721e3977efc00a297dd1618bc681d9
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '2326'
+source-wordcount: '2337'
 ht-degree: 2%
 
 ---
@@ -344,13 +344,13 @@ Per condividere una visualizzazione:
 >
 >Non tutti gli elenchi avanzati dispongono di tutti gli elementi descritti in questa sezione.
 
-Quando una visualizzazione condivisa con l&#39;utente non dispone dell&#39;autorizzazione per la modifica, è possibile copiarla e salvarla con un nuovo nome. È necessario apportare modifiche alla vista prima di poterla copiare.
+Quando una visualizzazione viene condivisa con l&#39;utente e non si dispone dell&#39;autorizzazione per modificarla, è possibile copiarla e salvarla con un nuovo nome. È necessario apportare modifiche alla vista prima di poterla copiare.
 
-1. Nel menu a discesa Visualizzazioni, passa il cursore sulla visualizzazione in **Visualizzazioni condivise** che desideri copiare, fai clic sul menu **Altro** ![Altro menu](assets/more-icon.png) e fai clic su **Copia con preferenze**.
+1. Nel menu a discesa Visualizzazioni, passa il puntatore del mouse sulla visualizzazione in **Visualizzazioni condivise** che hai modificato le impostazioni di e che desideri copiare, fai clic sul menu **Altro** ![Altro menu](assets/more-icon.png) e fai clic su **Copia con preferenze**.
 
-   Viene creata automaticamente una nuova vista. Utilizza il nome della visualizzazione originale con (copia) alla fine e viene visualizzato nella sezione **Visualizzazioni personali**.
+   Viene creata automaticamente una nuova vista. Il nome della visualizzazione copiata segue il seguente pattern: `Original view name (copy)`e viene visualizzato nella sezione **Visualizzazioni personali** delle visualizzazioni.
 
-   L&#39;utente è il proprietario di questa visualizzazione e può rinominarla, modificarla, condividerla o eliminarla. Se il proprietario della visualizzazione originale rimuove l&#39;accesso condiviso a tale visualizzazione, si dispone comunque dell&#39;accesso alla visualizzazione creata.
+   L&#39;utente è il proprietario di questa visualizzazione e può rinominarla, modificarla, condividerla o eliminarla. Se il proprietario della visualizzazione originale rimuove l&#39;accesso condiviso a tale visualizzazione, sarà comunque possibile accedere alla visualizzazione creata copiando l&#39;originale condiviso.
 
    >[!NOTE]
    >

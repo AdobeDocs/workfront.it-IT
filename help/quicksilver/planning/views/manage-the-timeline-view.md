@@ -1,23 +1,23 @@
 ---
-title: Gestire la visualizzazione della timeline
+title: Gestire la vista timeline
 description: Accedere e modificare i record in una vista timeline nella pagina Tipo di record di Adobe Workfront Planning. Questo articolo descrive come creare una vista timeline e modificarne o eliminarne una esistente. Personalizza la timeline con filtri, raggruppamenti e impostazioni. Utilizzare la funzione Raggruppamento per visualizzare i record connessi.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '3912'
-ht-degree: 2%
+source-wordcount: '4014'
+ht-degree: 3%
 
 ---
 
-# Gestire la visualizzazione della timeline
+# Gestire la vista timeline
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -48,13 +48,13 @@ Per informazioni sulle visualizzazioni record, vedere [Gestione visualizzazioni 
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p> Standard per creare ed eliminare viste</p>
    <p>Collaboratore o versione successiva per aggiornare gli elementi di visualizzazione</p>
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>   <p>Gestire le autorizzazioni per una visualizzazione</p>  
    <p>Autorizzazioni di visualizzazione a una visualizzazione per modificare temporaneamente le impostazioni di visualizzazione o per duplicarla</p> </td> 
   </tr> 
@@ -138,7 +138,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 Durante la creazione di una vista timeline, tutti i record del tipo di record selezionato vengono visualizzati in una timeline cronologica.
 
-Considera quanto segue:
+Considera i seguenti aspetti:
 
 * È possibile creare una visualizzazione Sequenza temporale solo se a un tipo di record sono associati almeno due campi data. Se a un tipo di record è associato uno o nessun campo data, l&#39;opzione della visualizzazione Timeline non è disponibile.
 
@@ -406,7 +406,7 @@ Per aggiungere un raggruppamento nella vista timeline:
 1. Fare clic su uno dei campi suggeriti oppure fare clic su **Scegliere un campo diverso** e cercare un campo diverso, quindi fare clic su di esso quando viene visualizzato nell&#39;elenco.
 
    Il raggruppamento viene applicato automaticamente alla timeline e i record vengono visualizzati nella casella di raggruppamento.
-
+1. <span class="preview">(Facoltativo) Fare clic sul menu a discesa **A -> Z** o **Z -> A** accanto al nome del campo selezionato per selezionare un ordinamento crescente o decrescente per il raggruppamento. I raggruppamenti vengono visualizzati nell’ordine alfabetico selezionato nella vista timeline. </span>
 1. (Facoltativo) Ripeti i passaggi precedenti per aggiungere fino a 3 raggruppamenti.
 
    Il numero di campi selezionati per il raggruppamento viene visualizzato accanto all’icona Raggruppamento.
@@ -545,7 +545,7 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
 
 ### Suddividere i record connessi nella visualizzazione timeline
 
-È possibile visualizzare i record connessi nella visualizzazione della sequenza temporale di un record utilizzando la funzione Raggruppamento. La suddivisione dei record in base alle relative connessioni consente di visualizzare le timeline degli altri record connessi e di comprendere in che modo potrebbero influire sulle prestazioni e sulle scadenze dei record.
+È possibile visualizzare i record connessi nella visualizzazione della sequenza temporale di un record utilizzando la funzione Raggruppamento. Il raggruppamento dei record in base alle relative connessioni consente di visualizzare le timeline degli altri record connessi e di comprendere in che modo potrebbero interessare le prestazioni e le scadenze dei record.
 
 #### Considerazioni durante l’utilizzo della funzione di raggruppamento
 

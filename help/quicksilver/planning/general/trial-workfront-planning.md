@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
-source-git-commit: 61c6bc0770416e02390f4e3de869d9e2565897d4
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '2122'
+source-wordcount: '2168'
 ht-degree: 3%
 
 ---
@@ -24,7 +24,7 @@ Adobe Workfront Planning offre visibilità centralizzata nel ciclo di vita del m
 
 >[!IMPORTANT]
 >
->* Adobe Workfront offre una prova gratuita di 60 giorni di pianificazione Adobe Workfront.
+>* Adobe Workfront offre una prova gratuita di Adobe Workfront Planning di 60 giorni a tutti i clienti Adobe Workfront che non sono anche clienti Workfront Planning.
 >
 >* Lo studio è disponibile tra le seguenti date: 2 marzo - 1 maggio 2026.
 >
@@ -69,14 +69,14 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
 
 Di seguito sono riportate le date importanti associate all&#39;offerta di prova gratuita di Adobe Workfront Planning:
 
-* **26 gennaio 2026**: i banner di prova gratuiti di Workfront Planning sono stati rilasciati ai clienti Workfront. I banner includono:
+* **26 gennaio 2026**: i banner di prova gratuiti di Workfront Planning sono stati rilasciati ai clienti Workfront. I banner includevano quanto segue:
    * Un collegamento a questo documento.
    * Finestra di accettazione del contratto di prova. Solo un amministratore Workfront può accettare il contratto. Il contratto di prova può essere accettato in qualsiasi momento a partire da questa data.
 * **2 marzo 2026**: prova di Workfront Planning avviata.
 
   Con il lancio della versione di prova, i seguenti elementi vengono aggiunti alla tua istanza di Workfront:
 
-   * I banner di Workfront Planning continuano a essere visualizzati per tutti gli utenti.
+   * I banner di Workfront Planning continuano a essere visualizzati per tutti gli utenti. Nei banner è incluso un collegamento a questo documento.
    * La preferenza **Verifica contratto di prova** è stata aggiunta all&#39;area **Configurazione**.
 
   Esistono i seguenti scenari:
@@ -87,7 +87,8 @@ Di seguito sono riportate le date importanti associate all&#39;offerta di prova 
   >
   >L&#39;area Planning viene visualizzata nel menu principale per tutti gli utenti del sistema, indipendentemente dal tipo di licenza Workfront.
 
-   * Se l&#39;amministratore di Workfront non ha accettato il contratto prima di questa data, deve prima accettarlo per poter accedere a Workfront Planning.
+   * Se l&#39;amministratore di Workfront non ha accettato il contratto prima di questa data, i banner che annunciano i programmi di prova di Planning vengono visualizzati per tutti gli utenti, ma Planning non è ancora disponibile nel menu principale. Prima di poter accedere a Workfront Planning, l&#39;amministratore di sistema deve accettare il contratto.
+
 * **1 aprile 2026**: non è più possibile iscriversi alla versione di valutazione.
 
   I seguenti elementi vengono rimossi dall’istanza di Workfront:

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-In Adobe Workfront Planning è possibile visualizzare gli oggetti e i relativi campi in una vista a elenco quando si accede a tali oggetti nella pagina Record collegati di un record.
+In Adobe Workfront Planning è possibile visualizzare i progetti e i relativi campi in una vista a elenco quando si accede a tali progetti nella pagina Record connessi di un record. <!--change 'projects' to other objects when they become available and the location of the list view-->
 
-In questo articolo viene descritto come creare o modificare una visualizzazione elenco nella pagina Record collegati di un record e come modificare gli oggetti nella visualizzazione.
+In questo articolo viene descritto come creare o modificare una visualizzazione elenco che visualizza i progetti nella pagina Record collegati di un record e come modificare i progetti nella visualizzazione. <!--change 'projects' to other objects when they become available and the location of the list view-->
 
 ## Requisiti di accesso
 
@@ -72,18 +72,19 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 ## Considerazioni sulle visualizzazioni elenco
 
-* Non è possibile visualizzare i record nelle pagine dei tipi di record in una visualizzazione elenco. È possibile visualizzare i seguenti oggetti in una vista a elenco solo quando vengono visualizzati nella pagina Record collegati di un record:
+* Non è possibile visualizzare tutti i tipi di oggetto nelle pagine dei tipi di record in una visualizzazione elenco.
+
+  È possibile visualizzare i seguenti oggetti in una vista a elenco solo quando vengono visualizzati nella pagina Record collegati di un record:
 
    * Progetti Workfront
 
   Per informazioni sulla creazione di una pagina di record connessi, vedere [Aggiungere una pagina di record connessi a un record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 * Prima di poter visualizzare una vista elenco in una pagina di record connessi di un record, è necessario collegare i progetti Workfront con i tipi di record di Planning. Per informazioni, vedere [Tipi di record di connessione](/help/quicksilver/planning/architecture/connect-record-types.md).
-* Le visualizzazioni elenco sono simili agli elenchi Avanzati. Per ulteriori informazioni, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 
 ## Gestire una vista a elenco {#manage-a-list-view}
 
-Per ulteriori informazioni sulla gestione delle visualizzazioni elenco in Workfront, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Le visualizzazioni elenco sono simili agli elenchi avanzati. Per ulteriori informazioni, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 {{step1-to-planning}}
 
@@ -114,7 +115,7 @@ Per ulteriori informazioni sulla gestione delle visualizzazioni elenco in Workfr
       >
       >* Non è possibile modificare le visualizzazioni di sistema.
       >
-      >* <span class="preview">È possibile reimpostare una visualizzazione condivisa con l&#39;utente dopo averla modificata per ripristinarne le preferenze originali oppure copiarla con le modifiche e condividere la copia. Per ulteriori informazioni, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+      >* <span class="preview">È possibile reimpostare una visualizzazione condivisa con l&#39;utente che dispone solo delle autorizzazioni di visualizzazione, dopo averla modificata per ripristinarne le preferenze originali, oppure è possibile copiarla con le modifiche e condividere la copia. Per ulteriori informazioni, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
 
    1. Fai clic sull&#39;icona **Filtro** ![Icona Filtro](assets/filter-icon.png) per aggiungere un filtro alla visualizzazione. I risultati vengono filtrati immediatamente nell’elenco. Non è possibile salvare e denominare i filtri. I filtri vengono ricordati quando accedi alla pagina in futuro e fanno parte di visualizzazioni condivise.
    1. Fai clic sull&#39;icona **Colonne** ![Icona Colonne](assets/columns-icon.png) per selezionare le colonne da visualizzare o da nascondere nella visualizzazione.
@@ -128,23 +129,23 @@ Per ulteriori informazioni sulla gestione delle visualizzazioni elenco in Workfr
       È possibile aggiungere solo campi esistenti alla visualizzazione elenco.
 Non è possibile rimuovere il campo principale nella vista a elenco visualizzato nella prima colonna.
 
-
    1. <span class="preview">Fare clic sull&#39;icona **Formatta celle** ![Formatta celle](assets/format-cells-icon.png). Viene visualizzata la casella **Formato**.</span> <!--change the name of the box when they update it-->
       <span class="preview">Effettuare le seguenti operazioni: </span>
 
+      1. Fai clic su **Aggiungi condizione**.
+      1. <span class="preview">Nella riga **If**, selezionare un campo e scegliere un valore di campo, quindi fare clic su **Aggiungi condizione**. </span>
+
+         >[!TIP]
+         >
+         ><span class="preview">Per la formattazione condizionale sono disponibili solo i campi visibili nella visualizzazione elenco.</span>
+
+      1. <span class="preview">(Facoltativo) Fare clic su **Aggiungi condizione** nella riga **If** per aggiungere altre condizioni alla stessa regola.</span>
+
+         >[!TIP]
+         >
+         ><span class="preview">È possibile aggiungere fino a 10 condizioni in una regola di condizionamento e disporre di un massimo di 20 regole per un campo.</span>
+
       <div class="preview">
-
-      1. Nella riga **If**, fare clic su **Aggiungi condizione**, quindi selezionare un campo in base al quale si desidera formattare e scegliere un valore di campo.
-
-         >[!TIP]
-         >
-         >Solo i campi visibili nella vista a elenco sono disponibili per la formattazione condizionale.
-
-      1. (Facoltativo) Fai clic su **Aggiungi condizione** nella riga **If** per aggiungere altre condizioni alla stessa regola.
-
-         >[!TIP]
-         >
-         >È possibile aggiungere fino a 10 condizioni in una regola di condizionamento e disporre di un massimo di 20 regole per un campo.
 
       1. Fare clic sul connettore **Or** tra le condizioni per passare a **And** e indicare che è necessario soddisfare più condizioni contemporaneamente. **Or** è il connettore predefinito.
       1. Nella riga **Formato** selezionare un campo per indicare la colonna da formattare. <!--edit this area, if it changes names??-->

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f28d2eef57f63cede3a08b06053e8dc6431f21d4
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '3588'
+source-wordcount: '3563'
 ht-degree: 2%
 
 ---
@@ -504,8 +504,6 @@ Per aggiungere un raggruppamento:
 
    ![Raggruppamento applicato nella vista tabella](assets/grouping-applied-in-table-view.png)
 
-1. <span class="preview">(Facoltativo) Scegliere A-Z o Z-A dal menu a discesa di ordinamento a destra di un campo selezionato. In questo modo i raggruppamenti nella timeline vengono ordinati di conseguenza.</span>
-
 1. (Facoltativo) Nella casella **Raggruppa record per**, fai clic sull&#39;icona **x** a destra di un campo selezionato per il raggruppamento per rimuovere il raggruppamento
 
    Oppure
@@ -596,7 +594,7 @@ Quando si visualizza la vista tabella, è inoltre possibile visualizzare il camp
 
    ![Campo tabella indicatori in tempo reale e connessione avatar](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
-<!--maybe include a screen shot after release if they update the UI text in this list of users-->
+   <!--maybe include a screen shot after release if they update the UI text in this list of users-->
 
 1. <span class="preview">(Facoltativo) Fare clic sul triangolo nell&#39;angolo superiore destro della cella contenente il campo modificato da altri. Viene visualizzato un elenco di utenti che stanno modificando il campo.</span>
 

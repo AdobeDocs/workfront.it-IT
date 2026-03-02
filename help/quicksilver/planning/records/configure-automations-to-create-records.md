@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
-source-git-commit: f28d2eef57f63cede3a08b06053e8dc6431f21d4
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
 source-wordcount: '1777'
 ht-degree: 4%
@@ -161,7 +161,7 @@ Viene visualizzata la pagina dei dettagli dell’automazione.
       * Clic sul pulsante
       * <span class="preview">Modifica valore campo</span>
 
-   1. (Condizionale) Se hai selezionato **Clic pulsante**, vai al passaggio seguente che descrive l&#39;area **Azioni**.
+   1. (Condizionale) Se hai selezionato **Clic pulsante**, vai al passaggio 9 che descrive l&#39;area **Azioni**. <!--ensure this number stays accurate-->
 
    1. <span class="preview">(Condizionale) Se hai selezionato **Modifica valore campo**, effettua le seguenti operazioni nella sezione **Impostazioni**: </span>
 

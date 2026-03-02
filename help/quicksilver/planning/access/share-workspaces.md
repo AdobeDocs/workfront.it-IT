@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '1025'
 ht-degree: 3%
 
 ---
@@ -151,31 +151,23 @@ Per condividere un’area di lavoro con altri utenti:
 
    ![Pulsante Condividi nell&#39;area di lavoro in alto a destra](assets/share-button-on-workspace-top-right.png)
 
-   <!--only for March 4: * <span class="preview">(Conditional) Depending on your access level, the following scenarios exist: </span>-->
+1. <span class="preview">(Condizionale) A seconda del livello di accesso disponibile, eseguire una delle operazioni seguenti:
 
-1. <span class="preview">(Condizionale) Se si è un amministratore di sistema, selezionare una delle opzioni seguenti:</span>
+   * Se si è un amministratore di sistema, selezionare una delle opzioni seguenti:</span>
 
-   <div class="preview">
+      * <span class="preview">**L&#39;accesso è consentito solo agli invitati**: è necessario selezionare le entità nella casella di condivisione e scegliere il loro accesso all&#39;area di lavoro. Questa è la selezione predefinita. </span>
+      * <span class="preview">**Tutti gli utenti del sistema possono visualizzare**: tutti gli utenti del sistema con accesso a Planning possono visualizzare l&#39;area di lavoro nell&#39;area **Aree di lavoro** in Planning.</span>
 
-   * **L&#39;accesso è consentito solo agli invitati**: è necessario selezionare le entità nella casella di condivisione e scegliere il loro accesso all&#39;area di lavoro. Questa è la selezione predefinita.
-   * **Tutti gli utenti del sistema possono visualizzare**: tutti gli utenti del sistema con accesso a Planning possono visualizzare l&#39;area di lavoro nell&#39;area **Aree di lavoro** in Planning.
+   * <span class="preview">(Condizionale) Se si è un manager dell&#39;area di lavoro con una licenza Standard, è possibile visualizzare una delle selezioni seguenti, ma non è possibile modificarle:</span>
 
-   </div>
+      * <span class="preview">**L&#39;accesso è consentito solo agli invitati**. Impostazione predefinita.</span>
+      * <span class="preview">**Tutti nel sistema possono visualizzare**</span>
 
-   <!--only  for March 4:
+     <span class="preview">È necessario chiedere a un amministratore di sistema di modificare un&#39;autorizzazione globale per un&#39;area di lavoro.</span>
 
-      * <span class="preview">If you are a workspace manager with a Standard license, you can see one of the following selections but you cannot change them:</span>
+1. Nel campo **Concedi l&#39;accesso a questa area di lavoro**, inizia a digitare il nome di un utente, un gruppo, un team, una società o una mansione e fai clic su di esso quando viene visualizzato nell&#39;elenco.
 
-         <div class="preview">
-         
-         * **Only invited people can access**
-         * **Everyone in the system can view**
-         
-         </div>-->
-
-1. Nel campo **Concedi l&#39;accesso a questa area di lavoro**, inizia a digitare il nome di un utente, un gruppo, un team, una società o una mansione e fai clic su di esso quando viene visualizzato nell&#39;elenco. <!--update screen shot at the release of system-wide permissions for workspaces-->
-
-   ![Interfaccia utente condivisa con i gruppi](assets/sharing-ui-with-groups.png)
+   <span class="preview">![Interfaccia utente condivisa con i gruppi](assets/sharing-ui-with-groups.png)</span>
 
    >[!NOTE]
    >

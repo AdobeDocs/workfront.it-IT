@@ -6,9 +6,9 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
-source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1501'
 ht-degree: 6%
 
 ---
@@ -226,13 +226,10 @@ Il tuo feedback viene inviato ai team tecnici e di prodotto.
 1. (Facoltativo) Fai clic sull&#39;icona **Mostra o nascondi la schermata di anteprima** ![Nascondi o mostra l&#39;icona della schermata di anteprima](assets/hide-show-preview-screen-in-planning-designer.png) per aprire o chiudere la schermata di anteprima a destra.
 1. Fai clic sull&#39;icona **Apri area di lavoro in una nuova scheda** ![Apri area di lavoro in una nuova scheda](assets/open-workspace-on-new-tab-icon.png) per aprire l&#39;area di lavoro che stai aggiornando in una nuova scheda.
 1. Fare clic sull&#39;icona **Chiudi** **X** per chiudere Planning Designer e aprire l&#39;area Aree di lavoro.
-1. Aprire l&#39;area di lavoro modificata mediante Planning Designer e apportare ulteriori modifiche ai relativi oggetti.
+1. (Facoltativo) Per modificare un&#39;area di lavoro, effettuate una delle seguenti operazioni:
 
-<!-- for March 2 -- replace the last step with this: 
-1. (Optional) To edit a workspace, do one of the following:
-
-    * Open the workspace and manually make changes to it. For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md). 
-    * Click **Edit with AI**. This opens the Planning Designer. Repeat the steps above to use AI and make further changes to the workspace.-->
+   * Apri l’area di lavoro e apporta manualmente le modifiche. Per informazioni, consulta [Modificare le aree di lavoro](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   * Fai clic su **Modifica con IA**. Verrà aperto Planning Designer. Ripeti i passaggi precedenti per utilizzare l’intelligenza artificiale e apportare ulteriori modifiche all’area di lavoro.
 
 ## Disattiva il Designer di pianificazione per la tua organizzazione
 

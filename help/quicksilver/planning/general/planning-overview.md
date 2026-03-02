@@ -1,55 +1,55 @@
 ---
-title: Introduzione a Adobe Workfront Planning
-description: Adobe Workfront Planning è una funzionalità aggiuntiva di Adobe Workfront. Puoi creare aree di lavoro completamente personalizzabili per definire flussi di lavoro che soddisfino le esigenze di ogni unità organizzativa dell’azienda.
+title: Introduzione alla Pianificazione di Adobe Workfront
+description: La Pianificazione di Adobe Workfront è una funzionalità aggiuntiva di Adobe Workfront. Puoi creare aree di lavoro completamente personalizzate per definire i flussi di lavoro che rispondono alle esigenze di ciascuna unità organizzativa della tua azienda.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '1998'
-ht-degree: 2%
+source-wordcount: '2086'
+ht-degree: 95%
 
 ---
 
-# Introduzione a Adobe Workfront Planning
+# Introduzione alla Pianificazione di Adobe Workfront
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 >[!IMPORTANT]
 >
->Le informazioni contenute in questo articolo si riferiscono ad Adobe Workfront Planning, una funzionalità aggiuntiva di Adobe Workfront.
+>Le informazioni contenute in questo articolo si riferiscono alla Pianificazione di Adobe Workfront, una funzionalità aggiuntiva di Adobe Workfront.
 >
->Per un elenco dei requisiti per accedere a Workfront Planning, vedere [Panoramica dell&#39;accesso ad Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+>Per un elenco dei requisiti per accedere alla Pianificazione di Workfront, consulta [Panoramica dell’accesso alla Pianificazione di Adobe Workfront](/help/quicksilver/planning/access/access-overview.md).
 
-Questo articolo contiene informazioni generali su Workfront Planning.
+Questo articolo contiene informazioni generali sulla Pianificazione di Workfront.
 
-Per l&#39;elenco completo degli articoli che contengono la documentazione per Workfront Planning, vedere [Informazioni generali su Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md).
+Per l’elenco completo degli articoli che contengono la documentazione per la Pianificazione di Workfront, consulta [Informazioni generali sulla Pianificazione di Adobe Workfront](/help/quicksilver/planning/planning-information.md).
 
-## Introduzione ad Adobe Workfront Planning
+## Introduzione alla Pianificazione di Adobe Workfront
 
-Adobe Workfront Planning è una funzionalità aggiuntiva di Adobe Workfront. Lo scopo di Workfront Planning è quello di offrire una visibilità completa dei dettagli operativi di un&#39;organizzazione e di rispondere alle domande aziendali critiche in ogni fase del ciclo di vita della gestione del lavoro.
+La Pianificazione di Adobe Workfront è una funzionalità aggiuntiva di Adobe Workfront. Lo scopo della Pianificazione di Workfront è quello di offrire una visibilità completa dei dettagli operativi di un’organizzazione e di rispondere alle domande aziendali critiche in ciascuna fase del ciclo di vita della gestione del lavoro.
 
-Workfront Planning è in grado di rispondere a domande quali:
+La Pianificazione di Workfront è in grado di rispondere a domande come:
 
 * Quante campagne sono in esecuzione nell’area EMEA per il quarto trimestre?
 * Esistono sovrapposizioni di pubblico tra campagne simultanee?
-* Quanto stanno andando bene i programmi di sensibilizzazione in questo momento?
-* Come si presentano le risorse per una determinata campagna? Chi di loro deve ancora essere approvato?
+* Qual è l’andamento attuale dei programmi di sensibilizzazione?
+* Come si presentano le risorse per una determinata campagna? Quale di queste deve ancora essere approvata?
 
-Per rispondere a queste domande, la leadership ha bisogno di una soluzione che possa fornire una visione olistica di ogni fase del lavoro, dalla pianificazione all&#39;esecuzione, dalla consegna alla misurazione dei risultati. Attualmente, le organizzazioni dispongono di strumenti che possono coprire alcune parti del processo, ma molte non hanno buone connessioni con tutte le fasi del lavoro, né possono fornire risultati in modo affidabile.
+Per rispondere a queste domande, la leadership ha bisogno di una soluzione che possa fornire una visione olistica di ciascuna fase del lavoro, dalla pianificazione all’esecuzione, dalla consegna alla misurazione dei risultati. Attualmente, le organizzazioni dispongono di strumenti che possono coprire alcune parti del processo, ma molte non dispongono di collegamenti validi con tutte le fasi del lavoro, né possono fornire risultati in modo affidabile.
 
-Di seguito sono riportate alcune delle funzionalità principali:
+Le seguenti sono alcune delle funzionalità principali:
 
-* Risolvere il problema della gestione del lavoro in tutte le fasi e per tutte le parti interessate che partecipano al processo di lavoro.
-* Personalizzare completamente i flussi di lavoro, dalla scelta dei tipi di oggetto (o di record) utilizzati dall&#39;organizzazione alla configurazione del modo in cui questi oggetti si collegano l&#39;uno all&#39;altro.
+* Risolvere il problema della gestione del lavoro in tutte le fasi e per tutti gli stakeholder che partecipano al processo di lavoro.
+* Personalizzare completamente i flussi di lavoro, dalla scelta dei tipi di oggetto (o di record) utilizzati dall’organizzazione alla configurazione del modo in cui tali oggetti si collegano l’uno all’altro.
 * Collegamento a tipi di oggetto da altri sistemi, creando un framework coerente per tutti i processi.
 
 <!--
@@ -155,87 +155,87 @@ The following features are currently available in Workfront Planning:
 |     Reporting on Workfront Planning information (Canvas Dashboard)                              |                               |       ✓                           |                 |
 -->
 
-## Abilita Workfront Planning per gli utenti nell’istanza Workfront
+## Abilitare la Pianificazione di Workfront per gli utenti nell’istanza Workfront
 
-Dopo l&#39;acquisto di un pacchetto Workfront Planning da parte dell&#39;organizzazione, in qualità di amministratore di Workfront, è necessario verificare che siano presenti i seguenti elementi prima che gli utenti possano accedere a Workfront Planning:
+Dopo l’acquisto di un pacchetto di Pianificazione di Workfront da parte dell’organizzazione, in qualità di amministratore di Workfront, prima che gli utenti possano accedere a Pianificazione di Workfront devi verificare quanto segue:
 
-* Assegnare ai seguenti utenti un modello di layout che includa Planning nel menu principale:
+* Assegna agli utenti seguenti un modello layout che includa Pianificazione nel menu principale:
 
-   * Assegnate il modello di layout agli utenti Light e Contribute.
+   * Assegna il modello layout agli utenti con Licenza Light e Collaboratore.
 
-     Per impostazione predefinita, Planning è abilitato per gli utenti standard e gli amministratori di sistema.
+     Per impostazione predefinita, la Pianificazione è abilitata per gli utenti standard e gli amministratori di sistema.
 
-  Per ulteriori informazioni, vedere [Personalizzare il menu principale utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) e [Assegnare gli utenti a un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+  Per ulteriori informazioni, consulta [Personalizzare il menu principale utilizzando un modello layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) e [Assegnare gli utenti a un modello layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
-* Assegnare agli utenti una licenza di Workfront e le autorizzazioni di Workfront Planning che consentano loro di visualizzare o creare oggetti in Workfront Planning. Per ulteriori informazioni su come concedere l&#39;accesso a Workfront Planning e consentire ad altri utenti di utilizzarlo, vedere [Panoramica sull&#39;accesso ad Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+* Assegna agli utenti una licenza Workfront e le autorizzazioni di Pianificazione di Workfront che consentano loro di visualizzare o creare oggetti in Pianificazione di Workfront. Per ulteriori informazioni su come concedere l’accesso alla Pianificazione di Workfront e consentire ad altri utenti di utilizzarla, consulta [Panoramica dell’accesso alla Pianificazione di Adobe Workfront](/help/quicksilver/planning/access/access-overview.md).
 
-## Terminologia di Workfront Planning
+## Terminologia della Pianificazione di Workfront
 
-Sebbene Workfront Planning faccia parte di Workfront, viene fornito con concetti e terminologia proprietari. Prima di iniziare la configurazione di Workfront Planning per la tua organizzazione, assicurati di conoscere questi concetti.
+Sebbene la Pianificazione di Workfront faccia parte di Workfront, ha concetti e terminologia proprietari. Prima di iniziare la configurazione della Pianificazione di Workfront per la tua organizzazione, assicurati di conoscere questi concetti.
 
-Il framework per Workfront Planning è completamente personalizzabile. È possibile creare tutti i tipi di record, i relativi attributi e qualsiasi campo ad essi associato in base alle esigenze specifiche dell&#39;organizzazione.
+Il framework per la Pianificazione di Workfront è completamente personalizzabile. Puoi creare tutti i tipi di record, i relativi attributi e qualsiasi campo ad essi associato per rispondere alle esigenze specifiche della tua organizzazione.
 
-Il numero di oggetti di Workfront Planning che è possibile creare è limitato. Per ulteriori informazioni, vedere [Panoramica sulle limitazioni degli oggetti di Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md).
+Il numero di oggetti della Pianificazione di Workfront che è possibile creare è limitato. Per ulteriori informazioni, consulta [Panoramica delle limitazioni degli oggetti della Pianificazione di Adobe Workfront](/help/quicksilver/planning/general/limitations-overview.md).
 
-Di seguito sono riportati gli oggetti e i concetti principali di Workfront Planning:
+Di seguito sono riportati gli oggetti e i concetti principali della Pianificazione di Workfront:
 
-* **Workspace**: raccolta di tipi di record che definiscono il ciclo di vita operativo di una determinata organizzazione. Un’area di lavoro è l’area di lavoro di un’unità organizzativa.
+* **Area di lavoro**: una raccolta di tipi di record che definiscono il ciclo di vita operativo di una determinata organizzazione. Un’area di lavoro è la struttura di lavoro di un’unità organizzativa.
 
-  ![Area di lavoro di marketing con tassonomie di tipo record apertura pagina](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
+  ![Pagina iniziale dell’area di lavoro marketing con tassonomie dei tipi di record](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
-  Per ulteriori informazioni, vedere [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
+  Per ulteriori informazioni, consulta [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-* **Tipo di record**: nome dei tipi di oggetto in Workfront Planning.
+* **Tipo di record**: il nome dei tipi di oggetto nella Pianificazione di Workfront.
 
   I tipi di record popolano le aree di lavoro.
 
-  A differenza di Workfront, dove i tipi di oggetto sono predefiniti, in Workfront Planning è possibile creare tipi di oggetto personalizzati.
+  A differenza di Workfront, dove i tipi di oggetto sono predefiniti, in Pianificazione di Workfront puoi creare i tuoi tipi di oggetto.
 
   Ad esempio, in Workfront sono già stati creati i tipi di oggetto Programma, Portfolio, Progetto, Attività o Problema.
 
-  In Workfront Planning è possibile creare qualsiasi tipo di record che soddisfi i flussi di lavoro dell&#39;organizzazione. Successivamente è possibile definire la relazione tra i tipi di record o le dipendenze tra le maschere.
+  Nella Pianificazione di Workfront, puoi creare qualsiasi tipo di record che soddisfi i flussi di lavoro della tua organizzazione. Successivamente, puoi definire come i tipi di record si relazionano l’uno con l’altro o le dipendenze dei moduli.
 
-  Per ulteriori informazioni, vedere [Panoramica sui tipi di record](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+  Per ulteriori informazioni, consulta [Panoramica dei tipi di record](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
-* **Record**: istanza di un tipo di record.
+* **Record**: un’istanza di un tipo di record.
 
-  ![Record evidenziati nell&#39;elenco dei tipi di record della campagna](assets/records-highlighted-in-campaign-record-type-list.png)
+  ![Record evidenziati nell’elenco dei tipi di record della campagna](assets/records-highlighted-in-campaign-record-type-list.png)
 
-  Dopo aver aggiunto un tipo di record a un&#39;area di lavoro, è possibile iniziare ad aggiungere record di tale tipo nella pagina del tipo di record.
+  Dopo aver aggiunto un tipo di record a un’area di lavoro, puoi iniziare ad aggiungere record di tale tipo nella pagina del tipo di record.
 
-  Ad esempio, &quot;Campagna&quot; può essere un tipo di record e &quot;Campagna estiva per l’area EMEA&quot; è un record del tipo di record Campagna.
+  Ad esempio, “Campagna” può essere un tipo di record e “Campagna estiva per l’area EMEA” è un record del tipo di record Campagna.
 
-  Per ulteriori informazioni, vedere [Creare record](/help/quicksilver/planning/records/create-records.md).
+  Per ulteriori informazioni, consulta [Creare record](/help/quicksilver/planning/records/create-records.md).
 
-* **Modello Workspace**: è possibile creare un&#39;area di lavoro utilizzando modelli predefiniti. È possibile utilizzare i tipi di record e i campi predefiniti inclusi in un modello oppure aggiungere record personalizzati.
+* **Modello area di lavoro**: puoi creare un’area di lavoro utilizzando modelli predefiniti. Puoi utilizzare i tipi di record e i campi predefiniti inclusi in un modello oppure aggiungerne di personali.
 
-  ![Pagina aree di lavoro con miniature modelli](assets/workspaces-page-with-templates-thumbnails.png)
+  ![Pagina delle aree di lavoro con miniature di modelli](assets/workspaces-page-with-templates-thumbnails.png)
 
-  Adobe Workfront Planning contiene i seguenti modelli:
+  La Pianificazione di Adobe Workfront contiene i seguenti modelli:
 
-   * Base: Marketing Management
-   * Avanzato: Marketing Management
-   * Enterprise: Marketing Management
+   * Base: Gestione del marketing
+   * Avanzato: Gestione del marketing
+   * Enterprise: Gestione del marketing
    * Gestione vendite
    * Gestione del prodotto
 
-  Per ulteriori informazioni, vedere [Elenco dei modelli di area di lavoro](/help/quicksilver/planning/architecture/workspace-templates.md).
+  Per ulteriori informazioni, consulta [Elenco dei modelli dell’area di lavoro](/help/quicksilver/planning/architecture/workspace-templates.md).
 
-* **Campi**: i campi sono attributi che è possibile aggiungere ai tipi di record. I campi contengono informazioni sul tipo di record. <!--check the shot below, "Connection" needs to be in lowercase-->
+* **Campi**: i campi sono attributi che puoi aggiungere ai tipi di record. I campi contengono informazioni sul tipo di record.<!--check the shot below, "Connection" needs to be in lowercase-->
 
-  ![Elenco a discesa dei campi record](assets/drop-down-list-of-record-fields.png)
+  ![Elenco a discesa dei campi dei record](assets/drop-down-list-of-record-fields.png)
 
-  Considerazioni sui campi record:
+  Considerazioni sui campi dei record:
 
    * I campi aggiunti per un tipo di record vengono automaticamente associati a tutti i record di quel tipo e possono essere utilizzati per acquisire dati su tali record.
 
    * I campi vengono visualizzati come colonne nella visualizzazione Tabella applicata a una pagina del tipo di record. Vengono inoltre visualizzati nella pagina del record.
 
-   * I campi sono univoci per un tipo di record e non vengono trasferiti da un tipo di record a un altro.
+   * I campi sono univoci per un tipo di record e non si trasferiscono da un tipo di record a un altro.
 
-   * I campi sono completamente personalizzabili e sono accessibili solo in Workfront Planning. Non è possibile accedere ai campi di Workfront Planning da Workfront.
+   * I campi sono completamente personalizzabili e accessibili solo nella Pianificazione di Workfront. Non puoi accedere ai campi della Pianificazione di Workfront da Workfront.
 
-  Per ulteriori informazioni, vedere [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).
+  Per ulteriori informazioni, consulta [Creare i campi](/help/quicksilver/planning/fields/create-fields.md).
 
   Per impostazione predefinita, un nuovo tipo di record è associato ai seguenti campi predefiniti:
 
@@ -247,7 +247,7 @@ Di seguito sono riportati gli oggetti e i concetti principali di Workfront Plann
 
   Puoi creare campi personalizzati dei seguenti tipi:
 
-   * Testo a riga singola
+   * Testo su riga singola
    * Paragrafo
    * Selezione multipla
    * Selezione singola
@@ -257,149 +257,149 @@ Di seguito sono riportati gli oggetti e i concetti principali di Workfront Plann
    * Valuta
    * Casella di controllo
    * Formula
-   * People
+   * Persone
    * Creato da
    * Data di creazione
    * Ultima modifica eseguita da
    * Data ultima modifica
 
-* **Tipi di record connessi**, **Record connessi** e **Campi connessi**: è possibile creare una connessione tra le seguenti entità in Workfront Planning:
+* **Tipi di record connessi**, **Record connessi** e **Campi connessi**: puoi creare una connessione tra le seguenti entità nella Pianificazione di Workfront:
 
-   * Due tipi di record di Workfront Planning.
-   * Tipo di record e tipo di oggetto progetto, programma, portfolio, società o gruppo di Workfront.
-   * Un tipo di record e una risorsa o cartella Adobe Experience Manager.
+   * Due tipi di record della Pianificazione di Workfront.
+   * Un tipo di record e un progetto, programma, portfolio, società o tipo di oggetto di gruppo di Workfront.
+   * Un tipo di record e una risorsa o cartella di Adobe Experience Manager.
 
-     È necessario disporre di una licenza Adobe Experience Manager per collegare i tipi di record agli oggetti Experience Manager.
+     Devi disporre di una licenza Adobe Experience Manager per collegare i tipi di record agli oggetti di Experience Manager.
 
-     ![Nuova scheda di connessione con le opzioni di Workfront AEM](assets/new-connection-tab-with-workfront-aem-options.png)
+     ![Nuova scheda di connessione con le opzioni AEM di Workfront](assets/new-connection-tab-with-workfront-aem-options.png)
 
-   * Un tipo di record e un marchio Adobe GenStudio for Performance Marketing.
+   * Un tipo di record e un brand di Adobe GenStudio for Performance Marketing.
 
-     È necessario disporre di una licenza Adobe GenStudio for Performance Marketing per collegare i tipi di record ai marchi GenStudio.
+     Devi disporre di una licenza di Adobe GenStudio for Performance Marketing per collegare i tipi di record ai brand GenStudio.
 
-     ![Nuova scheda di connessione con l&#39;opzione Marchio Adobe GenStudio](assets/new-connection-tab-with-genstudio-option.png)
+     ![Nuova scheda di connessione con l’opzione brand Adobe GenStudio](assets/new-connection-tab-with-genstudio-option.png)
 
 
-  Dopo aver stabilito una connessione tra i tipi di record, è possibile collegare tra loro singoli record o oggetti di tali tipi. La connessione tra i record viene visualizzata come campo record connesso o come connessione.
+  Dopo aver stabilito una connessione tra i tipi di record, puoi collegare tra loro singoli record od oggetti di tali tipi. La connessione tra i record viene visualizzata come campo record collegato o come connessione.
 
-  La connessione dei tipi di record è utile quando si dispone di diversi tipi di oggetti di lavoro che influiscono l&#39;uno sull&#39;altro. Ad esempio, puoi utilizzare le campagne e ogni campagna può gestire più marchi. Per indicare questa relazione, puoi collegare le campagne ai brand. Inoltre, il lavoro per ogni campagna potrebbe essere pianificato in più progetti in Workfront. Per indicare questo, puoi collegare le campagne ai relativi progetti. La connessione di tipi di record e la successiva connessione di singoli record consente di ottenere questa relazione in Workfront Planning.
+  La connessione dei tipi di record è utile quando disponi di diversi tipi di oggetti di lavoro che si influenzano a vicenda. Ad esempio, potresti utilizzare le campagne e ciascuna campagna potrebbe gestire più brand. Per indicare questa relazione, puoi collegare le campagne ai brand. Inoltre, il lavoro per ciascuna campagna potrebbe essere pianificato in più progetti in Workfront. Per indicarlo, puoi collegare le campagne ai relativi progetti. Collegare i tipi di record e successivamente i singoli record consente di ottenere questa relazione nella Pianificazione di Workfront.
 
-* **Campi di ricerca** (o campi collegati): dopo aver stabilito la connessione tra due tipi di record e aver connesso i singoli record, è possibile fare riferimento ai campi dei record connessi dal record da cui si sta effettuando la connessione.
+* **Campi di ricerca** (o campi collegati): dopo aver stabilito la connessione tra due tipi di record e aver collegato i singoli record insieme, puoi fare riferimento ai campi dei record connessi dal record da cui stai effettuando la connessione.
 
-  Se ad esempio si connette un tipo di record Campagna a un tipo di oggetto Progetto Workfront, è possibile visualizzare il campo Budget dei progetti connessi nei record della campagna.
+  Se ad esempio colleghi un tipo di record Campagna a un tipo di oggetto Progetto Workfront, puoi visualizzare il campo Budget dei progetti collegati nei record della campagna.
 
-  ![Aggiungi casella campi di ricerca](assets/add-lookup-fields-modal.png)
+  ![Aggiungere una casella per campi di ricerca](assets/add-lookup-fields-modal.png)
 
   >[!TIP]
   >
-  > Non è possibile aggiungere i tipi di campo seguenti come campi di ricerca dal record o dai tipi di oggetto collegati:
-  >
-  >* People
-  >* Creato da
-  >* Ultima modifica eseguita da
-  >* Campi typeahead di Workfront (inclusi campi come Proprietario progetto o Sponsor progetto)
+  >* Non puoi aggiungere i seguenti tipi di campo come campi di ricerca dal record o dai tipi di oggetto collegati:
+  >   * Creato da
+  >   * Ultima modifica eseguita da
+  >   * Campi di digitazione di Workfront (inclusi campi come Proprietario del progetto o Sponsor del progetto)
+  >* Non è possibile aggiungere i seguenti tipi di campi come campi di ricerca dal record o dal tipo di oggetto connesso in produzione, <span class="preview">ma è possibile aggiungerli nell&#39;ambiente di anteprima:</span>
+  >   * Persone
 
-  Per informazioni sulla connessione di tipi di record, record e sulla creazione di campi collegati, vedere gli articoli seguenti:
+  Per informazioni sulla connessione di tipi di record, record e sulla creazione di campi collegati, consulta gli articoli seguenti:
 
-   * [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md)
-   * [Connetti record](/help/quicksilver/planning/records/connect-records.md)
+   * [Collegare tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md)
+   * [Collegare i record](/help/quicksilver/planning/records/connect-records.md)
 
 <!--not yet:* Fields are reusable across Record Types.  -->
 
-* **Visualizzazioni**: i record vengono visualizzati nella rispettiva pagina del tipo di record in diversi tipi di visualizzazioni.
+* **Viste**: i record vengono visualizzati nella rispettiva pagina del tipo di record in diversi tipi di viste.
 
-  ![Elenco a discesa dei tipi di visualizzazione dall&#39;elenco dei tipi di record](assets/view-types-drop-down-from-record-type-list.png)
+  ![Menu a discesa dei tipi di viste dall’elenco dei tipi di record](assets/view-types-drop-down-from-record-type-list.png)
 
-  Le visualizzazioni contengono impostazioni personalizzate di un tipo di visualizzazione specifico, ad esempio l&#39;elenco di campi (colonne), un elenco di record (righe), il relativo ordine, un filtro applicato o applicabile e un raggruppamento.
+  Le viste contengono impostazioni personalizzate di un tipo di vista specifico, ad esempio l’elenco di campi (colonne), un elenco di record (righe), il relativo ordine (ordinamento), un filtro applicato o applicabile e un raggruppamento.
 
-  Di seguito sono riportati i tipi di visualizzazione che è possibile applicare alla pagina del tipo di record:
+  Di seguito sono riportati i tipi di viste che puoi applicare alla pagina del tipo di record:
 
-   * **Vista tabella**: visualizza i record e i relativi campi, inclusi i campi connessi e di ricerca, in un formato tabella. Le righe della tabella sono i singoli record e le colonne sono i campi record. La vista tabella è quella predefinita.
+   * **Vista tabella**: mostra i record e i relativi campi, inclusi i campi collegati e di ricerca, in un formato tabella. Le righe della tabella sono i singoli record e le colonne sono i campi dei record. La vista tabella è quella predefinita.
 
-     ![Esempio di visualizzazione tabella](assets/table-view-example.png)
+     ![Esempio di vista tabella](assets/table-view-example.png)
 
-   * **Visualizzazione sequenza temporale**: visualizza i record contenenti almeno due campi di tipo Data in una sequenza temporale cronologica. È possibile visualizzare fino a 5 tipi di record collegati e i relativi record nella visualizzazione timeline.
+   * **Vista timeline**: mostra i record che dispongono almeno di due campi di tipo Data in una timeline cronologica. Puoi visualizzare fino a 5 tipi di record collegati e i relativi record nella vista timeline.
 
      ![Raggruppamento applicato nella vista timeline](assets/grouping-applied-in-timeline-view.png)
 
-   * **Visualizzazione calendario**: visualizza i record con almeno due campi di tipo Data in un formato calendario.
-     ![Esempio di visualizzazione calendario](assets/calendar-view-example.png)
+   * **Vista calendario**: mostra i record che dispongono almeno di due campi di tipo Data in un formato calendario.
+     ![Esempio di vista calendario](assets/calendar-view-example.png)
 
 
-Per ulteriori informazioni, vedere [Gestire le visualizzazioni dei record](/help/quicksilver/planning/views/manage-record-views.md).
+Per ulteriori informazioni, consulta [Gestire le viste dei record](/help/quicksilver/planning/views/manage-record-views.md).
 
-## Individuazione di Adobe Workfront Planning
+## Individuare Pianificazione di Adobe Workfront
 
-Per individuare Adobe Planning, verificare che l&#39;organizzazione abbia ricevuto l&#39;accesso a Workfront Planning e che l&#39;amministratore del sistema o del gruppo abbia aggiunto l&#39;area Pianificazione al menu principale. Per informazioni, vedere [Panoramica dell&#39;accesso ad Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
+Per individuare Pianificazione di Adobe, verifica che l’organizzazione abbia ricevuto il relativo accesso e che l’amministratore del sistema o del gruppo abbia aggiunto l’area della Pianificazione al menu principale. Per informazioni, consulta [Panoramica dell’accesso alla Pianificazione di Adobe](/help/quicksilver/planning/access/access-overview.md).
 
-Per individuare Workfront Planning:
+Per individuare la Pianificazione di Workfront:
 
 1. Accedi a Workfront.
 
 {{step1-click-main-menu}}
 
-1. Fare clic sull&#39;icona **Planning** ![Planning](assets/planning-icon.png).
+1. Fai clic sull’icona **Pianificazione** ![icona Pianificazione](assets/planning-icon.png).
 
-   Viene visualizzata la pagina principale di Workfront Planning.
+   Si apre la pagina principale della Pianificazione di Workfront.
 
-   ![Amministratore pagina di destinazione di Planning](assets/planning-landing-page-admin.png)
+   ![Amministratore della pagina di destinazione della Pianificazione](assets/planning-landing-page-admin.png)
 
    >[!TIP]
    >
-   >    L&#39;amministratore di Workfront può aggiungere l&#39;area Pianificazione all&#39;opzione Seleziona pagina di destinazione nel modello di layout, in modo da poter aprire Planning non appena si accede a Workfront. Per informazioni, vedere [Personalizzare la pagina di destinazione utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
+   >    L’amministratore di Workfront può aggiungere l’area della Pianificazione all’opzione Seleziona pagina di destinazione nel modello layout, in modo da consentirti di aprire la Pianificazione quando effettui l’accesso a Workfront. Per informazioni, consulta [Personalizzare la pagina di destinazione utilizzando un modello layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
 
 1. (Condizionale e facoltativo) Se sei un amministratore di Workfront, fai clic su una delle seguenti schede:
-   * **Aree di lavoro in cui si trova**: visualizza le aree di lavoro create dall&#39;utente o condivise con l&#39;utente.
-   * **Altre aree di lavoro**: visualizza tutte le altre aree di lavoro nel sistema.
+   * **Aree di lavoro in uso**: mostra le aree di lavoro create da te o condivise con te.
+   * **Altre aree di lavoro**: mostra tutte le altre aree di lavoro nel sistema.
 
-   Per tutti gli altri utenti, entrambe le aree di lavoro create o condivise con gli utenti vengono visualizzate nell&#39;area **Aree di lavoro**.
+   Per tutti gli altri utenti, entrambe le aree di lavoro create o condivise con loro, vengono mostrate nell’area **Aree di lavoro**.
 
 1. (Facoltativo e consigliato) Per creare la struttura di lavoro, continua con alcune delle azioni seguenti:
 
-   1. Crea un’area di lavoro da zero o utilizzando un modello. Per informazioni, vedere [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
+   1. Crea un’area di lavoro da zero o utilizzando un modello. Per informazioni, consulta [Creare le aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-   1. Aggiungi sezioni al nuovo workspace. Per informazioni, vedere [Modifica aree di lavoro](/help/quicksilver/planning/architecture/edit-workspaces.md).
-   1. Rinomina le sezioni esistenti nel nuovo workspace.
-   1. Aggiungere tipi di record al nuovo workspace. Per informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+   1. Aggiungi sezioni alla nuova area di lavoro. Per informazioni, consulta [Modificare le aree di lavoro](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   1. Rinomina le sezioni esistenti nella nuova area di lavoro.
+   1. Aggiungi tipi di record alla nuova area di lavoro. Per informazioni, consulta [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
-   1. Fare clic sul nome di un tipo di record per aprire la pagina del tipo di record. Per impostazione predefinita, la pagina del tipo di record viene visualizzata nella vista Tabella.
+   1. Fai clic sul nome di un tipo di record per aprire la pagina del tipo di record. Per impostazione predefinita, la pagina del tipo di record si apre nella vista tabella.
 
-      È inoltre possibile creare una vista Timeline o Calendario. Per informazioni, vedere [Gestire le visualizzazioni dei record](/help/quicksilver/planning/views/manage-record-views.md).
+      Puoi inoltre creare una vista Timeline o Calendario. Per informazioni, consulta [Gestire le viste dei record](/help/quicksilver/planning/views/manage-record-views.md).
 
-   1. Nella vista tabella, iniziare ad aggiungere record aggiungendo righe
+   1. Nella vista tabella, inizia a inserire record aggiungendo righe
 
       Oppure
 
-      Inizia ad aggiungere campi record aggiungendo colonne.
+      Inizia a inserire campi record aggiungendo colonne.
 
-      Per informazioni, vedere i seguenti articoli:
+      Per ulteriori informazioni, consulta:
 
-      * [Crea record](/help/quicksilver/planning/records/create-records.md)
-      * [Crea campi](/help/quicksilver/planning/fields/create-fields.md).
+      * [Creare record](/help/quicksilver/planning/records/create-records.md)
+      * [Creare campi](/help/quicksilver/planning/fields/create-fields.md).
 
-## Attività sulla versione di Workfront Planning
+## Attività sulla versione della Pianificazione di Workfront
 
 <!--update this with the new release activity page - the article index for all Planning releases-->
 
-Le nuove funzioni vengono rilasciate regolarmente in Workfront Planning.
+Le nuove funzioni vengono rilasciate regolarmente nella Pianificazione di Workfront.
 
-Per un elenco aggiornato delle funzionalità rilasciate, vedere [Attività di Adobe Workfront Planning: indice articolo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+Per un elenco aggiornato delle funzionalità rilasciate, consulta [Attività sulla versione della Pianificazione di Workfriont: indice articoli](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Risorse aggiuntive per Workfront Planning
+## Risorse aggiuntive per la Pianificazione di Workfront
 
-* [Informazioni generali su Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md): indice di tutti gli articoli che contengono la documentazione su Workfront Planning, raggruppati per area di interesse.
-* [Panoramica dell&#39;Assistente di Adobe Workfront Planning AI](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): con l&#39;Assistente di Workfront AI per Planning è possibile cercare record oppure creare, aggiornare ed eliminare record utilizzando i comandi e consentendo all&#39;assistente di eseguire il lavoro desiderato.
+* [Informazioni generali sulla Pianificazione di Adobe Workfront](/help/quicksilver/planning/planning-information.md): indice di tutti gli articoli che contengono la documentazione sulla Pianificazione di Workfront, raggruppati per area di interesse.
+* [Panoramica dell’Assistente IA della Pianificazione di Adobe Workfront](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): con l’Assistente IA della Pianificazione di Workfront puoi cercare record oppure creare, aggiornare ed eliminare record utilizzando i comandi e consentendo all’assistente di eseguire il lavoro al tuo posto.
 
   <!--
     >[!NOTE]
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [Moduli Adobe Workfront Planning per Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): con i moduli Adobe Workfront Planning è possibile attivare uno scenario quando si verificano eventi in Workfront Planning. Puoi anche creare, leggere, aggiornare ed eliminare record oppure eseguire una chiamata API personalizzata all’account Adobe Workfront Planning.
+* [Moduli della Pianificazione di Adobe Workfront per Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): con i moduli della Pianificazione di Adobe Workfront, puoi attivare uno scenario quando si verificano eventi nella Pianificazione di Workfront. Puoi anche creare, leggere, aggiornare ed eliminare record oppure eseguire una chiamata API personalizzata al tuo account Pianificazione di Adobe Workfront.
 
-* [Nozioni di base sulle API di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md): l&#39;API di Adobe Workfront Planning ha l&#39;obiettivo di semplificare la creazione di integrazioni con Planning introducendo un&#39;architettura REST-ful che funziona tramite HTTP.
+* [Nozioni di base sulle API della Pianificazione di Adobe Workfront](/help/quicksilver/planning/general/planning-api-basics.md): l’obiettivo dell’API di Adobe Workfront è semplificare la creazione di integrazioni con la Pianificazione introducendo un’architettura REST-ful che funziona tramite HTTP.
 
-* [Introduzione all&#39;integrazione di Adobe Workfront Planning e Adobe GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md): è possibile gestire i record da GenStudio for Performance Marketing nell&#39;area di lavoro di GenStudio in Workfront Planning.
+* [Introduzione all’integrazione della Pianificazione di Adobe Workfront e Adobe GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md): puoi gestire i record da GenStudio for Performance Marketing nell’area di lavoro di GenStudio nella Pianificazione di Workfront.
 
-* **Funzionalità di reporting di Workfront Planning**: è ora possibile visualizzare le informazioni di Workfront Planning in un rapporto in Workfront utilizzando il dashboard Workfront Canvas. Per informazioni, vedere [Panoramica dei dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+* **Funzionalità di reporting della Pianificazione di Workfront**: ora puoi visualizzare le informazioni della Pianificazione di Workfront in un rapporto di Workfront utilizzandone la dashboard dell’area di lavoro. Per informazioni, consulta [Panoramica delle dashboard dell’area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
