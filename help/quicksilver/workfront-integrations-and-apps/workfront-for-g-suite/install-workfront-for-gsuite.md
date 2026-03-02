@@ -6,8 +6,9 @@ title: Installa [!DNL Adobe Workfront] per Google Workspace
 description: È possibile installare il componente aggiuntivo  [!DNL Adobe Workfront] per Google Workspace da Google Workspace Marketplace.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: eb11d62d-86ed-49fc-8bbc-6f04eb30865d
-source-git-commit: 228fd22f1894689c0d256270350cc82954901641
+source-git-commit: ddd1c964c4c885f71dfa30d1790cfbc6e26d6781
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 10%
@@ -28,7 +29,7 @@ ht-degree: 10%
 >
 >Per una panoramica di Workfront Automation and Integration consulta [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Per informazioni sulle funzionalità specifiche dei moduli di automazione e integrazione di Workfront per Google Workspace, vedere [Moduli Gmail](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) e [Moduli calendario Google](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Per informazioni sulle funzionalità specifiche dei moduli di automazione e integrazione di Workfront per Google Workspace, vedere [Moduli Gmail](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) e [Moduli calendario Google](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 <!--
 

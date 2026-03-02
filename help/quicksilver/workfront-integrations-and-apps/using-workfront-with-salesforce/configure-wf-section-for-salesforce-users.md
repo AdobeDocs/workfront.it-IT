@@ -5,8 +5,9 @@ title: Configura la sezione  [!DNL Adobe Workfront]  per  [!DNL Salesforce]  ute
 description: Dopo aver installato  [!DNL Adobe Workfront] per Salesforce come amministratore [!DNL Workfront] puoi renderla disponibile agli utenti aggiungendola in una nuova sezione ai layout di pagina Opportunità e Account in Salesforce.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: 6af620284ed9c710196d8976a9f6cac1b3b36cf1
+source-git-commit: ddd1c964c4c885f71dfa30d1790cfbc6e26d6781
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 11%
@@ -23,7 +24,7 @@ ht-degree: 11%
 >
 >Per una panoramica di Workfront Automation and Integration consulta [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Per informazioni sulle funzionalità specifiche dei moduli di automazione e integrazione di Workfront per Salesforce, vedere [Moduli Salesforce](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
+>Per informazioni sulle funzionalità specifiche dei moduli di automazione e integrazione di Workfront per Salesforce, vedere [Moduli Salesforce](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 <!--
 

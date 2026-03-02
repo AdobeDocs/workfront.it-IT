@@ -5,8 +5,9 @@ title: Installa [!DNL Adobe Workfront] per [!DNL Salesforce]
 description: Per installare l'app prima che diventi disponibile in AppExchange [!DNL Salesforce] , consulta Installazione di Salesforce [!DNL Workfront] prima che diventi disponibile in AppExchange Marketplace.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: 6af620284ed9c710196d8976a9f6cac1b3b36cf1
+source-git-commit: ddd1c964c4c885f71dfa30d1790cfbc6e26d6781
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 12%
@@ -25,7 +26,7 @@ ht-degree: 12%
 >
 >Per una panoramica di Workfront Automation and Integration consulta [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Per informazioni sulle funzionalità specifiche dei moduli di automazione e integrazione di Workfront per Salesforce, vedere [Moduli Salesforce](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
+>Per informazioni sulle funzionalità specifiche dei moduli di automazione e integrazione di Workfront per Salesforce, vedere [Moduli Salesforce](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 <!--
 

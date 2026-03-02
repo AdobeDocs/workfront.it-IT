@@ -5,8 +5,9 @@ title: Invia [!DNL Adobe Workfront] richieste da [!DNL Salesforce] oggetti
 description: Dopo aver installato  [!DNL Adobe Workfront] per [!DNL Salesforce], you can submit [!DNL Workfront] richieste da [!DNL Salesforce] Opportunità e account. Questa funzionalità esiste sia nel framework Classic che nel framework Lightning Experience.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
-source-git-commit: 6af620284ed9c710196d8976a9f6cac1b3b36cf1
+source-git-commit: ddd1c964c4c885f71dfa30d1790cfbc6e26d6781
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 12%
@@ -23,7 +24,7 @@ ht-degree: 12%
 >
 >Per una panoramica di Workfront Automation and Integration consulta [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Per informazioni sulle funzionalità specifiche dei moduli di automazione e integrazione di Workfront per Salesforce, vedere [Moduli Salesforce](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
+>Per informazioni sulle funzionalità specifiche dei moduli di automazione e integrazione di Workfront per Salesforce, vedere [Moduli Salesforce](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 <!--
 

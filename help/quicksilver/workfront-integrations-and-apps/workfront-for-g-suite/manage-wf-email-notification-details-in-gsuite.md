@@ -6,8 +6,9 @@ title: Gestisci [!DNL Adobe Workfront] dettagli notifica da Google Workspace
 description: In Google Workspace, quando apri un messaggio e-mail di notifica inviato da Adobe [!DNL Workfront] puoi visualizzare i dettagli dell'elemento di lavoro associato e rispondere senza uscire dalla Posta in arrivo. Se sono disponibili azioni, ad esempio l’approvazione di una richiesta, è possibile eseguirle direttamente da Workfront per Google Workspace.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 228fd22f1894689c0d256270350cc82954901641
+source-git-commit: ddd1c964c4c885f71dfa30d1790cfbc6e26d6781
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 8%
@@ -28,7 +29,7 @@ ht-degree: 8%
 >
 >Per una panoramica di Workfront Automation and Integration consulta [Panoramica di Adobe Workfront Fusion](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Per informazioni sulle funzionalità specifiche dei moduli di automazione e integrazione di Workfront per Google Workspace, vedere [Moduli Gmail](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) e [Moduli calendario Google](https://experienceleague.adobe.com/it/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Per informazioni sulle funzionalità specifiche dei moduli di automazione e integrazione di Workfront per Google Workspace, vedere [Moduli Gmail](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) e [Moduli calendario Google](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 <!--
 
