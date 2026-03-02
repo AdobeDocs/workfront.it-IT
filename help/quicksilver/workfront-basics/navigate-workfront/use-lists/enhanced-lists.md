@@ -5,9 +5,9 @@ description: Gli elenchi avanzati utilizzano un formato tabella per la visualizz
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: 8e2f41f18b57aca77fd6af905ff8e04486879e39
+source-git-commit: c9015f5486721e3977efc00a297dd1618bc681d9
 workflow-type: tm+mt
-source-wordcount: '2315'
+source-wordcount: '2326'
 ht-degree: 2%
 
 ---
@@ -62,8 +62,7 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti di Workfront che uti
 | Priorità | <ul><li>Home > seleziona l’icona Priorità nel menu a sinistra</li><li>Menu principale > Priorità</li></ul> |
 | Elenco delle richieste | <ul><li>Richieste (solo nuova esperienza)</li><li>Widget Richieste personali sulla Home</li></ul> |
 | Elenchi di stati, priorità, gravità e tassi di cambio in Configurazione | <ul><li>Configurazione > Preferenze progetto > Stati</li><li>Configurazione > Preferenze progetto > Priorità</li><li>Configurazione > Preferenze progetto > Gravità</li><li>Imposta > Preferenze progetto > Tassi di cambio</li></ul> |
-
-<!--|<span class="preview">List of reports</span> | <span class="preview">Main Menu &gt; Reports</span> <p><span class="preview">The enhanced list format is only applied when **Use shareable folders** is turned on. For information, see [Use shareable report folders](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).</span> |-->
+| <span class="preview">Elenco dei report</span> | <span class="preview">I report (**Utilizza cartelle condivisibili** devono essere attivati)</span> |
 
 ## Aggiungere elementi a un elenco avanzato
 
