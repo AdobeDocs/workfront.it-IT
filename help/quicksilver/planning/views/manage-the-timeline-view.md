@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+source-git-commit: 892a86f053fb170872b0b4b6126b67974129d372
 workflow-type: tm+mt
-source-wordcount: '4014'
+source-wordcount: '4067'
 ht-degree: 3%
 
 ---
@@ -401,12 +401,23 @@ Per aggiungere un raggruppamento nella vista timeline:
 1. Creare una visualizzazione timeline per un tipo di record, come descritto nell&#39;articolo [Gestire le visualizzazioni record](/help/quicksilver/planning/views/manage-record-views.md).
 1. Fai clic su **Raggruppamento** nell&#39;angolo superiore destro della visualizzazione della timeline.
 
-   ![Raggruppamento della visualizzazione timeline dell&#39;interfaccia utente con campi collegati](assets/grouping-ui-timeline-view-with-linked-fields.png)
+   <span class="preview">![Raggruppamento della visualizzazione timeline dell&#39;interfaccia utente con campi collegati](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
 
 1. Fare clic su uno dei campi suggeriti oppure fare clic su **Scegliere un campo diverso** e cercare un campo diverso, quindi fare clic su di esso quando viene visualizzato nell&#39;elenco.
 
    Il raggruppamento viene applicato automaticamente alla timeline e i record vengono visualizzati nella casella di raggruppamento.
-1. <span class="preview">(Facoltativo) Fare clic sul menu a discesa **A -> Z** o **Z -> A** accanto al nome del campo selezionato per selezionare un ordinamento crescente o decrescente per il raggruppamento. I raggruppamenti vengono visualizzati nell’ordine alfabetico selezionato nella vista timeline. </span>
+1. <span class="preview">(Facoltativo e condizionale) A seconda del tipo di campo selezionato per il raggruppamento, selezionare una delle opzioni di ordinamento seguenti per ordinare i raggruppamenti in ordine crescente o decrescente: </span>
+
+   <div class="preview">
+
+   * **A -> Z** o **Z -> A** per campi Select, campi Text, campi Paragraph, record o oggetti connessi, campi People
+   * **0 -> 9** o **9 -> 0** per i campi Numero, Valuta o Percentuale.
+   * **meno recente -> più recente** o **più recente -> meno recente** per i campi Data
+
+   </div>
+
+   <span class="preview"> I raggruppamenti nella visualizzazione timeline sono ordinati di conseguenza. I record all&#39;interno dei raggruppamenti vengono ordinati in base all&#39;ordine della relativa **data di inizio**, che è l&#39;ordinamento predefinito. </span>
+
 1. (Facoltativo) Ripeti i passaggi precedenti per aggiungere fino a 3 raggruppamenti.
 
    Il numero di campi selezionati per il raggruppamento viene visualizzato accanto all’icona Raggruppamento.
