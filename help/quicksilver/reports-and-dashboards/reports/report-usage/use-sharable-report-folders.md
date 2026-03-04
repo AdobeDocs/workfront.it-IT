@@ -6,9 +6,9 @@ description: Utilizza cartelle di rapporti condivisibili per organizzare i rappo
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 65831f2e-9092-4e99-a86b-40df42c713bf
-source-git-commit: 650d24c36c3ccee810b8918ccdf456f607b055e9
+source-git-commit: 6a56485ef5a36aac92fbed73bd6749ed63796a58
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '771'
 ht-degree: 5%
 
 ---
@@ -93,7 +93,7 @@ Solo gli amministratori di sistema possono creare cartelle al livello superiore.
 
 ## Condividere una cartella di rapporti con altri utenti
 
-Quando si condivide una cartella con gli utenti, questi ereditano l&#39;accesso a tutte le sottocartelle della struttura. Gli utenti devono inoltre avere accesso a ogni rapporto, tramite le autorizzazioni per le cartelle o la condivisione diretta dei rapporti.
+Quando si condivide una cartella con gli utenti, questi ereditano l&#39;accesso a tutte le sottocartelle della struttura.
 
 {{step1-to-reports}}
 
@@ -135,3 +135,7 @@ Le autorizzazioni per i rapporti concesse tramite le autorizzazioni per le carte
 ## Nuova esperienza di elenco per cartelle condivisibili
 
 Quando accedi a cartelle condivisibili nell’area Rapporti, visualizzerai una nuova esperienza con un elenco che ti consente di visualizzare e gestire facilmente cartelle e rapporti. Per ulteriori informazioni sulla nuova esperienza di elenco, vedere [Utilizzare elenchi avanzati](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+>[!NOTE]
+>
+>I campi avanzati non sono supportati nell’esperienza elenco avanzata. Per lavorare con questi campi, puoi creare un rapporto.
