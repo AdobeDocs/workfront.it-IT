@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: 8fdc6d1b72967b2a52295c31cb83d43594817d6f
+source-git-commit: d721f04259046f271e9f420e445af6e87d67a5c0
 workflow-type: tm+mt
-source-wordcount: '1323'
+source-wordcount: '1352'
 ht-degree: 41%
 
 ---
@@ -51,12 +51,21 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <col style="width: 50%;" />
             <col style="width: 25%;" />
             <tbody>
-               <tr>
+              <tr>
         <td><strong>Funzione</strong>
         </td>
         <td><strong>Anteprima</strong></td>
         <td><strong>Rilascio rapido</strong></td>
         <td><strong>Trimestrale</strong></td>
+        </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Trimestri personalizzati rimossi dalle preferenze del progetto</a><p>L’area Trimestre personalizzato è stata spostata dalla sezione Preferenze progetto. Ora è una sezione indipendente in Configurazione.</p>
+        </td>
+        <td><p>giovedì 5 marzo 2025</p></td>
+        <td><p>giovedì 15 aprile 2026</p></td>
+        <td><p>venerdì 16 aprile 2026</p></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Comprimi sezione modulo personalizzato per impostazione predefinita</a><p>Per impostazione predefinita, tutte le sezioni di un modulo personalizzato vengono espanse quando il modulo stesso viene espanso. Una nuova opzione di Designer di moduli personalizzati consente di contrassegnare una sezione da comprimere per impostazione predefinita quando un utente apre il modulo. Questa opzione viene applicata a livello di sezione, non ai campi.</p>
@@ -65,7 +74,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><p>venerdì 12 marzo 2026</p></td>
         <td><p>venerdì 16 aprile 2026</p></td>
     </tr>
-    <tr>
+     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Il tipo di campo Rich Text è ora disponibile nei moduli personalizzati</a><p>Il nuovo tipo di campo <b>Rich text</b> nei moduli personalizzati è un editor di testo affidabile, con opzioni di formattazione quali apice e pedice, intestazioni e tabelle, oltre alle opzioni tradizionali di grassetto, corsivo, sottolineatura, punti elenco, numerazione, collegamenti ipertestuali e virgolette. Il limite di caratteri rimane 15.000.</p>
         </td>
