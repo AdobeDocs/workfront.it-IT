@@ -270,7 +270,7 @@ Per configurare un tipo di record come globale:
 
    Se attivato, il tipo di record è accessibile e può essere connesso ad altre aree di lavoro.
 
-1. <!--<span class="preview">(Conditional) Depending on which license you have,</span>--> Scegliere le aree di lavoro da cui è possibile accedere al tipo di record. Scegli una tra le opzioni seguenti:
+1. &#x200B;<!--<span class="preview">(Conditional) Depending on which license you have,</span>--> Scegliere le aree di lavoro da cui è possibile accedere al tipo di record. Scegli una tra le opzioni seguenti:
 
    <!--check names of the setting: System wide?? OR All workspaces??-->
 
