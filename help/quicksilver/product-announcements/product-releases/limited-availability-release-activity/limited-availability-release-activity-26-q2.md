@@ -9,14 +9,14 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 32c616b2-5bba-434e-9918-c27f6518693d
-source-git-commit: 56e5af94e0e98cf680db182f10143f5503e4260b
+source-git-commit: caad1c709da790e28df39a4a6092ef1ebfa42357
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 1%
+source-wordcount: '367'
+ht-degree: 3%
 
 ---
 
-# Attività della versione del secondo trimestre 2026 per le funzioni di disponibilità limitata di Adobe Workfront
+# Attività sul rilascio del secondo trimestre 2026 delle funzioni con disponibilità limitata di Adobe Workfront
 
 Questo articolo descrive le funzioni di disponibilità limitata di Workfront rilasciate durante il secondo trimestre del 2026.
 
@@ -44,6 +44,26 @@ Questa sezione include le note sulla versione per le nuove funzionalità.
 
 Per informazioni, vedere [Modifica attività](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
 
+### Mantieni tariffe di fatturazione sui piani di assegnazione del personale
+
+>[!NOTE]
+>
+>Data di rilascio in produzione: 5 marzo 2026
+
+Il campo **Mantieni fatturazione** è stato aggiunto alla sezione Finanza della pagina Dettagli piano di assegnazione del personale.
+
+Quando questo flag è impostato su False (off), le tariffe di fatturazione non vengono mantenute e la gerarchia delle tariffe viene utilizzata per i calcoli delle tariffe di fatturazione.
+
+Quando questo flag è impostato su True (attivato):
+
+* Le tariffe di fatturazione correnti delle risorse assegnate nel piano di assegnazione del personale vengono mantenute ed eventuali modifiche apportate alle tariffe nella gerarchia non vengono riportate nell&#39;area Risorse del piano di assegnazione del personale.
+* Se si aggiunge una nuova riga alla tabella Risorse, la tariffa di fatturazione iniziale proveniente dalla gerarchia delle tariffe di fatturazione viene mantenuta.
+* Se un utente ha sostituito manualmente il valore della tariffa di fatturazione prima che il flag fosse attivato, la tariffa di sostituzione viene mantenuta. Una volta attivato il flag, non sono consentite sostituzioni manuali della tariffa di fatturazione.
+
+Una volta attivata, la conservazione non può essere disattivata.
+
+Quando si copia un piano di assegnazione del personale con il flag attivato, il flag viene automaticamente disattivato nella copia. Il responsabile delle risorse deve attivare il flag se necessario nel nuovo piano di assegnazione del personale.
+
 <!--### Title
 
 >[!NOTE]
@@ -53,23 +73,27 @@ Per informazioni, vedere [Modifica attività](/help/quicksilver/manage-work/task
 text
 -->
 
-## Aggiornamenti di manutenzione per funzioni a disponibilità limitata
+<!--
 
-Questa sezione descrive i problemi risolti negli aggiornamenti settimanali di Workfront per le funzioni con disponibilità limitata.
+## Maintenance Updates for limited availability features
 
-<!--### Maintenance Updates week of February 8-14, 2026
+This section describes the issues fixed in the weekly Workfront updates for limited availability features.
 
-**Title**
 
-text
 
-### Maintenance Updates week of February 15-21, 2026
+### Maintenance Updates week of March 1-7, 2026
 
 **Title**
 
 text
 
-### Maintenance Updates week of February 22-28, 2026
+### Maintenance Updates week of March 8-14, 2026
+
+**Title**
+
+text
+
+### Maintenance Updates week of March 15-21, 2026
 
 **Title**
 
