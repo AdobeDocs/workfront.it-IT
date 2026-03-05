@@ -6,10 +6,10 @@ description: È possibile filtrare un report in base all'intervallo temporale di
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
 workflow-type: tm+mt
 source-wordcount: '947'
-ht-degree: 5%
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 5%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +32,7 @@ ht-degree: 5%
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
       <p>Standard</p>
       <p>Piano</p>
@@ -43,13 +43,13 @@ ht-degree: 5%
    <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire le autorizzazioni per un rapporto</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -148,11 +148,11 @@ Ad esempio, se desideri visualizzare le ore inserite in un determinato arco temp
   </tr> 
   <tr> 
    <td role="rowheader">Settimana Prossima</td> 
-   <td>Visualizza le ore in cui la Data immissione è una data della settimana successiva alla settimana corrente, in cui la settimana inizia di domenica e termina di sabato. </td> 
+   <td>Visualizza le ore in cui la Data immissione è una data della settimana successiva alla settimana corrente, in cui la settimana inizia di domenica e termina di sabato. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Settimana scorsa</td> 
-   <td>Visualizza le ore in cui la Data immissione è una data della settimana precedente alla settimana corrente, in cui la settimana inizia di domenica e termina di sabato. </td> 
+   <td>Visualizza le ore in cui la Data immissione è una data della settimana precedente alla settimana corrente, in cui la settimana inizia di domenica e termina di sabato. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Questo mese</td> 
@@ -182,7 +182,7 @@ Ad esempio, se desideri visualizzare le ore inserite in un determinato arco temp
   </tr> 
   <tr> 
    <td role="rowheader">Ultimo TriMestre</td> 
-   <td> <p>Visualizza le ore in cui la Data inserimento è una data nel trimestre precedente il trimestre corrente, in cui i trimestri sono definiti in precedenza.</p> <p>Nota: se l'amministratore di Workfront ha abilitato e definito i trimestri personalizzati per il sistema, i filtri incorporati per i trimestri vengono sostituiti con le informazioni personalizzate relative al trimestre. Per ulteriori informazioni sull'abilitazione dei trimestri personalizzati, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Abilitare i trimestri personalizzati</a>.</p> </td> 
+   <td> <p>Visualizza le ore in cui la Data inserimento è una data nel trimestre precedente il trimestre corrente, in cui i trimestri sono definiti in precedenza.</p> <p><b>NOTA</b></p>  Se l'amministratore di Workfront ha abilitato e definito i trimestri personalizzati per il sistema, i filtri incorporati per i trimestri vengono sostituiti con le informazioni personalizzate relative al trimestre. Per ulteriori informazioni sull'abilitazione dei trimestri personalizzati, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Abilitare i trimestri personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Quest'anno</td> 
@@ -194,7 +194,7 @@ Ad esempio, se desideri visualizzare le ore inserite in un determinato arco temp
   </tr> 
   <tr> 
    <td role="rowheader">Anno scorso</td> 
-   <td> <p>Visualizza le ore in cui Data immissione è una data dell'ultimo anno, in cui l'ultimo anno inizia il 1 gennaio e termina il 31 dicembre dell'anno precedente l'anno corrente.</p> <p>Nota: non esiste un periodo di tempo predefinito per l'anno fiscale. È possibile creare un rapporto e filtrare le informazioni per data utilizzando un modificatore personalizzato per l'intervallo di date dell'anno fiscale, come definito nell'organizzazione. Se desideri scegliere un periodo temporale per un anno fiscale sul posto, utilizza un prompt invece di un filtro. </p> </td> 
+   <td> <p>Visualizza le ore in cui Data immissione è una data dell'ultimo anno, in cui l'ultimo anno inizia il 1 gennaio e termina il 31 dicembre dell'anno precedente l'anno corrente.</p> <p>Nota: non esiste un periodo di tempo predefinito per l'anno fiscale. È possibile creare un rapporto e filtrare le informazioni per data utilizzando un modificatore personalizzato per l'intervallo di date dell'anno fiscale, come definito nell'organizzazione. Se desideri scegliere un periodo temporale per un anno fiscale sul posto, utilizza un prompt invece di un filtro. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 5a725e747e8776a867cb0dc4129544f6a28ce8e0
+source-git-commit: 4713864c21d23b507f4d19d7a7955128768e077d
 workflow-type: tm+mt
-source-wordcount: '1420'
-ht-degree: 1%
+source-wordcount: '1434'
+ht-degree: 2%
 
 ---
 
@@ -39,8 +39,8 @@ Quando si crea o si modifica un tipo di record, è possibile definire le funzion
 
 Per informazioni, vedere uno degli articoli seguenti:
 
-* [Crea tipi di record](/help/quicksilver/planning/architecture/create-record-types.md)
-* [Modifica tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md)
+* [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md)
+* [Modificare i tipi di record](/help/quicksilver/planning/architecture/edit-record-types.md)
 
 ## Requisiti di accesso
 
@@ -75,12 +75,30 @@ Oppure
 
 </td> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
-   <td><p>Standard</p>
-   </td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
+   <td>
+   <p>Per rendere globale un record:</p>
+   <ul><li>Standard o superiore</li></ul>
+   <p>Per rendere collegabile un record:</p>
+   <ul><li>Amministratore di sistema</li></ul>
+
+<!--replace the above with this at release:
+   <p>To make a record global:</p>
+   <ul><li>Standard or higher</li></ul>
+   <p>To make a record connectable:</p>
+   <ul><li>In the Production environment:</li>
+   <ul><li>System Administrator</li></ul></ul>
+
+   <div class="preview">
+   <ul><li>In the Preview environment:</li>
+   <ul><li>Standard to make a record connectable from specific workspaces</li>
+   <li>System Administrator to make a record connectable from all workspaces</li></ul></ul>
+   </div>-->
+
+</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>   <p>Gestire le autorizzazioni per un’area di lavoro</p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  </td> 
   </tr>  
@@ -252,12 +270,13 @@ Per configurare un tipo di record come globale:
 
    Se attivato, il tipo di record è accessibile e può essere connesso ad altre aree di lavoro.
 
-1. Scegliere le aree di lavoro da cui è possibile accedere al tipo di record. Scegli una tra le opzioni seguenti:
+1. <!--<span class="preview">(Conditional) Depending on which license you have,</span>--> Scegliere le aree di lavoro da cui è possibile accedere al tipo di record. Scegli una tra le opzioni seguenti:
 
    <!--check names of the setting: System wide?? OR All workspaces??-->
 
-   * **Tutte le aree di lavoro**: gli utenti possono connettersi a questo tipo di record da tutte le aree di lavoro per le quali dispongono delle autorizzazioni di gestione.
+   * **Tutte le aree di lavoro**: gli utenti possono connettersi a questo tipo di record da tutte le aree di lavoro per le quali dispongono delle autorizzazioni di gestione. <!--<span class="preview">This option is dimmed for workspace managers with a Standard license. Only System Administrators can turn on connecting record types from all workspaces.</span>-->
    * **Aree di lavoro specifiche**: aggiungere dal menu a discesa i nomi delle aree di lavoro a cui i responsabili dell&#39;area di lavoro possono connettersi a questo tipo di record.
+
 1. (Condizionale) Fai clic su **Salva** nella casella **Modifica tipo di record** oppure fai clic sulla freccia indietro a sinistra di **Impostazioni** nell&#39;intestazione della pagina per salvare le modifiche.
 
    Si verificano le seguenti situazioni:

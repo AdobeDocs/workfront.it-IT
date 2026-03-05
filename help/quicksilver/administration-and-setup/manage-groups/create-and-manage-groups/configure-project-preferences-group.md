@@ -8,19 +8,19 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
 workflow-type: tm+mt
-source-wordcount: '2742'
-ht-degree: 2%
+source-wordcount: '2839'
+ht-degree: 3%
 
 ---
 
 # Configurare le preferenze di progetto per un gruppo
 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Adobe Workfront Se l&#39;amministratore di un gruppo sblocca una preferenza di progetto per tutti i gruppi del sistema, è possibile configurare tale preferenza affinché il gruppo influisca su tutti i progetti successivi creati dal gruppo.
 
@@ -41,7 +41,7 @@ Per informazioni su come un amministratore di Workfront sblocca una preferenza d
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,7 +52,7 @@ Per informazioni su come un amministratore di Workfront sblocca una preferenza d
    <td><p>Qualsiasi</p></td> 
   </tr> 
   <tr> 
-   <td>Licenza Adobe Workfront</td> 
+   <td>Licenza di Adobe Workfront</td> 
    <td><p>Standard</p>
        <p>Piano</p></td>
   </tr>
@@ -166,7 +166,7 @@ Configura una delle seguenti preferenze per i progetti appena creati associati a
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Pianifica da</td> 
+   <td role="rowheader"><b>Pianifica da</b></td> 
    <td> <p>Determina se i nuovi progetti devono essere programmati dalla data di inizio o dalla data di completamento al momento della creazione.</p> 
     <ul> 
      <li><strong>Data inizio</strong>: per impostazione predefinita, le nuove attività vengono impostate sul vincolo Il più presto possibile e ai project manager viene richiesto di specificare una data inizio pianificata per il progetto.</li> 
@@ -174,7 +174,7 @@ Configura una delle seguenti preferenze per i progetti appena creati associati a
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Indisponibilità utente</td> 
+   <td role="rowheader"><b>Indisponibilità utente</b></td> 
    <td> <p>Determinare se l'indisponibilità dell'assegnatario principale di un'attività determina l'adeguamento delle date pianificate per l'attività in un progetto.</p> 
     <ul> 
      <li> <p><strong>Considerare l'indisponibilità dell'utente per le durate dell'attività</strong>: qualsiasi indisponibilità pianificata per l'assegnatario principale di un'attività regola le date pianificate dell'attività se l'indisponibilità si verifica durante la durata dell'attività. Questa è l'impostazione predefinita. </p> <p>Ad esempio, se un'attività con un vincolo Il più presto possibile è programmata per iniziare il 1° giugno e completare il 3 giugno e l'assegnatario principale ha il 2 giugno contrassegnato per l'indisponibilità, le date pianificate dell'attività vengono aggiornate dal 1° al 4 giugno.</p> <p><b>IMPORTANTE</b>: la durata dell'attività non cambia quando si seleziona questa impostazione. Solo le date pianificate cambiano, a seconda del Vincolo attività.</p> </li> 
@@ -222,7 +222,7 @@ Configura una delle seguenti preferenze per i progetti appena creati associati a
     </ul> <p>Per ulteriori informazioni sulle pianificazioni, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Creare una pianificazione</a>.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Calcoli timeline </p> </td> 
+   <td role="rowheader"> <p><b>Calcoli timeline</b></p> </td> 
    <td> 
     <ul> 
      <li><strong>Ore tipiche per giorno lavorativo</strong>: imposta il numero di ore in un giorno lavorativo tipico per gli utenti che lavoreranno ai progetti. Il valore predefinito è 8 ore.</li> 
@@ -233,7 +233,12 @@ Configura una delle seguenti preferenze per i progetti appena creati associati a
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p><strong>Trimestri personalizzati</strong> </p> </td> 
-   <td> <p>Configura trimestri annuali personalizzati per gli utenti che lavoreranno ai progetti. I trimestri personalizzati sono solitamente trimestri che non corrispondono alla ripartizione tradizionale dei trimestri durante un anno di calendario. È possibile aggiungere più trimestri personalizzati. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Attiva trimestri personalizzati</a>.</p> <p><b>NOTA</b>: gli amministratori di Workfront non possono sbloccare le preferenze per i trimestri personalizzati.</p> </td> 
+   <td> 
+   <span class="preview">L'area Trimestri personalizzati è stata rimossa dalla sezione Preferenze progetto del gruppo nell'ambiente di anteprima.</span>
+   <p>I trimestri personalizzati sono solitamente trimestri che non corrispondono alla ripartizione tradizionale dei trimestri durante un anno di calendario. Un amministratore di Workfront può aggiungere più trimestri personalizzati nell'area <b>Configurazione</b>. Per ulteriori informazioni, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Attiva trimestri personalizzati</a>.</p>  
+   <p><b>IMPORTANTE<b></p>
+   <p>Non puoi modificare la configurazione del Trimestre personalizzato come amministratore di gruppo. <p>Gli amministratori di Workfront non possono sbloccare le preferenze Trimestri personalizzati in modo che possano gestirle.</p> <p>L'area Trimestri personalizzati è di sola lettura per gli amministratori di gruppi.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>

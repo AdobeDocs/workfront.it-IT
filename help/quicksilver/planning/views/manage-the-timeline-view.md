@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 892a86f053fb170872b0b4b6126b67974129d372
+source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
 workflow-type: tm+mt
-source-wordcount: '4067'
+source-wordcount: '4066'
 ht-degree: 3%
 
 ---
@@ -176,7 +176,7 @@ Per gestire una vista timeline:
 
      >[!TIP]
      >
-     >Questo messaggio dovrebbe essere visualizzato solo subito dopo che l’organizzazione ha acquistato Planning e i trimestri personalizzati erano già abilitati prima dell’acquisto. Le sovrapposizioni e gli spazi tra i trimestri non sono consentiti dopo l&#39;abilitazione di Workfront Planning per l&#39;organizzazione.
+     >Questo messaggio dovrebbe essere visualizzato immediatamente dopo gli acquisti dell’organizzazione Pianificazione e trimestri personalizzati erano già abilitati prima dell’acquisto. Le sovrapposizioni e gli spazi tra i trimestri non sono consentiti dopo l&#39;abilitazione di Workfront Planning per l&#39;organizzazione.
 
    * Se i trimestri sono stati impostati parzialmente e mancano alcuni mesi all&#39;interno dello stesso anno, quando si scorre potrebbe essere visualizzata una notifica per indicare i trimestri mancanti in cui è necessario impostare il resto dell&#39;anno con i trimestri mancanti.
 
