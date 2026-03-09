@@ -3,17 +3,17 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: Fornire l’accesso alle code di richieste
 description: Quando fornisci l’accesso a una coda di richieste, puoi determinare chi, nella tua organizzazione, può visualizzare la coda di richieste nell’area Richieste di Adobe Workfront.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: eb88c32a-f8b8-42d3-9a3a-72c62fd1dc3a
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '474'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
-# Fornire l’accesso alle code di richieste
+# Fornire accesso alle code di richieste
 
 <!-- Audited: 6/2025 -->
 
@@ -25,7 +25,7 @@ Ciò è utile nelle organizzazioni che invitano parti interessate esterne in Wor
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ Ciò è utile nelle organizzazioni che invitano parti interessate esterne in Wor
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
    <p>Standard </p>
    <p>Piano </p> </td> 
@@ -46,7 +46,7 @@ Ciò è utile nelle organizzazioni che invitano parti interessate esterne in Wor
    <td> <p>Modifica accesso ai progetti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p> Gestire le autorizzazioni per il progetto</p> </td> 
   </tr> 
  </tbody> 

@@ -3,17 +3,17 @@ product-area: requests
 navigation-topic: create-requests
 title: Eliminare una bozza di richiesta di nuovo invio
 description: È possibile eliminare le richieste inviate o le bozze di richieste.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
-# Eliminare una richiesta o una bozza di richiesta inviata
+# Eliminare una richiesta inviata o una bozza di richiesta
 
 Puoi eliminare le richieste inviate o le bozze di richieste create nella nuova esperienza di richiesta. Anche gli amministratori di Workfront e gli amministratori dell&#39;area di lavoro di Planning possono eliminare le richieste.
 
@@ -37,9 +37,9 @@ Per informazioni, consulta:
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Collaboratore o versione successiva</p>
-   <p>Richiedi o superiore</p>
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
+   <td> <p>Collaboratore o successiva</p>
+   <p>Richiedente o successiva</p>
     </td> 
   </tr> 
   <tr> 
@@ -47,7 +47,7 @@ Per informazioni, consulta:
    <td> <p>Per eliminare le richieste non create, è necessario essere un amministratore di Workfront o un amministratore dell'area di lavoro di Planning.</p><p>Per eliminare le bozze nell’esperienza di richiesta legacy, è necessario disporre dell’accesso in modifica ai problemi.</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Per eliminare la richiesta o la bozza nella nuova esperienza di richiesta, è necessario averla creata.</p><p>Per eliminare le bozze nell’esperienza di richiesta legacy, è necessario disporre dell’accesso in modifica ai problemi.</p>  </td> 
   </tr> 
   <tr> 

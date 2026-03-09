@@ -1,20 +1,20 @@
 ---
 product-area: requests
 navigation-topic: create-and-manage-request-queues
-title: Crea argomenti coda
+title: Creare argomenti coda
 description: Gli argomenti della coda funzionano insieme alle regole di instradamento per assegnare automaticamente il lavoro in arrivo a un utente, a una mansione, a un team o per inserirlo in un progetto. Argomenti coda definiscono le condizioni necessarie per l'implementazione della regola di routing.
-author: Becky
+author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '964'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
-# Crea argomenti coda
+# Creare argomenti coda
 
 <!-- Audited: 12/2023 -->
 
@@ -28,7 +28,7 @@ Una volta creati, non è possibile spostare gli argomenti della coda da un proge
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <!--drafted - replace table with P&P:
 
@@ -67,7 +67,7 @@ Una volta creati, non è possibile spostare gli argomenti della coda da un proge
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td>
     <p>Standard</p>
     <p>Piano</p></td>  
@@ -77,7 +77,7 @@ Una volta creati, non è possibile spostare gli argomenti della coda da un proge
    <td> <p>Modifica accesso ai progetti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p> Gestire le autorizzazioni per il progetto</p> </td> 
   </tr> 
  </tbody> 

@@ -7,20 +7,26 @@ description: Prima di poter accedere agli obiettivi di Adobe Workfront Adobe Wor
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: dacfd8ef7475b197ac6ce5dd598c99df97037479
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 0%
+source-wordcount: '676'
+ht-degree: 1%
 
 ---
 
-# Requisiti per l’utilizzo degli obiettivi di Workfront
+# Requisiti per utilizzare gli obiettivi di Workfront
 
 <!--Audited P&P only: 04/2025-->
 
 Prima di poter accedere agli obiettivi di Adobe Workfront Adobe Workfront, l’amministratore deve verificare che siano soddisfatte tutte le seguenti condizioni:
 
-* La tua organizzazione ha acquistato in passato un pacchetto Adobe Workfront Goals. Adobe Workfront Goals non è più disponibile per l’acquisto.
+* La tua organizzazione deve disporre di un pacchetto Workfront Ultimate.
+
+  Obiettivi Workfront non è disponibile per i pacchetti del flusso di lavoro Workfront.
+
+  Parla con il rappresentante del tuo account Workfront se stai rinnovando Workfront e desideri mantenere gli Obiettivi di Workfront.
+
+  Se sei un nuovo cliente, Workfront Goals non è più disponibile per l’acquisto.
 
   Per ulteriori informazioni, vedere la sezione [Ottenere l&#39;accesso all&#39;organizzazione per gli obiettivi di Workfront](#obtain-workfront-goals-organization-access) in questo articolo.
 
@@ -52,7 +58,9 @@ Prima di poter accedere agli obiettivi di Adobe Workfront Adobe Workfront, l’a
 ## Ottenere l’accesso all’organizzazione Workfront Goals {#obtain-workfront-goals-organization-access}
 
 L’ultimo pacchetto Adobe Workfront che includeva gli Obiettivi di Workfront era Adobe Workfront Ultimate.
+
 Workfront Goals non è più disponibile per l’acquisto di pacchetti più recenti.
+
 Rivolgiti al rappresentante del tuo account per informazioni sugli obiettivi di Workfront.
 
 <!--Old: >
@@ -72,8 +80,8 @@ Se la società ha accesso agli obiettivi di Workfront da un acquisto precedente,
 
 1. Una delle seguenti licenze:
 
-   * Collaboratore o versione successiva
-   * Richiedi o superiore
+   * Collaboratore o successiva
+   * Richiedente o successiva
 
 <!--Old: 
 * **The new access level model**: Your Workfront administrator must grant you one of the following Workfront license types to access Workfront Goals: 

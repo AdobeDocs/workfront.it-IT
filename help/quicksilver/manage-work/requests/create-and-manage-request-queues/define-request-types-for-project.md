@@ -3,17 +3,17 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: Definire i tipi di richiesta per un progetto
 description: Puoi organizzare il tipo di problemi o richieste connessi ad Adobe Workfront per tipo di richiesta.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 3%
+ht-degree: 16%
 
 ---
 
-# Definire i tipi di richiesta per un progetto
+# Definire tipi di richiesta per un progetto
 
 <!-- Audited: 6/2025 -->
 
@@ -21,7 +21,7 @@ Puoi organizzare il tipo di problemi o richieste connessi ad Adobe Workfront per
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +32,7 @@ Puoi organizzare il tipo di problemi o richieste connessi ad Adobe Workfront per
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td>
     <p>Standard</p>
     <p>Piano</p></td>  
@@ -42,7 +42,7 @@ Puoi organizzare il tipo di problemi o richieste connessi ad Adobe Workfront per
    <td> <p>Modifica accesso ai progetti</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Gestire le autorizzazioni per un progetto</p></td> 
   </tr> 
  </tbody> 
@@ -64,7 +64,7 @@ Prima di iniziare, è necessario effettuare le seguenti operazioni:
 
 * È possibile specificare il tipo di problemi o richieste che è possibile registrare in un progetto quando si configura l&#39;area Dettagli coda per il progetto.
 * Per poter definire i tipi di richiesta per un progetto, non è necessario abilitare il progetto come coda di richieste. Qualsiasi problema registrato per un progetto può essere etichettato con un diverso Tipo di richiesta.
-* Se aggiungi Argomenti coda al progetto, devi definire Tipi di richiesta su ciascun argomento della coda per visualizzarlo quando aggiungi un nuovo problema o una nuova richiesta. Per ulteriori informazioni, vedere [Creare argomenti coda](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+* Se aggiungi Argomenti coda al progetto, devi definire Tipi di richiesta su ciascun argomento della coda per visualizzarlo quando aggiungi un nuovo problema o una nuova richiesta. Per ulteriori informazioni, consulta [Creare argomenti di coda](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 ## Definire i tipi di problemi o richieste per un progetto
 

@@ -6,10 +6,10 @@ description: Puoi aggiungere commenti a tutti gli obiettivi che puoi visualizzar
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 8%
+source-wordcount: '222'
+ht-degree: 30%
 
 ---
 
@@ -38,7 +38,7 @@ Puoi aggiungere commenti a tutti gli obiettivi che puoi visualizzare in Obiettiv
 >
 >La tua azienda potrebbe scegliere di continuare a utilizzare gli obiettivi di Adobe Workfront se ha acquistato questo pacchetto in passato. Per ulteriori dettagli, rivolgiti al rappresentante del tuo account.
 >
->Adobe Workfront Goals non è più disponibile per l’acquisto.
+>Gli obiettivi di Adobe Workfront non sono più disponibili per l’acquisto.
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
@@ -51,11 +51,12 @@ Puoi aggiungere commenti a tutti gli obiettivi che puoi visualizzare in Obiettiv
  <tr>
   <td> <p>Pacchetto Adobe Workfront</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>NOTA</b></p>
+<p>Se hai un pacchetto Workfront diverso, contatta il rappresentante Workfront.</p>
    </td> 
   </tr>
  <tr>
- <td role="rowheader">Licenza Adobe Workfront</td>
+ <td role="rowheader">Licenza di Adobe Workfront</td>
  <td>
  <p>Qualsiasi</p></td>
  </tr>
@@ -65,7 +66,7 @@ Puoi aggiungere commenti a tutti gli obiettivi che puoi visualizzare in Obiettiv
  </td>
  </tr>
  <tr>
- <td role="rowheader">Autorizzazioni oggetto</td>
+ <td role="rowheader">Autorizzazioni sugli oggetti</td>
  <td>
   <div>
   <p>Visualizza o autorizzazioni superiori per l’obiettivo</p>

@@ -1,21 +1,21 @@
 ---
 product-area: requests
 navigation-topic: create-and-manage-request-queues
-title: Crea gruppi di argomenti
+title: Creare gruppi di argomenti
 description: I gruppi di argomenti sono associati alle code di richieste. Consentono di disporre le code di richieste in più categorie, a seconda della natura delle richieste.
-author: Becky
+author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
-# Crea gruppi di argomenti
+# Creare gruppi di argomenti
 
 <!-- Audited: 2/2024 -->
 
@@ -34,7 +34,7 @@ I gruppi di argomenti sono associati alle code di richieste. È possibile dispor
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">Licenza Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p role="rowheader">Licenza di Adobe Workfront</p> </td> 
    <td>   
       <p>Standard</p>
       <p>Piano</p>
@@ -45,7 +45,7 @@ I gruppi di argomenti sono associati alle code di richieste. È possibile dispor
    <td> <p>Modifica accesso ai progetti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p> Gestire le autorizzazioni per il progetto</p> </td> 
   </tr> 
  </tbody> 
@@ -68,7 +68,7 @@ Quando si lavora con i gruppi di argomenti, tenere presente quanto segue:
 * I gruppi di argomenti sono oggetti segnalabili.
 * Non è possibile spostare gruppi di argomenti da un progetto a un altro.
 
-## Crea gruppi di argomenti
+## Creare gruppi di argomenti
 
 È consigliabile creare Gruppi di argomenti prima di creare un Argomento coda. Tuttavia, è possibile creare un Topic Group (Gruppo di argomenti) in nel Generatore di argomenti coda. Per ulteriori informazioni sulla creazione degli argomenti della coda, vedere [Creare argomenti della coda](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 

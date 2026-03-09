@@ -6,14 +6,14 @@ description: Utilizzare la sezione Allineamento obiettivo per visualizzare una v
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 3%
+source-wordcount: '896'
+ht-degree: 10%
 
 ---
 
-# Passare alla sezione Allineamento obiettivi in Obiettivi di Adobe Workfront
+# Navigare la sezione Allineamento obiettivi in Obiettivi di Adobe Workfront
 
 <!--Audited P&P only: 4/2025-->
 
@@ -30,7 +30,7 @@ Per informazioni sull’allineamento degli obiettivi e su come raggiungerlo, con
 >
 >La tua azienda potrebbe scegliere di continuare a utilizzare gli obiettivi di Adobe Workfront se ha acquistato questo pacchetto in passato. Per ulteriori dettagli, rivolgiti al rappresentante del tuo account.
 >
->Adobe Workfront Goals non è più disponibile per l’acquisto.
+>Gli obiettivi di Adobe Workfront non sono più disponibili per l’acquisto.
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
@@ -42,11 +42,14 @@ Per informazioni sull’allineamento degli obiettivi e su come raggiungerlo, con
   <td> <p>Pacchetto Adobe Workfront</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
+
+<p><b>NOTA</b></p>
+<p>Se hai un pacchetto Workfront diverso, contatta il rappresentante Workfront.</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>Licenza Adobe Workfront</p> </td> 
-   <td> <p>Collaboratore o versione successiva</p> 
+   <td> <p>Licenza di Adobe Workfront</p> </td> 
+   <td> <p>Collaboratore o successiva</p> 
      <p>Richiedente o versione successiva</p> </td> 
   </tr>
 
@@ -54,7 +57,7 @@ Per informazioni sull’allineamento degli obiettivi e su come raggiungerlo, con
    <td> <p>Modifica accesso agli obiettivi</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Autorizzazioni oggetto </p> </td> 
+   <td> <p>Autorizzazioni sugli oggetti </p> </td> 
    <td> <p>Visualizza o autorizzazioni superiori per l’obiettivo per visualizzarlo</p>
 <p>Gestire le autorizzazioni per l’obiettivo per modificarlo</p>
   <tr>

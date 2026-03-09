@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 14794bc7c65cd1863412ea278a1a199b6452c4e0
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '13790'
+source-wordcount: '13793'
 ht-degree: 98%
 
 ---
@@ -312,7 +312,7 @@ ht-degree: 98%
             * [2020.2 - Miglioramenti per la gestione delle risorse: Bilanciamento dei carichi di lavoro](product-announcements/product-releases/2020.2.-release-activity/2020-2-resource-management.md)
          * Versione 20.1 {#release-20-1}
             * [Panoramica sulla versione 2020.1](product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md)
-            * [2020.1 - Miglioramenti per gli elenchi &#x200B;](product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md)
+            * [2020.1 - Miglioramenti per gli elenchi ](product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md)
             * [2020.1 - Miglioramenti per dispositivi mobili](product-announcements/product-releases/2020.1-release-activity/2020-1-mobile-enhancements.md)
             * [2020.1 - Altri miglioramenti](product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md)
             * [Miglioramenti per il progetto 2020.1](product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md)
@@ -431,7 +431,7 @@ ht-degree: 98%
          * [Nuova attività di rilascio sull’esperienza dei commenti](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [Domande frequenti sulla nuove esperienza dei commenti](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
 * Amministrazione e configurazione {#administration-and-setup}
-   * [Amministrazione e configurazione: indice degli articoli &#x200B;](administration-and-setup/administration-and-setup.md)
+   * [Amministrazione e configurazione: indice degli articoli ](administration-and-setup/administration-and-setup.md)
    * Introduzione all’amministrazione {#get-started-administration}
       * [Introduzione all’amministrazione: indice articoli](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
       * [Panoramica sulla definizione degli obiettivi per l’implementazione di Adobe Workfront](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
@@ -2101,7 +2101,7 @@ ht-degree: 98%
       * [Condividere un obiettivo in Obiettivi di Workfront](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [Abilitare notifiche di obiettivi di Adobe Workfront](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
 * Adobe Workfront Planning {#adobe-workfront-planning}
-   * [Informazioni generali sulla Pianificazione di Adobe Workfront](planning/planning-information.md)
+   * [Indice articolo e informazioni generali per Adobe Workfront Planning](planning/planning-information.md)
    * Informazioni generali su Pianificazione di Adobe Workfront {#adobe-workfront-planning-general-information}
       * [Informazioni generali su Pianificazione di Adobe Workfront: indice degli articoli](planning/general/planning-general-article-index.md)
       * [Introduzione alla Pianificazione di Adobe Workfront](planning/general/planning-overview.md)
@@ -2269,10 +2269,10 @@ ht-degree: 98%
       * [Aggiornare un elemento di Adobe Workfront da G Suite utilizzando il contenuto dell’e-mail](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
    * Adobe Workfront per Outlook {#workfront-for-outlook}
       * [Adobe Workfront per Outlook: indice degli articoli](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
-   * Adobe Workfront for Microsoft Teams {#workfront-for-microsoft-teams}
+   *  Adobe Workfront for Microsoft Teams {#workfront-for-microsoft-teams}
       * [[!DNL Adobe Workfront for Microsoft Teams]: indice degli articoli](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
       * [Panoramica su Adobe Workfront per Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
-      * [&#x200B; Adobe Workfront for Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
+      * [ Adobe Workfront for Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
       * [Accedere a Adobe Workfront da Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)
       * [Cercare e condividere elementi Adobe Workfront in Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)
       * [Creare attività Adobe Workfront da Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)

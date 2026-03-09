@@ -3,15 +3,15 @@ product-area: requests
 navigation-topic: create-requests
 title: Visualizza richieste inviate
 description: Scopri le aree di Adobe Workfront in cui puoi visualizzare le richieste che hai inviato o che un altro utente ha inviato o le richieste che non hai mai inviato e che sono state salvate come bozze.
-author: Becky
+author: Alina
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '1506'
-ht-degree: 2%
+source-wordcount: '1363'
+ht-degree: 6%
 
 ---
 
@@ -48,9 +48,9 @@ L’area Richieste visualizza le seguenti richieste, a seconda di come scegli di
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Collaboratore o versione successiva</p>
-   <p>Richiedi o superiore</p>
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
+   <td> <p>Collaboratore o successiva</p>
+   <p>Richiedente o successiva</p>
     </td> 
   </tr> 
   <tr> 
@@ -58,7 +58,7 @@ L’area Richieste visualizza le seguenti richieste, a seconda di come scegli di
    <td><p>Modifica l'accesso alle Issues</p></td> 
   </tr>
   <tr>
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td><p>Visualizza autorizzazioni o versioni successive nelle richieste</p></td> 
   </tr> 
   <tr> 
@@ -85,39 +85,32 @@ La visualizzazione delle richieste inviate varia a seconda che si utilizzi un’
 
 >[!NOTE]
 >
->I collegamenti agli oggetti creati sono disponibili nella nuova esperienza di richiesta solo per le richieste di Planning, nei casi in cui la richiesta stessa abbia creato un oggetto. Se una richiesta Workfront viene convertita in un progetto o in un altro oggetto, nell’elenco delle richieste nella nuova esperienza richiedente non è disponibile un collegamento a tale oggetto convertito.
+>I collegamenti agli oggetti creati sono disponibili nella nuova esperienza di richiesta solo per le richieste di Planning, nei casi in cui la richiesta stessa abbia creato un record.
+>
+>Se una richiesta di Workfront viene convertita in un progetto o in un altro oggetto, il collegamento all’oggetto convertito non è disponibile nell’elenco delle richieste nella nuova esperienza.
 
 Per visualizzare le richieste inviate da te o da altri utenti nella nuova esperienza di richiesta:
 
 {{step1-to-requests}}
 
-1. Assicurarsi che l&#39;interruttore **Usa nuova esperienza** nell&#39;angolo superiore destro dello schermo sia abilitato.
+1. Verificare che l&#39;impostazione **Usa nuova esperienza** nell&#39;angolo superiore destro dello schermo sia attivata.
 
-   Viene visualizzato l&#39;elenco Richieste.
+   Viene visualizzato l’elenco delle richieste.
 
-1. (Facoltativo) Per cercare una richiesta, inizia a digitare nella barra di ricerca in alto a destra dell’elenco. I risultati della ricerca vengono visualizzati durante la digitazione.
+1. (Facoltativo) Per cercare una richiesta, inizia a digitare nella barra di ricerca nell’angolo superiore destro dell’elenco. I risultati della ricerca vengono visualizzati durante la digitazione.
 1. (Facoltativo) Fai clic su **Filtri** e inizia ad aggiungere le condizioni per le richieste che desideri visualizzare.
 
-   Puoi filtrare in base ai seguenti campi:
+   Per ulteriori informazioni sui filtri, vedere [Creare e gestire le visualizzazioni nell&#39;area Richieste](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 
-   * **Workspace**: area di lavoro a cui è associato il modulo di richiesta.
-   * **Tipo di record**: il tipo di record a cui è associato il modulo di richiesta.
-   * **Data di ingresso**: la data in cui la richiesta è stata inviata.
-   * **Modulo di richiesta**: nome del modulo di richiesta utilizzato per inviare la richiesta.
-   * **Stato**: lo stato della richiesta.
-   * **Inserito da**: nome dell&#39;utente che ha aggiunto la richiesta. Se la richiesta è stata aggiunta da un utente esterno a Workfront, il campo **Immesso da** visualizza `N/A`.
+1. (Facoltativo) Fai clic sul menu a discesa **Viste** per aggiornare la tua visualizzazione o condividerla con altri utenti.
 
-   È possibile unire più filtri con **And** o **Or**.
-L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi le condizioni del filtro.
-1. (Facoltativo) Utilizza le viste per concentrarti sulle richieste che desideri visualizzare.
-
-   Per istruzioni, vedere [Creare o modificare le visualizzazioni nell&#39;area Richieste](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
-1. (Facoltativo) Controlla lo stato di una richiesta controllando la colonna Stato. Nella nuova esperienza di richiesta sono disponibili i seguenti stati:
+   Per informazioni, vedere [Creare o modificare le visualizzazioni nell&#39;area Richieste](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+1. (Facoltativo) Controlla lo stato di una richiesta controllando la colonna **Stato**. Nella nuova esperienza di richiesta sono disponibili i seguenti stati:
 
    * **Bozza**: questa richiesta non è ancora stata inviata.
    * **Revisione in sospeso**: (solo Planning) questa richiesta contiene approvatori e nessuno degli approvatori ha aperto la richiesta.
    * **In revisione**: (solo Planning) questa richiesta contiene approvatori e almeno un approvatore ha aperto la richiesta, ma non è stata presa alcuna decisione.
-   * **Rifiutata**: (solo Planning) questa richiesta contiene approvatori ed è stata rifiutata.
+   * **Rifiutata**: (solo Planning) questa richiesta contiene approvatori ed è stata rifiutata. Questa richiesta non creerà un record.
    * **In corso**:
       * Richieste Workfront: la richiesta è stata convertita e i lavori sono in corso.
       * Richieste di Workfront Planning: il completamento della richiesta viene mappato a un campo Planning specifico e il valore del campo non corrisponde ancora al valore di completamento.
@@ -127,8 +120,8 @@ L’elenco delle richieste viene filtrato automaticamente, man mano che aggiungi
 
 >[!NOTE]
 >
->* Se si dispone di Workfront Planning, le richieste Workfront e Planning vengono visualizzate nello stesso elenco. Le richieste Workfront visualizzano il valore `Issue` nella colonna Tipo oggetto.
->* Viene visualizzato l’elenco Richieste con 50 richieste visualizzate. Per visualizzare altre richieste, scorri fino alla parte inferiore dell’elenco.
+>* Se si dispone di Workfront Planning, le richieste Workfront e Planning vengono visualizzate nello stesso elenco. Le richieste Workfront visualizzano il valore `Issue` nella colonna **Object type**.
+>* Per impostazione predefinita, nell’elenco dell’area Richieste vengono visualizzate fino a 50 richieste. Per visualizzare altre richieste, scorri fino alla parte inferiore dell’elenco.
 
 ### Visualizzare le richieste inviate nell’esperienza di richiesta legacy
 
@@ -234,15 +227,17 @@ Per visualizzare le richieste inviate da te o da altri utenti nell’esperienza 
 
 1. (Facoltativo) Fai clic sull&#39;icona **Filtra pagina** ![Icona Ricerca](assets/search-icon.png) nella parte superiore dell&#39;elenco per cercare una richiesta in base al nome. L’elenco viene aggiornato con risultati che corrispondono ai criteri di ricerca.
 
-1. (Condizionale) Per visualizzare solo le code di richieste di Workfront, cercare o filtrare i tipi di oggetto `Issue`.</span>
-
-
    <!--
-   <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the <strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
+
+   1. (Conditional) To display only Workfront Request queues, search or filter for `Issue` object types.</span>
    -->
 
    <!--
-   <li value="10" data-mc-conditions="QuicksilverOrClassic.Draft mode">(Optional) Select an option from the <strong>Sort by</strong> drop-down menu to sort the requests by the following criteria:   (NOTE: this step will stay drafted even after release. We can't see Completed at this time!)  
+   <li> <p>Click the <strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
+   -->
+
+   <!--
+   <li>(Optional) Select an option from the <strong>Sort by</strong> drop-down menu to sort the requests by the following criteria:   (NOTE: this step will stay drafted even after release. We can't see Completed at this time!)  
    <ul>
    <li><strong>Assigned To</strong>: Requests are sorted alphabetically by the name of the assignee using the following criteria: 
    <ul>
@@ -262,19 +257,18 @@ Per visualizzare le richieste inviate da te o da altri utenti nell’esperienza 
 
 1. Fai clic su **Bozze** per visualizzare tutte le richieste bozze. Workfront salva un numero illimitato di bozze per ogni coda di richieste in questa cartella. Quando si immette una nuova richiesta per un argomento della coda che presenta già una bozza, viene richiesto di utilizzare una bozza esistente. Per ulteriori informazioni, vedere [Creare richieste dalle bozze](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 
-1. (Facoltativo e condizionale) Se la tua organizzazione ha acquistato un pacchetto Workfront Planning, fai clic sulla scheda **Planning**, quindi fai clic su **Inviato** nel pannello a sinistra per visualizzare le richieste di Workfront Planning.
+   <!--Planning tab has been removed and no longer visible in legacy Requests area: 
+   (Optional and conditional) If your organization purchased a Workfront Planning package, click the **Planning** tab, then click **Submitted** in the left panel to view Workfront Planning requests. 
+      Use **Filters** and **Columns** to update the information in the Planning request list. 
+      ![Planning tab submitted section in Requests area](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+      For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
+   -->
 
-   Utilizzare **Filtri** e **Colonne** per aggiornare le informazioni nell&#39;elenco delle richieste di Planning.
 
-   ![Sezione inviata dalla scheda Pianificazione nell&#39;area Richieste](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+1. (Facoltativo) Controlla lo stato di una richiesta controllando la colonna **Stato**. Nella nuova esperienza di richiesta sono disponibili i seguenti stati:
 
-   Per informazioni, vedere [Inviare le richieste di Adobe Workfront Planning per la creazione di record](/help/quicksilver/planning/requests/submit-requests.md).
-
-
-1. (Facoltativo) Controlla lo stato di una richiesta controllando la colonna Stato. Nella nuova esperienza di richiesta sono disponibili i seguenti stati:
-
-   * Bozza: questa richiesta non è ancora stata inviata.
-   * In corso
-   * Completato
+   * **Bozza**: questa richiesta non è ancora stata inviata.
+   * **In corso**
+   * **Completo**
 
 

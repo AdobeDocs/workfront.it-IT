@@ -3,17 +3,17 @@ title: Aggiungere un’approvazione a un modulo di richiesta in Adobe Workfront 
 description: È possibile aggiungere un processo di approvazione a un modulo di richiesta di Adobe Workfront Planning, per avviare un'approvazione per ogni richiesta sottomessa, prima di creare un record.
 feature: Workfront Planning
 role: User, Admin
-author: Alina, Becky
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '1192'
-ht-degree: 1%
+source-wordcount: '1210'
+ht-degree: 2%
 
 ---
 
-# Aggiungere un’approvazione a un modulo di richiesta in Adobe Workfront Planning
+# Aggiungere un’approvazione a un modulo di richiesta in Pianificazione di Adobe Workfront
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
@@ -55,12 +55,12 @@ Oppure
 
 </tr> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Standard</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>   <p>Gestione delle autorizzazioni per un'area di lavoro e tipo di record</a> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  </td> 
   </tr>  
@@ -123,17 +123,15 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 <div class="preview">
 
-## Aggiungere regole di approvazione a un modulo di richiesta
+## Aggiungere regole di approvazione a un modulo di richiesta nell’ambiente di anteprima
 
->[!NOTE]
->
->Questa funzionalità è disponibile solo nell’ambiente di anteprima.
-
-Le regole di approvazione definiscono il processo di approvazione in base ai valori dei campi in nelle richieste inviate.
+Le regole di approvazione definiscono il processo di approvazione in base ai valori dei campi nelle richieste inviate.
 
 Ad esempio, se un modulo di richiesta ha il campo &quot;Tipo di campagna&quot;, è possibile creare una regola che invia la richiesta a una persona quando il campo ha il valore &quot;Digitale&quot; e a una persona diversa quando ha il valore &quot;Stampa&quot;.
 
 Quando aggiungi regole di approvazione, tieni presente quanto segue:
+
+<!--below bullet list is duplicated in the Add approval to a request form in the Production environment section above-->
 
 * È possibile aggiungere uno o più approvatori a una regola di approvazione.
 * Se almeno un approvatore rifiuta la richiesta, la richiesta viene rifiutata e il record non viene creato. La richiesta rimane nell’area Richieste di Workfront.
@@ -142,18 +140,16 @@ Quando aggiungi regole di approvazione, tieni presente quanto segue:
 
 Per impostare le regole di approvazione per un modulo di richiesta:
 
-1. Iniziare a creare un modulo di richiesta per un tipo di record, come descritto in [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
-1. Fare clic su **Impostazioni**.
+1. Iniziare a creare un modulo di richiesta per un tipo di record, come descritto nell&#39;articolo [Creare e gestire un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+1. All&#39;apertura del modulo di richiesta, fare clic su **Impostazioni**.
 
-   Viene visualizzata la scheda Impostazioni.
+   Viene visualizzata la scheda **Impostazioni**.
 
 1. Per iniziare a configurare le regole di approvazione, fai clic su **Approvazioni** ![Icona Approvazioni](assets/approvals-icon-on-form.png) nel pannello a sinistra.
 
 1. (Facoltativo) Se desideri impostare un processo di approvazione predefinito, aggiungi almeno un utente o un team al campo **Approvatori** dell&#39;area **Regola di approvazione predefinita**, quindi fai clic sulla casella di controllo **È necessaria una sola decisione** se desideri che il record venga creato dopo che uno qualsiasi degli approvatori predefiniti lo ha approvato.
 
    ![Area regola di approvazione predefinita](assets/default-approvers.png)
-
-   <!--below bullet list is duplicated in the Add approval to a request form article-->
 
 1. (Facoltativo) Inizia ad aggiungere le regole di approvazione. Per ogni regola di approvazione, eseguire le operazioni seguenti:
 
@@ -164,7 +160,7 @@ Per impostare le regole di approvazione per un modulo di richiesta:
    1. Se l’operatore selezionato richiede un valore, fai clic sull’icona più e aggiungi uno o più valori.
    1. (Facoltativo) Fai clic su **Aggiungi condizione** per aggiungere altre condizioni e connetterle tramite **And** o **Or** istruzioni configurando le condizioni aggiuntive come nei passaggi C-E.
    1. Nell&#39;area **Azioni** della regola di approvazione, nel campo **Approvatori**, aggiungere almeno un utente o un team da impostare presso l&#39;approvatore quando la condizione viene soddisfatta.
-   1. (Condizionale) Se desideri che il record venga creato dopo l&#39;approvazione di uno qualsiasi degli approvatori, seleziona la casella di controllo **È necessaria una sola decisione**.
+   1. (Condizionale e facoltativo) Se desideri che il record venga creato dopo che uno qualsiasi degli approvatori lo ha approvato, seleziona la casella di controllo **È necessaria una sola decisione**. In caso contrario, tutti gli approvatori devono decidere in merito all’approvazione prima che la richiesta venga accettata o rifiutata.
 
 1. Fai clic su **Salva** per salvare le regole di approvazione.
 1. (Facoltativo) Fai clic su **Pubblica** se non hai mai condiviso il modulo di richiesta in precedenza.

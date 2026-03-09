@@ -3,17 +3,17 @@ title: Annullare la pubblicazione di un modulo di richiesta in Adobe Workfront P
 description: Puoi annullare la pubblicazione di un modulo di richiesta se non è più necessario o pertinente. Annullando la pubblicazione, verranno rimosse le autorizzazioni di accesso al modulo per tutti gli utenti.
 feature: Workfront Planning
 role: User, Admin
-author: Alina, Becky
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '676'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
-# Annullare la pubblicazione di un modulo di richiesta in Adobe Workfront Planning
+# Annullare la pubblicazione di un modulo di richiesta in Pianificazione di Adobe Workfront
 
 
 <!--take Preview and Production references at Production time-->
@@ -53,12 +53,12 @@ Oppure
 
 </tr> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Standard</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>   <p>Gestione delle autorizzazioni per un'area di lavoro e tipo di record</a> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  </td> 
   </tr>  

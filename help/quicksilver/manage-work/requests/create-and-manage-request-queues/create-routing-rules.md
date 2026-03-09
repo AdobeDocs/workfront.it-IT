@@ -1,21 +1,21 @@
 ---
 product-area: requests
 navigation-topic: create-and-manage-request-queues
-title: Creare regole di instradamento
+title: Creare regole di indirizzamento
 description: Le regole di instradamento controllano le operazioni di Adobe Workfront con i problemi quando vengono inviati a una coda di richieste.
-author: Becky
+author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '494'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
-# Creare regole di instradamento
+# Creare regole di indirizzamento
 
 <!-- Audited: 12/2023 -->
 
@@ -27,7 +27,7 @@ Una volta create, non è possibile spostare le regole di instradamento da un pro
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +38,7 @@ Una volta create, non è possibile spostare le regole di instradamento da un pro
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p> 
    <p>Piano</p> </td> 
   </tr> 
@@ -47,7 +47,7 @@ Una volta create, non è possibile spostare le regole di instradamento da un pro
    <td> <p>Modifica accesso ai progetti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p> Gestire le autorizzazioni per il progetto</p> </td> 
   </tr> 
  </tbody> 

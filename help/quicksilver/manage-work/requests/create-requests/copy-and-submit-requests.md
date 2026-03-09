@@ -1,15 +1,15 @@
 ---
 title: Copiare e inviare richieste
 description: Quando invii spesso richieste simili, puoi copiare una richiesta già inviata. In questo caso, puoi copiare una richiesta esistente, apportarvi modifiche minime e inviarla nuovamente come nuova richiesta.
-author: Becky
+author: Alina
 feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '1520'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -31,9 +31,9 @@ Quando invii spesso richieste simili, puoi copiare una richiesta già inviata. I
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Collaboratore o versione successiva</p>
-   <p>Richiedi o superiore</p>
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
+   <td> <p>Collaboratore o successiva</p>
+   <p>Richiedente o successiva</p>
     </td> 
   </tr> 
   <tr> 
@@ -41,7 +41,7 @@ Quando invii spesso richieste simili, puoi copiare una richiesta già inviata. I
    <td> <p>Modifica l'accesso alle Issues</p>  </td> 
   </tr> 
   <tr>
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td><p>Accesso per aggiungere richieste a una coda di richieste</p> <p>Visualizza o autorizzazioni superiori per la richiesta esistente</p> <p>Per informazioni sulla configurazione di una coda richieste, vedere <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Creare una coda richieste</a>. </p> </td> 
   </tr>
   <tr> 
@@ -69,7 +69,7 @@ Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfro
   Per ulteriori informazioni, consulta i seguenti articoli:
 
    * [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
-   * [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md)
+   * [Modificare progetti](../../../manage-work/projects/manage-projects/edit-projects.md)
 
 * È possibile aggiornare la copia della richiesta originale prima di inviarla nuovamente come nuova richiesta.
 * Se le seguenti modifiche si verificano dopo l&#39;invio della richiesta originale, non è più possibile copiarla e inviarla di nuovo:

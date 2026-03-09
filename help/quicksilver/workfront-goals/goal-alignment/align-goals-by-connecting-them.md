@@ -6,10 +6,10 @@ description: Se sei un singolo collaboratore con un obiettivo personale, potrest
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 0%
+source-wordcount: '739'
+ht-degree: 11%
 
 ---
 
@@ -39,23 +39,25 @@ Questo articolo descrive come allineare gli obiettivi collegandoli tra loro. Per
 >
 >La tua azienda potrebbe scegliere di continuare a utilizzare gli obiettivi di Adobe Workfront se ha acquistato questo pacchetto in passato. Per ulteriori dettagli, rivolgiti al rappresentante del tuo account.
 >
->Adobe Workfront Goals non è più disponibile per l’acquisto.
+>Gli obiettivi di Adobe Workfront non sono più disponibili per l’acquisto.
 
-+++Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody>
 
-<td> <p>Pacchetto Adobe Workfront</p> </td> 
+<td> <p>Pacchetto Adobe Workfront</p> 
+  </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p> <p><b>NOTA</b></p>
+<p>Se hai un pacchetto Workfront diverso, contatta il rappresentante Workfront.</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>Licenza Adobe Workfront</p> </td> 
-   <td> <p>Collaboratore o versione successiva</p> 
+   <td> <p>Licenza di Adobe Workfront</p> </td> 
+   <td> <p>Collaboratore o successiva</p> 
      <p>Richiedente o versione successiva</p> </td> 
   </tr>
 
@@ -63,7 +65,7 @@ Questo articolo descrive come allineare gli obiettivi collegandoli tra loro. Per
    <td> <p>Modifica accesso agli obiettivi</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Autorizzazioni oggetto </p> </td> 
+   <td> <p>Autorizzazioni sugli oggetti </p> </td> 
    <td> <p>Gestire le autorizzazioni per un obiettivo</p>  </td> 
   </tr> 
   <tr>

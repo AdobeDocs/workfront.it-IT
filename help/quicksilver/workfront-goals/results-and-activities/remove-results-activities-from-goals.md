@@ -2,19 +2,19 @@
 product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
-title: Rimuovere gli indicatori di progresso dagli obiettivi in Obiettivi di Adobe Workfront
+title: Rimuovere gli indicatori di avanzamento dagli obiettivi in Obiettivi di Adobe Workfront
 description: Puoi rimuovere risultati, attività e progetti dagli obiettivi in Obiettivi di Adobe Workfront, quando non sono più rilevanti.
 author: Alina
 feature: Workfront Goals
 exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 2%
+source-wordcount: '659'
+ht-degree: 14%
 
 ---
 
-# Rimuovere gli indicatori di progresso dagli obiettivi in Obiettivi di Adobe Workfront
+# Rimuovere gli indicatori di avanzamento dagli obiettivi in Obiettivi di Adobe Workfront
 
 <!-- for goal redesign PRODUCTION RELEASE: Should this article be called "Remove or disconnect progress indicators from goals" when this is available to ALL progress indicators (including "disconnect goals")-- if yes, updte the title everywhere else where this is linked?
 -->
@@ -38,7 +38,7 @@ Gli obiettivi possono anche essere allineati agli obiettivi principali, diventan
 >
 >La tua azienda potrebbe scegliere di continuare a utilizzare gli obiettivi di Adobe Workfront se ha acquistato questo pacchetto in passato. Per ulteriori dettagli, rivolgiti al rappresentante del tuo account.
 >
->Adobe Workfront Goals non è più disponibile per l’acquisto.
+>Gli obiettivi di Adobe Workfront non sono più disponibili per l’acquisto.
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
@@ -51,21 +51,22 @@ Gli obiettivi possono anche essere allineati agli obiettivi principali, diventan
  <tr>
   <td> <p>Pacchetto Adobe Workfront</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>NOTA</b></p>
+<p>Se hai un pacchetto Workfront diverso, contatta il rappresentante Workfront.</p>
    </td> 
   </tr>
  <tr>
- <td role="rowheader">Licenza Adobe Workfront</td>
+ <td role="rowheader">Licenza di Adobe Workfront</td>
  <td>
- <p>Collaboratore o versione successiva</p>
-<p>Richiedi o superiore</p></td>
+ <p>Collaboratore o successiva</p>
+<p>Richiedente o successiva</p></td>
  </tr>
   <tr>
  <td role="rowheader">Configurazione del livello di accesso</td>
  <td> <p>Modifica accesso agli obiettivi</p> </td>
  </tr>
  <tr data-mc-conditions="">
- <td role="rowheader">Autorizzazioni oggetto</td>
+ <td role="rowheader">Autorizzazioni sugli oggetti</td>
  <td>
   <div>
   <p>Visualizza o autorizzazioni superiori per l’obiettivo per visualizzarlo</p>

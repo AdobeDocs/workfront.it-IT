@@ -3,13 +3,13 @@ product-area: requests
 navigation-topic: create-requests
 title: Creare e inviare richieste
 description: Il lavoro pianificato è rappresentato in Adobe Workfront dai progetti e dalle attività. Tuttavia, è possibile lavorare in un ambiente in cui il lavoro non pianificato, sotto forma di richieste casuali, può essere fornito in qualsiasi momento. Workfront fornisce un flusso di lavoro per questo tipo di ambiente tramite l’utilizzo di Code di richieste.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '2575'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -59,9 +59,9 @@ Puoi creare una richiesta Workfront nei seguenti modi:
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Collaboratore o versione successiva</p>
-   <p>Richiedi o superiore</p>
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
+   <td> <p>Collaboratore o successiva</p>
+   <p>Richiedente o successiva</p>
     </td> 
   </tr> 
   <tr> 
@@ -375,7 +375,7 @@ Puoi inviare richieste utilizzando qualsiasi applicazione integrata con Workfron
 
 Per poter inviare richieste Planning, l&#39;organizzazione deve acquistare un pacchetto Workfront Planning.
 
-Per informazioni, vedere i seguenti articoli:
+Per ulteriori informazioni, consulta:
 
 * [Crea e gestisci un modulo di richiesta in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 * [Inviare le richieste di Adobe Workfront Planning per creare record](/help/quicksilver/planning/requests/submit-requests.md).

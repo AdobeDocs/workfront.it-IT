@@ -6,14 +6,14 @@ description: Puoi modificare gli obiettivi esistenti da qualsiasi periodo di tem
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 3%
+source-wordcount: '576'
+ht-degree: 15%
 
 ---
 
-# Modificare gli obiettivi in Obiettivi di Adobe Workfront
+# Modificare gli obiettivi in Obiettivi Adobe Workfront
 
 <!--Audited for P&P only: 10/2025-->
 
@@ -25,7 +25,7 @@ Puoi modificare gli obiettivi esistenti da qualsiasi periodo di tempo e in quals
 >
 >La tua azienda potrebbe scegliere di continuare a utilizzare gli obiettivi di Adobe Workfront se ha acquistato questo pacchetto in passato. Per ulteriori dettagli, rivolgiti al rappresentante del tuo account.
 >
->Adobe Workfront Goals non è più disponibile per l’acquisto.
+>Gli obiettivi di Adobe Workfront non sono più disponibili per l’acquisto.
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
@@ -38,21 +38,22 @@ Puoi modificare gli obiettivi esistenti da qualsiasi periodo di tempo e in quals
  <tr>
   <td> <p>Pacchetto Adobe Workfront</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>NOTA</b></p>
+<p>Se hai un pacchetto Workfront diverso, contatta il rappresentante Workfront.</p>
    </td> 
   </tr>
  <tr>
- <td role="rowheader">Licenza Adobe Workfront</td>
+ <td role="rowheader">Licenza di Adobe Workfront</td>
  <td>
- <p>Collaboratore o versione successiva</p>
-<p>Richiedi o superiore</p></td>
+ <p>Collaboratore o successiva</p>
+<p>Richiedente o successiva</p></td>
  </tr>
   <tr>
  <td role="rowheader">Configurazione del livello di accesso</td>
  <td> <p>Modifica accesso agli obiettivi</p> </td>
  </tr>
  <tr data-mc-conditions="">
- <td role="rowheader">Autorizzazioni oggetto</td>
+ <td role="rowheader">Autorizzazioni sugli oggetti</td>
  <td>
   <div>
   <p>Visualizza o autorizzazioni superiori per l’obiettivo per visualizzarlo</p>

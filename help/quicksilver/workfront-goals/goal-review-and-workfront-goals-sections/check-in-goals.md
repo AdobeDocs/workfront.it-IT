@@ -6,10 +6,10 @@ description: Devi rivedere periodicamente i tuoi obiettivi e aggiornarne i progr
 author: Alina
 feature: Workfront Goals
 exl-id: 5092f508-e52c-4934-a8c1-d0be04ecce13
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 0%
+source-wordcount: '643'
+ht-degree: 12%
 
 ---
 
@@ -27,9 +27,9 @@ Devi rivedere periodicamente i tuoi obiettivi e aggiornarne i progressi per assi
 >
 >La tua azienda potrebbe scegliere di continuare a utilizzare gli obiettivi di Adobe Workfront se ha acquistato questo pacchetto in passato. Per ulteriori dettagli, rivolgiti al rappresentante del tuo account.
 >
->Adobe Workfront Goals non è più disponibile per l’acquisto.
+>Gli obiettivi di Adobe Workfront non sono più disponibili per l’acquisto.
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 <table style="table-layout:auto">
 <col>
@@ -40,21 +40,22 @@ Devi rivedere periodicamente i tuoi obiettivi e aggiornarne i progressi per assi
  <tr>
   <td> <p>Pacchetto Adobe Workfront</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>NOTA</b></p>
+<p>Se hai un pacchetto Workfront diverso, contatta il rappresentante Workfront.</p>
    </td> 
   </tr>
  <tr>
- <td role="rowheader">Licenza Adobe Workfront</td>
+ <td role="rowheader">Licenza di Adobe Workfront</td>
  <td>
- <p>Collaboratore o versione successiva</p>
-<p>Richiedi o superiore</p></td>
+ <p>Collaboratore o successiva</p>
+<p>Richiedente o successiva</p></td>
  </tr>
   <tr>
  <td role="rowheader">Configurazione del livello di accesso</td>
  <td> <p>Modifica accesso agli obiettivi</p> </td>
  </tr>
  <tr data-mc-conditions="">
- <td role="rowheader">Autorizzazioni oggetto</td>
+ <td role="rowheader">Autorizzazioni sugli oggetti</td>
  <td>
   <div>
   <p>Visualizza o autorizzazioni superiori per l’obiettivo per visualizzarlo</p>

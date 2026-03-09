@@ -3,17 +3,17 @@ product-area: requests
 navigation-topic: create-requests
 title: Consentire agli utenti di inviare un problema tramite e-mail a un progetto della coda richieste
 description: Puoi configurare un progetto per consentire agli utenti di aggiungere problemi al progetto tramite e-mail.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
-# Consentire agli utenti di inviare un problema tramite e-mail a un progetto della coda richieste
+# Abilitare agli utenti a inviare un problema tramite e-mail in un progetto coda di richieste
 
 <!-- Audited: 4/2025 -->
 
@@ -36,9 +36,9 @@ Puoi configurare un progetto per consentire agli utenti di aggiungere problemi a
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Collaboratore o versione successiva</p>
-   <p>Richiedi o superiore</p>
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
+   <td> <p>Collaboratore o successiva</p>
+   <p>Richiedente o successiva</p>
     </td> 
   </tr> 
   <tr> 

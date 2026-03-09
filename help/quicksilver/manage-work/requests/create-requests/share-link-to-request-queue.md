@@ -1,13 +1,13 @@
 ---
 title: Condividere un collegamento a una coda di richieste
 description: È possibile condividere un collegamento a una coda di richieste, a un gruppo di argomenti o a un argomento della coda mentre si invia la richiesta.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 91e456ae-a192-4f3a-afff-b3c48854e295
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 10%
+ht-degree: 22%
 
 ---
 
@@ -32,9 +32,9 @@ ht-degree: 10%
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Collaboratore o versione successiva</p>
-   <p>Richiedi o superiore</p>
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
+   <td> <p>Collaboratore o successiva</p>
+   <p>Richiedente o successiva</p>
     </td> 
   </tr> 
   <tr> 

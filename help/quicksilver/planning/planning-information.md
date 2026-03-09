@@ -1,5 +1,5 @@
 ---
-title: Informazioni generali sulla Pianificazione di Adobe Workfront
+title: Indice articolo e informazioni generali per Adobe Workfront Planning
 description: In qualità di responsabile delle operazioni di marketing, puoi utilizzare la Pianificazione di Adobe Workfront per organizzare il lavoro nel ciclo di vita di marketing per tutti i tuoi team. Gli articoli in questa sezione descrivono come configurare le funzionalità di pianificazione e come iniziare a utilizzarle come parte delle operazioni di gestione delle campagne.
 short-description: Utilizza documenti e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace la Pianificazione di Adobe Workfront nella tua organizzazione.
 author: Alina
@@ -7,14 +7,14 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: 550a4e94ce340083937ad89f5dad9e151abe9075
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 98%
+source-wordcount: '612'
+ht-degree: 83%
 
 ---
 
-# Informazioni generali sulla Pianificazione di Adobe Workfront
+# Indice articolo e informazioni generali per Adobe Workfront Planning
 
 <!--DO NOT CHANGE LINK OR CONTENT:  this is linked to an Experience League article that is hard coded by Adobe: https://experienceleague.adobe.com/en/docs/workfront-->
 <!--this articles used to be called "Adobe Workfront Planning: article index"-->
@@ -94,9 +94,11 @@ Le sezioni seguenti contengono articoli che descrivono nei dettagli le funzioni 
 
 * [Configurare le automazioni della Pianificazione di Adobe Workfront](/help/quicksilver/planning/records/configure-automations-to-create-records.md): puoi configurare le automazioni in Pianificazione di Adobe Workfront, che, se attivate, creano oggetti in Workfront o record in Pianificazione di Workfront quando attivate da un record di Pianificazione.
 
-* [Introduzione all’integrazione della Pianificazione di Adobe Workfront e Adobe GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md): puoi gestire i record da GenStudio for Performance Marketing nell’area di lavoro di GenStudio nella Pianificazione di Workfront.
+* [Integrazione di Adobe Workfront Planning e Adobe GenStudio for Performance Marketing: indice articolo](/help/quicksilver/planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md): è possibile gestire i record da GenStudio for Performance Marketing nell&#39;area di lavoro di GenStudio in Workfront Planning.
 
-* **Funzionalità di reporting della Panificazione di Workfront**: ora puoi visualizzare le informazioni di Pianificazione di Workfront in un rapporto utilizzando la dashboard dell’area di lavoro di Workfront. Per informazioni, consulta [Panoramica delle dashboard dell’area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+* **Funzionalità di reporting di Workfront Planning**: è possibile visualizzare le informazioni di Workfront Planning in un rapporto utilizzando il dashboard di Workfront Canvas. Per informazioni, consulta [Panoramica delle dashboard dell’area di lavoro](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+
+* [Best practice di Adobe Workfront Planning: indice dell&#39;articolo](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md): scopri suggerimenti su come implementare Adobe Workfront Planning nella tua organizzazione utilizzando una strategia che dia priorità alla sicurezza, riduca al minimo le interruzioni e offra risultati rapidi.
 
 ## Attività sulla versione della Pianificazione di Workfront
 
