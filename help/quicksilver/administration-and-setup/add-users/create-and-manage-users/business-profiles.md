@@ -8,7 +8,10 @@ description: I profili aziendali sono un modello di autorizzazioni avanzato che 
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: e092a3e827d984a39ae82c73824a0aadcf4e227b
+hide: true
+hidefromtoc: true
+exl-id: 7f62de33-e544-4be9-8dcf-03a2e09e8a05
+source-git-commit: 1389c6a1f41a14bafd6b70e2e079e40d22d47b07
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 0%
@@ -116,4 +119,3 @@ Per informazioni sulla collaborazione tra i livelli di accesso e le autorizzazio
 * Quando un gruppo viene eliminato da Workfront, tutti i profili di business assegnati a quel gruppo vengono rimossi dagli utenti associati.
 * Se un livello di accesso fa parte di un profilo aziendale e si elimina il livello di accesso, viene richiesto di scegliere un nuovo livello di accesso da utilizzare.
 * Gli aggiornamenti ai profili aziendali vengono tracciati nei registri di audit di Workfront. Per ulteriori informazioni, consulta Panoramica dei registri di audit.
- 
