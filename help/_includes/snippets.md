@@ -1,5 +1,5 @@
 ---
-source-git-commit: 550a4e94ce340083937ad89f5dad9e151abe9075
+source-git-commit: c13d893ba3f8748666c8c2d36d66367a6ec4e855
 workflow-type: tm+mt
 source-wordcount: '2688'
 ht-degree: 2%
@@ -7,7 +7,8 @@ ht-degree: 2%
 ---
 # Frammenti
 
-<!-- Add snippets within the section that the snippet is used. Snippets that are used throughout the Workfront documentation set should be added to the "General" section. -->
+<!-- 
+Add snippets within the section that the snippet is used. Snippets that are used throughout the Workfront documentation set should be added to the "General" section. -->
 
 <!-- General -->
 
@@ -15,7 +16,7 @@ ht-degree: 2%
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
-## Anteprima evidenziata per l'articolo completo {#highlighted-preview-article-level}
+## Anteprima evidenziata per l&#39;articolo completo {#highlighted-preview-article-level}
 
 <span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente Sandbox di anteprima.</span>
 
@@ -220,78 +221,66 @@ Per impostare le cartelle collegate:
 1. (Facoltativo) Regolare le impostazioni del flusso di lavoro per la bozza automatica
 
    <table>
-      <tr>
-         <td colspan="2" ><strong>Fasi bozza</strong>
-         </td>
-      </tr>
-      <tr>
-         <td>Disattiva fasi
-         </td>
-         <td>
+   <tr>
+      <td colspan="2" ><strong>Fasi bozza</strong>
+      </td>
+   </tr>
+   <tr>
+      <td>Disattiva fasi
+      </td>
+      <td>
       <ol>
-
-   <li>Attiva Seleziona tutto per disabilitare tutte le fasi. 
+      <li>Attiva Seleziona tutto per disabilitare tutte le fasi. 
       <p>Oppure</p></li>
       <li>Consente di attivare o disattivare singoli stadi.</li>
-
-   </ol>
-         </td>
-      </tr>
-      <tr>
-         <td>Aggiungi destinatari
-         </td>
-         <td>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td>Aggiungi destinatari
+      </td>
+      <td>
       <ol>
-
-   <li>Nella casella Aggiungi nuovo destinatario iniziare a digitare il nome dell'utente.
-
-   <li>Specifica il ruolo bozza.
-
-   <li>Scegli il tipo di avvisi e-mail per il destinatario. 
+      <li>Nella casella Aggiungi nuovo destinatario iniziare a digitare il nome dell'utente.</li>
+      <li>Specifica il ruolo bozza.</li>
+      <li>Scegli il tipo di avvisi e-mail per il destinatario.</li>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td>Imposta una scadenza
+      </td>
+      <td>
+      <ol>
+      <li>Scegli una scadenza.</li>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td colspan="2" ><strong>Notifiche e-mail</strong>
+      </td>
+   </tr>
+   <tr>
+      <td>Notifica i destinatari relativamente alla bozza
+      </td>
+      <td>
+      <ol>
+      <li>Abilita la casella di controllo per avvisare gli utenti quando viene creata la bozza.</li>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td>Aggiungi un messaggio personalizzato
+      </td>
+      <td>
+      <ol>
+      <li>Digitare un oggetto.
+      <li>Digita il messaggio personalizzato.
       </li>
       </ol>
-         </td>
+      </td>
       </tr>
-      <tr>
-         <td>Imposta una scadenza
-         </td>
-         <td>
-      <ol>
-
-   <li>Scegli una scadenza.
-      </li>
-      </ol>
-         </td>
-      </tr>
-      <tr>
-         <td colspan="2" ><strong>Notifiche e-mail</strong>
-         </td>
-      </tr>
-      <tr>
-         <td>Notifica i destinatari relativamente alla bozza
-         </td>
-         <td>
-      <ol>
-
-   <li>Abilita la casella di controllo per avvisare gli utenti quando viene creata la bozza.
-      </li>
-      </ol>
-         </td>
-      </tr>
-      <tr>
-         <td>Aggiungi un messaggio personalizzato
-         </td>
-         <td>
-      <ol>
-
-   <li>Digitare un oggetto.
-
-   <li>Digita il messaggio personalizzato.
-      </li>
-      </ol>
-         </td>
-      </tr>
-      </table>
+   </table>
 
 <!-- Workfront Planning -->
 
@@ -318,7 +307,8 @@ Per impostare le cartelle collegate:
 > 
 >Per informazioni generali su Workfront Planning, vedere [Introduzione ad Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-<!--Old - before Oct. 15, 2025:
+<!--
+Old - before Oct. 15, 2025:
 >[!IMPORTANT]
 >
 >The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
@@ -331,9 +321,11 @@ Per impostare le cartelle collegate:
 >
 > For a complete list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
 > 
->For more information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).-->
+>For more information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+-->
 
-<!--OLD: 
+<!--
+OLD: 
 >[!IMPORTANT]
 >
 >The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
@@ -464,11 +456,11 @@ Per impostare le cartelle collegate:
    >* I tipi di problema sono personalizzabili e possono avere nomi diversi da quelli elencati di seguito nel tuo ambiente.\
    >  Di seguito sono elencati i tipi di problemi e le attività predefiniti:
    >     
-   >   * Attività
-   >   * Problema
-   >   * Richiesta
-   >   * Ordine di modifica
-   >   * Segnalazione Bug
+   >  * Attività
+   >  * Problema
+   >  * Richiesta
+   >  * Ordine di modifica
+   >  * Segnalazione Bug
 
    Se l’attività o il problema è assegnato a più utenti, nel menu a discesa viene visualizzata l’opzione &quot;Fine con la parte&quot;, oltre ai diversi stati scelti per il team.
 
@@ -530,5 +522,4 @@ For each snippets, create a head 2 section and add an anchor, such as
 In any .md file, add {{classic-note}} where you want that shared snippet content to appear.
 
 -->
-
 
