@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
-source-wordcount: '2354'
-ht-degree: 75%
+source-wordcount: '2358'
+ht-degree: 76%
 
 ---
 
@@ -284,7 +284,10 @@ Puoi creare campi personalizzati dei seguenti tipi:
 * Data di creazione
 * Ultima modifica eseguita da
 * Data ultima modifica
-
+* Approvato da
+* Data di approvazione
+  <!--*<span class="preview">Record ID</span>-->
+  <!--update the screen shot above-->
 
 ### Tipi di record, record e campi collegati
 

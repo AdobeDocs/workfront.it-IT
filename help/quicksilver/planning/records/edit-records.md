@@ -1,20 +1,20 @@
 ---
-title: Modifica record
+title: Modificare i record
 description: È possibile modificare le informazioni del record in Adobe Workfront Planning. È necessario creare i tipi di record prima di iniziare a creare e modificare i record.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
 source-wordcount: '2899'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Modifica record
+# Modificare i record
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -27,9 +27,9 @@ ht-degree: 0%
 
 È necessario creare i tipi di record prima di iniziare a creare e modificare i record.
 
-Per informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+Per informazioni, consulta [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
-Per informazioni sulla creazione di record, vedere [Crea record](/help/quicksilver/planning/records/create-records.md).
+Per informazioni sulla creazione di record, Consulta [Creare record](/help/quicksilver/planning/records/create-records.md).
 
 &lt;!— menziona qui che i campi nella visualizzazione Dettagli sono gli stessi di quelli nella visualizzazione tabella — questo articolo è collegato da Gestisci visualizzazioni record uno per fare riferimento a queste informazioni—>
 
@@ -53,12 +53,12 @@ Per informazioni sulla creazione di record, vedere [Crea record](/help/quicksilv
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>   <p>Contribuire o concedere autorizzazioni superiori a un’area di lavoro e a un tipo di record  </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p> </td> 
   </tr>   
@@ -139,7 +139,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 * I seguenti tipi di campi vengono aggiornati automaticamente e non è possibile modificarne i valori manualmente:
    * Campi collegati da altri record
    * Campi di tipo formula
-   * Campi di sistema (Creato da, Data di creazione, Autore ultima modifica, Data ultima modifica, Data di approvazione, Autorizzato da)
+   * Campi di sistema (Creato da, Data di creazione, Autore ultima modifica, Data ultima modifica, Data di approvazione, Approvato da <!--, <span class="preview">Record ID</span>-->)
 * Se i record visualizzati sono collegati ad altri record, le nuove informazioni dei record che si sta modificando verranno applicate ai record collegati in tutte le aree di lavoro in cui il record è collegato.
 * Non è possibile modificare i record in blocco. <!--this will probably change-->
 * Gli URL vengono riconosciuti come collegamenti nei tipi di campi di testo a riga singola solo quando iniziano con: http://, https://, ftp:// o www. .
@@ -155,7 +155,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    * [Modificare un record nella visualizzazione timeline di un tipo di record](#edit-a-record-in-the-timeline-view-of-a-record-type)
 
 
-## Modifica record
+## Modificare i record
 
 È possibile modificare un record dalle seguenti aree:
 
@@ -170,7 +170,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 Quando si modificano i record dalla vista tabella, viene indicato quale campo viene modificato da altri utenti al momento della visualizzazione del record.
 
-Per ulteriori informazioni, vedere [Gestire le visualizzazioni dei record](/help/quicksilver/planning/views/manage-record-views.md).
+Per ulteriori informazioni, consulta [Gestire le viste dei record](/help/quicksilver/planning/views/manage-record-views.md).
 
 Quando si aggiunge un nuovo record dopo l&#39;ultimo record di un raggruppamento o di un sottogruppo, Workfront aggiorna automaticamente i campi inclusi nei raggruppamenti per i nuovi record. Se necessario, è possibile modificare manualmente questi campi e i record potrebbero essere rimossi dal raggruppamento.
 
@@ -233,7 +233,7 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 
    >[!NOTE]
    >
-   >Considera quanto segue:
+   >Considera i seguenti aspetti:
    >
    >* Utilizza le seguenti scelte rapide da tastiera per copiare e incollare le informazioni:
    >   * Copia: CTRL + C (⌘ + C per Mac)
@@ -261,7 +261,7 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
 
 <!--add another step about drag and drop here when that is available-->
 
-1. Aprire la pagina del tipo di record in una visualizzazione timeline. Per informazioni, vedere [Gestire la visualizzazione della sequenza temporale](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+1. Aprire la pagina del tipo di record in una visualizzazione timeline. Per informazioni, consulta [Gestire la vista timeline](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 1. Passa il puntatore del mouse sulle estremità della barra di un record, fai clic su e trascina il margine fino a un&#39;altra data. In questo modo viene aggiornata automaticamente la data di inizio o di fine del record.
 

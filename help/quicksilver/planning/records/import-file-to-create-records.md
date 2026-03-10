@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
 source-wordcount: '826'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -48,13 +48,13 @@ Per ulteriori informazioni sulla creazione di record, vedere [Crea record](/help
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td> <p>Autorizzazioni Contribute o superiori per l'area di lavoro e il tipo di record in cui si importano i record. </p>
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
    </td> 
@@ -147,6 +147,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    * Data ultima modifica, Autore ultima modifica
    * Data di approvazione, Approvato da
    * People
+     <!--* <span class="preview">Record ID</span>-->
    * Se viene importato un campo a selezione multipla o singola che dispone di più scelte rispetto a un campo simile in Planning, le opzioni aggiuntive vengono create durante l&#39;importazione. Solo gli utenti con le autorizzazioni di gestione per l&#39;area di lavoro possono importare nuove scelte.
 
 ## Creare record importando un file CSV o Excel

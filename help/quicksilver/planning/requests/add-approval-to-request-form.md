@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1288'
 ht-degree: 2%
 
 ---
@@ -151,7 +151,7 @@ Per impostare le regole di approvazione per un modulo di richiesta:
 
    ![Area regola di approvazione predefinita](assets/default-approvers.png)
 
-1. (Facoltativo) Inizia ad aggiungere le regole di approvazione. Per ogni regola di approvazione, eseguire le operazioni seguenti:
+1. (Facoltativo) Inizia ad aggiungere le regole di approvazione. Per ogni regola di approvazione personalizzata, effettua le seguenti operazioni:
 
    1. Fai clic su **Aggiungi regola di approvazione**
    1. Fare clic sul titolo del segnaposto **Regola di approvazione senza titolo** e immettere un nome per la regola di approvazione.
@@ -161,6 +161,14 @@ Per impostare le regole di approvazione per un modulo di richiesta:
    1. (Facoltativo) Fai clic su **Aggiungi condizione** per aggiungere altre condizioni e connetterle tramite **And** o **Or** istruzioni configurando le condizioni aggiuntive come nei passaggi C-E.
    1. Nell&#39;area **Azioni** della regola di approvazione, nel campo **Approvatori**, aggiungere almeno un utente o un team da impostare presso l&#39;approvatore quando la condizione viene soddisfatta.
    1. (Condizionale e facoltativo) Se desideri che il record venga creato dopo che uno qualsiasi degli approvatori lo ha approvato, seleziona la casella di controllo **È necessaria una sola decisione**. In caso contrario, tutti gli approvatori devono decidere in merito all’approvazione prima che la richiesta venga accettata o rifiutata.
+
+   >[!NOTE]
+   >
+   >   Quando aggiungi regole di approvazione, tieni presente quanto segue:
+   >
+   >   * Se è impostata solo una regola predefinita, questa si applica a ogni richiesta inviata.
+   >   * Se viene soddisfatta una regola personalizzata, l’impostazione predefinita non viene applicata al flusso di lavoro di approvazione delle richieste. Per le approvazioni vengono applicate solo le regole personalizzate corrispondenti e la regola predefinita viene ignorata.
+   >   * Se vengono soddisfatte più regole personalizzate, viene applicata la prima nell’ordine. In questo caso, l’approvazione predefinita non si applica, se presente.
 
 1. Fai clic su **Salva** per salvare le regole di approvazione.
 1. (Facoltativo) Fai clic su **Pubblica** se non hai mai condiviso il modulo di richiesta in precedenza.

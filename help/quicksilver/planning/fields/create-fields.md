@@ -6,21 +6,27 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: bf34bfa2059d227eca3faa3d719adcf4d711e457
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
 source-wordcount: '5510'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=it ??-->
+<!--
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
+-->
 
-<!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
+<!--
+will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? 
+-->
 
-<!--Do we need this for FORMULAS: when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula - not sure is needed??-->
+<!--
+Do we need this for FORMULAS: when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula - not sure is needed??
+-->
 
-# Crea campi
+# Creare campi
 
 <!--information about choice values must stay in yellow till Jan 2026-->
 
@@ -33,7 +39,7 @@ ht-degree: 1%
 
 In Adobe Workfront Planning è possibile creare campi personalizzati per i tipi di record. È quindi possibile associare i campi ai record di Workfront Planning per migliorare le informazioni sui record.
 
-È necessario creare tipi di record prima di poter creare campi da associare. Per informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+È necessario creare tipi di record prima di poter creare campi da associare. Per informazioni, consulta [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
 In Workfront Planning è possibile creare i campi nei modi seguenti:
 
@@ -69,12 +75,12 @@ Oppure
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>   <p>Gestire le autorizzazioni per un’area di lavoro</p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  </td> 
   </tr>  
@@ -85,8 +91,9 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 +++   
 
-<!--Old:
+<!--
 
+Old:
  <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -141,7 +148,8 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p> </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Creare i campi collegando i tipi di record
 
@@ -149,9 +157,11 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 Per informazioni sulla connessione dei tipi di record di Workfront Planning, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-<!--## Create fields by importing record types using an Excel or CSV file
+<!--
 
-For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
+## Create fields by importing record types using an Excel or CSV file
+For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
+-->
 
 ## Creare campi creando un tipo di record
 
@@ -161,7 +171,7 @@ Quando si crea un tipo di record, per impostazione predefinita vengono creati an
 
 Adobe Workfront Planning crea campi per i tipi di record quando si crea un&#39;area di lavoro da un modello.
 
-Per informazioni, vedere [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
+Per informazioni, consulta [Creare le aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
 
 
 
@@ -169,7 +179,7 @@ Per informazioni, vedere [Creare aree di lavoro](/help/quicksilver/planning/arch
 
 È possibile importare i campi quando si importano tipi di record utilizzando un file CSV o Excel.
 
-Per informazioni, vedere [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+Per informazioni, consulta [Creare tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Creare campi importandoli da Workfront
 
@@ -233,21 +243,24 @@ Per informazioni, vedere [Importare campi da Workfront](/help/quicksilver/planni
    * [Valuta](#currency)
    * [Casella di controllo](#checkbox)
    * [Formula](#formula)
-   * [People](#people)
+   * [Persone](#people)
    * [Creato da](#created-by)
    * [Data di creazione](#created-date)
    * [Ultima modifica eseguita da](#last-modified-by)
    * [Data ultima modifica](#last-modified-date)
    * [Data di approvazione](#approved-date)
    * [Approvato da](#approved-by)
+     <!--* <span class="preview">[Record ID](#record-id)</span>-->
      <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
    >
    >Non è possibile modificare il tipo di campo dopo averlo salvato.
 
-   <!--Add this to the IMPORTANT above and make it a NOTE - should do directly to Prod:
-    * You can use any keyword that might be related to any of the field type names. For example, a search for "Budget" will display the Number or Currency field type.-->
+   <!--
+    Add this to the IMPORTANT above and make it a NOTE - should do directly to Prod:
+    * You can use any keyword that might be related to any of the field type names. For example, a search for "Budget" will display the Number or Currency field type.
+    -->
 
 1. Continua ad aggiungere ogni campo, come descritto nelle sezioni seguenti.
 
@@ -575,7 +588,7 @@ Per ulteriori informazioni, vedere [Panoramica dei campi formula](/help/quicksil
    >
    >* È possibile fare riferimento a un campo che si trova a una distanza massima di 4 campi (e oggetti) dal tipo di record corrente. Ad esempio, se si crea un campo formula per un tipo di record Attività (1) e l&#39;Attività è connessa al tipo di record Campagna (2) che è connesso a un progetto Workfront (3), è possibile fare riferimento al campo Budget del progetto (4) nella formula che si sta creando per il tipo di record Attività.
    >
-   >![Esempio di formula budget progetto quattro campi rimossi &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Esempio di formula budget progetto quattro campi rimossi ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Facoltativo) Fare clic su **Ingrandisci** per aprire la casella Formula in un&#39;area più ampia.
@@ -797,6 +810,33 @@ Puoi utilizzare il tipo di campo Approvato da per aggiungere l’ultimo utente c
 
    Il nuovo campo Approvato per tipo viene aggiunto come colonna al tipo di record e i relativi valori vengono precompilati con il nome dell’ultimo utente che ha modificato ogni record.
 
+<!--
+<span class="preview">
+
+## Record ID
+
+You can use the Record ID field type to reveal a system-generated, read-only identifier for each record. 
+
+When created, the Record ID field auto-populates with an alpha-numeric value. You can use it in formula fields and in API integrations to uniquely identify each record. 
+
+You cannot manually modify the value of a Record ID field. 
+ 
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Record ID** field type.
+ 
+   ![Record ID field type](assets/record-id-field-type.png)
+
+1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field, as it will appear in a table or the record page. 
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+    
+1. Click **Create**.
+
+    The new Record ID-type field is added as a column to the record type and its values are prefilled with an alpha-numeric value.  
+
+</span>
+
+-->
 <!--
 
 ## Object field type

@@ -7,28 +7,34 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
-source-wordcount: '1883'
+source-wordcount: '1886'
 ht-degree: 2%
 
 ---
-
 
 <!--update metadata with real information at release-->
 
 # Condividere i record
 
-<!--this will NOT be available in Preview ever - find a way to add this in this article that is prominent-->
+<!--
+this will NOT be available in Preview ever - find a way to add this in this article that is prominent
+-->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
-
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
-È possibile modificare le autorizzazioni delle persone per singoli record di un tipo di record.
+In Adobe Workfront Planning è possibile modificare le autorizzazioni delle persone per singoli record di un tipo di record.
+
+>[!WARNING]
+>
+>Le informazioni descritte in questo articolo non sono disponibili nell’ambiente di anteprima. È disponibile per tutti i clienti di Workfront Planning solo nell&#39;ambiente di produzione.
 
 È possibile condividere un record di Adobe Workfront Planning nei modi seguenti:
 
@@ -44,23 +50,24 @@ ht-degree: 2%
 
    * [Condividere un tipo di record](/help/quicksilver/planning/access/share-record-types.md)
 
-* Condividi un record utilizzando l&#39;opzione **Condividi**.
+* Condividi un singolo record o condividi più record in blocco utilizzando l&#39;opzione **Condividi**.
 
-  Questo articolo descrive come condividere un record con altri utenti utilizzando l&#39;opzione **Condividi**.
+  In questo articolo viene descritto come condividere i record con altri utenti utilizzando l&#39;opzione **Condividi**.
 
 >[!IMPORTANT]
 >
->Gli utenti con accesso a un&#39;area di lavoro ottengono automaticamente almeno le autorizzazioni di visualizzazione per tutti i record dell&#39;area di lavoro.
->La condivisione delle visualizzazioni non concede agli utenti le autorizzazioni per i record. Solo le aree di lavoro condivise possono concedere agli utenti le autorizzazioni per tipi di record e record.
+>* Gli utenti con accesso a un&#39;area di lavoro ottengono automaticamente almeno le autorizzazioni di visualizzazione per tutti i record dell&#39;area di lavoro.
+>* La condivisione delle visualizzazioni non concede agli utenti le autorizzazioni per i record. Solo le aree di lavoro condivise possono concedere agli utenti le autorizzazioni per tipi di record e record.
 >
 >Per informazioni generali sulla condivisione di oggetti in Workfront Planning, vedere anche [Panoramica sulle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
-
 
 ## Requisiti di accesso
 
 +++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
-<!--at GA, check that the Workfront plans article linked below has Planning info-->
+<!--
+at GA, check that the Workfront plans article linked below has Planning info
+-->
 
 <table style="table-layout:auto"> 
 <col> 
@@ -78,7 +85,7 @@ Oppure
  </tr>
 
 <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Qualsiasi</p> 
    <p><b>NOTA</b></p>
    <p>Solo le persone con una licenza Standard possono ottenere le autorizzazioni di gestione per i record. Tutte le altre licenze possono disporre solo delle autorizzazioni di visualizzazione e l’opzione Gestisci non è attiva.</p>
@@ -90,7 +97,7 @@ Oppure
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>  <p>Gestire le autorizzazioni per un'area di lavoro, un tipo di record e il record</p>  
    <p><b>IMPORTANTE</b></p>
    <p>Solo gli utenti con le autorizzazioni di gestione di un'area di lavoro possono condividere un record</p></td> 
@@ -112,13 +119,14 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 ## Considerazioni durante la condivisione dei record
 
-<!--maybe use the Share record types as example here and touch on the same points: help/quicksilver/planning/access/share-record-types.md; in addition to using Lilit's information-->
+<!--
+maybe use the Share record types as example here and touch on the same points: help/quicksilver/planning/access/share-record-types.md; in addition to using Lilit's information
+-->
 
 <!--checking on the below with Lilit-->
 
 * Puoi condividere i record con le seguenti entità: persone, gruppi, team, aziende o mansioni.
-* Quando si condivide un record, gli utenti hanno lo stesso accesso ovunque tale record venga visualizzato nel sistema.
-* Se si limitano le autorizzazioni a un record, gli utenti non visualizzano più tale record e i valori dei relativi campi di ricerca in qualsiasi punto del sistema in cui viene aggiunto il record.
+* Se si limitano le autorizzazioni a un record, gli utenti non visualizzano più il record e i valori dei relativi campi di ricerca in qualsiasi punto del sistema in cui viene visualizzato il record.
 * Workfront controlla le autorizzazioni dei record nelle connessioni fino a 5 record in profondità, garantendo agli utenti di visualizzare solo i record condivisi con loro.
 * È possibile concedere a un record i livelli di autorizzazione seguenti:
 
@@ -140,7 +148,6 @@ Quando gli utenti dispongono delle autorizzazioni Contribute per un&#39;area di 
      >
      >Se si sceglie di concedere a **Everyone nell&#39;area di lavoro l&#39;autorizzazione di visualizzazione** per un tipo di record o un record, tutti gli utenti elencati nell&#39;elenco di condivisione delle autorizzazioni dell&#39;area di lavoro disporranno delle stesse autorizzazioni per il tipo di record e il record, anche quando le autorizzazioni ereditate sono disabilitate.
 
-
 * Per impostazione predefinita, quando si condivide un record con un utente, questi vengono aggiunti con la stessa autorizzazione disponibile per il tipo di record.
 
   Ad esempio:
@@ -148,13 +155,24 @@ Quando gli utenti dispongono delle autorizzazioni Contribute per un&#39;area di 
    * Se dispongono delle autorizzazioni di visualizzazione per il tipo di record, ottengono le autorizzazioni di visualizzazione per il record
    * Se dispongono delle autorizzazioni Contribuisci o Gestisci per il tipo di record, ottengono le autorizzazioni Gestione per il record
 
-* In qualità di manager area di lavoro, puoi condividere un record con un utente che non dispone di autorizzazioni per il tipo di record o l’area di lavoro. In questo caso, accanto all’entità aggiunta viene visualizzato un avviso che informa che non è possibile accedere all’area di lavoro o al tipo di record. <!--ensure this is this way, because in devtest the warning only shows record type, but logged a bug to add "workspace" to the warning too--> È possibile continuare ad aggiungere l&#39;utente al record e aggiungerlo anche al tipo di record e all&#39;area di lavoro oppure annullare la condivisione.
+* In qualità di manager area di lavoro, puoi condividere un record con un utente che non dispone di autorizzazioni per il tipo di record o l’area di lavoro. In questo caso, accanto all’entità aggiunta viene visualizzato un avviso che informa che non è possibile accedere all’area di lavoro o al tipo di record.  È possibile continuare ad aggiungere l&#39;utente al record e aggiungerlo anche al tipo di record e all&#39;area di lavoro oppure annullare la condivisione.
 
-* Quando un utente dispone delle autorizzazioni Gestisci o Contribuisci per l’area di lavoro e il tipo di record e li aggiungi alle autorizzazioni del record, le autorizzazioni Visualizza vengono disattivate. Mantengono le stesse autorizzazioni del record di quelle del tipo di record e non è possibile concedere loro autorizzazioni inferiori. <!--Lilit is checking on this, it is not working correctly-->
+<!--
+ensure this is this way, because in devtest the warning only shows record type, but logged a bug to add "workspace" to the warning too
+-->
 
-  Se dispongono delle autorizzazioni di visualizzazione per l&#39;area di lavoro o il tipo di record, conservano le autorizzazioni di visualizzazione per i record. Puoi concedere loro le autorizzazioni di gestione del record disabilitando le autorizzazioni ereditate e selezionando l’impostazione Accesso consentito solo alle persone invitate. <!-- I think this is right, but because of the above not working, I can't test-->
+* Quando un utente dispone delle autorizzazioni Gestisci o Contribuisci per l’area di lavoro e il tipo di record e li aggiungi alle autorizzazioni del record, le autorizzazioni Visualizza vengono disattivate. Mantengono le stesse autorizzazioni del record di quelle del tipo di record e non è possibile concedere loro autorizzazioni inferiori.
+<!--
+Lilit is checking on this, it is not working correctly
+-->
 
-<!-- not sure what this means, confusing, hiding for now: * If you don't have permissions to add people to the workspace, you will only see and add users, teams, groups, roles, and companies that are already added to the workspace. You cannot add any other entity that is not already part of the workspace.-->
+<!--
+   check on this: I cannot disable inherited permissions when this setting is ON and this documented in a TIP below: When they have View permissions to the workspace or the record type, they retain View permissions to the records. You can grant them Manage permissions to the record by disabling Inherited permissions and selecting the Only invited people can access setting.
+   -->
+
+<!-- 
+   not sure what this means, confusing, hiding for now: * If you don't have permissions to add people to the workspace, you will only see and add users, teams, groups, roles, and companies that are already added to the workspace. You cannot add any other entity that is not already part of the workspace.
+   -->
 
 * È possibile disabilitare le autorizzazioni ereditate per un singolo record, nel qual caso è possibile assegnare loro autorizzazioni per singoli record oppure ottenere autorizzazioni se appartengono all&#39;opzione **Tutti nell&#39;area di lavoro possono visualizzare**.
 
@@ -162,16 +180,17 @@ Quando gli utenti dispongono delle autorizzazioni Contribute per un&#39;area di 
 
   Ad esempio, se un record è condiviso con un utente con autorizzazioni di visualizzazione e il relativo gruppo con l&#39;accesso Gestisci, ottengono le autorizzazioni di gestione per il record.
 
-<!--Too granular??
-
-If the inheritance has not been disabled, the user gets the maximum of inherited+individual+wildcard access 
-
-If the inherited permissions are disabled, the user gets the maximum of wildcard+individual permissions -->
+  <!--
+   Too granular??
+   If the inheritance has not been disabled, the user gets the maximum of inherited+individual+wildcard access 
+   If the inherited permissions are disabled, the user gets the maximum of wildcard+individual permissions 
+   -->
 
 * Se un campo formula o un campo di ricerca di un record connesso è basato su un campo di un record per il quale non si dispone di autorizzazioni, verrà visualizzato il calcolo corretto per i fattori del record ai quali non è possibile accedere in altro modo.
 
-<!-- not sure if any of the Share record types points might match here - ask Lilit??-->
-
+  <!--
+   not sure if any of the Share record types points might match here - ask Lilit??
+   -->
 
 ## Condividere le autorizzazioni dei record
 
@@ -208,7 +227,12 @@ In qualità di manager dell&#39;area di lavoro, è possibile modificare le autor
    >
    >I manager di Workspace continuano a disporre delle autorizzazioni di gestione per il tipo di record e il record.
 
-   1. (Facoltativo) Seleziona **Solo gli invitati possono accedere** dall&#39;area **Chi ha accesso**.
+   1. (Facoltativo) Seleziona **Solo gli invitati possono accedere** dall&#39;area **Chi ha accesso**. È necessario indicare singoli utenti, gruppi, team o società con cui condividere i record.
+
+      >[!TIP]
+      >
+      >Non puoi disabilitare o abilitare le autorizzazioni ereditate quando questa impostazione è selezionata.
+
 
    1. Nel campo **Concedi l&#39;accesso a questo tipo di record**, aggiungi gli utenti, i team, i gruppi, le aziende o le mansioni a cui desideri concedere un livello di autorizzazione diverso da quello che hanno per l&#39;area di lavoro o il tipo di record.
    1. Scegliere uno dei seguenti livelli di autorizzazione:

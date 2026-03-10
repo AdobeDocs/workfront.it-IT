@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 1%
@@ -45,12 +45,12 @@ Oppure
 <p>Per ulteriori informazioni su ciò che è incluso in ogni pacchetto Workfront Planning, contattare il rappresentante del proprio account Workfront. </p> 
    </td> 
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>   <p>Gestire le autorizzazioni per un’area di lavoro</p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>  </td> 
   </tr>  
@@ -141,6 +141,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
    * Data ultima modifica, Autore ultima modifica
    * Data di approvazione, Approvato da
    * People
+     <!--* <span class="preview">Record ID</span>-->
 
 Per importare tipi di record utilizzando un file Excel o CSV:
 
@@ -181,7 +182,7 @@ Per importare tipi di record utilizzando un file Excel o CSV:
    ![Scheda campo nella casella di importazione mapping tipo di record](assets/field-tab-on-record-type-import-mapping-box.png)
 
    * Rinomina uno dei campi
-   * Cambia il tipo di campo **&#x200B;**
+   * Cambia il tipo di campo ****
    * Aggiorna il campo **Descrizione**
 
 1. (Facoltativo) Fare clic sulla scheda **Connessione** per associare le informazioni della colonna a un campo connesso di altri tipi di record.

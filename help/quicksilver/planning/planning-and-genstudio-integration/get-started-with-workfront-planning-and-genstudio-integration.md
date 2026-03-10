@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: ca16652aa06b4652d0d1b41156ed1ef96225c49a
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
-source-wordcount: '2170'
-ht-degree: 0%
+source-wordcount: '2185'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ recommendations: noDisplay, noCatalog
 <!--use this article to make this one similar to it: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/review-approval-integrations/wf-proof-and-genstudio-->
 
 
-# Guida introduttiva all’integrazione di Adobe Workfront Planning ed Adobe GenStudio for Performance Marketing
+# Introduzione a Pianificazione di Adobe Workfront e integrazione di Adobe GenStudio for Performance Marketing
 
 <!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -99,7 +99,7 @@ La tabella seguente descrive i requisiti di accesso e autorizzazioni per utilizz
    <p> Adobe GenStudio for Performance Marketing</p></td> 
   </tr>
   <tr> 
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
@@ -107,12 +107,12 @@ La tabella seguente descrive i requisiti di accesso e autorizzazioni per utilizz
    <td role="rowheader"><p>Ruoli utente di Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Qualsiasi ruolo utente di GenStudio per accedere a Campagne, Prodotti e Utenti tipo</li>
    <li>GenSudio System Manager per accedere alle attivazioni <!--and Events--></li></ul>
-   Per informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Ruoli utente e autorizzazioni</a>. 
+   Per informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Ruoli utente e autorizzazioni</a>. 
    </p>
   </td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Autorizzazioni oggetto</p></td> 
+   <td role="rowheader"><p>Autorizzazioni sugli oggetti</p></td> 
    <td>  
    <p>In Workfront Planning: </p>
    <ul>
@@ -162,7 +162,7 @@ Per ulteriori informazioni su Adobe GenStudio for Performance Marketing, consult
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -297,6 +297,8 @@ Le sezioni seguenti descrivono:
 
 Per impostazione predefinita, i campi del tipo di record vengono importati da GenStudio for Performance Marketing in Workfront Planning.
 
+È inoltre possibile creare campi di Planning per i tipi di record nell&#39;area di lavoro di GenStudio da Planning.
+
 Considera quanto segue sui campi del tipo di record di GenStudio:
 
 * Se si dispone delle autorizzazioni Gestione per l&#39;area di lavoro di GenStudio in Planning, è possibile eseguire le operazioni seguenti da Workfront Planning:
@@ -344,7 +346,7 @@ Considera quanto segue sui campi del tipo di record di GenStudio:
 
    * Creare visualizzazioni per i tipi di record di GenStudio.
 
-     Per informazioni, vedere [Gestire le visualizzazioni dei record](/help/quicksilver/planning/views/manage-record-views.md).
+     Per informazioni, consulta [Gestire le viste dei record](/help/quicksilver/planning/views/manage-record-views.md).
 
    * Rinominare, condividere, esportare, duplicare o eliminare visualizzazioni personalizzate dai tipi di record di GenStudio.
 
@@ -352,7 +354,7 @@ Considera quanto segue sui campi del tipo di record di GenStudio:
 
    * Creare visualizzazioni per i tipi di record di GenStudio.
 
-     Per informazioni, vedere [Gestire le visualizzazioni dei record](/help/quicksilver/planning/views/manage-record-views.md).
+     Per informazioni, consulta [Gestire le viste dei record](/help/quicksilver/planning/views/manage-record-views.md).
 
    * Rinominare, esportare, duplicare o eliminare visualizzazioni personalizzate dai tipi di record di GenStudio.
 
