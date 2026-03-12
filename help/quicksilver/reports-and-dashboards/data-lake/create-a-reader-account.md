@@ -4,17 +4,17 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Creazione di un account di lettura per Snowflake
 description: Per accedere ai dati di Data Connect, è necessario innanzitutto creare un account lettore Snowflake.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 9cf221bda04614856a6a3670100742340fb73aee
+source-git-commit: b6267718fd76a643395c850b97352095a0fe12fc
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 1%
+source-wordcount: '906'
+ht-degree: 4%
 
 ---
 
-# Creare un account o una connessione di lettura per Snowflake
+# Creare un account lettore o una connessione per Snowflake
 
 Per accedere ai dati di Data Connect, è necessario innanzitutto creare un account lettore (o servizio) di Snowflake per l&#39;organizzazione, quindi creare una nuova connessione per ogni utente o strumento che si desidera avere accesso a Data Connect.
 
@@ -37,7 +37,7 @@ Per informazioni sull&#39;utilizzo di una connessione appena creata con un prodo
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td>
    <p>Standard</p>
    <p>Piano</p></td> 
@@ -49,7 +49,7 @@ Per informazioni sull&#39;utilizzo di una connessione appena creata con un prodo
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -75,17 +75,31 @@ Per creare un account di lettura:
 
 ## Creare una connessione
 
+>[!IMPORTANT]
+>
+>A giugno 2026, le credenziali nome utente/password saranno necessarie per utilizzare l’autenticazione a più fattori (MFA). È consigliabile passare all’autenticazione basata su RSA o PAT per gli account utente dei servizi utilizzati per caricare i dati da Data Connect in strumenti di visualizzazione di terze parti, processori di dati e script che non funzionano con MFA nel processo di autenticazione.
+
+
 1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro, quindi fai clic su **Setup**.
 
 1. Nel pannello a sinistra, fai clic su **Sistema** > **Connessione dati**.
 
-1. Fai clic su **Crea nuova connessione**
+1. Fare clic su **Crea nuova connessione**.
 
 1. Nella finestra visualizzata, immetti un nome per la connessione in **Descrizione riferimento connessione** e un nome utente in **Utente connessione**, quindi fai clic su **Genera connessione**.
 
    ![Crea nuova connessione](/help/quicksilver/reports-and-dashboards/data-lake/assets/new-reader-connection.png) {width="500"}
 
-1. Verrà generata una **password predefinita** e un URL in cui i dati possono essere visualizzati tramite Snowflake. Dovrai utilizzare la password insieme al nome utente scelto per accedere a Snowflake per la prima volta, quindi assicurati di tenerne traccia insieme all’URL. Selezionare la casella in cui si dichiara di averlo fatto, quindi fare clic su **Chiudi**.
+1. Scegliere un metodo di autenticazione per la connessione:
+   * [Autenticazione password](#password-authentication)
+   * [Autenticazione del token di accesso a livello di codice](#programmatic-access-token-authentication)
+   * [Autenticazione chiave RSA](#rsa-key-authentication)
+
+### Autenticazione password
+
+1. Fai clic su **Password**, quindi su **Genera connessione**.
+
+1. Viene generata una **password predefinita** e un URL in cui i dati possono essere visualizzati tramite Snowflake. Devi utilizzare la password con il nome utente scelto per accedere a Snowflake per la prima volta, quindi assicurati di tenerne traccia insieme all&#39;URL. Selezionare la casella in cui si dichiara di averlo fatto, quindi fare clic su **Chiudi**.
 
    ![Password account predefinita](/help/quicksilver/reports-and-dashboards/data-lake/assets/default-password-reader-account.png) {width="500"}
 
@@ -96,6 +110,35 @@ Per creare un account di lettura:
    ![Reimposta password Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
 1. Ora puoi utilizzare il tuo nome utente e la nuova password per accedere al data lake Data Connect in Snowflake o allo strumento di visualizzazione aziendale di tua scelta.
+
+### Autenticazione del token di accesso a livello di codice
+
+1. Fare clic su **Token di accesso programmatico**.
+
+1. Immetti una data di scadenza per il token nel campo **Data di scadenza**. Puoi scegliere una data di scadenza fino a 365 giorni nel futuro.
+
+1. Fare clic su **Genera connessione**.
+
+1. Viene generato un token PAT che può essere utilizzato per l’autenticazione e viene fornito l’URL dell’ambiente Snowflake. Puoi utilizzare il PAT e il nome utente forniti per connettersi a Snowflake dallo strumento di visualizzazione o dal processore dati di terze parti. Assicurati di tenerne traccia insieme all’URL. Selezionare la casella in cui si dichiara di averlo fatto, quindi fare clic su **Chiudi**.
+
+   ![finestra di dialogo del token di accesso programmatico](/help/quicksilver/reports-and-dashboards/data-lake/assets/pat-test.png)
+
+
+### Autenticazione chiave RSA
+
+1. Fare clic su **Chiave RSA**.
+
+1. Immettere una chiave pubblica RSA nel campo **Chiave pubblica RSA**.
+
+1. Fare clic su **Genera connessione**.
+
+1. Viene generata una connessione e viene fornito l’URL dell’ambiente Snowflake. Puoi utilizzare la chiave RSA e il nome utente forniti per connettersi a Snowflake dallo strumento di visualizzazione o dal processore dati di terze parti.
+
+
+
+Devi utilizzare la chiave RSA con il nome utente scelto per accedere a Snowflake, in modo da conservarne traccia insieme all’URL. Selezionare la casella in cui si dichiara di averlo fatto, quindi fare clic su **Chiudi**.
+
+    .[Finestra di dialogo chiave RSA](Assets/rsa-test.png)
 
 ## Revoca di un account lettore
 
