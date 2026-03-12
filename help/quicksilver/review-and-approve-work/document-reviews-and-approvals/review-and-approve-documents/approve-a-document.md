@@ -6,10 +6,10 @@ description: Se si è assegnati come approvatori a un documento, è possibile pr
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 6d6ac026bb2aa10ba3e678fb7e0f32dc95d0405f
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 0%
+source-wordcount: '1178'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Se si è assegnati come approvatori a un documento, è possibile prendere una decisione in diversi modi.
 
-Per informazioni sulla creazione di una nuova approvazione documento, vedere [Creare una richiesta di revisione o approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Per informazioni sulla creazione di una nuova approvazione documento, vedere [Creare un flusso di lavoro di approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 >[!IMPORTANT]
 >
@@ -25,7 +25,7 @@ Per informazioni sulla creazione di una nuova approvazione documento, vedere [Cr
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 
 <table style="table-layout:auto"> 
@@ -37,9 +37,9 @@ Per informazioni sulla creazione di una nuova approvazione documento, vedere [Cr
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
-   <p>Collaboratore o versione successiva</p>
+   <p>Collaboratore o successiva</p>
    <p>Revisione o successiva</p> </td> 
   </tr> 
   <tr> 
@@ -47,7 +47,7 @@ Per informazioni sulla creazione di una nuova approvazione documento, vedere [Cr
    <td> <p>Accesso di visualizzazione o accesso successivo agli oggetti associati alle approvazioni</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizza o autorizzazioni superiori per gli oggetti associati alle approvazioni</p></td> 
   </tr> 
  </tbody> 
@@ -155,7 +155,7 @@ Per rivedere e approvare un documento:
 
    * **Approva**: il documento non necessita di modifiche ed è pronto per l&#39;uso.
    * **Approva con modifiche**: il documento richiede modifiche ed è pronto per l&#39;uso una volta apportate. Non è necessaria un&#39;ulteriore approvazione.
-   * **Lavoro necessario**: il documento richiede modifiche e non è pronto per l&#39;uso. Dopo aver apportato le modifiche specificate, il documento deve essere caricato come nuova versione e superare un altro ciclo di approvazioni. Per ulteriori informazioni sul caricamento di una nuova versione, vedere [Creare una nuova versione in base alle esigenze](#create-a-new-version-as-needed) in questo articolo.
+   * **Lavoro necessario**: il documento richiede modifiche e non è pronto per l&#39;uso. Dopo aver apportato le modifiche specificate, il documento deve essere caricato come nuova versione e superare un altro ciclo di approvazioni. Per ulteriori informazioni sul caricamento di una nuova versione, vedere [Caricare una nuova versione del documento e richiedere un&#39;approvazione](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md).
 
 Una volta presa una decisione, il proprietario del documento riceve una notifica tramite e-mail.
 

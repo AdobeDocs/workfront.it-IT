@@ -6,10 +6,10 @@ description: Puoi utilizzare i modelli come framework per creare progetti in Ado
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 6d6ac026bb2aa10ba3e678fb7e0f32dc95d0405f
 workflow-type: tm+mt
 source-wordcount: '1150'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -43,7 +43,7 @@ Per creare un progetto da un modello, puoi utilizzare le seguenti opzioni:
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -65,7 +65,7 @@ Per creare un progetto da un modello, puoi utilizzare le seguenti opzioni:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizzare le autorizzazioni per un modello</p> 
   <p>Se il modello utilizzato contiene un Portfolio e un programma, è necessario disporre delle autorizzazioni di gestione per il portfolio e il programma per creare il progetto </p> 
    <p>Quando crei un progetto, ricevi automaticamente le autorizzazioni di gestione per il progetto.</p></td> 
@@ -165,7 +165,7 @@ Puoi creare un progetto dall’area Progetti nel Menu principale oppure dall’a
       * Numero di tutte le attività nel modello
       * Nomi dei moduli personalizzati del modello
 
-   1. (Facoltativo) Passa il puntatore del mouse sul nome di un modello nel riquadro di sinistra e fai clic sull&#39;icona **Preferiti** **icona** ![Preferiti](assets/favorites-icon-small.png) per contrassegnarlo come preferito per un utilizzo futuro.
+   1. (Facoltativo) Passa il puntatore del mouse sul nome di un modello nel pannello a sinistra e fai clic sull&#39;icona **Preferiti** **icona** ![Preferiti](assets/favorites-icon-small.png) per contrassegnarlo come preferito per un uso futuro.
 
       Oppure
 

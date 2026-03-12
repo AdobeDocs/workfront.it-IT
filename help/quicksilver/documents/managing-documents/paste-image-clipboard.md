@@ -1,21 +1,26 @@
 ---
 product-area: documents
 navigation-topic: manage-documents
-title: Incolla immagini dagli Appunti
+title: Incollare immagini dagli Appunti
 description: È possibile aggiungere un file di immagine ad Adobe Workfront copiandolo e incollandolo dagli Appunti sulla workstation.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 5c3f089c-9e66-4294-806a-424a08bbf225
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 0%
+source-wordcount: '362'
+ht-degree: 15%
 
 ---
 
-# Incolla immagini dagli Appunti
+# Incollare immagini dagli Appunti
 
 È possibile aggiungere un file di immagine ad Adobe Workfront copiandolo e incollandolo dagli Appunti sulla workstation. 
+
+>[!NOTE]
+>
+>Questa funzionalità non è disponibile nell&#39;area nuovi documenti.<br>
+>Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Requisiti del browser per incollare dagli Appunti
 
@@ -28,7 +33,7 @@ Questa funzione è specifica per il browser, come segue:
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,21 +48,21 @@ Questa funzione è specifica per il browser, come segue:
   <tr> 
    <td role="rowheader">Licenze Adobe Workfront</td> 
    <td> 
-   <p>Collaboratore o versione successiva</p>
+   <p>Collaboratore o successiva</p>
    <p>Revisione o successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modifica accesso ai documenti</p></td> 
+   <td> <p>Accesso in modifica ai documenti</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Accesso di visualizzazione all'oggetto associato al documento</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

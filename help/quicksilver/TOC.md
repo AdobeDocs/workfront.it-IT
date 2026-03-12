@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 97c351ca38a8b6075634b2f755f2330562bc8b52
 workflow-type: tm+mt
-source-wordcount: '13793'
+source-wordcount: '13808'
 ht-degree: 98%
 
 ---
@@ -312,7 +312,7 @@ ht-degree: 98%
             * [2020.2 - Miglioramenti per la gestione delle risorse: Bilanciamento dei carichi di lavoro](product-announcements/product-releases/2020.2.-release-activity/2020-2-resource-management.md)
          * Versione 20.1 {#release-20-1}
             * [Panoramica sulla versione 2020.1](product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md)
-            * [2020.1 - Miglioramenti per gli elenchi &#x200B;](product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md)
+            * [2020.1 - Miglioramenti per gli elenchi ](product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md)
             * [2020.1 - Miglioramenti per dispositivi mobili](product-announcements/product-releases/2020.1-release-activity/2020-1-mobile-enhancements.md)
             * [2020.1 - Altri miglioramenti](product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md)
             * [Miglioramenti per il progetto 2020.1](product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md)
@@ -431,7 +431,7 @@ ht-degree: 98%
          * [Nuova attività di rilascio sull’esperienza dei commenti](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [Domande frequenti sulla nuove esperienza dei commenti](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
 * Amministrazione e configurazione {#administration-and-setup}
-   * [Amministrazione e configurazione: indice degli articoli &#x200B;](administration-and-setup/administration-and-setup.md)
+   * [Amministrazione e configurazione: indice degli articoli ](administration-and-setup/administration-and-setup.md)
    * Introduzione all’amministrazione {#get-started-administration}
       * [Introduzione all’amministrazione: indice articoli](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
       * [Panoramica sulla definizione degli obiettivi per l’implementazione di Adobe Workfront](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
@@ -460,6 +460,7 @@ ht-degree: 98%
          * [Ricalcoli della timeline di progetto](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
          * [Abilitare trimestri personalizzati](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
          * [Abilitare o disabilitare rilasci rapidi per l’organizzazione](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
+         * [Abilitare lo storage aziendale Adobe per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
          * [Creare e modificare le regole di business](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
          * [Configurare le posizioni](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
          * [Gestire le schede tariffa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
@@ -1864,10 +1865,10 @@ ht-degree: 98%
          * [Configurare e gestire approvazioni unificate: indice degli articoli](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [Creare revisori IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
          * [Configurare i brand per il revisore IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
-         * [Creare una richiesta di approvazione o una revisione del documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
-         * [Aggiungere revisori o approvatori aggiuntivi a una risorsa o a un documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
-         * [Rimuovere approvatori o revisori da una risorsa o da un documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
-         * [Creare un modello di approvazione per risorse e documenti](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+         * [Creare un flusso di lavoro di approvazione documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+         * [Aggiungere altri approvatori o revisori a un flusso di lavoro di approvazione dei documenti](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
+         * [Rimuovere approvatori o revisori da un flusso di lavoro di approvazione documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+         * [Creare un modello di flusso di lavoro di approvazione per i documenti](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
          * [Utilizzare insieme approvazioni unificate e bozze](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
          * [Caricare una nuova versione del documento e richiedere un’approvazione](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
          * [Creare una dashboard del rapporto per la revisione e le approvazioni](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
@@ -1995,9 +1996,10 @@ ht-degree: 98%
    * Integrazioni native {#native-integrations}
       * [Revisione e approvazione delle integrazioni native: indice degli articoli](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
       * [Panoramica dell’integrazione Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
-      * [Introduzione all’integrazione della bozza e di GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
-      * [Introduzione alla bozza e a Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
       * [Introduzione all’integrazione di Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
+      * [Guida introduttiva all’integrazione con GenStudio for Performance Marketing e Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md)
+      * [Introduzione alla bozza e a Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
+      * [Introduzione all’integrazione della bozza e di GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
       * [Utilizzare Adobe Experience Manager con l’integrazione Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
    * Suggerimenti, trucchi e risoluzione dei problemi per le approvazioni {#ttt-approvals}
       * [Suggerimenti, trucchi e risoluzione dei problemi per le approvazioni: indice degli articoli](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
@@ -2269,10 +2271,10 @@ ht-degree: 98%
       * [Aggiornare un elemento di Adobe Workfront da G Suite utilizzando il contenuto dell’e-mail](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
    * Adobe Workfront per Outlook {#workfront-for-outlook}
       * [Adobe Workfront per Outlook: indice degli articoli](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
-   * Adobe Workfront for Microsoft Teams {#workfront-for-microsoft-teams}
+   *  Adobe Workfront for Microsoft Teams {#workfront-for-microsoft-teams}
       * [[!DNL Adobe Workfront for Microsoft Teams]: indice degli articoli](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
       * [Panoramica su Adobe Workfront per Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
-      * [&#x200B; Adobe Workfront for Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
+      * [ Adobe Workfront for Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
       * [Accedere a Adobe Workfront da Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)
       * [Cercare e condividere elementi Adobe Workfront in Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)
       * [Creare attività Adobe Workfront da Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)

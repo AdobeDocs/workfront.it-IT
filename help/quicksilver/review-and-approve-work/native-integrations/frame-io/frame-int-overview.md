@@ -7,10 +7,10 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: 07fa7207960f424cc8580eb46fe13bd5af4e56a8
+source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 0%
+source-wordcount: '859'
+ht-degree: 1%
 
 ---
 
@@ -51,7 +51,7 @@ L&#39;integrazione Workfront e Frame.io utilizza la funzionalità di approvazion
 * Centralizzare feedback e approvazioni in un&#39;unica posizione
 * Assicurati che tutte le parti interessate abbiano accesso alle versioni più recenti delle risorse
 * Utilizzare i revisori AI per automatizzare le revisioni di conformità al brand
-* e altro ancora
+* e molto altro
 
 Per ulteriori informazioni, vedere [Unified document approvals: article index](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md).
 
@@ -95,10 +95,10 @@ Per ulteriori informazioni sulla gestione dei progetti in Workfront, vedere [Pro
 
 ### Struttura imposta e convenzioni di denominazione
 
-Poiché questa integrazione viene creata utilizzando Adobe Enterprise Storage, esistono alcune convenzioni di denominazione e struttura applicate di cui tenere conto durante la gestione di progetti e documenti.
+Poiché questa integrazione viene creata utilizzando lo storage aziendale Adobe, è necessario tenere presenti alcune convenzioni di denominazione e struttura applicate per la gestione di progetti e documenti.
 
 * I nomi degli oggetti devono essere univoci e non possono essere duplicati
-* Adobe Enterprise Storage richiede nomi univoci per gli oggetti peer con lo stesso padre nella struttura gerarchica
+* Lo storage aziendale Adobe richiede nomi univoci per gli oggetti peer con lo stesso elemento padre nella struttura gerarchica
 * I documenti non possono avere lo stesso nome se appartengono allo stesso progetto
 * I nomi dei documenti non possono contenere i seguenti caratteri speciali: \ / : * ? &quot; | &lt; >
 * I nomi dei documenti non possono superare i 255 caratteri
@@ -117,7 +117,7 @@ Nella tabella seguente viene illustrato il mapping delle autorizzazioni di Workf
 <th>Autorizzazione utente Frame.io</th>
 </tr>
 <tr>
-<td>Gestisci</td>
+<td>Gestione</td>
 <td>Modifica e condividi</td>
 </tr>
 <tr>
@@ -134,9 +134,7 @@ Nella tabella seguente viene illustrato il mapping delle autorizzazioni di Workf
 
 ### Gestione dei documenti in Workfront
 
-I documenti vengono gestiti a livello di progetto con questa integrazione e non possono essere caricati sulle attività o sui problemi in questo momento.
-
-L’accesso ai documenti viene gestito anche a livello di progetto. Se un utente ha accesso a un progetto, può accedere a tutti i documenti associati a tale progetto.
+I documenti caricati su Workfront vengono memorizzati nello storage aziendale di Adobe e sono accessibili sia in Workfront che in Frame.io. Quando carichi un documento in un’attività o un problema in Workfront, viene creata una cartella generata dal sistema nell’archiviazione aziendale di Adobe che eredita le autorizzazioni dall’attività o dal problema. Tutti i documenti caricati su tale attività o problema sono memorizzati in tale cartella e da essa ereditano le autorizzazioni. Per ulteriori informazioni sui documenti in Workfront, vedere [Panoramica sulla nuova area documenti](/help/quicksilver/documents/managing-documents/documents-area.md) e [Autorizzazioni oggetto e panoramica del livello di accesso per il modello di archiviazione aziendale Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
 
 ### Limitazioni dell’esperienza documentale
 
@@ -151,13 +149,3 @@ Le seguenti funzionalità non saranno incluse in questa integrazione:
 * Visualizzatore documenti in Workfront
 * Documenti preferiti
 * Richiedi documenti
-
-
-<!--#### Temporary limitations
-
-For now, the following capabilities are not available:
-
-* Send documents to Adobe Experience Manager Assets
-* Multi-stage approvals
-* Upload documents to comments or updates in Workfront
-* Upload documents to tasks or issues in Workfront-->

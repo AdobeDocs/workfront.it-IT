@@ -1,20 +1,20 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Crea revisori AI
+title: Creare revisori IA
 description: Dopo aver configurato almeno un marchio in Workfront, puoi creare più revisori AI che puoi quindi assegnare ai modelli di approvazione e alle singole richieste di revisione e approvazione.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
-source-git-commit: de5f5d709ace99b7794ff2eaeb4ee7849cff8182
+source-git-commit: c5f726ec70b2caa7366ba5af7dac446554d2fa6b
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 9%
+source-wordcount: '243'
+ht-degree: 21%
 
 ---
 
-# Crea revisori AI
+# Creare revisori IA
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ Dopo aver configurato almeno un marchio in Workfront, puoi creare più revisori 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p> </td> 
   </tr> 
   <tr> 
@@ -46,7 +46,7 @@ Dopo aver configurato almeno un marchio in Workfront, puoi creare più revisori 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -75,5 +75,5 @@ Per aggiungere un revisore di IA:
 
    Per ulteriori informazioni, consulta  
 
-   * [Creare un modello di approvazione per risorse e documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-   * [Creare una richiesta di revisione o approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+   * [Creare un modello di flusso di lavoro di approvazione per i documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+   * [Creare un flusso di lavoro di approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)

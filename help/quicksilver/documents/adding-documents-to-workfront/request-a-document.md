@@ -6,10 +6,10 @@ description: È possibile richiedere un documento su qualsiasi oggetto che suppo
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 0%
+source-wordcount: '399'
+ht-degree: 11%
 
 ---
 
@@ -17,9 +17,14 @@ ht-degree: 0%
 
 È possibile richiedere un documento su qualsiasi oggetto che supporti Documenti.
 
+>[!NOTE]
+>
+>Questa funzionalità non è disponibile nell&#39;area nuovi documenti.<br>
+>Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,12 +37,12 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Licenze Adobe Workfront*</td> 
    <td> 
-   <p>Collaboratore o versione successiva</p>
-   <p>Richiedi o superiore</p> </td> 
+   <p>Collaboratore o successiva</p>
+   <p>Richiedente o successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai documenti</p> </td> 
+   <td> <p>Accesso in modifica ai documenti</p> </td> 
   </tr> 
  </tbody> 
 </table>

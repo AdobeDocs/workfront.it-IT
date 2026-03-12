@@ -1,25 +1,30 @@
 ---
 product-area: documents
 navigation-topic: manage-documents
-title: Controllare i limiti di archiviazione dei documenti
+title: Verificare i limiti di archiviazione dei documenti
 description: Sebbene non vi siano restrizioni sui tipi e sulle dimensioni dei singoli file che gli utenti possono caricare nell’istanza di Workfront, il piano Workfront prevede un limite sulla quantità totale di archiviazione utilizzata dall’istanza di Workfront. In qualità di amministratore di Adobe Workfront, monitori l’archiviazione dei documenti dell’istanza dall’area di configurazione.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 0%
+source-wordcount: '279'
+ht-degree: 14%
 
 ---
 
-# Controllare i limiti di archiviazione dei documenti
+# Verificare i limiti di archiviazione dei documenti
 
 Sebbene non vi siano restrizioni sui tipi e sulle dimensioni dei singoli file che gli utenti possono caricare nell’istanza di Workfront, il piano Workfront prevede un limite sulla quantità totale di archiviazione utilizzata dall’istanza di Workfront. In qualità di amministratore di Adobe Workfront, monitori l’archiviazione dei documenti dell’istanza dall’area di configurazione.
 
+>[!NOTE]
+>
+>Questa funzionalità non è disponibile nell&#39;area nuovi documenti.<br>
+>Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 
 <table style="table-layout:auto"> 
@@ -31,13 +36,13 @@ Sebbene non vi siano restrizioni sui tipi e sulle dimensioni dei singoli file ch
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Devi essere un amministratore di Workfront.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

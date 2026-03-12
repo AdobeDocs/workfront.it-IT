@@ -6,10 +6,10 @@ description: Puoi collegare documenti e cartelle ad Adobe Workfront da origini e
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '2545'
-ht-degree: 0%
+source-wordcount: '2585'
+ht-degree: 2%
 
 ---
 
@@ -57,9 +57,14 @@ Prima di collegare documenti o cartelle, l&#39;amministratore di Workfront deve 
 
 Puoi verificare e approvare i documenti collegati a un provider cloud esterno nello stesso modo in cui lo fai con i documenti caricati direttamente in Workfront.
 
+>[!NOTE]
+>
+>Questa funzionalità non è disponibile nell&#39;area nuovi documenti.<br>
+>Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -70,13 +75,13 @@ Puoi verificare e approvare i documenti collegati a un provider cloud esterno ne
    <td> <p> Qualsiasi</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td>
-   <td><p>Collaboratore o versione successiva</p>
-    <p>Richiedi o superiore</p> </td>
+   <td role="rowheader">Licenza di Adobe Workfront</td>
+   <td><p>Collaboratore o successiva</p>
+    <p>Richiedente o successiva</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai documenti</p> </td> 
+   <td> <p>Accesso in modifica ai documenti</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,7 +99,7 @@ Si applicano le seguenti eccezioni:
 * Se fornite dal servizio Document, le miniature e le immagini di anteprima potrebbero essere memorizzate sui server Workfront.
 * Quando si utilizza la verifica in Workfront, il documento viene copiato e aggiunto ai server di verifica.
 
-## Limiti dimensioni file
+## Limiti di dimensione del file
 
 Provider cloud di terze parti:
 

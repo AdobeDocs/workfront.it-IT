@@ -6,10 +6,10 @@ description: È possibile scaricare documenti da Adobe Workfront singolarmente o
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 0%
+source-wordcount: '356'
+ht-degree: 13%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,36 +30,42 @@ ht-degree: 0%
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
-   <p>Collaboratore o versione successiva</p>
+   <p>Collaboratore o successiva</p>
    <p>Revisione o successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai documenti</p> </td> 
+   <td> <p>Accesso in modifica ai documenti</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Accesso di visualizzazione all'oggetto che contiene il documento</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Scaricare un singolo documento
+## Scaricare i documenti nell&#39;area documenti legacy
+
+Se la tua organizzazione utilizza un sistema di archiviazione Workfront legacy, quando accedi ai documenti in Workfront visualizzerai l’area documenti legacy. Per ulteriori informazioni sull&#39;archiviazione Workfront legacy, vedere [Differenze tra l&#39;archiviazione Workfront legacy e l&#39;archiviazione aziendale Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+### Scaricare un singolo documento nell&#39;area documenti legacy
 
 1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
 1. Trovare il documento necessario.
 
 1. Fai clic sull&#39;icona **Scarica selezionati** ![Scarica selezionati](assets/download-icon.png).
 
-## Download simultaneo di più documenti
+![scarica un singolo documento](assets/legacy-doc-download.png)
 
-È possibile scaricare più documenti contemporaneamente. 
+### Download simultaneo di più documenti nell&#39;area documenti legacy
+
+È possibile scaricare più documenti contemporaneamente.
 
 1. Passare all&#39;area Documenti contenente i documenti da scaricare.
 1. (Facoltativo) Selezionare i singoli documenti da scaricare dall&#39;elenco dei documenti.
@@ -72,3 +78,12 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. Fare clic sull&#39;icona Scarica selezionati ![Icona Scarica selezionati](assets/download-icon.png).
 
    Le cartelle vengono scaricate come file .zip e sono limitate a 4 GB.
+
+## Scaricare i documenti nell&#39;area nuovi documenti
+
+Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti** nel pannello a sinistra.
+1. Trova i documenti necessari, quindi fai clic su **Scarica**.
+
+![Scarica documento](assets/download-new-doc.png)

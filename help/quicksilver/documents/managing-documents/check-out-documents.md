@@ -1,25 +1,30 @@
 ---
 product-area: documents
 navigation-topic: manage-documents
-title: Estrai documenti
+title: Estrarre i documenti
 description: È possibile estrarre un documento per impedire ad altri utenti di eliminarlo o di caricarne una nuova versione. Un documento può essere estratto da un solo utente alla volta. Puoi estrarre qualsiasi documento caricato su Adobe Workfront, nonché i documenti collegati a provider di documenti di terze parti (Box, Dropbox, Google Drive, Webdam, Workfront DAM, SharePoint o qualsiasi altro provider personalizzato).
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 0%
+source-wordcount: '674'
+ht-degree: 8%
 
 ---
 
-# Estrai documenti
+# Estrarre i documenti
 
 È possibile estrarre un documento per impedire ad altri utenti di eliminarlo o di caricarne una nuova versione. Un documento può essere estratto da un solo utente alla volta. Puoi estrarre qualsiasi documento caricato su Adobe Workfront, nonché i documenti collegati a provider di documenti di terze parti (Box, Dropbox, Google Drive, Webdam, Workfront DAM, SharePoint o qualsiasi altro provider personalizzato). 
 
+>[!NOTE]
+>
+>Questa funzionalità non è disponibile nell&#39;area nuovi documenti.<br>
+>Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,23 +35,23 @@ ht-degree: 0%
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
-   <p>Collaboratore o versione successiva</p>
+   <p>Collaboratore o successiva</p>
    <p>Revisione o successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai documenti</p></td> 
+   <td> <p>Accesso in modifica ai documenti</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire l’accesso al documento</p> </td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
+   <td> <p>Accesso in gestione al documento</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

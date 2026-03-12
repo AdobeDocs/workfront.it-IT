@@ -6,10 +6,10 @@ description: È possibile aggiungere un modulo personalizzato a un documento o a
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 1%
+source-wordcount: '492'
+ht-degree: 15%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,21 +32,21 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">Licenze Adobe Workfront</td> 
    <td> 
-   <p>Collaboratore o versione successiva</p>
-   <p>Richiedi o superiore</p> </td> 
+   <p>Collaboratore o successiva</p>
+   <p>Richiedente o successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai documenti</p> </td> 
+   <td> <p>Accesso in modifica ai documenti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire l’accesso al documento</p> </td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
+   <td> <p>Accesso in gestione al documento</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -54,7 +54,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 * Il modulo personalizzato deve essere condiviso con te
 
-## Aggiungere un modulo personalizzato
+## Aggiungere un modulo personalizzato nell&#39;area documenti legacy
+
+Se la tua organizzazione utilizza un sistema di archiviazione Workfront legacy, quando accedi ai documenti in Workfront visualizzerai l’area documenti legacy. Per ulteriori informazioni sull&#39;archiviazione Workfront, vedere [Differenze tra l&#39;archiviazione aziendale Adobe e l&#39;archiviazione Workfront legacy](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
 
 Per aggiungere un modulo personalizzato a un documento:
 
@@ -68,7 +70,7 @@ Per aggiungere un modulo personalizzato a un documento:
    >
    >Nel menu a discesa vengono visualizzati solo i moduli personalizzati attivi. È possibile aggiungere fino a 10 moduli personalizzati per documento. Se devi creare un modulo personalizzato, vedi [Creare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-## Modificare un modulo personalizzato
+## Modificare un modulo personalizzato nell’area documenti legacy
 
 1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
 1. Trovare il documento necessario.
@@ -78,3 +80,26 @@ Per aggiungere un modulo personalizzato a un documento:
 1. Apporta le modifiche necessarie, quindi fai clic su **Salva**.
 
    ![Modifica modulo personalizzato](assets/edit-custom-form-350x265.png)
+
+## Aggiungere un modulo personalizzato nella nuova area del documento
+
+Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Per aggiungere un modulo personalizzato a un documento:
+
+1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
+1. Selezionare il documento desiderato.
+1. Nella sezione **Dettagli** a destra, fai clic su **Modifica**.
+   ![pulsante modifica nella sezione dei dettagli](assets/edit-custom-form.png)
+1. Nel campo **Forms** personalizzato, iniziare a digitare e selezionare un modulo personalizzato.
+1. Fai clic su **Salva**. Il modulo personalizzato viene visualizzato nella sezione dei dettagli.
+
+
+## Modificare un modulo personalizzato nella nuova area del documento
+
+1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
+1. Selezionare il documento desiderato.
+1. Nella sezione **Dettagli** a destra, fai clic su **Modifica**.
+   ![pulsante modifica nella sezione dei dettagli](assets/edit-custom-form.png)
+1. Nella sezione **Forms personalizzato** trovare il modulo che si desidera modificare.
+1. Apporta le modifiche necessarie, quindi fai clic su **Salva**.

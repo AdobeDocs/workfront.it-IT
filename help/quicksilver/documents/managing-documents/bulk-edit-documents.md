@@ -2,41 +2,41 @@
 content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: Modifica documenti in blocco
-description: È possibile modificare più documenti contemporaneamente nell'area Documenti.
+title: Modificare documenti in blocco
+description: Puoi modificare più documenti contemporaneamente nell’area Documenti.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 0%
+source-wordcount: '905'
+ht-degree: 84%
 
 ---
 
-# Modifica documenti in blocco
+# Modificare documenti in blocco
 
-È possibile modificare la descrizione, aggiungere moduli personalizzati e modificare i moduli personalizzati in più documenti contemporaneamente.
+Puoi modificare la descrizione, aggiungere moduli personalizzati e modificarli in più documenti contemporaneamente.
 
 ## Considerazioni durante la modifica di moduli personalizzati
 
-Quando si modificano in blocco moduli personalizzati per documenti, tenere presente quanto segue:
+Durante la modifica in blocco di moduli personalizzati nei documenti, tieni presente quanto segue:
 
-* Le informazioni che si stanno modificando in tutti i documenti selezionati sovrascrivono quelle esistenti nei singoli documenti.
-* Quando si selezionano documenti con valori diversi per lo stesso campo, nel campo viene visualizzato un indicatore &quot;Più valori&quot;. I campi costituiti da caselle di controllo, pulsanti di scelta e interruttori dispongono accanto di un indicatore &quot;Più valori&quot;.
-* Quando si aggiorna un&#39;opzione in un campo con più opzioni, ad esempio un campo visualizzato come un insieme di interruttori o caselle di controllo, tutte le altre opzioni devono corrispondere tra i documenti selezionati.
+* Le informazioni che modifichi in tutti i documenti selezionati sovrascrivono quelle esistenti nei singoli documenti.
+* Quando selezioni documenti che hanno valori diversi per lo stesso campo, il campo mostra l’indicatore “Valori multipli”. I campi costituiti da caselle di controllo, pulsanti di scelta e interruttori mostrano l’indicatore “Valori multipli” accanto.
+* Quando aggiorni un’opzione in un campo con più opzioni (ad esempio un campo visualizzato come un set di interruttori o caselle di controllo), tutte le altre devono corrispondere nei documenti selezionati.
 
 >[!BEGINSHADEBOX]
 
 **Esempio**
-È possibile che sia disponibile un modulo personalizzato con un campo casella di controllo con tre caselle di controllo (Opzione 1, Opzione 2 e Opzione 3) e che l&#39;Opzione 1 sia deselezionata per tutti i documenti selezionati e che le Opzioni 2 e 3 siano selezionate per alcuni documenti e deselezionate per altri documenti selezionati. Se si desidera selezionare l&#39;opzione 1 per tutti i documenti, prima di salvare le modifiche è necessario far corrispondere le opzioni 2 e 3 per tutti i progetti selezionati. Devi quindi selezionarli o deselezionarli in modo che corrispondano a tutti i progetti selezionati. Se non si modifica alcuna opzione, è possibile salvare il campo così com&#39;è e i documenti mantengono la selezione corrente per tutte le opzioni.
+Potresti disporre di un modulo personalizzato con un campo contenente tre caselle di controllo (Opzione 1, Opzione 2 e Opzione 3) dove l’Opzione 1 è deselezionata per tutti i documenti selezionati, mentre le Opzioni 2 e 3 sono selezionate per alcuni documenti e deselezionate per altri. Se desideri selezionare l’Opzione 1 per tutti i documenti, prima di salvare le modifiche è necessario che anche le opzioni 2 e 3 corrispondano per tutti i progetti selezionati. Quindi è necessario selezionarle o deselezionarle in modo che corrispondano a tutti i progetti selezionati. Se non modifichi alcuna opzione, puoi salvare il campo così com’è e i documenti manterranno la selezione corrente per tutte le opzioni.
 
 >[!ENDSHADEBOX]
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,75 +48,101 @@ Quando si modificano in blocco moduli personalizzati per documenti, tenere prese
   </tr> 
   <tr> 
    <td role="rowheader">Licenze Adobe Workfront*</td> 
-   <td><p>Collaboratore o versione successiva</p> 
-   <p>Richiedi o superiore</p> </td> 
+   <td><p>Collaboratore o successiva</p> 
+   <p>Richiedente o successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai documenti</p></td> 
+   <td> <p>Accesso in modifica ai documenti</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire l’accesso al documento</p></td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
+   <td> <p>Accesso in gestione al documento</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Modifica documenti in blocco
+## Modificare documenti in blocco nell&#39;area documenti legacy
 
-Per modificare documenti in blocco:
+Se la tua organizzazione utilizza un sistema di archiviazione Workfront legacy, quando accedi ai documenti in Workfront visualizzerai l’area documenti legacy. Per ulteriori informazioni sull&#39;archiviazione Workfront, vedere [Differenze tra l&#39;archiviazione aziendale Adobe e l&#39;archiviazione Workfront legacy](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
+
+Per modificare i documenti in blocco:
 
 1. Passa alla scheda Documenti di un progetto o all’area Documenti dal menu principale.
-1. Premere Ctrl o Comando sulla tastiera e selezionare i documenti da modificare.
-1. Fai clic sull&#39;icona Modifica ![icona Modifica](assets/edit-icon.png).
-   ![modifica posizione icona a pagina](assets/edit-multiple-documents.png)
-1. (Facoltativo) Aggiungi o modifica la **Descrizione**. Se la descrizione di ogni documento è diversa, nella casella di descrizione verranno visualizzati _Più valori_. È possibile aggiungere la stessa descrizione per tutti i documenti, ma non è possibile modificare le descrizioni di singoli documenti durante la modifica in blocco.
-1. Apporta le seguenti modifiche ai moduli personalizzati:
+1. Premi Ctrl o Comando sulla tastiera e seleziona i documenti che desideri modificare.
+1. Fai clic sull’icona Modifica ![icona Modifica](assets/edit-icon.png).
+   ![posizione dell’icona Modifica sulla pagina](assets/edit-multiple-documents.png)
+1. (Facoltativo) Aggiungi o modifica la **Descrizione**. Se la descrizione di ciascun documento è diversa, nella casella della descrizione verrà visualizzato _Valori multipli_. Puoi aggiungere la stessa descrizione per tutti i documenti, ma non puoi modificare le descrizioni dei singoli documenti durante la modifica in blocco.
+1. Apporta le seguenti modifiche tramite i moduli personalizzati:
 
    <table>
     <tr>
-    <td><strong>Aggiungi moduli</strong></td>
-    <td>Nella <strong>casella Aggiungi modulo personalizzato</strong> è possibile scegliere tra Moduli allegati e moduli da aggiungere. I moduli allegati si trovano su alcuni dei documenti selezionati, ma non su tutti. Un modulo allegato a tutti i documenti selezionati viene visualizzato automaticamente nella finestra di modifica.  </td>
+    <td><strong>Aggiungere i moduli</strong></td>
+    <td>Nella <strong>casella Aggiungi modulo personalizzato</strong> puoi scegliere tra moduli allegati e moduli da aggiungere. I moduli allegati sono presenti in alcuni dei documenti selezionati, ma non in tutti. Un modulo associato a tutti i documenti selezionati viene visualizzato automaticamente nella finestra di modifica.  </td>
     </tr>
     <tr>
-    <td><strong>Modifica moduli</strong></td>
-    <td>Modifica eventuali moduli personalizzati allegati. Le informazioni modificate sovrascrivono quelle esistenti nei singoli documenti. I campi con valori diversi nei documenti vengono visualizzati come "Più valori". </td>
+    <td><strong>Modificare i moduli</strong></td>
+    <td>Modifica qualsiasi modulo personalizzato associato. Le informazioni modificate sovrascrivono quelle esistenti nei singoli documenti. I campi con valori diversi nei documenti vengono visualizzati come “Valori multipli”. </td>
     </tr>
     <tr>
-    <td><strong>Ridisponi moduli</strong></td>
-    <td>Fai clic su e trascina il modulo personalizzato per ridisporlo.</td>
+    <td><strong>Ridisporre i moduli</strong></td>
+    <td>Fai clic sul modulo personalizzato e trascinalo per ridisporlo.</td>
     </tr>
     </table>
 1. Fai clic su **Salva**.
 
+## Modificare i documenti in blocco nell&#39;area nuovi documenti
 
-## Modificare documenti in blocco in un report Documento
 
-1. Passare a un report documento esistente.
-o
-Creare un report di documenti come descritto in [Creare un report personalizzato](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-1. Selezionare i documenti da modificare.
-1. Fai clic sull&#39;icona Modifica ![icona Modifica](assets/edit-icon.png).
-   ![modifica posizione icona a pagina](assets/edit-multiple-documents.png)
-1. (Facoltativo) Aggiungi o modifica la **Descrizione**. Se la descrizione di ogni documento è diversa, nella casella di descrizione verranno visualizzati _Più valori_. È possibile aggiungere la stessa descrizione per tutti i documenti, ma non è possibile modificare le descrizioni di singoli documenti durante la modifica in blocco.
-1. Apporta le seguenti modifiche ai moduli personalizzati:
+Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Per modificare i documenti in blocco:
+
+1. Vai al progetto, all&#39;attività o al problema che contiene il documento, quindi seleziona **Documenti**.
+1. Premi Ctrl o Comando sulla tastiera e seleziona i documenti che desideri modificare.
+1. Fai clic su Modifica nella parte inferiore della pagina.
+   ![modifica più documenti](assets/bulk-edit-documents.png)
+1. (Facoltativo) Aggiungi o modifica la **Descrizione**. Se la descrizione di ciascun documento è diversa, nella casella della descrizione verrà visualizzato _Valori multipli_. Puoi aggiungere la stessa descrizione per tutti i documenti, ma non puoi modificare le descrizioni dei singoli documenti durante la modifica in blocco.
+1. Apporta le seguenti modifiche tramite i moduli personalizzati:
 
    <table>
     <tr>
-    <td><strong>Aggiungi moduli</strong></td>
-    <td>Nella <strong>casella Aggiungi modulo personalizzato</strong> è possibile scegliere tra Moduli allegati e moduli da aggiungere. I moduli allegati si trovano su alcuni dei documenti selezionati, ma non su tutti. Un modulo allegato a tutti i documenti selezionati viene visualizzato automaticamente nella finestra di modifica.  </td>
+    <td><strong>Aggiungere i moduli</strong></td>
+    <td>Nella sezione <strong>Modulo personalizzato</strong> è possibile aggiungere un nuovo modulo personalizzato ai documenti selezionati. I moduli personalizzati allegati a tutti i documenti selezionati vengono visualizzati nella sezione <strong>Moduli personalizzati in comune</strong>.  </td>
     </tr>
     <tr>
-    <td><strong>Modifica moduli</strong></td>
-    <td>Modifica eventuali moduli personalizzati allegati. Le informazioni modificate sovrascrivono quelle esistenti nei singoli documenti. I campi con valori diversi nei documenti vengono visualizzati come "Più valori". </td>
+    <td><strong>Modificare i moduli</strong></td>
+    <td>Modifica qualsiasi modulo personalizzato associato. Le informazioni modificate sovrascrivono quelle esistenti nei singoli documenti. I campi con valori diversi nei documenti vengono visualizzati come “Valori multipli”. </td>
+    </tr>
+    </table>
+1. Fai clic su **Salva**.
+
+## Modificare documenti in blocco in un rapporto di documenti
+
+1. Accedi a un rapporto di documenti esistente.
+oppure
+crea un rapporto di documenti come descritto in [Creare un rapporto personalizzato](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+1. Seleziona i documenti che desideri modificare.
+1. Fai clic sull’icona Modifica ![icona Modifica](assets/edit-icon.png).
+1. (Facoltativo) Aggiungi o modifica la **Descrizione**. Se la descrizione di ciascun documento è diversa, nella casella della descrizione verrà visualizzato _Valori multipli_. Puoi aggiungere la stessa descrizione per tutti i documenti, ma non puoi modificare le descrizioni dei singoli documenti durante la modifica in blocco.
+1. Apporta le seguenti modifiche tramite i moduli personalizzati:
+
+   <table>
+    <tr>
+    <td><strong>Aggiungere i moduli</strong></td>
+    <td>Nella <strong>casella Aggiungi modulo personalizzato</strong> puoi scegliere tra moduli allegati e moduli da aggiungere. I moduli allegati sono presenti in alcuni dei documenti selezionati, ma non in tutti. Un modulo associato a tutti i documenti selezionati viene visualizzato automaticamente nella finestra di modifica.  </td>
     </tr>
     <tr>
-    <td><strong>Ridisponi moduli</strong></td>
-    <td>Fai clic su e trascina il modulo personalizzato per ridisporlo.</td>
+    <td><strong>Modificare i moduli</strong></td>
+    <td>Modifica qualsiasi modulo personalizzato associato. Le informazioni modificate sovrascrivono quelle esistenti nei singoli documenti. I campi con valori diversi nei documenti vengono visualizzati come “Valori multipli”. </td>
+    </tr>
+    <tr>
+    <td><strong>Ridisporre i moduli</strong></td>
+    <td>Fai clic sul modulo personalizzato e trascinalo per ridisporlo.</td>
     </tr>
     </table>
 1. Fai clic su **Salva**.

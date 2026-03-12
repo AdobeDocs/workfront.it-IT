@@ -8,10 +8,10 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
-source-git-commit: 321449202f629f75464870bea7fa3db8b4c0e0cb
+source-git-commit: ad3478d3f1b54af596b146ac212a9eacf6f972f7
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 1%
+source-wordcount: '1155'
+ht-degree: 5%
 
 ---
 
@@ -28,7 +28,7 @@ Quando un progetto Workfront è connesso con Frame.io, è possibile
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo. 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo. 
 
 >[!IMPORTANT]
 >
@@ -41,11 +41,11 @@ Devi avere i seguenti:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> <p>Standard</p> </td> 
   </tr> 
   <tr> 
@@ -53,13 +53,13 @@ Devi avere i seguenti:
    <td> <p>Modifica accesso ai progetti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Quando crei un progetto, ricevi automaticamente le autorizzazioni di gestione per il progetto.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -143,7 +143,7 @@ Dopo aver creato un modello, puoi utilizzarlo per creare progetti.
 
 1. Nell&#39;intestazione del progetto modificare il progetto da **Planning** a **Current**.
 
-Dopo la creazione del progetto e il caricamento delle risorse da parte dei creativi, puoi assegnare un flusso di lavoro di revisione e approvazione alla risorsa in Workfront. Per ulteriori informazioni, vedere [Creare una richiesta di revisione o approvazione del documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!-- name may need to change -->
+Dopo la creazione del progetto e il caricamento delle risorse da parte dei creativi, puoi assegnare un flusso di lavoro di revisione e approvazione alla risorsa in Workfront. Per ulteriori informazioni, vedere [Creare un flusso di lavoro di approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!-- name may need to change -->
 
 ## Crea un nuovo progetto da zero
 
@@ -211,5 +211,3 @@ Workfront dispone di solide funzionalità di gestione dei progetti. È consiglia
 Dopo la creazione del progetto e il caricamento delle risorse da parte dei creativi, puoi assegnare un flusso di lavoro di revisione e approvazione alla risorsa in Workfront.
 
 Dopo la creazione del progetto e il caricamento delle risorse da parte dei creativi, puoi assegnare un flusso di lavoro di revisione e approvazione alla risorsa in Workfront.
-
-Per ulteriori informazioni, vedere [Creare una richiesta di revisione o approvazione del documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!-- name may need to change -->

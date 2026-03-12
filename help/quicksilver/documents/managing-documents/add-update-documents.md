@@ -6,10 +6,10 @@ description: È possibile aggiungere o rispondere agli aggiornamenti di un docum
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 0%
+source-wordcount: '501'
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 
 <table style="table-layout:auto"> 
@@ -34,8 +34,8 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Licenze Adobe Workfront</td> 
-   <td> <p>Collaboratore o versione successiva</p> 
-   <p>Richiedi o superiore</p>
+   <td> <p>Collaboratore o successiva</p> 
+   <p>Richiedente o successiva</p>
    </td> 
   </tr> 
   <tr> 
@@ -44,17 +44,21 @@ ht-degree: 0%
   </tr>
 
 <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Accesso di visualizzazione al documento</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Aggiungere o rispondere a un aggiornamento per un documento
+## Aggiungere un aggiornamento a un documento nell&#39;area documenti legacy
+
+Se la tua organizzazione utilizza un sistema di archiviazione Workfront legacy, quando accedi ai documenti in Workfront visualizzerai l’area documenti legacy. Per ulteriori informazioni sull&#39;archiviazione Workfront legacy, vedere [Differenze tra l&#39;archiviazione Workfront legacy e l&#39;archiviazione aziendale Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+### Aggiungere o rispondere a un aggiornamento per un documento
 
 1. Vai all&#39;oggetto che contiene il documento, quindi seleziona **Documenti** nel pannello a sinistra.
 1. Individuare il documento necessario ed eseguire una delle operazioni seguenti:
@@ -66,7 +70,7 @@ Per ulteriori informazioni sull&#39;aggiunta di aggiornamenti agli oggetti, vede
    Gli aggiornamenti e le risposte vengono aggiunti al documento e anche agli oggetti di livello superiore. Per ulteriori informazioni, vedere [Panoramica della sezione aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
-## Aggiungere una risposta a un commento di verifica per un documento
+### Aggiungere una risposta a un commento di verifica per un documento
 
 Nell&#39;area Aggiornamenti, quando si risponde a un commento di un utente durante la verifica di un documento, il visualizzatore di bozze viene avviato in modo da poter digitare la risposta con il contesto desiderato. La risposta viene visualizzata sia nel visualizzatore di bozze che nell&#39;area Aggiornamenti del documento.
 
@@ -76,3 +80,12 @@ Nell&#39;area Aggiornamenti, quando si risponde a un commento di un utente duran
 1. Fai clic su **Rispondi nella bozza**, digita il commento nel visualizzatore di bozze avviato, quindi fai clic su **Rispondi**.
 
    Se hai bisogno di informazioni sulla digitazione di commenti e risposte nel visualizzatore di bozze, consulta [Commento su una bozza](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md).
+
+## Aggiungere un aggiornamento a un documento nell&#39;area nuovi documenti
+
+Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+1. Vai all&#39;oggetto che contiene il documento, quindi seleziona **Documenti** nel pannello a sinistra.
+1. Individua il documento necessario, quindi fai clic sull&#39;icona del commento ![icona Commento](assets/new-doc-comment-icon.png) per aprire il pannello Commenti.
+1. Digita il commento nella casella di testo, quindi fai clic su **Invia**.
+   ![Pannello commenti nuovo documento](assets/comments-new-doc.png)

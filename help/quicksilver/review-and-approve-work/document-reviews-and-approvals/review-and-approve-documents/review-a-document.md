@@ -6,10 +6,10 @@ description: In qualità di revisore, puoi visualizzare in anteprima un document
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 7572dd64a7f23d6f8dcae374a327d67f2d6738c5
+source-git-commit: 3fd4d18e1be14cc27b3b39d4abf399ec26ddcd51
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 0%
+source-wordcount: '560'
+ht-degree: 6%
 
 ---
 
@@ -23,7 +23,7 @@ In qualità di revisore, puoi visualizzare un documento che ti è stato inviato 
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,9 +34,9 @@ In qualità di revisore, puoi visualizzare un documento che ti è stato inviato 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
-   <p>Collaboratore o versione successiva</p>
+   <p>Collaboratore o successiva</p>
    <p>Revisione o successiva</p> </td> 
   </tr> 
   <tr> 
@@ -44,7 +44,7 @@ In qualità di revisore, puoi visualizzare un documento che ti è stato inviato 
    <td> <p>Accesso di visualizzazione o accesso successivo agli oggetti associati alle approvazioni</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Visualizza o autorizzazioni superiori per gli oggetti associati alle approvazioni</p> </td> 
   </tr> 
  </tbody> 
@@ -109,6 +109,6 @@ Per rivedere un documento:
 
 1. Per registrare che hai completato la revisione, fai clic su **Completa revisione**.
 
-<!--## Review a document from the Frame.io viewer
+## Esaminare un documento dal visualizzatore Frame.io
 
-To review a document from the Frame.io viewer, your Workfront instance must be integrated with Frame.io. For more information, see the [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).-->
+Per rivedere un documento dal visualizzatore Frame.io, l&#39;istanza di Workfront deve essere integrata con Frame.io. Per ulteriori informazioni, vedere [Panoramica sull&#39;integrazione Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).

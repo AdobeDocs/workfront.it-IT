@@ -2,19 +2,19 @@
 product-area: documents
 navigation-topic: approvals
 title: Autorizzazioni degli oggetti e panoramica del livello di accesso per il modello di storage aziendale Adobe
-description: Autorizzazioni di storage aziendale e panoramica degli accessi ad Adobe
+description: Autorizzazioni di archiviazione aziendale Adobe e panoramica sull’accesso
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 89dcc972e2e29890763dba6b5f7a44489a2eee5a
+exl-id: 758d17e6-f31f-42b7-a9e6-6bd1821f5c15
+source-git-commit: 522175549d1a2b19c9e6a47a7e4b0d63ac08e3a3
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 0%
+source-wordcount: '851'
+ht-degree: 1%
 
 ---
-
 
 # Autorizzazioni degli oggetti e panoramica del livello di accesso per il modello di storage aziendale Adobe
 
@@ -55,15 +55,60 @@ Non è possibile limitare l&#39;accesso all&#39;ereditarietà dei documenti.
 
 Nessuna modifica ai livelli o al comportamento di accesso ai documenti.
 
+## Autorizzazioni sugli oggetti
 
-## Progetti
+Le autorizzazioni per gli oggetti determinano ciò che è possibile visualizzare e fare con progetti, attività, problemi e documenti in Workfront. Le autorizzazioni vengono assegnate quando qualcuno condivide un oggetto con te.
 
-Gli utenti con autorizzazioni a livello di progetto possono visualizzare e gestire i documenti per progetti in altri prodotti Adobe come Frame.io e Adobe Creative Cloud.
+>[!IMPORTANT]
+>
+>Nello storage aziendale Adobe, le autorizzazioni per i documenti funzionano in modo diverso rispetto allo storage Workfront legacy. I documenti ereditano le autorizzazioni dal progetto, dall’attività o dal problema a cui sono collegati.
 
-I nomi dei progetti sono visibili anche all’esterno di Workfront per i progetti ESM.
 
-I dati finanziari non sono visibili all’esterno di Workfront per i progetti ESM.
+### Funzionamento delle autorizzazioni per i documenti
 
-## Attività e problemi
+Le autorizzazioni del documento dipendono dall&#39;oggetto a cui è collegato il documento. Non è possibile impostare autorizzazioni per singoli documenti.
 
-I documenti vengono memorizzati a livello di progetto, ma possono essere condivisi con singole attività e problemi, in base alle esigenze. Gli utenti con l’accesso alle attività e ai problemi ereditano automaticamente l’accesso ai documenti dal progetto. Non puoi modificare il loro livello di accesso. Possono gestire l’accesso o non accedervi.
+Quando carichi un documento in un’attività o in un problema, viene creata una cartella generata dal sistema utilizzando il nome dell’attività o del problema. Questa cartella è collegata all’attività o al problema ed eredita le relative autorizzazioni.
+
+È possibile creare sottocartelle nella cartella generata dal sistema per organizzare ulteriormente i documenti. Tutte le sottocartelle ereditano le autorizzazioni dalla cartella principale. A livello di progetto, è possibile caricare documenti all’esterno di una cartella, ma solo gli utenti con accesso a livello di progetto possono visualizzarli.
+
+A livello di progetto, le cartelle generate dal sistema visualizzano un oggetto collegato. In genere si tratta del nome dell’attività o del problema ed è così che il sistema sa su quale attività o problema visualizzare la cartella.
+
+### Autorizzazioni progetto
+
+Se disponi di autorizzazioni a livello di progetto, puoi visualizzare e gestire i documenti per quel progetto in Workfront e altri prodotti Adobe come Frame.io e Adobe Creative Cloud. In questi strumenti è visibile anche il nome del progetto. Gli altri dati del progetto non sono visibili all’esterno di Workfront.
+
+### Autorizzazioni per attività e problemi
+
+Attività e problemi ereditano le autorizzazioni dal progetto. Se disponi di autorizzazioni a livello di attività o problema, puoi visualizzare e gestire i documenti collegati a tale attività o problema in Workfront e altri prodotti Adobe come Frame.io e Adobe Creative Cloud.
+
+**Cartelle generate dal sistema**
+
+* La rimozione degli utenti da un’attività o da un problema non rimuove automaticamente l’accesso alle cartelle. Possono ancora avere accesso tramite autorizzazioni a livello di progetto.
+* Le sottoattività non ereditano le autorizzazioni della cartella generata dal sistema dalle attività padre. Per accedere alla cartella generata dal sistema, è necessario essere aggiunti direttamente a una sottoattività.
+* L’aggiunta di utenti a un’attività o a un problema condivide con loro la cartella generata dal sistema dell’oggetto.
+
+**Spostamento e ridenominazione delle cartelle generate dal sistema:**
+
+* Le cartelle generate dal sistema possono essere rinominate e spostate.
+* Se una cartella generata dal sistema viene spostata in un&#39;altra posizione, l&#39;oggetto collegato viene aggiornato al nuovo oggetto. Le autorizzazioni vengono quindi ereditate dal nuovo oggetto padre.
+
+Le richieste seguono lo stesso comportamento delle attività e dei problemi.
+
+### Approvazioni
+
+Quando si viene aggiunti a un flusso di lavoro di approvazione di un documento, è possibile visualizzare quanto segue indipendentemente dalle autorizzazioni del progetto:
+
+* Nome progetto
+* Nome documento
+* Miniatura documento
+
+
+
+
+
+
+
+
+
+

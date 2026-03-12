@@ -6,10 +6,10 @@ description: Panoramica dei sistemi disponibili per la revisione e l'approvazion
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: aa3645e2ed8c36a3b07caad72083a43467889fce
+source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 0%
+source-wordcount: '383'
+ht-degree: 1%
 
 ---
 
@@ -58,16 +58,18 @@ Per ulteriori informazioni sull&#39;utilizzo del visualizzatore di bozze, vedere
 * Utilizza le dashboard di Canvas, attualmente in versione beta, per visualizzare i dettagli di reporting sulle approvazioni unificate
 Per ulteriori informazioni sul reporting, vedere [Creare un dashboard di report per revisione e approvazione](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
 
-* Crea più approvazioni fase [!BADGE In arrivo]{type=Informative}
+* Creare più approvazioni di fase
 
 * Accedere alle richieste di revisione e approvazione nel widget Approvazioni personali nell’area Home
+
+* Utilizza l&#39;integrazione Frame.io per rivedere e approvare i documenti. Per ulteriori informazioni, vedere [Introduzione all&#39;integrazione Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
 
 * Utilizza IA Reviewer per automatizzare le revisioni di conformità del brand. Per ulteriori informazioni, consulta [Introduzione a Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
 
 ## Approvazioni bozza
 
-Le approvazioni delle bozze consentono di utilizzare flussi di lavoro di base e automatizzati per gestire processi complessi di revisione e approvazione. Per ulteriori informazioni sulla verifica, vedere [Verifica](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/proofing-basics.md).
+Le approvazioni delle bozze consentono di utilizzare flussi di lavoro di base e automatizzati per gestire processi complessi di revisione e approvazione. Per ulteriori informazioni sulla bozza, consulta [Bozza](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/proofing-basics.md).
 
 Funzioni disponibili per la verifica:
 
@@ -88,7 +90,3 @@ Funzioni disponibili per la verifica:
 * Utilizzare flussi di lavoro di base o automatizzati
 
 * Accedere alle richieste di approvazione nel widget Approvazioni personali nell’area Home
-
-<!--
-## Upcoming deprecations
--->

@@ -6,14 +6,58 @@ description: È possibile aggiungere documenti a progetti, attività o problemi 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: 47f029fbbc165db36e750907c9a14bb3c0718d58
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 1%
+source-wordcount: '1237'
+ht-degree: 5%
 
 ---
 
 # Aggiungere documenti ad Adobe Workfront dal file system
+
+In Workfront sono attualmente disponibili due versioni dell&#39;area Documenti: l&#39;area documenti legacy e l&#39;area nuovi documenti. La versione utilizzata dall&#39;organizzazione dipende dal fatto che l&#39;organizzazione si basi su sistemi di storage Workfront o aziendali legacy. Per ulteriori informazioni su questi tipi di archiviazione, vedere [Panoramica sullo storage aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+L’aggiunta di documenti a Workfront varia a seconda della versione dell’area documenti utilizzata dall’organizzazione.
+
+* [Aggiungere documenti a dal file system nell&#39;area dei documenti legacy](#add-documents-from-your-file-system-in-the-legacy-documents-area)
+* [Aggiungere documenti a Workfront nell’area dei nuovi documenti](#add-documents-to-workfront-in-the-new-documents-area)
+
+
+
+## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Pacchetto Adobe Workfront</td> 
+   <td> <p> Qualsiasi</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licenze Adobe Workfront*</td> 
+   <td> 
+   <p>Collaboratore o successiva</p> 
+   <p>Richiedente o successiva</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Archiviazione Workfront legacy: modifica accesso ai documenti</p> 
+   <p>Archiviazione aziendale: l'accesso di modifica ai documenti è abilitato per impostazione predefinita e non può essere modificato</p>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+## Aggiungere documenti dal file system nell&#39;area dei documenti legacy
+
+Se la tua organizzazione utilizza un sistema di archiviazione Workfront legacy, quando accedi ai documenti in Workfront visualizzerai l’area documenti legacy. Per ulteriori informazioni sull&#39;archiviazione Workfront, vedere [Differenze tra l&#39;archiviazione aziendale Adobe e l&#39;archiviazione Workfront legacy](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
 
 È possibile aggiungere documenti a progetti, attività o problemi nelle seguenti aree in Adobe Workfront:
 
@@ -27,36 +71,8 @@ Non esistono restrizioni sui tipi e sulle dimensioni dei file che è possibile c
 
 Se hai bisogno di informazioni sul caricamento di nuove versioni di un documento in Workfront, consulta [Caricare una nuova versione di un documento](../../documents/managing-documents/upload-new-document-version.md).
 
-## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Pacchetto Adobe Workfront</td> 
-   <td> <p> Qualsiasi</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licenze Adobe Workfront*</td> 
-   <td> 
-   <p>Collaboratore o versione successiva</p> 
-   <p>Richiedi o superiore</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Modifica accesso ai documenti</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
-
-## Aggiungi documenti a Workfront
+### Aggiungere documenti a Workfront nell’area documenti legacy
 
 È possibile aggiungere nuovi documenti a Workfront dal file system della workstation. È inoltre possibile collegare documenti da applicazioni di terze parti, ad esempio Google Drive e SharePoint.
 
@@ -110,14 +126,72 @@ Per aggiungere un documento:
     </tbody> 
    </table>
 
-## Sicurezza dei documenti
+
+## Aggiungere documenti a Workfront nell’area dei nuovi documenti
+
+È possibile aggiungere documenti a progetti, attività o problemi utilizzando il modello di storage aziendale. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Funzionalità non attualmente supportata nell&#39;area dei nuovi documenti:
+
+* Caricamento di documenti nell&#39;area globale Documenti
+* Aggiunta di collegamenti a documenti di fornitori di cloud di terze parti, ad esempio Google Drive, Dropbox e Microsoft OneDrive.
+* Richiesta di documenti
+* Copiare un collegamento in una cartella
+* Estrazione di documenti
+* Incollare immagini dagli Appunti
+* Aggiunta di cartelle avanzate
+
+
+### Aggiungere documenti a Workfront nell’area dei nuovi documenti
+
+Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+<!--
+>[!IMPORTANT]
+>
+>* You can upload up to 150 documents at one time.
+>* There is no limit on the file size. 
+>* Document downloads are limited to 4GB.
+-->
+
+Per aggiungere un documento:
+
+1. Passare al progetto, all&#39;attività o al problema in cui si desidera aggiungere un nuovo documento.
+1. Fai clic su **Documenti** nel pannello a sinistra.
+1. Fai clic su **Nuovo** sul lato destro della pagina oppure trascina e rilascia il file nella zona di rilascio visualizzata. È possibile aggiungere più documenti contemporaneamente.
+
+   ![Aggiungi un nuovo documento](assets/add-new-doc-new-doc.png)
+
+Se hai bisogno di informazioni sul caricamento di nuove versioni di un documento in Workfront, consulta [Caricare una nuova versione di un documento](../../documents/managing-documents/upload-new-document-version.md).
+
+## Sicurezza dei documenti per lo storage aziendale
+
+Workfront impedisce ai virus e ad altri contenuti dannosi di accedere al sito tramite i documenti nei seguenti modi:
+
+**Rilevamento dei file danneggiati in Workfront**
+
+La scansione dei documenti viene attivata automaticamente per gli oggetti che utilizzano il modello di storage aziendale.
+
+Tutti i file di dimensioni inferiori a 500 MB vengono scansionati al momento del caricamento. I file superiori a 500 MB non vengono analizzati. Se Workfront rileva un documento danneggiato, questo viene rimosso automaticamente.
+
+**Limitazioni per i nomi dei file**
+
+Poiché questa integrazione viene creata utilizzando lo storage aziendale Adobe, è necessario tenere presenti alcune convenzioni di denominazione e struttura applicate per la gestione di progetti e documenti.
+
+* I nomi degli oggetti devono essere univoci e non possono essere duplicati
+* Lo storage aziendale Adobe richiede nomi univoci per gli oggetti peer con lo stesso elemento padre nella struttura gerarchica
+* I documenti non possono avere lo stesso nome se appartengono allo stesso progetto
+* I nomi dei documenti non possono contenere i seguenti caratteri speciali: `\ / : * ? " | < >`
+* I nomi dei documenti non possono superare i 255 caratteri
+
+Tenendo presenti queste limitazioni, Workfront rinomina automaticamente gli oggetti o i documenti in base alle esigenze per evitare conflitti.
+
+
+## Sicurezza dei documenti per lo storage Workfront legacy
 
 Il sito Workfront impedisce ai virus e ad altri contenuti dannosi di accedere al sito tramite i documenti nei seguenti modi:
 
-* [Rilevamento dei file danneggiati in Workfront](#how-workfront-detects-corrupted-files)
-* [Limitazioni per i nomi dei file](#file-name-restrictions)
-
-### Rilevamento dei file danneggiati in Workfront {#how-workfront-detects-corrupted-files}
+**Rilevamento dei file danneggiati in Workfront**
 
 La scansione dei documenti è abilitata per la tua organizzazione solo su richiesta.
 
@@ -127,6 +201,6 @@ Se Workfront rileva un documento danneggiato, viene visualizzato un messaggio ch
 
 I file danneggiati vengono rimossi entro 24 ore dal rilevamento, a meno che non vengano rimossi manualmente. Se elimini un file danneggiato, Workfront tiene traccia di questa azione come aggiornamento. Se consenti a Workfront di rimuoverlo, non vengono registrati aggiornamenti.
 
-### Limitazioni per i nomi dei file {#file-name-restrictions}
+**Limitazioni per i nomi dei file**
 
 I file caricati in Workfront non possono contenere determinati caratteri nei nomi dei file. Se un file contiene uno dei seguenti caratteri nel nome del file, i caratteri vengono rimossi dal nome del file al caricamento: `! # % * \ | ' " / ? < > { } [ ]`.

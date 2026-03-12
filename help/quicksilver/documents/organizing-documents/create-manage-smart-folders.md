@@ -6,10 +6,10 @@ description: Le cartelle avanzate vengono utilizzate per gestire documenti ester
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
-source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 0%
+source-wordcount: '552'
+ht-degree: 9%
 
 ---
 
@@ -19,9 +19,14 @@ Le cartelle avanzate vengono utilizzate per gestire documenti esterni a un proge
 
 Per impostazione predefinita, al primo accesso all&#39;area Documenti sono disponibili due cartelle avanzate: Tutti i documenti e Recente. È possibile modificare, rinominare o copiare cartelle avanzate predefinite, ma non eliminarle. Puoi creare ulteriori cartelle avanzate per soddisfare altre esigenze di gestione delle risorse.
 
+>[!NOTE]
+>
+>Questa funzionalità non è disponibile nell&#39;area nuovi documenti.<br>
+>Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,19 +37,19 @@ Per impostazione predefinita, al primo accesso all&#39;area Documenti sono dispo
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td role="rowheader">Licenza di Adobe Workfront</td> 
    <td> 
-   <p>Collaboratore o versione successiva</p>
+   <p>Collaboratore o successiva</p>
    <p>Revisione o successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modifica accesso ai documenti</p> </td> 
+   <td> <p>Accesso in modifica ai documenti</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

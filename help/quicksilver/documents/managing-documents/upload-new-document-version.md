@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: manage-documents
-title: Carica una nuova versione di un documento
+title: Caricare una nuova versione di un documento
 description: Puoi aggiungere una nuova versione di un documento precedentemente caricato in Adobe Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d475e0f0-112e-4d4e-b666-6e0af3ea7702
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 0%
+source-wordcount: '557'
+ht-degree: 10%
 
 ---
 
-# Carica una nuova versione di un documento
+# Caricare una nuova versione di un documento
 
 Puoi aggiungere una nuova versione di un documento precedentemente caricato in Adobe Workfront.
 
@@ -25,7 +25,7 @@ Per informazioni sull&#39;aggiunta di una nuova versione di un documento collega
 
 ## Requisiti di accesso
 
-+++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità descritta in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,24 +40,28 @@ Per informazioni sull&#39;aggiunta di una nuova versione di un documento collega
   <tr> 
    <td role="rowheader">Licenze Adobe Workfront</td> 
    <td> 
-   <p>Collaboratore o versione successiva</p>
-   <p>Richiedi o superiore</p> </td> 
+   <p>Collaboratore o successiva</p>
+   <p>Richiedente o successiva</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modifica accesso ai documenti</p>  </td> 
+   <td> <p>Accesso in modifica ai documenti</p>  </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td role="rowheader">Autorizzazioni sugli oggetti</td> 
    <td> <p>Modifica l'accesso all'oggetto associato al documento</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, consulta [Requisiti di accesso nella documentazione Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
-## Usa il trascinamento per aggiungere una nuova versione
+## Carica una nuova versione del documento nell&#39;area documenti legacy
+
+Se la tua organizzazione utilizza un sistema di archiviazione Workfront legacy, quando accedi ai documenti in Workfront visualizzerai l’area documenti legacy. Per ulteriori informazioni sull&#39;archiviazione Workfront legacy, vedere [Differenze tra l&#39;archiviazione Workfront legacy e l&#39;archiviazione aziendale Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+### Usa il trascinamento per aggiungere una nuova versione
 
 >[!NOTE]
 >
@@ -74,7 +78,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Per informazioni sulla gestione delle versioni dei documenti, vedere [Gestione delle versioni dei documenti](../../documents/managing-documents/manage-document-versions.md).
 
-## Utilizzare il menu Altro per aggiungere una nuova versione
+### Utilizzare il menu Altro per aggiungere una nuova versione
 
 1. Selezionare il documento in cui si desidera aggiungere una nuova versione.
 1. Fai clic su **Aggiungi nuovo** > **Versione**.
@@ -82,3 +86,42 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    ![Aggiungi nuova versione](assets/add-new-version-350x185.png)
 
 1. Seleziona il tipo di documento da caricare, quindi segui le istruzioni.
+
+## Carica una nuova versione del documento nell&#39;area dei nuovi documenti
+
+Se l&#39;organizzazione utilizza l&#39;archiviazione aziendale, quando si accede ai documenti in Workfront verrà visualizzata la nuova area documenti. Per ulteriori informazioni sull&#39;archiviazione aziendale, vedere [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+### Usa il trascinamento per aggiungere una nuova versione
+
+>[!NOTE]
+>
+>Il trascinamento della selezione non funziona con Internet Explorer.
+
+1. Passare all&#39;area Documenti in cui viene caricato il documento.
+1. Trascinare la nuova versione del documento sopra la versione esistente in Workfront.
+
+   ![Trascina la versione del documento](assets/drag-drop-new-doc.png)
+
+1. Rilascia la nuova versione sopra il file esistente nella scheda **Documenti**.
+
+   Per informazioni sulla gestione delle versioni dei documenti, vedere [Gestione delle versioni dei documenti](../../documents/managing-documents/manage-document-versions.md).
+
+### Utilizzare il menu Altro per aggiungere una nuova versione
+
+1. Selezionare il documento in cui si desidera aggiungere una nuova versione.
+1. Apri l&#39;icona Mostra versioni ![icona Mostra versioni](assets/show-versions.png) a destra.
+1. Fare clic su **Aggiungi nuova versione**.
+
+   ![Aggiungi nuova versione](assets/new-version-new-doc.png)
+
+1. Trova il tuo documento, quindi fai clic su **Apri**.
+
+
+
+
+
+
+
+
+
+

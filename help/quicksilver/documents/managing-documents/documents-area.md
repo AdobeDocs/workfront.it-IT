@@ -2,25 +2,25 @@
 content-type: reference
 product-area: documents
 navigation-topic: manage-documents
-title: Area Documenti
+title: L’area Documenti
 description: Nell’area Documenti puoi organizzare, gestire e visualizzare i metadati dei documenti caricati in Adobe Workfront. Puoi anche vedere la decisione relativa alla bozza.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
-source-git-commit: d231bc962bddf44daad6e10c5652d1ff46554f8a
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 0%
+source-wordcount: '769'
+ht-degree: 1%
 
 ---
 
-# Area Documenti
+# L’area Documenti
 
 Nell’area Documenti puoi organizzare, gestire e visualizzare i metadati dei documenti caricati in Adobe Workfront. Puoi anche vedere la decisione relativa alla bozza.
 
-I documenti aggiunti alle singole attività e problemi sono tutti disponibili nell’area Progetto > Documenti.
+In Workfront sono attualmente disponibili due versioni dell&#39;area Documenti: l&#39;area documenti legacy e l&#39;area nuovi documenti. La versione utilizzata dall&#39;organizzazione dipende dal fatto che l&#39;organizzazione si basi su sistemi di storage Workfront o aziendali legacy. Per ulteriori informazioni su questi tipi di archiviazione, vedere [Panoramica sullo storage aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-![Area documenti](assets/documents-area-v2-350x199.png)
+## Area documenti legacy
 
 Sono disponibili due tipi di aree Documenti. Funzionalità e funzionalità identiche per:
 
@@ -38,7 +38,7 @@ Nell&#39;area documenti viene registrato il conteggio dei seguenti elementi:
 * File aggiunti a Workfront da integrazioni
 * Experience Manager Assets collegato
 
-## Pannello di Riepilogo
+### Pannello di Riepilogo
 
 Quando si seleziona un documento nell&#39;area documenti, è possibile utilizzare il Riepilogo a destra per visualizzare i dettagli del documento, gestire gli aggiornamenti e le approvazioni del documento, visualizzare le versioni del documento e aggiungere e modificare il Forms personalizzato per il documento.
 
@@ -50,13 +50,13 @@ Se per il documento è impostata la verifica, la sezione Dettagli include inform
 
 Per informazioni sul Riepilogo, vedere [Riepilogo per la panoramica dei documenti](../../documents/managing-documents/summary-for-documents.md).
 
-## Decisione bozza
+### Decisione bozza
 
 Una volta presa la decisione relativa alla bozza, questa viene visualizzata nell&#39;elenco Documento.
 
 ![Decisione bozza nell&#39;elenco documenti](assets/proof-decision---doc-list-350x168.png)
 
-## Cartelle
+### Cartelle
 
 In un progetto, un&#39;attività o un problema in cui vengono caricati documenti, è possibile impostare cartelle per organizzare i documenti. Per ulteriori informazioni, vedere [Creare cartelle di documenti](../../documents/organizing-documents/create-documents-folder.md).
 
@@ -66,6 +66,41 @@ Nell&#39;area Documenti globale è possibile impostare due tipi di cartelle per 
 
 * **Cartelle personali:** Organizzare i documenti nel modo desiderato. Per ulteriori informazioni, vedere [Creare cartelle di documenti](../../documents/organizing-documents/create-documents-folder.md).
 
-## Dettagli documento espanso
+### Dettagli documento espanso
 
 La pagina Dettagli documento fornisce una versione in scala più completa dei Dettagli documento nel Riepilogo a destra.
+
+## Nuova area documento
+
+>[!NOTE]
+>
+>L’area documenti globali non è disponibile nella nuova esperienza dell’area documenti. È possibile accedere ai documenti solo da programmi, portafogli, progetti, attività o problemi.
+
+### Utilizzare il pannello di riepilogo
+
+Quando si seleziona un documento nell&#39;area documenti, è possibile utilizzare il pannello Riepilogo a destra per visualizzare i dettagli sul documento, aggiungere e modificare moduli personalizzati allegati, creare e gestire flussi di lavoro di approvazione, visualizzare le versioni del documento e altro ancora.
+
+#### Revisione e approvazione con Frame.io
+
+È possibile esaminare e approvare i documenti nell&#39;area nuovi documenti utilizzando il visualizzatore Frame.io.
+
+Per ulteriori informazioni, vedere [Introduzione all&#39;integrazione Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+
+#### Gestione versioni
+
+È possibile caricare nuove versioni di un documento nell&#39;area nuovi documenti. Quando carichi una nuova versione, questa viene mantenuta e vi si può accedere dal pannello Riepilogo. Le versioni vengono automaticamente denominate con la data e l’ora del caricamento, ma possono essere rinominate in base alle esigenze.
+
+È inoltre possibile avviare un nuovo flusso di lavoro di approvazione per una versione specifica di un documento.
+
+#### Visualizza cronologia documenti
+
+È possibile visualizzare la cronologia di un documento nell&#39;area nuovi documenti. La cronologia include i seguenti tipi di informazioni:
+
+* Quando il documento è stato caricato
+* Quando sono state caricate nuove versioni
+* Quando sono stati avviati i flussi di lavoro di approvazione per il documento
+* E altro ancora
+
+### Cartelle a livello di sistema per le autorizzazioni dei documenti
+
+Workfront crea automaticamente una cartella a livello di sistema quando il primo documento viene caricato su un’attività o un problema. Queste cartelle ereditano le autorizzazioni dall’attività o dal problema e sono visibili nell’area documenti a livello di progetto. Tutti i documenti caricati su tale attività o problema sono memorizzati in tale cartella e da essa ereditano le autorizzazioni. Questo è il modo principale in cui le autorizzazioni vengono gestite per i documenti nell&#39;area nuovi documenti. Per ulteriori informazioni, vedere [Autorizzazioni degli oggetti e panoramica del livello di accesso per il modello di storage aziendale Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
