@@ -6,16 +6,16 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
+source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
 workflow-type: tm+mt
-source-wordcount: '5510'
+source-wordcount: '5686'
 ht-degree: 2%
 
 ---
 
 
 <!--
-Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=it ??
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
 -->
 
 <!--
@@ -250,7 +250,7 @@ Per informazioni, vedere [Importare campi da Workfront](/help/quicksilver/planni
    * [Data ultima modifica](#last-modified-date)
    * [Data di approvazione](#approved-date)
    * [Approvato da](#approved-by)
-     <!--* <span class="preview">[Record ID](#record-id)</span>-->
+   * <span class="preview">[ID record](#record-id)</span>
      <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
@@ -588,7 +588,7 @@ Per ulteriori informazioni, vedere [Panoramica dei campi formula](/help/quicksil
    >
    >* È possibile fare riferimento a un campo che si trova a una distanza massima di 4 campi (e oggetti) dal tipo di record corrente. Ad esempio, se si crea un campo formula per un tipo di record Attività (1) e l&#39;Attività è connessa al tipo di record Campagna (2) che è connesso a un progetto Workfront (3), è possibile fare riferimento al campo Budget del progetto (4) nella formula che si sta creando per il tipo di record Attività.
    >
-   >![Esempio di formula budget progetto quattro campi rimossi &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Esempio di formula budget progetto quattro campi rimossi ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Facoltativo) Fare clic su **Ingrandisci** per aprire la casella Formula in un&#39;area più ampia.
@@ -810,33 +810,32 @@ Puoi utilizzare il tipo di campo Approvato da per aggiungere l’ultimo utente c
 
    Il nuovo campo Approvato per tipo viene aggiunto come colonna al tipo di record e i relativi valori vengono precompilati con il nome dell’ultimo utente che ha modificato ogni record.
 
-<!--
 <span class="preview">
 
-## Record ID
+## ID record
 
-You can use the Record ID field type to reveal a system-generated, read-only identifier for each record. 
+È possibile utilizzare il tipo di campo ID record per visualizzare un identificatore di sola lettura generato dal sistema per ogni record.
 
-When created, the Record ID field auto-populates with an alpha-numeric value. You can use it in formula fields and in API integrations to uniquely identify each record. 
+Una volta creato, il campo ID record viene compilato automaticamente con un valore alfanumerico. Puoi utilizzarlo nei campi della formula e nelle integrazioni API per identificare in modo univoco ogni record.
 
-You cannot manually modify the value of a Record ID field. 
- 
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Record ID** field type.
- 
-   ![Record ID field type](assets/record-id-field-type.png)
+Impossibile modificare manualmente il valore di un campo ID record.
 
-1. Add the following information in the **New field** tab:
+1. Inizia a creare un campo come descritto nella sezione [Creare campi da zero](#create-fields-from-scratch) in questo articolo, quindi seleziona il tipo di campo **ID record**.
 
-     * **Name**: The name of the field, as it will appear in a table or the record page. 
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
-    
-1. Click **Create**.
+   ![Tipo di campo ID record](assets/record-id-field-type.png)
 
-    The new Record ID-type field is added as a column to the record type and its values are prefilled with an alpha-numeric value.  
+1. Aggiungi le seguenti informazioni nella scheda **Nuovo campo**:
+
+   * **Nome**: il nome del campo, come verrà visualizzato in una tabella o nella pagina record.
+   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il puntatore del mouse sulla colonna del campo in una tabella o quando si fa clic sull&#39;icona delle informazioni accanto al nome del campo nella pagina dei dettagli del record.
+
+1. Fai clic su **Crea**.
+
+   Il nuovo campo ID record viene aggiunto come colonna al tipo di record e i relativi valori vengono precompilati con un valore alfanumerico.
 
 </span>
 
--->
+
 <!--
 
 ## Object field type

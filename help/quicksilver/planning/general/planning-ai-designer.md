@@ -6,9 +6,9 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1502'
 ht-degree: 6%
 
 ---
@@ -161,7 +161,7 @@ Il tuo feedback viene inviato ai team tecnici e di prodotto.
 
   >[!IMPORTANT]
   >
-  >Sebbene supportino i tipi di file XLSX e CSV, non possono essere utilizzati per l&#39;importazione di record su larga scala tramite Planning Designer.
+  >Sebbene supportino i tipi di file XLSX, non possono essere utilizzati per l&#39;importazione di record su larga scala tramite Planning Designer.
   >Se in questo momento è necessario importare un numero considerevole di record, è consigliabile utilizzare le funzionalità manuali disponibili in Planning.
   >
   >Per ulteriori informazioni, vedere [Creare record importando informazioni da un file CSV o Excel](/help/quicksilver/planning/records/import-file-to-create-records.md).

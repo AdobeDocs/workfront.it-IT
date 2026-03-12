@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
+source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1504'
 ht-degree: 2%
 
 ---
@@ -81,26 +81,23 @@ Oppure
   <tr> 
    <td role="rowheader"><p>Licenza di Adobe Workfront</p></td> 
    <td>
+   <p>Nell’ambiente di produzione: </p>
    <p>Per rendere globale un record:</p>
    <ul><li>Standard o superiore</li></ul>
    <p>Per rendere collegabile un record:</p>
    <ul><li>Amministratore di sistema</li></ul>
 
-<!--
-   replace the above with this at release:
-   <p>To make a record global:</p>
-   <ul><li>Standard or higher</li></ul>
-   <p>To make a record connectable:</p>
-   <ul><li>In the Production environment:</li>
-   <ul><li>System Administrator</li></ul></ul>
-   -->
-<!--
-   <div class="preview">
-   <ul><li>In the Preview environment:</li>
-   <ul><li>Standard to make a record connectable from specific workspaces</li>
-   <li>System Administrator to make a record connectable from all workspaces</li></ul></ul>
+<div class="preview">
+
+<p>Nell’ambiente di anteprima:</p>
+   <p>Per rendere globale un record:</p>
+   <ul><li>Standard o superiore</li></ul>
+   <p>Per rendere collegabile un record:</p>
+
+<ul><li>Standard per rendere un record collegabile da aree di lavoro specifiche</li>
+   <li>L’amministratore di sistema deve rendere un record collegabile da tutte le aree di lavoro</li></ul>
    </div>
-   -->
+
 
 </td> 
   </tr> 
@@ -273,17 +270,13 @@ Per configurare un tipo di record come globale:
 
 1. Abilita l&#39;impostazione **Consenti la connessione a questo tipo di record in altre aree di lavoro**.
 
-   <!-- add new screen shot with new tab name-->
-
    ![Modifica tipo di record Scheda Impostazioni area di lavoro incrociata con connessione da altre aree di lavoro abilitata](assets/edit-record-type-box-cross-workspace-settings-connectable-record-type-enabled.png)
 
    Se attivato, il tipo di record è accessibile e può essere connesso ad altre aree di lavoro.
 
-1. &#x200B;<!--<span class="preview">(Conditional) Depending on which license you have,</span>--> Scegliere le aree di lavoro da cui è possibile accedere al tipo di record. Scegli una tra le opzioni seguenti:
+1. <span class="preview">(Condizionale) A seconda della licenza di cui si dispone,</span> scegliere le aree di lavoro in cui è possibile accedere al tipo di record. Scegli una tra le opzioni seguenti:
 
-   <!--check names of the setting: System wide?? OR All workspaces??-->
-
-   * **Tutte le aree di lavoro**: gli utenti possono connettersi a questo tipo di record da tutte le aree di lavoro per le quali dispongono delle autorizzazioni di gestione. <!--<span class="preview">This option is dimmed for workspace managers with a Standard license. Only System Administrators can turn on connecting record types from all workspaces.</span>-->
+   * **Tutte le aree di lavoro**: gli utenti possono connettersi a questo tipo di record da tutte le aree di lavoro per le quali dispongono delle autorizzazioni di gestione. <span class="preview">Questa opzione è disabilitata per i manager dell&#39;area di lavoro con una licenza Standard. Solo gli amministratori di sistema possono attivare la connessione dei tipi di record da tutte le aree di lavoro.</span>
    * **Aree di lavoro specifiche**: aggiungere dal menu a discesa i nomi delle aree di lavoro a cui i responsabili dell&#39;area di lavoro possono connettersi a questo tipo di record.
 
 1. (Condizionale) Fai clic su **Salva** nella casella **Modifica tipo di record** oppure fai clic sulla freccia indietro a sinistra di **Impostazioni** nell&#39;intestazione della pagina per salvare le modifiche.
