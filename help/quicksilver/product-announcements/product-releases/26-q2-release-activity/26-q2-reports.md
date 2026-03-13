@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
-source-git-commit: aceb9f7bd6c62036838b15d74ee2a9b7843e5c11
+source-git-commit: ed4b03429a479797854a0cae08f9191a25eebc13
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 9%
+source-wordcount: '548'
+ht-degree: 8%
 
 ---
 
@@ -17,6 +17,22 @@ ht-degree: 9%
 Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima nella versione del secondo trimestre 2026 per la generazione di rapporti. Tali miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili in questo momento nel ciclo di rilascio del secondo trimestre 2026, consulta [Panoramica sulla versione del secondo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Nuove opzioni di autenticazione per la connessione dati
+
+>[!NOTE]
+>
+>Anteprima: 12 marzo 2026
+>Rilascio rapido in produzione: venerdì 12 marzo 2026
+>Produzione per tutti: venerdì 16 aprile 2026
+
+È ora possibile eseguire l&#39;autenticazione a Data Connect utilizzando le chiavi RSA o le connessioni PAT (Programmatic Access Tokens), aggiungendo alternative più sicure e flessibili alle credenziali tradizionali di nome utente/password.
+
+Queste nuove opzioni consentono alle organizzazioni di mantenere connessioni stabili da Power BI, Tableau e altri strumenti di BI di terze parti senza affidarsi a metodi di accesso basati sugli utenti.
+
+>[!IMPORTANT]
+>
+>A giugno 2026, le credenziali nome utente/password saranno necessarie per utilizzare l’autenticazione a più fattori (MFA). È consigliabile passare all’autenticazione basata su RSA o PAT per gli account utente dei servizi utilizzati per caricare i dati da Data Connect in strumenti di visualizzazione di terze parti, processori di dati e script che non funzionano con MFA nel processo di autenticazione.
 
 ## Etichette di campi personalizzati visualizzate durante la creazione dei rapporti
 

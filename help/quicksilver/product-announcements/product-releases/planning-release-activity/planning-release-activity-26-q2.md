@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
-source-git-commit: e23cd8613a54ce54ae93ea1a4ea14c022fbd1ae2
+source-git-commit: 1e05945e24770848da9d2c77b81b9475e43797ea
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1180'
 ht-degree: 13%
 
 ---
@@ -24,21 +24,33 @@ Per un elenco di tutte le funzionalità rilasciate per Adobe Workfront Planning,
 
 <!--
 
-## Allow non-admin users to make a record type connectable 
+## New field type for Record ID  
 
 >[!NOTE]
 >
->Preview: March 5, 2026
+>Preview: March 12, 2026
 >Production fast release: April 15, 2026
 >Production for everyone: April 16, 2026
 
-We are now allowing non-administrators who are workspace managers to make a record type connectable from specific workspaces.  
+We have added a new field type for Record ID. This is a system-generated alpha-numeric indicator which uniquely identifies each record. The field displays in any record view as well as the record details area.  
 
-Before this update, non-administrators could not enable record types to be connectable. Now, they can enable the record types to be connectable from specific workspaces. They cannot enable record types to be connectable from all workspaces in the system. 
-
-For information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
+For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
 
 -->
+
+## Consenti agli utenti non amministratori di rendere collegabile un tipo di record
+
+>[!NOTE]
+>
+>Anteprima: 12 marzo 2026
+>Rilascio rapido in produzione: giovedì 15 aprile 2026
+>Produzione per tutti: venerdì 16 aprile 2026
+
+Ora è possibile consentire agli utenti non amministratori che sono responsabili dell’area di lavoro di rendere collegabile un tipo di record da aree di lavoro specifiche.
+
+Prima di questo aggiornamento, i non amministratori non potevano abilitare i tipi di record per la connessione. Ora è possibile abilitare i tipi di record per la connessione da aree di lavoro specifiche. Non è possibile consentire la connessione dei tipi di record da tutte le aree di lavoro del sistema.
+
+Per informazioni, vedere [Configurare le funzionalità tra aree di lavoro diverse per i tipi di record](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
 ## Automazione basata su trigger
 
