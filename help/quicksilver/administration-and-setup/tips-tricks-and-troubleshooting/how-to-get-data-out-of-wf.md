@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: bbd00374a6b291582cd03b9d0471d8547eb6ab7f
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -32,15 +32,7 @@ Questo articolo spiega i pro e i contro di 4 opzioni che puoi utilizzare per esp
 
 * **Costi:** Per ulteriori informazioni, visitare il sito Web [https://store.atappstore.com/product/workfront-snapshot/](https://store.atappstore.com/product/workfront-snapshot/).
 
-## Richiedi un file di dump dei dati [!DNL Postgres] dal nostro team di database
 
-È necessario inviare una richiesta al nostro team di Assistenza clienti, che invierà quindi una richiesta al nostro team di database per esportare un file di dump del database (file con estensione dmp [!DNL Postgres]) con i tuoi dati. Verrà inviata una richiesta aggiuntiva al nostro team NOC per recuperare tutti i documenti archiviati.
-
-* **Pro**: ottieni l&#39;intero caricamento dei dati, inclusi i campi personalizzati, nonché i documenti archiviati nel sistema.
-
-* **Contro**: non è possibile leggere questo file a meno che non venga caricato in un database [!DNL Postgres] e non vengano ristabilite le relazioni tra le tabelle. I documenti vengono memorizzati in un file server separato e devono essere estratti separatamente utilizzando un processo separato dal team NOC. In questo modo, non esiste alcuna organizzazione per i documenti, a cui viene fatto riferimento tramite il relativo GUID.
-
-* **Costo**: esiste un costo associato a questo download a seconda del tempo impiegato dal team per creare il file. Per ulteriori informazioni o per iniziare il processo, rivolgiti al tuo AE/CAE.
 
 ## Esporta tramite [!UICONTROL Kick-Start]
 
