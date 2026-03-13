@@ -4,11 +4,11 @@ description: Miglioramenti ai documenti del secondo trimestre 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: 8bcea5cec9f68deacc5f89ca7703303a1b00769f
+exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
+source-git-commit: 93c22854ccc405c442331ac392d919d63b8a8aa8
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 13%
+source-wordcount: '581'
+ht-degree: 7%
 
 ---
 
@@ -20,34 +20,64 @@ Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con
 
 Per un elenco di tutte le modifiche disponibili in questo momento nel ciclo di rilascio del secondo trimestre 2026, consulta [Panoramica sulla versione del secondo trimestre 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-<!--
+## Revisione e approvazioni unificate basate su Workfront e Frame.io
 
-## Multi‑stage approval workflows available for unified approvals
+Siamo entusiasti di presentare la revisione e l&#39;approvazione unificate basate su Workfront e Frame.io, un&#39;esperienza di revisione e approvazione semplificata.
+
+Questa nuova funzionalità è disponibile per i nuovi clienti netti e per i clienti esistenti al momento del rinnovo.
+
+### Novità
+
+#### Una nuova esperienza con i documenti
+
+Un&#39;esperienza di documenti completamente riprogettata con un aspetto moderno. L’interfaccia aggiornata semplifica la navigazione, migliora la chiarezza e semplifica la gestione delle revisioni e delle approvazioni da parte dei team in un unico ambiente unificato. Per ulteriori informazioni, vedere [Panoramica dell&#39;area Documenti](/help/quicksilver/documents/managing-documents/documents-area.md).
+
+#### Approvazioni in più fasi
+
+Crea flussi di lavoro di approvazione più strutturati e sofisticati con approvazioni in più fasi. Indirizza il lavoro attraverso fasi di revisione sequenziale, assegna le parti interessate a ogni fase e assicurati che le persone giuste approvino al momento giusto, garantendo maggiore governance e visibilità al tuo processo. Per ulteriori informazioni, vedere [Creare una richiesta di revisione o approvazione del documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+#### Rivedere e approvare il contenuto in Frame.io
+
+Rivedi e approva i contenuti direttamente nel visualizzatore Frame.io ed elimina la necessità di passare da una piattaforma all&#39;altra. Questa integrazione consente cicli di feedback più rapidi e mantiene tutte le attività di revisione in un&#39;unica posizione. Per ulteriori informazioni, vedere [Introduzione all&#39;integrazione Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+
+#### Connessione con Adobe Experience Manager
+
+Invia facilmente le risorse approvate direttamente a Adobe Experience Manager. Questa integrazione consente di accelerare l’attivazione dei contenuti collegando i flussi di lavoro di revisione e approvazione con la gestione dei contenuti a valle. Per ulteriori informazioni, consulta [Utilizzare Adobe Experience Manager con l’integrazione Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+
+#### Accesso allo storage aziendale Adobe
+
+Adobe enterprise storage è una soluzione di archiviazione basata su cloud che funge da archivio centrale per le risorse tra i prodotti aziendali Adobe. L&#39;integrazione di Workfront e Frame.io è basata sullo storage aziendale Adobe e consente una perfetta collaborazione e gestione delle risorse tra queste piattaforme.
+
+L’accesso allo storage aziendale Adobe apre inoltre la strada a future integrazioni di gestione delle risorse con altri prodotti Adobe, come Adobe Creative Cloud.
+
+Per ulteriori informazioni, consulta [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Workfront e Frame.io estendono il processo di revisione e approvazione di base di GenStudio for Performance Marketing con funzioni di revisione e approvazione più strutturate. Le bozze esaminate in questa integrazione sono limitate ai formati supportati da GenStudio for Performance Marketing.
+
+## Flussi di lavoro di approvazione in più fasi disponibili per le approvazioni unificate
 
 >[!NOTE]
 >
->Preview: February 26, 2026
->Production fast release: March 12, 2026
->Production for everyone: April 16, 2026
+>Anteprima: 12 marzo 2026
+>Rilascio rapido in produzione: giovedì 15 aprile 2026
+>Produzione per tutti: venerdì 16 aprile 2026
 
-Multi‑stage approval workflows are now available in unified approvals, helping organizations enforce structured, repeatable approval processes that reflect how work is reviewed in the real world. With multi‑stage approvals, you can:
+I flussi di lavoro di approvazione in più fasi sono ora disponibili nelle approvazioni unificate, consentendo alle organizzazioni di applicare processi di approvazione strutturati e ripetibili che riflettono il modo in cui il lavoro viene rivisto nel mondo reale. Con le approvazioni in più fasi, puoi:
 
-* Route work through defined sequential stages 
-* Assign the people or teams to each stage and choose their decision role
-* Set stage‑specific deadlines 
-* Ensure approvals progress only when required decisions are complete
-* Maintain visibility into approval progress
+* Instradamento del lavoro attraverso fasi sequenziali definite
+* Assegna persone o team a ogni fase e scegli il loro ruolo decisionale
+* Imposta scadenze specifiche per la fase
+* Assicurati che le approvazioni avanzino solo quando le decisioni necessarie sono complete
+* Mantieni visibilità sull&#39;avanzamento dell&#39;approvazione
 
-For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
-
--->
+Per ulteriori informazioni, vedere [Creare un flusso di lavoro di approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 ## Impostare e utilizzare modelli di flusso di lavoro di approvazione in più fasi
 
 >[!NOTE]
 >
->Anteprima: 26 febbraio 2026
->Rilascio rapido in produzione: venerdì 12 marzo 2026
+>Anteprima: 12 marzo 2026
+>Rilascio rapido in produzione: giovedì 15 aprile 2026
 >Produzione per tutti: venerdì 16 aprile 2026
 
 Ora puoi configurare e riutilizzare modelli di flusso di lavoro di approvazione in più fasi, semplificando l’applicazione di una governance coerente ai diversi flussi di lavoro di approvazione ripetibili.
@@ -59,4 +89,3 @@ Con i modelli di flusso di lavoro di approvazione, puoi:
 * Garantire il coinvolgimento delle parti interessate nella fase giusta
 
 Per ulteriori informazioni, vedere [Creare un modello di workflow di approvazione per i documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
-
