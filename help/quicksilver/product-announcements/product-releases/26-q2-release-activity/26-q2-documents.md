@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 93c22854ccc405c442331ac392d919d63b8a8aa8
+source-git-commit: 7bf762870af2bbc4f4889d66cf713d4533a30ff5
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 7%
+source-wordcount: '549'
+ht-degree: 8%
 
 ---
 
@@ -51,8 +51,6 @@ Adobe enterprise storage è una soluzione di archiviazione basata su cloud che f
 L’accesso allo storage aziendale Adobe apre inoltre la strada a future integrazioni di gestione delle risorse con altri prodotti Adobe, come Adobe Creative Cloud.
 
 Per ulteriori informazioni, consulta [Panoramica sull&#39;archiviazione aziendale di Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
-
-Workfront e Frame.io estendono il processo di revisione e approvazione di base di GenStudio for Performance Marketing con funzioni di revisione e approvazione più strutturate. Le bozze esaminate in questa integrazione sono limitate ai formati supportati da GenStudio for Performance Marketing.
 
 ## Flussi di lavoro di approvazione in più fasi disponibili per le approvazioni unificate
 
