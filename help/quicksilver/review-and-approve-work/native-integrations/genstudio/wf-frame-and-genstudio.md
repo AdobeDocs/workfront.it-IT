@@ -7,8 +7,10 @@ description: Guida introduttiva all’integrazione con GenStudio for Performance
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
+hide: true
+hidefromtoc: true
 exl-id: 4d0c0542-3383-4907-b573-e2ef56117681
-source-git-commit: 8b8f638f089ff967fe7d4fb641b23f5836ac86b5
+source-git-commit: 2b4230acf01f62b53b8e2efe4c21cabbdef28701
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 7%
@@ -88,7 +90,7 @@ Per ulteriori informazioni sulla creazione di modelli di flusso di lavoro di app
 
 Quando un utente avvia una revisione in GenStudio for Performance Marketing, si limita a scegliere il modello necessario. Gli utenti possono modificare facilmente qualsiasi modello di flusso di lavoro di approvazione unificato, aggiungendo o rimuovendo revisori e fasi in qualsiasi momento.
 
-Per ulteriori informazioni, vedere [Richiedi revisione e approvazione](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+Per ulteriori informazioni, vedere [Richiedi revisione e approvazione](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
 
 ## Rivedere e approvare il contenuto della bozza di GenStudio for Performance Marketing nel visualizzatore Frame.io
 
@@ -107,4 +109,4 @@ Per ulteriori informazioni sull&#39;utilizzo del visualizzatore Frame.io, vedere
 
 Una volta che la risorsa è stata sottoposta al processo di revisione e approvazione, puoi visualizzare la decisione di revisione e pubblicare il contenuto direttamente da GenStudio for Performance Marketing.
 
-Per ulteriori informazioni, vedere [Pubblicare contenuti approvati](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
+Per ulteriori informazioni, vedere [Pubblicare contenuti approvati](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
